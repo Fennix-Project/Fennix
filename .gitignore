@@ -1,0 +1,11 @@
+iso_tmp_data
+tools/*
+!tools/website
+!tools/Makefile
+!tools/*.c
+!tools/*.cpp
+!tools/*.cfg
+doxygen-doc
+*.log
+*.img
+*.iso
