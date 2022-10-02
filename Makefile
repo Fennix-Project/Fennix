@@ -105,7 +105,7 @@ build_userspace:
 
 build_image:
 	mkdir -p iso_tmp_data
-	tar cf initrd.tar.gz -C Initrd/ ./ --format=ustar
+	tar cf initrd.tar.gz -C initrd/ ./ --format=ustar
 	cp Kernel/kernel.fsys initrd.tar.gz \
 		iso_tmp_data/
 ifeq ($(BOOTLOADER), lynx)

@@ -5,9 +5,6 @@
 		}
 	],
 	"settings": {
-		"debug.allowBreakpointsEverywhere": true,
-		"files.associations": {
-			"ostream": "cpp"
-		}
+		"debug.allowBreakpointsEverywhere": true
 	}
 }

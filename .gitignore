@@ -6,6 +6,7 @@ tools/*
 !tools/*.cpp
 !tools/*.cfg
 doxygen-doc
+initrd.tar.gz
 *.log
 *.img
 *.iso
