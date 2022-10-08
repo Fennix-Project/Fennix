@@ -23,8 +23,17 @@ default:
 # -netdev tap,id=usernet0,ifname=tap0,script=no,downscript=no
 QEMU = ./$(QEMU_PATH)$(QEMU_ARCH)
 QEMUFLAGS := -display gtk
+
+ifeq ($(OSARCH), amd64)
 QEMUHWACCELERATION = -machine q35 -enable-kvm
 QEMUMEMORY = -m 4G
+else ifeq ($(OSARCH), i686)
+QEMUHWACCELERATION = -machine q35 -enable-kvm
+QEMUMEMORY = -m 4G
+else ifeq ($(OSARCH), aarch64)
+QEMUHWACCELERATION =
+QEMUMEMORY = -m 1G
+endif
 
 ifeq ($(OSARCH), amd64)
 QEMUFLAGS += -device bochs-display -M q35 \
@@ -59,11 +68,10 @@ QEMUFLAGS += -M q35 \
 			 -machine pcspk-audiodev=audio0 \
 			 -device AC97,audiodev=audio0
 else ifeq ($(OSARCH), aarch64)
-QEMUFLAGS += -M virt \
+QEMUFLAGS += -M raspi3b \
 			 -cpu cortex-a57 \
-			 -smp $(shell nproc) \
 			 -serial file:serial.log \
-			 -hda $(OSNAME).iso
+			 -kernel $(OSNAME).img
 endif
 
 doxygen:
@@ -86,8 +94,9 @@ tools:
 	make --quiet -C Kernel prepare
 	make --quiet -C Lynx prepare
 	make --quiet -C Userspace prepare
+	make --quiet -C Drivers prepare
 
-build: build_lynx build_kernel build_userspace build_image
+build: build_lynx build_kernel build_userspace build_drivers build_image
 
 rebuild: clean build
 
@@ -102,6 +111,10 @@ build_kernel:
 
 build_userspace:
 	make --quiet -C Userspace build
+
+build_drivers:
+	make --quiet -C Drivers build
+	cp Drivers/out/* initrd/system/drivers/
 
 build_image:
 	mkdir -p iso_tmp_data
@@ -131,16 +144,21 @@ ifeq ($(OSARCH), i686)
 	cp tools/grub.cfg iso_tmp_data/boot/grub/
 	grub-mkrescue -o $(OSNAME).iso iso_tmp_data
 endif
+ifeq ($(OSARCH), aarch64)
+	$(COMPILER_PATH)/$(COMPILER_ARCH)objcopy Kernel/kernel.fsys -O binary $(OSNAME).img
+endif
 endif
 
-QEMU_UEFI_BIOS :=
 ifeq ($(OSARCH), amd64)
-QEMU_UEFI_BIOS += -bios /usr/share/qemu/OVMF.fd
+QEMU_UEFI_BIOS = -bios /usr/share/qemu/OVMF.fd
 endif
+# ifeq ($(OSARCH), aarch64)
+# QEMU_UEFI_BIOS = -bios -bios /usr/share/AAVMF/AAVMF_CODE.fd
+# endif
 
-vscode_debug: build_kernel build_userspace build_image
+vscode_debug: build_kernel build_userspace build_drivers build_image
 	rm -f serial.log network.log
-	$(QEMU) -S -gdb tcp::1234 -d int -no-shutdown $(QEMU_UEFI_BIOS) -m 4G $(QEMUFLAGS)
+	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 4G $(QEMUFLAGS)
 
 qemu: qemu_vdisk
 	rm -f serial.log network.log
@@ -153,7 +171,9 @@ qemubios: qemu_vdisk
 run: build qemu
 
 clean:
-	rm -rf doxygen-doc iso_tmp_data initrd.tar.gz $(OSNAME).iso
-	make --quiet -C Kernel clean
-	make --quiet -C Lynx clean
-	make --quiet -C Userspace clean
+	rm -rf doxygen-doc iso_tmp_data
+	rm -f initrd/system/drivers/*.drv initrd.tar.gz $(OSNAME).iso $(OSNAME).img
+	make -C Kernel clean
+	make -C Lynx clean
+	make -C Userspace clean
+	make -C Drivers clean

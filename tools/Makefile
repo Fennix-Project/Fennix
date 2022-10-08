@@ -4,18 +4,22 @@ export PATH := $(CROSS_DIR):$(PATH)
 
 QEMU_VERSION = qemu-7.1.0
 
-all: do_rep do_ep do_limine clone_all do_binutils64 do_binutils32 do_binutilsarm64 do_gcc64 do_gcc32 do_gccarm64 do_qemu
+all: do_rep do_ep do_fex do_limine clone_all do_binutils64 do_binutils32 do_binutilsarm64 do_gcc64 do_gcc32 do_gccarm64 do_qemu
 
 clean:
-	rm -f rep ep
+	rm -f rep ep fex
 
 do_rep:
 	gcc -w ReadEthernetPackets.c -o rep
 	chmod +x rep
 
 do_ep:
-	g++ -w e.cpp -o ep
+	g++ -w ErrorParser.cpp -o ep
 	chmod +x ep
+
+do_fex:
+	gcc -w Fex.c -o fex
+	chmod +x fex
 
 do_limine:
 	git clone https://github.com/limine-bootloader/limine.git --branch=v4.x-branch-binary --depth=1
