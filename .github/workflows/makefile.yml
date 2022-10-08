@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          submodules: recursive
 
       - name: Install Doxygen
         run: sudo apt-get install doxygen make -y
@@ -53,37 +55,39 @@ jobs:
 
     - name: Clone All
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C clone_all
+      run: make --quiet -C tools clone_all
 
     - name: Compile Binutils amd64
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C do_binutils64
+      run: make --quiet -C tools do_binutils64
 
     - name: Compile Binutils i686
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C do_binutils32
+      run: make --quiet -C tools do_binutils32
 
     - name: Compile Binutils aarch64
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C do_binutilsarm64
+      run: make --quiet -C tools do_binutilsarm64
 
     - name: Compile GCC amd64
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C do_gcc64
+      run: make --quiet -C tools do_gcc64
 
     - name: Compile GCC i686
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C do_gcc32
+      run: make --quiet -C tools do_gcc32
 
     - name: Compile GCC aarch64
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C do_gccarm64
+      run: make --quiet -C tools do_gccarm64
 
   compilegnuefi:
     name: Build GNU-EFI
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+      with:
+        submodules: recursive
 
     - name: Cache gnu-efi Folder
       id: cache-gnuefi
