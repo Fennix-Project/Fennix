@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['malloc_1205',['Malloc',['../d2/da8/classXalloc_1_1AllocatorV1.html#a05ec1e250517a231d1c4ef2b72f330be',1,'Xalloc::AllocatorV1::Malloc()'],['../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c',1,'malloc(size_t req_size):&#160;liballoc_1_1.c'],['../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c',1,'malloc(size_t):&#160;liballoc_1_1.c']]],
+  ['map_1206',['Map',['../db/d82/classMemory_1_1Virtual.html#a623a607878888ca92c1d6353826112b2',1,'Memory::Virtual::Map(void *VirtualAddress, void *PhysicalAddress, uint64_t Flags)'],['../db/d82/classMemory_1_1Virtual.html#ac8288a8ce13de5c019b1b710e2f75520',1,'Memory::Virtual::Map(void *VirtualAddress, void *PhysicalAddress, uint64_t PageCount, uint64_t Flags)']]],
+  ['memcmp_1207',['memcmp',['../da/d66/string_8h.html#ac376fcece8fcc2d0f8b1cf3de18b10df',1,'memcmp(const void *vl, const void *vr, size_t n):&#160;String.c'],['../d4/db5/String_8c.html#ac376fcece8fcc2d0f8b1cf3de18b10df',1,'memcmp(const void *vl, const void *vr, size_t n):&#160;String.c']]],
+  ['memcpy_1208',['memcpy',['../da/d66/string_8h.html#a14938524dcbeb59d7117ba5e151ad1b1',1,'memcpy(void *dest, const void *src, size_t n):&#160;String.c'],['../d4/db5/String_8c.html#a14938524dcbeb59d7117ba5e151ad1b1',1,'memcpy(void *dest, const void *src, size_t n):&#160;String.c']]],
+  ['memmove_1209',['memmove',['../da/d66/string_8h.html#a802c986820d3866639922b6bc9484f90',1,'memmove(void *dest, const void *src, size_t n):&#160;String.c'],['../d4/db5/String_8c.html#a802c986820d3866639922b6bc9484f90',1,'memmove(void *dest, const void *src, size_t n):&#160;String.c']]],
+  ['memset_1210',['memset',['../da/d66/string_8h.html#a1fd0ab453722ae471fc94da8bdc41661',1,'memset(void *dest, int data, size_t nbytes):&#160;String.c'],['../d4/db5/String_8c.html#a1fd0ab453722ae471fc94da8bdc41661',1,'memset(void *dest, int data, size_t nbytes):&#160;String.c']]]
+];

@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['set_1248',['Set',['../d3/d19/classBitmap.html#a4bf4b9b0c64d38c90825fb2c23aebb8a',1,'Bitmap']]],
+  ['size_1249',['size',['../d6/da1/classVector.html#ae65794ffdcafead495150df393895c7c',1,'Vector::size()'],['../db/d1a/classHashMap.html#ae7a2f576f206fa55d484d848e6ed30ca',1,'HashMap::Size()']]],
+  ['smartsmapclass_1250',['SmartSMAPClass',['../da/ddb/classXalloc_1_1SmartSMAPClass.html#a6c330b6c1ddf67bcfa66bbe3c3959eb9',1,'Xalloc::SmartSMAPClass']]],
+  ['snprintf_5f_1251',['snprintf_',['../d3/d6b/printf_8h.html#abbaf9363f36b73a13dfa6b0a792a60c5',1,'snprintf_(char *s, size_t count, const char *format,...) ATTR_PRINTF(3:&#160;printf.h'],['../d1/d3d/printf_8c.html#ae0630706877a20271a3156f74776a494',1,'snprintf_(char *s, size_t n, const char *format,...):&#160;printf.c']]],
+  ['split_1252',['Split',['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html#ad01d5902954c81bdda02de8e746817b0',1,'Xalloc::AllocatorV1::HeapSegment::Split()'],['../d8/d12/Xalloc_8hpp.html#ab35af3575914faba3a6ae16f6ba0983c',1,'Split():&#160;Xalloc.hpp']]],
+  ['sprintf_5f_1253',['sprintf_',['../d3/d6b/printf_8h.html#aa0320d28406c4c8399830583177fdc77',1,'sprintf_(char *s, const char *format,...) ATTR_PRINTF(2:&#160;printf.h'],['../d1/d3d/printf_8c.html#af1c675fe9e14a82d1d38d7a51fd23616',1,'sprintf_(char *s, const char *format,...):&#160;printf.c']]],
+  ['storefence_1254',['StoreFence',['../d0/db2/namespaceCPU_1_1MemBar.html#a527885d8f1096431333ccd47d1be290b',1,'CPU::MemBar']]],
+  ['strcasecmp_1255',['strcasecmp',['../da/d66/string_8h.html#a3d8dd47ed6e64abdd742b81e73b6f2f2',1,'string.h']]],
+  ['strcat_1256',['strcat',['../da/d66/string_8h.html#afca62bf1b7f91b44ba5c2ada54444fc9',1,'strcat(char *destination, const char *source):&#160;String.c'],['../d4/db5/String_8c.html#afca62bf1b7f91b44ba5c2ada54444fc9',1,'strcat(char *destination, const char *source):&#160;String.c']]],
+  ['strchr_1257',['strchr',['../da/d66/string_8h.html#a88b07011b83b06b8856027f02d55a880',1,'string.h']]],
+  ['strcmp_1258',['strcmp',['../da/d66/string_8h.html#a5206cb6f52495066146ae3a41d166eb7',1,'strcmp(const char *l, const char *r):&#160;String.c'],['../d4/db5/String_8c.html#a5206cb6f52495066146ae3a41d166eb7',1,'strcmp(const char *l, const char *r):&#160;String.c']]],
+  ['strcpy_1259',['strcpy',['../da/d66/string_8h.html#ac137d536ff0037b3856083cb8a1c19a7',1,'strcpy(char *destination, const char *source):&#160;String.c'],['../d4/db5/String_8c.html#ac137d536ff0037b3856083cb8a1c19a7',1,'strcpy(char *destination, const char *source):&#160;String.c']]],
+  ['strdup_1260',['strdup',['../da/d66/string_8h.html#a73d3b899fd0ce1012c7cc634f62401ed',1,'string.h']]],
+  ['strlen_1261',['strlen',['../da/d66/string_8h.html#a7dcc610f4b04a8ee418f03a6d9256629',1,'strlen(const char s[]):&#160;String.c'],['../d4/db5/String_8c.html#a7dcc610f4b04a8ee418f03a6d9256629',1,'strlen(const char s[]):&#160;String.c']]],
+  ['strncasecmp_1262',['strncasecmp',['../da/d66/string_8h.html#ade7c903cf6af190b441dc5e59372afed',1,'string.h']]],
+  ['strncmp_1263',['strncmp',['../da/d66/string_8h.html#a9afae77e412a26e6c01e26b89d5c2b47',1,'strncmp(const char *s1, const char *s2, unsigned long n):&#160;string.h'],['../d4/db5/String_8c.html#a07f4a84c11c106e95c32b6ab509346ef',1,'strncmp(const char *s1, const char *s2, size_t n):&#160;String.c']]],
+  ['strncpy_1264',['strncpy',['../da/d66/string_8h.html#a12f4a7953a24e197c8d26bf0493f8225',1,'strncpy(char *destination, const char *source, unsigned long num):&#160;String.c'],['../d4/db5/String_8c.html#a12f4a7953a24e197c8d26bf0493f8225',1,'strncpy(char *destination, const char *source, unsigned long num):&#160;String.c']]],
+  ['strnlen_5fs_5f_1265',['strnlen_s_',['../d1/d3d/printf_8c.html#a2d64f97548a8f2ea8b71211a4afc86a3',1,'printf.c']]],
+  ['strrchr_1266',['strrchr',['../da/d66/string_8h.html#a104a20698dd8f00e7d2711c811ea72ac',1,'string.h']]],
+  ['strstr_1267',['strstr',['../da/d66/string_8h.html#a4a710d86541afc6b7dafddcdb4b1c94f',1,'strstr(const char *haystack, const char *needle):&#160;String.c'],['../d4/db5/String_8c.html#a4a710d86541afc6b7dafddcdb4b1c94f',1,'strstr(const char *haystack, const char *needle):&#160;String.c']]],
+  ['strtok_1268',['strtok',['../da/d66/string_8h.html#ab0ad8275543a34aae52b7bcd02e79753',1,'string.h']]],
+  ['swappage_1269',['SwapPage',['../d6/d05/classMemory_1_1Physical.html#a4c6cef81fb24d43527cfab71f30648d3',1,'Memory::Physical']]],
+  ['swappages_1270',['SwapPages',['../d6/d05/classMemory_1_1Physical.html#a34205ff625987bba4571198cea354758',1,'Memory::Physical']]],
+  ['sysdbgwrite_1271',['SysDbgWrite',['../db/d7b/Debugger_8cpp.html#abc59a019ad3de095adabdb813af7a867',1,'SysDbgWrite(enum DebugLevel Level, const char *File, int Line, const char *Function, const char *Format,...):&#160;Debugger.cpp'],['../db/d16/debug_8h.html#abc59a019ad3de095adabdb813af7a867',1,'SysDbgWrite(enum DebugLevel Level, const char *File, int Line, const char *Function, const char *Format,...):&#160;Debugger.cpp']]],
+  ['sysdbgwriteline_1272',['SysDbgWriteLine',['../db/d7b/Debugger_8cpp.html#a74f3fc61fe0e1344da54caea3bdc2d4f',1,'SysDbgWriteLine(enum DebugLevel Level, const char *File, int Line, const char *Function, const char *Format,...):&#160;Debugger.cpp'],['../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f',1,'SysDbgWriteLine(enum DebugLevel Level, const char *File, int Line, const char *Function, const char *Format,...):&#160;Debugger.cpp']]]
+];

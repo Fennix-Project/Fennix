@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['b_1318',['b',['../d3/df0/limine_8h.html#a3e2198ef1488deb36a087a866a45280b',1,'limine_uuid']]],
+  ['base_1319',['base',['../d3/df0/limine_8h.html#a27ffe8338bdc73b6ae4f491914117af7',1,'limine_memmap_entry']]],
+  ['baseaddress_1320',['BaseAddress',['../db/d96/structBootInfo.html#aa77a54ab865bf5cbf639e25395bcf0e8',1,'BootInfo::FramebufferInfo::BaseAddress()'],['../db/d96/structBootInfo.html#abf81547812f6b2c7d0ccd5a424e2a4ac',1,'BootInfo::MemoryInfo::MemoryEntryInfo::BaseAddress()']]],
+  ['binfo_1321',['bInfo',['../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf',1,'bInfo():&#160;Kernel.cpp'],['../d0/daa/kernel_8h.html#a68decd7ed883f5721759653b86acd3c1',1,'bInfo():&#160;Kernel.cpp']]],
+  ['biosdev_1322',['biosdev',['../d5/dba/multiboot2_8h.html#a2bcf5d32579dc281148607d937ca099b',1,'multiboot_tag_bootdev']]],
+  ['bitsperpixel_1323',['BitsPerPixel',['../db/d96/structBootInfo.html#a20ba782c1ee87e99a6ad8241c37a0c90',1,'BootInfo::FramebufferInfo']]],
+  ['block_1324',['block',['../d2/dc3/liballoc__1__1_8c.html#a013d59e9528555a0c80853e286d5cf83',1,'liballoc_minor']]],
+  ['blue_1325',['blue',['../d5/dba/multiboot2_8h.html#a6f8d17b0f35ff4cbf9c51dcbc3ea7d01',1,'multiboot_color']]],
+  ['blue_5fmask_5fshift_1326',['blue_mask_shift',['../de/d6b/structlimine__framebuffer.html#aa1fb35dd595815689bac0ea43ef15998',1,'limine_framebuffer']]],
+  ['blue_5fmask_5fsize_1327',['blue_mask_size',['../de/d6b/structlimine__framebuffer.html#a64962e7919b48842f912724327309fc1',1,'limine_framebuffer']]],
+  ['bluemaskshift_1328',['BlueMaskShift',['../db/d96/structBootInfo.html#ae5a7673165f8660e494eb2a10eec9158',1,'BootInfo::FramebufferInfo']]],
+  ['bluemasksize_1329',['BlueMaskSize',['../db/d96/structBootInfo.html#aebd62d049711f930e865bc971fd5a1b8',1,'BootInfo::FramebufferInfo']]],
+  ['boot_5ftime_1330',['boot_time',['../d3/df0/limine_8h.html#afd90e4d04eb15b0bdaecc48017e2096b',1,'limine_boot_time_response']]],
+  ['bootloader_1331',['Bootloader',['../db/d96/structBootInfo.html#a0f3cc4140c9521840c56f0f0d86ff770',1,'BootInfo']]],
+  ['bootloaderinforequest_1332',['BootloaderInfoRequest',['../d3/d1d/Limine_8c.html#a4762b7cada64399acb562067ca5674bf',1,'Limine.c']]],
+  ['bpp_1333',['bpp',['../de/d6b/structlimine__framebuffer.html#aa32c271905e117417a6ab1107190d4ae',1,'limine_framebuffer']]],
+  ['bss_5fend_5faddr_1334',['bss_end_addr',['../d5/dba/multiboot2_8h.html#ac3de23d94c391584665ba64757451a37',1,'multiboot_header_tag_address']]],
+  ['buffer_1335',['buffer',['../d0/d3e/structoutput__gadget__t.html#adb0943c6d749c492c89632fca3147517',1,'output_gadget_t::buffer()'],['../d3/d19/classBitmap.html#a751ccc209d0511ad550350ac31f27f39',1,'Bitmap::Buffer()']]]
+];

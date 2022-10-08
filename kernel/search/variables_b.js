@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['l_5fallocated_1413',['l_allocated',['../d2/dc3/liballoc__1__1_8c.html#ab0e0c20055b59102841b90dc4ec55610',1,'liballoc_1_1.c']]],
+  ['l_5fbestbet_1414',['l_bestBet',['../d2/dc3/liballoc__1__1_8c.html#aa564d1a8832090131b83d62eae1f07d7',1,'liballoc_1_1.c']]],
+  ['l_5ferrorcount_1415',['l_errorCount',['../d2/dc3/liballoc__1__1_8c.html#af83e911f592858658db8dba2a74f5772',1,'liballoc_1_1.c']]],
+  ['l_5finuse_1416',['l_inuse',['../d2/dc3/liballoc__1__1_8c.html#a2ce5de2eb7b8595f398caf844a033cb1',1,'liballoc_1_1.c']]],
+  ['l_5fmemroot_1417',['l_memRoot',['../d2/dc3/liballoc__1__1_8c.html#a650715799a325fedc4d7b07a181378d9',1,'liballoc_1_1.c']]],
+  ['l_5fpagecount_1418',['l_pageCount',['../d2/dc3/liballoc__1__1_8c.html#add6e2a7ea92e32a539ee378a57b6a933',1,'liballoc_1_1.c']]],
+  ['l_5fpagesize_1419',['l_pageSize',['../d2/dc3/liballoc__1__1_8c.html#a55d43215a0f1dbd2425ffe4620674afd',1,'liballoc_1_1.c']]],
+  ['l_5fpossibleoverruns_1420',['l_possibleOverruns',['../d2/dc3/liballoc__1__1_8c.html#a48c2c6cb4bd97dd911ef24ff2a42ca5d',1,'liballoc_1_1.c']]],
+  ['l_5fwarningcount_1421',['l_warningCount',['../d2/dc3/liballoc__1__1_8c.html#a2d9b708c1e8825a6bb6612661bc4bdbd',1,'liballoc_1_1.c']]],
+  ['last_1422',['Last',['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html#a3d68552b537282d06b07f1fe29591448',1,'Xalloc::AllocatorV1::HeapSegment::Last()'],['../d8/d12/Xalloc_8hpp.html#a3d813a0c048654dad36779174d5b4597',1,'Last():&#160;Xalloc.hpp']]],
+  ['lastsegment_1423',['LastSegment',['../d2/da8/classXalloc_1_1AllocatorV1.html#a91cbb499de5d2154cb3823b23fd33c3d',1,'Xalloc::AllocatorV1']]],
+  ['len_1424',['len',['../d5/dba/multiboot2_8h.html#a6bfa44919a328492fa4e3d6239a23352',1,'multiboot_mmap_entry']]],
+  ['length_1425',['length',['../d3/df0/limine_8h.html#a34c1e960716f18d50e6b19bba21457f6',1,'limine_memmap_entry::length()'],['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html#ae1df02f589ae4248dbe91b159454872a',1,'Xalloc::AllocatorV1::HeapSegment::Length()'],['../db/d96/structBootInfo.html#a414e98b07a8547afc9f2096a9d2dd02d',1,'BootInfo::MemoryInfo::MemoryEntryInfo::Length()'],['../db/d96/structBootInfo.html#a45062c8053f4908b5c95951cdf290e2f',1,'BootInfo::RSDPInfo::Length()'],['../d8/d12/Xalloc_8hpp.html#a2e33a2b8093009ed89b4fd620e265f0a',1,'Length():&#160;Xalloc.hpp'],['../d9/d36/binfo_8h.html#af8d8a0e464944d6e219e87ef2f33d2e0',1,'Length():&#160;binfo.h']]],
+  ['load_5faddr_1426',['load_addr',['../d5/dba/multiboot2_8h.html#a54e4094be002e6572caa5d93b09ab74c',1,'multiboot_header_tag_address']]],
+  ['load_5fbase_5faddr_1427',['load_base_addr',['../d5/dba/multiboot2_8h.html#a5174a5dc1c2fd330cb9423502c188c71',1,'multiboot_tag_load_base_addr']]],
+  ['load_5fend_5faddr_1428',['load_end_addr',['../d5/dba/multiboot2_8h.html#a43533259ca37170f4f40df16086baba5',1,'multiboot_header_tag_address']]]
+];
