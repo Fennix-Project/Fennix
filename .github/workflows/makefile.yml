@@ -106,7 +106,7 @@ jobs:
 
     - name: Get GNU-EFI source code and compile it
       if: steps.cache-gnuefi.outputs.cache-hit != 'true'
-      run: make Lynx prepare
+      run: make --quiet -C Lynx prepare
 
   analyze:
     name: Analyze with CodeQL
