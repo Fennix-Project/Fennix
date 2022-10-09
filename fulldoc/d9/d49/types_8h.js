@@ -58,6 +58,7 @@ var types_8h =
     [ "UINT_LEAST8_MAX", "d9/d49/types_8h.html#a2a80bde77ee1698d0f42f334adad4f2b", null ],
     [ "UINTMAX_MAX", "d9/d49/types_8h.html#aa54fd5210434219e9027bfa0f0e325c8", null ],
     [ "UINTPTR_MAX", "d9/d49/types_8h.html#ab2355300ea19395357e62d780f4dd073", null ],
+    [ "UNUSED", "d9/d49/types_8h.html#a86d500a34c624c2cae56bc25a31b12f3", null ],
     [ "va_arg", "d9/d49/types_8h.html#a9cfd655f1203c9a345ddd90446f0bcee", null ],
     [ "va_end", "d9/d49/types_8h.html#a823b205416e9129825841b74c3bf8484", null ],
     [ "va_start", "d9/d49/types_8h.html#aa0628ab596c3d7e78f5e08c2d98e24da", null ],

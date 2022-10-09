@@ -10,6 +10,17 @@
         <Path>index.html</Path>
        </Node>
        <Node>
+        <Name>Core components</Name>
+        <Path>d9/d75/md_Kernel_core_README.html</Path>
+        <Subnodes>
+         <Node>
+          <Name>💾 Memory</Name>
+          <Path>d9/d75/md_Kernel_core_README.html</Path>
+          <Anchor>autotoc_md2</Anchor>
+         </Node>
+        </Subnodes>
+       </Node>
+       <Node>
         <Name>Kernel</Name>
         <Path>da/dc9/md_Kernel_README.html</Path>
        </Node>
@@ -113,6 +124,10 @@
             <Path>d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html</Path>
            </Node>
            <Node>
+            <Name>Video</Name>
+            <Path>d6/de2/namespaceVideo.html</Path>
+           </Node>
+           <Node>
             <Name>Xalloc</Name>
             <Path>dc/d0a/namespaceXalloc.html</Path>
            </Node>
@@ -133,6 +148,10 @@
            <Node>
             <Name>Variables</Name>
             <Path>namespacemembers_vars.html</Path>
+           </Node>
+           <Node>
+            <Name>Typedefs</Name>
+            <Path>namespacemembers_type.html</Path>
            </Node>
            <Node>
             <Name>Enumerations</Name>
@@ -360,7 +379,7 @@
                <Node>
                 <Name>Virtual</Name>
                 <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                <Anchor>a7e9c1cb1a627b543e401f93147bcae90</Anchor>
+                <Anchor>acc634057cea394c0bee246c5de84f9a2</Anchor>
                </Node>
                <Node>
                 <Name>~Virtual</Name>
@@ -469,6 +488,306 @@
                 <Name>Port</Name>
                 <Path>d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html</Path>
                 <Anchor>ab8fe0fc3fd305d14e496ee8d63b1e144</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Video</Name>
+            <Path>d6/de2/namespaceVideo.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>_PSF1_FONT</Name>
+              <Path>d6/de2/namespaceVideo.html</Path>
+              <Anchor>db/de0/structVideo_1_1__PSF1__FONT</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>GlyphBuffer</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a9db860f01297ccd87f68bc21c3332db0</Anchor>
+               </Node>
+               <Node>
+                <Name>Header</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>ab65d2a66ee7342ccae43f718725cca3c</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>_PSF2_FONT</Name>
+              <Path>d6/de2/namespaceVideo.html</Path>
+              <Anchor>d4/df9/structVideo_1_1__PSF2__FONT</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>GlyphBuffer</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>ab080fce1e72677ea3d7657521f08b1c7</Anchor>
+               </Node>
+               <Node>
+                <Name>Header</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a45f30d390ec8b6f9accc74e4ed103d94</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Display</Name>
+              <Path>db/d81/classVideo_1_1Display.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Display</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>ab778cbefca0503bdd913e452647b1ead</Anchor>
+               </Node>
+               <Node>
+                <Name>~Display</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>a2834a714dcb206baa74892957d025fe8</Anchor>
+               </Node>
+               <Node>
+                <Name>ClearBuffer</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>a7f23cd22f88c004958f8fda064d669b3</Anchor>
+               </Node>
+               <Node>
+                <Name>CreateBuffer</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>a87721e0bf91caa057f70f661c6ad4998</Anchor>
+               </Node>
+               <Node>
+                <Name>DeleteBuffer</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>ae29244a6ffd291cdee9d7b05c780098d</Anchor>
+               </Node>
+               <Node>
+                <Name>GetCurrentFont</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>a1109e40b9c8f5af0cc31ed708fae88e2</Anchor>
+               </Node>
+               <Node>
+                <Name>GetPixel</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>abd4c5c00303ee20b32f7e71ff596c7a0</Anchor>
+               </Node>
+               <Node>
+                <Name>Print</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>ac793e2ce38d124da59fc40d8324bb4c7</Anchor>
+               </Node>
+               <Node>
+                <Name>Scroll</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>a5c4acb83008add3aa6605abd1d7baa97</Anchor>
+               </Node>
+               <Node>
+                <Name>SetBuffer</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>a776c5cf7a196100de3050c86c7510656</Anchor>
+               </Node>
+               <Node>
+                <Name>SetCurrentFont</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>a4fdce949a25588b0e135cde82b9e00e1</Anchor>
+               </Node>
+               <Node>
+                <Name>SetPixel</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>ae52a43d1cf247cf0dd03787b31e5b880</Anchor>
+               </Node>
+               <Node>
+                <Name>Buffers</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>ad8769ac3fe40ab8b8b2f1741316b10da</Anchor>
+               </Node>
+               <Node>
+                <Name>CurrentFont</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>a468d3a2ad204e1e61f90bbaa50ad3a1f</Anchor>
+               </Node>
+               <Node>
+                <Name>framebuffer</Name>
+                <Path>db/d81/classVideo_1_1Display.html</Path>
+                <Anchor>ae18e5ee42467343b65baf26ada6056e9</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Font</Name>
+              <Path>d3/d41/classVideo_1_1Font.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Font</Name>
+                <Path>d3/d41/classVideo_1_1Font.html</Path>
+                <Anchor>a7ab20d1c4b29ab1d48a4e0337b190f0c</Anchor>
+               </Node>
+               <Node>
+                <Name>~Font</Name>
+                <Path>d3/d41/classVideo_1_1Font.html</Path>
+                <Anchor>a361be4d37435de6c586b38a0ed9f270a</Anchor>
+               </Node>
+               <Node>
+                <Name>GetInfo</Name>
+                <Path>d3/d41/classVideo_1_1Font.html</Path>
+                <Anchor>ab7be6986d30fb8693b774be2e022404c</Anchor>
+               </Node>
+               <Node>
+                <Name>Info</Name>
+                <Path>d3/d41/classVideo_1_1Font.html</Path>
+                <Anchor>a2d2fe7b2de6139808eb6cc1d51094c3c</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>FontInfo</Name>
+              <Path>d6/de2/namespaceVideo.html</Path>
+              <Anchor>d5/d8f/structVideo_1_1FontInfo</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>EndAddress</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a6222a2129a2d35a1c962c2092ff65014</Anchor>
+               </Node>
+               <Node>
+                <Name>Height</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a500ad0d6a9725466dc888cd5c9b0abeb</Anchor>
+               </Node>
+               <Node>
+                <Name>PSF1Font</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>adf3b5d00d2074bf6d8b24f70aa3d7e01</Anchor>
+               </Node>
+               <Node>
+                <Name>PSF2Font</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>af415854c2e6502bc9af6558aa8256778</Anchor>
+               </Node>
+               <Node>
+                <Name>StartAddress</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>abd50c0abcfbed961fbdf81a40458fc89</Anchor>
+               </Node>
+               <Node>
+                <Name>Type</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a4b5e1b67ada41501e455181240ee9118</Anchor>
+               </Node>
+               <Node>
+                <Name>Width</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a1d593c6561eee19e2210a4b62ef68ea4</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>PSF1_HEADER</Name>
+              <Path>d6/de2/namespaceVideo.html</Path>
+              <Anchor>dd/dbd/structVideo_1_1PSF1__HEADER</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>charsize</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a84f5983df6576f841a2ba510eef2f28c</Anchor>
+               </Node>
+               <Node>
+                <Name>magic</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a32e1a9248a52a27cd7f3b94760a5d8a5</Anchor>
+               </Node>
+               <Node>
+                <Name>mode</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a340c0b75c12613244cf5a8a1ead8b0c1</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>PSF2_HEADER</Name>
+              <Path>d6/de2/namespaceVideo.html</Path>
+              <Anchor>db/dd0/structVideo_1_1PSF2__HEADER</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>charsize</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a15b1a4745286471133c9ddceda268928</Anchor>
+               </Node>
+               <Node>
+                <Name>flags</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a8377fc3bf0d2fdf5ecc59936a96e3aa3</Anchor>
+               </Node>
+               <Node>
+                <Name>headersize</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a7c0e05288ee8669d2bf26f5c186ca908</Anchor>
+               </Node>
+               <Node>
+                <Name>height</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a36e20807bf0d48c7384c2659ab0530d4</Anchor>
+               </Node>
+               <Node>
+                <Name>length</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>ab074b2c15c3182b218060089c36fbeb6</Anchor>
+               </Node>
+               <Node>
+                <Name>magic</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a82207b771237383a3b17e5070965a680</Anchor>
+               </Node>
+               <Node>
+                <Name>version</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>abf3fea41de0a3e4cb2d09554c7256046</Anchor>
+               </Node>
+               <Node>
+                <Name>width</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a49483d30af005e8ea02ec966f0025851</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>ScreenBuffer</Name>
+              <Path>d6/de2/namespaceVideo.html</Path>
+              <Anchor>d6/d92/structVideo_1_1ScreenBuffer</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>Buffer</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>aca9ee49f5a73eef6efe426ecee15bd24</Anchor>
+               </Node>
+               <Node>
+                <Name>Color</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a1452aa2f8749bd33cc4522af1a6abdde</Anchor>
+               </Node>
+               <Node>
+                <Name>CursorX</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a76af49c502cb7134be988b9e261837fe</Anchor>
+               </Node>
+               <Node>
+                <Name>CursorY</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>aca20fd5febd3235e90cbcdd3b14856e5</Anchor>
+               </Node>
+               <Node>
+                <Name>Height</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a2fba698823b9f8b3f7aaaff7aa87451f</Anchor>
+               </Node>
+               <Node>
+                <Name>Size</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>a81cc121985fa8d6af95d42937e02cefa</Anchor>
+               </Node>
+               <Node>
+                <Name>Width</Name>
+                <Path>d6/de2/namespaceVideo.html</Path>
+                <Anchor>af8f44583b704b3d6e044d993fa0049ba</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -3178,6 +3497,48 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>Time</Name>
+            <Path>de/d99/time_8hpp.html</Path>
+            <Anchor>d6/dba/structTime</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Counter</Name>
+              <Path>de/d99/time_8hpp.html</Path>
+              <Anchor>aba0b563d5daec6b6ff955c729ca60607</Anchor>
+             </Node>
+             <Node>
+              <Name>Day</Name>
+              <Path>de/d99/time_8hpp.html</Path>
+              <Anchor>aaf68e3071a44189bf703e2983810187e</Anchor>
+             </Node>
+             <Node>
+              <Name>Hour</Name>
+              <Path>de/d99/time_8hpp.html</Path>
+              <Anchor>a7a20b750241ea94a0b6cbbb3fdf30ffb</Anchor>
+             </Node>
+             <Node>
+              <Name>Minute</Name>
+              <Path>de/d99/time_8hpp.html</Path>
+              <Anchor>a03362d37bd6c8bd5878f165ea5b35107</Anchor>
+             </Node>
+             <Node>
+              <Name>Month</Name>
+              <Path>de/d99/time_8hpp.html</Path>
+              <Anchor>aba3565fbfe3f2ca36c2b35041fdaa783</Anchor>
+             </Node>
+             <Node>
+              <Name>Second</Name>
+              <Path>de/d99/time_8hpp.html</Path>
+              <Anchor>ac1e4fb64e5d6a81c9fbbf1cc5006a3bd</Anchor>
+             </Node>
+             <Node>
+              <Name>Year</Name>
+              <Path>de/d99/time_8hpp.html</Path>
+              <Anchor>a9970a3ff3b8dd1e24452a206cf12dc55</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>Vector</Name>
             <Path>d6/da1/classVector.html</Path>
             <Subnodes>
@@ -3415,6 +3776,10 @@
               <Path>functions_x.html</Path>
              </Node>
              <Node>
+              <Name>y</Name>
+              <Path>functions_y.html</Path>
+             </Node>
+             <Node>
               <Name>z</Name>
               <Path>functions_z.html</Path>
              </Node>
@@ -3519,6 +3884,10 @@
              <Node>
               <Name>x</Name>
               <Path>functions_vars_x.html</Path>
+             </Node>
+             <Node>
+              <Name>y</Name>
+              <Path>functions_vars_y.html</Path>
              </Node>
              <Node>
               <Name>z</Name>
@@ -3627,9 +3996,25 @@
                   <Anchor>a0d106989c5e6c864175365b9ed51c960</Anchor>
                  </Node>
                  <Node>
+                  <Name>PageTable</Name>
+                  <Path>d7/d8d/CPU_8cpp.html</Path>
+                  <Anchor>a91241794b7196a732d94084fc08f6ec5</Anchor>
+                 </Node>
+                 <Node>
                   <Name>Pause</Name>
                   <Path>d7/d8d/CPU_8cpp.html</Path>
                   <Anchor>aeec952406880ca5e214245f461edb321</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Time.cpp</Name>
+                <Path>d8/d38/Time_8cpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>ReadClock</Name>
+                  <Path>d8/d38/Time_8cpp.html</Path>
+                  <Anchor>a0db627bc286db2f619f33594544dac1b</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -4121,6 +4506,42 @@
                  <Node>
                   <Name>VirtualMemoryManager.cpp</Name>
                   <Path>d8/d49/VirtualMemoryManager_8cpp.html</Path>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Video</Name>
+                <Path>dir_24c4601329696c7dee1f2c5fc30cd0af.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Display.cpp</Name>
+                  <Path>d8/d17/Display_8cpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>NEWLOCK</Name>
+                    <Path>d8/d17/Display_8cpp.html</Path>
+                    <Anchor>ae3856b28c8c5027ad9e56cb20132ca50</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_binary_files_ter_powerline_v12n_psf_end</Name>
+                    <Path>d8/d17/Display_8cpp.html</Path>
+                    <Anchor>af3584d8eb8e41bc378a6b822a9240afc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_binary_files_ter_powerline_v12n_psf_size</Name>
+                    <Path>d8/d17/Display_8cpp.html</Path>
+                    <Anchor>a0243fd037ded9ef1e949fd288635addd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_binary_files_ter_powerline_v12n_psf_start</Name>
+                    <Path>d8/d17/Display_8cpp.html</Path>
+                    <Anchor>ab8f982214f8c06c36657378415aad3c9</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Font.cpp</Name>
+                  <Path>d8/d0c/Font_8cpp.html</Path>
                  </Node>
                 </Subnodes>
                </Node>
@@ -7439,6 +7860,11 @@
                   <Anchor>ae5b51e2c5cab264f8b0546bc50f21c4e</Anchor>
                  </Node>
                  <Node>
+                  <Name>PageTable</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a91241794b7196a732d94084fc08f6ec5</Anchor>
+                 </Node>
+                 <Node>
                   <Name>Pause</Name>
                   <Path>df/dbe/cpu_8hpp.html</Path>
                   <Anchor>aeec952406880ca5e214245f461edb321</Anchor>
@@ -7535,6 +7961,368 @@
                   <Name>SysDbgWriteLine</Name>
                   <Path>db/d16/debug_8h.html</Path>
                   <Anchor>a74f3fc61fe0e1344da54caea3bdc2d4f</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>display.hpp</Name>
+                <Path>d2/da4/display_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>PSF1_HEADER</Name>
+                  <Path>d6/de2/namespaceVideo.html</Path>
+                  <Anchor>dd/dbd/structVideo_1_1PSF1__HEADER</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>charsize</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a84f5983df6576f841a2ba510eef2f28c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>magic</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a32e1a9248a52a27cd7f3b94760a5d8a5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>mode</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a340c0b75c12613244cf5a8a1ead8b0c1</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>PSF2_HEADER</Name>
+                  <Path>d6/de2/namespaceVideo.html</Path>
+                  <Anchor>db/dd0/structVideo_1_1PSF2__HEADER</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>charsize</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a15b1a4745286471133c9ddceda268928</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>flags</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a8377fc3bf0d2fdf5ecc59936a96e3aa3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>headersize</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a7c0e05288ee8669d2bf26f5c186ca908</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>height</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a36e20807bf0d48c7384c2659ab0530d4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>length</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>ab074b2c15c3182b218060089c36fbeb6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>magic</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a82207b771237383a3b17e5070965a680</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>version</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>abf3fea41de0a3e4cb2d09554c7256046</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>width</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a49483d30af005e8ea02ec966f0025851</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>_PSF1_FONT</Name>
+                  <Path>d6/de2/namespaceVideo.html</Path>
+                  <Anchor>db/de0/structVideo_1_1__PSF1__FONT</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>GlyphBuffer</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a9db860f01297ccd87f68bc21c3332db0</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Header</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>ab65d2a66ee7342ccae43f718725cca3c</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>_PSF2_FONT</Name>
+                  <Path>d6/de2/namespaceVideo.html</Path>
+                  <Anchor>d4/df9/structVideo_1_1__PSF2__FONT</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>GlyphBuffer</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>ab080fce1e72677ea3d7657521f08b1c7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Header</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a45f30d390ec8b6f9accc74e4ed103d94</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>FontInfo</Name>
+                  <Path>d6/de2/namespaceVideo.html</Path>
+                  <Anchor>d5/d8f/structVideo_1_1FontInfo</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>EndAddress</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a6222a2129a2d35a1c962c2092ff65014</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Height</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a500ad0d6a9725466dc888cd5c9b0abeb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PSF1Font</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>adf3b5d00d2074bf6d8b24f70aa3d7e01</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PSF2Font</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>af415854c2e6502bc9af6558aa8256778</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>StartAddress</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>abd50c0abcfbed961fbdf81a40458fc89</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Type</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a4b5e1b67ada41501e455181240ee9118</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Width</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a1d593c6561eee19e2210a4b62ef68ea4</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Font</Name>
+                  <Path>d3/d41/classVideo_1_1Font.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Font</Name>
+                    <Path>d3/d41/classVideo_1_1Font.html</Path>
+                    <Anchor>a7ab20d1c4b29ab1d48a4e0337b190f0c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~Font</Name>
+                    <Path>d3/d41/classVideo_1_1Font.html</Path>
+                    <Anchor>a361be4d37435de6c586b38a0ed9f270a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetInfo</Name>
+                    <Path>d3/d41/classVideo_1_1Font.html</Path>
+                    <Anchor>ab7be6986d30fb8693b774be2e022404c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Info</Name>
+                    <Path>d3/d41/classVideo_1_1Font.html</Path>
+                    <Anchor>a2d2fe7b2de6139808eb6cc1d51094c3c</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>ScreenBuffer</Name>
+                  <Path>d6/de2/namespaceVideo.html</Path>
+                  <Anchor>d6/d92/structVideo_1_1ScreenBuffer</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>Buffer</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>aca9ee49f5a73eef6efe426ecee15bd24</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Color</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a1452aa2f8749bd33cc4522af1a6abdde</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CursorX</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a76af49c502cb7134be988b9e261837fe</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CursorY</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>aca20fd5febd3235e90cbcdd3b14856e5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Height</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a2fba698823b9f8b3f7aaaff7aa87451f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Size</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>a81cc121985fa8d6af95d42937e02cefa</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Width</Name>
+                    <Path>d6/de2/namespaceVideo.html</Path>
+                    <Anchor>af8f44583b704b3d6e044d993fa0049ba</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Display</Name>
+                  <Path>db/d81/classVideo_1_1Display.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Display</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>ab778cbefca0503bdd913e452647b1ead</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~Display</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>a2834a714dcb206baa74892957d025fe8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ClearBuffer</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>a7f23cd22f88c004958f8fda064d669b3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CreateBuffer</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>a87721e0bf91caa057f70f661c6ad4998</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DeleteBuffer</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>ae29244a6ffd291cdee9d7b05c780098d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetCurrentFont</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>a1109e40b9c8f5af0cc31ed708fae88e2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetPixel</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>abd4c5c00303ee20b32f7e71ff596c7a0</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Print</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>ac793e2ce38d124da59fc40d8324bb4c7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Scroll</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>a5c4acb83008add3aa6605abd1d7baa97</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetBuffer</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>a776c5cf7a196100de3050c86c7510656</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetCurrentFont</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>a4fdce949a25588b0e135cde82b9e00e1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SetPixel</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>ae52a43d1cf247cf0dd03787b31e5b880</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Buffers</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>ad8769ac3fe40ab8b8b2f1741316b10da</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CurrentFont</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>a468d3a2ad204e1e61f90bbaa50ad3a1f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>framebuffer</Name>
+                    <Path>db/d81/classVideo_1_1Display.html</Path>
+                    <Anchor>ae18e5ee42467343b65baf26ada6056e9</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>PSF1_MAGIC0</Name>
+                  <Path>d2/da4/display_8hpp.html</Path>
+                  <Anchor>ac2785af8bc63d910ac0a0460c4436764</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PSF1_MAGIC1</Name>
+                  <Path>d2/da4/display_8hpp.html</Path>
+                  <Anchor>ae8ba5424309beeeb880aff163c966455</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PSF2_MAGIC0</Name>
+                  <Path>d2/da4/display_8hpp.html</Path>
+                  <Anchor>a807f26f402a643a41d9574e1d1a32d2d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PSF2_MAGIC1</Name>
+                  <Path>d2/da4/display_8hpp.html</Path>
+                  <Anchor>ab800976b1b63c14060a01b090afeb066</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PSF2_MAGIC2</Name>
+                  <Path>d2/da4/display_8hpp.html</Path>
+                  <Anchor>a9af95f6db1895726f2c62c93bd5da180</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PSF2_MAGIC3</Name>
+                  <Path>d2/da4/display_8hpp.html</Path>
+                  <Anchor>ac8bd12447ffadf6aaec6c9e293516783</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PSF1_FONT</Name>
+                  <Path>d2/da4/display_8hpp.html</Path>
+                  <Anchor>a2137843eb8fe9874ab8b683ac3bcbc30</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PSF2_FONT</Name>
+                  <Path>d2/da4/display_8hpp.html</Path>
+                  <Anchor>a7137318579a094bc14839573852979c4</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FontType</Name>
+                  <Path>d2/da4/display_8hpp.html</Path>
+                  <Anchor>a1d549e9c98577a9e2ddc84723ac9ac1c</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>None</Name>
+                    <Path>d2/da4/display_8hpp.html</Path>
+                    <Anchor>a1d549e9c98577a9e2ddc84723ac9ac1ca7760e482cfbf6af468fa8b9de03ea00b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PCScreenFont1</Name>
+                    <Path>d2/da4/display_8hpp.html</Path>
+                    <Anchor>a1d549e9c98577a9e2ddc84723ac9ac1cac1878e6cbf133b2686f85c7a6bb0a4f4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PCScreenFont2</Name>
+                    <Path>d2/da4/display_8hpp.html</Path>
+                    <Anchor>a1d549e9c98577a9e2ddc84723ac9ac1ca993154ea1df2801b562f76f51fc974f4</Anchor>
+                   </Node>
+                  </Subnodes>
                  </Node>
                 </Subnodes>
                </Node>
@@ -7935,7 +8723,7 @@
                    <Node>
                     <Name>Virtual</Name>
                     <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                    <Anchor>a7e9c1cb1a627b543e401f93147bcae90</Anchor>
+                    <Anchor>acc634057cea394c0bee246c5de84f9a2</Anchor>
                    </Node>
                    <Node>
                     <Name>~Virtual</Name>
@@ -8472,7 +9260,7 @@
                  <Node>
                   <Name>memset</Name>
                   <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a1fd0ab453722ae471fc94da8bdc41661</Anchor>
+                  <Anchor>a362b656d9de3289b55b1035d14cb4b5d</Anchor>
                  </Node>
                  <Node>
                   <Name>strcasecmp</Name>
@@ -8544,6 +9332,59 @@
                <Node>
                 <Name>sys.h</Name>
                 <Path>d9/d87/sys_8h.html</Path>
+               </Node>
+               <Node>
+                <Name>time.hpp</Name>
+                <Path>de/d99/time_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>Time</Name>
+                  <Path>de/d99/time_8hpp.html</Path>
+                  <Anchor>d6/dba/structTime</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>Counter</Name>
+                    <Path>de/d99/time_8hpp.html</Path>
+                    <Anchor>aba0b563d5daec6b6ff955c729ca60607</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Day</Name>
+                    <Path>de/d99/time_8hpp.html</Path>
+                    <Anchor>aaf68e3071a44189bf703e2983810187e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Hour</Name>
+                    <Path>de/d99/time_8hpp.html</Path>
+                    <Anchor>a7a20b750241ea94a0b6cbbb3fdf30ffb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Minute</Name>
+                    <Path>de/d99/time_8hpp.html</Path>
+                    <Anchor>a03362d37bd6c8bd5878f165ea5b35107</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Month</Name>
+                    <Path>de/d99/time_8hpp.html</Path>
+                    <Anchor>aba3565fbfe3f2ca36c2b35041fdaa783</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Second</Name>
+                    <Path>de/d99/time_8hpp.html</Path>
+                    <Anchor>ac1e4fb64e5d6a81c9fbbf1cc5006a3bd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Year</Name>
+                    <Path>de/d99/time_8hpp.html</Path>
+                    <Anchor>a9970a3ff3b8dd1e24452a206cf12dc55</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>ReadClock</Name>
+                  <Path>de/d99/time_8hpp.html</Path>
+                  <Anchor>a0db627bc286db2f619f33594544dac1b</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>types.h</Name>
@@ -8838,6 +9679,11 @@
                   <Name>UINTPTR_MAX</Name>
                   <Path>d9/d49/types_8h.html</Path>
                   <Anchor>ab2355300ea19395357e62d780f4dd073</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>UNUSED</Name>
+                  <Path>d9/d49/types_8h.html</Path>
+                  <Anchor>a86d500a34c624c2cae56bc25a31b12f3</Anchor>
                  </Node>
                  <Node>
                   <Name>va_arg</Name>
@@ -10441,7 +11287,7 @@
                  <Node>
                   <Name>memset</Name>
                   <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a1fd0ab453722ae471fc94da8bdc41661</Anchor>
+                  <Anchor>a362b656d9de3289b55b1035d14cb4b5d</Anchor>
                  </Node>
                  <Node>
                   <Name>strcat</Name>
@@ -10497,14 +11343,24 @@
                 <Anchor>a9254a572a191b31048cb8226eed35479</Anchor>
                </Node>
                <Node>
+                <Name>KPrint</Name>
+                <Path>d2/d00/Kernel_8cpp.html</Path>
+                <Anchor>a337d737d60f1973de262c14ed6246c83</Anchor>
+               </Node>
+               <Node>
                 <Name>putchar</Name>
                 <Path>d2/d00/Kernel_8cpp.html</Path>
-                <Anchor>aef7666d8444b7436e1552261b5212d13</Anchor>
+                <Anchor>a948b7a0779c308ac5502c57e282e6933</Anchor>
                </Node>
                <Node>
                 <Name>bInfo</Name>
                 <Path>d2/d00/Kernel_8cpp.html</Path>
                 <Anchor>a48ddf8736a693c7ee5cf00028b014fcf</Anchor>
+               </Node>
+               <Node>
+                <Name>Display</Name>
+                <Path>d2/d00/Kernel_8cpp.html</Path>
+                <Anchor>ad16e05b6fc09d13310729e16882edc4d</Anchor>
                </Node>
               </Subnodes>
              </Node>

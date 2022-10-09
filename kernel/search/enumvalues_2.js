@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['badmemory_1617',['BadMemory',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a288f459725332e0ae99372ead7b1cebd',1,'binfo.h']]],
-  ['bootloaderreclaimable_1618',['BootloaderReclaimable',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01ac3339e3f10e46e625654bebfe85081e0',1,'binfo.h']]]
+  ['badmemory_1745',['BadMemory',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a288f459725332e0ae99372ead7b1cebd',1,'binfo.h']]],
+  ['bootloaderreclaimable_1746',['BootloaderReclaimable',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01ac3339e3f10e46e625654bebfe85081e0',1,'binfo.h']]]
 ];

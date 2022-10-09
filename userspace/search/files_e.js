@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['xalloc_2ecpp_1109',['Xalloc.cpp',['../d7/d4a/Xalloc_8cpp.html',1,'']]],
-  ['xalloc_2ehpp_1110',['Xalloc.hpp',['../d8/d12/Xalloc_8hpp.html',1,'']]]
+  ['vector_2ehpp_1188',['vector.hpp',['../da/d16/vector_8hpp.html',1,'']]],
+  ['virtualmemorymanager_2ecpp_1189',['VirtualMemoryManager.cpp',['../d8/d49/VirtualMemoryManager_8cpp.html',1,'']]]
 ];

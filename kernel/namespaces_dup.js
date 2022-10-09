@@ -4,5 +4,6 @@ var namespaces_dup =
     [ "Memory", "d3/d97/namespaceMemory.html", null ],
     [ "SysDbg", "d3/df0/namespaceSysDbg.html", null ],
     [ "UniversalAsynchronousReceiverTransmitter", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html", null ],
+    [ "Video", "d6/de2/namespaceVideo.html", null ],
     [ "Xalloc", "dc/d0a/namespaceXalloc.html", null ]
 ];

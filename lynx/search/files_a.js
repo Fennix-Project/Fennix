@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['stackguard_2ec_1100',['StackGuard.c',['../de/d1a/StackGuard_8c.html',1,'']]],
-  ['string_2ec_1101',['String.c',['../d4/db5/String_8c.html',1,'']]],
-  ['string_2eh_1102',['string.h',['../da/d66/string_8h.html',1,'']]],
-  ['sys_2eh_1103',['sys.h',['../d9/d87/sys_8h.html',1,'']]]
+  ['readme_2emd_1178',['README.md',['../da/d44/Kernel_2core_2README_8md.html',1,'(Global Namespace)'],['../dd/d85/Kernel_2README_8md.html',1,'(Global Namespace)'],['../d9/d31/Lynx_2README_8md.html',1,'(Global Namespace)'],['../d7/d57/Userspace_2README_8md.html',1,'(Global Namespace)']]]
 ];

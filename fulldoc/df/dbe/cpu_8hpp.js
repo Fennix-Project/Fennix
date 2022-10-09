@@ -14,6 +14,7 @@ var cpu_8hpp =
     [ "lidt", "df/dbe/cpu_8hpp.html#ae665013da4e60162c18a369288b4ce05", null ],
     [ "LoadFence", "df/dbe/cpu_8hpp.html#a55f0c6728e69705d6fbe707a6b9339a5", null ],
     [ "ltr", "df/dbe/cpu_8hpp.html#ae5b51e2c5cab264f8b0546bc50f21c4e", null ],
+    [ "PageTable", "df/dbe/cpu_8hpp.html#a91241794b7196a732d94084fc08f6ec5", null ],
     [ "Pause", "df/dbe/cpu_8hpp.html#aeec952406880ca5e214245f461edb321", null ],
     [ "StoreFence", "df/dbe/cpu_8hpp.html#a527885d8f1096431333ccd47d1be290b", null ]
 ];

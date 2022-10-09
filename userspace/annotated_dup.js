@@ -3,6 +3,7 @@ var annotated_dup =
     [ "CPU", "d7/dfa/namespaceCPU.html", null ],
     [ "Memory", "d3/d97/namespaceMemory.html", "d3/d97/namespaceMemory" ],
     [ "UniversalAsynchronousReceiverTransmitter", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter" ],
+    [ "Video", "d6/de2/namespaceVideo.html", "d6/de2/namespaceVideo" ],
     [ "Xalloc", "dc/d0a/namespaceXalloc.html", "dc/d0a/namespaceXalloc" ],
     [ "_Unwind_Exception", "d7/d66/cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception", "d7/d66/cxxabi_8cpp_de/dc3/struct__Unwind__Exception" ],
     [ "atexit_func_entry_t", "df/d34/structatexit__func__entry__t.html", "df/d34/structatexit__func__entry__t" ],
@@ -92,5 +93,6 @@ var annotated_dup =
     [ "multiboot_vbe_mode_info_block", "d5/dba/multiboot2_8h.html#d6/d6f/structmultiboot__vbe__mode__info__block", "d5/dba/multiboot2_8h_d6/d6f/structmultiboot__vbe__mode__info__block" ],
     [ "output_gadget_t", "d0/d3e/structoutput__gadget__t.html", "d0/d3e/structoutput__gadget__t" ],
     [ "scaling_factor", "d1/d3d/printf_8c.html#db/dfc/structscaling__factor", "d1/d3d/printf_8c_db/dfc/structscaling__factor" ],
+    [ "Time", "de/d99/time_8hpp.html#d6/dba/structTime", "de/d99/time_8hpp_d6/dba/structTime" ],
     [ "Vector", "d6/da1/classVector.html", "d6/da1/classVector" ]
 ];
