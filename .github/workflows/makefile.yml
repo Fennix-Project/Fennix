@@ -173,6 +173,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
         make --quiet -C tools do_limine
+        make --quiet -C Kernel prepare
 
     - name: Cache cross Folder
       id: cache-cross
@@ -213,6 +214,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
+        make --quiet -C Kernel prepare
 
     - name: Cache cross Folder
       id: cache-cross
@@ -253,6 +255,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
+        make --quiet -C Kernel prepare
 
     - name: Cache cross Folder
       id: cache-cross
