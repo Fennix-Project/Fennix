@@ -96,28 +96,26 @@ $(document).ready(function(){initNavTree('db/da9/IntManager_8cpp_source.html','.
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../arch/i686/cpu/gdt.hpp&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;../arch/i686/cpu/idt.hpp&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;../arch/aarch64/cpu/gdt.hpp&quot;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;../arch/aarch64/cpu/idt.hpp&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d3/dc3/namespaceInterrupts.html">   14</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/dc3/namespaceInterrupts.html">Interrupts</a></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d3/dc3/namespaceInterrupts.html#a08d918edd974c7040b12059a47e2dffb">   16</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d3/dc3/namespaceInterrupts.html#a08d918edd974c7040b12059a47e2dffb">Initialize</a>()</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">GlobalDescriptorTable::Init</a>(0);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908">InterruptDescriptorTable::Init</a>(0);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d3/dc3/namespaceInterrupts.html">   12</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/dc3/namespaceInterrupts.html">Interrupts</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d3/dc3/namespaceInterrupts.html#a08d918edd974c7040b12059a47e2dffb">   14</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d3/dc3/namespaceInterrupts.html#a08d918edd974c7040b12059a47e2dffb">Initialize</a>()</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">GlobalDescriptorTable::Init</a>(0);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908">InterruptDescriptorTable::Init</a>(0);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="anamespaceInterruptDescriptorTable_html_a5275e6707c957c5ba4b050102990c908"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908">InterruptDescriptorTable::Init</a></div><div class="ttdeci">void Init(int Core)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00434">InterruptDescriptorTable.cpp:434</a></div></div>
 <div class="ttc" id="ainterrupts_8hpp_html"><div class="ttname"><a href="../../d8/d0a/interrupts_8hpp.html">interrupts.hpp</a></div></div>
-<div class="ttc" id="anamespaceInterrupts_html"><div class="ttname"><a href="../../d3/dc3/namespaceInterrupts.html">Interrupts</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/da9/IntManager_8cpp_source.html#l00014">IntManager.cpp:14</a></div></div>
-<div class="ttc" id="anamespaceInterrupts_html_a08d918edd974c7040b12059a47e2dffb"><div class="ttname"><a href="../../d3/dc3/namespaceInterrupts.html#a08d918edd974c7040b12059a47e2dffb">Interrupts::Initialize</a></div><div class="ttdeci">void Initialize()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da9/IntManager_8cpp_source.html#l00016">IntManager.cpp:16</a></div></div>
+<div class="ttc" id="anamespaceInterrupts_html"><div class="ttname"><a href="../../d3/dc3/namespaceInterrupts.html">Interrupts</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/da9/IntManager_8cpp_source.html#l00012">IntManager.cpp:12</a></div></div>
+<div class="ttc" id="anamespaceInterrupts_html_a08d918edd974c7040b12059a47e2dffb"><div class="ttname"><a href="../../d3/dc3/namespaceInterrupts.html#a08d918edd974c7040b12059a47e2dffb">Interrupts::Initialize</a></div><div class="ttdeci">void Initialize()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da9/IntManager_8cpp_source.html#l00014">IntManager.cpp:14</a></div></div>
 <div class="ttc" id="anamespaceGlobalDescriptorTable_html_a8f348435f90382d87ff30f9237f15a96"><div class="ttname"><a href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">GlobalDescriptorTable::Init</a></div><div class="ttdeci">void Init(int Core)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00028">GlobalDescriptorTable.cpp:28</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

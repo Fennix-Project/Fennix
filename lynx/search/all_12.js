@@ -2,7 +2,7 @@ var searchData=
 [
   ['table_1007',['Table',['../db/d82/classMemory_1_1Virtual.html#af18bf9ffe4fcf280aef3571804146498',1,'Memory::Virtual']]],
   ['tables_1008',['tables',['../d5/dba/multiboot2_8h.html#ad0da28f2ea98e9c8f35a22c6a571f4a2',1,'multiboot_tag_smbios']]],
-  ['taskstatesegment_1009',['TaskStateSegment',['../d1/d69/namespaceGlobalDescriptorTable.html#af9d75a0833647a3a8c8b5a7c2da30b66',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::TaskStateSegment()'],['../df/d77/gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4',1,'TaskStateSegment():&#160;gdt.hpp']]],
+  ['taskstatesegment_1009',['TaskStateSegment',['../d1/d69/namespaceGlobalDescriptorTable.html#af9d75a0833647a3a8c8b5a7c2da30b66',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::TaskStateSegment()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4',1,'TaskStateSegment():&#160;gdt.hpp']]],
   ['terminal_5fcount_1010',['terminal_count',['../da/da8/structlimine__terminal__response.html#abd8d4bef9b80b265aacbac2ec4bee2c8',1,'limine_terminal_response']]],
   ['terminalrequest_1011',['TerminalRequest',['../d3/d1d/Limine_8c.html#afc8804a50e797015870e044848fd6175',1,'Limine.c']]],
   ['tftp_5fip_1012',['tftp_ip',['../dd/d4d/structlimine__file.html#a9d4093867da52e1f27d08be784212a67',1,'limine_file']]],

@@ -94,6 +94,9 @@ var NAVTREEINDEX1 =
 "d3/d41/classVideo_1_1Font.html#ab7be6986d30fb8693b774be2e022404c":[7,0,6,3,2],
 "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html":[6,0,7],
 "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html":[7,0,5],
+"d3/d67/i686_2cpu_2idt_8hpp.html":[8,0,0,0,1,0,1],
+"d3/d67/i686_2cpu_2idt_8hpp.html#a5275e6707c957c5ba4b050102990c908":[8,0,0,0,1,0,1,0],
+"d3/d67/i686_2cpu_2idt_8hpp_source.html":[8,0,0,0,1,0,1],
 "d3/d6b/printf_8h.html":[8,0,0,2,11],
 "d3/d6b/printf_8h.html#a0bf4b55e618023b0a33ec7f5305b6b71":[8,0,0,2,11,1],
 "d3/d6b/printf_8h.html#a25006737444a8712899101e9e89387c3":[8,0,0,2,11,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "d5/dba/multiboot2_8h.html#a0cd6fd3c9f2de7ee9bb8354589bd3545":[8,0,0,2,0,0,1,14,3],
 "d5/dba/multiboot2_8h.html#a0d19797e8a049353c2ba98e04df089bc":[8,0,0,2,0,0,1,6,0],
 "d5/dba/multiboot2_8h.html#a0d868424e2b703471e3d73c0a72bc75c":[8,0,0,2,0,0,1,36,5],
-"d5/dba/multiboot2_8h.html#a0eb857966790a1f24fa260b381561510":[8,0,0,2,0,0,1,53],
-"d5/dba/multiboot2_8h.html#a0f1c3469d5ef39bff66a690f65c51a6c":[8,0,0,2,0,0,1,60],
-"d5/dba/multiboot2_8h.html#a0f8ff7cd97ae788d8afcd7dee881367a":[8,0,0,2,0,0,1,23,4],
-"d5/dba/multiboot2_8h.html#a105a58eef8f4c2a848375c6808eefa42":[8,0,0,2,0,0,1,13,4]
+"d5/dba/multiboot2_8h.html#a0eb857966790a1f24fa260b381561510":[8,0,0,2,0,0,1,53]
 };

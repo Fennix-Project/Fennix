@@ -30,7 +30,7 @@ var searchData=
   ['memorymodel_630',['MemoryModel',['../db/d96/structBootInfo.html#aed269adb8b9ab1f8c2c05b99be10bc56',1,'BootInfo::FramebufferInfo']]],
   ['memorytype_631',['MemoryType',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01',1,'binfo.h']]],
   ['memset_632',['memset',['../da/d66/string_8h.html#a362b656d9de3289b55b1035d14cb4b5d',1,'memset(void *dest, int c, size_t n):&#160;String.c'],['../d4/db5/String_8c.html#a362b656d9de3289b55b1035d14cb4b5d',1,'memset(void *dest, int c, size_t n):&#160;String.c']]],
-  ['middle_633',['Middle',['../d1/d69/namespaceGlobalDescriptorTable.html#ac46d6b7fbe49948d690d05e2cf9b01cb',1,'GlobalDescriptorTable::_TaskStateSegmentEntry::Middle()'],['../df/d77/gdt_8hpp.html#a823f689282bbc7a21228bd618cb0de78',1,'Middle():&#160;gdt.hpp']]],
+  ['middle_633',['Middle',['../d1/d69/namespaceGlobalDescriptorTable.html#ac46d6b7fbe49948d690d05e2cf9b01cb',1,'GlobalDescriptorTable::_TaskStateSegmentEntry::Middle()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a823f689282bbc7a21228bd618cb0de78',1,'Middle():&#160;gdt.hpp']]],
   ['min_5faddr_634',['min_addr',['../d5/dba/multiboot2_8h.html#a97193a1e961755821ca483bf378d11d3',1,'multiboot_header_tag_relocatable']]],
   ['minor_635',['minor',['../d5/dba/multiboot2_8h.html#abe83621d3f54ab2868c75a6396b25729',1,'multiboot_tag_smbios']]],
   ['minute_636',['Minute',['../de/d99/time_8hpp.html#a03362d37bd6c8bd5878f165ea5b35107',1,'Time']]],

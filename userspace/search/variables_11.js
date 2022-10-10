@@ -2,7 +2,7 @@ var searchData=
 [
   ['second_1870',['Second',['../de/d99/time_8hpp.html#ac1e4fb64e5d6a81c9fbbf1cc5006a3bd',1,'Time']]],
   ['sections_1871',['sections',['../d5/dba/multiboot2_8h.html#a09293d54b2741dde5be5f7206860b669',1,'multiboot_tag_elf_sections']]],
-  ['segmentselector_1872',['SegmentSelector',['../d2/db2/namespaceInterruptDescriptorTable.html#a84044bb722796532d4ca33cd5e5e689b',1,'InterruptDescriptorTable::_InterruptDescriptorTableEntry::SegmentSelector()'],['../dd/d12/idt_8hpp.html#a1af69d0c46134134a1dcc3b6ac2e63eb',1,'SegmentSelector():&#160;idt.hpp']]],
+  ['segmentselector_1872',['SegmentSelector',['../d2/db2/namespaceInterruptDescriptorTable.html#a84044bb722796532d4ca33cd5e5e689b',1,'InterruptDescriptorTable::_InterruptDescriptorTableEntry::SegmentSelector()'],['../dc/da7/amd64_2cpu_2idt_8hpp.html#a1af69d0c46134134a1dcc3b6ac2e63eb',1,'SegmentSelector():&#160;idt.hpp']]],
   ['serialports_1873',['serialports',['../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a891ba6f19380d9fc8470a1e950a78b3d',1,'UniversalAsynchronousReceiverTransmitter']]],
   ['sh_5faddr_1874',['sh_addr',['../d7/db9/Symbols_8cpp.html#a86ab89a1e5f2384f1c551cd6e3afc318',1,'Elf64_Shdr']]],
   ['sh_5faddralign_1875',['sh_addralign',['../d7/db9/Symbols_8cpp.html#aaa69e64513c3e42bf43afaca5c8f7a9b',1,'Elf64_Shdr']]],
@@ -27,7 +27,7 @@ var searchData=
   ['st_5fsize_1894',['st_size',['../d7/db9/Symbols_8cpp.html#ad458986ae528e8f943fa391879566a26',1,'Elf64_Sym']]],
   ['st_5fvalue_1895',['st_value',['../d7/db9/Symbols_8cpp.html#ab4b8ec4e8ed46814e80415ec69b1a658',1,'Elf64_Sym']]],
   ['stack_5fsize_1896',['stack_size',['../df/dee/structlimine__stack__size__request.html#afa37f8104bb28136e202e8633e1e01b3',1,'limine_stack_size_request']]],
-  ['stackpointer_1897',['StackPointer',['../d1/d69/namespaceGlobalDescriptorTable.html#a26a78bcc440d95ffc4494a3afecdd26d',1,'GlobalDescriptorTable::_TaskStateSegment::StackPointer()'],['../df/d77/gdt_8hpp.html#a9d9ff73842948ded9734b943d3bf5894',1,'StackPointer():&#160;gdt.hpp']]],
+  ['stackpointer_1897',['StackPointer',['../d1/d69/namespaceGlobalDescriptorTable.html#a26a78bcc440d95ffc4494a3afecdd26d',1,'GlobalDescriptorTable::_TaskStateSegment::StackPointer()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9d9ff73842948ded9734b943d3bf5894',1,'StackPointer():&#160;gdt.hpp']]],
   ['startaddress_1898',['StartAddress',['../d6/de2/namespaceVideo.html#abd50c0abcfbed961fbdf81a40458fc89',1,'Video::FontInfo']]],
   ['string_1899',['string',['../d5/dba/multiboot2_8h.html#a50125b332242abd0051cd348fd2d9b68',1,'multiboot_tag_string']]],
   ['symtable_1900',['SymTable',['../d9/d05/namespaceSymbolResolver.html#a03ebb6e07808fa5958881e92d485b506',1,'SymbolResolver']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['d_180',['d',['../d3/df0/limine_8h.html#a357fec43584ba3b80d60c2a38d195f02',1,'limine_uuid::d()'],['../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a037bb43b7a0b39d15e244bcd21895c6a',1,'Memory::D()']]],
-  ['data_181',['Data',['../d1/d69/namespaceGlobalDescriptorTable.html#ab541528f00551c1717ed30d6efd6169d',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::Data()'],['../df/d77/gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27',1,'Data():&#160;gdt.hpp']]],
+  ['data_181',['Data',['../d1/d69/namespaceGlobalDescriptorTable.html#ab541528f00551c1717ed30d6efd6169d',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::Data()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27',1,'Data():&#160;gdt.hpp']]],
   ['day_182',['Day',['../de/d99/time_8hpp.html#aaf68e3071a44189bf703e2983810187e',1,'Time']]],
   ['debug_183',['debug',['../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43',1,'debug.h']]],
   ['debug_2eh_184',['debug.h',['../db/d16/debug_8h.html',1,'']]],

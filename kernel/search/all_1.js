@@ -2,7 +2,7 @@ var searchData=
 [
   ['a_53',['a',['../d3/df0/limine_8h.html#a55b285bb785129f70c546d0919320141',1,'limine_uuid::a()'],['../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2af3e146b20fd80d3f8a19c4f818be6b96',1,'Memory::A()']]],
   ['abs_5ffor_5fprinting_54',['ABS_FOR_PRINTING',['../d1/d3d/printf_8c.html#a8d302099b82242df3916cbe38d476694',1,'printf.c']]],
-  ['access_55',['Access',['../d1/d69/namespaceGlobalDescriptorTable.html#a1c5f2dc61acee4ee4c5799443137a242',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntry::Access()'],['../df/d77/gdt_8hpp.html#afd4547759affdaa57ba35b76333857ee',1,'Access():&#160;gdt.hpp']]],
+  ['access_55',['Access',['../d1/d69/namespaceGlobalDescriptorTable.html#a1c5f2dc61acee4ee4c5799443137a242',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntry::Access()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afd4547759affdaa57ba35b76333857ee',1,'Access():&#160;gdt.hpp']]],
   ['acpinvs_56',['ACPINVS',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a11c2789934427d2d3f307c08e237eac6',1,'binfo.h']]],
   ['acpireclaimable_57',['ACPIReclaimable',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a223cdfc64e3ccaee890d1a22cbd9bf43',1,'binfo.h']]],
   ['addnode_58',['AddNode',['../db/d1a/classHashMap.html#a4654df63d3f30f0acff30a43199346fd',1,'HashMap']]],

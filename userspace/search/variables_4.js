@@ -1,7 +1,7 @@
 var searchData=
 [
   ['d_1651',['d',['../d3/df0/limine_8h.html#a357fec43584ba3b80d60c2a38d195f02',1,'limine_uuid']]],
-  ['data_1652',['Data',['../d1/d69/namespaceGlobalDescriptorTable.html#ab541528f00551c1717ed30d6efd6169d',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::Data()'],['../df/d77/gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27',1,'Data():&#160;gdt.hpp']]],
+  ['data_1652',['Data',['../d1/d69/namespaceGlobalDescriptorTable.html#ab541528f00551c1717ed30d6efd6169d',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::Data()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27',1,'Data():&#160;gdt.hpp']]],
   ['day_1653',['Day',['../de/d99/time_8hpp.html#aaf68e3071a44189bf703e2983810187e',1,'Time']]],
   ['depth_1654',['depth',['../d5/dba/multiboot2_8h.html#a0d19797e8a049353c2ba98e04df089bc',1,'multiboot_header_tag_framebuffer']]],
   ['descr_5fsize_1655',['descr_size',['../d5/dba/multiboot2_8h.html#ae8b6f5a34f5da7fe1e6c95fd29db7bf2',1,'multiboot_tag_efi_mmap']]],

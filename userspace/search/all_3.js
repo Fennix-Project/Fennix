@@ -12,7 +12,7 @@ var searchData=
   ['clear_141',['clear',['../d6/da1/classVector.html#a32ad98b135472b0ebc5d6cb3ae5d0085',1,'Vector']]],
   ['clearbuffer_142',['ClearBuffer',['../db/d81/classVideo_1_1Display.html#a7f23cd22f88c004958f8fda064d669b3',1,'Video::Display']]],
   ['cmdline_143',['cmdline',['../d5/dba/multiboot2_8h.html#ae28133d78349211f87ff9fcfb9ab3056',1,'multiboot_tag_module']]],
-  ['code_144',['Code',['../d1/d69/namespaceGlobalDescriptorTable.html#a93840e398f04eaad788d7ffc988775f6',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::Code()'],['../df/d77/gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7',1,'Code():&#160;gdt.hpp']]],
+  ['code_144',['Code',['../d1/d69/namespaceGlobalDescriptorTable.html#a93840e398f04eaad788d7ffc988775f6',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::Code()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7',1,'Code():&#160;gdt.hpp']]],
   ['color_145',['Color',['../d6/de2/namespaceVideo.html#a1452aa2f8749bd33cc4522af1a6abdde',1,'Video::ScreenBuffer']]],
   ['columns_146',['columns',['../d1/df5/structlimine__terminal.html#ae6373fe1e31e28e8c509b38866233848',1,'limine_terminal']]],
   ['com1_147',['COM1',['../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96a8da91b03aaecc9b7692479980042bb8c',1,'UniversalAsynchronousReceiverTransmitter']]],

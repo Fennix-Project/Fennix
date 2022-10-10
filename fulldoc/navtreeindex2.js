@@ -1,5 +1,8 @@
 var NAVTREEINDEX2 =
 {
+"d5/dba/multiboot2_8h.html#a0f1c3469d5ef39bff66a690f65c51a6c":[8,0,0,2,0,0,1,60],
+"d5/dba/multiboot2_8h.html#a0f8ff7cd97ae788d8afcd7dee881367a":[8,0,0,2,0,0,1,23,4],
+"d5/dba/multiboot2_8h.html#a105a58eef8f4c2a848375c6808eefa42":[8,0,0,2,0,0,1,13,4],
 "d5/dba/multiboot2_8h.html#a10b78479319b8790657f13414cf34736":[8,0,0,2,0,0,1,89],
 "d5/dba/multiboot2_8h.html#a116c9b57307b74f86920e14c9ec89575":[8,0,0,2,0,0,1,0,0],
 "d5/dba/multiboot2_8h.html#a11e246a75cfb2a98a79568f29236c1fa":[8,0,0,2,0,0,1,13,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "d6/d05/classMemory_1_1Physical.html#a40efeea7e64fd1e850790a8bebb37d2a":[7,0,3,1,26],
 "d6/d05/classMemory_1_1Physical.html#a46c9b6a72efc3fa824a4c8314585cfa2":[7,0,3,1,7],
 "d6/d05/classMemory_1_1Physical.html#a4c6cef81fb24d43527cfab71f30648d3":[7,0,3,1,16],
-"d6/d05/classMemory_1_1Physical.html#a5137e73db10626ed6b88a407beb883ea":[7,0,3,1,25],
-"d6/d05/classMemory_1_1Physical.html#a5eed67c7a06fcd8cf1c43fc6736cdc10":[7,0,3,1,0],
-"d6/d05/classMemory_1_1Physical.html#a69a4150ceb45e382de71b0423e68f778":[7,0,3,1,21],
-"d6/d05/classMemory_1_1Physical.html#a6da57b656dda9deaf31c401f8f084369":[7,0,3,1,10]
+"d6/d05/classMemory_1_1Physical.html#a5137e73db10626ed6b88a407beb883ea":[7,0,3,1,25]
 };

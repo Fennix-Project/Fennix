@@ -6,7 +6,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>ab0bd808397c97f7db4701ca69009a547</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -16,7 +16,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a1b5a711dc01ab783bb986902240f1cce</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -26,7 +26,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a9670040bead28fb1c0b09ea363152cd2</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -36,7 +36,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>af5c033543fb4db7939b4b7587de03867</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -46,7 +46,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>afa2f85c6adeea0d29c4852d4cef33d4c</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -78,7 +78,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a930e5a4d8414c0427fe5c636062579db</Anchor>
     <Abstract>Length [Bits 0-15].</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -89,7 +89,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a9bc0bb5dc0f85051dcb20cadced6a345</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -99,7 +99,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a823f689282bbc7a21228bd618cb0de78</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -109,7 +109,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a17db325daafff64c94b758a8c71a9f1b</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -119,7 +119,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>ab77d62bdafc7f0d1e6b1883c34e06dbe</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -129,7 +129,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a3f521ce071b0440f3ff65bf8b03d58de</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -139,7 +139,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>aa0d81e414187a2fc10923c4216972d4e</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -149,7 +149,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a178921de788fde65c2509d8fa73ff4ac</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -159,7 +159,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a78da68e8221ba91f20a1f749d860b14f</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -169,7 +169,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a9d9ff73842948ded9734b943d3bf5894</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -179,7 +179,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>afea133adf188dfb8979f48bcdaa69acf</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -189,7 +189,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a9cbcf7dbaba62e0aa7990f9c0893e165</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -199,7 +199,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a95539100d5c2368b95010fef43a844f6</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -209,7 +209,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a6fc09010d383d63cff1bf586f70c7f9a</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -219,7 +219,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>ab9f9c980afbad64de663b5fec7cacd48</Anchor>
     <Abstract>Low Base [Bits 0-15].</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -230,7 +230,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>add843b8ec66d6d45efb584c8eb64662f</Anchor>
     <Abstract>Middle Base [Bits 0-23].</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -241,7 +241,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>afd4547759affdaa57ba35b76333857ee</Anchor>
     <Abstract>Access.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -252,7 +252,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>aeb3f0fed7dd127f81565f62281a7ae41</Anchor>
     <Abstract>Flags [Bits 16-19].</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -263,7 +263,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a2c483aeda65f9a985863382e09007f72</Anchor>
     <Abstract>High Base [Bits 24-31].</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -274,7 +274,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a73f4b3a63105e057f9ceccf2c2cde860</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -284,7 +284,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>ac678cca2a7d570b7e2dd49c5619f98f7</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -294,7 +294,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>aff2da4c061653164b5cfcc650f742f27</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -304,7 +304,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a320a948a3daaf4e9e4bf572432a1c243</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -314,7 +314,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>aed95da4e7e2e8f3347cb417a3fcd7c28</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -324,7 +324,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>abc498068b381d117f14e2f08434d4ff4</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -334,9 +334,20 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/d77/gdt_8hpp.html</Path>
+    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
     <Anchor>adac265c791f08f7c79b44383c184c739</Anchor>
     <Abstract>GDT entries address.</Abstract>
+    <DeclaredIn>gdt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Init</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>a8f348435f90382d87ff30f9237f15a96</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -433,7 +444,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>a578db8a0ba46c165c3504c06fb93ed80</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -443,7 +454,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>a1af69d0c46134134a1dcc3b6ac2e63eb</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -453,7 +464,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>a58670cd51a1f9b5f3390457c2481252d</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -463,7 +474,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>afea133adf188dfb8979f48bcdaa69acf</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -473,7 +484,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>a7f328ecb741311a0c5026ffbb615d639</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -483,7 +494,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>a75ffe246834f18014b5ef078cc2c47d6</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -493,7 +504,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>a5429fbc529e126b848e51b11bfbcf7ec</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -503,7 +514,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>acdb871789a1e4398874af8cb07987ef6</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -513,7 +524,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>affc87079f08599e4a3804d23b9df736d</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -523,7 +534,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>ae010e18fff7afc3a36f5dbba53881816</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -533,7 +544,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>a930e5a4d8414c0427fe5c636062579db</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
@@ -543,8 +554,19 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>dd/d12/idt_8hpp.html</Path>
+    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
     <Anchor>a4198a2f4c3d714550631460af8d09c36</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Init</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a5275e6707c957c5ba4b050102990c908</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
   <Token>

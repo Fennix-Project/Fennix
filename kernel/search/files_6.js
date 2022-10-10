@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['idt_2ehpp_1330',['idt.hpp',['../dd/d12/idt_8hpp.html',1,'']]],
+  ['idt_2ehpp_1330',['idt.hpp',['../dc/da7/amd64_2cpu_2idt_8hpp.html',1,'(Global Namespace)'],['../d3/d67/i686_2cpu_2idt_8hpp.html',1,'(Global Namespace)']]],
   ['init_2ecpp_1331',['init.cpp',['../d0/dc9/init_8cpp.html',1,'']]],
   ['interruptdescriptortable_2ecpp_1332',['InterruptDescriptorTable.cpp',['../d7/d21/InterruptDescriptorTable_8cpp.html',1,'']]],
   ['interrupts_2ehpp_1333',['interrupts.hpp',['../d8/d0a/interrupts_8hpp.html',1,'']]],

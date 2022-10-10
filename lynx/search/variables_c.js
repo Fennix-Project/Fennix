@@ -12,7 +12,7 @@ var searchData=
   ['memory_1780',['Memory',['../db/d96/structBootInfo.html#af20195d9ca2aca3e8c401d10eb477c25',1,'BootInfo']]],
   ['memory_5fmodel_1781',['memory_model',['../de/d6b/structlimine__framebuffer.html#aaf898b5e5c86c8fb28e79f569112048f',1,'limine_framebuffer']]],
   ['memorymodel_1782',['MemoryModel',['../db/d96/structBootInfo.html#aed269adb8b9ab1f8c2c05b99be10bc56',1,'BootInfo::FramebufferInfo']]],
-  ['middle_1783',['Middle',['../d1/d69/namespaceGlobalDescriptorTable.html#ac46d6b7fbe49948d690d05e2cf9b01cb',1,'GlobalDescriptorTable::_TaskStateSegmentEntry::Middle()'],['../df/d77/gdt_8hpp.html#a823f689282bbc7a21228bd618cb0de78',1,'Middle():&#160;gdt.hpp']]],
+  ['middle_1783',['Middle',['../d1/d69/namespaceGlobalDescriptorTable.html#ac46d6b7fbe49948d690d05e2cf9b01cb',1,'GlobalDescriptorTable::_TaskStateSegmentEntry::Middle()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a823f689282bbc7a21228bd618cb0de78',1,'Middle():&#160;gdt.hpp']]],
   ['min_5faddr_1784',['min_addr',['../d5/dba/multiboot2_8h.html#a97193a1e961755821ca483bf378d11d3',1,'multiboot_header_tag_relocatable']]],
   ['minor_1785',['minor',['../d5/dba/multiboot2_8h.html#abe83621d3f54ab2868c75a6396b25729',1,'multiboot_tag_smbios']]],
   ['minute_1786',['Minute',['../de/d99/time_8hpp.html#a03362d37bd6c8bd5878f165ea5b35107',1,'Time']]],

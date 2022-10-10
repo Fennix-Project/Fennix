@@ -50,7 +50,7 @@ var searchData=
   ['unswappages_1083',['UnswapPages',['../d6/d05/classMemory_1_1Physical.html#a69a4150ceb45e382de71b0423e68f778',1,'Memory::Physical']]],
   ['unused_1084',['unused',['../dd/d4d/structlimine__file.html#ab12af7e4d780036c111ba07311ee8cf5',1,'limine_file::unused()'],['../de/d6b/structlimine__framebuffer.html#a58a024c31ecddb2a783336b3d83921b6',1,'limine_framebuffer::unused()'],['../d9/d49/types_8h.html#a86d500a34c624c2cae56bc25a31b12f3',1,'UNUSED():&#160;types.h']]],
   ['update_5fnormalization_1085',['update_normalization',['../d1/d3d/printf_8c.html#adbb98e2b5b1ecdab69cc0021e669f255',1,'printf.c']]],
-  ['upper32_1086',['Upper32',['../d1/d69/namespaceGlobalDescriptorTable.html#a9eb83617e569a8824bbc0a47d54ec70c',1,'GlobalDescriptorTable::_TaskStateSegmentEntry::Upper32()'],['../df/d77/gdt_8hpp.html#aa0d81e414187a2fc10923c4216972d4e',1,'Upper32():&#160;gdt.hpp']]],
+  ['upper32_1086',['Upper32',['../d1/d69/namespaceGlobalDescriptorTable.html#a9eb83617e569a8824bbc0a47d54ec70c',1,'GlobalDescriptorTable::_TaskStateSegmentEntry::Upper32()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aa0d81e414187a2fc10923c4216972d4e',1,'Upper32():&#160;gdt.hpp']]],
   ['us_1087',['US',['../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2ad4ef4c4cde11ca945e056ebb58f0a1c0',1,'Memory']]],
   ['usable_1088',['Usable',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01ab39314bfafff7bef77e9fcfab31bc7ac',1,'binfo.h']]],
   ['usage_1089',['usage',['../d2/dc3/liballoc__1__1_8c.html#ab4d9c00c552e0ddd4997a91966bfc4f4',1,'liballoc_major']]],
@@ -61,8 +61,8 @@ var searchData=
   ['use_5fcase5_1094',['USE_CASE5',['../d2/dc3/liballoc__1__1_8c.html#ab1abb106de2d83df6fc4a5fb141acd79',1,'liballoc_1_1.c']]],
   ['usedmemory_1095',['UsedMemory',['../d6/d05/classMemory_1_1Physical.html#a25dcd6902cdec3bc1ab2a583c1f5d385',1,'Memory::Physical']]],
   ['user_5fheap_5fbase_1096',['USER_HEAP_BASE',['../da/d3e/memory_8hpp.html#aa6e99f855eb906d87180d7c66506ba49',1,'memory.hpp']]],
-  ['usercode_1097',['UserCode',['../d1/d69/namespaceGlobalDescriptorTable.html#a107548ff802061f5ea869c872be6bfd5',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::UserCode()'],['../df/d77/gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243',1,'UserCode():&#160;gdt.hpp']]],
-  ['userdata_1098',['UserData',['../d1/d69/namespaceGlobalDescriptorTable.html#a7c29cb67caf8e96359c8feac368933e7',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::UserData()'],['../df/d77/gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28',1,'UserData():&#160;gdt.hpp']]],
+  ['usercode_1097',['UserCode',['../d1/d69/namespaceGlobalDescriptorTable.html#a107548ff802061f5ea869c872be6bfd5',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::UserCode()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243',1,'UserCode():&#160;gdt.hpp']]],
+  ['userdata_1098',['UserData',['../d1/d69/namespaceGlobalDescriptorTable.html#a7c29cb67caf8e96359c8feac368933e7',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::UserData()'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28',1,'UserData():&#160;gdt.hpp']]],
   ['usermapping_1099',['UserMapping',['../d2/da8/classXalloc_1_1AllocatorV1.html#a5d47a87fc373cc54b12c921ef8e3c402',1,'Xalloc::AllocatorV1']]],
   ['ushrt_5fmax_1100',['USHRT_MAX',['../d9/d86/limits_8h.html#a689b119da994dece91d44b5aeac643ed',1,'limits.h']]]
 ];

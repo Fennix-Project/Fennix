@@ -6,7 +6,7 @@ var searchData=
   ['nodes_740',['Nodes',['../db/d1a/classHashMap.html#aba9ef5a98073d02edb1f2a8be4669f39',1,'HashMap']]],
   ['none_741',['None',['../d8/dcc/Memory_8cpp.html#a6152d006890d5e69e28c28b6111ef55fac9d3e887722f2bc482bcca9d41c512af',1,'None():&#160;Memory.cpp'],['../d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1ca7760e482cfbf6af468fa8b9de03ea00b',1,'Video::None()']]],
   ['normal_5fvma_5foffset_742',['NORMAL_VMA_OFFSET',['../da/d3e/memory_8hpp.html#ab2ed1581af9d674b98f3aa559cba18ac',1,'memory.hpp']]],
-  ['null_743',['Null',['../d1/d69/namespaceGlobalDescriptorTable.html#a342a70fb00d98d3508fa6547c0ace242',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::Null()'],['../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;types.h'],['../df/d77/gdt_8hpp.html#a73f4b3a63105e057f9ceccf2c2cde860',1,'Null():&#160;gdt.hpp']]],
+  ['null_743',['Null',['../d1/d69/namespaceGlobalDescriptorTable.html#a342a70fb00d98d3508fa6547c0ace242',1,'GlobalDescriptorTable::_GlobalDescriptorTableEntries::Null()'],['../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;types.h'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a73f4b3a63105e057f9ceccf2c2cde860',1,'Null():&#160;gdt.hpp']]],
   ['num_744',['num',['../d5/dba/multiboot2_8h.html#ad31ac6e523f0a7d800c430ba4e5c40dc',1,'multiboot_tag_elf_sections']]],
   ['num_5fdecimal_5fdigits_5fin_5fint64_5ft_745',['NUM_DECIMAL_DIGITS_IN_INT64_T',['../d1/d3d/printf_8c.html#a38df259cdf24350ce4d98a22cc2524b0',1,'printf.c']]],
   ['numeric_5fbase_5ft_746',['numeric_base_t',['../d1/d3d/printf_8c.html#ac78b37a9c20028d552e74454f76bfd51',1,'printf.c']]]

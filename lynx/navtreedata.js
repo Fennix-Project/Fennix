@@ -73,12 +73,12 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d2/db2/namespaceInterruptDescriptorTable.html#a38541c9075cd4ff4ecfdeb1baca213b5",
-"d5/dba/multiboot2_8h.html#a10b78479319b8790657f13414cf34736",
-"d6/d05/classMemory_1_1Physical.html#a6dcbfe3b9a418059af52c235ba7ce0b2",
-"d8/d0a/interrupts_8hpp.html#a08d918edd974c7040b12059a47e2dffb",
-"d9/d49/types_8h.html#aaf7f29f45f1a513b4748a4e5014ddf6a",
-"db/d96/structBootInfo.html#a414e98b07a8547afc9f2096a9d2dd02d",
-"df/d77/gdt_8hpp.html#a9bc0bb5dc0f85051dcb20cadced6a345"
+"d5/dba/multiboot2_8h.html#a0f1c3469d5ef39bff66a690f65c51a6c",
+"d6/d05/classMemory_1_1Physical.html#a5eed67c7a06fcd8cf1c43fc6736cdc10",
+"d7/dfa/namespaceCPU.html",
+"d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d",
+"db/d7b/Debugger_8cpp.html#a8d62ceb6419ec955d3926134d274c35c",
+"de/d7e/structlimine__smbios__response.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

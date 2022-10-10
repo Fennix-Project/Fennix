@@ -4697,7 +4697,7 @@
                   <Subnodes>
                    <Node>
                     <Name>gdt.hpp</Name>
-                    <Path>df/d77/gdt_8hpp.html</Path>
+                    <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                     <Subnodes>
                      <Node>
                       <Name>_TaskStateSegmentEntry</Name>
@@ -4876,167 +4876,167 @@
                      </Node>
                      <Node>
                       <Name>GDT_KERNEL_CODE</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>ab0bd808397c97f7db4701ca69009a547</Anchor>
                      </Node>
                      <Node>
                       <Name>GDT_KERNEL_DATA</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a1b5a711dc01ab783bb986902240f1cce</Anchor>
                      </Node>
                      <Node>
                       <Name>GDT_TSS</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>afa2f85c6adeea0d29c4852d4cef33d4c</Anchor>
                      </Node>
                      <Node>
                       <Name>GDT_USER_CODE</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>af5c033543fb4db7939b4b7587de03867</Anchor>
                      </Node>
                      <Node>
                       <Name>GDT_USER_DATA</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a9670040bead28fb1c0b09ea363152cd2</Anchor>
                      </Node>
                      <Node>
                       <Name>__attribute__</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a8870feefdb17eb7d7c63cabcd0c3d22e</Anchor>
                      </Node>
                      <Node>
                       <Name>Init</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a8f348435f90382d87ff30f9237f15a96</Anchor>
                      </Node>
                      <Node>
                       <Name>Access</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>afd4547759affdaa57ba35b76333857ee</Anchor>
                      </Node>
                      <Node>
                       <Name>BaseHigh</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a2c483aeda65f9a985863382e09007f72</Anchor>
                      </Node>
                      <Node>
                       <Name>BaseLow</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>ab9f9c980afbad64de663b5fec7cacd48</Anchor>
                      </Node>
                      <Node>
                       <Name>BaseMiddle</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>add843b8ec66d6d45efb584c8eb64662f</Anchor>
                      </Node>
                      <Node>
                       <Name>Code</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>ac678cca2a7d570b7e2dd49c5619f98f7</Anchor>
                      </Node>
                      <Node>
                       <Name>Data</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>aff2da4c061653164b5cfcc650f742f27</Anchor>
                      </Node>
                      <Node>
                       <Name>Entries</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>adac265c791f08f7c79b44383c184c739</Anchor>
                      </Node>
                      <Node>
                       <Name>Flags</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>aeb3f0fed7dd127f81565f62281a7ae41</Anchor>
                      </Node>
                      <Node>
                       <Name>Flags1</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a17db325daafff64c94b758a8c71a9f1b</Anchor>
                      </Node>
                      <Node>
                       <Name>Flags2</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>ab77d62bdafc7f0d1e6b1883c34e06dbe</Anchor>
                      </Node>
                      <Node>
                       <Name>High</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a3f521ce071b0440f3ff65bf8b03d58de</Anchor>
                      </Node>
                      <Node>
                       <Name>InterruptStackTable</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a9cbcf7dbaba62e0aa7990f9c0893e165</Anchor>
                      </Node>
                      <Node>
                       <Name>IOMapBaseAddressOffset</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a6fc09010d383d63cff1bf586f70c7f9a</Anchor>
                      </Node>
                      <Node>
                       <Name>Length</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a930e5a4d8414c0427fe5c636062579db</Anchor>
                      </Node>
                      <Node>
                       <Name>Low</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a9bc0bb5dc0f85051dcb20cadced6a345</Anchor>
                      </Node>
                      <Node>
                       <Name>Middle</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a823f689282bbc7a21228bd618cb0de78</Anchor>
                      </Node>
                      <Node>
                       <Name>Null</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a73f4b3a63105e057f9ceccf2c2cde860</Anchor>
                      </Node>
                      <Node>
                       <Name>Reserved</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a178921de788fde65c2509d8fa73ff4ac</Anchor>
                      </Node>
                      <Node>
                       <Name>Reserved0</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a78da68e8221ba91f20a1f749d860b14f</Anchor>
                      </Node>
                      <Node>
                       <Name>Reserved1</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>afea133adf188dfb8979f48bcdaa69acf</Anchor>
                      </Node>
                      <Node>
                       <Name>Reserved2</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a95539100d5c2368b95010fef43a844f6</Anchor>
                      </Node>
                      <Node>
                       <Name>StackPointer</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a9d9ff73842948ded9734b943d3bf5894</Anchor>
                      </Node>
                      <Node>
                       <Name>TaskStateSegment</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>abc498068b381d117f14e2f08434d4ff4</Anchor>
                      </Node>
                      <Node>
                       <Name>Upper32</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>aa0d81e414187a2fc10923c4216972d4e</Anchor>
                      </Node>
                      <Node>
                       <Name>UserCode</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>a320a948a3daaf4e9e4bf572432a1c243</Anchor>
                      </Node>
                      <Node>
                       <Name>UserData</Name>
-                      <Path>df/d77/gdt_8hpp.html</Path>
+                      <Path>d8/dc7/amd64_2cpu_2gdt_8hpp.html</Path>
                       <Anchor>aed95da4e7e2e8f3347cb417a3fcd7c28</Anchor>
                      </Node>
                     </Subnodes>
@@ -5069,7 +5069,7 @@
                    </Node>
                    <Node>
                     <Name>idt.hpp</Name>
-                    <Path>dd/d12/idt_8hpp.html</Path>
+                    <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                     <Subnodes>
                      <Node>
                       <Name>_InterruptDescriptorTableEntry</Name>
@@ -5147,139 +5147,139 @@
                      </Node>
                      <Node>
                       <Name>InterruptDescriptorTableFlags</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>ae24ba5152e822eb3b7599bb191f81d9f</Anchor>
                      </Node>
                      <Node>
                       <Name>_InterruptDescriptorTableFlags</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>ac608e596da0989c5e61a454c44e05fa1</Anchor>
                       <Subnodes>
                        <Node>
                         <Name>FlagGate_TASK</Name>
-                        <Path>dd/d12/idt_8hpp.html</Path>
+                        <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                         <Anchor>ac608e596da0989c5e61a454c44e05fa1ab080a80e39628b2e7267dc3d52d61d4a</Anchor>
                        </Node>
                        <Node>
                         <Name>FlagGate_16BIT_INT</Name>
-                        <Path>dd/d12/idt_8hpp.html</Path>
+                        <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                         <Anchor>ac608e596da0989c5e61a454c44e05fa1aa6cb565c948c4616de5e8cc758a00d57</Anchor>
                        </Node>
                        <Node>
                         <Name>FlagGate_16BIT_TRAP</Name>
-                        <Path>dd/d12/idt_8hpp.html</Path>
+                        <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                         <Anchor>ac608e596da0989c5e61a454c44e05fa1afdc84ace9ccba574c6a3b7ceac0bec86</Anchor>
                        </Node>
                        <Node>
                         <Name>FlagGate_32BIT_INT</Name>
-                        <Path>dd/d12/idt_8hpp.html</Path>
+                        <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                         <Anchor>ac608e596da0989c5e61a454c44e05fa1a5ee5558a0877e2298adac20cbc942c2a</Anchor>
                        </Node>
                        <Node>
                         <Name>FlagGate_32BIT_TRAP</Name>
-                        <Path>dd/d12/idt_8hpp.html</Path>
+                        <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                         <Anchor>ac608e596da0989c5e61a454c44e05fa1a9da043d8f524dd37d2d34bf2432b9b3b</Anchor>
                        </Node>
                        <Node>
                         <Name>FlagGate_RING0</Name>
-                        <Path>dd/d12/idt_8hpp.html</Path>
+                        <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                         <Anchor>ac608e596da0989c5e61a454c44e05fa1a35f89aeabb91849a65fcb295369fec40</Anchor>
                        </Node>
                        <Node>
                         <Name>FlagGate_RING1</Name>
-                        <Path>dd/d12/idt_8hpp.html</Path>
+                        <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                         <Anchor>ac608e596da0989c5e61a454c44e05fa1abc9d9ff2d3e1659ce39e6aba27d1c0d7</Anchor>
                        </Node>
                        <Node>
                         <Name>FlagGate_RING2</Name>
-                        <Path>dd/d12/idt_8hpp.html</Path>
+                        <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                         <Anchor>ac608e596da0989c5e61a454c44e05fa1a371c27859efb080da36f2f95506a418c</Anchor>
                        </Node>
                        <Node>
                         <Name>FlagGate_RING3</Name>
-                        <Path>dd/d12/idt_8hpp.html</Path>
+                        <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                         <Anchor>ac608e596da0989c5e61a454c44e05fa1a8cd1802c26bb40bb9bc522c46c529790</Anchor>
                        </Node>
                        <Node>
                         <Name>FlagGate_PRESENT</Name>
-                        <Path>dd/d12/idt_8hpp.html</Path>
+                        <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                         <Anchor>ac608e596da0989c5e61a454c44e05fa1a16604b483134cd6a516f9c500db8f6ea</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
                      <Node>
                       <Name>__attribute__</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a8901e7de738cfe120b0529592d80496f</Anchor>
                      </Node>
                      <Node>
                       <Name>Init</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a5275e6707c957c5ba4b050102990c908</Anchor>
                      </Node>
                      <Node>
                       <Name>SetEntry</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a91dd97eaf022dfa7a023a8734aa59a1b</Anchor>
                      </Node>
                      <Node>
                       <Name>BaseHigh</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>affc87079f08599e4a3804d23b9df736d</Anchor>
                      </Node>
                      <Node>
                       <Name>BaseLow</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a578db8a0ba46c165c3504c06fb93ed80</Anchor>
                      </Node>
                      <Node>
                       <Name>Entries</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a4198a2f4c3d714550631460af8d09c36</Anchor>
                      </Node>
                      <Node>
                       <Name>Flags</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a7f328ecb741311a0c5026ffbb615d639</Anchor>
                      </Node>
                      <Node>
                       <Name>InterruptStackTable</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a58670cd51a1f9b5f3390457c2481252d</Anchor>
                      </Node>
                      <Node>
                       <Name>Length</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a930e5a4d8414c0427fe5c636062579db</Anchor>
                      </Node>
                      <Node>
                       <Name>Present</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>acdb871789a1e4398874af8cb07987ef6</Anchor>
                      </Node>
                      <Node>
                       <Name>Reserved1</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>afea133adf188dfb8979f48bcdaa69acf</Anchor>
                      </Node>
                      <Node>
                       <Name>Reserved2</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a75ffe246834f18014b5ef078cc2c47d6</Anchor>
                      </Node>
                      <Node>
                       <Name>Reserved3</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>ae010e18fff7afc3a36f5dbba53881816</Anchor>
                      </Node>
                      <Node>
                       <Name>Ring</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a5429fbc529e126b848e51b11bfbcf7ec</Anchor>
                      </Node>
                      <Node>
                       <Name>SegmentSelector</Name>
-                      <Path>dd/d12/idt_8hpp.html</Path>
+                      <Path>dc/da7/amd64_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a1af69d0c46134134a1dcc3b6ac2e63eb</Anchor>
                      </Node>
                     </Subnodes>
@@ -5555,6 +5555,40 @@
                     <Name>TerminalRequest</Name>
                     <Path>d3/d1d/Limine_8c.html</Path>
                     <Anchor>afc8804a50e797015870e044848fd6175</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>i686</Name>
+                <Path>dir_13d4cd4620d3336a508861a4a3b864d9.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>cpu</Name>
+                  <Path>dir_7ad7c4cf93415cc6ba2e08e79a799ed1.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>gdt.hpp</Name>
+                    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Init</Name>
+                      <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+                      <Anchor>a8f348435f90382d87ff30f9237f15a96</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>idt.hpp</Name>
+                    <Path>d3/d67/i686_2cpu_2idt_8hpp.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Init</Name>
+                      <Path>d3/d67/i686_2cpu_2idt_8hpp.html</Path>
+                      <Anchor>a5275e6707c957c5ba4b050102990c908</Anchor>
+                     </Node>
+                    </Subnodes>
                    </Node>
                   </Subnodes>
                  </Node>
