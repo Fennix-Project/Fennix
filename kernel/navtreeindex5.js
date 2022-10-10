@@ -1,7 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d5/dba/multiboot2_8h.html#d4/dbd/structmultiboot__header__tag__information__request":[8,0,0,2,0,0,1,2],
-"d5/dba/multiboot2_8h.html#d4/def/structmultiboot__tag__load__base__addr":[8,0,0,2,0,0,1,33],
 "d5/dba/multiboot2_8h.html#d5/d23/structmultiboot__header__tag__address":[8,0,0,2,0,0,1,3],
 "d5/dba/multiboot2_8h.html#d5/de2/structmultiboot__mmap__entry":[8,0,0,2,0,0,1,10],
 "d5/dba/multiboot2_8h.html#d6/d6f/structmultiboot__vbe__mode__info__block":[8,0,0,2,0,0,1,18],
@@ -249,5 +247,7 @@ var NAVTREEINDEX5 =
 "d7/d8d/CPU_8cpp.html#a0d106989c5e6c864175365b9ed51c960":[8,0,0,1,3,2],
 "d7/d8d/CPU_8cpp.html#a1e34d78eea69b8ed01bd333c7c78f5ea":[8,0,0,1,3,6],
 "d7/d8d/CPU_8cpp.html#a6563538f6b29a9565d3fffab03b82df6":[8,0,0,1,3,7],
-"d7/d8d/CPU_8cpp.html#a8537403db78b47663dcf1fd13b354229":[8,0,0,1,3,0]
+"d7/d8d/CPU_8cpp.html#a8537403db78b47663dcf1fd13b354229":[8,0,0,1,3,0],
+"d7/d8d/CPU_8cpp.html#a91241794b7196a732d94084fc08f6ec5":[8,0,0,1,3,4],
+"d7/d8d/CPU_8cpp.html#aa6d49cc4518ee81a7c344eee5a1a874a":[8,0,0,1,3,1]
 };

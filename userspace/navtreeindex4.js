@@ -1,7 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"d5/d01/PeripheralComponentInterconnect_8cpp.html#a19e4c3d03d0ed206f0338d531153077c":[8,0,0,1,5,15],
-"d5/d01/PeripheralComponentInterconnect_8cpp.html#a1b4b7950199fc112872f022d9fd71768":[8,0,0,1,5,11],
 "d5/d01/PeripheralComponentInterconnect_8cpp.html#a2665b1be0ddd3419bb90e85f3555ba4d":[8,0,0,1,5,7],
 "d5/d01/PeripheralComponentInterconnect_8cpp.html#a2dc62deb63f5c2095dcb0089c1168d02":[8,0,0,1,5,8],
 "d5/d01/PeripheralComponentInterconnect_8cpp.html#a3cbb46aaf63c529bb59db2e4f328d606":[8,0,0,1,5,13],
@@ -249,5 +247,7 @@ var NAVTREEINDEX4 =
 "d5/dba/multiboot2_8h.html#d1/d69/structmultiboot__tag__efi64":[8,0,0,2,0,0,1,25],
 "d5/dba/multiboot2_8h.html#d1/db3/structmultiboot__tag__efi32__ih":[8,0,0,2,0,0,1,31],
 "d5/dba/multiboot2_8h.html#d2/da0/structmultiboot__tag__basic__meminfo":[8,0,0,2,0,0,1,14],
-"d5/dba/multiboot2_8h.html#d4/daf/structmultiboot__header__tag__relocatable":[8,0,0,2,0,0,1,8]
+"d5/dba/multiboot2_8h.html#d4/daf/structmultiboot__header__tag__relocatable":[8,0,0,2,0,0,1,8],
+"d5/dba/multiboot2_8h.html#d4/dbd/structmultiboot__header__tag__information__request":[8,0,0,2,0,0,1,2],
+"d5/dba/multiboot2_8h.html#d4/def/structmultiboot__tag__load__base__addr":[8,0,0,2,0,0,1,33]
 };

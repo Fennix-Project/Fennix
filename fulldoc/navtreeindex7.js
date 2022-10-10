@@ -1,7 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"d9/d25/namespaceCPU_1_1x64.html#dd/dbe/structCPU_1_1x64_1_1RFLAGS_8____unnamed____":[8,0,0,2,2,2],
-"d9/d25/namespaceCPU_1_1x64.html#de/dc5/structCPU_1_1x64_1_1__TrapFrame":[8,0,0,2,2,1],
 "d9/d34/structlimine__entry__point__request.html":[7,0,40],
 "d9/d34/structlimine__entry__point__request.html#a11c57791081f1674b9c0500dcd64eeb4":[7,0,40,0],
 "d9/d34/structlimine__entry__point__request.html#a57bfd668f22fce50da387e3377efd2bb":[7,0,40,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX7 =
 "da/d3e/memory_8hpp.html#a44e01e8177dee2f702b00c01c74fda21":[8,0,0,2,10,14],
 "da/d3e/memory_8hpp.html#a48e69e8b3f2819f50bb21433c81bff0b":[8,0,0,2,10,17],
 "da/d3e/memory_8hpp.html#a4a9829fe64dbadbfbb16f4dc7a80008c":[8,0,0,2,10,16],
-"da/d3e/memory_8hpp.html#a5678065cf5ef2f37859b96a6d5fd964e":[8,0,0,2,10,23]
+"da/d3e/memory_8hpp.html#a5678065cf5ef2f37859b96a6d5fd964e":[8,0,0,2,10,23],
+"da/d3e/memory_8hpp.html#a6333f25ceada59e273640e211387cfe7":[8,0,0,2,10,22],
+"da/d3e/memory_8hpp.html#a64e3dbcd07bb6cb099a9f3beed68d870":[8,0,0,2,10,21]
 };

@@ -7763,10 +7763,6 @@
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>SMPTrampoline.asm</Name>
-                    <Path>d4/dd4/SMPTrampoline_8asm.html</Path>
-                   </Node>
-                   <Node>
                     <Name>SymmetricMultiprocessing.cpp</Name>
                     <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
                     <Subnodes>

@@ -243,11 +243,11 @@ var NAVTREEINDEX3 =
 "d4/db5/String_8c.html#ac376fcece8fcc2d0f8b1cf3de18b10df":[8,0,0,3,6,3],
 "d4/db5/String_8c.html#afca62bf1b7f91b44ba5c2ada54444fc9":[8,0,0,3,6,7],
 "d4/db5/String_8c_source.html":[8,0,0,3,6],
-"d4/dd4/SMPTrampoline_8asm.html":[8,0,0,0,0,0,6],
-"d4/dd4/SMPTrampoline_8asm_source.html":[8,0,0,0,0,0,6],
 "d4/dd6/structlimine__kernel__address__request.html":[7,0,48],
 "d4/dd6/structlimine__kernel__address__request.html#a211a99f1f59b643e4270dc1532cd59d0":[7,0,48,0],
 "d4/dd6/structlimine__kernel__address__request.html#abf3529a7fbe9910de8b94f37572f841e":[7,0,48,2],
 "d4/dd6/structlimine__kernel__address__request.html#af07467238f1145154cbc7840bd5a4283":[7,0,48,1],
-"d5/d01/PeripheralComponentInterconnect_8cpp.html":[8,0,0,1,5]
+"d5/d01/PeripheralComponentInterconnect_8cpp.html":[8,0,0,1,5],
+"d5/d01/PeripheralComponentInterconnect_8cpp.html#a19e4c3d03d0ed206f0338d531153077c":[8,0,0,1,5,15],
+"d5/d01/PeripheralComponentInterconnect_8cpp.html#a1b4b7950199fc112872f022d9fd71768":[8,0,0,1,5,11]
 };

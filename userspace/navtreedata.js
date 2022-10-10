@@ -77,16 +77,16 @@ var NAVTREEINDEX =
 "d1/d69/namespaceGlobalDescriptorTable.html#a3e8d8eb76d592dd73085edfc62cb041e",
 "d2/dc5/liballocimpl_8cpp.html#a9d05a13e09b30a575c7d199bc970dccb",
 "d3/d21/classACPI_1_1ACPI.html#aefc3d8c14a0d9aa3f95a659f7a62b8a7",
-"d5/d01/PeripheralComponentInterconnect_8cpp.html#a19e4c3d03d0ed206f0338d531153077c",
-"d5/dba/multiboot2_8h.html#d4/dbd/structmultiboot__header__tag__information__request",
-"d7/d8d/CPU_8cpp.html#a91241794b7196a732d94084fc08f6ec5",
-"d9/d25/namespaceCPU_1_1x64.html#dd/dbe/structCPU_1_1x64_1_1RFLAGS_8____unnamed____",
-"da/d3e/memory_8hpp.html#a6333f25ceada59e273640e211387cfe7",
-"db/d96/structBootInfo.html#aa77a54ab865bf5cbf639e25395bcf0e8",
-"df/d88/SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138df",
-"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37babac36f218fd20ab7bd10f14e1c9058fb96",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda7f5b4001ecf24a836fa79908ccc4db62",
-"df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519eae50fcf897c50a8e071e5b4fd4e1a3b68"
+"d5/d01/PeripheralComponentInterconnect_8cpp.html#a2665b1be0ddd3419bb90e85f3555ba4d",
+"d5/dba/multiboot2_8h.html#d5/d23/structmultiboot__header__tag__address",
+"d7/d8d/CPU_8cpp.html#aea6a677157d4cbe39d21f22bda39000b",
+"d9/d34/structlimine__entry__point__request.html",
+"da/d3e/memory_8hpp.html#a662987a7fdf770aeb14d58ab61af2099",
+"db/d96/structBootInfo.html#aa93ca2b883a24035cce85ecf6e971bc3",
+"df/d88/SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa2cbb2ee4b5b14b938027e51ab8744c8b",
+"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37babacae7a8fd9b21471782370f9cfda22264",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda8046f2e3b15987601773ae8aa8c62cb9",
+"df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519eaee9515ef105746ec4d6816ee6873a3d1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

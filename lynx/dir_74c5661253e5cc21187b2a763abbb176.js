@@ -8,6 +8,5 @@ var dir_74c5661253e5cc21187b2a763abbb176 =
     [ "GlobalDescriptorTable.cpp", "df/dad/GlobalDescriptorTable_8cpp.html", "df/dad/GlobalDescriptorTable_8cpp" ],
     [ "idt.hpp", "dc/da7/amd64_2cpu_2idt_8hpp.html", "dc/da7/amd64_2cpu_2idt_8hpp" ],
     [ "InterruptDescriptorTable.cpp", "d7/d21/InterruptDescriptorTable_8cpp.html", "d7/d21/InterruptDescriptorTable_8cpp" ],
-    [ "SMPTrampoline.asm", "d4/dd4/SMPTrampoline_8asm.html", null ],
     [ "SymmetricMultiprocessing.cpp", "df/d88/SymmetricMultiprocessing_8cpp.html", "df/d88/SymmetricMultiprocessing_8cpp" ]
 ];

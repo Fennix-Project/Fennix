@@ -1,7 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda7f5b4001ecf24a836fa79908ccc4db62":[8,0,0,2,2,8,302],
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda80334d04b9cf99fe170cc9cda900b507":[8,0,0,2,2,8,149],
 "df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda8046f2e3b15987601773ae8aa8c62cb9":[8,0,0,2,2,8,262],
 "df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda8084c0cdc53c098d82f0e033708fd531":[8,0,0,2,2,8,21],
 "df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda80913495b6526663bb9e25b3f1ae8de5":[8,0,0,2,2,8,44],
@@ -249,5 +247,7 @@ var NAVTREEINDEX12 =
 "df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519eadb6051f1e5c8217e82c3d766c04b62f9":[8,0,0,2,2,4,27],
 "df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519eaddd018f36213b60d449384579faf185e":[8,0,0,2,2,4,43],
 "df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519eae0b0d821b54b3c5cf55d8f74d5f50362":[8,0,0,2,2,4,51],
-"df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519eae2954f9fb0dc58744938725e56a1171d":[8,0,0,2,2,4,29]
+"df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519eae2954f9fb0dc58744938725e56a1171d":[8,0,0,2,2,4,29],
+"df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519eae50fcf897c50a8e071e5b4fd4e1a3b68":[8,0,0,2,2,4,19],
+"df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519eae829948d29213eadea236889da0ff9d4":[8,0,0,2,2,4,42]
 };

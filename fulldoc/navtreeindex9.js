@@ -1,7 +1,5 @@
 var NAVTREEINDEX9 =
 {
-"db/d96/structBootInfo.html#aa77a54ab865bf5cbf639e25395bcf0e8":[7,0,18,1,0],
-"db/d96/structBootInfo.html#aa93ca2b883a24035cce85ecf6e971bc3":[7,0,18,2,4],
 "db/d96/structBootInfo.html#aa93ca2b883a24035cce85ecf6e971bc3":[8,0,0,2,0,1,6,4],
 "db/d96/structBootInfo.html#aaca38a442e9a31d75c1ee29321b27674":[7,0,18,3,2],
 "db/d96/structBootInfo.html#aaca38a442e9a31d75c1ee29321b27674":[8,0,0,2,0,1,2,2],
@@ -39,8 +37,8 @@ var NAVTREEINDEX9 =
 "db/d96/structBootInfo.html#af3e92090babf7f7cfee8017638b4dc66":[7,0,18,4,2],
 "db/d96/structBootInfo.html#af3e92090babf7f7cfee8017638b4dc66":[8,0,0,2,0,1,4,2],
 "db/d96/structBootInfo.html#af9c40d64c0871090a237608cd029a51a":[7,0,18,3,0,2],
-"db/d96/structBootInfo.html#af9c40d64c0871090a237608cd029a51a":[8,0,0,2,0,1,2,0,2],
 "db/d96/structBootInfo.html#af9c40d64c0871090a237608cd029a51a":[8,0,0,2,0,1,3,2],
+"db/d96/structBootInfo.html#af9c40d64c0871090a237608cd029a51a":[8,0,0,2,0,1,2,0,2],
 "db/d96/structBootInfo.html#afa71c86662f958f9f001bb8fee4bde88":[7,0,18,4,1],
 "db/d96/structBootInfo.html#afa71c86662f958f9f001bb8fee4bde88":[8,0,0,2,0,1,4,1],
 "db/d96/structBootInfo.html#afe9278be01394e480172f6587115acc0":[7,0,18,1,5],
@@ -50,8 +48,8 @@ var NAVTREEINDEX9 =
 "db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo":[7,0,18,2],
 "db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo":[8,0,0,2,0,1,6],
 "db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[7,0,18,3,0],
-"db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[8,0,0,2,0,1,3],
 "db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[8,0,0,2,0,1,2,0],
+"db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[8,0,0,2,0,1,3],
 "db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo":[7,0,18,5],
 "db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo":[8,0,0,2,0,1,5],
 "db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo":[8,0,0,2,0,1,7],
@@ -248,6 +246,8 @@ var NAVTREEINDEX9 =
 "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#aeb8431f0cf8dffcf3da55607fb0760b7":[8,0,0,0,0,3,1],
 "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#af4e00151aea6bb1131e1631ce2300366":[8,0,0,0,0,3,7],
 "df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html":[8,0,0,0,0,3],
-"df/d88/SymmetricMultiprocessing_8cpp.html":[8,0,0,0,0,0,7],
-"df/d88/SymmetricMultiprocessing_8cpp.html#a01053fbf08aa5c622b2e2a65e699edbf":[8,0,0,0,0,0,7,6]
+"df/d88/SymmetricMultiprocessing_8cpp.html":[8,0,0,0,0,0,6],
+"df/d88/SymmetricMultiprocessing_8cpp.html#a01053fbf08aa5c622b2e2a65e699edbf":[8,0,0,0,0,0,6,6],
+"df/d88/SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138df":[8,0,0,0,0,0,6,1],
+"df/d88/SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa0ebd216ccf715efc8f6c10b6ece9b241":[8,0,0,0,0,0,6,1,3]
 };

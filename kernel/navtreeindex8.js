@@ -1,7 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"da/d3e/memory_8hpp.html#a6333f25ceada59e273640e211387cfe7":[8,0,0,2,10,22],
-"da/d3e/memory_8hpp.html#a64e3dbcd07bb6cb099a9f3beed68d870":[8,0,0,2,10,21],
 "da/d3e/memory_8hpp.html#a662987a7fdf770aeb14d58ab61af2099":[8,0,0,2,10,46],
 "da/d3e/memory_8hpp.html#a75453869f36eec4673201bec86227825":[8,0,0,2,10,47],
 "da/d3e/memory_8hpp.html#a75b788f53a0d45523a0c9b1ab96c28a4":[8,0,0,2,10,6],
@@ -249,5 +247,7 @@ var NAVTREEINDEX8 =
 "db/d96/structBootInfo.html#a995cbea2d6f125096b0dccf78e61844f":[8,0,0,2,0,1,5,3],
 "db/d96/structBootInfo.html#a9e491ebebeeaef5757badfe61dd5ca1e":[8,0,0,2,0,1,7,1],
 "db/d96/structBootInfo.html#a9e491ebebeeaef5757badfe61dd5ca1e":[7,0,18,0,1],
-"db/d96/structBootInfo.html#aa77a54ab865bf5cbf639e25395bcf0e8":[8,0,0,2,0,1,1,0]
+"db/d96/structBootInfo.html#aa77a54ab865bf5cbf639e25395bcf0e8":[8,0,0,2,0,1,1,0],
+"db/d96/structBootInfo.html#aa77a54ab865bf5cbf639e25395bcf0e8":[7,0,18,1,0],
+"db/d96/structBootInfo.html#aa93ca2b883a24035cce85ecf6e971bc3":[7,0,18,2,4]
 };
