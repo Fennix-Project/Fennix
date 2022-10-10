@@ -51,6 +51,7 @@ var binfo_8h =
     ] ],
     [ "KernelInfo", "db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo", [
       [ "CommandLine", "db/d96/structBootInfo.html#adde62f42ebd193e412df27ef24698adf", null ],
+      [ "FileBase", "db/d96/structBootInfo.html#abafacba0a6db48f77b3216c00e0bea89", null ],
       [ "PhysicalBase", "db/d96/structBootInfo.html#a98f7b16d3f14aa26d7bf675a85d80c5a", null ],
       [ "Size", "db/d96/structBootInfo.html#acc0e384fa8049bd783341dd656f9ea9f", null ],
       [ "VirtualBase", "db/d96/structBootInfo.html#aa93ca2b883a24035cce85ecf6e971bc3", null ]
@@ -76,7 +77,7 @@ var binfo_8h =
     [ "ExtendedChecksum", "d9/d36/binfo_8h.html#aaafa048bfd677fb79ce5e6eb8369262f", null ],
     [ "Length", "d9/d36/binfo_8h.html#af8d8a0e464944d6e219e87ef2f33d2e0", null ],
     [ "OEMID", "d9/d36/binfo_8h.html#a6dd233744da2481abac20aed9decc379", null ],
-    [ "Reserved", "d9/d36/binfo_8h.html#a49ad3f9f1032d92723561e6d37af48aa", null ],
+    [ "Reserved", "d9/d36/binfo_8h.html#a337071dd60b13ace5d56026af1ca048f", null ],
     [ "Revision", "d9/d36/binfo_8h.html#a55eb3228cf0540a1e7ee4fa81453e29c", null ],
     [ "RSDTAddress", "d9/d36/binfo_8h.html#a0228d7761fbfe9a64d1b16f4468bf3e8", null ],
     [ "Signature", "d9/d36/binfo_8h.html#a38a7ef2fc883f12578d9cb534d047a25", null ],

@@ -121,7 +121,7 @@ Macros</h2></td></tr>
 <tr class="separator:a50ef1cac06d39d62392e23c4c10827a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae59fe9d3db65a6eee7cbd9817a679012"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d12/Xalloc_8hpp.html#ae59fe9d3db65a6eee7cbd9817a679012">Xalloc_FREE_PAGES</a>(Address,  <a class="el" href="../../d8/dcc/Memory_8cpp.html#a6152d006890d5e69e28c28b6111ef55fa2e2fe9881a01a7af6efea3db7e52d2cf">Pages</a>)&#160;&#160;&#160;KernelAllocator.FreePages(Address, <a class="el" href="../../d8/dcc/Memory_8cpp.html#a6152d006890d5e69e28c28b6111ef55fa2e2fe9881a01a7af6efea3db7e52d2cf">Pages</a>)</td></tr>
 <tr class="separator:ae59fe9d3db65a6eee7cbd9817a679012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f53a6b473680d68fd8da112f49d06e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d12/Xalloc_8hpp.html#a4f53a6b473680d68fd8da112f49d06e0">Xalloc_MAP_MEMORY</a>(VirtualAddress,  PhysicalAddress,  Flags)&#160;&#160;&#160;<a class="el" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(<a class="el" href="../../da/d3e/memory_8hpp.html#a75453869f36eec4673201bec86227825">KernelPageTable</a>).Map(VirtualAddress, PhysicalAddress, Flags)</td></tr>
+<tr class="memitem:a4f53a6b473680d68fd8da112f49d06e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d12/Xalloc_8hpp.html#a4f53a6b473680d68fd8da112f49d06e0">Xalloc_MAP_MEMORY</a>(VirtualAddress,  PhysicalAddress,  <a class="el" href="../../dd/d12/idt_8hpp.html#a7f328ecb741311a0c5026ffbb615d639">Flags</a>)&#160;&#160;&#160;<a class="el" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(<a class="el" href="../../da/d3e/memory_8hpp.html#a75453869f36eec4673201bec86227825">KernelPageTable</a>).Map(VirtualAddress, PhysicalAddress, <a class="el" href="../../dd/d12/idt_8hpp.html#a7f328ecb741311a0c5026ffbb615d639">Flags</a>)</td></tr>
 <tr class="separator:a4f53a6b473680d68fd8da112f49d06e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa766c4fedb9400b936a5b5eee6d0768c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d12/Xalloc_8hpp.html#aa766c4fedb9400b936a5b5eee6d0768c">Xalloc_UNMAP_MEMORY</a>(VirtualAddress)&#160;&#160;&#160;<a class="el" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(<a class="el" href="../../da/d3e/memory_8hpp.html#a75453869f36eec4673201bec86227825">KernelPageTable</a>).Unmap(VirtualAddress)</td></tr>
 <tr class="separator:aa766c4fedb9400b936a5b5eee6d0768c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,12 +298,12 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">Flags&#160;</td>
+          <td class="paramname"><a class="el" href="../../dd/d12/idt_8hpp.html#a7f328ecb741311a0c5026ffbb615d639">Flags</a>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(<a class="el" href="../../da/d3e/memory_8hpp.html#a75453869f36eec4673201bec86227825">KernelPageTable</a>).Map(VirtualAddress, PhysicalAddress, Flags)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(<a class="el" href="../../da/d3e/memory_8hpp.html#a75453869f36eec4673201bec86227825">KernelPageTable</a>).Map(VirtualAddress, PhysicalAddress, <a class="el" href="../../dd/d12/idt_8hpp.html#a7f328ecb741311a0c5026ffbb615d639">Flags</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -639,7 +639,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00027">27</a> of file <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html">Xalloc.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d4a/Xalloc_8cpp_source.html#l00053">Xalloc::AllocatorV1::ExpandHeap()</a>, <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00091">Xalloc::AllocatorV1::Xmemcpy()</a>, and <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00101">Xalloc::AllocatorV1::Xmemset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00091">Xalloc::AllocatorV1::Xmemcpy()</a>, and <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00101">Xalloc::AllocatorV1::Xmemset()</a>.</p>
 
 </div>
 </div>
@@ -667,7 +667,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aXalloc_8hpp_html_ade3e04c96dd45ce3883d49b47135c0ce"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#ade3e04c96dd45ce3883d49b47135c0ce">Next</a></div><div class="ttdeci">HeapSegment * Next</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00028">Xalloc.hpp:28</a></div></div>
 <div class="ttc" id="aXalloc_8hpp_html_a2e33a2b8093009ed89b4fd620e265f0a"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#a2e33a2b8093009ed89b4fd620e265f0a">Length</a></div><div class="ttdeci">Xuint64_t Length</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00027">Xalloc.hpp:27</a></div></div>
 <div class="ttc" id="aXalloc_8hpp_html_acb388cdb96fcfdac81a08f7ae8f8da84"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#acb388cdb96fcfdac81a08f7ae8f8da84">IsFree</a></div><div class="ttdeci">bool IsFree</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00030">Xalloc.hpp:30</a></div></div>
-<div class="ttc" id="atypes_8h_html_ac714c0d2c1a4adb10e73cab29623314b"><div class="ttname"><a href="../../d9/d49/types_8h.html#ac714c0d2c1a4adb10e73cab29623314b">int64_t</a></div><div class="ttdeci">__INT64_TYPE__ int64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00051">types.h:51</a></div></div>
+<div class="ttc" id="atypes_8h_html_ac714c0d2c1a4adb10e73cab29623314b"><div class="ttname"><a href="../../d9/d49/types_8h.html#ac714c0d2c1a4adb10e73cab29623314b">int64_t</a></div><div class="ttdeci">__INT64_TYPE__ int64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00053">types.h:53</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

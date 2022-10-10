@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['memory_1142',['Memory',['../d3/d97/namespaceMemory.html',1,'']]]
+  ['globaldescriptortable_1306',['GlobalDescriptorTable',['../d1/d69/namespaceGlobalDescriptorTable.html',1,'']]]
 ];

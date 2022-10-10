@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['sysdbg_1143',['SysDbg',['../d3/df0/namespaceSysDbg.html',1,'']]]
+  ['interruptdescriptortable_1307',['InterruptDescriptorTable',['../d2/db2/namespaceInterruptDescriptorTable.html',1,'']]],
+  ['interrupts_1308',['Interrupts',['../d3/dc3/namespaceInterrupts.html',1,'']]]
 ];

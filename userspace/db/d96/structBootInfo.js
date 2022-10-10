@@ -22,6 +22,7 @@ var structBootInfo =
     ] ],
     [ "KernelInfo", "db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo", [
       [ "CommandLine", "db/d96/structBootInfo.html#adde62f42ebd193e412df27ef24698adf", null ],
+      [ "FileBase", "db/d96/structBootInfo.html#abafacba0a6db48f77b3216c00e0bea89", null ],
       [ "PhysicalBase", "db/d96/structBootInfo.html#a98f7b16d3f14aa26d7bf675a85d80c5a", null ],
       [ "Size", "db/d96/structBootInfo.html#acc0e384fa8049bd783341dd656f9ea9f", null ],
       [ "VirtualBase", "db/d96/structBootInfo.html#aa93ca2b883a24035cce85ecf6e971bc3", null ]

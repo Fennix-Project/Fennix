@@ -1,7 +1,10 @@
 var annotated_dup =
 [
-    [ "CPU", "d7/dfa/namespaceCPU.html", null ],
+    [ "CPU", "d7/dfa/namespaceCPU.html", "d7/dfa/namespaceCPU" ],
+    [ "GlobalDescriptorTable", "d1/d69/namespaceGlobalDescriptorTable.html", "d1/d69/namespaceGlobalDescriptorTable" ],
+    [ "InterruptDescriptorTable", "d2/db2/namespaceInterruptDescriptorTable.html", "d2/db2/namespaceInterruptDescriptorTable" ],
     [ "Memory", "d3/d97/namespaceMemory.html", "d3/d97/namespaceMemory" ],
+    [ "SymbolResolver", "d9/d05/namespaceSymbolResolver.html", "d9/d05/namespaceSymbolResolver" ],
     [ "UniversalAsynchronousReceiverTransmitter", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter" ],
     [ "Video", "d6/de2/namespaceVideo.html", "d6/de2/namespaceVideo" ],
     [ "Xalloc", "dc/d0a/namespaceXalloc.html", "dc/d0a/namespaceXalloc" ],
@@ -11,6 +14,9 @@ var annotated_dup =
     [ "BootInfo", "db/d96/structBootInfo.html", "db/d96/structBootInfo" ],
     [ "double_components", "d1/d3d/printf_8c.html#da/da6/structdouble__components", "d1/d3d/printf_8c_da/da6/structdouble__components" ],
     [ "double_with_bit_access", "d1/d3d/printf_8c.html#d6/da2/uniondouble__with__bit__access", "d1/d3d/printf_8c_d6/da2/uniondouble__with__bit__access" ],
+    [ "Elf64_Ehdr", "d7/db9/Symbols_8cpp.html#df/de8/structElf64__Ehdr", "d7/db9/Symbols_8cpp_df/de8/structElf64__Ehdr" ],
+    [ "Elf64_Shdr", "d7/db9/Symbols_8cpp.html#de/da8/structElf64__Shdr", "d7/db9/Symbols_8cpp_de/da8/structElf64__Shdr" ],
+    [ "Elf64_Sym", "d7/db9/Symbols_8cpp.html#de/dae/structElf64__Sym", "d7/db9/Symbols_8cpp_de/dae/structElf64__Sym" ],
     [ "Fex", "d0/dc9/init_8cpp.html#d2/ddc/structFex", "d0/dc9/init_8cpp_d2/ddc/structFex" ],
     [ "HashMap", "db/d1a/classHashMap.html", "db/d1a/classHashMap" ],
     [ "HashNode", "d7/d56/classHashNode.html", "d7/d56/classHashNode" ],

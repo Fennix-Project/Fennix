@@ -25,7 +25,9 @@ var NAVTREE =
   [ "Fennix", "index.html", [
     [ "Doxygen", "index.html", null ],
     [ "Core components", "d9/d75/md_Kernel_core_README.html", [
-      [ "💾 Memory", "d9/d75/md_Kernel_core_README.html#autotoc_md2", null ]
+      [ "💾 Memory", "d9/d75/md_Kernel_core_README.html#autotoc_md2", null ],
+      [ "📺 Video", "d9/d75/md_Kernel_core_README.html#autotoc_md3", null ],
+      [ "🖥 CPU", "d9/d75/md_Kernel_core_README.html#autotoc_md4", null ]
     ] ],
     [ "Kernel", "da/dc9/md_Kernel_README.html", null ],
     [ "Lynx", "da/d22/md_Lynx_README.html", null ],
@@ -70,12 +72,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d2/dc5/liballocimpl_8cpp_source.html",
-"d5/dba/multiboot2_8h.html#a68f78286f7434d373a82f1b6f6473c72",
-"d6/de2/namespaceVideo.html#a340c0b75c12613244cf5a8a1ead8b0c1",
-"d9/d49/types_8h.html#a3c75bb398badb69c7577b21486f9963f",
-"db/d7b/Debugger_8cpp.html#abc59a019ad3de095adabdb813af7a867",
-"df/dbe/cpu_8hpp.html#a8fcf1f2cabd7ed5b6d22e93765aaf178"
+"d2/db2/namespaceInterruptDescriptorTable.html#a38541c9075cd4ff4ecfdeb1baca213b5",
+"d5/dba/multiboot2_8h.html#a10b78479319b8790657f13414cf34736",
+"d6/d05/classMemory_1_1Physical.html#a6dcbfe3b9a418059af52c235ba7ce0b2",
+"d8/d0a/interrupts_8hpp.html#a08d918edd974c7040b12059a47e2dffb",
+"d9/d49/types_8h.html#aaf7f29f45f1a513b4748a4e5014ddf6a",
+"db/d96/structBootInfo.html#a414e98b07a8547afc9f2096a9d2dd02d",
+"df/d77/gdt_8hpp.html#a9bc0bb5dc0f85051dcb20cadced6a345"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

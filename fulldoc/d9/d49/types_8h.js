@@ -37,6 +37,7 @@ var types_8h =
     [ "INTPTR_MAX", "d9/d49/types_8h.html#a9e5742f2bae4a5283431a3c03499e3a9", null ],
     [ "INTPTR_MIN", "d9/d49/types_8h.html#a2aaa6d3aa1d7d1e0e326955aa24db752", null ],
     [ "NULL", "d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4", null ],
+    [ "offsetof", "d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841", null ],
     [ "PTRDIFF_MAX", "d9/d49/types_8h.html#add2ef7bffac19cfdd1f4b5495409672f", null ],
     [ "PTRDIFF_MIN", "d9/d49/types_8h.html#ad9b88ba2fb858f98b50b38e49875d90e", null ],
     [ "SIG_ATOMIC_MAX", "d9/d49/types_8h.html#a1f5fe9445d0ad0bee21bab1de4cc3e58", null ],

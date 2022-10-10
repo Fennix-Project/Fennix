@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['readme_2emd_1178',['README.md',['../da/d44/Kernel_2core_2README_8md.html',1,'(Global Namespace)'],['../dd/d85/Kernel_2README_8md.html',1,'(Global Namespace)'],['../d9/d31/Lynx_2README_8md.html',1,'(Global Namespace)'],['../d7/d57/Userspace_2README_8md.html',1,'(Global Namespace)']]]
+  ['physicalmemorymanager_2ecpp_1349',['PhysicalMemoryManager.cpp',['../d4/d60/PhysicalMemoryManager_8cpp.html',1,'']]],
+  ['printf_2ec_1350',['printf.c',['../d1/d3d/printf_8c.html',1,'']]],
+  ['printf_2eh_1351',['printf.h',['../d3/d6b/printf_8h.html',1,'']]]
 ];
