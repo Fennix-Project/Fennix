@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['elf64_5fehdr_1193',['Elf64_Ehdr',['../d7/db9/Symbols_8cpp.html#df/de8/structElf64__Ehdr',1,'']]],
-  ['elf64_5fshdr_1194',['Elf64_Shdr',['../d7/db9/Symbols_8cpp.html#de/da8/structElf64__Shdr',1,'']]],
-  ['elf64_5fsym_1195',['Elf64_Sym',['../d7/db9/Symbols_8cpp.html#de/dae/structElf64__Sym',1,'']]],
-  ['events_1196',['Events',['../d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html',1,'UniversalAsynchronousReceiverTransmitter']]]
+  ['deviceconfig_2277',['DeviceConfig',['../d0/d8f/namespacePCI.html#d8/de9/structPCI_1_1DeviceConfig',1,'PCI']]],
+  ['display_2278',['Display',['../db/d81/classVideo_1_1Display.html',1,'Video']]],
+  ['double_5fcomponents_2279',['double_components',['../d1/d3d/printf_8c.html#da/da6/structdouble__components',1,'']]],
+  ['double_5fwith_5fbit_5faccess_2280',['double_with_bit_access',['../d1/d3d/printf_8c.html#d6/da2/uniondouble__with__bit__access',1,'']]],
+  ['dsdt_2281',['DSDT',['../dd/dc9/classACPI_1_1DSDT.html',1,'ACPI']]]
 ];

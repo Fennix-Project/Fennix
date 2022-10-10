@@ -6,5 +6,6 @@ var CPU_8cpp =
     [ "Name", "d7/d8d/CPU_8cpp.html#aea6a677157d4cbe39d21f22bda39000b", null ],
     [ "PageTable", "d7/d8d/CPU_8cpp.html#a91241794b7196a732d94084fc08f6ec5", null ],
     [ "Pause", "d7/d8d/CPU_8cpp.html#aeec952406880ca5e214245f461edb321", null ],
+    [ "Stop", "d7/d8d/CPU_8cpp.html#a1e34d78eea69b8ed01bd333c7c78f5ea", null ],
     [ "Vendor", "d7/d8d/CPU_8cpp.html#a6563538f6b29a9565d3fffab03b82df6", null ]
 ];

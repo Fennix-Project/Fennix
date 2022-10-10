@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['memory_1309',['Memory',['../d3/d97/namespaceMemory.html',1,'']]]
+  ['interruptdescriptortable_2424',['InterruptDescriptorTable',['../d2/db2/namespaceInterruptDescriptorTable.html',1,'']]],
+  ['interrupts_2425',['Interrupts',['../d3/dc3/namespaceInterrupts.html',1,'']]]
 ];

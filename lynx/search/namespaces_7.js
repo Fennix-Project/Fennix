@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xalloc_1314',['Xalloc',['../dc/d0a/namespaceXalloc.html',1,'']]]
+  ['universalasynchronousreceivertransmitter_2432',['UniversalAsynchronousReceiverTransmitter',['../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html',1,'']]]
 ];

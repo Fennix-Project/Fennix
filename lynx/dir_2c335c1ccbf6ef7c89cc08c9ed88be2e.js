@@ -16,7 +16,12 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "limits.h", "d9/d86/limits_8h.html", "d9/d86/limits_8h" ],
     [ "lock.hpp", "d0/d44/lock_8hpp.html", null ],
     [ "memory.hpp", "da/d3e/memory_8hpp.html", "da/d3e/memory_8hpp" ],
+    [ "pci.hpp", "d9/dd5/pci_8hpp.html", "d9/dd5/pci_8hpp" ],
+    [ "power.hpp", "db/dfa/power_8hpp.html", [
+      [ "Power", "d0/df9/classPower_1_1Power.html", "d0/df9/classPower_1_1Power" ]
+    ] ],
     [ "printf.h", "d3/d6b/printf_8h.html", "d3/d6b/printf_8h" ],
+    [ "smp.hpp", "d4/d33/smp_8hpp.html", "d4/d33/smp_8hpp" ],
     [ "string.h", "da/d66/string_8h.html", "da/d66/string_8h" ],
     [ "symbols.hpp", "d7/d94/symbols_8hpp.html", "d7/d94/symbols_8hpp" ],
     [ "sys.h", "d9/d87/sys_8h.html", null ],

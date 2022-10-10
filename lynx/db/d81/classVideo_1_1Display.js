@@ -13,6 +13,8 @@ var classVideo_1_1Display =
     [ "SetCurrentFont", "db/d81/classVideo_1_1Display.html#a4fdce949a25588b0e135cde82b9e00e1", null ],
     [ "SetPixel", "db/d81/classVideo_1_1Display.html#ae52a43d1cf247cf0dd03787b31e5b880", null ],
     [ "Buffers", "db/d81/classVideo_1_1Display.html#ad8769ac3fe40ab8b8b2f1741316b10da", null ],
+    [ "ColorIteration", "db/d81/classVideo_1_1Display.html#ababb6b398e44135997b52f77982c2dbb", null ],
+    [ "ColorPickerIteration", "db/d81/classVideo_1_1Display.html#ab671919c361d8df31e5832211c253cea", null ],
     [ "CurrentFont", "db/d81/classVideo_1_1Display.html#a468d3a2ad204e1e61f90bbaa50ad3a1f", null ],
     [ "framebuffer", "db/d81/classVideo_1_1Display.html#ae18e5ee42467343b65baf26ada6056e9", null ]
 ];

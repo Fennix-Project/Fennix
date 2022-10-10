@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['liballoc11_2068',['liballoc11',['../d8/dcc/Memory_8cpp.html#a6152d006890d5e69e28c28b6111ef55fac2c77e1ccd4d823477c9c6aad93d79fa',1,'Memory.cpp']]]
+  ['kernelandmodules_3823',['KernelAndModules',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a8b675d21252e54a28df94bb018e9c307',1,'binfo.h']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['interruptstype_2000',['InterruptsType',['../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178',1,'CPU']]]
+  ['debuglevel_3375',['DebugLevel',['../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395',1,'debug.h']]]
 ];

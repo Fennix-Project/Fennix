@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['output_5fgadget_5ft_1284',['output_gadget_t',['../d0/d3e/structoutput__gadget__t.html',1,'']]]
+  ['kernelinfo_2298',['KernelInfo',['../db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo',1,'BootInfo']]]
 ];

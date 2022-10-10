@@ -155,13 +155,13 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        this-&gt;<a class="code" href="../../d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a48def08a699b9218b3600da1f67b949d">Port</a> = <a class="code" href="../../d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a48def08a699b9218b3600da1f67b949d">Port</a>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a0144269e48643c12d608e3b5319e4787">RegisteredEvents</a>.push_back(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00085">85</a> of file <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        this-&gt;<a class="code" href="../../d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a48def08a699b9218b3600da1f67b949d">Port</a> = <a class="code" href="../../d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a48def08a699b9218b3600da1f67b949d">Port</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a243b35bd4f91344446c7905d0a699f43">RegisteredEvents</a>.push_back(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00039">Port</a>, and <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00016">UniversalAsynchronousReceiverTransmitter::RegisteredEvents</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00039">Port</a>, and <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00008">RegisteredEvents</a>.</p>
 
 </div>
 </div>
@@ -188,17 +188,17 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    {</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> i = 0; i &lt; <a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a0144269e48643c12d608e3b5319e4787">RegisteredEvents</a>.size(); i++)</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a0144269e48643c12d608e3b5319e4787">RegisteredEvents</a>[i] == <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a0144269e48643c12d608e3b5319e4787">RegisteredEvents</a>.remove(i);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            }</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00091">91</a> of file <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> i = 0; i &lt; <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a243b35bd4f91344446c7905d0a699f43">RegisteredEvents</a>.size(); i++)</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a243b35bd4f91344446c7905d0a699f43">RegisteredEvents</a>[i] == <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a243b35bd4f91344446c7905d0a699f43">RegisteredEvents</a>.remove(i);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00016">UniversalAsynchronousReceiverTransmitter::RegisteredEvents</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00008">RegisteredEvents</a>.</p>
 
 </div>
 </div>
@@ -333,18 +333,18 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../de/d3f/uart_8hpp_source.html">uart.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00086">Events()</a>, and <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00054">GetRegisteredPort()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00085">Events()</a>, and <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00054">GetRegisteredPort()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Kernel/include/<a class="el" href="../../de/d3f/uart_8hpp_source.html">uart.hpp</a></li>
-<li>Kernel/arch/<a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a></li>
+<li>Kernel/Core/<a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="anamespaceUniversalAsynchronousReceiverTransmitter_html_a0144269e48643c12d608e3b5319e4787"><div class="ttname"><a href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a0144269e48643c12d608e3b5319e4787">UniversalAsynchronousReceiverTransmitter::RegisteredEvents</a></div><div class="ttdeci">Vector&lt; Events * &gt; RegisteredEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00016">UniversalAsynchronousReceiverTransmitter.cpp:16</a></div></div>
 <div class="ttc" id="aclassUniversalAsynchronousReceiverTransmitter_1_1Events_html_a48def08a699b9218b3600da1f67b949d"><div class="ttname"><a href="../../d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a48def08a699b9218b3600da1f67b949d">UniversalAsynchronousReceiverTransmitter::Events::Port</a></div><div class="ttdeci">SerialPorts Port</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3f/uart_8hpp_source.html#l00039">uart.hpp:39</a></div></div>
+<div class="ttc" id="aUniversalAsynchronousReceiverTransmitter_8cpp_html_a243b35bd4f91344446c7905d0a699f43"><div class="ttname"><a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a243b35bd4f91344446c7905d0a699f43">RegisteredEvents</a></div><div class="ttdeci">Vector&lt; UniversalAsynchronousReceiverTransmitter::Events * &gt; RegisteredEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00008">UniversalAsynchronousReceiverTransmitter.cpp:8</a></div></div>
 <div class="ttc" id="atypes_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00057">types.h:57</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

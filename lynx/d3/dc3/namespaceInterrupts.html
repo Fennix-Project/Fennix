@@ -94,8 +94,46 @@ $(document).ready(function(){initNavTree('d3/dc3/namespaceInterrupts.html','../.
 Functions</h2></td></tr>
 <tr class="memitem:a08d918edd974c7040b12059a47e2dffb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a08d918edd974c7040b12059a47e2dffb">Initialize</a> ()</td></tr>
 <tr class="separator:a08d918edd974c7040b12059a47e2dffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c535352134a3dbb4c42450a352a61f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a2c535352134a3dbb4c42450a352a61f7">Enable</a> ()</td></tr>
+<tr class="separator:a2c535352134a3dbb4c42450a352a61f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a2c535352134a3dbb4c42450a352a61f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c535352134a3dbb4c42450a352a61f7">&#9670;&nbsp;</a></span>Enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Interrupts::Enable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">if</span> (((<a class="code" href="../../da/db9/classACPI_1_1MADT.html">ACPI::MADT</a> *)<a class="code" href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a7d90f526c69e2b02e1890b5c9d07aa0f">GetMADT</a>())-&gt;LAPICAddress != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            apic = <span class="keyword">new</span> <a class="code" href="../../d4/da9/classAPIC_1_1APIC.html">APIC::APIC</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;LAPIC not found&quot;</span>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="comment">// PIC</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00037">error</a>, <a class="el" href="../../db/dfa/power_8hpp_source.html#l00035">Power::Power::GetMADT()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00016">PowerManager</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00049">Entry()</a>.</p>
+
+</div>
+</div>
 <a id="a08d918edd974c7040b12059a47e2dffb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a08d918edd974c7040b12059a47e2dffb">&#9670;&nbsp;</a></span>Initialize()</h2>
 
@@ -111,26 +149,31 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00014">14</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">GlobalDescriptorTable::Init</a>(0);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908">InterruptDescriptorTable::Init</a>(0);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">GlobalDescriptorTable::Init</a>(0);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908">InterruptDescriptorTable::Init</a>(0);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00028">GlobalDescriptorTable::Init()</a>, and <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00434">InterruptDescriptorTable::Init()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00043">kernel_entry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00049">Entry()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aclassPower_1_1Power_html_a7d90f526c69e2b02e1890b5c9d07aa0f"><div class="ttname"><a href="../../d0/df9/classPower_1_1Power.html#a7d90f526c69e2b02e1890b5c9d07aa0f">Power::Power::GetMADT</a></div><div class="ttdeci">void * GetMADT()</div><div class="ttdoc">Get Multiple APIC Description Table. (Available only on x32 and x64)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dfa/power_8hpp_source.html#l00035">power.hpp:35</a></div></div>
 <div class="ttc" id="anamespaceInterruptDescriptorTable_html_a5275e6707c957c5ba4b050102990c908"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908">InterruptDescriptorTable::Init</a></div><div class="ttdeci">void Init(int Core)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00434">InterruptDescriptorTable.cpp:434</a></div></div>
+<div class="ttc" id="aclassACPI_1_1MADT_html"><div class="ttname"><a href="../../da/db9/classACPI_1_1MADT.html">ACPI::MADT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00188">acpi.hpp:188</a></div></div>
+<div class="ttc" id="aclassAPIC_1_1APIC_html"><div class="ttname"><a href="../../d4/da9/classAPIC_1_1APIC.html">APIC::APIC</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00008">apic.hpp:8</a></div></div>
+<div class="ttc" id="aKernel_8cpp_html_ac4acbd97a34e46e0e3b1f643e7d9ce94"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a></div><div class="ttdeci">Power::Power * PowerManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00016">Kernel.cpp:16</a></div></div>
 <div class="ttc" id="anamespaceGlobalDescriptorTable_html_a8f348435f90382d87ff30f9237f15a96"><div class="ttname"><a href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">GlobalDescriptorTable::Init</a></div><div class="ttdeci">void Init(int Core)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00028">GlobalDescriptorTable.cpp:28</a></div></div>
+<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00037">debug.h:37</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

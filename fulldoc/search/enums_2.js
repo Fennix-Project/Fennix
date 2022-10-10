@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['fexformattype_1997',['FexFormatType',['../d0/dc9/init_8cpp.html#a4564a233d1c439c8083525ef1103e9c8',1,'init.cpp']]],
-  ['fexostype_1998',['FexOSType',['../d0/dc9/init_8cpp.html#a62bb50ae06aa34053f11cf2f14a99518',1,'init.cpp']]],
-  ['fonttype_1999',['FontType',['../d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1c',1,'Video']]]
+  ['cpuidfeatures_3374',['CPUIDFeatures',['../d9/d25/namespaceCPU_1_1x64.html#ad88a47ec714f0cf8d1e7f72a63c5519e',1,'CPU::x64']]]
 ];
