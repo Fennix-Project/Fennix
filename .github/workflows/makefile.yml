@@ -134,7 +134,11 @@ jobs:
         languages: ${{ matrix.language }}
 
     - name: Install Packages
-      run: sudo apt-get update && sudo apt-get install xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo -y
+      run: |
+        sudo apt-get update
+        sudo apt-get install sudo apt-get update && sudo apt-get install xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo -y
+        make --quiet -C tools do_limine
+        make --quiet -C Kernel prepare
 
     - name: Cache cross
       id: cache-cross
