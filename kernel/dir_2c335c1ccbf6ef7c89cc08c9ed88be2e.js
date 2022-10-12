@@ -25,6 +25,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "string.h", "da/d66/string_8h.html", "da/d66/string_8h" ],
     [ "symbols.hpp", "d7/d94/symbols_8hpp.html", "d7/d94/symbols_8hpp" ],
     [ "sys.h", "d9/d87/sys_8h.html", null ],
+    [ "syscalls.hpp", "d0/d35/syscalls_8hpp.html", "d0/d35/syscalls_8hpp" ],
     [ "time.hpp", "de/d99/time_8hpp.html", "de/d99/time_8hpp" ],
     [ "types.h", "d9/d49/types_8h.html", "d9/d49/types_8h" ],
     [ "uart.hpp", "de/d3f/uart_8hpp.html", "de/d3f/uart_8hpp" ],

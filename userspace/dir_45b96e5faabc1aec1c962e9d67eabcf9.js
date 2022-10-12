@@ -9,6 +9,7 @@ var dir_45b96e5faabc1aec1c962e9d67eabcf9 =
     [ "Power.cpp", "d1/d9d/Power_8cpp.html", null ],
     [ "StackGuard.c", "de/d1a/StackGuard_8c.html", "de/d1a/StackGuard_8c" ],
     [ "Symbols.cpp", "d7/db9/Symbols_8cpp.html", "d7/db9/Symbols_8cpp" ],
+    [ "SystemCalls.cpp", "d9/d8f/Core_2SystemCalls_8cpp.html", "d9/d8f/Core_2SystemCalls_8cpp" ],
     [ "Time.cpp", "d8/d38/Time_8cpp.html", "d8/d38/Time_8cpp" ],
     [ "UniversalAsynchronousReceiverTransmitter.cpp", "dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html", "dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp" ]
 ];

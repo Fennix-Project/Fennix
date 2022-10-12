@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['multiboot_5fmemory_5fmap_5ft_3337',['multiboot_memory_map_t',['../d5/dba/multiboot2_8h.html#a2aa16c58ceb6b9548aded205e46e8a3b',1,'multiboot2.h']]],
-  ['multiboot_5fuint16_5ft_3338',['multiboot_uint16_t',['../d5/dba/multiboot2_8h.html#a3a11e3c2b5e0617736a05343aa5795b3',1,'multiboot2.h']]],
-  ['multiboot_5fuint32_5ft_3339',['multiboot_uint32_t',['../d5/dba/multiboot2_8h.html#a009f355da41fed4badb8a52d432f5186',1,'multiboot2.h']]],
-  ['multiboot_5fuint64_5ft_3340',['multiboot_uint64_t',['../d5/dba/multiboot2_8h.html#a8dfdd61648b48aa31845db590970e06a',1,'multiboot2.h']]],
-  ['multiboot_5fuint8_5ft_3341',['multiboot_uint8_t',['../d5/dba/multiboot2_8h.html#a037f602538fccf97e90021c19fdfc047',1,'multiboot2.h']]]
+  ['limine_5fentry_5fpoint_3466',['limine_entry_point',['../d3/df0/limine_8h.html#a4b9a7070926c40c446ca6252c769fdd7',1,'limine.h']]],
+  ['limine_5fgoto_5faddress_3467',['limine_goto_address',['../d3/df0/limine_8h.html#adebde0ad391eec16f6ddcfbf68293412',1,'limine.h']]],
+  ['limine_5fterminal_5fcallback_3468',['limine_terminal_callback',['../d3/df0/limine_8h.html#a5c93b9d8f76415e192f0058d9db3e8a0',1,'limine.h']]],
+  ['limine_5fterminal_5fwrite_3469',['limine_terminal_write',['../d3/df0/limine_8h.html#ab6fa49376e88c66aa2fee0b90902036d',1,'limine.h']]]
 ];

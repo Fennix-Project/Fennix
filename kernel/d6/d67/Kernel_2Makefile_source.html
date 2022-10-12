@@ -186,7 +186,7 @@ $(document).ready(function(){initNavTree('d6/d67/Kernel_2Makefile_source.html','
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;ifeq ($(DEBUG), 1)</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    CFLAGS += -DDEBUG -ggdb -O0 -fdiagnostics-color=always</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    LDFLAGS += -ggdb -O0 -g</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    NASMFLAGS += -felf32 -g</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    NASMFLAGS += -F dwarf -g</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    WARNCFLAG += -Wno-unused-function -Wno-maybe-uninitialized -Wno-builtin-declaration-mismatch -Wno-unknown-pragmas -Wno-unused-parameter -Wno-unused-variable</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;ifeq ($(TESTING), 1)</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    CFLAGS += -DTESTING</div>

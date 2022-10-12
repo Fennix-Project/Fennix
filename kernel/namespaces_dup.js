@@ -9,6 +9,7 @@ var namespaces_dup =
     [ "Memory", "d3/d97/namespaceMemory.html", null ],
     [ "PCI", "d0/d8f/namespacePCI.html", "d0/d8f/namespacePCI" ],
     [ "Power", "d5/dff/namespacePower.html", null ],
+    [ "SMP", "d6/d37/namespaceSMP.html", null ],
     [ "SymbolResolver", "d9/d05/namespaceSymbolResolver.html", null ],
     [ "SysDbg", "d3/df0/namespaceSysDbg.html", null ],
     [ "UniversalAsynchronousReceiverTransmitter", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html", null ],

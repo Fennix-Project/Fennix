@@ -8,9 +8,11 @@ var smp_8hpp =
       [ "IsActive", "d4/d33/smp_8hpp.html#a76db22a0f9d9bce50f8b711eaaf5cc41", null ]
     ] ],
     [ "CPU_DATA_CHECKSUM", "d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1", null ],
+    [ "MAX_CPU", "d4/d33/smp_8hpp.html#a163aa934e4e42ebaea98661d54c0af08", null ],
     [ "__attribute__", "d4/d33/smp_8hpp.html#a1906bcc6780f95c35bdcd72d37c42b71", null ],
     [ "GetCPU", "d4/d33/smp_8hpp.html#a3f12ddb481349ef130e29ed0522c1bb2", null ],
     [ "GetCurrentCPU", "d4/d33/smp_8hpp.html#aa53a3783575d262dc378af3a30ca775d", null ],
+    [ "Initialize", "d4/d33/smp_8hpp.html#a83df3dc276fba1e673fcf5551113ca7e", null ],
     [ "Checksum", "d4/d33/smp_8hpp.html#aca10be923fb0da174d8c3a29d8b5083b", null ],
     [ "Data", "d4/d33/smp_8hpp.html#a93462051e04a57e2459e6a2ab149a01c", null ],
     [ "ErrorCode", "d4/d33/smp_8hpp.html#a8ec11ac6067b0e4293052a4a39e925f7", null ],

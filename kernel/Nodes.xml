@@ -164,6 +164,10 @@
             <Path>d5/dff/namespacePower.html</Path>
            </Node>
            <Node>
+            <Name>SMP</Name>
+            <Path>d6/d37/namespaceSMP.html</Path>
+           </Node>
+           <Node>
             <Name>SymbolResolver</Name>
             <Path>d9/d05/namespaceSymbolResolver.html</Path>
            </Node>
@@ -1743,124 +1747,312 @@
               <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
               <Subnodes>
                <Node>
-                <Name>_TrapFrame</Name>
+                <Name>CR0</Name>
                 <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                <Anchor>de/dc5/structCPU_1_1x64_1_1__TrapFrame</Anchor>
+                <Anchor>d1/d09/unionCPU_1_1x64_1_1CR0</Anchor>
                 <Subnodes>
                  <Node>
-                  <Name>cs</Name>
+                  <Name>raw</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>afd6948846eb13cecf15b740e5f96400f</Anchor>
+                  <Anchor>a193efac1f4250aa8a28049b079bf9171</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CR0.__unnamed__</Name>
+                <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                <Anchor>d7/d69/structCPU_1_1x64_1_1CR0_8____unnamed____</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>_reserved0</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ad0869be0b7a1d7b3a568bb9bd3ba7f3b</Anchor>
                  </Node>
                  <Node>
-                  <Name>ds</Name>
+                  <Name>_reserved1</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>ada0e1d5e710211400365c7ff6f17ed0d</Anchor>
+                  <Anchor>a7596a4fbe4106aba3472b8878a1d164a</Anchor>
                  </Node>
                  <Node>
-                  <Name>error_code</Name>
+                  <Name>_reserved2</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a96dc0b371a1e267e4e8379a83c02c776</Anchor>
+                  <Anchor>ab9c55d10d6f4e7a1ac875b9c0ff70a93</Anchor>
                  </Node>
                  <Node>
-                  <Name>int_num</Name>
+                  <Name>AM</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>aefb94a93f50590293480d2ff17f34a81</Anchor>
+                  <Anchor>a25ec916d56b8212e569dbf2e4e4b51d4</Anchor>
                  </Node>
                  <Node>
-                  <Name>r10</Name>
+                  <Name>CD</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>af14c0928cd749555ec201ebc92c04fe6</Anchor>
+                  <Anchor>a4170acd6af571e8d0d59fdad999cc605</Anchor>
                  </Node>
                  <Node>
-                  <Name>r11</Name>
+                  <Name>EM</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>ade1af662d033c7a072533c321b3ff4b9</Anchor>
+                  <Anchor>ab95c3d50fa47443166f7d356eaed8006</Anchor>
                  </Node>
                  <Node>
-                  <Name>r12</Name>
+                  <Name>ET</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a6d9b528155e3c629db71351e40f66df7</Anchor>
+                  <Anchor>aae41a6d38b78679b4675941ff0c0c92d</Anchor>
                  </Node>
                  <Node>
-                  <Name>r13</Name>
+                  <Name>MP</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>aa38c5a8a0a8ef6ad465e429b44472491</Anchor>
+                  <Anchor>ac90a918b859bd1e56cf99af6246b128e</Anchor>
                  </Node>
                  <Node>
-                  <Name>r14</Name>
+                  <Name>NE</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>ab99a20f9b602be0382a6131203d1df19</Anchor>
+                  <Anchor>adc33066c3993e0d50896e533fd692ce0</Anchor>
                  </Node>
                  <Node>
-                  <Name>r15</Name>
+                  <Name>NW</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a11908502235fa766d98921149c3f5e48</Anchor>
+                  <Anchor>a7f39ac71e81132daad44925b3bdfde5a</Anchor>
                  </Node>
                  <Node>
-                  <Name>r8</Name>
+                  <Name>PE</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>af90fdb130e85b29f71beaf67b0b4240c</Anchor>
+                  <Anchor>a3acf83834396fa1c878707132ead62b8</Anchor>
                  </Node>
                  <Node>
-                  <Name>r9</Name>
+                  <Name>PG</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a6553aa542c104e493fbb7d093aff636b</Anchor>
+                  <Anchor>a49f38fe03598e4d63f4a0a8791c9c8b9</Anchor>
                  </Node>
                  <Node>
-                  <Name>rax</Name>
+                  <Name>TS</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a4fec6bf10fb806a96b225380a42db4d0</Anchor>
+                  <Anchor>a6ba89ab41823af9b65ea5d233031b9f8</Anchor>
                  </Node>
                  <Node>
-                  <Name>rbp</Name>
+                  <Name>WP</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a93eedc01711d9196de181a8326b3f1f8</Anchor>
+                  <Anchor>a84aee62cd1bc3644a3a81a8352b36d4f</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CR2</Name>
+                <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                <Anchor>d2/dee/unionCPU_1_1x64_1_1CR2</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>raw</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a6387dd5d2472c344331661a6003b1dbc</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CR2.__unnamed__</Name>
+                <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                <Anchor>dc/d79/structCPU_1_1x64_1_1CR2_8____unnamed____</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>PFLA</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a3bdf404879d25f8d92b0cf7f0d56ff4a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CR3</Name>
+                <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                <Anchor>d4/d18/unionCPU_1_1x64_1_1CR3</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>raw</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a5dd1fbcb6453e3dae6def6b1f5c40e5a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CR3.__unnamed__</Name>
+                <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                <Anchor>d2/d64/structCPU_1_1x64_1_1CR3_8____unnamed____</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>PCD</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a64bd82be2f900e31c0c58b47fb919c28</Anchor>
                  </Node>
                  <Node>
-                  <Name>rbx</Name>
+                  <Name>PDBR</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a032039407926bd4c94d6a8f7548da9ac</Anchor>
+                  <Anchor>ab9b0a89c81249ad2e2e0784cf852e768</Anchor>
                  </Node>
                  <Node>
-                  <Name>rcx</Name>
+                  <Name>PWT</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a300d96e2675c3e5e97b4f9e811a75c43</Anchor>
+                  <Anchor>aa8ed3a0df35c06b217f95a9d52b23881</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CR4</Name>
+                <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                <Anchor>d5/dab/unionCPU_1_1x64_1_1CR4</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>raw</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a97f43bc3713bf105c3e8a42747a6cb52</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CR4.__unnamed__</Name>
+                <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                <Anchor>d1/ded/structCPU_1_1x64_1_1CR4_8____unnamed____</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>_reserved0</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ad0869be0b7a1d7b3a568bb9bd3ba7f3b</Anchor>
                  </Node>
                  <Node>
-                  <Name>rdi</Name>
+                  <Name>_reserved1</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a82a0879489bd829e3e483d43c1a6cd23</Anchor>
+                  <Anchor>a7596a4fbe4106aba3472b8878a1d164a</Anchor>
                  </Node>
                  <Node>
-                  <Name>rdx</Name>
+                  <Name>_reserved2</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>ae6222cb93f817e154373194c3f21e9bf</Anchor>
+                  <Anchor>ab9c55d10d6f4e7a1ac875b9c0ff70a93</Anchor>
                  </Node>
                  <Node>
-                  <Name>rflags</Name>
+                  <Name>DE</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>ac74bb5cef918fdfe28160cabbf1ba000</Anchor>
+                  <Anchor>a3a52f3c22ed6fcde5bf696a6c02c9e73</Anchor>
                  </Node>
                  <Node>
-                  <Name>rip</Name>
+                  <Name>FSGSBASE</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a321b7d0cb39d13fb04bc184a59219753</Anchor>
+                  <Anchor>af3a69264228a8d0b970ea1595026c80e</Anchor>
                  </Node>
                  <Node>
-                  <Name>rsi</Name>
+                  <Name>LA57</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a3213942cdfc28bb2df1e78b3a347e30b</Anchor>
+                  <Anchor>ab48edc4ffc45eda1c6c9ea827721e169</Anchor>
                  </Node>
                  <Node>
-                  <Name>rsp</Name>
+                  <Name>MCE</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>ae9b4342049bd37344cd7c048ad2ddd80</Anchor>
+                  <Anchor>aff3da9fa37305280824b8a9e11299b56</Anchor>
                  </Node>
                  <Node>
-                  <Name>ss</Name>
+                  <Name>OSFXSR</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>a05f78335b4ac4da9eb51f8c66dad33fa</Anchor>
+                  <Anchor>a631fdcf62e2e890497aabeeb775a4c41</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OSXMMEXCPT</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ae115e792596fba2a56a532bd71ec06ad</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>OSXSAVE</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a63b0727cb48c60da1a4f12f995db8dd0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PAE</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>abb156e28d38e80191e14b4d6525c844b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PCE</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a6891a4ae8ff81fd08395533d5ab9a15a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PCIDE</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ab832352c211f9c93bfb26dd1d534794c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PGE</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>aeab15251d3e7452fb90874a2f4211b29</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PKE</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a5e4196cd2b8b94d993454cc4387194ed</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PSE</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a6f0862d55fca52dbe032fa0b99e9c6b5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>PVI</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a95fc30aa06794a50cedca64c3f933610</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SMAP</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a440fdd694a615f490e6a5d0435016ced</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SMEP</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ae49f486b310ae843b4a6a08aa38df9a9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SMXE</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a28973407895f13fd325525ed987515af</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>TSD</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a167666837b80a00e45923b2137eefbce</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>UMIP</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a200dfb2dcaf6d7c4c2b2390c202cccc3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>VME</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a5b382b19324e0a71d404284d5c312804</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>VMXE</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ace4cbb42b611af13fab5dc8f9303fd14</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CR8</Name>
+                <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                <Anchor>d8/d99/unionCPU_1_1x64_1_1CR8</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>raw</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a84c019e1423dfb76fcae447ec01c4d19</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>CR8.__unnamed__</Name>
+                <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                <Anchor>db/d29/structCPU_1_1x64_1_1CR8_8____unnamed____</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>TPL</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>aafec6abed17f07d98bb4ec07dc071c96</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -1990,6 +2182,128 @@
                   <Name>ZF</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
                   <Anchor>a8ec66b3387ffaa10d0be63d1a95c280a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>TrapFrame</Name>
+                <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                <Anchor>df/df2/structCPU_1_1x64_1_1TrapFrame</Anchor>
+                <Subnodes>
+                 <Node>
+                  <Name>cs</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>afacea517d58f361afa31af1845d0b2f2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ds</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a9bff7ab27a42424d2f6ae954f70b51e3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>error_code</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a445ee55e361d6b4c1ca6ff17873a9c8b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>int_num</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ab7eed2aef9a5fd0bbd450b6471bafee0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>r10</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a59011a06041c8ecb39e4212b2879f7a3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>r11</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ac7cc57c062b17dbe47bd0fa03a43c7cc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>r12</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ab5fa0cd2278cb5c5989e43627cc11e9e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>r13</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ad4cb2b031d6cc36c118ffe5bf64746e6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>r14</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a0fe33d32158d444c0d6b479a4b08f97f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>r15</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a476e0e552c165c1bc52af02f8811bbfa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>r8</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a4f66f71dbb8dd2cf189cb68eb0246da3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>r9</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ab9b84c40d96809382aaa08408ea732fd</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rax</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a7bcfb6f3cf137d6b582e687b1a523fac</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rbp</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a294bc32f40bcd9b1dea22c818f33b475</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rbx</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ae6726d3b577f9ba615a8c5c5c2178735</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rcx</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a4e85093ff9b7bef74d590f1dac47c07d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rdi</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a2c9738159f4660c1fdbe0c3d5f9cda2b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rdx</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a3131089e9972072f36c32de7e149a8d5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rflags</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a4b42a178ea8372431b59e90e380a37bc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rip</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>aceaa3517a6197985bdb520e85a98dcd9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rsi</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>ad13f07a8a684c7261df173ef08995e63</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>rsp</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a0c505d55e325e8548504b065adbe7211</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ss</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>a38219207ff59967dfcb5923e7279f368</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -6219,6 +6533,11 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>SyscallsRegs</Name>
+            <Path>d0/d35/syscalls_8hpp.html</Path>
+            <Anchor>d8/dce/structSyscallsRegs</Anchor>
+           </Node>
+           <Node>
             <Name>Time</Name>
             <Path>de/d99/time_8hpp.html</Path>
             <Anchor>d6/dba/structTime</Anchor>
@@ -6653,6 +6972,70 @@
               <Name>Architecture</Name>
               <Path>dir_24d0e9fa304c1dbb1880c7df3a2dd8d2.html</Path>
               <Subnodes>
+               <Node>
+                <Name>aarch64</Name>
+                <Path>dir_aa90f2559f0c2c758ecf32208915320c.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>cpu</Name>
+                  <Path>dir_4dc909489790cfbae0615727bfc295ff.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>SymmetricMultiprocessing.cpp</Name>
+                    <Path>d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>__attribute__</Name>
+                      <Path>d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>a878aa217dfc93e844e800902a750e5d1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GetCPU</Name>
+                      <Path>d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>acb4382e3522b10e4fbdabfcebe44023b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GetCurrentCPU</Name>
+                      <Path>d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>aa53a3783575d262dc378af3a30ca775d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Initialize</Name>
+                      <Path>d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>a83df3dc276fba1e673fcf5551113ca7e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CPUEnabled</Name>
+                      <Path>d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>a01053fbf08aa5c622b2e2a65e699edbf</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>SystemCalls.cpp</Name>
+                  <Path>d5/d7c/Architecture_2aarch64_2SystemCalls_8cpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>__attribute__</Name>
+                    <Path>d5/d7c/Architecture_2aarch64_2SystemCalls_8cpp.html</Path>
+                    <Anchor>a620887f7ab7acceb2925d0d702b400ce</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>InitializeSystemCalls</Name>
+                    <Path>d5/d7c/Architecture_2aarch64_2SystemCalls_8cpp.html</Path>
+                    <Anchor>a623b6425a07c15a56d165d69c08b67f2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SystemCallsHandler</Name>
+                    <Path>d5/d7c/Architecture_2aarch64_2SystemCalls_8cpp.html</Path>
+                    <Anchor>ada20e2588c027deb2dcca94342bf291d</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
                <Node>
                 <Name>amd64</Name>
                 <Path>dir_0309b499b8950a5fc0ffafb09dd8e67f.html</Path>
@@ -7325,7 +7708,7 @@
                      <Node>
                       <Name>tss</Name>
                       <Path>df/dad/GlobalDescriptorTable_8cpp.html</Path>
-                      <Anchor>a5c6387c2436b20cbc2c61b029914e940</Anchor>
+                      <Anchor>aae23659d784f4086e4d448cd93724ef0</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -7763,69 +8146,93 @@
                     </Subnodes>
                    </Node>
                    <Node>
+                    <Name>SMPTrampoline.asm</Name>
+                    <Path>d4/dd4/SMPTrampoline_8asm.html</Path>
+                   </Node>
+                   <Node>
                     <Name>SymmetricMultiprocessing.cpp</Name>
-                    <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                    <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                     <Subnodes>
                      <Node>
                       <Name>TRAMPOLINE_START</Name>
-                      <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                       <Anchor>aa6c685c00d8b254bd0414df71f4a9153</Anchor>
                      </Node>
                      <Node>
                       <Name>SMPTrampolineAddress</Name>
-                      <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                       <Anchor>a0b5c6e72cf6eb484d3b3f699288138df</Anchor>
                       <Subnodes>
                        <Node>
                         <Name>PAGE_TABLE</Name>
-                        <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                        <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                         <Anchor>a0b5c6e72cf6eb484d3b3f699288138dfa37ea3c449f78f10cf43e15ad1a899dab</Anchor>
                        </Node>
                        <Node>
                         <Name>START_ADDR</Name>
-                        <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                        <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                         <Anchor>a0b5c6e72cf6eb484d3b3f699288138dfa2cbb2ee4b5b14b938027e51ab8744c8b</Anchor>
                        </Node>
                        <Node>
                         <Name>STACK</Name>
-                        <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                        <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                         <Anchor>a0b5c6e72cf6eb484d3b3f699288138dfa3bfeb3e4822bcc96abf42601a42bbcd3</Anchor>
                        </Node>
                        <Node>
                         <Name>GDT</Name>
-                        <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                        <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                         <Anchor>a0b5c6e72cf6eb484d3b3f699288138dfa0ebd216ccf715efc8f6c10b6ece9b241</Anchor>
                        </Node>
                        <Node>
                         <Name>IDT</Name>
-                        <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                        <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                         <Anchor>a0b5c6e72cf6eb484d3b3f699288138dfaaf66ba20bd2c95236cedcd07886926c1</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
                      <Node>
+                      <Name>__attribute__</Name>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>a878aa217dfc93e844e800902a750e5d1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GetCPU</Name>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>acb4382e3522b10e4fbdabfcebe44023b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GetCurrentCPU</Name>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>aa53a3783575d262dc378af3a30ca775d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Initialize</Name>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>a83df3dc276fba1e673fcf5551113ca7e</Anchor>
+                     </Node>
+                     <Node>
                       <Name>StartCPU</Name>
-                      <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                       <Anchor>ad88aab0241b508d296eb247bb0d77448</Anchor>
                      </Node>
                      <Node>
                       <Name>__attribute__</Name>
-                      <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                       <Anchor>a0b687fa7f3362e2fde5befcc32e5e60c</Anchor>
                      </Node>
                      <Node>
                       <Name>_trampoline_end</Name>
-                      <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                       <Anchor>ae70ade7b09a28a5731dee3d4d3b1407b</Anchor>
                      </Node>
                      <Node>
                       <Name>_trampoline_start</Name>
-                      <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                       <Anchor>adde6b66d80150c073ba8bd394fc82068</Anchor>
                      </Node>
                      <Node>
                       <Name>CPUEnabled</Name>
-                      <Path>df/d88/SymmetricMultiprocessing_8cpp.html</Path>
+                      <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
                       <Anchor>a01053fbf08aa5c622b2e2a65e699edbf</Anchor>
                      </Node>
                     </Subnodes>
@@ -10268,6 +10675,27 @@
                   <Name>MultipleAPICDescriptionTable.cpp</Name>
                   <Path>d5/db3/MultipleAPICDescriptionTable_8cpp.html</Path>
                  </Node>
+                 <Node>
+                  <Name>SystemCalls.cpp</Name>
+                  <Path>d8/d8f/Architecture_2amd64_2SystemCalls_8cpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>__attribute__</Name>
+                    <Path>d8/d8f/Architecture_2amd64_2SystemCalls_8cpp.html</Path>
+                    <Anchor>a620887f7ab7acceb2925d0d702b400ce</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>InitializeSystemCalls</Name>
+                    <Path>d8/d8f/Architecture_2amd64_2SystemCalls_8cpp.html</Path>
+                    <Anchor>a623b6425a07c15a56d165d69c08b67f2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SystemCallsHandler</Name>
+                    <Path>d8/d8f/Architecture_2amd64_2SystemCalls_8cpp.html</Path>
+                    <Anchor>ada20e2588c027deb2dcca94342bf291d</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
                 </Subnodes>
                </Node>
                <Node>
@@ -10297,6 +10725,37 @@
                       <Name>Init</Name>
                       <Path>d3/d67/i686_2cpu_2idt_8hpp.html</Path>
                       <Anchor>a5275e6707c957c5ba4b050102990c908</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>SymmetricMultiprocessing.cpp</Name>
+                    <Path>df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>__attribute__</Name>
+                      <Path>df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>a878aa217dfc93e844e800902a750e5d1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GetCPU</Name>
+                      <Path>df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>acb4382e3522b10e4fbdabfcebe44023b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GetCurrentCPU</Name>
+                      <Path>df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>aa53a3783575d262dc378af3a30ca775d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Initialize</Name>
+                      <Path>df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>a83df3dc276fba1e673fcf5551113ca7e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CPUEnabled</Name>
+                      <Path>df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+                      <Anchor>a01053fbf08aa5c622b2e2a65e699edbf</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -10489,6 +10948,22 @@
                    </Node>
                   </Subnodes>
                  </Node>
+                 <Node>
+                  <Name>SystemCalls.cpp</Name>
+                  <Path>dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>InitializeSystemCalls</Name>
+                    <Path>dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html</Path>
+                    <Anchor>a623b6425a07c15a56d165d69c08b67f2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SystemCallsHandler</Name>
+                    <Path>dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html</Path>
+                    <Anchor>a2cc503f055ce36ae774a97b9ae3e02e9</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
                 </Subnodes>
                </Node>
               </Subnodes>
@@ -10513,7 +10988,7 @@
                    <Node>
                     <Name>Initialize</Name>
                     <Path>db/da9/IntManager_8cpp.html</Path>
-                    <Anchor>a08d918edd974c7040b12059a47e2dffb</Anchor>
+                    <Anchor>a480247e915be578424a6a6dec1bf505b</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -11396,6 +11871,17 @@
                   <Name>TotalEntries</Name>
                   <Path>d7/db9/Symbols_8cpp.html</Path>
                   <Anchor>ab305c3f5407ef184047e9951a760e7f3</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>SystemCalls.cpp</Name>
+                <Path>d9/d8f/Core_2SystemCalls_8cpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>SystemCallsHandler</Name>
+                  <Path>d9/d8f/Core_2SystemCalls_8cpp.html</Path>
+                  <Anchor>ada20e2588c027deb2dcca94342bf291d</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -14654,124 +15140,184 @@
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>_TrapFrame</Name>
+                  <Name>TrapFrame</Name>
                   <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                  <Anchor>de/dc5/structCPU_1_1x64_1_1__TrapFrame</Anchor>
+                  <Anchor>df/df2/structCPU_1_1x64_1_1TrapFrame</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>cs</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>afd6948846eb13cecf15b740e5f96400f</Anchor>
+                    <Anchor>afacea517d58f361afa31af1845d0b2f2</Anchor>
                    </Node>
                    <Node>
                     <Name>ds</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>ada0e1d5e710211400365c7ff6f17ed0d</Anchor>
+                    <Anchor>a9bff7ab27a42424d2f6ae954f70b51e3</Anchor>
                    </Node>
                    <Node>
                     <Name>error_code</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a96dc0b371a1e267e4e8379a83c02c776</Anchor>
+                    <Anchor>a445ee55e361d6b4c1ca6ff17873a9c8b</Anchor>
                    </Node>
                    <Node>
                     <Name>int_num</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>aefb94a93f50590293480d2ff17f34a81</Anchor>
+                    <Anchor>ab7eed2aef9a5fd0bbd450b6471bafee0</Anchor>
                    </Node>
                    <Node>
                     <Name>r10</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>af14c0928cd749555ec201ebc92c04fe6</Anchor>
+                    <Anchor>a59011a06041c8ecb39e4212b2879f7a3</Anchor>
                    </Node>
                    <Node>
                     <Name>r11</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>ade1af662d033c7a072533c321b3ff4b9</Anchor>
+                    <Anchor>ac7cc57c062b17dbe47bd0fa03a43c7cc</Anchor>
                    </Node>
                    <Node>
                     <Name>r12</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a6d9b528155e3c629db71351e40f66df7</Anchor>
+                    <Anchor>ab5fa0cd2278cb5c5989e43627cc11e9e</Anchor>
                    </Node>
                    <Node>
                     <Name>r13</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>aa38c5a8a0a8ef6ad465e429b44472491</Anchor>
+                    <Anchor>ad4cb2b031d6cc36c118ffe5bf64746e6</Anchor>
                    </Node>
                    <Node>
                     <Name>r14</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>ab99a20f9b602be0382a6131203d1df19</Anchor>
+                    <Anchor>a0fe33d32158d444c0d6b479a4b08f97f</Anchor>
                    </Node>
                    <Node>
                     <Name>r15</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a11908502235fa766d98921149c3f5e48</Anchor>
+                    <Anchor>a476e0e552c165c1bc52af02f8811bbfa</Anchor>
                    </Node>
                    <Node>
                     <Name>r8</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>af90fdb130e85b29f71beaf67b0b4240c</Anchor>
+                    <Anchor>a4f66f71dbb8dd2cf189cb68eb0246da3</Anchor>
                    </Node>
                    <Node>
                     <Name>r9</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a6553aa542c104e493fbb7d093aff636b</Anchor>
+                    <Anchor>ab9b84c40d96809382aaa08408ea732fd</Anchor>
                    </Node>
                    <Node>
                     <Name>rax</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a4fec6bf10fb806a96b225380a42db4d0</Anchor>
+                    <Anchor>a7bcfb6f3cf137d6b582e687b1a523fac</Anchor>
                    </Node>
                    <Node>
                     <Name>rbp</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a93eedc01711d9196de181a8326b3f1f8</Anchor>
+                    <Anchor>a294bc32f40bcd9b1dea22c818f33b475</Anchor>
                    </Node>
                    <Node>
                     <Name>rbx</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a032039407926bd4c94d6a8f7548da9ac</Anchor>
+                    <Anchor>ae6726d3b577f9ba615a8c5c5c2178735</Anchor>
                    </Node>
                    <Node>
                     <Name>rcx</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a300d96e2675c3e5e97b4f9e811a75c43</Anchor>
+                    <Anchor>a4e85093ff9b7bef74d590f1dac47c07d</Anchor>
                    </Node>
                    <Node>
                     <Name>rdi</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a82a0879489bd829e3e483d43c1a6cd23</Anchor>
+                    <Anchor>a2c9738159f4660c1fdbe0c3d5f9cda2b</Anchor>
                    </Node>
                    <Node>
                     <Name>rdx</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>ae6222cb93f817e154373194c3f21e9bf</Anchor>
+                    <Anchor>a3131089e9972072f36c32de7e149a8d5</Anchor>
                    </Node>
                    <Node>
                     <Name>rflags</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>ac74bb5cef918fdfe28160cabbf1ba000</Anchor>
+                    <Anchor>a4b42a178ea8372431b59e90e380a37bc</Anchor>
                    </Node>
                    <Node>
                     <Name>rip</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a321b7d0cb39d13fb04bc184a59219753</Anchor>
+                    <Anchor>aceaa3517a6197985bdb520e85a98dcd9</Anchor>
                    </Node>
                    <Node>
                     <Name>rsi</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a3213942cdfc28bb2df1e78b3a347e30b</Anchor>
+                    <Anchor>ad13f07a8a684c7261df173ef08995e63</Anchor>
                    </Node>
                    <Node>
                     <Name>rsp</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>ae9b4342049bd37344cd7c048ad2ddd80</Anchor>
+                    <Anchor>a0c505d55e325e8548504b065adbe7211</Anchor>
                    </Node>
                    <Node>
                     <Name>ss</Name>
                     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
-                    <Anchor>a05f78335b4ac4da9eb51f8c66dad33fa</Anchor>
+                    <Anchor>a38219207ff59967dfcb5923e7279f368</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CR0</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>d1/d09/unionCPU_1_1x64_1_1CR0</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>raw</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a193efac1f4250aa8a28049b079bf9171</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CR2</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>d2/dee/unionCPU_1_1x64_1_1CR2</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>raw</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a6387dd5d2472c344331661a6003b1dbc</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CR3</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>d4/d18/unionCPU_1_1x64_1_1CR3</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>raw</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a5dd1fbcb6453e3dae6def6b1f5c40e5a</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CR4</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>d5/dab/unionCPU_1_1x64_1_1CR4</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>raw</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a97f43bc3713bf105c3e8a42747a6cb52</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CR8</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>d8/d99/unionCPU_1_1x64_1_1CR8</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>raw</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a84c019e1423dfb76fcae447ec01c4d19</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -14893,9 +15439,629 @@
                   </Subnodes>
                  </Node>
                  <Node>
+                  <Name>CR0.__unnamed__</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>d7/d69/structCPU_1_1x64_1_1CR0_8____unnamed____</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>_reserved0</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ad0869be0b7a1d7b3a568bb9bd3ba7f3b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_reserved1</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a7596a4fbe4106aba3472b8878a1d164a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_reserved2</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ab9c55d10d6f4e7a1ac875b9c0ff70a93</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>AM</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a25ec916d56b8212e569dbf2e4e4b51d4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CD</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a4170acd6af571e8d0d59fdad999cc605</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>EM</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ab95c3d50fa47443166f7d356eaed8006</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ET</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>aae41a6d38b78679b4675941ff0c0c92d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>MP</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ac90a918b859bd1e56cf99af6246b128e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>NE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>adc33066c3993e0d50896e533fd692ce0</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>NW</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a7f39ac71e81132daad44925b3bdfde5a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a3acf83834396fa1c878707132ead62b8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PG</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a49f38fe03598e4d63f4a0a8791c9c8b9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>TS</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a6ba89ab41823af9b65ea5d233031b9f8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>WP</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a84aee62cd1bc3644a3a81a8352b36d4f</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CR2.__unnamed__</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>dc/d79/structCPU_1_1x64_1_1CR2_8____unnamed____</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>PFLA</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a3bdf404879d25f8d92b0cf7f0d56ff4a</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CR3.__unnamed__</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>d2/d64/structCPU_1_1x64_1_1CR3_8____unnamed____</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>PCD</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a64bd82be2f900e31c0c58b47fb919c28</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PDBR</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ab9b0a89c81249ad2e2e0784cf852e768</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PWT</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>aa8ed3a0df35c06b217f95a9d52b23881</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CR4.__unnamed__</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>d1/ded/structCPU_1_1x64_1_1CR4_8____unnamed____</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>_reserved0</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ad0869be0b7a1d7b3a568bb9bd3ba7f3b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_reserved1</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a7596a4fbe4106aba3472b8878a1d164a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_reserved2</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ab9c55d10d6f4e7a1ac875b9c0ff70a93</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a3a52f3c22ed6fcde5bf696a6c02c9e73</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>FSGSBASE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>af3a69264228a8d0b970ea1595026c80e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>LA57</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ab48edc4ffc45eda1c6c9ea827721e169</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>MCE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>aff3da9fa37305280824b8a9e11299b56</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>OSFXSR</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a631fdcf62e2e890497aabeeb775a4c41</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>OSXMMEXCPT</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ae115e792596fba2a56a532bd71ec06ad</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>OSXSAVE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a63b0727cb48c60da1a4f12f995db8dd0</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PAE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>abb156e28d38e80191e14b4d6525c844b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PCE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a6891a4ae8ff81fd08395533d5ab9a15a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PCIDE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ab832352c211f9c93bfb26dd1d534794c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PGE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>aeab15251d3e7452fb90874a2f4211b29</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PKE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a5e4196cd2b8b94d993454cc4387194ed</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PSE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a6f0862d55fca52dbe032fa0b99e9c6b5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PVI</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a95fc30aa06794a50cedca64c3f933610</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SMAP</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a440fdd694a615f490e6a5d0435016ced</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SMEP</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ae49f486b310ae843b4a6a08aa38df9a9</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SMXE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a28973407895f13fd325525ed987515af</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>TSD</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a167666837b80a00e45923b2137eefbce</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>UMIP</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a200dfb2dcaf6d7c4c2b2390c202cccc3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>VME</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>a5b382b19324e0a71d404284d5c312804</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>VMXE</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>ace4cbb42b611af13fab5dc8f9303fd14</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CR8.__unnamed__</Name>
+                  <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                  <Anchor>db/d29/structCPU_1_1x64_1_1CR8_8____unnamed____</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>TPL</Name>
+                    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+                    <Anchor>aafec6abed17f07d98bb4ec07dc071c96</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_AMD_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>ab8bb4eb7eec553b6a210cd6fca632bfc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_AMD_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a40f39c5569a1dbaafa7268fa75635e2c</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_AMD_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a9ccc047e9c61ae25dee246504e48314b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_CENTAUR_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a77807e8fb7ff2f03cb337b7db446a47d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_CENTAUR_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>aae24a2cd6a0391f17cece82864616429</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_CENTAUR_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a36e78ae84d81838b286ad1a3e9c4d374</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_CYRIX_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a750c607d8db9db2f3aea5b4f1675c685</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_CYRIX_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>afc2ca0f256bbe457649475a4454e12e7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_CYRIX_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a9ae5b77d3810fc2d148bb3e5a68b7852</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_INTEL_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>aa8d73cc0e720737f4a023e364b215f89</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_INTEL_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a8e51d4cd90b3a23a4ff937b170c21ac0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_INTEL_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a148e3118fe251fead7f7bf67af56e5d7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_NEXGEN_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a5d29717a173866509611c875ca8c74ee</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_NEXGEN_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a9c4b808221fb08f380c4367f03e85b35</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_NEXGEN_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>ac4adf9bc00a7d0caa5d57be3047a3678</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_NSC_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>ada22ad720a288a2e4c25c01114acbb81</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_NSC_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>aa53ac487793319e4ef45099b1587ef1f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_NSC_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a4716cb57e32622e25efd0bf67e4058ea</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_RISE_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a699c2564edafa243ec0052f35b31a679</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_RISE_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a89f4e20954cdfdf622b8ab7d941fe969</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_RISE_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>acf0492e7ce3f4aa0aaf57a60f73737a7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_SIS_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a780f6096c3694e362372135693a620f5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_SIS_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a5b3fb06799ab4c53fc4b027da0d53594</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_SIS_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>aaf65b9b02dbcd43cce7e0747ccc0d4cb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_TM1_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a66bc89ab9d8ed7cb9270611753f6d607</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_TM1_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a2009870c5849f721eaa7201b9f02424f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_TM1_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a122a08303e1ca74ec6e733716b0c643b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_TM2_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a7d271c564389d55144b8bff24b053ed8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_TM2_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a390c3a081ea8ce3abe04927e02e0fc66</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_TM2_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a8f7481435db9929248ed975fbcdd56c2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_UMC_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>ae7ef94dd5536c5f87aafa9e19d60534b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_UMC_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>ad5f3cfdfc981ee999a062875831a374a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_UMC_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>ac6730048bb221fcf70b4f8305b90c676</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_VIA_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a7b9e0cdd3cd87396ea54b8c1e5308f19</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_VIA_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a9d690495bdc361439a4ad60744972bd3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_VIA_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a7a109af7e1a038aa7334b75e45c66d70</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_VORTEX_b</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a9e3fe6c55d32eca62099cd2e8e272c82</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_VORTEX_c</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>aee3fc3dde969b48e04d4d80fe76059d5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_SIGNATURE_VORTEX_d</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a499de31ac46440546fcaf0825949dcd3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_ACRN</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a635ec683801f20917401404c7034c8d6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_AMD</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>aee9d59a73860684cd50f5d258081f8d2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_APPLE</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>abbd310b1940cd3dd9f21544d0a6fe1e0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_BHYVE</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a8902707682022ba2fb3e57b292519e6a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_CENTAUR</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a67de5bae3b3986570f3ca1b7700d4daa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_CYRIX</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a974f40c0411ffd4c2df52abf53b2322e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_E2K</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a8b7d9a1af45d4a3c2ab549e70905d67d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_HYGON</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>af5f0356a41330ab011540a6c630d0f56</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_INTEL</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a723156e61152515098bc16eb5f726be7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_KVM</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a59d6364d04a21fa386230f5719e2cff3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_MICROSOFT_HV</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>aaa9728ac3bb78f8fd2392b6d7abaeae8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_MICROSOFT_XTA</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>aed33f79fcb8610379efb50a2bee5cf1a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_MISTER</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>ae9c6b828791b723affa6248dc5905fd0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_NEXGEN</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>af0c6dfd58c062deb655438341d7724e8</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_NSC</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a0f0fcdddb884763af746a836b370f532</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_OLDAMD</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a6beddc16f8de4d03f23719628d6f058a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_OLDTRANSMETA</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>ad4af7e34aae3e6ec32f3870d39043253</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_PARALLELS</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a912369c8213eb20d2d6c303ddf08ca88</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_QNX</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a116111239c9adc7037c421031d7c51cc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_RISE</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a96194d16e2425eaf47fa868d7230218a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_SIS</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a542fa221125b968d182ca3182fb859d5</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_TCG</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a2ef76c4fb552f8878f4f379fba787af1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_TRANSMETA</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a3adfbd4821678e123a9a0a45d69e3b6e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_UMC</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a212dea6ab1dd2eab149fc12d659bd92d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_VIA</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>af6e4d7211cc5956831ecd8a9971bfab9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_VIA2</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a75bb839ed5028a5a661396c13808cf55</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_VIRTUALBOX</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a727a0d668245b1ec4898225cc71a4d64</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_VMWARE</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>aab894501507ca09c775f2aed1e0818e3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_VORTEX</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>adee852214e3914e8fd7b85f5210b67cf</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>x86_CPUID_VENDOR_XENHVM</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a14162e426c5311ca9f65aee28633bc7f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CR0</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a7009de385c05f88bb62925605eec809e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CR2</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>aa87cd6fb4ee5e351951415d629383cfa</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CR3</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>ad27ebd3c86b0ba4061c151d91adf079b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CR4</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a5b88e2df103ff56fb64f7e91d7c88a72</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CR8</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a5209ea0ec81407b1e670098535b6e80f</Anchor>
+                 </Node>
+                 <Node>
                   <Name>TrapFrame</Name>
                   <Path>df/dbe/cpu_8hpp.html</Path>
-                  <Anchor>a08ad01d975f4c59c0c98bb7c080ef1c7</Anchor>
+                  <Anchor>a7b876ab130e250374b67c12b0cd11680</Anchor>
                  </Node>
                  <Node>
                   <Name>CPUIDFeatures</Name>
@@ -18558,6 +19724,31 @@
                   <Anchor>a566d4a479c7209f285726d736d55dbfc</Anchor>
                  </Node>
                  <Node>
+                  <Name>readcr0</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a51461dac167cf8daa158a1e1a099c788</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>readcr2</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a314b9a9572f302d8d0d241946229c22f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>readcr3</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>acc5e00909d288ca98bcad1808bccedc1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>readcr4</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a736b0a7f616f7bc981be4c8ecc63f103</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>readcr8</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a32c0a41dcad17ec4099237be47b4f2e9</Anchor>
+                 </Node>
+                 <Node>
                   <Name>Stop</Name>
                   <Path>df/dbe/cpu_8hpp.html</Path>
                   <Anchor>a1e34d78eea69b8ed01bd333c7c78f5ea</Anchor>
@@ -18571,6 +19762,31 @@
                   <Name>Vendor</Name>
                   <Path>df/dbe/cpu_8hpp.html</Path>
                   <Anchor>a6563538f6b29a9565d3fffab03b82df6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>writecr0</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a655d2665777e1a587530395659eb205b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>writecr2</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a7b1e2adae8d5e417ca6e23c9ddca8251</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>writecr3</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a25993f5a5a662b0c4f03e9d8e80d76b6</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>writecr4</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>a5379e531499f0413128f57aab6271161</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>writecr8</Name>
+                  <Path>df/dbe/cpu_8hpp.html</Path>
+                  <Anchor>ae95f7bb0540b6d9850b29fd730f315ea</Anchor>
                  </Node>
                  <Node>
                   <Name>wrmsr</Name>
@@ -19139,7 +20355,12 @@
                  <Node>
                   <Name>Initialize</Name>
                   <Path>d8/d0a/interrupts_8hpp.html</Path>
-                  <Anchor>a08d918edd974c7040b12059a47e2dffb</Anchor>
+                  <Anchor>a480247e915be578424a6a6dec1bf505b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>apic</Name>
+                  <Path>d8/d0a/interrupts_8hpp.html</Path>
+                  <Anchor>a2e5e514d9f622ec4ecf663ca4625c571</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -20533,6 +21754,11 @@
                   <Anchor>a39c988cf13da29ba3d8293d925456ab1</Anchor>
                  </Node>
                  <Node>
+                  <Name>MAX_CPU</Name>
+                  <Path>d4/d33/smp_8hpp.html</Path>
+                  <Anchor>a163aa934e4e42ebaea98661d54c0af08</Anchor>
+                 </Node>
+                 <Node>
                   <Name>__attribute__</Name>
                   <Path>d4/d33/smp_8hpp.html</Path>
                   <Anchor>a1906bcc6780f95c35bdcd72d37c42b71</Anchor>
@@ -20546,6 +21772,11 @@
                   <Name>GetCurrentCPU</Name>
                   <Path>d4/d33/smp_8hpp.html</Path>
                   <Anchor>aa53a3783575d262dc378af3a30ca775d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Initialize</Name>
+                  <Path>d4/d33/smp_8hpp.html</Path>
+                  <Anchor>a83df3dc276fba1e673fcf5551113ca7e</Anchor>
                  </Node>
                  <Node>
                   <Name>Checksum</Name>
@@ -20759,6 +21990,27 @@
                <Node>
                 <Name>sys.h</Name>
                 <Path>d9/d87/sys_8h.html</Path>
+               </Node>
+               <Node>
+                <Name>syscalls.hpp</Name>
+                <Path>d0/d35/syscalls_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>SyscallsRegs</Name>
+                  <Path>d0/d35/syscalls_8hpp.html</Path>
+                  <Anchor>d8/dce/structSyscallsRegs</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>SyscallsRegs</Name>
+                  <Path>d0/d35/syscalls_8hpp.html</Path>
+                  <Anchor>ae3cd0a23fc496d1f9d16166e6e90c68b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>InitializeSystemCalls</Name>
+                  <Path>d0/d35/syscalls_8hpp.html</Path>
+                  <Anchor>a623b6425a07c15a56d165d69c08b67f2</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
                <Node>
                 <Name>time.hpp</Name>
@@ -20998,6 +22250,16 @@
                   <Anchor>a2aaa6d3aa1d7d1e0e326955aa24db752</Anchor>
                  </Node>
                  <Node>
+                  <Name>MAX</Name>
+                  <Path>d9/d49/types_8h.html</Path>
+                  <Anchor>afa99ec4acc4ecb2dc3c2d05da15d0e3f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>MIN</Name>
+                  <Path>d9/d49/types_8h.html</Path>
+                  <Anchor>a3acffbd305ee72dcd4593c0d8af64a4f</Anchor>
+                 </Node>
+                 <Node>
                   <Name>NULL</Name>
                   <Path>d9/d49/types_8h.html</Path>
                   <Anchor>a070d2ce7b6bb7e5c05602aa8c308d0c4</Anchor>
@@ -21006,6 +22268,11 @@
                   <Name>offsetof</Name>
                   <Path>d9/d49/types_8h.html</Path>
                   <Anchor>afd049f7ad59dbe455f460807475c2841</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>POKE</Name>
+                  <Path>d9/d49/types_8h.html</Path>
+                  <Anchor>a116392a97f8ae7523a63a135a0403e74</Anchor>
                  </Node>
                  <Node>
                   <Name>PTRDIFF_MAX</Name>
@@ -21131,6 +22398,11 @@
                   <Name>va_start</Name>
                   <Path>d9/d49/types_8h.html</Path>
                   <Anchor>aa0628ab596c3d7e78f5e08c2d98e24da</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>VPOKE</Name>
+                  <Path>d9/d49/types_8h.html</Path>
+                  <Anchor>aaba4eb2520bab0b16b9b65816ee5edef</Anchor>
                  </Node>
                  <Node>
                   <Name>WCHAR_MAX</Name>
@@ -23084,6 +24356,92 @@
            <Node>
             <Name>Functions</Name>
             <Path>globals_func.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>_</Name>
+              <Path>globals_func.html</Path>
+             </Node>
+             <Node>
+              <Name>a</Name>
+              <Path>globals_func_a.html</Path>
+             </Node>
+             <Node>
+              <Name>b</Name>
+              <Path>globals_func_b.html</Path>
+             </Node>
+             <Node>
+              <Name>c</Name>
+              <Path>globals_func_c.html</Path>
+             </Node>
+             <Node>
+              <Name>d</Name>
+              <Path>globals_func_d.html</Path>
+             </Node>
+             <Node>
+              <Name>e</Name>
+              <Path>globals_func_e.html</Path>
+             </Node>
+             <Node>
+              <Name>f</Name>
+              <Path>globals_func_f.html</Path>
+             </Node>
+             <Node>
+              <Name>g</Name>
+              <Path>globals_func_g.html</Path>
+             </Node>
+             <Node>
+              <Name>h</Name>
+              <Path>globals_func_h.html</Path>
+             </Node>
+             <Node>
+              <Name>i</Name>
+              <Path>globals_func_i.html</Path>
+             </Node>
+             <Node>
+              <Name>k</Name>
+              <Path>globals_func_k.html</Path>
+             </Node>
+             <Node>
+              <Name>l</Name>
+              <Path>globals_func_l.html</Path>
+             </Node>
+             <Node>
+              <Name>m</Name>
+              <Path>globals_func_m.html</Path>
+             </Node>
+             <Node>
+              <Name>n</Name>
+              <Path>globals_func_n.html</Path>
+             </Node>
+             <Node>
+              <Name>o</Name>
+              <Path>globals_func_o.html</Path>
+             </Node>
+             <Node>
+              <Name>p</Name>
+              <Path>globals_func_p.html</Path>
+             </Node>
+             <Node>
+              <Name>r</Name>
+              <Path>globals_func_r.html</Path>
+             </Node>
+             <Node>
+              <Name>s</Name>
+              <Path>globals_func_s.html</Path>
+             </Node>
+             <Node>
+              <Name>u</Name>
+              <Path>globals_func_u.html</Path>
+             </Node>
+             <Node>
+              <Name>v</Name>
+              <Path>globals_func_v.html</Path>
+             </Node>
+             <Node>
+              <Name>w</Name>
+              <Path>globals_func_w.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>Variables</Name>

@@ -5,5 +5,6 @@ var dir_0309b499b8950a5fc0ffafb09dd8e67f =
     [ "AdvancedConfigurationandPowerInterface.cpp", "db/dc2/AdvancedConfigurationandPowerInterface_8cpp.html", null ],
     [ "DifferentiatedSystemDescriptionTable.cpp", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html", "df/d64/DifferentiatedSystemDescriptionTable_8cpp" ],
     [ "Limine.c", "d3/d1d/Limine_8c.html", "d3/d1d/Limine_8c" ],
-    [ "MultipleAPICDescriptionTable.cpp", "d5/db3/MultipleAPICDescriptionTable_8cpp.html", null ]
+    [ "MultipleAPICDescriptionTable.cpp", "d5/db3/MultipleAPICDescriptionTable_8cpp.html", null ],
+    [ "SystemCalls.cpp", "d8/d8f/Architecture_2amd64_2SystemCalls_8cpp.html", "d8/d8f/Architecture_2amd64_2SystemCalls_8cpp" ]
 ];
