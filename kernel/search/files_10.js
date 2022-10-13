@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['vector_2ehpp_2631',['vector.hpp',['../da/d16/vector_8hpp.html',1,'']]],
-  ['virtualmemory_2ec_2632',['VirtualMemory.c',['../db/db9/VirtualMemory_8c.html',1,'']]],
-  ['virtualmemorymanager_2ecpp_2633',['VirtualMemoryManager.cpp',['../d8/d49/VirtualMemoryManager_8cpp.html',1,'']]]
+  ['vector_2ehpp_2641',['vector.hpp',['../da/d16/vector_8hpp.html',1,'']]],
+  ['virtualmemorymanager_2ecpp_2642',['VirtualMemoryManager.cpp',['../de/dfa/Kernel_2Core_2Memory_2VirtualMemoryManager_8cpp.html',1,'(Global Namespace)'],['../d8/d61/Lynx_2UEFI_2src_2Memory_2VirtualMemoryManager_8cpp.html',1,'(Global Namespace)']]]
 ];

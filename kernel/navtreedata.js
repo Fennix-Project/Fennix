@@ -74,20 +74,22 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d69/namespaceGlobalDescriptorTable.html#a16a387c8cd8a7f91ae578e753ec9b6c1",
-"d2/dc3/liballoc__1__1_8c.html#acf41d85e37dc0c5a00cd435c23341b5d",
-"d3/d21/classACPI_1_1ACPI.html#aeb80e1f8d75b1f0aa6995edd1936b35e",
-"d4/db5/String_8c.html#a56be4166e4673843042a548a7f513dbc",
-"d5/dba/multiboot2_8h.html#af24fe7df075c5603681a6cbbb26c2e07",
-"d7/d66/cxxabi_8cpp.html#a93fda3960d3337ef69b6bf27979dc07d",
-"d8/dcc/Memory_8cpp_source.html",
-"d9/d86/limits_8h.html#a308d9dd2c0028ddb184b455bbd7865de",
-"da/ddb/classXalloc_1_1SmartSMAPClass.html#a6c330b6c1ddf67bcfa66bbe3c3959eb9",
-"dd/d4d/structlimine__file.html#a949f13c2f063dee81d733bbf380c16fb",
-"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba342381c2ead83323604b791843320c0c",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda1be11ce33ce55f390754f1e413447d65",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bdac31340157777fecaf60384c399ca15e2",
-"dir_7eb4be0e5f3d4d74ead65438210d4126.html"
+"d0/de5/structlimine__module__request.html",
+"d1/d90/acpi_8hpp_source.html",
+"d3/d21/classACPI_1_1ACPI.html#a78fbfdb90d28117017680c31ce5f7ecf",
+"d3/df0/limine_8h.html#ac7c4a3f14b33deba97e1752662747e70",
+"d5/dba/multiboot2_8h.html#a6f9d2fe9f40f166aca2369649380f0f5",
+"d6/da1/classVector.html#aa7071d36ae9f924a383eb1b42a557ea1",
+"d8/d0a/interrupts_8hpp.html#a480247e915be578424a6a6dec1bf505b",
+"d9/d25/namespaceCPU_1_1x64.html#aeab15251d3e7452fb90874a2f4211b29",
+"da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a794344346279e2c33cdf963b440693fc",
+"db/d96/structBootInfo.html#abdfb19c908a50b60d9a407c0d42e3233",
+"dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#af7cbcb8bdc97db647056a747fc329255",
+"df/d7f/Kernel_2Library_2printf_8c.html#af43407109a0952f9ce5dee4160f21235",
+"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37babab98387d5c468d8bd19a05ef9de503565",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda781cc8bf875c74428bc01ead7af48b80",
+"df/dbe/cpu_8hpp.html#ac4adf9bc00a7d0caa5d57be3047a3678",
+"globals_u.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

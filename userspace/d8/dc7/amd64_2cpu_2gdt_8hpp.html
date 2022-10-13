@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('d8/dc7/amd64_2cpu_2gdt_8hpp.html','../
 <div class="title">gdt.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;types.h&gt;</code><br />
 </div>
 <p><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -117,15 +117,15 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ab0bd808397c97f7db4701ca69009a547"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab0bd808397c97f7db4701ca69009a547">GDT_KERNEL_CODE</a>&#160;&#160;&#160;<a class="el" href="../../d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</td></tr>
+<tr class="memitem:ab0bd808397c97f7db4701ca69009a547"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab0bd808397c97f7db4701ca69009a547">GDT_KERNEL_CODE</a>&#160;&#160;&#160;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</td></tr>
 <tr class="separator:ab0bd808397c97f7db4701ca69009a547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b5a711dc01ab783bb986902240f1cce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1b5a711dc01ab783bb986902240f1cce">GDT_KERNEL_DATA</a>&#160;&#160;&#160;<a class="el" href="../../d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d4/d33/smp_8hpp.html#a93462051e04a57e2459e6a2ab149a01c">Data</a>)</td></tr>
+<tr class="memitem:a1b5a711dc01ab783bb986902240f1cce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1b5a711dc01ab783bb986902240f1cce">GDT_KERNEL_DATA</a>&#160;&#160;&#160;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d4/d33/smp_8hpp.html#a93462051e04a57e2459e6a2ab149a01c">Data</a>)</td></tr>
 <tr class="separator:a1b5a711dc01ab783bb986902240f1cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9670040bead28fb1c0b09ea363152cd2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2">GDT_USER_DATA</a>&#160;&#160;&#160;(<a class="el" href="../../d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28">UserData</a>) | 3)</td></tr>
+<tr class="memitem:a9670040bead28fb1c0b09ea363152cd2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2">GDT_USER_DATA</a>&#160;&#160;&#160;(<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28">UserData</a>) | 3)</td></tr>
 <tr class="separator:a9670040bead28fb1c0b09ea363152cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5c033543fb4db7939b4b7587de03867"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#af5c033543fb4db7939b4b7587de03867">GDT_USER_CODE</a>&#160;&#160;&#160;(<a class="el" href="../../d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243">UserCode</a>) | 3)</td></tr>
+<tr class="memitem:af5c033543fb4db7939b4b7587de03867"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#af5c033543fb4db7939b4b7587de03867">GDT_USER_CODE</a>&#160;&#160;&#160;(<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243">UserCode</a>) | 3)</td></tr>
 <tr class="separator:af5c033543fb4db7939b4b7587de03867"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa2f85c6adeea0d29c4852d4cef33d4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afa2f85c6adeea0d29c4852d4cef33d4c">GDT_TSS</a>&#160;&#160;&#160;(<a class="el" href="../../d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4">TaskStateSegment</a>) | 3)</td></tr>
+<tr class="memitem:afa2f85c6adeea0d29c4852d4cef33d4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afa2f85c6adeea0d29c4852d4cef33d4c">GDT_TSS</a>&#160;&#160;&#160;(<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4">TaskStateSegment</a>) | 3)</td></tr>
 <tr class="separator:afa2f85c6adeea0d29c4852d4cef33d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -137,48 +137,48 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a930e5a4d8414c0427fe5c636062579db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a></td></tr>
+<tr class="memitem:a930e5a4d8414c0427fe5c636062579db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a></td></tr>
 <tr class="memdesc:a930e5a4d8414c0427fe5c636062579db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length [Bits 0-15].  <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a930e5a4d8414c0427fe5c636062579db">More...</a><br /></td></tr>
 <tr class="separator:a930e5a4d8414c0427fe5c636062579db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bc0bb5dc0f85051dcb20cadced6a345"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9bc0bb5dc0f85051dcb20cadced6a345">Low</a></td></tr>
+<tr class="memitem:a9bc0bb5dc0f85051dcb20cadced6a345"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9bc0bb5dc0f85051dcb20cadced6a345">Low</a></td></tr>
 <tr class="separator:a9bc0bb5dc0f85051dcb20cadced6a345"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a823f689282bbc7a21228bd618cb0de78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a823f689282bbc7a21228bd618cb0de78">Middle</a></td></tr>
+<tr class="memitem:a823f689282bbc7a21228bd618cb0de78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a823f689282bbc7a21228bd618cb0de78">Middle</a></td></tr>
 <tr class="separator:a823f689282bbc7a21228bd618cb0de78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17db325daafff64c94b758a8c71a9f1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a17db325daafff64c94b758a8c71a9f1b">Flags1</a></td></tr>
+<tr class="memitem:a17db325daafff64c94b758a8c71a9f1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a17db325daafff64c94b758a8c71a9f1b">Flags1</a></td></tr>
 <tr class="separator:a17db325daafff64c94b758a8c71a9f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab77d62bdafc7f0d1e6b1883c34e06dbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab77d62bdafc7f0d1e6b1883c34e06dbe">Flags2</a></td></tr>
+<tr class="memitem:ab77d62bdafc7f0d1e6b1883c34e06dbe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab77d62bdafc7f0d1e6b1883c34e06dbe">Flags2</a></td></tr>
 <tr class="separator:ab77d62bdafc7f0d1e6b1883c34e06dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f521ce071b0440f3ff65bf8b03d58de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a3f521ce071b0440f3ff65bf8b03d58de">High</a></td></tr>
+<tr class="memitem:a3f521ce071b0440f3ff65bf8b03d58de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a3f521ce071b0440f3ff65bf8b03d58de">High</a></td></tr>
 <tr class="separator:a3f521ce071b0440f3ff65bf8b03d58de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0d81e414187a2fc10923c4216972d4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aa0d81e414187a2fc10923c4216972d4e">Upper32</a></td></tr>
+<tr class="memitem:aa0d81e414187a2fc10923c4216972d4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aa0d81e414187a2fc10923c4216972d4e">Upper32</a></td></tr>
 <tr class="separator:aa0d81e414187a2fc10923c4216972d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43fae5b728aa075b9475bbe49a5738ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a43fae5b728aa075b9475bbe49a5738ef">Reserved</a></td></tr>
+<tr class="memitem:a43fae5b728aa075b9475bbe49a5738ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a43fae5b728aa075b9475bbe49a5738ef">Reserved</a></td></tr>
 <tr class="separator:a43fae5b728aa075b9475bbe49a5738ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78da68e8221ba91f20a1f749d860b14f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a78da68e8221ba91f20a1f749d860b14f">Reserved0</a></td></tr>
+<tr class="memitem:a78da68e8221ba91f20a1f749d860b14f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a78da68e8221ba91f20a1f749d860b14f">Reserved0</a></td></tr>
 <tr class="separator:a78da68e8221ba91f20a1f749d860b14f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d9ff73842948ded9734b943d3bf5894"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9d9ff73842948ded9734b943d3bf5894">StackPointer</a> [3]</td></tr>
+<tr class="memitem:a9d9ff73842948ded9734b943d3bf5894"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9d9ff73842948ded9734b943d3bf5894">StackPointer</a> [3]</td></tr>
 <tr class="separator:a9d9ff73842948ded9734b943d3bf5894"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afea133adf188dfb8979f48bcdaa69acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afea133adf188dfb8979f48bcdaa69acf">Reserved1</a></td></tr>
+<tr class="memitem:afea133adf188dfb8979f48bcdaa69acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afea133adf188dfb8979f48bcdaa69acf">Reserved1</a></td></tr>
 <tr class="separator:afea133adf188dfb8979f48bcdaa69acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cbcf7dbaba62e0aa7990f9c0893e165"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9cbcf7dbaba62e0aa7990f9c0893e165">InterruptStackTable</a> [7]</td></tr>
+<tr class="memitem:a9cbcf7dbaba62e0aa7990f9c0893e165"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9cbcf7dbaba62e0aa7990f9c0893e165">InterruptStackTable</a> [7]</td></tr>
 <tr class="separator:a9cbcf7dbaba62e0aa7990f9c0893e165"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95539100d5c2368b95010fef43a844f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a95539100d5c2368b95010fef43a844f6">Reserved2</a></td></tr>
+<tr class="memitem:a95539100d5c2368b95010fef43a844f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a95539100d5c2368b95010fef43a844f6">Reserved2</a></td></tr>
 <tr class="separator:a95539100d5c2368b95010fef43a844f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fc09010d383d63cff1bf586f70c7f9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a6fc09010d383d63cff1bf586f70c7f9a">IOMapBaseAddressOffset</a></td></tr>
+<tr class="memitem:a6fc09010d383d63cff1bf586f70c7f9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a6fc09010d383d63cff1bf586f70c7f9a">IOMapBaseAddressOffset</a></td></tr>
 <tr class="separator:a6fc09010d383d63cff1bf586f70c7f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9f9c980afbad64de663b5fec7cacd48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab9f9c980afbad64de663b5fec7cacd48">BaseLow</a></td></tr>
+<tr class="memitem:ab9f9c980afbad64de663b5fec7cacd48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab9f9c980afbad64de663b5fec7cacd48">BaseLow</a></td></tr>
 <tr class="memdesc:ab9f9c980afbad64de663b5fec7cacd48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Low Base [Bits 0-15].  <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab9f9c980afbad64de663b5fec7cacd48">More...</a><br /></td></tr>
 <tr class="separator:ab9f9c980afbad64de663b5fec7cacd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add843b8ec66d6d45efb584c8eb64662f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#add843b8ec66d6d45efb584c8eb64662f">BaseMiddle</a></td></tr>
+<tr class="memitem:add843b8ec66d6d45efb584c8eb64662f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#add843b8ec66d6d45efb584c8eb64662f">BaseMiddle</a></td></tr>
 <tr class="memdesc:add843b8ec66d6d45efb584c8eb64662f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Middle Base [Bits 0-23].  <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#add843b8ec66d6d45efb584c8eb64662f">More...</a><br /></td></tr>
 <tr class="separator:add843b8ec66d6d45efb584c8eb64662f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd4547759affdaa57ba35b76333857ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afd4547759affdaa57ba35b76333857ee">Access</a></td></tr>
+<tr class="memitem:afd4547759affdaa57ba35b76333857ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afd4547759affdaa57ba35b76333857ee">Access</a></td></tr>
 <tr class="memdesc:afd4547759affdaa57ba35b76333857ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access.  <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afd4547759affdaa57ba35b76333857ee">More...</a><br /></td></tr>
 <tr class="separator:afd4547759affdaa57ba35b76333857ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb3f0fed7dd127f81565f62281a7ae41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aeb3f0fed7dd127f81565f62281a7ae41">Flags</a></td></tr>
+<tr class="memitem:aeb3f0fed7dd127f81565f62281a7ae41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aeb3f0fed7dd127f81565f62281a7ae41">Flags</a></td></tr>
 <tr class="memdesc:aeb3f0fed7dd127f81565f62281a7ae41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags [Bits 16-19].  <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aeb3f0fed7dd127f81565f62281a7ae41">More...</a><br /></td></tr>
 <tr class="separator:aeb3f0fed7dd127f81565f62281a7ae41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c483aeda65f9a985863382e09007f72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2c483aeda65f9a985863382e09007f72">BaseHigh</a></td></tr>
+<tr class="memitem:a2c483aeda65f9a985863382e09007f72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2c483aeda65f9a985863382e09007f72">BaseHigh</a></td></tr>
 <tr class="memdesc:a2c483aeda65f9a985863382e09007f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">High Base [Bits 24-31].  <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2c483aeda65f9a985863382e09007f72">More...</a><br /></td></tr>
 <tr class="separator:a2c483aeda65f9a985863382e09007f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73f4b3a63105e057f9ceccf2c2cde860"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a73f4b3a63105e057f9ceccf2c2cde860">Null</a></td></tr>
@@ -214,49 +214,49 @@ Variables</h2></td></tr>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a53e2b6dea8f415375decb6a13338e990"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a53e2b6dea8f415375decb6a13338e990"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Flags1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a820eb735cd77def95d7472935ad24b3d"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a820eb735cd77def95d7472935ad24b3d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Flags2</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a823c71306f6f543f1af17f83a7eb3a06"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a823c71306f6f543f1af17f83a7eb3a06"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 High</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a9ce40ebf89ab91cfb4159ac515ab4071"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a9ce40ebf89ab91cfb4159ac515ab4071"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Length</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a16a387c8cd8a7f91ae578e753ec9b6c1"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a16a387c8cd8a7f91ae578e753ec9b6c1"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Low</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ac46d6b7fbe49948d690d05e2cf9b01cb"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="ac46d6b7fbe49948d690d05e2cf9b01cb"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Middle</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3e8d8eb76d592dd73085edfc62cb041e"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="a3e8d8eb76d592dd73085edfc62cb041e"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
 <td class="fieldname">
 Reserved</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a9eb83617e569a8824bbc0a47d54ec70c"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="a9eb83617e569a8824bbc0a47d54ec70c"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
 <td class="fieldname">
 Upper32</td>
 <td class="fielddoc">
@@ -281,37 +281,37 @@ Upper32</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ac85abb77325002c08cb3e9e25cb26f7d"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="ac85abb77325002c08cb3e9e25cb26f7d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
 InterruptStackTable[7]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af93790f77f99f38c9aee4dc454cd3bb9"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="af93790f77f99f38c9aee4dc454cd3bb9"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 IOMapBaseAddressOffset</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af41eb4341bd800ca4e30779bb54e5ef8"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="af41eb4341bd800ca4e30779bb54e5ef8"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
 <td class="fieldname">
 Reserved0</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad713dc6ddd78234082dc2cd404b1f861"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="ad713dc6ddd78234082dc2cd404b1f861"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
 Reserved1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a8071b41ba0df97c95cbf541956c2a9b2"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a8071b41ba0df97c95cbf541956c2a9b2"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Reserved2</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a26a78bcc440d95ffc4494a3afecdd26d"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="a26a78bcc440d95ffc4494a3afecdd26d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
 StackPointer[3]</td>
 <td class="fielddoc">
@@ -336,37 +336,37 @@ StackPointer[3]</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a1c5f2dc61acee4ee4c5799443137a242"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a1c5f2dc61acee4ee4c5799443137a242"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Access</td>
 <td class="fielddoc">
 Access. </td></tr>
 <tr><td class="fieldtype">
-<a id="a8b3b4821ceeb86cc4b58051c32762308"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a8b3b4821ceeb86cc4b58051c32762308"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 BaseHigh</td>
 <td class="fielddoc">
 High Base [Bits 24-31]. </td></tr>
 <tr><td class="fieldtype">
-<a id="a6df74bc7d6819961e14655af9e9c853f"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a6df74bc7d6819961e14655af9e9c853f"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 BaseLow</td>
 <td class="fielddoc">
 Low Base [Bits 0-15]. </td></tr>
 <tr><td class="fieldtype">
-<a id="a4b9b2ede295965a06c71c6dfc4e1810d"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a4b9b2ede295965a06c71c6dfc4e1810d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 BaseMiddle</td>
 <td class="fielddoc">
 Middle Base [Bits 0-23]. </td></tr>
 <tr><td class="fieldtype">
-<a id="aebd3e5ebac66b7427dccdce476277fa8"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="aebd3e5ebac66b7427dccdce476277fa8"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Flags</td>
 <td class="fielddoc">
 Flags [Bits 16-19]. </td></tr>
 <tr><td class="fieldtype">
-<a id="a50116aa507a8daccccbafffc31f1da09"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a50116aa507a8daccccbafffc31f1da09"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Length</td>
 <td class="fielddoc">
@@ -452,7 +452,7 @@ Entries</td>
 <td class="fielddoc">
 GDT entries address. </td></tr>
 <tr><td class="fieldtype">
-<a id="a2cc87c2c7fe724170f1a79797594b49f"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a2cc87c2c7fe724170f1a79797594b49f"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Length</td>
 <td class="fielddoc">
@@ -469,7 +469,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GDT_KERNEL_CODE&#160;&#160;&#160;<a class="el" href="../../d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</td>
+          <td class="memname">#define GDT_KERNEL_CODE&#160;&#160;&#160;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -485,7 +485,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GDT_KERNEL_DATA&#160;&#160;&#160;<a class="el" href="../../d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d4/d33/smp_8hpp.html#a93462051e04a57e2459e6a2ab149a01c">Data</a>)</td>
+          <td class="memname">#define GDT_KERNEL_DATA&#160;&#160;&#160;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d4/d33/smp_8hpp.html#a93462051e04a57e2459e6a2ab149a01c">Data</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -501,7 +501,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GDT_TSS&#160;&#160;&#160;(<a class="el" href="../../d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4">TaskStateSegment</a>) | 3)</td>
+          <td class="memname">#define GDT_TSS&#160;&#160;&#160;(<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4">TaskStateSegment</a>) | 3)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -517,7 +517,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GDT_USER_CODE&#160;&#160;&#160;(<a class="el" href="../../d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243">UserCode</a>) | 3)</td>
+          <td class="memname">#define GDT_USER_CODE&#160;&#160;&#160;(<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243">UserCode</a>) | 3)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -533,7 +533,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GDT_USER_DATA&#160;&#160;&#160;(<a class="el" href="../../d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28">UserData</a>) | 3)</td>
+          <td class="memname">#define GDT_USER_DATA&#160;&#160;&#160;(<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28">UserData</a>) | 3)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -550,7 +550,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Access</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Access</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -568,7 +568,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> BaseHigh</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> BaseHigh</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -586,7 +586,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> BaseLow</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> BaseLow</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -604,7 +604,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> BaseMiddle</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> BaseMiddle</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -674,7 +674,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Flags</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Flags</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -692,7 +692,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Flags1</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Flags1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -708,7 +708,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Flags2</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Flags2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -724,7 +724,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> High</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> High</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -742,7 +742,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> InterruptStackTable[7]</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> InterruptStackTable[7]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -760,7 +760,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> IOMapBaseAddressOffset</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> IOMapBaseAddressOffset</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -776,7 +776,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Length</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Length</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -795,7 +795,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Low</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Low</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -813,7 +813,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Middle</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Middle</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -845,7 +845,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Reserved</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Reserved</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -861,7 +861,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Reserved0</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Reserved0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -877,7 +877,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Reserved1</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Reserved1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -893,7 +893,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Reserved2</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Reserved2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -909,7 +909,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> StackPointer[3]</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> StackPointer[3]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -943,7 +943,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Upper32</td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Upper32</td>
         </tr>
       </table>
 </div><div class="memdoc">

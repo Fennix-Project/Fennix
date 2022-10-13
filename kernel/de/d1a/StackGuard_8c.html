@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('de/d1a/StackGuard_8c.html','../../'); 
 <div class="title">StackGuard.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;types.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 </div>
 <p><a href="../../de/d1a/StackGuard_8c_source.html">Go to the source code of this file.</a></p>
@@ -206,21 +206,21 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">for</span> (;;)</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;hlt&quot;</span>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;hlt&quot;</span>);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;wfe&quot;</span>);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;wfe&quot;</span>);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00025">asmv</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00037">error</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00025">asmv</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00037">error</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aKernel_2include_2types_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00025">types.h:25</a></div></div>
 <div class="ttc" id="aStackGuard_8c_html_ae7604d0091293e83fbb68adc9dc332ba"><div class="ttname"><a href="../../de/d1a/StackGuard_8c.html#ae7604d0091293e83fbb68adc9dc332ba">STACK_CHK_GUARD_VALUE</a></div><div class="ttdeci">#define STACK_CHK_GUARD_VALUE</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1a/StackGuard_8c_source.html#l00006">StackGuard.c:6</a></div></div>
-<div class="ttc" id="atypes_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00025">types.h:25</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00037">debug.h:37</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

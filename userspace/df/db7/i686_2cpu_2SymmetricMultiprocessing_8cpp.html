@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('df/db7/i686_2cpu_2SymmetricMultiproces
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/d0a/interrupts_8hpp_source.html">interrupts.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
+<code>#include &lt;memory.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../../kernel.h</a>&quot;</code><br />
 </div>
@@ -106,9 +106,9 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a878aa217dfc93e844e800902a750e5d1"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html#a878aa217dfc93e844e800902a750e5d1">__attribute__</a> ((aligned(<a class="el" href="../../da/d3e/memory_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>))) <a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> CPUs[<a class="el" href="../../d4/d33/smp_8hpp.html#a163aa934e4e42ebaea98661d54c0af08">MAX_CPU</a>]</td></tr>
+<tr class="memitem:a878aa217dfc93e844e800902a750e5d1"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html#a878aa217dfc93e844e800902a750e5d1">__attribute__</a> ((aligned(<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>))) <a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> CPUs[<a class="el" href="../../d4/d33/smp_8hpp.html#a163aa934e4e42ebaea98661d54c0af08">MAX_CPU</a>]</td></tr>
 <tr class="separator:a878aa217dfc93e844e800902a750e5d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb4382e3522b10e4fbdabfcebe44023b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html#acb4382e3522b10e4fbdabfcebe44023b">GetCPU</a> (<a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> id)</td></tr>
+<tr class="memitem:acb4382e3522b10e4fbdabfcebe44023b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html#acb4382e3522b10e4fbdabfcebe44023b">GetCPU</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> id)</td></tr>
 <tr class="separator:acb4382e3522b10e4fbdabfcebe44023b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa53a3783575d262dc378af3a30ca775d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a> ()</td></tr>
 <tr class="separator:aa53a3783575d262dc378af3a30ca775d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,7 +117,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a01053fbf08aa5c622b2e2a65e699edbf"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html#a01053fbf08aa5c622b2e2a65e699edbf">CPUEnabled</a> = <a class="el" href="../../d9/d49/types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></td></tr>
+<tr class="memitem:a01053fbf08aa5c622b2e2a65e699edbf"><td class="memItemLeft" align="right" valign="top">volatile <a class="el" href="../../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html#a01053fbf08aa5c622b2e2a65e699edbf">CPUEnabled</a> = <a class="el" href="../../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a65e9886d74aaee76545e83dd09011727">false</a></td></tr>
 <tr class="separator:a01053fbf08aa5c622b2e2a65e699edbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -133,7 +133,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">static __attribute__ </td>
           <td>(</td>
-          <td class="paramtype">(aligned(<a class="el" href="../../da/d3e/memory_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>))&#160;</td>
+          <td class="paramtype">(aligned(<a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>))&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -156,7 +156,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a>* GetCPU </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
           <td></td>
         </tr>
@@ -185,7 +185,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> ret = 0;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> ret = 0;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (!CPUs[ret].<a class="code" href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a>)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
@@ -213,7 +213,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">volatile <a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> CPUEnabled = <a class="el" href="../../d9/d49/types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></td>
+          <td class="memname">volatile <a class="el" href="../../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#abb452686968e48b67397da5f97445f5b">bool</a> CPUEnabled = <a class="el" href="../../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a65e9886d74aaee76545e83dd09011727">false</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -226,8 +226,8 @@ Variables</h2></td></tr>
 </div><!-- doc-content -->
 <div class="ttc" id="asmp_8hpp_html_a92c6b1cf703f9e064f5efc0907f80379"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></div><div class="ttdeci">bool IsActive</div><div class="ttdoc">Is CPU online?</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00013">smp.hpp:13</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_ad98d5051c2e94669e746dd13771daac8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#ad98d5051c2e94669e746dd13771daac8">Checksum</a></div><div class="ttdeci">uint8_t Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00005">acpi.hpp:5</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00063">types.h:63</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00009">smp.hpp:9</a></div></div>
-<div class="ttc" id="atypes_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00063">types.h:63</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00037">debug.h:37</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
