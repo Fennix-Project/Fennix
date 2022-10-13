@@ -125,7 +125,7 @@ ifeq ($(BOOTLOADER), lynx)
 	cp tools/lynx.cfg boot/BIOS/loader.bin boot/UEFI/efi-loader.bin iso_tmp_data/
 	xorriso -as mkisofs -b loader.bin \
 		-no-emul-boot -boot-load-size 4 -boot-info-table \
-		--efi-boot efi-loader.bin \
+		--efi-boot efi-loader.bin -V FENNIX \
 		-efi-boot-part --efi-boot-image --protective-msdos-label \
 		iso_tmp_data -o $(OSNAME).iso
 endif
@@ -134,15 +134,22 @@ ifeq ($(OSARCH), amd64)
 	cp tools/limine.cfg $(LIMINE_FOLDER)/limine.sys $(LIMINE_FOLDER)/limine-cd.bin $(LIMINE_FOLDER)/limine-cd-efi.bin iso_tmp_data/
 	xorriso -as mkisofs -b limine-cd.bin \
 		-no-emul-boot -boot-load-size 4 -boot-info-table \
-		--efi-boot limine-cd-efi.bin \
+		--efi-boot limine-cd-efi.bin -V FENNIX \
 		-efi-boot-part --efi-boot-image --protective-msdos-label \
 		iso_tmp_data -o $(OSNAME).iso
 endif
 ifeq ($(OSARCH), i686)
+# TODO: Add custom language support for GRUB or detect the system language using "echo $LANG | cut -d . -f 1" and set "lang" variable inside grub.cfg
 	mkdir -p iso_tmp_data/boot
 	mkdir -p iso_tmp_data/boot/grub
 	cp tools/grub.cfg iso_tmp_data/boot/grub/
 	grub-mkrescue -o $(OSNAME).iso iso_tmp_data
+	cp tools/stage2_eltorito iso_tmp_data/
+	cp tools/menu.lst iso_tmp_data/boot/grub/
+	xorriso -as mkisofs -R -b stage2_eltorito \
+		-no-emul-boot -boot-load-size 4 -boot-info-table \
+		--protective-msdos-label -V FENNIX \
+		iso_tmp_data -o $(OSNAME)-legacy.iso
 endif
 ifeq ($(OSARCH), aarch64)
 	$(COMPILER_PATH)/$(COMPILER_ARCH)objcopy Kernel/kernel.fsys -O binary $(OSNAME).img
@@ -172,7 +179,7 @@ run: build qemu
 
 clean:
 	rm -rf doxygen-doc iso_tmp_data
-	rm -f initrd/system/drivers/*.drv initrd.tar.gz $(OSNAME).iso $(OSNAME).img
+	rm -f initrd/system/drivers/*.drv initrd.tar.gz $(OSNAME).iso $(OSNAME)-legacy.iso $(OSNAME).img
 	make -C Kernel clean
 	make -C Lynx clean
 	make -C Userspace clean

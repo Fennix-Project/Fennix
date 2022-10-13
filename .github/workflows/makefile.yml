@@ -246,6 +246,12 @@ jobs:
         name: Fennix-i686
         path: Fennix.iso
 
+    - name: Upload Artifact (Legacy)
+      uses: actions/upload-artifact@v3.0.0
+      with:
+        name: Fennix-i686-legacy
+        path: Fennix-legacy.iso
+
   compilearm64:
     name: Build aarch64
     runs-on: ubuntu-latest
