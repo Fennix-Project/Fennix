@@ -103,7 +103,7 @@ rebuild: clean build
 # Quickly build the operating system (it won't create the ISO file and doxygen documentation)
 build_lynx:
 ifeq ($(BOOTLOADER), lynx)
-	make --quiet -C boot build
+	make --quiet -C Lynx build
 endif
 
 build_kernel:
@@ -122,7 +122,7 @@ build_image:
 	cp Kernel/kernel.fsys initrd.tar.gz \
 		iso_tmp_data/
 ifeq ($(BOOTLOADER), lynx)
-	cp tools/lynx.cfg boot/BIOS/loader.bin boot/UEFI/efi-loader.bin iso_tmp_data/
+	cp tools/lynx.cfg Lynx/loader.bin Lynx/efi-loader.bin iso_tmp_data/
 	xorriso -as mkisofs -b loader.bin \
 		-no-emul-boot -boot-load-size 4 -boot-info-table \
 		--efi-boot efi-loader.bin -V FENNIX \
