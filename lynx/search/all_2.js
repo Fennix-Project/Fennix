@@ -41,7 +41,7 @@ var searchData=
   ['bluemaskshift_223',['BlueMaskShift',['../db/d96/structBootInfo.html#ae5a7673165f8660e494eb2a10eec9158',1,'BootInfo::FramebufferInfo']]],
   ['bluemasksize_224',['BlueMaskSize',['../db/d96/structBootInfo.html#aebd62d049711f930e865bc971fd5a1b8',1,'BootInfo::FramebufferInfo']]],
   ['bool_225',['bool',['../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b',1,'types.h']]],
-  ['boot_2easm_226',['boot.asm',['../d0/d91/boot_8asm.html',1,'']]],
+  ['boot_2easm_226',['boot.asm',['../d1/dab/Kernel_2Architecture_2i686_2boot_8asm.html',1,'(Global Namespace)'],['../dc/d76/Lynx_2BIOS_2boot_8asm.html',1,'(Global Namespace)']]],
   ['boot_5ftime_227',['boot_time',['../d3/df0/limine_8h.html#afd90e4d04eb15b0bdaecc48017e2096b',1,'limine_boot_time_response']]],
   ['bootarchitectureflags_228',['BootArchitectureFlags',['../d3/d21/classACPI_1_1ACPI.html#a90b83974b9df20594d1cdd0b6c3224ae',1,'ACPI::ACPI::FADTHeader::BootArchitectureFlags()'],['../d1/d90/acpi_8hpp.html#ad107ba0d6038ab61be6e8caa68738f58',1,'BootArchitectureFlags():&#160;acpi.hpp']]],
   ['bootclock_229',['BootClock',['../d2/d00/Kernel_8cpp.html#abbd931d872aa0ab4442bee0a937a4c3f',1,'Kernel.cpp']]],

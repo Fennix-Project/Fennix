@@ -2736,6 +2736,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/d8e/MultibootInit_8cpp.html</Path>
+    <Anchor>a226a78c4fb806645f89ac7b3412d2cdb</Anchor>
+    <DeclaredIn>MultibootInit.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Vendor</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -10738,6 +10748,36 @@
     <Path>d4/db5/String_8c.html</Path>
     <Anchor>a75b852b562036f85800f7e155266bd58</Anchor>
     <DeclaredIn>String.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LoadFile</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/de1/FileLoader_8c.html</Path>
+    <Anchor>a3812867bb556476b6fffab75a847ecee</Anchor>
+    <DeclaredIn>FileLoader.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LoadFile</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d51/FileLoader_8h.html</Path>
+    <Anchor>a3812867bb556476b6fffab75a847ecee</Anchor>
+    <DeclaredIn>FileLoader.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>efi_main</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>db/da1/Lynx_8c.html</Path>
+    <Anchor>a0923ae12dd18ac3afbd1e77a3f40651d</Anchor>
+    <DeclaredIn>Lynx.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

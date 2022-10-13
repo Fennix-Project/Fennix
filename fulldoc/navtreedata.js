@@ -74,20 +74,20 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d69/namespaceGlobalDescriptorTable.html",
+"d1/d69/namespaceGlobalDescriptorTable.html#a16a387c8cd8a7f91ae578e753ec9b6c1",
 "d2/dc3/liballoc__1__1_8c.html#acf41d85e37dc0c5a00cd435c23341b5d",
 "d3/d21/classACPI_1_1ACPI.html#aeb80e1f8d75b1f0aa6995edd1936b35e",
 "d4/db5/String_8c.html#a56be4166e4673843042a548a7f513dbc",
 "d5/dba/multiboot2_8h.html#af24fe7df075c5603681a6cbbb26c2e07",
 "d7/d66/cxxabi_8cpp.html#a93fda3960d3337ef69b6bf27979dc07d",
-"d9/d25/namespaceCPU_1_1x64.html#a0fe33d32158d444c0d6b479a4b08f97f",
-"d9/d86/limits_8h.html#a689b119da994dece91d44b5aeac643ed",
-"db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f",
-"dd/dc9/classACPI_1_1DSDT.html#a180530b79002ec4cdd34186c2c1213e3",
-"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba4bb5ada9b2b009ccee94049e46fcf519",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda2a08e1014cc60f66769cf07eeae41a08",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bdada4c4e45c789139562aa2c394b003e24",
-"functions_o.html"
+"d8/dcc/Memory_8cpp_source.html",
+"d9/d86/limits_8h.html#a308d9dd2c0028ddb184b455bbd7865de",
+"da/ddb/classXalloc_1_1SmartSMAPClass.html#a6c330b6c1ddf67bcfa66bbe3c3959eb9",
+"dd/d4d/structlimine__file.html#a949f13c2f063dee81d733bbf380c16fb",
+"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba342381c2ead83323604b791843320c0c",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda1be11ce33ce55f390754f1e413447d65",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bdac31340157777fecaf60384c399ca15e2",
+"dir_7eb4be0e5f3d4d74ead65438210d4126.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

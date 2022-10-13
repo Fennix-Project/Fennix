@@ -1,5 +1,12 @@
 var NAVTREEINDEX8 =
 {
+"d9/d86/limits_8h.html#a308d9dd2c0028ddb184b455bbd7865de":[8,0,0,2,8,0],
+"d9/d86/limits_8h.html#a37ae7009688ff03a821794e036e3e458":[8,0,0,2,8,16],
+"d9/d86/limits_8h.html#a383fc2c0c24436c812cc22289504a151":[8,0,0,2,8,5],
+"d9/d86/limits_8h.html#a4066e640ee269d5d8f83ff6643b7af5f":[8,0,0,2,8,14],
+"d9/d86/limits_8h.html#a41c51926a1997aab3503f9083935e06c":[8,0,0,2,8,17],
+"d9/d86/limits_8h.html#a50fece4db74f09568b2938db583c5655":[8,0,0,2,8,7],
+"d9/d86/limits_8h.html#a5d707bd32338557ced18c6ac76ca1b3a":[8,0,0,2,8,2],
 "d9/d86/limits_8h.html#a689b119da994dece91d44b5aeac643ed":[8,0,0,2,8,18],
 "d9/d86/limits_8h.html#a778eefd6535a9d4b752fca5dd0af58db":[8,0,0,2,8,1],
 "d9/d86/limits_8h.html#a7859270152a7cdc221342c2abdc427fd":[8,0,0,2,8,6],
@@ -242,12 +249,5 @@ var NAVTREEINDEX8 =
 "da/db9/classACPI_1_1MADT.html#dc/de8/structACPI_1_1MADT_1_1LAPIC":[7,0,0,2,1],
 "da/db9/classACPI_1_1MADT.html#dc/de8/structACPI_1_1MADT_1_1LAPIC":[8,0,0,0,1,1,19],
 "da/dc9/md_Kernel_README.html":[2],
-"da/ddb/classXalloc_1_1SmartSMAPClass.html":[7,0,11,1],
-"da/ddb/classXalloc_1_1SmartSMAPClass.html#a6c330b6c1ddf67bcfa66bbe3c3959eb9":[7,0,11,1,0],
-"da/ddb/classXalloc_1_1SmartSMAPClass.html#a77f50a5abee69318df34c8d3a91fd0f9":[7,0,11,1,1],
-"da/ddb/classXalloc_1_1SmartSMAPClass.html#a801f5938300dc3bf966e7ae46c9a9012":[7,0,11,1,2],
-"db/d16/debug_8h.html":[8,0,0,2,3],
-"db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55":[8,0,0,2,3,5],
-"db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43":[8,0,0,2,3,0],
-"db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574":[8,0,0,2,3,1]
+"da/ddb/classXalloc_1_1SmartSMAPClass.html":[7,0,11,1]
 };

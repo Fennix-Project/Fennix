@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['x32entry_2908',['x32Entry',['../d2/d00/Kernel_8cpp.html#aa8a7c6e6e3bdb2a0d88988b5083c06bf',1,'Kernel.cpp']]],
-  ['xclac_2909',['Xclac',['../d2/da8/classXalloc_1_1AllocatorV1.html#a2400fd8f66e2dab7aee1bd8c9f4d2986',1,'Xalloc::AllocatorV1']]],
-  ['xmemcpy_2910',['Xmemcpy',['../d2/da8/classXalloc_1_1AllocatorV1.html#a1eab008ff7304f23a6255bed9492707c',1,'Xalloc::AllocatorV1']]],
-  ['xmemset_2911',['Xmemset',['../d2/da8/classXalloc_1_1AllocatorV1.html#a9b46776eaa86500c30f99d7ddcd9aae8',1,'Xalloc::AllocatorV1']]],
-  ['xstac_2912',['Xstac',['../d2/da8/classXalloc_1_1AllocatorV1.html#a8032bb777951367e8ffc13031fdb128b',1,'Xalloc::AllocatorV1']]]
+  ['x32entry_2928',['x32Entry',['../d2/d00/Kernel_8cpp.html#aa8a7c6e6e3bdb2a0d88988b5083c06bf',1,'Kernel.cpp']]],
+  ['xclac_2929',['Xclac',['../d2/da8/classXalloc_1_1AllocatorV1.html#a2400fd8f66e2dab7aee1bd8c9f4d2986',1,'Xalloc::AllocatorV1']]],
+  ['xmemcpy_2930',['Xmemcpy',['../d2/da8/classXalloc_1_1AllocatorV1.html#a1eab008ff7304f23a6255bed9492707c',1,'Xalloc::AllocatorV1']]],
+  ['xmemset_2931',['Xmemset',['../d2/da8/classXalloc_1_1AllocatorV1.html#a9b46776eaa86500c30f99d7ddcd9aae8',1,'Xalloc::AllocatorV1']]],
+  ['xstac_2932',['Xstac',['../d2/da8/classXalloc_1_1AllocatorV1.html#a8032bb777951367e8ffc13031fdb128b',1,'Xalloc::AllocatorV1']]]
 ];

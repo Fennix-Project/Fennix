@@ -1,7 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"d1/d69/namespaceGlobalDescriptorTable.html":[6,0,3],
-"d1/d69/namespaceGlobalDescriptorTable.html#a107548ff802061f5ea869c872be6bfd5":[8,0,0,0,1,0,2,3,4],
 "d1/d69/namespaceGlobalDescriptorTable.html#a16a387c8cd8a7f91ae578e753ec9b6c1":[8,0,0,0,1,0,2,0,4],
 "d1/d69/namespaceGlobalDescriptorTable.html#a1c5f2dc61acee4ee4c5799443137a242":[8,0,0,0,1,0,2,2,0],
 "d1/d69/namespaceGlobalDescriptorTable.html#a26a78bcc440d95ffc4494a3afecdd26d":[8,0,0,0,1,0,2,1,5],
@@ -130,6 +128,8 @@ var NAVTREEINDEX1 =
 "d1/d98/structlimine__bootloader__info__request.html#aa60953d2833aeb6f8527220ff432a3b1":[7,0,34,1],
 "d1/d9d/Power_8cpp.html":[8,0,0,1,6],
 "d1/d9d/Power_8cpp_source.html":[8,0,0,1,6],
+"d1/dab/Kernel_2Architecture_2i686_2boot_8asm.html":[8,0,0,0,2,2],
+"d1/dab/Kernel_2Architecture_2i686_2boot_8asm_source.html":[8,0,0,0,2,2],
 "d1/db0/structlimine__smp__request.html":[7,0,61],
 "d1/db0/structlimine__smp__request.html#a1748abf79cde3f0bb863f98d251847f5":[7,0,61,3],
 "d1/db0/structlimine__smp__request.html#a655c016c5d2ab972a1de31c1afaebdfc":[7,0,61,2],

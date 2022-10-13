@@ -10940,7 +10940,18 @@
                  </Node>
                  <Node>
                   <Name>boot.asm</Name>
-                  <Path>d0/d91/boot_8asm.html</Path>
+                  <Path>d1/dab/Kernel_2Architecture_2i686_2boot_8asm.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>MultibootInit.cpp</Name>
+                  <Path>d8/d8e/MultibootInit_8cpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>__attribute__</Name>
+                    <Path>d8/d8e/MultibootInit_8cpp.html</Path>
+                    <Anchor>a226a78c4fb806645f89ac7b3412d2cdb</Anchor>
+                   </Node>
+                  </Subnodes>
                  </Node>
                  <Node>
                   <Name>SystemCalls.cpp</Name>
@@ -24123,6 +24134,85 @@
             <Name>Lynx</Name>
             <Path>dir_3da1ee9ba00c74ad189bfd153f81f520.html</Path>
             <Subnodes>
+             <Node>
+              <Name>BIOS</Name>
+              <Path>dir_d4423ef1ac6f5514f0f664ce46cb0bf5.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>boot.asm</Name>
+                <Path>dc/d76/Lynx_2BIOS_2boot_8asm.html</Path>
+               </Node>
+               <Node>
+                <Name>Makefile</Name>
+                <Path>dd/d3f/Lynx_2BIOS_2Makefile.html</Path>
+               </Node>
+               <Node>
+                <Name>print.inc</Name>
+                <Path>db/d68/print_8inc.html</Path>
+               </Node>
+               <Node>
+                <Name>second.asm</Name>
+                <Path>d7/d92/second_8asm.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>UEFI</Name>
+              <Path>dir_833c05221c1295db9265b8dedc8a4c75.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>src</Name>
+                <Path>dir_9b4e4fbdcc1483804f3e68a6c2366628.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>FileLoader.c</Name>
+                  <Path>dc/de1/FileLoader_8c.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>LoadFile</Name>
+                    <Path>dc/de1/FileLoader_8c.html</Path>
+                    <Anchor>a3812867bb556476b6fffab75a847ecee</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>FileLoader.h</Name>
+                  <Path>df/d51/FileLoader_8h.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>LoadFile</Name>
+                    <Path>df/d51/FileLoader_8h.html</Path>
+                    <Anchor>a3812867bb556476b6fffab75a847ecee</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Lynx.c</Name>
+                  <Path>db/da1/Lynx_8c.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>efi_main</Name>
+                    <Path>db/da1/Lynx_8c.html</Path>
+                    <Anchor>a0923ae12dd18ac3afbd1e77a3f40651d</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Paging.c</Name>
+                  <Path>df/d0e/Paging_8c.html</Path>
+                 </Node>
+                 <Node>
+                  <Name>VirtualMemory.c</Name>
+                  <Path>db/db9/VirtualMemory_8c.html</Path>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Makefile</Name>
+                <Path>d8/da9/Lynx_2UEFI_2Makefile.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
              <Node>
               <Name>Makefile</Name>
               <Path>d6/db8/Lynx_2Makefile.html</Path>
