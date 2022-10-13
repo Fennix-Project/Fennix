@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"d5/dba/multiboot2_8h.html#af24fe7df075c5603681a6cbbb26c2e07":[8,0,0,2,0,0,1,1,0],
 "d5/dba/multiboot2_8h.html#af2870ead515a1c38d4484645ab54fb03":[8,0,0,2,0,0,1,13,2],
 "d5/dba/multiboot2_8h.html#af35be82586f332a561d00207c937ee57":[8,0,0,2,0,0,1,63],
 "d5/dba/multiboot2_8h.html#af3b3d82da024d5ea2a7b817c6caea970":[8,0,0,2,0,0,1,16,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94":[8,0,0,3,1,26],
 "d7/d66/cxxabi_8cpp.html#a89ff720a977899def1a05d4eceb64076":[8,0,0,3,1,31],
 "d7/d66/cxxabi_8cpp.html#a90fbbe59c5adade160b6bb21b5f71d3d":[8,0,0,3,1,1,2],
-"d7/d66/cxxabi_8cpp.html#a9201a43070ac25a19a0c0194c09b993d":[8,0,0,3,1,16],
-"d7/d66/cxxabi_8cpp.html#a93fda3960d3337ef69b6bf27979dc07d":[8,0,0,3,1,10]
+"d7/d66/cxxabi_8cpp.html#a9201a43070ac25a19a0c0194c09b993d":[8,0,0,3,1,16]
 };

@@ -74,20 +74,20 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d69/namespaceGlobalDescriptorTable.html#a16a387c8cd8a7f91ae578e753ec9b6c1",
-"d2/dc3/liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8",
-"d3/d21/classACPI_1_1ACPI.html#aeca0bc703f70b6e8cc2c75b215e6d235",
-"d4/db5/String_8c.html#a75b852b562036f85800f7e155266bd58",
-"d5/dba/multiboot2_8h.html#af2870ead515a1c38d4484645ab54fb03",
-"d7/d66/cxxabi_8cpp.html#a976dfcadcd26b5208e75e025a80e2c71",
-"d9/d25/namespaceCPU_1_1x64.html#a1312efee6c4f649a8d4abcb41b3d4092",
-"d9/d86/limits_8h.html#a778eefd6535a9d4b752fca5dd0af58db",
-"db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616",
-"dd/dc9/classACPI_1_1DSDT.html#a2cb9cc1b2fafe1c605988e23be25a3e6",
-"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba4d08d1005fb0da3deec14d59bb8da8ea",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda2d7cfcd168046e82546e974308c904df",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bdadb286c79d34e394a32ef5d525e10fba3",
-"functions_p.html"
+"d1/d69/namespaceGlobalDescriptorTable.html",
+"d2/dc3/liballoc__1__1_8c.html#acf41d85e37dc0c5a00cd435c23341b5d",
+"d3/d21/classACPI_1_1ACPI.html#aeb80e1f8d75b1f0aa6995edd1936b35e",
+"d4/db5/String_8c.html#a56be4166e4673843042a548a7f513dbc",
+"d5/dba/multiboot2_8h.html#af24fe7df075c5603681a6cbbb26c2e07",
+"d7/d66/cxxabi_8cpp.html#a93fda3960d3337ef69b6bf27979dc07d",
+"d9/d25/namespaceCPU_1_1x64.html#a0fe33d32158d444c0d6b479a4b08f97f",
+"d9/d86/limits_8h.html#a689b119da994dece91d44b5aeac643ed",
+"db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f",
+"dd/dc9/classACPI_1_1DSDT.html#a180530b79002ec4cdd34186c2c1213e3",
+"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba4bb5ada9b2b009ccee94049e46fcf519",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda2a08e1014cc60f66769cf07eeae41a08",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bdada4c4e45c789139562aa2c394b003e24",
+"functions_o.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

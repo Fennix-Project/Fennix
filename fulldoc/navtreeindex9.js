@@ -1,5 +1,6 @@
 var NAVTREEINDEX9 =
 {
+"db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f":[8,0,0,2,3,8],
 "db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616":[8,0,0,2,3,4],
 "db/d16/debug_8h.html#aaef030dcfb502de87e0f47669c58c755":[8,0,0,2,3,3],
 "db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395":[8,0,0,2,3,6],
@@ -159,8 +160,8 @@ var NAVTREEINDEX9 =
 "db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo":[7,0,18,2],
 "db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo":[8,0,0,2,0,1,6],
 "db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[7,0,18,3,0],
-"db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[8,0,0,2,0,1,2,0],
 "db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[8,0,0,2,0,1,3],
+"db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[8,0,0,2,0,1,2,0],
 "db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo":[7,0,18,5],
 "db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo":[8,0,0,2,0,1,5],
 "db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo":[7,0,18,0],
@@ -237,10 +238,10 @@ var NAVTREEINDEX9 =
 "dd/d4d/structlimine__file.html#ab8461c3420baf7aee6965de6f67761f6":[7,0,42,0],
 "dd/d4d/structlimine__file.html#abcddd7497e755ae1fcb7ee6d7a5f0ca4":[7,0,42,1],
 "dd/d4d/structlimine__file.html#abde6f4e1977437a0d7091442b46161dc":[7,0,42,10],
-"dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html":[8,0,0,0,2,2],
-"dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html#a2cc503f055ce36ae774a97b9ae3e02e9":[8,0,0,0,2,2,1],
-"dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html#a623b6425a07c15a56d165d69c08b67f2":[8,0,0,0,2,2,0],
-"dd/d4f/Architecture_2i686_2SystemCalls_8cpp_source.html":[8,0,0,0,2,2],
+"dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html":[8,0,0,0,2,3],
+"dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html#a2cc503f055ce36ae774a97b9ae3e02e9":[8,0,0,0,2,3,1],
+"dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html#a623b6425a07c15a56d165d69c08b67f2":[8,0,0,0,2,3,0],
+"dd/d4f/Architecture_2i686_2SystemCalls_8cpp_source.html":[8,0,0,0,2,3],
 "dd/d57/structlimine__hhdm__request.html":[7,0,46],
 "dd/d57/structlimine__hhdm__request.html#a161b252e13e9c8de8559f2e4fad63362":[7,0,46,0],
 "dd/d57/structlimine__hhdm__request.html#aa7631f543edb0965de8f4dfc631f4445":[7,0,46,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX9 =
 "dd/d79/apic_8hpp.html":[8,0,0,0,1,0,1],
 "dd/d79/apic_8hpp_source.html":[8,0,0,0,1,0,1],
 "dd/dc9/classACPI_1_1DSDT.html":[7,0,0,1],
-"dd/dc9/classACPI_1_1DSDT.html#a0ae64077fcc7e09a804d237f32fbf9d6":[7,0,0,1,17],
-"dd/dc9/classACPI_1_1DSDT.html#a180530b79002ec4cdd34186c2c1213e3":[7,0,0,1,16]
+"dd/dc9/classACPI_1_1DSDT.html#a0ae64077fcc7e09a804d237f32fbf9d6":[7,0,0,1,17]
 };

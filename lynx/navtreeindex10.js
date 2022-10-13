@@ -1,5 +1,6 @@
 var NAVTREEINDEX10 =
 {
+"dd/dc9/classACPI_1_1DSDT.html#a180530b79002ec4cdd34186c2c1213e3":[7,0,0,1,16],
 "dd/dc9/classACPI_1_1DSDT.html#a2cb9cc1b2fafe1c605988e23be25a3e6":[7,0,0,1,9],
 "dd/dc9/classACPI_1_1DSDT.html#a3df15c6023b4c857289eb8b7f5d157ee":[7,0,0,1,18],
 "dd/dc9/classACPI_1_1DSDT.html#a45b05e7f6079da9a6ee6c8482a6c0883":[7,0,0,1,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX10 =
 "df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba47e0352ada7bb46d3e7f2ac4e0c49f3d":[8,0,0,2,2,89,175],
 "df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba48ad173d391f18d2f15f3989e6cad28e":[8,0,0,2,2,89,250],
 "df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba499231d2384ed3967b3f406e6986ca4d":[8,0,0,2,2,89,111],
-"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba4bab61b0533c3caad0b4b4dd3a5602ce":[8,0,0,2,2,89,254],
-"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba4bb5ada9b2b009ccee94049e46fcf519":[8,0,0,2,2,89,204]
+"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba4bab61b0533c3caad0b4b4dd3a5602ce":[8,0,0,2,2,89,254]
 };

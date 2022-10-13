@@ -509,112 +509,82 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>header</Name>
+      <Name>HardwareRevID</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>ab9a1fb3a3ed42fcf5f887c7a67161719</Anchor>
+    <Anchor>a95f4721f55fd5dc6b77a49ef4a011ed6</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>hardware_rev_id</Name>
+      <Name>ComparatorCount</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>a39ebdac09b7709a0271ab565a5909466</Anchor>
+    <Anchor>a20509c3ab7cc2ee6438b5e9e330af029</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>comparator_count</Name>
+      <Name>CounterSize</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>a7e0beda7e270c428c3e314c997703ccd</Anchor>
+    <Anchor>ae9dbad17e2ca02f709798cf24b425414</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>counter_size</Name>
+      <Name>LegacyReplacement</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>ab645bb8a04ce16b6ab3c843dd4d1c177</Anchor>
+    <Anchor>a7375ccda8d6d6bb1a68866b67b5ca227</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>reserved</Name>
+      <Name>PCIVendorID</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>acb7bc06bed6f6408d719334fc41698c7</Anchor>
+    <Anchor>ad3626ff72cfd0232f74b0fe4dccdabb7</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>legacy_replacement</Name>
+      <Name>HPETNumber</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>a20e01164ff67a3922dd7d751b213ce31</Anchor>
+    <Anchor>ae3207491c3c51cbafbc7177cf8d6d448</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>pci_vendor_id</Name>
+      <Name>MinimumTick</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>afac5fb45f9ac73d64a7136669da5932f</Anchor>
+    <Anchor>aac3d979df692f17333a91c52f326083c</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>address</Name>
+      <Name>PageProtection</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>aa00d9519823f4c24642f4832ddddaa3e</Anchor>
-    <DeclaredIn>acpi.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>hpet_number</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>a6bea8831e1cb3b3402fefc32298350ef</Anchor>
-    <DeclaredIn>acpi.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>minimum_tick</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>a6f85712f3b70729ca64dc2ea8527f4da</Anchor>
-    <DeclaredIn>acpi.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>page_protection</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d1/d90/acpi_8hpp.html</Path>
-    <Anchor>a4eabb0cd6091b82c33a69e92e46663b4</Anchor>
+    <Anchor>a0cb4fd98a1f552ed4e6e857bde8cd993</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -1155,6 +1125,16 @@
     </TokenIdentifier>
     <Path>d1/d90/acpi_8hpp.html</Path>
     <Anchor>a10c23c5004ea8064fa1ba3d26a9b95dc</Anchor>
+    <DeclaredIn>acpi.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reserved</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d1/d90/acpi_8hpp.html</Path>
+    <Anchor>acb7bc06bed6f6408d719334fc41698c7</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -8772,22 +8752,32 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>aarch64Entry</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d2/d00/Kernel_8cpp.html</Path>
-    <Anchor>a09201da55acf20192c7fab34fd394574</Anchor>
-    <DeclaredIn>Kernel.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Entry</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d2/d00/Kernel_8cpp.html</Path>
     <Anchor>a81fa7adf1dfb1ec4c8b09f0e723ec90b</Anchor>
+    <DeclaredIn>Kernel.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>arm64Entry</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d00/Kernel_8cpp.html</Path>
+    <Anchor>a896eb3c58494fd1e38b5f4a300633155</Anchor>
+    <DeclaredIn>Kernel.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>x32Entry</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d00/Kernel_8cpp.html</Path>
+    <Anchor>aa8a7c6e6e3bdb2a0d88988b5083c06bf</Anchor>
     <DeclaredIn>Kernel.cpp</DeclaredIn>
   </Token>
   <Token>

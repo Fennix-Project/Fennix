@@ -595,9 +595,9 @@
                   <Anchor>a500f7905188e83d292c2d71354386837</Anchor>
                  </Node>
                  <Node>
-                  <Name>header</Name>
+                  <Name>Header</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>a04df3ee47c169bfe08e7ea5019001dd1</Anchor>
+                  <Anchor>a0838a357f75bdeea4e38bc7eae13c18c</Anchor>
                  </Node>
                  <Node>
                   <Name>MonthAlarm</Name>
@@ -821,59 +821,59 @@
                 <Anchor>da/d4b/structACPI_1_1ACPI_1_1HPETHeader</Anchor>
                 <Subnodes>
                  <Node>
-                  <Name>address</Name>
+                  <Name>Address</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>aeeba2924d45ce540ed319a212792cd03</Anchor>
+                  <Anchor>a2f7e8bc46b16b142659efb47db810c42</Anchor>
                  </Node>
                  <Node>
-                  <Name>comparator_count</Name>
+                  <Name>ComparatorCount</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>a36a94b21cc68e4e1390587e443329549</Anchor>
+                  <Anchor>a1694e4430b164c1008b1990ae7c57815</Anchor>
                  </Node>
                  <Node>
-                  <Name>counter_size</Name>
+                  <Name>CounterSize</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>ab4ffa3d803cc335fb50587d1d7af3b95</Anchor>
+                  <Anchor>a107eaa6e89e478e3c3cc820cfc9df1d7</Anchor>
                  </Node>
                  <Node>
-                  <Name>hardware_rev_id</Name>
+                  <Name>HardwareRevID</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>a7201e734518e0ce48c9b01c821e729a3</Anchor>
+                  <Anchor>a6bf07dbb985cba65cb3503c86076fab2</Anchor>
                  </Node>
                  <Node>
-                  <Name>header</Name>
+                  <Name>Header</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>aef0a483954a0c4c38b1ebc0774079d2e</Anchor>
+                  <Anchor>a0f8908b8fc3c005d30a763582d1207bc</Anchor>
                  </Node>
                  <Node>
-                  <Name>hpet_number</Name>
+                  <Name>HPETNumber</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>af21ad1559ee636a1e95771c4b15dc9e5</Anchor>
+                  <Anchor>af68622eaaebd3472854915311f458910</Anchor>
                  </Node>
                  <Node>
-                  <Name>legacy_replacement</Name>
+                  <Name>LegacyReplacement</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>a030e7d7c080da460fe88c1159d742f8f</Anchor>
+                  <Anchor>adede36f25ddb2f4b7e724eed621ea978</Anchor>
                  </Node>
                  <Node>
-                  <Name>minimum_tick</Name>
+                  <Name>MinimumTick</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>a09a9e47b9cbc8ffb7b7d21c6488315ca</Anchor>
+                  <Anchor>ab1ea935633c2cdafc1045a4e79635887</Anchor>
                  </Node>
                  <Node>
-                  <Name>page_protection</Name>
+                  <Name>PageProtection</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>a52f850d8c94d46d20b1e1ce87f186928</Anchor>
+                  <Anchor>af2ae9508ec369f8fc17b51a0c5e94048</Anchor>
                  </Node>
                  <Node>
-                  <Name>pci_vendor_id</Name>
+                  <Name>PCIVendorID</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>a480291f044f29d262f09d2c6f2f8cfa8</Anchor>
+                  <Anchor>a8e05cf2ef67e2bea0087a3a2e5158d06</Anchor>
                  </Node>
                  <Node>
-                  <Name>reserved</Name>
+                  <Name>Reserved</Name>
                   <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                  <Anchor>a5a81650c7e42d68cac513b4eef59218c</Anchor>
+                  <Anchor>ad1c8abe43032b9310cd3523a09b3309c</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -8437,9 +8437,9 @@
                         <Anchor>a500f7905188e83d292c2d71354386837</Anchor>
                        </Node>
                        <Node>
-                        <Name>header</Name>
+                        <Name>Header</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>a04df3ee47c169bfe08e7ea5019001dd1</Anchor>
+                        <Anchor>a0838a357f75bdeea4e38bc7eae13c18c</Anchor>
                        </Node>
                        <Node>
                         <Name>MonthAlarm</Name>
@@ -8663,59 +8663,59 @@
                       <Anchor>da/d4b/structACPI_1_1ACPI_1_1HPETHeader</Anchor>
                       <Subnodes>
                        <Node>
-                        <Name>address</Name>
+                        <Name>Address</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>aeeba2924d45ce540ed319a212792cd03</Anchor>
+                        <Anchor>a2f7e8bc46b16b142659efb47db810c42</Anchor>
                        </Node>
                        <Node>
-                        <Name>comparator_count</Name>
+                        <Name>ComparatorCount</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>a36a94b21cc68e4e1390587e443329549</Anchor>
+                        <Anchor>a1694e4430b164c1008b1990ae7c57815</Anchor>
                        </Node>
                        <Node>
-                        <Name>counter_size</Name>
+                        <Name>CounterSize</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>ab4ffa3d803cc335fb50587d1d7af3b95</Anchor>
+                        <Anchor>a107eaa6e89e478e3c3cc820cfc9df1d7</Anchor>
                        </Node>
                        <Node>
-                        <Name>hardware_rev_id</Name>
+                        <Name>HardwareRevID</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>a7201e734518e0ce48c9b01c821e729a3</Anchor>
+                        <Anchor>a6bf07dbb985cba65cb3503c86076fab2</Anchor>
                        </Node>
                        <Node>
-                        <Name>header</Name>
+                        <Name>Header</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>aef0a483954a0c4c38b1ebc0774079d2e</Anchor>
+                        <Anchor>a0f8908b8fc3c005d30a763582d1207bc</Anchor>
                        </Node>
                        <Node>
-                        <Name>hpet_number</Name>
+                        <Name>HPETNumber</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>af21ad1559ee636a1e95771c4b15dc9e5</Anchor>
+                        <Anchor>af68622eaaebd3472854915311f458910</Anchor>
                        </Node>
                        <Node>
-                        <Name>legacy_replacement</Name>
+                        <Name>LegacyReplacement</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>a030e7d7c080da460fe88c1159d742f8f</Anchor>
+                        <Anchor>adede36f25ddb2f4b7e724eed621ea978</Anchor>
                        </Node>
                        <Node>
-                        <Name>minimum_tick</Name>
+                        <Name>MinimumTick</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>a09a9e47b9cbc8ffb7b7d21c6488315ca</Anchor>
+                        <Anchor>ab1ea935633c2cdafc1045a4e79635887</Anchor>
                        </Node>
                        <Node>
-                        <Name>page_protection</Name>
+                        <Name>PageProtection</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>a52f850d8c94d46d20b1e1ce87f186928</Anchor>
+                        <Anchor>af2ae9508ec369f8fc17b51a0c5e94048</Anchor>
                        </Node>
                        <Node>
-                        <Name>pci_vendor_id</Name>
+                        <Name>PCIVendorID</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>a480291f044f29d262f09d2c6f2f8cfa8</Anchor>
+                        <Anchor>a8e05cf2ef67e2bea0087a3a2e5158d06</Anchor>
                        </Node>
                        <Node>
-                        <Name>reserved</Name>
+                        <Name>Reserved</Name>
                         <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                        <Anchor>a5a81650c7e42d68cac513b4eef59218c</Anchor>
+                        <Anchor>ad1c8abe43032b9310cd3523a09b3309c</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -9080,59 +9080,59 @@
                     <Anchor>da/d4b/structACPI_1_1ACPI_1_1HPETHeader</Anchor>
                     <Subnodes>
                      <Node>
-                      <Name>address</Name>
+                      <Name>Address</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>aeeba2924d45ce540ed319a212792cd03</Anchor>
+                      <Anchor>a2f7e8bc46b16b142659efb47db810c42</Anchor>
                      </Node>
                      <Node>
-                      <Name>comparator_count</Name>
+                      <Name>ComparatorCount</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>a36a94b21cc68e4e1390587e443329549</Anchor>
+                      <Anchor>a1694e4430b164c1008b1990ae7c57815</Anchor>
                      </Node>
                      <Node>
-                      <Name>counter_size</Name>
+                      <Name>CounterSize</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>ab4ffa3d803cc335fb50587d1d7af3b95</Anchor>
+                      <Anchor>a107eaa6e89e478e3c3cc820cfc9df1d7</Anchor>
                      </Node>
                      <Node>
-                      <Name>hardware_rev_id</Name>
+                      <Name>HardwareRevID</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>a7201e734518e0ce48c9b01c821e729a3</Anchor>
+                      <Anchor>a6bf07dbb985cba65cb3503c86076fab2</Anchor>
                      </Node>
                      <Node>
-                      <Name>header</Name>
+                      <Name>Header</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>aef0a483954a0c4c38b1ebc0774079d2e</Anchor>
+                      <Anchor>a0f8908b8fc3c005d30a763582d1207bc</Anchor>
                      </Node>
                      <Node>
-                      <Name>hpet_number</Name>
+                      <Name>HPETNumber</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>af21ad1559ee636a1e95771c4b15dc9e5</Anchor>
+                      <Anchor>af68622eaaebd3472854915311f458910</Anchor>
                      </Node>
                      <Node>
-                      <Name>legacy_replacement</Name>
+                      <Name>LegacyReplacement</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>a030e7d7c080da460fe88c1159d742f8f</Anchor>
+                      <Anchor>adede36f25ddb2f4b7e724eed621ea978</Anchor>
                      </Node>
                      <Node>
-                      <Name>minimum_tick</Name>
+                      <Name>MinimumTick</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>a09a9e47b9cbc8ffb7b7d21c6488315ca</Anchor>
+                      <Anchor>ab1ea935633c2cdafc1045a4e79635887</Anchor>
                      </Node>
                      <Node>
-                      <Name>page_protection</Name>
+                      <Name>PageProtection</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>a52f850d8c94d46d20b1e1ce87f186928</Anchor>
+                      <Anchor>af2ae9508ec369f8fc17b51a0c5e94048</Anchor>
                      </Node>
                      <Node>
-                      <Name>pci_vendor_id</Name>
+                      <Name>PCIVendorID</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>a480291f044f29d262f09d2c6f2f8cfa8</Anchor>
+                      <Anchor>a8e05cf2ef67e2bea0087a3a2e5158d06</Anchor>
                      </Node>
                      <Node>
-                      <Name>reserved</Name>
+                      <Name>Reserved</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>a5a81650c7e42d68cac513b4eef59218c</Anchor>
+                      <Anchor>ad1c8abe43032b9310cd3523a09b3309c</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -9232,9 +9232,9 @@
                       <Anchor>a500f7905188e83d292c2d71354386837</Anchor>
                      </Node>
                      <Node>
-                      <Name>header</Name>
+                      <Name>Header</Name>
                       <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-                      <Anchor>a04df3ee47c169bfe08e7ea5019001dd1</Anchor>
+                      <Anchor>a0838a357f75bdeea4e38bc7eae13c18c</Anchor>
                      </Node>
                      <Node>
                       <Name>MonthAlarm</Name>
@@ -10109,11 +10109,6 @@
                     <Anchor>aca1b23fd721c8d8dc70a8227e336b6e8</Anchor>
                    </Node>
                    <Node>
-                    <Name>address</Name>
-                    <Path>d1/d90/acpi_8hpp.html</Path>
-                    <Anchor>aa00d9519823f4c24642f4832ddddaa3e</Anchor>
-                   </Node>
-                   <Node>
                     <Name>AddressSpace</Name>
                     <Path>d1/d90/acpi_8hpp.html</Path>
                     <Anchor>a49f66bea52edd0c5df30b86ff352e57d</Anchor>
@@ -10159,14 +10154,14 @@
                     <Anchor>ad98d5051c2e94669e746dd13771daac8</Anchor>
                    </Node>
                    <Node>
-                    <Name>comparator_count</Name>
+                    <Name>ComparatorCount</Name>
                     <Path>d1/d90/acpi_8hpp.html</Path>
-                    <Anchor>a7e0beda7e270c428c3e314c997703ccd</Anchor>
+                    <Anchor>a20509c3ab7cc2ee6438b5e9e330af029</Anchor>
                    </Node>
                    <Node>
-                    <Name>counter_size</Name>
+                    <Name>CounterSize</Name>
                     <Path>d1/d90/acpi_8hpp.html</Path>
-                    <Anchor>ab645bb8a04ce16b6ab3c843dd4d1c177</Anchor>
+                    <Anchor>ae9dbad17e2ca02f709798cf24b425414</Anchor>
                    </Node>
                    <Node>
                     <Name>CreatorID</Name>
@@ -10269,14 +10264,9 @@
                     <Anchor>ae324df90ddccba54881239a403043e41</Anchor>
                    </Node>
                    <Node>
-                    <Name>hardware_rev_id</Name>
+                    <Name>HardwareRevID</Name>
                     <Path>d1/d90/acpi_8hpp.html</Path>
-                    <Anchor>a39ebdac09b7709a0271ab565a5909466</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>header</Name>
-                    <Path>d1/d90/acpi_8hpp.html</Path>
-                    <Anchor>ab9a1fb3a3ed42fcf5f887c7a67161719</Anchor>
+                    <Anchor>a95f4721f55fd5dc6b77a49ef4a011ed6</Anchor>
                    </Node>
                    <Node>
                     <Name>Header</Name>
@@ -10284,9 +10274,9 @@
                     <Anchor>accd0adad77ed4e40fd5852638c98f619</Anchor>
                    </Node>
                    <Node>
-                    <Name>hpet_number</Name>
+                    <Name>HPETNumber</Name>
                     <Path>d1/d90/acpi_8hpp.html</Path>
-                    <Anchor>a6bea8831e1cb3b3402fefc32298350ef</Anchor>
+                    <Anchor>ae3207491c3c51cbafbc7177cf8d6d448</Anchor>
                    </Node>
                    <Node>
                     <Name>IRQSource</Name>
@@ -10294,9 +10284,9 @@
                     <Anchor>a52feee019f3ae62b1ec591dab746263d</Anchor>
                    </Node>
                    <Node>
-                    <Name>legacy_replacement</Name>
+                    <Name>LegacyReplacement</Name>
                     <Path>d1/d90/acpi_8hpp.html</Path>
-                    <Anchor>a20e01164ff67a3922dd7d751b213ce31</Anchor>
+                    <Anchor>a7375ccda8d6d6bb1a68866b67b5ca227</Anchor>
                    </Node>
                    <Node>
                     <Name>Length</Name>
@@ -10314,9 +10304,9 @@
                     <Anchor>a6b17415169f853a384716f4d5ec623f6</Anchor>
                    </Node>
                    <Node>
-                    <Name>minimum_tick</Name>
+                    <Name>MinimumTick</Name>
                     <Path>d1/d90/acpi_8hpp.html</Path>
-                    <Anchor>a6f85712f3b70729ca64dc2ea8527f4da</Anchor>
+                    <Anchor>aac3d979df692f17333a91c52f326083c</Anchor>
                    </Node>
                    <Node>
                     <Name>MonthAlarm</Name>
@@ -10339,14 +10329,14 @@
                     <Anchor>a7b4700546600b019350cc49bfc345d7d</Anchor>
                    </Node>
                    <Node>
-                    <Name>page_protection</Name>
+                    <Name>PageProtection</Name>
                     <Path>d1/d90/acpi_8hpp.html</Path>
-                    <Anchor>a4eabb0cd6091b82c33a69e92e46663b4</Anchor>
+                    <Anchor>a0cb4fd98a1f552ed4e6e857bde8cd993</Anchor>
                    </Node>
                    <Node>
-                    <Name>pci_vendor_id</Name>
+                    <Name>PCIVendorID</Name>
                     <Path>d1/d90/acpi_8hpp.html</Path>
-                    <Anchor>afac5fb45f9ac73d64a7136669da5932f</Anchor>
+                    <Anchor>ad3626ff72cfd0232f74b0fe4dccdabb7</Anchor>
                    </Node>
                    <Node>
                     <Name>PM1aControlBlock</Name>
@@ -10947,6 +10937,10 @@
                     <Anchor>a93e05e5d017499ad326048e8030ea904</Anchor>
                    </Node>
                   </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>boot.asm</Name>
+                  <Path>d0/d91/boot_8asm.html</Path>
                  </Node>
                  <Node>
                   <Name>SystemCalls.cpp</Name>
@@ -24037,9 +24031,9 @@
               <Path>d2/d00/Kernel_8cpp.html</Path>
               <Subnodes>
                <Node>
-                <Name>aarch64Entry</Name>
+                <Name>arm64Entry</Name>
                 <Path>d2/d00/Kernel_8cpp.html</Path>
-                <Anchor>a09201da55acf20192c7fab34fd394574</Anchor>
+                <Anchor>a896eb3c58494fd1e38b5f4a300633155</Anchor>
                </Node>
                <Node>
                 <Name>Entry</Name>
@@ -24060,6 +24054,11 @@
                 <Name>putchar</Name>
                 <Path>d2/d00/Kernel_8cpp.html</Path>
                 <Anchor>a948b7a0779c308ac5502c57e282e6933</Anchor>
+               </Node>
+               <Node>
+                <Name>x32Entry</Name>
+                <Path>d2/d00/Kernel_8cpp.html</Path>
+                <Anchor>aa8a7c6e6e3bdb2a0d88988b5083c06bf</Anchor>
                </Node>
                <Node>
                 <Name>bInfo</Name>
@@ -24440,6 +24439,10 @@
              <Node>
               <Name>w</Name>
               <Path>globals_func_w.html</Path>
+             </Node>
+             <Node>
+              <Name>x</Name>
+              <Path>globals_func_x.html</Path>
              </Node>
             </Subnodes>
            </Node>

@@ -39,7 +39,7 @@ var classACPI_1_1ACPI =
       [ "GPE1Base", "d3/d21/classACPI_1_1ACPI.html#a7832e6b3fc5fa6ea9e8e1560a094826a", null ],
       [ "GPE1Block", "d3/d21/classACPI_1_1ACPI.html#aca414d3b0034839943dc9e56c315a060", null ],
       [ "GPE1Length", "d3/d21/classACPI_1_1ACPI.html#a500f7905188e83d292c2d71354386837", null ],
-      [ "header", "d3/d21/classACPI_1_1ACPI.html#a04df3ee47c169bfe08e7ea5019001dd1", null ],
+      [ "Header", "d3/d21/classACPI_1_1ACPI.html#a0838a357f75bdeea4e38bc7eae13c18c", null ],
       [ "MonthAlarm", "d3/d21/classACPI_1_1ACPI.html#a3ba8fde9c5e88cd19dafe6bfcb1afc0f", null ],
       [ "PM1aControlBlock", "d3/d21/classACPI_1_1ACPI.html#ad80d215ea15ffc42bb654356cf534457", null ],
       [ "PM1aEventBlock", "d3/d21/classACPI_1_1ACPI.html#a78fbfdb90d28117017680c31ce5f7ecf", null ],
@@ -86,17 +86,17 @@ var classACPI_1_1ACPI =
       [ "Header", "d3/d21/classACPI_1_1ACPI.html#a36ab734f023cf9e450ecb555111bec65", null ]
     ] ],
     [ "HPETHeader", "d3/d21/classACPI_1_1ACPI.html#da/d4b/structACPI_1_1ACPI_1_1HPETHeader", [
-      [ "address", "d3/d21/classACPI_1_1ACPI.html#aeeba2924d45ce540ed319a212792cd03", null ],
-      [ "comparator_count", "d3/d21/classACPI_1_1ACPI.html#a36a94b21cc68e4e1390587e443329549", null ],
-      [ "counter_size", "d3/d21/classACPI_1_1ACPI.html#ab4ffa3d803cc335fb50587d1d7af3b95", null ],
-      [ "hardware_rev_id", "d3/d21/classACPI_1_1ACPI.html#a7201e734518e0ce48c9b01c821e729a3", null ],
-      [ "header", "d3/d21/classACPI_1_1ACPI.html#aef0a483954a0c4c38b1ebc0774079d2e", null ],
-      [ "hpet_number", "d3/d21/classACPI_1_1ACPI.html#af21ad1559ee636a1e95771c4b15dc9e5", null ],
-      [ "legacy_replacement", "d3/d21/classACPI_1_1ACPI.html#a030e7d7c080da460fe88c1159d742f8f", null ],
-      [ "minimum_tick", "d3/d21/classACPI_1_1ACPI.html#a09a9e47b9cbc8ffb7b7d21c6488315ca", null ],
-      [ "page_protection", "d3/d21/classACPI_1_1ACPI.html#a52f850d8c94d46d20b1e1ce87f186928", null ],
-      [ "pci_vendor_id", "d3/d21/classACPI_1_1ACPI.html#a480291f044f29d262f09d2c6f2f8cfa8", null ],
-      [ "reserved", "d3/d21/classACPI_1_1ACPI.html#a5a81650c7e42d68cac513b4eef59218c", null ]
+      [ "Address", "d3/d21/classACPI_1_1ACPI.html#a2f7e8bc46b16b142659efb47db810c42", null ],
+      [ "ComparatorCount", "d3/d21/classACPI_1_1ACPI.html#a1694e4430b164c1008b1990ae7c57815", null ],
+      [ "CounterSize", "d3/d21/classACPI_1_1ACPI.html#a107eaa6e89e478e3c3cc820cfc9df1d7", null ],
+      [ "HardwareRevID", "d3/d21/classACPI_1_1ACPI.html#a6bf07dbb985cba65cb3503c86076fab2", null ],
+      [ "Header", "d3/d21/classACPI_1_1ACPI.html#a0f8908b8fc3c005d30a763582d1207bc", null ],
+      [ "HPETNumber", "d3/d21/classACPI_1_1ACPI.html#af68622eaaebd3472854915311f458910", null ],
+      [ "LegacyReplacement", "d3/d21/classACPI_1_1ACPI.html#adede36f25ddb2f4b7e724eed621ea978", null ],
+      [ "MinimumTick", "d3/d21/classACPI_1_1ACPI.html#ab1ea935633c2cdafc1045a4e79635887", null ],
+      [ "PageProtection", "d3/d21/classACPI_1_1ACPI.html#af2ae9508ec369f8fc17b51a0c5e94048", null ],
+      [ "PCIVendorID", "d3/d21/classACPI_1_1ACPI.html#a8e05cf2ef67e2bea0087a3a2e5158d06", null ],
+      [ "Reserved", "d3/d21/classACPI_1_1ACPI.html#ad1c8abe43032b9310cd3523a09b3309c", null ]
     ] ],
     [ "MADTHeader", "d3/d21/classACPI_1_1ACPI.html#d3/d66/structACPI_1_1ACPI_1_1MADTHeader", [
       [ "Entries", "d3/d21/classACPI_1_1ACPI.html#a9bccffd5ce740de1ee35be58c248a676", null ],

@@ -17,8 +17,8 @@ var NAVTREEINDEX0 =
 "d0/d18/ArithmeticOperations_8c.html#a641e564e98b0a1199d2a923870299f02":[8,0,0,0,2,1,15],
 "d0/d18/ArithmeticOperations_8c.html#a6571aa5060676d8b0923245ee63a2b46":[8,0,0,0,2,1,9],
 "d0/d18/ArithmeticOperations_8c.html#a7b340ea7ffe2d8397faf257d06ad0499":[8,0,0,0,2,1,4],
-"d0/d18/ArithmeticOperations_8c.html#a7ce8636c076f5f42316676f7ca5ccfbe":[8,0,0,0,2,1,1,1],
 "d0/d18/ArithmeticOperations_8c.html#a7ce8636c076f5f42316676f7ca5ccfbe":[8,0,0,0,2,1,2,1],
+"d0/d18/ArithmeticOperations_8c.html#a7ce8636c076f5f42316676f7ca5ccfbe":[8,0,0,0,2,1,1,1],
 "d0/d18/ArithmeticOperations_8c.html#a7d9409e7e64ecc8d2229dd47949d9a62":[8,0,0,0,2,1,20],
 "d0/d18/ArithmeticOperations_8c.html#a84c610895108e6510c064690a834b2cd":[8,0,0,0,2,1,24],
 "d0/d18/ArithmeticOperations_8c.html#a8f5867e27b915c5eb54ebd57b1ace3f4":[8,0,0,0,2,1,3],
@@ -96,6 +96,8 @@ var NAVTREEINDEX0 =
 "d0/d8f/namespacePCI.html#d1/da3/structPCI_1_1PCIHeader0":[8,0,0,2,11,1],
 "d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader":[8,0,0,2,11,0],
 "d0/d8f/namespacePCI.html#d8/de9/structPCI_1_1DeviceConfig":[8,0,0,2,11,2],
+"d0/d91/boot_8asm.html":[8,0,0,0,2,2],
+"d0/d91/boot_8asm_source.html":[8,0,0,0,2,2],
 "d0/daa/kernel_8h.html":[8,0,0,5],
 "d0/daa/kernel_8h.html#a153b7d68a0bd505e7ea656f2fd8fcd64":[8,0,0,5,1],
 "d0/daa/kernel_8h.html#a44a5261814dd20bdfce96c257845cb1b":[8,0,0,5,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html#aba791d0c977bc26b69d238d28ea9efe0":[7,0,5,2,0,2],
 "d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html#ac475294b1283883cfa7a4ffaf1770c2d":[7,0,5,2,0,3],
 "d1/d62/namespacePCI_1_1Descriptors.html":[6,0,7,0],
-"d1/d69/namespaceGlobalDescriptorTable.html":[7,0,3],
-"d1/d69/namespaceGlobalDescriptorTable.html":[6,0,3],
-"d1/d69/namespaceGlobalDescriptorTable.html#a107548ff802061f5ea869c872be6bfd5":[8,0,0,0,1,0,2,3,4]
+"d1/d69/namespaceGlobalDescriptorTable.html":[7,0,3]
 };

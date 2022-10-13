@@ -131,9 +131,9 @@ Macros</h2></td></tr>
 <tr class="separator:a3acffbd305ee72dcd4593c0d8af64a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa99ec4acc4ecb2dc3c2d05da15d0e3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(a,  b)&#160;&#160;&#160;(((a) &gt; (b)) ? (a) : (b))</td></tr>
 <tr class="separator:afa99ec4acc4ecb2dc3c2d05da15d0e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaba4eb2520bab0b16b9b65816ee5edef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#aaba4eb2520bab0b16b9b65816ee5edef">VPOKE</a>(type,  <a class="el" href="../../d1/d90/acpi_8hpp.html#aa00d9519823f4c24642f4832ddddaa3e">address</a>)&#160;&#160;&#160;(*((volatile type *)(<a class="el" href="../../d1/d90/acpi_8hpp.html#aa00d9519823f4c24642f4832ddddaa3e">address</a>)))</td></tr>
+<tr class="memitem:aaba4eb2520bab0b16b9b65816ee5edef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#aaba4eb2520bab0b16b9b65816ee5edef">VPOKE</a>(type,  address)&#160;&#160;&#160;(*((volatile type *)(address)))</td></tr>
 <tr class="separator:aaba4eb2520bab0b16b9b65816ee5edef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a116392a97f8ae7523a63a135a0403e74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a116392a97f8ae7523a63a135a0403e74">POKE</a>(type,  <a class="el" href="../../d1/d90/acpi_8hpp.html#aa00d9519823f4c24642f4832ddddaa3e">address</a>)&#160;&#160;&#160;(*((type *)(<a class="el" href="../../d1/d90/acpi_8hpp.html#aa00d9519823f4c24642f4832ddddaa3e">address</a>)))</td></tr>
+<tr class="memitem:a116392a97f8ae7523a63a135a0403e74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a116392a97f8ae7523a63a135a0403e74">POKE</a>(type,  address)&#160;&#160;&#160;(*((type *)(address)))</td></tr>
 <tr class="separator:a116392a97f8ae7523a63a135a0403e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf7f29f45f1a513b4748a4e5014ddf6a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#aaf7f29f45f1a513b4748a4e5014ddf6a">INT8_MAX</a>&#160;&#160;&#160;__INT8_MAX__</td></tr>
 <tr class="separator:aaf7f29f45f1a513b4748a4e5014ddf6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1030,12 +1030,12 @@ Typedefs</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d1/d90/acpi_8hpp.html#aa00d9519823f4c24642f4832ddddaa3e">address</a>&#160;</td>
+          <td class="paramname">address&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(*((type *)(<a class="el" href="../../d1/d90/acpi_8hpp.html#aa00d9519823f4c24642f4832ddddaa3e">address</a>)))</td>
+          <td></td><td>&#160;&#160;&#160;(*((type *)(address)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1496,12 +1496,12 @@ Typedefs</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d1/d90/acpi_8hpp.html#aa00d9519823f4c24642f4832ddddaa3e">address</a>&#160;</td>
+          <td class="paramname">address&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(*((volatile type *)(<a class="el" href="../../d1/d90/acpi_8hpp.html#aa00d9519823f4c24642f4832ddddaa3e">address</a>)))</td>
+          <td></td><td>&#160;&#160;&#160;(*((volatile type *)(address)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
