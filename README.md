@@ -30,3 +30,5 @@ make run
 ```bash
 make clean
 ```
+
+More info about compiling and running [here](https://fennix.enderice2.software/).
