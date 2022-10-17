@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zero_2357',['zero',['../d5/dba/multiboot2_8h.html#a1e8db52da1ca1c6f5e2e96baec2c9256',1,'multiboot_mmap_entry']]]
+  ['year_2388',['Year',['../de/d99/time_8hpp.html#a9970a3ff3b8dd1e24452a206cf12dc55',1,'Time']]]
 ];

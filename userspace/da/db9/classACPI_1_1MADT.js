@@ -43,7 +43,7 @@ var classACPI_1_1MADT =
     [ "__attribute__", "da/db9/classACPI_1_1MADT.html#ab3332c09d72ed13968aae28ecacf64c6", null ],
     [ "__attribute__", "da/db9/classACPI_1_1MADT.html#ad763f6010fcc3ee8061e14fec7decb93", null ],
     [ "__attribute__", "da/db9/classACPI_1_1MADT.html#a9d64532cf4409d287acfd2805120b9d9", null ],
-    [ "CPUCores", "da/db9/classACPI_1_1MADT.html#a2b9ebafea3795c4c5b76321893111187", null ],
+    [ "CPUCores", "da/db9/classACPI_1_1MADT.html#ad3f9e036f4413401813c7fc3c394f87a", null ],
     [ "ioapic", "da/db9/classACPI_1_1MADT.html#a71683c6c140d2a44f334abae94bca7ce", null ],
     [ "iso", "da/db9/classACPI_1_1MADT.html#a6a93402239b14696f4cbff5ae6f34b0c", null ],
     [ "lapic", "da/db9/classACPI_1_1MADT.html#a6c01b4c5b3d44d10f8ce61b52542abed", null ],

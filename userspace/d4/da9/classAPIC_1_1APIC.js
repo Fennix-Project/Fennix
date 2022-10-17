@@ -30,9 +30,8 @@ var classAPIC_1_1APIC =
       [ "APIC_TCCR", "d4/da9/classAPIC_1_1APIC.html#a65d6da8a13f6e0dbab5f4b8fd64ae26ba189e47346ad8011276140d445e7c0d2f", null ],
       [ "APIC_TDCR", "d4/da9/classAPIC_1_1APIC.html#a65d6da8a13f6e0dbab5f4b8fd64ae26ba1e8da3f2ca7c3692cf1ae73b9e688bcd", null ]
     ] ],
-    [ "APIC", "d4/da9/classAPIC_1_1APIC.html#a37c986a612fc162b70bceb572193f0e7", null ],
+    [ "APIC", "d4/da9/classAPIC_1_1APIC.html#af6887238173308d988f165b65f8d538e", null ],
     [ "~APIC", "d4/da9/classAPIC_1_1APIC.html#a28be4d245826c77316eb1b497fadc3f1", null ],
-    [ "APICSupported", "d4/da9/classAPIC_1_1APIC.html#a0b3811f85dda274fa952395d2f008a5c", null ],
     [ "EOI", "d4/da9/classAPIC_1_1APIC.html#a7450e03745d7092a7a5c154ed7bb2f3b", null ],
     [ "IOGetMaxRedirect", "d4/da9/classAPIC_1_1APIC.html#aa45ffd605d6a57f40863e46f0f911844", null ],
     [ "IORead", "d4/da9/classAPIC_1_1APIC.html#a4c01879c513e74f977dba7bc4a34bcd1", null ],

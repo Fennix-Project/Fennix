@@ -2,7 +2,8 @@ var dir_74c5661253e5cc21187b2a763abbb176 =
 [
     [ "AdvancedProgrammableInterruptController.cpp", "d4/d70/AdvancedProgrammableInterruptController_8cpp.html", "d4/d70/AdvancedProgrammableInterruptController_8cpp" ],
     [ "apic.hpp", "dd/d79/apic_8hpp.html", [
-      [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ]
+      [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ],
+      [ "Timer", "df/d9c/classAPIC_1_1Timer.html", "df/d9c/classAPIC_1_1Timer" ]
     ] ],
     [ "gdt.hpp", "d8/dc7/amd64_2cpu_2gdt_8hpp.html", "d8/dc7/amd64_2cpu_2gdt_8hpp" ],
     [ "GlobalDescriptorTable.cpp", "df/dad/GlobalDescriptorTable_8cpp.html", "df/dad/GlobalDescriptorTable_8cpp" ],

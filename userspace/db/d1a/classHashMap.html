@@ -266,7 +266,7 @@ template&lt;typename K , typename V &gt; </div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            Index++;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            Index %= <a class="code" href="../../db/d1a/classHashMap.html#aa3d89e00ab082a19d879a4cd08c252b6">HashMapCapacity</a>;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> 0xdeadbeef;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d89/hashmap_8hpp_source.html#l00023">HashMap&lt; K, V &gt;::DummyNode</a>, <a class="el" href="../../d2/d89/hashmap_8hpp_source.html#l00036">HashMap&lt; K, V &gt;::HashCode()</a>, <a class="el" href="../../d2/d89/hashmap_8hpp_source.html#l00021">HashMap&lt; K, V &gt;::HashMapCapacity</a>, <a class="el" href="../../d2/d89/hashmap_8hpp_source.html#l00020">HashMap&lt; K, V &gt;::HashMapSize</a>, <a class="el" href="../../d2/d89/hashmap_8hpp_source.html#l00022">HashMap&lt; K, V &gt;::Nodes</a>, and <a class="el" href="../../d2/d89/hashmap_8hpp_source.html#l00007">HashNode&lt; K, V &gt;::Value</a>.</p>
@@ -307,14 +307,14 @@ template&lt;typename K , typename V &gt; </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="../../db/d1a/classHashMap.html#aba9ef5a98073d02edb1f2a8be4669f39">Nodes</a>[Index] != <span class="keyword">nullptr</span>)</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">if</span> (Iterate++ &gt; <a class="code" href="../../db/d1a/classHashMap.html#aa3d89e00ab082a19d879a4cd08c252b6">HashMapCapacity</a>)</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordflow">return</span> 0xdeadbeef;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../db/d1a/classHashMap.html#aba9ef5a98073d02edb1f2a8be4669f39">Nodes</a>[Index]-&gt;Key == Key)</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../db/d1a/classHashMap.html#aba9ef5a98073d02edb1f2a8be4669f39">Nodes</a>[Index]-&gt;Value;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            Index++;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            Index %= <a class="code" href="../../db/d1a/classHashMap.html#aa3d89e00ab082a19d879a4cd08c252b6">HashMapCapacity</a>;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        }</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> 0xdeadbeef;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d89/hashmap_8hpp_source.html#l00036">HashMap&lt; K, V &gt;::HashCode()</a>, <a class="el" href="../../d2/d89/hashmap_8hpp_source.html#l00021">HashMap&lt; K, V &gt;::HashMapCapacity</a>, and <a class="el" href="../../d2/d89/hashmap_8hpp_source.html#l00022">HashMap&lt; K, V &gt;::Nodes</a>.</p>

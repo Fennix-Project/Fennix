@@ -204,6 +204,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CORE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+    <Anchor>a0b5c6e72cf6eb484d3b3f699288138dfa6fb62912f795482b5e8a28aded6b02e9</Anchor>
+    <DeclaredIn>SymmetricMultiprocessing.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>__attribute__</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -1579,14 +1589,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Init</Name>
+      <Name>__attribute__</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>GlobalDescriptorTable</Scope>
     </TokenIdentifier>
     <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>a8f348435f90382d87ff30f9237f15a96</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
+    <Anchor>ae41b761d093c1fdfce00218936d56bea</Anchor>
+    <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -2842,6 +2852,106 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InitializeFeatures</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>ab40c41b740716660e53aa57978e59281</Anchor>
+    <Abstract>To be used only once.</Abstract>
+    <DeclaredIn>CPU.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>a4026b15b73af3a8b80eea2a0a1a82334</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>UNUSED</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>afaf8986bb6fc142145cf60b34c615658</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>va_start</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>ad000e848e45065e5542e22b1db7b8389</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vfctprintf</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>ad805d0ed95bd090d42f49b74d177cc6d</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>va_end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>a50b27de5aae592b079da30e21f54ec9b</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unused</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>aa7c38e50078b95620a23645ebe7b3bb8</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EHPrint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>a75aadb54e6eafdfdd020ae223f65fbf8</Anchor>
+    <DeclaredIn>crashhandler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Handle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>a202e013cac1a108322c79e592f3a5e0c</Anchor>
+    <DeclaredIn>crashhandler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>uart_wrapper</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -2904,6 +3014,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>db/da9/IntManager_8cpp.html</Path>
+    <Anchor>a5a61de0364db4cc1e154113e9c99fa28</Anchor>
+    <DeclaredIn>IntManager.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Initialize</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -2921,7 +3041,40 @@
       <Scope>Interrupts</Scope>
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
-    <Anchor>a2c535352134a3dbb4c42450a352a61f7</Anchor>
+    <Anchor>a3db24a6e8fed89333b0eec359263b4c2</Anchor>
+    <DeclaredIn>IntManager.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InitializeTimer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Interrupts</Scope>
+    </TokenIdentifier>
+    <Path>d3/dc3/namespaceInterrupts.html</Path>
+    <Anchor>a8ef30e8ff4ebe60791d0b42b61caaefa</Anchor>
+    <DeclaredIn>IntManager.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MainInterruptHandler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Interrupts</Scope>
+    </TokenIdentifier>
+    <Path>d3/dc3/namespaceInterrupts.html</Path>
+    <Anchor>a1abd49217ac2518db88e2c14fb94789c</Anchor>
+    <DeclaredIn>IntManager.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RegisteredEvents</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Interrupts</Scope>
+    </TokenIdentifier>
+    <Path>d3/dc3/namespaceInterrupts.html</Path>
+    <Anchor>a84d882c9e248f3ed6d7e9562562248e5</Anchor>
     <DeclaredIn>IntManager.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -6139,6 +6292,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DR7</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>CPU::x64</Scope>
+    </TokenIdentifier>
+    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+    <Anchor>a4b3e456145bd0e0b402efa6c16ffb864</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PageFaultErrorCode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>CPU::x64</Scope>
+    </TokenIdentifier>
+    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+    <Anchor>aa75f18d588864de6d36447d9d3987045</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SelectorErrorCode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>CPU::x64</Scope>
+    </TokenIdentifier>
+    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+    <Anchor>aca18081f834ac01ea5fe9d9d5a0d6c4b</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Vendor</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -6235,6 +6421,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InitializeFeatures</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>ab40c41b740716660e53aa57978e59281</Anchor>
+    <Abstract>To be used only once.</Abstract>
+    <DeclaredIn>CPU.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Barrier</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -6275,6 +6473,17 @@
     </TokenIdentifier>
     <Path>d0/db2/namespaceCPU_1_1MemBar.html</Path>
     <Anchor>a55f0c6728e69705d6fbe707a6b9339a5</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CPU::x64</Scope>
+    </TokenIdentifier>
+    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+    <Anchor>ac3649986f018bd1a582173840d7ec637</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -6462,6 +6671,16 @@
     </TokenIdentifier>
     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
     <Anchor>ae95f7bb0540b6d9850b29fd730f315ea</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>raw</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>df/dbe/cpu_8hpp.html</Path>
+    <Anchor>a33656e1e604e9a92fef40e66e3bf036d</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -6715,19 +6934,19 @@
       <Scope>Interrupts</Scope>
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
-    <Anchor>a2c535352134a3dbb4c42450a352a61f7</Anchor>
+    <Anchor>a3db24a6e8fed89333b0eec359263b4c2</Anchor>
     <DeclaredIn>IntManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>apic</Name>
+      <Name>InitializeTimer</Name>
       <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
+      <Type>func</Type>
       <Scope>Interrupts</Scope>
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
-    <Anchor>a2e5e514d9f622ec4ecf663ca4625c571</Anchor>
-    <DeclaredIn>interrupts.hpp</DeclaredIn>
+    <Anchor>a8ef30e8ff4ebe60791d0b42b61caaefa</Anchor>
+    <DeclaredIn>IntManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9630,7 +9849,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d2/d00/Kernel_8cpp.html</Path>
-    <Anchor>a153b7d68a0bd505e7ea656f2fd8fcd64</Anchor>
+    <Anchor>a856ca7c6595acc2941208b1241cd8f3e</Anchor>
     <DeclaredIn>Kernel.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -16592,50 +16811,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SCIHandler</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ACPI::DSDT</Scope>
-    </TokenIdentifier>
-    <Path>dd/dc9/classACPI_1_1DSDT.html</Path>
-    <Anchor>afd9cb20a20de214edf48ec0744f9783a</Anchor>
-    <DeclaredIn>acpi.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>RegisterSCIEvents</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ACPI::DSDT</Scope>
-    </TokenIdentifier>
-    <Path>dd/dc9/classACPI_1_1DSDT.html</Path>
-    <Anchor>a810ab708bf4288a062d323e60f062ed6</Anchor>
-    <DeclaredIn>acpi.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SetSCIevent</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ACPI::DSDT</Scope>
-    </TokenIdentifier>
-    <Path>dd/dc9/classACPI_1_1DSDT.html</Path>
-    <Anchor>a63558a350db0e656522caca26d560bea</Anchor>
-    <DeclaredIn>acpi.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSCIevent</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ACPI::DSDT</Scope>
-    </TokenIdentifier>
-    <Path>dd/dc9/classACPI_1_1DSDT.html</Path>
-    <Anchor>a657a1a795cbcc5122a33f5b91938e451</Anchor>
-    <DeclaredIn>acpi.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Reboot</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -16654,17 +16829,6 @@
     </TokenIdentifier>
     <Path>dd/dc9/classACPI_1_1DSDT.html</Path>
     <Anchor>ab2af55e6642a559adaae02f4e485cc0b</Anchor>
-    <DeclaredIn>acpi.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InitSCI</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>ACPI::DSDT</Scope>
-    </TokenIdentifier>
-    <Path>dd/dc9/classACPI_1_1DSDT.html</Path>
-    <Anchor>ad9bfaef0996d4a27ab7dcded31a30b42</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -16808,6 +16972,50 @@
     </TokenIdentifier>
     <Path>dd/dc9/classACPI_1_1DSDT.html</Path>
     <Anchor>a2cb9cc1b2fafe1c605988e23be25a3e6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetInterruptNumber</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a3c0d670ae749a9b104ab9a742b52c507</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetInterruptNumber</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>af5d7472c9bff85e2ed24fe9f79ec8a33</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Handler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a2a1152c5908c5a3c7b51f2c4fe4b30ab</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Handler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a27268e70db8896d229fbcafd4cafec31</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16964,7 +17172,7 @@
       <Scope>ACPI::MADT</Scope>
     </TokenIdentifier>
     <Path>da/db9/classACPI_1_1MADT.html</Path>
-    <Anchor>a2b9ebafea3795c4c5b76321893111187</Anchor>
+    <Anchor>ad3f9e036f4413401813c7fc3c394f87a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -17108,17 +17316,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>APICSupported</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>APIC::APIC</Scope>
-    </TokenIdentifier>
-    <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-    <Anchor>a0b3811f85dda274fa952395d2f008a5c</Anchor>
-    <DeclaredIn>apic.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>IOGetMaxRedirect</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -17158,7 +17355,7 @@
       <Scope>APIC::APIC</Scope>
     </TokenIdentifier>
     <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-    <Anchor>a37c986a612fc162b70bceb572193f0e7</Anchor>
+    <Anchor>af6887238173308d988f165b65f8d538e</Anchor>
     <DeclaredIn>apic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -17464,6 +17661,93 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>APIC::Timer</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>APIC::Timer</Scope>
+    </TokenIdentifier>
+    <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+    <DeclaredIn>apic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Timer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>APIC::Timer</Scope>
+    </TokenIdentifier>
+    <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+    <Anchor>a69d1819111f3af00978b15163550057f</Anchor>
+    <DeclaredIn>apic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Timer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>APIC::Timer</Scope>
+    </TokenIdentifier>
+    <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+    <Anchor>a24d347096069c31012b9ffa1b618f873</Anchor>
+    <DeclaredIn>apic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OnInterruptReceived</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>APIC::Timer</Scope>
+    </TokenIdentifier>
+    <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+    <Anchor>a0e50d16a7fbb2b6e389c4d6ad304bc7a</Anchor>
+    <DeclaredIn>apic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetInterruptNumber</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a3c0d670ae749a9b104ab9a742b52c507</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetInterruptNumber</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>af5d7472c9bff85e2ed24fe9f79ec8a33</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Handler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a2a1152c5908c5a3c7b51f2c4fe4b30ab</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Handler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a27268e70db8896d229fbcafd4cafec31</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPU</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -17566,6 +17850,18 @@
     <Path>d7/dfa/namespaceCPU.html</Path>
     <Anchor>a91241794b7196a732d94084fc08f6ec5</Anchor>
     <Abstract>Get/Set the CPU&apos;s page table.</Abstract>
+    <DeclaredIn>CPU.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InitializeFeatures</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>ab40c41b740716660e53aa57978e59281</Anchor>
+    <Abstract>To be used only once.</Abstract>
     <DeclaredIn>CPU.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -17739,6 +18035,50 @@
     </TokenIdentifier>
     <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
     <Anchor>a5209ea0ec81407b1e670098535b6e80f</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DR7</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>CPU::x64</Scope>
+    </TokenIdentifier>
+    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+    <Anchor>a4b3e456145bd0e0b402efa6c16ffb864</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PageFaultErrorCode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>CPU::x64</Scope>
+    </TokenIdentifier>
+    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+    <Anchor>aa75f18d588864de6d36447d9d3987045</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SelectorErrorCode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>CPU::x64</Scope>
+    </TokenIdentifier>
+    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+    <Anchor>aca18081f834ac01ea5fe9d9d5a0d6c4b</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CPU::x64</Scope>
+    </TokenIdentifier>
+    <Path>d9/d25/namespaceCPU_1_1x64.html</Path>
+    <Anchor>ac3649986f018bd1a582173840d7ec637</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -25716,6 +26056,103 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CrashHandler</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>a4026b15b73af3a8b80eea2a0a1a82334</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>UNUSED</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>afaf8986bb6fc142145cf60b34c615658</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>va_start</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>ad000e848e45065e5542e22b1db7b8389</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vfctprintf</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>ad805d0ed95bd090d42f49b74d177cc6d</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>va_end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>a50b27de5aae592b079da30e21f54ec9b</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EHPrint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>a75aadb54e6eafdfdd020ae223f65fbf8</Anchor>
+    <DeclaredIn>crashhandler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Handle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>a202e013cac1a108322c79e592f3a5e0c</Anchor>
+    <DeclaredIn>crashhandler.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unused</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>aa7c38e50078b95620a23645ebe7b3bb8</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GlobalDescriptorTable</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -25744,6 +26181,17 @@
     <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
     <Anchor>a8f348435f90382d87ff30f9237f15a96</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>ae41b761d093c1fdfce00218936d56bea</Anchor>
+    <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -26354,19 +26802,105 @@
       <Scope>Interrupts</Scope>
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
-    <Anchor>a2c535352134a3dbb4c42450a352a61f7</Anchor>
+    <Anchor>a3db24a6e8fed89333b0eec359263b4c2</Anchor>
     <DeclaredIn>IntManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>apic</Name>
+      <Name>InitializeTimer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Interrupts</Scope>
+    </TokenIdentifier>
+    <Path>d3/dc3/namespaceInterrupts.html</Path>
+    <Anchor>a8ef30e8ff4ebe60791d0b42b61caaefa</Anchor>
+    <DeclaredIn>IntManager.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MainInterruptHandler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Interrupts</Scope>
+    </TokenIdentifier>
+    <Path>d3/dc3/namespaceInterrupts.html</Path>
+    <Anchor>a1abd49217ac2518db88e2c14fb94789c</Anchor>
+    <DeclaredIn>IntManager.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RegisteredEvents</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>Interrupts</Scope>
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
-    <Anchor>a2e5e514d9f622ec4ecf663ca4625c571</Anchor>
+    <Anchor>a84d882c9e248f3ed6d7e9562562248e5</Anchor>
+    <DeclaredIn>IntManager.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Interrupts::Handler</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetInterruptNumber</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a3c0d670ae749a9b104ab9a742b52c507</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetInterruptNumber</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>af5d7472c9bff85e2ed24fe9f79ec8a33</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Handler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a2a1152c5908c5a3c7b51f2c4fe4b30ab</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Handler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a27268e70db8896d229fbcafd4cafec31</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InterruptNumber</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>aab768f6db1d3921ca45b2f85fe0e1633</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -27803,6 +28337,234 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>PIC</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>PIC</Scope>
+    </TokenIdentifier>
+    <Path>de/dad/namespacePIC.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PIC::PIC</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PIC</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>a5f700782c21b338819bc82cdc0eef960</Anchor>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~PIC</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>abe37603a947b620d16c27d0ff1adbcdc</Anchor>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Mask</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>a7170a6cd5e558af101a85a4551c45b6b</Anchor>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Unmask</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>a968c8150bee1b6374dc0aa2533bc402d</Anchor>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SendEOI</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>acc7dc000d45d6baf88d146b575a35a86</Anchor>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MasterCommandPort</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>a84618b823fd279833a1ded2ba599b186</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MasterDataPort</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>a236d0b1c7fd015c5c887c1d308803d34</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SlaveCommandPort</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>a6658c9e60e1971d3f0d4d05279725384</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SlaveDataPort</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>a1579272f0ee76c768ec412c59f4224fd</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MasterOffset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>a3be4ea34b4cc79e328f243b1e9953759</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SlaveOffset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>a23a00d51c810009f3fc87df9fef3b4cf</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MasterMask</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>aa7694c4c65c7d9674da27bd2ef96d281</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SlaveMask</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PIC::PIC</Scope>
+    </TokenIdentifier>
+    <Path>d2/d37/classPIC_1_1PIC.html</Path>
+    <Anchor>a34a071cf84315c923244a9db678ab7d0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PIC::PIT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>PIC::PIT</Scope>
+    </TokenIdentifier>
+    <Path>d1/d20/classPIC_1_1PIT.html</Path>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PIC::PIT</Scope>
+    </TokenIdentifier>
+    <Path>d1/d20/classPIC_1_1PIT.html</Path>
+    <Anchor>ae6064457a2b00c870b30c76751ede0af</Anchor>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~PIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PIC::PIT</Scope>
+    </TokenIdentifier>
+    <Path>d1/d20/classPIC_1_1PIT.html</Path>
+    <Anchor>ab90f83f0d543c035eb82833a841c8a14</Anchor>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PrepareSleep</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PIC::PIT</Scope>
+    </TokenIdentifier>
+    <Path>d1/d20/classPIC_1_1PIT.html</Path>
+    <Anchor>ab19f075c061d0862597c19475d570e95</Anchor>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PerformSleep</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>PIC::PIT</Scope>
+    </TokenIdentifier>
+    <Path>d1/d20/classPIC_1_1PIT.html</Path>
+    <Anchor>abf776b71e7d000b8560afb94b531c90a</Anchor>
+    <DeclaredIn>pic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Port</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PIC::PIT</Scope>
+    </TokenIdentifier>
+    <Path>d1/d20/classPIC_1_1PIT.html</Path>
+    <Anchor>aaa064bf3ff64c261b3ca5ab3992e5d34</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Frequency</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>PIC::PIT</Scope>
+    </TokenIdentifier>
+    <Path>d1/d20/classPIC_1_1PIT.html</Path>
+    <Anchor>a7e85a061c9f54867d2e44e7fce653994</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Power</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -28500,7 +29262,7 @@
       <Scope>Video::Display</Scope>
     </TokenIdentifier>
     <Path>db/d81/classVideo_1_1Display.html</Path>
-    <Anchor>ac793e2ce38d124da59fc40d8324bb4c7</Anchor>
+    <Anchor>ab05a86198845ef9aefa590cea4166a82</Anchor>
     <DeclaredIn>display.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28553,7 +29315,7 @@
       <Scope>Video::Display</Scope>
     </TokenIdentifier>
     <Path>db/d81/classVideo_1_1Display.html</Path>
-    <Anchor>ad8769ac3fe40ab8b8b2f1741316b10da</Anchor>
+    <Anchor>ab56e175f55b41db7de0c877e4d420384</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

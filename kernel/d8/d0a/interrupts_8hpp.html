@@ -84,17 +84,24 @@ $(document).ready(function(){initNavTree('d8/d0a/interrupts_8hpp.html','../../')
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">interrupts.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 </div>
 <p><a href="../../d8/d0a/interrupts_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dae/classInterrupts_1_1Handler.html">Interrupts::Handler</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d3/dc3/namespaceInterrupts"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html">Interrupts</a></td></tr>
@@ -104,13 +111,10 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a480247e915be578424a6a6dec1bf505b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a480247e915be578424a6a6dec1bf505b">Interrupts::Initialize</a> (int Core)</td></tr>
 <tr class="separator:a480247e915be578424a6a6dec1bf505b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c535352134a3dbb4c42450a352a61f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a2c535352134a3dbb4c42450a352a61f7">Interrupts::Enable</a> ()</td></tr>
-<tr class="separator:a2c535352134a3dbb4c42450a352a61f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a2e5e514d9f622ec4ecf663ca4625c571"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a2e5e514d9f622ec4ecf663ca4625c571">Interrupts::apic</a></td></tr>
-<tr class="separator:a2e5e514d9f622ec4ecf663ca4625c571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3db24a6e8fed89333b0eec359263b4c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a3db24a6e8fed89333b0eec359263b4c2">Interrupts::Enable</a> (int Core)</td></tr>
+<tr class="separator:a3db24a6e8fed89333b0eec359263b4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ef30e8ff4ebe60791d0b42b61caaefa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a8ef30e8ff4ebe60791d0b42b61caaefa">Interrupts::InitializeTimer</a> (int Core)</td></tr>
+<tr class="separator:a8ef30e8ff4ebe60791d0b42b61caaefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

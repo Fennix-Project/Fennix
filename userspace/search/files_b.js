@@ -1,11 +1,9 @@
 var searchData=
 [
-  ['pci_2ehpp_2615',['pci.hpp',['../d9/dd5/pci_8hpp.html',1,'']]],
-  ['peripheralcomponentinterconnect_2ecpp_2616',['PeripheralComponentInterconnect.cpp',['../d5/d01/PeripheralComponentInterconnect_8cpp.html',1,'']]],
-  ['physicalmemorymanager_2ecpp_2617',['PhysicalMemoryManager.cpp',['../de/db0/Kernel_2Core_2Memory_2PhysicalMemoryManager_8cpp.html',1,'(Global Namespace)'],['../d9/d7c/Lynx_2UEFI_2src_2Memory_2PhysicalMemoryManager_8cpp.html',1,'(Global Namespace)']]],
-  ['power_2ecpp_2618',['Power.cpp',['../d1/d9d/Power_8cpp.html',1,'']]],
-  ['power_2ehpp_2619',['power.hpp',['../db/dfa/power_8hpp.html',1,'']]],
-  ['print_2einc_2620',['print.inc',['../db/d68/print_8inc.html',1,'']]],
-  ['printf_2ec_2621',['printf.c',['../df/d7f/Kernel_2Library_2printf_8c.html',1,'(Global Namespace)'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html',1,'(Global Namespace)']]],
-  ['printf_2eh_2622',['printf.h',['../dc/df9/Kernel_2include_2printf_8h.html',1,'(Global Namespace)'],['../dd/d70/Lynx_2UEFI_2src_2printf_8h.html',1,'(Global Namespace)']]]
+  ['makefile_2662',['Makefile',['../d6/d67/Kernel_2Makefile.html',1,'(Global Namespace)'],['../dd/d3f/Lynx_2BIOS_2Makefile.html',1,'(Global Namespace)'],['../d6/db8/Lynx_2Makefile.html',1,'(Global Namespace)'],['../d8/da9/Lynx_2UEFI_2Makefile.html',1,'(Global Namespace)'],['../de/d92/Userspace_2apps_2system_2init_2Makefile.html',1,'(Global Namespace)'],['../de/d48/Userspace_2Makefile.html',1,'(Global Namespace)']]],
+  ['memory_2ecpp_2663',['Memory.cpp',['../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html',1,'(Global Namespace)'],['../dc/d7d/Lynx_2UEFI_2src_2Memory_2Memory_8cpp.html',1,'(Global Namespace)']]],
+  ['memory_2ehpp_2664',['memory.hpp',['../d9/df8/Kernel_2include_2memory_8hpp.html',1,'(Global Namespace)'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html',1,'(Global Namespace)']]],
+  ['multiboot2_2eh_2665',['multiboot2.h',['../d5/dba/multiboot2_8h.html',1,'']]],
+  ['multibootinit_2ecpp_2666',['MultibootInit.cpp',['../d8/d8e/MultibootInit_8cpp.html',1,'']]],
+  ['multipleapicdescriptiontable_2ecpp_2667',['MultipleAPICDescriptionTable.cpp',['../d5/db3/MultipleAPICDescriptionTable_8cpp.html',1,'']]]
 ];

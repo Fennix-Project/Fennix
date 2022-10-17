@@ -2,12 +2,7 @@ var classACPI_1_1DSDT =
 [
     [ "DSDT", "dd/dc9/classACPI_1_1DSDT.html#ada6d942cb347322471a540e271a6d247", null ],
     [ "~DSDT", "dd/dc9/classACPI_1_1DSDT.html#a71500f39dda98c0e0cc6dbfe0ec2a82d", null ],
-    [ "GetSCIevent", "dd/dc9/classACPI_1_1DSDT.html#a657a1a795cbcc5122a33f5b91938e451", null ],
-    [ "InitSCI", "dd/dc9/classACPI_1_1DSDT.html#ad9bfaef0996d4a27ab7dcded31a30b42", null ],
     [ "Reboot", "dd/dc9/classACPI_1_1DSDT.html#a8c914d7d30b9863719544e00c132dc01", null ],
-    [ "RegisterSCIEvents", "dd/dc9/classACPI_1_1DSDT.html#a810ab708bf4288a062d323e60f062ed6", null ],
-    [ "SCIHandler", "dd/dc9/classACPI_1_1DSDT.html#afd9cb20a20de214edf48ec0744f9783a", null ],
-    [ "SetSCIevent", "dd/dc9/classACPI_1_1DSDT.html#a63558a350db0e656522caca26d560bea", null ],
     [ "Shutdown", "dd/dc9/classACPI_1_1DSDT.html#ab2af55e6642a559adaae02f4e485cc0b", null ],
     [ "acpi", "dd/dc9/classACPI_1_1DSDT.html#a2cb9cc1b2fafe1c605988e23be25a3e6", null ],
     [ "ACPI_DISABLE", "dd/dc9/classACPI_1_1DSDT.html#aa588b75a04a05bdbde6d1cb9e1edceb6", null ],

@@ -219,7 +219,7 @@ Variables</h2></td></tr>
 <div class="line">            <span class="stringliteral">&quot;jmp ExceptionHandlerStub&quot;</span>);                                            \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00158">158</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00145">145</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -244,7 +244,7 @@ Variables</h2></td></tr>
 <div class="line">            <span class="stringliteral">&quot;jmp ExceptionHandlerStub&quot;</span>);                                            \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00151">151</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00138">138</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -269,7 +269,7 @@ Variables</h2></td></tr>
 <div class="line">            <span class="stringliteral">&quot;jmp InterruptHandlerStub\n&quot;</span>);                                         \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00165">165</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00152">152</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -290,15 +290,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Exception: %p&quot;</span>, <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;cli&quot;</span>);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;hlt&quot;</span>);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00025">asmv</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00004">Data</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00040">debug</a>.</p>
-
 </div>
 </div>
 <a id="ab315401343457f280dc7e89bd8ec6308"></a>
@@ -317,23 +308,48 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00009">9</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Interrupt: %p&quot;</span>, <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;cli&quot;</span>);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;hlt&quot;</span>);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00090">90</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#df/df2/structCPU_1_1x64_1_1TrapFrame">CPU::x64::TrapFrame</a> *Frame = (<a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#df/df2/structCPU_1_1x64_1_1TrapFrame">CPU::x64::TrapFrame</a> *)<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordtype">int</span> Core = <a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#a566d4a479c7209f285726d736d55dbfc">CPU::x64::rdmsr</a>(<a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bda8708e8381ce36d6ebfe5695a45c2b4f6">CPU::x64::MSR_FS_BASE</a>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        Handler *handler = (Handler *)<a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a243b35bd4f91344446c7905d0a699f43">RegisteredEvents</a>-&gt;Get(Frame-&gt;<a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#a3ee6a2e1258dec8d64b07c15704d5f37">InterruptNumber</a>);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">if</span> (handler != (Handler *)0xdeadbeef)</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            handler-&gt;OnInterruptReceived(Frame);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unhandled IRQ%d on CPU %d.&quot;</span>, Frame-&gt;<a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#a3ee6a2e1258dec8d64b07c15704d5f37">InterruptNumber</a> - 32, Core);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">if</span> (apic[Core])</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            ((<a class="code" href="../../d4/da9/classAPIC_1_1APIC.html">APIC::APIC</a> *)Interrupts::apic[Core])-&gt;EOI();</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="comment">// TODO: PIC</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordtype">void</span> *Frame = <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordtype">void</span> *Frame = <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a1e34d78eea69b8ed01bd333c7c78f5ea">CPU::Stop</a>();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00025">asmv</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00004">Data</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00040">debug</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00004">Data</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00037">error</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01037">CPU::x64::TrapFrame::InterruptNumber</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00662">CPU::x64::MSR_FS_BASE</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01341">CPU::x64::rdmsr()</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00025">Interrupts::RegisteredEvents</a>, and <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00108">CPU::Stop()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aKernel_2include_2types_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00025">types.h:25</a></div></div>
+<div class="ttc" id="anamespaceCPU_1_1x64_html_a54d16e130528efcdb696a7571814f3bda8708e8381ce36d6ebfe5695a45c2b4f6"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bda8708e8381ce36d6ebfe5695a45c2b4f6">CPU::x64::MSR_FS_BASE</a></div><div class="ttdeci">@ MSR_FS_BASE</div><div class="ttdoc">64bit FS base (0xC0000100)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00662">cpu.hpp:662</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_aff2da4c061653164b5cfcc650f742f27"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a></div><div class="ttdeci">GlobalDescriptorTableEntry Data</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00004">gdt.hpp:4</a></div></div>
-<div class="ttc" id="anamespaceInterruptDescriptorTable_html_a32dadf6743f47b28b7fdd52fb296bb6a"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#a32dadf6743f47b28b7fdd52fb296bb6a">InterruptDescriptorTable::__attribute__</a></div><div class="ttdeci">__attribute__((naked, used, no_stack_protector)) void ExceptionHandlerStub()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00050">InterruptDescriptorTable.cpp:50</a></div></div>
-<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00040">debug.h:40</a></div></div>
+<div class="ttc" id="anamespaceInterruptDescriptorTable_html_a32dadf6743f47b28b7fdd52fb296bb6a"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#a32dadf6743f47b28b7fdd52fb296bb6a">InterruptDescriptorTable::__attribute__</a></div><div class="ttdeci">__attribute__((naked, used, no_stack_protector)) void ExceptionHandlerStub()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00037">InterruptDescriptorTable.cpp:37</a></div></div>
+<div class="ttc" id="aUniversalAsynchronousReceiverTransmitter_8cpp_html_a243b35bd4f91344446c7905d0a699f43"><div class="ttname"><a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a243b35bd4f91344446c7905d0a699f43">RegisteredEvents</a></div><div class="ttdeci">Vector&lt; UniversalAsynchronousReceiverTransmitter::Events * &gt; RegisteredEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00008">UniversalAsynchronousReceiverTransmitter.cpp:8</a></div></div>
+<div class="ttc" id="aclassAPIC_1_1APIC_html"><div class="ttname"><a href="../../d4/da9/classAPIC_1_1APIC.html">APIC::APIC</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00011">apic.hpp:11</a></div></div>
+<div class="ttc" id="anamespaceCPU_1_1x64_html_df/df2/structCPU_1_1x64_1_1TrapFrame"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#df/df2/structCPU_1_1x64_1_1TrapFrame">CPU::x64::TrapFrame</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01013">cpu.hpp:1013</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a1e34d78eea69b8ed01bd333c7c78f5ea"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a1e34d78eea69b8ed01bd333c7c78f5ea">CPU::Stop</a></div><div class="ttdeci">void Stop()</div><div class="ttdoc">Stop the CPU (infinite loop)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8d/CPU_8cpp_source.html#l00108">CPU.cpp:108</a></div></div>
+<div class="ttc" id="anamespaceCPU_1_1x64_html_a566d4a479c7209f285726d736d55dbfc"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#a566d4a479c7209f285726d736d55dbfc">CPU::x64::rdmsr</a></div><div class="ttdeci">static uint64_t rdmsr(uint32_t msr)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01341">cpu.hpp:1341</a></div></div>
+<div class="ttc" id="anamespaceCPU_1_1x64_html_a3ee6a2e1258dec8d64b07c15704d5f37"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#a3ee6a2e1258dec8d64b07c15704d5f37">CPU::x64::TrapFrame::InterruptNumber</a></div><div class="ttdeci">uint64_t InterruptNumber</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01037">cpu.hpp:1037</a></div></div>
+<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00037">debug.h:37</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

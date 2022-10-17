@@ -2,7 +2,7 @@ var Kernel_8cpp =
 [
     [ "arm64Entry", "d2/d00/Kernel_8cpp.html#a896eb3c58494fd1e38b5f4a300633155", null ],
     [ "Entry", "d2/d00/Kernel_8cpp.html#a81fa7adf1dfb1ec4c8b09f0e723ec90b", null ],
-    [ "KPrint", "d2/d00/Kernel_8cpp.html#a153b7d68a0bd505e7ea656f2fd8fcd64", null ],
+    [ "KPrint", "d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e", null ],
     [ "NEWLOCK", "d2/d00/Kernel_8cpp.html#a0a494f645bd2f722bf21860dad6615ec", null ],
     [ "putchar", "d2/d00/Kernel_8cpp.html#a948b7a0779c308ac5502c57e282e6933", null ],
     [ "x32Entry", "d2/d00/Kernel_8cpp.html#aa8a7c6e6e3bdb2a0d88988b5083c06bf", null ],

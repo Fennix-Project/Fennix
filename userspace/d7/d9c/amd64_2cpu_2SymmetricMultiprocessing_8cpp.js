@@ -6,7 +6,8 @@ var amd64_2cpu_2SymmetricMultiprocessing_8cpp =
       [ "START_ADDR", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa2cbb2ee4b5b14b938027e51ab8744c8b", null ],
       [ "STACK", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa3bfeb3e4822bcc96abf42601a42bbcd3", null ],
       [ "GDT", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa0ebd216ccf715efc8f6c10b6ece9b241", null ],
-      [ "IDT", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfaaf66ba20bd2c95236cedcd07886926c1", null ]
+      [ "IDT", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfaaf66ba20bd2c95236cedcd07886926c1", null ],
+      [ "CORE", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa6fb62912f795482b5e8a28aded6b02e9", null ]
     ] ],
     [ "__attribute__", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a878aa217dfc93e844e800902a750e5d1", null ],
     [ "GetCPU", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#acb4382e3522b10e4fbdabfcebe44023b", null ],

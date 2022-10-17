@@ -156,7 +156,7 @@ $(document).ready(function(){initNavTree('d2/d89/hashmap_8hpp_source.html','../.
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            Index++;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            Index %= <a class="code" href="../../db/d1a/classHashMap.html#aa3d89e00ab082a19d879a4cd08c252b6">HashMapCapacity</a>;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> 0xdeadbeef;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
 <div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../db/d1a/classHashMap.html#aefcbc87bbe2d6fe3d300aa5c9fb809ee">   73</a></span>&#160;    V <a class="code" href="../../db/d1a/classHashMap.html#aefcbc87bbe2d6fe3d300aa5c9fb809ee">Get</a>(<span class="keywordtype">int</span> Key)</div>
@@ -167,14 +167,14 @@ $(document).ready(function(){initNavTree('d2/d89/hashmap_8hpp_source.html','../.
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="../../db/d1a/classHashMap.html#aba9ef5a98073d02edb1f2a8be4669f39">Nodes</a>[Index] != <span class="keyword">nullptr</span>)</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">if</span> (Iterate++ &gt; <a class="code" href="../../db/d1a/classHashMap.html#aa3d89e00ab082a19d879a4cd08c252b6">HashMapCapacity</a>)</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordflow">return</span> 0xdeadbeef;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../db/d1a/classHashMap.html#aba9ef5a98073d02edb1f2a8be4669f39">Nodes</a>[Index]-&gt;Key == Key)</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../db/d1a/classHashMap.html#aba9ef5a98073d02edb1f2a8be4669f39">Nodes</a>[Index]-&gt;Value;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            Index++;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            Index %= <a class="code" href="../../db/d1a/classHashMap.html#aa3d89e00ab082a19d879a4cd08c252b6">HashMapCapacity</a>;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        }</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> 0xdeadbeef;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
 <div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="../../db/d1a/classHashMap.html#ae7a2f576f206fa55d484d848e6ed30ca">   91</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../db/d1a/classHashMap.html#ae7a2f576f206fa55d484d848e6ed30ca">Size</a>() { <span class="keywordflow">return</span> <a class="code" href="../../db/d1a/classHashMap.html#a311b1817332ecc7a7591eaf60fbcc87a">HashMapSize</a>; }</div>
