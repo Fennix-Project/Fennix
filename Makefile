@@ -80,6 +80,7 @@ doxygen:
 	doxygen Kernel/Doxyfile
 	doxygen Lynx/Doxyfile
 	doxygen Userspace/Doxyfile
+	doxygen Drivers/Doxyfile
 
 qemu_vdisk:
 ifneq (,$(wildcard ./qemu-disk.img))
