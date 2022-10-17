@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kernelinfo_2470',['KernelInfo',['../db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo',1,'BootInfo']]]
+  ['kernelinfo_2435',['KernelInfo',['../db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo',1,'BootInfo']]]
 ];

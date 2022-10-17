@@ -1,20 +1,12 @@
 var searchData=
 [
-  ['gdt_3221',['gdt',['../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1',1,'GlobalDescriptorTable']]],
-  ['gdtentries_3222',['GDTEntries',['../d1/d69/namespaceGlobalDescriptorTable.html#a882478bfd1441a36a387cd4df2ddb7d2',1,'GlobalDescriptorTable']]],
-  ['glyphbuffer_3223',['GlyphBuffer',['../d6/de2/namespaceVideo.html#a9db860f01297ccd87f68bc21c3332db0',1,'Video::_PSF1_FONT::GlyphBuffer()'],['../d6/de2/namespaceVideo.html#ab080fce1e72677ea3d7657521f08b1c7',1,'Video::_PSF2_FONT::GlyphBuffer()']]],
-  ['gpe0block_3224',['GPE0Block',['../d3/d21/classACPI_1_1ACPI.html#a68f47a3c3fad561eb298b46385cd9ecd',1,'ACPI::ACPI::FADTHeader::GPE0Block()'],['../d1/d90/acpi_8hpp.html#a9f86fc4d25bba8b1299096014dbb84db',1,'GPE0Block():&#160;acpi.hpp']]],
-  ['gpe0length_3225',['GPE0Length',['../d3/d21/classACPI_1_1ACPI.html#a24995291f4cde4d5ecb31363ac394b0d',1,'ACPI::ACPI::FADTHeader::GPE0Length()'],['../d1/d90/acpi_8hpp.html#acbd5ed4314136649dcb1fb3ef9ee6172',1,'GPE0Length():&#160;acpi.hpp']]],
-  ['gpe1base_3226',['GPE1Base',['../d3/d21/classACPI_1_1ACPI.html#a7832e6b3fc5fa6ea9e8e1560a094826a',1,'ACPI::ACPI::FADTHeader::GPE1Base()'],['../d1/d90/acpi_8hpp.html#a6e806d0e3a20570a78577ad42f4c56fd',1,'GPE1Base():&#160;acpi.hpp']]],
-  ['gpe1block_3227',['GPE1Block',['../d3/d21/classACPI_1_1ACPI.html#aca414d3b0034839943dc9e56c315a060',1,'ACPI::ACPI::FADTHeader::GPE1Block()'],['../d1/d90/acpi_8hpp.html#ac145151b7be4ed0ea6a3504ca9390d63',1,'GPE1Block():&#160;acpi.hpp']]],
-  ['gpe1length_3228',['GPE1Length',['../d3/d21/classACPI_1_1ACPI.html#a500f7905188e83d292c2d71354386837',1,'ACPI::ACPI::FADTHeader::GPE1Length()'],['../d1/d90/acpi_8hpp.html#a4f18b267db2ef826cc0bb2cec582ea9a',1,'GPE1Length():&#160;acpi.hpp']]],
-  ['gpt_5fdisk_5fuuid_3229',['gpt_disk_uuid',['../dd/d4d/structlimine__file.html#a9a712fe0344396f6d48113ad15b5dd0d',1,'limine_file']]],
-  ['gpt_5fpart_5fuuid_3230',['gpt_part_uuid',['../dd/d4d/structlimine__file.html#ab067ccacc13594ccbbb0d2284223b35c',1,'limine_file']]],
-  ['green_3231',['green',['../d5/dba/multiboot2_8h.html#a08e1c8bc977b39015c9043645e79713d',1,'multiboot_color']]],
-  ['green_5fmask_5fshift_3232',['green_mask_shift',['../de/d6b/structlimine__framebuffer.html#a3acea0b874c92b46cb2de5b8c8fa9cf1',1,'limine_framebuffer']]],
-  ['green_5fmask_5fsize_3233',['green_mask_size',['../de/d6b/structlimine__framebuffer.html#ad2844bcfc736a1a8ea33892d273048e7',1,'limine_framebuffer']]],
-  ['greenmaskshift_3234',['GreenMaskShift',['../db/d96/structBootInfo.html#a3af61265847b0d8143198a533994673a',1,'BootInfo::FramebufferInfo']]],
-  ['greenmasksize_3235',['GreenMaskSize',['../db/d96/structBootInfo.html#a551646aa90577dd36ee59d4105bfd300',1,'BootInfo::FramebufferInfo']]],
-  ['gsi_3236',['GSI',['../da/db9/classACPI_1_1MADT.html#ab7fa69180ff52b67e8f902a07ba40237',1,'ACPI::MADT::MADTIso::GSI()'],['../d1/d90/acpi_8hpp.html#a59fc67ad4352e63763e8828f55bf0001',1,'GSI():&#160;acpi.hpp']]],
-  ['gsibase_3237',['GSIBase',['../da/db9/classACPI_1_1MADT.html#a48ef777d962119b28aabeff8c4042a16',1,'ACPI::MADT::MADTIOApic::GSIBase()'],['../d1/d90/acpi_8hpp.html#ae324df90ddccba54881239a403043e41',1,'GSIBase():&#160;acpi.hpp']]]
+  ['l_5fallocated_420',['l_allocated',['../d2/dc3/liballoc__1__1_8c.html#ab0e0c20055b59102841b90dc4ec55610',1,'liballoc_1_1.c']]],
+  ['l_5fbestbet_421',['l_bestBet',['../d2/dc3/liballoc__1__1_8c.html#aa564d1a8832090131b83d62eae1f07d7',1,'liballoc_1_1.c']]],
+  ['l_5ferrorcount_422',['l_errorCount',['../d2/dc3/liballoc__1__1_8c.html#af83e911f592858658db8dba2a74f5772',1,'liballoc_1_1.c']]],
+  ['l_5finuse_423',['l_inuse',['../d2/dc3/liballoc__1__1_8c.html#a2ce5de2eb7b8595f398caf844a033cb1',1,'liballoc_1_1.c']]],
+  ['l_5fmemroot_424',['l_memRoot',['../d2/dc3/liballoc__1__1_8c.html#a650715799a325fedc4d7b07a181378d9',1,'liballoc_1_1.c']]],
+  ['l_5fpagecount_425',['l_pageCount',['../d2/dc3/liballoc__1__1_8c.html#add6e2a7ea92e32a539ee378a57b6a933',1,'liballoc_1_1.c']]],
+  ['l_5fpagesize_426',['l_pageSize',['../d2/dc3/liballoc__1__1_8c.html#a55d43215a0f1dbd2425ffe4620674afd',1,'liballoc_1_1.c']]],
+  ['l_5fpossibleoverruns_427',['l_possibleOverruns',['../d2/dc3/liballoc__1__1_8c.html#a48c2c6cb4bd97dd911ef24ff2a42ca5d',1,'liballoc_1_1.c']]],
+  ['l_5fwarningcount_428',['l_warningCount',['../d2/dc3/liballoc__1__1_8c.html#a2d9b708c1e8825a6bb6612661bc4bdbd',1,'liballoc_1_1.c']]]
 ];

@@ -1,11 +1,4 @@
 var searchData=
 [
-  ['liballoc_5f1_5f1_2ec_2654',['liballoc_1_1.c',['../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html',1,'(Global Namespace)'],['../da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html',1,'(Global Namespace)']]],
-  ['liballoc_5f1_5f1_2eh_2655',['liballoc_1_1.h',['../d8/d54/Kernel_2Library_2liballoc__1__1_8h.html',1,'(Global Namespace)'],['../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html',1,'(Global Namespace)']]],
-  ['liballocimpl_2ecpp_2656',['liballocimpl.cpp',['../d2/dc5/liballocimpl_8cpp.html',1,'']]],
-  ['limine_2ec_2657',['Limine.c',['../d3/d1d/Limine_8c.html',1,'']]],
-  ['limine_2eh_2658',['limine.h',['../d3/df0/limine_8h.html',1,'']]],
-  ['limits_2eh_2659',['limits.h',['../d9/d86/limits_8h.html',1,'']]],
-  ['lock_2ehpp_2660',['lock.hpp',['../d0/d44/lock_8hpp.html',1,'']]],
-  ['lynx_2ec_2661',['Lynx.c',['../db/da1/Lynx_8c.html',1,'']]]
+  ['virtualmemorymanager_2ecpp_310',['VirtualMemoryManager.cpp',['../d8/d49/VirtualMemoryManager_8cpp.html',1,'']]]
 ];

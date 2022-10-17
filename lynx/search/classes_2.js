@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['bgrtheader_2429',['BGRTHeader',['../d3/d21/classACPI_1_1ACPI.html#d4/d38/structACPI_1_1ACPI_1_1BGRTHeader',1,'ACPI::ACPI']]],
-  ['bitmap_2430',['Bitmap',['../d3/d19/classBitmap.html',1,'']]],
-  ['bootinfo_2431',['BootInfo',['../db/d96/structBootInfo.html',1,'']]],
-  ['bootloaderinfo_2432',['BootloaderInfo',['../db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo',1,'BootInfo']]]
+  ['double_5fcomponents_283',['double_components',['../d1/d3d/printf_8c.html#da/da6/structdouble__components',1,'']]],
+  ['double_5fwith_5fbit_5faccess_284',['double_with_bit_access',['../d1/d3d/printf_8c.html#d6/da2/uniondouble__with__bit__access',1,'']]]
 ];

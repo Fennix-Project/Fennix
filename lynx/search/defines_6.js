@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['gdt_5fkernel_5fcode_4566',['GDT_KERNEL_CODE',['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab0bd808397c97f7db4701ca69009a547',1,'gdt.hpp']]],
-  ['gdt_5fkernel_5fdata_4567',['GDT_KERNEL_DATA',['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1b5a711dc01ab783bb986902240f1cce',1,'gdt.hpp']]],
-  ['gdt_5ftss_4568',['GDT_TSS',['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afa2f85c6adeea0d29c4852d4cef33d4c',1,'gdt.hpp']]],
-  ['gdt_5fuser_5fcode_4569',['GDT_USER_CODE',['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#af5c033543fb4db7939b4b7587de03867',1,'gdt.hpp']]],
-  ['gdt_5fuser_5fdata_4570',['GDT_USER_DATA',['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2',1,'gdt.hpp']]]
+  ['kcalloc_513',['kcalloc',['../da/d3e/memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'memory.hpp']]],
+  ['kernel_5fheap_5fbase_514',['KERNEL_HEAP_BASE',['../da/d3e/memory_8hpp.html#a75b788f53a0d45523a0c9b1ab96c28a4',1,'memory.hpp']]],
+  ['kernel_5fvma_5foffset_515',['KERNEL_VMA_OFFSET',['../da/d3e/memory_8hpp.html#ad972eda420e75d192868c7fa6eecc2ab',1,'memory.hpp']]],
+  ['kfree_516',['kfree',['../da/d3e/memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'memory.hpp']]],
+  ['kmalloc_517',['kmalloc',['../da/d3e/memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'memory.hpp']]],
+  ['krealloc_518',['krealloc',['../da/d3e/memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'memory.hpp']]]
 ];

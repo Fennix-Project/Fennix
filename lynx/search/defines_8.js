@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['kcalloc_4603',['kcalloc',['../d9/df8/Kernel_2include_2memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'kcalloc():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'kcalloc():&#160;memory.hpp']]],
-  ['kernel_5fheap_5fbase_4604',['KERNEL_HEAP_BASE',['../d9/df8/Kernel_2include_2memory_8hpp.html#a75b788f53a0d45523a0c9b1ab96c28a4',1,'KERNEL_HEAP_BASE():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a75b788f53a0d45523a0c9b1ab96c28a4',1,'KERNEL_HEAP_BASE():&#160;memory.hpp']]],
-  ['kernel_5fvma_5foffset_4605',['KERNEL_VMA_OFFSET',['../d9/df8/Kernel_2include_2memory_8hpp.html#ad972eda420e75d192868c7fa6eecc2ab',1,'KERNEL_VMA_OFFSET():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ad972eda420e75d192868c7fa6eecc2ab',1,'KERNEL_VMA_OFFSET():&#160;memory.hpp']]],
-  ['kfree_4606',['kfree',['../d9/df8/Kernel_2include_2memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'kfree():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'kfree():&#160;memory.hpp']]],
-  ['kmalloc_4607',['kmalloc',['../d9/df8/Kernel_2include_2memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'kmalloc():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'kmalloc():&#160;memory.hpp']]],
-  ['krealloc_4608',['krealloc',['../d9/df8/Kernel_2include_2memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'krealloc():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'krealloc():&#160;memory.hpp']]]
+  ['normal_5fvma_5foffset_526',['NORMAL_VMA_OFFSET',['../da/d3e/memory_8hpp.html#ab2ed1581af9d674b98f3aa559cba18ac',1,'memory.hpp']]],
+  ['null_527',['NULL',['../d3/d88/bitmap_8hpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;bitmap.hpp'],['../d7/d66/cxxabi_8cpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;cxxabi.cpp'],['../d6/dd0/liballoc__1__1_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;liballoc_1_1.h'],['../da/d3e/memory_8hpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;memory.hpp'],['../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;types.h']]],
+  ['num_5fdecimal_5fdigits_5fin_5fint64_5ft_528',['NUM_DECIMAL_DIGITS_IN_INT64_T',['../d1/d3d/printf_8c.html#a38df259cdf24350ce4d98a22cc2524b0',1,'printf.c']]]
 ];

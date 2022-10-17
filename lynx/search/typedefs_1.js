@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['cr0_3566',['CR0',['../d9/d25/namespaceCPU_1_1x64.html#a7009de385c05f88bb62925605eec809e',1,'CPU::x64']]],
-  ['cr2_3567',['CR2',['../d9/d25/namespaceCPU_1_1x64.html#aa87cd6fb4ee5e351951415d629383cfa',1,'CPU::x64']]],
-  ['cr3_3568',['CR3',['../d9/d25/namespaceCPU_1_1x64.html#ad27ebd3c86b0ba4061c151d91adf079b',1,'CPU::x64']]],
-  ['cr4_3569',['CR4',['../d9/d25/namespaceCPU_1_1x64.html#a5b88e2df103ff56fb64f7e91d7c88a72',1,'CPU::x64']]],
-  ['cr8_3570',['CR8',['../d9/d25/namespaceCPU_1_1x64.html#a5209ea0ec81407b1e670098535b6e80f',1,'CPU::x64']]]
+  ['int16_5ft_448',['int16_t',['../d1/d3d/printf_8c.html#afe270aee8d96ad7f279a4020b9d58bdf',1,'printf.c']]],
+  ['int32_5ft_449',['int32_t',['../d1/d3d/printf_8c.html#a0c18914b3041c2f583aba76f418399c2',1,'printf.c']]],
+  ['int64_5ft_450',['int64_t',['../d1/d3d/printf_8c.html#ac714c0d2c1a4adb10e73cab29623314b',1,'printf.c']]],
+  ['int8_5ft_451',['int8_t',['../d1/d3d/printf_8c.html#accbd6432732c88ad6adc5365800433b6',1,'printf.c']]],
+  ['int_5ffast64_5ft_452',['int_fast64_t',['../d1/d3d/printf_8c.html#abcdb0a9f6e7d139ad4f521ab8f4efdc0',1,'printf.c']]],
+  ['intmax_5ft_453',['intmax_t',['../d1/d3d/printf_8c.html#ae26fa513a7dfed63221f72d93de2a021',1,'printf.c']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dr7_3571',['DR7',['../d9/d25/namespaceCPU_1_1x64.html#a4b3e456145bd0e0b402efa6c16ffb864',1,'CPU::x64']]]
+  ['numeric_5fbase_5ft_454',['numeric_base_t',['../d1/d3d/printf_8c.html#ac78b37a9c20028d552e74454f76bfd51',1,'printf.c']]]
 ];

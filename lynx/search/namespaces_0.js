@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['acpi_2598',['ACPI',['../df/d22/namespaceACPI.html',1,'']]],
-  ['apic_2599',['APIC',['../d3/d88/namespaceAPIC.html',1,'']]]
+  ['memory_289',['Memory',['../d3/d97/namespaceMemory.html',1,'']]]
 ];

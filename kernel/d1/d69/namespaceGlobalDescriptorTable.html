@@ -118,7 +118,7 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a882478bfd1441a36a387cd4df2ddb7d2"><td class="memItemLeft" align="right" valign="top">static GlobalDescriptorTableEntries&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a882478bfd1441a36a387cd4df2ddb7d2">GDTEntries</a></td></tr>
 <tr class="separator:a882478bfd1441a36a387cd4df2ddb7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cca80005f54bf25d384bbda8a4861b1"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableDescriptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a> = {.<a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a> = sizeof(GlobalDescriptorTableEntries) - 1, .<a class="el" href="../../d9/df8/Kernel_2include_2memory_8hpp.html#a0d7331f59146f1484ddef3563e1bd377">Entries</a> = &amp;<a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a882478bfd1441a36a387cd4df2ddb7d2">GDTEntries</a>}</td></tr>
+<tr class="memitem:a5cca80005f54bf25d384bbda8a4861b1"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableDescriptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a> = {.<a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a> = sizeof(GlobalDescriptorTableEntries) - 1, .<a class="el" href="../../da/d3e/memory_8hpp.html#a0d7331f59146f1484ddef3563e1bd377">Entries</a> = &amp;<a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a882478bfd1441a36a387cd4df2ddb7d2">GDTEntries</a>}</td></tr>
 <tr class="separator:a5cca80005f54bf25d384bbda8a4861b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae23659d784f4086e4d448cd93724ef0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4">TaskStateSegment</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a> [<a class="el" href="../../d4/d33/smp_8hpp.html#a163aa934e4e42ebaea98661d54c0af08">MAX_CPU</a>]</td></tr>
 <tr class="separator:aae23659d784f4086e4d448cd93724ef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,7 +146,7 @@ Entries</td>
 <td class="fielddoc">
 GDT entries address. </td></tr>
 <tr><td class="fieldtype">
-<a id="a2cc87c2c7fe724170f1a79797594b49f"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a2cc87c2c7fe724170f1a79797594b49f"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Length</td>
 <td class="fielddoc">
@@ -226,37 +226,37 @@ UserData</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a1c5f2dc61acee4ee4c5799443137a242"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a1c5f2dc61acee4ee4c5799443137a242"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Access</td>
 <td class="fielddoc">
 Access. </td></tr>
 <tr><td class="fieldtype">
-<a id="a8b3b4821ceeb86cc4b58051c32762308"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a8b3b4821ceeb86cc4b58051c32762308"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 BaseHigh</td>
 <td class="fielddoc">
 High Base [Bits 24-31]. </td></tr>
 <tr><td class="fieldtype">
-<a id="a6df74bc7d6819961e14655af9e9c853f"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a6df74bc7d6819961e14655af9e9c853f"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 BaseLow</td>
 <td class="fielddoc">
 Low Base [Bits 0-15]. </td></tr>
 <tr><td class="fieldtype">
-<a id="a4b9b2ede295965a06c71c6dfc4e1810d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a4b9b2ede295965a06c71c6dfc4e1810d"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 BaseMiddle</td>
 <td class="fielddoc">
 Middle Base [Bits 0-23]. </td></tr>
 <tr><td class="fieldtype">
-<a id="aebd3e5ebac66b7427dccdce476277fa8"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="aebd3e5ebac66b7427dccdce476277fa8"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Flags</td>
 <td class="fielddoc">
 Flags [Bits 16-19]. </td></tr>
 <tr><td class="fieldtype">
-<a id="a50116aa507a8daccccbafffc31f1da09"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a50116aa507a8daccccbafffc31f1da09"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Length</td>
 <td class="fielddoc">
@@ -281,37 +281,37 @@ Length [Bits 0-15]. </td></tr>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ac85abb77325002c08cb3e9e25cb26f7d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="ac85abb77325002c08cb3e9e25cb26f7d"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
 InterruptStackTable[7]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af93790f77f99f38c9aee4dc454cd3bb9"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="af93790f77f99f38c9aee4dc454cd3bb9"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 IOMapBaseAddressOffset</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af41eb4341bd800ca4e30779bb54e5ef8"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="af41eb4341bd800ca4e30779bb54e5ef8"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
 <td class="fieldname">
 Reserved0</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad713dc6ddd78234082dc2cd404b1f861"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="ad713dc6ddd78234082dc2cd404b1f861"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
 Reserved1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a8071b41ba0df97c95cbf541956c2a9b2"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a8071b41ba0df97c95cbf541956c2a9b2"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Reserved2</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a26a78bcc440d95ffc4494a3afecdd26d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="a26a78bcc440d95ffc4494a3afecdd26d"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
 StackPointer[3]</td>
 <td class="fielddoc">
@@ -336,49 +336,49 @@ StackPointer[3]</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a53e2b6dea8f415375decb6a13338e990"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a53e2b6dea8f415375decb6a13338e990"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Flags1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a820eb735cd77def95d7472935ad24b3d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a820eb735cd77def95d7472935ad24b3d"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Flags2</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a823c71306f6f543f1af17f83a7eb3a06"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a823c71306f6f543f1af17f83a7eb3a06"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 High</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a9ce40ebf89ab91cfb4159ac515ab4071"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a9ce40ebf89ab91cfb4159ac515ab4071"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Length</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a16a387c8cd8a7f91ae578e753ec9b6c1"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a16a387c8cd8a7f91ae578e753ec9b6c1"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Low</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ac46d6b7fbe49948d690d05e2cf9b01cb"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="ac46d6b7fbe49948d690d05e2cf9b01cb"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Middle</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3e8d8eb76d592dd73085edfc62cb041e"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="a3e8d8eb76d592dd73085edfc62cb041e"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
 <td class="fieldname">
 Reserved</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a9eb83617e569a8824bbc0a47d54ec70c"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="a9eb83617e569a8824bbc0a47d54ec70c"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
 <td class="fieldname">
 Upper32</td>
 <td class="fielddoc">
@@ -408,7 +408,7 @@ Upper32</td>
 <div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    {</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#a0a23128ed78f1d661b31b5331064083c">CPU::x64::lgdt</a>(&amp;<a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;movq %%rsp, %%rax\n&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;movq %%rsp, %%rax\n&quot;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;             <span class="stringliteral">&quot;pushq $16\n&quot;</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;             <span class="stringliteral">&quot;pushq %%rax\n&quot;</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;             <span class="stringliteral">&quot;pushfq\n&quot;</span></div>
@@ -421,19 +421,19 @@ Upper32</td>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;             <span class="stringliteral">&quot;movw %%ax, %%es\n&quot;</span> ::</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                 : <span class="stringliteral">&quot;memory&quot;</span>, <span class="stringliteral">&quot;rax&quot;</span>);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Base = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)&amp;<a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core];</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Base = (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)&amp;<a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core];</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.Length = Base + <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[0]);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.Low = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>)(Base &amp; 0xFFFF);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.Middle = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)((Base &gt;&gt; 16) &amp; 0xFF);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.High = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)((Base &gt;&gt; 24) &amp; 0xFF);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.Upper32 = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>)((Base &gt;&gt; 32) &amp; 0xFFFFFFFF);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.Low = (<a class="code" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>)(Base &amp; 0xFFFF);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.Middle = (<a class="code" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)((Base &gt;&gt; 16) &amp; 0xFF);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.High = (<a class="code" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)((Base &gt;&gt; 24) &amp; 0xFF);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.Upper32 = (<a class="code" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>)((Base &gt;&gt; 32) &amp; 0xFFFFFFFF);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.Flags1 = 0b10001001;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">gdt</a>.Entries-&gt;TaskStateSegment.Flags2 = 0b00000000;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core].IOMapBaseAddressOffset = <span class="keyword">sizeof</span>(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4">TaskStateSegment</a>);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core].StackPointer[0] = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core].InterruptStackTable[0] = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core].InterruptStackTable[1] = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core].InterruptStackTable[2] = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core].StackPointer[0] = (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core].InterruptStackTable[0] = (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core].InterruptStackTable[1] = (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">tss</a>[Core].InterruptStackTable[2] = (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#a5251a0946f2ec2aec90787e465933654">CPU::x64::ltr</a>(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afa2f85c6adeea0d29c4852d4cef33d4c">GDT_TSS</a>);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keyword">asm</span> <span class="keyword">volatile</span>(<span class="stringliteral">&quot;mov %%rsp, %0&quot;</span></div>
@@ -447,7 +447,7 @@ Upper32</td>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Global Descriptor Table initialized&quot;</span>);</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00025">asmv</a>, <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00018">gdt</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00067">GDT_KERNEL_CODE</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00068">GDT_KERNEL_DATA</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00071">GDT_TSS</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00070">GDT_USER_CODE</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00069">GDT_USER_DATA</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00011">KernelAllocator</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01295">CPU::x64::lgdt()</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01313">CPU::x64::ltr()</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00007">TaskStateSegment</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00041">trace</a>, and <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00020">tss</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00025">asmv</a>, <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00018">gdt</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00067">GDT_KERNEL_CODE</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00068">GDT_KERNEL_DATA</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00071">GDT_TSS</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00070">GDT_USER_CODE</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00069">GDT_USER_DATA</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00011">KernelAllocator</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01295">CPU::x64::lgdt()</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01313">CPU::x64::ltr()</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00007">TaskStateSegment</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00041">trace</a>, and <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00020">tss</a>.</p>
 
 </div>
 </div>
@@ -467,7 +467,7 @@ Upper32</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/df8/Kernel_2include_2memory_8hpp_source.html#l00136">136</a> of file <a class="el" href="../../d9/df8/Kernel_2include_2memory_8hpp_source.html">memory.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d3e/memory_8hpp_source.html#l00136">136</a> of file <a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    {</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keyword">struct</span></div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        {</div>
@@ -480,14 +480,14 @@ Upper32</td>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="keywordtype">bool</span> Dirty : 1;</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <span class="keywordtype">bool</span> PageSize : 1;</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <span class="keywordtype">bool</span> Global : 1;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Available1 : 3;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <a class="code" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Available1 : 3;</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="keywordtype">bool</span> PageAttributeTable : 1;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#a178921de788fde65c2509d8fa73ff4ac">Reserved</a> : 39;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Available2 : 7;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ProtectionKey : 4;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#a178921de788fde65c2509d8fa73ff4ac">Reserved</a> : 39;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <a class="code" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Available2 : 7;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <a class="code" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> ProtectionKey : 4;</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;            <span class="keywordtype">bool</span> ExecuteDisable : 1;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        };</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../df/dbe/cpu_8hpp.html#a33656e1e604e9a92fef40e66e3bf036d">raw</a>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../df/dbe/cpu_8hpp.html#a33656e1e604e9a92fef40e66e3bf036d">raw</a>;</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    } <a class="code" href="../../d3/d97/namespaceMemory.html#aca487c067da8529c64bf8bb83190df74">PDEData</a>;</div>
 </div><!-- fragment -->
 </div>
@@ -785,7 +785,7 @@ Upper32</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">GlobalDescriptorTableDescriptor GlobalDescriptorTable::gdt = {.<a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a> = sizeof(GlobalDescriptorTableEntries) - 1, .<a class="el" href="../../d9/df8/Kernel_2include_2memory_8hpp.html#a0d7331f59146f1484ddef3563e1bd377">Entries</a> = &amp;<a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a882478bfd1441a36a387cd4df2ddb7d2">GDTEntries</a>}</td>
+          <td class="memname">GlobalDescriptorTableDescriptor GlobalDescriptorTable::gdt = {.<a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a> = sizeof(GlobalDescriptorTableEntries) - 1, .<a class="el" href="../../da/d3e/memory_8hpp.html#a0d7331f59146f1484ddef3563e1bd377">Entries</a> = &amp;<a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a882478bfd1441a36a387cd4df2ddb7d2">GDTEntries</a>}</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -855,29 +855,29 @@ Upper32</td>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="atypes_8h_html_a0a8582351ac627ee8bde2973c825e47f"><div class="ttname"><a href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></div><div class="ttdeci">__UINT32_TYPE__ uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00062">types.h:62</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_ab0bd808397c97f7db4701ca69009a547"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab0bd808397c97f7db4701ca69009a547">GDT_KERNEL_CODE</a></div><div class="ttdeci">#define GDT_KERNEL_CODE</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00067">gdt.hpp:67</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_a1b5a711dc01ab783bb986902240f1cce"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1b5a711dc01ab783bb986902240f1cce">GDT_KERNEL_DATA</a></div><div class="ttdeci">#define GDT_KERNEL_DATA</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00068">gdt.hpp:68</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2idt_8hpp_html_acdb871789a1e4398874af8cb07987ef6"><div class="ttname"><a href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#acdb871789a1e4398874af8cb07987ef6">Present</a></div><div class="ttdeci">uint64_t Present</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00009">idt.hpp:9</a></div></div>
 <div class="ttc" id="anamespaceCPU_1_1x64_html_a0a23128ed78f1d661b31b5331064083c"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#a0a23128ed78f1d661b31b5331064083c">CPU::x64::lgdt</a></div><div class="ttdeci">static void lgdt(void *gdt)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01295">cpu.hpp:1295</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00025">types.h:25</a></div></div>
+<div class="ttc" id="aMemory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00011">Memory.cpp:11</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_a9670040bead28fb1c0b09ea363152cd2"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2">GDT_USER_DATA</a></div><div class="ttdeci">#define GDT_USER_DATA</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00069">gdt.hpp:69</a></div></div>
 <div class="ttc" id="anamespaceInterruptDescriptorTable_html_ac608e596da0989c5e61a454c44e05fa1a9da043d8f524dd37d2d34bf2432b9b3b"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a9da043d8f524dd37d2d34bf2432b9b3b">InterruptDescriptorTable::FlagGate_32BIT_TRAP</a></div><div class="ttdeci">@ FlagGate_32BIT_TRAP</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00014">idt.hpp:14</a></div></div>
 <div class="ttc" id="anamespaceCPU_1_1x64_html_a5251a0946f2ec2aec90787e465933654"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#a5251a0946f2ec2aec90787e465933654">CPU::x64::ltr</a></div><div class="ttdeci">static void ltr(uint16_t Segment)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01313">cpu.hpp:1313</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00061">types.h:61</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00063">types.h:63</a></div></div>
 <div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00041">debug.h:41</a></div></div>
 <div class="ttc" id="anamespaceGlobalDescriptorTable_html_aae23659d784f4086e4d448cd93724ef0"><div class="ttname"><a href="../../d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0">GlobalDescriptorTable::tss</a></div><div class="ttdeci">TaskStateSegment tss[MAX_CPU]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00020">GlobalDescriptorTable.cpp:20</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_af5c033543fb4db7939b4b7587de03867"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#af5c033543fb4db7939b4b7587de03867">GDT_USER_CODE</a></div><div class="ttdeci">#define GDT_USER_CODE</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00070">gdt.hpp:70</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_a178921de788fde65c2509d8fa73ff4ac"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#a178921de788fde65c2509d8fa73ff4ac">Reserved</a></div><div class="ttdeci">uint64_t Reserved</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00003">acpi.hpp:3</a></div></div>
 <div class="ttc" id="anamespaceInterruptDescriptorTable_html_ac608e596da0989c5e61a454c44e05fa1a35f89aeabb91849a65fcb295369fec40"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a35f89aeabb91849a65fcb295369fec40">InterruptDescriptorTable::FlagGate_RING0</a></div><div class="ttdeci">@ FlagGate_RING0</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00015">idt.hpp:15</a></div></div>
-<div class="ttc" id="aKernel_2Core_2Memory_2Memory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00011">Memory.cpp:11</a></div></div>
+<div class="ttc" id="atypes_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00060">types.h:60</a></div></div>
 <div class="ttc" id="anamespaceGlobalDescriptorTable_html_a5cca80005f54bf25d384bbda8a4861b1"><div class="ttname"><a href="../../d1/d69/namespaceGlobalDescriptorTable.html#a5cca80005f54bf25d384bbda8a4861b1">GlobalDescriptorTable::gdt</a></div><div class="ttdeci">GlobalDescriptorTableDescriptor gdt</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00018">GlobalDescriptorTable.cpp:18</a></div></div>
 <div class="ttc" id="anamespaceCPU_1_1x64_html_a0d9e430462cbef27f9d8cef42f7557e4"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#a0d9e430462cbef27f9d8cef42f7557e4">CPU::x64::lidt</a></div><div class="ttdeci">static void lidt(void *idt)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01304">cpu.hpp:1304</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00060">types.h:60</a></div></div>
+<div class="ttc" id="atypes_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00025">types.h:25</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_afa2f85c6adeea0d29c4852d4cef33d4c"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#afa2f85c6adeea0d29c4852d4cef33d4c">GDT_TSS</a></div><div class="ttdeci">#define GDT_TSS</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00071">gdt.hpp:71</a></div></div>
-<div class="ttc" id="anamespaceMemory_html_aca487c067da8529c64bf8bb83190df74"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html#aca487c067da8529c64bf8bb83190df74">Memory::PDEData</a></div><div class="ttdeci">PDEData</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df8/Kernel_2include_2memory_8hpp_source.html#l00157">memory.hpp:157</a></div></div>
+<div class="ttc" id="anamespaceMemory_html_aca487c067da8529c64bf8bb83190df74"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html#aca487c067da8529c64bf8bb83190df74">Memory::PDEData</a></div><div class="ttdeci">PDEData</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d3e/memory_8hpp_source.html#l00157">memory.hpp:157</a></div></div>
 <div class="ttc" id="acpu_8hpp_html_a33656e1e604e9a92fef40e66e3bf036d"><div class="ttname"><a href="../../df/dbe/cpu_8hpp.html#a33656e1e604e9a92fef40e66e3bf036d">raw</a></div><div class="ttdeci">uint64_t raw</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00231">cpu.hpp:231</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a0a8582351ac627ee8bde2973c825e47f"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></div><div class="ttdeci">__UINT32_TYPE__ uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00062">types.h:62</a></div></div>
+<div class="ttc" id="atypes_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00063">types.h:63</a></div></div>
+<div class="ttc" id="atypes_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00061">types.h:61</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_abc498068b381d117f14e2f08434d4ff4"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4">TaskStateSegment</a></div><div class="ttdeci">TaskStateSegmentEntry TaskStateSegment</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00007">gdt.hpp:7</a></div></div>
 <div class="ttc" id="anamespaceInterruptDescriptorTable_html_a91dd97eaf022dfa7a023a8734aa59a1b"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#a91dd97eaf022dfa7a023a8734aa59a1b">InterruptDescriptorTable::SetEntry</a></div><div class="ttdeci">void SetEntry(uint8_t Index, void(*Base)(), InterruptDescriptorTableFlags Attribute, uint8_t InterruptStackTable, InterruptDescriptorTableFlags Ring, uint16_t SegmentSelector)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00018">InterruptDescriptorTable.cpp:18</a></div></div>
 <div class="ttc" id="anamespaceInterruptDescriptorTable_html_a2d9560d834d891b9d8f0e76ced1bc8a7"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#a2d9560d834d891b9d8f0e76ced1bc8a7">InterruptDescriptorTable::idtd</a></div><div class="ttdeci">InterruptDescriptorTableDescriptor idtd</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00015">InterruptDescriptorTable.cpp:15</a></div></div>
