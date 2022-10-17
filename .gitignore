@@ -1,6 +1,8 @@
 iso_tmp_data
 tools/*
 !tools/stage2_eltorito
+!tools/*.md
+!tools/*.css
 !tools/README.md
 !tools/menu.lst
 !tools/website
