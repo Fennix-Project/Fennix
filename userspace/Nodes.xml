@@ -79,6 +79,12 @@
           <Path>files.html</Path>
           <Subnodes>
            <Node>
+            <Name>tools</Name>
+            <Path>dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html</Path>
+            <Subnodes>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>Userspace</Name>
             <Path>dir_97d86ce2f18c7710ea326fa47777d7d7.html</Path>
             <Subnodes>

@@ -22,7 +22,7 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "Fennix", "index.html", [
+  [ "Fennix Kernel", "index.html", [
     [ "Doxygen", "index.html", null ],
     [ "Core components", "df/dd8/md_Kernel_Core_README.html", [
       [ "💾 Memory", "df/dd8/md_Kernel_Core_README.html#autotoc_md2", null ],
@@ -87,7 +87,7 @@ var NAVTREEINDEX =
 "df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37babaf3b7cf26b0071e95d00c326435708a06",
 "df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda9cf7429bd0e115b66474d7fee26b12e0",
 "df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519ea94e6d2bbaba177f05dff3020fd0b3b5e",
-"namespacemembers_c.html"
+"namespacemembers_b.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

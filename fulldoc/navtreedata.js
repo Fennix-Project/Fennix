@@ -23,7 +23,6 @@ for the JavaScript code in this file
 var NAVTREE =
 [
   [ "Fennix", "index.html", [
-    [ "Doxygen", "index.html", null ],
     [ "Core components", "df/dd8/md_Kernel_Core_README.html", [
       [ "💾 Memory", "df/dd8/md_Kernel_Core_README.html#autotoc_md2", null ],
       [ "📺 Video", "df/dd8/md_Kernel_Core_README.html#autotoc_md3", null ],

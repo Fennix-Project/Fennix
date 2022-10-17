@@ -6,10 +6,6 @@
       <Path>index.html</Path>
       <Subnodes>
        <Node>
-        <Name>Doxygen</Name>
-        <Path>index.html</Path>
-       </Node>
-       <Node>
         <Name>Core components</Name>
         <Path>df/dd8/md_Kernel_Core_README.html</Path>
         <Subnodes>

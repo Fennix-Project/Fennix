@@ -4,7 +4,7 @@
 <plist version="1.0">
 <dict>
      <key>CFBundleName</key>
-     <string>Fennix Userspace</string>
+     <string>Fennix Drivers</string>
      <key>CFBundleIdentifier</key>
      <string>org.doxygen.Project</string>
      <key>CFBundleVersion</key>

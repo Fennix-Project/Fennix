@@ -22,7 +22,7 @@ for the JavaScript code in this file
 */
 var NAVTREE =
 [
-  [ "Fennix Userspace", "index.html", [
+  [ "Fennix Drivers", "index.html", [
     [ "Doxygen", "index.html", null ],
     [ "Drivers", "d4/d86/md_Drivers_README.html", null ],
     [ "Files", "files.html", [
