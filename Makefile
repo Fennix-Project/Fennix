@@ -145,12 +145,6 @@ ifeq ($(OSARCH), i686)
 	mkdir -p iso_tmp_data/boot/grub
 	cp tools/grub.cfg iso_tmp_data/boot/grub/
 	grub-mkrescue -o $(OSNAME).iso iso_tmp_data
-	cp tools/stage2_eltorito iso_tmp_data/
-	cp tools/menu.lst iso_tmp_data/boot/grub/
-	xorriso -as mkisofs -R -b stage2_eltorito \
-		-no-emul-boot -boot-load-size 4 -boot-info-table \
-		--protective-msdos-label -V FENNIX \
-		iso_tmp_data -o $(OSNAME)-legacy.iso
 endif
 ifeq ($(OSARCH), aarch64)
 	$(COMPILER_PATH)/$(COMPILER_ARCH)objcopy Kernel/kernel.fsys -O binary $(OSNAME).img
@@ -180,7 +174,7 @@ run: build qemu
 
 clean:
 	rm -rf doxygen-doc iso_tmp_data
-	rm -f initrd/system/drivers/*.drv initrd.tar.gz $(OSNAME).iso $(OSNAME)-legacy.iso $(OSNAME).img
+	rm -f initrd/system/drivers/*.drv initrd.tar.gz $(OSNAME).iso $(OSNAME).img
 	make -C Kernel clean
 	make -C Lynx clean
 	make -C Userspace clean
