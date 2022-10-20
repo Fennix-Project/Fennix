@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xuint64_5ft_3623',['Xuint64_t',['../d8/d12/Xalloc_8hpp.html#a23119a4470c724b273abe91ae9a71c99',1,'Xalloc.hpp']]]
+  ['va_5flist_3709',['va_list',['../d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1',1,'types.h']]]
 ];

@@ -1,6 +1,7 @@
 var Lynx_2UEFI_2src_2printf_8c =
 [
     [ "double_with_bit_access", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#d6/da2/uniondouble__with__bit__access", [
+      [ "F", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a19956a356fdea4a486d8c385daaec639", null ],
       [ "F", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a4d6bc97166bb287b6f50c263c0fa3219", null ],
       [ "U", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#aa068905bf5228a7be958460b0f048d36", null ]
     ] ],
@@ -12,6 +13,7 @@ var Lynx_2UEFI_2src_2printf_8c =
     ] ],
     [ "scaling_factor", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#db/dfc/structscaling__factor", [
       [ "multiply", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a20a9219b33c6c3af38d83904470cc788", null ],
+      [ "raw_factor", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#aad65182c266c7f3d5d1a9c76d67f7776", null ],
       [ "raw_factor", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a6ca58048ee4d2c706d0b3a196cd847f8", null ]
     ] ],
     [ "ABS_FOR_PRINTING", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a8d302099b82242df3916cbe38d476694", null ],

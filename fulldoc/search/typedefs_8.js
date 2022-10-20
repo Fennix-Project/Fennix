@@ -1,6 +1,11 @@
 var searchData=
 [
-  ['selectorerrorcode_3603',['SelectorErrorCode',['../d9/d25/namespaceCPU_1_1x64.html#aca18081f834ac01ea5fe9d9d5a0d6c4b',1,'CPU::x64']]],
-  ['size_5ft_3604',['size_t',['../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;types.h'],['../d3/dde/Lynx_2UEFI_2src_2bitmap_8hpp.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;bitmap.hpp'],['../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;cxxabi.cpp'],['../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;liballoc_1_1.h'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;memory.hpp'],['../d2/d68/Lynx_2UEFI_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;types.h']]],
-  ['syscallsregs_3605',['SyscallsRegs',['../d0/d35/syscalls_8hpp.html#ae3cd0a23fc496d1f9d16166e6e90c68b',1,'syscalls.hpp']]]
+  ['pagefaulterrorcode_3680',['PageFaultErrorCode',['../d9/d25/namespaceCPU_1_1x64.html#aa75f18d588864de6d36447d9d3987045',1,'CPU::x64']]],
+  ['printf_5fflags_5ft_3681',['printf_flags_t',['../df/d7f/Kernel_2Library_2printf_8c.html#a9d4a10dcdc829ae96fb79bb912da57e2',1,'printf_flags_t():&#160;printf.c'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a9d4a10dcdc829ae96fb79bb912da57e2',1,'printf_flags_t():&#160;printf.c']]],
+  ['printf_5fsigned_5fvalue_5ft_3682',['printf_signed_value_t',['../df/d7f/Kernel_2Library_2printf_8c.html#a087d874d932f510310412187369a6cf9',1,'printf_signed_value_t():&#160;printf.c'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a087d874d932f510310412187369a6cf9',1,'printf_signed_value_t():&#160;printf.c']]],
+  ['printf_5fsize_5ft_3683',['printf_size_t',['../df/d7f/Kernel_2Library_2printf_8c.html#a248c42df6acfe93973ab8ea2148820c7',1,'printf_size_t():&#160;printf.c'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a248c42df6acfe93973ab8ea2148820c7',1,'printf_size_t():&#160;printf.c']]],
+  ['printf_5funsigned_5fvalue_5ft_3684',['printf_unsigned_value_t',['../df/d7f/Kernel_2Library_2printf_8c.html#af43407109a0952f9ce5dee4160f21235',1,'printf_unsigned_value_t():&#160;printf.c'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#af43407109a0952f9ce5dee4160f21235',1,'printf_unsigned_value_t():&#160;printf.c']]],
+  ['psf1_5ffont_3685',['PSF1_FONT',['../d6/de2/namespaceVideo.html#a2137843eb8fe9874ab8b683ac3bcbc30',1,'Video']]],
+  ['psf2_5ffont_3686',['PSF2_FONT',['../d6/de2/namespaceVideo.html#a7137318579a094bc14839573852979c4',1,'Video']]],
+  ['ptrdiff_5ft_3687',['ptrdiff_t',['../d0/df4/Kernel_2include_2types_8h.html#a6d26a0475a6d6c897e655cdc5d8019d2',1,'types.h']]]
 ];

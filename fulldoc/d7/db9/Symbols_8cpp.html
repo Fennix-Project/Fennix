@@ -96,7 +96,7 @@ $(document).ready(function(){initNavTree('d7/db9/Symbols_8cpp.html','../../'); i
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d94/symbols_8hpp_source.html">symbols.hpp</a>&gt;</code><br />
 <code>#include &lt;memory.hpp&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../da/d66/string_8h_source.html">string.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d3/d82/convert_8h_source.html">convert.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d7/db9/Symbols_8cpp_source.html">Go to the source code of this file.</a></p>
@@ -124,6 +124,8 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a0d0f218a361a48d6b320575b41f94e37"><td class="memItemLeft" align="right" valign="top">typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db9/Symbols_8cpp.html#a0d0f218a361a48d6b320575b41f94e37">__attribute__</a></td></tr>
+<tr class="separator:a0d0f218a361a48d6b320575b41f94e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03ebb6e07808fa5958881e92d485b506"><td class="memItemLeft" align="right" valign="top">Symbols::SymbolTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d05/namespaceSymbolResolver.html#a03ebb6e07808fa5958881e92d485b506">SymbolResolver::SymTable</a> = nullptr</td></tr>
 <tr class="separator:a03ebb6e07808fa5958881e92d485b506"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab305c3f5407ef184047e9951a760e7f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d05/namespaceSymbolResolver.html#ab305c3f5407ef184047e9951a760e7f3">SymbolResolver::TotalEntries</a> = 0</td></tr>
@@ -400,8 +402,40 @@ st_value</td>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a0d0f218a361a48d6b320575b41f94e37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d0f218a361a48d6b320575b41f94e37">&#9670;&nbsp;</a></span>__attribute__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef unsigned _Unwind_Word __attribute__((__mode__(__unwind_word__)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1a/StackGuard_8c_source.html#l00047">47</a> of file <a class="el" href="../../de/d1a/StackGuard_8c_source.html">StackGuard.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Buffer overflow detected!&quot;</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">for</span> (;;)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;hlt&quot;</span>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;wfe&quot;</span>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00032">memcpy()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00267">memmove()</a>, and <a class="el" href="../../de/def/Convert_8c_source.html#l00196">memset()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aKernel_2include_2types_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00025">types.h:25</a></div></div>
+<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00037">debug.h:37</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

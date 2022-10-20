@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['vector_2ehpp_2692',['vector.hpp',['../da/d16/vector_8hpp.html',1,'']]],
-  ['virtualmemorymanager_2ecpp_2693',['VirtualMemoryManager.cpp',['../de/dfa/Kernel_2Core_2Memory_2VirtualMemoryManager_8cpp.html',1,'(Global Namespace)'],['../d8/d61/Lynx_2UEFI_2src_2Memory_2VirtualMemoryManager_8cpp.html',1,'(Global Namespace)']]]
+  ['uart_2ehpp_2747',['uart.hpp',['../de/d3f/uart_8hpp.html',1,'']]],
+  ['universalasynchronousreceivertransmitter_2ecpp_2748',['UniversalAsynchronousReceiverTransmitter.cpp',['../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html',1,'']]]
 ];

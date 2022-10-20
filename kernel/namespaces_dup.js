@@ -14,6 +14,7 @@ var namespaces_dup =
     [ "SMP", "d6/d37/namespaceSMP.html", null ],
     [ "SymbolResolver", "d9/d05/namespaceSymbolResolver.html", null ],
     [ "SysDbg", "d3/df0/namespaceSysDbg.html", null ],
+    [ "Tasking", "d9/d3e/namespaceTasking.html", null ],
     [ "UniversalAsynchronousReceiverTransmitter", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html", null ],
     [ "Video", "d6/de2/namespaceVideo.html", null ],
     [ "Xalloc", "dc/d0a/namespaceXalloc.html", null ]

@@ -49,11 +49,9 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Data Fields", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", null ],
-        [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ]
+        [ "Typedefs", "functions_type.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -74,22 +72,22 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/de5/structlimine__module__request.html",
-"d1/d90/acpi_8hpp.html#ae9dbad17e2ca02f709798cf24b425414",
-"d3/d21/classACPI_1_1ACPI.html#a6286dd63ec4ba88f53fed0a968486ebc",
-"d3/df0/limine_8h.html#a5c93b9d8f76415e192f0058d9db3e8a0",
-"d5/dba/multiboot2_8h.html#a5356113fb7e9e82c081374a6ab2ae509",
-"d6/d26/structlimine__5__level__paging__request.html#a29957130064b1475d831183af0e2aaf3",
-"d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586",
-"d9/d25/namespaceCPU_1_1x64.html#a6387dd5d2472c344331661a6003b1dbc",
-"d9/df8/Kernel_2include_2memory_8hpp.html#a5678065cf5ef2f37859b96a6d5fd964e",
-"db/d81/classVideo_1_1Display.html#a5c4acb83008add3aa6605abd1d7baa97",
-"dc/da7/amd64_2cpu_2idt_8hpp.html#afea133adf188dfb8979f48bcdaa69acf",
-"df/d51/FileLoader_8h.html#a3812867bb556476b6fffab75a847ecee",
-"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba4ea234b2fd530b1d43fdf89c26c9cf72",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda2d9e5701ba7a50ccb35156644d42a3c2",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bdadb38fca1905e9ac162a16af7360ffdfa",
-"functions_func.html"
+"d0/dcc/classSymbolResolver_1_1Symbols.html#ab6d88a9a3166f22b0b458e52889f3e90",
+"d1/d90/acpi_8hpp.html#aa2cf44d457fb1491cd0675d238e8b1cc",
+"d3/d21/classACPI_1_1ACPI.html#a321c3844e3c98b00b0c37be604942a11",
+"d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629",
+"d5/dba/multiboot2_8h.html#a2b0b759f28046e60720b025e2442c11e",
+"d6/d26/structlimine__5__level__paging__request.html",
+"d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a333d4d92c55d23e69b5c447d90795b8f",
+"d9/d25/namespaceCPU_1_1x64.html#a4170acd6af571e8d0d59fdad999cc605",
+"d9/dd5/pci_8hpp.html#abfaf24294b7be88d50a37fe72f187a4f",
+"db/d92/cargs_8c_source.html",
+"dc/dc5/classTasking_1_1Task.html#a4bfbac409b20452a47c2f97dec639139",
+"de/dbb/aarch64_2SystemCalls_8cpp.html",
+"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba1d903073f3da38b6b15c9b4c16b2a7cc",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda0adf724843d679e15642aee478665952",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bdab8f2e3c225fb4ca11db4535cc30632f2",
+"df/dbe/cpu_8hpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

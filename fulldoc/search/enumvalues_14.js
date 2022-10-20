@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['x87floatingpoint_4491',['x87FloatingPoint',['../d9/d25/namespaceCPU_1_1x64.html#a29dfbfccd41ca8220ab0f81be1e7d56aaf196074b38e0adfc3fbe61852eb90775',1,'CPU::x64']]],
-  ['xallocv1_4492',['XallocV1',['../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a6152d006890d5e69e28c28b6111ef55fac2c968590ef3a865c27df70141a464f1',1,'Memory.cpp']]],
-  ['xd_4493',['XD',['../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a218202248e1d4539a958ebbdf1474cca',1,'Memory']]]
+  ['waiting_4566',['Waiting',['../d9/d3e/namespaceTasking.html#a06ca137d3ea4c32a5842f9450c230a0faf0c3719b73450e078a5c5c2d05cd5b83',1,'Tasking']]]
 ];

@@ -64,14 +64,14 @@ var binfo_8h =
     [ "MAX_MEMORY_ENTRIES", "d9/d36/binfo_8h.html#a242e86d715a7086b90f62e79205b38cb", null ],
     [ "MAX_MODULES", "d9/d36/binfo_8h.html#a6cce4323245f92154efd90478606fe56", null ],
     [ "MemoryType", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01", [
+      [ "Unknown", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a4e81c184ac3ad48a389cd4454c4a05bb", null ],
       [ "Usable", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01ab39314bfafff7bef77e9fcfab31bc7ac", null ],
       [ "ACPIReclaimable", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a223cdfc64e3ccaee890d1a22cbd9bf43", null ],
       [ "ACPINVS", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a11c2789934427d2d3f307c08e237eac6", null ],
       [ "BadMemory", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a288f459725332e0ae99372ead7b1cebd", null ],
       [ "BootloaderReclaimable", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01ac3339e3f10e46e625654bebfe85081e0", null ],
       [ "KernelAndModules", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a8b675d21252e54a28df94bb018e9c307", null ],
-      [ "Framebuffer", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01aabce225a38783329d7d4161fc5104952", null ],
-      [ "Unknown", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a4e81c184ac3ad48a389cd4454c4a05bb", null ]
+      [ "Framebuffer", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01aabce225a38783329d7d4161fc5104952", null ]
     ] ],
     [ "Checksum", "d9/d36/binfo_8h.html#ae129e9c4d84501484102e80f8b35d1da", null ],
     [ "ExtendedChecksum", "d9/d36/binfo_8h.html#ac1107a16cae7348a1f9788614a48cc46", null ],

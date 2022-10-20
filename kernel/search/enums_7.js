@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['pcicommands_3586',['PCICommands',['../d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09',1,'PCI']]],
-  ['pcivendors_3587',['PCIVendors',['../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586c',1,'PCI::Descriptors']]],
-  ['ptflag_3588',['PTFlag',['../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2',1,'Memory']]]
+  ['memorytype_3663',['MemoryType',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01',1,'binfo.h']]],
+  ['msrid_3664',['MSRID',['../d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bd',1,'CPU::x64']]]
 ];

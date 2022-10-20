@@ -185,6 +185,10 @@
             <Path>d3/df0/namespaceSysDbg.html</Path>
            </Node>
            <Node>
+            <Name>Tasking</Name>
+            <Path>d9/d3e/namespaceTasking.html</Path>
+           </Node>
+           <Node>
             <Name>UniversalAsynchronousReceiverTransmitter</Name>
             <Path>d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html</Path>
            </Node>
@@ -245,6 +249,10 @@
              <Node>
               <Name>i</Name>
               <Path>namespacemembers_i.html</Path>
+             </Node>
+             <Node>
+              <Name>k</Name>
+              <Path>namespacemembers_k.html</Path>
              </Node>
              <Node>
               <Name>l</Name>
@@ -353,6 +361,10 @@
               <Path>namespacemembers_eval_i.html</Path>
              </Node>
              <Node>
+              <Name>k</Name>
+              <Path>namespacemembers_eval_k.html</Path>
+             </Node>
+             <Node>
               <Name>m</Name>
               <Path>namespacemembers_eval_m.html</Path>
              </Node>
@@ -381,12 +393,20 @@
               <Path>namespacemembers_eval_s.html</Path>
              </Node>
              <Node>
+              <Name>t</Name>
+              <Path>namespacemembers_eval_t.html</Path>
+             </Node>
+             <Node>
               <Name>u</Name>
               <Path>namespacemembers_eval_u.html</Path>
              </Node>
              <Node>
               <Name>v</Name>
               <Path>namespacemembers_eval_v.html</Path>
+             </Node>
+             <Node>
+              <Name>w</Name>
+              <Path>namespacemembers_eval_w.html</Path>
              </Node>
              <Node>
               <Name>x</Name>
@@ -1470,153 +1490,6 @@
               <Path>d4/da9/classAPIC_1_1APIC.html</Path>
               <Subnodes>
                <Node>
-                <Name>APICRegisters</Name>
-                <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26b</Anchor>
-                <Subnodes>
-                 <Node>
-                  <Name>APIC_ONESHOT</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba84801068ef50a8cfc67ab6c97ed1c800</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_PERIODIC</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba8b37a2a8cafc299448c71f7eebe0fc01</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_TSC_DEADLINE</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26baa95ddfeeea7118c586700a46a3b208da</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_ID</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26baefc20a0984c1c73ad6bae8031a575ab9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_VER</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba48238c88a05482d3bae2814bb9ec1044</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_TPR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba26e4c64eb343df1af38574e7e14186e0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_APR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba9d4bb1919eceb4c002b0bc5b88dfb676</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_PPR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba8f3fd27a0b4a55166a95b4a4aefa5204</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_EOI</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26bad12fb52b943259a4a5f1d2eb541df653</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_RRD</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba9cf01f7747a45fa1248e9af04ece797f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_LDR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba8af019cf8b8e14cb161192038bba55f3</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_DFR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba023d440d916a39032f45b7520483bdfb</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_SVR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26bab093b9185b772579e87da780565505a6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_ISR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba721624e05d850406de0b7e5b39bff60d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_TMR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba37cf5de4472adbdddf67bd12a637fb49</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_IRR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26bab47d981dc06cbdc7d0a67e9323ffb02d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_ESR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba4a6210879c3650f8d73501cbf0f9f47a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_ICRLO</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26baa776eab46305aa5eeb313569bf76031f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_ICRHI</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba85d7de4558f6fffca50866ad16a3390c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_TIMER</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba0e53dba24a3d94e53d9668bd803ec6e6</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_THERMAL</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba349ca708bf6cce05bf9389feee399df2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_PERF</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26baae150b1e8646fa9d8586a408bda61c35</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_LINT0</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba65d90cb54cb9b24f55e9644fdb50ffde</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_LINT1</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba885e78b46dc6a184a844061a8a8cdab7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_ERROR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba722e6509b6922f09892d72c22d14340b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_TICR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26bace0c152b6025df0be3f797caf628438d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_TCCR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba189e47346ad8011276140d445e7c0d2f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>APIC_TDCR</Name>
-                  <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                  <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba1e8da3f2ca7c3692cf1ae73b9e688bcd</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
                 <Name>APIC</Name>
                 <Path>d4/da9/classAPIC_1_1APIC.html</Path>
                 <Anchor>af6887238173308d988f165b65f8d538e</Anchor>
@@ -1650,11 +1523,6 @@
                 <Name>IPI</Name>
                 <Path>d4/da9/classAPIC_1_1APIC.html</Path>
                 <Anchor>acaf821015d5f3d0c7763b249bfa5a6d9</Anchor>
-               </Node>
-               <Node>
-                <Name>OneShot</Name>
-                <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                <Anchor>a82a50118215bfafa8a29cd777e562d4a</Anchor>
                </Node>
                <Node>
                 <Name>RawRedirectIRQ</Name>
@@ -1730,9 +1598,29 @@
                 <Anchor>a24d347096069c31012b9ffa1b618f873</Anchor>
                </Node>
                <Node>
+                <Name>GetTicksIn10ms</Name>
+                <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+                <Anchor>a757d5f639968e2563be38eb6ecb610a3</Anchor>
+               </Node>
+               <Node>
+                <Name>OneShot</Name>
+                <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+                <Anchor>a3c6102f09b04fce53bc2e48ca3de722c</Anchor>
+               </Node>
+               <Node>
                 <Name>OnInterruptReceived</Name>
                 <Path>df/d9c/classAPIC_1_1Timer.html</Path>
                 <Anchor>a0e50d16a7fbb2b6e389c4d6ad304bc7a</Anchor>
+               </Node>
+               <Node>
+                <Name>lapic</Name>
+                <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+                <Anchor>a816f7bd1f845315e5c5eb3efc6d4a78f</Anchor>
+               </Node>
+               <Node>
+                <Name>TicksIn10ms</Name>
+                <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+                <Anchor>a7606ea0afd4c856e340d7314b34bcd95</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -2896,247 +2784,6 @@
             </Subnodes>
            </Node>
            <Node>
-            <Name>Memory</Name>
-            <Path>d3/d97/namespaceMemory.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>PageTable</Name>
-              <Path>d3/d97/namespaceMemory.html</Path>
-              <Anchor>d8/d04/structMemory_1_1PageTable</Anchor>
-              <Subnodes>
-               <Node>
-                <Name>Entries</Name>
-                <Path>d3/d97/namespaceMemory.html</Path>
-                <Anchor>a55d8c0128e68810110260e1b9564f5a6</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Physical</Name>
-              <Path>d6/d05/classMemory_1_1Physical.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>Physical</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a5eed67c7a06fcd8cf1c43fc6736cdc10</Anchor>
-               </Node>
-               <Node>
-                <Name>~Physical</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>aac9561ae08b2b622d59fef5c32b62c77</Anchor>
-               </Node>
-               <Node>
-                <Name>FreePage</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>ac18e5b02b4a715afc4a012b84eb62a56</Anchor>
-               </Node>
-               <Node>
-                <Name>FreePages</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a29b19b49e50594ef3661539c595a448b</Anchor>
-               </Node>
-               <Node>
-                <Name>GetFreeMemory</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a21f0b5f96ec2fd2610733bb94e69209e</Anchor>
-               </Node>
-               <Node>
-                <Name>GetReservedMemory</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a17133e6b26d8573066776218e44b1075</Anchor>
-               </Node>
-               <Node>
-                <Name>GetTotalMemory</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>ae245f38fbc387df7d7ce3e7e56396962</Anchor>
-               </Node>
-               <Node>
-                <Name>GetUsedMemory</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a46c9b6a72efc3fa824a4c8314585cfa2</Anchor>
-               </Node>
-               <Node>
-                <Name>Init</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>aa270e307b6290fccdb37ce573faa10a3</Anchor>
-               </Node>
-               <Node>
-                <Name>LockPage</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a03b49cf1ae297ad5be7113a8f5910f0c</Anchor>
-               </Node>
-               <Node>
-                <Name>LockPages</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a6da57b656dda9deaf31c401f8f084369</Anchor>
-               </Node>
-               <Node>
-                <Name>NEWLOCK</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>ab376c06b751ea742777c1099069a0af6</Anchor>
-               </Node>
-               <Node>
-                <Name>RequestPage</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a3a4128c8dfefc70e4a932d1afb7cabbf</Anchor>
-               </Node>
-               <Node>
-                <Name>RequestPages</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>ab11c32ea50c22f1916d261727c89ed70</Anchor>
-               </Node>
-               <Node>
-                <Name>ReservePage</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a1c99c46de4ac41ed829976288e566eda</Anchor>
-               </Node>
-               <Node>
-                <Name>ReservePages</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a8b24f9e331c8ff3bbe5dc47bbb0a16b7</Anchor>
-               </Node>
-               <Node>
-                <Name>SwapPage</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a4c6cef81fb24d43527cfab71f30648d3</Anchor>
-               </Node>
-               <Node>
-                <Name>SwapPages</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a34205ff625987bba4571198cea354758</Anchor>
-               </Node>
-               <Node>
-                <Name>UnreservePage</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a6dcbfe3b9a418059af52c235ba7ce0b2</Anchor>
-               </Node>
-               <Node>
-                <Name>UnreservePages</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a9403b8bdb349c51206d3dcdf54b2fa2f</Anchor>
-               </Node>
-               <Node>
-                <Name>UnswapPage</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>aecc365338eaed8e54a5c9d1bcc7c8dd8</Anchor>
-               </Node>
-               <Node>
-                <Name>UnswapPages</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a69a4150ceb45e382de71b0423e68f778</Anchor>
-               </Node>
-               <Node>
-                <Name>FreeMemory</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>afff06e7597dcce7753d8e892b0eeaf63</Anchor>
-               </Node>
-               <Node>
-                <Name>PageBitmap</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>aaa60401468889e565f3553f9918114d6</Anchor>
-               </Node>
-               <Node>
-                <Name>PageBitmapIndex</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>ae90959f3828a1f57034b2671231092e3</Anchor>
-               </Node>
-               <Node>
-                <Name>ReservedMemory</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a5137e73db10626ed6b88a407beb883ea</Anchor>
-               </Node>
-               <Node>
-                <Name>TotalMemory</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a40efeea7e64fd1e850790a8bebb37d2a</Anchor>
-               </Node>
-               <Node>
-                <Name>UsedMemory</Name>
-                <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                <Anchor>a25dcd6902cdec3bc1ab2a583c1f5d385</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Virtual</Name>
-              <Path>db/d82/classMemory_1_1Virtual.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>PageMapIndexer</Name>
-                <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>PageMapIndexer</Name>
-                  <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                  <Anchor>a6b140d93633f31444be39405c699ea90</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>P_i</Name>
-                  <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                  <Anchor>a66f5c2947bc3074bd7f1f103595304b5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PD_i</Name>
-                  <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                  <Anchor>aba791d0c977bc26b69d238d28ea9efe0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PDP_i</Name>
-                  <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                  <Anchor>ac475294b1283883cfa7a4ffaf1770c2d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PT_i</Name>
-                  <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                  <Anchor>a8e11b7037bb10236f5df37c8ceebb5cd</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>Virtual</Name>
-                <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                <Anchor>acc634057cea394c0bee246c5de84f9a2</Anchor>
-               </Node>
-               <Node>
-                <Name>~Virtual</Name>
-                <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                <Anchor>a75c97a61bce18d901a6c22f9a8e087ec</Anchor>
-               </Node>
-               <Node>
-                <Name>Map</Name>
-                <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                <Anchor>a623a607878888ca92c1d6353826112b2</Anchor>
-               </Node>
-               <Node>
-                <Name>Map</Name>
-                <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                <Anchor>ac8288a8ce13de5c019b1b710e2f75520</Anchor>
-               </Node>
-               <Node>
-                <Name>NEWLOCK</Name>
-                <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                <Anchor>a424870be7b3e903d7898f394410580f6</Anchor>
-               </Node>
-               <Node>
-                <Name>Unmap</Name>
-                <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                <Anchor>a709a3c086f881d0e0747eb54e485dcb1</Anchor>
-               </Node>
-               <Node>
-                <Name>Unmap</Name>
-                <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                <Anchor>a27114d0d37e80051797103406ae8c1ce</Anchor>
-               </Node>
-               <Node>
-                <Name>Table</Name>
-                <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                <Anchor>af18bf9ffe4fcf280aef3571804146498</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
             <Name>PCI</Name>
             <Path>d0/d8f/namespacePCI.html</Path>
             <Subnodes>
@@ -3608,6 +3255,99 @@
                 <Name>GetSymbolFromAddress</Name>
                 <Path>d0/dcc/classSymbolResolver_1_1Symbols.html</Path>
                 <Anchor>acab0d8d88794b348d77f143831050d3b</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>Tasking</Name>
+            <Path>d9/d3e/namespaceTasking.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>ExecutionSecurity</Name>
+              <Path>d9/d3e/namespaceTasking.html</Path>
+              <Anchor>dd/d85/structTasking_1_1ExecutionSecurity</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>Elevation</Name>
+                <Path>d9/d3e/namespaceTasking.html</Path>
+                <Anchor>a48ebf026f15a544df499e32c9dc7d339</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>PCB</Name>
+              <Path>d9/d3e/namespaceTasking.html</Path>
+              <Anchor>dd/dd1/structTasking_1_1PCB</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>Name</Name>
+                <Path>d9/d3e/namespaceTasking.html</Path>
+                <Anchor>ae33532aeb44602803ff57c1bda7c8b2f</Anchor>
+               </Node>
+               <Node>
+                <Name>PID</Name>
+                <Path>d9/d3e/namespaceTasking.html</Path>
+                <Anchor>a9f8288ad1503409e46c9b666113a95c6</Anchor>
+               </Node>
+               <Node>
+                <Name>Security</Name>
+                <Path>d9/d3e/namespaceTasking.html</Path>
+                <Anchor>ace518f61498a7b723e4bb013c97850fe</Anchor>
+               </Node>
+               <Node>
+                <Name>Status</Name>
+                <Path>d9/d3e/namespaceTasking.html</Path>
+                <Anchor>a96b13015f3d51f07bc6ae64f76db056b</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Task</Name>
+              <Path>dc/dc5/classTasking_1_1Task.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Task</Name>
+                <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                <Anchor>a4bfbac409b20452a47c2f97dec639139</Anchor>
+               </Node>
+               <Node>
+                <Name>~Task</Name>
+                <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                <Anchor>a0530c5c3d7ef85439f8527280126a8b6</Anchor>
+               </Node>
+               <Node>
+                <Name>CreateProcess</Name>
+                <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                <Anchor>a3fcf5a7027119ba461928666540dc861</Anchor>
+               </Node>
+               <Node>
+                <Name>CreateThread</Name>
+                <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                <Anchor>a2c6d9ac1768690c0303b85e4a43c1216</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>TCB</Name>
+              <Path>d9/d3e/namespaceTasking.html</Path>
+              <Anchor>de/d96/structTasking_1_1TCB</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>EntryPoint</Name>
+                <Path>d9/d3e/namespaceTasking.html</Path>
+                <Anchor>a22ee7989c9d822948a31341b724a4c0e</Anchor>
+               </Node>
+               <Node>
+                <Name>Parent</Name>
+                <Path>d9/d3e/namespaceTasking.html</Path>
+                <Anchor>af0c8f4ea4ffedffd0cfe586bc98e87d1</Anchor>
+               </Node>
+               <Node>
+                <Name>TID</Name>
+                <Path>d9/d3e/namespaceTasking.html</Path>
+                <Anchor>a6e65b05e95320950ec745f723a9638a3</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -4586,6 +4326,95 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>cag_option</Name>
+            <Path>d1/d37/cargs_8h.html</Path>
+            <Anchor>d8/ddb/structcag__option</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>access_letters</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>a74db259148d40beb3f1fcdbbecf22b22</Anchor>
+             </Node>
+             <Node>
+              <Name>access_name</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>a2d81aa9a9215027cf7087b3be2190326</Anchor>
+             </Node>
+             <Node>
+              <Name>description</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>aa3a294dc3fe76344cf07d538bad90a76</Anchor>
+             </Node>
+             <Node>
+              <Name>identifier</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>aee723c931719a2e5b84fce5f251ddec7</Anchor>
+             </Node>
+             <Node>
+              <Name>value_name</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>a82eeae2b3e62b12a47d255548814f0d3</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>cag_option_context</Name>
+            <Path>d1/d37/cargs_8h.html</Path>
+            <Anchor>d3/df1/structcag__option__context</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>argc</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>afe65d1e8f058680fa8ba11b74d055928</Anchor>
+             </Node>
+             <Node>
+              <Name>argv</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>a022f13ab3df1d4baf7ebf637f344c47a</Anchor>
+             </Node>
+             <Node>
+              <Name>forced_end</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>aefd1a51115d5345509fd4b681e0397fa</Anchor>
+             </Node>
+             <Node>
+              <Name>identifier</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>a79b4913443e932701b0c92e4d2eed826</Anchor>
+             </Node>
+             <Node>
+              <Name>index</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>a579ece2d9da71176678c2d1be2091dd2</Anchor>
+             </Node>
+             <Node>
+              <Name>inner_index</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>af27b24ee98f8d3a06faa91fb1b8b8017</Anchor>
+             </Node>
+             <Node>
+              <Name>option_count</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>aba929e53194dbf701855e031dfed8fc7</Anchor>
+             </Node>
+             <Node>
+              <Name>options</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>abf08062c8871250d75a5d44adb94eb99</Anchor>
+             </Node>
+             <Node>
+              <Name>value</Name>
+              <Path>d1/d37/cargs_8h.html</Path>
+              <Anchor>a5fb840d6294e740ae97be12dfee745cd</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>CPUArchData</Name>
+            <Path>d4/d33/smp_8hpp.html</Path>
+            <Anchor>d4/d49/structCPUArchData</Anchor>
+           </Node>
+           <Node>
             <Name>CPUData</Name>
             <Path>d4/d33/smp_8hpp.html</Path>
             <Anchor>de/df9/structCPUData</Anchor>
@@ -4598,7 +4427,7 @@
              <Node>
               <Name>Data</Name>
               <Path>d4/d33/smp_8hpp.html</Path>
-              <Anchor>a880caee248bdf85beb4e27d2155e0725</Anchor>
+              <Anchor>a93ddd23b8fbf8e3ba048d636f7459aa4</Anchor>
              </Node>
              <Node>
               <Name>ErrorCode</Name>
@@ -4608,12 +4437,27 @@
              <Node>
               <Name>ID</Name>
               <Path>d4/d33/smp_8hpp.html</Path>
-              <Anchor>a37bb5180e4e32cae6fb5db74c476fb5b</Anchor>
+              <Anchor>a887cdcc1269b29105548dbf02564b0c0</Anchor>
              </Node>
              <Node>
               <Name>IsActive</Name>
               <Path>d4/d33/smp_8hpp.html</Path>
               <Anchor>a76db22a0f9d9bce50f8b711eaaf5cc41</Anchor>
+             </Node>
+             <Node>
+              <Name>Stack</Name>
+              <Path>d4/d33/smp_8hpp.html</Path>
+              <Anchor>a80fa92f817af4ab0758c40ee9bae8ec2</Anchor>
+             </Node>
+             <Node>
+              <Name>SystemCallStack</Name>
+              <Path>d4/d33/smp_8hpp.html</Path>
+              <Anchor>a9bc9d1366d3f1b837fb2590e06a670fe</Anchor>
+             </Node>
+             <Node>
+              <Name>TempStack</Name>
+              <Path>d4/d33/smp_8hpp.html</Path>
+              <Anchor>a20ba120aa51328492a06b575a64be811</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -4644,6 +4488,11 @@
             <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
             <Anchor>d6/da2/uniondouble__with__bit__access</Anchor>
             <Subnodes>
+             <Node>
+              <Name>F</Name>
+              <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
+              <Anchor>a19956a356fdea4a486d8c385daaec639</Anchor>
+             </Node>
              <Node>
               <Name>F</Name>
               <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
@@ -4933,6 +4782,28 @@
               <Name>Value</Name>
               <Path>d7/d56/classHashNode.html</Path>
               <Anchor>a2814ca234322a66cd03b789bce92c453</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>KernelConfig</Name>
+            <Path>d1/dfc/kconfig_8hpp.html</Path>
+            <Anchor>d8/d9d/structKernelConfig</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>AllocatorType</Name>
+              <Path>d1/dfc/kconfig_8hpp.html</Path>
+              <Anchor>a2101b93f82512113802fd5c08a1b4f10</Anchor>
+             </Node>
+             <Node>
+              <Name>Cores</Name>
+              <Path>d1/dfc/kconfig_8hpp.html</Path>
+              <Anchor>ac4c6bea0e76b26d970af2ab59d6ec14e</Anchor>
+             </Node>
+             <Node>
+              <Name>SchedulerType</Name>
+              <Path>d1/dfc/kconfig_8hpp.html</Path>
+              <Anchor>a90f99ba3b39e78c83f514ddb4c201244</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -6197,6 +6068,28 @@
             </Subnodes>
            </Node>
            <Node>
+            <Name>multiboot_info</Name>
+            <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+            <Anchor>df/d9f/structmultiboot__info</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Reserved</Name>
+              <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+              <Anchor>a84c3e8f9b71c5f471941028e62d8e9e5</Anchor>
+             </Node>
+             <Node>
+              <Name>Size</Name>
+              <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+              <Anchor>a8d21b3ed4dae0db9cd8766a990dbdb90</Anchor>
+             </Node>
+             <Node>
+              <Name>Tag</Name>
+              <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+              <Anchor>a7363589c77191de48a479a2dabf4d99b</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
             <Name>multiboot_mmap_entry</Name>
             <Path>d5/dba/multiboot2_8h.html</Path>
             <Anchor>d5/de2/structmultiboot__mmap__entry</Anchor>
@@ -6969,6 +6862,11 @@
              <Node>
               <Name>raw_factor</Name>
               <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
+              <Anchor>aad65182c266c7f3d5d1a9c76d67f7776</Anchor>
+             </Node>
+             <Node>
+              <Name>raw_factor</Name>
+              <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
               <Anchor>a6ca58048ee4d2c706d0b3a196cd847f8</Anchor>
              </Node>
             </Subnodes>
@@ -7271,6 +7169,21 @@
             <Anchor>d4/d24/structBootInfo_1_1BootloaderInfo</Anchor>
            </Node>
            <Node>
+            <Name>cag_option</Name>
+            <Path>d1/d37/cargs_8h.html</Path>
+            <Anchor>d8/ddb/structcag__option</Anchor>
+           </Node>
+           <Node>
+            <Name>cag_option_context</Name>
+            <Path>d1/d37/cargs_8h.html</Path>
+            <Anchor>d3/df1/structcag__option__context</Anchor>
+           </Node>
+           <Node>
+            <Name>CPUArchData</Name>
+            <Path>d4/d33/smp_8hpp.html</Path>
+            <Anchor>d4/d49/structCPUArchData</Anchor>
+           </Node>
+           <Node>
             <Name>CPUData</Name>
             <Path>d4/d33/smp_8hpp.html</Path>
             <Anchor>de/df9/structCPUData</Anchor>
@@ -7384,6 +7297,11 @@
             <Path>d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html</Path>
            </Node>
            <Node>
+            <Name>Tasking::ExecutionSecurity</Name>
+            <Path>d9/d3e/namespaceTasking.html</Path>
+            <Anchor>dd/d85/structTasking_1_1ExecutionSecurity</Anchor>
+           </Node>
+           <Node>
             <Name>ACPI::ACPI::FADTHeader</Name>
             <Path>d3/d21/classACPI_1_1ACPI.html</Path>
             <Anchor>df/d0c/structACPI_1_1ACPI_1_1FADTHeader</Anchor>
@@ -7452,6 +7370,11 @@
             <Name>APIC::IOAPICVersion</Name>
             <Path>d3/d88/namespaceAPIC.html</Path>
             <Anchor>db/d20/structAPIC_1_1IOAPICVersion</Anchor>
+           </Node>
+           <Node>
+            <Name>KernelConfig</Name>
+            <Path>d1/dfc/kconfig_8hpp.html</Path>
+            <Anchor>d8/d9d/structKernelConfig</Anchor>
            </Node>
            <Node>
             <Name>BootInfo::KernelInfo</Name>
@@ -7733,6 +7656,11 @@
             <Anchor>d4/daf/structmultiboot__header__tag__relocatable</Anchor>
            </Node>
            <Node>
+            <Name>multiboot_info</Name>
+            <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+            <Anchor>df/d9f/structmultiboot__info</Anchor>
+           </Node>
+           <Node>
             <Name>multiboot_mmap_entry</Name>
             <Path>d5/dba/multiboot2_8h.html</Path>
             <Anchor>d5/de2/structmultiboot__mmap__entry</Anchor>
@@ -7882,13 +7810,9 @@
             <Anchor>de/dda/structCPU_1_1x64_1_1PageFaultErrorCode_8____unnamed____</Anchor>
            </Node>
            <Node>
-            <Name>Memory::Virtual::PageMapIndexer</Name>
-            <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-           </Node>
-           <Node>
-            <Name>Memory::PageTable</Name>
-            <Path>d3/d97/namespaceMemory.html</Path>
-            <Anchor>d8/d04/structMemory_1_1PageTable</Anchor>
+            <Name>Tasking::PCB</Name>
+            <Path>d9/d3e/namespaceTasking.html</Path>
+            <Anchor>dd/dd1/structTasking_1_1PCB</Anchor>
            </Node>
            <Node>
             <Name>PCI::PCI</Name>
@@ -7903,10 +7827,6 @@
             <Name>PCI::PCIHeader0</Name>
             <Path>d0/d8f/namespacePCI.html</Path>
             <Anchor>d1/da3/structPCI_1_1PCIHeader0</Anchor>
-           </Node>
-           <Node>
-            <Name>Memory::Physical</Name>
-            <Path>d6/d05/classMemory_1_1Physical.html</Path>
            </Node>
            <Node>
             <Name>PIC::PIC</Name>
@@ -7989,6 +7909,15 @@
             <Anchor>d8/dce/structSyscallsRegs</Anchor>
            </Node>
            <Node>
+            <Name>Tasking::Task</Name>
+            <Path>dc/dc5/classTasking_1_1Task.html</Path>
+           </Node>
+           <Node>
+            <Name>Tasking::TCB</Name>
+            <Path>d9/d3e/namespaceTasking.html</Path>
+            <Anchor>de/d96/structTasking_1_1TCB</Anchor>
+           </Node>
+           <Node>
             <Name>ACPI::ACPI::TCPAHeader</Name>
             <Path>d3/d21/classACPI_1_1ACPI.html</Path>
             <Anchor>d6/d0b/structACPI_1_1ACPI_1_1TCPAHeader</Anchor>
@@ -8035,10 +7964,6 @@
            <Node>
             <Name>Vector&lt; PCI::PCIDeviceHeader * &gt;</Name>
             <Path>d6/da1/classVector.html</Path>
-           </Node>
-           <Node>
-            <Name>Memory::Virtual</Name>
-            <Path>db/d82/classMemory_1_1Virtual.html</Path>
            </Node>
            <Node>
             <Name>ACPI::ACPI::WAETHeader</Name>
@@ -8164,100 +8089,6 @@
            <Node>
             <Name>Functions</Name>
             <Path>functions_func.html</Path>
-            <Subnodes>
-             <Node>
-              <Name>_</Name>
-              <Path>functions_func.html</Path>
-             </Node>
-             <Node>
-              <Name>a</Name>
-              <Path>functions_func_a.html</Path>
-             </Node>
-             <Node>
-              <Name>b</Name>
-              <Path>functions_func_b.html</Path>
-             </Node>
-             <Node>
-              <Name>c</Name>
-              <Path>functions_func_c.html</Path>
-             </Node>
-             <Node>
-              <Name>d</Name>
-              <Path>functions_func_d.html</Path>
-             </Node>
-             <Node>
-              <Name>e</Name>
-              <Path>functions_func_e.html</Path>
-             </Node>
-             <Node>
-              <Name>f</Name>
-              <Path>functions_func_f.html</Path>
-             </Node>
-             <Node>
-              <Name>g</Name>
-              <Path>functions_func_g.html</Path>
-             </Node>
-             <Node>
-              <Name>h</Name>
-              <Path>functions_func_h.html</Path>
-             </Node>
-             <Node>
-              <Name>i</Name>
-              <Path>functions_func_i.html</Path>
-             </Node>
-             <Node>
-              <Name>l</Name>
-              <Path>functions_func_l.html</Path>
-             </Node>
-             <Node>
-              <Name>m</Name>
-              <Path>functions_func_m.html</Path>
-             </Node>
-             <Node>
-              <Name>n</Name>
-              <Path>functions_func_n.html</Path>
-             </Node>
-             <Node>
-              <Name>o</Name>
-              <Path>functions_func_o.html</Path>
-             </Node>
-             <Node>
-              <Name>p</Name>
-              <Path>functions_func_p.html</Path>
-             </Node>
-             <Node>
-              <Name>r</Name>
-              <Path>functions_func_r.html</Path>
-             </Node>
-             <Node>
-              <Name>s</Name>
-              <Path>functions_func_s.html</Path>
-             </Node>
-             <Node>
-              <Name>t</Name>
-              <Path>functions_func_t.html</Path>
-             </Node>
-             <Node>
-              <Name>u</Name>
-              <Path>functions_func_u.html</Path>
-             </Node>
-             <Node>
-              <Name>v</Name>
-              <Path>functions_func_v.html</Path>
-             </Node>
-             <Node>
-              <Name>w</Name>
-              <Path>functions_func_w.html</Path>
-             </Node>
-             <Node>
-              <Name>x</Name>
-              <Path>functions_func_x.html</Path>
-             </Node>
-             <Node>
-              <Name>~</Name>
-              <Path>functions_func_~.html</Path>
-             </Node>
-            </Subnodes>
            </Node>
            <Node>
             <Name>Variables</Name>
@@ -8369,14 +8200,6 @@
             <Name>Typedefs</Name>
             <Path>functions_type.html</Path>
            </Node>
-           <Node>
-            <Name>Enumerations</Name>
-            <Path>functions_enum.html</Path>
-           </Node>
-           <Node>
-            <Name>Enumerator</Name>
-            <Path>functions_eval.html</Path>
-           </Node>
           </Subnodes>
          </Node>
         </Subnodes>
@@ -8439,22 +8262,33 @@
                   </Subnodes>
                  </Node>
                  <Node>
+                  <Name>Entry.cpp</Name>
+                  <Path>d8/db0/Entry_8cpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>arm64Entry</Name>
+                    <Path>d8/db0/Entry_8cpp.html</Path>
+                    <Anchor>a896eb3c58494fd1e38b5f4a300633155</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
                   <Name>SystemCalls.cpp</Name>
-                  <Path>d5/d7c/Architecture_2aarch64_2SystemCalls_8cpp.html</Path>
+                  <Path>de/dbb/aarch64_2SystemCalls_8cpp.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>__attribute__</Name>
-                    <Path>d5/d7c/Architecture_2aarch64_2SystemCalls_8cpp.html</Path>
+                    <Path>de/dbb/aarch64_2SystemCalls_8cpp.html</Path>
                     <Anchor>a620887f7ab7acceb2925d0d702b400ce</Anchor>
                    </Node>
                    <Node>
                     <Name>InitializeSystemCalls</Name>
-                    <Path>d5/d7c/Architecture_2aarch64_2SystemCalls_8cpp.html</Path>
+                    <Path>de/dbb/aarch64_2SystemCalls_8cpp.html</Path>
                     <Anchor>a623b6425a07c15a56d165d69c08b67f2</Anchor>
                    </Node>
                    <Node>
                     <Name>SystemCallsHandler</Name>
-                    <Path>d5/d7c/Architecture_2aarch64_2SystemCalls_8cpp.html</Path>
+                    <Path>de/dbb/aarch64_2SystemCalls_8cpp.html</Path>
                     <Anchor>ada20e2588c027deb2dcca94342bf291d</Anchor>
                    </Node>
                   </Subnodes>
@@ -8540,153 +8374,6 @@
                       <Path>d4/da9/classAPIC_1_1APIC.html</Path>
                       <Subnodes>
                        <Node>
-                        <Name>APICRegisters</Name>
-                        <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                        <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26b</Anchor>
-                        <Subnodes>
-                         <Node>
-                          <Name>APIC_ONESHOT</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba84801068ef50a8cfc67ab6c97ed1c800</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_PERIODIC</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba8b37a2a8cafc299448c71f7eebe0fc01</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_TSC_DEADLINE</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26baa95ddfeeea7118c586700a46a3b208da</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_ID</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26baefc20a0984c1c73ad6bae8031a575ab9</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_VER</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba48238c88a05482d3bae2814bb9ec1044</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_TPR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba26e4c64eb343df1af38574e7e14186e0</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_APR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba9d4bb1919eceb4c002b0bc5b88dfb676</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_PPR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba8f3fd27a0b4a55166a95b4a4aefa5204</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_EOI</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26bad12fb52b943259a4a5f1d2eb541df653</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_RRD</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba9cf01f7747a45fa1248e9af04ece797f</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_LDR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba8af019cf8b8e14cb161192038bba55f3</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_DFR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba023d440d916a39032f45b7520483bdfb</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_SVR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26bab093b9185b772579e87da780565505a6</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_ISR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba721624e05d850406de0b7e5b39bff60d</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_TMR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba37cf5de4472adbdddf67bd12a637fb49</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_IRR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26bab47d981dc06cbdc7d0a67e9323ffb02d</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_ESR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba4a6210879c3650f8d73501cbf0f9f47a</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_ICRLO</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26baa776eab46305aa5eeb313569bf76031f</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_ICRHI</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba85d7de4558f6fffca50866ad16a3390c</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_TIMER</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba0e53dba24a3d94e53d9668bd803ec6e6</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_THERMAL</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba349ca708bf6cce05bf9389feee399df2</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_PERF</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26baae150b1e8646fa9d8586a408bda61c35</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_LINT0</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba65d90cb54cb9b24f55e9644fdb50ffde</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_LINT1</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba885e78b46dc6a184a844061a8a8cdab7</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_ERROR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba722e6509b6922f09892d72c22d14340b</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_TICR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26bace0c152b6025df0be3f797caf628438d</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_TCCR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba189e47346ad8011276140d445e7c0d2f</Anchor>
-                         </Node>
-                         <Node>
-                          <Name>APIC_TDCR</Name>
-                          <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                          <Anchor>a65d6da8a13f6e0dbab5f4b8fd64ae26ba1e8da3f2ca7c3692cf1ae73b9e688bcd</Anchor>
-                         </Node>
-                        </Subnodes>
-                       </Node>
-                       <Node>
                         <Name>APIC</Name>
                         <Path>d4/da9/classAPIC_1_1APIC.html</Path>
                         <Anchor>af6887238173308d988f165b65f8d538e</Anchor>
@@ -8720,11 +8407,6 @@
                         <Name>IPI</Name>
                         <Path>d4/da9/classAPIC_1_1APIC.html</Path>
                         <Anchor>acaf821015d5f3d0c7763b249bfa5a6d9</Anchor>
-                       </Node>
-                       <Node>
-                        <Name>OneShot</Name>
-                        <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-                        <Anchor>a82a50118215bfafa8a29cd777e562d4a</Anchor>
                        </Node>
                        <Node>
                         <Name>RawRedirectIRQ</Name>
@@ -8773,9 +8455,176 @@
                         <Anchor>a24d347096069c31012b9ffa1b618f873</Anchor>
                        </Node>
                        <Node>
+                        <Name>GetTicksIn10ms</Name>
+                        <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+                        <Anchor>a757d5f639968e2563be38eb6ecb610a3</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>OneShot</Name>
+                        <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+                        <Anchor>a3c6102f09b04fce53bc2e48ca3de722c</Anchor>
+                       </Node>
+                       <Node>
                         <Name>OnInterruptReceived</Name>
                         <Path>df/d9c/classAPIC_1_1Timer.html</Path>
                         <Anchor>a0e50d16a7fbb2b6e389c4d6ad304bc7a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>lapic</Name>
+                        <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+                        <Anchor>a816f7bd1f845315e5c5eb3efc6d4a78f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>TicksIn10ms</Name>
+                        <Path>df/d9c/classAPIC_1_1Timer.html</Path>
+                        <Anchor>a7606ea0afd4c856e340d7314b34bcd95</Anchor>
+                       </Node>
+                      </Subnodes>
+                     </Node>
+                     <Node>
+                      <Name>APICRegisters</Name>
+                      <Path>dd/d79/apic_8hpp.html</Path>
+                      <Anchor>a86492322c9530136899b76278960e1fa</Anchor>
+                      <Subnodes>
+                       <Node>
+                        <Name>APIC_ONESHOT</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faab563ae573f97d92c61a9ef317b7ff5fe</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_PERIODIC</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faac33a75a4905e353458653d271728dded</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_TSC_DEADLINE</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faaf68d214ed11d47b8c516224467bbaf4a</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_ID</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa86eaaf35439a1955f2d5f749f775485f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_VER</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa5a62b0ea11cdd31ffe3a3a7c9a4f446c</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_TPR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa9f3be7889260305af3399c47d189cf23</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_APR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faaa518fb7f280f940bae4457c9ee0439ec</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_PPR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faaf24ac891928a416f2aa5ea046d0763cb</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_EOI</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa54295577d0cf539cb397fb7bce997022</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_RRD</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faaab8ddc733847295ed9d7c205286165af</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_LDR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa2599365736553b0831b40f262716fdad</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_DFR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faae44ba19b8a53e47aaad83d4858dd9fea</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_SVR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faac4c8716fe3b4655fd105124f5b9bd0b1</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_ISR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faaebbbf8154ebec249899b8d1f25610198</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_TMR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa3d58bd7663bd08aa251a5ab113fb6eb7</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_IRR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa507bfb9c21941afea4276598031f0513</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_ESR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa42811a5536afbe0843593587fe8eba7f</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_ICRLO</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa7daa930d6a802bf8af435d40ea6b4951</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_ICRHI</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa98ce422df7086f3af3a471926660219b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_TIMER</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa645c89b9de58d1f061f7dd95f717f68b</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_THERMAL</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faad8a52be0baf01cba26e75aac42ea3ab0</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_PERF</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa4cdfc9a9e25dee8333045b809ec91f56</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_LINT0</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa2d288249e346cc8469cf61214cba07a7</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_LINT1</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa612949a60c606dad8c9bfb428f60c418</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_ERROR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa48af3365178d1c435e202b5e915b5722</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_TICR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faab3b6c0894738924596d5f96400d2d7d2</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_TCCR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faa09e05ac0a253be0e3dbb4c94d155aab6</Anchor>
+                       </Node>
+                       <Node>
+                        <Name>APIC_TDCR</Name>
+                        <Path>dd/d79/apic_8hpp.html</Path>
+                        <Anchor>a86492322c9530136899b76278960e1faace95338f23e05516c1c99f219f246190</Anchor>
                        </Node>
                       </Subnodes>
                      </Node>
@@ -9644,7 +9493,7 @@
                      <Node>
                       <Name>GetCPU</Name>
                       <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
-                      <Anchor>acb4382e3522b10e4fbdabfcebe44023b</Anchor>
+                      <Anchor>a5c96f68448959502b30a092fb050d6b5</Anchor>
                      </Node>
                      <Node>
                       <Name>GetCurrentCPU</Name>
@@ -12088,24 +11937,33 @@
                  </Node>
                  <Node>
                   <Name>SystemCalls.cpp</Name>
-                  <Path>d8/d8f/Architecture_2amd64_2SystemCalls_8cpp.html</Path>
+                  <Path>d9/d9d/amd64_2SystemCalls_8cpp.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>__attribute__</Name>
-                    <Path>d8/d8f/Architecture_2amd64_2SystemCalls_8cpp.html</Path>
-                    <Anchor>a620887f7ab7acceb2925d0d702b400ce</Anchor>
+                    <Path>d9/d9d/amd64_2SystemCalls_8cpp.html</Path>
+                    <Anchor>a21baf4d9ded5be234552348f5d33b53b</Anchor>
                    </Node>
                    <Node>
                     <Name>InitializeSystemCalls</Name>
-                    <Path>d8/d8f/Architecture_2amd64_2SystemCalls_8cpp.html</Path>
+                    <Path>d9/d9d/amd64_2SystemCalls_8cpp.html</Path>
                     <Anchor>a623b6425a07c15a56d165d69c08b67f2</Anchor>
                    </Node>
                    <Node>
+                    <Name>SystemCallHandlerStub</Name>
+                    <Path>d9/d9d/amd64_2SystemCalls_8cpp.html</Path>
+                    <Anchor>a57edae3413b939a1648bd56a3388a2d3</Anchor>
+                   </Node>
+                   <Node>
                     <Name>SystemCallsHandler</Name>
-                    <Path>d8/d8f/Architecture_2amd64_2SystemCalls_8cpp.html</Path>
+                    <Path>d9/d9d/amd64_2SystemCalls_8cpp.html</Path>
                     <Anchor>ada20e2588c027deb2dcca94342bf291d</Anchor>
                    </Node>
                   </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>SystemCallsAssemblyStub.asm</Name>
+                  <Path>d9/df7/SystemCallsAssemblyStub_8asm.html</Path>
                  </Node>
                 </Subnodes>
                </Node>
@@ -12487,28 +12345,87 @@
                   <Path>d1/dab/Kernel_2Architecture_2i686_2boot_8asm.html</Path>
                  </Node>
                  <Node>
-                  <Name>MultibootInit.cpp</Name>
-                  <Path>d8/d8e/MultibootInit_8cpp.html</Path>
+                  <Name>Multiboot2.cpp</Name>
+                  <Path>d8/d0e/Multiboot2_8cpp.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>__attribute__</Name>
-                    <Path>d8/d8e/MultibootInit_8cpp.html</Path>
-                    <Anchor>a226a78c4fb806645f89ac7b3412d2cdb</Anchor>
+                    <Name>multiboot_info</Name>
+                    <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                    <Anchor>df/d9f/structmultiboot__info</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>Reserved</Name>
+                      <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                      <Anchor>a84c3e8f9b71c5f471941028e62d8e9e5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Size</Name>
+                      <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                      <Anchor>a8d21b3ed4dae0db9cd8766a990dbdb90</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Tag</Name>
+                      <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                      <Anchor>a7363589c77191de48a479a2dabf4d99b</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>VideoType</Name>
+                    <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                    <Anchor>ad303a41483e094d68465b3d33e5d716f</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>VIDEO_TYPE_NONE</Name>
+                      <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                      <Anchor>ad303a41483e094d68465b3d33e5d716fa23396484168138ce0b4045859e2982f0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>VIDEO_TYPE_COLOUR</Name>
+                      <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                      <Anchor>ad303a41483e094d68465b3d33e5d716fa03a8eba6ad2835cc64130fdc179c1494</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>VIDEO_TYPE_MONOCHROME</Name>
+                      <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                      <Anchor>ad303a41483e094d68465b3d33e5d716faf1ed28d657babf55eff7940a062bdb20</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>GetBiosAreaHardware</Name>
+                    <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                    <Anchor>a32868307e899a87da8adde85691e55b6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetSMBIOS</Name>
+                    <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                    <Anchor>aeb9849d4f8df9d69d3291130ec128618</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetVideoType</Name>
+                    <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                    <Anchor>acdcc473885488d0d6660297558bf298d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>x32Multiboot2Entry</Name>
+                    <Path>d8/d0e/Multiboot2_8cpp.html</Path>
+                    <Anchor>a6237aba9905dbb76ee311bf8392a26f1</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>SystemCalls.cpp</Name>
-                  <Path>dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html</Path>
+                  <Path>d9/d7e/i686_2SystemCalls_8cpp.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>InitializeSystemCalls</Name>
-                    <Path>dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html</Path>
+                    <Path>d9/d7e/i686_2SystemCalls_8cpp.html</Path>
                     <Anchor>a623b6425a07c15a56d165d69c08b67f2</Anchor>
                    </Node>
                    <Node>
                     <Name>SystemCallsHandler</Name>
-                    <Path>dd/d4f/Architecture_2i686_2SystemCalls_8cpp.html</Path>
+                    <Path>d9/d7e/i686_2SystemCalls_8cpp.html</Path>
                     <Anchor>a2cc503f055ce36ae774a97b9ae3e02e9</Anchor>
                    </Node>
                   </Subnodes>
@@ -12894,33 +12811,6 @@
                   <Path>d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>MemoryAllocatorType</Name>
-                    <Path>d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html</Path>
-                    <Anchor>a6152d006890d5e69e28c28b6111ef55f</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>None</Name>
-                      <Path>d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html</Path>
-                      <Anchor>a6152d006890d5e69e28c28b6111ef55fac9d3e887722f2bc482bcca9d41c512af</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Pages</Name>
-                      <Path>d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html</Path>
-                      <Anchor>a6152d006890d5e69e28c28b6111ef55fa2e2fe9881a01a7af6efea3db7e52d2cf</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>XallocV1</Name>
-                      <Path>d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html</Path>
-                      <Anchor>a6152d006890d5e69e28c28b6111ef55fac2c968590ef3a865c27df70141a464f1</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>liballoc11</Name>
-                      <Path>d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html</Path>
-                      <Anchor>a6152d006890d5e69e28c28b6111ef55fac2c77e1ccd4d823477c9c6aad93d79fa</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
                     <Name>HeapCalloc</Name>
                     <Path>d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html</Path>
                     <Anchor>a7bea98d4852bf4c7478267ffb4f1581c</Anchor>
@@ -12968,17 +12858,12 @@
                    <Node>
                     <Name>operator new</Name>
                     <Path>d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html</Path>
-                    <Anchor>a7febc01b67beac02b74f2c4ffa79895e</Anchor>
+                    <Anchor>acc39add3badc92c9e95a8336ed64f231</Anchor>
                    </Node>
                    <Node>
                     <Name>operator new[]</Name>
                     <Path>d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html</Path>
-                    <Anchor>aa1b73c9701dfb258006c1d0c93242e49</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>__attribute__</Name>
-                    <Path>d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html</Path>
-                    <Anchor>a936f61d0dee016c6cb10428cf80f25a7</Anchor>
+                    <Anchor>ac2ceee8095719b5fb4e3ef3ea9b6498f</Anchor>
                    </Node>
                    <Node>
                     <Name>AllocatorType</Name>
@@ -13053,11 +12938,6 @@
                 <Path>d7/d8d/CPU_8cpp.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>Halt</Name>
-                  <Path>d7/d8d/CPU_8cpp.html</Path>
-                  <Anchor>a8537403db78b47663dcf1fd13b354229</Anchor>
-                 </Node>
-                 <Node>
                   <Name>Hypervisor</Name>
                   <Path>d7/d8d/CPU_8cpp.html</Path>
                   <Anchor>aa6d49cc4518ee81a7c344eee5a1a874a</Anchor>
@@ -13081,16 +12961,6 @@
                   <Name>PageTable</Name>
                   <Path>d7/d8d/CPU_8cpp.html</Path>
                   <Anchor>a91241794b7196a732d94084fc08f6ec5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Pause</Name>
-                  <Path>d7/d8d/CPU_8cpp.html</Path>
-                  <Anchor>aeec952406880ca5e214245f461edb321</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Stop</Name>
-                  <Path>d7/d8d/CPU_8cpp.html</Path>
-                  <Anchor>a1e34d78eea69b8ed01bd333c7c78f5ea</Anchor>
                  </Node>
                  <Node>
                   <Name>Vendor</Name>
@@ -13155,6 +13025,11 @@
                 <Name>Debugger.cpp</Name>
                 <Path>db/d7b/Debugger_8cpp.html</Path>
                 <Subnodes>
+                 <Node>
+                  <Name>NEWLOCK</Name>
+                  <Path>db/d7b/Debugger_8cpp.html</Path>
+                  <Anchor>a8c7b36173da5995e9001f81be1c4ac34</Anchor>
+                 </Node>
                  <Node>
                   <Name>SysDbgWrite</Name>
                   <Path>db/d7b/Debugger_8cpp.html</Path>
@@ -13489,6 +13364,11 @@
                   <Anchor>a4add7784e43ec3d3b9c09d3ffc476a81</Anchor>
                  </Node>
                  <Node>
+                  <Name>__attribute__</Name>
+                  <Path>d7/db9/Symbols_8cpp.html</Path>
+                  <Anchor>a0d0f218a361a48d6b320575b41f94e37</Anchor>
+                 </Node>
+                 <Node>
                   <Name>SymTable</Name>
                   <Path>d7/db9/Symbols_8cpp.html</Path>
                   <Anchor>a03ebb6e07808fa5958881e92d485b506</Anchor>
@@ -13497,17 +13377,6 @@
                   <Name>TotalEntries</Name>
                   <Path>d7/db9/Symbols_8cpp.html</Path>
                   <Anchor>ab305c3f5407ef184047e9951a760e7f3</Anchor>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>SystemCalls.cpp</Name>
-                <Path>d9/d8f/Core_2SystemCalls_8cpp.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>SystemCallsHandler</Name>
-                  <Path>d9/d8f/Core_2SystemCalls_8cpp.html</Path>
-                  <Anchor>ada20e2588c027deb2dcca94342bf291d</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -16622,6 +16491,11 @@
                     <Anchor>a462bfa9dfea81692463ecb192183dd01</Anchor>
                     <Subnodes>
                      <Node>
+                      <Name>Unknown</Name>
+                      <Path>d9/d36/binfo_8h.html</Path>
+                      <Anchor>a462bfa9dfea81692463ecb192183dd01a4e81c184ac3ad48a389cd4454c4a05bb</Anchor>
+                     </Node>
+                     <Node>
                       <Name>Usable</Name>
                       <Path>d9/d36/binfo_8h.html</Path>
                       <Anchor>a462bfa9dfea81692463ecb192183dd01ab39314bfafff7bef77e9fcfab31bc7ac</Anchor>
@@ -16655,11 +16529,6 @@
                       <Name>Framebuffer</Name>
                       <Path>d9/d36/binfo_8h.html</Path>
                       <Anchor>a462bfa9dfea81692463ecb192183dd01aabce225a38783329d7d4161fc5104952</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Unknown</Name>
-                      <Path>d9/d36/binfo_8h.html</Path>
-                      <Anchor>a462bfa9dfea81692463ecb192183dd01a4e81c184ac3ad48a389cd4454c4a05bb</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
@@ -16713,6 +16582,22 @@
                 </Subnodes>
                </Node>
                <Node>
+                <Name>assert.h</Name>
+                <Path>dc/da7/assert_8h.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>assert</Name>
+                  <Path>dc/da7/assert_8h.html</Path>
+                  <Anchor>af576bf8ffa22a44e53018c67095ffbf0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>static_assert</Name>
+                  <Path>dc/da7/assert_8h.html</Path>
+                  <Anchor>a26ebd2e4b6c3a73d52d3942fd8446790</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>bitmap.hpp</Name>
                 <Path>d3/dff/Kernel_2include_2bitmap_8hpp.html</Path>
                 <Subnodes>
@@ -16746,6 +16631,307 @@
                     <Anchor>a54a793ec56592dcdd8c4d6c8e30df757</Anchor>
                    </Node>
                   </Subnodes>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>cargs.h</Name>
+                <Path>d1/d37/cargs_8h.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>cag_option</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>d8/ddb/structcag__option</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>access_letters</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>a74db259148d40beb3f1fcdbbecf22b22</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>access_name</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>a2d81aa9a9215027cf7087b3be2190326</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>description</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>aa3a294dc3fe76344cf07d538bad90a76</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>identifier</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>aee723c931719a2e5b84fce5f251ddec7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>value_name</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>a82eeae2b3e62b12a47d255548814f0d3</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_context</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>d3/df1/structcag__option__context</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>argc</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>afe65d1e8f058680fa8ba11b74d055928</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>argv</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>a022f13ab3df1d4baf7ebf637f344c47a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>forced_end</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>aefd1a51115d5345509fd4b681e0397fa</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>identifier</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>a79b4913443e932701b0c92e4d2eed826</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>index</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>a579ece2d9da71176678c2d1be2091dd2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>inner_index</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>af27b24ee98f8d3a06faa91fb1b8b8017</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>option_count</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>aba929e53194dbf701855e031dfed8fc7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>options</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>abf08062c8871250d75a5d44adb94eb99</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>value</Name>
+                    <Path>d1/d37/cargs_8h.html</Path>
+                    <Anchor>a5fb840d6294e740ae97be12dfee745cd</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>CAG_ARRAY_SIZE</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>afa765c7170d039d75c15dd7ca4a5df10</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CAG_EXPORT</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>a02c4b66f3e1449f12ecb1f21d0f0023a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CAG_IMPORT</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>a6da2acbee0a830533fc296a0af29c451</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CAG_LIBRARY_H</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>ac2fe41d2e6afacfe188b6ff3f0205411</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CAG_PUBLIC</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>a8c664b8d7097c5cae516736084e3f67a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>af074c7743355aa43d38b209b9f30cdc3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_context</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>a3807c9e412641303b1a61728751ecf8f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>FILE</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>a69437b5d572dd16d6d4fdbcbd066c7a9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_fetch</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>a2b1ed33caeb9298127af2a395037b114</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_get</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>a182c34456ce2654ab5c1475ee6f1f6da</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_get_index</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>a5cf196ffbde8da22abc44fedf0fada53</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_get_value</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>a0a5f9321202b899b6dd4c56ca77dc02e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_prepare</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>a1c4ad2bb1e897d5f00ab4add05e5e5e3</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_print</Name>
+                  <Path>d1/d37/cargs_8h.html</Path>
+                  <Anchor>afb322b0c732fa9df19f6b767b170774e</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>convert.h</Name>
+                <Path>d3/d82/convert_8h.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>abs</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>af15d7205d8d10c4820f997ce5c526279</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>atof</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a82014fa7b30ac1ebe1622a71ab49d3fb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>atoi</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a2032d00bcff61b1b912628210432b5c0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isdelim</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a44795c9b72669ec9dcea14f56fe37b2a</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isdigit</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a3fa45b35c8abf67a950b6d3d4063dede</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isempty</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a75b852b562036f85800f7e155266bd58</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isspace</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a56be4166e4673843042a548a7f513dbc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>itoa</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>ad8be154309b350a31eb551a4c0b00845</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>memcmp</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>ac376fcece8fcc2d0f8b1cf3de18b10df</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>memcpy</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a14938524dcbeb59d7117ba5e151ad1b1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>memmove</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a802c986820d3866639922b6bc9484f90</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>memset</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a362b656d9de3289b55b1035d14cb4b5d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>reverse</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>af927ee96b41aa243c2191642f1788665</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strcasecmp</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a3d8dd47ed6e64abdd742b81e73b6f2f2</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strcat</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>afca62bf1b7f91b44ba5c2ada54444fc9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strchr</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a88b07011b83b06b8856027f02d55a880</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strcmp</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a5206cb6f52495066146ae3a41d166eb7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strcpy</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>ac137d536ff0037b3856083cb8a1c19a7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strdup</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a73d3b899fd0ce1012c7cc634f62401ed</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strlen</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a7dcc610f4b04a8ee418f03a6d9256629</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strncasecmp</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>ade7c903cf6af190b441dc5e59372afed</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strncmp</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a9afae77e412a26e6c01e26b89d5c2b47</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strncpy</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a12f4a7953a24e197c8d26bf0493f8225</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strrchr</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a104a20698dd8f00e7d2711c811ea72ac</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strstr</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a4a710d86541afc6b7dafddcdb4b1c94f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strtok</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>ab0ad8275543a34aae52b7bcd02e79753</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>swap</Name>
+                  <Path>d3/d82/convert_8h.html</Path>
+                  <Anchor>a5caa2956a259c15d67de63fcddff3e57</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -21598,7 +21784,7 @@
                  <Node>
                   <Name>Halt</Name>
                   <Path>df/dbe/cpu_8hpp.html</Path>
-                  <Anchor>a8537403db78b47663dcf1fd13b354229</Anchor>
+                  <Anchor>a229ca5cae99e9c78473440579736f9e9</Anchor>
                  </Node>
                  <Node>
                   <Name>Hypervisor</Name>
@@ -21653,7 +21839,7 @@
                  <Node>
                   <Name>Pause</Name>
                   <Path>df/dbe/cpu_8hpp.html</Path>
-                  <Anchor>aeec952406880ca5e214245f461edb321</Anchor>
+                  <Anchor>a4b719133b3194c112f1c9646692f89eb</Anchor>
                  </Node>
                  <Node>
                   <Name>rdmsr</Name>
@@ -21688,7 +21874,7 @@
                  <Node>
                   <Name>Stop</Name>
                   <Path>df/dbe/cpu_8hpp.html</Path>
-                  <Anchor>a1e34d78eea69b8ed01bd333c7c78f5ea</Anchor>
+                  <Anchor>a93a9110fc2adbb8d7de6ea6b042dc7fd</Anchor>
                  </Node>
                  <Node>
                   <Name>StoreFence</Name>
@@ -22347,6 +22533,39 @@
                 <Path>dc/dac/io_8h.html</Path>
                </Node>
                <Node>
+                <Name>kconfig.hpp</Name>
+                <Path>d1/dfc/kconfig_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>KernelConfig</Name>
+                  <Path>d1/dfc/kconfig_8hpp.html</Path>
+                  <Anchor>d8/d9d/structKernelConfig</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>AllocatorType</Name>
+                    <Path>d1/dfc/kconfig_8hpp.html</Path>
+                    <Anchor>a2101b93f82512113802fd5c08a1b4f10</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Cores</Name>
+                    <Path>d1/dfc/kconfig_8hpp.html</Path>
+                    <Anchor>ac4c6bea0e76b26d970af2ab59d6ec14e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SchedulerType</Name>
+                    <Path>d1/dfc/kconfig_8hpp.html</Path>
+                    <Anchor>a90f99ba3b39e78c83f514ddb4c201244</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>ParseConfig</Name>
+                  <Path>d1/dfc/kconfig_8hpp.html</Path>
+                  <Anchor>a2c8b99eb6a42bc6e16995c173f1e5d6a</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>limits.h</Name>
                 <Path>d9/d86/limits_8h.html</Path>
                 <Subnodes>
@@ -22456,290 +22675,9 @@
                 <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>PageTable</Name>
-                  <Path>d3/d97/namespaceMemory.html</Path>
-                  <Anchor>d8/d04/structMemory_1_1PageTable</Anchor>
-                  <Subnodes>
-                   <Node>
-                    <Name>Entries</Name>
-                    <Path>d3/d97/namespaceMemory.html</Path>
-                    <Anchor>a55d8c0128e68810110260e1b9564f5a6</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>Physical</Name>
-                  <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>Physical</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a5eed67c7a06fcd8cf1c43fc6736cdc10</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>~Physical</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>aac9561ae08b2b622d59fef5c32b62c77</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>FreePage</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>ac18e5b02b4a715afc4a012b84eb62a56</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>FreePages</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a29b19b49e50594ef3661539c595a448b</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>GetFreeMemory</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a21f0b5f96ec2fd2610733bb94e69209e</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>GetReservedMemory</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a17133e6b26d8573066776218e44b1075</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>GetTotalMemory</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>ae245f38fbc387df7d7ce3e7e56396962</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>GetUsedMemory</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a46c9b6a72efc3fa824a4c8314585cfa2</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Init</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>aa270e307b6290fccdb37ce573faa10a3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>LockPage</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a03b49cf1ae297ad5be7113a8f5910f0c</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>LockPages</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a6da57b656dda9deaf31c401f8f084369</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>NEWLOCK</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>ab376c06b751ea742777c1099069a0af6</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>RequestPage</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a3a4128c8dfefc70e4a932d1afb7cabbf</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>RequestPages</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>ab11c32ea50c22f1916d261727c89ed70</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ReservePage</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a1c99c46de4ac41ed829976288e566eda</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ReservePages</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a8b24f9e331c8ff3bbe5dc47bbb0a16b7</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>SwapPage</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a4c6cef81fb24d43527cfab71f30648d3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>SwapPages</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a34205ff625987bba4571198cea354758</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>UnreservePage</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a6dcbfe3b9a418059af52c235ba7ce0b2</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>UnreservePages</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a9403b8bdb349c51206d3dcdf54b2fa2f</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>UnswapPage</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>aecc365338eaed8e54a5c9d1bcc7c8dd8</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>UnswapPages</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a69a4150ceb45e382de71b0423e68f778</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>FreeMemory</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>afff06e7597dcce7753d8e892b0eeaf63</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PageBitmap</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>aaa60401468889e565f3553f9918114d6</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PageBitmapIndex</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>ae90959f3828a1f57034b2671231092e3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ReservedMemory</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a5137e73db10626ed6b88a407beb883ea</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>TotalMemory</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a40efeea7e64fd1e850790a8bebb37d2a</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>UsedMemory</Name>
-                    <Path>d6/d05/classMemory_1_1Physical.html</Path>
-                    <Anchor>a25dcd6902cdec3bc1ab2a583c1f5d385</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>Virtual</Name>
-                  <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>PageMapIndexer</Name>
-                    <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                    <Subnodes>
-                     <Node>
-                      <Name>PageMapIndexer</Name>
-                      <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                      <Anchor>a6b140d93633f31444be39405c699ea90</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>P_i</Name>
-                      <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                      <Anchor>a66f5c2947bc3074bd7f1f103595304b5</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PD_i</Name>
-                      <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                      <Anchor>aba791d0c977bc26b69d238d28ea9efe0</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PDP_i</Name>
-                      <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                      <Anchor>ac475294b1283883cfa7a4ffaf1770c2d</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PT_i</Name>
-                      <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                      <Anchor>a8e11b7037bb10236f5df37c8ceebb5cd</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>Virtual</Name>
-                    <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                    <Anchor>acc634057cea394c0bee246c5de84f9a2</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>~Virtual</Name>
-                    <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                    <Anchor>a75c97a61bce18d901a6c22f9a8e087ec</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Map</Name>
-                    <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                    <Anchor>a623a607878888ca92c1d6353826112b2</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Map</Name>
-                    <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                    <Anchor>ac8288a8ce13de5c019b1b710e2f75520</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>NEWLOCK</Name>
-                    <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                    <Anchor>a424870be7b3e903d7898f394410580f6</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Unmap</Name>
-                    <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                    <Anchor>a709a3c086f881d0e0747eb54e485dcb1</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Unmap</Name>
-                    <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                    <Anchor>a27114d0d37e80051797103406ae8c1ce</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Table</Name>
-                    <Path>db/d82/classMemory_1_1Virtual.html</Path>
-                    <Anchor>af18bf9ffe4fcf280aef3571804146498</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>PageMapIndexer</Name>
-                  <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                  <Subnodes>
-                   <Node>
-                    <Name>PageMapIndexer</Name>
-                    <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                    <Anchor>a6b140d93633f31444be39405c699ea90</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>P_i</Name>
-                    <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                    <Anchor>a66f5c2947bc3074bd7f1f103595304b5</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PD_i</Name>
-                    <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                    <Anchor>aba791d0c977bc26b69d238d28ea9efe0</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PDP_i</Name>
-                    <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                    <Anchor>ac475294b1283883cfa7a4ffaf1770c2d</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PT_i</Name>
-                    <Path>d1/d5c/classMemory_1_1Virtual_1_1PageMapIndexer.html</Path>
-                    <Anchor>a8e11b7037bb10236f5df37c8ceebb5cd</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>FROM_PAGES</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>ac8af6466c29c08f6443c392f25181fe3</Anchor>
-                 </Node>
-                 <Node>
                   <Name>kcalloc</Name>
                   <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
                   <Anchor>a778ebd1959202ffd1073f89a446caf8b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>KERNEL_HEAP_BASE</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a75b788f53a0d45523a0c9b1ab96c28a4</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>KERNEL_VMA_OFFSET</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>ad972eda420e75d192868c7fa6eecc2ab</Anchor>
                  </Node>
                  <Node>
                   <Name>kfree</Name>
@@ -22757,321 +22695,24 @@
                   <Anchor>a2c1f3b7e5e4c2c928206834a68a75b6c</Anchor>
                  </Node>
                  <Node>
-                  <Name>NORMAL_VMA_OFFSET</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>ab2ed1581af9d674b98f3aa559cba18ac</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PAGE_SIZE</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a7d467c1d283fdfa1f2081ba1e0d01b6e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_BB</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>aee637f34b1af3b758f29ea5de4a08a70</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_EB</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a44e01e8177dee2f702b00c01c74fda21</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_GB</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>aa416d35af5d8c241371a56a4a48db8ae</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_GPB</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a4a9829fe64dbadbfbb16f4dc7a80008c</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_KB</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a48e69e8b3f2819f50bb21433c81bff0b</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_MB</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a2ff30a9626cd762e9ef7e8c420a2eb67</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_PAGES</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a10029add9db6f0340d9bd2be9b2d1048</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_PB</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a9de63d42f45ce6a03949005cb500c7a5</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_TB</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a64e3dbcd07bb6cb099a9f3beed68d870</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_YB</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a6333f25ceada59e273640e211387cfe7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>TO_ZB</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a5678065cf5ef2f37859b96a6d5fd964e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>USER_HEAP_BASE</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>aa6e99f855eb906d87180d7c66506ba49</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PTFlag</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a0e8df7832e7ea87aa8937798d28472b2</Anchor>
-                  <Subnodes>
-                   <Node>
-                    <Name>P</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a2125f893386d8c165e3cbab119d564a1</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>RW</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>US</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2ad4ef4c4cde11ca945e056ebb58f0a1c0</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PWT</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a90b062749a0e0013b88dabde45494ed2</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PCD</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2af2a033bef9b0bbe839b635da1386e783</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>A</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2af3e146b20fd80d3f8a19c4f818be6b96</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>D</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a037bb43b7a0b39d15e244bcd21895c6a</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PS</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a4c80755e0c786abc36bf8a6dca8b8eb9</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>G</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2af974f8b521f68af69f46dc38e8085fd6</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AVL0</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a3f1d0f3f64a48baf5fc970fd8899db40</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AVL1</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a3345775ca62b8b857753f5686bb144a2</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AVL2</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2ac4f54345765b2c5f44e110b35d72998a</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PAT</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a5c8c050693b01f950782843671b40a1f</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AVL3</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2ae01b7e59564e3807b7ef866649c65967</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AVL4</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a7eca5fecdec28d7ae18dc578c3c250b3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AVL5</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a14b98dd7ee2345891cf41aa5e98c8fba</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AVL6</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a9105855b9a72d4b3ffaa1a07ee5fb60b</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AVL7</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2aaa489d297ad617b1ea3ac8629d83d45c</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AVL8</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a19963122b498e3b0c1ae8bdb0972338e</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>AVL9</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a5f6992dccf80300e85d6efb97baf850f</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PK0</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a1bdedb5efe4accb235d214182096317c</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PK1</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a7a57bb137bb95fdf32fb8d78da3d8155</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PK2</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a17594ac6f1849e95869f20075bba89e0</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PK3</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a19c60832ac8d49710e5f41b29b1ad086</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>XD</Name>
-                    <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                    <Anchor>a0e8df7832e7ea87aa8937798d28472b2a218202248e1d4539a958ebbdf1474cca</Anchor>
-                   </Node>
-                  </Subnodes>
-                 </Node>
-                 <Node>
-                  <Name>__attribute__</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a2bdbeaf987eb026ce31eda65f4fb7abf</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>__attribute__</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>ae16a63ea6bc81e1e7a2d91db305fb371</Anchor>
-                 </Node>
-                 <Node>
                   <Name>HeapCalloc</Name>
                   <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a7bea98d4852bf4c7478267ffb4f1581c</Anchor>
+                  <Anchor>ac296350bb79ac35ec60a6e976bb4c99e</Anchor>
                  </Node>
                  <Node>
                   <Name>HeapFree</Name>
                   <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a1cf37a0b7bfe09f0bc495d5b141a424e</Anchor>
+                  <Anchor>aa7c05e2c931fbcebd2d48516e991f672</Anchor>
                  </Node>
                  <Node>
                   <Name>HeapMalloc</Name>
                   <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a2fb6d4d78df5e40feb40f7f2cc7aaedc</Anchor>
+                  <Anchor>aa4706c18fd31dbd81870ce719c098d96</Anchor>
                  </Node>
                  <Node>
                   <Name>HeapRealloc</Name>
                   <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a20aef67502f9e5301c1b080aad366fc8</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>InitializeMemoryManagement</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>ad649964c91f81b70283a5a92cc4dc89d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator delete</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a0bdfc4ea90f9da116443115a2b4dba30</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator delete</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a3707880d1e85a77b9c93a24f33e3fa4a</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator delete[]</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>abca455060bb75ee720ded1c340f24b2e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator delete[]</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a836ceaae254f31768f02c0efc2f1dac0</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator new</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a7febc01b67beac02b74f2c4ffa79895e</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>operator new[]</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>aa1b73c9701dfb258006c1d0c93242e49</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>__attribute__</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>ade2705d2fc35b0ba52c372051ae36b07</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>_kernel_data_end</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>aa12304a7675f8802098588e2791aab30</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>_kernel_end</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a963a9b86d21e2b5cfdeb947f25826c13</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>_kernel_rodata_end</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a4436d804622b0f1d5e1a887fafb8dade</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>_kernel_start</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a9aea202f26ca2a1779397d624e7053a1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>_kernel_text_end</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a7e3619529e2d26dc64efa44123bacbb9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>Entries</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a0d7331f59146f1484ddef3563e1bd377</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>KernelAllocator</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a662987a7fdf770aeb14d58ab61af2099</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>KernelPageTable</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>a75453869f36eec4673201bec86227825</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>PDEData</Name>
-                  <Path>d9/df8/Kernel_2include_2memory_8hpp.html</Path>
-                  <Anchor>aca487c067da8529c64bf8bb83190df74</Anchor>
+                  <Anchor>a0a040753e4a4cccce6354a50184d35eb</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -23695,6 +23336,11 @@
                 <Path>d4/d33/smp_8hpp.html</Path>
                 <Subnodes>
                  <Node>
+                  <Name>CPUArchData</Name>
+                  <Path>d4/d33/smp_8hpp.html</Path>
+                  <Anchor>d4/d49/structCPUArchData</Anchor>
+                 </Node>
+                 <Node>
                   <Name>CPUData</Name>
                   <Path>d4/d33/smp_8hpp.html</Path>
                   <Anchor>de/df9/structCPUData</Anchor>
@@ -23707,7 +23353,7 @@
                    <Node>
                     <Name>Data</Name>
                     <Path>d4/d33/smp_8hpp.html</Path>
-                    <Anchor>a880caee248bdf85beb4e27d2155e0725</Anchor>
+                    <Anchor>a93ddd23b8fbf8e3ba048d636f7459aa4</Anchor>
                    </Node>
                    <Node>
                     <Name>ErrorCode</Name>
@@ -23717,12 +23363,27 @@
                    <Node>
                     <Name>ID</Name>
                     <Path>d4/d33/smp_8hpp.html</Path>
-                    <Anchor>a37bb5180e4e32cae6fb5db74c476fb5b</Anchor>
+                    <Anchor>a887cdcc1269b29105548dbf02564b0c0</Anchor>
                    </Node>
                    <Node>
                     <Name>IsActive</Name>
                     <Path>d4/d33/smp_8hpp.html</Path>
                     <Anchor>a76db22a0f9d9bce50f8b711eaaf5cc41</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Stack</Name>
+                    <Path>d4/d33/smp_8hpp.html</Path>
+                    <Anchor>a80fa92f817af4ab0758c40ee9bae8ec2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SystemCallStack</Name>
+                    <Path>d4/d33/smp_8hpp.html</Path>
+                    <Anchor>a9bc9d1366d3f1b837fb2590e06a670fe</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>TempStack</Name>
+                    <Path>d4/d33/smp_8hpp.html</Path>
+                    <Anchor>a20ba120aa51328492a06b575a64be811</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -23744,7 +23405,7 @@
                  <Node>
                   <Name>GetCPU</Name>
                   <Path>d4/d33/smp_8hpp.html</Path>
-                  <Anchor>a3f12ddb481349ef130e29ed0522c1bb2</Anchor>
+                  <Anchor>a7f3502076f52c44d781b7b6c426b5bed</Anchor>
                  </Node>
                  <Node>
                   <Name>GetCurrentCPU</Name>
@@ -23764,7 +23425,7 @@
                  <Node>
                   <Name>Data</Name>
                   <Path>d4/d33/smp_8hpp.html</Path>
-                  <Anchor>a93462051e04a57e2459e6a2ab149a01c</Anchor>
+                  <Anchor>a988ede77cc07d67458272a7c82709f6a</Anchor>
                  </Node>
                  <Node>
                   <Name>ErrorCode</Name>
@@ -23774,123 +23435,27 @@
                  <Node>
                   <Name>ID</Name>
                   <Path>d4/d33/smp_8hpp.html</Path>
-                  <Anchor>a3bd97f3df8bfa82b683821eeace4b3d6</Anchor>
+                  <Anchor>ae9c27346afc38e44402e452477847b53</Anchor>
                  </Node>
                  <Node>
                   <Name>IsActive</Name>
                   <Path>d4/d33/smp_8hpp.html</Path>
                   <Anchor>a92c6b1cf703f9e064f5efc0907f80379</Anchor>
                  </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>string.h</Name>
-                <Path>da/d66/string_8h.html</Path>
-                <Subnodes>
                  <Node>
-                  <Name>isdelim</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a44795c9b72669ec9dcea14f56fe37b2a</Anchor>
+                  <Name>Stack</Name>
+                  <Path>d4/d33/smp_8hpp.html</Path>
+                  <Anchor>ab5ee9682c9b21bd3edc1bd4e75250d6f</Anchor>
                  </Node>
                  <Node>
-                  <Name>isdigit</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a3fa45b35c8abf67a950b6d3d4063dede</Anchor>
+                  <Name>SystemCallStack</Name>
+                  <Path>d4/d33/smp_8hpp.html</Path>
+                  <Anchor>ab5cdfc9d7d95e40909772d3a3090a9bd</Anchor>
                  </Node>
                  <Node>
-                  <Name>isempty</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a75b852b562036f85800f7e155266bd58</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>isspace</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a56be4166e4673843042a548a7f513dbc</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>memcmp</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>ac376fcece8fcc2d0f8b1cf3de18b10df</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>memcpy</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a14938524dcbeb59d7117ba5e151ad1b1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>memmove</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a802c986820d3866639922b6bc9484f90</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>memset</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a362b656d9de3289b55b1035d14cb4b5d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strcasecmp</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a3d8dd47ed6e64abdd742b81e73b6f2f2</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strcat</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>afca62bf1b7f91b44ba5c2ada54444fc9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strchr</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a88b07011b83b06b8856027f02d55a880</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strcmp</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a5206cb6f52495066146ae3a41d166eb7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strcpy</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>ac137d536ff0037b3856083cb8a1c19a7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strdup</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a73d3b899fd0ce1012c7cc634f62401ed</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strlen</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a7dcc610f4b04a8ee418f03a6d9256629</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strncasecmp</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>ade7c903cf6af190b441dc5e59372afed</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strncmp</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a9afae77e412a26e6c01e26b89d5c2b47</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strncpy</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a12f4a7953a24e197c8d26bf0493f8225</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strrchr</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a104a20698dd8f00e7d2711c811ea72ac</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strstr</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>a4a710d86541afc6b7dafddcdb4b1c94f</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strtok</Name>
-                  <Path>da/d66/string_8h.html</Path>
-                  <Anchor>ab0ad8275543a34aae52b7bcd02e79753</Anchor>
+                  <Name>TempStack</Name>
+                  <Path>d4/d33/smp_8hpp.html</Path>
+                  <Anchor>a18913d95b2356ad810edb27a488df3c4</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -23987,6 +23552,183 @@
                   <Name>InitializeSystemCalls</Name>
                   <Path>d0/d35/syscalls_8hpp.html</Path>
                   <Anchor>a623b6425a07c15a56d165d69c08b67f2</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>task.hpp</Name>
+                <Path>d8/da1/task_8hpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>ExecutionSecurity</Name>
+                  <Path>d9/d3e/namespaceTasking.html</Path>
+                  <Anchor>dd/d85/structTasking_1_1ExecutionSecurity</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>Elevation</Name>
+                    <Path>d9/d3e/namespaceTasking.html</Path>
+                    <Anchor>a48ebf026f15a544df499e32c9dc7d339</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>PCB</Name>
+                  <Path>d9/d3e/namespaceTasking.html</Path>
+                  <Anchor>dd/dd1/structTasking_1_1PCB</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>Name</Name>
+                    <Path>d9/d3e/namespaceTasking.html</Path>
+                    <Anchor>ae33532aeb44602803ff57c1bda7c8b2f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PID</Name>
+                    <Path>d9/d3e/namespaceTasking.html</Path>
+                    <Anchor>a9f8288ad1503409e46c9b666113a95c6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Security</Name>
+                    <Path>d9/d3e/namespaceTasking.html</Path>
+                    <Anchor>ace518f61498a7b723e4bb013c97850fe</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Status</Name>
+                    <Path>d9/d3e/namespaceTasking.html</Path>
+                    <Anchor>a96b13015f3d51f07bc6ae64f76db056b</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>TCB</Name>
+                  <Path>d9/d3e/namespaceTasking.html</Path>
+                  <Anchor>de/d96/structTasking_1_1TCB</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>EntryPoint</Name>
+                    <Path>d9/d3e/namespaceTasking.html</Path>
+                    <Anchor>a22ee7989c9d822948a31341b724a4c0e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Parent</Name>
+                    <Path>d9/d3e/namespaceTasking.html</Path>
+                    <Anchor>af0c8f4ea4ffedffd0cfe586bc98e87d1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>TID</Name>
+                    <Path>d9/d3e/namespaceTasking.html</Path>
+                    <Anchor>a6e65b05e95320950ec745f723a9638a3</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Task</Name>
+                  <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>Task</Name>
+                    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                    <Anchor>a4bfbac409b20452a47c2f97dec639139</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>~Task</Name>
+                    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                    <Anchor>a0530c5c3d7ef85439f8527280126a8b6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CreateProcess</Name>
+                    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                    <Anchor>a3fcf5a7027119ba461928666540dc861</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CreateThread</Name>
+                    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                    <Anchor>a2c6d9ac1768690c0303b85e4a43c1216</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>IP</Name>
+                  <Path>d8/da1/task_8hpp.html</Path>
+                  <Anchor>a1d6c5ad87e3a04eb27f6958a4d7890d9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>UPID</Name>
+                  <Path>d8/da1/task_8hpp.html</Path>
+                  <Anchor>a04e2f481f6f63a104eee16ed8e34d0c0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>UTID</Name>
+                  <Path>d8/da1/task_8hpp.html</Path>
+                  <Anchor>af5a2dfa2e9c69bcc3e82a0d7dc7a939e</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ExecutionElevation</Name>
+                  <Path>d8/da1/task_8hpp.html</Path>
+                  <Anchor>aef4db521806424a1ea390c51ce6dbba2</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>UnknownElevation</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>aef4db521806424a1ea390c51ce6dbba2a0e4b38f253f43b332cc72a0dc634af60</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Kernel</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>aef4db521806424a1ea390c51ce6dbba2a954df91fe1d707441efeafbafa086b37</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>System</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>aef4db521806424a1ea390c51ce6dbba2ac865bd0f2d82647acb1e77354e0b5247</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Idle</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>aef4db521806424a1ea390c51ce6dbba2a52132d168f7f9e7620ef2e46040be28d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>User</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>aef4db521806424a1ea390c51ce6dbba2ab4361355ef5fe95d2d097e6250288db6</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>ExecutionStatus</Name>
+                  <Path>d8/da1/task_8hpp.html</Path>
+                  <Anchor>a06ca137d3ea4c32a5842f9450c230a0f</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>UnknownStatus</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fae4434abf01289f805a0123cb3c674588</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Running</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa04712359124153cb2d93d8f09cabe8ed</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Sleeping</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa04b9cd09b1c1946e6dd37f79903067fd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Waiting</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0faf0c3719b73450e078a5c5c2d05cd5b83</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Stopped</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa8922799a2dec53328f38596177889efd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Terminated</Name>
+                    <Path>d8/da1/task_8hpp.html</Path>
+                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa773f96280709f0b4ee36122b01357f51</Anchor>
+                   </Node>
+                  </Subnodes>
                  </Node>
                 </Subnodes>
                </Node>
@@ -24832,6 +24574,228 @@
                 <Path>d6/de7/Kernel_2Library_2Bitmap_8cpp.html</Path>
                </Node>
                <Node>
+                <Name>cargs.c</Name>
+                <Path>db/d92/cargs_8c.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>CAG_OPTION_PRINT_DISTANCE</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a3754a9e91ea720ce360ff5cd275f525f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CAG_OPTION_PRINT_MIN_INDENTION</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a4cc20758b028cfb9a6a6c80d6c9cdf41</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_fetch</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a74528d0c224851c3725466b7b2a02658</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_find_by_letter</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a593cd1a6cb413f9a68ff19e5111b367d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_find_by_name</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a20011cf48a536dc454b08be9658b002d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_find_next</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a2d30a56505e743b5f6307ae2087f888b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_get</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a0aaaeb4ebe7eb184212b2d1fbc35b033</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_get_index</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a163dea3a7d465f174ad9de0845284790</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_get_print_indention</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a36b055ef9b4dfd576e29e51db61d7569</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_get_value</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a25f15d507596cd0b1bcae14799255043</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_is_argument_string</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>ab85da9927049f454c34b4335d1d7f003</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_parse_access_letter</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a05346d489bdec91fe9029f8e467b0039</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_parse_access_name</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>aea30f6010e565ed46ec5e6b0a3059176</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_parse_value</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>adffec98cc5db69eb419c110b1ce49ec1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_prepare</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a52c3b8334e38bc71cd2855486f346c3f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_print</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a12a15673d601286954487733996a630b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_print_letters</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>ade785dfd2ea84feeb0fb4c67e287f67d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_print_name</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a5d36116f9004798db34615a12497bc54</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_print_value</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a8e3d1db4c1c8cdd8b293d8f476d98605</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>cag_option_shift</Name>
+                  <Path>db/d92/cargs_8c.html</Path>
+                  <Anchor>a09872a4289ebc4bd42f14f372eae3c66</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Convert.c</Name>
+                <Path>de/def/Convert_8c.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>abs</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>af15d7205d8d10c4820f997ce5c526279</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>atof</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a82014fa7b30ac1ebe1622a71ab49d3fb</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>atoi</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a2032d00bcff61b1b912628210432b5c0</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isdigit</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a3fa45b35c8abf67a950b6d3d4063dede</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isempty</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a75b852b562036f85800f7e155266bd58</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>isspace</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a56be4166e4673843042a548a7f513dbc</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>itoa</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>ad8be154309b350a31eb551a4c0b00845</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>memcmp</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>ac376fcece8fcc2d0f8b1cf3de18b10df</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>memcpy</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a14938524dcbeb59d7117ba5e151ad1b1</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>memmove</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a802c986820d3866639922b6bc9484f90</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>memset</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a362b656d9de3289b55b1035d14cb4b5d</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>reverse</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>af927ee96b41aa243c2191642f1788665</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strcat</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>afca62bf1b7f91b44ba5c2ada54444fc9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strchr</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a88b07011b83b06b8856027f02d55a880</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strcmp</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a5206cb6f52495066146ae3a41d166eb7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strcpy</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>ac137d536ff0037b3856083cb8a1c19a7</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strdup</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a73d3b899fd0ce1012c7cc634f62401ed</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strlen</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a7dcc610f4b04a8ee418f03a6d9256629</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strncmp</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a07f4a84c11c106e95c32b6ab509346ef</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strncpy</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a12f4a7953a24e197c8d26bf0493f8225</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>strstr</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a4a710d86541afc6b7dafddcdb4b1c94f</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>swap</Name>
+                  <Path>de/def/Convert_8c.html</Path>
+                  <Anchor>a5caa2956a259c15d67de63fcddff3e57</Anchor>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
                 <Name>cxxabi.cpp</Name>
                 <Path>d7/ded/Kernel_2Library_2cxxabi_8cpp.html</Path>
                 <Subnodes>
@@ -25476,6 +25440,11 @@
                    <Node>
                     <Name>F</Name>
                     <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
+                    <Anchor>a19956a356fdea4a486d8c385daaec639</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>F</Name>
+                    <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
                     <Anchor>a4d6bc97166bb287b6f50c263c0fa3219</Anchor>
                    </Node>
                    <Node>
@@ -25551,6 +25520,11 @@
                    <Node>
                     <Name>raw_factor</Name>
                     <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
+                    <Anchor>aad65182c266c7f3d5d1a9c76d67f7776</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>raw_factor</Name>
+                    <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
                     <Anchor>a6ca58048ee4d2c706d0b3a196cd847f8</Anchor>
                    </Node>
                   </Subnodes>
@@ -25559,6 +25533,11 @@
                   <Name>ABS_FOR_PRINTING</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
                   <Anchor>a8d302099b82242df3916cbe38d476694</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>ADVANCE_IN_FORMAT_STRING</Name>
+                  <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
+                  <Anchor>adfc91b180601d6587c09c5faecc56460</Anchor>
                  </Node>
                  <Node>
                   <Name>BASE_BINARY</Name>
@@ -25671,6 +25650,11 @@
                   <Anchor>ad2a522d43ad53357ddd2ee3968d5c96b</Anchor>
                  </Node>
                  <Node>
+                  <Name>PRINTF_CHECK_FOR_NUL_IN_FORMAT_SPECIFIER</Name>
+                  <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
+                  <Anchor>ae30baef6c79d6259f11df587c427f28c</Anchor>
+                 </Node>
+                 <Node>
                   <Name>PRINTF_CONCATENATE</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
                   <Anchor>ad7bcde5ce2ee4bf99e403e74fe1aaa2e</Anchor>
@@ -25781,11 +25765,6 @@
                   <Anchor>af43407109a0952f9ce5dee4160f21235</Anchor>
                  </Node>
                  <Node>
-                  <Name>_vsnprintf</Name>
-                  <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>a8feb1c2df10a747b975a3444176d633f</Anchor>
-                 </Node>
-                 <Node>
                   <Name>append_termination_with_gadget</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
                   <Anchor>abca97f8028408b908783562d8ece40d2</Anchor>
@@ -25793,7 +25772,7 @@
                  <Node>
                   <Name>apply_scaling</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>abf1409c0d1ade160bad75d0934d9c6f2</Anchor>
+                  <Anchor>af9d84a95511596714485c6d6afc53c5d</Anchor>
                  </Node>
                  <Node>
                   <Name>atou_</Name>
@@ -25803,7 +25782,7 @@
                  <Node>
                   <Name>bastardized_floor</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>ac25f085203652c1bf1355ad12c8c8227</Anchor>
+                  <Anchor>ac3886fc240b75493d23f601209123868</Anchor>
                  </Node>
                  <Node>
                   <Name>buffer_gadget</Name>
@@ -25813,17 +25792,22 @@
                  <Node>
                   <Name>discarding_gadget</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>a536a8c662ca3865999ea935ca0658541</Anchor>
+                  <Anchor>ae4c1281e033232dbda7fdee460ad5012</Anchor>
                  </Node>
                  <Node>
                   <Name>extern_putchar_gadget</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>a342f350abcae94712acce5cebd1eef4a</Anchor>
+                  <Anchor>aabeb3d2f5a82964d17ba95b16bb5d463</Anchor>
                  </Node>
                  <Node>
                   <Name>fctprintf</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
                   <Anchor>a568090fd375722092fc13aa54b253918</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>format_string_loop</Name>
+                  <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
+                  <Anchor>a0a535913e9418c6ad6b6a94950ccb24f</Anchor>
                  </Node>
                  <Node>
                   <Name>function_gadget</Name>
@@ -25833,12 +25817,12 @@
                  <Node>
                   <Name>get_bit_access</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>a415be1c3d47bfe5e7d7f60710bf5aee6</Anchor>
+                  <Anchor>ac9ade00a0147a837faa072efc6be209d</Anchor>
                  </Node>
                  <Node>
                   <Name>get_components</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>aeb693680ca054bf2b054821a58de88c7</Anchor>
+                  <Anchor>a84e704b48947a6d91bd0fef26e6d2dd0</Anchor>
                  </Node>
                  <Node>
                   <Name>get_exp2</Name>
@@ -25848,12 +25832,12 @@
                  <Node>
                   <Name>get_normalized_components</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>aef0730f71463ec27d7f10c1eba1c11c2</Anchor>
+                  <Anchor>a136267510121e5b38f8859b10b9cc8ab</Anchor>
                  </Node>
                  <Node>
                   <Name>get_sign_bit</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>aaf6e951337db93053dcbba7aa0e276b7</Anchor>
+                  <Anchor>a919498e81481493683af3e75218e7a07</Anchor>
                  </Node>
                  <Node>
                   <Name>is_digit_</Name>
@@ -25863,7 +25847,7 @@
                  <Node>
                   <Name>log10_of_positive</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>a5d00eb0684b9859f66d96141f83a2dcd</Anchor>
+                  <Anchor>a50aaee0d156882ef83cfb946db8f0c54</Anchor>
                  </Node>
                  <Node>
                   <Name>out_rev_</Name>
@@ -25878,7 +25862,7 @@
                  <Node>
                   <Name>pow10_of_int</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>a10f63259ed9caa2eae995c9c6229f1e1</Anchor>
+                  <Anchor>aca005e9951176d149a8ad66beb85db98</Anchor>
                  </Node>
                  <Node>
                   <Name>print_broken_up_decimal</Name>
@@ -25888,17 +25872,17 @@
                  <Node>
                   <Name>print_decimal_number</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>a22468942ce1d60e5d49d9bf3c9dd23a1</Anchor>
+                  <Anchor>a6e49028a264ece74cd2b927449104a0a</Anchor>
                  </Node>
                  <Node>
                   <Name>print_exponential_number</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>aaacfd70f0a57839575b33d659996ef97</Anchor>
+                  <Anchor>a81c9e57e6bca852f148ee0ed512c8532</Anchor>
                  </Node>
                  <Node>
                   <Name>print_floating_point</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>a93852b093dd3ed06a0b1ea8a99ced338</Anchor>
+                  <Anchor>a311b25ba30599dacdb0b0ec514213fa9</Anchor>
                  </Node>
                  <Node>
                   <Name>print_integer</Name>
@@ -25943,12 +25927,12 @@
                  <Node>
                   <Name>unapply_scaling</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>a999cd262e8c1a427ab2a37ae9d16e444</Anchor>
+                  <Anchor>a8a1b42fc2c1935c1d215bdda7a14b5e7</Anchor>
                  </Node>
                  <Node>
                   <Name>update_normalization</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>adbb98e2b5b1ecdab69cc0021e669f255</Anchor>
+                  <Anchor>a5198e02906a54e3c6a5f0d60e1f9c744</Anchor>
                  </Node>
                  <Node>
                   <Name>vfctprintf</Name>
@@ -25966,6 +25950,11 @@
                   <Anchor>a4e02341da161d0b6202df7f7a693f60c</Anchor>
                  </Node>
                  <Node>
+                  <Name>vsnprintf_impl</Name>
+                  <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
+                  <Anchor>a28d245e91dad9b97d346ce151a83807c</Anchor>
+                 </Node>
+                 <Node>
                   <Name>vsprintf_</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
                   <Anchor>a28548a8b32597154c9e16b8d2a392830</Anchor>
@@ -25973,85 +25962,70 @@
                  <Node>
                   <Name>powers_of_10</Name>
                   <Path>df/d7f/Kernel_2Library_2printf_8c.html</Path>
-                  <Anchor>a7a090e76213ee7abcf1e6dba515dc6a2</Anchor>
+                  <Anchor>a974e6c4c3f16de1b8382bc1bcbb3b65f</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>SystemCalls</Name>
+              <Path>dir_fcf8e18894f194e302f59c8376612fd7.html</Path>
+              <Subnodes>
                <Node>
-                <Name>String.c</Name>
-                <Path>d4/db5/String_8c.html</Path>
+                <Name>Syscalls.cpp</Name>
+                <Path>d5/de7/Syscalls_8cpp.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>isdigit</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a3fa45b35c8abf67a950b6d3d4063dede</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>isempty</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a75b852b562036f85800f7e155266bd58</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>isspace</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a56be4166e4673843042a548a7f513dbc</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>memcmp</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>ac376fcece8fcc2d0f8b1cf3de18b10df</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>memcpy</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a14938524dcbeb59d7117ba5e151ad1b1</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>memmove</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a802c986820d3866639922b6bc9484f90</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>memset</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a362b656d9de3289b55b1035d14cb4b5d</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strcat</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>afca62bf1b7f91b44ba5c2ada54444fc9</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strcmp</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a5206cb6f52495066146ae3a41d166eb7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strcpy</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>ac137d536ff0037b3856083cb8a1c19a7</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strlen</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a7dcc610f4b04a8ee418f03a6d9256629</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strncmp</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a07f4a84c11c106e95c32b6ab509346ef</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strncpy</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a12f4a7953a24e197c8d26bf0493f8225</Anchor>
-                 </Node>
-                 <Node>
-                  <Name>strstr</Name>
-                  <Path>d4/db5/String_8c.html</Path>
-                  <Anchor>a4a710d86541afc6b7dafddcdb4b1c94f</Anchor>
+                  <Name>SystemCallsHandler</Name>
+                  <Path>d5/de7/Syscalls_8cpp.html</Path>
+                  <Anchor>ada20e2588c027deb2dcca94342bf291d</Anchor>
                  </Node>
                 </Subnodes>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Tasking</Name>
+              <Path>dir_e84271607a0ed4280951d9e6a4794fe3.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>Mono.cpp</Name>
+                <Path>d9/d3e/Mono_8cpp.html</Path>
+               </Node>
+               <Node>
+                <Name>Multi.cpp</Name>
+                <Path>d1/dfa/Multi_8cpp.html</Path>
+               </Node>
+               <Node>
+                <Name>Task.cpp</Name>
+                <Path>d3/d71/Task_8cpp.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>KConfig.cpp</Name>
+              <Path>d3/d81/KConfig_8cpp.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>fprintf</Name>
+                <Path>d3/d81/KConfig_8cpp.html</Path>
+                <Anchor>a4db4281a3169b26f4f69f18f20440e5d</Anchor>
+               </Node>
+               <Node>
+                <Name>fputs</Name>
+                <Path>d3/d81/KConfig_8cpp.html</Path>
+                <Anchor>a21dd329c917c905d4e35458e789eeef6</Anchor>
+               </Node>
+               <Node>
+                <Name>ParseConfig</Name>
+                <Path>d3/d81/KConfig_8cpp.html</Path>
+                <Anchor>a2c8b99eb6a42bc6e16995c173f1e5d6a</Anchor>
+               </Node>
+               <Node>
+                <Name>ConfigOptions</Name>
+                <Path>d3/d81/KConfig_8cpp.html</Path>
+                <Anchor>ab1069e38efd94d28945178e1f99e25d5</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -26059,11 +26033,6 @@
               <Name>Kernel.cpp</Name>
               <Path>d2/d00/Kernel_8cpp.html</Path>
               <Subnodes>
-               <Node>
-                <Name>arm64Entry</Name>
-                <Path>d2/d00/Kernel_8cpp.html</Path>
-                <Anchor>a896eb3c58494fd1e38b5f4a300633155</Anchor>
-               </Node>
                <Node>
                 <Name>Entry</Name>
                 <Path>d2/d00/Kernel_8cpp.html</Path>
@@ -26085,11 +26054,6 @@
                 <Anchor>a948b7a0779c308ac5502c57e282e6933</Anchor>
                </Node>
                <Node>
-                <Name>x32Entry</Name>
-                <Path>d2/d00/Kernel_8cpp.html</Path>
-                <Anchor>aa8a7c6e6e3bdb2a0d88988b5083c06bf</Anchor>
-               </Node>
-               <Node>
                 <Name>bInfo</Name>
                 <Path>d2/d00/Kernel_8cpp.html</Path>
                 <Anchor>a48ddf8736a693c7ee5cf00028b014fcf</Anchor>
@@ -26098,6 +26062,11 @@
                 <Name>BootClock</Name>
                 <Path>d2/d00/Kernel_8cpp.html</Path>
                 <Anchor>abbd931d872aa0ab4442bee0a937a4c3f</Anchor>
+               </Node>
+               <Node>
+                <Name>Config</Name>
+                <Path>d2/d00/Kernel_8cpp.html</Path>
+                <Anchor>af1e9bf8b2f6ad92b9da145f9eb732663</Anchor>
                </Node>
                <Node>
                 <Name>Display</Name>
@@ -26119,6 +26088,11 @@
                 <Path>d2/d00/Kernel_8cpp.html</Path>
                 <Anchor>ac4acbd97a34e46e0e3b1f643e7d9ce94</Anchor>
                </Node>
+               <Node>
+                <Name>TaskManager</Name>
+                <Path>d2/d00/Kernel_8cpp.html</Path>
+                <Anchor>a5a8d7736911609823f0ff8f3c8f51df2</Anchor>
+               </Node>
               </Subnodes>
              </Node>
              <Node>
@@ -26131,6 +26105,11 @@
                 <Anchor>a44a5261814dd20bdfce96c257845cb1b</Anchor>
                </Node>
                <Node>
+                <Name>KernelMainThread</Name>
+                <Path>d0/daa/kernel_8h.html</Path>
+                <Anchor>a30d0f477733ba7d378ef836693d3b48d</Anchor>
+               </Node>
+               <Node>
                 <Name>KPrint</Name>
                 <Path>d0/daa/kernel_8h.html</Path>
                 <Anchor>a153b7d68a0bd505e7ea656f2fd8fcd64</Anchor>
@@ -26139,6 +26118,17 @@
                 <Name>bInfo</Name>
                 <Path>d0/daa/kernel_8h.html</Path>
                 <Anchor>a68decd7ed883f5721759653b86acd3c1</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>KThread.cpp</Name>
+              <Path>d4/dfc/KThread_8cpp.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>KernelMainThread</Name>
+                <Path>d4/dfc/KThread_8cpp.html</Path>
+                <Anchor>a6e3dd376cdd7abd6de13ef188c5aec29</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -27329,6 +27319,11 @@
                      <Node>
                       <Name>F</Name>
                       <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
+                      <Anchor>a19956a356fdea4a486d8c385daaec639</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>F</Name>
+                      <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
                       <Anchor>a4d6bc97166bb287b6f50c263c0fa3219</Anchor>
                      </Node>
                      <Node>
@@ -27400,6 +27395,11 @@
                       <Name>multiply</Name>
                       <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
                       <Anchor>a20a9219b33c6c3af38d83904470cc788</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>raw_factor</Name>
+                      <Path>d0/dc4/Lynx_2UEFI_2src_2printf_8c.html</Path>
+                      <Anchor>aad65182c266c7f3d5d1a9c76d67f7776</Anchor>
                      </Node>
                      <Node>
                       <Name>raw_factor</Name>

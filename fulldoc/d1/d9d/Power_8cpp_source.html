@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('d1/d9d/Power_8cpp_source.html','../../
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        } <span class="keywordflow">while</span> (((temp) &amp; (1 &lt;&lt; (1))) != 0);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        outb(0x64, 0xFE);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a1e34d78eea69b8ed01bd333c7c78f5ea">CPU::Stop</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a93a9110fc2adbb8d7de6ea6b042dc7fd">CPU::Stop</a>();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">void</span> Power::Shutdown()</div>
@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('d1/d9d/Power_8cpp_source.html','../../
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        outl(0xB004, 0x2000); <span class="comment">// for qemu</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        outl(0x604, 0x2000);  <span class="comment">// if qemu not working, bochs and older versions of qemu</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        outl(0x4004, 0x3400); <span class="comment">// virtual box</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a1e34d78eea69b8ed01bd333c7c78f5ea">CPU::Stop</a>();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a93a9110fc2adbb8d7de6ea6b042dc7fd">CPU::Stop</a>();</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="../../d0/df9/classPower_1_1Power.html">Power::Power</a>()</div>
@@ -208,8 +208,9 @@ $(document).ready(function(){initNavTree('d1/d9d/Power_8cpp_source.html','../../
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aKernel_8cpp_html_a48ddf8736a693c7ee5cf00028b014fcf"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf">bInfo</a></div><div class="ttdeci">BootInfo * bInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00015">Kernel.cpp:15</a></div></div>
+<div class="ttc" id="aKernel_8cpp_html_a48ddf8736a693c7ee5cf00028b014fcf"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf">bInfo</a></div><div class="ttdeci">BootInfo * bInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00017">Kernel.cpp:17</a></div></div>
 <div class="ttc" id="aclassACPI_1_1MADT_html"><div class="ttname"><a href="../../da/db9/classACPI_1_1MADT.html">ACPI::MADT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00188">acpi.hpp:188</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a93a9110fc2adbb8d7de6ea6b042dc7fd"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a93a9110fc2adbb8d7de6ea6b042dc7fd">CPU::Stop</a></div><div class="ttdeci">static void Stop()</div><div class="ttdoc">Stop the CPU (infinite loop)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00151">cpu.hpp:151</a></div></div>
 <div class="ttc" id="aclassACPI_1_1DSDT_html"><div class="ttname"><a href="../../dd/dc9/classACPI_1_1DSDT.html">ACPI::DSDT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00249">acpi.hpp:249</a></div></div>
 <div class="ttc" id="apower_8hpp_html"><div class="ttname"><a href="../../db/dfa/power_8hpp.html">power.hpp</a></div></div>
 <div class="ttc" id="aclassPower_1_1Power_html"><div class="ttname"><a href="../../d0/df9/classPower_1_1Power.html">Power::Power</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dfa/power_8hpp_source.html#l00008">power.hpp:8</a></div></div>
@@ -217,7 +218,6 @@ $(document).ready(function(){initNavTree('d1/d9d/Power_8cpp_source.html','../../
 <div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00041">debug.h:41</a></div></div>
 <div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00038">debug.h:38</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00060">types.h:60</a></div></div>
-<div class="ttc" id="anamespaceCPU_html_a1e34d78eea69b8ed01bd333c7c78f5ea"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a1e34d78eea69b8ed01bd333c7c78f5ea">CPU::Stop</a></div><div class="ttdeci">void Stop()</div><div class="ttdoc">Stop the CPU (infinite loop)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8d/CPU_8cpp_source.html#l00108">CPU.cpp:108</a></div></div>
 <div class="ttc" id="aio_8h_html"><div class="ttname"><a href="../../dc/dac/io_8h.html">io.h</a></div></div>
 <div class="ttc" id="anamespacePower_html"><div class="ttname"><a href="../../d5/dff/namespacePower.html">Power</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dfa/power_8hpp_source.html#l00006">power.hpp:6</a></div></div>
 <div class="ttc" id="adebug_8h_html"><div class="ttname"><a href="../../db/d16/debug_8h.html">debug.h</a></div></div>

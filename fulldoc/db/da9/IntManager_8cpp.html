@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('db/da9/IntManager_8cpp.html','../../')
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d8/d0a/interrupts_8hpp_source.html">interrupts.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d35/syscalls_8hpp_source.html">syscalls.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d89/hashmap_8hpp_source.html">hashmap.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dac/io_8h_source.html">io.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../dc/d04/crashhandler_8hpp_source.html">../crashhandler.hpp</a>&quot;</code><br />
 <code>#include &quot;../kernel.h&quot;</code><br />
@@ -109,7 +110,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5a61de0364db4cc1e154113e9c99fa28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da9/IntManager_8cpp.html#a5a61de0364db4cc1e154113e9c99fa28">__attribute__</a> ((no_stack_protector)) void <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp.html#a29a0f4b501e81633a741ed838dace121">ExceptionHandler</a>(void *<a class="el" href="../../d4/d33/smp_8hpp.html#a93462051e04a57e2459e6a2ab149a01c">Data</a>)</td></tr>
+<tr class="memitem:a5a61de0364db4cc1e154113e9c99fa28"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/da9/IntManager_8cpp.html#a5a61de0364db4cc1e154113e9c99fa28">__attribute__</a> ((no_stack_protector)) void <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp.html#a29a0f4b501e81633a741ed838dace121">ExceptionHandler</a>(void *<a class="el" href="../../d4/d33/smp_8hpp.html#a988ede77cc07d67458272a7c82709f6a">Data</a>)</td></tr>
 <tr class="separator:a5a61de0364db4cc1e154113e9c99fa28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a480247e915be578424a6a6dec1bf505b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a480247e915be578424a6a6dec1bf505b">Interrupts::Initialize</a> (int Core)</td></tr>
 <tr class="separator:a480247e915be578424a6a6dec1bf505b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,7 +118,7 @@ Functions</h2></td></tr>
 <tr class="separator:a3db24a6e8fed89333b0eec359263b4c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ef30e8ff4ebe60791d0b42b61caaefa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a8ef30e8ff4ebe60791d0b42b61caaefa">Interrupts::InitializeTimer</a> (int Core)</td></tr>
 <tr class="separator:a8ef30e8ff4ebe60791d0b42b61caaefa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1abd49217ac2518db88e2c14fb94789c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a1abd49217ac2518db88e2c14fb94789c">Interrupts::MainInterruptHandler</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#a93462051e04a57e2459e6a2ab149a01c">Data</a>)</td></tr>
+<tr class="memitem:a1abd49217ac2518db88e2c14fb94789c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc3/namespaceInterrupts.html#a1abd49217ac2518db88e2c14fb94789c">Interrupts::MainInterruptHandler</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#a988ede77cc07d67458272a7c82709f6a">Data</a>)</td></tr>
 <tr class="separator:a1abd49217ac2518db88e2c14fb94789c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -142,8 +143,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{ <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a>(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>); }</div>
+<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{ <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a>(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00004">Data</a>, and <a class="el" href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle()</a>.</p>
 

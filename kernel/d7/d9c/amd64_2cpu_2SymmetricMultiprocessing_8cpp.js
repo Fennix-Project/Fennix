@@ -10,7 +10,7 @@ var amd64_2cpu_2SymmetricMultiprocessing_8cpp =
       [ "CORE", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa6fb62912f795482b5e8a28aded6b02e9", null ]
     ] ],
     [ "__attribute__", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a878aa217dfc93e844e800902a750e5d1", null ],
-    [ "GetCPU", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#acb4382e3522b10e4fbdabfcebe44023b", null ],
+    [ "GetCPU", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a5c96f68448959502b30a092fb050d6b5", null ],
     [ "GetCurrentCPU", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d", null ],
     [ "Initialize", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a83df3dc276fba1e673fcf5551113ca7e", null ],
     [ "StartCPU", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#ad88aab0241b508d296eb247bb0d77448", null ],

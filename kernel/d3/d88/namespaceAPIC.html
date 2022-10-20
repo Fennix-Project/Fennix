@@ -111,6 +111,44 @@ Enumerations</h2></td></tr>
 <a class="el" href="../../d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220eacb2efab7eb8236ab1b5f9c8a89b3abcd">EdgeLevel</a> = 8
  }</td></tr>
 <tr class="separator:a01bf47af903eca375ade62aa4d9a220e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86492322c9530136899b76278960e1fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1fa">APICRegisters</a> { <br />
+&#160;&#160;<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faab563ae573f97d92c61a9ef317b7ff5fe">APIC_ONESHOT</a> = (0 &lt;&lt; 17), 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faac33a75a4905e353458653d271728dded">APIC_PERIODIC</a> = (1 &lt;&lt; 17), 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaf68d214ed11d47b8c516224467bbaf4a">APIC_TSC_DEADLINE</a> = (2 &lt;&lt; 17), 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa86eaaf35439a1955f2d5f749f775485f">APIC_ID</a> = 0x20, 
+<br />
+&#160;&#160;<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa5a62b0ea11cdd31ffe3a3a7c9a4f446c">APIC_VER</a> = 0x30, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa9f3be7889260305af3399c47d189cf23">APIC_TPR</a> = 0x80, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaa518fb7f280f940bae4457c9ee0439ec">APIC_APR</a> = 0x90, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaf24ac891928a416f2aa5ea046d0763cb">APIC_PPR</a> = 0xa0, 
+<br />
+&#160;&#160;<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa54295577d0cf539cb397fb7bce997022">APIC_EOI</a> = 0xb0, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaab8ddc733847295ed9d7c205286165af">APIC_RRD</a> = 0xc0, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa2599365736553b0831b40f262716fdad">APIC_LDR</a> = 0xd0, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faae44ba19b8a53e47aaad83d4858dd9fea">APIC_DFR</a> = 0xe0, 
+<br />
+&#160;&#160;<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faac4c8716fe3b4655fd105124f5b9bd0b1">APIC_SVR</a> = 0xf0, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaebbbf8154ebec249899b8d1f25610198">APIC_ISR</a> = 0x100, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa3d58bd7663bd08aa251a5ab113fb6eb7">APIC_TMR</a> = 0x180, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa507bfb9c21941afea4276598031f0513">APIC_IRR</a> = 0x200, 
+<br />
+&#160;&#160;<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa42811a5536afbe0843593587fe8eba7f">APIC_ESR</a> = 0x280, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa7daa930d6a802bf8af435d40ea6b4951">APIC_ICRLO</a> = 0x300, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa98ce422df7086f3af3a471926660219b">APIC_ICRHI</a> = 0x310, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa645c89b9de58d1f061f7dd95f717f68b">APIC_TIMER</a> = 0x320, 
+<br />
+&#160;&#160;<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faad8a52be0baf01cba26e75aac42ea3ab0">APIC_THERMAL</a> = 0x330, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa4cdfc9a9e25dee8333045b809ec91f56">APIC_PERF</a> = 0x340, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa2d288249e346cc8469cf61214cba07a7">APIC_LINT0</a> = 0x350, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa612949a60c606dad8c9bfb428f60c418">APIC_LINT1</a> = 0x360, 
+<br />
+&#160;&#160;<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa48af3365178d1c435e202b5e915b5722">APIC_ERROR</a> = 0x370, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faab3b6c0894738924596d5f96400d2d7d2">APIC_TICR</a> = 0x380, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa09e05ac0a253be0e3dbb4c94d155aab6">APIC_TCCR</a> = 0x390, 
+<a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faace95338f23e05516c1c99f219f246190">APIC_TDCR</a> = 0x3e0
+<br />
+ }</td></tr>
+<tr class="separator:a86492322c9530136899b76278960e1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="db/d20/structAPIC_1_1IOAPICVersion" id="db/d20/structAPIC_1_1IOAPICVersion"></a>
@@ -157,6 +195,83 @@ Version</td>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a86492322c9530136899b76278960e1fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86492322c9530136899b76278960e1fa">&#9670;&nbsp;</a></span>APICRegisters</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1fa">APIC::APICRegisters</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faab563ae573f97d92c61a9ef317b7ff5fe"></a>APIC_ONESHOT&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faac33a75a4905e353458653d271728dded"></a>APIC_PERIODIC&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faaf68d214ed11d47b8c516224467bbaf4a"></a>APIC_TSC_DEADLINE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa86eaaf35439a1955f2d5f749f775485f"></a>APIC_ID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa5a62b0ea11cdd31ffe3a3a7c9a4f446c"></a>APIC_VER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa9f3be7889260305af3399c47d189cf23"></a>APIC_TPR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faaa518fb7f280f940bae4457c9ee0439ec"></a>APIC_APR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faaf24ac891928a416f2aa5ea046d0763cb"></a>APIC_PPR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa54295577d0cf539cb397fb7bce997022"></a>APIC_EOI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faaab8ddc733847295ed9d7c205286165af"></a>APIC_RRD&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa2599365736553b0831b40f262716fdad"></a>APIC_LDR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faae44ba19b8a53e47aaad83d4858dd9fea"></a>APIC_DFR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faac4c8716fe3b4655fd105124f5b9bd0b1"></a>APIC_SVR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faaebbbf8154ebec249899b8d1f25610198"></a>APIC_ISR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa3d58bd7663bd08aa251a5ab113fb6eb7"></a>APIC_TMR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa507bfb9c21941afea4276598031f0513"></a>APIC_IRR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa42811a5536afbe0843593587fe8eba7f"></a>APIC_ESR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa7daa930d6a802bf8af435d40ea6b4951"></a>APIC_ICRLO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa98ce422df7086f3af3a471926660219b"></a>APIC_ICRHI&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa645c89b9de58d1f061f7dd95f717f68b"></a>APIC_TIMER&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faad8a52be0baf01cba26e75aac42ea3ab0"></a>APIC_THERMAL&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa4cdfc9a9e25dee8333045b809ec91f56"></a>APIC_PERF&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa2d288249e346cc8469cf61214cba07a7"></a>APIC_LINT0&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa612949a60c606dad8c9bfb428f60c418"></a>APIC_LINT1&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa48af3365178d1c435e202b5e915b5722"></a>APIC_ERROR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faab3b6c0894738924596d5f96400d2d7d2"></a>APIC_TICR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faa09e05ac0a253be0e3dbb4c94d155aab6"></a>APIC_TCCR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a86492322c9530136899b76278960e1faace95338f23e05516c1c99f219f246190"></a>APIC_TDCR&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d79/apic_8hpp_source.html#l00011">11</a> of file <a class="el" href="../../dd/d79/apic_8hpp_source.html">apic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faab563ae573f97d92c61a9ef317b7ff5fe">APIC_ONESHOT</a> = (0 &lt;&lt; 17),      <span class="comment">// LVT One-Shot Mode  (for Timer)</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faac33a75a4905e353458653d271728dded">APIC_PERIODIC</a> = (1 &lt;&lt; 17),     <span class="comment">// LVT Periodic Mode (for Timer)</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaf68d214ed11d47b8c516224467bbaf4a">APIC_TSC_DEADLINE</a> = (2 &lt;&lt; 17), <span class="comment">// LVT Timer/sDeadline (for Timer)</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="comment">// source from: https://github.com/pdoane/osdev/blob/master/intr/local_apic.c</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa86eaaf35439a1955f2d5f749f775485f">APIC_ID</a> = 0x20,       <span class="comment">// Local APIC ID</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa5a62b0ea11cdd31ffe3a3a7c9a4f446c">APIC_VER</a> = 0x30,      <span class="comment">// Local APIC Version</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa9f3be7889260305af3399c47d189cf23">APIC_TPR</a> = 0x80,      <span class="comment">// Task Priority</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaa518fb7f280f940bae4457c9ee0439ec">APIC_APR</a> = 0x90,      <span class="comment">// Arbitration Priority</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaf24ac891928a416f2aa5ea046d0763cb">APIC_PPR</a> = 0xa0,      <span class="comment">// Processor Priority</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa54295577d0cf539cb397fb7bce997022">APIC_EOI</a> = 0xb0,      <span class="comment">// EOI</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaab8ddc733847295ed9d7c205286165af">APIC_RRD</a> = 0xc0,      <span class="comment">// Remote Read</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa2599365736553b0831b40f262716fdad">APIC_LDR</a> = 0xd0,      <span class="comment">// Logical Destination</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faae44ba19b8a53e47aaad83d4858dd9fea">APIC_DFR</a> = 0xe0,      <span class="comment">// Destination Format</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faac4c8716fe3b4655fd105124f5b9bd0b1">APIC_SVR</a> = 0xf0,      <span class="comment">// Spurious Interrupt Vector</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaebbbf8154ebec249899b8d1f25610198">APIC_ISR</a> = 0x100,     <span class="comment">// In-Service (8 registers)</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa3d58bd7663bd08aa251a5ab113fb6eb7">APIC_TMR</a> = 0x180,     <span class="comment">// Trigger Mode (8 registers)</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa507bfb9c21941afea4276598031f0513">APIC_IRR</a> = 0x200,     <span class="comment">// Interrupt Request (8 registers)</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa42811a5536afbe0843593587fe8eba7f">APIC_ESR</a> = 0x280,     <span class="comment">// Error Status</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa7daa930d6a802bf8af435d40ea6b4951">APIC_ICRLO</a> = 0x300,   <span class="comment">// Interrupt Command</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa98ce422df7086f3af3a471926660219b">APIC_ICRHI</a> = 0x310,   <span class="comment">// Interrupt Command [63:32]</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa645c89b9de58d1f061f7dd95f717f68b">APIC_TIMER</a> = 0x320,   <span class="comment">// LVT Timer</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faad8a52be0baf01cba26e75aac42ea3ab0">APIC_THERMAL</a> = 0x330, <span class="comment">// LVT Thermal Sensor</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa4cdfc9a9e25dee8333045b809ec91f56">APIC_PERF</a> = 0x340,    <span class="comment">// LVT Performance Counter</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa2d288249e346cc8469cf61214cba07a7">APIC_LINT0</a> = 0x350,   <span class="comment">// LVT LINT0</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa612949a60c606dad8c9bfb428f60c418">APIC_LINT1</a> = 0x360,   <span class="comment">// LVT LINT1</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa48af3365178d1c435e202b5e915b5722">APIC_ERROR</a> = 0x370,   <span class="comment">// LVT Error</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faab3b6c0894738924596d5f96400d2d7d2">APIC_TICR</a> = 0x380,    <span class="comment">// Initial Count (for Timer)</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa09e05ac0a253be0e3dbb4c94d155aab6">APIC_TCCR</a> = 0x390,    <span class="comment">// Current Count (for Timer)</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faace95338f23e05516c1c99f219f246190">APIC_TDCR</a> = 0x3e0,    <span class="comment">// Divide Configuration (for Timer)</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    };</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="a01bf47af903eca375ade62aa4d9a220e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01bf47af903eca375ade62aa4d9a220e">&#9670;&nbsp;</a></span>IOAPICFlags</h2>
 
@@ -205,9 +320,37 @@ Version</td>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa2599365736553b0831b40f262716fdad"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa2599365736553b0831b40f262716fdad">APIC::APIC_LDR</a></div><div class="ttdeci">@ APIC_LDR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00024">apic.hpp:24</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa645c89b9de58d1f061f7dd95f717f68b"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa645c89b9de58d1f061f7dd95f717f68b">APIC::APIC_TIMER</a></div><div class="ttdeci">@ APIC_TIMER</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00033">apic.hpp:33</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faad8a52be0baf01cba26e75aac42ea3ab0"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faad8a52be0baf01cba26e75aac42ea3ab0">APIC::APIC_THERMAL</a></div><div class="ttdeci">@ APIC_THERMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00034">apic.hpp:34</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faace95338f23e05516c1c99f219f246190"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faace95338f23e05516c1c99f219f246190">APIC::APIC_TDCR</a></div><div class="ttdeci">@ APIC_TDCR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00041">apic.hpp:41</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa42811a5536afbe0843593587fe8eba7f"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa42811a5536afbe0843593587fe8eba7f">APIC::APIC_ESR</a></div><div class="ttdeci">@ APIC_ESR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00030">apic.hpp:30</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa507bfb9c21941afea4276598031f0513"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa507bfb9c21941afea4276598031f0513">APIC::APIC_IRR</a></div><div class="ttdeci">@ APIC_IRR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00029">apic.hpp:29</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faaa518fb7f280f940bae4457c9ee0439ec"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaa518fb7f280f940bae4457c9ee0439ec">APIC::APIC_APR</a></div><div class="ttdeci">@ APIC_APR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00020">apic.hpp:20</a></div></div>
 <div class="ttc" id="anamespaceAPIC_html_a01bf47af903eca375ade62aa4d9a220ea37cc0f96f4611772449a8d7278e4f0df"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220ea37cc0f96f4611772449a8d7278e4f0df">APIC::ActiveHighLow</a></div><div class="ttdeci">@ ActiveHighLow</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00020">AdvancedProgrammableInterruptController.cpp:20</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa98ce422df7086f3af3a471926660219b"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa98ce422df7086f3af3a471926660219b">APIC::APIC_ICRHI</a></div><div class="ttdeci">@ APIC_ICRHI</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00032">apic.hpp:32</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faac4c8716fe3b4655fd105124f5b9bd0b1"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faac4c8716fe3b4655fd105124f5b9bd0b1">APIC::APIC_SVR</a></div><div class="ttdeci">@ APIC_SVR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00026">apic.hpp:26</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faaf24ac891928a416f2aa5ea046d0763cb"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaf24ac891928a416f2aa5ea046d0763cb">APIC::APIC_PPR</a></div><div class="ttdeci">@ APIC_PPR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00021">apic.hpp:21</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa5a62b0ea11cdd31ffe3a3a7c9a4f446c"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa5a62b0ea11cdd31ffe3a3a7c9a4f446c">APIC::APIC_VER</a></div><div class="ttdeci">@ APIC_VER</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00018">apic.hpp:18</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa9f3be7889260305af3399c47d189cf23"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa9f3be7889260305af3399c47d189cf23">APIC::APIC_TPR</a></div><div class="ttdeci">@ APIC_TPR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00019">apic.hpp:19</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faaebbbf8154ebec249899b8d1f25610198"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaebbbf8154ebec249899b8d1f25610198">APIC::APIC_ISR</a></div><div class="ttdeci">@ APIC_ISR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00027">apic.hpp:27</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa09e05ac0a253be0e3dbb4c94d155aab6"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa09e05ac0a253be0e3dbb4c94d155aab6">APIC::APIC_TCCR</a></div><div class="ttdeci">@ APIC_TCCR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00040">apic.hpp:40</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa48af3365178d1c435e202b5e915b5722"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa48af3365178d1c435e202b5e915b5722">APIC::APIC_ERROR</a></div><div class="ttdeci">@ APIC_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00038">apic.hpp:38</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa612949a60c606dad8c9bfb428f60c418"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa612949a60c606dad8c9bfb428f60c418">APIC::APIC_LINT1</a></div><div class="ttdeci">@ APIC_LINT1</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00037">apic.hpp:37</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa3d58bd7663bd08aa251a5ab113fb6eb7"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa3d58bd7663bd08aa251a5ab113fb6eb7">APIC::APIC_TMR</a></div><div class="ttdeci">@ APIC_TMR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00028">apic.hpp:28</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faae44ba19b8a53e47aaad83d4858dd9fea"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faae44ba19b8a53e47aaad83d4858dd9fea">APIC::APIC_DFR</a></div><div class="ttdeci">@ APIC_DFR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00025">apic.hpp:25</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa2d288249e346cc8469cf61214cba07a7"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa2d288249e346cc8469cf61214cba07a7">APIC::APIC_LINT0</a></div><div class="ttdeci">@ APIC_LINT0</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00036">apic.hpp:36</a></div></div>
 <div class="ttc" id="anamespaceAPIC_html_a01bf47af903eca375ade62aa4d9a220eacb2efab7eb8236ab1b5f9c8a89b3abcd"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220eacb2efab7eb8236ab1b5f9c8a89b3abcd">APIC::EdgeLevel</a></div><div class="ttdeci">@ EdgeLevel</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00021">AdvancedProgrammableInterruptController.cpp:21</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faab563ae573f97d92c61a9ef317b7ff5fe"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faab563ae573f97d92c61a9ef317b7ff5fe">APIC::APIC_ONESHOT</a></div><div class="ttdeci">@ APIC_ONESHOT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00013">apic.hpp:13</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa54295577d0cf539cb397fb7bce997022"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa54295577d0cf539cb397fb7bce997022">APIC::APIC_EOI</a></div><div class="ttdeci">@ APIC_EOI</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00022">apic.hpp:22</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa4cdfc9a9e25dee8333045b809ec91f56"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa4cdfc9a9e25dee8333045b809ec91f56">APIC::APIC_PERF</a></div><div class="ttdeci">@ APIC_PERF</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00035">apic.hpp:35</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faaab8ddc733847295ed9d7c205286165af"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaab8ddc733847295ed9d7c205286165af">APIC::APIC_RRD</a></div><div class="ttdeci">@ APIC_RRD</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00023">apic.hpp:23</a></div></div>
 <div class="ttc" id="anamespaceAPIC_html_a340dca14fd5779eb5d0b3786d827996eaab4cc7b86031cab8eb05cfa8c783245c"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a340dca14fd5779eb5d0b3786d827996eaab4cc7b86031cab8eb05cfa8c783245c">APIC::GetIOAPICVersion</a></div><div class="ttdeci">@ GetIOAPICVersion</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00015">AdvancedProgrammableInterruptController.cpp:15</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa7daa930d6a802bf8af435d40ea6b4951"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa7daa930d6a802bf8af435d40ea6b4951">APIC::APIC_ICRLO</a></div><div class="ttdeci">@ APIC_ICRLO</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00031">apic.hpp:31</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faab3b6c0894738924596d5f96400d2d7d2"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faab3b6c0894738924596d5f96400d2d7d2">APIC::APIC_TICR</a></div><div class="ttdeci">@ APIC_TICR</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00039">apic.hpp:39</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faaf68d214ed11d47b8c516224467bbaf4a"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faaf68d214ed11d47b8c516224467bbaf4a">APIC::APIC_TSC_DEADLINE</a></div><div class="ttdeci">@ APIC_TSC_DEADLINE</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00015">apic.hpp:15</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faac33a75a4905e353458653d271728dded"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faac33a75a4905e353458653d271728dded">APIC::APIC_PERIODIC</a></div><div class="ttdeci">@ APIC_PERIODIC</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00014">apic.hpp:14</a></div></div>
+<div class="ttc" id="anamespaceAPIC_html_a86492322c9530136899b76278960e1faa86eaaf35439a1955f2d5f749f775485f"><div class="ttname"><a href="../../d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faa86eaaf35439a1955f2d5f749f775485f">APIC::APIC_ID</a></div><div class="ttdeci">@ APIC_ID</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00017">apic.hpp:17</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
