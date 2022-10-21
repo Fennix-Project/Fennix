@@ -2,7 +2,7 @@ var Kernel_8cpp =
 [
     [ "Entry", "d2/d00/Kernel_8cpp.html#a81fa7adf1dfb1ec4c8b09f0e723ec90b", null ],
     [ "KPrint", "d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e", null ],
-    [ "NEWLOCK", "d2/d00/Kernel_8cpp.html#a0a494f645bd2f722bf21860dad6615ec", null ],
+    [ "NewLock", "d2/d00/Kernel_8cpp.html#ae6d61016b12b4f29e5f1a0ce5aa93285", null ],
     [ "putchar", "d2/d00/Kernel_8cpp.html#a948b7a0779c308ac5502c57e282e6933", null ],
     [ "bInfo", "d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf", null ],
     [ "BootClock", "d2/d00/Kernel_8cpp.html#abbd931d872aa0ab4442bee0a937a4c3f", null ],

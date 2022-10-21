@@ -3265,18 +3265,6 @@
             <Path>d9/d3e/namespaceTasking.html</Path>
             <Subnodes>
              <Node>
-              <Name>ExecutionSecurity</Name>
-              <Path>d9/d3e/namespaceTasking.html</Path>
-              <Anchor>dd/d85/structTasking_1_1ExecutionSecurity</Anchor>
-              <Subnodes>
-               <Node>
-                <Name>Elevation</Name>
-                <Path>d9/d3e/namespaceTasking.html</Path>
-                <Anchor>a48ebf026f15a544df499e32c9dc7d339</Anchor>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
               <Name>PCB</Name>
               <Path>d9/d3e/namespaceTasking.html</Path>
               <Anchor>dd/dd1/structTasking_1_1PCB</Anchor>
@@ -3294,12 +3282,12 @@
                <Node>
                 <Name>Security</Name>
                 <Path>d9/d3e/namespaceTasking.html</Path>
-                <Anchor>ace518f61498a7b723e4bb013c97850fe</Anchor>
+                <Anchor>a9d7688af2a2c20aa1b0dfcebfbc3b303</Anchor>
                </Node>
                <Node>
                 <Name>Status</Name>
                 <Path>d9/d3e/namespaceTasking.html</Path>
-                <Anchor>a96b13015f3d51f07bc6ae64f76db056b</Anchor>
+                <Anchor>a7edc51939760bc98c3a1388e94933045</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -3320,12 +3308,39 @@
                <Node>
                 <Name>CreateProcess</Name>
                 <Path>dc/dc5/classTasking_1_1Task.html</Path>
-                <Anchor>a3fcf5a7027119ba461928666540dc861</Anchor>
+                <Anchor>ad9754e720a32afa7b940de41b1dac14d</Anchor>
                </Node>
                <Node>
                 <Name>CreateThread</Name>
                 <Path>dc/dc5/classTasking_1_1Task.html</Path>
                 <Anchor>a2c6d9ac1768690c0303b85e4a43c1216</Anchor>
+               </Node>
+               <Node>
+                <Name>GetCurrentProcess</Name>
+                <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                <Anchor>a8d504087e940342e41993644b426572f</Anchor>
+               </Node>
+               <Node>
+                <Name>GetCurrentThread</Name>
+                <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                <Anchor>aba5e4027551527accbcfd9ddd4deb67a</Anchor>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>TaskSecurity</Name>
+              <Path>d9/d3e/namespaceTasking.html</Path>
+              <Anchor>d6/df6/structTasking_1_1TaskSecurity</Anchor>
+              <Subnodes>
+               <Node>
+                <Name>Elevation</Name>
+                <Path>d9/d3e/namespaceTasking.html</Path>
+                <Anchor>ae7c60d14b8e3d82535679e49e1fbe29e</Anchor>
+               </Node>
+               <Node>
+                <Name>UniqueToken</Name>
+                <Path>d9/d3e/namespaceTasking.html</Path>
+                <Anchor>ab4dc9e6e4877a9a50f38783896a429e9</Anchor>
                </Node>
               </Subnodes>
              </Node>
@@ -4423,6 +4438,16 @@
               <Name>Checksum</Name>
               <Path>d4/d33/smp_8hpp.html</Path>
               <Anchor>a25a06badea2d0d07c8cebb637108a23e</Anchor>
+             </Node>
+             <Node>
+              <Name>CurrentProcess</Name>
+              <Path>d4/d33/smp_8hpp.html</Path>
+              <Anchor>a0314565291f820d971ae294edf981b70</Anchor>
+             </Node>
+             <Node>
+              <Name>CurrentThread</Name>
+              <Path>d4/d33/smp_8hpp.html</Path>
+              <Anchor>a861a2e808fae58fa46cf4b6694b93bd7</Anchor>
              </Node>
              <Node>
               <Name>Data</Name>
@@ -6436,6 +6461,23 @@
             <Anchor>da/d6b/structmultiboot__tag__framebuffer_8____unnamed_____8____unnamed____</Anchor>
             <Subnodes>
              <Node>
+              <Name>framebuffer_palette</Name>
+              <Path>d5/dba/multiboot2_8h.html</Path>
+              <Anchor>ac7df1fdfee327da3c205ba9086e4802a</Anchor>
+             </Node>
+             <Node>
+              <Name>framebuffer_palette_num_colors</Name>
+              <Path>d5/dba/multiboot2_8h.html</Path>
+              <Anchor>a9ea6d9ae58149f37ee098ce870bf07f0</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>multiboot_tag_framebuffer.__unnamed__.__unnamed__</Name>
+            <Path>d5/dba/multiboot2_8h.html</Path>
+            <Anchor>da/d6b/structmultiboot__tag__framebuffer_8____unnamed_____8____unnamed____</Anchor>
+            <Subnodes>
+             <Node>
               <Name>framebuffer_blue_field_position</Name>
               <Path>d5/dba/multiboot2_8h.html</Path>
               <Anchor>ace107d23f7f4af6fd8d969926c5c9d16</Anchor>
@@ -6464,23 +6506,6 @@
               <Name>framebuffer_red_mask_size</Name>
               <Path>d5/dba/multiboot2_8h.html</Path>
               <Anchor>a0d868424e2b703471e3d73c0a72bc75c</Anchor>
-             </Node>
-            </Subnodes>
-           </Node>
-           <Node>
-            <Name>multiboot_tag_framebuffer.__unnamed__.__unnamed__</Name>
-            <Path>d5/dba/multiboot2_8h.html</Path>
-            <Anchor>da/d6b/structmultiboot__tag__framebuffer_8____unnamed_____8____unnamed____</Anchor>
-            <Subnodes>
-             <Node>
-              <Name>framebuffer_palette</Name>
-              <Path>d5/dba/multiboot2_8h.html</Path>
-              <Anchor>ac7df1fdfee327da3c205ba9086e4802a</Anchor>
-             </Node>
-             <Node>
-              <Name>framebuffer_palette_num_colors</Name>
-              <Path>d5/dba/multiboot2_8h.html</Path>
-              <Anchor>a9ea6d9ae58149f37ee098ce870bf07f0</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -7297,11 +7322,6 @@
             <Path>d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html</Path>
            </Node>
            <Node>
-            <Name>Tasking::ExecutionSecurity</Name>
-            <Path>d9/d3e/namespaceTasking.html</Path>
-            <Anchor>dd/d85/structTasking_1_1ExecutionSecurity</Anchor>
-           </Node>
-           <Node>
             <Name>ACPI::ACPI::FADTHeader</Name>
             <Path>d3/d21/classACPI_1_1ACPI.html</Path>
             <Anchor>df/d0c/structACPI_1_1ACPI_1_1FADTHeader</Anchor>
@@ -7911,6 +7931,11 @@
            <Node>
             <Name>Tasking::Task</Name>
             <Path>dc/dc5/classTasking_1_1Task.html</Path>
+           </Node>
+           <Node>
+            <Name>Tasking::TaskSecurity</Name>
+            <Path>d9/d3e/namespaceTasking.html</Path>
+            <Anchor>d6/df6/structTasking_1_1TaskSecurity</Anchor>
            </Node>
            <Node>
             <Name>Tasking::TCB</Name>
@@ -12264,6 +12289,11 @@
                     <Anchor>a1b9f6b7e09b509ae416f1d70e4f712ef</Anchor>
                    </Node>
                    <Node>
+                    <Name>__adddf3</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a12830205277384b86037925095698449</Anchor>
+                   </Node>
+                   <Node>
                     <Name>__ashldi3</Name>
                     <Path>d0/d18/ArithmeticOperations_8c.html</Path>
                     <Anchor>a077bde72bd4bad5ed44de1e1bf204b1f</Anchor>
@@ -12294,6 +12324,11 @@
                     <Anchor>a9ff656b54ffdacb67df4e3b8fe323e24</Anchor>
                    </Node>
                    <Node>
+                    <Name>__divdf3</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>ae164db0e315f4191cdc73676b5cea21b</Anchor>
+                   </Node>
+                   <Node>
                     <Name>__divdi3</Name>
                     <Path>d0/d18/ArithmeticOperations_8c.html</Path>
                     <Anchor>a56ea63e25db9445bde46e852a916d0cd</Anchor>
@@ -12304,9 +12339,49 @@
                     <Anchor>a53c90af6acd70bc5f0e56eb65ea130b5</Anchor>
                    </Node>
                    <Node>
+                    <Name>__eqdf2</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a5cef915b861143502fa6677aaad5836b</Anchor>
+                   </Node>
+                   <Node>
                     <Name>__ffsdi2</Name>
                     <Path>d0/d18/ArithmeticOperations_8c.html</Path>
                     <Anchor>a7d9409e7e64ecc8d2229dd47949d9a62</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__fixdfdi</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>afe4e1e64f2795a8649e79c9144ff4cfc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__fixdfsi</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a2d966c436a26f847ef2a5718bc5537d8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__floatdidf</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a847be821446a8f9337df542f3c69a64f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__floatsidf</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a168fd43b90c82c7df9f911cb6621fb44</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__gedf2</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a2c6c87a4402b141428e9d552dbb412d2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__gtdf2</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a060db764e6d21355f14a32a5e8ef6e0a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__ledf2</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a8b28c12f324adf3361c2b1c19473b807</Anchor>
                    </Node>
                    <Node>
                     <Name>__lshrdi3</Name>
@@ -12314,9 +12389,24 @@
                     <Anchor>a0c8d51d91f5217fa5832d3a181fbd635</Anchor>
                    </Node>
                    <Node>
+                    <Name>__ltdf2</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a33e31458210f32475670facec29ea3d4</Anchor>
+                   </Node>
+                   <Node>
                     <Name>__moddi3</Name>
                     <Path>d0/d18/ArithmeticOperations_8c.html</Path>
                     <Anchor>a90102e050c7a459d19f99108d6b4b4c0</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__muldf3</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>ad84587c0fd7657788f036b42f5d37e7b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__nedf2</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a217f7b7d94461799a0264398df524bdd</Anchor>
                    </Node>
                    <Node>
                     <Name>__popcountdi2</Name>
@@ -12327,6 +12417,11 @@
                     <Name>__popcountsi2</Name>
                     <Path>d0/d18/ArithmeticOperations_8c.html</Path>
                     <Anchor>a84c610895108e6510c064690a834b2cd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__subdf3</Name>
+                    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+                    <Anchor>a8243402917a8e3551e58276ce3a32e92</Anchor>
                    </Node>
                    <Node>
                     <Name>__udivdi3</Name>
@@ -12906,9 +13001,9 @@
                   <Path>d8/d17/Display_8cpp.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>NEWLOCK</Name>
+                    <Name>NewLock</Name>
                     <Path>d8/d17/Display_8cpp.html</Path>
-                    <Anchor>ae3856b28c8c5027ad9e56cb20132ca50</Anchor>
+                    <Anchor>a68c80f755318bb63d21a424f7a19d402</Anchor>
                    </Node>
                    <Node>
                     <Name>_binary_Files_ter_powerline_v12n_psf_end</Name>
@@ -13026,9 +13121,9 @@
                 <Path>db/d7b/Debugger_8cpp.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>NEWLOCK</Name>
+                  <Name>NewLock</Name>
                   <Path>db/d7b/Debugger_8cpp.html</Path>
-                  <Anchor>a8c7b36173da5995e9001f81be1c4ac34</Anchor>
+                  <Anchor>a7541bdbeefc1f3c48ca5c8c280d948b9</Anchor>
                  </Node>
                  <Node>
                   <Name>SysDbgWrite</Name>
@@ -23351,6 +23446,16 @@
                     <Anchor>a25a06badea2d0d07c8cebb637108a23e</Anchor>
                    </Node>
                    <Node>
+                    <Name>CurrentProcess</Name>
+                    <Path>d4/d33/smp_8hpp.html</Path>
+                    <Anchor>a0314565291f820d971ae294edf981b70</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CurrentThread</Name>
+                    <Path>d4/d33/smp_8hpp.html</Path>
+                    <Anchor>a861a2e808fae58fa46cf4b6694b93bd7</Anchor>
+                   </Node>
+                   <Node>
                     <Name>Data</Name>
                     <Path>d4/d33/smp_8hpp.html</Path>
                     <Anchor>a93ddd23b8fbf8e3ba048d636f7459aa4</Anchor>
@@ -23421,6 +23526,16 @@
                   <Name>Checksum</Name>
                   <Path>d4/d33/smp_8hpp.html</Path>
                   <Anchor>aca10be923fb0da174d8c3a29d8b5083b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CurrentProcess</Name>
+                  <Path>d4/d33/smp_8hpp.html</Path>
+                  <Anchor>af7c1b58202118caa86329a0095e86f91</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CurrentThread</Name>
+                  <Path>d4/d33/smp_8hpp.html</Path>
+                  <Anchor>a707db261f8d22e78be640e5b41dbb4bb</Anchor>
                  </Node>
                  <Node>
                   <Name>Data</Name>
@@ -23560,14 +23675,19 @@
                 <Path>d8/da1/task_8hpp.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>ExecutionSecurity</Name>
+                  <Name>TaskSecurity</Name>
                   <Path>d9/d3e/namespaceTasking.html</Path>
-                  <Anchor>dd/d85/structTasking_1_1ExecutionSecurity</Anchor>
+                  <Anchor>d6/df6/structTasking_1_1TaskSecurity</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>Elevation</Name>
                     <Path>d9/d3e/namespaceTasking.html</Path>
-                    <Anchor>a48ebf026f15a544df499e32c9dc7d339</Anchor>
+                    <Anchor>ae7c60d14b8e3d82535679e49e1fbe29e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>UniqueToken</Name>
+                    <Path>d9/d3e/namespaceTasking.html</Path>
+                    <Anchor>ab4dc9e6e4877a9a50f38783896a429e9</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -23589,12 +23709,12 @@
                    <Node>
                     <Name>Security</Name>
                     <Path>d9/d3e/namespaceTasking.html</Path>
-                    <Anchor>ace518f61498a7b723e4bb013c97850fe</Anchor>
+                    <Anchor>a9d7688af2a2c20aa1b0dfcebfbc3b303</Anchor>
                    </Node>
                    <Node>
                     <Name>Status</Name>
                     <Path>d9/d3e/namespaceTasking.html</Path>
-                    <Anchor>a96b13015f3d51f07bc6ae64f76db056b</Anchor>
+                    <Anchor>a7edc51939760bc98c3a1388e94933045</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -23637,12 +23757,22 @@
                    <Node>
                     <Name>CreateProcess</Name>
                     <Path>dc/dc5/classTasking_1_1Task.html</Path>
-                    <Anchor>a3fcf5a7027119ba461928666540dc861</Anchor>
+                    <Anchor>ad9754e720a32afa7b940de41b1dac14d</Anchor>
                    </Node>
                    <Node>
                     <Name>CreateThread</Name>
                     <Path>dc/dc5/classTasking_1_1Task.html</Path>
                     <Anchor>a2c6d9ac1768690c0303b85e4a43c1216</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetCurrentProcess</Name>
+                    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                    <Anchor>a8d504087e940342e41993644b426572f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>GetCurrentThread</Name>
+                    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+                    <Anchor>aba5e4027551527accbcfd9ddd4deb67a</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -23650,6 +23780,11 @@
                   <Name>IP</Name>
                   <Path>d8/da1/task_8hpp.html</Path>
                   <Anchor>a1d6c5ad87e3a04eb27f6958a4d7890d9</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>Token</Name>
+                  <Path>d8/da1/task_8hpp.html</Path>
+                  <Anchor>a6b1a832cb357dc05936d49b554a153aa</Anchor>
                  </Node>
                  <Node>
                   <Name>UPID</Name>
@@ -23662,71 +23797,71 @@
                   <Anchor>af5a2dfa2e9c69bcc3e82a0d7dc7a939e</Anchor>
                  </Node>
                  <Node>
-                  <Name>ExecutionElevation</Name>
+                  <Name>TaskElevation</Name>
                   <Path>d8/da1/task_8hpp.html</Path>
-                  <Anchor>aef4db521806424a1ea390c51ce6dbba2</Anchor>
+                  <Anchor>ace63578039d698d27270ad4a5d1ab6ac</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>UnknownElevation</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>aef4db521806424a1ea390c51ce6dbba2a0e4b38f253f43b332cc72a0dc634af60</Anchor>
+                    <Anchor>ace63578039d698d27270ad4a5d1ab6aca0e4b38f253f43b332cc72a0dc634af60</Anchor>
                    </Node>
                    <Node>
                     <Name>Kernel</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>aef4db521806424a1ea390c51ce6dbba2a954df91fe1d707441efeafbafa086b37</Anchor>
+                    <Anchor>ace63578039d698d27270ad4a5d1ab6aca954df91fe1d707441efeafbafa086b37</Anchor>
                    </Node>
                    <Node>
                     <Name>System</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>aef4db521806424a1ea390c51ce6dbba2ac865bd0f2d82647acb1e77354e0b5247</Anchor>
+                    <Anchor>ace63578039d698d27270ad4a5d1ab6acac865bd0f2d82647acb1e77354e0b5247</Anchor>
                    </Node>
                    <Node>
                     <Name>Idle</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>aef4db521806424a1ea390c51ce6dbba2a52132d168f7f9e7620ef2e46040be28d</Anchor>
+                    <Anchor>ace63578039d698d27270ad4a5d1ab6aca52132d168f7f9e7620ef2e46040be28d</Anchor>
                    </Node>
                    <Node>
                     <Name>User</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>aef4db521806424a1ea390c51ce6dbba2ab4361355ef5fe95d2d097e6250288db6</Anchor>
+                    <Anchor>ace63578039d698d27270ad4a5d1ab6acab4361355ef5fe95d2d097e6250288db6</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>ExecutionStatus</Name>
+                  <Name>TaskStatus</Name>
                   <Path>d8/da1/task_8hpp.html</Path>
-                  <Anchor>a06ca137d3ea4c32a5842f9450c230a0f</Anchor>
+                  <Anchor>aa3e6e5078f8745bcb20a52db054b3a78</Anchor>
                   <Subnodes>
                    <Node>
                     <Name>UnknownStatus</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fae4434abf01289f805a0123cb3c674588</Anchor>
+                    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78ae4434abf01289f805a0123cb3c674588</Anchor>
                    </Node>
                    <Node>
                     <Name>Running</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa04712359124153cb2d93d8f09cabe8ed</Anchor>
+                    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78a04712359124153cb2d93d8f09cabe8ed</Anchor>
                    </Node>
                    <Node>
                     <Name>Sleeping</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa04b9cd09b1c1946e6dd37f79903067fd</Anchor>
+                    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78a04b9cd09b1c1946e6dd37f79903067fd</Anchor>
                    </Node>
                    <Node>
                     <Name>Waiting</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0faf0c3719b73450e078a5c5c2d05cd5b83</Anchor>
+                    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78af0c3719b73450e078a5c5c2d05cd5b83</Anchor>
                    </Node>
                    <Node>
                     <Name>Stopped</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa8922799a2dec53328f38596177889efd</Anchor>
+                    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78a8922799a2dec53328f38596177889efd</Anchor>
                    </Node>
                    <Node>
                     <Name>Terminated</Name>
                     <Path>d8/da1/task_8hpp.html</Path>
-                    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa773f96280709f0b4ee36122b01357f51</Anchor>
+                    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78a773f96280709f0b4ee36122b01357f51</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -23813,6 +23948,11 @@
                   <Name>bool</Name>
                   <Path>d0/df4/Kernel_2include_2types_8h.html</Path>
                   <Anchor>abb452686968e48b67397da5f97445f5b</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>CONCAT</Name>
+                  <Path>d0/df4/Kernel_2include_2types_8h.html</Path>
+                  <Anchor>a2f18db18bca26cafa95e9719de4a41ef</Anchor>
                  </Node>
                  <Node>
                   <Name>END_EXTERNC</Name>
@@ -25422,9 +25562,9 @@
                   <Anchor>gaedc23f198b2882d41d0caa316453967b</Anchor>
                  </Node>
                  <Node>
-                  <Name>NEWLOCK</Name>
+                  <Name>NewLock</Name>
                   <Path>d2/dc5/liballocimpl_8cpp.html</Path>
-                  <Anchor>a9d05a13e09b30a575c7d199bc970dccb</Anchor>
+                  <Anchor>a53b3e0eac4b5a3d178834c4e3fff362f</Anchor>
                  </Node>
                 </Subnodes>
                </Node>
@@ -25990,16 +26130,20 @@
               <Path>dir_e84271607a0ed4280951d9e6a4794fe3.html</Path>
               <Subnodes>
                <Node>
-                <Name>Mono.cpp</Name>
-                <Path>d9/d3e/Mono_8cpp.html</Path>
-               </Node>
-               <Node>
-                <Name>Multi.cpp</Name>
-                <Path>d1/dfa/Multi_8cpp.html</Path>
-               </Node>
-               <Node>
                 <Name>Task.cpp</Name>
                 <Path>d3/d71/Task_8cpp.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>a</Name>
+                  <Path>d3/d71/Task_8cpp.html</Path>
+                  <Anchor>a521291b0a0353eef81199949f93b3245</Anchor>
+                 </Node>
+                 <Node>
+                  <Name>NewLock</Name>
+                  <Path>d3/d71/Task_8cpp.html</Path>
+                  <Anchor>a5bdf8797953487a5859c703349ec35ac</Anchor>
+                 </Node>
+                </Subnodes>
                </Node>
               </Subnodes>
              </Node>
@@ -26044,9 +26188,9 @@
                 <Anchor>a856ca7c6595acc2941208b1241cd8f3e</Anchor>
                </Node>
                <Node>
-                <Name>NEWLOCK</Name>
+                <Name>NewLock</Name>
                 <Path>d2/d00/Kernel_8cpp.html</Path>
-                <Anchor>a0a494f645bd2f722bf21860dad6615ec</Anchor>
+                <Anchor>ae6d61016b12b4f29e5f1a0ce5aa93285</Anchor>
                </Node>
                <Node>
                 <Name>putchar</Name>

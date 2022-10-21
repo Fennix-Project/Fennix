@@ -2756,6 +2756,146 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__adddf3</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a12830205277384b86037925095698449</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__muldf3</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>ad84587c0fd7657788f036b42f5d37e7b</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__floatsidf</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a168fd43b90c82c7df9f911cb6621fb44</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__ltdf2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a33e31458210f32475670facec29ea3d4</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__gtdf2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a060db764e6d21355f14a32a5e8ef6e0a</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__nedf2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a217f7b7d94461799a0264398df524bdd</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__eqdf2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a5cef915b861143502fa6677aaad5836b</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__floatdidf</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a847be821446a8f9337df542f3c69a64f</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__divdf3</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>ae164db0e315f4191cdc73676b5cea21b</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__subdf3</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a8243402917a8e3551e58276ce3a32e92</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__gedf2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a2c6c87a4402b141428e9d552dbb412d2</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__fixdfsi</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a2d966c436a26f847ef2a5718bc5537d8</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__fixdfdi</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>afe4e1e64f2795a8649e79c9144ff4cfc</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__ledf2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a8b28c12f324adf3361c2b1c19473b807</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetBiosAreaHardware</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -2986,12 +3126,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>NEWLOCK</Name>
+      <Name>NewLock</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>db/d7b/Debugger_8cpp.html</Path>
-    <Anchor>a8c7b36173da5995e9001f81be1c4ac34</Anchor>
+    <Anchor>a7541bdbeefc1f3c48ca5c8c280d948b9</Anchor>
     <DeclaredIn>Debugger.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -4111,12 +4251,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>NEWLOCK</Name>
+      <Name>NewLock</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d8/d17/Display_8cpp.html</Path>
-    <Anchor>ae3856b28c8c5027ad9e56cb20132ca50</Anchor>
+    <Anchor>a68c80f755318bb63d21a424f7a19d402</Anchor>
     <DeclaredIn>Display.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -8547,6 +8687,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>CurrentProcess</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d4/d33/smp_8hpp.html</Path>
+    <Anchor>af7c1b58202118caa86329a0095e86f91</Anchor>
+    <Abstract>Current running process.</Abstract>
+    <DeclaredIn>smp.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CurrentThread</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d4/d33/smp_8hpp.html</Path>
+    <Anchor>a707db261f8d22e78be640e5b41dbb4bb</Anchor>
+    <Abstract>Current running thread.</Abstract>
+    <DeclaredIn>smp.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Data</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
@@ -8640,6 +8802,17 @@
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
     <Anchor>af5a2dfa2e9c69bcc3e82a0d7dc7a939e</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Token</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>Tasking</Scope>
+    </TokenIdentifier>
+    <Path>d9/d3e/namespaceTasking.html</Path>
+    <Anchor>a6b1a832cb357dc05936d49b554a153aa</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -8750,6 +8923,16 @@
     </TokenIdentifier>
     <Path>d0/df4/Kernel_2include_2types_8h.html</Path>
     <Anchor>a86d500a34c624c2cae56bc25a31b12f3</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CONCAT</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/df4/Kernel_2include_2types_8h.html</Path>
+    <Anchor>a2f18db18bca26cafa95e9719de4a41ef</Anchor>
     <DeclaredIn>types.h</DeclaredIn>
   </Token>
   <Token>
@@ -9804,12 +9987,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>NEWLOCK</Name>
+      <Name>NewLock</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d2/d00/Kernel_8cpp.html</Path>
-    <Anchor>a0a494f645bd2f722bf21860dad6615ec</Anchor>
+    <Anchor>ae6d61016b12b4f29e5f1a0ce5aa93285</Anchor>
     <DeclaredIn>Kernel.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -12466,12 +12649,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>NEWLOCK</Name>
+      <Name>NewLock</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d2/dc5/liballocimpl_8cpp.html</Path>
-    <Anchor>a9d05a13e09b30a575c7d199bc970dccb</Anchor>
+    <Anchor>a53b3e0eac4b5a3d178834c4e3fff362f</Anchor>
     <DeclaredIn>liballocimpl.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -14385,6 +14568,27 @@
     <Path>d5/de7/Syscalls_8cpp.html</Path>
     <Anchor>ada20e2588c027deb2dcca94342bf291d</Anchor>
     <DeclaredIn>Syscalls.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewLock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/d71/Task_8cpp.html</Path>
+    <Anchor>a5bdf8797953487a5859c703349ec35ac</Anchor>
+    <DeclaredIn>Task.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>a</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Tasking</Scope>
+    </TokenIdentifier>
+    <Path>d9/d3e/namespaceTasking.html</Path>
+    <Anchor>a521291b0a0353eef81199949f93b3245</Anchor>
+    <DeclaredIn>Task.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -28423,13 +28627,35 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Token</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>Tasking</Scope>
+    </TokenIdentifier>
+    <Path>d9/d3e/namespaceTasking.html</Path>
+    <Anchor>a6b1a832cb357dc05936d49b554a153aa</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>a</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Tasking</Scope>
+    </TokenIdentifier>
+    <Path>d9/d3e/namespaceTasking.html</Path>
+    <Anchor>a521291b0a0353eef81199949f93b3245</Anchor>
+    <DeclaredIn>Task.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>UnknownElevation</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>aef4db521806424a1ea390c51ce6dbba2a0e4b38f253f43b332cc72a0dc634af60</Anchor>
+    <Anchor>ace63578039d698d27270ad4a5d1ab6aca0e4b38f253f43b332cc72a0dc634af60</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28440,7 +28666,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>aef4db521806424a1ea390c51ce6dbba2a954df91fe1d707441efeafbafa086b37</Anchor>
+    <Anchor>ace63578039d698d27270ad4a5d1ab6aca954df91fe1d707441efeafbafa086b37</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28451,7 +28677,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>aef4db521806424a1ea390c51ce6dbba2ac865bd0f2d82647acb1e77354e0b5247</Anchor>
+    <Anchor>ace63578039d698d27270ad4a5d1ab6acac865bd0f2d82647acb1e77354e0b5247</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28462,7 +28688,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>aef4db521806424a1ea390c51ce6dbba2a52132d168f7f9e7620ef2e46040be28d</Anchor>
+    <Anchor>ace63578039d698d27270ad4a5d1ab6aca52132d168f7f9e7620ef2e46040be28d</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28473,7 +28699,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>aef4db521806424a1ea390c51ce6dbba2ab4361355ef5fe95d2d097e6250288db6</Anchor>
+    <Anchor>ace63578039d698d27270ad4a5d1ab6acab4361355ef5fe95d2d097e6250288db6</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28484,7 +28710,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fae4434abf01289f805a0123cb3c674588</Anchor>
+    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78ae4434abf01289f805a0123cb3c674588</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28495,7 +28721,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa04712359124153cb2d93d8f09cabe8ed</Anchor>
+    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78a04712359124153cb2d93d8f09cabe8ed</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28506,7 +28732,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa04b9cd09b1c1946e6dd37f79903067fd</Anchor>
+    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78a04b9cd09b1c1946e6dd37f79903067fd</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28517,7 +28743,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>a06ca137d3ea4c32a5842f9450c230a0faf0c3719b73450e078a5c5c2d05cd5b83</Anchor>
+    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78af0c3719b73450e078a5c5c2d05cd5b83</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28528,7 +28754,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa8922799a2dec53328f38596177889efd</Anchor>
+    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78a8922799a2dec53328f38596177889efd</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28539,7 +28765,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>a06ca137d3ea4c32a5842f9450c230a0fa773f96280709f0b4ee36122b01357f51</Anchor>
+    <Anchor>aa3e6e5078f8745bcb20a52db054b3a78a773f96280709f0b4ee36122b01357f51</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -28554,13 +28780,37 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetCurrentProcess</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>a8d504087e940342e41993644b426572f</Anchor>
+    <Abstract>Get the Current Process object.</Abstract>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetCurrentThread</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>aba5e4027551527accbcfd9ddd4deb67a</Anchor>
+    <Abstract>Get the Current Thread object.</Abstract>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CreateProcess</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
       <Scope>Tasking::Task</Scope>
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
-    <Anchor>a3fcf5a7027119ba461928666540dc861</Anchor>
+    <Anchor>ad9754e720a32afa7b940de41b1dac14d</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>

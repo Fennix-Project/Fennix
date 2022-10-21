@@ -72,22 +72,23 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/dcc/classSymbolResolver_1_1Symbols.html#ab6d88a9a3166f22b0b458e52889f3e90",
-"d1/d90/acpi_8hpp.html#aa2cf44d457fb1491cd0675d238e8b1cc",
-"d3/d21/classACPI_1_1ACPI.html#a321c3844e3c98b00b0c37be604942a11",
-"d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629",
-"d5/dba/multiboot2_8h.html#a2b0b759f28046e60720b025e2442c11e",
-"d6/d26/structlimine__5__level__paging__request.html",
-"d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a333d4d92c55d23e69b5c447d90795b8f",
-"d9/d25/namespaceCPU_1_1x64.html#a4170acd6af571e8d0d59fdad999cc605",
-"d9/dd5/pci_8hpp.html#abfaf24294b7be88d50a37fe72f187a4f",
-"db/d92/cargs_8c_source.html",
-"dc/dc5/classTasking_1_1Task.html#a4bfbac409b20452a47c2f97dec639139",
-"de/dbb/aarch64_2SystemCalls_8cpp.html",
-"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba1d903073f3da38b6b15c9b4c16b2a7cc",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda0adf724843d679e15642aee478665952",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bdab8f2e3c225fb4ca11db4535cc30632f2",
-"df/dbe/cpu_8hpp_source.html"
+"d0/dc9/init_8cpp.html#a62bb50ae06aa34053f11cf2f14a99518",
+"d1/d90/acpi_8hpp.html#a7d398d8fa93c9649a157c8320d86d991",
+"d3/d21/classACPI_1_1ACPI.html#a22d0bec19d43bab4973459b961ca7c5d",
+"d3/d82/convert_8h.html",
+"d5/dba/multiboot2_8h.html#a12327fcbac594a8d93c18a2870998bcf",
+"d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac296350bb79ac35ec60a6e976bb4c99e",
+"d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2",
+"d9/d25/namespaceCPU_1_1x64.html#a21080924b5d026e4a6011eb987ae1ec8",
+"d9/dd5/pci_8hpp.html#a63169537a007b4fdb2ac67c5bf62d2f3",
+"db/d92/cargs_8c.html#a09872a4289ebc4bd42f14f372eae3c66",
+"dc/da7/amd64_2cpu_2idt_8hpp_source.html",
+"de/d7e/structlimine__smbios__response.html",
+"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37baba0ae49ad41cafa63041ac055b5680c7a3",
+"df/dbe/cpu_8hpp.html#a4b719133b3194c112f1c9646692f89eb",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bdaaef6bce5af0a20d2497dda244aaad175",
+"df/dbe/cpu_8hpp.html#ad88a47ec714f0cf8d1e7f72a63c5519eae0b0d821b54b3c5cf55d8f74d5f50362",
+"namespacemembers_m.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

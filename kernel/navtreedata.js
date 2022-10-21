@@ -71,21 +71,21 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d1/d3d/printf_8c.html#ad7bcde5ce2ee4bf99e403e74fe1aaa2e",
-"d2/db2/namespaceInterruptDescriptorTable.html#a91229260b6a386173fa0a015430bbc44",
-"d3/d21/classACPI_1_1ACPI.html#abe8f0938762de12632f38114ace6a052",
-"d4/d33/smp_8hpp.html#a590e51ea5f73b23f0a436857588c2e96",
-"d5/dba/multiboot2_8h.html#ac2a46af85d217c774d2a618291539334",
-"d7/d66/cxxabi_8cpp.html#a35fc01d4eba01f3f2ec636bd6b5ff34f",
-"d8/dc8/group__ALLOCHOOKS.html#ga8d5be3c85e157d771a44c48509b43c42",
-"d9/d49/types_8h.html#a1f5fe9445d0ad0bee21bab1de4cc3e58",
-"da/db9/classACPI_1_1MADT.html#ad763f6010fcc3ee8061e14fec7decb93",
-"dc/da7/amd64_2cpu_2idt_8hpp.html#a75ffe246834f18014b5ef078cc2c47d6",
-"df/dad/GlobalDescriptorTable_8cpp_source.html",
-"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37babac36f218fd20ab7bd10f14e1c9058fb96",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda7b7f95aec578f071ff0c53bff7d26be7",
-"df/dbe/cpu_8hpp.html#ad27ebd3c86b0ba4061c151d91adf079b",
-"globals_vars_i.html"
+"d1/d3d/printf_8c.html#abd39f2dd3c4a2fa9c72a3db97eda33bf",
+"d2/da8/classXalloc_1_1AllocatorV1.html#aa8ea02fd1cef545036b4731c90f10188",
+"d3/d21/classACPI_1_1ACPI.html#ab5ca00250e9a27130e2ca09ab3989f5e",
+"d3/df0/limine_8h.html#d9/d2f/structlimine__memmap__entry",
+"d5/dba/multiboot2_8h.html#aa8972f75c7d893a736aa00bcb5ad905a",
+"d7/d66/cxxabi_8cpp.html#a08288524be18838cf7b3ebb1dcd1dde7",
+"d8/dc7/amd64_2cpu_2gdt_8hpp.html#afd4547759affdaa57ba35b76333857ee",
+"d9/d3e/namespaceTasking.html#ae7c60d14b8e3d82535679e49e1fbe29e",
+"da/db9/classACPI_1_1MADT.html#a926a568e8ef5fdd156ee7baf5d238166",
+"db/dfa/power_8hpp.html",
+"df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#ae1098b215fff4d536db6667595541235",
+"df/dbe/cpu_8hpp.html#a3f982c5b58fca76b6b78bada2fc37babab0d2891f65ad8b0bb602c5a3a37c6c39",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda71048e9cc0142cf820701e318b9fbefb",
+"df/dbe/cpu_8hpp.html#a9d690495bdc361439a4ad60744972bd3",
+"globals_l.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

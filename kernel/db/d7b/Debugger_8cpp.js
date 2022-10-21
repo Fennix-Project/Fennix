@@ -1,6 +1,6 @@
 var Debugger_8cpp =
 [
-    [ "NEWLOCK", "db/d7b/Debugger_8cpp.html#a8c7b36173da5995e9001f81be1c4ac34", null ],
+    [ "NewLock", "db/d7b/Debugger_8cpp.html#a7541bdbeefc1f3c48ca5c8c280d948b9", null ],
     [ "SysDbgWrite", "db/d7b/Debugger_8cpp.html#abc59a019ad3de095adabdb813af7a867", null ],
     [ "SysDbgWriteLine", "db/d7b/Debugger_8cpp.html#a74f3fc61fe0e1344da54caea3bdc2d4f", null ],
     [ "uart_wrapper", "db/d7b/Debugger_8cpp.html#aa33d743d597b7f9852b00cc91ff7121c", null ],

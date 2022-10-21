@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['pcicommands_3728',['PCICommands',['../d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09',1,'PCI']]],
-  ['pcivendors_3729',['PCIVendors',['../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586c',1,'PCI::Descriptors']]]
+  ['serialports_3766',['SerialPorts',['../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96',1,'UniversalAsynchronousReceiverTransmitter']]],
+  ['smptrampolineaddress_3767',['SMPTrampolineAddress',['../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138df',1,'SymmetricMultiprocessing.cpp']]]
 ];

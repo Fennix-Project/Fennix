@@ -97,25 +97,25 @@ $(document).ready(function(){initNavTree('de/db0/Kernel_2Core_2Memory_2PhysicalM
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Physical::GetTotalMemory()</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        SMARTLOCK(this-&gt;MemoryLock);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">return</span> this-&gt;TotalMemory;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    }</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Physical::GetFreeMemory()</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        SMARTLOCK(this-&gt;MemoryLock);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">return</span> this-&gt;FreeMemory;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Physical::GetReservedMemory()</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        SMARTLOCK(this-&gt;MemoryLock);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> this-&gt;ReservedMemory;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Physical::GetUsedMemory()</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        SMARTLOCK(this-&gt;MemoryLock);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> this-&gt;UsedMemory;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('de/db0/Kernel_2Core_2Memory_2PhysicalM
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> *Physical::RequestPage()</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        SMARTLOCK(this-&gt;MemoryLock);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">for</span> (; PageBitmapIndex &lt; PageBitmap.Size * 8; PageBitmapIndex++)</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        {</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keywordflow">if</span> (PageBitmap[PageBitmapIndex] == <span class="keyword">true</span>)</div>
@@ -172,7 +172,7 @@ $(document).ready(function(){initNavTree('de/db0/Kernel_2Core_2Memory_2PhysicalM
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">void</span> *Physical::RequestPages(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Count)</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        SMARTLOCK(this-&gt;MemoryLock);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">for</span> (; PageBitmapIndex &lt; PageBitmap.Size * 8; PageBitmapIndex++)</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        {</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">if</span> (PageBitmap[PageBitmapIndex] == <span class="keyword">true</span>)</div>
@@ -210,7 +210,7 @@ $(document).ready(function(){initNavTree('de/db0/Kernel_2Core_2Memory_2PhysicalM
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordtype">void</span> Physical::FreePage(<span class="keywordtype">void</span> *<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>)</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        SMARTLOCK(this-&gt;MemoryLock);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> == <span class="keyword">nullptr</span>)</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        {</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Null pointer passed to FreePage.&quot;</span>);</div>
@@ -319,7 +319,7 @@ $(document).ready(function(){initNavTree('de/db0/Kernel_2Core_2Memory_2PhysicalM
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">Physical::Init</a>(<a class="code" href="../../db/d96/structBootInfo.html">BootInfo</a> *Info)</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    {</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        SMARTLOCK(this-&gt;MemoryLock);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordtype">void</span> *LargestFreeMemorySegment = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> LargestFreeMemorySegmentSize = 0;</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> MemorySize = Info-&gt;<a class="code" href="../../db/d96/structBootInfo.html#af20195d9ca2aca3e8c401d10eb477c25">Memory</a>.<a class="code" href="../../db/d96/structBootInfo.html#a6b7fed1a6e0f9b3d85983476d729c403">Size</a>;</div>
@@ -378,7 +378,7 @@ $(document).ready(function(){initNavTree('de/db0/Kernel_2Core_2Memory_2PhysicalM
 <div class="ttc" id="astructBootInfo_html"><div class="ttname"><a href="../../db/d96/structBootInfo.html">BootInfo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00021">binfo.h:21</a></div></div>
 <div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00042">debug.h:42</a></div></div>
 <div class="ttc" id="astructBootInfo_html_af9c40d64c0871090a237608cd029a51a"><div class="ttname"><a href="../../db/d96/structBootInfo.html#af9c40d64c0871090a237608cd029a51a">BootInfo::MemoryInfo::MemoryEntryInfo::Type</a></div><div class="ttdeci">enum MemoryType Type</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00047">binfo.h:47</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00063">types.h:63</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00064">types.h:64</a></div></div>
 <div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00041">debug.h:41</a></div></div>
 <div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00038">debug.h:38</a></div></div>
 <div class="ttc" id="astructBootInfo_html_abf81547812f6b2c7d0ccd5a424e2a4ac"><div class="ttname"><a href="../../db/d96/structBootInfo.html#abf81547812f6b2c7d0ccd5a424e2a4ac">BootInfo::MemoryInfo::MemoryEntryInfo::BaseAddress</a></div><div class="ttdeci">void * BaseAddress</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00045">binfo.h:45</a></div></div>
@@ -386,8 +386,8 @@ $(document).ready(function(){initNavTree('de/db0/Kernel_2Core_2Memory_2PhysicalM
 <div class="ttc" id="anamespaceCPU_html_a229ca5cae99e9c78473440579736f9e9"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a229ca5cae99e9c78473440579736f9e9">CPU::Halt</a></div><div class="ttdeci">static void Halt()</div><div class="ttdoc">Halt the CPU.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00173">cpu.hpp:173</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_aca1b23fd721c8d8dc70a8227e336b6e8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a></div><div class="ttdeci">uint64_t Address</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00006">acpi.hpp:6</a></div></div>
 <div class="ttc" id="astructBootInfo_html_aaca38a442e9a31d75c1ee29321b27674"><div class="ttname"><a href="../../db/d96/structBootInfo.html#aaca38a442e9a31d75c1ee29321b27674">BootInfo::MemoryInfo::Entry</a></div><div class="ttdeci">struct BootInfo::MemoryInfo::MemoryEntryInfo Entry[MAX_MEMORY_ENTRIES]</div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00060">types.h:60</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_afb00b1a27b40fde5065d26e5aa367808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a></div><div class="ttdeci">#define ALIGN_UP(x, align)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00045">types.h:45</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00061">types.h:61</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_afb00b1a27b40fde5065d26e5aa367808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a></div><div class="ttdeci">#define ALIGN_UP(x, align)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00046">types.h:46</a></div></div>
 <div class="ttc" id="aLynx_2UEFI_2src_2Memory_2memory_8hpp_html_a7d467c1d283fdfa1f2081ba1e0d01b6e"><div class="ttname"><a href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a></div><div class="ttdeci">#define PAGE_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp_source.html#l00033">memory.hpp:33</a></div></div>
 <div class="ttc" id="anamespaceGlobalDescriptorTable_html_a8f348435f90382d87ff30f9237f15a96"><div class="ttname"><a href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">GlobalDescriptorTable::Init</a></div><div class="ttdeci">void Init(int Core)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00421">InterruptDescriptorTable.cpp:421</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00040">debug.h:40</a></div></div>
