@@ -95,6 +95,11 @@ $(document).ready(function(){initNavTree('d8/da1/task_8hpp.html','../../'); init
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d8/d0a/interrupts_8hpp_source.html">interrupts.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d16/vector_8hpp_source.html">vector.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d2/d89/hashmap_8hpp_source.html">hashmap.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d02/ipc_8hpp_source.html">ipc.hpp</a>&gt;</code><br />
 </div>
 <p><a href="../../d8/da1/task_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -102,10 +107,14 @@ $(document).ready(function(){initNavTree('d8/da1/task_8hpp.html','../../'); init
 Data Structures</h2></td></tr>
 <tr class="memitem:d6/df6/structTasking_1_1TaskSecurity"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#d6/df6/structTasking_1_1TaskSecurity">Tasking::TaskSecurity</a></td></tr>
 <tr class="separator:d6/df6/structTasking_1_1TaskSecurity"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d6/dd8/structTasking_1_1TaskInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#d6/dd8/structTasking_1_1TaskInfo">Tasking::TaskInfo</a></td></tr>
+<tr class="separator:d6/dd8/structTasking_1_1TaskInfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d96/structTasking_1_1TCB.html">Tasking::TCB</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dd/dd1/structTasking_1_1PCB"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB">Tasking::PCB</a></td></tr>
 <tr class="separator:dd/dd1/structTasking_1_1PCB"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:de/d96/structTasking_1_1TCB"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#de/d96/structTasking_1_1TCB">Tasking::TCB</a></td></tr>
-<tr class="separator:de/d96/structTasking_1_1TCB"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbb/classTasking_1_1Security.html">Tasking::Security</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc5/classTasking_1_1Task.html">Tasking::Task</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -118,6 +127,8 @@ Namespaces</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a1d6c5ad87e3a04eb27f6958a4d7890d9"><td class="memItemLeft" align="right" valign="top">typedef unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a1d6c5ad87e3a04eb27f6958a4d7890d9">Tasking::IP</a></td></tr>
 <tr class="separator:a1d6c5ad87e3a04eb27f6958a4d7890d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0bbf66a90216a502407b8e42f979338"><td class="memItemLeft" align="right" valign="top">typedef unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#ab0bbf66a90216a502407b8e42f979338">Tasking::IPOffset</a></td></tr>
+<tr class="separator:ab0bbf66a90216a502407b8e42f979338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04e2f481f6f63a104eee16ed8e34d0c0"><td class="memItemLeft" align="right" valign="top">typedef unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a04e2f481f6f63a104eee16ed8e34d0c0">Tasking::UPID</a></td></tr>
 <tr class="separator:a04e2f481f6f63a104eee16ed8e34d0c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5a2dfa2e9c69bcc3e82a0d7dc7a939e"><td class="memItemLeft" align="right" valign="top">typedef unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#af5a2dfa2e9c69bcc3e82a0d7dc7a939e">Tasking::UTID</a></td></tr>
@@ -127,27 +138,50 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:ace63578039d698d27270ad4a5d1ab6ac"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#ace63578039d698d27270ad4a5d1ab6ac">Tasking::TaskElevation</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/d3e/namespaceTasking.html#ace63578039d698d27270ad4a5d1ab6aca0e4b38f253f43b332cc72a0dc634af60">Tasking::UnknownElevation</a>, 
-<a class="el" href="../../d9/d3e/namespaceTasking.html#ace63578039d698d27270ad4a5d1ab6aca954df91fe1d707441efeafbafa086b37">Tasking::Kernel</a>, 
-<a class="el" href="../../d9/d3e/namespaceTasking.html#ace63578039d698d27270ad4a5d1ab6acac865bd0f2d82647acb1e77354e0b5247">Tasking::System</a>, 
-<a class="el" href="../../d9/d3e/namespaceTasking.html#ace63578039d698d27270ad4a5d1ab6aca52132d168f7f9e7620ef2e46040be28d">Tasking::Idle</a>, 
+<tr class="memitem:a96e537039eec201fc357dae47c819302"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302">Tasking::TaskArchitecture</a> { <br />
+&#160;&#160;<a class="el" href="../../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302a5b2a90cc96dd262a5f1d340deaa28628">Tasking::UnknownArchitecture</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302aef6305c9639ed0b24bca596fad01fd62">Tasking::x86</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302a691951f7c582f9dff5d0d0d6a73392d4">Tasking::x64</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302acfffe4eef6362265b0b20de2e4a76524">Tasking::ARM</a>, 
 <br />
-&#160;&#160;<a class="el" href="../../d9/d3e/namespaceTasking.html#ace63578039d698d27270ad4a5d1ab6acab4361355ef5fe95d2d097e6250288db6">Tasking::User</a>
+&#160;&#160;<a class="el" href="../../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302a45e4a36775610d48ea685dc5d44374de">Tasking::ARM64</a>
 <br />
  }</td></tr>
-<tr class="separator:ace63578039d698d27270ad4a5d1ab6ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a96e537039eec201fc357dae47c819302"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdb977b9f386c7a7662877c8b0532d48"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#acdb977b9f386c7a7662877c8b0532d48">Tasking::TaskCompatibility</a> { <a class="el" href="../../d9/d3e/namespaceTasking.html#acdb977b9f386c7a7662877c8b0532d48afa34d48f2f1dc81e6109ca3c6a9267a1">Tasking::UnknownPlatform</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#acdb977b9f386c7a7662877c8b0532d48aa485dedb3548655f59d3caacb6474ee9">Tasking::Native</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#acdb977b9f386c7a7662877c8b0532d48a2e2d7cc9dea1fa57ba6a2456115d3cec">Tasking::Linux</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#acdb977b9f386c7a7662877c8b0532d48aba42e44c8eeb2970920e9d39586c062b">Tasking::Windows</a>
+ }</td></tr>
+<tr class="separator:acdb977b9f386c7a7662877c8b0532d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b9393cc83799934196d53b04f097af8"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8">Tasking::TaskTrustLevel</a> { <br />
+&#160;&#160;<a class="el" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8a0e4b38f253f43b332cc72a0dc634af60">Tasking::UnknownElevation</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8a954df91fe1d707441efeafbafa086b37">Tasking::Kernel</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8ac865bd0f2d82647acb1e77354e0b5247">Tasking::System</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8a52132d168f7f9e7620ef2e46040be28d">Tasking::Idle</a>, 
+<br />
+&#160;&#160;<a class="el" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8ab4361355ef5fe95d2d097e6250288db6">Tasking::User</a>
+<br />
+ }</td></tr>
+<tr class="separator:a6b9393cc83799934196d53b04f097af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3e6e5078f8745bcb20a52db054b3a78"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78">Tasking::TaskStatus</a> { <br />
 &#160;&#160;<a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78ae4434abf01289f805a0123cb3c674588">Tasking::UnknownStatus</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78ad63d08060d63334012f68b23d130f56e">Tasking::Ready</a>, 
 <a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78a04712359124153cb2d93d8f09cabe8ed">Tasking::Running</a>, 
 <a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78a04b9cd09b1c1946e6dd37f79903067fd">Tasking::Sleeping</a>, 
-<a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78af0c3719b73450e078a5c5c2d05cd5b83">Tasking::Waiting</a>, 
 <br />
-&#160;&#160;<a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78a8922799a2dec53328f38596177889efd">Tasking::Stopped</a>, 
+&#160;&#160;<a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78af0c3719b73450e078a5c5c2d05cd5b83">Tasking::Waiting</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78a8922799a2dec53328f38596177889efd">Tasking::Stopped</a>, 
 <a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78a773f96280709f0b4ee36122b01357f51">Tasking::Terminated</a>
 <br />
  }</td></tr>
 <tr class="separator:aa3e6e5078f8745bcb20a52db054b3a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac68d5cb953c96d712ab1bab6baeacfba"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#ac68d5cb953c96d712ab1bab6baeacfba">Tasking::TokenTrustLevel</a> { <a class="el" href="../../d9/d3e/namespaceTasking.html#ac68d5cb953c96d712ab1bab6baeacfbaa7eb5911ffd5f12a11b75fdf85a961024">Tasking::UnknownTrustLevel</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#ac68d5cb953c96d712ab1bab6baeacfbaa9c7125309ba38adbf43f5e795271147f">Tasking::Untrusted</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#ac68d5cb953c96d712ab1bab6baeacfbaaa8722edd8cb36141cc08e307f58a7fcd">Tasking::Trusted</a>, 
+<a class="el" href="../../d9/d3e/namespaceTasking.html#ac68d5cb953c96d712ab1bab6baeacfbaa540fdfc5743805f1f50b557677599607">Tasking::TrustedByKernel</a>
+ }</td></tr>
+<tr class="separator:ac68d5cb953c96d712ab1bab6baeacfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d6/df6/structTasking_1_1TaskSecurity" id="d6/df6/structTasking_1_1TaskSecurity"></a>
@@ -162,19 +196,134 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ae7c60d14b8e3d82535679e49e1fbe29e"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#ace63578039d698d27270ad4a5d1ab6ac">TaskElevation</a></td>
+<a id="acd0dfa9beec709e42e560c3551640e62"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8">TaskTrustLevel</a></td>
 <td class="fieldname">
-Elevation</td>
+TrustLevel</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
 <a id="ab4dc9e6e4877a9a50f38783896a429e9"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#a6b1a832cb357dc05936d49b554a153aa">Token</a></td>
 <td class="fieldname">
 UniqueToken</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d6/dd8/structTasking_1_1TaskInfo" id="d6/dd8/structTasking_1_1TaskInfo"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d6/dd8/structTasking_1_1TaskInfo">&#9670;&nbsp;</a></span>Tasking::TaskInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct Tasking::TaskInfo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00063">63</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a8836ebab1c71fb68dbf9cf72761756d7"></a><a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
+<td class="fieldname">
+Affinity[256]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aabb3382fec35b68c33599188dd204e70"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302">TaskArchitecture</a></td>
+<td class="fieldname">
+Architecture</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a32ac6d7d295b6f35ec060e1fe50cf0f8"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#acdb977b9f386c7a7662877c8b0532d48">TaskCompatibility</a></td>
+<td class="fieldname">
+Compatibility</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a3e0f51d112ca792c2d84847024c89596"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+CurrentSystemTime</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="abfd452d7a3d395b2d13f8e9588300c2c"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+Day</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af8a3b682ca557f28e179009aa41fc7d4"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+Hour</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a463c6697b0c393ac398334aa9721c7ed"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+Minute</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af7149b0ee5bf257ec0a98c72d82a98c8"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+Month</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a7f496e9fc3e1eb053bc00d07900a65ba"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+OldSystemTime</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a7bb02b89a4c2c297b4f82450659c8cdc"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+OldUsedTime</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a44d611ebcf3a2ec14875e8eab4125a18"></a>int</td>
+<td class="fieldname">
+Priority</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a39a8d7ea7bb316e3bc789f66686f9f4b"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+Second</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a95a4c55b1816d16d967879f6734ea06f"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+SpawnTime</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ae55472b2aca41c753bdb80d8b36e48ce"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+Usage[256]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a16ff6293f15d45f7835534dfabccb156"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+UsedTime</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a3c8a75c770b3425732c1c40479a8eac4"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+Year</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -193,9 +342,39 @@ UniqueToken</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00112">112</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a6038cbef6d62f2c571955144199d2109"></a><a class="el" href="../../d6/da1/classVector.html">Vector</a>&lt; <a class="el" href="../../d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB">PCB</a> * &gt;</td>
+<td class="fieldname">
+Children</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac6ed583519b20768ae85105cc5049f0e"></a>int</td>
+<td class="fieldname">
+ExitCode</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a75f172a74c8eff96f9697d59b063b6de"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#a04e2f481f6f63a104eee16ed8e34d0c0">UPID</a></td>
+<td class="fieldname">
+ID</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a887637de6f393b567a480ede30884446"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#d6/dd8/structTasking_1_1TaskInfo">TaskInfo</a></td>
+<td class="fieldname">
+Info</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aef17c219d812515d4731decf7738b3a4"></a><a class="el" href="../../db/d1a/classHashMap.html">HashMap</a>&lt; IPCPort, <a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> &gt; *</td>
+<td class="fieldname">
+IPCHandles</td>
+<td class="fielddoc">
+</td></tr>
 <tr><td class="fieldtype">
 <a id="ae33532aeb44602803ff57c1bda7c8b2f"></a>char</td>
 <td class="fieldname">
@@ -203,9 +382,15 @@ Name[256]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a9f8288ad1503409e46c9b666113a95c6"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#a04e2f481f6f63a104eee16ed8e34d0c0">UPID</a></td>
+<a id="a26a0d1882e42b835ba923b400dadaeb8"></a>PageTable *</td>
 <td class="fieldname">
-PID</td>
+PageTable</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa1b70c60a92bb5cd30c81c17f51af986"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB">PCB</a> *</td>
+<td class="fieldname">
+Parent</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -220,41 +405,10 @@ Security</td>
 Status</td>
 <td class="fielddoc">
 </td></tr>
-</table>
-
-</div>
-</div>
-<a name="de/d96/structTasking_1_1TCB" id="de/d96/structTasking_1_1TCB"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#de/d96/structTasking_1_1TCB">&#9670;&nbsp;</a></span>Tasking::TCB</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct Tasking::TCB</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a22ee7989c9d822948a31341b724a4c0e"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#a1d6c5ad87e3a04eb27f6958a4d7890d9">IP</a></td>
+<a id="ac4f382d510b88859daaca174f41046fb"></a><a class="el" href="../../d6/da1/classVector.html">Vector</a>&lt; <a class="el" href="../../de/d96/structTasking_1_1TCB.html">TCB</a> * &gt;</td>
 <td class="fieldname">
-EntryPoint</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="af0c8f4ea4ffedffd0cfe586bc98e87d1"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB">PCB</a> *</td>
-<td class="fieldname">
-Parent</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a6e65b05e95320950ec745f723a9638a3"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#af5a2dfa2e9c69bcc3e82a0d7dc7a939e">UTID</a></td>
-<td class="fieldname">
-TID</td>
+Threads</td>
 <td class="fielddoc">
 </td></tr>
 </table>

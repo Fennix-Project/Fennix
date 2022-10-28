@@ -92,55 +92,59 @@ $(document).ready(function(){initNavTree('d8/d38/Time_8cpp_source.html','../../'
 <a href="../../d8/d38/Time_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../de/d99/time_8hpp.html">time.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dc/dac/io_8h.html">io.h</a>&gt;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../de/d99/time_8hpp.html#a0db627bc286db2f619f33594544dac1b">    4</a></span>&#160;<a class="code" href="../../de/d99/time_8hpp.html#d6/dba/structTime">Time</a> <a class="code" href="../../d8/d38/Time_8cpp.html#a0db627bc286db2f619f33594544dac1b">ReadClock</a>()</div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d3/d56/namespaceTime.html">    4</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/d56/namespaceTime.html">Time</a></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../de/d99/time_8hpp.html#d6/dba/structTime">Time</a> tm;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> t = 0;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    outb(0x70, 0x00);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    t = inb(0x71);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#ac1e4fb64e5d6a81c9fbbf1cc5006a3bd">Second</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    outb(0x70, 0x02);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    t = inb(0x71);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#a03362d37bd6c8bd5878f165ea5b35107">Minute</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    outb(0x70, 0x04);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    t = inb(0x71);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#a7a20b750241ea94a0b6cbbb3fdf30ffb">Hour</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    outb(0x70, 0x07);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    t = inb(0x71);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#aaf68e3071a44189bf703e2983810187e">Day</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    outb(0x70, 0x08);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    t = inb(0x71);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#aba3565fbfe3f2ca36c2b35041fdaa783">Month</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    outb(0x70, 0x09);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    t = inb(0x71);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#a9970a3ff3b8dd1e24452a206cf12dc55">Year</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#aba0b563d5daec6b6ff955c729ca60607">Counter</a> = 0;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#a9970a3ff3b8dd1e24452a206cf12dc55">Year</a> = 0;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#aba3565fbfe3f2ca36c2b35041fdaa783">Month</a> = 0;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#aaf68e3071a44189bf703e2983810187e">Day</a> = 0;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#a7a20b750241ea94a0b6cbbb3fdf30ffb">Hour</a> = 0;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#a03362d37bd6c8bd5878f165ea5b35107">Minute</a> = 0;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#ac1e4fb64e5d6a81c9fbbf1cc5006a3bd">Second</a> = 0;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    tm.<a class="code" href="../../de/d99/time_8hpp.html#aba0b563d5daec6b6ff955c729ca60607">Counter</a> = 0;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">return</span> tm;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d3/d56/namespaceTime.html#a09943ec2020bc73e7b83c4c31db2a344">    6</a></span>&#160;    <a class="code" href="../../d3/d56/namespaceTime.html#d1/d28/structTime_1_1Clock">Clock</a> <a class="code" href="../../d3/d56/namespaceTime.html#a09943ec2020bc73e7b83c4c31db2a344">ReadClock</a>()</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="../../d3/d56/namespaceTime.html#d1/d28/structTime_1_1Clock">Clock</a> tm;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> t = 0;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        outb(0x70, 0x00);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        t = inb(0x71);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#ae9c01827316d3f416bcc0cb552f02b3c">Second</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        outb(0x70, 0x02);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        t = inb(0x71);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#a6ddfe8bd27f400918c92a167ac6dc548">Minute</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        outb(0x70, 0x04);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        t = inb(0x71);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#a89108b2433178684a85738684febf806">Hour</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        outb(0x70, 0x07);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        t = inb(0x71);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#a9bda03e65073ea3c9df5a1311ef83046">Day</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        outb(0x70, 0x08);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        t = inb(0x71);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#a50fd3c6fb499cd0bbc694ef55eae70f2">Month</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        outb(0x70, 0x09);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        t = inb(0x71);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#abcff50b0a847ad28a01ba800bc6c2fb8">Year</a> = ((t &amp; 0x0F) + ((t &gt;&gt; 4) * 10));</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#a7dce65784a200d569822d2dcfb411410">Counter</a> = 0;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#abcff50b0a847ad28a01ba800bc6c2fb8">Year</a> = 0;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#a50fd3c6fb499cd0bbc694ef55eae70f2">Month</a> = 0;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#a9bda03e65073ea3c9df5a1311ef83046">Day</a> = 0;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#a89108b2433178684a85738684febf806">Hour</a> = 0;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#a6ddfe8bd27f400918c92a167ac6dc548">Minute</a> = 0;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#ae9c01827316d3f416bcc0cb552f02b3c">Second</a> = 0;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        tm.<a class="code" href="../../d3/d56/namespaceTime.html#a7dce65784a200d569822d2dcfb411410">Counter</a> = 0;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> tm;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="atime_8hpp_html_a7a20b750241ea94a0b6cbbb3fdf30ffb"><div class="ttname"><a href="../../de/d99/time_8hpp.html#a7a20b750241ea94a0b6cbbb3fdf30ffb">Time::Hour</a></div><div class="ttdeci">uint64_t Hour</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00008">time.hpp:8</a></div></div>
-<div class="ttc" id="atypes_8h_html_a0a8582351ac627ee8bde2973c825e47f"><div class="ttname"><a href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></div><div class="ttdeci">__UINT32_TYPE__ uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00063">types.h:63</a></div></div>
-<div class="ttc" id="atime_8hpp_html_aba0b563d5daec6b6ff955c729ca60607"><div class="ttname"><a href="../../de/d99/time_8hpp.html#aba0b563d5daec6b6ff955c729ca60607">Time::Counter</a></div><div class="ttdeci">uint64_t Counter</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00009">time.hpp:9</a></div></div>
-<div class="ttc" id="atime_8hpp_html_a9970a3ff3b8dd1e24452a206cf12dc55"><div class="ttname"><a href="../../de/d99/time_8hpp.html#a9970a3ff3b8dd1e24452a206cf12dc55">Time::Year</a></div><div class="ttdeci">uint64_t Year</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00008">time.hpp:8</a></div></div>
-<div class="ttc" id="atime_8hpp_html_a03362d37bd6c8bd5878f165ea5b35107"><div class="ttname"><a href="../../de/d99/time_8hpp.html#a03362d37bd6c8bd5878f165ea5b35107">Time::Minute</a></div><div class="ttdeci">uint64_t Minute</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00008">time.hpp:8</a></div></div>
-<div class="ttc" id="atime_8hpp_html_aaf68e3071a44189bf703e2983810187e"><div class="ttname"><a href="../../de/d99/time_8hpp.html#aaf68e3071a44189bf703e2983810187e">Time::Day</a></div><div class="ttdeci">uint64_t Day</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00008">time.hpp:8</a></div></div>
-<div class="ttc" id="aTime_8cpp_html_a0db627bc286db2f619f33594544dac1b"><div class="ttname"><a href="../../d8/d38/Time_8cpp.html#a0db627bc286db2f619f33594544dac1b">ReadClock</a></div><div class="ttdeci">Time ReadClock()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d38/Time_8cpp_source.html#l00004">Time.cpp:4</a></div></div>
-<div class="ttc" id="atime_8hpp_html_ac1e4fb64e5d6a81c9fbbf1cc5006a3bd"><div class="ttname"><a href="../../de/d99/time_8hpp.html#ac1e4fb64e5d6a81c9fbbf1cc5006a3bd">Time::Second</a></div><div class="ttdeci">uint64_t Second</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00008">time.hpp:8</a></div></div>
-<div class="ttc" id="atime_8hpp_html_d6/dba/structTime"><div class="ttname"><a href="../../de/d99/time_8hpp.html#d6/dba/structTime">Time</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00006">time.hpp:6</a></div></div>
-<div class="ttc" id="atime_8hpp_html_aba3565fbfe3f2ca36c2b35041fdaa783"><div class="ttname"><a href="../../de/d99/time_8hpp.html#aba3565fbfe3f2ca36c2b35041fdaa783">Time::Month</a></div><div class="ttdeci">uint64_t Month</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00008">time.hpp:8</a></div></div>
+<div class="ttc" id="atypes_8h_html_a0a8582351ac627ee8bde2973c825e47f"><div class="ttname"><a href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></div><div class="ttdeci">__UINT32_TYPE__ uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00112">types.h:112</a></div></div>
+<div class="ttc" id="anamespaceTime_html_a9bda03e65073ea3c9df5a1311ef83046"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#a9bda03e65073ea3c9df5a1311ef83046">Time::Clock::Day</a></div><div class="ttdeci">uint64_t Day</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00010">time.hpp:10</a></div></div>
+<div class="ttc" id="anamespaceTime_html_ae9c01827316d3f416bcc0cb552f02b3c"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#ae9c01827316d3f416bcc0cb552f02b3c">Time::Clock::Second</a></div><div class="ttdeci">uint64_t Second</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00010">time.hpp:10</a></div></div>
+<div class="ttc" id="anamespaceTime_html_a6ddfe8bd27f400918c92a167ac6dc548"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#a6ddfe8bd27f400918c92a167ac6dc548">Time::Clock::Minute</a></div><div class="ttdeci">uint64_t Minute</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00010">time.hpp:10</a></div></div>
+<div class="ttc" id="anamespaceTime_html_a09943ec2020bc73e7b83c4c31db2a344"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#a09943ec2020bc73e7b83c4c31db2a344">Time::ReadClock</a></div><div class="ttdeci">Clock ReadClock()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d38/Time_8cpp_source.html#l00006">Time.cpp:6</a></div></div>
+<div class="ttc" id="anamespaceTime_html_a89108b2433178684a85738684febf806"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#a89108b2433178684a85738684febf806">Time::Clock::Hour</a></div><div class="ttdeci">uint64_t Hour</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00010">time.hpp:10</a></div></div>
+<div class="ttc" id="anamespaceTime_html_a50fd3c6fb499cd0bbc694ef55eae70f2"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#a50fd3c6fb499cd0bbc694ef55eae70f2">Time::Clock::Month</a></div><div class="ttdeci">uint64_t Month</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00010">time.hpp:10</a></div></div>
+<div class="ttc" id="anamespaceTime_html_d1/d28/structTime_1_1Clock"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#d1/d28/structTime_1_1Clock">Time::Clock</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00008">time.hpp:8</a></div></div>
+<div class="ttc" id="anamespaceTime_html_a7dce65784a200d569822d2dcfb411410"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#a7dce65784a200d569822d2dcfb411410">Time::Clock::Counter</a></div><div class="ttdeci">uint64_t Counter</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00011">time.hpp:11</a></div></div>
 <div class="ttc" id="aio_8h_html"><div class="ttname"><a href="../../dc/dac/io_8h.html">io.h</a></div></div>
 <div class="ttc" id="atime_8hpp_html"><div class="ttname"><a href="../../de/d99/time_8hpp.html">time.hpp</a></div></div>
+<div class="ttc" id="anamespaceTime_html"><div class="ttname"><a href="../../d3/d56/namespaceTime.html">Time</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d38/Time_8cpp_source.html#l00004">Time.cpp:4</a></div></div>
+<div class="ttc" id="anamespaceTime_html_abcff50b0a847ad28a01ba800bc6c2fb8"><div class="ttname"><a href="../../d3/d56/namespaceTime.html#abcff50b0a847ad28a01ba800bc6c2fb8">Time::Clock::Year</a></div><div class="ttdeci">uint64_t Year</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00010">time.hpp:10</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

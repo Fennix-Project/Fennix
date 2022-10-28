@@ -1,22 +1,4 @@
 var searchData=
 [
-  ['_7eacpi_2406',['~ACPI',['../d3/d21/classACPI_1_1ACPI.html#a6b195e994f9c870ca9dfe0f85aec1bcb',1,'ACPI::ACPI']]],
-  ['_7eallocatorv1_2407',['~AllocatorV1',['../d2/da8/classXalloc_1_1AllocatorV1.html#adc5acead656731f27144b8d8c8566124',1,'Xalloc::AllocatorV1']]],
-  ['_7eapic_2408',['~APIC',['../d4/da9/classAPIC_1_1APIC.html#a28be4d245826c77316eb1b497fadc3f1',1,'APIC::APIC']]],
-  ['_7edisplay_2409',['~Display',['../db/d81/classVideo_1_1Display.html#a2834a714dcb206baa74892957d025fe8',1,'Video::Display']]],
-  ['_7edsdt_2410',['~DSDT',['../dd/dc9/classACPI_1_1DSDT.html#a71500f39dda98c0e0cc6dbfe0ec2a82d',1,'ACPI::DSDT']]],
-  ['_7eevents_2411',['~Events',['../d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a6f25f91af5da5cdce6c507766967f4a3',1,'UniversalAsynchronousReceiverTransmitter::Events']]],
-  ['_7efont_2412',['~Font',['../d3/d41/classVideo_1_1Font.html#a361be4d37435de6c586b38a0ed9f270a',1,'Video::Font']]],
-  ['_7ehandler_2413',['~Handler',['../dd/dae/classInterrupts_1_1Handler.html#a27268e70db8896d229fbcafd4cafec31',1,'Interrupts::Handler']]],
-  ['_7emadt_2414',['~MADT',['../da/db9/classACPI_1_1MADT.html#a76946fd6ab22794baa9bfcf607762b01',1,'ACPI::MADT']]],
-  ['_7epci_2415',['~PCI',['../d8/d81/classPCI_1_1PCI.html#a9da80f3c7d6d065305dbcdd28b083bcf',1,'PCI::PCI']]],
-  ['_7epic_2416',['~PIC',['../d2/d37/classPIC_1_1PIC.html#abe37603a947b620d16c27d0ff1adbcdc',1,'PIC::PIC']]],
-  ['_7epit_2417',['~PIT',['../d1/d20/classPIC_1_1PIT.html#ab90f83f0d543c035eb82833a841c8a14',1,'PIC::PIT']]],
-  ['_7epower_2418',['~Power',['../d0/df9/classPower_1_1Power.html#ace35397b0fd77953b1341989f6e56c6e',1,'Power::Power']]],
-  ['_7esmartsmapclass_2419',['~SmartSMAPClass',['../da/ddb/classXalloc_1_1SmartSMAPClass.html#a77f50a5abee69318df34c8d3a91fd0f9',1,'Xalloc::SmartSMAPClass']]],
-  ['_7esymbols_2420',['~Symbols',['../d0/dcc/classSymbolResolver_1_1Symbols.html#aff4de095f869b335c15151753f9212ba',1,'SymbolResolver::Symbols']]],
-  ['_7etask_2421',['~Task',['../dc/dc5/classTasking_1_1Task.html#a0530c5c3d7ef85439f8527280126a8b6',1,'Tasking::Task']]],
-  ['_7etimer_2422',['~Timer',['../df/d9c/classAPIC_1_1Timer.html#a24d347096069c31012b9ffa1b618f873',1,'APIC::Timer']]],
-  ['_7euart_2423',['~UART',['../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab2222f32e9d3ef5362e023a599a2c7da',1,'UniversalAsynchronousReceiverTransmitter::UART']]],
-  ['_7evector_2424',['~Vector',['../d6/da1/classVector.html#afd524fac19e6d3d69db5198ffe2952b0',1,'Vector']]]
+  ['zero_3066',['Zero',['../d7/d9a/classFileSystem_1_1Zero.html',1,'FileSystem::Zero'],['../d7/d9a/classFileSystem_1_1Zero.html#a25e805b88a9e34164e01bfb6d5b6bc78',1,'FileSystem::Zero::Zero()'],['../d5/dba/multiboot2_8h.html#a1e8db52da1ca1c6f5e2e96baec2c9256',1,'multiboot_mmap_entry::zero()']]]
 ];

@@ -93,13 +93,20 @@ $(document).ready(function(){initNavTree('d9/d87/sys_8h_source.html','../../'); 
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __FENNIX_KERNEL_SYSTEM_H__</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d49/types_8h.html">types.h</a>&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/dbe/cpu_8hpp.html">cpu.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#endif // !__FENNIX_KERNEL_SYSTEM_H__</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// TODO: Add actual panic screen</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d9/d87/sys_8h.html#a7b323c6c5191cad6825e97063827f4dc">    8</a></span>&#160;<span class="preprocessor">#define panic(msg)   \</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">    {                \</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">        error(msg);  \</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">        CPU::Stop(); \</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">    }</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif // !__FENNIX_KERNEL_SYSTEM_H__</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="../../d9/d49/types_8h.html">types.h</a></div></div>
+<div class="ttc" id="acpu_8hpp_html"><div class="ttname"><a href="../../df/dbe/cpu_8hpp.html">cpu.hpp</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

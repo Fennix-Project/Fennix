@@ -87,15 +87,17 @@ $(document).ready(function(){initNavTree('d3/d71/Task_8cpp.html','../../'); init
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Task.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../kernel.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d3/d71/Task_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -104,16 +106,77 @@ Namespaces</h2></td></tr>
 <tr class="memitem:d9/d3e/namespaceTasking"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html">Tasking</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a69e88d2644af903e00cc5fb802bdd125"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d71/Task_8cpp.html#a69e88d2644af903e00cc5fb802bdd125">schedbg</a>(m, ...)</td></tr>
+<tr class="separator:a69e88d2644af903e00cc5fb802bdd125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a5bdf8797953487a5859c703349ec35ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d71/Task_8cpp.html#a5bdf8797953487a5859c703349ec35ac">NewLock</a> (TaskingLock)</td></tr>
 <tr class="separator:a5bdf8797953487a5859c703349ec35ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a521291b0a0353eef81199949f93b3245"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a521291b0a0353eef81199949f93b3245">Tasking::a</a> ()</td></tr>
-<tr class="separator:a521291b0a0353eef81199949f93b3245"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c2e823368323b2b8851a7105401895d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d71/Task_8cpp.html#a8c2e823368323b2b8851a7105401895d">NewLock</a> (TaskingGetCurrentLock)</td></tr>
+<tr class="separator:a8c2e823368323b2b8851a7105401895d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87dbf1c1048c4c7e9430c75acbd929ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a87dbf1c1048c4c7e9430c75acbd929ba">Tasking::__attribute__</a> ((no_stack_protector)) void OneShot(int TimeSlice)</td></tr>
+<tr class="memdesc:a87dbf1c1048c4c7e9430c75acbd929ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>.  <a href="../../d9/d3e/namespaceTasking.html#a87dbf1c1048c4c7e9430c75acbd929ba">More...</a><br /></td></tr>
+<tr class="separator:a87dbf1c1048c4c7e9430c75acbd929ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a281bbd26ad1fd55430c0a50059f0538c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a281bbd26ad1fd55430c0a50059f0538c">Tasking::__attribute__</a> ((naked, used, no_stack_protector)) void IdleProcessLoop()</td></tr>
+<tr class="separator:a281bbd26ad1fd55430c0a50059f0538c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab22ad4406f11737099c0e6518c98c1d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#ab22ad4406f11737099c0e6518c98c1d6">Tasking::ThreadDoExit</a> (int <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</td></tr>
+<tr class="separator:ab22ad4406f11737099c0e6518c98c1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a69e88d2644af903e00cc5fb802bdd125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69e88d2644af903e00cc5fb802bdd125">&#9670;&nbsp;</a></span>schedbg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define schedbg</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">m, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../d3/d71/Task_8cpp_source.html">Task.cpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a8c2e823368323b2b8851a7105401895d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c2e823368323b2b8851a7105401895d">&#9670;&nbsp;</a></span>NewLock() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NewLock </td>
+          <td>(</td>
+          <td class="paramtype">TaskingGetCurrentLock&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5bdf8797953487a5859c703349ec35ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bdf8797953487a5859c703349ec35ac">&#9670;&nbsp;</a></span>NewLock()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bdf8797953487a5859c703349ec35ac">&#9670;&nbsp;</a></span>NewLock() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

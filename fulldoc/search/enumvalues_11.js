@@ -1,4 +1,11 @@
 var searchData=
 [
-  ['terminated_4592',['Terminated',['../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78a773f96280709f0b4ee36122b01357f51',1,'Tasking']]]
+  ['ready_5946',['Ready',['../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78ad63d08060d63334012f68b23d130f56e',1,'Tasking']]],
+  ['realtek_5947',['Realtek',['../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca64d0736ac69a617d62a064805276795d',1,'PCI::Descriptors']]],
+  ['redhat_5948',['RedHat',['../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586cae9e68d351e0368ce2280767c69d49c4f',1,'PCI::Descriptors']]],
+  ['redhat2_5949',['REDHat2',['../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca2e0c84924b5c7d841d7f01bff34078f9',1,'PCI::Descriptors']]],
+  ['regular_5ffile_5950',['REGULAR_FILE',['../d0/df0/classFileSystem_1_1USTAR.html#a536a5362b91a01a39de243aebbb115e8a9827081f4c9f5c6e504c658d56a74774',1,'FileSystem::USTAR']]],
+  ['relaxed_5951',['Relaxed',['../d4/d56/namespaceanonymous__namespace_02atomic_8hpp_03.html#a44c87fe87692477d78c1b35e76de0f13aa0a8257b3a2db9db1b92cc768b69476f',1,'anonymous_namespace{atomic.hpp}']]],
+  ['release_5952',['Release',['../d4/d56/namespaceanonymous__namespace_02atomic_8hpp_03.html#a44c87fe87692477d78c1b35e76de0f13a38f91f9cb432084175b93ea46f92612e',1,'anonymous_namespace{atomic.hpp}']]],
+  ['running_5953',['Running',['../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78a04712359124153cb2d93d8f09cabe8ed',1,'Tasking']]]
 ];

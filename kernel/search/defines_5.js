@@ -1,21 +1,8 @@
 var searchData=
 [
-  ['false_4597',['false',['../d9/d49/types_8h.html#a65e9886d74aaee76545e83dd09011727',1,'types.h']]],
-  ['fixme_4598',['fixme',['../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f',1,'debug.h']]],
-  ['flags_5fadapt_5fexp_4599',['FLAGS_ADAPT_EXP',['../d1/d3d/printf_8c.html#ac65b16dab08c378eb12307e41cedb696',1,'printf.c']]],
-  ['flags_5fchar_4600',['FLAGS_CHAR',['../d1/d3d/printf_8c.html#a5584c6d116b42ffdf2c2b7b72209cb25',1,'printf.c']]],
-  ['flags_5fhash_4601',['FLAGS_HASH',['../d1/d3d/printf_8c.html#a4e4ed2c9a700bf9cfddabb05debd4790',1,'printf.c']]],
-  ['flags_5fint_4602',['FLAGS_INT',['../d1/d3d/printf_8c.html#a4d2ee94fbad75b263dd756cb4d52c167',1,'printf.c']]],
-  ['flags_5fleft_4603',['FLAGS_LEFT',['../d1/d3d/printf_8c.html#ac6c26878acb903cb07de2b9552fec26b',1,'printf.c']]],
-  ['flags_5flong_4604',['FLAGS_LONG',['../d1/d3d/printf_8c.html#a15a50af941ea5ca0a9517faf2f90b524',1,'printf.c']]],
-  ['flags_5flong_5flong_4605',['FLAGS_LONG_LONG',['../d1/d3d/printf_8c.html#a4ac2d97fe74925064a50628a469403d3',1,'printf.c']]],
-  ['flags_5fplus_4606',['FLAGS_PLUS',['../d1/d3d/printf_8c.html#a3d8b1bd3dd657ac7856e8aa67b170fee',1,'printf.c']]],
-  ['flags_5fpointer_4607',['FLAGS_POINTER',['../d1/d3d/printf_8c.html#abd39f2dd3c4a2fa9c72a3db97eda33bf',1,'printf.c']]],
-  ['flags_5fprecision_4608',['FLAGS_PRECISION',['../d1/d3d/printf_8c.html#a7ffc74d008f9e494649d270668555dd1',1,'printf.c']]],
-  ['flags_5fshort_4609',['FLAGS_SHORT',['../d1/d3d/printf_8c.html#a4e289a20e315f0a470da3f149d33c7a5',1,'printf.c']]],
-  ['flags_5fsigned_4610',['FLAGS_SIGNED',['../d1/d3d/printf_8c.html#ac2d8918920a8b6bf644e9a7a075eb1bd',1,'printf.c']]],
-  ['flags_5fspace_4611',['FLAGS_SPACE',['../d1/d3d/printf_8c.html#a2c249ce13d36626995f96880028b3d0a',1,'printf.c']]],
-  ['flags_5fuppercase_4612',['FLAGS_UPPERCASE',['../d1/d3d/printf_8c.html#a738a48de177a2e385f66995685334761',1,'printf.c']]],
-  ['flags_5fzeropad_4613',['FLAGS_ZEROPAD',['../d1/d3d/printf_8c.html#ad7b04ce70e8c9e609f02c796be254062',1,'printf.c']]],
-  ['flush_4614',['FLUSH',['../d2/dc3/liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8',1,'liballoc_1_1.c']]]
+  ['end_5fexternc_5995',['END_EXTERNC',['../d9/d49/types_8h.html#a437ba916916730550dd2b045bccc6833',1,'types.h']]],
+  ['error_5996',['error',['../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574',1,'debug.h']]],
+  ['exception_5ferror_5fhandler_5997',['EXCEPTION_ERROR_HANDLER',['../d7/d21/InterruptDescriptorTable_8cpp.html#a91faac0f0bd85f400863bbff6ba06f7f',1,'InterruptDescriptorTable.cpp']]],
+  ['exception_5fhandler_5998',['EXCEPTION_HANDLER',['../d7/d21/InterruptDescriptorTable_8cpp.html#ae6aa82d43fcacd6bb94831abbb665799',1,'InterruptDescriptorTable.cpp']]],
+  ['externc_5999',['EXTERNC',['../d9/d49/types_8h.html#a95e1d92b2619a326b2e86600f3d23100',1,'types.h']]]
 ];

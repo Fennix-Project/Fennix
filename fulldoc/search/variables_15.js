@@ -1,7 +1,21 @@
 var searchData=
 [
-  ['waet_3657',['WAET',['../d3/d21/classACPI_1_1ACPI.html#ad3ae89dbea8c082b0ca0a0b8543cca5b',1,'ACPI::ACPI']]],
-  ['width_3658',['Width',['../db/d96/structBootInfo.html#a8c1096c7230bcbc2d3bdefbc9ee4ab6c',1,'BootInfo::FramebufferInfo::Width()'],['../d6/de2/namespaceVideo.html#a1d593c6561eee19e2210a4b62ef68ea4',1,'Video::FontInfo::Width()'],['../d6/de2/namespaceVideo.html#af8f44583b704b3d6e044d993fa0049ba',1,'Video::ScreenBuffer::Width()'],['../de/d6b/structlimine__framebuffer.html#ad7e3e9a8a701f5bf814053d4d3628351',1,'limine_framebuffer::width()'],['../d5/dba/multiboot2_8h.html#a01f7fd9c4cbb8d58b155a50ff0e030d0',1,'multiboot_header_tag_framebuffer::width()'],['../d6/de2/namespaceVideo.html#a49483d30af005e8ea02ec966f0025851',1,'Video::PSF2_HEADER::width()']]],
-  ['worstc2latency_3659',['WorstC2Latency',['../d3/d21/classACPI_1_1ACPI.html#ae536d025061b9175888bb57c1bdc576e',1,'ACPI::ACPI::FADTHeader::WorstC2Latency()'],['../d1/d90/acpi_8hpp.html#a3d07eb04e424a1c4e5807a8ba3ff603b',1,'WorstC2Latency():&#160;acpi.hpp']]],
-  ['worstc3latency_3660',['WorstC3Latency',['../d3/d21/classACPI_1_1ACPI.html#aeb80e1f8d75b1f0aa6995edd1936b35e',1,'ACPI::ACPI::FADTHeader::WorstC3Latency()'],['../d1/d90/acpi_8hpp.html#a8415185ea68f95991fd73b6e4681debc',1,'WorstC3Latency():&#160;acpi.hpp']]]
+  ['value_4886',['Value',['../d7/d56/classHashNode.html#a2814ca234322a66cd03b789bce92c453',1,'HashNode::Value()'],['../d1/d37/cargs_8h.html#a5fb840d6294e740ae97be12dfee745cd',1,'cag_option_context::value()']]],
+  ['value_5fname_4887',['value_name',['../d1/d37/cargs_8h.html#a82eeae2b3e62b12a47d255548814f0d3',1,'cag_option']]],
+  ['vbe_5fcontrol_5finfo_4888',['vbe_control_info',['../d5/dba/multiboot2_8h.html#a057304e943e881731680e06472c4bf1e',1,'multiboot_tag_vbe']]],
+  ['vbe_5finterface_5flen_4889',['vbe_interface_len',['../d5/dba/multiboot2_8h.html#a513fc2ea3224e91c0870165152d989e1',1,'multiboot_tag_vbe']]],
+  ['vbe_5finterface_5foff_4890',['vbe_interface_off',['../d5/dba/multiboot2_8h.html#a1370d764136d9cde9132c71ebf54bc3e',1,'multiboot_tag_vbe']]],
+  ['vbe_5finterface_5fseg_4891',['vbe_interface_seg',['../d5/dba/multiboot2_8h.html#a72d62afb2de739a3e651aac357069abe',1,'multiboot_tag_vbe']]],
+  ['vbe_5fmode_4892',['vbe_mode',['../d5/dba/multiboot2_8h.html#a3d8f77830f0e010b34939f4eeb24e64d',1,'multiboot_tag_vbe']]],
+  ['vbe_5fmode_5finfo_4893',['vbe_mode_info',['../d5/dba/multiboot2_8h.html#a386399d7efb3952f08693fb0f5242bd9',1,'multiboot_tag_vbe']]],
+  ['vectorbuffer_4894',['VectorBuffer',['../d6/da1/classVector.html#ad3abb60e1ccd27addba68059720fa051',1,'Vector']]],
+  ['vectorcapacity_4895',['VectorCapacity',['../d6/da1/classVector.html#a4895604ed125abf16f975fcb159bf6e3',1,'Vector']]],
+  ['vectorsize_4896',['VectorSize',['../d6/da1/classVector.html#a2c88b7d1f70491b5e723d281edcbd47c',1,'Vector']]],
+  ['vendorid_4897',['VendorID',['../d0/d8f/namespacePCI.html#a3c9f12eb92757bd60e48090eb71a0ef1',1,'PCI::PCIDeviceHeader']]],
+  ['version_4898',['version',['../d5/dba/multiboot2_8h.html#a9062cb77271b7ed69970ede5c90a50ad',1,'multiboot_tag_apm::version()'],['../d6/de2/namespaceVideo.html#abf3fea41de0a3e4cb2d09554c7256046',1,'Video::PSF2_HEADER::version()'],['../d0/df0/classFileSystem_1_1USTAR.html#a152d13d320f465ed8b4288b4c3b3a756',1,'FileSystem::USTAR::FileHeader::version()'],['../d3/d21/classACPI_1_1ACPI.html#a75e90800b6b7c808b762c2de2bcfc0ab',1,'ACPI::ACPI::BGRTHeader::Version()'],['../db/d96/structBootInfo.html#a9e491ebebeeaef5757badfe61dd5ca1e',1,'BootInfo::BootloaderInfo::Version()']]],
+  ['vfs_4899',['vfs',['../d2/d00/Kernel_8cpp.html#aace8e8569f67aa3e86be6cefa47a71f7',1,'Kernel.cpp']]],
+  ['virtual_5fbase_4900',['virtual_base',['../d3/df0/limine_8h.html#ade872c60ef827862eb6771acd0a65ce5',1,'limine_kernel_address_response']]],
+  ['virtualaddress_4901',['VirtualAddress',['../da/db9/classACPI_1_1MADT.html#af18d34a127d960f7fb9c9f40df0b04b9',1,'ACPI::MADT::LAPIC']]],
+  ['virtualbase_4902',['VirtualBase',['../db/d96/structBootInfo.html#aa93ca2b883a24035cce85ecf6e971bc3',1,'BootInfo::KernelInfo']]],
+  ['volumename_4903',['VolumeName',['../d1/db8/classFileSystem_1_1EXT2.html#a2ef455d076cd23af33e936bfc6537c8f',1,'FileSystem::EXT2::SuperBlock']]]
 ];

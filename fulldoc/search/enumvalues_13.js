@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['video_5ftype_5fcolour_4598',['VIDEO_TYPE_COLOUR',['../d8/d0e/Multiboot2_8cpp.html#ad303a41483e094d68465b3d33e5d716fa03a8eba6ad2835cc64130fdc179c1494',1,'Multiboot2.cpp']]],
-  ['video_5ftype_5fmonochrome_4599',['VIDEO_TYPE_MONOCHROME',['../d8/d0e/Multiboot2_8cpp.html#ad303a41483e094d68465b3d33e5d716faf1ed28d657babf55eff7940a062bdb20',1,'Multiboot2.cpp']]],
-  ['video_5ftype_5fnone_4600',['VIDEO_TYPE_NONE',['../d8/d0e/Multiboot2_8cpp.html#ad303a41483e094d68465b3d33e5d716fa23396484168138ce0b4045859e2982f0',1,'Multiboot2.cpp']]],
-  ['virtualbox_4601',['VirtualBox',['../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca2ce7250afaa977ad4e895c56dc2f3b18',1,'PCI::Descriptors']]],
-  ['virtualization_4602',['Virtualization',['../d9/d25/namespaceCPU_1_1x64.html#a29dfbfccd41ca8220ab0f81be1e7d56aa8a15e86c8ac1205137ae17b290a063c8',1,'CPU::x64']]],
-  ['vmware_4603',['VMware',['../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586ca85d78ed71fc60c91b5a6619f66e14e86',1,'PCI::Descriptors']]]
+  ['terminated_5971',['Terminated',['../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78a773f96280709f0b4ee36122b01357f51',1,'Tasking']]],
+  ['timeout_5972',['TIMEOUT',['../d6/df5/namespaceFileSystem.html#a498378a40f6f4c8232aca28f9be264d1a1b74dae5ac8b41f543555ae96c8ce337',1,'FileSystem']]],
+  ['trampoline_5fstart_5973',['TRAMPOLINE_START',['../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780',1,'SymmetricMultiprocessing.cpp']]],
+  ['trusted_5974',['Trusted',['../d9/d3e/namespaceTasking.html#ac68d5cb953c96d712ab1bab6baeacfbaaa8722edd8cb36141cc08e307f58a7fcd',1,'Tasking']]],
+  ['trustedbykernel_5975',['TrustedByKernel',['../d9/d3e/namespaceTasking.html#ac68d5cb953c96d712ab1bab6baeacfbaa540fdfc5743805f1f50b557677599607',1,'Tasking']]],
+  ['tscdeadline_5976',['TSCDeadline',['../d3/d88/namespaceAPIC.html#a94b9c4b826c87fd2c2adb212030432b1a9fd0f670ef121cfbd76bd8582a72550a',1,'APIC']]]
 ];

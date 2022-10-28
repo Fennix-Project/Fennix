@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['zero_2405',['zero',['../d5/dba/multiboot2_8h.html#a1e8db52da1ca1c6f5e2e96baec2c9256',1,'multiboot_mmap_entry']]]
+  ['year_3065',['Year',['../d9/d3e/namespaceTasking.html#a3c8a75c770b3425732c1c40479a8eac4',1,'Tasking::TaskInfo::Year()'],['../d3/d56/namespaceTime.html#abcff50b0a847ad28a01ba800bc6c2fb8',1,'Time::Clock::Year()']]]
 ];

@@ -1,25 +1,7 @@
 var searchData=
 [
-  ['kcalloc_1074',['kcalloc',['../da/d3e/memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'memory.hpp']]],
-  ['kconfig_2ecpp_1075',['KConfig.cpp',['../d3/d81/KConfig_8cpp.html',1,'']]],
-  ['kconfig_2ehpp_1076',['kconfig.hpp',['../d1/dfc/kconfig_8hpp.html',1,'']]],
-  ['kernel_1077',['Kernel',['../db/d96/structBootInfo.html#ae01ac1727fbb31d0fad56381cb6c858f',1,'BootInfo::Kernel()'],['../d9/d3e/namespaceTasking.html#ace63578039d698d27270ad4a5d1ab6aca954df91fe1d707441efeafbafa086b37',1,'Tasking::Kernel()']]],
-  ['kernel_2ecpp_1078',['Kernel.cpp',['../d2/d00/Kernel_8cpp.html',1,'']]],
-  ['kernel_2eh_1079',['kernel.h',['../d0/daa/kernel_8h.html',1,'']]],
-  ['kerneladdressrequest_1080',['KernelAddressRequest',['../d3/d1d/Limine_8c.html#a72e46a635514df1e6af51c3c2d331a2d',1,'Limine.c']]],
-  ['kernelallocator_1081',['KernelAllocator',['../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf',1,'Memory.cpp']]],
-  ['kernelandmodules_1082',['KernelAndModules',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a8b675d21252e54a28df94bb018e9c307',1,'binfo.h']]],
-  ['kernelconfig_1083',['KernelConfig',['../d1/dfc/kconfig_8hpp.html#d8/d9d/structKernelConfig',1,'']]],
-  ['kernelfilerequest_1084',['KernelFileRequest',['../d3/d1d/Limine_8c.html#a1e8f2f40d132e891c9dfdb40f1ed90f7',1,'Limine.c']]],
-  ['kernelinfo_1085',['KernelInfo',['../db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo',1,'BootInfo']]],
-  ['kernelmainthread_1086',['KernelMainThread',['../d0/daa/kernel_8h.html#a30d0f477733ba7d378ef836693d3b48d',1,'KernelMainThread():&#160;KThread.cpp'],['../d4/dfc/KThread_8cpp.html#a6e3dd376cdd7abd6de13ef188c5aec29',1,'KernelMainThread():&#160;KThread.cpp']]],
-  ['kernelpagetable_1087',['KernelPageTable',['../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9',1,'Memory.cpp']]],
-  ['kernelsymboltable_1088',['KernelSymbolTable',['../d2/d00/Kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694',1,'Kernel.cpp']]],
-  ['key_1089',['Key',['../d7/d56/classHashNode.html#a1c088675e7fe35dcd2d460f9e463e723',1,'HashNode']]],
-  ['kfree_1090',['kfree',['../da/d3e/memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'memory.hpp']]],
-  ['kmalloc_1091',['kmalloc',['../da/d3e/memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'memory.hpp']]],
-  ['kprint_1092',['KPrint',['../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e',1,'KPrint(const char *Format,...):&#160;Kernel.cpp'],['../d0/daa/kernel_8h.html#a153b7d68a0bd505e7ea656f2fd8fcd64',1,'KPrint(const char *format,...):&#160;Kernel.cpp']]],
-  ['krealloc_1093',['krealloc',['../da/d3e/memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'memory.hpp']]],
-  ['kthread_2ecpp_1094',['KThread.cpp',['../d4/dfc/KThread_8cpp.html',1,'']]],
-  ['kernel_1095',['Kernel',['../da/dc9/md_Kernel_README.html',1,'']]]
+  ['journaldev_1520',['JournalDev',['../d1/db8/classFileSystem_1_1EXT2.html#a43470293fb6a4f8dd742f0e6dd536b53',1,'FileSystem::EXT2::SuperBlock']]],
+  ['journalinum_1521',['JournalInum',['../d1/db8/classFileSystem_1_1EXT2.html#afb5a01b6d6ac2d225e5f6636c1c5cbd8',1,'FileSystem::EXT2::SuperBlock']]],
+  ['journaluuid_1522',['JournalUUID',['../d1/db8/classFileSystem_1_1EXT2.html#ac4d7a444c3d0e93aac25dc38d26d7de8',1,'FileSystem::EXT2::SuperBlock']]],
+  ['jumpboot_1523',['JumpBoot',['../df/d19/classFileSystem_1_1FAT.html#af4382a80f460a26c98de678da9ffeef6',1,'FileSystem::FAT::BIOSParameterBlock::JumpBoot()'],['../d9/dc3/fat_8hpp.html#a41116f6bc02fbe64d7b692bec5bcc401',1,'JumpBoot():&#160;fat.hpp']]]
 ];

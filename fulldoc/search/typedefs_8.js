@@ -1,11 +1,12 @@
 var searchData=
 [
-  ['pagefaulterrorcode_3717',['PageFaultErrorCode',['../d9/d25/namespaceCPU_1_1x64.html#aa75f18d588864de6d36447d9d3987045',1,'CPU::x64']]],
-  ['printf_5fflags_5ft_3718',['printf_flags_t',['../df/d7f/Kernel_2Library_2printf_8c.html#a9d4a10dcdc829ae96fb79bb912da57e2',1,'printf_flags_t():&#160;printf.c'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a9d4a10dcdc829ae96fb79bb912da57e2',1,'printf_flags_t():&#160;printf.c']]],
-  ['printf_5fsigned_5fvalue_5ft_3719',['printf_signed_value_t',['../df/d7f/Kernel_2Library_2printf_8c.html#a087d874d932f510310412187369a6cf9',1,'printf_signed_value_t():&#160;printf.c'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a087d874d932f510310412187369a6cf9',1,'printf_signed_value_t():&#160;printf.c']]],
-  ['printf_5fsize_5ft_3720',['printf_size_t',['../df/d7f/Kernel_2Library_2printf_8c.html#a248c42df6acfe93973ab8ea2148820c7',1,'printf_size_t():&#160;printf.c'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a248c42df6acfe93973ab8ea2148820c7',1,'printf_size_t():&#160;printf.c']]],
-  ['printf_5funsigned_5fvalue_5ft_3721',['printf_unsigned_value_t',['../df/d7f/Kernel_2Library_2printf_8c.html#af43407109a0952f9ce5dee4160f21235',1,'printf_unsigned_value_t():&#160;printf.c'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#af43407109a0952f9ce5dee4160f21235',1,'printf_unsigned_value_t():&#160;printf.c']]],
-  ['psf1_5ffont_3722',['PSF1_FONT',['../d6/de2/namespaceVideo.html#a2137843eb8fe9874ab8b683ac3bcbc30',1,'Video']]],
-  ['psf2_5ffont_3723',['PSF2_FONT',['../d6/de2/namespaceVideo.html#a7137318579a094bc14839573852979c4',1,'Video']]],
-  ['ptrdiff_5ft_3724',['ptrdiff_t',['../d0/df4/Kernel_2include_2types_8h.html#a6d26a0475a6d6c897e655cdc5d8019d2',1,'types.h']]]
+  ['operationclose_4967',['OperationClose',['../d6/df5/namespaceFileSystem.html#a3864e42d07f9ca9d4408513178282028',1,'FileSystem']]],
+  ['operationcreate_4968',['OperationCreate',['../d6/df5/namespaceFileSystem.html#a7bdd03ab62da07aac9d81ad31eb1e3e3',1,'FileSystem']]],
+  ['operationmkdir_4969',['OperationMkdir',['../d6/df5/namespaceFileSystem.html#afb8c9ab6bc3077bab9319d7ff634c68f',1,'FileSystem']]],
+  ['operationmount_4970',['OperationMount',['../d6/df5/namespaceFileSystem.html#a4be43a0b27c85b81053fc6ba8dcb5984',1,'FileSystem']]],
+  ['operationopen_4971',['OperationOpen',['../d6/df5/namespaceFileSystem.html#a0dc639900312e7c8365d36e99452b3fa',1,'FileSystem']]],
+  ['operationread_4972',['OperationRead',['../d6/df5/namespaceFileSystem.html#a0e1b3ca5f4c84fe1e42dd88ad8ab0f17',1,'FileSystem']]],
+  ['operationsync_4973',['OperationSync',['../d6/df5/namespaceFileSystem.html#a609693b3beb8d6c12678f46bfa2a7be7',1,'FileSystem']]],
+  ['operationumount_4974',['OperationUmount',['../d6/df5/namespaceFileSystem.html#a78474b4fa5c3c9e8afe31503b691b63a',1,'FileSystem']]],
+  ['operationwrite_4975',['OperationWrite',['../d6/df5/namespaceFileSystem.html#a0e2f12cc93625188f0ce24eff315e7ce',1,'FileSystem']]]
 ];

@@ -10,6 +10,7 @@ var Memory_8cpp =
     [ "operator delete[]", "d8/dcc/Memory_8cpp.html#abca455060bb75ee720ded1c340f24b2e", null ],
     [ "operator delete[]", "d8/dcc/Memory_8cpp.html#a836ceaae254f31768f02c0efc2f1dac0", null ],
     [ "operator new", "d8/dcc/Memory_8cpp.html#acc39add3badc92c9e95a8336ed64f231", null ],
+    [ "operator new", "d8/dcc/Memory_8cpp.html#a92384fe2d2094702b04e46f6d997288c", null ],
     [ "operator new[]", "d8/dcc/Memory_8cpp.html#ac2ceee8095719b5fb4e3ef3ea9b6498f", null ],
     [ "AllocatorType", "d8/dcc/Memory_8cpp.html#a5eaf3b572ade2cd087d9919691b9ae98", null ],
     [ "KernelAllocator", "d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf", null ],

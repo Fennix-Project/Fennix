@@ -1,9 +1,9 @@
 var ArithmeticOperations_8c =
 [
     [ "arith64_word", "d0/d18/ArithmeticOperations_8c.html#d3/d6a/unionarith64__word", [
-      [ "s32", "d0/d18/ArithmeticOperations_8c.html#a2ead6b8af0a48d6b1d1190da0d241fd4", null ],
+      [ "s32", "d0/d18/ArithmeticOperations_8c.html#ac3da5aadad86133bc8eca7d8b9943635", null ],
       [ "s64", "d0/d18/ArithmeticOperations_8c.html#ae05a2ca8fb9ebfd35615d32938fb4aa3", null ],
-      [ "u32", "d0/d18/ArithmeticOperations_8c.html#a9aece13a5e2ebea3d36c2f5869ef669b", null ],
+      [ "u32", "d0/d18/ArithmeticOperations_8c.html#acdcb587e636c1c568a34219a62ac3eae", null ],
       [ "u64", "d0/d18/ArithmeticOperations_8c.html#ad192cbe21090ac61ed87ab8fefea7fd8", null ]
     ] ],
     [ "arith64_word.u32", "d0/d18/ArithmeticOperations_8c.html#d3/da7/structarith64__word_8u32", [

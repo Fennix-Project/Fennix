@@ -2,6 +2,7 @@ var classACPI_1_1DSDT =
 [
     [ "DSDT", "dd/dc9/classACPI_1_1DSDT.html#ada6d942cb347322471a540e271a6d247", null ],
     [ "~DSDT", "dd/dc9/classACPI_1_1DSDT.html#a71500f39dda98c0e0cc6dbfe0ec2a82d", null ],
+    [ "OnInterruptReceived", "dd/dc9/classACPI_1_1DSDT.html#ac50f4bc674ec3037fef21c09619067a7", null ],
     [ "Reboot", "dd/dc9/classACPI_1_1DSDT.html#a8c914d7d30b9863719544e00c132dc01", null ],
     [ "Shutdown", "dd/dc9/classACPI_1_1DSDT.html#ab2af55e6642a559adaae02f4e485cc0b", null ],
     [ "acpi", "dd/dc9/classACPI_1_1DSDT.html#a2cb9cc1b2fafe1c605988e23be25a3e6", null ],

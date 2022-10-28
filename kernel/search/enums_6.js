@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['memorytype_3699',['MemoryType',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01',1,'binfo.h']]],
-  ['msrid_3700',['MSRID',['../d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bd',1,'CPU::x64']]]
+  ['lvttimerdivide_4971',['LVTTimerDivide',['../d3/d88/namespaceAPIC.html#aa540889ec4157bb604e83087996a9980',1,'APIC']]],
+  ['lvttimermask_4972',['LVTTimerMask',['../d3/d88/namespaceAPIC.html#af7da6d1cf288d51a50c782a2aa75c162',1,'APIC']]],
+  ['lvttimermode_4973',['LVTTimerMode',['../d3/d88/namespaceAPIC.html#a94b9c4b826c87fd2c2adb212030432b1',1,'APIC']]]
 ];

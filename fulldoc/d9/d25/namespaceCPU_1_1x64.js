@@ -1,5 +1,9 @@
 var namespaceCPU_1_1x64 =
 [
+    [ "AMD", "d9/da9/namespaceCPU_1_1x64_1_1AMD.html", "d9/da9/namespaceCPU_1_1x64_1_1AMD" ],
+    [ "Intel", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html", "d7/d7e/namespaceCPU_1_1x64_1_1Intel" ],
+    [ "__attribute__", "d9/d25/namespaceCPU_1_1x64.html#db/dc5/unionCPU_1_1x64_1_1____attribute____", "d9/d25/namespaceCPU_1_1x64_db/dc5/unionCPU_1_1x64_1_1____attribute_____dup" ],
+    [ "__attribute__.__unnamed__", "d9/d25/namespaceCPU_1_1x64.html#dd/d73/structCPU_1_1x64_1_1____attribute_____8____unnamed____", "d9/d25/namespaceCPU_1_1x64_dd/d73/structCPU_1_1x64_1_1____attribute_____8____unnamed_____dup" ],
     [ "CR0", "d9/d25/namespaceCPU_1_1x64.html#d1/d09/unionCPU_1_1x64_1_1CR0", "d9/d25/namespaceCPU_1_1x64_d1/d09/unionCPU_1_1x64_1_1CR0_dup" ],
     [ "CR0.__unnamed__", "d9/d25/namespaceCPU_1_1x64.html#d7/d69/structCPU_1_1x64_1_1CR0_8____unnamed____", "d9/d25/namespaceCPU_1_1x64_d7/d69/structCPU_1_1x64_1_1CR0_8____unnamed_____dup" ],
     [ "CR2", "d9/d25/namespaceCPU_1_1x64.html#d2/dee/unionCPU_1_1x64_1_1CR2", "d9/d25/namespaceCPU_1_1x64_d2/dee/unionCPU_1_1x64_1_1CR2_dup" ],

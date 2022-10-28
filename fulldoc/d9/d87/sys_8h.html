@@ -85,13 +85,47 @@ $(document).ready(function(){initNavTree('d9/d87/sys_8h.html','../../'); initRes
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">sys.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
 </div>
 <p><a href="../../d9/d87/sys_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a7b323c6c5191cad6825e97063827f4dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d87/sys_8h.html#a7b323c6c5191cad6825e97063827f4dc">panic</a>(msg)</td></tr>
+<tr class="separator:a7b323c6c5191cad6825e97063827f4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a7b323c6c5191cad6825e97063827f4dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b323c6c5191cad6825e97063827f4dc">&#9670;&nbsp;</a></span>panic</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define panic</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">msg</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    {                \</div>
+<div class="line">        error(msg);  \</div>
+<div class="line">        CPU::Stop(); \</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d9/d87/sys_8h_source.html#l00008">8</a> of file <a class="el" href="../../d9/d87/sys_8h_source.html">sys.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
