@@ -39,7 +39,6 @@ ifeq ($(OSARCH), amd64)
 QEMUFLAGS += -device bochs-display -M q35 \
 			 -usb \
 			 -usbdevice mouse \
-			 -smp $(shell nproc) \
 			 -net user \
 			 -netdev user,id=usernet0 \
 			 -device e1000,netdev=usernet0,mac=00:69:96:00:42:00 \
@@ -57,7 +56,6 @@ else ifeq ($(OSARCH), i686)
 QEMUFLAGS += -M q35 \
 			 -usb \
 			 -usbdevice mouse \
-			 -smp $(shell nproc) \
 			 -net user \
 			 -netdev user,id=usernet0 \
 			 -device e1000,netdev=usernet0,mac=00:69:96:00:42:00 \
@@ -160,15 +158,15 @@ endif
 
 vscode_debug: build_kernel build_userspace build_drivers build_image
 	rm -f serial.log network.log
-	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 4G $(QEMUFLAGS)
+	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 4G $(QEMUFLAGS) -smp $(shell echo $(shell nproc)/4 | bc)
 
 qemu: qemu_vdisk
 	rm -f serial.log network.log
-	$(QEMU) $(QEMU_UEFI_BIOS) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY)
+	$(QEMU) $(QEMU_UEFI_BIOS) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) -smp $(shell nproc)
 
 qemubios: qemu_vdisk
 	rm -f serial.log network.log
-	$(QEMU) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY)
+	$(QEMU) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) -smp $(shell nproc)
 
 run: build qemu
 
