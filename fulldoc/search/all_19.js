@@ -1,9 +1,9 @@
 var searchData=
 [
   ['x2apicsupported_2996',['x2APICSupported',['../d4/da9/classAPIC_1_1APIC.html#ad537d0271f378655538534d827b2321b',1,'APIC::APIC']]],
-  ['x32multiboot2entry_2997',['x32Multiboot2Entry',['../d8/d0e/Multiboot2_8cpp.html#a6237aba9905dbb76ee311bf8392a26f1',1,'Multiboot2.cpp']]],
-  ['x64_2998',['x64',['../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302a691951f7c582f9dff5d0d0d6a73392d4',1,'Tasking']]],
-  ['x86_2999',['x86',['../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302aef6305c9639ed0b24bca596fad01fd62',1,'Tasking']]],
+  ['x32_2997',['x32',['../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302a67026fb63dbef08d56b1cacef7d3e3ad',1,'Tasking']]],
+  ['x32multiboot2entry_2998',['x32Multiboot2Entry',['../d8/d0e/Multiboot2_8cpp.html#a6237aba9905dbb76ee311bf8392a26f1',1,'Multiboot2.cpp']]],
+  ['x64_2999',['x64',['../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302a691951f7c582f9dff5d0d0d6a73392d4',1,'Tasking']]],
   ['x86_5fcpuid_5fsignature_5famd_5fb_3000',['x86_CPUID_SIGNATURE_AMD_b',['../df/dbe/cpu_8hpp.html#ab8bb4eb7eec553b6a210cd6fca632bfc',1,'cpu.hpp']]],
   ['x86_5fcpuid_5fsignature_5famd_5fc_3001',['x86_CPUID_SIGNATURE_AMD_c',['../df/dbe/cpu_8hpp.html#a40f39c5569a1dbaafa7268fa75635e2c',1,'cpu.hpp']]],
   ['x86_5fcpuid_5fsignature_5famd_5fd_3002',['x86_CPUID_SIGNATURE_AMD_d',['../df/dbe/cpu_8hpp.html#a9ccc047e9c61ae25dee246504e48314b',1,'cpu.hpp']]],

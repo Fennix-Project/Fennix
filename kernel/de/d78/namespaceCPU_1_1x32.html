@@ -85,12 +85,102 @@ $(document).ready(function(){initNavTree('de/d78/namespaceCPU_1_1x32.html','../.
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">CPU::x32 Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3a5fea71c780c7bc4e1ff5e76dc7594b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#a3a5fea71c780c7bc4e1ff5e76dc7594b">cpuid</a> (<a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Function, <a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> *eax, <a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> *ebx, <a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> *ecx, <a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> *edx)</td></tr>
+<tr class="memdesc:a3a5fea71c780c7bc4e1ff5e76dc7594b"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPUID.  <a href="../../de/d78/namespaceCPU_1_1x32.html#a3a5fea71c780c7bc4e1ff5e76dc7594b">More...</a><br /></td></tr>
+<tr class="separator:a3a5fea71c780c7bc4e1ff5e76dc7594b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a3a5fea71c780c7bc4e1ff5e76dc7594b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a5fea71c780c7bc4e1ff5e76dc7594b">&#9670;&nbsp;</a></span>cpuid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void CPU::x32::cpuid </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>Function</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> *&#160;</td>
+          <td class="paramname"><em>eax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> *&#160;</td>
+          <td class="paramname"><em>ebx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> *&#160;</td>
+          <td class="paramname"><em>ecx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> *&#160;</td>
+          <td class="paramname"><em>edx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>CPUID. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Function</td><td>Leaf </td></tr>
+    <tr><td class="paramname">eax</td><td>EAX </td></tr>
+    <tr><td class="paramname">ebx</td><td>EBX </td></tr>
+    <tr><td class="paramname">ecx</td><td>ECX </td></tr>
+    <tr><td class="paramname">edx</td><td>EDX </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00264">264</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        {</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">#if defined(__i386__)</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;cpuid&quot;</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                 : <span class="stringliteral">&quot;=a&quot;</span>(*eax), <span class="stringliteral">&quot;=b&quot;</span>(*ebx), <span class="stringliteral">&quot;=c&quot;</span>(*ecx), <span class="stringliteral">&quot;=d&quot;</span>(*edx)</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                 : <span class="stringliteral">&quot;a&quot;</span>(Function));</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00025">asmv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00033">CPU::Name()</a>, and <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00011">CPU::Vendor()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="atypes_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00025">types.h:25</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

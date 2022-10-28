@@ -7173,6 +7173,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cpuid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CPU::x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d78/namespaceCPU_1_1x32.html</Path>
+    <Anchor>a3a5fea71c780c7bc4e1ff5e76dc7594b</Anchor>
+    <Abstract>CPUID.</Abstract>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>__attribute__</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -21233,6 +21245,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>cpuid</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CPU::x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d78/namespaceCPU_1_1x32.html</Path>
+    <Anchor>a3a5fea71c780c7bc4e1ff5e76dc7594b</Anchor>
+    <Abstract>CPUID.</Abstract>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CPU::x64</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -33211,13 +33235,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>x86</Name>
+      <Name>x32</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>a96e537039eec201fc357dae47c819302aef6305c9639ed0b24bca596fad01fd62</Anchor>
+    <Anchor>a96e537039eec201fc357dae47c819302a67026fb63dbef08d56b1cacef7d3e3ad</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>

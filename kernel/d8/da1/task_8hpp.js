@@ -45,7 +45,7 @@ var task_8hpp =
     [ "UTID", "d8/da1/task_8hpp.html#af5a2dfa2e9c69bcc3e82a0d7dc7a939e", null ],
     [ "TaskArchitecture", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302", [
       [ "UnknownArchitecture", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302a5b2a90cc96dd262a5f1d340deaa28628", null ],
-      [ "x86", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302aef6305c9639ed0b24bca596fad01fd62", null ],
+      [ "x32", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302a67026fb63dbef08d56b1cacef7d3e3ad", null ],
       [ "x64", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302a691951f7c582f9dff5d0d0d6a73392d4", null ],
       [ "ARM", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302acfffe4eef6362265b0b20de2e4a76524", null ],
       [ "ARM64", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302a45e4a36775610d48ea685dc5d44374de", null ]

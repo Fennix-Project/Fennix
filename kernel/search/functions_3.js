@@ -30,7 +30,7 @@ var searchData=
   ['compareexchange_3766',['CompareExchange',['../df/dfe/classanonymous__namespace_02atomic_8hpp_03_1_1Atomic.html#aecff8ddb004e6ce1cec459032514fe8c',1,'anonymous_namespace{atomic.hpp}::Atomic']]],
   ['convertnodetofile_3767',['ConvertNodeToFILE',['../d0/d99/classFileSystem_1_1Virtual.html#a9e2f2fb6df5e515098df312024c3de44',1,'FileSystem::Virtual']]],
   ['counter_3768',['Counter',['../da/de2/classshared__ptr_1_1Counter.html#a79b29023b1bd60eab99fdc27abf04f2d',1,'shared_ptr::Counter::Counter()'],['../da/de2/classshared__ptr_1_1Counter.html#a422a1b3cd9651460f5c4efbb0bd835b0',1,'shared_ptr::Counter::Counter(const Counter &amp;)=delete']]],
-  ['cpuid_3769',['cpuid',['../d9/d25/namespaceCPU_1_1x64.html#a833425ab8344059e3aaa76c47d2202ed',1,'CPU::x64']]],
+  ['cpuid_3769',['cpuid',['../de/d78/namespaceCPU_1_1x32.html#a3a5fea71c780c7bc4e1ff5e76dc7594b',1,'CPU::x32::cpuid()'],['../d9/d25/namespaceCPU_1_1x64.html#a833425ab8344059e3aaa76c47d2202ed',1,'CPU::x64::cpuid()']]],
   ['create_3770',['Create',['../d0/d99/classFileSystem_1_1Virtual.html#afc05848d1a56796fbca8c168111065b4',1,'FileSystem::Virtual']]],
   ['createbuffer_3771',['CreateBuffer',['../db/d81/classVideo_1_1Display.html#a87721e0bf91caa057f70f661c6ad4998',1,'Video::Display']]],
   ['createprocess_3772',['CreateProcess',['../dc/dc5/classTasking_1_1Task.html#af473b1437086d85f1bc860cc77e00986',1,'Tasking::Task']]],

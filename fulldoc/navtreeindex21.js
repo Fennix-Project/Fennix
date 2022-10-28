@@ -32,15 +32,16 @@ var NAVTREEINDEX21 =
 "df/dbe/cpu_8hpp.html#a36c9cec970957608ac98e64a0e7dbb50afd036b718f02611d15449c3d8fea51e3":[7,0,0,3,7,372,196],
 "df/dbe/cpu_8hpp.html#a36e78ae84d81838b286ad1a3e9c4d374":[7,0,0,3,7,298],
 "df/dbe/cpu_8hpp.html#a390c3a081ea8ce3abe04927e02e0fc66":[7,0,0,3,7,321],
+"df/dbe/cpu_8hpp.html#a3a5fea71c780c7bc4e1ff5e76dc7594b":[7,0,0,3,7,379],
 "df/dbe/cpu_8hpp.html#a3adfbd4821678e123a9a0a45d69e3b6e":[7,0,0,3,7,354],
 "df/dbe/cpu_8hpp.html#a40f39c5569a1dbaafa7268fa75635e2c":[7,0,0,3,7,294],
 "df/dbe/cpu_8hpp.html#a4716cb57e32622e25efd0bf67e4058ea":[7,0,0,3,7,310],
 "df/dbe/cpu_8hpp.html#a499de31ac46440546fcaf0825949dcd3":[7,0,0,3,7,331],
 "df/dbe/cpu_8hpp.html#a4b3e456145bd0e0b402efa6c16ffb864":[7,0,0,3,7,367],
-"df/dbe/cpu_8hpp.html#a51461dac167cf8daa158a1e1a099c788":[7,0,0,3,7,392],
+"df/dbe/cpu_8hpp.html#a51461dac167cf8daa158a1e1a099c788":[7,0,0,3,7,393],
 "df/dbe/cpu_8hpp.html#a5209ea0ec81407b1e670098535b6e80f":[7,0,0,3,7,366],
-"df/dbe/cpu_8hpp.html#a5251a0946f2ec2aec90787e465933654":[7,0,0,3,7,388],
-"df/dbe/cpu_8hpp.html#a5379e531499f0413128f57aab6271161":[7,0,0,3,7,401],
+"df/dbe/cpu_8hpp.html#a5251a0946f2ec2aec90787e465933654":[7,0,0,3,7,389],
+"df/dbe/cpu_8hpp.html#a5379e531499f0413128f57aab6271161":[7,0,0,3,7,402],
 "df/dbe/cpu_8hpp.html#a542fa221125b968d182ca3182fb859d5":[7,0,0,3,7,352],
 "df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bd":[7,0,0,3,7,375],
 "df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda025b5775f977e9b6f9eb9499f6b1e770":[7,0,0,3,7,375,249],
@@ -248,6 +249,5 @@ var NAVTREEINDEX21 =
 "df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda884c8ab31a2e9fa90646073188874f53":[7,0,0,3,7,375,82],
 "df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda893b4ad4539ebe0f1e762a1b6ecb790a":[7,0,0,3,7,375,332],
 "df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda894316122850cc0bba82678e55c08fda":[7,0,0,3,7,375,279],
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda89a25c2b02e5e70c2162c0931084c765":[7,0,0,3,7,375,10],
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda89b7a06dba154236d146ecd8bd7d0cad":[7,0,0,3,7,375,28]
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda89a25c2b02e5e70c2162c0931084c765":[7,0,0,3,7,375,10]
 };

@@ -2201,6 +2201,7 @@ var cpu_8hpp =
     [ "__attribute__", "df/dbe/cpu_8hpp.html#afe477b919fb4364f12f561a3aa6b0e8f", null ],
     [ "__attribute__", "df/dbe/cpu_8hpp.html#a1bc63310423bd8661051e885f2c0c820", null ],
     [ "__attribute__", "df/dbe/cpu_8hpp.html#ac3649986f018bd1a582173840d7ec637", null ],
+    [ "cpuid", "df/dbe/cpu_8hpp.html#a3a5fea71c780c7bc4e1ff5e76dc7594b", null ],
     [ "cpuid", "df/dbe/cpu_8hpp.html#a833425ab8344059e3aaa76c47d2202ed", null ],
     [ "fxrstor", "df/dbe/cpu_8hpp.html#a82a992b72d25404d1d3ddfa25ef599be", null ],
     [ "fxsave", "df/dbe/cpu_8hpp.html#af3bdbf5c36208b909abb9322cfa8575c", null ],
