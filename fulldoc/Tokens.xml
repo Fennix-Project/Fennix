@@ -3059,13 +3059,25 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Counter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>adfe4248cc88b3b6deebb92b8e074561a</Anchor>
+    <Abstract>Get CPU counter value.</Abstract>
+    <DeclaredIn>CPU.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>__attribute__</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>CrashHandler</Scope>
     </TokenIdentifier>
     <Path>d2/d57/namespaceCrashHandler.html</Path>
-    <Anchor>a4026b15b73af3a8b80eea2a0a1a82334</Anchor>
+    <Anchor>a9ee98c0a3c3fc1a922efdaaf6b32a5c5</Anchor>
     <Abstract>Pause the CPU.</Abstract>
     <DeclaredIn>CrashHandler.cpp</DeclaredIn>
   </Token>
@@ -3220,6 +3232,93 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewLock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/dd9/Driver_8cpp.html</Path>
+    <Anchor>ac5f20c1a2090fe90ae884329df29f110</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverDebugPrint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>ae3be8c59f0faa680e5621128a89b5a9a</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverDisplayPrint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a0c3e8ec6871a51a9fdb5476745898793</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RequestPage</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a65305ed06ab15cf42e7c10332c57be76</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FreePage</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a33715318278b2dfe4e61f9ba1b80fdb5</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Drivermemcpy</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>adbabdcd6a8d1b0df9058c8e0cb7f7523</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverTypesName</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>ab6b0cdd8de3bb231a618dd471281906f</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KAPI</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a2714798dcbfa46e60b0fc7cd652d5919</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>__attribute__</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -3292,6 +3391,16 @@
     </TokenIdentifier>
     <Path>d4/d90/Lock_8cpp.html</Path>
     <Anchor>a5933b739d8db180b1c2f2da23b8829cd</Anchor>
+    <DeclaredIn>Lock.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DeadLocks</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d4/d90/Lock_8cpp.html</Path>
+    <Anchor>a08f0f159bd44541f8e70d89cd1af1841</Anchor>
     <DeclaredIn>Lock.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -4387,6 +4496,669 @@
     <Path>d8/d17/Display_8cpp.html</Path>
     <Anchor>a2149cfcf981a93da4fc86720658e4e22</Anchor>
     <DeclaredIn>Display.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>ac5db1d1ad15878bb0ce144b451a7f2c6</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Version</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a85836edbd43c944d6deae284231ed228</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Info</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>af38d995e497b6690f5b942df9a9f272d</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Memory</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a60f1dbaaf5ff071fb1ec94ea77c2d887</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PCI</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>aba2f81613922672c077977ad68efc38d</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Util</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a161cd2782bcfb14dca65d044bcddd8a9</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Commmand</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3fe16caf5a68ba211ee21d174cc05dfa</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a16a4a773e04a271888eec2e957e4ef71</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Reason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a31a37ed19463f30c92c7838d5a5751ca</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RawPtr</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a80e8e2d24441e8d4b5a14123ed07cf79</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RawData</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a59d2095804075e9ce1be76c736260054</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NetworkCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a094f1b70e08f780a85e97dcba4a1c820</Anchor>
+    <Abstract>When the kernel wants to send a packet.</Abstract>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>UnknownReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda8889069184c392232cee15200fa0d99d</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AcknowledgeReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0ddaffe0297ef0c988cb097b4f9d4150c8a4</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SendReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda3170f78fc8bb0bc44b1defcd3c4358a2</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReceiveReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda4742b4d8f5e56147658a76d126bb7687</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ConfigurationReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0ddad42fc12dc0a2cb734143c24d45707ca6</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BindReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0ddacfe24452fe967803f26ef127dd0f5adb</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>UnbindReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda6d0b88625f270cb80b74134af2e6a2ba</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InterruptReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda60604bbb34dea717b453eefa3cfe3f5b</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ProcessReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda416e6a19cf571ac3f7147d568515da23</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BIND_NULL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a40ed72a348e9d2a6fae1f27878ac1f17a328f938175fec590fa92f8b6cd7ffdfb</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BIND_INTERRUPT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a40ed72a348e9d2a6fae1f27878ac1f17a21f1e9cbb5cd54447896933fa44b4c42</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BIND_PROCESS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a40ed72a348e9d2a6fae1f27878ac1f17a6d3455e6d35ca5cbdb98422ba7f92015</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BIND_PCI</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a40ed72a348e9d2a6fae1f27878ac1f17a1f9f9f9c05d441c0f4ee38d3f17ba1a6</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ERROR</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a2fd6f336d08340583bd620a7f5694c90</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OK</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NOT_IMPLEMENTED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a12bcc9d9958a22b983e65f77f3faf90b</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NOT_FOUND</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0acdaa2919bac56fe1090eb3dbb9526472</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NOT_READY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a2d0ab2296896fcb80babf4dadfd039a5</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NOT_AVAILABLE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0ae5197dad9f2c55ef495a12d1ae8b23b3</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NOT_AUTHORIZED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a79107f54d02f4b0fab010a896da253ec</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NOT_VALID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a7f1ec5eb59564ae05005b9260e1d974e</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NOT_ACCEPTED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a74db395e36b456be451dda1bfd19dbcf</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INVALID_KERNEL_API</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a819d86f8303442ec0bb2b0f3e6bb7794</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEVICE_NOT_SUPPORTED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a359ede774126bb2d1b691f90e5094cb3</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KERNEL_API_VERSION_NOT_SUPPORTED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a96cf87ef245ea5f91707ab2288191118</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXTENDED_SECTION_ADDRESS</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>aef4d10f2159958afdb55550f2ea441e5</Anchor>
+    <Abstract>This may change.</Abstract>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>HEAD</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a922307d866ecf80a99c17b943fb95635</Anchor>
+    <Abstract>Add file header.</Abstract>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a35a6f8c90ab79a9659aa4fb668ec8650</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Magic</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a3278eb63dee94fdce712aae733087a84</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Type</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a875f6ae629219a43a4a631840c1cbaba</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a07a5a485398d88b4be58f70d0350b8bd</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Pointer</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a56d9306e5e371ec0718e5aca56136758</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Executable</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>ac56285f2587679a2db1bae5488a29f58</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Driver</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a6fdfe055906d1a132fe5ffba6d304cf1</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexDriverType_Unknown</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>af14fd31908d899cc178ab1711ad99f0eabaceb005e7fde1be87ab4f58c8fb1fc0</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexDriverType_Generic</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>af14fd31908d899cc178ab1711ad99f0ea6139fbcf7267d4fbc0c1c0a7a0f7d8a7</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexDriverType_Display</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>af14fd31908d899cc178ab1711ad99f0ea8f4232ec7608d737ec55fdcd977592d8</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexDriverType_Network</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>af14fd31908d899cc178ab1711ad99f0eae25fc041f742b9d592f8089c80255302</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexDriverType_Storage</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>af14fd31908d899cc178ab1711ad99f0ea00d9daad0baf4fccb5fecaaa3b98e2ce</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexDriverType_FileSystem</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>af14fd31908d899cc178ab1711ad99f0eaa7c9ce4405a44e301df177253b917ab8</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexDriverType_Input</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>af14fd31908d899cc178ab1711ad99f0ea4b46541ae91d55195d43bd343be91986</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexDriverType_Audio</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>af14fd31908d899cc178ab1711ad99f0ead58811c5cd989998940293e30aa5df3f</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexFormatType_Unknown</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a4564a233d1c439c8083525ef1103e9c8a0234a3f52e35cac83988f6c530c54cd7</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexFormatType_Executable</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a4564a233d1c439c8083525ef1103e9c8a90367fbd47bbac5cea7a998374a1c785</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexFormatType_Driver</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a4564a233d1c439c8083525ef1103e9c8a7bf7a3c15b4c321c2bfda4ba3452a1da</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexFormatType_Unknown</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/dc9/init_8cpp.html</Path>
+    <Anchor>a4564a233d1c439c8083525ef1103e9c8a0234a3f52e35cac83988f6c530c54cd7</Anchor>
+    <DeclaredIn>init.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexFormatType_Executable</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/dc9/init_8cpp.html</Path>
+    <Anchor>a4564a233d1c439c8083525ef1103e9c8a90367fbd47bbac5cea7a998374a1c785</Anchor>
+    <DeclaredIn>init.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexFormatType_Driver</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/dc9/init_8cpp.html</Path>
+    <Anchor>a4564a233d1c439c8083525ef1103e9c8a7bf7a3c15b4c321c2bfda4ba3452a1da</Anchor>
+    <DeclaredIn>init.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexOSType_Unknown</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a1017ccca41bb65bfaf361791c5436f32</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexOSType_Fennix</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a732400d53e45b194bb069e66d2244a0b</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexOSType_Linux</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a3569d7778c6dd3acdbf1755aff340a65</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexOSType_Unknown</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/dc9/init_8cpp.html</Path>
+    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a1017ccca41bb65bfaf361791c5436f32</Anchor>
+    <DeclaredIn>init.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexOSType_Fennix</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/dc9/init_8cpp.html</Path>
+    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a732400d53e45b194bb069e66d2244a0b</Anchor>
+    <DeclaredIn>init.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexOSType_Linux</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/dc9/init_8cpp.html</Path>
+    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a3569d7778c6dd3acdbf1755aff340a65</Anchor>
+    <DeclaredIn>init.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7161,6 +7933,18 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Counter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>adfe4248cc88b3b6deebb92b8e074561a</Anchor>
+    <Abstract>Get CPU counter value.</Abstract>
+    <DeclaredIn>CPU.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>__attribute__</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -9821,6 +10605,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Arg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>Tasking</Scope>
+    </TokenIdentifier>
+    <Path>d9/d3e/namespaceTasking.html</Path>
+    <Anchor>acea26a7e06860ac7effffcec10b93a2c</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>IPOffset</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -11266,6 +12061,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>LoadDrivers</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d4/dfc/KThread_8cpp.html</Path>
+    <Anchor>afb5e6acf8a5744ad90269a6937ca32bc</Anchor>
+    <DeclaredIn>KThread.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>KernelMainThread</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -11282,6 +12087,16 @@
     </TokenIdentifier>
     <Path>d4/dfc/KThread_8cpp.html</Path>
     <Anchor>aaa012caacd4a73a308b410149f49e4f9</Anchor>
+    <DeclaredIn>KThread.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverManager</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d4/dfc/KThread_8cpp.html</Path>
+    <Anchor>ace4da8d4e1075769d48168995aba88f7</Anchor>
     <DeclaredIn>KThread.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -16303,7 +17118,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d3/d71/Task_8cpp.html</Path>
-    <Anchor>a8c2e823368323b2b8851a7105401895d</Anchor>
+    <Anchor>a6e39d56841385491a755394b4ee04d40</Anchor>
     <DeclaredIn>Task.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -16337,7 +17152,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>ab22ad4406f11737099c0e6518c98c1d6</Anchor>
+    <Anchor>a14158fcf432e346339f307091826643c</Anchor>
     <DeclaredIn>Task.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -16456,6 +17271,36 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a4564a233d1c439c8083525ef1103e9c8a0234a3f52e35cac83988f6c530c54cd7</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexFormatType_Executable</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a4564a233d1c439c8083525ef1103e9c8a90367fbd47bbac5cea7a998374a1c785</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexFormatType_Driver</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a4564a233d1c439c8083525ef1103e9c8a7bf7a3c15b4c321c2bfda4ba3452a1da</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexFormatType_Unknown</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
     <Path>d0/dc9/init_8cpp.html</Path>
     <Anchor>a4564a233d1c439c8083525ef1103e9c8a0234a3f52e35cac83988f6c530c54cd7</Anchor>
     <DeclaredIn>init.cpp</DeclaredIn>
@@ -16479,6 +17324,36 @@
     <Path>d0/dc9/init_8cpp.html</Path>
     <Anchor>a4564a233d1c439c8083525ef1103e9c8a7bf7a3c15b4c321c2bfda4ba3452a1da</Anchor>
     <DeclaredIn>init.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexOSType_Unknown</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a1017ccca41bb65bfaf361791c5436f32</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexOSType_Fennix</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a732400d53e45b194bb069e66d2244a0b</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexOSType_Linux</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a3569d7778c6dd3acdbf1755aff340a65</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16825,6 +17700,135 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Fex</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Fex</Scope>
+    </TokenIdentifier>
+    <Path>d2/ddc/structFex.html</Path>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Magic</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Fex</Scope>
+    </TokenIdentifier>
+    <Path>d2/ddc/structFex.html</Path>
+    <Anchor>a1b8bf732d721166b005fc53253f5ec6d</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Fex</Scope>
+    </TokenIdentifier>
+    <Path>d2/ddc/structFex.html</Path>
+    <Anchor>ab64d62820368ba2d491c0d3a4f8f64f7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OS</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Fex</Scope>
+    </TokenIdentifier>
+    <Path>d2/ddc/structFex.html</Path>
+    <Anchor>af87c5f3843dc3714ac06f5f6c57a12b9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Pointer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Fex</Scope>
+    </TokenIdentifier>
+    <Path>d2/ddc/structFex.html</Path>
+    <Anchor>a4473eec518f8efca7430ef4d0fea81fb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Fex</Scope>
+    </TokenIdentifier>
+    <Path>d2/ddc/structFex.html</Path>
+    <Anchor>a044d211a7be66919c61f7c9f36363a18</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OS</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Fex</Scope>
+    </TokenIdentifier>
+    <Path>d2/ddc/structFex.html</Path>
+    <Anchor>a6911cbba60152a4da393a1daa555f6e1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Pointer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Fex</Scope>
+    </TokenIdentifier>
+    <Path>d2/ddc/structFex.html</Path>
+    <Anchor>a80ef585cdc7a8a933289ae3b7f41cfe7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexExtended.Driver</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>FexExtended.Driver</Scope>
+    </TokenIdentifier>
+    <Path>db/d74/structFexExtended_8Driver.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Name</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>FexExtended.Driver</Scope>
+    </TokenIdentifier>
+    <Path>db/d74/structFexExtended_8Driver.html</Path>
+    <Anchor>a34881651e99761fe95cd41d8cd82de75</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>FexExtended.Driver</Scope>
+    </TokenIdentifier>
+    <Path>db/d74/structFexExtended_8Driver.html</Path>
+    <Anchor>aa1fa27779242b4902f7ae3bdd5c6d508</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Callback</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>FexExtended.Driver</Scope>
+    </TokenIdentifier>
+    <Path>db/d74/structFexExtended_8Driver.html</Path>
+    <Anchor>ac766c684abea716b5abd6919eb43b682</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Bind</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>FexExtended.Driver</Scope>
+    </TokenIdentifier>
+    <Path>db/d74/structFexExtended_8Driver.html</Path>
+    <Anchor>a0b172674284d79079624051d2ae11581</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HashMap</Name>
       <APILanguage>c</APILanguage>
       <Type>tmplt</Type>
@@ -16990,6 +17994,146 @@
     </TokenIdentifier>
     <Path>d7/d56/classHashNode.html</Path>
     <Anchor>a1c088675e7fe35dcd2d460f9e463e723</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KAPIDriverTalk.Network</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>KAPIDriverTalk.Network</Scope>
+    </TokenIdentifier>
+    <Path>de/dd6/structKAPIDriverTalk_8Network.html</Path>
+    <Abstract>Connects to the network manager.</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SendPacket</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIDriverTalk.Network</Scope>
+    </TokenIdentifier>
+    <Path>de/dd6/structKAPIDriverTalk_8Network.html</Path>
+    <Anchor>ae01b714faeb8d4a8e1d469a5933b1c4c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReceivePacket</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIDriverTalk.Network</Scope>
+    </TokenIdentifier>
+    <Path>de/dd6/structKAPIDriverTalk_8Network.html</Path>
+    <Anchor>a1755282266e75539d2b216c8d1eee405</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KAPIMemory</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>KAPIMemory</Scope>
+    </TokenIdentifier>
+    <Path>df/d33/structKAPIMemory.html</Path>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PageSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIMemory</Scope>
+    </TokenIdentifier>
+    <Path>df/d33/structKAPIMemory.html</Path>
+    <Anchor>a63e3f2e8fff739e95d6cc709cabb96b4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RequestPage</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIMemory</Scope>
+    </TokenIdentifier>
+    <Path>df/d33/structKAPIMemory.html</Path>
+    <Anchor>afb50c15f21ee0b7464a3c49fc957aca6</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FreePage</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIMemory</Scope>
+    </TokenIdentifier>
+    <Path>df/d33/structKAPIMemory.html</Path>
+    <Anchor>a9b52b30218180294fba32923b9d41d6e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KAPIPCI</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>KAPIPCI</Scope>
+    </TokenIdentifier>
+    <Path>de/d5d/structKAPIPCI.html</Path>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetDeviceName</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIPCI</Scope>
+    </TokenIdentifier>
+    <Path>de/d5d/structKAPIPCI.html</Path>
+    <Anchor>ae2acb05b8e2d76908de135d1989ed94a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Write</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIPCI</Scope>
+    </TokenIdentifier>
+    <Path>de/d5d/structKAPIPCI.html</Path>
+    <Anchor>a07f18a0a90b75d366568b09e9ac4f195</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KAPIUtilities</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>KAPIUtilities</Scope>
+    </TokenIdentifier>
+    <Path>d2/d58/structKAPIUtilities.html</Path>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DebugPrint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIUtilities</Scope>
+    </TokenIdentifier>
+    <Path>d2/d58/structKAPIUtilities.html</Path>
+    <Anchor>a23f0f53e822ee5c58770ecb6839fb224</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DisplayPrint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIUtilities</Scope>
+    </TokenIdentifier>
+    <Path>d2/d58/structKAPIUtilities.html</Path>
+    <Anchor>a65fcd69903d39703bc577d5f6038e513</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>memcpy</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIUtilities</Scope>
+    </TokenIdentifier>
+    <Path>d2/d58/structKAPIUtilities.html</Path>
+    <Anchor>a1dd50a46f8ea0cc0685cab923b4dbb29</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -21154,6 +22298,18 @@
     <Path>d7/dfa/namespaceCPU.html</Path>
     <Anchor>ab40c41b740716660e53aa57978e59281</Anchor>
     <Abstract>To be used only once.</Abstract>
+    <DeclaredIn>CPU.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Counter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>adfe4248cc88b3b6deebb92b8e074561a</Anchor>
+    <Abstract>Get CPU counter value.</Abstract>
     <DeclaredIn>CPU.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -29418,7 +30574,7 @@
       <Scope>CrashHandler</Scope>
     </TokenIdentifier>
     <Path>d2/d57/namespaceCrashHandler.html</Path>
-    <Anchor>a4026b15b73af3a8b80eea2a0a1a82334</Anchor>
+    <Anchor>a9ee98c0a3c3fc1a922efdaaf6b32a5c5</Anchor>
     <Abstract>Pause the CPU.</Abstract>
     <DeclaredIn>CrashHandler.cpp</DeclaredIn>
   </Token>
@@ -29498,6 +30654,361 @@
     <Path>d2/d57/namespaceCrashHandler.html</Path>
     <Anchor>aa7c38e50078b95620a23645ebe7b3bb8</Anchor>
     <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Driver</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverDebugPrint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>ae3be8c59f0faa680e5621128a89b5a9a</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverDisplayPrint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a0c3e8ec6871a51a9fdb5476745898793</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RequestPage</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a65305ed06ab15cf42e7c10332c57be76</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FreePage</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a33715318278b2dfe4e61f9ba1b80fdb5</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Drivermemcpy</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>adbabdcd6a8d1b0df9058c8e0cb7f7523</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverTypesName</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>ab6b0cdd8de3bb231a618dd471281906f</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KAPI</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a2714798dcbfa46e60b0fc7cd652d5919</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ERROR</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a020a5b26e9a3fe6af243be692d6147c6a3610c57fcd777f71c8d2036a48404471</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OK</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a020a5b26e9a3fe6af243be692d6147c6a007757eccb0a47675b90978c29a7a8a2</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INVALID_FEX_HEADER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INVALID_DRIVER_DATA</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NOT_DRIVER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DRIVER_RETURNED_ERROR</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>UNKNOWN_DRIVER_TYPE</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PCI_DEVICE_NOT_FOUND</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Driver::Driver</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LoadDriver</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>ad709a96b01935f6fb405a32b47ace960</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>StartDrivers</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a0ef98f86e94639fd8b474be69a0efa0c</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Driver</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a2101b377d6cc90d3c2c05cf71c6b68b2</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Driver</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a631214c64970de5716b3c335f49b89c6</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CallDriverEntryPoint</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>abacf3db6b0ea56324e0ce7abff6ab3ac</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Drivers</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a80cd1e89974bdaf5bfd033c24f84d948</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverUIDs</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>afa1047a59095341ea1529434d90bd43f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Driver::DriverInterruptHook</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>Driver::DriverInterruptHook</Scope>
+    </TokenIdentifier>
+    <Path>d5/dff/classDriver_1_1DriverInterruptHook.html</Path>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverInterruptHook</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::DriverInterruptHook</Scope>
+    </TokenIdentifier>
+    <Path>d5/dff/classDriver_1_1DriverInterruptHook.html</Path>
+    <Anchor>a762145065de614fcf4d6f6b30a416517</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~DriverInterruptHook</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::DriverInterruptHook</Scope>
+    </TokenIdentifier>
+    <Path>d5/dff/classDriver_1_1DriverInterruptHook.html</Path>
+    <Anchor>aacdcfc2f13bbe0293bab70faccc2bbbf</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Handle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Driver::DriverInterruptHook</Scope>
+    </TokenIdentifier>
+    <Path>d5/dff/classDriver_1_1DriverInterruptHook.html</Path>
+    <Anchor>a22f4d3b9709e6e8746270adc9d372c76</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Data</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Driver::DriverInterruptHook</Scope>
+    </TokenIdentifier>
+    <Path>d5/dff/classDriver_1_1DriverInterruptHook.html</Path>
+    <Anchor>a9bcf87039e4a2c497e46a8c8c7ba4706</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetInterruptNumber</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a3c0d670ae749a9b104ab9a742b52c507</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetInterruptNumber</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>af5d7472c9bff85e2ed24fe9f79ec8a33</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Handler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a2a1152c5908c5a3c7b51f2c4fe4b30ab</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Handler</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Interrupts::Handler</Scope>
+    </TokenIdentifier>
+    <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
+    <Anchor>a27268e70db8896d229fbcafd4cafec31</Anchor>
+    <DeclaredIn>interrupts.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -33135,6 +34646,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Arg</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>Tasking</Scope>
+    </TokenIdentifier>
+    <Path>d9/d3e/namespaceTasking.html</Path>
+    <Anchor>acea26a7e06860ac7effffcec10b93a2c</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>IPOffset</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -33208,7 +34730,7 @@
       <Scope>Tasking</Scope>
     </TokenIdentifier>
     <Path>d9/d3e/namespaceTasking.html</Path>
-    <Anchor>ab22ad4406f11737099c0e6518c98c1d6</Anchor>
+    <Anchor>a14158fcf432e346339f307091826643c</Anchor>
     <DeclaredIn>Task.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -33585,6 +35107,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetUsage</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>a34f61ccd082d7b57a77e1636677079ba</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetCurrentProcess</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -33609,6 +35142,30 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>WaitForProcess</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>acacf4e5ffe48a4c1f26b93344ac87cb5</Anchor>
+    <Abstract>Wait for process to terminate.</Abstract>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>WaitForThread</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>a5c305b10d67d2ff1fb6ab0f89f2b8c9c</Anchor>
+    <Abstract>Wait for thread to terminate.</Abstract>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>CreateProcess</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -33626,7 +35183,7 @@
       <Scope>Tasking::Task</Scope>
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
-    <Anchor>a9e65e944c621ec8d929056e4d7caafae</Anchor>
+    <Anchor>a248edfbd27a2b7acf4be867ee204cf37</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -33671,6 +35228,39 @@
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
     <Anchor>af21dd169142e05803e0f7471179c54cc</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RemoveThread</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>ae9cd50afd3a8cabc05f5c94677fb681d</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RemoveProcess</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>afd278f42eccc7e7826bf1150388be22e</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>UpdateInfo</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>a20e1d025dba38ed67b11488992e32c9f</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -33890,6 +35480,26 @@
     </TokenIdentifier>
     <Path>de/d96/structTasking_1_1TCB.html</Path>
     <Anchor>ab71966bf64825975424a3310a27e15fb</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Argument0</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Tasking::TCB</Scope>
+    </TokenIdentifier>
+    <Path>de/d96/structTasking_1_1TCB.html</Path>
+    <Anchor>a2eba4d7e7d29f8dcfb8b578aa3cab4f5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Argument1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Tasking::TCB</Scope>
+    </TokenIdentifier>
+    <Path>de/d96/structTasking_1_1TCB.html</Path>
+    <Anchor>ab3be38a22b73be228a30c6cbd8924de3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

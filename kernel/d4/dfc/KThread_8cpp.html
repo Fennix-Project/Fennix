@@ -86,7 +86,8 @@ $(document).ready(function(){initNavTree('d4/dfc/KThread_8cpp.html','../../'); i
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">KThread.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -96,6 +97,7 @@ $(document).ready(function(){initNavTree('d4/dfc/KThread_8cpp.html','../../'); i
 <code>#include &lt;<a class="el" href="../../db/dfa/power_8hpp_source.html">power.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d6b/printf_8h_source.html">printf.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d7d/cwalk_8h_source.html">cwalk.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d4/dfc/KThread_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -103,10 +105,17 @@ $(document).ready(function(){initNavTree('d4/dfc/KThread_8cpp.html','../../'); i
 Functions</h2></td></tr>
 <tr class="memitem:a71b36bfc023ae3874c23dd237c0c4612"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfc/KThread_8cpp.html#a71b36bfc023ae3874c23dd237c0c4612">StartFilesystem</a> ()</td></tr>
 <tr class="separator:a71b36bfc023ae3874c23dd237c0c4612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb5e6acf8a5744ad90269a6937ca32bc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfc/KThread_8cpp.html#afb5e6acf8a5744ad90269a6937ca32bc">LoadDrivers</a> ()</td></tr>
+<tr class="separator:afb5e6acf8a5744ad90269a6937ca32bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e3dd376cdd7abd6de13ef188c5aec29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfc/KThread_8cpp.html#a6e3dd376cdd7abd6de13ef188c5aec29">KernelMainThread</a> ()</td></tr>
 <tr class="separator:a6e3dd376cdd7abd6de13ef188c5aec29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa012caacd4a73a308b410149f49e4f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfc/KThread_8cpp.html#aaa012caacd4a73a308b410149f49e4f9">KernelShutdownThread</a> (<a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> Reboot)</td></tr>
 <tr class="separator:aaa012caacd4a73a308b410149f49e4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ace4da8d4e1075769d48168995aba88f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/d7d/classDriver_1_1Driver.html">Driver::Driver</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dfc/KThread_8cpp.html#ace4da8d4e1075769d48168995aba88f7">DriverManager</a> = nullptr</td></tr>
+<tr class="separator:ace4da8d4e1075769d48168995aba88f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a6e3dd376cdd7abd6de13ef188c5aec29"></a>
@@ -124,23 +133,27 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00019">19</a> of file <a class="el" href="../../d4/dfc/KThread_8cpp_source.html">KThread.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Kernel main thread started!&quot;</span>);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Kernel Compiled at: %s %s with C++ Standard: %d&quot;</span>, __DATE__, __TIME__, CPP_LANGUAGE_STANDARD);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;C++ Language Version (__cplusplus) :%ld&quot;</span>, __cplusplus);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../d7/dfa/namespaceCPU.html#a1cc036b2143b4358a3857bbef3921968">CPU::Interrupts</a>(<a class="code" href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178ad9f455a07bfc57fc6a9a63100ba5ded4">CPU::Disable</a>);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a9e65e944c621ec8d929056e4d7caafae">CreateThread</a>(<a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a8d504087e940342e41993644b426572f">GetCurrentProcess</a>(), (<a class="code" href="../../d9/d3e/namespaceTasking.html#a1d6c5ad87e3a04eb27f6958a4d7890d9">Tasking::IP</a>)<a class="code" href="../../d4/dfc/KThread_8cpp.html#a71b36bfc023ae3874c23dd237c0c4612">StartFilesystem</a>)-&gt;<a class="code" href="../../de/d96/structTasking_1_1TCB.html#aadb59636003b7f7601250abe65a19ae6">Rename</a>(<span class="stringliteral">&quot;Filesystem Service&quot;</span>);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d7/dfa/namespaceCPU.html#a1cc036b2143b4358a3857bbef3921968">CPU::Interrupts</a>(<a class="code" href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178adb91be1ff77d40242e5c3ea53f344b05">CPU::Enable</a>);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#aba5e4027551527accbcfd9ddd4deb67a">GetCurrentThread</a>()-&gt;<a class="code" href="../../de/d96/structTasking_1_1TCB.html#a18fb41b423438c3260b073a75874474e">SetPriority</a>(1);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    CPU::Halt(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../d4/dfc/KThread_8cpp_source.html">KThread.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../de/d96/structTasking_1_1TCB.html">Tasking::TCB</a> *CurrentWorker = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Kernel Compiled at: %s %s with C++ Standard: %d&quot;</span>, __DATE__, __TIME__, CPP_LANGUAGE_STANDARD);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;C++ Language Version (__cplusplus) :%ld&quot;</span>, __cplusplus);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    CurrentWorker = <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a248edfbd27a2b7acf4be867ee204cf37">CreateThread</a>(<a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a8d504087e940342e41993644b426572f">GetCurrentProcess</a>(), (<a class="code" href="../../d9/d3e/namespaceTasking.html#a1d6c5ad87e3a04eb27f6958a4d7890d9">Tasking::IP</a>)<a class="code" href="../../d4/dfc/KThread_8cpp.html#a71b36bfc023ae3874c23dd237c0c4612">StartFilesystem</a>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    CurrentWorker-&gt;<a class="code" href="../../de/d96/structTasking_1_1TCB.html#aadb59636003b7f7601250abe65a19ae6">Rename</a>(<span class="stringliteral">&quot;Filesystem&quot;</span>);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    CurrentWorker-&gt;<a class="code" href="../../de/d96/structTasking_1_1TCB.html#a18fb41b423438c3260b073a75874474e">SetPriority</a>(100);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a5c305b10d67d2ff1fb6ab0f89f2b8c9c">WaitForThread</a>(CurrentWorker);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    CurrentWorker = <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a248edfbd27a2b7acf4be867ee204cf37">CreateThread</a>(<a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a8d504087e940342e41993644b426572f">GetCurrentProcess</a>(), (<a class="code" href="../../d9/d3e/namespaceTasking.html#a1d6c5ad87e3a04eb27f6958a4d7890d9">Tasking::IP</a>)<a class="code" href="../../d4/dfc/KThread_8cpp.html#afb5e6acf8a5744ad90269a6937ca32bc">LoadDrivers</a>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    CurrentWorker-&gt;<a class="code" href="../../de/d96/structTasking_1_1TCB.html#aadb59636003b7f7601250abe65a19ae6">Rename</a>(<span class="stringliteral">&quot;Drivers&quot;</span>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    CurrentWorker-&gt;<a class="code" href="../../de/d96/structTasking_1_1TCB.html#a18fb41b423438c3260b073a75874474e">SetPriority</a>(100);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a5c305b10d67d2ff1fb6ab0f89f2b8c9c">WaitForThread</a>(CurrentWorker);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Waiting for userspace process to start...&quot;</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">/* Load init file */</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    CPU::Halt(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00114">CPU::Disable</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00110">CPU::Enable</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00362">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00368">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00099">CPU::Interrupts()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00031">KPrint()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00096">Tasking::TCB::Rename()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00106">Tasking::TCB::SetPriority()</a>, <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00008">StartFilesystem()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00021">TaskManager</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00436">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00031">KPrint()</a>, <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00020">LoadDrivers()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00102">Tasking::TCB::Rename()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00113">Tasking::TCB::SetPriority()</a>, <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00011">StartFilesystem()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00021">TaskManager</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00455">Tasking::Task::WaitForThread()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00044">Entry()</a>.</p>
 
@@ -162,18 +175,46 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../d4/dfc/KThread_8cpp_source.html">KThread.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Kernel shutdown thread started!&quot;</span>);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (Reboot)</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a8e1970c14df0ca619bd65c45f6f057d6">Reboot</a>();</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a5fed53e9d5d08db417dbec98e24305df">Shutdown</a>();</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    CPU::Stop();</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d4/dfc/KThread_8cpp_source.html">KThread.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Shutting down...&quot;</span>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">if</span> (Reboot)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a8e1970c14df0ca619bd65c45f6f057d6">Reboot</a>();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a5fed53e9d5d08db417dbec98e24305df">Shutdown</a>();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    CPU::Stop();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00031">KPrint()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00019">PowerManager</a>, <a class="el" href="../../d0/df9/classPower_1_1Power.html#a8e1970c14df0ca619bd65c45f6f057d6">Power::Power::Reboot()</a>, and <a class="el" href="../../d0/df9/classPower_1_1Power.html#a5fed53e9d5d08db417dbec98e24305df">Power::Power::Shutdown()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00040">debug</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00019">PowerManager</a>, <a class="el" href="../../d0/df9/classPower_1_1Power.html#a8e1970c14df0ca619bd65c45f6f057d6">Power::Power::Reboot()</a>, and <a class="el" href="../../d0/df9/classPower_1_1Power.html#a5fed53e9d5d08db417dbec98e24305df">Power::Power::Shutdown()</a>.</p>
+
+</div>
+</div>
+<a id="afb5e6acf8a5744ad90269a6937ca32bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb5e6acf8a5744ad90269a6937ca32bc">&#9670;&nbsp;</a></span>LoadDrivers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LoadDrivers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00020">20</a> of file <a class="el" href="../../d4/dfc/KThread_8cpp_source.html">KThread.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Loading Drivers...&quot;</span>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../d4/dfc/KThread_8cpp.html#ace4da8d4e1075769d48168995aba88f7">DriverManager</a> = <span class="keyword">new</span> <a class="code" href="../../d0/da5/Fex_8hpp.html#a6fdfe055906d1a132fe5ffba6d304cf1">Driver::Driver</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    TEXIT(0);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d0/da5/Fex_8hpp.html#a6fdfe055906d1a132fe5ffba6d304cf1">Driver</a>, <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00009">DriverManager</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00031">KPrint()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00027">KernelMainThread()</a>.</p>
 
 </div>
 </div>
@@ -192,20 +233,37 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00008">8</a> of file <a class="el" href="../../d4/dfc/KThread_8cpp_source.html">KThread.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Initializing Filesystem...&quot;</span>);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#aba5e4027551527accbcfd9ddd4deb67a">GetCurrentThread</a>()-&gt;<a class="code" href="../../de/d96/structTasking_1_1TCB.html#a18fb41b423438c3260b073a75874474e">SetPriority</a>(100);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#aace8e8569f67aa3e86be6cefa47a71f7">vfs</a> = <span class="keyword">new</span> <a class="code" href="../../d0/d99/classFileSystem_1_1Virtual.html">FileSystem::Virtual</a>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">new</span> <a class="code" href="../../d0/df0/classFileSystem_1_1USTAR.html">FileSystem::USTAR</a>((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf">bInfo</a>-&gt;<a class="code" href="../../db/d96/structBootInfo.html#a66f34d5eae212d81e4f13032903863a4">Modules</a>[0].<a class="code" href="../../db/d96/structBootInfo.html#a44f742145baaf1c58fba9692438370d6">Address</a>, <a class="code" href="../../d2/d00/Kernel_8cpp.html#aace8e8569f67aa3e86be6cefa47a71f7">vfs</a>); <span class="comment">// TODO: Detect initrd</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#aba5e4027551527accbcfd9ddd4deb67a">GetCurrentThread</a>()-&gt;<a class="code" href="../../de/d96/structTasking_1_1TCB.html#a18fb41b423438c3260b073a75874474e">SetPriority</a>(1);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Filesystem service idling...&quot;</span>);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    CPU::Halt(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00011">11</a> of file <a class="el" href="../../d4/dfc/KThread_8cpp_source.html">KThread.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a>(<span class="stringliteral">&quot;Initializing Filesystem...&quot;</span>);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="../../d2/d00/Kernel_8cpp.html#aace8e8569f67aa3e86be6cefa47a71f7">vfs</a> = <span class="keyword">new</span> <a class="code" href="../../d0/d99/classFileSystem_1_1Virtual.html">FileSystem::Virtual</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keyword">new</span> <a class="code" href="../../d0/df0/classFileSystem_1_1USTAR.html">FileSystem::USTAR</a>((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf">bInfo</a>-&gt;<a class="code" href="../../db/d96/structBootInfo.html#a66f34d5eae212d81e4f13032903863a4">Modules</a>[0].<a class="code" href="../../db/d96/structBootInfo.html#a44f742145baaf1c58fba9692438370d6">Address</a>, <a class="code" href="../../d2/d00/Kernel_8cpp.html#aace8e8569f67aa3e86be6cefa47a71f7">vfs</a>); <span class="comment">// TODO: Detect initrd</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">/* ... */</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    TEXIT(0);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d36/binfo_8h_source.html#l00055">BootInfo::ModuleInfo::Address</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00016">bInfo</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00040">debug</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00368">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00031">KPrint()</a>, <a class="el" href="../../db/d96/structBootInfo.html#a66f34d5eae212d81e4f13032903863a4">BootInfo::Modules</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00106">Tasking::TCB::SetPriority()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00021">TaskManager</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00023">vfs</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d36/binfo_8h_source.html#l00055">BootInfo::ModuleInfo::Address</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00016">bInfo</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00031">KPrint()</a>, <a class="el" href="../../db/d96/structBootInfo.html#a66f34d5eae212d81e4f13032903863a4">BootInfo::Modules</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00023">vfs</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00019">KernelMainThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00027">KernelMainThread()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ace4da8d4e1075769d48168995aba88f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace4da8d4e1075769d48168995aba88f7">&#9670;&nbsp;</a></span>DriverManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d7d/classDriver_1_1Driver.html">Driver::Driver</a>* DriverManager = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00009">9</a> of file <a class="el" href="../../d4/dfc/KThread_8cpp_source.html">KThread.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00020">LoadDrivers()</a>.</p>
 
 </div>
 </div>
@@ -214,24 +272,25 @@ Functions</h2></td></tr>
 <div class="ttc" id="aKernel_8cpp_html_a48ddf8736a693c7ee5cf00028b014fcf"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf">bInfo</a></div><div class="ttdeci">BootInfo * bInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00016">Kernel.cpp:16</a></div></div>
 <div class="ttc" id="aclassPower_1_1Power_html_a8e1970c14df0ca619bd65c45f6f057d6"><div class="ttname"><a href="../../d0/df9/classPower_1_1Power.html#a8e1970c14df0ca619bd65c45f6f057d6">Power::Power::Reboot</a></div><div class="ttdeci">void Reboot()</div><div class="ttdoc">Reboot the system.</div></div>
 <div class="ttc" id="aKernel_8cpp_html_a856ca7c6595acc2941208b1241cd8f3e"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e">KPrint</a></div><div class="ttdeci">EXTERNC void KPrint(const char *Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00031">Kernel.cpp:31</a></div></div>
+<div class="ttc" id="aKThread_8cpp_html_afb5e6acf8a5744ad90269a6937ca32bc"><div class="ttname"><a href="../../d4/dfc/KThread_8cpp.html#afb5e6acf8a5744ad90269a6937ca32bc">LoadDrivers</a></div><div class="ttdeci">void LoadDrivers()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfc/KThread_8cpp_source.html#l00020">KThread.cpp:20</a></div></div>
+<div class="ttc" id="astructTasking_1_1TCB_html"><div class="ttname"><a href="../../de/d96/structTasking_1_1TCB.html">Tasking::TCB</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00079">task.hpp:79</a></div></div>
+<div class="ttc" id="aclassTasking_1_1Task_html_a248edfbd27a2b7acf4be867ee204cf37"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a248edfbd27a2b7acf4be867ee204cf37">Tasking::Task::CreateThread</a></div><div class="ttdeci">TCB * CreateThread(PCB *Parent, IP EntryPoint, Arg Argument0=0, Arg Argument1=0, IPOffset Offset=0, TaskArchitecture Architecture=TaskArchitecture::x64, TaskCompatibility Compatibility=TaskCompatibility::Native)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00462">Task.cpp:462</a></div></div>
 <div class="ttc" id="astructBootInfo_html_a66f34d5eae212d81e4f13032903863a4"><div class="ttname"><a href="../../db/d96/structBootInfo.html#a66f34d5eae212d81e4f13032903863a4">BootInfo::Modules</a></div><div class="ttdeci">struct BootInfo::ModuleInfo Modules[MAX_MODULES]</div></div>
+<div class="ttc" id="aKThread_8cpp_html_ace4da8d4e1075769d48168995aba88f7"><div class="ttname"><a href="../../d4/dfc/KThread_8cpp.html#ace4da8d4e1075769d48168995aba88f7">DriverManager</a></div><div class="ttdeci">Driver::Driver * DriverManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfc/KThread_8cpp_source.html#l00009">KThread.cpp:9</a></div></div>
 <div class="ttc" id="astructBootInfo_html_a44f742145baaf1c58fba9692438370d6"><div class="ttname"><a href="../../db/d96/structBootInfo.html#a44f742145baaf1c58fba9692438370d6">BootInfo::ModuleInfo::Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00055">binfo.h:55</a></div></div>
-<div class="ttc" id="aKThread_8cpp_html_a71b36bfc023ae3874c23dd237c0c4612"><div class="ttname"><a href="../../d4/dfc/KThread_8cpp.html#a71b36bfc023ae3874c23dd237c0c4612">StartFilesystem</a></div><div class="ttdeci">void StartFilesystem()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfc/KThread_8cpp_source.html#l00008">KThread.cpp:8</a></div></div>
-<div class="ttc" id="aclassTasking_1_1Task_html_a9e65e944c621ec8d929056e4d7caafae"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a9e65e944c621ec8d929056e4d7caafae">Tasking::Task::CreateThread</a></div><div class="ttdeci">TCB * CreateThread(PCB *Parent, IP EntryPoint, IPOffset Offset=0, TaskArchitecture Architecture=TaskArchitecture::x64, TaskCompatibility Compatibility=TaskCompatibility::Native)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00374">Task.cpp:374</a></div></div>
+<div class="ttc" id="aKThread_8cpp_html_a71b36bfc023ae3874c23dd237c0c4612"><div class="ttname"><a href="../../d4/dfc/KThread_8cpp.html#a71b36bfc023ae3874c23dd237c0c4612">StartFilesystem</a></div><div class="ttdeci">void StartFilesystem()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfc/KThread_8cpp_source.html#l00011">KThread.cpp:11</a></div></div>
 <div class="ttc" id="aclassPower_1_1Power_html_a5fed53e9d5d08db417dbec98e24305df"><div class="ttname"><a href="../../d0/df9/classPower_1_1Power.html#a5fed53e9d5d08db417dbec98e24305df">Power::Power::Shutdown</a></div><div class="ttdeci">void Shutdown()</div><div class="ttdoc">Shutdown the system.</div></div>
 <div class="ttc" id="aKernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00021">Kernel.cpp:21</a></div></div>
-<div class="ttc" id="anamespaceCPU_html_a8fcf1f2cabd7ed5b6d22e93765aaf178ad9f455a07bfc57fc6a9a63100ba5ded4"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178ad9f455a07bfc57fc6a9a63100ba5ded4">CPU::Disable</a></div><div class="ttdeci">@ Disable</div><div class="ttdoc">Disable interrupts.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00114">cpu.hpp:114</a></div></div>
-<div class="ttc" id="astructTasking_1_1TCB_html_aadb59636003b7f7601250abe65a19ae6"><div class="ttname"><a href="../../de/d96/structTasking_1_1TCB.html#aadb59636003b7f7601250abe65a19ae6">Tasking::TCB::Rename</a></div><div class="ttdeci">void Rename(const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00096">task.hpp:96</a></div></div>
-<div class="ttc" id="astructTasking_1_1TCB_html_a18fb41b423438c3260b073a75874474e"><div class="ttname"><a href="../../de/d96/structTasking_1_1TCB.html#a18fb41b423438c3260b073a75874474e">Tasking::TCB::SetPriority</a></div><div class="ttdeci">void SetPriority(int priority)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00106">task.hpp:106</a></div></div>
+<div class="ttc" id="aclassTasking_1_1Task_html_a5c305b10d67d2ff1fb6ab0f89f2b8c9c"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a5c305b10d67d2ff1fb6ab0f89f2b8c9c">Tasking::Task::WaitForThread</a></div><div class="ttdeci">void WaitForThread(TCB *tcb)</div><div class="ttdoc">Wait for thread to terminate.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00455">Task.cpp:455</a></div></div>
+<div class="ttc" id="astructTasking_1_1TCB_html_aadb59636003b7f7601250abe65a19ae6"><div class="ttname"><a href="../../de/d96/structTasking_1_1TCB.html#aadb59636003b7f7601250abe65a19ae6">Tasking::TCB::Rename</a></div><div class="ttdeci">void Rename(const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00102">task.hpp:102</a></div></div>
+<div class="ttc" id="astructTasking_1_1TCB_html_a18fb41b423438c3260b073a75874474e"><div class="ttname"><a href="../../de/d96/structTasking_1_1TCB.html#a18fb41b423438c3260b073a75874474e">Tasking::TCB::SetPriority</a></div><div class="ttdeci">void SetPriority(int priority)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00113">task.hpp:113</a></div></div>
+<div class="ttc" id="aFex_8hpp_html_a6fdfe055906d1a132fe5ffba6d304cf1"><div class="ttname"><a href="../../d0/da5/Fex_8hpp.html#a6fdfe055906d1a132fe5ffba6d304cf1">Driver</a></div><div class="ttdeci">struct @25 Driver</div></div>
 <div class="ttc" id="aclassFileSystem_1_1USTAR_html"><div class="ttname"><a href="../../d0/df0/classFileSystem_1_1USTAR.html">FileSystem::USTAR</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/def/ustar_8hpp_source.html#l00010">ustar.hpp:10</a></div></div>
-<div class="ttc" id="anamespaceCPU_html_a8fcf1f2cabd7ed5b6d22e93765aaf178adb91be1ff77d40242e5c3ea53f344b05"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178adb91be1ff77d40242e5c3ea53f344b05">CPU::Enable</a></div><div class="ttdeci">@ Enable</div><div class="ttdoc">Enable interrupts.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00110">cpu.hpp:110</a></div></div>
-<div class="ttc" id="aclassTasking_1_1Task_html_aba5e4027551527accbcfd9ddd4deb67a"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#aba5e4027551527accbcfd9ddd4deb67a">Tasking::Task::GetCurrentThread</a></div><div class="ttdeci">TCB * GetCurrentThread()</div><div class="ttdoc">Get the Current Thread object.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00368">Task.cpp:368</a></div></div>
 <div class="ttc" id="aKernel_8cpp_html_aace8e8569f67aa3e86be6cefa47a71f7"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#aace8e8569f67aa3e86be6cefa47a71f7">vfs</a></div><div class="ttdeci">FileSystem::Virtual * vfs</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00023">Kernel.cpp:23</a></div></div>
-<div class="ttc" id="aclassTasking_1_1Task_html_a8d504087e940342e41993644b426572f"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a8d504087e940342e41993644b426572f">Tasking::Task::GetCurrentProcess</a></div><div class="ttdeci">PCB * GetCurrentProcess()</div><div class="ttdoc">Get the Current Process object.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00362">Task.cpp:362</a></div></div>
+<div class="ttc" id="aclassTasking_1_1Task_html_a8d504087e940342e41993644b426572f"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a8d504087e940342e41993644b426572f">Tasking::Task::GetCurrentProcess</a></div><div class="ttdeci">PCB * GetCurrentProcess()</div><div class="ttdoc">Get the Current Process object.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00436">Task.cpp:436</a></div></div>
 <div class="ttc" id="aKernel_8cpp_html_ac4acbd97a34e46e0e3b1f643e7d9ce94"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a></div><div class="ttdeci">Power::Power * PowerManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00019">Kernel.cpp:19</a></div></div>
-<div class="ttc" id="anamespaceTasking_html_a1d6c5ad87e3a04eb27f6958a4d7890d9"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a1d6c5ad87e3a04eb27f6958a4d7890d9">Tasking::IP</a></div><div class="ttdeci">unsigned long IP</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00014">task.hpp:14</a></div></div>
+<div class="ttc" id="anamespaceTasking_html_a1d6c5ad87e3a04eb27f6958a4d7890d9"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a1d6c5ad87e3a04eb27f6958a4d7890d9">Tasking::IP</a></div><div class="ttdeci">unsigned long IP</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00015">task.hpp:15</a></div></div>
 <div class="ttc" id="atypes_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00113">types.h:113</a></div></div>
-<div class="ttc" id="anamespaceCPU_html_a1cc036b2143b4358a3857bbef3921968"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a1cc036b2143b4358a3857bbef3921968">CPU::Interrupts</a></div><div class="ttdeci">bool Interrupts(InterruptsType Type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8d/CPU_8cpp_source.html#l00099">CPU.cpp:99</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00040">debug.h:40</a></div></div>
 <div class="ttc" id="aclassFileSystem_1_1Virtual_html"><div class="ttname"><a href="../../d0/d99/classFileSystem_1_1Virtual.html">FileSystem::Virtual</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00133">filesystem.hpp:133</a></div></div>
 <!-- start footer part -->

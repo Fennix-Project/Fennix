@@ -1,5 +1,6 @@
 var CPU_8cpp =
 [
+    [ "Counter", "d7/d8d/CPU_8cpp.html#adfe4248cc88b3b6deebb92b8e074561a", null ],
     [ "Hypervisor", "d7/d8d/CPU_8cpp.html#aa6d49cc4518ee81a7c344eee5a1a874a", null ],
     [ "InitializeFeatures", "d7/d8d/CPU_8cpp.html#ab40c41b740716660e53aa57978e59281", null ],
     [ "Interrupts", "d7/d8d/CPU_8cpp.html#a1cc036b2143b4358a3857bbef3921968", null ],

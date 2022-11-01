@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['warn_6349',['warn',['../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55',1,'debug.h']]],
-  ['wchar_5fmax_6350',['WCHAR_MAX',['../d0/df4/Kernel_2include_2types_8h.html#a2a823f3ccf2306cfbaa34d8addf66010',1,'types.h']]],
-  ['wchar_5fmin_6351',['WCHAR_MIN',['../d0/df4/Kernel_2include_2types_8h.html#a051084d5ebcabf282d9ca9bb2b891a78',1,'types.h']]],
-  ['wint_5fmax_6352',['WINT_MAX',['../d0/df4/Kernel_2include_2types_8h.html#ad3f7b6bb8aa7d619017a91d3b2edc1ee',1,'types.h']]],
-  ['wint_5fmin_6353',['WINT_MIN',['../d0/df4/Kernel_2include_2types_8h.html#a5285bc55170ae1701e599decacc7f001',1,'types.h']]],
-  ['writefsfunction_6354',['WriteFSFunction',['../d1/d85/filesystem_8hpp.html#aa37ca70b26e93160b9431d7a7b524cb9',1,'filesystem.hpp']]]
+  ['va_5farg_6570',['va_arg',['../d0/df4/Kernel_2include_2types_8h.html#a9cfd655f1203c9a345ddd90446f0bcee',1,'types.h']]],
+  ['va_5fend_6571',['va_end',['../d0/df4/Kernel_2include_2types_8h.html#a823b205416e9129825841b74c3bf8484',1,'types.h']]],
+  ['va_5fstart_6572',['va_start',['../d0/df4/Kernel_2include_2types_8h.html#aa0628ab596c3d7e78f5e08c2d98e24da',1,'types.h']]],
+  ['version_6573',['VERSION',['../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a1c6d5de492ac61ad29aec7aa9a436bbf',1,'VERSION():&#160;liballoc_1_1.c'],['../da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a1c6d5de492ac61ad29aec7aa9a436bbf',1,'VERSION():&#160;liballoc_1_1.c']]],
+  ['vfsdbg_6574',['vfsdbg',['../d1/d85/filesystem_8hpp.html#a47d194f70ad5f06b3343aef4eb235442',1,'filesystem.hpp']]],
+  ['vpoke_6575',['VPOKE',['../d0/df4/Kernel_2include_2types_8h.html#aaba4eb2520bab0b16b9b65816ee5edef',1,'types.h']]]
 ];

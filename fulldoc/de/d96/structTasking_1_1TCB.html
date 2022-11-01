@@ -116,6 +116,10 @@ Data Fields</h2></td></tr>
 <tr class="separator:a22ee7989c9d822948a31341b724a4c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab71966bf64825975424a3310a27e15fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d3e/namespaceTasking.html#ab0bbf66a90216a502407b8e42f979338">IPOffset</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d96/structTasking_1_1TCB.html#ab71966bf64825975424a3310a27e15fb">Offset</a></td></tr>
 <tr class="separator:ab71966bf64825975424a3310a27e15fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eba4d7e7d29f8dcfb8b578aa3cab4f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d3e/namespaceTasking.html#acea26a7e06860ac7effffcec10b93a2c">Arg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d96/structTasking_1_1TCB.html#a2eba4d7e7d29f8dcfb8b578aa3cab4f5">Argument0</a></td></tr>
+<tr class="separator:a2eba4d7e7d29f8dcfb8b578aa3cab4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3be38a22b73be228a30c6cbd8924de3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d3e/namespaceTasking.html#acea26a7e06860ac7effffcec10b93a2c">Arg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d96/structTasking_1_1TCB.html#ab3be38a22b73be228a30c6cbd8924de3">Argument1</a></td></tr>
+<tr class="separator:ab3be38a22b73be228a30c6cbd8924de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad559303402b3927ebff520bfa3777af4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d96/structTasking_1_1TCB.html#ad559303402b3927ebff520bfa3777af4">ExitCode</a></td></tr>
 <tr class="separator:ad559303402b3927ebff520bfa3777af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a896df1c51abef7be3979ee78830d62af"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d96/structTasking_1_1TCB.html#a896df1c51abef7be3979ee78830d62af">Stack</a></td></tr>
@@ -129,7 +133,7 @@ Data Fields</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00079">79</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a6c69ee7d237e170e693343f322d369f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c69ee7d237e170e693343f322d369f8">&#9670;&nbsp;</a></span>__attribute__()</h2>
@@ -173,19 +177,20 @@ Data Fields</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00096">96</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        {</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 256; i++)</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            {</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                <a class="code" href="../../de/d96/structTasking_1_1TCB.html#a480209ab7e1471a5b6b8599512341b91">Name</a>[i] = name[i];</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                <span class="keywordflow">if</span> (name[i] == <span class="charliteral">&#39;\0&#39;</span>)</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            }</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00102">102</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Renaming thread %s to %s&quot;</span>, <a class="code" href="../../de/d96/structTasking_1_1TCB.html#a480209ab7e1471a5b6b8599512341b91">Name</a>, name);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; 256; i++)</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                <a class="code" href="../../de/d96/structTasking_1_1TCB.html#a480209ab7e1471a5b6b8599512341b91">Name</a>[i] = name[i];</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                <span class="keywordflow">if</span> (name[i] == <span class="charliteral">&#39;\0&#39;</span>)</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/da1/task_8hpp_source.html#l00078">Name</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da1/task_8hpp_source.html#l00082">Name</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00041">trace</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00054">InterProcessCommunication::IPC::IPC()</a>, <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00019">KernelMainThread()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00577">Tasking::Task::Task()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00054">InterProcessCommunication::IPC::IPC()</a>, <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00027">KernelMainThread()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00678">Tasking::Task::Task()</a>.</p>
 
 </div>
 </div>
@@ -213,18 +218,55 @@ Data Fields</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00106">106</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        {</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <a class="code" href="../../de/d96/structTasking_1_1TCB.html#a6d93f54301130195f0d3d109ce72a404">Info</a>.<a class="code" href="../../d9/d3e/namespaceTasking.html#a44d611ebcf3a2ec14875e8eab4125a18">Priority</a> = priority;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00113">113</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Setting priority of thread %s to %d&quot;</span>, <a class="code" href="../../de/d96/structTasking_1_1TCB.html#a480209ab7e1471a5b6b8599512341b91">Name</a>, priority);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <a class="code" href="../../de/d96/structTasking_1_1TCB.html#a6d93f54301130195f0d3d109ce72a404">Info</a>.<a class="code" href="../../d9/d3e/namespaceTasking.html#a44d611ebcf3a2ec14875e8eab4125a18">Priority</a> = priority;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/da1/task_8hpp_source.html#l00093">Info</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00070">Tasking::TaskInfo::Priority</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da1/task_8hpp_source.html#l00099">Info</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00082">Name</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00074">Tasking::TaskInfo::Priority</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00041">trace</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00045">InterProcessCommunication::IPCServiceStub()</a>, <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00019">KernelMainThread()</a>, and <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00008">StartFilesystem()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00045">InterProcessCommunication::IPCServiceStub()</a>, <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00027">KernelMainThread()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00678">Tasking::Task::Task()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
+<a id="a2eba4d7e7d29f8dcfb8b578aa3cab4f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eba4d7e7d29f8dcfb8b578aa3cab4f5">&#9670;&nbsp;</a></span>Argument0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d3e/namespaceTasking.html#acea26a7e06860ac7effffcec10b93a2c">Arg</a> Tasking::TCB::Argument0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00086">86</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>.</p>
+
+</div>
+</div>
+<a id="ab3be38a22b73be228a30c6cbd8924de3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3be38a22b73be228a30c6cbd8924de3">&#9670;&nbsp;</a></span>Argument1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d3e/namespaceTasking.html#acea26a7e06860ac7effffcec10b93a2c">Arg</a> Tasking::TCB::Argument1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>.</p>
+
+</div>
+</div>
 <a id="a22ee7989c9d822948a31341b724a4c0e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a22ee7989c9d822948a31341b724a4c0e">&#9670;&nbsp;</a></span>EntryPoint</h2>
 
@@ -237,9 +279,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00080">80</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00084">84</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>.</p>
 
 </div>
 </div>
@@ -255,9 +297,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00082">82</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00088">88</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">Tasking::ThreadDoExit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00427">Tasking::ThreadDoExit()</a>.</p>
 
 </div>
 </div>
@@ -273,9 +315,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00077">77</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00081">81</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">Tasking::ThreadDoExit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00427">Tasking::ThreadDoExit()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00455">Tasking::Task::WaitForThread()</a>.</p>
 
 </div>
 </div>
@@ -291,9 +333,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00093">93</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00099">99</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00106">SetPriority()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">Tasking::ThreadDoExit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00113">SetPriority()</a>.</p>
 
 </div>
 </div>
@@ -309,9 +351,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00078">78</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00082">82</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00096">Rename()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00577">Tasking::Task::Task()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">Tasking::ThreadDoExit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00102">Rename()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00113">SetPriority()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00678">Tasking::Task::Task()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00427">Tasking::ThreadDoExit()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00455">Tasking::Task::WaitForThread()</a>.</p>
 
 </div>
 </div>
@@ -327,9 +369,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00081">81</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00085">85</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>.</p>
 
 </div>
 </div>
@@ -345,9 +387,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00079">79</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00083">83</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>.</p>
 
 </div>
 </div>
@@ -363,9 +405,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00092">92</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00098">98</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>.</p>
 
 </div>
 </div>
@@ -381,9 +423,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00083">83</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00089">89</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>.</p>
 
 </div>
 </div>
@@ -399,9 +441,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00084">84</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00090">90</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00374">Tasking::Task::CreateThread()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">Tasking::ThreadDoExit()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00462">Tasking::Task::CreateThread()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00427">Tasking::ThreadDoExit()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00455">Tasking::Task::WaitForThread()</a>.</p>
 
 </div>
 </div>
@@ -410,9 +452,10 @@ Data Fields</h2></td></tr>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="astructTasking_1_1TCB_html_a480209ab7e1471a5b6b8599512341b91"><div class="ttname"><a href="../../de/d96/structTasking_1_1TCB.html#a480209ab7e1471a5b6b8599512341b91">Tasking::TCB::Name</a></div><div class="ttdeci">char Name[256]</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00078">task.hpp:78</a></div></div>
-<div class="ttc" id="anamespaceTasking_html_a44d611ebcf3a2ec14875e8eab4125a18"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a44d611ebcf3a2ec14875e8eab4125a18">Tasking::TaskInfo::Priority</a></div><div class="ttdeci">int Priority</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00070">task.hpp:70</a></div></div>
-<div class="ttc" id="astructTasking_1_1TCB_html_a6d93f54301130195f0d3d109ce72a404"><div class="ttname"><a href="../../de/d96/structTasking_1_1TCB.html#a6d93f54301130195f0d3d109ce72a404">Tasking::TCB::Info</a></div><div class="ttdeci">TaskInfo Info</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00093">task.hpp:93</a></div></div>
+<div class="ttc" id="astructTasking_1_1TCB_html_a480209ab7e1471a5b6b8599512341b91"><div class="ttname"><a href="../../de/d96/structTasking_1_1TCB.html#a480209ab7e1471a5b6b8599512341b91">Tasking::TCB::Name</a></div><div class="ttdeci">char Name[256]</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00082">task.hpp:82</a></div></div>
+<div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00041">debug.h:41</a></div></div>
+<div class="ttc" id="anamespaceTasking_html_a44d611ebcf3a2ec14875e8eab4125a18"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a44d611ebcf3a2ec14875e8eab4125a18">Tasking::TaskInfo::Priority</a></div><div class="ttdeci">int Priority</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00074">task.hpp:74</a></div></div>
+<div class="ttc" id="astructTasking_1_1TCB_html_a6d93f54301130195f0d3d109ce72a404"><div class="ttname"><a href="../../de/d96/structTasking_1_1TCB.html#a6d93f54301130195f0d3d109ce72a404">Tasking::TCB::Info</a></div><div class="ttdeci">TaskInfo Info</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00099">task.hpp:99</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

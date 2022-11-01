@@ -25,15 +25,34 @@ var NAVTREE =
   [ "Fennix Drivers", "index.html", [
     [ "Doxygen", "index.html", null ],
     [ "Drivers", "d4/d86/md_Drivers_README.html", null ],
+    [ "Data Structures", "annotated.html", [
+      [ "Data Structures", "annotated.html", "annotated_dup" ],
+      [ "Data Structure Index", "classes.html", null ],
+      [ "Data Fields", "functions.html", [
+        [ "All", "functions.html", null ],
+        [ "Functions", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ]
+      ] ]
+    ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "Globals", "globals.html", [
+        [ "All", "globals.html", "globals_dup" ],
+        [ "Functions", "globals_func.html", null ],
+        [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"d0/d4a/FileSystem_2Makefile.html"
+"annotated.html",
+"de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5a63ec7452ad9063eeba3f8ec156470cd4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

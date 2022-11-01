@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['file_4876',['FILE',['../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9',1,'cargs.h']]]
+  ['dr7_5070',['DR7',['../d9/d25/namespaceCPU_1_1x64.html#a4b3e456145bd0e0b402efa6c16ffb864',1,'CPU::x64']]]
 ];

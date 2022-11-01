@@ -13,6 +13,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "cwalk.h", "da/d7d/cwalk_8h.html", "da/d7d/cwalk_8h" ],
     [ "debug.h", "db/d16/debug_8h.html", "db/d16/debug_8h" ],
     [ "display.hpp", "d2/da4/display_8hpp.html", "d2/da4/display_8hpp" ],
+    [ "driver.hpp", "d7/d7e/driver_8hpp.html", "d7/d7e/driver_8hpp" ],
     [ "filesystem.hpp", "d1/d85/filesystem_8hpp.html", "d1/d85/filesystem_8hpp" ],
     [ "hashmap.hpp", "d2/d89/hashmap_8hpp.html", [
       [ "HashNode", "d7/d56/classHashNode.html", "d7/d56/classHashNode" ],

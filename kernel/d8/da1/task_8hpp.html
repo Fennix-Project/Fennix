@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('d8/da1/task_8hpp.html','../../'); init
 <code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/d89/hashmap_8hpp_source.html">hashmap.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d02/ipc_8hpp_source.html">ipc.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d8/da1/task_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -127,6 +128,8 @@ Namespaces</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:a1d6c5ad87e3a04eb27f6958a4d7890d9"><td class="memItemLeft" align="right" valign="top">typedef unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a1d6c5ad87e3a04eb27f6958a4d7890d9">Tasking::IP</a></td></tr>
 <tr class="separator:a1d6c5ad87e3a04eb27f6958a4d7890d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acea26a7e06860ac7effffcec10b93a2c"><td class="memItemLeft" align="right" valign="top">typedef unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#acea26a7e06860ac7effffcec10b93a2c">Tasking::Arg</a></td></tr>
+<tr class="separator:acea26a7e06860ac7effffcec10b93a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0bbf66a90216a502407b8e42f979338"><td class="memItemLeft" align="right" valign="top">typedef unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#ab0bbf66a90216a502407b8e42f979338">Tasking::IPOffset</a></td></tr>
 <tr class="separator:ab0bbf66a90216a502407b8e42f979338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04e2f481f6f63a104eee16ed8e34d0c0"><td class="memItemLeft" align="right" valign="top">typedef unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a04e2f481f6f63a104eee16ed8e34d0c0">Tasking::UPID</a></td></tr>
@@ -196,7 +199,7 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -227,7 +230,7 @@ UniqueToken</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00063">63</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00065">65</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -249,9 +252,15 @@ Compatibility</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3e0f51d112ca792c2d84847024c89596"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="aab7e88a64f06a128c30b090efbc0b1a1"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
-CurrentSystemTime</td>
+CurrentKernelTime</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a347a48b283b3e16c048a4f2ab8a901a2"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+CurrentUserTime</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -267,6 +276,12 @@ Hour</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
+<a id="ad3e07f6a281d8e6b99773afb38b64fd9"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+KernelTime</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
 <a id="a463c6697b0c393ac398334aa9721c7ed"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
 Minute</td>
@@ -279,15 +294,15 @@ Month</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a7f496e9fc3e1eb053bc00d07900a65ba"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="a2dbe361f3b7fc36789b03916d3fd5727"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
-OldSystemTime</td>
+OldKernelTime</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a7bb02b89a4c2c297b4f82450659c8cdc"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="ae919ca007f2a6b1fda58a218c85aaa33"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
-OldUsedTime</td>
+OldUserTime</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -315,9 +330,9 @@ Usage[256]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a16ff6293f15d45f7835534dfabccb156"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="a059654ee8fa36c9a9780453da0ca7fe0"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
-UsedTime</td>
+UserTime</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -342,7 +357,7 @@ Year</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00112">112</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00120">120</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">

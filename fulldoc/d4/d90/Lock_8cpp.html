@@ -86,7 +86,8 @@ $(document).ready(function(){initNavTree('d4/d90/Lock_8cpp.html','../../'); init
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Lock.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -100,6 +101,11 @@ $(document).ready(function(){initNavTree('d4/d90/Lock_8cpp.html','../../'); init
 Functions</h2></td></tr>
 <tr class="memitem:a5933b739d8db180b1c2f2da23b8829cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d90/Lock_8cpp.html#a5933b739d8db180b1c2f2da23b8829cd">DeadLockHandler</a> (LockClass *Lock)</td></tr>
 <tr class="separator:a5933b739d8db180b1c2f2da23b8829cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a08f0f159bd44541f8e70d89cd1af1841"><td class="memItemLeft" align="right" valign="top">static unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d90/Lock_8cpp.html#a08f0f159bd44541f8e70d89cd1af1841">DeadLocks</a> = 0</td></tr>
+<tr class="separator:a08f0f159bd44541f8e70d89cd1af1841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a5933b739d8db180b1c2f2da23b8829cd"></a>
@@ -118,20 +124,49 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d90/Lock_8cpp_source.html#l00005">5</a> of file <a class="el" href="../../d4/d90/Lock_8cpp_source.html">Lock.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Potential deadlock in lock &#39;%s&#39; held by &#39;%s&#39;&quot;</span>,</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;         Lock-&gt;GetLockData()-&gt;AttemptingToGet,</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;         Lock-&gt;GetLockData()-&gt;CurrentHolder);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="comment">// TODO: Print on screen too.</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d90/Lock_8cpp_source.html#l00007">7</a> of file <a class="el" href="../../d4/d90/Lock_8cpp_source.html">Lock.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Potential deadlock in lock &#39;%s&#39; held by &#39;%s&#39; (%ld)&quot;</span>,</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;         Lock-&gt;GetLockData()-&gt;AttemptingToGet,</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;         Lock-&gt;GetLockData()-&gt;CurrentHolder,</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;         <a class="code" href="../../d4/d90/Lock_8cpp.html#a08f0f159bd44541f8e70d89cd1af1841">DeadLocks</a>++);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="comment">// TODO: Print on screen too.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00038">warn</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d90/Lock_8cpp_source.html#l00005">DeadLocks</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00038">warn</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a08f0f159bd44541f8e70d89cd1af1841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08f0f159bd44541f8e70d89cd1af1841">&#9670;&nbsp;</a></span>DeadLocks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned long DeadLocks = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d90/Lock_8cpp_source.html#l00005">5</a> of file <a class="el" href="../../d4/d90/Lock_8cpp_source.html">Lock.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d90/Lock_8cpp_source.html#l00007">DeadLockHandler()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="aLock_8cpp_html_a08f0f159bd44541f8e70d89cd1af1841"><div class="ttname"><a href="../../d4/d90/Lock_8cpp.html#a08f0f159bd44541f8e70d89cd1af1841">DeadLocks</a></div><div class="ttdeci">static unsigned long DeadLocks</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d90/Lock_8cpp_source.html#l00005">Lock.cpp:5</a></div></div>
 <div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00038">debug.h:38</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

@@ -5,6 +5,7 @@ var namespaces_dup =
     [ "APIC", "d3/d88/namespaceAPIC.html", null ],
     [ "CPU", "d7/dfa/namespaceCPU.html", "d7/dfa/namespaceCPU" ],
     [ "CrashHandler", "d2/d57/namespaceCrashHandler.html", null ],
+    [ "Driver", "d1/d48/namespaceDriver.html", null ],
     [ "FileSystem", "d6/df5/namespaceFileSystem.html", null ],
     [ "GlobalDescriptorTable", "d1/d69/namespaceGlobalDescriptorTable.html", null ],
     [ "InterProcessCommunication", "d7/d5f/namespaceInterProcessCommunication.html", null ],

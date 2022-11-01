@@ -95,7 +95,6 @@ $(document).ready(function(){initNavTree('d3/d71/Task_8cpp.html','../../'); init
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../kernel.h</a>&quot;</code><br />
 </div>
@@ -115,15 +114,15 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a5bdf8797953487a5859c703349ec35ac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d71/Task_8cpp.html#a5bdf8797953487a5859c703349ec35ac">NewLock</a> (TaskingLock)</td></tr>
 <tr class="separator:a5bdf8797953487a5859c703349ec35ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c2e823368323b2b8851a7105401895d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d71/Task_8cpp.html#a8c2e823368323b2b8851a7105401895d">NewLock</a> (TaskingGetCurrentLock)</td></tr>
-<tr class="separator:a8c2e823368323b2b8851a7105401895d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e39d56841385491a755394b4ee04d40"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d71/Task_8cpp.html#a6e39d56841385491a755394b4ee04d40">NewLock</a> (SchedulerLock)</td></tr>
+<tr class="separator:a6e39d56841385491a755394b4ee04d40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87dbf1c1048c4c7e9430c75acbd929ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a87dbf1c1048c4c7e9430c75acbd929ba">Tasking::__attribute__</a> ((no_stack_protector)) void OneShot(int TimeSlice)</td></tr>
 <tr class="memdesc:a87dbf1c1048c4c7e9430c75acbd929ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>.  <a href="../../d9/d3e/namespaceTasking.html#a87dbf1c1048c4c7e9430c75acbd929ba">More...</a><br /></td></tr>
 <tr class="separator:a87dbf1c1048c4c7e9430c75acbd929ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a281bbd26ad1fd55430c0a50059f0538c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a281bbd26ad1fd55430c0a50059f0538c">Tasking::__attribute__</a> ((naked, used, no_stack_protector)) void IdleProcessLoop()</td></tr>
 <tr class="separator:a281bbd26ad1fd55430c0a50059f0538c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab22ad4406f11737099c0e6518c98c1d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#ab22ad4406f11737099c0e6518c98c1d6">Tasking::ThreadDoExit</a> (int <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</td></tr>
-<tr class="separator:ab22ad4406f11737099c0e6518c98c1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14158fcf432e346339f307091826643c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a14158fcf432e346339f307091826643c">Tasking::ThreadDoExit</a> ()</td></tr>
+<tr class="separator:a14158fcf432e346339f307091826643c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a69e88d2644af903e00cc5fb802bdd125"></a>
@@ -152,13 +151,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../d3/d71/Task_8cpp_source.html">Task.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00020">20</a> of file <a class="el" href="../../d3/d71/Task_8cpp_source.html">Task.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8c2e823368323b2b8851a7105401895d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c2e823368323b2b8851a7105401895d">&#9670;&nbsp;</a></span>NewLock() <span class="overload">[1/2]</span></h2>
+<a id="a6e39d56841385491a755394b4ee04d40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e39d56841385491a755394b4ee04d40">&#9670;&nbsp;</a></span>NewLock() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,7 +165,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">NewLock </td>
           <td>(</td>
-          <td class="paramtype">TaskingGetCurrentLock&#160;</td>
+          <td class="paramtype">SchedulerLock&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
