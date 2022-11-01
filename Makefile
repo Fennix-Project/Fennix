@@ -172,7 +172,7 @@ run: build qemu
 
 clean:
 	rm -rf doxygen-doc iso_tmp_data
-	rm -f initrd/system/drivers/*.drv initrd.tar.gz $(OSNAME).iso $(OSNAME).img
+	rm -f initrd/system/drivers/*.fex initrd.tar.gz $(OSNAME).iso $(OSNAME).img
 	make -C Kernel clean
 	make -C Lynx clean
 	make -C Userspace clean
