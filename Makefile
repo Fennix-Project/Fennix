@@ -110,6 +110,7 @@ build_kernel:
 
 build_userspace:
 	make --quiet -C Userspace build
+	cp -r Userspace/out/* initrd/
 
 build_drivers:
 	make --quiet -C Drivers build
