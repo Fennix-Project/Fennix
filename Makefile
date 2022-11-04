@@ -49,9 +49,9 @@ QEMUFLAGS += -device bochs-display -M q35 \
 			 -device ide-hd,drive=bootdsk,bus=ahci.0 \
 			 -drive id=disk,file=qemu-disk.img,format=raw,if=none \
 			 -device ide-hd,drive=disk,bus=ahci.1 \
-			 -audiodev pa,id=audio0 \
-			 -machine pcspk-audiodev=audio0 \
-			 -device AC97,audiodev=audio0
+			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
+			 -machine pcspk-audiodev=pa1 \
+			 -device AC97,audiodev=pa1
 else ifeq ($(OSARCH), i686)
 QEMUFLAGS += -M q35 \
 			 -usb \
@@ -62,9 +62,9 @@ QEMUFLAGS += -M q35 \
 			 -object filter-dump,id=usernet0,netdev=usernet0,file=network.log,maxlen=1024 \
 			 -serial file:serial.log \
 			 -hda $(OSNAME).iso \
-			 -audiodev pa,id=audio0 \
-			 -machine pcspk-audiodev=audio0 \
-			 -device AC97,audiodev=audio0
+			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
+			 -machine pcspk-audiodev=pa1 \
+			 -device AC97,audiodev=pa1
 else ifeq ($(OSARCH), aarch64)
 QEMUFLAGS += -M raspi3b \
 			 -cpu cortex-a57 \
