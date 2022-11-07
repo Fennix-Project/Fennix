@@ -138,6 +138,9 @@ jobs:
         sudo apt-get update
         sudo apt-get install xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo -y
         make --quiet -C tools do_limine
+        make --quiet -C Drivers prepare
+        make --quiet -C Userspace prepare
+        make --quiet -C Lynx prepare
         make --quiet -C Kernel prepare
 
     - name: Cache cross
@@ -157,6 +160,8 @@ jobs:
     - name: Build OS
       run: |
         make build_lynx
+        make build_userspace
+        make build_drivers
         make build_kernel
         make build_userspace
 
@@ -177,6 +182,9 @@ jobs:
         sudo apt-get update
         sudo apt-get install xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
         make --quiet -C tools do_limine
+        make --quiet -C Drivers prepare
+        make --quiet -C Userspace prepare
+        make --quiet -C Lynx prepare
         make --quiet -C Kernel prepare
 
     - name: Cache cross Folder
@@ -218,6 +226,10 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
+        make --quiet -C tools do_limine
+        make --quiet -C Drivers prepare
+        make --quiet -C Userspace prepare
+        make --quiet -C Lynx prepare
         make --quiet -C Kernel prepare
 
     - name: Cache cross Folder
@@ -265,6 +277,10 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
+        make --quiet -C tools do_limine
+        make --quiet -C Drivers prepare
+        make --quiet -C Userspace prepare
+        make --quiet -C Lynx prepare
         make --quiet -C Kernel prepare
 
     - name: Cache cross Folder

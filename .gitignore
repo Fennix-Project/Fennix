@@ -17,4 +17,6 @@ initrd.tar.gz
 *.iso
 *.drv
 *.fex
+*.elf
+*.a
 *.o
