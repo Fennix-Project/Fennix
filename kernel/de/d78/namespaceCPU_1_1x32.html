@@ -163,24 +163,27 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00267">267</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        {</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor">#if defined(__i386__)</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;cpuid&quot;</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                 : <span class="stringliteral">&quot;=a&quot;</span>(*eax), <span class="stringliteral">&quot;=b&quot;</span>(*ebx), <span class="stringliteral">&quot;=c&quot;</span>(*ecx), <span class="stringliteral">&quot;=d&quot;</span>(*edx)</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                 : <span class="stringliteral">&quot;a&quot;</span>(Function));</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00272">272</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        {</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor">#if defined(__i386__)</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;cpuid&quot;</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                 : <span class="stringliteral">&quot;=a&quot;</span>(*<a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#aaa5ce49188a92b43a7e7b7004af8455d">eax</a>), <span class="stringliteral">&quot;=b&quot;</span>(*<a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#a339ff5c17cc5fd9eee3dd99eb55cc364">ebx</a>), <span class="stringliteral">&quot;=c&quot;</span>(*<a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#a149775cd0cc2d7649e98f0f5f2b90205">ecx</a>), <span class="stringliteral">&quot;=d&quot;</span>(*edx)</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                 : <span class="stringliteral">&quot;a&quot;</span>(Function));</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00025">asmv</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00025">asmv</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01439">CPU::x64::eax</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01439">CPU::x64::ebx</a>, and <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01439">CPU::x64::ecx</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00033">CPU::Name()</a>, and <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00011">CPU::Vendor()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00229">APIC::APIC::APIC()</a>, <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00077">CPU::Hypervisor()</a>, <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00176">CPU::InitializeFeatures()</a>, <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00033">CPU::Name()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00761">Tasking::Task::Task()</a>, and <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00011">CPU::Vendor()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespaceCPU_1_1x64_html_aaa5ce49188a92b43a7e7b7004af8455d"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#aaa5ce49188a92b43a7e7b7004af8455d">CPU::x64::eax</a></div><div class="ttdeci">uint32_t * eax</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01439">cpu.hpp:1439</a></div></div>
+<div class="ttc" id="anamespaceCPU_1_1x64_html_a149775cd0cc2d7649e98f0f5f2b90205"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#a149775cd0cc2d7649e98f0f5f2b90205">CPU::x64::ecx</a></div><div class="ttdeci">uint32_t uint32_t uint32_t * ecx</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01439">cpu.hpp:1439</a></div></div>
 <div class="ttc" id="atypes_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00025">types.h:25</a></div></div>
+<div class="ttc" id="anamespaceCPU_1_1x64_html_a339ff5c17cc5fd9eee3dd99eb55cc364"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#a339ff5c17cc5fd9eee3dd99eb55cc364">CPU::x64::ebx</a></div><div class="ttdeci">uint32_t uint32_t * ebx</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01439">cpu.hpp:1439</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

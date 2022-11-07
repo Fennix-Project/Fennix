@@ -10,10 +10,15 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "cargs.h", "d1/d37/cargs_8h.html", "d1/d37/cargs_8h" ],
     [ "convert.h", "d3/d82/convert_8h.html", "d3/d82/convert_8h" ],
     [ "cpu.hpp", "df/dbe/cpu_8hpp.html", "df/dbe/cpu_8hpp" ],
+    [ "crc32.h", "dc/d24/crc32_8h.html", "dc/d24/crc32_8h" ],
     [ "cwalk.h", "da/d7d/cwalk_8h.html", "da/d7d/cwalk_8h" ],
     [ "debug.h", "db/d16/debug_8h.html", "db/d16/debug_8h" ],
+    [ "disk.hpp", "d8/da3/disk_8hpp.html", "d8/da3/disk_8hpp" ],
     [ "display.hpp", "d2/da4/display_8hpp.html", "d2/da4/display_8hpp" ],
     [ "driver.hpp", "d7/d7e/driver_8hpp.html", "d7/d7e/driver_8hpp" ],
+    [ "dumper.hpp", "d5/dd9/dumper_8hpp.html", "d5/dd9/dumper_8hpp" ],
+    [ "elf.h", "d1/d9e/elf_8h.html", "d1/d9e/elf_8h" ],
+    [ "exec.hpp", "d2/d83/exec_8hpp.html", "d2/d83/exec_8hpp" ],
     [ "filesystem.hpp", "d1/d85/filesystem_8hpp.html", "d1/d85/filesystem_8hpp" ],
     [ "hashmap.hpp", "d2/d89/hashmap_8hpp.html", [
       [ "HashNode", "d7/d56/classHashNode.html", "d7/d56/classHashNode" ],
@@ -25,7 +30,9 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "kconfig.hpp", "d1/dfc/kconfig_8hpp.html", "d1/dfc/kconfig_8hpp" ],
     [ "limits.h", "d9/d86/limits_8h.html", "d9/d86/limits_8h" ],
     [ "lock.hpp", "d0/d44/lock_8hpp.html", "d0/d44/lock_8hpp" ],
+    [ "md5.h", "da/db0/md5_8h.html", "da/db0/md5_8h" ],
     [ "memory.hpp", "da/d3e/memory_8hpp.html", "da/d3e/memory_8hpp" ],
+    [ "msexec.h", "de/d63/msexec_8h.html", "de/d63/msexec_8h" ],
     [ "pci.hpp", "d9/dd5/pci_8hpp.html", "d9/dd5/pci_8hpp" ],
     [ "power.hpp", "db/dfa/power_8hpp.html", [
       [ "Power", "d0/df9/classPower_1_1Power.html", "d0/df9/classPower_1_1Power" ]
@@ -34,6 +41,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "rand.hpp", "d4/d0b/rand_8hpp.html", "d4/d0b/rand_8hpp" ],
     [ "smartptr.hpp", "d2/d34/smartptr_8hpp.html", "d2/d34/smartptr_8hpp" ],
     [ "smp.hpp", "d4/d33/smp_8hpp.html", "d4/d33/smp_8hpp" ],
+    [ "stdint.h", "df/dd8/stdint_8h.html", null ],
     [ "symbols.hpp", "d7/d94/symbols_8hpp.html", "d7/d94/symbols_8hpp" ],
     [ "sys.h", "d9/d87/sys_8h.html", "d9/d87/sys_8h" ],
     [ "syscalls.hpp", "d0/d35/syscalls_8hpp.html", "d0/d35/syscalls_8hpp" ],

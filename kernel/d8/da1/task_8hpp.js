@@ -1,6 +1,7 @@
 var task_8hpp =
 [
     [ "TaskSecurity", "d9/d3e/namespaceTasking.html#d6/df6/structTasking_1_1TaskSecurity", [
+      [ "IsCritical", "d9/d3e/namespaceTasking.html#aee5825170df6e181a8a018a59afa444c", null ],
       [ "TrustLevel", "d9/d3e/namespaceTasking.html#acd0dfa9beec709e42e560c3551640e62", null ],
       [ "UniqueToken", "d9/d3e/namespaceTasking.html#ab4dc9e6e4877a9a50f38783896a429e9", null ]
     ] ],

@@ -108,7 +108,7 @@ Functions</h2></td></tr>
 <tr class="separator:afaf8986bb6fc142145cf60b34c615658"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad000e848e45065e5542e22b1db7b8389"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#ad000e848e45065e5542e22b1db7b8389">va_start</a> (args, Format)</td></tr>
 <tr class="separator:ad000e848e45065e5542e22b1db7b8389"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad805d0ed95bd090d42f49b74d177cc6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#ad805d0ed95bd090d42f49b74d177cc6d">vfctprintf</a> (printfWrapper, <a class="el" href="../../d2/d68/Lynx_2UEFI_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, Format, args)</td></tr>
+<tr class="memitem:ad805d0ed95bd090d42f49b74d177cc6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#ad805d0ed95bd090d42f49b74d177cc6d">vfctprintf</a> (printfWrapper, <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, Format, args)</td></tr>
 <tr class="separator:ad805d0ed95bd090d42f49b74d177cc6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50b27de5aae592b079da30e21f54ec9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a50b27de5aae592b079da30e21f54ec9b">va_end</a> (args)</td></tr>
 <tr class="separator:a50b27de5aae592b079da30e21f54ec9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,7 +182,7 @@ rip</td>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        {</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">EHPrint</a>(<span class="stringliteral">&quot;\e2565CC%p&quot;</span>, (<span class="keywordtype">void</span> *)Frame-&gt;rip);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">EHPrint</a>(<span class="stringliteral">&quot;\e7925CC-&quot;</span>);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">EHPrint</a>(<span class="stringliteral">&quot;\eAA25C%s&quot;</span>, <a class="code" href="../../d2/d00/Kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a>-&gt;<a class="code" href="../../d0/dcc/classSymbolResolver_1_1Symbols.html#acab0d8d88794b348d77f143831050d3b">GetSymbolFromAddress</a>(Frame-&gt;rip));</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">EHPrint</a>(<span class="stringliteral">&quot;\eAA25CC%s&quot;</span>, <a class="code" href="../../d2/d00/Kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a>-&gt;<a class="code" href="../../d0/dcc/classSymbolResolver_1_1Symbols.html#acab0d8d88794b348d77f143831050d3b">GetSymbolFromAddress</a>(Frame-&gt;rip));</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">EHPrint</a>(<span class="stringliteral">&quot;\e7981FC &lt;- Exception&quot;</span>);</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">EHPrint</a>(<span class="stringliteral">&quot;\eFF0000\n&lt; No stack trace available. &gt;\n&quot;</span>);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
@@ -206,14 +206,14 @@ rip</td>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                    <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">EHPrint</a>(<span class="stringliteral">&quot;\eFF4CA9Outside Kernel&quot;</span>);</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordflow">if</span> (Frame-&gt;rip &gt;= 0xFFFFFFFFFFFFFFF0 || Frame-&gt;rip &lt;= 0xFF)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordflow">if</span> (!Memory::Virtual().<a class="code" href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178a2e45a41bd35e0fdd2a5f320d9dfde0db">Check</a>(frames-&gt;rbp))</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                frames = frames-&gt;rbp;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            }</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        }</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00040">debug</a>, <a class="el" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">EHPrint()</a>, <a class="el" href="../../d7/db9/Symbols_8cpp_source.html#l00135">SymbolResolver::Symbols::GetSymbolFromAddress()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00018">KernelSymbolTable</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00047">CrashHandler::StackFrame::rbp</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01122">CPU::x64::TrapFrame::rbp</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00048">CrashHandler::StackFrame::rip</a>, and <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01132">CPU::x64::TrapFrame::rip</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00111">CPU::Check</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00040">debug</a>, <a class="el" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">EHPrint()</a>, <a class="el" href="../../d7/db9/Symbols_8cpp_source.html#l00135">SymbolResolver::Symbols::GetSymbolFromAddress()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00018">KernelSymbolTable</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00047">CrashHandler::StackFrame::rbp</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01127">CPU::x64::TrapFrame::rbp</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00048">CrashHandler::StackFrame::rip</a>, and <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01137">CPU::x64::TrapFrame::rip</a>.</p>
 
 </div>
 </div>
@@ -346,7 +346,7 @@ rip</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d68/Lynx_2UEFI_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -369,7 +369,7 @@ rip</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00071">SysDbgWrite()</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00081">SysDbgWriteLine()</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00049">SysDbg::Write()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00058">SysDbg::WriteLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00071">SysDbgWrite()</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00081">SysDbgWriteLine()</a>, <a class="el" href="../../d2/dbb/dumper_8cpp_source.html#l00019">vprintf()</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00049">SysDbg::Write()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00058">SysDbg::WriteLine()</a>.</p>
 
 </div>
 </div>
@@ -390,7 +390,7 @@ rip</td>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html">CrashHandler.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l00359">putchar_wrapper()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00011">uart_wrapper()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/dbb/dumper_8cpp_source.html#l00013">print_wrapper()</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l00359">putchar_wrapper()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00011">uart_wrapper()</a>.</p>
 
 </div>
 </div>
@@ -400,6 +400,7 @@ rip</td>
 <div class="ttc" id="anamespaceCrashHandler_html_a75aadb54e6eafdfdd020ae223f65fbf8"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">CrashHandler::EHPrint</a></div><div class="ttdeci">void EHPrint(const char *Format,...)</div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00113">types.h:113</a></div></div>
 <div class="ttc" id="aKernel_8cpp_html_a7495caffa5b73a2490dcd48a91869694"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a></div><div class="ttdeci">SymbolResolver::Symbols * KernelSymbolTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00018">Kernel.cpp:18</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a8fcf1f2cabd7ed5b6d22e93765aaf178a2e45a41bd35e0fdd2a5f320d9dfde0db"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178a2e45a41bd35e0fdd2a5f320d9dfde0db">CPU::Check</a></div><div class="ttdeci">@ Check</div><div class="ttdoc">Check if interrupts are enabled.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00111">cpu.hpp:111</a></div></div>
 <div class="ttc" id="aclassVideo_1_1Display_html_ab05a86198845ef9aefa590cea4166a82"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Video::Display::Print</a></div><div class="ttdeci">char Print(char Char, int Index, bool WriteToUART=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d17/Display_8cpp_source.html#l00014">Display.cpp:14</a></div></div>
 <div class="ttc" id="aKernel_8cpp_html_ad16e05b6fc09d13310729e16882edc4d"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d">Display</a></div><div class="ttdeci">Video::Display * Display</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00017">Kernel.cpp:17</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00040">debug.h:40</a></div></div>

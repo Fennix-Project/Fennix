@@ -1,13 +1,21 @@
 var searchData=
 [
-  ['badmemory_5239',['BadMemory',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a288f459725332e0ae99372ead7b1cebd',1,'binfo.h']]],
-  ['bind_5finterrupt_5240',['BIND_INTERRUPT',['../d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17a21f1e9cbb5cd54447896933fa44b4c42',1,'DAPI.hpp']]],
-  ['bind_5fnull_5241',['BIND_NULL',['../d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17a328f938175fec590fa92f8b6cd7ffdfb',1,'DAPI.hpp']]],
-  ['bind_5fpci_5242',['BIND_PCI',['../d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17a1f9f9f9c05d441c0f4ee38d3f17ba1a6',1,'DAPI.hpp']]],
-  ['bind_5fprocess_5243',['BIND_PROCESS',['../d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17a6d3455e6d35ca5cbdb98422ba7f92015',1,'DAPI.hpp']]],
-  ['bindreason_5244',['BindReason',['../d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddacfe24452fe967803f26ef127dd0f5adb',1,'DAPI.hpp']]],
-  ['blockdev_5245',['BLOCKDEV',['../d0/df0/classFileSystem_1_1USTAR.html#a536a5362b91a01a39de243aebbb115e8a5dbafbde6c116f82a4d0cc740a79138e',1,'FileSystem::USTAR']]],
-  ['bootloaderreclaimable_5246',['BootloaderReclaimable',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01ac3339e3f10e46e625654bebfe85081e0',1,'binfo.h']]],
-  ['boundrange_5247',['BoundRange',['../d9/d25/namespaceCPU_1_1x64.html#a29dfbfccd41ca8220ab0f81be1e7d56aa4304467efe378970eeafdcd5a9e92520',1,'CPU::x64']]],
-  ['breakpoint_5248',['Breakpoint',['../d9/d25/namespaceCPU_1_1x64.html#a29dfbfccd41ca8220ab0f81be1e7d56aa9038f4dc4e933f2990fa3483b6b68101',1,'CPU::x64']]]
+  ['badmemory_5527',['BadMemory',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a288f459725332e0ae99372ead7b1cebd',1,'binfo.h']]],
+  ['bind_5finterrupt_5528',['BIND_INTERRUPT',['../d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17a21f1e9cbb5cd54447896933fa44b4c42',1,'DAPI.hpp']]],
+  ['bind_5fnull_5529',['BIND_NULL',['../d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17a328f938175fec590fa92f8b6cd7ffdfb',1,'DAPI.hpp']]],
+  ['bind_5fpci_5530',['BIND_PCI',['../d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17a1f9f9f9c05d441c0f4ee38d3f17ba1a6',1,'DAPI.hpp']]],
+  ['bind_5fprocess_5531',['BIND_PROCESS',['../d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17a6d3455e6d35ca5cbdb98422ba7f92015',1,'DAPI.hpp']]],
+  ['bindreason_5532',['BindReason',['../d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddacfe24452fe967803f26ef127dd0f5adb',1,'DAPI.hpp']]],
+  ['bintypeelf_5533',['BinTypeELF',['../d5/d27/namespaceExecute.html#ad34702895af4c39542a1b5e0e75bbfbda6928c465385d0a26e049a88b34a524f4',1,'Execute']]],
+  ['bintypefex_5534',['BinTypeFex',['../d5/d27/namespaceExecute.html#ad34702895af4c39542a1b5e0e75bbfbda4d86e9673c01f19bd31f096c363cf976',1,'Execute']]],
+  ['bintypeinvalid_5535',['BinTypeInvalid',['../d5/d27/namespaceExecute.html#ad34702895af4c39542a1b5e0e75bbfbdae36f6938ddfbfbfe38fa6cf384fb6d19',1,'Execute']]],
+  ['bintypemz_5536',['BinTypeMZ',['../d5/d27/namespaceExecute.html#ad34702895af4c39542a1b5e0e75bbfbda5a4c06cd75836ac8ec916a8341a18366',1,'Execute']]],
+  ['bintypene_5537',['BinTypeNE',['../d5/d27/namespaceExecute.html#ad34702895af4c39542a1b5e0e75bbfbda7b9fe36e6e4a575b5550167eab17a9c8',1,'Execute']]],
+  ['bintypepe_5538',['BinTypePE',['../d5/d27/namespaceExecute.html#ad34702895af4c39542a1b5e0e75bbfbdad046408a5647cdbf181157853f1ed4f1',1,'Execute']]],
+  ['bintypeunknown_5539',['BinTypeUnknown',['../d5/d27/namespaceExecute.html#ad34702895af4c39542a1b5e0e75bbfbdafc199be97ad89f843f5914678a8285d4',1,'Execute']]],
+  ['blockdev_5540',['BLOCKDEV',['../d0/df0/classFileSystem_1_1USTAR.html#a536a5362b91a01a39de243aebbb115e8a5dbafbde6c116f82a4d0cc740a79138e',1,'FileSystem::USTAR']]],
+  ['bootable_5541',['Bootable',['../d1/d29/namespaceDisk.html#a9bf86371ea9b6aabf4afa7bea7339c60a57cce810d0a255499a186e966d5f7d77',1,'Disk']]],
+  ['bootloaderreclaimable_5542',['BootloaderReclaimable',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01ac3339e3f10e46e625654bebfe85081e0',1,'binfo.h']]],
+  ['boundrange_5543',['BoundRange',['../d9/d25/namespaceCPU_1_1x64.html#a29dfbfccd41ca8220ab0f81be1e7d56aa4304467efe378970eeafdcd5a9e92520',1,'CPU::x64']]],
+  ['breakpoint_5544',['Breakpoint',['../d9/d25/namespaceCPU_1_1x64.html#a29dfbfccd41ca8220ab0f81be1e7d56aa9038f4dc4e933f2990fa3483b6b68101',1,'CPU::x64']]]
 ];

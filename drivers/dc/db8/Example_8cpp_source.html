@@ -92,13 +92,13 @@ $(document).ready(function(){initNavTree('dc/db8/Example_8cpp_source.html','../.
 <a href="../../dc/db8/Example_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;../../../Kernel/DAPI.hpp&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;../../../Kernel/Fex.hpp&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#a64edc6133f4a36cc112efe073b0e1fac">DriverEntry</a>(KernelAPI *Data);</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>(<span class="keywordtype">void</span> *Data);</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143">CallbackHandler</a>(KernelCallback *Data);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">/*                           The driver is</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> *       This is a driver     for Fennix     Driver Entry Extended Header</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *              *                   *              *             */</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<a class="code" href="../../dc/db8/Example_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc">HEAD</a>(FexFormatType_Driver, FexOSType_Fennix, <a class="code" href="../../dc/db8/Example_8cpp.html#a64edc6133f4a36cc112efe073b0e1fac">DriverEntry</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<a class="code" href="../../dc/db8/Example_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc">HEAD</a>(FexFormatType_Driver, FexOSType_Fennix, <a class="code" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// Ignore the warning about missing field initializers</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#pragma GCC diagnostic ignored &quot;-Wmissing-field-initializers&quot;</span></div>
@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('dc/db8/Example_8cpp_source.html','../.
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        .Bind = {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            .Type = BIND_INTERRUPT,</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            .Interrupt = {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                .Vector = 0xFE,</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                .Vector = {0xFE},</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            }}}};</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">// Global variable that holds the kernel API</span></div>
@@ -121,18 +121,18 @@ $(document).ready(function(){initNavTree('dc/db8/Example_8cpp_source.html','../.
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">/* --------------------------------------------------------------------------------------------------------- */</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">// Driver entry point. This is called at initialization. &quot;Data&quot; argument points to the kernel API structure.</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#a64edc6133f4a36cc112efe073b0e1fac">   33</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#a64edc6133f4a36cc112efe073b0e1fac">DriverEntry</a>(KernelAPI *Data)</div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">   33</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>(<span class="keywordtype">void</span> *Data)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">// Check if kernel API is valid</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">if</span> (!Data)</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> INVALID_KERNEL_API;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// // Check if kernel API version is valid. this is important because the kernel API may change in the future.</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">if</span> (Data-&gt;Version.Major &lt; 0 || Data-&gt;Version.Minor &lt; 0 || Data-&gt;Version.Patch &lt; 0)</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> KERNEL_API_VERSION_NOT_SUPPORTED;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// Set the global variable to the kernel API</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a> = Data;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// Set the global variable to the kernel API</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a> = (KernelAPI *)Data;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// Check if kernel API version is valid. this is important because the kernel API may change in the future.</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Major &lt; 0 || <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Minor &lt; 0 || <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Patch &lt; 0)</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">return</span> KERNEL_API_VERSION_NOT_SUPPORTED;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">// We print &quot;Hello World!&quot; to UART.</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Util.DebugPrint(((<span class="keywordtype">char</span> *)<span class="stringliteral">&quot;Hello World!&quot;</span> + <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Info.Offset), <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Info.DriverUID);</div>
@@ -168,7 +168,7 @@ $(document).ready(function(){initNavTree('dc/db8/Example_8cpp_source.html','../.
 <div class="ttc" id="aExample_8cpp_html_ae8a62c2ae90dae14e107d0d84d3c2143"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143">CallbackHandler</a></div><div class="ttdeci">int CallbackHandler(KernelCallback *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00052">Example.cpp:52</a></div></div>
 <div class="ttc" id="aExample_8cpp_html_af24e7dbc50400c89dbb3827cc25545fc"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc">HEAD</a></div><div class="ttdeci">HEAD(FexFormatType_Driver, FexOSType_Fennix, DriverEntry)</div></div>
 <div class="ttc" id="aExample_8cpp_html_af22ae37b84033edb178366e0d7d8f7e5"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">__attribute__</a></div><div class="ttdeci">__attribute__((section(&quot;.extended&quot;))) FexExtended ExtendedHeader</div></div>
-<div class="ttc" id="aExample_8cpp_html_a64edc6133f4a36cc112efe073b0e1fac"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a64edc6133f4a36cc112efe073b0e1fac">DriverEntry</a></div><div class="ttdeci">int DriverEntry(KernelAPI *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00033">Example.cpp:33</a></div></div>
+<div class="ttc" id="aExample_8cpp_html_a56474bd9ccbe42a82994dd3415226f38"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a></div><div class="ttdeci">int DriverEntry(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00033">Example.cpp:33</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pointer_17',['Pointer',['../d0/dc9/init_8cpp.html#a80ef585cdc7a8a933289ae3b7f41cfe7',1,'Fex']]]
+  ['null_22',['NULL',['../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'types.h']]]
 ];

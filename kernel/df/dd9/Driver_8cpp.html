@@ -96,10 +96,12 @@ $(document).ready(function(){initNavTree('df/dd9/Driver_8cpp.html','../../'); in
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/d0a/interrupts_8hpp_source.html">interrupts.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/dd9/dumper_8hpp_source.html">dumper.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d6b/printf_8h_source.html">printf.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d7d/cwalk_8h_source.html">cwalk.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/db0/md5_8h_source.html">md5.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../kernel.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">../DAPI.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/da5/Fex_8hpp_source.html">../Fex.hpp</a>&quot;</code><br />
@@ -113,6 +115,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:aaddce56ddc113c928bb11f4771dc1bcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd9/Driver_8cpp.html#aaddce56ddc113c928bb11f4771dc1bcf">NewLock</a> (DriverInitLock)</td></tr>
+<tr class="separator:aaddce56ddc113c928bb11f4771dc1bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5f20c1a2090fe90ae884329df29f110"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd9/Driver_8cpp.html#ac5f20c1a2090fe90ae884329df29f110">NewLock</a> (DriverDisplayPrintLock)</td></tr>
 <tr class="separator:ac5f20c1a2090fe90ae884329df29f110"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3be8c59f0faa680e5621128a89b5a9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ae3be8c59f0faa680e5621128a89b5a9a">Driver::DriverDebugPrint</a> (char *String, unsigned long DriverUID)</td></tr>
@@ -123,8 +127,26 @@ Functions</h2></td></tr>
 <tr class="separator:a65305ed06ab15cf42e7c10332c57be76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33715318278b2dfe4e61f9ba1b80fdb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a33715318278b2dfe4e61f9ba1b80fdb5">Driver::FreePage</a> (void *Page, unsigned long Size)</td></tr>
 <tr class="separator:a33715318278b2dfe4e61f9ba1b80fdb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbccad5dabf347bea440732d69e753f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#afbccad5dabf347bea440732d69e753f7">Driver::MapMemory</a> (void *VirtualAddress, void *PhysicalAddress, unsigned long <a class="el" href="../../d8/da3/disk_8hpp.html#aeb3f0fed7dd127f81565f62281a7ae41">Flags</a>)</td></tr>
+<tr class="separator:afbccad5dabf347bea440732d69e753f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a471c78c66647fdc0c4d23870a5ca686d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a471c78c66647fdc0c4d23870a5ca686d">Driver::UnmapMemory</a> (void *VirtualAddress)</td></tr>
+<tr class="separator:a471c78c66647fdc0c4d23870a5ca686d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbabdcd6a8d1b0df9058c8e0cb7f7523"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#adbabdcd6a8d1b0df9058c8e0cb7f7523">Driver::Drivermemcpy</a> (void *Destination, void *Source, unsigned long Size)</td></tr>
 <tr class="separator:adbabdcd6a8d1b0df9058c8e0cb7f7523"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3a28a7933ebd8b3b6466ec85a156210"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ac3a28a7933ebd8b3b6466ec85a156210">Driver::Drivermemset</a> (void *Destination, int Value, unsigned long Size)</td></tr>
+<tr class="separator:ac3a28a7933ebd8b3b6466ec85a156210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed0ace83ba43808d21cf4498ad29ca73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#aed0ace83ba43808d21cf4498ad29ca73">Driver::DriverNetSend</a> (unsigned int DriverID, unsigned char *<a class="el" href="../../d4/d33/smp_8hpp.html#a988ede77cc07d67458272a7c82709f6a">Data</a>, unsigned short Size)</td></tr>
+<tr class="separator:aed0ace83ba43808d21cf4498ad29ca73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5e689f3efe5ab9f2b078b36def6f71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#aca5e689f3efe5ab9f2b078b36def6f71">Driver::DriverNetReceive</a> (unsigned int DriverID, unsigned char *<a class="el" href="../../d4/d33/smp_8hpp.html#a988ede77cc07d67458272a7c82709f6a">Data</a>, unsigned short Size)</td></tr>
+<tr class="separator:aca5e689f3efe5ab9f2b078b36def6f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9493129032d29f62143c8886ab810f41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a9493129032d29f62143c8886ab810f41">Driver::DriverAHCIDiskRead</a> (unsigned int DriverID, unsigned long Sector, unsigned char *<a class="el" href="../../d4/d33/smp_8hpp.html#a988ede77cc07d67458272a7c82709f6a">Data</a>, unsigned int SectorCount, unsigned char Port)</td></tr>
+<tr class="separator:a9493129032d29f62143c8886ab810f41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae07084daf70bdc5b04d8056836fec052"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ae07084daf70bdc5b04d8056836fec052">Driver::DriverAHCIDiskWrite</a> (unsigned int DriverID, unsigned long Sector, unsigned char *<a class="el" href="../../d4/d33/smp_8hpp.html#a988ede77cc07d67458272a7c82709f6a">Data</a>, unsigned int SectorCount, unsigned char Port)</td></tr>
+<tr class="separator:ae07084daf70bdc5b04d8056836fec052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5699fa386a5b9df1b9698d55e6293bba"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a5699fa386a5b9df1b9698d55e6293bba">Driver::DriverPCIGetDeviceName</a> (unsigned int VendorID, unsigned int DeviceID)</td></tr>
+<tr class="separator:a5699fa386a5b9df1b9698d55e6293bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e482219b5f1146ae92655e6c7fc0e64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a0e482219b5f1146ae92655e6c7fc0e64">Driver::void</a> (Handle))(<a class="el" href="../../d4/d33/smp_8hpp.html#a988ede77cc07d67458272a7c82709f6a">Data</a>)</td></tr>
+<tr class="separator:a0e482219b5f1146ae92655e6c7fc0e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -135,7 +157,7 @@ Variables</h2></td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ac5f20c1a2090fe90ae884329df29f110"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5f20c1a2090fe90ae884329df29f110">&#9670;&nbsp;</a></span>NewLock()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5f20c1a2090fe90ae884329df29f110">&#9670;&nbsp;</a></span>NewLock() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -144,6 +166,24 @@ Variables</h2></td></tr>
           <td class="memname">NewLock </td>
           <td>(</td>
           <td class="paramtype">DriverDisplayPrintLock&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaddce56ddc113c928bb11f4771dc1bcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaddce56ddc113c928bb11f4771dc1bcf">&#9670;&nbsp;</a></span>NewLock() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NewLock </td>
+          <td>(</td>
+          <td class="paramtype">DriverInitLock&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>

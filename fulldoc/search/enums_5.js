@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['interruptstype_5216',['InterruptsType',['../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178',1,'CPU']]],
-  ['ioapicflags_5217',['IOAPICFlags',['../d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220e',1,'APIC']]],
-  ['ioapicregisters_5218',['IOAPICRegisters',['../d3/d88/namespaceAPIC.html#a340dca14fd5779eb5d0b3786d827996e',1,'APIC']]],
-  ['ipcerrorcode_5219',['IPCErrorCode',['../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26',1,'InterProcessCommunication']]],
-  ['ipcoperationtype_5220',['IPCOperationType',['../d7/d5f/namespaceInterProcessCommunication.html#a78090511e8c5ca325ffd8dfca0b01d03',1,'InterProcessCommunication']]],
-  ['isrexceptions_5221',['ISRExceptions',['../d9/d25/namespaceCPU_1_1x64.html#a29dfbfccd41ca8220ab0f81be1e7d56a',1,'CPU::x64']]]
+  ['elf_5fident_5515',['Elf_Ident',['../d1/d9e/elf_8h.html#a2fa86abbe87441e6d171e961f65e3f47',1,'elf.h']]],
+  ['elf_5fosabi_5516',['Elf_OSABI',['../d1/d9e/elf_8h.html#a6e3e71538da0fd130aef1aac6446e7fa',1,'elf.h']]],
+  ['elf_5ftype_5517',['Elf_Type',['../d1/d9e/elf_8h.html#ae705110a6320d7ca1cd35cf11ecabde3',1,'elf.h']]],
+  ['exstatus_5518',['ExStatus',['../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424',1,'Execute']]]
 ];

@@ -94,6 +94,15 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 , <a class="el" href="de/d94/e1000_8cpp.html#aa443d71601ca42f5d59d9cdb21488da9">RXDescriptor</a>
 , <a class="el" href="de/d94/e1000_8cpp.html#ac154b28393e37e6d2a606286323ebd29">TXDescriptor</a>
 </li>
+<li>AHCIPortType
+: <a class="el" href="d3/d7b/classPort.html#a90ac175f5c9197edbd990f86355d1274">Port</a>
+</li>
+<li>ATAPI
+: <a class="el" href="de/d94/AHCI_8cpp.html#aa72fb43d2225e038fe928e11019db254">HBACommandHeader</a>
+</li>
+<li>ATAPICommand
+: <a class="el" href="de/d94/AHCI_8cpp.html#adbf03b3513909c719a75bea09b3ecfbb">HBACommandTable</a>
+</li>
 </ul>
 
 
@@ -116,8 +125,18 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>BAR5
 : <a class="el" href="d9/d97/pci_8h.html#a93386b9eedec93cb0412f7c7e66ec91a">PCIHeader0</a>
 </li>
+<li>BIOSHandoffControlStatus
+: <a class="el" href="de/d94/AHCI_8cpp.html#aaa4d3abfcaaddb651e76a577a000dbee">HBAMemory</a>
+</li>
 <li>BIST
-: <a class="el" href="d9/d97/pci_8h.html#a796d4df292bf007dbf131e3be021f1d9">PCIDeviceHeader</a>
+: <a class="el" href="de/d94/AHCI_8cpp.html#a9fdbf2d4efa979ad90cd51a61d17759d">HBACommandHeader</a>
+, <a class="el" href="d9/d97/pci_8h.html#a796d4df292bf007dbf131e3be021f1d9">PCIDeviceHeader</a>
+</li>
+<li>Buffer
+: <a class="el" href="d3/d7b/classPort.html#a64244c4e58580e297b8acef16663d22c">Port</a>
+</li>
+<li>ByteCount
+: <a class="el" href="de/d94/AHCI_8cpp.html#a614b4f82d02c8ca772fb79bb40ae0059">HBAPRDTEntry</a>
 </li>
 </ul>
 
@@ -132,15 +151,64 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>CardbusCISPtr
 : <a class="el" href="d9/d97/pci_8h.html#aa4e4b73f95942bfd0003e68745acc6bd">PCIHeader0</a>
 </li>
+<li>CCCControl
+: <a class="el" href="de/d94/AHCI_8cpp.html#ab47a46f923cd4c0a8ba9cb5e6223c69f">HBAMemory</a>
+</li>
+<li>CCCPorts
+: <a class="el" href="de/d94/AHCI_8cpp.html#ac392457cea191981d22f937d7426455c">HBAMemory</a>
+</li>
 <li>Checksum
 : <a class="el" href="de/d94/e1000_8cpp.html#a3839316b1b47b62a24b988ce09035c32">RXDescriptor</a>
 </li>
 <li>Class
 : <a class="el" href="d9/d97/pci_8h.html#a7fb0afda065180ba084b9c5bbe465e66">PCIDeviceHeader</a>
 </li>
+<li>ClearBusy
+: <a class="el" href="de/d94/AHCI_8cpp.html#a8bac8f94f11506686fbc5c180153f01a">HBACommandHeader</a>
+</li>
 <li>Command
-: <a class="el" href="d9/d97/pci_8h.html#aeeaf13c155bbe9b3bdee3b5d6a003c6a">PCIDeviceHeader</a>
+: <a class="el" href="de/d94/AHCI_8cpp.html#ad3804293f81197f6f059893136e54a8a">FIS_REG_H2D</a>
+, <a class="el" href="d9/d97/pci_8h.html#aeeaf13c155bbe9b3bdee3b5d6a003c6a">PCIDeviceHeader</a>
 , <a class="el" href="de/d94/e1000_8cpp.html#a2ca5ff21ac12070c04634796982dd990">TXDescriptor</a>
+</li>
+<li>CommandControl
+: <a class="el" href="de/d94/AHCI_8cpp.html#a138ebc099f3423d0b29420175c09038e">FIS_REG_H2D</a>
+</li>
+<li>CommandFIS
+: <a class="el" href="de/d94/AHCI_8cpp.html#aa4afabf36e5428477e4ac21519dad496">HBACommandTable</a>
+</li>
+<li>CommandFISLength
+: <a class="el" href="de/d94/AHCI_8cpp.html#ab8c5569c89d2c664136930a7b87d4fda">HBACommandHeader</a>
+</li>
+<li>CommandIssue
+: <a class="el" href="de/d94/AHCI_8cpp.html#af16d5977e966938ac7e7e728710883ae">HBAPort</a>
+</li>
+<li>CommandListBase
+: <a class="el" href="de/d94/AHCI_8cpp.html#aa0d90dec9cb4f73adb918c42b4976b57">HBAPort</a>
+</li>
+<li>CommandListBaseUpper
+: <a class="el" href="de/d94/AHCI_8cpp.html#a09c9c4af2316000480de989504431787">HBAPort</a>
+</li>
+<li>CommandStatus
+: <a class="el" href="de/d94/AHCI_8cpp.html#a3bb7218d7838f8c9c9f913bab97a1256">HBAPort</a>
+</li>
+<li>CommandTableBaseAddress
+: <a class="el" href="de/d94/AHCI_8cpp.html#ad80f2bf60dcacb26254ac3816d3588b6">HBACommandHeader</a>
+</li>
+<li>CommandTableBaseAddressUpper
+: <a class="el" href="de/d94/AHCI_8cpp.html#a9fc8d16e731f658bfa6cd46a6ee990b6">HBACommandHeader</a>
+</li>
+<li>Configure()
+: <a class="el" href="d3/d7b/classPort.html#a82b803419d76db8b23cd4a800872cd11">Port</a>
+</li>
+<li>Control
+: <a class="el" href="de/d94/AHCI_8cpp.html#aaa73c9585b552be969b485ac7eb536aa">FIS_REG_H2D</a>
+</li>
+<li>CountHigh
+: <a class="el" href="de/d94/AHCI_8cpp.html#a9cf32a73c5e0ae783947004fb4650a64">FIS_REG_H2D</a>
+</li>
+<li>CountLow
+: <a class="el" href="de/d94/AHCI_8cpp.html#a7079a326df59dac1240a964565f2bfb8">FIS_REG_H2D</a>
 </li>
 <li>cso
 : <a class="el" href="de/d94/e1000_8cpp.html#a3cefc0b66e7c9d0561746f21631a8c5d">TXDescriptor</a>
@@ -152,13 +220,28 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 
 <h3><a id="index_d"></a>- d -</h3><ul>
+<li>DataBaseAddress
+: <a class="el" href="de/d94/AHCI_8cpp.html#abb3b42660dce4aeabe7e98ffe77bbd0f">HBAPRDTEntry</a>
+</li>
+<li>DataBaseAddressUpper
+: <a class="el" href="de/d94/AHCI_8cpp.html#a7514a30e2939f380eeadaa42bb9c0455">HBAPRDTEntry</a>
+</li>
 <li>DeviceID
 : <a class="el" href="d9/d97/pci_8h.html#a80c380308179846aeae6ab36c6198897">PCIDeviceHeader</a>
+</li>
+<li>DeviceRegister
+: <a class="el" href="de/d94/AHCI_8cpp.html#a22d7aa7511dfdafc0098c2c1a27152fd">FIS_REG_H2D</a>
 </li>
 </ul>
 
 
 <h3><a id="index_e"></a>- e -</h3><ul>
+<li>EnclosureManagementControl
+: <a class="el" href="de/d94/AHCI_8cpp.html#a98796937b7ab1838944516c2eba89762">HBAMemory</a>
+</li>
+<li>EnclosureManagementLocation
+: <a class="el" href="de/d94/AHCI_8cpp.html#a46404a96f7d1d786cee7d5e5e10c45f8">HBAMemory</a>
+</li>
 <li>Errors
 : <a class="el" href="de/d94/e1000_8cpp.html#a19c5f358c0661ead43e0fabb0f9caa44">RXDescriptor</a>
 </li>
@@ -169,6 +252,24 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 
 <h3><a id="index_f"></a>- f -</h3><ul>
+<li>FeatureHigh
+: <a class="el" href="de/d94/AHCI_8cpp.html#afce4428ea9bf1c5de071ceaa77eb46e1">FIS_REG_H2D</a>
+</li>
+<li>FeatureLow
+: <a class="el" href="de/d94/AHCI_8cpp.html#ab28817299579b29ed9e5ed2449a312dc">FIS_REG_H2D</a>
+</li>
+<li>FISBaseAddress
+: <a class="el" href="de/d94/AHCI_8cpp.html#acf57164f5681512a73e0de10484290e6">HBAPort</a>
+</li>
+<li>FISBaseAddressUpper
+: <a class="el" href="de/d94/AHCI_8cpp.html#a5422eb9b0926cc3a3a2cc32a917f2a64">HBAPort</a>
+</li>
+<li>FISSwitchControl
+: <a class="el" href="de/d94/AHCI_8cpp.html#aa526cb3567dab6e2c7fa8b1933987f2f">HBAPort</a>
+</li>
+<li>FISType
+: <a class="el" href="de/d94/AHCI_8cpp.html#aeb00fbb5d25151f030346be283e761a5">FIS_REG_H2D</a>
+</li>
 <li>FromHex()
 : <a class="el" href="d0/d1e/structInternetProtocol4.html#aa305cd513b07118da8e8f6db137e981a">InternetProtocol4</a>
 , <a class="el" href="d0/d48/structMediaAccessControl.html#ad70b73a11984dfd6dc2210b2c9466a3b">MediaAccessControl</a>
@@ -176,25 +277,54 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 </ul>
 
 
+<h3><a id="index_g"></a>- g -</h3><ul>
+<li>GlobalHostControl
+: <a class="el" href="de/d94/AHCI_8cpp.html#a11dacbb289454e423928ebae01014f19">HBAMemory</a>
+</li>
+</ul>
+
+
 <h3><a id="index_h"></a>- h -</h3><ul>
+<li>HBAPortPtr
+: <a class="el" href="d3/d7b/classPort.html#a5420f2d226d306aa2cbdcb9b6da04c09">Port</a>
+</li>
 <li>Header
 : <a class="el" href="d9/d97/pci_8h.html#a91767477dc0b20e05a4c4fb65a5e0747">PCIHeader0</a>
 </li>
 <li>HeaderType
 : <a class="el" href="d9/d97/pci_8h.html#a0c366cd328fc60727beb6f7ae296b6c5">PCIDeviceHeader</a>
 </li>
+<li>HostCapabilitiesExtended
+: <a class="el" href="de/d94/AHCI_8cpp.html#aaab588a821d97ae26a7144b27cd1fd74">HBAMemory</a>
+</li>
+<li>HostCapability
+: <a class="el" href="de/d94/AHCI_8cpp.html#aab5c7f1a6fd3d63b237fee9b69b41633">HBAMemory</a>
+</li>
 </ul>
 
 
 <h3><a id="index_i"></a>- i -</h3><ul>
+<li>InterruptEnable
+: <a class="el" href="de/d94/AHCI_8cpp.html#afcc827be7aff4792bbda826dbe78160b">HBAPort</a>
+</li>
 <li>InterruptLine
 : <a class="el" href="d9/d97/pci_8h.html#a298d8d89d24115c470724c78602ade24">PCIHeader0</a>
+</li>
+<li>InterruptOnCompletion
+: <a class="el" href="de/d94/AHCI_8cpp.html#a67b400a63085145cbf72257ef4387d76">HBAPRDTEntry</a>
 </li>
 <li>InterruptPin
 : <a class="el" href="d9/d97/pci_8h.html#a9179506cc1995a6369286e40adcedda9">PCIHeader0</a>
 </li>
+<li>InterruptStatus
+: <a class="el" href="de/d94/AHCI_8cpp.html#a7ffff879bccf3ea26b60919a04b8c901">HBAMemory</a>
+, <a class="el" href="de/d94/AHCI_8cpp.html#a2fa386d1221207ef89e395cb756b3282">HBAPort</a>
+</li>
 <li>IOBase
-: <a class="el" href="dc/d7a/rtl8169_8cpp.html#a12f75940950a0eda92f59158f95ceca7">BARData</a>
+: <a class="el" href="dc/df9/Virtio_8cpp.html#a12f75940950a0eda92f59158f95ceca7">BARData</a>
+</li>
+<li>ISOCommandCompletion
+: <a class="el" href="de/d94/AHCI_8cpp.html#a1642ad25240f958c7e5e1c2e0a684349">FIS_REG_H2D</a>
 </li>
 </ul>
 
@@ -202,6 +332,24 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <h3><a id="index_l"></a>- l -</h3><ul>
 <li>LatencyTimer
 : <a class="el" href="d9/d97/pci_8h.html#a2b5576516b526fdf6c5c239f3e621117">PCIDeviceHeader</a>
+</li>
+<li>LBA0
+: <a class="el" href="de/d94/AHCI_8cpp.html#a88cac422d6790add72777362e4e8e26e">FIS_REG_H2D</a>
+</li>
+<li>LBA1
+: <a class="el" href="de/d94/AHCI_8cpp.html#a79db99035bd003914f1430137bf2aa50">FIS_REG_H2D</a>
+</li>
+<li>LBA2
+: <a class="el" href="de/d94/AHCI_8cpp.html#a725dd9af290893941134783e657537bb">FIS_REG_H2D</a>
+</li>
+<li>LBA3
+: <a class="el" href="de/d94/AHCI_8cpp.html#a43953369dad2f92b8fa4b0c4dcf1b6db">FIS_REG_H2D</a>
+</li>
+<li>LBA4
+: <a class="el" href="de/d94/AHCI_8cpp.html#acbb2b4cd43640059a6973451fcbc656b">FIS_REG_H2D</a>
+</li>
+<li>LBA5
+: <a class="el" href="de/d94/AHCI_8cpp.html#acf4bca5bca48eb6c7076ceeb20c29936">FIS_REG_H2D</a>
 </li>
 <li>Length
 : <a class="el" href="de/d94/e1000_8cpp.html#a022e12f486fe371f25b864dd2f7567d8">RXDescriptor</a>
@@ -215,7 +363,7 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 : <a class="el" href="d9/d97/pci_8h.html#a7b9ef3f42d2f5c742cb55ddd8550715d">PCIHeader0</a>
 </li>
 <li>MemoryBase
-: <a class="el" href="dc/d7a/rtl8169_8cpp.html#a19d8096fe75993c6d1637beab020560f">BARData</a>
+: <a class="el" href="dc/df9/Virtio_8cpp.html#a19d8096fe75993c6d1637beab020560f">BARData</a>
 </li>
 <li>MinGrant
 : <a class="el" href="d9/d97/pci_8h.html#aed3de1f49e6a37ba062923a49d60d622">PCIHeader0</a>
@@ -236,6 +384,31 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 
 <h3><a id="index_p"></a>- p -</h3><ul>
+<li>PortMultiplier
+: <a class="el" href="de/d94/AHCI_8cpp.html#aef2df5dcd02fa0330b2fc8f3c7b66498">FIS_REG_H2D</a>
+, <a class="el" href="de/d94/AHCI_8cpp.html#af96c8045b60e8dbcbf5812adffd7dcee">HBACommandHeader</a>
+</li>
+<li>PortNumber
+: <a class="el" href="d3/d7b/classPort.html#a70aef7edc27044173e4b652731b7cd09">Port</a>
+</li>
+<li>Ports
+: <a class="el" href="de/d94/AHCI_8cpp.html#a636d6a9c09ea391a7e80e7bee0a6d608">HBAMemory</a>
+</li>
+<li>PortsImplemented
+: <a class="el" href="de/d94/AHCI_8cpp.html#ae02c5f174dba7f8149f997f2e4194dd8">HBAMemory</a>
+</li>
+<li>PRDBCount
+: <a class="el" href="de/d94/AHCI_8cpp.html#af8462ab8fe6d930d8bf09e6c3df2b02b">HBACommandHeader</a>
+</li>
+<li>PRDTEntry
+: <a class="el" href="de/d94/AHCI_8cpp.html#aae9200119e6aede088035a42ef516f78">HBACommandTable</a>
+</li>
+<li>PRDTLength
+: <a class="el" href="de/d94/AHCI_8cpp.html#ac621d5f9c7fa4e5a774f5576f6cb9d3a">HBACommandHeader</a>
+</li>
+<li>Prefetchable
+: <a class="el" href="de/d94/AHCI_8cpp.html#acbcb283e6423be37bd57471383707e48">HBACommandHeader</a>
+</li>
 <li>ProgIF
 : <a class="el" href="d9/d97/pci_8h.html#aec8da088c0dfd8da7d38e30e2104381d">PCIDeviceHeader</a>
 </li>
@@ -243,6 +416,28 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 
 <h3><a id="index_r"></a>- r -</h3><ul>
+<li>ReadWrite()
+: <a class="el" href="d3/d7b/classPort.html#a7143b7904b857dccfc0fd286712e8139">Port</a>
+</li>
+<li>Reserved
+: <a class="el" href="de/d94/AHCI_8cpp.html#ad1a1113f8ff53f1227d4d4210653387f">HBACommandTable</a>
+</li>
+<li>Reserved0
+: <a class="el" href="de/d94/AHCI_8cpp.html#add67b4ed17081978f09abcb2871a6dea">FIS_REG_H2D</a>
+, <a class="el" href="de/d94/AHCI_8cpp.html#a5a9bbaace5be0dbd2c523996fdc2cfb7">HBACommandHeader</a>
+, <a class="el" href="de/d94/AHCI_8cpp.html#ab8dd142a4dfa8984fbba70ad97e3e733">HBAMemory</a>
+, <a class="el" href="de/d94/AHCI_8cpp.html#a049103b49f8729c4755590eee2444d2b">HBAPort</a>
+, <a class="el" href="de/d94/AHCI_8cpp.html#a7bd4def088987e9eb7ba91bafca85abf">HBAPRDTEntry</a>
+</li>
+<li>Reserved1
+: <a class="el" href="de/d94/AHCI_8cpp.html#a044dddb4cb03eadb84b5d0a7c71dce9c">FIS_REG_H2D</a>
+, <a class="el" href="de/d94/AHCI_8cpp.html#a82a0b642f0a8715f4f95e537fb12f453">HBACommandHeader</a>
+, <a class="el" href="de/d94/AHCI_8cpp.html#a49817656974a71e66ca0256bc5e08be2">HBAPort</a>
+, <a class="el" href="de/d94/AHCI_8cpp.html#a63f6b97b28d0c94ce623a8a83f274c9c">HBAPRDTEntry</a>
+</li>
+<li>Reset
+: <a class="el" href="de/d94/AHCI_8cpp.html#ad83ffa6e04ffc1de801b20453258249e">HBACommandHeader</a>
+</li>
 <li>RevisionID
 : <a class="el" href="d9/d97/pci_8h.html#aabd53c0c1f511217ff5c7cc7918e5874">PCIDeviceHeader</a>
 </li>
@@ -259,14 +454,38 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>SataActive
+: <a class="el" href="de/d94/AHCI_8cpp.html#a359a1b13e31967a61a95ea6b8bb70d9f">HBAPort</a>
+</li>
+<li>SataControl
+: <a class="el" href="de/d94/AHCI_8cpp.html#a99393484c6e5d0da34e4cf9735504ba5">HBAPort</a>
+</li>
+<li>SataError
+: <a class="el" href="de/d94/AHCI_8cpp.html#a5dad43fea8761bd93ef528c47fcf747c">HBAPort</a>
+</li>
+<li>SataNotification
+: <a class="el" href="de/d94/AHCI_8cpp.html#a4f9912ff2a7738857cafaa62a3dbc467">HBAPort</a>
+</li>
+<li>SataStatus
+: <a class="el" href="de/d94/AHCI_8cpp.html#adc7499381bd19a7cbb78370c9d77314e">HBAPort</a>
+</li>
+<li>Signature
+: <a class="el" href="de/d94/AHCI_8cpp.html#a0e7f339ba60bb570571fe0be549b9cd6">HBAPort</a>
+</li>
 <li>Special
 : <a class="el" href="de/d94/e1000_8cpp.html#abc0d65495a0e22a12c06d69eb614688f">RXDescriptor</a>
 , <a class="el" href="de/d94/e1000_8cpp.html#a44c265d7491b41691d2e377a3e34fe14">TXDescriptor</a>
+</li>
+<li>StartCMD()
+: <a class="el" href="d3/d7b/classPort.html#a77ab3e2942b91517dd3344ed7aabc63d">Port</a>
 </li>
 <li>Status
 : <a class="el" href="d9/d97/pci_8h.html#ad59102437f294650857ff4af4cb4d429">PCIDeviceHeader</a>
 , <a class="el" href="de/d94/e1000_8cpp.html#a156006ecfe7ecc6c1ffeae1370e31cc4">RXDescriptor</a>
 , <a class="el" href="de/d94/e1000_8cpp.html#afb7adf64c926dcb984d53f136880742e">TXDescriptor</a>
+</li>
+<li>StopCMD()
+: <a class="el" href="d3/d7b/classPort.html#ade80cd821f44de47d3dae6800a221cf6">Port</a>
 </li>
 <li>Subclass
 : <a class="el" href="d9/d97/pci_8h.html#a6909b0f3e456ee60c4216c26c75d8d02">PCIDeviceHeader</a>
@@ -281,12 +500,15 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 
 
 <h3><a id="index_t"></a>- t -</h3><ul>
+<li>TaskFileData
+: <a class="el" href="de/d94/AHCI_8cpp.html#ae14011fc6c22df2af7e057abad6a1a9d">HBAPort</a>
+</li>
 <li>ToHex()
 : <a class="el" href="d0/d1e/structInternetProtocol4.html#aab16df2c824e3eaedfc7046b7d5eb504">InternetProtocol4</a>
 , <a class="el" href="d0/d48/structMediaAccessControl.html#a4cf9ccbbbf72aea411f50447928ec943">MediaAccessControl</a>
 </li>
 <li>Type
-: <a class="el" href="dc/d7a/rtl8169_8cpp.html#ae8e332334c7895d7a6c6d3d8cb877f00">BARData</a>
+: <a class="el" href="dc/df9/Virtio_8cpp.html#ae8e332334c7895d7a6c6d3d8cb877f00">BARData</a>
 </li>
 </ul>
 
@@ -295,8 +517,22 @@ $(document).ready(function(){initNavTree('functions.html',''); initResizable(); 
 <li>Valid()
 : <a class="el" href="d0/d48/structMediaAccessControl.html#ad2f33be9751c82d3caa569e1feb285cc">MediaAccessControl</a>
 </li>
+<li>Vendor
+: <a class="el" href="de/d94/AHCI_8cpp.html#aa862edc85e1fd2cbf23c49b721c4407a">HBAMemory</a>
+, <a class="el" href="de/d94/AHCI_8cpp.html#aa7fb58079b178df8222c738d8cb50288">HBAPort</a>
+</li>
 <li>VendorID
 : <a class="el" href="d9/d97/pci_8h.html#a0d803a470f86cb8c4da25fe9432a88e1">PCIDeviceHeader</a>
+</li>
+<li>Version
+: <a class="el" href="de/d94/AHCI_8cpp.html#a2a352da5ce9dfbd294bf93ed1a36ef58">HBAMemory</a>
+</li>
+</ul>
+
+
+<h3><a id="index_w"></a>- w -</h3><ul>
+<li>Write
+: <a class="el" href="de/d94/AHCI_8cpp.html#ab3bfcae00730c25b9f41baeb4d9b58fb">HBACommandHeader</a>
 </li>
 </ul>
 </div><!-- contents -->

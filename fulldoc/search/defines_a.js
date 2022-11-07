@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['kcalloc_6353',['kcalloc',['../d9/df8/Kernel_2include_2memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'kcalloc():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'kcalloc():&#160;memory.hpp']]],
-  ['kernel_5fheap_5fbase_6354',['KERNEL_HEAP_BASE',['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a75b788f53a0d45523a0c9b1ab96c28a4',1,'memory.hpp']]],
-  ['kernel_5fvma_5foffset_6355',['KERNEL_VMA_OFFSET',['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ad972eda420e75d192868c7fa6eecc2ab',1,'memory.hpp']]],
-  ['kfree_6356',['kfree',['../d9/df8/Kernel_2include_2memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'kfree():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'kfree():&#160;memory.hpp']]],
-  ['kmalloc_6357',['kmalloc',['../d9/df8/Kernel_2include_2memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'kmalloc():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'kmalloc():&#160;memory.hpp']]],
-  ['krealloc_6358',['krealloc',['../d9/df8/Kernel_2include_2memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'krealloc():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'krealloc():&#160;memory.hpp']]]
+  ['kcalloc_6842',['kcalloc',['../d9/df8/Kernel_2include_2memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'kcalloc():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'kcalloc():&#160;memory.hpp']]],
+  ['kernel_5fheap_5fbase_6843',['KERNEL_HEAP_BASE',['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a75b788f53a0d45523a0c9b1ab96c28a4',1,'memory.hpp']]],
+  ['kernel_5fvma_5foffset_6844',['KERNEL_VMA_OFFSET',['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ad972eda420e75d192868c7fa6eecc2ab',1,'memory.hpp']]],
+  ['kfree_6845',['kfree',['../d9/df8/Kernel_2include_2memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'kfree():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'kfree():&#160;memory.hpp']]],
+  ['kmalloc_6846',['kmalloc',['../d9/df8/Kernel_2include_2memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'kmalloc():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'kmalloc():&#160;memory.hpp']]],
+  ['krealloc_6847',['krealloc',['../d9/df8/Kernel_2include_2memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'krealloc():&#160;memory.hpp'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'krealloc():&#160;memory.hpp']]]
 ];

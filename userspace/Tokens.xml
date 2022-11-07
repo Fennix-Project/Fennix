@@ -2,13 +2,113 @@
 <Tokens version="1.0">
   <Token>
     <TokenIdentifier>
-      <Name>_start</Name>
+      <Name>UNUSED</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/dc9/init_8cpp.html</Path>
+    <Anchor>a86d500a34c624c2cae56bc25a31b12f3</Anchor>
+    <DeclaredIn>init.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>main</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d0/dc9/init_8cpp.html</Path>
-    <Anchor>a1331cab3933fac3eee2f63e657d5e9c9</Anchor>
+    <Anchor>adedb285b02c41bde2158ded9cc9fd7ac</Anchor>
     <DeclaredIn>init.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dlopen</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d48/dlfcn_8h.html</Path>
+    <Anchor>ad559be443b3edb0af8835d6ec2c29a3a</Anchor>
+    <DeclaredIn>dlfcn.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dlsym</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d48/dlfcn_8h.html</Path>
+    <Anchor>a84cb8784df910bfcc3002dc5e9e2f406</Anchor>
+    <DeclaredIn>dlfcn.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dlclose</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d48/dlfcn_8h.html</Path>
+    <Anchor>af483b6c4400965aa885f9f1a144138a5</Anchor>
+    <DeclaredIn>dlfcn.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>dlerror</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d48/dlfcn_8h.html</Path>
+    <Anchor>a541c343ae5cdf90926014c65972c86cc</Anchor>
+    <DeclaredIn>dlfcn.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NULL</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>a070d2ce7b6bb7e5c05602aa8c308d0c4</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>main</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/def/crt0_8c.html</Path>
+    <Anchor>adedb285b02c41bde2158ded9cc9fd7ac</Anchor>
+    <DeclaredIn>crt0.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_start</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/def/crt0_8c.html</Path>
+    <Anchor>a18d012cb7c786cac969d3ebb6e3f5744</Anchor>
+    <DeclaredIn>crt0.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>main</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d93/crt1_8c.html</Path>
+    <Anchor>adedb285b02c41bde2158ded9cc9fd7ac</Anchor>
+    <DeclaredIn>crt1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_start</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d93/crt1_8c.html</Path>
+    <Anchor>a18d012cb7c786cac969d3ebb6e3f5744</Anchor>
+    <DeclaredIn>crt1.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -16,69 +116,19 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d0/dc9/init_8cpp.html</Path>
-    <Anchor>a09429aecb8ed59689f715cd9b1508897</Anchor>
-    <DeclaredIn>init.cpp</DeclaredIn>
+    <Path>d2/d8a/dlfcn_8c.html</Path>
+    <Anchor>af9aace1b44b73111e15aa39f06f43456</Anchor>
+    <DeclaredIn>dlfcn.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>FexFormatType_Unknown</Name>
+      <Name>error</Name>
       <APILanguage>c</APILanguage>
-      <Type>econst</Type>
+      <Type>data</Type>
     </TokenIdentifier>
-    <Path>d0/dc9/init_8cpp.html</Path>
-    <Anchor>a4564a233d1c439c8083525ef1103e9c8a0234a3f52e35cac83988f6c530c54cd7</Anchor>
-    <DeclaredIn>init.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>FexFormatType_Executable</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d0/dc9/init_8cpp.html</Path>
-    <Anchor>a4564a233d1c439c8083525ef1103e9c8a90367fbd47bbac5cea7a998374a1c785</Anchor>
-    <DeclaredIn>init.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>FexFormatType_Driver</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d0/dc9/init_8cpp.html</Path>
-    <Anchor>a4564a233d1c439c8083525ef1103e9c8a7bf7a3c15b4c321c2bfda4ba3452a1da</Anchor>
-    <DeclaredIn>init.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>FexOSType_Unknown</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d0/dc9/init_8cpp.html</Path>
-    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a1017ccca41bb65bfaf361791c5436f32</Anchor>
-    <DeclaredIn>init.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>FexOSType_Fennix</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d0/dc9/init_8cpp.html</Path>
-    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a732400d53e45b194bb069e66d2244a0b</Anchor>
-    <DeclaredIn>init.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>FexOSType_Linux</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d0/dc9/init_8cpp.html</Path>
-    <Anchor>a62bb50ae06aa34053f11cf2f14a99518a3569d7778c6dd3acdbf1755aff340a65</Anchor>
-    <DeclaredIn>init.cpp</DeclaredIn>
+    <Path>d2/d8a/dlfcn_8c.html</Path>
+    <Anchor>a37a27b523e8aff433c8a4adda2295f0d</Anchor>
+    <DeclaredIn>dlfcn.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

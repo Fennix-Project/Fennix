@@ -1,6 +1,12 @@
 var searchData=
 [
-  ['selectorerrorcode_5118',['SelectorErrorCode',['../d9/d25/namespaceCPU_1_1x64.html#aca18081f834ac01ea5fe9d9d5a0d6c4b',1,'CPU::x64']]],
-  ['size_5ft_5119',['size_t',['../d9/d49/types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'types.h']]],
-  ['syscallsregs_5120',['SyscallsRegs',['../d0/d35/syscalls_8hpp.html#ae3cd0a23fc496d1f9d16166e6e90c68b',1,'syscalls.hpp']]]
+  ['operationclose_5357',['OperationClose',['../d6/df5/namespaceFileSystem.html#a3864e42d07f9ca9d4408513178282028',1,'FileSystem']]],
+  ['operationcreate_5358',['OperationCreate',['../d6/df5/namespaceFileSystem.html#a7bdd03ab62da07aac9d81ad31eb1e3e3',1,'FileSystem']]],
+  ['operationmkdir_5359',['OperationMkdir',['../d6/df5/namespaceFileSystem.html#afb8c9ab6bc3077bab9319d7ff634c68f',1,'FileSystem']]],
+  ['operationmount_5360',['OperationMount',['../d6/df5/namespaceFileSystem.html#a4be43a0b27c85b81053fc6ba8dcb5984',1,'FileSystem']]],
+  ['operationopen_5361',['OperationOpen',['../d6/df5/namespaceFileSystem.html#a0dc639900312e7c8365d36e99452b3fa',1,'FileSystem']]],
+  ['operationread_5362',['OperationRead',['../d6/df5/namespaceFileSystem.html#a0e1b3ca5f4c84fe1e42dd88ad8ab0f17',1,'FileSystem']]],
+  ['operationsync_5363',['OperationSync',['../d6/df5/namespaceFileSystem.html#a609693b3beb8d6c12678f46bfa2a7be7',1,'FileSystem']]],
+  ['operationumount_5364',['OperationUmount',['../d6/df5/namespaceFileSystem.html#a78474b4fa5c3c9e8afe31503b691b63a',1,'FileSystem']]],
+  ['operationwrite_5365',['OperationWrite',['../d6/df5/namespaceFileSystem.html#a0e2f12cc93625188f0ce24eff315e7ce',1,'FileSystem']]]
 ];

@@ -5,6 +5,9 @@ var Kernel_2Core_2Memory_2Memory_8cpp =
     [ "HeapMalloc", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a2fb6d4d78df5e40feb40f7f2cc7aaedc", null ],
     [ "HeapRealloc", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a20aef67502f9e5301c1b080aad366fc8", null ],
     [ "InitializeMemoryManagement", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad649964c91f81b70283a5a92cc4dc89d", null ],
+    [ "MapFramebuffer", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#acf8ee34af5c7b3290bf019dabcedad40", null ],
+    [ "MapFromZero", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ac43a5f127169d7242b29fc8cc563bdf2", null ],
+    [ "MapKernel", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a9581fc0b4768b7dc1826e3adb767fa11", null ],
     [ "operator delete", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a0bdfc4ea90f9da116443115a2b4dba30", null ],
     [ "operator delete", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a3707880d1e85a77b9c93a24f33e3fa4a", null ],
     [ "operator delete[]", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#abca455060bb75ee720ded1c340f24b2e", null ],
@@ -15,5 +18,6 @@ var Kernel_2Core_2Memory_2Memory_8cpp =
     [ "AllocatorType", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a5eaf3b572ade2cd087d9919691b9ae98", null ],
     [ "KernelAllocator", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf", null ],
     [ "KernelPageTable", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9", null ],
+    [ "UserspaceKernelOnlyPageTable", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a43705e82733e9b129a8646527d400327", null ],
     [ "XallocV1Allocator", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ac6367f4bc897bf50f40bf23cc1d97c98", null ]
 ];

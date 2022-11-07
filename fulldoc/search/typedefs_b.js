@@ -1,6 +1,12 @@
 var searchData=
 [
-  ['selectorerrorcode_5167',['SelectorErrorCode',['../d9/d25/namespaceCPU_1_1x64.html#aca18081f834ac01ea5fe9d9d5a0d6c4b',1,'CPU::x64']]],
-  ['size_5ft_5168',['size_t',['../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;types.h'],['../d3/dde/Lynx_2UEFI_2src_2bitmap_8hpp.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;bitmap.hpp'],['../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;cxxabi.cpp'],['../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;liballoc_1_1.h'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;memory.hpp'],['../d2/d68/Lynx_2UEFI_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;types.h']]],
-  ['syscallsregs_5169',['SyscallsRegs',['../d0/d35/syscalls_8hpp.html#ae3cd0a23fc496d1f9d16166e6e90c68b',1,'syscalls.hpp']]]
+  ['operationclose_5434',['OperationClose',['../d6/df5/namespaceFileSystem.html#a3864e42d07f9ca9d4408513178282028',1,'FileSystem']]],
+  ['operationcreate_5435',['OperationCreate',['../d6/df5/namespaceFileSystem.html#a7bdd03ab62da07aac9d81ad31eb1e3e3',1,'FileSystem']]],
+  ['operationmkdir_5436',['OperationMkdir',['../d6/df5/namespaceFileSystem.html#afb8c9ab6bc3077bab9319d7ff634c68f',1,'FileSystem']]],
+  ['operationmount_5437',['OperationMount',['../d6/df5/namespaceFileSystem.html#a4be43a0b27c85b81053fc6ba8dcb5984',1,'FileSystem']]],
+  ['operationopen_5438',['OperationOpen',['../d6/df5/namespaceFileSystem.html#a0dc639900312e7c8365d36e99452b3fa',1,'FileSystem']]],
+  ['operationread_5439',['OperationRead',['../d6/df5/namespaceFileSystem.html#a0e1b3ca5f4c84fe1e42dd88ad8ab0f17',1,'FileSystem']]],
+  ['operationsync_5440',['OperationSync',['../d6/df5/namespaceFileSystem.html#a609693b3beb8d6c12678f46bfa2a7be7',1,'FileSystem']]],
+  ['operationumount_5441',['OperationUmount',['../d6/df5/namespaceFileSystem.html#a78474b4fa5c3c9e8afe31503b691b63a',1,'FileSystem']]],
+  ['operationwrite_5442',['OperationWrite',['../d6/df5/namespaceFileSystem.html#a0e2f12cc93625188f0ce24eff315e7ce',1,'FileSystem']]]
 ];

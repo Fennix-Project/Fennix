@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['va_5flist_5189',['va_list',['../d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1',1,'types.h']]]
+  ['token_5469',['Token',['../d9/d3e/namespaceTasking.html#a6b1a832cb357dc05936d49b554a153aa',1,'Tasking']]],
+  ['trapframe_5470',['TrapFrame',['../d9/d25/namespaceCPU_1_1x64.html#a7b876ab130e250374b67c12b0cd11680',1,'CPU::x64']]]
 ];

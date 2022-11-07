@@ -10,6 +10,7 @@ var classVector =
     [ "begin", "d6/da1/classVector.html#a466e8c045ea10d62c28b689888e9fe5a", null ],
     [ "capacity", "d6/da1/classVector.html#a81d0d4efb784794beb3b57aa52936382", null ],
     [ "clear", "d6/da1/classVector.html#a32ad98b135472b0ebc5d6cb3ae5d0085", null ],
+    [ "data", "d6/da1/classVector.html#a6a7e4affa937368784deb7b1023bf448", null ],
     [ "empty", "d6/da1/classVector.html#ad688a8a0dfbd07ea63d838058a436f79", null ],
     [ "end", "d6/da1/classVector.html#ae288fa619188bff101d5300b8aaf9a90", null ],
     [ "front", "d6/da1/classVector.html#a252cf9a5a931445f5227728515001b2e", null ],

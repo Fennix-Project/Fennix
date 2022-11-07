@@ -1,13 +1,13 @@
 var rtl8139_8cpp =
 [
-    [ "BARData", "dc/d7a/rtl8169_8cpp.html#d9/d66/structBARData", [
-      [ "IOBase", "dc/d7a/rtl8169_8cpp.html#a12f75940950a0eda92f59158f95ceca7", null ],
-      [ "MemoryBase", "dc/d7a/rtl8169_8cpp.html#a19d8096fe75993c6d1637beab020560f", null ],
-      [ "Type", "dc/d7a/rtl8169_8cpp.html#ae8e332334c7895d7a6c6d3d8cb877f00", null ]
+    [ "BARData", "dc/df9/Virtio_8cpp.html#d9/d66/structBARData", [
+      [ "IOBase", "dc/df9/Virtio_8cpp.html#a12f75940950a0eda92f59158f95ceca7", null ],
+      [ "MemoryBase", "dc/df9/Virtio_8cpp.html#a19d8096fe75993c6d1637beab020560f", null ],
+      [ "Type", "dc/df9/Virtio_8cpp.html#ae8e332334c7895d7a6c6d3d8cb877f00", null ]
     ] ],
     [ "__attribute__", "d7/d05/rtl8139_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5", null ],
     [ "CallbackHandler", "d7/d05/rtl8139_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143", null ],
-    [ "DriverEntry", "d7/d05/rtl8139_8cpp.html#a64edc6133f4a36cc112efe073b0e1fac", null ],
+    [ "DriverEntry", "d7/d05/rtl8139_8cpp.html#a56474bd9ccbe42a82994dd3415226f38", null ],
     [ "GetMAC", "d7/d05/rtl8139_8cpp.html#a2435754370f8c4e210efdd4f790ac4d0", null ],
     [ "HEAD", "d7/d05/rtl8139_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc", null ],
     [ "RTLIB", "d7/d05/rtl8139_8cpp.html#aee8cfa0c90835da20e01a56844dad8d9", null ],

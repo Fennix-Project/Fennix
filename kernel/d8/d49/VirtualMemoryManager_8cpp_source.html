@@ -96,141 +96,172 @@ $(document).ready(function(){initNavTree('d8/d49/VirtualMemoryManager_8cpp_sourc
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/d97/namespaceMemory.html">Memory</a></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">void</span> Virtual::Map(<span class="keywordtype">void</span> *VirtualAddress, <span class="keywordtype">void</span> *PhysicalAddress, <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#ae91751449932fe1a8fe52092a2851b9e">Flags</a>)</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178a2e45a41bd35e0fdd2a5f320d9dfde0db">Virtual::Check</a>(<span class="keywordtype">void</span> *VirtualAddress, PTFlag Flag)</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">if</span> (!this-&gt;Table)</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;No page table&quot;</span>);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        }</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        PageMapIndexer Index = PageMapIndexer((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)VirtualAddress);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        PageDirectoryEntry PDE = this-&gt;Table-&gt;Entries[Index.PDP_i];</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *PDP;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">if</span> (!PDE.GetFlag(PTFlag::P))</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            PDP = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)<a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <a class="code" href="../../d3/d82/convert_8h.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a>(PDP, 0, PAGE_SIZE);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            PDE.SetAddress((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PDP &gt;&gt; 12);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            PDE.SetFlag(PTFlag::P, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            PDE.AddFlag(<a class="code" href="../../d1/d90/acpi_8hpp.html#ae91751449932fe1a8fe52092a2851b9e">Flags</a>);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            this-&gt;Table-&gt;Entries[Index.PDP_i] = PDE;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            PDP = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PDE.GetAddress() &lt;&lt; 12);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        PDE = PDP-&gt;Entries[Index.PD_i];</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *PD;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span> (!PDE.GetFlag(PTFlag::P))</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            PD = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)<a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <a class="code" href="../../d3/d82/convert_8h.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a>(PD, 0, PAGE_SIZE);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            PDE.SetAddress((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PD &gt;&gt; 12);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            PDE.SetFlag(PTFlag::P, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            PDE.AddFlag(<a class="code" href="../../d1/d90/acpi_8hpp.html#ae91751449932fe1a8fe52092a2851b9e">Flags</a>);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            PDP-&gt;Entries[Index.PD_i] = PDE;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            PD = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PDE.GetAddress() &lt;&lt; 12);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        PDE = PD-&gt;Entries[Index.PT_i];</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *PT;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">if</span> (!PDE.GetFlag(PTFlag::P))</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            PT = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)<a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <a class="code" href="../../d3/d82/convert_8h.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a>(PT, 0, PAGE_SIZE);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            PDE.SetAddress((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PT &gt;&gt; 12);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            PDE.SetFlag(PTFlag::P, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            PDE.AddFlag(<a class="code" href="../../d1/d90/acpi_8hpp.html#ae91751449932fe1a8fe52092a2851b9e">Flags</a>);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            PD-&gt;Entries[Index.PT_i] = PDE;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        }</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            PT = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PDE.GetAddress() &lt;&lt; 12);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        PDE = PT-&gt;Entries[Index.P_i];</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        PDE.SetAddress((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PhysicalAddress &gt;&gt; 12);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        PDE.SetFlag(PTFlag::P, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        PDE.AddFlag(<a class="code" href="../../d1/d90/acpi_8hpp.html#ae91751449932fe1a8fe52092a2851b9e">Flags</a>);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        PT-&gt;Entries[Index.P_i] = PDE;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;invlpg (%0)&quot;</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;             :</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;             : <span class="stringliteral">&quot;r&quot;</span>(VirtualAddress)</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;             : <span class="stringliteral">&quot;memory&quot;</span>);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;dsb sy&quot;</span>);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;tlbi vae1is, %0&quot;</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;             :</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;             : <span class="stringliteral">&quot;r&quot;</span>(VirtualAddress)</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;             : <span class="stringliteral">&quot;memory&quot;</span>);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;dsb sy&quot;</span>);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;isb&quot;</span>);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> Virtual::Map(<span class="keywordtype">void</span> *VirtualAddress, <span class="keywordtype">void</span> *PhysicalAddress, <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> PageCount, <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#ae91751449932fe1a8fe52092a2851b9e">Flags</a>)</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> i = 0; i &lt; PageCount; i++)</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            this-&gt;Map((<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)VirtualAddress + (i * PAGE_SIZE)), (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PhysicalAddress + (i * PAGE_SIZE)), <a class="code" href="../../d1/d90/acpi_8hpp.html#ae91751449932fe1a8fe52092a2851b9e">Flags</a>);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">void</span> Virtual::Unmap(<span class="keywordtype">void</span> *VirtualAddress)</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">if</span> (!this-&gt;Table)</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;No page table&quot;</span>);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        PageMapIndexer Index = PageMapIndexer((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)VirtualAddress);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        PageDirectoryEntry PDE = this-&gt;Table-&gt;Entries[Index.PDP_i];</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        PDE.ClearFlags();</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;invlpg (%0)&quot;</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;             :</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;             : <span class="stringliteral">&quot;r&quot;</span>(VirtualAddress)</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;             : <span class="stringliteral">&quot;memory&quot;</span>);</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;dsb sy&quot;</span>);</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;tlbi vae1is, %0&quot;</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;             :</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;             : <span class="stringliteral">&quot;r&quot;</span>(VirtualAddress)</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;             : <span class="stringliteral">&quot;memory&quot;</span>);</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;dsb sy&quot;</span>);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;isb&quot;</span>);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">void</span> Virtual::Unmap(<span class="keywordtype">void</span> *VirtualAddress, <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> PageCount)</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    {</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> i = 0; i &lt; PageCount; i++)</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            this-&gt;Unmap((<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)VirtualAddress + (i * PAGE_SIZE)));</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
-<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="../../d0/d99/classFileSystem_1_1Virtual.html#a0deb4e756ba4f6c567232a274edee254">  121</a></span>&#160;    Virtual::Virtual(<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *Table)</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    {</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">if</span> (Table)</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            this-&gt;Table = Table;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            this-&gt;Table = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">CPU::PageTable</a>();</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno"><a class="line" href="../../d0/d99/classFileSystem_1_1Virtual.html#a0c888617de7ef3dfd23c1ea0f4a26918">  129</a></span>&#160;    Virtual::~Virtual() {}</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="comment">// 0x1000 aligned</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> = (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)VirtualAddress;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &amp;= 0xFFFFFFFFFFFFF000;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        PageMapIndexer Index = PageMapIndexer((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        PageDirectoryEntry PDE = this-&gt;Table-&gt;Entries[Index.PDPIndex];</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">return</span> PDE.GetFlag(Flag);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    }</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">void</span> Virtual::Map(<span class="keywordtype">void</span> *VirtualAddress, <span class="keywordtype">void</span> *PhysicalAddress, <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">if</span> (!this-&gt;Table)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;No page table&quot;</span>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        PageMapIndexer Index = PageMapIndexer((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)VirtualAddress);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        PageDirectoryEntry PDE = this-&gt;Table-&gt;Entries[Index.PDPIndex];</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *PDP = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span> (!PDE.GetFlag(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209">PTFlag::P</a>))</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            PDP = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)<a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="../../d3/d82/convert_8h.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a>(PDP, 0, PAGE_SIZE);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            PDE.SetAddress((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PDP &gt;&gt; 12);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            PDE.SetFlag(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209">PTFlag::P</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            PDE.AddFlag(<a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            this-&gt;Table-&gt;Entries[Index.PDPIndex] = PDE;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            PDP = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PDE.GetAddress() &lt;&lt; 12);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        PDE = PDP-&gt;Entries[Index.PDIndex];</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *PD = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">if</span> (!PDE.GetFlag(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209">PTFlag::P</a>))</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            PD = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)<a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="../../d3/d82/convert_8h.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a>(PD, 0, PAGE_SIZE);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            PDE.SetAddress((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PD &gt;&gt; 12);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            PDE.SetFlag(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209">PTFlag::P</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            PDE.AddFlag(<a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            PDP-&gt;Entries[Index.PDIndex] = PDE;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            PD = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PDE.GetAddress() &lt;&lt; 12);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        PDE = PD-&gt;Entries[Index.PTIndex];</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *PT = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">if</span> (!PDE.GetFlag(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209">PTFlag::P</a>))</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            PT = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)<a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPage();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="../../d3/d82/convert_8h.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a>(PT, 0, PAGE_SIZE);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            PDE.SetAddress((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PT &gt;&gt; 12);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            PDE.SetFlag(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209">PTFlag::P</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            PDE.AddFlag(<a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            PD-&gt;Entries[Index.PTIndex] = PDE;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            PT = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PDE.GetAddress() &lt;&lt; 12);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        PDE = PT-&gt;Entries[Index.PIndex];</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        PDE.SetAddress((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PhysicalAddress &gt;&gt; 12);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        PDE.SetFlag(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209">PTFlag::P</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        PDE.AddFlag(<a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        PT-&gt;Entries[Index.PIndex] = PDE;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        CPU::x64::invlpg(VirtualAddress);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        CPU::x86::invlpg(VirtualAddress);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;dsb sy&quot;</span>);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;tlbi vae1is, %0&quot;</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;             :</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;             : <span class="stringliteral">&quot;r&quot;</span>(VirtualAddress)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;             : <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;dsb sy&quot;</span>);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;isb&quot;</span>);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">/* https://stackoverflow.com/a/3208376/9352057 */</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#define BYTE_TO_BINARY_PATTERN &quot;%c%c%c%c%c%c%c%c&quot;</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#define BYTE_TO_BINARY(byte)       \</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">    (byte &amp; 0x80 ? &#39;1&#39; : &#39;0&#39;),     \</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">        (byte &amp; 0x40 ? &#39;1&#39; : &#39;0&#39;), \</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">        (byte &amp; 0x20 ? &#39;1&#39; : &#39;0&#39;), \</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">        (byte &amp; 0x10 ? &#39;1&#39; : &#39;0&#39;), \</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">        (byte &amp; 0x08 ? &#39;1&#39; : &#39;0&#39;), \</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">        (byte &amp; 0x04 ? &#39;1&#39; : &#39;0&#39;), \</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">        (byte &amp; 0x02 ? &#39;1&#39; : &#39;0&#39;), \</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">        (byte &amp; 0x01 ? &#39;1&#39; : &#39;0&#39;)</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">if</span> (!this-&gt;<a class="code" href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178a2e45a41bd35e0fdd2a5f320d9dfde0db">Check</a>(VirtualAddress, (PTFlag)<a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>)) <span class="comment">// quick workaround just to see where it fails</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Failed to map %#lx with flags: &quot;</span> BYTE_TO_BINARY_PATTERN, VirtualAddress, BYTE_TO_BINARY(<a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>));</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">void</span> Virtual::Map(<span class="keywordtype">void</span> *VirtualAddress, <span class="keywordtype">void</span> *PhysicalAddress, <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> PageCount, <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>)</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> i = 0; i &lt; PageCount; i++)</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            this-&gt;Map((<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)VirtualAddress + (i * PAGE_SIZE)), (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)PhysicalAddress + (i * PAGE_SIZE)), <a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordtype">void</span> Virtual::Unmap(<span class="keywordtype">void</span> *VirtualAddress)</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        SmartLock(this-&gt;MemoryLock);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">if</span> (!this-&gt;Table)</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;No page table&quot;</span>);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        PageMapIndexer Index = PageMapIndexer((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)VirtualAddress);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        PageDirectoryEntry PDE = this-&gt;Table-&gt;Entries[Index.PDPIndex];</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        PDE.ClearFlags();</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;invlpg (%0)&quot;</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;             :</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;             : <span class="stringliteral">&quot;r&quot;</span>(VirtualAddress)</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;             : <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;dsb sy&quot;</span>);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;tlbi vae1is, %0&quot;</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;             :</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;             : <span class="stringliteral">&quot;r&quot;</span>(VirtualAddress)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;             : <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;dsb sy&quot;</span>);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;isb&quot;</span>);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordtype">void</span> Virtual::Unmap(<span class="keywordtype">void</span> *VirtualAddress, <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> PageCount)</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> i = 0; i &lt; PageCount; i++)</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            this-&gt;Unmap((<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)VirtualAddress + (i * PAGE_SIZE)));</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
+<div class="line"><a name="l00148"></a><span class="lineno"><a class="line" href="../../d0/d99/classFileSystem_1_1Virtual.html#a0deb4e756ba4f6c567232a274edee254">  148</a></span>&#160;    Virtual::Virtual(<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *Table)</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">if</span> (Table)</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            this-&gt;Table = Table;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            this-&gt;Table = (<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">PageTable</a> *)<a class="code" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">CPU::PageTable</a>();</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160; </div>
+<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="../../d0/d99/classFileSystem_1_1Virtual.html#a0c888617de7ef3dfd23c1ea0f4a26918">  156</a></span>&#160;    Virtual::~Virtual() {}</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;}</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aMemory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00011">Memory.cpp:11</a></div></div>
 <div class="ttc" id="amemory_8hpp_html"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html">memory.hpp</a></div></div>
-<div class="ttc" id="anamespaceMemory_html"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html">Memory</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d60/PhysicalMemoryManager_8cpp_source.html#l00005">PhysicalMemoryManager.cpp:5</a></div></div>
+<div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00038">debug.h:38</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a8fcf1f2cabd7ed5b6d22e93765aaf178a2e45a41bd35e0fdd2a5f320d9dfde0db"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178a2e45a41bd35e0fdd2a5f320d9dfde0db">CPU::Check</a></div><div class="ttdeci">@ Check</div><div class="ttdoc">Check if interrupts are enabled.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00111">cpu.hpp:111</a></div></div>
+<div class="ttc" id="anamespaceMemory_html"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html">Memory</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc1/PageDirectoryEntry_8cpp_source.html#l00003">PageDirectoryEntry.cpp:3</a></div></div>
 <div class="ttc" id="aconvert_8h_html_a362b656d9de3289b55b1035d14cb4b5d"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a362b656d9de3289b55b1035d14cb4b5d">memset</a></div><div class="ttdeci">void * memset(void *dest, int c, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/def/Convert_8c_source.html#l00196">Convert.c:196</a></div></div>
+<div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_a2ad95e9194a5bfaa373bbd26ea925209"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209">P</a></div><div class="ttdeci">uint8_t P</div><div class="ttdoc">Present bit.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00174">gdt.hpp:174</a></div></div>
 <div class="ttc" id="aconvert_8h_html"><div class="ttname"><a href="../../d3/d82/convert_8h.html">convert.h</a></div></div>
+<div class="ttc" id="aacpi_8hpp_html_aca1b23fd721c8d8dc70a8227e336b6e8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a></div><div class="ttdeci">uint64_t Address</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00006">acpi.hpp:6</a></div></div>
 <div class="ttc" id="atypes_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00025">types.h:25</a></div></div>
+<div class="ttc" id="aacpi_8hpp_html_afe68b30aa80199feb71be5deda91978e"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a></div><div class="ttdeci">uint32_t Flags</div><div class="ttdoc">Flags.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00040">acpi.hpp:40</a></div></div>
 <div class="ttc" id="anamespaceCPU_html_a91241794b7196a732d94084fc08f6ec5"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">CPU::PageTable</a></div><div class="ttdeci">void * PageTable(void *PT)</div><div class="ttdoc">Get/Set the CPU's page table.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8d/CPU_8cpp_source.html#l00146">CPU.cpp:146</a></div></div>
 <div class="ttc" id="atypes_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00113">types.h:113</a></div></div>
 <div class="ttc" id="adebug_8h_html"><div class="ttname"><a href="../../db/d16/debug_8h.html">debug.h</a></div></div>
-<div class="ttc" id="aacpi_8hpp_html_ae91751449932fe1a8fe52092a2851b9e"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#ae91751449932fe1a8fe52092a2851b9e">Flags</a></div><div class="ttdeci">uint32_t Flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00040">acpi.hpp:40</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00037">debug.h:37</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

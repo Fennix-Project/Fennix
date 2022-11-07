@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['serialports_5231',['SerialPorts',['../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96',1,'UniversalAsynchronousReceiverTransmitter']]],
-  ['smptrampolineaddress_5232',['SMPTrampolineAddress',['../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138df',1,'SymmetricMultiprocessing.cpp']]]
+  ['nodeflags_5538',['NodeFlags',['../d6/df5/namespaceFileSystem.html#a86d499b931be318b2231244eba122cbc',1,'FileSystem']]]
 ];

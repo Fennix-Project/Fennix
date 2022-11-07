@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['kapi_299',['KAPI',['../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd',1,'KAPI():&#160;Example.cpp'],['../d2/d26/pcnet_8cpp.html#a8829069e57a9845d74b32ce27a618ccd',1,'KAPI():&#160;pcnet.cpp'],['../de/d94/e1000_8cpp.html#a8829069e57a9845d74b32ce27a618ccd',1,'KAPI():&#160;e1000.cpp'],['../d7/d05/rtl8139_8cpp.html#a8829069e57a9845d74b32ce27a618ccd',1,'KAPI():&#160;rtl8139.cpp'],['../dc/d7a/rtl8169_8cpp.html#a8829069e57a9845d74b32ce27a618ccd',1,'KAPI():&#160;rtl8169.cpp']]]
+  ['hbaportptr_460',['HBAPortPtr',['../d3/d7b/classPort.html#a5420f2d226d306aa2cbdcb9b6da04c09',1,'Port']]],
+  ['header_461',['Header',['../d9/d97/pci_8h.html#a91767477dc0b20e05a4c4fb65a5e0747',1,'PCIHeader0']]],
+  ['headertype_462',['HeaderType',['../d9/d97/pci_8h.html#a0c366cd328fc60727beb6f7ae296b6c5',1,'PCIDeviceHeader']]],
+  ['hostcapabilitiesextended_463',['HostCapabilitiesExtended',['../de/d94/AHCI_8cpp.html#aaab588a821d97ae26a7144b27cd1fd74',1,'HBAMemory']]],
+  ['hostcapability_464',['HostCapability',['../de/d94/AHCI_8cpp.html#aab5c7f1a6fd3d63b237fee9b69b41633',1,'HBAMemory']]]
 ];
