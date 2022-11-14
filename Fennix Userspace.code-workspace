@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "./Userspace"
+		}
+	],
+	"settings": {
+		"debug.allowBreakpointsEverywhere": true,
+		"files.associations": {
+			"fex.hpp": "c",
+			"types.h": "c"
+		}
+	}
+}

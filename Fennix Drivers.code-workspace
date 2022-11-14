@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "./Drivers"
+		}
+	],
+	"settings": {
+		"debug.allowBreakpointsEverywhere": true
+	}
+}
