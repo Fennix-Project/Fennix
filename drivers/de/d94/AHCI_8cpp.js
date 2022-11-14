@@ -93,6 +93,12 @@ var AHCI_8cpp =
       [ "MemoryBase", "dc/df9/Virtio_8cpp.html#a19d8096fe75993c6d1637beab020560f", null ],
       [ "Type", "dc/df9/Virtio_8cpp.html#ae8e332334c7895d7a6c6d3d8cb877f00", null ]
     ] ],
+    [ "_Unwind_Exception", "de/d94/AHCI_8cpp.html#de/dc3/struct__Unwind__Exception", [
+      [ "exception_class", "de/d94/AHCI_8cpp.html#ade34d40df51766d7ff384a01237209ae", null ],
+      [ "exception_cleanup", "de/d94/AHCI_8cpp.html#a44d69c695cdcc6fcde54ae458a69a4c8", null ],
+      [ "private_1", "de/d94/AHCI_8cpp.html#a90fbbe59c5adade160b6bb21b5f71d3d", null ],
+      [ "private_2", "de/d94/AHCI_8cpp.html#a5baef90b9b72c2b612cf44326674ef24", null ]
+    ] ],
     [ "Port", "d3/d7b/classPort.html", "d3/d7b/classPort" ],
     [ "ATA_CMD_READ_DMA_EX", "de/d94/AHCI_8cpp.html#a38dd4451240fdf39ed56148f148e9ffd", null ],
     [ "ATA_CMD_WRITE_DMA_EX", "de/d94/AHCI_8cpp.html#aad07fe181bd03623b039bca75664ec29", null ],
@@ -109,6 +115,19 @@ var AHCI_8cpp =
     [ "SATA_SIG_ATAPI", "de/d94/AHCI_8cpp.html#aa52680525d3698b9c2206cedbf2b3c82", null ],
     [ "SATA_SIG_PM", "de/d94/AHCI_8cpp.html#a5824e44ad5e394c0026dad1f997d26d3", null ],
     [ "SATA_SIG_SEMB", "de/d94/AHCI_8cpp.html#a74a4ae0fdaf517fb886dfe8fc53218db", null ],
+    [ "__attribute__", "de/d94/AHCI_8cpp.html#acfd2b2c01bb7181c3933777ee47e0e3b", null ],
+    [ "_Unwind_Exception_Cleanup_Fn", "de/d94/AHCI_8cpp.html#aa315b38b270688a4d979ec71a9f33586", null ],
+    [ "_Unwind_Reason_Code", "de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2", [
+      [ "_URC_NO_REASON", "de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97", null ],
+      [ "_URC_FOREIGN_EXCEPTION_CAUGHT", "de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b", null ],
+      [ "_URC_FATAL_PHASE2_ERROR", "de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c", null ],
+      [ "_URC_FATAL_PHASE1_ERROR", "de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a", null ],
+      [ "_URC_NORMAL_STOP", "de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586", null ],
+      [ "_URC_END_OF_STACK", "de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5", null ],
+      [ "_URC_HANDLER_FOUND", "de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d", null ],
+      [ "_URC_INSTALL_CONTEXT", "de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0", null ],
+      [ "_URC_CONTINUE_UNWIND", "de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6", null ]
+    ] ],
     [ "FIS_TYPE", "de/d94/AHCI_8cpp.html#ace71afc212819392a7b00fbf19feba86", [
       [ "FIS_TYPE_REG_H2D", "de/d94/AHCI_8cpp.html#ace71afc212819392a7b00fbf19feba86a6bf1b47f446739ef43faae8f336c3926", null ],
       [ "FIS_TYPE_REG_D2H", "de/d94/AHCI_8cpp.html#ace71afc212819392a7b00fbf19feba86ae1d5eaa1f1a908043927530044b4394d", null ],
@@ -126,16 +145,24 @@ var AHCI_8cpp =
       [ "PM", "de/d94/AHCI_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21a4e84ba06a563492b48e6b6e25dd85c2d", null ],
       [ "SATAPI", "de/d94/AHCI_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21a4dbae02a8c82ef71f515500f26e2f1c2", null ]
     ] ],
+    [ "__attribute__", "de/d94/AHCI_8cpp.html#ac8c21f335bc7c2f0bc6a9ddaee6b9431", null ],
     [ "__attribute__", "de/d94/AHCI_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5", null ],
+    [ "_Unwind_Resume", "de/d94/AHCI_8cpp.html#a5edfd44697b07e704cccec4b10b875bd", null ],
     [ "CallbackHandler", "de/d94/AHCI_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143", null ],
     [ "CheckPortType", "de/d94/AHCI_8cpp.html#afdee1e06ba3d90e76724c7fddee28acd", null ],
     [ "DriverEntry", "de/d94/AHCI_8cpp.html#a56474bd9ccbe42a82994dd3415226f38", null ],
     [ "HEAD", "de/d94/AHCI_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc", null ],
+    [ "operator delete", "de/d94/AHCI_8cpp.html#a007060ac3b55b668beaf47a59e8361ca", null ],
+    [ "operator delete", "de/d94/AHCI_8cpp.html#a0e51fe88a1a2b122863496fcf5acee3c", null ],
     [ "operator new", "de/d94/AHCI_8cpp.html#acc39add3badc92c9e95a8336ed64f231", null ],
     [ "ABAR", "de/d94/AHCI_8cpp.html#a244727dedcdcbbdab874fc62799336f3", null ],
+    [ "exception_class", "de/d94/AHCI_8cpp.html#ae268038ce44c98f28ba55a4fd593f4e2", null ],
+    [ "exception_cleanup", "de/d94/AHCI_8cpp.html#a18303b9dbcb0c16693d43e92eab3f267", null ],
     [ "KAPI", "de/d94/AHCI_8cpp.html#a8829069e57a9845d74b32ce27a618ccd", null ],
     [ "PCIBaseAddress", "de/d94/AHCI_8cpp.html#ad97ca0bf263d0a3ed7372f3f45b34f2f", null ],
     [ "PortCount", "de/d94/AHCI_8cpp.html#ac3df8788ec830893d90c0f71cce70ca3", null ],
     [ "Ports", "de/d94/AHCI_8cpp.html#a58bd353c190c6f3968671717b3b46206", null ],
-    [ "PortTypeName", "de/d94/AHCI_8cpp.html#a02d56124e1383b4cb652a40d7e2ab054", null ]
+    [ "PortTypeName", "de/d94/AHCI_8cpp.html#a02d56124e1383b4cb652a40d7e2ab054", null ],
+    [ "private_1", "de/d94/AHCI_8cpp.html#aa1785f5c87b51d3ad7225379bdbacbc1", null ],
+    [ "private_2", "de/d94/AHCI_8cpp.html#a89ff720a977899def1a05d4eceb64076", null ]
 ];

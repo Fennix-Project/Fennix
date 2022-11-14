@@ -1,5 +1,6 @@
 var annotated_dup =
 [
+    [ "_Unwind_Exception", "de/d94/AHCI_8cpp.html#de/dc3/struct__Unwind__Exception", "de/d94/AHCI_8cpp_de/dc3/struct__Unwind__Exception" ],
     [ "BARData", "dc/df9/Virtio_8cpp.html#d9/d66/structBARData", "dc/df9/Virtio_8cpp_d9/d66/structBARData" ],
     [ "FIS_REG_H2D", "de/d94/AHCI_8cpp.html#df/dbd/structFIS__REG__H2D", "de/d94/AHCI_8cpp_df/dbd/structFIS__REG__H2D" ],
     [ "HBACommandHeader", "de/d94/AHCI_8cpp.html#d5/df7/structHBACommandHeader", "de/d94/AHCI_8cpp_d5/df7/structHBACommandHeader" ],

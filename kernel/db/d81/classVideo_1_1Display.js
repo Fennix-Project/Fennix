@@ -5,6 +5,7 @@ var classVideo_1_1Display =
     [ "ClearBuffer", "db/d81/classVideo_1_1Display.html#a7f23cd22f88c004958f8fda064d669b3", null ],
     [ "CreateBuffer", "db/d81/classVideo_1_1Display.html#a87721e0bf91caa057f70f661c6ad4998", null ],
     [ "DeleteBuffer", "db/d81/classVideo_1_1Display.html#ae29244a6ffd291cdee9d7b05c780098d", null ],
+    [ "GetBuffer", "db/d81/classVideo_1_1Display.html#a0afccf7a75991918e3ac3e0da6d0ad6a", null ],
     [ "GetBufferCursor", "db/d81/classVideo_1_1Display.html#a0097ccf084f7dc5a12d1cc11a44b4b23", null ],
     [ "GetCurrentFont", "db/d81/classVideo_1_1Display.html#a1109e40b9c8f5af0cc31ed708fae88e2", null ],
     [ "GetPixel", "db/d81/classVideo_1_1Display.html#abd4c5c00303ee20b32f7e71ff596c7a0", null ],

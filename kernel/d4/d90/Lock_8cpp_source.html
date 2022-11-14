@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('d4/d90/Lock_8cpp_source.html','../../'
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *CoreData = <a class="code" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>();</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">long</span> CCore = 0xdead;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (CoreData)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (CoreData != <span class="keyword">nullptr</span>)</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        CCore = CoreData-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a887cdcc1269b29105548dbf02564b0c0">ID</a>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Potential deadlock in lock &#39;%s&#39; held by &#39;%s&#39; (%ld) [%#lx-%ld] [%ld-&gt;%ld]&quot;</span>,</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;         Lock-&gt;GetLockData()-&gt;AttemptingToGet,</div>
@@ -126,9 +126,9 @@ $(document).ready(function(){initNavTree('d4/d90/Lock_8cpp_source.html','../../'
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    LockData.CurrentHolder = FunctionName;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    LockData.Count++;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *CoreData = <a class="code" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>();</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (CoreData)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (CoreData != <span class="keyword">nullptr</span>)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        LockData.Core = CoreData-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a887cdcc1269b29105548dbf02564b0c0">ID</a>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    CPU::MemBar::Barrier();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../d0/db2/namespaceCPU_1_1MemBar.html#ab151cc932ffe664ce51227f15edfc343">CPU::MemBar::Barrier</a>();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// while (!__sync_bool_compare_and_swap(&amp;IsLocked, false, true))</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// CPU::Pause();</span></div>
@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('d4/d90/Lock_8cpp_source.html','../../'
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../d0/d44/lock_8hpp.html#a21f29e2806abb645da9bcfee42ef82c5">SpinLock_Unlock</a>(&amp;LockData.LockData);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    LockData.Count--;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    CPU::MemBar::Barrier();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../d0/db2/namespaceCPU_1_1MemBar.html#ab151cc932ffe664ce51227f15edfc343">CPU::MemBar::Barrier</a>();</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// __sync_synchronize();</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// __atomic_store_n(&amp;IsLocked, false, __ATOMIC_SEQ_CST);</span></div>
@@ -156,8 +156,9 @@ $(document).ready(function(){initNavTree('d4/d90/Lock_8cpp_source.html','../../'
 <div class="ttc" id="aKernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00021">Kernel.cpp:21</a></div></div>
 <div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00038">debug.h:38</a></div></div>
 <div class="ttc" id="aLock_8cpp_html_a5933b739d8db180b1c2f2da23b8829cd"><div class="ttname"><a href="../../d4/d90/Lock_8cpp.html#a5933b739d8db180b1c2f2da23b8829cd">DeadLockHandler</a></div><div class="ttdeci">void DeadLockHandler(LockClass *Lock)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d90/Lock_8cpp_source.html#l00010">Lock.cpp:10</a></div></div>
-<div class="ttc" id="aclassTasking_1_1Task_html_a7f6a2c87c719e875f03872a35b347b2b"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a7f6a2c87c719e875f03872a35b347b2b">Tasking::Task::Schedule</a></div><div class="ttdeci">void Schedule()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00040">Task.cpp:40</a></div></div>
+<div class="ttc" id="aclassTasking_1_1Task_html_a7f6a2c87c719e875f03872a35b347b2b"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a7f6a2c87c719e875f03872a35b347b2b">Tasking::Task::Schedule</a></div><div class="ttdeci">void Schedule()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00041">Task.cpp:41</a></div></div>
 <div class="ttc" id="alock_8hpp_html"><div class="ttname"><a href="../../d0/d44/lock_8hpp.html">lock.hpp</a></div></div>
+<div class="ttc" id="anamespaceCPU_1_1MemBar_html_ab151cc932ffe664ce51227f15edfc343"><div class="ttname"><a href="../../d0/db2/namespaceCPU_1_1MemBar.html#ab151cc932ffe664ce51227f15edfc343">CPU::MemBar::Barrier</a></div><div class="ttdeci">static __no_stack_protector void Barrier()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00216">cpu.hpp:216</a></div></div>
 <div class="ttc" id="asmp_8hpp_html"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html">smp.hpp</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_de/df9/structCPUData"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00021">smp.hpp:21</a></div></div>
 <div class="ttc" id="alock_8hpp_html_a21f29e2806abb645da9bcfee42ef82c5"><div class="ttname"><a href="../../d0/d44/lock_8hpp.html#a21f29e2806abb645da9bcfee42ef82c5">SpinLock_Unlock</a></div><div class="ttdeci">EXTERNC void SpinLock_Unlock(volatile uint64_t *LockData)</div></div>

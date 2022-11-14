@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['long_5419',['LONG',['../de/d63/msexec_8h.html#a2a3e0cda5f1249bef6db47c5eb8e3813',1,'msexec.h']]],
-  ['lpbool_5420',['LPBOOL',['../de/d63/msexec_8h.html#abe1b03468472e97114e318c5953d0344',1,'msexec.h']]],
-  ['lpbyte_5421',['LPBYTE',['../de/d63/msexec_8h.html#a3ce29ee9290ff1be368b5a134f651f9f',1,'msexec.h']]],
-  ['lpcvoid_5422',['LPCVOID',['../de/d63/msexec_8h.html#ad67e5812bce3ae238981bb58dfdca76c',1,'msexec.h']]],
-  ['lpdword_5423',['LPDWORD',['../de/d63/msexec_8h.html#af8b504ec9b782e4344952d8518c69f4d',1,'msexec.h']]],
-  ['lpint_5424',['LPINT',['../de/d63/msexec_8h.html#aa180ccfc9ed99261841afe0d39b2d1e6',1,'msexec.h']]],
-  ['lplong_5425',['LPLONG',['../de/d63/msexec_8h.html#a0a136d01e1de4d8d60f927560bc2c3a3',1,'msexec.h']]],
-  ['lpvoid_5426',['LPVOID',['../de/d63/msexec_8h.html#a0b08b48703a7fd44bb06310932309c85',1,'msexec.h']]],
-  ['lpword_5427',['LPWORD',['../de/d63/msexec_8h.html#a97cb1b47c609954b545155b66fd468f5',1,'msexec.h']]]
+  ['multiboot_5fmemory_5fmap_5ft_6970',['multiboot_memory_map_t',['../d5/dba/multiboot2_8h.html#a2aa16c58ceb6b9548aded205e46e8a3b',1,'multiboot2.h']]],
+  ['multiboot_5fuint16_5ft_6971',['multiboot_uint16_t',['../d5/dba/multiboot2_8h.html#a3a11e3c2b5e0617736a05343aa5795b3',1,'multiboot2.h']]],
+  ['multiboot_5fuint32_5ft_6972',['multiboot_uint32_t',['../d5/dba/multiboot2_8h.html#a009f355da41fed4badb8a52d432f5186',1,'multiboot2.h']]],
+  ['multiboot_5fuint64_5ft_6973',['multiboot_uint64_t',['../d5/dba/multiboot2_8h.html#a8dfdd61648b48aa31845db590970e06a',1,'multiboot2.h']]],
+  ['multiboot_5fuint8_5ft_6974',['multiboot_uint8_t',['../d5/dba/multiboot2_8h.html#a037f602538fccf97e90021c19fdfc047',1,'multiboot2.h']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['wchar_5416',['WCHAR',['../de/d63/msexec_8h.html#aad61bc3eae1804d8784adebdce0721d3',1,'msexec.h']]],
-  ['word_5417',['WORD',['../de/d63/msexec_8h.html#a197942eefa7db30960ae396d68339b97',1,'msexec.h']]]
+  ['xuint64_5ft_6970',['Xuint64_t',['../d8/d12/Xalloc_8hpp.html#a23119a4470c724b273abe91ae9a71c99',1,'Xalloc.hpp']]]
 ];

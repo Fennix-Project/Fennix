@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('df/db7/i686_2cpu_2SymmetricMultiproces
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/d0a/interrupts_8hpp_source.html">interrupts.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../dc/da7/assert_8h_source.html">assert.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../../kernel.h</a>&quot;</code><br />
 </div>
@@ -165,8 +166,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00014">14</a> of file <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{ <span class="keywordflow">return</span> &amp;CPUs[id]; }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00015">15</a> of file <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{ <span class="keywordflow">return</span> &amp;CPUs[id]; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -185,25 +186,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> ret = 0;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (!CPUs[ret].<a class="code" href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a>)</div>
+<p class="definition">Definition at line <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> ret = 0;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (!(&amp;CPUs[ret])-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a>)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;CPU %d is not active!&quot;</span>, ret);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> &amp;CPUs[0];</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">if</span> (CPUs[ret].<a class="code" href="../../d1/d90/acpi_8hpp.html#ad98d5051c2e94669e746dd13771daac8">Checksum</a> != <a class="code" href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a>)</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;CPU %d data is corrupted!&quot;</span>, ret);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> &amp;CPUs[0];</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> &amp;CPUs[ret];</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>((&amp;CPUs[ret])-&gt;<a class="code" href="../../d1/d90/acpi_8hpp.html#ad98d5051c2e94669e746dd13771daac8">Checksum</a> == <a class="code" href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> &amp;CPUs[ret];</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00005">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00009">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00037">error</a>, and <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00013">IsActive</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/da7/assert_8h_source.html#l00008">assert</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00005">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00009">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00037">error</a>, and <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00013">IsActive</a>.</p>
 
 </div>
 </div>
@@ -220,7 +215,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00009">9</a> of file <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00010">10</a> of file <a class="el" href="../../df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
 
 </div>
 </div>
@@ -228,6 +223,7 @@ Variables</h2></td></tr>
 </div><!-- doc-content -->
 <div class="ttc" id="asmp_8hpp_html_a92c6b1cf703f9e064f5efc0907f80379"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></div><div class="ttdeci">bool IsActive</div><div class="ttdoc">Is CPU online?</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00013">smp.hpp:13</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_ad98d5051c2e94669e746dd13771daac8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#ad98d5051c2e94669e746dd13771daac8">Checksum</a></div><div class="ttdeci">uint8_t Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00005">acpi.hpp:5</a></div></div>
+<div class="ttc" id="aassert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da7/assert_8h_source.html#l00008">assert.h:8</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00009">smp.hpp:9</a></div></div>
 <div class="ttc" id="atypes_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00113">types.h:113</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00037">debug.h:37</a></div></div>

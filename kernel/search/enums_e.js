@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['taskarchitecture_5472',['TaskArchitecture',['../d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302',1,'Tasking']]],
-  ['taskcompatibility_5473',['TaskCompatibility',['../d9/d3e/namespaceTasking.html#acdb977b9f386c7a7662877c8b0532d48',1,'Tasking']]],
-  ['taskstatus_5474',['TaskStatus',['../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78',1,'Tasking']]],
-  ['tasktrustlevel_5475',['TaskTrustLevel',['../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8',1,'Tasking']]],
-  ['tokentrustlevel_5476',['TokenTrustLevel',['../d9/d3e/namespaceTasking.html#ac68d5cb953c96d712ab1bab6baeacfba',1,'Tasking']]]
+  ['segmenttypes_7021',['SegmentTypes',['../d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2',1,'elf.h']]],
+  ['serialports_7022',['SerialPorts',['../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96',1,'UniversalAsynchronousReceiverTransmitter']]],
+  ['smptrampolineaddress_7023',['SMPTrampolineAddress',['../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138df',1,'SymmetricMultiprocessing.cpp']]],
+  ['stt_5fbindings_7024',['StT_Bindings',['../d1/d9e/elf_8h.html#aa6b66d617b12c38fbe8cc9709e39d374',1,'elf.h']]],
+  ['stt_5ftypes_7025',['StT_Types',['../d1/d9e/elf_8h.html#af0c70b994f8c1412c65c361fba1e7410',1,'elf.h']]]
 ];

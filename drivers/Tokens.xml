@@ -152,6 +152,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>acfd2b2c01bb7181c3933777ee47e0e3b</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Unwind_Exception_Cleanup_Fn</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>aa315b38b270688a4d979ec71a9f33586</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DriverEntry</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -192,12 +212,52 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>ac8c21f335bc7c2f0bc6a9ddaee6b9431</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Unwind_Resume</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a5edfd44697b07e704cccec4b10b875bd</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>operator new</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>de/d94/AHCI_8cpp.html</Path>
     <Anchor>acc39add3badc92c9e95a8336ed64f231</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator delete</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a007060ac3b55b668beaf47a59e8361ca</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator delete</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a0e51fe88a1a2b122863496fcf5acee3c</Anchor>
     <DeclaredIn>AHCI.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -218,6 +278,46 @@
     </TokenIdentifier>
     <Path>de/d94/AHCI_8cpp.html</Path>
     <Anchor>a8829069e57a9845d74b32ce27a618ccd</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>exception_class</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>ae268038ce44c98f28ba55a4fd593f4e2</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>exception_cleanup</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a18303b9dbcb0c16693d43e92eab3f267</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>private_1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>aa1785f5c87b51d3ad7225379bdbacbc1</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>private_2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a89ff720a977899def1a05d4eceb64076</Anchor>
     <DeclaredIn>AHCI.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -268,6 +368,96 @@
     </TokenIdentifier>
     <Path>de/d94/AHCI_8cpp.html</Path>
     <Anchor>a02d56124e1383b4cb652a40d7e2ab054</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_URC_NO_REASON</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_URC_FOREIGN_EXCEPTION_CAUGHT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_URC_FATAL_PHASE2_ERROR</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_URC_FATAL_PHASE1_ERROR</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_URC_NORMAL_STOP</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_URC_END_OF_STACK</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_URC_HANDLER_FOUND</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_URC_INSTALL_CONTEXT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_URC_CONTINUE_UNWIND</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6</Anchor>
     <DeclaredIn>AHCI.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -1328,7 +1518,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>de/d94/e1000_8cpp.html</Path>
-    <Anchor>ae3c3eccecb6ed40b50737a5a61f1dfd8</Anchor>
+    <Anchor>a904d0e9ca592fb97af72ffd03b1ae5ef</Anchor>
     <DeclaredIn>e1000.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -2702,6 +2892,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Port</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Port</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7b/classPort.html</Path>
+    <Anchor>a3a8664d675ca7ff61b0b816510f0a96c</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~Port</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Port</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7b/classPort.html</Path>
+    <Anchor>afe166c2a6b10ad34d47472a150366bc1</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>StartCMD</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -2746,16 +2958,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>HBAPortPtr</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>Port</Scope>
-    </TokenIdentifier>
-    <Path>d3/d7b/classPort.html</Path>
-    <Anchor>a5420f2d226d306aa2cbdcb9b6da04c09</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>AHCIPortType</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -2763,6 +2965,16 @@
     </TokenIdentifier>
     <Path>d3/d7b/classPort.html</Path>
     <Anchor>a90ac175f5c9197edbd990f86355d1274</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>HBAPortPtr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Port</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7b/classPort.html</Path>
+    <Anchor>a5420f2d226d306aa2cbdcb9b6da04c09</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

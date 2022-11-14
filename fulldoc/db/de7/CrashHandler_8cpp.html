@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/Core/CrashHandler.cpp File Reference</title>
+<title>Fennix: Kernel/Core/Crash/CrashHandler.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,7 +86,6 @@ $(document).ready(function(){initNavTree('db/de7/CrashHandler_8cpp.html','../../
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -94,21 +93,20 @@ $(document).ready(function(){initNavTree('db/de7/CrashHandler_8cpp.html','../../
 <div class="title">CrashHandler.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dc/d04/crashhandler_8hpp_source.html">crashhandler.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dc/d04/crashhandler_8hpp_source.html">../crashhandler.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../dc/dd9/chfcts_8hpp_source.html">chfcts.hpp</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="../../d2/da4/display_8hpp_source.html">display.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d3/d82/convert_8h_source.html">convert.h</a>&gt;</code><br />
 <code>#include &lt;printf.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../kernel.h</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="../../dc/dac/io_8h_source.html">io.h</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../kernel.h</a>&quot;</code><br />
 </div>
 <p><a href="../../db/de7/CrashHandler_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Data Structures</h2></td></tr>
-<tr class="memitem:da/d80/structCrashHandler_1_1StackFrame"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#da/d80/structCrashHandler_1_1StackFrame">CrashHandler::StackFrame</a></td></tr>
-<tr class="separator:da/d80/structCrashHandler_1_1StackFrame"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d2/d57/namespaceCrashHandler"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html">CrashHandler</a></td></tr>
@@ -116,52 +114,48 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9ee98c0a3c3fc1a922efdaaf6b32a5c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a9ee98c0a3c3fc1a922efdaaf6b32a5c5">CrashHandler::__attribute__</a> ((no_stack_protector)) void TraceFrames(CPU</td></tr>
-<tr class="memdesc:a9ee98c0a3c3fc1a922efdaaf6b32a5c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>.  <a href="../../d2/d57/namespaceCrashHandler.html#a9ee98c0a3c3fc1a922efdaaf6b32a5c5">More...</a><br /></td></tr>
-<tr class="separator:a9ee98c0a3c3fc1a922efdaaf6b32a5c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afaf8986bb6fc142145cf60b34c615658"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#afaf8986bb6fc142145cf60b34c615658">CrashHandler::UNUSED</a> (unused)</td></tr>
-<tr class="separator:afaf8986bb6fc142145cf60b34c615658"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad000e848e45065e5542e22b1db7b8389"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#ad000e848e45065e5542e22b1db7b8389">CrashHandler::va_start</a> (args, Format)</td></tr>
-<tr class="separator:ad000e848e45065e5542e22b1db7b8389"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad805d0ed95bd090d42f49b74d177cc6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#ad805d0ed95bd090d42f49b74d177cc6d">CrashHandler::vfctprintf</a> (printfWrapper, <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, Format, args)</td></tr>
-<tr class="separator:ad805d0ed95bd090d42f49b74d177cc6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50b27de5aae592b079da30e21f54ec9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a50b27de5aae592b079da30e21f54ec9b">CrashHandler::va_end</a> (args)</td></tr>
-<tr class="separator:a50b27de5aae592b079da30e21f54ec9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c971b6374d1d78e185d408f3c03ebf5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/de7/CrashHandler_8cpp.html#a7c971b6374d1d78e185d408f3c03ebf5">NewLock</a> (UserInputLock)</td></tr>
+<tr class="separator:a7c971b6374d1d78e185d408f3c03ebf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe6e8cc0d7209edb63ca18f3456687ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#afe6e8cc0d7209edb63ca18f3456687ab">CrashHandler::printfWrapper</a> (char c, void *unused)</td></tr>
+<tr class="separator:afe6e8cc0d7209edb63ca18f3456687ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75aadb54e6eafdfdd020ae223f65fbf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">CrashHandler::EHPrint</a> (const char *Format,...)</td></tr>
+<tr class="separator:a75aadb54e6eafdfdd020ae223f65fbf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34966c5d9f28e3796842e38432048123"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a34966c5d9f28e3796842e38432048123">CrashHandler::trimwhitespace</a> (char *str)</td></tr>
+<tr class="separator:a34966c5d9f28e3796842e38432048123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0ef6729e9be71c88d36cb6664a3fb8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#ab0ef6729e9be71c88d36cb6664a3fb8b">CrashHandler::DisplayTopOverlay</a> ()</td></tr>
+<tr class="separator:ab0ef6729e9be71c88d36cb6664a3fb8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2432ed05cd663f172d678e93da2dae43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a2432ed05cd663f172d678e93da2dae43">CrashHandler::DisplayBottomOverlay</a> ()</td></tr>
+<tr class="separator:a2432ed05cd663f172d678e93da2dae43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1686dc2b97d065b020780c1a23e9cda1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a1686dc2b97d065b020780c1a23e9cda1">CrashHandler::ArrowInput</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> key)</td></tr>
+<tr class="separator:a1686dc2b97d065b020780c1a23e9cda1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80f1020dbe3a1ec8fe10c2d2885bda80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a80f1020dbe3a1ec8fe10c2d2885bda80">CrashHandler::UserInput</a> (char *Input)</td></tr>
+<tr class="separator:a80f1020dbe3a1ec8fe10c2d2885bda80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a202e013cac1a108322c79e592f3a5e0c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#a988ede77cc07d67458272a7c82709f6a">Data</a>)</td></tr>
+<tr class="separator:a202e013cac1a108322c79e592f3a5e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa7c38e50078b95620a23645ebe7b3bb8"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#aa7c38e50078b95620a23645ebe7b3bb8">CrashHandler::unused</a></td></tr>
-<tr class="separator:aa7c38e50078b95620a23645ebe7b3bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a726f6c34e138d63f5aaadd5dac81a42a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a726f6c34e138d63f5aaadd5dac81a42a">CrashHandler::ExceptionOccurred</a> = <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></td></tr>
+<tr class="separator:a726f6c34e138d63f5aaadd5dac81a42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12b3cdf72278dca522058fa300b3832b"><td class="memItemLeft" align="right" valign="top">CRData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a12b3cdf72278dca522058fa300b3832b">CrashHandler::crashdata</a> = {}</td></tr>
+<tr class="separator:a12b3cdf72278dca522058fa300b3832b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/><h2 class="groupheader">Data Structure Documentation</h2>
-<a name="da/d80/structCrashHandler_1_1StackFrame" id="da/d80/structCrashHandler_1_1StackFrame"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#da/d80/structCrashHandler_1_1StackFrame">&#9670;&nbsp;</a></span>CrashHandler::StackFrame</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a7c971b6374d1d78e185d408f3c03ebf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c971b6374d1d78e185d408f3c03ebf5">&#9670;&nbsp;</a></span>NewLock()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CrashHandler::StackFrame</td>
+          <td class="memname">NewLock </td>
+          <td>(</td>
+          <td class="paramtype">UserInputLock&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html">CrashHandler.cpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="a8f8032e11acdd2aef9bd07bd8bb8fcfe"></a>struct <a class="el" href="../../d2/d57/namespaceCrashHandler.html#da/d80/structCrashHandler_1_1StackFrame">StackFrame</a> *</td>
-<td class="fieldname">
-rbp</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a4da456e61f1af92de35cf6a5175871c9"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
-<td class="fieldname">
-rip</td>
-<td class="fielddoc">
-</td></tr>
-</table>
 
 </div>
 </div>
@@ -170,7 +164,7 @@ rip</td>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_45b96e5faabc1aec1c962e9d67eabcf9.html">Core</a></li><li class="navelem"><a class="el" href="../../db/de7/CrashHandler_8cpp.html">CrashHandler.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_45b96e5faabc1aec1c962e9d67eabcf9.html">Core</a></li><li class="navelem"><a class="el" href="../../dir_133a3aca315ff992552df9c81b16ceb4.html">Crash</a></li><li class="navelem"><a class="el" href="../../db/de7/CrashHandler_8cpp.html">CrashHandler.cpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.17 </li>

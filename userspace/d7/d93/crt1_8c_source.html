@@ -91,18 +91,24 @@ $(document).ready(function(){initNavTree('d7/d93/crt1_8c_source.html','../../');
 <div class="contents">
 <a href="../../d7/d93/crt1_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/d93/crt1_8c.html#adedb285b02c41bde2158ded9cc9fd7ac">main</a>(<span class="keywordtype">int</span> argc, <span class="keywordtype">char</span> *argv[], <span class="keywordtype">char</span> *envp[]);</div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d7/d93/crt1_8c.html#a18d012cb7c786cac969d3ebb6e3f5744">    3</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/d93/crt1_8c.html#a18d012cb7c786cac969d3ebb6e3f5744">_start</a>(<span class="keywordtype">void</span> *Data)</div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d7/d93/crt1_8c.html#a078e7d7a89207ea1c3575850e0fff462">    3</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d93/crt1_8c.html#a078e7d7a89207ea1c3575850e0fff462">_start</a>()</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">int</span> mainret = <a class="code" href="../../d7/d93/crt1_8c.html#adedb285b02c41bde2158ded9cc9fd7ac">main</a>((<span class="keywordtype">int</span>)0, (<span class="keywordtype">char</span> **)0, (<span class="keywordtype">char</span> **)0);</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        ;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">// C++ stuff</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="comment">// TODO: Implement</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> *argc = 0;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">char</span> **argv = 0;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">char</span> **envp = 0;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordtype">int</span> mainret = <a class="code" href="../../d7/d93/crt1_8c.html#adedb285b02c41bde2158ded9cc9fd7ac">main</a>((<span class="keywordtype">int</span>)*argc, (<span class="keywordtype">char</span> **)argv, (<span class="keywordtype">char</span> **)envp);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                         :</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0), <span class="stringliteral">&quot;D&quot;</span>(mainret)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// C++ stuff</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="acrt1_8c_html_adedb285b02c41bde2158ded9cc9fd7ac"><div class="ttname"><a href="../../d7/d93/crt1_8c.html#adedb285b02c41bde2158ded9cc9fd7ac">main</a></div><div class="ttdeci">int main(int argc, char *argv[], char *envp[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc9/init_8cpp_source.html#l00003">init.cpp:3</a></div></div>
-<div class="ttc" id="acrt1_8c_html_a18d012cb7c786cac969d3ebb6e3f5744"><div class="ttname"><a href="../../d7/d93/crt1_8c.html#a18d012cb7c786cac969d3ebb6e3f5744">_start</a></div><div class="ttdeci">int _start(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d93/crt1_8c_source.html#l00003">crt1.c:3</a></div></div>
+<div class="ttc" id="acrt1_8c_html_adedb285b02c41bde2158ded9cc9fd7ac"><div class="ttname"><a href="../../d7/d93/crt1_8c.html#adedb285b02c41bde2158ded9cc9fd7ac">main</a></div><div class="ttdeci">int main(int argc, char *argv[], char *envp[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc9/init_8cpp_source.html#l00063">init.cpp:63</a></div></div>
+<div class="ttc" id="acrt1_8c_html_a078e7d7a89207ea1c3575850e0fff462"><div class="ttname"><a href="../../d7/d93/crt1_8c.html#a078e7d7a89207ea1c3575850e0fff462">_start</a></div><div class="ttdeci">void _start()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d93/crt1_8c_source.html#l00003">crt1.c:3</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

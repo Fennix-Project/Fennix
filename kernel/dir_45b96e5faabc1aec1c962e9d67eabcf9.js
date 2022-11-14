@@ -1,10 +1,10 @@
 var dir_45b96e5faabc1aec1c962e9d67eabcf9 =
 [
+    [ "Crash", "dir_133a3aca315ff992552df9c81b16ceb4.html", "dir_133a3aca315ff992552df9c81b16ceb4" ],
     [ "Interrupts", "dir_29ef7bdfa06c8f6131e3c71ff3c14914.html", "dir_29ef7bdfa06c8f6131e3c71ff3c14914" ],
     [ "Memory", "dir_49e28e04fe5a683ab6442a3687c2ecf7.html", "dir_49e28e04fe5a683ab6442a3687c2ecf7" ],
     [ "Video", "dir_1590741450b0f2b58caea626297a45a1.html", "dir_1590741450b0f2b58caea626297a45a1" ],
     [ "CPU.cpp", "d7/d8d/CPU_8cpp.html", "d7/d8d/CPU_8cpp" ],
-    [ "CrashHandler.cpp", "db/de7/CrashHandler_8cpp.html", "db/de7/CrashHandler_8cpp" ],
     [ "crashhandler.hpp", "dc/d04/crashhandler_8hpp.html", "dc/d04/crashhandler_8hpp" ],
     [ "Debugger.cpp", "db/d7b/Debugger_8cpp.html", "db/d7b/Debugger_8cpp" ],
     [ "Disk.cpp", "d1/dc7/Disk_8cpp.html", null ],

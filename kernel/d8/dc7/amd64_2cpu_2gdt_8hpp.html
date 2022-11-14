@@ -143,8 +143,8 @@ Functions</h2></td></tr>
 <tr class="separator:af56d4e43cb2f9795374f684a94904e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f348435f90382d87ff30f9237f15a96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">GlobalDescriptorTable::Init</a> (int Core)</td></tr>
 <tr class="separator:a8f348435f90382d87ff30f9237f15a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8fb4be5b29d0def1177ee97e5d5c299"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#ad8fb4be5b29d0def1177ee97e5d5c299">GlobalDescriptorTable::SetKernelStack</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#ab5ee9682c9b21bd3edc1bd4e75250d6f">Stack</a>)</td></tr>
-<tr class="separator:ad8fb4be5b29d0def1177ee97e5d5c299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33e107357e61a94cc72ab7d69cbc5fea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a33e107357e61a94cc72ab7d69cbc5fea">GlobalDescriptorTable::SetKernelStack</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#ab5ee9682c9b21bd3edc1bd4e75250d6f">Stack</a>)</td></tr>
+<tr class="separator:a33e107357e61a94cc72ab7d69cbc5fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -658,7 +658,7 @@ GDT entries length. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00092">CPU::__attribute__()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00092">GlobalDescriptorTable::Init()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00229">Tasking::Task::KillProcess()</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00223">Tasking::Task::KillThread()</a>.</p>
 
 </div>
 </div>
@@ -676,7 +676,7 @@ GDT entries length. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00004">4</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00022">__attribute__()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00090">Driver::DriverAHCIDiskRead()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00095">Driver::DriverAHCIDiskWrite()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00085">Driver::DriverNetReceive()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00080">Driver::DriverNetSend()</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00106">Interrupts::MainInterruptHandler()</a>, and <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00101">Xalloc::AllocatorV1::Xmemset()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00098">Driver::DriverAHCIDiskRead()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00103">Driver::DriverAHCIDiskWrite()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00093">Driver::DriverNetReceive()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00088">Driver::DriverNetSend()</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00022">ExceptionHandler()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00289">CrashHandler::Handle()</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00106">Interrupts::MainInterruptHandler()</a>, and <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00101">Xalloc::AllocatorV1::Xmemset()</a>.</p>
 
 </div>
 </div>
@@ -970,7 +970,7 @@ GDT entries length. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00145">145</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00543">Tasking::Task::CreateThread()</a>, <a class="el" href="../../df/dda/Parse_8cpp_source.html#l00168">Execute::ELFLoadRel()</a>, <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00805">PCI::PCI::EnumerateBus()</a>, <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00791">PCI::PCI::EnumerateDevice()</a>, <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00775">PCI::PCI::EnumerateFunction()</a>, <a class="el" href="../../d8/d0c/Font_8cpp_source.html#l00007">Video::Font::Font()</a>, <a class="el" href="../../d5/db3/MultipleAPICDescriptionTable_8cpp_source.html#l00010">ACPI::MADT::MADT()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00052">MapFramebuffer()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00040">MapFromZero()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00069">MapKernel()</a>, <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00845">PCI::PCI::PCI()</a>, <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00016">Execute::Spawn()</a>, and <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00025">Time::time::time()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00621">Tasking::Task::CreateThread()</a>, <a class="el" href="../../df/dda/Parse_8cpp_source.html#l00168">Execute::ELFLoadRel()</a>, <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00805">PCI::PCI::EnumerateBus()</a>, <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00791">PCI::PCI::EnumerateDevice()</a>, <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00775">PCI::PCI::EnumerateFunction()</a>, <a class="el" href="../../d8/d0c/Font_8cpp_source.html#l00007">Video::Font::Font()</a>, <a class="el" href="../../d5/db3/MultipleAPICDescriptionTable_8cpp_source.html#l00010">ACPI::MADT::MADT()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00052">MapFramebuffer()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00040">MapFromZero()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00069">MapKernel()</a>, <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00845">PCI::PCI::PCI()</a>, <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00017">Execute::Spawn()</a>, and <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00025">Time::time::time()</a>.</p>
 
 </div>
 </div>
@@ -1008,7 +1008,7 @@ GDT entries length. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00092">CPU::__attribute__()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00092">GlobalDescriptorTable::Init()</a>.</p>
 
 </div>
 </div>
@@ -1026,7 +1026,7 @@ GDT entries length. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00092">CPU::__attribute__()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00092">GlobalDescriptorTable::Init()</a>.</p>
 
 </div>
 </div>
@@ -1046,7 +1046,7 @@ GDT entries length. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00176">176</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d1d/Limine_8c_source.html#l00041">init_limine()</a>, <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00016">Execute::Spawn()</a>, and <a class="el" href="../../d8/d0e/Multiboot2_8cpp_source.html#l00057">x32Multiboot2Entry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d1d/Limine_8c_source.html#l00041">init_limine()</a>, <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00017">Execute::Spawn()</a>, and <a class="el" href="../../d8/d0e/Multiboot2_8cpp_source.html#l00057">x32Multiboot2Entry()</a>.</p>
 
 </div>
 </div>
@@ -1064,7 +1064,7 @@ GDT entries length. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00005">5</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00092">CPU::__attribute__()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dad/GlobalDescriptorTable_8cpp_source.html#l00092">GlobalDescriptorTable::Init()</a>.</p>
 
 </div>
 </div>

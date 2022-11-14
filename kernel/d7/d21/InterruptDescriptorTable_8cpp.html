@@ -293,6 +293,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{ <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a>(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>); }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00004">Data</a>, and <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00289">CrashHandler::Handle()</a>.</p>
+
 </div>
 </div>
 <a id="ab315401343457f280dc7e89bd8ec6308"></a>
@@ -326,7 +331,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">if</span> (apic[Core])</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        {</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            ((<a class="code" href="../../d4/da9/classAPIC_1_1APIC.html">APIC::APIC</a> *)Interrupts::apic[Core])-&gt;EOI();</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            <span class="comment">// apic-&gt;IPI(CurrentCPU-&gt;ID, SchedulerInterrupt); ??????</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            <span class="comment">// TODO: Handle PIC too</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        }</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="comment">// TODO: PIC</span></div>
@@ -335,20 +340,23 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordtype">void</span> *Frame = <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        CPU::Stop();</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;HALT HALT HALT HALT HALT HALT HALT HALT HALT&quot;</span>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a702f5a60feb9b5169ea93bfa93be50f8">CPU::Stop</a>();</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00004">Data</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00037">error</a>, <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">GetCurrentCPU()</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00030">CPUData::ID</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01135">CPU::x64::TrapFrame::InterruptNumber</a>, and <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00026">Interrupts::RegisteredEvents</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00004">Data</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00037">error</a>, <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">GetCurrentCPU()</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00030">CPUData::ID</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l01135">CPU::x64::TrapFrame::InterruptNumber</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00026">Interrupts::RegisteredEvents</a>, and <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00161">CPU::Stop()</a>.</p>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="anamespaceCPU_html_a702f5a60feb9b5169ea93bfa93be50f8"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a702f5a60feb9b5169ea93bfa93be50f8">CPU::Stop</a></div><div class="ttdeci">static __no_stack_protector void Stop()</div><div class="ttdoc">Stop the CPU (infinite loop)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00161">cpu.hpp:161</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_aff2da4c061653164b5cfcc650f742f27"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a></div><div class="ttdeci">GlobalDescriptorTableEntry Data</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00004">gdt.hpp:4</a></div></div>
 <div class="ttc" id="aaarch64_2cpu_2SymmetricMultiprocessing_8cpp_html_aa53a3783575d262dc378af3a30ca775d"><div class="ttname"><a href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a></div><div class="ttdeci">CPUData * GetCurrentCPU()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">SymmetricMultiprocessing.cpp:16</a></div></div>
 <div class="ttc" id="anamespaceInterruptDescriptorTable_html_a32dadf6743f47b28b7fdd52fb296bb6a"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#a32dadf6743f47b28b7fdd52fb296bb6a">InterruptDescriptorTable::__attribute__</a></div><div class="ttdeci">__attribute__((naked, used, no_stack_protector)) void ExceptionHandlerStub()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00038">InterruptDescriptorTable.cpp:38</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a887cdcc1269b29105548dbf02564b0c0"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a887cdcc1269b29105548dbf02564b0c0">CPUData::ID</a></div><div class="ttdeci">long ID</div><div class="ttdoc">CPU ID.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00030">smp.hpp:30</a></div></div>
 <div class="ttc" id="aUniversalAsynchronousReceiverTransmitter_8cpp_html_a243b35bd4f91344446c7905d0a699f43"><div class="ttname"><a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a243b35bd4f91344446c7905d0a699f43">RegisteredEvents</a></div><div class="ttdeci">Vector&lt; UniversalAsynchronousReceiverTransmitter::Events * &gt; RegisteredEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00008">UniversalAsynchronousReceiverTransmitter.cpp:8</a></div></div>
+<div class="ttc" id="anamespaceCrashHandler_html_a202e013cac1a108322c79e592f3a5e0c"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a></div><div class="ttdeci">__no_stack_protector void Handle(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de7/CrashHandler_8cpp_source.html#l00289">CrashHandler.cpp:289</a></div></div>
 <div class="ttc" id="aclassAPIC_1_1APIC_html"><div class="ttname"><a href="../../d4/da9/classAPIC_1_1APIC.html">APIC::APIC</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d79/apic_8hpp_source.html#l00298">apic.hpp:298</a></div></div>
 <div class="ttc" id="anamespaceCPU_1_1x64_html_df/df2/structCPU_1_1x64_1_1TrapFrame"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#df/df2/structCPU_1_1x64_1_1TrapFrame">CPU::x64::TrapFrame</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01111">cpu.hpp:1111</a></div></div>
 <div class="ttc" id="anamespaceCPU_1_1x64_html_a3ee6a2e1258dec8d64b07c15704d5f37"><div class="ttname"><a href="../../d9/d25/namespaceCPU_1_1x64.html#a3ee6a2e1258dec8d64b07c15704d5f37">CPU::x64::TrapFrame::InterruptNumber</a></div><div class="ttdeci">uint64_t InterruptNumber</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l01135">cpu.hpp:1135</a></div></div>

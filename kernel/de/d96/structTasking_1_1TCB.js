@@ -5,8 +5,6 @@ var structTasking_1_1TCB =
     [ "Rename", "de/d96/structTasking_1_1TCB.html#aadb59636003b7f7601250abe65a19ae6", null ],
     [ "SetCritical", "de/d96/structTasking_1_1TCB.html#aa27b628ceff9dbc68af54bc1150b3b8e", null ],
     [ "SetPriority", "de/d96/structTasking_1_1TCB.html#a18fb41b423438c3260b073a75874474e", null ],
-    [ "Argument0", "de/d96/structTasking_1_1TCB.html#a2eba4d7e7d29f8dcfb8b578aa3cab4f5", null ],
-    [ "Argument1", "de/d96/structTasking_1_1TCB.html#ab3be38a22b73be228a30c6cbd8924de3", null ],
     [ "EntryPoint", "de/d96/structTasking_1_1TCB.html#a22ee7989c9d822948a31341b724a4c0e", null ],
     [ "ExitCode", "de/d96/structTasking_1_1TCB.html#ad559303402b3927ebff520bfa3777af4", null ],
     [ "ID", "de/d96/structTasking_1_1TCB.html#a851c7efc607cdb7e23e392fe4ed7ff29", null ],

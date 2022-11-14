@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['pcicommands_565',['PCICommands',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31',1,'pci.h']]],
-  ['porttype_566',['PortType',['../de/d94/AHCI_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21',1,'AHCI.cpp']]]
+  ['lsta_595',['LSTA',['../de/d94/e1000_8cpp.html#afd2bbd5cdd64b59e1cee5a4a3e8cb668',1,'e1000.cpp']]]
 ];

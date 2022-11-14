@@ -247,6 +247,101 @@ Macros</h2></td></tr>
 <tr class="separator:ad3f7b6bb8aa7d619017a91d3b2edc1ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5285bc55170ae1701e599decacc7f001"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a5285bc55170ae1701e599decacc7f001">WINT_MIN</a>&#160;&#160;&#160;__WINT_MIN__</td></tr>
 <tr class="separator:a5285bc55170ae1701e599decacc7f001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16c33c4cb331d0de82f7033252f6801c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a16c33c4cb331d0de82f7033252f6801c">b4</a>(x)&#160;&#160;&#160;((x &amp; 0x0F) &lt;&lt; 4 | (x &amp; 0xF0) &gt;&gt; 4)</td></tr>
+<tr class="separator:a16c33c4cb331d0de82f7033252f6801c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94eac8d9cd20ccc4c673e8f907253679"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a94eac8d9cd20ccc4c673e8f907253679">b8</a>(x)&#160;&#160;&#160;((x)&amp;0xFF)</td></tr>
+<tr class="separator:a94eac8d9cd20ccc4c673e8f907253679"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88da023a73ece4eb02fd14231ba1718b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a88da023a73ece4eb02fd14231ba1718b">b16</a>(x)&#160;&#160;&#160;__builtin_bswap16(x)</td></tr>
+<tr class="separator:a88da023a73ece4eb02fd14231ba1718b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6339ff3644650c6bb6416c9afd8bf5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a>(x)&#160;&#160;&#160;__builtin_bswap32(x)</td></tr>
+<tr class="separator:ae6339ff3644650c6bb6416c9afd8bf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e129c4f168e2503e45cf0ab2fb1994d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a9e129c4f168e2503e45cf0ab2fb1994d">b48</a>(x)&#160;&#160;&#160;(((((x)&amp;0x0000000000ff) &lt;&lt; 40) | (((x)&amp;0x00000000ff00) &lt;&lt; 24) | (((x)&amp;0x000000ff0000) &lt;&lt; 8) | (((x)&amp;0x0000ff000000) &gt;&gt; 8) | (((x)&amp;0x00ff00000000) &gt;&gt; 24) | (((x)&amp;0xff0000000000) &gt;&gt; 40)))</td></tr>
+<tr class="separator:a9e129c4f168e2503e45cf0ab2fb1994d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40826e19ab43b143542d0a80a175bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#aa40826e19ab43b143542d0a80a175bad">b64</a>(x)&#160;&#160;&#160;__builtin_bswap64(x)</td></tr>
+<tr class="separator:aa40826e19ab43b143542d0a80a175bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b98c48b1af63a023e9926f4d4d98c46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a9b98c48b1af63a023e9926f4d4d98c46">O0</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;O0&quot;)))</td></tr>
+<tr class="separator:a9b98c48b1af63a023e9926f4d4d98c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae81ce40c595ad939602698a5f93d995e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#ae81ce40c595ad939602698a5f93d995e">O1</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;O1&quot;)))</td></tr>
+<tr class="separator:ae81ce40c595ad939602698a5f93d995e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31412dbd7c9b5771f1e7a5ff85d20ab9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a31412dbd7c9b5771f1e7a5ff85d20ab9">O2</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;O2&quot;)))</td></tr>
+<tr class="separator:a31412dbd7c9b5771f1e7a5ff85d20ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9219b301ab2bc696f1ec9e1ebe2ff7e8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a9219b301ab2bc696f1ec9e1ebe2ff7e8">O3</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;O3&quot;)))</td></tr>
+<tr class="separator:a9219b301ab2bc696f1ec9e1ebe2ff7e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab16f9a2566f591e74290d7153d4ae9c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#ab16f9a2566f591e74290d7153d4ae9c1">Os</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;Os&quot;)))</td></tr>
+<tr class="separator:ab16f9a2566f591e74290d7153d4ae9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b06136baaecc07c2e7eaed092ab784a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a6b06136baaecc07c2e7eaed092ab784a">Ofast</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;Ofast&quot;)))</td></tr>
+<tr class="separator:a6b06136baaecc07c2e7eaed092ab784a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae72beea8f55883a8e6936a7ee9caf32e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#ae72beea8f55883a8e6936a7ee9caf32e">OPTMZ</a>&#160;&#160;&#160;<a class="el" href="../../d9/d49/types_8h.html#a9b98c48b1af63a023e9926f4d4d98c46">O0</a></td></tr>
+<tr class="memdesc:ae72beea8f55883a8e6936a7ee9caf32e"><td class="mdescLeft">&#160;</td><td class="mdescRight">dbg  <a href="../../d9/d49/types_8h.html#ae72beea8f55883a8e6936a7ee9caf32e">More...</a><br /></td></tr>
+<tr class="separator:ae72beea8f55883a8e6936a7ee9caf32e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e3484535ee610c8e19e9859563abe48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a2e3484535ee610c8e19e9859563abe48">__unused</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((unused))</td></tr>
+<tr class="separator:a2e3484535ee610c8e19e9859563abe48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe7dde4488278fd739041b673efa525"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a0fe7dde4488278fd739041b673efa525">__packed</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((packed))</td></tr>
+<tr class="separator:a0fe7dde4488278fd739041b673efa525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ec304e7577e6c1a8a36c3096fc466af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a5ec304e7577e6c1a8a36c3096fc466af">__aligned</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((aligned(x)))</td></tr>
+<tr class="separator:a5ec304e7577e6c1a8a36c3096fc466af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d0b72ccc36b88935355451e332b5deb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a4d0b72ccc36b88935355451e332b5deb">__section</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((section(x)))</td></tr>
+<tr class="separator:a4d0b72ccc36b88935355451e332b5deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b6df4fe38493e14648842364a76075f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((noreturn))</td></tr>
+<tr class="separator:a5b6df4fe38493e14648842364a76075f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5181eb756a197a06d1c4ed1f40a065bc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a5181eb756a197a06d1c4ed1f40a065bc">__weak</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((weak))</td></tr>
+<tr class="separator:a5181eb756a197a06d1c4ed1f40a065bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09baa022f1e1d5f579624f326d625143"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a09baa022f1e1d5f579624f326d625143">__alias</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((alias(x)))</td></tr>
+<tr class="separator:a09baa022f1e1d5f579624f326d625143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6034e8cd4bcd5bacfd060abd01bbd8a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((always_inline))</td></tr>
+<tr class="separator:a6034e8cd4bcd5bacfd060abd01bbd8a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a3055fa9fd2b7c91df69c75e185e76f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a2a3055fa9fd2b7c91df69c75e185e76f">__noinline</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((noinline))</td></tr>
+<tr class="separator:a2a3055fa9fd2b7c91df69c75e185e76f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8d4aa7e9ca368db7220dc9747189f1c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#ab8d4aa7e9ca368db7220dc9747189f1c">__pure</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((pure))</td></tr>
+<tr class="separator:ab8d4aa7e9ca368db7220dc9747189f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a237c48d7689530103740c2294e0575e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a237c48d7689530103740c2294e0575e0">__const</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((const))</td></tr>
+<tr class="separator:a237c48d7689530103740c2294e0575e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af11cdadae8fef7c77866b7355e66f7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a2af11cdadae8fef7c77866b7355e66f7">__malloc</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a>))</td></tr>
+<tr class="separator:a2af11cdadae8fef7c77866b7355e66f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa80322503cac5d0f65d774417448974b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#aa80322503cac5d0f65d774417448974b">__returns_twice</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((returns_twice))</td></tr>
+<tr class="separator:aa80322503cac5d0f65d774417448974b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9314dbac96b8097be9506b69c32f5ae9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((used))</td></tr>
+<tr class="separator:a9314dbac96b8097be9506b69c32f5ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e1585cb1b8a465a6a9a702d97bb4ad8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a4e1585cb1b8a465a6a9a702d97bb4ad8">__deprecated</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((deprecated))</td></tr>
+<tr class="separator:a4e1585cb1b8a465a6a9a702d97bb4ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0aa975b4187f4598b69b93cffe94a37"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#ad0aa975b4187f4598b69b93cffe94a37">__deprecated_msg</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((deprecated(x)))</td></tr>
+<tr class="separator:ad0aa975b4187f4598b69b93cffe94a37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e454409471f0492a2707956b77ca5ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a8e454409471f0492a2707956b77ca5ca">__weakref</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((weakref(x)))</td></tr>
+<tr class="separator:a8e454409471f0492a2707956b77ca5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd90e15dc063d994d1b7e41574a2f0d2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#acd90e15dc063d994d1b7e41574a2f0d2">__weakrefalias</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((weakref(#x)))</td></tr>
+<tr class="separator:acd90e15dc063d994d1b7e41574a2f0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc51fa13f9938ddefe853da05895cd55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#adc51fa13f9938ddefe853da05895cd55">__visibility</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((visibility(x)))</td></tr>
+<tr class="separator:adc51fa13f9938ddefe853da05895cd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfddecd84e2d59ace560a3ce8e7283ab"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#adfddecd84e2d59ace560a3ce8e7283ab">__constructor</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((constructor))</td></tr>
+<tr class="separator:adfddecd84e2d59ace560a3ce8e7283ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef7e0fdd70bc01d7d61687cb0dbb2d7b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#aef7e0fdd70bc01d7d61687cb0dbb2d7b">__destructor</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((destructor))</td></tr>
+<tr class="separator:aef7e0fdd70bc01d7d61687cb0dbb2d7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e783190e03a2a9723ec36eb79040e3e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a7e783190e03a2a9723ec36eb79040e3e">__cleanup</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((cleanup(x)))</td></tr>
+<tr class="separator:a7e783190e03a2a9723ec36eb79040e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaef63d663f510bc84741bf7a00079a1e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#aaef63d663f510bc84741bf7a00079a1e">__fallthrough</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((fallthrough))</td></tr>
+<tr class="separator:aaef63d663f510bc84741bf7a00079a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c6a42786b5806f81419b96a5aa43937"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a1c6a42786b5806f81419b96a5aa43937">__nonnull</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((nonnull x))</td></tr>
+<tr class="separator:a1c6a42786b5806f81419b96a5aa43937"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4134fdf661051fd3211390fbf4222b74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a4134fdf661051fd3211390fbf4222b74">__nonnull_all</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((nonnull))</td></tr>
+<tr class="separator:a4134fdf661051fd3211390fbf4222b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ada87585fc388c2aa7ac523cea5158a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a8ada87585fc388c2aa7ac523cea5158a">__returns_nonnull</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((returns_nonnull))</td></tr>
+<tr class="separator:a8ada87585fc388c2aa7ac523cea5158a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a612ccffe28887ff67b9c64f08a6f70a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a612ccffe28887ff67b9c64f08a6f70a8">__sentinel</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((sentinel))</td></tr>
+<tr class="separator:a612ccffe28887ff67b9c64f08a6f70a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7f1c55cb34fad3353921d466f5c8ce5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#af7f1c55cb34fad3353921d466f5c8ce5">__sentinel_all</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((sentinel(0)))</td></tr>
+<tr class="separator:af7f1c55cb34fad3353921d466f5c8ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1906035ed845f20599d4df48bed7531a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a1906035ed845f20599d4df48bed7531a">__format</a>(x,  y,  z)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((format(x, y, z)))</td></tr>
+<tr class="separator:a1906035ed845f20599d4df48bed7531a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadcda71d5eca33567ec28004d76fc4e4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#aadcda71d5eca33567ec28004d76fc4e4">__format_arg</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((format_arg(x)))</td></tr>
+<tr class="separator:aadcda71d5eca33567ec28004d76fc4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8f3a077d99403c550ca17ade552d8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#add8f3a077d99403c550ca17ade552d8a">__nonnull_params</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((nonnull x))</td></tr>
+<tr class="separator:add8f3a077d99403c550ca17ade552d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4134fdf661051fd3211390fbf4222b74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a4134fdf661051fd3211390fbf4222b74">__nonnull_all</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((nonnull))</td></tr>
+<tr class="separator:a4134fdf661051fd3211390fbf4222b74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae87ef667eb3b21abd18ec1b0004718fa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#ae87ef667eb3b21abd18ec1b0004718fa">__warn_unused_result</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((warn_unused_result))</td></tr>
+<tr class="separator:ae87ef667eb3b21abd18ec1b0004718fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f59f2a8579d5e3c4dcf342f41afcc23"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d49/types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_stack_protector))</td></tr>
+<tr class="separator:a3f59f2a8579d5e3c4dcf342f41afcc23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -314,6 +409,614 @@ Typedefs</h2></td></tr>
 <tr class="separator:aa9d55e2f20e580b7445617d0d12fff6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a09baa022f1e1d5f579624f326d625143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09baa022f1e1d5f579624f326d625143">&#9670;&nbsp;</a></span>__alias</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __alias</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((alias(x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00227">227</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a5ec304e7577e6c1a8a36c3096fc466af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ec304e7577e6c1a8a36c3096fc466af">&#9670;&nbsp;</a></span>__aligned</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __aligned</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((aligned(x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00223">223</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a6034e8cd4bcd5bacfd060abd01bbd8a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6034e8cd4bcd5bacfd060abd01bbd8a8">&#9670;&nbsp;</a></span>__always_inline</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __always_inline&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((always_inline))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00228">228</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a7e783190e03a2a9723ec36eb79040e3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e783190e03a2a9723ec36eb79040e3e">&#9670;&nbsp;</a></span>__cleanup</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __cleanup</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((cleanup(x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00242">242</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a237c48d7689530103740c2294e0575e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a237c48d7689530103740c2294e0575e0">&#9670;&nbsp;</a></span>__const</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __const&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((const))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00231">231</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="adfddecd84e2d59ace560a3ce8e7283ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfddecd84e2d59ace560a3ce8e7283ab">&#9670;&nbsp;</a></span>__constructor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __constructor&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((constructor))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00240">240</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a4e1585cb1b8a465a6a9a702d97bb4ad8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e1585cb1b8a465a6a9a702d97bb4ad8">&#9670;&nbsp;</a></span>__deprecated</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __deprecated&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((deprecated))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00235">235</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ad0aa975b4187f4598b69b93cffe94a37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0aa975b4187f4598b69b93cffe94a37">&#9670;&nbsp;</a></span>__deprecated_msg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __deprecated_msg</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((deprecated(x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00236">236</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="aef7e0fdd70bc01d7d61687cb0dbb2d7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7e0fdd70bc01d7d61687cb0dbb2d7b">&#9670;&nbsp;</a></span>__destructor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __destructor&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((destructor))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00241">241</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="aaef63d663f510bc84741bf7a00079a1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaef63d663f510bc84741bf7a00079a1e">&#9670;&nbsp;</a></span>__fallthrough</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __fallthrough&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((fallthrough))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00243">243</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a1906035ed845f20599d4df48bed7531a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1906035ed845f20599d4df48bed7531a">&#9670;&nbsp;</a></span>__format</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __format</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">z&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((format(x, y, z)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00249">249</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="aadcda71d5eca33567ec28004d76fc4e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadcda71d5eca33567ec28004d76fc4e4">&#9670;&nbsp;</a></span>__format_arg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __format_arg</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((format_arg(x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00250">250</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a2af11cdadae8fef7c77866b7355e66f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2af11cdadae8fef7c77866b7355e66f7">&#9670;&nbsp;</a></span>__malloc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __malloc&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00232">232</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a3f59f2a8579d5e3c4dcf342f41afcc23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f59f2a8579d5e3c4dcf342f41afcc23">&#9670;&nbsp;</a></span>__no_stack_protector</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __no_stack_protector&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_stack_protector))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00254">254</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a2a3055fa9fd2b7c91df69c75e185e76f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a3055fa9fd2b7c91df69c75e185e76f">&#9670;&nbsp;</a></span>__noinline</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __noinline&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((noinline))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00229">229</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a1c6a42786b5806f81419b96a5aa43937"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c6a42786b5806f81419b96a5aa43937">&#9670;&nbsp;</a></span>__nonnull</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __nonnull</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((nonnull x))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00244">244</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a4134fdf661051fd3211390fbf4222b74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4134fdf661051fd3211390fbf4222b74">&#9670;&nbsp;</a></span>__nonnull_all <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __nonnull_all&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((nonnull))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00252">252</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a4134fdf661051fd3211390fbf4222b74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4134fdf661051fd3211390fbf4222b74">&#9670;&nbsp;</a></span>__nonnull_all <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __nonnull_all&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((nonnull))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00252">252</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="add8f3a077d99403c550ca17ade552d8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add8f3a077d99403c550ca17ade552d8a">&#9670;&nbsp;</a></span>__nonnull_params</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __nonnull_params</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((nonnull x))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00251">251</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a5b6df4fe38493e14648842364a76075f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b6df4fe38493e14648842364a76075f">&#9670;&nbsp;</a></span>__noreturn</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __noreturn&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((noreturn))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00225">225</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a0fe7dde4488278fd739041b673efa525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe7dde4488278fd739041b673efa525">&#9670;&nbsp;</a></span>__packed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __packed&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((packed))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00222">222</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ab8d4aa7e9ca368db7220dc9747189f1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8d4aa7e9ca368db7220dc9747189f1c">&#9670;&nbsp;</a></span>__pure</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __pure&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((pure))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00230">230</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a8ada87585fc388c2aa7ac523cea5158a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ada87585fc388c2aa7ac523cea5158a">&#9670;&nbsp;</a></span>__returns_nonnull</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __returns_nonnull&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((returns_nonnull))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00246">246</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="aa80322503cac5d0f65d774417448974b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa80322503cac5d0f65d774417448974b">&#9670;&nbsp;</a></span>__returns_twice</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __returns_twice&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((returns_twice))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00233">233</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a4d0b72ccc36b88935355451e332b5deb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d0b72ccc36b88935355451e332b5deb">&#9670;&nbsp;</a></span>__section</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __section</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((section(x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00224">224</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a612ccffe28887ff67b9c64f08a6f70a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a612ccffe28887ff67b9c64f08a6f70a8">&#9670;&nbsp;</a></span>__sentinel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __sentinel&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((sentinel))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00247">247</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="af7f1c55cb34fad3353921d466f5c8ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7f1c55cb34fad3353921d466f5c8ce5">&#9670;&nbsp;</a></span>__sentinel_all</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __sentinel_all&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((sentinel(0)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00248">248</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a2e3484535ee610c8e19e9859563abe48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e3484535ee610c8e19e9859563abe48">&#9670;&nbsp;</a></span>__unused</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __unused&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((unused))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00221">221</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a9314dbac96b8097be9506b69c32f5ae9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9314dbac96b8097be9506b69c32f5ae9">&#9670;&nbsp;</a></span>__used</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __used&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((used))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00234">234</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="adc51fa13f9938ddefe853da05895cd55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc51fa13f9938ddefe853da05895cd55">&#9670;&nbsp;</a></span>__visibility</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __visibility</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((visibility(x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00239">239</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ae87ef667eb3b21abd18ec1b0004718fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae87ef667eb3b21abd18ec1b0004718fa">&#9670;&nbsp;</a></span>__warn_unused_result</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __warn_unused_result&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((warn_unused_result))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00253">253</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a5181eb756a197a06d1c4ed1f40a065bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5181eb756a197a06d1c4ed1f40a065bc">&#9670;&nbsp;</a></span>__weak</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __weak&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((weak))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00226">226</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a8e454409471f0492a2707956b77ca5ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e454409471f0492a2707956b77ca5ca">&#9670;&nbsp;</a></span>__weakref</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __weakref</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((weakref(x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00237">237</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="acd90e15dc063d994d1b7e41574a2f0d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd90e15dc063d994d1b7e41574a2f0d2">&#9670;&nbsp;</a></span>__weakrefalias</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __weakrefalias</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((weakref(#x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00238">238</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
 <a id="a1de6625fa208285b5f2b043fa9c537e7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1de6625fa208285b5f2b043fa9c537e7">&#9670;&nbsp;</a></span>ALIGN_DOWN</h2>
 
@@ -403,6 +1106,126 @@ Typedefs</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00025">25</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a88da023a73ece4eb02fd14231ba1718b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88da023a73ece4eb02fd14231ba1718b">&#9670;&nbsp;</a></span>b16</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define b16</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;__builtin_bswap16(x)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00205">205</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ae6339ff3644650c6bb6416c9afd8bf5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6339ff3644650c6bb6416c9afd8bf5d">&#9670;&nbsp;</a></span>b32</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define b32</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;__builtin_bswap32(x)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00206">206</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a16c33c4cb331d0de82f7033252f6801c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16c33c4cb331d0de82f7033252f6801c">&#9670;&nbsp;</a></span>b4</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define b4</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;((x &amp; 0x0F) &lt;&lt; 4 | (x &amp; 0xF0) &gt;&gt; 4)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00203">203</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a9e129c4f168e2503e45cf0ab2fb1994d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e129c4f168e2503e45cf0ab2fb1994d">&#9670;&nbsp;</a></span>b48</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define b48</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;(((((x)&amp;0x0000000000ff) &lt;&lt; 40) | (((x)&amp;0x00000000ff00) &lt;&lt; 24) | (((x)&amp;0x000000ff0000) &lt;&lt; 8) | (((x)&amp;0x0000ff000000) &gt;&gt; 8) | (((x)&amp;0x00ff00000000) &gt;&gt; 24) | (((x)&amp;0xff0000000000) &gt;&gt; 40)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00207">207</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="aa40826e19ab43b143542d0a80a175bad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40826e19ab43b143542d0a80a175bad">&#9670;&nbsp;</a></span>b64</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define b64</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;__builtin_bswap64(x)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00208">208</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a94eac8d9cd20ccc4c673e8f907253679"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94eac8d9cd20ccc4c673e8f907253679">&#9670;&nbsp;</a></span>b8</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define b8</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;((x)&amp;0xFF)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00204">204</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1040,6 +1863,86 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
+<a id="a9b98c48b1af63a023e9926f4d4d98c46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b98c48b1af63a023e9926f4d4d98c46">&#9670;&nbsp;</a></span>O0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define O0&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;O0&quot;)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00211">211</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ae81ce40c595ad939602698a5f93d995e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae81ce40c595ad939602698a5f93d995e">&#9670;&nbsp;</a></span>O1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define O1&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;O1&quot;)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00212">212</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a31412dbd7c9b5771f1e7a5ff85d20ab9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31412dbd7c9b5771f1e7a5ff85d20ab9">&#9670;&nbsp;</a></span>O2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define O2&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;O2&quot;)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00213">213</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a9219b301ab2bc696f1ec9e1ebe2ff7e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9219b301ab2bc696f1ec9e1ebe2ff7e8">&#9670;&nbsp;</a></span>O3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define O3&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;O3&quot;)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00214">214</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a6b06136baaecc07c2e7eaed092ab784a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b06136baaecc07c2e7eaed092ab784a">&#9670;&nbsp;</a></span>Ofast</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Ofast&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;Ofast&quot;)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00216">216</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
 <a id="afd049f7ad59dbe455f460807475c2841"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afd049f7ad59dbe455f460807475c2841">&#9670;&nbsp;</a></span>offsetof</h2>
 
@@ -1067,6 +1970,40 @@ Typedefs</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00052">52</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ae72beea8f55883a8e6936a7ee9caf32e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae72beea8f55883a8e6936a7ee9caf32e">&#9670;&nbsp;</a></span>OPTMZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OPTMZ&#160;&#160;&#160;<a class="el" href="../../d9/d49/types_8h.html#a9b98c48b1af63a023e9926f4d4d98c46">O0</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>dbg </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00219">219</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ab16f9a2566f591e74290d7153d4ae9c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab16f9a2566f591e74290d7153d4ae9c1">&#9670;&nbsp;</a></span>Os</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Os&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((optimize(&quot;Os&quot;)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/d49/types_8h_source.html#l00215">215</a> of file <a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>

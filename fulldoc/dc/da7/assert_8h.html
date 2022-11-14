@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('dc/da7/assert_8h.html','../../'); init
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 </div>
 <p><a href="../../dc/da7/assert_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -99,6 +100,8 @@ $(document).ready(function(){initNavTree('dc/da7/assert_8h.html','../../'); init
 Macros</h2></td></tr>
 <tr class="memitem:af576bf8ffa22a44e53018c67095ffbf0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(x)</td></tr>
 <tr class="separator:af576bf8ffa22a44e53018c67095ffbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95ff86cf1c81dcfa1136948e2bed6561"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/assert_8h.html#a95ff86cf1c81dcfa1136948e2bed6561">assert_allow_continue</a>(x)</td></tr>
+<tr class="separator:a95ff86cf1c81dcfa1136948e2bed6561"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26ebd2e4b6c3a73d52d3942fd8446790"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/assert_8h.html#a26ebd2e4b6c3a73d52d3942fd8446790">static_assert</a>(x)</td></tr>
 <tr class="separator:a26ebd2e4b6c3a73d52d3942fd8446790"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -118,14 +121,46 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                \</div>
-<div class="line">    {                 \</div>
-<div class="line">        if (!(x))     \</div>
-<div class="line">            while (1) \</div>
-<div class="line">                ;     \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                                                                               \</div>
+<div class="line">    {                                                                                                                \</div>
+<div class="line">        if (!(x))                                                                                                    \</div>
+<div class="line">        {                                                                                                            \</div>
+<div class="line">            void *CallerAddress = __builtin_extract_return_addr(__builtin_return_address(0));                        \</div>
+<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s] [%#lx =&gt; %s:%s:%d]&quot;</span>, #x, CallerAddress, __FILE__, __FUNCTION__, __LINE__); \</div>
+<div class="line">            while (1)                                                                                                \</div>
+<div class="line">                ;                                                                                                    \</div>
+<div class="line">        }                                                                                                            \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/assert_8h_source.html#l00006">6</a> of file <a class="el" href="../../dc/da7/assert_8h_source.html">assert.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/da7/assert_8h_source.html#l00008">8</a> of file <a class="el" href="../../dc/da7/assert_8h_source.html">assert.h</a>.</p>
+
+</div>
+</div>
+<a id="a95ff86cf1c81dcfa1136948e2bed6561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95ff86cf1c81dcfa1136948e2bed6561">&#9670;&nbsp;</a></span>assert_allow_continue</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define assert_allow_continue</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                                                                               \</div>
+<div class="line">    {                                                                                                                \</div>
+<div class="line">        if (!(x))                                                                                                    \</div>
+<div class="line">        {                                                                                                            \</div>
+<div class="line">            void *CallerAddress = __builtin_extract_return_addr(__builtin_return_address(0));                        \</div>
+<div class="line">            error(<span class="stringliteral">&quot;Assertion failed! [%s] [%#lx =&gt; %s:%s:%d]&quot;</span>, #x, CallerAddress, __FILE__, __FUNCTION__, __LINE__); \</div>
+<div class="line">        }                                                                                                            \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../dc/da7/assert_8h_source.html#l00020">20</a> of file <a class="el" href="../../dc/da7/assert_8h_source.html">assert.h</a>.</p>
 
 </div>
 </div>
@@ -148,7 +183,7 @@ Macros</h2></td></tr>
 <div class="line">    case 0:              \</div>
 <div class="line">    case (x):</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/assert_8h_source.html#l00014">14</a> of file <a class="el" href="../../dc/da7/assert_8h_source.html">assert.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/da7/assert_8h_source.html#l00030">30</a> of file <a class="el" href="../../dc/da7/assert_8h_source.html">assert.h</a>.</p>
 
 </div>
 </div>

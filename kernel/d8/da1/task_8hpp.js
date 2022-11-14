@@ -41,7 +41,6 @@ var task_8hpp =
     ] ],
     [ "Security", "d0/dbb/classTasking_1_1Security.html", "d0/dbb/classTasking_1_1Security" ],
     [ "Task", "dc/dc5/classTasking_1_1Task.html", "dc/dc5/classTasking_1_1Task" ],
-    [ "Arg", "d8/da1/task_8hpp.html#acea26a7e06860ac7effffcec10b93a2c", null ],
     [ "IP", "d8/da1/task_8hpp.html#a1d6c5ad87e3a04eb27f6958a4d7890d9", null ],
     [ "IPOffset", "d8/da1/task_8hpp.html#ab0bbf66a90216a502407b8e42f979338", null ],
     [ "Token", "d8/da1/task_8hpp.html#a6b1a832cb357dc05936d49b554a153aa", null ],

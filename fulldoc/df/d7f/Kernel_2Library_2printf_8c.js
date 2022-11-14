@@ -1,20 +1,20 @@
 var Kernel_2Library_2printf_8c =
 [
-    [ "double_with_bit_access", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#d6/da2/uniondouble__with__bit__access", [
-      [ "F", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a19956a356fdea4a486d8c385daaec639", null ],
-      [ "F", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a4d6bc97166bb287b6f50c263c0fa3219", null ],
-      [ "U", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#aa068905bf5228a7be958460b0f048d36", null ]
+    [ "double_with_bit_access", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#d6/da2/uniondouble__with__bit__access", [
+      [ "F", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#a19956a356fdea4a486d8c385daaec639", null ],
+      [ "F", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#a4d6bc97166bb287b6f50c263c0fa3219", null ],
+      [ "U", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#aa068905bf5228a7be958460b0f048d36", null ]
     ] ],
     [ "output_gadget_t", "d0/d3e/structoutput__gadget__t.html", "d0/d3e/structoutput__gadget__t" ],
-    [ "double_components", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#da/da6/structdouble__components", [
-      [ "fractional", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#acf179efd54b15394f041d42a5edc350c", null ],
-      [ "integral", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#ae00a7a0ca9f4f9807dd1b73bbd5a0787", null ],
-      [ "is_negative", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#aef2f729965d4a2dc89776a783883dd7e", null ]
+    [ "double_components", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#da/da6/structdouble__components", [
+      [ "fractional", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#acf179efd54b15394f041d42a5edc350c", null ],
+      [ "integral", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#ae00a7a0ca9f4f9807dd1b73bbd5a0787", null ],
+      [ "is_negative", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#aef2f729965d4a2dc89776a783883dd7e", null ]
     ] ],
-    [ "scaling_factor", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#db/dfc/structscaling__factor", [
-      [ "multiply", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a20a9219b33c6c3af38d83904470cc788", null ],
-      [ "raw_factor", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#aad65182c266c7f3d5d1a9c76d67f7776", null ],
-      [ "raw_factor", "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a6ca58048ee4d2c706d0b3a196cd847f8", null ]
+    [ "scaling_factor", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#db/dfc/structscaling__factor", [
+      [ "multiply", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#a20a9219b33c6c3af38d83904470cc788", null ],
+      [ "raw_factor", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#aad65182c266c7f3d5d1a9c76d67f7776", null ],
+      [ "raw_factor", "d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#a6ca58048ee4d2c706d0b3a196cd847f8", null ]
     ] ],
     [ "ABS_FOR_PRINTING", "df/d7f/Kernel_2Library_2printf_8c.html#a8d302099b82242df3916cbe38d476694", null ],
     [ "ADVANCE_IN_FORMAT_STRING", "df/d7f/Kernel_2Library_2printf_8c.html#adfc91b180601d6587c09c5faecc56460", null ],
