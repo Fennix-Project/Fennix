@@ -97,6 +97,9 @@ tools:
 
 build: build_lynx build_kernel build_userspace build_drivers build_image
 
+dump:
+	make --quiet -C Kernel dump
+
 rebuild: clean build
 
 # Quickly build the operating system (it won't create the ISO file and doxygen documentation)
