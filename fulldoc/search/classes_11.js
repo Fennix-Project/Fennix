@@ -1,19 +1,7 @@
 var searchData=
 [
-  ['scaling_5ffactor_4808',['scaling_factor',['../d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#db/dfc/structscaling__factor',1,'']]],
-  ['screenbuffer_4809',['ScreenBuffer',['../d6/de2/namespaceVideo.html#d6/d92/structVideo_1_1ScreenBuffer',1,'Video']]],
-  ['security_4810',['Security',['../d0/dbb/classTasking_1_1Security.html',1,'Tasking']]],
-  ['selectorerrorcode_4811',['SelectorErrorCode',['../d9/d25/namespaceCPU_1_1x64.html#dc/d33/unionCPU_1_1x64_1_1SelectorErrorCode',1,'CPU::x64']]],
-  ['selectorerrorcode_2e_5f_5funnamed_5f_5f_4812',['SelectorErrorCode.__unnamed__',['../d9/d25/namespaceCPU_1_1x64.html#dc/d34/structCPU_1_1x64_1_1SelectorErrorCode_8____unnamed____',1,'CPU::x64']]],
-  ['serial_4813',['Serial',['../dd/dd0/classFileSystem_1_1Serial.html',1,'FileSystem']]],
-  ['shared_5fptr_4814',['shared_ptr',['../d4/d67/classshared__ptr.html',1,'']]],
-  ['smart_5fptr_4815',['smart_ptr',['../dc/d42/classsmart__ptr.html',1,'']]],
-  ['smartsmapclass_4816',['SmartSMAPClass',['../da/ddb/classXalloc_1_1SmartSMAPClass.html',1,'Xalloc']]],
-  ['spawndata_4817',['SpawnData',['../d5/d27/namespaceExecute.html#d7/d93/structExecute_1_1SpawnData',1,'Execute']]],
-  ['sratheader_4818',['SRATHeader',['../d3/d21/classACPI_1_1ACPI.html#d6/d08/structACPI_1_1ACPI_1_1SRATHeader',1,'ACPI::ACPI']]],
-  ['stackframe_4819',['StackFrame',['../d2/d57/namespaceCrashHandler.html#da/d80/structCrashHandler_1_1StackFrame',1,'CrashHandler']]],
-  ['superblock_4820',['SuperBlock',['../d1/db8/classFileSystem_1_1EXT2.html#d9/d30/structFileSystem_1_1EXT2_1_1SuperBlock',1,'FileSystem::EXT2']]],
-  ['symbols_4821',['Symbols',['../d0/dcc/classSymbolResolver_1_1Symbols.html',1,'SymbolResolver']]],
-  ['symboltable_4822',['SymbolTable',['../d0/dcc/classSymbolResolver_1_1Symbols.html#db/d91/structSymbolResolver_1_1Symbols_1_1SymbolTable',1,'SymbolResolver::Symbols']]],
-  ['syscallsframe_4823',['SyscallsFrame',['../d0/d35/syscalls_8hpp.html#d3/d19/structSyscallsFrame',1,'']]]
+  ['random_5492',['Random',['../d2/d47/classFileSystem_1_1Random.html',1,'FileSystem']]],
+  ['rflags_5493',['RFLAGS',['../d9/d25/namespaceCPU_1_1x64.html#d8/dd8/unionCPU_1_1x64_1_1RFLAGS',1,'CPU::x64']]],
+  ['rflags_2e_5f_5funnamed93_5f_5f_5494',['RFLAGS.__unnamed93__',['../d9/d25/namespaceCPU_1_1x64.html#d1/dad/structCPU_1_1x64_1_1RFLAGS_8____unnamed93____',1,'CPU::x64']]],
+  ['rsdpinfo_5495',['RSDPInfo',['../db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo',1,'BootInfo']]]
 ];

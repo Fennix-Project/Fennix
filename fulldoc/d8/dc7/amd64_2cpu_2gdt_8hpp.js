@@ -41,7 +41,7 @@ var amd64_2cpu_2gdt_8hpp =
     [ "__attribute__", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#af56d4e43cb2f9795374f684a94904e9c", null ],
     [ "__attribute__", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a8870feefdb17eb7d7c63cabcd0c3d22e", null ],
     [ "Init", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a8f348435f90382d87ff30f9237f15a96", null ],
-    [ "SetKernelStack", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a33e107357e61a94cc72ab7d69cbc5fea", null ],
+    [ "SetKernelStack", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#af44df44be911e3d57e2faf23148d32f8", null ],
     [ "A", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#aa99de428bd3e7715b73b335a5af9e900", null ],
     [ "Access", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#acc4eb3652022f8d361fc89df0cd4a60e", null ],
     [ "BaseHigh", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2c483aeda65f9a985863382e09007f72", null ],

@@ -5,6 +5,7 @@ var debug_8h =
     [ "fixme", "db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f", null ],
     [ "info", "db/d16/debug_8h.html#aaef030dcfb502de87e0f47669c58c755", null ],
     [ "trace", "db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616", null ],
+    [ "ubsan", "db/d16/debug_8h.html#ad9f6a21afe9288f9a5d5bb06121e4f21", null ],
     [ "warn", "db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55", null ],
     [ "DebugLevel", "db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395", [
       [ "DebugLevelNone", "db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa114e9058dec632ed3a55b821021782a", null ],
@@ -13,7 +14,8 @@ var debug_8h =
       [ "DebugLevelInfo", "db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a025492f2cc5d5a4aac7b17cb0a1f6861", null ],
       [ "DebugLevelDebug", "db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a63db8a1dcf928bc7ecf8bfa76c603988", null ],
       [ "DebugLevelTrace", "db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f", null ],
-      [ "DebugLevelFixme", "db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd", null ]
+      [ "DebugLevelFixme", "db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd", null ],
+      [ "DebugLevelUbsan", "db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6", null ]
     ] ],
     [ "SysDbgWrite", "db/d16/debug_8h.html#abc59a019ad3de095adabdb813af7a867", null ],
     [ "SysDbgWriteLine", "db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f", null ]

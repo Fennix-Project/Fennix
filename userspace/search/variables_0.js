@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['a_5ftype_357',['a_type',['../d0/dc9/init_8cpp.html#a718e9da507aeab4eaff05dfd77214d19',1,'Elf64_auxv_t']]],
-  ['a_5fun_358',['a_un',['../d0/dc9/init_8cpp.html#aa2c1b5aa4d49b11078700073588379ba',1,'Elf64_auxv_t']]]
+  ['_5f_5fstack_5fchk_5fguard_361',['__stack_chk_guard',['../d2/d75/apps_2system_2init_2ssp_8c.html#a672a244d0201a0fa2a34e5773ca09d2f',1,'__stack_chk_guard():&#160;ssp.c'],['../d8/dc3/libc_2libssp_2ssp_8c.html#a672a244d0201a0fa2a34e5773ca09d2f',1,'__stack_chk_guard():&#160;ssp.c']]]
 ];

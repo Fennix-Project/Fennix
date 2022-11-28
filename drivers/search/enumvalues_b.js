@@ -1,19 +1,17 @@
 var searchData=
 [
-  ['radv_670',['RADV',['../de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5aedad76c53ed3ee548234582ae831c2ff',1,'e1000.cpp']]],
-  ['rctrl_671',['RCTRL',['../de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5abff57a488a35993c295f4724cc7d681a',1,'e1000.cpp']]],
-  ['rdmts_5feighth_672',['RDMTS_EIGHTH',['../de/d94/e1000_8cpp.html#afa3ad8687e362cbc1eadc6daf035c78ba9e5405d4edf6c2a6118f7ab1a5a9ca82',1,'e1000.cpp']]],
-  ['rdmts_5fhalf_673',['RDMTS_HALF',['../de/d94/e1000_8cpp.html#afa3ad8687e362cbc1eadc6daf035c78baa807b205b17e1d81c31aa34edafa909a',1,'e1000.cpp']]],
-  ['rdmts_5fquarter_674',['RDMTS_QUARTER',['../de/d94/e1000_8cpp.html#afa3ad8687e362cbc1eadc6daf035c78ba6cb135a51a422af3b2786730ebb9a4ce',1,'e1000.cpp']]],
-  ['rdtr_675',['RDTR',['../de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5a7ec11ed00922142ad0aa36721f8d1871',1,'e1000.cpp']]],
-  ['rps_676',['RPS',['../de/d94/e1000_8cpp.html#a04887de32e1f60f8dc157312b8f27665a70c1253eafaab50cb0b6d089fc8bb7f0',1,'e1000.cpp']]],
-  ['rs_677',['RS',['../de/d94/e1000_8cpp.html#a04887de32e1f60f8dc157312b8f27665a7c1dca0addd3da052405a264b9d8f333',1,'e1000.cpp']]],
-  ['rsrpd_678',['RSRPD',['../de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5ad196221add9f3aeef12d6fe899c9579a',1,'e1000.cpp']]],
-  ['rtlc_679',['RTLC',['../de/d94/e1000_8cpp.html#aa22b48f96c1de3de7a571b0eeac87ad7a7c48a40a5f038b0a401b6bed1b466550',1,'e1000.cpp']]],
-  ['rxdctl_680',['RXDCTL',['../de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5a015848ae1eb54dc4b6936fd0bf6afbd0',1,'e1000.cpp']]],
-  ['rxdeschead_681',['RXDESCHEAD',['../de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5a2e16884fdee77bb151f13b7b60ed9503',1,'e1000.cpp']]],
-  ['rxdeschi_682',['RXDESCHI',['../de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5a63ec7452ad9063eeba3f8ec156470cd4',1,'e1000.cpp']]],
-  ['rxdesclen_683',['RXDESCLEN',['../de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5a99684484a041a999f29d3e1a526c076e',1,'e1000.cpp']]],
-  ['rxdesclo_684',['RXDESCLO',['../de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5a097f314cc91afea917c9895e5f70f4c2',1,'e1000.cpp']]],
-  ['rxdesctail_685',['RXDESCTAIL',['../de/d94/e1000_8cpp.html#a8f899d7ad1af070aae505a85cc998fa5a2f059bf5bc7434816fad8d1f55622a76',1,'e1000.cpp']]]
+  ['pci_5fcommand_5ffast_5fback_723',['PCI_COMMAND_FAST_BACK',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31abec2438b9d131c227fb9bc0624444c2b',1,'pci.h']]],
+  ['pci_5fcommand_5fintx_5fdisable_724',['PCI_COMMAND_INTX_DISABLE',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31aff3170b5e4c33261d0f2f060a5b446d6',1,'pci.h']]],
+  ['pci_5fcommand_5finvalidate_725',['PCI_COMMAND_INVALIDATE',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31a78c80b2c82b9fa29ad0a0aae9f674225',1,'pci.h']]],
+  ['pci_5fcommand_5fio_726',['PCI_COMMAND_IO',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31a7a0e4bb84be35d939e114c7075febe16',1,'pci.h']]],
+  ['pci_5fcommand_5fmaster_727',['PCI_COMMAND_MASTER',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31a836ebe2d9d5607cda4da5cd323a01691',1,'pci.h']]],
+  ['pci_5fcommand_5fmemory_728',['PCI_COMMAND_MEMORY',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31a61761b8a143115165bde6b8d47a04dd1',1,'pci.h']]],
+  ['pci_5fcommand_5fparity_729',['PCI_COMMAND_PARITY',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31a5d781bb2bd9e45dc469e3949eaaec344',1,'pci.h']]],
+  ['pci_5fcommand_5fserr_730',['PCI_COMMAND_SERR',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31a5a0c359da65c71e95b8c0b94f1ee9964',1,'pci.h']]],
+  ['pci_5fcommand_5fspecial_731',['PCI_COMMAND_SPECIAL',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31a863ac4dcb61090a1e094d7eee753f94c',1,'pci.h']]],
+  ['pci_5fcommand_5fvga_5fpalette_732',['PCI_COMMAND_VGA_PALETTE',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31aaacae44e40ad2fbbb1d610d456a11a25',1,'pci.h']]],
+  ['pci_5fcommand_5fwait_733',['PCI_COMMAND_WAIT',['../d9/d97/pci_8h.html#ad2e0ff6581aedf5d86fb4e3cbcc08a31a60e658286d9486fbcbf5b35b41e7b237',1,'pci.h']]],
+  ['pm_734',['PM',['../de/d94/AHCI_8cpp.html#a7674c329addda8fbe6176bbbf25c8b21a4e84ba06a563492b48e6b6e25dd85c2d',1,'AHCI.cpp']]],
+  ['pmcf_735',['PMCF',['../de/d94/e1000_8cpp.html#a9da0cd24a6a25aecf5fba3e3cedf075fa64d6e0a45ce6a3b3279bd6039aebe482',1,'e1000.cpp']]],
+  ['psp_736',['PSP',['../de/d94/e1000_8cpp.html#aa22b48f96c1de3de7a571b0eeac87ad7aafa3ba7eacd4a691d44c7eb6b4cc1f19',1,'e1000.cpp']]]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['f_362',['F',['../d1/d3d/printf_8c.html#a19956a356fdea4a486d8c385daaec639',1,'double_with_bit_access']]],
-  ['fractional_363',['fractional',['../d1/d3d/printf_8c.html#acf179efd54b15394f041d42a5edc350c',1,'double_components']]],
-  ['function_364',['function',['../d0/d3e/structoutput__gadget__t.html#a30aadd01fcf778706141590b88269226',1,'output_gadget_t']]]
+  ['error_365',['error',['../d2/d8a/dlfcn_8c.html#a37a27b523e8aff433c8a4adda2295f0d',1,'dlfcn.c']]],
+  ['extra_5ffunction_5farg_366',['extra_function_arg',['../d0/d3e/structoutput__gadget__t.html#aaf947c71c3d1c2e03e1227679ce310f9',1,'output_gadget_t']]]
 ];

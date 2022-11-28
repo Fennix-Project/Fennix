@@ -5,5 +5,6 @@ var dir_49e28e04fe5a683ab6442a3687c2ecf7 =
     [ "PageDirectoryEntry.cpp", "df/dc1/PageDirectoryEntry_8cpp.html", null ],
     [ "PageMapIndexer.cpp", "dc/d3c/PageMapIndexer_8cpp.html", null ],
     [ "PhysicalMemoryManager.cpp", "d4/d60/PhysicalMemoryManager_8cpp.html", null ],
+    [ "StackGuard.cpp", "d9/d13/StackGuard_8cpp.html", null ],
     [ "VirtualMemoryManager.cpp", "d8/d49/VirtualMemoryManager_8cpp.html", null ]
 ];

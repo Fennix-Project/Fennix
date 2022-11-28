@@ -1,24 +1,26 @@
 /*
-@licstart  The following is the entire license notice for the
-JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
 
-Copyright (C) 1997-2019 by Dimitri van Heesch
+ The MIT License (MIT)
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of version 2 of the GNU General Public License as published by
-the Free Software Foundation
+ Copyright (C) 1997-2020 by Dimitri van Heesch
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
 
-@licend  The above is the entire license notice
-for the JavaScript code in this file
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var NAVTREE =
 [
@@ -75,38 +77,47 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a5795434162142e7ffc4d2d7af11d6e71",
-"d0/df4/Kernel_2include_2types_8h.html#a678494ae5435d8904e7972c94618e774",
-"d1/d85/filesystem_8hpp.html#a498378a40f6f4c8232aca28f9be264d1a1ec4c53eb1086faa61408c17f8880baa",
-"d1/d9e/elf_8h.html#a6e3e71538da0fd130aef1aac6446e7faacd51d1034bc54ac7901674c6e61821bc",
-"d1/dfc/kconfig_8hpp.html#a1858639b4c5d17a755084b7c55dbc6ed",
-"d3/d21/classACPI_1_1ACPI.html#a0f9e21ad451dce55f9db5960118dff0d",
-"d3/d56/namespaceTime.html",
-"d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17a328f938175fec590fa92f8b6cd7ffdfb",
-"d5/dba/multiboot2_8h.html#a001f3bf1c38e837fe3e1e0653aac2848",
-"d5/dba/multiboot2_8h.html#df/d38/structmultiboot__tag__efi64__ih",
-"d7/d2c/classDisk_1_1Manager.html#ac66feb4c05116b774430766c264d3926",
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a942d4e37dd5607ab68e54755540d4a47",
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d5/d4b/unionCPU_1_1x64_1_1Intel_1_1CPUID0x4__1_8ECX",
-"d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97",
-"d8/da1/task_8hpp.html#a6b9393cc83799934196d53b04f097af8ab4361355ef5fe95d2d097e6250288db6",
-"d9/d25/namespaceCPU_1_1x64.html#a4f66f71dbb8dd2cf189cb68eb0246da3",
-"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#a0df45acb613508b62a77ed7ae4dc6e37",
-"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#ae43a782b567789a403c52581821cc538",
-"da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#ac04a8297d249fe04b86ac22d9f4db11e",
-"db/d92/cargs_8c.html#a163dea3a7d465f174ad9de0845284790",
-"db/d9e/Linux_8cpp.html#a61ed6bb4bce6b25e411f0c6c55df1247",
-"db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#aa564d1a8832090131b83d62eae1f07d7",
-"dc/dd9/chfcts_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bca646fa70f272326f3bbfb1266c41531ea",
-"dd/d79/apic_8hpp.html#a252bce27eb2a8808cb9c821b878e1ac0a74bf4113b119d5ffda19d15668b04241",
-"de/d63/msexec_8h.html#a688c892a1d52c71bfd763ae89104571e",
-"df/d19/Userspace_2libc_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e",
-"df/d7f/Kernel_2Library_2printf_8c.html#a974e6c4c3f16de1b8382bc1bcbb3b65f",
-"df/dbe/cpu_8hpp.html#a36c9cec970957608ac98e64a0e7dbb50a927bd132d02dc8850edb9f3cba8f4811",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda5a62c6c77976756917f3fcb2d34f9794",
-"df/dbe/cpu_8hpp.html#a702f5a60feb9b5169ea93bfa93be50f8",
-"dir_f0fef9ff6e04384e5650e6519950acee.html",
-"namespacemembers_eval_q.html"
+"d0/da5/Fex_8hpp.html#dc/d00/structFexExtended_1_1DriverBind_8Driver_8Bind_8Input",
+"d0/df0/classFileSystem_1_1USTAR.html#de/d80/structFileSystem_1_1USTAR_1_1FileHeader",
+"d1/d1f/classXalloc_1_1XLockClass.html#d3/d8a/structXalloc_1_1XLockClass_1_1SpinLockData",
+"d1/d90/acpi_8hpp.html#a1dc2a9915615bb7c462e648ccde0c6ac",
+"d1/d9e/elf_8h.html#aab8a7e71c15cccd3f1d721420cd3c2ee",
+"d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a7bea98d4852bf4c7478267ffb4f1581c",
+"d2/db2/namespaceInterruptDescriptorTable.html#afb7ecf9fc0491027fc6c9457c9e7a71f",
+"d3/d21/classACPI_1_1ACPI.html#adb73c091bf61a9727f7b85477138176f",
+"d3/d88/namespaceAPIC.html#a4eccb55894bfa8449f8fa3ff69887186a9da27b7da268967cb28f81abd33cde99",
+"d3/d88/namespaceAPIC.html#a93876cb309016fa725517b046474c44b",
+"d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda60604bbb34dea717b453eefa3cfe3f5b",
+"d4/db2/DriverAPI_8cpp_source.html",
+"d5/dba/multiboot2_8h.html#a65898ff6ba8738ecd96ac9f42675e3b3",
+"d5/dff/namespacePower.html",
+"d7/d21/InterruptDescriptorTable_8cpp.html#a2d9560d834d891b9d8f0e76ced1bc8a7",
+"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a6e21d9cd5cb8b15cd0068f5c69b7ecb8",
+"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#aff3da9fa37305280824b8a9e11299b56",
+"d7/db9/Symbols_8cpp.html#a1252205db8db05232864c37c88d62598",
+"d8/d13/Userspace_2apps_2system_2init_2printf_8c.html#ab6f8f053fe123435128cfcff1d407d75",
+"d8/dc8/group__ALLOCHOOKS.html#ga8b5670e4594b0b6f8be78fe17f0c3b53",
+"d9/d25/namespaceCPU_1_1x64.html#a36c9cec970957608ac98e64a0e7dbb50a950f33fa1e1aa5a4bd5daccefe071e8e",
+"d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bda4ebfc0b6edd0b08fbb375e684c9c092c",
+"d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bdafab48fce1e29815aab23464381183783",
+"d9/d3e/namespaceTasking.html#a43029c8006323b1bb87a90105912cc87",
+"d9/d86/limits_8h.html#aa05d197000ad5c143ada0fcd9379b236",
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#acbb179b45ebb240c6ec51390ac12e562",
+"da/d15/UndefinedBehaviorSanitization_8c.html#a427a30793f7a1a0b7fa583469c1494cb",
+"da/db0/md5_8h.html#a2a50318349e24e18b6ba01d5b4589857",
+"db/d96/structBootInfo.html#aa77a54ab865bf5cbf639e25395bcf0e8",
+"db/d9e/Linux_8cpp.html#a97ed655131d38c46ccdcbdf99e6de65c",
+"dc/d78/Userspace_2apps_2system_2init_2printf_8h.html#aa0320d28406c4c8399830583177fdc77",
+"dc/dd9/chfcts_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bcab5876400630383f9d9c97f421630758b",
+"dd/dc9/classACPI_1_1DSDT.html#a2cb9cc1b2fafe1c605988e23be25a3e6",
+"de/d63/msexec_8h.html#aee60afa5dd261371bc0a0aa5d0cd4458",
+"de/d81/i686_2cpu_2apic_8hpp.html#a86492322c9530136899b76278960e1faa8fc70f22499570c2226541f6f45c1378",
+"df/d19/Userspace_2libc_2include_2types_8h.html#aeb74410af7781bc84b5f64ae7a8f4a17",
+"df/dad/GlobalDescriptorTable_8cpp_source.html",
+"df/dbe/cpu_8hpp.html#a36c9cec970957608ac98e64a0e7dbb50acae7a8fd9b21471782370f9cfda22264",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda7b7f95aec578f071ff0c53bff7d26be7",
+"df/dbe/cpu_8hpp.html#ab40c41b740716660e53aa57978e59281",
+"functions_k.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

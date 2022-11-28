@@ -47,7 +47,7 @@ var AHCI_8cpp =
       [ "PortMultiplier", "de/d94/AHCI_8cpp.html#af96c8045b60e8dbcbf5812adffd7dcee", null ],
       [ "PRDBCount", "de/d94/AHCI_8cpp.html#af8462ab8fe6d930d8bf09e6c3df2b02b", null ],
       [ "PRDTLength", "de/d94/AHCI_8cpp.html#ac621d5f9c7fa4e5a774f5576f6cb9d3a", null ],
-      [ "Prefetchable", "de/d94/AHCI_8cpp.html#acbcb283e6423be37bd57471383707e48", null ],
+      [ "Preferable", "de/d94/AHCI_8cpp.html#ab5089a7a3a5952e5e21be4b7b024dad2", null ],
       [ "Reserved0", "de/d94/AHCI_8cpp.html#a5a9bbaace5be0dbd2c523996fdc2cfb7", null ],
       [ "Reserved1", "de/d94/AHCI_8cpp.html#a82a0b642f0a8715f4f95e537fb12f453", null ],
       [ "Reset", "de/d94/AHCI_8cpp.html#ad83ffa6e04ffc1de801b20453258249e", null ],

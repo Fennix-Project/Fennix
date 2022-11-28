@@ -937,16 +937,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>__attribute__</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d2/dc3/liballoc__1__1_8c.html</Path>
-    <Anchor>aea78d39584cca77a59935155bdb36227</Anchor>
-    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>l_memRoot</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
@@ -3015,7 +3005,6 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
-    <Abstract>These are the OS specific functions which need to be implemented on any platform that the library is ...</Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

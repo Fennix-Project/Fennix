@@ -2,12 +2,13 @@ var Fex_8hpp =
 [
     [ "Fex", "d2/ddc/structFex.html", "d2/ddc/structFex" ],
     [ "FexExtended", "d0/da5/Fex_8hpp.html#d5/d3a/structFexExtended", [
-      [ "Driver", "d0/da5/Fex_8hpp.html#ac5d7eb89ef3c1b3b54f69fb678c6e923", null ],
-      [ "Executable", "d0/da5/Fex_8hpp.html#ae680dc4cb951c9ce03299adaf0f98fb2", null ]
+      [ "Driver", "d0/da5/Fex_8hpp.html#a5a5fd3b063d1a8494fa26bb23de0bd0b", null ],
+      [ "Executable", "d0/da5/Fex_8hpp.html#a33fe9ed4ab5240a11544e1cd4398e4d0", null ]
     ] ],
     [ "FexExtended.Executable", "d0/da5/Fex_8hpp.html#d0/de5/structFexExtended_8Executable", null ],
     [ "FexExtended.Driver", "db/d74/structFexExtended_8Driver.html", "db/d74/structFexExtended_8Driver" ],
     [ "DriverBind.Driver.Bind", "d0/da5/Fex_8hpp.html#d4/dfa/structFexExtended_1_1DriverBind_8Driver_8Bind", [
+      [ "Input", "d0/da5/Fex_8hpp.html#a324118a6721dd6b8a9b9f4e327df2bf5", null ],
       [ "Interrupt", "d0/da5/Fex_8hpp.html#a1ce92afa20b1c7f6a4e5d0dc73e5c92a", null ],
       [ "PCI", "d0/da5/Fex_8hpp.html#ac89b74e7544d782dd33c25fdaae40b8f", null ],
       [ "Process", "d0/da5/Fex_8hpp.html#ab6ec7abeb6ae29cc35a4b47475e12afe", null ],
@@ -25,6 +26,10 @@ var Fex_8hpp =
       [ "ProgIF", "d0/da5/Fex_8hpp.html#a59f9893dc23face93e1c153ac7c0afd7", null ],
       [ "SubClass", "d0/da5/Fex_8hpp.html#a5de98b84de50152da0e79987d3d14c11", null ],
       [ "VendorID", "d0/da5/Fex_8hpp.html#a01134624ba091b7d34f1272c3c030411", null ]
+    ] ],
+    [ "DriverBind.Driver.Bind.Input", "d0/da5/Fex_8hpp.html#dc/d00/structFexExtended_1_1DriverBind_8Driver_8Bind_8Input", [
+      [ "AttachToKeyboard", "d0/da5/Fex_8hpp.html#a847370611f873a094ec563c1e7e0f03b", null ],
+      [ "AttachToMouse", "d0/da5/Fex_8hpp.html#ab6c64eb1a0f89779dcd11e63bbcbbe0a", null ]
     ] ],
     [ "EXTENDED_SECTION_ADDRESS", "d0/da5/Fex_8hpp.html#aef4d10f2159958afdb55550f2ea441e5", null ],
     [ "HEAD", "d0/da5/Fex_8hpp.html#a922307d866ecf80a99c17b943fb95635", null ],
@@ -49,8 +54,8 @@ var Fex_8hpp =
       [ "FexOSType_Linux", "d0/da5/Fex_8hpp.html#a62bb50ae06aa34053f11cf2f14a99518a3569d7778c6dd3acdbf1755aff340a65", null ]
     ] ],
     [ "__attribute__", "d0/da5/Fex_8hpp.html#a35a6f8c90ab79a9659aa4fb668ec8650", null ],
-    [ "Driver", "d0/da5/Fex_8hpp.html#a3ed5e0844ef42d3977efded942eb608b", null ],
-    [ "Executable", "d0/da5/Fex_8hpp.html#aba8d16546f012179dc2d2d78ffb5af8e", null ],
+    [ "Driver", "d0/da5/Fex_8hpp.html#ae2a2c73cfa57c88e3dfdba6dbaabe6b4", null ],
+    [ "Executable", "d0/da5/Fex_8hpp.html#aa8431e576b74991ccb304d09e68d3885", null ],
     [ "Magic", "d0/da5/Fex_8hpp.html#a3278eb63dee94fdce712aae733087a84", null ],
     [ "OS", "d0/da5/Fex_8hpp.html#a07a5a485398d88b4be58f70d0350b8bd", null ],
     [ "Pointer", "d0/da5/Fex_8hpp.html#a82f0a46f885cd3241fcaa20022f89d1d", null ],

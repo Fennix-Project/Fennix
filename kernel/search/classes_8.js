@@ -1,12 +1,11 @@
 var searchData=
 [
-  ['handler_4660',['Handler',['../dd/dae/classInterrupts_1_1Handler.html',1,'Interrupts']]],
-  ['hashmap_4661',['HashMap',['../db/d1a/classHashMap.html',1,'']]],
-  ['hashmap_3c_20interprocesscommunication_3a_3aipcport_2c_20uint64_5ft_20_3e_4662',['HashMap&lt; InterProcessCommunication::IPCPort, uint64_t &gt;',['../db/d1a/classHashMap.html',1,'']]],
-  ['hashnode_4663',['HashNode',['../d7/d56/classHashNode.html',1,'']]],
-  ['hashnode_3c_20interprocesscommunication_3a_3aipcport_2c_20uint64_5ft_20_3e_4664',['HashNode&lt; InterProcessCommunication::IPCPort, uint64_t &gt;',['../d7/d56/classHashNode.html',1,'']]],
-  ['heapsegment_4665',['HeapSegment',['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html',1,'Xalloc::AllocatorV1']]],
-  ['hestheader_4666',['HESTHeader',['../d3/d21/classACPI_1_1ACPI.html#da/d64/structACPI_1_1ACPI_1_1HESTHeader',1,'ACPI::ACPI']]],
-  ['hpet_4667',['HPET',['../dd/d8d/classTime_1_1time.html#da/d40/structTime_1_1time_1_1HPET',1,'Time::time']]],
-  ['hpetheader_4668',['HPETHeader',['../d3/d21/classACPI_1_1ACPI.html#da/d4b/structACPI_1_1ACPI_1_1HPETHeader',1,'ACPI::ACPI']]]
+  ['gcov_5fctr_5finfo_5317',['gcov_ctr_info',['../d9/d44/structgcov__ctr__info.html',1,'']]],
+  ['gcov_5ffn_5finfo_5318',['gcov_fn_info',['../dd/d2a/gcov_8cpp.html#dd/d8a/structgcov__fn__info',1,'']]],
+  ['gcov_5finfo_5319',['gcov_info',['../dd/d2a/gcov_8cpp.html#df/d04/structgcov__info',1,'']]],
+  ['genericaddressstructure_5320',['GenericAddressStructure',['../d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure',1,'ACPI::ACPI']]],
+  ['globaldescriptortableaccess_5321',['GlobalDescriptorTableAccess',['../d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html',1,'GlobalDescriptorTable']]],
+  ['globaldescriptortableflags_5322',['GlobalDescriptorTableFlags',['../dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html',1,'GlobalDescriptorTable']]],
+  ['guidpartitiontable_5323',['GUIDPartitionTable',['../d1/d29/namespaceDisk.html#df/dcb/structDisk_1_1GUIDPartitionTable',1,'Disk']]],
+  ['guidpartitiontablepartition_5324',['GUIDPartitionTablePartition',['../d1/d29/namespaceDisk.html#d6/de1/structDisk_1_1GUIDPartitionTablePartition',1,'Disk']]]
 ];

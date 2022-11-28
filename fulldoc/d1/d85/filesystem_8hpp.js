@@ -1,15 +1,15 @@
 var filesystem_8hpp =
 [
-    [ "FileSystemOpeations", "d6/df5/namespaceFileSystem.html#dd/d34/structFileSystem_1_1FileSystemOpeations", [
-      [ "Close", "d6/df5/namespaceFileSystem.html#a9ecd14f84fea41bbe928bffd29cf83a1", null ],
-      [ "Create", "d6/df5/namespaceFileSystem.html#af452f25b637475ea83a813081cd107b5", null ],
-      [ "MakeDirectory", "d6/df5/namespaceFileSystem.html#ac35457639967abcf4c1d963ecafd199c", null ],
-      [ "Mount", "d6/df5/namespaceFileSystem.html#a6b91873cab1c1caaad292a6cdbfee7f6", null ],
-      [ "Name", "d6/df5/namespaceFileSystem.html#a1e2b4b2ba79bc48181134dc0381a95ee", null ],
-      [ "Open", "d6/df5/namespaceFileSystem.html#a2ecca6854f26ce93877f175e426c185d", null ],
-      [ "Read", "d6/df5/namespaceFileSystem.html#aab0f6c5778ca4a73aa39d9d01e7fe175", null ],
-      [ "Umount", "d6/df5/namespaceFileSystem.html#a1479b4a247102b45f2ea98abf7356afd", null ],
-      [ "Write", "d6/df5/namespaceFileSystem.html#a953abd3726e63d77e61aea2d2da1cbbf", null ]
+    [ "FileSystemOperations", "d6/df5/namespaceFileSystem.html#d1/da1/structFileSystem_1_1FileSystemOperations", [
+      [ "Close", "d6/df5/namespaceFileSystem.html#a3e81067cdb5eed8046873675d36f15f4", null ],
+      [ "Create", "d6/df5/namespaceFileSystem.html#afff18b73b55f1a8dbd78a6785d3c979d", null ],
+      [ "MakeDirectory", "d6/df5/namespaceFileSystem.html#ab26929cb1c1c6adccf0b625986cd91df", null ],
+      [ "Mount", "d6/df5/namespaceFileSystem.html#a657559f144b75b5da34d4466fd8de127", null ],
+      [ "Name", "d6/df5/namespaceFileSystem.html#a0e7c0dbd005546a4e7d532d352cb5fe3", null ],
+      [ "Open", "d6/df5/namespaceFileSystem.html#a82f99f1b402aae6fc3afdfcdc16a9b85", null ],
+      [ "Read", "d6/df5/namespaceFileSystem.html#a3b0bcd3082dd54ef85614f31908ec361", null ],
+      [ "Umount", "d6/df5/namespaceFileSystem.html#ab820ee063560f3725c88786a04c05679", null ],
+      [ "Write", "d6/df5/namespaceFileSystem.html#a7f239b904e3cc8b7cc9ec1a78962d454", null ]
     ] ],
     [ "FileSystemNode", "d6/df5/namespaceFileSystem.html#df/d0b/structFileSystem_1_1FileSystemNode", [
       [ "Address", "d6/df5/namespaceFileSystem.html#ac7eec7e2fcdb79b87082842372bae65e", null ],
@@ -21,7 +21,7 @@ var filesystem_8hpp =
       [ "Mask", "d6/df5/namespaceFileSystem.html#adbe65bc01d368886037f73f2a61905d2", null ],
       [ "Mode", "d6/df5/namespaceFileSystem.html#ab8ec2e45904a9122af92052c4ddcfc03", null ],
       [ "Name", "d6/df5/namespaceFileSystem.html#ae72079aa6265683fb0fa37e1d7be97d8", null ],
-      [ "Operator", "d6/df5/namespaceFileSystem.html#ad519bbc0ce7d78da2c51693c61577079", null ],
+      [ "Operator", "d6/df5/namespaceFileSystem.html#a89e419d8ee2698534f2294f6c36a545f", null ],
       [ "Parent", "d6/df5/namespaceFileSystem.html#a82da203e43ed7e0eb53431ada71846fb", null ],
       [ "UserIdentifier", "d6/df5/namespaceFileSystem.html#a575f911342ac4068ffbd2213fd2f2c0e", null ]
     ] ],

@@ -41,7 +41,6 @@ var Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c =
     [ "liballoc_memset", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#ad824e94da51543e1febb05f96f0083ba", null ],
     [ "malloc", "d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c", null ],
     [ "realloc", "d8/dc8/group__ALLOCHOOKS.html#gadc710223dc26577d1e49cac212d7d083", null ],
-    [ "__attribute__", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#aea78d39584cca77a59935155bdb36227", null ],
     [ "l_allocated", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#ab0e0c20055b59102841b90dc4ec55610", null ],
     [ "l_bestBet", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#aa564d1a8832090131b83d62eae1f07d7", null ],
     [ "l_errorCount", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#af83e911f592858658db8dba2a74f5772", null ],

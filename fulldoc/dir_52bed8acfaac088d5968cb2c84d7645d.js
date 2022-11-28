@@ -6,6 +6,8 @@ var dir_52bed8acfaac088d5968cb2c84d7645d =
     [ "FileSystem", "dir_fc640013f0a76820c9597bdd35dc893a.html", "dir_fc640013f0a76820c9597bdd35dc893a" ],
     [ "include", "dir_2c335c1ccbf6ef7c89cc08c9ed88be2e.html", "dir_2c335c1ccbf6ef7c89cc08c9ed88be2e" ],
     [ "Library", "dir_bc57d2c181e5486d5586596c831c91e5.html", "dir_bc57d2c181e5486d5586596c831c91e5" ],
+    [ "Profiling", "dir_d2985db07a4f9632175563fc4783bdd4.html", "dir_d2985db07a4f9632175563fc4783bdd4" ],
+    [ "Recovery", "dir_ed24e256090ba8e6146c99f5e77ba83d.html", "dir_ed24e256090ba8e6146c99f5e77ba83d" ],
     [ "SystemCalls", "dir_fcf8e18894f194e302f59c8376612fd7.html", "dir_fcf8e18894f194e302f59c8376612fd7" ],
     [ "Tasking", "dir_e84271607a0ed4280951d9e6a4794fe3.html", "dir_e84271607a0ed4280951d9e6a4794fe3" ],
     [ "DAPI.hpp", "d3/dfe/DAPI_8hpp.html", "d3/dfe/DAPI_8hpp" ],

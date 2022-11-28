@@ -40,6 +40,7 @@ var InterruptDescriptorTable_8cpp =
     [ "Init", "d7/d21/InterruptDescriptorTable_8cpp.html#a5275e6707c957c5ba4b050102990c908", null ],
     [ "MainInterruptHandler", "d7/d21/InterruptDescriptorTable_8cpp.html#ab315401343457f280dc7e89bd8ec6308", null ],
     [ "SetEntry", "d7/d21/InterruptDescriptorTable_8cpp.html#a91dd97eaf022dfa7a023a8734aa59a1b", null ],
+    [ "WarnSwapgs", "d7/d21/InterruptDescriptorTable_8cpp.html#a9e2cf47e4e1b15cff7dad322bc9344cc", null ],
     [ "Entries", "d7/d21/InterruptDescriptorTable_8cpp.html#a679e5cab62e2086ee8684461fa9afa16", null ],
     [ "idtd", "d7/d21/InterruptDescriptorTable_8cpp.html#a2d9560d834d891b9d8f0e76ced1bc8a7", null ]
 ];

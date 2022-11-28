@@ -59,5 +59,6 @@ var structBootInfo =
     [ "Framebuffer", "db/d96/structBootInfo.html#a14e992487e0c513d034fff0107d2a63f", null ],
     [ "Kernel", "db/d96/structBootInfo.html#ae01ac1727fbb31d0fad56381cb6c858f", null ],
     [ "Memory", "db/d96/structBootInfo.html#af20195d9ca2aca3e8c401d10eb477c25", null ],
-    [ "Modules", "db/d96/structBootInfo.html#a66f34d5eae212d81e4f13032903863a4", null ]
+    [ "Modules", "db/d96/structBootInfo.html#a66f34d5eae212d81e4f13032903863a4", null ],
+    [ "SMBIOSPtr", "db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19", null ]
 ];

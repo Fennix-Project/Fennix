@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['raw_5ffactor_371',['raw_factor',['../d1/d3d/printf_8c.html#aad65182c266c7f3d5d1a9c76d67f7776',1,'scaling_factor']]]
+  ['pos_374',['pos',['../d0/d3e/structoutput__gadget__t.html#a2d7fbb42e24b385e482e9ba39de214bd',1,'output_gadget_t']]],
+  ['powers_5fof_5f10_375',['powers_of_10',['../d1/d3d/printf_8c.html#a974e6c4c3f16de1b8382bc1bcbb3b65f',1,'printf.c']]]
 ];

@@ -1,12 +1,13 @@
 var init_8cpp =
 [
     [ "Elf64_auxv_t", "d0/dc9/init_8cpp.html#d9/de7/structElf64__auxv__t", [
-      [ "a_type", "d0/dc9/init_8cpp.html#a718e9da507aeab4eaff05dfd77214d19", null ],
       [ "a_type", "d0/dc9/init_8cpp.html#aa4799367aa86aa03c70a44148b14d000", null ],
-      [ "a_un", "d0/dc9/init_8cpp.html#afd72da4a557c4afe26bbb716b25ff96b", null ],
-      [ "a_un", "d0/dc9/init_8cpp.html#a028db0332a10320161328e9398feab1d", null ]
+      [ "a_type", "d0/dc9/init_8cpp.html#a718e9da507aeab4eaff05dfd77214d19", null ],
+      [ "a_un", "d0/dc9/init_8cpp.html#aeb247638e11636ac57b2b092d0a71c5c", null ],
+      [ "a_un", "d0/dc9/init_8cpp.html#a7b9c8e231c1394ecf949270bbfe69b68", null ]
     ] ],
     [ "Elf64_auxv_t.a_un", "d0/dc9/init_8cpp.html#d0/dc1/unionElf64__auxv__t_8a__un", [
+      [ "a_val", "d0/dc9/init_8cpp.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/dc9/init_8cpp.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],
     [ "AT_BASE", "d0/dc9/init_8cpp.html#a9b8e51a44a47d7ea827c570ffdca14e5", null ],

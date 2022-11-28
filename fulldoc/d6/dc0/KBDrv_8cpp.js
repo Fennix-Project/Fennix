@@ -1,9 +1,7 @@
 var KBDrv_8cpp =
 [
-    [ "append", "d6/dc0/KBDrv_8cpp.html#a17091b21b245979785afed043c5a62d8", null ],
-    [ "backspace", "d6/dc0/KBDrv_8cpp.html#a6ea87d031ef388097959887799e9e779", null ],
     [ "GetLetterFromScanCode", "d6/dc0/KBDrv_8cpp.html#a2bd55a4591cd65f1a1e891a857bdd34d", null ],
-    [ "HookKeyboard", "d6/dc0/KBDrv_8cpp.html#af832542b2e5039842155e873c2a612f4", null ],
+    [ "HookKeyboard", "d6/dc0/KBDrv_8cpp.html#aac22d9a943100f4847c5268acaba0e59", null ],
     [ "if", "d6/dc0/KBDrv_8cpp.html#a17275878cd2de20a18390b72d3193707", null ],
     [ "if", "d6/dc0/KBDrv_8cpp.html#a1e244bc3fc8b088079546ac9407a1479", null ],
     [ "switch", "d6/dc0/KBDrv_8cpp.html#aa1e33f0867478ecc51e76157c8d37c8e", null ],

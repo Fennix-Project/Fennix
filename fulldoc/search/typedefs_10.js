@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['wchar_7035',['WCHAR',['../de/d63/msexec_8h.html#aad61bc3eae1804d8784adebdce0721d3',1,'msexec.h']]],
-  ['word_7036',['WORD',['../de/d63/msexec_8h.html#a197942eefa7db30960ae396d68339b97',1,'msexec.h']]]
+  ['va_5flist_8130',['va_list',['../d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1',1,'va_list():&#160;types.h'],['../df/d19/Userspace_2libc_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1',1,'va_list():&#160;types.h']]]
 ];

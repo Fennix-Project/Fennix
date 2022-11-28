@@ -1,24 +1,5 @@
 var searchData=
 [
-  ['uarch_5ft_6946',['uarch_t',['../d7/d66/cxxabi_8cpp.html#a35fc01d4eba01f3f2ec636bd6b5ff34f',1,'cxxabi.cpp']]],
-  ['uchar_6947',['UCHAR',['../de/d63/msexec_8h.html#a4f4bb67531a9bf6f0b9c6ad76aeba587',1,'msexec.h']]],
-  ['uint_6948',['UINT',['../de/d63/msexec_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec',1,'msexec.h']]],
-  ['uint16_5ft_6949',['uint16_t',['../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e',1,'types.h']]],
-  ['uint32_5ft_6950',['uint32_t',['../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f',1,'types.h']]],
-  ['uint64_5ft_6951',['uint64_t',['../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1',1,'types.h']]],
-  ['uint8_5ft_6952',['uint8_t',['../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d',1,'types.h']]],
-  ['uint_5ffast16_5ft_6953',['uint_fast16_t',['../d9/d49/types_8h.html#aaabed6e034edb01c259c003894d7f7c8',1,'types.h']]],
-  ['uint_5ffast32_5ft_6954',['uint_fast32_t',['../d9/d49/types_8h.html#aa44ff507c3d9a49e27fac64e9fadf062',1,'types.h']]],
-  ['uint_5ffast64_5ft_6955',['uint_fast64_t',['../d9/d49/types_8h.html#a62c711f66c6d29c81429aeafdc4bc592',1,'types.h']]],
-  ['uint_5ffast8_5ft_6956',['uint_fast8_t',['../d9/d49/types_8h.html#a2464ed69ccd3fd2b3b4c93cb78f6fa20',1,'types.h']]],
-  ['uint_5fleast16_5ft_6957',['uint_least16_t',['../d9/d49/types_8h.html#a1a01d6a4e68e435471be2ae8db7e8fdc',1,'types.h']]],
-  ['uint_5fleast32_5ft_6958',['uint_least32_t',['../d9/d49/types_8h.html#a678494ae5435d8904e7972c94618e774',1,'types.h']]],
-  ['uint_5fleast64_5ft_6959',['uint_least64_t',['../d9/d49/types_8h.html#aba0cb5638c172422eb4a7555a143fbbc',1,'types.h']]],
-  ['uint_5fleast8_5ft_6960',['uint_least8_t',['../d9/d49/types_8h.html#a61d44370ed65907c324edad5e8d34632',1,'types.h']]],
-  ['uintmax_5ft_6961',['uintmax_t',['../d9/d49/types_8h.html#a4e5632221b295f0fcdcb2233f3f60515',1,'types.h']]],
-  ['uintptr_5ft_6962',['uintptr_t',['../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808',1,'types.h']]],
-  ['ulong_6963',['ULONG',['../de/d63/msexec_8h.html#aac99e7e2d1394af1d48b0608ee806f6c',1,'msexec.h']]],
-  ['upid_6964',['UPID',['../d9/d3e/namespaceTasking.html#a04e2f481f6f63a104eee16ed8e34d0c0',1,'Tasking']]],
-  ['ushort_6965',['USHORT',['../de/d63/msexec_8h.html#a5850d5316caf7f4cedd742fdf8cd7c02',1,'msexec.h']]],
-  ['utid_6966',['UTID',['../d9/d3e/namespaceTasking.html#af5a2dfa2e9c69bcc3e82a0d7dc7a939e',1,'Tasking']]]
+  ['token_8022',['Token',['../d9/d3e/namespaceTasking.html#a6b1a832cb357dc05936d49b554a153aa',1,'Tasking']]],
+  ['trapframe_8023',['TrapFrame',['../de/d78/namespaceCPU_1_1x32.html#ad32608774d85b36615c7a8500f842317',1,'CPU::x32::TrapFrame()'],['../d9/d25/namespaceCPU_1_1x64.html#a7b876ab130e250374b67c12b0cd11680',1,'CPU::x64::TrapFrame()']]]
 ];

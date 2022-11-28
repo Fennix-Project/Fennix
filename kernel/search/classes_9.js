@@ -1,9 +1,11 @@
 var searchData=
 [
-  ['initrd_4669',['Initrd',['../d9/d12/classFileSystem_1_1Initrd.html',1,'FileSystem']]],
-  ['initrdfileheader_4670',['InitrdFileHeader',['../d9/d12/classFileSystem_1_1Initrd.html#d9/d9f/structFileSystem_1_1Initrd_1_1InitrdFileHeader',1,'FileSystem::Initrd']]],
-  ['initrdheader_4671',['InitrdHeader',['../d9/d12/classFileSystem_1_1Initrd.html#de/dcb/structFileSystem_1_1Initrd_1_1InitrdHeader',1,'FileSystem::Initrd']]],
-  ['ipc_4672',['IPC',['../df/d7e/classInterProcessCommunication_1_1IPC.html',1,'InterProcessCommunication']]],
-  ['ipcerror_4673',['IPCError',['../d7/d5f/namespaceInterProcessCommunication.html#df/df1/structInterProcessCommunication_1_1IPCError',1,'InterProcessCommunication']]],
-  ['ipchandle_4674',['IPCHandle',['../d7/d5f/namespaceInterProcessCommunication.html#dc/d6b/structInterProcessCommunication_1_1IPCHandle',1,'InterProcessCommunication']]]
+  ['handler_5325',['Handler',['../dd/dae/classInterrupts_1_1Handler.html',1,'Interrupts']]],
+  ['hashmap_5326',['HashMap',['../db/d1a/classHashMap.html',1,'']]],
+  ['hashmap_3c_20interprocesscommunication_3a_3aipcport_2c_20uint64_5ft_20_3e_5327',['HashMap&lt; InterProcessCommunication::IPCPort, uint64_t &gt;',['../db/d1a/classHashMap.html',1,'']]],
+  ['hashnode_5328',['HashNode',['../d7/d56/classHashNode.html',1,'']]],
+  ['heapsegment_5329',['HeapSegment',['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html',1,'Xalloc::AllocatorV1']]],
+  ['hestheader_5330',['HESTHeader',['../d3/d21/classACPI_1_1ACPI.html#da/d64/structACPI_1_1ACPI_1_1HESTHeader',1,'ACPI::ACPI']]],
+  ['hpet_5331',['HPET',['../dd/d8d/classTime_1_1time.html#da/d40/structTime_1_1time_1_1HPET',1,'Time::time']]],
+  ['hpetheader_5332',['HPETHeader',['../d3/d21/classACPI_1_1ACPI.html#da/d4b/structACPI_1_1ACPI_1_1HPETHeader',1,'ACPI::ACPI']]]
 ];

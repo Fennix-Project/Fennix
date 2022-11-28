@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['u_372',['U',['../d1/d3d/printf_8c.html#aa068905bf5228a7be958460b0f048d36',1,'double_with_bit_access']]]
+  ['raw_5ffactor_376',['raw_factor',['../d1/d3d/printf_8c.html#aad65182c266c7f3d5d1a9c76d67f7776',1,'scaling_factor']]]
 ];

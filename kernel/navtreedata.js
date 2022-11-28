@@ -1,24 +1,26 @@
 /*
-@licstart  The following is the entire license notice for the
-JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
 
-Copyright (C) 1997-2019 by Dimitri van Heesch
+ The MIT License (MIT)
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of version 2 of the GNU General Public License as published by
-the Free Software Foundation
+ Copyright (C) 1997-2020 by Dimitri van Heesch
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
 
-@licend  The above is the entire license notice
-for the JavaScript code in this file
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var NAVTREE =
 [
@@ -74,35 +76,44 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/df0/classFileSystem_1_1USTAR.html#a8633f23666ac29f6b8e0370e083b002a",
-"d1/d69/namespaceGlobalDescriptorTable.html#a549ca219296304080cca84a8070e9ecc",
-"d1/d9e/elf_8h.html#a5db6c4acfde404ba93d5f6de48c2b330",
-"d1/db8/classFileSystem_1_1EXT2.html#ac4d7a444c3d0e93aac25dc38d26d7de8",
-"d3/d19/classBitmap.html",
-"d3/d21/classACPI_1_1ACPI.html#affc05b6307056afb103c38efd3e2e4dc",
-"d3/dc4/cwalk_8c.html#afaa21620b71c743a0e59b9f1138bcb7e",
-"d5/d01/PeripheralComponentInterconnect_8cpp.html#ae78bfbe48f0259cf60bcd1ce1fc92fea",
-"d5/dba/multiboot2_8h.html#d0/d21/structmultiboot__tag__module",
-"d7/d2c/classDisk_1_1Manager.html#afbf8035e8726eaa622b2156ca9478a6a",
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a8bdb595a49997bf39a09edae93a5efdd",
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d0/df3/structCPU_1_1x64_1_1Intel_1_1CPUID0x80000001_8EDX_8____unnamed____",
-"d7/db9/Symbols_8cpp.html#aaa69e64513c3e42bf43afaca5c8f7a9b",
-"d8/dc8/group__ALLOCHOOKS.html#gaedc23f198b2882d41d0caa316453967b",
-"d9/d3e/namespaceTasking.html#a43029c8006323b1bb87a90105912cc87",
-"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#a11e4d339cb835db9884cd4a4e0c3dbb7",
-"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#aeab15251d3e7452fb90874a2f4211b29",
-"da/db0/md5_8h.html",
-"db/d96/structBootInfo.html#aa77a54ab865bf5cbf639e25395bcf0e8",
-"db/d9e/Linux_8cpp.html#a97ed655131d38c46ccdcbdf99e6de65c",
-"dc/dc5/classTasking_1_1Task.html#a3eadca24d1b44dc52ed49f0d38137cae",
-"dd/d79/apic_8hpp.html#a252bce27eb2a8808cb9c821b878e1ac0a74bf4113b119d5ffda19d15668b04241",
-"de/d63/msexec_8h.html#a65eb5dd050add94e308612286f5e9033",
-"df/d31/abi_8h.html#a62fffa879531ee4acf9b254cb0857c7a",
-"df/dbe/cpu_8hpp.html#a36c9cec970957608ac98e64a0e7dbb50a7190099e78e38510f97c4d21b2ab4ee9",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda4a0f44dad211f861a27c387888e27077",
-"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bdaf32dccda934981b30ff84cc882fc8092",
-"dir_4eeb864c4eec08c7d6b9d3b0352cfdde.html",
-"namespacemembers_eval_q.html"
+"d0/daa/kernel_8h.html#a30d0f477733ba7d378ef836693d3b48d",
+"d1/d37/cargs_8h.html#abf08062c8871250d75a5d44adb94eb99",
+"d1/d85/filesystem_8hpp.html#a86d499b931be318b2231244eba122cbcae20b29483df19da4d53664bd960c949f",
+"d1/d9e/elf_8h.html#aa0269f148b09419d27be6289b4ce026f",
+"d2/d00/Kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d",
+"d2/dc3/liballoc__1__1_8c.html#a4d3a4d8ba3325af096e123278cffec04",
+"d3/d21/classACPI_1_1ACPI.html#ad1a0cd2f1138dcd2c654c6ae56797db7",
+"d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d",
+"d3/d88/namespaceAPIC.html#a86492322c9530136899b76278960e1faafed3599956f4276c1ccfed3f4042af21",
+"d3/dfe/DAPI_8hpp.html#a1129c0e4d43f2d121652a7302712cff6",
+"d4/db2/DriverAPI_8cpp.html#a0c5af1e5a70655ce70ce73add00ff3b7",
+"d5/dba/multiboot2_8h.html#a513fc2ea3224e91c0870165152d989e1",
+"d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a3fc9258c816349a9d84b5ea994c12c9a",
+"d7/d21/InterruptDescriptorTable_8cpp.html#ab315401343457f280dc7e89bd8ec6308",
+"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a580f26df56a0716be20b19763e114935",
+"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#adc2e1d4068ef300ada2de910744cfb89",
+"d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa0ebd216ccf715efc8f6c10b6ece9b241",
+"d8/db9/crt1_8asm_source.html",
+"d9/d25/namespaceCPU_1_1x64.html#a36c9cec970957608ac98e64a0e7dbb50a4d08d1005fb0da3deec14d59bb8da8ea",
+"d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bda1e658fd46ce8bd78d821526d8a750581",
+"d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bdac5c9a99aa593fbfa7d9f2e15380b2089",
+"d9/d25/namespaceCPU_1_1x64.html#aea38da0eb6d7ff0f19341087c9dedf0a",
+"d9/d49/types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e",
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#a0df45acb613508b62a77ed7ae4dc6e37",
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#ae7521dd4b5694adff3960a9ac85d13f8",
+"da/d15/UndefinedBehaviorSanitization_8c.html#abb924263d0e1c89539c1a63a24a9f34a",
+"da/db9/classACPI_1_1MADT.html#dc/d88/structACPI_1_1MADT_1_1LocalAPIC",
+"db/d9e/Linux_8cpp.html#a16998644600d17cea970e95995986bce",
+"db/d9e/Linux_8cpp.html#ad5a7b94efe5a2611d1b14f30da1c6bfd",
+"dc/dd9/chfcts_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bca492ec6b7c643165e2b6b9504d89ff591",
+"dd/dd0/classFileSystem_1_1Serial.html",
+"de/d63/msexec_8h.html#afb1150c7008d392e0545ead63682fb81",
+"de/d81/i686_2cpu_2apic_8hpp.html#a86492322c9530136899b76278960e1faacdf88bc4867bbe8db5f5560b39fb41ff",
+"df/d9c/classAPIC_1_1Timer.html#a24d347096069c31012b9ffa1b618f873",
+"df/dbe/cpu_8hpp.html#a36c9cec970957608ac98e64a0e7dbb50ab75b8d47607a86b65f58f0e9f4bbd40d",
+"df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda7336a8afeb978eae91a7c478d568bfc9",
+"df/dbe/cpu_8hpp.html#a9e3fe6c55d32eca62099cd2e8e272c82",
+"functions_l.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
