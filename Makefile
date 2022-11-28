@@ -44,6 +44,7 @@ QEMUFLAGS += -device bochs-display -M q35 \
 			 -device e1000,netdev=usernet0,mac=00:69:96:00:42:00 \
 			 -object filter-dump,id=usernet0,netdev=usernet0,file=network.log,maxlen=1024 \
 			 -serial file:serial.log \
+			 -serial file:profiler.log \
 			 -device ahci,id=ahci \
 			 -drive id=bootdsk,file=$(OSNAME).iso,format=raw,if=none \
 			 -device ide-hd,drive=bootdsk,bus=ahci.0 \
@@ -61,6 +62,7 @@ QEMUFLAGS += -M q35 \
 			 -device e1000,netdev=usernet0,mac=00:69:96:00:42:00 \
 			 -object filter-dump,id=usernet0,netdev=usernet0,file=network.log,maxlen=1024 \
 			 -serial file:serial.log \
+			 -serial file:profiler.log \
 			 -hda $(OSNAME).iso \
 			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
 			 -machine pcspk-audiodev=pa1 \
@@ -69,6 +71,7 @@ else ifeq ($(OSARCH), aarch64)
 QEMUFLAGS += -M raspi3b \
 			 -cpu cortex-a57 \
 			 -serial file:serial.log \
+			 -serial file:profiler.log \
 			 -kernel $(OSNAME).img
 endif
 
@@ -161,15 +164,15 @@ endif
 # endif
 
 vscode_debug: build_kernel build_userspace build_drivers build_image
-	rm -f serial.log network.log
+	rm -f serial.log profiler.log network.log
 	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 4G $(QEMUFLAGS) -smp $(shell echo $(shell nproc)/4 | bc)
 
 qemu: qemu_vdisk
-	rm -f serial.log network.log
+	rm -f serial.log profiler.log network.log
 	$(QEMU) $(QEMU_UEFI_BIOS) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) -smp $(shell nproc)
 
 qemubios: qemu_vdisk
-	rm -f serial.log network.log
+	rm -f serial.log profiler.log network.log
 	$(QEMU) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) -smp $(shell nproc)
 
 run: build qemu
