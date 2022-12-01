@@ -1,5 +1,5 @@
 WORKING_DIR = $(shell pwd)
-CROSS_DIR="$(WORKING_DIR)/cross"
+CROSS_DIR=$(WORKING_DIR)/cross
 export PATH := $(CROSS_DIR):$(PATH)
 
 QEMU_VERSION = qemu-7.1.0
@@ -42,35 +42,35 @@ clone_all:
 
 do_qemu:
 	cd qemu && \
-	bash ./configure --target-list=x86_64-softmmu,i386-softmmu,aarch64-softmmu --prefix=$(CROSS_DIR) --enable-gtk && \
+	bash ./configure --target-list=x86_64-softmmu,i386-softmmu,aarch64-softmmu --prefix="$(CROSS_DIR)" --enable-gtk && \
 	make -j$(shell nproc) && make install
 
 do_binutils64:
 	cd build-binutilsamd64 && \
-	../binutils-gdb/configure --target=amd64-elf --prefix=$(CROSS_DIR) --with-sysroot --disable-werror && \
+	../binutils-gdb/configure --target=amd64-elf --prefix="$(CROSS_DIR)" --with-sysroot --disable-werror && \
 	make all -j$(shell nproc) && make install
 
 do_binutils32:
 	cd build-binutilsi686 && \
-	../binutils-gdb/configure --target=i686-elf --prefix=$(CROSS_DIR) --with-sysroot --disable-werror && \
+	../binutils-gdb/configure --target=i686-elf --prefix="$(CROSS_DIR)" --with-sysroot --disable-werror && \
 	make all -j$(shell nproc) && make install
 
 do_binutilsarm64:
 	cd build-binutilsarm64 && \
-	../binutils-gdb/configure --target=aarch64-elf --prefix=$(CROSS_DIR) --with-sysroot --disable-werror && \
+	../binutils-gdb/configure --target=aarch64-elf --prefix="$(CROSS_DIR)" --with-sysroot --disable-werror && \
 	make all -j$(shell nproc) && make install
 
 do_gcc64:
 	cd build-gccamd64 && \
-	../gcc/configure --target=amd64-elf --prefix=$(CROSS_DIR) --enable-languages=c,c++ --without-headers && \
+	../gcc/configure --target=amd64-elf --prefix="$(CROSS_DIR)" --enable-languages=c,c++ --without-headers && \
 	make all-gcc -j$(shell nproc) && make install-gcc -j$(shell nproc)
 
 do_gcc32:
 	cd build-gcci686 && \
-	../gcc/configure --target=i686-elf --prefix=$(CROSS_DIR) --enable-languages=c,c++ --without-headers && \
+	../gcc/configure --target=i686-elf --prefix="$(CROSS_DIR)" --enable-languages=c,c++ --without-headers && \
 	make all-gcc -j$(shell nproc) && make install-gcc -j$(shell nproc)
 
 do_gccarm64:
 	cd build-gccarm64 && \
-	../gcc/configure --target=aarch64-elf --prefix=$(CROSS_DIR) --enable-languages=c,c++ --without-headers && \
+	../gcc/configure --target=aarch64-elf --prefix="$(CROSS_DIR)" --enable-languages=c,c++ --without-headers && \
 	make all-gcc -j$(shell nproc) && make install-gcc -j$(shell nproc)
