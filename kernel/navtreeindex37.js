@@ -1,5 +1,10 @@
 var NAVTREEINDEX37 =
 {
+"df/dbe/cpu_8hpp.html#a974f40c0411ffd4c2df52abf53b2322e":[6,0,0,4,8,354],
+"df/dbe/cpu_8hpp.html#a9ae5b77d3810fc2d148bb3e5a68b7852":[6,0,0,4,8,318],
+"df/dbe/cpu_8hpp.html#a9c4b808221fb08f380c4367f03e85b35":[6,0,0,4,8,323],
+"df/dbe/cpu_8hpp.html#a9ccc047e9c61ae25dee246504e48314b":[6,0,0,4,8,312],
+"df/dbe/cpu_8hpp.html#a9d690495bdc361439a4ad60744972bd3":[6,0,0,4,8,344],
 "df/dbe/cpu_8hpp.html#a9e3fe6c55d32eca62099cd2e8e272c82":[6,0,0,4,8,346],
 "df/dbe/cpu_8hpp.html#aa07c11dcd6fc93c81a69041df6ae0f67":[6,0,0,4,8,437],
 "df/dbe/cpu_8hpp.html#aa28a1c6e21b176efea57cc6bc092421e":[6,0,0,4,8,426],
@@ -244,10 +249,5 @@ var NAVTREEINDEX37 =
 "functions_func_w.html":[5,3,1,21],
 "functions_func_x.html":[5,3,1,22],
 "functions_func_z.html":[5,3,1,23],
-"functions_func_~.html":[5,3,1,24],
-"functions_g.html":[5,3,0,7],
-"functions_h.html":[5,3,0,8],
-"functions_i.html":[5,3,0,9],
-"functions_j.html":[5,3,0,10],
-"functions_k.html":[5,3,0,11]
+"functions_func_~.html":[5,3,1,24]
 };

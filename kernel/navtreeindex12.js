@@ -1,5 +1,10 @@
 var NAVTREEINDEX12 =
 {
+"d5/dba/multiboot2_8h.html#a4b1ffdc97a86618a45839931345edca4":[6,0,0,4,0,0,0,24,0],
+"d5/dba/multiboot2_8h.html#a4c8a91229f40c06c3c63b4c37e83d219":[6,0,0,4,0,0,0,9,2],
+"d5/dba/multiboot2_8h.html#a4dd2fad32ee3a2ce5379d7bf0a23dabe":[6,0,0,4,0,0,0,36,4],
+"d5/dba/multiboot2_8h.html#a50125b332242abd0051cd348fd2d9b68":[6,0,0,4,0,0,0,12,1],
+"d5/dba/multiboot2_8h.html#a50f53a5f93c66c721734cd44f6ea56b0":[6,0,0,4,0,0,0,15,3],
 "d5/dba/multiboot2_8h.html#a513fc2ea3224e91c0870165152d989e1":[6,0,0,4,0,0,0,19,3],
 "d5/dba/multiboot2_8h.html#a5174a5dc1c2fd330cb9423502c188c71":[6,0,0,4,0,0,0,33,0],
 "d5/dba/multiboot2_8h.html#a5245d2ffd9a8f2242d41e9d4cc74a4d2":[6,0,0,4,0,0,0,12,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX12 =
 "d6/d03/namespaceRandom.html#ae7db489bf685cfa8f2b7a9ae510c4dc1":[4,0,17,3],
 "d6/d25/pic_8hpp.html":[6,0,0,0,2,1,1],
 "d6/d25/pic_8hpp_source.html":[6,0,0,0,2,1,1],
-"d6/d37/namespaceSMP.html":[4,0,20],
-"d6/d37/namespaceSMP.html#a83df3dc276fba1e673fcf5551113ca7e":[4,0,20,0],
-"d6/d37/namespaceSMP.html#adaefa60b0beb8f8a2acae6a8c6e87273":[4,0,20,1],
-"d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html":[5,0,20,1],
-"d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a120eda7f73bc384a30ad00bfe2753d64":[5,0,20,1,1],
-"d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a3e40fd60dda2db6980a83a8e25604321":[5,0,20,1,3]
+"d6/d37/namespaceSMP.html":[4,0,20]
 };

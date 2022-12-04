@@ -1,7 +1,7 @@
 var searchData=
 [
   ['s_3792',['S',['../d7/d6c/md5_8c.html#ad027248bcb51afd36a14242edabc3567',1,'S():&#160;md5.c'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aef44b210af6af7cb40efdfd5469406c0',1,'S():&#160;gdt.hpp']]],
-  ['s32_3793',['s32',['../d0/d18/ArithmeticOperations_8c.html#a53c69f6cd2568ebcb17f0940894929b7',1,'arith64_word']]],
+  ['s32_3793',['s32',['../d0/d18/ArithmeticOperations_8c.html#a4c79ffe87b5871cc433a105351c1a478',1,'arith64_word']]],
   ['s4bios_5freq_3794',['S4BIOS_REQ',['../d1/d90/acpi_8hpp.html#a8e5e27beeb23b6f4acc90d96d871105a',1,'S4BIOS_REQ():&#160;acpi.hpp'],['../d3/d21/classACPI_1_1ACPI.html#a0e2bb432ee50553435cf9811c6edbf23',1,'ACPI::ACPI::FADTHeader::S4BIOS_REQ()']]],
   ['s64_3795',['s64',['../d0/d18/ArithmeticOperations_8c.html#ae05a2ca8fb9ebfd35615d32938fb4aa3',1,'arith64_word']]],
   ['safefunction_3796',['SafeFunction',['../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25',1,'types.h']]],
@@ -43,7 +43,7 @@ var searchData=
   ['segmentselector_3832',['SegmentSelector',['../dc/da7/amd64_2cpu_2idt_8hpp.html#a1af69d0c46134134a1dcc3b6ac2e63eb',1,'SegmentSelector():&#160;idt.hpp'],['../d2/db2/namespaceInterruptDescriptorTable.html#a84044bb722796532d4ca33cd5e5e689b',1,'InterruptDescriptorTable::_InterruptDescriptorTableEntry::SegmentSelector()']]],
   ['segmenttypes_3833',['SegmentTypes',['../d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2',1,'elf.h']]],
   ['selectorerrorcode_3834',['SelectorErrorCode',['../d9/d25/namespaceCPU_1_1x64.html#dc/d33/unionCPU_1_1x64_1_1SelectorErrorCode',1,'CPU::x64::SelectorErrorCode'],['../d9/d25/namespaceCPU_1_1x64.html#aca18081f834ac01ea5fe9d9d5a0d6c4b',1,'CPU::x64::SelectorErrorCode()']]],
-  ['selectorerrorcode_2e_5f_5funnamed114_5f_5f_3835',['SelectorErrorCode.__unnamed114__',['../d9/d25/namespaceCPU_1_1x64.html#df/df4/structCPU_1_1x64_1_1SelectorErrorCode_8____unnamed114____',1,'CPU::x64']]],
+  ['selectorerrorcode_2e_5f_5funnamed113_5f_5f_3835',['SelectorErrorCode.__unnamed113__',['../d9/d25/namespaceCPU_1_1x64.html#d2/d2a/structCPU_1_1x64_1_1SelectorErrorCode_8____unnamed113____',1,'CPU::x64']]],
   ['self_3836',['Self',['../d3/d88/namespaceAPIC.html#a6583606f1b19f0bffccc88bd14e6884caf4f84c2a993177c4d0e3932e238e15d6',1,'APIC']]],
   ['sendeoi_3837',['SendEOI',['../d2/d37/classPIC_1_1PIC.html#acc7dc000d45d6baf88d146b575a35a86',1,'PIC::PIC']]],
   ['sendinitipi_3838',['SendInitIPI',['../d4/da9/classAPIC_1_1APIC.html#aeb6c1be1a3562d9253e17b354a87cada',1,'APIC::APIC::SendInitIPI(uint8_t CPU)'],['../d4/da9/classAPIC_1_1APIC.html#aeb6c1be1a3562d9253e17b354a87cada',1,'APIC::APIC::SendInitIPI(uint8_t CPU)']]],
@@ -254,7 +254,7 @@ var searchData=
   ['speed_4043',['Speed',['../d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8',1,'SMBIOS::SMBIOSMemoryDevice']]],
   ['spinlockdata_4044',['SpinLockData',['../d1/d1f/classXalloc_1_1XLockClass.html#d3/d8a/structXalloc_1_1XLockClass_1_1SpinLockData',1,'Xalloc::XLockClass']]],
   ['split_4045',['Split',['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html#ad01d5902954c81bdda02de8e746817b0',1,'Xalloc::AllocatorV1::HeapSegment']]],
-  ['split_4046',['split',['../d3/d88/namespaceAPIC.html#aa69fdf035a3ced205d246125c7c26024',1,'APIC::__attribute__::split()'],['../d3/d88/namespaceAPIC.html#aab410ba1b9cb6d2ab6962e212a525c4e',1,'APIC::__attribute__::split()']]],
+  ['split_4046',['split',['../d3/d88/namespaceAPIC.html#a5799dfe2d7d6756685308cb9b57d4c4e',1,'APIC::__attribute__::split()'],['../d3/d88/namespaceAPIC.html#a903abb4b80c29d00b11ba49320310ff2',1,'APIC::__attribute__::split()']]],
   ['split_4047',['Split',['../d8/d12/Xalloc_8hpp.html#ab35af3575914faba3a6ae16f6ba0983c',1,'Xalloc.hpp']]],
   ['sprintf_5f_4048',['sprintf_',['../d1/d3d/printf_8c.html#a4bb327658484df28415e76ce311e29dc',1,'sprintf_(char *s, const char *format,...):&#160;printf.c'],['../d3/d6b/printf_8h.html#aa0320d28406c4c8399830583177fdc77',1,'sprintf_(char *s, const char *format,...) ATTR_PRINTF(2:&#160;printf.h']]],
   ['srat_4049',['SRAT',['../d3/d21/classACPI_1_1ACPI.html#a95f9778436c7cf069f9336fb6f8d4f30',1,'ACPI::ACPI']]],

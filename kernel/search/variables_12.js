@@ -1,7 +1,7 @@
 var searchData=
 [
   ['s_7684',['S',['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aef44b210af6af7cb40efdfd5469406c0',1,'S():&#160;gdt.hpp'],['../d7/d6c/md5_8c.html#ad027248bcb51afd36a14242edabc3567',1,'S():&#160;md5.c']]],
-  ['s32_7685',['s32',['../d0/d18/ArithmeticOperations_8c.html#a53c69f6cd2568ebcb17f0940894929b7',1,'arith64_word']]],
+  ['s32_7685',['s32',['../d0/d18/ArithmeticOperations_8c.html#a4c79ffe87b5871cc433a105351c1a478',1,'arith64_word']]],
   ['s4bios_5freq_7686',['S4BIOS_REQ',['../d3/d21/classACPI_1_1ACPI.html#a0e2bb432ee50553435cf9811c6edbf23',1,'ACPI::ACPI::FADTHeader::S4BIOS_REQ()'],['../d1/d90/acpi_8hpp.html#a8e5e27beeb23b6f4acc90d96d871105a',1,'S4BIOS_REQ():&#160;acpi.hpp']]],
   ['s64_7687',['s64',['../d0/d18/ArithmeticOperations_8c.html#ae05a2ca8fb9ebfd35615d32938fb4aa3',1,'arith64_word']]],
   ['sbidx_7688',['SBIdx',['../d2/d57/namespaceCrashHandler.html#ad35e9ac2e303d57f06208a9b5c889ac5',1,'CrashHandler']]],
@@ -72,7 +72,7 @@ var searchData=
   ['socketdesignation_7753',['SocketDesignation',['../d5/deb/structSMBIOS_1_1SMBIOSProcessorInformation.html#ac3609ae54a2f99d6d938db8ca498e6bc',1,'SMBIOS::SMBIOSProcessorInformation']]],
   ['spawntime_7754',['SpawnTime',['../d9/d3e/namespaceTasking.html#a95a4c55b1816d16d967879f6734ea06f',1,'Tasking::TaskInfo']]],
   ['speed_7755',['Speed',['../d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8',1,'SMBIOS::SMBIOSMemoryDevice']]],
-  ['split_7756',['split',['../d3/d88/namespaceAPIC.html#aa69fdf035a3ced205d246125c7c26024',1,'APIC::__attribute__::split()'],['../d3/d88/namespaceAPIC.html#aab410ba1b9cb6d2ab6962e212a525c4e',1,'APIC::__attribute__::split()']]],
+  ['split_7756',['split',['../d3/d88/namespaceAPIC.html#a5799dfe2d7d6756685308cb9b57d4c4e',1,'APIC::__attribute__::split()'],['../d3/d88/namespaceAPIC.html#a903abb4b80c29d00b11ba49320310ff2',1,'APIC::__attribute__::split()']]],
   ['srat_7757',['SRAT',['../d3/d21/classACPI_1_1ACPI.html#a95f9778436c7cf069f9336fb6f8d4f30',1,'ACPI::ACPI']]],
   ['ss_7758',['ss',['../de/d78/namespaceCPU_1_1x32.html#ab7988e69b279a131ac7bfdd76de35fc1',1,'CPU::x32::TrapFrame::ss()'],['../d9/d25/namespaceCPU_1_1x64.html#a38219207ff59967dfcb5923e7279f368',1,'CPU::x64::TrapFrame::ss()']]],
   ['st_5finfo_7759',['st_info',['../d7/db9/Symbols_8cpp.html#a9bbd53b13b0f1403d8369cbdd15df08c',1,'Elf64_Sym::st_info()'],['../d1/d9e/elf_8h.html#aeef86f71df370cf183e2d03afe4d8812',1,'elf32_sym::st_info()'],['../d1/d9e/elf_8h.html#a48d593f11ef3d04b1f5d46f92aaa9839',1,'elf64_sym::st_info()']]],
