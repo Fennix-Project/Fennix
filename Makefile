@@ -7,18 +7,6 @@ include Makefile.conf
 default:
 	$(error Please specify a target)
 
-# Available display devices
-# None:       -vga none
-# Standard:   -device VGA
-# Bochs:      -device bochs-display
-# VirtIO VGA: -device virtio-vga
-# VirtIO GPU: -device virtio-gpu-pci
-# QXL VGA:    -device qxl-vga
-# QXL:        -device qxl
-# Cirrus VGA: -device cirrus-vga
-# ATI VGA:    -device ati-vga
-# RAMFB:      -device ramfb
-
 # For tap0
 # -netdev tap,id=usernet0,ifname=tap0,script=no,downscript=no
 QEMU = ./$(QEMU_PATH)$(QEMU_ARCH)
@@ -36,7 +24,7 @@ QEMUMEMORY = -m 1G
 endif
 
 ifeq ($(OSARCH), amd64)
-QEMUFLAGS += -device bochs-display -M q35 \
+QEMUFLAGS += -device vmware-svga -M q35 \
 			 -usb \
 			 -usbdevice mouse \
 			 -net user \
