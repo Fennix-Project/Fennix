@@ -12,6 +12,8 @@ tools/*
 !tools/*.c
 !tools/*.cpp
 !tools/*.cfg
+!tools/toolchain-binutils-gdb.patch
+!tools/toolchain-gcc.patch
 doxygen-doc
 initrd.tar.gz
 .dccache

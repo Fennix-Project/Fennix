@@ -9,6 +9,10 @@
 		"files.associations": {
 			"fex.hpp": "c",
 			"types.h": "c"
-		}
+		},
+		"cSpell.words": [
+			"FENNIX",
+			"preinit"
+		]
 	}
 }
