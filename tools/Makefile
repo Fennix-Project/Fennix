@@ -85,8 +85,8 @@ do_prep_toolchain:
 	mkdir -p build-toolchain-gcc
 	mkdir -p toolchain-binutils-gdb
 	mkdir -p toolchain-gcc
-	cp -r binutils-gdb/* toolchain-binutils-gdb
-	cp -r gcc/* toolchain-gcc
+	cp -r binutils-gdb/. toolchain-binutils-gdb
+	cp -r gcc/. toolchain-gcc
 	cd toolchain-binutils-gdb && git apply ../toolchain-binutils-gdb.patch && cd ..
 	cd toolchain-gcc && git apply ../toolchain-gcc.patch && cd ..
 
@@ -98,4 +98,7 @@ do_toolchain_binutils64:
 do_toolchain_gcc64:
 	cd build-toolchain-gcc && \
 	../toolchain-gcc/configure --target=x86_64-fennix --prefix="$(CROSS_DIR)/toolchain" --enable-languages=c,c++ --enable-shared --without-headers && \
-	make all-gcc -j$(shell nproc) && make install-gcc -j$(shell nproc)
+	make all-gcc -j$(shell nproc) && \
+	make all-target-libgcc -j$(shell nproc) && \
+	make install-gcc -j$(shell nproc) && \
+	make install-target-libgcc  -j$(shell nproc)
