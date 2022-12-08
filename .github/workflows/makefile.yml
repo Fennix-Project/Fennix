@@ -104,10 +104,6 @@ jobs:
       if: steps.cache-cross.outputs.cache-hit != 'true'
       run: sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo libzstd-dev libisl-dev autoconf m4 automake gettext gperf dejagnu guile-3.0 guile-3.0-dev expect tcl autogen tex-common sphinx-common git ssh diffutils patch -y
 
-    - name: Prepare Toolchain
-      if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_prep_toolchain
-
     - name: Compile Toolchain Binutils
       if: steps.cache-cross.outputs.cache-hit != 'true'
       run: make --quiet -C tools do_toolchain_binutils64
