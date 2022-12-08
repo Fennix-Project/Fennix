@@ -176,6 +176,8 @@ clean:
 	rm -f initrd/system/lib/*.o
 	rm -f initrd/system/include/*.h
 	rm -f initrd/system/include/*.hpp
+	rm -f initrd/system/include/sys/*.h
+	rm -f initrd/system/include/sys/*.hpp
 	make -C Kernel clean
 	make -C Lynx clean
 	make -C Userspace clean
