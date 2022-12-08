@@ -91,28 +91,35 @@ $(document).ready(function(){initNavTree('dc/d3c/PageMapIndexer_8cpp_source.html
 <div class="contents">
 <a href="../../dc/d3c/PageMapIndexer_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/d3e/memory_8hpp.html">memory.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/d97/namespaceMemory.html">Memory</a></div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d3/d97/namespaceMemory.html">    3</a></span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/d97/namespaceMemory.html">Memory</a></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    Virtual::PageMapIndexer::PageMapIndexer(<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> VirtualAddress)</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    {</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        Virtual::PageMapIndexer::PageMapIndexer(<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> VirtualAddress)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        {</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        this-&gt;PDPIndex = (VirtualAddress &amp; ((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)0x1FF &lt;&lt; 39)) &gt;&gt; 39;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        this-&gt;PDIndex = (VirtualAddress &amp; ((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)0x1FF &lt;&lt; 30)) &gt;&gt; 30;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        this-&gt;PTIndex = (VirtualAddress &amp; ((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)0x1FF &lt;&lt; 21)) &gt;&gt; 21;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        this-&gt;PIndex = (VirtualAddress &amp; ((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)0x1FF &lt;&lt; 12)) &gt;&gt; 12;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        this-&gt;PDIndex = (VirtualAddress &amp; ((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)0x3FF &lt;&lt; 22)) &gt;&gt; 22;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        this-&gt;PTIndex = (VirtualAddress &amp; ((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)0x3FF &lt;&lt; 12)) &gt;&gt; 12;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        this-&gt;PIndex = (VirtualAddress &amp; ((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)0xFFF)) &gt;&gt; 0;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        this-&gt;PDIndex = (VirtualAddress &amp; ((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)0x1FF &lt;&lt; 30)) &gt;&gt; 30;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        this-&gt;PTIndex = (VirtualAddress &amp; ((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)0x1FF &lt;&lt; 21)) &gt;&gt; 21;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        this-&gt;PIndex = (VirtualAddress &amp; ((<a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)0x1FF &lt;&lt; 12)) &gt;&gt; 12;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> = VirtualAddress;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &gt;&gt;= 12;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                this-&gt;PTEIndex = <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &amp; 0x1FF;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &gt;&gt;= 9;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                this-&gt;PDEIndex = <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &amp; 0x1FF;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &gt;&gt;= 9;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                this-&gt;PDPTEIndex = <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &amp; 0x1FF;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &gt;&gt;= 9;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                this-&gt;PMLIndex = <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &amp; 0x1FF;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> = VirtualAddress;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &gt;&gt;= 12;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                this-&gt;PTEIndex = <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &amp; 0x3FF;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &gt;&gt;= 10;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                this-&gt;PDEIndex = <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &amp; 0x3FF;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &gt;&gt;= 10;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                this-&gt;PDPTEIndex = <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &amp; 0x3FF;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        }</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="ttc" id="aacpi_8hpp_html_aca1b23fd721c8d8dc70a8227e336b6e8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a></div><div class="ttdeci">uint64_t Address</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00004">acpi.hpp:4</a></div></div>
 <div class="ttc" id="amemory_8hpp_html"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html">memory.hpp</a></div></div>
-<div class="ttc" id="anamespaceMemory_html"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html">Memory</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc1/PageDirectoryEntry_8cpp_source.html#l00003">PageDirectoryEntry.cpp:4</a></div></div>
+<div class="ttc" id="anamespaceMemory_html"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html">Memory</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3c/PageMapIndexer_8cpp_source.html#l00003">PageMapIndexer.cpp:4</a></div></div>
 <div class="ttc" id="atypes_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00113">types.h:113</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

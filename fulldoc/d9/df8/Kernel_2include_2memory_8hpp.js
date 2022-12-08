@@ -7,5 +7,6 @@ var Kernel_2include_2memory_8hpp =
     [ "HeapCalloc", "d9/df8/Kernel_2include_2memory_8hpp.html#ac296350bb79ac35ec60a6e976bb4c99e", null ],
     [ "HeapFree", "d9/df8/Kernel_2include_2memory_8hpp.html#aa7c05e2c931fbcebd2d48516e991f672", null ],
     [ "HeapMalloc", "d9/df8/Kernel_2include_2memory_8hpp.html#aa4706c18fd31dbd81870ce719c098d96", null ],
-    [ "HeapRealloc", "d9/df8/Kernel_2include_2memory_8hpp.html#a0a040753e4a4cccce6354a50184d35eb", null ]
+    [ "HeapRealloc", "d9/df8/Kernel_2include_2memory_8hpp.html#a0a040753e4a4cccce6354a50184d35eb", null ],
+    [ "KPT", "d9/df8/Kernel_2include_2memory_8hpp.html#a8324fc6b9ff8cee0eee6dcf2c595a7c8", null ]
 ];

@@ -70,6 +70,7 @@ var amd64_2cpu_2gdt_8hpp =
     [ "S", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#aef44b210af6af7cb40efdfd5469406c0", null ],
     [ "StackPointer", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9d9ff73842948ded9734b943d3bf5894", null ],
     [ "TaskStateSegment", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4", null ],
+    [ "tss", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a235db157b069789d03468cfbf9979dfa", null ],
     [ "Unknown", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#adead3fdf571787c72724d7ed60419125", null ],
     [ "UserCode", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243", null ],
     [ "UserData", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28", null ]

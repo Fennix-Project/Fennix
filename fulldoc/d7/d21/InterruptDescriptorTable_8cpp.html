@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('d7/d21/InterruptDescriptorTable_8cpp.h
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>&quot;</code><br />
+<code>#include &lt;memory.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dac/io_8h_source.html">io.h</a>&gt;</code><br />
@@ -223,9 +224,9 @@ Variables</h2></td></tr>
 <div class="line">        asm(<span class="stringliteral">&quot;pushq $&quot;</span> #num <span class="stringliteral">&quot;\n&quot;</span>                                                     \</div>
 <div class="line">            <span class="stringliteral">&quot;jmp ExceptionHandlerStub&quot;</span>);                                            \</div>
 <div class="line">    }</div>
-<div class="ttc" id="anamespaceInterruptDescriptorTable_html_a32dadf6743f47b28b7fdd52fb296bb6a"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#a32dadf6743f47b28b7fdd52fb296bb6a">InterruptDescriptorTable::__attribute__</a></div><div class="ttdeci">__attribute__((naked, used, no_stack_protector)) void ExceptionHandlerStub()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00038">InterruptDescriptorTable.cpp:38</a></div></div>
+<div class="ttc" id="anamespaceInterruptDescriptorTable_html_a32dadf6743f47b28b7fdd52fb296bb6a"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#a32dadf6743f47b28b7fdd52fb296bb6a">InterruptDescriptorTable::__attribute__</a></div><div class="ttdeci">__attribute__((naked, used, no_stack_protector)) void ExceptionHandlerStub()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00039">InterruptDescriptorTable.cpp:39</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00170">170</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00204">204</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -250,7 +251,7 @@ Variables</h2></td></tr>
 <div class="line">            <span class="stringliteral">&quot;jmp ExceptionHandlerStub&quot;</span>);                                            \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00163">163</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00197">197</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -275,7 +276,7 @@ Variables</h2></td></tr>
 <div class="line">            <span class="stringliteral">&quot;jmp InterruptHandlerStub\n&quot;</span>);                                         \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00177">177</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00211">211</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -299,9 +300,9 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{ <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a>(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>); }</div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_aff2da4c061653164b5cfcc650f742f27"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a></div><div class="ttdeci">GlobalDescriptorTableEntry Data</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00002">gdt.hpp:2</a></div></div>
-<div class="ttc" id="anamespaceCrashHandler_html_a202e013cac1a108322c79e592f3a5e0c"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a></div><div class="ttdeci">SafeFunction void Handle(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de7/CrashHandler_8cpp_source.html#l00332">CrashHandler.cpp:332</a></div></div>
+<div class="ttc" id="anamespaceCrashHandler_html_a202e013cac1a108322c79e592f3a5e0c"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a></div><div class="ttdeci">SafeFunction void Handle(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de7/CrashHandler_8cpp_source.html#l00505">CrashHandler.cpp:505</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00002">Data</a>, and <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00332">CrashHandler::Handle()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00002">Data</a>, and <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00505">CrashHandler::Handle()</a>.</p>
 
 </div>
 </div>

@@ -14,5 +14,5 @@ var namespaceGlobalDescriptorTable =
     [ "gdt", "d1/d69/namespaceGlobalDescriptorTable.html#a4e48d03a8c302edd708988cca6c2c95a", null ],
     [ "GDTEntries", "d1/d69/namespaceGlobalDescriptorTable.html#ab39462761311729389cbcfb551d23c04", null ],
     [ "GDTEntriesTemplate", "d1/d69/namespaceGlobalDescriptorTable.html#a00d675ef11f786ca4899530e59d6acf2", null ],
-    [ "tss", "d1/d69/namespaceGlobalDescriptorTable.html#aae23659d784f4086e4d448cd93724ef0", null ]
+    [ "tss", "d1/d69/namespaceGlobalDescriptorTable.html#a235db157b069789d03468cfbf9979dfa", null ]
 ];

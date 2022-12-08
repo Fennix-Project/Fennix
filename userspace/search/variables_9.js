@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['u_377',['U',['../d1/d3d/printf_8c.html#aa068905bf5228a7be958460b0f048d36',1,'double_with_bit_access']]]
+  ['stderr_445',['stderr',['../d6/dd1/stdio_8h.html#ac9e47c346a25e2e7edd2c9b4ca5d0262',1,'stdio.h']]]
 ];

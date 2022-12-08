@@ -10,9 +10,11 @@ var Convert_8c =
     [ "atof", "de/def/Convert_8c.html#a82014fa7b30ac1ebe1622a71ab49d3fb", null ],
     [ "atoi", "de/def/Convert_8c.html#a2032d00bcff61b1b912628210432b5c0", null ],
     [ "backspace", "de/def/Convert_8c.html#acdc4e8377290fdfb200acddfb3d2bbf9", null ],
+    [ "isalpha", "de/def/Convert_8c.html#a25908ae63aac2df990634e1ae5bd14d9", null ],
     [ "isdigit", "de/def/Convert_8c.html#a3fa45b35c8abf67a950b6d3d4063dede", null ],
     [ "isempty", "de/def/Convert_8c.html#a75b852b562036f85800f7e155266bd58", null ],
     [ "isspace", "de/def/Convert_8c.html#a56be4166e4673843042a548a7f513dbc", null ],
+    [ "isupper", "de/def/Convert_8c.html#adadd6582d46775aab6a51e29d16d9f77", null ],
     [ "itoa", "de/def/Convert_8c.html#ad8be154309b350a31eb551a4c0b00845", null ],
     [ "ltoa", "de/def/Convert_8c.html#aca5a8353d645c816b47891c9481c3b8f", null ],
     [ "memcmp", "de/def/Convert_8c.html#ac376fcece8fcc2d0f8b1cf3de18b10df", null ],
@@ -29,6 +31,7 @@ var Convert_8c =
     [ "strncmp", "de/def/Convert_8c.html#a07f4a84c11c106e95c32b6ab509346ef", null ],
     [ "strncpy", "de/def/Convert_8c.html#a12f4a7953a24e197c8d26bf0493f8225", null ],
     [ "strstr", "de/def/Convert_8c.html#a4a710d86541afc6b7dafddcdb4b1c94f", null ],
+    [ "strtol", "de/def/Convert_8c.html#a2ce966cd04da3c32320f54c332569e03", null ],
     [ "swap", "de/def/Convert_8c.html#a5caa2956a259c15d67de63fcddff3e57", null ],
     [ "ultoa", "de/def/Convert_8c.html#a6a07124527ae550e2bdf0449a097bd4a", null ]
 ];

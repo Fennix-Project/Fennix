@@ -4,19 +4,19 @@ var abi_8h =
       [ "a_type", "df/d31/abi_8h.html#ab6d0fd7066a8703da6fa658d3c0c085d", null ],
       [ "a_un", "df/d31/abi_8h.html#ad5158f605492afd2841d803f06052ef0", null ]
     ] ],
-    [ "Elf64_auxv_t", "d0/dc9/init_8cpp.html#d9/de7/structElf64__auxv__t", [
-      [ "a_type", "d0/dc9/init_8cpp.html#aa4799367aa86aa03c70a44148b14d000", null ],
-      [ "a_type", "d0/dc9/init_8cpp.html#a718e9da507aeab4eaff05dfd77214d19", null ],
-      [ "a_un", "d0/dc9/init_8cpp.html#aeb247638e11636ac57b2b092d0a71c5c", null ],
-      [ "a_un", "d0/dc9/init_8cpp.html#a7b9c8e231c1394ecf949270bbfe69b68", null ]
+    [ "Elf64_auxv_t", "d8/d60/init_8c.html#d9/de7/structElf64__auxv__t", [
+      [ "a_type", "d8/d60/init_8c.html#aa4799367aa86aa03c70a44148b14d000", null ],
+      [ "a_type", "d8/d60/init_8c.html#a718e9da507aeab4eaff05dfd77214d19", null ],
+      [ "a_un", "d8/d60/init_8c.html#aeb247638e11636ac57b2b092d0a71c5c", null ],
+      [ "a_un", "d8/d60/init_8c.html#a7b9c8e231c1394ecf949270bbfe69b68", null ]
     ] ],
     [ "AuxiliaryVector", "df/d31/abi_8h.html#db/d1d/structAuxiliaryVector", null ],
     [ "Elf32_auxv_t.a_un", "df/d31/abi_8h.html#da/d9c/unionElf32__auxv__t_8a__un", [
       [ "a_val", "df/d31/abi_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],
-    [ "Elf64_auxv_t.a_un", "d0/dc9/init_8cpp.html#d0/dc1/unionElf64__auxv__t_8a__un", [
-      [ "a_val", "d0/dc9/init_8cpp.html#a63c799ad053ae73a0c9d241353f3d625", null ],
-      [ "a_val", "d0/dc9/init_8cpp.html#a63c799ad053ae73a0c9d241353f3d625", null ]
+    [ "Elf64_auxv_t.a_un", "d8/d60/init_8c.html#d0/dc1/unionElf64__auxv__t_8a__un", [
+      [ "a_val", "d8/d60/init_8c.html#a63c799ad053ae73a0c9d241353f3d625", null ],
+      [ "a_val", "d8/d60/init_8c.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],
     [ "AT_BASE", "df/d31/abi_8h.html#a9b8e51a44a47d7ea827c570ffdca14e5", null ],
     [ "AT_BASE_PLATFORM", "df/d31/abi_8h.html#a022fe4e60c7df4b03f25bd5df848f559", null ],

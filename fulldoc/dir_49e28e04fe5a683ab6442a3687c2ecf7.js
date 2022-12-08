@@ -2,7 +2,6 @@ var dir_49e28e04fe5a683ab6442a3687c2ecf7 =
 [
     [ "HeapAllocators", "dir_c22f59685a994d14d97026f7ec4b6a8c.html", "dir_c22f59685a994d14d97026f7ec4b6a8c" ],
     [ "Memory.cpp", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp" ],
-    [ "PageDirectoryEntry.cpp", "df/dc1/PageDirectoryEntry_8cpp.html", null ],
     [ "PageMapIndexer.cpp", "dc/d3c/PageMapIndexer_8cpp.html", null ],
     [ "PhysicalMemoryManager.cpp", "de/db0/Kernel_2Core_2Memory_2PhysicalMemoryManager_8cpp.html", null ],
     [ "StackGuard.cpp", "d9/d13/StackGuard_8cpp.html", null ],

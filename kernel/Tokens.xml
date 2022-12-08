@@ -1681,6 +1681,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>tss</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>a235db157b069789d03468cfbf9979dfa</Anchor>
+    <DeclaredIn>gdt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Init</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -1743,17 +1754,6 @@
     </TokenIdentifier>
     <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
     <Anchor>a4e48d03a8c302edd708988cca6c2c95a</Anchor>
-    <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>tss</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>aae23659d784f4086e4d448cd93724ef0</Anchor>
     <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -5526,12 +5526,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>PagefaultDescriptions</Name>
+      <Name>PageFaultDescriptions</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d7/d85/CrashDetails_8cpp.html</Path>
-    <Anchor>aa5f8ef635d3139bc613ae00c51e09e2c</Anchor>
+    <Anchor>afed49d4611fb6f9560a10f85920c04a7</Anchor>
     <DeclaredIn>CrashDetails.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -5870,12 +5870,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>PagefaultDescriptions</Name>
+      <Name>PageFaultDescriptions</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>de/d15/UserHandler_8cpp.html</Path>
-    <Anchor>aa5f8ef635d3139bc613ae00c51e09e2c</Anchor>
+    <Anchor>afed49d4611fb6f9560a10f85920c04a7</Anchor>
     <DeclaredIn>UserHandler.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -6509,7 +6509,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d8/dcc/Memory_8cpp.html</Path>
-    <Anchor>a4ebdb645b7c14dca511e3df65f4dae4c</Anchor>
+    <Anchor>ac6c4df1d2662ee80dbb37344ebc0bdb3</Anchor>
     <DeclaredIn>Memory.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -6519,7 +6519,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d8/dcc/Memory_8cpp.html</Path>
-    <Anchor>aeee3461cccb0296de6632aa73d813bb1</Anchor>
+    <Anchor>a6486cbcd6a46143a00e6d70026f5809d</Anchor>
     <DeclaredIn>Memory.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -6529,7 +6529,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d8/dcc/Memory_8cpp.html</Path>
-    <Anchor>addae9d30fd7ac064a9212119b95bfe04</Anchor>
+    <Anchor>ad9de3fdf914cbb06d15f57cc68646399</Anchor>
     <DeclaredIn>Memory.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -6669,7 +6669,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d8/dcc/Memory_8cpp.html</Path>
-    <Anchor>a4333668045042c7f091a54e4962e51e9</Anchor>
+    <Anchor>ab22e39b03b381282cced0b85485b8781</Anchor>
     <DeclaredIn>Memory.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -6679,7 +6679,17 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d8/dcc/Memory_8cpp.html</Path>
-    <Anchor>a43705e82733e9b129a8646527d400327</Anchor>
+    <Anchor>a2b1d41c125777344eeaf5d78aa2ca654</Anchor>
+    <DeclaredIn>Memory.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KPT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d8/dcc/Memory_8cpp.html</Path>
+    <Anchor>a8324fc6b9ff8cee0eee6dcf2c595a7c8</Anchor>
     <DeclaredIn>Memory.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -10531,6 +10541,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>isalpha</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/d82/convert_8h.html</Path>
+    <Anchor>a25908ae63aac2df990634e1ae5bd14d9</Anchor>
+    <DeclaredIn>convert.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isupper</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/d82/convert_8h.html</Path>
+    <Anchor>adadd6582d46775aab6a51e29d16d9f77</Anchor>
+    <DeclaredIn>convert.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>isdelim</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -10807,6 +10837,16 @@
     </TokenIdentifier>
     <Path>d3/d82/convert_8h.html</Path>
     <Anchor>ab0ad8275543a34aae52b7bcd02e79753</Anchor>
+    <DeclaredIn>convert.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>strtol</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/d82/convert_8h.html</Path>
+    <Anchor>a2ce966cd04da3c32320f54c332569e03</Anchor>
     <DeclaredIn>convert.h</DeclaredIn>
   </Token>
   <Token>
@@ -15675,6 +15715,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>KPT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>da/d3e/memory_8hpp.html</Path>
+    <Anchor>a8324fc6b9ff8cee0eee6dcf2c595a7c8</Anchor>
+    <DeclaredIn>memory.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>near</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -19025,16 +19075,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>__guard_setup</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d2/d00/Kernel_8cpp.html</Path>
-    <Anchor>af5cb25adad835d684b28a2a4c943efe3</Anchor>
-    <DeclaredIn>Kernel.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Entry</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -19687,6 +19727,36 @@
     </TokenIdentifier>
     <Path>de/def/Convert_8c.html</Path>
     <Anchor>a73d3b899fd0ce1012c7cc634f62401ed</Anchor>
+    <DeclaredIn>Convert.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isalpha</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/def/Convert_8c.html</Path>
+    <Anchor>a25908ae63aac2df990634e1ae5bd14d9</Anchor>
+    <DeclaredIn>Convert.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>isupper</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/def/Convert_8c.html</Path>
+    <Anchor>adadd6582d46775aab6a51e29d16d9f77</Anchor>
+    <DeclaredIn>Convert.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>strtol</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/def/Convert_8c.html</Path>
+    <Anchor>a2ce966cd04da3c32320f54c332569e03</Anchor>
     <DeclaredIn>Convert.c</DeclaredIn>
   </Token>
   <Token>
@@ -43504,6 +43574,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>tss</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>a235db157b069789d03468cfbf9979dfa</Anchor>
+    <DeclaredIn>gdt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GDTEntriesTemplate</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -43537,17 +43618,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>tss</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>aae23659d784f4086e4d448cd93724ef0</Anchor>
-    <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>GlobalDescriptorTable::GlobalDescriptorTableAccess</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -43565,7 +43635,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>a54f6a28810ad2b34edb171efc15c16d4</Anchor>
+    <Anchor>a0b74449216d80cad5da584462929ef8b</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -43596,7 +43666,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableFlags</Scope>
     </TokenIdentifier>
     <Path>dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html</Path>
-    <Anchor>af73e54490236ffd7f2c4dc204b4d1492</Anchor>
+    <Anchor>a4bd9f454e1297e8c13c408ee15e80e06</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -48235,7 +48305,29 @@
       <Scope>Tasking::TCB</Scope>
     </TokenIdentifier>
     <Path>de/d96/structTasking_1_1TCB.html</Path>
-    <Anchor>aa27b628ceff9dbc68af54bc1150b3b8e</Anchor>
+    <Anchor>a421fc4b87573abd0194625680c485864</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetDebugMode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Tasking::TCB</Scope>
+    </TokenIdentifier>
+    <Path>de/d96/structTasking_1_1TCB.html</Path>
+    <Anchor>a5c0c7b5b9a4426d24bbe8d5f22900d7d</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetKernelDebugMode</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Tasking::TCB</Scope>
+    </TokenIdentifier>
+    <Path>de/d96/structTasking_1_1TCB.html</Path>
+    <Anchor>a3db2cb39195f0cd43d746e37aa32f65f</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>

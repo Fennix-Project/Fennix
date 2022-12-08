@@ -1,7 +1,6 @@
 var Kernel_8cpp =
 [
     [ "CallPtr", "d2/d00/Kernel_8cpp.html#a9aa5b5a5410c2e97df5759c3e6d8c318", null ],
-    [ "__guard_setup", "d2/d00/Kernel_8cpp.html#af5cb25adad835d684b28a2a4c943efe3", null ],
     [ "BeforeShutdown", "d2/d00/Kernel_8cpp.html#a8769bd60831e5824558a4d71a07ad228", null ],
     [ "Entry", "d2/d00/Kernel_8cpp.html#a8a79b167fd955be0dc5551b87bd41961", null ],
     [ "KPrint", "d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e", null ],

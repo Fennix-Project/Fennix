@@ -22,5 +22,5 @@ var CrashDetails_8cpp =
     [ "UnknownExceptionHandler", "d7/d85/CrashDetails_8cpp.html#ad2f7004a42301607285598d7f4c68086", null ],
     [ "VirtualizationExceptionHandler", "d7/d85/CrashDetails_8cpp.html#abb67b919610771b11ca0503772aeae1c", null ],
     [ "x87FloatingPointExceptionHandler", "d7/d85/CrashDetails_8cpp.html#acb08ae97747ba2a9c5be6afb9c4028e7", null ],
-    [ "PagefaultDescriptions", "d7/d85/CrashDetails_8cpp.html#aa5f8ef635d3139bc613ae00c51e09e2c", null ]
+    [ "PageFaultDescriptions", "d7/d85/CrashDetails_8cpp.html#afed49d4611fb6f9560a10f85920c04a7", null ]
 ];

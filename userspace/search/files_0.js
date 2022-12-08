@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['crt0_2ec_297',['crt0.c',['../d8/def/crt0_8c.html',1,'']]],
-  ['crt1_2ec_298',['crt1.c',['../d7/d93/crt1_8c.html',1,'']]],
-  ['crtbegin_2ec_299',['crtbegin.c',['../d2/da3/crtbegin_8c.html',1,'']]],
-  ['crtend_2ec_300',['crtend.c',['../da/d33/crtend_8c.html',1,'']]],
-  ['cxa_2ecpp_301',['cxa.cpp',['../d2/dca/cxa_8cpp.html',1,'']]]
+  ['dlfcn_2ec_334',['dlfcn.c',['../d2/d8a/dlfcn_8c.html',1,'']]],
+  ['dlfcn_2eh_335',['dlfcn.h',['../d9/d48/dlfcn_8h.html',1,'']]],
+  ['doxygen_5freadme_2emd_336',['Doxygen_README.md',['../d4/df2/Doxygen__README_8md.html',1,'']]]
 ];

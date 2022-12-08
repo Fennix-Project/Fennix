@@ -2,6 +2,8 @@ var task_8hpp =
 [
     [ "TaskSecurity", "d9/d3e/namespaceTasking.html#d6/df6/structTasking_1_1TaskSecurity", [
       [ "IsCritical", "d9/d3e/namespaceTasking.html#aee5825170df6e181a8a018a59afa444c", null ],
+      [ "IsDebugEnabled", "d9/d3e/namespaceTasking.html#a305440cc80058df94f96a258673113ad", null ],
+      [ "IsKernelDebugEnabled", "d9/d3e/namespaceTasking.html#abd387a30a7f15a2bfc6a5ae850ffd14e", null ],
       [ "TrustLevel", "d9/d3e/namespaceTasking.html#acd0dfa9beec709e42e560c3551640e62", null ],
       [ "UniqueToken", "d9/d3e/namespaceTasking.html#ab4dc9e6e4877a9a50f38783896a429e9", null ]
     ] ],
@@ -33,7 +35,7 @@ var task_8hpp =
       [ "Info", "d9/d3e/namespaceTasking.html#a887637de6f393b567a480ede30884446", null ],
       [ "IPCHandles", "d9/d3e/namespaceTasking.html#aef17c219d812515d4731decf7738b3a4", null ],
       [ "Name", "d9/d3e/namespaceTasking.html#ae33532aeb44602803ff57c1bda7c8b2f", null ],
-      [ "PageTable", "d9/d3e/namespaceTasking.html#a26a0d1882e42b835ba923b400dadaeb8", null ],
+      [ "PageTable", "d9/d3e/namespaceTasking.html#a6134a1d1e69e7ee0c5d6e9a543e4d16a", null ],
       [ "Parent", "d9/d3e/namespaceTasking.html#aa1b70c60a92bb5cd30c81c17f51af986", null ],
       [ "Security", "d9/d3e/namespaceTasking.html#a9d7688af2a2c20aa1b0dfcebfbc3b303", null ],
       [ "Status", "d9/d3e/namespaceTasking.html#a7edc51939760bc98c3a1388e94933045", null ],

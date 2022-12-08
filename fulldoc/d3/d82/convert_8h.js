@@ -15,10 +15,12 @@ var convert_8h =
     [ "atof", "d3/d82/convert_8h.html#a82014fa7b30ac1ebe1622a71ab49d3fb", null ],
     [ "atoi", "d3/d82/convert_8h.html#a2032d00bcff61b1b912628210432b5c0", null ],
     [ "backspace", "d3/d82/convert_8h.html#acdc4e8377290fdfb200acddfb3d2bbf9", null ],
+    [ "isalpha", "d3/d82/convert_8h.html#a25908ae63aac2df990634e1ae5bd14d9", null ],
     [ "isdelim", "d3/d82/convert_8h.html#a44795c9b72669ec9dcea14f56fe37b2a", null ],
     [ "isdigit", "d3/d82/convert_8h.html#a3fa45b35c8abf67a950b6d3d4063dede", null ],
     [ "isempty", "d3/d82/convert_8h.html#a75b852b562036f85800f7e155266bd58", null ],
     [ "isspace", "d3/d82/convert_8h.html#a56be4166e4673843042a548a7f513dbc", null ],
+    [ "isupper", "d3/d82/convert_8h.html#adadd6582d46775aab6a51e29d16d9f77", null ],
     [ "itoa", "d3/d82/convert_8h.html#ad8be154309b350a31eb551a4c0b00845", null ],
     [ "ltoa", "d3/d82/convert_8h.html#aca5a8353d645c816b47891c9481c3b8f", null ],
     [ "memcmp", "d3/d82/convert_8h.html#ac376fcece8fcc2d0f8b1cf3de18b10df", null ],
@@ -39,6 +41,7 @@ var convert_8h =
     [ "strrchr", "d3/d82/convert_8h.html#a104a20698dd8f00e7d2711c811ea72ac", null ],
     [ "strstr", "d3/d82/convert_8h.html#a4a710d86541afc6b7dafddcdb4b1c94f", null ],
     [ "strtok", "d3/d82/convert_8h.html#ab0ad8275543a34aae52b7bcd02e79753", null ],
+    [ "strtol", "d3/d82/convert_8h.html#a2ce966cd04da3c32320f54c332569e03", null ],
     [ "swap", "d3/d82/convert_8h.html#a5caa2956a259c15d67de63fcddff3e57", null ],
     [ "ultoa", "d3/d82/convert_8h.html#a6a07124527ae550e2bdf0449a097bd4a", null ]
 ];
