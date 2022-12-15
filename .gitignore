@@ -24,4 +24,5 @@ initrd.tar.gz
 *.fex
 *.elf
 *.a
+*.so
 *.o
