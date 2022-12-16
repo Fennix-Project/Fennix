@@ -169,6 +169,7 @@ clean:
 	rm -rf doxygen-doc iso_tmp_data
 	rm -f initrd.tar.gz $(OSNAME).iso $(OSNAME).img
 	rm -f initrd/system/drivers/*.fex
+	rm -f initrd/system/drivers/*.elf
 	rm -f initrd/system/*.fex
 	rm -f initrd/system/*.elf
 	rm -f initrd/system/lib/*.a
