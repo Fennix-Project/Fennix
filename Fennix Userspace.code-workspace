@@ -8,11 +8,20 @@
 		"debug.allowBreakpointsEverywhere": true,
 		"files.associations": {
 			"fex.hpp": "c",
-			"types.h": "c"
+			"types.h": "c",
+			"dlfcn.h": "c",
+			"aux.h": "c",
+			"stddef.h": "c",
+			"stdio.h": "c",
+			"syscalls.h": "c"
 		},
 		"cSpell.words": [
+			"auxv",
 			"FENNIX",
-			"preinit"
+			"liballoc",
+			"libinit",
+			"preinit",
+			"vfctprintf"
 		]
 	}
 }
