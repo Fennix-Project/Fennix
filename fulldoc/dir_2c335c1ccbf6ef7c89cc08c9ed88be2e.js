@@ -30,7 +30,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "ipc.hpp", "d1/d02/ipc_8hpp.html", "d1/d02/ipc_8hpp" ],
     [ "kconfig.hpp", "d1/dfc/kconfig_8hpp.html", "d1/dfc/kconfig_8hpp" ],
     [ "limits.h", "d9/d86/limits_8h.html", "d9/d86/limits_8h" ],
-    [ "lock.hpp", "d0/d44/lock_8hpp.html", null ],
+    [ "lock.hpp", "d3/d01/Kernel_2include_2lock_8hpp.html", null ],
     [ "md5.h", "da/db0/md5_8h.html", "da/db0/md5_8h" ],
     [ "memory.hpp", "d9/df8/Kernel_2include_2memory_8hpp.html", "d9/df8/Kernel_2include_2memory_8hpp" ],
     [ "msexec.h", "de/d63/msexec_8h.html", "de/d63/msexec_8h" ],

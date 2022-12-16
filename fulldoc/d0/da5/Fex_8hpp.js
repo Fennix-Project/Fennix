@@ -2,8 +2,8 @@ var Fex_8hpp =
 [
     [ "Fex", "d2/ddc/structFex.html", "d2/ddc/structFex" ],
     [ "FexExtended", "d0/da5/Fex_8hpp.html#d5/d3a/structFexExtended", [
-      [ "Driver", "d0/da5/Fex_8hpp.html#a5a5fd3b063d1a8494fa26bb23de0bd0b", null ],
-      [ "Executable", "d0/da5/Fex_8hpp.html#a33fe9ed4ab5240a11544e1cd4398e4d0", null ]
+      [ "Driver", "d0/da5/Fex_8hpp.html#ae4eca5c9d7645f70d57d3dededc5d591", null ],
+      [ "Executable", "d0/da5/Fex_8hpp.html#aac73cb172cca5bd95175f1a83bb8da9d", null ]
     ] ],
     [ "FexExtended.Executable", "d0/da5/Fex_8hpp.html#d0/de5/structFexExtended_8Executable", null ],
     [ "FexExtended.Driver", "db/d74/structFexExtended_8Driver.html", "db/d74/structFexExtended_8Driver" ],
@@ -54,10 +54,10 @@ var Fex_8hpp =
       [ "FexOSType_Linux", "d0/da5/Fex_8hpp.html#a62bb50ae06aa34053f11cf2f14a99518a3569d7778c6dd3acdbf1755aff340a65", null ]
     ] ],
     [ "__attribute__", "d0/da5/Fex_8hpp.html#a35a6f8c90ab79a9659aa4fb668ec8650", null ],
-    [ "Driver", "d0/da5/Fex_8hpp.html#ae2a2c73cfa57c88e3dfdba6dbaabe6b4", null ],
-    [ "Executable", "d0/da5/Fex_8hpp.html#aa8431e576b74991ccb304d09e68d3885", null ],
+    [ "Driver", "d0/da5/Fex_8hpp.html#aafac04382654c5f7d6185e31cfc755b8", null ],
+    [ "EntryPoint", "d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3", null ],
+    [ "Executable", "d0/da5/Fex_8hpp.html#aca052543aa717cddebc8f80a976da409", null ],
     [ "Magic", "d0/da5/Fex_8hpp.html#a3278eb63dee94fdce712aae733087a84", null ],
     [ "OS", "d0/da5/Fex_8hpp.html#a07a5a485398d88b4be58f70d0350b8bd", null ],
-    [ "Pointer", "d0/da5/Fex_8hpp.html#a82f0a46f885cd3241fcaa20022f89d1d", null ],
     [ "Type", "d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba", null ]
 ];

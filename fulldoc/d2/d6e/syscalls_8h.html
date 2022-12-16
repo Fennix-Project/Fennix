@@ -86,7 +86,8 @@ $(document).ready(function(){initNavTree('d2/d6e/syscalls_8h.html','../../'); in
 
 <div class="header">
   <div class="summary">
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">syscalls.h File Reference</div>  </div>
 </div><!--header-->
@@ -97,10 +98,33 @@ $(document).ready(function(){initNavTree('d2/d6e/syscalls_8h.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a7646da588c70d4a6c38c0e3cef328fce"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fce">NativeSyscalls</a> { <a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea486d527dc450ae6c730c0353f1afd0f2">_exit</a> = 0
-, <a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceafad810778c0bd55e4522a466d676a480">_print</a>
+<tr class="memitem:a7646da588c70d4a6c38c0e3cef328fce"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fce">NativeSyscalls</a> { <br />
+&#160;&#160;<a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea47eb6ecc154db2d5318af2c5066210e5">_Exit</a> = 0
+, <a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea2deae65add1a55d75746c7fe79848fec">_Print</a>
+, <a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceafa255aa514605050a1a67929744c8d92">_RequestPages</a>
+, <a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaef368749ef576063c343ba77dab98258">_FreePages</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceade444453889da625811d8a634baa1327">_KernelCTL</a>
+<br />
  }</td></tr>
 <tr class="separator:a7646da588c70d4a6c38c0e3cef328fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac0bfcce43babc000aa3ac47b3837f3c7"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/syscalls_8h.html#ac0bfcce43babc000aa3ac47b3837f3c7">syscall0</a> (long syscall)</td></tr>
+<tr class="separator:ac0bfcce43babc000aa3ac47b3837f3c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac728f9ac7fe430b82caa7bf3fdded380"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/syscalls_8h.html#ac728f9ac7fe430b82caa7bf3fdded380">syscall1</a> (long syscall, long arg1)</td></tr>
+<tr class="separator:ac728f9ac7fe430b82caa7bf3fdded380"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2472d889b949db45eb788268d5c109cf"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/syscalls_8h.html#a2472d889b949db45eb788268d5c109cf">syscall2</a> (long syscall, long arg1, long arg2)</td></tr>
+<tr class="separator:a2472d889b949db45eb788268d5c109cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a80d6661349162f434c25de68808c85"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/syscalls_8h.html#a6a80d6661349162f434c25de68808c85">syscall3</a> (long syscall, long arg1, long arg2, long arg3)</td></tr>
+<tr class="separator:a6a80d6661349162f434c25de68808c85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00103c1560f97ed1585d9b85ef18decb"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/syscalls_8h.html#a00103c1560f97ed1585d9b85ef18decb">syscall4</a> (long syscall, long arg1, long arg2, long arg3, long arg4)</td></tr>
+<tr class="separator:a00103c1560f97ed1585d9b85ef18decb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a656227d0164c2e69924e0f792dcb435e"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/syscalls_8h.html#a656227d0164c2e69924e0f792dcb435e">syscall5</a> (long syscall, long arg1, long arg2, long arg3, long arg4, long arg5)</td></tr>
+<tr class="separator:a656227d0164c2e69924e0f792dcb435e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4830aeb5af9d446d70ffd52523f02560"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d6e/syscalls_8h.html#a4830aeb5af9d446d70ffd52523f02560">syscall6</a> (long syscall, long arg1, long arg2, long arg3, long arg4, long arg5, long arg6)</td></tr>
+<tr class="separator:a4830aeb5af9d446d70ffd52523f02560"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a7646da588c70d4a6c38c0e3cef328fce"></a>
@@ -115,18 +139,459 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea486d527dc450ae6c730c0353f1afd0f2"></a>_exit&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fceafad810778c0bd55e4522a466d676a480"></a>_print&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea47eb6ecc154db2d5318af2c5066210e5"></a>_Exit&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fcea2deae65add1a55d75746c7fe79848fec"></a>_Print&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fceafa255aa514605050a1a67929744c8d92"></a>_RequestPages&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fceaef368749ef576063c343ba77dab98258"></a>_FreePages&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a7646da588c70d4a6c38c0e3cef328fceade444453889da625811d8a634baa1327"></a>_KernelCTL&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00006">6</a> of file <a class="el" href="../../d2/d6e/syscalls_8h_source.html">syscalls.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea486d527dc450ae6c730c0353f1afd0f2">_exit</a> = 0,</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceafad810778c0bd55e4522a466d676a480">_print</a>,</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;};</div>
-<div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fcea486d527dc450ae6c730c0353f1afd0f2"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea486d527dc450ae6c730c0353f1afd0f2">_exit</a></div><div class="ttdeci">@ _exit</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00008">syscalls.h:8</a></div></div>
-<div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fceafad810778c0bd55e4522a466d676a480"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceafad810778c0bd55e4522a466d676a480">_print</a></div><div class="ttdeci">@ _print</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00009">syscalls.h:9</a></div></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea47eb6ecc154db2d5318af2c5066210e5">_Exit</a> = 0,</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea2deae65add1a55d75746c7fe79848fec">_Print</a>,</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceafa255aa514605050a1a67929744c8d92">_RequestPages</a>,</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaef368749ef576063c343ba77dab98258">_FreePages</a>,</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceade444453889da625811d8a634baa1327">_KernelCTL</a>,</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;};</div>
+<div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fcea2deae65add1a55d75746c7fe79848fec"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea2deae65add1a55d75746c7fe79848fec">_Print</a></div><div class="ttdeci">@ _Print</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00009">syscalls.h:9</a></div></div>
+<div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fcea47eb6ecc154db2d5318af2c5066210e5"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea47eb6ecc154db2d5318af2c5066210e5">_Exit</a></div><div class="ttdeci">@ _Exit</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00008">syscalls.h:8</a></div></div>
+<div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fceade444453889da625811d8a634baa1327"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceade444453889da625811d8a634baa1327">_KernelCTL</a></div><div class="ttdeci">@ _KernelCTL</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00014">syscalls.h:14</a></div></div>
+<div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fceaef368749ef576063c343ba77dab98258"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaef368749ef576063c343ba77dab98258">_FreePages</a></div><div class="ttdeci">@ _FreePages</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00012">syscalls.h:12</a></div></div>
+<div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fceafa255aa514605050a1a67929744c8d92"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceafa255aa514605050a1a67929744c8d92">_RequestPages</a></div><div class="ttdeci">@ _RequestPages</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00011">syscalls.h:11</a></div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ac0bfcce43babc000aa3ac47b3837f3c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0bfcce43babc000aa3ac47b3837f3c7">&#9670;&nbsp;</a></span>syscall0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static long syscall0 </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>syscall</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00017">17</a> of file <a class="el" href="../../d2/d6e/syscalls_8h_source.html">syscalls.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>)</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(syscall)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="ttc" id="anamespaceExecute_html_a339874f7caace499be89fa08adf3ad6d"><div class="ttname"><a href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">Execute::ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d21/Spawn_8cpp_source.html#l00509">Spawn.cpp:509</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00509">Execute::ret</a>.</p>
+
+</div>
+</div>
+<a id="ac728f9ac7fe430b82caa7bf3fdded380"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac728f9ac7fe430b82caa7bf3fdded380">&#9670;&nbsp;</a></span>syscall1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static long syscall1 </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>syscall</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00027">27</a> of file <a class="el" href="../../d2/d6e/syscalls_8h_source.html">syscalls.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(syscall), <span class="stringliteral">&quot;D&quot;</span>(arg1)</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00509">Execute::ret</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d34/LibAllocImplementation_8cpp_source.html#l00018">liballoc_alloc()</a>.</p>
+
+</div>
+</div>
+<a id="a2472d889b949db45eb788268d5c109cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2472d889b949db45eb788268d5c109cf">&#9670;&nbsp;</a></span>syscall2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static long syscall2 </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>syscall</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00037">37</a> of file <a class="el" href="../../d2/d6e/syscalls_8h_source.html">syscalls.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>)</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(syscall), <span class="stringliteral">&quot;D&quot;</span>(arg1), <span class="stringliteral">&quot;S&quot;</span>(arg2)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00509">Execute::ret</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d34/LibAllocImplementation_8cpp_source.html#l00023">liballoc_free()</a>.</p>
+
+</div>
+</div>
+<a id="a6a80d6661349162f434c25de68808c85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a80d6661349162f434c25de68808c85">&#9670;&nbsp;</a></span>syscall3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static long syscall3 </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>syscall</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg3</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00047">47</a> of file <a class="el" href="../../d2/d6e/syscalls_8h_source.html">syscalls.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(syscall), <span class="stringliteral">&quot;D&quot;</span>(arg1), <span class="stringliteral">&quot;S&quot;</span>(arg2), <span class="stringliteral">&quot;d&quot;</span>(arg3)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00509">Execute::ret</a>.</p>
+
+</div>
+</div>
+<a id="a00103c1560f97ed1585d9b85ef18decb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00103c1560f97ed1585d9b85ef18decb">&#9670;&nbsp;</a></span>syscall4()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static long syscall4 </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>syscall</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg4</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00057">57</a> of file <a class="el" href="../../d2/d6e/syscalls_8h_source.html">syscalls.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keyword">register</span> <span class="keywordtype">long</span> r10 __asm__(<span class="stringliteral">&quot;r10&quot;</span>) = arg4;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(syscall), <span class="stringliteral">&quot;D&quot;</span>(arg1), <span class="stringliteral">&quot;S&quot;</span>(arg2), <span class="stringliteral">&quot;d&quot;</span>(arg3), <span class="stringliteral">&quot;r&quot;</span>(r10)</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00509">Execute::ret</a>.</p>
+
+</div>
+</div>
+<a id="a656227d0164c2e69924e0f792dcb435e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a656227d0164c2e69924e0f792dcb435e">&#9670;&nbsp;</a></span>syscall5()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static long syscall5 </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>syscall</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg5</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00068">68</a> of file <a class="el" href="../../d2/d6e/syscalls_8h_source.html">syscalls.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;{</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">register</span> <span class="keywordtype">long</span> r10 __asm__(<span class="stringliteral">&quot;r10&quot;</span>) = arg4;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keyword">register</span> <span class="keywordtype">long</span> r8 __asm__(<span class="stringliteral">&quot;r8&quot;</span>) = arg5;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(syscall), <span class="stringliteral">&quot;D&quot;</span>(arg1), <span class="stringliteral">&quot;S&quot;</span>(arg2), <span class="stringliteral">&quot;d&quot;</span>(arg3), <span class="stringliteral">&quot;r&quot;</span>(r10), <span class="stringliteral">&quot;r&quot;</span>(r8)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00509">Execute::ret</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d5c/kcall_8c_source.html#l00005">DoCtl()</a>.</p>
+
+</div>
+</div>
+<a id="a4830aeb5af9d446d70ffd52523f02560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4830aeb5af9d446d70ffd52523f02560">&#9670;&nbsp;</a></span>syscall6()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static long syscall6 </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>syscall</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg3</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg4</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg5</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>arg6</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00080">80</a> of file <a class="el" href="../../d2/d6e/syscalls_8h_source.html">syscalls.h</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keyword">register</span> <span class="keywordtype">long</span> r10 __asm__(<span class="stringliteral">&quot;r10&quot;</span>) = arg4;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keyword">register</span> <span class="keywordtype">long</span> r8 __asm__(<span class="stringliteral">&quot;r8&quot;</span>) = arg5;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keyword">register</span> <span class="keywordtype">long</span> r9 __asm__(<span class="stringliteral">&quot;r9&quot;</span>) = arg6;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>)</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(syscall), <span class="stringliteral">&quot;D&quot;</span>(arg1), <span class="stringliteral">&quot;S&quot;</span>(arg2), <span class="stringliteral">&quot;d&quot;</span>(arg3), <span class="stringliteral">&quot;r&quot;</span>(r10), <span class="stringliteral">&quot;r&quot;</span>(r8), <span class="stringliteral">&quot;r&quot;</span>(r9)</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00509">Execute::ret</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->

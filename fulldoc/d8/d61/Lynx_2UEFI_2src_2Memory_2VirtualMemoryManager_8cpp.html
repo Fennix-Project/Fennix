@@ -176,6 +176,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>An implementation of the C standard's printf/vprintf</p>
+<dl class="section note"><dt>Note</dt><dd>you must implement a putchar_ function for using this function - it invokes putchar_ rather than directly performing any I/O (which insulates it from any dependence on the operating system and external libraries).</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">format</td><td>A string specifying the format of the output, with %-marked specifiers of how to interpret additional arguments. </td></tr>
+    <tr><td class="paramname">arg</td><td>Additional arguments to the function, one for each %-specifier in <code>format</code> string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The number of characters written into <code>s</code>, not counting the terminating null character </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../db/da1/Lynx_8c_source.html#l00053">53</a> of file <a class="el" href="../../db/da1/Lynx_8c_source.html">Lynx.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>

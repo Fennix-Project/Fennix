@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('d6/d67/Kernel_2Makefile_source.html','
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;else ifeq ($(OSARCH), aarch64)</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;CFLAGS += -pipe -fno-builtin -fPIC</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;CFLAGS += -pipe -fno-builtin -fPIC -Wstack-protector</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;CFLAG_STACK_PROTECTOR := -fstack-protector-all -fstack-clash-protection</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;LDFLAGS += -TArchitecture/aarch64/linker.ld -fPIC</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>

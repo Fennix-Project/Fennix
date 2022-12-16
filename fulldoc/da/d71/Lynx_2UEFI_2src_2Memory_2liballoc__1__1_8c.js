@@ -1,20 +1,20 @@
 var Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c =
 [
-    [ "liballoc_major", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#d6/db9/structliballoc__major", [
-      [ "first", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a8db150d09474fa68d04b5454eb21ab28", null ],
-      [ "next", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a4a147f5e1587d20f79184a9ec731e7cf", null ],
-      [ "pages", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#ac355949c287ae38eefdfa97dc2abfc93", null ],
-      [ "prev", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#ac04a8297d249fe04b86ac22d9f4db11e", null ],
-      [ "size", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a94315a9fd8d95755437248f20450e9ba", null ],
-      [ "usage", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#ab4d9c00c552e0ddd4997a91966bfc4f4", null ]
+    [ "liballoc_major", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d6/db9/structliballoc__major", [
+      [ "first", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a8db150d09474fa68d04b5454eb21ab28", null ],
+      [ "next", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a4a147f5e1587d20f79184a9ec731e7cf", null ],
+      [ "pages", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#ac355949c287ae38eefdfa97dc2abfc93", null ],
+      [ "prev", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#ac04a8297d249fe04b86ac22d9f4db11e", null ],
+      [ "size", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a94315a9fd8d95755437248f20450e9ba", null ],
+      [ "usage", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#ab4d9c00c552e0ddd4997a91966bfc4f4", null ]
     ] ],
-    [ "liballoc_minor", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#d7/d3e/structliballoc__minor", [
-      [ "block", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#aff17c469cb0dcbc1f8320b8342075b1d", null ],
-      [ "magic", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a2a521ac1721a7b39baf53f995e0fcccf", null ],
-      [ "next", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a8bb10f7f3cf052b617c718367bf0a095", null ],
-      [ "prev", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a9b88d3a051111df81ecdd3147f4386d9", null ],
-      [ "req_size", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a0e798303ee8177899564e567fea41d3f", null ],
-      [ "size", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a138f5528e084fb73761b9a23e106fb4a", null ]
+    [ "liballoc_minor", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d7/d3e/structliballoc__minor", [
+      [ "block", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#aff17c469cb0dcbc1f8320b8342075b1d", null ],
+      [ "magic", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a2a521ac1721a7b39baf53f995e0fcccf", null ],
+      [ "next", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a8bb10f7f3cf052b617c718367bf0a095", null ],
+      [ "prev", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a9b88d3a051111df81ecdd3147f4386d9", null ],
+      [ "req_size", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a0e798303ee8177899564e567fea41d3f", null ],
+      [ "size", "dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a138f5528e084fb73761b9a23e106fb4a", null ]
     ] ],
     [ "ALIGN", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a4d3a4d8ba3325af096e123278cffec04", null ],
     [ "ALIGN_INFO", "da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html#a794344346279e2c33cdf963b440693fc", null ],

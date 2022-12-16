@@ -11,6 +11,7 @@ var structTasking_1_1TCB =
     [ "ExitCode", "de/d96/structTasking_1_1TCB.html#ad559303402b3927ebff520bfa3777af4", null ],
     [ "ID", "de/d96/structTasking_1_1TCB.html#a851c7efc607cdb7e23e392fe4ed7ff29", null ],
     [ "Info", "de/d96/structTasking_1_1TCB.html#a6d93f54301130195f0d3d109ce72a404", null ],
+    [ "Memory", "de/d96/structTasking_1_1TCB.html#a820a437a20f9a9c2422d8aed75118fc0", null ],
     [ "Name", "de/d96/structTasking_1_1TCB.html#a480209ab7e1471a5b6b8599512341b91", null ],
     [ "Offset", "de/d96/structTasking_1_1TCB.html#ab71966bf64825975424a3310a27e15fb", null ],
     [ "Parent", "de/d96/structTasking_1_1TCB.html#ace86c0f8a099b3a5d644ef4c0d1ad1b7", null ],

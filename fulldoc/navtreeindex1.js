@@ -1,7 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"d0/da5/Fex_8hpp_source.html":[7,0,0,11],
-"d0/daa/kernel_8h.html":[7,0,0,14],
 "d0/daa/kernel_8h.html#a0fb7b5cd002af45dc6c96488154d8552":[7,0,0,14,5],
 "d0/daa/kernel_8h.html#a153b7d68a0bd505e7ea656f2fd8fcd64":[7,0,0,14,4],
 "d0/daa/kernel_8h.html#a30d0f477733ba7d378ef836693d3b48d":[7,0,0,14,2],
@@ -129,11 +127,13 @@ var NAVTREEINDEX1 =
 "d0/dca/i686_2cpu_2fxsr_8asm.html":[7,0,0,0,2,0,1],
 "d0/dca/i686_2cpu_2fxsr_8asm_source.html":[7,0,0,0,2,0,1],
 "d0/dcc/classSymbolResolver_1_1Symbols.html":[6,0,17,0],
-"d0/dcc/classSymbolResolver_1_1Symbols.html#a11659da40daa7aa2a9a4ae9c9feab6a3":[6,0,17,0,1],
+"d0/dcc/classSymbolResolver_1_1Symbols.html#a4f2213876f9db90cf03b18bf3d97e756":[6,0,17,0,5],
 "d0/dcc/classSymbolResolver_1_1Symbols.html#a514742bb0d06957329fc2d85e04bbabe":[7,0,0,4,37,1,1],
 "d0/dcc/classSymbolResolver_1_1Symbols.html#a514742bb0d06957329fc2d85e04bbabe":[6,0,17,0,0,1],
+"d0/dcc/classSymbolResolver_1_1Symbols.html#a8a89962f11e2f6f12f18d3594f16b3ce":[6,0,17,0,4],
 "d0/dcc/classSymbolResolver_1_1Symbols.html#ab6d88a9a3166f22b0b458e52889f3e90":[7,0,0,4,37,1,0],
 "d0/dcc/classSymbolResolver_1_1Symbols.html#ab6d88a9a3166f22b0b458e52889f3e90":[6,0,17,0,0,0],
+"d0/dcc/classSymbolResolver_1_1Symbols.html#ac53108561ad40335d329a87279e1f8e1":[6,0,17,0,1],
 "d0/dcc/classSymbolResolver_1_1Symbols.html#afd4be96d464c630b644f893dbf5b4159":[6,0,17,0,3],
 "d0/dcc/classSymbolResolver_1_1Symbols.html#aff4de095f869b335c15151753f9212ba":[6,0,17,0,2],
 "d0/dcc/classSymbolResolver_1_1Symbols.html#db/d91/structSymbolResolver_1_1Symbols_1_1SymbolTable":[7,0,0,4,37,1],

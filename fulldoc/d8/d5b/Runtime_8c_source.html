@@ -90,26 +90,29 @@ $(document).ready(function(){initNavTree('d8/d5b/Runtime_8c_source.html','../../
 </div><!--header-->
 <div class="contents">
 <a href="../../d8/d5b/Runtime_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">    2</a></span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d8/d5b/Runtime_8c.html#a0a1007e9dcc7f1d1553fe18ec3dbfb63">    4</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d5b/Runtime_8c.html#a0a1007e9dcc7f1d1553fe18ec3dbfb63">__libc_init</a>(<span class="keywordtype">void</span>)</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a>();</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d8/d5b/Runtime_8c.html#ad847d936639f9d68db8792d4be7a79a1">    9</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d5b/Runtime_8c.html#ad847d936639f9d68db8792d4be7a79a1">_exit</a>(<span class="keywordtype">int</span> <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                         :</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0), <span class="stringliteral">&quot;D&quot;</span>(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        __asm__ __volatile__(<span class="stringliteral">&quot;hlt&quot;</span>);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
-<div class="ttc" id="aRuntime_8c_html_a0a1007e9dcc7f1d1553fe18ec3dbfb63"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#a0a1007e9dcc7f1d1553fe18ec3dbfb63">__libc_init</a></div><div class="ttdeci">void __libc_init(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5b/Runtime_8c_source.html#l00004">Runtime.c:4</a></div></div>
-<div class="ttc" id="aRuntime_8c_html_a5f388c8556f7cb6a84b5692db6b6ad80"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a></div><div class="ttdeci">void __libc_init_array(void)</div></div>
-<div class="ttc" id="aRuntime_8c_html_ad847d936639f9d68db8792d4be7a79a1"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#ad847d936639f9d68db8792d4be7a79a1">_exit</a></div><div class="ttdeci">void _exit(int Code)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5b/Runtime_8c_source.html#l00009">Runtime.c:9</a></div></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d8/d5b/Runtime_8c.html#a0a1007e9dcc7f1d1553fe18ec3dbfb63">    5</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d5b/Runtime_8c.html#a0a1007e9dcc7f1d1553fe18ec3dbfb63">__libc_init</a>(<span class="keywordtype">void</span>)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a>();</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d8/d5b/Runtime_8c.html#ad847d936639f9d68db8792d4be7a79a1">   10</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d5b/Runtime_8c.html#ad847d936639f9d68db8792d4be7a79a1">_exit</a>(<span class="keywordtype">int</span> <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                         :</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0), <span class="stringliteral">&quot;D&quot;</span>(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">while</span> (1)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        ;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="ttc" id="aRuntime_8c_html_a0a1007e9dcc7f1d1553fe18ec3dbfb63"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#a0a1007e9dcc7f1d1553fe18ec3dbfb63">__libc_init</a></div><div class="ttdeci">void __libc_init(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5b/Runtime_8c_source.html#l00005">Runtime.c:5</a></div></div>
+<div class="ttc" id="aRuntime_8c_html_a5f388c8556f7cb6a84b5692db6b6ad80"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a></div><div class="ttdeci">void __libc_init_array(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00014">InitArray.c:14</a></div></div>
+<div class="ttc" id="aRuntime_8c_html_ad847d936639f9d68db8792d4be7a79a1"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#ad847d936639f9d68db8792d4be7a79a1">_exit</a></div><div class="ttdeci">void _exit(int Code)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5b/Runtime_8c_source.html#l00010">Runtime.c:10</a></div></div>
+<div class="ttc" id="aRuntime_8c_html_af80062f462ba444a6fbd61f52b58f170"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a></div><div class="ttdeci">void __libc_fini_array(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00020">InitArray.c:20</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_ac678cca2a7d570b7e2dd49c5619f98f7"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a></div><div class="ttdeci">GlobalDescriptorTableEntry Code</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00001">gdt.hpp:1</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

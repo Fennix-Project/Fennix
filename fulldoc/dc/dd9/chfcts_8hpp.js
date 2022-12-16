@@ -205,7 +205,7 @@ var chfcts_8hpp =
     [ "SegmentNotPresentExceptionHandler", "dc/dd9/chfcts_8hpp.html#a1cc207c409b58ebc66bc3e90b1aa628d", null ],
     [ "SIMDFloatingPointExceptionHandler", "dc/dd9/chfcts_8hpp.html#a219d8b1b66697cb4a85e28c6c1c5f056", null ],
     [ "StackFaultExceptionHandler", "dc/dd9/chfcts_8hpp.html#a1b61f11b041ca73506e0ee8bdfdf6696", null ],
-    [ "TraceFrames", "dc/dd9/chfcts_8hpp.html#a77c6f0ae6ef113b2acabd108bbe8d704", null ],
+    [ "TraceFrames", "dc/dd9/chfcts_8hpp.html#a9b0789ad4a18fde013ebb6182c23dc37", null ],
     [ "UnknownExceptionHandler", "dc/dd9/chfcts_8hpp.html#ab74e5efd9f1659552b51daae7950b872", null ],
     [ "UserInput", "dc/dd9/chfcts_8hpp.html#a1cb59308e6e67023ed853324f606eb3c", null ],
     [ "UserModeExceptionHandler", "dc/dd9/chfcts_8hpp.html#a16e4416feaed0d71c2f2e8c443049536", null ],

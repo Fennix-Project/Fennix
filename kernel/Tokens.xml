@@ -3212,7 +3212,7 @@
       <Scope>CrashHandler</Scope>
     </TokenIdentifier>
     <Path>d2/d57/namespaceCrashHandler.html</Path>
-    <Anchor>a77c6f0ae6ef113b2acabd108bbe8d704</Anchor>
+    <Anchor>a9b0789ad4a18fde013ebb6182c23dc37</Anchor>
     <DeclaredIn>chfcts.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5568,6 +5568,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>EHDumpData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>acbc177fb1a981eb91900cd9c06cd25ff</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>TrimWhiteSpace</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -5855,7 +5866,7 @@
       <Scope>CrashHandler</Scope>
     </TokenIdentifier>
     <Path>d2/d57/namespaceCrashHandler.html</Path>
-    <Anchor>a77c6f0ae6ef113b2acabd108bbe8d704</Anchor>
+    <Anchor>a9b0789ad4a18fde013ebb6182c23dc37</Anchor>
     <DeclaredIn>chfcts.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -7137,28 +7148,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SymTable</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>SymbolResolver</Scope>
-    </TokenIdentifier>
-    <Path>d9/d05/namespaceSymbolResolver.html</Path>
-    <Anchor>a072a1351e6bbb3bcaafd37431912efd3</Anchor>
-    <DeclaredIn>Symbols.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TotalEntries</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>SymbolResolver</Scope>
-    </TokenIdentifier>
-    <Path>d9/d05/namespaceSymbolResolver.html</Path>
-    <Anchor>ab305c3f5407ef184047e9951a760e7f3</Anchor>
-    <DeclaredIn>Symbols.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>CheckSMBIOS</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -8374,6 +8363,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>StopReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda9ef3a309026e2dbf696d6a0651c03064</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>BindReason</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -8831,12 +8830,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Pointer</Name>
+      <Name>EntryPoint</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d0/da5/Fex_8hpp.html</Path>
-    <Anchor>a82f0a46f885cd3241fcaa20022f89d1d</Anchor>
+    <Anchor>af279c0af4cb38234d36db472572d28b3</Anchor>
     <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -10667,6 +10666,16 @@
     </TokenIdentifier>
     <Path>d3/d82/convert_8h.html</Path>
     <Anchor>a6a07124527ae550e2bdf0449a097bd4a</Anchor>
+    <DeclaredIn>convert.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>strtoul</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/d82/convert_8h.html</Path>
+    <Anchor>aa7d767d03ce3929978c28f64e3a4b222</Anchor>
     <DeclaredIn>convert.h</DeclaredIn>
   </Token>
   <Token>
@@ -14197,6 +14206,686 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DT_NULL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba72a55d767311e078564d195eefa4cafc</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_NEEDED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4e61799a41b5084321c2383a5c3748c7</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PLTRELSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba1d60eda8dcea64d20eef202b912e1b39</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PLTGOT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaa143c6628f1b7b7f3b94e19902751512</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_HASH</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaa776c8cb0e25ea1a9463ee98149d366f</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_STRTAB</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba3867ebc31c47082b29aaf6939ba1eb83</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMTAB</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaea09a60ec7bff5f827c1199dd2860fcd</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELA</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4c8579fee3b600793f9c9f868576bdd4</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELASZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba2ea80d8647f8f3ecbc1853ef8260cd47</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELAENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4a8212f83ddfe2591628852a7fce2bac</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_STRSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbabd43dfbdee99e571a7bb139ab1100905</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba0561412a872d876d67ff8d57695cd6ee</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_INIT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba47cf01df69aecd154ebfc6bad8e0c025</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FINI</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbad6e13af9f2c3ef408be58bc45d19f53a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SONAME</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbac274306c6ec71719e9be0fcaab9f0628</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RPATH</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba6c63212df7f827c478403bc1891faed8</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMBOLIC</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba103c38820298a52b05372308f4b250b7</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_REL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba9cd36df84c749c97ea3517ac535aecef</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba41fdf2c9571ce7cc3ac22a5fe82d7471</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba99b9f8e1bef812d57135f663a5c5042e</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PLTREL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba3c872df95055cfd388dbe2378d15ff7c</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_DEBUG</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaba4dd3dada19bb70d1856fc8718774a1</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_TEXTREL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba1d5deb4a53a9a2d5e07860f94bea37bd</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_JMPREL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba80117daa43b45ceae436ca945f6f51e2</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_BIND_NOW</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba6fa634da87a4d7c914eef0d60feb35fd</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_INIT_ARRAY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbafb5736f35bd3c509c19ed88b08ca63b3</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FINI_ARRAY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba979906de78d6952ebc47f2eacb21dc9e</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_INIT_ARRAYSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbab2ce685b60aa5462d95e367d1005d592</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FINI_ARRAYSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba0a76ac63db1bb497d5468e61075585d9</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RUNPATH</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4196625fa826d84829d6f5e407d2fe9c</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FLAGS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbad64f2b930c2fb3f2bba65f6a2dbddf65</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_ENCODING</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaafa31054a1d9c6b201af6c7bc8862a21</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PREINIT_ARRAY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba84f1418580cda4eb6db61773eb1dca46</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PREINIT_ARRAYSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba1164517d311a24a58809d809fb188700</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_LOOS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaac40cbac3f2ad5b8e17e4480110aecf8</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SUNW_RTLDINF</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba99ca2627527b6cfc75cf87a6caecc7df</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_HIOS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba758cfef96c2431832ad5395ef1770d25</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VALRNGLO</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba64430e56f1131d62c8c420e1dc1e1757</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_CHECKSUM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba3f89d005c060a79b89added26160515a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PLTPADSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba7cd8e07bf97119a3de82943919fa955a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_MOVEENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba0ab18751177d3ebc445ab5c1173d248f</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_MOVESZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbad4a29f00e10f6d196c9aba19128c9772</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FEATURE_1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba0da471810c0e84986dbc15964bad4571</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_POSFLAG_1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbab7915a7ae05f608373c23733a706ca1f</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMINSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba154c4be1713403742dac4f0611d15524</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMINENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba5f9ccb60493b39f8b3734bcfab1794f6</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VALRNGHI</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba666cdaefc85f98b121a20621a692986a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_ADDRRNGLO</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba836826039dafd39e671d12b22d272176</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_CONFIG</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba271352d9e6e5f46e8a280cd40249cb46</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_DEPAUDIT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbacd6650fe4e10c7a2be0935363a1d5f7d</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_AUDIT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4e34e0b2c985cc2cdb79cda40db09c28</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PLTPAD</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaad36e0894ec49f01b3b01f4eca53340a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_MOVETAB</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba29ae3f902c902194eaf8fb58d07c8ce6</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMINFO</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaca92090224ed7fec8b9a6fc0c5aca42d</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_ADDRRNGHI</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbab157118f8cefc50376081e5d11f57523</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELACOUNT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba26f0093ed3645418d434c4c58afbf575</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELCOUNT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba80ea3bc9f22e739cf124543d117ff11e</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FLAGS_1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba6b39fa4d5a46bb073b9cf7b2b617077a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VERDEF</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba802234af25ef086999244f858c0ca6aa</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VERDEFNUM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba08e71170bc4e4e15f667729a6fcfbf2b</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VERNEED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaf9e90c16b8d9a7d0bdbb954e19d63159</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VERNEEDNUM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbafc5e563b8644867d7f259a47a83d4d2d</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_LOPROC</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba20ce0d97747317067ae2baa7c02c2132</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SPARC_REGISTER</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4e08ca6f10b908e3a4fe10d36012e642</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_AUXILIARY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba5ee544abacd70c2dc3e516d38f909431</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_USED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba2c8099a1da3f85907e4e7842ae2bfb1c</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FILTER</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba7a10a2e3d4ba1d38632960d43e02e41d</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_HIPROC</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba3c593dc87966a4da8552bed8bb28d1bf</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>EI_MAG0</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -14683,6 +15372,16 @@
     </TokenIdentifier>
     <Path>d1/d9e/elf_8h.html</Path>
     <Anchor>ac07037baa575afc7b34fa782e6a49be2a34eb875ba646e2f9c25c7637c0d21587</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PT_TLS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>ac07037baa575afc7b34fa782e6a49be2a35043cd8c586647c07d6a8ab7c3f7b31</Anchor>
     <DeclaredIn>elf.h</DeclaredIn>
   </Token>
   <Token>
@@ -19761,6 +20460,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>strtoul</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/def/Convert_8c.html</Path>
+    <Anchor>aa7d767d03ce3929978c28f64e3a4b222</Anchor>
+    <DeclaredIn>Convert.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>isdigit</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -19791,6 +20500,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>isdelim</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/def/Convert_8c.html</Path>
+    <Anchor>a44795c9b72669ec9dcea14f56fe37b2a</Anchor>
+    <DeclaredIn>Convert.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>abs</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -19817,6 +20536,16 @@
     </TokenIdentifier>
     <Path>de/def/Convert_8c.html</Path>
     <Anchor>af927ee96b41aa243c2191642f1788665</Anchor>
+    <DeclaredIn>Convert.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>strtok</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/def/Convert_8c.html</Path>
+    <Anchor>ab0ad8275543a34aae52b7bcd02e79753</Anchor>
     <DeclaredIn>Convert.c</DeclaredIn>
   </Token>
   <Token>
@@ -22716,22 +23445,122 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>_exit</Name>
+      <Name>syscall0</Name>
       <APILanguage>c</APILanguage>
-      <Type>econst</Type>
+      <Type>func</Type>
     </TokenIdentifier>
     <Path>d2/d6e/syscalls_8h.html</Path>
-    <Anchor>a7646da588c70d4a6c38c0e3cef328fcea486d527dc450ae6c730c0353f1afd0f2</Anchor>
+    <Anchor>ac0bfcce43babc000aa3ac47b3837f3c7</Anchor>
     <DeclaredIn>syscalls.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>_print</Name>
+      <Name>syscall1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>ac728f9ac7fe430b82caa7bf3fdded380</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syscall2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a2472d889b949db45eb788268d5c109cf</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syscall3</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a6a80d6661349162f434c25de68808c85</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syscall4</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a00103c1560f97ed1585d9b85ef18decb</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syscall5</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a656227d0164c2e69924e0f792dcb435e</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syscall6</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a4830aeb5af9d446d70ffd52523f02560</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Exit</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d2/d6e/syscalls_8h.html</Path>
-    <Anchor>a7646da588c70d4a6c38c0e3cef328fceafad810778c0bd55e4522a466d676a480</Anchor>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fcea47eb6ecc154db2d5318af2c5066210e5</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Print</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fcea2deae65add1a55d75746c7fe79848fec</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_RequestPages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fceafa255aa514605050a1a67929744c8d92</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_FreePages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fceaef368749ef576063c343ba77dab98258</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_KernelCTL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fceade444453889da625811d8a634baa1327</Anchor>
     <DeclaredIn>syscalls.h</DeclaredIn>
   </Token>
   <Token>
@@ -26156,6 +26985,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sys_request_pages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d76/Native_8cpp.html</Path>
+    <Anchor>a681193535f91d00d245338e1dd4ce9c6</Anchor>
+    <DeclaredIn>Native.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sys_free_pages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d76/Native_8cpp.html</Path>
+    <Anchor>ab7cc02413acea1865c3c6709c2b508bb</Anchor>
+    <DeclaredIn>Native.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sys_kernelctl</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d76/Native_8cpp.html</Path>
+    <Anchor>a0bb92a5385323e50b7231ec8d4d7fe17</Anchor>
+    <DeclaredIn>Native.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HandleNativeSyscalls</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -26757,13 +27616,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Pointer</Name>
+      <Name>EntryPoint</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>Fex</Scope>
     </TokenIdentifier>
     <Path>d2/ddc/structFex.html</Path>
-    <Anchor>ac69da738231bd089ee1c1feed7c1ecdd</Anchor>
+    <Anchor>ae14ab7c2c2135fef85b07c4c80d1da8f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -40609,7 +41468,7 @@
       <Scope>CrashHandler</Scope>
     </TokenIdentifier>
     <Path>d2/d57/namespaceCrashHandler.html</Path>
-    <Anchor>a77c6f0ae6ef113b2acabd108bbe8d704</Anchor>
+    <Anchor>a9b0789ad4a18fde013ebb6182c23dc37</Anchor>
     <DeclaredIn>chfcts.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40720,6 +41579,17 @@
     </TokenIdentifier>
     <Path>d2/d57/namespaceCrashHandler.html</Path>
     <Anchor>a75aadb54e6eafdfdd020ae223f65fbf8</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EHDumpData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>acbc177fb1a981eb91900cd9c06cd25ff</Anchor>
     <DeclaredIn>CrashHandler.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -41468,6 +42338,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NOT_IMPLEMENTED</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a020a5b26e9a3fe6af243be692d6147c6a9e02cd5eb948db14fd2c31d5731a332e</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DRIVER_RETURNED_ERROR</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
@@ -41680,6 +42561,50 @@
     </TokenIdentifier>
     <Path>d3/d7d/classDriver_1_1Driver.html</Path>
     <Anchor>abacf3db6b0ea56324e0ce7abff6ab3ac</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverLoadBindPCI</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a23006a874bc6a452f6eb8ff4615e1288</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverLoadBindInterrupt</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a50af10296f9797633f76d15bef7b3dad</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverLoadBindInput</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>af6237fa9f1f73156a9d07ab040a23d53</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverLoadBindProcess</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a8283b206e105d264c0d4ab7e96d10403</Anchor>
     <DeclaredIn>driver.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -47766,28 +48691,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SymTable</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>SymbolResolver</Scope>
-    </TokenIdentifier>
-    <Path>d9/d05/namespaceSymbolResolver.html</Path>
-    <Anchor>a072a1351e6bbb3bcaafd37431912efd3</Anchor>
-    <DeclaredIn>Symbols.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TotalEntries</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>SymbolResolver</Scope>
-    </TokenIdentifier>
-    <Path>d9/d05/namespaceSymbolResolver.html</Path>
-    <Anchor>ab305c3f5407ef184047e9951a760e7f3</Anchor>
-    <DeclaredIn>Symbols.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>SymbolResolver::Symbols</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -47804,7 +48707,7 @@
       <Scope>SymbolResolver::Symbols</Scope>
     </TokenIdentifier>
     <Path>d0/dcc/classSymbolResolver_1_1Symbols.html</Path>
-    <Anchor>a11659da40daa7aa2a9a4ae9c9feab6a3</Anchor>
+    <Anchor>ac53108561ad40335d329a87279e1f8e1</Anchor>
     <DeclaredIn>symbols.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -47828,6 +48731,26 @@
     <Path>d0/dcc/classSymbolResolver_1_1Symbols.html</Path>
     <Anchor>afd4be96d464c630b644f893dbf5b4159</Anchor>
     <DeclaredIn>symbols.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SymTable</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>SymbolResolver::Symbols</Scope>
+    </TokenIdentifier>
+    <Path>d0/dcc/classSymbolResolver_1_1Symbols.html</Path>
+    <Anchor>a8a89962f11e2f6f12f18d3594f16b3ce</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TotalEntries</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>SymbolResolver::Symbols</Scope>
+    </TokenIdentifier>
+    <Path>d0/dcc/classSymbolResolver_1_1Symbols.html</Path>
+    <Anchor>a4f2213876f9db90cf03b18bf3d97e756</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -48402,6 +49325,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Memory</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Tasking::TCB</Scope>
+    </TokenIdentifier>
+    <Path>de/d96/structTasking_1_1TCB.html</Path>
+    <Anchor>a820a437a20f9a9c2422d8aed75118fc0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Status</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -48649,7 +49582,7 @@
       <Scope>Tasking::Task</Scope>
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
-    <Anchor>af473b1437086d85f1bc860cc77e00986</Anchor>
+    <Anchor>a2f3e77be5e544f3603bde15a60220fec</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>

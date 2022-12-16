@@ -3,6 +3,7 @@ var CrashHandler_8cpp =
     [ "ArrowInput", "db/de7/CrashHandler_8cpp.html#a0813e1d52cfa906ea131ef2d89ac0658", null ],
     [ "DisplayBottomOverlay", "db/de7/CrashHandler_8cpp.html#acb810b085512f3aa3c4fb5e4a74ed256", null ],
     [ "DisplayTopOverlay", "db/de7/CrashHandler_8cpp.html#ab21d92a6d88783d013f3d6b8b9533ca3", null ],
+    [ "EHDumpData", "db/de7/CrashHandler_8cpp.html#acbc177fb1a981eb91900cd9c06cd25ff", null ],
     [ "EHPrint", "db/de7/CrashHandler_8cpp.html#a75aadb54e6eafdfdd020ae223f65fbf8", null ],
     [ "Handle", "db/de7/CrashHandler_8cpp.html#a202e013cac1a108322c79e592f3a5e0c", null ],
     [ "NewLock", "db/de7/CrashHandler_8cpp.html#a7c971b6374d1d78e185d408f3c03ebf5", null ],

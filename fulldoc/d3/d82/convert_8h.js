@@ -42,6 +42,7 @@ var convert_8h =
     [ "strstr", "d3/d82/convert_8h.html#a4a710d86541afc6b7dafddcdb4b1c94f", null ],
     [ "strtok", "d3/d82/convert_8h.html#ab0ad8275543a34aae52b7bcd02e79753", null ],
     [ "strtol", "d3/d82/convert_8h.html#a2ce966cd04da3c32320f54c332569e03", null ],
+    [ "strtoul", "d3/d82/convert_8h.html#aa7d767d03ce3929978c28f64e3a4b222", null ],
     [ "swap", "d3/d82/convert_8h.html#a5caa2956a259c15d67de63fcddff3e57", null ],
     [ "ultoa", "d3/d82/convert_8h.html#a6a07124527ae550e2bdf0449a097bd4a", null ]
 ];

@@ -3212,7 +3212,7 @@
       <Scope>CrashHandler</Scope>
     </TokenIdentifier>
     <Path>d2/d57/namespaceCrashHandler.html</Path>
-    <Anchor>a77c6f0ae6ef113b2acabd108bbe8d704</Anchor>
+    <Anchor>a9b0789ad4a18fde013ebb6182c23dc37</Anchor>
     <DeclaredIn>chfcts.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -5568,6 +5568,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>EHDumpData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>acbc177fb1a981eb91900cd9c06cd25ff</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>TrimWhiteSpace</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -5855,7 +5866,7 @@
       <Scope>CrashHandler</Scope>
     </TokenIdentifier>
     <Path>d2/d57/namespaceCrashHandler.html</Path>
-    <Anchor>a77c6f0ae6ef113b2acabd108bbe8d704</Anchor>
+    <Anchor>a9b0789ad4a18fde013ebb6182c23dc37</Anchor>
     <DeclaredIn>chfcts.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -7417,28 +7428,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SymTable</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>SymbolResolver</Scope>
-    </TokenIdentifier>
-    <Path>d9/d05/namespaceSymbolResolver.html</Path>
-    <Anchor>a072a1351e6bbb3bcaafd37431912efd3</Anchor>
-    <DeclaredIn>Symbols.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TotalEntries</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>SymbolResolver</Scope>
-    </TokenIdentifier>
-    <Path>d9/d05/namespaceSymbolResolver.html</Path>
-    <Anchor>ab305c3f5407ef184047e9951a760e7f3</Anchor>
-    <DeclaredIn>Symbols.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>CheckSMBIOS</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -8557,7 +8546,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>adfd72fec7118b927df3fd3c760dc75a2</Anchor>
+    <Anchor>a46ba3b2e83aeaf1fa2d8443992796803</Anchor>
     <Abstract>When the kernel wants to send a packet.</Abstract>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
@@ -8568,7 +8557,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a14884aac2919603b6f45afcb0a7d7110</Anchor>
+    <Anchor>ad739fb1141166cefe388aed8fd3d78c7</Anchor>
     <Abstract>When the kernel wants to write to disk.</Abstract>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
@@ -8579,7 +8568,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a8b0c49120be38e4aec427500b249677b</Anchor>
+    <Anchor>af70f521fb09d14e7c34f333d08903c87</Anchor>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -8589,7 +8578,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>aef009f18b6a57b44bf8f9b56667e0549</Anchor>
+    <Anchor>ae3bccd99fbcfbf65b7841bd4c1f86cd8</Anchor>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -8650,6 +8639,16 @@
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
     <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0ddadcb973611e79107b928979a7a88f8e76</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>StopReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda9ef3a309026e2dbf696d6a0651c03064</Anchor>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9111,12 +9110,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Pointer</Name>
+      <Name>EntryPoint</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d0/da5/Fex_8hpp.html</Path>
-    <Anchor>a82f0a46f885cd3241fcaa20022f89d1d</Anchor>
+    <Anchor>af279c0af4cb38234d36db472572d28b3</Anchor>
     <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9126,7 +9125,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d0/da5/Fex_8hpp.html</Path>
-    <Anchor>aa8431e576b74991ccb304d09e68d3885</Anchor>
+    <Anchor>aca052543aa717cddebc8f80a976da409</Anchor>
     <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9136,7 +9135,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d0/da5/Fex_8hpp.html</Path>
-    <Anchor>ae2a2c73cfa57c88e3dfdba6dbaabe6b4</Anchor>
+    <Anchor>aafac04382654c5f7d6185e31cfc755b8</Anchor>
     <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -11047,6 +11046,16 @@
     </TokenIdentifier>
     <Path>d3/d82/convert_8h.html</Path>
     <Anchor>a6a07124527ae550e2bdf0449a097bd4a</Anchor>
+    <DeclaredIn>convert.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>strtoul</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/d82/convert_8h.html</Path>
+    <Anchor>aa7d767d03ce3929978c28f64e3a4b222</Anchor>
     <DeclaredIn>convert.h</DeclaredIn>
   </Token>
   <Token>
@@ -14577,6 +14586,686 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DT_NULL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba72a55d767311e078564d195eefa4cafc</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_NEEDED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4e61799a41b5084321c2383a5c3748c7</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PLTRELSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba1d60eda8dcea64d20eef202b912e1b39</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PLTGOT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaa143c6628f1b7b7f3b94e19902751512</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_HASH</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaa776c8cb0e25ea1a9463ee98149d366f</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_STRTAB</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba3867ebc31c47082b29aaf6939ba1eb83</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMTAB</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaea09a60ec7bff5f827c1199dd2860fcd</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELA</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4c8579fee3b600793f9c9f868576bdd4</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELASZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba2ea80d8647f8f3ecbc1853ef8260cd47</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELAENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4a8212f83ddfe2591628852a7fce2bac</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_STRSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbabd43dfbdee99e571a7bb139ab1100905</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba0561412a872d876d67ff8d57695cd6ee</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_INIT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba47cf01df69aecd154ebfc6bad8e0c025</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FINI</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbad6e13af9f2c3ef408be58bc45d19f53a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SONAME</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbac274306c6ec71719e9be0fcaab9f0628</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RPATH</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba6c63212df7f827c478403bc1891faed8</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMBOLIC</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba103c38820298a52b05372308f4b250b7</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_REL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba9cd36df84c749c97ea3517ac535aecef</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba41fdf2c9571ce7cc3ac22a5fe82d7471</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba99b9f8e1bef812d57135f663a5c5042e</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PLTREL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba3c872df95055cfd388dbe2378d15ff7c</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_DEBUG</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaba4dd3dada19bb70d1856fc8718774a1</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_TEXTREL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba1d5deb4a53a9a2d5e07860f94bea37bd</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_JMPREL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba80117daa43b45ceae436ca945f6f51e2</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_BIND_NOW</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba6fa634da87a4d7c914eef0d60feb35fd</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_INIT_ARRAY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbafb5736f35bd3c509c19ed88b08ca63b3</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FINI_ARRAY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba979906de78d6952ebc47f2eacb21dc9e</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_INIT_ARRAYSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbab2ce685b60aa5462d95e367d1005d592</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FINI_ARRAYSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba0a76ac63db1bb497d5468e61075585d9</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RUNPATH</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4196625fa826d84829d6f5e407d2fe9c</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FLAGS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbad64f2b930c2fb3f2bba65f6a2dbddf65</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_ENCODING</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaafa31054a1d9c6b201af6c7bc8862a21</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PREINIT_ARRAY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba84f1418580cda4eb6db61773eb1dca46</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PREINIT_ARRAYSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba1164517d311a24a58809d809fb188700</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_LOOS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaac40cbac3f2ad5b8e17e4480110aecf8</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SUNW_RTLDINF</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba99ca2627527b6cfc75cf87a6caecc7df</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_HIOS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba758cfef96c2431832ad5395ef1770d25</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VALRNGLO</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba64430e56f1131d62c8c420e1dc1e1757</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_CHECKSUM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba3f89d005c060a79b89added26160515a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PLTPADSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba7cd8e07bf97119a3de82943919fa955a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_MOVEENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba0ab18751177d3ebc445ab5c1173d248f</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_MOVESZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbad4a29f00e10f6d196c9aba19128c9772</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FEATURE_1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba0da471810c0e84986dbc15964bad4571</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_POSFLAG_1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbab7915a7ae05f608373c23733a706ca1f</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMINSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba154c4be1713403742dac4f0611d15524</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMINENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba5f9ccb60493b39f8b3734bcfab1794f6</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VALRNGHI</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba666cdaefc85f98b121a20621a692986a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_ADDRRNGLO</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba836826039dafd39e671d12b22d272176</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_CONFIG</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba271352d9e6e5f46e8a280cd40249cb46</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_DEPAUDIT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbacd6650fe4e10c7a2be0935363a1d5f7d</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_AUDIT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4e34e0b2c985cc2cdb79cda40db09c28</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_PLTPAD</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaad36e0894ec49f01b3b01f4eca53340a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_MOVETAB</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba29ae3f902c902194eaf8fb58d07c8ce6</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SYMINFO</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaca92090224ed7fec8b9a6fc0c5aca42d</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_ADDRRNGHI</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbab157118f8cefc50376081e5d11f57523</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELACOUNT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba26f0093ed3645418d434c4c58afbf575</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_RELCOUNT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba80ea3bc9f22e739cf124543d117ff11e</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FLAGS_1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba6b39fa4d5a46bb073b9cf7b2b617077a</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VERDEF</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba802234af25ef086999244f858c0ca6aa</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VERDEFNUM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba08e71170bc4e4e15f667729a6fcfbf2b</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VERNEED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbaf9e90c16b8d9a7d0bdbb954e19d63159</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_VERNEEDNUM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bbafc5e563b8644867d7f259a47a83d4d2d</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_LOPROC</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba20ce0d97747317067ae2baa7c02c2132</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_SPARC_REGISTER</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba4e08ca6f10b908e3a4fe10d36012e642</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_AUXILIARY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba5ee544abacd70c2dc3e516d38f909431</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_USED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba2c8099a1da3f85907e4e7842ae2bfb1c</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_FILTER</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba7a10a2e3d4ba1d38632960d43e02e41d</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DT_HIPROC</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>a370bb33de42069f09315e96d5f8053bba3c593dc87966a4da8552bed8bb28d1bf</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>EI_MAG0</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -15063,6 +15752,16 @@
     </TokenIdentifier>
     <Path>d1/d9e/elf_8h.html</Path>
     <Anchor>ac07037baa575afc7b34fa782e6a49be2a34eb875ba646e2f9c25c7637c0d21587</Anchor>
+    <DeclaredIn>elf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PT_TLS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d1/d9e/elf_8h.html</Path>
+    <Anchor>ac07037baa575afc7b34fa782e6a49be2a35043cd8c586647c07d6a8ab7c3f7b31</Anchor>
     <DeclaredIn>elf.h</DeclaredIn>
   </Token>
   <Token>
@@ -17798,7 +18497,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
     <Anchor>a7f65924a9437093b218072fbf1e0e27f</Anchor>
     <Abstract>Small stand-alone implementation of the printf family of functions ((v)printf, (v)s(n)printf etc....</Abstract>
     <DeclaredIn>printf.h</DeclaredIn>
@@ -17809,7 +18508,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
     <Anchor>a0bf4b55e618023b0a33ec7f5305b6b71</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
@@ -17819,7 +18518,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
     <Anchor>a78b25e31912e285c08aae4d74e00e89c</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
@@ -17829,7 +18528,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
     <Anchor>a61adc6db95ba87f685e7d3253af87af4</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
@@ -17839,8 +18538,8 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
-    <Anchor>a82b6fdd25b741497abf2464d9209770d</Anchor>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
+    <Anchor>ad546ce3fb3c0c67eac2c7156b790974a</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
   <Token>
@@ -17849,7 +18548,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
     <Anchor>a735494c5e2525e1ce372b86891b6e6e6</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
@@ -17859,68 +18558,189 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
     <Anchor>a47c8d7b7f2120352c780f49b0212a13d</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>printf_</Name>
+      <Name>printf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
-    <Anchor>a2c62cacbfb172bbdfab5597d22a8b342</Anchor>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
+    <Anchor>a70e2ebbb830baec2baa21946aa47dab0</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>vprintf_</Name>
+      <Name>vprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
-    <Anchor>a37d423a6b4d321147399b63eea93bb29</Anchor>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
+    <Anchor>a60eafc0462174ced134abb3714d9c85a</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>sprintf_</Name>
+      <Name>sprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
-    <Anchor>aa0320d28406c4c8399830583177fdc77</Anchor>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
+    <Anchor>a77dac04ed12a16543832b623c7778729</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>vsprintf_</Name>
+      <Name>vsprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
-    <Anchor>ae12ecc9fd035416b6e7cddae9804f121</Anchor>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
+    <Anchor>a2e8aa13bfb0ae95cdd2a2dbeea602cce</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>snprintf_</Name>
+      <Name>snprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
-    <Anchor>abbaf9363f36b73a13dfa6b0a792a60c5</Anchor>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
+    <Anchor>a437169f8519f855cc045a0e23d3ca691</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>vsnprintf_</Name>
+      <Name>vsnprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>dc/d78/Userspace_2apps_2system_2init_2printf_8h.html</Path>
-    <Anchor>a25006737444a8712899101e9e89387c3</Anchor>
+    <Path>d2/de6/Userspace_2libc_2src_2print_2printf_8h.html</Path>
+    <Anchor>a715af29d23f9914db8ecafd4b94a7e14</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ATTR_PRINTF</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>a7f65924a9437093b218072fbf1e0e27f</Anchor>
+    <Abstract>Small stand-alone implementation of the printf family of functions ((v)printf, (v)s(n)printf etc....</Abstract>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ATTR_VPRINTF</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>a0bf4b55e618023b0a33ec7f5305b6b71</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_ALIAS_STANDARD_FUNCTION_NAMES</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>a78b25e31912e285c08aae4d74e00e89c</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_VISIBILITY</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>a61adc6db95ba87f685e7d3253af87af4</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fctprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>a1924bb631b84ad12a00253ed7cac4465</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vfctprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>aadf1888a0637cd0eae59fd94267be3df</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>printf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>a25d71bd8ac87c723b62260754f7aefa0</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>a7c64cec490a96053384eb1694242d766</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>a986079374a60670835831a5ef3e551cb</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vsprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>aeeba5b498cbec63bbdab3b4495e36684</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>snprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>a6b7bc13f526fb1d1c9dc7dd532fb65da</Anchor>
+    <DeclaredIn>printf.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vsnprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/df5/Userspace_2libs_2libinit_2printf_8h.html</Path>
+    <Anchor>adfa60ac8e268581e7c8ede0f8097b33a</Anchor>
     <DeclaredIn>printf.h</DeclaredIn>
   </Token>
   <Token>
@@ -20029,26 +20849,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>NULL</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>df/d19/Userspace_2libc_2include_2types_8h.html</Path>
-    <Anchor>a070d2ce7b6bb7e5c05602aa8c308d0c4</Anchor>
-    <DeclaredIn>types.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>bool</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>df/d19/Userspace_2libc_2include_2types_8h.html</Path>
-    <Anchor>abb452686968e48b67397da5f97445f5b</Anchor>
-    <DeclaredIn>types.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>asm</Name>
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
@@ -20125,36 +20925,6 @@
     </TokenIdentifier>
     <Path>df/d19/Userspace_2libc_2include_2types_8h.html</Path>
     <Anchor>a422175620f52b1ca4dbc39d627296d83</Anchor>
-    <DeclaredIn>types.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>va_start</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>df/d19/Userspace_2libc_2include_2types_8h.html</Path>
-    <Anchor>aa0628ab596c3d7e78f5e08c2d98e24da</Anchor>
-    <DeclaredIn>types.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>va_end</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>df/d19/Userspace_2libc_2include_2types_8h.html</Path>
-    <Anchor>a823b205416e9129825841b74c3bf8484</Anchor>
-    <DeclaredIn>types.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>va_arg</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>df/d19/Userspace_2libc_2include_2types_8h.html</Path>
-    <Anchor>a9cfd655f1203c9a345ddd90446f0bcee</Anchor>
     <DeclaredIn>types.h</DeclaredIn>
   </Token>
   <Token>
@@ -20805,16 +21575,6 @@
     </TokenIdentifier>
     <Path>df/d19/Userspace_2libc_2include_2types_8h.html</Path>
     <Anchor>aa40826e19ab43b143542d0a80a175bad</Anchor>
-    <DeclaredIn>types.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>va_list</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tdef</Type>
-    </TokenIdentifier>
-    <Path>df/d19/Userspace_2libc_2include_2types_8h.html</Path>
-    <Anchor>af53f622e3b6c080daeb167c1955d7ec1</Anchor>
     <DeclaredIn>types.h</DeclaredIn>
   </Token>
   <Token>
@@ -21895,6 +22655,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>strtoul</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/def/Convert_8c.html</Path>
+    <Anchor>aa7d767d03ce3929978c28f64e3a4b222</Anchor>
+    <DeclaredIn>Convert.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>isdigit</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -21925,6 +22695,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>isdelim</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/def/Convert_8c.html</Path>
+    <Anchor>a44795c9b72669ec9dcea14f56fe37b2a</Anchor>
+    <DeclaredIn>Convert.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>abs</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -21951,6 +22731,16 @@
     </TokenIdentifier>
     <Path>de/def/Convert_8c.html</Path>
     <Anchor>af927ee96b41aa243c2191642f1788665</Anchor>
+    <DeclaredIn>Convert.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>strtok</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/def/Convert_8c.html</Path>
+    <Anchor>ab0ad8275543a34aae52b7bcd02e79753</Anchor>
     <DeclaredIn>Convert.c</DeclaredIn>
   </Token>
   <Token>
@@ -24519,6 +25309,350 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>VERSION</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a1c6d5de492ac61ad29aec7aa9a436bbf</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ALIGNMENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a450f9d8af07bfe2f313dbe3a78738a5e</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ALIGN_TYPE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a4781c052bb138f69ef6d60737fd569e3</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ALIGN_INFO</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a794344346279e2c33cdf963b440693fc</Anchor>
+    <Abstract>Alignment information is stored right before the pointer. This is the number of bytes of information ...</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>USE_CASE1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>acf41d85e37dc0c5a00cd435c23341b5d</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>USE_CASE2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a41e019f5f2ff975130482948cce00391</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>USE_CASE3</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>afdf81e99f4d3fbf4ae6c195fe1d08da5</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>USE_CASE4</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a4f805eceb2d7fba79091b4fc8e438313</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>USE_CASE5</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>ab1abb106de2d83df6fc4a5fb141acd79</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ALIGN</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a4d3a4d8ba3325af096e123278cffec04</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>UNALIGN</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a1c35d927b46457b91f58e659890008c1</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LIBALLOC_MAGIC</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>af6b1d459ffa3c81e2456acf8d4268330</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LIBALLOC_DEAD</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>aae1f702e677fee87387d8086e751f8b3</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LIBALLOCINFO</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a0846f49699ddbd2d02f10cef143f9067</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLUSH</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>ad7ca11d555f526a6c553f150b898c0d8</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>atexit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a3f8e43468fdf43b724aa3e47f0d65243</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_memset</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>ad824e94da51543e1febb05f96f0083ba</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_memcpy</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a58b3101a659b6a2f7e2ca290bef6bfb4</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_dump</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a3a68c0bf75f35813ab63a469d63e34e5</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>allocate_new_page</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a2d00f44b620b913bc15fc92d44dd7c89</Anchor>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>malloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga5223b5fb1255b5179f53b0595fe9251c</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>free</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga4835fe140973dbc5e1aafd9c33acf6d4</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>calloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga9db1af54761723ecddbd1e253c01a2ad</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>realloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>gadc710223dc26577d1e49cac212d7d083</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>l_memRoot</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a650715799a325fedc4d7b07a181378d9</Anchor>
+    <Abstract>The root memory block acquired from the system.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>l_bestBet</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>aa564d1a8832090131b83d62eae1f07d7</Anchor>
+    <Abstract>The major with the most free memory.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>l_pageSize</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a55d43215a0f1dbd2425ffe4620674afd</Anchor>
+    <Abstract>The size of an individual page. Set up in liballoc_init.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>l_pageCount</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>add6e2a7ea92e32a539ee378a57b6a933</Anchor>
+    <Abstract>The number of pages to request per chunk. Set up in liballoc_init.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>l_allocated</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>ab0e0c20055b59102841b90dc4ec55610</Anchor>
+    <Abstract>Running total of allocated memory.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>l_inuse</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a2ce5de2eb7b8595f398caf844a033cb1</Anchor>
+    <Abstract>Running total of used memory.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>l_warningCount</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a2d9b708c1e8825a6bb6612661bc4bdbd</Anchor>
+    <Abstract>Number of warnings encountered.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>l_errorCount</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>af83e911f592858658db8dba2a74f5772</Anchor>
+    <Abstract>Number of actual errors.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>l_possibleOverruns</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html</Path>
+    <Anchor>a48c2c6cb4bd97dd911ef24ff2a42ca5d</Anchor>
+    <Abstract>Number of possible overruns.</Abstract>
+    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>PREFIX</Name>
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
@@ -24719,6 +25853,100 @@
     </TokenIdentifier>
     <Path>d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html</Path>
     <Anchor>a4788399d1d0b37ccf098a7da82254808</Anchor>
+    <DeclaredIn>liballoc_1_1.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_lock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga8b5670e4594b0b6f8be78fe17f0c3b53</Anchor>
+    <DeclaredIn>liballoc_1_1.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_unlock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>gaedc23f198b2882d41d0caa316453967b</Anchor>
+    <DeclaredIn>liballoc_1_1.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_alloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga2da84788fc4ab3f487214d24a3e55af4</Anchor>
+    <DeclaredIn>liballoc_1_1.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_free</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga8d5be3c85e157d771a44c48509b43c42</Anchor>
+    <DeclaredIn>liballoc_1_1.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>malloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga5223b5fb1255b5179f53b0595fe9251c</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>liballoc_1_1.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>realloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>gadc710223dc26577d1e49cac212d7d083</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>liballoc_1_1.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>calloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga9db1af54761723ecddbd1e253c01a2ad</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>liballoc_1_1.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>free</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga4835fe140973dbc5e1aafd9c33acf6d4</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>liballoc_1_1.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PREFIX</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga397816ee230d64fe081f93d31bf5a534</Anchor>
     <DeclaredIn>liballoc_1_1.h</DeclaredIn>
   </Token>
   <Token>
@@ -26903,7 +28131,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ab5c8572f224163200924dc1db8e1d185</Anchor>
     <Abstract>Small stand-alone implementation of the printf family of functions ((v)printf, (v)s(n)printf etc....</Abstract>
     <DeclaredIn>printf.c</DeclaredIn>
@@ -26914,7 +28142,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a279e50dfa25839d4e6e4cafc5c73f459</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -26924,7 +28152,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a4b15959b0aa84ab08b78a2139c0d06f7</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -26934,7 +28162,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a5d877442f54f1e97a5631877a31dbb8b</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -26944,7 +28172,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ae4729b96ea7788c880e6fd201a2f1907</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -26954,7 +28182,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ab6f8f053fe123435128cfcff1d407d75</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -26964,7 +28192,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ab3e07dda1a24c543976dc69ea2c62f6c</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -26974,7 +28202,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a34aa02fd74c9f366b87312cf708dc9e1</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -26984,7 +28212,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a009bc67e21c7542d964c1312163b9172</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -26994,7 +28222,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ae30baef6c79d6259f11df587c427f28c</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27004,7 +28232,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ae705ec5d8f325983e9c04affb48d659f</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27014,7 +28242,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a5795434162142e7ffc4d2d7af11d6e71</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27024,7 +28252,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ad7bcde5ce2ee4bf99e403e74fe1aaa2e</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27034,7 +28262,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ae064267e21e4d01ee506cc71aeb2efad</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27044,7 +28272,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a94334afb8b94c3d48b42d972925a9b4d</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27054,7 +28282,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ad7b04ce70e8c9e609f02c796be254062</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27064,7 +28292,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ac6c26878acb903cb07de2b9552fec26b</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27074,7 +28302,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a3d8b1bd3dd657ac7856e8aa67b170fee</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27084,7 +28312,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a2c249ce13d36626995f96880028b3d0a</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27094,7 +28322,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a4e4ed2c9a700bf9cfddabb05debd4790</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27104,7 +28332,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a738a48de177a2e385f66995685334761</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27114,7 +28342,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a5584c6d116b42ffdf2c2b7b72209cb25</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27124,7 +28352,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a4e289a20e315f0a470da3f149d33c7a5</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27134,7 +28362,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a4d2ee94fbad75b263dd756cb4d52c167</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27144,7 +28372,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a15a50af941ea5ca0a9517faf2f90b524</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27154,7 +28382,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a4ac2d97fe74925064a50628a469403d3</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27164,7 +28392,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a7ffc74d008f9e494649d270668555dd1</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27174,7 +28402,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ac65b16dab08c378eb12307e41cedb696</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27184,7 +28412,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>abd39f2dd3c4a2fa9c72a3db97eda33bf</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27194,7 +28422,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ac2d8918920a8b6bf644e9a7a075eb1bd</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27204,7 +28432,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ac0194a004d8ee898b82545e8a23227c3</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27214,7 +28442,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a8706ee490451d2694347f1b6b6fd4cb8</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27224,7 +28452,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a7c2e9072939c9b2f8a5cafe37631b8a0</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27234,7 +28462,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a11b0944d693580cca5cf793d5a7c9e9d</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27244,7 +28472,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ac9eb7ba8198d4ec2aa0be1ff0c205a01</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27254,7 +28482,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a77eaa70b3533b8af6512f5a638b2363e</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27264,7 +28492,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ad2a522d43ad53357ddd2ee3968d5c96b</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27274,7 +28502,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a8d302099b82242df3916cbe38d476694</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27284,7 +28512,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a38df259cdf24350ce4d98a22cc2524b0</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27294,7 +28522,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a30804263c8347c785606152ed327200c</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27304,7 +28532,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a4eb82366ae6e3d185078bb8f54e1e19e</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27314,7 +28542,7 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>adfc91b180601d6587c09c5faecc56460</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27324,7 +28552,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a9d4a10dcdc829ae96fb79bb912da57e2</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27334,7 +28562,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ac78b37a9c20028d552e74454f76bfd51</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27344,7 +28572,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>af43407109a0952f9ce5dee4160f21235</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27354,7 +28582,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a087d874d932f510310412187369a6cf9</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27364,7 +28592,7 @@
       <APILanguage>c</APILanguage>
       <Type>tdef</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a248c42df6acfe93973ab8ea2148820c7</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27374,7 +28602,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ac9ade00a0147a837faa072efc6be209d</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27384,7 +28612,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a919498e81481493683af3e75218e7a07</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27394,7 +28622,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a06bae36118027e52e83c591122bd9ca5</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27404,7 +28632,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a2d7de96c1a719cb651c2fb353c3c4b83</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27414,7 +28642,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>abca97f8028408b908783562d8ece40d2</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27424,7 +28652,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a30132b63ec020953e72bd2bf938f4adb</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27434,7 +28662,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ae4c1281e033232dbda7fdee460ad5012</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27444,7 +28672,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a52da30bcf8a2aab400c75901a11e13c4</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27454,7 +28682,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ae682db86bc2fb4d481a142fc6801caf2</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27464,7 +28692,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>aabeb3d2f5a82964d17ba95b16bb5d463</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27474,7 +28702,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a2d64f97548a8f2ea8b71211a4afc86a3</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27484,7 +28712,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ac07ad013b098ade811b49ebaf44fdc11</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27494,7 +28722,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a324031f3499b2af1951b7ac1514ba328</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27504,7 +28732,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>abc4e3b5513557b1fa071e01be1660b24</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27514,7 +28742,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ab39a98448e4188dc615faaed70c63be3</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27524,7 +28752,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>aaca7659393e36c4bb7e91ac41fefb305</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27534,7 +28762,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a84e704b48947a6d91bd0fef26e6d2dd0</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27544,7 +28772,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>af9d84a95511596714485c6d6afc53c5d</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27554,7 +28782,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a8a1b42fc2c1935c1d215bdda7a14b5e7</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27564,7 +28792,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a5198e02906a54e3c6a5f0d60e1f9c744</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27574,7 +28802,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a136267510121e5b38f8859b10b9cc8ab</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27584,7 +28812,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a0a563311e898bd7e76a464fdce1e8a33</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27594,7 +28822,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a6e49028a264ece74cd2b927449104a0a</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27604,7 +28832,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>ac3886fc240b75493d23f601209123868</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27614,7 +28842,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a50aaee0d156882ef83cfb946db8f0c54</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27624,7 +28852,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>aca005e9951176d149a8ad66beb85db98</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27634,7 +28862,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a81c9e57e6bca852f148ee0ed512c8532</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27644,7 +28872,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a311b25ba30599dacdb0b0ec514213fa9</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27654,7 +28882,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>aba7d0aa1875f815ba00a0245e9c2d7a3</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27664,7 +28892,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a0a535913e9418c6ad6b6a94950ccb24f</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27674,38 +28902,38 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a28d245e91dad9b97d346ce151a83807c</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>vprintf_</Name>
+      <Name>vprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
-    <Anchor>a4d2b4bb68560a35998009ef8cb95971a</Anchor>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
+    <Anchor>a2b037e5e1db404842a42cd8e9cecaddb</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>vsnprintf_</Name>
+      <Name>vsnprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
-    <Anchor>a4e02341da161d0b6202df7f7a693f60c</Anchor>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
+    <Anchor>af702c8f77be545061dc1459a01705003</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>vsprintf_</Name>
+      <Name>vsprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
-    <Anchor>a28548a8b32597154c9e16b8d2a392830</Anchor>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
+    <Anchor>a86be3e61b696cec03234fd12cc9618ef</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
   <Token>
@@ -27714,38 +28942,38 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a24c44087e6650233bdb2bd01b922a6e3</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>printf_</Name>
+      <Name>printf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
-    <Anchor>a770cb7c9f4a7b37dc5b49c4c68a8308e</Anchor>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
+    <Anchor>a98631211a4a8aee62f572375d5b637be</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>sprintf_</Name>
+      <Name>sprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
-    <Anchor>af1c675fe9e14a82d1d38d7a51fd23616</Anchor>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
+    <Anchor>a9cafd44c2e1bfa384f71d56949e3b3fc</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>snprintf_</Name>
+      <Name>snprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
-    <Anchor>ae0630706877a20271a3156f74776a494</Anchor>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
+    <Anchor>a182c201d4c3497842e80696fcb506dd9</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
   <Token>
@@ -27754,7 +28982,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
     <Anchor>a568090fd375722092fc13aa54b253918</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27764,7 +28992,878 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d13/Userspace_2apps_2system_2init_2printf_8c.html</Path>
+    <Path>de/d45/Userspace_2libc_2src_2print_2printf_8c.html</Path>
+    <Anchor>a974e6c4c3f16de1b8382bc1bcbb3b65f</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_INTEGER_BUFFER_SIZE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ab5c8572f224163200924dc1db8e1d185</Anchor>
+    <Abstract>Small stand-alone implementation of the printf family of functions ((v)printf, (v)s(n)printf etc....</Abstract>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_DECIMAL_BUFFER_SIZE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a279e50dfa25839d4e6e4cafc5c73f459</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_SUPPORT_DECIMAL_SPECIFIERS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a4b15959b0aa84ab08b78a2139c0d06f7</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_SUPPORT_EXPONENTIAL_SPECIFIERS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a5d877442f54f1e97a5631877a31dbb8b</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_SUPPORT_WRITEBACK_SPECIFIER</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ae4729b96ea7788c880e6fd201a2f1907</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_DEFAULT_FLOAT_PRECISION</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ab6f8f053fe123435128cfcff1d407d75</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_MAX_INTEGRAL_DIGITS_FOR_DECIMAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ab3e07dda1a24c543976dc69ea2c62f6c</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_SUPPORT_LONG_LONG</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a34aa02fd74c9f366b87312cf708dc9e1</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_LOG10_TAYLOR_TERMS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a009bc67e21c7542d964c1312163b9172</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_CHECK_FOR_NUL_IN_FORMAT_SPECIFIER</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ae30baef6c79d6259f11df587c427f28c</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_PREFER_DECIMAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ae705ec5d8f325983e9c04affb48d659f</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_PREFER_EXPONENTIAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a5795434162142e7ffc4d2d7af11d6e71</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_CONCATENATE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ad7bcde5ce2ee4bf99e403e74fe1aaa2e</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_EXPAND_THEN_CONCATENATE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ae064267e21e4d01ee506cc71aeb2efad</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_FLOAT_NOTATION_THRESHOLD</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a94334afb8b94c3d48b42d972925a9b4d</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_ZEROPAD</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ad7b04ce70e8c9e609f02c796be254062</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_LEFT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ac6c26878acb903cb07de2b9552fec26b</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_PLUS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a3d8b1bd3dd657ac7856e8aa67b170fee</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_SPACE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a2c249ce13d36626995f96880028b3d0a</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_HASH</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a4e4ed2c9a700bf9cfddabb05debd4790</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_UPPERCASE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a738a48de177a2e385f66995685334761</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_CHAR</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a5584c6d116b42ffdf2c2b7b72209cb25</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_SHORT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a4e289a20e315f0a470da3f149d33c7a5</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_INT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a4d2ee94fbad75b263dd756cb4d52c167</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_LONG</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a15a50af941ea5ca0a9517faf2f90b524</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_LONG_LONG</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a4ac2d97fe74925064a50628a469403d3</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_PRECISION</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a7ffc74d008f9e494649d270668555dd1</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_ADAPT_EXP</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ac65b16dab08c378eb12307e41cedb696</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_POINTER</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>abd39f2dd3c4a2fa9c72a3db97eda33bf</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FLAGS_SIGNED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ac2d8918920a8b6bf644e9a7a075eb1bd</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BASE_BINARY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ac0194a004d8ee898b82545e8a23227c3</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BASE_OCTAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a8706ee490451d2694347f1b6b6fd4cb8</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BASE_DECIMAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a7c2e9072939c9b2f8a5cafe37631b8a0</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BASE_HEX</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a11b0944d693580cca5cf793d5a7c9e9d</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_MAX_POSSIBLE_BUFFER_SIZE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ac9eb7ba8198d4ec2aa0be1ff0c205a01</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DOUBLE_STORED_MANTISSA_BITS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a77eaa70b3533b8af6512f5a638b2363e</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_ABS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ad2a522d43ad53357ddd2ee3968d5c96b</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ABS_FOR_PRINTING</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a8d302099b82242df3916cbe38d476694</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NUM_DECIMAL_DIGITS_IN_INT64_T</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a38df259cdf24350ce4d98a22cc2524b0</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_MAX_PRECOMPUTED_POWER_OF_10</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a30804263c8347c785606152ed327200c</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PRINTF_MAX_SUPPORTED_PRECISION</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a4eb82366ae6e3d185078bb8f54e1e19e</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ADVANCE_IN_FORMAT_STRING</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>adfc91b180601d6587c09c5faecc56460</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>printf_flags_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a9d4a10dcdc829ae96fb79bb912da57e2</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>numeric_base_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ac78b37a9c20028d552e74454f76bfd51</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>printf_unsigned_value_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>af43407109a0952f9ce5dee4160f21235</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>printf_signed_value_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a087d874d932f510310412187369a6cf9</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>printf_size_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a248c42df6acfe93973ab8ea2148820c7</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_bit_access_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>af326cc6a65b6f996ddef5ca868d32394</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_sign_bit_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a543803d455d88f0cfc1207559ce03eaa</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_exp2_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a18559080d4a3165f0775bae089c1ea5e</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>putchar_via_gadget_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ab081c900196b92f4f5e40dbb943d8b8a</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>append_termination_with_gadget_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a9311f6f4b4dd211590782fe48d7cbbbe</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>putchar_wrapper_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ac71408d79826b75164e180823d0e962a</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>discarding_gadget_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a062d0e8f5fea7e18ad5ee4dcbad0c042</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>buffer_gadget_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a6a28cd8f9bd0359c99a8e51f11786c2e</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>function_gadget_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a3e0c0a10b37172942fdcb72b0a911adc</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>extern_putchar_gadget_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a988c57b4840b10a2b7909104c7c519a3</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>strnlen_s_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a7cdf08494dc54150bfca54e412a32550</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>is_digit_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a64b7f257f79e0c6f22e74ed3484aed3e</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>atou_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a97c040c90a02399db756dbabe91477a4</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>out_rev_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>abd746d09866c9bb936e8ddcad0c6e72e</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>print_integer_finalization_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a89585e9f70f0fcb49a1cd12bc404785f</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>print_integer_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a65ed6cc65c6f7374637b63496a58f0b0</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_components_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a1ad87389ceab87c82af0fdadad48f79c</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>apply_scaling_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a6af09b98983e68badd78cb2710df6aaa</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unapply_scaling_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a9f374b84c4e97bd912c1feff6856ab38</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>update_normalization_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ae2a7b0f6c50f20dd03a2920d76a9130a</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_normalized_components_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a93cc8da78aa8f9f31e350b67a3b7f128</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>print_broken_up_decimal_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a9b26ea1e53dccba3a94c625748790d6e</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>print_decimal_number_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a61fd0efa1f90594764f50e6a18318406</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bastardized_floor_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ae2af425f7bf3ee668f3ece668832876e</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>log10_of_positive_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a4db2728dd4a8881a6aba2221702bbc31</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pow10_of_int_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a8a41c422a0055761a58eccb69827d5df</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>print_exponential_number_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>af12608c0619916218a4f42c4e77e6167</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>print_floating_point_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a27592cd32f19dcaa54a5217ec7bc1e1b</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>parse_flags_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ad2e0ab7e13edeab85c6d59d285613d02</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>format_string_loop_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a5cac02452d9292fd67230d338427d6c4</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vsnprintf_impl_libint</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ae198bb4c7e5d1bc9163bb2888d5362c7</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a1a26bfe97037ebf76d5065532c67f717</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vsnprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a4feeddcb38518962e2a131616acf267f</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vsprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>ad3a189afeced87804a44571b5d7b5921</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vfctprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>af606869a99c94ef28f05107135230c13</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>printf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a5b383117c28d733a218a975e89f64e1f</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a0947533f68fc0cadaa7153bd839d7c8f</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>snprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a3f6a412aeea0c4388e9e91457537042d</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fctprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
+    <Anchor>a9cd2f884ae5611f14ed2efaeccc199ec</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>powers_of_10</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d7/d69/Userspace_2libs_2libinit_2printf_8c.html</Path>
     <Anchor>a974e6c4c3f16de1b8382bc1bcbb3b65f</Anchor>
     <DeclaredIn>printf.c</DeclaredIn>
   </Token>
@@ -27930,22 +30029,122 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>_exit</Name>
+      <Name>syscall0</Name>
       <APILanguage>c</APILanguage>
-      <Type>econst</Type>
+      <Type>func</Type>
     </TokenIdentifier>
     <Path>d2/d6e/syscalls_8h.html</Path>
-    <Anchor>a7646da588c70d4a6c38c0e3cef328fcea486d527dc450ae6c730c0353f1afd0f2</Anchor>
+    <Anchor>ac0bfcce43babc000aa3ac47b3837f3c7</Anchor>
     <DeclaredIn>syscalls.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>_print</Name>
+      <Name>syscall1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>ac728f9ac7fe430b82caa7bf3fdded380</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syscall2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a2472d889b949db45eb788268d5c109cf</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syscall3</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a6a80d6661349162f434c25de68808c85</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syscall4</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a00103c1560f97ed1585d9b85ef18decb</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syscall5</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a656227d0164c2e69924e0f792dcb435e</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>syscall6</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a4830aeb5af9d446d70ffd52523f02560</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Exit</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d2/d6e/syscalls_8h.html</Path>
-    <Anchor>a7646da588c70d4a6c38c0e3cef328fceafad810778c0bd55e4522a466d676a480</Anchor>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fcea47eb6ecc154db2d5318af2c5066210e5</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Print</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fcea2deae65add1a55d75746c7fe79848fec</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_RequestPages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fceafa255aa514605050a1a67929744c8d92</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_FreePages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fceaef368749ef576063c343ba77dab98258</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_KernelCTL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fceade444453889da625811d8a634baa1327</Anchor>
     <DeclaredIn>syscalls.h</DeclaredIn>
   </Token>
   <Token>
@@ -31370,6 +33569,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sys_request_pages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d76/Native_8cpp.html</Path>
+    <Anchor>a681193535f91d00d245338e1dd4ce9c6</Anchor>
+    <DeclaredIn>Native.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sys_free_pages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d76/Native_8cpp.html</Path>
+    <Anchor>ab7cc02413acea1865c3c6709c2b508bb</Anchor>
+    <DeclaredIn>Native.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sys_kernelctl</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d76/Native_8cpp.html</Path>
+    <Anchor>a0bb92a5385323e50b7231ec8d4d7fe17</Anchor>
+    <DeclaredIn>Native.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HandleNativeSyscalls</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -31604,402 +33833,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>AT_NULL</Name>
-      <APILanguage>c</APILanguage>
+      <Name>print</Name>
+      <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
     <Path>d8/d60/init_8c.html</Path>
-    <Anchor>aa893f7231479240d49c660c5649cac5b</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_IGNORE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>ab11dfd4fb71c15a128c3f70a310b53d1</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_EXECFD</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a8a3070773d3f9231c9390172ae3fd2e7</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_PHDR</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a3de7ec7b5cee2d34208387ab97dc0642</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_PHENT</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a56f1f9975d88f768d7928b0ed587ef38</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_PHNUM</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>abc712c67bee059574b4e3c096538d5bd</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_PAGESZ</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a7269f0c135d4bd3f9bc074d18fb30f9d</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_BASE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a9b8e51a44a47d7ea827c570ffdca14e5</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_FLAGS</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a08c6bdc11224c9d17fbde19666c332cc</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_ENTRY</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a80f2ea99241a6afdc4718d3c4318c871</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_NOTELF</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a9c46c7e4fc9e72e4c1041296ce2e805b</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_UID</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a7bc508a179d0a308a8e4b47b97bcf2a3</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_EUID</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a22b81b71265e55a9e11e0b95d4118050</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_GID</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a38d3d729013f2b2c5f51f90b0005e85d</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_EGID</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a687680c9f0b9bbabf6619f0aa5116580</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_PLATFORM</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a9e8e819c6a3e1d1353cf8ad994c8f125</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_HWCAP</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a9765fa7aea5ad0e782d28c45630cce27</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_CLKTCK</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a4d7a26de4b48e4f0c99a48bf3cd3aa42</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_SECURE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>ab260ff441f79a29f19d7c100d6293d5f</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_BASE_PLATFORM</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a022fe4e60c7df4b03f25bd5df848f559</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_RANDOM</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a17f052c64203613b14c82458fb8bf788</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_HWCAP2</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a9595084064cb01f4b7407478339a9755</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_EXECFN</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>ac21da7eb71598f030f51308be8fba5d9</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_SYSINFO</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a276b8f83ca3f78ee17395d6263fb848c</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_SYSINFO_EHDR</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>af7f10d7fd66afcdcec55c3355c20666c</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L1I_CACHESHAPE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>af7f3cafc0aed8ae841852c44e1d23011</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L1D_CACHESHAPE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a5d77c2164ac2de042d1c2766c752a620</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L2_CACHESHAPE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a5d50097ca481f4755f6659c2791fa12c</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L3_CACHESHAPE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a6134b9836e5203cc3134fe6505292b47</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L1I_CACHESIZE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>aa7dcf1906b054efa42d66016cc074483</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L1I_CACHEGEOMETRY</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a9ef8d078de613e945549845e7b6f1066</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L1D_CACHESIZE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a0ab49325676b3f77253864c53bdd90ff</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L1D_CACHEGEOMETRY</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a4c042db965934ed73b09610c71c73569</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L2_CACHESIZE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>af503c5c5f8f1f841f56adbd6554c6ed7</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L2_CACHEGEOMETRY</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a80edf4f7c8cfc7570e1a2701162d24f3</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L3_CACHESIZE</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a7ab77cc5634672034aa026b7406babc2</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_L3_CACHEGEOMETRY</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a62fffa879531ee4acf9b254cb0857c7a</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>AT_MINSIGSTKSZ</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>af2aa639db0a8fd3b574ff79c7baf11a9</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>syscall2</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a9314edc2ca3e103a3fcb3541c034c01e</Anchor>
-    <DeclaredIn>init.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>putchar</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d8/d60/init_8c.html</Path>
-    <Anchor>a948b7a0779c308ac5502c57e282e6933</Anchor>
+    <Anchor>a49c26e0619ebf0073a4c07904ac199c5</Anchor>
     <DeclaredIn>init.c</DeclaredIn>
   </Token>
   <Token>
@@ -32011,6 +33850,386 @@
     <Path>d8/d60/init_8c.html</Path>
     <Anchor>adedb285b02c41bde2158ded9cc9fd7ac</Anchor>
     <DeclaredIn>init.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_NULL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>aa893f7231479240d49c660c5649cac5b</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_IGNORE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>ab11dfd4fb71c15a128c3f70a310b53d1</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_EXECFD</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a8a3070773d3f9231c9390172ae3fd2e7</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_PHDR</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a3de7ec7b5cee2d34208387ab97dc0642</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_PHENT</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a56f1f9975d88f768d7928b0ed587ef38</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_PHNUM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>abc712c67bee059574b4e3c096538d5bd</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_PAGESZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a7269f0c135d4bd3f9bc074d18fb30f9d</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_BASE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a9b8e51a44a47d7ea827c570ffdca14e5</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_FLAGS</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a08c6bdc11224c9d17fbde19666c332cc</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_ENTRY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a80f2ea99241a6afdc4718d3c4318c871</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_NOTELF</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a9c46c7e4fc9e72e4c1041296ce2e805b</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_UID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a7bc508a179d0a308a8e4b47b97bcf2a3</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_EUID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a22b81b71265e55a9e11e0b95d4118050</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_GID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a38d3d729013f2b2c5f51f90b0005e85d</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_EGID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a687680c9f0b9bbabf6619f0aa5116580</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_PLATFORM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a9e8e819c6a3e1d1353cf8ad994c8f125</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_HWCAP</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a9765fa7aea5ad0e782d28c45630cce27</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_CLKTCK</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a4d7a26de4b48e4f0c99a48bf3cd3aa42</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_SECURE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>ab260ff441f79a29f19d7c100d6293d5f</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_BASE_PLATFORM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a022fe4e60c7df4b03f25bd5df848f559</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_RANDOM</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a17f052c64203613b14c82458fb8bf788</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_HWCAP2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a9595084064cb01f4b7407478339a9755</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_EXECFN</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>ac21da7eb71598f030f51308be8fba5d9</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_SYSINFO</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a276b8f83ca3f78ee17395d6263fb848c</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_SYSINFO_EHDR</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>af7f10d7fd66afcdcec55c3355c20666c</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L1I_CACHESHAPE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>af7f3cafc0aed8ae841852c44e1d23011</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L1D_CACHESHAPE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a5d77c2164ac2de042d1c2766c752a620</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L2_CACHESHAPE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a5d50097ca481f4755f6659c2791fa12c</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L3_CACHESHAPE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a6134b9836e5203cc3134fe6505292b47</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L1I_CACHESIZE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>aa7dcf1906b054efa42d66016cc074483</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L1I_CACHEGEOMETRY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a9ef8d078de613e945549845e7b6f1066</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L1D_CACHESIZE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a0ab49325676b3f77253864c53bdd90ff</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L1D_CACHEGEOMETRY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a4c042db965934ed73b09610c71c73569</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L2_CACHESIZE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>af503c5c5f8f1f841f56adbd6554c6ed7</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L2_CACHEGEOMETRY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a80edf4f7c8cfc7570e1a2701162d24f3</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L3_CACHESIZE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a7ab77cc5634672034aa026b7406babc2</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_L3_CACHEGEOMETRY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>a62fffa879531ee4acf9b254cb0857c7a</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AT_MINSIGSTKSZ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d7b/aux_8h.html</Path>
+    <Anchor>af2aa639db0a8fd3b574ff79c7baf11a9</Anchor>
+    <DeclaredIn>aux.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32054,6 +34273,376 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>va_start</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d2d/stdarg_8h.html</Path>
+    <Anchor>ade24ac546ea93fde2353ed2db8e89c66</Anchor>
+    <DeclaredIn>stdarg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>va_end</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d2d/stdarg_8h.html</Path>
+    <Anchor>acd9b3b9085ec072324c5fdac2b40304e</Anchor>
+    <DeclaredIn>stdarg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>va_arg</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d2d/stdarg_8h.html</Path>
+    <Anchor>a81ebe6ea6253b0c6618e29de70fe10eb</Anchor>
+    <DeclaredIn>stdarg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>va_copy</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d1/d2d/stdarg_8h.html</Path>
+    <Anchor>a19fd5658c088617859d4a89c657ec5cc</Anchor>
+    <DeclaredIn>stdarg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>va_list</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d1/d2d/stdarg_8h.html</Path>
+    <Anchor>af53f622e3b6c080daeb167c1955d7ec1</Anchor>
+    <DeclaredIn>stdarg.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NULL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a070d2ce7b6bb7e5c05602aa8c308d0c4</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bool</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>abb452686968e48b67397da5f97445f5b</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int8_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>accbd6432732c88ad6adc5365800433b6</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int16_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>afe270aee8d96ad7f279a4020b9d58bdf</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int32_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a0c18914b3041c2f583aba76f418399c2</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int64_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>ac714c0d2c1a4adb10e73cab29623314b</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint8_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a3cb4a16b0e8d6af0af86d4fd6ba5fd9d</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint16_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a5debae8b2a1ec20a6694c0c443ee399e</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint32_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a0a8582351ac627ee8bde2973c825e47f</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint64_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a2095b9bffea4b2656950c6c0419edbf1</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int_least8_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>adb5f4bf8afa3bee9e4da1bb9daf4908d</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int_least16_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a3a4bc1e426626e17f6a6e0f64decec56</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int_least32_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a4462f62ae74ff8172526401354d2fc9b</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int_least64_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a8a5003442318117c64d16d6f32f64f37</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint_least8_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a61d44370ed65907c324edad5e8d34632</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint_least16_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a1a01d6a4e68e435471be2ae8db7e8fdc</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint_least32_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a678494ae5435d8904e7972c94618e774</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint_least64_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>aba0cb5638c172422eb4a7555a143fbbc</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int_fast8_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a98f573ff8187ff09c9594a3f2af7be0d</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int_fast16_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a888269be199d49b7f40006aaafa5a350</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int_fast32_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a530ba8ffc89f6393d2d0e2fb2db38b54</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int_fast64_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>abcdb0a9f6e7d139ad4f521ab8f4efdc0</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint_fast8_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a2464ed69ccd3fd2b3b4c93cb78f6fa20</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint_fast16_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>aaabed6e034edb01c259c003894d7f7c8</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint_fast32_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>aa44ff507c3d9a49e27fac64e9fadf062</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint_fast64_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a62c711f66c6d29c81429aeafdc4bc592</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>intptr_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a0bd5dec00e345e69027427f8621d6a6c</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uintptr_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a4788399d1d0b37ccf098a7da82254808</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>intmax_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>ae26fa513a7dfed63221f72d93de2a021</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uintmax_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a4e5632221b295f0fcdcb2233f3f60515</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ptrdiff_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>a6d26a0475a6d6c897e655cdc5d8019d2</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>size_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d3/dce/stddef_8h.html</Path>
+    <Anchor>aa9d55e2f20e580b7445617d0d12fff6e</Anchor>
+    <DeclaredIn>stddef.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SEEK_SET</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -32064,22 +34653,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>stderr</Name>
-      <APILanguage>unknown</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>a5ce35bd5ba5021fd3b2e951e8f497656</Anchor>
-    <DeclaredIn>stdio.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>fclose</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>a6441bf0a1040701d1ba906b64f348daf</Anchor>
+    <Anchor>a76370407f9ab0402564c2bb9bc9664e0</Anchor>
     <DeclaredIn>stdio.h</DeclaredIn>
   </Token>
   <Token>
@@ -32089,7 +34668,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>afa9ad98643851ca03a428e264122dac0</Anchor>
+    <Anchor>adb974f28765a31026ee6bf71d5175951</Anchor>
     <DeclaredIn>stdio.h</DeclaredIn>
   </Token>
   <Token>
@@ -32099,7 +34678,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>a7a783dc33bb2be5460b8f3e619994241</Anchor>
+    <Anchor>afffa3e442e49895773d564f422e1be1c</Anchor>
     <DeclaredIn>stdio.h</DeclaredIn>
   </Token>
   <Token>
@@ -32109,7 +34688,17 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>a7bf6a1c211d3c8438565885855321b22</Anchor>
+    <Anchor>ad9291335f34e874c8431285d705bc3aa</Anchor>
+    <DeclaredIn>stdio.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>printf</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d6/dd1/stdio_8h.html</Path>
+    <Anchor>a98631211a4a8aee62f572375d5b637be</Anchor>
     <DeclaredIn>stdio.h</DeclaredIn>
   </Token>
   <Token>
@@ -32119,7 +34708,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>aae22dd41ebe1e64904429c5a31e7e642</Anchor>
+    <Anchor>a084251eb18ccd5c936faa2c39c86ec63</Anchor>
     <DeclaredIn>stdio.h</DeclaredIn>
   </Token>
   <Token>
@@ -32129,7 +34718,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>a71f44bc63869da8cdd9b60e3d086d21d</Anchor>
+    <Anchor>a5e25775bd8597f839a28125b616bd241</Anchor>
     <DeclaredIn>stdio.h</DeclaredIn>
   </Token>
   <Token>
@@ -32139,7 +34728,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>a1844939701ba30c5a01bd551998881db</Anchor>
+    <Anchor>a5a002ad43f113e8c634d284ee34d1d53</Anchor>
     <DeclaredIn>stdio.h</DeclaredIn>
   </Token>
   <Token>
@@ -32149,7 +34738,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>ae791f89cbd418b3074b1349d8f5075dd</Anchor>
+    <Anchor>a20d465b196f378c16fc31d4117170623</Anchor>
     <DeclaredIn>stdio.h</DeclaredIn>
   </Token>
   <Token>
@@ -32159,7 +34748,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>a65ab1513c8d0bc495b470901f96892b0</Anchor>
+    <Anchor>a36d24924e1acc69f9c3ce49a832615fe</Anchor>
     <DeclaredIn>stdio.h</DeclaredIn>
   </Token>
   <Token>
@@ -32169,7 +34758,47 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d6/dd1/stdio_8h.html</Path>
-    <Anchor>af240e37a62cff2e648c9de2b3f4d65cd</Anchor>
+    <Anchor>a238ba3ae728d117984e087d9db33cd13</Anchor>
+    <DeclaredIn>stdio.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>puts</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d6/dd1/stdio_8h.html</Path>
+    <Anchor>ad41876f99f190c7488e64ef39c50a23f</Anchor>
+    <DeclaredIn>stdio.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>putchar</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d6/dd1/stdio_8h.html</Path>
+    <Anchor>af4de2514b7778805db3815e8dd6cf09a</Anchor>
+    <DeclaredIn>stdio.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stdin</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d6/dd1/stdio_8h.html</Path>
+    <Anchor>acab9c1fe2a80b10e01858bda28a04244</Anchor>
+    <DeclaredIn>stdio.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stdout</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d6/dd1/stdio_8h.html</Path>
+    <Anchor>ac80f4484175bf6c48d7b7ca4e9897ae6</Anchor>
     <DeclaredIn>stdio.h</DeclaredIn>
   </Token>
   <Token>
@@ -32199,7 +34828,17 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>dc/d9c/stdlib_8h.html</Path>
-    <Anchor>a7cb771250232f7f27f31079208f4428a</Anchor>
+    <Anchor>abafa702ca312dee5f5ece5fb4a97d7ff</Anchor>
+    <DeclaredIn>stdlib.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>exit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d9c/stdlib_8h.html</Path>
+    <Anchor>a55e99c539cf7723ec15e856b7e0a8cee</Anchor>
     <DeclaredIn>stdlib.h</DeclaredIn>
   </Token>
   <Token>
@@ -32209,18 +34848,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>dc/d9c/stdlib_8h.html</Path>
-    <Anchor>a4e157d18591ba54c92e4da99a3d1ccae</Anchor>
-    <DeclaredIn>stdlib.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>free</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
-    <Anchor>ga4835fe140973dbc5e1aafd9c33acf6d4</Anchor>
-    <Abstract>The standard function.</Abstract>
+    <Anchor>ad228deceea1bac4d9f171f647c265059</Anchor>
     <DeclaredIn>stdlib.h</DeclaredIn>
   </Token>
   <Token>
@@ -32230,7 +34858,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>dc/d9c/stdlib_8h.html</Path>
-    <Anchor>a872ac3564834aa0ba70a9e1bd3c2f9de</Anchor>
+    <Anchor>abc6595dbf6880c71628fecf0dbb23d66</Anchor>
     <DeclaredIn>stdlib.h</DeclaredIn>
   </Token>
   <Token>
@@ -32241,6 +34869,39 @@
     </TokenIdentifier>
     <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
     <Anchor>ga5223b5fb1255b5179f53b0595fe9251c</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>stdlib.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>realloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>gadc710223dc26577d1e49cac212d7d083</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>stdlib.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>calloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga9db1af54761723ecddbd1e253c01a2ad</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>stdlib.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>free</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga4835fe140973dbc5e1aafd9c33acf6d4</Anchor>
     <Abstract>The standard function.</Abstract>
     <DeclaredIn>stdlib.h</DeclaredIn>
   </Token>
@@ -32346,13 +35007,123 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>__preinit_array_start</Name>
+      <Name>CallPtr</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>da/d9b/InitArray_8c.html</Path>
+    <Anchor>a9aa5b5a5410c2e97df5759c3e6d8c318</Anchor>
+    <DeclaredIn>InitArray.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__libc_init_array</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/d9b/InitArray_8c.html</Path>
+    <Anchor>a5f388c8556f7cb6a84b5692db6b6ad80</Anchor>
+    <DeclaredIn>InitArray.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__libc_fini_array</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/d9b/InitArray_8c.html</Path>
+    <Anchor>af80062f462ba444a6fbd61f52b58f170</Anchor>
+    <DeclaredIn>InitArray.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__init_array_start</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>da/d9b/InitArray_8c.html</Path>
-    <Anchor>a9ca0f9bb2540c15bace9358dabbc88a1</Anchor>
+    <Anchor>a5acaf4f3a56e921fd97f62b643461ec7</Anchor>
     <DeclaredIn>InitArray.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__init_array_end</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>da/d9b/InitArray_8c.html</Path>
+    <Anchor>a5fb41005eba2ebaf93f1b8ec0b2fa462</Anchor>
+    <DeclaredIn>InitArray.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__fini_array_start</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>da/d9b/InitArray_8c.html</Path>
+    <Anchor>a7636e9947b338df7742d327806c5cf70</Anchor>
+    <DeclaredIn>InitArray.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__fini_array_end</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>da/d9b/InitArray_8c.html</Path>
+    <Anchor>a44b0859526315b440c667baaba00f489</Anchor>
+    <DeclaredIn>InitArray.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewLock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d4/d34/LibAllocImplementation_8cpp.html</Path>
+    <Anchor>a53b3e0eac4b5a3d178834c4e3fff362f</Anchor>
+    <DeclaredIn>LibAllocImplementation.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_lock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga8b5670e4594b0b6f8be78fe17f0c3b53</Anchor>
+    <DeclaredIn>LibAllocImplementation.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_unlock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>gaedc23f198b2882d41d0caa316453967b</Anchor>
+    <DeclaredIn>LibAllocImplementation.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_alloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga2da84788fc4ab3f487214d24a3e55af4</Anchor>
+    <DeclaredIn>LibAllocImplementation.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>liballoc_free</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga8d5be3c85e157d771a44c48509b43c42</Anchor>
+    <DeclaredIn>LibAllocImplementation.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32362,6 +35133,16 @@
     </TokenIdentifier>
     <Path>d8/d5b/Runtime_8c.html</Path>
     <Anchor>a5f388c8556f7cb6a84b5692db6b6ad80</Anchor>
+    <DeclaredIn>Runtime.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__libc_fini_array</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/d5b/Runtime_8c.html</Path>
+    <Anchor>af80062f462ba444a6fbd61f52b58f170</Anchor>
     <DeclaredIn>Runtime.c</DeclaredIn>
   </Token>
   <Token>
@@ -32383,6 +35164,380 @@
     <Path>d8/d5b/Runtime_8c.html</Path>
     <Anchor>ad847d936639f9d68db8792d4be7a79a1</Anchor>
     <DeclaredIn>Runtime.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fclose</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>a76370407f9ab0402564c2bb9bc9664e0</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fflush</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>adb974f28765a31026ee6bf71d5175951</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fopen</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>afffa3e442e49895773d564f422e1be1c</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fprintf</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>ad9291335f34e874c8431285d705bc3aa</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fread</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>a084251eb18ccd5c936faa2c39c86ec63</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fseek</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>a5e25775bd8597f839a28125b616bd241</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ftell</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>a5a002ad43f113e8c634d284ee34d1d53</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fwrite</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>a20d465b196f378c16fc31d4117170623</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>setbuf</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>a36d24924e1acc69f9c3ce49a832615fe</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>puts</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>ad41876f99f190c7488e64ef39c50a23f</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>putchar</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>af4de2514b7778805db3815e8dd6cf09a</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stdin</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>acab9c1fe2a80b10e01858bda28a04244</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stdout</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>ac80f4484175bf6c48d7b7ca4e9897ae6</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>stderr</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>df/d0a/io_8c.html</Path>
+    <Anchor>ac9e47c346a25e2e7edd2c9b4ca5d0262</Anchor>
+    <DeclaredIn>io.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>abort</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/dd7/lib_8c.html</Path>
+    <Anchor>a8dec7c95227ff149687066cf04029191</Anchor>
+    <DeclaredIn>lib.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>atexit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/dd7/lib_8c.html</Path>
+    <Anchor>abafa702ca312dee5f5ece5fb4a97d7ff</Anchor>
+    <DeclaredIn>lib.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>exit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/dd7/lib_8c.html</Path>
+    <Anchor>a55e99c539cf7723ec15e856b7e0a8cee</Anchor>
+    <DeclaredIn>lib.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>atoi</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/dd7/lib_8c.html</Path>
+    <Anchor>ad228deceea1bac4d9f171f647c265059</Anchor>
+    <DeclaredIn>lib.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>getenv</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/dd7/lib_8c.html</Path>
+    <Anchor>abc6595dbf6880c71628fecf0dbb23d66</Anchor>
+    <DeclaredIn>lib.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>malloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga5223b5fb1255b5179f53b0595fe9251c</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>lib.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>realloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>gadc710223dc26577d1e49cac212d7d083</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>lib.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>calloc</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga9db1af54761723ecddbd1e253c01a2ad</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>lib.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>free</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga4835fe140973dbc5e1aafd9c33acf6d4</Anchor>
+    <Abstract>The standard function.</Abstract>
+    <DeclaredIn>lib.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>printf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc0/init_8h.html</Path>
+    <Anchor>a7fae476f5d05752f61d9207fe3570685</Anchor>
+    <DeclaredIn>init.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc0/init_8h.html</Path>
+    <Anchor>a7dee76c35e14abde31ffc730f96a32e5</Anchor>
+    <DeclaredIn>init.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc0/init_8h.html</Path>
+    <Anchor>ab2d68185755a1736b94a10d584163179</Anchor>
+    <DeclaredIn>init.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vsprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc0/init_8h.html</Path>
+    <Anchor>a9209eebc60f22e1b1343fbe426d92f9a</Anchor>
+    <DeclaredIn>init.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>snprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc0/init_8h.html</Path>
+    <Anchor>a24331f2f195e3c05c56a35b577cc5911</Anchor>
+    <DeclaredIn>init.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vsnprintf_libinit</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc0/init_8h.html</Path>
+    <Anchor>a95eba05623b12f2e16a7d1637aabb925</Anchor>
+    <DeclaredIn>init.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init_log</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dc0/init_8h.html</Path>
+    <Anchor>a662d47a53790178e33c32a2a67b0fcaf</Anchor>
+    <DeclaredIn>init.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DoCtl</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d6/d16/syslib_8h.html</Path>
+    <Anchor>ab826bfc79d0a8112f75fe4d36bee1e91</Anchor>
+    <DeclaredIn>syslib.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KCTL_NULL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d6/d16/syslib_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa571aa3760135e3dc9572c3217ab42ffb</Anchor>
+    <DeclaredIn>syslib.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KCTL_GETPID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d6/d16/syslib_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa4282a16632afedb07583efa9920d8251</Anchor>
+    <DeclaredIn>syslib.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KCTL_GETTID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d6/d16/syslib_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa236eaec149eca90f77c8a8e77751bc97</Anchor>
+    <DeclaredIn>syslib.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KCTL_GETUID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d6/d16/syslib_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fac27a8603a2402f74bc723d01b961e62d</Anchor>
+    <DeclaredIn>syslib.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KCTL_GETGID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d6/d16/syslib_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fad4a2918ac2995141c94fb666c24e274b</Anchor>
+    <DeclaredIn>syslib.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>init_log</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/d78/libinit_8c.html</Path>
+    <Anchor>ac20614cb9b568968a0f3f548e52367a7</Anchor>
+    <DeclaredIn>libinit.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32426,6 +35581,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DoCtl</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/d5c/kcall_8c.html</Path>
+    <Anchor>ab826bfc79d0a8112f75fe4d36bee1e91</Anchor>
+    <DeclaredIn>kcall.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>md_Kernel_Core_README</Name>
       <APILanguage>markdown</APILanguage>
     </TokenIdentifier>
@@ -32458,6 +35623,16 @@
       <APILanguage>c</APILanguage>
     </TokenIdentifier>
     <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PREFIX</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
+    <Anchor>ga397816ee230d64fe081f93d31bf5a534</Anchor>
+    <DeclaredIn>liballoc_1_1.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32927,13 +36102,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Pointer</Name>
+      <Name>EntryPoint</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>Fex</Scope>
     </TokenIdentifier>
     <Path>d2/ddc/structFex.html</Path>
-    <Anchor>ac69da738231bd089ee1c1feed7c1ecdd</Anchor>
+    <Anchor>ae14ab7c2c2135fef85b07c4c80d1da8f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -46779,7 +49954,7 @@
       <Scope>CrashHandler</Scope>
     </TokenIdentifier>
     <Path>d2/d57/namespaceCrashHandler.html</Path>
-    <Anchor>a77c6f0ae6ef113b2acabd108bbe8d704</Anchor>
+    <Anchor>a9b0789ad4a18fde013ebb6182c23dc37</Anchor>
     <DeclaredIn>chfcts.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -46890,6 +50065,17 @@
     </TokenIdentifier>
     <Path>d2/d57/namespaceCrashHandler.html</Path>
     <Anchor>a75aadb54e6eafdfdd020ae223f65fbf8</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EHDumpData</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>acbc177fb1a981eb91900cd9c06cd25ff</Anchor>
     <DeclaredIn>CrashHandler.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -47638,6 +50824,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NOT_IMPLEMENTED</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a020a5b26e9a3fe6af243be692d6147c6a9e02cd5eb948db14fd2c31d5731a332e</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>DRIVER_RETURNED_ERROR</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
@@ -47850,6 +51047,50 @@
     </TokenIdentifier>
     <Path>d3/d7d/classDriver_1_1Driver.html</Path>
     <Anchor>abacf3db6b0ea56324e0ce7abff6ab3ac</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverLoadBindPCI</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a23006a874bc6a452f6eb8ff4615e1288</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverLoadBindInterrupt</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a50af10296f9797633f76d15bef7b3dad</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverLoadBindInput</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>af6237fa9f1f73156a9d07ab040a23d53</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverLoadBindProcess</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a8283b206e105d264c0d4ab7e96d10403</Anchor>
     <DeclaredIn>driver.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -49805,7 +53046,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>a0b74449216d80cad5da584462929ef8b</Anchor>
+    <Anchor>aef277f36488b14451d71e4d0ab5dbf46</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -49836,7 +53077,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableFlags</Scope>
     </TokenIdentifier>
     <Path>dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html</Path>
-    <Anchor>a4bd9f454e1297e8c13c408ee15e80e06</Anchor>
+    <Anchor>a36eece41eaedcd487a7a094e5cdfeae5</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -53936,28 +57177,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SymTable</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>SymbolResolver</Scope>
-    </TokenIdentifier>
-    <Path>d9/d05/namespaceSymbolResolver.html</Path>
-    <Anchor>a072a1351e6bbb3bcaafd37431912efd3</Anchor>
-    <DeclaredIn>Symbols.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TotalEntries</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>SymbolResolver</Scope>
-    </TokenIdentifier>
-    <Path>d9/d05/namespaceSymbolResolver.html</Path>
-    <Anchor>ab305c3f5407ef184047e9951a760e7f3</Anchor>
-    <DeclaredIn>Symbols.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>SymbolResolver::Symbols</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -53974,7 +57193,7 @@
       <Scope>SymbolResolver::Symbols</Scope>
     </TokenIdentifier>
     <Path>d0/dcc/classSymbolResolver_1_1Symbols.html</Path>
-    <Anchor>a11659da40daa7aa2a9a4ae9c9feab6a3</Anchor>
+    <Anchor>ac53108561ad40335d329a87279e1f8e1</Anchor>
     <DeclaredIn>symbols.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -53998,6 +57217,26 @@
     <Path>d0/dcc/classSymbolResolver_1_1Symbols.html</Path>
     <Anchor>afd4be96d464c630b644f893dbf5b4159</Anchor>
     <DeclaredIn>symbols.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SymTable</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>SymbolResolver::Symbols</Scope>
+    </TokenIdentifier>
+    <Path>d0/dcc/classSymbolResolver_1_1Symbols.html</Path>
+    <Anchor>a8a89962f11e2f6f12f18d3594f16b3ce</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TotalEntries</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>SymbolResolver::Symbols</Scope>
+    </TokenIdentifier>
+    <Path>d0/dcc/classSymbolResolver_1_1Symbols.html</Path>
+    <Anchor>a4f2213876f9db90cf03b18bf3d97e756</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54572,6 +57811,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Memory</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Tasking::TCB</Scope>
+    </TokenIdentifier>
+    <Path>de/d96/structTasking_1_1TCB.html</Path>
+    <Anchor>a820a437a20f9a9c2422d8aed75118fc0</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Status</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -54819,7 +58068,7 @@
       <Scope>Tasking::Task</Scope>
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
-    <Anchor>af473b1437086d85f1bc860cc77e00986</Anchor>
+    <Anchor>a2f3e77be5e544f3603bde15a60220fec</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>

@@ -27,6 +27,7 @@ var NAVTREE =
   [ "Fennix Userspace", "index.html", [
     [ "Doxygen", "index.html", null ],
     [ "Userspace", "d1/df9/md_Userspace_README.html", null ],
+    [ "Modules", "modules.html", "modules" ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -42,7 +43,9 @@ var NAVTREE =
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
         [ "Typedefs", "globals_type.html", null ],
-        [ "Macros", "globals_defs.html", null ]
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
+        [ "Macros", "globals_defs.html", "globals_defs" ]
       ] ]
     ] ]
   ] ]
@@ -51,7 +54,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d9/d49/types_8h.html#a2b0a3edfc672154f606dc3ad26277b61"
+"d8/d5c/kcall_8c.html#ab826bfc79d0a8112f75fe4d36bee1e91",
+"db/da0/libc_2src_2print_2printf_8h.html",
+"globals_u.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

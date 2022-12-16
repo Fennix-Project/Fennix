@@ -27,6 +27,7 @@ var vmware__mouse_8cpp =
     [ "CMD_ABSPOINTER_DATA", "da/dbe/vmware__mouse_8cpp.html#a29c217182ac87c6e10122218eae53678", null ],
     [ "CMD_ABSPOINTER_STATUS", "da/dbe/vmware__mouse_8cpp.html#a4111269a426bf3cf61644fdcdd0893a1", null ],
     [ "CMD_GETVERSION", "da/dbe/vmware__mouse_8cpp.html#a8e73707083e5a68828275698eadeab50", null ],
+    [ "print", "da/dbe/vmware__mouse_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718", null ],
     [ "VMWARE_MAGIC", "da/dbe/vmware__mouse_8cpp.html#abe0d2eecc7cf3ca7fce022e6be487b81", null ],
     [ "VMWARE_PORT", "da/dbe/vmware__mouse_8cpp.html#a00872e853a5ac96ce036c3ba31b2d97c", null ],
     [ "Config", "da/dbe/vmware__mouse_8cpp.html#a0d8785f1f5499688f53bc72e6900460d", [

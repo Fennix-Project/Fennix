@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('d0/da5/Fex_8hpp_source.html','../../')
 <div class="contents">
 <a href="../../d0/da5/Fex_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="../../d0/da5/Fex_8hpp.html#a35a6f8c90ab79a9659aa4fb668ec8650">    1</a></span>&#160;<span class="preprocessor">#ifndef __FENNIX_FILE_FEX_H__</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __FENNIX_FILE_FEX_H__</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d0/da5/Fex_8hpp.html#aa8431e576b74991ccb304d09e68d3885">    3</a></span>&#160; </div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">    3</a></span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// TODO: EXPERIMENTAL</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d0/da5/Fex_8hpp.html#aef4d10f2159958afdb55550f2ea441e5">   15</a></span>&#160;<span class="preprocessor">#define EXTENDED_SECTION_ADDRESS 0x20</span></div>
@@ -130,7 +130,7 @@ $(document).ready(function(){initNavTree('d0/da5/Fex_8hpp_source.html','../../')
 <div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="../../d2/ddc/structFex.html#a7f6b232e6357e3e651ff3862884d7aab">   48</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="../../d2/ddc/structFex.html#a7f6b232e6357e3e651ff3862884d7aab">Magic</a>[4];</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">enum</span> <a class="code" href="../../d0/da5/Fex_8hpp.html#a4564a233d1c439c8083525ef1103e9c8">FexFormatType</a> <a class="code" href="../../d2/ddc/structFex.html#ab64d62820368ba2d491c0d3a4f8f64f7">Type</a> : 4;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keyword">enum</span> <a class="code" href="../../d0/da5/Fex_8hpp.html#a62bb50ae06aa34053f11cf2f14a99518">FexOSType</a> <a class="code" href="../../d2/ddc/structFex.html#af87c5f3843dc3714ac06f5f6c57a12b9">OS</a> : 4;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d2/ddc/structFex.html#ac69da738231bd089ee1c1feed7c1ecdd">   51</a></span>&#160;    int (*<a class="code" href="../../d2/ddc/structFex.html#ac69da738231bd089ee1c1feed7c1ecdd">Pointer</a>)(<span class="keywordtype">void</span> *);</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d2/ddc/structFex.html#ae14ab7c2c2135fef85b07c4c80d1da8f">   51</a></span>&#160;    int (*<a class="code" href="../../d2/ddc/structFex.html#ae14ab7c2c2135fef85b07c4c80d1da8f">EntryPoint</a>)(<span class="keywordtype">void</span> *);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;} <a class="code" href="../../d0/da5/Fex_8hpp.html#a35a6f8c90ab79a9659aa4fb668ec8650">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keyword">struct </span><a class="code" href="../../d3/dfe/DAPI_8hpp.html#d9/d82/structKernelCallback">KernelCallback</a>;</div>
@@ -172,23 +172,23 @@ $(document).ready(function(){initNavTree('d0/da5/Fex_8hpp_source.html','../../')
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
 <div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="../../d0/da5/Fex_8hpp.html">   91</a></span>&#160;            <span class="keyword">struct</span></div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            {</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                <span class="keywordtype">bool</span> AttachToMouse;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordtype">bool</span> AttachToKeyboard;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                <span class="keywordtype">char</span> AttachToMouse;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                <span class="keywordtype">char</span> AttachToKeyboard;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            } Input;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        } Bind;</div>
 <div class="line"><a name="l00097"></a><span class="lineno"><a class="line" href="../../d0/da5/Fex_8hpp.html#a5a5fd3b063d1a8494fa26bb23de0bd0b">   97</a></span>&#160;    } <a class="code" href="../../d0/da5/Fex_8hpp.html#a5a5fd3b063d1a8494fa26bb23de0bd0b">Driver</a>;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;} <a class="code" href="../../d0/da5/Fex_8hpp.html#a35a6f8c90ab79a9659aa4fb668ec8650">__attribute__</a>((packed));</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
-<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="../../d0/da5/Fex_8hpp.html#a922307d866ecf80a99c17b943fb95635">  109</a></span>&#160;<span class="preprocessor">#define HEAD(FormatType, OperatingSystem, Address)        \</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="../../d0/da5/Fex_8hpp.html#a922307d866ecf80a99c17b943fb95635">  109</a></span>&#160;<span class="preprocessor">#define HEAD(FormatType, OperatingSystem, Address)               \</span></div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">    __attribute__((section(&quot;.header&quot;</span>))) struct Fex FexHeader = { \</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        .Magic = {&#39;F&#39;, &#39;E&#39;, &#39;X&#39;, &#39;\0&#39;},                   \</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        .Type = FormatType,                               \</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        .OS = OperatingSystem,                            \</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        .Pointer = Address}</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        .Magic = {&#39;F&#39;, &#39;E&#39;, &#39;X&#39;, &#39;\0&#39;},                          \</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        .Type = FormatType,                                      \</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        .OS = OperatingSystem,                                   \</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        .EntryPoint = Address}</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_FILE_FEX_H__</span></div>
 <div class="ttc" id="aDAPI_8hpp_html_aba2f81613922672c077977ad68efc38d"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#aba2f81613922672c077977ad68efc38d">PCI</a></div><div class="ttdeci">struct KAPIPCI PCI</div></div>
-<div class="ttc" id="aDAPI_8hpp_html_d9/d82/structKernelCallback"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#d9/d82/structKernelCallback">KernelCallback</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00104">DAPI.hpp:105</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_d9/d82/structKernelCallback"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#d9/d82/structKernelCallback">KernelCallback</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00105">DAPI.hpp:106</a></div></div>
 <div class="ttc" id="aFex_8hpp_html_a33fe9ed4ab5240a11544e1cd4398e4d0"><div class="ttname"><a href="../../d0/da5/Fex_8hpp.html#a33fe9ed4ab5240a11544e1cd4398e4d0">FexExtended::Executable</a></div><div class="ttdeci">struct FexExtended::@52 Executable</div></div>
 <div class="ttc" id="aFex_8hpp_html_a35a6f8c90ab79a9659aa4fb668ec8650"><div class="ttname"><a href="../../d0/da5/Fex_8hpp.html#a35a6f8c90ab79a9659aa4fb668ec8650">__attribute__</a></div><div class="ttdeci">struct Fex __attribute__((packed))</div></div>
 <div class="ttc" id="aFex_8hpp_html_a4564a233d1c439c8083525ef1103e9c8"><div class="ttname"><a href="../../d0/da5/Fex_8hpp.html#a4564a233d1c439c8083525ef1103e9c8">FexFormatType</a></div><div class="ttdeci">FexFormatType</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da5/Fex_8hpp_source.html#l00017">Fex.hpp:18</a></div></div>
@@ -216,7 +216,7 @@ $(document).ready(function(){initNavTree('d0/da5/Fex_8hpp_source.html','../../')
 <div class="ttc" id="astructFex_html"><div class="ttname"><a href="../../d2/ddc/structFex.html">Fex</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da5/Fex_8hpp_source.html#l00046">Fex.hpp:47</a></div></div>
 <div class="ttc" id="astructFex_html_a7f6b232e6357e3e651ff3862884d7aab"><div class="ttname"><a href="../../d2/ddc/structFex.html#a7f6b232e6357e3e651ff3862884d7aab">Fex::Magic</a></div><div class="ttdeci">char Magic[4]</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da5/Fex_8hpp_source.html#l00048">Fex.hpp:48</a></div></div>
 <div class="ttc" id="astructFex_html_ab64d62820368ba2d491c0d3a4f8f64f7"><div class="ttname"><a href="../../d2/ddc/structFex.html#ab64d62820368ba2d491c0d3a4f8f64f7">Fex::Type</a></div><div class="ttdeci">enum FexFormatType Type</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da5/Fex_8hpp_source.html#l00048">Fex.hpp:49</a></div></div>
-<div class="ttc" id="astructFex_html_ac69da738231bd089ee1c1feed7c1ecdd"><div class="ttname"><a href="../../d2/ddc/structFex.html#ac69da738231bd089ee1c1feed7c1ecdd">Fex::Pointer</a></div><div class="ttdeci">int(* Pointer)(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da5/Fex_8hpp_source.html#l00051">Fex.hpp:51</a></div></div>
+<div class="ttc" id="astructFex_html_ae14ab7c2c2135fef85b07c4c80d1da8f"><div class="ttname"><a href="../../d2/ddc/structFex.html#ae14ab7c2c2135fef85b07c4c80d1da8f">Fex::EntryPoint</a></div><div class="ttdeci">int(* EntryPoint)(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da5/Fex_8hpp_source.html#l00051">Fex.hpp:51</a></div></div>
 <div class="ttc" id="astructFex_html_af87c5f3843dc3714ac06f5f6c57a12b9"><div class="ttname"><a href="../../d2/ddc/structFex.html#af87c5f3843dc3714ac06f5f6c57a12b9">Fex::OS</a></div><div class="ttdeci">enum FexOSType OS</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da5/Fex_8hpp_source.html#l00048">Fex.hpp:50</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

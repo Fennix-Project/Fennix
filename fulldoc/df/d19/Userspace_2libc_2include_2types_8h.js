@@ -10,7 +10,6 @@ var Userspace_2libc_2include_2types_8h =
     [ "b48", "df/d19/Userspace_2libc_2include_2types_8h.html#a9e129c4f168e2503e45cf0ab2fb1994d", null ],
     [ "b64", "df/d19/Userspace_2libc_2include_2types_8h.html#aa40826e19ab43b143542d0a80a175bad", null ],
     [ "b8", "df/d19/Userspace_2libc_2include_2types_8h.html#a94eac8d9cd20ccc4c673e8f907253679", null ],
-    [ "bool", "df/d19/Userspace_2libc_2include_2types_8h.html#abb452686968e48b67397da5f97445f5b", null ],
     [ "C_LANGUAGE_STANDARD", "df/d19/Userspace_2libc_2include_2types_8h.html#a1f747ba347cf4bb56a62d476fa86f687", null ],
     [ "CONCAT", "df/d19/Userspace_2libc_2include_2types_8h.html#a2f18db18bca26cafa95e9719de4a41ef", null ],
     [ "END_EXTERNC", "df/d19/Userspace_2libc_2include_2types_8h.html#a437ba916916730550dd2b045bccc6833", null ],
@@ -46,7 +45,6 @@ var Userspace_2libc_2include_2types_8h =
     [ "INTPTR_MIN", "df/d19/Userspace_2libc_2include_2types_8h.html#a2aaa6d3aa1d7d1e0e326955aa24db752", null ],
     [ "MAX", "df/d19/Userspace_2libc_2include_2types_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f", null ],
     [ "MIN", "df/d19/Userspace_2libc_2include_2types_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f", null ],
-    [ "NULL", "df/d19/Userspace_2libc_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4", null ],
     [ "offsetof", "df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841", null ],
     [ "POKE", "df/d19/Userspace_2libc_2include_2types_8h.html#a116392a97f8ae7523a63a135a0403e74", null ],
     [ "PTRDIFF_MAX", "df/d19/Userspace_2libc_2include_2types_8h.html#add2ef7bffac19cfdd1f4b5495409672f", null ],
@@ -73,9 +71,6 @@ var Userspace_2libc_2include_2types_8h =
     [ "UINTMAX_MAX", "df/d19/Userspace_2libc_2include_2types_8h.html#aa54fd5210434219e9027bfa0f0e325c8", null ],
     [ "UINTPTR_MAX", "df/d19/Userspace_2libc_2include_2types_8h.html#ab2355300ea19395357e62d780f4dd073", null ],
     [ "UNUSED", "df/d19/Userspace_2libc_2include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3", null ],
-    [ "va_arg", "df/d19/Userspace_2libc_2include_2types_8h.html#a9cfd655f1203c9a345ddd90446f0bcee", null ],
-    [ "va_end", "df/d19/Userspace_2libc_2include_2types_8h.html#a823b205416e9129825841b74c3bf8484", null ],
-    [ "va_start", "df/d19/Userspace_2libc_2include_2types_8h.html#aa0628ab596c3d7e78f5e08c2d98e24da", null ],
     [ "VPOKE", "df/d19/Userspace_2libc_2include_2types_8h.html#aaba4eb2520bab0b16b9b65816ee5edef", null ],
     [ "WCHAR_MAX", "df/d19/Userspace_2libc_2include_2types_8h.html#a2a823f3ccf2306cfbaa34d8addf66010", null ],
     [ "WCHAR_MIN", "df/d19/Userspace_2libc_2include_2types_8h.html#a051084d5ebcabf282d9ca9bb2b891a78", null ],
@@ -110,6 +105,5 @@ var Userspace_2libc_2include_2types_8h =
     [ "uint_least64_t", "df/d19/Userspace_2libc_2include_2types_8h.html#aba0cb5638c172422eb4a7555a143fbbc", null ],
     [ "uint_least8_t", "df/d19/Userspace_2libc_2include_2types_8h.html#a61d44370ed65907c324edad5e8d34632", null ],
     [ "uintmax_t", "df/d19/Userspace_2libc_2include_2types_8h.html#a4e5632221b295f0fcdcb2233f3f60515", null ],
-    [ "uintptr_t", "df/d19/Userspace_2libc_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808", null ],
-    [ "va_list", "df/d19/Userspace_2libc_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1", null ]
+    [ "uintptr_t", "df/d19/Userspace_2libc_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808", null ]
 ];

@@ -98,12 +98,40 @@ $(document).ready(function(){initNavTree('d8/d5b/Runtime_8c.html','../../'); ini
 Functions</h2></td></tr>
 <tr class="memitem:a5f388c8556f7cb6a84b5692db6b6ad80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a> (void)</td></tr>
 <tr class="separator:a5f388c8556f7cb6a84b5692db6b6ad80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af80062f462ba444a6fbd61f52b58f170"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a> (void)</td></tr>
+<tr class="separator:af80062f462ba444a6fbd61f52b58f170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a1007e9dcc7f1d1553fe18ec3dbfb63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a0a1007e9dcc7f1d1553fe18ec3dbfb63">__libc_init</a> (void)</td></tr>
 <tr class="separator:a0a1007e9dcc7f1d1553fe18ec3dbfb63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad847d936639f9d68db8792d4be7a79a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#ad847d936639f9d68db8792d4be7a79a1">_exit</a> (int Code)</td></tr>
 <tr class="separator:ad847d936639f9d68db8792d4be7a79a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="af80062f462ba444a6fbd61f52b58f170"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af80062f462ba444a6fbd61f52b58f170">&#9670;&nbsp;</a></span>__libc_fini_array()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __libc_fini_array </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00020">20</a> of file <a class="el" href="../../da/d9b/InitArray_8c_source.html">InitArray.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="comment">// for (CallPtr *func = __fini_array_start; func != __fini_array_end; func++)</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="comment">//     (*func)();</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../d8/d5b/Runtime_8c_source.html#l00010">_exit()</a>.</p>
+
+</div>
+</div>
 <a id="a0a1007e9dcc7f1d1553fe18ec3dbfb63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0a1007e9dcc7f1d1553fe18ec3dbfb63">&#9670;&nbsp;</a></span>__libc_init()</h2>
 
@@ -120,13 +148,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5b/Runtime_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/d5b/Runtime_8c_source.html">Runtime.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a>();</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aRuntime_8c_html_a5f388c8556f7cb6a84b5692db6b6ad80"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a></div><div class="ttdeci">void __libc_init_array(void)</div></div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5b/Runtime_8c_source.html#l00005">5</a> of file <a class="el" href="../../d8/d5b/Runtime_8c_source.html">Runtime.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a>();</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
+<div class="ttc" id="aRuntime_8c_html_a5f388c8556f7cb6a84b5692db6b6ad80"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array</a></div><div class="ttdeci">void __libc_init_array(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00014">InitArray.c:14</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d5b/Runtime_8c.html#a5f388c8556f7cb6a84b5692db6b6ad80">__libc_init_array()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00014">__libc_init_array()</a>.</p>
 
 </div>
 </div>
@@ -146,7 +174,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d5b/Runtime_8c_source.html#l00004">__libc_init()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00014">14</a> of file <a class="el" href="../../da/d9b/InitArray_8c_source.html">InitArray.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="comment">// for (CallPtr *func = __init_array_start; func != __init_array_end; func++)</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="comment">//     (*func)();</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../d8/d5b/Runtime_8c_source.html#l00005">__libc_init()</a>.</p>
 
 </div>
 </div>
@@ -166,17 +200,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d5b/Runtime_8c_source.html#l00009">9</a> of file <a class="el" href="../../d8/d5b/Runtime_8c_source.html">Runtime.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                         :</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0), <span class="stringliteral">&quot;D&quot;</span>(Code)</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        __asm__ __volatile__(<span class="stringliteral">&quot;hlt&quot;</span>);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d5b/Runtime_8c_source.html#l00010">10</a> of file <a class="el" href="../../d8/d5b/Runtime_8c_source.html">Runtime.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a>();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                         :</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0), <span class="stringliteral">&quot;D&quot;</span>(Code)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">while</span> (1)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        ;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="ttc" id="aRuntime_8c_html_af80062f462ba444a6fbd61f52b58f170"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a></div><div class="ttdeci">void __libc_fini_array(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00020">InitArray.c:20</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00020">__libc_fini_array()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->

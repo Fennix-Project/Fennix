@@ -55,9 +55,9 @@ var Fex_8hpp =
     ] ],
     [ "__attribute__", "d0/da5/Fex_8hpp.html#a35a6f8c90ab79a9659aa4fb668ec8650", null ],
     [ "Driver", "d0/da5/Fex_8hpp.html#ae2a2c73cfa57c88e3dfdba6dbaabe6b4", null ],
+    [ "EntryPoint", "d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3", null ],
     [ "Executable", "d0/da5/Fex_8hpp.html#aa8431e576b74991ccb304d09e68d3885", null ],
     [ "Magic", "d0/da5/Fex_8hpp.html#a3278eb63dee94fdce712aae733087a84", null ],
     [ "OS", "d0/da5/Fex_8hpp.html#a07a5a485398d88b4be58f70d0350b8bd", null ],
-    [ "Pointer", "d0/da5/Fex_8hpp.html#a82f0a46f885cd3241fcaa20022f89d1d", null ],
     [ "Type", "d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba", null ]
 ];

@@ -164,6 +164,7 @@ var DAPI_8hpp =
       [ "ReceiveReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda4742b4d8f5e56147658a76d126bb7687", null ],
       [ "ConfigurationReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddad42fc12dc0a2cb734143c24d45707ca6", null ],
       [ "FetchReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddadcb973611e79107b928979a7a88f8e76", null ],
+      [ "StopReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda9ef3a309026e2dbf696d6a0651c03064", null ],
       [ "BindReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddacfe24452fe967803f26ef127dd0f5adb", null ],
       [ "UnbindReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda6d0b88625f270cb80b74134af2e6a2ba", null ],
       [ "InterruptReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda60604bbb34dea717b453eefa3cfe3f5b", null ],

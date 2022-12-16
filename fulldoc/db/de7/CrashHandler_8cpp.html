@@ -99,12 +99,13 @@ $(document).ready(function(){initNavTree('db/de7/CrashHandler_8cpp.html','../../
 <code>#include &lt;bitmap.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d82/convert_8h_source.html">convert.h</a>&gt;</code><br />
 <code>#include &lt;printf.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
+<code>#include &lt;lock.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dac/io_8h_source.html">io.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../kernel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">../../DAPI.hpp</a>&quot;</code><br />
 </div>
 <p><a href="../../db/de7/CrashHandler_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -121,6 +122,8 @@ Functions</h2></td></tr>
 <tr class="separator:a92454254915b44c54a833c90da54cbf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75aadb54e6eafdfdd020ae223f65fbf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">CrashHandler::EHPrint</a> (const char *Format,...)</td></tr>
 <tr class="separator:a75aadb54e6eafdfdd020ae223f65fbf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbc177fb1a981eb91900cd9c06cd25ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#acbc177fb1a981eb91900cd9c06cd25ff">CrashHandler::EHDumpData</a> (void *<a class="el" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>, unsigned long <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
+<tr class="separator:acbc177fb1a981eb91900cd9c06cd25ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb496daf7ae21ad13d839335c717641f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#abb496daf7ae21ad13d839335c717641f">CrashHandler::TrimWhiteSpace</a> (char *str)</td></tr>
 <tr class="separator:abb496daf7ae21ad13d839335c717641f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab21d92a6d88783d013f3d6b8b9533ca3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#ab21d92a6d88783d013f3d6b8b9533ca3">CrashHandler::DisplayTopOverlay</a> ()</td></tr>
@@ -138,7 +141,7 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:a16c7b17cef8564d1a27df12f36f25f88"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a16c7b17cef8564d1a27df12f36f25f88">CrashHandler::EHIntFrames</a> [<a class="el" href="../../d8/d0a/interrupts_8hpp.html#a8e948e343c3a3e30fc64d23a81ec2815">INT_FRAMES_MAX</a>]</td></tr>
 <tr class="separator:a16c7b17cef8564d1a27df12f36f25f88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a726f6c34e138d63f5aaadd5dac81a42a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a726f6c34e138d63f5aaadd5dac81a42a">CrashHandler::ExceptionOccurred</a> = <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></td></tr>
+<tr class="memitem:a726f6c34e138d63f5aaadd5dac81a42a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a726f6c34e138d63f5aaadd5dac81a42a">CrashHandler::ExceptionOccurred</a> = <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></td></tr>
 <tr class="separator:a726f6c34e138d63f5aaadd5dac81a42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12b3cdf72278dca522058fa300b3832b"><td class="memItemLeft" align="right" valign="top">CRData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d57/namespaceCrashHandler.html#a12b3cdf72278dca522058fa300b3832b">CrashHandler::crashdata</a> = {}</td></tr>
 <tr class="separator:a12b3cdf72278dca522058fa300b3832b"><td class="memSeparator" colspan="2">&#160;</td></tr>

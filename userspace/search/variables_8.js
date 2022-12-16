@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['raw_5ffactor_444',['raw_factor',['../d1/d3d/printf_8c.html#aad65182c266c7f3d5d1a9c76d67f7776',1,'scaling_factor']]]
+  ['next_648',['next',['../d2/dc3/liballoc__1__1_8c.html#a97bfe7e17a18555bcf3ac0ef7a760c02',1,'liballoc_major::next()'],['../d2/dc3/liballoc__1__1_8c.html#aad2a683c287f891bb4e315df5734bb94',1,'liballoc_minor::next()']]]
 ];

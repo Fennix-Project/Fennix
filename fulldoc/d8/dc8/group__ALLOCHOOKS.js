@@ -2,6 +2,7 @@ var group__ALLOCHOOKS =
 [
     [ "PREFIX", "d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534", null ],
     [ "PREFIX", "d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534", null ],
+    [ "PREFIX", "d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534", null ],
     [ "calloc", "d8/dc8/group__ALLOCHOOKS.html#ga9db1af54761723ecddbd1e253c01a2ad", null ],
     [ "free", "d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4", null ],
     [ "liballoc_alloc", "d8/dc8/group__ALLOCHOOKS.html#ga2da84788fc4ab3f487214d24a3e55af4", null ],

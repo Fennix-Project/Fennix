@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['u_446',['U',['../d1/d3d/printf_8c.html#aa068905bf5228a7be958460b0f048d36',1,'double_with_bit_access']]],
-  ['unused_447',['unused',['../d6/dd1/stdio_8h.html#a2694ad7d833126a6fc01d13fbe99618c',1,'FILE']]]
+  ['raw_5ffactor_653',['raw_factor',['../dc/d99/libs_2libinit_2printf_8c.html#aad65182c266c7f3d5d1a9c76d67f7776',1,'scaling_factor']]],
+  ['req_5fsize_654',['req_size',['../d2/dc3/liballoc__1__1_8c.html#a0e798303ee8177899564e567fea41d3f',1,'liballoc_minor']]]
 ];

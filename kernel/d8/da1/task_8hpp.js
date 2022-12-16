@@ -30,6 +30,7 @@ var task_8hpp =
     [ "TCB", "de/d96/structTasking_1_1TCB.html", "de/d96/structTasking_1_1TCB" ],
     [ "PCB", "d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB", [
       [ "Children", "d9/d3e/namespaceTasking.html#a6038cbef6d62f2c571955144199d2109", null ],
+      [ "ELFSymbolTable", "d9/d3e/namespaceTasking.html#a8eb92f8788f988c3adc1926aaecd8aef", null ],
       [ "ExitCode", "d9/d3e/namespaceTasking.html#ac6ed583519b20768ae85105cc5049f0e", null ],
       [ "ID", "d9/d3e/namespaceTasking.html#a75f172a74c8eff96f9697d59b063b6de", null ],
       [ "Info", "d9/d3e/namespaceTasking.html#a887637de6f393b567a480ede30884446", null ],
