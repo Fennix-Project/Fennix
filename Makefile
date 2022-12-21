@@ -103,12 +103,16 @@ build_kernel:
 	make -j$(shell nproc) --quiet -C Kernel build
 
 build_userspace:
+ifeq ($(OSARCH), amd64)
 	make --quiet -C Userspace build
 	cp -r Userspace/out/* initrd/
+endif
 
 build_drivers:
+ifeq ($(OSARCH), amd64)
 	make --quiet -C Drivers build
 	cp Drivers/out/* initrd/system/drivers/
+endif
 
 build_image:
 	mkdir -p iso_tmp_data
