@@ -14,5 +14,5 @@ var DriverAPI_8cpp =
     [ "NewLock", "d4/db2/DriverAPI_8cpp.html#ac5f20c1a2090fe90ae884329df29f110", null ],
     [ "RequestPage", "d4/db2/DriverAPI_8cpp.html#aa58932ec11d2082fde8b1bb2bd2a2b6d", null ],
     [ "UnmapMemory", "d4/db2/DriverAPI_8cpp.html#a629274c1e055fb21181e54b321e0064d", null ],
-    [ "KAPI", "d4/db2/DriverAPI_8cpp.html#ab002675cfb66a7900066ad4131d62228", null ]
+    [ "KernelAPITemplate", "d4/db2/DriverAPI_8cpp.html#a0457c2d81c5f7d958e91ff115e304455", null ]
 ];

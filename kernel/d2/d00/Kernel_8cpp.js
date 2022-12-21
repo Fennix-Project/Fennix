@@ -1,11 +1,11 @@
 var Kernel_8cpp =
 [
     [ "CallPtr", "d2/d00/Kernel_8cpp.html#a9aa5b5a5410c2e97df5759c3e6d8c318", null ],
+    [ "AfterEntry", "d2/d00/Kernel_8cpp.html#ae3c148599c9942ec51e1f87224c074d2", null ],
     [ "BeforeShutdown", "d2/d00/Kernel_8cpp.html#a8769bd60831e5824558a4d71a07ad228", null ],
     [ "Entry", "d2/d00/Kernel_8cpp.html#a8a79b167fd955be0dc5551b87bd41961", null ],
     [ "KPrint", "d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e", null ],
     [ "NewLock", "d2/d00/Kernel_8cpp.html#ae6d61016b12b4f29e5f1a0ce5aa93285", null ],
-    [ "PostEntry", "d2/d00/Kernel_8cpp.html#a584ec1adb49811b0768bd2478d2c86c2", null ],
     [ "putchar", "d2/d00/Kernel_8cpp.html#a0fb7b5cd002af45dc6c96488154d8552", null ],
     [ "TaskingPanic", "d2/d00/Kernel_8cpp.html#a9bf4d76c2e04dc287d39c8729682cc25", null ],
     [ "__fini_array_end", "d2/d00/Kernel_8cpp.html#a44b0859526315b440c667baaba00f489", null ],

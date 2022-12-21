@@ -30,7 +30,7 @@ var amd64_2cpu_2gdt_8hpp =
       [ "UserData", "d1/d69/namespaceGlobalDescriptorTable.html#a7c29cb67caf8e96359c8feac368933e7", null ]
     ] ],
     [ "_GlobalDescriptorTableDescriptor", "d1/d69/namespaceGlobalDescriptorTable.html#db/dba/structGlobalDescriptorTable_1_1__GlobalDescriptorTableDescriptor", [
-      [ "Entries", "d1/d69/namespaceGlobalDescriptorTable.html#a97f865d44fcf8915621f8c9d9c8a4e85", null ],
+      [ "Entries", "d1/d69/namespaceGlobalDescriptorTable.html#a4981351f929ac285558aa5771359c4af", null ],
       [ "Length", "d1/d69/namespaceGlobalDescriptorTable.html#a2cc87c2c7fe724170f1a79797594b49f", null ]
     ] ],
     [ "GDT_KERNEL_CODE", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab0bd808397c97f7db4701ca69009a547", null ],
@@ -40,7 +40,7 @@ var amd64_2cpu_2gdt_8hpp =
     [ "GDT_USER_DATA", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2", null ],
     [ "__attribute__", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#af56d4e43cb2f9795374f684a94904e9c", null ],
     [ "__attribute__", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a8870feefdb17eb7d7c63cabcd0c3d22e", null ],
-    [ "Init", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a8f348435f90382d87ff30f9237f15a96", null ],
+    [ "Init", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a621904c3d40203fc46b2a4aaa77774cc", null ],
     [ "SetKernelStack", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#af44df44be911e3d57e2faf23148d32f8", null ],
     [ "A", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#aa99de428bd3e7715b73b335a5af9e900", null ],
     [ "Access", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#acc4eb3652022f8d361fc89df0cd4a60e", null ],
@@ -65,7 +65,8 @@ var amd64_2cpu_2gdt_8hpp =
     [ "P", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209", null ],
     [ "Reserved", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a43fae5b728aa075b9475bbe49a5738ef", null ],
     [ "Reserved1", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#afea133adf188dfb8979f48bcdaa69acf", null ],
-    [ "Reserved2", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a95539100d5c2368b95010fef43a844f6", null ],
+    [ "Reserved2", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a75ffe246834f18014b5ef078cc2c47d6", null ],
+    [ "Reserved3", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#aa4a02c42206e24002f9fd8f6b4c7f7e0", null ],
     [ "RW", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1e2d2776ce51ce60e03be92e1003a22a", null ],
     [ "S", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#aef44b210af6af7cb40efdfd5469406c0", null ],
     [ "StackPointer", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9d9ff73842948ded9734b943d3bf5894", null ],

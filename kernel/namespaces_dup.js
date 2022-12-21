@@ -18,7 +18,7 @@ var namespaces_dup =
     [ "PIC", "de/dad/namespacePIC.html", "de/dad/namespacePIC" ],
     [ "Power", "d5/dff/namespacePower.html", "d5/dff/namespacePower" ],
     [ "Random", "d6/d03/namespaceRandom.html", [
-      [ "changeseed", "d6/d03/namespaceRandom.html#ac13ef8f6eb7f4a38136947a34667b529", null ],
+      [ "ChangeSeed", "d6/d03/namespaceRandom.html#a85e7d7570b0ddc57f69526552591dcde", null ],
       [ "rand16", "d6/d03/namespaceRandom.html#a627ce30d9a4df06cb77a969ab621161c", null ],
       [ "rand32", "d6/d03/namespaceRandom.html#a7c83f51f3638a3819673976f19d619e5", null ],
       [ "rand64", "d6/d03/namespaceRandom.html#ae7db489bf685cfa8f2b7a9ae510c4dc1", null ],

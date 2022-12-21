@@ -10,6 +10,7 @@ var dir_52bed8acfaac088d5968cb2c84d7645d =
     [ "Recovery", "dir_ed24e256090ba8e6146c99f5e77ba83d.html", "dir_ed24e256090ba8e6146c99f5e77ba83d" ],
     [ "SystemCalls", "dir_fcf8e18894f194e302f59c8376612fd7.html", "dir_fcf8e18894f194e302f59c8376612fd7" ],
     [ "Tasking", "dir_e84271607a0ed4280951d9e6a4794fe3.html", "dir_e84271607a0ed4280951d9e6a4794fe3" ],
+    [ "Tests", "dir_c7f4f5a375e65f66315ad25d3c4f8be1.html", "dir_c7f4f5a375e65f66315ad25d3c4f8be1" ],
     [ "DAPI.hpp", "d3/dfe/DAPI_8hpp.html", "d3/dfe/DAPI_8hpp" ],
     [ "Fex.hpp", "d0/da5/Fex_8hpp.html", "d0/da5/Fex_8hpp" ],
     [ "KConfig.cpp", "d3/d81/KConfig_8cpp.html", "d3/d81/KConfig_8cpp" ],

@@ -146,7 +146,9 @@ var Kernel_2include_2types_8h =
     [ "intmax_t", "d0/df4/Kernel_2include_2types_8h.html#ae26fa513a7dfed63221f72d93de2a021", null ],
     [ "intptr_t", "d0/df4/Kernel_2include_2types_8h.html#a0bd5dec00e345e69027427f8621d6a6c", null ],
     [ "ptrdiff_t", "d0/df4/Kernel_2include_2types_8h.html#a6d26a0475a6d6c897e655cdc5d8019d2", null ],
+    [ "sig_atomic_t", "d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086", null ],
     [ "size_t", "d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e", null ],
+    [ "ssize_t", "d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48", null ],
     [ "uint16_t", "d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e", null ],
     [ "uint32_t", "d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f", null ],
     [ "uint64_t", "d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1", null ],
@@ -161,5 +163,6 @@ var Kernel_2include_2types_8h =
     [ "uint_least8_t", "d0/df4/Kernel_2include_2types_8h.html#a61d44370ed65907c324edad5e8d34632", null ],
     [ "uintmax_t", "d0/df4/Kernel_2include_2types_8h.html#a4e5632221b295f0fcdcb2233f3f60515", null ],
     [ "uintptr_t", "d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808", null ],
-    [ "va_list", "d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1", null ]
+    [ "va_list", "d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1", null ],
+    [ "wint_t", "d0/df4/Kernel_2include_2types_8h.html#abd99e7f4ef6b86204820c995f988403b", null ]
 ];

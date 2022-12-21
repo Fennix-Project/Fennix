@@ -1,9 +1,9 @@
 var Kernel_2Core_2Memory_2Memory_8cpp =
 [
-    [ "HeapCalloc", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a7bea98d4852bf4c7478267ffb4f1581c", null ],
+    [ "HeapCalloc", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a58c6ee324540d91508135e91335bd5ca", null ],
     [ "HeapFree", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a1cf37a0b7bfe09f0bc495d5b141a424e", null ],
-    [ "HeapMalloc", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a2fb6d4d78df5e40feb40f7f2cc7aaedc", null ],
-    [ "HeapRealloc", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a20aef67502f9e5301c1b080aad366fc8", null ],
+    [ "HeapMalloc", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#abcdb2e197e0c2d3aec224308ca629c88", null ],
+    [ "HeapRealloc", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a3e5a7a8370930642dd44d29c8f6169a2", null ],
     [ "InitializeMemoryManagement", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a32cabdf3f1224677139f094949c3e2f6", null ],
     [ "MapFramebuffer", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a6486cbcd6a46143a00e6d70026f5809d", null ],
     [ "MapFromZero", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ac6c4df1d2662ee80dbb37344ebc0bdb3", null ],

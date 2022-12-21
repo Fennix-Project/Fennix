@@ -24,11 +24,11 @@ var display_8hpp =
       [ "Header", "d6/de2/namespaceVideo.html#a45f30d390ec8b6f9accc74e4ed103d94", null ]
     ] ],
     [ "FontInfo", "d6/de2/namespaceVideo.html#d5/d8f/structVideo_1_1FontInfo", [
-      [ "EndAddress", "d6/de2/namespaceVideo.html#a6222a2129a2d35a1c962c2092ff65014", null ],
+      [ "EndAddress", "d6/de2/namespaceVideo.html#a9eff0424ed9aac0bd5be241aafa1f667", null ],
       [ "Height", "d6/de2/namespaceVideo.html#a500ad0d6a9725466dc888cd5c9b0abeb", null ],
       [ "PSF1Font", "d6/de2/namespaceVideo.html#adf3b5d00d2074bf6d8b24f70aa3d7e01", null ],
       [ "PSF2Font", "d6/de2/namespaceVideo.html#af415854c2e6502bc9af6558aa8256778", null ],
-      [ "StartAddress", "d6/de2/namespaceVideo.html#abd50c0abcfbed961fbdf81a40458fc89", null ],
+      [ "StartAddress", "d6/de2/namespaceVideo.html#acf9fefbfa67e8e2eca9abd42442a8dad", null ],
       [ "Type", "d6/de2/namespaceVideo.html#a4b5e1b67ada41501e455181240ee9118", null ],
       [ "Width", "d6/de2/namespaceVideo.html#a1d593c6561eee19e2210a4b62ef68ea4", null ]
     ] ],
@@ -40,7 +40,7 @@ var display_8hpp =
       [ "CursorX", "d6/de2/namespaceVideo.html#a76af49c502cb7134be988b9e261837fe", null ],
       [ "CursorY", "d6/de2/namespaceVideo.html#aca20fd5febd3235e90cbcdd3b14856e5", null ],
       [ "Height", "d6/de2/namespaceVideo.html#a2fba698823b9f8b3f7aaaff7aa87451f", null ],
-      [ "Size", "d6/de2/namespaceVideo.html#a81cc121985fa8d6af95d42937e02cefa", null ],
+      [ "Size", "d6/de2/namespaceVideo.html#ad27e3de9a29b64d1314558ce6d95fc22", null ],
       [ "Width", "d6/de2/namespaceVideo.html#af8f44583b704b3d6e044d993fa0049ba", null ]
     ] ],
     [ "Display", "db/d81/classVideo_1_1Display.html", "db/d81/classVideo_1_1Display" ],

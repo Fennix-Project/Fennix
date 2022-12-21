@@ -86,8 +86,11 @@ $(document).ready(function(){initNavTree('d8/d5d/i686_2cpu_2gdt_8hpp.html','../.
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">gdt.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -96,16 +99,969 @@ $(document).ready(function(){initNavTree('d8/d5d/i686_2cpu_2gdt_8hpp.html','../.
 </div>
 <p><a href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html">GlobalDescriptorTable::GlobalDescriptorTableAccess</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The GDT Access Table.  <a href="../../d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html">GlobalDescriptorTable::GlobalDescriptorTableFlags</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:da/d67/structGlobalDescriptorTable_1_1__TaskStateSegmentEntry"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#da/d67/structGlobalDescriptorTable_1_1__TaskStateSegmentEntry">GlobalDescriptorTable::_TaskStateSegmentEntry</a></td></tr>
+<tr class="separator:da/d67/structGlobalDescriptorTable_1_1__TaskStateSegmentEntry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html">GlobalDescriptorTable::_TaskStateSegment</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d2/d47/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntry"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#d2/d47/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntry">GlobalDescriptorTable::_GlobalDescriptorTableEntry</a></td></tr>
+<tr class="separator:d2/d47/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntry"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:da/d62/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntries"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#da/d62/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntries">GlobalDescriptorTable::_GlobalDescriptorTableEntries</a></td></tr>
+<tr class="separator:da/d62/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntries"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:db/dba/structGlobalDescriptorTable_1_1__GlobalDescriptorTableDescriptor"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#db/dba/structGlobalDescriptorTable_1_1__GlobalDescriptorTableDescriptor">GlobalDescriptorTable::_GlobalDescriptorTableDescriptor</a></td></tr>
+<tr class="separator:db/dba/structGlobalDescriptorTable_1_1__GlobalDescriptorTableDescriptor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d1/d69/namespaceGlobalDescriptorTable"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html">GlobalDescriptorTable</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ab0bd808397c97f7db4701ca69009a547"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#ab0bd808397c97f7db4701ca69009a547">GDT_KERNEL_CODE</a>&#160;&#160;&#160;<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</td></tr>
+<tr class="separator:ab0bd808397c97f7db4701ca69009a547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5a711dc01ab783bb986902240f1cce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a1b5a711dc01ab783bb986902240f1cce">GDT_KERNEL_DATA</a>&#160;&#160;&#160;<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d4/d33/smp_8hpp.html#a988ede77cc07d67458272a7c82709f6a">Data</a>)</td></tr>
+<tr class="separator:a1b5a711dc01ab783bb986902240f1cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c033543fb4db7939b4b7587de03867"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#af5c033543fb4db7939b4b7587de03867">GDT_USER_CODE</a>&#160;&#160;&#160;(<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243">UserCode</a>) | 3)</td></tr>
+<tr class="separator:af5c033543fb4db7939b4b7587de03867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9670040bead28fb1c0b09ea363152cd2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2">GDT_USER_DATA</a>&#160;&#160;&#160;(<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28">UserData</a>) | 3)</td></tr>
+<tr class="separator:a9670040bead28fb1c0b09ea363152cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2f85c6adeea0d29c4852d4cef33d4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#afa2f85c6adeea0d29c4852d4cef33d4c">GDT_TSS</a>&#160;&#160;&#160;(<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4">TaskStateSegment</a>) | 3)</td></tr>
+<tr class="separator:afa2f85c6adeea0d29c4852d4cef33d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8f348435f90382d87ff30f9237f15a96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8f348435f90382d87ff30f9237f15a96">GlobalDescriptorTable::Init</a> (int Core)</td></tr>
-<tr class="separator:a8f348435f90382d87ff30f9237f15a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8870feefdb17eb7d7c63cabcd0c3d22e"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#da/d67/structGlobalDescriptorTable_1_1__TaskStateSegmentEntry">GlobalDescriptorTable::_TaskStateSegmentEntry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a8870feefdb17eb7d7c63cabcd0c3d22e">GlobalDescriptorTable::__attribute__</a> ((packed)) TaskStateSegmentEntry</td></tr>
+<tr class="separator:a8870feefdb17eb7d7c63cabcd0c3d22e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af56d4e43cb2f9795374f684a94904e9c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Reserved0&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#af56d4e43cb2f9795374f684a94904e9c">__attribute__</a> ((aligned(16)))</td></tr>
+<tr class="separator:af56d4e43cb2f9795374f684a94904e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a621904c3d40203fc46b2a4aaa77774cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a621904c3d40203fc46b2a4aaa77774cc">GlobalDescriptorTable::Init</a> (int Core)</td></tr>
+<tr class="separator:a621904c3d40203fc46b2a4aaa77774cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af44df44be911e3d57e2faf23148d32f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#af44df44be911e3d57e2faf23148d32f8">GlobalDescriptorTable::SetKernelStack</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#a98988c09e59995d8f6a571039d35e3c8">Stack</a>)</td></tr>
+<tr class="separator:af44df44be911e3d57e2faf23148d32f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aa99de428bd3e7715b73b335a5af9e900"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aa99de428bd3e7715b73b335a5af9e900">A</a></td></tr>
+<tr class="memdesc:aa99de428bd3e7715b73b335a5af9e900"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access bit.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aa99de428bd3e7715b73b335a5af9e900">More...</a><br /></td></tr>
+<tr class="separator:aa99de428bd3e7715b73b335a5af9e900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e2d2776ce51ce60e03be92e1003a22a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a1e2d2776ce51ce60e03be92e1003a22a">RW</a></td></tr>
+<tr class="memdesc:a1e2d2776ce51ce60e03be92e1003a22a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Readable bit for code segments, writable bit for data segments.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a1e2d2776ce51ce60e03be92e1003a22a">More...</a><br /></td></tr>
+<tr class="separator:a1e2d2776ce51ce60e03be92e1003a22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13feadf703864c73814dae1b0f0e27d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a13feadf703864c73814dae1b0f0e27d3">DC</a></td></tr>
+<tr class="memdesc:a13feadf703864c73814dae1b0f0e27d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Direction bit for data segments, conforming bit for code segments.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a13feadf703864c73814dae1b0f0e27d3">More...</a><br /></td></tr>
+<tr class="separator:a13feadf703864c73814dae1b0f0e27d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5866c444a2a78211eef583f48cd36225"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a5866c444a2a78211eef583f48cd36225">E</a></td></tr>
+<tr class="memdesc:a5866c444a2a78211eef583f48cd36225"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executable bit.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a5866c444a2a78211eef583f48cd36225">More...</a><br /></td></tr>
+<tr class="separator:a5866c444a2a78211eef583f48cd36225"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef44b210af6af7cb40efdfd5469406c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aef44b210af6af7cb40efdfd5469406c0">S</a></td></tr>
+<tr class="memdesc:aef44b210af6af7cb40efdfd5469406c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Descriptor type.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aef44b210af6af7cb40efdfd5469406c0">More...</a><br /></td></tr>
+<tr class="separator:aef44b210af6af7cb40efdfd5469406c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16743ba7f585744088c2972c095b4ece"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a16743ba7f585744088c2972c095b4ece">DPL</a></td></tr>
+<tr class="memdesc:a16743ba7f585744088c2972c095b4ece"><td class="mdescLeft">&#160;</td><td class="mdescRight">Descriptor privilege level.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a16743ba7f585744088c2972c095b4ece">More...</a><br /></td></tr>
+<tr class="separator:a16743ba7f585744088c2972c095b4ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ad95e9194a5bfaa373bbd26ea925209"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209">P</a></td></tr>
+<tr class="memdesc:a2ad95e9194a5bfaa373bbd26ea925209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Present bit.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209">More...</a><br /></td></tr>
+<tr class="separator:a2ad95e9194a5bfaa373bbd26ea925209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adead3fdf571787c72724d7ed60419125"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#adead3fdf571787c72724d7ed60419125">Unknown</a></td></tr>
+<tr class="memdesc:adead3fdf571787c72724d7ed60419125"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unknown.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#adead3fdf571787c72724d7ed60419125">More...</a><br /></td></tr>
+<tr class="separator:adead3fdf571787c72724d7ed60419125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee73cc056696e504430c53eaa9c58cf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aee73cc056696e504430c53eaa9c58cf0">L</a></td></tr>
+<tr class="memdesc:aee73cc056696e504430c53eaa9c58cf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Long mode.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aee73cc056696e504430c53eaa9c58cf0">More...</a><br /></td></tr>
+<tr class="separator:aee73cc056696e504430c53eaa9c58cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a930e5a4d8414c0427fe5c636062579db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a></td></tr>
+<tr class="memdesc:a930e5a4d8414c0427fe5c636062579db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a930e5a4d8414c0427fe5c636062579db">More...</a><br /></td></tr>
+<tr class="separator:a930e5a4d8414c0427fe5c636062579db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9f9c980afbad64de663b5fec7cacd48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#ab9f9c980afbad64de663b5fec7cacd48">BaseLow</a></td></tr>
+<tr class="memdesc:ab9f9c980afbad64de663b5fec7cacd48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Low Base.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#ab9f9c980afbad64de663b5fec7cacd48">More...</a><br /></td></tr>
+<tr class="separator:ab9f9c980afbad64de663b5fec7cacd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add843b8ec66d6d45efb584c8eb64662f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#add843b8ec66d6d45efb584c8eb64662f">BaseMiddle</a></td></tr>
+<tr class="memdesc:add843b8ec66d6d45efb584c8eb64662f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Middle Base.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#add843b8ec66d6d45efb584c8eb64662f">More...</a><br /></td></tr>
+<tr class="separator:add843b8ec66d6d45efb584c8eb64662f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe68b30aa80199feb71be5deda91978e"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableAccess&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a></td></tr>
+<tr class="memdesc:afe68b30aa80199feb71be5deda91978e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#afe68b30aa80199feb71be5deda91978e">More...</a><br /></td></tr>
+<tr class="separator:afe68b30aa80199feb71be5deda91978e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78b7b1b4be1c01e67e5c1cd2182330b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a78b7b1b4be1c01e67e5c1cd2182330b5">Granularity</a></td></tr>
+<tr class="separator:a78b7b1b4be1c01e67e5c1cd2182330b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c483aeda65f9a985863382e09007f72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a2c483aeda65f9a985863382e09007f72">BaseHigh</a></td></tr>
+<tr class="memdesc:a2c483aeda65f9a985863382e09007f72"><td class="mdescLeft">&#160;</td><td class="mdescRight">High Base.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a2c483aeda65f9a985863382e09007f72">More...</a><br /></td></tr>
+<tr class="separator:a2c483aeda65f9a985863382e09007f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada2b982135f5d5a9347ac3c22f67ad2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#ada2b982135f5d5a9347ac3c22f67ad2e">BaseUpper</a></td></tr>
+<tr class="separator:ada2b982135f5d5a9347ac3c22f67ad2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43fae5b728aa075b9475bbe49a5738ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a43fae5b728aa075b9475bbe49a5738ef">Reserved</a></td></tr>
+<tr class="separator:a43fae5b728aa075b9475bbe49a5738ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d9ff73842948ded9734b943d3bf5894"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a9d9ff73842948ded9734b943d3bf5894">StackPointer</a> [3]</td></tr>
+<tr class="separator:a9d9ff73842948ded9734b943d3bf5894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afea133adf188dfb8979f48bcdaa69acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#afea133adf188dfb8979f48bcdaa69acf">Reserved1</a></td></tr>
+<tr class="separator:afea133adf188dfb8979f48bcdaa69acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cbcf7dbaba62e0aa7990f9c0893e165"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a9cbcf7dbaba62e0aa7990f9c0893e165">InterruptStackTable</a> [7]</td></tr>
+<tr class="separator:a9cbcf7dbaba62e0aa7990f9c0893e165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95539100d5c2368b95010fef43a844f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a95539100d5c2368b95010fef43a844f6">Reserved2</a></td></tr>
+<tr class="separator:a95539100d5c2368b95010fef43a844f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fc09010d383d63cff1bf586f70c7f9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a6fc09010d383d63cff1bf586f70c7f9a">IOMapBaseAddressOffset</a></td></tr>
+<tr class="separator:a6fc09010d383d63cff1bf586f70c7f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc4eb3652022f8d361fc89df0cd4a60e"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableAccess&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#acc4eb3652022f8d361fc89df0cd4a60e">Access</a></td></tr>
+<tr class="memdesc:acc4eb3652022f8d361fc89df0cd4a60e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#acc4eb3652022f8d361fc89df0cd4a60e">More...</a><br /></td></tr>
+<tr class="separator:acc4eb3652022f8d361fc89df0cd4a60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73f4b3a63105e057f9ceccf2c2cde860"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a73f4b3a63105e057f9ceccf2c2cde860">Null</a></td></tr>
+<tr class="separator:a73f4b3a63105e057f9ceccf2c2cde860"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac678cca2a7d570b7e2dd49c5619f98f7"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a></td></tr>
+<tr class="separator:ac678cca2a7d570b7e2dd49c5619f98f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff2da4c061653164b5cfcc650f742f27"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a></td></tr>
+<tr class="separator:aff2da4c061653164b5cfcc650f742f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed95da4e7e2e8f3347cb417a3fcd7c28"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28">UserData</a></td></tr>
+<tr class="separator:aed95da4e7e2e8f3347cb417a3fcd7c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a320a948a3daaf4e9e4bf572432a1c243"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243">UserCode</a></td></tr>
+<tr class="separator:a320a948a3daaf4e9e4bf572432a1c243"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc498068b381d117f14e2f08434d4ff4"><td class="memItemLeft" align="right" valign="top">TaskStateSegmentEntry&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4">TaskStateSegment</a></td></tr>
+<tr class="separator:abc498068b381d117f14e2f08434d4ff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adac265c791f08f7c79b44383c184c739"><td class="memItemLeft" align="right" valign="top">GlobalDescriptorTableEntries *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#adac265c791f08f7c79b44383c184c739">Entries</a></td></tr>
+<tr class="memdesc:adac265c791f08f7c79b44383c184c739"><td class="mdescLeft">&#160;</td><td class="mdescRight">GDT entries address.  <a href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#adac265c791f08f7c79b44383c184c739">More...</a><br /></td></tr>
+<tr class="separator:adac265c791f08f7c79b44383c184c739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<hr/><h2 class="groupheader">Data Structure Documentation</h2>
+<a name="da/d67/structGlobalDescriptorTable_1_1__TaskStateSegmentEntry" id="da/d67/structGlobalDescriptorTable_1_1__TaskStateSegmentEntry"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#da/d67/structGlobalDescriptorTable_1_1__TaskStateSegmentEntry">&#9670;&nbsp;</a></span>GlobalDescriptorTable::_TaskStateSegmentEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct GlobalDescriptorTable::_TaskStateSegmentEntry</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a0c893e2052e91a35b36326a868c1e194"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+BaseHigh</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ae4cdffd1896e27a7f6c08737bb8bf7d8"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+BaseLow</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a0649f80d11f8724d2fc735648cd63784"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+BaseMiddle</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a549ca219296304080cca84a8070e9ecc"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+BaseUpper</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a889ef9ad87043ec680ee0f985cb33b62"></a><a class="el" href="../../d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html">GlobalDescriptorTableAccess</a></td>
+<td class="fieldname">
+Flags</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af84958662513e0d4e7ebd9c61cd17795"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+Granularity</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a9ce40ebf89ab91cfb4159ac515ab4071"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+Length</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a3e8d8eb76d592dd73085edfc62cb041e"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+Reserved</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d2/d47/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntry" id="d2/d47/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntry"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d2/d47/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntry">&#9670;&nbsp;</a></span>GlobalDescriptorTable::_GlobalDescriptorTableEntry</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct GlobalDescriptorTable::_GlobalDescriptorTableEntry</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00100">100</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a1b8e5129840c1fb7932e0be80ca8aac2"></a><a class="el" href="../../d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html">GlobalDescriptorTableAccess</a></td>
+<td class="fieldname">
+Access</td>
+<td class="fielddoc">
+Access. </td></tr>
+<tr><td class="fieldtype">
+<a id="a8b3b4821ceeb86cc4b58051c32762308"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+BaseHigh</td>
+<td class="fielddoc">
+High Base. </td></tr>
+<tr><td class="fieldtype">
+<a id="a6df74bc7d6819961e14655af9e9c853f"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+BaseLow</td>
+<td class="fielddoc">
+Low Base. </td></tr>
+<tr><td class="fieldtype">
+<a id="a4b9b2ede295965a06c71c6dfc4e1810d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+BaseMiddle</td>
+<td class="fielddoc">
+Middle Base. </td></tr>
+<tr><td class="fieldtype">
+<a id="ac1f67ca502fea2cc07a6671c91127afd"></a><a class="el" href="../../dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html">GlobalDescriptorTableFlags</a></td>
+<td class="fieldname">
+Flags</td>
+<td class="fielddoc">
+Flags. </td></tr>
+<tr><td class="fieldtype">
+<a id="a50116aa507a8daccccbafffc31f1da09"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+Length</td>
+<td class="fielddoc">
+Length. </td></tr>
+</table>
+
+</div>
+</div>
+<a name="da/d62/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntries" id="da/d62/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntries"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#da/d62/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntries">&#9670;&nbsp;</a></span>GlobalDescriptorTable::_GlobalDescriptorTableEntries</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct GlobalDescriptorTable::_GlobalDescriptorTableEntries</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a93840e398f04eaad788d7ffc988775f6"></a>GlobalDescriptorTableEntry</td>
+<td class="fieldname">
+Code</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab541528f00551c1717ed30d6efd6169d"></a>GlobalDescriptorTableEntry</td>
+<td class="fieldname">
+Data</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a342a70fb00d98d3508fa6547c0ace242"></a>GlobalDescriptorTableEntry</td>
+<td class="fieldname">
+Null</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af9d75a0833647a3a8c8b5a7c2da30b66"></a>TaskStateSegmentEntry</td>
+<td class="fieldname">
+TaskStateSegment</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a107548ff802061f5ea869c872be6bfd5"></a>GlobalDescriptorTableEntry</td>
+<td class="fieldname">
+UserCode</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a7c29cb67caf8e96359c8feac368933e7"></a>GlobalDescriptorTableEntry</td>
+<td class="fieldname">
+UserData</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="db/dba/structGlobalDescriptorTable_1_1__GlobalDescriptorTableDescriptor" id="db/dba/structGlobalDescriptorTable_1_1__GlobalDescriptorTableDescriptor"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#db/dba/structGlobalDescriptorTable_1_1__GlobalDescriptorTableDescriptor">&#9670;&nbsp;</a></span>GlobalDescriptorTable::_GlobalDescriptorTableDescriptor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct GlobalDescriptorTable::_GlobalDescriptorTableDescriptor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00126">126</a> of file <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a4981351f929ac285558aa5771359c4af"></a>GlobalDescriptorTableEntries *</td>
+<td class="fieldname">
+Entries</td>
+<td class="fielddoc">
+GDT entries address. </td></tr>
+<tr><td class="fieldtype">
+<a id="a2cc87c2c7fe724170f1a79797594b49f"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+Length</td>
+<td class="fielddoc">
+GDT entries length. </td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ab0bd808397c97f7db4701ca69009a547"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0bd808397c97f7db4701ca69009a547">&#9670;&nbsp;</a></span>GDT_KERNEL_CODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GDT_KERNEL_CODE&#160;&#160;&#160;<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00139">139</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1b5a711dc01ab783bb986902240f1cce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b5a711dc01ab783bb986902240f1cce">&#9670;&nbsp;</a></span>GDT_KERNEL_DATA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GDT_KERNEL_DATA&#160;&#160;&#160;<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d4/d33/smp_8hpp.html#a988ede77cc07d67458272a7c82709f6a">Data</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00140">140</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="afa2f85c6adeea0d29c4852d4cef33d4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa2f85c6adeea0d29c4852d4cef33d4c">&#9670;&nbsp;</a></span>GDT_TSS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GDT_TSS&#160;&#160;&#160;(<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4">TaskStateSegment</a>) | 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00143">143</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af5c033543fb4db7939b4b7587de03867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c033543fb4db7939b4b7587de03867">&#9670;&nbsp;</a></span>GDT_USER_CODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GDT_USER_CODE&#160;&#160;&#160;(<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243">UserCode</a>) | 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00141">141</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9670040bead28fb1c0b09ea363152cd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9670040bead28fb1c0b09ea363152cd2">&#9670;&nbsp;</a></span>GDT_USER_DATA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define GDT_USER_DATA&#160;&#160;&#160;(<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28">UserData</a>) | 3)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00142">142</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="af56d4e43cb2f9795374f684a94904e9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af56d4e43cb2f9795374f684a94904e9c">&#9670;&nbsp;</a></span>__attribute__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Reserved0 __attribute__::__attribute__ </td>
+          <td>(</td>
+          <td class="paramtype">(aligned(16))&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="aa99de428bd3e7715b73b335a5af9e900"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa99de428bd3e7715b73b335a5af9e900">&#9670;&nbsp;</a></span>A</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> A</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access bit. </p>
+<dl class="section note"><dt>Note</dt><dd>The <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> sets this bit to 1 when the segment is accessed. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="acc4eb3652022f8d361fc89df0cd4a60e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc4eb3652022f8d361fc89df0cd4a60e">&#9670;&nbsp;</a></span>Access</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GlobalDescriptorTableAccess Access</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Access. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2c483aeda65f9a985863382e09007f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c483aeda65f9a985863382e09007f72">&#9670;&nbsp;</a></span>BaseHigh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> BaseHigh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>High Base. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00006">6</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ab9f9c980afbad64de663b5fec7cacd48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9f9c980afbad64de663b5fec7cacd48">&#9670;&nbsp;</a></span>BaseLow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> BaseLow</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Low Base. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00002">2</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="add843b8ec66d6d45efb584c8eb64662f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add843b8ec66d6d45efb584c8eb64662f">&#9670;&nbsp;</a></span>BaseMiddle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> BaseMiddle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Middle Base. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ada2b982135f5d5a9347ac3c22f67ad2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada2b982135f5d5a9347ac3c22f67ad2e">&#9670;&nbsp;</a></span>BaseUpper</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> BaseUpper</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00008">8</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ac678cca2a7d570b7e2dd49c5619f98f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac678cca2a7d570b7e2dd49c5619f98f7">&#9670;&nbsp;</a></span>Code</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GlobalDescriptorTableEntry Code</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aff2da4c061653164b5cfcc650f742f27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff2da4c061653164b5cfcc650f742f27">&#9670;&nbsp;</a></span>Data</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GlobalDescriptorTableEntry Data</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00002">2</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a13feadf703864c73814dae1b0f0e27d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13feadf703864c73814dae1b0f0e27d3">&#9670;&nbsp;</a></span>DC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> DC</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Direction bit for data segments, conforming bit for code segments. </p>
+<p>For data segments, this bit must be 1 for the segment to grow up (higher addresses).</p>
+<p>For code segments, this bit must be 1 for code in the segment to be able to be executed from an equal or lower privilege level. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00015">15</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a16743ba7f585744088c2972c095b4ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16743ba7f585744088c2972c095b4ece">&#9670;&nbsp;</a></span>DPL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> DPL</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Descriptor privilege level. </p>
+<p>This field determines the privilege level of the segment.</p>
+<p>0 = kernel mode, 3 = user mode. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5866c444a2a78211eef583f48cd36225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5866c444a2a78211eef583f48cd36225">&#9670;&nbsp;</a></span>E</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> E</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Executable bit. </p>
+<p>This bit must be 1 for code-segment descriptors.</p>
+<p>This bit must be 0 for data-segment and system descriptors. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00021">21</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="adac265c791f08f7c79b44383c184c739"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adac265c791f08f7c79b44383c184c739">&#9670;&nbsp;</a></span>Entries</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GlobalDescriptorTableEntries* Entries</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>GDT entries address. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="afe68b30aa80199feb71be5deda91978e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe68b30aa80199feb71be5deda91978e">&#9670;&nbsp;</a></span>Flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GlobalDescriptorTableFlags Flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flags. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00004">4</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a78b7b1b4be1c01e67e5c1cd2182330b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78b7b1b4be1c01e67e5c1cd2182330b5">&#9670;&nbsp;</a></span>Granularity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Granularity</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00005">5</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9cbcf7dbaba62e0aa7990f9c0893e165"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cbcf7dbaba62e0aa7990f9c0893e165">&#9670;&nbsp;</a></span>InterruptStackTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> InterruptStackTable[7]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a6fc09010d383d63cff1bf586f70c7f9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fc09010d383d63cff1bf586f70c7f9a">&#9670;&nbsp;</a></span>IOMapBaseAddressOffset</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> IOMapBaseAddressOffset</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00005">5</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aee73cc056696e504430c53eaa9c58cf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee73cc056696e504430c53eaa9c58cf0">&#9670;&nbsp;</a></span>L</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> L</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Long mode. </p>
+<p>If the long mode bit is clear, the segment is in 32-bit protected mode.</p>
+<p>If the long mode bit is set, the segment is in 64-bit long mode. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a930e5a4d8414c0427fe5c636062579db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a930e5a4d8414c0427fe5c636062579db">&#9670;&nbsp;</a></span>Length</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Length</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Length. </p>
+<p>GDT entries length. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a73f4b3a63105e057f9ceccf2c2cde860"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73f4b3a63105e057f9ceccf2c2cde860">&#9670;&nbsp;</a></span>Null</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GlobalDescriptorTableEntry Null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00000">0</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a2ad95e9194a5bfaa373bbd26ea925209"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ad95e9194a5bfaa373bbd26ea925209">&#9670;&nbsp;</a></span>P</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> P</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Present bit. </p>
+<p>This bit must be 1 for all valid descriptors. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a43fae5b728aa075b9475bbe49a5738ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43fae5b728aa075b9475bbe49a5738ef">&#9670;&nbsp;</a></span>Reserved</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Reserved</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="afea133adf188dfb8979f48bcdaa69acf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afea133adf188dfb8979f48bcdaa69acf">&#9670;&nbsp;</a></span>Reserved1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Reserved1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00002">2</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a95539100d5c2368b95010fef43a844f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95539100d5c2368b95010fef43a844f6">&#9670;&nbsp;</a></span>Reserved2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Reserved2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00004">4</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1e2d2776ce51ce60e03be92e1003a22a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e2d2776ce51ce60e03be92e1003a22a">&#9670;&nbsp;</a></span>RW</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> RW</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Readable bit for code segments, writable bit for data segments. </p>
+<p>For code segments, this bit must be 1 for the segment to be readable.</p>
+<p>For data segments, this bit must be 1 for the segment to be writable. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aef44b210af6af7cb40efdfd5469406c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef44b210af6af7cb40efdfd5469406c0">&#9670;&nbsp;</a></span>S</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> S</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Descriptor type. </p>
+<p>This bit must be 0 for system descriptors.</p>
+<p>This bit must be 1 for code or data segment descriptor. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00027">27</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a9d9ff73842948ded9734b943d3bf5894"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d9ff73842948ded9734b943d3bf5894">&#9670;&nbsp;</a></span>StackPointer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> StackPointer[3]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="abc498068b381d117f14e2f08434d4ff4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc498068b381d117f14e2f08434d4ff4">&#9670;&nbsp;</a></span>TaskStateSegment</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TaskStateSegmentEntry TaskStateSegment</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00005">5</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="adead3fdf571787c72724d7ed60419125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adead3fdf571787c72724d7ed60419125">&#9670;&nbsp;</a></span>Unknown</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Unknown</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unknown. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a320a948a3daaf4e9e4bf572432a1c243"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a320a948a3daaf4e9e4bf572432a1c243">&#9670;&nbsp;</a></span>UserCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GlobalDescriptorTableEntry UserCode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00004">4</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aed95da4e7e2e8f3347cb417a3fcd7c28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed95da4e7e2e8f3347cb417a3fcd7c28">&#9670;&nbsp;</a></span>UserData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GlobalDescriptorTableEntry UserData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

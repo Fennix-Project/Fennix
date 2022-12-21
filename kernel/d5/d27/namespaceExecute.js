@@ -22,8 +22,8 @@ var namespaceExecute =
       [ "InvalidFilePath", "d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a868b4989770a47e5d2982b7cec8c24c3", null ]
     ] ],
     [ "Close", "d5/d27/namespaceExecute.html#a2ed3b05055eb24049d70901768bbd03a", null ],
-    [ "elf_lookup_string", "d5/d27/namespaceExecute.html#ad053e40d5a2e2fb24e9d6cd8d82159cd", null ],
-    [ "ELFGetSymbolValue", "d5/d27/namespaceExecute.html#a2877fc92ae74c0217aa3ae1de52ba76f", null ],
+    [ "elf_lookup_string", "d5/d27/namespaceExecute.html#a48b9410fc5da03ae1527d6b988b75f3d", null ],
+    [ "ELFGetSymbolValue", "d5/d27/namespaceExecute.html#a5b37e6345f5027207dbc9bb206293bce", null ],
     [ "ELFLoadRel", "d5/d27/namespaceExecute.html#a132f562f1f70670e2abe817988be5b97", null ],
     [ "ElfLookupSymbol", "d5/d27/namespaceExecute.html#a8d751eb94d0204f639c0a3aa9f4b3d8c", null ],
     [ "GetBinaryType", "d5/d27/namespaceExecute.html#a222c41ddec469ce960da37986428ca0d", null ],

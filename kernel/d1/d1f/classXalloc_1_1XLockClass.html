@@ -145,7 +145,7 @@ AttemptingToGet</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3a4aefc03c220757e234c951925f9a0a"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="a0cfc34c21fed190c35927fb7f5d106f9"></a><a class="el" href="../../d9/d49/types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a></td>
 <td class="fieldname">
 Count</td>
 <td class="fielddoc">
@@ -157,7 +157,7 @@ CurrentHolder</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a59c4cfaa98611dd9d55e4398273a4aa8"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<a id="aa8e3361be45d4ae0c6df687e7dced2c5"></a><a class="el" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></td>
 <td class="fieldname">
 LockData</td>
 <td class="fielddoc">
@@ -240,15 +240,15 @@ LockData</td>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a13ed510c1eb1ba7271f83637c13f95f6">DeadLock</a>(<a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a68a801d79689b6231ddbeca3205d6d50">LockData</a>);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                <span class="keywordflow">goto</span> Retry;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a68a801d79689b6231ddbeca3205d6d50">LockData</a>.<a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a3a4aefc03c220757e234c951925f9a0a">Count</a>++;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a68a801d79689b6231ddbeca3205d6d50">LockData</a>.<a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a0cfc34c21fed190c35927fb7f5d106f9">Count</a>++;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a68a801d79689b6231ddbeca3205d6d50">LockData</a>.<a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a0baa6c3414f88dbde2b4ef94603181fd">CurrentHolder</a> = FunctionName;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            __sync_synchronize();</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
 <div class="ttc" id="aclassXalloc_1_1XLockClass_html_a0baa6c3414f88dbde2b4ef94603181fd"><div class="ttname"><a href="../../d1/d1f/classXalloc_1_1XLockClass.html#a0baa6c3414f88dbde2b4ef94603181fd">Xalloc::XLockClass::SpinLockData::CurrentHolder</a></div><div class="ttdeci">const char * CurrentHolder</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4a/Xalloc_8cpp_source.html#l00010">Xalloc.cpp:10</a></div></div>
+<div class="ttc" id="aclassXalloc_1_1XLockClass_html_a0cfc34c21fed190c35927fb7f5d106f9"><div class="ttname"><a href="../../d1/d1f/classXalloc_1_1XLockClass.html#a0cfc34c21fed190c35927fb7f5d106f9">Xalloc::XLockClass::SpinLockData::Count</a></div><div class="ttdeci">size_t Count</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4a/Xalloc_8cpp_source.html#l00012">Xalloc.cpp:12</a></div></div>
 <div class="ttc" id="aclassXalloc_1_1XLockClass_html_a13ed510c1eb1ba7271f83637c13f95f6"><div class="ttname"><a href="../../d1/d1f/classXalloc_1_1XLockClass.html#a13ed510c1eb1ba7271f83637c13f95f6">Xalloc::XLockClass::DeadLock</a></div><div class="ttdeci">void DeadLock(SpinLockData Lock)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4a/Xalloc_8cpp_source.html#l00015">Xalloc.cpp:15</a></div></div>
 <div class="ttc" id="aclassXalloc_1_1XLockClass_html_a36723011db58c59b549f8e38b0dfdc83"><div class="ttname"><a href="../../d1/d1f/classXalloc_1_1XLockClass.html#a36723011db58c59b549f8e38b0dfdc83">Xalloc::XLockClass::IsLocked</a></div><div class="ttdeci">bool IsLocked</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4a/Xalloc_8cpp_source.html#l00022">Xalloc.cpp:22</a></div></div>
-<div class="ttc" id="aclassXalloc_1_1XLockClass_html_a3a4aefc03c220757e234c951925f9a0a"><div class="ttname"><a href="../../d1/d1f/classXalloc_1_1XLockClass.html#a3a4aefc03c220757e234c951925f9a0a">Xalloc::XLockClass::SpinLockData::Count</a></div><div class="ttdeci">uint64_t Count</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4a/Xalloc_8cpp_source.html#l00012">Xalloc.cpp:12</a></div></div>
 <div class="ttc" id="aclassXalloc_1_1XLockClass_html_a68a801d79689b6231ddbeca3205d6d50"><div class="ttname"><a href="../../d1/d1f/classXalloc_1_1XLockClass.html#a68a801d79689b6231ddbeca3205d6d50">Xalloc::XLockClass::LockData</a></div><div class="ttdeci">SpinLockData LockData</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4a/Xalloc_8cpp_source.html#l00021">Xalloc.cpp:21</a></div></div>
 <div class="ttc" id="aclassXalloc_1_1XLockClass_html_ac2fc318268bde1bb66090b20a6926de2"><div class="ttname"><a href="../../d1/d1f/classXalloc_1_1XLockClass.html#ac2fc318268bde1bb66090b20a6926de2">Xalloc::XLockClass::SpinLockData::AttemptingToGet</a></div><div class="ttdeci">const char * AttemptingToGet</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4a/Xalloc_8cpp_source.html#l00011">Xalloc.cpp:11</a></div></div>
 </div><!-- fragment -->
@@ -285,7 +285,7 @@ LockData</td>
 <div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            __sync_synchronize();</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            __atomic_store_n(&amp;<a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a36723011db58c59b549f8e38b0dfdc83">IsLocked</a>, <span class="keyword">false</span>, __ATOMIC_RELEASE);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a68a801d79689b6231ddbeca3205d6d50">LockData</a>.<a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a3a4aefc03c220757e234c951925f9a0a">Count</a>--;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a68a801d79689b6231ddbeca3205d6d50">LockData</a>.<a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a0cfc34c21fed190c35927fb7f5d106f9">Count</a>--;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <a class="code" href="../../d1/d1f/classXalloc_1_1XLockClass.html#a36723011db58c59b549f8e38b0dfdc83">IsLocked</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div>

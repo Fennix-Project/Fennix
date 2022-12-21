@@ -14,7 +14,7 @@ var namespaceCPU =
       [ "Enable", "d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178adb91be1ff77d40242e5c3ea53f344b05", null ],
       [ "Disable", "d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178ad9f455a07bfc57fc6a9a63100ba5ded4", null ]
     ] ],
-    [ "Counter", "d7/dfa/namespaceCPU.html#adfe4248cc88b3b6deebb92b8e074561a", null ],
+    [ "Counter", "d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93", null ],
     [ "Halt", "d7/dfa/namespaceCPU.html#a12d6263298416edfbc74736be8640508", null ],
     [ "Hypervisor", "d7/dfa/namespaceCPU.html#aa6d49cc4518ee81a7c344eee5a1a874a", null ],
     [ "InitializeFeatures", "d7/dfa/namespaceCPU.html#ab40c41b740716660e53aa57978e59281", null ],

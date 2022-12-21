@@ -200,43 +200,39 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
 <div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;    {</div>
 <div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;dest is NULL&quot;</span>);</div>
-<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;            ;</div>
-<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;    }</div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160; </div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(src == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
-<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;    {</div>
-<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;src is NULL&quot;</span>);</div>
-<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;            ;</div>
-<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    }</div>
-<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160; </div>
-<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len == 0))</div>
-<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;    {</div>
-<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;len is 0&quot;</span>);</div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;            ;</div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;    }</div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160; </div>
-<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(slen == 0))</div>
-<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;    {</div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;slen is 0&quot;</span>);</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;            ;</div>
-<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;    }</div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160; </div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len &gt; slen))</div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/def/Convert_8c.html#a7a71051d6440816fca3ad080ae2539f4">memcpy_unsafe</a>(dest, src, len);</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;}</div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;    }</div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160; </div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(src == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;    {</div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;src is NULL&quot;</span>);</div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;    }</div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160; </div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len == 0))</div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;    {</div>
+<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;len is 0&quot;</span>);</div>
+<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;    }</div>
+<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160; </div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(slen == 0))</div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;    {</div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;slen is 0&quot;</span>);</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;    }</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160; </div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len &gt; slen))</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/def/Convert_8c.html#a7a71051d6440816fca3ad080ae2539f4">memcpy_unsafe</a>(dest, src, len);</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;}</div>
 <div class="ttc" id="aConvert_8c_html_a78df838bb6af6005ff95bdf4accfa4b8"><div class="ttname"><a href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a></div><div class="ttdeci">void __chk_fail(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/def/Convert_8c_source.html#l00861">Convert.c:861</a></div></div>
 <div class="ttc" id="aConvert_8c_html_a7a71051d6440816fca3ad080ae2539f4"><div class="ttname"><a href="../../de/def/Convert_8c.html#a7a71051d6440816fca3ad080ae2539f4">memcpy_unsafe</a></div><div class="ttdeci">void * memcpy_unsafe(void *dest, const void *src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/def/Convert_8c_source.html#l00034">Convert.c:34</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00042">debug.h:42</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00039">debug.h:39</a></div></div>
 <div class="ttc" id="atypes_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00020">types.h:20</a></div></div>
-<div class="ttc" id="atypes_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00264">types.h:264</a></div></div>
+<div class="ttc" id="atypes_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00289">types.h:289</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00934">__memmove_chk()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00903">__memset_chk()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00972">__strcat_chk()</a>, and <a class="el" href="../../de/def/Convert_8c_source.html#l01004">__strcpy_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00927">__memmove_chk()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00899">__memset_chk()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00961">__strcat_chk()</a>, and <a class="el" href="../../de/def/Convert_8c_source.html#l00990">__strcpy_chk()</a>.</p>
 
 </div>
 </div>
@@ -278,46 +274,42 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/def/Convert_8c_source.html#l00934">934</a> of file <a class="el" href="../../de/def/Convert_8c_source.html">Convert.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;{</div>
-<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;<span class="preprocessor">#ifdef DBG_CHK</span></div>
-<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;( dest:%#lx src:%#lx len:%llu slen:%llu )&quot;</span>, dest, src, len, slen);</div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;    {</div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;dest is NULL&quot;</span>);</div>
-<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;            ;</div>
-<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;    }</div>
-<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160; </div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(src == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
-<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;    {</div>
-<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;src is NULL&quot;</span>);</div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;            ;</div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;    }</div>
-<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160; </div>
-<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len == 0))</div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;    {</div>
-<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;len is 0&quot;</span>);</div>
-<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;            ;</div>
-<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;    }</div>
-<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160; </div>
-<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(slen == 0))</div>
-<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;    {</div>
-<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;slen is 0&quot;</span>);</div>
-<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;            ;</div>
-<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;    }</div>
-<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160; </div>
-<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len &gt; slen))</div>
-<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
-<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/def/Convert_8c.html#a7c4011320424e41e3875a3c9312242b0">memmove_unsafe</a>(dest, src, len);</div>
-<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/def/Convert_8c_source.html#l00927">927</a> of file <a class="el" href="../../de/def/Convert_8c_source.html">Convert.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;{</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;<span class="preprocessor">#ifdef DBG_CHK</span></div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;( dest:%#lx src:%#lx len:%llu slen:%llu )&quot;</span>, dest, src, len, slen);</div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;    {</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;dest is NULL&quot;</span>);</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;    }</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160; </div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(src == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;    {</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;src is NULL&quot;</span>);</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;    }</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160; </div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len == 0))</div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;    {</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;len is 0&quot;</span>);</div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;    }</div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160; </div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(slen == 0))</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;    {</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;slen is 0&quot;</span>);</div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;    }</div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160; </div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len &gt; slen))</div>
+<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/def/Convert_8c.html#a7c4011320424e41e3875a3c9312242b0">memmove_unsafe</a>(dest, src, len);</div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;}</div>
 <div class="ttc" id="aConvert_8c_html_a7c4011320424e41e3875a3c9312242b0"><div class="ttname"><a href="../../de/def/Convert_8c.html#a7c4011320424e41e3875a3c9312242b0">memmove_unsafe</a></div><div class="ttdeci">void * memmove_unsafe(void *dest, const void *src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/def/Convert_8c_source.html#l00269">Convert.c:269</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00861">__chk_fail()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00042">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00039">error</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00269">memmove_unsafe()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00264">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00861">__chk_fail()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00042">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00039">error</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00269">memmove_unsafe()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00289">unlikely</a>.</p>
 
 </div>
 </div>
@@ -359,39 +351,36 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/def/Convert_8c_source.html#l00903">903</a> of file <a class="el" href="../../de/def/Convert_8c_source.html">Convert.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;{</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;<span class="preprocessor">#ifdef DBG_CHK</span></div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;( dest:%#lx val:%#x len:%llu slen:%llu )&quot;</span>, dest, val, len, slen);</div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;    {</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;dest is NULL&quot;</span>);</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;            ;</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;    }</div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160; </div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len == 0))</div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;    {</div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;len is 0&quot;</span>);</div>
-<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;            ;</div>
+<p class="definition">Definition at line <a class="el" href="../../de/def/Convert_8c_source.html#l00899">899</a> of file <a class="el" href="../../de/def/Convert_8c_source.html">Convert.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;{</div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;<span class="preprocessor">#ifdef DBG_CHK</span></div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;( dest:%#lx val:%#x len:%llu slen:%llu )&quot;</span>, dest, val, len, slen);</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;    {</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;dest is NULL&quot;</span>);</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    }</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160; </div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len == 0))</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;    {</div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;len is 0&quot;</span>);</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;    }</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160; </div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(slen == 0))</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;    {</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;slen is 0&quot;</span>);</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
 <div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;    }</div>
 <div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160; </div>
-<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(slen == 0))</div>
-<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;    {</div>
-<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;slen is 0&quot;</span>);</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;            ;</div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;    }</div>
-<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160; </div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len &gt; slen))</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
-<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/def/Convert_8c.html#a9c1f204516a55affa9ba118907e5ab6b">memset_unsafe</a>(dest, val, len);</div>
-<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;}</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len &gt; slen))</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/def/Convert_8c.html#a9c1f204516a55affa9ba118907e5ab6b">memset_unsafe</a>(dest, val, len);</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;}</div>
 <div class="ttc" id="aConvert_8c_html_a9c1f204516a55affa9ba118907e5ab6b"><div class="ttname"><a href="../../de/def/Convert_8c.html#a9c1f204516a55affa9ba118907e5ab6b">memset_unsafe</a></div><div class="ttdeci">void * memset_unsafe(void *dest, int c, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/def/Convert_8c_source.html#l00198">Convert.c:198</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00861">__chk_fail()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00042">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00039">error</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00198">memset_unsafe()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00264">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00861">__chk_fail()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00042">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00039">error</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00198">memset_unsafe()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00289">unlikely</a>.</p>
 
 </div>
 </div>
@@ -427,41 +416,38 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/def/Convert_8c_source.html#l00972">972</a> of file <a class="el" href="../../de/def/Convert_8c_source.html">Convert.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;{</div>
-<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;<span class="preprocessor">#ifdef DBG_CHK</span></div>
-<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;( dest:%#lx src:%#lx slen:%llu )&quot;</span>, dest, src, slen);</div>
-<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
-<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;    {</div>
-<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;dest is NULL&quot;</span>);</div>
-<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;            ;</div>
+<p class="definition">Definition at line <a class="el" href="../../de/def/Convert_8c_source.html#l00961">961</a> of file <a class="el" href="../../de/def/Convert_8c_source.html">Convert.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;{</div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;<span class="preprocessor">#ifdef DBG_CHK</span></div>
+<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;( dest:%#lx src:%#lx slen:%llu )&quot;</span>, dest, src, slen);</div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;    {</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;dest is NULL&quot;</span>);</div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;    }</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160; </div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(src == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;    {</div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;src is NULL&quot;</span>);</div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;    }</div>
+<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160; </div>
+<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(slen == 0))</div>
+<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;    {</div>
+<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;slen is 0&quot;</span>);</div>
+<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
 <div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;    }</div>
 <div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160; </div>
-<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(src == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
-<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;    {</div>
-<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;src is NULL&quot;</span>);</div>
-<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;            ;</div>
-<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;    }</div>
-<div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160; </div>
-<div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(slen == 0))</div>
-<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;    {</div>
-<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;slen is 0&quot;</span>);</div>
-<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;            ;</div>
-<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;    }</div>
-<div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160; </div>
-<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;    <span class="keywordtype">size_t</span> dest_len = <a class="code" href="../../de/def/Convert_8c.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(dest);</div>
-<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest_len + <a class="code" href="../../de/def/Convert_8c.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(src) + 1 &gt; slen))</div>
-<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
-<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/def/Convert_8c.html#a855d08be6d1e7101b57a59ec22e1c518">strcat_unsafe</a>(dest, src);</div>
-<div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;}</div>
+<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;    <span class="keywordtype">size_t</span> dest_len = <a class="code" href="../../de/def/Convert_8c.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(dest);</div>
+<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest_len + <a class="code" href="../../de/def/Convert_8c.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(src) + 1 &gt; slen))</div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/def/Convert_8c.html#a855d08be6d1e7101b57a59ec22e1c518">strcat_unsafe</a>(dest, src);</div>
+<div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;}</div>
 <div class="ttc" id="aConvert_8c_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../de/def/Convert_8c.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../de/def/Convert_8c_source.html#l00358">Convert.c:358</a></div></div>
 <div class="ttc" id="aConvert_8c_html_a855d08be6d1e7101b57a59ec22e1c518"><div class="ttname"><a href="../../de/def/Convert_8c.html#a855d08be6d1e7101b57a59ec22e1c518">strcat_unsafe</a></div><div class="ttdeci">char * strcat_unsafe(char *destination, const char *source)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/def/Convert_8c_source.html#l00367">Convert.c:367</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00861">__chk_fail()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00042">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00039">error</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00367">strcat_unsafe()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00358">strlen()</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00264">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00861">__chk_fail()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00042">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00039">error</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00367">strcat_unsafe()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00358">strlen()</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00289">unlikely</a>.</p>
 
 </div>
 </div>
@@ -497,41 +483,38 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/def/Convert_8c_source.html#l01004">1004</a> of file <a class="el" href="../../de/def/Convert_8c_source.html">Convert.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;{</div>
-<div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;<span class="preprocessor">#ifdef DBG_CHK</span></div>
-<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;( dest:%#lx src:%#lx slen:%llu )&quot;</span>, dest, src, slen);</div>
-<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
-<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;    {</div>
-<div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;dest is NULL&quot;</span>);</div>
-<div class="line"><a name="l01012"></a><span class="lineno"> 1012</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;            ;</div>
-<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;    }</div>
-<div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160; </div>
-<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(src == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
-<div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;    {</div>
-<div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;src is NULL&quot;</span>);</div>
-<div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160;            ;</div>
-<div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;    }</div>
-<div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160; </div>
-<div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(slen == 0))</div>
-<div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;    {</div>
-<div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;slen is 0&quot;</span>);</div>
-<div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;        <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;            ;</div>
-<div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;    }</div>
-<div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160; </div>
-<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;    <span class="keywordtype">size_t</span> len = <a class="code" href="../../de/def/Convert_8c.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(src);</div>
-<div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160; </div>
-<div class="line"><a name="l01032"></a><span class="lineno"> 1032</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len &gt;= slen))</div>
-<div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
-<div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/def/Convert_8c.html#afa130c0cef1b65f57a9162b82b59e159">strcpy_unsafe</a>(dest, src);</div>
-<div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/def/Convert_8c_source.html#l00990">990</a> of file <a class="el" href="../../de/def/Convert_8c_source.html">Convert.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;{</div>
+<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;<span class="preprocessor">#ifdef DBG_CHK</span></div>
+<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;( dest:%#lx src:%#lx slen:%llu )&quot;</span>, dest, src, slen);</div>
+<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(dest == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
+<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;    {</div>
+<div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;dest is NULL&quot;</span>);</div>
+<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;    }</div>
+<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160; </div>
+<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(src == <a class="code" href="../../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>))</div>
+<div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;    {</div>
+<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;src is NULL&quot;</span>);</div>
+<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;    }</div>
+<div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160; </div>
+<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(slen == 0))</div>
+<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;    {</div>
+<div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;slen is 0&quot;</span>);</div>
+<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;    }</div>
+<div class="line"><a name="l01012"></a><span class="lineno"> 1012</span>&#160; </div>
+<div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;    <span class="keywordtype">size_t</span> len = <a class="code" href="../../de/def/Convert_8c.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(src);</div>
+<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160; </div>
+<div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(len &gt;= slen))</div>
+<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;        <a class="code" href="../../de/def/Convert_8c.html#a78df838bb6af6005ff95bdf4accfa4b8">__chk_fail</a>();</div>
+<div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/def/Convert_8c.html#afa130c0cef1b65f57a9162b82b59e159">strcpy_unsafe</a>(dest, src);</div>
+<div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;}</div>
 <div class="ttc" id="aConvert_8c_html_afa130c0cef1b65f57a9162b82b59e159"><div class="ttname"><a href="../../de/def/Convert_8c.html#afa130c0cef1b65f57a9162b82b59e159">strcpy_unsafe</a></div><div class="ttdeci">char * strcpy_unsafe(char *destination, const char *source)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/def/Convert_8c_source.html#l00384">Convert.c:384</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00861">__chk_fail()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00042">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00039">error</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00384">strcpy_unsafe()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00358">strlen()</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00264">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00861">__chk_fail()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00042">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00039">error</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00384">strcpy_unsafe()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00358">strlen()</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00289">unlikely</a>.</p>
 
 </div>
 </div>
@@ -730,11 +713,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;}</div>
 <div class="ttc" id="aacpi_8hpp_html_a930e5a4d8414c0427fe5c636062579db"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a></div><div class="ttdeci">uint32_t Length</div><div class="ttdoc">Length.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00001">acpi.hpp:1</a></div></div>
 <div class="ttc" id="anamespacePower_html"><div class="ttname"><a href="../../d5/dff/namespacePower.html">Power</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dfa/power_8hpp_source.html#l00006">power.hpp:7</a></div></div>
-<div class="ttc" id="atypes_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00113">types.h:113</a></div></div>
+<div class="ttc" id="atypes_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00114">types.h:114</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00001">Length</a>, and <a class="el" href="../../de/def/Convert_8c_source.html#l00358">strlen()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d81/KConfig_8cpp_source.html#l00070">ParseConfig()</a>, and <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00235">CrashHandler::UserInput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d81/KConfig_8cpp_source.html#l00070">ParseConfig()</a>, and <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00236">CrashHandler::UserInput()</a>.</p>
 
 </div>
 </div>
@@ -1313,8 +1296,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">return</span> dest;</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;}</div>
 <div class="ttc" id="acxxabi_8cpp_html_aeb085eba738896a5f1ee06f3ca260bbe"><div class="ttname"><a href="../../d7/d66/cxxabi_8cpp.html#aeb085eba738896a5f1ee06f3ca260bbe">__attribute__</a></div><div class="ttdeci">unsigned _Unwind_Ptr __attribute__((__mode__(__pointer__)))</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d66/cxxabi_8cpp_source.html#l00038">cxxabi.cpp:38</a></div></div>
-<div class="ttc" id="atypes_8h_html_a0a8582351ac627ee8bde2973c825e47f"><div class="ttname"><a href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></div><div class="ttdeci">__UINT32_TYPE__ uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00112">types.h:112</a></div></div>
-<div class="ttc" id="atypes_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00134">types.h:134</a></div></div>
+<div class="ttc" id="atypes_8h_html_a0a8582351ac627ee8bde2973c825e47f"><div class="ttname"><a href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></div><div class="ttdeci">__UINT32_TYPE__ uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00113">types.h:113</a></div></div>
+<div class="ttc" id="atypes_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00137">types.h:137</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1408,7 +1391,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d3/d82/convert_8h_source.html#l00059">memcpy</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00934">__memmove_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00927">__memmove_chk()</a>.</p>
 
 </div>
 </div>
@@ -1515,7 +1498,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordflow">return</span> dest;</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00903">__memset_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00899">__memset_chk()</a>.</p>
 
 </div>
 </div>
@@ -1610,7 +1593,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00972">__strcat_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00961">__strcat_chk()</a>.</p>
 
 </div>
 </div>
@@ -1687,7 +1670,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <span class="keywordflow">return</span> *(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)l - *(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)r;</div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00196">FileSystem::Virtual::Create()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00118">Driver::Driver::Driver()</a>, <a class="el" href="../../df/dda/Parse_8cpp_source.html#l00092">Execute::ElfLookupSymbol()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00119">FileSystem::GetChild()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00053">FileSystem::Virtual::GetNodeFromPath()</a>, <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00176">CPU::InitializeFeatures()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00306">APIC::Timer::OneShot()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00315">FileSystem::Virtual::Open()</a>, <a class="el" href="../../d3/d81/KConfig_8cpp_source.html#l00070">ParseConfig()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00133">FileSystem::RemoveChild()</a>, and <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00235">CrashHandler::UserInput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00196">FileSystem::Virtual::Create()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00161">Driver::Driver::Driver()</a>, <a class="el" href="../../df/dda/Parse_8cpp_source.html#l00092">Execute::ElfLookupSymbol()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00119">FileSystem::GetChild()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00053">FileSystem::Virtual::GetNodeFromPath()</a>, <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00174">CPU::InitializeFeatures()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00306">APIC::Timer::OneShot()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00315">FileSystem::Virtual::Open()</a>, <a class="el" href="../../d3/d81/KConfig_8cpp_source.html#l00070">ParseConfig()</a>, <a class="el" href="../../d4/dde/Random_8cpp_source.html#l00008">Random::rand16()</a>, <a class="el" href="../../d4/dde/Random_8cpp_source.html#l00057">Random::rand32()</a>, <a class="el" href="../../d4/dde/Random_8cpp_source.html#l00106">Random::rand64()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00133">FileSystem::RemoveChild()</a>, and <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00236">CrashHandler::UserInput()</a>.</p>
 
 </div>
 </div>
@@ -1734,7 +1717,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l01004">__strcpy_chk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00990">__strcpy_chk()</a>.</p>
 
 </div>
 </div>
@@ -1794,7 +1777,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    <span class="keywordflow">return</span> i;</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00972">__strcat_chk()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l01004">__strcpy_chk()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00338">append()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00685">atoi()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00332">backspace()</a>, <a class="el" href="../../db/d92/cargs_8c_source.html#l00082">cag_option_get_print_indention()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00693">Tasking::Task::CreateThread()</a>, <a class="el" href="../../d3/dc4/cwalk_8c_source.html#l01065">cwk_path_change_extension()</a>, <a class="el" href="../../d3/dc4/cwalk_8c_source.html#l00885">cwk_path_change_root()</a>, <a class="el" href="../../d3/dc4/cwalk_8c_source.html#l01351">cwk_path_change_segment()</a>, <a class="el" href="../../d3/dc4/cwalk_8c_source.html#l00125">cwk_path_output()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00018">DriverDisplayPrint()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00016">FileSystem::Virtual::GetPathFromNode()</a>, <a class="el" href="../../d3/d1d/Limine_8c_source.html#l00045">init_limine()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00605">isempty()</a>, <a class="el" href="../../d7/d6c/md5_8c_source.html#l00203">md5String()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00147">FileSystem::Virtual::NormalizePath()</a>, <a class="el" href="../../d3/d81/KConfig_8cpp_source.html#l00070">ParseConfig()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00448">strdup()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00080">CrashHandler::TrimWhiteSpace()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00235">CrashHandler::UserInput()</a>, <a class="el" href="../../d9/db9/ustar_8cpp_source.html#l00027">FileSystem::USTAR::USTAR()</a>, and <a class="el" href="../../d8/d0e/Multiboot2_8cpp_source.html#l00057">x32Multiboot2Entry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/def/Convert_8c_source.html#l00961">__strcat_chk()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00990">__strcpy_chk()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00338">append()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00685">atoi()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00332">backspace()</a>, <a class="el" href="../../db/d92/cargs_8c_source.html#l00082">cag_option_get_print_indention()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00693">Tasking::Task::CreateThread()</a>, <a class="el" href="../../d3/dc4/cwalk_8c_source.html#l01065">cwk_path_change_extension()</a>, <a class="el" href="../../d3/dc4/cwalk_8c_source.html#l00885">cwk_path_change_root()</a>, <a class="el" href="../../d3/dc4/cwalk_8c_source.html#l01351">cwk_path_change_segment()</a>, <a class="el" href="../../d3/dc4/cwalk_8c_source.html#l00125">cwk_path_output()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00018">DriverDisplayPrint()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00016">FileSystem::Virtual::GetPathFromNode()</a>, <a class="el" href="../../d3/d1d/Limine_8c_source.html#l00045">init_limine()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00605">isempty()</a>, <a class="el" href="../../d7/d6c/md5_8c_source.html#l00203">md5String()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00147">FileSystem::Virtual::NormalizePath()</a>, <a class="el" href="../../d3/d81/KConfig_8cpp_source.html#l00070">ParseConfig()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00448">strdup()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00081">CrashHandler::TrimWhiteSpace()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00236">CrashHandler::UserInput()</a>, <a class="el" href="../../d9/db9/ustar_8cpp_source.html#l00027">FileSystem::USTAR::USTAR()</a>, and <a class="el" href="../../d8/d0e/Multiboot2_8cpp_source.html#l00057">x32Multiboot2Entry()</a>.</p>
 
 </div>
 </div>
@@ -1894,7 +1877,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00102">FileSystem::AddNewChild()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00273">FileSystem::Virtual::CreateRoot()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00118">Driver::Driver::Driver()</a>, <a class="el" href="../../d3/d1d/Limine_8c_source.html#l00045">init_limine()</a>, <a class="el" href="../../d3/d81/KConfig_8cpp_source.html#l00070">ParseConfig()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00448">strdup()</a>, and <a class="el" href="../../d8/d0e/Multiboot2_8cpp_source.html#l00057">x32Multiboot2Entry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00102">FileSystem::AddNewChild()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00273">FileSystem::Virtual::CreateRoot()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00161">Driver::Driver::Driver()</a>, <a class="el" href="../../d3/d1d/Limine_8c_source.html#l00045">init_limine()</a>, <a class="el" href="../../d3/d81/KConfig_8cpp_source.html#l00070">ParseConfig()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00448">strdup()</a>, and <a class="el" href="../../d8/d0e/Multiboot2_8cpp_source.html#l00057">x32Multiboot2Entry()</a>.</p>
 
 </div>
 </div>
@@ -2017,7 +2000,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00618">isdelim()</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00020">NULL</a>, and <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00509">Execute::ret</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00235">CrashHandler::UserInput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00236">CrashHandler::UserInput()</a>.</p>
 
 </div>
 </div>
@@ -2124,7 +2107,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00455">isalpha()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00595">isdigit()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00600">isspace()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00460">isupper()</a>, <a class="el" href="../../d9/d86/limits_8h_source.html#l00062">LONG_MAX</a>, and <a class="el" href="../../d9/d86/limits_8h_source.html#l00060">LONG_MIN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00235">CrashHandler::UserInput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00236">CrashHandler::UserInput()</a>.</p>
 
 </div>
 </div>
@@ -2227,7 +2210,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/def/Convert_8c_source.html#l00455">isalpha()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00595">isdigit()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00600">isspace()</a>, <a class="el" href="../../de/def/Convert_8c_source.html#l00460">isupper()</a>, <a class="el" href="../../d9/d86/limits_8h_source.html#l00062">LONG_MAX</a>, and <a class="el" href="../../d9/d86/limits_8h_source.html#l00060">LONG_MIN</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00235">CrashHandler::UserInput()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00236">CrashHandler::UserInput()</a>.</p>
 
 </div>
 </div>

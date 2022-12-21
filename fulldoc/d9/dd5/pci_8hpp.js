@@ -36,7 +36,7 @@ var pci_8hpp =
       [ "SubsystemVendorID", "d0/d8f/namespacePCI.html#a1fb4a837870632474e97a8f828e50443", null ]
     ] ],
     [ "DeviceConfig", "d0/d8f/namespacePCI.html#d8/de9/structPCI_1_1DeviceConfig", [
-      [ "BaseAddress", "d0/d8f/namespacePCI.html#a75eb908aaca3e0e96cbb471aed59c19e", null ],
+      [ "BaseAddress", "d0/d8f/namespacePCI.html#a6b40135622cb5c9fb0f940e275fbd9d7", null ],
       [ "EndBus", "d0/d8f/namespacePCI.html#a7f50f08040708ea32fd98462b6e5c59e", null ],
       [ "PCISegGroup", "d0/d8f/namespacePCI.html#a8f7b0c7bdb70faac928951f3a9f05fba", null ],
       [ "Reserved", "d0/d8f/namespacePCI.html#a9601542f2b0799218aba54d4e5ac4b26", null ],
@@ -83,7 +83,7 @@ var pci_8hpp =
     [ "SerialBusControllerSubclassName", "d9/dd5/pci_8hpp.html#a5be72c0739b02fc38678124f2f5b0748", null ],
     [ "WirelessControllerSubclassName", "d9/dd5/pci_8hpp.html#a3cbb46aaf63c529bb59db2e4f328d606", null ],
     [ "__attribute__", "d9/dd5/pci_8hpp.html#a88266a40493cb3a3b3f3fcf955f6cd4a", null ],
-    [ "BaseAddress", "d9/dd5/pci_8hpp.html#a96bae577869f08d6f4fae81a64a58d3d", null ],
+    [ "BaseAddress", "d9/dd5/pci_8hpp.html#a20e74cd6f1bbdbbacde53be2a3b1e8c6", null ],
     [ "DeviceClasses", "d9/dd5/pci_8hpp.html#a98398363e470d42d292fc43e72c22dae", null ],
     [ "EndBus", "d9/dd5/pci_8hpp.html#ac9e0e5fdbd882a337e9de57eb5f9fa77", null ],
     [ "PCISegGroup", "d9/dd5/pci_8hpp.html#a938a35e981c64acd8bd37f27a64f434b", null ],

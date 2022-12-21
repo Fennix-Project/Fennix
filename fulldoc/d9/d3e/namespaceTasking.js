@@ -8,8 +8,8 @@ var namespaceTasking =
     [ "Task", "dc/dc5/classTasking_1_1Task.html", "dc/dc5/classTasking_1_1Task" ],
     [ "TokenData", "d9/d3e/namespaceTasking.html#da/dca/structTasking_1_1TokenData", "d9/d3e/namespaceTasking_da/dca/structTasking_1_1TokenData_dup" ],
     [ "IP", "d9/d3e/namespaceTasking.html#a1d6c5ad87e3a04eb27f6958a4d7890d9", null ],
-    [ "IPOffset", "d9/d3e/namespaceTasking.html#ab0bbf66a90216a502407b8e42f979338", null ],
-    [ "Token", "d9/d3e/namespaceTasking.html#a6b1a832cb357dc05936d49b554a153aa", null ],
+    [ "IPOffset", "d9/d3e/namespaceTasking.html#ac029c43062671dceeb247d3b4c88de75", null ],
+    [ "Token", "d9/d3e/namespaceTasking.html#ac13006a48c82b3f644498a8423a0ff24", null ],
     [ "UPID", "d9/d3e/namespaceTasking.html#a04e2f481f6f63a104eee16ed8e34d0c0", null ],
     [ "UTID", "d9/d3e/namespaceTasking.html#af5a2dfa2e9c69bcc3e82a0d7dc7a939e", null ],
     [ "TaskArchitecture", "d9/d3e/namespaceTasking.html#a96e537039eec201fc357dae47c819302", [
