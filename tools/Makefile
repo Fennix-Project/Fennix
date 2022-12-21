@@ -4,7 +4,7 @@ export PATH := $(CROSS_DIR):$(PATH)
 
 QEMU_VERSION = qemu-7.1.0
 
-all: do_rep do_ep do_fex do_limine clone_all do_binutils64 do_binutils32 do_binutilsarm64 do_gcc64 do_gcc32 do_gccarm64 do_toolchain_binutils64 do_toolchain_gcc64 do_qemu
+all: do_rep do_ep do_fex do_limine clone_all do_binutils64 do_binutils32 do_binutilsarm64 do_gcc64 do_gcc32 do_gccarm64 do_toolchain_binutils64 do_toolchain_gcc64 do_toolchain_binutils32 do_toolchain_gcc32 do_qemu
 
 clean:
 	rm -f rep ep fex
@@ -39,8 +39,10 @@ clone_all:
 	mkdir -p build-gccamd64
 	mkdir -p build-gcci686
 	mkdir -p build-gccarm64
-	mkdir -p build-toolchain-binutils
-	mkdir -p build-toolchain-gcc
+	mkdir -p build-toolchain-binutils64
+	mkdir -p build-toolchain-gcc64
+	mkdir -p build-toolchain-binutils32
+	mkdir -p build-toolchain-gcc32
 
 do_qemu:
 	cd qemu && \
@@ -82,15 +84,27 @@ do_binutils64:
 	../binutils-gdb/configure --target=amd64-elf --prefix="$(CROSS_DIR)" --with-sysroot --enable-shared --disable-werror && \
 	make all -j$(shell nproc) && make install
 
-
 do_toolchain_binutils64:
-	cd build-toolchain-binutils && \
+	cd build-toolchain-binutils64 && \
 	../binutils-gdb/configure --target=x86_64-fennix --prefix="$(CROSS_DIR)/toolchain" --with-sysroot --enable-shared --disable-werror && \
 	make all -j$(shell nproc) && make install
 
 do_toolchain_gcc64:
-	cd build-toolchain-gcc && \
+	cd build-toolchain-gcc64 && \
 	../gcc/configure --target=x86_64-fennix --prefix="$(CROSS_DIR)/toolchain" --enable-languages=c,c++ --enable-shared --without-headers && \
+	make all-gcc -j$(shell nproc) && \
+	make all-target-libgcc -j$(shell nproc) && \
+	make install-gcc -j$(shell nproc) && \
+	make install-target-libgcc  -j$(shell nproc)
+
+do_toolchain_binutils32:
+	cd build-toolchain-binutils32 && \
+	../binutils-gdb/configure --target=i686-fennix --prefix="$(CROSS_DIR)/toolchain" --with-sysroot --enable-shared --disable-werror && \
+	make all -j$(shell nproc) && make install
+
+do_toolchain_gcc32:
+	cd build-toolchain-gcc32 && \
+	../gcc/configure --target=i686-fennix --prefix="$(CROSS_DIR)/toolchain" --enable-languages=c,c++ --enable-shared --without-headers && \
 	make all-gcc -j$(shell nproc) && \
 	make all-target-libgcc -j$(shell nproc) && \
 	make install-gcc -j$(shell nproc) && \
