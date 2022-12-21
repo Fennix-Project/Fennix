@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#df/dc9/structCPU_1_1x64_1_1Intel_1_1CPUID0xA_8EAX_8____unnamed568____":[7,0,0,4,8,397],
+"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#df/ddb/structCPU_1_1x64_1_1Intel_1_1CPUID0x3":[7,0,0,4,8,54],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#df/dfc/structCPU_1_1x64_1_1Intel_1_1CPUID0x80000006_8EBX_8____unnamed678____":[7,0,0,4,8,471],
 "d7/d85/CrashDetails_8cpp.html":[7,0,0,1,0,2],
 "d7/d85/CrashDetails_8cpp.html#a06cd0d488b906a4b78dbbf0a37e06372":[7,0,0,1,0,2,2],
@@ -155,8 +157,8 @@ var NAVTREEINDEX19 =
 "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b":[7,0,1,1,0,3,17,1],
 "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6":[7,0,0,5,4,11,8],
 "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6":[7,0,1,1,0,3,17,8],
-"d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5":[7,0,1,1,0,3,17,5],
 "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5":[7,0,0,5,4,11,5],
+"d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5":[7,0,1,1,0,3,17,5],
 "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586":[7,0,0,5,4,11,4],
 "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586":[7,0,1,1,0,3,17,4],
 "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a333d4d92c55d23e69b5c447d90795b8f":[7,0,0,5,4,29],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "d8/d12/Xalloc_8hpp.html#abf34e8e9a362a83d166d7b7981633459":[7,0,0,1,3,0,1,17],
 "d8/d12/Xalloc_8hpp.html#acb388cdb96fcfdac81a08f7ae8f8da84":[7,0,0,1,3,0,1,19],
 "d8/d12/Xalloc_8hpp.html#accac78951b25cf2f2bbe1fb24d63ecf6":[7,0,0,1,3,0,1,8],
-"d8/d12/Xalloc_8hpp.html#ad200826fda78b4a30dc78d888c3e45c4":[7,0,0,1,3,0,1,7],
-"d8/d12/Xalloc_8hpp.html#ad5bc00f3658a3e370835cd5a74106111":[7,0,0,1,3,0,1,16],
-"d8/d12/Xalloc_8hpp.html#ade3e04c96dd45ce3883d49b47135c0ce":[7,0,0,1,3,0,1,22]
+"d8/d12/Xalloc_8hpp.html#ad200826fda78b4a30dc78d888c3e45c4":[7,0,0,1,3,0,1,7]
 };

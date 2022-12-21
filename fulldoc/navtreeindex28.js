@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#de/dc2/unionCPU_1_1x64_1_1AMD_1_1CPUID0x0_8ECX":[7,0,0,4,8,496],
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#de/de5/unionCPU_1_1x64_1_1AMD_1_1CPUID0x40000000_8EAX":[7,0,0,4,8,516],
 "d9/da9/namespaceCPU_1_1x64_1_1AMD.html#df/d0b/unionCPU_1_1x64_1_1AMD_1_1CPUID0x80000007_8EAX":[7,0,0,4,8,572],
 "d9/da9/namespaceCPU_1_1x64_1_1AMD.html#df/d45/structCPU_1_1x64_1_1AMD_1_1CPUID0x80000003_8ECX_8____unnamed788____":[7,0,0,4,8,545],
 "d9/da9/namespaceCPU_1_1x64_1_1AMD.html#df/d52/unionCPU_1_1x64_1_1AMD_1_1CPUID0x40000000_8EBX":[7,0,0,4,8,518],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "da/d5f/namespaceSMBIOS.html#ae3382ba080dc48b747f06b169360434a":[5,0,19,21],
 "da/d5f/namespaceSMBIOS.html#afea14b109675868b6b1d7d5896a6b5e1":[5,0,19,13],
 "da/d5f/namespaceSMBIOS.html#afed42e99a7695b840602de178a914721":[7,0,0,1,13,1,9],
-"da/d5f/namespaceSMBIOS.html#da/dc0/structSMBIOS_1_1SMBIOSHeader":[7,0,0,1,13,0],
-"da/d5f/namespaceSMBIOS.html#df/d4e/structSMBIOS_1_1SMBIOSEntryPoint":[7,0,0,1,13,1],
-"da/d66/string_8h.html":[7,0,2,1,0,8]
+"da/d5f/namespaceSMBIOS.html#da/dc0/structSMBIOS_1_1SMBIOSHeader":[7,0,0,1,13,0]
 };

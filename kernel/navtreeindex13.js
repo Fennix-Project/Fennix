@@ -1,8 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"d5/dba/multiboot2_8h.html#ad31ac6e523f0a7d800c430ba4e5c40dc":[6,0,0,4,0,0,0,22,1],
-"d5/dba/multiboot2_8h.html#ad5e7a09f39f1f37e50be39000af2af4e":[6,0,0,4,0,0,0,88],
-"d5/dba/multiboot2_8h.html#adb4920b7a10225b82879621b02373e9b":[6,0,0,4,0,0,0,2,0],
 "d5/dba/multiboot2_8h.html#adeb3729b31ae312fd6848ec7d4d803cd":[6,0,0,4,0,0,0,5,2],
 "d5/dba/multiboot2_8h.html#adfcdecf04630d77ee5e41006f47dc4d7":[6,0,0,4,0,0,0,36,2],
 "d5/dba/multiboot2_8h.html#ae0a4f42952619e0807cbb5debbf6e5af":[6,0,0,4,0,0,0,13,1],
@@ -249,5 +246,8 @@ var NAVTREEINDEX13 =
 "d6/de2/namespaceVideo.html#a8377fc3bf0d2fdf5ecc59936a96e3aa3":[6,0,0,4,13,1,1],
 "d6/de2/namespaceVideo.html#a84f5983df6576f841a2ba510eef2f28c":[6,0,0,4,13,0,0],
 "d6/de2/namespaceVideo.html#a9db860f01297ccd87f68bc21c3332db0":[6,0,0,4,13,2,0],
-"d6/de2/namespaceVideo.html#a9eff0424ed9aac0bd5be241aafa1f667":[6,0,0,4,13,4,0]
+"d6/de2/namespaceVideo.html#a9eff0424ed9aac0bd5be241aafa1f667":[6,0,0,4,13,4,0],
+"d6/de2/namespaceVideo.html#ab074b2c15c3182b218060089c36fbeb6":[6,0,0,4,13,1,4],
+"d6/de2/namespaceVideo.html#ab080fce1e72677ea3d7657521f08b1c7":[6,0,0,4,13,3,0],
+"d6/de2/namespaceVideo.html#ab65d2a66ee7342ccae43f718725cca3c":[6,0,0,4,13,2,1]
 };

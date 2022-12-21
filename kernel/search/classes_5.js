@@ -7,7 +7,7 @@ var searchData=
   ['double_5fwith_5fbit_5faccess_5631',['double_with_bit_access',['../d1/d3d/printf_8c.html#d6/da2/uniondouble__with__bit__access',1,'']]],
   ['dr7_5632',['DR7',['../de/d78/namespaceCPU_1_1x32.html#dd/db5/unionCPU_1_1x32_1_1DR7',1,'CPU::x32::DR7'],['../d9/d25/namespaceCPU_1_1x64.html#d5/dca/unionCPU_1_1x64_1_1DR7',1,'CPU::x64::DR7']]],
   ['dr7_2e_5f_5funnamed474_5f_5f_5633',['DR7.__unnamed474__',['../d9/d25/namespaceCPU_1_1x64.html#dc/df9/structCPU_1_1x64_1_1DR7_8____unnamed474____',1,'CPU::x64']]],
-  ['dr7_2e_5f_5funnamed93_5f_5f_5634',['DR7.__unnamed93__',['../de/d78/namespaceCPU_1_1x32.html#de/d37/structCPU_1_1x32_1_1DR7_8____unnamed93____',1,'CPU::x32']]],
+  ['dr7_2e_5f_5funnamed94_5f_5f_5634',['DR7.__unnamed94__',['../de/d78/namespaceCPU_1_1x32.html#dd/d1a/structCPU_1_1x32_1_1DR7_8____unnamed94____',1,'CPU::x32']]],
   ['drive_5635',['Drive',['../de/d49/classDisk_1_1Drive.html',1,'Disk']]],
   ['driver_5636',['Driver',['../d3/d7d/classDriver_1_1Driver.html',1,'Driver::Driver'],['../da/d05/classFileSystem_1_1Driver.html',1,'FileSystem::Driver']]],
   ['driverbind_2edriver_2ebind_5637',['DriverBind.Driver.Bind',['../d0/da5/Fex_8hpp.html#d4/dfa/structFexExtended_1_1DriverBind_8Driver_8Bind',1,'']]],

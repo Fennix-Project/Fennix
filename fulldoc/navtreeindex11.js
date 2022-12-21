@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"d3/dbd/cyg_8cpp.html#aa3d2c0758a70c3bb49a3d73a14a94d0a":[7,0,0,6,0,4],
+"d3/dbd/cyg_8cpp.html#af0a37d8e25c92719d67a2ec4a281fd1d":[7,0,0,6,0,1],
 "d3/dbd/cyg_8cpp_source.html":[7,0,0,6,0],
 "d3/dc3/namespaceInterrupts.html":[5,0,12],
 "d3/dc3/namespaceInterrupts.html#a1f0ee2cbdae01f701d9a83efe503efc3":[5,0,12,5],
@@ -189,13 +191,13 @@ var NAVTREEINDEX11 =
 "d3/dfe/DAPI_8hpp.html#a85836edbd43c944d6deae284231ed228":[7,0,0,11,49],
 "d3/dfe/DAPI_8hpp.html#a8a7ff5307b67f86c5c1da8614b35bce0":[7,0,0,11,0,4,1],
 "d3/dfe/DAPI_8hpp.html#a8a7ff5307b67f86c5c1da8614b35bce0":[7,0,0,11,2,1],
-"d3/dfe/DAPI_8hpp.html#a92b09c7c48c520c3c55e497875da437c":[7,0,0,11,26,2],
 "d3/dfe/DAPI_8hpp.html#a92b09c7c48c520c3c55e497875da437c":[7,0,0,11,31,2],
+"d3/dfe/DAPI_8hpp.html#a92b09c7c48c520c3c55e497875da437c":[7,0,0,11,26,2],
 "d3/dfe/DAPI_8hpp.html#a92d49ca2a0571c2af24c6dc12bab8386":[7,0,0,11,8,0],
-"d3/dfe/DAPI_8hpp.html#a945d5e233cf7d6240f6b783b36a374ff":[7,0,0,11,31,0],
 "d3/dfe/DAPI_8hpp.html#a945d5e233cf7d6240f6b783b36a374ff":[7,0,0,11,26,0],
-"d3/dfe/DAPI_8hpp.html#a94d639e753d2bd5680fa1be33c9cfb92":[7,0,0,11,1,1],
+"d3/dfe/DAPI_8hpp.html#a945d5e233cf7d6240f6b783b36a374ff":[7,0,0,11,31,0],
 "d3/dfe/DAPI_8hpp.html#a94d639e753d2bd5680fa1be33c9cfb92":[7,0,0,11,0,8,1],
+"d3/dfe/DAPI_8hpp.html#a94d639e753d2bd5680fa1be33c9cfb92":[7,0,0,11,1,1],
 "d3/dfe/DAPI_8hpp.html#a970e1d8acd4ccd90aed381058462763c":[7,0,0,11,0,14],
 "d3/dfe/DAPI_8hpp.html#a99eaaac077a124b22912f84f56c6917a":[7,0,0,11,13,3],
 "d3/dfe/DAPI_8hpp.html#a9b9158dbbfcb8f20c10a85ee33a1bab6":[7,0,0,11,0,4,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "d3/dfe/DAPI_8hpp.html#d6/d53/structKernelAPI_1_1KAPIInfo":[7,0,0,11,0,4],
 "d3/dfe/DAPI_8hpp.html#d6/d53/structKernelAPI_1_1KAPIInfo":[7,0,0,11,2],
 "d3/dfe/DAPI_8hpp.html#d6/d76/structKAPIVersion":[7,0,0,11,7],
-"d3/dfe/DAPI_8hpp.html#d7/d61/structKernelAPI":[7,0,0,11,0],
-"d3/dfe/DAPI_8hpp.html#d7/d75/structKernelCallback_8DiskCallback_8RW":[7,0,0,11,22],
-"d3/dfe/DAPI_8hpp.html#d7/d79/structKernelCallback_8InputCallback_8Mouse_8Buttons":[7,0,0,11,26]
+"d3/dfe/DAPI_8hpp.html#d7/d61/structKernelAPI":[7,0,0,11,0]
 };

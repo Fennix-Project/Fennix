@@ -1,8 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"dd/dc9/classACPI_1_1DSDT.html#a8c914d7d30b9863719544e00c132dc01":[5,0,0,2,3],
-"dd/dc9/classACPI_1_1DSDT.html#a92ce141c818d3b2a5ca47a05607296d8":[5,0,0,2,9],
-"dd/dc9/classACPI_1_1DSDT.html#aa588b75a04a05bdbde6d1cb9e1edceb6":[5,0,0,2,6],
 "dd/dc9/classACPI_1_1DSDT.html#ab2af55e6642a559adaae02f4e485cc0b":[5,0,0,2,4],
 "dd/dc9/classACPI_1_1DSDT.html#ac50f4bc674ec3037fef21c09619067a7":[5,0,0,2,2],
 "dd/dc9/classACPI_1_1DSDT.html#ac592d297a73c605ec31761db074c1f68":[5,0,0,2,7],
@@ -97,6 +94,7 @@ var NAVTREEINDEX34 =
 "de/d63/msexec_8h.html#a2a560edc5a5be2d27081e6f95046286e":[6,0,0,4,28,3,4],
 "de/d63/msexec_8h.html#a2b8ad9cfee33e28a9890ced88d3f60b8":[6,0,0,4,28,0,10],
 "de/d63/msexec_8h.html#a2da1f23e28aee59af8c25affab204ae9":[6,0,0,4,28,20],
+"de/d63/msexec_8h.html#a30c14e3abd5096bbbd25d09f22bc80a7":[6,0,0,4,28,2,1],
 "de/d63/msexec_8h.html#a32e4a11234a01639b337cf4772569562":[6,0,0,4,28,38],
 "de/d63/msexec_8h.html#a359633b6295214c9bdf83e28f565cd5c":[6,0,0,4,28,11],
 "de/d63/msexec_8h.html#a36cb3b01d81ffd844bbbfb54003e06ec":[6,0,0,4,28,97],
@@ -191,7 +189,6 @@ var NAVTREEINDEX34 =
 "de/d63/msexec_8h.html#aa49f49ba5d0d1d898d23f50ad72916ea":[6,0,0,4,28,0,0],
 "de/d63/msexec_8h.html#aa6d2ef21f2f1fdc1929c0063153cc460":[6,0,0,4,28,22],
 "de/d63/msexec_8h.html#aa87af686d8dc7a32af5c2634e450b7e6":[6,0,0,4,28,25],
-"de/d63/msexec_8h.html#aab48b677329c6e5da362b5958e6a4cb3":[6,0,0,4,28,2,1],
 "de/d63/msexec_8h.html#aac99e7e2d1394af1d48b0608ee806f6c":[6,0,0,4,28,98],
 "de/d63/msexec_8h.html#aad61bc3eae1804d8784adebdce0721d3":[6,0,0,4,28,100],
 "de/d63/msexec_8h.html#ab030097a5a932fc7ab68d1e4199d11a3":[6,0,0,4,28,0,2],
@@ -249,5 +246,8 @@ var NAVTREEINDEX34 =
 "de/d63/msexec_8h.html#af3700b629e7029fe345aeef4d6188833":[6,0,0,4,28,5,24],
 "de/d63/msexec_8h.html#af57cff24e11a2d4dd7d22267babcc5cd":[6,0,0,4,28,90],
 "de/d63/msexec_8h.html#af614b4e1e56b5a882117d4882c06d560":[6,0,0,4,28,1,19],
-"de/d63/msexec_8h.html#af78dbf52ad328969150454ffda33050a":[6,0,0,4,28,0,3]
+"de/d63/msexec_8h.html#af78dbf52ad328969150454ffda33050a":[6,0,0,4,28,0,3],
+"de/d63/msexec_8h.html#af790ae3741bdcfba8d3594a0e2ef87ea":[6,0,0,4,28,87],
+"de/d63/msexec_8h.html#af7c969301042e0fcb04748a262170092":[6,0,0,4,28,44],
+"de/d63/msexec_8h.html#af8b504ec9b782e4344952d8518c69f4d":[6,0,0,4,28,76]
 };

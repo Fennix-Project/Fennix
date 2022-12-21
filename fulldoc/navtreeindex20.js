@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"d8/d12/Xalloc_8hpp.html#ad5bc00f3658a3e370835cd5a74106111":[7,0,0,1,3,0,1,16],
+"d8/d12/Xalloc_8hpp.html#ade3e04c96dd45ce3883d49b47135c0ce":[7,0,0,1,3,0,1,22],
 "d8/d12/Xalloc_8hpp.html#ae59fe9d3db65a6eee7cbd9817a679012":[7,0,0,1,3,0,1,5],
 "d8/d12/Xalloc_8hpp.html#afe9e55cb1e41abf476ebadeb849ea157":[7,0,0,1,3,0,1,14],
 "d8/d12/Xalloc_8hpp_source.html":[7,0,0,1,3,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "d8/dc0/init_8h.html#a24331f2f195e3c05c56a35b577cc5911":[7,0,2,2,0,0,2],
 "d8/dc0/init_8h.html#a662d47a53790178e33c32a2a67b0fcaf":[7,0,2,2,0,0,0],
 "d8/dc0/init_8h.html#a7dee76c35e14abde31ffc730f96a32e5":[7,0,2,2,0,0,4],
-"d8/dc0/init_8h.html#a7fae476f5d05752f61d9207fe3570685":[7,0,2,2,0,0,1],
-"d8/dc0/init_8h.html#a9209eebc60f22e1b1343fbe426d92f9a":[7,0,2,2,0,0,6],
-"d8/dc0/init_8h.html#a95eba05623b12f2e16a7d1637aabb925":[7,0,2,2,0,0,5]
+"d8/dc0/init_8h.html#a7fae476f5d05752f61d9207fe3570685":[7,0,2,2,0,0,1]
 };

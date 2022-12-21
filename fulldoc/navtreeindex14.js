@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"d5/dba/multiboot2_8h.html#ad173069cc56a0b2734d796577a1bd857":[7,0,0,4,0,0,0,86],
+"d5/dba/multiboot2_8h.html#ad1934718be49dee844673635489f7295":[7,0,0,4,0,0,0,2,3],
 "d5/dba/multiboot2_8h.html#ad31ac6e523f0a7d800c430ba4e5c40dc":[7,0,0,4,0,0,0,22,1],
 "d5/dba/multiboot2_8h.html#ad5e7a09f39f1f37e50be39000af2af4e":[7,0,0,4,0,0,0,88],
 "d5/dba/multiboot2_8h.html#adb4920b7a10225b82879621b02373e9b":[7,0,0,4,0,0,0,2,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "d6/db8/Lynx_2Makefile.html":[7,0,1,2],
 "d6/db8/Lynx_2Makefile_source.html":[7,0,1,2],
 "d6/dc0/KBDrv_8cpp.html":[7,0,0,1,0,4],
-"d6/dc0/KBDrv_8cpp.html#a17275878cd2de20a18390b72d3193707":[7,0,0,1,0,4,2],
-"d6/dc0/KBDrv_8cpp.html#a1e244bc3fc8b088079546ac9407a1479":[7,0,0,1,0,4,3],
-"d6/dc0/KBDrv_8cpp.html#a29757af72ff3074e4f11e0be67431b88":[7,0,0,1,0,4,8]
+"d6/dc0/KBDrv_8cpp.html#a17275878cd2de20a18390b72d3193707":[7,0,0,1,0,4,2]
 };

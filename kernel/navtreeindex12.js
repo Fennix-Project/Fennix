@@ -1,8 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ac1287373b12bc3148c1118629d0af65a":[5,0,20,0,3],
-"d5/d8f/smbios_8hpp.html":[6,0,0,1,13],
-"d5/d8f/smbios_8hpp.html#a0ccad5c9ebf41beebd6a842f30239096":[6,0,0,1,13,20],
 "d5/d8f/smbios_8hpp.html#a214579dc4ded5382f8c7fe9744258a66":[6,0,0,1,13,12],
 "d5/d8f/smbios_8hpp.html#a2d28755c4392487cb470db704827389f":[6,0,0,1,13,11],
 "d5/d8f/smbios_8hpp.html#a3905de8812eb0d6ce7fd1b7054ac5056":[6,0,0,1,13,16],
@@ -249,5 +246,8 @@ var NAVTREEINDEX12 =
 "d5/dba/multiboot2_8h.html#ad01989e09be1cdbb4db9c99058c49560":[6,0,0,4,0,0,0,79],
 "d5/dba/multiboot2_8h.html#ad0da28f2ea98e9c8f35a22c6a571f4a2":[6,0,0,4,0,0,0,26,4],
 "d5/dba/multiboot2_8h.html#ad173069cc56a0b2734d796577a1bd857":[6,0,0,4,0,0,0,86],
-"d5/dba/multiboot2_8h.html#ad1934718be49dee844673635489f7295":[6,0,0,4,0,0,0,2,3]
+"d5/dba/multiboot2_8h.html#ad1934718be49dee844673635489f7295":[6,0,0,4,0,0,0,2,3],
+"d5/dba/multiboot2_8h.html#ad31ac6e523f0a7d800c430ba4e5c40dc":[6,0,0,4,0,0,0,22,1],
+"d5/dba/multiboot2_8h.html#ad5e7a09f39f1f37e50be39000af2af4e":[6,0,0,4,0,0,0,88],
+"d5/dba/multiboot2_8h.html#adb4920b7a10225b82879621b02373e9b":[6,0,0,4,0,0,0,2,0]
 };

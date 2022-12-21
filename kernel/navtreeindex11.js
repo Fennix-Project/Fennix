@@ -1,8 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"d3/dfe/DAPI_8hpp.html#d4/d00/structKernelCallback_8InputCallback":[6,0,0,11,24],
-"d3/dfe/DAPI_8hpp.html#d4/d04/struct_8Fetch":[6,0,0,11,29],
-"d3/dfe/DAPI_8hpp.html#d4/d1f/struct_8RW":[6,0,0,11,28],
 "d3/dfe/DAPI_8hpp.html#d6/d53/structKernelAPI_1_1KAPIInfo":[6,0,0,11,0,4],
 "d3/dfe/DAPI_8hpp.html#d6/d53/structKernelAPI_1_1KAPIInfo":[6,0,0,11,2],
 "d3/dfe/DAPI_8hpp.html#d6/d76/structKAPIVersion":[6,0,0,11,7],
@@ -16,8 +13,8 @@ var NAVTREEINDEX11 =
 "d3/dfe/DAPI_8hpp.html#db/d13/struct_8Mouse":[6,0,0,11,30],
 "d3/dfe/DAPI_8hpp.html#dc/d0c/structKernelCallback_8DiskCallback":[6,0,0,11,21],
 "d3/dfe/DAPI_8hpp.html#dc/db4/structKernelCallback_8InputCallback_8Mouse":[6,0,0,11,25],
-"d3/dfe/DAPI_8hpp.html#de/d91/structKernelAPI_1_1KAPIVersion":[6,0,0,11,1],
 "d3/dfe/DAPI_8hpp.html#de/d91/structKernelAPI_1_1KAPIVersion":[6,0,0,11,0,8],
+"d3/dfe/DAPI_8hpp.html#de/d91/structKernelAPI_1_1KAPIVersion":[6,0,0,11,1],
 "d3/dfe/DAPI_8hpp.html#df/d2e/structKernelAPI_1_1KAPIDriverTalk_8Disk":[6,0,0,11,0,1],
 "d3/dfe/DAPI_8hpp.html#df/d2e/structKernelAPI_1_1KAPIDriverTalk_8Disk":[6,0,0,11,15],
 "d3/dfe/DAPI_8hpp.html#df/d3a/structKernelCallback_8InterruptInfo":[6,0,0,11,27],
@@ -249,5 +246,8 @@ var NAVTREEINDEX11 =
 "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a19314a456511b3b17f32e883abd9f6ca":[5,0,20,0,1],
 "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a3310742dc2fed171121f438bbbc546c7":[5,0,20,0,2],
 "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a5a76bf6268185109084315037ed52a55":[5,0,20,0,0],
-"d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144":[5,0,20,0,4]
+"d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144":[5,0,20,0,4],
+"d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ac1287373b12bc3148c1118629d0af65a":[5,0,20,0,3],
+"d5/d8f/smbios_8hpp.html":[6,0,0,1,13],
+"d5/d8f/smbios_8hpp.html#a0ccad5c9ebf41beebd6a842f30239096":[6,0,0,1,13,20]
 };

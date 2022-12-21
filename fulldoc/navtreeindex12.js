@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d3/dfe/DAPI_8hpp.html#d7/d75/structKernelCallback_8DiskCallback_8RW":[7,0,0,11,22],
+"d3/dfe/DAPI_8hpp.html#d7/d79/structKernelCallback_8InputCallback_8Mouse_8Buttons":[7,0,0,11,26],
 "d3/dfe/DAPI_8hpp.html#d7/d94/structKAPIInfo":[7,0,0,11,8],
 "d3/dfe/DAPI_8hpp.html#d7/dcc/structKAPIDriverTalk_8Disk":[7,0,0,11,18],
 "d3/dfe/DAPI_8hpp.html#d9/d82/structKernelCallback":[7,0,0,11,13],
@@ -9,8 +11,8 @@ var NAVTREEINDEX12 =
 "d3/dfe/DAPI_8hpp.html#dc/db4/structKernelCallback_8InputCallback_8Mouse":[7,0,0,11,25],
 "d3/dfe/DAPI_8hpp.html#de/d91/structKernelAPI_1_1KAPIVersion":[7,0,0,11,0,8],
 "d3/dfe/DAPI_8hpp.html#de/d91/structKernelAPI_1_1KAPIVersion":[7,0,0,11,1],
-"d3/dfe/DAPI_8hpp.html#df/d2e/structKernelAPI_1_1KAPIDriverTalk_8Disk":[7,0,0,11,15],
 "d3/dfe/DAPI_8hpp.html#df/d2e/structKernelAPI_1_1KAPIDriverTalk_8Disk":[7,0,0,11,0,1],
+"d3/dfe/DAPI_8hpp.html#df/d2e/structKernelAPI_1_1KAPIDriverTalk_8Disk":[7,0,0,11,15],
 "d3/dfe/DAPI_8hpp.html#df/d3a/structKernelCallback_8InterruptInfo":[7,0,0,11,27],
 "d3/dfe/DAPI_8hpp.html#df/d77/structKAPIDriverTalk":[7,0,0,11,12],
 "d3/dfe/DAPI_8hpp_source.html":[7,0,0,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "d5/d6c/atomic_8hpp_source.html":[7,0,0,4,4],
 "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html":[6,0,20,0],
 "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a19314a456511b3b17f32e883abd9f6ca":[6,0,20,0,1],
-"d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a3310742dc2fed171121f438bbbc546c7":[6,0,20,0,2],
-"d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a5a76bf6268185109084315037ed52a55":[6,0,20,0,0],
-"d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144":[6,0,20,0,4]
+"d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a3310742dc2fed171121f438bbbc546c7":[6,0,20,0,2]
 };

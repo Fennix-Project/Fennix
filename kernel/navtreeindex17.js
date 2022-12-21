@@ -1,8 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d7/d90/unionCPU_1_1x64_1_1Intel_1_1CPUID0x80000008_8EBX":[6,0,0,4,8,478],
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d7/d9b/unionCPU_1_1x64_1_1Intel_1_1CPUID0x80000006_8ECX":[6,0,0,4,8,472],
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d7/dae/structCPU_1_1x64_1_1Intel_1_1CPUID0x2_8EBX_8____unnamed510____":[6,0,0,4,8,359],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d7/dcd/structCPU_1_1x64_1_1Intel_1_1CPUID0x16_8EAX_8____unnamed592____":[6,0,0,4,8,413],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d7/df4/unionCPU_1_1x64_1_1Intel_1_1CPUID0x5_8EBX":[6,0,0,4,8,382],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d8/d0e/unionCPU_1_1x64_1_1Intel_1_1CPUID0x5_8EDX":[6,0,0,4,8,386],
@@ -249,5 +246,8 @@ var NAVTREEINDEX17 =
 "d8/d12/Xalloc_8hpp.html":[6,0,0,1,3,0,1],
 "d8/d12/Xalloc_8hpp.html#a06b7e658eca1655ed3a8d65096698b0f":[6,0,0,1,3,0,1,12],
 "d8/d12/Xalloc_8hpp.html#a1916f49f72d19e43369ceabe8d5b41f0":[6,0,0,1,3,0,1,10],
-"d8/d12/Xalloc_8hpp.html#a23119a4470c724b273abe91ae9a71c99":[6,0,0,1,3,0,1,15]
+"d8/d12/Xalloc_8hpp.html#a23119a4470c724b273abe91ae9a71c99":[6,0,0,1,3,0,1,15],
+"d8/d12/Xalloc_8hpp.html#a2d5f903403ec4e6d9aa60e09c28d9ed1":[6,0,0,1,3,0,1,2],
+"d8/d12/Xalloc_8hpp.html#a2e33a2b8093009ed89b4fd620e265f0a":[6,0,0,1,3,0,1,21],
+"d8/d12/Xalloc_8hpp.html#a3d813a0c048654dad36779174d5b4597":[6,0,0,1,3,0,1,20]
 };
