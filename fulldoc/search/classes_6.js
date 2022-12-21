@@ -2,9 +2,9 @@ var searchData=
 [
   ['efer_5783',['EFER',['../de/d78/namespaceCPU_1_1x32.html#dc/dd3/unionCPU_1_1x32_1_1EFER',1,'CPU::x32::EFER'],['../d9/d25/namespaceCPU_1_1x64.html#dd/dfd/unionCPU_1_1x64_1_1EFER',1,'CPU::x64::EFER']]],
   ['efer_2e_5f_5funnamed470_5f_5f_5784',['EFER.__unnamed470__',['../d9/d25/namespaceCPU_1_1x64.html#d3/d8b/structCPU_1_1x64_1_1EFER_8____unnamed470____',1,'CPU::x64']]],
-  ['efer_2e_5f_5funnamed90_5f_5f_5785',['EFER.__unnamed90__',['../de/d78/namespaceCPU_1_1x32.html#de/db3/structCPU_1_1x32_1_1EFER_8____unnamed90____',1,'CPU::x32']]],
+  ['efer_2e_5f_5funnamed89_5f_5f_5785',['EFER.__unnamed89__',['../de/d78/namespaceCPU_1_1x32.html#d4/d16/structCPU_1_1x32_1_1EFER_8____unnamed89____',1,'CPU::x32']]],
   ['eflags_5786',['EFLAGS',['../de/d78/namespaceCPU_1_1x32.html#d1/d7c/unionCPU_1_1x32_1_1EFLAGS',1,'CPU::x32']]],
-  ['eflags_2e_5f_5funnamed78_5f_5f_5787',['EFLAGS.__unnamed78__',['../de/d78/namespaceCPU_1_1x32.html#d6/dc7/structCPU_1_1x32_1_1EFLAGS_8____unnamed78____',1,'CPU::x32']]],
+  ['eflags_2e_5f_5funnamed77_5f_5f_5787',['EFLAGS.__unnamed77__',['../de/d78/namespaceCPU_1_1x32.html#d1/d18/structCPU_1_1x32_1_1EFLAGS_8____unnamed77____',1,'CPU::x32']]],
   ['elf32_5fauxv_5ft_5788',['Elf32_auxv_t',['../df/d31/abi_8h.html#d2/d6b/structElf32__auxv__t',1,'']]],
   ['elf32_5fauxv_5ft_2ea_5fun_5789',['Elf32_auxv_t.a_un',['../df/d31/abi_8h.html#da/d9c/unionElf32__auxv__t_8a__un',1,'']]],
   ['elf32_5fdyn_5790',['Elf32_Dyn',['../d1/d9e/elf_8h.html#d8/d23/structElf32__Dyn',1,'']]],

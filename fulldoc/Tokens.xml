@@ -53580,7 +53580,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>adfb77792fd789021e2f49765c7a2a985</Anchor>
+    <Anchor>ac309bfcfb2b1fa63ad596b262a10c4e1</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -53591,7 +53591,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>aa9b3a87f0755f1c3641fa830d0d4f20a</Anchor>
+    <Anchor>ab330cdeaae21e216d7efeec0b0bb66e3</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -53633,7 +53633,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableFlags</Scope>
     </TokenIdentifier>
     <Path>dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html</Path>
-    <Anchor>ae8cf86c9101d3c154be8bbf0208afbe0</Anchor>
+    <Anchor>a0bdd297a8d6ca381fcac75f260da4204</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>

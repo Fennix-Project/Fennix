@@ -261,7 +261,7 @@ var searchData=
   ['spdbg_4376',['spdbg',['../d2/d34/smartptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da',1,'smartptr.hpp']]],
   ['speed_4377',['Speed',['../d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8',1,'SMBIOS::SMBIOSMemoryDevice']]],
   ['spinlockdata_4378',['SpinLockData',['../d1/d1f/classXalloc_1_1XLockClass.html#d3/d8a/structXalloc_1_1XLockClass_1_1SpinLockData',1,'Xalloc::XLockClass']]],
-  ['split_4379',['split',['../d3/d88/namespaceAPIC.html#aa69fdf035a3ced205d246125c7c26024',1,'APIC::__attribute__']]],
+  ['split_4379',['split',['../d3/d88/namespaceAPIC.html#a24a63741078d7c9d2f35bed3f279aed5',1,'APIC::__attribute__']]],
   ['split_4380',['Split',['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html#ad01d5902954c81bdda02de8e746817b0',1,'Xalloc::AllocatorV1::HeapSegment']]],
   ['split_4381',['split',['../d3/d88/namespaceAPIC.html#a698fee70dcb1f7ac5d6d1972b0270e75',1,'APIC::__attribute__']]],
   ['split_4382',['Split',['../d8/d12/Xalloc_8hpp.html#ab35af3575914faba3a6ae16f6ba0983c',1,'Xalloc.hpp']]],
