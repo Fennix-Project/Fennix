@@ -176,6 +176,8 @@ clean:
 	rm -f initrd/system/drivers/*.elf
 	rm -f initrd/system/*.fex
 	rm -f initrd/system/*.elf
+	rm -f initrd/system/*.so
+	rm -f initrd/system/*.a
 	rm -f initrd/system/lib/*.a
 	rm -f initrd/system/lib/*.so
 	rm -f initrd/system/lib/*.o
