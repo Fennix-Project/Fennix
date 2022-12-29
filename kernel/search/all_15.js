@@ -257,7 +257,7 @@ var searchData=
   ['speed_4275',['Speed',['../d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8',1,'SMBIOS::SMBIOSMemoryDevice']]],
   ['spinlockdata_4276',['SpinLockData',['../d1/d1f/classXalloc_1_1XLockClass.html#d3/d8a/structXalloc_1_1XLockClass_1_1SpinLockData',1,'Xalloc::XLockClass']]],
   ['split_4277',['Split',['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html#ad01d5902954c81bdda02de8e746817b0',1,'Xalloc::AllocatorV1::HeapSegment']]],
-  ['split_4278',['split',['../d3/d88/namespaceAPIC.html#a5799dfe2d7d6756685308cb9b57d4c4e',1,'APIC::__attribute__::split()'],['../d3/d88/namespaceAPIC.html#aab410ba1b9cb6d2ab6962e212a525c4e',1,'APIC::__attribute__::split()']]],
+  ['split_4278',['split',['../d3/d88/namespaceAPIC.html#a24a63741078d7c9d2f35bed3f279aed5',1,'APIC::__attribute__::split()'],['../d3/d88/namespaceAPIC.html#aab410ba1b9cb6d2ab6962e212a525c4e',1,'APIC::__attribute__::split()']]],
   ['split_4279',['Split',['../d8/d12/Xalloc_8hpp.html#ab35af3575914faba3a6ae16f6ba0983c',1,'Xalloc.hpp']]],
   ['sprintf_5f_4280',['sprintf_',['../d3/d6b/printf_8h.html#aa0320d28406c4c8399830583177fdc77',1,'sprintf_(char *s, const char *format,...) ATTR_PRINTF(2:&#160;printf.h'],['../d1/d3d/printf_8c.html#a4bb327658484df28415e76ce311e29dc',1,'sprintf_(char *s, const char *format,...):&#160;printf.c']]],
   ['srat_4281',['SRAT',['../d3/d21/classACPI_1_1ACPI.html#a95f9778436c7cf069f9336fb6f8d4f30',1,'ACPI::ACPI']]],
