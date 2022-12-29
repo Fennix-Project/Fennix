@@ -2,8 +2,8 @@ var Fex_8hpp =
 [
     [ "Fex", "d2/ddc/structFex.html", "d2/ddc/structFex" ],
     [ "FexExtended", "d0/da5/Fex_8hpp.html#d5/d3a/structFexExtended", [
-      [ "Driver", "d0/da5/Fex_8hpp.html#a8bfd222edf71c1a940b71ceb9b84e991", null ],
-      [ "Executable", "d0/da5/Fex_8hpp.html#a556486eb02a9637fd1db2ad39d95a5cb", null ]
+      [ "Driver", "d0/da5/Fex_8hpp.html#aa004f97f2b36611fc2650d5763dae515", null ],
+      [ "Executable", "d0/da5/Fex_8hpp.html#a208ba39cf8c36c683c0f98080826398f", null ]
     ] ],
     [ "FexExtended.Executable", "d0/da5/Fex_8hpp.html#d0/de5/structFexExtended_8Executable", null ],
     [ "FexExtended.Driver", "db/d74/structFexExtended_8Driver.html", "db/d74/structFexExtended_8Driver" ],

@@ -32,7 +32,7 @@ var searchData=
   ['displayprint_7414',['DisplayPrint',['../d2/d58/structKAPIUtilities.html#a65fcd69903d39703bc577d5f6038e513',1,'KAPIUtilities::DisplayPrint()'],['../d5/de3/structKernelAPI_1_1KAPIUtilities.html#aedbdf6a64020c125831d6e799f209488',1,'KernelAPI::KAPIUtilities::DisplayPrint()']]],
   ['dllcharacteristics_7415',['DllCharacteristics',['../de/d63/msexec_8h.html#a6037d120e40a891e9be7f44eb0688375',1,'_IMAGE_OPTIONAL_HEADER']]],
   ['dpl_7416',['DPL',['../d8/d5d/i686_2cpu_2gdt_8hpp.html#a16743ba7f585744088c2972c095b4ece',1,'DPL():&#160;gdt.hpp'],['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a16743ba7f585744088c2972c095b4ece',1,'DPL():&#160;gdt.hpp']]],
-  ['driver_7417',['Driver',['../d0/da5/Fex_8hpp.html#afe345628c5350345022eacdffe7500db',1,'Driver():&#160;Fex.hpp'],['../d0/da5/Fex_8hpp.html#a8bfd222edf71c1a940b71ceb9b84e991',1,'FexExtended::Driver()']]],
+  ['driver_7417',['Driver',['../d0/da5/Fex_8hpp.html#afe345628c5350345022eacdffe7500db',1,'Driver():&#160;Fex.hpp'],['../d0/da5/Fex_8hpp.html#aa004f97f2b36611fc2650d5763dae515',1,'FexExtended::Driver()']]],
   ['driverdirectory_7418',['DriverDirectory',['../d1/dfc/kconfig_8hpp.html#aebd44c79c9c4cc7ca1e22a18129cb5a4',1,'KernelConfig']]],
   ['drivermanager_7419',['DriverManager',['../d4/dfc/KThread_8cpp.html#ace4da8d4e1075769d48168995aba88f7',1,'KThread.cpp']]],
   ['drivers_7420',['Drivers',['../d3/d7d/classDriver_1_1Driver.html#a80cd1e89974bdaf5bfd033c24f84d948',1,'Driver::Driver']]],
