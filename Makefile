@@ -130,7 +130,7 @@ endif
 ifeq ($(BOOTLOADER), other)
 ifeq ($(OSARCH), amd64)
 	cp tools/limine.cfg $(LIMINE_FOLDER)/limine.sys $(LIMINE_FOLDER)/limine-cd.bin $(LIMINE_FOLDER)/limine-cd-efi.bin iso_tmp_data/
-	xorriso -as mkisofs -b limine-cd.bin \
+	xorriso -as mkisofs -quiet -b limine-cd.bin \
 		-no-emul-boot -boot-load-size 4 -boot-info-table \
 		--efi-boot limine-cd-efi.bin -V FENNIX \
 		-efi-boot-part --efi-boot-image --protective-msdos-label \
