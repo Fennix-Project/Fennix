@@ -84,7 +84,7 @@ var NAVTREEINDEX =
 "d2/d83/exec_8hpp.html#ad34702895af4c39542a1b5e0e75bbfbda6928c465385d0a26e049a88b34a524f4",
 "d3/d21/classACPI_1_1ACPI.html#a352766a4e830e0c9def432158697f05a",
 "d3/d6b/printf_8h.html#a37d423a6b4d321147399b63eea93bb29",
-"d3/d88/namespaceAPIC.html#a6583606f1b19f0bffccc88bd14e6884ca1960cbf7251000b4c0388a770efad178",
+"d3/d88/namespaceAPIC.html#a6583606f1b19f0bffccc88bd14e6884c",
 "d3/d88/namespaceAPIC.html#aa540889ec4157bb604e83087996a9980a9ac13efd975548179f0fe7d3e4d61833",
 "d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a96cf87ef245ea5f91707ab2288191118",
 "d5/d6a/Memory_2StackGuard_8cpp.html",
@@ -107,7 +107,7 @@ var NAVTREEINDEX =
 "db/d9e/Linux_8cpp.html#a2b86079084a587ca8a77bf636472f404",
 "db/d9e/Linux_8cpp.html#ae533f0f4376e24c64fd262977c653a25",
 "dc/dd9/chfcts_8hpp.html#a0ada92b8263d776ca3c779d2a0e031bca6774709ebcaae6d54acb41ad060fde35",
-"dd/d20/namespaceCPU_1_1x32_1_1Intel.html#a6e21d9cd5cb8b15cd0068f5c69b7ecb8",
+"dd/d20/namespaceCPU_1_1x32_1_1Intel.html#a6f0862d55fca52dbe032fa0b99e9c6b5",
 "dd/d20/namespaceCPU_1_1x32_1_1Intel.html#af17f6494fc0bdf5977c10ab5c402446d",
 "dd/dae/classInterrupts_1_1Handler.html#a27268e70db8896d229fbcafd4cafec31",
 "de/d63/msexec_8h.html#aea62db9a5aa43594223ebc00b4076001",
@@ -116,8 +116,8 @@ var NAVTREEINDEX =
 "df/dbe/cpu_8hpp.html#a36c9cec970957608ac98e64a0e7dbb50a9ffe81a9018edeca7f178e7b87de7889",
 "df/dbe/cpu_8hpp.html#a54d16e130528efcdb696a7571814f3bda64fad2d732b94f97eed2aa4fdefc127b",
 "df/dbe/cpu_8hpp.html#a7d271c564389d55144b8bff24b053ed8",
-"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#a6ee2fab2c810a09e1d7b3471d3370f10",
-"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#db/d0a/unionCPU_1_1x32_1_1AMD_1_1CPUID0x2_8EAX",
+"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#a6e92728cc0296a3e33a7404229e25fae",
+"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#da/d9e/structCPU_1_1x32_1_1AMD_1_1CPUID0x80000006_8EDX_8____unnamed442____",
 "globals_func.html"
 ];
 

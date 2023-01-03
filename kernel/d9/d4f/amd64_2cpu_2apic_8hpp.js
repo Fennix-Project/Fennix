@@ -2,7 +2,7 @@ var amd64_2cpu_2apic_8hpp =
 [
     [ "__attribute__", "d3/d88/namespaceAPIC.html#d3/d48/unionAPIC_1_1____attribute____", [
       [ "raw", "d3/d88/namespaceAPIC.html#a734561a828a4847ee2f190746c98d491", null ],
-      [ "split", "d3/d88/namespaceAPIC.html#aa69fdf035a3ced205d246125c7c26024", null ],
+      [ "split", "d3/d88/namespaceAPIC.html#a24a63741078d7c9d2f35bed3f279aed5", null ],
       [ "split", "d3/d88/namespaceAPIC.html#aab410ba1b9cb6d2ab6962e212a525c4e", null ]
     ] ],
     [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ],
@@ -36,11 +36,11 @@ var amd64_2cpu_2apic_8hpp =
       [ "TriggerMode", "d3/d88/namespaceAPIC.html#ada82ca0db6273f084f67411579799c40", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__attribute__.__unnamed8__", "d3/d88/namespaceAPIC.html#dd/da0/structAPIC_1_1____attribute_____8____unnamed8____", [
+    [ "__attribute__.__unnamed7__", "d3/d88/namespaceAPIC.html#d7/d20/structAPIC_1_1____attribute_____8____unnamed7____", [
       [ "Destination", "d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244", null ],
       [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ]
     ] ],
-    [ "__attribute__.__unnamed10__", "d3/d88/namespaceAPIC.html#d8/d80/structAPIC_1_1____attribute_____8____unnamed10____", [
+    [ "__attribute__.__unnamed9__", "d3/d88/namespaceAPIC.html#d9/dd9/structAPIC_1_1____attribute_____8____unnamed9____", [
       [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "DestinationID", "d3/d88/namespaceAPIC.html#a07e65844f6fd690118c864c2abbf0013", null ],
@@ -65,7 +65,7 @@ var amd64_2cpu_2apic_8hpp =
       [ "Software", "d3/d88/namespaceAPIC.html#a719d067b229178f03bcfa1da4ac4dede", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__attribute__.__unnamed14__", "d3/d88/namespaceAPIC.html#d4/df9/structAPIC_1_1____attribute_____8____unnamed14____", [
+    [ "__attribute__.__unnamed13__", "d3/d88/namespaceAPIC.html#d8/d24/structAPIC_1_1____attribute_____8____unnamed13____", [
       [ "MaximumRedirectionEntry", "d3/d88/namespaceAPIC.html#a528bff8b6bcc79dfa0a42073f5eec7e9", null ],
       [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
       [ "Reserved2", "d3/d88/namespaceAPIC.html#ad783eb173ee49cc2a004bc1ca1313615", null ],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['s_4118',['S',['../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aef44b210af6af7cb40efdfd5469406c0',1,'S():&#160;gdt.hpp'],['../d8/d5d/i686_2cpu_2gdt_8hpp.html#aef44b210af6af7cb40efdfd5469406c0',1,'S():&#160;gdt.hpp'],['../d7/d6c/md5_8c.html#ad027248bcb51afd36a14242edabc3567',1,'S():&#160;md5.c']]],
-  ['s32_4119',['s32',['../d0/d18/ArithmeticOperations_8c.html#a53c69f6cd2568ebcb17f0940894929b7',1,'arith64_word']]],
+  ['s32_4119',['s32',['../d0/d18/ArithmeticOperations_8c.html#a9ae221f35c9cc1c3841ed7aa7da098b1',1,'arith64_word']]],
   ['s4bios_5freq_4120',['S4BIOS_REQ',['../d3/d21/classACPI_1_1ACPI.html#a0e2bb432ee50553435cf9811c6edbf23',1,'ACPI::ACPI::FADTHeader::S4BIOS_REQ()'],['../d1/d90/acpi_8hpp.html#a8e5e27beeb23b6f4acc90d96d871105a',1,'S4BIOS_REQ():&#160;acpi.hpp']]],
   ['s64_4121',['s64',['../d0/d18/ArithmeticOperations_8c.html#ae05a2ca8fb9ebfd35615d32938fb4aa3',1,'arith64_word']]],
   ['safefunction_4122',['SafeFunction',['../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25',1,'types.h']]],
@@ -261,9 +261,9 @@ var searchData=
   ['spdbg_4376',['spdbg',['../d2/d34/smartptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da',1,'smartptr.hpp']]],
   ['speed_4377',['Speed',['../d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8',1,'SMBIOS::SMBIOSMemoryDevice']]],
   ['spinlockdata_4378',['SpinLockData',['../d1/d1f/classXalloc_1_1XLockClass.html#d3/d8a/structXalloc_1_1XLockClass_1_1SpinLockData',1,'Xalloc::XLockClass']]],
-  ['split_4379',['split',['../d3/d88/namespaceAPIC.html#aa69fdf035a3ced205d246125c7c26024',1,'APIC::__attribute__']]],
+  ['split_4379',['split',['../d3/d88/namespaceAPIC.html#a24a63741078d7c9d2f35bed3f279aed5',1,'APIC::__attribute__']]],
   ['split_4380',['Split',['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html#ad01d5902954c81bdda02de8e746817b0',1,'Xalloc::AllocatorV1::HeapSegment']]],
-  ['split_4381',['split',['../d3/d88/namespaceAPIC.html#a698fee70dcb1f7ac5d6d1972b0270e75',1,'APIC::__attribute__']]],
+  ['split_4381',['split',['../d3/d88/namespaceAPIC.html#a903abb4b80c29d00b11ba49320310ff2',1,'APIC::__attribute__']]],
   ['split_4382',['Split',['../d8/d12/Xalloc_8hpp.html#ab35af3575914faba3a6ae16f6ba0983c',1,'Xalloc.hpp']]],
   ['sprintf_4383',['sprintf',['../d2/de6/Userspace_2libc_2src_2print_2printf_8h.html#a77dac04ed12a16543832b623c7778729',1,'sprintf(char *s, const char *format,...) ATTR_PRINTF(2:&#160;printf.h'],['../de/d45/Userspace_2libc_2src_2print_2printf_8c.html#a9cafd44c2e1bfa384f71d56949e3b3fc',1,'sprintf(char *s, const char *format,...):&#160;printf.c']]],
   ['sprintf_5f_4384',['sprintf_',['../df/d7f/Kernel_2Library_2printf_8c.html#a4bb327658484df28415e76ce311e29dc',1,'sprintf_(char *s, const char *format,...):&#160;printf.c'],['../dc/df9/Kernel_2include_2printf_8h.html#aa0320d28406c4c8399830583177fdc77',1,'sprintf_(char *s, const char *format,...) ATTR_PRINTF(2:&#160;printf.h'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#af1c675fe9e14a82d1d38d7a51fd23616',1,'sprintf_(char *s, const char *format,...):&#160;printf.c'],['../dd/d70/Lynx_2UEFI_2src_2printf_8h.html#aa0320d28406c4c8399830583177fdc77',1,'sprintf_(char *s, const char *format,...) ATTR_PRINTF(2:&#160;printf.h']]],
