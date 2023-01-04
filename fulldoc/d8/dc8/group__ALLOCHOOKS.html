@@ -273,7 +273,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;    {</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a2d9b708c1e8825a6bb6612661bc4bdbd">l_warningCount</a> += 1;</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;<span class="preprocessor">#if defined LIBALLOCDEBUG || defined LIBALLOCINFO</span></div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: WARNING: PREFIX(free)( NULL ) called from %x\n&quot;</span>,</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: WARNING: PREFIX(free)( NULL ) called from %lx\n&quot;</span>,</div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;               __builtin_return_address(0));</div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -298,7 +298,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        {</div>
 <div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a48c2c6cb4bd97dd911ef24ff2a42ca5d">l_possibleOverruns</a> += 1;</div>
 <div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;<span class="preprocessor">#if defined LIBALLOCDEBUG || defined LIBALLOCINFO</span></div>
-<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: Possible 1-3 byte overrun for magic %x != %x\n&quot;</span>,</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: Possible 1-3 byte overrun for magic %lx != %lx\n&quot;</span>,</div>
 <div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;                   min-&gt;<a class="code" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a2a521ac1721a7b39baf53f995e0fcccf">magic</a>,</div>
 <div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;                   <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#af6b1d459ffa3c81e2456acf8d4268330">LIBALLOC_MAGIC</a>);</div>
 <div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
@@ -308,7 +308,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;        <span class="keywordflow">if</span> (min-&gt;<a class="code" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a2a521ac1721a7b39baf53f995e0fcccf">magic</a> == <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#aae1f702e677fee87387d8086e751f8b3">LIBALLOC_DEAD</a>)</div>
 <div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        {</div>
 <div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;<span class="preprocessor">#if defined LIBALLOCDEBUG || defined LIBALLOCINFO</span></div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: multiple PREFIX(free)() attempt on %x from %x.\n&quot;</span>,</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: multiple PREFIX(free)() attempt on %lx from %lx.\n&quot;</span>,</div>
 <div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;                   ptr,</div>
 <div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;                   __builtin_return_address(0));</div>
 <div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
@@ -317,7 +317,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;        {</div>
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;<span class="preprocessor">#if defined LIBALLOCDEBUG || defined LIBALLOCINFO</span></div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: Bad PREFIX(free)( %x ) called from %x\n&quot;</span>,</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: Bad PREFIX(free)( %lx ) called from %lx\n&quot;</span>,</div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                   ptr,</div>
 <div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;                   __builtin_return_address(0));</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
@@ -330,7 +330,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    }</div>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160; </div>
 <div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;<span class="preprocessor">#ifdef LIBALLOCDEBUG</span></div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: %x PREFIX(free)( %x ): &quot;</span>,</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: %lx PREFIX(free)( %lx ): &quot;</span>,</div>
 <div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;           __builtin_return_address(0),</div>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;           ptr);</div>
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
@@ -447,7 +447,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPages(Pages); }</div>
 <div class="ttc" id="aKernel_2Core_2Memory_2Memory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00011">Memory.cpp:11</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00011">_RequestPages</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00011">KernelAllocator</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00027">syscall1()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00011">_RequestPages</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00011">KernelAllocator</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00048">syscall1()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c_source.html#l00177">allocate_new_page()</a>.</p>
 
@@ -491,7 +491,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 <div class="ttc" id="aacpi_8hpp_html_aca1b23fd721c8d8dc70a8227e336b6e8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a></div><div class="ttdeci">uint64_t Address</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00004">acpi.hpp:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00012">_FreePages</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00004">Address</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00011">KernelAllocator</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00037">syscall2()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00012">_FreePages</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00004">Address</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00011">KernelAllocator</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00058">syscall2()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c_source.html#l00561">free()</a>.</p>
 
@@ -594,7 +594,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    {</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a2d9b708c1e8825a6bb6612661bc4bdbd">l_warningCount</a> += 1;</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor">#if defined LIBALLOCDEBUG || defined LIBALLOCINFO</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: WARNING: alloc( 0 ) called from %x\n&quot;</span>,</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: WARNING: alloc( 0 ) called from %lx\n&quot;</span>,</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;               __builtin_return_address(0));</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -625,13 +625,13 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        }</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160; </div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="preprocessor">#ifdef LIBALLOCDEBUG</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: set up first memory major %x\n&quot;</span>, <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a650715799a325fedc4d7b07a181378d9">l_memRoot</a>);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: set up first memory major %lx\n&quot;</span>, <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a650715799a325fedc4d7b07a181378d9">l_memRoot</a>);</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    }</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160; </div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">#ifdef LIBALLOCDEBUG</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: %x PREFIX(malloc)( %i ): &quot;</span>,</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: %lx PREFIX(malloc)( %i ): &quot;</span>,</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;           __builtin_return_address(0),</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;           <a class="code" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a138f5528e084fb73761b9a23e106fb4a">size</a>);</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
@@ -672,7 +672,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        <span class="keywordflow">if</span> (diff &lt; (<a class="code" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a138f5528e084fb73761b9a23e106fb4a">size</a> + <span class="keyword">sizeof</span>(<span class="keyword">struct</span> <a class="code" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#d7/d3e/structliballoc__minor">liballoc_minor</a>)))</div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        {</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="preprocessor">#ifdef LIBALLOCDEBUG</span></div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;CASE 1: Insufficient space in block %x\n&quot;</span>, maj);</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;CASE 1: Insufficient space in block %lx\n&quot;</span>, maj);</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160; </div>
@@ -724,7 +724,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a4d3a4d8ba3325af096e123278cffec04">ALIGN</a>(p);</div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160; </div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="preprocessor">#ifdef LIBALLOCDEBUG</span></div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;CASE 2: returning %x\n&quot;</span>, p);</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;CASE 2: returning %lx\n&quot;</span>, p);</div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;            <a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#gaedc23f198b2882d41d0caa316453967b">liballoc_unlock</a>(); <span class="comment">// release the lock</span></div>
@@ -760,7 +760,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a4d3a4d8ba3325af096e123278cffec04">ALIGN</a>(p);</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160; </div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;<span class="preprocessor">#ifdef LIBALLOCDEBUG</span></div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;CASE 3: returning %x\n&quot;</span>, p);</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;CASE 3: returning %lx\n&quot;</span>, p);</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            <a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#gaedc23f198b2882d41d0caa316453967b">liballoc_unlock</a>(); <span class="comment">// release the lock</span></div>
@@ -806,7 +806,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;                    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a4d3a4d8ba3325af096e123278cffec04">ALIGN</a>(p);</div>
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160; </div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;<span class="preprocessor">#ifdef LIBALLOCDEBUG</span></div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;                    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;CASE 4.1: returning %x\n&quot;</span>, p);</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;                    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;CASE 4.1: returning %lx\n&quot;</span>, p);</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;                    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
 <div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;                    <a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#gaedc23f198b2882d41d0caa316453967b">liballoc_unlock</a>(); <span class="comment">// release the lock</span></div>
@@ -845,7 +845,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;                    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a4d3a4d8ba3325af096e123278cffec04">ALIGN</a>(p);</div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160; </div>
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;<span class="preprocessor">#ifdef LIBALLOCDEBUG</span></div>
-<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;                    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;CASE 4.2: returning %x\n&quot;</span>, p);</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;                    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;CASE 4.2: returning %lx\n&quot;</span>, p);</div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;                    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
 <div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160; </div>
@@ -981,7 +981,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;        {</div>
 <div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#a48c2c6cb4bd97dd911ef24ff2a42ca5d">l_possibleOverruns</a> += 1;</div>
 <div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;<span class="preprocessor">#if defined LIBALLOCDEBUG || defined LIBALLOCINFO</span></div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: Possible 1-3 byte overrun for magic %x != %x\n&quot;</span>,</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: Possible 1-3 byte overrun for magic %lx != %lx\n&quot;</span>,</div>
 <div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;                   min-&gt;<a class="code" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a2a521ac1721a7b39baf53f995e0fcccf">magic</a>,</div>
 <div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;                   <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#af6b1d459ffa3c81e2456acf8d4268330">LIBALLOC_MAGIC</a>);</div>
 <div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
@@ -991,7 +991,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;        <span class="keywordflow">if</span> (min-&gt;<a class="code" href="../../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html#a2a521ac1721a7b39baf53f995e0fcccf">magic</a> == <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#aae1f702e677fee87387d8086e751f8b3">LIBALLOC_DEAD</a>)</div>
 <div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;        {</div>
 <div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;<span class="preprocessor">#if defined LIBALLOCDEBUG || defined LIBALLOCINFO</span></div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: multiple PREFIX(free)() attempt on %x from %x.\n&quot;</span>,</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: multiple PREFIX(free)() attempt on %lx from %lx.\n&quot;</span>,</div>
 <div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;                   ptr,</div>
 <div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;                   __builtin_return_address(0));</div>
 <div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>
@@ -1000,7 +1000,7 @@ A pointer to the allocated memory. </dd></dl>
 <div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        {</div>
 <div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;<span class="preprocessor">#if defined LIBALLOCDEBUG || defined LIBALLOCINFO</span></div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: Bad PREFIX(free)( %x ) called from %x\n&quot;</span>,</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;liballoc: ERROR: Bad PREFIX(free)( %lx ) called from %lx\n&quot;</span>,</div>
 <div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;                   ptr,</div>
 <div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;                   __builtin_return_address(0));</div>
 <div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;            <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ad7ca11d555f526a6c553f150b898c0d8">FLUSH</a>();</div>

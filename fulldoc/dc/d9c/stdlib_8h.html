@@ -137,11 +137,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd7/lib_8c_source.html#l00006">6</a> of file <a class="el" href="../../de/dd7/lib_8c_source.html">lib.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        ;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dd7/lib_8c_source.html#l00007">7</a> of file <a class="el" href="../../de/dd7/lib_8c_source.html">lib.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">while</span> (1)</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        ;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -161,10 +161,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd7/lib_8c_source.html#l00012">12</a> of file <a class="el" href="../../de/dd7/lib_8c_source.html">lib.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dd7/lib_8c_source.html#l00013">13</a> of file <a class="el" href="../../de/dd7/lib_8c_source.html">lib.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -184,19 +184,19 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/def/Convert_8c_source.html#l00685">685</a> of file <a class="el" href="../../de/def/Convert_8c_source.html">Convert.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;{</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a> = <a class="code" href="../../de/def/Convert_8c.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>((<span class="keywordtype">char</span> *)String);</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> OutBuffer = 0;</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d5/dff/namespacePower.html">Power</a> = 1;</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> i = <a class="code" href="../../d1/d90/acpi_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a>; i &gt; 0; --i)</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    {</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;        OutBuffer += (String[i - 1] - 48) * <a class="code" href="../../d5/dff/namespacePower.html">Power</a>;</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;        <a class="code" href="../../d5/dff/namespacePower.html">Power</a> *= 10;</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    }</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;    <span class="keywordflow">return</span> OutBuffer;</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;}</div>
-<div class="ttc" id="aConvert_8c_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../de/def/Convert_8c.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../de/def/Convert_8c_source.html#l00358">Convert.c:358</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00415">415</a> of file <a class="el" href="../../d0/dc7/Convert_8cpp_source.html">Convert.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;{</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d1/d90/acpi_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a> = <a class="code" href="../../d0/dc7/Convert_8cpp.html#ab6488fdd5637e939b13fc92be39e2a5e">strlen</a>((<span class="keywordtype">char</span> *)String);</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> OutBuffer = 0;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d5/dff/namespacePower.html">Power</a> = 1;</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> i = <a class="code" href="../../d1/d90/acpi_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a>; i &gt; 0; --i)</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    {</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        OutBuffer += (String[i - 1] - 48) * <a class="code" href="../../d5/dff/namespacePower.html">Power</a>;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        <a class="code" href="../../d5/dff/namespacePower.html">Power</a> *= 10;</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    }</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordflow">return</span> OutBuffer;</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;}</div>
+<div class="ttc" id="aConvert_8cpp_html_ab6488fdd5637e939b13fc92be39e2a5e"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#ab6488fdd5637e939b13fc92be39e2a5e">strlen</a></div><div class="ttdeci">EXTERNC long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00042">Convert.cpp:42</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00114">types.h:114</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_a930e5a4d8414c0427fe5c636062579db"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a></div><div class="ttdeci">uint32_t Length</div><div class="ttdoc">Length.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00001">acpi.hpp:1</a></div></div>
 <div class="ttc" id="anamespacePower_html"><div class="ttname"><a href="../../d5/dff/namespacePower.html">Power</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dfa/power_8hpp_source.html#l00006">power.hpp:7</a></div></div>
@@ -221,11 +221,11 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd7/lib_8c_source.html#l00017">17</a> of file <a class="el" href="../../de/dd7/lib_8c_source.html">lib.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        ;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dd7/lib_8c_source.html#l00018">18</a> of file <a class="el" href="../../de/dd7/lib_8c_source.html">lib.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">while</span> (1)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        ;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -245,12 +245,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/dd7/lib_8c_source.html#l00040">40</a> of file <a class="el" href="../../de/dd7/lib_8c_source.html">lib.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">char</span> *env = <span class="stringliteral">&quot;PATH=/bin&quot;</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">return</span> env;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../de/dd7/lib_8c_source.html#l00043">43</a> of file <a class="el" href="../../de/dd7/lib_8c_source.html">lib.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">char</span> **env = <a class="code" href="../../de/dd7/lib_8c.html#aa006daaf11f1e2e45a6ababaf463212b">environ</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span> (env == <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordtype">size_t</span> len = <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(name);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">while</span> (*env != <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span> ((<a class="code" href="../../d3/d82/convert_8h.html#a9afae77e412a26e6c01e26b89d5c2b47">strncmp</a>(*env, name, len) == 0) &amp;&amp; ((*env)[len] == <span class="charliteral">&#39;=&#39;</span>))</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordflow">return</span> &amp;(*env)[len + 1];</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        ++env;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00020">types.h:20</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00042">Convert.cpp:42</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a9afae77e412a26e6c01e26b89d5c2b47"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a9afae77e412a26e6c01e26b89d5c2b47">strncmp</a></div><div class="ttdeci">int strncmp(const char *s1, const char *s2, unsigned long n)</div></div>
+<div class="ttc" id="alib_8c_html_aa006daaf11f1e2e45a6ababaf463212b"><div class="ttname"><a href="../../de/dd7/lib_8c.html#aa006daaf11f1e2e45a6ababaf463212b">environ</a></div><div class="ttdeci">char ** environ</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dd7/lib_8c_source.html#l00041">lib.c:41</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/dd7/lib_8c_source.html#l00041">environ</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00020">NULL</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00042">strlen()</a>, and <a class="el" href="../../d3/d82/convert_8h.html#a9afae77e412a26e6c01e26b89d5c2b47">strncmp()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->

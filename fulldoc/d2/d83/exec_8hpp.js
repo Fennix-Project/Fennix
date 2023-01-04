@@ -25,6 +25,7 @@ var exec_8hpp =
       [ "InvalidFileEntryPoint", "d2/d83/exec_8hpp.html#a282102d37805166b07bb40a352ebb424a5bb1597932d379325addbf3e2e1babd4", null ],
       [ "InvalidFilePath", "d2/d83/exec_8hpp.html#a282102d37805166b07bb40a352ebb424a868b4989770a47e5d2982b7cec8c24c3", null ]
     ] ],
+    [ "ELFLoadExec", "d2/d83/exec_8hpp.html#aeebb490c4a34c7fb453fb1b16ffeb8d8", null ],
     [ "ELFLoadRel", "d2/d83/exec_8hpp.html#a132f562f1f70670e2abe817988be5b97", null ],
     [ "GetBinaryType", "d2/d83/exec_8hpp.html#a222c41ddec469ce960da37986428ca0d", null ],
     [ "Spawn", "d2/d83/exec_8hpp.html#afc1af56a72388d4fce8b751aa6107d81", null ]

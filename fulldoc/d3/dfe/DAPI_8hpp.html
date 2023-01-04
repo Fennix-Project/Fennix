@@ -146,6 +146,10 @@ Data Structures</h2></td></tr>
 <tr class="memitem:d9/d9a/structKernelCallback_8NetworkCallback"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#d9/d9a/structKernelCallback_8NetworkCallback">KernelCallback.NetworkCallback</a></td></tr>
 <tr class="memdesc:d9/d9a/structKernelCallback_8NetworkCallback"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the kernel wants to send a packet.  <a href="../../d3/dfe/DAPI_8hpp.html#d9/d9a/structKernelCallback_8NetworkCallback">More...</a><br /></td></tr>
 <tr class="separator:d9/d9a/structKernelCallback_8NetworkCallback"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/dc4/structKernelCallback_8NetworkCallback_8Send"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#d4/dc4/structKernelCallback_8NetworkCallback_8Send">KernelCallback.NetworkCallback.Send</a></td></tr>
+<tr class="separator:d4/dc4/structKernelCallback_8NetworkCallback_8Send"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:de/d47/structKernelCallback_8NetworkCallback_8Fetch"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#de/d47/structKernelCallback_8NetworkCallback_8Fetch">KernelCallback.NetworkCallback.Fetch</a></td></tr>
+<tr class="separator:de/d47/structKernelCallback_8NetworkCallback_8Fetch"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dc/d0c/structKernelCallback_8DiskCallback"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#dc/d0c/structKernelCallback_8DiskCallback">KernelCallback.DiskCallback</a></td></tr>
 <tr class="memdesc:dc/d0c/structKernelCallback_8DiskCallback"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the kernel wants to write to disk.  <a href="../../d3/dfe/DAPI_8hpp.html#dc/d0c/structKernelCallback_8DiskCallback">More...</a><br /></td></tr>
 <tr class="separator:dc/d0c/structKernelCallback_8DiskCallback"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,10 +165,12 @@ Data Structures</h2></td></tr>
 <tr class="separator:d7/d79/structKernelCallback_8InputCallback_8Mouse_8Buttons"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:df/d3a/structKernelCallback_8InterruptInfo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#df/d3a/structKernelCallback_8InterruptInfo">KernelCallback.InterruptInfo</a></td></tr>
 <tr class="separator:df/d3a/structKernelCallback_8InterruptInfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d4/d1f/struct_8RW"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#d4/d1f/struct_8RW">.RW</a></td></tr>
-<tr class="separator:d4/d1f/struct_8RW"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/dca/struct_8Send"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#d4/dca/struct_8Send">.Send</a></td></tr>
+<tr class="separator:d4/dca/struct_8Send"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d4/d04/struct_8Fetch"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#d4/d04/struct_8Fetch">.Fetch</a></td></tr>
 <tr class="separator:d4/d04/struct_8Fetch"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/d1f/struct_8RW"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#d4/d1f/struct_8RW">.RW</a></td></tr>
+<tr class="separator:d4/d1f/struct_8RW"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:db/d13/struct_8Mouse"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#db/d13/struct_8Mouse">.Mouse</a></td></tr>
 <tr class="separator:db/d13/struct_8Mouse"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d2/da6/struct_8Mouse_8Buttons"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#d2/da6/struct_8Mouse_8Buttons">.Mouse.Buttons</a></td></tr>
@@ -249,64 +255,74 @@ Variables</h2></td></tr>
 <tr class="separator:a80e8e2d24441e8d4b5a14123ed07cf79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59d2095804075e9ce1be76c736260054"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#a59d2095804075e9ce1be76c736260054">RawData</a></td></tr>
 <tr class="separator:a59d2095804075e9ce1be76c736260054"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a423ca27f762e679eaca000e509cbc8bb"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:a7a462df98e486afd6b16dae360d12555"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><b>Data</b></td></tr>
-<tr class="separator:a7a462df98e486afd6b16dae360d12555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8d20c787034a69ddd63acd6aec1ab72"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>Length</b></td></tr>
-<tr class="separator:ae8d20c787034a69ddd63acd6aec1ab72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a423ca27f762e679eaca000e509cbc8bb"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#a423ca27f762e679eaca000e509cbc8bb">NetworkCallback</a></td></tr>
-<tr class="memdesc:a423ca27f762e679eaca000e509cbc8bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the kernel wants to send a packet.  <a href="../../d3/dfe/DAPI_8hpp.html#a423ca27f762e679eaca000e509cbc8bb">More...</a><br /></td></tr>
-<tr class="separator:a423ca27f762e679eaca000e509cbc8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f62a5a99a7ef7a31bb2583c0ef80d1d"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:a883c7d84c8cfca9f595307ed81017f83"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:a42fc7bc360d1b283088946922adaedcf"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>Sector</b></td></tr>
-<tr class="separator:a42fc7bc360d1b283088946922adaedcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:added81df1e63fd1246176a887729780d"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>SectorCount</b></td></tr>
-<tr class="separator:added81df1e63fd1246176a887729780d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2987654ebedf8a8af6e7caeffa7ff16d"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>Port</b></td></tr>
-<tr class="separator:a2987654ebedf8a8af6e7caeffa7ff16d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafe88bea477bd96b0fa73d691510c9bb"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>Buffer</b></td></tr>
-<tr class="separator:aafe88bea477bd96b0fa73d691510c9bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afef8dd4e2343f9d0742b81643ed1bad4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Write</b></td></tr>
-<tr class="separator:afef8dd4e2343f9d0742b81643ed1bad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a883c7d84c8cfca9f595307ed81017f83"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"><b>RW</b></td></tr>
-<tr class="separator:a883c7d84c8cfca9f595307ed81017f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acde8f9c81d2a0b22de1af69833cadcef"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:acc96d7ddbb15a31c449dbdbfa5457f2f"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>Ports</b></td></tr>
-<tr class="separator:acc96d7ddbb15a31c449dbdbfa5457f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d94c5e1561b71b9dc96673360dcae50"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><b>BytesPerSector</b></td></tr>
-<tr class="separator:a6d94c5e1561b71b9dc96673360dcae50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acde8f9c81d2a0b22de1af69833cadcef"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"><b>Fetch</b></td></tr>
-<tr class="separator:acde8f9c81d2a0b22de1af69833cadcef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f62a5a99a7ef7a31bb2583c0ef80d1d"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#a2f62a5a99a7ef7a31bb2583c0ef80d1d">DiskCallback</a></td></tr>
-<tr class="memdesc:a2f62a5a99a7ef7a31bb2583c0ef80d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the kernel wants to write to disk.  <a href="../../d3/dfe/DAPI_8hpp.html#a2f62a5a99a7ef7a31bb2583c0ef80d1d">More...</a><br /></td></tr>
-<tr class="separator:a2f62a5a99a7ef7a31bb2583c0ef80d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2ce481b97200a40322146165442b685"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:a97c394ef142807e05bd6a505309559ef"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:ab6652089526898f0af900af43e05b6c5"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>X</b></td></tr>
-<tr class="separator:ab6652089526898f0af900af43e05b6c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36fc39e7b724d13886af8a365d7799d7"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>Y</b></td></tr>
-<tr class="separator:a36fc39e7b724d13886af8a365d7799d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92fa3b7b40d3f1560dbf037c35b133a9"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>Z</b></td></tr>
-<tr class="separator:a92fa3b7b40d3f1560dbf037c35b133a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3e1122dc1f3dc92ba6a900b89215ed4"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;struct {</td></tr>
-<tr class="memitem:a5b0c5982fde93982a5dcc1036e71d632"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Left</b></td></tr>
-<tr class="separator:a5b0c5982fde93982a5dcc1036e71d632"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f3850bcbf17fbb0cc44c83f829738e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Right</b></td></tr>
-<tr class="separator:a0f3850bcbf17fbb0cc44c83f829738e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa64804f8995b60287309ece41fbeae49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Middle</b></td></tr>
-<tr class="separator:aa64804f8995b60287309ece41fbeae49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3e1122dc1f3dc92ba6a900b89215ed4"><td class="memItemLeft" valign="top">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"><b>Buttons</b></td></tr>
-<tr class="separator:af3e1122dc1f3dc92ba6a900b89215ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97c394ef142807e05bd6a505309559ef"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"><b>Mouse</b></td></tr>
-<tr class="separator:a97c394ef142807e05bd6a505309559ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2ce481b97200a40322146165442b685"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#ac2ce481b97200a40322146165442b685">InputCallback</a></td></tr>
-<tr class="separator:ac2ce481b97200a40322146165442b685"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19522a05fe87a49fd6ec77657c8f1c3e"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:aacf7e291617a91aed7efadf79fb8ca2f"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>Vector</b></td></tr>
-<tr class="separator:aacf7e291617a91aed7efadf79fb8ca2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19522a05fe87a49fd6ec77657c8f1c3e"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#a19522a05fe87a49fd6ec77657c8f1c3e">InterruptInfo</a></td></tr>
-<tr class="separator:a19522a05fe87a49fd6ec77657c8f1c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c61dbb395ee0d349d911d28a3c4b48"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:a9308d91747f80a130ee89d5672335f02"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:a4d0c3e1b7a6667af5a8f6f4ae61bdf94"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>Data</b></td></tr>
+<tr class="separator:a4d0c3e1b7a6667af5a8f6f4ae61bdf94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a9109021d70616de7aa12813fabd1e6"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>Length</b></td></tr>
+<tr class="separator:a2a9109021d70616de7aa12813fabd1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9308d91747f80a130ee89d5672335f02"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"><b>Send</b></td></tr>
+<tr class="separator:a9308d91747f80a130ee89d5672335f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a724a2ba86c2899b2e82a449785628573"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:a241909071d237a7d2bb129127f7a826c"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><b>Name</b> [128]</td></tr>
+<tr class="separator:a241909071d237a7d2bb129127f7a826c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3bd419c1f9b576f9aafe5cc473f3b4b"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>MAC</b></td></tr>
+<tr class="separator:af3bd419c1f9b576f9aafe5cc473f3b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a724a2ba86c2899b2e82a449785628573"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"><b>Fetch</b></td></tr>
+<tr class="separator:a724a2ba86c2899b2e82a449785628573"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01c61dbb395ee0d349d911d28a3c4b48"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#a01c61dbb395ee0d349d911d28a3c4b48">NetworkCallback</a></td></tr>
+<tr class="memdesc:a01c61dbb395ee0d349d911d28a3c4b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the kernel wants to send a packet.  <a href="../../d3/dfe/DAPI_8hpp.html#a01c61dbb395ee0d349d911d28a3c4b48">More...</a><br /></td></tr>
+<tr class="separator:a01c61dbb395ee0d349d911d28a3c4b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a7474b1a244fd1c664def2ee202bfa7"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:ae8db0a5e67b581d3116e5c140cd769b6"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:a8a7a8314064030085f8093552fd33c0d"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>Sector</b></td></tr>
+<tr class="separator:a8a7a8314064030085f8093552fd33c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40e432ae5c5c60f3e3d4e0978548b8ff"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>SectorCount</b></td></tr>
+<tr class="separator:a40e432ae5c5c60f3e3d4e0978548b8ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21d147a3d1ab1fc8cc4cc4aaeb73178c"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>Port</b></td></tr>
+<tr class="separator:a21d147a3d1ab1fc8cc4cc4aaeb73178c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e08b754a9eee3f510b79e6706f708b"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><b>Buffer</b></td></tr>
+<tr class="separator:aa0e08b754a9eee3f510b79e6706f708b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2faddf08e19552be049a83f6210ed3d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Write</b></td></tr>
+<tr class="separator:a2faddf08e19552be049a83f6210ed3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8db0a5e67b581d3116e5c140cd769b6"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"><b>RW</b></td></tr>
+<tr class="separator:ae8db0a5e67b581d3116e5c140cd769b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e1eabcbf77c77c20f62236eef9c1ce0"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:a438bb466e5e3f2933e03b9dada2365b5"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>Ports</b></td></tr>
+<tr class="separator:a438bb466e5e3f2933e03b9dada2365b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc3f6744b7d5b81ae03c562c05d79248"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><b>BytesPerSector</b></td></tr>
+<tr class="separator:acc3f6744b7d5b81ae03c562c05d79248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e1eabcbf77c77c20f62236eef9c1ce0"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"><b>Fetch</b></td></tr>
+<tr class="separator:a5e1eabcbf77c77c20f62236eef9c1ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a7474b1a244fd1c664def2ee202bfa7"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#a4a7474b1a244fd1c664def2ee202bfa7">DiskCallback</a></td></tr>
+<tr class="memdesc:a4a7474b1a244fd1c664def2ee202bfa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the kernel wants to write to disk.  <a href="../../d3/dfe/DAPI_8hpp.html#a4a7474b1a244fd1c664def2ee202bfa7">More...</a><br /></td></tr>
+<tr class="separator:a4a7474b1a244fd1c664def2ee202bfa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c87287b235daa183ad2650f0d7cfa8b"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:a215de10181911c07728117a28b37ee8c"><td class="memItemLeft" >&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:a3d92ef13be58bc128fc492f16c271c67"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>X</b></td></tr>
+<tr class="separator:a3d92ef13be58bc128fc492f16c271c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9347f0ff4c0cbfed624804614a5b98"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>Y</b></td></tr>
+<tr class="separator:a9e9347f0ff4c0cbfed624804614a5b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11351a431004b1f8b1950fdc2e775112"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><b>Z</b></td></tr>
+<tr class="separator:a11351a431004b1f8b1950fdc2e775112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0499fe92096225002cc2498d66a4c61"><td class="memItemLeft" >&#160;&#160;&#160;&#160;&#160;&#160;struct {</td></tr>
+<tr class="memitem:a6e278102afb80906cb3d601214d94e8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Left</b></td></tr>
+<tr class="separator:a6e278102afb80906cb3d601214d94e8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee6a5b5457343c3c0164b02339b88b28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Right</b></td></tr>
+<tr class="separator:aee6a5b5457343c3c0164b02339b88b28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca44d25076fadce5c3800087195fca7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Middle</b></td></tr>
+<tr class="separator:a4ca44d25076fadce5c3800087195fca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0499fe92096225002cc2498d66a4c61"><td class="memItemLeft" valign="top">&#160;&#160;&#160;&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"><b>Buttons</b></td></tr>
+<tr class="separator:ac0499fe92096225002cc2498d66a4c61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a215de10181911c07728117a28b37ee8c"><td class="memItemLeft" valign="top">&#160;&#160;&#160;}&#160;</td><td class="memItemRight" valign="bottom"><b>Mouse</b></td></tr>
+<tr class="separator:a215de10181911c07728117a28b37ee8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c87287b235daa183ad2650f0d7cfa8b"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#a6c87287b235daa183ad2650f0d7cfa8b">InputCallback</a></td></tr>
+<tr class="separator:a6c87287b235daa183ad2650f0d7cfa8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4661fdad4f6f8e862588e6ef6638fddc"><td class="memItemLeft" >struct {</td></tr>
+<tr class="memitem:a1437bdbcebdb996cafb00468cd0fe1cf"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><b>Vector</b></td></tr>
+<tr class="separator:a1437bdbcebdb996cafb00468cd0fe1cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4661fdad4f6f8e862588e6ef6638fddc"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#a4661fdad4f6f8e862588e6ef6638fddc">InterruptInfo</a></td></tr>
+<tr class="separator:a4661fdad4f6f8e862588e6ef6638fddc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d7/d61/structKernelAPI" id="d7/d61/structKernelAPI"></a>
@@ -692,7 +708,38 @@ AHCI</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="af6068daa29dbb05a7ead1e3b5a48bbee"></a>void *</td>
+<a id="a4ea7755f84f02d23876d90be2f9765cf"></a><a class="el" href="../../d3/dfe/DAPI_8hpp.html#de/d47/structKernelCallback_8NetworkCallback_8Fetch">NetworkCallback</a></td>
+<td class="fieldname">
+Fetch</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a94966d90747b97d1f0f206c98a8b1ac3"></a><a class="el" href="../../d3/dfe/DAPI_8hpp.html#d4/dc4/structKernelCallback_8NetworkCallback_8Send">NetworkCallback</a></td>
+<td class="fieldname">
+Send</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d4/dc4/structKernelCallback_8NetworkCallback_8Send" id="d4/dc4/structKernelCallback_8NetworkCallback_8Send"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d4/dc4/structKernelCallback_8NetworkCallback_8Send">&#9670;&nbsp;</a></span>KernelCallback.NetworkCallback.Send</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct KernelCallback.NetworkCallback.Send</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00125">125</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="af6068daa29dbb05a7ead1e3b5a48bbee"></a>unsigned char *</td>
 <td class="fieldname">
 Data</td>
 <td class="fielddoc">
@@ -701,6 +748,37 @@ Data</td>
 <a id="aba2a9c6c8c77e03f83ef8bf543612275"></a>unsigned long</td>
 <td class="fieldname">
 Length</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="de/d47/structKernelCallback_8NetworkCallback_8Fetch" id="de/d47/structKernelCallback_8NetworkCallback_8Fetch"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#de/d47/structKernelCallback_8NetworkCallback_8Fetch">&#9670;&nbsp;</a></span>KernelCallback.NetworkCallback.Fetch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct KernelCallback.NetworkCallback.Fetch</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00131">131</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a2e25c285356cbb0ed8785a1377027d79"></a>unsigned long</td>
+<td class="fieldname">
+MAC</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a57d948c6d2375efae898cb507207eeee"></a>char</td>
+<td class="fieldname">
+Name[128]</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -720,7 +798,7 @@ Length</td>
 </div><div class="memdoc">
 <div class="textblock"><p>When the kernel wants to write to disk. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00130">130</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00139">139</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -751,7 +829,7 @@ RW</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00132">132</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00141">141</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -800,7 +878,7 @@ Write</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00141">141</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00150">150</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -831,7 +909,7 @@ Ports</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00148">148</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00157">157</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -856,7 +934,7 @@ Mouse</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00150">150</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00159">159</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -899,7 +977,7 @@ Z</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00155">155</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00164">164</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -936,13 +1014,87 @@ Right</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00164">164</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00173">173</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
 <a id="a57dea6f5039281b7fee517fc43bf3110"></a>unsigned char</td>
 <td class="fieldname">
 Vector</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d4/dca/struct_8Send" id="d4/dca/struct_8Send"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d4/dca/struct_8Send">&#9670;&nbsp;</a></span>.Send</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct .Send</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="af6068daa29dbb05a7ead1e3b5a48bbee"></a>unsigned char *</td>
+<td class="fieldname">
+Data</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aba2a9c6c8c77e03f83ef8bf543612275"></a>unsigned long</td>
+<td class="fieldname">
+Length</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d4/d04/struct_8Fetch" id="d4/d04/struct_8Fetch"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d4/d04/struct_8Fetch">&#9670;&nbsp;</a></span>.Fetch</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct .Fetch</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a9ce95649927a678d46b15cab5507e537"></a>int</td>
+<td class="fieldname">
+BytesPerSector</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a2e25c285356cbb0ed8785a1377027d79"></a>unsigned long</td>
+<td class="fieldname">
+MAC</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a57d948c6d2375efae898cb507207eeee"></a>char</td>
+<td class="fieldname">
+Name[128]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a407c4e9fac86b98147da49acd4fa0d01"></a>unsigned char</td>
+<td class="fieldname">
+Ports</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -961,7 +1113,7 @@ Vector</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00014">14</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00023">23</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -998,37 +1150,6 @@ Write</td>
 
 </div>
 </div>
-<a name="d4/d04/struct_8Fetch" id="d4/d04/struct_8Fetch"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d4/d04/struct_8Fetch">&#9670;&nbsp;</a></span>.Fetch</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct .Fetch</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00023">23</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="a9ce95649927a678d46b15cab5507e537"></a>int</td>
-<td class="fieldname">
-BytesPerSector</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a407c4e9fac86b98147da49acd4fa0d01"></a>unsigned char</td>
-<td class="fieldname">
-Ports</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
 <a name="db/d13/struct_8Mouse" id="db/d13/struct_8Mouse"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#db/d13/struct_8Mouse">&#9670;&nbsp;</a></span>.Mouse</h2>
 
@@ -1041,7 +1162,7 @@ Ports</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1084,7 +1205,7 @@ Z</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html#l00046">46</a> of file <a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">DAPI.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1316,12 +1437,12 @@ Right</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d5c/kcall_8c_source.html#l00005">DoCtl()</a>, and <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00037">sys_kernelctl()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/d32/Graphics_8c_source.html#l00005">DoCtl()</a>, and <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00043">sys_kernelctl()</a>.</p>
 
 </div>
 </div>
-<a id="a2f62a5a99a7ef7a31bb2583c0ef80d1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f62a5a99a7ef7a31bb2583c0ef80d1d">&#9670;&nbsp;</a></span></h2>
+<a id="a4a7474b1a244fd1c664def2ee202bfa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a7474b1a244fd1c664def2ee202bfa7">&#9670;&nbsp;</a></span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1348,12 +1469,12 @@ Right</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d7f/AdvancedConfigurationAndPowerInterface_8cpp_source.html#l00102">ACPI::ACPI::ACPI()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00066">AfterEntry()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00086">Driver::Driver::CallDriverEntryPoint()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00163">Video::Display::Display()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00192">Entry()</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00128">InitializeMemoryManagement()</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00064">MapFramebuffer()</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00039">MapFromZero()</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00081">MapKernel()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00151">Tasking::Task::UpdateKernelTime()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00157">Tasking::Task::UpdateUsage()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00145">Tasking::Task::UpdateUserTime()</a>, and <a class="el" href="../../d8/d0e/Multiboot2_8cpp_source.html#l00057">x32Multiboot2Entry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d7f/AdvancedConfigurationAndPowerInterface_8cpp_source.html#l00102">ACPI::ACPI::ACPI()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00086">Driver::Driver::CallDriverEntryPoint()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00172">Video::Display::Display()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00245">Entry()</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00128">InitializeMemoryManagement()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00119">Main()</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00064">MapFramebuffer()</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00039">MapFromZero()</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00081">MapKernel()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00151">Tasking::Task::UpdateKernelTime()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00157">Tasking::Task::UpdateUsage()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00145">Tasking::Task::UpdateUserTime()</a>, and <a class="el" href="../../d8/d0e/Multiboot2_8cpp_source.html#l00057">x32Multiboot2Entry()</a>.</p>
 
 </div>
 </div>
-<a id="ac2ce481b97200a40322146165442b685"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2ce481b97200a40322146165442b685">&#9670;&nbsp;</a></span></h2>
+<a id="a6c87287b235daa183ad2650f0d7cfa8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c87287b235daa183ad2650f0d7cfa8b">&#9670;&nbsp;</a></span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1366,8 +1487,8 @@ Right</td>
 
 </div>
 </div>
-<a id="a19522a05fe87a49fd6ec77657c8f1c3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19522a05fe87a49fd6ec77657c8f1c3e">&#9670;&nbsp;</a></span></h2>
+<a id="a4661fdad4f6f8e862588e6ef6638fddc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4661fdad4f6f8e862588e6ef6638fddc">&#9670;&nbsp;</a></span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1394,8 +1515,8 @@ Right</td>
 
 </div>
 </div>
-<a id="a423ca27f762e679eaca000e509cbc8bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a423ca27f762e679eaca000e509cbc8bb">&#9670;&nbsp;</a></span></h2>
+<a id="a01c61dbb395ee0d349d911d28a3c4b48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01c61dbb395ee0d349d911d28a3c4b48">&#9670;&nbsp;</a></span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1422,7 +1543,7 @@ Right</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00066">AfterEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00119">Main()</a>.</p>
 
 </div>
 </div>
@@ -1500,7 +1621,7 @@ Right</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00066">AfterEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00119">Main()</a>.</p>
 
 </div>
 </div>

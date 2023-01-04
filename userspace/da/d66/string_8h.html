@@ -105,6 +105,8 @@ Functions</h2></td></tr>
 <tr class="separator:a55e123beb3d7f96e25e024a13582d987"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a219836f542ce53545052bed5353820ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#a219836f542ce53545052bed5353820ca">strlen</a> (const char *)</td></tr>
 <tr class="separator:a219836f542ce53545052bed5353820ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f4a84c11c106e95c32b6ab509346ef"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d66/string_8h.html#a07f4a84c11c106e95c32b6ab509346ef">strncmp</a> (const char *s1, const char *s2, <a class="el" href="../../d3/dce/stddef_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> n)</td></tr>
+<tr class="separator:a07f4a84c11c106e95c32b6ab509346ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a0a3e682eff8f0c6e8adc371f54cc9f3f"></a>
@@ -218,6 +220,57 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../de/dd7/lib_8c_source.html#l00043">getenv()</a>.</p>
+
+</div>
+</div>
+<a id="a07f4a84c11c106e95c32b6ab509346ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f4a84c11c106e95c32b6ab509346ef">&#9670;&nbsp;</a></span>strncmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int strncmp </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d3/dce/stddef_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/db0/string_8c_source.html#l00003">3</a> of file <a class="el" href="../../d1/db0/string_8c_source.html">string.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; n; i++)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keywordtype">char</span> c1 = s1[i], c2 = s2[i];</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">if</span> (c1 != c2)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;            <span class="keywordflow">return</span> c1 - c2;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">if</span> (!c1)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../de/dd7/lib_8c_source.html#l00043">getenv()</a>.</p>
 
 </div>
 </div>

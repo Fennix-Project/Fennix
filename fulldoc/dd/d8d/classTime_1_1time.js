@@ -13,6 +13,8 @@ var classTime_1_1time =
     ] ],
     [ "time", "dd/d8d/classTime_1_1time.html#aee23853afb1719c6582b2ad1093947ba", null ],
     [ "~time", "dd/d8d/classTime_1_1time.html#a7d3d3ad01473797014190b24b65eb36b", null ],
+    [ "CalculateTarget", "dd/d8d/classTime_1_1time.html#a012cab762805bbdfe71cfcfb7b31d027", null ],
+    [ "GetCounter", "dd/d8d/classTime_1_1time.html#a3fb6d85ca30d0a2dfab46ede31bfa2f6", null ],
     [ "Sleep", "dd/d8d/classTime_1_1time.html#a79937b39cb6ad50261411d2b4c1b7b7b", null ],
     [ "acpi", "dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb", null ],
     [ "clk", "dd/d8d/classTime_1_1time.html#a9266676f52330e93bc38435aef59c240", null ],

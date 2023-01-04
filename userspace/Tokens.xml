@@ -32,6 +32,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>PutCharToKernelConsole</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/d60/init_8c.html</Path>
+    <Anchor>a792fd44caf8f2af01af8b748677f0222</Anchor>
+    <DeclaredIn>init.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>main</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -1128,6 +1138,16 @@
     </TokenIdentifier>
     <Path>da/d66/string_8h.html</Path>
     <Anchor>a219836f542ce53545052bed5353820ca</Anchor>
+    <DeclaredIn>string.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>strncmp</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/d66/string_8h.html</Path>
+    <Anchor>a07f4a84c11c106e95c32b6ab509346ef</Anchor>
     <DeclaredIn>string.h</DeclaredIn>
   </Token>
   <Token>
@@ -2239,6 +2259,36 @@
     <Path>da/d6f/unistd_8h.html</Path>
     <Anchor>aa4e4714e6e8927c80b2553a40094b6d9</Anchor>
     <DeclaredIn>unistd.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ElfHash</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d1/d04/hash_8c.html</Path>
+    <Anchor>a3236cf267841b61827871f7e4dd13884</Anchor>
+    <DeclaredIn>hash.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>main</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dd5/ld_8c.html</Path>
+    <Anchor>adedb285b02c41bde2158ded9cc9fd7ac</Anchor>
+    <DeclaredIn>ld.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ElfHash</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d37/ld_8h.html</Path>
+    <Anchor>a3236cf267841b61827871f7e4dd13884</Anchor>
+    <DeclaredIn>ld.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -5088,6 +5138,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>environ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>de/dd7/lib_8c.html</Path>
+    <Anchor>aa006daaf11f1e2e45a6ababaf463212b</Anchor>
+    <DeclaredIn>lib.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>strncmp</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d1/db0/string_8c.html</Path>
+    <Anchor>a07f4a84c11c106e95c32b6ab509346ef</Anchor>
+    <DeclaredIn>string.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>printf_libinit</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -5162,9 +5232,29 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d6/d16/syslib_8h.html</Path>
+    <Path>dd/d2e/sysbase_8h.html</Path>
     <Anchor>ab826bfc79d0a8112f75fe4d36bee1e91</Anchor>
-    <DeclaredIn>syslib.h</DeclaredIn>
+    <DeclaredIn>sysbase.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KrnlRequestPages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>aad4cec973cd1f8f40606bcee8cd89d05</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KrnlFreePages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>ae76f515a890b70d1323216ed4128aa82</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -5172,49 +5262,408 @@
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d6/d16/syslib_8h.html</Path>
+    <Path>dd/d2e/sysbase_8h.html</Path>
     <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa571aa3760135e3dc9572c3217ab42ffb</Anchor>
-    <DeclaredIn>syslib.h</DeclaredIn>
+    <DeclaredIn>sysbase.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>KCTL_GETPID</Name>
+      <Name>KCTL_GET_PID</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d6/d16/syslib_8h.html</Path>
-    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa4282a16632afedb07583efa9920d8251</Anchor>
-    <DeclaredIn>syslib.h</DeclaredIn>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1face129e39bef73a80e9da01d75aa04049</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>KCTL_GETTID</Name>
+      <Name>KCTL_GET_TID</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d6/d16/syslib_8h.html</Path>
-    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa236eaec149eca90f77c8a8e77751bc97</Anchor>
-    <DeclaredIn>syslib.h</DeclaredIn>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa0eb36ec74e65567b2d22ef97911e8a3e</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>KCTL_GETUID</Name>
+      <Name>KCTL_GET_UID</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d6/d16/syslib_8h.html</Path>
-    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fac27a8603a2402f74bc723d01b961e62d</Anchor>
-    <DeclaredIn>syslib.h</DeclaredIn>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa218ab4e88581b8103b701b52213f61ca</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>KCTL_GETGID</Name>
+      <Name>KCTL_GET_GID</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
-    <Path>d6/d16/syslib_8h.html</Path>
-    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fad4a2918ac2995141c94fb666c24e274b</Anchor>
-    <DeclaredIn>syslib.h</DeclaredIn>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1faa408d2fc92ec8616c3bfca48059ad355</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KCTL_GET_PAGE_SIZE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileOpen</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>a06a85b91cfc2fa4b1a8f08071dde34bf</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileClose</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>aae8b2d831d84ab23c9f09f3aabc222f9</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileRead</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>a570680ba13b436a18047d398abe6af43</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileWrite</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>a4cf95c4944ccc3c2e8c517cfbeebb1a2</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileSeek</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>a877ee675a0d7d3021d6030d6a16eea74</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileStatus</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>a08eade8198b99659befc7e8328d0ca61</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FILE_READ</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>ae40fd93446e95a734d8074301e7744adabc12fb4abc05d500e44b1933e485a930</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FILE_WRITE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>ae40fd93446e95a734d8074301e7744adad6098fc5d2343501a61efdac838e5925</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FILE_APPEND</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>ae40fd93446e95a734d8074301e7744ada03ceb17b3f22e06535b04e4fe7b96c77</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FILE_CREATE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>ae40fd93446e95a734d8074301e7744ada66100ecf9720655dd2076dc508609c6b</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FILE_TRUNCATE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>ae40fd93446e95a734d8074301e7744ada4ed18cedc6521bd91d5e5494b228569f</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FILE_EXCLUSIVE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>ae40fd93446e95a734d8074301e7744ada7cb64137732cda49bcd322d7e20f7335</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FILE_DIRECTORY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>ae40fd93446e95a734d8074301e7744ada8eca42b79a25f753c72cb9ce685525c1</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FILE_SYMLINK</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>ae40fd93446e95a734d8074301e7744adab494be86e30c8a171d5a23d76eb3ade8</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FILE_NONBLOCK</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>ae40fd93446e95a734d8074301e7744ada680243a5d965acf5056d78d7f3e7d8d5</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FILE_CLOEXEC</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dc/d44/sysfile_8h.html</Path>
+    <Anchor>ae40fd93446e95a734d8074301e7744adafad2872203e3c506cb2a9eeba1080878</Anchor>
+    <DeclaredIn>sysfile.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Spawn</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a804296658f7cb6d7b36fda692873c104</Anchor>
+    <Abstract>Create a new process from a path.</Abstract>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SpawnThread</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a91076554423c9ad250088d7fc0b3c49d</Anchor>
+    <Abstract>Create a new thread.</Abstract>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetThreadList</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a104197e472ca29642a850f3d934d685a</Anchor>
+    <Abstract>Get list of threads.</Abstract>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetProcessByID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a9e7d1d70b4fac68559bdc68f71194fab</Anchor>
+    <Abstract>Get process by ID.</Abstract>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetThreadByID</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a856def399488a69b0f5975a239ed3402</Anchor>
+    <Abstract>Get thread by ID.</Abstract>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetCurrentProcess</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a103c29d45d7a68e37fa159fd20876ce1</Anchor>
+    <Abstract>Get current process.</Abstract>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetCurrentThread</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a1816839336aed7c2bb0fd33beff3a31e</Anchor>
+    <Abstract>Get current thread.</Abstract>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KrnlCreateProcess</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a372cf5586f31635a214e32b01fd57097</Anchor>
+    <Abstract>[SYSTEM] Create a new empty process</Abstract>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KrnlCreateThread</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>ae9897886844f7accf3e0fcafe0c60c4a</Anchor>
+    <Abstract>[SYSTEM] Create a new thread</Abstract>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PROCESS_STATE_READY</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a373a58178f69d5e3e1de7516d105675ea1637b2aed9df680af8b67240542746f7</Anchor>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PROCESS_STATE_RUNNING</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a373a58178f69d5e3e1de7516d105675ea39f0c778762a5b64c532f1b8aa5610a9</Anchor>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PROCESS_STATE_SLEEPING</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a373a58178f69d5e3e1de7516d105675ea032a1225441d938a1a4e91eb9e9d3248</Anchor>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PROCESS_STATE_WAITING</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a373a58178f69d5e3e1de7516d105675ea4a330375a688c02dfedfd69f3e0ec9ed</Anchor>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PROCESS_STATE_STOPPED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a373a58178f69d5e3e1de7516d105675ea8e6d0176d50785a909fd045fea6ce090</Anchor>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PROCESS_STATE_TERMINATED</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/dc1/sysproc_8h.html</Path>
+    <Anchor>a373a58178f69d5e3e1de7516d105675eadf30b2b9bedf6154e688a684f12cec66</Anchor>
+    <DeclaredIn>sysproc.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DoCtl</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>db/d32/Graphics_8c.html</Path>
+    <Anchor>ab826bfc79d0a8112f75fe4d36bee1e91</Anchor>
+    <DeclaredIn>Graphics.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KrnlRequestPages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>db/d32/Graphics_8c.html</Path>
+    <Anchor>aad4cec973cd1f8f40606bcee8cd89d05</Anchor>
+    <DeclaredIn>Graphics.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KrnlFreePages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>db/d32/Graphics_8c.html</Path>
+    <Anchor>ae76f515a890b70d1323216ed4128aa82</Anchor>
+    <DeclaredIn>Graphics.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -5272,9 +5721,99 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d5c/kcall_8c.html</Path>
+    <Path>d5/d18/Base_8c.html</Path>
     <Anchor>ab826bfc79d0a8112f75fe4d36bee1e91</Anchor>
-    <DeclaredIn>kcall.c</DeclaredIn>
+    <DeclaredIn>Base.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KrnlRequestPages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d5/d18/Base_8c.html</Path>
+    <Anchor>aad4cec973cd1f8f40606bcee8cd89d05</Anchor>
+    <DeclaredIn>Base.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KrnlFreePages</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d5/d18/Base_8c.html</Path>
+    <Anchor>ae76f515a890b70d1323216ed4128aa82</Anchor>
+    <DeclaredIn>Base.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__FILE_GetPageSize</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d37/File_8c.html</Path>
+    <Anchor>a6f6f80de62c4845ae6a2c0d1e4da24c8</Anchor>
+    <DeclaredIn>File.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileOpen</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d37/File_8c.html</Path>
+    <Anchor>a06a85b91cfc2fa4b1a8f08071dde34bf</Anchor>
+    <DeclaredIn>File.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileClose</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d37/File_8c.html</Path>
+    <Anchor>aae8b2d831d84ab23c9f09f3aabc222f9</Anchor>
+    <DeclaredIn>File.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileRead</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d37/File_8c.html</Path>
+    <Anchor>a570680ba13b436a18047d398abe6af43</Anchor>
+    <DeclaredIn>File.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileWrite</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d37/File_8c.html</Path>
+    <Anchor>a4cf95c4944ccc3c2e8c517cfbeebb1a2</Anchor>
+    <DeclaredIn>File.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileSeek</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d37/File_8c.html</Path>
+    <Anchor>a877ee675a0d7d3021d6030d6a16eea74</Anchor>
+    <DeclaredIn>File.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FileStatus</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d37/File_8c.html</Path>
+    <Anchor>a08eade8198b99659befc7e8328d0ca61</Anchor>
+    <DeclaredIn>File.c</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

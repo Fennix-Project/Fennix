@@ -105,14 +105,14 @@ Macros</h2></td></tr>
 <tr class="separator:a1d297376472cc7f4ad7c70327efa7b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaef030dcfb502de87e0f47669c58c755"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#aaef030dcfb502de87e0f47669c58c755">info</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a025492f2cc5d5a4aac7b17cb0a1f6861">DebugLevelInfo</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
 <tr class="separator:aaef030dcfb502de87e0f47669c58c755"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31e7d5c5946947277dce12f2584e7a43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a63db8a1dcf928bc7ecf8bfa76c603988">DebugLevelDebug</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
+<tr class="memitem:a31e7d5c5946947277dce12f2584e7a43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(Format, ...)</td></tr>
 <tr class="separator:a31e7d5c5946947277dce12f2584e7a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9f6a21afe9288f9a5d5bb06121e4f21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#ad9f6a21afe9288f9a5d5bb06121e4f21">ubsan</a>(Format, ...)</td></tr>
+<tr class="separator:ad9f6a21afe9288f9a5d5bb06121e4f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8666d232022b928a87f7fdf6de29d616"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f">DebugLevelTrace</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
 <tr class="separator:a8666d232022b928a87f7fdf6de29d616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd4acaf7c67bd126aefd672fbbd5747f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd">DebugLevelFixme</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
 <tr class="separator:abd4acaf7c67bd126aefd672fbbd5747f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9f6a21afe9288f9a5d5bb06121e4f21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#ad9f6a21afe9288f9a5d5bb06121e4f21">ubsan</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6">DebugLevelUbsan</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
-<tr class="separator:ad9f6a21afe9288f9a5d5bb06121e4f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -159,12 +159,12 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a63db8a1dcf928bc7ecf8bfa76c603988">DebugLevelDebug</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00042">42</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00051">51</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -194,7 +194,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00039">39</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00044">44</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -224,7 +224,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00044">44</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00055">55</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -254,7 +254,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00041">41</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00046">46</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -284,7 +284,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00043">43</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00054">54</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -309,12 +309,12 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6">DebugLevelUbsan</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00045">45</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00052">52</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -344,7 +344,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00040">40</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00045">45</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>

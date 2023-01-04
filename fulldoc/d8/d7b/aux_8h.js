@@ -3,8 +3,8 @@ var aux_8h =
     [ "Elf64_auxv_t", "d8/d7b/aux_8h.html#d9/de7/structElf64__auxv__t", [
       [ "a_type", "d8/d7b/aux_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
       [ "a_type", "d8/d7b/aux_8h.html#a718e9da507aeab4eaff05dfd77214d19", null ],
-      [ "a_un", "d8/d7b/aux_8h.html#a37689963aa48636a8557a1946c4c15eb", null ],
-      [ "a_un", "d8/d7b/aux_8h.html#a0244cb28fc9ca8277e0cd8a4b52118e7", null ]
+      [ "a_un", "d8/d7b/aux_8h.html#a40be21f66f3397c08ae81661db6f7ec4", null ],
+      [ "a_un", "d8/d7b/aux_8h.html#abf8d91918f3d169cb3e9b9b67ff3d396", null ]
     ] ],
     [ "Elf64_auxv_t.a_un", "d8/d7b/aux_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
       [ "a_val", "d8/d7b/aux_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],

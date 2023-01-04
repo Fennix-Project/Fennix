@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['xalloc_2ecpp_6072',['Xalloc.cpp',['../d7/d4a/Xalloc_8cpp.html',1,'']]],
-  ['xalloc_2ehpp_6073',['Xalloc.hpp',['../d8/d12/Xalloc_8hpp.html',1,'']]]
+  ['widgetevents_2ecpp_6831',['WidgetEvents.cpp',['../d3/d32/WidgetEvents_8cpp.html',1,'']]],
+  ['widgets_2ecpp_6832',['Widgets.cpp',['../d3/d50/Widgets_8cpp.html',1,'']]],
+  ['window_2ecpp_6833',['Window.cpp',['../d2/d84/Window_8cpp.html',1,'']]],
+  ['windowevents_2ecpp_6834',['WindowEvents.cpp',['../db/d69/WindowEvents_8cpp.html',1,'']]]
 ];

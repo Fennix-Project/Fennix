@@ -15,9 +15,9 @@ var annotated_dup =
     [ "Port", "d3/d7b/classPort.html", "d3/d7b/classPort" ],
     [ "RXDescriptor", "de/d94/e1000_8cpp.html#df/dd4/structRXDescriptor", "de/d94/e1000_8cpp_df/dd4/structRXDescriptor" ],
     [ "TXDescriptor", "de/d94/e1000_8cpp.html#db/d1d/structTXDescriptor", "de/d94/e1000_8cpp_db/d1d/structTXDescriptor" ],
-    [ "VMwareCommand", "da/dbe/vmware__mouse_8cpp.html#dd/d98/structVMwareCommand", "da/dbe/vmware__mouse_8cpp_dd/d98/structVMwareCommand" ],
-    [ "VMwareCommand.__unnamed1__", "da/dbe/vmware__mouse_8cpp.html#d9/d25/unionVMwareCommand_8____unnamed1____", "da/dbe/vmware__mouse_8cpp_d9/d25/unionVMwareCommand_8____unnamed1____" ],
-    [ "VMwareCommand.__unnamed3__", "da/dbe/vmware__mouse_8cpp.html#d1/dec/unionVMwareCommand_8____unnamed3____", "da/dbe/vmware__mouse_8cpp_d1/dec/unionVMwareCommand_8____unnamed3____" ],
-    [ "VMwareCommand.__unnamed5__", "da/dbe/vmware__mouse_8cpp.html#d0/d80/unionVMwareCommand_8____unnamed5____", "da/dbe/vmware__mouse_8cpp_d0/d80/unionVMwareCommand_8____unnamed5____" ],
-    [ "VMwareCommand.__unnamed7__", "da/dbe/vmware__mouse_8cpp.html#d9/d28/unionVMwareCommand_8____unnamed7____", "da/dbe/vmware__mouse_8cpp_d9/d28/unionVMwareCommand_8____unnamed7____" ]
+    [ "VMwareCommand", "d8/d91/VMwareMouseDriver_8cpp.html#dd/d98/structVMwareCommand", "d8/d91/VMwareMouseDriver_8cpp_dd/d98/structVMwareCommand" ],
+    [ "VMwareCommand.__unnamed1__", "d8/d91/VMwareMouseDriver_8cpp.html#d9/d25/unionVMwareCommand_8____unnamed1____", "d8/d91/VMwareMouseDriver_8cpp_d9/d25/unionVMwareCommand_8____unnamed1____" ],
+    [ "VMwareCommand.__unnamed3__", "d8/d91/VMwareMouseDriver_8cpp.html#d1/dec/unionVMwareCommand_8____unnamed3____", "d8/d91/VMwareMouseDriver_8cpp_d1/dec/unionVMwareCommand_8____unnamed3____" ],
+    [ "VMwareCommand.__unnamed5__", "d8/d91/VMwareMouseDriver_8cpp.html#d0/d80/unionVMwareCommand_8____unnamed5____", "d8/d91/VMwareMouseDriver_8cpp_d0/d80/unionVMwareCommand_8____unnamed5____" ],
+    [ "VMwareCommand.__unnamed7__", "d8/d91/VMwareMouseDriver_8cpp.html#d9/d28/unionVMwareCommand_8____unnamed7____", "d8/d91/VMwareMouseDriver_8cpp_d9/d28/unionVMwareCommand_8____unnamed7____" ]
 ];

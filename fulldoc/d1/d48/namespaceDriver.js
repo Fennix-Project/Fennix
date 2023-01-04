@@ -14,6 +14,7 @@ var namespaceDriver =
       [ "UNKNOWN_DRIVER_TYPE", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a", null ],
       [ "PCI_DEVICE_NOT_FOUND", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c", null ]
     ] ],
+    [ "UNUSED", "d1/d48/namespaceDriver.html#a940529db9c9924f62d18930b6e101eb6", null ],
     [ "void", "d1/d48/namespaceDriver.html#a0e482219b5f1146ae92655e6c7fc0e64", null ],
     [ "DriverTypesName", "d1/d48/namespaceDriver.html#ab6b0cdd8de3bb231a618dd471281906f", null ]
 ];

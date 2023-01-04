@@ -87,7 +87,8 @@ $(document).ready(function(){initNavTree('d7/d8d/CPU_8cpp.html','../../'); initR
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">CPU.cpp File Reference</div>  </div>
 </div><!--header-->
@@ -96,6 +97,7 @@ $(document).ready(function(){initNavTree('d7/d8d/CPU_8cpp.html','../../'); initR
 <code>#include &lt;memory.hpp&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d82/convert_8h_source.html">convert.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../kernel.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d7/d8d/CPU_8cpp_source.html">Go to the source code of this file.</a></p>
@@ -117,18 +119,29 @@ Functions</h2></td></tr>
 <tr class="memitem:aa6d49cc4518ee81a7c344eee5a1a874a"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#aa6d49cc4518ee81a7c344eee5a1a874a">CPU::Hypervisor</a> ()</td></tr>
 <tr class="memdesc:aa6d49cc4518ee81a7c344eee5a1a874a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> hypervisor vendor.  <a href="../../d7/dfa/namespaceCPU.html#aa6d49cc4518ee81a7c344eee5a1a874a">More...</a><br /></td></tr>
 <tr class="separator:aa6d49cc4518ee81a7c344eee5a1a874a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d106989c5e6c864175365b9ed51c960"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a0d106989c5e6c864175365b9ed51c960">CPU::Interrupts</a> (InterruptsType <a class="el" href="../../d8/da3/disk_8hpp.html#aeff746a68ed515a1d9f0c40a38dd200b">Type</a>=Check)</td></tr>
+<tr class="memitem:a0d106989c5e6c864175365b9ed51c960"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a0d106989c5e6c864175365b9ed51c960">CPU::Interrupts</a> (InterruptsType <a class="el" href="../../d3/d34/eth_8hpp.html#a8e28e365723338285d89f0bb12bb0056">Type</a>=Check)</td></tr>
 <tr class="memdesc:a0d106989c5e6c864175365b9ed51c960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if interrupts are enabled.  <a href="../../d7/dfa/namespaceCPU.html#a0d106989c5e6c864175365b9ed51c960">More...</a><br /></td></tr>
 <tr class="separator:a0d106989c5e6c864175365b9ed51c960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91241794b7196a732d94084fc08f6ec5"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">CPU::PageTable</a> (void *PT=nullptr)</td></tr>
 <tr class="memdesc:a91241794b7196a732d94084fc08f6ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get/Set the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>'s page table.  <a href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">More...</a><br /></td></tr>
 <tr class="separator:a91241794b7196a732d94084fc08f6ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab40c41b740716660e53aa57978e59281"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#ab40c41b740716660e53aa57978e59281">CPU::InitializeFeatures</a> ()</td></tr>
-<tr class="memdesc:ab40c41b740716660e53aa57978e59281"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be used only once.  <a href="../../d7/dfa/namespaceCPU.html#ab40c41b740716660e53aa57978e59281">More...</a><br /></td></tr>
-<tr class="separator:ab40c41b740716660e53aa57978e59281"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a262b3d242b975465735fe70c6ed8307d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a262b3d242b975465735fe70c6ed8307d">CPU::InitializeFeatures</a> (long Core)</td></tr>
+<tr class="memdesc:a262b3d242b975465735fe70c6ed8307d"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be used only once.  <a href="../../d7/dfa/namespaceCPU.html#a262b3d242b975465735fe70c6ed8307d">More...</a><br /></td></tr>
+<tr class="separator:a262b3d242b975465735fe70c6ed8307d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40205e4faca29a36b5e2edf11c5fcd93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">CPU::Counter</a> ()</td></tr>
 <tr class="memdesc:a40205e4faca29a36b5e2edf11c5fcd93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> counter value.  <a href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">More...</a><br /></td></tr>
 <tr class="separator:a40205e4faca29a36b5e2edf11c5fcd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ab3f190b40194d726cf842f66059082"><td class="memItemLeft" align="right" valign="top">x86SIMDType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a6ab3f190b40194d726cf842f66059082">CPU::CheckSIMD</a> ()</td></tr>
+<tr class="memdesc:a6ab3f190b40194d726cf842f66059082"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check SIMD support. It will return the highest supported SIMD type.  <a href="../../d7/dfa/namespaceCPU.html#a6ab3f190b40194d726cf842f66059082">More...</a><br /></td></tr>
+<tr class="separator:a6ab3f190b40194d726cf842f66059082"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d16e0a922dd9127759b9d447c983ffd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a3d16e0a922dd9127759b9d447c983ffd">CPU::CheckSIMD</a> (x86SIMDType <a class="el" href="../../d3/d34/eth_8hpp.html#a8e28e365723338285d89f0bb12bb0056">Type</a>)</td></tr>
+<tr class="memdesc:a3d16e0a922dd9127759b9d447c983ffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check SIMD support.  <a href="../../d7/dfa/namespaceCPU.html#a3d16e0a922dd9127759b9d447c983ffd">More...</a><br /></td></tr>
+<tr class="separator:a3d16e0a922dd9127759b9d447c983ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a244fa33d0fa8ba7d4481cb5627cf2337"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a244fa33d0fa8ba7d4481cb5627cf2337">CPU::SSEEnabled</a> = <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></td></tr>
+<tr class="separator:a244fa33d0fa8ba7d4481cb5627cf2337"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

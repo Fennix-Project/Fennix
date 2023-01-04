@@ -10,5 +10,6 @@ var KBDrv_8cpp =
     [ "LowerCase", "d6/dc0/KBDrv_8cpp.html#a39e6cbd92507fd69495893910ace6f1f", null ],
     [ "sc_ascii_high", "d6/dc0/KBDrv_8cpp.html#a29757af72ff3074e4f11e0be67431b88", null ],
     [ "sc_ascii_low", "d6/dc0/KBDrv_8cpp.html#a843e356ba12f99b266c7a21d3472f525", null ],
+    [ "scanCode", "d6/dc0/KBDrv_8cpp.html#ae2147148faee2956d5ae41a7dbfbc0ba", null ],
     [ "UserInputBuffer", "d6/dc0/KBDrv_8cpp.html#a5d68a69326e7908216d107aef0e3dd24", null ]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['xuint64_5ft_8458',['Xuint64_t',['../d8/d12/Xalloc_8hpp.html#a23119a4470c724b273abe91ae9a71c99',1,'Xalloc.hpp']]]
+  ['wchar_9600',['WCHAR',['../de/d63/msexec_8h.html#aad61bc3eae1804d8784adebdce0721d3',1,'msexec.h']]],
+  ['wint_5ft_9601',['wint_t',['../d9/d49/types_8h.html#abd99e7f4ef6b86204820c995f988403b',1,'types.h']]],
+  ['word_9602',['WORD',['../de/d63/msexec_8h.html#a197942eefa7db30960ae396d68339b97',1,'msexec.h']]]
 ];

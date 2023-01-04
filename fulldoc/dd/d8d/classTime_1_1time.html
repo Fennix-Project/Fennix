@@ -105,6 +105,10 @@ Data Structures</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a79937b39cb6ad50261411d2b4c1b7b7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8d/classTime_1_1time.html#a79937b39cb6ad50261411d2b4c1b7b7b">Sleep</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Milliseconds)</td></tr>
 <tr class="separator:a79937b39cb6ad50261411d2b4c1b7b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fb6d85ca30d0a2dfab46ede31bfa2f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8d/classTime_1_1time.html#a3fb6d85ca30d0a2dfab46ede31bfa2f6">GetCounter</a> ()</td></tr>
+<tr class="separator:a3fb6d85ca30d0a2dfab46ede31bfa2f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a012cab762805bbdfe71cfcfb7b31d027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8d/classTime_1_1time.html#a012cab762805bbdfe71cfcfb7b31d027">CalculateTarget</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Milliseconds)</td></tr>
+<tr class="separator:a012cab762805bbdfe71cfcfb7b31d027"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee23853afb1719c6582b2ad1093947ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8d/classTime_1_1time.html#aee23853afb1719c6582b2ad1093947ba">time</a> (void *<a class="el" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a>)</td></tr>
 <tr class="separator:aee23853afb1719c6582b2ad1093947ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d3d3ad01473797014190b24b65eb36b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d8d/classTime_1_1time.html#a7d3d3ad01473797014190b24b65eb36b">~time</a> ()</td></tr>
@@ -213,35 +217,35 @@ Reserved4</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00025">25</a> of file <a class="el" href="../../d0/dc2/Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">if</span> (_acpi)</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            this-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a> = _acpi;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a> = (<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *)this-&gt;acpi;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a>-&gt;HPET)</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                Memory::Virtual().Map((<span class="keywordtype">void</span> *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a>-&gt;HPET-&gt;Address.Address,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                      (<span class="keywordtype">void</span> *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a>-&gt;HPET-&gt;Address.Address,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                      <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1e2d2776ce51ce60e03be92e1003a22a">Memory::PTFlag::RW</a> | Memory::PTFlag::PCD);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                this-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a> = (<span class="keywordtype">void</span> *)acpi-&gt;<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#ab2f43b56f167d59f3b384d0fc7ae93e0">HPET</a>-&gt;<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#a2f7e8bc46b16b142659efb47db810c42">Address</a>.<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#affc05b6307056afb103c38efd3e2e4dc">Address</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                HPET *<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a> = (HPET *)this-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;%s timer is at address %016p&quot;</span>, acpi-&gt;<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#ab2f43b56f167d59f3b384d0fc7ae93e0">HPET</a>-&gt;<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#a0f8908b8fc3c005d30a763582d1207bc">Header</a>.<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#a86ca4e63934747fae0da3801452ca027">OEMID</a>, (<span class="keywordtype">void</span> *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a>-&gt;HPET-&gt;Address.Address);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <a class="code" href="../../dd/d8d/classTime_1_1time.html#a9266676f52330e93bc38435aef59c240">clk</a> = <a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>-&gt;GeneralCapabilities &gt;&gt; 32;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                mmoutq(&amp;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>-&gt;GeneralConfiguration, 0);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                mmoutq(&amp;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>-&gt;MainCounterValue, 0);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                mmoutq(&amp;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>-&gt;GeneralConfiguration, 1);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            }</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;HPET not found&quot;</span>);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            }</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00050">50</a> of file <a class="el" href="../../d0/dc2/Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span> (_acpi)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            this-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a> = _acpi;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a> = (<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *)this-&gt;acpi;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a>-&gt;HPET)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                Memory::Virtual().Map((<span class="keywordtype">void</span> *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a>-&gt;HPET-&gt;Address.Address,</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                      (<span class="keywordtype">void</span> *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a>-&gt;HPET-&gt;Address.Address,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                      <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1e2d2776ce51ce60e03be92e1003a22a">Memory::PTFlag::RW</a> | Memory::PTFlag::PCD);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                this-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a> = (<span class="keywordtype">void</span> *)acpi-&gt;<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#ab2f43b56f167d59f3b384d0fc7ae93e0">HPET</a>-&gt;<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#a2f7e8bc46b16b142659efb47db810c42">Address</a>.<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#affc05b6307056afb103c38efd3e2e4dc">Address</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                HPET *<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a> = (HPET *)this-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;%s timer is at address %016p&quot;</span>, acpi-&gt;<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#ab2f43b56f167d59f3b384d0fc7ae93e0">HPET</a>-&gt;<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#a0f8908b8fc3c005d30a763582d1207bc">Header</a>.<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#a86ca4e63934747fae0da3801452ca027">OEMID</a>, (<span class="keywordtype">void</span> *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">acpi</a>-&gt;HPET-&gt;Address.Address);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <a class="code" href="../../dd/d8d/classTime_1_1time.html#a9266676f52330e93bc38435aef59c240">clk</a> = <a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>-&gt;GeneralCapabilities &gt;&gt; 32;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                mmoutq(&amp;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>-&gt;GeneralConfiguration, 0);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                mmoutq(&amp;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>-&gt;MainCounterValue, 0);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                mmoutq(&amp;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>-&gt;GeneralConfiguration, 1);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;HPET not found&quot;</span>);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_a1e2d2776ce51ce60e03be92e1003a22a"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1e2d2776ce51ce60e03be92e1003a22a">RW</a></div><div class="ttdeci">uint8_t RW</div><div class="ttdoc">Readable bit for code segments, writable bit for data segments.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00009">gdt.hpp:9</a></div></div>
 <div class="ttc" id="aclassACPI_1_1ACPI_html"><div class="ttname"><a href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00013">acpi.hpp:14</a></div></div>
 <div class="ttc" id="aclassACPI_1_1ACPI_html_a0f8908b8fc3c005d30a763582d1207bc"><div class="ttname"><a href="../../d3/d21/classACPI_1_1ACPI.html#a0f8908b8fc3c005d30a763582d1207bc">ACPI::ACPI::HPETHeader::Header</a></div><div class="ttdeci">ACPIHeader Header</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00046">acpi.hpp:46</a></div></div>
@@ -252,9 +256,9 @@ Reserved4</td>
 <div class="ttc" id="aclassTime_1_1time_html_a72eacc0532d25bab413418a89c2c8638"><div class="ttname"><a href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">Time::time::hpet</a></div><div class="ttdeci">void * hpet</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00033">time.hpp:33</a></div></div>
 <div class="ttc" id="aclassTime_1_1time_html_a9266676f52330e93bc38435aef59c240"><div class="ttname"><a href="../../dd/d8d/classTime_1_1time.html#a9266676f52330e93bc38435aef59c240">Time::time::clk</a></div><div class="ttdeci">uint32_t clk</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00034">time.hpp:34</a></div></div>
 <div class="ttc" id="aclassTime_1_1time_html_a9815a1c91ce9b75a63beeee3d3ba7bfb"><div class="ttname"><a href="../../dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb">Time::time::acpi</a></div><div class="ttdeci">void * acpi</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d99/time_8hpp_source.html#l00032">time.hpp:32</a></div></div>
-<div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00043">debug.h:43</a></div></div>
+<div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00054">debug.h:54</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00032">acpi</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00035">ACPI::ACPI::GenericAddressStructure::Address</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00053">ACPI::ACPI::HPETHeader::Address</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00034">clk</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00046">ACPI::ACPI::HPETHeader::Header</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00171">ACPI::ACPI::HPET</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00033">hpet</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00022">ACPI::ACPI::ACPIHeader::OEMID</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00009">RW</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00043">trace</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00032">acpi</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00035">ACPI::ACPI::GenericAddressStructure::Address</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00053">ACPI::ACPI::HPETHeader::Address</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00034">clk</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00046">ACPI::ACPI::HPETHeader::Header</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00171">ACPI::ACPI::HPET</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00033">hpet</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00022">ACPI::ACPI::ACPIHeader::OEMID</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00009">RW</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00054">trace</a>.</p>
 
 </div>
 </div>
@@ -273,13 +277,70 @@ Reserved4</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../d0/dc2/Timer_8cpp_source.html">Timer.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00080">80</a> of file <a class="el" href="../../d0/dc2/Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a012cab762805bbdfe71cfcfb7b31d027"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a012cab762805bbdfe71cfcfb7b31d027">&#9670;&nbsp;</a></span>CalculateTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Time::time::CalculateTarget </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
+          <td class="paramname"><em>Milliseconds</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d0/dc2/Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">return</span> mminq(&amp;((HPET *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>)-&gt;MainCounterValue) + (Milliseconds * 1000000000000) / <a class="code" href="../../dd/d8d/classTime_1_1time.html#a9266676f52330e93bc38435aef59c240">clk</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00034">clk</a>, and <a class="el" href="../../de/d99/time_8hpp_source.html#l00033">hpet</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00736">Tasking::Task::Sleep()</a>.</p>
+
+</div>
+</div>
+<a id="a3fb6d85ca30d0a2dfab46ede31bfa2f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fb6d85ca30d0a2dfab46ede31bfa2f6">&#9670;&nbsp;</a></span>GetCounter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Time::time::GetCounter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../d0/dc2/Timer_8cpp_source.html">Timer.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">return</span> mminq(&amp;((HPET *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>)-&gt;MainCounterValue);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00033">hpet</a>.</p>
+
+</div>
+</div>
 <a id="a79937b39cb6ad50261411d2b4c1b7b7b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a79937b39cb6ad50261411d2b4c1b7b7b">&#9670;&nbsp;</a></span>Sleep()</h2>
 
@@ -299,18 +360,28 @@ Reserved4</td>
 <p class="definition">Definition at line <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00015">15</a> of file <a class="el" href="../../d0/dc2/Timer_8cpp_source.html">Timer.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Target = mminq(&amp;((HPET *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>)-&gt;MainCounterValue) + (Milliseconds * 1000000000) / <a class="code" href="../../dd/d8d/classTime_1_1time.html#a9266676f52330e93bc38435aef59c240">clk</a>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">while</span> (mminq(&amp;((HPET *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>)-&gt;MainCounterValue) &lt; Target)</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <a class="code" href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">CPU::Pause</a>();</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00137">types.h:137</a></div></div>
-<div class="ttc" id="anamespaceCPU_html_aa28a1c6e21b176efea57cc6bc092421e"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">CPU::Pause</a></div><div class="ttdeci">static SafeFunction void Pause(bool Loop=false)</div><div class="ttdoc">Pause the CPU.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00146">cpu.hpp:146</a></div></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Target = mminq(&amp;((HPET *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>)-&gt;MainCounterValue) + (Milliseconds * 1000000000000) / <a class="code" href="../../dd/d8d/classTime_1_1time.html#a9266676f52330e93bc38435aef59c240">clk</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">Counter</a> = mminq(&amp;((HPET *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>)-&gt;MainCounterValue);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">while</span> (<a class="code" href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">Counter</a> &lt; Target)</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <a class="code" href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">Counter</a> = mminq(&amp;((HPET *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>)-&gt;MainCounterValue);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <a class="code" href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">CPU::Pause</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">while</span> (mminq(&amp;((HPET *)<a class="code" href="../../dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638">hpet</a>)-&gt;MainCounterValue) &lt; Target)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">CPU::Pause</a>();</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00114">types.h:114</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a40205e4faca29a36b5e2edf11c5fcd93"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">CPU::Counter</a></div><div class="ttdeci">uintptr_t Counter()</div><div class="ttdoc">Get CPU counter value.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8d/CPU_8cpp_source.html#l00318">CPU.cpp:318</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_aa28a1c6e21b176efea57cc6bc092421e"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">CPU::Pause</a></div><div class="ttdeci">static SafeFunction void Pause(bool Loop=false)</div><div class="ttdoc">Pause the CPU.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00190">cpu.hpp:190</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00034">clk</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00033">hpet</a>, and <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00146">CPU::Pause()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d99/time_8hpp_source.html#l00034">clk</a>, <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00318">CPU::Counter()</a>, <a class="el" href="../../de/d99/time_8hpp_source.html#l00033">hpet</a>, and <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00190">CPU::Pause()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00320">APIC::Timer::Timer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00349">APIC::Timer::Timer()</a>.</p>
 
 </div>
 </div>
@@ -337,7 +408,7 @@ Reserved4</td>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d99/time_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00025">time()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00050">time()</a>.</p>
 
 </div>
 </div>
@@ -363,7 +434,7 @@ Reserved4</td>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d99/time_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00015">Sleep()</a>, and <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00025">time()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00042">CalculateTarget()</a>, <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00015">Sleep()</a>, and <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00050">time()</a>.</p>
 
 </div>
 </div>
@@ -389,7 +460,7 @@ Reserved4</td>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d99/time_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00015">Sleep()</a>, and <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00025">time()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00042">CalculateTarget()</a>, <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00034">GetCounter()</a>, <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00015">Sleep()</a>, and <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00050">time()</a>.</p>
 
 </div>
 </div>

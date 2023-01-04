@@ -22,6 +22,7 @@ var task_8hpp =
       [ "OldUserTime", "d9/d3e/namespaceTasking.html#ae919ca007f2a6b1fda58a218c85aaa33", null ],
       [ "Priority", "d9/d3e/namespaceTasking.html#a44d611ebcf3a2ec14875e8eab4125a18", null ],
       [ "Second", "d9/d3e/namespaceTasking.html#a39a8d7ea7bb316e3bc789f66686f9f4b", null ],
+      [ "SleepUntil", "d9/d3e/namespaceTasking.html#a28543458a62c2c1b26c5ff25c951b916", null ],
       [ "SpawnTime", "d9/d3e/namespaceTasking.html#a95a4c55b1816d16d967879f6734ea06f", null ],
       [ "Usage", "d9/d3e/namespaceTasking.html#ae55472b2aca41c753bdb80d8b36e48ce", null ],
       [ "UserTime", "d9/d3e/namespaceTasking.html#a059654ee8fa36c9a9780453da0ca7fe0", null ],

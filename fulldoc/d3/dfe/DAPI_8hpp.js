@@ -100,8 +100,16 @@ var DAPI_8hpp =
     ] ],
     [ "KAPIDriverTalk.Disk.AHCI", "d2/d36/structKAPIDriverTalk_8Disk_8AHCI.html", "d2/d36/structKAPIDriverTalk_8Disk_8AHCI" ],
     [ "KernelCallback.NetworkCallback", "d3/dfe/DAPI_8hpp.html#d9/d9a/structKernelCallback_8NetworkCallback", [
+      [ "Fetch", "d3/dfe/DAPI_8hpp.html#a4ea7755f84f02d23876d90be2f9765cf", null ],
+      [ "Send", "d3/dfe/DAPI_8hpp.html#a94966d90747b97d1f0f206c98a8b1ac3", null ]
+    ] ],
+    [ "KernelCallback.NetworkCallback.Send", "d3/dfe/DAPI_8hpp.html#d4/dc4/structKernelCallback_8NetworkCallback_8Send", [
       [ "Data", "d3/dfe/DAPI_8hpp.html#af6068daa29dbb05a7ead1e3b5a48bbee", null ],
       [ "Length", "d3/dfe/DAPI_8hpp.html#aba2a9c6c8c77e03f83ef8bf543612275", null ]
+    ] ],
+    [ "KernelCallback.NetworkCallback.Fetch", "d3/dfe/DAPI_8hpp.html#de/d47/structKernelCallback_8NetworkCallback_8Fetch", [
+      [ "MAC", "d3/dfe/DAPI_8hpp.html#a2e25c285356cbb0ed8785a1377027d79", null ],
+      [ "Name", "d3/dfe/DAPI_8hpp.html#a57d948c6d2375efae898cb507207eeee", null ]
     ] ],
     [ "KernelCallback.DiskCallback", "d3/dfe/DAPI_8hpp.html#dc/d0c/structKernelCallback_8DiskCallback", [
       [ "Fetch", "d3/dfe/DAPI_8hpp.html#a4ea7755f84f02d23876d90be2f9765cf", null ],
@@ -135,16 +143,22 @@ var DAPI_8hpp =
     [ "KernelCallback.InterruptInfo", "d3/dfe/DAPI_8hpp.html#df/d3a/structKernelCallback_8InterruptInfo", [
       [ "Vector", "d3/dfe/DAPI_8hpp.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
+    [ ".Send", "d3/dfe/DAPI_8hpp.html#d4/dca/struct_8Send", [
+      [ "Data", "d3/dfe/DAPI_8hpp.html#af6068daa29dbb05a7ead1e3b5a48bbee", null ],
+      [ "Length", "d3/dfe/DAPI_8hpp.html#aba2a9c6c8c77e03f83ef8bf543612275", null ]
+    ] ],
+    [ ".Fetch", "d3/dfe/DAPI_8hpp.html#d4/d04/struct_8Fetch", [
+      [ "BytesPerSector", "d3/dfe/DAPI_8hpp.html#a9ce95649927a678d46b15cab5507e537", null ],
+      [ "MAC", "d3/dfe/DAPI_8hpp.html#a2e25c285356cbb0ed8785a1377027d79", null ],
+      [ "Name", "d3/dfe/DAPI_8hpp.html#a57d948c6d2375efae898cb507207eeee", null ],
+      [ "Ports", "d3/dfe/DAPI_8hpp.html#a407c4e9fac86b98147da49acd4fa0d01", null ]
+    ] ],
     [ ".RW", "d3/dfe/DAPI_8hpp.html#d4/d1f/struct_8RW", [
       [ "Buffer", "d3/dfe/DAPI_8hpp.html#a7e62bc342f41c946868f0ea6f0b712d8", null ],
       [ "Port", "d3/dfe/DAPI_8hpp.html#a60aaf44d4b562252c04db7f98497e9aa", null ],
       [ "Sector", "d3/dfe/DAPI_8hpp.html#aeadc185cbe8bcd05a5deaf7b99064d56", null ],
       [ "SectorCount", "d3/dfe/DAPI_8hpp.html#af806bc55763f07b2395281bb62502dca", null ],
       [ "Write", "d3/dfe/DAPI_8hpp.html#a1129c0e4d43f2d121652a7302712cff6", null ]
-    ] ],
-    [ ".Fetch", "d3/dfe/DAPI_8hpp.html#d4/d04/struct_8Fetch", [
-      [ "BytesPerSector", "d3/dfe/DAPI_8hpp.html#a9ce95649927a678d46b15cab5507e537", null ],
-      [ "Ports", "d3/dfe/DAPI_8hpp.html#a407c4e9fac86b98147da49acd4fa0d01", null ]
     ] ],
     [ ".Mouse", "d3/dfe/DAPI_8hpp.html#db/d13/struct_8Mouse", [
       [ "Buttons", "d3/dfe/DAPI_8hpp.html#a5b3ec15499a125805b5bbf8e4afcec8c", null ],
@@ -196,12 +210,12 @@ var DAPI_8hpp =
     [ "__attribute__", "d3/dfe/DAPI_8hpp.html#ac5db1d1ad15878bb0ce144b451a7f2c6", null ],
     [ "__attribute__", "d3/dfe/DAPI_8hpp.html#a16a4a773e04a271888eec2e957e4ef71", null ],
     [ "Command", "d3/dfe/DAPI_8hpp.html#a4909e6191108dd46d0ee86b97899f1cf", null ],
-    [ "DiskCallback", "d3/dfe/DAPI_8hpp.html#a2f62a5a99a7ef7a31bb2583c0ef80d1d", null ],
+    [ "DiskCallback", "d3/dfe/DAPI_8hpp.html#a4a7474b1a244fd1c664def2ee202bfa7", null ],
     [ "Info", "d3/dfe/DAPI_8hpp.html#af38d995e497b6690f5b942df9a9f272d", null ],
-    [ "InputCallback", "d3/dfe/DAPI_8hpp.html#ac2ce481b97200a40322146165442b685", null ],
-    [ "InterruptInfo", "d3/dfe/DAPI_8hpp.html#a19522a05fe87a49fd6ec77657c8f1c3e", null ],
+    [ "InputCallback", "d3/dfe/DAPI_8hpp.html#a6c87287b235daa183ad2650f0d7cfa8b", null ],
+    [ "InterruptInfo", "d3/dfe/DAPI_8hpp.html#a4661fdad4f6f8e862588e6ef6638fddc", null ],
     [ "Memory", "d3/dfe/DAPI_8hpp.html#a60f1dbaaf5ff071fb1ec94ea77c2d887", null ],
-    [ "NetworkCallback", "d3/dfe/DAPI_8hpp.html#a423ca27f762e679eaca000e509cbc8bb", null ],
+    [ "NetworkCallback", "d3/dfe/DAPI_8hpp.html#a01c61dbb395ee0d349d911d28a3c4b48", null ],
     [ "PCI", "d3/dfe/DAPI_8hpp.html#aba2f81613922672c077977ad68efc38d", null ],
     [ "RawData", "d3/dfe/DAPI_8hpp.html#a59d2095804075e9ce1be76c736260054", null ],
     [ "RawPtr", "d3/dfe/DAPI_8hpp.html#a80e8e2d24441e8d4b5a14123ed07cf79", null ],

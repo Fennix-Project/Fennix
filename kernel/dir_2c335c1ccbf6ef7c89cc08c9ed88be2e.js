@@ -2,6 +2,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
 [
     [ "boot", "dir_90ce214ac5ba1a80d8a05e56215a902a.html", "dir_90ce214ac5ba1a80d8a05e56215a902a" ],
     [ "filesystem", "dir_89bacd5653b0e46fa5f67f78c87fadfb.html", "dir_89bacd5653b0e46fa5f67f78c87fadfb" ],
+    [ "net", "dir_7d037a37ac426a4d7d1a8da0a2cc4a25.html", "dir_7d037a37ac426a4d7d1a8da0a2cc4a25" ],
     [ "abi.h", "df/d31/abi_8h.html", "df/d31/abi_8h" ],
     [ "assert.h", "dc/da7/assert_8h.html", "dc/da7/assert_8h" ],
     [ "atomic.hpp", "d5/d6c/atomic_8hpp.html", "d5/d6c/atomic_8hpp" ],
@@ -21,6 +22,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "elf.h", "d1/d9e/elf_8h.html", "d1/d9e/elf_8h" ],
     [ "exec.hpp", "d2/d83/exec_8hpp.html", "d2/d83/exec_8hpp" ],
     [ "filesystem.hpp", "d1/d85/filesystem_8hpp.html", "d1/d85/filesystem_8hpp" ],
+    [ "gui.hpp", "dc/d7c/gui_8hpp.html", "dc/d7c/gui_8hpp" ],
     [ "hashmap.hpp", "d2/d89/hashmap_8hpp.html", [
       [ "HashNode", "d7/d56/classHashNode.html", "d7/d56/classHashNode" ],
       [ "HashMap", "db/d1a/classHashMap.html", "db/d1a/classHashMap" ]
@@ -40,9 +42,12 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     ] ],
     [ "printf.h", "d3/d6b/printf_8h.html", "d3/d6b/printf_8h" ],
     [ "rand.hpp", "d4/d0b/rand_8hpp.html", "d4/d0b/rand_8hpp" ],
-    [ "recovery.hpp", "dd/de7/recovery_8hpp.html", null ],
+    [ "recovery.hpp", "dd/de7/recovery_8hpp.html", [
+      [ "KernelRecovery", "d0/db2/classRecovery_1_1KernelRecovery.html", "d0/db2/classRecovery_1_1KernelRecovery" ]
+    ] ],
     [ "smartptr.hpp", "d2/d34/smartptr_8hpp.html", "d2/d34/smartptr_8hpp" ],
     [ "smp.hpp", "d4/d33/smp_8hpp.html", "d4/d33/smp_8hpp" ],
+    [ "std.hpp", "d1/d8c/std_8hpp.html", "d1/d8c/std_8hpp" ],
     [ "stdint.h", "df/dd8/stdint_8h.html", null ],
     [ "symbols.hpp", "d7/d94/symbols_8hpp.html", "d7/d94/symbols_8hpp" ],
     [ "sys.h", "d9/d87/sys_8h.html", "d9/d87/sys_8h" ],

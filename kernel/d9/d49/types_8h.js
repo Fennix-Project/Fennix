@@ -94,7 +94,6 @@ var types_8h =
     [ "O3", "d9/d49/types_8h.html#a9219b301ab2bc696f1ec9e1ebe2ff7e8", null ],
     [ "Ofast", "d9/d49/types_8h.html#a6b06136baaecc07c2e7eaed092ab784a", null ],
     [ "offsetof", "d9/d49/types_8h.html#afd049f7ad59dbe455f460807475c2841", null ],
-    [ "OPTMZ", "d9/d49/types_8h.html#ae72beea8f55883a8e6936a7ee9caf32e", null ],
     [ "Os", "d9/d49/types_8h.html#ab16f9a2566f591e74290d7153d4ae9c1", null ],
     [ "POKE", "d9/d49/types_8h.html#a116392a97f8ae7523a63a135a0403e74", null ],
     [ "PTRDIFF_MAX", "d9/d49/types_8h.html#add2ef7bffac19cfdd1f4b5495409672f", null ],

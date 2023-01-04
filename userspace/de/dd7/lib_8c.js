@@ -8,5 +8,6 @@ var lib_8c =
     [ "free", "d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4", null ],
     [ "getenv", "de/dd7/lib_8c.html#abc6595dbf6880c71628fecf0dbb23d66", null ],
     [ "malloc", "d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c", null ],
-    [ "realloc", "d8/dc8/group__ALLOCHOOKS.html#gadc710223dc26577d1e49cac212d7d083", null ]
+    [ "realloc", "d8/dc8/group__ALLOCHOOKS.html#gadc710223dc26577d1e49cac212d7d083", null ],
+    [ "environ", "de/dd7/lib_8c.html#aa006daaf11f1e2e45a6ababaf463212b", null ]
 ];

@@ -254,35 +254,44 @@ Type</td>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordflow">return</span> DEVICE_NOT_SUPPORTED;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">case</span> InterruptReason:</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">case</span> FetchReason:</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">case</span> SendReason:</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">case</span> StopReason:</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="comment">// TODO: Stop the driver.</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../dc/d7a/rtl8169_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Driver stopped.&quot;</span>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="../../dc/d7a/rtl8169_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Util.memcpy(Data-&gt;NetworkCallback.Fetch.Name, (<span class="keywordtype">void</span> *)<span class="stringliteral">&quot;RTL-8169&quot;</span>, 9);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        Data-&gt;NetworkCallback.Fetch.MAC = <a class="code" href="../../dc/d7a/rtl8169_8cpp.html#af3a290a365c813d5b3502dd3e9aa2e8a">MAC</a>.<a class="code" href="../../d0/d48/structMediaAccessControl.html#a4cf9ccbbbf72aea411f50447928ec943">ToHex</a>();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">case</span> InterruptReason:</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">case</span> SendReason:</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    {</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">case</span> StopReason:</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <a class="code" href="../../dc/d7a/rtl8169_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Unknown reason.&quot;</span>);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="comment">// TODO: Stop the driver.</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="../../dc/d7a/rtl8169_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Driver stopped.&quot;</span>);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">return</span> OK;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <a class="code" href="../../dc/d7a/rtl8169_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Unknown reason.&quot;</span>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">return</span> OK;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;}</div>
 <div class="ttc" id="apci_8h_html_a0d803a470f86cb8c4da25fe9432a88e1"><div class="ttname"><a href="../../d9/d97/pci_8h.html#a0d803a470f86cb8c4da25fe9432a88e1">PCIDeviceHeader::VendorID</a></div><div class="ttdeci">uint16_t VendorID</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00035">pci.h:35</a></div></div>
 <div class="ttc" id="apci_8h_html_a80c380308179846aeae6ab36c6198897"><div class="ttname"><a href="../../d9/d97/pci_8h.html#a80c380308179846aeae6ab36c6198897">PCIDeviceHeader::DeviceID</a></div><div class="ttdeci">uint16_t DeviceID</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00036">pci.h:36</a></div></div>
 <div class="ttc" id="apci_8h_html_d8/dbb/structPCIDeviceHeader"><div class="ttname"><a href="../../d9/d97/pci_8h.html#d8/dbb/structPCIDeviceHeader">PCIDeviceHeader</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00033">pci.h:34</a></div></div>
+<div class="ttc" id="artl8169_8cpp_html_a8829069e57a9845d74b32ce27a618ccd"><div class="ttname"><a href="../../dc/d7a/rtl8169_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a></div><div class="ttdeci">KernelAPI * KAPI</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d7a/rtl8169_8cpp_source.html#l00030">rtl8169.cpp:30</a></div></div>
 <div class="ttc" id="artl8169_8cpp_html_a93bdbb2eb161fecc1c12d7b87345e718"><div class="ttname"><a href="../../dc/d7a/rtl8169_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a></div><div class="ttdeci">#define print(msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d7a/rtl8169_8cpp_source.html#l00032">rtl8169.cpp:32</a></div></div>
 <div class="ttc" id="artl8169_8cpp_html_ad97ca0bf263d0a3ed7372f3f45b34f2f"><div class="ttname"><a href="../../dc/d7a/rtl8169_8cpp.html#ad97ca0bf263d0a3ed7372f3f45b34f2f">PCIBaseAddress</a></div><div class="ttdeci">PCIDeviceHeader * PCIBaseAddress</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d7a/rtl8169_8cpp_source.html#l00043">rtl8169.cpp:43</a></div></div>
+<div class="ttc" id="artl8169_8cpp_html_af3a290a365c813d5b3502dd3e9aa2e8a"><div class="ttname"><a href="../../dc/d7a/rtl8169_8cpp.html#af3a290a365c813d5b3502dd3e9aa2e8a">MAC</a></div><div class="ttdeci">MediaAccessControl MAC</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d7a/rtl8169_8cpp_source.html#l00046">rtl8169.cpp:46</a></div></div>
+<div class="ttc" id="astructMediaAccessControl_html_a4cf9ccbbbf72aea411f50447928ec943"><div class="ttname"><a href="../../d0/d48/structMediaAccessControl.html#a4cf9ccbbbf72aea411f50447928ec943">MediaAccessControl::ToHex</a></div><div class="ttdeci">uint48_t ToHex()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d47/netools_8h_source.html#l00042">netools.h:42</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d97/pci_8h_source.html#l00036">PCIDeviceHeader::DeviceID</a>, <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00043">PCIBaseAddress</a>, <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00032">print</a>, and <a class="el" href="../../d9/d97/pci_8h_source.html#l00035">PCIDeviceHeader::VendorID</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d97/pci_8h_source.html#l00036">PCIDeviceHeader::DeviceID</a>, <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00030">KAPI</a>, <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00046">MAC</a>, <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00043">PCIBaseAddress</a>, <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00032">print</a>, <a class="el" href="../../d6/d47/netools_8h_source.html#l00042">MediaAccessControl::ToHex()</a>, and <a class="el" href="../../d9/d97/pci_8h_source.html#l00035">PCIDeviceHeader::VendorID</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d7a/rtl8169_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">__attribute__()</a>.</p>
 
@@ -313,7 +322,6 @@ Type</td>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> KERNEL_API_VERSION_NOT_SUPPORTED;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> OK;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
-<div class="ttc" id="artl8169_8cpp_html_a8829069e57a9845d74b32ce27a618ccd"><div class="ttname"><a href="../../dc/d7a/rtl8169_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a></div><div class="ttdeci">KernelAPI * KAPI</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d7a/rtl8169_8cpp_source.html#l00030">rtl8169.cpp:30</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00030">KAPI</a>.</p>
 
@@ -400,7 +408,7 @@ Type</td>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html">rtl8169.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00049">DriverEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00059">CallbackHandler()</a>, and <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00049">DriverEntry()</a>.</p>
 
 </div>
 </div>
@@ -417,6 +425,8 @@ Type</td>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html">rtl8169.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d7a/rtl8169_8cpp_source.html#l00059">CallbackHandler()</a>.</p>
 
 </div>
 </div>
