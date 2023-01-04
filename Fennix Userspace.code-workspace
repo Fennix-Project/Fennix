@@ -7,17 +7,21 @@
 	"settings": {
 		"debug.allowBreakpointsEverywhere": true,
 		"files.associations": {
+			"*.su": "tsv",
 			"fex.hpp": "c",
 			"types.h": "c",
 			"dlfcn.h": "c",
 			"aux.h": "c",
 			"stddef.h": "c",
 			"stdio.h": "c",
-			"syscalls.h": "c"
+			"syscalls.h": "c",
+			"syslib.h": "c",
+			"sysfile.h": "c"
 		},
 		"cSpell.words": [
 			"auxv",
 			"FENNIX",
+			"Krnl",
 			"liballoc",
 			"libinit",
 			"preinit",
