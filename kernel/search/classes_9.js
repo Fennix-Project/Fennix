@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['handlemeta_6368',['HandleMeta',['../d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#de/d9b/structGraphicalUserInterface_1_1WidgetCollection_1_1HandleMeta',1,'GraphicalUserInterface::WidgetCollection']]],
-  ['handler_6369',['Handler',['../dd/dae/classInterrupts_1_1Handler.html',1,'Interrupts']]],
-  ['hashmap_6370',['HashMap',['../db/d1a/classHashMap.html',1,'']]],
-  ['hashmap_3c_20interprocesscommunication_3a_3aipcport_2c_20uintptr_5ft_20_3e_6371',['HashMap&lt; InterProcessCommunication::IPCPort, uintptr_t &gt;',['../db/d1a/classHashMap.html',1,'']]],
-  ['hashnode_6372',['HashNode',['../d7/d56/classHashNode.html',1,'']]],
-  ['heapsegment_6373',['HeapSegment',['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html',1,'Xalloc::AllocatorV1']]],
-  ['hestheader_6374',['HESTHeader',['../d3/d21/classACPI_1_1ACPI.html#da/d64/structACPI_1_1ACPI_1_1HESTHeader',1,'ACPI::ACPI']]],
-  ['hpet_6375',['HPET',['../dd/d8d/classTime_1_1time.html#da/d40/structTime_1_1time_1_1HPET',1,'Time::time']]],
-  ['hpetheader_6376',['HPETHeader',['../d3/d21/classACPI_1_1ACPI.html#da/d4b/structACPI_1_1ACPI_1_1HPETHeader',1,'ACPI::ACPI']]]
+  ['handlemeta_6391',['HandleMeta',['../d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#de/d9b/structGraphicalUserInterface_1_1WidgetCollection_1_1HandleMeta',1,'GraphicalUserInterface::WidgetCollection']]],
+  ['handler_6392',['Handler',['../dd/dae/classInterrupts_1_1Handler.html',1,'Interrupts']]],
+  ['hashmap_6393',['HashMap',['../db/d1a/classHashMap.html',1,'']]],
+  ['hashmap_3c_20interprocesscommunication_3a_3aipcport_2c_20uintptr_5ft_20_3e_6394',['HashMap&lt; InterProcessCommunication::IPCPort, uintptr_t &gt;',['../db/d1a/classHashMap.html',1,'']]],
+  ['hashnode_6395',['HashNode',['../d7/d56/classHashNode.html',1,'']]],
+  ['heapsegment_6396',['HeapSegment',['../d8/da9/structXalloc_1_1AllocatorV1_1_1HeapSegment.html',1,'Xalloc::AllocatorV1']]],
+  ['hestheader_6397',['HESTHeader',['../d3/d21/classACPI_1_1ACPI.html#da/d64/structACPI_1_1ACPI_1_1HESTHeader',1,'ACPI::ACPI']]],
+  ['hpet_6398',['HPET',['../dd/d8d/classTime_1_1time.html#da/d40/structTime_1_1time_1_1HPET',1,'Time::time']]],
+  ['hpetheader_6399',['HPETHeader',['../d3/d21/classACPI_1_1ACPI.html#da/d4b/structACPI_1_1ACPI_1_1HPETHeader',1,'ACPI::ACPI']]]
 ];

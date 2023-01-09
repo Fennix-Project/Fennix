@@ -184,8 +184,6 @@ var NAVTREEINDEX0 =
 "d9/d49/types_8h.html#ae26fa513a7dfed63221f72d93de2a021":[3,0,0,4,3,13],
 "d9/d49/types_8h.html#afe270aee8d96ad7f279a4020b9d58bdf":[3,0,0,4,3,1],
 "d9/d49/types_8h_source.html":[3,0,0,4,3],
-"d9/d64/Network_2E1000_2Makefile.html":[3,0,0,6,1,1],
-"d9/d64/Network_2E1000_2Makefile_source.html":[3,0,0,6,1,1],
 "d9/d65/Makefile.html":[3,0,0,8],
 "d9/d65/Makefile_source.html":[3,0,0,8],
 "d9/d97/pci_8h.html":[3,0,0,4,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX0 =
 "da/d05/ATA_8cpp_source.html":[3,0,0,1,1,0],
 "da/d85/Disk_2ATA_2Makefile.html":[3,0,0,1,1,1],
 "da/d85/Disk_2ATA_2Makefile_source.html":[3,0,0,1,1,1],
-"da/df5/Input_2VirtualBoxMouse_2Makefile.html":[3,0,0,5,0,0]
+"da/df5/Input_2VirtualBoxMouse_2Makefile.html":[3,0,0,5,0,0],
+"da/df5/Input_2VirtualBoxMouse_2Makefile_source.html":[3,0,0,5,0,0],
+"dc/d23/Video_2Framebuffer_2Makefile.html":[3,0,0,7,0,0]
 };

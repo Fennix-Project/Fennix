@@ -6,12 +6,12 @@ var classNetworkDHCP_1_1DHCP =
     [ "GetOption", "db/dd7/classNetworkDHCP_1_1DHCP.html#ac92d633e2b80863b91fd4ab9f8035dfb", null ],
     [ "OnUDPPacketReceived", "db/dd7/classNetworkDHCP_1_1DHCP.html#a6dbf7f25200131939b5685c65d79acb4", null ],
     [ "Request", "db/dd7/classNetworkDHCP_1_1DHCP.html#a2aa2518071414e0c619ff51f7d210674", null ],
-    [ "Request", "db/dd7/classNetworkDHCP_1_1DHCP.html#a30a90883e2dab88f6a2d660359fc4163", null ],
-    [ "DomainNameSystem", "db/dd7/classNetworkDHCP_1_1DHCP.html#aa2c4d8dcbcb46c391dba174de4a0be19", null ],
-    [ "Gateway", "db/dd7/classNetworkDHCP_1_1DHCP.html#a6f5948bea304ce0cc43d544e0ea3343e", null ],
+    [ "Request", "db/dd7/classNetworkDHCP_1_1DHCP.html#ad6cc62dc64a4e823b42f3f75383e2656", null ],
+    [ "DomainNameSystem", "db/dd7/classNetworkDHCP_1_1DHCP.html#aaccb5996f143ca74ba06a853206f947f", null ],
+    [ "Gateway", "db/dd7/classNetworkDHCP_1_1DHCP.html#a899c56f7ce886788931ba7b87871b054", null ],
     [ "Interface", "db/dd7/classNetworkDHCP_1_1DHCP.html#a04621b9aacafc5df95405f70a854ea00", null ],
-    [ "IP", "db/dd7/classNetworkDHCP_1_1DHCP.html#a128dd4eb5a1e460d9205c41d16bc2d42", null ],
+    [ "IP", "db/dd7/classNetworkDHCP_1_1DHCP.html#ad829d5a317be828fd7f8761ba927343f", null ],
     [ "Received", "db/dd7/classNetworkDHCP_1_1DHCP.html#a1e1b2f5ccddf97a117082da38ba4e824", null ],
-    [ "SubNetworkMask", "db/dd7/classNetworkDHCP_1_1DHCP.html#a5874183184528bb305d316ef9b9c886d", null ],
+    [ "SubNetworkMask", "db/dd7/classNetworkDHCP_1_1DHCP.html#ac8e4465171a2bfa238bc5241f0a7b6d4", null ],
     [ "UDPSocket", "db/dd7/classNetworkDHCP_1_1DHCP.html#a939c5d23e0416d2dbd0a2648da91588a", null ]
 ];

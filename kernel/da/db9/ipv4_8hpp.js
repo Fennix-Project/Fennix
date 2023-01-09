@@ -2,7 +2,8 @@ var ipv4_8hpp =
 [
     [ "IPv4Header", "df/d2a/namespaceNetworkIPv4.html#d0/d99/structNetworkIPv4_1_1IPv4Header", [
       [ "DestinationIP", "df/d2a/namespaceNetworkIPv4.html#a85e3663b22e03310d2b7dd21c35c589d", null ],
-      [ "FlagsAndFragmentOffset", "df/d2a/namespaceNetworkIPv4.html#a1ac96ce4654f9a64384cc80fdc6ce34f", null ],
+      [ "Flags", "df/d2a/namespaceNetworkIPv4.html#a4717f0bce3c60713817e5ef780619c46", null ],
+      [ "FragmentOffset", "df/d2a/namespaceNetworkIPv4.html#a562e63575dc16e16ddce4513ff6c16ec", null ],
       [ "HeaderChecksum", "df/d2a/namespaceNetworkIPv4.html#af73feafa02bdb6ee6b38719a5c11123d", null ],
       [ "Identification", "df/d2a/namespaceNetworkIPv4.html#a3393cca2ae566e918f42070f95ce9474", null ],
       [ "IHL", "df/d2a/namespaceNetworkIPv4.html#af403ddd0829347e09ad0d75fa8eac909", null ],

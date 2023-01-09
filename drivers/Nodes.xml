@@ -806,79 +806,79 @@
            </Node>
            <Node>
             <Name>RXDescriptor</Name>
-            <Path>de/d94/e1000_8cpp.html</Path>
+            <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
             <Anchor>df/dd4/structRXDescriptor</Anchor>
             <Subnodes>
              <Node>
               <Name>Address</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>aa443d71601ca42f5d59d9cdb21488da9</Anchor>
              </Node>
              <Node>
               <Name>Checksum</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>a3839316b1b47b62a24b988ce09035c32</Anchor>
              </Node>
              <Node>
               <Name>Errors</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>a19c5f358c0661ead43e0fabb0f9caa44</Anchor>
              </Node>
              <Node>
               <Name>Length</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>a022e12f486fe371f25b864dd2f7567d8</Anchor>
              </Node>
              <Node>
               <Name>Special</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>abc0d65495a0e22a12c06d69eb614688f</Anchor>
              </Node>
              <Node>
               <Name>Status</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>a156006ecfe7ecc6c1ffeae1370e31cc4</Anchor>
              </Node>
             </Subnodes>
            </Node>
            <Node>
             <Name>TXDescriptor</Name>
-            <Path>de/d94/e1000_8cpp.html</Path>
+            <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
             <Anchor>db/d1d/structTXDescriptor</Anchor>
             <Subnodes>
              <Node>
               <Name>Address</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>ac154b28393e37e6d2a606286323ebd29</Anchor>
              </Node>
              <Node>
               <Name>Command</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>a2ca5ff21ac12070c04634796982dd990</Anchor>
              </Node>
              <Node>
               <Name>cso</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>a3cefc0b66e7c9d0561746f21631a8c5d</Anchor>
              </Node>
              <Node>
               <Name>css</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>adeaa8567cd2b22b1dcab3540bd3f1573</Anchor>
              </Node>
              <Node>
               <Name>Length</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>a10b84e1afed2a9f9cab33bfacaf41bb8</Anchor>
              </Node>
              <Node>
               <Name>Special</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>a44c265d7491b41691d2e377a3e34fe14</Anchor>
              </Node>
              <Node>
               <Name>Status</Name>
-              <Path>de/d94/e1000_8cpp.html</Path>
+              <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
               <Anchor>afb7adf64c926dcb984d53f136880742e</Anchor>
              </Node>
             </Subnodes>
@@ -3024,88 +3024,88 @@
                 </Subnodes>
                </Node>
                <Node>
-                <Name>E1000</Name>
-                <Path>dir_9a0cf3dface455d27a3fc5fe23cf47b6.html</Path>
+                <Name>IntelGigabit</Name>
+                <Path>dir_86e038676dac4a7d4587a43611e16bb6.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>e1000.cpp</Name>
-                  <Path>de/d94/e1000_8cpp.html</Path>
+                  <Name>IntelGigabit.cpp</Name>
+                  <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>RXDescriptor</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>df/dd4/structRXDescriptor</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>Address</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>aa443d71601ca42f5d59d9cdb21488da9</Anchor>
                      </Node>
                      <Node>
                       <Name>Checksum</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a3839316b1b47b62a24b988ce09035c32</Anchor>
                      </Node>
                      <Node>
                       <Name>Errors</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a19c5f358c0661ead43e0fabb0f9caa44</Anchor>
                      </Node>
                      <Node>
                       <Name>Length</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a022e12f486fe371f25b864dd2f7567d8</Anchor>
                      </Node>
                      <Node>
                       <Name>Special</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>abc0d65495a0e22a12c06d69eb614688f</Anchor>
                      </Node>
                      <Node>
                       <Name>Status</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a156006ecfe7ecc6c1ffeae1370e31cc4</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>TXDescriptor</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>db/d1d/structTXDescriptor</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>Address</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>ac154b28393e37e6d2a606286323ebd29</Anchor>
                      </Node>
                      <Node>
                       <Name>Command</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a2ca5ff21ac12070c04634796982dd990</Anchor>
                      </Node>
                      <Node>
                       <Name>cso</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a3cefc0b66e7c9d0561746f21631a8c5d</Anchor>
                      </Node>
                      <Node>
                       <Name>css</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>adeaa8567cd2b22b1dcab3540bd3f1573</Anchor>
                      </Node>
                      <Node>
                       <Name>Length</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a10b84e1afed2a9f9cab33bfacaf41bb8</Anchor>
                      </Node>
                      <Node>
                       <Name>Special</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a44c265d7491b41691d2e377a3e34fe14</Anchor>
                      </Node>
                      <Node>
                       <Name>Status</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>afb7adf64c926dcb984d53f136880742e</Anchor>
                      </Node>
                     </Subnodes>
@@ -3134,580 +3134,642 @@
                    </Node>
                    <Node>
                     <Name>E1000_NUM_RX_DESC</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>aa8ed57c88df5582770a3d7214c80fc19</Anchor>
                    </Node>
                    <Node>
                     <Name>E1000_NUM_TX_DESC</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a072841f719ac7f2481decdb11eda3dfe</Anchor>
                    </Node>
                    <Node>
                     <Name>print</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a93bdbb2eb161fecc1c12d7b87345e718</Anchor>
                    </Node>
                    <Node>
                     <Name>CMD</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a04887de32e1f60f8dc157312b8f27665</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>EOP</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a04887de32e1f60f8dc157312b8f27665ae097be30c0d5963ce6e350ecea09f813</Anchor>
                      </Node>
                      <Node>
                       <Name>IFCS</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a04887de32e1f60f8dc157312b8f27665a62b6d4fb59e14a2147dc1bbda7c2cc06</Anchor>
                      </Node>
                      <Node>
                       <Name>IC</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a04887de32e1f60f8dc157312b8f27665a71f819af1febe12353c9bd1a7aa32196</Anchor>
                      </Node>
                      <Node>
                       <Name>RS</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a04887de32e1f60f8dc157312b8f27665a7c1dca0addd3da052405a264b9d8f333</Anchor>
                      </Node>
                      <Node>
                       <Name>RPS</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a04887de32e1f60f8dc157312b8f27665a70c1253eafaab50cb0b6d089fc8bb7f0</Anchor>
                      </Node>
                      <Node>
                       <Name>VLE</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a04887de32e1f60f8dc157312b8f27665a95631c2ec7374c4eb40c7309d14a0e69</Anchor>
                      </Node>
                      <Node>
                       <Name>IDE</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a04887de32e1f60f8dc157312b8f27665a3dd4ba60c61c19d714c938e0d5ac6bc9</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>ECTRL</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a94524ef510c728141b585b110f479a19</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>SLU</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a94524ef510c728141b585b110f479a19aa216915e8ff8954e7a193c9b0a65e095</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>LSTA</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>afd2bbd5cdd64b59e1cee5a4a3e8cb668</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>LSTA_TU</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>afd2bbd5cdd64b59e1cee5a4a3e8cb668ad81cfe1b35a8575b51dbbd63b1040a33</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
+                    <Name>PCTRL</Name>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                    <Anchor>ae057c5e2323248f4ac6cde0a444ae18b</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>RESERVED</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>ae057c5e2323248f4ac6cde0a444ae18bafe4c21755babfece7188666f75c7386b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SPEED_SELECTION_MSB</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>ae057c5e2323248f4ac6cde0a444ae18ba004928ac800a6f96cb3c2a99fe0fafde</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>UPDATE_COLLISION_TEST</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>ae057c5e2323248f4ac6cde0a444ae18ba506d8fcdb8bd48a70fbcb8b231b8671a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>DUPLEX_MODE</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>ae057c5e2323248f4ac6cde0a444ae18ba565b668313a7ee36b68ea7ce5c3f138f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>RESTART_AUTO_NEGOTIATION</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>ae057c5e2323248f4ac6cde0a444ae18ba2fa7969a1f34b28768743e9536eafabd</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>ISOLATE</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>ae057c5e2323248f4ac6cde0a444ae18ba55165ec604cca7bb542fef5d99a48a9a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>POWER_DOWN</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>ae057c5e2323248f4ac6cde0a444ae18ba2abda45f1b1e5bbe193611fb41ae7dfa</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SPEED_SELECTION_LSB</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>ae057c5e2323248f4ac6cde0a444ae18ba97d27e1fe0756bca217c97394043194a</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
                     <Name>RCTL</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075f</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>EN</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa08abbedba04efb41214496f901134dfb</Anchor>
                      </Node>
                      <Node>
                       <Name>SBP</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fab4dc6730dbcab1e043613fc3e09ab411</Anchor>
                      </Node>
                      <Node>
                       <Name>UPE</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa2dbdb66e03808030cd2fadc845f5ee62</Anchor>
                      </Node>
                      <Node>
                       <Name>MPE</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa8ecad41ffe9af13986ca59829195a7c6</Anchor>
                      </Node>
                      <Node>
                       <Name>LPE</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa47df7b06503723bbec5d1deba2bb7fcf</Anchor>
                      </Node>
                      <Node>
                       <Name>LBM_NONE</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fac3a1c23742bc431fc390befed704a48c</Anchor>
                      </Node>
                      <Node>
                       <Name>LBM_PHY</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa9ad4d464f6f23211a172d36c56f720d6</Anchor>
                      </Node>
                      <Node>
                       <Name>MO_36</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075faf2c97a5dfdacf5d6e2508a9fed391eae</Anchor>
                      </Node>
                      <Node>
                       <Name>MO_35</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa0c8f7ee9a8cf0996ef76408693901a81</Anchor>
                      </Node>
                      <Node>
                       <Name>MO_34</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa3a63843a3976785eb0e96182bcb02a8c</Anchor>
                      </Node>
                      <Node>
                       <Name>MO_32</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075faef246a0375db275ee552d8a41cb88265</Anchor>
                      </Node>
                      <Node>
                       <Name>BAM</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075faac7266447ac7563749fcc3a2d36cf23c</Anchor>
                      </Node>
                      <Node>
                       <Name>VFE</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fab302cdd5b330ec5883b8de67ab770702</Anchor>
                      </Node>
                      <Node>
                       <Name>CFIEN</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075faad6a7e3bdc8f0310e8c33ab3d92f1651</Anchor>
                      </Node>
                      <Node>
                       <Name>CFI</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fac211807fedfb58b9b0f13818142d47bf</Anchor>
                      </Node>
                      <Node>
                       <Name>DPF</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075faf166209e4b6fb4edaa0089f99548c83b</Anchor>
                      </Node>
                      <Node>
                       <Name>PMCF</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa64d6e0a45ce6a3b3279bd6039aebe482</Anchor>
                      </Node>
                      <Node>
                       <Name>SECRC</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa5c699270fe73aaf89978357ae944f549</Anchor>
                      </Node>
                      <Node>
                       <Name>BSIZE_256</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075faa65dff397ebc94d91c5b28d006d123c7</Anchor>
                      </Node>
                      <Node>
                       <Name>BSIZE_512</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa6a3710e8d543191a544922980f29a878</Anchor>
                      </Node>
                      <Node>
                       <Name>BSIZE_1024</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fab6147825d3e3f75e9fb85e9239edf1d7</Anchor>
                      </Node>
                      <Node>
                       <Name>BSIZE_2048</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa7c84b688de36fbbd803dec82b29d93df</Anchor>
                      </Node>
                      <Node>
                       <Name>BSIZE_4096</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa796bb90e48395e7706a3626e961cd361</Anchor>
                      </Node>
                      <Node>
                       <Name>BSIZE_8192</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa5b452cd54bf86c710e65e7944ef7a72c</Anchor>
                      </Node>
                      <Node>
                       <Name>BSIZE_16384</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a9da0cd24a6a25aecf5fba3e3cedf075fa8866a9d4447857b26425afad792c67aa</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>REG</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a8f899d7ad1af070aae505a85cc998fa5</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>CTRL</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a5ea73cf9a3f5928257b1e6bc796d8490</Anchor>
                      </Node>
                      <Node>
                       <Name>STATUS</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5ab15379688176677d49474245a6178d97</Anchor>
                      </Node>
                      <Node>
+                      <Name>ICR</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>a8f899d7ad1af070aae505a85cc998fa5aab289a70b9890dee041b6c1a5386618e</Anchor>
+                     </Node>
+                     <Node>
                       <Name>EEPROM</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a51574cc2a0ce85c0cc496d5510e2e279</Anchor>
                      </Node>
                      <Node>
                       <Name>CTRL_EXT</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a3b442c886c1da09eb3110fff086ec482</Anchor>
                      </Node>
                      <Node>
+                      <Name>ITR</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>a8f899d7ad1af070aae505a85cc998fa5aebf75117d7870aed8cce8663e50bfce7</Anchor>
+                     </Node>
+                     <Node>
                       <Name>IMASK</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5aa878751d3b9c7862ec99ef3e7e02030b</Anchor>
                      </Node>
                      <Node>
+                      <Name>IAM</Name>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                      <Anchor>a8f899d7ad1af070aae505a85cc998fa5a1f1e11715c2feb98ed32ccb1efcae703</Anchor>
+                     </Node>
+                     <Node>
                       <Name>RCTRL</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5abff57a488a35993c295f4724cc7d681a</Anchor>
                      </Node>
                      <Node>
                       <Name>RXDESCLO</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a097f314cc91afea917c9895e5f70f4c2</Anchor>
                      </Node>
                      <Node>
                       <Name>RXDESCHI</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a63ec7452ad9063eeba3f8ec156470cd4</Anchor>
                      </Node>
                      <Node>
                       <Name>RXDESCLEN</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a99684484a041a999f29d3e1a526c076e</Anchor>
                      </Node>
                      <Node>
                       <Name>RXDESCHEAD</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a2e16884fdee77bb151f13b7b60ed9503</Anchor>
                      </Node>
                      <Node>
                       <Name>RXDESCTAIL</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a2f059bf5bc7434816fad8d1f55622a76</Anchor>
                      </Node>
                      <Node>
                       <Name>TCTRL</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5ab7dc29bb50fc157119ab3a10a8169a14</Anchor>
                      </Node>
                      <Node>
                       <Name>TXDESCLO</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a5eb9ba8d8284965e7f9a8c9eae92e1dc</Anchor>
                      </Node>
                      <Node>
                       <Name>TXDESCHI</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a8941baf19bca3b44372b76ac5188203c</Anchor>
                      </Node>
                      <Node>
                       <Name>TXDESCLEN</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5aedc440db168f69b66f6c84b17dfe5292</Anchor>
                      </Node>
                      <Node>
                       <Name>TXDESCHEAD</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a93b09e482a5cfe499d48d96bd96f7f2f</Anchor>
                      </Node>
                      <Node>
                       <Name>TXDESCTAIL</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a1a7b048d1ba716eb780f1a84fbf83238</Anchor>
                      </Node>
                      <Node>
                       <Name>RDTR</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a7ec11ed00922142ad0aa36721f8d1871</Anchor>
                      </Node>
                      <Node>
                       <Name>RXDCTL</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a015848ae1eb54dc4b6936fd0bf6afbd0</Anchor>
                      </Node>
                      <Node>
                       <Name>RADV</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5aedad76c53ed3ee548234582ae831c2ff</Anchor>
                      </Node>
                      <Node>
                       <Name>RSRPD</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5ad196221add9f3aeef12d6fe899c9579a</Anchor>
                      </Node>
                      <Node>
                       <Name>TIPG</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a8f899d7ad1af070aae505a85cc998fa5a6fbcce4ff1d8843bc75df8b6023e37c5</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>RTCL</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>afa3ad8687e362cbc1eadc6daf035c78b</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>RDMTS_HALF</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>afa3ad8687e362cbc1eadc6daf035c78baa807b205b17e1d81c31aa34edafa909a</Anchor>
                      </Node>
                      <Node>
                       <Name>RDMTS_QUARTER</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>afa3ad8687e362cbc1eadc6daf035c78ba6cb135a51a422af3b2786730ebb9a4ce</Anchor>
                      </Node>
                      <Node>
                       <Name>RDMTS_EIGHTH</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>afa3ad8687e362cbc1eadc6daf035c78ba9e5405d4edf6c2a6118f7ab1a5a9ca82</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>TCTL</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>aa22b48f96c1de3de7a571b0eeac87ad7</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>EN_</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>aa22b48f96c1de3de7a571b0eeac87ad7aeaa1a9cc5267779e70ad42568fc59086</Anchor>
                      </Node>
                      <Node>
                       <Name>PSP</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>aa22b48f96c1de3de7a571b0eeac87ad7aafa3ba7eacd4a691d44c7eb6b4cc1f19</Anchor>
                      </Node>
                      <Node>
                       <Name>CT_SHIFT</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>aa22b48f96c1de3de7a571b0eeac87ad7a5226c6ab569fd7a8199bf3713a4780e4</Anchor>
                      </Node>
                      <Node>
                       <Name>COLD_SHIFT</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>aa22b48f96c1de3de7a571b0eeac87ad7a10c6932eda96a865973be15c3c17bb2f</Anchor>
                      </Node>
                      <Node>
                       <Name>SWXOFF</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>aa22b48f96c1de3de7a571b0eeac87ad7a0134b985619a43259e1da78a758a2b98</Anchor>
                      </Node>
                      <Node>
                       <Name>RTLC</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>aa22b48f96c1de3de7a571b0eeac87ad7a7c48a40a5f038b0a401b6bed1b466550</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>TSTA</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a5fa07660bed21da1dd01e99605073060</Anchor>
                     <Subnodes>
                      <Node>
                       <Name>DD</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a5fa07660bed21da1dd01e99605073060adff9e1be2198e2d0c8cfae5075a01a93</Anchor>
                      </Node>
                      <Node>
                       <Name>EC</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a5fa07660bed21da1dd01e99605073060ab273ae090d8507d150f3609c176ec093</Anchor>
                      </Node>
                      <Node>
                       <Name>LC</Name>
-                      <Path>de/d94/e1000_8cpp.html</Path>
+                      <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                       <Anchor>a5fa07660bed21da1dd01e99605073060a314425fe42f2a11998942ed13b56f18d</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>__attribute__</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>ab3aec6372973bfb7ad3ac20c88ad8bc5</Anchor>
                    </Node>
                    <Node>
                     <Name>__attribute__</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>af22ae37b84033edb178366e0d7d8f7e5</Anchor>
                    </Node>
                    <Node>
                     <Name>CallbackHandler</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
                    </Node>
                    <Node>
                     <Name>DriverEntry</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a56474bd9ccbe42a82994dd3415226f38</Anchor>
                    </Node>
                    <Node>
                     <Name>GetMAC</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a2435754370f8c4e210efdd4f790ac4d0</Anchor>
                    </Node>
                    <Node>
                     <Name>HEAD</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>af24e7dbc50400c89dbb3827cc25545fc</Anchor>
                    </Node>
                    <Node>
                     <Name>InCMD</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>af48992bf6549169015d5d2e2f4bfa525</Anchor>
                    </Node>
                    <Node>
                     <Name>InitializeRX</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a3a98f6e73dbbd3c1df719d3e07f57243</Anchor>
                    </Node>
                    <Node>
                     <Name>InitializeTX</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a9a55e319b5445c81e59c7410db995f05</Anchor>
                    </Node>
                    <Node>
                     <Name>OutCMD</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>ad111c27d7b8a1d09f8a4d1ca1456c4f4</Anchor>
                    </Node>
                    <Node>
                     <Name>ReadEEPROM</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>ad0ce21098f78905bd7977bb5b568c7a4</Anchor>
                    </Node>
                    <Node>
                     <Name>__attribute__</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a904d0e9ca592fb97af72ffd03b1ae5ef</Anchor>
                    </Node>
                    <Node>
                     <Name>Address</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a6fc2b8ed8be1aa26731a45000f43b8cc</Anchor>
                    </Node>
                    <Node>
                     <Name>BAR</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a6feaf4f129beba8154b37192e3b300d7</Anchor>
                    </Node>
                    <Node>
                     <Name>Checksum</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a0792b4f7d570ff25c41570beab0035ed</Anchor>
                    </Node>
                    <Node>
                     <Name>Command</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>acb11b7f64dca443c2d6fcaeca8f5c17d</Anchor>
                    </Node>
                    <Node>
                     <Name>cso</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a6562cf9f49ce9ded3861416457acdf7e</Anchor>
                    </Node>
                    <Node>
                     <Name>css</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>ac126e8d732fad254987c8e3b98cc4544</Anchor>
                    </Node>
                    <Node>
                     <Name>CurrentPacket</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a37198fe4972e12d0278900092011d46a</Anchor>
                    </Node>
                    <Node>
                     <Name>EEPROMAvailable</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>aaa9980f0ad6a23b50a89a6fd26d917d2</Anchor>
                    </Node>
                    <Node>
                     <Name>Errors</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>ab42b88e7aa9cd4a448abc126fc4b9c3b</Anchor>
                    </Node>
                    <Node>
                     <Name>IP</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a98e0a7066b7a390fe94e36a3bdbd8901</Anchor>
                    </Node>
                    <Node>
                     <Name>KAPI</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a8829069e57a9845d74b32ce27a618ccd</Anchor>
                    </Node>
                    <Node>
                     <Name>Length</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a975543b90f799d299886f54993f36b3b</Anchor>
                    </Node>
                    <Node>
                     <Name>MAC</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>af3a290a365c813d5b3502dd3e9aa2e8a</Anchor>
                    </Node>
                    <Node>
                     <Name>PCIBaseAddress</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>ad97ca0bf263d0a3ed7372f3f45b34f2f</Anchor>
                    </Node>
                    <Node>
                     <Name>RX</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a72b14ae198346ee4327471b2edd1ffe2</Anchor>
                    </Node>
                    <Node>
                     <Name>RXCurrent</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a7e3d06f36da3bbce7a7ea3c7cdd387ab</Anchor>
                    </Node>
                    <Node>
                     <Name>Special</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a16a7e9c966c3e276c96d36278a7b460f</Anchor>
                    </Node>
                    <Node>
                     <Name>Status</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a92878db22f254667b79af022bb56e137</Anchor>
                    </Node>
                    <Node>
                     <Name>TX</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a7dec4c4c0748c2aeacc09f63edae5b82</Anchor>
                    </Node>
                    <Node>
                     <Name>TXCurrent</Name>
-                    <Path>de/d94/e1000_8cpp.html</Path>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>af462961854f7236b1e7ba536d7529590</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>Makefile</Name>
-                  <Path>d9/d64/Network_2E1000_2Makefile.html</Path>
+                  <Path>dd/dc8/Network_2IntelGigabit_2Makefile.html</Path>
                  </Node>
                 </Subnodes>
                </Node>

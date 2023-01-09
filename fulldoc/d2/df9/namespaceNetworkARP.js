@@ -20,7 +20,7 @@ var namespaceNetworkARP =
     ] ],
     [ "__attribute__", "d2/df9/namespaceNetworkARP.html#ab6186215ca5c5c07ae454a12ddb40035", null ],
     [ "__attribute__", "d2/df9/namespaceNetworkARP.html#a37c42968503419cfbf3214eb33899fe6", null ],
-    [ "InvalidIP", "d2/df9/namespaceNetworkARP.html#af7bad1a5f789936decb5663017e2bfbe", null ],
+    [ "InvalidIP", "d2/df9/namespaceNetworkARP.html#a360ed7016a5a70d5b44f9def686ca14d", null ],
     [ "InvalidMAC", "d2/df9/namespaceNetworkARP.html#a5aca9e566091f1cf920995cf612e328d", null ],
     [ "InvalidRet", "d2/df9/namespaceNetworkARP.html#adc52637e86e4e5625907cfeb20a3c62b", null ]
 ];

@@ -8,12 +8,12 @@ var classNetworkARP_1_1ARP =
     ] ],
     [ "ARP", "d9/d9b/classNetworkARP_1_1ARP.html#aa5d3994c61c65ff869e219b7ced53670", null ],
     [ "~ARP", "d9/d9b/classNetworkARP_1_1ARP.html#a593bd1fd0673e6e041f5aa6365e37b07", null ],
-    [ "Broadcast", "d9/d9b/classNetworkARP_1_1ARP.html#a73078afb4b608fccb3a2f89ffdbea9c3", null ],
-    [ "ManageDA", "d9/d9b/classNetworkARP_1_1ARP.html#a8ca9759fa7bd2269aefaef6d4d1c2b4f", null ],
+    [ "Broadcast", "d9/d9b/classNetworkARP_1_1ARP.html#a0ff051df0dad794511ec3e649ab3ec67", null ],
+    [ "ManageDiscoveredAddresses", "d9/d9b/classNetworkARP_1_1ARP.html#a99cd9d3efdfaa6b4bccae0520e83b530", null ],
     [ "OnEthernetPacketReceived", "d9/d9b/classNetworkARP_1_1ARP.html#a28d3c1490f804aa4568e995bfbcc51dd", null ],
-    [ "Resolve", "d9/d9b/classNetworkARP_1_1ARP.html#a302449f4dcd319e3a37dd28307c0e500", null ],
-    [ "Search", "d9/d9b/classNetworkARP_1_1ARP.html#abe8f2787cbae08b3f9ef60dea3cd66e9", null ],
-    [ "Update", "d9/d9b/classNetworkARP_1_1ARP.html#af34abf62df32fd66d54d23557bcaeda5", null ],
+    [ "Resolve", "d9/d9b/classNetworkARP_1_1ARP.html#aea5959a080c4091d8767b2258a85e0e3", null ],
+    [ "Search", "d9/d9b/classNetworkARP_1_1ARP.html#afd2f2f436226e54fdc798184c3d32ed2", null ],
+    [ "Update", "d9/d9b/classNetworkARP_1_1ARP.html#ad4303d97f74adb3be32963be11ef67e2", null ],
     [ "DiscoveredAddresses", "d9/d9b/classNetworkARP_1_1ARP.html#ab7c878a7d7344917679041756093e03d", null ],
     [ "Ethernet", "d9/d9b/classNetworkARP_1_1ARP.html#a955a27600a36e5585d4e921b502df0e1", null ]
 ];

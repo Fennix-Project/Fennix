@@ -12,7 +12,7 @@ var arp_8hpp =
       [ "TargetMAC", "d2/df9/namespaceNetworkARP.html#aba59acf7e00b364685f35ecb8591d4f2", null ]
     ] ],
     [ "DiscoveredAddress", "d2/df9/namespaceNetworkARP.html#d7/d56/structNetworkARP_1_1DiscoveredAddress", [
-      [ "IP", "d2/df9/namespaceNetworkARP.html#a537a57a3fa615d0234e07f469243d34f", null ],
+      [ "IP", "d2/df9/namespaceNetworkARP.html#a1c99aecfe749aaa991cb0d7ba6006d6b", null ],
       [ "MAC", "d2/df9/namespaceNetworkARP.html#a8e78248e4147ba0f272c3d1b71563ab6", null ]
     ] ],
     [ "ARP", "d9/d9b/classNetworkARP_1_1ARP.html", "d9/d9b/classNetworkARP_1_1ARP" ],

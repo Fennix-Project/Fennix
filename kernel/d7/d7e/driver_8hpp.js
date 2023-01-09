@@ -11,6 +11,7 @@ var driver_8hpp =
     [ "DriverCode", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6", [
       [ "ERROR", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a3610c57fcd777f71c8d2036a48404471", null ],
       [ "OK", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a007757eccb0a47675b90978c29a7a8a2", null ],
+      [ "NOT_AVAILABLE", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a21f1de81a1cb164791070d2a0ddb075c", null ],
       [ "INVALID_FEX_HEADER", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13", null ],
       [ "INVALID_DRIVER_DATA", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4", null ],
       [ "NOT_DRIVER", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333", null ],

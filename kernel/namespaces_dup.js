@@ -17,6 +17,7 @@ var namespaces_dup =
     [ "Memory", "d3/d97/namespaceMemory.html", null ],
     [ "NetworkARP", "d2/df9/namespaceNetworkARP.html", "d2/df9/namespaceNetworkARP" ],
     [ "NetworkDHCP", "dd/d53/namespaceNetworkDHCP.html", "dd/d53/namespaceNetworkDHCP" ],
+    [ "NetworkDNS", "d3/dd7/namespaceNetworkDNS.html", "d3/dd7/namespaceNetworkDNS" ],
     [ "NetworkEthernet", "da/dcd/namespaceNetworkEthernet.html", "da/dcd/namespaceNetworkEthernet" ],
     [ "NetworkICMPv4", "d4/d0b/namespaceNetworkICMPv4.html", "d4/d0b/namespaceNetworkICMPv4" ],
     [ "NetworkICMPv6", "db/dd4/namespaceNetworkICMPv6.html", "db/dd4/namespaceNetworkICMPv6" ],

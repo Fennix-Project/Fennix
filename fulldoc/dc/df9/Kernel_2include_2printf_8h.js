@@ -5,12 +5,12 @@ var Kernel_2include_2printf_8h =
     [ "PRINTF_ALIAS_STANDARD_FUNCTION_NAMES", "dc/df9/Kernel_2include_2printf_8h.html#a78b25e31912e285c08aae4d74e00e89c", null ],
     [ "PRINTF_VISIBILITY", "dc/df9/Kernel_2include_2printf_8h.html#a61adc6db95ba87f685e7d3253af87af4", null ],
     [ "fctprintf", "dc/df9/Kernel_2include_2printf_8h.html#a735494c5e2525e1ce372b86891b6e6e6", null ],
-    [ "printf_", "dc/df9/Kernel_2include_2printf_8h.html#a2c62cacbfb172bbdfab5597d22a8b342", null ],
+    [ "printf", "dc/df9/Kernel_2include_2printf_8h.html#a70e2ebbb830baec2baa21946aa47dab0", null ],
     [ "putchar", "dc/df9/Kernel_2include_2printf_8h.html#a82b6fdd25b741497abf2464d9209770d", null ],
     [ "snprintf_", "dc/df9/Kernel_2include_2printf_8h.html#abbaf9363f36b73a13dfa6b0a792a60c5", null ],
-    [ "sprintf_", "dc/df9/Kernel_2include_2printf_8h.html#aa0320d28406c4c8399830583177fdc77", null ],
+    [ "sprintf", "dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729", null ],
     [ "vfctprintf", "dc/df9/Kernel_2include_2printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d", null ],
-    [ "vprintf_", "dc/df9/Kernel_2include_2printf_8h.html#a37d423a6b4d321147399b63eea93bb29", null ],
-    [ "vsnprintf_", "dc/df9/Kernel_2include_2printf_8h.html#a25006737444a8712899101e9e89387c3", null ],
-    [ "vsprintf_", "dc/df9/Kernel_2include_2printf_8h.html#ae12ecc9fd035416b6e7cddae9804f121", null ]
+    [ "vprintf", "dc/df9/Kernel_2include_2printf_8h.html#a60eafc0462174ced134abb3714d9c85a", null ],
+    [ "vsnprintf", "dc/df9/Kernel_2include_2printf_8h.html#a715af29d23f9914db8ecafd4b94a7e14", null ],
+    [ "vsprintf", "dc/df9/Kernel_2include_2printf_8h.html#a2e8aa13bfb0ae95cdd2a2dbeea602cce", null ]
 ];

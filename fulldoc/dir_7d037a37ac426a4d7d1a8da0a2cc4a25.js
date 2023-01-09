@@ -2,6 +2,9 @@ var dir_7d037a37ac426a4d7d1a8da0a2cc4a25 =
 [
     [ "arp.hpp", "d3/d56/arp_8hpp.html", "d3/d56/arp_8hpp" ],
     [ "dhcp.hpp", "d0/d16/dhcp_8hpp.html", "d0/d16/dhcp_8hpp" ],
+    [ "dns.hpp", "d7/d85/dns_8hpp.html", [
+      [ "DNS", "db/d20/classNetworkDNS_1_1DNS.html", "db/d20/classNetworkDNS_1_1DNS" ]
+    ] ],
     [ "eth.hpp", "d3/d34/eth_8hpp.html", "d3/d34/eth_8hpp" ],
     [ "icmpv4.hpp", "dd/d7f/icmpv4_8hpp.html", "dd/d7f/icmpv4_8hpp" ],
     [ "icmpv6.hpp", "d8/d03/icmpv6_8hpp.html", [
@@ -40,7 +43,7 @@ var dir_7d037a37ac426a4d7d1a8da0a2cc4a25 =
         [ "DriverCallBackAddress", "d9/d4c/namespaceNetworkInterfaceManager.html#a15214ba2132cd1a6e17b99d22728eccd", null ],
         [ "DriverID", "d9/d4c/namespaceNetworkInterfaceManager.html#a7f272379631e8d9797d7856475eb3e88", null ],
         [ "ID", "d9/d4c/namespaceNetworkInterfaceManager.html#ab32286e557e6b9b9792d2e885041dea0", null ],
-        [ "IP", "d9/d4c/namespaceNetworkInterfaceManager.html#a73b666a1e3867962dcd12e690ce92c4e", null ],
+        [ "IP", "d9/d4c/namespaceNetworkInterfaceManager.html#a1e4b0d377734f0e2773260c0ecaf9aae", null ],
         [ "MAC", "d9/d4c/namespaceNetworkInterfaceManager.html#a394d72e662bbdb8d6597c7212db562ea", null ],
         [ "Name", "d9/d4c/namespaceNetworkInterfaceManager.html#abfe5ae07db1ab19aa0d0fe4c3f5f4b92", null ]
       ] ],

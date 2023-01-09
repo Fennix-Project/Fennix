@@ -6,6 +6,8 @@ var structMediaAccessControl =
     [ "operator==", "d0/d48/structMediaAccessControl.html#a8fd305cec2bd78011639d2e48b71787e", null ],
     [ "operator==", "d0/d48/structMediaAccessControl.html#afadcd2e3319a21561187a9902fa0e0e6", null ],
     [ "ToHex", "d0/d48/structMediaAccessControl.html#a4cf9ccbbbf72aea411f50447928ec943", null ],
+    [ "ToString", "d0/d48/structMediaAccessControl.html#ac0df1fb411a9124024029007c4b24a05", null ],
     [ "Valid", "d0/d48/structMediaAccessControl.html#ad2f33be9751c82d3caa569e1feb285cc", null ],
-    [ "Address", "d0/d48/structMediaAccessControl.html#ab42932aa5b4587de763b9bd88429752f", null ]
+    [ "Address", "d0/d48/structMediaAccessControl.html#ab42932aa5b4587de763b9bd88429752f", null ],
+    [ "Endianess", "d0/d48/structMediaAccessControl.html#a5a98bf93cb1545094e0cb6796e37878f", null ]
 ];

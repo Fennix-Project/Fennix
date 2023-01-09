@@ -28,9 +28,7 @@ var namespacePCI =
       [ "u32ToHexString", "d1/d62/namespacePCI_1_1Descriptors.html#a1b4b7950199fc112872f022d9fd71768", null ],
       [ "u8ToHexString", "d1/d62/namespacePCI_1_1Descriptors.html#afe2709a6476a1c52d59a62c3141e44dd", null ],
       [ "WirelessControllerSubclassName", "d1/d62/namespacePCI_1_1Descriptors.html#a3cbb46aaf63c529bb59db2e4f328d606", null ],
-      [ "DeviceClasses", "d1/d62/namespacePCI_1_1Descriptors.html#a98398363e470d42d292fc43e72c22dae", null ],
-      [ "HexToStringOutput32", "d1/d62/namespacePCI_1_1Descriptors.html#a5f9b5c8d5d737128b6a8f331a1554b59", null ],
-      [ "HexToStringOutput8", "d1/d62/namespacePCI_1_1Descriptors.html#a19e4c3d03d0ed206f0338d531153077c", null ]
+      [ "DeviceClasses", "d1/d62/namespacePCI_1_1Descriptors.html#a98398363e470d42d292fc43e72c22dae", null ]
     ] ],
     [ "PCIDeviceHeader", "d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader", "d0/d8f/namespacePCI_d7/d4b/structPCI_1_1PCIDeviceHeader_dup" ],
     [ "PCIHeader0", "d0/d8f/namespacePCI.html#d1/da3/structPCI_1_1PCIHeader0", "d0/d8f/namespacePCI_d1/da3/structPCI_1_1PCIHeader0_dup" ],

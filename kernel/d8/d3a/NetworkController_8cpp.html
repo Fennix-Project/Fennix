@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('d8/d3a/NetworkController_8cpp.html','.
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -94,11 +95,13 @@ $(document).ready(function(){initNavTree('d8/d3a/NetworkController_8cpp.html','.
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d7/dc4/nc_8hpp_source.html">net/nc.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/db9/ipv4_8hpp_source.html">net/ipv4.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/d16/dhcp_8hpp_source.html">net/dhcp.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d34/eth_8hpp_source.html">net/eth.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d56/arp_8hpp_source.html">net/arp.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../da/db9/ipv4_8hpp_source.html">net/ipv4.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../df/d0f/ntp_8hpp_source.html">net/ntp.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d7/d85/dns_8hpp_source.html">net/dns.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d19/udp_8hpp_source.html">net/udp.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d0/d16/dhcp_8hpp_source.html">net/dhcp.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../kernel.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">../DAPI.hpp</a>&quot;</code><br />
@@ -110,6 +113,11 @@ $(document).ready(function(){initNavTree('d8/d3a/NetworkController_8cpp.html','.
 Namespaces</h2></td></tr>
 <tr class="memitem:d9/d4c/namespaceNetworkInterfaceManager"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4c/namespaceNetworkInterfaceManager.html">NetworkInterfaceManager</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ae13cbe320043f78548c0aa7e600c75d9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d3a/NetworkController_8cpp.html#ae13cbe320043f78548c0aa7e600c75d9">DbgWriteScreen</a>(x, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(x, ##__VA_ARGS__)</td></tr>
+<tr class="separator:ae13cbe320043f78548c0aa7e600c75d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -125,6 +133,37 @@ Variables</h2></td></tr>
 <tr class="memitem:a65e8e89d5e1616d3a4f0742979d0a379"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/da1/classVector.html">Vector</a>&lt; Events * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#a65e8e89d5e1616d3a4f0742979d0a379">NetworkInterfaceManager::RegisteredEvents</a></td></tr>
 <tr class="separator:a65e8e89d5e1616d3a4f0742979d0a379"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae13cbe320043f78548c0aa7e600c75d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae13cbe320043f78548c0aa7e600c75d9">&#9670;&nbsp;</a></span>DbgWriteScreen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DbgWriteScreen</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(x, ##__VA_ARGS__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00072">72</a> of file <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html">NetworkController.cpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
