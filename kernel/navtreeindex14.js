@@ -1,7 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"d4/db2/DriverAPI_8cpp.html#aa58932ec11d2082fde8b1bb2bd2a2b6d":[6,0,0,1,1,3,12],
-"d4/db2/DriverAPI_8cpp.html#ab6e4005e6feacb1dc9ee1c94d31fb041":[6,0,0,1,1,3,4],
 "d4/db2/DriverAPI_8cpp.html#abe22eb8391b94f3cd787b35fd8458483":[6,0,0,1,1,3,0],
 "d4/db2/DriverAPI_8cpp.html#ac5f20c1a2090fe90ae884329df29f110":[6,0,0,1,1,3,11],
 "d4/db2/DriverAPI_8cpp.html#ae6abea08313f42084e5afaf66b8eb221":[6,0,0,1,1,3,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX14 =
 "d5/dba/multiboot2_8h.html#a3e549386717fec2f68b79b9717ff3dab":[6,0,0,5,0,0,0,47],
 "d5/dba/multiboot2_8h.html#a3f76a637264b83e30967bcd808ff403c":[6,0,0,5,0,0,0,10,0],
 "d5/dba/multiboot2_8h.html#a43533259ca37170f4f40df16086baba5":[6,0,0,5,0,0,0,3,4],
-"d5/dba/multiboot2_8h.html#a4564d1a0382ddb2d369d477e8d606bdc":[6,0,0,5,0,0,0,20,1]
+"d5/dba/multiboot2_8h.html#a4564d1a0382ddb2d369d477e8d606bdc":[6,0,0,5,0,0,0,20,1],
+"d5/dba/multiboot2_8h.html#a46cf9e061b4000644be5810844430afc":[6,0,0,5,0,0,0,83],
+"d5/dba/multiboot2_8h.html#a4b1ffdc97a86618a45839931345edca4":[6,0,0,5,0,0,0,24,0]
 };

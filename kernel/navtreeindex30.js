@@ -1,7 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d7/db8/structCPU_1_1x64_1_1AMD_1_1CPUID0x80000002_8EDX_8____unnamed810____":[6,0,0,5,9,562],
-"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d7/dc3/unionCPU_1_1x64_1_1AMD_1_1CPUID0x0_8EDX":[6,0,0,5,9,521],
 "d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d7/dd6/structCPU_1_1x64_1_1AMD_1_1CPUID0x80000005":[6,0,0,5,9,84],
 "d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d7/df4/unionCPU_1_1x64_1_1AMD_1_1CPUID0x0_8EAX":[6,0,0,5,9,515],
 "d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d8/d20/structCPU_1_1x64_1_1AMD_1_1CPUID0x80000001":[6,0,0,5,9,80],
@@ -249,5 +247,7 @@ var NAVTREEINDEX30 =
 "da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863aea2c831e6715a37617fa35912ae79d98a9":[4,0,31,10,7],
 "da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863aea2f2cf88e8bf952afca3c73cd3ff59873":[4,0,31,10,30],
 "da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863aea305a6481016b57c3bc5cfa8d77643480":[4,0,31,10,22],
-"da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863aea3079a3ee2c55a0f04b2f4f6cd38383c1":[4,0,31,10,46]
+"da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863aea3079a3ee2c55a0f04b2f4f6cd38383c1":[4,0,31,10,46],
+"da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863aea3b06ba45dd2dd92a86da92327e35b4c1":[4,0,31,10,43],
+"da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863aea3d7c58916cc7fee476e5124ae8e55a4e":[4,0,31,10,17]
 };

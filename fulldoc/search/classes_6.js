@@ -2,7 +2,7 @@ var searchData=
 [
   ['efer_6507',['EFER',['../de/d78/namespaceCPU_1_1x32.html#dc/dd3/unionCPU_1_1x32_1_1EFER',1,'CPU::x32::EFER'],['../d9/d25/namespaceCPU_1_1x64.html#dd/dfd/unionCPU_1_1x64_1_1EFER',1,'CPU::x64::EFER']]],
   ['efer_2e_5f_5funnamed478_5f_5f_6508',['EFER.__unnamed478__',['../d9/d25/namespaceCPU_1_1x64.html#d1/d88/structCPU_1_1x64_1_1EFER_8____unnamed478____',1,'CPU::x64']]],
-  ['efer_2e_5f_5funnamed92_5f_5f_6509',['EFER.__unnamed92__',['../de/d78/namespaceCPU_1_1x32.html#d7/d81/structCPU_1_1x32_1_1EFER_8____unnamed92____',1,'CPU::x32']]],
+  ['efer_2e_5f_5funnamed96_5f_5f_6509',['EFER.__unnamed96__',['../de/d78/namespaceCPU_1_1x32.html#d7/d29/structCPU_1_1x32_1_1EFER_8____unnamed96____',1,'CPU::x32']]],
   ['eflags_6510',['EFLAGS',['../de/d78/namespaceCPU_1_1x32.html#d1/d7c/unionCPU_1_1x32_1_1EFLAGS',1,'CPU::x32']]],
   ['eflags_2e_5f_5fattribute_5f_5f_6511',['EFLAGS.__attribute__',['../de/d78/namespaceCPU_1_1x32.html#d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____',1,'CPU::x32']]],
   ['elf32_5fauxv_5ft_6512',['Elf32_auxv_t',['../df/d31/abi_8h.html#d2/d6b/structElf32__auxv__t',1,'']]],

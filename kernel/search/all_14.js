@@ -117,7 +117,7 @@ var searchData=
   ['reset_4442',['Reset',['../da/de2/classshared__ptr_1_1Counter.html#a50beb98b99693f3ca47403144888b49f',1,'shared_ptr::Counter']]],
   ['resetreg_4443',['ResetReg',['../d1/d90/acpi_8hpp.html#aa65e82f703f035bce7bb0aa18fe8a92d',1,'ResetReg():&#160;acpi.hpp'],['../d3/d21/classACPI_1_1ACPI.html#a86773f16c815b5aea0e51bab2fdf58f8',1,'ACPI::ACPI::FADTHeader::ResetReg()']]],
   ['resetvalue_4444',['ResetValue',['../d3/d21/classACPI_1_1ACPI.html#a8b38ef033e7be84021fa4ddcc5f76da6',1,'ACPI::ACPI::FADTHeader::ResetValue()'],['../d1/d90/acpi_8hpp.html#ad8097fc48ffb7320c83037d6c348aa91',1,'ResetValue():&#160;acpi.hpp']]],
-  ['resize_4445',['Resize',['../db/df1/namespaceGraphicalUserInterface.html#a716db75409866789d9faf67be004945b',1,'GraphicalUserInterface::Event']]],
+  ['resize_4445',['Resize',['../db/df1/namespaceGraphicalUserInterface.html#a9a3d5bdfa3a25ecd40994029cfb28e63',1,'GraphicalUserInterface::Event']]],
   ['resize_4446',['resize',['../d6/da1/classVector.html#a51667cfd97acd07fd98b8a0114149030',1,'Vector']]],
   ['resizeall_4447',['ResizeAll',['../db/df1/namespaceGraphicalUserInterface.html#a12a8cbbe1fe1863d4758451bf8a8ff81a623002278d251c9c36b39d7596044e5f',1,'GraphicalUserInterface']]],
   ['resizediagonalleft_4448',['ResizeDiagonalLeft',['../db/df1/namespaceGraphicalUserInterface.html#a12a8cbbe1fe1863d4758451bf8a8ff81acc3690d5b026986530a795aedf4811b7',1,'GraphicalUserInterface']]],

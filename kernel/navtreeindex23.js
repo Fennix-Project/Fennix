@@ -1,7 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"d9/d13/StackGuard_8cpp.html#a7e01327e61a1953f0a32abb5d4851ecf":[6,0,0,1,14,0],
-"d9/d13/StackGuard_8cpp.html#abf9878f1b32919443c903c226a4c172e":[6,0,0,1,14,1],
 "d9/d13/StackGuard_8cpp.html#af9698f721e66c08ec8f6e8700834ed41":[6,0,0,1,14,2],
 "d9/d13/StackGuard_8cpp_source.html":[6,0,0,1,14],
 "d9/d25/namespaceCPU_1_1x64.html":[4,0,3,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX23 =
 "d9/d25/namespaceCPU_1_1x64.html#a36c9cec970957608ac98e64a0e7dbb50ab5cd1f03a9b8e25e289fd069cc32e400":[4,0,3,3,38,49],
 "d9/d25/namespaceCPU_1_1x64.html#a36c9cec970957608ac98e64a0e7dbb50ab75b8d47607a86b65f58f0e9f4bbd40d":[4,0,3,3,38,159],
 "d9/d25/namespaceCPU_1_1x64.html#a36c9cec970957608ac98e64a0e7dbb50ab8ba4b417d39367ea0fefdb46aeb045a":[4,0,3,3,38,255],
-"d9/d25/namespaceCPU_1_1x64.html#a36c9cec970957608ac98e64a0e7dbb50ab98387d5c468d8bd19a05ef9de503565":[4,0,3,3,38,80]
+"d9/d25/namespaceCPU_1_1x64.html#a36c9cec970957608ac98e64a0e7dbb50ab98387d5c468d8bd19a05ef9de503565":[4,0,3,3,38,80],
+"d9/d25/namespaceCPU_1_1x64.html#a36c9cec970957608ac98e64a0e7dbb50ab9d58de6cd36cef0b46e3f8bef88324e":[4,0,3,3,38,124],
+"d9/d25/namespaceCPU_1_1x64.html#a36c9cec970957608ac98e64a0e7dbb50ab9f81107e61340503b0257bdb477bf5c":[4,0,3,3,38,54]
 };

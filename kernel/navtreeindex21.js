@@ -1,7 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138df":[6,0,0,0,1,0,7,0],
-"d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa0ebd216ccf715efc8f6c10b6ece9b241":[6,0,0,0,1,0,7,0,3],
 "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780":[6,0,0,0,1,0,7,0,6],
 "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa2cbb2ee4b5b14b938027e51ab8744c8b":[6,0,0,0,1,0,7,0,1],
 "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa37ea3c449f78f10cf43e15ad1a899dab":[6,0,0,0,1,0,7,0,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX21 =
 "d8/d5d/i686_2cpu_2gdt_8hpp.html#a930e5a4d8414c0427fe5c636062579db":[6,0,0,0,2,0,1,33],
 "d8/d5d/i686_2cpu_2gdt_8hpp.html#a95539100d5c2368b95010fef43a844f6":[6,0,0,0,2,0,1,38],
 "d8/d5d/i686_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2":[6,0,0,0,2,0,1,11],
-"d8/d5d/i686_2cpu_2gdt_8hpp.html#a9cbcf7dbaba62e0aa7990f9c0893e165":[6,0,0,0,2,0,1,30]
+"d8/d5d/i686_2cpu_2gdt_8hpp.html#a9cbcf7dbaba62e0aa7990f9c0893e165":[6,0,0,0,2,0,1,30],
+"d8/d5d/i686_2cpu_2gdt_8hpp.html#a9d9ff73842948ded9734b943d3bf5894":[6,0,0,0,2,0,1,41],
+"d8/d5d/i686_2cpu_2gdt_8hpp.html#aa99de428bd3e7715b73b335a5af9e900":[6,0,0,0,2,0,1,16]
 };

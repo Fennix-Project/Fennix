@@ -1,7 +1,5 @@
 var NAVTREEINDEX25 =
 {
-"d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bda676f3989d1366663dd911f24e9989042":[4,0,3,3,40,159],
-"d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bda67bd831f22df7dafb018cc32d23d7326":[4,0,3,3,40,115],
 "d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bda67c4251d407704130f53582ccf481697":[4,0,3,3,40,268],
 "d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bda6841cb69caa38c84f622c4e963d4a70a":[4,0,3,3,40,178],
 "d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bda6843a3d4ceaed0c517d2da0919b239fa":[4,0,3,3,40,315],
@@ -249,5 +247,7 @@ var NAVTREEINDEX25 =
 "d9/d25/namespaceCPU_1_1x64.html#a758951cac5e62129e654698c8ca0333b":[6,0,0,5,9,336,3],
 "d9/d25/namespaceCPU_1_1x64.html#a762c68c39dfb078496f3b93b7b24457b":[4,0,3,3,53],
 "d9/d25/namespaceCPU_1_1x64.html#a7736dcefdc757d139bbe54b6f4731704":[6,0,0,5,9,343,9],
-"d9/d25/namespaceCPU_1_1x64.html#a78a92cde996f5ab594d36d58a7580274":[6,0,0,5,9,335,1]
+"d9/d25/namespaceCPU_1_1x64.html#a78a92cde996f5ab594d36d58a7580274":[6,0,0,5,9,335,1],
+"d9/d25/namespaceCPU_1_1x64.html#a7b34b0957cd5324800f38b5692ffd29e":[4,0,3,3,56],
+"d9/d25/namespaceCPU_1_1x64.html#a7b876ab130e250374b67c12b0cd11680":[4,0,3,3,36]
 };
