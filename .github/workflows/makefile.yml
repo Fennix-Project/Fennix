@@ -220,14 +220,26 @@ jobs:
     - name: Configure Makefile.conf
       run: sed -i 's/.*OSARCH = .*/OSARCH = amd64/' ./Makefile.conf && cat Makefile.conf | grep OSARCH
 
-    - name: Build
-      run: make build
+    - name: Compile Debug and Release ISO
+      run: |
+        make build
+        mv Fennix.iso Fennix-debug.iso
+        make clean
+        sed -i 's/.*DEBUG = .*/DEBUG = 0/' ./Makefile.conf && cat Makefile.conf | grep DEBUG
+        make build
+        mv Fennix.iso Fennix-release.iso
 
-    - name: Upload Artifact
+    - name: Upload Artifact (Fennix-debug.iso)
       uses: actions/upload-artifact@v3.1.0
       with:
-        name: Fennix-amd64
-        path: Fennix.iso
+        name: Fennix-amd64-debug
+        path: Fennix-debug.iso
+
+    - name: Upload Artifact (Fennix-release.iso)
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: Fennix-amd64-release
+        path: Fennix-release.iso
 
   compile32:
     name: Build i686
@@ -265,20 +277,40 @@ jobs:
     - name: Configure Makefile.conf
       run: sed -i 's/.*OSARCH = .*/OSARCH = i686/' ./Makefile.conf && cat Makefile.conf | grep OSARCH
 
-    - name: Build
-      run: make build
+    - name: Compile Debug and Release ISO
+      run: |
+        make build
+        mv Fennix.iso Fennix-debug.iso
+        mv Fennix-legacy.iso Fennix-legacy-debug.iso
+        make clean
+        sed -i 's/.*DEBUG = .*/DEBUG = 0/' ./Makefile.conf && cat Makefile.conf | grep DEBUG
+        make build
+        mv Fennix.iso Fennix-release.iso
+        mv Fennix-legacy.iso Fennix-legacy-release.iso
 
-    - name: Upload Artifact
+    - name: Upload Artifact (Fennix-debug.iso)
       uses: actions/upload-artifact@v3.1.0
       with:
-        name: Fennix-i686
-        path: Fennix.iso
+        name: Fennix-amd64-debug
+        path: Fennix-debug.iso
 
-    - name: Upload Artifact (Legacy)
+    - name: Upload Artifact (Fennix-release.iso)
       uses: actions/upload-artifact@v3.1.0
       with:
-        name: Fennix-i686-legacy
-        path: Fennix-legacy.iso
+        name: Fennix-amd64-release
+        path: Fennix-release.iso
+
+    - name: Upload Artifact (Fennix-legacy-debug.iso)
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: Fennix-i686-debug
+        path: Fennix-legacy-debug.iso
+
+    - name: Upload Artifact (Fennix-legacy-release.iso)
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: Fennix-i686-release
+        path: Fennix-legacy-release.iso
 
   compilearm64:
     name: Build aarch64
@@ -316,11 +348,23 @@ jobs:
     - name: Configure Makefile.conf
       run: sed -i 's/.*OSARCH = .*/OSARCH = aarch64/' ./Makefile.conf && cat Makefile.conf | grep OSARCH
 
-    - name: Build
-      run: make build
+    - name: Compile Debug and Release ISO
+      run: |
+        make build
+        mv Fennix.iso Fennix-debug.iso
+        make clean
+        sed -i 's/.*DEBUG = .*/DEBUG = 0/' ./Makefile.conf && cat Makefile.conf | grep DEBUG
+        make build
+        mv Fennix.iso Fennix-release.iso
 
-    - name: Upload Artifact
+    - name: Upload Artifact (Fennix-debug.iso)
       uses: actions/upload-artifact@v3.1.0
       with:
-        name: Fennix-aarch64
-        path: Fennix.img
+        name: Fennix-aarch64-debug
+        path: Fennix-debug.iso
+
+    - name: Upload Artifact (Fennix-release.iso)
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: Fennix-aarch64-release
+        path: Fennix-release.iso
