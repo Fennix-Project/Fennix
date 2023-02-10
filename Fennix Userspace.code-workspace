@@ -16,7 +16,9 @@
 			"stdio.h": "c",
 			"syscalls.h": "c",
 			"syslib.h": "c",
-			"sysfile.h": "c"
+			"sysfile.h": "c",
+			"ipc.h": "c",
+			"sysbase.h": "c"
 		},
 		"cSpell.words": [
 			"auxv",
