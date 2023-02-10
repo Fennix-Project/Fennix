@@ -1,5 +1,7 @@
 iso_tmp_data
 initrd/system/include/*
+initrd/system/*.raw
+initrd/system/lib/*.raw
 !initrd/system/include/.gitkeep
 tools/*
 !tools/stage2_eltorito

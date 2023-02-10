@@ -60,6 +60,8 @@ QEMUFLAGS += -M raspi3b \
 			 -cpu cortex-a57 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
+			 -serial null \
+			 -serial null \
 			 -kernel $(OSNAME).img
 endif
 
@@ -174,11 +176,14 @@ clean:
 	rm -f initrd.tar.gz $(OSNAME).iso $(OSNAME).img
 	rm -f initrd/system/drivers/*.fex
 	rm -f initrd/system/drivers/*.elf
+	rm -f initrd/system/drivers/*.raw
 	rm -f initrd/system/*.fex
 	rm -f initrd/system/*.elf
+	rm -f initrd/system/*.raw
 	rm -f initrd/system/*.so
 	rm -f initrd/system/*.a
 	rm -f initrd/system/lib/*.a
+	rm -f initrd/system/lib/*.raw
 	rm -f initrd/system/lib/*.so
 	rm -f initrd/system/lib/*.o
 	rm -f initrd/system/include/*.h
