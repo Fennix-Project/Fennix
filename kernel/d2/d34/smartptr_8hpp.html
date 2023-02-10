@@ -87,7 +87,9 @@ $(document).ready(function(){initNavTree('d2/d34/smartptr_8hpp.html','../../'); 
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">smartptr.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -106,17 +108,41 @@ Data Structures</h2></td></tr>
 <tr class="separator:d2/d72/classauto__ptr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dd/d67/classunique__ptr"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#dd/d67/classunique__ptr">unique_ptr&lt; T &gt;</a></td></tr>
 <tr class="separator:dd/d67/classunique__ptr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d9/d9b/classweak__ptr"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#d9/d9b/classweak__ptr">weak_ptr&lt; T &gt;</a></td></tr>
+<tr class="separator:d9/d9b/classweak__ptr"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d67/classshared__ptr.html">shared_ptr&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de2/classshared__ptr_1_1Counter.html">shared_ptr&lt; T &gt;::Counter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d9b/classweak__ptr"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#d9/d9b/classweak__ptr">weak_ptr&lt; T &gt;</a></td></tr>
-<tr class="separator:d9/d9b/classweak__ptr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:de/db3/structremove__reference"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#de/db3/structremove__reference">remove_reference&lt; T &gt;</a></td></tr>
+<tr class="separator:de/db3/structremove__reference"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:db/dba/structremove__reference_3_01T_01_6_01_4"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#db/dba/structremove__reference_3_01T_01_6_01_4">remove_reference&lt; T &amp; &gt;</a></td></tr>
+<tr class="separator:db/dba/structremove__reference_3_01T_01_6_01_4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:df/def/structremove__reference_3_01T_01_6_6_01_4"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#df/def/structremove__reference_3_01T_01_6_6_01_4">remove_reference&lt; T &amp;&amp; &gt;</a></td></tr>
+<tr class="separator:df/def/structremove__reference_3_01T_01_6_6_01_4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a281a891b6957dd7765d08d0ee8cba9da"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(m, ...)</td></tr>
 <tr class="separator:a281a891b6957dd7765d08d0ee8cba9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a5993e4587ccd2777e95893329360358a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a5993e4587ccd2777e95893329360358a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#a5993e4587ccd2777e95893329360358a">remove_reference_t</a> = typename <a class="el" href="../../d2/d34/smartptr_8hpp.html#de/db3/structremove__reference">remove_reference</a>&lt; T &gt;::type</td></tr>
+<tr class="separator:a5993e4587ccd2777e95893329360358a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7c48057bf8df668d8fcc26ff2cfe728e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7c48057bf8df668d8fcc26ff2cfe728e"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#a7c48057bf8df668d8fcc26ff2cfe728e">forward</a> (<a class="el" href="../../d2/d34/smartptr_8hpp.html#a5993e4587ccd2777e95893329360358a">remove_reference_t</a>&lt; T &gt; &amp;t)</td></tr>
+<tr class="separator:a7c48057bf8df668d8fcc26ff2cfe728e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55869111536ee9987a4fcacb1c553a42"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a55869111536ee9987a4fcacb1c553a42"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#a55869111536ee9987a4fcacb1c553a42">forward</a> (<a class="el" href="../../d2/d34/smartptr_8hpp.html#a5993e4587ccd2777e95893329360358a">remove_reference_t</a>&lt; T &gt; &amp;&amp;t)</td></tr>
+<tr class="separator:a55869111536ee9987a4fcacb1c553a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38302b21e6dcd07f8cba678239bed289"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Args&gt; </td></tr>
+<tr class="memitem:a38302b21e6dcd07f8cba678239bed289"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d4/d67/classshared__ptr.html">shared_ptr</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d34/smartptr_8hpp.html#a38302b21e6dcd07f8cba678239bed289">make_shared</a> (Args &amp;&amp;...args)</td></tr>
+<tr class="separator:a38302b21e6dcd07f8cba678239bed289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d2/d72/classauto__ptr" id="d2/d72/classauto__ptr"></a>
@@ -172,8 +198,92 @@ class unique_ptr&lt; T &gt;</h3>
 class weak_ptr&lt; T &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00150">150</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00071">71</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
 </div>
+</div>
+</div>
+<a name="de/db3/structremove__reference" id="de/db3/structremove__reference"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#de/db3/structremove__reference">&#9670;&nbsp;</a></span>remove_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct remove_reference</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+struct remove_reference&lt; T &gt;</h3>
+
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00230">230</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a30f490ee1919861a173b5b68c4921ea5"></a>typedef T</td>
+<td class="fieldname">
+type</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="db/dba/structremove__reference_3_01T_01_6_01_4" id="db/dba/structremove__reference_3_01T_01_6_01_4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#db/dba/structremove__reference_3_01T_01_6_01_4">&#9670;&nbsp;</a></span>remove_reference&lt; T &amp; &gt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct remove_reference&lt; T &amp; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+struct remove_reference&lt; T &amp; &gt;</h3>
+
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00236">236</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a3f40f309be0072f0d8cfc51b7be64a9d"></a>typedef T</td>
+<td class="fieldname">
+type</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="df/def/structremove__reference_3_01T_01_6_6_01_4" id="df/def/structremove__reference_3_01T_01_6_6_01_4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#df/def/structremove__reference_3_01T_01_6_6_01_4">&#9670;&nbsp;</a></span>remove_reference&lt; T &amp;&amp; &gt;</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct remove_reference&lt; T &amp;&amp; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+struct remove_reference&lt; T &amp;&amp; &gt;</h3>
+
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00242">242</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a4f3cfde5cdd501c6c28bf650548c8dec"></a>typedef T</td>
+<td class="fieldname">
+type</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
 </div>
 </div>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -205,6 +315,102 @@ class weak_ptr&lt; T &gt;</h3>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00014">14</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
 
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a5993e4587ccd2777e95893329360358a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5993e4587ccd2777e95893329360358a">&#9670;&nbsp;</a></span>remove_reference_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../d2/d34/smartptr_8hpp.html#a5993e4587ccd2777e95893329360358a">remove_reference_t</a> =  typename <a class="el" href="../../d2/d34/smartptr_8hpp.html#de/db3/structremove__reference">remove_reference</a>&lt;T&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00248">248</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a55869111536ee9987a4fcacb1c553a42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55869111536ee9987a4fcacb1c553a42">&#9670;&nbsp;</a></span>forward() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T&amp;&amp; forward </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d34/smartptr_8hpp.html#a5993e4587ccd2777e95893329360358a">remove_reference_t</a>&lt; T &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00257">257</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;{</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>T &amp;&amp;<span class="keyword">&gt;</span>(t);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;};</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7c48057bf8df668d8fcc26ff2cfe728e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c48057bf8df668d8fcc26ff2cfe728e">&#9670;&nbsp;</a></span>forward() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">T&amp;&amp; forward </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d34/smartptr_8hpp.html#a5993e4587ccd2777e95893329360358a">remove_reference_t</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00251">251</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;{</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">static_cast&lt;</span>T &amp;&amp;<span class="keyword">&gt;</span>(t);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;};</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a38302b21e6dcd07f8cba678239bed289"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38302b21e6dcd07f8cba678239bed289">&#9670;&nbsp;</a></span>make_shared()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d67/classshared__ptr.html">shared_ptr</a>&lt;T&gt; make_shared </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00263">263</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;{</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d67/classshared__ptr.html">shared_ptr&lt;T&gt;</a>(<span class="keyword">new</span> T(forward&lt;Args&gt;(args)...));</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;};</div>
+<div class="ttc" id="aclassshared__ptr_html"><div class="ttname"><a href="../../d4/d67/classshared__ptr.html">shared_ptr</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d34/smartptr_8hpp_source.html#l00076">smartptr.hpp:77</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

@@ -118,13 +118,13 @@ $(document).ready(function(){initNavTree('d7/d1d/libs_2libsys_2Makefile_source.h
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;ASM_ARCH := elf32</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;endif</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;CFLAGS := -fPIC -I../include -I../../libc/include</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;CFLAGS := -fPIC -fPIE -I../include -I../../libc/include</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;build: $(OBJECT_NAME)</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;$(OBJECT_NAME): $(OBJ)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    $(info Linking $@)</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    $(CC) -nostdlib -shared -fPIC -Wl,-soname,$(SO_NAME) $(SYSROOT) $(OBJ) -o $(OUTPUT_DIR)$@</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    $(CC) -nostdlib -shared -fPIC -fPIE -Wl,-soname,$(SO_NAME) $(SYSROOT) $(OBJ) -o $(OUTPUT_DIR)$@</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    $(OBJDUMP) -d $(OUTPUT_DIR)$@ &gt; file_dump.map</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;%.o: %.c</div>

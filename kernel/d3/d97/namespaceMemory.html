@@ -85,10 +85,115 @@ $(document).ready(function(){initNavTree('d3/d97/namespaceMemory.html','../../')
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">Memory Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a3e630a684edd2a6cd3e265fea85eade9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d97/namespaceMemory.html#a3e630a684edd2a6cd3e265fea85eade9">ReadFSFunction</a> (MEM_Read)</td></tr>
+<tr class="separator:a3e630a684edd2a6cd3e265fea85eade9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c5c24bf1615ba4a406fce3ad555d2fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d97/namespaceMemory.html#a1c5c24bf1615ba4a406fce3ad555d2fa">WriteFSFunction</a> (MEM_Write)</td></tr>
+<tr class="separator:a1c5c24bf1615ba4a406fce3ad555d2fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a6c1d73cc8a1e574400a2055d2beddf2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#d4/d2a/structVirtualFileSystem_1_1FileSystemOperations">VirtualFileSystem::FileSystemOperations</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d97/namespaceMemory.html#a6c1d73cc8a1e574400a2055d2beddf2a">mem_op</a></td></tr>
+<tr class="separator:a6c1d73cc8a1e574400a2055d2beddf2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a3e630a684edd2a6cd3e265fea85eade9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e630a684edd2a6cd3e265fea85eade9">&#9670;&nbsp;</a></span>ReadFSFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Memory::ReadFSFunction </td>
+          <td>(</td>
+          <td class="paramtype">MEM_Read&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dbc/MemoryManager_8cpp_source.html#l00008">8</a> of file <a class="el" href="../../dd/dbc/MemoryManager_8cpp_source.html">MemoryManager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">if</span> (!Size)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            Size = node-&gt;Length;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordflow">if</span> (Offset &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">if</span> (Offset + Size &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            Size = node-&gt;Length - Offset;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>(Buffer, (<a class="code" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)(node-&gt;Address + Offset), Size);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">return</span> Size;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
+<div class="ttc" id="aConvert_8cpp_html_a0c94a56e02776859c0f510bd6f7354c6"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memcpy(void *dest, const void *src, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00840">Convert.cpp:840</a></div></div>
+<div class="ttc" id="atypes_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00111">types.h:111</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00840">memcpy()</a>.</p>
+
+</div>
+</div>
+<a id="a1c5c24bf1615ba4a406fce3ad555d2fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c5c24bf1615ba4a406fce3ad555d2fa">&#9670;&nbsp;</a></span>WriteFSFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Memory::WriteFSFunction </td>
+          <td>(</td>
+          <td class="paramtype">MEM_Write&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/dbc/MemoryManager_8cpp_source.html#l00020">20</a> of file <a class="el" href="../../dd/dbc/MemoryManager_8cpp_source.html">MemoryManager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">if</span> (!Size)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            Size = node-&gt;Length;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">if</span> (Offset &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span> (Offset + Size &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            Size = node-&gt;Length - Offset;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>((<a class="code" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)(node-&gt;Address + Offset), Buffer, Size);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> Size;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00840">memcpy()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a6c1d73cc8a1e574400a2055d2beddf2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c1d73cc8a1e574400a2055d2beddf2a">&#9670;&nbsp;</a></span>mem_op</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#d4/d2a/structVirtualFileSystem_1_1FileSystemOperations">VirtualFileSystem::FileSystemOperations</a> Memory::mem_op</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">        .Name = <span class="stringliteral">&quot;mem&quot;</span>,</div>
+<div class="line">        .Read = MEM_Read,</div>
+<div class="line">        .Write = MEM_Write,</div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../dd/dbc/MemoryManager_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../dd/dbc/MemoryManager_8cpp_source.html">MemoryManager.cpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

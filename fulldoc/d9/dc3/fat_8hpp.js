@@ -1,21 +1,21 @@
 var fat_8hpp =
 [
-    [ "FAT", "df/d19/classFileSystem_1_1FAT.html", "df/d19/classFileSystem_1_1FAT" ],
-    [ "BIOSParameterBlock", "df/d19/classFileSystem_1_1FAT.html#d5/d3b/structFileSystem_1_1FAT_1_1BIOSParameterBlock", [
-      [ "BytesPerSector", "df/d19/classFileSystem_1_1FAT.html#a637b6ad1461e6fd5d032e1e7f7dd9b42", null ],
-      [ "HiddenSectors", "df/d19/classFileSystem_1_1FAT.html#a83660670086709267a1d559a8e539d10", null ],
-      [ "JumpBoot", "df/d19/classFileSystem_1_1FAT.html#af4382a80f460a26c98de678da9ffeef6", null ],
-      [ "Media", "df/d19/classFileSystem_1_1FAT.html#ada452d40daf1484d6f936edd62c0c467", null ],
-      [ "NumberOfFATs", "df/d19/classFileSystem_1_1FAT.html#ab9aac594199e3bbf379fa80caed65189", null ],
-      [ "NumberOfHeads", "df/d19/classFileSystem_1_1FAT.html#ab7d7f92013fc9e31381086b48c08c7fe", null ],
-      [ "OEM", "df/d19/classFileSystem_1_1FAT.html#ace84ee7ad116c4c9b1aa6589650d2c77", null ],
-      [ "ReservedSectors", "df/d19/classFileSystem_1_1FAT.html#a1a2e5e75d024bb772e465ecb07ca9016", null ],
-      [ "RootDirectoryEntries", "df/d19/classFileSystem_1_1FAT.html#a70c67ce6df061359ac7c13096761a674", null ],
-      [ "Sectors16", "df/d19/classFileSystem_1_1FAT.html#a4dd54d7bbea19327f644c15b4ec3de73", null ],
-      [ "Sectors32", "df/d19/classFileSystem_1_1FAT.html#a4154383978566c3aa348b0624389ed12", null ],
-      [ "SectorsPerCluster", "df/d19/classFileSystem_1_1FAT.html#aa0ba0335924521d95f4636195f5b5909", null ],
-      [ "SectorsPerFAT", "df/d19/classFileSystem_1_1FAT.html#a03b2df2e24699c1bdb60a5b1091f1e6e", null ],
-      [ "SectorsPerTrack", "df/d19/classFileSystem_1_1FAT.html#ac7cab6fcf687aca4884fd0eadb12cb69", null ]
+    [ "FAT", "db/dad/classVirtualFileSystem_1_1FAT.html", "db/dad/classVirtualFileSystem_1_1FAT" ],
+    [ "BIOSParameterBlock", "db/dad/classVirtualFileSystem_1_1FAT.html#d1/dc4/structVirtualFileSystem_1_1FAT_1_1BIOSParameterBlock", [
+      [ "BytesPerSector", "db/dad/classVirtualFileSystem_1_1FAT.html#afcb208da6cd403bb90465a1bf4a68d88", null ],
+      [ "HiddenSectors", "db/dad/classVirtualFileSystem_1_1FAT.html#a18d928e9438cdf920a015dae5f5b3902", null ],
+      [ "JumpBoot", "db/dad/classVirtualFileSystem_1_1FAT.html#a50cbeb5e1cc24dd12d8d04720cb1664a", null ],
+      [ "Media", "db/dad/classVirtualFileSystem_1_1FAT.html#a5566a458676c431ac9ab5721c2235fad", null ],
+      [ "NumberOfFATs", "db/dad/classVirtualFileSystem_1_1FAT.html#af7ace9d7269d51794e38b5ecd1fda0eb", null ],
+      [ "NumberOfHeads", "db/dad/classVirtualFileSystem_1_1FAT.html#ac6be8e95ce0373537f6c2304bfabeb6f", null ],
+      [ "OEM", "db/dad/classVirtualFileSystem_1_1FAT.html#a6e1ff98e6a9101acfacc4ca804f3895c", null ],
+      [ "ReservedSectors", "db/dad/classVirtualFileSystem_1_1FAT.html#affef997439f29cb73b74af88d6bca5a6", null ],
+      [ "RootDirectoryEntries", "db/dad/classVirtualFileSystem_1_1FAT.html#a46a68a79c886bcceabb86ad6b5cf8b97", null ],
+      [ "Sectors16", "db/dad/classVirtualFileSystem_1_1FAT.html#ae20b198b58511801843ce6bb4ffd27b2", null ],
+      [ "Sectors32", "db/dad/classVirtualFileSystem_1_1FAT.html#abff94c704406476bd9d83579da15dea5", null ],
+      [ "SectorsPerCluster", "db/dad/classVirtualFileSystem_1_1FAT.html#a3e5a273a6332aa8a98cc36ad0a5eb0a5", null ],
+      [ "SectorsPerFAT", "db/dad/classVirtualFileSystem_1_1FAT.html#a32cf70525ddf2eebab019a5f6c6f2f15", null ],
+      [ "SectorsPerTrack", "db/dad/classVirtualFileSystem_1_1FAT.html#a6e77a1cd8d30fa0d7d4ea4ea9327323b", null ]
     ] ],
     [ "BytesPerSector", "d9/dc3/fat_8hpp.html#a8150302ac60578f80916785444da77aa", null ],
     [ "HiddenSectors", "d9/dc3/fat_8hpp.html#aa4ea822b86d7dd078364c6d192c62dbb", null ],

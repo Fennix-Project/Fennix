@@ -92,7 +92,7 @@ var Kernel_2Library_2printf_8c =
     [ "printf", "df/d7f/Kernel_2Library_2printf_8c.html#a537686e53e62929cb37671752ffc8ffe", null ],
     [ "putchar_via_gadget", "df/d7f/Kernel_2Library_2printf_8c.html#af14b88caf629f759bdb47c998b8aa1da", null ],
     [ "putchar_wrapper", "df/d7f/Kernel_2Library_2printf_8c.html#a9a47358ab7e9ceccbd2531e188cfeab6", null ],
-    [ "snprintf_", "df/d7f/Kernel_2Library_2printf_8c.html#a808c73bea9fd88e907ca67fc3742d6c2", null ],
+    [ "snprintf", "df/d7f/Kernel_2Library_2printf_8c.html#a99d80fc59765b2a5ebb651b57a19a711", null ],
     [ "sprintf", "df/d7f/Kernel_2Library_2printf_8c.html#ac7730d9ff6e50a32ff75458f5f168a0c", null ],
     [ "strnlen_s_", "df/d7f/Kernel_2Library_2printf_8c.html#ac3e0abaf995a4a124ce816379a592d1f", null ],
     [ "unapply_scaling", "df/d7f/Kernel_2Library_2printf_8c.html#a8a1b42fc2c1935c1d215bdda7a14b5e7", null ],

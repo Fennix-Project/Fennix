@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['interprocesscommunication_6818',['InterProcessCommunication',['../d7/d5f/namespaceInterProcessCommunication.html',1,'']]],
-  ['interruptdescriptortable_6819',['InterruptDescriptorTable',['../d2/db2/namespaceInterruptDescriptorTable.html',1,'']]],
-  ['interrupts_6820',['Interrupts',['../d3/dc3/namespaceInterrupts.html',1,'']]]
+  ['memory_6996',['Memory',['../d3/d97/namespaceMemory.html',1,'']]]
 ];

@@ -92,13 +92,13 @@ $(document).ready(function(){initNavTree('d4/d90/Lock_8cpp_source.html','../../'
 <a href="../../d4/d90/Lock_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/d44/lock_8hpp.html">lock.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/dd1/stdio_8h.html">stdio.h</a>&gt;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">void</span> LockClass::DeadLock(SpinLockData Lock)</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">void</span> LockClass::DeadLock(SpinLockData <a class="code" href="../../d2/d05/resolve_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a>)</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d6/dd1/stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a>(<a class="code" href="../../d6/dd1/stdio_8h.html#ac80f4484175bf6c48d7b7ca4e9897ae6">stdout</a>, <span class="stringliteral">&quot;Potential deadlock in lock &#39;%s&#39; held by &#39;%s&#39;! %ld locks in queue.&quot;</span>,</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;            Lock.AttemptingToGet, Lock.CurrentHolder, Lock.Count);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;            <a class="code" href="../../d2/d05/resolve_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a>.AttemptingToGet, <a class="code" href="../../d2/d05/resolve_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a>.CurrentHolder, <a class="code" href="../../d2/d05/resolve_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a>.Count);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">int</span> LockClass::Lock(<span class="keyword">const</span> <span class="keywordtype">char</span> *FunctionName)</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/d05/resolve_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">LockClass::Lock</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *FunctionName)</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    LockData.AttemptingToGet = FunctionName;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;Retry:</div>
@@ -125,6 +125,7 @@ $(document).ready(function(){initNavTree('d4/d90/Lock_8cpp_source.html','../../'
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
 <div class="ttc" id="alock_8hpp_html"><div class="ttname"><a href="../../d0/d44/lock_8hpp.html">lock.hpp</a></div></div>
+<div class="ttc" id="aresolve_8c_html_a95b9ec9b558db4721392ca6a4dfeda1e"><div class="ttname"><a href="../../d2/d05/resolve_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a></div><div class="ttdeci">static char Lock</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d05/resolve_8c_source.html#l00017">resolve.c:17</a></div></div>
 <div class="ttc" id="astdio_8h_html"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html">stdio.h</a></div></div>
 <div class="ttc" id="astdio_8h_html_ac80f4484175bf6c48d7b7ca4e9897ae6"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#ac80f4484175bf6c48d7b7ca4e9897ae6">stdout</a></div><div class="ttdeci">FILE * stdout</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d0a/io_8c_source.html#l00005">io.c:5</a></div></div>
 <div class="ttc" id="astdio_8h_html_ad9291335f34e874c8431285d705bc3aa"><div class="ttname"><a href="../../d6/dd1/stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a></div><div class="ttdeci">int fprintf(FILE *stream, const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d0a/io_8c_source.html#l00023">io.c:23</a></div></div>

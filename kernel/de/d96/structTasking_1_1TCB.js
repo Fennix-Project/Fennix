@@ -5,7 +5,7 @@ var structTasking_1_1TCB =
     [ "SetCritical", "de/d96/structTasking_1_1TCB.html#a421fc4b87573abd0194625680c485864", null ],
     [ "SetDebugMode", "de/d96/structTasking_1_1TCB.html#a5c0c7b5b9a4426d24bbe8d5f22900d7d", null ],
     [ "SetKernelDebugMode", "de/d96/structTasking_1_1TCB.html#a3db2cb39195f0cd43d746e37aa32f65f", null ],
-    [ "SetPriority", "de/d96/structTasking_1_1TCB.html#a18fb41b423438c3260b073a75874474e", null ],
+    [ "SetPriority", "de/d96/structTasking_1_1TCB.html#a3a93c13898bacc57a757a892a66cd48c", null ],
     [ "EntryPoint", "de/d96/structTasking_1_1TCB.html#a22ee7989c9d822948a31341b724a4c0e", null ],
     [ "ExitCode", "de/d96/structTasking_1_1TCB.html#ad559303402b3927ebff520bfa3777af4", null ],
     [ "FPU", "de/d96/structTasking_1_1TCB.html#aacc38b3f4d55d1fc1a7b9de94f4e12fa", null ],

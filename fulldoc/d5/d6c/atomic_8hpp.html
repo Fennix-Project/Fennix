@@ -87,7 +87,6 @@ $(document).ready(function(){initNavTree('d5/d6c/atomic_8hpp.html','../../'); in
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
@@ -99,33 +98,30 @@ $(document).ready(function(){initNavTree('d5/d6c/atomic_8hpp.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dfe/classanonymous__namespace_02atomic_8hpp_03_1_1Atomic.html">anonymous_namespace{atomic.hpp}::Atomic&lt; T &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d4/d56/namespaceanonymous__namespace_02atomic_8hpp_03"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d56/namespaceanonymous__namespace_02atomic_8hpp_03.html">anonymous_namespace{atomic.hpp}</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df9/classAtomic.html">Atomic&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a52600f5d4caab9c54707d8e21d1d1761"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6c/atomic_8hpp.html#a52600f5d4caab9c54707d8e21d1d1761">_Atomic</a>(T)&#160;&#160;&#160;T</td></tr>
 <tr class="separator:a52600f5d4caab9c54707d8e21d1d1761"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5378d8b9f29d597ad63e1415713ac681"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(name)&#160;&#160;&#160;__atomic_##name##_n</td></tr>
+<tr class="memitem:a0980fcefe1f0038b3c6d264e6d1f7fef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6c/atomic_8hpp.html#a0980fcefe1f0038b3c6d264e6d1f7fef">builtin_atomic_n</a>(name)&#160;&#160;&#160;__atomic_##name##_n</td></tr>
+<tr class="separator:a0980fcefe1f0038b3c6d264e6d1f7fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5378d8b9f29d597ad63e1415713ac681"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(name)&#160;&#160;&#160;__atomic_##name</td></tr>
 <tr class="separator:a5378d8b9f29d597ad63e1415713ac681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a44c87fe87692477d78c1b35e76de0f13"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d56/namespaceanonymous__namespace_02atomic_8hpp_03.html#a44c87fe87692477d78c1b35e76de0f13">anonymous_namespace{atomic.hpp}::MemoryBorder</a> { <br />
-&#160;&#160;<a class="el" href="../../d4/d56/namespaceanonymous__namespace_02atomic_8hpp_03.html#a44c87fe87692477d78c1b35e76de0f13aa0a8257b3a2db9db1b92cc768b69476f">anonymous_namespace{atomic.hpp}::Relaxed</a> = __ATOMIC_RELAXED
-, <a class="el" href="../../d4/d56/namespaceanonymous__namespace_02atomic_8hpp_03.html#a44c87fe87692477d78c1b35e76de0f13ad0da5de667021a8075ddab42dc6c2b77">anonymous_namespace{atomic.hpp}::Acquire</a> = __ATOMIC_ACQUIRE
-, <a class="el" href="../../d4/d56/namespaceanonymous__namespace_02atomic_8hpp_03.html#a44c87fe87692477d78c1b35e76de0f13a38f91f9cb432084175b93ea46f92612e">anonymous_namespace{atomic.hpp}::Release</a> = __ATOMIC_RELEASE
-, <a class="el" href="../../d4/d56/namespaceanonymous__namespace_02atomic_8hpp_03.html#a44c87fe87692477d78c1b35e76de0f13a965442f54e91448bae149edc208ccee8">anonymous_namespace{atomic.hpp}::AcqRel</a> = __ATOMIC_ACQ_REL
+<tr class="memitem:a128c8cb0e2b7a00a721eecabef0d4280"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280">MemoryBorder</a> { <br />
+&#160;&#160;<a class="el" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280af43ba1f718385e527e05fec87e95157f">Relaxed</a> = __ATOMIC_RELAXED
+, <a class="el" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a3ac0209cbb4725209dd6f6c9022c5c0e">Acquire</a> = __ATOMIC_ACQUIRE
+, <a class="el" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a203c091eb36ddf3292775fd77fbd4f65">Release</a> = __ATOMIC_RELEASE
+, <a class="el" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280ada16c90d2e51a4a2b74d261ffff0fa12">AcqRel</a> = __ATOMIC_ACQ_REL
 , <br />
-&#160;&#160;<a class="el" href="../../d4/d56/namespaceanonymous__namespace_02atomic_8hpp_03.html#a44c87fe87692477d78c1b35e76de0f13a4a481b677083befedf8103ee1bfa9048">anonymous_namespace{atomic.hpp}::SeqCst</a> = __ATOMIC_SEQ_CST
+&#160;&#160;<a class="el" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a7e6e9054b7ad33e398c4044358de7604">SeqCst</a> = __ATOMIC_SEQ_CST
 <br />
  }</td></tr>
-<tr class="separator:a44c87fe87692477d78c1b35e76de0f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a128c8cb0e2b7a00a721eecabef0d4280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a52600f5d4caab9c54707d8e21d1d1761"></a>
@@ -159,6 +155,26 @@ Enumerations</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">name</td><td>)</td>
+          <td>&#160;&#160;&#160;__atomic_##name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00006">6</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a0980fcefe1f0038b3c6d264e6d1f7fef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0980fcefe1f0038b3c6d264e6d1f7fef">&#9670;&nbsp;</a></span>builtin_atomic_n</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define builtin_atomic_n</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">name</td><td>)</td>
           <td>&#160;&#160;&#160;__atomic_##name##_n</td>
         </tr>
       </table>
@@ -166,6 +182,58 @@ Enumerations</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00005">5</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
 
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a128c8cb0e2b7a00a721eecabef0d4280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a128c8cb0e2b7a00a721eecabef0d4280">&#9670;&nbsp;</a></span>MemoryBorder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280">MemoryBorder</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a128c8cb0e2b7a00a721eecabef0d4280af43ba1f718385e527e05fec87e95157f"></a>Relaxed&#160;</td><td class="fielddoc"><p>Relaxed memory border. </p>
+<p>This memory ordering specifies that the operation on the atomic variable has no synchronization with other memory accesses. This is the most relaxed ordering and provides the least synchronization. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a128c8cb0e2b7a00a721eecabef0d4280a3ac0209cbb4725209dd6f6c9022c5c0e"></a>Acquire&#160;</td><td class="fielddoc"><p>Acquire memory border. </p>
+<p>This memory ordering specifies that subsequent memory accesses after the atomic operation cannot be reordered before the atomic operation. This ordering provides synchronization with subsequent loads. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a128c8cb0e2b7a00a721eecabef0d4280a203c091eb36ddf3292775fd77fbd4f65"></a>Release&#160;</td><td class="fielddoc"><p>Release memory border. </p>
+<p>This memory ordering specifies that previous memory accesses before the atomic operation cannot be reordered after the atomic operation. This ordering provides synchronization with previous stores. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a128c8cb0e2b7a00a721eecabef0d4280ada16c90d2e51a4a2b74d261ffff0fa12"></a>AcqRel&#160;</td><td class="fielddoc"><p>Acquire and release memory border. </p>
+<p>This memory ordering combines both the acquire and release memory orderings. This ordering provides synchronization with both previous stores and subsequent loads. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a128c8cb0e2b7a00a721eecabef0d4280a7e6e9054b7ad33e398c4044358de7604"></a>SeqCst&#160;</td><td class="fielddoc"><p>Sequentially consistent memory border. </p>
+<p>This memory ordering is a combination of </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280ada16c90d2e51a4a2b74d261ffff0fa12" title="Acquire and release memory border.">AcqRel</a> and the additional guarantee of a single total order of all </dd>
+<dd>
+<a class="el" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a7e6e9054b7ad33e398c4044358de7604" title="Sequentially consistent memory border.">SeqCst</a> operations on the same object. </dd></dl>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00008">8</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280af43ba1f718385e527e05fec87e95157f">Relaxed</a> = __ATOMIC_RELAXED,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a3ac0209cbb4725209dd6f6c9022c5c0e">Acquire</a> = __ATOMIC_ACQUIRE,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a203c091eb36ddf3292775fd77fbd4f65">Release</a> = __ATOMIC_RELEASE,</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280ada16c90d2e51a4a2b74d261ffff0fa12">AcqRel</a> = __ATOMIC_ACQ_REL,</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a7e6e9054b7ad33e398c4044358de7604">SeqCst</a> = __ATOMIC_SEQ_CST</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;};</div>
+<div class="ttc" id="aatomic_8hpp_html_a128c8cb0e2b7a00a721eecabef0d4280a203c091eb36ddf3292775fd77fbd4f65"><div class="ttname"><a href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a203c091eb36ddf3292775fd77fbd4f65">Release</a></div><div class="ttdeci">@ Release</div><div class="ttdoc">Release memory border.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00041">atomic.hpp:41</a></div></div>
+<div class="ttc" id="aatomic_8hpp_html_a128c8cb0e2b7a00a721eecabef0d4280a3ac0209cbb4725209dd6f6c9022c5c0e"><div class="ttname"><a href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a3ac0209cbb4725209dd6f6c9022c5c0e">Acquire</a></div><div class="ttdeci">@ Acquire</div><div class="ttdoc">Acquire memory border.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00030">atomic.hpp:30</a></div></div>
+<div class="ttc" id="aatomic_8hpp_html_a128c8cb0e2b7a00a721eecabef0d4280a7e6e9054b7ad33e398c4044358de7604"><div class="ttname"><a href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a7e6e9054b7ad33e398c4044358de7604">SeqCst</a></div><div class="ttdeci">@ SeqCst</div><div class="ttdoc">Sequentially consistent memory border.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00062">atomic.hpp:61</a></div></div>
+<div class="ttc" id="aatomic_8hpp_html_a128c8cb0e2b7a00a721eecabef0d4280ada16c90d2e51a4a2b74d261ffff0fa12"><div class="ttname"><a href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280ada16c90d2e51a4a2b74d261ffff0fa12">AcqRel</a></div><div class="ttdeci">@ AcqRel</div><div class="ttdoc">Acquire and release memory border.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00051">atomic.hpp:51</a></div></div>
+<div class="ttc" id="aatomic_8hpp_html_a128c8cb0e2b7a00a721eecabef0d4280af43ba1f718385e527e05fec87e95157f"><div class="ttname"><a href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280af43ba1f718385e527e05fec87e95157f">Relaxed</a></div><div class="ttdeci">@ Relaxed</div><div class="ttdoc">Relaxed memory border.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00019">atomic.hpp:19</a></div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

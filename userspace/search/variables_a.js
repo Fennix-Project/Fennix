@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['pages_743',['pages',['../d2/dc3/liballoc__1__1_8c.html#ac355949c287ae38eefdfa97dc2abfc93',1,'liballoc_major']]],
-  ['pos_744',['pos',['../d0/d3e/structoutput__gadget__t.html#a2d7fbb42e24b385e482e9ba39de214bd',1,'output_gadget_t']]],
-  ['powers_5fof_5f10_745',['powers_of_10',['../d1/dae/libc_2src_2print_2printf_8c.html#a974e6c4c3f16de1b8382bc1bcbb3b65f',1,'powers_of_10():&#160;printf.c'],['../dc/d99/libs_2libinit_2printf_8c.html#a974e6c4c3f16de1b8382bc1bcbb3b65f',1,'powers_of_10():&#160;printf.c']]],
-  ['prev_746',['prev',['../d2/dc3/liballoc__1__1_8c.html#a8dd640e0d1f670a20d8db58a21d2c008',1,'liballoc_major::prev()'],['../d2/dc3/liballoc__1__1_8c.html#a31e3e38d226a10d454e8efdb82eaffe5',1,'liballoc_minor::prev()']]]
+  ['name_1041',['Name',['../d2/d05/resolve_8c.html#ac0134c9bcee4f8200b739ea61cd97266',1,'LibAddressCollection::Name()'],['../dd/dc1/sysproc_8h.html#aedcc01c6655aed2af93aafe48ec409ae',1,'Process::Name()'],['../dd/dc1/sysproc_8h.html#a17924bbee7ae2432580ec92eb6822fcb',1,'Thread::Name()']]],
+  ['next_1042',['Next',['../d2/d05/resolve_8c.html#acd82d73e2f8ea5bc398bec797e6e3ce0',1,'LibAddressCollection']]],
+  ['next_1043',['next',['../d2/dc3/liballoc__1__1_8c.html#a97bfe7e17a18555bcf3ac0ef7a760c02',1,'liballoc_major::next()'],['../d2/dc3/liballoc__1__1_8c.html#aad2a683c287f891bb4e315df5734bb94',1,'liballoc_minor::next()']]]
 ];

@@ -1,6 +1,7 @@
 var classHashMap =
 [
     [ "HashMap", "db/d1a/classHashMap.html#a8da27e91a4e604f128bc81ba2bfaba12", null ],
+    [ "~HashMap", "db/d1a/classHashMap.html#a43fdcb498d0e4f3fae604f3db66d1f4c", null ],
     [ "AddNode", "db/d1a/classHashMap.html#a4654df63d3f30f0acff30a43199346fd", null ],
     [ "DeleteNode", "db/d1a/classHashMap.html#a493be83f5e2c1e0daea58841347da659", null ],
     [ "Get", "db/d1a/classHashMap.html#aefcbc87bbe2d6fe3d300aa5c9fb809ee", null ],

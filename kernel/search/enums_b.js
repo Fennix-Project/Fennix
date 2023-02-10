@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['nativesyscalls_9696',['NativeSyscalls',['../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fce',1,'syscalls.h']]],
-  ['nodeflags_9697',['NodeFlags',['../d6/df5/namespaceFileSystem.html#a86d499b931be318b2231244eba122cbc',1,'FileSystem']]]
+  ['nativesyscalls_9920',['NativeSyscalls',['../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fce',1,'syscalls.h']]],
+  ['nodeflags_9921',['NodeFlags',['../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cf',1,'VirtualFileSystem']]]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['kernelprivate_728',['KernelPrivate',['../dc/d44/sysfile_8h.html#aa1ca961e56962f0ab0844abe9764155f',1,'File::KernelPrivate()'],['../dd/dc1/sysproc_8h.html#a82a87049e501b4e4c6d5ffb02d3d7e0b',1,'Process::KernelPrivate()'],['../dd/dc1/sysproc_8h.html#a15b5c8397d23796bc1cd2ced8e1a050b',1,'Thread::KernelPrivate()']]]
+  ['id_1023',['ID',['../dd/dc1/sysproc_8h.html#a144d910f3f3d206ba7b92ddef6d6e528',1,'Process::ID()'],['../dd/dc1/sysproc_8h.html#a8f01ebd95464f201a38b0e11e48935c2',1,'Thread::ID()']]],
+  ['integral_1024',['integral',['../dc/d99/libs_2libinit_2printf_8c.html#ae00a7a0ca9f4f9807dd1b73bbd5a0787',1,'double_components']]],
+  ['is_5fnegative_1025',['is_negative',['../dc/d99/libs_2libinit_2printf_8c.html#aef2f729965d4a2dc89776a783883dd7e',1,'double_components']]]
 ];

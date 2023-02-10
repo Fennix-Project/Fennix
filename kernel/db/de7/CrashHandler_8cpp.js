@@ -12,5 +12,6 @@ var CrashHandler_8cpp =
     [ "UserInput", "db/de7/CrashHandler_8cpp.html#a1cb59308e6e67023ed853324f606eb3c", null ],
     [ "crashdata", "db/de7/CrashHandler_8cpp.html#a12b3cdf72278dca522058fa300b3832b", null ],
     [ "EHIntFrames", "db/de7/CrashHandler_8cpp.html#a16c7b17cef8564d1a27df12f36f25f88", null ],
-    [ "ExceptionOccurred", "db/de7/CrashHandler_8cpp.html#a726f6c34e138d63f5aaadd5dac81a42a", null ]
+    [ "ExceptionOccurred", "db/de7/CrashHandler_8cpp.html#a726f6c34e138d63f5aaadd5dac81a42a", null ],
+    [ "PageFaultAddress", "db/de7/CrashHandler_8cpp.html#aee307b4511d76c583b1c64d952d842ec", null ]
 ];

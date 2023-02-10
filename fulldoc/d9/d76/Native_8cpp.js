@@ -1,6 +1,8 @@
 var Native_8cpp =
 [
+    [ "CheckTrust", "d9/d76/Native_8cpp.html#af5896c3435c476ecd571f0d18119aaf6", null ],
     [ "HandleNativeSyscalls", "d9/d76/Native_8cpp.html#a3899df2ca09209e4239023a276101b13", null ],
+    [ "sys_detach_address", "d9/d76/Native_8cpp.html#a62dc4da134a60d480a16848048805920", null ],
     [ "sys_exit", "d9/d76/Native_8cpp.html#a0a8d0247f5f069b67b0a5576e283f36d", null ],
     [ "sys_file_close", "d9/d76/Native_8cpp.html#a87607c0f6b2e2be4076be4b9126a51dd", null ],
     [ "sys_file_open", "d9/d76/Native_8cpp.html#ad269ffc5cf190d549c3cb8ae6111488f", null ],
@@ -14,7 +16,8 @@ var Native_8cpp =
     [ "sys_get_process_by_pid", "d9/d76/Native_8cpp.html#a53e95800a63ce8a15b58f65425555e26", null ],
     [ "sys_get_thread_by_tid", "d9/d76/Native_8cpp.html#ae5fe73858df4ad070e42baa61132f69e", null ],
     [ "sys_get_thread_list_of_process", "d9/d76/Native_8cpp.html#afb34d01cf8030073117616cd2dc6f219", null ],
-    [ "sys_kernelctl", "d9/d76/Native_8cpp.html#ad8b889998a2dbc83de3869195295336b", null ],
+    [ "sys_ipc", "d9/d76/Native_8cpp.html#a997be8dc8d9155db322c49f3bc850e1d", null ],
+    [ "sys_kernelctl", "d9/d76/Native_8cpp.html#ac88542481958d577db39ed498583203c", null ],
     [ "sys_kill", "d9/d76/Native_8cpp.html#a21a774e3b640f0617b8d38365271a7eb", null ],
     [ "sys_kill_process", "d9/d76/Native_8cpp.html#a69296533469339a9d5e851355db1f43c", null ],
     [ "sys_kill_thread", "d9/d76/Native_8cpp.html#adc4d8a6d39af91d6612a7b5fd46a16bc", null ],

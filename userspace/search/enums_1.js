@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kctl_796',['KCtl',['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1f',1,'sysbase.h']]]
+  ['fileflags_1146',['FileFlags',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744ad',1,'sysfile.h']]]
 ];

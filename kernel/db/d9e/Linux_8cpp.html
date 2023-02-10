@@ -1046,9 +1046,9 @@ Variables</h2></td></tr>
 <div class="line"><a name="l02406"></a><span class="lineno"> 2406</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Syscall %#llx failed.&quot;</span>, Frame-&gt;rax);</div>
 <div class="line"><a name="l02407"></a><span class="lineno"> 2407</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l02408"></a><span class="lineno"> 2408</span>&#160;    }</div>
-<div class="line"><a name="l02409"></a><span class="lineno"> 2409</span>&#160;    <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a> = call(Frame-&gt;rdi, Frame-&gt;rsi, Frame-&gt;rdx, Frame-&gt;r10, Frame-&gt;r8, Frame-&gt;r9);</div>
-<div class="line"><a name="l02410"></a><span class="lineno"> 2410</span>&#160;    Frame-&gt;rax = <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
-<div class="line"><a name="l02411"></a><span class="lineno"> 2411</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">ret</a>;</div>
+<div class="line"><a name="l02409"></a><span class="lineno"> 2409</span>&#160;    <a class="code" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> ret = call(Frame-&gt;rdi, Frame-&gt;rsi, Frame-&gt;rdx, Frame-&gt;r10, Frame-&gt;r8, Frame-&gt;r9);</div>
+<div class="line"><a name="l02410"></a><span class="lineno"> 2410</span>&#160;    Frame-&gt;rax = ret;</div>
+<div class="line"><a name="l02411"></a><span class="lineno"> 2411</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l02412"></a><span class="lineno"> 2412</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
 <div class="line"><a name="l02413"></a><span class="lineno"> 2413</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
 <div class="line"><a name="l02414"></a><span class="lineno"> 2414</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -1056,12 +1056,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="aLinux_8cpp_html_a6599cd666e5e9cb62a482d57fa6e869d"><div class="ttname"><a href="../../db/d9e/Linux_8cpp.html#a6599cd666e5e9cb62a482d57fa6e869d">LinuxSyscallsTable</a></div><div class="ttdeci">static void * LinuxSyscallsTable[]</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9e/Linux_8cpp_source.html#l02055">Linux.cpp:2055</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00044">debug.h:44</a></div></div>
 <div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00055">debug.h:55</a></div></div>
-<div class="ttc" id="anamespaceExecute_html_a339874f7caace499be89fa08adf3ad6d"><div class="ttname"><a href="../../d5/d27/namespaceExecute.html#a339874f7caace499be89fa08adf3ad6d">Execute::ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d21/Spawn_8cpp_source.html#l00193">Spawn.cpp:193</a></div></div>
 <div class="ttc" id="atypes_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00114">types.h:114</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00044">error</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00055">fixme</a>, <a class="el" href="../../db/d9e/Linux_8cpp_source.html#l02055">LinuxSyscallsTable</a>, and <a class="el" href="../../de/d21/Spawn_8cpp_source.html#l00193">Execute::ret</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00044">error</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00055">fixme</a>, and <a class="el" href="../../db/d9e/Linux_8cpp_source.html#l02055">LinuxSyscallsTable</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html#l00007">SystemCallsHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html#l00009">SystemCallsHandler()</a>.</p>
 
 </div>
 </div>

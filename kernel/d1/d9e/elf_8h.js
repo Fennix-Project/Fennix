@@ -98,6 +98,11 @@ var elf_8h =
       [ "d_tag", "d1/d9e/elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
       [ "d_un", "d1/d9e/elf_8h.html#a6d16a448973db6d07158b10470ce3eeb", null ]
     ] ],
+    [ "Elf64_Rela", "d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela", [
+      [ "r_addend", "d1/d9e/elf_8h.html#a04358b55027a7dcc414e221d916aac64", null ],
+      [ "r_info", "d1/d9e/elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76", null ],
+      [ "r_offset", "d1/d9e/elf_8h.html#a9ea7e07ec6e0d57bf4bcd53b89de7948", null ]
+    ] ],
     [ "Elf32_Dyn.d_un", "d1/d9e/elf_8h.html#d7/df0/unionElf32__Dyn_8d__un", [
       [ "d_ptr", "d1/d9e/elf_8h.html#ac9d3a8305c0e05e4d0d52aee8d608056", null ],
       [ "d_val", "d1/d9e/elf_8h.html#ac16b193bd04a52da28f2e6c8cf713fb4", null ]
@@ -111,14 +116,16 @@ var elf_8h =
     [ "DO_64_64", "d1/d9e/elf_8h.html#a9fd771b855c88f9a13147a0a560a8ebe", null ],
     [ "DO_64_PC32", "d1/d9e/elf_8h.html#ada1680eb451e4468e4725377162ccb93", null ],
     [ "EI_NIDENT", "d1/d9e/elf_8h.html#ae407130db14180c6737390604ba7c1fe", null ],
-    [ "ELF32_R_SYM", "d1/d9e/elf_8h.html#a96a9ba1ff722bd8aea256fb01970600a", null ],
-    [ "ELF32_R_TYPE", "d1/d9e/elf_8h.html#a7548f92b34af53b9dbe09976215ad8e9", null ],
+    [ "ELF32_R_INFO", "d1/d9e/elf_8h.html#aeb7c1eec87bedbd8241d71ce4617d72c", null ],
+    [ "ELF32_R_SYM", "d1/d9e/elf_8h.html#a8d1ac0f35a8999a4a8a3350ca95ab54b", null ],
+    [ "ELF32_R_TYPE", "d1/d9e/elf_8h.html#aa4ffd69f2c1c03229686bfa3a898db00", null ],
     [ "ELF32_ST_BIND", "d1/d9e/elf_8h.html#a1ac2af28735ac82302fee2e09956b0e2", null ],
     [ "ELF32_ST_INFO", "d1/d9e/elf_8h.html#abc4e291764a8281f7a0e2dab4b5a7a6e", null ],
     [ "ELF32_ST_TYPE", "d1/d9e/elf_8h.html#acde81341b366f9fa2681beec70527ad4", null ],
     [ "ELF32_ST_VISIBILITY", "d1/d9e/elf_8h.html#aa0cbec7f6cddfe4403da9e56393a2ffe", null ],
-    [ "ELF64_R_SYM", "d1/d9e/elf_8h.html#a57e51d0eb5efcaa694b56382aa0c0367", null ],
-    [ "ELF64_R_TYPE", "d1/d9e/elf_8h.html#ad4300235263c2f415710511a17fad262", null ],
+    [ "ELF64_R_INFO", "d1/d9e/elf_8h.html#a90f5b8712be4ba75603096a0bb4c38d5", null ],
+    [ "ELF64_R_SYM", "d1/d9e/elf_8h.html#ab8a1253bfcc928f9aa9d4177d84f6830", null ],
+    [ "ELF64_R_TYPE", "d1/d9e/elf_8h.html#a51aeadee885873fec9a218c058fe9e09", null ],
     [ "ELF64_ST_BIND", "d1/d9e/elf_8h.html#a42a5357c8e88e59874be665f0f8bece6", null ],
     [ "ELF64_ST_INFO", "d1/d9e/elf_8h.html#a3e3404b8adf465a8b34921c9dc0626ab", null ],
     [ "ELF64_ST_TYPE", "d1/d9e/elf_8h.html#a669aab4bedacc708965ef6c997084028", null ],
@@ -136,7 +143,8 @@ var elf_8h =
     [ "ELFMAG3", "d1/d9e/elf_8h.html#a2beeae5974769f72da5f63dcbcc325fe", null ],
     [ "EM_386", "d1/d9e/elf_8h.html#a77301c665274669ba8d05978eb0d299e", null ],
     [ "EM_AARCH64", "d1/d9e/elf_8h.html#ae7d928612b2d484d2ccfd58f50be7db4", null ],
-    [ "EM_AMD64", "d1/d9e/elf_8h.html#a69db1a91cc6087aaa31ebba8a447ee09", null ],
+    [ "EM_ARM", "d1/d9e/elf_8h.html#ad8fac71aae0d2fbfab30f278a79c941a", null ],
+    [ "EM_X86_64", "d1/d9e/elf_8h.html#a23fd3947ed1cfe58469b045efb4bb418", null ],
     [ "EV_CURRENT", "d1/d9e/elf_8h.html#a8085a255e82173046afefd2a1c6de930", null ],
     [ "SHF_ALLOC", "d1/d9e/elf_8h.html#a38476fe4ed88ac83ba86a4e103199a86", null ],
     [ "SHF_WRITE", "d1/d9e/elf_8h.html#a025c79223b0fee4676337d660f76b59b", null ],
@@ -182,7 +190,7 @@ var elf_8h =
     [ "SHT_SYMTAB_SHNDX", "d1/d9e/elf_8h.html#a1ab74ecc44225e3741a171a962d79318", null ],
     [ "Elf32_Addr", "d1/d9e/elf_8h.html#a40c6d4571e6001f443cc6a6474620158", null ],
     [ "Elf32_Ehdr", "d1/d9e/elf_8h.html#a813325dbda814fb708a5c81675be9b36", null ],
-    [ "Elf32_Half", "d1/d9e/elf_8h.html#a80c2e7e3babadd5a5a75f5d13cc804ad", null ],
+    [ "Elf32_Half", "d1/d9e/elf_8h.html#a2ff0787d7d1bae0f251192806a2974ca", null ],
     [ "Elf32_Off", "d1/d9e/elf_8h.html#a655751f9b317369b93c581ea8ed84516", null ],
     [ "Elf32_Rel", "d1/d9e/elf_8h.html#a0e283038a29bc7b9055ac33771ac5d78", null ],
     [ "Elf32_Shdr", "d1/d9e/elf_8h.html#a683980a91a52f547398a21c27d7ca30b", null ],
@@ -316,10 +324,28 @@ var elf_8h =
       [ "ET_LOPROC", "d1/d9e/elf_8h.html#ae705110a6320d7ca1cd35cf11ecabde3ab27c95c9df90f9e943194f006b03f719", null ],
       [ "ET_HIPROC", "d1/d9e/elf_8h.html#ae705110a6320d7ca1cd35cf11ecabde3aa2025b338c94b3a81e1e946155c2c063", null ]
     ] ],
+    [ "ProgFlags_Types", "d1/d9e/elf_8h.html#a91de15bebe547cf4e31819b359002593", [
+      [ "PF_X", "d1/d9e/elf_8h.html#a91de15bebe547cf4e31819b359002593aa68ecedabbb0a8a3e4c2e432e235109f", null ],
+      [ "PF_W", "d1/d9e/elf_8h.html#a91de15bebe547cf4e31819b359002593af1ffb1089cc302bb8066ab057661cff0", null ],
+      [ "PF_R", "d1/d9e/elf_8h.html#a91de15bebe547cf4e31819b359002593a3998adec5275e95fa13edd60ab213edc", null ]
+    ] ],
     [ "RtT_Types", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834", [
       [ "R_386_NONE", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834aab1b4d3ac5b0433d382ee1959cf765e5", null ],
       [ "R_386_32", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834a7b52974df2dc7d41fea7ba09e53c8008", null ],
-      [ "R_386_PC32", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834ac8d5b77f9cdb0ca7b2647768319d72a9", null ]
+      [ "R_386_PC32", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834ac8d5b77f9cdb0ca7b2647768319d72a9", null ],
+      [ "R_X86_64_NONE", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834aab76a95193e5ac59d8d59e00cb0e0913", null ],
+      [ "R_X86_64_64", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834a7950b5870864a539e700817751252cd1", null ],
+      [ "R_X86_64_PC32", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834acbf706e80e9dc4fd51b4440b30a35607", null ],
+      [ "R_X86_64_GOT32", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834aa186150c7c7d14353c30027a0309cec5", null ],
+      [ "R_X86_64_PLT32", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834adf7e5d3a23da6b83e744ef69c1fd263f", null ],
+      [ "R_X86_64_COPY", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834a31cbc2669119edb82678900a0051fc20", null ],
+      [ "R_X86_64_GLOB_DAT", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834a27547191777bbd35f02a0a7e4ddbdc9a", null ],
+      [ "R_X86_64_JUMP_SLOT", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834ac7ca451ce423a4390d4057317c0446ff", null ],
+      [ "R_X86_64_RELATIVE", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834a09422b813688f2ab0d77d62440b2886b", null ],
+      [ "R_X86_64_GOTPCREL", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834a5de1f7ddb275bad8d403c3bda8014f67", null ],
+      [ "R_X86_64_32", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834a390b57cb59289d680252bf5fffd07953", null ],
+      [ "R_X86_64_32S", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834a90771052f6c474bcb509c16cf722e491", null ],
+      [ "R_X86_64_16", "d1/d9e/elf_8h.html#a99019c567a914f79a4c488ecf2305834ae98d55dee4b25e2231537e9203849de7", null ]
     ] ],
     [ "SegmentTypes", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2", [
       [ "PT_NULL", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a62bfb1b538f27e5e3c5f80c4630110c6", null ],

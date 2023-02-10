@@ -1,5 +1,6 @@
 var Kernel_2Core_2Memory_2Memory_8cpp =
 [
+    [ "memdbg", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a3a43746d8cd3253899c9a16365b16a8a", null ],
     [ "HeapCalloc", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a58c6ee324540d91508135e91335bd5ca", null ],
     [ "HeapFree", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a1cf37a0b7bfe09f0bc495d5b141a424e", null ],
     [ "HeapMalloc", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#abcdb2e197e0c2d3aec224308ca629c88", null ],

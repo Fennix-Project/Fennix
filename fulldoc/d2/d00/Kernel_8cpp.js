@@ -22,5 +22,5 @@ var Kernel_8cpp =
     [ "PowerManager", "d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94", null ],
     [ "TaskManager", "d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2", null ],
     [ "TimeManager", "d2/d00/Kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d", null ],
-    [ "vfs", "d2/d00/Kernel_8cpp.html#aace8e8569f67aa3e86be6cefa47a71f7", null ]
+    [ "vfs", "d2/d00/Kernel_8cpp.html#a5dc6c0c45c4b48819798cf567e275e84", null ]
 ];

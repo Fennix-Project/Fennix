@@ -13,6 +13,5 @@ var classNetworkInterfaceManager_1_1NetworkInterface =
     [ "CardIDs", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#afdb16c07c56cf8731e568e9c34927883", null ],
     [ "Interfaces", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a55877914c581cc03f64dece7360987c8", null ],
     [ "mem", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a35f971fc850c4280623d566b1c9a9497", null ],
-    [ "NetSvcProcess", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#aa8cc1bcde8b6acde7fc5932dffb5656f", null ],
     [ "NetSvcThread", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a08c6574fca685930ddfde88b27946d78", null ]
 ];

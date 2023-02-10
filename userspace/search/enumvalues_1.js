@@ -1,9 +1,13 @@
 var searchData=
 [
-  ['kctl_5fget_5fgid_808',['KCTL_GET_GID',['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1faa408d2fc92ec8616c3bfca48059ad355',1,'sysbase.h']]],
-  ['kctl_5fget_5fpage_5fsize_809',['KCTL_GET_PAGE_SIZE',['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77',1,'sysbase.h']]],
-  ['kctl_5fget_5fpid_810',['KCTL_GET_PID',['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1face129e39bef73a80e9da01d75aa04049',1,'sysbase.h']]],
-  ['kctl_5fget_5ftid_811',['KCTL_GET_TID',['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa0eb36ec74e65567b2d22ef97911e8a3e',1,'sysbase.h']]],
-  ['kctl_5fget_5fuid_812',['KCTL_GET_UID',['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa218ab4e88581b8103b701b52213f61ca',1,'sysbase.h']]],
-  ['kctl_5fnull_813',['KCTL_NULL',['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa571aa3760135e3dc9572c3217ab42ffb',1,'sysbase.h']]]
+  ['file_5fappend_1219',['FILE_APPEND',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744ada03ceb17b3f22e06535b04e4fe7b96c77',1,'sysfile.h']]],
+  ['file_5fcloexec_1220',['FILE_CLOEXEC',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744adafad2872203e3c506cb2a9eeba1080878',1,'sysfile.h']]],
+  ['file_5fcreate_1221',['FILE_CREATE',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744ada66100ecf9720655dd2076dc508609c6b',1,'sysfile.h']]],
+  ['file_5fdirectory_1222',['FILE_DIRECTORY',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744ada8eca42b79a25f753c72cb9ce685525c1',1,'sysfile.h']]],
+  ['file_5fexclusive_1223',['FILE_EXCLUSIVE',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744ada7cb64137732cda49bcd322d7e20f7335',1,'sysfile.h']]],
+  ['file_5fnonblock_1224',['FILE_NONBLOCK',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744ada680243a5d965acf5056d78d7f3e7d8d5',1,'sysfile.h']]],
+  ['file_5fread_1225',['FILE_READ',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744adabc12fb4abc05d500e44b1933e485a930',1,'sysfile.h']]],
+  ['file_5fsymlink_1226',['FILE_SYMLINK',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744adab494be86e30c8a171d5a23d76eb3ade8',1,'sysfile.h']]],
+  ['file_5ftruncate_1227',['FILE_TRUNCATE',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744ada4ed18cedc6521bd91d5e5494b228569f',1,'sysfile.h']]],
+  ['file_5fwrite_1228',['FILE_WRITE',['../dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744adad6098fc5d2343501a61efdac838e5925',1,'sysfile.h']]]
 ];

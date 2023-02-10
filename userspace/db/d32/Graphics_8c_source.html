@@ -89,31 +89,14 @@ $(document).ready(function(){initNavTree('db/d32/Graphics_8c_source.html','../..
 <div class="title">Graphics.c</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../db/d32/Graphics_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dd/d2e/sysbase_8h.html">sysbase.h</a>&gt;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;../../../Kernel/syscalls.h&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../dd/d2e/sysbase_8h.html#ab826bfc79d0a8112f75fe4d36bee1e91">    5</a></span>&#160;<span class="keywordtype">long</span> <a class="code" href="../../db/d32/Graphics_8c.html#ab826bfc79d0a8112f75fe4d36bee1e91">DoCtl</a>(<a class="code" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Command, <a class="code" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg1, <a class="code" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg2, <a class="code" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg3, <a class="code" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg4)</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> syscall5(_KernelCTL, Command, Arg1, Arg2, Arg3, Arg4);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../dd/d2e/sysbase_8h.html#aad4cec973cd1f8f40606bcee8cd89d05">   10</a></span>&#160;<a class="code" href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> <a class="code" href="../../db/d32/Graphics_8c.html#aad4cec973cd1f8f40606bcee8cd89d05">KrnlRequestPages</a>(<span class="keywordtype">size_t</span> Count)</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> syscall1(_RequestPages, Count);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../dd/d2e/sysbase_8h.html#ae76f515a890b70d1323216ed4128aa82">   15</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d32/Graphics_8c.html#ae76f515a890b70d1323216ed4128aa82">KrnlFreePages</a>(<a class="code" href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Address, <span class="keywordtype">size_t</span> Count)</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a>(_FreePages, Address, Count);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
-<div class="ttc" id="aGraphics_8c_html_aad4cec973cd1f8f40606bcee8cd89d05"><div class="ttname"><a href="../../db/d32/Graphics_8c.html#aad4cec973cd1f8f40606bcee8cd89d05">KrnlRequestPages</a></div><div class="ttdeci">uintptr_t KrnlRequestPages(size_t Count)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d32/Graphics_8c_source.html#l00010">Graphics.c:10</a></div></div>
-<div class="ttc" id="aGraphics_8c_html_ab826bfc79d0a8112f75fe4d36bee1e91"><div class="ttname"><a href="../../db/d32/Graphics_8c.html#ab826bfc79d0a8112f75fe4d36bee1e91">DoCtl</a></div><div class="ttdeci">long DoCtl(uint64_t Command, uint64_t Arg1, uint64_t Arg2, uint64_t Arg3, uint64_t Arg4)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d32/Graphics_8c_source.html#l00005">Graphics.c:5</a></div></div>
-<div class="ttc" id="aGraphics_8c_html_ae76f515a890b70d1323216ed4128aa82"><div class="ttname"><a href="../../db/d32/Graphics_8c.html#ae76f515a890b70d1323216ed4128aa82">KrnlFreePages</a></div><div class="ttdeci">void KrnlFreePages(uintptr_t Address, size_t Count)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d32/Graphics_8c_source.html#l00015">Graphics.c:15</a></div></div>
-<div class="ttc" id="aecho_8cpp_html_a9314edc2ca3e103a3fcb3541c034c01e"><div class="ttname"><a href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a></div><div class="ttdeci">static long syscall2(int sc, long arg1, long arg2)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dea/echo_8cpp_source.html#l00001">echo.cpp:1</a></div></div>
-<div class="ttc" id="astddef_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dce/stddef_8h_source.html#l00018">stddef.h:18</a></div></div>
-<div class="ttc" id="astddef_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dce/stddef_8h_source.html#l00039">stddef.h:39</a></div></div>
-<div class="ttc" id="asysbase_8h_html"><div class="ttname"><a href="../../dd/d2e/sysbase_8h.html">sysbase.h</a></div></div>
+<a href="../../db/d32/Graphics_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;../../../Kernel/syscalls.h&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../db/d32/Graphics_8c.html#a6970795df5429d9fbd54d5f3a1125e27">    4</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../db/d32/Graphics_8c.html#a6970795df5429d9fbd54d5f3a1125e27">stub</a>()</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="aGraphics_8c_html_a6970795df5429d9fbd54d5f3a1125e27"><div class="ttname"><a href="../../db/d32/Graphics_8c.html#a6970795df5429d9fbd54d5f3a1125e27">stub</a></div><div class="ttdeci">int stub()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d32/Graphics_8c_source.html#l00004">Graphics.c:4</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

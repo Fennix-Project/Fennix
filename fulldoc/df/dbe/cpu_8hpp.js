@@ -2,7 +2,7 @@ var cpu_8hpp =
 [
     [ "__m128i", "d2/d51/unionCPU_1_1____m128i.html", "d2/d51/unionCPU_1_1____m128i" ],
     [ "EFLAGS", "de/d78/namespaceCPU_1_1x32.html#d1/d7c/unionCPU_1_1x32_1_1EFLAGS", [
-      [ "__attribute__", "de/d78/namespaceCPU_1_1x32.html#a784a51dd29e1c204a25daba03f432222", null ],
+      [ "__attribute__", "de/d78/namespaceCPU_1_1x32.html#a4faf37a2d4797a76a513e8d71008f1d4", null ],
       [ "raw", "de/d78/namespaceCPU_1_1x32.html#a896ee47cf16552f2ac6b0314837b143e", null ]
     ] ],
     [ "TrapFrame", "de/d78/namespaceCPU_1_1x32.html#d3/d23/structCPU_1_1x32_1_1TrapFrame", [
@@ -540,7 +540,7 @@ var cpu_8hpp =
       [ "VM", "de/d78/namespaceCPU_1_1x32.html#a583a65df9db4119165f5ea0abaa50281", null ],
       [ "ZF", "de/d78/namespaceCPU_1_1x32.html#a8ec66b3387ffaa10d0be63d1a95c280a", null ]
     ] ],
-    [ "CR0.__unnamed86__", "de/d78/namespaceCPU_1_1x32.html#d4/d3a/structCPU_1_1x32_1_1CR0_8____unnamed86____", [
+    [ "CR0.__unnamed82__", "de/d78/namespaceCPU_1_1x32.html#d7/d01/structCPU_1_1x32_1_1CR0_8____unnamed82____", [
       [ "AM", "de/d78/namespaceCPU_1_1x32.html#a25ec916d56b8212e569dbf2e4e4b51d4", null ],
       [ "CD", "de/d78/namespaceCPU_1_1x32.html#a4170acd6af571e8d0d59fdad999cc605", null ],
       [ "EM", "de/d78/namespaceCPU_1_1x32.html#ab95c3d50fa47443166f7d356eaed8006", null ],

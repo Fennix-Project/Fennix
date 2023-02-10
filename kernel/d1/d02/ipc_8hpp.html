@@ -89,13 +89,16 @@ $(document).ready(function(){initNavTree('d1/d02/ipc_8hpp.html','../../'); initR
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">ipc.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d16/vector_8hpp_source.html">vector.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
 </div>
 <p><a href="../../d1/d02/ipc_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -104,10 +107,6 @@ $(document).ready(function(){initNavTree('d1/d02/ipc_8hpp.html','../../'); initR
 Data Structures</h2></td></tr>
 <tr class="memitem:dc/d6b/structInterProcessCommunication_1_1IPCHandle"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#dc/d6b/structInterProcessCommunication_1_1IPCHandle">InterProcessCommunication::IPCHandle</a></td></tr>
 <tr class="separator:dc/d6b/structInterProcessCommunication_1_1IPCHandle"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/dcb/structInterProcessCommunication_1_1____attribute____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#d9/dcb/structInterProcessCommunication_1_1____attribute____">InterProcessCommunication::__attribute__</a></td></tr>
-<tr class="separator:d9/dcb/structInterProcessCommunication_1_1____attribute____"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:df/df1/structInterProcessCommunication_1_1IPCError"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#df/df1/structInterProcessCommunication_1_1IPCError">InterProcessCommunication::IPCError</a></td></tr>
-<tr class="separator:df/df1/structInterProcessCommunication_1_1IPCError"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d7e/classInterProcessCommunication_1_1IPC.html">InterProcessCommunication::IPC</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -118,34 +117,38 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:af701c59ee6758d6e735320da4b375cda"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#af701c59ee6758d6e735320da4b375cda">InterProcessCommunication::IPCPort</a></td></tr>
-<tr class="separator:af701c59ee6758d6e735320da4b375cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa91ca1ed78f611a9999754db0e924c50"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#aa91ca1ed78f611a9999754db0e924c50">InterProcessCommunication::IPCID</a></td></tr>
+<tr class="separator:aa91ca1ed78f611a9999754db0e924c50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a78090511e8c5ca325ffd8dfca0b01d03"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a78090511e8c5ca325ffd8dfca0b01d03">InterProcessCommunication::IPCOperationType</a> { <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a78090511e8c5ca325ffd8dfca0b01d03a7419979816d8fbe376b8394c5b97a283">InterProcessCommunication::IPCOperationNone</a>
-, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a78090511e8c5ca325ffd8dfca0b01d03ad1bbb2fdbe03eb4533ba206755e00bd5">InterProcessCommunication::IPCOperationWrite</a>
-, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a78090511e8c5ca325ffd8dfca0b01d03adfad9725a9bda4fa66bfe4762494f2a3">InterProcessCommunication::IPCOperationRead</a>
+<tr class="memitem:a145254a95cbdfd4848152bc2051d2893"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a145254a95cbdfd4848152bc2051d2893">InterProcessCommunication::IPCType</a> { <br />
+&#160;&#160;<a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a145254a95cbdfd4848152bc2051d2893a794de61e154efb4244f7a2ffc8f58a7f">InterProcessCommunication::IPCNone</a>
+, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a145254a95cbdfd4848152bc2051d2893a3ee42d9dc5b16549ecef42bd501590e2">InterProcessCommunication::IPCMessagePassing</a>
+, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a145254a95cbdfd4848152bc2051d2893ae95a0fd35f02552c495bc37c0e9938ba">InterProcessCommunication::IPCPort</a>
+, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a145254a95cbdfd4848152bc2051d2893aa4efd04396f5f3512a30d9065bf5901d">InterProcessCommunication::IPCSharedMemory</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a145254a95cbdfd4848152bc2051d2893a11eda845a713256e8b185ba9240050c9">InterProcessCommunication::IPCPipe</a>
+, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a145254a95cbdfd4848152bc2051d2893a939282e2dfa58b81a05885f6a7e695b2">InterProcessCommunication::IPCSocket</a>
+<br />
  }</td></tr>
-<tr class="separator:a78090511e8c5ca325ffd8dfca0b01d03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a145254a95cbdfd4848152bc2051d2893"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a5350b2c0ee47a252206323bbc5da26"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26">InterProcessCommunication::IPCErrorCode</a> { <br />
-&#160;&#160;<a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a4a0b98909d6e9826876d84ec9f1a6a6e">InterProcessCommunication::IPCUnknown</a>
+&#160;&#160;<a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26ac67d421eeac289289e5b18132d833c13">InterProcessCommunication::IPCError</a> = -1
 , <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26ac1079c6433d1369a8d556f56b9447f72">InterProcessCommunication::IPCSuccess</a>
 , <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26aeaef1409c860007b9a79fcc99efb621d">InterProcessCommunication::IPCNotListening</a>
 , <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a44d3b524837561fa0101410b603e7e7b">InterProcessCommunication::IPCTimeout</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a2b83dcca5e7480a135d5eb5e0eac2348">InterProcessCommunication::IPCInvalidPort</a>
-, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a55a4c1d49443d3f8ef97647470f3a0f4">InterProcessCommunication::IPCPortInUse</a>
-, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a9202a888b34ea7998bd6102aa5047592">InterProcessCommunication::IPCPortNotRegistered</a>
+&#160;&#160;<a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a8abb8b04c18afc639c5ea7806d0262d0">InterProcessCommunication::IPCInvalidCommand</a>
+, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a65c3d91a9fb7cb5447274972b976377f">InterProcessCommunication::IPCAlreadyAllocated</a>
+, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a54d4266ecc2e170de21302da6a1252a1">InterProcessCommunication::IPCNotAllocated</a>
+, <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a9ce30ae6d37c28c3df6d7966a222bfe0">InterProcessCommunication::IPCIDInUse</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a1c28c5c3965a12d5a7e825ef4769663b">InterProcessCommunication::IPCIDNotRegistered</a>
 , <a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26a367067305d649d41f4f40fe964a50a5f">InterProcessCommunication::IPCIDNotFound</a>
 <br />
  }</td></tr>
 <tr class="separator:a5a5350b2c0ee47a252206323bbc5da26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a806b3ef2d49b99ca763c94ecbb2ebd6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d7e/classInterProcessCommunication_1_1IPC.html">InterProcessCommunication::IPC</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d02/ipc_8hpp.html#a806b3ef2d49b99ca763c94ecbb2ebd6e">ipc</a></td></tr>
-<tr class="separator:a806b3ef2d49b99ca763c94ecbb2ebd6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="dc/d6b/structInterProcessCommunication_1_1IPCHandle" id="dc/d6b/structInterProcessCommunication_1_1IPCHandle"></a>
@@ -160,23 +163,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d02/ipc_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../d1/d02/ipc_8hpp_source.html">ipc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d02/ipc_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d1/d02/ipc_8hpp_source.html">ipc.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a942ce03403feb7d6061071d5ca0603b8"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *</td>
+<a id="a11f1bee1f0ebad28fd3c4ad3ee8c161b"></a>void *</td>
 <td class="fieldname">
 Buffer</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae6a9fb78fdf46ca72445dcfb747ce610"></a><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26">IPCErrorCode</a></td>
-<td class="fieldname">
-Error</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a492be925d8e70e1f0c935da1f5c072ee"></a>int</td>
+<a id="aa6c3dda13bc0779b2a62b6750a3983e8"></a><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#aa91ca1ed78f611a9999754db0e924c50">IPCID</a></td>
 <td class="fieldname">
 ID</td>
 <td class="fielddoc">
@@ -188,129 +185,18 @@ Length</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a8f8261d3626091c4634f0b2dcd39d969"></a><a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
+<a id="a582aeb79e3014645f9fbcca13e972c94"></a><a class="el" href="../../da/df9/classAtomic.html">Atomic</a>&lt; <a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> &gt;</td>
 <td class="fieldname">
 Listening</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a6b93862fc640d066c2e7fd7ba51f0de6"></a>LockClass</td>
+<a id="a306b020d8d5374bca83d8650cfafdeeb"></a>Node *</td>
 <td class="fieldname">
-Lock</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a3a07269ac372143fcf65dde16420bd5d"></a><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a78090511e8c5ca325ffd8dfca0b01d03">IPCOperationType</a></td>
-<td class="fieldname">
-Operation</td>
+Node</td>
 <td class="fielddoc">
 </td></tr>
 </table>
-
-</div>
-</div>
-<a name="d9/dcb/structInterProcessCommunication_1_1____attribute____" id="d9/dcb/structInterProcessCommunication_1_1____attribute____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d9/dcb/structInterProcessCommunication_1_1____attribute____">&#9670;&nbsp;</a></span>InterProcessCommunication::__attribute__</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct InterProcessCommunication::__attribute__</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d02/ipc_8hpp_source.html#l00042">42</a> of file <a class="el" href="../../d1/d02/ipc_8hpp_source.html">ipc.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="a27664a3ecac00b901eb637fdfbf723cc"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *</td>
-<td class="fieldname">
-Buffer</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a070f60d95bafbfe7d5de8af6bb07a2cc"></a><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26">IPCErrorCode</a></td>
-<td class="fieldname">
-Error</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="abd10c16b2820f4fa12074b976da46579"></a><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#dc/d6b/structInterProcessCommunication_1_1IPCHandle">IPCHandle</a> *</td>
-<td class="fieldname">
-HandleBuffer</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a2872f5a19c991c692fe2a3aca02dea22"></a>int</td>
-<td class="fieldname">
-ID</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a0e680b36df423e61d012e790e8fa96ba"></a>long</td>
-<td class="fieldname">
-Length</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ae6739b387ccd92c96a0a53ca8c1cdac0"></a><a class="el" href="../../d7/d5f/namespaceInterProcessCommunication.html#a78090511e8c5ca325ffd8dfca0b01d03">IPCOperationType</a></td>
-<td class="fieldname">
-Operation</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a name="df/df1/structInterProcessCommunication_1_1IPCError" id="df/df1/structInterProcessCommunication_1_1IPCError"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#df/df1/structInterProcessCommunication_1_1IPCError">&#9670;&nbsp;</a></span>InterProcessCommunication::IPCError</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct InterProcessCommunication::IPCError</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d02/ipc_8hpp_source.html#l00054">54</a> of file <a class="el" href="../../d1/d02/ipc_8hpp_source.html">ipc.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="abc2c3d2639890255f3f931b8ee11d3d9"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
-<td class="fieldname">
-ErrorCode</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a806b3ef2d49b99ca763c94ecbb2ebd6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a806b3ef2d49b99ca763c94ecbb2ebd6e">&#9670;&nbsp;</a></span>ipc</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d7e/classInterProcessCommunication_1_1IPC.html">InterProcessCommunication::IPC</a>* ipc</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">extern</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00010">10</a> of file <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html">InterProcessCommunication.cpp</a>.</p>
 
 </div>
 </div>

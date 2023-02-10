@@ -26,6 +26,7 @@ var namespaceCrashHandler =
     [ "EHIntFrames", "d2/d57/namespaceCrashHandler.html#a16c7b17cef8564d1a27df12f36f25f88", null ],
     [ "ExceptionOccurred", "d2/d57/namespaceCrashHandler.html#a726f6c34e138d63f5aaadd5dac81a42a", null ],
     [ "key", "d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef", null ],
+    [ "PageFaultAddress", "d2/d57/namespaceCrashHandler.html#aee307b4511d76c583b1c64d952d842ec", null ],
     [ "SBIdx", "d2/d57/namespaceCrashHandler.html#ad35e9ac2e303d57f06208a9b5c889ac5", null ],
     [ "scanCode", "d2/d57/namespaceCrashHandler.html#ae2147148faee2956d5ae41a7dbfbc0ba", null ],
     [ "UserInputBuffer", "d2/d57/namespaceCrashHandler.html#a5d68a69326e7908216d107aef0e3dd24", null ]

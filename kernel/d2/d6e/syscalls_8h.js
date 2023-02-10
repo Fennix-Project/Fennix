@@ -5,7 +5,9 @@ var syscalls_8h =
       [ "_Print", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea2deae65add1a55d75746c7fe79848fec", null ],
       [ "_RequestPages", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceafa255aa514605050a1a67929744c8d92", null ],
       [ "_FreePages", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaef368749ef576063c343ba77dab98258", null ],
+      [ "_DetachAddress", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea1affc62310a7b9b50053543348164098", null ],
       [ "_KernelCTL", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceade444453889da625811d8a634baa1327", null ],
+      [ "_IPC", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaa6f4e84d45759ce3af1c16ca7bda94d7", null ],
       [ "_FileOpen", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea67d50a6c2fcc2c0de3a215f606866a5c", null ],
       [ "_FileClose", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea15e3975fb867399d1db643978b54eef7", null ],
       [ "_FileRead", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea85355d1f0b9f7daf155306243f0e82f3", null ],
@@ -25,6 +27,15 @@ var syscalls_8h =
       [ "_KillThread", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea279c3758f11bfbec2615e79c4334a51f", null ],
       [ "_SysReservedCreateProcess", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcead7db76e512d7c217f6250f19da7322cc", null ],
       [ "_SysReservedCreateThread", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea52e4b39f85a19059d507d2c4e564f458", null ]
+    ] ],
+    [ "SyscallsErrorCodes", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5", [
+      [ "SYSCALL_ACCESS_DENIED", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5a17a786fc05461da1f17c9ac23ebb1d55", null ],
+      [ "SYSCALL_INVALID_ARGUMENT", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5a462ebad26511c30e0c379f8d3cb5e1fd", null ],
+      [ "SYSCALL_INVALID_SYSCALL", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5ad0114956cfe9334c27c56d117b4ebb37", null ],
+      [ "SYSCALL_INTERNAL_ERROR", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5acc60de5eeb17c44c2a22b256346835a4", null ],
+      [ "SYSCALL_NOT_IMPLEMENTED", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5a6ab488493f76377af86bf06e2add3dc9", null ],
+      [ "SYSCALL_ERROR", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5a947e6565f66067063215659482b21b41", null ],
+      [ "SYSCALL_OK", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5a296a7e50222a67ed082bd38329046c5f", null ]
     ] ],
     [ "syscall0", "d2/d6e/syscalls_8h.html#ac0bfcce43babc000aa3ac47b3837f3c7", null ],
     [ "syscall1", "d2/d6e/syscalls_8h.html#ac728f9ac7fe430b82caa7bf3fdded380", null ],

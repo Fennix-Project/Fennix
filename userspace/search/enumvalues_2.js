@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['process_5fstate_5fready_814',['PROCESS_STATE_READY',['../dd/dc1/sysproc_8h.html#a373a58178f69d5e3e1de7516d105675ea1637b2aed9df680af8b67240542746f7',1,'sysproc.h']]],
-  ['process_5fstate_5frunning_815',['PROCESS_STATE_RUNNING',['../dd/dc1/sysproc_8h.html#a373a58178f69d5e3e1de7516d105675ea39f0c778762a5b64c532f1b8aa5610a9',1,'sysproc.h']]],
-  ['process_5fstate_5fsleeping_816',['PROCESS_STATE_SLEEPING',['../dd/dc1/sysproc_8h.html#a373a58178f69d5e3e1de7516d105675ea032a1225441d938a1a4e91eb9e9d3248',1,'sysproc.h']]],
-  ['process_5fstate_5fstopped_817',['PROCESS_STATE_STOPPED',['../dd/dc1/sysproc_8h.html#a373a58178f69d5e3e1de7516d105675ea8e6d0176d50785a909fd045fea6ce090',1,'sysproc.h']]],
-  ['process_5fstate_5fterminated_818',['PROCESS_STATE_TERMINATED',['../dd/dc1/sysproc_8h.html#a373a58178f69d5e3e1de7516d105675eadf30b2b9bedf6154e688a684f12cec66',1,'sysproc.h']]],
-  ['process_5fstate_5fwaiting_819',['PROCESS_STATE_WAITING',['../dd/dc1/sysproc_8h.html#a373a58178f69d5e3e1de7516d105675ea4a330375a688c02dfedfd69f3e0ec9ed',1,'sysproc.h']]]
+  ['kctl_5fget_5fgid_1229',['KCTL_GET_GID',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1faa408d2fc92ec8616c3bfca48059ad355',1,'KCTL_GET_GID():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1faa408d2fc92ec8616c3bfca48059ad355',1,'KCTL_GET_GID():&#160;sysbase.h']]],
+  ['kctl_5fget_5fpage_5fsize_1230',['KCTL_GET_PAGE_SIZE',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77',1,'KCTL_GET_PAGE_SIZE():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77',1,'KCTL_GET_PAGE_SIZE():&#160;sysbase.h']]],
+  ['kctl_5fget_5fpid_1231',['KCTL_GET_PID',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1face129e39bef73a80e9da01d75aa04049',1,'KCTL_GET_PID():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1face129e39bef73a80e9da01d75aa04049',1,'KCTL_GET_PID():&#160;sysbase.h']]],
+  ['kctl_5fget_5ftid_1232',['KCTL_GET_TID',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1fa0eb36ec74e65567b2d22ef97911e8a3e',1,'KCTL_GET_TID():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa0eb36ec74e65567b2d22ef97911e8a3e',1,'KCTL_GET_TID():&#160;sysbase.h']]],
+  ['kctl_5fget_5fuid_1233',['KCTL_GET_UID',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1fa218ab4e88581b8103b701b52213f61ca',1,'KCTL_GET_UID():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa218ab4e88581b8103b701b52213f61ca',1,'KCTL_GET_UID():&#160;sysbase.h']]],
+  ['kctl_5fnull_1234',['KCTL_NULL',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1fa571aa3760135e3dc9572c3217ab42ffb',1,'KCTL_NULL():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa571aa3760135e3dc9572c3217ab42ffb',1,'KCTL_NULL():&#160;sysbase.h']]]
 ];

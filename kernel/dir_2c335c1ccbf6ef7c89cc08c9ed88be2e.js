@@ -23,10 +23,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "exec.hpp", "d2/d83/exec_8hpp.html", "d2/d83/exec_8hpp" ],
     [ "filesystem.hpp", "d1/d85/filesystem_8hpp.html", "d1/d85/filesystem_8hpp" ],
     [ "gui.hpp", "dc/d7c/gui_8hpp.html", "dc/d7c/gui_8hpp" ],
-    [ "hashmap.hpp", "d2/d89/hashmap_8hpp.html", [
-      [ "HashNode", "d7/d56/classHashNode.html", "d7/d56/classHashNode" ],
-      [ "HashMap", "db/d1a/classHashMap.html", "db/d1a/classHashMap" ]
-    ] ],
+    [ "hashmap.hpp", "d2/d89/hashmap_8hpp.html", "d2/d89/hashmap_8hpp" ],
     [ "interrupts.hpp", "d8/d0a/interrupts_8hpp.html", "d8/d0a/interrupts_8hpp" ],
     [ "io.h", "dc/dac/io_8h.html", null ],
     [ "ipc.hpp", "d1/d02/ipc_8hpp.html", "d1/d02/ipc_8hpp" ],
@@ -48,7 +45,9 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "smartptr.hpp", "d2/d34/smartptr_8hpp.html", "d2/d34/smartptr_8hpp" ],
     [ "smp.hpp", "d4/d33/smp_8hpp.html", "d4/d33/smp_8hpp" ],
     [ "std.hpp", "d1/d8c/std_8hpp.html", "d1/d8c/std_8hpp" ],
+    [ "stddef.h", "d3/dce/stddef_8h.html", null ],
     [ "stdint.h", "df/dd8/stdint_8h.html", null ],
+    [ "string.hpp", "d4/da0/string_8hpp.html", "d4/da0/string_8hpp" ],
     [ "symbols.hpp", "d7/d94/symbols_8hpp.html", "d7/d94/symbols_8hpp" ],
     [ "sys.h", "d9/d87/sys_8h.html", "d9/d87/sys_8h" ],
     [ "syscalls.hpp", "d0/d35/syscalls_8hpp.html", "d0/d35/syscalls_8hpp" ],

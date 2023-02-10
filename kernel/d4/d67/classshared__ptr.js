@@ -8,6 +8,9 @@ var classshared__ptr =
     [ "GetCount", "d4/d67/classshared__ptr.html#a47f5c4a0a349af9a6c9ba5f4060e619c", null ],
     [ "operator*", "d4/d67/classshared__ptr.html#a55f90fd9ec9c1dbf02187bceb924c803", null ],
     [ "operator->", "d4/d67/classshared__ptr.html#a08c3c1ca9e0418a79e3bf1d9a4809caa", null ],
-    [ "RealPointer", "d4/d67/classshared__ptr.html#a3877a4d7d9c2437f81cec3fbb7711095", null ],
-    [ "ReferenceCounter", "d4/d67/classshared__ptr.html#affe70f0681417e97fff0031cf972ac01", null ]
+    [ "reset", "d4/d67/classshared__ptr.html#ad40a4bcfcf82d48ec8eeaad959b44881", null ],
+    [ "reset", "d4/d67/classshared__ptr.html#a7d18acf2eb45a6a28903f62cbe3f280f", null ],
+    [ "swap", "d4/d67/classshared__ptr.html#a24f2658959fb8f1be0708fa25f4e0dd3", null ],
+    [ "m_RealPointer", "d4/d67/classshared__ptr.html#af0736fe5bafbc25e5518ab4158065c58", null ],
+    [ "m_ReferenceCounter", "d4/d67/classshared__ptr.html#a4119afe5b590734b08b86d93c0ce028a", null ]
 ];

@@ -96,94 +96,151 @@ $(document).ready(function(){initNavTree('d5/d26/Kernel_2Core_2Lock_8cpp_source.
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../kernel.h&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keywordtype">void</span> LockClass::DeadLock(SpinLockData Lock)</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keywordtype">void</span> LockClass::DeadLock(SpinLockData <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>)</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *CoreData = <a class="code" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>();</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">long</span> CCore = 0xdead;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">if</span> (CoreData != <span class="keyword">nullptr</span>)</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        CCore = CoreData-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a887cdcc1269b29105548dbf02564b0c0">ID</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Potential deadlock in lock &#39;%s&#39; held by &#39;%s&#39;! %ld locks in queue. Core %ld is being held by %ld. (%ld times happened)&quot;</span>,</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;         Lock.AttemptingToGet, Lock.CurrentHolder,</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;         Lock.Count, CCore, Lock.Core,</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;         <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>.AttemptingToGet, <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>.CurrentHolder,</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;         <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>.Count, CCore, <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>.Core,</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;         this-&gt;DeadLocks);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="comment">// TODO: Print on screen too.</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    this-&gt;DeadLocks++;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/d00/Kernel_8cpp.html#af1e9bf8b2f6ad92b9da145f9eb732663">Config</a>.<a class="code" href="../../d1/dfc/kconfig_8hpp.html#ab4acf5169bbfaa7da7dd6bfe7ce0e1e9">UnlockDeadLock</a> &amp;&amp; this-&gt;DeadLocks &gt; 10)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/d00/Kernel_8cpp.html#af1e9bf8b2f6ad92b9da145f9eb732663">Config</a>.<a class="code" href="../../d1/dfc/kconfig_8hpp.html#ab4acf5169bbfaa7da7dd6bfe7ce0e1e9">UnlockDeadLock</a> &amp;&amp; this-&gt;DeadLocks.Load() &gt; 10)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Unlocking lock &#39;%s&#39; held by &#39;%s&#39;! %ld locks in queue. Core %ld is being held by %ld.&quot;</span>,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;             Lock.AttemptingToGet, Lock.CurrentHolder,</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;             Lock.Count, CCore, Lock.Core);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        this-&gt;DeadLocks = 0;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        this-&gt;Unlock();</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>)</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a7f6a2c87c719e875f03872a35b347b2b">Schedule</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">int</span> LockClass::Lock(<span class="keyword">const</span> <span class="keywordtype">char</span> *FunctionName)</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// LockData.AttemptingToGet = FunctionName;</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// SpinLock_Lock(&amp;LockData.LockData);</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// LockData.Count++;</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// LockData.CurrentHolder = FunctionName;</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// CPUData *CoreData = GetCurrentCPU();</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// if (CoreData != nullptr)</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">// LockData.Core = CoreData-&gt;ID;</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// __sync_synchronize();</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">// while (!__sync_bool_compare_and_swap(&amp;IsLocked, false, true))</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">//     CPU::Pause();</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// __sync_synchronize();</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    LockData.AttemptingToGet = FunctionName;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;Retry:</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">while</span> (__atomic_exchange_n(&amp;IsLocked, <span class="keyword">true</span>, __ATOMIC_ACQUIRE) &amp;&amp; ++i &lt; 0x10000000)</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">CPU::Pause</a>();</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">if</span> (i &gt;= 0x10000000)</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    {</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        DeadLock(LockData);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">goto</span> Retry;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    LockData.Count++;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    LockData.CurrentHolder = FunctionName;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *CoreData = <a class="code" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>();</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">if</span> (CoreData != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        LockData.Core = CoreData-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a887cdcc1269b29105548dbf02564b0c0">ID</a>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    __sync_synchronize();</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keywordtype">int</span> LockClass::Unlock()</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// SpinLock_Unlock(&amp;LockData.LockData);</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// LockData.Count--;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Unlocking lock &#39;%s&#39; to prevent deadlock. (this is enabled in the kernel config)&quot;</span>, <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>.AttemptingToGet);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        this-&gt;DeadLocks = 0;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        this-&gt;Unlock();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>)</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a7f6a2c87c719e875f03872a35b347b2b">Schedule</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">LockClass::Lock</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *FunctionName)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="comment">// LockData.AttemptingToGet = FunctionName;</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// SpinLock_Lock(&amp;LockData.LockData);</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// LockData.Count++;</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="comment">// LockData.CurrentHolder = FunctionName;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// CPUData *CoreData = GetCurrentCPU();</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">// if (CoreData != nullptr)</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// LockData.Core = CoreData-&gt;ID;</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// __sync_synchronize();</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// while (!__sync_bool_compare_and_swap(&amp;IsLocked, false, true))</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">//     CPU::Pause();</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">// __sync_synchronize();</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    LockData.AttemptingToGet = FunctionName;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;Retry:</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">while</span> (IsLocked.Exchange(<span class="keyword">true</span>, <a class="code" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a3ac0209cbb4725209dd6f6c9022c5c0e">MemoryBorder::Acquire</a>) &amp;&amp; ++i &lt; 0x10000000)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">CPU::Pause</a>();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">if</span> (i &gt;= 0x10000000)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        DeadLock(LockData);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">goto</span> Retry;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    LockData.Count++;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    LockData.CurrentHolder = FunctionName;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *CoreData = <a class="code" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">if</span> (CoreData != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        LockData.Core = CoreData-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a887cdcc1269b29105548dbf02564b0c0">ID</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    __sync_synchronize();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="keywordtype">int</span> LockClass::Unlock()</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// SpinLock_Unlock(&amp;LockData.LockData);</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// LockData.Count--;</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// __sync_synchronize();</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// __sync_synchronize();</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// __sync_synchronize();</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">// __atomic_store_n(&amp;IsLocked, false, __ATOMIC_SEQ_CST);</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">// IsLocked = false;</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    __sync_synchronize();</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    __atomic_store_n(&amp;IsLocked, <span class="keyword">false</span>, __ATOMIC_RELEASE);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    LockData.Count--;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    IsLocked = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div>
-<div class="ttc" id="aKernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00097">Kernel.cpp:97</a></div></div>
-<div class="ttc" id="aKernel_8cpp_html_af1e9bf8b2f6ad92b9da145f9eb732663"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#af1e9bf8b2f6ad92b9da145f9eb732663">Config</a></div><div class="ttdeci">KernelConfig Config</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00101">Kernel.cpp:101</a></div></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// __atomic_store_n(&amp;IsLocked, false, __ATOMIC_SEQ_CST);</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// IsLocked = false;</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    __sync_synchronize();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    IsLocked.Store(<span class="keyword">false</span>, <a class="code" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a203c091eb36ddf3292775fd77fbd4f65">MemoryBorder::Release</a>);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    LockData.Count--;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    IsLocked = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="keywordtype">void</span> LockClass::TimeoutDeadLock(SpinLockData <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>, <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">Timeout</a>)</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *CoreData = <a class="code" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">long</span> CCore = 0xdead;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">if</span> (CoreData != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        CCore = CoreData-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a887cdcc1269b29105548dbf02564b0c0">ID</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Potential deadlock in lock &#39;%s&#39; held by &#39;%s&#39;! %ld locks in queue. Core %ld is being held by %ld. Timeout in %ld&quot;</span>,</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;         <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>.AttemptingToGet, <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>.CurrentHolder,</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;         <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>.Count, CCore, <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>.Core,</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;         <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">Timeout</a>);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="comment">// TODO: Print on screen too.</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">Counter</a> = <a class="code" href="../../d2/d00/Kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d">TimeManager</a>-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a3fb6d85ca30d0a2dfab46ede31bfa2f6">GetCounter</a>();</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">Timeout</a> &lt; <a class="code" href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">Counter</a>)</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Unlocking lock &#39;%s&#39; because of timeout. (%ld &lt; %ld)&quot;</span>, <a class="code" href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a>.AttemptingToGet, <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">Timeout</a>, <a class="code" href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">Counter</a>);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        this-&gt;Unlock();</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>)</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a>-&gt;<a class="code" href="../../dc/dc5/classTasking_1_1Task.html#a7f6a2c87c719e875f03872a35b347b2b">Schedule</a>();</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="keywordtype">int</span> LockClass::TimeoutLock(<span class="keyword">const</span> <span class="keywordtype">char</span> *FunctionName, <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">Timeout</a>)</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;{</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    LockData.AttemptingToGet = FunctionName;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="../../da/df9/classAtomic.html">Atomic&lt;uint64_t&gt;</a> Target = 0;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;Retry:</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> i = 0;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">while</span> (IsLocked.Exchange(<span class="keyword">true</span>, <a class="code" href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a3ac0209cbb4725209dd6f6c9022c5c0e">MemoryBorder::Acquire</a>) &amp;&amp; ++i &lt; 0x10000000)</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">CPU::Pause</a>();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">if</span> (i &gt;= 0x10000000)</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">if</span> (Target == 0)</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            Target = <a class="code" href="../../d2/d00/Kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d">TimeManager</a>-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a012cab762805bbdfe71cfcfb7b31d027">CalculateTarget</a>(<a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">Timeout</a>);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        TimeoutDeadLock(LockData, Target);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">goto</span> Retry;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    LockData.Count++;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    LockData.CurrentHolder = FunctionName;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *CoreData = <a class="code" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>();</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">if</span> (CoreData != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        LockData.Core = CoreData-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a887cdcc1269b29105548dbf02564b0c0">ID</a>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    __sync_synchronize();</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00114">types.h:114</a></div></div>
+<div class="ttc" id="aKernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00126">Kernel.cpp:126</a></div></div>
+<div class="ttc" id="aKernel_8cpp_html_ad5fb15538e6988f0db36d754a4a7d08d"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d">TimeManager</a></div><div class="ttdeci">Time::time * TimeManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00127">Kernel.cpp:127</a></div></div>
+<div class="ttc" id="aKernel_8cpp_html_af1e9bf8b2f6ad92b9da145f9eb732663"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#af1e9bf8b2f6ad92b9da145f9eb732663">Config</a></div><div class="ttdeci">KernelConfig Config</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00130">Kernel.cpp:130</a></div></div>
 <div class="ttc" id="aaarch64_2cpu_2SymmetricMultiprocessing_8cpp_html_aa53a3783575d262dc378af3a30ca775d"><div class="ttname"><a href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a></div><div class="ttdeci">CPUData * GetCurrentCPU()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">SymmetricMultiprocessing.cpp:16</a></div></div>
-<div class="ttc" id="aclassTasking_1_1Task_html_a7f6a2c87c719e875f03872a35b347b2b"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a7f6a2c87c719e875f03872a35b347b2b">Tasking::Task::Schedule</a></div><div class="ttdeci">void Schedule()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00047">Task.cpp:47</a></div></div>
+<div class="ttc" id="aatomic_8hpp_html_a128c8cb0e2b7a00a721eecabef0d4280a203c091eb36ddf3292775fd77fbd4f65"><div class="ttname"><a href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a203c091eb36ddf3292775fd77fbd4f65">Release</a></div><div class="ttdeci">@ Release</div><div class="ttdoc">Release memory border.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00041">atomic.hpp:41</a></div></div>
+<div class="ttc" id="aatomic_8hpp_html_a128c8cb0e2b7a00a721eecabef0d4280a3ac0209cbb4725209dd6f6c9022c5c0e"><div class="ttname"><a href="../../d5/d6c/atomic_8hpp.html#a128c8cb0e2b7a00a721eecabef0d4280a3ac0209cbb4725209dd6f6c9022c5c0e">Acquire</a></div><div class="ttdeci">@ Acquire</div><div class="ttdoc">Acquire memory border.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00030">atomic.hpp:30</a></div></div>
+<div class="ttc" id="aclassAtomic_html"><div class="ttname"><a href="../../da/df9/classAtomic.html">Atomic</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00065">atomic.hpp:66</a></div></div>
+<div class="ttc" id="aclassTasking_1_1Task_html_a7f6a2c87c719e875f03872a35b347b2b"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a7f6a2c87c719e875f03872a35b347b2b">Tasking::Task::Schedule</a></div><div class="ttdeci">void Schedule()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00035">Task.cpp:35</a></div></div>
+<div class="ttc" id="aclassTime_1_1time_html_a012cab762805bbdfe71cfcfb7b31d027"><div class="ttname"><a href="../../dd/d8d/classTime_1_1time.html#a012cab762805bbdfe71cfcfb7b31d027">Time::time::CalculateTarget</a></div><div class="ttdeci">uint64_t CalculateTarget(uint64_t Milliseconds)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc2/Timer_8cpp_source.html#l00042">Timer.cpp:42</a></div></div>
+<div class="ttc" id="aclassTime_1_1time_html_a3fb6d85ca30d0a2dfab46ede31bfa2f6"><div class="ttname"><a href="../../dd/d8d/classTime_1_1time.html#a3fb6d85ca30d0a2dfab46ede31bfa2f6">Time::time::GetCounter</a></div><div class="ttdeci">uint64_t GetCounter()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc2/Timer_8cpp_source.html#l00034">Timer.cpp:34</a></div></div>
 <div class="ttc" id="adebug_8h_html"><div class="ttname"><a href="../../db/d16/debug_8h.html">debug.h</a></div></div>
 <div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00045">debug.h:45</a></div></div>
 <div class="ttc" id="akconfig_8hpp_html_ab4acf5169bbfaa7da7dd6bfe7ce0e1e9"><div class="ttname"><a href="../../d1/dfc/kconfig_8hpp.html#ab4acf5169bbfaa7da7dd6bfe7ce0e1e9">KernelConfig::UnlockDeadLock</a></div><div class="ttdeci">bool UnlockDeadLock</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dfc/kconfig_8hpp_source.html#l00015">kconfig.hpp:15</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a40205e4faca29a36b5e2edf11c5fcd93"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">CPU::Counter</a></div><div class="ttdeci">uintptr_t Counter()</div><div class="ttdoc">Get CPU counter value.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8d/CPU_8cpp_source.html#l00318">CPU.cpp:318</a></div></div>
 <div class="ttc" id="anamespaceCPU_html_aa28a1c6e21b176efea57cc6bc092421e"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">CPU::Pause</a></div><div class="ttdeci">static SafeFunction void Pause(bool Loop=false)</div><div class="ttdoc">Pause the CPU.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00190">cpu.hpp:190</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">VirtualFileSystem::Timeout</a></div><div class="ttdeci">@ Timeout</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00043">filesystem.hpp:43</a></div></div>
+<div class="ttc" id="aresolve_8c_html_a603c4584f5f7f8889541caf03538e608"><div class="ttname"><a href="../../d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608">Lock</a></div><div class="ttdeci">static char Lock</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d05/resolve_8c_source.html#l00017">resolve.c:17</a></div></div>
 <div class="ttc" id="asmp_8hpp_html"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html">smp.hpp</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a887cdcc1269b29105548dbf02564b0c0"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a887cdcc1269b29105548dbf02564b0c0">CPUData::ID</a></div><div class="ttdeci">long ID</div><div class="ttdoc">CPU ID.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00030">smp.hpp:30</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_de/df9/structCPUData"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00021">smp.hpp:22</a></div></div>

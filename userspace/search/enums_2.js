@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['processstate_797',['ProcessState',['../dd/dc1/sysproc_8h.html#a373a58178f69d5e3e1de7516d105675e',1,'sysproc.h']]]
+  ['kctl_1147',['KCtl',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1f',1,'KCtl():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1f',1,'KCtl():&#160;sysbase.h']]]
 ];
