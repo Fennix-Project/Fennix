@@ -33,6 +33,8 @@ QEMUFLAGS += -device vmware-svga -M q35 \
 			 -object filter-dump,id=usernet0,netdev=usernet0,file=network.log,maxlen=1024 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
+			 -serial null \
+			 -serial null \
 			 -device ahci,id=ahci \
 			 -drive id=bootdsk,file=$(OSNAME).iso,format=raw,if=none \
 			 -device ide-hd,drive=bootdsk,bus=ahci.0 \
@@ -51,6 +53,8 @@ QEMUFLAGS += -M q35 \
 			 -object filter-dump,id=usernet0,netdev=usernet0,file=network.log,maxlen=1024 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
+			 -serial null \
+			 -serial null \
 			 -hda $(OSNAME).iso \
 			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
 			 -machine pcspk-audiodev=pa1 \
