@@ -11,6 +11,7 @@ var classTasking_1_1Task =
     [ "GetNextAvailableThread", "dc/dc5/classTasking_1_1Task.html#a633a5834eaebf13a8b7c707b7d789c01", null ],
     [ "GetProcessByID", "dc/dc5/classTasking_1_1Task.html#a9bc701dfbe3fc802857c2cfcb90c29d9", null ],
     [ "GetProcessList", "dc/dc5/classTasking_1_1Task.html#ab62b5774b173ff37dc94ca0de0ad786b", null ],
+    [ "GetSchedulerTicks", "dc/dc5/classTasking_1_1Task.html#aa6f35fa6bf600af23877e3c2588e546e", null ],
     [ "GetSecurityManager", "dc/dc5/classTasking_1_1Task.html#a20d489bc46631bc785e534688fed711f", null ],
     [ "GetThreadByID", "dc/dc5/classTasking_1_1Task.html#ab90d18f8edc0af4877b2eb874b8dcb79", null ],
     [ "GetUsage", "dc/dc5/classTasking_1_1Task.html#a34f61ccd082d7b57a77e1636677079ba", null ],
@@ -42,6 +43,7 @@ var classTasking_1_1Task =
     [ "ListProcess", "dc/dc5/classTasking_1_1Task.html#ac8a3e64f62b62755526f8cea4d76ede2", null ],
     [ "NextPID", "dc/dc5/classTasking_1_1Task.html#afe6376569556d32e25ba7ef8b3268e07", null ],
     [ "NextTID", "dc/dc5/classTasking_1_1Task.html#ad67b5a96cb58b55447b535f1052b2067", null ],
+    [ "SchedulerTicks", "dc/dc5/classTasking_1_1Task.html#a651b44e19482b8b8933ff17de0ce44f2", null ],
     [ "SecurityManager", "dc/dc5/classTasking_1_1Task.html#a971dd2b02c12e362b11f5b1216828b2f", null ],
     [ "StopScheduler", "dc/dc5/classTasking_1_1Task.html#a71b5fd07f91b4203a8d9be66b36fb022", null ]
 ];

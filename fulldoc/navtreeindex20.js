@@ -1,5 +1,16 @@
 var NAVTREEINDEX20 =
 {
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#abf5cfee43d2245cf731cb2214802b18b":[6,0,8,6,23],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#ac02ad0d414b3ece06a08bb9eae8c7e3c":[6,0,8,6,25],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#ac16f627f886a939a7133297a7faf4db5":[6,0,8,6,16],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#ad312329506f051d91c903d778d13de14":[6,0,8,6,12],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#ae72d9a07c0598b9bdb0cff07a7f6f2da":[6,0,8,6,14],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#af024971e07314a6613d3398e4b8998e0":[6,0,8,6,2],
+"d6/d4e/Userspace_2libc_2src_2mem_2liballoc__1__1_8h.html":[7,0,2,1,3,0,1],
+"d6/d4e/Userspace_2libc_2src_2mem_2liballoc__1__1_8h_source.html":[7,0,2,1,3,0,1],
+"d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html":[6,0,31,1],
+"d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a120eda7f73bc384a30ad00bfe2753d64":[6,0,31,1,1],
+"d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a3e40fd60dda2db6980a83a8e25604321":[6,0,31,1,3],
 "d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a3fc9258c816349a9d84b5ea994c12c9a":[6,0,31,1,2],
 "d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a48def08a699b9218b3600da1f67b949d":[6,0,31,1,5],
 "d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a6246f838f88757e2a978191267e91478":[6,0,31,1,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX20 =
 "d7/d2c/classDisk_1_1Manager.html#a618a7be2f423cc0d38924084f6bba229":[6,0,4,7,3],
 "d7/d2c/classDisk_1_1Manager.html#ac38a516c4b8468018b9f57a0ccb5df82":[6,0,4,7,2],
 "d7/d2c/classDisk_1_1Manager.html#ac66feb4c05116b774430766c264d3926":[6,0,4,7,4],
-"d7/d2c/classDisk_1_1Manager.html#ad7750912f8a6120c89be46fab11c9370":[6,0,4,7,1],
-"d7/d2c/classDisk_1_1Manager.html#afadf04161b0d9c994fdefde07c94e459":[6,0,4,7,5],
-"d7/d2c/classDisk_1_1Manager.html#afbf8035e8726eaa622b2156ca9478a6a":[6,0,4,7,0],
-"d7/d2c/ssp_8h.html":[7,0,2,2,0,1],
-"d7/d2c/ssp_8h_source.html":[7,0,2,2,0,1],
-"d7/d36/SharedObjects_8cpp.html":[7,0,0,2,0,5],
-"d7/d36/SharedObjects_8cpp.html#a22deb6e14e14b82a4aaaf6d4d83cf94c":[7,0,0,2,0,5,0],
-"d7/d36/SharedObjects_8cpp.html#a700d02789505c220a73b5368264a5ab5":[7,0,0,2,0,5,1],
-"d7/d36/SharedObjects_8cpp.html#a91a5c0c6c8c3c3e89a5f07211ed3988c":[7,0,0,2,0,5,2],
-"d7/d36/SharedObjects_8cpp.html#a93f062652adad6dd560be98f572abbe8":[7,0,0,2,0,5,3],
-"d7/d36/SharedObjects_8cpp.html#aad17323545c4f9099009dada1e78e3f4":[7,0,0,2,0,5,5],
-"d7/d36/SharedObjects_8cpp.html#ae631a2b49669243fc714c740040be196":[7,0,0,2,0,5,4]
+"d7/d2c/classDisk_1_1Manager.html#ad7750912f8a6120c89be46fab11c9370":[6,0,4,7,1]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"d2/d49/SystemManagementBIOS_8cpp.html#acfc63dd9088cbc27b8beceed47cbec33":[7,0,0,1,16,8],
 "d2/d49/SystemManagementBIOS_8cpp.html#ada87b17fc798fd55794ea2027dddeee2":[7,0,0,1,16,3],
 "d2/d49/SystemManagementBIOS_8cpp.html#ae3382ba080dc48b747f06b169360434a":[7,0,0,1,16,10],
 "d2/d49/SystemManagementBIOS_8cpp.html#afea14b109675868b6b1d7d5896a6b5e1":[7,0,0,1,16,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX6 =
 "d2/da8/classXalloc_1_1AllocatorV1.html#a1b36f6e5d721ab2ec17f490ba20390a1":[6,0,34,3,5],
 "d2/da8/classXalloc_1_1AllocatorV1.html#a1eab008ff7304f23a6255bed9492707c":[6,0,34,3,10],
 "d2/da8/classXalloc_1_1AllocatorV1.html#a2400fd8f66e2dab7aee1bd8c9f4d2986":[6,0,34,3,9],
-"d2/da8/classXalloc_1_1AllocatorV1.html#a597fe8ed3214e557880b6013f111e42f":[6,0,34,3,13],
-"d2/da8/classXalloc_1_1AllocatorV1.html#a5d47a87fc373cc54b12c921ef8e3c402":[6,0,34,3,17]
+"d2/da8/classXalloc_1_1AllocatorV1.html#a597fe8ed3214e557880b6013f111e42f":[6,0,34,3,13]
 };

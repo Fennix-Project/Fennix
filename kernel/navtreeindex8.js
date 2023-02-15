@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"d2/ddc/structFex.html":[5,0,92],
 "d2/ddc/structFex.html#a7f6b232e6357e3e651ff3862884d7aab":[5,0,92,1],
 "d2/ddc/structFex.html#ab64d62820368ba2d491c0d3a4f8f64f7":[5,0,92,3],
 "d2/ddc/structFex.html#ae14ab7c2c2135fef85b07c4c80d1da8f":[5,0,92,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "d3/d21/classACPI_1_1ACPI.html#acb99a4d6e7663740b38f419260654a7a":[6,0,0,0,1,2,5,25],
 "d3/d21/classACPI_1_1ACPI.html#ad1a0cd2f1138dcd2c654c6ae56797db7":[5,0,0,0,2,27],
 "d3/d21/classACPI_1_1ACPI.html#ad1a0cd2f1138dcd2c654c6ae56797db7":[6,0,0,0,1,2,5,27],
-"d3/d21/classACPI_1_1ACPI.html#ad1c8abe43032b9310cd3523a09b3309c":[5,0,0,0,5,10],
-"d3/d21/classACPI_1_1ACPI.html#ad1c8abe43032b9310cd3523a09b3309c":[6,0,0,0,1,2,4,10]
+"d3/d21/classACPI_1_1ACPI.html#ad1c8abe43032b9310cd3523a09b3309c":[5,0,0,0,5,10]
 };

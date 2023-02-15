@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"d1/d90/acpi_8hpp.html#a0834ea2597c7375c2cc31b50a3f1a69e":[7,0,0,0,1,2,68],
 "d1/d90/acpi_8hpp.html#a0cb4fd98a1f552ed4e6e857bde8cd993":[7,0,0,0,1,2,70],
 "d1/d90/acpi_8hpp.html#a10c23c5004ea8064fa1ba3d26a9b95dc":[7,0,0,0,1,2,27],
 "d1/d90/acpi_8hpp.html#a19c33d74dc078d2f094aeb5ef059a9b0":[7,0,0,0,1,2,43],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "d2/d49/SystemManagementBIOS_8cpp.html#a5c6cb485d017991de7d7683c2e19bca7":[7,0,0,1,16,6],
 "d2/d49/SystemManagementBIOS_8cpp.html#a7cf58bb0289a439aff31df8a7a99fe61":[7,0,0,1,16,11],
 "d2/d49/SystemManagementBIOS_8cpp.html#a8d10d812a6b18833b0e26b8a77d48d89":[7,0,0,1,16,4],
-"d2/d49/SystemManagementBIOS_8cpp.html#ac8048918c891100b8675f4d5c865036b":[7,0,0,1,16,7],
-"d2/d49/SystemManagementBIOS_8cpp.html#acfc63dd9088cbc27b8beceed47cbec33":[7,0,0,1,16,8]
+"d2/d49/SystemManagementBIOS_8cpp.html#ac8048918c891100b8675f4d5c865036b":[7,0,0,1,16,7]
 };

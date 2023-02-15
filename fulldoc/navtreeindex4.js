@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"d1/d29/namespaceDisk.html#a656338a01219a7cbc81c6b467ea93fea":[7,0,0,5,13,3,0],
 "d1/d29/namespaceDisk.html#a6657c260738d632c3f45f9861b129447":[7,0,0,5,13,3,13],
 "d1/d29/namespaceDisk.html#a6b4f60cab304671950ae5087b9485b02":[7,0,0,5,13,3,4],
 "d1/d29/namespaceDisk.html#a6e556392b3a4de4d683e8ffd49e587f8":[7,0,0,5,13,3,6],
@@ -130,8 +131,8 @@ var NAVTREEINDEX4 =
 "d1/d62/namespacePCI_1_1Descriptors.html#ae78bfbe48f0259cf60bcd1ce1fc92fea":[5,0,25,0,7],
 "d1/d62/namespacePCI_1_1Descriptors.html#afe2709a6476a1c52d59a62c3141e44dd":[5,0,25,0,13],
 "d1/d69/namespaceGlobalDescriptorTable.html":[5,0,7],
-"d1/d69/namespaceGlobalDescriptorTable.html#a00d675ef11f786ca4899530e59d6acf2":[5,0,7,14],
 "d1/d69/namespaceGlobalDescriptorTable.html#a00d675ef11f786ca4899530e59d6acf2":[5,0,7,13],
+"d1/d69/namespaceGlobalDescriptorTable.html#a00d675ef11f786ca4899530e59d6acf2":[5,0,7,14],
 "d1/d69/namespaceGlobalDescriptorTable.html#a0649f80d11f8724d2fc735648cd63784":[7,0,0,0,2,0,1,2,2],
 "d1/d69/namespaceGlobalDescriptorTable.html#a0649f80d11f8724d2fc735648cd63784":[7,0,0,0,1,0,2,2,2],
 "d1/d69/namespaceGlobalDescriptorTable.html#a0c893e2052e91a35b36326a868c1e194":[7,0,0,0,2,0,1,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "d1/d8c/std_8hpp.html#ad477e282dc33a113ed64628b9b32e3dd":[7,0,0,5,38,0],
 "d1/d8c/std_8hpp_source.html":[7,0,0,5,38],
 "d1/d90/acpi_8hpp.html":[7,0,0,0,1,2],
-"d1/d90/acpi_8hpp.html#a07482b1889986b36f97627520d8244be":[7,0,0,0,1,2,99],
-"d1/d90/acpi_8hpp.html#a0834ea2597c7375c2cc31b50a3f1a69e":[7,0,0,0,1,2,68]
+"d1/d90/acpi_8hpp.html#a07482b1889986b36f97627520d8244be":[7,0,0,0,1,2,99]
 };

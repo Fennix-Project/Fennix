@@ -78,7 +78,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
-    <Anchor>aa53a3783575d262dc378af3a30ca775d</Anchor>
+    <Anchor>a554fc11f8a93510db1c570b03954f45f</Anchor>
     <DeclaredIn>SymmetricMultiprocessing.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -10574,8 +10574,8 @@
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d5/d6c/atomic_8hpp.html</Path>
-    <Anchor>a128c8cb0e2b7a00a721eecabef0d4280af43ba1f718385e527e05fec87e95157f</Anchor>
-    <Abstract>Relaxed memory border.</Abstract>
+    <Anchor>a5f4a1956f65357d9ccc55187dc666b29af43ba1f718385e527e05fec87e95157f</Anchor>
+    <Abstract>Relaxed memory order.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -10585,8 +10585,8 @@
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d5/d6c/atomic_8hpp.html</Path>
-    <Anchor>a128c8cb0e2b7a00a721eecabef0d4280a3ac0209cbb4725209dd6f6c9022c5c0e</Anchor>
-    <Abstract>Acquire memory border.</Abstract>
+    <Anchor>a5f4a1956f65357d9ccc55187dc666b29a3ac0209cbb4725209dd6f6c9022c5c0e</Anchor>
+    <Abstract>Acquire memory order.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -10596,8 +10596,8 @@
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d5/d6c/atomic_8hpp.html</Path>
-    <Anchor>a128c8cb0e2b7a00a721eecabef0d4280a203c091eb36ddf3292775fd77fbd4f65</Anchor>
-    <Abstract>Release memory border.</Abstract>
+    <Anchor>a5f4a1956f65357d9ccc55187dc666b29a203c091eb36ddf3292775fd77fbd4f65</Anchor>
+    <Abstract>Release memory order.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -10607,8 +10607,8 @@
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d5/d6c/atomic_8hpp.html</Path>
-    <Anchor>a128c8cb0e2b7a00a721eecabef0d4280ada16c90d2e51a4a2b74d261ffff0fa12</Anchor>
-    <Abstract>Acquire and release memory border.</Abstract>
+    <Anchor>a5f4a1956f65357d9ccc55187dc666b29ada16c90d2e51a4a2b74d261ffff0fa12</Anchor>
+    <Abstract>Acquire and release memory order.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -10618,8 +10618,8 @@
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d5/d6c/atomic_8hpp.html</Path>
-    <Anchor>a128c8cb0e2b7a00a721eecabef0d4280a7e6e9054b7ad33e398c4044358de7604</Anchor>
-    <Abstract>Sequentially consistent memory border.</Abstract>
+    <Anchor>a5f4a1956f65357d9ccc55187dc666b29a7e6e9054b7ad33e398c4044358de7604</Anchor>
+    <Abstract>Sequentially consistent memory order.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -31573,7 +31573,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>a806c9d7db9a74c6c12a2da26b4a85000</Anchor>
+    <Anchor>a9177b818f69f5097e45ed5179300202c</Anchor>
     <Abstract>Load the value of the atomic variable.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
@@ -31585,7 +31585,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>a05d933f325e35545dcd74e5c74c68db3</Anchor>
+    <Anchor>a62e156ff66edb7df65e4d571d085a194</Anchor>
     <Abstract>Store a value to the atomic variable.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
@@ -31597,7 +31597,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>a0ebace754a4febc3e5277c8c274c401f</Anchor>
+    <Anchor>aec5ec7914aa6ac945b1fcebc83a7e636</Anchor>
     <Abstract>Exchange the value of the atomic variable.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
@@ -31609,7 +31609,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>a130318730f4475b5c50db2a916d686c2</Anchor>
+    <Anchor>ad1d3a32f3fb34b9d0b35486b6ce2efaf</Anchor>
     <Abstract>Compare and exchange the value of the atomic variable.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
@@ -31621,7 +31621,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>af44daf3a4819a6c647c797c689731f25</Anchor>
+    <Anchor>ad03d6ec6e2084b2d9cb847f63a6b0319</Anchor>
     <Abstract>Fetch and add the value of the atomic variable.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
@@ -31633,7 +31633,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>a09a5793d878b8e17b7761f8a9489da83</Anchor>
+    <Anchor>a77573126e60f5dcb5df2d204ddd6d951</Anchor>
     <Abstract>Fetch and subtract the value of the atomic variable.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
@@ -31645,7 +31645,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>a13df2c3ccc37927e96c94ba79b22ebfb</Anchor>
+    <Anchor>a7f7138e36f5bb250fca899fc6591dd2c</Anchor>
     <Abstract>Fetch and and the value of the atomic variable.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
@@ -31657,7 +31657,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>af4a758769729f6b4942db1c48c1bd10e</Anchor>
+    <Anchor>a981b146dc09a29c0c50aebc7521a2892</Anchor>
     <Abstract>Fetch and or the value of the atomic variable.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
@@ -31669,7 +31669,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>a7529ce3863759046698294f8c8530d61</Anchor>
+    <Anchor>a1364030271cf7658d133ccc928a1e1c1</Anchor>
     <Abstract>Fetch and xor the value of the atomic variable.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
@@ -31681,7 +31681,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>a384cc90c3e5716a4feca87521f71e103</Anchor>
+    <Anchor>ae58778824de72c74e6187b52fbb9acd5</Anchor>
     <Abstract>Fetch and nand the value of the atomic variable.</Abstract>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
@@ -47745,7 +47745,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>ae16de5fe508ad7081384169da233e901</Anchor>
+    <Anchor>ab330cdeaae21e216d7efeec0b0bb66e3</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -47787,7 +47787,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableFlags</Scope>
     </TokenIdentifier>
     <Path>dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html</Path>
-    <Anchor>aa2e4e68771bec28e9329de5b5fa9b042</Anchor>
+    <Anchor>a0bdd297a8d6ca381fcac75f260da4204</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -48398,6 +48398,17 @@
     </TokenIdentifier>
     <Path>d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html</Path>
     <Anchor>a91b7d74ff8e0fa42a382548cd6be35d2</Anchor>
+    <DeclaredIn>gui.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetText</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GraphicalUserInterface::WidgetCollection</Scope>
+    </TokenIdentifier>
+    <Path>d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html</Path>
+    <Anchor>a29a713215af500ffb082ee8583f3d97e</Anchor>
     <DeclaredIn>gui.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -58340,6 +58351,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetSchedulerTicks</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>aa6f35fa6bf600af23877e3c2588e546e</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetProcessList</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -58809,6 +58831,16 @@
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
     <Anchor>a1a057c4ed8f8d0ab837f597eb7b2b3c5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SchedulerTicks</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>a651b44e19482b8b8933ff17de0ce44f2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

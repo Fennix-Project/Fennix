@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"d5/dba/multiboot2_8h.html#a807febf95505382acf44b0fd7e783ab8":[6,0,0,5,0,0,0,22,3],
+"d5/dba/multiboot2_8h.html#a80f58414b4caf448202e9cf5fa6a471e":[6,0,0,5,0,0,0,15,4],
+"d5/dba/multiboot2_8h.html#a828aaa2c68b86ebc898fb44c4cceb5c2":[6,0,0,5,0,0,0,25,1],
 "d5/dba/multiboot2_8h.html#a82d2ddfc7184652095c8359a60dc1b31":[6,0,0,5,0,0,0,20,0],
 "d5/dba/multiboot2_8h.html#a82f971e8ab5e49e81468a9b94a5418e0":[6,0,0,5,0,0,0,4,0],
 "d5/dba/multiboot2_8h.html#a834adfc193a986e197fe5f562fd702ef":[6,0,0,5,0,0,0,27,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "d6/d43/classGraphicalUserInterface_1_1GUI.html#a64cf0694e7a66698e827e6205f81a8e2":[5,0,8,6,22],
 "d6/d43/classGraphicalUserInterface_1_1GUI.html#a674e3ad8b4b85f2e72461e239be7b963":[5,0,8,6,17],
 "d6/d43/classGraphicalUserInterface_1_1GUI.html#a6b520d46efc7be2bed3adbf5fc154c71":[5,0,8,6,13],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a8227605766e6d26874add805b9b36d77":[5,0,8,6,11],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a830da79287278a05a80f32be5434ca81":[5,0,8,6,26],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a8566933bd7baeb9c7ddfc1cd72ab47e6":[5,0,8,6,3],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a8579b992551c274507e5ce1f1f618447":[5,0,8,6,28]
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#a8227605766e6d26874add805b9b36d77":[5,0,8,6,11]
 };

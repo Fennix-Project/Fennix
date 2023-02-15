@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"d0/da5/Fex_8hpp.html#d5/d3a/structFexExtended":[7,0,0,14,1],
 "d0/da5/Fex_8hpp.html#da/d17/structFexExtended_1_1DriverBind_8Driver_8Bind_8Interrupt":[7,0,0,14,5],
 "d0/da5/Fex_8hpp.html#dc/d00/structFexExtended_1_1DriverBind_8Driver_8Bind_8Input":[7,0,0,14,8],
 "d0/da5/Fex_8hpp.html#dc/d24/structFexExtended_1_1DriverBind_8Driver_8Bind_8Process":[7,0,0,14,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "d0/df4/Kernel_2include_2types_8h.html#a2c6f97ea2d76d0cf6260c84046cdb44e":[7,0,0,5,47,113],
 "d0/df4/Kernel_2include_2types_8h.html#a2e3484535ee610c8e19e9859563abe48":[7,0,0,5,47,33],
 "d0/df4/Kernel_2include_2types_8h.html#a2f18db18bca26cafa95e9719de4a41ef":[7,0,0,5,47,52],
-"d0/df4/Kernel_2include_2types_8h.html#a2fd35d0ea091e04caec504ff0042cf00":[7,0,0,5,47,64],
-"d0/df4/Kernel_2include_2types_8h.html#a30654b4b67d97c42ca3f9b6052dda916":[7,0,0,5,47,108]
+"d0/df4/Kernel_2include_2types_8h.html#a2fd35d0ea091e04caec504ff0042cf00":[7,0,0,5,47,64]
 };
