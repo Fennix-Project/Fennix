@@ -232,6 +232,7 @@
 			"tskdbg",
 			"ttbr",
 			"uarch",
+			"uartmemdmp",
 			"ubsan",
 			"UINTFASTX",
 			"UINTLEASTX",
