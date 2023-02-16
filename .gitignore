@@ -28,3 +28,4 @@ initrd.tar.gz
 *.a
 *.so
 *.o
+*.dmp
