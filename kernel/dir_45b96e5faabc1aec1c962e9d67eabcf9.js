@@ -9,7 +9,7 @@ var dir_45b96e5faabc1aec1c962e9d67eabcf9 =
     [ "crashhandler.hpp", "dc/d04/crashhandler_8hpp.html", "dc/d04/crashhandler_8hpp" ],
     [ "Debugger.cpp", "db/d7b/Debugger_8cpp.html", "db/d7b/Debugger_8cpp" ],
     [ "Disk.cpp", "d1/dc7/Disk_8cpp.html", null ],
-    [ "Lock.cpp", "d4/d90/Lock_8cpp.html", null ],
+    [ "Lock.cpp", "d4/d90/Lock_8cpp.html", "d4/d90/Lock_8cpp" ],
     [ "PeripheralComponentInterconnect.cpp", "d5/d01/PeripheralComponentInterconnect_8cpp.html", "d5/d01/PeripheralComponentInterconnect_8cpp" ],
     [ "Power.cpp", "d1/d9d/Power_8cpp.html", null ],
     [ "Random.cpp", "d4/dde/Random_8cpp.html", "d4/dde/Random_8cpp" ],

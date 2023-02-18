@@ -357,12 +357,20 @@ Macros</h2></td></tr>
 <tr class="separator:ab3467bd0148d5803fcfc9a7da036d617"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43438b17f4397f48fc81806def618b0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a43438b17f4397f48fc81806def618b0b">__no_sanitize_thread</a>&#160;&#160;&#160;<a class="el" href="../../db/d2b/ssp_8c.html#ab2e9d9bd181fe65f3ea5da350e71459c">__attribute__</a>((no_sanitize_thread))</td></tr>
 <tr class="separator:a43438b17f4397f48fc81806def618b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02f82dc52841c56eb88f93df6156e770"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a02f82dc52841c56eb88f93df6156e770">__synchronize</a>&#160;&#160;&#160;__sync_synchronize()</td></tr>
+<tr class="separator:a02f82dc52841c56eb88f93df6156e770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86105344cddf0ca9db6a3996854bad50"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a86105344cddf0ca9db6a3996854bad50">__sync</a>&#160;&#160;&#160;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a02f82dc52841c56eb88f93df6156e770">__synchronize</a></td></tr>
+<tr class="separator:a86105344cddf0ca9db6a3996854bad50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a217a0bd562b98ae8c2ffce44935351e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a217a0bd562b98ae8c2ffce44935351e1">likely</a>(x)&#160;&#160;&#160;__builtin_expect(!!(x), 1)</td></tr>
 <tr class="separator:a217a0bd562b98ae8c2ffce44935351e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6c45889010c1bd68631771b64f18101"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(x)&#160;&#160;&#160;__builtin_expect(!!(x), 0)</td></tr>
 <tr class="separator:ac6c45889010c1bd68631771b64f18101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72459587db2f8ad7625b1814b20fff25"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a>&#160;&#160;&#160;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af319c9e1982cc7c3c6c779789d667cd8">__no_sanitize_address</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a340dd001c287f8b0953d0f2b74244e65">__no_sanitize_undefined</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#ab3467bd0148d5803fcfc9a7da036d617">__no_address_safety_analysis</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a43438b17f4397f48fc81806def618b0b">__no_sanitize_thread</a></td></tr>
 <tr class="separator:a72459587db2f8ad7625b1814b20fff25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedcd837de58f1534fba6848ec222dfaa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aedcd837de58f1534fba6848ec222dfaa">int1</a></td></tr>
+<tr class="separator:aedcd837de58f1534fba6848ec222dfaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af90a6cfd43c9a4509afa907f57b7ec82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af90a6cfd43c9a4509afa907f57b7ec82">int3</a></td></tr>
+<tr class="separator:af90a6cfd43c9a4509afa907f57b7ec82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -1016,6 +1024,38 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
+<a id="a86105344cddf0ca9db6a3996854bad50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86105344cddf0ca9db6a3996854bad50">&#9670;&nbsp;</a></span>__sync</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __sync&#160;&#160;&#160;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a02f82dc52841c56eb88f93df6156e770">__synchronize</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00294">294</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a02f82dc52841c56eb88f93df6156e770"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02f82dc52841c56eb88f93df6156e770">&#9670;&nbsp;</a></span>__synchronize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __synchronize&#160;&#160;&#160;__sync_synchronize()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00293">293</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
 <a id="a2e3484535ee610c8e19e9859563abe48"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2e3484535ee610c8e19e9859563abe48">&#9670;&nbsp;</a></span>__unused</h2>
 
@@ -1462,6 +1502,26 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
+<a id="aedcd837de58f1534fba6848ec222dfaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedcd837de58f1534fba6848ec222dfaa">&#9670;&nbsp;</a></span>int1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define int1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    __asm__ __volatile__(<span class="stringliteral">&quot;int $0x1&quot;</span> \</div>
+<div class="line">                         :          \</div>
+<div class="line">                         :          \</div>
+<div class="line">                         : <span class="stringliteral">&quot;memory&quot;</span>)</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00301">301</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
 <a id="ac58f2c111cc9989c86db2a7dc4fd84ca"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac58f2c111cc9989c86db2a7dc4fd84ca">&#9670;&nbsp;</a></span>INT16_MAX</h2>
 
@@ -1491,6 +1551,26 @@ Typedefs</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00154">154</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="af90a6cfd43c9a4509afa907f57b7ec82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af90a6cfd43c9a4509afa907f57b7ec82">&#9670;&nbsp;</a></span>int3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define int3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    __asm__ __volatile__(<span class="stringliteral">&quot;int $0x3&quot;</span> \</div>
+<div class="line">                         :          \</div>
+<div class="line">                         :          \</div>
+<div class="line">                         : <span class="stringliteral">&quot;memory&quot;</span>)</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00307">307</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1926,7 +2006,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00293">293</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00296">296</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2218,7 +2298,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00296">296</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00299">299</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2582,7 +2662,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00294">294</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00297">297</a> of file <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>

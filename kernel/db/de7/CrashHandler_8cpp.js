@@ -8,6 +8,7 @@ var CrashHandler_8cpp =
     [ "Handle", "db/de7/CrashHandler_8cpp.html#a202e013cac1a108322c79e592f3a5e0c", null ],
     [ "NewLock", "db/de7/CrashHandler_8cpp.html#a7c971b6374d1d78e185d408f3c03ebf5", null ],
     [ "printfWrapper", "db/de7/CrashHandler_8cpp.html#a92454254915b44c54a833c90da54cbf3", null ],
+    [ "StopAllCores", "db/de7/CrashHandler_8cpp.html#a416e995eadd47cf2558b2b7be472f305", null ],
     [ "TrimWhiteSpace", "db/de7/CrashHandler_8cpp.html#abb496daf7ae21ad13d839335c717641f", null ],
     [ "UserInput", "db/de7/CrashHandler_8cpp.html#a1cb59308e6e67023ed853324f606eb3c", null ],
     [ "crashdata", "db/de7/CrashHandler_8cpp.html#a12b3cdf72278dca522058fa300b3832b", null ],

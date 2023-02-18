@@ -89,13 +89,13 @@ $(document).ready(function(){initNavTree('d4/d33/smp_8hpp.html','../../'); initR
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">smp.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>&gt;</code><br />
 </div>
 <p><a href="../../d4/d33/smp_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -122,47 +122,12 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1906bcc6780f95c35bdcd72d37c42b71"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a1906bcc6780f95c35bdcd72d37c42b71">__attribute__</a> ((packed))</td></tr>
-<tr class="separator:a1906bcc6780f95c35bdcd72d37c42b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa53a3783575d262dc378af3a30ca775d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a> ()</td></tr>
 <tr class="separator:aa53a3783575d262dc378af3a30ca775d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f3502076f52c44d781b7b6c426b5bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a7f3502076f52c44d781b7b6c426b5bed">GetCPU</a> (long <a class="el" href="../../d4/d33/smp_8hpp.html#ae9c27346afc38e44402e452477847b53">ID</a>)</td></tr>
+<tr class="memitem:a7f3502076f52c44d781b7b6c426b5bed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a7f3502076f52c44d781b7b6c426b5bed">GetCPU</a> (long ID)</td></tr>
 <tr class="separator:a7f3502076f52c44d781b7b6c426b5bed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83df3dc276fba1e673fcf5551113ca7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d37/namespaceSMP.html#a83df3dc276fba1e673fcf5551113ca7e">SMP::Initialize</a> (void *madt)</td></tr>
 <tr class="separator:a83df3dc276fba1e673fcf5551113ca7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ab5cdfc9d7d95e40909772d3a3090a9bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#ab5cdfc9d7d95e40909772d3a3090a9bd">SystemCallStack</a></td></tr>
-<tr class="memdesc:ab5cdfc9d7d95e40909772d3a3090a9bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by syscall handler.  <a href="../../d4/d33/smp_8hpp.html#ab5cdfc9d7d95e40909772d3a3090a9bd">More...</a><br /></td></tr>
-<tr class="separator:ab5cdfc9d7d95e40909772d3a3090a9bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3951ce0b49c913a3c77281c3b2b07ceb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a3951ce0b49c913a3c77281c3b2b07ceb">TempStack</a></td></tr>
-<tr class="memdesc:a3951ce0b49c913a3c77281c3b2b07ceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by syscall handler.  <a href="../../d4/d33/smp_8hpp.html#a3951ce0b49c913a3c77281c3b2b07ceb">More...</a><br /></td></tr>
-<tr class="separator:a3951ce0b49c913a3c77281c3b2b07ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98988c09e59995d8f6a571039d35e3c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a98988c09e59995d8f6a571039d35e3c8">Stack</a></td></tr>
-<tr class="memdesc:a98988c09e59995d8f6a571039d35e3c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used by <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>.  <a href="../../d4/d33/smp_8hpp.html#a98988c09e59995d8f6a571039d35e3c8">More...</a><br /></td></tr>
-<tr class="separator:a98988c09e59995d8f6a571039d35e3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9c27346afc38e44402e452477847b53"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#ae9c27346afc38e44402e452477847b53">ID</a></td></tr>
-<tr class="memdesc:ae9c27346afc38e44402e452477847b53"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> ID.  <a href="../../d4/d33/smp_8hpp.html#ae9c27346afc38e44402e452477847b53">More...</a><br /></td></tr>
-<tr class="separator:ae9c27346afc38e44402e452477847b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ec11ac6067b0e4293052a4a39e925f7"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a8ec11ac6067b0e4293052a4a39e925f7">ErrorCode</a></td></tr>
-<tr class="memdesc:a8ec11ac6067b0e4293052a4a39e925f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> error code.  <a href="../../d4/d33/smp_8hpp.html#a8ec11ac6067b0e4293052a4a39e925f7">More...</a><br /></td></tr>
-<tr class="separator:a8ec11ac6067b0e4293052a4a39e925f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92c6b1cf703f9e064f5efc0907f80379"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></td></tr>
-<tr class="memdesc:a92c6b1cf703f9e064f5efc0907f80379"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> online?  <a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">More...</a><br /></td></tr>
-<tr class="separator:a92c6b1cf703f9e064f5efc0907f80379"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c1b58202118caa86329a0095e86f91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB">Tasking::PCB</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#af7c1b58202118caa86329a0095e86f91">CurrentProcess</a></td></tr>
-<tr class="memdesc:af7c1b58202118caa86329a0095e86f91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current running process.  <a href="../../d4/d33/smp_8hpp.html#af7c1b58202118caa86329a0095e86f91">More...</a><br /></td></tr>
-<tr class="separator:af7c1b58202118caa86329a0095e86f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a707db261f8d22e78be640e5b41dbb4bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d96/structTasking_1_1TCB.html">Tasking::TCB</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a707db261f8d22e78be640e5b41dbb4bb">CurrentThread</a></td></tr>
-<tr class="memdesc:a707db261f8d22e78be640e5b41dbb4bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current running thread.  <a href="../../d4/d33/smp_8hpp.html#a707db261f8d22e78be640e5b41dbb4bb">More...</a><br /></td></tr>
-<tr class="separator:a707db261f8d22e78be640e5b41dbb4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c318f3349713a8030d610e4a263d10a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d33/smp_8hpp.html#d4/d49/structCPUArchData">CPUArchData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a></td></tr>
-<tr class="memdesc:a7c318f3349713a8030d610e4a263d10a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Architecture-specific data.  <a href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">More...</a><br /></td></tr>
-<tr class="separator:a7c318f3349713a8030d610e4a263d10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca10be923fb0da174d8c3a29d8b5083b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a></td></tr>
-<tr class="memdesc:aca10be923fb0da174d8c3a29d8b5083b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checksum. Used to verify the integrity of the data. Must be equal to CPU_DATA_CHECKSUM (0xC0FFEE).  <a href="../../d4/d33/smp_8hpp.html#aca10be923fb0da174d8c3a29d8b5083b">More...</a><br /></td></tr>
-<tr class="separator:aca10be923fb0da174d8c3a29d8b5083b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d4/d49/structCPUArchData" id="d4/d49/structCPUArchData"></a>
@@ -177,7 +142,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00011">11</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00012">12</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 </div>
 </div>
 </div>
@@ -193,7 +158,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00021">21</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -203,13 +168,13 @@ Checksum</td>
 <td class="fielddoc">
 Checksum. Used to verify the integrity of the data. Must be equal to CPU_DATA_CHECKSUM (0xC0FFEE). </td></tr>
 <tr><td class="fieldtype">
-<a id="a0314565291f820d971ae294edf981b70"></a>PCB *</td>
+<a id="a85949f117647b45ebf6423412d7cbdc4"></a><a class="el" href="../../da/df9/classAtomic.html">Atomic</a>&lt; PCB * &gt;</td>
 <td class="fieldname">
 CurrentProcess</td>
 <td class="fielddoc">
 Current running process. </td></tr>
 <tr><td class="fieldtype">
-<a id="a861a2e808fae58fa46cf4b6694b93bd7"></a>TCB *</td>
+<a id="a5ddb2abecf65481a3e5a267626f4fe45"></a><a class="el" href="../../da/df9/classAtomic.html">Atomic</a>&lt; TCB * &gt;</td>
 <td class="fieldname">
 CurrentThread</td>
 <td class="fielddoc">
@@ -273,7 +238,7 @@ Used by syscall handler. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00010">10</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
 </div>
 </div>
@@ -291,29 +256,11 @@ Used by syscall handler. </td></tr>
 
 <p>Maximum supported number of <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> cores by the kernel. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00008">8</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a1906bcc6780f95c35bdcd72d37c42b71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1906bcc6780f95c35bdcd72d37c42b71">&#9670;&nbsp;</a></span>__attribute__()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct <a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> __attribute__ </td>
-          <td>(</td>
-          <td class="paramtype">(packed)&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a7f3502076f52c44d781b7b6c426b5bed"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7f3502076f52c44d781b7b6c426b5bed">&#9670;&nbsp;</a></span>GetCPU()</h2>
 
@@ -354,7 +301,7 @@ Used by syscall handler. </td></tr>
 <div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> ret = 0;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (!CPUs[ret].<a class="code" href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a>)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (!CPUs[ret].IsActive)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;CPU %d is not active!&quot;</span>, ret);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> &amp;CPUs[0];</div>
@@ -369,200 +316,12 @@ Used by syscall handler. </td></tr>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a2095b9bffea4b2656950c6c0419edbf1"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00114">types.h:114</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_ad98d5051c2e94669e746dd13771daac8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#ad98d5051c2e94669e746dd13771daac8">Checksum</a></div><div class="ttdeci">uint8_t Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00003">acpi.hpp:3</a></div></div>
-<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00044">debug.h:44</a></div></div>
-<div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00009">smp.hpp:9</a></div></div>
-<div class="ttc" id="asmp_8hpp_html_a92c6b1cf703f9e064f5efc0907f80379"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></div><div class="ttdeci">bool IsActive</div><div class="ttdoc">Is CPU online?</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00011">smp.hpp:11</a></div></div>
+<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00061">debug.h:61</a></div></div>
+<div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00010">smp.hpp:10</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00014">APIC::APIC_ID</a>, <a class="el" href="../../dc/da7/assert_8h_source.html#l00008">assert</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00009">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00044">error</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00011">IsActive</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00294">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00014">APIC::APIC_ID</a>, <a class="el" href="../../dc/da7/assert_8h_source.html#l00008">assert</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00010">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00061">error</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00297">unlikely</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00201">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00202">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00650">CrashHandler::Handle()</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00113">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00034">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00147">GlobalDescriptorTable::SetKernelStack()</a>, <a class="el" href="../../df/df7/Scheduler_8cpp_source.html#l00093">TaskingScheduler_OneShot()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00192">Tasking::ThreadDoExit()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00349">APIC::Timer::Timer()</a>, and <a class="el" href="../../de/d15/UserHandler_8cpp_source.html#l00028">UserModeExceptionHandler()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="aca10be923fb0da174d8c3a29d8b5083b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca10be923fb0da174d8c3a29d8b5083b">&#9670;&nbsp;</a></span>Checksum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Checksum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Checksum. Used to verify the integrity of the data. Must be equal to CPU_DATA_CHECKSUM (0xC0FFEE). </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00021">21</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="af7c1b58202118caa86329a0095e86f91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7c1b58202118caa86329a0095e86f91">&#9670;&nbsp;</a></span>CurrentProcess</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB">Tasking::PCB</a>* CurrentProcess</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Current running process. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00014">14</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a707db261f8d22e78be640e5b41dbb4bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a707db261f8d22e78be640e5b41dbb4bb">&#9670;&nbsp;</a></span>CurrentThread</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../de/d96/structTasking_1_1TCB.html">Tasking::TCB</a>* CurrentThread</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Current running thread. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00016">16</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a7c318f3349713a8030d610e4a263d10a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c318f3349713a8030d610e4a263d10a">&#9670;&nbsp;</a></span>Data</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d33/smp_8hpp.html#d4/d49/structCPUArchData">CPUArchData</a> Data</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Architecture-specific data. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00019">19</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a8ec11ac6067b0e4293052a4a39e925f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ec11ac6067b0e4293052a4a39e925f7">&#9670;&nbsp;</a></span>ErrorCode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">long ErrorCode</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Local <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> error code. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae9c27346afc38e44402e452477847b53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9c27346afc38e44402e452477847b53">&#9670;&nbsp;</a></span>ID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">long ID</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> ID. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00044">InterProcessCommunication::IPC::Allocate()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00065">InterProcessCommunication::IPC::Deallocate()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00026">InterProcessCommunication::IPC::Destroy()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00204">Tasking::Task::GetProcessByID()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00212">Tasking::Task::GetThreadByID()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00196">InterProcessCommunication::IPC::HandleSyscall()</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00307">IPC()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00148">InterProcessCommunication::IPC::Listen()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00034">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00084">InterProcessCommunication::IPC::Read()</a>, <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00119">sys_ipc()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00349">APIC::Timer::Timer()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00163">InterProcessCommunication::IPC::Wait()</a>, and <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00114">InterProcessCommunication::IPC::Write()</a>.</p>
-
-</div>
-</div>
-<a id="a92c6b1cf703f9e064f5efc0907f80379"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92c6b1cf703f9e064f5efc0907f80379">&#9670;&nbsp;</a></span>IsActive</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> IsActive</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Is <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> online? </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00011">11</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">GetCurrentCPU()</a>.</p>
-
-</div>
-</div>
-<a id="a98988c09e59995d8f6a571039d35e3c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98988c09e59995d8f6a571039d35e3c8">&#9670;&nbsp;</a></span>Stack</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Stack</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Used by <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00005">5</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00335">Tasking::Task::CreateThread()</a>, and <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00147">GlobalDescriptorTable::SetKernelStack()</a>.</p>
-
-</div>
-</div>
-<a id="ab5cdfc9d7d95e40909772d3a3090a9bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5cdfc9d7d95e40909772d3a3090a9bd">&#9670;&nbsp;</a></span>SystemCallStack</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>* SystemCallStack</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Used by syscall handler. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a3951ce0b49c913a3c77281c3b2b07ceb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3951ce0b49c913a3c77281c3b2b07ceb">&#9670;&nbsp;</a></span>TempStack</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> TempStack</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Used by syscall handler. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00201">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00202">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00744">CrashHandler::Handle()</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00113">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00034">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00147">GlobalDescriptorTable::SetKernelStack()</a>, <a class="el" href="../../df/df7/Scheduler_8cpp_source.html#l00093">TaskingScheduler_OneShot()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00192">Tasking::ThreadDoExit()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00349">APIC::Timer::Timer()</a>, and <a class="el" href="../../de/d15/UserHandler_8cpp_source.html#l00028">UserModeExceptionHandler()</a>.</p>
 
 </div>
 </div>

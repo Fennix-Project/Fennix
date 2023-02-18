@@ -1,5 +1,11 @@
 var NAVTREEINDEX55 =
 {
+"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#d3/da5/unionCPU_1_1x32_1_1AMD_1_1CPUID0x80000007_8EBX":[7,0,0,5,9,329],
+"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#d3/dc2/structCPU_1_1x32_1_1AMD_1_1CPUID0x1_8EBX_8____unnamed349____":[7,0,0,5,9,258],
+"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#d3/dfa/unionCPU_1_1x32_1_1AMD_1_1CPUID0x80000002_8EBX":[7,0,0,5,9,289],
+"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#d4/d08/structCPU_1_1x32_1_1AMD_1_1CPUID0x80000006_8EAX_8____unnamed443____":[7,0,0,5,9,320],
+"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#d4/d3a/unionCPU_1_1x32_1_1AMD_1_1CPUID0x0_8ECX":[7,0,0,5,9,251],
+"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#d4/d3d/structCPU_1_1x32_1_1AMD_1_1CPUID0x80000006_8EDX_8____unnamed449____":[7,0,0,5,9,326],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#d4/d4c/structCPU_1_1x32_1_1AMD_1_1CPUID0x80000006_8ECX_8____unnamed447____":[7,0,0,5,9,324],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#d4/d70/unionCPU_1_1x32_1_1AMD_1_1CPUID0x2_8EBX":[7,0,0,5,9,265],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#d4/d96/unionCPU_1_1x32_1_1AMD_1_1CPUID0x80000005_8EAX":[7,0,0,5,9,311],
@@ -172,8 +178,8 @@ var NAVTREEINDEX55 =
 "dir_fcf8e18894f194e302f59c8376612fd7.html":[7,0,0,10],
 "examples.html":[8],
 "files.html":[7,0],
-"functions.html":[6,3,0,0],
 "functions.html":[6,3,0],
+"functions.html":[6,3,0,0],
 "functions_a.html":[6,3,0,1],
 "functions_b.html":[6,3,0,2],
 "functions_c.html":[6,3,0,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX55 =
 "functions_vars_o.html":[6,3,2,15],
 "functions_vars_p.html":[6,3,2,16],
 "functions_vars_r.html":[6,3,2,17],
-"functions_vars_s.html":[6,3,2,18],
-"functions_vars_t.html":[6,3,2,19],
-"functions_vars_u.html":[6,3,2,20],
-"functions_vars_v.html":[6,3,2,21],
-"functions_vars_w.html":[6,3,2,22],
-"functions_vars_x.html":[6,3,2,23],
-"functions_vars_y.html":[6,3,2,24]
+"functions_vars_s.html":[6,3,2,18]
 };

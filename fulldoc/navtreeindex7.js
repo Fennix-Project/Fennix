@@ -1,5 +1,10 @@
 var NAVTREEINDEX7 =
 {
+"d2/da8/classXalloc_1_1AllocatorV1.html#a06f328f34a2abc0ff1fa9c0be407ddbb":[6,0,34,3,1],
+"d2/da8/classXalloc_1_1AllocatorV1.html#a1b36f6e5d721ab2ec17f490ba20390a1":[6,0,34,3,5],
+"d2/da8/classXalloc_1_1AllocatorV1.html#a1eab008ff7304f23a6255bed9492707c":[6,0,34,3,10],
+"d2/da8/classXalloc_1_1AllocatorV1.html#a2400fd8f66e2dab7aee1bd8c9f4d2986":[6,0,34,3,9],
+"d2/da8/classXalloc_1_1AllocatorV1.html#a597fe8ed3214e557880b6013f111e42f":[6,0,34,3,13],
 "d2/da8/classXalloc_1_1AllocatorV1.html#a5d47a87fc373cc54b12c921ef8e3c402":[6,0,34,3,17],
 "d2/da8/classXalloc_1_1AllocatorV1.html#a8032bb777951367e8ffc13031fdb128b":[6,0,34,3,12],
 "d2/da8/classXalloc_1_1AllocatorV1.html#a8581d1e1c3c9dd88f40d400605062b41":[6,0,34,3,8],
@@ -97,8 +102,8 @@ var NAVTREEINDEX7 =
 "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#a8071b41ba0df97c95cbf541956c2a9b2":[6,0,7,3,6],
 "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#a9093c39c2fbd46a509cdd491d3debad1":[6,0,7,3,8],
 "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ab7c3153a4c6d6b7202b9f8c70d1ed495":[6,0,7,3,2],
-"d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ac3bb90a3568fb04a96bec65a17b38246":[6,0,7,3,0],
 "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ac3bb90a3568fb04a96bec65a17b38246":[6,0,7,3,1],
+"d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ac3bb90a3568fb04a96bec65a17b38246":[6,0,7,3,0],
 "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ad713dc6ddd78234082dc2cd404b1f861":[6,0,7,3,4],
 "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#af93790f77f99f38c9aee4dc454cd3bb9":[6,0,7,3,3],
 "d2/dda/UserDatagramProtocol_8cpp.html":[7,0,0,7,11],
@@ -244,10 +249,5 @@ var NAVTREEINDEX7 =
 "d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba758cfef96c2431832ad5395ef1770d25":[7,0,0,5,17,112,104],
 "d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba758cfef96c2431832ad5395ef1770d25":[7,0,2,1,0,0,72,104],
 "d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba7a10a2e3d4ba1d38632960d43e02e41d":[7,0,0,5,17,112,134],
-"d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba7a10a2e3d4ba1d38632960d43e02e41d":[7,0,2,1,0,0,72,134],
-"d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba7cd8e07bf97119a3de82943919fa955a":[7,0,0,5,17,112,107],
-"d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba7cd8e07bf97119a3de82943919fa955a":[7,0,2,1,0,0,72,107],
-"d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba80117daa43b45ceae436ca945f6f51e2":[7,0,0,5,17,112,91],
-"d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba80117daa43b45ceae436ca945f6f51e2":[7,0,2,1,0,0,72,91],
-"d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba802234af25ef086999244f858c0ca6aa":[7,0,0,5,17,112,126]
+"d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba7a10a2e3d4ba1d38632960d43e02e41d":[7,0,2,1,0,0,72,134]
 };

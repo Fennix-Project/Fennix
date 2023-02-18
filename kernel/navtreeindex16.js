@@ -1,14 +1,5 @@
 var NAVTREEINDEX16 =
 {
-"d5/dba/multiboot2_8h.html#a807febf95505382acf44b0fd7e783ab8":[6,0,0,5,0,0,0,22,3],
-"d5/dba/multiboot2_8h.html#a80f58414b4caf448202e9cf5fa6a471e":[6,0,0,5,0,0,0,15,4],
-"d5/dba/multiboot2_8h.html#a828aaa2c68b86ebc898fb44c4cceb5c2":[6,0,0,5,0,0,0,25,1],
-"d5/dba/multiboot2_8h.html#a82d2ddfc7184652095c8359a60dc1b31":[6,0,0,5,0,0,0,20,0],
-"d5/dba/multiboot2_8h.html#a82f971e8ab5e49e81468a9b94a5418e0":[6,0,0,5,0,0,0,4,0],
-"d5/dba/multiboot2_8h.html#a834adfc193a986e197fe5f562fd702ef":[6,0,0,5,0,0,0,27,2],
-"d5/dba/multiboot2_8h.html#a83e0d3f690f3dfc07547112af1f3cd06":[6,0,0,5,0,0,0,33,1],
-"d5/dba/multiboot2_8h.html#a84893ea1f13a57e8990e8d04d0f7b58d":[6,0,0,5,0,0,0,38],
-"d5/dba/multiboot2_8h.html#a857dea402be3f6c6f88c2fea32c936d6":[6,0,0,5,0,0,0,51],
 "d5/dba/multiboot2_8h.html#a86060b6871a2c0036465aab04b4c7edf":[6,0,0,5,0,0,0,14,2],
 "d5/dba/multiboot2_8h.html#a86adb2da5c20f527ed4fbb0a2a6423bc":[6,0,0,5,0,0,0,20,3],
 "d5/dba/multiboot2_8h.html#a877e6f09bf575aa775a81897a54337f4":[6,0,0,5,0,0,0,11,0],
@@ -249,5 +240,14 @@ var NAVTREEINDEX16 =
 "d6/d43/classGraphicalUserInterface_1_1GUI.html#a64cf0694e7a66698e827e6205f81a8e2":[5,0,8,6,22],
 "d6/d43/classGraphicalUserInterface_1_1GUI.html#a674e3ad8b4b85f2e72461e239be7b963":[5,0,8,6,17],
 "d6/d43/classGraphicalUserInterface_1_1GUI.html#a6b520d46efc7be2bed3adbf5fc154c71":[5,0,8,6,13],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a8227605766e6d26874add805b9b36d77":[5,0,8,6,11]
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#a8227605766e6d26874add805b9b36d77":[5,0,8,6,11],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#a830da79287278a05a80f32be5434ca81":[5,0,8,6,26],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#a8566933bd7baeb9c7ddfc1cd72ab47e6":[5,0,8,6,3],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#a8579b992551c274507e5ce1f1f618447":[5,0,8,6,28],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#a997c4fe838c2cf41ae6565e4e0e2f663":[5,0,8,6,8],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#a9c77a54583b7d666c6cd501055ce01c8":[5,0,8,6,21],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#ab1659e0c1ea48052beb47192cd42ca98":[5,0,8,6,7],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#abf5cfee43d2245cf731cb2214802b18b":[5,0,8,6,23],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#ac02ad0d414b3ece06a08bb9eae8c7e3c":[5,0,8,6,25],
+"d6/d43/classGraphicalUserInterface_1_1GUI.html#ac16f627f886a939a7133297a7faf4db5":[5,0,8,6,16]
 };

@@ -6111,6 +6111,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>StopAllCores</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>a416e995eadd47cf2558b2b7be472f305</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Handle</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -6464,6 +6475,28 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>LockedWrite</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SysDbg</Scope>
+    </TokenIdentifier>
+    <Path>d3/df0/namespaceSysDbg.html</Path>
+    <Anchor>ab36375bc85a685abafcc46ce520ced1a</Anchor>
+    <DeclaredIn>Debugger.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LockedWriteLine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SysDbg</Scope>
+    </TokenIdentifier>
+    <Path>d3/df0/namespaceSysDbg.html</Path>
+    <Anchor>a4a1a72b6071f8477f6194935ccec4d5d</Anchor>
+    <DeclaredIn>Debugger.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SysDbgWrite</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -6480,6 +6513,26 @@
     </TokenIdentifier>
     <Path>db/d7b/Debugger_8cpp.html</Path>
     <Anchor>a97b5ae15c4d42230faa180356ed6ddea</Anchor>
+    <DeclaredIn>Debugger.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SysDbgLockedWrite</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>db/d7b/Debugger_8cpp.html</Path>
+    <Anchor>a66222b4a98783b192f4204c0c8636e04</Anchor>
+    <DeclaredIn>Debugger.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SysDbgLockedWriteLine</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>db/d7b/Debugger_8cpp.html</Path>
+    <Anchor>ade8cddcc9cb4467a7b01e024e96058a8</Anchor>
     <DeclaredIn>Debugger.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -6781,6 +6834,16 @@
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>af1d11abba0d09e297052a3bf31515123</Anchor>
     <DeclaredIn>IntManager.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ForceUnlock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d5/d26/Kernel_2Core_2Lock_8cpp.html</Path>
+    <Anchor>ad451dcbadb40bd78b3bfcf21de647d72</Anchor>
+    <DeclaredIn>Lock.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -14610,6 +14673,76 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>locked_error</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/d16/debug_8h.html</Path>
+    <Anchor>ada5899766be9ef0767417364395ea287</Anchor>
+    <DeclaredIn>debug.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>locked_warn</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/d16/debug_8h.html</Path>
+    <Anchor>a07044fb6fefc013288056f38ebe36279</Anchor>
+    <DeclaredIn>debug.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>locked_info</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/d16/debug_8h.html</Path>
+    <Anchor>a81dbd24c20f73e93cff1036b77be4a32</Anchor>
+    <DeclaredIn>debug.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>locked_debug</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/d16/debug_8h.html</Path>
+    <Anchor>a13bea1f96fe6e179ea413fb1114341bf</Anchor>
+    <DeclaredIn>debug.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>locked_ubsan</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/d16/debug_8h.html</Path>
+    <Anchor>ad345ea08feb74d72388057543c344db6</Anchor>
+    <DeclaredIn>debug.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>locked_trace</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/d16/debug_8h.html</Path>
+    <Anchor>a98f38de4d750fef04406181db47bb91f</Anchor>
+    <DeclaredIn>debug.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>locked_fixme</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>db/d16/debug_8h.html</Path>
+    <Anchor>ac35a1c343e3aec48aacc4d38f52560fd</Anchor>
+    <DeclaredIn>debug.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SysDbgWrite</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -14626,6 +14759,26 @@
     </TokenIdentifier>
     <Path>db/d16/debug_8h.html</Path>
     <Anchor>a74f3fc61fe0e1344da54caea3bdc2d4f</Anchor>
+    <DeclaredIn>debug.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SysDbgLockedWrite</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>db/d16/debug_8h.html</Path>
+    <Anchor>ad17774aaa40ec3cb8087624ff71f0894</Anchor>
+    <DeclaredIn>debug.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SysDbgLockedWriteLine</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>db/d16/debug_8h.html</Path>
+    <Anchor>a4f70f6e676b3da79e8fc2d7fd4637261</Anchor>
     <DeclaredIn>debug.h</DeclaredIn>
   </Token>
   <Token>
@@ -25108,16 +25261,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>__attribute__</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>a1906bcc6780f95c35bdcd72d37c42b71</Anchor>
-    <DeclaredIn>smp.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>GetCurrentCPU</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -25146,116 +25289,6 @@
     <Path>d6/d37/namespaceSMP.html</Path>
     <Anchor>a83df3dc276fba1e673fcf5551113ca7e</Anchor>
     <DeclaredIn>SymmetricMultiprocessing.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SystemCallStack</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>ab5cdfc9d7d95e40909772d3a3090a9bd</Anchor>
-    <Abstract>Used by syscall handler.</Abstract>
-    <DeclaredIn>smp.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TempStack</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>a3951ce0b49c913a3c77281c3b2b07ceb</Anchor>
-    <Abstract>Used by syscall handler.</Abstract>
-    <DeclaredIn>smp.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Stack</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>a98988c09e59995d8f6a571039d35e3c8</Anchor>
-    <Abstract>Used by CPU.</Abstract>
-    <DeclaredIn>smp.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ID</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>ae9c27346afc38e44402e452477847b53</Anchor>
-    <Abstract>CPU ID.</Abstract>
-    <DeclaredIn>smp.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ErrorCode</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>a8ec11ac6067b0e4293052a4a39e925f7</Anchor>
-    <Abstract>Local CPU error code.</Abstract>
-    <DeclaredIn>smp.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>IsActive</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>a92c6b1cf703f9e064f5efc0907f80379</Anchor>
-    <Abstract>Is CPU online?</Abstract>
-    <DeclaredIn>smp.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CurrentProcess</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>af7c1b58202118caa86329a0095e86f91</Anchor>
-    <Abstract>Current running process.</Abstract>
-    <DeclaredIn>smp.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>CurrentThread</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>a707db261f8d22e78be640e5b41dbb4bb</Anchor>
-    <Abstract>Current running thread.</Abstract>
-    <DeclaredIn>smp.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Data</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>a7c318f3349713a8030d610e4a263d10a</Anchor>
-    <Abstract>Architecture-specific data.</Abstract>
-    <DeclaredIn>smp.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Checksum</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>aca10be923fb0da174d8c3a29d8b5083b</Anchor>
-    <Abstract>Checksum. Used to verify the integrity of the data. Must be equal to CPU_DATA_CHECKSUM (0xC0FFEE).</Abstract>
-    <DeclaredIn>smp.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -27024,6 +27057,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__synchronize</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/df4/Kernel_2include_2types_8h.html</Path>
+    <Anchor>a02f82dc52841c56eb88f93df6156e770</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__sync</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/df4/Kernel_2include_2types_8h.html</Path>
+    <Anchor>a86105344cddf0ca9db6a3996854bad50</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>likely</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -27050,6 +27103,26 @@
     </TokenIdentifier>
     <Path>d0/df4/Kernel_2include_2types_8h.html</Path>
     <Anchor>a72459587db2f8ad7625b1814b20fff25</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int1</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/df4/Kernel_2include_2types_8h.html</Path>
+    <Anchor>aedcd837de58f1534fba6848ec222dfaa</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int3</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d0/df4/Kernel_2include_2types_8h.html</Path>
+    <Anchor>af90a6cfd43c9a4509afa907f57b7ec82</Anchor>
     <DeclaredIn>types.h</DeclaredIn>
   </Token>
   <Token>
@@ -41877,16 +41950,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ld_main</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d8/dd5/ld_8c.html</Path>
-    <Anchor>af6930f6a2a23e90beb133b0b7dadbf4d</Anchor>
-    <DeclaredIn>ld.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>RequestPages</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -41923,6 +41986,16 @@
     </TokenIdentifier>
     <Path>d8/dd5/ld_8c.html</Path>
     <Anchor>aaf0490395930cad575bbe2a6d894082b</Anchor>
+    <DeclaredIn>ld.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ld_main</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dd5/ld_8c.html</Path>
+    <Anchor>af0fd881e24373252b8f3aaf183dd5f11</Anchor>
     <DeclaredIn>ld.c</DeclaredIn>
   </Token>
   <Token>
@@ -41997,6 +42070,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>KCTL_IS_CRITICAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d8/dd5/ld_8c.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499</Anchor>
+    <DeclaredIn>ld.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>KCTL_NULL</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -42053,6 +42136,16 @@
     </TokenIdentifier>
     <Path>dd/d2e/sysbase_8h.html</Path>
     <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KCTL_IS_CRITICAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499</Anchor>
     <DeclaredIn>sysbase.h</DeclaredIn>
   </Token>
   <Token>
@@ -43675,6 +43768,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>KCTL_IS_CRITICAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d8/dd5/ld_8c.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499</Anchor>
+    <DeclaredIn>ld.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>KCTL_NULL</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -43731,6 +43834,16 @@
     </TokenIdentifier>
     <Path>dd/d2e/sysbase_8h.html</Path>
     <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KCTL_IS_CRITICAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499</Anchor>
     <DeclaredIn>sysbase.h</DeclaredIn>
   </Token>
   <Token>
@@ -44547,6 +44660,17 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
+    <DeclaredIn>atomic.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Atomic</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Atomic</Scope>
+    </TokenIdentifier>
+    <Path>da/df9/classAtomic.html</Path>
+    <Anchor>ab49030dcc5ac79dc59879380e56b55e0</Anchor>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -59031,6 +59155,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>StopAllCores</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>CrashHandler</Scope>
+    </TokenIdentifier>
+    <Path>d2/d57/namespaceCrashHandler.html</Path>
+    <Anchor>a416e995eadd47cf2558b2b7be472f305</Anchor>
+    <DeclaredIn>CrashHandler.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Handle</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -60729,7 +60864,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>a54f6a28810ad2b34edb171efc15c16d4</Anchor>
+    <Anchor>ac309bfcfb2b1fa63ad596b262a10c4e1</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -60771,7 +60906,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableFlags</Scope>
     </TokenIdentifier>
     <Path>dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html</Path>
-    <Anchor>a52840e697fe14cbf96a0fc77ea1e4250</Anchor>
+    <Anchor>a4bd9f454e1297e8c13c408ee15e80e06</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -70558,6 +70693,28 @@
     </TokenIdentifier>
     <Path>d3/df0/namespaceSysDbg.html</Path>
     <Anchor>a0ff67ce6582d4831cbbd8e44923e21e7</Anchor>
+    <DeclaredIn>Debugger.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LockedWrite</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SysDbg</Scope>
+    </TokenIdentifier>
+    <Path>d3/df0/namespaceSysDbg.html</Path>
+    <Anchor>ab36375bc85a685abafcc46ce520ced1a</Anchor>
+    <DeclaredIn>Debugger.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>LockedWriteLine</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SysDbg</Scope>
+    </TokenIdentifier>
+    <Path>d3/df0/namespaceSysDbg.html</Path>
+    <Anchor>a4a1a72b6071f8477f6194935ccec4d5d</Anchor>
     <DeclaredIn>Debugger.cpp</DeclaredIn>
   </Token>
   <Token>

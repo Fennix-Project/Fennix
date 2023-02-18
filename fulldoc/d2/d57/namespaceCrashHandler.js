@@ -17,6 +17,7 @@ var namespaceCrashHandler =
     [ "if", "d2/d57/namespaceCrashHandler.html#a17275878cd2de20a18390b72d3193707", null ],
     [ "if", "d2/d57/namespaceCrashHandler.html#a1e244bc3fc8b088079546ac9407a1479", null ],
     [ "printfWrapper", "d2/d57/namespaceCrashHandler.html#a92454254915b44c54a833c90da54cbf3", null ],
+    [ "StopAllCores", "d2/d57/namespaceCrashHandler.html#a416e995eadd47cf2558b2b7be472f305", null ],
     [ "switch", "d2/d57/namespaceCrashHandler.html#aa1e33f0867478ecc51e76157c8d37c8e", null ],
     [ "TraceFrames", "d2/d57/namespaceCrashHandler.html#a9b0789ad4a18fde013ebb6182c23dc37", null ],
     [ "TrimWhiteSpace", "d2/d57/namespaceCrashHandler.html#abb496daf7ae21ad13d839335c717641f", null ],

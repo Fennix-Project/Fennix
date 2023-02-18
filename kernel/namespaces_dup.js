@@ -51,6 +51,8 @@ var namespaces_dup =
     ] ],
     [ "SymbolResolver", "d9/d05/namespaceSymbolResolver.html", "d9/d05/namespaceSymbolResolver" ],
     [ "SysDbg", "d3/df0/namespaceSysDbg.html", [
+      [ "LockedWrite", "d3/df0/namespaceSysDbg.html#ab36375bc85a685abafcc46ce520ced1a", null ],
+      [ "LockedWriteLine", "d3/df0/namespaceSysDbg.html#a4a1a72b6071f8477f6194935ccec4d5d", null ],
       [ "Write", "d3/df0/namespaceSysDbg.html#a93a49985c4afceb1892614500540d5ca", null ],
       [ "WriteLine", "d3/df0/namespaceSysDbg.html#a0ff67ce6582d4831cbbd8e44923e21e7", null ]
     ] ],

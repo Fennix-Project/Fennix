@@ -1,18 +1,18 @@
 var searchData=
 [
-  ['ld_2ec_7166',['ld.c',['../d8/dd5/ld_8c.html',1,'']]],
-  ['ld_2eh_7167',['ld.h',['../d9/d37/ld_8h.html',1,'']]],
-  ['ldstart_2ec_7168',['ldstart.c',['../d8/d34/ldstart_8c.html',1,'']]],
-  ['lib_2ec_7169',['lib.c',['../de/dd7/lib_8c.html',1,'']]],
-  ['liballoc_5f1_5f1_2ec_7170',['liballoc_1_1.c',['../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html',1,'(Global Namespace)'],['../da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html',1,'(Global Namespace)'],['../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html',1,'(Global Namespace)']]],
-  ['liballoc_5f1_5f1_2eh_7171',['liballoc_1_1.h',['../d8/d54/Kernel_2Library_2liballoc__1__1_8h.html',1,'(Global Namespace)'],['../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html',1,'(Global Namespace)'],['../d6/d4e/Userspace_2libc_2src_2mem_2liballoc__1__1_8h.html',1,'(Global Namespace)']]],
-  ['liballocimpl_2ecpp_7172',['liballocimpl.cpp',['../d2/dc5/liballocimpl_8cpp.html',1,'']]],
-  ['liballocimplementation_2ecpp_7173',['LibAllocImplementation.cpp',['../d4/d34/LibAllocImplementation_8cpp.html',1,'']]],
-  ['libinit_2ec_7174',['libinit.c',['../d8/d78/libinit_8c.html',1,'']]],
-  ['limine_2ec_7175',['Limine.c',['../d3/d1d/Limine_8c.html',1,'']]],
-  ['limits_2eh_7176',['limits.h',['../d9/d86/limits_8h.html',1,'']]],
-  ['linux_2ecpp_7177',['Linux.cpp',['../db/d9e/Linux_8cpp.html',1,'']]],
-  ['lock_2ecpp_7178',['Lock.cpp',['../d4/d2e/Userspace_2libc_2src_2Lock_8cpp.html',1,'(Global Namespace)'],['../d5/d26/Kernel_2Core_2Lock_8cpp.html',1,'(Global Namespace)']]],
-  ['lock_2ehpp_7179',['lock.hpp',['../d8/de9/Userspace_2libc_2src_2lock_8hpp.html',1,'(Global Namespace)'],['../d3/d01/Kernel_2include_2lock_8hpp.html',1,'(Global Namespace)']]],
-  ['lynx_2ec_7180',['Lynx.c',['../db/da1/Lynx_8c.html',1,'']]]
+  ['ld_2ec_7179',['ld.c',['../d8/dd5/ld_8c.html',1,'']]],
+  ['ld_2eh_7180',['ld.h',['../d9/d37/ld_8h.html',1,'']]],
+  ['ldstart_2ec_7181',['ldstart.c',['../d8/d34/ldstart_8c.html',1,'']]],
+  ['lib_2ec_7182',['lib.c',['../de/dd7/lib_8c.html',1,'']]],
+  ['liballoc_5f1_5f1_2ec_7183',['liballoc_1_1.c',['../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html',1,'(Global Namespace)'],['../da/d71/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8c.html',1,'(Global Namespace)'],['../dc/db6/Userspace_2libc_2src_2mem_2liballoc__1__1_8c.html',1,'(Global Namespace)']]],
+  ['liballoc_5f1_5f1_2eh_7184',['liballoc_1_1.h',['../d8/d54/Kernel_2Library_2liballoc__1__1_8h.html',1,'(Global Namespace)'],['../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html',1,'(Global Namespace)'],['../d6/d4e/Userspace_2libc_2src_2mem_2liballoc__1__1_8h.html',1,'(Global Namespace)']]],
+  ['liballocimpl_2ecpp_7185',['liballocimpl.cpp',['../d2/dc5/liballocimpl_8cpp.html',1,'']]],
+  ['liballocimplementation_2ecpp_7186',['LibAllocImplementation.cpp',['../d4/d34/LibAllocImplementation_8cpp.html',1,'']]],
+  ['libinit_2ec_7187',['libinit.c',['../d8/d78/libinit_8c.html',1,'']]],
+  ['limine_2ec_7188',['Limine.c',['../d3/d1d/Limine_8c.html',1,'']]],
+  ['limits_2eh_7189',['limits.h',['../d9/d86/limits_8h.html',1,'']]],
+  ['linux_2ecpp_7190',['Linux.cpp',['../db/d9e/Linux_8cpp.html',1,'']]],
+  ['lock_2ecpp_7191',['Lock.cpp',['../d4/d2e/Userspace_2libc_2src_2Lock_8cpp.html',1,'(Global Namespace)'],['../d5/d26/Kernel_2Core_2Lock_8cpp.html',1,'(Global Namespace)']]],
+  ['lock_2ehpp_7192',['lock.hpp',['../d8/de9/Userspace_2libc_2src_2lock_8hpp.html',1,'(Global Namespace)'],['../d3/d01/Kernel_2include_2lock_8hpp.html',1,'(Global Namespace)']]],
+  ['lynx_2ec_7193',['Lynx.c',['../db/da1/Lynx_8c.html',1,'']]]
 ];

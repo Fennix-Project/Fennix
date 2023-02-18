@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['xalloc_6817',['Xalloc',['../dc/d0a/namespaceXalloc.html',1,'']]]
+  ['xalloc_6841',['Xalloc',['../dc/d0a/namespaceXalloc.html',1,'']]]
 ];

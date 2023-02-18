@@ -97,6 +97,8 @@ $(document).ready(function(){initNavTree('da/df9/classAtomic.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:ab49030dcc5ac79dc59879380e56b55e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df9/classAtomic.html#ab49030dcc5ac79dc59879380e56b55e0">Atomic</a> ()</td></tr>
+<tr class="separator:ab49030dcc5ac79dc59879380e56b55e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad298e5a1cda3f3148b02aacbe4ed651a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df9/classAtomic.html#ad298e5a1cda3f3148b02aacbe4ed651a">Atomic</a> (T Init)</td></tr>
 <tr class="separator:ad298e5a1cda3f3148b02aacbe4ed651a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9177b818f69f5097e45ed5179300202c"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/df9/classAtomic.html#a9177b818f69f5097e45ed5179300202c">Load</a> (<a class="el" href="../../d5/d6c/atomic_8hpp.html#a5f4a1956f65357d9ccc55187dc666b29">MemoryOrder</a> Order=<a class="el" href="../../d5/d6c/atomic_8hpp.html#a5f4a1956f65357d9ccc55187dc666b29a7e6e9054b7ad33e398c4044358de7604">MemoryOrder::SeqCst</a>)</td></tr>
@@ -168,8 +170,38 @@ class Atomic&lt; T &gt;</h3>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00065">65</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab49030dcc5ac79dc59879380e56b55e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab49030dcc5ac79dc59879380e56b55e0">&#9670;&nbsp;</a></span>Atomic() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/df9/classAtomic.html">Atomic</a>&lt; T &gt;::<a class="el" href="../../da/df9/classAtomic.html">Atomic</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00070">70</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;: m_Value(0) {}</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a id="ad298e5a1cda3f3148b02aacbe4ed651a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad298e5a1cda3f3148b02aacbe4ed651a">&#9670;&nbsp;</a></span>Atomic()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad298e5a1cda3f3148b02aacbe4ed651a">&#9670;&nbsp;</a></span>Atomic() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,8 +226,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00070">70</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;: m_Value(<a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a621904c3d40203fc46b2a4aaa77774cc">Init</a>) {}</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00071">71</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;: m_Value(<a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a621904c3d40203fc46b2a4aaa77774cc">Init</a>) {}</div>
 <div class="ttc" id="anamespaceGlobalDescriptorTable_html_a621904c3d40203fc46b2a4aaa77774cc"><div class="ttname"><a href="../../d1/d69/namespaceGlobalDescriptorTable.html#a621904c3d40203fc46b2a4aaa77774cc">GlobalDescriptorTable::Init</a></div><div class="ttdeci">void Init(int Core)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00093">GlobalDescriptorTable.cpp:93</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -284,10 +316,10 @@ template&lt;typename T &gt; </div>
 <dd>
 false If the exchange was not successful </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00115">115</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    {</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a0980fcefe1f0038b3c6d264e6d1f7fef">builtin_atomic_n</a>(compare_exchange)(&amp;m_Value, &amp;Expected, Desired, <span class="keyword">true</span>, Order, Order);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00116">116</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a0980fcefe1f0038b3c6d264e6d1f7fef">builtin_atomic_n</a>(compare_exchange)(&amp;m_Value, &amp;Expected, Desired, <span class="keyword">true</span>, Order, Order);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
 <div class="ttc" id="aatomic_8hpp_html_a0980fcefe1f0038b3c6d264e6d1f7fef"><div class="ttname"><a href="../../d5/d6c/atomic_8hpp.html#a0980fcefe1f0038b3c6d264e6d1f7fef">builtin_atomic_n</a></div><div class="ttdeci">#define builtin_atomic_n(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00005">atomic.hpp:5</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00005">builtin_atomic_n</a>.</p>
@@ -340,10 +372,10 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>T The old value of the atomic variable </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00101">101</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a0980fcefe1f0038b3c6d264e6d1f7fef">builtin_atomic_n</a>(exchange)(&amp;m_Value, v, Order);</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00102">102</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a0980fcefe1f0038b3c6d264e6d1f7fef">builtin_atomic_n</a>(exchange)(&amp;m_Value, v, Order);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00005">builtin_atomic_n</a>.</p>
 
@@ -395,15 +427,15 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>T The old value of the atomic variable </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00127">127</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    {</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_add)(&amp;m_Value, v, Order);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00128">128</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_add)(&amp;m_Value, v, Order);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
 <div class="ttc" id="aatomic_8hpp_html_a5378d8b9f29d597ad63e1415713ac681"><div class="ttname"><a href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a></div><div class="ttdeci">#define builtin_atomic(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00006">atomic.hpp:6</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00006">builtin_atomic</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00194">Atomic&lt; T &gt;::operator++()</a>, and <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00198">Atomic&lt; T &gt;::operator+=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00195">Atomic&lt; T &gt;::operator++()</a>, and <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00199">Atomic&lt; T &gt;::operator+=()</a>.</p>
 
 </div>
 </div>
@@ -453,14 +485,14 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>T The old value of the atomic variable </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00151">151</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    {</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_and)(&amp;m_Value, v, Order);</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00152">152</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_and)(&amp;m_Value, v, Order);</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00006">builtin_atomic</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00200">Atomic&lt; T &gt;::operator&amp;=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00201">Atomic&lt; T &gt;::operator&amp;=()</a>.</p>
 
 </div>
 </div>
@@ -510,14 +542,14 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>T The old value of the atomic variable </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00187">187</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    {</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_nand)(&amp;m_Value, v, Order);</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00188">188</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_nand)(&amp;m_Value, v, Order);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00006">builtin_atomic</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00203">Atomic&lt; T &gt;::operator~()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00204">Atomic&lt; T &gt;::operator~()</a>.</p>
 
 </div>
 </div>
@@ -567,14 +599,14 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>T The old value of the atomic variable </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00163">163</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    {</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_or)(&amp;m_Value, v, Order);</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00164">164</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_or)(&amp;m_Value, v, Order);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00006">builtin_atomic</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00201">Atomic&lt; T &gt;::operator|=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00202">Atomic&lt; T &gt;::operator|=()</a>.</p>
 
 </div>
 </div>
@@ -624,14 +656,14 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>T The old value of the atomic variable </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00139">139</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    {</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_sub)(&amp;m_Value, v, Order);</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00140">140</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_sub)(&amp;m_Value, v, Order);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00006">builtin_atomic</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00195">Atomic&lt; T &gt;::operator--()</a>, and <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00199">Atomic&lt; T &gt;::operator-=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00196">Atomic&lt; T &gt;::operator--()</a>, and <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00200">Atomic&lt; T &gt;::operator-=()</a>.</p>
 
 </div>
 </div>
@@ -681,14 +713,14 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>T The old value of the atomic variable </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00175">175</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    {</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_xor)(&amp;m_Value, v, Order);</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00176">176</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a5378d8b9f29d597ad63e1415713ac681">builtin_atomic</a>(fetch_xor)(&amp;m_Value, v, Order);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00006">builtin_atomic</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00202">Atomic&lt; T &gt;::operator^=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00203">Atomic&lt; T &gt;::operator^=()</a>.</p>
 
 </div>
 </div>
@@ -727,14 +759,14 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>T The value of the atomic variable </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00078">78</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a0980fcefe1f0038b3c6d264e6d1f7fef">builtin_atomic_n</a>(load)(&amp;m_Value, Order);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00079">79</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a0980fcefe1f0038b3c6d264e6d1f7fef">builtin_atomic_n</a>(load)(&amp;m_Value, Order);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00005">builtin_atomic_n</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/da1/task_8hpp_source.html#l00265">Tasking::Task::GetSchedulerTicks()</a>, <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00192">Atomic&lt; T &gt;::operator bool()</a>, and <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00193">Atomic&lt; T &gt;::operator-&gt;()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00201">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00202">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00265">Tasking::Task::GetSchedulerTicks()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00744">CrashHandler::Handle()</a>, <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00193">Atomic&lt; T &gt;::operator bool()</a>, and <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00194">Atomic&lt; T &gt;::operator-&gt;()</a>.</p>
 
 </div>
 </div>
@@ -763,11 +795,11 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00192">192</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a9177b818f69f5097e45ed5179300202c">Load</a>() != 0; }</div>
-<div class="ttc" id="aclassAtomic_html_a9177b818f69f5097e45ed5179300202c"><div class="ttname"><a href="../../da/df9/classAtomic.html#a9177b818f69f5097e45ed5179300202c">Atomic::Load</a></div><div class="ttdeci">T Load(MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Load the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00078">atomic.hpp:78</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00193">193</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a9177b818f69f5097e45ed5179300202c">Load</a>() != 0; }</div>
+<div class="ttc" id="aclassAtomic_html_a9177b818f69f5097e45ed5179300202c"><div class="ttname"><a href="../../da/df9/classAtomic.html#a9177b818f69f5097e45ed5179300202c">Atomic::Load</a></div><div class="ttdeci">T Load(MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Load the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00079">atomic.hpp:79</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00078">Atomic&lt; T &gt;::Load()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00079">Atomic&lt; T &gt;::Load()</a>.</p>
 
 </div>
 </div>
@@ -797,11 +829,11 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00200">200</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a7f7138e36f5bb250fca899fc6591dd2c">FetchAnd</a>(v) &amp; v; }</div>
-<div class="ttc" id="aclassAtomic_html_a7f7138e36f5bb250fca899fc6591dd2c"><div class="ttname"><a href="../../da/df9/classAtomic.html#a7f7138e36f5bb250fca899fc6591dd2c">Atomic::FetchAnd</a></div><div class="ttdeci">T FetchAnd(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and and the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00151">atomic.hpp:151</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00201">201</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a7f7138e36f5bb250fca899fc6591dd2c">FetchAnd</a>(v) &amp; v; }</div>
+<div class="ttc" id="aclassAtomic_html_a7f7138e36f5bb250fca899fc6591dd2c"><div class="ttname"><a href="../../da/df9/classAtomic.html#a7f7138e36f5bb250fca899fc6591dd2c">Atomic::FetchAnd</a></div><div class="ttdeci">T FetchAnd(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and and the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00152">atomic.hpp:152</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00151">Atomic&lt; T &gt;::FetchAnd()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00152">Atomic&lt; T &gt;::FetchAnd()</a>.</p>
 
 </div>
 </div>
@@ -830,11 +862,11 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00194">194</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#ad03d6ec6e2084b2d9cb847f63a6b0319">FetchAdd</a>(1) + 1; }</div>
-<div class="ttc" id="aclassAtomic_html_ad03d6ec6e2084b2d9cb847f63a6b0319"><div class="ttname"><a href="../../da/df9/classAtomic.html#ad03d6ec6e2084b2d9cb847f63a6b0319">Atomic::FetchAdd</a></div><div class="ttdeci">T FetchAdd(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and add the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00127">atomic.hpp:127</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00195">195</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#ad03d6ec6e2084b2d9cb847f63a6b0319">FetchAdd</a>(1) + 1; }</div>
+<div class="ttc" id="aclassAtomic_html_ad03d6ec6e2084b2d9cb847f63a6b0319"><div class="ttname"><a href="../../da/df9/classAtomic.html#ad03d6ec6e2084b2d9cb847f63a6b0319">Atomic::FetchAdd</a></div><div class="ttdeci">T FetchAdd(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and add the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00128">atomic.hpp:128</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00127">Atomic&lt; T &gt;::FetchAdd()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00128">Atomic&lt; T &gt;::FetchAdd()</a>.</p>
 
 </div>
 </div>
@@ -864,10 +896,10 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00196">196</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#ad03d6ec6e2084b2d9cb847f63a6b0319">FetchAdd</a>(1); }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00197">197</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#ad03d6ec6e2084b2d9cb847f63a6b0319">FetchAdd</a>(1); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00127">Atomic&lt; T &gt;::FetchAdd()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00128">Atomic&lt; T &gt;::FetchAdd()</a>.</p>
 
 </div>
 </div>
@@ -897,10 +929,10 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00198">198</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#ad03d6ec6e2084b2d9cb847f63a6b0319">FetchAdd</a>(v) + v; }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00199">199</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#ad03d6ec6e2084b2d9cb847f63a6b0319">FetchAdd</a>(v) + v; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00127">Atomic&lt; T &gt;::FetchAdd()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00128">Atomic&lt; T &gt;::FetchAdd()</a>.</p>
 
 </div>
 </div>
@@ -929,11 +961,11 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00195">195</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a77573126e60f5dcb5df2d204ddd6d951">FetchSub</a>(1) - 1; }</div>
-<div class="ttc" id="aclassAtomic_html_a77573126e60f5dcb5df2d204ddd6d951"><div class="ttname"><a href="../../da/df9/classAtomic.html#a77573126e60f5dcb5df2d204ddd6d951">Atomic::FetchSub</a></div><div class="ttdeci">T FetchSub(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and subtract the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00139">atomic.hpp:139</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00196">196</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a77573126e60f5dcb5df2d204ddd6d951">FetchSub</a>(1) - 1; }</div>
+<div class="ttc" id="aclassAtomic_html_a77573126e60f5dcb5df2d204ddd6d951"><div class="ttname"><a href="../../da/df9/classAtomic.html#a77573126e60f5dcb5df2d204ddd6d951">Atomic::FetchSub</a></div><div class="ttdeci">T FetchSub(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and subtract the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00140">atomic.hpp:140</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00139">Atomic&lt; T &gt;::FetchSub()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00140">Atomic&lt; T &gt;::FetchSub()</a>.</p>
 
 </div>
 </div>
@@ -963,10 +995,10 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00197">197</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a77573126e60f5dcb5df2d204ddd6d951">FetchSub</a>(1); }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00198">198</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a77573126e60f5dcb5df2d204ddd6d951">FetchSub</a>(1); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00139">Atomic&lt; T &gt;::FetchSub()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00140">Atomic&lt; T &gt;::FetchSub()</a>.</p>
 
 </div>
 </div>
@@ -996,10 +1028,10 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00199">199</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a77573126e60f5dcb5df2d204ddd6d951">FetchSub</a>(v) - v; }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00200">200</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a77573126e60f5dcb5df2d204ddd6d951">FetchSub</a>(v) - v; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00139">Atomic&lt; T &gt;::FetchSub()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00140">Atomic&lt; T &gt;::FetchSub()</a>.</p>
 
 </div>
 </div>
@@ -1028,10 +1060,10 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00193">193</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a9177b818f69f5097e45ed5179300202c">Load</a>(); }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00194">194</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a9177b818f69f5097e45ed5179300202c">Load</a>(); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00078">Atomic&lt; T &gt;::Load()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00079">Atomic&lt; T &gt;::Load()</a>.</p>
 
 </div>
 </div>
@@ -1061,14 +1093,14 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00204">204</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    {</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a62e156ff66edb7df65e4d571d085a194">Store</a>(v);</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keywordflow">return</span> v;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    }</div>
-<div class="ttc" id="aclassAtomic_html_a62e156ff66edb7df65e4d571d085a194"><div class="ttname"><a href="../../da/df9/classAtomic.html#a62e156ff66edb7df65e4d571d085a194">Atomic::Store</a></div><div class="ttdeci">void Store(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Store a value to the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00089">atomic.hpp:89</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00205">205</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a62e156ff66edb7df65e4d571d085a194">Store</a>(v);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    }</div>
+<div class="ttc" id="aclassAtomic_html_a62e156ff66edb7df65e4d571d085a194"><div class="ttname"><a href="../../da/df9/classAtomic.html#a62e156ff66edb7df65e4d571d085a194">Atomic::Store</a></div><div class="ttdeci">void Store(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Store a value to the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00090">atomic.hpp:90</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00089">Atomic&lt; T &gt;::Store()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00090">Atomic&lt; T &gt;::Store()</a>.</p>
 
 </div>
 </div>
@@ -1098,11 +1130,11 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00202">202</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a1364030271cf7658d133ccc928a1e1c1">FetchXor</a>(v) ^ v; }</div>
-<div class="ttc" id="aclassAtomic_html_a1364030271cf7658d133ccc928a1e1c1"><div class="ttname"><a href="../../da/df9/classAtomic.html#a1364030271cf7658d133ccc928a1e1c1">Atomic::FetchXor</a></div><div class="ttdeci">T FetchXor(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and xor the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00175">atomic.hpp:175</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00203">203</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a1364030271cf7658d133ccc928a1e1c1">FetchXor</a>(v) ^ v; }</div>
+<div class="ttc" id="aclassAtomic_html_a1364030271cf7658d133ccc928a1e1c1"><div class="ttname"><a href="../../da/df9/classAtomic.html#a1364030271cf7658d133ccc928a1e1c1">Atomic::FetchXor</a></div><div class="ttdeci">T FetchXor(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and xor the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00176">atomic.hpp:176</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00175">Atomic&lt; T &gt;::FetchXor()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00176">Atomic&lt; T &gt;::FetchXor()</a>.</p>
 
 </div>
 </div>
@@ -1132,11 +1164,11 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00201">201</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a981b146dc09a29c0c50aebc7521a2892">FetchOr</a>(v) | v; }</div>
-<div class="ttc" id="aclassAtomic_html_a981b146dc09a29c0c50aebc7521a2892"><div class="ttname"><a href="../../da/df9/classAtomic.html#a981b146dc09a29c0c50aebc7521a2892">Atomic::FetchOr</a></div><div class="ttdeci">T FetchOr(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and or the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00163">atomic.hpp:163</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00202">202</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#a981b146dc09a29c0c50aebc7521a2892">FetchOr</a>(v) | v; }</div>
+<div class="ttc" id="aclassAtomic_html_a981b146dc09a29c0c50aebc7521a2892"><div class="ttname"><a href="../../da/df9/classAtomic.html#a981b146dc09a29c0c50aebc7521a2892">Atomic::FetchOr</a></div><div class="ttdeci">T FetchOr(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and or the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00164">atomic.hpp:164</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00163">Atomic&lt; T &gt;::FetchOr()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00164">Atomic&lt; T &gt;::FetchOr()</a>.</p>
 
 </div>
 </div>
@@ -1165,11 +1197,11 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00203">203</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#ae58778824de72c74e6187b52fbb9acd5">FetchNand</a>(-1); }</div>
-<div class="ttc" id="aclassAtomic_html_ae58778824de72c74e6187b52fbb9acd5"><div class="ttname"><a href="../../da/df9/classAtomic.html#ae58778824de72c74e6187b52fbb9acd5">Atomic::FetchNand</a></div><div class="ttdeci">T FetchNand(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and nand the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00187">atomic.hpp:187</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00204">204</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/df9/classAtomic.html#ae58778824de72c74e6187b52fbb9acd5">FetchNand</a>(-1); }</div>
+<div class="ttc" id="aclassAtomic_html_ae58778824de72c74e6187b52fbb9acd5"><div class="ttname"><a href="../../da/df9/classAtomic.html#ae58778824de72c74e6187b52fbb9acd5">Atomic::FetchNand</a></div><div class="ttdeci">T FetchNand(T v, MemoryOrder Order=MemoryOrder::SeqCst)</div><div class="ttdoc">Fetch and nand the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00188">atomic.hpp:188</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00187">Atomic&lt; T &gt;::FetchNand()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00188">Atomic&lt; T &gt;::FetchNand()</a>.</p>
 
 </div>
 </div>
@@ -1218,14 +1250,14 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00089">89</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a0980fcefe1f0038b3c6d264e6d1f7fef">builtin_atomic_n</a>(store)(&amp;m_Value, v, Order);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00090">90</a> of file <a class="el" href="../../d5/d6c/atomic_8hpp_source.html">atomic.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/d6c/atomic_8hpp.html#a0980fcefe1f0038b3c6d264e6d1f7fef">builtin_atomic_n</a>(store)(&amp;m_Value, v, Order);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00005">builtin_atomic_n</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00204">Atomic&lt; T &gt;::operator=()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00205">Atomic&lt; T &gt;::operator=()</a>.</p>
 
 </div>
 </div>

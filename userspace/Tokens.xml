@@ -1672,16 +1672,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>ld_main</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d8/dd5/ld_8c.html</Path>
-    <Anchor>af6930f6a2a23e90beb133b0b7dadbf4d</Anchor>
-    <DeclaredIn>ld.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>RequestPages</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -1718,6 +1708,16 @@
     </TokenIdentifier>
     <Path>d8/dd5/ld_8c.html</Path>
     <Anchor>aaf0490395930cad575bbe2a6d894082b</Anchor>
+    <DeclaredIn>ld.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ld_main</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/dd5/ld_8c.html</Path>
+    <Anchor>af0fd881e24373252b8f3aaf183dd5f11</Anchor>
     <DeclaredIn>ld.c</DeclaredIn>
   </Token>
   <Token>
@@ -1792,6 +1792,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>KCTL_IS_CRITICAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d8/dd5/ld_8c.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499</Anchor>
+    <DeclaredIn>ld.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>KCTL_NULL</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -1848,6 +1858,16 @@
     </TokenIdentifier>
     <Path>dd/d2e/sysbase_8h.html</Path>
     <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KCTL_IS_CRITICAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499</Anchor>
     <DeclaredIn>sysbase.h</DeclaredIn>
   </Token>
   <Token>
@@ -7288,6 +7308,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>KCTL_IS_CRITICAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d8/dd5/ld_8c.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499</Anchor>
+    <DeclaredIn>ld.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>KCTL_NULL</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -7344,6 +7374,16 @@
     </TokenIdentifier>
     <Path>dd/d2e/sysbase_8h.html</Path>
     <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77</Anchor>
+    <DeclaredIn>sysbase.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KCTL_IS_CRITICAL</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>dd/d2e/sysbase_8h.html</Path>
+    <Anchor>ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499</Anchor>
     <DeclaredIn>sysbase.h</DeclaredIn>
   </Token>
   <Token>

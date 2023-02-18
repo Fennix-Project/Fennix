@@ -375,12 +375,27 @@ $(document).ready(function(){initNavTree('d9/d49/types_8h_source.html','../../')
 <div class="line"><a name="l00290"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#ab3467bd0148d5803fcfc9a7da036d617">  290</a></span>&#160;<span class="preprocessor">#define __no_address_safety_analysis __attribute__((no_address_safety_analysis))</span></div>
 <div class="line"><a name="l00291"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#a43438b17f4397f48fc81806def618b0b">  291</a></span>&#160;<span class="preprocessor">#define __no_sanitize_thread __attribute__((no_sanitize_thread))</span></div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160; </div>
-<div class="line"><a name="l00293"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#a217a0bd562b98ae8c2ffce44935351e1">  293</a></span>&#160;<span class="preprocessor">#define likely(x) __builtin_expect(!!(x), 1)</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">  294</a></span>&#160;<span class="preprocessor">#define unlikely(x) __builtin_expect(!!(x), 0)</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#a02f82dc52841c56eb88f93df6156e770">  293</a></span>&#160;<span class="preprocessor">#define __synchronize __sync_synchronize()</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#a86105344cddf0ca9db6a3996854bad50">  294</a></span>&#160;<span class="preprocessor">#define __sync __synchronize</span></div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160; </div>
-<div class="line"><a name="l00296"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">  296</a></span>&#160;<span class="preprocessor">#define SafeFunction __no_stack_protector __no_sanitize_address __no_sanitize_undefined __no_address_safety_analysis __no_sanitize_thread</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160; </div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_TYPES_H__</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#a217a0bd562b98ae8c2ffce44935351e1">  296</a></span>&#160;<span class="preprocessor">#define likely(x) __builtin_expect(!!(x), 1)</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#ac6c45889010c1bd68631771b64f18101">  297</a></span>&#160;<span class="preprocessor">#define unlikely(x) __builtin_expect(!!(x), 0)</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160; </div>
+<div class="line"><a name="l00299"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">  299</a></span>&#160;<span class="preprocessor">#define SafeFunction __no_stack_protector __no_sanitize_address __no_sanitize_undefined __no_address_safety_analysis __no_sanitize_thread</span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160; </div>
+<div class="line"><a name="l00301"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#aedcd837de58f1534fba6848ec222dfaa">  301</a></span>&#160;<span class="preprocessor">#define int1                        \</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor">    __asm__ __volatile__(&quot;int $0x1&quot;</span> \</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                         :          \</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                         :          \</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                         : &quot;memory&quot;)</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160; </div>
+<div class="line"><a name="l00307"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#af90a6cfd43c9a4509afa907f57b7ec82">  307</a></span>&#160;<span class="preprocessor">#define int3                        \</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="preprocessor">    __asm__ __volatile__(&quot;int $0x3&quot;</span> \</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                         :          \</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                         :          \</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                         : &quot;memory&quot;)</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160; </div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_TYPES_H__</span></div>
 <div class="ttc" id="atypes_8h_html_a0a8582351ac627ee8bde2973c825e47f"><div class="ttname"><a href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></div><div class="ttdeci">__UINT32_TYPE__ uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00113">types.h:113</a></div></div>
 <div class="ttc" id="atypes_8h_html_a0bd5dec00e345e69027427f8621d6a6c"><div class="ttname"><a href="../../d9/d49/types_8h.html#a0bd5dec00e345e69027427f8621d6a6c">intptr_t</a></div><div class="ttdeci">__INTPTR_TYPE__ intptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00136">types.h:136</a></div></div>
 <div class="ttc" id="atypes_8h_html_a0c18914b3041c2f583aba76f418399c2"><div class="ttname"><a href="../../d9/d49/types_8h.html#a0c18914b3041c2f583aba76f418399c2">int32_t</a></div><div class="ttdeci">__INT32_TYPE__ int32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00108">types.h:108</a></div></div>

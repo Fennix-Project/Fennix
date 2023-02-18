@@ -1,14 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"d5/d8f/smbios_8hpp.html#a3905de8812eb0d6ce7fd1b7054ac5056":[6,0,0,1,13,16],
-"d5/d8f/smbios_8hpp.html#a5c6cb485d017991de7d7683c2e19bca7":[6,0,0,1,13,17],
-"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863ae":[6,0,0,1,13,10],
-"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aea063d8ef3c39e80ec80f37a75903da4de":[6,0,0,1,13,10,15],
-"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aea07e60913aa6d0b4b2408c3a74a6f6940":[6,0,0,1,13,10,8],
-"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aea0bd38b683038f96b499b0b3627e0a170":[6,0,0,1,13,10,37],
-"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aea20166332954f266aad44abb36d22533e":[6,0,0,1,13,10,9],
-"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aea29292fc49299aed72bb0da5e08a031bf":[6,0,0,1,13,10,32],
-"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aea2929cccec92bbfc1f7284ac11f80db71":[6,0,0,1,13,10,6],
 "d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aea2c0f4df5dad12874cdf4ecb4a0119605":[6,0,0,1,13,10,31],
 "d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aea2c831e6715a37617fa35912ae79d98a9":[6,0,0,1,13,10,7],
 "d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aea2f2cf88e8bf952afca3c73cd3ff59873":[6,0,0,1,13,10,30],
@@ -249,5 +240,14 @@ var NAVTREEINDEX15 =
 "d5/dba/multiboot2_8h.html#a7e0e5bc5d225f414b9b3adcc0f65877d":[6,0,0,5,0,0,0,6,4],
 "d5/dba/multiboot2_8h.html#a7f583196f43e30e93323f5e44554d726":[6,0,0,5,0,0,0,59],
 "d5/dba/multiboot2_8h.html#a7fddee92e60ff58e159c6bf2c40bf29b":[6,0,0,5,0,0,0,0,3],
-"d5/dba/multiboot2_8h.html#a7fe141351ebcde0acbd6118ad0ea1a21":[6,0,0,5,0,0,0,64]
+"d5/dba/multiboot2_8h.html#a7fe141351ebcde0acbd6118ad0ea1a21":[6,0,0,5,0,0,0,64],
+"d5/dba/multiboot2_8h.html#a807febf95505382acf44b0fd7e783ab8":[6,0,0,5,0,0,0,22,3],
+"d5/dba/multiboot2_8h.html#a80f58414b4caf448202e9cf5fa6a471e":[6,0,0,5,0,0,0,15,4],
+"d5/dba/multiboot2_8h.html#a828aaa2c68b86ebc898fb44c4cceb5c2":[6,0,0,5,0,0,0,25,1],
+"d5/dba/multiboot2_8h.html#a82d2ddfc7184652095c8359a60dc1b31":[6,0,0,5,0,0,0,20,0],
+"d5/dba/multiboot2_8h.html#a82f971e8ab5e49e81468a9b94a5418e0":[6,0,0,5,0,0,0,4,0],
+"d5/dba/multiboot2_8h.html#a834adfc193a986e197fe5f562fd702ef":[6,0,0,5,0,0,0,27,2],
+"d5/dba/multiboot2_8h.html#a83e0d3f690f3dfc07547112af1f3cd06":[6,0,0,5,0,0,0,33,1],
+"d5/dba/multiboot2_8h.html#a84893ea1f13a57e8990e8d04d0f7b58d":[6,0,0,5,0,0,0,38],
+"d5/dba/multiboot2_8h.html#a857dea402be3f6c6f88c2fea32c936d6":[6,0,0,5,0,0,0,51]
 };
