@@ -133,6 +133,7 @@
 			"LFLR",
 			"lgdt",
 			"liballoc",
+			"lidt",
 			"limine",
 			"LMSLE",
 			"LOPROC",
