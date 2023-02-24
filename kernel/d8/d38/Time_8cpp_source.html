@@ -133,36 +133,35 @@ $(document).ready(function(){initNavTree('d8/d38/Time_8cpp_source.html','../../'
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../d3/d56/namespaceTime.html#a1231a50a2b4e4577567eb0ca2aa2f2e5">   43</a></span>&#160;    <a class="code" href="../../d3/d56/namespaceTime.html#d1/d28/structTime_1_1Clock">Clock</a> <a class="code" href="../../d3/d56/namespaceTime.html#a1231a50a2b4e4577567eb0ca2aa2f2e5">ConvertFromUnix</a>(<span class="keywordtype">int</span> Timestamp)</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="../../d3/d56/namespaceTime.html#d1/d28/structTime_1_1Clock">Clock</a> result;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">if</span> (Timestamp == 0)</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">int</span> SecondsSinceYearStart = Timestamp % (60 * 60 * 24 * 365);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#a43e62109546c452c8219aed07c37ad89">Year</a> = Timestamp / (60 * 60 * 24 * 365);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#ae98eab507b5acd5b23109dee059afd63">Month</a> = SecondsSinceYearStart / (60 * 60 * 24 * 30);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#aacce8a0027d66ae66310c3873117952e">Day</a> = SecondsSinceYearStart / (60 * 60 * 24);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#ab169047aaabaabceaf6a8034ea34e7b3">Hour</a> = SecondsSinceYearStart / (60 * 60);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#a0ad218ccb8783c2b69bb4dfbf55b091d">Minute</a> = SecondsSinceYearStart / 60;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#a7a638d4358ab458c4da00f4bc150a5a3">Second</a> = SecondsSinceYearStart;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordtype">int</span> DaysInYear;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">if</span> (result.<a class="code" href="../../d3/d56/namespaceTime.html#a43e62109546c452c8219aed07c37ad89">Year</a> % 4 != 0)</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            DaysInYear = 365;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (result.<a class="code" href="../../d3/d56/namespaceTime.html#a43e62109546c452c8219aed07c37ad89">Year</a> % 100 != 0)</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            DaysInYear = 366;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (result.<a class="code" href="../../d3/d56/namespaceTime.html#a43e62109546c452c8219aed07c37ad89">Year</a> % 400 == 0)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            DaysInYear = 366;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            DaysInYear = 365;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Days in year: %d&quot;</span>, DaysInYear);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">return</span> result;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;}</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../d3/d56/namespaceTime.html#d1/d28/structTime_1_1Clock">Clock</a> result;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">if</span> (Timestamp == 0)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordtype">int</span> SecondsSinceYearStart = Timestamp % (60 * 60 * 24 * 365);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#a43e62109546c452c8219aed07c37ad89">Year</a> = Timestamp / (60 * 60 * 24 * 365);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#ae98eab507b5acd5b23109dee059afd63">Month</a> = SecondsSinceYearStart / (60 * 60 * 24 * 30);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#aacce8a0027d66ae66310c3873117952e">Day</a> = SecondsSinceYearStart / (60 * 60 * 24);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#ab169047aaabaabceaf6a8034ea34e7b3">Hour</a> = SecondsSinceYearStart / (60 * 60);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#a0ad218ccb8783c2b69bb4dfbf55b091d">Minute</a> = SecondsSinceYearStart / 60;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        result.<a class="code" href="../../d3/d56/namespaceTime.html#a7a638d4358ab458c4da00f4bc150a5a3">Second</a> = SecondsSinceYearStart;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordtype">int</span> DaysInYear;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> (result.<a class="code" href="../../d3/d56/namespaceTime.html#a43e62109546c452c8219aed07c37ad89">Year</a> % 4 != 0)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            DaysInYear = 365;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (result.<a class="code" href="../../d3/d56/namespaceTime.html#a43e62109546c452c8219aed07c37ad89">Year</a> % 100 != 0)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            DaysInYear = 366;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (result.<a class="code" href="../../d3/d56/namespaceTime.html#a43e62109546c452c8219aed07c37ad89">Year</a> % 400 == 0)</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            DaysInYear = 366;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            DaysInYear = 365;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Days in year: %d&quot;</span>, DaysInYear);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
 <div class="ttc" id="adebug_8h_html"><div class="ttname"><a href="../../db/d16/debug_8h.html">debug.h</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00068">debug.h:68</a></div></div>
 <div class="ttc" id="aio_8h_html"><div class="ttname"><a href="../../dc/dac/io_8h.html">io.h</a></div></div>

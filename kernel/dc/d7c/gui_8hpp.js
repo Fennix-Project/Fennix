@@ -18,10 +18,10 @@ var gui_8hpp =
     ] ],
     [ "Rect", "d7/dbb/structGraphicalUserInterface_1_1Rect.html", "d7/dbb/structGraphicalUserInterface_1_1Rect" ],
     [ "Event", "db/df1/namespaceGraphicalUserInterface.html#d6/de2/structGraphicalUserInterface_1_1Event", [
-      [ "MouseDown", "db/df1/namespaceGraphicalUserInterface.html#ac1574d7dd62008fbc7208b43a0ccc5e2", null ],
-      [ "MouseMove", "db/df1/namespaceGraphicalUserInterface.html#a48eacf073a74c984d06fa45aa3f640ec", null ],
-      [ "MouseUp", "db/df1/namespaceGraphicalUserInterface.html#a477990c74aa5cb4b3d519fdbaf7fad8b", null ],
-      [ "Resize", "db/df1/namespaceGraphicalUserInterface.html#a9a3d5bdfa3a25ecd40994029cfb28e63", null ]
+      [ "MouseDown", "db/df1/namespaceGraphicalUserInterface.html#a3e2491e8b9f95c9da4a07496df199c9f", null ],
+      [ "MouseMove", "db/df1/namespaceGraphicalUserInterface.html#ad45a44cfcac810133b248a0b663531f4", null ],
+      [ "MouseUp", "db/df1/namespaceGraphicalUserInterface.html#a33602fb7e97805c974cc07e33ba5ebfd", null ],
+      [ "Resize", "db/df1/namespaceGraphicalUserInterface.html#aebb5257df1b8e882288620257a1f2822", null ]
     ] ],
     [ "WidgetCollection", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection" ],
     [ "HandleMeta", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#de/d9b/structGraphicalUserInterface_1_1WidgetCollection_1_1HandleMeta", [

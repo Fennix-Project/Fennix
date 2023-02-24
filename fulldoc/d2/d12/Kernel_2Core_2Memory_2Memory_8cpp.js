@@ -21,5 +21,5 @@ var Kernel_2Core_2Memory_2Memory_8cpp =
     [ "KernelPageTable", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781", null ],
     [ "KPT", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a8324fc6b9ff8cee0eee6dcf2c595a7c8", null ],
     [ "UserspaceKernelOnlyPageTable", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a2b1d41c125777344eeaf5d78aa2ca654", null ],
-    [ "XallocV1Allocator", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ac6367f4bc897bf50f40bf23cc1d97c98", null ]
+    [ "XallocV1Allocator", "d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ae1071ff6f628b5f371122caafcbd46c3", null ]
 ];

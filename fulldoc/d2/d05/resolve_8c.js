@@ -24,6 +24,6 @@ var resolve_8c =
     [ "swap", "d2/d05/resolve_8c.html#a5caa2956a259c15d67de63fcddff3e57", null ],
     [ "SymbolNotFound", "d2/d05/resolve_8c.html#a0684a13576769c552f4b2f3137440438", null ],
     [ "ELF_LAZY_RESOLVE_MAIN", "d2/d05/resolve_8c.html#a0dd79b3680b21e2bd776b9c3f3d855b1", null ],
-    [ "Lock", "d2/d05/resolve_8c.html#a603c4584f5f7f8889541caf03538e608", null ],
+    [ "Lock", "d2/d05/resolve_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e", null ],
     [ "RelTmpIndex", "d2/d05/resolve_8c.html#a3d216c3602d90ccb40f5904a6fabea83", null ]
 ];

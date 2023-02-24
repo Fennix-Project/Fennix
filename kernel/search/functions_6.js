@@ -23,13 +23,11 @@ var searchData=
   ['forward_7453',['forward',['../d2/d34/smartptr_8hpp.html#a7c48057bf8df668d8fcc26ff2cfe728e',1,'forward(remove_reference_t&lt; T &gt; &amp;t):&#160;smartptr.hpp'],['../d2/d34/smartptr_8hpp.html#a55869111536ee9987a4fcacb1c553a42',1,'forward(remove_reference_t&lt; T &gt; &amp;&amp;t):&#160;smartptr.hpp']]],
   ['fprintf_7454',['fprintf',['../d3/d81/KConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d',1,'KConfig.cpp']]],
   ['fputs_7455',['fputs',['../d3/d81/KConfig_8cpp.html#a21dd329c917c905d4e35458e789eeef6',1,'KConfig.cpp']]],
-  ['free_7456',['free',['../d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4',1,'liballoc_1_1.c']]],
-  ['free_7457',['Free',['../d2/da8/classXalloc_1_1AllocatorV1.html#aa8ea02fd1cef545036b4731c90f10188',1,'Xalloc::AllocatorV1']]],
-  ['free_7458',['free',['../d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4',1,'liballoc_1_1.c']]],
-  ['freepage_7459',['FreePage',['../d4/db2/DriverAPI_8cpp.html#a928cac54b5bd071be1c055701d359650',1,'DriverAPI.cpp']]],
-  ['fromhex_7460',['FromHex',['../d0/d8b/structInternetProtocol_1_1Version4.html#a0717b0a61a8d0928177bd44a0664926f',1,'InternetProtocol::Version4::FromHex()'],['../d0/d48/structMediaAccessControl.html#ad70b73a11984dfd6dc2210b2c9466a3b',1,'MediaAccessControl::FromHex()']]],
-  ['front_7461',['front',['../d6/da1/classVector.html#a28eb01dde811c62d17ed5c7e6ff2bc0d',1,'Vector']]],
-  ['function_5fgadget_7462',['function_gadget',['../d1/d3d/printf_8c.html#a7b67c0dee1978f1de892ba4976fd233f',1,'printf.c']]],
-  ['fxrstor_7463',['fxrstor',['../d9/d25/namespaceCPU_1_1x64.html#a0547276da3ca5d993f256ad18983a05d',1,'CPU::x64']]],
-  ['fxsave_7464',['fxsave',['../d9/d25/namespaceCPU_1_1x64.html#a8cb350f1b9faebc901b7b5898f64547f',1,'CPU::x64']]]
+  ['free_7456',['free',['../d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4',1,'free():&#160;liballoc_1_1.c'],['../d5/d32/classXalloc_1_1V1.html#ac96c3ce565da97e8eaa6117737434a16',1,'Xalloc::V1::free()'],['../d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4',1,'free(void *ptr):&#160;liballoc_1_1.c']]],
+  ['freepage_7457',['FreePage',['../d4/db2/DriverAPI_8cpp.html#a928cac54b5bd071be1c055701d359650',1,'DriverAPI.cpp']]],
+  ['fromhex_7458',['FromHex',['../d0/d8b/structInternetProtocol_1_1Version4.html#a0717b0a61a8d0928177bd44a0664926f',1,'InternetProtocol::Version4::FromHex()'],['../d0/d48/structMediaAccessControl.html#ad70b73a11984dfd6dc2210b2c9466a3b',1,'MediaAccessControl::FromHex()']]],
+  ['front_7459',['front',['../d6/da1/classVector.html#a28eb01dde811c62d17ed5c7e6ff2bc0d',1,'Vector']]],
+  ['function_5fgadget_7460',['function_gadget',['../d1/d3d/printf_8c.html#a7b67c0dee1978f1de892ba4976fd233f',1,'printf.c']]],
+  ['fxrstor_7461',['fxrstor',['../d9/d25/namespaceCPU_1_1x64.html#a0547276da3ca5d993f256ad18983a05d',1,'CPU::x64']]],
+  ['fxsave_7462',['fxsave',['../d9/d25/namespaceCPU_1_1x64.html#a8cb350f1b9faebc901b7b5898f64547f',1,'CPU::x64']]]
 ];
