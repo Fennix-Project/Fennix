@@ -1,5 +1,7 @@
 var NAVTREEINDEX20 =
 {
+"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0e7ec61e518bd81f29ca60b7e2bfdd38":[7,0,0,5,1,0,1,1,84,1],
+"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0f3d9e3f7bd7117d9f308aec18a4f2df":[7,0,0,5,1,0,1,1,94,3],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0f3d9e3f7bd7117d9f308aec18a4f2df":[7,0,0,5,1,0,1,1,102,3],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0f78fa92915749e466321a1db0c10108":[7,0,0,5,1,0,1,1,30,0],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a1071497a7ed61b4483d9b08cb89bd03a":[7,0,0,5,1,0,1,1,10,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX20 =
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a942d4e37dd5607ab68e54755540d4a47":[7,0,0,5,1,0,1,1,178,0],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a942d4e37dd5607ab68e54755540d4a47":[7,0,0,5,1,0,1,1,180,0],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a942d4e37dd5607ab68e54755540d4a47":[7,0,0,5,1,0,1,1,182,0],
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a942d4e37dd5607ab68e54755540d4a47":[7,0,0,5,1,0,1,1,184,0],
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a942d4e37dd5607ab68e54755540d4a47":[7,0,0,5,1,0,1,1,186,0],
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a942d4e37dd5607ab68e54755540d4a47":[7,0,0,5,1,0,1,1,188,0]
+"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a942d4e37dd5607ab68e54755540d4a47":[7,0,0,5,1,0,1,1,184,0]
 };

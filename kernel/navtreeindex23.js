@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html":[7,0,0,0,1,0,7],
+"d7/db2/icons_8hpp.html":[7,0,0,4,3],
 "d7/db2/icons_8hpp.html#a06feef9c818a4439362f0eab8494409a":[7,0,0,4,3,6],
 "d7/db2/icons_8hpp.html#a07f8fcaf3f08af848ab18d2c15cff631":[7,0,0,4,3,4],
 "d7/db2/icons_8hpp.html#a0dfbe66fb4a8fca163624471850d6cd8":[7,0,0,4,3,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX23 =
 "d7/db7/cpu_2x86_2interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6ae2152404ca33cd1cd54a110bb8d85c24":[7,0,0,5,1,0,3,0,147],
 "d7/db7/cpu_2x86_2interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6ae32390ce1cd5d91cec52673a5d213291":[7,0,0,5,1,0,3,0,42],
 "d7/db7/cpu_2x86_2interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6ae51ded837bef2cb03a520652d0968492":[7,0,0,5,1,0,3,0,235],
-"d7/db7/cpu_2x86_2interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6ae5c8eb3d048f167a53640345e2a73490":[7,0,0,5,1,0,3,0,118],
-"d7/db7/cpu_2x86_2interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6ae70994852cc123b5b555b14df1066c50":[7,0,0,5,1,0,3,0,127],
-"d7/db7/cpu_2x86_2interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6ae8777c7e173b9a27ea7a76ef0c6c146c":[7,0,0,5,1,0,3,0,247]
+"d7/db7/cpu_2x86_2interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6ae5c8eb3d048f167a53640345e2a73490":[7,0,0,5,1,0,3,0,118]
 };

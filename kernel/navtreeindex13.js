@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"d3/dfe/DAPI_8hpp.html#af6068daa29dbb05a7ead1e3b5a48bbee":[7,0,0,13,21,0],
+"d3/dfe/DAPI_8hpp.html#af6068daa29dbb05a7ead1e3b5a48bbee":[7,0,0,13,30,0],
 "d3/dfe/DAPI_8hpp.html#af806bc55763f07b2395281bb62502dca":[7,0,0,13,24,3],
 "d3/dfe/DAPI_8hpp.html#af806bc55763f07b2395281bb62502dca":[7,0,0,13,32,3],
 "d3/dfe/DAPI_8hpp.html#d1/d92/structKernelAPI_1_1KAPIDriverTalk":[7,0,0,13,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "d4/d90/Lock_8cpp.html#ac9821bd860f2a04b128930497386cf5a":[7,0,0,1,9,2],
 "d4/d90/Lock_8cpp.html#ad451dcbadb40bd78b3bfcf21de647d72":[7,0,0,1,9,1],
 "d4/d90/Lock_8cpp.html#ad4f0ebe3599170333d5fb9ab336e9054":[7,0,0,1,9,0],
-"d4/d90/Lock_8cpp_source.html":[7,0,0,1,9],
-"d4/da0/string_8hpp.html":[7,0,0,5,42],
-"d4/da0/string_8hpp.html#a7cdd41144bf94efee18c9d0bccd1db54":[7,0,0,5,42,2]
+"d4/d90/Lock_8cpp_source.html":[7,0,0,1,9]
 };

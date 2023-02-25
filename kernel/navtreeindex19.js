@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"d6/de2/namespaceVideo.html#acdd6c6c5813f9473c4d6d17c883ad2a9":[7,0,0,5,15,6,1],
+"d6/de2/namespaceVideo.html#acf9fefbfa67e8e2eca9abd42442a8dad":[7,0,0,5,15,4,4],
 "d6/de2/namespaceVideo.html#ad27e3de9a29b64d1314558ce6d95fc22":[7,0,0,5,15,6,6],
 "d6/de2/namespaceVideo.html#adf3b5d00d2074bf6d8b24f70aa3d7e01":[7,0,0,5,15,4,2],
 "d6/de2/namespaceVideo.html#af415854c2e6502bc9af6558aa8256778":[7,0,0,5,15,4,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0adcffd85c5fc9fdc3fcd85f959b32e8":[7,0,0,5,1,0,1,1,5,0],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0affaa7d64159c28a564d54ab9cdd145":[7,0,0,5,1,0,1,1,86,11],
 "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0cd6a845541f42dd2cdd1b7ac32d5e9e":[7,0,0,5,1,0,1,1,18,2],
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0e7756b24afbdddbe3f085470b133c50":[7,0,0,5,1,0,1,1,36,9],
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0e7ec61e518bd81f29ca60b7e2bfdd38":[7,0,0,5,1,0,1,1,84,1],
-"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0f3d9e3f7bd7117d9f308aec18a4f2df":[7,0,0,5,1,0,1,1,94,3]
+"d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0e7756b24afbdddbe3f085470b133c50":[7,0,0,5,1,0,1,1,36,9]
 };

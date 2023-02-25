@@ -1,7 +1,7 @@
 var cpu_8hpp =
 [
     [ "EFLAGS", "de/d78/namespaceCPU_1_1x32.html#d1/d7c/unionCPU_1_1x32_1_1EFLAGS", [
-      [ "__attribute__", "de/d78/namespaceCPU_1_1x32.html#a67138ba11f1f2b7b39377317916df86d", null ],
+      [ "__attribute__", "de/d78/namespaceCPU_1_1x32.html#aa6a327c390401ba39934c9e69eea82ef", null ],
       [ "raw", "de/d78/namespaceCPU_1_1x32.html#a896ee47cf16552f2ac6b0314837b143e", null ]
     ] ],
     [ "TrapFrame", "de/d78/namespaceCPU_1_1x32.html#d3/d23/structCPU_1_1x32_1_1TrapFrame", [
@@ -40,7 +40,7 @@ var cpu_8hpp =
       [ "xmm", "de/d78/namespaceCPU_1_1x32.html#ad3bb87920e522ae9e052e9748941b8f2", null ]
     ] ],
     [ "__attribute__", "d9/d25/namespaceCPU_1_1x64.html#db/dc5/unionCPU_1_1x64_1_1____attribute____", [
-      [ "__attribute__", "d9/d25/namespaceCPU_1_1x64.html#ae36d21c06c9d0931ebccbec62e58f69c", null ],
+      [ "__attribute__", "d9/d25/namespaceCPU_1_1x64.html#af155c44d8e78ed354a6a073d6aa86b4c", null ],
       [ "raw", "d9/d25/namespaceCPU_1_1x64.html#aa2871ec922e647b1402eed50dc58d68e", null ]
     ] ],
     [ "RFLAGS", "d9/d25/namespaceCPU_1_1x64.html#d8/dd8/unionCPU_1_1x64_1_1RFLAGS", [
@@ -118,7 +118,7 @@ var cpu_8hpp =
       [ "VM", "de/d78/namespaceCPU_1_1x32.html#a583a65df9db4119165f5ea0abaa50281", null ],
       [ "ZF", "de/d78/namespaceCPU_1_1x32.html#a8ec66b3387ffaa10d0be63d1a95c280a", null ]
     ] ],
-    [ "EFER.__unnamed846__", "de/d78/namespaceCPU_1_1x32.html#d2/dbc/structCPU_1_1x32_1_1EFER_8____unnamed846____", [
+    [ "EFER.__unnamed722__", "de/d78/namespaceCPU_1_1x32.html#d1/dff/structCPU_1_1x32_1_1EFER_8____unnamed722____", [
       [ "FFXSR", "de/d78/namespaceCPU_1_1x32.html#a7f31fb80ec8aebb4ba3d71448fadf795", null ],
       [ "LMA", "de/d78/namespaceCPU_1_1x32.html#a6df8d0415ebe8faadcf40719ec36f209", null ],
       [ "LME", "de/d78/namespaceCPU_1_1x32.html#adfdad30fb438d14f9742408313e1b6a3", null ],
@@ -131,7 +131,7 @@ var cpu_8hpp =
       [ "SVME", "de/d78/namespaceCPU_1_1x32.html#a7736dcefdc757d139bbe54b6f4731704", null ],
       [ "TCE", "de/d78/namespaceCPU_1_1x32.html#aa93108959b74bc7abe4ffb1344be0769", null ]
     ] ],
-    [ "DR7.__unnamed850__", "de/d78/namespaceCPU_1_1x32.html#d8/dda/structCPU_1_1x32_1_1DR7_8____unnamed850____", [
+    [ "DR7.__unnamed726__", "de/d78/namespaceCPU_1_1x32.html#d7/d7d/structCPU_1_1x32_1_1DR7_8____unnamed726____", [
       [ "ConditionsDR0", "de/d78/namespaceCPU_1_1x32.html#a218bbb57cdf96f868c1989cf5c1b05a1", null ],
       [ "ConditionsDR1", "de/d78/namespaceCPU_1_1x32.html#a1aa9aebf8ec30819fcc7806d4473a068", null ],
       [ "ConditionsDR2", "de/d78/namespaceCPU_1_1x32.html#a10a456c1180ca5788db78418f39102fa", null ],
@@ -159,7 +159,7 @@ var cpu_8hpp =
       [ "Reserved0", "d9/d25/namespaceCPU_1_1x64.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
       [ "Reserved1", "d9/d25/namespaceCPU_1_1x64.html#a93876cb309016fa725517b046474c44b", null ]
     ] ],
-    [ "RFLAGS.__unnamed853__", "d9/d25/namespaceCPU_1_1x64.html#d8/d82/structCPU_1_1x64_1_1RFLAGS_8____unnamed853____", [
+    [ "RFLAGS.__unnamed805__", "d9/d25/namespaceCPU_1_1x64.html#d2/d51/structCPU_1_1x64_1_1RFLAGS_8____unnamed805____", [
       [ "AC", "d9/d25/namespaceCPU_1_1x64.html#a4144e097d2fa7a491cec2a7a4322f2bc", null ],
       [ "AF", "d9/d25/namespaceCPU_1_1x64.html#a06fa567b72d78b7e3ea746973fbbd1d5", null ],
       [ "AlwaysOne", "d9/d25/namespaceCPU_1_1x64.html#aede1a165030b54c6ad9fd6f430f8b37c", null ],
@@ -183,7 +183,7 @@ var cpu_8hpp =
       [ "VM", "d9/d25/namespaceCPU_1_1x64.html#a583a65df9db4119165f5ea0abaa50281", null ],
       [ "ZF", "d9/d25/namespaceCPU_1_1x64.html#a8ec66b3387ffaa10d0be63d1a95c280a", null ]
     ] ],
-    [ "EFER.__unnamed855__", "d9/d25/namespaceCPU_1_1x64.html#dd/dfb/structCPU_1_1x64_1_1EFER_8____unnamed855____", [
+    [ "EFER.__unnamed836__", "d9/d25/namespaceCPU_1_1x64.html#d9/d19/structCPU_1_1x64_1_1EFER_8____unnamed836____", [
       [ "FFXSR", "d9/d25/namespaceCPU_1_1x64.html#a7f31fb80ec8aebb4ba3d71448fadf795", null ],
       [ "LMA", "d9/d25/namespaceCPU_1_1x64.html#a6df8d0415ebe8faadcf40719ec36f209", null ],
       [ "LME", "d9/d25/namespaceCPU_1_1x64.html#adfdad30fb438d14f9742408313e1b6a3", null ],

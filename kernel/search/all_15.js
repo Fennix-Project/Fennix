@@ -320,7 +320,7 @@ var searchData=
   ['spawntime_4931',['SpawnTime',['../d9/d3e/namespaceTasking.html#a95a4c55b1816d16d967879f6734ea06f',1,'Tasking::TaskInfo']]],
   ['spdbg_4932',['spdbg',['../d2/d34/smartptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da',1,'smartptr.hpp']]],
   ['speed_4933',['Speed',['../d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8',1,'SMBIOS::SMBIOSMemoryDevice']]],
-  ['split_4934',['split',['../d3/d88/namespaceAPIC.html#a24a63741078d7c9d2f35bed3f279aed5',1,'APIC::__attribute__::split()'],['../d3/d88/namespaceAPIC.html#aab410ba1b9cb6d2ab6962e212a525c4e',1,'APIC::__attribute__::split()']]],
+  ['split_4934',['split',['../d3/d88/namespaceAPIC.html#a24a63741078d7c9d2f35bed3f279aed5',1,'APIC::__attribute__::split()'],['../d3/d88/namespaceAPIC.html#a698fee70dcb1f7ac5d6d1972b0270e75',1,'APIC::__attribute__::split()']]],
   ['sprintf_4935',['sprintf',['../d3/d6b/printf_8h.html#a77dac04ed12a16543832b623c7778729',1,'sprintf(char *s, const char *format,...) ATTR_PRINTF(2:&#160;printf.h'],['../d1/d3d/printf_8c.html#ac7730d9ff6e50a32ff75458f5f168a0c',1,'sprintf(char *s, const char *format,...):&#160;printf.c']]],
   ['sqrtf_4936',['sqrtf',['../d3/d82/convert_8h.html#a46c9a8d40cde7c4d5ab40a67e55316bb',1,'sqrtf(float x):&#160;Convert.cpp'],['../d0/dc7/Convert_8cpp.html#a1963ae9763b306b055a2488f704ee431',1,'sqrtf(float x):&#160;Convert.cpp']]],
   ['srat_4937',['SRAT',['../d3/d21/classACPI_1_1ACPI.html#a95f9778436c7cf069f9336fb6f8d4f30',1,'ACPI::ACPI']]],

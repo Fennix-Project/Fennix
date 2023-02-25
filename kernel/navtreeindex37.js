@@ -1,5 +1,7 @@
 var NAVTREEINDEX37 =
 {
+"db/d9e/Linux_8cpp.html#a4b299121875b21b19acd1c579430de18":[7,0,0,10,0,275],
+"db/d9e/Linux_8cpp.html#a4b9a2cd9e9fe3d160a250d0141016b51":[7,0,0,10,0,279],
 "db/d9e/Linux_8cpp.html#a4c39e0c5c2965112d6b55652a6b7f781":[7,0,0,10,0,2],
 "db/d9e/Linux_8cpp.html#a4d57beb3dbd51c54b863fa1c70c0401c":[7,0,0,10,0,198],
 "db/d9e/Linux_8cpp.html#a4dff07616c1bb4b89797f290810ff397":[7,0,0,10,0,68],
@@ -247,7 +249,5 @@ var NAVTREEINDEX37 =
 "db/d9e/Linux_8cpp_source.html":[7,0,0,10,0],
 "db/da9/IntManager_8cpp.html":[7,0,0,1,2,0],
 "db/da9/IntManager_8cpp.html#a08adc05de8210e73e22991c752d270d2":[7,0,0,1,2,0,1],
-"db/da9/IntManager_8cpp.html#a1f0ee2cbdae01f701d9a83efe503efc3":[7,0,0,1,2,0,5],
-"db/da9/IntManager_8cpp.html#a3db24a6e8fed89333b0eec359263b4c2":[7,0,0,1,2,0,0],
-"db/da9/IntManager_8cpp.html#a480247e915be578424a6a6dec1bf505b":[7,0,0,1,2,0,2]
+"db/da9/IntManager_8cpp.html#a1f0ee2cbdae01f701d9a83efe503efc3":[7,0,0,1,2,0,5]
 };

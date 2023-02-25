@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"d5/dba/multiboot2_8h.html#a0cd6fd3c9f2de7ee9bb8354589bd3545":[7,0,0,5,0,0,0,14,3],
+"d5/dba/multiboot2_8h.html#a0d19797e8a049353c2ba98e04df089bc":[7,0,0,5,0,0,0,6,0],
 "d5/dba/multiboot2_8h.html#a0d868424e2b703471e3d73c0a72bc75c":[7,0,0,5,0,0,0,36,5],
 "d5/dba/multiboot2_8h.html#a0eb857966790a1f24fa260b381561510":[7,0,0,5,0,0,0,53],
 "d5/dba/multiboot2_8h.html#a0f1c3469d5ef39bff66a690f65c51a6c":[7,0,0,5,0,0,0,60],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "d5/dd9/dumper_8hpp.html#a0fc66b31c24d157f0d3f5cc901f9d8cd":[7,0,0,5,17,0],
 "d5/dd9/dumper_8hpp_source.html":[7,0,0,5,17],
 "d5/de0/Main_8cpp.html":[7,0,0,1,0,0,2],
-"d5/de0/Main_8cpp.html#aa5f8ef635d3139bc613ae00c51e09e2c":[7,0,0,1,0,0,2,1],
-"d5/de0/Main_8cpp.html#aaaac3442e2bc610ceaa9cdffa8f7e55c":[7,0,0,1,0,0,2,0],
-"d5/de0/Main_8cpp_source.html":[7,0,0,1,0,0,2]
+"d5/de0/Main_8cpp.html#aa5f8ef635d3139bc613ae00c51e09e2c":[7,0,0,1,0,0,2,1]
 };
