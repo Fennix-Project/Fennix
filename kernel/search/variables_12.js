@@ -94,7 +94,7 @@ var searchData=
   ['sourceport_9560',['SourcePort',['../d4/d19/udp_8hpp.html#a9d013d7a4b9e3c7c0d8cb9e205fbacab',1,'SourcePort():&#160;udp.hpp'],['../dd/df9/namespaceNetworkUDP.html#aa229340cfc87d624487c14c4aeeb4c84',1,'NetworkUDP::UDPHeader::SourcePort()']]],
   ['spawntime_9561',['SpawnTime',['../d9/d3e/namespaceTasking.html#a95a4c55b1816d16d967879f6734ea06f',1,'Tasking::TaskInfo']]],
   ['speed_9562',['Speed',['../d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8',1,'SMBIOS::SMBIOSMemoryDevice']]],
-  ['split_9563',['split',['../d3/d88/namespaceAPIC.html#a24a63741078d7c9d2f35bed3f279aed5',1,'APIC::__attribute__::split()'],['../d3/d88/namespaceAPIC.html#a698fee70dcb1f7ac5d6d1972b0270e75',1,'APIC::__attribute__::split()']]],
+  ['split_9563',['split',['../d3/d88/namespaceAPIC.html#aa69fdf035a3ced205d246125c7c26024',1,'APIC::__attribute__::split()'],['../d3/d88/namespaceAPIC.html#a698fee70dcb1f7ac5d6d1972b0270e75',1,'APIC::__attribute__::split()']]],
   ['srat_9564',['SRAT',['../d3/d21/classACPI_1_1ACPI.html#a95f9778436c7cf069f9336fb6f8d4f30',1,'ACPI::ACPI']]],
   ['ss_9565',['ss',['../de/d78/namespaceCPU_1_1x32.html#ab7988e69b279a131ac7bfdd76de35fc1',1,'CPU::x32::TrapFrame::ss()'],['../d9/d25/namespaceCPU_1_1x64.html#a38219207ff59967dfcb5923e7279f368',1,'CPU::x64::TrapFrame::ss()']]],
   ['sseenabled_9566',['SSEEnabled',['../d7/dfa/namespaceCPU.html#a244fa33d0fa8ba7d4481cb5627cf2337',1,'CPU']]],

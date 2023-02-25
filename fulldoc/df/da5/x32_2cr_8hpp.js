@@ -39,7 +39,7 @@ var x32_2cr_8hpp =
       [ "PDBR", "de/d78/namespaceCPU_1_1x32.html#ab9b0a89c81249ad2e2e0784cf852e768", null ],
       [ "PWT", "de/d78/namespaceCPU_1_1x32.html#aa8ed3a0df35c06b217f95a9d52b23881", null ]
     ] ],
-    [ "CR4.__unnamed220__", "de/d78/namespaceCPU_1_1x32.html#d9/d84/structCPU_1_1x32_1_1CR4_8____unnamed220____", [
+    [ "CR4.__unnamed227__", "de/d78/namespaceCPU_1_1x32.html#d7/de5/structCPU_1_1x32_1_1CR4_8____unnamed227____", [
       [ "CET", "de/d78/namespaceCPU_1_1x32.html#a7e706fb31ff4653c9554f30ff1ad542c", null ],
       [ "DE", "de/d78/namespaceCPU_1_1x32.html#a3a52f3c22ed6fcde5bf696a6c02c9e73", null ],
       [ "FSGSBASE", "de/d78/namespaceCPU_1_1x32.html#af3a69264228a8d0b970ea1595026c80e", null ],

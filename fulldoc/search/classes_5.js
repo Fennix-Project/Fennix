@@ -11,7 +11,7 @@ var searchData=
   ['double_5fcomponents_6674',['double_components',['../d7/d69/Userspace_2libs_2libinit_2printf_8c.html#da/da6/structdouble__components',1,'']]],
   ['double_5fwith_5fbit_5faccess_6675',['double_with_bit_access',['../d7/d69/Userspace_2libs_2libinit_2printf_8c.html#d6/da2/uniondouble__with__bit__access',1,'']]],
   ['dr7_6676',['DR7',['../de/d78/namespaceCPU_1_1x32.html#dd/db5/unionCPU_1_1x32_1_1DR7',1,'CPU::x32::DR7'],['../d9/d25/namespaceCPU_1_1x64.html#d5/dca/unionCPU_1_1x64_1_1DR7',1,'CPU::x64::DR7']]],
-  ['dr7_2e_5f_5funnamed726_5f_5f_6677',['DR7.__unnamed726__',['../de/d78/namespaceCPU_1_1x32.html#d7/d7d/structCPU_1_1x32_1_1DR7_8____unnamed726____',1,'CPU::x32']]],
+  ['dr7_2e_5f_5funnamed745_5f_5f_6677',['DR7.__unnamed745__',['../de/d78/namespaceCPU_1_1x32.html#dc/d62/structCPU_1_1x32_1_1DR7_8____unnamed745____',1,'CPU::x32']]],
   ['dr7_2e_5f_5funnamed859_5f_5f_6678',['DR7.__unnamed859__',['../d9/d25/namespaceCPU_1_1x64.html#df/df5/structCPU_1_1x64_1_1DR7_8____unnamed859____',1,'CPU::x64']]],
   ['drive_6679',['Drive',['../de/d49/classDisk_1_1Drive.html',1,'Disk']]],
   ['driver_6680',['Driver',['../d3/d7d/classDriver_1_1Driver.html',1,'Driver::Driver'],['../d3/d54/classVirtualFileSystem_1_1Driver.html',1,'VirtualFileSystem::Driver']]],

@@ -106,7 +106,7 @@ var searchData=
   ['xallocv1allocator_5932',['XallocV1Allocator',['../d8/dcc/Memory_8cpp.html#ae1071ff6f628b5f371122caafcbd46c3',1,'Memory.cpp']]],
   ['xclac_5933',['Xclac',['../d5/d32/classXalloc_1_1V1.html#abda9e1826286afc7ef47062946300797',1,'Xalloc::V1']]],
   ['xcr0_5934',['XCR0',['../d9/d25/namespaceCPU_1_1x64.html#d5/dc7/unionCPU_1_1x64_1_1XCR0',1,'CPU::x64::XCR0'],['../d9/d25/namespaceCPU_1_1x64.html#a5f2f59d4c76e0ae4a2a146aa22c40ee2',1,'CPU::x64::XCR0()']]],
-  ['xcr0_2e_5f_5funnamed591_5f_5f_5935',['XCR0.__unnamed591__',['../d9/d25/namespaceCPU_1_1x64.html#d2/de7/structCPU_1_1x64_1_1XCR0_8____unnamed591____',1,'CPU::x64']]],
+  ['xcr0_2e_5f_5funnamed615_5f_5f_5935',['XCR0.__unnamed615__',['../d9/d25/namespaceCPU_1_1x64.html#d7/d9e/structCPU_1_1x64_1_1XCR0_8____unnamed615____',1,'CPU::x64']]],
   ['xmemcpy_5936',['Xmemcpy',['../dc/ddf/XallocV1_8cpp.html#ae85ef5e9cfaa1c33f1edc729f1cf4518',1,'XallocV1.cpp']]],
   ['xmemset_5937',['Xmemset',['../dc/ddf/XallocV1_8cpp.html#a5c6c79cc95c0732ab0d2ac12a02d09a5',1,'XallocV1.cpp']]],
   ['xmm_5938',['xmm',['../de/d78/namespaceCPU_1_1x32.html#ad3bb87920e522ae9e052e9748941b8f2',1,'CPU::x32::FXState::xmm()'],['../d9/d25/namespaceCPU_1_1x64.html#ac89d43a7c94fa15bebe77eb0ab0c286a',1,'CPU::x64::FXState::xmm()'],['../df/dbe/cpu_8hpp.html#aaac7bab3571d29982527056078c0cebc',1,'xmm():&#160;cpu.hpp']]],
