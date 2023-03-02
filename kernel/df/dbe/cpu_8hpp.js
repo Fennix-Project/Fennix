@@ -298,7 +298,7 @@ var cpu_8hpp =
     [ "Name", "df/dbe/cpu_8hpp.html#aea6a677157d4cbe39d21f22bda39000b", null ],
     [ "PageTable", "df/dbe/cpu_8hpp.html#a91241794b7196a732d94084fc08f6ec5", null ],
     [ "Pause", "df/dbe/cpu_8hpp.html#aa28a1c6e21b176efea57cc6bc092421e", null ],
-    [ "Stop", "df/dbe/cpu_8hpp.html#a561d30b1d7fc3feaa740dc9ed2b04b5d", null ],
+    [ "Stop", "df/dbe/cpu_8hpp.html#a1f4d7560a59bab1e3cac5637c7b8961f", null ],
     [ "Vendor", "df/dbe/cpu_8hpp.html#a6563538f6b29a9565d3fffab03b82df6", null ],
     [ "fcw", "df/dbe/cpu_8hpp.html#a2e33b01fe25cb595f498d300575eb310", null ],
     [ "fop", "df/dbe/cpu_8hpp.html#aaaf1ee01ae13a6701cbbcdc3f8330da9", null ],

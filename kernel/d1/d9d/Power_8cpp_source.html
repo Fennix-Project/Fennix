@@ -105,7 +105,7 @@ $(document).ready(function(){initNavTree('d1/d9d/Power_8cpp_source.html','../../
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">void</span> Power::Reboot()</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#a8769bd60831e5824558a4d71a07ad228">BeforeShutdown</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#a0be5e878a833e1f54ce4209b5b3c423f">BeforeShutdown</a>();</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">if</span> (((<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *)this-&gt;acpi)-&gt;FADT)</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;            <span class="keywordflow">if</span> (((<a class="code" href="../../dd/dc9/classACPI_1_1DSDT.html">ACPI::DSDT</a> *)this-&gt;dsdt)-&gt;ACPIShutdownSupported)</div>
@@ -130,12 +130,12 @@ $(document).ready(function(){initNavTree('d1/d9d/Power_8cpp_source.html','../../
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        } <span class="keywordflow">while</span> (((temp) &amp; (1 &lt;&lt; (1))) != 0);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        outb(0x64, 0xFE);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a561d30b1d7fc3feaa740dc9ed2b04b5d">CPU::Stop</a>();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a1f4d7560a59bab1e3cac5637c7b8961f">CPU::Stop</a>();</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> Power::Shutdown()</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#a8769bd60831e5824558a4d71a07ad228">BeforeShutdown</a>();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#a0be5e878a833e1f54ce4209b5b3c423f">BeforeShutdown</a>();</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">if</span> (((<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *)this-&gt;acpi)-&gt;FADT)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keywordflow">if</span> (((<a class="code" href="../../dd/dc9/classACPI_1_1DSDT.html">ACPI::DSDT</a> *)this-&gt;dsdt)-&gt;ACPIShutdownSupported)</div>
@@ -144,7 +144,7 @@ $(document).ready(function(){initNavTree('d1/d9d/Power_8cpp_source.html','../../
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        outl(0xB004, 0x2000); <span class="comment">// for qemu</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        outl(0x604, 0x2000);  <span class="comment">// if qemu not working, bochs and older versions of qemu</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        outl(0x4004, 0x3400); <span class="comment">// virtual box</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a561d30b1d7fc3feaa740dc9ed2b04b5d">CPU::Stop</a>();</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../d7/dfa/namespaceCPU.html#a1f4d7560a59bab1e3cac5637c7b8961f">CPU::Stop</a>();</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> Power::InitDSDT()</div>
@@ -215,8 +215,8 @@ $(document).ready(function(){initNavTree('d1/d9d/Power_8cpp_source.html','../../
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aKernel_8cpp_html_a0be5e878a833e1f54ce4209b5b3c423f"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a0be5e878a833e1f54ce4209b5b3c423f">BeforeShutdown</a></div><div class="ttdeci">EXTERNC __no_stack_protector NIF void BeforeShutdown()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00353">Kernel.cpp:353</a></div></div>
 <div class="ttc" id="aKernel_8cpp_html_a48ddf8736a693c7ee5cf00028b014fcf"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf">bInfo</a></div><div class="ttdeci">BootInfo * bInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00122">Kernel.cpp:122</a></div></div>
-<div class="ttc" id="aKernel_8cpp_html_a8769bd60831e5824558a4d71a07ad228"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a8769bd60831e5824558a4d71a07ad228">BeforeShutdown</a></div><div class="ttdeci">EXTERNC __no_stack_protector __no_instrument_function void BeforeShutdown()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00353">Kernel.cpp:353</a></div></div>
 <div class="ttc" id="aclassACPI_1_1ACPI_html"><div class="ttname"><a href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00013">acpi.hpp:14</a></div></div>
 <div class="ttc" id="aclassACPI_1_1DSDT_html"><div class="ttname"><a href="../../dd/dc9/classACPI_1_1DSDT.html">ACPI::DSDT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00249">acpi.hpp:250</a></div></div>
 <div class="ttc" id="aclassACPI_1_1MADT_html"><div class="ttname"><a href="../../da/db9/classACPI_1_1MADT.html">ACPI::MADT</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00188">acpi.hpp:189</a></div></div>
@@ -228,7 +228,7 @@ $(document).ready(function(){initNavTree('d1/d9d/Power_8cpp_source.html','../../
 <div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00071">debug.h:71</a></div></div>
 <div class="ttc" id="aio_8h_html"><div class="ttname"><a href="../../dc/dac/io_8h.html">io.h</a></div></div>
 <div class="ttc" id="amemory_8hpp_html"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html">memory.hpp</a></div></div>
-<div class="ttc" id="anamespaceCPU_html_a561d30b1d7fc3feaa740dc9ed2b04b5d"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a561d30b1d7fc3feaa740dc9ed2b04b5d">CPU::Stop</a></div><div class="ttdeci">static SafeFunction void Stop()</div><div class="ttdoc">Stop the CPU (infinite loop)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00133">cpu.hpp:133</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a1f4d7560a59bab1e3cac5637c7b8961f"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a1f4d7560a59bab1e3cac5637c7b8961f">CPU::Stop</a></div><div class="ttdeci">SafeFunction __noreturn __naked __used void Stop()</div><div class="ttdoc">Stop the CPU (infinite loop)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00133">cpu.hpp:133</a></div></div>
 <div class="ttc" id="anamespacePower_html"><div class="ttname"><a href="../../d5/dff/namespacePower.html">Power</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/dfa/power_8hpp_source.html#l00006">power.hpp:7</a></div></div>
 <div class="ttc" id="apower_8hpp_html"><div class="ttname"><a href="../../db/dfa/power_8hpp.html">power.hpp</a></div></div>
 <div class="ttc" id="atypes_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00025">types.h:25</a></div></div>

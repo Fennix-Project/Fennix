@@ -1506,7 +1506,7 @@ private_2</td>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;                {</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;                    <span class="comment">// trace(&quot;%s drive found at port %d&quot;, PortTypeName[portType], i);</span></div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;                    <a class="code" href="../../de/d94/AHCI_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;SATA drive found.&quot;</span>);</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;                    <a class="code" href="../../d8/d91/VMwareMouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[<a class="code" href="../../de/d94/AHCI_8cpp.html#ac3df8788ec830893d90c0f71cce70ca3">PortCount</a>] = <span class="keyword">new</span> <a class="code" href="../../d3/d7b/classPort.html">Port</a>(portType, &amp;<a class="code" href="../../de/d94/AHCI_8cpp.html#a244727dedcdcbbdab874fc62799336f3">ABAR</a>-&gt;<a class="code" href="../../de/d94/AHCI_8cpp.html#a636d6a9c09ea391a7e80e7bee0a6d608">Ports</a>[i], <a class="code" href="../../de/d94/AHCI_8cpp.html#ac3df8788ec830893d90c0f71cce70ca3">PortCount</a>);</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;                    <a class="code" href="../../dc/d29/PS2MouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[<a class="code" href="../../de/d94/AHCI_8cpp.html#ac3df8788ec830893d90c0f71cce70ca3">PortCount</a>] = <span class="keyword">new</span> <a class="code" href="../../d3/d7b/classPort.html">Port</a>(portType, &amp;<a class="code" href="../../de/d94/AHCI_8cpp.html#a244727dedcdcbbdab874fc62799336f3">ABAR</a>-&gt;<a class="code" href="../../de/d94/AHCI_8cpp.html#a636d6a9c09ea391a7e80e7bee0a6d608">Ports</a>[i], <a class="code" href="../../de/d94/AHCI_8cpp.html#ac3df8788ec830893d90c0f71cce70ca3">PortCount</a>);</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;                    <a class="code" href="../../de/d94/AHCI_8cpp.html#ac3df8788ec830893d90c0f71cce70ca3">PortCount</a>++;</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;                }</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;                <span class="keywordflow">else</span></div>
@@ -1519,7 +1519,7 @@ private_2</td>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        }</div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160; </div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../de/d94/AHCI_8cpp.html#ac3df8788ec830893d90c0f71cce70ca3">PortCount</a>; i++)</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;            <a class="code" href="../../d8/d91/VMwareMouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[i]-&gt;Configure();</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;            <a class="code" href="../../dc/d29/PS2MouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[i]-&gt;Configure();</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    }</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    <span class="keywordflow">case</span> FetchReason:</div>
@@ -1537,7 +1537,7 @@ private_2</td>
 <div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    <span class="keywordflow">case</span> SendReason:</div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;    <span class="keywordflow">case</span> ReceiveReason:</div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    {</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;        <a class="code" href="../../d8/d91/VMwareMouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[Data-&gt;DiskCallback.RW.Port]-&gt;ReadWrite(Data-&gt;DiskCallback.RW.Sector,</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;        <a class="code" href="../../dc/d29/PS2MouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[Data-&gt;DiskCallback.RW.Port]-&gt;ReadWrite(Data-&gt;DiskCallback.RW.Sector,</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                                                     Data-&gt;DiskCallback.RW.SectorCount,</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                                                     Data-&gt;DiskCallback.RW.Buffer,</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;                                                     Data-&gt;DiskCallback.RW.Write);</div>
@@ -1560,7 +1560,7 @@ private_2</td>
 <div class="ttc" id="aAHCI_8cpp_html_ae02c5f174dba7f8149f997f2e4194dd8"><div class="ttname"><a href="../../de/d94/AHCI_8cpp.html#ae02c5f174dba7f8149f997f2e4194dd8">HBAMemory::PortsImplemented</a></div><div class="ttdeci">uint32_t PortsImplemented</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d94/AHCI_8cpp_source.html#l00103">AHCI.cpp:103</a></div></div>
 <div class="ttc" id="aAHCI_8cpp_html_afdee1e06ba3d90e76724c7fddee28acd"><div class="ttname"><a href="../../de/d94/AHCI_8cpp.html#afdee1e06ba3d90e76724c7fddee28acd">CheckPortType</a></div><div class="ttdeci">PortType CheckPortType(HBAPort *Port)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d94/AHCI_8cpp_source.html#l00396">AHCI.cpp:396</a></div></div>
 <div class="ttc" id="aAHCI_8cpp_html_d5/def/structHBAMemory"><div class="ttname"><a href="../../de/d94/AHCI_8cpp.html#d5/def/structHBAMemory">HBAMemory</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d94/AHCI_8cpp_source.html#l00098">AHCI.cpp:99</a></div></div>
-<div class="ttc" id="aVMwareMouseDriver_8cpp_html_a2ad753c0f887e8a4d18ce4b743811b0f"><div class="ttname"><a href="../../d8/d91/VMwareMouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a></div><div class="ttdeci">Ports</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d91/VMwareMouseDriver_8cpp_source.html#l00146">VMwareMouseDriver.cpp:147</a></div></div>
+<div class="ttc" id="aPS2MouseDriver_8cpp_html_a2ad753c0f887e8a4d18ce4b743811b0f"><div class="ttname"><a href="../../dc/d29/PS2MouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a></div><div class="ttdeci">Ports</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d29/PS2MouseDriver_8cpp_source.html#l00039">PS2MouseDriver.cpp:40</a></div></div>
 <div class="ttc" id="aclassPort_html"><div class="ttname"><a href="../../d3/d7b/classPort.html">Port</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d94/AHCI_8cpp_source.html#l00225">AHCI.cpp:226</a></div></div>
 <div class="ttc" id="apci_8h_html_d2/d75/structPCIHeader0"><div class="ttname"><a href="../../d9/d97/pci_8h.html#d2/d75/structPCIHeader0">PCIHeader0</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00049">pci.h:50</a></div></div>
 <div class="ttc" id="apci_8h_html_d8/dbb/structPCIDeviceHeader"><div class="ttname"><a href="../../d9/d97/pci_8h.html#d8/dbb/structPCIDeviceHeader">PCIDeviceHeader</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d97/pci_8h_source.html#l00033">pci.h:34</a></div></div>
@@ -1882,7 +1882,7 @@ private_2</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/d7b/classPort.html">Port</a>* <a class="el" href="../../d8/d91/VMwareMouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[32]</td>
+          <td class="memname"><a class="el" href="../../d3/d7b/classPort.html">Port</a>* <a class="el" href="../../dc/d29/PS2MouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f">Ports</a>[32]</td>
         </tr>
       </table>
 </div><div class="memdoc">

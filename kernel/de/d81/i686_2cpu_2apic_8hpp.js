@@ -2,7 +2,7 @@ var i686_2cpu_2apic_8hpp =
 [
     [ "__attribute__", "d3/d88/namespaceAPIC.html#d3/d48/unionAPIC_1_1____attribute____", [
       [ "raw", "d3/d88/namespaceAPIC.html#a734561a828a4847ee2f190746c98d491", null ],
-      [ "split", "d3/d88/namespaceAPIC.html#aa69fdf035a3ced205d246125c7c26024", null ],
+      [ "split", "d3/d88/namespaceAPIC.html#a24a63741078d7c9d2f35bed3f279aed5", null ],
       [ "split", "d3/d88/namespaceAPIC.html#a698fee70dcb1f7ac5d6d1972b0270e75", null ]
     ] ],
     [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ],
@@ -16,7 +16,7 @@ var i686_2cpu_2apic_8hpp =
       [ "TimerMode", "d3/d88/namespaceAPIC.html#a1bc24773da7aa7b2637fc28b2d491723", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__attribute__.__unnamed22__", "d3/d88/namespaceAPIC.html#dd/df2/structAPIC_1_1____attribute_____8____unnamed22____", [
+    [ "__attribute__.__unnamed21__", "d3/d88/namespaceAPIC.html#df/d8f/structAPIC_1_1____attribute_____8____unnamed21____", [
       [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
       [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
       [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],

@@ -25,7 +25,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "filesystem.hpp", "d1/d85/filesystem_8hpp.html", "d1/d85/filesystem_8hpp" ],
     [ "gui.hpp", "dc/d7c/gui_8hpp.html", "dc/d7c/gui_8hpp" ],
     [ "hashmap.hpp", "d2/d89/hashmap_8hpp.html", "d2/d89/hashmap_8hpp" ],
-    [ "interrupts.hpp", "d8/d0a/interrupts_8hpp.html", "d8/d0a/interrupts_8hpp" ],
+    [ "ints.hpp", "d0/d36/ints_8hpp.html", "d0/d36/ints_8hpp" ],
     [ "io.h", "dc/dac/io_8h.html", null ],
     [ "ipc.hpp", "d1/d02/ipc_8hpp.html", "d1/d02/ipc_8hpp" ],
     [ "kconfig.hpp", "d1/dfc/kconfig_8hpp.html", "d1/dfc/kconfig_8hpp" ],

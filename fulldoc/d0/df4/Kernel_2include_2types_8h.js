@@ -91,6 +91,7 @@ var Kernel_2include_2types_8h =
     [ "likely", "d0/df4/Kernel_2include_2types_8h.html#a217a0bd562b98ae8c2ffce44935351e1", null ],
     [ "MAX", "d0/df4/Kernel_2include_2types_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f", null ],
     [ "MIN", "d0/df4/Kernel_2include_2types_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f", null ],
+    [ "NIF", "d0/df4/Kernel_2include_2types_8h.html#a1afe765b4510add91239ee23e5a89ba4", null ],
     [ "NULL", "d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4", null ],
     [ "O0", "d0/df4/Kernel_2include_2types_8h.html#a9b98c48b1af63a023e9926f4d4d98c46", null ],
     [ "O1", "d0/df4/Kernel_2include_2types_8h.html#ae81ce40c595ad939602698a5f93d995e", null ],

@@ -4,6 +4,8 @@ var DriverAPI_8cpp =
     [ "DriverAHCIDiskWrite", "d4/db2/DriverAPI_8cpp.html#a22dd7a3be56e69dc9f191792d38f92c0", null ],
     [ "DriverDebugPrint", "d4/db2/DriverAPI_8cpp.html#a73738162c91160245166b990c8e958af", null ],
     [ "DriverDisplayPrint", "d4/db2/DriverAPI_8cpp.html#ae6abea08313f42084e5afaf66b8eb221", null ],
+    [ "DriverGetHeight", "d4/db2/DriverAPI_8cpp.html#aaa1631ce24245d237f3068d8b01ee01e", null ],
+    [ "DriverGetWidth", "d4/db2/DriverAPI_8cpp.html#a5ca89bb194252632ab9f4f3412620235", null ],
     [ "Drivermemcpy", "d4/db2/DriverAPI_8cpp.html#ab6e4005e6feacb1dc9ee1c94d31fb041", null ],
     [ "Drivermemset", "d4/db2/DriverAPI_8cpp.html#af6e58c9bba6f54d228818681eca88529", null ],
     [ "DriverNetReceive", "d4/db2/DriverAPI_8cpp.html#a0c5af1e5a70655ce70ce73add00ff3b7", null ],

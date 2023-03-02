@@ -33,6 +33,10 @@ var Fex_8hpp =
     ] ],
     [ "EXTENDED_SECTION_ADDRESS", "d0/da5/Fex_8hpp.html#aef4d10f2159958afdb55550f2ea441e5", null ],
     [ "HEAD", "d0/da5/Fex_8hpp.html#a922307d866ecf80a99c17b943fb95635", null ],
+    [ "FexDriverInputTypes", "d0/da5/Fex_8hpp.html#abadf8b5b1ff137de0b72d4641cb79cb7", [
+      [ "FexDriverInputTypes_Mouse", "d0/da5/Fex_8hpp.html#abadf8b5b1ff137de0b72d4641cb79cb7a7388f6c7387204b343691ee6569f336e", null ],
+      [ "FexDriverInputTypes_Keyboard", "d0/da5/Fex_8hpp.html#abadf8b5b1ff137de0b72d4641cb79cb7a65f1259b92e9ff62ee2756119e87047a", null ]
+    ] ],
     [ "FexDriverType", "d0/da5/Fex_8hpp.html#af14fd31908d899cc178ab1711ad99f0e", [
       [ "FexDriverType_Unknown", "d0/da5/Fex_8hpp.html#af14fd31908d899cc178ab1711ad99f0eabaceb005e7fde1be87ab4f58c8fb1fc0", null ],
       [ "FexDriverType_Generic", "d0/da5/Fex_8hpp.html#af14fd31908d899cc178ab1711ad99f0ea6139fbcf7267d4fbc0c1c0a7a0f7d8a7", null ],

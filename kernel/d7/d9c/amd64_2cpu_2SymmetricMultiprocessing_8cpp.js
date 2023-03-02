@@ -10,7 +10,7 @@ var amd64_2cpu_2SymmetricMultiprocessing_8cpp =
       [ "TRAMPOLINE_START", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780", null ]
     ] ],
     [ "__attribute__", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a878aa217dfc93e844e800902a750e5d1", null ],
-    [ "GetCPU", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a5c96f68448959502b30a092fb050d6b5", null ],
+    [ "GetCPU", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a3566340b6a222c5755e4b2281916308e", null ],
     [ "GetCurrentCPU", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a554fc11f8a93510db1c570b03954f45f", null ],
     [ "Initialize", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a83df3dc276fba1e673fcf5551113ca7e", null ],
     [ "StartCPU", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#ad88aab0241b508d296eb247bb0d77448", null ],

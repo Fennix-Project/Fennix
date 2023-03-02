@@ -31,15 +31,23 @@ var VMwareMouseDriver_8cpp =
     [ "VMWARE_MAGIC", "d8/d91/VMwareMouseDriver_8cpp.html#abe0d2eecc7cf3ca7fce022e6be487b81", null ],
     [ "VMWARE_PORT", "d8/d91/VMwareMouseDriver_8cpp.html#a00872e853a5ac96ce036c3ba31b2d97c", null ],
     [ "Config", "d8/d91/VMwareMouseDriver_8cpp.html#a0d8785f1f5499688f53bc72e6900460d", [
+      [ "READ_CONFIG", "dc/d29/PS2MouseDriver_8cpp.html#a0d8785f1f5499688f53bc72e6900460dae72f44e643d33d3d8b23476ed36a3be2", null ],
+      [ "WRITE_CONFIG", "dc/d29/PS2MouseDriver_8cpp.html#a0d8785f1f5499688f53bc72e6900460dad44bfa41d1601f2e7bd83f9efbae6daf", null ],
       [ "READ_CONFIG", "d8/d91/VMwareMouseDriver_8cpp.html#a0d8785f1f5499688f53bc72e6900460dae72f44e643d33d3d8b23476ed36a3be2", null ],
       [ "WRITE_CONFIG", "d8/d91/VMwareMouseDriver_8cpp.html#a0d8785f1f5499688f53bc72e6900460dad44bfa41d1601f2e7bd83f9efbae6daf", null ]
     ] ],
     [ "Ports", "d8/d91/VMwareMouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0f", [
+      [ "DATA", "dc/d29/PS2MouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0fa9d7d6f31868d66330397c967c4afd2d2", null ],
+      [ "STATUS", "dc/d29/PS2MouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0fab15379688176677d49474245a6178d97", null ],
+      [ "COMMAND", "dc/d29/PS2MouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0fae680fa7eb860abe7832f792cc18a44b4", null ],
       [ "DATA", "d8/d91/VMwareMouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0fa9d7d6f31868d66330397c967c4afd2d2", null ],
       [ "STATUS", "d8/d91/VMwareMouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0fab15379688176677d49474245a6178d97", null ],
       [ "COMMAND", "d8/d91/VMwareMouseDriver_8cpp.html#a2ad753c0f887e8a4d18ce4b743811b0fae680fa7eb860abe7832f792cc18a44b4", null ]
     ] ],
     [ "State", "d8/d91/VMwareMouseDriver_8cpp.html#a5d74787dedbc4e11c1ab15bf487e61f8", [
+      [ "OUTPUT_FULL", "dc/d29/PS2MouseDriver_8cpp.html#a5d74787dedbc4e11c1ab15bf487e61f8ae945da681cb5569bd7ab677b40f4b285", null ],
+      [ "INPUT_FULL", "dc/d29/PS2MouseDriver_8cpp.html#a5d74787dedbc4e11c1ab15bf487e61f8a5dc63f7794a9bfc01ed3cbd7b6fa9cb9", null ],
+      [ "MOUSE_BYTE", "dc/d29/PS2MouseDriver_8cpp.html#a5d74787dedbc4e11c1ab15bf487e61f8afbcd362f7da33c15bdd84f737d4eb7aa", null ],
       [ "OUTPUT_FULL", "d8/d91/VMwareMouseDriver_8cpp.html#a5d74787dedbc4e11c1ab15bf487e61f8ae945da681cb5569bd7ab677b40f4b285", null ],
       [ "INPUT_FULL", "d8/d91/VMwareMouseDriver_8cpp.html#a5d74787dedbc4e11c1ab15bf487e61f8a5dc63f7794a9bfc01ed3cbd7b6fa9cb9", null ],
       [ "MOUSE_BYTE", "d8/d91/VMwareMouseDriver_8cpp.html#a5d74787dedbc4e11c1ab15bf487e61f8afbcd362f7da33c15bdd84f737d4eb7aa", null ]

@@ -4,6 +4,7 @@ var driver_8hpp =
     [ "DriverFile", "d1/d48/namespaceDriver.html#d1/d76/structDriver_1_1DriverFile", [
       [ "Address", "d1/d48/namespaceDriver.html#a4e5a21065d08b50760da3d043a3c75a6", null ],
       [ "DriverUID", "d1/d48/namespaceDriver.html#a2b2874e017e272fa7e232f9e99dcf3c7", null ],
+      [ "Enabled", "d1/d48/namespaceDriver.html#a13e745a0a68e590b619e6eddd3b12809", null ],
       [ "InterruptHook", "d1/d48/namespaceDriver.html#ae7b25ec3022b0c95834dcac1304544af", null ],
       [ "MemTrk", "d1/d48/namespaceDriver.html#a7fb1cc052ff13b8c50f65eeeeb27a10d", null ]
     ] ],
@@ -18,6 +19,7 @@ var driver_8hpp =
       [ "NOT_IMPLEMENTED", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a9e02cd5eb948db14fd2c31d5731a332e", null ],
       [ "DRIVER_RETURNED_ERROR", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8", null ],
       [ "UNKNOWN_DRIVER_TYPE", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a", null ],
-      [ "PCI_DEVICE_NOT_FOUND", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c", null ]
+      [ "PCI_DEVICE_NOT_FOUND", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c", null ],
+      [ "DRIVER_CONFLICT", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520", null ]
     ] ]
 ];

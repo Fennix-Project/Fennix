@@ -339,7 +339,7 @@ var namespaceCPU =
     [ "Name", "d7/dfa/namespaceCPU.html#aea6a677157d4cbe39d21f22bda39000b", null ],
     [ "PageTable", "d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5", null ],
     [ "Pause", "d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e", null ],
-    [ "Stop", "d7/dfa/namespaceCPU.html#a561d30b1d7fc3feaa740dc9ed2b04b5d", null ],
+    [ "Stop", "d7/dfa/namespaceCPU.html#a1f4d7560a59bab1e3cac5637c7b8961f", null ],
     [ "Vendor", "d7/dfa/namespaceCPU.html#a6563538f6b29a9565d3fffab03b82df6", null ],
     [ "SSEEnabled", "d7/dfa/namespaceCPU.html#a244fa33d0fa8ba7d4481cb5627cf2337", null ]
 ];

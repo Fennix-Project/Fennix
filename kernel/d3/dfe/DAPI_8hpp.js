@@ -1,6 +1,10 @@
 var DAPI_8hpp =
 [
     [ "KernelAPI", "d3/dfe/DAPI_8hpp.html#d7/d61/structKernelAPI", [
+      [ "KAPIDisplay", "de/d72/structKernelAPI_1_1KAPIDisplay.html", [
+        [ "GetHeight", "de/d72/structKernelAPI_1_1KAPIDisplay.html#a12c2c9786b6e66d5dea9bb29394eb00b", null ],
+        [ "GetWidth", "de/d72/structKernelAPI_1_1KAPIDisplay.html#a13d10e1482410389ba615b12e51b5fab", null ]
+      ] ],
       [ "KAPIDriverTalk", "d3/dfe/DAPI_8hpp.html#d1/d92/structKernelAPI_1_1KAPIDriverTalk", [
         [ "Disk", "d3/dfe/DAPI_8hpp.html#aedd48cc926de2dd71dc94fbc8ff26b8e", null ],
         [ "Network", "d3/dfe/DAPI_8hpp.html#a7c5e99f586825ce6be98f74a0c0750e3", null ]
@@ -42,6 +46,7 @@ var DAPI_8hpp =
         [ "Patch", "d3/dfe/DAPI_8hpp.html#a6b23a9be4567fb79d60abf21b06a1f24", null ]
       ] ],
       [ "Command", "d3/dfe/DAPI_8hpp.html#a4af59193349df9be94b83aef7add92b4", null ],
+      [ "Display", "d3/dfe/DAPI_8hpp.html#a6912b3e5a6c7778c9cc2cacfc2182a57", null ],
       [ "Info", "d3/dfe/DAPI_8hpp.html#ae4200059c86de9f85263bca7cf593884", null ],
       [ "Memory", "d3/dfe/DAPI_8hpp.html#a7007a4c310ff02707c20bbbeaa1d242f", null ],
       [ "PCI", "d3/dfe/DAPI_8hpp.html#a64b26e2c4d42916e3deb03f421bb55be", null ],
@@ -64,6 +69,7 @@ var DAPI_8hpp =
       [ "Disk", "d3/dfe/DAPI_8hpp.html#aedd48cc926de2dd71dc94fbc8ff26b8e", null ],
       [ "Network", "d3/dfe/DAPI_8hpp.html#a7c5e99f586825ce6be98f74a0c0750e3", null ]
     ] ],
+    [ "KAPIDisplay", "de/d72/structKernelAPI_1_1KAPIDisplay.html", "de/d72/structKernelAPI_1_1KAPIDisplay" ],
     [ "KAPIVersion", "d3/dfe/DAPI_8hpp.html#d6/d76/structKAPIVersion", [
       [ "Major", "d3/dfe/DAPI_8hpp.html#aa5532e28dd8dd50691d9768296071203", null ],
       [ "Minor", "d3/dfe/DAPI_8hpp.html#a0f02d729df90ebe90a49da9762d7c3cb", null ],
@@ -80,6 +86,7 @@ var DAPI_8hpp =
       [ "Disk", "d3/dfe/DAPI_8hpp.html#a5b10826793aaba503046701b9e75d89b", null ],
       [ "Network", "d3/dfe/DAPI_8hpp.html#a82eddad5fe339f6cda487896d22a78d8", null ]
     ] ],
+    [ "KAPIDisplay", "d0/daf/structKAPIDisplay.html", "d0/daf/structKAPIDisplay" ],
     [ "KernelCallback", "d3/dfe/DAPI_8hpp.html#d9/d82/structKernelCallback", [
       [ "DiskCallback", "d3/dfe/DAPI_8hpp.html#a647e99c1f6f9cb2d17eac891cb3cb646", null ],
       [ "InputCallback", "d3/dfe/DAPI_8hpp.html#a673d41e3944baa1f7a8150d899e6afd6", null ],
@@ -211,6 +218,7 @@ var DAPI_8hpp =
     [ "__attribute__", "d3/dfe/DAPI_8hpp.html#a16a4a773e04a271888eec2e957e4ef71", null ],
     [ "Command", "d3/dfe/DAPI_8hpp.html#a4909e6191108dd46d0ee86b97899f1cf", null ],
     [ "DiskCallback", "d3/dfe/DAPI_8hpp.html#a4a7474b1a244fd1c664def2ee202bfa7", null ],
+    [ "Display", "d3/dfe/DAPI_8hpp.html#ab98c9dda551050e824860087e9abb419", null ],
     [ "Info", "d3/dfe/DAPI_8hpp.html#af38d995e497b6690f5b942df9a9f272d", null ],
     [ "InputCallback", "d3/dfe/DAPI_8hpp.html#a6c87287b235daa183ad2650f0d7cfa8b", null ],
     [ "InterruptInfo", "d3/dfe/DAPI_8hpp.html#a4661fdad4f6f8e862588e6ef6638fddc", null ],

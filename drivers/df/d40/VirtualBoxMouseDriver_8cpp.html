@@ -146,7 +146,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
 
 </div>
 </div>
@@ -167,7 +167,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00052">CallbackHandler()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00054">CallbackHandler()</a>.</p>
 
 </div>
 </div>
@@ -187,52 +187,52 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00052">52</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">switch</span> (Data-&gt;Reason)</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">case</span> AcknowledgeReason:</div>
+<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">switch</span> (Data-&gt;Reason)</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    {</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Kernel acknowledged the driver.&quot;</span>);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">case</span> ConfigurationReason:</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">case</span> FetchReason:</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        Data-&gt;InputCallback.Mouse.X = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#ac8dd4bed7053ddd09429d2a63836bb07">MouseX</a>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        Data-&gt;InputCallback.Mouse.Y = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#abce228e74e90aeb271f5888c2d4f2e66">MouseY</a>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        Data-&gt;InputCallback.Mouse.Z = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a1638276e58137cba7805d9cceb7fb83e">MouseZ</a>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        Data-&gt;InputCallback.Mouse.Buttons.Left = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a94322c997aefcf5291df9caa7e94a6a0">MouseButton</a> &amp; 0x20;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        Data-&gt;InputCallback.Mouse.Buttons.Right = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a94322c997aefcf5291df9caa7e94a6a0">MouseButton</a> &amp; 0x10;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        Data-&gt;InputCallback.Mouse.Buttons.Middle = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a94322c997aefcf5291df9caa7e94a6a0">MouseButton</a> &amp; 0x08;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">case</span> StopReason:</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">case</span> InterruptReason:</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">return</span> OK;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
-<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_a1638276e58137cba7805d9cceb7fb83e"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a1638276e58137cba7805d9cceb7fb83e">MouseZ</a></div><div class="ttdeci">int MouseZ</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00049">VirtualBoxMouseDriver.cpp:49</a></div></div>
-<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_a93bdbb2eb161fecc1c12d7b87345e718"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a></div><div class="ttdeci">#define print(msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00031">VirtualBoxMouseDriver.cpp:31</a></div></div>
-<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_a94322c997aefcf5291df9caa7e94a6a0"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a94322c997aefcf5291df9caa7e94a6a0">MouseButton</a></div><div class="ttdeci">int MouseButton</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00050">VirtualBoxMouseDriver.cpp:50</a></div></div>
-<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_abce228e74e90aeb271f5888c2d4f2e66"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#abce228e74e90aeb271f5888c2d4f2e66">MouseY</a></div><div class="ttdeci">int MouseY</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00049">VirtualBoxMouseDriver.cpp:49</a></div></div>
-<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_ac8dd4bed7053ddd09429d2a63836bb07"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#ac8dd4bed7053ddd09429d2a63836bb07">MouseX</a></div><div class="ttdeci">int MouseX</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00049">VirtualBoxMouseDriver.cpp:49</a></div></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">case</span> AcknowledgeReason:</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Kernel acknowledged the driver.&quot;</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">case</span> ConfigurationReason:</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">case</span> FetchReason:</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        Data-&gt;InputCallback.Mouse.X = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#ac8dd4bed7053ddd09429d2a63836bb07">MouseX</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        Data-&gt;InputCallback.Mouse.Y = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#abce228e74e90aeb271f5888c2d4f2e66">MouseY</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        Data-&gt;InputCallback.Mouse.Z = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a1638276e58137cba7805d9cceb7fb83e">MouseZ</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        Data-&gt;InputCallback.Mouse.Buttons.Left = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a94322c997aefcf5291df9caa7e94a6a0">MouseButton</a> &amp; 0x20;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        Data-&gt;InputCallback.Mouse.Buttons.Right = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a94322c997aefcf5291df9caa7e94a6a0">MouseButton</a> &amp; 0x10;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        Data-&gt;InputCallback.Mouse.Buttons.Middle = <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a94322c997aefcf5291df9caa7e94a6a0">MouseButton</a> &amp; 0x08;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">case</span> StopReason:</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">case</span> InterruptReason:</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">return</span> OK;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
+<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_a1638276e58137cba7805d9cceb7fb83e"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a1638276e58137cba7805d9cceb7fb83e">MouseZ</a></div><div class="ttdeci">int MouseZ</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00051">VirtualBoxMouseDriver.cpp:51</a></div></div>
+<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_a93bdbb2eb161fecc1c12d7b87345e718"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a></div><div class="ttdeci">#define print(msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00033">VirtualBoxMouseDriver.cpp:33</a></div></div>
+<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_a94322c997aefcf5291df9caa7e94a6a0"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a94322c997aefcf5291df9caa7e94a6a0">MouseButton</a></div><div class="ttdeci">int MouseButton</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00052">VirtualBoxMouseDriver.cpp:52</a></div></div>
+<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_abce228e74e90aeb271f5888c2d4f2e66"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#abce228e74e90aeb271f5888c2d4f2e66">MouseY</a></div><div class="ttdeci">int MouseY</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00051">VirtualBoxMouseDriver.cpp:51</a></div></div>
+<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_ac8dd4bed7053ddd09429d2a63836bb07"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#ac8dd4bed7053ddd09429d2a63836bb07">MouseX</a></div><div class="ttdeci">int MouseX</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00051">VirtualBoxMouseDriver.cpp:51</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00050">MouseButton</a>, <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00049">MouseX</a>, <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00049">MouseY</a>, <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00049">MouseZ</a>, and <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00031">print</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00052">MouseButton</a>, <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00051">MouseX</a>, <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00051">MouseY</a>, <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00051">MouseZ</a>, and <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00033">print</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">__attribute__()</a>.</p>
 
@@ -254,22 +254,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span> (!Data)</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> INVALID_KERNEL_API;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a> = (KernelAPI *)Data;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Major &lt; 0 || <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Minor &lt; 0 || <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Patch &lt; 0)</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> KERNEL_API_VERSION_NOT_SUPPORTED;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Not implemented!&quot;</span>);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> NOT_IMPLEMENTED;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">// return OK;</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
-<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_a8829069e57a9845d74b32ce27a618ccd"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a></div><div class="ttdeci">KernelAPI * KAPI</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00029">VirtualBoxMouseDriver.cpp:29</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">if</span> (!Data)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> INVALID_KERNEL_API;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a> = (KernelAPI *)Data;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Major &lt; 0 || <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Minor &lt; 0 || <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Patch &lt; 0)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> KERNEL_API_VERSION_NOT_SUPPORTED;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Not implemented!&quot;</span>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">return</span> NOT_IMPLEMENTED;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">// return OK;</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
+<div class="ttc" id="aVirtualBoxMouseDriver_8cpp_html_a8829069e57a9845d74b32ce27a618ccd"><div class="ttname"><a href="../../df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a></div><div class="ttdeci">KernelAPI * KAPI</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00031">VirtualBoxMouseDriver.cpp:31</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00029">KAPI</a>, and <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00031">print</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00031">KAPI</a>, and <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00033">print</a>.</p>
 
 </div>
 </div>
@@ -320,9 +320,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00035">DriverEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00037">DriverEntry()</a>.</p>
 
 </div>
 </div>
@@ -338,9 +338,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00050">50</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00052">52</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00052">CallbackHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00054">CallbackHandler()</a>.</p>
 
 </div>
 </div>
@@ -356,9 +356,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00052">CallbackHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00054">CallbackHandler()</a>.</p>
 
 </div>
 </div>
@@ -374,9 +374,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00052">CallbackHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00054">CallbackHandler()</a>.</p>
 
 </div>
 </div>
@@ -392,9 +392,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html">VirtualBoxMouseDriver.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00052">CallbackHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d40/VirtualBoxMouseDriver_8cpp_source.html#l00054">CallbackHandler()</a>.</p>
 
 </div>
 </div>

@@ -1,6 +1,6 @@
 var Limine_8c =
 [
-    [ "init_limine", "d3/d1d/Limine_8c.html#a07dd01b011bbd0fd567b5085cfb4d989", null ],
+    [ "init_limine", "d3/d1d/Limine_8c.html#a88fc8602053b68c07fc9c97a624a3865", null ],
     [ "BootloaderInfoRequest", "d3/d1d/Limine_8c.html#a4762b7cada64399acb562067ca5674bf", null ],
     [ "EntryPointRequest", "d3/d1d/Limine_8c.html#a0d9c849ab73e9b253f402f7e711dd560", null ],
     [ "FramebufferRequest", "d3/d1d/Limine_8c.html#ad205e7f58dc1d0b19636d2f38d9ca803", null ],

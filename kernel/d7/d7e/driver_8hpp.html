@@ -94,11 +94,12 @@ $(document).ready(function(){initNavTree('d7/d7e/driver_8hpp.html','../../'); in
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d8/d0a/interrupts_8hpp_source.html">interrupts.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d16/vector_8hpp_source.html">vector.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>&gt;</code><br />
 </div>
 <p><a href="../../d7/d7e/driver_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -131,6 +132,7 @@ Enumerations</h2></td></tr>
 , <br />
 &#160;&#160;<a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a">Driver::UNKNOWN_DRIVER_TYPE</a>
 , <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c">Driver::PCI_DEVICE_NOT_FOUND</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520">Driver::DRIVER_CONFLICT</a>
 <br />
  }</td></tr>
 <tr class="separator:a020a5b26e9a3fe6af243be692d6147c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,7 +150,7 @@ Enumerations</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00047">47</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -161,6 +163,12 @@ Address</td>
 <a id="a2b2874e017e272fa7e232f9e99dcf3c7"></a>unsigned long</td>
 <td class="fieldname">
 DriverUID</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a13e745a0a68e590b619e6eddd3b12809"></a><a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
+<td class="fieldname">
+Enabled</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">

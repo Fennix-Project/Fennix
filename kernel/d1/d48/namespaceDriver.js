@@ -13,7 +13,8 @@ var namespaceDriver =
       [ "NOT_IMPLEMENTED", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a9e02cd5eb948db14fd2c31d5731a332e", null ],
       [ "DRIVER_RETURNED_ERROR", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8", null ],
       [ "UNKNOWN_DRIVER_TYPE", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a", null ],
-      [ "PCI_DEVICE_NOT_FOUND", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c", null ]
+      [ "PCI_DEVICE_NOT_FOUND", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c", null ],
+      [ "DRIVER_CONFLICT", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520", null ]
     ] ],
     [ "UNUSED", "d1/d48/namespaceDriver.html#a940529db9c9924f62d18930b6e101eb6", null ],
     [ "void", "d1/d48/namespaceDriver.html#a0e482219b5f1146ae92655e6c7fc0e64", null ],
