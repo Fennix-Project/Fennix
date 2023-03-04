@@ -97,6 +97,12 @@ jobs:
       if: steps.cache-cross.outputs.cache-hit != 'true'
       run: make --quiet -C tools do_toolchain_gcc32
 
+    - name: Clean Up
+      if: steps.cache-cross.outputs.cache-hit != 'true'
+      run: |
+        cd tools
+        rm -rf binutils-gdb gcc qemu build-binutilsamd64 build-binutilsi686 build-binutilsarm64 build-gccamd64 build-gcci686 build-gccarm64 build-toolchain-binutils64 build-toolchain-gcc64 build-toolchain-binutils32 build-toolchain-gcc32
+
   compilegnuefi:
     name: Build GNU-EFI
     runs-on: ubuntu-latest
