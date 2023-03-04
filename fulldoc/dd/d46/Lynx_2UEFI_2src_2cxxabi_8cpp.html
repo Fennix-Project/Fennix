@@ -112,7 +112,7 @@ Macros</h2></td></tr>
 <tr class="separator:a972f8ec732deadabcb18aa4567f95a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;&#160;&#160;((void *)0)</td></tr>
 <tr class="separator:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb00b1a27b40fde5065d26e5aa367808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a>(x,  align)&#160;&#160;&#160;((__typeof__(x))(((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)(x) + ((align)-1)) &amp; (~((align)-1))))</td></tr>
+<tr class="memitem:afb00b1a27b40fde5065d26e5aa367808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a>(x,  align)&#160;&#160;&#160;((__typeof__(x))(((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(x) + ((align)-1)) &amp; (~((align)-1))))</td></tr>
 <tr class="separator:afb00b1a27b40fde5065d26e5aa367808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1de6625fa208285b5f2b043fa9c537e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a1de6625fa208285b5f2b043fa9c537e7">ALIGN_DOWN</a>(x,  align)&#160;&#160;&#160;((__typeof__(x))((x) &amp; (~((align)-1))))</td></tr>
 <tr class="separator:a1de6625fa208285b5f2b043fa9c537e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -185,7 +185,7 @@ Functions</h2></td></tr>
 <tr class="separator:aebcc976a7993632e8679b287e8f2ff11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a333d4d92c55d23e69b5c447d90795b8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a333d4d92c55d23e69b5c447d90795b8f">_Unwind_Resume</a> (struct <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *exc)</td></tr>
 <tr class="separator:a333d4d92c55d23e69b5c447d90795b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93fda3960d3337ef69b6bf27979dc07d"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a93fda3960d3337ef69b6bf27979dc07d">__cxa_allocate_exception</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> thrown_size)  throw ()</td></tr>
+<tr class="memitem:a93fda3960d3337ef69b6bf27979dc07d"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a93fda3960d3337ef69b6bf27979dc07d">__cxa_allocate_exception</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> thrown_size)  throw ()</td></tr>
 <tr class="separator:a93fda3960d3337ef69b6bf27979dc07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79efbfe75b9090140cf0b167a7ff7148"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a79efbfe75b9090140cf0b167a7ff7148">__cxa_throw</a> (void *thrown_object, void *tinfo, void(*dest)(void *))</td></tr>
 <tr class="separator:a79efbfe75b9090140cf0b167a7ff7148"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -323,7 +323,7 @@ private_2</td>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((__typeof__(x))(((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)(x) + ((align)-1)) &amp; (~((align)-1))))</td>
+          <td></td><td>&#160;&#160;&#160;((__typeof__(x))(((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(x) + ((align)-1)) &amp; (~((align)-1))))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -484,7 +484,7 @@ private_2</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef __UINT32_TYPE__ <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+          <td class="memname">typedef __UINT32_TYPE__ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -500,7 +500,7 @@ private_2</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef __UINT64_TYPE__ <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+          <td class="memname">typedef __UINT64_TYPE__ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -647,7 +647,7 @@ private_2</td>
         <tr>
           <td class="memname">void* __cxa_allocate_exception </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>thrown_size</em></td><td>)</td>
           <td></td>
         </tr>

@@ -185,7 +185,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00100">100</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 
 </div>
 </div>
@@ -297,12 +297,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *dst = (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)Destination;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *src = (<span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)Source;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../d8/d12/Xalloc_8hpp.html#a23119a4470c724b273abe91ae9a71c99">Xuint64_t</a> i = 0; i &lt; <a class="code" href="../../d1/d90/acpi_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a>; i++)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        dst[i] = src[i];</div>
 <div class="ttc" id="aXalloc_8hpp_html_a23119a4470c724b273abe91ae9a71c99"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#a23119a4470c724b273abe91ae9a71c99">Xuint64_t</a></div><div class="ttdeci">long unsigned Xuint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00008">Xalloc.hpp:8</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_a930e5a4d8414c0427fe5c636062579db"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a></div><div class="ttdeci">uint32_t Length</div><div class="ttdoc">Length.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00001">acpi.hpp:1</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00001">Length</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/dc7/Disk_8cpp_source.html#l00012">Disk::Manager::FetchDisks()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00128">Xalloc::V1::malloc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/dc7/Disk_8cpp_source.html#l00012">Disk::Manager::FetchDisks()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00129">Xalloc::V1::malloc()</a>.</p>
 
 </div>
 </div>
@@ -352,7 +353,7 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        {</div>
 </div><!-- fragment -->
 </div>
@@ -382,9 +383,10 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void* Pointer to the allocated memory </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keyword">class </span><a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a129c6a3a874b20c36e5b7de6680612a8">Block</a></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
 <div class="ttc" id="aXallocV1_8cpp_html_a129c6a3a874b20c36e5b7de6680612a8"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a129c6a3a874b20c36e5b7de6680612a8">Block</a></div><div class="ttdeci">Block(Xsize_t Size)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00016">XallocV1.cpp:16</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -424,7 +426,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00004">Address</a>, and <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00029">KernelAllocator</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00080">Xalloc::Block::operator delete()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00060">Xalloc::Block::~Block()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00081">Xalloc::Block::operator delete()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00061">Xalloc::Block::~Block()</a>.</p>
 
 </div>
 </div>
@@ -494,7 +496,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00029">KernelAllocator</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00054">Xalloc::Block::Block()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00070">Xalloc::Block::operator new()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00054">Xalloc::Block::Block()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00071">Xalloc::Block::operator new()</a>.</p>
 
 </div>
 </div>
@@ -607,7 +609,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_aff2da4c061653164b5cfcc650f742f27"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a></div><div class="ttdeci">GlobalDescriptorTableEntry Data</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00002">gdt.hpp:2</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00128">Xalloc::V1::malloc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00054">Xalloc::Block::Block()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00129">Xalloc::V1::malloc()</a>.</p>
 
 </div>
 </div>
@@ -626,7 +628,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
 </div><!-- fragment -->
 </div>
@@ -646,7 +648,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">1</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00176">Xalloc::V1::free()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00128">Xalloc::V1::malloc()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00225">Xalloc::V1::realloc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00176">Xalloc::V1::free()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00129">Xalloc::V1::malloc()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00228">Xalloc::V1::realloc()</a>.</p>
 
 </div>
 </div>
@@ -728,7 +730,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">4</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00044">InterProcessCommunication::IPC::Allocate()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00211">Xalloc::V1::calloc()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00067">Video::Display::ClearBuffer()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00024">Video::Display::CreateBuffer()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00072">Video::Display::DeleteBuffer()</a>, <a class="el" href="../../d3/d4b/BindInput_8cpp_source.html#l00081">Driver::Driver::DriverLoadBindInput()</a>, <a class="el" href="../../da/df8/BindInterrupt_8cpp_source.html#l00311">Driver::Driver::DriverLoadBindInterrupt()</a>, <a class="el" href="../../d7/dc4/BindPCI_8cpp_source.html#l00279">Driver::Driver::DriverLoadBindPCI()</a>, <a class="el" href="../../d8/d16/BindProcess_8cpp_source.html#l00052">Driver::Driver::DriverLoadBindProcess()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00055">Drivermemcpy()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00062">Drivermemset()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00075">DriverNetReceive()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00069">DriverNetSend()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00175">NetworkInterfaceManager::NetworkInterface::DrvReceive()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00168">NetworkInterfaceManager::NetworkInterface::DrvSend()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00034">FreePage()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00025">VirtualFileSystem::Virtual::GetPathFromNode()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00196">InterProcessCommunication::IPC::HandleSyscall()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00276">HeapCalloc()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00253">HeapMalloc()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00299">HeapRealloc()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00111">Driver::Driver::LoadDriver()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00128">Xalloc::V1::malloc()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00391">operator delete()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00401">operator delete[]()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00345">operator new()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00354">operator new[]()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00084">InterProcessCommunication::IPC::Read()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00479">VirtualFileSystem::Virtual::Read()</a>, <a class="el" href="../../dd/dbc/MemoryManager_8cpp_source.html#l00008">Memory::ReadFSFunction()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00148">NetworkInterfaceManager::ReadFSFunction()</a>, <a class="el" href="../../d9/db9/ustar_8cpp_source.html#l00010">VirtualFileSystem::ReadFSFunction()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00225">Xalloc::V1::realloc()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00025">RequestPage()</a>, <a class="el" href="../../da/d16/vector_8hpp_source.html#l00221">Vector&lt; T &gt;::resize()</a>, <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00121">sys_ipc()</a>, <a class="el" href="../../da/d16/vector_8hpp_source.html#l00029">Vector&lt; T &gt;::Vector()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00114">InterProcessCommunication::IPC::Write()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00503">VirtualFileSystem::Virtual::Write()</a>, <a class="el" href="../../dd/dbc/MemoryManager_8cpp_source.html#l00020">Memory::WriteFSFunction()</a>, and <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00154">NetworkInterfaceManager::WriteFSFunction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00044">InterProcessCommunication::IPC::Allocate()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00214">Xalloc::V1::calloc()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00067">Video::Display::ClearBuffer()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00024">Video::Display::CreateBuffer()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00072">Video::Display::DeleteBuffer()</a>, <a class="el" href="../../d3/d4b/BindInput_8cpp_source.html#l00081">Driver::Driver::DriverLoadBindInput()</a>, <a class="el" href="../../da/df8/BindInterrupt_8cpp_source.html#l00311">Driver::Driver::DriverLoadBindInterrupt()</a>, <a class="el" href="../../d7/dc4/BindPCI_8cpp_source.html#l00279">Driver::Driver::DriverLoadBindPCI()</a>, <a class="el" href="../../d8/d16/BindProcess_8cpp_source.html#l00052">Driver::Driver::DriverLoadBindProcess()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00055">Drivermemcpy()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00062">Drivermemset()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00075">DriverNetReceive()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00069">DriverNetSend()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00175">NetworkInterfaceManager::NetworkInterface::DrvReceive()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00168">NetworkInterfaceManager::NetworkInterface::DrvSend()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00034">FreePage()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00025">VirtualFileSystem::Virtual::GetPathFromNode()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00196">InterProcessCommunication::IPC::HandleSyscall()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00276">HeapCalloc()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00253">HeapMalloc()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00299">HeapRealloc()</a>, <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00111">Driver::Driver::LoadDriver()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00129">Xalloc::V1::malloc()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00391">operator delete()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00401">operator delete[]()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00345">operator new()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00354">operator new[]()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00084">InterProcessCommunication::IPC::Read()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00479">VirtualFileSystem::Virtual::Read()</a>, <a class="el" href="../../dd/dbc/MemoryManager_8cpp_source.html#l00008">Memory::ReadFSFunction()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00148">NetworkInterfaceManager::ReadFSFunction()</a>, <a class="el" href="../../d9/db9/ustar_8cpp_source.html#l00010">VirtualFileSystem::ReadFSFunction()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00228">Xalloc::V1::realloc()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00025">RequestPage()</a>, <a class="el" href="../../da/d16/vector_8hpp_source.html#l00221">Vector&lt; T &gt;::resize()</a>, <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00121">sys_ipc()</a>, <a class="el" href="../../da/d16/vector_8hpp_source.html#l00029">Vector&lt; T &gt;::Vector()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00114">InterProcessCommunication::IPC::Write()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00503">VirtualFileSystem::Virtual::Write()</a>, <a class="el" href="../../dd/dbc/MemoryManager_8cpp_source.html#l00020">Memory::WriteFSFunction()</a>, and <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00154">NetworkInterfaceManager::WriteFSFunction()</a>.</p>
 
 </div>
 </div>

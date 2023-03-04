@@ -121,7 +121,7 @@ Macros</h2></td></tr>
 <tr class="separator:adda03014c30b02d7b496fce96f37951b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a422175620f52b1ca4dbc39d627296d83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a422175620f52b1ca4dbc39d627296d83">tolower</a>(c)&#160;&#160;&#160;((c) + 0x20 * (((c) &gt;= '<a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aa99de428bd3e7715b73b335a5af9e900">A</a>') &amp;&amp; ((c) &lt;= 'Z')))</td></tr>
 <tr class="separator:a422175620f52b1ca4dbc39d627296d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb00b1a27b40fde5065d26e5aa367808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a>(x,  align)&#160;&#160;&#160;((__typeof__(x))(((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)(x) + ((align)-1)) &amp; (~((align)-1))))</td></tr>
+<tr class="memitem:afb00b1a27b40fde5065d26e5aa367808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a>(x,  align)&#160;&#160;&#160;((__typeof__(x))(((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(x) + ((align)-1)) &amp; (~((align)-1))))</td></tr>
 <tr class="separator:afb00b1a27b40fde5065d26e5aa367808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1de6625fa208285b5f2b043fa9c537e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a1de6625fa208285b5f2b043fa9c537e7">ALIGN_DOWN</a>(x,  align)&#160;&#160;&#160;((__typeof__(x))((x) &amp; (~((align)-1))))</td></tr>
 <tr class="separator:a1de6625fa208285b5f2b043fa9c537e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -367,7 +367,7 @@ Typedefs</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((__typeof__(x))(((<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>)(x) + ((align)-1)) &amp; (~((align)-1))))</td>
+          <td></td><td>&#160;&#160;&#160;((__typeof__(x))(((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(x) + ((align)-1)) &amp; (~((align)-1))))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1720,7 +1720,7 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef __INT64_TYPE__ <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#ac714c0d2c1a4adb10e73cab29623314b">int64_t</a></td>
+          <td class="memname">typedef __INT64_TYPE__ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a996e72f71b11a5bb8b3b7b6936b1516d">int64_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1960,7 +1960,7 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef __UINT32_TYPE__ <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+          <td class="memname">typedef __UINT32_TYPE__ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1976,7 +1976,7 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef __UINT64_TYPE__ <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+          <td class="memname">typedef __UINT64_TYPE__ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

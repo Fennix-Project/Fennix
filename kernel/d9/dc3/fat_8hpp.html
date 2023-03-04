@@ -148,10 +148,10 @@ Variables</h2></td></tr>
 <tr class="memitem:a3f776641be20acddf4750403983b9256"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc3/fat_8hpp.html#a3f776641be20acddf4750403983b9256">NumberOfHeads</a></td></tr>
 <tr class="memdesc:a3f776641be20acddf4750403983b9256"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of heads or sides on the storage media.  <a href="../../d9/dc3/fat_8hpp.html#a3f776641be20acddf4750403983b9256">More...</a><br /></td></tr>
 <tr class="separator:a3f776641be20acddf4750403983b9256"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4ea822b86d7dd078364c6d192c62dbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc3/fat_8hpp.html#aa4ea822b86d7dd078364c6d192c62dbb">HiddenSectors</a></td></tr>
+<tr class="memitem:aa4ea822b86d7dd078364c6d192c62dbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc3/fat_8hpp.html#aa4ea822b86d7dd078364c6d192c62dbb">HiddenSectors</a></td></tr>
 <tr class="memdesc:aa4ea822b86d7dd078364c6d192c62dbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of hidden sectors. (i.e. the LBA of the beginning of the partition).  <a href="../../d9/dc3/fat_8hpp.html#aa4ea822b86d7dd078364c6d192c62dbb">More...</a><br /></td></tr>
 <tr class="separator:aa4ea822b86d7dd078364c6d192c62dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49a13f462fa1b9d3db8ad497e09d53bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc3/fat_8hpp.html#a49a13f462fa1b9d3db8ad497e09d53bc">Sectors32</a></td></tr>
+<tr class="memitem:a49a13f462fa1b9d3db8ad497e09d53bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc3/fat_8hpp.html#a49a13f462fa1b9d3db8ad497e09d53bc">Sectors32</a></td></tr>
 <tr class="memdesc:a49a13f462fa1b9d3db8ad497e09d53bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Large sector count. This field is set if there are more than 65535 sectors in the volume, resulting in a value which does not fit in the Number of Sectors entry at 0x13.  <a href="../../d9/dc3/fat_8hpp.html#a49a13f462fa1b9d3db8ad497e09d53bc">More...</a><br /></td></tr>
 <tr class="separator:a49a13f462fa1b9d3db8ad497e09d53bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -178,7 +178,7 @@ BytesPerSector</td>
 <td class="fielddoc">
 The number of Bytes per sector (remember, all numbers are in the little-endian format). </td></tr>
 <tr><td class="fieldtype">
-<a id="a18d928e9438cdf920a015dae5f5b3902"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="a18d928e9438cdf920a015dae5f5b3902"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 HiddenSectors</td>
 <td class="fielddoc">
@@ -232,7 +232,7 @@ Sectors16</td>
 <td class="fielddoc">
 The total sectors in the logical volume. If this value is 0, it means there are more than 65535 sectors in the volume, and the actual count is stored in the Large Sector Count entry at 0x20. </td></tr>
 <tr><td class="fieldtype">
-<a id="abff94c704406476bd9d83579da15dea5"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="abff94c704406476bd9d83579da15dea5"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Sectors32</td>
 <td class="fielddoc">
@@ -285,7 +285,7 @@ Number of sectors per track. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> HiddenSectors</td>
+          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> HiddenSectors</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -447,7 +447,7 @@ Number of sectors per track. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> Sectors32</td>
+          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Sectors32</td>
         </tr>
       </table>
 </div><div class="memdoc">

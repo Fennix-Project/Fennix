@@ -92,17 +92,5 @@ var x64_2cr_8hpp =
     [ "CR3", "dd/deb/x64_2cr_8hpp.html#ad27ebd3c86b0ba4061c151d91adf079b", null ],
     [ "CR4", "dd/deb/x64_2cr_8hpp.html#a5b88e2df103ff56fb64f7e91d7c88a72", null ],
     [ "CR8", "dd/deb/x64_2cr_8hpp.html#a5209ea0ec81407b1e670098535b6e80f", null ],
-    [ "XCR0", "dd/deb/x64_2cr_8hpp.html#a5f2f59d4c76e0ae4a2a146aa22c40ee2", null ],
-    [ "readcr0", "dd/deb/x64_2cr_8hpp.html#ad2818ea65caf2b6ae74cfed167e04713", null ],
-    [ "readcr2", "dd/deb/x64_2cr_8hpp.html#a42d222f5eef687a6515a100127d0ddb0", null ],
-    [ "readcr3", "dd/deb/x64_2cr_8hpp.html#a762c68c39dfb078496f3b93b7b24457b", null ],
-    [ "readcr4", "dd/deb/x64_2cr_8hpp.html#a1c441d06906987678228fe4f2ce6a59d", null ],
-    [ "readcr8", "dd/deb/x64_2cr_8hpp.html#ac201df5856b95565e722f15e40a56b3c", null ],
-    [ "readxcr0", "dd/deb/x64_2cr_8hpp.html#a7b34b0957cd5324800f38b5692ffd29e", null ],
-    [ "writecr0", "dd/deb/x64_2cr_8hpp.html#a20fd9538cb2a3b0d36a571ba0bf95b24", null ],
-    [ "writecr2", "dd/deb/x64_2cr_8hpp.html#aa07c11dcd6fc93c81a69041df6ae0f67", null ],
-    [ "writecr3", "dd/deb/x64_2cr_8hpp.html#ada7539710244307b486c967c1f092733", null ],
-    [ "writecr4", "dd/deb/x64_2cr_8hpp.html#a6acbb0cc1e58a5d1e9768255ea3d3b43", null ],
-    [ "writecr8", "dd/deb/x64_2cr_8hpp.html#acc0ca4c1f9e02df15c60ddd3ecd2ea36", null ],
-    [ "writexcr0", "dd/deb/x64_2cr_8hpp.html#afaf1a9bbeac944a994417129a4df5a0c", null ]
+    [ "XCR0", "dd/deb/x64_2cr_8hpp.html#a5f2f59d4c76e0ae4a2a146aa22c40ee2", null ]
 ];

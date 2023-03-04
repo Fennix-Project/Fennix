@@ -89,75 +89,110 @@ $(document).ready(function(){initNavTree('d8/db9/crt1_8asm_source.html','../../'
 <div class="title">crt1.asm</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d8/db9/crt1_8asm.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;; Inspired From: https://github.com/MQuy/mos/blob/master/src/kernel/boot.asm</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;section .multiboot2</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;align 4096</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;HEADER_START:</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    dd 0xE85250D6</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    dd 0</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    dd (HEADER_END - HEADER_START)</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    dd 0x100000000 - (HEADER_END - HEADER_START) - 0 - 0xE85250D6</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;align 8</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;MB2_TAG_START:</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    dw 0</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    dw 0</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    dd MB2_TAG_END - MB2_TAG_START</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;MB2_TAG_END:</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;HEADER_END:</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;KERNEL_VIRTUAL_BASE equ 0xC0000000 ; 3GB</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;KERNEL_PAGE_NUMBER equ (KERNEL_VIRTUAL_BASE &gt;&gt; 22) ; 768</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;KERNEL_STACK_SIZE equ 0x4000 ; 16KB</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;extern x32Multiboot2Entry</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;global _start</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;section .data</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;align 0x1000</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;BootPageTable:</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    dd 0x00000083</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    times ((KERNEL_PAGE_NUMBER) - 1) dd 0</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    dd 0x00000083</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    times (1024 - KERNEL_PAGE_NUMBER - 1) dd 0</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;section .text</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;_start:</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    mov word [0xb8000], 0x074C ; L</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    mov word [0xb8002], 0x076F ; o</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    mov word [0xb8004], 0x0761 ; a</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    mov word [0xb8006], 0x0764 ; d</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    mov word [0xb8008], 0x0769 ; i</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    mov word [0xb800a], 0x076E ; n</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    mov word [0xb800c], 0x0767 ; g</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    mov word [0xb800e], 0x072E ; .</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    mov word [0xb8010], 0x072E ; .</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    mov word [0xb8012], 0x072E ; .</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    mov ecx, (BootPageTable - KERNEL_VIRTUAL_BASE)</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    mov cr3, ecx</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    mov ecx, cr4</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    or ecx, 0x00000010 ; Set PSE in CR4</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    mov cr4, ecx</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    mov ecx, cr0</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    or ecx, 0x80000000 ; Set PG in CR0</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    mov cr0, ecx</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    lea ecx, [HigherHalfStart]</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    jmp ecx</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;HigherHalfStart:</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    mov esp, KernelStack + KERNEL_STACK_SIZE</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    push eax ; Multiboot2 Magic</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    add ebx, KERNEL_VIRTUAL_BASE</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    push ebx ; Multiboot2 Header</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    call x32Multiboot2Entry</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;Loop:</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    hlt</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    jmp Loop</div>
+<a href="../../d8/db9/crt1_8asm.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;; https://wiki.osdev.org/Higher_Half_x86_Bare_Bones</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;; https://wiki.osdev.org/Higher_Half_x86_Bare_Bones_(Backup)</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;section .multiboot2</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;align 4096</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;HEADER_START:</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    dd 0xE85250D6</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    dd 0</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    dd (HEADER_END - HEADER_START)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    dd 0x100000000 - (HEADER_END - HEADER_START) - 0 - 0xE85250D6</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;align 8</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;MB2_INFO_REQUEST_TAG_START:</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    dw 1</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    dw 0</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    dd MB2_INFO_REQUEST_TAG_END - MB2_INFO_REQUEST_TAG_START</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    dd 1 ; Command Line</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    dd 2 ; Boot Loader Name</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    dd 3 ; Module</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    dd 4 ; Basic Memory Information</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    dd 5 ; BIOS Boot Device</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    dd 6 ; Memory Map</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    dd 7 ; VBE</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    dd 8 ; Framebuffer</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    dd 9 ; ELF Sections</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    dd 10 ; APM Table</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    dd 11 ; EFI 32-bit System Table Pointer</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    dd 12 ; EFI 64-bit System Table Pointer</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    ; dd 13 ; SMBIOS</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    dd 14 ; ACPI Old</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    dd 15 ; ACPI New</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    dd 16 ; Network</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    dd 17 ; EFI Memory Map</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    dd 18 ; EFI Boot Services Notifier</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    dd 19 ; EFI 32-bit Image Handle Pointer</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    dd 20 ; EFI 64-bit Image Handle Pointer</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    dd 21 ; Load Base Address</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;MB2_INFO_REQUEST_TAG_END:</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;align 8</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;MB2_TAG_START:</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    dw 0</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    dw 0</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    dd MB2_TAG_END - MB2_TAG_START</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;MB2_TAG_END:</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;HEADER_END:</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;KERNEL_VIRTUAL_BASE equ 0xC0000000 ; 3GB</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;KERNEL_PAGE_NUMBER equ (KERNEL_VIRTUAL_BASE &gt;&gt; 22) ; 768</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;KERNEL_STACK_SIZE equ 0x4000 ; 16KB</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;extern x32Multiboot2Entry</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;global _start</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;section .data</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;align 0x1000</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;BootPageTable:</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    dd 0x00000083</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    dd 0x00000083</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    times (KERNEL_PAGE_NUMBER - 2) dd 0</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    dd 0x00000083</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    dd 0x00000083</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    times (1024 - KERNEL_PAGE_NUMBER - 2) dd 0</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;section .text</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;_start:</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    mov word [0xb8F00], 0x072E ; .</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;section .bss</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;align 16</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;KernelStack : </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    resb KERNEL_STACK_SIZE</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    mov ecx, (BootPageTable - KERNEL_VIRTUAL_BASE)</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    mov cr3, ecx</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    mov word [0xb8F02], 0x072E ; .</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    mov ecx, cr4</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    or ecx, 0x00000010 ; Set PSE in CR4</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    mov cr4, ecx</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    mov word [0xb8F04], 0x072E ; .</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    mov ecx, cr0</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    or ecx, 0x80000000 ; Set PG in CR0</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    mov cr0, ecx</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    mov word [0xb8F06], 0x072E ; .</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    lea ecx, [HigherHalfStart]</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    jmp ecx</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;HigherHalfStart:</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    mov word [0xb8F08], 0x072E ; .</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    mov dword [BootPageTable], 0</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    invlpg [0]</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    mov esp, KernelStack + KERNEL_STACK_SIZE</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    push eax ; Multiboot2 Magic</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    add ebx, KERNEL_VIRTUAL_BASE</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    push ebx ; Multiboot2 Header</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    call x32Multiboot2Entry</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;Loop:</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    hlt</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    jmp Loop</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;section .bss</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;align 16</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;KernelStack : </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    resb KERNEL_STACK_SIZE</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

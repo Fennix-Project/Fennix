@@ -16,6 +16,7 @@ var searchData=
   ['atomic_3c_20tasking_3a_3apcb_20_2a_20_3e_6320',['Atomic&lt; Tasking::PCB * &gt;',['../da/df9/classAtomic.html',1,'']]],
   ['atomic_3c_20tasking_3a_3atcb_20_2a_20_3e_6321',['Atomic&lt; Tasking::TCB * &gt;',['../da/df9/classAtomic.html',1,'']]],
   ['atomic_3c_20uint64_5ft_20_3e_6322',['Atomic&lt; uint64_t &gt;',['../da/df9/classAtomic.html',1,'']]],
-  ['auto_5fptr_6323',['auto_ptr',['../d2/d34/smartptr_8hpp.html#d2/d72/classauto__ptr',1,'']]],
-  ['auxiliaryvector_6324',['AuxiliaryVector',['../df/d31/abi_8h.html#db/d1d/structAuxiliaryVector',1,'']]]
+  ['atomic_5fuint64_5ft_6323',['atomic_uint64_t',['../d0/d18/ArithmeticOperations_8c.html#d0/d1b/structatomic__uint64__t',1,'']]],
+  ['auto_5fptr_6324',['auto_ptr',['../d2/d34/smartptr_8hpp.html#d2/d72/classauto__ptr',1,'']]],
+  ['auxiliaryvector_6325',['AuxiliaryVector',['../df/d31/abi_8h.html#db/d1d/structAuxiliaryVector',1,'']]]
 ];

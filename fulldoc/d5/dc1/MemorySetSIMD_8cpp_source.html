@@ -130,27 +130,29 @@ $(document).ready(function(){initNavTree('d5/dc1/MemorySetSIMD_8cpp_source.html'
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d3/d82/convert_8h.html#a5db362658368a330c4b7608268559f25">   40</a></span>&#160;<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> <span class="keywordtype">void</span> *<a class="code" href="../../d5/dc1/MemorySetSIMD_8cpp.html#a63a6c7867b4bdf5b77a88dcb1c94c98a">memset_sse4_2</a>(<span class="keywordtype">void</span> *dest, <span class="keywordtype">int</span> c, <span class="keywordtype">size_t</span> n)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">char</span> *d = (<span class="keywordtype">char</span> *)dest;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">if</span> (((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)d &amp; 0xF) == 0)</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordtype">size_t</span> num_vectors = n / 16;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; num_vectors; i++)</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;movd %0, %%xmm0\n&quot;</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                 <span class="stringliteral">&quot;pshufd $0, %%xmm0, %%xmm0\n&quot;</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                 <span class="stringliteral">&quot;movdqa %%xmm0, (%1)\n&quot;</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                 :</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                 : <span class="stringliteral">&quot;r&quot;</span>(c), <span class="stringliteral">&quot;r&quot;</span>(d)</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                 : <span class="stringliteral">&quot;xmm0&quot;</span>);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            d += 16;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        n -= num_vectors * 16;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../d3/d82/convert_8h.html#a9c1f204516a55affa9ba118907e5ab6b">memset_unsafe</a>(d, c, n);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> dest;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">char</span> *d = (<span class="keywordtype">char</span> *)dest;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">if</span> (((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)d &amp; 0xF) == 0)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">size_t</span> num_vectors = n / 16;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; num_vectors; i++)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;movd %0, %%xmm0\n&quot;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                 <span class="stringliteral">&quot;pshufd $0, %%xmm0, %%xmm0\n&quot;</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                 <span class="stringliteral">&quot;movdqa %%xmm0, (%1)\n&quot;</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                 :</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                 : <span class="stringliteral">&quot;r&quot;</span>(c), <span class="stringliteral">&quot;r&quot;</span>(d)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                 : <span class="stringliteral">&quot;xmm0&quot;</span>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            d += 16;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        n -= num_vectors * 16;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d3/d82/convert_8h.html#a9c1f204516a55affa9ba118907e5ab6b">memset_unsafe</a>(d, c, n);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">return</span> dest;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00025">types.h:25</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00137">types.h:137</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a95e1d92b2619a326b2e86600f3d23100"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a></div><div class="ttdeci">#define EXTERNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00012">types.h:12</a></div></div>

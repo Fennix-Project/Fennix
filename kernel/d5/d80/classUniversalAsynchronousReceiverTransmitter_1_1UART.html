@@ -133,7 +133,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#if defined(a64) || defined(a32)</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144">Port</a> == <a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96ab7bdf48d2432a2edc774890c26d90177">COMNULL</a>)</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
@@ -255,7 +255,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00121">121</a> of file <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    {</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">#if defined(a64) || defined(a32)</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">while</span> ((NoProfiler_inportb(<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144">Port</a> + 5) &amp; 1) == 0)</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            ;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">return</span> NoProfiler_inportb(<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144">Port</a>);</div>
@@ -264,7 +264,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        {</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">if</span> (e-&gt;GetRegisteredPort() == <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144">Port</a> || e-&gt;GetRegisteredPort() == <a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96ab7bdf48d2432a2edc774890c26d90177">COMNULL</a>)</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            {</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">#if defined(a64) || defined(a32)</span></div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                e-&gt;OnReceived(NoProfiler_inportb(<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144">Port</a>));</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            }</div>
@@ -294,7 +294,7 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">#if defined(__amd64__) || defined(__i386__)</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">#if defined(a64) || defined(a32)</span></div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">while</span> ((NoProfiler_inportb(<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144">Port</a> + 5) &amp; <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a24d34fa48d2b9d56f6654951de9f1442">SERIAL_BUFFER_EMPTY</a>) == 0)</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            ;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        NoProfiler_outportb(<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#ab8fe0fc3fd305d14e496ee8d63b1e144">Port</a>, Char);</div>

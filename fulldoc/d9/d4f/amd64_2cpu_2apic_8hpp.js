@@ -103,7 +103,7 @@ var amd64_2cpu_2apic_8hpp =
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__attribute__.__unnamed26__", "d3/d88/namespaceAPIC.html#d4/d41/structAPIC_1_1____attribute_____8____unnamed26____", [
+    [ "__attribute__.__unnamed25__", "d3/d88/namespaceAPIC.html#df/d77/structAPIC_1_1____attribute_____8____unnamed25____", [
       [ "Destination", "d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244", null ],
       [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
       [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],

@@ -365,7 +365,5 @@ var x64_2msr_8hpp =
       [ "MSR_TSC_AUX", "d4/db2/x64_2msr_8hpp.html#a54d16e130528efcdb696a7571814f3bda2f32e228995108a58fc2139a437472d4", null ],
       [ "MSR_CR_PAT", "d4/db2/x64_2msr_8hpp.html#a54d16e130528efcdb696a7571814f3bdafbfebe0af1bf7a2100f2aedecdf3919d", null ],
       [ "MSR_CR_PAT_RESET", "d4/db2/x64_2msr_8hpp.html#a54d16e130528efcdb696a7571814f3bdabcf0ea7070310a6ac64aff9438d61052", null ]
-    ] ],
-    [ "rdmsr", "d4/db2/x64_2msr_8hpp.html#a5b1d317aae7bb9ece6f1cff81c160b8a", null ],
-    [ "wrmsr", "d4/db2/x64_2msr_8hpp.html#a050b47533903f16c55b5dbf7edf5a166", null ]
+    ] ]
 ];

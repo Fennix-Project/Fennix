@@ -34,15 +34,15 @@ var x64_2cr_8hpp =
       [ "TS", "d9/d25/namespaceCPU_1_1x64.html#a6ba89ab41823af9b65ea5d233031b9f8", null ],
       [ "WP", "d9/d25/namespaceCPU_1_1x64.html#a84aee62cd1bc3644a3a81a8352b36d4f", null ]
     ] ],
-    [ "CR2.__unnamed583__", "d9/d25/namespaceCPU_1_1x64.html#d1/d85/structCPU_1_1x64_1_1CR2_8____unnamed583____", [
+    [ "CR2.__unnamed593__", "d9/d25/namespaceCPU_1_1x64.html#da/d41/structCPU_1_1x64_1_1CR2_8____unnamed593____", [
       [ "PFLA", "d9/d25/namespaceCPU_1_1x64.html#a3bdf404879d25f8d92b0cf7f0d56ff4a", null ]
     ] ],
-    [ "CR3.__unnamed585__", "d9/d25/namespaceCPU_1_1x64.html#d7/da8/structCPU_1_1x64_1_1CR3_8____unnamed585____", [
+    [ "CR3.__unnamed598__", "d9/d25/namespaceCPU_1_1x64.html#d0/d1f/structCPU_1_1x64_1_1CR3_8____unnamed598____", [
       [ "PCD", "d9/d25/namespaceCPU_1_1x64.html#a64bd82be2f900e31c0c58b47fb919c28", null ],
       [ "PDBR", "d9/d25/namespaceCPU_1_1x64.html#ab9b0a89c81249ad2e2e0784cf852e768", null ],
       [ "PWT", "d9/d25/namespaceCPU_1_1x64.html#aa8ed3a0df35c06b217f95a9d52b23881", null ]
     ] ],
-    [ "CR4.__unnamed587__", "d9/d25/namespaceCPU_1_1x64.html#df/d3a/structCPU_1_1x64_1_1CR4_8____unnamed587____", [
+    [ "CR4.__unnamed607__", "d9/d25/namespaceCPU_1_1x64.html#d6/d99/structCPU_1_1x64_1_1CR4_8____unnamed607____", [
       [ "CET", "d9/d25/namespaceCPU_1_1x64.html#a7e706fb31ff4653c9554f30ff1ad542c", null ],
       [ "DE", "d9/d25/namespaceCPU_1_1x64.html#a3a52f3c22ed6fcde5bf696a6c02c9e73", null ],
       [ "FSGSBASE", "d9/d25/namespaceCPU_1_1x64.html#af3a69264228a8d0b970ea1595026c80e", null ],
@@ -70,10 +70,10 @@ var x64_2cr_8hpp =
       [ "VME", "d9/d25/namespaceCPU_1_1x64.html#a5b382b19324e0a71d404284d5c312804", null ],
       [ "VMXE", "d9/d25/namespaceCPU_1_1x64.html#ace4cbb42b611af13fab5dc8f9303fd14", null ]
     ] ],
-    [ "CR8.__unnamed607__", "d9/d25/namespaceCPU_1_1x64.html#d5/de4/structCPU_1_1x64_1_1CR8_8____unnamed607____", [
+    [ "CR8.__unnamed619__", "d9/d25/namespaceCPU_1_1x64.html#d3/dea/structCPU_1_1x64_1_1CR8_8____unnamed619____", [
       [ "TPL", "d9/d25/namespaceCPU_1_1x64.html#aafec6abed17f07d98bb4ec07dc071c96", null ]
     ] ],
-    [ "XCR0.__unnamed613__", "d9/d25/namespaceCPU_1_1x64.html#db/dee/structCPU_1_1x64_1_1XCR0_8____unnamed613____", [
+    [ "XCR0.__unnamed625__", "d9/d25/namespaceCPU_1_1x64.html#d6/d16/structCPU_1_1x64_1_1XCR0_8____unnamed625____", [
       [ "AVX", "d9/d25/namespaceCPU_1_1x64.html#a4863502abea45861b9ed022e66d66cb2", null ],
       [ "BNDCSR", "d9/d25/namespaceCPU_1_1x64.html#a0743cfdcae3db10c39a3c269a8a6bd01", null ],
       [ "BNDREG", "d9/d25/namespaceCPU_1_1x64.html#a4746cd6e19e5496c6f0c684bc02db529", null ],
@@ -92,17 +92,5 @@ var x64_2cr_8hpp =
     [ "CR3", "dd/deb/x64_2cr_8hpp.html#ad27ebd3c86b0ba4061c151d91adf079b", null ],
     [ "CR4", "dd/deb/x64_2cr_8hpp.html#a5b88e2df103ff56fb64f7e91d7c88a72", null ],
     [ "CR8", "dd/deb/x64_2cr_8hpp.html#a5209ea0ec81407b1e670098535b6e80f", null ],
-    [ "XCR0", "dd/deb/x64_2cr_8hpp.html#a5f2f59d4c76e0ae4a2a146aa22c40ee2", null ],
-    [ "readcr0", "dd/deb/x64_2cr_8hpp.html#ad2818ea65caf2b6ae74cfed167e04713", null ],
-    [ "readcr2", "dd/deb/x64_2cr_8hpp.html#a42d222f5eef687a6515a100127d0ddb0", null ],
-    [ "readcr3", "dd/deb/x64_2cr_8hpp.html#a762c68c39dfb078496f3b93b7b24457b", null ],
-    [ "readcr4", "dd/deb/x64_2cr_8hpp.html#a1c441d06906987678228fe4f2ce6a59d", null ],
-    [ "readcr8", "dd/deb/x64_2cr_8hpp.html#ac201df5856b95565e722f15e40a56b3c", null ],
-    [ "readxcr0", "dd/deb/x64_2cr_8hpp.html#a7b34b0957cd5324800f38b5692ffd29e", null ],
-    [ "writecr0", "dd/deb/x64_2cr_8hpp.html#a20fd9538cb2a3b0d36a571ba0bf95b24", null ],
-    [ "writecr2", "dd/deb/x64_2cr_8hpp.html#aa07c11dcd6fc93c81a69041df6ae0f67", null ],
-    [ "writecr3", "dd/deb/x64_2cr_8hpp.html#ada7539710244307b486c967c1f092733", null ],
-    [ "writecr4", "dd/deb/x64_2cr_8hpp.html#a6acbb0cc1e58a5d1e9768255ea3d3b43", null ],
-    [ "writecr8", "dd/deb/x64_2cr_8hpp.html#acc0ca4c1f9e02df15c60ddd3ecd2ea36", null ],
-    [ "writexcr0", "dd/deb/x64_2cr_8hpp.html#afaf1a9bbeac944a994417129a4df5a0c", null ]
+    [ "XCR0", "dd/deb/x64_2cr_8hpp.html#a5f2f59d4c76e0ae4a2a146aa22c40ee2", null ]
 ];

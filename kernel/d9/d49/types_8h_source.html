@@ -299,17 +299,17 @@ $(document).ready(function(){initNavTree('d9/d49/types_8h_source.html','../../')
 <div class="line"><a name="l00208"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#ad3f7b6bb8aa7d619017a91d3b2edc1ee">  208</a></span>&#160;<span class="preprocessor">#define WINT_MAX __WINT_MAX__</span></div>
 <div class="line"><a name="l00209"></a><span class="lineno"><a class="line" href="../../d9/d49/types_8h.html#a5285bc55170ae1701e599decacc7f001">  209</a></span>&#160;<span class="preprocessor">#define WINT_MIN __WINT_MIN__</span></div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor">#if defined(__amd64__)</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor">#define BREAK __asm__ __volatile__(&quot;int $0x3&quot;</span> \</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                                   :          \</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                                   :          \</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                                   : &quot;memory&quot;);</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="preprocessor">#elif defined(__i386__)</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<span class="preprocessor">#define BREAK __asm__ __volatile__(&quot;int $0x3&quot;</span> \</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                                   :          \</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                                   :          \</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                   : &quot;memory&quot;);</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="preprocessor">#elif defined(__aarch64__)</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="preprocessor">#define BREAK __asm__ __volatile__(&quot;brk #0&quot;</span> \</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                                   :        \</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                                   :        \</div>
