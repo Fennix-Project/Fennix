@@ -1,7 +1,5 @@
 var NAVTREEINDEX60 =
 {
-"namespacemembers_eval_v.html":[6,1,5,20],
-"namespacemembers_eval_w.html":[6,1,5,21],
 "namespacemembers_eval_x.html":[6,1,5,22],
 "namespacemembers_f.html":[6,1,0,6],
 "namespacemembers_func.html":[6,1,1],

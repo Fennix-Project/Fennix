@@ -1,7 +1,5 @@
 var NAVTREEINDEX58 =
 {
-"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#adb199f456c9d65e1c19cf65938865148":[8,0,0,5,1,0,0,0,80,2],
-"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#adb888462b86e5abfc39f11c9239834af":[8,0,0,5,1,0,0,0,9,3],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#adb8c5dc27923b8875d36a7412a8c5ef1":[8,0,0,5,1,0,0,0,10,0],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#adece6c7e4886e3844b5e461d5fcce3a0":[8,0,0,5,1,0,0,0,98,1],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#ae08da0aff6034d39c1e70efa0f2e86aa":[8,0,0,5,1,0,0,0,98,7],
@@ -25,8 +23,8 @@ var NAVTREEINDEX58 =
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#af1815ef33cbdfc91a6c12fc6ce34caec":[8,0,0,5,1,0,0,0,24,25],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#af3f864c1a932b3425d7b03a849748bd2":[8,0,0,5,1,0,0,0,28,1],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#af4bef6cd6266082526bb4e7a5fe0ce63":[8,0,0,5,1,0,0,0,28,3],
-"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#af4e7952302d93f100a8f19e1f87ad783":[8,0,0,5,1,0,0,0,26,3],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#af4e7952302d93f100a8f19e1f87ad783":[8,0,0,5,1,0,0,0,50,1],
+"df/dcc/namespaceCPU_1_1x32_1_1AMD.html#af4e7952302d93f100a8f19e1f87ad783":[8,0,0,5,1,0,0,0,26,3],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#af5440667bf7ac6c8ccb87239b6d81e58":[8,0,0,5,1,0,0,0,9,0],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#af7ac6ee24466fcf63a3a62670610805b":[8,0,0,5,1,0,0,0,10,2],
 "df/dcc/namespaceCPU_1_1x32_1_1AMD.html#afbffaed0d9e7768c8c1e92660ad5af6d":[8,0,0,5,1,0,0,0,6,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX58 =
 "functions_c.html":[7,3,0,3],
 "functions_d.html":[7,3,0,4],
 "functions_e.html":[7,3,0,5],
-"functions_enum.html":[7,3,4]
+"functions_enum.html":[7,3,4],
+"functions_eval.html":[7,3,5],
+"functions_f.html":[7,3,0,6]
 };

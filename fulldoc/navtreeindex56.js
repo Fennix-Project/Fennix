@@ -1,7 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"df/d34/structatexit__func__entry__t.html":[7,0,54],
-"df/d34/structatexit__func__entry__t.html#a5e24891568118c804dd79bb310180cf0":[7,0,54,2],
 "df/d34/structatexit__func__entry__t.html#a7b404fd43dd4109ba19546e707cf1228":[7,0,54,0],
 "df/d34/structatexit__func__entry__t.html#a859d232310a698758c7c4aabc791d01e":[7,0,54,1],
 "df/d51/FileLoader_8h.html":[8,0,1,1,0,5],
@@ -138,14 +136,14 @@ var NAVTREEINDEX56 =
 "df/d9c/classAPIC_1_1Timer.html":[7,0,1,2],
 "df/d9c/classAPIC_1_1Timer.html#a0cce675d0483cb6470dc8f2c7d21204d":[7,0,1,2,8],
 "df/d9c/classAPIC_1_1Timer.html#a0e50d16a7fbb2b6e389c4d6ad304bc7a":[7,0,1,2,9],
-"df/d9c/classAPIC_1_1Timer.html#a10be503a95f58fcfa6af65c6216f9519":[7,0,1,2,5],
 "df/d9c/classAPIC_1_1Timer.html#a10be503a95f58fcfa6af65c6216f9519":[7,0,1,2,4],
+"df/d9c/classAPIC_1_1Timer.html#a10be503a95f58fcfa6af65c6216f9519":[7,0,1,2,5],
 "df/d9c/classAPIC_1_1Timer.html#a24d347096069c31012b9ffa1b618f873":[7,0,1,2,3],
 "df/d9c/classAPIC_1_1Timer.html#a24d347096069c31012b9ffa1b618f873":[7,0,1,2,1],
-"df/d9c/classAPIC_1_1Timer.html#a3c6102f09b04fce53bc2e48ca3de722c":[7,0,1,2,6],
 "df/d9c/classAPIC_1_1Timer.html#a3c6102f09b04fce53bc2e48ca3de722c":[7,0,1,2,7],
-"df/d9c/classAPIC_1_1Timer.html#a69d1819111f3af00978b15163550057f":[7,0,1,2,2],
+"df/d9c/classAPIC_1_1Timer.html#a3c6102f09b04fce53bc2e48ca3de722c":[7,0,1,2,6],
 "df/d9c/classAPIC_1_1Timer.html#a69d1819111f3af00978b15163550057f":[7,0,1,2,0],
+"df/d9c/classAPIC_1_1Timer.html#a69d1819111f3af00978b15163550057f":[7,0,1,2,2],
 "df/d9c/classAPIC_1_1Timer.html#a7bf91dfc9d55264cefb38c864dd19419":[7,0,1,2,10],
 "df/d9c/classAPIC_1_1Timer.html#aff04c0acc36dcc59f310f37a6af188f3":[7,0,1,2,11],
 "df/da5/x32_2cr_8hpp.html":[8,0,0,5,1,0,0,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX56 =
 "df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#a425d458c7a75251b249fe7a88b361267":[7,0,27,9,3],
 "df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#a5d537caf762181acdca130cdbf61e90f":[7,0,27,9,4],
 "df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#a74803dea611d47fedc72bff287b25fe3":[7,0,27,9,1],
-"df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#aa2c5ab15c2ab85684d2777f1320024ab":[7,0,27,9,0]
+"df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#aa2c5ab15c2ab85684d2777f1320024ab":[7,0,27,9,0],
+"df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#aad9e47c2425ebf1dbaf7551c9da04155":[7,0,27,9,5],
+"df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#abcecdd267b3f4d108f7bbcbbf8a018e8":[7,0,27,9,6]
 };

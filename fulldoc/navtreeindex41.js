@@ -1,7 +1,5 @@
 var NAVTREEINDEX41 =
 {
-"da/dcd/namespaceNetworkEthernet.html#affa81c9ebe3e460ea4c695ea14b1a657":[8,0,0,5,3,3,0,0],
-"da/dcd/namespaceNetworkEthernet.html#d3/dad/structNetworkEthernet_1_1EthernetEventHelperStruct":[8,0,0,7,4,0],
 "da/dcd/namespaceNetworkEthernet.html#d5/d7a/structNetworkEthernet_1_1EthernetPacket":[8,0,0,5,3,3,1],
 "da/dcd/namespaceNetworkEthernet.html#d6/df6/structNetworkEthernet_1_1EthernetHeader":[8,0,0,5,3,3,0],
 "da/ddb/classXalloc_1_1SmartSMAPClass.html":[7,0,34,2],
@@ -233,15 +231,15 @@ var NAVTREEINDEX41 =
 "db/d96/structBootInfo.html#a44f742145baaf1c58fba9692438370d6":[8,0,0,5,0,1,4,0],
 "db/d96/structBootInfo.html#a45a7b8838fcf9d2d1cc73c7639156b06":[8,0,0,5,0,1,5,7],
 "db/d96/structBootInfo.html#a45a7b8838fcf9d2d1cc73c7639156b06":[7,0,60,5,7],
-"db/d96/structBootInfo.html#a551646aa90577dd36ee59d4105bfd300":[8,0,0,5,0,1,1,7],
 "db/d96/structBootInfo.html#a551646aa90577dd36ee59d4105bfd300":[7,0,60,1,7],
-"db/d96/structBootInfo.html#a5862918f2b61fe8838bdea968208fa13":[7,0,60,1,4],
+"db/d96/structBootInfo.html#a551646aa90577dd36ee59d4105bfd300":[8,0,0,5,0,1,1,7],
 "db/d96/structBootInfo.html#a5862918f2b61fe8838bdea968208fa13":[8,0,0,5,0,1,1,4],
+"db/d96/structBootInfo.html#a5862918f2b61fe8838bdea968208fa13":[7,0,60,1,4],
 "db/d96/structBootInfo.html#a598c1345619bbfe6c0705b0c49de3199":[7,0,60,5,4],
 "db/d96/structBootInfo.html#a598c1345619bbfe6c0705b0c49de3199":[8,0,0,5,0,1,5,4],
 "db/d96/structBootInfo.html#a5ae01a51310fc4c14ef875840ed44a2f":[8,0,0,5,0,1,2,0,1],
-"db/d96/structBootInfo.html#a5ae01a51310fc4c14ef875840ed44a2f":[7,0,60,3,0,1],
 "db/d96/structBootInfo.html#a5ae01a51310fc4c14ef875840ed44a2f":[8,0,0,5,0,1,3,1],
+"db/d96/structBootInfo.html#a5ae01a51310fc4c14ef875840ed44a2f":[7,0,60,3,0,1],
 "db/d96/structBootInfo.html#a6425ccbd922fcc7fc262ae461f908c80":[7,0,60,1,9],
 "db/d96/structBootInfo.html#a6425ccbd922fcc7fc262ae461f908c80":[8,0,0,5,0,1,1,9],
 "db/d96/structBootInfo.html#a66f34d5eae212d81e4f13032903863a4":[7,0,60,11],
@@ -249,5 +247,7 @@ var NAVTREEINDEX41 =
 "db/d96/structBootInfo.html#a6b7fed1a6e0f9b3d85983476d729c403":[7,0,60,3,3],
 "db/d96/structBootInfo.html#a6eea128557cf9753a128c9dff1406630":[7,0,60,1,8],
 "db/d96/structBootInfo.html#a6eea128557cf9753a128c9dff1406630":[8,0,0,5,0,1,1,8],
-"db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19":[7,0,60,12]
+"db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19":[7,0,60,12],
+"db/d96/structBootInfo.html#a86213470ee1c71a9b04ba4352091ba43":[8,0,0,5,0,1,5,5],
+"db/d96/structBootInfo.html#a86213470ee1c71a9b04ba4352091ba43":[7,0,60,5,5]
 };

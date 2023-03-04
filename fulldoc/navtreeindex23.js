@@ -1,7 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a151aba0f5216f762746bf9bfb8a6a8b4":[7,0,8,6,4],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a1893873e06195e73890ffa178e6f4879":[7,0,8,6,18],
 "d6/d43/classGraphicalUserInterface_1_1GUI.html#a1b5fdda9d6b8cf50af582d765bf96399":[7,0,8,6,6],
 "d6/d43/classGraphicalUserInterface_1_1GUI.html#a1e7ea170c68785c5adc2d004c038bc13":[7,0,8,6,1],
 "d6/d43/classGraphicalUserInterface_1_1GUI.html#a20503213a25b0ba6f488d347ad6c2900":[7,0,8,6,24],
@@ -249,5 +247,7 @@ var NAVTREEINDEX23 =
 "d7/d21/InterruptDescriptorTable_8cpp.html#a11725ead203546f02fa848ca9ae5cf3b":[8,0,0,0,1,0,5,31],
 "d7/d21/InterruptDescriptorTable_8cpp.html#a144815f221e87e0338e083162f90ca79":[8,0,0,0,1,0,5,26],
 "d7/d21/InterruptDescriptorTable_8cpp.html#a29a0f4b501e81633a741ed838dace121":[8,0,0,0,1,0,5,36],
-"d7/d21/InterruptDescriptorTable_8cpp.html#a2d9560d834d891b9d8f0e76ced1bc8a7":[8,0,0,0,1,0,5,42]
+"d7/d21/InterruptDescriptorTable_8cpp.html#a2d9560d834d891b9d8f0e76ced1bc8a7":[8,0,0,0,1,0,5,42],
+"d7/d21/InterruptDescriptorTable_8cpp.html#a309bb2bbfd79c26f7bb0261aaab69209":[8,0,0,0,1,0,5,27],
+"d7/d21/InterruptDescriptorTable_8cpp.html#a32dadf6743f47b28b7fdd52fb296bb6a":[8,0,0,0,1,0,5,3]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09":[8,0,0,5,32,4],
-"d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a125fb583d30b068607360fd8d1276454":[8,0,0,5,32,4,7],
 "d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a25e9267b27016f85c9c4278bda4db176":[8,0,0,5,32,4,6],
 "d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a269e92f06c328cbd8220711581e43a6c":[8,0,0,5,32,4,9],
 "d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a499542fd4cf0e354ec4a666baa3c3f26":[8,0,0,5,32,4,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX39 =
 "da/d5f/namespaceSMBIOS.html#adca1d7fbe7ca7f2ddb01065958b2e848":[8,0,0,1,13,1,1],
 "da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30":[6,0,30,22],
 "da/d5f/namespaceSMBIOS.html#ae3382ba080dc48b747f06b169360434a":[6,0,30,21],
-"da/d5f/namespaceSMBIOS.html#afea14b109675868b6b1d7d5896a6b5e1":[6,0,30,13]
+"da/d5f/namespaceSMBIOS.html#afea14b109675868b6b1d7d5896a6b5e1":[6,0,30,13],
+"da/d5f/namespaceSMBIOS.html#afed42e99a7695b840602de178a914721":[8,0,0,1,13,1,9],
+"da/d5f/namespaceSMBIOS.html#da/dc0/structSMBIOS_1_1SMBIOSHeader":[8,0,0,1,13,0]
 };
