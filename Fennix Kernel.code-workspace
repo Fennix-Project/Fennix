@@ -131,6 +131,7 @@
 			"INTX",
 			"invlpg",
 			"ioapic",
+			"ioapicirq",
 			"IPCID",
 			"iretq",
 			"isdelim",
