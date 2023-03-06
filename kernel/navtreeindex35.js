@@ -1,5 +1,12 @@
 var NAVTREEINDEX35 =
 {
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d5/d4d/unionCPU_1_1x64_1_1AMD_1_1CPUID0x80000003_8ECX":[7,0,0,5,1,0,1,0,63],
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d5/d63/structCPU_1_1x64_1_1AMD_1_1CPUID0x2_8EBX_8____unnamed479____":[7,0,0,5,1,0,1,0,30],
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d5/d7c/unionCPU_1_1x64_1_1AMD_1_1CPUID0x80000004_8ECX":[7,0,0,5,1,0,1,0,71],
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d5/d95/structCPU_1_1x64_1_1AMD_1_1CPUID0x80000004_8EAX_8____unnamed537____":[7,0,0,5,1,0,1,0,68],
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d5/de4/structCPU_1_1x64_1_1AMD_1_1CPUID0x80000007_8EDX_8____unnamed579____":[7,0,0,5,1,0,1,0,98],
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d6/d0f/unionCPU_1_1x64_1_1AMD_1_1CPUID0x80000001_8EAX":[7,0,0,5,1,0,1,0,43],
+"d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d6/d1a/unionCPU_1_1x64_1_1AMD_1_1CPUID0x80000002_8EAX":[7,0,0,5,1,0,1,0,51],
 "d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d6/d26/unionCPU_1_1x64_1_1AMD_1_1CPUID0x1_8ECX":[7,0,0,5,1,0,1,0,23],
 "d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d6/d45/unionCPU_1_1x64_1_1AMD_1_1CPUID0x40000000_8EDX":[7,0,0,5,1,0,1,0,41],
 "d9/da9/namespaceCPU_1_1x64_1_1AMD.html#d6/d4c/structCPU_1_1x64_1_1AMD_1_1CPUID0x2_8ECX_8____unnamed481____":[7,0,0,5,1,0,1,0,32],
@@ -242,12 +249,5 @@ var NAVTREEINDEX35 =
 "da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a45f952e83977f8609f684837bd549135":[7,0,0,5,1,0,2,0,18],
 "da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a4bfcbd5d4caf1bdd30bed63ca8e410ea":[7,0,0,5,1,0,2,0,2],
 "da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a52ceef7cf20db59d8127a1d7d4c42718":[7,0,0,5,1,0,2,0,19],
-"da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a53b80cc62362570214e98cb8882a8b12":[7,0,0,5,1,0,2,0,3],
-"da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a553aa52c77ca2d198a3905a8c0d8e3d3":[7,0,0,5,1,0,2,0,17],
-"da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a63f78a48cc39fbda9817e8a4fef52cb6":[7,0,0,5,1,0,2,0,13],
-"da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a64061fddbae1a88a82218e9594567675":[7,0,0,5,1,0,2,0,20],
-"da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a66fedb220bb8aa59b5e559227858bd78":[7,0,0,5,1,0,2,0,15],
-"da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a9c428a2dd8a80d8469a2612a621b2804":[7,0,0,5,1,0,2,0,5],
-"da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a9d17a916d42070f31d7ee2422d42310c":[7,0,0,5,1,0,2,0,0],
-"da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41acfd24af16869a164ad96f29f475060a6":[7,0,0,5,1,0,2,0,10]
+"da/d49/exceptions_8hpp.html#a19a49ae27a4f5a5479e9ca8a99892d41a53b80cc62362570214e98cb8882a8b12":[7,0,0,5,1,0,2,0,3]
 };

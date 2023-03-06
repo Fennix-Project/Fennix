@@ -47,6 +47,7 @@ var classGraphicalUserInterface_1_1Window =
     [ "OnPaintOverlay", "d2/d89/classGraphicalUserInterface_1_1Window.html#a83a73eac7a24635d6b25f2899e5bddfd", null ],
     [ "OnResize", "d2/d89/classGraphicalUserInterface_1_1Window.html#a55920433b647744ce4e203edc2de354a", null ],
     [ "OnShow", "d2/d89/classGraphicalUserInterface_1_1Window.html#ae23e1679a8b0905cf5aab5baac6cecc5", null ],
+    [ "SetTitle", "d2/d89/classGraphicalUserInterface_1_1Window.html#ab18f666f2a78cec773a670e86b58269b", null ],
     [ "Buffer", "d2/d89/classGraphicalUserInterface_1_1Window.html#a43c22db2a0fbd86fcc36cf3b857da34a", null ],
     [ "LastPosition", "d2/d89/classGraphicalUserInterface_1_1Window.html#a2584ebcb894b8589fdd0aa4f8e2cc07d", null ],
     [ "Maximized", "d2/d89/classGraphicalUserInterface_1_1Window.html#a567f6afcf94f544fcbfd68ceb2c91444", null ],

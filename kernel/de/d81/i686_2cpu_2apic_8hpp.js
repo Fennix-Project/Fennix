@@ -7,7 +7,7 @@ var i686_2cpu_2apic_8hpp =
     ] ],
     [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ],
     [ "Timer", "df/d9c/classAPIC_1_1Timer.html", "df/d9c/classAPIC_1_1Timer" ],
-    [ "__attribute__.__unnamed20__", "d3/d88/namespaceAPIC.html#dd/d48/structAPIC_1_1____attribute_____8____unnamed20____", [
+    [ "__attribute__.__unnamed19__", "d3/d88/namespaceAPIC.html#dd/d94/structAPIC_1_1____attribute_____8____unnamed19____", [
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "Mask", "d3/d88/namespaceAPIC.html#a4a18312b5b75f549d5551e5912ad6ebf", null ],
       [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],

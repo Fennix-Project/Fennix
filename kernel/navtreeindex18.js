@@ -1,5 +1,11 @@
 var NAVTREEINDEX18 =
 {
+"d5/d32/classXalloc_1_1V1.html#ae59341c475fe586110ae36b6593902b1":[6,0,34,0,8],
+"d5/d32/classXalloc_1_1V1.html#ae5de7fffb81540a2716ea2e6e4268d30":[6,0,34,0,9],
+"d5/d32/classXalloc_1_1V1.html#aeb1b733966ede19a2f00a90557ac7ea3":[6,0,34,0,13],
+"d5/d32/classXalloc_1_1V1.html#aeb84faee01866855aff91355c61a8e47":[6,0,34,0,12],
+"d5/d42/StackFrame_8cpp.html":[7,0,0,1,0,0,3],
+"d5/d42/StackFrame_8cpp.html#a651eb870dc183c33fb5a203b2b7a01d5":[7,0,0,1,0,0,3,0],
 "d5/d42/StackFrame_8cpp_source.html":[7,0,0,1,0,0,3],
 "d5/d6a/Memory_2StackGuard_8cpp.html":[7,0,0,1,3,5],
 "d5/d6a/Memory_2StackGuard_8cpp_source.html":[7,0,0,1,3,5],
@@ -243,11 +249,5 @@ var NAVTREEINDEX18 =
 "d5/dba/multiboot2_8h.html#a5356113fb7e9e82c081374a6ab2ae509":[7,0,0,5,0,0,0,0,2],
 "d5/dba/multiboot2_8h.html#a543fb87729a64b16b113854d88063f2d":[7,0,0,5,0,0,0,20,2],
 "d5/dba/multiboot2_8h.html#a54e4094be002e6572caa5d93b09ab74c":[7,0,0,5,0,0,0,3,3],
-"d5/dba/multiboot2_8h.html#a55b168cfeec194a071b66aea1b7b222a":[7,0,0,5,0,0,0,3,6],
-"d5/dba/multiboot2_8h.html#a56a7da386ccd0c46607547495a67097f":[7,0,0,5,0,0,0,23,8],
-"d5/dba/multiboot2_8h.html#a5e2b12abb589dc98859ddd9b0d59cda5":[7,0,0,5,0,0,0,28,0],
-"d5/dba/multiboot2_8h.html#a5f362805d0e7fa1c771028c37fc938e7":[7,0,0,5,0,0,0,6,3],
-"d5/dba/multiboot2_8h.html#a614fcde325d8c11c6a1e86b4e392815f":[7,0,0,5,0,0,0,20,8],
-"d5/dba/multiboot2_8h.html#a624e0ed5b28b1f5b82cc5ef8ce9b92cc":[7,0,0,5,0,0,0,7,1],
-"d5/dba/multiboot2_8h.html#a62da2cb6b784bde170b7928d79a44d18":[7,0,0,5,0,0,0,5,0]
+"d5/dba/multiboot2_8h.html#a55b168cfeec194a071b66aea1b7b222a":[7,0,0,5,0,0,0,3,6]
 };

@@ -6,5 +6,7 @@ var RecoveryMain_8cpp =
     [ "RecoveryThreadWrapper", "d4/dc6/RecoveryMain_8cpp.html#a68e17f929da07be0342232e7ebb6da22", null ],
     [ "ShutdownCommandThread", "d4/dc6/RecoveryMain_8cpp.html#acbe17b004e599019348e61d4764f8c4c", null ],
     [ "ShutdownCommandWrapper", "d4/dc6/RecoveryMain_8cpp.html#a737551b302636f7ab7c2c48a89231314", null ],
-    [ "gui", "d4/dc6/RecoveryMain_8cpp.html#a926b5e2fe20c2ea772f5892ba36e5af6", null ]
+    [ "DbgWin", "d4/dc6/RecoveryMain_8cpp.html#a40d7cc4fa3365bb8654a50f8a6290926", null ],
+    [ "gui", "d4/dc6/RecoveryMain_8cpp.html#a926b5e2fe20c2ea772f5892ba36e5af6", null ],
+    [ "wdgDbgWin", "d4/dc6/RecoveryMain_8cpp.html#a28dfbc5c45eda8f4195f6b888862fcb6", null ]
 ];

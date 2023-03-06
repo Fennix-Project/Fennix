@@ -33,6 +33,7 @@ var types_8h =
     [ "__section", "d9/d49/types_8h.html#a4d0b72ccc36b88935355451e332b5deb", null ],
     [ "__sentinel", "d9/d49/types_8h.html#a612ccffe28887ff67b9c64f08a6f70a8", null ],
     [ "__sentinel_all", "d9/d49/types_8h.html#af7f1c55cb34fad3353921d466f5c8ce5", null ],
+    [ "__SIG_ATOMIC_TYPE__", "d9/d49/types_8h.html#ac60fe3845f87fdaf6365a733ede87cfe", null ],
     [ "__sync", "d9/d49/types_8h.html#a86105344cddf0ca9db6a3996854bad50", null ],
     [ "__synchronize", "d9/d49/types_8h.html#a02f82dc52841c56eb88f93df6156e770", null ],
     [ "__unused", "d9/d49/types_8h.html#a2e3484535ee610c8e19e9859563abe48", null ],

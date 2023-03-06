@@ -1,5 +1,14 @@
 var NAVTREEINDEX22 =
 {
+"d5/dba/multiboot2_8h.html#a8d5c56032a1b70f41a6b780fb18b3ac8":[8,0,0,5,0,0,0,2,1],
+"d5/dba/multiboot2_8h.html#a8d82e38b5d8b110027acc7c21b4a853d":[8,0,0,5,0,0,0,23,5],
+"d5/dba/multiboot2_8h.html#a8dfdd61648b48aa31845db590970e06a":[8,0,0,5,0,0,0,96],
+"d5/dba/multiboot2_8h.html#a8e2af641ff42074bb807c3ec9e33b2e0":[8,0,0,5,0,0,0,44],
+"d5/dba/multiboot2_8h.html#a8e9b14e399bb744ce5c6aad3d67854a1":[8,0,0,5,0,0,0,20,4],
+"d5/dba/multiboot2_8h.html#a8eeb1be420c7ef3a932cb747937d9897":[8,0,0,5,0,0,0,32,0],
+"d5/dba/multiboot2_8h.html#a9062cb77271b7ed69970ede5c90a50ad":[8,0,0,5,0,0,0,23,10],
+"d5/dba/multiboot2_8h.html#a90c251eba44eb91071ab060a390e6207":[8,0,0,5,0,0,0,1,2],
+"d5/dba/multiboot2_8h.html#a92170b084bd536b0e30e2373263f6685":[8,0,0,5,0,0,0,76],
 "d5/dba/multiboot2_8h.html#a940cfe5894b84830464e485e0f28110e":[8,0,0,5,0,0,0,27,0],
 "d5/dba/multiboot2_8h.html#a97193a1e961755821ca483bf378d11d3":[8,0,0,5,0,0,0,8,3],
 "d5/dba/multiboot2_8h.html#a97de90a9746c8897c27dc6776a99700b":[8,0,0,5,0,0,0,30,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX22 =
 "d6/d19/MemoryCopySIMD_8cpp_source.html":[8,0,0,6,12],
 "d6/d1f/Userspace_2libs_2libssp_2Makefile.html":[8,0,2,2,4,0],
 "d6/d1f/Userspace_2libs_2libssp_2Makefile_source.html":[8,0,2,2,4,0],
-"d6/d25/pic_8hpp.html":[8,0,0,0,2,1,1],
-"d6/d25/pic_8hpp_source.html":[8,0,0,0,2,1,1],
-"d6/d37/namespaceSMP.html":[6,0,31],
-"d6/d37/namespaceSMP.html#a83df3dc276fba1e673fcf5551113ca7e":[6,0,31,0],
-"d6/d37/namespaceSMP.html#adaefa60b0beb8f8a2acae6a8c6e87273":[6,0,31,1],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html":[7,0,8,6],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a0999024ff8b24d016b6a72f6c953f166":[7,0,8,6,10],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a0ca9fc00163dd3bfc05ff1b89b73a114":[7,0,8,6,5],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a151aba0f5216f762746bf9bfb8a6a8b4":[7,0,8,6,4],
-"d6/d43/classGraphicalUserInterface_1_1GUI.html#a1893873e06195e73890ffa178e6f4879":[7,0,8,6,18]
+"d6/d25/pic_8hpp.html":[8,0,0,0,2,1,1]
 };

@@ -21374,6 +21374,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__SIG_ATOMIC_TYPE__</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>ac60fe3845f87fdaf6365a733ede87cfe</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>INT8_MAX</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -27360,6 +27370,28 @@
     </TokenIdentifier>
     <Path>d2/d3b/namespaceRecovery.html</Path>
     <Anchor>a16d9bd10cd156bee50c45b22a883e994</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wdgDbgWin</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a28dfbc5c45eda8f4195f6b888862fcb6</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DbgWin</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a40d7cc4fa3365bb8654a50f8a6290926</Anchor>
     <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -52335,7 +52367,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>ac309bfcfb2b1fa63ad596b262a10c4e1</Anchor>
+    <Anchor>a0b74449216d80cad5da584462929ef8b</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52388,7 +52420,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableFlags</Scope>
     </TokenIdentifier>
     <Path>dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html</Path>
-    <Anchor>aab8502d8c34ec5467eabfb575c1d4562</Anchor>
+    <Anchor>a119718e13991000be12e3e294bf55d79</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -53419,6 +53451,17 @@
     </TokenIdentifier>
     <Path>d2/d89/classGraphicalUserInterface_1_1Window.html</Path>
     <Anchor>ae776b9f743d4abd4a253822346f5595a</Anchor>
+    <DeclaredIn>gui.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetTitle</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GraphicalUserInterface::Window</Scope>
+    </TokenIdentifier>
+    <Path>d2/d89/classGraphicalUserInterface_1_1Window.html</Path>
+    <Anchor>ab18f666f2a78cec773a670e86b58269b</Anchor>
     <DeclaredIn>gui.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -59959,6 +60002,28 @@
     </TokenIdentifier>
     <Path>d2/d3b/namespaceRecovery.html</Path>
     <Anchor>a16d9bd10cd156bee50c45b22a883e994</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>wdgDbgWin</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a28dfbc5c45eda8f4195f6b888862fcb6</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DbgWin</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a40d7cc4fa3365bb8654a50f8a6290926</Anchor>
     <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
   </Token>
   <Token>
