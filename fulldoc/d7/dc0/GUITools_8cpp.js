@@ -6,7 +6,7 @@ var GUITools_8cpp =
     [ "DrawShadow", "d7/dc0/GUITools_8cpp.html#a90d701ebb12eb1384ee3505c8c46b2e9", null ],
     [ "DrawString", "d7/dc0/GUITools_8cpp.html#a686327d6b641f719154ed28af46024df", null ],
     [ "GetPixel", "d7/dc0/GUITools_8cpp.html#a1d4b566cf2a43db2bc8cc00201c814d3", null ],
-    [ "InlineSetPixel", "d7/dc0/GUITools_8cpp.html#aa92bad38c956d3d1df75caff4eeb81ca", null ],
+    [ "InlineSetPixel", "d7/dc0/GUITools_8cpp.html#a63e7ccbad4ab57fe188cdddb5f0739c4", null ],
     [ "PaintChar", "d7/dc0/GUITools_8cpp.html#a5990a47cd408b26c4f30648c359df162", null ],
     [ "PutBorder", "d7/dc0/GUITools_8cpp.html#ac541063f719ab5ee515df5b4189b60e0", null ],
     [ "PutBorderWithShadow", "d7/dc0/GUITools_8cpp.html#a1ce4f5d5e5a92586897c810527b821b3", null ],

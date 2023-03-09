@@ -50,23 +50,55 @@
            </Node>
            <Node>
             <Name>BARData</Name>
-            <Path>dc/df9/Virtio_8cpp.html</Path>
+            <Path>de/d94/AHCI_8cpp.html</Path>
             <Anchor>d9/d66/structBARData</Anchor>
             <Subnodes>
              <Node>
+              <Name>BusMasterAddress</Name>
+              <Path>de/d94/AHCI_8cpp.html</Path>
+              <Anchor>a398d4ea9ec9e97c0031ac2d05b88bdbe</Anchor>
+             </Node>
+             <Node>
               <Name>IOBase</Name>
-              <Path>dc/df9/Virtio_8cpp.html</Path>
+              <Path>de/d94/AHCI_8cpp.html</Path>
               <Anchor>a12f75940950a0eda92f59158f95ceca7</Anchor>
              </Node>
              <Node>
               <Name>MemoryBase</Name>
-              <Path>dc/df9/Virtio_8cpp.html</Path>
+              <Path>de/d94/AHCI_8cpp.html</Path>
               <Anchor>a19d8096fe75993c6d1637beab020560f</Anchor>
              </Node>
              <Node>
+              <Name>MixerAddress</Name>
+              <Path>de/d94/AHCI_8cpp.html</Path>
+              <Anchor>ac18c7cc95d8c8ef0ee1cedda72c3d323</Anchor>
+             </Node>
+             <Node>
               <Name>Type</Name>
-              <Path>dc/df9/Virtio_8cpp.html</Path>
+              <Path>de/d94/AHCI_8cpp.html</Path>
               <Anchor>ae8e332334c7895d7a6c6d3d8cb877f00</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>BufferDescriptorList</Name>
+            <Path>da/d16/ac97_8hpp.html</Path>
+            <Anchor>d6/dd6/structBufferDescriptorList</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>Address</Name>
+              <Path>da/d16/ac97_8hpp.html</Path>
+              <Anchor>a456a376f9a18112cd88d73558b983933</Anchor>
+             </Node>
+             <Node>
+              <Name>Flags</Name>
+              <Path>da/d16/ac97_8hpp.html</Path>
+              <Anchor>a3b7f1543d0845306e7316f44da8c0be6</Anchor>
+             </Node>
+             <Node>
+              <Name>SampleCount</Name>
+              <Path>da/d16/ac97_8hpp.html</Path>
+              <Anchor>ac8339d28bfd6290bf57dd815b29abc46</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -682,19 +714,19 @@
               <Anchor>a93386b9eedec93cb0412f7c7e66ec91a</Anchor>
              </Node>
              <Node>
-              <Name>CapabilitiesPtr</Name>
+              <Name>CapabilitiesPointer</Name>
               <Path>d9/d97/pci_8h.html</Path>
-              <Anchor>abecdd7fa7d8c2ce204aa00ff3fe35987</Anchor>
+              <Anchor>a661477dcd4874a3766ba8841c49cad9d</Anchor>
              </Node>
              <Node>
-              <Name>CardbusCISPtr</Name>
+              <Name>CardbusCISPointer</Name>
               <Path>d9/d97/pci_8h.html</Path>
-              <Anchor>aa4e4b73f95942bfd0003e68745acc6bd</Anchor>
+              <Anchor>a43fadd48ffafc9f250ca3c6e665ca10c</Anchor>
              </Node>
              <Node>
-              <Name>ExpansionROMBaseAddr</Name>
+              <Name>ExpansionROMBaseAddress</Name>
               <Path>d9/d97/pci_8h.html</Path>
-              <Anchor>a5139716313ba48947325aadf3d964bc2</Anchor>
+              <Anchor>a8232ee5f9a0806cae0f4d4ee069e899e</Anchor>
              </Node>
              <Node>
               <Name>Header</Name>
@@ -722,19 +754,19 @@
               <Anchor>aed3de1f49e6a37ba062923a49d60d622</Anchor>
              </Node>
              <Node>
-              <Name>Rsv0</Name>
+              <Name>Reserved0</Name>
               <Path>d9/d97/pci_8h.html</Path>
-              <Anchor>a9bcfdbb4f78b705f7182b18876dbb8f4</Anchor>
+              <Anchor>a7dd49f3df363546683f4bcb5b758ffe4</Anchor>
              </Node>
              <Node>
-              <Name>Rsv1</Name>
+              <Name>Reserved1</Name>
               <Path>d9/d97/pci_8h.html</Path>
-              <Anchor>aa5573767d6aae1009e1455bb5ee2a109</Anchor>
+              <Anchor>a6fe1870be9093fe97a41214ae09fecfa</Anchor>
              </Node>
              <Node>
-              <Name>Rsv2</Name>
+              <Name>Reserved2</Name>
               <Path>d9/d97/pci_8h.html</Path>
-              <Anchor>a2c4ecf9f395f2092074fc80d0a24684e</Anchor>
+              <Anchor>aee788e27afd95e465cef366e805f0d1e</Anchor>
              </Node>
              <Node>
               <Name>SubsystemID</Name>
@@ -745,6 +777,260 @@
               <Name>SubsystemVendorID</Name>
               <Path>d9/d97/pci_8h.html</Path>
               <Anchor>aff859496d929c800d6a85bf362af4b23</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>PCIHeader1</Name>
+            <Path>d9/d97/pci_8h.html</Path>
+            <Anchor>d1/dfd/structPCIHeader1</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>BAR0</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ae9e823b90bd2f522d718c149dec98cbe</Anchor>
+             </Node>
+             <Node>
+              <Name>BAR1</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ab404a42202b2d405001031bc890d200a</Anchor>
+             </Node>
+             <Node>
+              <Name>BridgeControl</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a04241db8a1219ee3d1e075c899b26252</Anchor>
+             </Node>
+             <Node>
+              <Name>CapabilitiesPointer</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>aab7a9e65448246fa09bc85ee8cc301fb</Anchor>
+             </Node>
+             <Node>
+              <Name>ExpansionROMBaseAddress</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a90de8c5ed4f7a93b9b6a2084ba84f3c5</Anchor>
+             </Node>
+             <Node>
+              <Name>Header</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a2f22ff0c061e5b5b7b6e6b97bc60de4d</Anchor>
+             </Node>
+             <Node>
+              <Name>InterruptLine</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>aa52a5efa20948a9e48117be9b52d8fd2</Anchor>
+             </Node>
+             <Node>
+              <Name>InterruptPin</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a57c8690acc2e57922c067b82c18b2e6d</Anchor>
+             </Node>
+             <Node>
+              <Name>IOBase</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>afda1b94a74c2e6ee9f25f9b91491af0c</Anchor>
+             </Node>
+             <Node>
+              <Name>IOBaseUpper16</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>aa7a7390ff8a18f4c592a378a83aaf014</Anchor>
+             </Node>
+             <Node>
+              <Name>IOLimit</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a4bd59014b98d7e22ebea13d41e19e1cc</Anchor>
+             </Node>
+             <Node>
+              <Name>IOLimitUpper16</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ac405720af92deb9aa962743e0b5d0a61</Anchor>
+             </Node>
+             <Node>
+              <Name>MemoryBase</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ad8c064249a44df713d05e4fc56736ce1</Anchor>
+             </Node>
+             <Node>
+              <Name>MemoryLimit</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a2fa1a241eafc107d2d752872f0e1b0cf</Anchor>
+             </Node>
+             <Node>
+              <Name>PrefetchableMemoryBase</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a1434453c591afa093cd708fc8a5d8b19</Anchor>
+             </Node>
+             <Node>
+              <Name>PrefetchableMemoryBaseUpper32</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>af5dad4a8d9fcfbd15446b4f0299c7a23</Anchor>
+             </Node>
+             <Node>
+              <Name>PrefetchableMemoryLimit</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a4831b117fa43c9f34f28fbe9718af6d2</Anchor>
+             </Node>
+             <Node>
+              <Name>PrefetchableMemoryLimitUpper32</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a68de98d20d78877374e4664416154a76</Anchor>
+             </Node>
+             <Node>
+              <Name>PrimaryBusNumber</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a15cda50cc75089febd61d224fb1bf980</Anchor>
+             </Node>
+             <Node>
+              <Name>Reserved0</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a22b014eb2e68cde9056b34c67e2fbce5</Anchor>
+             </Node>
+             <Node>
+              <Name>Reserved1</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a45f8f90614124e0884a85bdab19e2d78</Anchor>
+             </Node>
+             <Node>
+              <Name>SecondaryBusNumber</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a5884c1d047cb1ddf94bf897bfa42db15</Anchor>
+             </Node>
+             <Node>
+              <Name>SecondaryLatencyTimer</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a99dc28b068c7906789ba4c4ca0aeb7ad</Anchor>
+             </Node>
+             <Node>
+              <Name>SecondaryStatus</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ae254bbd6ce4fc040de951f1162fa7ca2</Anchor>
+             </Node>
+             <Node>
+              <Name>SubordinateBusNumber</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a42b63aced62eb713ca599fd3a337a2e1</Anchor>
+             </Node>
+            </Subnodes>
+           </Node>
+           <Node>
+            <Name>PCIHeader2</Name>
+            <Path>d9/d97/pci_8h.html</Path>
+            <Anchor>d3/dec/structPCIHeader2</Anchor>
+            <Subnodes>
+             <Node>
+              <Name>BridgeControl</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>afdc179a56b97f65098bcd317ed0c1adb</Anchor>
+             </Node>
+             <Node>
+              <Name>CapabilitiesPointer</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ad959c7468b920506b91d4e287eda4a40</Anchor>
+             </Node>
+             <Node>
+              <Name>CardbusBusNumber</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ac326927df2e956ae65e7b8388de5bd35</Anchor>
+             </Node>
+             <Node>
+              <Name>CardbusLatencyTimer</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a26f4172066ac97a4a35918a4c34b8d80</Anchor>
+             </Node>
+             <Node>
+              <Name>CardbusSocketRegistersBaseAddress</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a62dac4d9135a80994609261486009807</Anchor>
+             </Node>
+             <Node>
+              <Name>Header</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a0fccd9ae3a8e5feef0e708a0654157ef</Anchor>
+             </Node>
+             <Node>
+              <Name>InterruptLine</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ac7ed36c7aee1e7cd1396c06765ba74f4</Anchor>
+             </Node>
+             <Node>
+              <Name>InterruptPin</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ae59f2a26c5a77db05e2db8f27f37cc84</Anchor>
+             </Node>
+             <Node>
+              <Name>IOBase0</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>afa422e153e1182638185b454d00fa996</Anchor>
+             </Node>
+             <Node>
+              <Name>IOBase1</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a47ffba4761ba064588caed0551092bf1</Anchor>
+             </Node>
+             <Node>
+              <Name>IOLimit0</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a7021c650fd516b7500a01a0504516c4e</Anchor>
+             </Node>
+             <Node>
+              <Name>IOLimit1</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>aa4580545b53d9a6fa9a0aea1853cbcf4</Anchor>
+             </Node>
+             <Node>
+              <Name>LegacyBaseAddress</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>aa9025198e78e00a43b88c69ce757039c</Anchor>
+             </Node>
+             <Node>
+              <Name>MemoryBase0</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>af0cf4b6d91c5cda3603b3954dd67bc9b</Anchor>
+             </Node>
+             <Node>
+              <Name>MemoryBase1</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ac92ca1f4873673057deb9bad2ea601d8</Anchor>
+             </Node>
+             <Node>
+              <Name>MemoryLimit0</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a4832cbedbe43465bbce6cb7a6c3a2d8d</Anchor>
+             </Node>
+             <Node>
+              <Name>MemoryLimit1</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ac246f3f78b626b57ce7855da895daec3</Anchor>
+             </Node>
+             <Node>
+              <Name>PCIbusNumber</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ab3fced2ce60805c54146b52664adb409</Anchor>
+             </Node>
+             <Node>
+              <Name>Reserved0</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a5daa395fc3509119e0fb9b4864b5a853</Anchor>
+             </Node>
+             <Node>
+              <Name>SecondaryStatus</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a7727c0b5eb265e1ba350a9ca1f70f421</Anchor>
+             </Node>
+             <Node>
+              <Name>SubordinateBusNumber</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a28ceb4d1f7cf90f407a857ff138ee81a</Anchor>
+             </Node>
+             <Node>
+              <Name>SubsystemID</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>ae3797f6ed9e0a8059578a127a5f8550d</Anchor>
+             </Node>
+             <Node>
+              <Name>SubsystemVendorID</Name>
+              <Path>d9/d97/pci_8h.html</Path>
+              <Anchor>a6286876acf5c32f45a927f912013e834</Anchor>
              </Node>
             </Subnodes>
            </Node>
@@ -981,6 +1267,84 @@
            <Node>
             <Name>All</Name>
             <Path>functions.html</Path>
+            <Subnodes>
+             <Node>
+              <Name>a</Name>
+              <Path>functions.html</Path>
+             </Node>
+             <Node>
+              <Name>b</Name>
+              <Path>functions_b.html</Path>
+             </Node>
+             <Node>
+              <Name>c</Name>
+              <Path>functions_c.html</Path>
+             </Node>
+             <Node>
+              <Name>d</Name>
+              <Path>functions_d.html</Path>
+             </Node>
+             <Node>
+              <Name>e</Name>
+              <Path>functions_e.html</Path>
+             </Node>
+             <Node>
+              <Name>f</Name>
+              <Path>functions_f.html</Path>
+             </Node>
+             <Node>
+              <Name>g</Name>
+              <Path>functions_g.html</Path>
+             </Node>
+             <Node>
+              <Name>h</Name>
+              <Path>functions_h.html</Path>
+             </Node>
+             <Node>
+              <Name>i</Name>
+              <Path>functions_i.html</Path>
+             </Node>
+             <Node>
+              <Name>l</Name>
+              <Path>functions_l.html</Path>
+             </Node>
+             <Node>
+              <Name>m</Name>
+              <Path>functions_m.html</Path>
+             </Node>
+             <Node>
+              <Name>o</Name>
+              <Path>functions_o.html</Path>
+             </Node>
+             <Node>
+              <Name>p</Name>
+              <Path>functions_p.html</Path>
+             </Node>
+             <Node>
+              <Name>r</Name>
+              <Path>functions_r.html</Path>
+             </Node>
+             <Node>
+              <Name>s</Name>
+              <Path>functions_s.html</Path>
+             </Node>
+             <Node>
+              <Name>t</Name>
+              <Path>functions_t.html</Path>
+             </Node>
+             <Node>
+              <Name>v</Name>
+              <Path>functions_v.html</Path>
+             </Node>
+             <Node>
+              <Name>w</Name>
+              <Path>functions_w.html</Path>
+             </Node>
+             <Node>
+              <Name>~</Name>
+              <Path>functions_~.html</Path>
+             </Node>
+            </Subnodes>
            </Node>
            <Node>
             <Name>Functions</Name>
@@ -1011,938 +1375,535 @@
               <Path>dir_2952cc6e808807ee3d9f8ba249e6b355.html</Path>
               <Subnodes>
                <Node>
-                <Name>Makefile</Name>
-                <Path>d3/de5/Audio_2Makefile.html</Path>
-               </Node>
-              </Subnodes>
-             </Node>
-             <Node>
-              <Name>Disk</Name>
-              <Path>dir_e4a4518ddeff3b2181ec0b382dd84f6e.html</Path>
-              <Subnodes>
-               <Node>
-                <Name>AHCI</Name>
-                <Path>dir_d0f0d5df9905774c4b997498b5a24f41.html</Path>
+                <Name>AudioCodec97</Name>
+                <Path>dir_7309469a6d69e801e7e1617c0d4ec599.html</Path>
                 <Subnodes>
                  <Node>
-                  <Name>AHCI.cpp</Name>
-                  <Path>de/d94/AHCI_8cpp.html</Path>
+                  <Name>ac97.hpp</Name>
+                  <Path>da/d16/ac97_8hpp.html</Path>
                   <Subnodes>
                    <Node>
-                    <Name>HBAPort</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>de/d0f/structHBAPort</Anchor>
+                    <Name>BufferDescriptorList</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>d6/dd6/structBufferDescriptorList</Anchor>
                     <Subnodes>
                      <Node>
-                      <Name>CommandIssue</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>af16d5977e966938ac7e7e728710883ae</Anchor>
+                      <Name>Address</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a456a376f9a18112cd88d73558b983933</Anchor>
                      </Node>
                      <Node>
-                      <Name>CommandListBase</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aa0d90dec9cb4f73adb918c42b4976b57</Anchor>
+                      <Name>Flags</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a3b7f1543d0845306e7316f44da8c0be6</Anchor>
                      </Node>
                      <Node>
-                      <Name>CommandListBaseUpper</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a09c9c4af2316000480de989504431787</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>CommandStatus</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a3bb7218d7838f8c9c9f913bab97a1256</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FISBaseAddress</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>acf57164f5681512a73e0de10484290e6</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FISBaseAddressUpper</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a5422eb9b0926cc3a3a2cc32a917f2a64</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FISSwitchControl</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aa526cb3567dab6e2c7fa8b1933987f2f</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>InterruptEnable</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>afcc827be7aff4792bbda826dbe78160b</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>InterruptStatus</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a2fa386d1221207ef89e395cb756b3282</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reserved0</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a049103b49f8729c4755590eee2444d2b</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reserved1</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a49817656974a71e66ca0256bc5e08be2</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>SataActive</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a359a1b13e31967a61a95ea6b8bb70d9f</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>SataControl</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a99393484c6e5d0da34e4cf9735504ba5</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>SataError</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a5dad43fea8761bd93ef528c47fcf747c</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>SataNotification</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a4f9912ff2a7738857cafaa62a3dbc467</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>SataStatus</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>adc7499381bd19a7cbb78370c9d77314e</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Signature</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a0e7f339ba60bb570571fe0be549b9cd6</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>TaskFileData</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ae14011fc6c22df2af7e057abad6a1a9d</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Vendor</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aa7fb58079b178df8222c738d8cb50288</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>HBAMemory</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>d5/def/structHBAMemory</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>BIOSHandoffControlStatus</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aaa4d3abfcaaddb651e76a577a000dbee</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>CCCControl</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ab47a46f923cd4c0a8ba9cb5e6223c69f</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>CCCPorts</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ac392457cea191981d22f937d7426455c</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>EnclosureManagementControl</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a98796937b7ab1838944516c2eba89762</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>EnclosureManagementLocation</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a46404a96f7d1d786cee7d5e5e10c45f8</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>GlobalHostControl</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a11dacbb289454e423928ebae01014f19</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>HostCapabilitiesExtended</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aaab588a821d97ae26a7144b27cd1fd74</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>HostCapability</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aab5c7f1a6fd3d63b237fee9b69b41633</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>InterruptStatus</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a7ffff879bccf3ea26b60919a04b8c901</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Ports</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a636d6a9c09ea391a7e80e7bee0a6d608</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PortsImplemented</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ae02c5f174dba7f8149f997f2e4194dd8</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reserved0</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ab8dd142a4dfa8984fbba70ad97e3e733</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Vendor</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aa862edc85e1fd2cbf23c49b721c4407a</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Version</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a2a352da5ce9dfbd294bf93ed1a36ef58</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>HBACommandHeader</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>d5/df7/structHBACommandHeader</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>ATAPI</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aa72fb43d2225e038fe928e11019db254</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>BIST</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a9fdbf2d4efa979ad90cd51a61d17759d</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>ClearBusy</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a8bac8f94f11506686fbc5c180153f01a</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>CommandFISLength</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ab8c5569c89d2c664136930a7b87d4fda</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>CommandTableBaseAddress</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ad80f2bf60dcacb26254ac3816d3588b6</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>CommandTableBaseAddressUpper</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a9fc8d16e731f658bfa6cd46a6ee990b6</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PortMultiplier</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>af96c8045b60e8dbcbf5812adffd7dcee</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PRDBCount</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>af8462ab8fe6d930d8bf09e6c3df2b02b</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PRDTLength</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ac621d5f9c7fa4e5a774f5576f6cb9d3a</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Preferable</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ab5089a7a3a5952e5e21be4b7b024dad2</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reserved0</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a5a9bbaace5be0dbd2c523996fdc2cfb7</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reserved1</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a82a0b642f0a8715f4f95e537fb12f453</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reset</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ad83ffa6e04ffc1de801b20453258249e</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Write</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ab3bfcae00730c25b9f41baeb4d9b58fb</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>HBAPRDTEntry</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>d8/d36/structHBAPRDTEntry</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>ByteCount</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a614b4f82d02c8ca772fb79bb40ae0059</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>DataBaseAddress</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>abb3b42660dce4aeabe7e98ffe77bbd0f</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>DataBaseAddressUpper</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a7514a30e2939f380eeadaa42bb9c0455</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>InterruptOnCompletion</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a67b400a63085145cbf72257ef4387d76</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reserved0</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a7bd4def088987e9eb7ba91bafca85abf</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reserved1</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a63f6b97b28d0c94ce623a8a83f274c9c</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>HBACommandTable</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>d6/d37/structHBACommandTable</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>ATAPICommand</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>adbf03b3513909c719a75bea09b3ecfbb</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>CommandFIS</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aa4afabf36e5428477e4ac21519dad496</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PRDTEntry</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aae9200119e6aede088035a42ef516f78</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reserved</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ad1a1113f8ff53f1227d4d4210653387f</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>FIS_REG_H2D</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>df/dbd/structFIS__REG__H2D</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>Command</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ad3804293f81197f6f059893136e54a8a</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>CommandControl</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a138ebc099f3423d0b29420175c09038e</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Control</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aaa73c9585b552be969b485ac7eb536aa</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>CountHigh</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a9cf32a73c5e0ae783947004fb4650a64</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>CountLow</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a7079a326df59dac1240a964565f2bfb8</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>DeviceRegister</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a22d7aa7511dfdafc0098c2c1a27152fd</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FeatureHigh</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>afce4428ea9bf1c5de071ceaa77eb46e1</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FeatureLow</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ab28817299579b29ed9e5ed2449a312dc</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FISType</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aeb00fbb5d25151f030346be283e761a5</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>ISOCommandCompletion</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a1642ad25240f958c7e5e1c2e0a684349</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>LBA0</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a88cac422d6790add72777362e4e8e26e</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>LBA1</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a79db99035bd003914f1430137bf2aa50</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>LBA2</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a725dd9af290893941134783e657537bb</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>LBA3</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a43953369dad2f92b8fa4b0c4dcf1b6db</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>LBA4</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>acbb2b4cd43640059a6973451fcbc656b</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>LBA5</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>acf4bca5bca48eb6c7076ceeb20c29936</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PortMultiplier</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>aef2df5dcd02fa0330b2fc8f3c7b66498</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reserved0</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>add67b4ed17081978f09abcb2871a6dea</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Reserved1</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a044dddb4cb03eadb84b5d0a7c71dce9c</Anchor>
+                      <Name>SampleCount</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>ac8339d28bfd6290bf57dd815b29abc46</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
                     <Name>BARData</Name>
-                    <Path>dc/df9/Virtio_8cpp.html</Path>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
                     <Anchor>d9/d66/structBARData</Anchor>
                     <Subnodes>
                      <Node>
+                      <Name>BusMasterAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a398d4ea9ec9e97c0031ac2d05b88bdbe</Anchor>
+                     </Node>
+                     <Node>
                       <Name>IOBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a12f75940950a0eda92f59158f95ceca7</Anchor>
                      </Node>
                      <Node>
                       <Name>MemoryBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a19d8096fe75993c6d1637beab020560f</Anchor>
                      </Node>
                      <Node>
+                      <Name>MixerAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ac18c7cc95d8c8ef0ee1cedda72c3d323</Anchor>
+                     </Node>
+                     <Node>
                       <Name>Type</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>ae8e332334c7895d7a6c6d3d8cb877f00</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>_Unwind_Exception</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>de/dc3/struct__Unwind__Exception</Anchor>
+                    <Name>DescriptorListLength</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a184c8dfc10c369c3de43bf5832dbe5ec</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>AudioEncodingValues</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4a</Anchor>
                     <Subnodes>
                      <Node>
-                      <Name>exception_class</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ade34d40df51766d7ff384a01237209ae</Anchor>
+                      <Name>AE_PCMs8</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa222259a5bf5551c1716cc05128a1728c</Anchor>
                      </Node>
                      <Node>
-                      <Name>exception_cleanup</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a44d69c695cdcc6fcde54ae458a69a4c8</Anchor>
+                      <Name>AE_PCMu8</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa1921cbd3401b57f2f93bf655a9057858</Anchor>
                      </Node>
                      <Node>
-                      <Name>private_1</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a90fbbe59c5adade160b6bb21b5f71d3d</Anchor>
+                      <Name>AE_PCMs16le</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aaf6b2e77067fd4b2ec54da28677a053ee</Anchor>
                      </Node>
                      <Node>
-                      <Name>private_2</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a5baef90b9b72c2b612cf44326674ef24</Anchor>
+                      <Name>AE_PCMs20le</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa99d88106886bea10cfa73c6a15c65f30</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMs24le</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa9cb7b8f7859509be8d994143c601d2cc</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMs32le</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa01354b8073f672b660b4560afd914369</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMu16le</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aaf84640df40cefe7e0b310537b0711676</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMu20le</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aac8d707d8a49188e538594d2661d96238</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMu24le</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa2714f6036c66e26827dcfd1388a9c1b8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMu32le</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aaee45ae8eafd9d5ce937fed921ea83c6b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMs16be</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa595000e9e0a5f6d5440b8aa67ff436a3</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMs20be</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa2e2063fe93bf4096083131a21a015e29</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMs24be</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa8513d6a5fcb48b94474341fe5664132b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMs32be</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa11e0a23553faafd574a5cf5f6f0192b3</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMu16be</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aac8a07df92b017461925cf916deed7850</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMu20be</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aa61d33fdffd992643a2a4952979eb7bc4</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMu24be</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aac7b2a0be67025d611ac6f260f6430e4e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AE_PCMu32be</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>aedd1d74ff6bda95a512a85b40d6a1d4aac1297b8d8d1240c26521e40aa13e0ee1</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>Port</Name>
-                    <Path>d3/d7b/classPort.html</Path>
+                    <Name>AudioVolumeValues</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a8e3e2884cb8ce71878afa10c970bcf01</Anchor>
                     <Subnodes>
                      <Node>
-                      <Name>Port</Name>
-                      <Path>d3/d7b/classPort.html</Path>
-                      <Anchor>a3a8664d675ca7ff61b0b816510f0a96c</Anchor>
+                      <Name>AV_Maximum</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a8e3e2884cb8ce71878afa10c970bcf01ad8ccdeffeedc4a5720969a0bb52e24f3</Anchor>
                      </Node>
                      <Node>
-                      <Name>~Port</Name>
-                      <Path>d3/d7b/classPort.html</Path>
-                      <Anchor>afe166c2a6b10ad34d47472a150366bc1</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Configure</Name>
-                      <Path>d3/d7b/classPort.html</Path>
-                      <Anchor>a82b803419d76db8b23cd4a800872cd11</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>ReadWrite</Name>
-                      <Path>d3/d7b/classPort.html</Path>
-                      <Anchor>a7143b7904b857dccfc0fd286712e8139</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>StartCMD</Name>
-                      <Path>d3/d7b/classPort.html</Path>
-                      <Anchor>a77ab3e2942b91517dd3344ed7aabc63d</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>StopCMD</Name>
-                      <Path>d3/d7b/classPort.html</Path>
-                      <Anchor>ade80cd821f44de47d3dae6800a221cf6</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>AHCIPortType</Name>
-                      <Path>d3/d7b/classPort.html</Path>
-                      <Anchor>a90ac175f5c9197edbd990f86355d1274</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>Buffer</Name>
-                      <Path>d3/d7b/classPort.html</Path>
-                      <Anchor>a64244c4e58580e297b8acef16663d22c</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>HBAPortPtr</Name>
-                      <Path>d3/d7b/classPort.html</Path>
-                      <Anchor>a5420f2d226d306aa2cbdcb9b6da04c09</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PortNumber</Name>
-                      <Path>d3/d7b/classPort.html</Path>
-                      <Anchor>a70aef7edc27044173e4b652731b7cd09</Anchor>
+                      <Name>AV_Minimum</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a8e3e2884cb8ce71878afa10c970bcf01aaa74856aa5db754158762e32734056dd</Anchor>
                      </Node>
                     </Subnodes>
                    </Node>
                    <Node>
-                    <Name>ATA_CMD_READ_DMA_EX</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a38dd4451240fdf39ed56148f148e9ffd</Anchor>
+                    <Name>GlobalControlRegisters</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a75b72193ed843fc10c23c64b3bb301a3</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>GC_GlobalInterruptEnable</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a75b72193ed843fc10c23c64b3bb301a3a0fc3592b155385ce22dc66f53dcd86a9</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GC_ColdReset</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a75b72193ed843fc10c23c64b3bb301a3ac7b3d7f024544a3362a534d083b70bde</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GC_WarmReset</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a75b72193ed843fc10c23c64b3bb301a3a37ad703f7c76b6d7b59118b1b9a390db</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GC_ShutDown</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a75b72193ed843fc10c23c64b3bb301a3ab70a2773bdbe58535e69329835b01929</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GC_ChannelsForPCMOutput</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a75b72193ed843fc10c23c64b3bb301a3ac6f43bd82aee765b31a3ef60f1e159ef</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GC_PCMOutputMode</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a75b72193ed843fc10c23c64b3bb301a3a54fe359fb489638723800ed79effa8bf</Anchor>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
-                    <Name>ATA_CMD_WRITE_DMA_EX</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>aad07fe181bd03623b039bca75664ec29</Anchor>
+                    <Name>NativeAudioBusMasterBoxOffsets</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>ac7ce8f584ec0be1f6e480513759a4e47</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>NABMBOFF_BufferDescriptorList</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>ac7ce8f584ec0be1f6e480513759a4e47a0dac63b10f318392d09b22a5838a53bf</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NABMBOFF_BufferDescriptorEntry</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>ac7ce8f584ec0be1f6e480513759a4e47a2360b438324850750adcd4347ec8ab01</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NABMBOFF_DescriptorEntries</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>ac7ce8f584ec0be1f6e480513759a4e47af7aa0f96d2443eef603ad232ddfe88a3</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NABMBOFF_Status</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>ac7ce8f584ec0be1f6e480513759a4e47ab6f1454fa6831d6995c59e620bb8f72a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NABMBOFF_TransferredSamples</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>ac7ce8f584ec0be1f6e480513759a4e47a8bafe009a9860a6c3fc55395bc3bbd6e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NABMBOFF_NextProcessedBufferEntry</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>ac7ce8f584ec0be1f6e480513759a4e47a31366375743ac66114e4b8c10bb4d0d5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NABMBOFF_TransferControl</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>ac7ce8f584ec0be1f6e480513759a4e47a3dff6db3bdda26a8c8620eaee55c05af</Anchor>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
-                    <Name>ATA_DEV_BUSY</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a32b0d71691c7e21ded44e462fe3de8db</Anchor>
+                    <Name>NativeAudioBusMasterRegisters</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a6453e553886973316b0ccc2e0e187dc3</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>NABM_PCMInBox</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a6453e553886973316b0ccc2e0e187dc3a69a30fa8a5e088e36b9aa22ee9bd8385</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NABM_PCMOutBox</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a6453e553886973316b0ccc2e0e187dc3a96c4707bc7c0b55e8c164d06f579c8cf</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NABM_MicrophoneBox</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a6453e553886973316b0ccc2e0e187dc3a8df062f674158c36d1517bdadd1fae4a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NABM_GlobalControl</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a6453e553886973316b0ccc2e0e187dc3acaffc5b225c9bc07d430c51bc29cc4d7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NABM_GlobalStatus</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a6453e553886973316b0ccc2e0e187dc3a8ea381eaee4bd32043258da5e614d25b</Anchor>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
-                    <Name>ATA_DEV_DRQ</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>af12bdbc024458d3a760650e93bc32cb3</Anchor>
+                    <Name>NativeAudioMixerRegisters</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a8fb41d42153193a3cae8085273077458</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>NAM_Reset</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a8fb41d42153193a3cae8085273077458aed834c2733f29a699a6623e02ef4dfe7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NAM_MasterVolume</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a8fb41d42153193a3cae8085273077458aefe5da21f9da13faf06d1ae324c4a240</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NAM_MicrophoneVolume</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a8fb41d42153193a3cae8085273077458a1290b2b5401d81a60fce061377388c52</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NAM_PCMOutVolume</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a8fb41d42153193a3cae8085273077458a8c8cbdf961b7ddac7ee3197ff31ef3af</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NAM_SelectRecordInput</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a8fb41d42153193a3cae8085273077458a88046f6acf16e99bb0e5a3c68cdaff69</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NAM_RecordGain</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a8fb41d42153193a3cae8085273077458abd64fbb1a4108b276dec4c2bd689f2c6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>NAM_RecordGainMicrophone</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a8fb41d42153193a3cae8085273077458a3b963bab323140cd94ea71d154d6c263</Anchor>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
-                    <Name>HBA_PORT_DEV_PRESENT</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>aaeb840d36dea7b5dd045e4372e86ab1a</Anchor>
+                    <Name>OutputPulseCodeModulationRegisters</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a4e74753899b251a61239afaebd7c7700</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>PCMOUT_BufferDescriptorList</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4e74753899b251a61239afaebd7c7700ab54f1128f59542f112076955ffa0835b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PCMOUT_BufferDescriptorEntry</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4e74753899b251a61239afaebd7c7700a5811ba5b1c55b1e5334d58c3f14d86c3</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PCMOUT_DescriptorEntries</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4e74753899b251a61239afaebd7c7700a5d8b6d99d1c11b3bd054449c55e16e3f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PCMOUT_Status</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4e74753899b251a61239afaebd7c7700ad28005addd06052bf226bc8e2eb154ed</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PCMOUT_TransferredSamples</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4e74753899b251a61239afaebd7c7700a06a494f018171acae94be1d9b73f84c0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PCMOUT_NextProcessedBufferEntry</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4e74753899b251a61239afaebd7c7700ac097e203df5956bd47b86221d8c50b8e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PCMOUT_TransferControl</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4e74753899b251a61239afaebd7c7700a888a293b8df060113d9cadb6b205bc5f</Anchor>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
-                    <Name>HBA_PORT_IPM_ACTIVE</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a7799cbde4e99b339a61cb79ba018ed78</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>HBA_PxCMD_CR</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>ad2550f8f63fa32140f93da1b95354cf6</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>HBA_PxCMD_FR</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a93f2b1904299d4d1920e65039ff7ce5c</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>HBA_PxCMD_FRE</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a27978dd2aac599cbd0330c923652c6e4</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>HBA_PxCMD_ST</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a469ab8af9bf8f1f89a5c8f79b2305e34</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>HBA_PxIS_TFES</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a11add414188662b170c68ead95a786d8</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>print</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a93bdbb2eb161fecc1c12d7b87345e718</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>SATA_SIG_ATA</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>ab97be318da4cd3f956b53f3d3c162d22</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>SATA_SIG_ATAPI</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>aa52680525d3698b9c2206cedbf2b3c82</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>SATA_SIG_PM</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a5824e44ad5e394c0026dad1f997d26d3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>SATA_SIG_SEMB</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a74a4ae0fdaf517fb886dfe8fc53218db</Anchor>
+                    <Name>TransferControlRegisters</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a4a7c3f6a29a76f999ff7474c94e6ffd5</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>TC_DMAControllerControl</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4a7c3f6a29a76f999ff7474c94e6ffd5a39403f1f6bb55c6674fa0a8df5311387</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>TC_TransferReset</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4a7c3f6a29a76f999ff7474c94e6ffd5a3d5dfe7af054b5c7112326c0a58cb965</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>TC_LastBufferEntryInterruptEnable</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4a7c3f6a29a76f999ff7474c94e6ffd5a9e65d7c48ed78fcc25f92fd845cfbae2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>TC_IOCInterruptEnable</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4a7c3f6a29a76f999ff7474c94e6ffd5a1582d7da39ec975345591bad1fdf7fa3</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>TC_FifoERRORInterruptEnable</Name>
+                      <Path>da/d16/ac97_8hpp.html</Path>
+                      <Anchor>a4a7c3f6a29a76f999ff7474c94e6ffd5ac80bd01fe5faf98314cc8c31f343e89d</Anchor>
+                     </Node>
+                    </Subnodes>
                    </Node>
                    <Node>
                     <Name>__attribute__</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>acfd2b2c01bb7181c3933777ee47e0e3b</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>_Unwind_Action</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a09fdc8f727b214f5168e3690b0ddfa21</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>_Unwind_Exception_Cleanup_Fn</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>aa315b38b270688a4d979ec71a9f33586</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>_Unwind_Reason_Code</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>_URC_NO_REASON</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>_URC_FOREIGN_EXCEPTION_CAUGHT</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>_URC_FATAL_PHASE2_ERROR</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>_URC_FATAL_PHASE1_ERROR</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>_URC_NORMAL_STOP</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>_URC_END_OF_STACK</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>_URC_HANDLER_FOUND</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>_URC_INSTALL_CONTEXT</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>_URC_CONTINUE_UNWIND</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>FIS_TYPE</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>ace71afc212819392a7b00fbf19feba86</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>FIS_TYPE_REG_H2D</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ace71afc212819392a7b00fbf19feba86a6bf1b47f446739ef43faae8f336c3926</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FIS_TYPE_REG_D2H</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ace71afc212819392a7b00fbf19feba86ae1d5eaa1f1a908043927530044b4394d</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FIS_TYPE_DMA_ACT</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ace71afc212819392a7b00fbf19feba86a1a3d1978859cdf6c6001c13177dbd386</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FIS_TYPE_DMA_SETUP</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ace71afc212819392a7b00fbf19feba86adb343aab8b5d14af51decdcc24629af8</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FIS_TYPE_DATA</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ace71afc212819392a7b00fbf19feba86ac2c749b258ea247c739772b70ee8fe96</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FIS_TYPE_BIST</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ace71afc212819392a7b00fbf19feba86a6d51bc47354d35b144fa146cbcb0d5cd</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FIS_TYPE_PIO_SETUP</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ace71afc212819392a7b00fbf19feba86a2af968dcd3c14953622d44e9e90c6336</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>FIS_TYPE_DEV_BITS</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>ace71afc212819392a7b00fbf19feba86ab4aa404255097815f1e4a1dd372a151a</Anchor>
-                     </Node>
-                    </Subnodes>
-                   </Node>
-                   <Node>
-                    <Name>PortType</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a7674c329addda8fbe6176bbbf25c8b21</Anchor>
-                    <Subnodes>
-                     <Node>
-                      <Name>None</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a7674c329addda8fbe6176bbbf25c8b21ac9d3e887722f2bc482bcca9d41c512af</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>SATA</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a7674c329addda8fbe6176bbbf25c8b21aadca48adb31125c1c75f5d0a6129bb65</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>SEMB</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a7674c329addda8fbe6176bbbf25c8b21a9a39520edead67e393778526da072df1</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>PM</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a7674c329addda8fbe6176bbbf25c8b21a4e84ba06a563492b48e6b6e25dd85c2d</Anchor>
-                     </Node>
-                     <Node>
-                      <Name>SATAPI</Name>
-                      <Path>de/d94/AHCI_8cpp.html</Path>
-                      <Anchor>a7674c329addda8fbe6176bbbf25c8b21a4dbae02a8c82ef71f515500f26e2f1c2</Anchor>
-                     </Node>
-                    </Subnodes>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a1c59f4e9d9be22c859ce48091efcb5f7</Anchor>
                    </Node>
                    <Node>
                     <Name>__attribute__</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>ac8c21f335bc7c2f0bc6a9ddaee6b9431</Anchor>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a904d0e9ca592fb97af72ffd03b1ae5ef</Anchor>
                    </Node>
                    <Node>
-                    <Name>__attribute__</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>af22ae37b84033edb178366e0d7d8f7e5</Anchor>
+                    <Name>Address</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a6fc2b8ed8be1aa26731a45000f43b8cc</Anchor>
                    </Node>
                    <Node>
-                    <Name>__gxx_personality_v0</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a983fe3cd283e66a7d6dcb29917c09e23</Anchor>
+                    <Name>Flags</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>af2800c799892d286bd4a937d93fff2d2</Anchor>
                    </Node>
                    <Node>
-                    <Name>_Unwind_Resume</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a5edfd44697b07e704cccec4b10b875bd</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>CallbackHandler</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>CheckPortType</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>afdee1e06ba3d90e76724c7fddee28acd</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>DriverEntry</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a56474bd9ccbe42a82994dd3415226f38</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>HEAD</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>af24e7dbc50400c89dbb3827cc25545fc</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator delete</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a007060ac3b55b668beaf47a59e8361ca</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator delete</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a0e51fe88a1a2b122863496fcf5acee3c</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>operator new</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>acc39add3badc92c9e95a8336ed64f231</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>ABAR</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a244727dedcdcbbdab874fc62799336f3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>exception_class</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>ae268038ce44c98f28ba55a4fd593f4e2</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>exception_cleanup</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a18303b9dbcb0c16693d43e92eab3f267</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>KAPI</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a8829069e57a9845d74b32ce27a618ccd</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PCIBaseAddress</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>ad97ca0bf263d0a3ed7372f3f45b34f2f</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PortCount</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>ac3df8788ec830893d90c0f71cce70ca3</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>Ports</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a58bd353c190c6f3968671717b3b46206</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>PortTypeName</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a02d56124e1383b4cb652a40d7e2ab054</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>private_1</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>aa1785f5c87b51d3ad7225379bdbacbc1</Anchor>
-                   </Node>
-                   <Node>
-                    <Name>private_2</Name>
-                    <Path>de/d94/AHCI_8cpp.html</Path>
-                    <Anchor>a89ff720a977899def1a05d4eceb64076</Anchor>
+                    <Name>SampleCount</Name>
+                    <Path>da/d16/ac97_8hpp.html</Path>
+                    <Anchor>a1a74a7068f9835f65f98d1ff9f95ee0f</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
-                  <Name>Makefile</Name>
-                  <Path>de/d35/Disk_2AHCI_2Makefile.html</Path>
-                 </Node>
-                </Subnodes>
-               </Node>
-               <Node>
-                <Name>ATA</Name>
-                <Path>dir_54b08afe78485beefb4f04a9da2ca58c.html</Path>
-                <Subnodes>
-                 <Node>
-                  <Name>ATA.cpp</Name>
-                  <Path>da/d05/ATA_8cpp.html</Path>
+                  <Name>AudioCodec97Driver.cpp</Name>
+                  <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
                   <Subnodes>
                    <Node>
                     <Name>print</Name>
-                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
                     <Anchor>a93bdbb2eb161fecc1c12d7b87345e718</Anchor>
                    </Node>
                    <Node>
                     <Name>__attribute__</Name>
-                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
                     <Anchor>af22ae37b84033edb178366e0d7d8f7e5</Anchor>
                    </Node>
                    <Node>
                     <Name>CallbackHandler</Name>
-                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
                     <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
                    </Node>
                    <Node>
                     <Name>DriverEntry</Name>
-                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
                     <Anchor>a56474bd9ccbe42a82994dd3415226f38</Anchor>
                    </Node>
                    <Node>
                     <Name>HEAD</Name>
-                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
                     <Anchor>af24e7dbc50400c89dbb3827cc25545fc</Anchor>
                    </Node>
                    <Node>
+                    <Name>MixerVolume</Name>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+                    <Anchor>aa4ed80ba00738f3b3c7da173721473a2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>BAR</Name>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+                    <Anchor>a6feaf4f129beba8154b37192e3b300d7</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Channels</Name>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+                    <Anchor>a291e929f9f03cab2c13edbc6eefc18bb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DescriptorList</Name>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+                    <Anchor>ae9d8e328943fb1eee68d8c361cfc8a2a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Encoding</Name>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+                    <Anchor>ab22fba2847f398b1b43501d47de3de6e</Anchor>
+                   </Node>
+                   <Node>
                     <Name>KAPI</Name>
-                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
                     <Anchor>a8829069e57a9845d74b32ce27a618ccd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Mute</Name>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+                    <Anchor>af929cb7b159d357fd09e60a130e858c5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PCIBaseAddress</Name>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+                    <Anchor>ad97ca0bf263d0a3ed7372f3f45b34f2f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SampleRate</Name>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+                    <Anchor>a3b233521f20f9eae6e9ede3f5cb6eae2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SampleSize</Name>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+                    <Anchor>afc5286dafc695c1943294d2e0e073834</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Volume</Name>
+                    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+                    <Anchor>a7bc27995991081eafed952f25e6c74f2</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
                  <Node>
                   <Name>Makefile</Name>
-                  <Path>da/d85/Disk_2ATA_2Makefile.html</Path>
+                  <Path>d4/d7c/Audio_2AudioCodec97_2Makefile.html</Path>
                  </Node>
                 </Subnodes>
                </Node>
                <Node>
                 <Name>Makefile</Name>
-                <Path>d0/d3b/Disk_2Makefile.html</Path>
+                <Path>d3/de5/Audio_2Makefile.html</Path>
                </Node>
               </Subnodes>
              </Node>
@@ -2235,19 +2196,19 @@
                     <Anchor>a93386b9eedec93cb0412f7c7e66ec91a</Anchor>
                    </Node>
                    <Node>
-                    <Name>CapabilitiesPtr</Name>
+                    <Name>CapabilitiesPointer</Name>
                     <Path>d9/d97/pci_8h.html</Path>
-                    <Anchor>abecdd7fa7d8c2ce204aa00ff3fe35987</Anchor>
+                    <Anchor>a661477dcd4874a3766ba8841c49cad9d</Anchor>
                    </Node>
                    <Node>
-                    <Name>CardbusCISPtr</Name>
+                    <Name>CardbusCISPointer</Name>
                     <Path>d9/d97/pci_8h.html</Path>
-                    <Anchor>aa4e4b73f95942bfd0003e68745acc6bd</Anchor>
+                    <Anchor>a43fadd48ffafc9f250ca3c6e665ca10c</Anchor>
                    </Node>
                    <Node>
-                    <Name>ExpansionROMBaseAddr</Name>
+                    <Name>ExpansionROMBaseAddress</Name>
                     <Path>d9/d97/pci_8h.html</Path>
-                    <Anchor>a5139716313ba48947325aadf3d964bc2</Anchor>
+                    <Anchor>a8232ee5f9a0806cae0f4d4ee069e899e</Anchor>
                    </Node>
                    <Node>
                     <Name>Header</Name>
@@ -2275,19 +2236,19 @@
                     <Anchor>aed3de1f49e6a37ba062923a49d60d622</Anchor>
                    </Node>
                    <Node>
-                    <Name>Rsv0</Name>
+                    <Name>Reserved0</Name>
                     <Path>d9/d97/pci_8h.html</Path>
-                    <Anchor>a9bcfdbb4f78b705f7182b18876dbb8f4</Anchor>
+                    <Anchor>a7dd49f3df363546683f4bcb5b758ffe4</Anchor>
                    </Node>
                    <Node>
-                    <Name>Rsv1</Name>
+                    <Name>Reserved1</Name>
                     <Path>d9/d97/pci_8h.html</Path>
-                    <Anchor>aa5573767d6aae1009e1455bb5ee2a109</Anchor>
+                    <Anchor>a6fe1870be9093fe97a41214ae09fecfa</Anchor>
                    </Node>
                    <Node>
-                    <Name>Rsv2</Name>
+                    <Name>Reserved2</Name>
                     <Path>d9/d97/pci_8h.html</Path>
-                    <Anchor>a2c4ecf9f395f2092074fc80d0a24684e</Anchor>
+                    <Anchor>aee788e27afd95e465cef366e805f0d1e</Anchor>
                    </Node>
                    <Node>
                     <Name>SubsystemID</Name>
@@ -2298,6 +2259,260 @@
                     <Name>SubsystemVendorID</Name>
                     <Path>d9/d97/pci_8h.html</Path>
                     <Anchor>aff859496d929c800d6a85bf362af4b23</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>PCIHeader1</Name>
+                  <Path>d9/d97/pci_8h.html</Path>
+                  <Anchor>d1/dfd/structPCIHeader1</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>BAR0</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ae9e823b90bd2f522d718c149dec98cbe</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>BAR1</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ab404a42202b2d405001031bc890d200a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>BridgeControl</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a04241db8a1219ee3d1e075c899b26252</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CapabilitiesPointer</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>aab7a9e65448246fa09bc85ee8cc301fb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ExpansionROMBaseAddress</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a90de8c5ed4f7a93b9b6a2084ba84f3c5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Header</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a2f22ff0c061e5b5b7b6e6b97bc60de4d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>InterruptLine</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>aa52a5efa20948a9e48117be9b52d8fd2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>InterruptPin</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a57c8690acc2e57922c067b82c18b2e6d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IOBase</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>afda1b94a74c2e6ee9f25f9b91491af0c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IOBaseUpper16</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>aa7a7390ff8a18f4c592a378a83aaf014</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IOLimit</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a4bd59014b98d7e22ebea13d41e19e1cc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IOLimitUpper16</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ac405720af92deb9aa962743e0b5d0a61</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>MemoryBase</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ad8c064249a44df713d05e4fc56736ce1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>MemoryLimit</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a2fa1a241eafc107d2d752872f0e1b0cf</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PrefetchableMemoryBase</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a1434453c591afa093cd708fc8a5d8b19</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PrefetchableMemoryBaseUpper32</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>af5dad4a8d9fcfbd15446b4f0299c7a23</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PrefetchableMemoryLimit</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a4831b117fa43c9f34f28fbe9718af6d2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PrefetchableMemoryLimitUpper32</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a68de98d20d78877374e4664416154a76</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PrimaryBusNumber</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a15cda50cc75089febd61d224fb1bf980</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Reserved0</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a22b014eb2e68cde9056b34c67e2fbce5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Reserved1</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a45f8f90614124e0884a85bdab19e2d78</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SecondaryBusNumber</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a5884c1d047cb1ddf94bf897bfa42db15</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SecondaryLatencyTimer</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a99dc28b068c7906789ba4c4ca0aeb7ad</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SecondaryStatus</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ae254bbd6ce4fc040de951f1162fa7ca2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SubordinateBusNumber</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a42b63aced62eb713ca599fd3a337a2e1</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>PCIHeader2</Name>
+                  <Path>d9/d97/pci_8h.html</Path>
+                  <Anchor>d3/dec/structPCIHeader2</Anchor>
+                  <Subnodes>
+                   <Node>
+                    <Name>BridgeControl</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>afdc179a56b97f65098bcd317ed0c1adb</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CapabilitiesPointer</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ad959c7468b920506b91d4e287eda4a40</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CardbusBusNumber</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ac326927df2e956ae65e7b8388de5bd35</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CardbusLatencyTimer</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a26f4172066ac97a4a35918a4c34b8d80</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CardbusSocketRegistersBaseAddress</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a62dac4d9135a80994609261486009807</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Header</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a0fccd9ae3a8e5feef0e708a0654157ef</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>InterruptLine</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ac7ed36c7aee1e7cd1396c06765ba74f4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>InterruptPin</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ae59f2a26c5a77db05e2db8f27f37cc84</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IOBase0</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>afa422e153e1182638185b454d00fa996</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IOBase1</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a47ffba4761ba064588caed0551092bf1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IOLimit0</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a7021c650fd516b7500a01a0504516c4e</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>IOLimit1</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>aa4580545b53d9a6fa9a0aea1853cbcf4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>LegacyBaseAddress</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>aa9025198e78e00a43b88c69ce757039c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>MemoryBase0</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>af0cf4b6d91c5cda3603b3954dd67bc9b</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>MemoryBase1</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ac92ca1f4873673057deb9bad2ea601d8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>MemoryLimit0</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a4832cbedbe43465bbce6cb7a6c3a2d8d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>MemoryLimit1</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ac246f3f78b626b57ce7855da895daec3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PCIbusNumber</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ab3fced2ce60805c54146b52664adb409</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Reserved0</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a5daa395fc3509119e0fb9b4864b5a853</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SecondaryStatus</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a7727c0b5eb265e1ba350a9ca1f70f421</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SubordinateBusNumber</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a28ceb4d1f7cf90f407a857ff138ee81a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SubsystemID</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>ae3797f6ed9e0a8059578a127a5f8550d</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SubsystemVendorID</Name>
+                    <Path>d9/d97/pci_8h.html</Path>
+                    <Anchor>a6286876acf5c32f45a927f912013e834</Anchor>
                    </Node>
                   </Subnodes>
                  </Node>
@@ -3206,22 +3421,32 @@
                   <Subnodes>
                    <Node>
                     <Name>BARData</Name>
-                    <Path>dc/df9/Virtio_8cpp.html</Path>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
                     <Anchor>d9/d66/structBARData</Anchor>
                     <Subnodes>
                      <Node>
+                      <Name>BusMasterAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a398d4ea9ec9e97c0031ac2d05b88bdbe</Anchor>
+                     </Node>
+                     <Node>
                       <Name>IOBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a12f75940950a0eda92f59158f95ceca7</Anchor>
                      </Node>
                      <Node>
                       <Name>MemoryBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a19d8096fe75993c6d1637beab020560f</Anchor>
                      </Node>
                      <Node>
+                      <Name>MixerAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ac18c7cc95d8c8ef0ee1cedda72c3d323</Anchor>
+                     </Node>
+                     <Node>
                       <Name>Type</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>ae8e332334c7895d7a6c6d3d8cb877f00</Anchor>
                      </Node>
                     </Subnodes>
@@ -3399,22 +3624,32 @@
                    </Node>
                    <Node>
                     <Name>BARData</Name>
-                    <Path>dc/df9/Virtio_8cpp.html</Path>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
                     <Anchor>d9/d66/structBARData</Anchor>
                     <Subnodes>
                      <Node>
+                      <Name>BusMasterAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a398d4ea9ec9e97c0031ac2d05b88bdbe</Anchor>
+                     </Node>
+                     <Node>
                       <Name>IOBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a12f75940950a0eda92f59158f95ceca7</Anchor>
                      </Node>
                      <Node>
                       <Name>MemoryBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a19d8096fe75993c6d1637beab020560f</Anchor>
                      </Node>
                      <Node>
+                      <Name>MixerAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ac18c7cc95d8c8ef0ee1cedda72c3d323</Anchor>
+                     </Node>
+                     <Node>
                       <Name>Type</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>ae8e332334c7895d7a6c6d3d8cb877f00</Anchor>
                      </Node>
                     </Subnodes>
@@ -3923,11 +4158,6 @@
                     <Anchor>af24e7dbc50400c89dbb3827cc25545fc</Anchor>
                    </Node>
                    <Node>
-                    <Name>InCMD</Name>
-                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
-                    <Anchor>af48992bf6549169015d5d2e2f4bfa525</Anchor>
-                   </Node>
-                   <Node>
                     <Name>InitializeRX</Name>
                     <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>a3a98f6e73dbbd3c1df719d3e07f57243</Anchor>
@@ -3938,14 +4168,19 @@
                     <Anchor>a9a55e319b5445c81e59c7410db995f05</Anchor>
                    </Node>
                    <Node>
-                    <Name>OutCMD</Name>
+                    <Name>ReadCMD</Name>
                     <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
-                    <Anchor>ad111c27d7b8a1d09f8a4d1ca1456c4f4</Anchor>
+                    <Anchor>ac6b4e4e0e2ee7d6ac1ded46cf09d18ea</Anchor>
                    </Node>
                    <Node>
                     <Name>ReadEEPROM</Name>
                     <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
                     <Anchor>ad0ce21098f78905bd7977bb5b568c7a4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>WriteCMD</Name>
+                    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+                    <Anchor>ae2303115e80fb93aeedcb1cd0cb51430</Anchor>
                    </Node>
                    <Node>
                     <Name>__attribute__</Name>
@@ -4074,22 +4309,32 @@
                   <Subnodes>
                    <Node>
                     <Name>BARData</Name>
-                    <Path>dc/df9/Virtio_8cpp.html</Path>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
                     <Anchor>d9/d66/structBARData</Anchor>
                     <Subnodes>
                      <Node>
+                      <Name>BusMasterAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a398d4ea9ec9e97c0031ac2d05b88bdbe</Anchor>
+                     </Node>
+                     <Node>
                       <Name>IOBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a12f75940950a0eda92f59158f95ceca7</Anchor>
                      </Node>
                      <Node>
                       <Name>MemoryBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a19d8096fe75993c6d1637beab020560f</Anchor>
                      </Node>
                      <Node>
+                      <Name>MixerAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ac18c7cc95d8c8ef0ee1cedda72c3d323</Anchor>
+                     </Node>
+                     <Node>
                       <Name>Type</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>ae8e332334c7895d7a6c6d3d8cb877f00</Anchor>
                      </Node>
                     </Subnodes>
@@ -4222,22 +4467,32 @@
                   <Subnodes>
                    <Node>
                     <Name>BARData</Name>
-                    <Path>dc/df9/Virtio_8cpp.html</Path>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
                     <Anchor>d9/d66/structBARData</Anchor>
                     <Subnodes>
                      <Node>
+                      <Name>BusMasterAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a398d4ea9ec9e97c0031ac2d05b88bdbe</Anchor>
+                     </Node>
+                     <Node>
                       <Name>IOBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a12f75940950a0eda92f59158f95ceca7</Anchor>
                      </Node>
                      <Node>
                       <Name>MemoryBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a19d8096fe75993c6d1637beab020560f</Anchor>
                      </Node>
                      <Node>
+                      <Name>MixerAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ac18c7cc95d8c8ef0ee1cedda72c3d323</Anchor>
+                     </Node>
+                     <Node>
                       <Name>Type</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>ae8e332334c7895d7a6c6d3d8cb877f00</Anchor>
                      </Node>
                     </Subnodes>
@@ -4310,22 +4565,32 @@
                   <Subnodes>
                    <Node>
                     <Name>BARData</Name>
-                    <Path>dc/df9/Virtio_8cpp.html</Path>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
                     <Anchor>d9/d66/structBARData</Anchor>
                     <Subnodes>
                      <Node>
+                      <Name>BusMasterAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a398d4ea9ec9e97c0031ac2d05b88bdbe</Anchor>
+                     </Node>
+                     <Node>
                       <Name>IOBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a12f75940950a0eda92f59158f95ceca7</Anchor>
                      </Node>
                      <Node>
                       <Name>MemoryBase</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>a19d8096fe75993c6d1637beab020560f</Anchor>
                      </Node>
                      <Node>
+                      <Name>MixerAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ac18c7cc95d8c8ef0ee1cedda72c3d323</Anchor>
+                     </Node>
+                     <Node>
                       <Name>Type</Name>
-                      <Path>dc/df9/Virtio_8cpp.html</Path>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
                       <Anchor>ae8e332334c7895d7a6c6d3d8cb877f00</Anchor>
                      </Node>
                     </Subnodes>
@@ -4387,6 +4652,946 @@
                <Node>
                 <Name>Makefile</Name>
                 <Path>d8/d63/Network_2Makefile.html</Path>
+               </Node>
+              </Subnodes>
+             </Node>
+             <Node>
+              <Name>Storage</Name>
+              <Path>dir_f651023b9713ac53a732c68047b0f816.html</Path>
+              <Subnodes>
+               <Node>
+                <Name>AHCI</Name>
+                <Path>dir_3b54c463bf5f1b80c9f4148608334e6b.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>AHCI.cpp</Name>
+                  <Path>de/d94/AHCI_8cpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>HBAPort</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>de/d0f/structHBAPort</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>CommandIssue</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>af16d5977e966938ac7e7e728710883ae</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CommandListBase</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aa0d90dec9cb4f73adb918c42b4976b57</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CommandListBaseUpper</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a09c9c4af2316000480de989504431787</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CommandStatus</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a3bb7218d7838f8c9c9f913bab97a1256</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FISBaseAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>acf57164f5681512a73e0de10484290e6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FISBaseAddressUpper</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a5422eb9b0926cc3a3a2cc32a917f2a64</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FISSwitchControl</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aa526cb3567dab6e2c7fa8b1933987f2f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>InterruptEnable</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>afcc827be7aff4792bbda826dbe78160b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>InterruptStatus</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a2fa386d1221207ef89e395cb756b3282</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reserved0</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a049103b49f8729c4755590eee2444d2b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reserved1</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a49817656974a71e66ca0256bc5e08be2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SataActive</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a359a1b13e31967a61a95ea6b8bb70d9f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SataControl</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a99393484c6e5d0da34e4cf9735504ba5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SataError</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a5dad43fea8761bd93ef528c47fcf747c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SataNotification</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a4f9912ff2a7738857cafaa62a3dbc467</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SataStatus</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>adc7499381bd19a7cbb78370c9d77314e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Signature</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a0e7f339ba60bb570571fe0be549b9cd6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>TaskFileData</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ae14011fc6c22df2af7e057abad6a1a9d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Vendor</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aa7fb58079b178df8222c738d8cb50288</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>HBAMemory</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>d5/def/structHBAMemory</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>BIOSHandoffControlStatus</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aaa4d3abfcaaddb651e76a577a000dbee</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CCCControl</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ab47a46f923cd4c0a8ba9cb5e6223c69f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CCCPorts</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ac392457cea191981d22f937d7426455c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>EnclosureManagementControl</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a98796937b7ab1838944516c2eba89762</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>EnclosureManagementLocation</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a46404a96f7d1d786cee7d5e5e10c45f8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>GlobalHostControl</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a11dacbb289454e423928ebae01014f19</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>HostCapabilitiesExtended</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aaab588a821d97ae26a7144b27cd1fd74</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>HostCapability</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aab5c7f1a6fd3d63b237fee9b69b41633</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>InterruptStatus</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a7ffff879bccf3ea26b60919a04b8c901</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Ports</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a636d6a9c09ea391a7e80e7bee0a6d608</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PortsImplemented</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ae02c5f174dba7f8149f997f2e4194dd8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reserved0</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ab8dd142a4dfa8984fbba70ad97e3e733</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Vendor</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aa862edc85e1fd2cbf23c49b721c4407a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Version</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a2a352da5ce9dfbd294bf93ed1a36ef58</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>HBACommandHeader</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>d5/df7/structHBACommandHeader</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>ATAPI</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aa72fb43d2225e038fe928e11019db254</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>BIST</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a9fdbf2d4efa979ad90cd51a61d17759d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>ClearBusy</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a8bac8f94f11506686fbc5c180153f01a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CommandFISLength</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ab8c5569c89d2c664136930a7b87d4fda</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CommandTableBaseAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ad80f2bf60dcacb26254ac3816d3588b6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CommandTableBaseAddressUpper</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a9fc8d16e731f658bfa6cd46a6ee990b6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PortMultiplier</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>af96c8045b60e8dbcbf5812adffd7dcee</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PRDBCount</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>af8462ab8fe6d930d8bf09e6c3df2b02b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PRDTLength</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ac621d5f9c7fa4e5a774f5576f6cb9d3a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Preferable</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ab5089a7a3a5952e5e21be4b7b024dad2</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reserved0</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a5a9bbaace5be0dbd2c523996fdc2cfb7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reserved1</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a82a0b642f0a8715f4f95e537fb12f453</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reset</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ad83ffa6e04ffc1de801b20453258249e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Write</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ab3bfcae00730c25b9f41baeb4d9b58fb</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>HBAPRDTEntry</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>d8/d36/structHBAPRDTEntry</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>ByteCount</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a614b4f82d02c8ca772fb79bb40ae0059</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>DataBaseAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>abb3b42660dce4aeabe7e98ffe77bbd0f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>DataBaseAddressUpper</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a7514a30e2939f380eeadaa42bb9c0455</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>InterruptOnCompletion</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a67b400a63085145cbf72257ef4387d76</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reserved0</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a7bd4def088987e9eb7ba91bafca85abf</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reserved1</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a63f6b97b28d0c94ce623a8a83f274c9c</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>HBACommandTable</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>d6/d37/structHBACommandTable</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>ATAPICommand</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>adbf03b3513909c719a75bea09b3ecfbb</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CommandFIS</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aa4afabf36e5428477e4ac21519dad496</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PRDTEntry</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aae9200119e6aede088035a42ef516f78</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reserved</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ad1a1113f8ff53f1227d4d4210653387f</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>FIS_REG_H2D</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>df/dbd/structFIS__REG__H2D</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>Command</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ad3804293f81197f6f059893136e54a8a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CommandControl</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a138ebc099f3423d0b29420175c09038e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Control</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aaa73c9585b552be969b485ac7eb536aa</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CountHigh</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a9cf32a73c5e0ae783947004fb4650a64</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>CountLow</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a7079a326df59dac1240a964565f2bfb8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>DeviceRegister</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a22d7aa7511dfdafc0098c2c1a27152fd</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FeatureHigh</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>afce4428ea9bf1c5de071ceaa77eb46e1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FeatureLow</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ab28817299579b29ed9e5ed2449a312dc</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FISType</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aeb00fbb5d25151f030346be283e761a5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>ISOCommandCompletion</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a1642ad25240f958c7e5e1c2e0a684349</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>LBA0</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a88cac422d6790add72777362e4e8e26e</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>LBA1</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a79db99035bd003914f1430137bf2aa50</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>LBA2</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a725dd9af290893941134783e657537bb</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>LBA3</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a43953369dad2f92b8fa4b0c4dcf1b6db</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>LBA4</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>acbb2b4cd43640059a6973451fcbc656b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>LBA5</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>acf4bca5bca48eb6c7076ceeb20c29936</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PortMultiplier</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>aef2df5dcd02fa0330b2fc8f3c7b66498</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reserved0</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>add67b4ed17081978f09abcb2871a6dea</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Reserved1</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a044dddb4cb03eadb84b5d0a7c71dce9c</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>BARData</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>d9/d66/structBARData</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>BusMasterAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a398d4ea9ec9e97c0031ac2d05b88bdbe</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>IOBase</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a12f75940950a0eda92f59158f95ceca7</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>MemoryBase</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a19d8096fe75993c6d1637beab020560f</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>MixerAddress</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ac18c7cc95d8c8ef0ee1cedda72c3d323</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Type</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ae8e332334c7895d7a6c6d3d8cb877f00</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>_Unwind_Exception</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>de/dc3/struct__Unwind__Exception</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>exception_class</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ade34d40df51766d7ff384a01237209ae</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>exception_cleanup</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a44d69c695cdcc6fcde54ae458a69a4c8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>private_1</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a90fbbe59c5adade160b6bb21b5f71d3d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>private_2</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a5baef90b9b72c2b612cf44326674ef24</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>Port</Name>
+                    <Path>d3/d7b/classPort.html</Path>
+                    <Subnodes>
+                     <Node>
+                      <Name>Port</Name>
+                      <Path>d3/d7b/classPort.html</Path>
+                      <Anchor>a3a8664d675ca7ff61b0b816510f0a96c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>~Port</Name>
+                      <Path>d3/d7b/classPort.html</Path>
+                      <Anchor>afe166c2a6b10ad34d47472a150366bc1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Configure</Name>
+                      <Path>d3/d7b/classPort.html</Path>
+                      <Anchor>a82b803419d76db8b23cd4a800872cd11</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>ReadWrite</Name>
+                      <Path>d3/d7b/classPort.html</Path>
+                      <Anchor>a7143b7904b857dccfc0fd286712e8139</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>StartCMD</Name>
+                      <Path>d3/d7b/classPort.html</Path>
+                      <Anchor>a77ab3e2942b91517dd3344ed7aabc63d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>StopCMD</Name>
+                      <Path>d3/d7b/classPort.html</Path>
+                      <Anchor>ade80cd821f44de47d3dae6800a221cf6</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>AHCIPortType</Name>
+                      <Path>d3/d7b/classPort.html</Path>
+                      <Anchor>a90ac175f5c9197edbd990f86355d1274</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>Buffer</Name>
+                      <Path>d3/d7b/classPort.html</Path>
+                      <Anchor>a64244c4e58580e297b8acef16663d22c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>HBAPortPtr</Name>
+                      <Path>d3/d7b/classPort.html</Path>
+                      <Anchor>a5420f2d226d306aa2cbdcb9b6da04c09</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PortNumber</Name>
+                      <Path>d3/d7b/classPort.html</Path>
+                      <Anchor>a70aef7edc27044173e4b652731b7cd09</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>ATA_CMD_READ_DMA_EX</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a38dd4451240fdf39ed56148f148e9ffd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ATA_CMD_WRITE_DMA_EX</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>aad07fe181bd03623b039bca75664ec29</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ATA_DEV_BUSY</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a32b0d71691c7e21ded44e462fe3de8db</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ATA_DEV_DRQ</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>af12bdbc024458d3a760650e93bc32cb3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>HBA_PORT_DEV_PRESENT</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>aaeb840d36dea7b5dd045e4372e86ab1a</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>HBA_PORT_IPM_ACTIVE</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a7799cbde4e99b339a61cb79ba018ed78</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>HBA_PxCMD_CR</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>ad2550f8f63fa32140f93da1b95354cf6</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>HBA_PxCMD_FR</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a93f2b1904299d4d1920e65039ff7ce5c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>HBA_PxCMD_FRE</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a27978dd2aac599cbd0330c923652c6e4</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>HBA_PxCMD_ST</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a469ab8af9bf8f1f89a5c8f79b2305e34</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>HBA_PxIS_TFES</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a11add414188662b170c68ead95a786d8</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>print</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a93bdbb2eb161fecc1c12d7b87345e718</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SATA_SIG_ATA</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>ab97be318da4cd3f956b53f3d3c162d22</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SATA_SIG_ATAPI</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>aa52680525d3698b9c2206cedbf2b3c82</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SATA_SIG_PM</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a5824e44ad5e394c0026dad1f997d26d3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>SATA_SIG_SEMB</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a74a4ae0fdaf517fb886dfe8fc53218db</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__attribute__</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a75dbbe55a0a4289676316e4c0b0942ea</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_Unwind_Action</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a09fdc8f727b214f5168e3690b0ddfa21</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_Unwind_Exception_Cleanup_Fn</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>aa315b38b270688a4d979ec71a9f33586</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_Unwind_Reason_Code</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a26f33dc6f6d23dc64517389b6b786ac2</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>_URC_NO_REASON</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_URC_FOREIGN_EXCEPTION_CAUGHT</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_URC_FATAL_PHASE2_ERROR</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_URC_FATAL_PHASE1_ERROR</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_URC_NORMAL_STOP</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_URC_END_OF_STACK</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_URC_HANDLER_FOUND</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_URC_INSTALL_CONTEXT</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>_URC_CONTINUE_UNWIND</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>FIS_TYPE</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>ace71afc212819392a7b00fbf19feba86</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>FIS_TYPE_REG_H2D</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ace71afc212819392a7b00fbf19feba86a6bf1b47f446739ef43faae8f336c3926</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FIS_TYPE_REG_D2H</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ace71afc212819392a7b00fbf19feba86ae1d5eaa1f1a908043927530044b4394d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FIS_TYPE_DMA_ACT</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ace71afc212819392a7b00fbf19feba86a1a3d1978859cdf6c6001c13177dbd386</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FIS_TYPE_DMA_SETUP</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ace71afc212819392a7b00fbf19feba86adb343aab8b5d14af51decdcc24629af8</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FIS_TYPE_DATA</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ace71afc212819392a7b00fbf19feba86ac2c749b258ea247c739772b70ee8fe96</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FIS_TYPE_BIST</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ace71afc212819392a7b00fbf19feba86a6d51bc47354d35b144fa146cbcb0d5cd</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FIS_TYPE_PIO_SETUP</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ace71afc212819392a7b00fbf19feba86a2af968dcd3c14953622d44e9e90c6336</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>FIS_TYPE_DEV_BITS</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>ace71afc212819392a7b00fbf19feba86ab4aa404255097815f1e4a1dd372a151a</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>PortType</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a7674c329addda8fbe6176bbbf25c8b21</Anchor>
+                    <Subnodes>
+                     <Node>
+                      <Name>None</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a7674c329addda8fbe6176bbbf25c8b21ac9d3e887722f2bc482bcca9d41c512af</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SATA</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a7674c329addda8fbe6176bbbf25c8b21aadca48adb31125c1c75f5d0a6129bb65</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SEMB</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a7674c329addda8fbe6176bbbf25c8b21a9a39520edead67e393778526da072df1</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>PM</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a7674c329addda8fbe6176bbbf25c8b21a4e84ba06a563492b48e6b6e25dd85c2d</Anchor>
+                     </Node>
+                     <Node>
+                      <Name>SATAPI</Name>
+                      <Path>de/d94/AHCI_8cpp.html</Path>
+                      <Anchor>a7674c329addda8fbe6176bbbf25c8b21a4dbae02a8c82ef71f515500f26e2f1c2</Anchor>
+                     </Node>
+                    </Subnodes>
+                   </Node>
+                   <Node>
+                    <Name>__attribute__</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>ac8c21f335bc7c2f0bc6a9ddaee6b9431</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__attribute__</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>af22ae37b84033edb178366e0d7d8f7e5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__gxx_personality_v0</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a983fe3cd283e66a7d6dcb29917c09e23</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>_Unwind_Resume</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a5edfd44697b07e704cccec4b10b875bd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CallbackHandler</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CheckPortType</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>afdee1e06ba3d90e76724c7fddee28acd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DriverEntry</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a56474bd9ccbe42a82994dd3415226f38</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>HEAD</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>af24e7dbc50400c89dbb3827cc25545fc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator delete</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a007060ac3b55b668beaf47a59e8361ca</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator delete</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a0e51fe88a1a2b122863496fcf5acee3c</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>operator new</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>acc39add3badc92c9e95a8336ed64f231</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ABAR</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a244727dedcdcbbdab874fc62799336f3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>exception_class</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>ae268038ce44c98f28ba55a4fd593f4e2</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>exception_cleanup</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a18303b9dbcb0c16693d43e92eab3f267</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>KAPI</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a8829069e57a9845d74b32ce27a618ccd</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PCIBaseAddress</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>ad97ca0bf263d0a3ed7372f3f45b34f2f</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PortCount</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>ac3df8788ec830893d90c0f71cce70ca3</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>Ports</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a58bd353c190c6f3968671717b3b46206</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>PortTypeName</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a02d56124e1383b4cb652a40d7e2ab054</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>private_1</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>aa1785f5c87b51d3ad7225379bdbacbc1</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>private_2</Name>
+                    <Path>de/d94/AHCI_8cpp.html</Path>
+                    <Anchor>a89ff720a977899def1a05d4eceb64076</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Makefile</Name>
+                  <Path>da/d21/Storage_2AHCI_2Makefile.html</Path>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>ATA</Name>
+                <Path>dir_0c0566eff7d5d7c11e2753f3428be832.html</Path>
+                <Subnodes>
+                 <Node>
+                  <Name>ATA.cpp</Name>
+                  <Path>da/d05/ATA_8cpp.html</Path>
+                  <Subnodes>
+                   <Node>
+                    <Name>print</Name>
+                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Anchor>a93bdbb2eb161fecc1c12d7b87345e718</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>__attribute__</Name>
+                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Anchor>af22ae37b84033edb178366e0d7d8f7e5</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>CallbackHandler</Name>
+                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>DriverEntry</Name>
+                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Anchor>a56474bd9ccbe42a82994dd3415226f38</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>HEAD</Name>
+                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Anchor>af24e7dbc50400c89dbb3827cc25545fc</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>KAPI</Name>
+                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Anchor>a8829069e57a9845d74b32ce27a618ccd</Anchor>
+                   </Node>
+                  </Subnodes>
+                 </Node>
+                 <Node>
+                  <Name>Makefile</Name>
+                  <Path>d3/da7/Storage_2ATA_2Makefile.html</Path>
+                 </Node>
+                </Subnodes>
+               </Node>
+               <Node>
+                <Name>Makefile</Name>
+                <Path>de/dd3/Storage_2Makefile.html</Path>
                </Node>
               </Subnodes>
              </Node>

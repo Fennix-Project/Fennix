@@ -17,10 +17,12 @@ var IntelGigabit_8cpp =
       [ "Special", "dc/d7c/IntelGigabit_8cpp.html#a44c265d7491b41691d2e377a3e34fe14", null ],
       [ "Status", "dc/d7c/IntelGigabit_8cpp.html#afb7adf64c926dcb984d53f136880742e", null ]
     ] ],
-    [ "BARData", "dc/df9/Virtio_8cpp.html#d9/d66/structBARData", [
-      [ "IOBase", "dc/df9/Virtio_8cpp.html#a12f75940950a0eda92f59158f95ceca7", null ],
-      [ "MemoryBase", "dc/df9/Virtio_8cpp.html#a19d8096fe75993c6d1637beab020560f", null ],
-      [ "Type", "dc/df9/Virtio_8cpp.html#ae8e332334c7895d7a6c6d3d8cb877f00", null ]
+    [ "BARData", "de/d94/AHCI_8cpp.html#d9/d66/structBARData", [
+      [ "BusMasterAddress", "de/d94/AHCI_8cpp.html#a398d4ea9ec9e97c0031ac2d05b88bdbe", null ],
+      [ "IOBase", "de/d94/AHCI_8cpp.html#a12f75940950a0eda92f59158f95ceca7", null ],
+      [ "MemoryBase", "de/d94/AHCI_8cpp.html#a19d8096fe75993c6d1637beab020560f", null ],
+      [ "MixerAddress", "de/d94/AHCI_8cpp.html#ac18c7cc95d8c8ef0ee1cedda72c3d323", null ],
+      [ "Type", "de/d94/AHCI_8cpp.html#ae8e332334c7895d7a6c6d3d8cb877f00", null ]
     ] ],
     [ "E1000_NUM_RX_DESC", "dc/d7c/IntelGigabit_8cpp.html#aa8ed57c88df5582770a3d7214c80fc19", null ],
     [ "E1000_NUM_TX_DESC", "dc/d7c/IntelGigabit_8cpp.html#a072841f719ac7f2481decdb11eda3dfe", null ],
@@ -128,11 +130,11 @@ var IntelGigabit_8cpp =
     [ "DriverEntry", "dc/d7c/IntelGigabit_8cpp.html#a56474bd9ccbe42a82994dd3415226f38", null ],
     [ "GetMAC", "dc/d7c/IntelGigabit_8cpp.html#a2435754370f8c4e210efdd4f790ac4d0", null ],
     [ "HEAD", "dc/d7c/IntelGigabit_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc", null ],
-    [ "InCMD", "dc/d7c/IntelGigabit_8cpp.html#af48992bf6549169015d5d2e2f4bfa525", null ],
     [ "InitializeRX", "dc/d7c/IntelGigabit_8cpp.html#a3a98f6e73dbbd3c1df719d3e07f57243", null ],
     [ "InitializeTX", "dc/d7c/IntelGigabit_8cpp.html#a9a55e319b5445c81e59c7410db995f05", null ],
-    [ "OutCMD", "dc/d7c/IntelGigabit_8cpp.html#ad111c27d7b8a1d09f8a4d1ca1456c4f4", null ],
+    [ "ReadCMD", "dc/d7c/IntelGigabit_8cpp.html#ac6b4e4e0e2ee7d6ac1ded46cf09d18ea", null ],
     [ "ReadEEPROM", "dc/d7c/IntelGigabit_8cpp.html#ad0ce21098f78905bd7977bb5b568c7a4", null ],
+    [ "WriteCMD", "dc/d7c/IntelGigabit_8cpp.html#ae2303115e80fb93aeedcb1cd0cb51430", null ],
     [ "__attribute__", "dc/d7c/IntelGigabit_8cpp.html#a904d0e9ca592fb97af72ffd03b1ae5ef", null ],
     [ "Address", "dc/d7c/IntelGigabit_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc", null ],
     [ "BAR", "dc/d7c/IntelGigabit_8cpp.html#a6feaf4f129beba8154b37192e3b300d7", null ],

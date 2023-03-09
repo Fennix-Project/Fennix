@@ -102,6 +102,10 @@ Data Structures</h2></td></tr>
 <tr class="separator:d8/dbb/structPCIDeviceHeader"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d2/d75/structPCIHeader0"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/pci_8h.html#d2/d75/structPCIHeader0">PCIHeader0</a></td></tr>
 <tr class="separator:d2/d75/structPCIHeader0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d1/dfd/structPCIHeader1"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/pci_8h.html#d1/dfd/structPCIHeader1">PCIHeader1</a></td></tr>
+<tr class="separator:d1/dfd/structPCIHeader1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d3/dec/structPCIHeader2"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/pci_8h.html#d3/dec/structPCIHeader2">PCIHeader2</a></td></tr>
+<tr class="separator:d3/dec/structPCIHeader2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -267,21 +271,21 @@ BAR5</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="abecdd7fa7d8c2ce204aa00ff3fe35987"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a661477dcd4874a3766ba8841c49cad9d"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
-CapabilitiesPtr</td>
+CapabilitiesPointer</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aa4e4b73f95942bfd0003e68745acc6bd"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="a43fadd48ffafc9f250ca3c6e665ca10c"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
 <td class="fieldname">
-CardbusCISPtr</td>
+CardbusCISPointer</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a5139716313ba48947325aadf3d964bc2"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="a8232ee5f9a0806cae0f4d4ee069e899e"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
 <td class="fieldname">
-ExpansionROMBaseAddr</td>
+ExpansionROMBaseAddress</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -315,21 +319,21 @@ MinGrant</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a9bcfdbb4f78b705f7182b18876dbb8f4"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a7dd49f3df363546683f4bcb5b758ffe4"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
-Rsv0</td>
+Reserved0</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aa5573767d6aae1009e1455bb5ee2a109"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a6fe1870be9093fe97a41214ae09fecfa"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
-Rsv1</td>
+Reserved1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a2c4ecf9f395f2092074fc80d0a24684e"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<a id="aee788e27afd95e465cef366e805f0d1e"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
 <td class="fieldname">
-Rsv2</td>
+Reserved2</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -340,6 +344,332 @@ SubsystemID</td>
 </td></tr>
 <tr><td class="fieldtype">
 <a id="aff859496d929c800d6a85bf362af4b23"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+SubsystemVendorID</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d1/dfd/structPCIHeader1" id="d1/dfd/structPCIHeader1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d1/dfd/structPCIHeader1">&#9670;&nbsp;</a></span>PCIHeader1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct PCIHeader1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d9/d97/pci_8h_source.html#l00072">72</a> of file <a class="el" href="../../d9/d97/pci_8h_source.html">pci.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ae9e823b90bd2f522d718c149dec98cbe"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+BAR0</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab404a42202b2d405001031bc890d200a"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+BAR1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a04241db8a1219ee3d1e075c899b26252"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+BridgeControl</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aab7a9e65448246fa09bc85ee8cc301fb"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+CapabilitiesPointer</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a90de8c5ed4f7a93b9b6a2084ba84f3c5"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+ExpansionROMBaseAddress</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a2f22ff0c061e5b5b7b6e6b97bc60de4d"></a><a class="el" href="../../d9/d97/pci_8h.html#d8/dbb/structPCIDeviceHeader">PCIDeviceHeader</a></td>
+<td class="fieldname">
+Header</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa52a5efa20948a9e48117be9b52d8fd2"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+InterruptLine</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a57c8690acc2e57922c067b82c18b2e6d"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+InterruptPin</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="afda1b94a74c2e6ee9f25f9b91491af0c"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+IOBase</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa7a7390ff8a18f4c592a378a83aaf014"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+IOBaseUpper16</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4bd59014b98d7e22ebea13d41e19e1cc"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+IOLimit</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac405720af92deb9aa962743e0b5d0a61"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+IOLimitUpper16</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ad8c064249a44df713d05e4fc56736ce1"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+MemoryBase</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a2fa1a241eafc107d2d752872f0e1b0cf"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+MemoryLimit</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a1434453c591afa093cd708fc8a5d8b19"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+PrefetchableMemoryBase</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af5dad4a8d9fcfbd15446b4f0299c7a23"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+PrefetchableMemoryBaseUpper32</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4831b117fa43c9f34f28fbe9718af6d2"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+PrefetchableMemoryLimit</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a68de98d20d78877374e4664416154a76"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+PrefetchableMemoryLimitUpper32</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a15cda50cc75089febd61d224fb1bf980"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+PrimaryBusNumber</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a22b014eb2e68cde9056b34c67e2fbce5"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+Reserved0</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a45f8f90614124e0884a85bdab19e2d78"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+Reserved1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a5884c1d047cb1ddf94bf897bfa42db15"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+SecondaryBusNumber</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a99dc28b068c7906789ba4c4ca0aeb7ad"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+SecondaryLatencyTimer</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ae254bbd6ce4fc040de951f1162fa7ca2"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+SecondaryStatus</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a42b63aced62eb713ca599fd3a337a2e1"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+SubordinateBusNumber</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d3/dec/structPCIHeader2" id="d3/dec/structPCIHeader2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d3/dec/structPCIHeader2">&#9670;&nbsp;</a></span>PCIHeader2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct PCIHeader2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d9/d97/pci_8h_source.html#l00101">101</a> of file <a class="el" href="../../d9/d97/pci_8h_source.html">pci.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="afdc179a56b97f65098bcd317ed0c1adb"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+BridgeControl</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ad959c7468b920506b91d4e287eda4a40"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+CapabilitiesPointer</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac326927df2e956ae65e7b8388de5bd35"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+CardbusBusNumber</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a26f4172066ac97a4a35918a4c34b8d80"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+CardbusLatencyTimer</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a62dac4d9135a80994609261486009807"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+CardbusSocketRegistersBaseAddress</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a0fccd9ae3a8e5feef0e708a0654157ef"></a><a class="el" href="../../d9/d97/pci_8h.html#d8/dbb/structPCIDeviceHeader">PCIDeviceHeader</a></td>
+<td class="fieldname">
+Header</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac7ed36c7aee1e7cd1396c06765ba74f4"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+InterruptLine</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ae59f2a26c5a77db05e2db8f27f37cc84"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+InterruptPin</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="afa422e153e1182638185b454d00fa996"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+IOBase0</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a47ffba4761ba064588caed0551092bf1"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+IOBase1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a7021c650fd516b7500a01a0504516c4e"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+IOLimit0</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa4580545b53d9a6fa9a0aea1853cbcf4"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+IOLimit1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa9025198e78e00a43b88c69ce757039c"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+LegacyBaseAddress</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af0cf4b6d91c5cda3603b3954dd67bc9b"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+MemoryBase0</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac92ca1f4873673057deb9bad2ea601d8"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+MemoryBase1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4832cbedbe43465bbce6cb7a6c3a2d8d"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+MemoryLimit0</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac246f3f78b626b57ce7855da895daec3"></a><a class="el" href="../../d9/d49/types_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+MemoryLimit1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab3fced2ce60805c54146b52664adb409"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+PCIbusNumber</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a5daa395fc3509119e0fb9b4864b5a853"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+Reserved0</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a7727c0b5eb265e1ba350a9ca1f70f421"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+SecondaryStatus</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a28ceb4d1f7cf90f407a857ff138ee81a"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+SubordinateBusNumber</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ae3797f6ed9e0a8059578a127a5f8550d"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+SubsystemID</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a6286876acf5c32f45a927f912013e834"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 SubsystemVendorID</td>
 <td class="fielddoc">

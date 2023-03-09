@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['tctl_704',['TCTL',['../dc/d7c/IntelGigabit_8cpp.html#aa22b48f96c1de3de7a571b0eeac87ad7',1,'IntelGigabit.cpp']]],
-  ['tsta_705',['TSTA',['../dc/d7c/IntelGigabit_8cpp.html#a5fa07660bed21da1dd01e99605073060',1,'IntelGigabit.cpp']]]
+  ['outputpulsecodemodulationregisters_852',['OutputPulseCodeModulationRegisters',['../da/d16/ac97_8hpp.html#a4e74753899b251a61239afaebd7c7700',1,'ac97.hpp']]]
 ];

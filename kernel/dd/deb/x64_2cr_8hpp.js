@@ -18,7 +18,7 @@ var x64_2cr_8hpp =
     [ "XCR0", "d9/d25/namespaceCPU_1_1x64.html#d5/dc7/unionCPU_1_1x64_1_1XCR0", [
       [ "raw", "d9/d25/namespaceCPU_1_1x64.html#a2bcf86f543daf88137e4ba35644232f9", null ]
     ] ],
-    [ "CR0.__unnamed581__", "d9/d25/namespaceCPU_1_1x64.html#d8/dbe/structCPU_1_1x64_1_1CR0_8____unnamed581____", [
+    [ "CR0.__unnamed593__", "d9/d25/namespaceCPU_1_1x64.html#da/d01/structCPU_1_1x64_1_1CR0_8____unnamed593____", [
       [ "AM", "d9/d25/namespaceCPU_1_1x64.html#a25ec916d56b8212e569dbf2e4e4b51d4", null ],
       [ "CD", "d9/d25/namespaceCPU_1_1x64.html#a4170acd6af571e8d0d59fdad999cc605", null ],
       [ "EM", "d9/d25/namespaceCPU_1_1x64.html#ab95c3d50fa47443166f7d356eaed8006", null ],
@@ -34,15 +34,15 @@ var x64_2cr_8hpp =
       [ "TS", "d9/d25/namespaceCPU_1_1x64.html#a6ba89ab41823af9b65ea5d233031b9f8", null ],
       [ "WP", "d9/d25/namespaceCPU_1_1x64.html#a84aee62cd1bc3644a3a81a8352b36d4f", null ]
     ] ],
-    [ "CR2.__unnamed583__", "d9/d25/namespaceCPU_1_1x64.html#d1/d85/structCPU_1_1x64_1_1CR2_8____unnamed583____", [
+    [ "CR2.__unnamed595__", "d9/d25/namespaceCPU_1_1x64.html#dc/d0f/structCPU_1_1x64_1_1CR2_8____unnamed595____", [
       [ "PFLA", "d9/d25/namespaceCPU_1_1x64.html#a3bdf404879d25f8d92b0cf7f0d56ff4a", null ]
     ] ],
-    [ "CR3.__unnamed585__", "d9/d25/namespaceCPU_1_1x64.html#d7/da8/structCPU_1_1x64_1_1CR3_8____unnamed585____", [
+    [ "CR3.__unnamed597__", "d9/d25/namespaceCPU_1_1x64.html#d3/deb/structCPU_1_1x64_1_1CR3_8____unnamed597____", [
       [ "PCD", "d9/d25/namespaceCPU_1_1x64.html#a64bd82be2f900e31c0c58b47fb919c28", null ],
       [ "PDBR", "d9/d25/namespaceCPU_1_1x64.html#ab9b0a89c81249ad2e2e0784cf852e768", null ],
       [ "PWT", "d9/d25/namespaceCPU_1_1x64.html#aa8ed3a0df35c06b217f95a9d52b23881", null ]
     ] ],
-    [ "CR4.__unnamed587__", "d9/d25/namespaceCPU_1_1x64.html#df/d3a/structCPU_1_1x64_1_1CR4_8____unnamed587____", [
+    [ "CR4.__unnamed599__", "d9/d25/namespaceCPU_1_1x64.html#d1/d95/structCPU_1_1x64_1_1CR4_8____unnamed599____", [
       [ "CET", "d9/d25/namespaceCPU_1_1x64.html#a7e706fb31ff4653c9554f30ff1ad542c", null ],
       [ "DE", "d9/d25/namespaceCPU_1_1x64.html#a3a52f3c22ed6fcde5bf696a6c02c9e73", null ],
       [ "FSGSBASE", "d9/d25/namespaceCPU_1_1x64.html#af3a69264228a8d0b970ea1595026c80e", null ],
@@ -70,10 +70,10 @@ var x64_2cr_8hpp =
       [ "VME", "d9/d25/namespaceCPU_1_1x64.html#a5b382b19324e0a71d404284d5c312804", null ],
       [ "VMXE", "d9/d25/namespaceCPU_1_1x64.html#ace4cbb42b611af13fab5dc8f9303fd14", null ]
     ] ],
-    [ "CR8.__unnamed589__", "d9/d25/namespaceCPU_1_1x64.html#d7/d67/structCPU_1_1x64_1_1CR8_8____unnamed589____", [
+    [ "CR8.__unnamed609__", "d9/d25/namespaceCPU_1_1x64.html#da/df3/structCPU_1_1x64_1_1CR8_8____unnamed609____", [
       [ "TPL", "d9/d25/namespaceCPU_1_1x64.html#aafec6abed17f07d98bb4ec07dc071c96", null ]
     ] ],
-    [ "XCR0.__unnamed591__", "d9/d25/namespaceCPU_1_1x64.html#d2/de7/structCPU_1_1x64_1_1XCR0_8____unnamed591____", [
+    [ "XCR0.__unnamed617__", "d9/d25/namespaceCPU_1_1x64.html#d2/d0b/structCPU_1_1x64_1_1XCR0_8____unnamed617____", [
       [ "AVX", "d9/d25/namespaceCPU_1_1x64.html#a4863502abea45861b9ed022e66d66cb2", null ],
       [ "BNDCSR", "d9/d25/namespaceCPU_1_1x64.html#a0743cfdcae3db10c39a3c269a8a6bd01", null ],
       [ "BNDREG", "d9/d25/namespaceCPU_1_1x64.html#a4746cd6e19e5496c6f0c684bc02db529", null ],

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['vmware_5fmagic_858',['VMWARE_MAGIC',['../d8/d91/VMwareMouseDriver_8cpp.html#abe0d2eecc7cf3ca7fce022e6be487b81',1,'VMwareMouseDriver.cpp']]],
-  ['vmware_5fport_859',['VMWARE_PORT',['../d8/d91/VMwareMouseDriver_8cpp.html#a00872e853a5ac96ce036c3ba31b2d97c',1,'VMwareMouseDriver.cpp']]]
+  ['unused_1073',['UNUSED',['../d9/d49/types_8h.html#a86d500a34c624c2cae56bc25a31b12f3',1,'types.h']]]
 ];

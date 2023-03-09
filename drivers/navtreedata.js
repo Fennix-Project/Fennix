@@ -31,7 +31,7 @@ var NAVTREE =
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
       [ "Data Fields", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ]
       ] ]
@@ -54,8 +54,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"da/d05/ATA_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5",
-"dc/df9/Virtio_8cpp.html#d9/d66/structBARData"
+"d9/d97/pci_8h.html#aab7a9e65448246fa09bc85ee8cc301fb",
+"dc/d7c/IntelGigabit_8cpp.html#a7e3d06f36da3bbce7a7ea3c7cdd387ab",
+"de/d94/AHCI_8cpp.html#aae9200119e6aede088035a42ef516f78"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

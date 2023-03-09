@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Drivers: Drivers/Disk/AHCI/AHCI.cpp File Reference</title>
+<title>Fennix Drivers: Drivers/Storage/AHCI/AHCI.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -118,7 +118,7 @@ Data Structures</h2></td></tr>
 <tr class="separator:d6/d37/structHBACommandTable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:df/dbd/structFIS__REG__H2D"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#df/dbd/structFIS__REG__H2D">FIS_REG_H2D</a></td></tr>
 <tr class="separator:df/dbd/structFIS__REG__H2D"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d66/structBARData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df9/Virtio_8cpp.html#d9/d66/structBARData">BARData</a></td></tr>
+<tr class="memitem:d9/d66/structBARData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#d9/d66/structBARData">BARData</a></td></tr>
 <tr class="separator:d9/d66/structBARData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:de/dc3/struct__Unwind__Exception"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a></td></tr>
 <tr class="separator:de/dc3/struct__Unwind__Exception"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,7 +127,7 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a93bdbb2eb161fecc1c12d7b87345e718"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(msg)&#160;&#160;&#160;<a class="el" href="../../dc/df9/Virtio_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Util.DebugPrint((char *)(msg), <a class="el" href="../../dc/df9/Virtio_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Info.DriverUID)</td></tr>
+<tr class="memitem:a93bdbb2eb161fecc1c12d7b87345e718"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(msg)&#160;&#160;&#160;<a class="el" href="../../da/d05/ATA_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Util.DebugPrint((char *)(msg), <a class="el" href="../../da/d05/ATA_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Info.DriverUID)</td></tr>
 <tr class="separator:a93bdbb2eb161fecc1c12d7b87345e718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32b0d71691c7e21ded44e462fe3de8db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#a32b0d71691c7e21ded44e462fe3de8db">ATA_DEV_BUSY</a>&#160;&#160;&#160;0x80</td></tr>
 <tr class="separator:a32b0d71691c7e21ded44e462fe3de8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,8 +162,8 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:acfd2b2c01bb7181c3933777ee47e0e3b"><td class="memItemLeft" align="right" valign="top">typedef unsigned _Unwind_Exception_Class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#acfd2b2c01bb7181c3933777ee47e0e3b">__attribute__</a>((__mode__(__DI__)))</td></tr>
-<tr class="separator:acfd2b2c01bb7181c3933777ee47e0e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75dbbe55a0a4289676316e4c0b0942ea"><td class="memItemLeft" align="right" valign="top">typedef unsigned _Unwind_Exception_Class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#a75dbbe55a0a4289676316e4c0b0942ea">__attribute__</a>((__mode__(__DI__)))</td></tr>
+<tr class="separator:a75dbbe55a0a4289676316e4c0b0942ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa315b38b270688a4d979ec71a9f33586"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#aa315b38b270688a4d979ec71a9f33586">_Unwind_Exception_Cleanup_Fn</a>) (<a class="el" href="../../de/d94/AHCI_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2">_Unwind_Reason_Code</a>, struct <a class="el" href="../../de/d94/AHCI_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *)</td></tr>
 <tr class="separator:aa315b38b270688a4d979ec71a9f33586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09fdc8f727b214f5168e3690b0ddfa21"><td class="memItemLeft" align="right" valign="top">typedef int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#a09fdc8f727b214f5168e3690b0ddfa21">_Unwind_Action</a></td></tr>
@@ -216,7 +216,7 @@ Functions</h2></td></tr>
 <tr class="separator:a56474bd9ccbe42a82994dd3415226f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8a62c2ae90dae14e107d0d84d3c2143"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143">CallbackHandler</a> (KernelCallback *Data)</td></tr>
 <tr class="separator:ae8a62c2ae90dae14e107d0d84d3c2143"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af24e7dbc50400c89dbb3827cc25545fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc">HEAD</a> (FexFormatType_Driver, FexOSType_Fennix, <a class="el" href="../../dc/df9/Virtio_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>)</td></tr>
+<tr class="memitem:af24e7dbc50400c89dbb3827cc25545fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc">HEAD</a> (FexFormatType_Driver, FexOSType_Fennix, <a class="el" href="../../da/d05/ATA_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>)</td></tr>
 <tr class="separator:af24e7dbc50400c89dbb3827cc25545fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af22ae37b84033edb178366e0d7d8f7e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d94/AHCI_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">__attribute__</a> ((section(&quot;.extended&quot;))) FexExtended ExtendedHeader</td></tr>
 <tr class="separator:af22ae37b84033edb178366e0d7d8f7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -841,9 +841,15 @@ Reserved1[4]</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../de/d94/AHCI_8cpp_source.html#l00175">175</a> of file <a class="el" href="../../de/d94/AHCI_8cpp_source.html">AHCI.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/d16/ac97_8hpp_source.html#l00318">318</a> of file <a class="el" href="../../da/d16/ac97_8hpp_source.html">ac97.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a398d4ea9ec9e97c0031ac2d05b88bdbe"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+BusMasterAddress</td>
+<td class="fielddoc">
+</td></tr>
 <tr><td class="fieldtype">
 <a id="a12f75940950a0eda92f59158f95ceca7"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
@@ -854,6 +860,12 @@ IOBase</td>
 <a id="a19d8096fe75993c6d1637beab020560f"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
 <td class="fieldname">
 MemoryBase</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac18c7cc95d8c8ef0ee1cedda72c3d323"></a><a class="el" href="../../d9/d49/types_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a></td>
+<td class="fieldname">
+MixerAddress</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -1097,7 +1109,7 @@ private_2</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">msg</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../dc/df9/Virtio_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Util.DebugPrint((char *)(msg), <a class="el" href="../../dc/df9/Virtio_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Info.DriverUID)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../da/d05/ATA_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Util.DebugPrint((char *)(msg), <a class="el" href="../../da/d05/ATA_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Info.DriverUID)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1171,14 +1183,14 @@ private_2</td>
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="acfd2b2c01bb7181c3933777ee47e0e3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfd2b2c01bb7181c3933777ee47e0e3b">&#9670;&nbsp;</a></span>__attribute__</h2>
+<a id="a75dbbe55a0a4289676316e4c0b0942ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75dbbe55a0a4289676316e4c0b0942ea">&#9670;&nbsp;</a></span>__attribute__</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../dc/d7c/IntelGigabit_8cpp.html#db/d1d/structTXDescriptor">TXDescriptor</a> __attribute__</td>
+          <td class="memname">class <a class="el" href="../../d3/d7b/classPort.html">Port</a> __attribute__</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1491,7 +1503,7 @@ private_2</td>
 <div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    }</div>
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    <span class="keywordflow">case</span> ConfigurationReason:</div>
 <div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    {</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        <a class="code" href="../../de/d94/AHCI_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Kernel received configuration data.&quot;</span>);</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        <a class="code" href="../../de/d94/AHCI_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Driver received configuration data.&quot;</span>);</div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        <a class="code" href="../../de/d94/AHCI_8cpp.html#ad97ca0bf263d0a3ed7372f3f45b34f2f">PCIBaseAddress</a> = <span class="keyword">reinterpret_cast&lt;</span><a class="code" href="../../d9/d97/pci_8h.html#d8/dbb/structPCIDeviceHeader">PCIDeviceHeader</a> *<span class="keyword">&gt;</span>(Data-&gt;RawPtr);</div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;        <a class="code" href="../../de/d94/AHCI_8cpp.html#a244727dedcdcbbdab874fc62799336f3">ABAR</a> = <span class="keyword">reinterpret_cast&lt;</span><a class="code" href="../../de/d94/AHCI_8cpp.html#d5/def/structHBAMemory">HBAMemory</a> *<span class="keyword">&gt;</span>(((<a class="code" href="../../d9/d97/pci_8h.html#d2/d75/structPCIHeader0">PCIHeader0</a> *)<a class="code" href="../../de/d94/AHCI_8cpp.html#ad97ca0bf263d0a3ed7372f3f45b34f2f">PCIBaseAddress</a>)-&gt;BAR5);</div>
 <div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        <a class="code" href="../../de/d94/AHCI_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Memory.Map((<span class="keywordtype">void</span> *)<a class="code" href="../../de/d94/AHCI_8cpp.html#a244727dedcdcbbdab874fc62799336f3">ABAR</a>, (<span class="keywordtype">void</span> *)<a class="code" href="../../de/d94/AHCI_8cpp.html#a244727dedcdcbbdab874fc62799336f3">ABAR</a>, (1 &lt;&lt; 1));</div>
@@ -1678,7 +1690,7 @@ private_2</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/df9/Virtio_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/d05/ATA_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1949,7 +1961,7 @@ private_2</td>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_60925fc218da8ca7908795bf5f624060.html">Drivers</a></li><li class="navelem"><a class="el" href="../../dir_e4a4518ddeff3b2181ec0b382dd84f6e.html">Disk</a></li><li class="navelem"><a class="el" href="../../dir_d0f0d5df9905774c4b997498b5a24f41.html">AHCI</a></li><li class="navelem"><a class="el" href="../../de/d94/AHCI_8cpp.html">AHCI.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_60925fc218da8ca7908795bf5f624060.html">Drivers</a></li><li class="navelem"><a class="el" href="../../dir_f651023b9713ac53a732c68047b0f816.html">Storage</a></li><li class="navelem"><a class="el" href="../../dir_3b54c463bf5f1b80c9f4148608334e6b.html">AHCI</a></li><li class="navelem"><a class="el" href="../../de/d94/AHCI_8cpp.html">AHCI.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

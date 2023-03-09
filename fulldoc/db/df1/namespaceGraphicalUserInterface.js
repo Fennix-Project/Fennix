@@ -34,7 +34,7 @@ var namespaceGraphicalUserInterface =
     [ "DrawShadow", "db/df1/namespaceGraphicalUserInterface.html#a90d701ebb12eb1384ee3505c8c46b2e9", null ],
     [ "DrawString", "db/df1/namespaceGraphicalUserInterface.html#a686327d6b641f719154ed28af46024df", null ],
     [ "GetPixel", "db/df1/namespaceGraphicalUserInterface.html#a1d4b566cf2a43db2bc8cc00201c814d3", null ],
-    [ "InlineSetPixel", "db/df1/namespaceGraphicalUserInterface.html#aa92bad38c956d3d1df75caff4eeb81ca", null ],
+    [ "InlineSetPixel", "db/df1/namespaceGraphicalUserInterface.html#a63e7ccbad4ab57fe188cdddb5f0739c4", null ],
     [ "PaintChar", "db/df1/namespaceGraphicalUserInterface.html#a5990a47cd408b26c4f30648c359df162", null ],
     [ "PutBorder", "db/df1/namespaceGraphicalUserInterface.html#ac541063f719ab5ee515df5b4189b60e0", null ],
     [ "PutBorderWithShadow", "db/df1/namespaceGraphicalUserInterface.html#a1ce4f5d5e5a92586897c810527b821b3", null ],

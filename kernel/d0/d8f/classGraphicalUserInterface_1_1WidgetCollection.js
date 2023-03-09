@@ -68,6 +68,7 @@ var classGraphicalUserInterface_1_1WidgetCollection =
     [ "OnPaintBackground", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#aaf96cfa349d3e2b9a3e886252b6a161f", null ],
     [ "OnPaintForeground", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ac98d832d5a7547eb9f7c4053c01532ae", null ],
     [ "OnShow", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a554fbcf0ab9b6bd7942530ca9a0f9b31", null ],
+    [ "ReplaceFont", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a4d1ea7eaef1a3ba6c151a5c8f32b5796", null ],
     [ "SetText", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a29a713215af500ffb082ee8583f3d97e", null ],
     [ "Buffer", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a980a46c4b7d1744d042ed2e2b4d1a435", null ],
     [ "Buttons", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ab9f7bc14153729e34a4f8bca0bf4f0fc", null ],

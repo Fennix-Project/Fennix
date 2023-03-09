@@ -1,5 +1,6 @@
 var DriverAPI_8cpp =
 [
+    [ "drvdbg", "d4/db2/DriverAPI_8cpp.html#a3436ad726a010b0e407c6f3fa1b84907", null ],
     [ "DriverAHCIDiskRead", "d4/db2/DriverAPI_8cpp.html#abe22eb8391b94f3cd787b35fd8458483", null ],
     [ "DriverAHCIDiskWrite", "d4/db2/DriverAPI_8cpp.html#a22dd7a3be56e69dc9f191792d38f92c0", null ],
     [ "DriverDebugPrint", "d4/db2/DriverAPI_8cpp.html#a73738162c91160245166b990c8e958af", null ],
@@ -11,6 +12,8 @@ var DriverAPI_8cpp =
     [ "DriverNetReceive", "d4/db2/DriverAPI_8cpp.html#a0c5af1e5a70655ce70ce73add00ff3b7", null ],
     [ "DriverNetSend", "d4/db2/DriverAPI_8cpp.html#a5140d4c46aeb4db183bf3dcfb38beafd", null ],
     [ "DriverPCIGetDeviceName", "d4/db2/DriverAPI_8cpp.html#a0b6a5574623251b38349427fb4d93358", null ],
+    [ "DriverSleep", "d4/db2/DriverAPI_8cpp.html#adcbcc2121d78f652b00ab58edb2af3f6", null ],
+    [ "Driversprintf", "d4/db2/DriverAPI_8cpp.html#aa3258147d6cf27a8a3d8ff56919351cc", null ],
     [ "FreePage", "d4/db2/DriverAPI_8cpp.html#a928cac54b5bd071be1c055701d359650", null ],
     [ "MapMemory", "d4/db2/DriverAPI_8cpp.html#a3df9c8ff107076d9770c4038fb873330", null ],
     [ "NewLock", "d4/db2/DriverAPI_8cpp.html#ac5f20c1a2090fe90ae884329df29f110", null ],

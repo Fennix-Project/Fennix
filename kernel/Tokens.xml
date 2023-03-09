@@ -6780,6 +6780,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>drvdbg</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d4/db2/DriverAPI_8cpp.html</Path>
+    <Anchor>a3436ad726a010b0e407c6f3fa1b84907</Anchor>
+    <DeclaredIn>DriverAPI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NewLock</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -6936,6 +6946,26 @@
     </TokenIdentifier>
     <Path>d4/db2/DriverAPI_8cpp.html</Path>
     <Anchor>aaa1631ce24245d237f3068d8b01ee01e</Anchor>
+    <DeclaredIn>DriverAPI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DriverSleep</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d4/db2/DriverAPI_8cpp.html</Path>
+    <Anchor>adcbcc2121d78f652b00ab58edb2af3f6</Anchor>
+    <DeclaredIn>DriverAPI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Driversprintf</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d4/db2/DriverAPI_8cpp.html</Path>
+    <Anchor>aa3258147d6cf27a8a3d8ff56919351cc</Anchor>
     <DeclaredIn>DriverAPI.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -7104,6 +7134,16 @@
     <Path>d8/d21/Wrapper_8cpp.html</Path>
     <Anchor>ac5653876339972db0db5f662e64f8f19</Anchor>
     <DeclaredIn>Wrapper.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Xalloc_StopOnFail</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/d12/Xalloc_8hpp.html</Path>
+    <Anchor>a29e0d4e8dbee6aa271b47ac675af6f98</Anchor>
+    <DeclaredIn>Xalloc.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9229,74 +9269,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>Reason</Name>
+      <Name>raw</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a31a37ed19463f30c92c7838d5a5751ca</Anchor>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>RawPtr</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a80e8e2d24441e8d4b5a14123ed07cf79</Anchor>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>RawData</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a59d2095804075e9ce1be76c736260054</Anchor>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>NetworkCallback</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a01c61dbb395ee0d349d911d28a3c4b48</Anchor>
-    <Abstract>When the kernel wants to send a packet.</Abstract>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>DiskCallback</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a4a7474b1a244fd1c664def2ee202bfa7</Anchor>
-    <Abstract>When the kernel wants to write to disk.</Abstract>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InputCallback</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a6c87287b235daa183ad2650f0d7cfa8b</Anchor>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InterruptInfo</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a4661fdad4f6f8e862588e6ef6638fddc</Anchor>
+    <Anchor>a33656e1e604e9a92fef40e66e3bf036d</Anchor>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9307,6 +9285,7 @@
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
     <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda8889069184c392232cee15200fa0d99d</Anchor>
+    <Abstract>This is used to detect memory corruption, not used.</Abstract>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9317,26 +9296,7 @@
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
     <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0ddaffe0297ef0c988cb097b4f9d4150c8a4</Anchor>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SendReason</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda3170f78fc8bb0bc44b1defcd3c4358a2</Anchor>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ReceiveReason</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda4742b4d8f5e56147658a76d126bb7687</Anchor>
+    <Abstract>This is called once the kernel is ready to use the driver and call.</Abstract>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9347,46 +9307,7 @@
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
     <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0ddad42fc12dc0a2cb734143c24d45707ca6</Anchor>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>FetchReason</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0ddadcb973611e79107b928979a7a88f8e76</Anchor>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>StopReason</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda9ef3a309026e2dbf696d6a0651c03064</Anchor>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>BindReason</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0ddacfe24452fe967803f26ef127dd0f5adb</Anchor>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>UnbindReason</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda6d0b88625f270cb80b74134af2e6a2ba</Anchor>
+    <Abstract>This is used after the driver is loaded and the kernel is ready to use the driver.</Abstract>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9397,6 +9318,18 @@
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
     <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda60604bbb34dea717b453eefa3cfe3f5b</Anchor>
+    <Abstract>This will be called when the registered interrupt is triggered.</Abstract>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>StopReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda9ef3a309026e2dbf696d6a0651c03064</Anchor>
+    <Abstract>This is used when the kernel wants to stop the driver.</Abstract>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9417,6 +9350,50 @@
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
     <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda6af1b8633129d4c4d6ea25f2e1b0b84d</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SendReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda3170f78fc8bb0bc44b1defcd3c4358a2</Anchor>
+    <Abstract>This is used when the kernel sends data.</Abstract>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReceiveReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda4742b4d8f5e56147658a76d126bb7687</Anchor>
+    <Abstract>This is used when the kernel wants to receive data. Currently not used.</Abstract>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AdjustReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda80dd77b5b8f72d79039ed8975c7b7f35</Anchor>
+    <Abstract>This is used to adjust driver settings.</Abstract>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FetchReason</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0ddadcb973611e79107b928979a7a88f8e76</Anchor>
+    <Abstract>This is used when the kernel wants to fetch information about the driver.</Abstract>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9561,12 +9538,42 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>INVALID_PCI_BAR</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0acd46924d0d8b8c830190f88aeb0ff378</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>INVALID_KERNEL_API</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
     </TokenIdentifier>
     <Path>d3/dfe/DAPI_8hpp.html</Path>
     <Anchor>adc3813269f8120111d82d0b85c3cd2a0a819d86f8303442ec0bb2b0f3e6bb7794</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INVALID_MEMORY_ALLOCATION</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a5f86fec94cc54683730ad264a7c03cb2</Anchor>
+    <DeclaredIn>DAPI.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INVALID_DATA</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d3/dfe/DAPI_8hpp.html</Path>
+    <Anchor>adc3813269f8120111d82d0b85c3cd2a0a1cf2f29eaea742a6926f1efd4b9c16e8</Anchor>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9997,7 +10004,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d0/da5/Fex_8hpp.html</Path>
-    <Anchor>a5ed37fe26e1eea610cb4712daeb7dbf3</Anchor>
+    <Anchor>afd61db0de964480ce49900365d2d9974</Anchor>
     <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -10007,7 +10014,17 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d0/da5/Fex_8hpp.html</Path>
-    <Anchor>afb072fe76df1079a392f4c8aa4f19344</Anchor>
+    <Anchor>a36533ef41ff2fcce166865cf8a6e8ae7</Anchor>
+    <DeclaredIn>Fex.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FexDriverInputTypes_None</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d0/da5/Fex_8hpp.html</Path>
+    <Anchor>abadf8b5b1ff137de0b72d4641cb79cb7a7c51c62ff060e5fdd680f73a43f41696</Anchor>
     <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -10270,7 +10287,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>aa92bad38c956d3d1df75caff4eeb81ca</Anchor>
+    <Anchor>a63e7ccbad4ab57fe188cdddb5f0739c4</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -27308,6 +27325,148 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>NewLock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d4/dc6/RecoveryMain_8cpp.html</Path>
+    <Anchor>ac36dfed038d2c011522302fd8dadd27a</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PlayAudio</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a307f223668db71a1a000ff9236f1cbb8</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PlayAudioWrapper</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a601a3dff81ee2ef2f6ea738c3b5a3bb4</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ChangeSampleRate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a600afaf4f5ff10231075aed2e448d3d0</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR8000</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a90d23f9bcee58f8c473a3f98a46d9494</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR11025</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a8ffb4df81f90bb036dd56df64215d23d</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR16000</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a0ef032485ed309949cffd15ca61f6258</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR22050</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>abd9f7cdac04923a4e43fbe4593eeaf74</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR32000</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>aa75992f62043f22d42fa066f2a45f414</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR44100</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a583c07a4075300d9889c4ed4f37d1282</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR48000</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>ae56cf082c1cb4dc8763471f08ea59b98</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR88200</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>ad4e552df76fa442f976c0fdf70664274</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR96000</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>accbda14a35746acd682d8d969a96f2b7</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RecoveryThreadWrapper</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -27374,6 +27533,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_start</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d4/dc6/RecoveryMain_8cpp.html</Path>
+    <Anchor>aea621b4907aeb219ecbf0b600d6b649d</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_end</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d4/dc6/RecoveryMain_8cpp.html</Path>
+    <Anchor>ae4017f2e525fbd7ee5c13ed7dba20fe7</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>wdgDbgWin</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -27392,6 +27571,17 @@
     </TokenIdentifier>
     <Path>d2/d3b/namespaceRecovery.html</Path>
     <Anchor>a40d7cc4fa3365bb8654a50f8a6290926</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AudioFile</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a2729eb86a7253d85ab17ac50266aead7</Anchor>
     <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -32513,7 +32703,7 @@
       <Scope>FexExtended.Driver</Scope>
     </TokenIdentifier>
     <Path>db/d74/structFexExtended_8Driver.html</Path>
-    <Anchor>ac766c684abea716b5abd6919eb43b682</Anchor>
+    <Anchor>a099a0fbb2656a536e1cb79ac54278ba7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -32961,6 +33151,26 @@
     </TokenIdentifier>
     <Path>d2/d58/structKAPIUtilities.html</Path>
     <Anchor>a335318a33694f2a441a352a260781b54</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Sleep</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIUtilities</Scope>
+    </TokenIdentifier>
+    <Path>d2/d58/structKAPIUtilities.html</Path>
+    <Anchor>ad79610fc7b733cb0133267b77d2d54dc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>sprintf</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>KAPIUtilities</Scope>
+    </TokenIdentifier>
+    <Path>d2/d58/structKAPIUtilities.html</Path>
+    <Anchor>ad421c573f3326f4ce2d8d7322ff7abfc</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -51365,6 +51575,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>MapPCIAddresses</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>a93aae46fa864cd6d3dc8f79cbc75704f</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>BindPCIGeneric</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -52367,7 +52588,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>a0b74449216d80cad5da584462929ef8b</Anchor>
+    <Anchor>ac309bfcfb2b1fa63ad596b262a10c4e1</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52563,7 +52784,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>aa92bad38c956d3d1df75caff4eeb81ca</Anchor>
+    <Anchor>a63e7ccbad4ab57fe188cdddb5f0739c4</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -52921,6 +53142,17 @@
       <Scope>GraphicalUserInterface::WidgetCollection</Scope>
     </TokenIdentifier>
     <Path>d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html</Path>
+    <DeclaredIn>gui.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ReplaceFont</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>GraphicalUserInterface::WidgetCollection</Scope>
+    </TokenIdentifier>
+    <Path>d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html</Path>
+    <Anchor>a4d1ea7eaef1a3ba6c151a5c8f32b5796</Anchor>
     <DeclaredIn>gui.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -59940,6 +60172,138 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>PlayAudio</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a307f223668db71a1a000ff9236f1cbb8</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>PlayAudioWrapper</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a601a3dff81ee2ef2f6ea738c3b5a3bb4</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ChangeSampleRate</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a600afaf4f5ff10231075aed2e448d3d0</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR8000</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a90d23f9bcee58f8c473a3f98a46d9494</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR11025</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a8ffb4df81f90bb036dd56df64215d23d</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR16000</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a0ef032485ed309949cffd15ca61f6258</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR22050</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>abd9f7cdac04923a4e43fbe4593eeaf74</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR32000</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>aa75992f62043f22d42fa066f2a45f414</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR44100</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a583c07a4075300d9889c4ed4f37d1282</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR48000</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>ae56cf082c1cb4dc8763471f08ea59b98</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR88200</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>ad4e552df76fa442f976c0fdf70664274</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CSR96000</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>accbda14a35746acd682d8d969a96f2b7</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RecoveryThreadWrapper</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -60024,6 +60388,17 @@
     </TokenIdentifier>
     <Path>d2/d3b/namespaceRecovery.html</Path>
     <Anchor>a40d7cc4fa3365bb8654a50f8a6290926</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AudioFile</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a2729eb86a7253d85ab17ac50266aead7</Anchor>
     <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
   </Token>
   <Token>

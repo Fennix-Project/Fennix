@@ -1,7 +1,8 @@
 var annotated_dup =
 [
     [ "_Unwind_Exception", "de/d94/AHCI_8cpp.html#de/dc3/struct__Unwind__Exception", "de/d94/AHCI_8cpp_de/dc3/struct__Unwind__Exception" ],
-    [ "BARData", "dc/df9/Virtio_8cpp.html#d9/d66/structBARData", "dc/df9/Virtio_8cpp_d9/d66/structBARData" ],
+    [ "BARData", "de/d94/AHCI_8cpp.html#d9/d66/structBARData", "de/d94/AHCI_8cpp_d9/d66/structBARData" ],
+    [ "BufferDescriptorList", "da/d16/ac97_8hpp.html#d6/dd6/structBufferDescriptorList", "da/d16/ac97_8hpp_d6/dd6/structBufferDescriptorList" ],
     [ "FIS_REG_H2D", "de/d94/AHCI_8cpp.html#df/dbd/structFIS__REG__H2D", "de/d94/AHCI_8cpp_df/dbd/structFIS__REG__H2D" ],
     [ "HBACommandHeader", "de/d94/AHCI_8cpp.html#d5/df7/structHBACommandHeader", "de/d94/AHCI_8cpp_d5/df7/structHBACommandHeader" ],
     [ "HBACommandTable", "de/d94/AHCI_8cpp.html#d6/d37/structHBACommandTable", "de/d94/AHCI_8cpp_d6/d37/structHBACommandTable" ],
@@ -12,6 +13,8 @@ var annotated_dup =
     [ "MediaAccessControl", "d0/d48/structMediaAccessControl.html", "d0/d48/structMediaAccessControl" ],
     [ "PCIDeviceHeader", "d9/d97/pci_8h.html#d8/dbb/structPCIDeviceHeader", "d9/d97/pci_8h_d8/dbb/structPCIDeviceHeader" ],
     [ "PCIHeader0", "d9/d97/pci_8h.html#d2/d75/structPCIHeader0", "d9/d97/pci_8h_d2/d75/structPCIHeader0" ],
+    [ "PCIHeader1", "d9/d97/pci_8h.html#d1/dfd/structPCIHeader1", "d9/d97/pci_8h_d1/dfd/structPCIHeader1" ],
+    [ "PCIHeader2", "d9/d97/pci_8h.html#d3/dec/structPCIHeader2", "d9/d97/pci_8h_d3/dec/structPCIHeader2" ],
     [ "Port", "d3/d7b/classPort.html", "d3/d7b/classPort" ],
     [ "RXDescriptor", "dc/d7c/IntelGigabit_8cpp.html#df/dd4/structRXDescriptor", "dc/d7c/IntelGigabit_8cpp_df/dd4/structRXDescriptor" ],
     [ "TXDescriptor", "dc/d7c/IntelGigabit_8cpp.html#db/d1d/structTXDescriptor", "dc/d7c/IntelGigabit_8cpp_db/d1d/structTXDescriptor" ],

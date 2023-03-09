@@ -2,8 +2,8 @@ var Fex_8hpp =
 [
     [ "Fex", "d2/ddc/structFex.html", "d2/ddc/structFex" ],
     [ "FexExtended", "d0/da5/Fex_8hpp.html#d5/d3a/structFexExtended", [
-      [ "Driver", "d0/da5/Fex_8hpp.html#aee500399b39101e58b907ce6506bd4fa", null ],
-      [ "Executable", "d0/da5/Fex_8hpp.html#abf7db79bf90d127e79970158e93687c0", null ]
+      [ "Driver", "d0/da5/Fex_8hpp.html#a28096aa729ad61cffd9e60f94ceea8c3", null ],
+      [ "Executable", "d0/da5/Fex_8hpp.html#adff89db626d2749a1ec1434fe4d47f28", null ]
     ] ],
     [ "FexExtended.Executable", "d0/da5/Fex_8hpp.html#d0/de5/structFexExtended_8Executable", null ],
     [ "FexExtended.Driver", "db/d74/structFexExtended_8Driver.html", "db/d74/structFexExtended_8Driver" ],
@@ -34,6 +34,7 @@ var Fex_8hpp =
     [ "EXTENDED_SECTION_ADDRESS", "d0/da5/Fex_8hpp.html#aef4d10f2159958afdb55550f2ea441e5", null ],
     [ "HEAD", "d0/da5/Fex_8hpp.html#a922307d866ecf80a99c17b943fb95635", null ],
     [ "FexDriverInputTypes", "d0/da5/Fex_8hpp.html#abadf8b5b1ff137de0b72d4641cb79cb7", [
+      [ "FexDriverInputTypes_None", "d0/da5/Fex_8hpp.html#abadf8b5b1ff137de0b72d4641cb79cb7a7c51c62ff060e5fdd680f73a43f41696", null ],
       [ "FexDriverInputTypes_Mouse", "d0/da5/Fex_8hpp.html#abadf8b5b1ff137de0b72d4641cb79cb7a7388f6c7387204b343691ee6569f336e", null ],
       [ "FexDriverInputTypes_Keyboard", "d0/da5/Fex_8hpp.html#abadf8b5b1ff137de0b72d4641cb79cb7a65f1259b92e9ff62ee2756119e87047a", null ]
     ] ],
@@ -58,9 +59,9 @@ var Fex_8hpp =
       [ "FexOSType_Linux", "d0/da5/Fex_8hpp.html#a62bb50ae06aa34053f11cf2f14a99518a3569d7778c6dd3acdbf1755aff340a65", null ]
     ] ],
     [ "__attribute__", "d0/da5/Fex_8hpp.html#a35a6f8c90ab79a9659aa4fb668ec8650", null ],
-    [ "Driver", "d0/da5/Fex_8hpp.html#afb072fe76df1079a392f4c8aa4f19344", null ],
+    [ "Driver", "d0/da5/Fex_8hpp.html#a36533ef41ff2fcce166865cf8a6e8ae7", null ],
     [ "EntryPoint", "d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3", null ],
-    [ "Executable", "d0/da5/Fex_8hpp.html#a5ed37fe26e1eea610cb4712daeb7dbf3", null ],
+    [ "Executable", "d0/da5/Fex_8hpp.html#afd61db0de964480ce49900365d2d9974", null ],
     [ "Magic", "d0/da5/Fex_8hpp.html#a3278eb63dee94fdce712aae733087a84", null ],
     [ "OS", "d0/da5/Fex_8hpp.html#a07a5a485398d88b4be58f70d0350b8bd", null ],
     [ "Type", "d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba", null ]

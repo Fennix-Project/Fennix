@@ -38,6 +38,7 @@ var classDriver_1_1Driver =
     [ "GetDrivers", "d3/d7d/classDriver_1_1Driver.html#a4974c82b7bc0a7e7688899323fdd37cd", null ],
     [ "IOCB", "d3/d7d/classDriver_1_1Driver.html#abd817e6072dd5aa2245ed84c56e00644", null ],
     [ "LoadDriver", "d3/d7d/classDriver_1_1Driver.html#a1c435cd67375e8b079da5e3154c2838f", null ],
+    [ "MapPCIAddresses", "d3/d7d/classDriver_1_1Driver.html#a93aae46fa864cd6d3dc8f79cbc75704f", null ],
     [ "StartDrivers", "d3/d7d/classDriver_1_1Driver.html#a0ef98f86e94639fd8b474be69a0efa0c", null ],
     [ "UnloadAllDrivers", "d3/d7d/classDriver_1_1Driver.html#a20a235a64805dfdf64159296c0ee8dc9", null ],
     [ "UnloadDriver", "d3/d7d/classDriver_1_1Driver.html#a9bd4042d1294ae24085e3d301c0a3fdd", null ],

@@ -1,9 +1,11 @@
 var rtl8169_8cpp =
 [
-    [ "BARData", "dc/df9/Virtio_8cpp.html#d9/d66/structBARData", [
-      [ "IOBase", "dc/df9/Virtio_8cpp.html#a12f75940950a0eda92f59158f95ceca7", null ],
-      [ "MemoryBase", "dc/df9/Virtio_8cpp.html#a19d8096fe75993c6d1637beab020560f", null ],
-      [ "Type", "dc/df9/Virtio_8cpp.html#ae8e332334c7895d7a6c6d3d8cb877f00", null ]
+    [ "BARData", "de/d94/AHCI_8cpp.html#d9/d66/structBARData", [
+      [ "BusMasterAddress", "de/d94/AHCI_8cpp.html#a398d4ea9ec9e97c0031ac2d05b88bdbe", null ],
+      [ "IOBase", "de/d94/AHCI_8cpp.html#a12f75940950a0eda92f59158f95ceca7", null ],
+      [ "MemoryBase", "de/d94/AHCI_8cpp.html#a19d8096fe75993c6d1637beab020560f", null ],
+      [ "MixerAddress", "de/d94/AHCI_8cpp.html#ac18c7cc95d8c8ef0ee1cedda72c3d323", null ],
+      [ "Type", "de/d94/AHCI_8cpp.html#ae8e332334c7895d7a6c6d3d8cb877f00", null ]
     ] ],
     [ "print", "dc/d7a/rtl8169_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718", null ],
     [ "__attribute__", "dc/d7a/rtl8169_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5", null ],
