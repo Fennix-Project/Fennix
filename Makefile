@@ -33,7 +33,7 @@ QEMUFLAGS += -device vmware-svga -M q35 \
 			 -object filter-dump,id=usernet0,netdev=usernet0,file=network.dmp,maxlen=1024 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
-			 -serial file:serial3.dmp \
+			 -serial file:memtrk.dmp \
 			 -serial file:serial4.dmp \
 			 -device ahci,id=ahci \
 			 -drive id=bootdsk,file=$(OSNAME).iso,format=raw,if=none \
@@ -53,7 +53,7 @@ QEMUFLAGS += -M q35 \
 			 -object filter-dump,id=usernet0,netdev=usernet0,file=network.dmp,maxlen=1024 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
-			 -serial file:serial3.dmp \
+			 -serial file:memtrk.dmp \
 			 -serial file:serial4.dmp \
 			 -hda $(OSNAME).iso \
 			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
@@ -64,7 +64,7 @@ QEMUFLAGS += -M raspi3b \
 			 -cpu cortex-a57 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
-			 -serial file:serial3.dmp \
+			 -serial file:memtrk.dmp \
 			 -serial file:serial4.dmp \
 			 -kernel $(OSNAME).img
 endif
@@ -162,15 +162,15 @@ endif
 # endif
 
 vscode_debug: build_kernel build_userspace build_drivers build_image
-	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp
+	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
 	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 4G $(QEMUFLAGS) -smp $(shell echo $(shell nproc)/4 | bc)
 
 qemu: qemu_vdisk
-	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp
+	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
 	$(QEMU) $(QEMU_UEFI_BIOS) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) -smp $(shell nproc)
 
 qemubios: qemu_vdisk
-	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp
+	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
 	$(QEMU) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) -smp $(shell nproc)
 
 run: build qemu
