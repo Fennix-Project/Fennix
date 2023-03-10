@@ -512,7 +512,7 @@ var dir_63f985a480777e2bc4480b55f483e6a5 =
         [ "EAX", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a6141129ad992e4838911711a966febc8", null ],
         [ "EBX", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a94a185159be6b58af3ff140c75b9a13d", null ],
         [ "ECX", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#aeb13b76fe56abd2eabdbc1dc60fe6de8", null ],
-        [ "EDX", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a31180cd66c5185558b5b629aac005a2a", null ]
+        [ "EDX", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#aab0f47ccd5ee97bc3c6e08ebd181f50c", null ]
       ] ],
       [ "CPUID0x2", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d0/df9/structCPU_1_1x64_1_1Intel_1_1CPUID0x2", [
         [ "EAX", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#aa28a998c8da4acd2405a3a541daffb14", null ],
@@ -663,7 +663,7 @@ var dir_63f985a480777e2bc4480b55f483e6a5 =
       [ "CPUID0x1.EAX", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d6/d7b/unionCPU_1_1x64_1_1Intel_1_1CPUID0x1_8EAX", [
         [ "raw", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#abdd166af3a63f7be696dd17a218a6ffb", null ]
       ] ],
-      [ "CPUID0x1.EAX.__unnamed617__", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d6/dcb/structCPU_1_1x64_1_1Intel_1_1CPUID0x1_8EAX_8____unnamed617____", [
+      [ "CPUID0x1.EAX.__unnamed620__", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d7/d9b/structCPU_1_1x64_1_1Intel_1_1CPUID0x1_8EAX_8____unnamed620____", [
         [ "ExtendedFamily", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a0f78fa92915749e466321a1db0c10108", null ],
         [ "ExtendedModel", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a46a25ace7a4e5bc57a91320cc5e5807f", null ],
         [ "FamilyID", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a68c5eb01261c55ddbdf8c0a0721dc5b9", null ],
@@ -676,7 +676,7 @@ var dir_63f985a480777e2bc4480b55f483e6a5 =
       [ "CPUID0x1.EBX", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d8/d7a/unionCPU_1_1x64_1_1Intel_1_1CPUID0x1_8EBX", [
         [ "raw", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#abdd166af3a63f7be696dd17a218a6ffb", null ]
       ] ],
-      [ "CPUID0x1.EBX.__unnamed619__", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#df/db1/structCPU_1_1x64_1_1Intel_1_1CPUID0x1_8EBX_8____unnamed619____", [
+      [ "CPUID0x1.EBX.__unnamed623__", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d0/ddb/structCPU_1_1x64_1_1Intel_1_1CPUID0x1_8EBX_8____unnamed623____", [
         [ "BrandIndex", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#aae7125ffc851e32775c3c1a4a4ae2f27", null ],
         [ "CLFLUSHLineSize", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a901baf991891504de639e46a292d90ed", null ],
         [ "LocalAPICID", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a4ee8411d50bad8fd630c8ee253c6db50", null ],
@@ -685,7 +685,7 @@ var dir_63f985a480777e2bc4480b55f483e6a5 =
       [ "CPUID0x1.ECX", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d9/d80/unionCPU_1_1x64_1_1Intel_1_1CPUID0x1_8ECX", [
         [ "raw", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#abdd166af3a63f7be696dd17a218a6ffb", null ]
       ] ],
-      [ "CPUID0x1.ECX.__unnamed623__", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d0/d86/structCPU_1_1x64_1_1Intel_1_1CPUID0x1_8ECX_8____unnamed623____", [
+      [ "CPUID0x1.ECX.__unnamed625__", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#d1/d9c/structCPU_1_1x64_1_1Intel_1_1CPUID0x1_8ECX_8____unnamed625____", [
         [ "AES", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a76b7593457e2ab50befe2dcd63cf388f", null ],
         [ "AVX", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#a4863502abea45861b9ed022e66d66cb2", null ],
         [ "CMPXCHG16B", "d7/d7e/namespaceCPU_1_1x64_1_1Intel.html#ab2ff1c069b2889228222867624c42a17", null ],

@@ -138,10 +138,10 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.FreePages(<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>, Pages);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="ttc" id="aMemory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00029">Memory.cpp:29</a></div></div>
+<div class="ttc" id="aMemory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00032">Memory.cpp:32</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_aca1b23fd721c8d8dc70a8227e336b6e8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a></div><div class="ttdeci">uint64_t Address</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00004">acpi.hpp:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00004">Address</a>, and <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00029">KernelAllocator</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00004">Address</a>, and <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00032">KernelAllocator</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00081">Xalloc::Block::operator delete()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00061">Xalloc::Block::~Block()</a>.</p>
 
@@ -183,10 +183,10 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781">KernelPageTable</a>).Map(VirtualAddress, PhysicalAddress, <a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
-<div class="ttc" id="aMemory_8cpp_html_ab22e39b03b381282cced0b85485b8781"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781">KernelPageTable</a></div><div class="ttdeci">PageTable4 * KernelPageTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00030">Memory.cpp:30</a></div></div>
+<div class="ttc" id="aMemory_8cpp_html_ab22e39b03b381282cced0b85485b8781"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781">KernelPageTable</a></div><div class="ttdeci">PageTable4 * KernelPageTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00033">Memory.cpp:33</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_afe68b30aa80199feb71be5deda91978e"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a></div><div class="ttdeci">uint32_t Flags</div><div class="ttdoc">Flags.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00038">acpi.hpp:38</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00038">Flags</a>, and <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00030">KernelPageTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00038">Flags</a>, and <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00033">KernelPageTable</a>.</p>
 
 </div>
 </div>
@@ -211,7 +211,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPages(Pages);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00029">KernelAllocator</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00032">KernelAllocator</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00054">Xalloc::Block::Block()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00071">Xalloc::Block::operator new()</a>.</p>
 
@@ -238,7 +238,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781">KernelPageTable</a>).Unmap(VirtualAddress);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00030">KernelPageTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00033">KernelPageTable</a>.</p>
 
 </div>
 </div>

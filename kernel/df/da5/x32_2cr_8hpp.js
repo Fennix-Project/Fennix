@@ -66,7 +66,7 @@ var x32_2cr_8hpp =
       [ "VME", "de/d78/namespaceCPU_1_1x32.html#a5b382b19324e0a71d404284d5c312804", null ],
       [ "VMXE", "de/d78/namespaceCPU_1_1x32.html#ace4cbb42b611af13fab5dc8f9303fd14", null ]
     ] ],
-    [ "CR8.__unnamed251__", "de/d78/namespaceCPU_1_1x32.html#d1/dd9/structCPU_1_1x32_1_1CR8_8____unnamed251____", [
+    [ "CR8.__unnamed231__", "de/d78/namespaceCPU_1_1x32.html#db/d87/structCPU_1_1x32_1_1CR8_8____unnamed231____", [
       [ "TPL", "de/d78/namespaceCPU_1_1x32.html#aafec6abed17f07d98bb4ec07dc071c96", null ]
     ] ],
     [ "CR0", "df/da5/x32_2cr_8hpp.html#a76d33fb74d7f612207a7d19a88b13200", null ],

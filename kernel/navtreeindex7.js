@@ -1,5 +1,17 @@
 var NAVTREEINDEX7 =
 {
+"d2/d57/namespaceCrashHandler.html#aac22d9a943100f4847c5268acaba0e59":[5,0,3,13],
+"d2/d57/namespaceCrashHandler.html#ab21d92a6d88783d013f3d6b8b9533ca3":[5,0,3,9],
+"d2/d57/namespaceCrashHandler.html#abb496daf7ae21ad13d839335c717641f":[5,0,3,20],
+"d2/d57/namespaceCrashHandler.html#acb810b085512f3aa3c4fb5e4a74ed256":[5,0,3,3],
+"d2/d57/namespaceCrashHandler.html#acbc177fb1a981eb91900cd9c06cd25ff":[5,0,3,10],
+"d2/d57/namespaceCrashHandler.html#ad35e9ac2e303d57f06208a9b5c889ac5":[5,0,3,28],
+"d2/d57/namespaceCrashHandler.html#ae2147148faee2956d5ae41a7dbfbc0ba":[5,0,3,29],
+"d2/d57/namespaceCrashHandler.html#aee307b4511d76c583b1c64d952d842ec":[5,0,3,27],
+"d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef":[5,0,3,26],
+"d2/d57/namespaceCrashHandler.html#da/d80/structCrashHandler_1_1StackFrame":[7,0,0,1,0,5,0],
+"d2/d58/structKAPIUtilities.html":[6,0,122],
+"d2/d58/structKAPIUtilities.html#a1dd50a46f8ea0cc0685cab923b4dbb29":[6,0,122,2],
 "d2/d58/structKAPIUtilities.html#a23f0f53e822ee5c58770ecb6839fb224":[6,0,122,0],
 "d2/d58/structKAPIUtilities.html#a335318a33694f2a441a352a260781b54":[6,0,122,3],
 "d2/d58/structKAPIUtilities.html#a65fcd69903d39703bc577d5f6038e513":[6,0,122,1],
@@ -237,17 +249,5 @@ var NAVTREEINDEX7 =
 "d2/db2/namespaceInterruptDescriptorTable.html#acf36ad7cb2569bfe2f4839f6321da321":[5,0,10,20],
 "d2/db2/namespaceInterruptDescriptorTable.html#ad50c84d5bff02e2bcd156047986ff0ee":[7,0,0,0,1,0,4,0,7],
 "d2/db2/namespaceInterruptDescriptorTable.html#ae24ba5152e822eb3b7599bb191f81d9f":[5,0,10,2],
-"d2/db2/namespaceInterruptDescriptorTable.html#ae6b018b84df4bed6d7f27aa40df1aaab":[5,0,10,16],
-"d2/db2/namespaceInterruptDescriptorTable.html#afa742648970336e439543d92330ff757":[7,0,0,0,1,0,4,0,4],
-"d2/db2/namespaceInterruptDescriptorTable.html#afb7ecf9fc0491027fc6c9457c9e7a71f":[5,0,10,6],
-"d2/db2/namespaceInterruptDescriptorTable.html#d4/d60/structInterruptDescriptorTable_1_1__InterruptDescriptorTableEntry":[7,0,0,0,1,0,4,0],
-"d2/db2/namespaceInterruptDescriptorTable.html#dc/ded/structInterruptDescriptorTable_1_1__InterruptDescriptorTableDescriptor":[7,0,0,0,1,0,4,1],
-"d2/dbb/dumper_8cpp.html":[7,0,0,6,6],
-"d2/dbb/dumper_8cpp.html#a0fc66b31c24d157f0d3f5cc901f9d8cd":[7,0,0,6,6,0],
-"d2/dbb/dumper_8cpp.html#a222d8e263ed1d7b026796b72f5387ba4":[7,0,0,6,6,1],
-"d2/dbb/dumper_8cpp.html#a5dc859086d1e473bc2e71014ed4bb491":[7,0,0,6,6,2],
-"d2/dbb/dumper_8cpp.html#a85dbb01b7d5c3548bcf1c9f5006985c4":[7,0,0,6,6,3],
-"d2/dbb/dumper_8cpp.html#aeb4e5b58b1ae9d549cf8623dc39d6d86":[7,0,0,6,6,4],
-"d2/dbb/dumper_8cpp_source.html":[7,0,0,6,6],
-"d2/dc3/liballoc__1__1_8c.html":[7,0,0,6,7]
+"d2/db2/namespaceInterruptDescriptorTable.html#ae6b018b84df4bed6d7f27aa40df1aaab":[5,0,10,16]
 };
