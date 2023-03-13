@@ -163,7 +163,7 @@ endif
 
 vscode_debug: build_kernel build_userspace build_drivers build_image
 	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
-	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 4G $(QEMUFLAGS) -smp $(shell echo $(shell nproc)/4 | bc)
+	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 1G $(QEMUFLAGS) -smp $(shell echo $(shell nproc)/4 | bc)
 
 qemu: qemu_vdisk
 	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
