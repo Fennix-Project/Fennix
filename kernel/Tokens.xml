@@ -23213,6 +23213,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>DebuggerIsAttached</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d2/d00/Kernel_8cpp.html</Path>
+    <Anchor>a736191a1f8c302532a3f21c75292a53f</Anchor>
+    <DeclaredIn>Kernel.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>bInfo</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>
@@ -23439,6 +23449,16 @@
     </TokenIdentifier>
     <Path>d0/daa/kernel_8h.html</Path>
     <Anchor>a68decd7ed883f5721759653b86acd3c1</Anchor>
+    <DeclaredIn>kernel.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DebuggerIsAttached</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d0/daa/kernel_8h.html</Path>
+    <Anchor>a736191a1f8c302532a3f21c75292a53f</Anchor>
     <DeclaredIn>kernel.h</DeclaredIn>
   </Token>
   <Token>
@@ -52720,7 +52740,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>a0b74449216d80cad5da584462929ef8b</Anchor>
+    <Anchor>ac309bfcfb2b1fa63ad596b262a10c4e1</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52731,7 +52751,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>a9ba8582d05e9478a9299d9deb4ef4837</Anchor>
+    <Anchor>ab330cdeaae21e216d7efeec0b0bb66e3</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52773,7 +52793,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableFlags</Scope>
     </TokenIdentifier>
     <Path>dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html</Path>
-    <Anchor>aa2e4e68771bec28e9329de5b5fa9b042</Anchor>
+    <Anchor>aab8502d8c34ec5467eabfb575c1d4562</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>

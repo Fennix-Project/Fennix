@@ -1,17 +1,17 @@
 var searchData=
 [
-  ['_2eaudiocallback_6339',['.AudioCallback',['../d3/dfe/DAPI_8hpp.html#dc/d74/struct_8AudioCallback',1,'']]],
-  ['_2eaudiocallback_2eadjust_6340',['.AudioCallback.Adjust',['../d3/dfe/DAPI_8hpp.html#d5/dee/struct_8AudioCallback_8Adjust',1,'']]],
-  ['_2eaudiocallback_2efetch_6341',['.AudioCallback.Fetch',['../d3/dfe/DAPI_8hpp.html#da/d89/struct_8AudioCallback_8Fetch',1,'']]],
-  ['_2eaudiocallback_2esend_6342',['.AudioCallback.Send',['../d3/dfe/DAPI_8hpp.html#df/d88/struct_8AudioCallback_8Send',1,'']]],
-  ['_2ediskcallback_6343',['.DiskCallback',['../d3/dfe/DAPI_8hpp.html#d1/d72/struct_8DiskCallback',1,'']]],
-  ['_2ediskcallback_2efetch_6344',['.DiskCallback.Fetch',['../d3/dfe/DAPI_8hpp.html#d8/d11/struct_8DiskCallback_8Fetch',1,'']]],
-  ['_2ediskcallback_2erw_6345',['.DiskCallback.RW',['../d3/dfe/DAPI_8hpp.html#d0/dce/struct_8DiskCallback_8RW',1,'']]],
-  ['_2einputcallback_6346',['.InputCallback',['../d3/dfe/DAPI_8hpp.html#d2/d09/struct_8InputCallback',1,'']]],
-  ['_2einputcallback_2emouse_6347',['.InputCallback.Mouse',['../d3/dfe/DAPI_8hpp.html#d0/d9e/struct_8InputCallback_8Mouse',1,'']]],
-  ['_2einputcallback_2emouse_2ebuttons_6348',['.InputCallback.Mouse.Buttons',['../d3/dfe/DAPI_8hpp.html#d7/da7/struct_8InputCallback_8Mouse_8Buttons',1,'']]],
-  ['_2einterruptinfo_6349',['.InterruptInfo',['../d3/dfe/DAPI_8hpp.html#de/dea/struct_8InterruptInfo',1,'']]],
-  ['_2enetworkcallback_6350',['.NetworkCallback',['../d3/dfe/DAPI_8hpp.html#d1/d02/struct_8NetworkCallback',1,'']]],
-  ['_2enetworkcallback_2efetch_6351',['.NetworkCallback.Fetch',['../d3/dfe/DAPI_8hpp.html#df/dfd/struct_8NetworkCallback_8Fetch',1,'']]],
-  ['_2enetworkcallback_2esend_6352',['.NetworkCallback.Send',['../d3/dfe/DAPI_8hpp.html#d7/df5/struct_8NetworkCallback_8Send',1,'']]]
+  ['_2eaudiocallback_6343',['.AudioCallback',['../d3/dfe/DAPI_8hpp.html#dc/d74/struct_8AudioCallback',1,'']]],
+  ['_2eaudiocallback_2eadjust_6344',['.AudioCallback.Adjust',['../d3/dfe/DAPI_8hpp.html#d5/dee/struct_8AudioCallback_8Adjust',1,'']]],
+  ['_2eaudiocallback_2efetch_6345',['.AudioCallback.Fetch',['../d3/dfe/DAPI_8hpp.html#da/d89/struct_8AudioCallback_8Fetch',1,'']]],
+  ['_2eaudiocallback_2esend_6346',['.AudioCallback.Send',['../d3/dfe/DAPI_8hpp.html#df/d88/struct_8AudioCallback_8Send',1,'']]],
+  ['_2ediskcallback_6347',['.DiskCallback',['../d3/dfe/DAPI_8hpp.html#d1/d72/struct_8DiskCallback',1,'']]],
+  ['_2ediskcallback_2efetch_6348',['.DiskCallback.Fetch',['../d3/dfe/DAPI_8hpp.html#d8/d11/struct_8DiskCallback_8Fetch',1,'']]],
+  ['_2ediskcallback_2erw_6349',['.DiskCallback.RW',['../d3/dfe/DAPI_8hpp.html#d0/dce/struct_8DiskCallback_8RW',1,'']]],
+  ['_2einputcallback_6350',['.InputCallback',['../d3/dfe/DAPI_8hpp.html#d2/d09/struct_8InputCallback',1,'']]],
+  ['_2einputcallback_2emouse_6351',['.InputCallback.Mouse',['../d3/dfe/DAPI_8hpp.html#d0/d9e/struct_8InputCallback_8Mouse',1,'']]],
+  ['_2einputcallback_2emouse_2ebuttons_6352',['.InputCallback.Mouse.Buttons',['../d3/dfe/DAPI_8hpp.html#d7/da7/struct_8InputCallback_8Mouse_8Buttons',1,'']]],
+  ['_2einterruptinfo_6353',['.InterruptInfo',['../d3/dfe/DAPI_8hpp.html#de/dea/struct_8InterruptInfo',1,'']]],
+  ['_2enetworkcallback_6354',['.NetworkCallback',['../d3/dfe/DAPI_8hpp.html#d1/d02/struct_8NetworkCallback',1,'']]],
+  ['_2enetworkcallback_2efetch_6355',['.NetworkCallback.Fetch',['../d3/dfe/DAPI_8hpp.html#df/dfd/struct_8NetworkCallback_8Fetch',1,'']]],
+  ['_2enetworkcallback_2esend_6356',['.NetworkCallback.Send',['../d3/dfe/DAPI_8hpp.html#d7/df5/struct_8NetworkCallback_8Send',1,'']]]
 ];

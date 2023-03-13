@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a7b20bb7ae16321b04bca8072289b2917":[6,0,27,6,15],
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a840fa6a69e43ae869ef132a2e9c1af12":[6,0,27,6,7],
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a87ae5e50578f130ed591295aab96d587":[6,0,27,6,12],
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a8820c1a93bee2aa66e5681af96f7eb61":[6,0,27,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "d1/d62/namespacePCI_1_1Descriptors.html#a5c659d23ffbe5db51848e7b72529b259":[5,0,25,0,6],
 "d1/d62/namespacePCI_1_1Descriptors.html#a63169537a007b4fdb2ac67c5bf62d2f3":[5,0,25,0,5],
 "d1/d62/namespacePCI_1_1Descriptors.html#a8147ef3ffe5c21791b5cab1f8cc98897":[5,0,25,0,4],
-"d1/d62/namespacePCI_1_1Descriptors.html#a98398363e470d42d292fc43e72c22dae":[5,0,25,0,15],
-"d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586c":[5,0,25,0,0]
+"d1/d62/namespacePCI_1_1Descriptors.html#a98398363e470d42d292fc43e72c22dae":[5,0,25,0,15]
 };

@@ -93,6 +93,7 @@ var NAVTREEINDEX2 =
 "d0/daa/kernel_8h.html#a44a5261814dd20bdfce96c257845cb1b":[8,0,0,18,1],
 "d0/daa/kernel_8h.html#a65e8d0c10ca585e174b6099e74fbc8b6":[8,0,0,18,3],
 "d0/daa/kernel_8h.html#a68decd7ed883f5721759653b86acd3c1":[8,0,0,18,7],
+"d0/daa/kernel_8h.html#a736191a1f8c302532a3f21c75292a53f":[8,0,0,18,8],
 "d0/daa/kernel_8h.html#a9bf4d76c2e04dc287d39c8729682cc25":[8,0,0,18,6],
 "d0/daa/kernel_8h_source.html":[8,0,0,18],
 "d0/daf/structKAPIDisplay.html":[7,0,116],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "d0/dc7/Convert_8cpp.html#a38a11c0000b2fedbdc49a41555abaf4a":[8,0,0,6,2,40],
 "d0/dc7/Convert_8cpp.html#a40344e121ba3db236e1f464857957239":[8,0,0,6,2,37],
 "d0/dc7/Convert_8cpp.html#a4a7366a6bb2151179059a1990cfebf3e":[8,0,0,6,2,30],
-"d0/dc7/Convert_8cpp.html#a4ad5605089787fd2e895cfe89f5e0b0d":[8,0,0,6,2,12],
-"d0/dc7/Convert_8cpp.html#a513c82157e295d2514ac88fd9528ccc8":[8,0,0,6,2,26]
+"d0/dc7/Convert_8cpp.html#a4ad5605089787fd2e895cfe89f5e0b0d":[8,0,0,6,2,12]
 };

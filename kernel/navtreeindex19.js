@@ -1,5 +1,10 @@
 var NAVTREEINDEX19 =
 {
+"d5/d8f/smbios_8hpp.html#acfc63dd9088cbc27b8beceed47cbec33":[7,0,0,1,13,19],
+"d5/d8f/smbios_8hpp.html#ada87b17fc798fd55794ea2027dddeee2":[7,0,0,1,13,14],
+"d5/d8f/smbios_8hpp.html#ade5c4d4c3f23921f77e72a38d3e2fc30":[7,0,0,1,13,22],
+"d5/d8f/smbios_8hpp.html#ae3382ba080dc48b747f06b169360434a":[7,0,0,1,13,21],
+"d5/d8f/smbios_8hpp.html#afea14b109675868b6b1d7d5896a6b5e1":[7,0,0,1,13,13],
 "d5/d8f/smbios_8hpp_source.html":[7,0,0,1,13],
 "d5/d9b/Elf_2BaseLoad_8cpp.html":[7,0,0,2,0,0],
 "d5/d9b/Elf_2BaseLoad_8cpp.html#a1a0c318802a31d560daca05e7943ee63":[7,0,0,2,0,0,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX19 =
 "d5/dba/multiboot2_8h.html#ab6121d81742a285af07d6c44a8c0af8f":[7,0,0,5,0,0,0,80],
 "d5/dba/multiboot2_8h.html#ab6707ad19a33da4a07b1e3a747c3da16":[7,0,0,5,0,0,0,23,3],
 "d5/dba/multiboot2_8h.html#ab7415fc9309414fe6d782b5b6d054d2e":[7,0,0,5,0,0,0,8,1],
-"d5/dba/multiboot2_8h.html#ab7e2ea5c749083992b71229c69b946e4":[7,0,0,5,0,0,0,7,2],
-"d5/dba/multiboot2_8h.html#aba5586aada8b56c5f297b8410e687626":[7,0,0,5,0,0,0,30,4],
-"d5/dba/multiboot2_8h.html#abc2579d314db9a050c48043a1b7f5ea9":[7,0,0,5,0,0,0,36,3],
-"d5/dba/multiboot2_8h.html#abc554da6e5184d34e039b551177434ba":[7,0,0,5,0,0,0,46],
-"d5/dba/multiboot2_8h.html#abdadfb40a63d8fbf8b2771c3f70b344c":[7,0,0,5,0,0,0,26,3],
-"d5/dba/multiboot2_8h.html#abe83621d3f54ab2868c75a6396b25729":[7,0,0,5,0,0,0,26,1]
+"d5/dba/multiboot2_8h.html#ab7e2ea5c749083992b71229c69b946e4":[7,0,0,5,0,0,0,7,2]
 };

@@ -8,6 +8,7 @@ var kconfig_8hpp =
       [ "InterruptsOnCrash", "d1/dfc/kconfig_8hpp.html#a5ca760a13d64d0bbc2f8cb94920befc4", null ],
       [ "IOAPICInterruptCore", "d1/dfc/kconfig_8hpp.html#aca69a4b6f25f7ea603b4f26020a873eb", null ],
       [ "SchedulerType", "d1/dfc/kconfig_8hpp.html#a90f99ba3b39e78c83f514ddb4c201244", null ],
+      [ "SIMD", "d1/dfc/kconfig_8hpp.html#a84512ed6db6b334cc05afb98eef4b063", null ],
       [ "UnlockDeadLock", "d1/dfc/kconfig_8hpp.html#ab4acf5169bbfaa7da7dd6bfe7ce0e1e9", null ]
     ] ],
     [ "ParseConfig", "d1/dfc/kconfig_8hpp.html#a2c8b99eb6a42bc6e16995c173f1e5d6a", null ]

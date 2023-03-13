@@ -15,6 +15,7 @@ var Kernel_8cpp =
     [ "bInfo", "d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf", null ],
     [ "BootClock", "d2/d00/Kernel_8cpp.html#a61d9bae26aed8f70334a9399c0a85807", null ],
     [ "Config", "d2/d00/Kernel_8cpp.html#af1e9bf8b2f6ad92b9da145f9eb732663", null ],
+    [ "DebuggerIsAttached", "d2/d00/Kernel_8cpp.html#a736191a1f8c302532a3f21c75292a53f", null ],
     [ "Display", "d2/d00/Kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d", null ],
     [ "EnableProfiler", "d2/d00/Kernel_8cpp.html#a7b3a39e739df0d7a7245ca25284a0f2b", null ],
     [ "KernelSymbolTable", "d2/d00/Kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694", null ],

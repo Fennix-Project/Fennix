@@ -1,5 +1,10 @@
 var NAVTREEINDEX20 =
 {
+"d5/dba/multiboot2_8h.html#aba5586aada8b56c5f297b8410e687626":[7,0,0,5,0,0,0,30,4],
+"d5/dba/multiboot2_8h.html#abc2579d314db9a050c48043a1b7f5ea9":[7,0,0,5,0,0,0,36,3],
+"d5/dba/multiboot2_8h.html#abc554da6e5184d34e039b551177434ba":[7,0,0,5,0,0,0,46],
+"d5/dba/multiboot2_8h.html#abdadfb40a63d8fbf8b2771c3f70b344c":[7,0,0,5,0,0,0,26,3],
+"d5/dba/multiboot2_8h.html#abe83621d3f54ab2868c75a6396b25729":[7,0,0,5,0,0,0,26,1],
 "d5/dba/multiboot2_8h.html#abfe911c1a2390bbcdcdd5ab1e407128a":[7,0,0,5,0,0,0,61],
 "d5/dba/multiboot2_8h.html#ac2109f74c95e62b0c3e7b74f9e2e5725":[7,0,0,5,0,0,0,23,0],
 "d5/dba/multiboot2_8h.html#ac2a46af85d217c774d2a618291539334":[7,0,0,5,0,0,0,11,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX20 =
 "d6/da1/classDisk_1_1Partition.html#ae89e7e0dab44e30f362fcbf6050aa734":[6,0,4,5,10],
 "d6/da1/classDisk_1_1Partition.html#aee76e1f844dffd84b8152756d4bcf3c3":[6,0,4,5,2],
 "d6/da1/classVector.html":[6,0,206],
-"d6/da1/classVector.html#a0015dcca8ba82a39418147af0e15c045":[6,0,206,23],
-"d6/da1/classVector.html#a0293e5beb417013d20dc745f9c87c054":[6,0,206,12],
-"d6/da1/classVector.html#a07cf688bb5fa76bb533e123f187f648f":[6,0,206,6],
-"d6/da1/classVector.html#a087f3ebd57e79270eacbea61b0d56bf7":[6,0,206,8],
-"d6/da1/classVector.html#a0928ab38e71f8c350fb955777727f28e":[6,0,206,31],
-"d6/da1/classVector.html#a28a0354510695c9b00c95f797002361e":[6,0,206,21]
+"d6/da1/classVector.html#a0015dcca8ba82a39418147af0e15c045":[6,0,206,23]
 };

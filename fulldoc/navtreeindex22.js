@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"d5/da1/namespaceVirtualFileSystem.html#a85a09540c85179b8c41d6520a8aeeaf8":[6,0,39,24],
 "d5/da1/namespaceVirtualFileSystem.html#a89adf3980936251168a5bd8ae19c693c":[8,0,0,5,20,0,4],
 "d5/da1/namespaceVirtualFileSystem.html#a8c746fc2aa5630d9c5c43b9a83933500":[6,0,39,18],
 "d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9":[6,0,39,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "d5/dba/multiboot2_8h.html#aef0c7ed927ee6c3c5a26f2b5623b7632":[8,0,0,5,0,0,0,27,1],
 "d5/dba/multiboot2_8h.html#af101417fafcaa5265b691c205d9759df":[8,0,0,5,0,0,0,1,1],
 "d5/dba/multiboot2_8h.html#af24fe7df075c5603681a6cbbb26c2e07":[8,0,0,5,0,0,0,1,0],
-"d5/dba/multiboot2_8h.html#af2870ead515a1c38d4484645ab54fb03":[8,0,0,5,0,0,0,13,2],
-"d5/dba/multiboot2_8h.html#af35be82586f332a561d00207c937ee57":[8,0,0,5,0,0,0,63]
+"d5/dba/multiboot2_8h.html#af2870ead515a1c38d4484645ab54fb03":[8,0,0,5,0,0,0,13,2]
 };

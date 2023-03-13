@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"d5/dba/multiboot2_8h.html#af35be82586f332a561d00207c937ee57":[8,0,0,5,0,0,0,63],
 "d5/dba/multiboot2_8h.html#af3b3d82da024d5ea2a7b817c6caea970":[8,0,0,5,0,0,0,16,2],
 "d5/dba/multiboot2_8h.html#af589b0f71833031d3c6c289d3accfab6":[8,0,0,5,0,0,0,92],
 "d5/dba/multiboot2_8h.html#af6005f97267af2cb0ff37fb245284440":[8,0,0,5,0,0,0,43],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "d6/da1/classVector.html#a28a0354510695c9b00c95f797002361e":[7,0,211,21],
 "d6/da1/classVector.html#a2a03bf5b5e32c85b86ed71c2906b7437":[7,0,211,11],
 "d6/da1/classVector.html#a30c203480dfd28a0f1fde5c08a68db94":[7,0,211,0],
-"d6/da1/classVector.html#a38508f5597046515436c83bcf139ad59":[7,0,211,22],
-"d6/da1/classVector.html#a38d60dece1cd8c14bd0b09492b7b89bf":[7,0,211,9]
+"d6/da1/classVector.html#a38508f5597046515436c83bcf139ad59":[7,0,211,22]
 };

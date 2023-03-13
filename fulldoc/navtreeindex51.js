@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"dd/dc1/sysproc_8h.html#a15b5c8397d23796bc1cd2ced8e1a050b":[8,0,2,2,0,4,1,1],
 "dd/dc1/sysproc_8h.html#a17924bbee7ae2432580ec92eb6822fcb":[8,0,2,2,0,4,1,2],
 "dd/dc1/sysproc_8h.html#a1816839336aed7c2bb0fd33beff3a31e":[8,0,2,2,0,4,4],
 "dd/dc1/sysproc_8h.html#a372cf5586f31635a214e32b01fd57097":[8,0,2,2,0,4,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "de/d58/structKernelAPI_1_1KAPIDriverTalk_8Disk_8AHCI.html":[8,0,0,13,0,3],
 "de/d58/structKernelAPI_1_1KAPIDriverTalk_8Disk_8AHCI.html#a4c0d39eaf260a5e3bc8055877c0011e0":[8,0,0,13,0,3,0],
 "de/d58/structKernelAPI_1_1KAPIDriverTalk_8Disk_8AHCI.html#ac91ff983fdc6393cd852b00f58f7f250":[8,0,0,13,0,3,1],
-"de/d5d/structKAPIPCI.html":[7,0,123],
-"de/d5d/structKAPIPCI.html#ae2acb05b8e2d76908de135d1989ed94a":[7,0,123,0]
+"de/d5d/structKAPIPCI.html":[7,0,123]
 };

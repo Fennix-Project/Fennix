@@ -91,6 +91,7 @@ var NAVTREEINDEX2 =
 "d0/daa/kernel_8h.html#a44a5261814dd20bdfce96c257845cb1b":[7,0,0,18,1],
 "d0/daa/kernel_8h.html#a65e8d0c10ca585e174b6099e74fbc8b6":[7,0,0,18,3],
 "d0/daa/kernel_8h.html#a68decd7ed883f5721759653b86acd3c1":[7,0,0,18,7],
+"d0/daa/kernel_8h.html#a736191a1f8c302532a3f21c75292a53f":[7,0,0,18,8],
 "d0/daa/kernel_8h.html#a9bf4d76c2e04dc287d39c8729682cc25":[7,0,0,18,6],
 "d0/daa/kernel_8h_source.html":[7,0,0,18],
 "d0/daf/structKAPIDisplay.html":[6,0,114],
@@ -194,8 +195,8 @@ var NAVTREEINDEX2 =
 "d0/de2/aarch64_2runtime_2crtend_8c.html":[7,0,0,0,0,1,1],
 "d0/de2/aarch64_2runtime_2crtend_8c_source.html":[7,0,0,0,0,1,1],
 "d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html":[6,0,7,0],
-"d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html#a0b74449216d80cad5da584462929ef8b":[6,0,7,0,0],
-"d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html#a9ba8582d05e9478a9299d9deb4ef4837":[6,0,7,0,1],
+"d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html#ab330cdeaae21e216d7efeec0b0bb66e3":[6,0,7,0,1],
+"d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html#ac309bfcfb2b1fa63ad596b262a10c4e1":[6,0,7,0,0],
 "d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html#afd9dd502a7fed60cb06675ba090f5fe0":[6,0,7,0,2],
 "d0/df9/classPower_1_1Power.html":[6,0,25,0],
 "d0/df9/classPower_1_1Power.html#a12ae598220233d1b1c7ad4c028c278cd":[6,0,25,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a608fbc75b20148ba6e00cad7ad91a5f8":[6,0,27,6,3],
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a67fb555f2c2485779471e8f9f72c85b3":[6,0,27,6,36],
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a6858764a9ce552deae9edd8fcf712818":[6,0,27,6,11],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a75b06573600360591ab7654236f3c8f6":[6,0,27,6,18],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a7b20bb7ae16321b04bca8072289b2917":[6,0,27,6,15]
+"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a75b06573600360591ab7654236f3c8f6":[6,0,27,6,18]
 };
