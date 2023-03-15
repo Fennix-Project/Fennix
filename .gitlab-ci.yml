@@ -75,8 +75,73 @@ gnuefi:
     paths:
       - Lynx/gnu-efi/
 
-build:
+build64:
   stage: build-os
+  dependencies:
+    - compiler
+    - gnuefi
   script:
-    - echo "Hello World!"
-    - tree
+    - apt-get update && apt-get install -y rustc xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64
+    - make --quiet -C tools do_limine
+    - make --quiet -C Drivers prepare
+    - make --quiet -C Userspace prepare
+    - make --quiet -C Lynx prepare
+    - make --quiet -C Kernel prepare
+    - sed -i 's/.*OSARCH = .*/OSARCH = amd64/' ./Makefile.conf && cat Makefile.conf | grep OSARCH
+    - make build
+    - mv Fennix.iso Fennix-debug.iso
+    - make clean
+    - sed -i 's/.*DEBUG = .*/DEBUG = 0/' ./Makefile.conf && cat Makefile.conf | grep DEBUG
+    - make build
+    - mv Fennix.iso Fennix-release.iso
+  artifacts:
+    paths:
+      - Fennix-debug.iso
+      - Fennix-release.iso
+
+build32:
+  stage: build-os
+  dependencies:
+    - compiler
+    - gnuefi
+  script:
+    - apt-get update && apt-get install -y rustc xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64
+    - make --quiet -C tools do_limine
+    - make --quiet -C Drivers prepare
+    - make --quiet -C Userspace prepare
+    - make --quiet -C Lynx prepare
+    - make --quiet -C Kernel prepare
+    - sed -i 's/.*OSARCH = .*/OSARCH = i686/' ./Makefile.conf && cat Makefile.conf | grep OSARCH
+    - make build
+    - mv Fennix.iso Fennix-debug.iso
+    - make clean
+    - sed -i 's/.*DEBUG = .*/DEBUG = 0/' ./Makefile.conf && cat Makefile.conf | grep DEBUG
+    - make build
+    - mv Fennix.iso Fennix-release.iso
+  artifacts:
+    paths:
+      - Fennix-debug.iso
+      - Fennix-release.iso
+
+buildarm64:
+  stage: build-os
+  dependencies:
+    - compiler
+  script:
+    - apt-get update && apt-get install -y rustc xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64
+    - make --quiet -C tools do_limine
+    - make --quiet -C Drivers prepare
+    - make --quiet -C Userspace prepare
+    - make --quiet -C Lynx prepare
+    - make --quiet -C Kernel prepare
+    - sed -i 's/.*OSARCH = .*/OSARCH = arm64/' ./Makefile.conf && cat Makefile.conf | grep OSARCH
+    - make build
+    - mv Fennix.iso Fennix-debug.iso
+    - make clean
+    - sed -i 's/.*DEBUG = .*/DEBUG = 0/' ./Makefile.conf && cat Makefile.conf | grep DEBUG
+    - make build
+    - mv Fennix.iso Fennix-release.iso
+  artifacts:
+    paths:
+      - Fennix-debug.iso
+      - Fennix-release.iso
