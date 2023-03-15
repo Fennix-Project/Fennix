@@ -4,10 +4,10 @@ export PATH := $(CROSS_DIR):$(PATH)
 
 QEMU_VERSION = qemu-7.1.0
 
-all: do_rep do_ep do_fex do_limine clone_all do_binutils64 do_binutils32 do_binutilsarm64 do_gcc64 do_gcc32 do_gccarm64 do_toolchain_binutils64 do_toolchain_gcc64 do_toolchain_binutils32 do_toolchain_gcc32 do_qemu
+all: do_rep do_ep do_fex do_emd do_limine clone_all do_binutils64 do_binutils32 do_binutilsarm64 do_gcc64 do_gcc32 do_gccarm64 do_toolchain_binutils64 do_toolchain_gcc64 do_toolchain_binutils32 do_toolchain_gcc32 do_qemu
 
 clean:
-	rm -f rep ep fex
+	rm -f rep ep fex ExtMemDbg/emd
 
 do_rep:
 	gcc -w ReadEthernetPackets.c -o rep
@@ -21,6 +21,9 @@ do_fex:
 	gcc -w Fex.c -o fex
 	chmod +x fex
 
+do_emd:
+	make -C ExtMemDbg build
+
 do_limine:
 	git clone https://github.com/limine-bootloader/limine.git --branch=v4.x-branch-binary --depth=1
 
@@ -33,6 +36,21 @@ clone_all:
 	mv ${QEMU_VERSION} qemu
 	mkdir -p cross
 	mkdir -p qemu
+	mkdir -p build-binutilsamd64
+	mkdir -p build-binutilsi686
+	mkdir -p build-binutilsarm64
+	mkdir -p build-gccamd64
+	mkdir -p build-gcci686
+	mkdir -p build-gccarm64
+	mkdir -p build-toolchain-binutils64
+	mkdir -p build-toolchain-gcc64
+	mkdir -p build-toolchain-binutils32
+	mkdir -p build-toolchain-gcc32
+
+__clone_all_no_qemu:
+	git clone https://github.com/Fennix-Project/binutils-gdb.git binutils-gdb
+	git clone https://github.com/Fennix-Project/gcc.git gcc
+	mkdir -p cross
 	mkdir -p build-binutilsamd64
 	mkdir -p build-binutilsi686
 	mkdir -p build-binutilsarm64
