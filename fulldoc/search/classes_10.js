@@ -1,7 +1,7 @@
 var searchData=
 [
   ['pagefaulterrorcode_7017',['PageFaultErrorCode',['../d9/d25/namespaceCPU_1_1x64.html#df/d46/unionCPU_1_1x64_1_1PageFaultErrorCode',1,'CPU::x64']]],
-  ['pagefaulterrorcode_2e_5f_5funnamed777_5f_5f_7018',['PageFaultErrorCode.__unnamed777__',['../d9/d25/namespaceCPU_1_1x64.html#d4/dd4/structCPU_1_1x64_1_1PageFaultErrorCode_8____unnamed777____',1,'CPU::x64']]],
+  ['pagefaulterrorcode_2e_5f_5funnamed873_5f_5f_7018',['PageFaultErrorCode.__unnamed873__',['../d9/d25/namespaceCPU_1_1x64.html#d0/db7/structCPU_1_1x64_1_1PageFaultErrorCode_8____unnamed873____',1,'CPU::x64']]],
   ['panelobject_7019',['PanelObject',['../d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#d3/d08/structGraphicalUserInterface_1_1WidgetCollection_1_1PanelObject',1,'GraphicalUserInterface::WidgetCollection']]],
   ['partition_7020',['Partition',['../d6/da1/classDisk_1_1Partition.html',1,'Disk']]],
   ['partitiontable_7021',['PartitionTable',['../d1/d29/namespaceDisk.html#d1/d68/structDisk_1_1PartitionTable',1,'Disk']]],

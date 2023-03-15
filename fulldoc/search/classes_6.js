@@ -1,8 +1,8 @@
 var searchData=
 [
   ['efer_6828',['EFER',['../de/d78/namespaceCPU_1_1x32.html#dc/dd3/unionCPU_1_1x32_1_1EFER',1,'CPU::x32::EFER'],['../d9/d25/namespaceCPU_1_1x64.html#dd/dfd/unionCPU_1_1x64_1_1EFER',1,'CPU::x64::EFER']]],
-  ['efer_2e_5f_5funnamed744_5f_5f_6829',['EFER.__unnamed744__',['../de/d78/namespaceCPU_1_1x32.html#df/df2/structCPU_1_1x32_1_1EFER_8____unnamed744____',1,'CPU::x32']]],
-  ['efer_2e_5f_5funnamed753_5f_5f_6830',['EFER.__unnamed753__',['../d9/d25/namespaceCPU_1_1x64.html#d6/dba/structCPU_1_1x64_1_1EFER_8____unnamed753____',1,'CPU::x64']]],
+  ['efer_2e_5f_5funnamed858_5f_5f_6829',['EFER.__unnamed858__',['../de/d78/namespaceCPU_1_1x32.html#de/d77/structCPU_1_1x32_1_1EFER_8____unnamed858____',1,'CPU::x32']]],
+  ['efer_2e_5f_5funnamed867_5f_5f_6830',['EFER.__unnamed867__',['../d9/d25/namespaceCPU_1_1x64.html#db/d22/structCPU_1_1x64_1_1EFER_8____unnamed867____',1,'CPU::x64']]],
   ['eflags_6831',['EFLAGS',['../de/d78/namespaceCPU_1_1x32.html#d1/d7c/unionCPU_1_1x32_1_1EFLAGS',1,'CPU::x32']]],
   ['eflags_2e_5f_5fattribute_5f_5f_6832',['EFLAGS.__attribute__',['../de/d78/namespaceCPU_1_1x32.html#d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____',1,'CPU::x32']]],
   ['elf32_5fauxv_5ft_6833',['Elf32_auxv_t',['../df/d31/abi_8h.html#d2/d6b/structElf32__auxv__t',1,'']]],
