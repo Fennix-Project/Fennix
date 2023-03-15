@@ -41,7 +41,8 @@ compiler:
       - tools/cross/
   script:
     - apt-get update
-    - apt-get install -y build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo libzstd-dev libisl-dev autoconf m4 automake gettext gperf dejagnu guile-3.0 guile-3.0-dev expect tcl autogen tex-common sphinx-common git ssh diffutils patch
+    - ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
+    - DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo libzstd-dev libisl-dev autoconf m4 automake gettext gperf dejagnu guile-3.0 guile-3.0-dev expect tcl autogen tex-common sphinx-common git ssh diffutils patch
     - make --quiet -C tools clone_all
     - make --quiet -C tools do_binutils64
     - make --quiet -C tools do_binutils32
