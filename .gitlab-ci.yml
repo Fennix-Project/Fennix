@@ -1,0 +1,81 @@
+image: ubuntu:latest
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+stages:
+  - prepare-environment
+  - generate-docs
+  - build-compiler
+  - compile-gnuefi
+  - build-os
+
+prepare:
+  stage: prepare-environment
+  script:
+    - apt-get update
+    - apt-get install -y git
+    - git submodule update --init --recursive
+    - echo "TOOLS_LOCK_HASH=$(git hash-object tools/Makefile)" >> vars.env
+    - echo "GNUEFI_LOCK_HASH=$(git hash-object Lynx/UEFI/Makefile)" >> vars.env
+  artifacts:
+    reports:
+      dotenv: vars.env
+
+docs:
+  stage: generate-docs
+  script:
+    - apt-get update
+    - apt-get install -y doxygen make
+    - make doxygen
+    - cp -r tools/website/* doxygen-doc/
+  artifacts:
+    paths:
+      - doxygen-doc/
+
+compiler:
+  stage: build-compiler
+  cache:
+    key: $PACKAGE_LOCK_HASH
+    paths:
+      - tools/cross/
+  script:
+    - apt-get update
+    - apt-get install -y build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo libzstd-dev libisl-dev autoconf m4 automake gettext gperf dejagnu guile-3.0 guile-3.0-dev expect tcl autogen tex-common sphinx-common git ssh diffutils patch
+    - make --quiet -C tools clone_all
+    - make --quiet -C tools do_binutils64
+    - make --quiet -C tools do_binutils32
+    - make --quiet -C tools do_binutilsarm64
+    - make --quiet -C tools do_gcc64
+    - make --quiet -C tools do_gcc32
+    - make --quiet -C tools do_gccarm64
+    - make --quiet -C tools do_toolchain_binutils64
+    - make --quiet -C tools do_toolchain_gcc64
+    - make --quiet -C tools do_toolchain_binutils32
+    - make --quiet -C tools do_toolchain_gcc32
+    - cd tools && rm -rf binutils-gdb gcc qemu build-binutilsamd64 build-binutilsi686 build-binutilsarm64 build-gccamd64 build-gcci686 build-gccarm64 build-toolchain-binutils64 build-toolchain-gcc64 build-toolchain-binutils32 build-toolchain-gcc32
+
+  artifacts:
+    paths:
+      - tools/cross/
+
+gnuefi:
+  stage: compile-gnuefi
+  cache:
+    key: $GNUEFI_LOCK_HASH
+    paths:
+      - Lynx/gnu-efi/
+  script:
+    - apt-get update
+    - apt-get install -y make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64
+    - make --quiet -C Lynx prepare
+
+  artifacts:
+    paths:
+      - Lynx/gnu-efi/
+
+build:
+  stage: build-os
+  script:
+    - echo "Hello World!"
+    - tree
