@@ -6984,9 +6984,9 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>db/da9/IntManager_8cpp.html</Path>
+    <Path>d0/d8d/InterruptsManager_8cpp.html</Path>
     <Anchor>a08adc05de8210e73e22991c752d270d2</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -6997,7 +6997,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a480247e915be578424a6a6dec1bf505b</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7008,7 +7008,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a3db24a6e8fed89333b0eec359263b4c2</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7019,7 +7019,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a8ef30e8ff4ebe60791d0b42b61caaefa</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7030,7 +7030,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a1f0ee2cbdae01f701d9a83efe503efc3</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7041,7 +7041,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a605ca83a60ddc47b3d74ab7aea2877a0</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7052,7 +7052,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a020f8c63277f96ec2fd08bc33e64ae28</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -7063,7 +7063,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>af1d11abba0d09e297052a3bf31515123</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18399,7 +18399,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a480247e915be578424a6a6dec1bf505b</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18410,7 +18410,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a3db24a6e8fed89333b0eec359263b4c2</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18421,7 +18421,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a8ef30e8ff4ebe60791d0b42b61caaefa</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -18432,7 +18432,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a1f0ee2cbdae01f701d9a83efe503efc3</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -52751,7 +52751,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>ab330cdeaae21e216d7efeec0b0bb66e3</Anchor>
+    <Anchor>ae16de5fe508ad7081384169da233e901</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52793,7 +52793,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableFlags</Scope>
     </TokenIdentifier>
     <Path>dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html</Path>
-    <Anchor>aab8502d8c34ec5467eabfb575c1d4562</Anchor>
+    <Anchor>aa2e4e68771bec28e9329de5b5fa9b042</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -55676,7 +55676,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a480247e915be578424a6a6dec1bf505b</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55687,7 +55687,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a3db24a6e8fed89333b0eec359263b4c2</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55698,7 +55698,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a8ef30e8ff4ebe60791d0b42b61caaefa</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55709,7 +55709,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a1f0ee2cbdae01f701d9a83efe503efc3</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55720,7 +55720,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a605ca83a60ddc47b3d74ab7aea2877a0</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55731,7 +55731,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>a020f8c63277f96ec2fd08bc33e64ae28</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55742,7 +55742,7 @@
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
     <Anchor>af1d11abba0d09e297052a3bf31515123</Anchor>
-    <DeclaredIn>IntManager.cpp</DeclaredIn>
+    <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>

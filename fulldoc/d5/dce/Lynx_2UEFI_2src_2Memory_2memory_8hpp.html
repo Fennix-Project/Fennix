@@ -654,47 +654,48 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a3a43746d8cd3253899c9a16365b16a8a">memdbg</a>(<span class="stringliteral">&quot;free(%#lx)-&gt;[%s]&quot;</span>, <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>, <a class="code" href="../../d2/d00/Kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a> ? <a class="code" href="../../d2/d00/Kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694">KernelSymbolTable</a>-&gt;<a class="code" href="../../d0/dcc/classSymbolResolver_1_1Symbols.html#a25044e347cfff3b35579a1eaa71aa55a">GetSymbolFromAddress</a>((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)__builtin_return_address(0)) : <span class="stringliteral">&quot;Unknown&quot;</span>);</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160; </div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keywordflow">if</span> (EnableExternalMemoryTracer)</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    {</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        <span class="keywordtype">char</span> LockTmpStr[64];</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        <a class="code" href="../../d3/d82/convert_8h.html#afa130c0cef1b65f57a9162b82b59e159">strcpy_unsafe</a>(LockTmpStr, __FUNCTION__);</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        <a class="code" href="../../d3/d82/convert_8h.html#a855d08be6d1e7101b57a59ec22e1c518">strcat_unsafe</a>(LockTmpStr, <span class="stringliteral">&quot;_memTrk&quot;</span>);</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        mExtTrkLock.TimeoutLock(LockTmpStr, 10000);</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf</a>(mExtTrkLog, <span class="stringliteral">&quot;free( %p )~%p\n\r&quot;</span>, <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>, __builtin_return_address(0));</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a> mTrkUART = <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a>(<a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96afd1a237a2a4651392126d852a8c5870f">UniversalAsynchronousReceiverTransmitter::COM3</a>);</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">short</span> i = 0; i &lt; MEM_TRK_MAX_SIZE; i++)</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        {</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;            <span class="keywordflow">if</span> (mExtTrkLog[i] == <span class="charliteral">&#39;\r&#39;</span>)</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;            mTrkUART.<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183">Write</a>(mExtTrkLog[i]);</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        }</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        mExtTrkLock.Unlock();</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    }</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160; </div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    <span class="keywordflow">switch</span> (<a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a5eaf3b572ade2cd087d9919691b9ae98">AllocatorType</a>)</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    {</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(MemoryAllocatorType::Pages):</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    {</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;        <a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.FreePage(<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>); <span class="comment">// WARNING: Potential memory leak</span></div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    }</div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;    <span class="keywordflow">case</span> MemoryAllocatorType::XallocV1:</div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;    {</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;        <a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ae1071ff6f628b5f371122caafcbd46c3">XallocV1Allocator</a>-&gt;<a class="code" href="../../d5/d32/classXalloc_1_1V1.html#ac96c3ce565da97e8eaa6117737434a16">free</a>(<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>);</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    }</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    <span class="keywordflow">case</span> MemoryAllocatorType::liballoc11:</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    {</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        <a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>(<a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4">free</a>)</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        (<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>);</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    }</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        <span class="keywordflow">throw</span>;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <span class="keywordflow">switch</span> (<a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a5eaf3b572ade2cd087d9919691b9ae98">AllocatorType</a>)</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    {</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <span class="keywordflow">case</span> <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(MemoryAllocatorType::Pages):</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    {</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        <a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.FreePage(<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>); <span class="comment">// WARNING: Potential memory leak</span></div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    }</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;    <span class="keywordflow">case</span> MemoryAllocatorType::XallocV1:</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    {</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        <a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ae1071ff6f628b5f371122caafcbd46c3">XallocV1Allocator</a>-&gt;<a class="code" href="../../d5/d32/classXalloc_1_1V1.html#ac96c3ce565da97e8eaa6117737434a16">free</a>(<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>);</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    }</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    <span class="keywordflow">case</span> MemoryAllocatorType::liballoc11:</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    {</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        <a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>(<a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4">free</a>)</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        (<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>);</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    }</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;        <span class="keywordflow">throw</span>;</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    }</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <span class="keywordflow">if</span> (EnableExternalMemoryTracer)</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    {</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        <span class="keywordtype">char</span> LockTmpStr[64];</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        <a class="code" href="../../d3/d82/convert_8h.html#afa130c0cef1b65f57a9162b82b59e159">strcpy_unsafe</a>(LockTmpStr, __FUNCTION__);</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;        <a class="code" href="../../d3/d82/convert_8h.html#a855d08be6d1e7101b57a59ec22e1c518">strcat_unsafe</a>(LockTmpStr, <span class="stringliteral">&quot;_memTrk&quot;</span>);</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        mExtTrkLock.TimeoutLock(LockTmpStr, 10000);</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;        <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf</a>(mExtTrkLog, <span class="stringliteral">&quot;free( %p )~%p\n\r&quot;</span>,</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;                <a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a>,</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;                __builtin_return_address(0));</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a> mTrkUART = <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a>(<a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96afd1a237a2a4651392126d852a8c5870f">UniversalAsynchronousReceiverTransmitter::COM3</a>);</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">short</span> i = 0; i &lt; MEM_TRK_MAX_SIZE; i++)</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        {</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;            <span class="keywordflow">if</span> (mExtTrkLog[i] == <span class="charliteral">&#39;\r&#39;</span>)</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;            mTrkUART.<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183">Write</a>(mExtTrkLog[i]);</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        }</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        mExtTrkLock.Unlock();</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    }</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;}</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;}</div>
 <div class="ttc" id="aKernel_2Core_2Memory_2Memory_8cpp_html_a3a43746d8cd3253899c9a16365b16a8a"><div class="ttname"><a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a3a43746d8cd3253899c9a16365b16a8a">memdbg</a></div><div class="ttdeci">#define memdbg(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00022">Memory.cpp:22</a></div></div>
 <div class="ttc" id="aKernel_2Core_2Memory_2Memory_8cpp_html_a5eaf3b572ade2cd087d9919691b9ae98"><div class="ttname"><a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#a5eaf3b572ade2cd087d9919691b9ae98">AllocatorType</a></div><div class="ttdeci">static MemoryAllocatorType AllocatorType</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00037">Memory.cpp:37</a></div></div>
 <div class="ttc" id="aKernel_2Core_2Memory_2Memory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00032">Memory.cpp:32</a></div></div>
@@ -715,7 +716,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00004">Address</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00037">AllocatorType</a>, <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00016">UniversalAsynchronousReceiverTransmitter::COM3</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00179">Xalloc::V1::free()</a>, <a class="el" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c_source.html#l00561">free()</a>, <a class="el" href="../../d7/db9/Symbols_8cpp_source.html#l00095">SymbolResolver::Symbols::GetSymbolFromAddress()</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00032">KernelAllocator</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00142">KernelSymbolTable</a>, <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00022">memdbg</a>, <a class="el" href="../../d8/d54/Kernel_2Library_2liballoc__1__1_8h_source.html#l00020">PREFIX</a>, <a class="el" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00056">strcat_unsafe()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00073">strcpy_unsafe()</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00301">unlikely</a>, <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00109">UniversalAsynchronousReceiverTransmitter::UART::Write()</a>, and <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00038">XallocV1Allocator</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00552">operator delete()</a>, and <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00581">operator delete[]()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00559">operator delete()</a>, and <a class="el" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00589">operator delete[]()</a>.</p>
 
 </div>
 </div>

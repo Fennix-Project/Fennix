@@ -1,5 +1,13 @@
 var NAVTREEINDEX19 =
 {
+"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aead01902eea3b4dc9e06bdc9f294c8c03f":[7,0,0,1,13,10,34],
+"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aeae2346ee8b4ab2ab577c96af8e5c99a00":[7,0,0,1,13,10,20],
+"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aeae2fbd8b0e67043e19ad3ea7d1cb1ebed":[7,0,0,1,13,10,36],
+"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aeae652056a2d8598475c23b9a41354f8d0":[7,0,0,1,13,10,3],
+"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aeae9dad77a90939076567645a22a8d2bed":[7,0,0,1,13,10,40],
+"d5/d8f/smbios_8hpp.html#a821b8d475eadb2cc8ceff8c3f6b863aeaf14ab97f6bc5408e01ac88c53292d9f3":[7,0,0,1,13,10,45],
+"d5/d8f/smbios_8hpp.html#a8d10d812a6b18833b0e26b8a77d48d89":[7,0,0,1,13,15],
+"d5/d8f/smbios_8hpp.html#ac8048918c891100b8675f4d5c865036b":[7,0,0,1,13,18],
 "d5/d8f/smbios_8hpp.html#acfc63dd9088cbc27b8beceed47cbec33":[7,0,0,1,13,19],
 "d5/d8f/smbios_8hpp.html#ada87b17fc798fd55794ea2027dddeee2":[7,0,0,1,13,14],
 "d5/d8f/smbios_8hpp.html#ade5c4d4c3f23921f77e72a38d3e2fc30":[7,0,0,1,13,22],
@@ -241,13 +249,5 @@ var NAVTREEINDEX19 =
 "d5/dba/multiboot2_8h.html#aa6fc447c57f074d0babfe3bbb7017de9":[7,0,0,5,0,0,0,10,2],
 "d5/dba/multiboot2_8h.html#aa8972f75c7d893a736aa00bcb5ad905a":[7,0,0,5,0,0,0,20,7],
 "d5/dba/multiboot2_8h.html#aa8eaba7a0a6cf04509a014ac4bc937c0":[7,0,0,5,0,0,0,36,1],
-"d5/dba/multiboot2_8h.html#aa953cfe34184d7f3aac9f077b41a379a":[7,0,0,5,0,0,0,5,1],
-"d5/dba/multiboot2_8h.html#aaabdaf3c52dd3be82d1ab4fbd50f9004":[7,0,0,5,0,0,0,14,0],
-"d5/dba/multiboot2_8h.html#aade2dff510f8e32b462ec1037437d28c":[7,0,0,5,0,0,0,29,0],
-"d5/dba/multiboot2_8h.html#ab28e2f0c217713188d0868ccc29a19e4":[7,0,0,5,0,0,0,87],
-"d5/dba/multiboot2_8h.html#ab3284a28549f2a2f1a2001ca023aaa1e":[7,0,0,5,0,0,0,68],
-"d5/dba/multiboot2_8h.html#ab6121d81742a285af07d6c44a8c0af8f":[7,0,0,5,0,0,0,80],
-"d5/dba/multiboot2_8h.html#ab6707ad19a33da4a07b1e3a747c3da16":[7,0,0,5,0,0,0,23,3],
-"d5/dba/multiboot2_8h.html#ab7415fc9309414fe6d782b5b6d054d2e":[7,0,0,5,0,0,0,8,1],
-"d5/dba/multiboot2_8h.html#ab7e2ea5c749083992b71229c69b946e4":[7,0,0,5,0,0,0,7,2]
+"d5/dba/multiboot2_8h.html#aa953cfe34184d7f3aac9f077b41a379a":[7,0,0,5,0,0,0,5,1]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX2 =
 {
+"d0/d8f/namespacePCI.html#ad355a7ec551fd108426eac07c6c368b4":[7,0,0,5,32,1,10],
+"d0/d8f/namespacePCI.html#ad6c435768b719e23f605e355a3f351de":[7,0,0,5,32,2,10],
+"d0/d8f/namespacePCI.html#ad78c701483200d14b2ca3b225685c455":[7,0,0,5,32,2,14],
+"d0/d8f/namespacePCI.html#ad964c240b966ecaf49fe665d7e85ca09":[7,0,0,5,32,3,22],
+"d0/d8f/namespacePCI.html#ada8614745df6bcfa4a10f7fa1d5c2b7e":[7,0,0,5,32,4,4],
+"d0/d8f/namespacePCI.html#ae1eda6dc6ecddbc74c4c05814aef427b":[7,0,0,5,32,3,10],
+"d0/d8f/namespacePCI.html#ae83e2edfd5d2da5bdad908b3218063d1":[7,0,0,5,32,1,14],
+"d0/d8f/namespacePCI.html#ae91014013d0d44c666c4fa134a488fb3":[7,0,0,5,32,3,16],
+"d0/d8f/namespacePCI.html#ae926702a8fd06e3c1ab615a5a0893292":[7,0,0,5,32,1,7],
+"d0/d8f/namespacePCI.html#aefce1b0123d6b37ba37bcf2080a9a60d":[7,0,0,5,32,3,0],
 "d0/d8f/namespacePCI.html#af30a25f0bfb3905aa25ab503b122552d":[7,0,0,5,32,3,5],
 "d0/d8f/namespacePCI.html#af40612307839ace8e201e569ba26b892":[7,0,0,5,32,2,13],
 "d0/d8f/namespacePCI.html#af73eed7fc752182d6f75fc3fbd98428b":[7,0,0,5,32,3,20],
@@ -196,7 +206,7 @@ var NAVTREEINDEX2 =
 "d0/de2/aarch64_2runtime_2crtend_8c_source.html":[7,0,0,0,0,1,1],
 "d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html":[6,0,7,0],
 "d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html#a0b74449216d80cad5da584462929ef8b":[6,0,7,0,0],
-"d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html#ab330cdeaae21e216d7efeec0b0bb66e3":[6,0,7,0,1],
+"d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html#ae16de5fe508ad7081384169da233e901":[6,0,7,0,1],
 "d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html#afd9dd502a7fed60cb06675ba090f5fe0":[6,0,7,0,2],
 "d0/df9/classPower_1_1Power.html":[6,0,25,0],
 "d0/df9/classPower_1_1Power.html#a12ae598220233d1b1c7ad4c028c278cd":[6,0,25,0,9],
@@ -239,15 +249,5 @@ var NAVTREEINDEX2 =
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0c8787e7b25c195b21bab493a89267fa":[6,0,27,6,13],
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8":[6,0,27,6,33],
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0e78a601480a60073b7eea9bf3e0b31b":[6,0,27,6,32],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a20ebe5b08462741cd605696dd39b4138":[6,0,27,6,21],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a2dc266b5b6c396df15c0deb8314e6118":[6,0,27,6,1],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a2e2f81e2f0ccc212d679338744e37e46":[6,0,27,6,4],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a33ac9613e440ab159e7933a229dfc23b":[6,0,27,6,8],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a3fa3a4a527a59652a939068b8ef77de8":[6,0,27,6,24],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a49591913a02f05bb43c8bece3fa1c698":[6,0,27,6,9],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a58e324bd673b037f5ad3695e21372eb9":[6,0,27,6,28],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a608fbc75b20148ba6e00cad7ad91a5f8":[6,0,27,6,3],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a67fb555f2c2485779471e8f9f72c85b3":[6,0,27,6,36],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a6858764a9ce552deae9edd8fcf712818":[6,0,27,6,11],
-"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a75b06573600360591ab7654236f3c8f6":[6,0,27,6,18]
+"d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a20ebe5b08462741cd605696dd39b4138":[6,0,27,6,21]
 };

@@ -134,7 +134,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -170,7 +170,7 @@ ID</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    {</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">if</span> (((<a class="code" href="../../da/db9/classACPI_1_1MADT.html">ACPI::MADT</a> *)<a class="code" href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a7d90f526c69e2b02e1890b5c9d07aa0f">GetMADT</a>())-&gt;LAPICAddress != <span class="keyword">nullptr</span>)</div>
@@ -222,7 +222,7 @@ ID</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a621904c3d40203fc46b2a4aaa77774cc">GlobalDescriptorTable::Init</a>(Core);</div>
@@ -294,7 +294,7 @@ ID</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00092">92</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    {</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="comment">// TODO: This function is called by SMP too. Do not initialize timers that doesn&#39;t support multiple cores.</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
@@ -335,7 +335,7 @@ ID</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00114">114</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00114">114</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#df/df2/structCPU_1_1x64_1_1TrapFrame">CPU::x64::TrapFrame</a> *Frame = (<a class="code" href="../../d9/d25/namespaceCPU_1_1x64.html#df/df2/structCPU_1_1x64_1_1TrapFrame">CPU::x64::TrapFrame</a> *)<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>;</div>
@@ -405,9 +405,9 @@ ID</td>
 <div class="ttc" id="anamespaceCPU_1_1x86_html_a19ba7a384228d6b62668aa85045199e6a99dd90962cfecb2b35c18399a1ac7e06"><div class="ttname"><a href="../../d7/df8/namespaceCPU_1_1x86.html#a19ba7a384228d6b62668aa85045199e6a99dd90962cfecb2b35c18399a1ac7e06">CPU::x86::ISR0</a></div><div class="ttdeci">@ ISR0</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0a/interrupts_8hpp_source.html#l00014">interrupts.hpp:14</a></div></div>
 <div class="ttc" id="anamespaceCPU_1_1x86_html_a19ba7a384228d6b62668aa85045199e6ab466300d4846ff6d6fe6e2d556adf022"><div class="ttname"><a href="../../d7/df8/namespaceCPU_1_1x86.html#a19ba7a384228d6b62668aa85045199e6ab466300d4846ff6d6fe6e2d556adf022">CPU::x86::IRQ29</a></div><div class="ttdeci">@ IRQ29</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0a/interrupts_8hpp_source.html#l00081">interrupts.hpp:81</a></div></div>
 <div class="ttc" id="anamespaceCrashHandler_html_a1e244bc3fc8b088079546ac9407a1479"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a1e244bc3fc8b088079546ac9407a1479">CrashHandler::if</a></div><div class="ttdeci">if(scanCode==KEY_D_TAB||scanCode==KEY_D_LCTRL||scanCode==KEY_D_LALT||scanCode==KEY_U_LCTRL||scanCode==KEY_U_LALT) return</div></div>
-<div class="ttc" id="anamespaceInterrupts_html_af1d11abba0d09e297052a3bf31515123"><div class="ttname"><a href="../../d3/dc3/namespaceInterrupts.html#af1d11abba0d09e297052a3bf31515123">Interrupts::InterruptFrames</a></div><div class="ttdeci">void * InterruptFrames[INT_FRAMES_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da9/IntManager_8cpp_source.html#l00040">IntManager.cpp:40</a></div></div>
+<div class="ttc" id="anamespaceInterrupts_html_af1d11abba0d09e297052a3bf31515123"><div class="ttname"><a href="../../d3/dc3/namespaceInterrupts.html#af1d11abba0d09e297052a3bf31515123">Interrupts::InterruptFrames</a></div><div class="ttdeci">void * InterruptFrames[INT_FRAMES_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00040">InterruptsManager.cpp:40</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00002">Data</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00061">error</a>, <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">GetCurrentCPU()</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00034">CPUData::ID</a>, <a class="el" href="../../d2/d57/namespaceCrashHandler.html#a1e244bc3fc8b088079546ac9407a1479">CrashHandler::if()</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00040">InterruptFrames</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00493">CPU::x64::TrapFrame::InterruptNumber</a>, <a class="el" href="../../d8/d0a/interrupts_8hpp_source.html#l00050">CPU::x86::IRQ1</a>, <a class="el" href="../../d8/d0a/interrupts_8hpp_source.html#l00278">CPU::x86::IRQ223</a>, <a class="el" href="../../d8/d0a/interrupts_8hpp_source.html#l00081">CPU::x86::IRQ29</a>, <a class="el" href="../../d8/d0a/interrupts_8hpp_source.html#l00014">CPU::x86::ISR0</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00300">likely</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00097">memmove</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00031">RegisteredEvents</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00495">CPU::x64::TrapFrame::rip</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00133">CPU::Stop()</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00301">unlikely</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00062">warn</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00002">Data</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00061">error</a>, <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">GetCurrentCPU()</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00034">CPUData::ID</a>, <a class="el" href="../../d2/d57/namespaceCrashHandler.html#a1e244bc3fc8b088079546ac9407a1479">CrashHandler::if()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00040">InterruptFrames</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00493">CPU::x64::TrapFrame::InterruptNumber</a>, <a class="el" href="../../d8/d0a/interrupts_8hpp_source.html#l00050">CPU::x86::IRQ1</a>, <a class="el" href="../../d8/d0a/interrupts_8hpp_source.html#l00278">CPU::x86::IRQ223</a>, <a class="el" href="../../d8/d0a/interrupts_8hpp_source.html#l00081">CPU::x86::IRQ29</a>, <a class="el" href="../../d8/d0a/interrupts_8hpp_source.html#l00014">CPU::x86::ISR0</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00300">likely</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00097">memmove</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00031">RegisteredEvents</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00495">CPU::x64::TrapFrame::rip</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00133">CPU::Stop()</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00301">unlikely</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00062">warn</a>.</p>
 
 </div>
 </div>
@@ -426,12 +426,12 @@ ID</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00109">109</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a243b35bd4f91344446c7905d0a699f43">RegisteredEvents</a>.clear();</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00031">RegisteredEvents</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00031">RegisteredEvents</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00788">CrashHandler::Handle()</a>.</p>
 
@@ -450,9 +450,9 @@ ID</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00788">CrashHandler::Handle()</a>, and <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00114">MainInterruptHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00788">CrashHandler::Handle()</a>, and <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00114">MainInterruptHandler()</a>.</p>
 
 </div>
 </div>
@@ -468,9 +468,9 @@ ID</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../db/da9/IntManager_8cpp_source.html">IntManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00171">Interrupts::Handler::Handler()</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00114">MainInterruptHandler()</a>, <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00109">RemoveAll()</a>, and <a class="el" href="../../db/da9/IntManager_8cpp_source.html#l00186">Interrupts::Handler::~Handler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00171">Interrupts::Handler::Handler()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00114">MainInterruptHandler()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00109">RemoveAll()</a>, and <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00186">Interrupts::Handler::~Handler()</a>.</p>
 
 </div>
 </div>

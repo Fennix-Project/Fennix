@@ -190,7 +190,7 @@ template&lt;class T &gt; </div>
 <p class="definition">Definition at line <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d2/d34/smartptr_8hpp_source.html">smartptr.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="../../d2/d34/smartptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer deleted (%#lx)&quot;</span>, <a class="code" href="../../dc/d42/classsmart__ptr.html#a833028f391a860d124d3aacd787d1db7">m_RealPointer</a>);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">delete</span> (<a class="code" href="../../dc/d42/classsmart__ptr.html#a833028f391a860d124d3aacd787d1db7">m_RealPointer</a>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">delete</span> <a class="code" href="../../dc/d42/classsmart__ptr.html#a833028f391a860d124d3aacd787d1db7">m_RealPointer</a>, <a class="code" href="../../dc/d42/classsmart__ptr.html#a833028f391a860d124d3aacd787d1db7">m_RealPointer</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00032">smart_ptr&lt; T &gt;::m_RealPointer</a>, and <a class="el" href="../../d2/d34/smartptr_8hpp_source.html#l00014">spdbg</a>.</p>

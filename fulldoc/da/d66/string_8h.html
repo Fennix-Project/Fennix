@@ -141,34 +141,35 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00896">896</a> of file <a class="el" href="../../d0/dc7/Convert_8cpp_source.html">Convert.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;{</div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;    <span class="keywordflow">if</span> (EnableExternalMemoryTracer)</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;    {</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        <span class="keywordtype">char</span> LockTmpStr[64];</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a7b6086df458c8c7454cf5188ccdd7e56">strcpy_unsafe</a>(LockTmpStr, __FUNCTION__);</div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#affc260dcbf19ebb4f662b6fb165a2dfb">strcat_unsafe</a>(LockTmpStr, <span class="stringliteral">&quot;_memTrk&quot;</span>);</div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;        mExtTrkLock.TimeoutLock(LockTmpStr, 10000);</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;        <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf</a>(mExtTrkLog, <span class="stringliteral">&quot;!memcpy( %p %p %ld )=%p-%p&gt;%p-%p~%p\n\r&quot;</span>, dest, src, len, dest, (<span class="keywordtype">void</span> *)((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)dest + len), src, (<span class="keywordtype">void</span> *)((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)src + len), __builtin_return_address(0));</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;        <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a> mTrkUART = <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a>(<a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96afd1a237a2a4651392126d852a8c5870f">UniversalAsynchronousReceiverTransmitter::COM3</a>);</div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">short</span> i = 0; i &lt; MEM_TRK_MAX_SIZE; i++)</div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;        {</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;            <span class="keywordflow">if</span> (mExtTrkLog[i] == <span class="charliteral">&#39;\r&#39;</span>)</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;            mTrkUART.<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183">Write</a>(mExtTrkLog[i]);</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;        }</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;        mExtTrkLock.Unlock();</div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;    }</div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160; </div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/dc7/Convert_8cpp.html#a36938bce563b8c3c2a618474fd8c2f2d">__memcpy_chk</a>(dest, src, len, __builtin_object_size(dest, 0));</div>
-<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00905">905</a> of file <a class="el" href="../../d0/dc7/Convert_8cpp_source.html">Convert.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;{</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;    <span class="keywordtype">void</span> *ret = <a class="code" href="../../d0/dc7/Convert_8cpp.html#a36938bce563b8c3c2a618474fd8c2f2d">__memcpy_chk</a>(dest, src, len, __builtin_object_size(dest, 0));</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;    <span class="keywordflow">if</span> (EnableExternalMemoryTracer)</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    {</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;        <span class="keywordtype">char</span> LockTmpStr[64];</div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a7b6086df458c8c7454cf5188ccdd7e56">strcpy_unsafe</a>(LockTmpStr, __FUNCTION__);</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#affc260dcbf19ebb4f662b6fb165a2dfb">strcat_unsafe</a>(LockTmpStr, <span class="stringliteral">&quot;_memTrk&quot;</span>);</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;        mExtTrkLock.TimeoutLock(LockTmpStr, 10000);</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;        <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf</a>(mExtTrkLog, <span class="stringliteral">&quot;!memcpy( %p %p %ld )=%p~%p\n\r&quot;</span>,</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;                dest, src, len,</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;                ret, __builtin_return_address(0));</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;        <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a> mTrkUART = <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a>(<a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96afd1a237a2a4651392126d852a8c5870f">UniversalAsynchronousReceiverTransmitter::COM3</a>);</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">short</span> i = 0; i &lt; MEM_TRK_MAX_SIZE; i++)</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;        {</div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;            <span class="keywordflow">if</span> (mExtTrkLog[i] == <span class="charliteral">&#39;\r&#39;</span>)</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;            mTrkUART.<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183">Write</a>(mExtTrkLog[i]);</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;        }</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;        mExtTrkLock.Unlock();</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;    }</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;}</div>
 <div class="ttc" id="aConvert_8cpp_html_a36938bce563b8c3c2a618474fd8c2f2d"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a36938bce563b8c3c2a618474fd8c2f2d">__memcpy_chk</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * __memcpy_chk(void *dest, const void *src, size_t len, size_t slen)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00610">Convert.cpp:610</a></div></div>
 <div class="ttc" id="aConvert_8cpp_html_a7b6086df458c8c7454cf5188ccdd7e56"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a7b6086df458c8c7454cf5188ccdd7e56">strcpy_unsafe</a></div><div class="ttdeci">EXTERNC char * strcpy_unsafe(char *destination, const char *source)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00073">Convert.cpp:73</a></div></div>
 <div class="ttc" id="aConvert_8cpp_html_affc260dcbf19ebb4f662b6fb165a2dfb"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#affc260dcbf19ebb4f662b6fb165a2dfb">strcat_unsafe</a></div><div class="ttdeci">EXTERNC char * strcat_unsafe(char *destination, const char *source)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00056">Convert.cpp:56</a></div></div>
 <div class="ttc" id="aKernel_2include_2printf_8h_html_a77dac04ed12a16543832b623c7778729"><div class="ttname"><a href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf</a></div><div class="ttdeci">PRINTF_VISIBILITY int sprintf(char *s, const char *format,...) ATTR_PRINTF(2</div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00141">types.h:141</a></div></div>
 <div class="ttc" id="aclassUniversalAsynchronousReceiverTransmitter_1_1UART_html"><div class="ttname"><a href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3f/uart_8hpp_source.html#l00024">uart.hpp:25</a></div></div>
 <div class="ttc" id="aclassUniversalAsynchronousReceiverTransmitter_1_1UART_html_a7906991fad520423bc367e05767db183"><div class="ttname"><a href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183">UniversalAsynchronousReceiverTransmitter::UART::Write</a></div><div class="ttdeci">void Write(uint8_t Char)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00109">UniversalAsynchronousReceiverTransmitter.cpp:109</a></div></div>
 <div class="ttc" id="anamespaceUniversalAsynchronousReceiverTransmitter_html_a97513a08896778985b5975cdc7ec5d96afd1a237a2a4651392126d852a8c5870f"><div class="ttname"><a href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96afd1a237a2a4651392126d852a8c5870f">UniversalAsynchronousReceiverTransmitter::COM3</a></div><div class="ttdeci">@ COM3</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3f/uart_8hpp_source.html#l00016">uart.hpp:16</a></div></div>
@@ -209,32 +210,34 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00921">921</a> of file <a class="el" href="../../d0/dc7/Convert_8cpp_source.html">Convert.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;{</div>
-<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
-<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;    <span class="keywordflow">if</span> (EnableExternalMemoryTracer)</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;    {</div>
-<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;        <span class="keywordtype">char</span> LockTmpStr[64];</div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a7b6086df458c8c7454cf5188ccdd7e56">strcpy_unsafe</a>(LockTmpStr, __FUNCTION__);</div>
-<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#affc260dcbf19ebb4f662b6fb165a2dfb">strcat_unsafe</a>(LockTmpStr, <span class="stringliteral">&quot;_memTrk&quot;</span>);</div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;        mExtTrkLock.TimeoutLock(LockTmpStr, 10000);</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;        <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf</a>(mExtTrkLog, <span class="stringliteral">&quot;!memset( %p %d %ld )=%p-%p~%p\n\r&quot;</span>, dest, val, len, dest, (<span class="keywordtype">void</span> *)((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)dest + len), __builtin_return_address(0));</div>
-<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;        <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a> mTrkUART = <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a>(<a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96afd1a237a2a4651392126d852a8c5870f">UniversalAsynchronousReceiverTransmitter::COM3</a>);</div>
-<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">short</span> i = 0; i &lt; MEM_TRK_MAX_SIZE; i++)</div>
-<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;        {</div>
-<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;            <span class="keywordflow">if</span> (mExtTrkLog[i] == <span class="charliteral">&#39;\r&#39;</span>)</div>
-<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;            mTrkUART.<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183">Write</a>(mExtTrkLog[i]);</div>
-<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;        }</div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;        mExtTrkLock.Unlock();</div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;    }</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160; </div>
-<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/dc7/Convert_8cpp.html#a8462a92a7c833a8e4ac785f31b6dc114">__memset_chk</a>(dest, val, len, __builtin_object_size(dest, 0));</div>
-<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;}</div>
-<div class="ttc" id="aConvert_8cpp_html_a8462a92a7c833a8e4ac785f31b6dc114"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a8462a92a7c833a8e4ac785f31b6dc114">__memset_chk</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * __memset_chk(void *dest, int val, size_t len, size_t slen)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00687">Convert.cpp:687</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00932">932</a> of file <a class="el" href="../../d0/dc7/Convert_8cpp_source.html">Convert.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;{</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;    <span class="keywordtype">void</span> *ret = <a class="code" href="../../d0/dc7/Convert_8cpp.html#a8462a92a7c833a8e4ac785f31b6dc114">__memset_chk</a>(dest, val, len, __builtin_object_size(dest, 0));</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;    <span class="keywordflow">if</span> (EnableExternalMemoryTracer)</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;    {</div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;        <span class="keywordtype">char</span> LockTmpStr[64];</div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a7b6086df458c8c7454cf5188ccdd7e56">strcpy_unsafe</a>(LockTmpStr, __FUNCTION__);</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#affc260dcbf19ebb4f662b6fb165a2dfb">strcat_unsafe</a>(LockTmpStr, <span class="stringliteral">&quot;_memTrk&quot;</span>);</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;        mExtTrkLock.TimeoutLock(LockTmpStr, 10000);</div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;        <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf</a>(mExtTrkLog, <span class="stringliteral">&quot;!memset( %p %d %ld )=%p~%p\n\r&quot;</span>,</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;                dest, val, len,</div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;                ret, __builtin_return_address(0));</div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;        <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a> mTrkUART = <a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a>(<a class="code" href="../../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96afd1a237a2a4651392126d852a8c5870f">UniversalAsynchronousReceiverTransmitter::COM3</a>);</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">short</span> i = 0; i &lt; MEM_TRK_MAX_SIZE; i++)</div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;        {</div>
+<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;            <span class="keywordflow">if</span> (mExtTrkLog[i] == <span class="charliteral">&#39;\r&#39;</span>)</div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;            mTrkUART.<a class="code" href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183">Write</a>(mExtTrkLog[i]);</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;        }</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;        mExtTrkLock.Unlock();</div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;    }</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;}</div>
+<div class="ttc" id="aConvert_8cpp_html_a8462a92a7c833a8e4ac785f31b6dc114"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a8462a92a7c833a8e4ac785f31b6dc114">__memset_chk</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * __memset_chk(void *dest, int val, size_t len, size_t slen)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00690">Convert.cpp:690</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00687">__memset_chk()</a>, <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00016">UniversalAsynchronousReceiverTransmitter::COM3</a>, <a class="el" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00056">strcat_unsafe()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00073">strcpy_unsafe()</a>, and <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00109">UniversalAsynchronousReceiverTransmitter::UART::Write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00690">__memset_chk()</a>, <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00016">UniversalAsynchronousReceiverTransmitter::COM3</a>, <a class="el" href="../../dc/df9/Kernel_2include_2printf_8h.html#a77dac04ed12a16543832b623c7778729">sprintf()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00056">strcat_unsafe()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00073">strcpy_unsafe()</a>, and <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00109">UniversalAsynchronousReceiverTransmitter::UART::Write()</a>.</p>
 
 </div>
 </div>

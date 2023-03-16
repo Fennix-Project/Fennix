@@ -1,5 +1,15 @@
 var NAVTREEINDEX9 =
 {
+"d3/d21/classACPI_1_1ACPI.html#a7832e6b3fc5fa6ea9e8e1560a094826a":[6,0,0,0,2,15],
+"d3/d21/classACPI_1_1ACPI.html#a78fbfdb90d28117017680c31ce5f7ecf":[7,0,0,0,1,2,5,21],
+"d3/d21/classACPI_1_1ACPI.html#a78fbfdb90d28117017680c31ce5f7ecf":[6,0,0,0,2,21],
+"d3/d21/classACPI_1_1ACPI.html#a80bf2ac859f0eb98f197583c2d29c85d":[7,0,0,0,1,2,5,8],
+"d3/d21/classACPI_1_1ACPI.html#a80bf2ac859f0eb98f197583c2d29c85d":[6,0,0,0,2,8],
+"d3/d21/classACPI_1_1ACPI.html#a80effa1483a1ff798f77dc4ad71bbd8c":[7,0,0,0,1,2,5,44],
+"d3/d21/classACPI_1_1ACPI.html#a80effa1483a1ff798f77dc4ad71bbd8c":[6,0,0,0,2,44],
+"d3/d21/classACPI_1_1ACPI.html#a81f12e7602f0097ead58dc15a2f1d9c5":[7,0,0,0,1,2,5,11],
+"d3/d21/classACPI_1_1ACPI.html#a81f12e7602f0097ead58dc15a2f1d9c5":[6,0,0,0,2,11],
+"d3/d21/classACPI_1_1ACPI.html#a839e0f229403e1b81ccb22b2df3eca66":[7,0,0,0,1,2,9,0],
 "d3/d21/classACPI_1_1ACPI.html#a839e0f229403e1b81ccb22b2df3eca66":[6,0,0,0,9,0],
 "d3/d21/classACPI_1_1ACPI.html#a84199800774fb27a1441da4a42df0d0b":[7,0,0,0,1,2,5,23],
 "d3/d21/classACPI_1_1ACPI.html#a84199800774fb27a1441da4a42df0d0b":[6,0,0,0,2,23],
@@ -239,15 +249,5 @@ var NAVTREEINDEX9 =
 "d3/d54/classVirtualFileSystem_1_1Driver.html#abfcd2abf8c4cca6f8d61d67e5115f238":[6,0,33,6,2],
 "d3/d54/classVirtualFileSystem_1_1Driver.html#ae96d793f34bf9b05e4a1cd17ba60a503":[6,0,33,6,0],
 "d3/d56/arp_8hpp.html":[7,0,0,5,3,0],
-"d3/d56/arp_8hpp.html#a2435f70eaa2bc2c71192d94377dc84bc":[7,0,0,5,3,0,8],
-"d3/d56/arp_8hpp.html#a353fb8b84bee92d6e2c27bc4e1ce16ec":[7,0,0,5,3,0,15],
-"d3/d56/arp_8hpp.html#a37c42968503419cfbf3214eb33899fe6":[7,0,0,5,3,0,6],
-"d3/d56/arp_8hpp.html#a3b6c6dfedf1a11e58416ba8b9ff9d682":[7,0,0,5,3,0,11],
-"d3/d56/arp_8hpp.html#a4f92a1ad75e05f1cf3601b9a38429a31":[7,0,0,5,3,0,7],
-"d3/d56/arp_8hpp.html#a5591f79ec1a19dd8b6cb096ec27c24c4":[7,0,0,5,3,0,10],
-"d3/d56/arp_8hpp.html#aa7b28d3da26dbb0fb38fc7c9ca31735c":[7,0,0,5,3,0,3],
-"d3/d56/arp_8hpp.html#aa7b28d3da26dbb0fb38fc7c9ca31735ca1895f5278dbed846fb0024c964f21ff0":[7,0,0,5,3,0,3,8],
-"d3/d56/arp_8hpp.html#aa7b28d3da26dbb0fb38fc7c9ca31735ca452db3bbe8c26c0a8e9ad26c940eed72":[7,0,0,5,3,0,3,1],
-"d3/d56/arp_8hpp.html#aa7b28d3da26dbb0fb38fc7c9ca31735ca4b9552fcc7350c84eeea5df5d8e786d2":[7,0,0,5,3,0,3,5],
-"d3/d56/arp_8hpp.html#aa7b28d3da26dbb0fb38fc7c9ca31735ca4eb07a2da9da4160637968d42f1e9922":[7,0,0,5,3,0,3,4]
+"d3/d56/arp_8hpp.html#a2435f70eaa2bc2c71192d94377dc84bc":[7,0,0,5,3,0,8]
 };

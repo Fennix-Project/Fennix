@@ -11,7 +11,7 @@ var searchData=
   ['interprocesscommunication_2ecpp_7061',['InterProcessCommunication.cpp',['../d3/dff/InterProcessCommunication_8cpp.html',1,'']]],
   ['interruptdescriptortable_2ecpp_7062',['InterruptDescriptorTable.cpp',['../d7/d21/InterruptDescriptorTable_8cpp.html',1,'']]],
   ['interrupts_2ehpp_7063',['interrupts.hpp',['../d8/d0a/interrupts_8hpp.html',1,'']]],
-  ['intmanager_2ecpp_7064',['IntManager.cpp',['../db/da9/IntManager_8cpp.html',1,'']]],
+  ['interruptsmanager_2ecpp_7064',['InterruptsManager.cpp',['../d0/d8d/InterruptsManager_8cpp.html',1,'']]],
   ['ints_2ehpp_7065',['ints.hpp',['../d0/d36/ints_8hpp.html',1,'']]],
   ['io_2eh_7066',['io.h',['../dc/dac/io_8h.html',1,'']]],
   ['ipc_2eh_7067',['ipc.h',['../d9/d24/ipc_8h.html',1,'']]],

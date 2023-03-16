@@ -1,5 +1,13 @@
 var NAVTREEINDEX20 =
 {
+"d5/dba/multiboot2_8h.html#aaabdaf3c52dd3be82d1ab4fbd50f9004":[7,0,0,5,0,0,0,14,0],
+"d5/dba/multiboot2_8h.html#aade2dff510f8e32b462ec1037437d28c":[7,0,0,5,0,0,0,29,0],
+"d5/dba/multiboot2_8h.html#ab28e2f0c217713188d0868ccc29a19e4":[7,0,0,5,0,0,0,87],
+"d5/dba/multiboot2_8h.html#ab3284a28549f2a2f1a2001ca023aaa1e":[7,0,0,5,0,0,0,68],
+"d5/dba/multiboot2_8h.html#ab6121d81742a285af07d6c44a8c0af8f":[7,0,0,5,0,0,0,80],
+"d5/dba/multiboot2_8h.html#ab6707ad19a33da4a07b1e3a747c3da16":[7,0,0,5,0,0,0,23,3],
+"d5/dba/multiboot2_8h.html#ab7415fc9309414fe6d782b5b6d054d2e":[7,0,0,5,0,0,0,8,1],
+"d5/dba/multiboot2_8h.html#ab7e2ea5c749083992b71229c69b946e4":[7,0,0,5,0,0,0,7,2],
 "d5/dba/multiboot2_8h.html#aba5586aada8b56c5f297b8410e687626":[7,0,0,5,0,0,0,30,4],
 "d5/dba/multiboot2_8h.html#abc2579d314db9a050c48043a1b7f5ea9":[7,0,0,5,0,0,0,36,3],
 "d5/dba/multiboot2_8h.html#abc554da6e5184d34e039b551177434ba":[7,0,0,5,0,0,0,46],
@@ -241,13 +249,5 @@ var NAVTREEINDEX20 =
 "d6/da1/classDisk_1_1Partition.html#a43e6352aec757113cacb8449d3806b14":[6,0,4,5,7],
 "d6/da1/classDisk_1_1Partition.html#a476ce31abdbf6a9302b605a56c20fb1c":[6,0,4,5,9],
 "d6/da1/classDisk_1_1Partition.html#a6d89abfeb7914d00b063d829cc8282e0":[6,0,4,5,6],
-"d6/da1/classDisk_1_1Partition.html#a7c17852b795ddc8dc88c80a0913aed9c":[6,0,4,5,0],
-"d6/da1/classDisk_1_1Partition.html#a81758b344de93fb9dd88695aca3bf6f1":[6,0,4,5,1],
-"d6/da1/classDisk_1_1Partition.html#a8826a299d612de968abe4b9e2b91b4c0":[6,0,4,5,8],
-"d6/da1/classDisk_1_1Partition.html#abb1b23446f7b3ff27d53301ddf38682c":[6,0,4,5,11],
-"d6/da1/classDisk_1_1Partition.html#ad5263d2e4a7eb147f67a8b07752b1f50":[6,0,4,5,4],
-"d6/da1/classDisk_1_1Partition.html#ae89e7e0dab44e30f362fcbf6050aa734":[6,0,4,5,10],
-"d6/da1/classDisk_1_1Partition.html#aee76e1f844dffd84b8152756d4bcf3c3":[6,0,4,5,2],
-"d6/da1/classVector.html":[6,0,206],
-"d6/da1/classVector.html#a0015dcca8ba82a39418147af0e15c045":[6,0,206,23]
+"d6/da1/classDisk_1_1Partition.html#a7c17852b795ddc8dc88c80a0913aed9c":[6,0,4,5,0]
 };

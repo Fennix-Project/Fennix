@@ -1,7 +1,7 @@
 var cpu_8hpp =
 [
     [ "EFLAGS", "de/d78/namespaceCPU_1_1x32.html#d1/d7c/unionCPU_1_1x32_1_1EFLAGS", [
-      [ "__attribute__", "de/d78/namespaceCPU_1_1x32.html#ad5022a4d1bb89e01cd2961827b238adb", null ],
+      [ "__attribute__", "de/d78/namespaceCPU_1_1x32.html#afe96514686c04a2339bf542981c3155e", null ],
       [ "raw", "de/d78/namespaceCPU_1_1x32.html#a896ee47cf16552f2ac6b0314837b143e", null ]
     ] ],
     [ "TrapFrame", "de/d78/namespaceCPU_1_1x32.html#d3/d23/structCPU_1_1x32_1_1TrapFrame", [

@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['bgrtheader_6410',['BGRTHeader',['../d3/d21/classACPI_1_1ACPI.html#d4/d38/structACPI_1_1ACPI_1_1BGRTHeader',1,'ACPI::ACPI']]],
-  ['biosparameterblock_6411',['BIOSParameterBlock',['../db/dad/classVirtualFileSystem_1_1FAT.html#d1/dc4/structVirtualFileSystem_1_1FAT_1_1BIOSParameterBlock',1,'VirtualFileSystem::FAT']]],
-  ['bitmap_6412',['Bitmap',['../d3/d19/classBitmap.html',1,'']]],
-  ['block_6413',['Block',['../d6/da3/classXalloc_1_1Block.html',1,'Xalloc']]],
-  ['bootinfo_6414',['BootInfo',['../db/d96/structBootInfo.html',1,'']]],
-  ['bootloaderinfo_6415',['BootloaderInfo',['../db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo',1,'BootInfo']]],
-  ['buttonobject_6416',['ButtonObject',['../d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#d3/d02/structGraphicalUserInterface_1_1WidgetCollection_1_1ButtonObject',1,'GraphicalUserInterface::WidgetCollection']]]
+  ['bgrtheader_6409',['BGRTHeader',['../d3/d21/classACPI_1_1ACPI.html#d4/d38/structACPI_1_1ACPI_1_1BGRTHeader',1,'ACPI::ACPI']]],
+  ['biosparameterblock_6410',['BIOSParameterBlock',['../db/dad/classVirtualFileSystem_1_1FAT.html#d1/dc4/structVirtualFileSystem_1_1FAT_1_1BIOSParameterBlock',1,'VirtualFileSystem::FAT']]],
+  ['bitmap_6411',['Bitmap',['../d3/d19/classBitmap.html',1,'']]],
+  ['block_6412',['Block',['../d6/da3/classXalloc_1_1Block.html',1,'Xalloc']]],
+  ['bootinfo_6413',['BootInfo',['../db/d96/structBootInfo.html',1,'']]],
+  ['bootloaderinfo_6414',['BootloaderInfo',['../db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo',1,'BootInfo']]],
+  ['buttonobject_6415',['ButtonObject',['../d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#d3/d02/structGraphicalUserInterface_1_1WidgetCollection_1_1ButtonObject',1,'GraphicalUserInterface::WidgetCollection']]]
 ];

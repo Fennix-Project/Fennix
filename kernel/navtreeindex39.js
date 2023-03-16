@@ -1,5 +1,13 @@
 var NAVTREEINDEX39 =
 {
+"db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[6,0,69,3,0],
+"db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[7,0,0,5,0,1,3],
+"db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo":[7,0,0,5,0,1,5],
+"db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo":[6,0,69,5],
+"db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo":[7,0,0,5,0,1,7],
+"db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo":[6,0,69,0],
+"db/d96/structBootInfo.html#dc/d85/structBootInfo_1_1FramebufferInfo":[7,0,0,5,0,1,1],
+"db/d96/structBootInfo.html#dc/d85/structBootInfo_1_1FramebufferInfo":[6,0,69,1],
 "db/d96/structBootInfo.html#df/dea/structBootInfo_1_1ModuleInfo":[6,0,69,4],
 "db/d96/structBootInfo.html#df/dea/structBootInfo_1_1ModuleInfo":[7,0,0,5,0,1,4],
 "db/d9e/Linux_8cpp.html":[7,0,0,10,0],
@@ -241,13 +249,5 @@ var NAVTREEINDEX39 =
 "db/d9e/Linux_8cpp.html#ab8550d10f46199a1d70599dd3d8cb4bc":[7,0,0,10,0,268],
 "db/d9e/Linux_8cpp.html#ab8c75310cf23079a8cee3443d8136960":[7,0,0,10,0,296],
 "db/d9e/Linux_8cpp.html#ab926aa23919f204b5b14acaafc017582":[7,0,0,10,0,84],
-"db/d9e/Linux_8cpp.html#ab94bc17cdd499d788e418064ef18239c":[7,0,0,10,0,238],
-"db/d9e/Linux_8cpp.html#aba61b48ff1f865188411f7c9546f9b2e":[7,0,0,10,0,53],
-"db/d9e/Linux_8cpp.html#abaab916926eb5f7d723f9d23e0b87691":[7,0,0,10,0,67],
-"db/d9e/Linux_8cpp.html#abb4b019d3513dfb867eecf691df48491":[7,0,0,10,0,58],
-"db/d9e/Linux_8cpp.html#abb9865a7ea0411cee8b4a82898c39b0f":[7,0,0,10,0,76],
-"db/d9e/Linux_8cpp.html#abd33ccf3c91da4e0c5dd9f6ff6fb0f7a":[7,0,0,10,0,80],
-"db/d9e/Linux_8cpp.html#abe15510ef94ca2e07c3034c581625bb4":[7,0,0,10,0,339],
-"db/d9e/Linux_8cpp.html#abe1dbeff0e76be539f3f8917f05e2751":[7,0,0,10,0,246],
-"db/d9e/Linux_8cpp.html#abee5b58472c28e1f75a82abe1e9ad50e":[7,0,0,10,0,109]
+"db/d9e/Linux_8cpp.html#ab94bc17cdd499d788e418064ef18239c":[7,0,0,10,0,238]
 };
