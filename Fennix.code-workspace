@@ -5,6 +5,10 @@
 		}
 	],
 	"settings": {
-		"debug.allowBreakpointsEverywhere": true
+		"debug.allowBreakpointsEverywhere": true,
+		"files.associations": {
+			"*.su": "tsv",
+			"ostream": "cpp"
+		}
 	}
 }

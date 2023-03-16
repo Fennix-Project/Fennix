@@ -4,6 +4,7 @@ initrd/system/*.raw
 initrd/system/lib/*.raw
 !initrd/system/include/.gitkeep
 tools/*
+!tools/ExtMemDbg
 !tools/stage2_eltorito
 !tools/*.md
 !tools/*.css
