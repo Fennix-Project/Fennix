@@ -133,8 +133,7 @@ ifeq ($(BOOTLOADER), lynx)
 		-efi-boot-part --efi-boot-image --protective-msdos-label \
 		iso_tmp_data -o $(OSNAME).iso
 endif
-ifeq ($(BOOTLOADER), other)
-ifeq ($(OSARCH), amd64)
+ifeq ($(BOOTLOADER), limine)
 	cp tools/limine.cfg $(LIMINE_FOLDER)/limine.sys $(LIMINE_FOLDER)/limine-cd.bin $(LIMINE_FOLDER)/limine-cd-efi.bin iso_tmp_data/
 	xorriso -as mkisofs -quiet -b limine-cd.bin \
 		-no-emul-boot -boot-load-size 4 -boot-info-table \
@@ -142,7 +141,7 @@ ifeq ($(OSARCH), amd64)
 		-efi-boot-part --efi-boot-image --protective-msdos-label \
 		iso_tmp_data -o $(OSNAME).iso
 endif
-ifeq ($(OSARCH), i686)
+ifeq ($(BOOTLOADER), grub)
 # TODO: Add custom language support for GRUB or detect the system language using "echo $LANG | cut -d . -f 1" and set "lang" variable inside grub.cfg
 	mkdir -p iso_tmp_data/boot
 	mkdir -p iso_tmp_data/boot/grub
@@ -151,7 +150,6 @@ ifeq ($(OSARCH), i686)
 endif
 ifeq ($(OSARCH), aarch64)
 	$(COMPILER_PATH)/$(COMPILER_ARCH)objcopy Kernel/kernel.fsys -O binary $(OSNAME).img
-endif
 endif
 
 ifeq ($(OSARCH), amd64)
