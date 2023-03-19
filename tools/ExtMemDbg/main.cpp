@@ -4,6 +4,7 @@
 #include <regex>
 #include <elf.h>
 #include <string>
+#include <cassert>
 
 #include "ui.h"
 
@@ -23,6 +24,7 @@ using namespace std;
 // new[]( 14 )=0x000000000131b000~0xffffffff800c23f4
 // delete( 0x00000000019ed000 4 )~0xffffffff800ba9fd
 // delete[]( 0x000000000131d000 )~0xffffffff800d6851
+// Rsrv( 0x0x0000000000000000 0x0x0000000000000000 )
 
 struct memset_t
 {
@@ -131,6 +133,12 @@ struct delete_array_t
     uintptr_t caller;
 };
 
+struct rsv_t
+{
+    uintptr_t ptr;
+    size_t size;
+};
+
 enum mem_collection_enum_t
 {
     memset_e,
@@ -144,7 +152,8 @@ enum mem_collection_enum_t
     new_e,
     new_array_e,
     delete_e,
-    delete_array_e
+    delete_array_e,
+    rsv_e
 };
 
 struct mem_collection_t
@@ -162,6 +171,7 @@ struct mem_collection_t
     new_array_t new_array;
     delete_t delete_;
     delete_array_t delete_array;
+    rsv_t rsv;
 };
 
 namespace SymbolResolver
@@ -342,6 +352,7 @@ void main_thread()
     regex pattern_new_array("new\\[\\]\\(\\s*(\\d+)\\s*\\)=(\\S+)~(\\S+)");
     regex pattern_delete("delete\\(\\s*(\\S+)\\s+(\\d+)\\s*\\)~(\\S+)");
     regex pattern_delete_array("delete\\[\\]\\(\\s*(\\S+)\\s*\\)~(\\S+)");
+    regex pattern_Rsrv("Rsrv\\(\\s*(\\S+)\\s+(\\S+)\\s*\\)~(\\S+)");
 
     vector<mem_collection_t> mem_collection_list;
 
@@ -354,6 +365,7 @@ void main_thread()
         return;
     }
 
+    printf("Loading kernel symbols\n");
     load_kernel_symbols();
 
     while (getline(input_file, line))
@@ -523,6 +535,226 @@ void main_thread()
             };
             mem_collection_list.push_back(mem_c);
         }
+        else if (regex_search(line, match, pattern_Rsrv))
+        {
+            rsv_t Rsrv = {
+                .ptr = strtoull(match[1].str().c_str(), nullptr, 16),
+                .size = stoul(match[2].str()),
+            };
+            mem_collection_t mem_c = {
+                .type = rsv_e,
+                .rsv = Rsrv,
+            };
+            mem_collection_list.push_back(mem_c);
+        }
+    }
+
+    printf("Printing collected memory operations (%lu)\n", mem_collection_list.size());
+    assert(mem_collection_list.size() > 0);
+
+    if (false) /* We don't need this right now. */
+        for (const auto &m : mem_collection_list)
+        {
+            switch (m.type)
+            {
+            case memset_e:
+                printf("memset( %#lx %#x %lu %#lx )=%#lx~%#lx(%s)\n",
+                       m.memset.dest, m.memset.val, m.memset.len, m.memset.slen,
+                       m.memset.ret, m.memset.caller, Symbols->GetSymbolFromAddress(m.memset.caller));
+                break;
+            case memcpy_e:
+                printf("memcpy( %#lx %#lx %lu %#lx )=%#lx~%#lx(%s)\n",
+                       m.memcpy.dest, m.memcpy.src, m.memcpy.len, m.memcpy.slen,
+                       m.memcpy.ret, m.memcpy.caller, Symbols->GetSymbolFromAddress(m.memcpy.caller));
+                break;
+            case memmove_e:
+                printf("memmove( %#lx %#lx %lu %#lx )=%#lx~%#lx(%s)\n",
+                       m.memmove.dest, m.memmove.src, m.memmove.len, m.memmove.slen,
+                       m.memmove.ret, m.memmove.caller, Symbols->GetSymbolFromAddress(m.memmove.caller));
+                break;
+            case ReqPages_e:
+                printf("RequestPages( %lu )=%#lx~%#lx(%s)\n",
+                       m.ReqPages.pages, m.ReqPages.ret, m.ReqPages.caller, Symbols->GetSymbolFromAddress(m.ReqPages.caller));
+                break;
+            case FreePage_e:
+                printf("FreePage( %#lx )=%#lx~%#lx(%s)\n",
+                       m.FreePage.ptr, m.FreePage.caller, m.FreePage.caller, Symbols->GetSymbolFromAddress(m.FreePage.caller));
+                break;
+            case FreePages_e:
+                printf("FreePages( %#lx %lu )=%#lx~%#lx(%s)\n",
+                       m.FreePages.ptr, m.FreePages.pages, m.FreePages.caller, m.FreePages.caller, Symbols->GetSymbolFromAddress(m.FreePages.caller));
+                break;
+            case malloc_e:
+                printf("malloc( %lu )=%#lx~%#lx(%s)\n",
+                       m.malloc.size, m.malloc.ret, m.malloc.caller, Symbols->GetSymbolFromAddress(m.malloc.caller));
+                break;
+            case free_e:
+                printf("free( %#lx )=%#lx~%#lx(%s)\n",
+                       m.free.ptr, m.free.caller, m.free.caller, Symbols->GetSymbolFromAddress(m.free.caller));
+                break;
+            case new_e:
+                printf("new( %lu )=%#lx~%#lx(%s)\n",
+                       m.new_.size, m.new_.ret, m.new_.caller, Symbols->GetSymbolFromAddress(m.new_.caller));
+                break;
+            case new_array_e:
+                printf("new[]( %lu )=%#lx~%#lx(%s)\n",
+                       m.new_array.size, m.new_array.ret, m.new_array.caller, Symbols->GetSymbolFromAddress(m.new_array.caller));
+                break;
+            case delete_e:
+                printf("delete( %#lx %lu )=%#lx~%#lx(%s)\n",
+                       m.delete_.ptr, m.delete_.size, m.delete_.caller, m.delete_.caller, Symbols->GetSymbolFromAddress(m.delete_.caller));
+                break;
+            case delete_array_e:
+                printf("delete[]( %#lx )=%#lx~%#lx(%s)\n",
+                       m.delete_array.ptr, m.delete_array.caller, m.delete_array.caller, Symbols->GetSymbolFromAddress(m.delete_array.caller));
+                break;
+            case rsv_e:
+                printf("rsv( %#lx %lu )\n",
+                       m.rsv.ptr, m.rsv.size);
+                break;
+            default:
+                printf("unknown type %d\n", m.type);
+                break;
+            }
+        }
+
+    int64_t AllocatedPages = 0;
+    int64_t AllocatedMemory = 0;
+
+    for (const auto &m : mem_collection_list)
+    {
+        switch (m.type)
+        {
+        case ReqPages_e:
+        {
+            AllocatedPages += m.ReqPages.pages;
+            break;
+        }
+        case FreePage_e:
+        {
+            bool found = false;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == ReqPages_e && c.ReqPages.ret == m.FreePage.ptr)
+                {
+                    if (c.ReqPages.pages != 1)
+                        printf("FreePage( %#lx )=%#lx~%#lx(%s) found in ReqPages but pages != 1 (%lu)\n",
+                               m.FreePage.ptr, m.FreePage.caller, m.FreePage.caller, Symbols->GetSymbolFromAddress(m.FreePage.caller), c.ReqPages.pages);
+                    found = true;
+                    break;
+                }
+            }
+
+            if (!found)
+                printf("FreePage( %#lx )=%#lx~%#lx(%s) not found in ReqPages\n",
+                       m.FreePage.ptr, m.FreePage.caller, m.FreePage.caller, Symbols->GetSymbolFromAddress(m.FreePage.caller));
+
+            AllocatedPages -= 1;
+            break;
+        }
+        case FreePages_e:
+        {
+            bool found = false;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == ReqPages_e && c.ReqPages.ret == m.FreePages.ptr)
+                {
+                    if (c.ReqPages.pages != m.FreePages.pages)
+                        printf("FreePages( %#lx %lu )=%#lx~%#lx(%s) found in ReqPages but pages != %lu\n",
+                               m.FreePages.ptr, m.FreePages.pages, m.FreePages.caller, m.FreePages.caller, Symbols->GetSymbolFromAddress(m.FreePages.caller), c.ReqPages.pages);
+                    found = true;
+                    break;
+                }
+            }
+
+            if (!found)
+                printf("FreePages( %#lx %lu )=%#lx~%#lx(%s) not found in ReqPages\n",
+                       m.FreePages.ptr, m.FreePages.pages, m.FreePages.caller, m.FreePages.caller, Symbols->GetSymbolFromAddress(m.FreePages.caller));
+
+            AllocatedPages -= m.FreePages.pages;
+            break;
+        }
+        case malloc_e:
+        {
+            AllocatedMemory += m.malloc.size;
+            break;
+        }
+        case free_e:
+        {
+            bool found = false;
+            uint64_t size = 0;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == malloc_e && c.malloc.ret == m.free.ptr)
+                {
+                    found = true;
+                    size = c.malloc.size;
+                    break;
+                }
+            }
+
+            if (!found)
+                printf("free( %#lx )=%#lx~%#lx(%s) not found in malloc",
+                       m.free.ptr, m.free.caller, m.free.caller, Symbols->GetSymbolFromAddress(m.free.caller));
+
+            AllocatedMemory -= size;
+            break;
+        }
+        case new_e:
+        {
+            AllocatedMemory += m.new_.size;
+            break;
+        }
+        case new_array_e:
+        {
+            AllocatedMemory += m.new_array.size;
+            break;
+        }
+        case delete_e:
+        {
+            bool found = false;
+            uint64_t size = 0;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == new_e && c.new_.ret == m.delete_.ptr)
+                {
+                    found = true;
+                    size = c.new_.size;
+                    break;
+                }
+            }
+
+            if (!found)
+                printf("delete( %#lx )=%#lx~%#lx(%s) not found in new\n",
+                       m.delete_.ptr, m.delete_.caller, m.delete_.caller, Symbols->GetSymbolFromAddress(m.delete_.caller));
+
+            AllocatedMemory -= size;
+            break;
+        }
+        case delete_array_e:
+        {
+            bool found = false;
+            uint64_t size = 0;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == new_array_e && c.new_array.ret == m.delete_array.ptr)
+                {
+                    found = true;
+                    size = c.new_array.size;
+                    break;
+                }
+            }
+
+            if (!found)
+                printf("delete[]( %#lx )=%#lx~%#lx(%s) not found in new[]\n",
+                       m.delete_array.ptr, m.delete_array.caller, m.delete_array.caller, Symbols->GetSymbolFromAddress(m.delete_array.caller));
+
+            AllocatedMemory -= size;
+            break;
+        }
+        default:
+            break;
+        }
     }
 
     for (const auto &m : mem_collection_list)
@@ -530,61 +762,196 @@ void main_thread()
         switch (m.type)
         {
         case memset_e:
-            printf("memset( %#lx %#x %lu %#lx )=%#lx~%#lx(%s)\n",
-                   m.memset.dest, m.memset.val, m.memset.len, m.memset.slen,
-                   m.memset.ret, m.memset.caller, Symbols->GetSymbolFromAddress(m.memset.caller));
+        {
+            bool skip = false;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == rsv_e)
+                {
+                    if (c.rsv.ptr >= m.memset.dest && c.rsv.ptr + c.rsv.size < m.memset.dest + m.memset.len)
+                    {
+                        skip = true;
+                        break;
+                    }
+                }
+            }
+
+            if (skip)
+                break;
+
+            bool found = false;
+            bool invalid = false;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == new_e)
+                {
+                    if (c.new_.ret >= m.memset.dest)
+                    {
+                        found = true;
+                        if (c.new_.ret + c.new_.size < m.memset.dest + m.memset.len)
+                            invalid = true;
+                    }
+                    break;
+                }
+                else if (c.type == new_array_e)
+                {
+                    if (c.new_array.ret >= m.memset.dest)
+                    {
+                        found = true;
+                        if (c.new_array.ret + c.new_array.size < m.memset.dest + m.memset.len)
+                            invalid = true;
+                    }
+                    break;
+                }
+                else if (c.type == malloc_e)
+                {
+                    if (c.malloc.ret >= m.memset.dest)
+                    {
+                        found = true;
+                        if (c.malloc.ret + c.malloc.size < m.memset.dest + m.memset.len)
+                            invalid = true;
+                    }
+                    break;
+                }
+            }
+
+            if (!found)
+                printf("memset( %#lx %lu )=%#lx~%#lx(%s) not found in allocated memory\n",
+                       m.memset.dest, m.memset.len, m.memset.caller, m.memset.caller, Symbols->GetSymbolFromAddress(m.memset.caller));
+            else if (invalid)
+                printf("memset( %#lx %lu )=%#lx~%#lx(%s) found in allocated memory but is invalid\n",
+                       m.memset.dest, m.memset.len, m.memset.caller, m.memset.caller, Symbols->GetSymbolFromAddress(m.memset.caller));
             break;
+        }
         case memcpy_e:
-            printf("memcpy( %#lx %#lx %lu %#lx )=%#lx~%#lx(%s)\n",
-                   m.memcpy.dest, m.memcpy.src, m.memcpy.len, m.memcpy.slen,
-                   m.memcpy.ret, m.memcpy.caller, Symbols->GetSymbolFromAddress(m.memcpy.caller));
+        {
+            bool skip = false;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == rsv_e)
+                {
+                    if (c.rsv.ptr >= m.memset.dest && c.rsv.ptr + c.rsv.size < m.memset.dest + m.memset.len)
+                    {
+                        skip = true;
+                        break;
+                    }
+                }
+            }
+
+            if (skip)
+                break;
+
+            bool found = false;
+            bool invalid = false;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == new_e)
+                {
+                    if (c.new_.ret >= m.memcpy.dest)
+                    {
+                        found = true;
+                        if (c.new_.ret + c.new_.size < m.memcpy.dest + m.memcpy.len)
+                            invalid = true;
+                    }
+                    break;
+                }
+                else if (c.type == new_array_e)
+                {
+                    if (c.new_array.ret >= m.memcpy.dest)
+                    {
+                        found = true;
+                        if (c.new_array.ret + c.new_array.size < m.memcpy.dest + m.memcpy.len)
+                            invalid = true;
+                    }
+                    break;
+                }
+                else if (c.type == malloc_e)
+                {
+                    if (c.malloc.ret >= m.memcpy.dest)
+                    {
+                        found = true;
+                        if (c.malloc.ret + c.malloc.size < m.memcpy.dest + m.memcpy.len)
+                            invalid = true;
+                    }
+                    break;
+                }
+            }
+
+            if (!found)
+                printf("memcpy( %#lx %lu )=%#lx~%#lx(%s) not found in allocated memory\n",
+                       m.memcpy.dest, m.memcpy.len, m.memcpy.caller, m.memcpy.caller, Symbols->GetSymbolFromAddress(m.memcpy.caller));
+            else if (invalid)
+                printf("memcpy( %#lx %lu )=%#lx~%#lx(%s) found in allocated memory but is invalid\n",
+                       m.memcpy.dest, m.memcpy.len, m.memcpy.caller, m.memcpy.caller, Symbols->GetSymbolFromAddress(m.memcpy.caller));
             break;
+        }
         case memmove_e:
-            printf("memmove( %#lx %#lx %lu %#lx )=%#lx~%#lx(%s)\n",
-                   m.memmove.dest, m.memmove.src, m.memmove.len, m.memmove.slen,
-                   m.memmove.ret, m.memmove.caller, Symbols->GetSymbolFromAddress(m.memmove.caller));
+        {
+            bool skip = false;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == rsv_e)
+                {
+                    if (c.rsv.ptr >= m.memset.dest && c.rsv.ptr + c.rsv.size < m.memset.dest + m.memset.len)
+                    {
+                        skip = true;
+                        break;
+                    }
+                }
+            }
+
+            if (skip)
+                break;
+
+            bool found = false;
+            bool invalid = false;
+            for (const auto &c : mem_collection_list)
+            {
+                if (c.type == new_e)
+                {
+                    if (c.new_.ret >= m.memmove.dest)
+                    {
+                        found = true;
+                        if (c.new_.ret + c.new_.size < m.memmove.dest + m.memmove.len)
+                            invalid = true;
+                    }
+                    break;
+                }
+                else if (c.type == new_array_e)
+                {
+                    if (c.new_array.ret >= m.memmove.dest)
+                    {
+                        found = true;
+                        if (c.new_array.ret + c.new_array.size < m.memmove.dest + m.memmove.len)
+                            invalid = true;
+                    }
+                    break;
+                }
+                else if (c.type == malloc_e)
+                {
+                    if (c.malloc.ret >= m.memmove.dest)
+                    {
+                        found = true;
+                        if (c.malloc.ret + c.malloc.size < m.memmove.dest + m.memmove.len)
+                            invalid = true;
+                    }
+                    break;
+                }
+            }
+
+            if (!found)
+                printf("memmove( %#lx %lu )=%#lx~%#lx(%s) not found in allocated memory\n",
+                       m.memmove.dest, m.memmove.len, m.memmove.caller, m.memmove.caller, Symbols->GetSymbolFromAddress(m.memmove.caller));
+            else if (invalid)
+                printf("memmove( %#lx %lu )=%#lx~%#lx(%s) found in allocated memory but is invalid\n",
+                       m.memmove.dest, m.memmove.len, m.memmove.caller, m.memmove.caller, Symbols->GetSymbolFromAddress(m.memmove.caller));
             break;
-        case ReqPages_e:
-            printf("RequestPages( %lu )=%#lx~%#lx(%s)\n",
-                   m.ReqPages.pages, m.ReqPages.ret, m.ReqPages.caller, Symbols->GetSymbolFromAddress(m.ReqPages.caller));
-            break;
-        case FreePage_e:
-            printf("FreePage( %#lx )=%#lx~%#lx(%s)\n",
-                   m.FreePage.ptr, m.FreePage.caller, m.FreePage.caller, Symbols->GetSymbolFromAddress(m.FreePage.caller));
-            break;
-        case FreePages_e:
-            printf("FreePages( %#lx %lu )=%#lx~%#lx(%s)\n",
-                   m.FreePages.ptr, m.FreePages.pages, m.FreePages.caller, m.FreePages.caller, Symbols->GetSymbolFromAddress(m.FreePages.caller));
-            break;
-        case malloc_e:
-            printf("malloc( %lu )=%#lx~%#lx(%s)\n",
-                   m.malloc.size, m.malloc.ret, m.malloc.caller, Symbols->GetSymbolFromAddress(m.malloc.caller));
-            break;
-        case free_e:
-            printf("free( %#lx )=%#lx~%#lx(%s)\n",
-                   m.free.ptr, m.free.caller, m.free.caller, Symbols->GetSymbolFromAddress(m.free.caller));
-            break;
-        case new_e:
-            printf("new( %lu )=%#lx~%#lx(%s)\n",
-                   m.new_.size, m.new_.ret, m.new_.caller, Symbols->GetSymbolFromAddress(m.new_.caller));
-            break;
-        case new_array_e:
-            printf("new[]( %lu )=%#lx~%#lx(%s)\n",
-                   m.new_array.size, m.new_array.ret, m.new_array.caller, Symbols->GetSymbolFromAddress(m.new_array.caller));
-            break;
-        case delete_e:
-            printf("delete( %#lx %lu )=%#lx~%#lx(%s)\n",
-                   m.delete_.ptr, m.delete_.size, m.delete_.caller, m.delete_.caller, Symbols->GetSymbolFromAddress(m.delete_.caller));
-            break;
-        case delete_array_e:
-            printf("delete[]( %#lx )=%#lx~%#lx(%s)\n",
-                   m.delete_array.ptr, m.delete_array.caller, m.delete_array.caller, Symbols->GetSymbolFromAddress(m.delete_array.caller));
-            break;
+        }
         default:
-            printf("unknown type %d\n", m.type);
             break;
         }
     }
+
     return;
 }
 
