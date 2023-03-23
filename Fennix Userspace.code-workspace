@@ -18,7 +18,11 @@
 			"syslib.h": "c",
 			"sysfile.h": "c",
 			"ipc.h": "c",
-			"sysbase.h": "c"
+			"sysbase.h": "c",
+			"inttypes.h": "c",
+			"doomkeys.h": "c",
+			"doomgeneric.h": "c",
+			"elf.h": "c"
 		},
 		"cSpell.words": [
 			"auxv",

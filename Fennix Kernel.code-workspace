@@ -26,7 +26,9 @@
 			"kernel.h": "c",
 			"filesystem.hpp": "c",
 			"vector.hpp": "c",
-			"string.hpp": "c"
+			"string.hpp": "c",
+			"nc.hpp": "c",
+			"vector": "c"
 		},
 		"cSpell.words": [
 			"AABBCC",
@@ -34,6 +36,7 @@
 			"AAFFAA",
 			"ABIVERSION",
 			"ABSPOINTER",
+			"ACPI",
 			"ACPINVS",
 			"addralign",
 			"AFAFAF",
@@ -206,6 +209,7 @@
 			"OSFXSR",
 			"OSXMMEXCPT",
 			"OSXSAVE",
+			"Outof",
 			"outportb",
 			"outportl",
 			"outportw",
@@ -336,6 +340,7 @@
 			"xgetbv",
 			"Xmemcpy",
 			"Xmemset",
+			"XSDT",
 			"Xsize",
 			"XSLC",
 			"XSLF",
