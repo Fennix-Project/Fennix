@@ -56,5 +56,5 @@ var classGraphicalUserInterface_1_1Window =
     [ "ParentGUI", "d2/d89/classGraphicalUserInterface_1_1Window.html#a6d851bae086cb5b81b2e343a4ca9ff06", null ],
     [ "Position", "d2/d89/classGraphicalUserInterface_1_1Window.html#a66e622106f9c552202b586718205ded8", null ],
     [ "Title", "d2/d89/classGraphicalUserInterface_1_1Window.html#abb301c27d6f8ba62ba5f4402b8ca789a", null ],
-    [ "Widgets", "d2/d89/classGraphicalUserInterface_1_1Window.html#affe31540f4d7e47df1f74869ca1cf7b8", null ]
+    [ "Widgets", "d2/d89/classGraphicalUserInterface_1_1Window.html#a8f70dd16dcdde5df89e2a8b9b7ca632a", null ]
 ];

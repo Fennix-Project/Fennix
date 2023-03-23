@@ -11,5 +11,5 @@ var InterruptsManager_8cpp =
     [ "MainInterruptHandler", "d0/d8d/InterruptsManager_8cpp.html#a605ca83a60ddc47b3d74ab7aea2877a0", null ],
     [ "RemoveAll", "d0/d8d/InterruptsManager_8cpp.html#a1f0ee2cbdae01f701d9a83efe503efc3", null ],
     [ "InterruptFrames", "d0/d8d/InterruptsManager_8cpp.html#af1d11abba0d09e297052a3bf31515123", null ],
-    [ "RegisteredEvents", "d0/d8d/InterruptsManager_8cpp.html#a020f8c63277f96ec2fd08bc33e64ae28", null ]
+    [ "RegisteredEvents", "d0/d8d/InterruptsManager_8cpp.html#afcc4bd09a12169b61eb540c3bc165225", null ]
 ];

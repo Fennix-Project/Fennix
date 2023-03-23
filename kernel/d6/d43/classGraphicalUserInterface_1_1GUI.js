@@ -27,6 +27,6 @@ var classGraphicalUserInterface_1_1GUI =
     [ "OverlayBuffer", "d6/d43/classGraphicalUserInterface_1_1GUI.html#a20503213a25b0ba6f488d347ad6c2900", null ],
     [ "OverlayBufferRepaint", "d6/d43/classGraphicalUserInterface_1_1GUI.html#ac02ad0d414b3ece06a08bb9eae8c7e3c", null ],
     [ "OverlayFullRepaint", "d6/d43/classGraphicalUserInterface_1_1GUI.html#a830da79287278a05a80f32be5434ca81", null ],
-    [ "Widgets", "d6/d43/classGraphicalUserInterface_1_1GUI.html#a626e953b927284ab82bec528a6e56fed", null ],
-    [ "Windows", "d6/d43/classGraphicalUserInterface_1_1GUI.html#a8579b992551c274507e5ce1f1f618447", null ]
+    [ "Widgets", "d6/d43/classGraphicalUserInterface_1_1GUI.html#a84e451ac73b2aa2da010fd002a3b303e", null ],
+    [ "Windows", "d6/d43/classGraphicalUserInterface_1_1GUI.html#ae22f2ffe3ac9c5fdc37ea846ecf4d8de", null ]
 ];

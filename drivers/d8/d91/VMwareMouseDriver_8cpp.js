@@ -58,6 +58,7 @@ var VMwareMouseDriver_8cpp =
     [ "CommandSend", "d8/d91/VMwareMouseDriver_8cpp.html#aac4f0ef80571a93befe42fa4415d792c", null ],
     [ "DriverEntry", "d8/d91/VMwareMouseDriver_8cpp.html#a56474bd9ccbe42a82994dd3415226f38", null ],
     [ "HEAD", "d8/d91/VMwareMouseDriver_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc", null ],
+    [ "InterruptCallback", "d8/d91/VMwareMouseDriver_8cpp.html#a19e1c27c2f987931f74d5e5ef9ca9f72", null ],
     [ "IsVMwareBackdoorAvailable", "d8/d91/VMwareMouseDriver_8cpp.html#a7f4440c6618bc016af5a3415c8270770", null ],
     [ "Read", "d8/d91/VMwareMouseDriver_8cpp.html#a19c8f73dff12cc9d6d0de39fdac2957a", null ],
     [ "Relative", "d8/d91/VMwareMouseDriver_8cpp.html#a25010b5167722ded7bac9183335d021e", null ],

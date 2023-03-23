@@ -11,7 +11,7 @@ var classNetworkInterfaceManager_1_1NetworkInterface =
     [ "StartService", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a4cc2d210a86c53e066fddaeaabf323bc", null ],
     [ "StopNetworkStack", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#adb8ef1e074d096045566a8196f4f4553", null ],
     [ "CardIDs", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#afdb16c07c56cf8731e568e9c34927883", null ],
-    [ "Interfaces", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a55877914c581cc03f64dece7360987c8", null ],
+    [ "Interfaces", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a74a00ce1de488e58c5788e41ce5e0021", null ],
     [ "mem", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a35f971fc850c4280623d566b1c9a9497", null ],
     [ "NetSvcThread", "d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a08c6574fca685930ddfde88b27946d78", null ]
 ];

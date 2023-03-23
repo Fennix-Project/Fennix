@@ -1,9 +1,14 @@
 var searchData=
 [
-  ['selectorerrorcode_10460',['SelectorErrorCode',['../d9/d25/namespaceCPU_1_1x64.html#aca18081f834ac01ea5fe9d9d5a0d6c4b',1,'CPU::x64']]],
-  ['short_10461',['SHORT',['../de/d63/msexec_8h.html#a9909bd3cf05f0906045f2ee85be4eeac',1,'msexec.h']]],
-  ['sig_5fatomic_5ft_10462',['sig_atomic_t',['../d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086',1,'types.h']]],
-  ['size_5ft_10463',['size_t',['../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd',1,'std::size_t()'],['../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;types.h'],['../d3/dde/Lynx_2UEFI_2src_2bitmap_8hpp.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;bitmap.hpp'],['../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;cxxabi.cpp'],['../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;liballoc_1_1.h'],['../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;memory.hpp'],['../d2/d68/Lynx_2UEFI_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;types.h'],['../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;stddef.h'],['../df/d19/Userspace_2libc_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e',1,'size_t():&#160;types.h']]],
-  ['ssize_5ft_10464',['ssize_t',['../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48',1,'types.h']]],
-  ['syscallsframe_10465',['SyscallsFrame',['../d0/d35/syscalls_8hpp.html#ae3eba6ae374107fe85270814b522dfc8',1,'syscalls.hpp']]]
+  ['off64_5ft_31787',['off64_t',['../dc/dcd/off__t_8h.html#aa659ba0becf17a54a9b0d819a57ca776',1,'off_t.h']]],
+  ['off_5ft_31788',['off_t',['../dc/dcd/off__t_8h.html#af83497edef361523a95b06deda0b4c2d',1,'off_t.h']]],
+  ['operationclose_31789',['OperationClose',['../d5/da1/namespaceVirtualFileSystem.html#a8c746fc2aa5630d9c5c43b9a83933500',1,'VirtualFileSystem']]],
+  ['operationcreate_31790',['OperationCreate',['../d5/da1/namespaceVirtualFileSystem.html#adc08a8cc040d568d927bf0121aa68d7e',1,'VirtualFileSystem']]],
+  ['operationmkdir_31791',['OperationMkdir',['../d5/da1/namespaceVirtualFileSystem.html#a7d40e8e2835e0750d96dac4678caa68b',1,'VirtualFileSystem']]],
+  ['operationmount_31792',['OperationMount',['../d5/da1/namespaceVirtualFileSystem.html#ae226e9507b51c909b110ad3637de1e51',1,'VirtualFileSystem']]],
+  ['operationopen_31793',['OperationOpen',['../d5/da1/namespaceVirtualFileSystem.html#acf54285307ce50e428033f1f6084caff',1,'VirtualFileSystem']]],
+  ['operationread_31794',['OperationRead',['../d5/da1/namespaceVirtualFileSystem.html#ab4fcf402b68afbee61ddf9c43cdc6c58',1,'VirtualFileSystem']]],
+  ['operationsync_31795',['OperationSync',['../d5/da1/namespaceVirtualFileSystem.html#a85a09540c85179b8c41d6520a8aeeaf8',1,'VirtualFileSystem']]],
+  ['operationumount_31796',['OperationUmount',['../d5/da1/namespaceVirtualFileSystem.html#a1c88a056f49fe6e1616e755bf63708c0',1,'VirtualFileSystem']]],
+  ['operationwrite_31797',['OperationWrite',['../d5/da1/namespaceVirtualFileSystem.html#a46008b5dd3bd92f927a8b42dcde83124',1,'VirtualFileSystem']]]
 ];

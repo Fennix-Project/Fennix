@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('d8/d7b/aux_8h_source.html','../../'); 
 <a href="../../d8/d7b/aux_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __FENNIX_LIBC_AUX_H__</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __FENNIX_LIBC_AUX_H__</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/d19/Userspace_2libc_2include_2types_8h.html">types.h</a>&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d4/d31/Userspace_2mlibc_2options_2posix_2include_2sys_2types_8h.html">types.h</a>&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d8/d7b/aux_8h.html#aa893f7231479240d49c660c5649cac5b">    6</a></span>&#160;<span class="preprocessor">#define AT_NULL 0</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d8/d7b/aux_8h.html#ab11dfd4fb71c15a128c3f70a310b53d1">    7</a></span>&#160;<span class="preprocessor">#define AT_IGNORE 1</span></div>
@@ -135,17 +135,17 @@ $(document).ready(function(){initNavTree('d8/d7b/aux_8h_source.html','../../'); 
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d8/d7b/aux_8h.html#a718e9da507aeab4eaff05dfd77214d19">   47</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d8/d7b/aux_8h.html#a718e9da507aeab4eaff05dfd77214d19">a_type</a>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="../../d8/d7b/aux_8h.html">   48</a></span>&#160;    <span class="keyword">union</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a718e9da507aeab4eaff05dfd77214d19">   47</a></span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a718e9da507aeab4eaff05dfd77214d19">a_type</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keyword">union</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> a_val;</div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d8/d7b/aux_8h.html#aa0d60672a48641bd3be07e9317342b59">   51</a></span>&#160;    } a_un;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;} <a class="code" href="../../d8/d7b/aux_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aaa0774f67e201b03630d66f69d4680f2">   51</a></span>&#160;    } a_un;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;} <a class="code" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a>;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_LIBC_AUX_H__</span></div>
-<div class="ttc" id="aUserspace_2libc_2include_2types_8h_html"><div class="ttname"><a href="../../df/d19/Userspace_2libc_2include_2types_8h.html">types.h</a></div></div>
-<div class="ttc" id="aaux_8h_html_a718e9da507aeab4eaff05dfd77214d19"><div class="ttname"><a href="../../d8/d7b/aux_8h.html#a718e9da507aeab4eaff05dfd77214d19">Elf64_auxv_t::a_type</a></div><div class="ttdeci">unsigned long a_type</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7b/aux_8h_source.html#l00047">aux.h:47</a></div></div>
-<div class="ttc" id="aaux_8h_html_d9/de7/structElf64__auxv__t"><div class="ttname"><a href="../../d8/d7b/aux_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d31/abi_8h_source.html#l00054">abi.h:55</a></div></div>
+<div class="ttc" id="aUserspace_2mlibc_2options_2elf_2include_2elf_8h_html_a718e9da507aeab4eaff05dfd77214d19"><div class="ttname"><a href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a718e9da507aeab4eaff05dfd77214d19">Elf64_auxv_t::a_type</a></div><div class="ttdeci">unsigned long a_type</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7b/aux_8h_source.html#l00047">aux.h:47</a></div></div>
+<div class="ttc" id="aUserspace_2mlibc_2options_2elf_2include_2elf_8h_html_d9/de7/structElf64__auxv__t"><div class="ttname"><a href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d31/abi_8h_source.html#l00054">abi.h:55</a></div></div>
+<div class="ttc" id="aUserspace_2mlibc_2options_2posix_2include_2sys_2types_8h_html"><div class="ttname"><a href="../../d4/d31/Userspace_2mlibc_2options_2posix_2include_2sys_2types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

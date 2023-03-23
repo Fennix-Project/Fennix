@@ -14,6 +14,7 @@ var syscalls_8h =
       [ "_FileWrite", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaee6aec2259a35613db3755d03491b161", null ],
       [ "_FileSeek", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaf4f6c0bd4af843e6fcf8bcd125467b82", null ],
       [ "_FileStatus", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea6d8c268464de46fda67d6a95a6685a24", null ],
+      [ "_Sleep", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaeed38220f1208e2f1e9b347eba917cf4", null ],
       [ "_Wait", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea8ca643184172402d7a546b0bb5219768", null ],
       [ "_Kill", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaf97783fd510ef8dd0f302ff522d6320e", null ],
       [ "_Spawn", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea9fe301d0bfb3a0e53c86544b006c8eb5", null ],

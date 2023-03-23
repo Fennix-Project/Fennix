@@ -96,17 +96,17 @@ $(document).ready(function(){initNavTree('d2/d58/structKAPIUtilities.html','../.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
-<tr class="memitem:a23f0f53e822ee5c58770ecb6839fb224"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d58/structKAPIUtilities.html#a23f0f53e822ee5c58770ecb6839fb224">DebugPrint</a> )(char *<a class="el" href="../../d3/dee/classString.html">String</a>, unsigned long DriverUID)</td></tr>
+<tr class="memitem:a23f0f53e822ee5c58770ecb6839fb224"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d58/structKAPIUtilities.html#a23f0f53e822ee5c58770ecb6839fb224">DebugPrint</a> )(char *String, unsigned long DriverUID)</td></tr>
 <tr class="separator:a23f0f53e822ee5c58770ecb6839fb224"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65fcd69903d39703bc577d5f6038e513"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d58/structKAPIUtilities.html#a65fcd69903d39703bc577d5f6038e513">DisplayPrint</a> )(char *Value)</td></tr>
+<tr class="memitem:a65fcd69903d39703bc577d5f6038e513"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d58/structKAPIUtilities.html#a65fcd69903d39703bc577d5f6038e513">DisplayPrint</a> )(char *<a class="el" href="../../d9/df3/structValue.html">Value</a>)</td></tr>
 <tr class="separator:a65fcd69903d39703bc577d5f6038e513"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dd50a46f8ea0cc0685cab923b4dbb29"><td class="memItemLeft" align="right" valign="top">void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d58/structKAPIUtilities.html#a1dd50a46f8ea0cc0685cab923b4dbb29">memcpy</a> )(void *Destination, void *Source, unsigned long <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
 <tr class="separator:a1dd50a46f8ea0cc0685cab923b4dbb29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a335318a33694f2a441a352a260781b54"><td class="memItemLeft" align="right" valign="top">void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d58/structKAPIUtilities.html#a335318a33694f2a441a352a260781b54">memset</a> )(void *Destination, int Value, unsigned long <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="memitem:a335318a33694f2a441a352a260781b54"><td class="memItemLeft" align="right" valign="top">void *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d58/structKAPIUtilities.html#a335318a33694f2a441a352a260781b54">memset</a> )(void *Destination, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d9/df3/structValue.html">Value</a>, unsigned long <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
 <tr class="separator:a335318a33694f2a441a352a260781b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad79610fc7b733cb0133267b77d2d54dc"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d58/structKAPIUtilities.html#ad79610fc7b733cb0133267b77d2d54dc">Sleep</a> )(unsigned long Milliseconds)</td></tr>
 <tr class="separator:ad79610fc7b733cb0133267b77d2d54dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad421c573f3326f4ce2d8d7322ff7abfc"><td class="memItemLeft" align="right" valign="top">int(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d58/structKAPIUtilities.html#ad421c573f3326f4ce2d8d7322ff7abfc">sprintf</a> )(char *Buffer, const char *Format,...)</td></tr>
+<tr class="memitem:ad421c573f3326f4ce2d8d7322ff7abfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d58/structKAPIUtilities.html#ad421c573f3326f4ce2d8d7322ff7abfc">sprintf</a> )(char *Buffer, const char *Format,...)</td></tr>
 <tr class="separator:ad421c573f3326f4ce2d8d7322ff7abfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -120,7 +120,7 @@ Data Fields</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* KAPIUtilities::DebugPrint) (char *<a class="el" href="../../d3/dee/classString.html">String</a>, unsigned long DriverUID)</td>
+          <td class="memname">void(* KAPIUtilities::DebugPrint) (char *String, unsigned long DriverUID)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -136,7 +136,7 @@ Data Fields</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void(* KAPIUtilities::DisplayPrint) (char *Value)</td>
+          <td class="memname">void(* KAPIUtilities::DisplayPrint) (char *<a class="el" href="../../d9/df3/structValue.html">Value</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -168,7 +168,7 @@ Data Fields</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void*(* KAPIUtilities::memset) (void *Destination, int Value, unsigned long <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td>
+          <td class="memname">void*(* KAPIUtilities::memset) (void *Destination, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d9/df3/structValue.html">Value</a>, unsigned long <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -200,7 +200,7 @@ Data Fields</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int(* KAPIUtilities::sprintf) (char *Buffer, const char *Format,...)</td>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>(* KAPIUtilities::sprintf) (char *Buffer, const char *Format,...)</td>
         </tr>
       </table>
 </div><div class="memdoc">

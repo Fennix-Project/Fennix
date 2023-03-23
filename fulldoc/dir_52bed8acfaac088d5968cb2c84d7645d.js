@@ -15,7 +15,7 @@ var dir_52bed8acfaac088d5968cb2c84d7645d =
     [ "Tests", "dir_c7f4f5a375e65f66315ad25d3c4f8be1.html", "dir_c7f4f5a375e65f66315ad25d3c4f8be1" ],
     [ "DAPI.hpp", "d3/dfe/DAPI_8hpp.html", "d3/dfe/DAPI_8hpp" ],
     [ "Fex.hpp", "d0/da5/Fex_8hpp.html", "d0/da5/Fex_8hpp" ],
-    [ "ipc.h", "d9/d24/ipc_8h.html", "d9/d24/ipc_8h" ],
+    [ "ipc.h", "dd/dcb/Kernel_2ipc_8h.html", "dd/dcb/Kernel_2ipc_8h" ],
     [ "KConfig.cpp", "d3/d81/KConfig_8cpp.html", "d3/d81/KConfig_8cpp" ],
     [ "Kernel.cpp", "d2/d00/Kernel_8cpp.html", "d2/d00/Kernel_8cpp" ],
     [ "kernel.h", "d0/daa/kernel_8h.html", "d0/daa/kernel_8h" ],

@@ -14,14 +14,19 @@ var exec_8hpp =
       [ "Timeout", "d5/d27/namespaceExecute.html#af442344926fbb7a1470094a9afde6944", null ]
     ] ],
     [ "ELFBaseLoad", "d5/d27/namespaceExecute.html#d4/df8/structExecute_1_1ELFBaseLoad", [
-      [ "auxv", "d5/d27/namespaceExecute.html#a4fe913152e063508d4820a903ac71cc6", null ],
+      [ "auxv", "d5/d27/namespaceExecute.html#a96f8b25e697a65fbffb1591110165423", null ],
       [ "InstructionPointer", "d5/d27/namespaceExecute.html#afd8254ca4784518379728a8d0781a8b3", null ],
       [ "Interpreter", "d5/d27/namespaceExecute.html#a006a13b65906817fc572fe2e4cc62489", null ],
       [ "MemoryImage", "d5/d27/namespaceExecute.html#a5a336e125f54d49f707583d356d42bc2", null ],
-      [ "NeededLibraries", "d5/d27/namespaceExecute.html#aa0dd6d29e397f30c48c70c7bf4278246", null ],
+      [ "NeededLibraries", "d5/d27/namespaceExecute.html#a3db89ea30ee26905fe558ac01d394fa9", null ],
       [ "sd", "d5/d27/namespaceExecute.html#aa86bf02adf6d8fd930c3cc9d3782a2e8", null ],
       [ "Success", "d5/d27/namespaceExecute.html#ac69ae3cc816d5ff2524749780b906a2d", null ],
-      [ "TmpMem", "d5/d27/namespaceExecute.html#a5ddfaf90281c235ef71e9c2802e4f846", null ]
+      [ "TmpMem", "d5/d27/namespaceExecute.html#a5ddfaf90281c235ef71e9c2802e4f846", null ],
+      [ "VirtualMemoryImage", "d5/d27/namespaceExecute.html#a2b14a6e6fc49c7943a837f798c4ec394", null ]
+    ] ],
+    [ "MmImage", "d5/d27/namespaceExecute.html#dd/dcb/structExecute_1_1MmImage", [
+      [ "Phyiscal", "d5/d27/namespaceExecute.html#ab7f4962f7e22edb48b1ceff39c30765f", null ],
+      [ "Virtual", "d5/d27/namespaceExecute.html#ab374da346ca4c834191b71f594bd2598", null ]
     ] ],
     [ "BinaryType", "d2/d83/exec_8hpp.html#ad34702895af4c39542a1b5e0e75bbfbd", [
       [ "BinTypeInvalid", "d2/d83/exec_8hpp.html#ad34702895af4c39542a1b5e0e75bbfbdae36f6938ddfbfbfe38fa6cf384fb6d19", null ],
@@ -45,7 +50,7 @@ var exec_8hpp =
       [ "InvalidFilePath", "d2/d83/exec_8hpp.html#a282102d37805166b07bb40a352ebb424a868b4989770a47e5d2982b7cec8c24c3", null ]
     ] ],
     [ "AddLibrary", "d2/d83/exec_8hpp.html#a22deb6e14e14b82a4aaaf6d4d83cf94c", null ],
-    [ "ELFCreateMemoryImage", "d2/d83/exec_8hpp.html#a3225e0fb995a52f5e4ff9ab1d4d40f70", null ],
+    [ "ELFCreateMemoryImage", "d2/d83/exec_8hpp.html#a509b5c10d741719e8f06486c35fca91c", null ],
     [ "ELFGetDynamicTag", "d2/d83/exec_8hpp.html#a3379ae6c774083ff08fe121ff0be174e", null ],
     [ "ELFGetSymbolValue", "d2/d83/exec_8hpp.html#ab90293c663674036e5f1f8f7bfdb5624", null ],
     [ "ELFLoad", "d2/d83/exec_8hpp.html#aed3e9a6488bac2a26b603386d6860bb2", null ],

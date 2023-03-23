@@ -1,4 +1,11 @@
 var searchData=
 [
-  ['va_5flist_10491',['va_list',['../d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1',1,'va_list():&#160;types.h'],['../d1/d2d/stdarg_8h.html#af53f622e3b6c080daeb167c1955d7ec1',1,'va_list():&#160;stdarg.h']]]
+  ['recursivefutexlock_31836',['RecursiveFutexLock',['../d9/d51/Userspace_2mlibc_2options_2internal_2include_2mlibc_2lock_8hpp.html#a73fcf0fdc166adc04046e399673433f4',1,'lock.hpp']]],
+  ['reg_5ferrcode_5ft_31837',['reg_errcode_t',['../db/d0a/tre_8h.html#abf849189d5c29698b3ae011c5c33f6a2',1,'tre.h']]],
+  ['regex_5ft_31838',['regex_t',['../d1/d21/regex_8h.html#a159f97bcead74ee31a0817571f7625a9',1,'regex.h']]],
+  ['regoff_5ft_31839',['regoff_t',['../d1/d21/regex_8h.html#a4abd4d1fef6d236c8e12d2afce56c212',1,'regex.h']]],
+  ['remove_5freference_5ft_31840',['remove_reference_t',['../d8/dcc/namespacestd.html#a1de5d405966c0d4f9d72f2c89f82c960',1,'std']]],
+  ['res_5fstate_31841',['res_state',['../d2/d62/resolv_8h.html#a24847dab9ec381774c3b4d103f24d003',1,'resolv.h']]],
+  ['resolveflags_31842',['ResolveFlags',['../df/d8d/structScope.html#a3a4fc0ea38f4c26aa25e04c81fae6141',1,'Scope']]],
+  ['rlim_5ft_31843',['rlim_t',['../db/d91/options_2posix_2include_2sys_2resource_8h.html#a1fdd908a459a3857bf74ed29fed9defa',1,'resource.h']]]
 ];

@@ -13,7 +13,7 @@ var classInterProcessCommunication_1_1IPC =
     [ "SearchByToken", "df/d7e/classInterProcessCommunication_1_1IPC.html#a74a4092a4f824ec8450011e7864a47df", null ],
     [ "Wait", "df/d7e/classInterProcessCommunication_1_1IPC.html#ad075ac6c9f6fa81605e9dddb2dd4dca6", null ],
     [ "Write", "df/d7e/classInterProcessCommunication_1_1IPC.html#a17349269150017538bd2c2a7818d45a3", null ],
-    [ "Handles", "df/d7e/classInterProcessCommunication_1_1IPC.html#a5c99cab3f1206c667a456ac88ab8aa97", null ],
+    [ "Handles", "df/d7e/classInterProcessCommunication_1_1IPC.html#a87203006561c4dd54d6b7fed3ad63849", null ],
     [ "IPCNode", "df/d7e/classInterProcessCommunication_1_1IPC.html#a2482eb0d991dffef95444c23635a824b", null ],
     [ "mem", "df/d7e/classInterProcessCommunication_1_1IPC.html#acebf6a5d17fb1e5ae208ff2ba502000b", null ],
     [ "NextID", "df/d7e/classInterProcessCommunication_1_1IPC.html#aede6bcfc538a9cdf4fca26e92c34446b", null ],

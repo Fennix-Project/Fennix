@@ -1,12 +1,19 @@
 var searchData=
 [
-  ['operationclose_10427',['OperationClose',['../d5/da1/namespaceVirtualFileSystem.html#a8c746fc2aa5630d9c5c43b9a83933500',1,'VirtualFileSystem']]],
-  ['operationcreate_10428',['OperationCreate',['../d5/da1/namespaceVirtualFileSystem.html#adc08a8cc040d568d927bf0121aa68d7e',1,'VirtualFileSystem']]],
-  ['operationmkdir_10429',['OperationMkdir',['../d5/da1/namespaceVirtualFileSystem.html#a7d40e8e2835e0750d96dac4678caa68b',1,'VirtualFileSystem']]],
-  ['operationmount_10430',['OperationMount',['../d5/da1/namespaceVirtualFileSystem.html#ae226e9507b51c909b110ad3637de1e51',1,'VirtualFileSystem']]],
-  ['operationopen_10431',['OperationOpen',['../d5/da1/namespaceVirtualFileSystem.html#acf54285307ce50e428033f1f6084caff',1,'VirtualFileSystem']]],
-  ['operationread_10432',['OperationRead',['../d5/da1/namespaceVirtualFileSystem.html#ab4fcf402b68afbee61ddf9c43cdc6c58',1,'VirtualFileSystem']]],
-  ['operationsync_10433',['OperationSync',['../d5/da1/namespaceVirtualFileSystem.html#a85a09540c85179b8c41d6520a8aeeaf8',1,'VirtualFileSystem']]],
-  ['operationumount_10434',['OperationUmount',['../d5/da1/namespaceVirtualFileSystem.html#a1c88a056f49fe6e1616e755bf63708c0',1,'VirtualFileSystem']]],
-  ['operationwrite_10435',['OperationWrite',['../d5/da1/namespaceVirtualFileSystem.html#a46008b5dd3bd92f927a8b42dcde83124',1,'VirtualFileSystem']]]
+  ['lemon_5fdirent_5ft_31744',['lemon_dirent_t',['../d0/d9a/namespacemlibc.html#aaebb36997460809b57816796452d09bf',1,'mlibc']]],
+  ['lighttable_5ft_31745',['lighttable_t',['../dd/d76/r__defs_8h.html#a38aef12c7af665685dd04cc8e3b1b136',1,'r_defs.h']]],
+  ['line_5ft_31746',['line_t',['../dd/d76/r__defs_8h.html#ad2c8a394d032dae8098e54466eb60dcf',1,'r_defs.h']]],
+  ['load_5fcallback_5ft_31747',['load_callback_t',['../d9/d28/st__stuff_8c.html#a69036adc8fe208e9871506a9bd1f93dc',1,'load_callback_t():&#160;st_stuff.c'],['../d6/d23/wi__stuff_8c.html#a69036adc8fe208e9871506a9bd1f93dc',1,'load_callback_t():&#160;wi_stuff.c']]],
+  ['locale_5ft_31748',['locale_t',['../d7/df9/locale__t_8h.html#aa1f5af873d05619cbcf7901e194b292c',1,'locale_t.h']]],
+  ['loff_5ft_31749',['loff_t',['../d4/d31/Userspace_2mlibc_2options_2posix_2include_2sys_2types_8h.html#a358fe73c03851f1586940bef59266ad7',1,'types.h']]],
+  ['long_31750',['LONG',['../de/d63/msexec_8h.html#a2a3e0cda5f1249bef6db47c5eb8e3813',1,'msexec.h']]],
+  ['lpbool_31751',['LPBOOL',['../de/d63/msexec_8h.html#abe1b03468472e97114e318c5953d0344',1,'msexec.h']]],
+  ['lpbyte_31752',['LPBYTE',['../de/d63/msexec_8h.html#a3ce29ee9290ff1be368b5a134f651f9f',1,'msexec.h']]],
+  ['lpcvoid_31753',['LPCVOID',['../de/d63/msexec_8h.html#ad67e5812bce3ae238981bb58dfdca76c',1,'msexec.h']]],
+  ['lpdword_31754',['LPDWORD',['../de/d63/msexec_8h.html#af8b504ec9b782e4344952d8518c69f4d',1,'msexec.h']]],
+  ['lpint_31755',['LPINT',['../de/d63/msexec_8h.html#aa180ccfc9ed99261841afe0d39b2d1e6',1,'msexec.h']]],
+  ['lplong_31756',['LPLONG',['../de/d63/msexec_8h.html#a0a136d01e1de4d8d60f927560bc2c3a3',1,'msexec.h']]],
+  ['lpvoid_31757',['LPVOID',['../de/d63/msexec_8h.html#a0b08b48703a7fd44bb06310932309c85',1,'msexec.h']]],
+  ['lpword_31758',['LPWORD',['../de/d63/msexec_8h.html#a97cb1b47c609954b545155b66fd468f5',1,'msexec.h']]],
+  ['lumpinfo_5ft_31759',['lumpinfo_t',['../d3/d0c/w__wad_8h.html#a18a38f805d0be1641ebaa9f13e770c69',1,'w_wad.h']]]
 ];

@@ -71,11 +71,11 @@ var classGraphicalUserInterface_1_1WidgetCollection =
     [ "ReplaceFont", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a4d1ea7eaef1a3ba6c151a5c8f32b5796", null ],
     [ "SetText", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a29a713215af500ffb082ee8583f3d97e", null ],
     [ "Buffer", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a980a46c4b7d1744d042ed2e2b4d1a435", null ],
-    [ "Buttons", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ab9f7bc14153729e34a4f8bca0bf4f0fc", null ],
+    [ "Buttons", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a4e482743836920a323a9bfbec314c504", null ],
     [ "CurrentFont", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ab1b5bcdd406836024d3f4a3eff1bcf39", null ],
-    [ "Labels", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ad4efa7c8ea3a3456b1d4593ed70bd6fc", null ],
+    [ "Labels", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a364e4a7a75981e236231aa4a7e0002f9", null ],
     [ "mem", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a5bf5f2a737f351bc6198f6df9ef4d250", null ],
     [ "NeedRedraw", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a83143b844df27cbd5a615fff64cdeaab", null ],
-    [ "Panels", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#af4f8e2ffc0c572ff86faff79db6e1890", null ],
+    [ "Panels", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a5041f73c6eda563c47ea3285d119452d", null ],
     [ "ParentWindow", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a5a48cf3015b7e7821cbee66c8ad6d161", null ]
 ];

@@ -1,14 +1,16 @@
 var aux_8h =
 [
-    [ "Elf64_auxv_t", "d8/d7b/aux_8h.html#d9/de7/structElf64__auxv__t", [
-      [ "a_type", "d8/d7b/aux_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
-      [ "a_type", "d8/d7b/aux_8h.html#a718e9da507aeab4eaff05dfd77214d19", null ],
-      [ "a_un", "d8/d7b/aux_8h.html#a3c719bc681e9e2e36e2c7bd9def4b144", null ],
-      [ "a_un", "d8/d7b/aux_8h.html#aa0d60672a48641bd3be07e9317342b59", null ]
+    [ "Elf64_auxv_t", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d9/de7/structElf64__auxv__t", [
+      [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
+      [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a718e9da507aeab4eaff05dfd77214d19", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#acb5051ed573fb3f5e8d7b56055a84e7b", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aaa0774f67e201b03630d66f69d4680f2", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a8db648ff5e16a9e19b51bfba4a7006a1", null ]
     ] ],
-    [ "Elf64_auxv_t.a_un", "d8/d7b/aux_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
-      [ "a_val", "d8/d7b/aux_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
-      [ "a_val", "d8/d7b/aux_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
+    [ "Elf64_auxv_t.a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
+      [ "a_val", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
+      [ "a_val", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
+      [ "a_val", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],
     [ "AT_BASE", "d8/d7b/aux_8h.html#a9b8e51a44a47d7ea827c570ffdca14e5", null ],
     [ "AT_BASE_PLATFORM", "d8/d7b/aux_8h.html#a022fe4e60c7df4b03f25bd5df848f559", null ],

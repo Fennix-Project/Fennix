@@ -1,5 +1,6 @@
 var amd64_2cpu_2GlobalDescriptorTable_8cpp =
 [
+    [ "GetKernelStack", "d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp.html#ab8fe0c39e450d238fcbba11a60791922", null ],
     [ "Init", "d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp.html#a621904c3d40203fc46b2a4aaa77774cc", null ],
     [ "SetKernelStack", "d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp.html#af44df44be911e3d57e2faf23148d32f8", null ],
     [ "gdt", "d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp.html#aedb1fa5caf696d1d3931c6cbd16314da", null ],

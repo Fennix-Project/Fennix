@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['numeric_5fbase_5ft_10426',['numeric_base_t',['../df/d7f/Kernel_2Library_2printf_8c.html#ac78b37a9c20028d552e74454f76bfd51',1,'numeric_base_t():&#160;printf.c'],['../d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#ac78b37a9c20028d552e74454f76bfd51',1,'numeric_base_t():&#160;printf.c'],['../de/d45/Userspace_2libc_2src_2print_2printf_8c.html#ac78b37a9c20028d552e74454f76bfd51',1,'numeric_base_t():&#160;printf.c'],['../d7/d69/Userspace_2libs_2libinit_2printf_8c.html#ac78b37a9c20028d552e74454f76bfd51',1,'numeric_base_t():&#160;printf.c']]]
+  ['key_5ft_31742',['key_t',['../dc/de2/Userspace_2mlibc_2options_2posix_2include_2sys_2ipc_8h.html#a99c5bd20241a4a2708237037a1857062',1,'ipc.h']]],
+  ['key_5fvalue_5fpair_31743',['key_value_pair',['../d4/d3a/classstd_1_1unordered__map.html#aad26fe82aa1f15050f8a03d9769be879',1,'std::unordered_map']]]
 ];

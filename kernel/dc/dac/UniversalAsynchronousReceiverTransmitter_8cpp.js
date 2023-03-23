@@ -8,6 +8,6 @@ var UniversalAsynchronousReceiverTransmitter_8cpp =
     [ "SERIAL_RATE_38400_LO", "dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#ae28332e19c9dc5b2fa315d2062b292e6", null ],
     [ "SERIAL_RATE_57600_HI", "dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a7e0df59da8af8c80e0e564d1f0b89d4c", null ],
     [ "SERIAL_RATE_57600_LO", "dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#ae5f5b0200a2e5dd1464b4ea53884e871", null ],
-    [ "RegisteredEvents", "dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a243b35bd4f91344446c7905d0a699f43", null ],
+    [ "RegisteredEvents", "dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071", null ],
     [ "serialports", "dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a0f3ff94a6c04c08988acfde5bd11cf8a", null ]
 ];

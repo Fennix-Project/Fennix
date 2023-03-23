@@ -1,7 +1,7 @@
 var namespaceDriver =
 [
-    [ "DriverInterruptHook", "d5/dff/classDriver_1_1DriverInterruptHook.html", "d5/dff/classDriver_1_1DriverInterruptHook" ],
     [ "DriverFile", "d1/d48/namespaceDriver.html#d1/d76/structDriver_1_1DriverFile", "d1/d48/namespaceDriver_d1/d76/structDriver_1_1DriverFile_dup" ],
+    [ "DriverInterruptHook", "d5/dff/classDriver_1_1DriverInterruptHook.html", "d5/dff/classDriver_1_1DriverInterruptHook" ],
     [ "Driver", "d3/d7d/classDriver_1_1Driver.html", "d3/d7d/classDriver_1_1Driver" ],
     [ "DriverCode", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6", [
       [ "ERROR", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a3610c57fcd777f71c8d2036a48404471", null ],
@@ -16,7 +16,9 @@ var namespaceDriver =
       [ "PCI_DEVICE_NOT_FOUND", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c", null ],
       [ "DRIVER_CONFLICT", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520", null ]
     ] ],
+    [ "if", "d1/d48/namespaceDriver.html#a950514b5d3eee92c89a612671469e7a9", null ],
     [ "UNUSED", "d1/d48/namespaceDriver.html#a940529db9c9924f62d18930b6e101eb6", null ],
-    [ "void", "d1/d48/namespaceDriver.html#a0e482219b5f1146ae92655e6c7fc0e64", null ],
-    [ "DriverTypesName", "d1/d48/namespaceDriver.html#ab6b0cdd8de3bb231a618dd471281906f", null ]
+    [ "void", "d1/d48/namespaceDriver.html#a78bb577b663770d85e78562670b1e674", null ],
+    [ "DriverTypesName", "d1/d48/namespaceDriver.html#ab6b0cdd8de3bb231a618dd471281906f", null ],
+    [ "regs", "d1/d48/namespaceDriver.html#ae0b9a9476c69599a8c18049953626b4c", null ]
 ];

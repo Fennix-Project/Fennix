@@ -102,9 +102,9 @@ Macros</h2></td></tr>
 <tr class="separator:ab74428acb81fb7c5985a8e2f8fa85fd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;&#160;&#160;((void *)0)</td></tr>
 <tr class="separator:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb00b1a27b40fde5065d26e5aa367808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a>(x,  align)&#160;&#160;&#160;((__typeof__(x))(((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(x) + ((align)-1)) &amp; (~((align)-1))))</td></tr>
+<tr class="memitem:afb00b1a27b40fde5065d26e5aa367808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a>(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>,  align)&#160;&#160;&#160;((__typeof__(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>))(((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) + ((align)-1)) &amp; (~((align)-1))))</td></tr>
 <tr class="separator:afb00b1a27b40fde5065d26e5aa367808"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1de6625fa208285b5f2b043fa9c537e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html#a1de6625fa208285b5f2b043fa9c537e7">ALIGN_DOWN</a>(x,  align)&#160;&#160;&#160;((__typeof__(x))((x) &amp; (~((align)-1))))</td></tr>
+<tr class="memitem:a1de6625fa208285b5f2b043fa9c537e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d90/Lynx_2UEFI_2src_2Memory_2liballoc__1__1_8h.html#a1de6625fa208285b5f2b043fa9c537e7">ALIGN_DOWN</a>(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>,  align)&#160;&#160;&#160;((__typeof__(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>))((<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) &amp; (~((align)-1))))</td></tr>
 <tr class="separator:a1de6625fa208285b5f2b043fa9c537e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga397816ee230d64fe081f93d31bf5a534"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>(func)&#160;&#160;&#160;kliballoc_##func</td></tr>
 <tr class="separator:ga397816ee230d64fe081f93d31bf5a534"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,21 +126,21 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga8b5670e4594b0b6f8be78fe17f0c3b53"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga8b5670e4594b0b6f8be78fe17f0c3b53">liballoc_lock</a> ()</td></tr>
+<tr class="memitem:ga8b5670e4594b0b6f8be78fe17f0c3b53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga8b5670e4594b0b6f8be78fe17f0c3b53">liballoc_lock</a> ()</td></tr>
 <tr class="separator:ga8b5670e4594b0b6f8be78fe17f0c3b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaedc23f198b2882d41d0caa316453967b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#gaedc23f198b2882d41d0caa316453967b">liballoc_unlock</a> ()</td></tr>
+<tr class="memitem:gaedc23f198b2882d41d0caa316453967b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#gaedc23f198b2882d41d0caa316453967b">liballoc_unlock</a> ()</td></tr>
 <tr class="separator:gaedc23f198b2882d41d0caa316453967b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2da84788fc4ab3f487214d24a3e55af4"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga2da84788fc4ab3f487214d24a3e55af4">liballoc_alloc</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>)</td></tr>
+<tr class="memitem:ga2da84788fc4ab3f487214d24a3e55af4"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga2da84788fc4ab3f487214d24a3e55af4">liballoc_alloc</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>)</td></tr>
 <tr class="separator:ga2da84788fc4ab3f487214d24a3e55af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8d5be3c85e157d771a44c48509b43c42"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga8d5be3c85e157d771a44c48509b43c42">liballoc_free</a> (void *, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>)</td></tr>
+<tr class="memitem:ga8d5be3c85e157d771a44c48509b43c42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga8d5be3c85e157d771a44c48509b43c42">liballoc_free</a> (void *, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>)</td></tr>
 <tr class="separator:ga8d5be3c85e157d771a44c48509b43c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5223b5fb1255b5179f53b0595fe9251c"><td class="memItemLeft" align="right" valign="top">void *<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>)</td></tr>
+<tr class="memitem:ga5223b5fb1255b5179f53b0595fe9251c"><td class="memItemLeft" align="right" valign="top">void *<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>)</td></tr>
 <tr class="memdesc:ga5223b5fb1255b5179f53b0595fe9251c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The standard function.  <a href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">More...</a><br /></td></tr>
 <tr class="separator:ga5223b5fb1255b5179f53b0595fe9251c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadc710223dc26577d1e49cac212d7d083"><td class="memItemLeft" align="right" valign="top">void *<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#gadc710223dc26577d1e49cac212d7d083">realloc</a> (void *, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>)</td></tr>
+<tr class="memitem:gadc710223dc26577d1e49cac212d7d083"><td class="memItemLeft" align="right" valign="top">void *<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#gadc710223dc26577d1e49cac212d7d083">realloc</a> (void *, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>)</td></tr>
 <tr class="memdesc:gadc710223dc26577d1e49cac212d7d083"><td class="mdescLeft">&#160;</td><td class="mdescRight">The standard function.  <a href="../../d8/dc8/group__ALLOCHOOKS.html#gadc710223dc26577d1e49cac212d7d083">More...</a><br /></td></tr>
 <tr class="separator:gadc710223dc26577d1e49cac212d7d083"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9db1af54761723ecddbd1e253c01a2ad"><td class="memItemLeft" align="right" valign="top">void *<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga9db1af54761723ecddbd1e253c01a2ad">calloc</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>)</td></tr>
+<tr class="memitem:ga9db1af54761723ecddbd1e253c01a2ad"><td class="memItemLeft" align="right" valign="top">void *<a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga9db1af54761723ecddbd1e253c01a2ad">calloc</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>)</td></tr>
 <tr class="memdesc:ga9db1af54761723ecddbd1e253c01a2ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">The standard function.  <a href="../../d8/dc8/group__ALLOCHOOKS.html#ga9db1af54761723ecddbd1e253c01a2ad">More...</a><br /></td></tr>
 <tr class="separator:ga9db1af54761723ecddbd1e253c01a2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4835fe140973dbc5e1aafd9c33acf6d4"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga397816ee230d64fe081f93d31bf5a534">PREFIX</a>()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4">free</a> (void *)</td></tr>
@@ -158,7 +158,7 @@ Functions</h2></td></tr>
           <td class="memname">#define ALIGN_DOWN</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">x, </td>
+          <td class="paramname"><a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -169,7 +169,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((__typeof__(x))((x) &amp; (~((align)-1))))</td>
+          <td></td><td>&#160;&#160;&#160;((__typeof__(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>))((<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) &amp; (~((align)-1))))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -188,7 +188,7 @@ Functions</h2></td></tr>
           <td class="memname">#define ALIGN_UP</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">x, </td>
+          <td class="paramname"><a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -199,7 +199,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((__typeof__(x))(((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(x) + ((align)-1)) &amp; (~((align)-1))))</td>
+          <td></td><td>&#160;&#160;&#160;((__typeof__(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>))(((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) + ((align)-1)) &amp; (~((align)-1))))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -248,7 +248,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef __SIZE_TYPE__ <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a></td>
+          <td class="memname">typedef __SIZE_TYPE__ <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

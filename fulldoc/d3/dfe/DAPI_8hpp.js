@@ -92,6 +92,9 @@ var DAPI_8hpp =
     [ "KernelCallback", "d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback", [
       [ "raw", "d3/dfe/DAPI_8hpp.html#ac8cebaa314870bb2350b53f7febe9f8e", null ]
     ] ],
+    [ "CPURegisters", "d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters", [
+      [ "raw", "d3/dfe/DAPI_8hpp.html#a560ad88a29d199a9ab7c7461acb0f47f", null ]
+    ] ],
     [ "KAPIDriverTalk.Network", "d3/d6f/structKernelAPI_1_1KAPIDriverTalk_8Network.html", "d3/d6f/structKernelAPI_1_1KAPIDriverTalk_8Network" ],
     [ "KAPIDriverTalk.Disk", "d3/dfe/DAPI_8hpp.html#df/d2e/structKernelAPI_1_1KAPIDriverTalk_8Disk", [
       [ "AHCI", "d3/dfe/DAPI_8hpp.html#a4957524a53f6c6e4eaf8e504a652b6db", null ]
@@ -250,11 +253,11 @@ var DAPI_8hpp =
     [ ".InterruptInfo", "d3/dfe/DAPI_8hpp.html#de/dea/struct_8InterruptInfo", [
       [ "Vector", "d3/dfe/DAPI_8hpp.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
+    [ "CPURegisters.__unnamed71__", "d3/dfe/DAPI_8hpp.html#d2/d0c/structCPURegisters_8____unnamed71____", null ],
     [ "CallbackReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dd", [
       [ "UnknownReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda8889069184c392232cee15200fa0d99d", null ],
       [ "AcknowledgeReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddaffe0297ef0c988cb097b4f9d4150c8a4", null ],
       [ "ConfigurationReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddad42fc12dc0a2cb734143c24d45707ca6", null ],
-      [ "InterruptReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda60604bbb34dea717b453eefa3cfe3f5b", null ],
       [ "StopReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda9ef3a309026e2dbf696d6a0651c03064", null ],
       [ "ProcessReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda416e6a19cf571ac3f7147d568515da23", null ],
       [ "InputReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda6af1b8633129d4c4d6ea25f2e1b0b84d", null ],

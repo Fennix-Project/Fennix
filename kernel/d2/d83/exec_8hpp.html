@@ -96,8 +96,8 @@ $(document).ready(function(){initNavTree('d2/d83/exec_8hpp.html','../../'); init
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d4/da0/string_8hpp_source.html">string.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d8c/std_8hpp_source.html">std.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d9e/elf_8h_source.html">elf.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d2/d83/exec_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -110,6 +110,8 @@ Data Structures</h2></td></tr>
 <tr class="separator:d2/d8b/structExecute_1_1SharedLibraries"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d4/df8/structExecute_1_1ELFBaseLoad"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#d4/df8/structExecute_1_1ELFBaseLoad">Execute::ELFBaseLoad</a></td></tr>
 <tr class="separator:d4/df8/structExecute_1_1ELFBaseLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/dcb/structExecute_1_1MmImage"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#dd/dcb/structExecute_1_1MmImage">Execute::MmImage</a></td></tr>
+<tr class="separator:dd/dcb/structExecute_1_1MmImage"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -171,9 +173,9 @@ Functions</h2></td></tr>
 <tr class="separator:ab90293c663674036e5f1f8f7bfdb5624"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3379ae6c774083ff08fe121ff0be174e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d9e/elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a3379ae6c774083ff08fe121ff0be174e">Execute::ELFGetDynamicTag</a> (void *ElfFile, enum <a class="el" href="../../d1/d9e/elf_8h.html#a370bb33de42069f09315e96d5f8053bb">DynamicArrayTags</a> Tag)</td></tr>
 <tr class="separator:a3379ae6c774083ff08fe121ff0be174e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3225e0fb995a52f5e4ff9ab1d4d40f70"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a3225e0fb995a52f5e4ff9ab1d4d40f70">Execute::ELFCreateMemoryImage</a> (Memory::MemMgr *mem, Memory::Virtual &amp;pV, void *ElfFile, <a class="el" href="../../d9/d49/types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d4/d19/udp_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a>)</td></tr>
-<tr class="memdesc:a3225e0fb995a52f5e4ff9ab1d4d40f70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a ELF <a class="el" href="../../d3/d97/namespaceMemory.html">Memory</a> Image.  <a href="../../d5/d27/namespaceExecute.html#a3225e0fb995a52f5e4ff9ab1d4d40f70">More...</a><br /></td></tr>
-<tr class="separator:a3225e0fb995a52f5e4ff9ab1d4d40f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a509b5c10d741719e8f06486c35fca91c"><td class="memItemLeft" align="right" valign="top">MmImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a509b5c10d741719e8f06486c35fca91c">Execute::ELFCreateMemoryImage</a> (Memory::MemMgr *mem, Memory::Virtual &amp;pV, void *ElfFile, <a class="el" href="../../d9/d49/types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d4/d19/udp_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a>)</td></tr>
+<tr class="memdesc:a509b5c10d741719e8f06486c35fca91c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a ELF <a class="el" href="../../d3/d97/namespaceMemory.html">Memory</a> Image.  <a href="../../d5/d27/namespaceExecute.html#a509b5c10d741719e8f06486c35fca91c">More...</a><br /></td></tr>
+<tr class="separator:a509b5c10d741719e8f06486c35fca91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4496a58d12e4f8b81e79483a3dba5cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#aa4496a58d12e4f8b81e79483a3dba5cb">Execute::LoadELFInterpreter</a> (Memory::MemMgr *mem, Memory::Virtual &amp;pV, const char *Interpreter)</td></tr>
 <tr class="separator:aa4496a58d12e4f8b81e79483a3dba5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a404fa45b0b5570c101243678b82b062a"><td class="memItemLeft" align="right" valign="top">ELFBaseLoad&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a404fa45b0b5570c101243678b82b062a">Execute::ELFLoadRel</a> (void *BaseImage, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#d9/dea/structVirtualFileSystem_1_1File">VirtualFileSystem::File</a> *ExFile, <a class="el" href="../../d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB">Tasking::PCB</a> *Process)</td></tr>
@@ -298,7 +300,7 @@ Timeout</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a4fe913152e063508d4820a903ac71cc6"></a><a class="el" href="../../d6/da1/classVector.html">Vector</a>&lt; <a class="el" href="../../df/d31/abi_8h.html#db/d1d/structAuxiliaryVector">AuxiliaryVector</a> &gt;</td>
+<a id="a96f8b25e697a65fbffb1591110165423"></a>vector&lt; <a class="el" href="../../df/d31/abi_8h.html#db/d1d/structAuxiliaryVector">AuxiliaryVector</a> &gt;</td>
 <td class="fieldname">
 auxv</td>
 <td class="fielddoc">
@@ -322,7 +324,7 @@ MemoryImage</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aa0dd6d29e397f30c48c70c7bf4278246"></a><a class="el" href="../../d6/da1/classVector.html">Vector</a>&lt; <a class="el" href="../../d3/dee/classString.html">String</a> &gt;</td>
+<a id="a3db89ea30ee26905fe558ac01d394fa9"></a>vector&lt; const char * &gt;</td>
 <td class="fieldname">
 NeededLibraries</td>
 <td class="fielddoc">
@@ -343,6 +345,43 @@ Success</td>
 <a id="a5ddfaf90281c235ef71e9c2802e4f846"></a>MemMgr *</td>
 <td class="fieldname">
 TmpMem</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a2b14a6e6fc49c7943a837f798c4ec394"></a>void *</td>
+<td class="fieldname">
+VirtualMemoryImage</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dd/dcb/structExecute_1_1MmImage" id="dd/dcb/structExecute_1_1MmImage"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/dcb/structExecute_1_1MmImage">&#9670;&nbsp;</a></span>Execute::MmImage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct Execute::MmImage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d2/d83/exec_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d2/d83/exec_8hpp_source.html">exec.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ab7f4962f7e22edb48b1ceff39c30765f"></a>void *</td>
+<td class="fieldname">
+Phyiscal</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab374da346ca4c834191b71f594bd2598"></a>void *</td>
+<td class="fieldname">
+Virtual</td>
 <td class="fielddoc">
 </td></tr>
 </table>

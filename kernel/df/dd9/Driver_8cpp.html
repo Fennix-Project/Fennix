@@ -94,8 +94,8 @@ $(document).ready(function(){initNavTree('df/dd9/Driver_8cpp.html','../../'); in
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d44/lock_8hpp_source.html">lock.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d6b/printf_8h_source.html">printf.h</a>&gt;</code><br />
@@ -119,8 +119,10 @@ Functions</h2></td></tr>
 <tr class="separator:aaddce56ddc113c928bb11f4771dc1bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f72a49a314ef2e6960fde9b0d8110d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd9/Driver_8cpp.html#a4f72a49a314ef2e6960fde9b0d8110d9">NewLock</a> (DriverInterruptLock)</td></tr>
 <tr class="separator:a4f72a49a314ef2e6960fde9b0d8110d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e482219b5f1146ae92655e6c7fc0e64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a0e482219b5f1146ae92655e6c7fc0e64">Driver::void</a> (Handle))(<a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>)</td></tr>
-<tr class="separator:a0e482219b5f1146ae92655e6c7fc0e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950514b5d3eee92c89a612671469e7a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a950514b5d3eee92c89a612671469e7a9">Driver::if</a> (!Handle-&gt;InterruptCallback)</td></tr>
+<tr class="separator:a950514b5d3eee92c89a612671469e7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78bb577b663770d85e78562670b1e674"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a78bb577b663770d85e78562670b1e674">Driver::void</a> (Handle-&gt;InterruptCallback))(&amp;regs)</td></tr>
+<tr class="separator:a78bb577b663770d85e78562670b1e674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a940529db9c9924f62d18930b6e101eb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a940529db9c9924f62d18930b6e101eb6">Driver::UNUSED</a> (Frame)</td></tr>
 <tr class="separator:a940529db9c9924f62d18930b6e101eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -128,6 +130,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:ab6b0cdd8de3bb231a618dd471281906f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ab6b0cdd8de3bb231a618dd471281906f">Driver::DriverTypesName</a> []</td></tr>
 <tr class="separator:ab6b0cdd8de3bb231a618dd471281906f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0b9a9476c69599a8c18049953626b4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ae0b9a9476c69599a8c18049953626b4c">Driver::regs</a></td></tr>
+<tr class="separator:ae0b9a9476c69599a8c18049953626b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aaddce56ddc113c928bb11f4771dc1bcf"></a>

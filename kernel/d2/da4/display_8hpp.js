@@ -34,6 +34,7 @@ var display_8hpp =
     ] ],
     [ "Font", "d3/d41/classVideo_1_1Font.html", "d3/d41/classVideo_1_1Font" ],
     [ "ScreenBuffer", "d6/de2/namespaceVideo.html#d6/d92/structVideo_1_1ScreenBuffer", [
+      [ "Brightness", "d6/de2/namespaceVideo.html#aff19113207077e3f294bacc0610a2ef9", null ],
       [ "Buffer", "d6/de2/namespaceVideo.html#aca9ee49f5a73eef6efe426ecee15bd24", null ],
       [ "Checksum", "d6/de2/namespaceVideo.html#acdd6c6c5813f9473c4d6d17c883ad2a9", null ],
       [ "Color", "d6/de2/namespaceVideo.html#a1452aa2f8749bd33cc4522af1a6abdde", null ],

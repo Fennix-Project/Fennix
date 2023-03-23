@@ -119,20 +119,22 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d04/hash_8c_source.html#l00003">3</a> of file <a class="el" href="../../d1/d04/hash_8c_source.html">hash.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> i = 0, j;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a>;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">while</span> (*<a class="code" href="../../d7/dfa/namespaceCPU.html#aea6a677157d4cbe39d21f22bda39000b">Name</a>)</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        i = (i &lt;&lt; 4) + *<a class="code" href="../../d7/dfa/namespaceCPU.html#aea6a677157d4cbe39d21f22bda39000b">Name</a>++;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">if</span> ((j = i &amp; 0xF0000000) != 0)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            i ^= j &gt;&gt; 24;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        i &amp;= ~j;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt;&lt; 4) + *<a class="code" href="../../d7/dfa/namespaceCPU.html#aea6a677157d4cbe39d21f22bda39000b">Name</a>++;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">if</span> ((<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a> = <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &amp; 0xF0000000) != 0)</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> ^= <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a> &gt;&gt; 24;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &amp;= ~<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a>;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> i;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 <div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00291">ArithmeticOperations.c:291</a></div></div>
 <div class="ttc" id="anamespaceCPU_html_aea6a677157d4cbe39d21f22bda39000b"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#aea6a677157d4cbe39d21f22bda39000b">CPU::Name</a></div><div class="ttdeci">char * Name()</div><div class="ttdoc">Get CPU name.</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8d/CPU_8cpp_source.html#l00036">CPU.cpp:36</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_a37d972ae0b47b9099e30983131d31916"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a></div><div class="ttdeci">static int j</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00037">posix_stdlib.cpp:37</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00036">CPU::Name()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00037">j</a>, and <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00036">CPU::Name()</a>.</p>
 
 </div>
 </div>

@@ -6,6 +6,7 @@ var Kernel_8cpp =
     [ "KPrint", "d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e", null ],
     [ "Main", "d2/d00/Kernel_8cpp.html#a624288f6ddef8cbfc951a7a4f4bf10c7", null ],
     [ "NewLock", "d2/d00/Kernel_8cpp.html#ae6d61016b12b4f29e5f1a0ce5aa93285", null ],
+    [ "NewLock", "d2/d00/Kernel_8cpp.html#a89c9da25c9ca23970db1290e1245139b", null ],
     [ "putchar", "d2/d00/Kernel_8cpp.html#a0fb7b5cd002af45dc6c96488154d8552", null ],
     [ "TaskingPanic", "d2/d00/Kernel_8cpp.html#a9bf4d76c2e04dc287d39c8729682cc25", null ],
     [ "__fini_array_end", "d2/d00/Kernel_8cpp.html#a44b0859526315b440c667baaba00f489", null ],

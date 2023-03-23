@@ -702,6 +702,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/dc5/AudioCodec97Driver_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
+    <DeclaredIn>AudioCodec97Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HEAD</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -858,6 +868,16 @@
     </TokenIdentifier>
     <Path>dc/db8/Example_8cpp.html</Path>
     <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
+    <DeclaredIn>Example.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/db8/Example_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
     <DeclaredIn>Example.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -1433,6 +1453,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d29/PS2MouseDriver_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
+    <DeclaredIn>PS2MouseDriver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HEAD</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -1783,6 +1813,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>df/d40/VirtualBoxMouseDriver_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
+    <DeclaredIn>VirtualBoxMouseDriver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HEAD</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -1969,6 +2009,16 @@
     </TokenIdentifier>
     <Path>d8/d91/VMwareMouseDriver_8cpp.html</Path>
     <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
+    <DeclaredIn>VMwareMouseDriver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/d91/VMwareMouseDriver_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
     <DeclaredIn>VMwareMouseDriver.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -2313,6 +2363,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d26/pcnet_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
+    <DeclaredIn>pcnet.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HEAD</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -2489,6 +2549,16 @@
     </TokenIdentifier>
     <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
     <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
+    <DeclaredIn>IntelGigabit.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d7c/IntelGigabit_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
     <DeclaredIn>IntelGigabit.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -3613,6 +3683,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d7/d05/rtl8139_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
+    <DeclaredIn>rtl8139.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HEAD</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -3833,6 +3913,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/d7a/rtl8169_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
+    <DeclaredIn>rtl8169.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>HEAD</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -3929,6 +4019,16 @@
     </TokenIdentifier>
     <Path>dc/df9/Virtio_8cpp.html</Path>
     <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
+    <DeclaredIn>Virtio.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>dc/df9/Virtio_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
     <DeclaredIn>Virtio.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -4209,6 +4309,16 @@
     </TokenIdentifier>
     <Path>de/d94/AHCI_8cpp.html</Path>
     <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
+    <DeclaredIn>AHCI.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>de/d94/AHCI_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
     <DeclaredIn>AHCI.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -4649,6 +4759,16 @@
     </TokenIdentifier>
     <Path>da/d05/ATA_8cpp.html</Path>
     <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
+    <DeclaredIn>ATA.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/d05/ATA_8cpp.html</Path>
+    <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
     <DeclaredIn>ATA.cpp</DeclaredIn>
   </Token>
   <Token>

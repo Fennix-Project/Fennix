@@ -1,8 +1,11 @@
 var namespaceExecute =
 [
+    [ "InterpreterIPCDataLibrary", "d5/d27/namespaceExecute.html#d5/dff/structExecute_1_1InterpreterIPCDataLibrary", "d5/d27/namespaceExecute_d5/dff/structExecute_1_1InterpreterIPCDataLibrary_dup" ],
+    [ "InterpreterIPCData", "d5/d27/namespaceExecute.html#d6/de5/structExecute_1_1InterpreterIPCData", "d5/d27/namespaceExecute_d6/de5/structExecute_1_1InterpreterIPCData_dup" ],
     [ "SpawnData", "d5/d27/namespaceExecute.html#d7/d93/structExecute_1_1SpawnData", "d5/d27/namespaceExecute_d7/d93/structExecute_1_1SpawnData_dup" ],
     [ "SharedLibraries", "d5/d27/namespaceExecute.html#d2/d8b/structExecute_1_1SharedLibraries", "d5/d27/namespaceExecute_d2/d8b/structExecute_1_1SharedLibraries_dup" ],
     [ "ELFBaseLoad", "d5/d27/namespaceExecute.html#d4/df8/structExecute_1_1ELFBaseLoad", "d5/d27/namespaceExecute_d4/df8/structExecute_1_1ELFBaseLoad_dup" ],
+    [ "MmImage", "d5/d27/namespaceExecute.html#dd/dcb/structExecute_1_1MmImage", "d5/d27/namespaceExecute_dd/dcb/structExecute_1_1MmImage_dup" ],
     [ "BinaryType", "d5/d27/namespaceExecute.html#ad34702895af4c39542a1b5e0e75bbfbd", [
       [ "BinTypeInvalid", "d5/d27/namespaceExecute.html#ad34702895af4c39542a1b5e0e75bbfbdae36f6938ddfbfbfe38fa6cf384fb6d19", null ],
       [ "BinTypeFex", "d5/d27/namespaceExecute.html#ad34702895af4c39542a1b5e0e75bbfbda4d86e9673c01f19bd31f096c363cf976", null ],
@@ -25,10 +28,10 @@ var namespaceExecute =
       [ "InvalidFilePath", "d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a868b4989770a47e5d2982b7cec8c24c3", null ]
     ] ],
     [ "AddLibrary", "d5/d27/namespaceExecute.html#a22deb6e14e14b82a4aaaf6d4d83cf94c", null ],
-    [ "ELFCreateMemoryImage", "d5/d27/namespaceExecute.html#a3225e0fb995a52f5e4ff9ab1d4d40f70", null ],
+    [ "ELFCreateMemoryImage", "d5/d27/namespaceExecute.html#a509b5c10d741719e8f06486c35fca91c", null ],
     [ "ELFGetDynamicTag", "d5/d27/namespaceExecute.html#a3379ae6c774083ff08fe121ff0be174e", null ],
     [ "ELFGetSymbolValue", "d5/d27/namespaceExecute.html#ab90293c663674036e5f1f8f7bfdb5624", null ],
-    [ "ELFInterpreterIPCThread", "d5/d27/namespaceExecute.html#a929e1ca582be6299ba1f282db24d03bc", null ],
+    [ "ELFInterpreterIPCThread", "d5/d27/namespaceExecute.html#aa0ad786f60e7298278e89b15b3b6a7ab", null ],
     [ "ELFInterpreterThreadWrapper", "d5/d27/namespaceExecute.html#a56bcd6d2a41adc6221cc107b180dde09", null ],
     [ "ELFLoad", "d5/d27/namespaceExecute.html#aed3e9a6488bac2a26b603386d6860bb2", null ],
     [ "ELFLoadDyn", "d5/d27/namespaceExecute.html#a9849d64be4de5c9b0f06caa89a426a25", null ],
@@ -46,10 +49,11 @@ var namespaceExecute =
     [ "SearchLibrary", "d5/d27/namespaceExecute.html#a91a5c0c6c8c3c3e89a5f07211ed3988c", null ],
     [ "Spawn", "d5/d27/namespaceExecute.html#afc1af56a72388d4fce8b751aa6107d81", null ],
     [ "StartExecuteService", "d5/d27/namespaceExecute.html#a93f062652adad6dd560be98f572abbe8", null ],
+    [ "InterpreterElfFile", "d5/d27/namespaceExecute.html#a4ca4f7016486dfdccc306930a5b75228", null ],
     [ "InterpreterMemoryImage", "d5/d27/namespaceExecute.html#aa4f2d098d6c90ee1c9c27fa128ce3923", null ],
-    [ "InterpreterNeededLibraries", "d5/d27/namespaceExecute.html#a1a0c318802a31d560daca05e7943ee63", null ],
-    [ "InterpreterTargetPath", "d5/d27/namespaceExecute.html#a49edd982ee3b86acf701098b69155696", null ],
+    [ "InterpreterNeededLibraries", "d5/d27/namespaceExecute.html#af57f02e31db90a2138281a80a6326b10", null ],
+    [ "InterpreterTargetPath", "d5/d27/namespaceExecute.html#ab7e9a83b57f214f104ea7074db8a9e27", null ],
     [ "InterpreterTargetProcess", "d5/d27/namespaceExecute.html#a1b2f46d5fcb136756f24861b765861e5", null ],
-    [ "Libs", "d5/d27/namespaceExecute.html#ae631a2b49669243fc714c740040be196", null ],
+    [ "Libs", "d5/d27/namespaceExecute.html#a4c0f2322a22a6f947e6932721fedf50e", null ],
     [ "mem", "d5/d27/namespaceExecute.html#aad17323545c4f9099009dada1e78e3f4", null ]
 ];

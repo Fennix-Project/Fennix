@@ -1,10 +1,26 @@
 var searchData=
 [
-  ['kctl_5fget_5fgid_1230',['KCTL_GET_GID',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1faa408d2fc92ec8616c3bfca48059ad355',1,'KCTL_GET_GID():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1faa408d2fc92ec8616c3bfca48059ad355',1,'KCTL_GET_GID():&#160;sysbase.h']]],
-  ['kctl_5fget_5fpage_5fsize_1231',['KCTL_GET_PAGE_SIZE',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77',1,'KCTL_GET_PAGE_SIZE():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77',1,'KCTL_GET_PAGE_SIZE():&#160;sysbase.h']]],
-  ['kctl_5fget_5fpid_1232',['KCTL_GET_PID',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1face129e39bef73a80e9da01d75aa04049',1,'KCTL_GET_PID():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1face129e39bef73a80e9da01d75aa04049',1,'KCTL_GET_PID():&#160;sysbase.h']]],
-  ['kctl_5fget_5ftid_1233',['KCTL_GET_TID',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1fa0eb36ec74e65567b2d22ef97911e8a3e',1,'KCTL_GET_TID():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa0eb36ec74e65567b2d22ef97911e8a3e',1,'KCTL_GET_TID():&#160;sysbase.h']]],
-  ['kctl_5fget_5fuid_1234',['KCTL_GET_UID',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1fa218ab4e88581b8103b701b52213f61ca',1,'KCTL_GET_UID():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa218ab4e88581b8103b701b52213f61ca',1,'KCTL_GET_UID():&#160;sysbase.h']]],
-  ['kctl_5fis_5fcritical_1235',['KCTL_IS_CRITICAL',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499',1,'KCTL_IS_CRITICAL():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499',1,'KCTL_IS_CRITICAL():&#160;sysbase.h']]],
-  ['kctl_5fnull_1236',['KCTL_NULL',['../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1fa571aa3760135e3dc9572c3217ab42ffb',1,'KCTL_NULL():&#160;ld.c'],['../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa571aa3760135e3dc9572c3217ab42ffb',1,'KCTL_NULL():&#160;sysbase.h']]]
+  ['catenation_22989',['CATENATION',['../d0/d86/regcomp_8c.html#accf2e20fbd9d8a065a78a72c8db5777aa4f0a726d36593de66a636b82f9990473',1,'regcomp.c']]],
+  ['cf_5fgodmode_22990',['CF_GODMODE',['../d5/d9f/d__player_8h.html#a52fd320c0c1792e1a0c4eaab4179d0e8a4a8108cedfb823a64a7e127320a7f058',1,'d_player.h']]],
+  ['cf_5fnoclip_22991',['CF_NOCLIP',['../d5/d9f/d__player_8h.html#a52fd320c0c1792e1a0c4eaab4179d0e8a0fa0a9c48afe2773d54ee53aef2d1962',1,'d_player.h']]],
+  ['cf_5fnomomentum_22992',['CF_NOMOMENTUM',['../d5/d9f/d__player_8h.html#a52fd320c0c1792e1a0c4eaab4179d0e8a039eb1dd492a13471c27512400a064c9',1,'d_player.h']]],
+  ['commercial_22993',['commercial',['../d7/d68/d__mode_8h.html#aa62c3eee8472daa45bbb9e1482b49f4ea90d070b07e496aedf470b7311d97b6b5',1,'d_mode.h']]],
+  ['copy_5frecurse_22994',['COPY_RECURSE',['../d0/d86/regcomp_8c.html#a3e488b0265153ca3156299fa639235b3ac9d65d5e73e529d5f783ddfc668bc58d',1,'regcomp.c']]],
+  ['copy_5fset_5fresult_5fptr_22995',['COPY_SET_RESULT_PTR',['../d0/d86/regcomp_8c.html#a3e488b0265153ca3156299fa639235b3af94f9719f8b697c45e9854a97ff5fb53',1,'regcomp.c']]],
+  ['crushandraise_22996',['crushAndRaise',['../d2/d78/p__spec_8h.html#ae19311c7bd774a460d8964a06f1593a2a84cf12670fc11eff538b37e5a7aea67b',1,'p_spec.h']]],
+  ['crushed_22997',['crushed',['../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0faf01272220b6dc458c07795276d3678c4',1,'p_spec.h']]],
+  ['ct_5falnum_22998',['ct_alnum',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a0cbf445d3bbab26a49f548e2b8d0b75c',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5falpha_22999',['ct_alpha',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a30076e3d81a98eef4ffb36fe91a44146',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fblank_23000',['ct_blank',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a0b265dc13011e130aa3503d0c4358596',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fcntrl_23001',['ct_cntrl',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a27c35db60dbfd15b9a89afb4d6f29763',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fcount_23002',['ct_count',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a3edf72041d2beb2c7a9e0dc50e275f05',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fdigit_23003',['ct_digit',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a56d69eb9050f03939b93d6bb5086408e',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fgraph_23004',['ct_graph',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86abfb34063e2982605cfe541180be96695',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5flower_23005',['ct_lower',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a3dc51fce01cb81b5fee13ad0b82ef4b3',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fnull_23006',['ct_null',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a4650e8dcd86fe128e7c119ed9f77cf4b',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fprint_23007',['ct_print',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a000734c2e903901be2325944673c2ac3',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fpunct_23008',['ct_punct',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86ae22a3e61b557db438903d9a481cbc4fb',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fspace_23009',['ct_space',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a26cc133bf90d6c7655b6227da5ac2eed',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fupper_23010',['ct_upper',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a6e090a066c21d43eabcba0e499ea5509',1,'anonymous_namespace{ctype-stubs.cpp}']]],
+  ['ct_5fxdigit_23011',['ct_xdigit',['../db/d1e/namespaceanonymous__namespace_02ctype-stubs_8cpp_03.html#ae460eb62c7e847aa3282a0116c219c86a99fd14d01f0050b9554829dd4e70b405',1,'anonymous_namespace{ctype-stubs.cpp}']]]
 ];

@@ -1,0 +1,28 @@
+var dir_9e371906acfce037c3cb8965924c33ce =
+[
+    [ "file.h", "d2/d4d/file_8h.html", "d2/d4d/file_8h" ],
+    [ "ipc.h", "dc/de2/Userspace_2mlibc_2options_2posix_2include_2sys_2ipc_8h.html", "dc/de2/Userspace_2mlibc_2options_2posix_2include_2sys_2ipc_8h" ],
+    [ "mman.h", "de/d9f/mman_8h.html", "de/d9f/mman_8h" ],
+    [ "msg.h", "d1/d71/msg_8h.html", "d1/d71/msg_8h" ],
+    [ "param.h", "d5/d33/param_8h.html", "d5/d33/param_8h" ],
+    [ "poll.h", "d4/d1c/options_2posix_2include_2sys_2poll_8h.html", "d4/d1c/options_2posix_2include_2sys_2poll_8h" ],
+    [ "resource.h", "db/d91/options_2posix_2include_2sys_2resource_8h.html", "db/d91/options_2posix_2include_2sys_2resource_8h" ],
+    [ "select.h", "d9/dab/select_8h.html", "d9/dab/select_8h" ],
+    [ "sem.h", "d2/d28/sem_8h.html", "d2/d28/sem_8h" ],
+    [ "shm.h", "d6/da4/options_2posix_2include_2sys_2shm_8h.html", "d6/da4/options_2posix_2include_2sys_2shm_8h" ],
+    [ "socket.h", "da/da2/options_2posix_2include_2sys_2socket_8h.html", "da/da2/options_2posix_2include_2sys_2socket_8h" ],
+    [ "stat.h", "dc/dba/mlibc_2options_2posix_2include_2sys_2stat_8h.html", "dc/dba/mlibc_2options_2posix_2include_2sys_2stat_8h" ],
+    [ "statfs.h", "d7/db3/options_2posix_2include_2sys_2statfs_8h.html", "d7/db3/options_2posix_2include_2sys_2statfs_8h" ],
+    [ "statvfs.h", "d2/d10/options_2posix_2include_2sys_2statvfs_8h.html", "d2/d10/options_2posix_2include_2sys_2statvfs_8h" ],
+    [ "syslog.h", "d1/d24/sys_2syslog_8h.html", null ],
+    [ "termios.h", "da/da5/options_2posix_2include_2sys_2termios_8h.html", null ],
+    [ "time.h", "db/d4e/mlibc_2options_2posix_2include_2sys_2time_8h.html", "db/d4e/mlibc_2options_2posix_2include_2sys_2time_8h" ],
+    [ "times.h", "d3/d15/times_8h.html", "d3/d15/times_8h" ],
+    [ "ttydefaults.h", "d8/d12/ttydefaults_8h.html", "d8/d12/ttydefaults_8h" ],
+    [ "types.h", "d4/d31/Userspace_2mlibc_2options_2posix_2include_2sys_2types_8h.html", "d4/d31/Userspace_2mlibc_2options_2posix_2include_2sys_2types_8h" ],
+    [ "uio.h", "d8/d80/uio_8h.html", "d8/d80/uio_8h" ],
+    [ "un.h", "da/d4b/un_8h.html", "da/d4b/un_8h" ],
+    [ "utsname.h", "d9/d33/options_2posix_2include_2sys_2utsname_8h.html", "d9/d33/options_2posix_2include_2sys_2utsname_8h" ],
+    [ "vfs.h", "d5/dfa/vfs_8h.html", null ],
+    [ "wait.h", "db/df3/options_2posix_2include_2sys_2wait_8h.html", "db/df3/options_2posix_2include_2sys_2wait_8h" ]
+];

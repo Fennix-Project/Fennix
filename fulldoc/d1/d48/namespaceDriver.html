@@ -97,10 +97,10 @@ $(document).ready(function(){initNavTree('d1/d48/namespaceDriver.html','../../')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html">DriverInterruptHook</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d1/d76/structDriver_1_1DriverFile"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#d1/d76/structDriver_1_1DriverFile">DriverFile</a></td></tr>
 <tr class="separator:d1/d76/structDriver_1_1DriverFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html">DriverInterruptHook</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/classDriver_1_1Driver.html">Driver</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -126,8 +126,10 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0e482219b5f1146ae92655e6c7fc0e64"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a0e482219b5f1146ae92655e6c7fc0e64">void</a> (Handle))(<a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>)</td></tr>
-<tr class="separator:a0e482219b5f1146ae92655e6c7fc0e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950514b5d3eee92c89a612671469e7a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a950514b5d3eee92c89a612671469e7a9">if</a> (!Handle-&gt;InterruptCallback)</td></tr>
+<tr class="separator:a950514b5d3eee92c89a612671469e7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78bb577b663770d85e78562670b1e674"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a78bb577b663770d85e78562670b1e674">void</a> (Handle-&gt;InterruptCallback))(&amp;<a class="el" href="../../d1/d48/namespaceDriver.html#ae0b9a9476c69599a8c18049953626b4c">regs</a>)</td></tr>
+<tr class="separator:a78bb577b663770d85e78562670b1e674"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a940529db9c9924f62d18930b6e101eb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a940529db9c9924f62d18930b6e101eb6">UNUSED</a> (Frame)</td></tr>
 <tr class="separator:a940529db9c9924f62d18930b6e101eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -135,6 +137,8 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:ab6b0cdd8de3bb231a618dd471281906f"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ab6b0cdd8de3bb231a618dd471281906f">DriverTypesName</a> []</td></tr>
 <tr class="separator:ab6b0cdd8de3bb231a618dd471281906f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0b9a9476c69599a8c18049953626b4c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#ae0b9a9476c69599a8c18049953626b4c">regs</a></td></tr>
+<tr class="separator:ae0b9a9476c69599a8c18049953626b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d1/d76/structDriver_1_1DriverFile" id="d1/d76/structDriver_1_1DriverFile"></a>
@@ -149,11 +153,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a4e5a21065d08b50760da3d043a3c75a6"></a><a class="el" href="../../d1/d48/namespaceDriver.html#a0e482219b5f1146ae92655e6c7fc0e64">void</a> *</td>
+<a id="a4e5a21065d08b50760da3d043a3c75a6"></a><a class="el" href="../../d1/d48/namespaceDriver.html#a78bb577b663770d85e78562670b1e674">void</a> *</td>
 <td class="fieldname">
 Address</td>
 <td class="fielddoc">
@@ -168,6 +172,12 @@ DriverUID</td>
 <a id="a13e745a0a68e590b619e6eddd3b12809"></a><a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
 <td class="fieldname">
 Enabled</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa5e26c43fe51ecc3cb4f4fd1f64818d3"></a><a class="el" href="../../d1/d48/namespaceDriver.html#a78bb577b663770d85e78562670b1e674">void</a> *</td>
+<td class="fieldname">
+InterruptCallback</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -241,6 +251,39 @@ MemTrk</td>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a950514b5d3eee92c89a612671469e7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a950514b5d3eee92c89a612671469e7a9">&#9670;&nbsp;</a></span>if()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Driver::if </td>
+          <td>(</td>
+          <td class="paramtype">!Handle-&gt;&#160;</td>
+          <td class="paramname"><em>InterruptCallback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00236">236</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor">#if defined(a64) || defined(a32)</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            <span class="keywordtype">int</span> IntNum = Frame-&gt;InterruptNumber - 32;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <span class="keywordtype">int</span> IntNum = Frame-&gt;InterruptNumber;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Interrupt callback for %ld is not set for driver %ld!&quot;</span>, IntNum, <a class="code" href="../../db/df1/namespaceGraphicalUserInterface.html#ae55dddd10e543824f42285df80eeb9b4">Handle</a>-&gt;DriverUID);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        }</div>
+<div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00062">debug.h:62</a></div></div>
+<div class="ttc" id="anamespaceGraphicalUserInterface_html_ae55dddd10e543824f42285df80eeb9b4"><div class="ttname"><a href="../../db/df1/namespaceGraphicalUserInterface.html#ae55dddd10e543824f42285df80eeb9b4">GraphicalUserInterface::Handle</a></div><div class="ttdeci">uintptr_t Handle</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d7c/gui_8hpp_source.html#l00012">gui.hpp:12</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00062">warn</a>.</p>
+
+</div>
+</div>
 <a id="a940529db9c9924f62d18930b6e101eb6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a940529db9c9924f62d18930b6e101eb6">&#9670;&nbsp;</a></span>UNUSED()</h2>
 
@@ -257,27 +300,27 @@ MemTrk</td>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../da/df8/BindInterrupt_8cpp_source.html#l00154">Driver::Driver::BindInterruptStorage()</a>, <a class="el" href="../../d3/d4b/BindInput_8cpp_source.html#l00081">Driver::Driver::DriverLoadBindInput()</a>, <a class="el" href="../../da/df8/BindInterrupt_8cpp_source.html#l00419">Driver::Driver::DriverLoadBindInterrupt()</a>, <a class="el" href="../../d7/dc4/BindPCI_8cpp_source.html#l00529">Driver::Driver::DriverLoadBindPCI()</a>, and <a class="el" href="../../d8/d16/BindProcess_8cpp_source.html#l00052">Driver::Driver::DriverLoadBindProcess()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d4b/BindInput_8cpp_source.html#l00081">Driver::Driver::DriverLoadBindInput()</a>, <a class="el" href="../../da/df8/BindInterrupt_8cpp_source.html#l00439">Driver::Driver::DriverLoadBindInterrupt()</a>, <a class="el" href="../../d7/dc4/BindPCI_8cpp_source.html#l00556">Driver::Driver::DriverLoadBindPCI()</a>, and <a class="el" href="../../d8/d16/BindProcess_8cpp_source.html#l00052">Driver::Driver::DriverLoadBindProcess()</a>.</p>
 
 </div>
 </div>
-<a id="a0e482219b5f1146ae92655e6c7fc0e64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e482219b5f1146ae92655e6c7fc0e64">&#9670;&nbsp;</a></span>void()</h2>
+<a id="a78bb577b663770d85e78562670b1e674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78bb577b663770d85e78562670b1e674">&#9670;&nbsp;</a></span>void()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int Driver::void </td>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> Driver::void </td>
           <td>(</td>
-          <td class="paramtype">Handle&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype">Handle-&gt;&#160;</td>
+          <td class="paramname"><em>InterruptCallback</em></td><td>)</td>
+          <td> &amp;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d32/WidgetEvents_8cpp_source.html#l00101">GraphicalUserInterface::WidgetCollection::OnMouseUp()</a>, <a class="el" href="../../d0/dc4/Lynx_2UEFI_2src_2printf_8c_source.html#l00368">putchar_wrapper()</a>, and <a class="el" href="../../d7/d69/Userspace_2libs_2libinit_2printf_8c_source.html#l00359">putchar_wrapper_libint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d0a/main_8cpp_source.html#l00672">__dlapi_enter()</a>, <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00120">__ubsan_handle_load_invalid_value()</a>, <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00193">__ubsan_handle_out_of_bounds()</a>, <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00106">__ubsan_handle_pointer_overflow()</a>, <a class="el" href="../../d0/d23/linker_8cpp_source.html#l00395">ObjectRepository::_fetchFromFile()</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00189">at_quick_exit()</a>, <a class="el" href="../../da/d0e/libintl-stubs_8cpp_source.html#l00068">bind_textdomain_codeset()</a>, <a class="el" href="../../da/d0e/libintl-stubs_8cpp_source.html#l00061">bindtextdomain()</a>, <a class="el" href="../../de/da8/pthread__thread__local_8c_source.html#l00008">check_counter()</a>, <a class="el" href="../../da/d0e/libintl-stubs_8cpp_source.html#l00017">dcgettext()</a>, <a class="el" href="../../da/d0e/libintl-stubs_8cpp_source.html#l00044">dcngettext()</a>, <a class="el" href="../../da/d0e/libintl-stubs_8cpp_source.html#l00010">dgettext()</a>, <a class="el" href="../../da/d0e/libintl-stubs_8cpp_source.html#l00034">dngettext()</a>, <a class="el" href="../../d5/d05/pthread__key_8c_source.html#l00009">dtor1()</a>, <a class="el" href="../../d5/d05/pthread__key_8c_source.html#l00019">dtor2()</a>, <a class="el" href="../../d5/d05/pthread__key_8c_source.html#l00042">dtor3()</a>, <a class="el" href="../../d8/de2/ftw-stubs_8cpp_source.html#l00006">ftw()</a>, <a class="el" href="../../d4/db4/pthread__attr_8c_source.html#l00178">getattr_worker()</a>, <a class="el" href="../../da/d0e/libintl-stubs_8cpp_source.html#l00004">gettext()</a>, <a class="el" href="../../db/d43/sys-time-stubs_8cpp_source.html#l00010">gettimeofday()</a>, <a class="el" href="../../da/d52/abort_8c_source.html#l00005">handler()</a>, <a class="el" href="../../d8/dee/iconv-stubs_8cpp_source.html#l00005">iconv()</a>, <a class="el" href="../../df/d0a/main_8cpp_source.html#l00155">interpreterMain()</a>, <a class="el" href="../../d9/def/search_8cpp_source.html#l00142">lfind()</a>, <a class="el" href="../../d2/d69/lookup_8cpp_source.html#l00163">mlibc::lookup_addr_dns()</a>, <a class="el" href="../../d2/d69/lookup_8cpp_source.html#l00049">mlibc::lookup_name_dns()</a>, <a class="el" href="../../d9/def/search_8cpp_source.html#l00131">lsearch()</a>, <a class="el" href="../../dc/dec/search_8c_source.html#l00025">main()</a>, <a class="el" href="../../d8/de2/ftw-stubs_8cpp_source.html#l00012">nftw()</a>, <a class="el" href="../../da/d0e/libintl-stubs_8cpp_source.html#l00026">ngettext()</a>, <a class="el" href="../../d1/d3b/pause_8c_source.html#l00009">noop()</a>, <a class="el" href="../../d3/d32/WidgetEvents_8cpp_source.html#l00101">GraphicalUserInterface::WidgetCollection::OnMouseUp()</a>, <a class="el" href="../../df/d80/pthread-stubs_8cpp_source.html#l00956">pthread_mutexattr_getprioceiling()</a>, <a class="el" href="../../df/d80/pthread-stubs_8cpp_source.html#l00963">pthread_mutexattr_setprioceiling()</a>, <a class="el" href="../../d0/dc4/Lynx_2UEFI_2src_2printf_8c_source.html#l00368">putchar_wrapper()</a>, <a class="el" href="../../d7/d69/Userspace_2libs_2libinit_2printf_8c_source.html#l00359">putchar_wrapper_libint()</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00322">qsort_r()</a>, <a class="el" href="../../dd/d1e/pthread__kill_8c_source.html#l00008">sig_handler()</a>, <a class="el" href="../../de/d6a/realpath_8c_source.html#l00040">signal_handler()</a>, <a class="el" href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00537">mlibc::sys_faccessat()</a>, <a class="el" href="../../d9/d0d/aero_2generic_2sockets_8cpp_source.html#l00095">mlibc::sys_getsockopt()</a>, <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00163">mlibc::sys_setpgid()</a>, <a class="el" href="../../d9/d0d/aero_2generic_2sockets_8cpp_source.html#l00142">mlibc::sys_setsockopt()</a>, <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00130">mlibc::sys_sigaction()</a>, <a class="el" href="../../df/dd5/file_8cpp_source.html#l01214">mlibc::sys_timerfd_create()</a>, <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00155">mlibc::sys_ttyname()</a>, <a class="el" href="../../d9/def/search_8cpp_source.html#l00113">tdelete()</a>, <a class="el" href="../../d9/def/search_8cpp_source.html#l00125">tdestroy()</a>, <a class="el" href="../../da/d0e/libintl-stubs_8cpp_source.html#l00055">textdomain()</a>, <a class="el" href="../../d9/def/search_8cpp_source.html#l00119">twalk()</a>, <a class="el" href="../../d3/d10/sys-wait-stubs_8cpp_source.html#l00033">wait3()</a>, <a class="el" href="../../d1/d57/wordexp-stubs_8cpp_source.html#l00059">we_askshell()</a>, <a class="el" href="../../d3/dd9/flockfile_8c_source.html#l00007">worker()</a>, <a class="el" href="../../d9/daf/pthread__cancel_8c_source.html#l00008">worker1()</a>, <a class="el" href="../../d9/daf/pthread__cancel_8c_source.html#l00020">worker2()</a>, <a class="el" href="../../d9/daf/pthread__cancel_8c_source.html#l00035">worker3()</a>, and <a class="el" href="../../d9/daf/pthread__cancel_8c_source.html#l00050">worker4()</a>.</p>
 
 </div>
 </div>
@@ -303,7 +346,23 @@ MemTrk</td>
 <div class="line">        <span class="stringliteral">&quot;Input&quot;</span>,</div>
 <div class="line">        <span class="stringliteral">&quot;Audio&quot;</span>}</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
+
+</div>
+</div>
+<a id="ae0b9a9476c69599a8c18049953626b4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0b9a9476c69599a8c18049953626b4c">&#9670;&nbsp;</a></span>regs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> Driver::regs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00246">246</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
 
 </div>
 </div>

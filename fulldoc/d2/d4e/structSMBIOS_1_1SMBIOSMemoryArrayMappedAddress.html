@@ -104,9 +104,9 @@ Public Member Functions</h2></td></tr>
 Data Fields</h2></td></tr>
 <tr class="memitem:af4ed576006fe9cff4d083f72664b34cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d5f/namespaceSMBIOS.html#da/dc0/structSMBIOS_1_1SMBIOSHeader">SMBIOSHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#af4ed576006fe9cff4d083f72664b34cb">Header</a></td></tr>
 <tr class="separator:af4ed576006fe9cff4d083f72664b34cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2fd791285218aed38406aae8cb94117"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#af2fd791285218aed38406aae8cb94117">StartingAddress</a></td></tr>
+<tr class="memitem:af2fd791285218aed38406aae8cb94117"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#af2fd791285218aed38406aae8cb94117">StartingAddress</a></td></tr>
 <tr class="separator:af2fd791285218aed38406aae8cb94117"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a156e4a72cddd04e40c2459402a2e2881"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#a156e4a72cddd04e40c2459402a2e2881">EndingAddress</a></td></tr>
+<tr class="memitem:a156e4a72cddd04e40c2459402a2e2881"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#a156e4a72cddd04e40c2459402a2e2881">EndingAddress</a></td></tr>
 <tr class="separator:a156e4a72cddd04e40c2459402a2e2881"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2b1a500b2ef0f78872f4b1566954648"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#ae2b1a500b2ef0f78872f4b1566954648">MemoryArrayHandle</a></td></tr>
 <tr class="separator:ae2b1a500b2ef0f78872f4b1566954648"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,15 +147,16 @@ Data Fields</h2></td></tr>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            Index--;</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            <span class="keywordflow">if</span> (Index == 0 || Index &gt; 10)</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                <span class="keywordflow">return</span> Str;</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> i = 0; i &lt; Index; i++)</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; Index; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                Str = <a class="code" href="../../da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30">SMBIOSNextString</a>(Str);</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <span class="keywordflow">return</span> Str;</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        }</div>
 <div class="ttc" id="anamespaceSMBIOS_html_aa2b216f0361ddab47094a829f2bbc7c3"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#aa2b216f0361ddab47094a829f2bbc7c3">SMBIOS::SMBIOSHeader::Length</a></div><div class="ttdeci">unsigned char Length</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00062">smbios.hpp:62</a></div></div>
 <div class="ttc" id="anamespaceSMBIOS_html_ade5c4d4c3f23921f77e72a38d3e2fc30"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30">SMBIOS::SMBIOSNextString</a></div><div class="ttdeci">static char * SMBIOSNextString(char *Str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00084">smbios.hpp:84</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
 <div class="ttc" id="astructSMBIOS_1_1SMBIOSMemoryArrayMappedAddress_html_af4ed576006fe9cff4d083f72664b34cb"><div class="ttname"><a href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#af4ed576006fe9cff4d083f72664b34cb">SMBIOS::SMBIOSMemoryArrayMappedAddress::Header</a></div><div class="ttdeci">SMBIOSHeader Header</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00264">smbios.hpp:264</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00062">SMBIOS::SMBIOSHeader::Length</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00084">SMBIOS::SMBIOSNextString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00062">SMBIOS::SMBIOSHeader::Length</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00084">SMBIOS::SMBIOSNextString()</a>.</p>
 
 </div>
 </div>
@@ -167,7 +168,7 @@ Data Fields</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int SMBIOS::SMBIOSMemoryArrayMappedAddress::EndingAddress</td>
+          <td class="memname">unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> SMBIOS::SMBIOSMemoryArrayMappedAddress::EndingAddress</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -231,7 +232,7 @@ Data Fields</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int SMBIOS::SMBIOSMemoryArrayMappedAddress::StartingAddress</td>
+          <td class="memname">unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> SMBIOS::SMBIOSMemoryArrayMappedAddress::StartingAddress</td>
         </tr>
       </table>
 </div><div class="memdoc">

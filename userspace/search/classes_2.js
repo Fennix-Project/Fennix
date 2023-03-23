@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['file_767',['FILE',['../d6/dd1/stdio_8h.html#de/dc3/structFILE',1,'']]],
-  ['file_768',['File',['../dc/d44/sysfile_8h.html#d6/d88/structFile',1,'']]]
+  ['bit_5futil_14864',['bit_util',['../d0/d9a/namespacemlibc.html#d0/d21/structmlibc_1_1bit__util',1,'mlibc']]],
+  ['bit_5futil_3c_20uint16_5ft_20_3e_14865',['bit_util&lt; uint16_t &gt;',['../d7/def/structmlibc_1_1bit__util_3_01uint16__t_01_4.html',1,'mlibc']]],
+  ['bit_5futil_3c_20uint32_5ft_20_3e_14866',['bit_util&lt; uint32_t &gt;',['../d7/d1b/structmlibc_1_1bit__util_3_01uint32__t_01_4.html',1,'mlibc']]],
+  ['bit_5futil_3c_20uint64_5ft_20_3e_14867',['bit_util&lt; uint64_t &gt;',['../d2/df7/structmlibc_1_1bit__util_3_01uint64__t_01_4.html',1,'mlibc']]],
+  ['bufferprinter_14868',['BufferPrinter',['../dd/d8f/structBufferPrinter.html',1,'']]],
+  ['button_5ft_14869',['button_t',['../d2/d78/p__spec_8h.html#d7/d01/structbutton__t',1,'']]]
 ];

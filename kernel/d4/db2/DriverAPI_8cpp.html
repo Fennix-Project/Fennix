@@ -111,9 +111,9 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ac5f20c1a2090fe90ae884329df29f110"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db2/DriverAPI_8cpp.html#ac5f20c1a2090fe90ae884329df29f110">NewLock</a> (DriverDisplayPrintLock)</td></tr>
 <tr class="separator:ac5f20c1a2090fe90ae884329df29f110"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73738162c91160245166b990c8e958af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db2/DriverAPI_8cpp.html#a73738162c91160245166b990c8e958af">DriverDebugPrint</a> (char *<a class="el" href="../../d3/dee/classString.html">String</a>, unsigned long DriverUID)</td></tr>
+<tr class="memitem:a73738162c91160245166b990c8e958af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db2/DriverAPI_8cpp.html#a73738162c91160245166b990c8e958af">DriverDebugPrint</a> (char *String, unsigned long DriverUID)</td></tr>
 <tr class="separator:a73738162c91160245166b990c8e958af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6abea08313f42084e5afaf66b8eb221"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db2/DriverAPI_8cpp.html#ae6abea08313f42084e5afaf66b8eb221">DriverDisplayPrint</a> (char *<a class="el" href="../../d3/dee/classString.html">String</a>)</td></tr>
+<tr class="memitem:ae6abea08313f42084e5afaf66b8eb221"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db2/DriverAPI_8cpp.html#ae6abea08313f42084e5afaf66b8eb221">DriverDisplayPrint</a> (char *String)</td></tr>
 <tr class="separator:ae6abea08313f42084e5afaf66b8eb221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa58932ec11d2082fde8b1bb2bd2a2b6d"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/db2/DriverAPI_8cpp.html#aa58932ec11d2082fde8b1bb2bd2a2b6d">RequestPage</a> (unsigned long <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
 <tr class="separator:aa58932ec11d2082fde8b1bb2bd2a2b6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -325,8 +325,7 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00021">21</a> of file <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html">DriverAPI.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{ <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;[%ld] %s&quot;</span>, DriverUID, <a class="code" href="../../d3/dee/classString.html">String</a>); }</div>
-<div class="ttc" id="aclassString_html"><div class="ttname"><a href="../../d3/dee/classString.html">String</a></div><div class="ttdoc">String class String class that can be used to store strings.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/da0/string_8hpp_source.html#l00023">string.hpp:24</a></div></div>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{ <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;[%ld] %s&quot;</span>, DriverUID, String); }</div>
 <div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00071">debug.h:71</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00071">trace</a>.</p>
@@ -352,8 +351,8 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html">DriverAPI.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    SmartLock(DriverDisplayPrintLock);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> i = 0; i &lt; <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(<a class="code" href="../../d3/dee/classString.html">String</a>); i++)</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#ab98c9dda551050e824860087e9abb419">Display</a>-&gt;Print(<a class="code" href="../../d3/dee/classString.html">String</a>[i], 0, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> i = 0; i &lt; <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(String); i++)</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#ab98c9dda551050e824860087e9abb419">Display</a>-&gt;Print(String[i], 0, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
 <div class="ttc" id="aDAPI_8hpp_html_ab98c9dda551050e824860087e9abb419"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#ab98c9dda551050e824860087e9abb419">Display</a></div><div class="ttdeci">struct KAPIDisplay Display</div></div>
 <div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00047">Convert.cpp:47</a></div></div>
@@ -452,11 +451,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;           (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)Destination, (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)Destination + <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>(Destination, Source, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
-<div class="ttc" id="aConvert_8cpp_html_a0c94a56e02776859c0f510bd6f7354c6"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memcpy(void *dest, const void *src, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00905">Convert.cpp:905</a></div></div>
+<div class="ttc" id="aConvert_8cpp_html_a0c94a56e02776859c0f510bd6f7354c6"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memcpy(void *dest, const void *src, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00942">Convert.cpp:942</a></div></div>
 <div class="ttc" id="aDriverAPI_8cpp_html_a3436ad726a010b0e407c6f3fa1b84907"><div class="ttname"><a href="../../d4/db2/DriverAPI_8cpp.html#a3436ad726a010b0e407c6f3fa1b84907">drvdbg</a></div><div class="ttdeci">#define drvdbg(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">DriverAPI.cpp:16</a></div></div>
 <div class="ttc" id="aXallocV1_8cpp_html_a9a6916f13c01e1cbb39bf087545542c7"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">XallocV1.cpp:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">drvdbg</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00905">memcpy()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">drvdbg</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00942">memcpy()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
 
 </div>
 </div>
@@ -500,9 +499,9 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;           <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a>(Destination, Value, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
-<div class="ttc" id="aConvert_8cpp_html_ae577b1098c1f745563eb0789fa58ae14"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memset(void *dest, int val, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00932">Convert.cpp:932</a></div></div>
+<div class="ttc" id="aConvert_8cpp_html_ae577b1098c1f745563eb0789fa58ae14"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memset(void *dest, int val, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00969">Convert.cpp:969</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">drvdbg</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00932">memset()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">drvdbg</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00969">memset()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
 
 </div>
 </div>
@@ -656,12 +655,12 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../d2/d00/Kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d">TimeManager</a>-&gt;<a class="code" href="../../dd/d8d/classTime_1_1time.html#a79937b39cb6ad50261411d2b4c1b7b7b">Sleep</a>(Milliseconds);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;}</div>
-<div class="ttc" id="aKernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00145">Kernel.cpp:145</a></div></div>
-<div class="ttc" id="aKernel_8cpp_html_ad5fb15538e6988f0db36d754a4a7d08d"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d">TimeManager</a></div><div class="ttdeci">Time::time * TimeManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00146">Kernel.cpp:146</a></div></div>
+<div class="ttc" id="aKernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00157">Kernel.cpp:157</a></div></div>
+<div class="ttc" id="aKernel_8cpp_html_ad5fb15538e6988f0db36d754a4a7d08d"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d">TimeManager</a></div><div class="ttdeci">Time::time * TimeManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00158">Kernel.cpp:158</a></div></div>
 <div class="ttc" id="aclassTasking_1_1Task_html_a5e7fc1784919363d910375371d41fa9b"><div class="ttname"><a href="../../dc/dc5/classTasking_1_1Task.html#a5e7fc1784919363d910375371d41fa9b">Tasking::Task::Sleep</a></div><div class="ttdeci">void Sleep(uint64_t Milliseconds)</div><div class="ttdoc">Sleep for a given amount of milliseconds.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d71/Task_8cpp_source.html#l00265">Task.cpp:265</a></div></div>
 <div class="ttc" id="aclassTime_1_1time_html_a79937b39cb6ad50261411d2b4c1b7b7b"><div class="ttname"><a href="../../dd/d8d/classTime_1_1time.html#a79937b39cb6ad50261411d2b4c1b7b7b">Time::time::Sleep</a></div><div class="ttdeci">void Sleep(uint64_t Milliseconds)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc2/Timer_8cpp_source.html#l00017">Timer.cpp:17</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">drvdbg</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00265">Tasking::Task::Sleep()</a>, <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00017">Time::time::Sleep()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00145">TaskManager</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00146">TimeManager</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">drvdbg</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00265">Tasking::Task::Sleep()</a>, <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00017">Time::time::Sleep()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00157">TaskManager</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00158">TimeManager</a>.</p>
 
 </div>
 </div>
@@ -706,11 +705,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;}</div>
 <div class="ttc" id="aprintf_8h_html_a2e8aa13bfb0ae95cdd2a2dbeea602cce"><div class="ttname"><a href="../../d3/d6b/printf_8h.html#a2e8aa13bfb0ae95cdd2a2dbeea602cce">vsprintf</a></div><div class="ttdeci">PRINTF_VISIBILITY int PRINTF_VISIBILITY int vsprintf(char *s, const char *format, va_list arg) ATTR_VPRINTF(2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3d/printf_8c_source.html#l01543">printf.c:1543</a></div></div>
-<div class="ttc" id="atypes_8h_html_a823b205416e9129825841b74c3bf8484"><div class="ttname"><a href="../../d9/d49/types_8h.html#a823b205416e9129825841b74c3bf8484">va_end</a></div><div class="ttdeci">#define va_end(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00046">types.h:46</a></div></div>
-<div class="ttc" id="atypes_8h_html_aa0628ab596c3d7e78f5e08c2d98e24da"><div class="ttname"><a href="../../d9/d49/types_8h.html#aa0628ab596c3d7e78f5e08c2d98e24da">va_start</a></div><div class="ttdeci">#define va_start(v, l)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00045">types.h:45</a></div></div>
-<div class="ttc" id="atypes_8h_html_af53f622e3b6c080daeb167c1955d7ec1"><div class="ttname"><a href="../../d9/d49/types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a></div><div class="ttdeci">__builtin_va_list va_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00042">types.h:42</a></div></div>
+<div class="ttc" id="atypes_8h_html_a823b205416e9129825841b74c3bf8484"><div class="ttname"><a href="../../d9/d49/types_8h.html#a823b205416e9129825841b74c3bf8484">va_end</a></div><div class="ttdeci">#define va_end(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00048">types.h:48</a></div></div>
+<div class="ttc" id="atypes_8h_html_aa0628ab596c3d7e78f5e08c2d98e24da"><div class="ttname"><a href="../../d9/d49/types_8h.html#aa0628ab596c3d7e78f5e08c2d98e24da">va_start</a></div><div class="ttdeci">#define va_start(v, l)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00047">types.h:47</a></div></div>
+<div class="ttc" id="atypes_8h_html_af53f622e3b6c080daeb167c1955d7ec1"><div class="ttname"><a href="../../d9/d49/types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a></div><div class="ttdeci">__builtin_va_list va_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00044">types.h:44</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00046">va_end</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00045">va_start</a>, and <a class="el" href="../../d1/d3d/printf_8c_source.html#l01543">vsprintf()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00048">va_end</a>, <a class="el" href="../../d9/d49/types_8h_source.html#l00047">va_start</a>, and <a class="el" href="../../d1/d3d/printf_8c_source.html#l01543">vsprintf()</a>.</p>
 
 </div>
 </div>
@@ -787,11 +786,12 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    SmartLock(DriverDisplayPrintLock);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../d4/db2/DriverAPI_8cpp.html#a3436ad726a010b0e407c6f3fa1b84907">drvdbg</a>(<span class="stringliteral">&quot;Mapping %#lx to %#lx with flags %#lx...&quot;</span>, (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)VirtualAddress, (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)PhysicalAddress, <a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    Memory::Virtual().Map(VirtualAddress, PhysicalAddress, <a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781">KernelPageTable</a>).Map(VirtualAddress, PhysicalAddress, <a class="code" href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a>);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
+<div class="ttc" id="aMemory_8cpp_html_ab22e39b03b381282cced0b85485b8781"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781">KernelPageTable</a></div><div class="ttdeci">PageTable4 * KernelPageTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00033">Memory.cpp:33</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_afe68b30aa80199feb71be5deda91978e"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#afe68b30aa80199feb71be5deda91978e">Flags</a></div><div class="ttdeci">uint32_t Flags</div><div class="ttdoc">Flags.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00038">acpi.hpp:38</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">drvdbg</a>, and <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00038">Flags</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">drvdbg</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00038">Flags</a>, and <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00033">KernelPageTable</a>.</p>
 
 </div>
 </div>
@@ -860,10 +860,10 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    SmartLock(DriverDisplayPrintLock);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../d4/db2/DriverAPI_8cpp.html#a3436ad726a010b0e407c6f3fa1b84907">drvdbg</a>(<span class="stringliteral">&quot;Unmapping %#lx...&quot;</span>, (<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)VirtualAddress);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    Memory::Virtual().Unmap(VirtualAddress);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781">KernelPageTable</a>).Unmap(VirtualAddress);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">drvdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00016">drvdbg</a>, and <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00033">KernelPageTable</a>.</p>
 
 </div>
 </div>
@@ -882,7 +882,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00142">142</a> of file <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html">DriverAPI.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00099">Driver::Driver::CallDriverEntryPoint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00100">Driver::Driver::CallDriverEntryPoint()</a>.</p>
 
 </div>
 </div>

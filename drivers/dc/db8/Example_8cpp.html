@@ -109,6 +109,8 @@ Functions</h2></td></tr>
 <tr class="separator:a56474bd9ccbe42a82994dd3415226f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8a62c2ae90dae14e107d0d84d3c2143"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143">CallbackHandler</a> (KernelCallback *Data)</td></tr>
 <tr class="separator:ae8a62c2ae90dae14e107d0d84d3c2143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19e1c27c2f987931f74d5e5ef9ca9f72"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#a19e1c27c2f987931f74d5e5ef9ca9f72">InterruptCallback</a> (CPURegisters *Registers)</td></tr>
+<tr class="separator:a19e1c27c2f987931f74d5e5ef9ca9f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af24e7dbc50400c89dbb3827cc25545fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc">HEAD</a> (FexFormatType_Driver, FexOSType_Fennix, <a class="el" href="../../da/d05/ATA_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>)</td></tr>
 <tr class="separator:af24e7dbc50400c89dbb3827cc25545fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af22ae37b84033edb178366e0d7d8f7e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">__attribute__</a> ((section(&quot;.extended&quot;))) FexExtended ExtendedHeader</td></tr>
@@ -136,7 +138,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
 
 </div>
 </div>
@@ -157,7 +159,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">References <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00055">CallbackHandler()</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00057">CallbackHandler()</a>, and <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00080">InterruptCallback()</a>.</p>
 
 </div>
 </div>
@@ -177,36 +179,31 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">switch</span> (Data-&gt;Reason)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">case</span> AcknowledgeReason:</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00057">57</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">switch</span> (Data-&gt;Reason)</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Kernel acknowledged the driver.&quot;</span>);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">case</span> InterruptReason:</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Interrupt received.&quot;</span>);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordflow">case</span> StopReason:</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Driver stopped.&quot;</span>);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Unknown reason.&quot;</span>);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">return</span> OK;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
-<div class="ttc" id="aExample_8cpp_html_a93bdbb2eb161fecc1c12d7b87345e718"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a></div><div class="ttdeci">#define print(msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00031">Example.cpp:31</a></div></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">case</span> AcknowledgeReason:</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Kernel acknowledged the driver.&quot;</span>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">case</span> StopReason:</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Driver stopped.&quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Unknown reason.&quot;</span>);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> OK;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
+<div class="ttc" id="aExample_8cpp_html_a93bdbb2eb161fecc1c12d7b87345e718"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a></div><div class="ttdeci">#define print(msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00033">Example.cpp:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00031">print</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00033">print</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/db8/Example_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">__attribute__()</a>.</p>
 
@@ -228,26 +225,26 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// Check if kernel API is valid</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">if</span> (!Data)</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> INVALID_KERNEL_API;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="comment">// Set the global variable to the kernel API</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a> = (KernelAPI *)Data;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// Check if kernel API version is valid. this is important because the kernel API may change in the future.</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Major &lt; 0 || <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Minor &lt; 0 || <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Patch &lt; 0)</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> KERNEL_API_VERSION_NOT_SUPPORTED;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// We print &quot;Hello World!&quot; to UART.</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Hello World!&quot;</span>);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> OK;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
-<div class="ttc" id="aExample_8cpp_html_a8829069e57a9845d74b32ce27a618ccd"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a></div><div class="ttdeci">KernelAPI * KAPI</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00028">Example.cpp:28</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="comment">// Check if kernel API is valid</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (!Data)</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span> INVALID_KERNEL_API;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">// Set the global variable to the kernel API</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a> = (KernelAPI *)Data;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">// Check if kernel API version is valid. this is important because the kernel API may change in the future.</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Major &lt; 0 || <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Minor &lt; 0 || <a class="code" href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a>-&gt;Version.Patch &lt; 0)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">return</span> KERNEL_API_VERSION_NOT_SUPPORTED;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// We print &quot;Hello World!&quot; to UART.</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Hello World!&quot;</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">return</span> OK;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
+<div class="ttc" id="aExample_8cpp_html_a8829069e57a9845d74b32ce27a618ccd"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a8829069e57a9845d74b32ce27a618ccd">KAPI</a></div><div class="ttdeci">KernelAPI * KAPI</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00030">Example.cpp:30</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00028">KAPI</a>, and <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00031">print</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00030">KAPI</a>, and <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00033">print</a>.</p>
 
 </div>
 </div>
@@ -285,6 +282,34 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a19e1c27c2f987931f74d5e5ef9ca9f72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19e1c27c2f987931f74d5e5ef9ca9f72">&#9670;&nbsp;</a></span>InterruptCallback()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int InterruptCallback </td>
+          <td>(</td>
+          <td class="paramtype">CPURegisters *&#160;</td>
+          <td class="paramname"><em>Registers</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00080">80</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Interrupt received.&quot;</span>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> OK;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00033">print</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/db8/Example_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">__attribute__()</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a8829069e57a9845d74b32ce27a618ccd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8829069e57a9845d74b32ce27a618ccd">&#9670;&nbsp;</a></span>KAPI</h2>
@@ -298,9 +323,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00036">DriverEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00038">DriverEntry()</a>.</p>
 
 </div>
 </div>

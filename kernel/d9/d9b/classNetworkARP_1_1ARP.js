@@ -14,6 +14,6 @@ var classNetworkARP_1_1ARP =
     [ "Resolve", "d9/d9b/classNetworkARP_1_1ARP.html#aea5959a080c4091d8767b2258a85e0e3", null ],
     [ "Search", "d9/d9b/classNetworkARP_1_1ARP.html#afd2f2f436226e54fdc798184c3d32ed2", null ],
     [ "Update", "d9/d9b/classNetworkARP_1_1ARP.html#ad4303d97f74adb3be32963be11ef67e2", null ],
-    [ "DiscoveredAddresses", "d9/d9b/classNetworkARP_1_1ARP.html#ab7c878a7d7344917679041756093e03d", null ],
+    [ "DiscoveredAddresses", "d9/d9b/classNetworkARP_1_1ARP.html#a87cb91dbf84ea3e4b2b015364231462f", null ],
     [ "Ethernet", "d9/d9b/classNetworkARP_1_1ARP.html#a955a27600a36e5585d4e921b502df0e1", null ]
 ];

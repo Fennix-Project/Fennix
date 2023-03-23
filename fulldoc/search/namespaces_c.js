@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['universalasynchronousreceivertransmitter_7176',['UniversalAsynchronousReceiverTransmitter',['../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html',1,'']]]
+  ['tasking_21543',['Tasking',['../d9/d3e/namespaceTasking.html',1,'']]],
+  ['time_21544',['Time',['../d3/d56/namespaceTime.html',1,'']]]
 ];

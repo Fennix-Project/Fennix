@@ -9,5 +9,5 @@ var dir_1d0569cc5983774d44b3be74c0aeec9e =
     [ "lock.hpp", "d8/de9/Userspace_2libc_2src_2lock_8hpp.html", null ],
     [ "Makefile", "d6/dfb/Userspace_2libc_2src_2Makefile.html", null ],
     [ "Runtime.c", "d8/d5b/Runtime_8c.html", "d8/d5b/Runtime_8c" ],
-    [ "string.c", "d1/db0/string_8c.html", "d1/db0/string_8c" ]
+    [ "string.c", "d4/d3f/libc_2src_2string_8c.html", "d4/d3f/libc_2src_2string_8c" ]
 ];

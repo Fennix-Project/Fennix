@@ -1,6 +1,16 @@
 var namespaceRecovery =
 [
     [ "KernelRecovery", "d0/db2/classRecovery_1_1KernelRecovery.html", "d0/db2/classRecovery_1_1KernelRecovery" ],
+    [ "BufBight10", "d2/d3b/namespaceRecovery.html#a5870fc887341fa77b948a1c34264d0ff", null ],
+    [ "BufBight100", "d2/d3b/namespaceRecovery.html#a537cc0310488e6b2fa9551e8c1c60be2", null ],
+    [ "BufBight20", "d2/d3b/namespaceRecovery.html#a1625e64ecd2d0903c66861c1beed8d51", null ],
+    [ "BufBight30", "d2/d3b/namespaceRecovery.html#a8bfc36d1545c3ab7f28becd8a17044d8", null ],
+    [ "BufBight40", "d2/d3b/namespaceRecovery.html#a8d6a23a75166711a97396cba9de5f08b", null ],
+    [ "BufBight50", "d2/d3b/namespaceRecovery.html#a4101effbe9309bef03c9be77c9841648", null ],
+    [ "BufBight60", "d2/d3b/namespaceRecovery.html#af8730ad4d8109ee4a3b33b80c8041325", null ],
+    [ "BufBight70", "d2/d3b/namespaceRecovery.html#ae6ad8c930cf2c75af3a11a1bdb04a619", null ],
+    [ "BufBight80", "d2/d3b/namespaceRecovery.html#ab7c8d40eb1d64fe32848c43bc23c8e59", null ],
+    [ "BufBight90", "d2/d3b/namespaceRecovery.html#a61a7b5c7a758f18a0ab239d79cc18cf6", null ],
     [ "ChangeSampleRate", "d2/d3b/namespaceRecovery.html#a600afaf4f5ff10231075aed2e448d3d0", null ],
     [ "ChangeVolume", "d2/d3b/namespaceRecovery.html#a419f4c2356137073bc44830ccedb7b95", null ],
     [ "CSR11025", "d2/d3b/namespaceRecovery.html#a8ffb4df81f90bb036dd56df64215d23d", null ],

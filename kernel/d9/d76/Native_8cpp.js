@@ -23,6 +23,7 @@ var Native_8cpp =
     [ "sys_kill_thread", "d9/d76/Native_8cpp.html#adc4d8a6d39af91d6612a7b5fd46a16bc", null ],
     [ "sys_print", "d9/d76/Native_8cpp.html#abafe5ee5b3728479eed675c3e328a596", null ],
     [ "sys_request_pages", "d9/d76/Native_8cpp.html#ac992c4f95b3c6139a8b7e5bd3890e732", null ],
+    [ "sys_sleep", "d9/d76/Native_8cpp.html#ac3bac7be2ece45f4168e44ac8937f171", null ],
     [ "sys_spawn", "d9/d76/Native_8cpp.html#aedf4ff63108c2fb1c4f82bf08623ce97", null ],
     [ "sys_spawn_thread", "d9/d76/Native_8cpp.html#aacf798812b10df0ccb396d9257c4d882", null ],
     [ "sys_sys_reserved_create_process", "d9/d76/Native_8cpp.html#a71d68b42ff96001cc3f2078c6492cb99", null ],

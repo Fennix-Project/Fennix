@@ -1,16 +1,18 @@
 var searchData=
 [
-  ['elf32_5fdyn_754',['Elf32_Dyn',['../d1/d9e/elf_8h.html#d8/d23/structElf32__Dyn',1,'']]],
-  ['elf32_5fdyn_2ed_5fun_755',['Elf32_Dyn.d_un',['../d1/d9e/elf_8h.html#d7/df0/unionElf32__Dyn_8d__un',1,'']]],
-  ['elf32_5fhdr_756',['elf32_hdr',['../d1/d9e/elf_8h.html#dd/d18/structelf32__hdr',1,'']]],
-  ['elf32_5fshdr_757',['elf32_shdr',['../d1/d9e/elf_8h.html#d8/d7e/structelf32__shdr',1,'']]],
-  ['elf64_5fauxv_5ft_758',['Elf64_auxv_t',['../d8/d7b/aux_8h.html#d9/de7/structElf64__auxv__t',1,'']]],
-  ['elf64_5fauxv_5ft_2ea_5fun_759',['Elf64_auxv_t.a_un',['../d8/d7b/aux_8h.html#d0/dc1/unionElf64__auxv__t_8a__un',1,'']]],
-  ['elf64_5fdyn_760',['Elf64_Dyn',['../d1/d9e/elf_8h.html#dd/d27/structElf64__Dyn',1,'']]],
-  ['elf64_5fdyn_2ed_5fun_761',['Elf64_Dyn.d_un',['../d1/d9e/elf_8h.html#db/d36/unionElf64__Dyn_8d__un',1,'']]],
-  ['elf64_5fhdr_762',['elf64_hdr',['../d1/d9e/elf_8h.html#da/d7b/structelf64__hdr',1,'']]],
-  ['elf64_5fphdr_763',['Elf64_Phdr',['../d1/d9e/elf_8h.html#d3/d7b/structElf64__Phdr',1,'']]],
-  ['elf64_5frela_764',['Elf64_Rela',['../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela',1,'']]],
-  ['elf64_5fshdr_765',['elf64_shdr',['../d1/d9e/elf_8h.html#d3/d22/structelf64__shdr',1,'']]],
-  ['elf64_5fsym_766',['elf64_sym',['../d1/d9e/elf_8h.html#d8/d92/structelf64__sym',1,'']]]
+  ['abstract_5ffile_14849',['abstract_file',['../dd/d37/structmlibc_1_1abstract__file.html',1,'mlibc']]],
+  ['actionf_5ft_14850',['actionf_t',['../d7/db1/d__think_8h.html#d2/d0e/unionactionf__t',1,'']]],
+  ['addrinfo_14851',['addrinfo',['../d4/d63/netdb_8h.html#d6/d9d/structaddrinfo',1,'']]],
+  ['aero_5fdir_5fentry_14852',['aero_dir_entry',['../d0/d9a/namespacemlibc.html#df/df6/structmlibc_1_1aero__dir__entry',1,'mlibc']]],
+  ['ai_5fbuf_14853',['ai_buf',['../d0/d9a/namespacemlibc.html#db/d4c/structmlibc_1_1ai__buf',1,'mlibc']]],
+  ['anim_5ft_14854',['anim_t',['../d6/d23/wi__stuff_8c.html#d3/d50/structanim__t',1,'']]],
+  ['animdef_5ft_14855',['animdef_t',['../d3/d1e/p__spec_8c.html#d3/d87/structanimdef__t',1,'']]],
+  ['ar_5fhdr_14856',['ar_hdr',['../d0/de8/ar_8h.html#d2/d8f/structar__hdr',1,'']]],
+  ['args_14857',['args',['../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs',1,'']]],
+  ['arphdr_14858',['arphdr',['../db/d8e/if__arp_8h.html#d8/dc1/structarphdr',1,'']]],
+  ['arpreq_14859',['arpreq',['../db/d8e/if__arp_8h.html#d8/da3/structarpreq',1,'']]],
+  ['atexit_5flistentry_5fs_14860',['atexit_listentry_s',['../d9/d93/i__system_8c.html#d7/d39/structatexit__listentry__s',1,'']]],
+  ['atforkhandler_14861',['AtforkHandler',['../da/dd1/structTcb_1_1AtforkHandler.html',1,'Tcb']]],
+  ['ax25_5faddress_14862',['ax25_address',['../d2/d63/ax25_8h.html#d1/d4c/structax25__address',1,'']]],
+  ['ax25_5fparms_5fstruct_14863',['ax25_parms_struct',['../d2/d63/ax25_8h.html#d8/d1e/structax25__parms__struct',1,'']]]
 ];

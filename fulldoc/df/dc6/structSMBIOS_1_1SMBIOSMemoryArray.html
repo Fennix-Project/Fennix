@@ -110,7 +110,7 @@ Data Fields</h2></td></tr>
 <tr class="separator:a22083947a83c852a9cabf9ed9381f6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d537caf762181acdca130cdbf61e90f"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#a5d537caf762181acdca130cdbf61e90f">MemoryErrorCorrection</a></td></tr>
 <tr class="separator:a5d537caf762181acdca130cdbf61e90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a425d458c7a75251b249fe7a88b361267"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#a425d458c7a75251b249fe7a88b361267">MaximumCapacity</a></td></tr>
+<tr class="memitem:a425d458c7a75251b249fe7a88b361267"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#a425d458c7a75251b249fe7a88b361267">MaximumCapacity</a></td></tr>
 <tr class="separator:a425d458c7a75251b249fe7a88b361267"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad9e47c2425ebf1dbaf7551c9da04155"><td class="memItemLeft" align="right" valign="top">unsigned short&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#aad9e47c2425ebf1dbaf7551c9da04155">MemoryErrorInformationHandle</a></td></tr>
 <tr class="separator:aad9e47c2425ebf1dbaf7551c9da04155"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,15 +151,16 @@ Data Fields</h2></td></tr>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            Index--;</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            <span class="keywordflow">if</span> (Index == 0 || Index &gt; 10)</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                <span class="keywordflow">return</span> Str;</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> i = 0; i &lt; Index; i++)</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; Index; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                Str = <a class="code" href="../../da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30">SMBIOSNextString</a>(Str);</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            <span class="keywordflow">return</span> Str;</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        }</div>
 <div class="ttc" id="anamespaceSMBIOS_html_aa2b216f0361ddab47094a829f2bbc7c3"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#aa2b216f0361ddab47094a829f2bbc7c3">SMBIOS::SMBIOSHeader::Length</a></div><div class="ttdeci">unsigned char Length</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00062">smbios.hpp:62</a></div></div>
 <div class="ttc" id="anamespaceSMBIOS_html_ade5c4d4c3f23921f77e72a38d3e2fc30"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30">SMBIOS::SMBIOSNextString</a></div><div class="ttdeci">static char * SMBIOSNextString(char *Str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00084">smbios.hpp:84</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
 <div class="ttc" id="astructSMBIOS_1_1SMBIOSMemoryArray_html_a74803dea611d47fedc72bff287b25fe3"><div class="ttname"><a href="../../df/dc6/structSMBIOS_1_1SMBIOSMemoryArray.html#a74803dea611d47fedc72bff287b25fe3">SMBIOS::SMBIOSMemoryArray::Header</a></div><div class="ttdeci">SMBIOSHeader Header</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00307">smbios.hpp:307</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00062">SMBIOS::SMBIOSHeader::Length</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00084">SMBIOS::SMBIOSNextString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00062">SMBIOS::SMBIOSHeader::Length</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00084">SMBIOS::SMBIOSNextString()</a>.</p>
 
 </div>
 </div>
@@ -203,7 +204,7 @@ Data Fields</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int SMBIOS::SMBIOSMemoryArray::MaximumCapacity</td>
+          <td class="memname">unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> SMBIOS::SMBIOSMemoryArray::MaximumCapacity</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -26,6 +26,7 @@ var convert_8h =
     [ "isupper", "d3/d82/convert_8h.html#adadd6582d46775aab6a51e29d16d9f77", null ],
     [ "itoa", "d3/d82/convert_8h.html#ad8be154309b350a31eb551a4c0b00845", null ],
     [ "lerp", "d3/d82/convert_8h.html#aaece5bea3dfe5043f19232f3e6e1e575", null ],
+    [ "log2", "d3/d82/convert_8h.html#aa72d03236b93a9404b6fb822461ac577", null ],
     [ "ltoa", "d3/d82/convert_8h.html#aca5a8353d645c816b47891c9481c3b8f", null ],
     [ "memcmp", "d3/d82/convert_8h.html#ac376fcece8fcc2d0f8b1cf3de18b10df", null ],
     [ "memcpy_sse", "d3/d82/convert_8h.html#ad209e8a6fc7ed7bdfca2b229aa784183", null ],

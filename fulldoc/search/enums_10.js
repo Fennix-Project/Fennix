@@ -1,4 +1,22 @@
 var searchData=
 [
-  ['videotype_10579',['VideoType',['../d8/d0e/Multiboot2_8cpp.html#ad303a41483e094d68465b3d33e5d716f',1,'Multiboot2.cpp']]]
+  ['sc_5fresult_5ft_32050',['sc_result_t',['../d0/d9a/namespacemlibc.html#acbe329ff64f5a53ac0c41599f8363bc9',1,'mlibc']]],
+  ['segmenttypes_32051',['SegmentTypes',['../d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2',1,'SegmentTypes():&#160;elf.h'],['../d2/de8/Userspace_2libc_2ElfInterpreter_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2',1,'SegmentTypes():&#160;elf.h']]],
+  ['serialports_32052',['SerialPorts',['../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96',1,'UniversalAsynchronousReceiverTransmitter']]],
+  ['sfxenum_5ft_32053',['sfxenum_t',['../dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706',1,'sounds.h']]],
+  ['skill_5ft_32054',['skill_t',['../d7/d68/d__mode_8h.html#a80cfb3e8b04748649d26c22a1aaff90e',1,'d_mode.h']]],
+  ['slopetype_5ft_32055',['slopetype_t',['../dd/d76/r__defs_8h.html#ad458e73c26eba728dce6d0cf01f4b376',1,'r_defs.h']]],
+  ['smbiostype_32056',['SMBIOSType',['../da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863ae',1,'SMBIOS']]],
+  ['smptrampolineaddress_32057',['SMPTrampolineAddress',['../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138df',1,'SymmetricMultiprocessing.cpp']]],
+  ['snddevice_5ft_32058',['snddevice_t',['../d9/d1b/i__sound_8h.html#a36a8f7d6784e309bb5ca47d4bc570dae',1,'i_sound.h']]],
+  ['spritenum_5ft_32059',['spritenum_t',['../d4/d21/info_8h.html#a059c98f3565f26d03c8b4932d25458e4',1,'info.h']]],
+  ['st_5fchatstateenum_5ft_32060',['st_chatstateenum_t',['../de/d27/st__stuff_8h.html#a3bf4c5b34bf90da5cdb459c6e4b2f475',1,'st_stuff.h']]],
+  ['st_5fstateenum_5ft_32061',['st_stateenum_t',['../de/d27/st__stuff_8h.html#a7adfa994fc16b15ae7bbb364d3b41b31',1,'st_stuff.h']]],
+  ['stair_5fe_32062',['stair_e',['../d2/d78/p__spec_8h.html#a39c5f6b909ec3ecfc29d131e3436152b',1,'p_spec.h']]],
+  ['stateenum_5ft_32063',['stateenum_t',['../df/d47/wi__stuff_8h.html#a56e1c4b0731621fcc856f91a00a719e7',1,'wi_stuff.h']]],
+  ['statenum_5ft_32064',['statenum_t',['../d4/d21/info_8h.html#a29353e95e7dd5ba27a3d1c65edc71a85',1,'info.h']]],
+  ['stream_5ftype_32065',['stream_type',['../d0/d9a/namespacemlibc.html#a00c12172228d0a805bc3f78b72c0b588',1,'mlibc']]],
+  ['stt_5fbindings_32066',['StT_Bindings',['../d4/dae/Kernel_2include_2elf_8h.html#aa6b66d617b12c38fbe8cc9709e39d374',1,'elf.h']]],
+  ['stt_5ftypes_32067',['StT_Types',['../d4/dae/Kernel_2include_2elf_8h.html#af0c70b994f8c1412c65c361fba1e7410',1,'elf.h']]],
+  ['syscallserrorcodes_32068',['SyscallsErrorCodes',['../d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5',1,'syscalls.h']]]
 ];

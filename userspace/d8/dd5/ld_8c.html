@@ -86,8 +86,11 @@ $(document).ready(function(){initNavTree('d8/dd5/ld_8c.html','../../'); initResi
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">ld.c File Reference</div>  </div>
 </div><!--header-->
@@ -95,10 +98,26 @@ $(document).ready(function(){initNavTree('d8/dd5/ld_8c.html','../../'); initResi
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d9/d37/ld_8h_source.html">ld.h</a>&quot;</code><br />
 <code>#include &quot;../../../Kernel/syscalls.h&quot;</code><br />
 <code>#include &quot;../../../Kernel/ipc.h&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d1/d9e/elf_8h_source.html">elf.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html">elf.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d8/dd5/ld_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:d1/d08/structLibAddressCollection"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a></td></tr>
+<tr class="separator:d1/d08/structLibAddressCollection"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d6/d62/structInterpreterIPCDataLibrary"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#d6/d62/structInterpreterIPCDataLibrary">InterpreterIPCDataLibrary</a></td></tr>
+<tr class="separator:d6/d62/structInterpreterIPCDataLibrary"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d3/dbb/structInterpreterIPCData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#d3/dbb/structInterpreterIPCData">InterpreterIPCData</a></td></tr>
+<tr class="separator:d3/dbb/structInterpreterIPCData"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a3acffbd305ee72dcd4593c0d8af64a4f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(a,  <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)&#160;&#160;&#160;(((a) &lt; (<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)) ? (a) : (<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>))</td></tr>
+<tr class="separator:a3acffbd305ee72dcd4593c0d8af64a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa99ec4acc4ecb2dc3c2d05da15d0e3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(a,  <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)&#160;&#160;&#160;(((a) &gt; (<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)) ? (a) : (<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>))</td></tr>
+<tr class="separator:afa99ec4acc4ecb2dc3c2d05da15d0e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:ac30fb415508f133d3e4eccf9b6e1dd1f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1f">KCtl</a> { <br />
@@ -125,19 +144,241 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a153ad81e4a5fef673eea5227fa1f7a1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a153ad81e4a5fef673eea5227fa1f7a1e">RequestPages</a> (<a class="el" href="../../d3/dce/stddef_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Count)</td></tr>
+<tr class="memitem:a153ad81e4a5fef673eea5227fa1f7a1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a153ad81e4a5fef673eea5227fa1f7a1e">RequestPages</a> (<a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> Count)</td></tr>
 <tr class="separator:a153ad81e4a5fef673eea5227fa1f7a1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7bcfef3a08951168e6c36e415c012fe"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#aa7bcfef3a08951168e6c36e415c012fe">FreePages</a> (<a class="el" href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Address, <a class="el" href="../../d3/dce/stddef_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Count)</td></tr>
+<tr class="memitem:aa7bcfef3a08951168e6c36e415c012fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#aa7bcfef3a08951168e6c36e415c012fe">FreePages</a> (<a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Address, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> Count)</td></tr>
 <tr class="separator:aa7bcfef3a08951168e6c36e415c012fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55d9d7ee5bdb3e85b4d0447e82a2054b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a> (enum IPCCommand Command, enum IPCType Type, int ID, int Flags, void *Buffer, <a class="el" href="../../d3/dce/stddef_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Size)</td></tr>
+<tr class="memitem:a55d9d7ee5bdb3e85b4d0447e82a2054b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a> (enum IPCCommand Command, enum IPCType Type, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> ID, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> Flags, void *Buffer, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> Size)</td></tr>
 <tr class="separator:a55d9d7ee5bdb3e85b4d0447e82a2054b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf0490395930cad575bbe2a6d894082b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#aaf0490395930cad575bbe2a6d894082b">KernelCTL</a> (enum <a class="el" href="../../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1f">KCtl</a> Command, <a class="el" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg1, <a class="el" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg2, <a class="el" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg3, <a class="el" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg4)</td></tr>
+<tr class="memitem:aaf0490395930cad575bbe2a6d894082b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#aaf0490395930cad575bbe2a6d894082b">KernelCTL</a> (enum <a class="el" href="../../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1f">KCtl</a> Command, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg1, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg2, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg3, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a> Arg4)</td></tr>
 <tr class="separator:aaf0490395930cad575bbe2a6d894082b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0fd881e24373252b8f3aaf183dd5f11"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#af0fd881e24373252b8f3aaf183dd5f11">ld_main</a> ()</td></tr>
+<tr class="memitem:ae9ef9358e344e6c571c18834f979c681"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#ae9ef9358e344e6c571c18834f979c681">__attribute__</a> ((naked, used, no_stack_protector))</td></tr>
+<tr class="separator:ae9ef9358e344e6c571c18834f979c681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac912cb54a735bc42e2d130049eb99174"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#ac912cb54a735bc42e2d130049eb99174">abs</a> (long <a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>)</td></tr>
+<tr class="separator:ac912cb54a735bc42e2d130049eb99174"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5caa2956a259c15d67de63fcddff3e57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a5caa2956a259c15d67de63fcddff3e57">swap</a> (char *<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, char *<a class="el" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>)</td></tr>
+<tr class="separator:a5caa2956a259c15d67de63fcddff3e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af927ee96b41aa243c2191642f1788665"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#af927ee96b41aa243c2191642f1788665">reverse</a> (char *Buffer, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a>)</td></tr>
+<tr class="separator:af927ee96b41aa243c2191642f1788665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca5a8353d645c816b47891c9481c3b8f"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a> (long <a class="el" href="../../d9/df3/structValue.html">Value</a>, char *Buffer, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> Base)</td></tr>
+<tr class="separator:aca5a8353d645c816b47891c9481c3b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf43ae8f92f50067b7a65c4dc3a25fa2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#adf43ae8f92f50067b7a65c4dc3a25fa2">PutCharToKernelConsole</a> (char <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>)</td></tr>
+<tr class="separator:adf43ae8f92f50067b7a65c4dc3a25fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfb1d8190d47c3c0448ee8e38662625c"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#adfb1d8190d47c3c0448ee8e38662625c">memcpy</a> (void *dest, const void *src, __SIZE_TYPE__ <a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)</td></tr>
+<tr class="separator:adfb1d8190d47c3c0448ee8e38662625c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5206cb6f52495066146ae3a41d166eb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a5206cb6f52495066146ae3a41d166eb7">strcmp</a> (const char *l, const char *<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>)</td></tr>
+<tr class="separator:a5206cb6f52495066146ae3a41d166eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80443dbbe148243a264f9c7c43e41b89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a80443dbbe148243a264f9c7c43e41b89">ELFGetSymbol</a> (__UINTPTR_TYPE__ *ElfFile, char *SymbolName)</td></tr>
+<tr class="separator:a80443dbbe148243a264f9c7c43e41b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd30b05a3124715a6b96d2c83e6773b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a> (char *String)</td></tr>
+<tr class="separator:acd30b05a3124715a6b96d2c83e6773b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19ce84ab87215172a868a4da1d71a41b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a> (char *String)</td></tr>
+<tr class="separator:a19ce84ab87215172a868a4da1d71a41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d6fa1d5f15106c50d83d8cc4bf5acfa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a5d6fa1d5f15106c50d83d8cc4bf5acfa">ELFAddLazyResolverToGOT</a> (void *ElfFile, void *MemoryImage, struct <a class="el" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a> *Libs)</td></tr>
+<tr class="separator:a5d6fa1d5f15106c50d83d8cc4bf5acfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0fd881e24373252b8f3aaf183dd5f11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#af0fd881e24373252b8f3aaf183dd5f11">ld_main</a> ()</td></tr>
 <tr class="separator:af0fd881e24373252b8f3aaf183dd5f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97b74b9d76bb371eb26660888651ef6c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a97b74b9d76bb371eb26660888651ef6c">ld_load</a> (int argc, char *argv[], char *envp[])</td></tr>
+<tr class="memitem:a97b74b9d76bb371eb26660888651ef6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a97b74b9d76bb371eb26660888651ef6c">ld_load</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> argc, char *argv[], char *envp[])</td></tr>
 <tr class="separator:a97b74b9d76bb371eb26660888651ef6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a95b9ec9b558db4721392ca6a4dfeda1e"><td class="memItemLeft" align="right" valign="top">static char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a> = 0</td></tr>
+<tr class="separator:a95b9ec9b558db4721392ca6a4dfeda1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dd79b3680b21e2bd776b9c3f3d855b1"><td class="memItemLeft" align="right" valign="top">void(*)()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd5/ld_8c.html#a0dd79b3680b21e2bd776b9c3f3d855b1">ELF_LAZY_RESOLVE_MAIN</a> (struct <a class="el" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a> *Info, long RelIndex)</td></tr>
+<tr class="separator:a0dd79b3680b21e2bd776b9c3f3d855b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<hr/><h2 class="groupheader">Data Structure Documentation</h2>
+<a name="d1/d08/structLibAddressCollection" id="d1/d08/structLibAddressCollection"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d1/d08/structLibAddressCollection">&#9670;&nbsp;</a></span>LibAddressCollection</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct LibAddressCollection</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00038">38</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="aa3ad72984f24f1d520f7f629a15436bd"></a>__UINTPTR_TYPE__ *</td>
+<td class="fieldname">
+ElfFile</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ad088746940b4862d211fd41dd4c61b79"></a>__UINTPTR_TYPE__ *</td>
+<td class="fieldname">
+MemoryImage</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac0134c9bcee4f8200b739ea61cd97266"></a>char</td>
+<td class="fieldname">
+Name[32]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="acd82d73e2f8ea5bc398bec797e6e3ce0"></a>struct <a class="el" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a> *</td>
+<td class="fieldname">
+Next</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a2524f629dbd7814adbd62be586156659"></a>__UINTPTR_TYPE__ *</td>
+<td class="fieldname">
+ParentElfFile</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a473fed402007a319bd479d4aaaac891d"></a>__UINTPTR_TYPE__ *</td>
+<td class="fieldname">
+ParentMemoryImage</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a8ecca9817146f3ae6bf9cd65d08092f6"></a>char</td>
+<td class="fieldname">
+Valid</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d6/d62/structInterpreterIPCDataLibrary" id="d6/d62/structInterpreterIPCDataLibrary"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d6/d62/structInterpreterIPCDataLibrary">&#9670;&nbsp;</a></span>InterpreterIPCDataLibrary</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct InterpreterIPCDataLibrary</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00679">679</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ac14b56b07711157e81e632a7b17671e8"></a>char</td>
+<td class="fieldname">
+Name[128]</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d3/dbb/structInterpreterIPCData" id="d3/dbb/structInterpreterIPCData"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d3/dbb/structInterpreterIPCData">&#9670;&nbsp;</a></span>InterpreterIPCData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct InterpreterIPCData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00684">684</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="af8e3302111623cfc2c1a937f7ccdcbd5"></a>void *</td>
+<td class="fieldname">
+ElfFile</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a634b835804e8da8ad7278facfd249d44"></a>struct <a class="el" href="../../d8/dd5/ld_8c.html#d6/d62/structInterpreterIPCDataLibrary">InterpreterIPCDataLibrary</a></td>
+<td class="fieldname">
+Libraries[64]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a0bd515a0f84d99f6b2cd8383a07ab5b8"></a>void *</td>
+<td class="fieldname">
+MemoryImage</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a8964ed8e1ab99f685cedb1325a994f5f"></a>char</td>
+<td class="fieldname">
+Path[256]</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="afa99ec4acc4ecb2dc3c2d05da15d0e3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa99ec4acc4ecb2dc3c2d05da15d0e3f">&#9670;&nbsp;</a></span>MAX</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAX</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(((a) &gt; (<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)) ? (a) : (<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00050">50</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+
+</div>
+</div>
+<a id="a3acffbd305ee72dcd4593c0d8af64a4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3acffbd305ee72dcd4593c0d8af64a4f">&#9670;&nbsp;</a></span>MIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MIN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">a, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(((a) &lt; (<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)) ? (a) : (<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00049">49</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="ac30fb415508f133d3e4eccf9b6e1dd1f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac30fb415508f133d3e4eccf9b6e1dd1f">&#9670;&nbsp;</a></span>KCtl</h2>
@@ -188,6 +429,210 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ae9ef9358e344e6c571c18834f979c681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9ef9358e344e6c571c18834f979c681">&#9670;&nbsp;</a></span>__attribute__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">__attribute__ </td>
+          <td>(</td>
+          <td class="paramtype">(naked, used, no_stack_protector)&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00054">54</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a> == 1)</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        ;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;mfence\n&quot;</span>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a> = 1;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;pop %r11\n&quot;</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                         <span class="stringliteral">&quot;pop %r10\n&quot;</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                         <span class="stringliteral">&quot;push %rdi\n&quot;</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                         <span class="stringliteral">&quot;push %rsi\n&quot;</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                         <span class="stringliteral">&quot;push %rdx\n&quot;</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                         <span class="stringliteral">&quot;push %rcx\n&quot;</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                         <span class="stringliteral">&quot;push %r8\n&quot;</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                         <span class="stringliteral">&quot;push %r9\n&quot;</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                         <span class="stringliteral">&quot;mov %r11, %rdi\n&quot;</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                         <span class="stringliteral">&quot;mov %r10, %rsi\n&quot;</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                         <span class="stringliteral">&quot;call ELF_LAZY_RESOLVE_MAIN\n&quot;</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                         <span class="stringliteral">&quot;mov %rax, %r11\n&quot;</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                         <span class="stringliteral">&quot;pop %r9\n&quot;</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                         <span class="stringliteral">&quot;pop %r8\n&quot;</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                         <span class="stringliteral">&quot;pop %rcx\n&quot;</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                         <span class="stringliteral">&quot;pop %rdx\n&quot;</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                         <span class="stringliteral">&quot;pop %rsi\n&quot;</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                         <span class="stringliteral">&quot;pop %rdi\n&quot;</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                         <span class="stringliteral">&quot;jmp *%r11\n&quot;</span>);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
+<div class="ttc" id="ald_8c_html_a95b9ec9b558db4721392ca6a4dfeda1e"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a></div><div class="ttdeci">static char Lock</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00052">ld.c:52</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d8/dd5/ld_8c_source.html#l00052">Lock</a>.</p>
+
+</div>
+</div>
+<a id="ac912cb54a735bc42e2d130049eb99174"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac912cb54a735bc42e2d130049eb99174">&#9670;&nbsp;</a></span>abs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long abs </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00087">87</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; 0 ? -<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> : <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>; }</div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/db9/m__fixed_8c_source.html#l00047">FixedDiv()</a>, <a class="el" href="../../d3/de0/g__game_8c_source.html#l00733">G_Responder()</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00103">ltoa()</a>, <a class="el" href="../../df/da2/abs_8c_source.html#l00005">main()</a>, <a class="el" href="../../d4/d64/p__maputl_8c_source.html#l00045">P_AproxDistance()</a>, <a class="el" href="../../d6/dae/p__enemy_8c_source.html#l00351">P_NewChaseDir()</a>, <a class="el" href="../../d4/d64/p__maputl_8c_source.html#l00862">P_PathTraverse()</a>, <a class="el" href="../../dc/d6d/p__map_8c_source.html#l00275">PIT_CheckThing()</a>, <a class="el" href="../../dc/d6d/p__map_8c_source.html#l01211">PIT_RadiusAttack()</a>, <a class="el" href="../../dc/d6d/p__map_8c_source.html#l00097">PIT_StompThing()</a>, <a class="el" href="../../d6/dae/p__enemy_8c_source.html#l01114">PIT_VileCheck()</a>, <a class="el" href="../../d6/d8b/r__plane_8c_source.html#l00360">R_DrawPlanes()</a>, <a class="el" href="../../db/d4e/r__things_8c_source.html#l00390">R_DrawVisSprite()</a>, <a class="el" href="../../d9/d7a/r__main_8c_source.html#l00667">R_ExecuteSetViewSize()</a>, <a class="el" href="../../d9/d7a/r__main_8c_source.html#l00377">R_PointToDist()</a>, <a class="el" href="../../db/d4e/r__things_8c_source.html#l00444">R_ProjectSprite()</a>, <a class="el" href="../../d9/d7a/r__main_8c_source.html#l00449">R_ScaleFromGlobalAngle()</a>, <a class="el" href="../../d5/d9e/r__segs_8c_source.html#l00373">R_StoreWallRange()</a>, and <a class="el" href="../../d0/d3d/s__sound_8c_source.html#l00323">S_AdjustSoundParams()</a>.</p>
+
+</div>
+</div>
+<a id="a5d6fa1d5f15106c50d83d8cc4bf5acfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d6fa1d5f15106c50d83d8cc4bf5acfa">&#9670;&nbsp;</a></span>ELFAddLazyResolverToGOT()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/dce/stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> ELFAddLazyResolverToGOT </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ElfFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>MemoryImage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a> *&#160;</td>
+          <td class="paramname"><em>Libs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00375">375</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;{</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> *Dyn = (<span class="keyword">struct </span><a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> *)<a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a0b92bdb5904fc857a9cd81f8f43c1b68">ELFGetDynamicTag</a>(ElfFile, <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bbaa143c6628f1b7b7f3b94e19902751512">DT_PLTGOT</a>);</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <span class="keywordflow">if</span> (!Dyn)</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160; </div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ac9a878f70b0e1eae08575fd04488fbe7">Elf64_Addr</a> *GOT = (<a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ac9a878f70b0e1eae08575fd04488fbe7">Elf64_Addr</a> *)Dyn-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_ptr;</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160; </div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <span class="comment">// for (size_t i = 0; i &lt; 16; i++)</span></div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    <span class="comment">// {</span></div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="comment">//     char Itr[32];</span></div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    <span class="comment">//     char LibAddressBuffer[32];</span></div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    <span class="comment">//     char LibValueBuffer[32];</span></div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <span class="comment">//     ltoa(i, Itr, 10);</span></div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    <span class="comment">//     ltoa(&amp;GOT[i], LibAddressBuffer, 16);</span></div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <span class="comment">//     ltoa(GOT[i], LibValueBuffer, 16);</span></div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160; </div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <span class="comment">//     Print(&quot;GOT[&quot;);</span></div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    <span class="comment">//     Print(Itr);</span></div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <span class="comment">//     Print(&quot;]: 0x&quot;);</span></div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <span class="comment">//     Print(LibAddressBuffer);</span></div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    <span class="comment">//     Print(&quot; (val: 0x&quot;);</span></div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    <span class="comment">//     Print(LibValueBuffer);</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    <span class="comment">//     PrintNL(&quot;)&quot;);</span></div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="comment">// }</span></div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160; </div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    GOT[1] = (<a class="code" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)Libs;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    GOT[2] = (<a class="code" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)ELF_LAZY_RESOLVE_STUB;</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;}</div>
+<div class="ttc" id="alibc_2ElfInterpreter_2elf_8h_html_a0b92bdb5904fc857a9cd81f8f43c1b68"><div class="ttname"><a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a0b92bdb5904fc857a9cd81f8f43c1b68">ELFGetDynamicTag</a></div><div class="ttdeci">struct Elf64_Dyn * ELFGetDynamicTag(void *ElfFile, enum DynamicArrayTags Tag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/helper_8c_source.html#l00003">helper.c:3</a></div></div>
+<div class="ttc" id="alibc_2ElfInterpreter_2elf_8h_html_a370bb33de42069f09315e96d5f8053bbaa143c6628f1b7b7f3b94e19902751512"><div class="ttname"><a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bbaa143c6628f1b7b7f3b94e19902751512">DT_PLTGOT</a></div><div class="ttdeci">@ DT_PLTGOT</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00071">elf.h:71</a></div></div>
+<div class="ttc" id="alibc_2ElfInterpreter_2elf_8h_html_ac9a878f70b0e1eae08575fd04488fbe7"><div class="ttname"><a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ac9a878f70b0e1eae08575fd04488fbe7">Elf64_Addr</a></div><div class="ttdeci">__UINT64_TYPE__ Elf64_Addr</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00010">elf.h:10</a></div></div>
+<div class="ttc" id="alibc_2include_2inttypes_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df0/libc_2include_2inttypes_8h_source.html#l00032">inttypes.h:32</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_a1e3ff5d1c9c03e07bff83cafc1de6193"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">Elf64_Dyn::d_un</a></div><div class="ttdeci">union Elf64_Dyn::@20 d_un</div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_dd/d27/structElf64__Dyn"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00251">elf.h:252</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">Elf64_Dyn::d_un</a>, <a class="el" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00071">DT_PLTGOT</a>, and <a class="el" href="../../d3/dcd/helper_8c_source.html#l00003">ELFGetDynamicTag()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00693">ld_load()</a>.</p>
+
+</div>
+</div>
+<a id="a80443dbbe148243a264f9c7c43e41b89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80443dbbe148243a264f9c7c43e41b89">&#9670;&nbsp;</a></span>ELFGetSymbol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a>* ELFGetSymbol </td>
+          <td>(</td>
+          <td class="paramtype">__UINTPTR_TYPE__ *&#160;</td>
+          <td class="paramname"><em>ElfFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>SymbolName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00155">155</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;{</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> *_SymTab = <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a0b92bdb5904fc857a9cd81f8f43c1b68">ELFGetDynamicTag</a>(ElfFile, <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bbaea09a60ec7bff5f827c1199dd2860fcd">DT_SYMTAB</a>);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> *_StrTab = <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a0b92bdb5904fc857a9cd81f8f43c1b68">ELFGetDynamicTag</a>(ElfFile, <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba3867ebc31c47082b29aaf6939ba1eb83">DT_STRTAB</a>);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a> *DynSym = (<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a> *)(ElfFile + _SymTab-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_ptr);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordtype">char</span> *DynStr = (<span class="keywordtype">char</span> *)(ElfFile + _StrTab-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_ptr);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; _SymTab-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_val; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/dd5/ld_8c.html#a5206cb6f52495066146ae3a41d166eb7">strcmp</a>(DynStr + DynSym[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>].st_name, SymbolName) == 0)</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <span class="keywordflow">return</span> &amp;DynSym[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>];</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    }</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a> *)0;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;}</div>
+<div class="ttc" id="ald_8c_html_a5206cb6f52495066146ae3a41d166eb7"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a5206cb6f52495066146ae3a41d166eb7">strcmp</a></div><div class="ttdeci">int strcmp(const char *l, const char *r)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00148">ld.c:148</a></div></div>
+<div class="ttc" id="alibc_2ElfInterpreter_2elf_8h_html_a370bb33de42069f09315e96d5f8053bba3867ebc31c47082b29aaf6939ba1eb83"><div class="ttname"><a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba3867ebc31c47082b29aaf6939ba1eb83">DT_STRTAB</a></div><div class="ttdeci">@ DT_STRTAB</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00073">elf.h:73</a></div></div>
+<div class="ttc" id="alibc_2ElfInterpreter_2elf_8h_html_a370bb33de42069f09315e96d5f8053bbaea09a60ec7bff5f827c1199dd2860fcd"><div class="ttname"><a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bbaea09a60ec7bff5f827c1199dd2860fcd">DT_SYMTAB</a></div><div class="ttdeci">@ DT_SYMTAB</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00074">elf.h:74</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_de/dae/structElf64__Sym"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h_source.html#l00169">elf.h:169</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">Elf64_Dyn::d_un</a>, <a class="el" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00073">DT_STRTAB</a>, <a class="el" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00074">DT_SYMTAB</a>, <a class="el" href="../../d3/dcd/helper_8c_source.html#l00003">ELFGetDynamicTag()</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, and <a class="el" href="../../d8/dd5/ld_8c_source.html#l00148">strcmp()</a>.</p>
+
+</div>
+</div>
 <a id="aa7bcfef3a08951168e6c36e415c012fe"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa7bcfef3a08951168e6c36e415c012fe">&#9670;&nbsp;</a></span>FreePages()</h2>
 
@@ -195,15 +640,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int FreePages </td>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> FreePages </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td>
           <td class="paramname"><em>Address</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dce/stddef_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
           <td class="paramname"><em>Count</em>&#160;</td>
         </tr>
         <tr>
@@ -222,6 +667,8 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../df/dea/echo_8cpp_source.html#l00001">syscall2()</a>.</p>
 
+<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00693">ld_load()</a>.</p>
+
 </div>
 </div>
 <a id="a55d9d7ee5bdb3e85b4d0447e82a2054b"></a>
@@ -231,7 +678,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int IPC </td>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> IPC </td>
           <td>(</td>
           <td class="paramtype">enum IPCCommand&#160;</td>
           <td class="paramname"><em>Command</em>, </td>
@@ -245,13 +692,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
           <td class="paramname"><em>ID</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
           <td class="paramname"><em>Flags</em>, </td>
         </tr>
         <tr>
@@ -263,7 +710,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dce/stddef_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
           <td class="paramname"><em>Size</em>&#160;</td>
         </tr>
         <tr>
@@ -276,10 +723,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00028">28</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> syscall6(_IPC, Command, Type, ID, Flags, Buffer, Size);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d80/aero_2include_2aero_2syscall_8h.html#a095c434bfedd524cd99f378ed88324c8">syscall6</a>(_IPC, Command, Type, ID, Flags, Buffer, Size);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="ttc" id="aaero_2include_2aero_2syscall_8h_html_a095c434bfedd524cd99f378ed88324c8"><div class="ttname"><a href="../../da/d80/aero_2include_2aero_2syscall_8h.html#a095c434bfedd524cd99f378ed88324c8">syscall6</a></div><div class="ttdeci">static sc_word_t syscall6(int sc, sc_word_t arg1, sc_word_t arg2, sc_word_t arg3, sc_word_t arg4, sc_word_t arg5, sc_word_t arg6)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00153">syscall.h:153</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00330">ld_load()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00153">syscall6()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00693">ld_load()</a>.</p>
 
 </div>
 </div>
@@ -290,7 +740,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> KernelCTL </td>
+          <td class="memname"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> KernelCTL </td>
           <td>(</td>
           <td class="paramtype">enum <a class="el" href="../../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1f">KCtl</a>&#160;</td>
           <td class="paramname"><em>Command</em>, </td>
@@ -298,25 +748,25 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Arg1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Arg2</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Arg3</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/dce/stddef_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a2095b9bffea4b2656950c6c0419edbf1">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Arg4</em>&#160;</td>
         </tr>
         <tr>
@@ -329,10 +779,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00033">33</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">return</span> syscall5(_KernelCTL, Command, Arg1, Arg2, Arg3, Arg4);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d80/aero_2include_2aero_2syscall_8h.html#a76779b49f9235071c1248646b78ce26a">syscall5</a>(_KernelCTL, Command, Arg1, Arg2, Arg3, Arg4);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<div class="ttc" id="aaero_2include_2aero_2syscall_8h_html_a76779b49f9235071c1248646b78ce26a"><div class="ttname"><a href="../../da/d80/aero_2include_2aero_2syscall_8h.html#a76779b49f9235071c1248646b78ce26a">syscall5</a></div><div class="ttdeci">static sc_word_t syscall5(int sc, sc_word_t arg1, sc_word_t arg2, sc_word_t arg3, sc_word_t arg4, sc_word_t arg5)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00138">syscall.h:138</a></div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00330">ld_load()</a>, and <a class="el" href="../../d8/dd5/ld_8c_source.html#l00308">ld_main()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00138">syscall5()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00693">ld_load()</a>, and <a class="el" href="../../d8/dd5/ld_8c_source.html#l00660">ld_main()</a>.</p>
 
 </div>
 </div>
@@ -343,9 +796,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ld_load </td>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> ld_load </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
           <td class="paramname"><em>argc</em>, </td>
         </tr>
         <tr>
@@ -368,39 +821,70 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00330">330</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;{</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                         :</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(1), <span class="stringliteral">&quot;D&quot;</span>(<span class="charliteral">&#39;L&#39;</span>), <span class="stringliteral">&quot;S&quot;</span>(0)</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160; </div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordtype">void</span> *IPCBuffer = (<span class="keywordtype">void</span> *)<a class="code" href="../../d8/dd5/ld_8c.html#a153ad81e4a5fef673eea5227fa1f7a1e">RequestPages</a>(1);</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160; </div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <a class="code" href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> PageSize = <a class="code" href="../../d8/dd5/ld_8c.html#aaf0490395930cad575bbe2a6d894082b">KernelCTL</a>(<a class="code" href="../../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77">KCTL_GET_PAGE_SIZE</a>, 0, 0, 0, 0);</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160; </div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keywordtype">int</span> IPC_ID = <a class="code" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a>(IPC_CREATE, IPC_TYPE_MessagePassing, 0, 0, <span class="stringliteral">&quot;LOAD&quot;</span>, PageSize);</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160; </div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    {</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        <a class="code" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a>(IPC_LISTEN, IPC_TYPE_MessagePassing, IPC_ID, 1, <a class="code" href="../../d3/dce/stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0);</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <a class="code" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a>(IPC_WAIT, IPC_TYPE_MessagePassing, IPC_ID, 0, <a class="code" href="../../d3/dce/stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0);</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <span class="keywordtype">int</span> IPCResult = <a class="code" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a>(IPC_READ, IPC_TYPE_MessagePassing, IPC_ID, 0, IPCBuffer, PageSize);</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        <span class="keywordflow">if</span> (IPCResult == IPC_E_CODE_Success)</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    }</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160; </div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a>(IPC_DELETE, IPC_TYPE_MessagePassing, IPC_ID, 0, <a class="code" href="../../d3/dce/stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0);</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="comment">// FreePages((uintptr_t)IPCBuffer, 1); &lt;- The kernel will free the buffer for us</span></div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordflow">return</span> *(<span class="keywordtype">int</span> *)IPCBuffer;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00693">693</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;{</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;    <a class="code" href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a>(_Print, <span class="charliteral">&#39;L&#39;</span>, 0);</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160; </div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    <a class="code" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> PageSize = <a class="code" href="../../d8/dd5/ld_8c.html#aaf0490395930cad575bbe2a6d894082b">KernelCTL</a>(<a class="code" href="../../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77">KCTL_GET_PAGE_SIZE</a>, 0, 0, 0, 0);</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    <span class="keywordtype">int</span> PagesForStruct = <span class="keyword">sizeof</span>(<a class="code" href="../../d8/dd5/ld_8c.html#d3/dbb/structInterpreterIPCData">InterpreterIPCData</a>) / PageSize + 1;</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#d3/dbb/structInterpreterIPCData">InterpreterIPCData</a> *IPCBuffer = (<a class="code" href="../../d8/dd5/ld_8c.html#d3/dbb/structInterpreterIPCData">InterpreterIPCData</a> *)<a class="code" href="../../d8/dd5/ld_8c.html#a153ad81e4a5fef673eea5227fa1f7a1e">RequestPages</a>(PagesForStruct);</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160; </div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    <span class="keywordtype">int</span> IPC_ID = <a class="code" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a>(IPC_CREATE, IPC_TYPE_MessagePassing, 0, 0, <span class="stringliteral">&quot;LOAD&quot;</span>, <span class="keyword">sizeof</span>(<a class="code" href="../../d8/dd5/ld_8c.html#d3/dbb/structInterpreterIPCData">InterpreterIPCData</a>));</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;    <span class="keywordflow">while</span> (1)</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;    {</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;        <a class="code" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a>(IPC_LISTEN, IPC_TYPE_MessagePassing, IPC_ID, 1, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>, 0);</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;        <a class="code" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a>(IPC_WAIT, IPC_TYPE_MessagePassing, IPC_ID, 0, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>, 0);</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;        <span class="keywordtype">int</span> IPCResult = <a class="code" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a>(IPC_READ, IPC_TYPE_MessagePassing, IPC_ID, 0, IPCBuffer, PageSize);</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        <span class="keywordflow">if</span> (IPCResult == IPC_E_CODE_Success)</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    }</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160; </div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; 256; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    {</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;        <span class="keywordflow">if</span> (IPCBuffer-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#a8964ed8e1ab99f685cedb1325a994f5f">Path</a>[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] == <span class="charliteral">&#39;\0&#39;</span>)</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;        <a class="code" href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a>(_Print, IPCBuffer-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#a8964ed8e1ab99f685cedb1325a994f5f">Path</a>[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>], 0);</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;    }</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    <a class="code" href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a>(_Print, <span class="charliteral">&#39;\n&#39;</span>, 0);</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160; </div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a>(IPC_DELETE, IPC_TYPE_MessagePassing, IPC_ID, 0, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>, 0);</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#aa7bcfef3a08951168e6c36e415c012fe">FreePages</a>((<a class="code" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)IPCBuffer, PagesForStruct);</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160; </div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    <a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#df/de8/structElf64__Ehdr">Elf64_Ehdr</a> *ELFHeader = (<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#df/de8/structElf64__Ehdr">Elf64_Ehdr</a> *)IPCBuffer-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#a0bd515a0f84d99f6b2cd8383a07ab5b8">MemoryImage</a>;</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160; </div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    <span class="comment">/* ... */</span></div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160; </div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    <span class="keyword">struct</span> <a class="code" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a> *LibsForLazyResolver = (<span class="keyword">struct</span> <a class="code" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a> *)<a class="code" href="../../d8/dd5/ld_8c.html#a153ad81e4a5fef673eea5227fa1f7a1e">RequestPages</a>(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> <a class="code" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a>) / PageSize + 1);</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    <span class="comment">/*</span></div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;<span class="comment">    TODO: Add libraries to LibsForLazyResolver</span></div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;<span class="comment">    This can be done by calling the kernel to load the libraries, and then adding them to the LibsForLazyResolver struct.</span></div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;<span class="comment">    Kernel has a thread for loading libraries. If the lib is already loaded, it will return the address of the loaded lib.</span></div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;<span class="comment">    */</span></div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160; </div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/dd5/ld_8c.html#a5d6fa1d5f15106c50d83d8cc4bf5acfa">ELFAddLazyResolverToGOT</a>(IPCBuffer-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#af8e3302111623cfc2c1a937f7ccdcbd5">ElfFile</a>, IPCBuffer-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#a0bd515a0f84d99f6b2cd8383a07ab5b8">MemoryImage</a>, LibsForLazyResolver))</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    {</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; 35; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;            <a class="code" href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a>(_Print, <span class="stringliteral">&quot;Failed to add lazy resolver to GOT\n&quot;</span>[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>], 0);</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        <span class="keywordflow">return</span> -0xE1F;</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;    }</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160; </div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    <span class="keywordflow">return</span> ((<span class="keywordtype">int</span> (*)(<span class="keywordtype">int</span>, <span class="keywordtype">char</span> *[], <span class="keywordtype">char</span> *[]))ELFHeader-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a943c7d038a3cc3c1115e84b4cd19966d">e_entry</a>)(argc, argv, envp);</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;}</div>
+<div class="ttc" id="ald_8c_html_a0bd515a0f84d99f6b2cd8383a07ab5b8"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a0bd515a0f84d99f6b2cd8383a07ab5b8">InterpreterIPCData::MemoryImage</a></div><div class="ttdeci">void * MemoryImage</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00688">ld.c:688</a></div></div>
 <div class="ttc" id="ald_8c_html_a153ad81e4a5fef673eea5227fa1f7a1e"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a153ad81e4a5fef673eea5227fa1f7a1e">RequestPages</a></div><div class="ttdeci">uintptr_t RequestPages(size_t Count)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00018">ld.c:18</a></div></div>
 <div class="ttc" id="ald_8c_html_a55d9d7ee5bdb3e85b4d0447e82a2054b"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a55d9d7ee5bdb3e85b4d0447e82a2054b">IPC</a></div><div class="ttdeci">int IPC(enum IPCCommand Command, enum IPCType Type, int ID, int Flags, void *Buffer, size_t Size)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00028">ld.c:28</a></div></div>
+<div class="ttc" id="ald_8c_html_a5d6fa1d5f15106c50d83d8cc4bf5acfa"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a5d6fa1d5f15106c50d83d8cc4bf5acfa">ELFAddLazyResolverToGOT</a></div><div class="ttdeci">bool ELFAddLazyResolverToGOT(void *ElfFile, void *MemoryImage, struct LibAddressCollection *Libs)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00375">ld.c:375</a></div></div>
+<div class="ttc" id="ald_8c_html_a8964ed8e1ab99f685cedb1325a994f5f"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a8964ed8e1ab99f685cedb1325a994f5f">InterpreterIPCData::Path</a></div><div class="ttdeci">char Path[256]</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00686">ld.c:686</a></div></div>
+<div class="ttc" id="ald_8c_html_aa7bcfef3a08951168e6c36e415c012fe"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#aa7bcfef3a08951168e6c36e415c012fe">FreePages</a></div><div class="ttdeci">int FreePages(uintptr_t Address, size_t Count)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00023">ld.c:23</a></div></div>
 <div class="ttc" id="ald_8c_html_aaf0490395930cad575bbe2a6d894082b"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#aaf0490395930cad575bbe2a6d894082b">KernelCTL</a></div><div class="ttdeci">uintptr_t KernelCTL(enum KCtl Command, uint64_t Arg1, uint64_t Arg2, uint64_t Arg3, uint64_t Arg4)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00033">ld.c:33</a></div></div>
-<div class="ttc" id="astddef_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d3/dce/stddef_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dce/stddef_8h_source.html#l00007">stddef.h:7</a></div></div>
-<div class="ttc" id="astddef_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dce/stddef_8h_source.html#l00039">stddef.h:39</a></div></div>
+<div class="ttc" id="ald_8c_html_af8e3302111623cfc2c1a937f7ccdcbd5"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#af8e3302111623cfc2c1a937f7ccdcbd5">InterpreterIPCData::ElfFile</a></div><div class="ttdeci">void * ElfFile</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00687">ld.c:687</a></div></div>
+<div class="ttc" id="ald_8c_html_d1/d08/structLibAddressCollection"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00038">ld.c:39</a></div></div>
+<div class="ttc" id="ald_8c_html_d3/dbb/structInterpreterIPCData"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#d3/dbb/structInterpreterIPCData">InterpreterIPCData</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00684">ld.c:685</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_a943c7d038a3cc3c1115e84b4cd19966d"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a943c7d038a3cc3c1115e84b4cd19966d">Elf64_Ehdr::e_entry</a></div><div class="ttdeci">Elf64_Addr e_entry</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h_source.html#l00069">elf.h:69</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_df/de8/structElf64__Ehdr"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#df/de8/structElf64__Ehdr">Elf64_Ehdr</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h_source.html#l00064">elf.h:64</a></div></div>
+<div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/dd5/ld_8c_source.html#l00028">IPC()</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00014">KCTL_GET_PAGE_SIZE</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00033">KernelCTL()</a>, <a class="el" href="../../d3/dce/stddef_8h_source.html#l00007">NULL</a>, and <a class="el" href="../../d8/dd5/ld_8c_source.html#l00018">RequestPages()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h_source.html#l00069">Elf64_Ehdr::e_entry</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00375">ELFAddLazyResolverToGOT()</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00687">InterpreterIPCData::ElfFile</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00023">FreePages()</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00028">IPC()</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00014">KCTL_GET_PAGE_SIZE</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00033">KernelCTL()</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00688">InterpreterIPCData::MemoryImage</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00686">InterpreterIPCData::Path</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00018">RequestPages()</a>, and <a class="el" href="../../df/dea/echo_8cpp_source.html#l00001">syscall2()</a>.</p>
 
 </div>
 </div>
@@ -411,7 +895,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ld_main </td>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> ld_main </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -419,28 +903,237 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00308">308</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;{</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="comment">/* Prevent race condition. */</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <a class="code" href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> KCTL_ret = 0xdead;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">do</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    {</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        KCTL_ret = <a class="code" href="../../d8/dd5/ld_8c.html#aaf0490395930cad575bbe2a6d894082b">KernelCTL</a>(<a class="code" href="../../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499">KCTL_IS_CRITICAL</a>, 0, 0, 0, 0);</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    } <span class="keywordflow">while</span> (KCTL_ret == SYSCALL_ACCESS_DENIED);</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160; </div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordflow">if</span> (KCTL_ret == <span class="keyword">false</span>)</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        <span class="keywordflow">return</span> -4;</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160; </div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="comment">/* --------------------------------------------------- */</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                         :</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(1), <span class="stringliteral">&quot;D&quot;</span>(<span class="charliteral">&#39;H&#39;</span>), <span class="stringliteral">&quot;S&quot;</span>(0)</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00660">660</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;{</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    <span class="comment">/* Prevent race condition. */</span></div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    <a class="code" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> KCTL_ret = <a class="code" href="../../d8/dd5/ld_8c.html#aaf0490395930cad575bbe2a6d894082b">KernelCTL</a>(<a class="code" href="../../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499">KCTL_IS_CRITICAL</a>, 0, 0, 0, 0);</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    <span class="keywordflow">do</span></div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;    {</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;        <a class="code" href="../../da/d80/aero_2include_2aero_2syscall_8h.html#afba059dc91a3a55ef4288728bd1787ab">syscall1</a>(_Sleep, 250);</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;        KCTL_ret = <a class="code" href="../../d8/dd5/ld_8c.html#aaf0490395930cad575bbe2a6d894082b">KernelCTL</a>(<a class="code" href="../../d8/dd5/ld_8c.html#ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499">KCTL_IS_CRITICAL</a>, 0, 0, 0, 0);</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;    } <span class="keywordflow">while</span> (KCTL_ret == SYSCALL_ACCESS_DENIED);</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160; </div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;    <span class="keywordflow">if</span> (KCTL_ret == <span class="keyword">false</span>)</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;        <span class="keywordflow">return</span> -4;</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160; </div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;    <a class="code" href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a>(_Print, <span class="charliteral">&#39;H&#39;</span>, 0);</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160; </div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    <span class="comment">/* Everything is ok, continue. */</span></div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;}</div>
+<div class="ttc" id="aaero_2include_2aero_2syscall_8h_html_afba059dc91a3a55ef4288728bd1787ab"><div class="ttname"><a href="../../da/d80/aero_2include_2aero_2syscall_8h.html#afba059dc91a3a55ef4288728bd1787ab">syscall1</a></div><div class="ttdeci">static sc_word_t syscall1(int sc, sc_word_t arg1)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00097">syscall.h:97</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/dd5/ld_8c_source.html#l00015">KCTL_IS_CRITICAL</a>, and <a class="el" href="../../d8/dd5/ld_8c_source.html#l00033">KernelCTL()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/dd5/ld_8c_source.html#l00015">KCTL_IS_CRITICAL</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00033">KernelCTL()</a>, <a class="el" href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00097">syscall1()</a>, and <a class="el" href="../../df/dea/echo_8cpp_source.html#l00001">syscall2()</a>.</p>
+
+</div>
+</div>
+<a id="aca5a8353d645c816b47891c9481c3b8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca5a8353d645c816b47891c9481c3b8f">&#9670;&nbsp;</a></span>ltoa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* ltoa </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>Value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>Buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>Base</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00103">103</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">if</span> (Base &lt; 2 || Base &gt; 32)</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">return</span> Buffer;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">long</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> = <a class="code" href="../../d8/dd5/ld_8c.html#ac912cb54a735bc42e2d130049eb99174">abs</a>(<a class="code" href="../../d9/df3/structValue.html">Value</a>);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> % Base;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> &gt;= 10)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            Buffer[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++] = 65 + (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> - 10);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            Buffer[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++] = 48 + <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> = <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> / Base;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> == 0)</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        Buffer[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++] = <span class="charliteral">&#39;0&#39;</span>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/df3/structValue.html">Value</a> &lt; 0 &amp;&amp; Base == 10)</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        Buffer[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++] = <span class="charliteral">&#39;-&#39;</span>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    Buffer[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/dd5/ld_8c.html#af927ee96b41aa243c2191642f1788665">reverse</a>(Buffer, 0, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> - 1);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;}</div>
+<div class="ttc" id="ald_8c_html_ac912cb54a735bc42e2d130049eb99174"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#ac912cb54a735bc42e2d130049eb99174">abs</a></div><div class="ttdeci">long abs(long i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00087">ld.c:87</a></div></div>
+<div class="ttc" id="ald_8c_html_af927ee96b41aa243c2191642f1788665"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#af927ee96b41aa243c2191642f1788665">reverse</a></div><div class="ttdeci">char * reverse(char *Buffer, int i, int j)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00096">ld.c:96</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_a76f11d9a0a47b94f72c2d0e77fb32240"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a></div><div class="ttdeci">static int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00035">posix_stdlib.cpp:35</a></div></div>
+<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00278">string-stubs.cpp:278</a></div></div>
+<div class="ttc" id="astructValue_html"><div class="ttname"><a href="../../d9/df3/structValue.html">Value</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/ubsan_8cpp_source.html#l00059">ubsan.cpp:59</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d8/dd5/ld_8c_source.html#l00087">abs()</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00035">n</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00278">r</a>, and <a class="el" href="../../d8/dd5/ld_8c_source.html#l00096">reverse()</a>.</p>
+
+</div>
+</div>
+<a id="adfb1d8190d47c3c0448ee8e38662625c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfb1d8190d47c3c0448ee8e38662625c">&#9670;&nbsp;</a></span>memcpy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* memcpy </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">__SIZE_TYPE__&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00139">139</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;{</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    __UINT8_TYPE__ *d = dest;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keyword">const</span> __UINT8_TYPE__ *s = src;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>--)</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        *d++ = *s++;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">return</span> dest;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00035">n</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d3/d30/spawn-stubs_8cpp_source.html#l00041">__get_handler_set()</a>, <a class="el" href="../../d0/d23/linker_8cpp_source.html#l00927">accessDtv()</a>, <a class="el" href="../../db/d84/glob_8c_source.html#l00020">append()</a>, <a class="el" href="../../df/d3b/m__cheat_8c_source.html#l00083">cht_GetParam()</a>, <a class="el" href="../../db/d84/glob_8c_source.html#l00035">do_glob()</a>, <a class="el" href="../../d3/dcd/helper_8c_source.html#l00003">ELFGetDynamicTag()</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00174">ResizePrinter::expand()</a>, <a class="el" href="../../d1/d74/w__wad_8c_source.html#l00087">ExtendLumpInfo()</a>, <a class="el" href="../../d5/dd0/f__finale_8c_source.html#l00227">F_TextWrite()</a>, <a class="el" href="../../d3/de0/g__game_8c_source.html#l01346">G_DoCompleted()</a>, <a class="el" href="../../d3/de0/g__game_8c_source.html#l01072">G_PlayerReborn()</a>, <a class="el" href="../../d3/de0/g__game_8c_source.html#l00854">G_Ticker()</a>, <a class="el" href="../../d1/d4f/netdb-stubs_8cpp_source.html#l00060">getaddrinfo()</a>, <a class="el" href="../../d1/d4f/netdb-stubs_8cpp_source.html#l00232">gethostbyname()</a>, <a class="el" href="../../d1/d4f/netdb-stubs_8cpp_source.html#l00156">getnameinfo()</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00068">getutent_r()</a>, <a class="el" href="../../d9/dab/i__endoom_8c_source.html#l00036">I_Endoom()</a>, <a class="el" href="../../d8/d55/i__video_8c_source.html#l00253">I_FinishUpdate()</a>, <a class="el" href="../../d8/d55/i__video_8c_source.html#l00300">I_ReadScreen()</a>, <a class="el" href="../../d4/d6f/i__scale_8c_source.html#l00075">I_Scale1x()</a>, <a class="el" href="../../d4/d6f/i__scale_8c_source.html#l00450">I_Stretch1x()</a>, <a class="el" href="../../d8/dee/iconv-stubs_8cpp_source.html#l00005">iconv()</a>, <a class="el" href="../../d3/de0/g__game_8c_source.html#l01926">IncreaseDemoBuffer()</a>, <a class="el" href="../../de/d1b/arpa-inet-stubs_8cpp_source.html#l00131">inet_pton()</a>, <a class="el" href="../../d9/ddf/stack__protector_8cpp_source.html#l00010">mlibc::initStackGuard()</a>, <a class="el" href="../../d0/d23/linker_8cpp_source.html#l00841">initTlsObjects()</a>, <a class="el" href="../../d4/db6/posix-file-io_8cpp_source.html#l00032">mlibc::mem_file::io_write()</a>, <a class="el" href="../../d3/d87/drm_8cpp_source.html#l00014">mlibc::ioctl_drm()</a>, <a class="el" href="../../d9/d22/support_8cpp_source.html#l00037">load()</a>, <a class="el" href="../../d2/d69/lookup_8cpp_source.html#l00163">mlibc::lookup_addr_dns()</a>, <a class="el" href="../../d2/d69/lookup_8cpp_source.html#l00049">mlibc::lookup_name_dns()</a>, <a class="el" href="../../d2/d69/lookup_8cpp_source.html#l00292">mlibc::lookup_name_hosts()</a>, <a class="el" href="../../d2/d69/lookup_8cpp_source.html#l00454">mlibc::lookup_name_ip()</a>, <a class="el" href="../../d2/d69/lookup_8cpp_source.html#l00411">mlibc::lookup_name_null()</a>, <a class="el" href="../../de/d1d/xattr_8c_source.html#l00031">main()</a>, <a class="el" href="../../df/de7/fnmatch_8c_source.html#l00107">match_bracket()</a>, <a class="el" href="../../d3/d55/memio_8c_source.html#l00058">mem_fread()</a>, <a class="el" href="../../d3/d55/memio_8c_source.html#l00107">mem_fwrite()</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00472">mempcpy()</a>, <a class="el" href="../../d6/d23/syslog-stubs_8cpp_source.html#l00049">openlog()</a>, <a class="el" href="../../d4/de4/p__mobj_8c_source.html#l00739">P_SpawnMapThing()</a>, <a class="el" href="../../d0/d86/regcomp_8c_source.html#l00613">parse_bracket()</a>, <a class="el" href="../../d0/d86/regcomp_8c_source.html#l00531">parse_bracket_terms()</a>, <a class="el" href="../../d0/d23/linker_8cpp_source.html#l00752">processCopyRela()</a>, <a class="el" href="../../df/d80/pthread-stubs_8cpp_source.html#l00186">pthread_attr_getaffinity_np()</a>, <a class="el" href="../../df/d80/pthread-stubs_8cpp_source.html#l00208">pthread_attr_setaffinity_np()</a>, <a class="el" href="../../d1/dd2/r__data_8c_source.html#l00187">R_DrawColumnInCache()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00812">R_FillBackScreen()</a>, <a class="el" href="../../d1/dd2/r__data_8c_source.html#l00720">R_FlatNumForName()</a>, <a class="el" href="../../db/d4e/r__things_8c_source.html#l00171">R_InitSpriteDefs()</a>, <a class="el" href="../../d1/dd2/r__data_8c_source.html#l00451">R_InitTextures()</a>, <a class="el" href="../../d5/d9e/r__segs_8c_source.html#l00373">R_StoreWallRange()</a>, <a class="el" href="../../de/d19/r__draw_8c_source.html#l00920">R_VideoErase()</a>, <a class="el" href="../../d5/d24/file-io_8cpp_source.html#l00097">mlibc::abstract_file::read()</a>, <a class="el" href="../../d4/d3f/dirent-stubs_8cpp_source.html#l00067">readdir()</a>, <a class="el" href="../../d4/d3f/dirent-stubs_8cpp_source.html#l00084">readdir_r()</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00209">realpath()</a>, <a class="el" href="../../d0/d86/regcomp_8c_source.html#l02691">regcomp()</a>, <a class="el" href="../../d4/d3f/dirent-stubs_8cpp_source.html#l00114">scandir()</a>, <a class="el" href="../../d2/d24/sha1_8c_source.html#l00238">SHA1_Final()</a>, <a class="el" href="../../df/d87/sys-mman-stubs_8cpp_source.html#l00101">anonymous_namespace{sys-mman-stubs.cpp}::shm_mapname()</a>, <a class="el" href="../../d1/dda/statdump_8c_source.html#l00333">StatCopy()</a>, <a class="el" href="../../db/d8c/posix__string_8cpp_source.html#l00032">stpcpy()</a>, <a class="el" href="../../db/d8c/posix__string_8cpp_source.html#l00038">stpncpy()</a>, <a class="el" href="../../db/d8c/posix__string_8cpp_source.html#l00009">strdup()</a>, <a class="el" href="../../db/d8c/posix__string_8cpp_source.html#l00021">strndup()</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00396">mlibc::sys_pselect()</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00212">mlibc::sys_read_entries()</a>, <a class="el" href="../../d2/d24/sha1_8c_source.html#l00055">Transform()</a>, <a class="el" href="../../d5/da0/d__loop_8c_source.html#l00706">TryRunTics()</a>, <a class="el" href="../../de/d03/time-stubs_8cpp_source.html#l00385">tzset()</a>, <a class="el" href="../../de/d03/time-stubs_8cpp_source.html#l00536">anonymous_namespace{time-stubs.cpp}::unix_local_from_gmt()</a>, <a class="el" href="../../de/d0c/v__video_8c_source.html#l00085">V_CopyRect()</a>, <a class="el" href="../../de/d0c/v__video_8c_source.html#l00503">V_DrawBlock()</a>, <a class="el" href="../../de/d0c/v__video_8c_source.html#l00589">V_DrawRawScreen()</a>, <a class="el" href="../../da/db0/f__wipe_8c_source.html#l00066">wipe_initColorXForm()</a>, <a class="el" href="../../da/db0/f__wipe_8c_source.html#l00134">wipe_initMelt()</a>, <a class="el" href="../../da/db0/f__wipe_8c_source.html#l00044">wipe_shittyColMajorXform()</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00261">wmemcpy()</a>, and <a class="el" href="../../d5/d24/file-io_8cpp_source.html#l00173">mlibc::abstract_file::write()</a>.</p>
+
+</div>
+</div>
+<a id="acd30b05a3124715a6b96d2c83e6773b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd30b05a3124715a6b96d2c83e6773b0">&#9670;&nbsp;</a></span>Print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Print </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>String</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00170">170</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;{</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">short</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; String[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] != <span class="charliteral">&#39;\0&#39;</span>; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <a class="code" href="../../d8/dd5/ld_8c.html#adf43ae8f92f50067b7a65c4dc3a25fa2">PutCharToKernelConsole</a>(String[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;}</div>
+<div class="ttc" id="ald_8c_html_adf43ae8f92f50067b7a65c4dc3a25fa2"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#adf43ae8f92f50067b7a65c4dc3a25fa2">PutCharToKernelConsole</a></div><div class="ttdeci">static void PutCharToKernelConsole(char c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00131">ld.c:131</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, and <a class="el" href="../../d8/dd5/ld_8c_source.html#l00131">PutCharToKernelConsole()</a>.</p>
+
+</div>
+</div>
+<a id="a19ce84ab87215172a868a4da1d71a41b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19ce84ab87215172a868a4da1d71a41b">&#9670;&nbsp;</a></span>PrintNL()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void PrintNL </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>String</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00176">176</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;{</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">short</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; String[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] != <span class="charliteral">&#39;\0&#39;</span>; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <a class="code" href="../../d8/dd5/ld_8c.html#adf43ae8f92f50067b7a65c4dc3a25fa2">PutCharToKernelConsole</a>(String[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#adf43ae8f92f50067b7a65c4dc3a25fa2">PutCharToKernelConsole</a>(<span class="charliteral">&#39;\n&#39;</span>);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, and <a class="el" href="../../d8/dd5/ld_8c_source.html#l00131">PutCharToKernelConsole()</a>.</p>
+
+</div>
+</div>
+<a id="adf43ae8f92f50067b7a65c4dc3a25fa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf43ae8f92f50067b7a65c4dc3a25fa2">&#9670;&nbsp;</a></span>PutCharToKernelConsole()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void PutCharToKernelConsole </td>
+          <td>(</td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00131">131</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;{</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                         :</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(1), <span class="stringliteral">&quot;D&quot;</span>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>), <span class="stringliteral">&quot;S&quot;</span>(0)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;}</div>
+<div class="ttc" id="astring-stubs_8cpp_html_a53bc054f17562e88369c26b52125a12d"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a></div><div class="ttdeci">size_t const wchar_t *MLIBC_STUB_BODY wchar_t wchar_t c</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00319">string-stubs.cpp:319</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00319">c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00170">Print()</a>, and <a class="el" href="../../d8/dd5/ld_8c_source.html#l00176">PrintNL()</a>.</p>
 
 </div>
 </div>
@@ -451,9 +1144,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dce/stddef_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> RequestPages </td>
+          <td class="memname"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> RequestPages </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dce/stddef_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
           <td class="paramname"><em>Count</em></td><td>)</td>
           <td></td>
         </tr>
@@ -462,10 +1155,411 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00018">18</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> syscall1(_RequestPages, Count);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d80/aero_2include_2aero_2syscall_8h.html#afba059dc91a3a55ef4288728bd1787ab">syscall1</a>(_RequestPages, Count);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00330">ld_load()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00097">syscall1()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00693">ld_load()</a>.</p>
+
+</div>
+</div>
+<a id="af927ee96b41aa243c2191642f1788665"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af927ee96b41aa243c2191642f1788665">&#9670;&nbsp;</a></span>reverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* reverse </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>Buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>i</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00096">96</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;{</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a>)</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="../../d8/dd5/ld_8c.html#a5caa2956a259c15d67de63fcddff3e57">swap</a>(&amp;Buffer[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++], &amp;Buffer[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a>--]);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">return</span> Buffer;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
+<div class="ttc" id="ald_8c_html_a5caa2956a259c15d67de63fcddff3e57"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a5caa2956a259c15d67de63fcddff3e57">swap</a></div><div class="ttdeci">void swap(char *x, char *y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00089">ld.c:89</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_a37d972ae0b47b9099e30983131d31916"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a></div><div class="ttdeci">static int j</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00037">posix_stdlib.cpp:37</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00037">j</a>, and <a class="el" href="../../d8/dd5/ld_8c_source.html#l00089">swap()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00103">ltoa()</a>.</p>
+
+</div>
+</div>
+<a id="a5206cb6f52495066146ae3a41d166eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5206cb6f52495066146ae3a41d166eb7">&#9670;&nbsp;</a></span>strcmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> strcmp </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00148">148</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;{</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">for</span> (; *l == *<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> &amp;&amp; *l; l++, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>++)</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        ;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">return</span> *(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)l - *(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *)<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00278">r</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d01/dl__iterate__phdr_2test_8c_source.html#l00038">callback()</a>, <a class="el" href="../../d6/db6/grp_8c_source.html#l00010">check_root_group()</a>, <a class="el" href="../../dd/d00/d__iwad_8c_source.html#l00408">CheckDirectoryHasIWAD()</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00155">ELFGetSymbol()</a>, <a class="el" href="../../da/d01/dl__iterate__phdr_2test_8c_source.html#l00024">ends_with()</a>, <a class="el" href="../../df/d52/grp-stubs_8cpp_source.html#l00247">getgrnam()</a>, <a class="el" href="../../df/d52/grp-stubs_8cpp_source.html#l00262">getgrnam_r()</a>, <a class="el" href="../../d8/d20/getopt-stubs_8cpp_source.html#l00026">anonymous_namespace{getopt-stubs.cpp}::getopt_common()</a>, <a class="el" href="../../dc/df5/pwd-stubs_8cpp_source.html#l00143">getpwnam()</a>, <a class="el" href="../../dc/df5/pwd-stubs_8cpp_source.html#l00170">getpwnam_r()</a>, <a class="el" href="../../d0/d25/gusconf_8c_source.html#l00244">GUS_WriteConfig()</a>, <a class="el" href="../../d8/dee/iconv-stubs_8cpp_source.html#l00023">iconv_open()</a>, <a class="el" href="../../d2/dc6/d__main_8c_source.html#l00948">InitGameVersion()</a>, <a class="el" href="../../db/d66/m__config_8c_source.html#l02087">M_GetSaveGameDir()</a>, <a class="el" href="../../d4/d81/m__menu_8c_source.html#l00635">M_SaveSelect()</a>, <a class="el" href="../../db/d66/m__config_8c_source.html#l02059">M_SetConfigDir()</a>, <a class="el" href="../../d0/daa/m__misc_8c_source.html#l00417">M_StringEndsWith()</a>, <a class="el" href="../../d0/d7b/mlibc_2tests_2posix_2string_8c_source.html#l00004">main()</a>, <a class="el" href="../../dd/dc9/p__saveg_8c_source.html#l01379">P_ReadSaveGameHeader()</a>, <a class="el" href="../../dd/d1b/locale-stubs_8cpp_source.html#l00058">mlibc::query_locale_description()</a>, <a class="el" href="../../db/d66/m__config_8c_source.html#l01563">SearchCollection()</a>, <a class="el" href="../../db/d84/glob_8c_source.html#l00189">sort()</a>, <a class="el" href="../../d1/dda/statdump_8c_source.html#l00343">StatDump()</a>, <a class="el" href="../../dc/d53/getopt_8c_source.html#l00013">test1()</a>, <a class="el" href="../../dc/d53/getopt_8c_source.html#l00096">test3()</a>, <a class="el" href="../../dc/d53/getopt_8c_source.html#l00117">test4()</a>, <a class="el" href="../../dc/d53/getopt_8c_source.html#l00140">test5()</a>, and <a class="el" href="../../dc/d53/getopt_8c_source.html#l00198">test7()</a>.</p>
+
+</div>
+</div>
+<a id="a5caa2956a259c15d67de63fcddff3e57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5caa2956a259c15d67de63fcddff3e57">&#9670;&nbsp;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void swap </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00089">89</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;{</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordtype">char</span> t = *<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    *<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> = *<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    *<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> = t;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;}</div>
+<div class="ttc" id="af__wipe_8c_html_a60ca3f7e128ed4283d00a73c65558617"><div class="ttname"><a href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a></div><div class="ttdeci">static int * y</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/f__wipe_8c_source.html#l00130">f_wipe.c:130</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00038">posix_stdlib.cpp:38</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00038">x</a>, and <a class="el" href="../../da/db0/f__wipe_8c_source.html#l00130">y</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00096">reverse()</a>, and <a class="el" href="../../dc/d82/environment_8cpp_source.html#l00078">anonymous_namespace{environment.cpp}::unassign_variable()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a0dd79b3680b21e2bd776b9c3f3d855b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dd79b3680b21e2bd776b9c3f3d855b1">&#9670;&nbsp;</a></span>ELF_LAZY_RESOLVE_MAIN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void(*)() ELF_LAZY_RESOLVE_MAIN(struct <a class="el" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a> *Info, long RelIndex) </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a> *&#160;</td>
+          <td class="paramname"><em>Info</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>RelIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00184">184</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;{</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">if</span> (Info)</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keyword">struct </span><a class="code" href="../../d8/dd5/ld_8c.html#d1/d08/structLibAddressCollection">LibAddressCollection</a> *tmp = Info;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(<span class="stringliteral">&quot;________________&quot;</span>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="comment">// The last entry is the null entry (Valid == false) which determines the end of the list.</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">while</span> (tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#a8ecca9817146f3ae6bf9cd65d08092f6">Valid</a>)</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;-- &quot;</span>);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#ac0134c9bcee4f8200b739ea61cd97266">Name</a>);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(<span class="stringliteral">&quot; --&quot;</span>);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            __UINTPTR_TYPE__ BaseAddress = __UINTPTR_MAX__;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            <a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d3/d7b/structElf64__Phdr">Elf64_Phdr</a> ItrProgramHeader;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160; </div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a569abab552fcd6b3a682da92374dee00">Elf64_Half</a> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; ((<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#df/de8/structElf64__Ehdr">Elf64_Ehdr</a> *)tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#aa3ad72984f24f1d520f7f629a15436bd">ElfFile</a>)-&gt;e_phnum; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#adfb1d8190d47c3c0448ee8e38662625c">memcpy</a>(&amp;ItrProgramHeader, (__UINT8_TYPE__ *)tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#aa3ad72984f24f1d520f7f629a15436bd">ElfFile</a> + ((<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#df/de8/structElf64__Ehdr">Elf64_Ehdr</a> *)tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#aa3ad72984f24f1d520f7f629a15436bd">ElfFile</a>)-&gt;e_phoff + ((<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#df/de8/structElf64__Ehdr">Elf64_Ehdr</a> *)tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#aa3ad72984f24f1d520f7f629a15436bd">ElfFile</a>)-&gt;e_phentsize * <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>, <span class="keyword">sizeof</span>(<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d3/d7b/structElf64__Phdr">Elf64_Phdr</a>));</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                BaseAddress = <a class="code" href="../../d8/dd5/ld_8c.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(BaseAddress, ItrProgramHeader.<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a5c69879e1229b175020ff011af46fcb9">p_vaddr</a>);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            <span class="keywordtype">char</span> LibAddressBuffer[32];</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#ad088746940b4862d211fd41dd4c61b79">MemoryImage</a>, LibAddressBuffer, 16);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;MemoryImage: 0x&quot;</span>);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(LibAddressBuffer);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160; </div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="keywordtype">char</span> BaseAddressBuffer[32];</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(BaseAddress, BaseAddressBuffer, 16);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;BaseAddress: 0x&quot;</span>);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(BaseAddressBuffer);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160; </div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <span class="keyword">struct </span><a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> *_JmpRel = <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a0b92bdb5904fc857a9cd81f8f43c1b68">ELFGetDynamicTag</a>(tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#aa3ad72984f24f1d520f7f629a15436bd">ElfFile</a>, <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba80117daa43b45ceae436ca945f6f51e2">DT_JMPREL</a>);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            <span class="keyword">struct </span><a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> *_SymTab = <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a0b92bdb5904fc857a9cd81f8f43c1b68">ELFGetDynamicTag</a>(tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#aa3ad72984f24f1d520f7f629a15436bd">ElfFile</a>, <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bbaea09a60ec7bff5f827c1199dd2860fcd">DT_SYMTAB</a>);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            <span class="keyword">struct </span><a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> *_StrTab = <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a0b92bdb5904fc857a9cd81f8f43c1b68">ELFGetDynamicTag</a>(tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#aa3ad72984f24f1d520f7f629a15436bd">ElfFile</a>, <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba3867ebc31c47082b29aaf6939ba1eb83">DT_STRTAB</a>);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160; </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            <span class="keywordflow">if</span> (!_JmpRel)</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(<span class="stringliteral">&quot;No DT_JMPREL&quot;</span>);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                <span class="keywordflow">goto</span> RetryNextLib;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            }</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (RelIndex &gt;= _JmpRel-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_val / <span class="keyword">sizeof</span>(<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a>))</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(<span class="stringliteral">&quot;RelIndex is greater than the number of relocations&quot;</span>);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                <span class="keywordflow">goto</span> RetryNextLib;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160; </div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            <span class="keywordflow">if</span> (!_SymTab)</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(<span class="stringliteral">&quot;No DT_SYMTAB&quot;</span>);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                <span class="keywordflow">goto</span> RetryNextLib;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            }</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160; </div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            <span class="keywordflow">if</span> (!_StrTab)</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(<span class="stringliteral">&quot;No DT_STRTAB&quot;</span>);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                <span class="keywordflow">goto</span> RetryNextLib;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <span class="keywordflow">if</span> (!_JmpRel &amp;&amp; !_SymTab &amp;&amp; !_StrTab)</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                <span class="keywordflow">goto</span> RetryNextLib;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; </div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keywordtype">char</span> JmpRel_d_ptr[32];</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(_JmpRel-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_ptr, JmpRel_d_ptr, 16);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;JmpRel_d_ptr: 0x&quot;</span>);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(JmpRel_d_ptr);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160; </div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            <span class="keywordtype">char</span> SymTab_d_ptr[32];</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(_SymTab-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_ptr, SymTab_d_ptr, 16);</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;SymTab_d_ptr: 0x&quot;</span>);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(SymTab_d_ptr);</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160; </div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <span class="keywordtype">char</span> StrTab_d_ptr[32];</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(_StrTab-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_ptr, StrTab_d_ptr, 16);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;StrTab_d_ptr: 0x&quot;</span>);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(StrTab_d_ptr);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160; </div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            <a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *JmpRel = tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#ad088746940b4862d211fd41dd4c61b79">MemoryImage</a> + (_JmpRel-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_ptr - BaseAddress);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a> *SymTab = tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#ad088746940b4862d211fd41dd4c61b79">MemoryImage</a> + (_SymTab-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_ptr - BaseAddress);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <span class="keywordtype">char</span> *DynStr = tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#ad088746940b4862d211fd41dd4c61b79">MemoryImage</a> + (_StrTab-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193">d_un</a>.d_ptr - BaseAddress);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160; </div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            <a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *Rel = JmpRel + RelIndex;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="comment">// Elf64_Rela *Rel = &amp;JmpRel[RelIndex];</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ac9a878f70b0e1eae08575fd04488fbe7">Elf64_Addr</a> *GOTEntry = (<a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ac9a878f70b0e1eae08575fd04488fbe7">Elf64_Addr</a> *)(tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#ad088746940b4862d211fd41dd4c61b79">MemoryImage</a> + Rel-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9ea7e07ec6e0d57bf4bcd53b89de7948">r_offset</a>);</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160; </div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            <span class="keywordtype">int</span> RelType = <a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aa99085b28116a972cc95460d9d5493cc">ELF64_R_TYPE</a>(Rel-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160; </div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            <span class="keywordtype">char</span> RelBuffer[32];</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(Rel, RelBuffer, 16);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;Rel: 0x&quot;</span>);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(RelBuffer);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160; </div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            <span class="keywordtype">char</span> LibRelInfoBuffer[32];</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(Rel-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>, LibRelInfoBuffer, 16);</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;  Rel-&gt;r_info: 0x&quot;</span>);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(LibRelInfoBuffer);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160; </div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordtype">char</span> LibRelOffsetBuffer[32];</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(Rel-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9ea7e07ec6e0d57bf4bcd53b89de7948">r_offset</a>, LibRelOffsetBuffer, 16);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;  Rel-&gt;r_offset: 0x&quot;</span>);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(LibRelOffsetBuffer);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160; </div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            <span class="keywordtype">char</span> LibRelAddEntBuffer[32];</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(Rel-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a04358b55027a7dcc414e221d916aac64">r_addend</a>, LibRelAddEntBuffer, 16);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;  Rel-&gt;r_addend: 0x&quot;</span>);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(LibRelAddEntBuffer);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160; </div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            <span class="keywordtype">char</span> RelIndexBuffer[32];</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(RelIndex, RelIndexBuffer, 16);</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;RelIndex: 0x&quot;</span>);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(RelIndexBuffer);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160; </div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            <span class="keywordtype">char</span> GotAddressBuffer[32];</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(GOTEntry, GotAddressBuffer, 16);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;GOTEntry: 0x&quot;</span>);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(GotAddressBuffer);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160; </div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            <span class="keywordflow">if</span> (GOTEntry &amp;&amp; GOTEntry &lt; 0x10000000)</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            {</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                <span class="keywordtype">char</span> GotInsideBuffer[32];</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(*GOTEntry, GotInsideBuffer, 16);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;*GOTEntry: 0x&quot;</span>);</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(GotInsideBuffer);</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            }</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160; </div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            <span class="keywordflow">switch</span> (RelType)</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            {</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a99019c567a914f79a4c488ecf2305834aab76a95193e5ac59d8d59e00cb0e0913">R_X86_64_NONE</a>:</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;            {</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(<span class="stringliteral">&quot;R_X86_64_NONE&quot;</span>);</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160; </div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                <span class="keywordflow">if</span> (*GOTEntry == 0)</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                {</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                    <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(<span class="stringliteral">&quot;GOTEntry is 0&quot;</span>);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                }</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a> = 0;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                <span class="keywordflow">return</span> (<span class="keywordtype">void</span> (*)()) * GOTEntry;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;            }</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a99019c567a914f79a4c488ecf2305834ac7ca451ce423a4390d4057317c0446ff">R_X86_64_JUMP_SLOT</a>:</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;            {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(<span class="stringliteral">&quot;R_X86_64_JUMP_SLOT&quot;</span>);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                <span class="keywordtype">int</span> SymIndex = <a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a65748e6f2c1a680ae61b212f71048e8a">ELF64_R_SYM</a>(Rel-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>);</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                <a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a> *Sym = SymTab + SymIndex;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                <span class="comment">// Elf64_Sym *Sym = &amp;SymTab[SymIndex];</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160; </div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                <span class="keywordflow">if</span> (Sym-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a4069f9db0c91ecc40bc2f4ddbdf28aff">st_name</a>)</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                {</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                    <span class="keywordtype">char</span> *SymName = DynStr + Sym-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a4069f9db0c91ecc40bc2f4ddbdf28aff">st_name</a>;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                    <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(SymName);</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160; </div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                    <a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a> *LibSym = <a class="code" href="../../d8/dd5/ld_8c.html#a80443dbbe148243a264f9c7c43e41b89">ELFGetSymbol</a>(tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#aa3ad72984f24f1d520f7f629a15436bd">ElfFile</a>, SymName);</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                    <span class="keywordflow">if</span> (LibSym)</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                    {</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                        *GOTEntry = (<a class="code" href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ac9a878f70b0e1eae08575fd04488fbe7">Elf64_Addr</a>)(tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#ad088746940b4862d211fd41dd4c61b79">MemoryImage</a> + LibSym-&gt;<a class="code" href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9601295da4c2e81cc18c1f777609e1bf">st_value</a>);</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                        <a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a> = 0;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                        <span class="keywordflow">return</span> (<span class="keywordtype">void</span> (*)()) * GOTEntry;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                    }</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            }</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;            {</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                <span class="keywordtype">char</span> RelTypeBuffer[32];</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(RelType, RelTypeBuffer, 10);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;RelType not supported &quot;</span>);</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(RelTypeBuffer);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;            }</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;            }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160; </div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        RetryNextLib:</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;            tmp = tmp-&gt;<a class="code" href="../../d8/dd5/ld_8c.html#acd82d73e2f8ea5bc398bec797e6e3ce0">Next</a>;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        }</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    }</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160; </div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a> = 0;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;mfence\n&quot;</span>);</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160; </div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordtype">char</span> SNotFound[32];</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(<span class="stringliteral">&quot;Symbol index &quot;</span>);</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a>(RelIndex, SNotFound, 10);</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a>(SNotFound);</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a>(<span class="stringliteral">&quot; not found&quot;</span>);</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordtype">int</span> ExitCode = 0x51801;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <a class="code" href="../../da/d80/aero_2include_2aero_2syscall_8h.html#afba059dc91a3a55ef4288728bd1787ab">syscall1</a>(<a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a7631d470a867ad04b3272667ea4b643e">_Exit</a>, ExitCode);</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <span class="keywordflow">while</span> (1) <span class="comment">// Make sure we don&#39;t return</span></div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        ;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    __builtin_unreachable();</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;}</div>
+<div class="ttc" id="ald_8c_html_a19ce84ab87215172a868a4da1d71a41b"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a19ce84ab87215172a868a4da1d71a41b">PrintNL</a></div><div class="ttdeci">void PrintNL(char *String)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00176">ld.c:176</a></div></div>
+<div class="ttc" id="ald_8c_html_a3acffbd305ee72dcd4593c0d8af64a4f"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a></div><div class="ttdeci">#define MIN(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00049">ld.c:49</a></div></div>
+<div class="ttc" id="ald_8c_html_a80443dbbe148243a264f9c7c43e41b89"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a80443dbbe148243a264f9c7c43e41b89">ELFGetSymbol</a></div><div class="ttdeci">Elf64_Sym * ELFGetSymbol(__UINTPTR_TYPE__ *ElfFile, char *SymbolName)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00155">ld.c:155</a></div></div>
+<div class="ttc" id="ald_8c_html_a8ecca9817146f3ae6bf9cd65d08092f6"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a8ecca9817146f3ae6bf9cd65d08092f6">LibAddressCollection::Valid</a></div><div class="ttdeci">char Valid</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00046">ld.c:46</a></div></div>
+<div class="ttc" id="ald_8c_html_aa3ad72984f24f1d520f7f629a15436bd"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#aa3ad72984f24f1d520f7f629a15436bd">LibAddressCollection::ElfFile</a></div><div class="ttdeci">__UINTPTR_TYPE__ * ElfFile</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00041">ld.c:41</a></div></div>
+<div class="ttc" id="ald_8c_html_ac0134c9bcee4f8200b739ea61cd97266"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#ac0134c9bcee4f8200b739ea61cd97266">LibAddressCollection::Name</a></div><div class="ttdeci">char Name[32]</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00040">ld.c:40</a></div></div>
+<div class="ttc" id="ald_8c_html_aca5a8353d645c816b47891c9481c3b8f"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#aca5a8353d645c816b47891c9481c3b8f">ltoa</a></div><div class="ttdeci">char * ltoa(long Value, char *Buffer, int Base)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00103">ld.c:103</a></div></div>
+<div class="ttc" id="ald_8c_html_acd30b05a3124715a6b96d2c83e6773b0"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#acd30b05a3124715a6b96d2c83e6773b0">Print</a></div><div class="ttdeci">void Print(char *String)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00170">ld.c:170</a></div></div>
+<div class="ttc" id="ald_8c_html_acd82d73e2f8ea5bc398bec797e6e3ce0"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#acd82d73e2f8ea5bc398bec797e6e3ce0">LibAddressCollection::Next</a></div><div class="ttdeci">struct LibAddressCollection * Next</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00045">ld.c:45</a></div></div>
+<div class="ttc" id="ald_8c_html_ad088746940b4862d211fd41dd4c61b79"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#ad088746940b4862d211fd41dd4c61b79">LibAddressCollection::MemoryImage</a></div><div class="ttdeci">__UINTPTR_TYPE__ * MemoryImage</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00042">ld.c:42</a></div></div>
+<div class="ttc" id="ald_8c_html_adfb1d8190d47c3c0448ee8e38662625c"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#adfb1d8190d47c3c0448ee8e38662625c">memcpy</a></div><div class="ttdeci">void * memcpy(void *dest, const void *src, __SIZE_TYPE__ n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00139">ld.c:139</a></div></div>
+<div class="ttc" id="alibc_2ElfInterpreter_2elf_8h_html_a370bb33de42069f09315e96d5f8053bba80117daa43b45ceae436ca945f6f51e2"><div class="ttname"><a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a370bb33de42069f09315e96d5f8053bba80117daa43b45ceae436ca945f6f51e2">DT_JMPREL</a></div><div class="ttdeci">@ DT_JMPREL</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00091">elf.h:91</a></div></div>
+<div class="ttc" id="alibc_2ElfInterpreter_2elf_8h_html_a569abab552fcd6b3a682da92374dee00"><div class="ttname"><a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a569abab552fcd6b3a682da92374dee00">Elf64_Half</a></div><div class="ttdeci">__UINT16_TYPE__ Elf64_Half</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00011">elf.h:11</a></div></div>
+<div class="ttc" id="alibc_2ElfInterpreter_2elf_8h_html_a99019c567a914f79a4c488ecf2305834aab76a95193e5ac59d8d59e00cb0e0913"><div class="ttname"><a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a99019c567a914f79a4c488ecf2305834aab76a95193e5ac59d8d59e00cb0e0913">R_X86_64_NONE</a></div><div class="ttdeci">@ R_X86_64_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00162">elf.h:162</a></div></div>
+<div class="ttc" id="alibc_2ElfInterpreter_2elf_8h_html_a99019c567a914f79a4c488ecf2305834ac7ca451ce423a4390d4057317c0446ff"><div class="ttname"><a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a99019c567a914f79a4c488ecf2305834ac7ca451ce423a4390d4057317c0446ff">R_X86_64_JUMP_SLOT</a></div><div class="ttdeci">@ R_X86_64_JUMP_SLOT</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00169">elf.h:169</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_a04358b55027a7dcc414e221d916aac64"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a04358b55027a7dcc414e221d916aac64">Elf64_Rela::r_addend</a></div><div class="ttdeci">Elf64_Sxword r_addend</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00277">elf.h:277</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_a4069f9db0c91ecc40bc2f4ddbdf28aff"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a4069f9db0c91ecc40bc2f4ddbdf28aff">Elf64_Sym::st_name</a></div><div class="ttdeci">Elf64_Word st_name</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h_source.html#l00170">elf.h:170</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_a5c69879e1229b175020ff011af46fcb9"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a5c69879e1229b175020ff011af46fcb9">Elf64_Phdr::p_vaddr</a></div><div class="ttdeci">Elf64_Addr p_vaddr</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00266">elf.h:266</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_a65748e6f2c1a680ae61b212f71048e8a"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a65748e6f2c1a680ae61b212f71048e8a">ELF64_R_SYM</a></div><div class="ttdeci">__MLIBC_INLINE_DEFINITION Elf64_Xword ELF64_R_SYM(Elf64_Xword info)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h_source.html#l00268">elf.h:268</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_a9601295da4c2e81cc18c1f777609e1bf"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9601295da4c2e81cc18c1f777609e1bf">Elf64_Sym::st_value</a></div><div class="ttdeci">Elf64_Addr st_value</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h_source.html#l00174">elf.h:174</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_a9ea7e07ec6e0d57bf4bcd53b89de7948"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9ea7e07ec6e0d57bf4bcd53b89de7948">Elf64_Rela::r_offset</a></div><div class="ttdeci">Elf64_Addr r_offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00275">elf.h:275</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_aa99085b28116a972cc95460d9d5493cc"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aa99085b28116a972cc95460d9d5493cc">ELF64_R_TYPE</a></div><div class="ttdeci">__MLIBC_INLINE_DEFINITION Elf64_Xword ELF64_R_TYPE(Elf64_Xword info)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h_source.html#l00271">elf.h:271</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_aeab8bc0f9035184127ec02d947bf2c76"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">Elf64_Rela::r_info</a></div><div class="ttdeci">Elf64_Xword r_info</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00276">elf.h:276</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_d3/d7b/structElf64__Phdr"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d3/d7b/structElf64__Phdr">Elf64_Phdr</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00261">elf.h:262</a></div></div>
+<div class="ttc" id="amlibc_2options_2elf_2include_2elf_8h_html_d7/dc1/structElf64__Rela"><div class="ttname"><a href="../../d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6d/libc_2ElfInterpreter_2elf_8h_source.html#l00273">elf.h:274</a></div></div>
+<div class="ttc" id="astdlib-stubs_8cpp_html_a7631d470a867ad04b3272667ea4b643e"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a7631d470a867ad04b3272667ea4b643e">_Exit</a></div><div class="ttdeci">void _Exit(int status)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00200">stdlib-stubs.cpp:200</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a95b9ec9b558db4721392ca6a4dfeda1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95b9ec9b558db4721392ca6a4dfeda1e">&#9670;&nbsp;</a></span>Lock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> LockClass::Lock = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/dd5/ld_8c_source.html#l00052">52</a> of file <a class="el" href="../../d8/dd5/ld_8c_source.html">ld.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/dd5/ld_8c_source.html#l00054">__attribute__()</a>.</p>
 
 </div>
 </div>

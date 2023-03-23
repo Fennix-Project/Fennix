@@ -5,6 +5,7 @@ var VirtualBoxMouseDriver_8cpp =
     [ "CallbackHandler", "df/d40/VirtualBoxMouseDriver_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143", null ],
     [ "DriverEntry", "df/d40/VirtualBoxMouseDriver_8cpp.html#a56474bd9ccbe42a82994dd3415226f38", null ],
     [ "HEAD", "df/d40/VirtualBoxMouseDriver_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc", null ],
+    [ "InterruptCallback", "df/d40/VirtualBoxMouseDriver_8cpp.html#a19e1c27c2f987931f74d5e5ef9ca9f72", null ],
     [ "KAPI", "df/d40/VirtualBoxMouseDriver_8cpp.html#a8829069e57a9845d74b32ce27a618ccd", null ],
     [ "MouseButton", "df/d40/VirtualBoxMouseDriver_8cpp.html#a94322c997aefcf5291df9caa7e94a6a0", null ],
     [ "MouseX", "df/d40/VirtualBoxMouseDriver_8cpp.html#ac8dd4bed7053ddd09429d2a63836bb07", null ],

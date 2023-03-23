@@ -22,6 +22,7 @@ var Convert_8cpp =
     [ "isupper", "d0/dc7/Convert_8cpp.html#a0728fe2d315a6a05bce03d1561aa1f66", null ],
     [ "itoa", "d0/dc7/Convert_8cpp.html#a0363ee8559fcd4909408c4aa8c010998", null ],
     [ "lerp", "d0/dc7/Convert_8cpp.html#ab8f8c9b9f842926def351462faa15f5d", null ],
+    [ "log2", "d0/dc7/Convert_8cpp.html#ad99fcdd298b09a6b69d807013d4035e2", null ],
     [ "ltoa", "d0/dc7/Convert_8cpp.html#a85857017633915bc44714801bf56c6b3", null ],
     [ "memcmp", "d0/dc7/Convert_8cpp.html#ae1630234305b767327f4c43f117e5587", null ],
     [ "memcpy", "d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6", null ],

@@ -1252,6 +1252,116 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>init_limine</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>a88fc8602053b68c07fc9c97a624a3865</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EntryPointRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>a0d9c849ab73e9b253f402f7e711dd560</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BootloaderInfoRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>a4762b7cada64399acb562067ca5674bf</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TerminalRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>afc8804a50e797015870e044848fd6175</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>FramebufferRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>ad205e7f58dc1d0b19636d2f38d9ca803</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MemmapRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>a89cf8f39ee87a439c8c9aced7407ac8e</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KernelAddressRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>a72e46a635514df1e6af51c3c2d331a2d</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RsdpRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>a0470546b520931ffd609a5eb42647ac7</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>KernelFileRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>a1e8f2f40d132e891c9dfdb40f1ed90f7</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ModuleRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>aa67cd4fc965a4eb4a2405ee8a0a52f34</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SmbiosRequest</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d3/d1d/Limine_8c.html</Path>
+    <Anchor>aabdac8923a5685eddee180787e0de18e</Anchor>
+    <DeclaredIn>Limine.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>NewLock</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -1351,6 +1461,17 @@
     </TokenIdentifier>
     <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
     <Anchor>af44df44be911e3d57e2faf23148d32f8</Anchor>
+    <DeclaredIn>gdt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetKernelStack</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>ab8fe0c39e450d238fcbba11a60791922</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2130,6 +2251,17 @@
     </TokenIdentifier>
     <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
     <Anchor>af44df44be911e3d57e2faf23148d32f8</Anchor>
+    <DeclaredIn>gdt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetKernelStack</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>ab8fe0c39e450d238fcbba11a60791922</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -2984,121 +3116,11 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>init_limine</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>a88fc8602053b68c07fc9c97a624a3865</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>EntryPointRequest</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>a0d9c849ab73e9b253f402f7e711dd560</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>BootloaderInfoRequest</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>a4762b7cada64399acb562067ca5674bf</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TerminalRequest</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>afc8804a50e797015870e044848fd6175</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>FramebufferRequest</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>ad205e7f58dc1d0b19636d2f38d9ca803</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>MemmapRequest</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>a89cf8f39ee87a439c8c9aced7407ac8e</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>KernelAddressRequest</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>a72e46a635514df1e6af51c3c2d331a2d</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>RsdpRequest</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>a0470546b520931ffd609a5eb42647ac7</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>KernelFileRequest</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>a1e8f2f40d132e891c9dfdb40f1ed90f7</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>ModuleRequest</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>aa67cd4fc965a4eb4a2405ee8a0a52f34</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SmbiosRequest</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d3/d1d/Limine_8c.html</Path>
-    <Anchor>aabdac8923a5685eddee180787e0de18e</Anchor>
-    <DeclaredIn>Limine.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Entry</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d7/d93/crt1_8c.html</Path>
+    <Path>dd/d7f/amd64_2runtime_2crt1_8c.html</Path>
     <Anchor>a52547b95fbb77d37d316644a396a950a</Anchor>
     <DeclaredIn>crt1.c</DeclaredIn>
   </Token>
@@ -3108,7 +3130,27 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d7/d93/crt1_8c.html</Path>
+    <Path>dd/d7f/amd64_2runtime_2crt1_8c.html</Path>
+    <Anchor>a3b7d8174121f5ba1229f1371f409b41f</Anchor>
+    <DeclaredIn>crt1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Entry</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d7b/i686_2runtime_2crt1_8c.html</Path>
+    <Anchor>a52547b95fbb77d37d316644a396a950a</Anchor>
+    <DeclaredIn>crt1.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_start</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d7b/i686_2runtime_2crt1_8c.html</Path>
     <Anchor>a3b7d8174121f5ba1229f1371f409b41f</Anchor>
     <DeclaredIn>crt1.c</DeclaredIn>
   </Token>
@@ -3694,12 +3736,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>x32Multiboot2Entry</Name>
+      <Name>Multiboot2Entry</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d8/d0e/Multiboot2_8cpp.html</Path>
-    <Anchor>adc238c8cb0ac2fd73113f66aa94c0d02</Anchor>
+    <Anchor>a52df7e57b13c7ef6babb3008fbd453c9</Anchor>
     <DeclaredIn>Multiboot2.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -6747,13 +6789,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>if</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a950514b5d3eee92c89a612671469e7a9</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>void</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>Driver</Scope>
     </TokenIdentifier>
     <Path>d1/d48/namespaceDriver.html</Path>
-    <Anchor>a0e482219b5f1146ae92655e6c7fc0e64</Anchor>
+    <Anchor>a78bb577b663770d85e78562670b1e674</Anchor>
     <DeclaredIn>Driver.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -6776,6 +6829,17 @@
     </TokenIdentifier>
     <Path>d1/d48/namespaceDriver.html</Path>
     <Anchor>ab6b0cdd8de3bb231a618dd471281906f</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>regs</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>ae0b9a9476c69599a8c18049953626b4c</Anchor>
     <DeclaredIn>Driver.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -7051,7 +7115,7 @@
       <Scope>Interrupts</Scope>
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
-    <Anchor>a020f8c63277f96ec2fd08bc33e64ae28</Anchor>
+    <Anchor>afcc4bd09a12169b61eb540c3bc165225</Anchor>
     <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -7677,16 +7741,6 @@
     </TokenIdentifier>
     <Path>d8/dcc/Memory_8cpp.html</Path>
     <Anchor>a2b1d41c125777344eeaf5d78aa2ca654</Anchor>
-    <DeclaredIn>Memory.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>KPT</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>d8/dcc/Memory_8cpp.html</Path>
-    <Anchor>a8324fc6b9ff8cee0eee6dcf2c595a7c8</Anchor>
     <DeclaredIn>Memory.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -9134,7 +9188,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html</Path>
-    <Anchor>a243b35bd4f91344446c7905d0a699f43</Anchor>
+    <Anchor>aee0ff1d31b3a68174974904f35c61071</Anchor>
     <DeclaredIn>UniversalAsynchronousReceiverTransmitter.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -9308,17 +9362,6 @@
     <Path>d3/dfe/DAPI_8hpp.html</Path>
     <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0ddad42fc12dc0a2cb734143c24d45707ca6</Anchor>
     <Abstract>This is used after the driver is loaded and the kernel is ready to use the driver.</Abstract>
-    <DeclaredIn>DAPI.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>InterruptReason</Name>
-      <APILanguage>c</APILanguage>
-      <Type>econst</Type>
-    </TokenIdentifier>
-    <Path>d3/dfe/DAPI_8hpp.html</Path>
-    <Anchor>a3f1f8fd0a3bdcb3facb66023a78ac0dda60604bbb34dea717b453eefa3cfe3f5b</Anchor>
-    <Abstract>This will be called when the registered interrupt is triggered.</Abstract>
     <DeclaredIn>DAPI.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9614,7 +9657,7 @@
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>a929e1ca582be6299ba1f282db24d03bc</Anchor>
+    <Anchor>aa0ad786f60e7298278e89b15b3b6a7ab</Anchor>
     <DeclaredIn>BaseLoad.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -9658,7 +9701,7 @@
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>a49edd982ee3b86acf701098b69155696</Anchor>
+    <Anchor>ab7e9a83b57f214f104ea7074db8a9e27</Anchor>
     <DeclaredIn>BaseLoad.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -9674,13 +9717,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InterpreterElfFile</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Execute</Scope>
+    </TokenIdentifier>
+    <Path>d5/d27/namespaceExecute.html</Path>
+    <Anchor>a4ca4f7016486dfdccc306930a5b75228</Anchor>
+    <DeclaredIn>BaseLoad.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>InterpreterNeededLibraries</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>a1a0c318802a31d560daca05e7943ee63</Anchor>
+    <Anchor>af57f02e31db90a2138281a80a6326b10</Anchor>
     <DeclaredIn>BaseLoad.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -9801,7 +9855,7 @@
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>a3225e0fb995a52f5e4ff9ab1d4d40f70</Anchor>
+    <Anchor>a509b5c10d741719e8f06486c35fca91c</Anchor>
     <Abstract>Create a ELF Memory Image.</Abstract>
     <DeclaredIn>Parse.cpp</DeclaredIn>
   </Token>
@@ -9911,7 +9965,7 @@
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>ae631a2b49669243fc714c740040be196</Anchor>
+    <Anchor>a4c0f2322a22a6f947e6932721fedf50e</Anchor>
     <DeclaredIn>SharedObjects.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -10004,7 +10058,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d0/da5/Fex_8hpp.html</Path>
-    <Anchor>afd61db0de964480ce49900365d2d9974</Anchor>
+    <Anchor>ae0f0d621a14272637c66d48543582b16</Anchor>
     <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -10014,7 +10068,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d0/da5/Fex_8hpp.html</Path>
-    <Anchor>a36533ef41ff2fcce166865cf8a6e8ae7</Anchor>
+    <Anchor>aa9ef567f6ccfa4b896441da303aef4d5</Anchor>
     <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -12738,6 +12792,16 @@
     </TokenIdentifier>
     <Path>d3/d82/convert_8h.html</Path>
     <Anchor>a2ce966cd04da3c32320f54c332569e03</Anchor>
+    <DeclaredIn>convert.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>log2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/d82/convert_8h.html</Path>
+    <Anchor>aa72d03236b93a9404b6fb822461ac577</Anchor>
     <DeclaredIn>convert.h</DeclaredIn>
   </Token>
   <Token>
@@ -17826,7 +17890,7 @@
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>a3225e0fb995a52f5e4ff9ab1d4d40f70</Anchor>
+    <Anchor>a509b5c10d741719e8f06486c35fca91c</Anchor>
     <Abstract>Create a ELF Memory Image.</Abstract>
     <DeclaredIn>Parse.cpp</DeclaredIn>
   </Token>
@@ -18382,6 +18446,337 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>MMX_FN_ATTR</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>df/db4/intrin_8hpp.html</Path>
+    <Anchor>a712f97614956ea91648993e9510c326c</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSE_FN_ATTR</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>df/db4/intrin_8hpp.html</Path>
+    <Anchor>aec89ac4f1fad475ea266b7b93312c36e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSE2_FN_ATTR</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>df/db4/intrin_8hpp.html</Path>
+    <Anchor>ae3e5dd4f39c0c43b03214b960a756a15</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSE3_FN_ATTR</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>df/db4/intrin_8hpp.html</Path>
+    <Anchor>a0a46efc5fda11360de3971f9020398d1</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSSE3_FN_ATTR</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>df/db4/intrin_8hpp.html</Path>
+    <Anchor>a2add66c386c398a7366cba26bd76c7d5</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSE4_1_FN_ATTR</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>df/db4/intrin_8hpp.html</Path>
+    <Anchor>aa82a0eecfa99a512e5634f0119f5d392</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSE4_2_FN_ATTR</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>df/db4/intrin_8hpp.html</Path>
+    <Anchor>a318705fc449923e54ebeead4123a6d1a</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AVX_FN_ATTR</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>df/db4/intrin_8hpp.html</Path>
+    <Anchor>ab914beffd11ea99671374b38fd6288e7</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AVX2_FN_ATTR</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>df/db4/intrin_8hpp.html</Path>
+    <Anchor>ac462e508c4b97646f242afcbc7b738a4</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ST_IN</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>df/db4/intrin_8hpp.html</Path>
+    <Anchor>afaf8af3259c6766b14bb563474de0ca7</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>MMX</Scope>
+    </TokenIdentifier>
+    <Path>dd/db4/namespaceMMX.html</Path>
+    <Anchor>ad3b208e9f03bc5df9d78e155c82f6332</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>SSE</Scope>
+    </TokenIdentifier>
+    <Path>d5/de2/namespaceSSE.html</Path>
+    <Anchor>afde775c1a84eeba2b6e89bcb9433b55e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+    <Anchor>ae74a6b81f85cb3678ebfd3ccd8acb675</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+    <Anchor>abedffe0b04cc16bcf3a70c7e31ca7bf4</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_fxsave</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>FXSR</Scope>
+    </TokenIdentifier>
+    <Path>de/ded/namespaceFXSR.html</Path>
+    <Anchor>aa397cf94241c37dd32d9d7b0b3cb9a56</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_fxrstor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>FXSR</Scope>
+    </TokenIdentifier>
+    <Path>de/ded/namespaceFXSR.html</Path>
+    <Anchor>aab6a3556dcee10d6d62fda371c305f3e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_fxsave64</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>FXSR</Scope>
+    </TokenIdentifier>
+    <Path>de/ded/namespaceFXSR.html</Path>
+    <Anchor>abd6b1fb782a0e87d1a12e37728e366bf</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_fxrstor64</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>FXSR</Scope>
+    </TokenIdentifier>
+    <Path>de/ded/namespaceFXSR.html</Path>
+    <Anchor>ab5f920bf95cd3e9ac232447ea847a435</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_clac</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SMAP</Scope>
+    </TokenIdentifier>
+    <Path>d6/de5/namespaceSMAP.html</Path>
+    <Anchor>a257aade8dd80633bfa0a07a83b5c5e5f</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_stac</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SMAP</Scope>
+    </TokenIdentifier>
+    <Path>d6/de5/namespaceSMAP.html</Path>
+    <Anchor>a2bd01c58dd91d5e1c22dbcb9efff66ea</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_empty</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>MMX</Scope>
+    </TokenIdentifier>
+    <Path>dd/db4/namespaceMMX.html</Path>
+    <Anchor>a79dc78edb783dee109ae9ef00c021530</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_add_ss</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE</Scope>
+    </TokenIdentifier>
+    <Path>d5/de2/namespaceSSE.html</Path>
+    <Anchor>a311191692d325a6c6cebeba37a4765d7</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_add_ps</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE</Scope>
+    </TokenIdentifier>
+    <Path>d5/de2/namespaceSSE.html</Path>
+    <Anchor>a16d719be7ceca0384e5faa25b1541b0e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_mul_epu32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+    <Anchor>a0b9cd5deba44a8302af08d665824a48e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_set_epi32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+    <Anchor>acb3bfd967aafc0cdc309c8b9b307ab5f</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_set1_epi32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+    <Anchor>a022a8148e91b52c2a384f6ea649e2d99</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_storeu_si128</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+    <Anchor>a00c6543aaf00217e2d650c602b41d163</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_cvtepu8_epi32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+    <Anchor>ab70feb36be0ce8e657aa62ff0a250501</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_mullo_epi32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+    <Anchor>adf5aa364e8c33166867f6170a35d3f7e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_srli_epi32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+    <Anchor>a1d4c0cb3391e54c0bb9f3f16bc1a6256</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_cvtsi128_si32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+    <Anchor>a6a20121df3f761821422ea71e17fb665</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>INT_FRAMES_MAX</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -18833,16 +19228,6 @@
     </TokenIdentifier>
     <Path>da/d3e/memory_8hpp.html</Path>
     <Anchor>aa7c05e2c931fbcebd2d48516e991f672</Anchor>
-    <DeclaredIn>memory.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>KPT</Name>
-      <APILanguage>c</APILanguage>
-      <Type>data</Type>
-    </TokenIdentifier>
-    <Path>da/d3e/memory_8hpp.html</Path>
-    <Anchor>a8324fc6b9ff8cee0eee6dcf2c595a7c8</Anchor>
     <DeclaredIn>memory.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -20884,49 +21269,64 @@
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d2/d34/smartptr_8hpp.html</Path>
+    <Path>d1/d78/std_2smart__ptr_8hpp.html</Path>
     <Anchor>a281a891b6957dd7765d08d0ee8cba9da</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>remove_reference_t</Name>
-      <APILanguage>c</APILanguage>
+      <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
+      <Scope>std</Scope>
     </TokenIdentifier>
-    <Path>d2/d34/smartptr_8hpp.html</Path>
-    <Anchor>a5993e4587ccd2777e95893329360358a</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a1de5d405966c0d4f9d72f2c89f82c960</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>forward</Name>
-      <APILanguage>c</APILanguage>
+      <APILanguage>cpp</APILanguage>
       <Type>func</Type>
+      <Scope>std</Scope>
     </TokenIdentifier>
-    <Path>d2/d34/smartptr_8hpp.html</Path>
-    <Anchor>a7c48057bf8df668d8fcc26ff2cfe728e</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a7de6141cbc66578566a2747bef639818</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>forward</Name>
-      <APILanguage>c</APILanguage>
+      <APILanguage>cpp</APILanguage>
       <Type>func</Type>
+      <Scope>std</Scope>
     </TokenIdentifier>
-    <Path>d2/d34/smartptr_8hpp.html</Path>
-    <Anchor>a55869111536ee9987a4fcacb1c553a42</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>aba4b8a01458ab13414b0fdbcc85820ef</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>make_shared</Name>
-      <APILanguage>c</APILanguage>
+      <APILanguage>cpp</APILanguage>
       <Type>func</Type>
+      <Scope>std</Scope>
     </TokenIdentifier>
-    <Path>d2/d34/smartptr_8hpp.html</Path>
-    <Anchor>a38302b21e6dcd07f8cba678239bed289</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a508b90b46e6012ecb37e46107963cf80</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make_smart</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a108196ce675cc051d33a30b7dbcca2a3</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -20993,11 +21393,55 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>transform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a00347f53b662fb7ba8d4a80fdf62aab9</Anchor>
+    <DeclaredIn>std.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>tolower</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a37c2ac6f7d497a4a27f00df50db12fbf</Anchor>
+    <DeclaredIn>std.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>toupper</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a032f3c464805eef3f21e60c95058a9e1</Anchor>
+    <DeclaredIn>std.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>npos</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a1217e4c83304856bde725831a23be63e</Anchor>
+    <DeclaredIn>std.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>strdbg</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d4/da0/string_8hpp.html</Path>
+    <Path>dd/d63/std_2string_8hpp.html</Path>
     <Anchor>a7cdd41144bf94efee18c9d0bccd1db54</Anchor>
     <DeclaredIn>string.hpp</DeclaredIn>
   </Token>
@@ -22397,6 +22841,36 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__no_debug</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>aff0956d5d22dc681aba3b7e6ad8313f1</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__target</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>a6caa97361de843c899afa324c794618e</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__min_vector_width</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>afdfab2b4342289435f71ad154d25aa43</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>__no_sanitize_address</Name>
       <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
@@ -23139,6 +23613,16 @@
     </TokenIdentifier>
     <Path>d2/d00/Kernel_8cpp.html</Path>
     <Anchor>a9aa5b5a5410c2e97df5759c3e6d8c318</Anchor>
+    <DeclaredIn>Kernel.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>NewLock</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d2/d00/Kernel_8cpp.html</Path>
+    <Anchor>a89c9da25c9ca23970db1290e1245139b</Anchor>
     <DeclaredIn>Kernel.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -24105,6 +24589,16 @@
     </TokenIdentifier>
     <Path>d0/dc7/Convert_8cpp.html</Path>
     <Anchor>a6d16cfe582260a88df041a033f946d23</Anchor>
+    <DeclaredIn>Convert.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>log2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/dc7/Convert_8cpp.html</Path>
+    <Anchor>ad99fcdd298b09a6b69d807013d4035e2</Anchor>
     <DeclaredIn>Convert.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -27093,7 +27587,7 @@
       <Scope>NetworkEthernet</Scope>
     </TokenIdentifier>
     <Path>da/dcd/namespaceNetworkEthernet.html</Path>
-    <Anchor>afac491e4d9925cd33911fe66f7cc36c0</Anchor>
+    <Anchor>a3cf014c60c2cf2a0ca174194f4ea13b1</Anchor>
     <DeclaredIn>Ethernet.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -27104,7 +27598,7 @@
       <Scope>NetworkIPv4</Scope>
     </TokenIdentifier>
     <Path>df/d2a/namespaceNetworkIPv4.html</Path>
-    <Anchor>a98464b51d0dfd7dee08eb92f31680e8c</Anchor>
+    <Anchor>a8b08389dabc1ca3e4733fb9b1720805f</Anchor>
     <DeclaredIn>InternetProtocol.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -27158,7 +27652,7 @@
       <Scope>NetworkInterfaceManager</Scope>
     </TokenIdentifier>
     <Path>d9/d4c/namespaceNetworkInterfaceManager.html</Path>
-    <Anchor>a65e8e89d5e1616d3a4f0742979d0a379</Anchor>
+    <Anchor>aa161a4feff3f4563334017345527f483</Anchor>
     <DeclaredIn>NetworkController.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -27169,7 +27663,7 @@
       <Scope>NetworkUDP</Scope>
     </TokenIdentifier>
     <Path>dd/df9/namespaceNetworkUDP.html</Path>
-    <Anchor>a2e3e344f40a31d355b9f12617aaf9ea3</Anchor>
+    <Anchor>a1a15936d94d426125c8d15a529770813</Anchor>
     <DeclaredIn>UserDatagramProtocol.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -27619,6 +28113,116 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>BufBight10</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a5870fc887341fa77b948a1c34264d0ff</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight20</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a1625e64ecd2d0903c66861c1beed8d51</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight30</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a8bfc36d1545c3ab7f28becd8a17044d8</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight40</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a8d6a23a75166711a97396cba9de5f08b</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight50</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a4101effbe9309bef03c9be77c9841648</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight60</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>af8730ad4d8109ee4a3b33b80c8041325</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight70</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>ae6ad8c930cf2c75af3a11a1bdb04a619</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight80</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>ab7c8d40eb1d64fe32848c43bc23c8e59</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight90</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a61a7b5c7a758f18a0ab239d79cc18cf6</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight100</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a537cc0310488e6b2fa9551e8c1c60be2</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RecoveryThreadWrapper</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -27945,6 +28549,16 @@
     </TokenIdentifier>
     <Path>d2/d6e/syscalls_8h.html</Path>
     <Anchor>a7646da588c70d4a6c38c0e3cef328fcea6d8c268464de46fda67d6a95a6685a24</Anchor>
+    <DeclaredIn>syscalls.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_Sleep</Name>
+      <APILanguage>c</APILanguage>
+      <Type>econst</Type>
+    </TokenIdentifier>
+    <Path>d2/d6e/syscalls_8h.html</Path>
+    <Anchor>a7646da588c70d4a6c38c0e3cef328fceaeed38220f1208e2f1e9b347eba917cf4</Anchor>
     <DeclaredIn>syscalls.h</DeclaredIn>
   </Token>
   <Token>
@@ -31708,6 +32322,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>sys_sleep</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d9/d76/Native_8cpp.html</Path>
+    <Anchor>ac3bac7be2ece45f4168e44ac8937f171</Anchor>
+    <DeclaredIn>Native.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>sys_wait</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -32859,6 +33483,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InterruptCallback</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>FexExtended.Driver</Scope>
+    </TokenIdentifier>
+    <Path>db/d74/structFexExtended_8Driver.html</Path>
+    <Anchor>ad6952f44e2096118082fbb8171a01fe1</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Bind</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -33503,687 +34137,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>shared_ptr</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>shared_ptr</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>a03a7a6823a1131d99c6d12b17cc1018a</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>shared_ptr</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>af317b328a00b9c9b3a6761287ba17055</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~shared_ptr</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>a6de732759f480c4e7d2425244561592b</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetCount</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>a47f5c4a0a349af9a6c9ba5f4060e619c</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Get</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>abf370348b8c58eee7b657f5460e31d8e</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator*</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>a55f90fd9ec9c1dbf02187bceb924c803</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator-&gt;</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>a08c3c1ca9e0418a79e3bf1d9a4809caa</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>reset</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>a7d18acf2eb45a6a28903f62cbe3f280f</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>reset</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>ad40a4bcfcf82d48ec8eeaad959b44881</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>swap</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>a24f2658959fb8f1be0708fa25f4e0dd3</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>m_ReferenceCounter</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>a4119afe5b590734b08b86d93c0ce028a</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>m_RealPointer</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>shared_ptr</Scope>
-    </TokenIdentifier>
-    <Path>d4/d67/classshared__ptr.html</Path>
-    <Anchor>af0736fe5bafbc25e5518ab4158065c58</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>shared_ptr::Counter</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Counter</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>a79b29023b1bd60eab99fdc27abf04f2d</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Counter</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>a422a1b3cd9651460f5c4efbb0bd835b0</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator=</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>abb977371357a97f50df7feeaccc2cd50</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~Counter</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>a9cd9467c6f62db381d4cd4e08011e526</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Reset</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>a50beb98b99693f3ca47403144888b49f</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Get</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>ab3f1eedbc674fc7a576c6c9005a3b306</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator++</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>ab5b666b86b54a8a439fdc60c7de37358</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator++</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>a03db8b9b6488b896d893e23fa0d0f14d</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator--</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>ab857b91ba165db69ec03ab7c0d6605b3</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator--</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>a8d9fc0dbf64e1450b013ba26f2a805d9</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>m_RefCount</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>shared_ptr::Counter</Scope>
-    </TokenIdentifier>
-    <Path>da/de2/classshared__ptr_1_1Counter.html</Path>
-    <Anchor>a2f2bade3e49f10e0fe7201b0e456bcff</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>smart_ptr</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>smart_ptr</Scope>
-    </TokenIdentifier>
-    <Path>dc/d42/classsmart__ptr.html</Path>
-    <Abstract>A smart pointer class.</Abstract>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>smart_ptr</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>smart_ptr</Scope>
-    </TokenIdentifier>
-    <Path>dc/d42/classsmart__ptr.html</Path>
-    <Anchor>abe85bb651a9eddf3177fe8d63d0be5c8</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~smart_ptr</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>smart_ptr</Scope>
-    </TokenIdentifier>
-    <Path>dc/d42/classsmart__ptr.html</Path>
-    <Anchor>a43518f1c6d475b5d462599780f07b769</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator*</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>smart_ptr</Scope>
-    </TokenIdentifier>
-    <Path>dc/d42/classsmart__ptr.html</Path>
-    <Anchor>a2c6a11de1d90efd3393b041ec29f3129</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator-&gt;</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>smart_ptr</Scope>
-    </TokenIdentifier>
-    <Path>dc/d42/classsmart__ptr.html</Path>
-    <Anchor>ab47f38a06c0b83c189198e7b2d054270</Anchor>
-    <DeclaredIn>smartptr.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>m_RealPointer</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>smart_ptr</Scope>
-    </TokenIdentifier>
-    <Path>dc/d42/classsmart__ptr.html</Path>
-    <Anchor>a833028f391a860d124d3aacd787d1db7</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>String</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Abstract>String class String class that can be used to store strings.</Abstract>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>String</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>ae9e974e7e7311709410ed9fe2fde47c9</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~String</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>ac40b2a3fb58c2d8556f5e6ff73510036</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>length</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a79366b9ecdbde9701a9acfe0009a5ded</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>capacity</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a77b0eac22e2e79c9bbd4c07f9adfe07e</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>c_str</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a0274f3e61533d15086816fb7f47ccb54</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>resize</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a33bd29ef76cfb416f67ce950f388ac51</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>concat</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a60e756ed26e6ea1eb3d761ee1f3c7f3a</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator+</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>ab9c30c941b061461c61c481029e237a7</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator+</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a3cb8e46385dc6ec772d274d8c3518862</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator=</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>abf86e5ccd72413271cdccab0b8fca371</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator=</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a42b724f4ede888b39fa60073bbf6411f</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator&lt;&lt;</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a67d223e021fe82e1d0a0133e0451f6da</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator&lt;&lt;</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a0f9d6ce4cf9228b178ffb9ad2803fa7e</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator[]</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a763949a670e81601404881947dbd5c5f</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator[]</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>afc95a036be4f00c8e6ee68c463aba53f</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator==</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>aad208cd8350e1a4e9dfeed1be4f4caeb</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator!=</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a9f307e9c98ed96da8b13ec1ccd420291</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator==</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a22a6364357485892b9562d5f6bfc9635</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator!=</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a1601a5fe0438f44e0e8092b596c032ad</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>begin</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>ae602aeff6719d1f6398c397d68df79f3</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>end</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a5647ad54a7c6cef93f9111fcc9d6ed92</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>m_Data</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>aced7962220d8b6ce0aea303d59c13557</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>m_Length</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>aedac28d9f1481ec4ac282356f7aef611</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>m_Capacity</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>String</Scope>
-    </TokenIdentifier>
-    <Path>d3/dee/classString.html</Path>
-    <Anchor>a87b2d2e1f6907ebdeaa652633f9a8b5d</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>String::Iterator</Name>
-      <APILanguage>c</APILanguage>
-      <Type>cl</Type>
-      <Scope>String::Iterator</Scope>
-    </TokenIdentifier>
-    <Path>d9/df0/classString_1_1Iterator.html</Path>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String::Iterator</Scope>
-    </TokenIdentifier>
-    <Path>d9/df0/classString_1_1Iterator.html</Path>
-    <Anchor>a50a57096be223fa191fbb40489ad50c9</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator++</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String::Iterator</Scope>
-    </TokenIdentifier>
-    <Path>d9/df0/classString_1_1Iterator.html</Path>
-    <Anchor>a5a3daffeb40cf0a03a4cdef8ab54ed3c</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator*</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String::Iterator</Scope>
-    </TokenIdentifier>
-    <Path>d9/df0/classString_1_1Iterator.html</Path>
-    <Anchor>ad6fbe2801ad1b5dce7eea28331d9b420</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator!=</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String::Iterator</Scope>
-    </TokenIdentifier>
-    <Path>d9/df0/classString_1_1Iterator.html</Path>
-    <Anchor>aaf58cbcd853cd1ee9c8ff8e9069f79e9</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator==</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>String::Iterator</Scope>
-    </TokenIdentifier>
-    <Path>d9/df0/classString_1_1Iterator.html</Path>
-    <Anchor>ade7b2089e7cf925a8fa876c959403207</Anchor>
-    <DeclaredIn>string.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>m_Pointer</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>String::Iterator</Scope>
-    </TokenIdentifier>
-    <Path>d9/df0/classString_1_1Iterator.html</Path>
-    <Anchor>a65ea029211161cd43938825e1a62cdb3</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>terminate_handler</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
@@ -34219,375 +34172,6 @@
     </TokenIdentifier>
     <Path>d0/d56/structunexpected__handler.html</Path>
     <Anchor>a571bd196896283aaf4e6c827e51087a6</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Vector</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tmplt</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>iterator</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a30c203480dfd28a0f1fde5c08a68db94</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Vector</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a4abd0ee44070fc751fde48085aba8876</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Vector</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a7b2b39dd6149499b8c1276256b1e892c</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Vector</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a90478a2e76b57462b13f7b8583868b7d</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Vector</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>ac84bb933d491082f63abdcc7f24b25b0</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>~Vector</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a5a22ee26a6e163d9c722402ab368cb3c</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>remove</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>aa1539d9e33d052bcd21e4122cdb1ce43</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>remove</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>acf88daead2f30ba342f2faca6630356d</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>null_elem</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>acd22b703674356759ca809685ed47f1a</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>null_elem</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>af204c3b6014f1c8ed618aa8b0b137cab</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>next</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>aa991468f69afed899195ee95053346ed</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>prev</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a38508f5597046515436c83bcf139ad59</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>next</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a52fbd34a00f3722924909ea3d1ee6e54</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>prev</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a28a0354510695c9b00c95f797002361e</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>capacity</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a087f3ebd57e79270eacbea61b0d56bf7</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>size</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a476029edf7d3e40c0d9b9da2042f55b6</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>empty</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a2a03bf5b5e32c85b86ed71c2906b7437</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>begin</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>afb86c71a8debc106d4f85e3c4e87c6e1</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>end</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a0293e5beb417013d20dc745f9c87c054</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>front</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>ab0490b725caf2b480c69e85b4c7ee04a</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>back</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a07cf688bb5fa76bb533e123f187f648f</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>push_back</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a0015dcca8ba82a39418147af0e15c045</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>pop_back</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>abca7812399bd593722fe4e071faa7a33</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>reverse</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a8feb1479b2da8d6d0d2375e72b69c394</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>reserve</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a87cf1e4f92f24bbddad33753ee179ff8</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>resize</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>aa1600f99e1e2af3aa167f1a702da12d3</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>clear</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a38d60dece1cd8c14bd0b09492b7b89bf</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>data</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a4952e4a6e98bd35c8993a758cff2ead5</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator[]</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a54632e7f8e52dfb5eb5d14a138c44f67</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>operator=</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a7f3314c6aa5e356bcf3ddeba4f1e69cb</Anchor>
-    <DeclaredIn>vector.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>VectorSize</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>afa1a5200ac0dcf5d6283da163339b26a</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>VectorCapacity</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>a0928ab38e71f8c350fb955777727f28e</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>VectorBuffer</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>Vector</Scope>
-    </TokenIdentifier>
-    <Path>d6/da1/classVector.html</Path>
-    <Anchor>ad3abb60e1ccd27addba68059720fa051</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34964,7 +34548,7 @@
       <Scope>ACPI::MADT</Scope>
     </TokenIdentifier>
     <Path>da/db9/classACPI_1_1MADT.html</Path>
-    <Anchor>a71683c6c140d2a44f334abae94bca7ce</Anchor>
+    <Anchor>a154d6086b9bb4d53f53bb3ca32b7d968</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34974,7 +34558,7 @@
       <Scope>ACPI::MADT</Scope>
     </TokenIdentifier>
     <Path>da/db9/classACPI_1_1MADT.html</Path>
-    <Anchor>a6a93402239b14696f4cbff5ae6f34b0c</Anchor>
+    <Anchor>ad4eacdf6b7b9c1dda2210ed7f49c8823</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34984,7 +34568,7 @@
       <Scope>ACPI::MADT</Scope>
     </TokenIdentifier>
     <Path>da/db9/classACPI_1_1MADT.html</Path>
-    <Anchor>a712b35920f3f99d732da8a29300f3604</Anchor>
+    <Anchor>a12e1b85bddbcf348f0e96b63d06043a0</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34994,7 +34578,7 @@
       <Scope>ACPI::MADT</Scope>
     </TokenIdentifier>
     <Path>da/db9/classACPI_1_1MADT.html</Path>
-    <Anchor>a6c01b4c5b3d44d10f8ce61b52542abed</Anchor>
+    <Anchor>a3c6b31d5c866db97dbc83aa8551bb597</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -35210,6 +34794,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a3c0d670ae749a9b104ab9a742b52c507</Anchor>
+    <Abstract>Set a new interrupt number.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -35232,6 +34817,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a2a1152c5908c5a3c7b51f2c4fe4b30ab</Anchor>
+    <Abstract>Create a new interrupt handler.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -38447,6 +38033,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a3c0d670ae749a9b104ab9a742b52c507</Anchor>
+    <Abstract>Set a new interrupt number.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -38469,6 +38056,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a2a1152c5908c5a3c7b51f2c4fe4b30ab</Anchor>
+    <Abstract>Create a new interrupt handler.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -38481,6 +38069,24 @@
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a27268e70db8896d229fbcafd4cafec31</Anchor>
     <DeclaredIn>ints.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AVX</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>AVX</Scope>
+    </TokenIdentifier>
+    <Path>d9/de6/namespaceAVX.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>AVX2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>AVX2</Scope>
+    </TokenIdentifier>
+    <Path>df/dfb/namespaceAVX2.html</Path>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -50894,6 +50500,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a3c0d670ae749a9b104ab9a742b52c507</Anchor>
+    <Abstract>Set a new interrupt number.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -50916,6 +50523,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a2a1152c5908c5a3c7b51f2c4fe4b30ab</Anchor>
+    <Abstract>Create a new interrupt handler.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -51262,7 +50870,7 @@
       <Scope>Disk::Drive</Scope>
     </TokenIdentifier>
     <Path>de/d49/classDisk_1_1Drive.html</Path>
-    <Anchor>ab76320aa992fd5d0126c079422f02a93</Anchor>
+    <Anchor>a4f5223f3d0f42361abdac40eb94071c9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -51355,7 +50963,7 @@
       <Scope>Disk::Manager</Scope>
     </TokenIdentifier>
     <Path>d7/d2c/classDisk_1_1Manager.html</Path>
-    <Anchor>afadf04161b0d9c994fdefde07c94e459</Anchor>
+    <Anchor>a376f392795771c8f8a05b8cdd9ee7270</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -51368,13 +50976,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>if</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>a950514b5d3eee92c89a612671469e7a9</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>void</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>Driver</Scope>
     </TokenIdentifier>
     <Path>d1/d48/namespaceDriver.html</Path>
-    <Anchor>a0e482219b5f1146ae92655e6c7fc0e64</Anchor>
+    <Anchor>a78bb577b663770d85e78562670b1e674</Anchor>
     <DeclaredIn>Driver.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -51397,6 +51016,17 @@
     </TokenIdentifier>
     <Path>d1/d48/namespaceDriver.html</Path>
     <Anchor>ab6b0cdd8de3bb231a618dd471281906f</Anchor>
+    <DeclaredIn>Driver.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>regs</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Driver</Scope>
+    </TokenIdentifier>
+    <Path>d1/d48/namespaceDriver.html</Path>
+    <Anchor>ae0b9a9476c69599a8c18049953626b4c</Anchor>
     <DeclaredIn>Driver.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -51538,7 +51168,7 @@
       <Scope>Driver::DriverInterruptHook</Scope>
     </TokenIdentifier>
     <Path>d5/dff/classDriver_1_1DriverInterruptHook.html</Path>
-    <Anchor>a762145065de614fcf4d6f6b30a416517</Anchor>
+    <Anchor>a43ec8d957d587030fdafe0d1d2033823</Anchor>
     <DeclaredIn>driver.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -51560,17 +51190,7 @@
       <Scope>Driver::DriverInterruptHook</Scope>
     </TokenIdentifier>
     <Path>d5/dff/classDriver_1_1DriverInterruptHook.html</Path>
-    <Anchor>a22f4d3b9709e6e8746270adc9d372c76</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Data</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>Driver::DriverInterruptHook</Scope>
-    </TokenIdentifier>
-    <Path>d5/dff/classDriver_1_1DriverInterruptHook.html</Path>
-    <Anchor>a9bcf87039e4a2c497e46a8c8c7ba4706</Anchor>
+    <Anchor>ae9b81708532d516a73adc3a71a4c47ec</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -51581,6 +51201,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a3c0d670ae749a9b104ab9a742b52c507</Anchor>
+    <Abstract>Set a new interrupt number.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -51603,6 +51224,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a2a1152c5908c5a3c7b51f2c4fe4b30ab</Anchor>
+    <Abstract>Create a new interrupt handler.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -51634,7 +51256,7 @@
       <Scope>Driver::Driver</Scope>
     </TokenIdentifier>
     <Path>d3/d7d/classDriver_1_1Driver.html</Path>
-    <Anchor>a4974c82b7bc0a7e7688899323fdd37cd</Anchor>
+    <Anchor>aeb70fc03be5065cced9aff82f3a2877a</Anchor>
     <DeclaredIn>driver.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52096,7 +51718,7 @@
       <Scope>Driver::Driver</Scope>
     </TokenIdentifier>
     <Path>d3/d7d/classDriver_1_1Driver.html</Path>
-    <Anchor>a80cd1e89974bdaf5bfd033c24f84d948</Anchor>
+    <Anchor>af0181e298c393194a23af648668c6a60</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -52125,7 +51747,7 @@
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>a929e1ca582be6299ba1f282db24d03bc</Anchor>
+    <Anchor>aa0ad786f60e7298278e89b15b3b6a7ab</Anchor>
     <DeclaredIn>BaseLoad.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -52257,7 +51879,7 @@
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>a3225e0fb995a52f5e4ff9ab1d4d40f70</Anchor>
+    <Anchor>a509b5c10d741719e8f06486c35fca91c</Anchor>
     <Abstract>Create a ELF Memory Image.</Abstract>
     <DeclaredIn>Parse.cpp</DeclaredIn>
   </Token>
@@ -52379,7 +52001,7 @@
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>a49edd982ee3b86acf701098b69155696</Anchor>
+    <Anchor>ab7e9a83b57f214f104ea7074db8a9e27</Anchor>
     <DeclaredIn>BaseLoad.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -52395,13 +52017,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>InterpreterElfFile</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Execute</Scope>
+    </TokenIdentifier>
+    <Path>d5/d27/namespaceExecute.html</Path>
+    <Anchor>a4ca4f7016486dfdccc306930a5b75228</Anchor>
+    <DeclaredIn>BaseLoad.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>InterpreterNeededLibraries</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>a1a0c318802a31d560daca05e7943ee63</Anchor>
+    <Anchor>af57f02e31db90a2138281a80a6326b10</Anchor>
     <DeclaredIn>BaseLoad.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -52423,7 +52056,7 @@
       <Scope>Execute</Scope>
     </TokenIdentifier>
     <Path>d5/d27/namespaceExecute.html</Path>
-    <Anchor>ae631a2b49669243fc714c740040be196</Anchor>
+    <Anchor>a4c0f2322a22a6f947e6932721fedf50e</Anchor>
     <DeclaredIn>SharedObjects.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -52615,6 +52248,59 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>FXSR</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>FXSR</Scope>
+    </TokenIdentifier>
+    <Path>de/ded/namespaceFXSR.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_fxsave</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>FXSR</Scope>
+    </TokenIdentifier>
+    <Path>de/ded/namespaceFXSR.html</Path>
+    <Anchor>aa397cf94241c37dd32d9d7b0b3cb9a56</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_fxrstor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>FXSR</Scope>
+    </TokenIdentifier>
+    <Path>de/ded/namespaceFXSR.html</Path>
+    <Anchor>aab6a3556dcee10d6d62fda371c305f3e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_fxsave64</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>FXSR</Scope>
+    </TokenIdentifier>
+    <Path>de/ded/namespaceFXSR.html</Path>
+    <Anchor>abd6b1fb782a0e87d1a12e37728e366bf</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_fxrstor64</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>FXSR</Scope>
+    </TokenIdentifier>
+    <Path>de/ded/namespaceFXSR.html</Path>
+    <Anchor>ab5f920bf95cd3e9ac232447ea847a435</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GlobalDescriptorTable</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -52653,6 +52339,17 @@
     </TokenIdentifier>
     <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
     <Anchor>af44df44be911e3d57e2faf23148d32f8</Anchor>
+    <DeclaredIn>gdt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>GetKernelStack</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>ab8fe0c39e450d238fcbba11a60791922</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52751,7 +52448,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>ae16de5fe508ad7081384169da233e901</Anchor>
+    <Anchor>ab330cdeaae21e216d7efeec0b0bb66e3</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52793,7 +52490,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableFlags</Scope>
     </TokenIdentifier>
     <Path>dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html</Path>
-    <Anchor>aa2e4e68771bec28e9329de5b5fa9b042</Anchor>
+    <Anchor>a0bdd297a8d6ca381fcac75f260da4204</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -53739,7 +53436,7 @@
       <Scope>GraphicalUserInterface::WidgetCollection</Scope>
     </TokenIdentifier>
     <Path>d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html</Path>
-    <Anchor>ad4efa7c8ea3a3456b1d4593ed70bd6fc</Anchor>
+    <Anchor>a364e4a7a75981e236231aa4a7e0002f9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53749,7 +53446,7 @@
       <Scope>GraphicalUserInterface::WidgetCollection</Scope>
     </TokenIdentifier>
     <Path>d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html</Path>
-    <Anchor>af4f8e2ffc0c572ff86faff79db6e1890</Anchor>
+    <Anchor>a5041f73c6eda563c47ea3285d119452d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53759,7 +53456,7 @@
       <Scope>GraphicalUserInterface::WidgetCollection</Scope>
     </TokenIdentifier>
     <Path>d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html</Path>
-    <Anchor>ab9f7bc14153729e34a4f8bca0bf4f0fc</Anchor>
+    <Anchor>a4e482743836920a323a9bfbec314c504</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54357,7 +54054,7 @@
       <Scope>GraphicalUserInterface::Window</Scope>
     </TokenIdentifier>
     <Path>d2/d89/classGraphicalUserInterface_1_1Window.html</Path>
-    <Anchor>affe31540f4d7e47df1f74869ca1cf7b8</Anchor>
+    <Anchor>a8f70dd16dcdde5df89e2a8b9b7ca632a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54608,7 +54305,7 @@
       <Scope>GraphicalUserInterface::GUI</Scope>
     </TokenIdentifier>
     <Path>d6/d43/classGraphicalUserInterface_1_1GUI.html</Path>
-    <Anchor>a626e953b927284ab82bec528a6e56fed</Anchor>
+    <Anchor>a84e451ac73b2aa2da010fd002a3b303e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54618,7 +54315,7 @@
       <Scope>GraphicalUserInterface::GUI</Scope>
     </TokenIdentifier>
     <Path>d6/d43/classGraphicalUserInterface_1_1GUI.html</Path>
-    <Anchor>a8579b992551c274507e5ce1f1f618447</Anchor>
+    <Anchor>ae22f2ffe3ac9c5fdc37ea846ecf4d8de</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55067,7 +54764,7 @@
       <Scope>InterProcessCommunication::IPC</Scope>
     </TokenIdentifier>
     <Path>df/d7e/classInterProcessCommunication_1_1IPC.html</Path>
-    <Anchor>a5c99cab3f1206c667a456ac88ab8aa97</Anchor>
+    <Anchor>a87203006561c4dd54d6b7fed3ad63849</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55730,7 +55427,7 @@
       <Scope>Interrupts</Scope>
     </TokenIdentifier>
     <Path>d3/dc3/namespaceInterrupts.html</Path>
-    <Anchor>a020f8c63277f96ec2fd08bc33e64ae28</Anchor>
+    <Anchor>afcc4bd09a12169b61eb540c3bc165225</Anchor>
     <DeclaredIn>InterruptsManager.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -55763,6 +55460,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a3c0d670ae749a9b104ab9a742b52c507</Anchor>
+    <Abstract>Set a new interrupt number.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -55785,6 +55483,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a2a1152c5908c5a3c7b51f2c4fe4b30ab</Anchor>
+    <Abstract>Create a new interrupt handler.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -55849,6 +55548,37 @@
     <Path>d3/d97/namespaceMemory.html</Path>
     <Anchor>a6c1d73cc8a1e574400a2055d2beddf2a</Anchor>
     <DeclaredIn>MemoryManager.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MMX</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>MMX</Scope>
+    </TokenIdentifier>
+    <Path>dd/db4/namespaceMMX.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>MMX</Scope>
+    </TokenIdentifier>
+    <Path>dd/db4/namespaceMMX.html</Path>
+    <Anchor>ad3b208e9f03bc5df9d78e155c82f6332</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_empty</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>MMX</Scope>
+    </TokenIdentifier>
+    <Path>dd/db4/namespaceMMX.html</Path>
+    <Anchor>a79dc78edb783dee109ae9ef00c021530</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -56175,7 +55905,7 @@
       <Scope>NetworkARP::ARP</Scope>
     </TokenIdentifier>
     <Path>d9/d9b/classNetworkARP_1_1ARP.html</Path>
-    <Anchor>ab7c878a7d7344917679041756093e03d</Anchor>
+    <Anchor>a87cb91dbf84ea3e4b2b015364231462f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -57500,7 +57230,7 @@
       <Scope>NetworkEthernet</Scope>
     </TokenIdentifier>
     <Path>da/dcd/namespaceNetworkEthernet.html</Path>
-    <Anchor>afac491e4d9925cd33911fe66f7cc36c0</Anchor>
+    <Anchor>a3cf014c60c2cf2a0ca174194f4ea13b1</Anchor>
     <DeclaredIn>Ethernet.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -58115,7 +57845,7 @@
       <Scope>NetworkInterfaceManager</Scope>
     </TokenIdentifier>
     <Path>d9/d4c/namespaceNetworkInterfaceManager.html</Path>
-    <Anchor>a65e8e89d5e1616d3a4f0742979d0a379</Anchor>
+    <Anchor>aa161a4feff3f4563334017345527f483</Anchor>
     <DeclaredIn>NetworkController.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -58353,7 +58083,7 @@
       <Scope>NetworkInterfaceManager::NetworkInterface</Scope>
     </TokenIdentifier>
     <Path>d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html</Path>
-    <Anchor>a55877914c581cc03f64dece7360987c8</Anchor>
+    <Anchor>a74a00ce1de488e58c5788e41ce5e0021</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -58382,7 +58112,7 @@
       <Scope>NetworkIPv4</Scope>
     </TokenIdentifier>
     <Path>df/d2a/namespaceNetworkIPv4.html</Path>
-    <Anchor>a98464b51d0dfd7dee08eb92f31680e8c</Anchor>
+    <Anchor>a8b08389dabc1ca3e4733fb9b1720805f</Anchor>
     <DeclaredIn>InternetProtocol.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -58992,7 +58722,7 @@
       <Scope>NetworkUDP</Scope>
     </TokenIdentifier>
     <Path>dd/df9/namespaceNetworkUDP.html</Path>
-    <Anchor>a2e3e344f40a31d355b9f12617aaf9ea3</Anchor>
+    <Anchor>a1a15936d94d426125c8d15a529770813</Anchor>
     <DeclaredIn>UserDatagramProtocol.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -59494,7 +59224,7 @@
       <Scope>PCI::PCI</Scope>
     </TokenIdentifier>
     <Path>d8/d81/classPCI_1_1PCI.html</Path>
-    <Anchor>a89bd5d6c8fac6f38acccfa32dc521f86</Anchor>
+    <Anchor>a370308e3fed82058668dd4ebb9b50148</Anchor>
     <DeclaredIn>pci.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -59538,7 +59268,7 @@
       <Scope>PCI::PCI</Scope>
     </TokenIdentifier>
     <Path>d8/d81/classPCI_1_1PCI.html</Path>
-    <Anchor>ab727799b2cdd156a123e843d79845fea</Anchor>
+    <Anchor>ac2b631069d07f69628f917bcf22a8088</Anchor>
     <DeclaredIn>pci.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -59549,7 +59279,7 @@
       <Scope>PCI::PCI</Scope>
     </TokenIdentifier>
     <Path>d8/d81/classPCI_1_1PCI.html</Path>
-    <Anchor>ad5fdd1939c16f7d73e143d9b602ca219</Anchor>
+    <Anchor>a664b5ef69dae8961baf97b7429272621</Anchor>
     <DeclaredIn>pci.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -59582,7 +59312,7 @@
       <Scope>PCI::PCI</Scope>
     </TokenIdentifier>
     <Path>d8/d81/classPCI_1_1PCI.html</Path>
-    <Anchor>a448f1d0986593d65c8cd570591da705b</Anchor>
+    <Anchor>a09956e84c0d0aa7a28ad6a9d6bfef1fc</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -60588,6 +60318,116 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>BufBight10</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a5870fc887341fa77b948a1c34264d0ff</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight20</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a1625e64ecd2d0903c66861c1beed8d51</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight30</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a8bfc36d1545c3ab7f28becd8a17044d8</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight40</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a8d6a23a75166711a97396cba9de5f08b</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight50</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a4101effbe9309bef03c9be77c9841648</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight60</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>af8730ad4d8109ee4a3b33b80c8041325</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight70</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>ae6ad8c930cf2c75af3a11a1bdb04a619</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight80</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>ab7c8d40eb1d64fe32848c43bc23c8e59</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight90</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a61a7b5c7a758f18a0ab239d79cc18cf6</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>BufBight100</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>Recovery</Scope>
+    </TokenIdentifier>
+    <Path>d2/d3b/namespaceRecovery.html</Path>
+    <Anchor>a537cc0310488e6b2fa9551e8c1c60be2</Anchor>
+    <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>RecoveryThreadWrapper</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -60748,6 +60588,37 @@
     </TokenIdentifier>
     <Path>d0/db2/classRecovery_1_1KernelRecovery.html</Path>
     <Anchor>acb08817e0348b549f95c127644bdcae7</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SMAP</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>SMAP</Scope>
+    </TokenIdentifier>
+    <Path>d6/de5/namespaceSMAP.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_clac</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SMAP</Scope>
+    </TokenIdentifier>
+    <Path>d6/de5/namespaceSMAP.html</Path>
+    <Anchor>a257aade8dd80633bfa0a07a83b5c5e5f</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_stac</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SMAP</Scope>
+    </TokenIdentifier>
+    <Path>d6/de5/namespaceSMAP.html</Path>
+    <Anchor>a2bd01c58dd91d5e1c22dbcb9efff66ea</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -62779,6 +62650,203 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SSE</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>SSE</Scope>
+    </TokenIdentifier>
+    <Path>d5/de2/namespaceSSE.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>SSE</Scope>
+    </TokenIdentifier>
+    <Path>d5/de2/namespaceSSE.html</Path>
+    <Anchor>afde775c1a84eeba2b6e89bcb9433b55e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_add_ss</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE</Scope>
+    </TokenIdentifier>
+    <Path>d5/de2/namespaceSSE.html</Path>
+    <Anchor>a311191692d325a6c6cebeba37a4765d7</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_add_ps</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE</Scope>
+    </TokenIdentifier>
+    <Path>d5/de2/namespaceSSE.html</Path>
+    <Anchor>a16d719be7ceca0384e5faa25b1541b0e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSE2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+    <Anchor>ae74a6b81f85cb3678ebfd3ccd8acb675</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_mul_epu32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+    <Anchor>a0b9cd5deba44a8302af08d665824a48e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_set_epi32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+    <Anchor>acb3bfd967aafc0cdc309c8b9b307ab5f</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_set1_epi32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+    <Anchor>a022a8148e91b52c2a384f6ea649e2d99</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_storeu_si128</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE2</Scope>
+    </TokenIdentifier>
+    <Path>d4/d85/namespaceSSE2.html</Path>
+    <Anchor>a00c6543aaf00217e2d650c602b41d163</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSE3</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>SSE3</Scope>
+    </TokenIdentifier>
+    <Path>d8/d98/namespaceSSE3.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSE4_1</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__attribute__</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+    <Anchor>abedffe0b04cc16bcf3a70c7e31ca7bf4</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_cvtepu8_epi32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+    <Anchor>ab70feb36be0ce8e657aa62ff0a250501</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_mullo_epi32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+    <Anchor>adf5aa364e8c33166867f6170a35d3f7e</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_srli_epi32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+    <Anchor>a1d4c0cb3391e54c0bb9f3f16bc1a6256</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>_mm_cvtsi128_si32</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>SSE4_1</Scope>
+    </TokenIdentifier>
+    <Path>de/db2/namespaceSSE4__1.html</Path>
+    <Anchor>a6a20121df3f761821422ea71e17fb665</Anchor>
+    <DeclaredIn>intrin.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSE4_2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>SSE4_2</Scope>
+    </TokenIdentifier>
+    <Path>db/d3d/namespaceSSE4__2.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SSSE3</Name>
+      <APILanguage>c</APILanguage>
+      <Type>ns</Type>
+      <Scope>SSSE3</Scope>
+    </TokenIdentifier>
+    <Path>d0/d9a/namespaceSSSE3.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>std</Name>
       <APILanguage>c</APILanguage>
       <Type>ns</Type>
@@ -62786,6 +62854,17 @@
     </TokenIdentifier>
     <Path>d8/dcc/namespacestd.html</Path>
     <Abstract>// stub namespace for std::align_val_t and new operator</Abstract>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>remove_reference_t</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a1de5d405966c0d4f9d72f2c89f82c960</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -62797,6 +62876,2072 @@
     <Path>d8/dcc/namespacestd.html</Path>
     <Anchor>ad477e282dc33a113ed64628b9b32e3dd</Anchor>
     <DeclaredIn>std.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>forward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a7de6141cbc66578566a2747bef639818</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>forward</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>aba4b8a01458ab13414b0fdbcc85820ef</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make_shared</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a508b90b46e6012ecb37e46107963cf80</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>make_smart</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a108196ce675cc051d33a30b7dbcca2a3</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>transform</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a00347f53b662fb7ba8d4a80fdf62aab9</Anchor>
+    <DeclaredIn>std.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>tolower</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a37c2ac6f7d497a4a27f00df50db12fbf</Anchor>
+    <DeclaredIn>std.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>toupper</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a032f3c464805eef3f21e60c95058a9e1</Anchor>
+    <DeclaredIn>std.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>npos</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcc/namespacestd.html</Path>
+    <Anchor>a1217e4c83304856bde725831a23be63e</Anchor>
+    <DeclaredIn>std.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::hash</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>std::hash</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/structstd_1_1hash.html</Path>
+    <DeclaredIn>functional.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator()</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std::hash</Scope>
+    </TokenIdentifier>
+    <Path>d8/dcf/structstd_1_1hash.html</Path>
+    <Anchor>a64c8b313bac440824dab3dbb97388890</Anchor>
+    <DeclaredIn>functional.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::list</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>list</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a294e78abe060600b319caf720305d662</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~list</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a152e4d921ad1153481759c81d98f2905</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>list</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a40d68edbc94a291e717699c33a1eb21b</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>push_back</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>ac6eedd256842c37bb7001a978de1cca1</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pop_back</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a23c252dbebd5979ac4227de3e15bbd2d</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>push_front</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a3c2d57e3117b7d4a98f7287856a1c234</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pop_front</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a399b0971d2cb06df51192e9458de1098</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>empty</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>ad14279ddace30a06e662773acec223da</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clear</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a5d7ea0b3797a31d7e604f26dee45a6cc</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>af72cf14cbe7e0844ac8cab673524434c</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>begin</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a87271e042ec3bb4a4722cc0079c6f8a7</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a9d17488c49b572a97f6be5d142699bdd</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>insert</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a6e77f3b6bdf8d4e2306c63cdcb278ab1</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>erase</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>ac69720dfc2681014a64bdb3c68786787</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>head</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>a1404c512ee503cc558a10dcecb939219</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>tail</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>ad736da7614dc9d0af47da08bbccc56d8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::list</Scope>
+    </TokenIdentifier>
+    <Path>d4/dff/classstd_1_1list.html</Path>
+    <Anchor>ab2f08b1bb62605eaaee78b2f2db7c942</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::list::iterator</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>a0a756e7b139585066919bdbcd8438c56</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator*</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>a34dd9c8649812a11d250ad9633a1ba09</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>a089e4d0932cd87e9e18f1b961bce02ad</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>ac360e5344b8123fb70e40f0791f0e221</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator--</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>a0ddc202025398f7c94cca477d33c01e7</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>aedee08ca83c92cf3a0dbbb2b39d75273</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator--</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>a36fe00d6f96304d9a2d72aa6ad4f4001</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>aa89ff8a893182fc37aaa52c89f3da98d</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>ab3ec9382d8761f713205330e626afefa</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>a59f7f37d6a31415efa6989c76f651e29</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>list</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>ffunc</Type>
+      <Scope>std::list::iterator</Scope>
+    </TokenIdentifier>
+    <Path>dd/d79/classstd_1_1list_1_1iterator.html</Path>
+    <Anchor>a39e8296e3b93358d0af90000b5d9113c</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::list::Node</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>std::list::Node</Scope>
+    </TokenIdentifier>
+    <Path>db/d72/structstd_1_1list_1_1Node.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Node</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std::list::Node</Scope>
+    </TokenIdentifier>
+    <Path>db/d72/structstd_1_1list_1_1Node.html</Path>
+    <Anchor>addbaba00dee93d70f5a683c300e03bff</Anchor>
+    <DeclaredIn>list.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>value</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::list::Node</Scope>
+    </TokenIdentifier>
+    <Path>db/d72/structstd_1_1list_1_1Node.html</Path>
+    <Anchor>a5b7b8f578a1243fd5b0313126e080b60</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>prev</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::list::Node</Scope>
+    </TokenIdentifier>
+    <Path>db/d72/structstd_1_1list_1_1Node.html</Path>
+    <Anchor>a50407295ed26e0ecc0a44aa1325a9e02</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>next</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::list::Node</Scope>
+    </TokenIdentifier>
+    <Path>db/d72/structstd_1_1list_1_1Node.html</Path>
+    <Anchor>a7987ad178648aa8d103a560256f13599</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::smart_ptr</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>std::smart_ptr</Scope>
+    </TokenIdentifier>
+    <Path>dc/d53/classstd_1_1smart__ptr.html</Path>
+    <Abstract>A smart pointer class.</Abstract>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>smart_ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::smart_ptr</Scope>
+    </TokenIdentifier>
+    <Path>dc/d53/classstd_1_1smart__ptr.html</Path>
+    <Anchor>ad94db8246413121cefd141a77d33799f</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~smart_ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::smart_ptr</Scope>
+    </TokenIdentifier>
+    <Path>dc/d53/classstd_1_1smart__ptr.html</Path>
+    <Anchor>a660831f2373cafe9d66a26d3a6d84b47</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator*</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::smart_ptr</Scope>
+    </TokenIdentifier>
+    <Path>dc/d53/classstd_1_1smart__ptr.html</Path>
+    <Anchor>aec45c51666e7a55337dfc4507f156647</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::smart_ptr</Scope>
+    </TokenIdentifier>
+    <Path>dc/d53/classstd_1_1smart__ptr.html</Path>
+    <Anchor>a34adc9f82172f037139e4b916c275e90</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::smart_ptr</Scope>
+    </TokenIdentifier>
+    <Path>dc/d53/classstd_1_1smart__ptr.html</Path>
+    <Anchor>a4c8d71418804bdd8488f56b139b18dde</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_RealPointer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::smart_ptr</Scope>
+    </TokenIdentifier>
+    <Path>dc/d53/classstd_1_1smart__ptr.html</Path>
+    <Anchor>af022e43865fee1edcebddee8ed2a6038</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::shared_ptr</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shared_ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>a645cf1e7f21dcd0a7b55cb2e4d1790a7</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>shared_ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>a72f268199a33689831495aaa1c88df2e</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~shared_ptr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>a34727c5f715c78bfd7c0c882f53e352a</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get_count</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>ac479edfac51ea2e4b06058d96c9fc439</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>a3f55f8b64cdcedc8eedecd1ba725a423</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator*</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>ada713ef28b409dca5a937a266f73a569</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator-&gt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>a6c2678fce69f84c1f28efed1df1f9617</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>a490c2ea19fd6a300bbd0112b7ee013f8</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>a511a4302af30583224000bbd134cf5d6</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>swap</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>a8029336af25252284303d0b32757a853</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_ReferenceCounter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>a010a00e2beb91b8d5e8122764f2bd2fc</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_RealPointer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::shared_ptr</Scope>
+    </TokenIdentifier>
+    <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
+    <Anchor>aa009692e8989758b98f8cf49fa5d6e44</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::shared_ptr::counter</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>counter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>ac95dff963de674bb5b62083dfdbbcedb</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>counter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>a3f1648a132bd0fb1d3fa078f565e666b</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>a01ac44c4643986f411cab925637bbadf</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~counter</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>a4b6fd54261b90c800599f5dfca511246</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reset</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>aeba18e73b0052af136f5c21195f6f237</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>get</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>a64fd09f04ab15775d5ec9cd83920c296</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>ab97a7bcc70ca3603633ec9532865313a</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>a5f4fc2dfa16bcbaeaff4c00c384ffafc</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator--</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>a6147421d402453758932ee02b998cb1f</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator--</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>a9887113326500a7f94b85f70aed46a0f</Anchor>
+    <DeclaredIn>smart_ptr.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_RefCount</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::shared_ptr::counter</Scope>
+    </TokenIdentifier>
+    <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
+    <Anchor>a0209bd5ccba5d51006f2997779130876</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::runtime_error</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>std::runtime_error</Scope>
+    </TokenIdentifier>
+    <Path>db/d3e/classstd_1_1runtime__error.html</Path>
+    <DeclaredIn>stdexcept.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>runtime_error</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::runtime_error</Scope>
+    </TokenIdentifier>
+    <Path>db/d3e/classstd_1_1runtime__error.html</Path>
+    <Anchor>a28ddf5a571a2cd2afc473de80546c87a</Anchor>
+    <DeclaredIn>stdexcept.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>what</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::runtime_error</Scope>
+    </TokenIdentifier>
+    <Path>db/d3e/classstd_1_1runtime__error.html</Path>
+    <Anchor>a69a9a77f0ed25e291ba53adfab84bd22</Anchor>
+    <DeclaredIn>stdexcept.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_what</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::runtime_error</Scope>
+    </TokenIdentifier>
+    <Path>db/d3e/classstd_1_1runtime__error.html</Path>
+    <Anchor>a2801391e2613d2c6e79a902560198fda</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::string</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Abstract>String class String class that can be used to store strings.</Abstract>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>string</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a51dc6f5da53c34c0baccebfc16db36af</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~string</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a01f9d4b2c596725984e0053d8674196b</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>length</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a38488047f05aa4307b02098e1c830852</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>capacity</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a8405c4b79a08f8effd56c83160905102</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>c_str</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a6cea7d665828a8cfd273dc2afe451f7f</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>resize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a333d9ed34cfb81470834450a3ca93e27</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>concat</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>af92aa32f5ac55cea410ff599623149ab</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>empty</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>ab3e65a65df2d2eb327eae1346f698d0e</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a669d026a65f27aa46e635aa8460f438c</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clear</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a3e77f0f66a5ad656272b40dab889a8d7</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a4c137454b350e09c3236900f0d15e45e</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a8b80a897ba1c126fa0224423d22c1250</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>erase</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a7e8737197a562fe33639f218711028cd</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find_last_not_of</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>ad717fce068e3332d4299e571507ad20c</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find_first_not_of</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a85fb62f2e73b5bc9909f10a023f47d53</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find_first_of</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a8449dfc65a9f1bdcdfaea906f2ad92f1</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find_last_of</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>ae637e68375ac6634be52b14101455565</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find_first_of</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a46899aafcea85824906dd4b98309785c</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find_last_of</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>af0912b347be2c1c30965c70a1372ee1a</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>substr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a063b9097b75422fc024d10c7a5ad8de4</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>substr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a2cd6f5ee2229e40d283b2c00b5acffb7</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>substr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a5531dac03d70dcb41eeaf25aebf4352f</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>replace</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>aac770179cde2235f435cfb1d5c64e654</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>replace</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>ad485931c9ad4616b8f532c9d806d6f15</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator+</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a8c0da102f628e6e1409f7ac224b577a4</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator+</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a02eb2c43cc0a28bfb57d62aa9b283958</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator+=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a6498db8c594b54c44b7aa965c1e94581</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator+=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a4796a1aee7ac27a7eca13a9eae0efb6d</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a26165815fe7df05e4b5085d14a1c1407</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a43a3129f08e54829d6d156cf2a92ba69</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator&lt;&lt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>ad08bb021585623e0bb86658fe659262f</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator&lt;&lt;</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>ae89f3b4f0f93925c9afbc95d6bfe2dd0</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator[]</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a5d5bc911c2fc9e0803fedd4fcf88b91b</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator[]</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a2756c2698ed11ed5b4a34a4cd3f05e01</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>ad0aa63660e7c1244762cbfcddd5105c6</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a693590d2d080efe977cf371e7cc9e0f4</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>ab8362e078e5572b4da2373f77d76d82d</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>af44c99ff28fac26b46fd8755eea8df28</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>begin</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a19c629843f01d5446cf87c9e66383672</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a14973fe328b5bf2dc3342a8469b690bc</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>npos</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a78c6a4105d1b495e451f579201e7ee77</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_Data</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>af89b276443de70ea296b33dc521daad4</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_Length</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a2f8d64abb16cc2ffbde35c788f3b03a8</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_Capacity</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::string</Scope>
+    </TokenIdentifier>
+    <Path>d8/d29/classstd_1_1string.html</Path>
+    <Anchor>a69d8ff0095658bf2ebbfc072b461a83e</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::string::iterator</Name>
+      <APILanguage>c</APILanguage>
+      <Type>cl</Type>
+      <Scope>std::string::iterator</Scope>
+    </TokenIdentifier>
+    <Path>de/d5b/classstd_1_1string_1_1iterator.html</Path>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string::iterator</Scope>
+    </TokenIdentifier>
+    <Path>de/d5b/classstd_1_1string_1_1iterator.html</Path>
+    <Anchor>a748ea40168b6e54c0f5ca01fa30c252c</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator++</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string::iterator</Scope>
+    </TokenIdentifier>
+    <Path>de/d5b/classstd_1_1string_1_1iterator.html</Path>
+    <Anchor>a5d665c8c29d374ee55f84f659cdc14d7</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator*</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string::iterator</Scope>
+    </TokenIdentifier>
+    <Path>de/d5b/classstd_1_1string_1_1iterator.html</Path>
+    <Anchor>a68fee3d236d2877c92734968cbaa6da5</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator!=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string::iterator</Scope>
+    </TokenIdentifier>
+    <Path>de/d5b/classstd_1_1string_1_1iterator.html</Path>
+    <Anchor>ad94824d276df186f1d946a75ae430f9b</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator==</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::string::iterator</Scope>
+    </TokenIdentifier>
+    <Path>de/d5b/classstd_1_1string_1_1iterator.html</Path>
+    <Anchor>ae21709eb8e0f688f4573e6bd453e6685</Anchor>
+    <DeclaredIn>string.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_Pointer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::string::iterator</Scope>
+    </TokenIdentifier>
+    <Path>de/d5b/classstd_1_1string_1_1iterator.html</Path>
+    <Anchor>a826b49319419ad35d1a8b9eb7cfadbba</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::unordered_map</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>key_value_pair</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>aad26fe82aa1f15050f8a03d9769be879</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>bucket</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a31771783f966c04ad4e9db3cbb91e818</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a374b626ff0ab36a09aed8b69b1d9972f</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>const_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>adea44951ac640157ecaee9621c15b06a</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unordered_map</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>ab04942c3f3d9ac0c10e9ee9ce5b865da</Anchor>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>unordered_map</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a5bd1273b50e45391c8164453805e9340</Anchor>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>insert</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a34a5aa097f394878f2ec0d7ef70bb917</Anchor>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>contains</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a166e3d983c4016fed785dbf89effedd6</Anchor>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a2d53110aca2748af2077d31f9b3f5990</Anchor>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>find</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a669c03902b9ce6820050ba60bda1a0b5</Anchor>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a08eb8bb3de624ae8451adbe7db1fd55e</Anchor>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a9bdc32dbd75f4249dcccd0d4d0a1bcc9</Anchor>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator[]</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a2801a09a65c0dd216e59042283f7d9f4</Anchor>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>hash</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a076076d85fd1374d1f497e9da9e00eeb</Anchor>
+    <DeclaredIn>unordered_map.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>m_buckets</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a5fb0c5cbf252fd2ab026ec9d07ab64fe</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DEFAULT_NUM_BUCKETS</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::unordered_map</Scope>
+    </TokenIdentifier>
+    <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
+    <Anchor>a980e8542928c9ef0deea351ea9c16d21</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::pair</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>std::pair</Scope>
+    </TokenIdentifier>
+    <Path>d8/d71/structstd_1_1pair.html</Path>
+    <DeclaredIn>utility.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>first_type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>std::pair</Scope>
+    </TokenIdentifier>
+    <Path>d8/d71/structstd_1_1pair.html</Path>
+    <Anchor>a0ab2b28fb04868a5e054a9bfdf908924</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>second_type</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>std::pair</Scope>
+    </TokenIdentifier>
+    <Path>d8/d71/structstd_1_1pair.html</Path>
+    <Anchor>a23f5603007e2c92d5c6176ad7c296aba</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pair</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std::pair</Scope>
+    </TokenIdentifier>
+    <Path>d8/d71/structstd_1_1pair.html</Path>
+    <Anchor>a9580a9a7c3835e0846ac1ae26db0504f</Anchor>
+    <DeclaredIn>utility.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pair</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>std::pair</Scope>
+    </TokenIdentifier>
+    <Path>d8/d71/structstd_1_1pair.html</Path>
+    <Anchor>a3e296cc0b3c47a50ff73fef428d0bc44</Anchor>
+    <DeclaredIn>utility.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>first</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::pair</Scope>
+    </TokenIdentifier>
+    <Path>d8/d71/structstd_1_1pair.html</Path>
+    <Anchor>ad74d557346978417fb2df815d8825c54</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>second</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::pair</Scope>
+    </TokenIdentifier>
+    <Path>d8/d71/structstd_1_1pair.html</Path>
+    <Anchor>ad4e5a31ca04fe500b97656f3a96126d9</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>std::vector</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tmplt</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>ab543b19ab0862abe09bd9d5cfdbcdcb5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>const_iterator</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>tdef</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a89ebad741c6fa89163dd77d9fc426955</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vector</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>aa1b118a7ec7196759136185682f115d2</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vector</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a05fe13e0391dddb4425adea8f02f9fed</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vector</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a69510f3b2241f4767868ffcd8d9c2d13</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>vector</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a85fe97ec16f793e3e7cacabeb1b74181</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>~vector</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a139266375be1febea185f8169f054950</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>remove</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a2cead2c036b823190be69f8bae2ea6a2</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>remove</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>afb03b47eff87c28614ca0502bc4df110</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>null_elem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a784d0e884451f9ad0fc1ff21b4cef5b4</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>null_elem</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a96749a02cf08e80f6b271634304848b5</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>next</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>ace02cf9fa69c275e462bdd1851460463</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>prev</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>af88f7c0c46412d92db352cee77360013</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>next</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>aeb0011f2296f24fb44a724e9e579838b</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>prev</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a6c1f979e9b45fe68f9ae67f485f8c5ea</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>capacity</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>af47aa422bd0c97d4ef9c2af53238f129</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>size</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a1f73db8ddff6714e062a5c4d4c81413f</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>empty</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>ad501cad586d06aff04f3ab5b8d27ccac</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>begin</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a262b3f210f2e3c8a4bb19f254ca15cee</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>end</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a0a99f74a55c105a8f44488825804eae5</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>front</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a0c35a54d229fd99f0b3f142a3295c774</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>back</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a32fe5243b4e49006dc5cfb956a05b362</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>push_back</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>ae3591264e2e843675344d7ee057832e8</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>pop_back</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>aea4325286f137fc5dcdbb48452a3a651</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reverse</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a350197b048074faa21a4ac2efdee32c9</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>reserve</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>ada3ae75e24fc914101e167908d2d05cc</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>resize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a89d38af83812226c83e5b56c1bb6b1c0</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>clear</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a92bff2a2411f9c7a3b64b107a7eebd8a</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>data</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a17400852e61cd69f85fe3acca08050d9</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator[]</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a8855cbcc1738f70a1f31b4cdcb02ffba</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>operator=</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>af38938cf92ec39a564b3eb6c6777facb</Anchor>
+    <DeclaredIn>vector.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VectorSize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a0659ef23f1bfda6fde8dba88f6acde07</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VectorCapacity</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>aef88dc9ec7a736457222f9941ece7636</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>VectorBuffer</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>std::vector</Scope>
+    </TokenIdentifier>
+    <Path>dd/d4e/classstd_1_1vector.html</Path>
+    <Anchor>a15449d03a0e840b7cc6525752e7460b8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -63706,7 +65851,7 @@
       <Scope>Tasking::Security</Scope>
     </TokenIdentifier>
     <Path>d0/dbb/classTasking_1_1Security.html</Path>
-    <Anchor>aa771e38c43337bd43c1054f70967a497</Anchor>
+    <Anchor>a345b06a71459be2cc8accc9d27c1711b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -63748,7 +65893,7 @@
       <Scope>Tasking::Task</Scope>
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
-    <Anchor>ab62b5774b173ff37dc94ca0de0ad786b</Anchor>
+    <Anchor>a38f561c4ca10088bb316d2d624357338</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -63973,7 +66118,7 @@
       <Scope>Tasking::Task</Scope>
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
-    <Anchor>a8e20676eb53b42df3b5187048a96bc2c</Anchor>
+    <Anchor>a9729cfcd46b83c9b82c658d67f0844b1</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64190,7 +66335,7 @@
       <Scope>Tasking::Task</Scope>
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
-    <Anchor>ac8a3e64f62b62755526f8cea4d76ede2</Anchor>
+    <Anchor>a719951c3eea3cb165a15987bce209846</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -64251,6 +66396,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a3c0d670ae749a9b104ab9a742b52c507</Anchor>
+    <Abstract>Set a new interrupt number.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64273,6 +66419,7 @@
     </TokenIdentifier>
     <Path>dd/dae/classInterrupts_1_1Handler.html</Path>
     <Anchor>a2a1152c5908c5a3c7b51f2c4fe4b30ab</Anchor>
+    <Abstract>Create a new interrupt handler.</Abstract>
     <DeclaredIn>ints.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64821,6 +66968,7 @@
     </TokenIdentifier>
     <Path>db/d81/classVideo_1_1Display.html</Path>
     <Anchor>a87721e0bf91caa057f70f661c6ad4998</Anchor>
+    <Abstract>Create a new buffer.</Abstract>
     <DeclaredIn>display.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64865,6 +67013,17 @@
     </TokenIdentifier>
     <Path>db/d81/classVideo_1_1Display.html</Path>
     <Anchor>ae29244a6ffd291cdee9d7b05c780098d</Anchor>
+    <DeclaredIn>display.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetBrightness</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Video::Display</Scope>
+    </TokenIdentifier>
+    <Path>db/d81/classVideo_1_1Display.html</Path>
+    <Anchor>af2aaab019901c352192b6a3a485a6794</Anchor>
     <DeclaredIn>display.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66173,7 +68332,7 @@
       <Scope>VirtualFileSystem::Virtual</Scope>
     </TokenIdentifier>
     <Path>d8/dbd/classVirtualFileSystem_1_1Virtual.html</Path>
-    <Anchor>a1b7116a0c4b41d9df2b84a5c2a3a64e1</Anchor>
+    <Anchor>a073e87bf18d484d03cdf0ed1be34d7fc</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66195,7 +68354,7 @@
       <Scope>VirtualFileSystem::Virtual</Scope>
     </TokenIdentifier>
     <Path>d8/dbd/classVirtualFileSystem_1_1Virtual.html</Path>
-    <Anchor>a7ee80d9dc830ecf822ca15e8ca1f93e8</Anchor>
+    <Anchor>a7bf8900f42436d0073810088911f0a2e</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66261,7 +68420,7 @@
       <Scope>VirtualFileSystem::Virtual</Scope>
     </TokenIdentifier>
     <Path>d8/dbd/classVirtualFileSystem_1_1Virtual.html</Path>
-    <Anchor>a3c9f8d18a55f70e78a9c9293dc0646fb</Anchor>
+    <Anchor>a8cb71c3c1b37225449449ad1bf67e9b4</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66327,7 +68486,7 @@
       <Scope>VirtualFileSystem::Virtual</Scope>
     </TokenIdentifier>
     <Path>d8/dbd/classVirtualFileSystem_1_1Virtual.html</Path>
-    <Anchor>a84959997874025f0ce15dbecfa43c367</Anchor>
+    <Anchor>a8203313abba5fed2f8b11ae0be8b5722</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66338,7 +68497,7 @@
       <Scope>VirtualFileSystem::Virtual</Scope>
     </TokenIdentifier>
     <Path>d8/dbd/classVirtualFileSystem_1_1Virtual.html</Path>
-    <Anchor>ad4ac9993b8e38ab9d853b9af80769471</Anchor>
+    <Anchor>a600f0b9d695dd4147d4bfcaa685f0449</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66349,7 +68508,7 @@
       <Scope>VirtualFileSystem::Virtual</Scope>
     </TokenIdentifier>
     <Path>d8/dbd/classVirtualFileSystem_1_1Virtual.html</Path>
-    <Anchor>a379e5dd8fbc8776e21f39dda7eebde41</Anchor>
+    <Anchor>a27365c4ac2f64028440ae176cb6cc24c</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66360,7 +68519,7 @@
       <Scope>VirtualFileSystem::Virtual</Scope>
     </TokenIdentifier>
     <Path>d8/dbd/classVirtualFileSystem_1_1Virtual.html</Path>
-    <Anchor>aac0e9f1e120db6093c7c22ff38350432</Anchor>
+    <Anchor>a2bfc220d06e878dbaf3aea22835c35c6</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66371,7 +68530,7 @@
       <Scope>VirtualFileSystem::Virtual</Scope>
     </TokenIdentifier>
     <Path>d8/dbd/classVirtualFileSystem_1_1Virtual.html</Path>
-    <Anchor>aaa88adcb10cb04c96743f5eaeca3deda</Anchor>
+    <Anchor>a4d54d9bb76edad4328f4118f35752746</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66382,7 +68541,7 @@
       <Scope>VirtualFileSystem::Virtual</Scope>
     </TokenIdentifier>
     <Path>d8/dbd/classVirtualFileSystem_1_1Virtual.html</Path>
-    <Anchor>ad599c49b7f8de27236b74e81181a6831</Anchor>
+    <Anchor>a42fda21ad52eb16ded2893a224dd1208</Anchor>
     <DeclaredIn>filesystem.hpp</DeclaredIn>
   </Token>
   <Token>

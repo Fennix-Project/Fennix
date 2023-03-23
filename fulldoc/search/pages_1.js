@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kernel_12837',['Kernel',['../da/dc9/md_Kernel_README.html',1,'']]]
+  ['core_20components_40792',['Core components',['../df/dd8/md_Kernel_Core_README.html',1,'']]]
 ];

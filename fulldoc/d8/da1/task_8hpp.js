@@ -30,7 +30,7 @@ var task_8hpp =
     ] ],
     [ "TCB", "de/d96/structTasking_1_1TCB.html", "de/d96/structTasking_1_1TCB" ],
     [ "PCB", "d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB", [
-      [ "Children", "d9/d3e/namespaceTasking.html#a6038cbef6d62f2c571955144199d2109", null ],
+      [ "Children", "d9/d3e/namespaceTasking.html#aa34b30685edd8c5a9a006021fe036832", null ],
       [ "ELFSymbolTable", "d9/d3e/namespaceTasking.html#a8eb92f8788f988c3adc1926aaecd8aef", null ],
       [ "ExitCode", "d9/d3e/namespaceTasking.html#ac6ed583519b20768ae85105cc5049f0e", null ],
       [ "ID", "d9/d3e/namespaceTasking.html#a75f172a74c8eff96f9697d59b063b6de", null ],
@@ -43,7 +43,7 @@ var task_8hpp =
       [ "ProcessDirectory", "d9/d3e/namespaceTasking.html#a083c818308e3c64dda2d124ec16ed80f", null ],
       [ "Security", "d9/d3e/namespaceTasking.html#a9d7688af2a2c20aa1b0dfcebfbc3b303", null ],
       [ "Status", "d9/d3e/namespaceTasking.html#a7edc51939760bc98c3a1388e94933045", null ],
-      [ "Threads", "d9/d3e/namespaceTasking.html#ac4f382d510b88859daaca174f41046fb", null ]
+      [ "Threads", "d9/d3e/namespaceTasking.html#ab346d75cb439c34d3d476d58cab35699", null ]
     ] ],
     [ "Security", "d0/dbb/classTasking_1_1Security.html", "d0/dbb/classTasking_1_1Security" ],
     [ "TokenData", "d0/dbb/classTasking_1_1Security.html#d5/d76/structTasking_1_1Security_1_1TokenData", [

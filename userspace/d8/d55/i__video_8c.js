@@ -1,0 +1,66 @@
+var i__video_8c =
+[
+    [ "FB_BitField", "d8/d55/i__video_8c.html#d8/dd1/structFB__BitField", [
+      [ "length", "d8/d55/i__video_8c.html#a6a8fbc78ca3728cce86985cdd96d8304", null ],
+      [ "offset", "d8/d55/i__video_8c.html#a7be0c9fe536ba50d16e4781f08d26bf3", null ]
+    ] ],
+    [ "FB_ScreenInfo", "d8/d55/i__video_8c.html#de/d3a/structFB__ScreenInfo", [
+      [ "bits_per_pixel", "d8/d55/i__video_8c.html#aa90f227c9de7deda91e85b7a62f94c9f", null ],
+      [ "blue", "d8/d55/i__video_8c.html#a6f3b790db6fd52cda920c7f07301c4c3", null ],
+      [ "green", "d8/d55/i__video_8c.html#adacd6ee3cff9ed3014d9d13c7aea3b8b", null ],
+      [ "red", "d8/d55/i__video_8c.html#a5e5f2698c9903e812a868c032b003ec2", null ],
+      [ "transp", "d8/d55/i__video_8c.html#a29c59b4d56660a4b0261402aedfa735d", null ],
+      [ "xres", "d8/d55/i__video_8c.html#a51cbf5f258b1e7ebc2377f7679356d01", null ],
+      [ "xres_virtual", "d8/d55/i__video_8c.html#a748d94bccd4a2cf3814b758602c4565f", null ],
+      [ "yres", "d8/d55/i__video_8c.html#a20e129e2207f11644d4fed19b2fc4a26", null ],
+      [ "yres_virtual", "d8/d55/i__video_8c.html#ab78f9e4da9d4a2ddfb6aec046dd422f8", null ]
+    ] ],
+    [ "color", "d8/d55/i__video_8c.html#d0/d91/structcolor", [
+      [ "a", "d8/d55/i__video_8c.html#af27c99925053b5ac1937bbed6b5b5a19", null ],
+      [ "b", "d8/d55/i__video_8c.html#a803234dfac95ecfd52be936ab11a8325", null ],
+      [ "g", "d8/d55/i__video_8c.html#a4b22dfcb3c54f5f25886882be95b4b96", null ],
+      [ "r", "d8/d55/i__video_8c.html#ad3b42d52564ed1aa8316d93f50f2a8b6", null ]
+    ] ],
+    [ "col_t", "d8/d55/i__video_8c.html#da/d32/structcol__t", [
+      [ "b", "d8/d55/i__video_8c.html#abd3feda5a4a4d8b26863c47c894e11ab", null ],
+      [ "g", "d8/d55/i__video_8c.html#a2bf1a5db9f1c48ff2dc64edf58db6fb9", null ],
+      [ "r", "d8/d55/i__video_8c.html#a7b74a546e1c47e1029f7b157165e4ef7", null ]
+    ] ],
+    [ "GFX_RGB565", "d8/d55/i__video_8c.html#a3654bc8886706b9cebe9077a0532da22", null ],
+    [ "GFX_RGB565_B", "d8/d55/i__video_8c.html#ab003e47ece7705fc474d9da4b9739ca6", null ],
+    [ "GFX_RGB565_G", "d8/d55/i__video_8c.html#a0b223844aafb0f5d5fe1503a5f958ab8", null ],
+    [ "GFX_RGB565_R", "d8/d55/i__video_8c.html#a9386083477f77175c88e914efed29a08", null ],
+    [ "cmap_to_fb", "d8/d55/i__video_8c.html#aacfabddb321801a3833e3ce3fe90d1bd", null ],
+    [ "cmap_to_rgb565", "d8/d55/i__video_8c.html#aea6aca53ec2ed3fe9db8d4097c721f3f", null ],
+    [ "I_BeginRead", "d8/d55/i__video_8c.html#a23644c9601aba9f93c1db6bec23b08ca", null ],
+    [ "I_BindVideoVariables", "d8/d55/i__video_8c.html#a0849401b1ea9964f1d588d447fa577c8", null ],
+    [ "I_CheckIsScreensaver", "d8/d55/i__video_8c.html#a7004354e0f855c56301d0a517154b82d", null ],
+    [ "I_DisplayFPSDots", "d8/d55/i__video_8c.html#afdc7c5f375b7de87cb6fe52df1171984", null ],
+    [ "I_EnableLoadingDisk", "d8/d55/i__video_8c.html#a615c06c188fb253d94b9edc1afa5c76e", null ],
+    [ "I_EndRead", "d8/d55/i__video_8c.html#a4520458e24ba3f67521b65e8eb74c53e", null ],
+    [ "I_FinishUpdate", "d8/d55/i__video_8c.html#a448fd2a7879095096dc1ec2b79932c60", null ],
+    [ "I_GetEvent", "d8/d55/i__video_8c.html#aa94c82bb7e76b2fe728eafe575fca8c9", null ],
+    [ "I_GetPaletteIndex", "d8/d55/i__video_8c.html#a73d62f4432fd5eac3ad364e3c06c0c82", null ],
+    [ "I_GraphicsCheckCommandLine", "d8/d55/i__video_8c.html#a8f3a7612af750799b5c4c99bb1cd042e", null ],
+    [ "I_InitGraphics", "d8/d55/i__video_8c.html#a8db51f3c757b03e542003a81e3332580", null ],
+    [ "I_ReadScreen", "d8/d55/i__video_8c.html#ad5cb5ef90f23e834566e4277c83ab724", null ],
+    [ "I_SetGrabMouseCallback", "d8/d55/i__video_8c.html#aef7eb8b12c490fc7a0d7cda08d8a2d2d", null ],
+    [ "I_SetPalette", "d8/d55/i__video_8c.html#abe37ed6bc4cb006ee7767fe348c1b777", null ],
+    [ "I_SetWindowTitle", "d8/d55/i__video_8c.html#a31917a4c65c6283e5a06c7f18fcd4661", null ],
+    [ "I_ShutdownGraphics", "d8/d55/i__video_8c.html#af70977aba17810971219c473ab4ebc2a", null ],
+    [ "I_StartFrame", "d8/d55/i__video_8c.html#aef80586010aba51c70bc2e44582d7fa8", null ],
+    [ "I_StartTic", "d8/d55/i__video_8c.html#a396a8e3d4c336c43f731e59be403b059", null ],
+    [ "I_UpdateNoBlit", "d8/d55/i__video_8c.html#a44dee4c68fef9b7aa707e60a68cc3570", null ],
+    [ "colors", "d8/d55/i__video_8c.html#a12cf4ad3cbd45bad9dc7434870274ce2", null ],
+    [ "fb_scaling", "d8/d55/i__video_8c.html#a380703f5aa6b46f72252e30192f67fc2", null ],
+    [ "I_VideoBuffer", "d8/d55/i__video_8c.html#a7a7d735af07d03af6334f6fcc829cbe5", null ],
+    [ "mouse_acceleration", "d8/d55/i__video_8c.html#ae9c8e896131f997b413a93b1f14dcca1", null ],
+    [ "mouse_threshold", "d8/d55/i__video_8c.html#a8b419e1b1af1218d267dd249811244d9", null ],
+    [ "rcsid", "d8/d55/i__video_8c.html#a69f59503b72db9ae6ac36f5f5deaeb80", null ],
+    [ "rgb565_palette", "d8/d55/i__video_8c.html#a367683d55707917970e44e84bc879abc", null ],
+    [ "s_Fb", "d8/d55/i__video_8c.html#a8c13a0407b845c78b308a2d0337d40bb", null ],
+    [ "screensaver_mode", "d8/d55/i__video_8c.html#a019127ff35f5832aa655e28fe99a4be3", null ],
+    [ "screenvisible", "d8/d55/i__video_8c.html#a9e60eb3a388561825142efd9311968ae", null ],
+    [ "usegamma", "d8/d55/i__video_8c.html#a31cb38f8f6f53671901736769ac6ecde", null ],
+    [ "usemouse", "d8/d55/i__video_8c.html#a177c777109c6dfae71bdb05987314ea8", null ]
+];

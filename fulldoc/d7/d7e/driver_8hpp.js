@@ -1,13 +1,14 @@
 var driver_8hpp =
 [
-    [ "DriverInterruptHook", "d5/dff/classDriver_1_1DriverInterruptHook.html", "d5/dff/classDriver_1_1DriverInterruptHook" ],
     [ "DriverFile", "d1/d48/namespaceDriver.html#d1/d76/structDriver_1_1DriverFile", [
       [ "Address", "d1/d48/namespaceDriver.html#a4e5a21065d08b50760da3d043a3c75a6", null ],
       [ "DriverUID", "d1/d48/namespaceDriver.html#a2b2874e017e272fa7e232f9e99dcf3c7", null ],
       [ "Enabled", "d1/d48/namespaceDriver.html#a13e745a0a68e590b619e6eddd3b12809", null ],
+      [ "InterruptCallback", "d1/d48/namespaceDriver.html#aa5e26c43fe51ecc3cb4f4fd1f64818d3", null ],
       [ "InterruptHook", "d1/d48/namespaceDriver.html#ae7b25ec3022b0c95834dcac1304544af", null ],
       [ "MemTrk", "d1/d48/namespaceDriver.html#a7fb1cc052ff13b8c50f65eeeeb27a10d", null ]
     ] ],
+    [ "DriverInterruptHook", "d5/dff/classDriver_1_1DriverInterruptHook.html", "d5/dff/classDriver_1_1DriverInterruptHook" ],
     [ "Driver", "d3/d7d/classDriver_1_1Driver.html", "d3/d7d/classDriver_1_1Driver" ],
     [ "DriverCode", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6", [
       [ "ERROR", "d7/d7e/driver_8hpp.html#a020a5b26e9a3fe6af243be692d6147c6a3610c57fcd777f71c8d2036a48404471", null ],

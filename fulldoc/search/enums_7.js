@@ -1,12 +1,9 @@
 var searchData=
 [
-  ['icmpv4type_10540',['ICMPv4Type',['../d4/d0b/namespaceNetworkICMPv4.html#aa6f199ede15a2e9ff5fe837ac49172e8',1,'NetworkICMPv4']]],
-  ['interruptstype_10541',['InterruptsType',['../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178',1,'CPU']]],
-  ['ioapicflags_10542',['IOAPICFlags',['../d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220e',1,'APIC::IOAPICFlags()'],['../d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220e',1,'APIC::IOAPICFlags()']]],
-  ['ioapicregisters_10543',['IOAPICRegisters',['../d3/d88/namespaceAPIC.html#a340dca14fd5779eb5d0b3786d827996e',1,'APIC::IOAPICRegisters()'],['../d3/d88/namespaceAPIC.html#a340dca14fd5779eb5d0b3786d827996e',1,'APIC::IOAPICRegisters()']]],
-  ['ipccommand_10544',['IPCCommand',['../d9/d24/ipc_8h.html#a093c1ef422d11fce117474c15cb981ff',1,'ipc.h']]],
-  ['ipcerrorcode_10545',['IPCErrorCode',['../d7/d5f/namespaceInterProcessCommunication.html#a5a5350b2c0ee47a252206323bbc5da26',1,'InterProcessCommunication::IPCErrorCode()'],['../d9/d24/ipc_8h.html#a691c9b4d66b434e49e03b182b695968c',1,'IPCErrorCode():&#160;ipc.h']]],
-  ['ipctype_10546',['IPCType',['../d7/d5f/namespaceInterProcessCommunication.html#a145254a95cbdfd4848152bc2051d2893',1,'InterProcessCommunication::IPCType()'],['../d9/d24/ipc_8h.html#ab622625148ac0d2b0e319bf309a818fe',1,'IPCType():&#160;ipc.h']]],
-  ['ipv4protocols_10547',['IPv4Protocols',['../df/d2a/namespaceNetworkIPv4.html#ac92e7701f3e30b7514632f40e687f879',1,'NetworkIPv4']]],
-  ['isrexceptions_10548',['ISRExceptions',['../d7/df8/namespaceCPU_1_1x86.html#a19a49ae27a4f5a5479e9ca8a99892d41',1,'CPU::x86']]]
+  ['gameaction_5ft_31999',['gameaction_t',['../d3/d47/doomdef_8h.html#a64899b865696382377aa6b57d83b60bd',1,'doomdef.h']]],
+  ['gamemission_5ft_32000',['GameMission_t',['../d7/d68/d__mode_8h.html#a4eb6fbd03f97172d747b60e89ed39031',1,'d_mode.h']]],
+  ['gamemode_5ft_32001',['GameMode_t',['../d7/d68/d__mode_8h.html#aa62c3eee8472daa45bbb9e1482b49f4e',1,'d_mode.h']]],
+  ['gamestate_5ft_32002',['gamestate_t',['../d3/d47/doomdef_8h.html#aa3df7fce134ae5843a2bd6cdcd5796d0',1,'doomdef.h']]],
+  ['gameversion_5ft_32003',['GameVersion_t',['../d7/d68/d__mode_8h.html#a51bdd0c44e21280e246ce44d0583f11f',1,'d_mode.h']]],
+  ['getoptmode_32004',['GetoptMode',['../db/d09/namespaceanonymous__namespace_02getopt-stubs_8cpp_03.html#aed0fc03b943e6a0201f3762aa64138f7',1,'anonymous_namespace{getopt-stubs.cpp}']]]
 ];

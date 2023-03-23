@@ -1,12 +1,23 @@
 var searchData=
 [
-  ['gcov_5fctr_5finfo_6880',['gcov_ctr_info',['../d9/d44/structgcov__ctr__info.html',1,'']]],
-  ['gcov_5ffn_5finfo_6881',['gcov_fn_info',['../dd/d2a/gcov_8cpp.html#dd/d8a/structgcov__fn__info',1,'']]],
-  ['gcov_5finfo_6882',['gcov_info',['../dd/d2a/gcov_8cpp.html#df/d04/structgcov__info',1,'']]],
-  ['genericaddressstructure_6883',['GenericAddressStructure',['../d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure',1,'ACPI::ACPI']]],
-  ['globaldescriptortableaccess_6884',['GlobalDescriptorTableAccess',['../d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html',1,'GlobalDescriptorTable']]],
-  ['globaldescriptortableflags_6885',['GlobalDescriptorTableFlags',['../dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html',1,'GlobalDescriptorTable']]],
-  ['gui_6886',['GUI',['../d6/d43/classGraphicalUserInterface_1_1GUI.html',1,'GraphicalUserInterface']]],
-  ['guidpartitiontable_6887',['GUIDPartitionTable',['../d1/d29/namespaceDisk.html#df/dcb/structDisk_1_1GUIDPartitionTable',1,'Disk']]],
-  ['guidpartitiontablepartition_6888',['GUIDPartitionTablePartition',['../d1/d29/namespaceDisk.html#d6/de1/structDisk_1_1GUIDPartitionTablePartition',1,'Disk']]]
+  ['gcov_5fctr_5finfo_20908',['gcov_ctr_info',['../d9/d44/structgcov__ctr__info.html',1,'']]],
+  ['gcov_5ffn_5finfo_20909',['gcov_fn_info',['../dd/d2a/gcov_8cpp.html#dd/d8a/structgcov__fn__info',1,'']]],
+  ['gcov_5finfo_20910',['gcov_info',['../dd/d2a/gcov_8cpp.html#df/d04/structgcov__info',1,'']]],
+  ['genericaddressstructure_20911',['GenericAddressStructure',['../d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure',1,'ACPI::ACPI']]],
+  ['glob_5ft_20912',['glob_t',['../d6/d23/structglob__t.html',1,'']]],
+  ['global_5fconstructor_5fguard_20913',['global_constructor_guard',['../d3/d31/structglobal__constructor__guard.html',1,'']]],
+  ['globalconfig_20914',['GlobalConfig',['../d7/d03/structmlibc_1_1GlobalConfig.html',1,'mlibc']]],
+  ['globalconfigguard_20915',['GlobalConfigGuard',['../db/dfc/structmlibc_1_1GlobalConfigGuard.html',1,'mlibc']]],
+  ['globaldescriptortableaccess_20916',['GlobalDescriptorTableAccess',['../d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html',1,'GlobalDescriptorTable']]],
+  ['globaldescriptortableflags_20917',['GlobalDescriptorTableFlags',['../dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html',1,'GlobalDescriptorTable']]],
+  ['glow_5ft_20918',['glow_t',['../d2/d78/p__spec_8h.html#d0/dcd/structglow__t',1,'']]],
+  ['gprstate_20919',['GPRState',['../dc/d2d/lyre_2generic_2entry_8cpp.html#db/d38/structGPRState',1,'']]],
+  ['group_20920',['group',['../d1/d47/grp_8h.html#d3/d08/structgroup',1,'']]],
+  ['group_5freq_20921',['group_req',['../d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#d2/d3c/structgroup__req',1,'']]],
+  ['group_5fsource_5freq_20922',['group_source_req',['../de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d4/d52/structgroup__source__req',1,'']]],
+  ['guard_20923',['Guard',['../d8/d3a/structanonymous__namespace_02guard-abi_8cpp_03_1_1Guard.html',1,'anonymous_namespace{guard-abi.cpp}']]],
+  ['gui_20924',['GUI',['../d6/d43/classGraphicalUserInterface_1_1GUI.html',1,'GraphicalUserInterface']]],
+  ['guidpartitiontable_20925',['GUIDPartitionTable',['../d1/d29/namespaceDisk.html#df/dcb/structDisk_1_1GUIDPartitionTable',1,'Disk']]],
+  ['guidpartitiontablepartition_20926',['GUIDPartitionTablePartition',['../d1/d29/namespaceDisk.html#d6/de1/structDisk_1_1GUIDPartitionTablePartition',1,'Disk']]],
+  ['gus_5fconfig_5ft_20927',['gus_config_t',['../d0/d25/gusconf_8c.html#d6/da9/structgus__config__t',1,'']]]
 ];

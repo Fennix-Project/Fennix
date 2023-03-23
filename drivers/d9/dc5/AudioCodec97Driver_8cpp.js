@@ -5,6 +5,7 @@ var AudioCodec97Driver_8cpp =
     [ "CallbackHandler", "d9/dc5/AudioCodec97Driver_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143", null ],
     [ "DriverEntry", "d9/dc5/AudioCodec97Driver_8cpp.html#a56474bd9ccbe42a82994dd3415226f38", null ],
     [ "HEAD", "d9/dc5/AudioCodec97Driver_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc", null ],
+    [ "InterruptCallback", "d9/dc5/AudioCodec97Driver_8cpp.html#a19e1c27c2f987931f74d5e5ef9ca9f72", null ],
     [ "MixerVolume", "d9/dc5/AudioCodec97Driver_8cpp.html#aa4ed80ba00738f3b3c7da173721473a2", null ],
     [ "BAR", "d9/dc5/AudioCodec97Driver_8cpp.html#a6feaf4f129beba8154b37192e3b300d7", null ],
     [ "Channels", "d9/dc5/AudioCodec97Driver_8cpp.html#a291e929f9f03cab2c13edbc6eefc18bb", null ],

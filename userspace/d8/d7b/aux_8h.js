@@ -1,11 +1,14 @@
 var aux_8h =
 [
-    [ "Elf64_auxv_t", "d8/d7b/aux_8h.html#d9/de7/structElf64__auxv__t", [
-      [ "a_type", "d8/d7b/aux_8h.html#a718e9da507aeab4eaff05dfd77214d19", null ],
-      [ "a_un", "d8/d7b/aux_8h.html#aff2101031fb2ba76b107c849494b6679", null ]
+    [ "Elf64_auxv_t", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d9/de7/structElf64__auxv__t", [
+      [ "a_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a718e9da507aeab4eaff05dfd77214d19", null ],
+      [ "a_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9f76609de5e434a01ba7dcd2af720c37", null ],
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a8e0eadb66962bc6141fb51d39000a391", null ]
     ] ],
-    [ "Elf64_auxv_t.a_un", "d8/d7b/aux_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
-      [ "a_val", "d8/d7b/aux_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
+    [ "Elf64_auxv_t.a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
+      [ "a_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
+      [ "a_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],
     [ "AT_BASE", "d8/d7b/aux_8h.html#a9b8e51a44a47d7ea827c570ffdca14e5", null ],
     [ "AT_BASE_PLATFORM", "d8/d7b/aux_8h.html#a022fe4e60c7df4b03f25bd5df848f559", null ],

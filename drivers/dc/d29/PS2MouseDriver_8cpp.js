@@ -34,6 +34,7 @@ var PS2MouseDriver_8cpp =
     [ "CallbackHandler", "dc/d29/PS2MouseDriver_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143", null ],
     [ "DriverEntry", "dc/d29/PS2MouseDriver_8cpp.html#a56474bd9ccbe42a82994dd3415226f38", null ],
     [ "HEAD", "dc/d29/PS2MouseDriver_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc", null ],
+    [ "InterruptCallback", "dc/d29/PS2MouseDriver_8cpp.html#a19e1c27c2f987931f74d5e5ef9ca9f72", null ],
     [ "Read", "dc/d29/PS2MouseDriver_8cpp.html#a19c8f73dff12cc9d6d0de39fdac2957a", null ],
     [ "WaitRead", "dc/d29/PS2MouseDriver_8cpp.html#a477460b8c427796c50af7a0739ed666f", null ],
     [ "WaitWrite", "dc/d29/PS2MouseDriver_8cpp.html#a2ff33017abe6212ac25540e6dccc5404", null ],

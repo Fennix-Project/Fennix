@@ -8,6 +8,7 @@ var namespaceGlobalDescriptorTable =
     [ "_GlobalDescriptorTableEntries", "d1/d69/namespaceGlobalDescriptorTable.html#da/d62/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntries", "d1/d69/namespaceGlobalDescriptorTable_da/d62/structGlobalDescriptorTable_1_1__GlobalDescriptorTableEntries_dup" ],
     [ "_GlobalDescriptorTableDescriptor", "d1/d69/namespaceGlobalDescriptorTable.html#db/dba/structGlobalDescriptorTable_1_1__GlobalDescriptorTableDescriptor", "d1/d69/namespaceGlobalDescriptorTable_db/dba/structGlobalDescriptorTable_1_1__GlobalDescriptorTableDescriptor_dup" ],
     [ "__attribute__", "d1/d69/namespaceGlobalDescriptorTable.html#a8870feefdb17eb7d7c63cabcd0c3d22e", null ],
+    [ "GetKernelStack", "d1/d69/namespaceGlobalDescriptorTable.html#ab8fe0c39e450d238fcbba11a60791922", null ],
     [ "Init", "d1/d69/namespaceGlobalDescriptorTable.html#a621904c3d40203fc46b2a4aaa77774cc", null ],
     [ "SetKernelStack", "d1/d69/namespaceGlobalDescriptorTable.html#af44df44be911e3d57e2faf23148d32f8", null ],
     [ "CPUStackPointer", "d1/d69/namespaceGlobalDescriptorTable.html#a8edf748453df2f7d75e5f132c123de40", null ],

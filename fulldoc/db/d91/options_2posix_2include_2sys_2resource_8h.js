@@ -1,0 +1,38 @@
+var options_2posix_2include_2sys_2resource_8h =
+[
+    [ "rlimit", "db/d91/options_2posix_2include_2sys_2resource_8h.html#da/d56/structrlimit", [
+      [ "rlim_cur", "db/d91/options_2posix_2include_2sys_2resource_8h.html#afb303c82ed3027a353e423a555b944b4", null ],
+      [ "rlim_max", "db/d91/options_2posix_2include_2sys_2resource_8h.html#ab24ab4934cab539abf45b259f5db7639", null ]
+    ] ],
+    [ "PRIO_PGRP", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a9156ecb2854d071998278d63a107a215", null ],
+    [ "PRIO_PROCESS", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a5aab1c88012d4b577b034e9291e87419", null ],
+    [ "PRIO_USER", "db/d91/options_2posix_2include_2sys_2resource_8h.html#aee947842544cb755f74360d1da4aa193", null ],
+    [ "RLIM_INFINITY", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a24ccff7ad454b1aa58ced312f7392639", null ],
+    [ "RLIM_NLIMITS", "db/d91/options_2posix_2include_2sys_2resource_8h.html#aeab88d72b5abc1c415d22f010037d5e8", null ],
+    [ "RLIM_SAVED_CUR", "db/d91/options_2posix_2include_2sys_2resource_8h.html#ac9cb37c0ad8d9f8a6f8f599bee572705", null ],
+    [ "RLIM_SAVED_MAX", "db/d91/options_2posix_2include_2sys_2resource_8h.html#adc3f64d92dabe3b76df35eeae5ec9be7", null ],
+    [ "RLIMIT_AS", "db/d91/options_2posix_2include_2sys_2resource_8h.html#aad124f77d8cc4e40cc1870cfd9cd9276", null ],
+    [ "RLIMIT_CORE", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a6caff2df3f486837746f7f1bbef96ff0", null ],
+    [ "RLIMIT_CPU", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a2dfc31bf865952e7a21f30a06c5b58ff", null ],
+    [ "RLIMIT_DATA", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a9eff0322f4c2f18835c6773848a8d21f", null ],
+    [ "RLIMIT_FSIZE", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a9d5002c1bdef042c84c919143ada3909", null ],
+    [ "RLIMIT_LOCKS", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a5c344a7690e41f137fa5a3845d33dcf5", null ],
+    [ "RLIMIT_MEMLOCK", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a4b51fe84ca28cc38e33c78208f6f3bca", null ],
+    [ "RLIMIT_MSGQUEUE", "db/d91/options_2posix_2include_2sys_2resource_8h.html#afd31d0f26c53f9da34e7b856d95bc393", null ],
+    [ "RLIMIT_NICE", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a9fd15cc04437ce131e2c39bef883ded0", null ],
+    [ "RLIMIT_NLIMITS", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a4f5d1198d4e8dc4a526becfe03e99830", null ],
+    [ "RLIMIT_NOFILE", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a23b0ddddd76c48b173a903da632e3623", null ],
+    [ "RLIMIT_NPROC", "db/d91/options_2posix_2include_2sys_2resource_8h.html#aa368f25ca5adfaaeced92e6570376fc4", null ],
+    [ "RLIMIT_RSS", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a40808e6c696894318efe11e285ac9563", null ],
+    [ "RLIMIT_RTPRIO", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a42297d3af407082a057604dd0a0288b8", null ],
+    [ "RLIMIT_SIGPENDING", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a0fc452d12229b9564a0562e5f3cce430", null ],
+    [ "RLIMIT_STACK", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a7f3294b42b45c2aa8f0f012c556a0a57", null ],
+    [ "RUSAGE_CHILDREN", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a76da11928becba8246c8c406314e6282", null ],
+    [ "RUSAGE_SELF", "db/d91/options_2posix_2include_2sys_2resource_8h.html#af96c310e02eee3878d8fb3af154c2ba0", null ],
+    [ "rlim_t", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a1fdd908a459a3857bf74ed29fed9defa", null ],
+    [ "getpriority", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a67c49fa701040254398d93e3cc787821", null ],
+    [ "getrlimit", "db/d91/options_2posix_2include_2sys_2resource_8h.html#ac7e7a27a353c22831fe2fd0ad75138b6", null ],
+    [ "getrusage", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a3ba721bfdd51d1326fbcb72caf74afff", null ],
+    [ "setpriority", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a798be8dc55f4d09235203f3f771006d4", null ],
+    [ "setrlimit", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a4e9c03f0b5714a39bcbee7562b74f4c5", null ]
+];

@@ -13,7 +13,7 @@ var filesystem_8hpp =
     ] ],
     [ "Node", "d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node", [
       [ "Address", "d5/da1/namespaceVirtualFileSystem.html#a0a187509f887b6dda7954acce3463863", null ],
-      [ "Children", "d5/da1/namespaceVirtualFileSystem.html#af166095c204bd9237f91bbf78317b7ad", null ],
+      [ "Children", "d5/da1/namespaceVirtualFileSystem.html#adfcb43c5d7c54ff32a90d58a9e8560d1", null ],
       [ "Flags", "d5/da1/namespaceVirtualFileSystem.html#a1bc9fee000c064f7890eb7f2992faef8", null ],
       [ "GroupIdentifier", "d5/da1/namespaceVirtualFileSystem.html#a3d081006361c0e8abc86a6a1057ef052", null ],
       [ "IndexNode", "d5/da1/namespaceVirtualFileSystem.html#a158c27a82afa00091709253fb79775ca", null ],

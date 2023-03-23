@@ -12,6 +12,7 @@ var Virtio_8cpp =
     [ "CallbackHandler", "dc/df9/Virtio_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143", null ],
     [ "DriverEntry", "dc/df9/Virtio_8cpp.html#a56474bd9ccbe42a82994dd3415226f38", null ],
     [ "HEAD", "dc/df9/Virtio_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc", null ],
+    [ "InterruptCallback", "dc/df9/Virtio_8cpp.html#a19e1c27c2f987931f74d5e5ef9ca9f72", null ],
     [ "BAR", "dc/df9/Virtio_8cpp.html#a6feaf4f129beba8154b37192e3b300d7", null ],
     [ "IP", "dc/df9/Virtio_8cpp.html#a98e0a7066b7a390fe94e36a3bdbd8901", null ],
     [ "KAPI", "dc/df9/Virtio_8cpp.html#a8829069e57a9845d74b32ce27a618ccd", null ],

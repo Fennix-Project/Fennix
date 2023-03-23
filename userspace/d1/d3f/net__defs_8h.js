@@ -1,0 +1,125 @@
+var net__defs_8h =
+[
+    [ "_net_packet_s", "d1/d3f/net__defs_8h.html#d9/dee/struct__net__packet__s", [
+      [ "alloced", "d1/d3f/net__defs_8h.html#ad15e5a3f022e41ebbb278835cf5917aa", null ],
+      [ "data", "d1/d3f/net__defs_8h.html#ada06dc1df3806a6c4282231fed08d079", null ],
+      [ "len", "d1/d3f/net__defs_8h.html#a9aa3120f564c5e61e73e0ff3fe4f54d8", null ],
+      [ "pos", "d1/d3f/net__defs_8h.html#a67820d9dec0fe46d28f9fb19fcabb61b", null ]
+    ] ],
+    [ "_net_module_s", "d9/d94/struct__net__module__s.html", "d9/d94/struct__net__module__s" ],
+    [ "_net_addr_s", "d1/d3f/net__defs_8h.html#d3/d4b/struct__net__addr__s", [
+      [ "handle", "d1/d3f/net__defs_8h.html#abeb604c8de61a380b7304dcf5ae22633", null ],
+      [ "module", "d1/d3f/net__defs_8h.html#ad6980746ea52ec76a4b7fd8a9b79f779", null ]
+    ] ],
+    [ "net_connect_data_t", "d1/d3f/net__defs_8h.html#dc/d60/structnet__connect__data__t", [
+      [ "deh_sha1sum", "d1/d3f/net__defs_8h.html#ad576a922a8b08d301194201de44d8ce7", null ],
+      [ "drone", "d1/d3f/net__defs_8h.html#a7e99f851c3335e772dbf386bdf1dac06", null ],
+      [ "gamemission", "d1/d3f/net__defs_8h.html#a44f6c2796388742926d1c2eca96d26eb", null ],
+      [ "gamemode", "d1/d3f/net__defs_8h.html#a88ecf3e14a7e094d8864b75bc23318cb", null ],
+      [ "is_freedoom", "d1/d3f/net__defs_8h.html#a1581a5345c4a7db24febe83f998b4840", null ],
+      [ "lowres_turn", "d1/d3f/net__defs_8h.html#a47ef8b2022190a735c8e95577c3f6fad", null ],
+      [ "max_players", "d1/d3f/net__defs_8h.html#a665445dcca6a79b94013ebd1b605ed0e", null ],
+      [ "player_class", "d1/d3f/net__defs_8h.html#a41b2fd14e48105b34d56d0843d2aba79", null ],
+      [ "wad_sha1sum", "d1/d3f/net__defs_8h.html#ad303fc77ae5cc6b74d617510d8f02070", null ]
+    ] ],
+    [ "net_gamesettings_t", "d1/d3f/net__defs_8h.html#d0/da0/structnet__gamesettings__t", [
+      [ "consoleplayer", "d1/d3f/net__defs_8h.html#acb467918a449dd502d78187d6f96d995", null ],
+      [ "deathmatch", "d1/d3f/net__defs_8h.html#a5db7394dbc40b5d296dbe2277a81bcb3", null ],
+      [ "episode", "d1/d3f/net__defs_8h.html#af0cee81a0db6207ac7cf054b66507907", null ],
+      [ "extratics", "d1/d3f/net__defs_8h.html#a737bb95a5a80142442c72b0e32a3da9e", null ],
+      [ "fast_monsters", "d1/d3f/net__defs_8h.html#a907b9bee836ec1e955f2ff9a98d9e3e9", null ],
+      [ "gameversion", "d1/d3f/net__defs_8h.html#a84fea87c5d478f818d4d03b0c79896f3", null ],
+      [ "loadgame", "d1/d3f/net__defs_8h.html#a257ea378dd6e07d6797be3d7db2a0bcf", null ],
+      [ "lowres_turn", "d1/d3f/net__defs_8h.html#aa98b8431342be26f1a5e03742d30e4e6", null ],
+      [ "map", "d1/d3f/net__defs_8h.html#ab1bb7769fe07f62d1bf21136c5e11d59", null ],
+      [ "new_sync", "d1/d3f/net__defs_8h.html#afe869a5aa2018e4bd7168d5198ad94a1", null ],
+      [ "nomonsters", "d1/d3f/net__defs_8h.html#aea610dca2f49486f5572f9ba89f33254", null ],
+      [ "num_players", "d1/d3f/net__defs_8h.html#ac0feec3c0a533c3bcff82088e42d76a9", null ],
+      [ "player_classes", "d1/d3f/net__defs_8h.html#af17ac50f322f8700b47d8abfccbc7402", null ],
+      [ "random", "d1/d3f/net__defs_8h.html#a68bbcca91bf3e9c1e7b4493dd0e71be8", null ],
+      [ "respawn_monsters", "d1/d3f/net__defs_8h.html#a822b84a0cfd17fdf51937295fffebda1", null ],
+      [ "skill", "d1/d3f/net__defs_8h.html#a1a849f2d5ac7115a81652c082283eccf", null ],
+      [ "ticdup", "d1/d3f/net__defs_8h.html#a5d3530a24e106ae043aeec9ee61e2418", null ],
+      [ "timelimit", "d1/d3f/net__defs_8h.html#aa72168123112375f7bf7ef0f749c97de", null ]
+    ] ],
+    [ "net_ticdiff_t", "d1/d3f/net__defs_8h.html#de/da2/structnet__ticdiff__t", [
+      [ "cmd", "d1/d3f/net__defs_8h.html#a3c5b7fcc07026ae758ae7588e4d8089e", null ],
+      [ "diff", "d1/d3f/net__defs_8h.html#af94ee9ca0b971f99f903167c3d6f17cf", null ]
+    ] ],
+    [ "net_full_ticcmd_t", "d1/d3f/net__defs_8h.html#d2/df6/structnet__full__ticcmd__t", [
+      [ "cmds", "d1/d3f/net__defs_8h.html#a658425a9a16cc9e8234c08f44d24369d", null ],
+      [ "latency", "d1/d3f/net__defs_8h.html#a15774617eec992a58668547fb941d45b", null ],
+      [ "playeringame", "d1/d3f/net__defs_8h.html#ae9cb47e99808984642d4496d1ebbc514", null ],
+      [ "seq", "d1/d3f/net__defs_8h.html#aa0d719e11492e05f09318d1df4aba0c8", null ]
+    ] ],
+    [ "net_querydata_t", "d1/d3f/net__defs_8h.html#de/d89/structnet__querydata__t", [
+      [ "description", "d1/d3f/net__defs_8h.html#a7cc91e33ab8dca6def6a369d1e567d17", null ],
+      [ "gamemission", "d1/d3f/net__defs_8h.html#aaaf070c5f077f7fc9fff844e41397490", null ],
+      [ "gamemode", "d1/d3f/net__defs_8h.html#ac1dbbb75ba57bdc2c1f676188c9a86f3", null ],
+      [ "max_players", "d1/d3f/net__defs_8h.html#acc1f403b0d84bfe872839dfb4cd55529", null ],
+      [ "num_players", "d1/d3f/net__defs_8h.html#aeb2b150be520ffa157f6bf2abd6df410", null ],
+      [ "server_state", "d1/d3f/net__defs_8h.html#a3b6b86503c2ddf474404ff00cfd93f9f", null ],
+      [ "version", "d1/d3f/net__defs_8h.html#a91abd54430ce41a053e98fe7e0369115", null ]
+    ] ],
+    [ "net_waitdata_t", "d1/d3f/net__defs_8h.html#d4/dfe/structnet__waitdata__t", [
+      [ "consoleplayer", "d1/d3f/net__defs_8h.html#a810a1edba020197a642b143a15309d5c", null ],
+      [ "deh_sha1sum", "d1/d3f/net__defs_8h.html#a3b1e3a2125c8104edf10e168480016c6", null ],
+      [ "is_controller", "d1/d3f/net__defs_8h.html#aaabe4e5403147cbf23073b14e9e50f34", null ],
+      [ "is_freedoom", "d1/d3f/net__defs_8h.html#ab79185b15ce452cbbfd288e624f6456a", null ],
+      [ "max_players", "d1/d3f/net__defs_8h.html#a329a5c0d3e48aa890c482823e270573b", null ],
+      [ "num_drones", "d1/d3f/net__defs_8h.html#aba43b2f301249003ed370999323289f4", null ],
+      [ "num_players", "d1/d3f/net__defs_8h.html#a9974024d263b126a198a0180b8be41f9", null ],
+      [ "player_addrs", "d1/d3f/net__defs_8h.html#a1ed82f404dacfe97b67a32211f2f7015", null ],
+      [ "player_names", "d1/d3f/net__defs_8h.html#a9110b289393bd20d7050d250a84a7ac5", null ],
+      [ "ready_players", "d1/d3f/net__defs_8h.html#aa1a52eb00c8beb355fef9c0907169152", null ],
+      [ "wad_sha1sum", "d1/d3f/net__defs_8h.html#a6885a21f05b8c5f3329fa14875ad5f47", null ]
+    ] ],
+    [ "BACKUPTICS", "d1/d3f/net__defs_8h.html#a27be2baa1dffeeb2bb80cd4773bb8022", null ],
+    [ "MAXNETNODES", "d1/d3f/net__defs_8h.html#a39f290e561242b6aad7fcc906111bb17", null ],
+    [ "MAXPLAYERNAME", "d1/d3f/net__defs_8h.html#afff7a87b07b258a41a48ea1c54e74983", null ],
+    [ "NET_MAGIC_NUMBER", "d1/d3f/net__defs_8h.html#a2f401319fea663dd2164305566196ea6", null ],
+    [ "NET_MAXPLAYERS", "d1/d3f/net__defs_8h.html#a667d7a1845f930f6dc2449ef8215af21", null ],
+    [ "NET_RELIABLE_PACKET", "d1/d3f/net__defs_8h.html#a209a1524bd0d3848510bb0054c109402", null ],
+    [ "NET_TICDIFF_BUTTONS", "d1/d3f/net__defs_8h.html#a143cb326555b0aa1748a385a6f8e35e8", null ],
+    [ "NET_TICDIFF_CHATCHAR", "d1/d3f/net__defs_8h.html#a9495f55da8ba5aae3fc75ab38be68d78", null ],
+    [ "NET_TICDIFF_CONSISTANCY", "d1/d3f/net__defs_8h.html#ad0a2e577e49324a33073c5bbb51aae47", null ],
+    [ "NET_TICDIFF_FORWARD", "d1/d3f/net__defs_8h.html#a62bf3991b499757eb6fe8c8c8a2c4a5d", null ],
+    [ "NET_TICDIFF_RAVEN", "d1/d3f/net__defs_8h.html#aff48319df25ec52ca4b088902530fb4c", null ],
+    [ "NET_TICDIFF_SIDE", "d1/d3f/net__defs_8h.html#ab95a1c961a26e0219b75598761d99c51", null ],
+    [ "NET_TICDIFF_STRIFE", "d1/d3f/net__defs_8h.html#a137bfa42d199672b967296576c754fb2", null ],
+    [ "NET_TICDIFF_TURN", "d1/d3f/net__defs_8h.html#a1c56722b0538c6438b2ff9f946a15ef9", null ],
+    [ "net_addr_t", "d1/d3f/net__defs_8h.html#a39d45b2db095a3d40ebb2ea35a1cd800", null ],
+    [ "net_context_t", "d1/d3f/net__defs_8h.html#afbe2cf388588e99bf6c173fca0b9df85", null ],
+    [ "net_module_t", "d1/d3f/net__defs_8h.html#a860272d446fd5e66bba50f3250ed86f9", null ],
+    [ "net_packet_t", "d1/d3f/net__defs_8h.html#a5b6802427b54fedda6f77bbcdc5cd359", null ],
+    [ "net_master_packet_type_t", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936", [
+      [ "NET_MASTER_PACKET_TYPE_ADD", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936a6a8a0927c151a77769f8ac88fa06ba02", null ],
+      [ "NET_MASTER_PACKET_TYPE_ADD_RESPONSE", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936a2cacc23d03d00408dd30bfd01979a216", null ],
+      [ "NET_MASTER_PACKET_TYPE_QUERY", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936ad6282b64e01e18c00dcf157dd92cda6e", null ],
+      [ "NET_MASTER_PACKET_TYPE_QUERY_RESPONSE", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936a76130d660f336f19a065e328f31c877a", null ],
+      [ "NET_MASTER_PACKET_TYPE_GET_METADATA", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936aab61a1bfd96444f2fb0a7551f05fae46", null ],
+      [ "NET_MASTER_PACKET_TYPE_GET_METADATA_RESPONSE", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936a9ca3015536f330b599b458955d952fd2", null ],
+      [ "NET_MASTER_PACKET_TYPE_SIGN_START", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936ad580942424b5b25caff91b351e44f50f", null ],
+      [ "NET_MASTER_PACKET_TYPE_SIGN_START_RESPONSE", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936a9b859bfc0142b8ad58a7a8a0107ea538", null ],
+      [ "NET_MASTER_PACKET_TYPE_SIGN_END", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936a734842361a9a727ef835fe921e48474d", null ],
+      [ "NET_MASTER_PACKET_TYPE_SIGN_END_RESPONSE", "d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936a26e92483037d5f645555a8fc3275557b", null ]
+    ] ],
+    [ "net_packet_type_t", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1", [
+      [ "NET_PACKET_TYPE_SYN", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1adffeb400d40be9f7c99f6787ed237bf8", null ],
+      [ "NET_PACKET_TYPE_ACK", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a7bba683a9e30754b6a76ba8ab972a1c8", null ],
+      [ "NET_PACKET_TYPE_REJECTED", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1ac5527c8905f5f12f1173065b5a2b613d", null ],
+      [ "NET_PACKET_TYPE_KEEPALIVE", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a51802116b37cfd15bba7181e99a187d5", null ],
+      [ "NET_PACKET_TYPE_WAITING_DATA", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a63f440dec9b646f54afacc858afe9f85", null ],
+      [ "NET_PACKET_TYPE_GAMESTART", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a8df0c1d0394c1087e604c8df9298d5cd", null ],
+      [ "NET_PACKET_TYPE_GAMEDATA", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a03c4ad062d1b1df3c48a991075c4d6db", null ],
+      [ "NET_PACKET_TYPE_GAMEDATA_ACK", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a26c278c361f62c5a97e9e25c89e0bcf9", null ],
+      [ "NET_PACKET_TYPE_DISCONNECT", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a1bd568f03b422749d885b45e3c8d90ce", null ],
+      [ "NET_PACKET_TYPE_DISCONNECT_ACK", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a4c8d4db24b11efede7a8b07a6526f1d4", null ],
+      [ "NET_PACKET_TYPE_RELIABLE_ACK", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a338c0e0eaec365a6c3f0f7d55e47a133", null ],
+      [ "NET_PACKET_TYPE_GAMEDATA_RESEND", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a4e5d998103cc4f71968c0c9a60db218a", null ],
+      [ "NET_PACKET_TYPE_CONSOLE_MESSAGE", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a2e9a52450f6ea94368198d5a972fe803", null ],
+      [ "NET_PACKET_TYPE_QUERY", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a20eae08608ea94058546aad4262aee75", null ],
+      [ "NET_PACKET_TYPE_QUERY_RESPONSE", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a8e1a937b92b1b4064a4e04c20d49307a", null ],
+      [ "NET_PACKET_TYPE_LAUNCH", "d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1a73b80145f4c79ebc08c6240f6a31364c", null ]
+    ] ]
+];

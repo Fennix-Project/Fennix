@@ -1,5 +1,15 @@
 var RecoveryMain_8cpp =
 [
+    [ "BufBight10", "d4/dc6/RecoveryMain_8cpp.html#a5870fc887341fa77b948a1c34264d0ff", null ],
+    [ "BufBight100", "d4/dc6/RecoveryMain_8cpp.html#a537cc0310488e6b2fa9551e8c1c60be2", null ],
+    [ "BufBight20", "d4/dc6/RecoveryMain_8cpp.html#a1625e64ecd2d0903c66861c1beed8d51", null ],
+    [ "BufBight30", "d4/dc6/RecoveryMain_8cpp.html#a8bfc36d1545c3ab7f28becd8a17044d8", null ],
+    [ "BufBight40", "d4/dc6/RecoveryMain_8cpp.html#a8d6a23a75166711a97396cba9de5f08b", null ],
+    [ "BufBight50", "d4/dc6/RecoveryMain_8cpp.html#a4101effbe9309bef03c9be77c9841648", null ],
+    [ "BufBight60", "d4/dc6/RecoveryMain_8cpp.html#af8730ad4d8109ee4a3b33b80c8041325", null ],
+    [ "BufBight70", "d4/dc6/RecoveryMain_8cpp.html#ae6ad8c930cf2c75af3a11a1bdb04a619", null ],
+    [ "BufBight80", "d4/dc6/RecoveryMain_8cpp.html#ab7c8d40eb1d64fe32848c43bc23c8e59", null ],
+    [ "BufBight90", "d4/dc6/RecoveryMain_8cpp.html#a61a7b5c7a758f18a0ab239d79cc18cf6", null ],
     [ "ChangeSampleRate", "d4/dc6/RecoveryMain_8cpp.html#a600afaf4f5ff10231075aed2e448d3d0", null ],
     [ "ChangeVolume", "d4/dc6/RecoveryMain_8cpp.html#a419f4c2356137073bc44830ccedb7b95", null ],
     [ "CSR11025", "d4/dc6/RecoveryMain_8cpp.html#a8ffb4df81f90bb036dd56df64215d23d", null ],

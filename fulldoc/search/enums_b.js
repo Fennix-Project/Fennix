@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['nativesyscalls_10557',['NativeSyscalls',['../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fce',1,'syscalls.h']]],
-  ['nodeflags_10558',['NodeFlags',['../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cf',1,'VirtualFileSystem']]]
+  ['lvttimerdivide_32019',['LVTTimerDivide',['../d3/d88/namespaceAPIC.html#aa540889ec4157bb604e83087996a9980',1,'APIC::LVTTimerDivide()'],['../d3/d88/namespaceAPIC.html#aa540889ec4157bb604e83087996a9980',1,'APIC::LVTTimerDivide()']]],
+  ['lvttimermask_32020',['LVTTimerMask',['../d3/d88/namespaceAPIC.html#af7da6d1cf288d51a50c782a2aa75c162',1,'APIC::LVTTimerMask()'],['../d3/d88/namespaceAPIC.html#af7da6d1cf288d51a50c782a2aa75c162',1,'APIC::LVTTimerMask()']]],
+  ['lvttimermode_32021',['LVTTimerMode',['../d3/d88/namespaceAPIC.html#a94b9c4b826c87fd2c2adb212030432b1',1,'APIC::LVTTimerMode()'],['../d3/d88/namespaceAPIC.html#a94b9c4b826c87fd2c2adb212030432b1',1,'APIC::LVTTimerMode()']]]
 ];

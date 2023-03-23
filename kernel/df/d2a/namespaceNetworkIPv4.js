@@ -25,5 +25,5 @@ var namespaceNetworkIPv4 =
       [ "PROTOCOL_UDPLITE", "df/d2a/namespaceNetworkIPv4.html#ac92e7701f3e30b7514632f40e687f879acf9eccccfb5cce38f6cb1986ead2ef1c", null ],
       [ "PROTOCOL_RAW", "df/d2a/namespaceNetworkIPv4.html#ac92e7701f3e30b7514632f40e687f879a6ac9a22587e9217005b8d08e74f18cb7", null ]
     ] ],
-    [ "RegisteredEvents", "df/d2a/namespaceNetworkIPv4.html#a98464b51d0dfd7dee08eb92f31680e8c", null ]
+    [ "RegisteredEvents", "df/d2a/namespaceNetworkIPv4.html#a8b08389dabc1ca3e4733fb9b1720805f", null ]
 ];

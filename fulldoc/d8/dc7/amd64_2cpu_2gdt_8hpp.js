@@ -40,6 +40,7 @@ var amd64_2cpu_2gdt_8hpp =
     [ "GDT_USER_DATA", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2", null ],
     [ "__attribute__", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#af56d4e43cb2f9795374f684a94904e9c", null ],
     [ "__attribute__", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a8870feefdb17eb7d7c63cabcd0c3d22e", null ],
+    [ "GetKernelStack", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab8fe0c39e450d238fcbba11a60791922", null ],
     [ "Init", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a621904c3d40203fc46b2a4aaa77774cc", null ],
     [ "SetKernelStack", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#af44df44be911e3d57e2faf23148d32f8", null ],
     [ "A", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#aa99de428bd3e7715b73b335a5af9e900", null ],
