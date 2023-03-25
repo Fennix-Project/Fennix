@@ -13,11 +13,11 @@ var if_8h =
       [ "port", "dc/d8d/if_8h.html#a19a4333b15c9e04fd3270659a9161285", null ]
     ] ],
     [ "ifreq", "dc/d8d/if_8h.html#dd/d5d/structifreq", [
-      [ "ifr_ifrn", "dc/d8d/if_8h.html#a660af95db49f90dccc89d334b82a65b7", null ],
-      [ "ifr_ifru", "dc/d8d/if_8h.html#aa7cca863fc2ad07b3cac51929cc67912", null ]
+      [ "ifr_ifrn", "dc/d8d/if_8h.html#aa9faf14a797af01f48307d7429d5584e", null ],
+      [ "ifr_ifru", "dc/d8d/if_8h.html#aa511cd571b04d9adb5821142f9e0f74e", null ]
     ] ],
     [ "ifconf", "dc/d8d/if_8h.html#d8/da9/structifconf", [
-      [ "ifc_ifcu", "dc/d8d/if_8h.html#a9ba61cdf99bc0e9f26ac821e6e8fd7e6", null ],
+      [ "ifc_ifcu", "dc/d8d/if_8h.html#aded7af55911b17f93708974183f59ba2", null ],
       [ "ifc_len", "dc/d8d/if_8h.html#a5ecece734d7664e73d1fd25b22ba0436", null ]
     ] ],
     [ "ifreq.ifr_ifrn", "dc/d8d/if_8h.html#d7/d77/unionifreq_8ifr__ifrn", [

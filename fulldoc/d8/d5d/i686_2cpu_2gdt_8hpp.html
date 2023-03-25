@@ -126,7 +126,7 @@ Namespaces</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:ab0bd808397c97f7db4701ca69009a547"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#ab0bd808397c97f7db4701ca69009a547">GDT_KERNEL_CODE</a>&#160;&#160;&#160;<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</td></tr>
 <tr class="separator:ab0bd808397c97f7db4701ca69009a547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b5a711dc01ab783bb986902240f1cce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a1b5a711dc01ab783bb986902240f1cce">GDT_KERNEL_DATA</a>&#160;&#160;&#160;<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>)</td></tr>
+<tr class="memitem:a1b5a711dc01ab783bb986902240f1cce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a1b5a711dc01ab783bb986902240f1cce">GDT_KERNEL_DATA</a>&#160;&#160;&#160;<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
 <tr class="separator:a1b5a711dc01ab783bb986902240f1cce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c033543fb4db7939b4b7587de03867"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#af5c033543fb4db7939b4b7587de03867">GDT_USER_CODE</a>&#160;&#160;&#160;(<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243">UserCode</a>) | 3)</td></tr>
 <tr class="separator:af5c033543fb4db7939b4b7587de03867"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,7 +143,7 @@ Functions</h2></td></tr>
 <tr class="separator:af56d4e43cb2f9795374f684a94904e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a621904c3d40203fc46b2a4aaa77774cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#a621904c3d40203fc46b2a4aaa77774cc">GlobalDescriptorTable::Init</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> Core)</td></tr>
 <tr class="separator:a621904c3d40203fc46b2a4aaa77774cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af44df44be911e3d57e2faf23148d32f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#af44df44be911e3d57e2faf23148d32f8">GlobalDescriptorTable::SetKernelStack</a> (void *Stack)</td></tr>
+<tr class="memitem:af44df44be911e3d57e2faf23148d32f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#af44df44be911e3d57e2faf23148d32f8">GlobalDescriptorTable::SetKernelStack</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#a98988c09e59995d8f6a571039d35e3c8">Stack</a>)</td></tr>
 <tr class="separator:af44df44be911e3d57e2faf23148d32f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -458,7 +458,7 @@ GDT entries length. </td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GDT_KERNEL_DATA&#160;&#160;&#160;<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d8/d5d/i686_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a>)</td>
+          <td class="memname">#define GDT_KERNEL_DATA&#160;&#160;&#160;<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(GlobalDescriptorTable::GlobalDescriptorTableEntries, <a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">

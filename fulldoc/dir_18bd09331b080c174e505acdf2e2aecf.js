@@ -7,7 +7,7 @@ var dir_18bd09331b080c174e505acdf2e2aecf =
     [ "clockid_t.h", "d6/d4b/sysdeps_2lyre_2include_2abi-bits_2clockid__t_8h.html", "d6/d4b/sysdeps_2lyre_2include_2abi-bits_2clockid__t_8h" ],
     [ "dev_t.h", "da/d78/sysdeps_2lyre_2include_2abi-bits_2dev__t_8h.html", "da/d78/sysdeps_2lyre_2include_2abi-bits_2dev__t_8h" ],
     [ "epoll.h", "d7/d2b/sysdeps_2lyre_2include_2abi-bits_2epoll_8h.html", "d7/d2b/sysdeps_2lyre_2include_2abi-bits_2epoll_8h" ],
-    [ "errno.h", "df/dd1/mlibc_2sysdeps_2lyre_2include_2abi-bits_2errno_8h.html", "df/dd1/mlibc_2sysdeps_2lyre_2include_2abi-bits_2errno_8h" ],
+    [ "errno.h", "d8/dcf/Userspace_2mlibc_2sysdeps_2lyre_2include_2abi-bits_2errno_8h.html", "d8/dcf/Userspace_2mlibc_2sysdeps_2lyre_2include_2abi-bits_2errno_8h" ],
     [ "fcntl.h", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h" ],
     [ "fsblkcnt_t.h", "de/dc1/sysdeps_2lyre_2include_2abi-bits_2fsblkcnt__t_8h.html", "de/dc1/sysdeps_2lyre_2include_2abi-bits_2fsblkcnt__t_8h" ],
     [ "fsfilcnt_t.h", "d4/db4/sysdeps_2lyre_2include_2abi-bits_2fsfilcnt__t_8h.html", "d4/db4/sysdeps_2lyre_2include_2abi-bits_2fsfilcnt__t_8h" ],

@@ -298,16 +298,16 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">auto</span> sysdep = <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a09174f822fdcd96043e758bf9f86cf96">mlibc::sys_get_min_priority</a>, -1);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = sysdep(policy, &amp;res); e) {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d9/d66/Kernel_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> res;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d9/d66/Kernel_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d66/Kernel_2include_2errno_8h_source.html#l00040">errno.h:40</a></div></div>
 <div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00024">ensure.h:24</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h_source.html#l00011">errno.h:11</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a09174f822fdcd96043e758bf9f86cf96"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a09174f822fdcd96043e758bf9f86cf96">mlibc::sys_get_min_priority</a></div><div class="ttdeci">int sys_get_min_priority(int policy, int *out)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h_source.html#l00011">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d0/d9a/namespacemlibc.html#a09174f822fdcd96043e758bf9f86cf96">mlibc::sys_get_min_priority()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d66/Kernel_2include_2errno_8h_source.html#l00040">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d0/d9a/namespacemlibc.html#a09174f822fdcd96043e758bf9f86cf96">mlibc::sys_get_min_priority()</a>.</p>
 
 </div>
 </div>
@@ -347,14 +347,14 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                                                     {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a4f69346ea4682328b477352822bd15f4">mlibc::sys_getaffinity</a>, -1);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = <a class="code" href="../../d0/d9a/namespacemlibc.html#a4f69346ea4682328b477352822bd15f4">mlibc::sys_getaffinity</a>(pid, cpusetsize, mask); e) {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../d9/d66/Kernel_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="ttc" id="anamespacemlibc_html_a4f69346ea4682328b477352822bd15f4"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a4f69346ea4682328b477352822bd15f4">mlibc::sys_getaffinity</a></div><div class="ttdeci">int sys_getaffinity(pid_t pid, size_t cpusetsize, cpu_set_t *mask)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h_source.html#l00011">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d0/d9a/namespacemlibc.html#a4f69346ea4682328b477352822bd15f4">mlibc::sys_getaffinity()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d66/Kernel_2include_2errno_8h_source.html#l00040">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d0/d9a/namespacemlibc.html#a4f69346ea4682328b477352822bd15f4">mlibc::sys_getaffinity()</a>.</p>
 
 </div>
 </div>

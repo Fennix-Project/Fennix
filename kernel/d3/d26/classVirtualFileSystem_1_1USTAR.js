@@ -28,7 +28,7 @@ var classVirtualFileSystem_1_1USTAR =
       [ "DIRECTORY", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a546482713011000f5c267bd18b278e8ba692bd10b48c271f5dfd6d59b53ecd646", null ],
       [ "FIFO", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a546482713011000f5c267bd18b278e8baaccc119c58b7c2e9394e4b7978e207fc", null ]
     ] ],
-    [ "USTAR", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a48a768c1cafa3060ef436adc3e1437fb", null ],
+    [ "USTAR", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a2390f333cf65cef5a0ee095d6c373119", null ],
     [ "~USTAR", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a8b8bffa7dacfa5af0c724972be531e48", null ],
     [ "getsize", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a139f18e2cc5409dc3c8bf680064124bd", null ],
     [ "string2int", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a3701415eb5dd6e9a2b72d407c9c8229e", null ]

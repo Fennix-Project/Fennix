@@ -2,7 +2,7 @@ var dir_3d57f6a2c7f5d9886633279d1a97c024 =
 [
     [ "dir.h", "df/d9c/dir_8h.html", "df/d9c/dir_8h" ],
     [ "endian.h", "d9/d06/sys_2endian_8h.html", null ],
-    [ "errno.h", "db/da3/mlibc_2options_2glibc_2include_2sys_2errno_8h.html", null ],
+    [ "errno.h", "df/d65/Userspace_2mlibc_2options_2glibc_2include_2sys_2errno_8h.html", null ],
     [ "ioctl.h", "d3/dee/ioctl_8h.html", "d3/dee/ioctl_8h" ],
     [ "mtio.h", "d4/ded/mtio_8h.html", "d4/ded/mtio_8h" ],
     [ "personality.h", "df/dc0/personality_8h.html", "df/dc0/personality_8h" ],

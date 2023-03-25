@@ -309,13 +309,13 @@ port</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a660af95db49f90dccc89d334b82a65b7"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d7/d77/unionifreq_8ifr__ifrn">ifreq</a></td>
+<a id="aa9faf14a797af01f48307d7429d5584e"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d7/d77/unionifreq_8ifr__ifrn">ifreq</a></td>
 <td class="fieldname">
 ifr_ifrn</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aa7cca863fc2ad07b3cac51929cc67912"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d3/d35/unionifreq_8ifr__ifru">ifreq</a></td>
+<a id="aa511cd571b04d9adb5821142f9e0f74e"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d3/d35/unionifreq_8ifr__ifru">ifreq</a></td>
 <td class="fieldname">
 ifr_ifru</td>
 <td class="fielddoc">
@@ -340,7 +340,7 @@ ifr_ifru</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a9ba61cdf99bc0e9f26ac821e6e8fd7e6"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d9/dfc/unionifconf_8ifc__ifcu">ifconf</a></td>
+<a id="aded7af55911b17f93708974183f59ba2"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d9/dfc/unionifconf_8ifc__ifcu">ifconf</a></td>
 <td class="fieldname">
 ifc_ifcu</td>
 <td class="fielddoc">
@@ -1186,20 +1186,20 @@ ifcu_req</td>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">auto</span> sysdep = <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a23e696647c7d7eb5c48c16c8db794a49">mlibc::sys_if_indextoname</a>, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = sysdep(<a class="code" href="../../d1/dd6/strings-stubs_8cpp.html#a1d3748ca570dcb09a2fb28e8015107dd">index</a>, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>); e) {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../d9/d66/Kernel_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d9/d66/Kernel_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d66/Kernel_2include_2errno_8h_source.html#l00040">errno.h:40</a></div></div>
 <div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
 <div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00024">ensure.h:24</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h_source.html#l00011">errno.h:11</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a23e696647c7d7eb5c48c16c8db794a49"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a23e696647c7d7eb5c48c16c8db794a49">mlibc::sys_if_indextoname</a></div><div class="ttdeci">int sys_if_indextoname(unsigned int index, char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d84/net_8cpp_source.html#l00010">net.cpp:10</a></div></div>
 <div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
 <div class="ttc" id="astrings-stubs_8cpp_html_a1d3748ca570dcb09a2fb28e8015107dd"><div class="ttname"><a href="../../d1/dd6/strings-stubs_8cpp.html#a1d3748ca570dcb09a2fb28e8015107dd">index</a></div><div class="ttdeci">char * index(const char *s, int c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd6/strings-stubs_8cpp_source.html#l00009">strings-stubs.cpp:9</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h_source.html#l00011">errno</a>, <a class="el" href="../../d1/dd6/strings-stubs_8cpp_source.html#l00009">index()</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, and <a class="el" href="../../dd/d84/net_8cpp_source.html#l00010">mlibc::sys_if_indextoname()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d66/Kernel_2include_2errno_8h_source.html#l00040">errno</a>, <a class="el" href="../../d1/dd6/strings-stubs_8cpp_source.html#l00009">index()</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, and <a class="el" href="../../dd/d84/net_8cpp_source.html#l00010">mlibc::sys_if_indextoname()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d52/if__indextoname_8c_source.html#l00005">main()</a>.</p>
 
@@ -1253,7 +1253,7 @@ ifcu_req</td>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = 0;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = sysdep(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, &amp;<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>); e) {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d9/d66/Kernel_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
@@ -1262,7 +1262,7 @@ ifcu_req</td>
 <div class="ttc" id="alemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a388ed6f5876e2f1dbcfb004b0620917e"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a388ed6f5876e2f1dbcfb004b0620917e">mlibc::sys_if_nametoindex</a></div><div class="ttdeci">int sys_if_nametoindex(const char *name, unsigned int *ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d84/net_8cpp_source.html#l00035">net.cpp:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/da7/mlibc_2options_2ansi_2include_2errno_8h_source.html#l00011">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, and <a class="el" href="../../dd/d84/net_8cpp_source.html#l00035">mlibc::sys_if_nametoindex()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d66/Kernel_2include_2errno_8h_source.html#l00040">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, and <a class="el" href="../../dd/d84/net_8cpp_source.html#l00035">mlibc::sys_if_nametoindex()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d52/if__indextoname_8c_source.html#l00005">main()</a>.</p>
 

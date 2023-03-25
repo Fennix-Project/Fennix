@@ -6,7 +6,7 @@ var dir_517446e61ae16af3529076a3a3627039 =
     [ "clockid_t.h", "d2/db5/abis_2mlibc_2clockid__t_8h.html", "d2/db5/abis_2mlibc_2clockid__t_8h" ],
     [ "dev_t.h", "d4/d86/abis_2mlibc_2dev__t_8h.html", "d4/d86/abis_2mlibc_2dev__t_8h" ],
     [ "epoll.h", "d7/d60/abis_2mlibc_2epoll_8h.html", "d7/d60/abis_2mlibc_2epoll_8h" ],
-    [ "errno.h", "d1/d36/mlibc_2abis_2mlibc_2errno_8h.html", "d1/d36/mlibc_2abis_2mlibc_2errno_8h" ],
+    [ "errno.h", "d4/d88/Userspace_2mlibc_2abis_2mlibc_2errno_8h.html", "d4/d88/Userspace_2mlibc_2abis_2mlibc_2errno_8h" ],
     [ "fcntl.h", "d9/d8d/mlibc_2abis_2mlibc_2fcntl_8h.html", "d9/d8d/mlibc_2abis_2mlibc_2fcntl_8h" ],
     [ "gid_t.h", "d2/d69/abis_2mlibc_2gid__t_8h.html", "d2/d69/abis_2mlibc_2gid__t_8h" ],
     [ "in.h", "dd/d2f/abis_2mlibc_2in_8h.html", "dd/d2f/abis_2mlibc_2in_8h" ],

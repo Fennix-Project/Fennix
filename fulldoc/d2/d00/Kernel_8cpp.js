@@ -1,12 +1,11 @@
 var Kernel_8cpp =
 [
     [ "CallPtr", "d2/d00/Kernel_8cpp.html#a9aa5b5a5410c2e97df5759c3e6d8c318", null ],
-    [ "BeforeShutdown", "d2/d00/Kernel_8cpp.html#a0be5e878a833e1f54ce4209b5b3c423f", null ],
+    [ "BeforeShutdown", "d2/d00/Kernel_8cpp.html#a351f7a9223a3d5eea2fb51d4f27d50a8", null ],
     [ "Entry", "d2/d00/Kernel_8cpp.html#a50e99f20d55238b00c67840a8a71254d", null ],
     [ "KPrint", "d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e", null ],
     [ "Main", "d2/d00/Kernel_8cpp.html#a624288f6ddef8cbfc951a7a4f4bf10c7", null ],
     [ "NewLock", "d2/d00/Kernel_8cpp.html#ae6d61016b12b4f29e5f1a0ce5aa93285", null ],
-    [ "NewLock", "d2/d00/Kernel_8cpp.html#a89c9da25c9ca23970db1290e1245139b", null ],
     [ "putchar", "d2/d00/Kernel_8cpp.html#a0fb7b5cd002af45dc6c96488154d8552", null ],
     [ "TaskingPanic", "d2/d00/Kernel_8cpp.html#a9bf4d76c2e04dc287d39c8729682cc25", null ],
     [ "__fini_array_end", "d2/d00/Kernel_8cpp.html#a44b0859526315b440c667baaba00f489", null ],
@@ -14,6 +13,7 @@ var Kernel_8cpp =
     [ "__init_array_end", "d2/d00/Kernel_8cpp.html#a5fb41005eba2ebaf93f1b8ec0b2fa462", null ],
     [ "__init_array_start", "d2/d00/Kernel_8cpp.html#a5acaf4f3a56e921fd97f62b643461ec7", null ],
     [ "bInfo", "d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf", null ],
+    [ "bootanim_vfs", "d2/d00/Kernel_8cpp.html#a69eb131a582118cda8ff08ec5a144883", null ],
     [ "BootClock", "d2/d00/Kernel_8cpp.html#a61d9bae26aed8f70334a9399c0a85807", null ],
     [ "Config", "d2/d00/Kernel_8cpp.html#af1e9bf8b2f6ad92b9da145f9eb732663", null ],
     [ "DebuggerIsAttached", "d2/d00/Kernel_8cpp.html#a736191a1f8c302532a3f21c75292a53f", null ],
@@ -22,6 +22,7 @@ var Kernel_8cpp =
     [ "KernelSymbolTable", "d2/d00/Kernel_8cpp.html#a7495caffa5b73a2490dcd48a91869694", null ],
     [ "PCIManager", "d2/d00/Kernel_8cpp.html#a62ee06f14377e458cdb16171abe25b80", null ],
     [ "PowerManager", "d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94", null ],
+    [ "PutCharBufferIndex", "d2/d00/Kernel_8cpp.html#aa4dd97cb9d17b2b3c90082c567852aa0", null ],
     [ "TaskManager", "d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2", null ],
     [ "TimeManager", "d2/d00/Kernel_8cpp.html#ad5fb15538e6988f0db36d754a4a7d08d", null ],
     [ "vfs", "d2/d00/Kernel_8cpp.html#a5dc6c0c45c4b48819798cf567e275e84", null ]

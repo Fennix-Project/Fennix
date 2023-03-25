@@ -7,7 +7,7 @@ var dir_08644297d04b09ffacbf16a5276fd4a6 =
     [ "clockid_t.h", "dc/d1f/abis_2linux_2clockid__t_8h.html", "dc/d1f/abis_2linux_2clockid__t_8h" ],
     [ "dev_t.h", "de/d52/abis_2linux_2dev__t_8h.html", "de/d52/abis_2linux_2dev__t_8h" ],
     [ "epoll.h", "d7/db8/abis_2linux_2epoll_8h.html", "d7/db8/abis_2linux_2epoll_8h" ],
-    [ "errno.h", "d5/d08/mlibc_2abis_2linux_2errno_8h.html", "d5/d08/mlibc_2abis_2linux_2errno_8h" ],
+    [ "errno.h", "df/da8/Userspace_2mlibc_2abis_2linux_2errno_8h.html", "df/da8/Userspace_2mlibc_2abis_2linux_2errno_8h" ],
     [ "fcntl.h", "d1/d0d/mlibc_2abis_2linux_2fcntl_8h.html", "d1/d0d/mlibc_2abis_2linux_2fcntl_8h" ],
     [ "fsblkcnt_t.h", "d2/d9d/abis_2linux_2fsblkcnt__t_8h.html", "d2/d9d/abis_2linux_2fsblkcnt__t_8h" ],
     [ "fsfilcnt_t.h", "d7/d0e/abis_2linux_2fsfilcnt__t_8h.html", "d7/d0e/abis_2linux_2fsfilcnt__t_8h" ],

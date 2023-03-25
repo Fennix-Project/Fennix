@@ -15,7 +15,6 @@ var namespaceInterruptDescriptorTable =
       [ "FlagGate_RING3", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a8cd1802c26bb40bb9bc522c46c529790", null ],
       [ "FlagGate_PRESENT", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a16604b483134cd6a516f9c500db8f6ea", null ]
     ] ],
-    [ "__attribute__", "d2/db2/namespaceInterruptDescriptorTable.html#a32dadf6743f47b28b7fdd52fb296bb6a", null ],
     [ "__attribute__", "d2/db2/namespaceInterruptDescriptorTable.html#a8901e7de738cfe120b0529592d80496f", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#afb7ecf9fc0491027fc6c9457c9e7a71f", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a79b0b2a4ee90ae36c274116d678c16bf", null ],
@@ -49,9 +48,10 @@ var namespaceInterruptDescriptorTable =
     [ "EXCEPTION_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a8b482057aba9d7fb8e0df91a00df0d0a", null ],
     [ "EXCEPTION_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a5c17bef14be9a26c98a78d9a523aade3", null ],
     [ "EXCEPTION_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a06dc90ea4f9b497dde29a66795414f7a", null ],
+    [ "ExceptionHandlerStub", "d2/db2/namespaceInterruptDescriptorTable.html#acaf5b6fc70e97825348c34900c0d81c7", null ],
     [ "Init", "d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908", null ],
+    [ "InterruptHandlerStub", "d2/db2/namespaceInterruptDescriptorTable.html#a33c5c1968a22626a6e46b7b98907166f", null ],
     [ "SetEntry", "d2/db2/namespaceInterruptDescriptorTable.html#a91dd97eaf022dfa7a023a8734aa59a1b", null ],
-    [ "WarnSwapgs", "d2/db2/namespaceInterruptDescriptorTable.html#a9e2cf47e4e1b15cff7dad322bc9344cc", null ],
     [ "Entries", "d2/db2/namespaceInterruptDescriptorTable.html#a679e5cab62e2086ee8684461fa9afa16", null ],
     [ "idtd", "d2/db2/namespaceInterruptDescriptorTable.html#a2d9560d834d891b9d8f0e76ced1bc8a7", null ]
 ];
