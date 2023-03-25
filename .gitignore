@@ -19,6 +19,7 @@ tools/*
 !tools/toolchain-gcc.patch
 doxygen-doc
 initrd.tar.gz
+bootanim.tar.gz
 .dccache
 *.log
 *.log.*

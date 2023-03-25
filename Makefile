@@ -122,8 +122,11 @@ endif
 
 build_image:
 	mkdir -p iso_tmp_data
+#	tar czf initrd.tar.gz -C initrd/ ./ --format=ustar
+#	tar czf bootanim.tar.gz -C bootanim/ ./ --format=ustar
 	tar cf initrd.tar.gz -C initrd/ ./ --format=ustar
-	cp Kernel/kernel.fsys initrd.tar.gz \
+	tar cf bootanim.tar.gz -C bootanim/ ./ --format=ustar
+	cp Kernel/kernel.fsys initrd.tar.gz bootanim.tar.gz \
 		iso_tmp_data/
 ifeq ($(BOOTLOADER), lynx)
 	cp tools/lynx.cfg Lynx/loader.bin Lynx/efi-loader.bin iso_tmp_data/
@@ -175,7 +178,7 @@ run: build qemu
 
 clean:
 	rm -rf doxygen-doc iso_tmp_data
-	rm -f initrd.tar.gz $(OSNAME).iso $(OSNAME).img
+	rm -f initrd.tar.gz bootanim.tar.gz $(OSNAME).iso $(OSNAME).img
 	rm -f initrd/system/drivers/*.fex
 	rm -f initrd/system/drivers/*.elf
 	rm -f initrd/system/drivers/*.raw
