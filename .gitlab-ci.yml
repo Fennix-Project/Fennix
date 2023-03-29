@@ -54,7 +54,7 @@ compiler:
     - make --quiet -C tools do_toolchain_gcc64
     - make --quiet -C tools do_toolchain_binutils32
     - make --quiet -C tools do_toolchain_gcc32
-    - cd tools && rm -rf binutils-gdb gcc qemu build-binutilsamd64 build-binutilsi686 build-binutilsarm64 build-gccamd64 build-gcci686 build-gccarm64 build-toolchain-binutils64 build-toolchain-gcc64 build-toolchain-binutils32 build-toolchain-gcc32
+    - cd tools && rm -rf binutils-gdb gcc qemu build-binutilsamd64 build-binutilsi386 build-binutilsarm64 build-gccamd64 build-gcci386 build-gccarm64 build-toolchain-binutils64 build-toolchain-gcc64 build-toolchain-binutils32 build-toolchain-gcc32
 
   artifacts:
     paths:
@@ -111,7 +111,7 @@ build32:
     - make --quiet -C Userspace prepare
     - make --quiet -C Lynx prepare
     - make --quiet -C Kernel prepare
-    - sed -i 's/.*OSARCH = .*/OSARCH = i686/' ./Makefile.conf && cat Makefile.conf | grep OSARCH
+    - sed -i 's/.*OSARCH = .*/OSARCH = i386/' ./Makefile.conf && cat Makefile.conf | grep OSARCH
     - make build
     - mv Fennix.iso Fennix-debug.iso
     - make clean

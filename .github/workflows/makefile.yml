@@ -61,7 +61,7 @@ jobs:
       if: steps.cache-cross.outputs.cache-hit != 'true'
       run: make --quiet -C tools do_binutils64
 
-    - name: Compile Binutils i686
+    - name: Compile Binutils i386
       if: steps.cache-cross.outputs.cache-hit != 'true'
       run: make --quiet -C tools do_binutils32
 
@@ -73,7 +73,7 @@ jobs:
       if: steps.cache-cross.outputs.cache-hit != 'true'
       run: make --quiet -C tools do_gcc64
 
-    - name: Compile GCC i686
+    - name: Compile GCC i386
       if: steps.cache-cross.outputs.cache-hit != 'true'
       run: make --quiet -C tools do_gcc32
 
@@ -101,7 +101,7 @@ jobs:
       if: steps.cache-cross.outputs.cache-hit != 'true'
       run: |
         cd tools
-        rm -rf binutils-gdb gcc qemu build-binutilsamd64 build-binutilsi686 build-binutilsarm64 build-gccamd64 build-gcci686 build-gccarm64 build-toolchain-binutils64 build-toolchain-gcc64 build-toolchain-binutils32 build-toolchain-gcc32
+        rm -rf binutils-gdb gcc qemu build-binutilsamd64 build-binutilsi386 build-binutilsarm64 build-gccamd64 build-gcci386 build-gccarm64 build-toolchain-binutils64 build-toolchain-gcc64 build-toolchain-binutils32 build-toolchain-gcc32
 
   compilegnuefi:
     name: Build GNU-EFI
@@ -248,7 +248,7 @@ jobs:
         path: Fennix-release.iso
 
   compile32:
-    name: Build i686
+    name: Build i386
     runs-on: ubuntu-latest
     needs: [buildcompiler, compilegnuefi]
     steps:
@@ -281,7 +281,7 @@ jobs:
         key: ${{ runner.os }}-gnuefi-${{ hashFiles('Lynx/Makefile') }}
 
     - name: Configure Makefile.conf
-      run: sed -i 's/.*OSARCH = .*/OSARCH = i686/' ./Makefile.conf && cat Makefile.conf | grep OSARCH
+      run: sed -i 's/.*OSARCH = .*/OSARCH = i386/' ./Makefile.conf && cat Makefile.conf | grep OSARCH
 
     - name: Compile Debug and Release ISO
       run: |
@@ -309,13 +309,13 @@ jobs:
     - name: Upload Artifact (Fennix-legacy-debug.iso)
       uses: actions/upload-artifact@v3.1.0
       with:
-        name: Fennix-i686-debug
+        name: Fennix-i386-debug
         path: Fennix-legacy-debug.iso
 
     - name: Upload Artifact (Fennix-legacy-release.iso)
       uses: actions/upload-artifact@v3.1.0
       with:
-        name: Fennix-i686-release
+        name: Fennix-i386-release
         path: Fennix-legacy-release.iso
 
   compilearm64:

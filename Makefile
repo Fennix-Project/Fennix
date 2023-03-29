@@ -15,7 +15,7 @@ QEMUFLAGS := -display gtk
 ifeq ($(OSARCH), amd64)
 QEMUHWACCELERATION = -machine q35 -enable-kvm
 QEMUMEMORY = -m 4G
-else ifeq ($(OSARCH), i686)
+else ifeq ($(OSARCH), i386)
 QEMUHWACCELERATION = -machine q35 -enable-kvm
 QEMUMEMORY = -m 4G
 else ifeq ($(OSARCH), aarch64)
@@ -43,7 +43,7 @@ QEMUFLAGS += -device vmware-svga -M q35 \
 			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
 			 -machine pcspk-audiodev=pa1 \
 			 -device AC97,audiodev=pa1
-else ifeq ($(OSARCH), i686)
+else ifeq ($(OSARCH), i386)
 QEMUFLAGS += -M q35 \
 			 -usb \
 			 -usbdevice mouse \
