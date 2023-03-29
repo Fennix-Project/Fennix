@@ -219,7 +219,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+    <Path>d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
     <Anchor>a878aa217dfc93e844e800902a750e5d1</Anchor>
     <DeclaredIn>SymmetricMultiprocessing.cpp</DeclaredIn>
   </Token>
@@ -229,7 +229,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+    <Path>d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
     <Anchor>acb4382e3522b10e4fbdabfcebe44023b</Anchor>
     <DeclaredIn>SymmetricMultiprocessing.cpp</DeclaredIn>
   </Token>
@@ -239,7 +239,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+    <Path>d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
     <Anchor>aa53a3783575d262dc378af3a30ca775d</Anchor>
     <DeclaredIn>SymmetricMultiprocessing.cpp</DeclaredIn>
   </Token>
@@ -260,7 +260,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>df/db7/i686_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
+    <Path>d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
     <Anchor>a01053fbf08aa5c622b2e2a65e699edbf</Anchor>
     <DeclaredIn>SymmetricMultiprocessing.cpp</DeclaredIn>
   </Token>
@@ -352,7 +352,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d7e/i686_2SystemCalls_8cpp.html</Path>
+    <Path>d8/d1e/i386_2SystemCalls_8cpp.html</Path>
     <Anchor>a3b506870062b31fc2e75e21a1744bced</Anchor>
     <DeclaredIn>SystemCalls.cpp</DeclaredIn>
   </Token>
@@ -362,7 +362,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d9/d7e/i686_2SystemCalls_8cpp.html</Path>
+    <Path>d8/d1e/i386_2SystemCalls_8cpp.html</Path>
     <Anchor>a623b6425a07c15a56d165d69c08b67f2</Anchor>
     <Abstract>Initialize syscalls for the current CPU. (Function is available on x32, x64 &amp; aarch64)</Abstract>
     <DeclaredIn>SystemCalls.cpp</DeclaredIn>
@@ -1828,7 +1828,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>ab0bd808397c97f7db4701ca69009a547</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -1838,7 +1838,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a1b5a711dc01ab783bb986902240f1cce</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -1848,7 +1848,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>af5c033543fb4db7939b4b7587de03867</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -1858,7 +1858,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a9670040bead28fb1c0b09ea363152cd2</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -1868,7 +1868,7 @@
       <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>afa2f85c6adeea0d29c4852d4cef33d4c</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -1889,7 +1889,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>af56d4e43cb2f9795374f684a94904e9c</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -1921,7 +1921,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>aa99de428bd3e7715b73b335a5af9e900</Anchor>
     <Abstract>Access bit.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -1932,7 +1932,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a1e2d2776ce51ce60e03be92e1003a22a</Anchor>
     <Abstract>Readable bit for code segments, writable bit for data segments.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -1943,7 +1943,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a13feadf703864c73814dae1b0f0e27d3</Anchor>
     <Abstract>Direction bit for data segments, conforming bit for code segments.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -1954,7 +1954,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a5866c444a2a78211eef583f48cd36225</Anchor>
     <Abstract>Executable bit.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -1965,7 +1965,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>aef44b210af6af7cb40efdfd5469406c0</Anchor>
     <Abstract>Descriptor type.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -1976,7 +1976,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a16743ba7f585744088c2972c095b4ece</Anchor>
     <Abstract>Descriptor privilege level.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -1987,7 +1987,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a2ad95e9194a5bfaa373bbd26ea925209</Anchor>
     <Abstract>Present bit.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -1998,7 +1998,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>adead3fdf571787c72724d7ed60419125</Anchor>
     <Abstract>Unknown.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -2009,7 +2009,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>aee73cc056696e504430c53eaa9c58cf0</Anchor>
     <Abstract>Long mode.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -2020,7 +2020,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a930e5a4d8414c0427fe5c636062579db</Anchor>
     <Abstract>Length.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -2031,7 +2031,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>ab9f9c980afbad64de663b5fec7cacd48</Anchor>
     <Abstract>Low Base.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -2042,7 +2042,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>add843b8ec66d6d45efb584c8eb64662f</Anchor>
     <Abstract>Middle Base.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -2053,7 +2053,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>afe68b30aa80199feb71be5deda91978e</Anchor>
     <Abstract>Flags.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -2064,7 +2064,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a78b7b1b4be1c01e67e5c1cd2182330b5</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2074,7 +2074,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a2c483aeda65f9a985863382e09007f72</Anchor>
     <Abstract>High Base.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -2085,7 +2085,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>ada2b982135f5d5a9347ac3c22f67ad2e</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2095,7 +2095,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a43fae5b728aa075b9475bbe49a5738ef</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2105,7 +2105,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a9d9ff73842948ded9734b943d3bf5894</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2115,7 +2115,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>afea133adf188dfb8979f48bcdaa69acf</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2125,7 +2125,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a9cbcf7dbaba62e0aa7990f9c0893e165</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2135,7 +2135,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a95539100d5c2368b95010fef43a844f6</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2145,7 +2145,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a6fc09010d383d63cff1bf586f70c7f9a</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2155,7 +2155,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>acc4eb3652022f8d361fc89df0cd4a60e</Anchor>
     <Abstract>Access.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -2166,7 +2166,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a73f4b3a63105e057f9ceccf2c2cde860</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2176,7 +2176,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>ac678cca2a7d570b7e2dd49c5619f98f7</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2186,7 +2186,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>aff2da4c061653164b5cfcc650f742f27</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2196,7 +2196,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>aed95da4e7e2e8f3347cb417a3fcd7c28</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2206,7 +2206,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>a320a948a3daaf4e9e4bf572432a1c243</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2216,7 +2216,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>abc498068b381d117f14e2f08434d4ff4</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
@@ -2226,7 +2226,7 @@
       <APILanguage>c</APILanguage>
       <Type>data</Type>
     </TokenIdentifier>
-    <Path>d8/d5d/i686_2cpu_2gdt_8hpp.html</Path>
+    <Path>dc/df0/i386_2cpu_2gdt_8hpp.html</Path>
     <Anchor>adac265c791f08f7c79b44383c184c739</Anchor>
     <Abstract>GDT entries address.</Abstract>
     <DeclaredIn>gdt.hpp</DeclaredIn>
@@ -3140,7 +3140,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d0/d7b/i686_2runtime_2crt1_8c.html</Path>
+    <Path>d5/d0e/i386_2runtime_2crt1_8c.html</Path>
     <Anchor>a52547b95fbb77d37d316644a396a950a</Anchor>
     <DeclaredIn>crt1.c</DeclaredIn>
   </Token>
@@ -3150,7 +3150,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d0/d7b/i686_2runtime_2crt1_8c.html</Path>
+    <Path>d5/d0e/i386_2runtime_2crt1_8c.html</Path>
     <Anchor>a3b7d8174121f5ba1229f1371f409b41f</Anchor>
     <DeclaredIn>crt1.c</DeclaredIn>
   </Token>
@@ -3876,7 +3876,7 @@
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a6ab3f190b40194d726cf842f66059082</Anchor>
+    <Anchor>a1175128f59cc4c5428896140965fc8f5</Anchor>
     <Abstract>Check SIMD support. It will return the highest supported SIMD type.</Abstract>
     <DeclaredIn>CPU.cpp</DeclaredIn>
   </Token>
@@ -6795,7 +6795,7 @@
       <Scope>Driver</Scope>
     </TokenIdentifier>
     <Path>d1/d48/namespaceDriver.html</Path>
-    <Anchor>a950514b5d3eee92c89a612671469e7a9</Anchor>
+    <Anchor>ad80fc005719bfcb06db02a49c233d8da</Anchor>
     <DeclaredIn>Driver.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -6806,7 +6806,7 @@
       <Scope>Driver</Scope>
     </TokenIdentifier>
     <Path>d1/d48/namespaceDriver.html</Path>
-    <Anchor>a78bb577b663770d85e78562670b1e674</Anchor>
+    <Anchor>ab729393050904fd1bdaf3625252f2e19</Anchor>
     <DeclaredIn>Driver.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -12968,7 +12968,7 @@
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a6ab3f190b40194d726cf842f66059082</Anchor>
+    <Anchor>a1175128f59cc4c5428896140965fc8f5</Anchor>
     <Abstract>Check SIMD support. It will return the highest supported SIMD type.</Abstract>
     <DeclaredIn>CPU.cpp</DeclaredIn>
   </Token>
@@ -20892,76 +20892,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>b4</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d4/d2d/net_8hpp.html</Path>
-    <Anchor>a16c33c4cb331d0de82f7033252f6801c</Anchor>
-    <DeclaredIn>net.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>b8</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d4/d2d/net_8hpp.html</Path>
-    <Anchor>a94eac8d9cd20ccc4c673e8f907253679</Anchor>
-    <DeclaredIn>net.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>b16</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d4/d2d/net_8hpp.html</Path>
-    <Anchor>a88da023a73ece4eb02fd14231ba1718b</Anchor>
-    <DeclaredIn>net.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>b32</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d4/d2d/net_8hpp.html</Path>
-    <Anchor>ae6339ff3644650c6bb6416c9afd8bf5d</Anchor>
-    <DeclaredIn>net.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>b48</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d4/d2d/net_8hpp.html</Path>
-    <Anchor>a9e129c4f168e2503e45cf0ab2fb1994d</Anchor>
-    <DeclaredIn>net.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>b64</Name>
-      <APILanguage>c</APILanguage>
-      <Type>macro</Type>
-    </TokenIdentifier>
-    <Path>d4/d2d/net_8hpp.html</Path>
-    <Anchor>aa40826e19ab43b143542d0a80a175bad</Anchor>
-    <DeclaredIn>net.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>uint48_t</Name>
-      <APILanguage>c</APILanguage>
-      <Type>tdef</Type>
-    </TokenIdentifier>
-    <Path>d4/d2d/net_8hpp.html</Path>
-    <Anchor>a25baf26b50bc73c25d21005f30ca33b6</Anchor>
-    <DeclaredIn>net.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>DbgNetwork</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -21495,16 +21425,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>putchar</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d3/d6b/printf_8h.html</Path>
-    <Anchor>a82b6fdd25b741497abf2464d9209770d</Anchor>
-    <DeclaredIn>printf.h</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>fctprintf</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -21794,7 +21714,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d4/d33/smp_8hpp.html</Path>
-    <Anchor>ae9c27346afc38e44402e452477847b53</Anchor>
+    <Anchor>af180e926633cde08a05ccbc3af397ee4</Anchor>
     <Abstract>CPU ID.</Abstract>
     <DeclaredIn>smp.hpp</DeclaredIn>
   </Token>
@@ -22872,6 +22792,26 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>PEXIT</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/da1/task_8hpp.html</Path>
+    <Anchor>a3f396a5788f48a761516791722376f47</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TEXIT</Name>
+      <APILanguage>unknown</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/da1/task_8hpp.html</Path>
+    <Anchor>a2eb27b42a373d4f7e66d4fac4e6ce241</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>IP</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -23720,7 +23660,7 @@
   <Token>
     <TokenIdentifier>
       <Name>b4</Name>
-      <APILanguage>c</APILanguage>
+      <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
     <Path>d9/d49/types_8h.html</Path>
@@ -23730,7 +23670,7 @@
   <Token>
     <TokenIdentifier>
       <Name>b8</Name>
-      <APILanguage>c</APILanguage>
+      <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
     <Path>d9/d49/types_8h.html</Path>
@@ -23740,7 +23680,7 @@
   <Token>
     <TokenIdentifier>
       <Name>b16</Name>
-      <APILanguage>c</APILanguage>
+      <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
     <Path>d9/d49/types_8h.html</Path>
@@ -23750,7 +23690,7 @@
   <Token>
     <TokenIdentifier>
       <Name>b32</Name>
-      <APILanguage>c</APILanguage>
+      <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
     <Path>d9/d49/types_8h.html</Path>
@@ -23760,7 +23700,7 @@
   <Token>
     <TokenIdentifier>
       <Name>b48</Name>
-      <APILanguage>c</APILanguage>
+      <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
     <Path>d9/d49/types_8h.html</Path>
@@ -23770,7 +23710,7 @@
   <Token>
     <TokenIdentifier>
       <Name>b64</Name>
-      <APILanguage>c</APILanguage>
+      <APILanguage>unknown</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
     <Path>d9/d49/types_8h.html</Path>
@@ -24695,6 +24635,66 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>int48_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>a3489c66fde928eaa6731f18a5aef2c54</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint48_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>a25baf26b50bc73c25d21005f30ca33b6</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int_least48_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>a3cc7392e09771888be40b61d532f8915</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint_least48_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>a5b390048b5fd2c0011df0b167d5e1ab6</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>int_fast48_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>acf2bd44757462bf2ee5189258f74a49a</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>uint_fast48_t</Name>
+      <APILanguage>c</APILanguage>
+      <Type>tdef</Type>
+    </TokenIdentifier>
+    <Path>d9/d49/types_8h.html</Path>
+    <Anchor>acaf708642c4d88a2e690b4d6d66aaba8</Anchor>
+    <DeclaredIn>types.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>IPC_NULL</Name>
       <APILanguage>c</APILanguage>
       <Type>econst</Type>
@@ -25437,6 +25437,16 @@
     </TokenIdentifier>
     <Path>d4/dfc/KThread_8cpp.html</Path>
     <Anchor>a68cef82e83e4648d8969c5a484d1f207</Anchor>
+    <DeclaredIn>KThread.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CleanupProcessesThreadWrapper</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d4/dfc/KThread_8cpp.html</Path>
+    <Anchor>a66bbdc963b194dcfe2754094e09f3c43</Anchor>
     <DeclaredIn>KThread.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -28732,6 +28742,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>putchar</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d1/d3d/printf_8c.html</Path>
+    <Anchor>a948b7a0779c308ac5502c57e282e6933</Anchor>
+    <DeclaredIn>printf.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>putchar_wrapper</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
@@ -29541,7 +29561,7 @@
       <Scope>Recovery</Scope>
     </TokenIdentifier>
     <Path>d2/d3b/namespaceRecovery.html</Path>
-    <Anchor>a419f4c2356137073bc44830ccedb7b95</Anchor>
+    <Anchor>acf1ea89ccff6efbcaf646af18af02f54</Anchor>
     <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -34178,6 +34198,46 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>TestMacros</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d1/d05/Marco_8cpp.html</Path>
+    <Anchor>a32149ffc24d785a6ba8f748beebaf95c</Anchor>
+    <DeclaredIn>Marco.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TestMemoryOperations</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d5/d2d/MemoryOperations_8cpp.html</Path>
+    <Anchor>a9031caccf52c6fe3de682a59d11c4e30</Anchor>
+    <DeclaredIn>MemoryOperations.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EnableExternalMemoryTracer</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d5/d2d/MemoryOperations_8cpp.html</Path>
+    <Anchor>abe9747920d48edfc1f01c6f06a6b496f</Anchor>
+    <DeclaredIn>MemoryOperations.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>DebuggerIsAttached</Name>
+      <APILanguage>c</APILanguage>
+      <Type>data</Type>
+    </TokenIdentifier>
+    <Path>d5/d2d/MemoryOperations_8cpp.html</Path>
+    <Anchor>a736191a1f8c302532a3f21c75292a53f</Anchor>
+    <DeclaredIn>MemoryOperations.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>md_Kernel_Core_Memory_HeapAllocators_Xalloc_README</Name>
       <APILanguage>markdown</APILanguage>
     </TokenIdentifier>
@@ -34779,7 +34839,7 @@
       <Scope>Atomic</Scope>
     </TokenIdentifier>
     <Path>da/df9/classAtomic.html</Path>
-    <Anchor>a2c017f8fa156a25098cb642d0ba364c2</Anchor>
+    <Anchor>ad0504f2ac1bf63b4927200e22e2331e5</Anchor>
     <DeclaredIn>atomic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39213,7 +39273,7 @@
       <Scope>APIC::APIC</Scope>
     </TokenIdentifier>
     <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-    <Anchor>a926d85840771caf9fdd03ab37f81c442</Anchor>
+    <Anchor>a8479fd958759f1679e36b97cd72ac346</Anchor>
     <DeclaredIn>apic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39224,7 +39284,7 @@
       <Scope>APIC::APIC</Scope>
     </TokenIdentifier>
     <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-    <Anchor>aeb6c1be1a3562d9253e17b354a87cada</Anchor>
+    <Anchor>ac47f85f37b8b577dff348c4938d240d7</Anchor>
     <DeclaredIn>apic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39235,7 +39295,7 @@
       <Scope>APIC::APIC</Scope>
     </TokenIdentifier>
     <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-    <Anchor>adb24ba98cd306cd1d6fb9d058b590c9d</Anchor>
+    <Anchor>a352b53a3f13e561344404f75f9a74823</Anchor>
     <DeclaredIn>apic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39257,7 +39317,7 @@
       <Scope>APIC::APIC</Scope>
     </TokenIdentifier>
     <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-    <Anchor>a8fb9f4ec3466d365bc41375d721b200c</Anchor>
+    <Anchor>a7e850f2ebb953eb8694bd1f878828a83</Anchor>
     <DeclaredIn>apic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39268,7 +39328,7 @@
       <Scope>APIC::APIC</Scope>
     </TokenIdentifier>
     <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-    <Anchor>a5a0237ad5db3ff6e22e0527bf2da1a91</Anchor>
+    <Anchor>af8878ec51c414e586897e36f2879e05b</Anchor>
     <DeclaredIn>apic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39433,7 +39493,7 @@
       <Scope>APIC::APIC</Scope>
     </TokenIdentifier>
     <Path>d4/da9/classAPIC_1_1APIC.html</Path>
-    <Anchor>a5a0237ad5db3ff6e22e0527bf2da1a91</Anchor>
+    <Anchor>af8878ec51c414e586897e36f2879e05b</Anchor>
     <DeclaredIn>apic.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -39784,7 +39844,7 @@
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a6ab3f190b40194d726cf842f66059082</Anchor>
+    <Anchor>a1175128f59cc4c5428896140965fc8f5</Anchor>
     <Abstract>Check SIMD support. It will return the highest supported SIMD type.</Abstract>
     <DeclaredIn>CPU.cpp</DeclaredIn>
   </Token>
@@ -39984,6 +40044,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SIMD_AVX512</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a20ecbf7e59a6de3fbad7544001ee60f9</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>SIMD_AVX512F</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
@@ -39991,17 +40062,6 @@
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
     <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9aba277647448e419a353df061bb23ceda</Anchor>
-    <DeclaredIn>cpu.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SIMD_AVX512BW</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>CPU</Scope>
-    </TokenIdentifier>
-    <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9add31486e618662b84c125557c0451a02</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40017,17 +40077,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512DQ</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>CPU</Scope>
-    </TokenIdentifier>
-    <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a98ce539eacb549a6d00887b2719eeac5</Anchor>
-    <DeclaredIn>cpu.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>SIMD_AVX512ER</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
@@ -40035,17 +40084,6 @@
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
     <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a7e07f90126cac2d8f6341064fa7db55c</Anchor>
-    <DeclaredIn>cpu.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SIMD_AVX512IFMA</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>CPU</Scope>
-    </TokenIdentifier>
-    <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9aab4f25f29227303b441cff9f266d1cea</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40061,17 +40099,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512VBMI</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>CPU</Scope>
-    </TokenIdentifier>
-    <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a3180d84d8f5322510a8c2213ae14ce43</Anchor>
-    <DeclaredIn>cpu.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>SIMD_AVX512VL</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
@@ -40083,24 +40110,68 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512VNNI</Name>
+      <Name>SIMD_AVX512DQ</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9ab886e9c60f8ef87cf1c73930f0d51d1f</Anchor>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a98ce539eacb549a6d00887b2719eeac5</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512BITALG</Name>
+      <Name>SIMD_AVX512BW</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a007810eec04c08b874a72e6505d849ea</Anchor>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9add31486e618662b84c125557c0451a02</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SIMD_AVX512IFMA</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9aab4f25f29227303b441cff9f266d1cea</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SIMD_AVX512VBMI</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a3180d84d8f5322510a8c2213ae14ce43</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SIMD_AVX5124VNNIW</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9ab1dc8147b7a6b6f851d2b3489820d50a</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SIMD_AVX5124FMAPS</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>CPU</Scope>
+    </TokenIdentifier>
+    <Path>d7/dfa/namespaceCPU.html</Path>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a9e4b037df07275e141b7eb7c185be231</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -40116,101 +40187,79 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512_4VNNIW</Name>
+      <Name>SIMD_AVX512VNNI</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9aa80b78b49dc6c6270b4a1ff9e6826bb4</Anchor>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9ab886e9c60f8ef87cf1c73930f0d51d1f</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512_4FMAPS</Name>
+      <Name>SIMD_AVX512VBMI2</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a5d725baf5c56b43b463a21dd9f3e51fb</Anchor>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9afe5043eb6aa7f49c89e39eeaa1310264</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512_VP2INTERSECT</Name>
+      <Name>SIMD_AVX512BITALG</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a46dedc86c4603a57d08c0198eb29b6d2</Anchor>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a007810eec04c08b874a72e6505d849ea</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512_BF16</Name>
+      <Name>SIMD_AVX512VP2INTERSECT</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a97ced9eb877c66a021ab84dc4fef9489</Anchor>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a76b77248c2494111158ee44022e1ffde</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512_VBMI2</Name>
+      <Name>SIMD_AVX512GFNI</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9ab4711423623797cc08045963de49b6f3</Anchor>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a8e3c075a0c42e1bd1386ce1b2c59a3fd</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512_GFNI</Name>
+      <Name>SIMD_AVX512VPCLMULQDQ</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a495c60e5d5e64026eed202f8eda79cb1</Anchor>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a636676c68215b9220738fc0a699fe846</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SIMD_AVX512_VAES</Name>
+      <Name>SIMD_AVX512VAES</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>CPU</Scope>
     </TokenIdentifier>
     <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a0f024a30c206e29e1117f0e137150d10</Anchor>
-    <DeclaredIn>cpu.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SIMD_AVX512_VPCLMULQDQ</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>CPU</Scope>
-    </TokenIdentifier>
-    <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a98433d7cf1b1def4e6fcf11633ca7098</Anchor>
-    <DeclaredIn>cpu.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>SIMD_AVX512_VNNI</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>econst</Type>
-      <Scope>CPU</Scope>
-    </TokenIdentifier>
-    <Path>d7/dfa/namespaceCPU.html</Path>
-    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a66c1b6a2325447d22ec8e2f9d99a5b8c</Anchor>
+    <Anchor>a9b7152a6891aa829fafb5d7cdc3c31c9a22d18e3234ec28a2a6c1d8677c96c950</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52576,7 +52625,7 @@
       <Scope>Driver</Scope>
     </TokenIdentifier>
     <Path>d1/d48/namespaceDriver.html</Path>
-    <Anchor>a950514b5d3eee92c89a612671469e7a9</Anchor>
+    <Anchor>ad80fc005719bfcb06db02a49c233d8da</Anchor>
     <DeclaredIn>Driver.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -52587,7 +52636,7 @@
       <Scope>Driver</Scope>
     </TokenIdentifier>
     <Path>d1/d48/namespaceDriver.html</Path>
-    <Anchor>a78bb577b663770d85e78562670b1e674</Anchor>
+    <Anchor>ab729393050904fd1bdaf3625252f2e19</Anchor>
     <DeclaredIn>Driver.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -52762,7 +52811,7 @@
       <Scope>Driver::DriverInterruptHook</Scope>
     </TokenIdentifier>
     <Path>d5/dff/classDriver_1_1DriverInterruptHook.html</Path>
-    <Anchor>a43ec8d957d587030fdafe0d1d2033823</Anchor>
+    <Anchor>a9c47a06ce55486800df4535128e09a20</Anchor>
     <DeclaredIn>driver.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52784,7 +52833,7 @@
       <Scope>Driver::DriverInterruptHook</Scope>
     </TokenIdentifier>
     <Path>d5/dff/classDriver_1_1DriverInterruptHook.html</Path>
-    <Anchor>ae9b81708532d516a73adc3a71a4c47ec</Anchor>
+    <Anchor>a1faf3427bbc7f857b1d6fc8e77062f9b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -52850,7 +52899,18 @@
       <Scope>Driver::Driver</Scope>
     </TokenIdentifier>
     <Path>d3/d7d/classDriver_1_1Driver.html</Path>
-    <Anchor>aeb70fc03be5065cced9aff82f3a2877a</Anchor>
+    <Anchor>aaa7ee18835399a068c9cf1cd94920d76</Anchor>
+    <DeclaredIn>driver.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Panic</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Driver::Driver</Scope>
+    </TokenIdentifier>
+    <Path>d3/d7d/classDriver_1_1Driver.html</Path>
+    <Anchor>ae8d92e1b3801d3e808605f1b1217bb0c</Anchor>
     <DeclaredIn>driver.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -53312,7 +53372,7 @@
       <Scope>Driver::Driver</Scope>
     </TokenIdentifier>
     <Path>d3/d7d/classDriver_1_1Driver.html</Path>
-    <Anchor>af0181e298c393194a23af648668c6a60</Anchor>
+    <Anchor>a9b8996bd5168e67f2cbce10149f5aff7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54042,7 +54102,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableAccess</Scope>
     </TokenIdentifier>
     <Path>d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html</Path>
-    <Anchor>aa9b3a87f0755f1c3641fa830d0d4f20a</Anchor>
+    <Anchor>ab330cdeaae21e216d7efeec0b0bb66e3</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -54084,7 +54144,7 @@
       <Scope>GlobalDescriptorTable::GlobalDescriptorTableFlags</Scope>
     </TokenIdentifier>
     <Path>dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html</Path>
-    <Anchor>ae6fc7cb418bf63ec12a591b2c2c68272</Anchor>
+    <Anchor>a0bdd297a8d6ca381fcac75f260da4204</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -61786,7 +61846,7 @@
       <Scope>Recovery</Scope>
     </TokenIdentifier>
     <Path>d2/d3b/namespaceRecovery.html</Path>
-    <Anchor>a419f4c2356137073bc44830ccedb7b95</Anchor>
+    <Anchor>acf1ea89ccff6efbcaf646af18af02f54</Anchor>
     <DeclaredIn>RecoveryMain.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -65041,13 +65101,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_RealPointer</Name>
+      <Name>RealPointer</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>std::smart_ptr</Scope>
     </TokenIdentifier>
     <Path>dc/d53/classstd_1_1smart__ptr.html</Path>
-    <Anchor>af022e43865fee1edcebddee8ed2a6038</Anchor>
+    <Anchor>a8e7b288a0bdfda07d7d216e2dc20cf85</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -65171,23 +65231,23 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_ReferenceCounter</Name>
+      <Name>ReferenceCounter</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>std::shared_ptr</Scope>
     </TokenIdentifier>
     <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
-    <Anchor>a010a00e2beb91b8d5e8122764f2bd2fc</Anchor>
+    <Anchor>a6394cbdf6ee938cafbea77cfe4a638c8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_RealPointer</Name>
+      <Name>RealPointer</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>std::shared_ptr</Scope>
     </TokenIdentifier>
     <Path>df/ddb/classstd_1_1shared__ptr.html</Path>
-    <Anchor>aa009692e8989758b98f8cf49fa5d6e44</Anchor>
+    <Anchor>a9abc622c9247db495a8ceae05b75cc57</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -65310,13 +65370,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_RefCount</Name>
+      <Name>RefCount</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>std::shared_ptr::counter</Scope>
     </TokenIdentifier>
     <Path>d6/d51/classstd_1_1shared__ptr_1_1counter.html</Path>
-    <Anchor>a0209bd5ccba5d51006f2997779130876</Anchor>
+    <Anchor>ace2fe87fb980085448b0d05648c0b008</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -65401,7 +65461,7 @@
       <Scope>std::string</Scope>
     </TokenIdentifier>
     <Path>d8/d29/classstd_1_1string.html</Path>
-    <Anchor>a38488047f05aa4307b02098e1c830852</Anchor>
+    <Anchor>add884090426707d35e26db39d43278e3</Anchor>
     <DeclaredIn>string.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -65412,7 +65472,7 @@
       <Scope>std::string</Scope>
     </TokenIdentifier>
     <Path>d8/d29/classstd_1_1string.html</Path>
-    <Anchor>a8405c4b79a08f8effd56c83160905102</Anchor>
+    <Anchor>a77b803c1608d45812b603c85774d0312</Anchor>
     <DeclaredIn>string.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -65823,33 +65883,33 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_Data</Name>
+      <Name>Data</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>std::string</Scope>
     </TokenIdentifier>
     <Path>d8/d29/classstd_1_1string.html</Path>
-    <Anchor>af89b276443de70ea296b33dc521daad4</Anchor>
+    <Anchor>aba20ce73db3d0eb0e4ca5702fa0362e9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_Length</Name>
+      <Name>Length</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>std::string</Scope>
     </TokenIdentifier>
     <Path>d8/d29/classstd_1_1string.html</Path>
-    <Anchor>a2f8d64abb16cc2ffbde35c788f3b03a8</Anchor>
+    <Anchor>a256b2edc5d7dcd1287adc838ba892feb</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_Capacity</Name>
+      <Name>Capacity</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>std::string</Scope>
     </TokenIdentifier>
     <Path>d8/d29/classstd_1_1string.html</Path>
-    <Anchor>a69d8ff0095658bf2ebbfc072b461a83e</Anchor>
+    <Anchor>aeb843f1a9e956cd9f92ec4f68b8b81e5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -65918,13 +65978,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_Pointer</Name>
+      <Name>Pointer</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>std::string::iterator</Scope>
     </TokenIdentifier>
     <Path>de/d5b/classstd_1_1string_1_1iterator.html</Path>
-    <Anchor>a826b49319419ad35d1a8b9eb7cfadbba</Anchor>
+    <Anchor>a29259234b5c0d9d9293c0d965fa9740d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -66088,13 +66148,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>m_buckets</Name>
+      <Name>bkts</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
       <Scope>std::unordered_map</Scope>
     </TokenIdentifier>
     <Path>d4/d3a/classstd_1_1unordered__map.html</Path>
-    <Anchor>a5fb0c5cbf252fd2ab026ec9d07ab64fe</Anchor>
+    <Anchor>ac8b7b160b2753a5b7d15a0d567f92d76</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -66249,7 +66309,7 @@
       <Scope>std::vector</Scope>
     </TokenIdentifier>
     <Path>dd/d4e/classstd_1_1vector.html</Path>
-    <Anchor>a85fe97ec16f793e3e7cacabeb1b74181</Anchor>
+    <Anchor>a9cd2ebb80d93fb5307e6b486d917a371</Anchor>
     <DeclaredIn>vector.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66524,7 +66584,7 @@
       <Scope>std::vector</Scope>
     </TokenIdentifier>
     <Path>dd/d4e/classstd_1_1vector.html</Path>
-    <Anchor>af38938cf92ec39a564b3eb6c6777facb</Anchor>
+    <Anchor>a96804e1532b098f1b9f6c69d680e2779</Anchor>
     <DeclaredIn>vector.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -67479,6 +67539,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SetCleanupThread</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>ab9f330dd3499699220c307803dad184a</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GetSchedulerTicks</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -67519,6 +67590,17 @@
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
     <Anchor>a20d489bc46631bc785e534688fed711f</Anchor>
+    <DeclaredIn>task.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CleanupProcessesThread</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>a84dde5044a449629390d7288e05dbcc3</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -67869,17 +67951,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SchedulerCleanupProcesses</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>instm</Type>
-      <Scope>Tasking::Task</Scope>
-    </TokenIdentifier>
-    <Path>dc/dc5/classTasking_1_1Task.html</Path>
-    <Anchor>a5a68240693aab3a0e4554c8bd8d2e864</Anchor>
-    <DeclaredIn>task.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>SchedulerSearchProcessThread</Name>
       <APILanguage>cpp</APILanguage>
       <Type>instm</Type>
@@ -67970,6 +68041,16 @@
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
     <Anchor>a1a057c4ed8f8d0ab837f597eb7b2b3c5</Anchor>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>CleanupThread</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>Tasking::Task</Scope>
+    </TokenIdentifier>
+    <Path>dc/dc5/classTasking_1_1Task.html</Path>
+    <Anchor>aa80af863c07443d8e58a5bae95eeb7dd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -68715,6 +68796,17 @@
     </TokenIdentifier>
     <Path>db/d81/classVideo_1_1Display.html</Path>
     <Anchor>a5c4acb83008add3aa6605abd1d7baa97</Anchor>
+    <DeclaredIn>display.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetDoNotScroll</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>Video::Display</Scope>
+    </TokenIdentifier>
+    <Path>db/d81/classVideo_1_1Display.html</Path>
+    <Anchor>a23f83bade6c42e3589c5cff0039569ff</Anchor>
     <DeclaredIn>display.hpp</DeclaredIn>
   </Token>
   <Token>

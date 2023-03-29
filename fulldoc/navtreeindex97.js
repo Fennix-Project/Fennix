@@ -1,5 +1,8 @@
 var NAVTREEINDEX97 =
 {
+"d8/df7/sysdeps_2lyre_2include_2abi-bits_2ptrace_8h.html":[12,0,2,3,3,5,1,0,23],
+"d8/df7/sysdeps_2lyre_2include_2abi-bits_2ptrace_8h.html#a01949be089f33416dfc232205f8b8cc7":[12,0,2,3,3,5,1,0,23,14],
+"d8/df7/sysdeps_2lyre_2include_2abi-bits_2ptrace_8h.html#a03061ae088437f7bb5c4e91333f7e5f6":[12,0,2,3,3,5,1,0,23,25],
 "d8/df7/sysdeps_2lyre_2include_2abi-bits_2ptrace_8h.html#a056f9f267692c882c7707ca5c7eb3372":[12,0,2,3,3,5,1,0,23,2],
 "d8/df7/sysdeps_2lyre_2include_2abi-bits_2ptrace_8h.html#a08d0e04777bc67554643dd175f40ba24":[12,0,2,3,3,5,1,0,23,50],
 "d8/df7/sysdeps_2lyre_2include_2abi-bits_2ptrace_8h.html#a1139ba0f7889831becf49804ba4a0b1a":[12,0,2,3,3,5,1,0,23,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX97 =
 "d9/d14/sysdeps_2linux_2include_2abi-bits_2signal_8h.html#ab225825a0696d9341ea4569abdc954f0":[12,0,2,3,3,4,2,0,28,26],
 "d9/d14/sysdeps_2linux_2include_2abi-bits_2signal_8h.html#ab57ec52e57fbb49071f96f255bc7c31b":[12,0,2,3,3,4,2,0,28,91],
 "d9/d14/sysdeps_2linux_2include_2abi-bits_2signal_8h.html#ab6bd2a2ff7e58d45965ef257f96dfe65":[12,0,2,3,3,4,2,0,28,123],
-"d9/d14/sysdeps_2linux_2include_2abi-bits_2signal_8h.html#ab83b88daaecc469d1edb90a527ab4a39":[12,0,2,3,3,4,2,0,28,34],
-"d9/d14/sysdeps_2linux_2include_2abi-bits_2signal_8h.html#aba23f74fc8d8b7f8826f6275422a5648":[12,0,2,3,3,4,2,0,28,68],
-"d9/d14/sysdeps_2linux_2include_2abi-bits_2signal_8h.html#abaaa61abe503c43481e35e21b0b5a031":[12,0,2,3,3,4,2,0,28,141],
-"d9/d14/sysdeps_2linux_2include_2abi-bits_2signal_8h.html#abd7770857baa6af19a9bf062cd866f48":[12,0,2,3,3,4,2,0,28,75]
+"d9/d14/sysdeps_2linux_2include_2abi-bits_2signal_8h.html#ab83b88daaecc469d1edb90a527ab4a39":[12,0,2,3,3,4,2,0,28,34]
 };

@@ -11,6 +11,6 @@ var classstd_1_1shared__ptr =
     [ "reset", "df/ddb/classstd_1_1shared__ptr.html#a511a4302af30583224000bbd134cf5d6", null ],
     [ "reset", "df/ddb/classstd_1_1shared__ptr.html#a490c2ea19fd6a300bbd0112b7ee013f8", null ],
     [ "swap", "df/ddb/classstd_1_1shared__ptr.html#a8029336af25252284303d0b32757a853", null ],
-    [ "m_RealPointer", "df/ddb/classstd_1_1shared__ptr.html#aa009692e8989758b98f8cf49fa5d6e44", null ],
-    [ "m_ReferenceCounter", "df/ddb/classstd_1_1shared__ptr.html#a010a00e2beb91b8d5e8122764f2bd2fc", null ]
+    [ "RealPointer", "df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57", null ],
+    [ "ReferenceCounter", "df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8", null ]
 ];

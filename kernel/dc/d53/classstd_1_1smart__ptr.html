@@ -113,8 +113,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:af022e43865fee1edcebddee8ed2a6038"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a></td></tr>
-<tr class="separator:af022e43865fee1edcebddee8ed2a6038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e7b288a0bdfda07d7d216e2dc20cf85"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a></td></tr>
+<tr class="separator:a8e7b288a0bdfda07d7d216e2dc20cf85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class T&gt;<br />
@@ -154,13 +154,13 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer created (%#lx)&quot;</span>, <a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a>);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a> = Pointer;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer created (%#lx)&quot;</span>, this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a> = Pointer;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
-<div class="ttc" id="aclassstd_1_1smart__ptr_html_af022e43865fee1edcebddee8ed2a6038"><div class="ttname"><a href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">std::smart_ptr::m_RealPointer</a></div><div class="ttdeci">T * m_RealPointer</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">smart_ptr.hpp:34</a></div></div>
+<div class="ttc" id="aclassstd_1_1smart__ptr_html_a8e7b288a0bdfda07d7d216e2dc20cf85"><div class="ttname"><a href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">std::smart_ptr::RealPointer</a></div><div class="ttdeci">T * RealPointer</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">smart_ptr.hpp:34</a></div></div>
 <div class="ttc" id="astd_2smart__ptr_8hpp_html_a281a891b6957dd7765d08d0ee8cba9da"><div class="ttname"><a href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a></div><div class="ttdeci">#define spdbg(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">smart_ptr.hpp:14</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">std::smart_ptr&lt; T &gt;::m_RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
 
 </div>
 </div>
@@ -191,11 +191,11 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        {</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer deleted (%#lx)&quot;</span>, <a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a>);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keyword">delete</span> <a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a>, <a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer deleted (%#lx)&quot;</span>, this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keyword">delete</span> this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a>, this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a> = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">std::smart_ptr&lt; T &gt;::m_RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">std::smart_ptr&lt; T &gt;::RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
 
 </div>
 </div>
@@ -227,11 +227,11 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00061">61</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer returned (%#lx)&quot;</span>, <a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer returned (%#lx)&quot;</span>, this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a>);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">std::smart_ptr&lt; T &gt;::m_RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">std::smart_ptr&lt; T &gt;::RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
 
 </div>
 </div>
@@ -262,11 +262,11 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer dereferenced (%#lx)&quot;</span>, <a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a>);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordflow">return</span> *<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer dereferenced (%#lx)&quot;</span>, this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordflow">return</span> *this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a>;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">std::smart_ptr&lt; T &gt;::m_RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">std::smart_ptr&lt; T &gt;::RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
 
 </div>
 </div>
@@ -297,17 +297,17 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00055">55</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer dereferenced (%#lx)&quot;</span>, <a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a>);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038">m_RealPointer</a>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;Smart pointer dereferenced (%#lx)&quot;</span>, this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85">RealPointer</a>;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">std::smart_ptr&lt; T &gt;::m_RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">std::smart_ptr&lt; T &gt;::RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
-<a id="af022e43865fee1edcebddee8ed2a6038"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af022e43865fee1edcebddee8ed2a6038">&#9670;&nbsp;</a></span>m_RealPointer</h2>
+<a id="a8e7b288a0bdfda07d7d216e2dc20cf85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e7b288a0bdfda07d7d216e2dc20cf85">&#9670;&nbsp;</a></span>RealPointer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,7 +318,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T* <a class="el" href="../../dc/d53/classstd_1_1smart__ptr.html">std::smart_ptr</a>&lt; T &gt;::m_RealPointer</td>
+          <td class="memname">T* <a class="el" href="../../dc/d53/classstd_1_1smart__ptr.html">std::smart_ptr</a>&lt; T &gt;::RealPointer</td>
         </tr>
       </table>
   </td>
@@ -330,7 +330,7 @@ template&lt;class T &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00061">std::smart_ptr&lt; T &gt;::get()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00049">std::smart_ptr&lt; T &gt;::operator*()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00055">std::smart_ptr&lt; T &gt;::operator-&gt;()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00037">std::smart_ptr&lt; T &gt;::smart_ptr()</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00043">std::smart_ptr&lt; T &gt;::~smart_ptr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00061">std::smart_ptr&lt; T &gt;::get()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00049">std::smart_ptr&lt; T &gt;::operator*()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00055">std::smart_ptr&lt; T &gt;::operator-&gt;()</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00043">std::smart_ptr&lt; T &gt;::~smart_ptr()</a>.</p>
 
 </div>
 </div>

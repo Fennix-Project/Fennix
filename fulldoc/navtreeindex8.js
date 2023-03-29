@@ -1,9 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"d0/dad/mlibc_2sysdeps_2managarm_2include_2abi-bits_2time_8h.html#ae37e5edff9a3efa2841f5e614e2c2efb":[12,0,2,3,3,3,1,0,36,0,0],
-"d0/dad/mlibc_2sysdeps_2managarm_2include_2abi-bits_2time_8h.html#ae37e5edff9a3efa2841f5e614e2c2efb":[12,0,2,3,3,4,2,0,36,0,0],
-"d0/dad/mlibc_2sysdeps_2managarm_2include_2abi-bits_2time_8h.html#ae37e5edff9a3efa2841f5e614e2c2efb":[12,0,2,3,3,5,1,0,36,0,0],
-"d0/dad/mlibc_2sysdeps_2managarm_2include_2abi-bits_2time_8h.html#ae37e5edff9a3efa2841f5e614e2c2efb":[12,0,2,3,3,6,2,0,36,0,0],
 "d0/dad/mlibc_2sysdeps_2managarm_2include_2abi-bits_2time_8h.html#ae37e5edff9a3efa2841f5e614e2c2efb":[12,0,2,3,0,4,36,0,0],
 "d0/dad/mlibc_2sysdeps_2managarm_2include_2abi-bits_2time_8h.html#ae37e5edff9a3efa2841f5e614e2c2efb":[12,0,2,3,0,6,25,0,0],
 "d0/dad/mlibc_2sysdeps_2managarm_2include_2abi-bits_2time_8h.html#da/d2e/structitimerval":[12,0,2,3,3,0,1,0,36,0],
@@ -178,8 +174,8 @@ var NAVTREEINDEX8 =
 "d0/dbb/classTasking_1_1Security.html#aebe9a85eceb3f64fae4db9509f1bf2d4":[11,0,38,4,0,0],
 "d0/dbb/classTasking_1_1Security.html#d5/d76/structTasking_1_1Security_1_1TokenData":[12,0,0,5,54,5],
 "d0/dbb/classTasking_1_1Security.html#d5/d76/structTasking_1_1Security_1_1TokenData":[11,0,38,4,0],
-"d0/dbb/t_8h.html":[12,0,0,12,3],
-"d0/dbb/t_8h_source.html":[12,0,0,12,3],
+"d0/dbb/t_8h.html":[12,0,0,12,5],
+"d0/dbb/t_8h_source.html":[12,0,0,12,5],
 "d0/dbd/p__inter_8c.html":[12,0,2,0,2,0,0,0,116],
 "d0/dbd/p__inter_8c.html#a1abc4a9ad6d44ae7cd88ff83f7f8b8fe":[12,0,2,0,2,0,0,0,116,0],
 "d0/dbd/p__inter_8c.html#a2289cf83703b21fb1fa74c86fee0e5e3":[12,0,2,0,2,0,0,0,116,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX8 =
 "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a0c18914b3041c2f583aba76f418399c2":[12,0,1,1,0,7,49],
 "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a10f63259ed9caa2eae995c9c6229f1e1":[12,0,1,1,0,7,83],
 "d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a11b0944d693580cca5cf793d5a7c9e9d":[12,0,1,1,0,7,7],
-"d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a15a50af941ea5ca0a9517faf2f90b524":[12,0,1,1,0,7,17]
+"d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a15a50af941ea5ca0a9517faf2f90b524":[12,0,1,1,0,7,17],
+"d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a2095b9bffea4b2656950c6c0419edbf1":[12,0,1,1,0,7,61],
+"d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a22468942ce1d60e5d49d9bf3c9dd23a1":[12,0,1,1,0,7,85],
+"d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a248c42df6acfe93973ab8ea2148820c7":[12,0,1,1,0,7,57],
+"d0/dc4/Lynx_2UEFI_2src_2printf_8c.html#a24c44087e6650233bdb2bd01b922a6e3":[12,0,1,1,0,7,98]
 };

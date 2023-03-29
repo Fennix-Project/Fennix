@@ -13,12 +13,12 @@ var sysdeps_2aero_2include_2abi_bits_2in_8h =
     [ "in6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d4/d7d/structin6__addr", [
       [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a670480765d88e6964d595dbac88e34cf", null ],
       [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a8effe60025a6ee66ba4d77fd53675e84", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ae2836cf689f4169908bd9aac9c563238", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#abf81e2c9926ebaba2cf6ebd9eff0e796", null ],
       [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a4e54725c84c40025d2af9922eb8c534e", null ],
       [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa8c97bb0fbf619761f45b01ee2ec51bc", null ],
       [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ae2cd25e833a2f29b1ddc7296af809db7", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a4bc91f77d57b0edf898efd6a3107eca6", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a4ef8bf1e5a7bf92e2676c0ace38d151e", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#afce694403e644c4a250078e86fa31720", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ae071697a6032874e3c60212c7501dba8", null ],
       [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a2def8a44bce89d4b11ca2be17da110a3", null ]
     ] ],
     [ "in6_pktinfo", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#da/d47/structin6__pktinfo", [

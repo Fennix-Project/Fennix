@@ -12,7 +12,7 @@ var namespaceRecovery =
     [ "BufBight80", "d2/d3b/namespaceRecovery.html#ab7c8d40eb1d64fe32848c43bc23c8e59", null ],
     [ "BufBight90", "d2/d3b/namespaceRecovery.html#a61a7b5c7a758f18a0ab239d79cc18cf6", null ],
     [ "ChangeSampleRate", "d2/d3b/namespaceRecovery.html#a600afaf4f5ff10231075aed2e448d3d0", null ],
-    [ "ChangeVolume", "d2/d3b/namespaceRecovery.html#a419f4c2356137073bc44830ccedb7b95", null ],
+    [ "ChangeVolume", "d2/d3b/namespaceRecovery.html#acf1ea89ccff6efbcaf646af18af02f54", null ],
     [ "CSR11025", "d2/d3b/namespaceRecovery.html#a8ffb4df81f90bb036dd56df64215d23d", null ],
     [ "CSR16000", "d2/d3b/namespaceRecovery.html#a0ef032485ed309949cffd15ca61f6258", null ],
     [ "CSR22050", "d2/d3b/namespaceRecovery.html#abd9f7cdac04923a4e43fbe4593eeaf74", null ],

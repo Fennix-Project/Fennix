@@ -16,7 +16,7 @@ var namespaceCPU_1_1x32 =
     [ "CR2.__unnamed229__", "de/d78/namespaceCPU_1_1x32.html#d6/d6a/structCPU_1_1x32_1_1CR2_8____unnamed229____", "de/d78/namespaceCPU_1_1x32_d6/d6a/structCPU_1_1x32_1_1CR2_8____unnamed229_____dup" ],
     [ "CR3.__unnamed231__", "de/d78/namespaceCPU_1_1x32.html#db/d40/structCPU_1_1x32_1_1CR3_8____unnamed231____", "de/d78/namespaceCPU_1_1x32_db/d40/structCPU_1_1x32_1_1CR3_8____unnamed231_____dup" ],
     [ "CR4.__unnamed233__", "de/d78/namespaceCPU_1_1x32.html#d9/d24/structCPU_1_1x32_1_1CR4_8____unnamed233____", "de/d78/namespaceCPU_1_1x32_d9/d24/structCPU_1_1x32_1_1CR4_8____unnamed233_____dup" ],
-    [ "CR8.__unnamed241__", "de/d78/namespaceCPU_1_1x32.html#db/dc4/structCPU_1_1x32_1_1CR8_8____unnamed241____", "de/d78/namespaceCPU_1_1x32_db/dc4/structCPU_1_1x32_1_1CR8_8____unnamed241_____dup" ],
+    [ "CR8.__unnamed251__", "de/d78/namespaceCPU_1_1x32.html#d1/dd9/structCPU_1_1x32_1_1CR8_8____unnamed251____", "de/d78/namespaceCPU_1_1x32_d1/dd9/structCPU_1_1x32_1_1CR8_8____unnamed251_____dup" ],
     [ "EFLAGS.__attribute__", "de/d78/namespaceCPU_1_1x32.html#d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____", "de/d78/namespaceCPU_1_1x32_d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute_____dup" ],
     [ "EFER.__unnamed862__", "de/d78/namespaceCPU_1_1x32.html#d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862____", "de/d78/namespaceCPU_1_1x32_d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862_____dup" ],
     [ "DR7.__unnamed866__", "de/d78/namespaceCPU_1_1x32.html#d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866____", "de/d78/namespaceCPU_1_1x32_d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866_____dup" ],

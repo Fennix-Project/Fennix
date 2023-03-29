@@ -88,6 +88,7 @@ var printf_8c =
     [ "print_integer", "d1/d3d/printf_8c.html#af8f81194e1e1013323ae984455e7a325", null ],
     [ "print_integer_finalization", "d1/d3d/printf_8c.html#a4c9ceac72f4e5d4ce3a0a4af66c0fbe5", null ],
     [ "printf", "d1/d3d/printf_8c.html#a692a6e7501db343df30b95767f2033d8", null ],
+    [ "putchar", "d1/d3d/printf_8c.html#a948b7a0779c308ac5502c57e282e6933", null ],
     [ "putchar_via_gadget", "d1/d3d/printf_8c.html#aeed83c59bc8c61a3bdf89ff96624a1ad", null ],
     [ "putchar_wrapper", "d1/d3d/printf_8c.html#a8b158c62d599faa073c7ce646344eb98", null ],
     [ "snprintf", "d1/d3d/printf_8c.html#a36e7195bf589b474bf22b65e197359f9", null ],

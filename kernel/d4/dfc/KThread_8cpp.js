@@ -7,6 +7,7 @@ var KThread_8cpp =
     [ "STBI_NO_THREAD_LOCALS", "d4/dfc/KThread_8cpp.html#a5c5f3bc19a1486c8e9bb5bc593ae05a8", null ],
     [ "STBI_ONLY_TGA", "d4/dfc/KThread_8cpp.html#a18f88d57ec4d377d96293caaae265672", null ],
     [ "BootLogoAnimationThread", "d4/dfc/KThread_8cpp.html#ab52ee0c19d7f8035c21109d43b164c95", null ],
+    [ "CleanupProcessesThreadWrapper", "d4/dfc/KThread_8cpp.html#a66bbdc963b194dcfe2754094e09f3c43", null ],
     [ "ExitLogoAnimationThread", "d4/dfc/KThread_8cpp.html#a68cef82e83e4648d8969c5a484d1f207", null ],
     [ "KernelMainThread", "d4/dfc/KThread_8cpp.html#a6e3dd376cdd7abd6de13ef188c5aec29", null ],
     [ "KernelShutdownThread", "d4/dfc/KThread_8cpp.html#aaea31a7808d2979444c2eb4c4f93f749", null ],

@@ -10,5 +10,5 @@ var classstd_1_1shared__ptr_1_1counter =
     [ "operator--", "d6/d51/classstd_1_1shared__ptr_1_1counter.html#a9887113326500a7f94b85f70aed46a0f", null ],
     [ "operator=", "d6/d51/classstd_1_1shared__ptr_1_1counter.html#a01ac44c4643986f411cab925637bbadf", null ],
     [ "reset", "d6/d51/classstd_1_1shared__ptr_1_1counter.html#aeba18e73b0052af136f5c21195f6f237", null ],
-    [ "m_RefCount", "d6/d51/classstd_1_1shared__ptr_1_1counter.html#a0209bd5ccba5d51006f2997779130876", null ]
+    [ "RefCount", "d6/d51/classstd_1_1shared__ptr_1_1counter.html#ace2fe87fb980085448b0d05648c0b008", null ]
 ];

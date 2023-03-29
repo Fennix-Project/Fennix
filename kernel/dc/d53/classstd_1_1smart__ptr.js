@@ -5,5 +5,5 @@ var classstd_1_1smart__ptr =
     [ "get", "dc/d53/classstd_1_1smart__ptr.html#a4c8d71418804bdd8488f56b139b18dde", null ],
     [ "operator*", "dc/d53/classstd_1_1smart__ptr.html#aec45c51666e7a55337dfc4507f156647", null ],
     [ "operator->", "dc/d53/classstd_1_1smart__ptr.html#a34adc9f82172f037139e4b916c275e90", null ],
-    [ "m_RealPointer", "dc/d53/classstd_1_1smart__ptr.html#af022e43865fee1edcebddee8ed2a6038", null ]
+    [ "RealPointer", "dc/d53/classstd_1_1smart__ptr.html#a8e7b288a0bdfda07d7d216e2dc20cf85", null ]
 ];

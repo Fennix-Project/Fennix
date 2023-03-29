@@ -104,17 +104,17 @@ $(document).ready(function(){initNavTree('d9/db6/Network_2AMDPCNET_2Makefile_sou
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;GIT_COMMIT_SHORT = $(shell git rev-parse --short HEAD)</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;ifeq ($(OSARCH), amd64)</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;S_SOURCES = $(shell find ./ -type f -name &#39;*.S&#39; -not -path &quot;./arch/i686/*&quot; -not -path &quot;./arch/aarch64/*&quot;)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;C_SOURCES = $(shell find ./ -type f -name &#39;*.c&#39; -not -path &quot;./arch/i686/*&quot; -not -path &quot;./arch/aarch64/*&quot;)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;CPP_SOURCES = $(shell find ./ -type f -name &#39;*.cpp&#39; -not -path &quot;./arch/i686/*&quot; -not -path &quot;./arch/aarch64/*&quot;)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;else ifeq ($(OSARCH), i686)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;S_SOURCES = $(shell find ./ -type f -name &#39;*.S&#39; -not -path &quot;./arch/i386/*&quot; -not -path &quot;./arch/aarch64/*&quot;)</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;C_SOURCES = $(shell find ./ -type f -name &#39;*.c&#39; -not -path &quot;./arch/i386/*&quot; -not -path &quot;./arch/aarch64/*&quot;)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;CPP_SOURCES = $(shell find ./ -type f -name &#39;*.cpp&#39; -not -path &quot;./arch/i386/*&quot; -not -path &quot;./arch/aarch64/*&quot;)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;else ifeq ($(OSARCH), i386)</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;S_SOURCES = $(shell find ./ -type f -name &#39;*.S&#39; -not -path &quot;./arch/amd64/*&quot; -not -path &quot;./arch/aarch64/*&quot;)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;C_SOURCES = $(shell find ./ -type f -name &#39;*.c&#39; -not -path &quot;./arch/amd64/*&quot; -not -path &quot;./arch/aarch64/*&quot;)</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;CPP_SOURCES = $(shell find ./ -type f -name &#39;*.cpp&#39; -not -path &quot;./arch/amd64/*&quot; -not -path &quot;./arch/aarch64/*&quot;)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;else ifeq ($(OSARCH), aarch64)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;S_SOURCES = $(shell find ./ -type f -name &#39;*.S&#39; -not -path &quot;./arch/amd64/*&quot; -not -path &quot;./arch/i686/*&quot;)</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;C_SOURCES = $(shell find ./ -type f -name &#39;*.c&#39; -not -path &quot;./arch/amd64/*&quot; -not -path &quot;./arch/i686/*&quot;)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;CPP_SOURCES = $(shell find ./ -type f -name &#39;*.cpp&#39; -not -path &quot;./arch/amd64/*&quot; -not -path &quot;./arch/i686/*&quot;)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;S_SOURCES = $(shell find ./ -type f -name &#39;*.S&#39; -not -path &quot;./arch/amd64/*&quot; -not -path &quot;./arch/i386/*&quot;)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;C_SOURCES = $(shell find ./ -type f -name &#39;*.c&#39; -not -path &quot;./arch/amd64/*&quot; -not -path &quot;./arch/i386/*&quot;)</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;CPP_SOURCES = $(shell find ./ -type f -name &#39;*.cpp&#39; -not -path &quot;./arch/amd64/*&quot; -not -path &quot;./arch/i386/*&quot;)</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;endif</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;HEADERS = $(sort $(dir $(wildcard ../../include/*)))</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;OBJ = $(C_SOURCES:.c=.o) $(CPP_SOURCES:.cpp=.o) $(ASM_SOURCES:.asm=.o) $(S_SOURCES:.S=.o) $(PSF_SOURCES:.psf=.o) $(BMP_SOURCES:.bmp=.o)</div>
@@ -141,11 +141,11 @@ $(document).ready(function(){initNavTree('d9/db6/Network_2AMDPCNET_2Makefile_sou
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;          -march=x86-64 -pipe -ffunction-sections           \</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;          -msoft-float -fno-builtin</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;else ifeq ($(OSARCH), i686)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;else ifeq ($(OSARCH), i386)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;CFLAGS += -fPIC -fPIE -pie -mno-80387 -mno-mmx -mno-3dnow       \</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;          -mno-red-zone -mno-sse -mno-sse2 -ffunction-sections  \</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;          -march=i686 -pipe -msoft-float -fno-builtin</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;          -march=i386 -pipe -msoft-float -fno-builtin</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;else ifeq ($(OSARCH), aarch64)</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
@@ -156,7 +156,7 @@ $(document).ready(function(){initNavTree('d9/db6/Network_2AMDPCNET_2Makefile_sou
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;build: $(FILENAME)</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;ifeq ($(OSARCH), amd64)</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    $(OBJDUMP) -b binary -D -m i386:x86-64 -d $(FILENAME) &gt; file_dump.map</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;else ifeq ($(OSARCH), i686)</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;else ifeq ($(OSARCH), i386)</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;else ifeq ($(OSARCH), aarch64)</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
@@ -179,7 +179,7 @@ $(document).ready(function(){initNavTree('d9/db6/Network_2AMDPCNET_2Makefile_sou
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    $(info Compiling $&lt;)</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;ifeq ($(OSARCH), amd64)</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    $(AS) -o $@ $&lt;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;else ifeq ($(OSARCH), i686)</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;else ifeq ($(OSARCH), i386)</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    $(AS) -o $@ $&lt;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;else ifeq ($(OSARCH), aarch64)</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    $(AS) -o $@ $&lt;</div>

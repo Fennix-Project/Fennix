@@ -213,20 +213,20 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00191">191</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    {</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Unregistering interrupt handler for IRQ%d.&quot;</span>, <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Unregistering interrupt handler for IRQ%d.&quot;</span>, this-&gt;<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">RegisteredEvents</a>.size(); i++)</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        {</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">RegisteredEvents</a>[i].<a class="code" href="../../d4/d33/smp_8hpp.html#ae9c27346afc38e44402e452477847b53">ID</a> == <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>)</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">RegisteredEvents</a>[i].<a class="code" href="../../d4/d33/smp_8hpp.html#af180e926633cde08a05ccbc3af397ee4">ID</a> == this-&gt;<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>)</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            {</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                <a class="code" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">RegisteredEvents</a>.remove(i);</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            }</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        }</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Event %d not found.&quot;</span>, <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Event %d not found.&quot;</span>, this-&gt;<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
-<div class="ttc" id="asmp_8hpp_html_ae9c27346afc38e44402e452477847b53"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#ae9c27346afc38e44402e452477847b53">ID</a></div><div class="ttdeci">long ID</div><div class="ttdoc">CPU ID.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00010">smp.hpp:10</a></div></div>
+<div class="ttc" id="asmp_8hpp_html_af180e926633cde08a05ccbc3af397ee4"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#af180e926633cde08a05ccbc3af397ee4">ID</a></div><div class="ttdeci">int ID</div><div class="ttdoc">CPU ID.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00010">smp.hpp:10</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00068">debug</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00010">ID</a>, <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00033">InterruptNumber</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00031">Interrupts::RegisteredEvents</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00062">warn</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00068">debug</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00010">ID</a>, <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00033">InterruptNumber</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00031">Interrupts::RegisteredEvents</a>, <a class="el" href="../../d8/d4f/std_2vector_8hpp_source.html#l00081">std::vector&lt; T &gt;::remove()</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00062">warn</a>.</p>
 
 </div>
 </div>
@@ -255,7 +255,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>; }</div>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>; }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00033">InterruptNumber</a>.</p>
 

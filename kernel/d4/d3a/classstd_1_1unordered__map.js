@@ -14,6 +14,6 @@ var classstd_1_1unordered__map =
     [ "insert", "d4/d3a/classstd_1_1unordered__map.html#a34a5aa097f394878f2ec0d7ef70bb917", null ],
     [ "operator[]", "d4/d3a/classstd_1_1unordered__map.html#a2801a09a65c0dd216e59042283f7d9f4", null ],
     [ "size", "d4/d3a/classstd_1_1unordered__map.html#a9bdc32dbd75f4249dcccd0d4d0a1bcc9", null ],
-    [ "DEFAULT_NUM_BUCKETS", "d4/d3a/classstd_1_1unordered__map.html#a980e8542928c9ef0deea351ea9c16d21", null ],
-    [ "m_buckets", "d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe", null ]
+    [ "bkts", "d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76", null ],
+    [ "DEFAULT_NUM_BUCKETS", "d4/d3a/classstd_1_1unordered__map.html#a980e8542928c9ef0deea351ea9c16d21", null ]
 ];

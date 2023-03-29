@@ -27,14 +27,7 @@ var net_8hpp =
     ] ],
     [ "Version4", "d0/d8b/structInternetProtocol_1_1Version4.html", "d0/d8b/structInternetProtocol_1_1Version4" ],
     [ "Version6", "da/d24/structInternetProtocol_1_1Version6.html", "da/d24/structInternetProtocol_1_1Version6" ],
-    [ "b16", "d4/d2d/net_8hpp.html#a88da023a73ece4eb02fd14231ba1718b", null ],
-    [ "b32", "d4/d2d/net_8hpp.html#ae6339ff3644650c6bb6416c9afd8bf5d", null ],
-    [ "b4", "d4/d2d/net_8hpp.html#a16c33c4cb331d0de82f7033252f6801c", null ],
-    [ "b48", "d4/d2d/net_8hpp.html#a9e129c4f168e2503e45cf0ab2fb1994d", null ],
-    [ "b64", "d4/d2d/net_8hpp.html#aa40826e19ab43b143542d0a80a175bad", null ],
-    [ "b8", "d4/d2d/net_8hpp.html#a94eac8d9cd20ccc4c673e8f907253679", null ],
     [ "netdbg", "d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96", null ],
-    [ "uint48_t", "d4/d2d/net_8hpp.html#a25baf26b50bc73c25d21005f30ca33b6", null ],
     [ "Endianness", "d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627cab", [
       [ "LITTLE_ENDIAN", "d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627caba204e185e0fbcc0a3dfd3d90e2d546ecf", null ],
       [ "BIG_ENDIAN", "d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627caba862db4e5463e953f959c7109fd59df30", null ]

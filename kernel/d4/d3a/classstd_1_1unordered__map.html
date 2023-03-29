@@ -137,8 +137,8 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a5fb0c5cbf252fd2ab026ec9d07ab64fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt; <a class="el" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a></td></tr>
-<tr class="separator:a5fb0c5cbf252fd2ab026ec9d07ab64fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b7b160b2753a5b7d15a0d567f92d76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt; <a class="el" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a></td></tr>
+<tr class="separator:ac8b7b160b2753a5b7d15a0d567f92d76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
@@ -251,9 +251,9 @@ template&lt;typename key_type , typename value_type &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;: <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a>(<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a980e8542928c9ef0deea351ea9c16d21">DEFAULT_NUM_BUCKETS</a>) {}</div>
-<div class="ttc" id="aclassstd_1_1unordered__map_html_a5fb0c5cbf252fd2ab026ec9d07ab64fe"><div class="ttname"><a href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">std::unordered_map::m_buckets</a></div><div class="ttdeci">std::vector&lt; bucket &gt; m_buckets</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">unordered_map.hpp:22</a></div></div>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;: <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a>(<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a980e8542928c9ef0deea351ea9c16d21">DEFAULT_NUM_BUCKETS</a>) {}</div>
 <div class="ttc" id="aclassstd_1_1unordered__map_html_a980e8542928c9ef0deea351ea9c16d21"><div class="ttname"><a href="../../d4/d3a/classstd_1_1unordered__map.html#a980e8542928c9ef0deea351ea9c16d21">std::unordered_map::DEFAULT_NUM_BUCKETS</a></div><div class="ttdeci">static const size_t DEFAULT_NUM_BUCKETS</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbb/unordered__map_8hpp_source.html#l00021">unordered_map.hpp:21</a></div></div>
+<div class="ttc" id="aclassstd_1_1unordered__map_html_ac8b7b160b2753a5b7d15a0d567f92d76"><div class="ttname"><a href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">std::unordered_map::bkts</a></div><div class="ttdeci">std::vector&lt; bucket &gt; bkts</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">unordered_map.hpp:22</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -284,7 +284,7 @@ template&lt;typename key_type , typename value_type &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;: <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a>(num_buckets) {}</div>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;: <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a>(num_buckets) {}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -318,8 +318,8 @@ template&lt;typename key_type , typename value_type &gt; </div>
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00049">49</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        {</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordtype">size_t</span> bucket_index = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a076076d85fd1374d1f497e9da9e00eeb">hash</a>(<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>);</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keyword">const</span> <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &amp;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a>[bucket_index];</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.begin(); it != <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.end(); ++it)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keyword">const</span> <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &amp;bkt = this-&gt;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a>[bucket_index];</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = bkt.begin(); it != bkt.end(); ++it)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                <span class="keywordflow">if</span> (it-&gt;first == <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>)</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                {</div>
@@ -330,9 +330,9 @@ template&lt;typename key_type , typename value_type &gt; </div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        }</div>
 <div class="ttc" id="aclassstd_1_1unordered__map_html_a076076d85fd1374d1f497e9da9e00eeb"><div class="ttname"><a href="../../d4/d3a/classstd_1_1unordered__map.html#a076076d85fd1374d1f497e9da9e00eeb">std::unordered_map::hash</a></div><div class="ttdeci">size_t hash(const key_type &amp;key) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">unordered_map.hpp:24</a></div></div>
 <div class="ttc" id="aclassstd_1_1unordered__map_html_a31771783f966c04ad4e9db3cbb91e818"><div class="ttname"><a href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">std::unordered_map::bucket</a></div><div class="ttdeci">std::list&lt; key_value_pair &gt; bucket</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbb/unordered__map_8hpp_source.html#l00016">unordered_map.hpp:16</a></div></div>
-<div class="ttc" id="anamespaceCrashHandler_html_af671273675a98837a01d53ce2810b3ef"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">CrashHandler::key</a></div><div class="ttdeci">int key</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc0/KBDrv_8cpp_source.html#l00131">KBDrv.cpp:131</a></div></div>
+<div class="ttc" id="anamespaceCrashHandler_html_af671273675a98837a01d53ce2810b3ef"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">CrashHandler::key</a></div><div class="ttdeci">int key</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc0/KBDrv_8cpp_source.html#l00134">KBDrv.cpp:134</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00168">std::list&lt; T &gt;::begin()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00169">std::list&lt; T &gt;::end()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>, <a class="el" href="../../d6/dc0/KBDrv_8cpp_source.html#l00131">CrashHandler::key</a>, and <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">std::unordered_map&lt; key_type, value_type &gt;::m_buckets</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00168">std::list&lt; T &gt;::begin()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00169">std::list&lt; T &gt;::end()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>, and <a class="el" href="../../d6/dc0/KBDrv_8cpp_source.html#l00134">CrashHandler::key</a>.</p>
 
 </div>
 </div>
@@ -362,9 +362,9 @@ template&lt;typename key_type , typename value_type &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a>.end(); }</div>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a>.end(); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">std::unordered_map&lt; key_type, value_type &gt;::m_buckets</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d4f/std_2vector_8hpp_source.html#l00174">std::vector&lt; T &gt;::end()</a>.</p>
 
 </div>
 </div>
@@ -397,16 +397,16 @@ template&lt;typename key_type , typename value_type &gt; </div>
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00063">63</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        {</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordtype">size_t</span> bucket_index = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a076076d85fd1374d1f497e9da9e00eeb">hash</a>(k);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &amp;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a>[bucket_index];</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.begin(); it != <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.end(); ++it)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &amp;bkt = this-&gt;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a>[bucket_index];</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = bkt.begin(); it != bkt.end(); ++it)</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            {</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                <span class="keywordflow">if</span> (it-&gt;first == k)</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                    <span class="keywordflow">return</span> it;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            }</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.end();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keywordflow">return</span> bkt.end();</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00168">std::list&lt; T &gt;::begin()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00169">std::list&lt; T &gt;::end()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>, and <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">std::unordered_map&lt; key_type, value_type &gt;::m_buckets</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00168">std::list&lt; T &gt;::begin()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00169">std::list&lt; T &gt;::end()</a>, and <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>.</p>
 
 </div>
 </div>
@@ -439,16 +439,16 @@ template&lt;typename key_type , typename value_type &gt; </div>
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        {</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordtype">size_t</span> bucket_index = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a076076d85fd1374d1f497e9da9e00eeb">hash</a>(k);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keyword">const</span> <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &amp;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a>[bucket_index];</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.begin(); it != <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.end(); ++it)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keyword">const</span> <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &amp;bkt = this-&gt;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a>[bucket_index];</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = bkt.begin(); it != bkt.end(); ++it)</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            {</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordflow">if</span> (it-&gt;first == k)</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                    <span class="keywordflow">return</span> it;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.end();</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">return</span> bkt.end();</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00168">std::list&lt; T &gt;::begin()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00169">std::list&lt; T &gt;::end()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>, and <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">std::unordered_map&lt; key_type, value_type &gt;::m_buckets</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00168">std::list&lt; T &gt;::begin()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00169">std::list&lt; T &gt;::end()</a>, and <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>.</p>
 
 </div>
 </div>
@@ -481,11 +481,11 @@ template&lt;typename key_type , typename value_type &gt; </div>
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">24</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <a class="code" href="../../d8/dcf/structstd_1_1hash.html">std::hash&lt;key_type&gt;</a> hash_function;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keywordflow">return</span> hash_function(<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>) % <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a>.size();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keywordflow">return</span> hash_function(<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>) % this-&gt;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a>.size();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div>
 <div class="ttc" id="astructstd_1_1hash_html"><div class="ttname"><a href="../../d8/dcf/structstd_1_1hash.html">std::hash</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/functional_8hpp_source.html#l00010">functional.hpp:11</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dc0/KBDrv_8cpp_source.html#l00131">CrashHandler::key</a>, and <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">std::unordered_map&lt; key_type, value_type &gt;::m_buckets</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dc0/KBDrv_8cpp_source.html#l00134">CrashHandler::key</a>, and <a class="el" href="../../d8/d4f/std_2vector_8hpp_source.html#l00168">std::vector&lt; T &gt;::size()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00049">std::unordered_map&lt; key_type, value_type &gt;::contains()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00063">std::unordered_map&lt; key_type, value_type &gt;::find()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00034">std::unordered_map&lt; key_type, value_type &gt;::insert()</a>, and <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00098">std::unordered_map&lt; key_type, value_type &gt;::operator[]()</a>.</p>
 
@@ -520,8 +520,8 @@ template&lt;typename key_type , typename value_type &gt; </div>
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        {</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordtype">size_t</span> bucket_index = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a076076d85fd1374d1f497e9da9e00eeb">hash</a>(pair.first);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &amp;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a>[bucket_index];</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.begin(); it != <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.end(); ++it)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &amp;bkt = this-&gt;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a>[bucket_index];</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = bkt.begin(); it != bkt.end(); ++it)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <span class="keywordflow">if</span> (it-&gt;first == pair.first)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                {</div>
@@ -529,10 +529,10 @@ template&lt;typename key_type , typename value_type &gt; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                    <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                }</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            }</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.push_back(pair);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            bkt.push_back(pair);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00168">std::list&lt; T &gt;::begin()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00169">std::list&lt; T &gt;::end()</a>, <a class="el" href="../../d1/d4e/utility_8hpp_source.html#l00014">std::pair&lt; T1, T2 &gt;::first</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">std::unordered_map&lt; key_type, value_type &gt;::m_buckets</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00032">std::list&lt; T &gt;::push_back()</a>, and <a class="el" href="../../d1/d4e/utility_8hpp_source.html#l00015">std::pair&lt; T1, T2 &gt;::second</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00168">std::list&lt; T &gt;::begin()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00169">std::list&lt; T &gt;::end()</a>, <a class="el" href="../../d1/d4e/utility_8hpp_source.html#l00014">std::pair&lt; T1, T2 &gt;::first</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00032">std::list&lt; T &gt;::push_back()</a>, and <a class="el" href="../../d1/d4e/utility_8hpp_source.html#l00015">std::pair&lt; T1, T2 &gt;::second</a>.</p>
 
 </div>
 </div>
@@ -565,17 +565,17 @@ template&lt;typename key_type , typename value_type &gt; </div>
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00098">98</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        {</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <span class="keywordtype">size_t</span> bucket_index = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a076076d85fd1374d1f497e9da9e00eeb">hash</a>(<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &amp;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a>[bucket_index];</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.begin(); it != <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.end(); ++it)</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> &amp;bkt = this-&gt;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a>[bucket_index];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">auto</span> it = bkt.begin(); it != bkt.end(); ++it)</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            {</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                <span class="keywordflow">if</span> (it-&gt;first == <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>)</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                    <span class="keywordflow">return</span> it-&gt;second;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            }</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.emplace_back(<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>, value_type());</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.back().second;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            bkt.emplace_back(<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>, value_type());</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordflow">return</span> bkt.back().second;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00168">std::list&lt; T &gt;::begin()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00169">std::list&lt; T &gt;::end()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>, <a class="el" href="../../d6/dc0/KBDrv_8cpp_source.html#l00131">CrashHandler::key</a>, and <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">std::unordered_map&lt; key_type, value_type &gt;::m_buckets</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00168">std::list&lt; T &gt;::begin()</a>, <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00169">std::list&lt; T &gt;::end()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>, and <a class="el" href="../../d6/dc0/KBDrv_8cpp_source.html#l00134">CrashHandler::key</a>.</p>
 
 </div>
 </div>
@@ -607,17 +607,41 @@ template&lt;typename key_type , typename value_type &gt; </div>
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00089">89</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        {</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordtype">size_t</span> count = 0;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a> : <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a5fb0c5cbf252fd2ab026ec9d07ab64fe">m_buckets</a>)</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                count += <a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>.size();</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <span class="keywordflow">foreach</span> (<span class="keyword">const</span> <span class="keyword">auto</span> &amp;bkt <span class="keywordflow">in</span> this-&gt;<a class="code" href="../../d4/d3a/classstd_1_1unordered__map.html#ac8b7b160b2753a5b7d15a0d567f92d76">bkts</a>)</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                count += bkt.size();</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">return</span> count;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">std::unordered_map&lt; key_type, value_type &gt;::m_buckets</a>, and <a class="el" href="../../dc/d1d/list_8hpp_source.html#l00025">std::list&lt; T &gt;::size</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
+<a id="ac8b7b160b2753a5b7d15a0d567f92d76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8b7b160b2753a5b7d15a0d567f92d76">&#9670;&nbsp;</a></span>bkts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename key_type , typename value_type &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt;<a class="el" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>&gt; <a class="el" href="../../d4/d3a/classstd_1_1unordered__map.html">std::unordered_map</a>&lt; key_type, value_type &gt;::bkts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a980e8542928c9ef0deea351ea9c16d21"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a980e8542928c9ef0deea351ea9c16d21">&#9670;&nbsp;</a></span>DEFAULT_NUM_BUCKETS</h2>
 
@@ -641,34 +665,6 @@ template&lt;typename key_type , typename value_type &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00021">21</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5fb0c5cbf252fd2ab026ec9d07ab64fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fb0c5cbf252fd2ab026ec9d07ab64fe">&#9670;&nbsp;</a></span>m_buckets</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename key_type , typename value_type &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt;<a class="el" href="../../d4/d3a/classstd_1_1unordered__map.html#a31771783f966c04ad4e9db3cbb91e818">bucket</a>&gt; <a class="el" href="../../d4/d3a/classstd_1_1unordered__map.html">std::unordered_map</a>&lt; key_type, value_type &gt;::m_buckets</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html">unordered_map.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00049">std::unordered_map&lt; key_type, value_type &gt;::contains()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00087">std::unordered_map&lt; key_type, value_type &gt;::end()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00063">std::unordered_map&lt; key_type, value_type &gt;::find()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00024">std::unordered_map&lt; key_type, value_type &gt;::hash()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00034">std::unordered_map&lt; key_type, value_type &gt;::insert()</a>, <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00098">std::unordered_map&lt; key_type, value_type &gt;::operator[]()</a>, and <a class="el" href="../../d3/dbb/unordered__map_8hpp_source.html#l00089">std::unordered_map&lt; key_type, value_type &gt;::size()</a>.</p>
 
 </div>
 </div>

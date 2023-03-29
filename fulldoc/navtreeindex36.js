@@ -1,5 +1,8 @@
 var NAVTREEINDEX36 =
 {
+"d3/d82/x32_2msr_8hpp.html#a6c41656dc4a6f098c79385cfedda7ff6aa8c331d912e48576bba02da500541fa4":[12,0,0,5,1,0,0,3,0,36],
+"d3/d82/x32_2msr_8hpp.html#a6c41656dc4a6f098c79385cfedda7ff6aabaf9e484309c74f23e2af2047249b00":[12,0,0,5,1,0,0,3,0,215],
+"d3/d82/x32_2msr_8hpp.html#a6c41656dc4a6f098c79385cfedda7ff6aabd51ae8943b9a19ddb82d2520308508":[12,0,0,5,1,0,0,3,0,65],
 "d3/d82/x32_2msr_8hpp.html#a6c41656dc4a6f098c79385cfedda7ff6aadcfca20e4b5ebacecee205c21cdf3e1":[12,0,0,5,1,0,0,3,0,322],
 "d3/d82/x32_2msr_8hpp.html#a6c41656dc4a6f098c79385cfedda7ff6aadd14aba81e537ce350b4416f3bc1295":[12,0,0,5,1,0,0,3,0,183],
 "d3/d82/x32_2msr_8hpp.html#a6c41656dc4a6f098c79385cfedda7ff6aae69c6e0738a184dd1ec443dab2f6924":[12,0,0,5,1,0,0,3,0,3],
@@ -197,8 +200,8 @@ var NAVTREEINDEX36 =
 "d3/d88/Kernel_2include_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0":[12,0,0,5,7,0],
 "d3/d88/Kernel_2include_2assert_8h_source.html":[12,0,0,5,7],
 "d3/d88/namespaceAPIC.html":[10,0,22],
-"d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220e":[10,0,22,30],
 "d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220e":[10,0,22,31],
+"d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220e":[10,0,22,30],
 "d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220ea6d986d5d14fb70808f6fd72b9708efaa":[10,0,22,30,0],
 "d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220ea6d986d5d14fb70808f6fd72b9708efaa":[10,0,22,31,0],
 "d3/d88/namespaceAPIC.html#a01bf47af903eca375ade62aa4d9a220ea6d986d5d14fb70808f6fd72b9708efaa":[10,0,22,30,2],
@@ -218,10 +221,10 @@ var NAVTREEINDEX36 =
 "d3/d88/namespaceAPIC.html#a05598e7cbaa60c82676bee9346aeb060a1d291e06d1fe5a949548324db9343319":[10,0,22,25,0],
 "d3/d88/namespaceAPIC.html#a05598e7cbaa60c82676bee9346aeb060a1d291e06d1fe5a949548324db9343319":[10,0,22,25,2],
 "d3/d88/namespaceAPIC.html#a07e65844f6fd690118c864c2abbf0013":[12,0,0,0,1,1,1,7,2],
-"d3/d88/namespaceAPIC.html#a07e65844f6fd690118c864c2abbf0013":[12,0,0,0,1,1,1,11,2],
+"d3/d88/namespaceAPIC.html#a07e65844f6fd690118c864c2abbf0013":[12,0,0,0,1,1,1,12,2],
 "d3/d88/namespaceAPIC.html#a07e65844f6fd690118c864c2abbf0013":[12,0,0,0,2,1,0,7,2],
 "d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244":[12,0,0,0,1,1,1,6,0],
-"d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244":[12,0,0,0,1,1,1,10,0],
+"d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244":[12,0,0,0,1,1,1,11,0],
 "d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244":[12,0,0,0,2,1,0,6,0],
 "d3/d88/namespaceAPIC.html#a1bc24773da7aa7b2637fc28b2d491723":[12,0,0,0,1,1,1,3,5],
 "d3/d88/namespaceAPIC.html#a1bc24773da7aa7b2637fc28b2d491723":[12,0,0,0,2,1,0,3,5],
@@ -246,8 +249,5 @@ var NAVTREEINDEX36 =
 "d3/d88/namespaceAPIC.html#a340dca14fd5779eb5d0b3786d827996eab8a0f1b443d388a9c591d9e2398e7f05":[10,0,22,32,0],
 "d3/d88/namespaceAPIC.html#a340dca14fd5779eb5d0b3786d827996eab8a0f1b443d388a9c591d9e2398e7f05":[10,0,22,32,1],
 "d3/d88/namespaceAPIC.html#a340dca14fd5779eb5d0b3786d827996eab8a0f1b443d388a9c591d9e2398e7f05":[10,0,22,33,0],
-"d3/d88/namespaceAPIC.html#a340dca14fd5779eb5d0b3786d827996eab8a0f1b443d388a9c591d9e2398e7f05":[10,0,22,33,1],
-"d3/d88/namespaceAPIC.html#a34b6cd75171affba6957e308dcbd92be":[12,0,0,0,1,1,1,9,3],
-"d3/d88/namespaceAPIC.html#a34b6cd75171affba6957e308dcbd92be":[12,0,0,0,1,1,1,12,9],
-"d3/d88/namespaceAPIC.html#a34b6cd75171affba6957e308dcbd92be":[12,0,0,0,2,1,0,9,9]
+"d3/d88/namespaceAPIC.html#a340dca14fd5779eb5d0b3786d827996eab8a0f1b443d388a9c591d9e2398e7f05":[10,0,22,33,1]
 };

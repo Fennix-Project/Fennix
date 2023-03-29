@@ -6,10 +6,10 @@ var sysdeps_2managarm_2include_2abi_bits_2signal_8h =
     ] ],
     [ "siginfo_t", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t", [
       [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a9b764d07172164699a509bea25ba436b", null ],
-      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a2ab78d78478fd42586478fcfbc7fb0d7", null ],
+      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aa7a18f231b28048a7155b25b73826495", null ],
       [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aa4f7e0af3492986e629f40bb9fca1d2c", null ],
-      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a7c432ad0f11332f79dd48ac57c152eb4", null ],
-      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a03a0038e2e232ef46a0dd3b2fceac9e1", null ],
+      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a904232d2aef14a624447711de4870141", null ],
+      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a4233b390f8733a689c5b34de2e4a7f8b", null ],
       [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a94acc450f52d0db57c24734b3aaa35bf", null ],
       [ "si_addr", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aa42eedcfa01bdcb2bc6b8ac3bab0d9e9", null ],
       [ "si_code", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a0dd36ae3e9df589f5755f88c93671c2d", null ],

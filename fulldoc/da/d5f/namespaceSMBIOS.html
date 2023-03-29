@@ -540,13 +540,13 @@ TableLength</td>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;SMBIOS is not available. (%#lx)&quot;</span>, <a class="code" href="../../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf">bInfo</a>-&gt;<a class="code" href="../../db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19">SMBIOSPtr</a>);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div>
-<div class="ttc" id="aKernel_8cpp_html_a48ddf8736a693c7ee5cf00028b014fcf"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf">bInfo</a></div><div class="ttdeci">BootInfo * bInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00154">Kernel.cpp:154</a></div></div>
+<div class="ttc" id="aKernel_8cpp_html_a48ddf8736a693c7ee5cf00028b014fcf"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf">bInfo</a></div><div class="ttdeci">BootInfo * bInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00157">Kernel.cpp:157</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00068">debug.h:68</a></div></div>
 <div class="ttc" id="astructBootInfo_html_a81df83387169f54a60361c6001411e19"><div class="ttname"><a href="../../db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19">BootInfo::SMBIOSPtr</a></div><div class="ttdeci">void * SMBIOSPtr</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00118">binfo.h:118</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00154">bInfo</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00068">debug</a>, and <a class="el" href="../../d9/d36/binfo_8h_source.html#l00118">BootInfo::SMBIOSPtr</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00157">bInfo</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00068">debug</a>, and <a class="el" href="../../d9/d36/binfo_8h_source.html#l00118">BootInfo::SMBIOSPtr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00033">GetSMBIOSHeader()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00202">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00033">GetSMBIOSHeader()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00211">Main()</a>.</p>
 
 </div>
 </div>
@@ -571,7 +571,7 @@ TableLength</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00033">GetSMBIOSHeader()</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00012">SMBIOSTypeBaseBoardInformation</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00202">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00211">Main()</a>.</p>
 
 </div>
 </div>
@@ -595,7 +595,7 @@ TableLength</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00033">GetSMBIOSHeader()</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00010">SMBIOSTypeBIOSInformation</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00202">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00211">Main()</a>.</p>
 
 </div>
 </div>
@@ -727,9 +727,9 @@ TableLength</td>
 <p class="definition">Definition at line <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html">SystemManagementBIOS.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{ <span class="keywordflow">return</span> (SMBIOSEntryPoint *)<a class="code" href="../../d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf">bInfo</a>-&gt;<a class="code" href="../../db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19">SMBIOSPtr</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00154">bInfo</a>, and <a class="el" href="../../d9/d36/binfo_8h_source.html#l00118">BootInfo::SMBIOSPtr</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00157">bInfo</a>, and <a class="el" href="../../d9/d36/binfo_8h_source.html#l00118">BootInfo::SMBIOSPtr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00202">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00211">Main()</a>.</p>
 
 </div>
 </div>
@@ -770,14 +770,14 @@ TableLength</td>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00143">types.h:143</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00148">types.h:148</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_accd0adad77ed4e40fd5852638c98f619"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#accd0adad77ed4e40fd5852638c98f619">Header</a></div><div class="ttdeci">struct ACPIHeader Header</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00041">acpi.hpp:0</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_aeff746a68ed515a1d9f0c40a38dd200b"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#aeff746a68ed515a1d9f0c40a38dd200b">Type</a></div><div class="ttdeci">uint8_t Type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00000">acpi.hpp:0</a></div></div>
 <div class="ttc" id="anamespaceSMBIOS_html_a2d28755c4392487cb470db704827389f"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#a2d28755c4392487cb470db704827389f">SMBIOS::CheckSMBIOS</a></div><div class="ttdeci">bool CheckSMBIOS()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00011">SystemManagementBIOS.cpp:11</a></div></div>
 <div class="ttc" id="anamespaceSMBIOS_html_a7cf58bb0289a439aff31df8a7a99fe61"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#a7cf58bb0289a439aff31df8a7a99fe61">SMBIOS::SMBIOSTableLength</a></div><div class="ttdeci">static int SMBIOSTableLength(SMBIOSHeader *Hdr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00024">SystemManagementBIOS.cpp:24</a></div></div>
 <div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00154">bInfo</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00011">CheckSMBIOS()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00068">debug</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00000">Header</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00118">BootInfo::SMBIOSPtr</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00024">SMBIOSTableLength()</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00000">Type</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00061">SMBIOS::SMBIOSHeader::Type</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00157">bInfo</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00011">CheckSMBIOS()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00068">debug</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00000">Header</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00118">BootInfo::SMBIOSPtr</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00024">SMBIOSTableLength()</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00000">Type</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00061">SMBIOS::SMBIOSHeader::Type</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00059">GetBaseBoardInformation()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00055">GetBIOSInformation()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00063">GetMemoryArray()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00067">GetMemoryArrayMappedAddress()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00065">GetMemoryDevice()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00069">GetMemoryDeviceMappedAddress()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00061">GetProcessorInformation()</a>, and <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00057">GetSystemInformation()</a>.</p>
 
@@ -803,7 +803,7 @@ TableLength</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00033">GetSMBIOSHeader()</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00011">SMBIOSTypeSystemInformation</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00202">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00211">Main()</a>.</p>
 
 </div>
 </div>

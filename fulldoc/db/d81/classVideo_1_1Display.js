@@ -18,6 +18,7 @@ var classVideo_1_1Display =
     [ "SetBuffer", "db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656", null ],
     [ "SetBufferCursor", "db/d81/classVideo_1_1Display.html#ada154af6b649756ab6bb6c6df5743eba", null ],
     [ "SetCurrentFont", "db/d81/classVideo_1_1Display.html#a4fdce949a25588b0e135cde82b9e00e1", null ],
+    [ "SetDoNotScroll", "db/d81/classVideo_1_1Display.html#a23f83bade6c42e3589c5cff0039569ff", null ],
     [ "SetPixel", "db/d81/classVideo_1_1Display.html#ae52a43d1cf247cf0dd03787b31e5b880", null ],
     [ "Buffers", "db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0", null ],
     [ "ColorIteration", "db/d81/classVideo_1_1Display.html#ababb6b398e44135997b52f77982c2dbb", null ],

@@ -13,12 +13,12 @@ var structBootInfo =
       [ "ExtendedDisplayIdentificationData", "db/d96/structBootInfo.html#afe9278be01394e480172f6587115acc0", null ],
       [ "GreenMaskShift", "db/d96/structBootInfo.html#a3af61265847b0d8143198a533994673a", null ],
       [ "GreenMaskSize", "db/d96/structBootInfo.html#a551646aa90577dd36ee59d4105bfd300", null ],
-      [ "Height", "db/d96/structBootInfo.html#a6eea128557cf9753a128c9dff1406630", null ],
+      [ "Height", "db/d96/structBootInfo.html#a2fd06952a5867454ba1166ae9ca41878", null ],
       [ "MemoryModel", "db/d96/structBootInfo.html#a6425ccbd922fcc7fc262ae461f908c80", null ],
       [ "Pitch", "db/d96/structBootInfo.html#a898a6f47a537f71731ab594c9d052148", null ],
       [ "RedMaskShift", "db/d96/structBootInfo.html#acba0c3c98c22705dd28df051d1c5acff", null ],
       [ "RedMaskSize", "db/d96/structBootInfo.html#a44a262152a2c36caf29da46ed68561c1", null ],
-      [ "Width", "db/d96/structBootInfo.html#a8c1096c7230bcbc2d3bdefbc9ee4ab6c", null ]
+      [ "Width", "db/d96/structBootInfo.html#a5f7c8fcce5de0403b4f0b115a0cde1d9", null ]
     ] ],
     [ "KernelInfo", "db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo", [
       [ "CommandLine", "db/d96/structBootInfo.html#adde62f42ebd193e412df27ef24698adf", null ],

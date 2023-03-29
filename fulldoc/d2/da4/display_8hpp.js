@@ -40,6 +40,7 @@ var display_8hpp =
       [ "Color", "d6/de2/namespaceVideo.html#a1452aa2f8749bd33cc4522af1a6abdde", null ],
       [ "CursorX", "d6/de2/namespaceVideo.html#a76af49c502cb7134be988b9e261837fe", null ],
       [ "CursorY", "d6/de2/namespaceVideo.html#aca20fd5febd3235e90cbcdd3b14856e5", null ],
+      [ "DoNotScroll", "d6/de2/namespaceVideo.html#ae9b352d4d1351886302c2f4898ee97a2", null ],
       [ "Height", "d6/de2/namespaceVideo.html#a2fba698823b9f8b3f7aaaff7aa87451f", null ],
       [ "Size", "d6/de2/namespaceVideo.html#ad27e3de9a29b64d1314558ce6d95fc22", null ],
       [ "Width", "d6/de2/namespaceVideo.html#af8f44583b704b3d6e044d993fa0049ba", null ]

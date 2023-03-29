@@ -1,5 +1,10 @@
 var NAVTREEINDEX33 =
 {
+"d3/d45/abis_2mlibc_2ptrace_8h.html#ae3a454593da091f01bffa098a88be590":[12,0,2,3,0,6,18,35],
+"d3/d45/abis_2mlibc_2ptrace_8h.html#aeb221de5d411865889d3496fbac4d359":[12,0,2,3,0,6,18,29],
+"d3/d45/abis_2mlibc_2ptrace_8h.html#aeb3452e142769cec74211c87ff6fd484":[12,0,2,3,0,6,18,45],
+"d3/d45/abis_2mlibc_2ptrace_8h.html#aee42662f8eb611d14b8f3b19bc4664be":[12,0,2,3,0,6,18,5],
+"d3/d45/abis_2mlibc_2ptrace_8h.html#af67251a5818cd9c2bd80148f4db19c5b":[12,0,2,3,0,6,18,30],
 "d3/d45/abis_2mlibc_2ptrace_8h.html#afefafd04f0d0effdafae169dedf2e8ae":[12,0,2,3,0,6,18,15],
 "d3/d45/abis_2mlibc_2ptrace_8h_source.html":[12,0,2,3,0,6,18],
 "d3/d47/doomdef_8h.html":[12,0,2,0,2,0,0,0,27],
@@ -244,10 +249,5 @@ var NAVTREEINDEX33 =
 "d3/d60/strtol_8hpp_source.html":[12,0,2,3,2,6,4,1,15],
 "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html":[10,0,72],
 "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96":[10,0,72,2],
-"d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96a04c7e98075d7a65a80417062755916c4":[10,0,72,2,8],
-"d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96a069f15ba88bd88994a6e5c51089a8afd":[10,0,72,2,5],
-"d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96a1193973ae3725a69331f92b53191089a":[10,0,72,2,6],
-"d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96a89367892768f6ae3b1e8fc974ea8e346":[10,0,72,2,7],
-"d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96a8da91b03aaecc9b7692479980042bb8c":[10,0,72,2,1],
-"d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96aa60cff8c96d36380862540f6704fa9b4":[10,0,72,2,4]
+"d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html#a97513a08896778985b5975cdc7ec5d96a04c7e98075d7a65a80417062755916c4":[10,0,72,2,8]
 };

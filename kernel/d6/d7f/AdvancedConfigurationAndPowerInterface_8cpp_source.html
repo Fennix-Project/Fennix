@@ -215,8 +215,8 @@ $(document).ready(function(){initNavTree('d6/d7f/AdvancedConfigurationAndPowerIn
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">if</span> (FADT)</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        {</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            outb(FADT-&gt;SMI_CommandPort, FADT-&gt;AcpiEnable);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordflow">while</span> (!(inw(FADT-&gt;PM1aControlBlock) &amp; 1))</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            outb(s_cst(<a class="code" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>, FADT-&gt;SMI_CommandPort), FADT-&gt;AcpiEnable);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordflow">while</span> (!(inw(s_cst(<a class="code" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>, FADT-&gt;PM1aControlBlock)) &amp; 1))</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                ;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        }</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
@@ -252,7 +252,8 @@ $(document).ready(function(){initNavTree('d6/d7f/AdvancedConfigurationAndPowerIn
 <div class="ttc" id="aio_8h_html"><div class="ttname"><a href="../../dc/dac/io_8h.html">io.h</a></div></div>
 <div class="ttc" id="anamespaceACPI_html"><div class="ttname"><a href="../../df/d22/namespaceACPI.html">ACPI</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00011">acpi.hpp:12</a></div></div>
 <div class="ttc" id="astructBootInfo_html"><div class="ttname"><a href="../../db/d96/structBootInfo.html">BootInfo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00021">binfo.h:22</a></div></div>
-<div class="ttc" id="atypes_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00143">types.h:143</a></div></div>
+<div class="ttc" id="atypes_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00148">types.h:148</a></div></div>
+<div class="ttc" id="atypes_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00123">types.h:123</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

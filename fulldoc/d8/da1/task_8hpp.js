@@ -53,6 +53,8 @@ var task_8hpp =
       [ "TrustLevel", "d0/dbb/classTasking_1_1Security.html#a72c2fadb00d1986549fac9771a3bddf2", null ]
     ] ],
     [ "Task", "dc/dc5/classTasking_1_1Task.html", "dc/dc5/classTasking_1_1Task" ],
+    [ "PEXIT", "d8/da1/task_8hpp.html#a3f396a5788f48a761516791722376f47", null ],
+    [ "TEXIT", "d8/da1/task_8hpp.html#a2eb27b42a373d4f7e66d4fac4e6ce241", null ],
     [ "IP", "d8/da1/task_8hpp.html#a1d6c5ad87e3a04eb27f6958a4d7890d9", null ],
     [ "IPOffset", "d8/da1/task_8hpp.html#ac029c43062671dceeb247d3b4c88de75", null ],
     [ "Token", "d8/da1/task_8hpp.html#ac13006a48c82b3f644498a8423a0ff24", null ],

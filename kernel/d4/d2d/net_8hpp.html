@@ -88,7 +88,6 @@ $(document).ready(function(){initNavTree('d4/d2d/net_8hpp.html','../../'); initR
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -115,23 +114,6 @@ Data Structures</h2></td></tr>
 Macros</h2></td></tr>
 <tr class="memitem:a004134c58b97d5500bb67ad511fcbb96"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(m, ...)</td></tr>
 <tr class="separator:a004134c58b97d5500bb67ad511fcbb96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16c33c4cb331d0de82f7033252f6801c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#a16c33c4cb331d0de82f7033252f6801c">b4</a>(x)&#160;&#160;&#160;((x &amp; 0x0F) &lt;&lt; 4 | (x &amp; 0xF0) &gt;&gt; 4)</td></tr>
-<tr class="separator:a16c33c4cb331d0de82f7033252f6801c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94eac8d9cd20ccc4c673e8f907253679"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#a94eac8d9cd20ccc4c673e8f907253679">b8</a>(x)&#160;&#160;&#160;((x)&amp;0xFF)</td></tr>
-<tr class="separator:a94eac8d9cd20ccc4c673e8f907253679"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88da023a73ece4eb02fd14231ba1718b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#a88da023a73ece4eb02fd14231ba1718b">b16</a>(x)&#160;&#160;&#160;__builtin_bswap16(x)</td></tr>
-<tr class="separator:a88da023a73ece4eb02fd14231ba1718b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6339ff3644650c6bb6416c9afd8bf5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a>(x)&#160;&#160;&#160;__builtin_bswap32(x)</td></tr>
-<tr class="separator:ae6339ff3644650c6bb6416c9afd8bf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e129c4f168e2503e45cf0ab2fb1994d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#a9e129c4f168e2503e45cf0ab2fb1994d">b48</a>(x)&#160;&#160;&#160;(((((x)&amp;0x0000000000ff) &lt;&lt; 40) | (((x)&amp;0x00000000ff00) &lt;&lt; 24) | (((x)&amp;0x000000ff0000) &lt;&lt; 8) | (((x)&amp;0x0000ff000000) &gt;&gt; 8) | (((x)&amp;0x00ff00000000) &gt;&gt; 24) | (((x)&amp;0xff0000000000) &gt;&gt; 40)))</td></tr>
-<tr class="separator:a9e129c4f168e2503e45cf0ab2fb1994d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa40826e19ab43b143542d0a80a175bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#aa40826e19ab43b143542d0a80a175bad">b64</a>(x)&#160;&#160;&#160;__builtin_bswap64(x)</td></tr>
-<tr class="separator:aa40826e19ab43b143542d0a80a175bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a25baf26b50bc73c25d21005f30ca33b6"><td class="memItemLeft" align="right" valign="top">typedef __UINT64_TYPE__&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#a25baf26b50bc73c25d21005f30ca33b6">uint48_t</a></td></tr>
-<tr class="separator:a25baf26b50bc73c25d21005f30ca33b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -162,7 +144,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00118">118</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00108">108</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -182,126 +164,6 @@ v6</td>
 </div>
 </div>
 <h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a88da023a73ece4eb02fd14231ba1718b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88da023a73ece4eb02fd14231ba1718b">&#9670;&nbsp;</a></span>b16</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define b16</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;__builtin_bswap16(x)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00024">24</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae6339ff3644650c6bb6416c9afd8bf5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae6339ff3644650c6bb6416c9afd8bf5d">&#9670;&nbsp;</a></span>b32</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define b32</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;__builtin_bswap32(x)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a16c33c4cb331d0de82f7033252f6801c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16c33c4cb331d0de82f7033252f6801c">&#9670;&nbsp;</a></span>b4</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define b4</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;((x &amp; 0x0F) &lt;&lt; 4 | (x &amp; 0xF0) &gt;&gt; 4)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a9e129c4f168e2503e45cf0ab2fb1994d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e129c4f168e2503e45cf0ab2fb1994d">&#9670;&nbsp;</a></span>b48</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define b48</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;(((((x)&amp;0x0000000000ff) &lt;&lt; 40) | (((x)&amp;0x00000000ff00) &lt;&lt; 24) | (((x)&amp;0x000000ff0000) &lt;&lt; 8) | (((x)&amp;0x0000ff000000) &gt;&gt; 8) | (((x)&amp;0x00ff00000000) &gt;&gt; 24) | (((x)&amp;0xff0000000000) &gt;&gt; 40)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00026">26</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aa40826e19ab43b143542d0a80a175bad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa40826e19ab43b143542d0a80a175bad">&#9670;&nbsp;</a></span>b64</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define b64</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;__builtin_bswap64(x)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00027">27</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a94eac8d9cd20ccc4c673e8f907253679"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94eac8d9cd20ccc4c673e8f907253679">&#9670;&nbsp;</a></span>b8</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define b8</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">x</td><td>)</td>
-          <td>&#160;&#160;&#160;((x)&amp;0xFF)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00023">23</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a004134c58b97d5500bb67ad511fcbb96"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a004134c58b97d5500bb67ad511fcbb96">&#9670;&nbsp;</a></span>netdbg</h2>
 
@@ -332,23 +194,6 @@ v6</td>
 
 </div>
 </div>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a25baf26b50bc73c25d21005f30ca33b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25baf26b50bc73c25d21005f30ca33b6">&#9670;&nbsp;</a></span>uint48_t</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef __UINT64_TYPE__ <a class="el" href="../../d4/d2d/net_8hpp.html#a25baf26b50bc73c25d21005f30ca33b6">uint48_t</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00020">20</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a4f3ee12da30a1e47c52dc137b4627cab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4f3ee12da30a1e47c52dc137b4627cab">&#9670;&nbsp;</a></span>Endianness</h2>
@@ -366,13 +211,13 @@ v6</td>
 <tr><td class="fieldname"><a id="a4f3ee12da30a1e47c52dc137b4627caba862db4e5463e953f959c7109fd59df30"></a>BIG_ENDIAN&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627caba204e185e0fbcc0a3dfd3d90e2d546ecf">LITTLE_ENDIAN</a>,</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627caba862db4e5463e953f959c7109fd59df30">BIG_ENDIAN</a></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;};</div>
-<div class="ttc" id="anet_8hpp_html_a4f3ee12da30a1e47c52dc137b4627caba204e185e0fbcc0a3dfd3d90e2d546ecf"><div class="ttname"><a href="../../d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627caba204e185e0fbcc0a3dfd3d90e2d546ecf">LITTLE_ENDIAN</a></div><div class="ttdeci">@ LITTLE_ENDIAN</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/net_8hpp_source.html#l00031">net.hpp:31</a></div></div>
-<div class="ttc" id="anet_8hpp_html_a4f3ee12da30a1e47c52dc137b4627caba862db4e5463e953f959c7109fd59df30"><div class="ttname"><a href="../../d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627caba862db4e5463e953f959c7109fd59df30">BIG_ENDIAN</a></div><div class="ttdeci">@ BIG_ENDIAN</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/net_8hpp_source.html#l00033">net.hpp:32</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00019">19</a> of file <a class="el" href="../../d4/d2d/net_8hpp_source.html">net.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627caba204e185e0fbcc0a3dfd3d90e2d546ecf">LITTLE_ENDIAN</a>,</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627caba862db4e5463e953f959c7109fd59df30">BIG_ENDIAN</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;};</div>
+<div class="ttc" id="anet_8hpp_html_a4f3ee12da30a1e47c52dc137b4627caba204e185e0fbcc0a3dfd3d90e2d546ecf"><div class="ttname"><a href="../../d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627caba204e185e0fbcc0a3dfd3d90e2d546ecf">LITTLE_ENDIAN</a></div><div class="ttdeci">@ LITTLE_ENDIAN</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/net_8hpp_source.html#l00021">net.hpp:21</a></div></div>
+<div class="ttc" id="anet_8hpp_html_a4f3ee12da30a1e47c52dc137b4627caba862db4e5463e953f959c7109fd59df30"><div class="ttname"><a href="../../d4/d2d/net_8hpp.html#a4f3ee12da30a1e47c52dc137b4627caba862db4e5463e953f959c7109fd59df30">BIG_ENDIAN</a></div><div class="ttdeci">@ BIG_ENDIAN</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/net_8hpp_source.html#l00023">net.hpp:22</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -419,7 +264,7 @@ v6</td>
 <div class="ttc" id="aacpi_8hpp_html_a930e5a4d8414c0427fe5c636062579db"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a></div><div class="ttdeci">uint32_t Length</div><div class="ttdoc">Length.</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00001">acpi.hpp:1</a></div></div>
 <div class="ttc" id="aacpi_8hpp_html_ad98d5051c2e94669e746dd13771daac8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#ad98d5051c2e94669e746dd13771daac8">Checksum</a></div><div class="ttdeci">uint8_t Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00003">acpi.hpp:3</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_aff2da4c061653164b5cfcc650f742f27"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27">Data</a></div><div class="ttdeci">GlobalDescriptorTableEntry Data</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00002">gdt.hpp:2</a></div></div>
-<div class="ttc" id="atypes_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00118">types.h:118</a></div></div>
+<div class="ttc" id="atypes_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00123">types.h:123</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00002">Data</a>, and <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00001">Length</a>.</p>
 

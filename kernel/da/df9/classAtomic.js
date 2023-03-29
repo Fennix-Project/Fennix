@@ -2,7 +2,7 @@ var classAtomic =
 [
     [ "Atomic", "da/df9/classAtomic.html#ab49030dcc5ac79dc59879380e56b55e0", null ],
     [ "Atomic", "da/df9/classAtomic.html#ad298e5a1cda3f3148b02aacbe4ed651a", null ],
-    [ "_Atomic", "da/df9/classAtomic.html#a2c017f8fa156a25098cb642d0ba364c2", null ],
+    [ "_Atomic", "da/df9/classAtomic.html#ad0504f2ac1bf63b4927200e22e2331e5", null ],
     [ "CompareExchange", "da/df9/classAtomic.html#ad1d3a32f3fb34b9d0b35486b6ce2efaf", null ],
     [ "Exchange", "da/df9/classAtomic.html#aec5ec7914aa6ac945b1fcebc83a7e636", null ],
     [ "FetchAdd", "da/df9/classAtomic.html#ad03d6ec6e2084b2d9cb847f63a6b0319", null ],

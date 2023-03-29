@@ -1,7 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"d5/dba/multiboot2_8h.html#a057304e943e881731680e06472c4bf1e":[7,0,0,5,0,0,0,19,2],
-"d5/dba/multiboot2_8h.html#a0663e47406ed5799d5bd55ccf2d4fa95":[7,0,0,5,0,0,0,16,3],
 "d5/dba/multiboot2_8h.html#a079f7f841628eb85cffc6dead1074474":[7,0,0,5,0,0,0,31,0],
 "d5/dba/multiboot2_8h.html#a07b852bb1b157fddbd35be881f9213c6":[7,0,0,5,0,0,0,57],
 "d5/dba/multiboot2_8h.html#a08e1c8bc977b39015c9043645e79713d":[7,0,0,5,0,0,0,9,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX20 =
 "d5/dc1/MemorySetSIMD_8cpp.html":[7,0,0,6,15],
 "d5/dc1/MemorySetSIMD_8cpp.html#a0efc8002b91c3f7a7fdd9df723afa2de":[7,0,0,6,15,0],
 "d5/dc1/MemorySetSIMD_8cpp.html#a3fffb76ea168d8f9606769b4557e430a":[7,0,0,6,15,5],
-"d5/dc1/MemorySetSIMD_8cpp.html#a63a6c7867b4bdf5b77a88dcb1c94c98a":[7,0,0,6,15,4]
+"d5/dc1/MemorySetSIMD_8cpp.html#a63a6c7867b4bdf5b77a88dcb1c94c98a":[7,0,0,6,15,4],
+"d5/dc1/MemorySetSIMD_8cpp.html#abca14cf4181818128012913cf58e1c68":[7,0,0,6,15,1],
+"d5/dc1/MemorySetSIMD_8cpp.html#ac084621c9ee5f368bc17852baca8c49d":[7,0,0,6,15,2]
 };
