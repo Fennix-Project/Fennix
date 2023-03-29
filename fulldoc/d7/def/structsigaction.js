@@ -1,9 +1,9 @@
 var structsigaction =
 [
     [ "__sa_handler", "d7/def/structsigaction.html#ab929703e8f90f19605c86fdc54bbcce9", null ],
-    [ "__sa_handler", "d7/def/structsigaction.html#a44bc5c4705e8e7dfbab4ceb30197e3d4", null ],
+    [ "__sa_handler", "d7/def/structsigaction.html#a4a8f1cddf595c41c2e44655b824a28fd", null ],
     [ "__sa_handler", "d7/def/structsigaction.html#aceb47d190e220c815264680cc90c8f30", null ],
-    [ "__sa_handler", "d7/def/structsigaction.html#add795b2b63f9be5e2793e2727db004d8", null ],
+    [ "__sa_handler", "d7/def/structsigaction.html#ad4f7ba10d2ecfb9c9305fe564ee2f36e", null ],
     [ "__sa_handler", "d7/def/structsigaction.html#a1fe8468aa74f49a13e2e801d7dc47684", null ],
     [ "__sa_handler", "d7/def/structsigaction.html#a66432170fa0efca34bd8bc256e202ec1", null ],
     [ "sa_flags", "d7/def/structsigaction.html#aea0dabe7a03641c8b426521f4406b425", null ],

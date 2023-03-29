@@ -40,13 +40,13 @@ var NAVTREE =
       [ "Version 3", "db/d7b/md_Userspace_mlibc_ABI_BREAKS.html#autotoc_md10", null ]
     ] ],
     [ "mlibc is a C standard library", "d5/d4a/md_Userspace_mlibc_README.html", [
-      [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md14", null ],
-      [ "Porting mlibc to a new OS", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md15", null ],
-      [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md16", null ],
-      [ "Running Tests", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md17", null ]
+      [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md12", null ],
+      [ "Porting mlibc to a new OS", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md14", null ],
+      [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md15", null ],
+      [ "Running Tests", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md16", null ]
     ] ],
     [ "Versioning", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html", [
-      [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md12", null ]
+      [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md17", null ]
     ] ],
     [ "Userspace", "d1/df9/md_Userspace_README.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -95,7 +95,7 @@ var NAVTREEINDEX =
 "annotated.html",
 "d0/d23/linker_8cpp.html#a516b78195af3967fdfd9c0b7213eed8c",
 "d0/d4b/sysdeps_2dripos_2include_2abi-bits_2termios_8h.html#a51f85744efb808bc7cdfc9bf689cb043",
-"d0/d86/regcomp_8c.html#aa9b562f3992aa0c3bbcb1c22cf3ed6a6",
+"d0/d86/regcomp_8c.html#aab13cd06cd21e1c79c2d971f8407572c",
 "d0/d9a/namespacemlibc.html#a2e8fa446b836f5a94c25cb34b7fb291d",
 "d0/d9a/namespacemlibc.html#ad9bed8d2b1141f61f24b40ca884121bd",
 "d0/dd8/structmlibc_1_1nameserver__data.html#aecd62bf3cc01db6d735b5f1d9cc9fa03",

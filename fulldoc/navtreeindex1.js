@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"d0/d18/ArithmeticOperations_8c.html#a7d9409e7e64ecc8d2229dd47949d9a62":[12,0,0,0,2,4,33],
 "d0/d18/ArithmeticOperations_8c.html#a8243402917a8e3551e58276ce3a32e92":[12,0,0,0,2,4,53],
 "d0/d18/ArithmeticOperations_8c.html#a847be821446a8f9337df542f3c69a64f":[12,0,0,0,2,4,38],
 "d0/d18/ArithmeticOperations_8c.html#a84c610895108e6510c064690a834b2cd":[12,0,0,0,2,4,52],
@@ -9,6 +8,7 @@ var NAVTREEINDEX1 =
 "d0/d18/ArithmeticOperations_8c.html#a90102e050c7a459d19f99108d6b4b4c0":[12,0,0,0,2,4,47],
 "d0/d18/ArithmeticOperations_8c.html#a93e05e5d017499ad326048e8030ea904":[12,0,0,0,2,4,57],
 "d0/d18/ArithmeticOperations_8c.html#a996e72f71b11a5bb8b3b7b6936b1516d":[12,0,0,0,2,4,12],
+"d0/d18/ArithmeticOperations_8c.html#a9c7be9ae5877c4bef84573495abce57a":[12,0,0,0,2,4,0,2],
 "d0/d18/ArithmeticOperations_8c.html#a9ff656b54ffdacb67df4e3b8fe323e24":[12,0,0,0,2,4,25],
 "d0/d18/ArithmeticOperations_8c.html#aa8c8f7f1dee15c95f0fd261c72921820":[12,0,0,0,2,4,17],
 "d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad":[12,0,0,0,2,4,14],
