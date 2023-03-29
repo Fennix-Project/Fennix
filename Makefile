@@ -106,18 +106,24 @@ ifeq ($(BOOTLOADER), lynx)
 endif
 
 build_kernel:
+ifeq ($(BUILD_KERNEL), 1)
 	make -j$(shell nproc) --quiet -C Kernel build
+endif
 
 build_userspace:
 ifeq ($(OSARCH), amd64)
+ifeq ($(BUILD_USERSPACE), 1)
 	make --quiet -C Userspace build
 	cp -r Userspace/out/* initrd/
+endif
 endif
 
 build_drivers:
 ifeq ($(OSARCH), amd64)
+ifeq ($(BUILD_DRIVERS), 1)
 	make --quiet -C Drivers build
 	cp Drivers/out/* initrd/system/drivers/
+endif
 endif
 
 build_image:
