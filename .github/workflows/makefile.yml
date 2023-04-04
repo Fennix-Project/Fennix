@@ -287,36 +287,22 @@ jobs:
       run: |
         make build
         mv Fennix.iso Fennix-debug.iso
-        mv Fennix-legacy.iso Fennix-legacy-debug.iso
         make clean
         sed -i 's/.*DEBUG = .*/DEBUG = 0/' ./Makefile.conf && cat Makefile.conf | grep DEBUG
         make build
         mv Fennix.iso Fennix-release.iso
-        mv Fennix-legacy.iso Fennix-legacy-release.iso
 
     - name: Upload Artifact (Fennix-debug.iso)
       uses: actions/upload-artifact@v3.1.0
       with:
-        name: Fennix-amd64-debug
+        name: Fennix-i386-debug
         path: Fennix-debug.iso
 
     - name: Upload Artifact (Fennix-release.iso)
       uses: actions/upload-artifact@v3.1.0
       with:
-        name: Fennix-amd64-release
-        path: Fennix-release.iso
-
-    - name: Upload Artifact (Fennix-legacy-debug.iso)
-      uses: actions/upload-artifact@v3.1.0
-      with:
-        name: Fennix-i386-debug
-        path: Fennix-legacy-debug.iso
-
-    - name: Upload Artifact (Fennix-legacy-release.iso)
-      uses: actions/upload-artifact@v3.1.0
-      with:
         name: Fennix-i386-release
-        path: Fennix-legacy-release.iso
+        path: Fennix-release.iso
 
   compilearm64:
     name: Build aarch64
