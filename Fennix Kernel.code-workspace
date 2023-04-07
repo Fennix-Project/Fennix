@@ -242,6 +242,7 @@
 			"PLTGOT",
 			"PLTREL",
 			"PLTRELSZ",
+			"POPCNT",
 			"powerline",
 			"Prefetchable",
 			"PREINIT",

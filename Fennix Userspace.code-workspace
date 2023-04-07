@@ -22,16 +22,19 @@
 			"inttypes.h": "c",
 			"doomkeys.h": "c",
 			"doomgeneric.h": "c",
-			"elf.h": "c"
+			"elf.h": "c",
+			"init.h": "c"
 		},
 		"cSpell.words": [
 			"auxv",
 			"cmpq",
 			"FENNIX",
+			"JMPREL",
 			"Krnl",
 			"liballoc",
 			"libinit",
 			"preinit",
+			"Shdr",
 			"vfctprintf"
 		]
 	}

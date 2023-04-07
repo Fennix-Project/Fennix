@@ -168,17 +168,32 @@ endif
 # QEMU_UEFI_BIOS = -bios -bios /usr/share/AAVMF/AAVMF_CODE.fd
 # endif
 
+ifeq ($(OSARCH), amd64)
+QEMU_SMP_DBG = -smp $(shell echo $(shell nproc)/4 | bc)
+QEMU_SMP = -smp $(shell nproc)
+endif
+
+ifeq ($(OSARCH), i386)
+QEMU_SMP_DBG = -smp $(shell echo $(shell nproc)/4 | bc)
+QEMU_SMP = -smp $(shell nproc)
+endif
+
+ifeq ($(OSARCH), aarch64)
+QEMU_SMP_DBG = -smp 4
+QEMU_SMP = -smp 4
+endif
+
 vscode_debug: build_kernel build_userspace build_drivers build_image
 	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
-	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 1G $(QEMUFLAGS) -smp $(shell echo $(shell nproc)/4 | bc)
+	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 1G $(QEMUFLAGS) $(QEMU_SMP_DBG)
 
 qemu: qemu_vdisk
 	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
-	$(QEMU) $(QEMU_UEFI_BIOS) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) -smp $(shell nproc)
+	$(QEMU) $(QEMU_UEFI_BIOS) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) $(QEMU_SMP)
 
 qemubios: qemu_vdisk
 	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
-	$(QEMU) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) -smp $(shell nproc)
+	$(QEMU) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) $(QEMU_SMP)
 
 run: build qemu
 
