@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['aarch64_7219',['aarch64',['../d8/dbc/namespaceCPU_1_1aarch64.html',1,'CPU']]],
-  ['amd_7220',['AMD',['../df/dcc/namespaceCPU_1_1x32_1_1AMD.html',1,'CPU::x32::AMD'],['../d9/da9/namespaceCPU_1_1x64_1_1AMD.html',1,'CPU::x64::AMD']]],
-  ['cpu_7221',['CPU',['../d7/dfa/namespaceCPU.html',1,'']]],
-  ['crashhandler_7222',['CrashHandler',['../d2/d57/namespaceCrashHandler.html',1,'']]],
-  ['intel_7223',['Intel',['../dd/d20/namespaceCPU_1_1x32_1_1Intel.html',1,'CPU::x32::Intel'],['../d7/d7e/namespaceCPU_1_1x64_1_1Intel.html',1,'CPU::x64::Intel']]],
-  ['membar_7224',['MemBar',['../d0/db2/namespaceCPU_1_1MemBar.html',1,'CPU']]],
-  ['x32_7225',['x32',['../de/d78/namespaceCPU_1_1x32.html',1,'CPU']]],
-  ['x64_7226',['x64',['../d9/d25/namespaceCPU_1_1x64.html',1,'CPU']]],
-  ['x86_7227',['x86',['../d7/df8/namespaceCPU_1_1x86.html',1,'CPU']]]
+  ['amd_7379',['AMD',['../da/d1a/namespaceCPU_1_1x86_1_1AMD.html',1,'CPU::x86']]],
+  ['cpu_7380',['CPU',['../d7/dfa/namespaceCPU.html',1,'']]],
+  ['crashhandler_7381',['CrashHandler',['../d2/d57/namespaceCrashHandler.html',1,'']]],
+  ['hypervisor_7382',['Hypervisor',['../d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html',1,'CPU::x86']]],
+  ['intel_7383',['Intel',['../d0/db7/namespaceCPU_1_1x86_1_1Intel.html',1,'CPU::x86']]],
+  ['membar_7384',['MemBar',['../d0/db2/namespaceCPU_1_1MemBar.html',1,'CPU']]],
+  ['x32_7385',['x32',['../de/d78/namespaceCPU_1_1x32.html',1,'CPU']]],
+  ['x64_7386',['x64',['../d9/d25/namespaceCPU_1_1x64.html',1,'CPU']]],
+  ['x86_7387',['x86',['../d7/df8/namespaceCPU_1_1x86.html',1,'CPU']]]
 ];

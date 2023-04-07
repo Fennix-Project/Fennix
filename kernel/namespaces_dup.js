@@ -1,5 +1,6 @@
 var namespaces_dup =
 [
+    [ "aarch64", "dc/dce/namespaceaarch64.html", "dc/dce/namespaceaarch64" ],
     [ "ACPI", "df/d22/namespaceACPI.html", "df/d22/namespaceACPI" ],
     [ "APIC", "d3/d88/namespaceAPIC.html", "d3/d88/namespaceAPIC" ],
     [ "AVX", "d9/de6/namespaceAVX.html", null ],
@@ -25,10 +26,7 @@ var namespaces_dup =
       [ "WriteFSFunction", "d3/d97/namespaceMemory.html#a1c5c24bf1615ba4a406fce3ad555d2fa", null ],
       [ "mem_op", "d3/d97/namespaceMemory.html#a6c1d73cc8a1e574400a2055d2beddf2a", null ]
     ] ],
-    [ "MMX", "dd/db4/namespaceMMX.html", [
-      [ "__attribute__", "dd/db4/namespaceMMX.html#ad3b208e9f03bc5df9d78e155c82f6332", null ],
-      [ "_mm_empty", "dd/db4/namespaceMMX.html#a79dc78edb783dee109ae9ef00c021530", null ]
-    ] ],
+    [ "MMX", "dd/db4/namespaceMMX.html", null ],
     [ "NetworkARP", "d2/df9/namespaceNetworkARP.html", "d2/df9/namespaceNetworkARP" ],
     [ "NetworkDHCP", "dd/d53/namespaceNetworkDHCP.html", "dd/d53/namespaceNetworkDHCP" ],
     [ "NetworkDNS", "d3/dd7/namespaceNetworkDNS.html", "d3/dd7/namespaceNetworkDNS" ],
@@ -61,26 +59,10 @@ var namespaces_dup =
       [ "Initialize", "d6/d37/namespaceSMP.html#a83df3dc276fba1e673fcf5551113ca7e", null ],
       [ "CPUCores", "d6/d37/namespaceSMP.html#adaefa60b0beb8f8a2acae6a8c6e87273", null ]
     ] ],
-    [ "SSE", "d5/de2/namespaceSSE.html", [
-      [ "__attribute__", "d5/de2/namespaceSSE.html#afde775c1a84eeba2b6e89bcb9433b55e", null ],
-      [ "_mm_add_ps", "d5/de2/namespaceSSE.html#a16d719be7ceca0384e5faa25b1541b0e", null ],
-      [ "_mm_add_ss", "d5/de2/namespaceSSE.html#a311191692d325a6c6cebeba37a4765d7", null ]
-    ] ],
-    [ "SSE2", "d4/d85/namespaceSSE2.html", [
-      [ "__attribute__", "d4/d85/namespaceSSE2.html#ae74a6b81f85cb3678ebfd3ccd8acb675", null ],
-      [ "_mm_mul_epu32", "d4/d85/namespaceSSE2.html#a0b9cd5deba44a8302af08d665824a48e", null ],
-      [ "_mm_set1_epi32", "d4/d85/namespaceSSE2.html#a022a8148e91b52c2a384f6ea649e2d99", null ],
-      [ "_mm_set_epi32", "d4/d85/namespaceSSE2.html#acb3bfd967aafc0cdc309c8b9b307ab5f", null ],
-      [ "_mm_storeu_si128", "d4/d85/namespaceSSE2.html#a00c6543aaf00217e2d650c602b41d163", null ]
-    ] ],
+    [ "SSE", "d5/de2/namespaceSSE.html", null ],
+    [ "SSE2", "d4/d85/namespaceSSE2.html", null ],
     [ "SSE3", "d8/d98/namespaceSSE3.html", null ],
-    [ "SSE4_1", "de/db2/namespaceSSE4__1.html", [
-      [ "__attribute__", "de/db2/namespaceSSE4__1.html#abedffe0b04cc16bcf3a70c7e31ca7bf4", null ],
-      [ "_mm_cvtepu8_epi32", "de/db2/namespaceSSE4__1.html#ab70feb36be0ce8e657aa62ff0a250501", null ],
-      [ "_mm_cvtsi128_si32", "de/db2/namespaceSSE4__1.html#a6a20121df3f761821422ea71e17fb665", null ],
-      [ "_mm_mullo_epi32", "de/db2/namespaceSSE4__1.html#adf5aa364e8c33166867f6170a35d3f7e", null ],
-      [ "_mm_srli_epi32", "de/db2/namespaceSSE4__1.html#a1d4c0cb3391e54c0bb9f3f16bc1a6256", null ]
-    ] ],
+    [ "SSE4_1", "de/db2/namespaceSSE4__1.html", null ],
     [ "SSE4_2", "db/d3d/namespaceSSE4__2.html", null ],
     [ "SSSE3", "d0/d9a/namespaceSSSE3.html", null ],
     [ "std", "d8/dcc/namespacestd.html", "d8/dcc/namespacestd" ],
@@ -96,5 +78,7 @@ var namespaces_dup =
     [ "UniversalAsynchronousReceiverTransmitter", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter" ],
     [ "Video", "d6/de2/namespaceVideo.html", "d6/de2/namespaceVideo" ],
     [ "VirtualFileSystem", "d5/da1/namespaceVirtualFileSystem.html", "d5/da1/namespaceVirtualFileSystem" ],
+    [ "x32", "de/d52/namespacex32.html", "de/d52/namespacex32" ],
+    [ "x64", "d7/db0/namespacex64.html", "d7/db0/namespacex64" ],
     [ "Xalloc", "dc/d0a/namespaceXalloc.html", "dc/d0a/namespaceXalloc" ]
 ];

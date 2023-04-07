@@ -11,7 +11,7 @@ var dir_840cc6461ca04cec2229c9dd6ade5ae2 =
     [ "size_t.h", "d1/dc9/size__t_8h.html", "d1/dc9/size__t_8h" ],
     [ "ssize_t.h", "df/d4c/ssize__t_8h.html", "df/d4c/ssize__t_8h" ],
     [ "types.h", "df/d21/Userspace_2mlibc_2options_2internal_2include_2bits_2types_8h.html", "df/d21/Userspace_2mlibc_2options_2internal_2include_2bits_2types_8h" ],
-    [ "wchar.h", "dd/dbd/internal_2include_2bits_2wchar_8h.html", "dd/dbd/internal_2include_2bits_2wchar_8h" ],
+    [ "wchar.h", "d3/dff/Userspace_2mlibc_2options_2internal_2include_2bits_2wchar_8h.html", "d3/dff/Userspace_2mlibc_2options_2internal_2include_2bits_2wchar_8h" ],
     [ "wchar_t.h", "df/dfb/wchar__t_8h.html", "df/dfb/wchar__t_8h" ],
     [ "wint_t.h", "d0/dee/wint__t_8h.html", "d0/dee/wint__t_8h" ]
 ];

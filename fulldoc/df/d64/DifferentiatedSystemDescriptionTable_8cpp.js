@@ -13,5 +13,5 @@ var DifferentiatedSystemDescriptionTable_8cpp =
     [ "ACPI_SLEEP_BUTTON", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#a31df40a76e93fe84e07b5134ddf89b45", null ],
     [ "ACPI_TIMER", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#a20dc0f32fe1821a5f6d30b2843572aff", null ],
     [ "ACPI_WAKE", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#ad7a926146864d9621c1217a1208c3803", null ],
-    [ "__attribute__", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#a8ad272105d95a675a7f234c4f90f741f", null ]
+    [ "IsCanonical", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#adca528a45c8cbdefdf20910ae5103a69", null ]
 ];

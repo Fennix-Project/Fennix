@@ -109,21 +109,5 @@ var dhcp_8hpp =
       [ "DHCP_OPTION_NETWORK_TIME_SERVER", "d0/d16/dhcp_8hpp.html#a42afac4eee371cb0e894d6d68da1181aa61e5f19d4cb6c5dbeecc85958104f94e", null ],
       [ "DHCP_OPTION_END", "d0/d16/dhcp_8hpp.html#a42afac4eee371cb0e894d6d68da1181aa55b1f8195d4b26bf33508bf24e662187", null ]
     ] ],
-    [ "__attribute__", "d0/d16/dhcp_8hpp.html#a88ef0840b63b5bec100f159b04ca78ef", null ],
-    [ "__attribute__", "d0/d16/dhcp_8hpp.html#a31fd9a65f2f32ea30859692dcacfaa20", null ],
-    [ "BootFileName", "d0/d16/dhcp_8hpp.html#ae497b5ad52dc5087e6a0d3a46691df5e", null ],
-    [ "ClientHardwareAddress", "d0/d16/dhcp_8hpp.html#aedb5fd151bb9fd15c00cadf7d25ab17d", null ],
-    [ "ClientIP", "d0/d16/dhcp_8hpp.html#afff0382ddcdac15eb436f33f1e0bd69e", null ],
-    [ "Flags", "d0/d16/dhcp_8hpp.html#af2800c799892d286bd4a937d93fff2d2", null ],
-    [ "GatewayIP", "d0/d16/dhcp_8hpp.html#adfcdb0a13270490eb4d76f6f1b91f237", null ],
-    [ "HardwareAddressLength", "d0/d16/dhcp_8hpp.html#ac0e3164055cd64a65ab82d3e1ff2b900", null ],
-    [ "HardwareType", "d0/d16/dhcp_8hpp.html#acae22a9de35df9143185627b7a01d75a", null ],
-    [ "Hops", "d0/d16/dhcp_8hpp.html#a8e49d4265b723fb9064f92c44fb5caea", null ],
-    [ "Opcode", "d0/d16/dhcp_8hpp.html#aae73b2e7584b87acb54fd7cb3d0253e7", null ],
-    [ "Options", "d0/d16/dhcp_8hpp.html#ad4312c35a515bf5e611d48f2311c7983", null ],
-    [ "Seconds", "d0/d16/dhcp_8hpp.html#af94b72f77e19f3b2fa844f72ffce9a88", null ],
-    [ "ServerHostName", "d0/d16/dhcp_8hpp.html#a6a16463e3dd4c91c6e6275a808e28168", null ],
-    [ "ServerIP", "d0/d16/dhcp_8hpp.html#ae29596569c257076542bf119a131d8ba", null ],
-    [ "TransactionID", "d0/d16/dhcp_8hpp.html#a0fdeb3da967c72b3710ed37c9f9aa003", null ],
-    [ "YourIP", "d0/d16/dhcp_8hpp.html#a5294934fce43b7e38b88cbbb467e9f1d", null ]
+    [ "__packed", "d0/d16/dhcp_8hpp.html#a40c92eedfea2c53bbdf866e429abba12", null ]
 ];

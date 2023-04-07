@@ -1,6 +1,7 @@
 var Userspace_2mlibc_2options_2ansi_2include_2math_8h =
 [
     [ "__MLIBC_CHOOSE_COMPARISON", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a9de86946ba6e0fbcf32dc73dd6dcaeae", null ],
+    [ "__signgam", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#acdb2a2420399d5f6f15c948a4341ac2d", null ],
     [ "FP_ILOGB0", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a9ec0e31304d15c42262b2c4a3b58443c", null ],
     [ "FP_ILOGBNAN", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a01e2e5be97c739a5bdcbc619b44f9742", null ],
     [ "FP_INFINITE", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a4f64bcc64f8b84dd9daf5a4e56abf0ca", null ],
@@ -240,5 +241,6 @@ var Userspace_2mlibc_2options_2ansi_2include_2math_8h =
     [ "tgammal", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8eff39a57115761c5025e08ff2e08c6a", null ],
     [ "trunc", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a82a151adfde56b28fa8a50355c4f2ff6", null ],
     [ "truncf", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#aa8bb2049c170c9ac5b131fdba029991a", null ],
-    [ "truncl", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8f9695496a9bb839eb5f728b6bf0c856", null ]
+    [ "truncl", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8f9695496a9bb839eb5f728b6bf0c856", null ],
+    [ "signgam", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#aaf3c24f586d5e086574db96ff817e3e3", null ]
 ];

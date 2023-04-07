@@ -6,11 +6,11 @@ var exec_8hpp =
       [ "Thread", "d5/d27/namespaceExecute.html#aac766b2bb8e8438f44a4726eb815278a", null ]
     ] ],
     [ "SharedLibraries", "d5/d27/namespaceExecute.html#d2/d8b/structExecute_1_1SharedLibraries", [
-      [ "Address", "d5/d27/namespaceExecute.html#a77ffa770d94583ee45c6638ff9779d4a", null ],
-      [ "Identifier", "d5/d27/namespaceExecute.html#acda9570f48fa92e535e1a297da06ccbc", null ],
+      [ "Address", "d5/d27/namespaceExecute.html#a05f0e117abcfafb88a1f7c7bd0d0d3a0", null ],
+      [ "Identifier", "d5/d27/namespaceExecute.html#a1a59052659c02a92464bfadd89002187", null ],
       [ "Length", "d5/d27/namespaceExecute.html#a97312602505cf78ae0620ba8eb51e3dd", null ],
-      [ "MemoryImage", "d5/d27/namespaceExecute.html#a38243ad081e351dcd7140a2e212aac26", null ],
-      [ "RefCount", "d5/d27/namespaceExecute.html#a2b7478dc152d50d87d16d4e3e259fe5c", null ],
+      [ "MemoryImage", "d5/d27/namespaceExecute.html#adaf1637c0c12af90049a171ae7cf5fd7", null ],
+      [ "RefCount", "d5/d27/namespaceExecute.html#afe7806c57b5556d33eb3f299b1577266", null ],
       [ "Timeout", "d5/d27/namespaceExecute.html#af442344926fbb7a1470094a9afde6944", null ]
     ] ],
     [ "ELFBaseLoad", "d5/d27/namespaceExecute.html#d4/df8/structExecute_1_1ELFBaseLoad", [
@@ -49,7 +49,7 @@ var exec_8hpp =
       [ "InvalidFileEntryPoint", "d2/d83/exec_8hpp.html#a282102d37805166b07bb40a352ebb424a5bb1597932d379325addbf3e2e1babd4", null ],
       [ "InvalidFilePath", "d2/d83/exec_8hpp.html#a282102d37805166b07bb40a352ebb424a868b4989770a47e5d2982b7cec8c24c3", null ]
     ] ],
-    [ "AddLibrary", "d2/d83/exec_8hpp.html#a22deb6e14e14b82a4aaaf6d4d83cf94c", null ],
+    [ "AddLibrary", "d2/d83/exec_8hpp.html#a5c2abbcd1512b24b87c0c9dd6761a773", null ],
     [ "ELFCreateMemoryImage", "d2/d83/exec_8hpp.html#a509b5c10d741719e8f06486c35fca91c", null ],
     [ "ELFGetDynamicTag", "d2/d83/exec_8hpp.html#a3379ae6c774083ff08fe121ff0be174e", null ],
     [ "ELFGetSymbolValue", "d2/d83/exec_8hpp.html#ab90293c663674036e5f1f8f7bfdb5624", null ],
@@ -64,6 +64,7 @@ var exec_8hpp =
     [ "GetELFSection", "d2/d83/exec_8hpp.html#ad4527c193949a102a6793a17f1e2fb45", null ],
     [ "GetELFSheader", "d2/d83/exec_8hpp.html#a31dfd87b6fa1ef7beaa37ed956b34097", null ],
     [ "GetELFStringTable", "d2/d83/exec_8hpp.html#a4d3d0d454ea84db99c805b1ed826f8d8", null ],
+    [ "GetLibrary", "d2/d83/exec_8hpp.html#a1b1903888a9c824421eac36466865bcd", null ],
     [ "LoadELFInterpreter", "d2/d83/exec_8hpp.html#aa4496a58d12e4f8b81e79483a3dba5cb", null ],
     [ "SearchLibrary", "d2/d83/exec_8hpp.html#a91a5c0c6c8c3c3e89a5f07211ed3988c", null ],
     [ "Spawn", "d2/d83/exec_8hpp.html#afc1af56a72388d4fce8b751aa6107d81", null ],

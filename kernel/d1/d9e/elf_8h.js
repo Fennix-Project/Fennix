@@ -92,11 +92,11 @@ var elf_8h =
     ] ],
     [ "Elf32_Dyn", "d1/d9e/elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d1/d9e/elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d1/d9e/elf_8h.html#ac67ca2c0fac116dd29b8b69e49925f41", null ]
+      [ "d_un", "d1/d9e/elf_8h.html#a4576333aaa9264efbbe9a5b7eff4d693", null ]
     ] ],
     [ "Elf64_Dyn", "d1/d9e/elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d1/d9e/elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d1/d9e/elf_8h.html#a3ba39bdf3924aa3a39304bb8856a298f", null ]
+      [ "d_un", "d1/d9e/elf_8h.html#a3876fb686ef5d14f83de107e21c03547", null ]
     ] ],
     [ "Elf64_Rela", "d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela", [
       [ "r_addend", "d1/d9e/elf_8h.html#a04358b55027a7dcc414e221d916aac64", null ],

@@ -49,6 +49,5 @@ var namespacePCI =
       [ "PCI_COMMAND_FAST_BACK", "d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a269e92f06c328cbd8220711581e43a6c", null ],
       [ "PCI_COMMAND_INTX_DISABLE", "d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a81d0620cdf140f7fdc330e3f28ea6ab2", null ]
     ] ],
-    [ "__attribute__", "d0/d8f/namespacePCI.html#a6e2117913e2cc8655e06386933dd8c52", null ],
-    [ "__attribute__", "d0/d8f/namespacePCI.html#a88266a40493cb3a3b3f3fcf955f6cd4a", null ]
+    [ "__packed", "d0/d8f/namespacePCI.html#ab14ef18818f70d4e49086a3ab292ca52", null ]
 ];

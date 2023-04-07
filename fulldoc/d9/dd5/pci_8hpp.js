@@ -121,7 +121,6 @@ var pci_8hpp =
       [ "AdvancedMicroDevices", "d9/dd5/pci_8hpp.html#a9b174a996d5ead64c595b3081edb586cae63093767235dce176fb3eb4b80688ae", null ],
       [ "NVIDIACorporation", "d9/dd5/pci_8hpp.html#a9b174a996d5ead64c595b3081edb586ca5a9a8e4299b942673c4983d3ca94e18e", null ]
     ] ],
-    [ "__attribute__", "d9/dd5/pci_8hpp.html#a6e2117913e2cc8655e06386933dd8c52", null ],
     [ "BaseSystemPeripheralSubclassName", "d9/dd5/pci_8hpp.html#ad0567518f7da96c50dc75f1468e9c4f9", null ],
     [ "BridgeDeviceSubclassName", "d9/dd5/pci_8hpp.html#abfaf24294b7be88d50a37fe72f187a4f", null ],
     [ "CommunicationControllerSubclassName", "d9/dd5/pci_8hpp.html#ad73f0e24e434af010228f6981404b88d", null ],
@@ -134,11 +133,6 @@ var pci_8hpp =
     [ "NetworkControllerSubclassName", "d9/dd5/pci_8hpp.html#a595bf39d83d2c3d0b0abdf11be7b2234", null ],
     [ "SerialBusControllerSubclassName", "d9/dd5/pci_8hpp.html#a5be72c0739b02fc38678124f2f5b0748", null ],
     [ "WirelessControllerSubclassName", "d9/dd5/pci_8hpp.html#a3cbb46aaf63c529bb59db2e4f328d606", null ],
-    [ "__attribute__", "d9/dd5/pci_8hpp.html#a88266a40493cb3a3b3f3fcf955f6cd4a", null ],
-    [ "BaseAddress", "d9/dd5/pci_8hpp.html#a20e74cd6f1bbdbbacde53be2a3b1e8c6", null ],
-    [ "DeviceClasses", "d9/dd5/pci_8hpp.html#a98398363e470d42d292fc43e72c22dae", null ],
-    [ "EndBus", "d9/dd5/pci_8hpp.html#ac9e0e5fdbd882a337e9de57eb5f9fa77", null ],
-    [ "PCISegGroup", "d9/dd5/pci_8hpp.html#a938a35e981c64acd8bd37f27a64f434b", null ],
-    [ "Reserved", "d9/dd5/pci_8hpp.html#a43fae5b728aa075b9475bbe49a5738ef", null ],
-    [ "StartBus", "d9/dd5/pci_8hpp.html#af6c8b50b5ce8b9e7c03bc45d13b83024", null ]
+    [ "__packed", "d9/dd5/pci_8hpp.html#ab14ef18818f70d4e49086a3ab292ca52", null ],
+    [ "DeviceClasses", "d9/dd5/pci_8hpp.html#a98398363e470d42d292fc43e72c22dae", null ]
 ];

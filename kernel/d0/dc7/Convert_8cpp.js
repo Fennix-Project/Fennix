@@ -1,6 +1,6 @@
 var Convert_8cpp =
 [
-    [ "__chk_fail", "d0/dc7/Convert_8cpp.html#aec80080c74605db1d6d15b64157e38e7", null ],
+    [ "__chk_fail", "d0/dc7/Convert_8cpp.html#afbd17d7f2fb265d391aa8e28767221b6", null ],
     [ "__convert_chk_fail", "d0/dc7/Convert_8cpp.html#ad693ac0ee138ae27120dff3afcf7fcf0", null ],
     [ "__memcpy_chk", "d0/dc7/Convert_8cpp.html#a36938bce563b8c3c2a618474fd8c2f2d", null ],
     [ "__memmove_chk", "d0/dc7/Convert_8cpp.html#af242a3bb5e4cb0bddf76a93d358665c2", null ],
@@ -30,6 +30,7 @@ var Convert_8cpp =
     [ "reverse", "d0/dc7/Convert_8cpp.html#a513c82157e295d2514ac88fd9528ccc8", null ],
     [ "smoothstep", "d0/dc7/Convert_8cpp.html#ae1e148915baf46d1e20a09a1d544a7c3", null ],
     [ "sqrtf", "d0/dc7/Convert_8cpp.html#a1963ae9763b306b055a2488f704ee431", null ],
+    [ "strcasecmp", "d0/dc7/Convert_8cpp.html#a706b36f3a672f84685576723c3928baa", null ],
     [ "strcat_unsafe", "d0/dc7/Convert_8cpp.html#affc260dcbf19ebb4f662b6fb165a2dfb", null ],
     [ "strchr", "d0/dc7/Convert_8cpp.html#a4a7366a6bb2151179059a1990cfebf3e", null ],
     [ "strcmp", "d0/dc7/Convert_8cpp.html#a292488099a0b90f23e663ba4bfa20b38", null ],
@@ -43,5 +44,7 @@ var Convert_8cpp =
     [ "strtol", "d0/dc7/Convert_8cpp.html#a0810b1447e6c87dc5507f8bd2802379e", null ],
     [ "strtoul", "d0/dc7/Convert_8cpp.html#a38a11c0000b2fedbdc49a41555abaf4a", null ],
     [ "swap", "d0/dc7/Convert_8cpp.html#aa8189ab703408e87f5a5cd1887312ce6", null ],
-    [ "ultoa", "d0/dc7/Convert_8cpp.html#a6d16cfe582260a88df041a033f946d23", null ]
+    [ "ultoa", "d0/dc7/Convert_8cpp.html#a6d16cfe582260a88df041a033f946d23", null ],
+    [ "wcslen", "d0/dc7/Convert_8cpp.html#a7859e4ba07f77515772c4632d4caa4e0", null ],
+    [ "wcsrtombs", "d0/dc7/Convert_8cpp.html#aec0d1a0906997f8b01345878482eb5b2", null ]
 ];

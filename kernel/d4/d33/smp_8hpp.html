@@ -178,7 +178,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00012">12</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 </div>
 </div>
 </div>
@@ -194,7 +194,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -274,7 +274,7 @@ Used by syscall handler. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00010">10</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00027">27</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
 </div>
 </div>
@@ -292,7 +292,7 @@ Used by syscall handler. </td></tr>
 
 <p>Maximum supported number of <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> cores by the kernel. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00026">26</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
 </div>
 </div>
@@ -331,8 +331,8 @@ Used by syscall handler. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{ <span class="keywordflow">return</span> &amp;CPUs[id]; }</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{ <span class="keywordflow">return</span> &amp;CPUs[id]; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -351,32 +351,32 @@ Used by syscall handler. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> ret = 0;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (!CPUs[ret].<a class="code" href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a>)</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;CPU %d is not active!&quot;</span>, ret);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> &amp;CPUs[0];</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">if</span> (CPUs[ret].<a class="code" href="../../d1/d90/acpi_8hpp.html#ad98d5051c2e94669e746dd13771daac8">Checksum</a> != <a class="code" href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a>)</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;CPU %d data is corrupted!&quot;</span>, ret);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> &amp;CPUs[0];</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> &amp;CPUs[ret];</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> ret = 0;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span> (!CPUs[ret].<a class="code" href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a>)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;CPU %d is not active!&quot;</span>, ret);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> &amp;CPUs[0];</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">if</span> (CPUs[ret].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != <a class="code" href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a>)</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;CPU %d data is corrupted!&quot;</span>, ret);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">return</span> &amp;CPUs[0];</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    }</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">return</span> &amp;CPUs[ret];</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
 <div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00290">ArithmeticOperations.c:290</a></div></div>
-<div class="ttc" id="aacpi_8hpp_html_ad98d5051c2e94669e746dd13771daac8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#ad98d5051c2e94669e746dd13771daac8">Checksum</a></div><div class="ttdeci">uint8_t Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00003">acpi.hpp:3</a></div></div>
-<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00061">debug.h:61</a></div></div>
-<div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00010">smp.hpp:10</a></div></div>
+<div class="ttc" id="aXallocV1_8cpp_html_aca10be923fb0da174d8c3a29d8b5083b"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a></div><div class="ttdeci">int Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">XallocV1.cpp:3</a></div></div>
+<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00078">debug.h:78</a></div></div>
+<div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00027">smp.hpp:27</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a92c6b1cf703f9e064f5efc0907f80379"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></div><div class="ttdeci">bool IsActive</div><div class="ttdoc">Is CPU online?</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00028">smp.hpp:28</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00014">APIC::APIC_ID</a>, <a class="el" href="../../dc/da7/assert_8h_source.html#l00006">assert</a>, <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00010">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00061">error</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">IsActive</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00332">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00031">APIC::APIC_ID</a>, <a class="el" href="../../dc/da7/assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00027">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00078">error</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">IsActive</a>, and <a class="el" href="../../d9/d49/types_8h_source.html#l00351">unlikely</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00201">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00202">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00191">GlobalDescriptorTable::GetKernelStack()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00788">CrashHandler::Handle()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00115">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00034">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00173">GlobalDescriptorTable::SetKernelStack()</a>, <a class="el" href="../../df/df7/Scheduler_8cpp_source.html#l00093">TaskingScheduler_OneShot()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00192">Tasking::ThreadDoExit()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00350">APIC::Timer::Timer()</a>, <a class="el" href="../../de/d15/UserHandler_8cpp_source.html#l00028">UserModeExceptionHandler()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00852">Tasking::Task::~Task()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00220">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00221">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00208">GlobalDescriptorTable::GetKernelStack()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00814">CrashHandler::Handle()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00132">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00051">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00190">GlobalDescriptorTable::SetKernelStack()</a>, <a class="el" href="../../df/df7/Scheduler_8cpp_source.html#l00110">TaskingScheduler_OneShot()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00211">ThreadDoExit()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00353">APIC::Timer::Timer()</a>, <a class="el" href="../../de/d15/UserHandler_8cpp_source.html#l00045">UserModeExceptionHandler()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00858">Tasking::Task::~Task()</a>.</p>
 
 </div>
 </div>
@@ -415,7 +415,7 @@ Used by syscall handler. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00016">16</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00852">Tasking::Task::~Task()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00858">Tasking::Task::~Task()</a>.</p>
 
 </div>
 </div>
@@ -435,7 +435,7 @@ Used by syscall handler. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00019">19</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00852">Tasking::Task::~Task()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00858">Tasking::Task::~Task()</a>.</p>
 
 </div>
 </div>
@@ -454,6 +454,8 @@ Used by syscall handler. </td></tr>
 <p>Architecture-specific data. </p>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d0a/namespaceXalloc.html#ac99ef2b2a6f41010a2b601e150affda4">Xalloc::__attribute__()</a>, <a class="el" href="../../d5/d24/Checksum_8cpp_source.html#l00020">CalculateChecksum()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00105">DriverAHCIDiskRead()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00113">DriverAHCIDiskWrite()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00099">DriverNetReceive()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00092">DriverNetSend()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00192">NetworkInterfaceManager::NetworkInterface::DrvReceive()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00185">NetworkInterfaceManager::NetworkInterface::DrvSend()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00039">ExceptionHandler()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00814">CrashHandler::Handle()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00132">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../d3/d3b/AddressResolutionProtocol_8cpp_source.html#l00190">NetworkARP::ARP::OnEthernetPacketReceived()</a>, <a class="el" href="../../d3/d34/eth_8hpp_source.html#l00059">NetworkEthernet::EthernetEvents::OnEthernetPacketReceived()</a>, <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00071">NetworkIPv4::IPv4::OnEthernetPacketReceived()</a>, <a class="el" href="../../d2/dda/UserDatagramProtocol_8cpp_source.html#l00098">NetworkUDP::UDP::OnIPv4PacketReceived()</a>, <a class="el" href="../../d8/d38/DynamicHostConfigurationProtocol_8cpp_source.html#l00156">NetworkDHCP::DHCP::OnUDPPacketReceived()</a>, <a class="el" href="../../d9/db8/NetworkTimeProtocol_8cpp_source.html#l00025">NetworkNTP::NTP::OnUDPPacketReceived()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00217">NetworkInterfaceManager::NetworkInterface::Receive()</a>, <a class="el" href="../../d9/d3b/Ethernet_8cpp_source.html#l00063">NetworkEthernet::Ethernet::Receive()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00199">NetworkInterfaceManager::NetworkInterface::Send()</a>, <a class="el" href="../../d9/d3b/Ethernet_8cpp_source.html#l00046">NetworkEthernet::Ethernet::Send()</a>, <a class="el" href="../../d2/dda/UserDatagramProtocol_8cpp_source.html#l00077">NetworkUDP::UDP::Send()</a>, and <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00037">NetworkIPv4::IPv4::Send()</a>.</p>
 
 </div>
 </div>
@@ -491,7 +493,7 @@ Used by syscall handler. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00010">10</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00044">InterProcessCommunication::IPC::Allocate()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00065">InterProcessCommunication::IPC::Deallocate()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00026">InterProcessCommunication::IPC::Destroy()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00204">Tasking::Task::GetProcessByID()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00212">Tasking::Task::GetThreadByID()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00196">InterProcessCommunication::IPC::HandleSyscall()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00148">InterProcessCommunication::IPC::Listen()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00034">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00084">InterProcessCommunication::IPC::Read()</a>, <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00123">sys_ipc()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00350">APIC::Timer::Timer()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00163">InterProcessCommunication::IPC::Wait()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00114">InterProcessCommunication::IPC::Write()</a>, and <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00191">Interrupts::Handler::~Handler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00061">InterProcessCommunication::IPC::Allocate()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00082">InterProcessCommunication::IPC::Deallocate()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00043">InterProcessCommunication::IPC::Destroy()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00223">Tasking::Task::GetProcessByID()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00231">Tasking::Task::GetThreadByID()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00213">InterProcessCommunication::IPC::HandleSyscall()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00165">InterProcessCommunication::IPC::Listen()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00051">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00101">InterProcessCommunication::IPC::Read()</a>, <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00222">sys_ipc()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00353">APIC::Timer::Timer()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00180">InterProcessCommunication::IPC::Wait()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00131">InterProcessCommunication::IPC::Write()</a>, and <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00208">Interrupts::Handler::~Handler()</a>.</p>
 
 </div>
 </div>
@@ -511,7 +513,7 @@ Used by syscall handler. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00016">GetCurrentCPU()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00033">GetCurrentCPU()</a>.</p>
 
 </div>
 </div>
@@ -531,7 +533,7 @@ Used by syscall handler. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d13/StackGuard_8cpp_source.html#l00038">__attribute__()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">Tasking::Task::CreateThread()</a>, and <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00173">GlobalDescriptorTable::SetKernelStack()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d13/StackGuard_8cpp_source.html#l00055">__stack_chk_fail()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00373">Tasking::Task::CreateThread()</a>, and <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00190">GlobalDescriptorTable::SetKernelStack()</a>.</p>
 
 </div>
 </div>

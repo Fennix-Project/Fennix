@@ -1,11 +1,16 @@
 var convert_8h =
 [
+    [ "mbstate_t", "d3/d82/convert_8h.html#db/d77/structmbstate__t", [
+      [ "count", "d3/d82/convert_8h.html#adc432e1e6200a267e3eb0f2f6229e8c8", null ],
+      [ "value", "d3/d82/convert_8h.html#ae865594b284185e5ed1158b068c38237", null ]
+    ] ],
     [ "memcpy", "d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45", null ],
     [ "memmove", "d3/d82/convert_8h.html#ade3705de59d35b8a437f71a8beff883c", null ],
     [ "memset", "d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad", null ],
     [ "NAN", "d3/d82/convert_8h.html#a8abfcc76130f3f991d124dd22d7e69bc", null ],
     [ "strcat", "d3/d82/convert_8h.html#a95e2d4ca3ec1295e3c2e9a048363e469", null ],
     [ "strcpy", "d3/d82/convert_8h.html#a06688b0d2444199f657ccb56b0ce11b3", null ],
+    [ "mbstate_t", "d3/d82/convert_8h.html#aa15c08e374446c6f2dceb58f949ec00d", null ],
     [ "__memcpy_chk", "d3/d82/convert_8h.html#a85aea5510a91795b5747abbb76f0c368", null ],
     [ "__memmove_chk", "d3/d82/convert_8h.html#adb99735961a1fb27f8e85927067079e0", null ],
     [ "__memset_chk", "d3/d82/convert_8h.html#ae342c23e539f77badba2d50fa05ea7e7", null ],
@@ -53,7 +58,7 @@ var convert_8h =
     [ "reverse", "d3/d82/convert_8h.html#af927ee96b41aa243c2191642f1788665", null ],
     [ "smoothstep", "d3/d82/convert_8h.html#a01f63863fb625bf310c3db19c63ba001", null ],
     [ "sqrtf", "d3/d82/convert_8h.html#a46c9a8d40cde7c4d5ab40a67e55316bb", null ],
-    [ "strcasecmp", "d3/d82/convert_8h.html#a3d8dd47ed6e64abdd742b81e73b6f2f2", null ],
+    [ "strcasecmp", "d3/d82/convert_8h.html#a706b36f3a672f84685576723c3928baa", null ],
     [ "strcat_unsafe", "d3/d82/convert_8h.html#a855d08be6d1e7101b57a59ec22e1c518", null ],
     [ "strchr", "d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880", null ],
     [ "strcmp", "d3/d82/convert_8h.html#a5206cb6f52495066146ae3a41d166eb7", null ],
@@ -69,5 +74,7 @@ var convert_8h =
     [ "strtol", "d3/d82/convert_8h.html#a2ce966cd04da3c32320f54c332569e03", null ],
     [ "strtoul", "d3/d82/convert_8h.html#aa7d767d03ce3929978c28f64e3a4b222", null ],
     [ "swap", "d3/d82/convert_8h.html#a5caa2956a259c15d67de63fcddff3e57", null ],
-    [ "ultoa", "d3/d82/convert_8h.html#a6a07124527ae550e2bdf0449a097bd4a", null ]
+    [ "ultoa", "d3/d82/convert_8h.html#a6a07124527ae550e2bdf0449a097bd4a", null ],
+    [ "wcslen", "d3/d82/convert_8h.html#a7859e4ba07f77515772c4632d4caa4e0", null ],
+    [ "wcsrtombs", "d3/d82/convert_8h.html#aec0d1a0906997f8b01345878482eb5b2", null ]
 ];

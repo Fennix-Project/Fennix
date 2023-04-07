@@ -90,8 +90,7 @@ $(document).ready(function(){initNavTree('dc/da7/amd64_2cpu_2idt_8hpp.html','../
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">idt.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -116,6 +115,10 @@ Namespaces</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:ae24ba5152e822eb3b7599bb191f81d9f"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1">InterruptDescriptorTable::_InterruptDescriptorTableFlags</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ae24ba5152e822eb3b7599bb191f81d9f">InterruptDescriptorTable::InterruptDescriptorTableFlags</a></td></tr>
 <tr class="separator:ae24ba5152e822eb3b7599bb191f81d9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2fbeed1966a379058d595a236155dbf"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#d4/d60/structInterruptDescriptorTable_1_1__InterruptDescriptorTableEntry">InterruptDescriptorTable::_InterruptDescriptorTableEntry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#af2fbeed1966a379058d595a236155dbf">InterruptDescriptorTable::InterruptDescriptorTableEntry</a></td></tr>
+<tr class="separator:af2fbeed1966a379058d595a236155dbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad63e3bcdb96cd8814586c737ce4eb9f2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#dc/ded/structInterruptDescriptorTable_1_1__InterruptDescriptorTableDescriptor">InterruptDescriptorTable::_InterruptDescriptorTableDescriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad63e3bcdb96cd8814586c737ce4eb9f2">InterruptDescriptorTable::InterruptDescriptorTableDescriptor</a></td></tr>
+<tr class="separator:ad63e3bcdb96cd8814586c737ce4eb9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -138,39 +141,10 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8901e7de738cfe120b0529592d80496f"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#d4/d60/structInterruptDescriptorTable_1_1__InterruptDescriptorTableEntry">InterruptDescriptorTable::_InterruptDescriptorTableEntry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a8901e7de738cfe120b0529592d80496f">InterruptDescriptorTable::__attribute__</a> ((packed)) InterruptDescriptorTableEntry</td></tr>
-<tr class="separator:a8901e7de738cfe120b0529592d80496f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91dd97eaf022dfa7a023a8734aa59a1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a91dd97eaf022dfa7a023a8734aa59a1b">InterruptDescriptorTable::SetEntry</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Index, void(*Base)(), InterruptDescriptorTableFlags Attribute, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="el" href="../../dc/df0/i386_2cpu_2gdt_8hpp.html#a9cbcf7dbaba62e0aa7990f9c0893e165">InterruptStackTable</a>, InterruptDescriptorTableFlags <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#a5429fbc529e126b848e51b11bfbcf7ec">Ring</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#a1af69d0c46134134a1dcc3b6ac2e63eb">SegmentSelector</a>)</td></tr>
+<tr class="memitem:a91dd97eaf022dfa7a023a8734aa59a1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a91dd97eaf022dfa7a023a8734aa59a1b">InterruptDescriptorTable::SetEntry</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Index, void(*Base)(), InterruptDescriptorTableFlags Attribute, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> InterruptStackTable, InterruptDescriptorTableFlags Ring, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SegmentSelector)</td></tr>
 <tr class="separator:a91dd97eaf022dfa7a023a8734aa59a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5275e6707c957c5ba4b050102990c908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908">InterruptDescriptorTable::Init</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> Core)</td></tr>
 <tr class="separator:a5275e6707c957c5ba4b050102990c908"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a578db8a0ba46c165c3504c06fb93ed80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#a578db8a0ba46c165c3504c06fb93ed80">BaseLow</a></td></tr>
-<tr class="separator:a578db8a0ba46c165c3504c06fb93ed80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1af69d0c46134134a1dcc3b6ac2e63eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#a1af69d0c46134134a1dcc3b6ac2e63eb">SegmentSelector</a></td></tr>
-<tr class="separator:a1af69d0c46134134a1dcc3b6ac2e63eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58670cd51a1f9b5f3390457c2481252d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#a58670cd51a1f9b5f3390457c2481252d">InterruptStackTable</a></td></tr>
-<tr class="separator:a58670cd51a1f9b5f3390457c2481252d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afea133adf188dfb8979f48bcdaa69acf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#afea133adf188dfb8979f48bcdaa69acf">Reserved1</a></td></tr>
-<tr class="separator:afea133adf188dfb8979f48bcdaa69acf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f328ecb741311a0c5026ffbb615d639"><td class="memItemLeft" align="right" valign="top">InterruptDescriptorTableFlags&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#a7f328ecb741311a0c5026ffbb615d639">Flags</a></td></tr>
-<tr class="separator:a7f328ecb741311a0c5026ffbb615d639"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75ffe246834f18014b5ef078cc2c47d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#a75ffe246834f18014b5ef078cc2c47d6">Reserved2</a></td></tr>
-<tr class="separator:a75ffe246834f18014b5ef078cc2c47d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5429fbc529e126b848e51b11bfbcf7ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#a5429fbc529e126b848e51b11bfbcf7ec">Ring</a></td></tr>
-<tr class="separator:a5429fbc529e126b848e51b11bfbcf7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdb871789a1e4398874af8cb07987ef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#acdb871789a1e4398874af8cb07987ef6">Present</a></td></tr>
-<tr class="separator:acdb871789a1e4398874af8cb07987ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affc87079f08599e4a3804d23b9df736d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#affc87079f08599e4a3804d23b9df736d">BaseHigh</a></td></tr>
-<tr class="separator:affc87079f08599e4a3804d23b9df736d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae010e18fff7afc3a36f5dbba53881816"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#ae010e18fff7afc3a36f5dbba53881816">Reserved3</a></td></tr>
-<tr class="separator:ae010e18fff7afc3a36f5dbba53881816"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a930e5a4d8414c0427fe5c636062579db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#a930e5a4d8414c0427fe5c636062579db">Length</a></td></tr>
-<tr class="separator:a930e5a4d8414c0427fe5c636062579db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4198a2f4c3d714550631460af8d09c36"><td class="memItemLeft" align="right" valign="top">InterruptDescriptorTableEntry *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp.html#a4198a2f4c3d714550631460af8d09c36">Entries</a></td></tr>
-<tr class="separator:a4198a2f4c3d714550631460af8d09c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d4/d60/structInterruptDescriptorTable_1_1__InterruptDescriptorTableEntry" id="d4/d60/structInterruptDescriptorTable_1_1__InterruptDescriptorTableEntry"></a>
@@ -185,7 +159,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -264,11 +238,11 @@ SegmentSelector: 16</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00036">36</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00053">53</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ac57aeaa228c50e512aca8afd45812238"></a>InterruptDescriptorTableEntry *</td>
+<a id="ac57aeaa228c50e512aca8afd45812238"></a><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#af2fbeed1966a379058d595a236155dbf">InterruptDescriptorTableEntry</a> *</td>
 <td class="fieldname">
 Entries</td>
 <td class="fielddoc">
@@ -280,205 +254,6 @@ Length</td>
 <td class="fielddoc">
 </td></tr>
 </table>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="affc87079f08599e4a3804d23b9df736d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affc87079f08599e4a3804d23b9df736d">&#9670;&nbsp;</a></span>BaseHigh</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> BaseHigh</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00008">8</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a578db8a0ba46c165c3504c06fb93ed80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a578db8a0ba46c165c3504c06fb93ed80">&#9670;&nbsp;</a></span>BaseLow</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> BaseLow</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00000">0</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a4198a2f4c3d714550631460af8d09c36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4198a2f4c3d714550631460af8d09c36">&#9670;&nbsp;</a></span>Entries</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">InterruptDescriptorTableEntry* Entries</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a7f328ecb741311a0c5026ffbb615d639"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f328ecb741311a0c5026ffbb615d639">&#9670;&nbsp;</a></span>Flags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">InterruptDescriptorTableFlags Flags</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00004">4</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a58670cd51a1f9b5f3390457c2481252d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58670cd51a1f9b5f3390457c2481252d">&#9670;&nbsp;</a></span>InterruptStackTable</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> InterruptStackTable</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00002">2</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a930e5a4d8414c0427fe5c636062579db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a930e5a4d8414c0427fe5c636062579db">&#9670;&nbsp;</a></span>Length</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Length</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00000">0</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-</div>
-</div>
-<a id="acdb871789a1e4398874af8cb07987ef6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdb871789a1e4398874af8cb07987ef6">&#9670;&nbsp;</a></span>Present</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Present</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d85/CrashDetails_8cpp_source.html#l00142">PageFaultExceptionHandler()</a>, and <a class="el" href="../../de/d15/UserHandler_8cpp_source.html#l00028">UserModeExceptionHandler()</a>.</p>
-
-</div>
-</div>
-<a id="afea133adf188dfb8979f48bcdaa69acf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afea133adf188dfb8979f48bcdaa69acf">&#9670;&nbsp;</a></span>Reserved1</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Reserved1</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a75ffe246834f18014b5ef078cc2c47d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75ffe246834f18014b5ef078cc2c47d6">&#9670;&nbsp;</a></span>Reserved2</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Reserved2</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00005">5</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae010e18fff7afc3a36f5dbba53881816"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae010e18fff7afc3a36f5dbba53881816">&#9670;&nbsp;</a></span>Reserved3</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Reserved3</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a5429fbc529e126b848e51b11bfbcf7ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5429fbc529e126b848e51b11bfbcf7ec">&#9670;&nbsp;</a></span>Ring</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Ring</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00006">6</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00025">InterruptDescriptorTable::SetEntry()</a>.</p>
-
-</div>
-</div>
-<a id="a1af69d0c46134134a1dcc3b6ac2e63eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1af69d0c46134134a1dcc3b6ac2e63eb">&#9670;&nbsp;</a></span>SegmentSelector</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> SegmentSelector</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00025">InterruptDescriptorTable::SetEntry()</a>.</p>
 
 </div>
 </div>

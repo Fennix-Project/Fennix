@@ -104,33 +104,43 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8ad272105d95a675a7f234c4f90f741f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#a8ad272105d95a675a7f234c4f90f741f">__attribute__</a> ((always_inline)) inline <a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> IsCanonical(<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>)</td></tr>
-<tr class="separator:a8ad272105d95a675a7f234c4f90f741f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca528a45c8cbdefdf20910ae5103a69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#adca528a45c8cbdefdf20910ae5103a69">IsCanonical</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>)</td></tr>
+<tr class="separator:adca528a45c8cbdefdf20910ae5103a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8ad272105d95a675a7f234c4f90f741f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ad272105d95a675a7f234c4f90f741f">&#9670;&nbsp;</a></span>__attribute__()</h2>
+<a id="adca528a45c8cbdefdf20910ae5103a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adca528a45c8cbdefdf20910ae5103a69">&#9670;&nbsp;</a></span>IsCanonical()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ACPI::__attribute__ </td>
+          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> ACPI::IsCanonical </td>
           <td>(</td>
-          <td class="paramtype">(always_inline)&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramname"><em>Address</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> ((<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &lt;= 0x00007FFFFFFFFFFF) || ((<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &gt;= 0xFFFF800000000000) &amp;&amp; (<a class="code" href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a> &lt;= 0xFFFFFFFFFFFFFFFF)));</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
-<div class="ttc" id="aacpi_8hpp_html_aca1b23fd721c8d8dc70a8227e336b6e8"><div class="ttname"><a href="../../d1/d90/acpi_8hpp.html#aca1b23fd721c8d8dc70a8227e336b6e8">Address</a></div><div class="ttdeci">uint64_t Address</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00004">acpi.hpp:4</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> ((<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a> &lt;= 0x00007FFFFFFFFFFF) || ((<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a> &gt;= 0xFFFF800000000000) &amp;&amp; (<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a> &lt;= 0xFFFFFFFFFFFFFFFF)));</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    }</div>
+<div class="ttc" id="aXallocV1_8cpp_html_ae0cc8a5c23a59a178d241a27f12b1ef5"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">XallocV1.cpp:1</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d90/acpi_8hpp_source.html#l00004">Address</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">Address</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00176">ACPI::DSDT::DSDT()</a>.</p>
 
 </div>
 </div>

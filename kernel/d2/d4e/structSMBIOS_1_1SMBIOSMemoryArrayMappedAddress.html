@@ -115,7 +115,7 @@ Data Fields</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00262">262</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00279">279</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8f28680f77248c767c0cc3f6f97f752f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8f28680f77248c767c0cc3f6f97f752f">&#9670;&nbsp;</a></span>GetString()</h2>
@@ -141,21 +141,21 @@ Data Fields</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00270">270</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        {</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <span class="keywordtype">char</span> *Str = (<span class="keywordtype">char</span> *)((<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)<span class="keyword">this</span> + this-&gt;<a class="code" href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#af4ed576006fe9cff4d083f72664b34cb">Header</a>.<a class="code" href="../../da/d5f/namespaceSMBIOS.html#aa2b216f0361ddab47094a829f2bbc7c3">Length</a>);</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            Index--;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            <span class="keywordflow">if</span> (Index == 0 || Index &gt; 10)</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                <span class="keywordflow">return</span> Str;</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> i = 0; i &lt; Index; i++)</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                Str = <a class="code" href="../../da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30">SMBIOSNextString</a>(Str);</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <span class="keywordflow">return</span> Str;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        }</div>
-<div class="ttc" id="anamespaceSMBIOS_html_aa2b216f0361ddab47094a829f2bbc7c3"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#aa2b216f0361ddab47094a829f2bbc7c3">SMBIOS::SMBIOSHeader::Length</a></div><div class="ttdeci">unsigned char Length</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00062">smbios.hpp:62</a></div></div>
-<div class="ttc" id="anamespaceSMBIOS_html_ade5c4d4c3f23921f77e72a38d3e2fc30"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30">SMBIOS::SMBIOSNextString</a></div><div class="ttdeci">static char * SMBIOSNextString(char *Str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00084">smbios.hpp:84</a></div></div>
-<div class="ttc" id="astructSMBIOS_1_1SMBIOSMemoryArrayMappedAddress_html_af4ed576006fe9cff4d083f72664b34cb"><div class="ttname"><a href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#af4ed576006fe9cff4d083f72664b34cb">SMBIOS::SMBIOSMemoryArrayMappedAddress::Header</a></div><div class="ttdeci">SMBIOSHeader Header</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00264">smbios.hpp:264</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00287">287</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            <span class="keywordtype">char</span> *Str = (<span class="keywordtype">char</span> *)((<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span>)<span class="keyword">this</span> + this-&gt;<a class="code" href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#af4ed576006fe9cff4d083f72664b34cb">Header</a>.<a class="code" href="../../da/d5f/namespaceSMBIOS.html#aa2b216f0361ddab47094a829f2bbc7c3">Length</a>);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            Index--;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            <span class="keywordflow">if</span> (Index == 0 || Index &gt; 10)</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                <span class="keywordflow">return</span> Str;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> i = 0; i &lt; Index; i++)</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                Str = <a class="code" href="../../da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30">SMBIOSNextString</a>(Str);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            <span class="keywordflow">return</span> Str;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        }</div>
+<div class="ttc" id="anamespaceSMBIOS_html_aa2b216f0361ddab47094a829f2bbc7c3"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#aa2b216f0361ddab47094a829f2bbc7c3">SMBIOS::SMBIOSHeader::Length</a></div><div class="ttdeci">unsigned char Length</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00079">smbios.hpp:79</a></div></div>
+<div class="ttc" id="anamespaceSMBIOS_html_ade5c4d4c3f23921f77e72a38d3e2fc30"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30">SMBIOS::SMBIOSNextString</a></div><div class="ttdeci">static char * SMBIOSNextString(char *Str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00101">smbios.hpp:101</a></div></div>
+<div class="ttc" id="astructSMBIOS_1_1SMBIOSMemoryArrayMappedAddress_html_af4ed576006fe9cff4d083f72664b34cb"><div class="ttname"><a href="../../d2/d4e/structSMBIOS_1_1SMBIOSMemoryArrayMappedAddress.html#af4ed576006fe9cff4d083f72664b34cb">SMBIOS::SMBIOSMemoryArrayMappedAddress::Header</a></div><div class="ttdeci">SMBIOSHeader Header</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d8f/smbios_8hpp_source.html#l00281">smbios.hpp:281</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00062">SMBIOS::SMBIOSHeader::Length</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00084">SMBIOS::SMBIOSNextString()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00079">SMBIOS::SMBIOSHeader::Length</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00101">SMBIOS::SMBIOSNextString()</a>.</p>
 
 </div>
 </div>
@@ -172,7 +172,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00266">266</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00283">283</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
 
 </div>
 </div>
@@ -188,7 +188,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00264">264</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00281">281</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
 
 </div>
 </div>
@@ -204,7 +204,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00267">267</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00284">284</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
 
 </div>
 </div>
@@ -220,7 +220,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00268">268</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00285">285</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
 
 </div>
 </div>
@@ -236,7 +236,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00265">265</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00282">282</a> of file <a class="el" href="../../d5/d8f/smbios_8hpp_source.html">smbios.hpp</a>.</p>
 
 </div>
 </div>

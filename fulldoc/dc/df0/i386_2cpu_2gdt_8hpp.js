@@ -1,7 +1,15 @@
 var i386_2cpu_2gdt_8hpp =
 [
-    [ "GlobalDescriptorTableAccess", "d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess.html", "d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess" ],
-    [ "GlobalDescriptorTableFlags", "dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags.html", "dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags" ],
+    [ "GlobalDescriptorTableAccess", "d1/d69/namespaceGlobalDescriptorTable.html#d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess", [
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#af882553a7c3541d6c1e1f916a6c058d9", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#aaa3d4d0c6fbb49459d521c112004acae", null ],
+      [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#afd9dd502a7fed60cb06675ba090f5fe0", null ]
+    ] ],
+    [ "GlobalDescriptorTableFlags", "d1/d69/namespaceGlobalDescriptorTable.html#dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags", [
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a278526e4bc58a3bcb94b2f692d6d666d", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a71e7fa0abcca27ea4c7a4a31aa2830f3", null ],
+      [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#a8ca3092925e24125cdb5434019bd4a13", null ]
+    ] ],
     [ "_TaskStateSegmentEntry", "d1/d69/namespaceGlobalDescriptorTable.html#da/d67/structGlobalDescriptorTable_1_1__TaskStateSegmentEntry", [
       [ "BaseHigh", "d1/d69/namespaceGlobalDescriptorTable.html#a0c893e2052e91a35b36326a868c1e194", null ],
       [ "BaseLow", "d1/d69/namespaceGlobalDescriptorTable.html#ae4cdffd1896e27a7f6c08737bb8bf7d8", null ],
@@ -33,43 +41,33 @@ var i386_2cpu_2gdt_8hpp =
       [ "Entries", "d1/d69/namespaceGlobalDescriptorTable.html#a4981351f929ac285558aa5771359c4af", null ],
       [ "Length", "d1/d69/namespaceGlobalDescriptorTable.html#a2cc87c2c7fe724170f1a79797594b49f", null ]
     ] ],
+    [ "GlobalDescriptorTableAccess.__packed", "d1/d69/namespaceGlobalDescriptorTable.html#d0/de0/structGlobalDescriptorTable_1_1GlobalDescriptorTableAccess_8____packed", [
+      [ "A", "d1/d69/namespaceGlobalDescriptorTable.html#a7fc56270e7a70fa81a5935b72eacbe29", null ],
+      [ "A", "d1/d69/namespaceGlobalDescriptorTable.html#a7fc56270e7a70fa81a5935b72eacbe29", null ],
+      [ "DC", "d1/d69/namespaceGlobalDescriptorTable.html#acf75e54791dd1f49f918345fdfe2430b", null ],
+      [ "DC", "d1/d69/namespaceGlobalDescriptorTable.html#acf75e54791dd1f49f918345fdfe2430b", null ],
+      [ "DPL", "d1/d69/namespaceGlobalDescriptorTable.html#affbad918aa5e36b84c5d04b4f4ccee4f", null ],
+      [ "DPL", "d1/d69/namespaceGlobalDescriptorTable.html#affbad918aa5e36b84c5d04b4f4ccee4f", null ],
+      [ "E", "d1/d69/namespaceGlobalDescriptorTable.html#a3a3ea00cfc35332cedf6e5e9a32e94da", null ],
+      [ "E", "d1/d69/namespaceGlobalDescriptorTable.html#a3a3ea00cfc35332cedf6e5e9a32e94da", null ],
+      [ "P", "d1/d69/namespaceGlobalDescriptorTable.html#a44c29edb103a2872f519ad0c9a0fdaaa", null ],
+      [ "P", "d1/d69/namespaceGlobalDescriptorTable.html#a44c29edb103a2872f519ad0c9a0fdaaa", null ],
+      [ "RW", "d1/d69/namespaceGlobalDescriptorTable.html#a5c6dc3d436504b7a65191cafe28212ee", null ],
+      [ "RW", "d1/d69/namespaceGlobalDescriptorTable.html#a5c6dc3d436504b7a65191cafe28212ee", null ],
+      [ "S", "d1/d69/namespaceGlobalDescriptorTable.html#a5dbc98dcc983a70728bd082d1a47546e", null ],
+      [ "S", "d1/d69/namespaceGlobalDescriptorTable.html#a5dbc98dcc983a70728bd082d1a47546e", null ]
+    ] ],
+    [ "GlobalDescriptorTableFlags.__packed", "d1/d69/namespaceGlobalDescriptorTable.html#dc/df8/structGlobalDescriptorTable_1_1GlobalDescriptorTableFlags_8____packed", [
+      [ "L", "d1/d69/namespaceGlobalDescriptorTable.html#ad20caec3b48a1eef164cb4ca81ba2587", null ],
+      [ "L", "d1/d69/namespaceGlobalDescriptorTable.html#ad20caec3b48a1eef164cb4ca81ba2587", null ],
+      [ "Unknown", "d1/d69/namespaceGlobalDescriptorTable.html#a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+      [ "Unknown", "d1/d69/namespaceGlobalDescriptorTable.html#a88183b946cc5f0e8c96b2e66e1c74a7e", null ]
+    ] ],
     [ "GDT_KERNEL_CODE", "dc/df0/i386_2cpu_2gdt_8hpp.html#ab0bd808397c97f7db4701ca69009a547", null ],
     [ "GDT_KERNEL_DATA", "dc/df0/i386_2cpu_2gdt_8hpp.html#a1b5a711dc01ab783bb986902240f1cce", null ],
     [ "GDT_TSS", "dc/df0/i386_2cpu_2gdt_8hpp.html#afa2f85c6adeea0d29c4852d4cef33d4c", null ],
     [ "GDT_USER_CODE", "dc/df0/i386_2cpu_2gdt_8hpp.html#af5c033543fb4db7939b4b7587de03867", null ],
     [ "GDT_USER_DATA", "dc/df0/i386_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2", null ],
-    [ "__attribute__", "dc/df0/i386_2cpu_2gdt_8hpp.html#af56d4e43cb2f9795374f684a94904e9c", null ],
-    [ "__attribute__", "dc/df0/i386_2cpu_2gdt_8hpp.html#a8870feefdb17eb7d7c63cabcd0c3d22e", null ],
     [ "Init", "dc/df0/i386_2cpu_2gdt_8hpp.html#a621904c3d40203fc46b2a4aaa77774cc", null ],
-    [ "SetKernelStack", "dc/df0/i386_2cpu_2gdt_8hpp.html#af44df44be911e3d57e2faf23148d32f8", null ],
-    [ "A", "dc/df0/i386_2cpu_2gdt_8hpp.html#aa99de428bd3e7715b73b335a5af9e900", null ],
-    [ "Access", "dc/df0/i386_2cpu_2gdt_8hpp.html#acc4eb3652022f8d361fc89df0cd4a60e", null ],
-    [ "BaseHigh", "dc/df0/i386_2cpu_2gdt_8hpp.html#a2c483aeda65f9a985863382e09007f72", null ],
-    [ "BaseLow", "dc/df0/i386_2cpu_2gdt_8hpp.html#ab9f9c980afbad64de663b5fec7cacd48", null ],
-    [ "BaseMiddle", "dc/df0/i386_2cpu_2gdt_8hpp.html#add843b8ec66d6d45efb584c8eb64662f", null ],
-    [ "BaseUpper", "dc/df0/i386_2cpu_2gdt_8hpp.html#ada2b982135f5d5a9347ac3c22f67ad2e", null ],
-    [ "Code", "dc/df0/i386_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7", null ],
-    [ "Data", "dc/df0/i386_2cpu_2gdt_8hpp.html#aff2da4c061653164b5cfcc650f742f27", null ],
-    [ "DC", "dc/df0/i386_2cpu_2gdt_8hpp.html#a13feadf703864c73814dae1b0f0e27d3", null ],
-    [ "DPL", "dc/df0/i386_2cpu_2gdt_8hpp.html#a16743ba7f585744088c2972c095b4ece", null ],
-    [ "E", "dc/df0/i386_2cpu_2gdt_8hpp.html#a5866c444a2a78211eef583f48cd36225", null ],
-    [ "Entries", "dc/df0/i386_2cpu_2gdt_8hpp.html#adac265c791f08f7c79b44383c184c739", null ],
-    [ "Flags", "dc/df0/i386_2cpu_2gdt_8hpp.html#afe68b30aa80199feb71be5deda91978e", null ],
-    [ "Granularity", "dc/df0/i386_2cpu_2gdt_8hpp.html#a78b7b1b4be1c01e67e5c1cd2182330b5", null ],
-    [ "InterruptStackTable", "dc/df0/i386_2cpu_2gdt_8hpp.html#a9cbcf7dbaba62e0aa7990f9c0893e165", null ],
-    [ "IOMapBaseAddressOffset", "dc/df0/i386_2cpu_2gdt_8hpp.html#a6fc09010d383d63cff1bf586f70c7f9a", null ],
-    [ "L", "dc/df0/i386_2cpu_2gdt_8hpp.html#aee73cc056696e504430c53eaa9c58cf0", null ],
-    [ "Length", "dc/df0/i386_2cpu_2gdt_8hpp.html#a930e5a4d8414c0427fe5c636062579db", null ],
-    [ "Null", "dc/df0/i386_2cpu_2gdt_8hpp.html#a73f4b3a63105e057f9ceccf2c2cde860", null ],
-    [ "P", "dc/df0/i386_2cpu_2gdt_8hpp.html#a2ad95e9194a5bfaa373bbd26ea925209", null ],
-    [ "Reserved", "dc/df0/i386_2cpu_2gdt_8hpp.html#a43fae5b728aa075b9475bbe49a5738ef", null ],
-    [ "Reserved1", "dc/df0/i386_2cpu_2gdt_8hpp.html#afea133adf188dfb8979f48bcdaa69acf", null ],
-    [ "Reserved2", "dc/df0/i386_2cpu_2gdt_8hpp.html#a95539100d5c2368b95010fef43a844f6", null ],
-    [ "RW", "dc/df0/i386_2cpu_2gdt_8hpp.html#a1e2d2776ce51ce60e03be92e1003a22a", null ],
-    [ "S", "dc/df0/i386_2cpu_2gdt_8hpp.html#aef44b210af6af7cb40efdfd5469406c0", null ],
-    [ "StackPointer", "dc/df0/i386_2cpu_2gdt_8hpp.html#a9d9ff73842948ded9734b943d3bf5894", null ],
-    [ "TaskStateSegment", "dc/df0/i386_2cpu_2gdt_8hpp.html#abc498068b381d117f14e2f08434d4ff4", null ],
-    [ "Unknown", "dc/df0/i386_2cpu_2gdt_8hpp.html#adead3fdf571787c72724d7ed60419125", null ],
-    [ "UserCode", "dc/df0/i386_2cpu_2gdt_8hpp.html#a320a948a3daaf4e9e4bf572432a1c243", null ],
-    [ "UserData", "dc/df0/i386_2cpu_2gdt_8hpp.html#aed95da4e7e2e8f3347cb417a3fcd7c28", null ]
+    [ "SetKernelStack", "dc/df0/i386_2cpu_2gdt_8hpp.html#af44df44be911e3d57e2faf23148d32f8", null ]
 ];

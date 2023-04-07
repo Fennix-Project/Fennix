@@ -178,5 +178,6 @@ var Kernel_2include_2types_8h =
     [ "uintmax_t", "d0/df4/Kernel_2include_2types_8h.html#a4e5632221b295f0fcdcb2233f3f60515", null ],
     [ "uintptr_t", "d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808", null ],
     [ "va_list", "d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9", null ],
+    [ "wchar_t", "d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca", null ],
     [ "wint_t", "d0/df4/Kernel_2include_2types_8h.html#abd99e7f4ef6b86204820c995f988403b", null ]
 ];

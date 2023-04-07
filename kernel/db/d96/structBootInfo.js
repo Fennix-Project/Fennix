@@ -18,6 +18,7 @@ var structBootInfo =
       [ "Pitch", "db/d96/structBootInfo.html#a898a6f47a537f71731ab594c9d052148", null ],
       [ "RedMaskShift", "db/d96/structBootInfo.html#acba0c3c98c22705dd28df051d1c5acff", null ],
       [ "RedMaskSize", "db/d96/structBootInfo.html#a44a262152a2c36caf29da46ed68561c1", null ],
+      [ "Type", "db/d96/structBootInfo.html#a279f1a8a0cc02938644de2587d60b3d1", null ],
       [ "Width", "db/d96/structBootInfo.html#a5f7c8fcce5de0403b4f0b115a0cde1d9", null ]
     ] ],
     [ "KernelInfo", "db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo", [

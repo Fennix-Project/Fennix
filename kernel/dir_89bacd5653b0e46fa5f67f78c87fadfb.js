@@ -54,7 +54,25 @@ var dir_89bacd5653b0e46fa5f67f78c87fadfb =
         [ "VolumeName", "d4/d55/classVirtualFileSystem_1_1EXT2.html#aca94dc4b44040b76feabf2caf3e15fc3", null ]
       ] ]
     ] ],
-    [ "fat.hpp", "d9/dc3/fat_8hpp.html", "d9/dc3/fat_8hpp" ],
+    [ "fat.hpp", "d9/dc3/fat_8hpp.html", [
+      [ "FAT", "db/dad/classVirtualFileSystem_1_1FAT.html", "db/dad/classVirtualFileSystem_1_1FAT" ],
+      [ "BIOSParameterBlock", "db/dad/classVirtualFileSystem_1_1FAT.html#d1/dc4/structVirtualFileSystem_1_1FAT_1_1BIOSParameterBlock", [
+        [ "BytesPerSector", "db/dad/classVirtualFileSystem_1_1FAT.html#afcb208da6cd403bb90465a1bf4a68d88", null ],
+        [ "HiddenSectors", "db/dad/classVirtualFileSystem_1_1FAT.html#a18d928e9438cdf920a015dae5f5b3902", null ],
+        [ "JumpBoot", "db/dad/classVirtualFileSystem_1_1FAT.html#a50cbeb5e1cc24dd12d8d04720cb1664a", null ],
+        [ "Media", "db/dad/classVirtualFileSystem_1_1FAT.html#a5566a458676c431ac9ab5721c2235fad", null ],
+        [ "NumberOfFATs", "db/dad/classVirtualFileSystem_1_1FAT.html#af7ace9d7269d51794e38b5ecd1fda0eb", null ],
+        [ "NumberOfHeads", "db/dad/classVirtualFileSystem_1_1FAT.html#ac6be8e95ce0373537f6c2304bfabeb6f", null ],
+        [ "OEM", "db/dad/classVirtualFileSystem_1_1FAT.html#a6e1ff98e6a9101acfacc4ca804f3895c", null ],
+        [ "ReservedSectors", "db/dad/classVirtualFileSystem_1_1FAT.html#affef997439f29cb73b74af88d6bca5a6", null ],
+        [ "RootDirectoryEntries", "db/dad/classVirtualFileSystem_1_1FAT.html#a46a68a79c886bcceabb86ad6b5cf8b97", null ],
+        [ "Sectors16", "db/dad/classVirtualFileSystem_1_1FAT.html#ae20b198b58511801843ce6bb4ffd27b2", null ],
+        [ "Sectors32", "db/dad/classVirtualFileSystem_1_1FAT.html#abff94c704406476bd9d83579da15dea5", null ],
+        [ "SectorsPerCluster", "db/dad/classVirtualFileSystem_1_1FAT.html#a3e5a273a6332aa8a98cc36ad0a5eb0a5", null ],
+        [ "SectorsPerFAT", "db/dad/classVirtualFileSystem_1_1FAT.html#a32cf70525ddf2eebab019a5f6c6f2f15", null ],
+        [ "SectorsPerTrack", "db/dad/classVirtualFileSystem_1_1FAT.html#a6e77a1cd8d30fa0d7d4ea4ea9327323b", null ]
+      ] ]
+    ] ],
     [ "initrd.hpp", "d7/d18/initrd_8hpp.html", [
       [ "Initrd", "da/da6/classVirtualFileSystem_1_1Initrd.html", "da/da6/classVirtualFileSystem_1_1Initrd" ],
       [ "InitrdHeader", "da/da6/classVirtualFileSystem_1_1Initrd.html#de/d91/structVirtualFileSystem_1_1Initrd_1_1InitrdHeader", [

@@ -136,7 +136,7 @@ Private Attributes</h2></td></tr>
 class std::shared_ptr&lt; T &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00084">84</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00101">101</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a645cf1e7f21dcd0a7b55cb2e4d1790a7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a645cf1e7f21dcd0a7b55cb2e4d1790a7">&#9670;&nbsp;</a></span>shared_ptr() <span class="overload">[1/2]</span></h2>
@@ -164,20 +164,20 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00138">138</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        {</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = Pointer;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = <span class="keyword">new</span> <a class="code" href="../../de/da8/pthread__thread__local_8c.html#afc89fbde6bf4a0223f87c6df61658b33">counter</a>();</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer created (ptr=%#lx, ref=%#lx)&quot;</span>, <span class="keyword">this</span>, Pointer, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>);</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <span class="keywordflow">if</span> (Pointer)</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)++;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        }</div>
-<div class="ttc" id="aclassstd_1_1shared__ptr_html_a6394cbdf6ee938cafbea77cfe4a638c8"><div class="ttname"><a href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">std::shared_ptr::ReferenceCounter</a></div><div class="ttdeci">counter * ReferenceCounter</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00134">smart_ptr.hpp:134</a></div></div>
-<div class="ttc" id="aclassstd_1_1shared__ptr_html_a9abc622c9247db495a8ceae05b75cc57"><div class="ttname"><a href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">std::shared_ptr::RealPointer</a></div><div class="ttdeci">T * RealPointer</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00135">smart_ptr.hpp:135</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00155">155</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = Pointer;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = <span class="keyword">new</span> <a class="code" href="../../de/da8/pthread__thread__local_8c.html#afc89fbde6bf4a0223f87c6df61658b33">counter</a>();</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer created (ptr=%#lx, ref=%#lx)&quot;</span>, <span class="keyword">this</span>, Pointer, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            <span class="keywordflow">if</span> (Pointer)</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)++;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        }</div>
+<div class="ttc" id="aclassstd_1_1shared__ptr_html_a6394cbdf6ee938cafbea77cfe4a638c8"><div class="ttname"><a href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">std::shared_ptr::ReferenceCounter</a></div><div class="ttdeci">counter * ReferenceCounter</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00151">smart_ptr.hpp:151</a></div></div>
+<div class="ttc" id="aclassstd_1_1shared__ptr_html_a9abc622c9247db495a8ceae05b75cc57"><div class="ttname"><a href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">std::shared_ptr::RealPointer</a></div><div class="ttdeci">T * RealPointer</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00152">smart_ptr.hpp:152</a></div></div>
 <div class="ttc" id="apthread__thread__local_8c_html_afc89fbde6bf4a0223f87c6df61658b33"><div class="ttname"><a href="../../de/da8/pthread__thread__local_8c.html#afc89fbde6bf4a0223f87c6df61658b33">counter</a></div><div class="ttdeci">_Thread_local unsigned int counter</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/pthread__thread__local_8c_source.html#l00005">pthread_thread_local.c:5</a></div></div>
-<div class="ttc" id="astd_2smart__ptr_8hpp_html_a281a891b6957dd7765d08d0ee8cba9da"><div class="ttname"><a href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a></div><div class="ttdeci">#define spdbg(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">smart_ptr.hpp:14</a></div></div>
+<div class="ttc" id="astd_2smart__ptr_8hpp_html_a281a891b6957dd7765d08d0ee8cba9da"><div class="ttname"><a href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a></div><div class="ttdeci">#define spdbg(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">smart_ptr.hpp:31</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/da8/pthread__thread__local_8c_source.html#l00005">counter</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00134">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/pthread__thread__local_8c_source.html#l00005">counter</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00151">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">spdbg</a>.</p>
 
 </div>
 </div>
@@ -207,15 +207,15 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00147">147</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        {</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer copied (ptr=%#lx, ref=%#lx)&quot;</span>, <span class="keyword">this</span>, SPtr.RealPointer, SPtr.ReferenceCounter);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = SPtr.RealPointer;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = SPtr.ReferenceCounter;</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)++;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00164">164</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer copied (ptr=%#lx, ref=%#lx)&quot;</span>, <span class="keyword">this</span>, SPtr.RealPointer, SPtr.ReferenceCounter);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = SPtr.RealPointer;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = SPtr.ReferenceCounter;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)++;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00135">std::shared_ptr&lt; T &gt;::RealPointer</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00134">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00152">std::shared_ptr&lt; T &gt;::RealPointer</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00151">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">spdbg</a>.</p>
 
 </div>
 </div>
@@ -244,20 +244,20 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00155">155</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        {</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer destructor called&quot;</span>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)--;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>-&gt;<a class="code" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">get</a>() == 0)</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            {</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer deleted (ptr=%#lx, ref=%#lx)&quot;</span>, <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>);</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            }</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        }</div>
-<div class="ttc" id="aclassstd_1_1shared__ptr_1_1counter_html_a64fd09f04ab15775d5ec9cd83920c296"><div class="ttname"><a href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">std::shared_ptr::counter::get</a></div><div class="ttdeci">unsigned int get()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00103">smart_ptr.hpp:103</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00172">172</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer destructor called&quot;</span>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)--;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>-&gt;<a class="code" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">get</a>() == 0)</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer deleted (ptr=%#lx, ref=%#lx)&quot;</span>, <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            }</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        }</div>
+<div class="ttc" id="aclassstd_1_1shared__ptr_1_1counter_html_a64fd09f04ab15775d5ec9cd83920c296"><div class="ttname"><a href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">std::shared_ptr::counter::get</a></div><div class="ttdeci">unsigned int get()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00120">smart_ptr.hpp:120</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00103">std::shared_ptr&lt; T &gt;::counter::get()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00135">std::shared_ptr&lt; T &gt;::RealPointer</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00134">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00120">std::shared_ptr&lt; T &gt;::counter::get()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00152">std::shared_ptr&lt; T &gt;::RealPointer</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00151">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">spdbg</a>.</p>
 
 </div>
 </div>
@@ -287,15 +287,15 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00173">173</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        {</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer get (%#lx)&quot;</span>, <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>);</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;            <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00190">190</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer get (%#lx)&quot;</span>, <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00135">std::shared_ptr&lt; T &gt;::RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00152">std::shared_ptr&lt; T &gt;::RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">spdbg</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00321">VirtualFileSystem::Virtual::Create()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00384">VirtualFileSystem::Virtual::Delete()</a>, <a class="el" href="../../d5/d9b/Elf_2BaseLoad_8cpp_source.html#l00107">Execute::ELFLoad()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00025">VirtualFileSystem::Virtual::GetPathFromNode()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00259">VirtualFileSystem::Virtual::NormalizePath()</a>, and <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00528">VirtualFileSystem::Virtual::Open()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00338">VirtualFileSystem::Virtual::Create()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00401">VirtualFileSystem::Virtual::Delete()</a>, <a class="el" href="../../d5/d9b/Elf_2BaseLoad_8cpp_source.html#l00128">Execute::ELFLoad()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00042">VirtualFileSystem::Virtual::GetPathFromNode()</a>, <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00276">VirtualFileSystem::Virtual::NormalizePath()</a>, and <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00545">VirtualFileSystem::Virtual::Open()</a>.</p>
 
 </div>
 </div>
@@ -324,13 +324,13 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00167">167</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        {</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer count (%d)&quot;</span>, <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>-&gt;<a class="code" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">get</a>());</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>-&gt;<a class="code" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">get</a>();</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00184">184</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer count (%d)&quot;</span>, <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>-&gt;<a class="code" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">get</a>());</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>-&gt;<a class="code" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">get</a>();</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00103">std::shared_ptr&lt; T &gt;::counter::get()</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00120">std::shared_ptr&lt; T &gt;::counter::get()</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">spdbg</a>.</p>
 
 </div>
 </div>
@@ -359,13 +359,13 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00179">179</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        {</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer dereference (ptr*=%#lx)&quot;</span>, <span class="keyword">this</span>, *this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <span class="keywordflow">return</span> *this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>;</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00196">196</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer dereference (ptr*=%#lx)&quot;</span>, <span class="keyword">this</span>, *this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            <span class="keywordflow">return</span> *this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00135">std::shared_ptr&lt; T &gt;::RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00152">std::shared_ptr&lt; T &gt;::RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">spdbg</a>.</p>
 
 </div>
 </div>
@@ -394,13 +394,13 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00185">185</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        {</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer dereference (ptr-&gt;%#lx)&quot;</span>, <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>);</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00202">202</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer dereference (ptr-&gt;%#lx)&quot;</span>, <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00135">std::shared_ptr&lt; T &gt;::RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00152">std::shared_ptr&lt; T &gt;::RealPointer</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">spdbg</a>.</p>
 
 </div>
 </div>
@@ -429,21 +429,21 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00208">208</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        {</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer reset (ptr=%#lx, ref=%#lx)&quot;</span>, <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>);</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>-&gt;<a class="code" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">get</a>() == 1)</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            {</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            }</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            {</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)--;</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            }</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00225">225</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer reset (ptr=%#lx, ref=%#lx)&quot;</span>, <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>-&gt;<a class="code" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">get</a>() == 1)</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)--;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00103">std::shared_ptr&lt; T &gt;::counter::get()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00135">std::shared_ptr&lt; T &gt;::RealPointer</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00134">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00120">std::shared_ptr&lt; T &gt;::counter::get()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00152">std::shared_ptr&lt; T &gt;::RealPointer</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00151">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">spdbg</a>.</p>
 
 </div>
 </div>
@@ -473,26 +473,26 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00191">191</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        {</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> == Pointer)</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer reset (ptr=%#lx, ref=%#lx)&quot;</span>, <span class="keyword">this</span>, Pointer, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>);</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)--;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>-&gt;<a class="code" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">get</a>() == 0)</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            {</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            }</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = Pointer;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = <span class="keyword">new</span> <a class="code" href="../../de/da8/pthread__thread__local_8c.html#afc89fbde6bf4a0223f87c6df61658b33">counter</a>();</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            <span class="keywordflow">if</span> (Pointer)</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)++;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00208">208</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        {</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> == Pointer)</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer reset (ptr=%#lx, ref=%#lx)&quot;</span>, <span class="keyword">this</span>, Pointer, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)--;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>-&gt;<a class="code" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">get</a>() == 0)</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            {</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                <span class="keyword">delete</span> this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            }</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = Pointer;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = <span class="keyword">new</span> <a class="code" href="../../de/da8/pthread__thread__local_8c.html#afc89fbde6bf4a0223f87c6df61658b33">counter</a>();</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            <span class="keywordflow">if</span> (Pointer)</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                (*this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>)++;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/da8/pthread__thread__local_8c_source.html#l00005">counter</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00103">std::shared_ptr&lt; T &gt;::counter::get()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00135">std::shared_ptr&lt; T &gt;::RealPointer</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00134">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/pthread__thread__local_8c_source.html#l00005">counter</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00120">std::shared_ptr&lt; T &gt;::counter::get()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00152">std::shared_ptr&lt; T &gt;::RealPointer</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00151">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">spdbg</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00025">VirtualFileSystem::Virtual::GetPathFromNode()</a>, and <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00259">VirtualFileSystem::Virtual::NormalizePath()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00042">VirtualFileSystem::Virtual::GetPathFromNode()</a>, and <a class="el" href="../../d4/d19/Filesystem_8cpp_source.html#l00276">VirtualFileSystem::Virtual::NormalizePath()</a>.</p>
 
 </div>
 </div>
@@ -522,20 +522,20 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00222">222</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        {</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer swap (ptr=%#lx, ref=%#lx &lt;=&gt; ptr=%#lx, ref=%#lx)&quot;</span>,</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                  <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>, Other.RealPointer, Other.ReferenceCounter);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <a class="code" href="../../df/dbf/____tan_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> *tempRealPointer = this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <a class="code" href="../../de/da8/pthread__thread__local_8c.html#afc89fbde6bf4a0223f87c6df61658b33">counter</a> *tempReferenceCounter = this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = Other.RealPointer;</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = Other.ReferenceCounter;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            Other.RealPointer = tempRealPointer;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            Other.ReferenceCounter = tempReferenceCounter;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00239">239</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <a class="code" href="../../d1/d78/std_2smart__ptr_8hpp.html#a281a891b6957dd7765d08d0ee8cba9da">spdbg</a>(<span class="stringliteral">&quot;[%#lx] Shared pointer swap (ptr=%#lx, ref=%#lx &lt;=&gt; ptr=%#lx, ref=%#lx)&quot;</span>,</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                  <span class="keyword">this</span>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>, this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>, Other.RealPointer, Other.ReferenceCounter);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <a class="code" href="../../df/dbf/____tan_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> *tempRealPointer = this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a>;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            <a class="code" href="../../de/da8/pthread__thread__local_8c.html#afc89fbde6bf4a0223f87c6df61658b33">counter</a> *tempReferenceCounter = this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a>;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a9abc622c9247db495a8ceae05b75cc57">RealPointer</a> = Other.RealPointer;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            this-&gt;<a class="code" href="../../df/ddb/classstd_1_1shared__ptr.html#a6394cbdf6ee938cafbea77cfe4a638c8">ReferenceCounter</a> = Other.ReferenceCounter;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            Other.RealPointer = tempRealPointer;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            Other.ReferenceCounter = tempReferenceCounter;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        }</div>
 <div class="ttc" id="a____tan_8c_html_a3f23ef19f75a1358ade1d01a49060f77"><div class="ttname"><a href="../../df/dbf/____tan_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a></div><div class="ttdeci">static const double T[]</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbf/____tan_8c_source.html#l00048">__tan.c:48</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00135">std::shared_ptr&lt; T &gt;::RealPointer</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00134">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00014">spdbg</a>, and <a class="el" href="../../df/dbf/____tan_8c_source.html#l00048">T</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00152">std::shared_ptr&lt; T &gt;::RealPointer</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00151">std::shared_ptr&lt; T &gt;::ReferenceCounter</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00031">spdbg</a>, and <a class="el" href="../../df/dbf/____tan_8c_source.html#l00048">T</a>.</p>
 
 </div>
 </div>
@@ -562,9 +562,9 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00135">135</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00152">152</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00173">std::shared_ptr&lt; T &gt;::get()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00179">std::shared_ptr&lt; T &gt;::operator*()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00185">std::shared_ptr&lt; T &gt;::operator-&gt;()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00191">std::shared_ptr&lt; T &gt;::reset()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00147">std::shared_ptr&lt; T &gt;::shared_ptr()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00222">std::shared_ptr&lt; T &gt;::swap()</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00155">std::shared_ptr&lt; T &gt;::~shared_ptr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00190">std::shared_ptr&lt; T &gt;::get()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00196">std::shared_ptr&lt; T &gt;::operator*()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00202">std::shared_ptr&lt; T &gt;::operator-&gt;()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00208">std::shared_ptr&lt; T &gt;::reset()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00164">std::shared_ptr&lt; T &gt;::shared_ptr()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00239">std::shared_ptr&lt; T &gt;::swap()</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00172">std::shared_ptr&lt; T &gt;::~shared_ptr()</a>.</p>
 
 </div>
 </div>
@@ -590,9 +590,9 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00134">134</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00151">151</a> of file <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00191">std::shared_ptr&lt; T &gt;::reset()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00138">std::shared_ptr&lt; T &gt;::shared_ptr()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00222">std::shared_ptr&lt; T &gt;::swap()</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00155">std::shared_ptr&lt; T &gt;::~shared_ptr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00208">std::shared_ptr&lt; T &gt;::reset()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00155">std::shared_ptr&lt; T &gt;::shared_ptr()</a>, <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00239">std::shared_ptr&lt; T &gt;::swap()</a>, and <a class="el" href="../../d1/d78/std_2smart__ptr_8hpp_source.html#l00172">std::shared_ptr&lt; T &gt;::~shared_ptr()</a>.</p>
 
 </div>
 </div>

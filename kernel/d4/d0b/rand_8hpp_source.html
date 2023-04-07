@@ -89,29 +89,46 @@ $(document).ready(function(){initNavTree('d4/d0b/rand_8hpp_source.html','../../'
 <div class="title">rand.hpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d4/d0b/rand_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __FENNIX_KERNEL_RANDOM_H__</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define __FENNIX_KERNEL_RANDOM_H__</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d49/types_8h.html">types.h</a>&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/d03/namespaceRandom.html">Random</a></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d6/d03/namespaceRandom.html#a627ce30d9a4df06cb77a969ab621161c">rand16</a>();</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d6/d03/namespaceRandom.html#a7c83f51f3638a3819673976f19d619e5">rand32</a>();</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="code" href="../../d6/d03/namespaceRandom.html#ae7db489bf685cfa8f2b7a9ae510c4dc1">rand64</a>();</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/d03/namespaceRandom.html#a85e7d7570b0ddc57f69526552591dcde">ChangeSeed</a>(<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> CustomSeed);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_RANDOM_H__</span></div>
+<a href="../../d4/d0b/rand_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef __FENNIX_KERNEL_RANDOM_H__</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define __FENNIX_KERNEL_RANDOM_H__</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d49/types_8h.html">types.h</a>&gt;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d6/d03/namespaceRandom.html">Random</a></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d6/d03/namespaceRandom.html#a627ce30d9a4df06cb77a969ab621161c">rand16</a>();</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d6/d03/namespaceRandom.html#a7c83f51f3638a3819673976f19d619e5">rand32</a>();</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="code" href="../../d6/d03/namespaceRandom.html#ae7db489bf685cfa8f2b7a9ae510c4dc1">rand64</a>();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d6/d03/namespaceRandom.html#a85e7d7570b0ddc57f69526552591dcde">ChangeSeed</a>(<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> CustomSeed);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_RANDOM_H__</span></div>
 <div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00291">ArithmeticOperations.c:291</a></div></div>
 <div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00290">ArithmeticOperations.c:290</a></div></div>
-<div class="ttc" id="anamespaceRandom_html"><div class="ttname"><a href="../../d6/d03/namespaceRandom.html">Random</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dde/Random_8cpp_source.html#l00004">Random.cpp:5</a></div></div>
-<div class="ttc" id="anamespaceRandom_html_a627ce30d9a4df06cb77a969ab621161c"><div class="ttname"><a href="../../d6/d03/namespaceRandom.html#a627ce30d9a4df06cb77a969ab621161c">Random::rand16</a></div><div class="ttdeci">uint16_t rand16()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dde/Random_8cpp_source.html#l00008">Random.cpp:8</a></div></div>
-<div class="ttc" id="anamespaceRandom_html_a7c83f51f3638a3819673976f19d619e5"><div class="ttname"><a href="../../d6/d03/namespaceRandom.html#a7c83f51f3638a3819673976f19d619e5">Random::rand32</a></div><div class="ttdeci">uint32_t rand32()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dde/Random_8cpp_source.html#l00057">Random.cpp:57</a></div></div>
-<div class="ttc" id="anamespaceRandom_html_a85e7d7570b0ddc57f69526552591dcde"><div class="ttname"><a href="../../d6/d03/namespaceRandom.html#a85e7d7570b0ddc57f69526552591dcde">Random::ChangeSeed</a></div><div class="ttdeci">void ChangeSeed(uint64_t CustomSeed)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dde/Random_8cpp_source.html#l00155">Random.cpp:155</a></div></div>
-<div class="ttc" id="anamespaceRandom_html_ae7db489bf685cfa8f2b7a9ae510c4dc1"><div class="ttname"><a href="../../d6/d03/namespaceRandom.html#ae7db489bf685cfa8f2b7a9ae510c4dc1">Random::rand64</a></div><div class="ttdeci">uint64_t rand64()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dde/Random_8cpp_source.html#l00106">Random.cpp:106</a></div></div>
+<div class="ttc" id="anamespaceRandom_html"><div class="ttname"><a href="../../d6/d03/namespaceRandom.html">Random</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dde/Random_8cpp_source.html#l00021">Random.cpp:22</a></div></div>
+<div class="ttc" id="anamespaceRandom_html_a627ce30d9a4df06cb77a969ab621161c"><div class="ttname"><a href="../../d6/d03/namespaceRandom.html#a627ce30d9a4df06cb77a969ab621161c">Random::rand16</a></div><div class="ttdeci">uint16_t rand16()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dde/Random_8cpp_source.html#l00025">Random.cpp:25</a></div></div>
+<div class="ttc" id="anamespaceRandom_html_a7c83f51f3638a3819673976f19d619e5"><div class="ttname"><a href="../../d6/d03/namespaceRandom.html#a7c83f51f3638a3819673976f19d619e5">Random::rand32</a></div><div class="ttdeci">uint32_t rand32()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dde/Random_8cpp_source.html#l00058">Random.cpp:58</a></div></div>
+<div class="ttc" id="anamespaceRandom_html_a85e7d7570b0ddc57f69526552591dcde"><div class="ttname"><a href="../../d6/d03/namespaceRandom.html#a85e7d7570b0ddc57f69526552591dcde">Random::ChangeSeed</a></div><div class="ttdeci">void ChangeSeed(uint64_t CustomSeed)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dde/Random_8cpp_source.html#l00124">Random.cpp:124</a></div></div>
+<div class="ttc" id="anamespaceRandom_html_ae7db489bf685cfa8f2b7a9ae510c4dc1"><div class="ttname"><a href="../../d6/d03/namespaceRandom.html#ae7db489bf685cfa8f2b7a9ae510c4dc1">Random::rand64</a></div><div class="ttdeci">uint64_t rand64()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dde/Random_8cpp_source.html#l00091">Random.cpp:91</a></div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="../../d9/d49/types_8h.html">types.h</a></div></div>
-<div class="ttc" id="atypes_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00123">types.h:123</a></div></div>
+<div class="ttc" id="atypes_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00140">types.h:140</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

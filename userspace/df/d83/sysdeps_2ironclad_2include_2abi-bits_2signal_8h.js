@@ -113,6 +113,7 @@ var sysdeps_2ironclad_2include_2abi_bits_2signal_8h =
     [ "SIGXFSZ", "df/d83/sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#a75440a7aa885a1052dfd3b4393fd9baa", null ],
     [ "SS_DISABLE", "df/d83/sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#ac515f2efc91c54803f65de08d14d4566", null ],
     [ "SS_ONSTACK", "df/d83/sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#a17bcfefa3c6fafd5d3277d867bd723fb", null ],
+    [ "__sighandler", "df/d83/sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#aee602fbe29cd6605b66867706d7ce0e6", null ],
     [ "sigset_t", "df/d83/sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#a853973d6d1b902f1835c821c0dd33c2a", null ],
     [ "stack_t", "df/d83/sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#aa106b3cc0a3a0c8db41f09eed2cf4cbe", null ]
 ];

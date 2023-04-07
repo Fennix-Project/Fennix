@@ -102,7 +102,7 @@ Functions</h2></td></tr>
 <tr class="separator:af80062f462ba444a6fbd61f52b58f170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a1007e9dcc7f1d1553fe18ec3dbfb63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a0a1007e9dcc7f1d1553fe18ec3dbfb63">__libc_init</a> (void)</td></tr>
 <tr class="separator:a0a1007e9dcc7f1d1553fe18ec3dbfb63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad847d936639f9d68db8792d4be7a79a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#ad847d936639f9d68db8792d4be7a79a1">_exit</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../dc/df0/i386_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</td></tr>
+<tr class="memitem:ad847d936639f9d68db8792d4be7a79a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#ad847d936639f9d68db8792d4be7a79a1">_exit</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> Code)</td></tr>
 <tr class="separator:ad847d936639f9d68db8792d4be7a79a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -205,16 +205,15 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a>();</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                         :</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0), <span class="stringliteral">&quot;D&quot;</span>(<a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a>)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0), <span class="stringliteral">&quot;D&quot;</span>(Code)</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">while</span> (1)</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        ;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
 <div class="ttc" id="aRuntime_8c_html_af80062f462ba444a6fbd61f52b58f170"><div class="ttname"><a href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a></div><div class="ttdeci">void __libc_fini_array(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00020">InitArray.c:20</a></div></div>
-<div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_ac678cca2a7d570b7e2dd49c5619f98f7"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#ac678cca2a7d570b7e2dd49c5619f98f7">Code</a></div><div class="ttdeci">GlobalDescriptorTableEntry Code</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00001">gdt.hpp:1</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00020">__libc_fini_array()</a>, and <a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00001">Code</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00020">__libc_fini_array()</a>.</p>
 
 </div>
 </div>

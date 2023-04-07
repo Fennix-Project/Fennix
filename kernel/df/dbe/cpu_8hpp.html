@@ -97,96 +97,102 @@ $(document).ready(function(){initNavTree('df/dbe/cpu_8hpp.html','../../'); initR
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>&gt;</code><br />
-<code>#include &lt;cstring&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d7/dff/x32_2cpuid__amd_8hpp_source.html">cpu/x86/x32/cpuid_amd.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d3/db9/x32_2cpuid__intel_8hpp_source.html">cpu/x86/x32/cpuid_intel.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/d4f/cpuid__intel_8hpp_source.html">cpu/x86/cpuid_intel.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html">cpu/x86/cpuid_amd.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/da5/x32_2cr_8hpp_source.html">cpu/x86/x32/cr.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d3/d82/x32_2msr_8hpp_source.html">cpu/x86/x32/msr.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d5/d88/x64_2cpuid__amd_8hpp_source.html">cpu/x86/x64/cpuid_amd.hpp</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../dc/d18/x64_2cpuid__intel_8hpp_source.html">cpu/x86/x64/cpuid_intel.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dd/deb/x64_2cr_8hpp_source.html">cpu/x86/x64/cr.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/db2/x64_2msr_8hpp_source.html">cpu/x86/x64/msr.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d49/exceptions_8hpp_source.html">cpu/x86/exceptions.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/d0a/interrupts_8hpp_source.html">cpu/x86/interrupts.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/dfd/signatures_8hpp_source.html">cpu/signatures.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d81/membar_8hpp_source.html">cpu/membar.hpp</a>&gt;</code><br />
+<code>#include &lt;cstring&gt;</code><br />
 </div>
 <p><a href="../../df/dbe/cpu_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:d1/d7c/unionCPU_1_1x32_1_1EFLAGS"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d1/d7c/unionCPU_1_1x32_1_1EFLAGS">CPU::x32::EFLAGS</a></td></tr>
-<tr class="separator:d1/d7c/unionCPU_1_1x32_1_1EFLAGS"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d3/d23/structCPU_1_1x32_1_1TrapFrame"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d3/d23/structCPU_1_1x32_1_1TrapFrame">CPU::x32::TrapFrame</a></td></tr>
-<tr class="separator:d3/d23/structCPU_1_1x32_1_1TrapFrame"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dc/dd3/unionCPU_1_1x32_1_1EFER"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#dc/dd3/unionCPU_1_1x32_1_1EFER">CPU::x32::EFER</a></td></tr>
-<tr class="separator:dc/dd3/unionCPU_1_1x32_1_1EFER"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dd/db5/unionCPU_1_1x32_1_1DR7"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#dd/db5/unionCPU_1_1x32_1_1DR7">CPU::x32::DR7</a></td></tr>
-<tr class="separator:dd/db5/unionCPU_1_1x32_1_1DR7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d4/d34/structCPU_1_1x32_1_1FXState"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d4/d34/structCPU_1_1x32_1_1FXState">CPU::x32::FXState</a></td></tr>
-<tr class="separator:d4/d34/structCPU_1_1x32_1_1FXState"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:db/dc5/unionCPU_1_1x64_1_1____attribute____"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#db/dc5/unionCPU_1_1x64_1_1____attribute____">CPU::x64::__attribute__</a></td></tr>
-<tr class="memdesc:db/dc5/unionCPU_1_1x64_1_1____attribute____"><td class="mdescLeft">&#160;</td><td class="mdescRight">MSR_APIC_BASE structure.  <a href="../../d9/d25/namespaceCPU_1_1x64.html#db/dc5/unionCPU_1_1x64_1_1____attribute____">More...</a><br /></td></tr>
-<tr class="separator:db/dc5/unionCPU_1_1x64_1_1____attribute____"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d8/dd8/unionCPU_1_1x64_1_1RFLAGS"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d8/dd8/unionCPU_1_1x64_1_1RFLAGS">CPU::x64::RFLAGS</a></td></tr>
-<tr class="separator:d8/dd8/unionCPU_1_1x64_1_1RFLAGS"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:df/df2/structCPU_1_1x64_1_1TrapFrame"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#df/df2/structCPU_1_1x64_1_1TrapFrame">CPU::x64::TrapFrame</a></td></tr>
-<tr class="separator:df/df2/structCPU_1_1x64_1_1TrapFrame"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dd/dfd/unionCPU_1_1x64_1_1EFER"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#dd/dfd/unionCPU_1_1x64_1_1EFER">CPU::x64::EFER</a></td></tr>
-<tr class="separator:dd/dfd/unionCPU_1_1x64_1_1EFER"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d5/dca/unionCPU_1_1x64_1_1DR7"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d5/dca/unionCPU_1_1x64_1_1DR7">CPU::x64::DR7</a></td></tr>
-<tr class="separator:d5/dca/unionCPU_1_1x64_1_1DR7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:df/d46/unionCPU_1_1x64_1_1PageFaultErrorCode"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#df/d46/unionCPU_1_1x64_1_1PageFaultErrorCode">CPU::x64::PageFaultErrorCode</a></td></tr>
-<tr class="separator:df/d46/unionCPU_1_1x64_1_1PageFaultErrorCode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dc/d33/unionCPU_1_1x64_1_1SelectorErrorCode"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#dc/d33/unionCPU_1_1x64_1_1SelectorErrorCode">CPU::x64::SelectorErrorCode</a></td></tr>
-<tr class="separator:dc/d33/unionCPU_1_1x64_1_1SelectorErrorCode"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:df/d25/structCPU_1_1x64_1_1FXState"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#df/d25/structCPU_1_1x64_1_1FXState">CPU::x64::FXState</a></td></tr>
-<tr class="separator:df/d25/structCPU_1_1x64_1_1FXState"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____">CPU::x32::EFLAGS.__attribute__</a></td></tr>
-<tr class="separator:d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862____">CPU::x32::EFER.__unnamed862__</a></td></tr>
-<tr class="separator:d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862____"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866____">CPU::x32::DR7.__unnamed866__</a></td></tr>
-<tr class="separator:d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866____"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dc/d51/structCPU_1_1x64_1_1____attribute_____8____attribute____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#dc/d51/structCPU_1_1x64_1_1____attribute_____8____attribute____">CPU::x64::__attribute__.__attribute__</a></td></tr>
-<tr class="separator:dc/d51/structCPU_1_1x64_1_1____attribute_____8____attribute____"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dd/d53/structCPU_1_1x64_1_1RFLAGS_8____unnamed869____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#dd/d53/structCPU_1_1x64_1_1RFLAGS_8____unnamed869____">CPU::x64::RFLAGS.__unnamed869__</a></td></tr>
-<tr class="separator:dd/d53/structCPU_1_1x64_1_1RFLAGS_8____unnamed869____"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/dc7/structCPU_1_1x64_1_1EFER_8____unnamed871____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d7/dc7/structCPU_1_1x64_1_1EFER_8____unnamed871____">CPU::x64::EFER.__unnamed871__</a></td></tr>
-<tr class="separator:d7/dc7/structCPU_1_1x64_1_1EFER_8____unnamed871____"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d0/db0/structCPU_1_1x64_1_1DR7_8____unnamed875____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d0/db0/structCPU_1_1x64_1_1DR7_8____unnamed875____">CPU::x64::DR7.__unnamed875__</a></td></tr>
-<tr class="separator:d0/db0/structCPU_1_1x64_1_1DR7_8____unnamed875____"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d3/d02/structCPU_1_1x64_1_1PageFaultErrorCode_8____unnamed877____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d3/d02/structCPU_1_1x64_1_1PageFaultErrorCode_8____unnamed877____">CPU::x64::PageFaultErrorCode.__unnamed877__</a></td></tr>
-<tr class="separator:d3/d02/structCPU_1_1x64_1_1PageFaultErrorCode_8____unnamed877____"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d4/d43/structCPU_1_1x64_1_1SelectorErrorCode_8____unnamed879____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d4/d43/structCPU_1_1x64_1_1SelectorErrorCode_8____unnamed879____">CPU::x64::SelectorErrorCode.__unnamed879__</a></td></tr>
-<tr class="separator:d4/d43/structCPU_1_1x64_1_1SelectorErrorCode_8____unnamed879____"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:da/db1/unionx32_1_1EFLAGS"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#da/db1/unionx32_1_1EFLAGS">x32::EFLAGS</a></td></tr>
+<tr class="separator:da/db1/unionx32_1_1EFLAGS"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:db/d62/structx32_1_1TrapFrame"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#db/d62/structx32_1_1TrapFrame">x32::TrapFrame</a></td></tr>
+<tr class="separator:db/d62/structx32_1_1TrapFrame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d9/d02/unionx32_1_1EFER"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#d9/d02/unionx32_1_1EFER">x32::EFER</a></td></tr>
+<tr class="separator:d9/d02/unionx32_1_1EFER"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/da4/unionx32_1_1DR7"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#dd/da4/unionx32_1_1DR7">x32::DR7</a></td></tr>
+<tr class="separator:dd/da4/unionx32_1_1DR7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d7/d2c/structx32_1_1FXState"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#d7/d2c/structx32_1_1FXState">x32::FXState</a></td></tr>
+<tr class="separator:d7/d2c/structx32_1_1FXState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:df/db8/unionx64_1_1____packed"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#df/db8/unionx64_1_1____packed">x64::__packed</a></td></tr>
+<tr class="memdesc:df/db8/unionx64_1_1____packed"><td class="mdescLeft">&#160;</td><td class="mdescRight">MSR_APIC_BASE structure.  <a href="../../d7/db0/namespacex64.html#df/db8/unionx64_1_1____packed">More...</a><br /></td></tr>
+<tr class="separator:df/db8/unionx64_1_1____packed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d0/d86/unionx64_1_1RFLAGS"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#d0/d86/unionx64_1_1RFLAGS">x64::RFLAGS</a></td></tr>
+<tr class="separator:d0/d86/unionx64_1_1RFLAGS"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d7/daf/structx64_1_1TrapFrame"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#d7/daf/structx64_1_1TrapFrame">x64::TrapFrame</a></td></tr>
+<tr class="separator:d7/daf/structx64_1_1TrapFrame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:da/dda/unionx64_1_1EFER"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#da/dda/unionx64_1_1EFER">x64::EFER</a></td></tr>
+<tr class="separator:da/dda/unionx64_1_1EFER"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d0/d89/unionx64_1_1DR7"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#d0/d89/unionx64_1_1DR7">x64::DR7</a></td></tr>
+<tr class="separator:d0/d89/unionx64_1_1DR7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:da/d69/unionx64_1_1PageFaultErrorCode"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#da/d69/unionx64_1_1PageFaultErrorCode">x64::PageFaultErrorCode</a></td></tr>
+<tr class="separator:da/d69/unionx64_1_1PageFaultErrorCode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:da/de4/unionx64_1_1SelectorErrorCode"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#da/de4/unionx64_1_1SelectorErrorCode">x64::SelectorErrorCode</a></td></tr>
+<tr class="separator:da/de4/unionx64_1_1SelectorErrorCode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d0/da3/structx64_1_1FXState"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#d0/da3/structx64_1_1FXState">x64::FXState</a></td></tr>
+<tr class="separator:d0/da3/structx64_1_1FXState"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:de/d55/structaarch64_1_1TrapFrame"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dce/namespaceaarch64.html#de/d55/structaarch64_1_1TrapFrame">aarch64::TrapFrame</a></td></tr>
+<tr class="separator:de/d55/structaarch64_1_1TrapFrame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:de/dae/structx32_1_1EFLAGS_8____unnamed777____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#de/dae/structx32_1_1EFLAGS_8____unnamed777____">x32::EFLAGS.__unnamed777__</a></td></tr>
+<tr class="separator:de/dae/structx32_1_1EFLAGS_8____unnamed777____"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d6/da8/structx32_1_1EFER_8____unnamed779____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#d6/da8/structx32_1_1EFER_8____unnamed779____">x32::EFER.__unnamed779__</a></td></tr>
+<tr class="separator:d6/da8/structx32_1_1EFER_8____unnamed779____"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d3/d51/structx32_1_1DR7_8____unnamed781____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#d3/d51/structx32_1_1DR7_8____unnamed781____">x32::DR7.__unnamed781__</a></td></tr>
+<tr class="separator:d3/d51/structx32_1_1DR7_8____unnamed781____"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/d17/structx64_1_1____packed_8____unnamed783____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#dd/d17/structx64_1_1____packed_8____unnamed783____">x64::__packed.__unnamed783__</a></td></tr>
+<tr class="separator:dd/d17/structx64_1_1____packed_8____unnamed783____"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d9/d07/structx64_1_1RFLAGS_8____unnamed785____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#d9/d07/structx64_1_1RFLAGS_8____unnamed785____">x64::RFLAGS.__unnamed785__</a></td></tr>
+<tr class="separator:d9/d07/structx64_1_1RFLAGS_8____unnamed785____"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/d70/structx64_1_1EFER_8____unnamed787____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#dc/d70/structx64_1_1EFER_8____unnamed787____">x64::EFER.__unnamed787__</a></td></tr>
+<tr class="separator:dc/d70/structx64_1_1EFER_8____unnamed787____"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d8/d7b/structx64_1_1DR7_8____unnamed789____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#d8/d7b/structx64_1_1DR7_8____unnamed789____">x64::DR7.__unnamed789__</a></td></tr>
+<tr class="separator:d8/d7b/structx64_1_1DR7_8____unnamed789____"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:df/dd7/structx64_1_1PageFaultErrorCode_8____unnamed791____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#df/dd7/structx64_1_1PageFaultErrorCode_8____unnamed791____">x64::PageFaultErrorCode.__unnamed791__</a></td></tr>
+<tr class="separator:df/dd7/structx64_1_1PageFaultErrorCode_8____unnamed791____"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/d96/structx64_1_1SelectorErrorCode_8____unnamed793____"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#d4/d96/structx64_1_1SelectorErrorCode_8____unnamed793____">x64::SelectorErrorCode.__unnamed793__</a></td></tr>
+<tr class="separator:d4/d96/structx64_1_1SelectorErrorCode_8____unnamed793____"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:d7/dfa/namespaceCPU"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html">CPU</a></td></tr>
 <tr class="memdesc:d7/dfa/namespaceCPU"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> related functions. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:de/d78/namespaceCPU_1_1x32"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html">CPU::x32</a></td></tr>
+<tr class="memitem:de/d52/namespacex32"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html">x32</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d9/d25/namespaceCPU_1_1x64"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html">CPU::x64</a></td></tr>
+<tr class="memitem:d7/db0/namespacex64"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html">x64</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d8/dbc/namespaceCPU_1_1aarch64"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbc/namespaceCPU_1_1aarch64.html">CPU::aarch64</a></td></tr>
+<tr class="memitem:dc/dce/namespaceaarch64"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dce/namespaceaarch64.html">aarch64</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ad32608774d85b36615c7a8500f842317"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d3/d23/structCPU_1_1x32_1_1TrapFrame">CPU::x32::TrapFrame</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#ad32608774d85b36615c7a8500f842317">CPU::x32::TrapFrame</a></td></tr>
-<tr class="separator:ad32608774d85b36615c7a8500f842317"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc94818075b7067d4104ee607c422991"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#dd/db5/unionCPU_1_1x32_1_1DR7">CPU::x32::DR7</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#acc94818075b7067d4104ee607c422991">CPU::x32::DR7</a></td></tr>
-<tr class="separator:acc94818075b7067d4104ee607c422991"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b876ab130e250374b67c12b0cd11680"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#df/df2/structCPU_1_1x64_1_1TrapFrame">CPU::x64::TrapFrame</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#a7b876ab130e250374b67c12b0cd11680">CPU::x64::TrapFrame</a></td></tr>
-<tr class="separator:a7b876ab130e250374b67c12b0cd11680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b3e456145bd0e0b402efa6c16ffb864"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d5/dca/unionCPU_1_1x64_1_1DR7">CPU::x64::DR7</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#a4b3e456145bd0e0b402efa6c16ffb864">CPU::x64::DR7</a></td></tr>
-<tr class="separator:a4b3e456145bd0e0b402efa6c16ffb864"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75f18d588864de6d36447d9d3987045"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#df/d46/unionCPU_1_1x64_1_1PageFaultErrorCode">CPU::x64::PageFaultErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#aa75f18d588864de6d36447d9d3987045">CPU::x64::PageFaultErrorCode</a></td></tr>
-<tr class="separator:aa75f18d588864de6d36447d9d3987045"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca18081f834ac01ea5fe9d9d5a0d6c4b"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#dc/d33/unionCPU_1_1x64_1_1SelectorErrorCode">CPU::x64::SelectorErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#aca18081f834ac01ea5fe9d9d5a0d6c4b">CPU::x64::SelectorErrorCode</a></td></tr>
-<tr class="separator:aca18081f834ac01ea5fe9d9d5a0d6c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a515e205dfa6bc04692d842221231442f"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../de/d52/namespacex32.html#db/d62/structx32_1_1TrapFrame">x32::TrapFrame</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#a515e205dfa6bc04692d842221231442f">x32::TrapFrame</a></td></tr>
+<tr class="separator:a515e205dfa6bc04692d842221231442f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e869c2a27690d5523250fc700d3476d"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="../../de/d52/namespacex32.html#d9/d02/unionx32_1_1EFER">x32::EFER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#a0e869c2a27690d5523250fc700d3476d">x32::EFER</a></td></tr>
+<tr class="separator:a0e869c2a27690d5523250fc700d3476d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d95504fd36d9d673f994150a5bb6fb1"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="../../de/d52/namespacex32.html#dd/da4/unionx32_1_1DR7">x32::DR7</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#a7d95504fd36d9d673f994150a5bb6fb1">x32::DR7</a></td></tr>
+<tr class="separator:a7d95504fd36d9d673f994150a5bb6fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6332246c368bd87befc545996de40bee"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../d7/db0/namespacex64.html#d7/daf/structx64_1_1TrapFrame">x64::TrapFrame</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#a6332246c368bd87befc545996de40bee">x64::TrapFrame</a></td></tr>
+<tr class="separator:a6332246c368bd87befc545996de40bee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bbcee56c837141fe73c5bc53509b885"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="../../d7/db0/namespacex64.html#da/dda/unionx64_1_1EFER">x64::EFER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#a6bbcee56c837141fe73c5bc53509b885">x64::EFER</a></td></tr>
+<tr class="separator:a6bbcee56c837141fe73c5bc53509b885"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a284db7d8534cedd71e109425b697e1e1"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="../../d7/db0/namespacex64.html#d0/d89/unionx64_1_1DR7">x64::DR7</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#a284db7d8534cedd71e109425b697e1e1">x64::DR7</a></td></tr>
+<tr class="separator:a284db7d8534cedd71e109425b697e1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae94930f8f6bdacea1c7b32b5aca39145"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="../../d7/db0/namespacex64.html#da/d69/unionx64_1_1PageFaultErrorCode">x64::PageFaultErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#ae94930f8f6bdacea1c7b32b5aca39145">x64::PageFaultErrorCode</a></td></tr>
+<tr class="separator:ae94930f8f6bdacea1c7b32b5aca39145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82e7ec1d1f87e54398ac4b31b5480d07"><td class="memItemLeft" align="right" valign="top">typedef union <a class="el" href="../../d7/db0/namespacex64.html#da/de4/unionx64_1_1SelectorErrorCode">x64::SelectorErrorCode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#a82e7ec1d1f87e54398ac4b31b5480d07">x64::SelectorErrorCode</a></td></tr>
+<tr class="separator:a82e7ec1d1f87e54398ac4b31b5480d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e5d9f1c71e354eb1a2f9713a1ed2c23"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="../../dc/dce/namespaceaarch64.html#de/d55/structaarch64_1_1TrapFrame">aarch64::TrapFrame</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dce/namespaceaarch64.html#a6e5d9f1c71e354eb1a2f9713a1ed2c23">aarch64::TrapFrame</a></td></tr>
+<tr class="separator:a6e5d9f1c71e354eb1a2f9713a1ed2c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -194,7 +200,7 @@ Enumerations</h2></td></tr>
 , <a class="el" href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178adb91be1ff77d40242e5c3ea53f344b05">CPU::Enable</a>
 , <a class="el" href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178ad9f455a07bfc57fc6a9a63100ba5ded4">CPU::Disable</a>
  }</td></tr>
-<tr class="memdesc:a8fcf1f2cabd7ed5b6d22e93765aaf178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for <a class="el" href="d7/dfa/namespaceCPU.html#a0d106989c5e6c864175365b9ed51c960" title="Check if interrupts are enabled.">CPU::Interrupts()</a> function.  <a href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178">More...</a><br /></td></tr>
+<tr class="memdesc:a8fcf1f2cabd7ed5b6d22e93765aaf178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enum for <a class="el" href="d7/dfa/namespaceCPU.html#a1cc036b2143b4358a3857bbef3921968">CPU::Interrupts()</a> function.  <a href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178">More...</a><br /></td></tr>
 <tr class="separator:a8fcf1f2cabd7ed5b6d22e93765aaf178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b7152a6891aa829fafb5d7cdc3c31c9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a9b7152a6891aa829fafb5d7cdc3c31c9">CPU::x86SIMDType</a> { <br />
 &#160;&#160;<a class="el" href="../../d7/dfa/namespaceCPU.html#a9b7152a6891aa829fafb5d7cdc3c31c9aed8a9f388df50bf7944d048caf52be17">CPU::SIMD_NONE</a> = (1 &lt;&lt; 0)
@@ -251,191 +257,81 @@ Functions</h2></td></tr>
 <tr class="memitem:a1175128f59cc4c5428896140965fc8f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a1175128f59cc4c5428896140965fc8f5">CPU::CheckSIMD</a> ()</td></tr>
 <tr class="memdesc:a1175128f59cc4c5428896140965fc8f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check SIMD support. It will return the highest supported SIMD type.  <a href="../../d7/dfa/namespaceCPU.html#a1175128f59cc4c5428896140965fc8f5">More...</a><br /></td></tr>
 <tr class="separator:a1175128f59cc4c5428896140965fc8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d16e0a922dd9127759b9d447c983ffd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a3d16e0a922dd9127759b9d447c983ffd">CPU::CheckSIMD</a> (x86SIMDType <a class="el" href="../../d3/d34/eth_8hpp.html#a8e28e365723338285d89f0bb12bb0056">Type</a>)</td></tr>
+<tr class="memitem:a3d16e0a922dd9127759b9d447c983ffd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a3d16e0a922dd9127759b9d447c983ffd">CPU::CheckSIMD</a> (x86SIMDType <a class="el" href="../../d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba">Type</a>)</td></tr>
 <tr class="memdesc:a3d16e0a922dd9127759b9d447c983ffd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check SIMD support.  <a href="../../d7/dfa/namespaceCPU.html#a3d16e0a922dd9127759b9d447c983ffd">More...</a><br /></td></tr>
 <tr class="separator:a3d16e0a922dd9127759b9d447c983ffd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa28a1c6e21b176efea57cc6bc092421e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">CPU::Pause</a> (<a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> Loop=<a class="el" href="../../d9/d49/types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a>)</td></tr>
 <tr class="memdesc:aa28a1c6e21b176efea57cc6bc092421e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>.  <a href="../../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e">More...</a><br /></td></tr>
 <tr class="separator:aa28a1c6e21b176efea57cc6bc092421e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f4d7560a59bab1e3cac5637c7b8961f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> <a class="el" href="../../d9/d49/types_8h.html#a5b6df4fe38493e14648842364a76075f">__noreturn</a> <a class="el" href="../../d9/d49/types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a> <a class="el" href="../../d9/d49/types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a1f4d7560a59bab1e3cac5637c7b8961f">CPU::Stop</a> ()</td></tr>
-<tr class="memdesc:a1f4d7560a59bab1e3cac5637c7b8961f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> (infinite loop)  <a href="../../d7/dfa/namespaceCPU.html#a1f4d7560a59bab1e3cac5637c7b8961f">More...</a><br /></td></tr>
-<tr class="separator:a1f4d7560a59bab1e3cac5637c7b8961f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12d6263298416edfbc74736be8640508"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a12d6263298416edfbc74736be8640508">CPU::Halt</a> (<a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> Loop=<a class="el" href="../../d9/d49/types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a>)</td></tr>
-<tr class="memdesc:a12d6263298416edfbc74736be8640508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Halt the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>.  <a href="../../d7/dfa/namespaceCPU.html#a12d6263298416edfbc74736be8640508">More...</a><br /></td></tr>
-<tr class="separator:a12d6263298416edfbc74736be8640508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d106989c5e6c864175365b9ed51c960"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a0d106989c5e6c864175365b9ed51c960">CPU::Interrupts</a> (InterruptsType <a class="el" href="../../d3/d34/eth_8hpp.html#a8e28e365723338285d89f0bb12bb0056">Type</a>=<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ad747a13f77a96a815e4f5630a03354dd">Check</a>)</td></tr>
-<tr class="memdesc:a0d106989c5e6c864175365b9ed51c960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if interrupts are enabled.  <a href="../../d7/dfa/namespaceCPU.html#a0d106989c5e6c864175365b9ed51c960">More...</a><br /></td></tr>
-<tr class="separator:a0d106989c5e6c864175365b9ed51c960"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91241794b7196a732d94084fc08f6ec5"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">CPU::PageTable</a> (void *PT=nullptr)</td></tr>
-<tr class="memdesc:a91241794b7196a732d94084fc08f6ec5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get/Set the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>'s page table.  <a href="../../d7/dfa/namespaceCPU.html#a91241794b7196a732d94084fc08f6ec5">More...</a><br /></td></tr>
-<tr class="separator:a91241794b7196a732d94084fc08f6ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a262b3d242b975465735fe70c6ed8307d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a262b3d242b975465735fe70c6ed8307d">CPU::InitializeFeatures</a> (long Core)</td></tr>
-<tr class="memdesc:a262b3d242b975465735fe70c6ed8307d"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be used only once.  <a href="../../d7/dfa/namespaceCPU.html#a262b3d242b975465735fe70c6ed8307d">More...</a><br /></td></tr>
-<tr class="separator:a262b3d242b975465735fe70c6ed8307d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40205e4faca29a36b5e2edf11c5fcd93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">CPU::Counter</a> ()</td></tr>
-<tr class="memdesc:a40205e4faca29a36b5e2edf11c5fcd93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> counter value.  <a href="../../d7/dfa/namespaceCPU.html#a40205e4faca29a36b5e2edf11c5fcd93">More...</a><br /></td></tr>
-<tr class="separator:a40205e4faca29a36b5e2edf11c5fcd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8a82635b377609f71f9c3f8c2f76371"><td class="memItemLeft" align="right" valign="top">union <a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#dc/dd3/unionCPU_1_1x32_1_1EFER">CPU::x32::EFER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#af8a82635b377609f71f9c3f8c2f76371">CPU::x32::__attribute__</a> ((packed)) EFER</td></tr>
-<tr class="separator:af8a82635b377609f71f9c3f8c2f76371"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a5fea71c780c7bc4e1ff5e76dc7594b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#a3a5fea71c780c7bc4e1ff5e76dc7594b">CPU::x32::cpuid</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Function, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *eax, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *ebx, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *ecx, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *edx)</td></tr>
-<tr class="memdesc:a3a5fea71c780c7bc4e1ff5e76dc7594b"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPUID.  <a href="../../de/d78/namespaceCPU_1_1x32.html#a3a5fea71c780c7bc4e1ff5e76dc7594b">More...</a><br /></td></tr>
-<tr class="separator:a3a5fea71c780c7bc4e1ff5e76dc7594b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acade37040ca65cad0dc4c75ef7beb45f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#acade37040ca65cad0dc4c75ef7beb45f">CPU::x32::invlpg</a> (void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>)</td></tr>
-<tr class="separator:acade37040ca65cad0dc4c75ef7beb45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3d59b0d8b21477ea640f295bbfb6210"><td class="memItemLeft" align="right" valign="top">union <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#dd/dfd/unionCPU_1_1x64_1_1EFER">CPU::x64::EFER</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#aa3d59b0d8b21477ea640f295bbfb6210">CPU::x64::__attribute__</a> ((packed)) EFER</td></tr>
-<tr class="separator:aa3d59b0d8b21477ea640f295bbfb6210"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc4e44154625bb16312c6bddf70c2d79"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#abc4e44154625bb16312c6bddf70c2d79">CPU::x64::lgdt</a> (void *gdt)</td></tr>
-<tr class="separator:abc4e44154625bb16312c6bddf70c2d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a819851ec4d73caf08b2cce91b780e3e0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#a819851ec4d73caf08b2cce91b780e3e0">CPU::x64::lidt</a> (void *idt)</td></tr>
-<tr class="separator:a819851ec4d73caf08b2cce91b780e3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f304bd7566858854f848ebf432b040a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#a8f304bd7566858854f848ebf432b040a">CPU::x64::ltr</a> (<a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Segment)</td></tr>
-<tr class="separator:a8f304bd7566858854f848ebf432b040a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4ea749ca9e6b6762f36b9b1dc789fed"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#ad4ea749ca9e6b6762f36b9b1dc789fed">CPU::x64::invlpg</a> (void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>)</td></tr>
-<tr class="separator:ad4ea749ca9e6b6762f36b9b1dc789fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac70068a013546cc4c302239122636922"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#ac70068a013546cc4c302239122636922">CPU::x64::cpuid</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Function, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *eax, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *ebx, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *ecx, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *edx)</td></tr>
-<tr class="memdesc:ac70068a013546cc4c302239122636922"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPUID.  <a href="../../d9/d25/namespaceCPU_1_1x64.html#ac70068a013546cc4c302239122636922">More...</a><br /></td></tr>
-<tr class="separator:ac70068a013546cc4c302239122636922"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a847c22b0e240eacf109768c1a3b666ff"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#a847c22b0e240eacf109768c1a3b666ff">CPU::x64::GetHighestLeaf</a> ()</td></tr>
-<tr class="separator:a847c22b0e240eacf109768c1a3b666ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cb350f1b9faebc901b7b5898f64547f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#a8cb350f1b9faebc901b7b5898f64547f">CPU::x64::fxsave</a> (void *FXSaveArea)</td></tr>
-<tr class="separator:a8cb350f1b9faebc901b7b5898f64547f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0547276da3ca5d993f256ad18983a05d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#a0547276da3ca5d993f256ad18983a05d">CPU::x64::fxrstor</a> (void *FXRstorArea)</td></tr>
-<tr class="separator:a0547276da3ca5d993f256ad18983a05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1723d109de3be441538d14f47f432120"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a1723d109de3be441538d14f47f432120">Halt</a> (<a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> Loop=<a class="el" href="../../d9/d49/types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a>)</td></tr>
+<tr class="memdesc:a1723d109de3be441538d14f47f432120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Halt the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>.  <a href="../../df/dbe/cpu_8hpp.html#a1723d109de3be441538d14f47f432120">More...</a><br /></td></tr>
+<tr class="separator:a1723d109de3be441538d14f47f432120"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3198a4d951ea2d62a815a21977716bca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a3198a4d951ea2d62a815a21977716bca">Interrupts</a> (InterruptsType <a class="el" href="../../d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba">Type</a>=<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ad747a13f77a96a815e4f5630a03354dd">Check</a>)</td></tr>
+<tr class="memdesc:a3198a4d951ea2d62a815a21977716bca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if interrupts are enabled.  <a href="../../df/dbe/cpu_8hpp.html#a3198a4d951ea2d62a815a21977716bca">More...</a><br /></td></tr>
+<tr class="separator:a3198a4d951ea2d62a815a21977716bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a996123e837c93ad5c4a1761027df2090"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a996123e837c93ad5c4a1761027df2090">PageTable</a> (void *PT=nullptr)</td></tr>
+<tr class="memdesc:a996123e837c93ad5c4a1761027df2090"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get/Set the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>'s page table.  <a href="../../df/dbe/cpu_8hpp.html#a996123e837c93ad5c4a1761027df2090">More...</a><br /></td></tr>
+<tr class="separator:a996123e837c93ad5c4a1761027df2090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830602b3b394262961df298a086de322"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a830602b3b394262961df298a086de322">InitializeFeatures</a> (long Core)</td></tr>
+<tr class="memdesc:a830602b3b394262961df298a086de322"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be used only once.  <a href="../../df/dbe/cpu_8hpp.html#a830602b3b394262961df298a086de322">More...</a><br /></td></tr>
+<tr class="separator:a830602b3b394262961df298a086de322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5202f67ef5c6ba73bfa2bd4d83599410"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a5202f67ef5c6ba73bfa2bd4d83599410">Counter</a> ()</td></tr>
+<tr class="memdesc:a5202f67ef5c6ba73bfa2bd4d83599410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> counter value.  <a href="../../df/dbe/cpu_8hpp.html#a5202f67ef5c6ba73bfa2bd4d83599410">More...</a><br /></td></tr>
+<tr class="separator:a5202f67ef5c6ba73bfa2bd4d83599410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59fc3e9846845e2d0cfed907b03530e1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#a59fc3e9846845e2d0cfed907b03530e1">x32::cpuid</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Function, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *eax, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *ebx, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *ecx, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *edx)</td></tr>
+<tr class="memdesc:a59fc3e9846845e2d0cfed907b03530e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPUID.  <a href="../../de/d52/namespacex32.html#a59fc3e9846845e2d0cfed907b03530e1">More...</a><br /></td></tr>
+<tr class="separator:a59fc3e9846845e2d0cfed907b03530e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ab3109baaf98f4eb8a8ef2415bd7f6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#aa5ab3109baaf98f4eb8a8ef2415bd7f6">x32::invlpg</a> (void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>)</td></tr>
+<tr class="separator:aa5ab3109baaf98f4eb8a8ef2415bd7f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1796b5dfdcd0d47b31abbf5dc6c30406"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#a1796b5dfdcd0d47b31abbf5dc6c30406">x64::lgdt</a> (void *gdt)</td></tr>
+<tr class="separator:a1796b5dfdcd0d47b31abbf5dc6c30406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbe124ede82214a6712f27d93c7fb684"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#abbe124ede82214a6712f27d93c7fb684">x64::lidt</a> (void *idt)</td></tr>
+<tr class="separator:abbe124ede82214a6712f27d93c7fb684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0663fd999376212a7be585ddb237d44e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#a0663fd999376212a7be585ddb237d44e">x64::ltr</a> (<a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Segment)</td></tr>
+<tr class="separator:a0663fd999376212a7be585ddb237d44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa708f6621e859802dcb2659e57416a92"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#aa708f6621e859802dcb2659e57416a92">x64::invlpg</a> (void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>)</td></tr>
+<tr class="separator:aa708f6621e859802dcb2659e57416a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cb2c12bfbe99187c39c71b5c6c781c1"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#a6cb2c12bfbe99187c39c71b5c6c781c1">x64::cpuid</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Function, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *eax, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *ebx, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *ecx, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *edx)</td></tr>
+<tr class="memdesc:a6cb2c12bfbe99187c39c71b5c6c781c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">CPUID.  <a href="../../d7/db0/namespacex64.html#a6cb2c12bfbe99187c39c71b5c6c781c1">More...</a><br /></td></tr>
+<tr class="separator:a6cb2c12bfbe99187c39c71b5c6c781c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a2f5e8a17bd449b4468d25f0a44143"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#aa1a2f5e8a17bd449b4468d25f0a44143">x64::GetHighestLeaf</a> ()</td></tr>
+<tr class="separator:aa1a2f5e8a17bd449b4468d25f0a44143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f36d8398df4c96092c79943fce22bb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#a15f36d8398df4c96092c79943fce22bb">x64::fxsave</a> (void *FXSaveArea)</td></tr>
+<tr class="separator:a15f36d8398df4c96092c79943fce22bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c821a755794ccc283d7779874a9813"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#a91c821a755794ccc283d7779874a9813">x64::fxrstor</a> (void *FXRstorArea)</td></tr>
+<tr class="separator:a91c821a755794ccc283d7779874a9813"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aaffa67bd30e39bff3f797ce153bcbb9a"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:a2c1f1a6ee22714691e7de941baa4f55c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SCE</b>: 1</td></tr>
-<tr class="memdesc:a2c1f1a6ee22714691e7de941baa4f55c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable syscall &amp; sysret instructions in 64-bit mode.  <a href="../../df/dbe/cpu_8hpp.html#a2c1f1a6ee22714691e7de941baa4f55c">More...</a><br /></td></tr>
-<tr class="separator:a2c1f1a6ee22714691e7de941baa4f55c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5b73e76353b3b305f406f6e7c1cb83e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved0</b>: 7</td></tr>
-<tr class="memdesc:ac5b73e76353b3b305f406f6e7c1cb83e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserved.  <a href="../../df/dbe/cpu_8hpp.html#ac5b73e76353b3b305f406f6e7c1cb83e">More...</a><br /></td></tr>
-<tr class="separator:ac5b73e76353b3b305f406f6e7c1cb83e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae46a2c4660b00c21b68724b631ea0ba1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LME</b>: 1</td></tr>
-<tr class="memdesc:ae46a2c4660b00c21b68724b631ea0ba1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable long mode.  <a href="../../df/dbe/cpu_8hpp.html#ae46a2c4660b00c21b68724b631ea0ba1">More...</a><br /></td></tr>
-<tr class="separator:ae46a2c4660b00c21b68724b631ea0ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abae83b63dd5d09c1295afe17df006630"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved1</b>: 1</td></tr>
-<tr class="memdesc:abae83b63dd5d09c1295afe17df006630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserved.  <a href="../../df/dbe/cpu_8hpp.html#abae83b63dd5d09c1295afe17df006630">More...</a><br /></td></tr>
-<tr class="separator:abae83b63dd5d09c1295afe17df006630"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a536477b145bf07d35c43b5694b2de9f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LMA</b>: 1</td></tr>
-<tr class="memdesc:a536477b145bf07d35c43b5694b2de9f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates long.  <a href="../../df/dbe/cpu_8hpp.html#a536477b145bf07d35c43b5694b2de9f0">More...</a><br /></td></tr>
-<tr class="separator:a536477b145bf07d35c43b5694b2de9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add8bea80dc5169bfc8abaa1f47eb46e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>NXE</b>: 1</td></tr>
-<tr class="memdesc:add8bea80dc5169bfc8abaa1f47eb46e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable No-Execute Bit.  <a href="../../df/dbe/cpu_8hpp.html#add8bea80dc5169bfc8abaa1f47eb46e9">More...</a><br /></td></tr>
-<tr class="separator:add8bea80dc5169bfc8abaa1f47eb46e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a978a8e25bdb80db9914aa602ec1031a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SVME</b>: 1</td></tr>
-<tr class="memdesc:a978a8e25bdb80db9914aa602ec1031a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Secure Virtual Machine.  <a href="../../df/dbe/cpu_8hpp.html#a978a8e25bdb80db9914aa602ec1031a5">More...</a><br /></td></tr>
-<tr class="separator:a978a8e25bdb80db9914aa602ec1031a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae31540e8706515c729e84cfd0e46cb28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LMSLE</b>: 1</td></tr>
-<tr class="memdesc:ae31540e8706515c729e84cfd0e46cb28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Long Mode Segment Limit.  <a href="../../df/dbe/cpu_8hpp.html#ae31540e8706515c729e84cfd0e46cb28">More...</a><br /></td></tr>
-<tr class="separator:ae31540e8706515c729e84cfd0e46cb28"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39e63ffa620c9f76f72df887aa68bf5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FFXSR</b>: 1</td></tr>
-<tr class="memdesc:a39e63ffa620c9f76f72df887aa68bf5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Fast FXSAVE/FXRSTOR.  <a href="../../df/dbe/cpu_8hpp.html#a39e63ffa620c9f76f72df887aa68bf5e">More...</a><br /></td></tr>
-<tr class="separator:a39e63ffa620c9f76f72df887aa68bf5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad32d8f294aa36230beb8e1a05cc5a04d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TCE</b>: 1</td></tr>
-<tr class="memdesc:ad32d8f294aa36230beb8e1a05cc5a04d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Translation Cache Extension.  <a href="../../df/dbe/cpu_8hpp.html#ad32d8f294aa36230beb8e1a05cc5a04d">More...</a><br /></td></tr>
-<tr class="separator:ad32d8f294aa36230beb8e1a05cc5a04d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a3aedc4f3e63948aff1ed413b382fea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved2</b>: 32</td></tr>
-<tr class="memdesc:a1a3aedc4f3e63948aff1ed413b382fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserved.  <a href="../../df/dbe/cpu_8hpp.html#a1a3aedc4f3e63948aff1ed413b382fea">More...</a><br /></td></tr>
-<tr class="separator:a1a3aedc4f3e63948aff1ed413b382fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaffa67bd30e39bff3f797ce153bcbb9a"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:aaffa67bd30e39bff3f797ce153bcbb9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33656e1e604e9a92fef40e66e3bf036d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a33656e1e604e9a92fef40e66e3bf036d">raw</a></td></tr>
-<tr class="separator:a33656e1e604e9a92fef40e66e3bf036d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e33b01fe25cb595f498d300575eb310"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a2e33b01fe25cb595f498d300575eb310">fcw</a></td></tr>
-<tr class="memdesc:a2e33b01fe25cb595f498d300575eb310"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPU control word.  <a href="../../df/dbe/cpu_8hpp.html#a2e33b01fe25cb595f498d300575eb310">More...</a><br /></td></tr>
-<tr class="separator:a2e33b01fe25cb595f498d300575eb310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab22d66ef6012b705c21f163e38fa496e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#ab22d66ef6012b705c21f163e38fa496e">fsw</a></td></tr>
-<tr class="memdesc:ab22d66ef6012b705c21f163e38fa496e"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPU status word.  <a href="../../df/dbe/cpu_8hpp.html#ab22d66ef6012b705c21f163e38fa496e">More...</a><br /></td></tr>
-<tr class="separator:ab22d66ef6012b705c21f163e38fa496e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7c0ce85422a2a1bb4c709c3fa9bfdd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#ae7c0ce85422a2a1bb4c709c3fa9bfdd5">ftw</a></td></tr>
-<tr class="memdesc:ae7c0ce85422a2a1bb4c709c3fa9bfdd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPU tag words.  <a href="../../df/dbe/cpu_8hpp.html#ae7c0ce85422a2a1bb4c709c3fa9bfdd5">More...</a><br /></td></tr>
-<tr class="separator:ae7c0ce85422a2a1bb4c709c3fa9bfdd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68394408e82008fe25bfe2931b59ce58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a68394408e82008fe25bfe2931b59ce58">Reserved</a></td></tr>
-<tr class="memdesc:a68394408e82008fe25bfe2931b59ce58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserved (zero)  <a href="../../df/dbe/cpu_8hpp.html#a68394408e82008fe25bfe2931b59ce58">More...</a><br /></td></tr>
-<tr class="separator:a68394408e82008fe25bfe2931b59ce58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaf1ee01ae13a6701cbbcdc3f8330da9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#aaaf1ee01ae13a6701cbbcdc3f8330da9">fop</a></td></tr>
-<tr class="memdesc:aaaf1ee01ae13a6701cbbcdc3f8330da9"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPU opcode.  <a href="../../df/dbe/cpu_8hpp.html#aaaf1ee01ae13a6701cbbcdc3f8330da9">More...</a><br /></td></tr>
-<tr class="separator:aaaf1ee01ae13a6701cbbcdc3f8330da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90e28f434559f0582a69699dc4dbc286"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a90e28f434559f0582a69699dc4dbc286">rip</a></td></tr>
-<tr class="memdesc:a90e28f434559f0582a69699dc4dbc286"><td class="mdescLeft">&#160;</td><td class="mdescRight">PFU instruction pointer.  <a href="../../df/dbe/cpu_8hpp.html#a90e28f434559f0582a69699dc4dbc286">More...</a><br /></td></tr>
-<tr class="separator:a90e28f434559f0582a69699dc4dbc286"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a631e90d006f9914332fd0898840cf728"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a631e90d006f9914332fd0898840cf728">rdp</a></td></tr>
-<tr class="memdesc:a631e90d006f9914332fd0898840cf728"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPU data pointer.  <a href="../../df/dbe/cpu_8hpp.html#a631e90d006f9914332fd0898840cf728">More...</a><br /></td></tr>
-<tr class="separator:a631e90d006f9914332fd0898840cf728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1485787f3c2fb8d9f8e3668eb0dbbfe3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a1485787f3c2fb8d9f8e3668eb0dbbfe3">mxcsr</a></td></tr>
-<tr class="memdesc:a1485787f3c2fb8d9f8e3668eb0dbbfe3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d5/de2/namespaceSSE.html">SSE</a> control register.  <a href="../../df/dbe/cpu_8hpp.html#a1485787f3c2fb8d9f8e3668eb0dbbfe3">More...</a><br /></td></tr>
-<tr class="separator:a1485787f3c2fb8d9f8e3668eb0dbbfe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab34c8517083c2fe1c7d1a7bfce6896d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#ab34c8517083c2fe1c7d1a7bfce6896d5">mxcsrmask</a></td></tr>
-<tr class="memdesc:ab34c8517083c2fe1c7d1a7bfce6896d5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../d5/de2/namespaceSSE.html">SSE</a> control register mask.  <a href="../../df/dbe/cpu_8hpp.html#ab34c8517083c2fe1c7d1a7bfce6896d5">More...</a><br /></td></tr>
-<tr class="separator:ab34c8517083c2fe1c7d1a7bfce6896d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a134ea376700be77c5d061d7212a5cde3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#a134ea376700be77c5d061d7212a5cde3">st</a> [8][16]</td></tr>
-<tr class="memdesc:a134ea376700be77c5d061d7212a5cde3"><td class="mdescLeft">&#160;</td><td class="mdescRight">FPU registers (last 6 bytes reserved)  <a href="../../df/dbe/cpu_8hpp.html#a134ea376700be77c5d061d7212a5cde3">More...</a><br /></td></tr>
-<tr class="separator:a134ea376700be77c5d061d7212a5cde3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaac7bab3571d29982527056078c0cebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dbe/cpu_8hpp.html#aaac7bab3571d29982527056078c0cebc">xmm</a> [16][16]</td></tr>
-<tr class="memdesc:aaac7bab3571d29982527056078c0cebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">XMM registers.  <a href="../../df/dbe/cpu_8hpp.html#aaac7bab3571d29982527056078c0cebc">More...</a><br /></td></tr>
-<tr class="separator:aaac7bab3571d29982527056078c0cebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac859a77ce6c28cb6607d7beb4bbbb918"><td class="memItemLeft" >struct {</td></tr>
-<tr class="memitem:a888dae1a089f60c5781b31084313c68b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SCE</b>: 1</td></tr>
-<tr class="memdesc:a888dae1a089f60c5781b31084313c68b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable syscall &amp; sysret instructions in 64-bit mode.  <a href="../../df/dbe/cpu_8hpp.html#a888dae1a089f60c5781b31084313c68b">More...</a><br /></td></tr>
-<tr class="separator:a888dae1a089f60c5781b31084313c68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a858e27f85d35f21fac01f26166e9632f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved0</b>: 7</td></tr>
-<tr class="memdesc:a858e27f85d35f21fac01f26166e9632f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserved.  <a href="../../df/dbe/cpu_8hpp.html#a858e27f85d35f21fac01f26166e9632f">More...</a><br /></td></tr>
-<tr class="separator:a858e27f85d35f21fac01f26166e9632f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c03ad608db36339380a46826cb2cc0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LME</b>: 1</td></tr>
-<tr class="memdesc:a2c03ad608db36339380a46826cb2cc0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable long mode.  <a href="../../df/dbe/cpu_8hpp.html#a2c03ad608db36339380a46826cb2cc0d">More...</a><br /></td></tr>
-<tr class="separator:a2c03ad608db36339380a46826cb2cc0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a139448275dd5d09b7ce0157bbd824927"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved1</b>: 1</td></tr>
-<tr class="memdesc:a139448275dd5d09b7ce0157bbd824927"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserved.  <a href="../../df/dbe/cpu_8hpp.html#a139448275dd5d09b7ce0157bbd824927">More...</a><br /></td></tr>
-<tr class="separator:a139448275dd5d09b7ce0157bbd824927"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e003cc7bde3cf03f310b127064a552b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LMA</b>: 1</td></tr>
-<tr class="memdesc:a6e003cc7bde3cf03f310b127064a552b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates long.  <a href="../../df/dbe/cpu_8hpp.html#a6e003cc7bde3cf03f310b127064a552b">More...</a><br /></td></tr>
-<tr class="separator:a6e003cc7bde3cf03f310b127064a552b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38fab05156d0523eb19a8e3cfa5a4f2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>NXE</b>: 1</td></tr>
-<tr class="memdesc:a38fab05156d0523eb19a8e3cfa5a4f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable No-Execute Bit.  <a href="../../df/dbe/cpu_8hpp.html#a38fab05156d0523eb19a8e3cfa5a4f2f">More...</a><br /></td></tr>
-<tr class="separator:a38fab05156d0523eb19a8e3cfa5a4f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22e9a1c960b7aa0d8381e82355aad47c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SVME</b>: 1</td></tr>
-<tr class="memdesc:a22e9a1c960b7aa0d8381e82355aad47c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Secure Virtual Machine.  <a href="../../df/dbe/cpu_8hpp.html#a22e9a1c960b7aa0d8381e82355aad47c">More...</a><br /></td></tr>
-<tr class="separator:a22e9a1c960b7aa0d8381e82355aad47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab69f4017c4f8b6a20b5f7738c59dbe3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>LMSLE</b>: 1</td></tr>
-<tr class="memdesc:ab69f4017c4f8b6a20b5f7738c59dbe3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Long Mode Segment Limit.  <a href="../../df/dbe/cpu_8hpp.html#ab69f4017c4f8b6a20b5f7738c59dbe3b">More...</a><br /></td></tr>
-<tr class="separator:ab69f4017c4f8b6a20b5f7738c59dbe3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78c0fd1466f9cdfc5295afe9300e284e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>FFXSR</b>: 1</td></tr>
-<tr class="memdesc:a78c0fd1466f9cdfc5295afe9300e284e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Fast FXSAVE/FXRSTOR.  <a href="../../df/dbe/cpu_8hpp.html#a78c0fd1466f9cdfc5295afe9300e284e">More...</a><br /></td></tr>
-<tr class="separator:a78c0fd1466f9cdfc5295afe9300e284e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6567c9966bec3b415c70f35b4e8cb44b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>TCE</b>: 1</td></tr>
-<tr class="memdesc:a6567c9966bec3b415c70f35b4e8cb44b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable Translation Cache Extension.  <a href="../../df/dbe/cpu_8hpp.html#a6567c9966bec3b415c70f35b4e8cb44b">More...</a><br /></td></tr>
-<tr class="separator:a6567c9966bec3b415c70f35b4e8cb44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3834133ba4aa3ea2256439c3ac1103e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Reserved2</b>: 32</td></tr>
-<tr class="memdesc:a3834133ba4aa3ea2256439c3ac1103e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reserved.  <a href="../../df/dbe/cpu_8hpp.html#a3834133ba4aa3ea2256439c3ac1103e7">More...</a><br /></td></tr>
-<tr class="separator:a3834133ba4aa3ea2256439c3ac1103e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac859a77ce6c28cb6607d7beb4bbbb918"><td class="memItemLeft" valign="top">};&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
-<tr class="separator:ac859a77ce6c28cb6607d7beb4bbbb918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a3cf5083b038e0e52eafd5de98a11e3"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../de/d52/namespacex32.html#d7/d2c/structx32_1_1FXState">x32::FXState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d52/namespacex32.html#a9a3cf5083b038e0e52eafd5de98a11e3">x32::__packed</a></td></tr>
+<tr class="separator:a9a3cf5083b038e0e52eafd5de98a11e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77368c2d682f97388bd780d3983a4f8d"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d7/db0/namespacex64.html#d0/da3/structx64_1_1FXState">x64::FXState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db0/namespacex64.html#a77368c2d682f97388bd780d3983a4f8d">x64::__packed</a></td></tr>
+<tr class="separator:a77368c2d682f97388bd780d3983a4f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
-<a name="d1/d7c/unionCPU_1_1x32_1_1EFLAGS" id="d1/d7c/unionCPU_1_1x32_1_1EFLAGS"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d1/d7c/unionCPU_1_1x32_1_1EFLAGS">&#9670;&nbsp;</a></span>CPU::x32::EFLAGS</h2>
+<a name="da/db1/unionx32_1_1EFLAGS" id="da/db1/unionx32_1_1EFLAGS"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#da/db1/unionx32_1_1EFLAGS">&#9670;&nbsp;</a></span>x32::EFLAGS</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">union CPU::x32::EFLAGS</td>
+          <td class="memname">union x32::EFLAGS</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00194">194</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00213">213</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a85d08a7374688b5a8c58db9e55d13428"></a>struct <a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____">EFLAGS</a></td>
+<a id="a21be22e8379f2f274ca3119805b600fc"></a>struct <a class="el" href="../../de/d52/namespacex32.html#de/dae/structx32_1_1EFLAGS_8____unnamed777____">EFLAGS</a></td>
 <td class="fieldname">
-__attribute__</td>
+__unnamed__</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a896ee47cf16552f2ac6b0314837b143e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a1eb7f4b83792e72aba3a9aa903e106fa"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 raw</td>
 <td class="fielddoc">
@@ -444,101 +340,101 @@ raw</td>
 
 </div>
 </div>
-<a name="d3/d23/structCPU_1_1x32_1_1TrapFrame" id="d3/d23/structCPU_1_1x32_1_1TrapFrame"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d3/d23/structCPU_1_1x32_1_1TrapFrame">&#9670;&nbsp;</a></span>CPU::x32::TrapFrame</h2>
+<a name="db/d62/structx32_1_1TrapFrame" id="db/d62/structx32_1_1TrapFrame"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#db/d62/structx32_1_1TrapFrame">&#9670;&nbsp;</a></span>x32::TrapFrame</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x32::TrapFrame</td>
+          <td class="memname">struct x32::TrapFrame</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00244">244</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00263">263</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a78f9510bbdb2dae0b81eccb5fab16a66"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a6201dfd2db6421c49643e96585c184bb"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 cs</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ac718cd3974b6e09521f8300694db44c7"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a195bf9541710bb8be0b75c5863b6cf0a"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 eax</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab828a678809d399c43a0bbe808a58daf"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a919b608fd9a71313d4606fe575087363"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 ebp</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="addde57b897f69da20a84194864c7d2bd"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a7244ec8bfbfd6b02d44248f3f17ce13b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 ebx</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a2430e2c45f09c9b86c5634ec67927884"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a364210343033a34fde1c7eb72428732d"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 ecx</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a0072a67dacae04df35333419beeb9d9b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a6c8e8c88e6b1c215b5bd4790c57899ec"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 edi</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad5926a24827ad398754331e1f31c4d05"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a27b144916408b9373b03105dd477e05a"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 edx</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad9505ce78f379c94e58698c7a6157b54"></a><a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d1/d7c/unionCPU_1_1x32_1_1EFLAGS">EFLAGS</a></td>
+<a id="a437a9e489a192a9cd7e767cc093cfefb"></a><a class="el" href="../../de/d52/namespacex32.html#da/db1/unionx32_1_1EFLAGS">EFLAGS</a></td>
 <td class="fieldname">
 eflags</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a499078b3dd0d49535723ebb948b19ba7"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a9a936b73b0f3ee8a589f9d744fd19cff"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 eip</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a147f65c2580a988634010960f9c1132b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a11738b7aa011696646792149127f9b46"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 ErrorCode</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aaf4d21d355c4396c6d9e6c8133102942"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a72e8943929c50e248217490d951f14fc"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 esi</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ac013b914e6edceeace783393c6da2929"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a4bd7bbec03aebc8817ef6d22bcdc3251"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 esp</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a06f321bc816fc969938cb77def9f8141"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="aaafc494c344bda136ce1952873156e17"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 InterruptNumber</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab7988e69b279a131ac7bfdd76de35fc1"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a9039c34da43297e9f886098fe2e89ec3"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 ss</td>
 <td class="fielddoc">
@@ -547,29 +443,29 @@ ss</td>
 
 </div>
 </div>
-<a name="dc/dd3/unionCPU_1_1x32_1_1EFER" id="dc/dd3/unionCPU_1_1x32_1_1EFER"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dc/dd3/unionCPU_1_1x32_1_1EFER">&#9670;&nbsp;</a></span>CPU::x32::EFER</h2>
+<a name="d9/d02/unionx32_1_1EFER" id="d9/d02/unionx32_1_1EFER"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d9/d02/unionx32_1_1EFER">&#9670;&nbsp;</a></span>x32::EFER</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">union CPU::x32::EFER</td>
+          <td class="memname">union x32::EFER</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00264">264</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00283">283</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a96c25287269b3e7b8487c65ddac1a9cf"></a>struct <a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862____">EFER</a></td>
+<a id="a684042817fc498c74c537b575b42c402"></a>struct <a class="el" href="../../de/d52/namespacex32.html#d6/da8/structx32_1_1EFER_8____unnamed779____">EFER</a></td>
 <td class="fieldname">
 __unnamed__</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a07e3391bffa71ea761c84ffc6ca3d170"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a9af507f1e38559ccd22f4e408fc4168f"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 raw</td>
 <td class="fielddoc">
@@ -578,29 +474,29 @@ raw</td>
 
 </div>
 </div>
-<a name="dd/db5/unionCPU_1_1x32_1_1DR7" id="dd/db5/unionCPU_1_1x32_1_1DR7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dd/db5/unionCPU_1_1x32_1_1DR7">&#9670;&nbsp;</a></span>CPU::x32::DR7</h2>
+<a name="dd/da4/unionx32_1_1DR7" id="dd/da4/unionx32_1_1DR7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/da4/unionx32_1_1DR7">&#9670;&nbsp;</a></span>x32::DR7</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">union CPU::x32::DR7</td>
+          <td class="memname">union x32::DR7</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00295">295</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00314">314</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="aba80297857034a1c86c5d20da3a70ed4"></a>struct <a class="el" href="../../de/d78/namespaceCPU_1_1x32.html#d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866____">DR7</a></td>
+<a id="af88b7f4d2ef4bf841732a20a41d0b49c"></a>struct <a class="el" href="../../de/d52/namespacex32.html#d3/d51/structx32_1_1DR7_8____unnamed781____">DR7</a></td>
 <td class="fieldname">
 __unnamed__</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab82ed7010e43fcc4c7d5108a5e760359"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="acc212255a8af922fb5b2b62332d494ce"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 raw</td>
 <td class="fielddoc">
@@ -609,83 +505,83 @@ raw</td>
 
 </div>
 </div>
-<a name="d4/d34/structCPU_1_1x32_1_1FXState" id="d4/d34/structCPU_1_1x32_1_1FXState"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d4/d34/structCPU_1_1x32_1_1FXState">&#9670;&nbsp;</a></span>CPU::x32::FXState</h2>
+<a name="d7/d2c/structx32_1_1FXState" id="d7/d2c/structx32_1_1FXState"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d7/d2c/structx32_1_1FXState">&#9670;&nbsp;</a></span>x32::FXState</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x32::FXState</td>
+          <td class="memname">struct x32::FXState</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00337">337</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00356">356</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ab7e9f80ab23a0ea589899ab6765e5ab6"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a179b3aa402eca3f19013fbbd8793f747"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 fcw</td>
 <td class="fielddoc">
 FPU control word. </td></tr>
 <tr><td class="fieldtype">
-<a id="ae87a065b46127534a87fb2893ae47635"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="ad5a5036ea356482f55e6b5ae090a350a"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 fop</td>
 <td class="fielddoc">
 FPU opcode. </td></tr>
 <tr><td class="fieldtype">
-<a id="ac86c6917599f5463421647ebc7ae3419"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a2c9464d1f35e32bee42bbf1218326e3c"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 fsw</td>
 <td class="fielddoc">
 FPU status word. </td></tr>
 <tr><td class="fieldtype">
-<a id="a5d8222a5fcfb8246784ea9af8df89037"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="ac872ea240c42a451a4fb8489523d1304"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 ftw</td>
 <td class="fielddoc">
 FPU tag words. </td></tr>
 <tr><td class="fieldtype">
-<a id="aee0125e96dd4664221c09263fe0460c6"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a71f7704440ff76be4218a6cecccc76df"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 mxcsr</td>
 <td class="fielddoc">
 <a class="el" href="../../d5/de2/namespaceSSE.html">SSE</a> control register. </td></tr>
 <tr><td class="fieldtype">
-<a id="ab59a0090b7cdad8a6a35ff95b167aabd"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a511e9e390e53217ca2c4ca6352719b97"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 mxcsrmask</td>
 <td class="fielddoc">
 <a class="el" href="../../d5/de2/namespaceSSE.html">SSE</a> control register mask. </td></tr>
 <tr><td class="fieldtype">
-<a id="aac635f543e67441e5c44c5a88231b016"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a846a318a9ea090e4e5c0d62d93bcc2f4"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rdp</td>
 <td class="fielddoc">
 FPU data pointer. </td></tr>
 <tr><td class="fieldtype">
-<a id="a86c804bef6abacdd9cd4cc7c37558f07"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a3c74ea2590492f12ab8e4faae77ad20e"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Reserved</td>
 <td class="fielddoc">
 Reserved (zero) </td></tr>
 <tr><td class="fieldtype">
-<a id="a1f40d156d129ace4c0570ed4f56d22c1"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="af472b6ff99b8f79206b75016ce5f4f18"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rip</td>
 <td class="fielddoc">
 PFU instruction pointer. </td></tr>
 <tr><td class="fieldtype">
-<a id="a2ac8630b86935c456fed4f7714ff9bb8"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a15e54fa9f18b18318f55c0b9dda86fb8"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 st[8][16]</td>
 <td class="fielddoc">
 FPU registers (last 6 bytes reserved) </td></tr>
 <tr><td class="fieldtype">
-<a id="ad3bb87920e522ae9e052e9748941b8f2"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a5b2d2abd1a9affcd908aa8795f12da99"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 xmm[16][16]</td>
 <td class="fielddoc">
@@ -694,62 +590,31 @@ XMM registers. </td></tr>
 
 </div>
 </div>
-<a name="db/dc5/unionCPU_1_1x64_1_1____attribute____" id="db/dc5/unionCPU_1_1x64_1_1____attribute____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#db/dc5/unionCPU_1_1x64_1_1____attribute____">&#9670;&nbsp;</a></span>CPU::x64::__attribute__</h2>
+<a name="df/db8/unionx64_1_1____packed" id="df/db8/unionx64_1_1____packed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#df/db8/unionx64_1_1____packed">&#9670;&nbsp;</a></span>x64::__packed</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">union CPU::x64::__attribute__</td>
+          <td class="memname">union x64::__packed</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock"><p>MSR_APIC_BASE structure. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bdab6add2f9ef9f2d593028df69fad5b0ab">MSR_APIC_BASE</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd>MSR_APIC_BASE </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00406">406</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00425">425</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="abd944d418afae4eac32de942eeb83829"></a>struct <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#dc/d51/structCPU_1_1x64_1_1____attribute_____8____attribute____">__attribute__</a></td>
-<td class="fieldname">
-__attribute__</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aa2871ec922e647b1402eed50dc58d68e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-raw</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a name="d8/dd8/unionCPU_1_1x64_1_1RFLAGS" id="d8/dd8/unionCPU_1_1x64_1_1RFLAGS"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d8/dd8/unionCPU_1_1x64_1_1RFLAGS">&#9670;&nbsp;</a></span>CPU::x64::RFLAGS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">union CPU::x64::RFLAGS</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00431">431</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="a86d05a8bb26cf4ae7b8c0eb5eeed6ce6"></a>struct <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#dd/d53/structCPU_1_1x64_1_1RFLAGS_8____unnamed869____">RFLAGS</a></td>
+<a id="aeb694071a9b2d9ae37d4c870d0dcbc62"></a>struct <a class="el" href="../../d7/db0/namespacex64.html#dd/d17/structx64_1_1____packed_8____unnamed783____">__packed</a></td>
 <td class="fieldname">
 __unnamed__</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a525ea7157832b0006f9f5cc8419a1326"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a02c4ad7949e5dc88619310619a12113b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 raw</td>
 <td class="fielddoc">
@@ -758,149 +623,180 @@ raw</td>
 
 </div>
 </div>
-<a name="df/df2/structCPU_1_1x64_1_1TrapFrame" id="df/df2/structCPU_1_1x64_1_1TrapFrame"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#df/df2/structCPU_1_1x64_1_1TrapFrame">&#9670;&nbsp;</a></span>CPU::x64::TrapFrame</h2>
+<a name="d0/d86/unionx64_1_1RFLAGS" id="d0/d86/unionx64_1_1RFLAGS"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d0/d86/unionx64_1_1RFLAGS">&#9670;&nbsp;</a></span>x64::RFLAGS</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x64::TrapFrame</td>
+          <td class="memname">union x64::RFLAGS</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00483">483</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00450">450</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="afacea517d58f361afa31af1845d0b2f2"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="adeb661b7adad4add9c59c80ab886f0ac"></a>struct <a class="el" href="../../d7/db0/namespacex64.html#d9/d07/structx64_1_1RFLAGS_8____unnamed785____">RFLAGS</a></td>
+<td class="fieldname">
+__unnamed__</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a7758d168061b6e94a81cf806b0ca7c8a"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+raw</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d7/daf/structx64_1_1TrapFrame" id="d7/daf/structx64_1_1TrapFrame"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d7/daf/structx64_1_1TrapFrame">&#9670;&nbsp;</a></span>x64::TrapFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct x64::TrapFrame</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00502">502</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a44140290dd9424364683d5ccaef20f64"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 cs</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aa8d027ef9a9ac392b882c6db2e5facb1"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a293ebe31552e071a9e416a550176675f"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 ErrorCode</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3ee6a2e1258dec8d64b07c15704d5f37"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a61f0c6d49c4efbe6d21f442fde662eda"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 InterruptNumber</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a59011a06041c8ecb39e4212b2879f7a3"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a0c5358a5c92fc1b01f795e67642d150e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 r10</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ac7cc57c062b17dbe47bd0fa03a43c7cc"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a78fa6109d57188a6f3e1dbcbecfc04d0"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 r11</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab5fa0cd2278cb5c5989e43627cc11e9e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="ad2cd1e910cfbb8890ff0639f1dedfeb6"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 r12</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad4cb2b031d6cc36c118ffe5bf64746e6"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a8d17efded7cacfce31dcb0c0ea2dbee7"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 r13</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a0fe33d32158d444c0d6b479a4b08f97f"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a769063c18dff6bf7c23beab71b36b79b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 r14</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a476e0e552c165c1bc52af02f8811bbfa"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="aabc1ce2e57bd768083da63ee9ae6c180"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 r15</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a4f66f71dbb8dd2cf189cb68eb0246da3"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a4ba7c4ab26beb99157ac6ce08f6c2c21"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 r8</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab9b84c40d96809382aaa08408ea732fd"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a1512835471d35c25e1c8ba32c0d2a657"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 r9</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a7bcfb6f3cf137d6b582e687b1a523fac"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a08d8fca324d62b9e8daf9230992dca96"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rax</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a294bc32f40bcd9b1dea22c818f33b475"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a3cc8582540f369e02e5dbac240045aa1"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rbp</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae6726d3b577f9ba615a8c5c5c2178735"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a4c91432709a117a870ae8e1624cc35e8"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rbx</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a4e85093ff9b7bef74d590f1dac47c07d"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a9bc676a8fcf4e4783a58db39efa8682e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rcx</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a2c9738159f4660c1fdbe0c3d5f9cda2b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="ad9d748462322a9e234eeb53021ec37fc"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rdi</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3131089e9972072f36c32de7e149a8d5"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a92fe41fc44db3c1a4546f8fc5586dacd"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rdx</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a4b42a178ea8372431b59e90e380a37bc"></a><a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d8/dd8/unionCPU_1_1x64_1_1RFLAGS">RFLAGS</a></td>
+<a id="a1f633a2807f12db53b753b1138a3955e"></a><a class="el" href="../../d7/db0/namespacex64.html#d0/d86/unionx64_1_1RFLAGS">RFLAGS</a></td>
 <td class="fieldname">
 rflags</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aceaa3517a6197985bdb520e85a98dcd9"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a9b4a4d5d47f69ca8308a34f7f1214ae5"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rip</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad13f07a8a684c7261df173ef08995e63"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a58a4fc788c34ca34e52f223a25eabc57"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rsi</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a0c505d55e325e8548504b065adbe7211"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a84ad1ec069bcb79c41427c63b409a0cb"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rsp</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a38219207ff59967dfcb5923e7279f368"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="ad055ba1c8bd34fecb17289ffd114e1b1"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 ss</td>
 <td class="fielddoc">
@@ -909,29 +805,29 @@ ss</td>
 
 </div>
 </div>
-<a name="dd/dfd/unionCPU_1_1x64_1_1EFER" id="dd/dfd/unionCPU_1_1x64_1_1EFER"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dd/dfd/unionCPU_1_1x64_1_1EFER">&#9670;&nbsp;</a></span>CPU::x64::EFER</h2>
+<a name="da/dda/unionx64_1_1EFER" id="da/dda/unionx64_1_1EFER"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#da/dda/unionx64_1_1EFER">&#9670;&nbsp;</a></span>x64::EFER</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">union CPU::x64::EFER</td>
+          <td class="memname">union x64::EFER</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00511">511</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00530">530</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a3656adf4599be42c6dd787bd81544d93"></a>struct <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d7/dc7/structCPU_1_1x64_1_1EFER_8____unnamed871____">EFER</a></td>
+<a id="a3fb570630f455b32c89d960197188536"></a>struct <a class="el" href="../../d7/db0/namespacex64.html#dc/d70/structx64_1_1EFER_8____unnamed787____">EFER</a></td>
 <td class="fieldname">
 __unnamed__</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a9fc77b125c13bc21ef75b07595ff8f2b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a25e37313f3234e6e7ed9a26788ac2d17"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 raw</td>
 <td class="fielddoc">
@@ -940,29 +836,29 @@ raw</td>
 
 </div>
 </div>
-<a name="d5/dca/unionCPU_1_1x64_1_1DR7" id="d5/dca/unionCPU_1_1x64_1_1DR7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d5/dca/unionCPU_1_1x64_1_1DR7">&#9670;&nbsp;</a></span>CPU::x64::DR7</h2>
+<a name="d0/d89/unionx64_1_1DR7" id="d0/d89/unionx64_1_1DR7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d0/d89/unionx64_1_1DR7">&#9670;&nbsp;</a></span>x64::DR7</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">union CPU::x64::DR7</td>
+          <td class="memname">union x64::DR7</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00542">542</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00561">561</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a230d8e38435eca904dadf274e6ae93ed"></a>struct <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d0/db0/structCPU_1_1x64_1_1DR7_8____unnamed875____">DR7</a></td>
+<a id="a48d0d3a347b2eded19fc082e91a81376"></a>struct <a class="el" href="../../d7/db0/namespacex64.html#d8/d7b/structx64_1_1DR7_8____unnamed789____">DR7</a></td>
 <td class="fieldname">
 __unnamed__</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab76da42ae04560f6ad70658beac514d5"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="ab96b400b6b92f28a161ef8a7854f95b4"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 raw</td>
 <td class="fielddoc">
@@ -971,29 +867,29 @@ raw</td>
 
 </div>
 </div>
-<a name="df/d46/unionCPU_1_1x64_1_1PageFaultErrorCode" id="df/d46/unionCPU_1_1x64_1_1PageFaultErrorCode"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#df/d46/unionCPU_1_1x64_1_1PageFaultErrorCode">&#9670;&nbsp;</a></span>CPU::x64::PageFaultErrorCode</h2>
+<a name="da/d69/unionx64_1_1PageFaultErrorCode" id="da/d69/unionx64_1_1PageFaultErrorCode"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#da/d69/unionx64_1_1PageFaultErrorCode">&#9670;&nbsp;</a></span>x64::PageFaultErrorCode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">union CPU::x64::PageFaultErrorCode</td>
+          <td class="memname">union x64::PageFaultErrorCode</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00584">584</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00603">603</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a3138510867682e7aa65e9ada3d615956"></a>struct <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d3/d02/structCPU_1_1x64_1_1PageFaultErrorCode_8____unnamed877____">PageFaultErrorCode</a></td>
+<a id="aaf158e86f2828ff8c8424723ffc57125"></a>struct <a class="el" href="../../d7/db0/namespacex64.html#df/dd7/structx64_1_1PageFaultErrorCode_8____unnamed791____">PageFaultErrorCode</a></td>
 <td class="fieldname">
 __unnamed__</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3d76d9f9253ee69232856b15b8209a59"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="ad23c67c312604fa49c65d1e3840afbaa"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 raw</td>
 <td class="fielddoc">
@@ -1002,29 +898,29 @@ raw</td>
 
 </div>
 </div>
-<a name="dc/d33/unionCPU_1_1x64_1_1SelectorErrorCode" id="dc/d33/unionCPU_1_1x64_1_1SelectorErrorCode"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dc/d33/unionCPU_1_1x64_1_1SelectorErrorCode">&#9670;&nbsp;</a></span>CPU::x64::SelectorErrorCode</h2>
+<a name="da/de4/unionx64_1_1SelectorErrorCode" id="da/de4/unionx64_1_1SelectorErrorCode"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#da/de4/unionx64_1_1SelectorErrorCode">&#9670;&nbsp;</a></span>x64::SelectorErrorCode</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">union CPU::x64::SelectorErrorCode</td>
+          <td class="memname">union x64::SelectorErrorCode</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00613">613</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00632">632</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ac80f2695fe33e58860a596d2d4681882"></a>struct <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d4/d43/structCPU_1_1x64_1_1SelectorErrorCode_8____unnamed879____">SelectorErrorCode</a></td>
+<a id="a162c709e5d418b4c52420c665104e0db"></a>struct <a class="el" href="../../d7/db0/namespacex64.html#d4/d96/structx64_1_1SelectorErrorCode_8____unnamed793____">SelectorErrorCode</a></td>
 <td class="fieldname">
 __unnamed__</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a64c19d0a6f995faee5668438d863af26"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="ac14515b36c12e86f167abbe58b5f20e1"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 raw</td>
 <td class="fielddoc">
@@ -1033,83 +929,83 @@ raw</td>
 
 </div>
 </div>
-<a name="df/d25/structCPU_1_1x64_1_1FXState" id="df/d25/structCPU_1_1x64_1_1FXState"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#df/d25/structCPU_1_1x64_1_1FXState">&#9670;&nbsp;</a></span>CPU::x64::FXState</h2>
+<a name="d0/da3/structx64_1_1FXState" id="d0/da3/structx64_1_1FXState"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d0/da3/structx64_1_1FXState">&#9670;&nbsp;</a></span>x64::FXState</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x64::FXState</td>
+          <td class="memname">struct x64::FXState</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00634">634</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00653">653</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a3331be027d91ed9e759acaf4e00236ce"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="afb688ac655574564d5075d48424e43d1"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 fcw</td>
 <td class="fielddoc">
 FPU control word. </td></tr>
 <tr><td class="fieldtype">
-<a id="aed407e4986680600c000c11f1368c299"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="ab386c89ee6ab4aa16fe2e9198fb1f578"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 fop</td>
 <td class="fielddoc">
 FPU opcode. </td></tr>
 <tr><td class="fieldtype">
-<a id="a4e4d107a7460c98681a54409f0310fc9"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a5b9a790940682ab978490f16416cd73f"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 fsw</td>
 <td class="fielddoc">
 FPU status word. </td></tr>
 <tr><td class="fieldtype">
-<a id="ac2ff0311b66addcb13175fa2aac7d037"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a1a0b164c95cce1d7e1b50c65ca37064d"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 ftw</td>
 <td class="fielddoc">
 FPU tag words. </td></tr>
 <tr><td class="fieldtype">
-<a id="ad376adf5e82fe58c984275df49adba62"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="aaa3955c37909686ad8c61eb25cd26ec8"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 mxcsr</td>
 <td class="fielddoc">
 <a class="el" href="../../d5/de2/namespaceSSE.html">SSE</a> control register. </td></tr>
 <tr><td class="fieldtype">
-<a id="a62d208b30ed5e670fd113391650513bd"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="af709bddb7c04d95d54a509d2e31695dd"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 mxcsrmask</td>
 <td class="fielddoc">
 <a class="el" href="../../d5/de2/namespaceSSE.html">SSE</a> control register mask. </td></tr>
 <tr><td class="fieldtype">
-<a id="ac17bf15d1b561da00f5a5cab0f5f0b07"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="ac954c906d80ef4e3aefd967614a9944a"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rdp</td>
 <td class="fielddoc">
 FPU data pointer. </td></tr>
 <tr><td class="fieldtype">
-<a id="afde98bf3333f2496637d0797aedb8b56"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a84fd168531ba2df113a88a8a5784a785"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Reserved</td>
 <td class="fielddoc">
 Reserved (zero) </td></tr>
 <tr><td class="fieldtype">
-<a id="ae318021b5fc97f0aafa5fd58961ecd19"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="acfd640fb68e5253d86e2af41b4b6c514"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 rip</td>
 <td class="fielddoc">
 PFU instruction pointer. </td></tr>
 <tr><td class="fieldtype">
-<a id="abb8411fab671d152ba00e61c213fd066"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a77b24d442460c23a1156be8727cf4c2a"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 st[8][16]</td>
 <td class="fielddoc">
 FPU registers (last 6 bytes reserved) </td></tr>
 <tr><td class="fieldtype">
-<a id="ac89d43a7c94fa15bebe77eb0ab0c286a"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="aa332bec5d22efa82d3c0df68ddcb9a3c"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 xmm[16][16]</td>
 <td class="fielddoc">
@@ -1118,19 +1014,140 @@ XMM registers. </td></tr>
 
 </div>
 </div>
-<a name="d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____" id="d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____">&#9670;&nbsp;</a></span>CPU::x32::EFLAGS.__attribute__</h2>
+<a name="de/d55/structaarch64_1_1TrapFrame" id="de/d55/structaarch64_1_1TrapFrame"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#de/d55/structaarch64_1_1TrapFrame">&#9670;&nbsp;</a></span>aarch64::TrapFrame</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x32::EFLAGS.__attribute__</td>
+          <td class="memname">struct aarch64::TrapFrame</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00196">196</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00777">777</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a4c1152d0bf150ea3c9910b07f4f9e97d"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+elr_el1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4b7085044b3fe8a402c99910716c3253"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+ErrorCode</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a42349f8fae83482ab1e010292fcabe9d"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+InterruptNumber</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a55200c9d0defa6b6f4c8fd1051eaaa1e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+sp_el0</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab471758b41b88fb7020d39f0ea1705da"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+spsr_el1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a03467571a462f05421841c45800b5b8e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x19</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a8ac2d1efd9f971979d2e9100f163dc33"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x20</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af7cd0908d4a9e86ebe02c8ec1ef96939"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x21</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a2c46aac2c63bccd08c038dcb4d7af332"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x22</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="abb37fda8740166a9ec4049b84a6db1a7"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x23</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a1015570a621d4cd219ee34771d43ed83"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x24</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a1d7b7c17faff65c82fc7a0da95cf5d80"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x25</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a1eb830c3a35ae469acc84b35e5431983"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x26</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a88f0f994aec455eed9e732d007f3c395"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x27</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a75b5c0a648b2d5c1e2a5d113cccdde55"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x28</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a81cf27b563546c9886ce5210e4e49d94"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x29</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ad80cb1ad6f567fb099a112ee314e19fb"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+x30</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="de/dae/structx32_1_1EFLAGS_8____unnamed777____" id="de/dae/structx32_1_1EFLAGS_8____unnamed777____"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#de/dae/structx32_1_1EFLAGS_8____unnamed777____">&#9670;&nbsp;</a></span>x32::EFLAGS.__unnamed777__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct x32::EFLAGS.__unnamed777__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00215">215</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1263,19 +1280,19 @@ Zero Flag. </td></tr>
 
 </div>
 </div>
-<a name="d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862____" id="d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862____">&#9670;&nbsp;</a></span>CPU::x32::EFER.__unnamed862__</h2>
+<a name="d6/da8/structx32_1_1EFER_8____unnamed779____" id="d6/da8/structx32_1_1EFER_8____unnamed779____"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d6/da8/structx32_1_1EFER_8____unnamed779____">&#9670;&nbsp;</a></span>x32::EFER.__unnamed779__</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x32::EFER.__unnamed862__</td>
+          <td class="memname">struct x32::EFER.__unnamed779__</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00266">266</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00285">285</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1348,19 +1365,19 @@ Enable Translation Cache Extension. </td></tr>
 
 </div>
 </div>
-<a name="d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866____" id="d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866____">&#9670;&nbsp;</a></span>CPU::x32::DR7.__unnamed866__</h2>
+<a name="d3/d51/structx32_1_1DR7_8____unnamed781____" id="d3/d51/structx32_1_1DR7_8____unnamed781____"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d3/d51/structx32_1_1DR7_8____unnamed781____">&#9670;&nbsp;</a></span>x32::DR7.__unnamed781__</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x32::DR7.__unnamed866__</td>
+          <td class="memname">struct x32::DR7.__unnamed781__</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00297">297</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00316">316</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1469,19 +1486,19 @@ Size of DR3 Breakpoint (30-31) </td></tr>
 
 </div>
 </div>
-<a name="dc/d51/structCPU_1_1x64_1_1____attribute_____8____attribute____" id="dc/d51/structCPU_1_1x64_1_1____attribute_____8____attribute____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dc/d51/structCPU_1_1x64_1_1____attribute_____8____attribute____">&#9670;&nbsp;</a></span>CPU::x64::__attribute__.__attribute__</h2>
+<a name="dd/d17/structx64_1_1____packed_8____unnamed783____" id="dd/d17/structx64_1_1____packed_8____unnamed783____"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/d17/structx64_1_1____packed_8____unnamed783____">&#9670;&nbsp;</a></span>x64::__packed.__unnamed783__</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x64::__attribute__.__attribute__</td>
+          <td class="memname">struct x64::__packed.__unnamed783__</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00408">408</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00427">427</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1531,19 +1548,19 @@ Reserved. </td></tr>
 
 </div>
 </div>
-<a name="dd/d53/structCPU_1_1x64_1_1RFLAGS_8____unnamed869____" id="dd/d53/structCPU_1_1x64_1_1RFLAGS_8____unnamed869____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dd/d53/structCPU_1_1x64_1_1RFLAGS_8____unnamed869____">&#9670;&nbsp;</a></span>CPU::x64::RFLAGS.__unnamed869__</h2>
+<a name="d9/d07/structx64_1_1RFLAGS_8____unnamed785____" id="d9/d07/structx64_1_1RFLAGS_8____unnamed785____"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d9/d07/structx64_1_1RFLAGS_8____unnamed785____">&#9670;&nbsp;</a></span>x64::RFLAGS.__unnamed785__</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x64::RFLAGS.__unnamed869__</td>
+          <td class="memname">struct x64::RFLAGS.__unnamed785__</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00433">433</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00452">452</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1682,19 +1699,19 @@ Zero Flag. </td></tr>
 
 </div>
 </div>
-<a name="d7/dc7/structCPU_1_1x64_1_1EFER_8____unnamed871____" id="d7/dc7/structCPU_1_1x64_1_1EFER_8____unnamed871____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d7/dc7/structCPU_1_1x64_1_1EFER_8____unnamed871____">&#9670;&nbsp;</a></span>CPU::x64::EFER.__unnamed871__</h2>
+<a name="dc/d70/structx64_1_1EFER_8____unnamed787____" id="dc/d70/structx64_1_1EFER_8____unnamed787____"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dc/d70/structx64_1_1EFER_8____unnamed787____">&#9670;&nbsp;</a></span>x64::EFER.__unnamed787__</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x64::EFER.__unnamed871__</td>
+          <td class="memname">struct x64::EFER.__unnamed787__</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00513">513</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00532">532</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1767,19 +1784,19 @@ Enable Translation Cache Extension. </td></tr>
 
 </div>
 </div>
-<a name="d0/db0/structCPU_1_1x64_1_1DR7_8____unnamed875____" id="d0/db0/structCPU_1_1x64_1_1DR7_8____unnamed875____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d0/db0/structCPU_1_1x64_1_1DR7_8____unnamed875____">&#9670;&nbsp;</a></span>CPU::x64::DR7.__unnamed875__</h2>
+<a name="d8/d7b/structx64_1_1DR7_8____unnamed789____" id="d8/d7b/structx64_1_1DR7_8____unnamed789____"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d8/d7b/structx64_1_1DR7_8____unnamed789____">&#9670;&nbsp;</a></span>x64::DR7.__unnamed789__</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x64::DR7.__unnamed875__</td>
+          <td class="memname">struct x64::DR7.__unnamed789__</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00544">544</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00563">563</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1888,19 +1905,19 @@ Size of DR3 Breakpoint (30-31) </td></tr>
 
 </div>
 </div>
-<a name="d3/d02/structCPU_1_1x64_1_1PageFaultErrorCode_8____unnamed877____" id="d3/d02/structCPU_1_1x64_1_1PageFaultErrorCode_8____unnamed877____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d3/d02/structCPU_1_1x64_1_1PageFaultErrorCode_8____unnamed877____">&#9670;&nbsp;</a></span>CPU::x64::PageFaultErrorCode.__unnamed877__</h2>
+<a name="df/dd7/structx64_1_1PageFaultErrorCode_8____unnamed791____" id="df/dd7/structx64_1_1PageFaultErrorCode_8____unnamed791____"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#df/dd7/structx64_1_1PageFaultErrorCode_8____unnamed791____">&#9670;&nbsp;</a></span>x64::PageFaultErrorCode.__unnamed791__</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x64::PageFaultErrorCode.__unnamed877__</td>
+          <td class="memname">struct x64::PageFaultErrorCode.__unnamed791__</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00586">586</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00605">605</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1926,7 +1943,7 @@ When set, the page fault was caused by a protection-key violation. The PKRU regi
 <td class="fieldname">
 R: 1</td>
 <td class="fielddoc">
-When set, one or more page directory entries contain reserved bits which are set to 1. This only applies when the PSE or PAE flags in <a class="el" href="../../d9/d25/namespaceCPU_1_1x64.html#d5/dab/unionCPU_1_1x64_1_1CR4">CR4</a> are set to 1. </td></tr>
+When set, one or more page directory entries contain reserved bits which are set to 1. This only applies when the PSE or PAE flags in CR4 are set to 1. </td></tr>
 <tr><td class="fieldtype">
 <a id="a3cdecefb5fa15c31235080e3dfac5a6d"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
@@ -1967,19 +1984,19 @@ When set, the page fault was caused by a write access. When not set, it was caus
 
 </div>
 </div>
-<a name="d4/d43/structCPU_1_1x64_1_1SelectorErrorCode_8____unnamed879____" id="d4/d43/structCPU_1_1x64_1_1SelectorErrorCode_8____unnamed879____"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d4/d43/structCPU_1_1x64_1_1SelectorErrorCode_8____unnamed879____">&#9670;&nbsp;</a></span>CPU::x64::SelectorErrorCode.__unnamed879__</h2>
+<a name="d4/d96/structx64_1_1SelectorErrorCode_8____unnamed793____" id="d4/d96/structx64_1_1SelectorErrorCode_8____unnamed793____"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d4/d96/structx64_1_1SelectorErrorCode_8____unnamed793____">&#9670;&nbsp;</a></span>x64::SelectorErrorCode.__unnamed793__</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct CPU::x64::SelectorErrorCode.__unnamed879__</td>
+          <td class="memname">struct x64::SelectorErrorCode.__unnamed793__</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00615">615</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00634">634</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -2014,248 +2031,142 @@ IDT/GDT/LDT Table. <p>0b00 - The Selector Index references a descriptor in the G
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="aaffa67bd30e39bff3f797ce153bcbb9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaffa67bd30e39bff3f797ce153bcbb9a">&#9670;&nbsp;</a></span></h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a5202f67ef5c6ba73bfa2bd4d83599410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5202f67ef5c6ba73bfa2bd4d83599410">&#9670;&nbsp;</a></span>Counter()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct { ... } </td>
+          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Counter </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> counter value. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/dc2/Timer_8cpp_source.html#l00034">Time::time::Sleep()</a>.</p>
+
 </div>
 </div>
-<a id="ac859a77ce6c28cb6607d7beb4bbbb918"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac859a77ce6c28cb6607d7beb4bbbb918">&#9670;&nbsp;</a></span></h2>
+<a id="a1723d109de3be441538d14f47f432120"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1723d109de3be441538d14f47f432120">&#9670;&nbsp;</a></span>Halt()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d9/d49/types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> void Halt </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td>
+          <td class="paramname"><em>Loop</em> = <code><a class="el" href="../../d9/d49/types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Halt the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00177">177</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">do</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="preprocessor">#if defined(a64) || defined(a32)</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;hlt&quot;</span>);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;wfe&quot;</span>);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        } <span class="keywordflow">while</span> (Loop);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    }</div>
+<div class="ttc" id="atypes_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00042">types.h:42</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00042">asmv</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d66/cxxabi_8cpp_source.html#l00195">_Unwind_RaiseException()</a>, <a class="el" href="../../d8/db0/Entry_8cpp_source.html#l00023">arm64Entry()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00814">CrashHandler::Handle()</a>, <a class="el" href="../../d4/dfc/KThread_8cpp_source.html#l00300">KernelMainThread()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00233">Main()</a>, <a class="el" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00067">StartCPU()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00096">NetworkInterfaceManager::NetworkInterface::StartNetworkStack()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00211">ThreadDoExit()</a>.</p>
+
+</div>
+</div>
+<a id="a830602b3b394262961df298a086de322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a830602b3b394262961df298a086de322">&#9670;&nbsp;</a></span>InitializeFeatures()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct { ... } </td>
+          <td class="memname">void InitializeFeatures </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>Core</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>To be used only once. </p>
+
 </div>
 </div>
-<a id="a2e33b01fe25cb595f498d300575eb310"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e33b01fe25cb595f498d300575eb310">&#9670;&nbsp;</a></span>fcw</h2>
+<a id="a3198a4d951ea2d62a815a21977716bca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3198a4d951ea2d62a815a21977716bca">&#9670;&nbsp;</a></span>Interrupts()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> fcw</td>
+          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> Interrupts </td>
+          <td>(</td>
+          <td class="paramtype">InterruptsType&#160;</td>
+          <td class="paramname"><em>Type</em> = <code><a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ad747a13f77a96a815e4f5630a03354dd">Check</a></code></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>FPU control word. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00001">1</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p>Check if interrupts are enabled. </p>
+<dl class="section return"><dt>Returns</dt><dd>true If InterruptsType::Check and interrupts are enabled, or if other InterruptsType were executed successfully </dd>
+<dd>
+false If InterruptsType::Check and interrupts are disabled, or if other InterruptsType failed </dd></dl>
 
 </div>
 </div>
-<a id="aaaf1ee01ae13a6701cbbcdc3f8330da9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaf1ee01ae13a6701cbbcdc3f8330da9">&#9670;&nbsp;</a></span>fop</h2>
+<a id="a996123e837c93ad5c4a1761027df2090"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a996123e837c93ad5c4a1761027df2090">&#9670;&nbsp;</a></span>PageTable()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> fop</td>
+          <td class="memname">void* PageTable </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>PT</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>FPU opcode. </p>
+<p>Get/Set the <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a>'s page table. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">PT</td><td>The new page table, if empty, the current page table will be returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>void* The current page table </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ab22d66ef6012b705c21f163e38fa496e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab22d66ef6012b705c21f163e38fa496e">&#9670;&nbsp;</a></span>fsw</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> fsw</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>FPU status word. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00003">3</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae7c0ce85422a2a1bb4c709c3fa9bfdd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7c0ce85422a2a1bb4c709c3fa9bfdd5">&#9670;&nbsp;</a></span>ftw</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> ftw</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>FPU tag words. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00005">5</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1485787f3c2fb8d9f8e3668eb0dbbfe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1485787f3c2fb8d9f8e3668eb0dbbfe3">&#9670;&nbsp;</a></span>mxcsr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> mxcsr</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><a class="el" href="../../d5/de2/namespaceSSE.html">SSE</a> control register. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00015">15</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ab34c8517083c2fe1c7d1a7bfce6896d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab34c8517083c2fe1c7d1a7bfce6896d5">&#9670;&nbsp;</a></span>mxcsrmask</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> mxcsrmask</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p><a class="el" href="../../d5/de2/namespaceSSE.html">SSE</a> control register mask. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00017">17</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a33656e1e604e9a92fef40e66e3bf036d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33656e1e604e9a92fef40e66e3bf036d">&#9670;&nbsp;</a></span>raw</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> raw</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a631e90d006f9914332fd0898840cf728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a631e90d006f9914332fd0898840cf728">&#9670;&nbsp;</a></span>rdp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> rdp</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>FPU data pointer. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00013">13</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a68394408e82008fe25bfe2931b59ce58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68394408e82008fe25bfe2931b59ce58">&#9670;&nbsp;</a></span>Reserved</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Reserved</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reserved (zero) </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a90e28f434559f0582a69699dc4dbc286"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90e28f434559f0582a69699dc4dbc286">&#9670;&nbsp;</a></span>rip</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> rip</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>PFU instruction pointer. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00011">11</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a134ea376700be77c5d061d7212a5cde3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a134ea376700be77c5d061d7212a5cde3">&#9670;&nbsp;</a></span>st</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> st</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>FPU registers (last 6 bytes reserved) </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00019">19</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d2/dc3/liballoc__1__1_8c_source.html#l00180">allocate_new_page()</a>.</p>
-
-</div>
-</div>
-<a id="aaac7bab3571d29982527056078c0cebc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaac7bab3571d29982527056078c0cebc">&#9670;&nbsp;</a></span>xmm</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> xmm</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>XMM registers. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00021">21</a> of file <a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00120">Tasking::Task::RemoveProcess()</a>.</p>
 
 </div>
 </div>

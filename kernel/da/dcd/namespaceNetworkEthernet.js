@@ -11,7 +11,6 @@ var namespaceNetworkEthernet =
       [ "TYPE_RARP", "da/dcd/namespaceNetworkEthernet.html#a0d9fe4b9c76bccc0ced7ea04986eb5e1a9967afdc259da0a91d19ad6011971055", null ],
       [ "TYPE_IPV6", "da/dcd/namespaceNetworkEthernet.html#a0d9fe4b9c76bccc0ced7ea04986eb5e1a887417948d2cc84ef991bf1f87ecb068", null ]
     ] ],
-    [ "__attribute__", "da/dcd/namespaceNetworkEthernet.html#a7883f42f69407a93a08ab45b6d41fe48", null ],
-    [ "__attribute__", "da/dcd/namespaceNetworkEthernet.html#a1550d6ba61a77e0e50a6f7898fe55693", null ],
+    [ "__packed", "da/dcd/namespaceNetworkEthernet.html#a4c746de276521d39c6d174d83a65baf6", null ],
     [ "RegisteredEvents", "da/dcd/namespaceNetworkEthernet.html#a3cf014c60c2cf2a0ca174194f4ea13b1", null ]
 ];

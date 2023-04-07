@@ -18,6 +18,5 @@ var namespaceDisk =
       [ "MBR", "d1/d29/namespaceDisk.html#a71245edf60dd20e7910d4f422bb5d40aa0a29de6618a4df8f24640f4b06141801", null ],
       [ "GPT", "d1/d29/namespaceDisk.html#a71245edf60dd20e7910d4f422bb5d40aa1159dd1769c401d02070192ea4b7bb10", null ]
     ] ],
-    [ "__attribute__", "d1/d29/namespaceDisk.html#a62a8704ad85b990ee0f77cafefb17f08", null ],
-    [ "__attribute__", "d1/d29/namespaceDisk.html#afbb2f132e8afd5acc8532c2afd84d047", null ]
+    [ "__packed", "d1/d29/namespaceDisk.html#aae5e609745d0eb01127d60fb67a396f7", null ]
 ];

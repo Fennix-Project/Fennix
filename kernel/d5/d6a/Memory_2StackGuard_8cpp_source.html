@@ -89,110 +89,126 @@ $(document).ready(function(){initNavTree('d5/d6a/Memory_2StackGuard_8cpp_source.
 <div class="title">StackGuard.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d5/d6a/Memory_2StackGuard_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/d3e/memory_8hpp.html">memory.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/d16/debug_8h.html">debug.h</a>&gt;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/d97/namespaceMemory.html">Memory</a></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    StackGuard::StackGuard(<span class="keywordtype">bool</span> <a class="code" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8ab4361355ef5fe95d2d097e6250288db6">User</a>, PageTable4 *Table)</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        this-&gt;UserMode = <a class="code" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8ab4361355ef5fe95d2d097e6250288db6">User</a>;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        this-&gt;Table = Table;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordflow">if</span> (this-&gt;UserMode)</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;            <span class="keywordtype">void</span> *AllocatedStack = <a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPages(TO_PAGES(USER_STACK_SIZE));</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            <a class="code" href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a>(AllocatedStack, 0, USER_STACK_SIZE);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;AllocatedStack: %p&quot;</span>, AllocatedStack);</div>
+<a href="../../d5/d6a/Memory_2StackGuard_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; TO_PAGES(USER_STACK_SIZE); i++)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                Virtual(Table).Map((<span class="keywordtype">void</span> *)(USER_STACK_BASE + (i * PAGE_SIZE)),</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                                   (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)AllocatedStack + (i * PAGE_SIZE)),</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                   <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1e2d2776ce51ce60e03be92e1003a22a">PTFlag::RW</a> | PTFlag::US);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Mapped %p to %p&quot;</span>, (<span class="keywordtype">void</span> *)(USER_STACK_BASE + (i * PAGE_SIZE)),</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                      (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)AllocatedStack + (i * PAGE_SIZE)));</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            }</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            this-&gt;StackBottom = (<span class="keywordtype">void</span> *)USER_STACK_BASE;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            this-&gt;StackTop = (<span class="keywordtype">void</span> *)(USER_STACK_BASE + USER_STACK_SIZE);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            this-&gt;StackPhyiscalBottom = AllocatedStack;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            this-&gt;StackPhyiscalTop = (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)AllocatedStack + USER_STACK_SIZE);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            this-&gt;<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = USER_STACK_SIZE;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            this-&gt;StackBottom = <a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPages(TO_PAGES(STACK_SIZE));</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <a class="code" href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a>(this-&gt;StackBottom, 0, STACK_SIZE);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;StackBottom: %p&quot;</span>, this-&gt;StackBottom);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            this-&gt;StackTop = (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackBottom + STACK_SIZE);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            this-&gt;StackPhyiscalBottom = this-&gt;StackBottom;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            this-&gt;StackPhyiscalTop = this-&gt;StackTop;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            this-&gt;<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = STACK_SIZE;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Allocated stack at %p&quot;</span>, this-&gt;StackBottom);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    StackGuard::~StackGuard()</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Temporarily disabled stack guard deallocation&quot;</span>);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="comment">// KernelAllocator.FreePages(this-&gt;StackBottom, TO_PAGES(this-&gt;Size));</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="comment">// debug(&quot;Freed stack at %p&quot;, this-&gt;StackBottom);</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    }</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">bool</span> StackGuard::Expand(<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> FaultAddress)</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">if</span> (this-&gt;UserMode)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keywordflow">if</span> (FaultAddress &lt; (<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackBottom - USER_STACK_SIZE ||</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                FaultAddress &gt; (<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackTop)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>; <span class="comment">/* It&#39;s not about the stack. */</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            }</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                <span class="keywordtype">void</span> *AllocatedStack = <a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPages(TO_PAGES(USER_STACK_SIZE));</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;AllocatedStack: %p&quot;</span>, AllocatedStack);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                <a class="code" href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a>(AllocatedStack, 0, USER_STACK_SIZE);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                <span class="keywordflow">for</span> (<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> i = 0; i &lt; TO_PAGES(USER_STACK_SIZE); i++)</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                    Virtual(this-&gt;Table).Map((<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackBottom - (i * PAGE_SIZE)), (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)AllocatedStack + (i * PAGE_SIZE)), <a class="code" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1e2d2776ce51ce60e03be92e1003a22a">PTFlag::RW</a> | PTFlag::US);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Mapped %p to %p&quot;</span>, (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackBottom - (i * PAGE_SIZE)), (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)AllocatedStack + (i * PAGE_SIZE)));</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                this-&gt;StackBottom = (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackBottom - USER_STACK_SIZE);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                this-&gt;<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> += USER_STACK_SIZE;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#aaef030dcfb502de87e0f47669c58c755">info</a>(<span class="stringliteral">&quot;Stack expanded to %p&quot;</span>, this-&gt;StackBottom);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Not implemented and probably not needed&quot;</span>);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        }</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
-<div class="ttc" id="aConvert_8cpp_html_ae577b1098c1f745563eb0789fa58ae14"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memset(void *dest, int val, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00949">Convert.cpp:949</a></div></div>
-<div class="ttc" id="aMemory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00032">Memory.cpp:32</a></div></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/d3e/memory_8hpp.html">memory.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/d16/debug_8h.html">debug.h</a>&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/d97/namespaceMemory.html">Memory</a></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    StackGuard::StackGuard(<span class="keywordtype">bool</span> <a class="code" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8ab4361355ef5fe95d2d097e6250288db6">User</a>, PageTable4 *Table)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        this-&gt;UserMode = <a class="code" href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8ab4361355ef5fe95d2d097e6250288db6">User</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        this-&gt;Table = Table;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">if</span> (this-&gt;UserMode)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordtype">void</span> *AllocatedStack = <a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPages(TO_PAGES(USER_STACK_SIZE));</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <a class="code" href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a>(AllocatedStack, 0, USER_STACK_SIZE);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;AllocatedStack: %p&quot;</span>, AllocatedStack);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; TO_PAGES(USER_STACK_SIZE); i++)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                Virtual(Table).Map((<span class="keywordtype">void</span> *)(USER_STACK_BASE + (i * PAGE_SIZE)),</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                   (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)AllocatedStack + (i * PAGE_SIZE)),</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                   PTFlag::RW | PTFlag::US);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Mapped %p to %p&quot;</span>, (<span class="keywordtype">void</span> *)(USER_STACK_BASE + (i * PAGE_SIZE)),</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                      (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)AllocatedStack + (i * PAGE_SIZE)));</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            this-&gt;StackBottom = (<span class="keywordtype">void</span> *)USER_STACK_BASE;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            this-&gt;StackTop = (<span class="keywordtype">void</span> *)(USER_STACK_BASE + USER_STACK_SIZE);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            this-&gt;StackPhyiscalBottom = AllocatedStack;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            this-&gt;StackPhyiscalTop = (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)AllocatedStack + USER_STACK_SIZE);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            this-&gt;<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = USER_STACK_SIZE;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            this-&gt;StackBottom = <a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPages(TO_PAGES(STACK_SIZE));</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a>(this-&gt;StackBottom, 0, STACK_SIZE);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;StackBottom: %p&quot;</span>, this-&gt;StackBottom);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            this-&gt;StackTop = (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackBottom + STACK_SIZE);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            this-&gt;StackPhyiscalBottom = this-&gt;StackBottom;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            this-&gt;StackPhyiscalTop = this-&gt;StackTop;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            this-&gt;<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = STACK_SIZE;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Allocated stack at %p&quot;</span>, this-&gt;StackBottom);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    StackGuard::~StackGuard()</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Temporarily disabled stack guard deallocation&quot;</span>);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="comment">// KernelAllocator.FreePages(this-&gt;StackBottom, TO_PAGES(this-&gt;Size));</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="comment">// debug(&quot;Freed stack at %p&quot;, this-&gt;StackBottom);</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">bool</span> StackGuard::Expand(<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> FaultAddress)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">if</span> (this-&gt;UserMode)</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keywordflow">if</span> (FaultAddress &lt; (<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackBottom - USER_STACK_SIZE ||</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                FaultAddress &gt; (<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackTop)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>; <span class="comment">/* It&#39;s not about the stack. */</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            }</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <span class="keywordtype">void</span> *AllocatedStack = <a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPages(TO_PAGES(USER_STACK_SIZE));</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;AllocatedStack: %p&quot;</span>, AllocatedStack);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <a class="code" href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a>(AllocatedStack, 0, USER_STACK_SIZE);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <span class="keywordflow">for</span> (<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> i = 0; i &lt; TO_PAGES(USER_STACK_SIZE); i++)</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                    Virtual(this-&gt;Table).Map((<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackBottom - (i * PAGE_SIZE)), (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)AllocatedStack + (i * PAGE_SIZE)), PTFlag::RW | PTFlag::US);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Mapped %p to %p&quot;</span>, (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackBottom - (i * PAGE_SIZE)), (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)AllocatedStack + (i * PAGE_SIZE)));</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                }</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                this-&gt;StackBottom = (<span class="keywordtype">void</span> *)((<a class="code" href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;StackBottom - USER_STACK_SIZE);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                this-&gt;<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> += USER_STACK_SIZE;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#aaef030dcfb502de87e0f47669c58c755">info</a>(<span class="stringliteral">&quot;Stack expanded to %p&quot;</span>, this-&gt;StackBottom);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Not implemented and probably not needed&quot;</span>);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;}</div>
+<div class="ttc" id="aConvert_8cpp_html_ae577b1098c1f745563eb0789fa58ae14"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memset(void *dest, int val, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l01057">Convert.cpp:1057</a></div></div>
+<div class="ttc" id="aMemory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00049">Memory.cpp:49</a></div></div>
 <div class="ttc" id="aXallocV1_8cpp_html_a9a6916f13c01e1cbb39bf087545542c7"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">XallocV1.cpp:4</a></div></div>
-<div class="ttc" id="aamd64_2cpu_2gdt_8hpp_html_a1e2d2776ce51ce60e03be92e1003a22a"><div class="ttname"><a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp.html#a1e2d2776ce51ce60e03be92e1003a22a">RW</a></div><div class="ttdeci">uint8_t RW</div><div class="ttdoc">Readable bit for code segments, writable bit for data segments.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html#l00009">gdt.hpp:9</a></div></div>
 <div class="ttc" id="adebug_8h_html"><div class="ttname"><a href="../../db/d16/debug_8h.html">debug.h</a></div></div>
-<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00068">debug.h:68</a></div></div>
-<div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00071">debug.h:71</a></div></div>
-<div class="ttc" id="adebug_8h_html_aaef030dcfb502de87e0f47669c58c755"><div class="ttname"><a href="../../db/d16/debug_8h.html#aaef030dcfb502de87e0f47669c58c755">info</a></div><div class="ttdeci">#define info(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00063">debug.h:63</a></div></div>
-<div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00072">debug.h:72</a></div></div>
+<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00085">debug.h:85</a></div></div>
+<div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00088">debug.h:88</a></div></div>
+<div class="ttc" id="adebug_8h_html_aaef030dcfb502de87e0f47669c58c755"><div class="ttname"><a href="../../db/d16/debug_8h.html#aaef030dcfb502de87e0f47669c58c755">info</a></div><div class="ttdeci">#define info(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00080">debug.h:80</a></div></div>
+<div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00089">debug.h:89</a></div></div>
 <div class="ttc" id="amemory_8hpp_html"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html">memory.hpp</a></div></div>
-<div class="ttc" id="anamespaceMemory_html"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html">Memory</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dbc/MemoryManager_8cpp_source.html#l00006">MemoryManager.cpp:7</a></div></div>
-<div class="ttc" id="anamespaceTasking_html_a6b9393cc83799934196d53b04f097af8ab4361355ef5fe95d2d097e6250288db6"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8ab4361355ef5fe95d2d097e6250288db6">Tasking::User</a></div><div class="ttdeci">@ User</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00047">task.hpp:46</a></div></div>
-<div class="ttc" id="atypes_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00148">types.h:148</a></div></div>
+<div class="ttc" id="anamespaceMemory_html"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html">Memory</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dbc/MemoryManager_8cpp_source.html#l00023">MemoryManager.cpp:24</a></div></div>
+<div class="ttc" id="anamespaceTasking_html_a6b9393cc83799934196d53b04f097af8ab4361355ef5fe95d2d097e6250288db6"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a6b9393cc83799934196d53b04f097af8ab4361355ef5fe95d2d097e6250288db6">Tasking::User</a></div><div class="ttdeci">@ User</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00064">task.hpp:63</a></div></div>
+<div class="ttc" id="atypes_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d9/d49/types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00165">types.h:165</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

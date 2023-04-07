@@ -2,6 +2,8 @@ var namespaceInterruptDescriptorTable =
 [
     [ "_InterruptDescriptorTableEntry", "d2/db2/namespaceInterruptDescriptorTable.html#d4/d60/structInterruptDescriptorTable_1_1__InterruptDescriptorTableEntry", "d2/db2/namespaceInterruptDescriptorTable_d4/d60/structInterruptDescriptorTable_1_1__InterruptDescriptorTableEntry_dup" ],
     [ "_InterruptDescriptorTableDescriptor", "d2/db2/namespaceInterruptDescriptorTable.html#dc/ded/structInterruptDescriptorTable_1_1__InterruptDescriptorTableDescriptor", "d2/db2/namespaceInterruptDescriptorTable_dc/ded/structInterruptDescriptorTable_1_1__InterruptDescriptorTableDescriptor_dup" ],
+    [ "InterruptDescriptorTableDescriptor", "d2/db2/namespaceInterruptDescriptorTable.html#ad63e3bcdb96cd8814586c737ce4eb9f2", null ],
+    [ "InterruptDescriptorTableEntry", "d2/db2/namespaceInterruptDescriptorTable.html#af2fbeed1966a379058d595a236155dbf", null ],
     [ "InterruptDescriptorTableFlags", "d2/db2/namespaceInterruptDescriptorTable.html#ae24ba5152e822eb3b7599bb191f81d9f", null ],
     [ "_InterruptDescriptorTableFlags", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1", [
       [ "FlagGate_TASK", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1ab080a80e39628b2e7267dc3d52d61d4a", null ],
@@ -15,7 +17,6 @@ var namespaceInterruptDescriptorTable =
       [ "FlagGate_RING3", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a8cd1802c26bb40bb9bc522c46c529790", null ],
       [ "FlagGate_PRESENT", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a16604b483134cd6a516f9c500db8f6ea", null ]
     ] ],
-    [ "__attribute__", "d2/db2/namespaceInterruptDescriptorTable.html#a8901e7de738cfe120b0529592d80496f", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#afb7ecf9fc0491027fc6c9457c9e7a71f", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a79b0b2a4ee90ae36c274116d678c16bf", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a537df31f84d976556362b1b0de35f276", null ],

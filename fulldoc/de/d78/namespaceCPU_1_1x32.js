@@ -1,32 +1,20 @@
 var namespaceCPU_1_1x32 =
 [
-    [ "AMD", "df/dcc/namespaceCPU_1_1x32_1_1AMD.html", "df/dcc/namespaceCPU_1_1x32_1_1AMD" ],
-    [ "Intel", "dd/d20/namespaceCPU_1_1x32_1_1Intel.html", "dd/d20/namespaceCPU_1_1x32_1_1Intel" ],
     [ "CR0", "de/d78/namespaceCPU_1_1x32.html#d3/d6a/unionCPU_1_1x32_1_1CR0", "de/d78/namespaceCPU_1_1x32_d3/d6a/unionCPU_1_1x32_1_1CR0_dup" ],
     [ "CR2", "de/d78/namespaceCPU_1_1x32.html#d6/d3d/unionCPU_1_1x32_1_1CR2", "de/d78/namespaceCPU_1_1x32_d6/d3d/unionCPU_1_1x32_1_1CR2_dup" ],
     [ "CR3", "de/d78/namespaceCPU_1_1x32.html#d9/dd8/unionCPU_1_1x32_1_1CR3", "de/d78/namespaceCPU_1_1x32_d9/dd8/unionCPU_1_1x32_1_1CR3_dup" ],
     [ "CR4", "de/d78/namespaceCPU_1_1x32.html#d9/d83/unionCPU_1_1x32_1_1CR4", "de/d78/namespaceCPU_1_1x32_d9/d83/unionCPU_1_1x32_1_1CR4_dup" ],
     [ "CR8", "de/d78/namespaceCPU_1_1x32.html#d0/d30/unionCPU_1_1x32_1_1CR8", "de/d78/namespaceCPU_1_1x32_d0/d30/unionCPU_1_1x32_1_1CR8_dup" ],
-    [ "EFLAGS", "de/d78/namespaceCPU_1_1x32.html#d1/d7c/unionCPU_1_1x32_1_1EFLAGS", "de/d78/namespaceCPU_1_1x32_d1/d7c/unionCPU_1_1x32_1_1EFLAGS_dup" ],
-    [ "TrapFrame", "de/d78/namespaceCPU_1_1x32.html#d3/d23/structCPU_1_1x32_1_1TrapFrame", "de/d78/namespaceCPU_1_1x32_d3/d23/structCPU_1_1x32_1_1TrapFrame_dup" ],
-    [ "EFER", "de/d78/namespaceCPU_1_1x32.html#dc/dd3/unionCPU_1_1x32_1_1EFER", "de/d78/namespaceCPU_1_1x32_dc/dd3/unionCPU_1_1x32_1_1EFER_dup" ],
-    [ "DR7", "de/d78/namespaceCPU_1_1x32.html#dd/db5/unionCPU_1_1x32_1_1DR7", "de/d78/namespaceCPU_1_1x32_dd/db5/unionCPU_1_1x32_1_1DR7_dup" ],
-    [ "FXState", "de/d78/namespaceCPU_1_1x32.html#d4/d34/structCPU_1_1x32_1_1FXState", "de/d78/namespaceCPU_1_1x32_d4/d34/structCPU_1_1x32_1_1FXState_dup" ],
-    [ "CR0.__unnamed455__", "de/d78/namespaceCPU_1_1x32.html#d9/d69/structCPU_1_1x32_1_1CR0_8____unnamed455____", "de/d78/namespaceCPU_1_1x32_d9/d69/structCPU_1_1x32_1_1CR0_8____unnamed455_____dup" ],
-    [ "CR2.__unnamed457__", "de/d78/namespaceCPU_1_1x32.html#d4/d0c/structCPU_1_1x32_1_1CR2_8____unnamed457____", "de/d78/namespaceCPU_1_1x32_d4/d0c/structCPU_1_1x32_1_1CR2_8____unnamed457_____dup" ],
-    [ "CR3.__unnamed459__", "de/d78/namespaceCPU_1_1x32.html#dd/d5d/structCPU_1_1x32_1_1CR3_8____unnamed459____", "de/d78/namespaceCPU_1_1x32_dd/d5d/structCPU_1_1x32_1_1CR3_8____unnamed459_____dup" ],
-    [ "CR4.__unnamed461__", "de/d78/namespaceCPU_1_1x32.html#df/db6/structCPU_1_1x32_1_1CR4_8____unnamed461____", "de/d78/namespaceCPU_1_1x32_df/db6/structCPU_1_1x32_1_1CR4_8____unnamed461_____dup" ],
-    [ "CR8.__unnamed463__", "de/d78/namespaceCPU_1_1x32.html#df/d19/structCPU_1_1x32_1_1CR8_8____unnamed463____", "de/d78/namespaceCPU_1_1x32_df/d19/structCPU_1_1x32_1_1CR8_8____unnamed463_____dup" ],
-    [ "EFLAGS.__attribute__", "de/d78/namespaceCPU_1_1x32.html#d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute____", "de/d78/namespaceCPU_1_1x32_d9/d53/structCPU_1_1x32_1_1EFLAGS_8____attribute_____dup" ],
-    [ "EFER.__unnamed862__", "de/d78/namespaceCPU_1_1x32.html#d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862____", "de/d78/namespaceCPU_1_1x32_d1/ddf/structCPU_1_1x32_1_1EFER_8____unnamed862_____dup" ],
-    [ "DR7.__unnamed866__", "de/d78/namespaceCPU_1_1x32.html#d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866____", "de/d78/namespaceCPU_1_1x32_d8/d5b/structCPU_1_1x32_1_1DR7_8____unnamed866_____dup" ],
+    [ "CR0.__unnamed755__", "de/d78/namespaceCPU_1_1x32.html#db/d83/structCPU_1_1x32_1_1CR0_8____unnamed755____", "de/d78/namespaceCPU_1_1x32_db/d83/structCPU_1_1x32_1_1CR0_8____unnamed755_____dup" ],
+    [ "CR2.__unnamed757__", "de/d78/namespaceCPU_1_1x32.html#d8/d44/structCPU_1_1x32_1_1CR2_8____unnamed757____", "de/d78/namespaceCPU_1_1x32_d8/d44/structCPU_1_1x32_1_1CR2_8____unnamed757_____dup" ],
+    [ "CR3.__unnamed759__", "de/d78/namespaceCPU_1_1x32.html#de/d1f/structCPU_1_1x32_1_1CR3_8____unnamed759____", "de/d78/namespaceCPU_1_1x32_de/d1f/structCPU_1_1x32_1_1CR3_8____unnamed759_____dup" ],
+    [ "CR4.__unnamed761__", "de/d78/namespaceCPU_1_1x32.html#db/df8/structCPU_1_1x32_1_1CR4_8____unnamed761____", "de/d78/namespaceCPU_1_1x32_db/df8/structCPU_1_1x32_1_1CR4_8____unnamed761_____dup" ],
+    [ "CR8.__unnamed763__", "de/d78/namespaceCPU_1_1x32.html#db/da8/structCPU_1_1x32_1_1CR8_8____unnamed763____", "de/d78/namespaceCPU_1_1x32_db/da8/structCPU_1_1x32_1_1CR8_8____unnamed763_____dup" ],
     [ "CR0", "de/d78/namespaceCPU_1_1x32.html#a76d33fb74d7f612207a7d19a88b13200", null ],
     [ "CR2", "de/d78/namespaceCPU_1_1x32.html#a1a733a0cabeda2d2eb90054571219a7c", null ],
     [ "CR3", "de/d78/namespaceCPU_1_1x32.html#a8be9d87e0b151e02c7baccb74e947e8e", null ],
     [ "CR4", "de/d78/namespaceCPU_1_1x32.html#a3fde054b1e1c11319746c939591d152e", null ],
     [ "CR8", "de/d78/namespaceCPU_1_1x32.html#a3041651b6f3b6db605009a60655ab7e5", null ],
-    [ "DR7", "de/d78/namespaceCPU_1_1x32.html#acc94818075b7067d4104ee607c422991", null ],
-    [ "TrapFrame", "de/d78/namespaceCPU_1_1x32.html#ad32608774d85b36615c7a8500f842317", null ],
     [ "MSRID", "de/d78/namespaceCPU_1_1x32.html#a6c41656dc4a6f098c79385cfedda7ff6", [
       [ "MSR_MONITOR_FILTER_SIZE", "de/d78/namespaceCPU_1_1x32.html#a6c41656dc4a6f098c79385cfedda7ff6aa89ab15b7b2dd1b41328b4c17fac2c98", null ],
       [ "MSR_TIME_STAMP_COUNTER", "de/d78/namespaceCPU_1_1x32.html#a6c41656dc4a6f098c79385cfedda7ff6a2590b011b7b4de3b9adbb3a91c345d2b", null ],
@@ -391,8 +379,5 @@ var namespaceCPU_1_1x32 =
       [ "MSR_SHADOW_GS_BASE", "de/d78/namespaceCPU_1_1x32.html#a6c41656dc4a6f098c79385cfedda7ff6ad9676cd8b3d999882cafe63abbf8465a", null ],
       [ "MSR_TSC_AUX", "de/d78/namespaceCPU_1_1x32.html#a6c41656dc4a6f098c79385cfedda7ff6ad3d2819ceb834952ed6b66caca1e1187", null ],
       [ "MSR_CR_PAT", "de/d78/namespaceCPU_1_1x32.html#a6c41656dc4a6f098c79385cfedda7ff6a7a38772369858292e0a8adbe7423009a", null ]
-    ] ],
-    [ "__attribute__", "de/d78/namespaceCPU_1_1x32.html#af8a82635b377609f71f9c3f8c2f76371", null ],
-    [ "cpuid", "de/d78/namespaceCPU_1_1x32.html#a3a5fea71c780c7bc4e1ff5e76dc7594b", null ],
-    [ "invlpg", "de/d78/namespaceCPU_1_1x32.html#acade37040ca65cad0dc4c75ef7beb45f", null ]
+    ] ]
 ];

@@ -6,6 +6,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "net", "dir_7d037a37ac426a4d7d1a8da0a2cc4a25.html", "dir_7d037a37ac426a4d7d1a8da0a2cc4a25" ],
     [ "stb", "dir_7b88f14dc0898fb5d4ae87ce590f2a34.html", "dir_7b88f14dc0898fb5d4ae87ce590f2a34" ],
     [ "std", "dir_5c64eb1c1eaf4d4f8aba76dc37fd042e.html", "dir_5c64eb1c1eaf4d4f8aba76dc37fd042e" ],
+    [ "sys", "dir_fdf0ffe2c0102a008e2036c662df322b.html", "dir_fdf0ffe2c0102a008e2036c662df322b" ],
     [ "abi.h", "df/d31/abi_8h.html", "df/d31/abi_8h" ],
     [ "assert.h", "d3/d88/Kernel_2include_2assert_8h.html", "d3/d88/Kernel_2include_2assert_8h" ],
     [ "atomic.hpp", "d5/d6c/atomic_8hpp.html", "d5/d6c/atomic_8hpp" ],
@@ -20,6 +21,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "debug.h", "db/d16/debug_8h.html", "db/d16/debug_8h" ],
     [ "disk.hpp", "d8/da3/disk_8hpp.html", "d8/da3/disk_8hpp" ],
     [ "display.hpp", "d2/da4/display_8hpp.html", "d2/da4/display_8hpp" ],
+    [ "dlfcn.h", "df/d3d/Kernel_2include_2dlfcn_8h.html", null ],
     [ "driver.hpp", "d7/d7e/driver_8hpp.html", "d7/d7e/driver_8hpp" ],
     [ "dumper.hpp", "d5/dd9/dumper_8hpp.html", "d5/dd9/dumper_8hpp" ],
     [ "elf.h", "d4/dae/Kernel_2include_2elf_8h.html", "d4/dae/Kernel_2include_2elf_8h" ],
@@ -44,18 +46,22 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
       [ "Power", "d0/df9/classPower_1_1Power.html", "d0/df9/classPower_1_1Power" ]
     ] ],
     [ "printf.h", "dc/df9/Kernel_2include_2printf_8h.html", "dc/df9/Kernel_2include_2printf_8h" ],
+    [ "pthread.h", "d8/ded/Kernel_2include_2pthread_8h.html", null ],
     [ "rand.hpp", "d4/d0b/rand_8hpp.html", "d4/d0b/rand_8hpp" ],
     [ "recovery.hpp", "dd/de7/recovery_8hpp.html", [
       [ "KernelRecovery", "d0/db2/classRecovery_1_1KernelRecovery.html", "d0/db2/classRecovery_1_1KernelRecovery" ]
     ] ],
+    [ "sched.h", "dc/dfd/Kernel_2include_2sched_8h.html", null ],
     [ "smart_ptr.hpp", "d1/d31/smart__ptr_8hpp.html", null ],
     [ "smp.hpp", "d4/d33/smp_8hpp.html", "d4/d33/smp_8hpp" ],
     [ "std.hpp", "d1/d8c/std_8hpp.html", "d1/d8c/std_8hpp" ],
     [ "stddef.h", "dc/d6c/Kernel_2include_2stddef_8h.html", null ],
     [ "stdint.h", "d2/d92/Kernel_2include_2stdint_8h.html", null ],
+    [ "stdio.h", "d0/dc6/Kernel_2include_2stdio_8h.html", null ],
     [ "stdlib.h", "d6/d44/Kernel_2include_2stdlib_8h.html", null ],
     [ "string.h", "d2/dab/Kernel_2include_2string_8h.html", null ],
     [ "string.hpp", "d4/da0/string_8hpp.html", null ],
+    [ "strings.h", "db/d98/Kernel_2include_2strings_8h.html", null ],
     [ "symbols.hpp", "d7/d94/symbols_8hpp.html", "d7/d94/symbols_8hpp" ],
     [ "sys.h", "d9/d87/sys_8h.html", "d9/d87/sys_8h" ],
     [ "syscalls.hpp", "d0/d35/syscalls_8hpp.html", "d0/d35/syscalls_8hpp" ],
@@ -64,5 +70,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "time.hpp", "de/d99/time_8hpp.html", "de/d99/time_8hpp" ],
     [ "types.h", "d0/df4/Kernel_2include_2types_8h.html", "d0/df4/Kernel_2include_2types_8h" ],
     [ "uart.hpp", "de/d3f/uart_8hpp.html", "de/d3f/uart_8hpp" ],
-    [ "vector.hpp", "da/d16/vector_8hpp.html", null ]
+    [ "unistd.h", "d9/d77/Kernel_2include_2unistd_8h.html", null ],
+    [ "vector.hpp", "da/d16/vector_8hpp.html", null ],
+    [ "wchar.h", "dd/d10/Kernel_2include_2wchar_8h.html", null ]
 ];

@@ -27,7 +27,7 @@ var namespaceExecute =
       [ "InvalidFileEntryPoint", "d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a5bb1597932d379325addbf3e2e1babd4", null ],
       [ "InvalidFilePath", "d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a868b4989770a47e5d2982b7cec8c24c3", null ]
     ] ],
-    [ "AddLibrary", "d5/d27/namespaceExecute.html#a22deb6e14e14b82a4aaaf6d4d83cf94c", null ],
+    [ "AddLibrary", "d5/d27/namespaceExecute.html#a5c2abbcd1512b24b87c0c9dd6761a773", null ],
     [ "ELFCreateMemoryImage", "d5/d27/namespaceExecute.html#a509b5c10d741719e8f06486c35fca91c", null ],
     [ "ELFGetDynamicTag", "d5/d27/namespaceExecute.html#a3379ae6c774083ff08fe121ff0be174e", null ],
     [ "ELFGetSymbolValue", "d5/d27/namespaceExecute.html#ab90293c663674036e5f1f8f7bfdb5624", null ],
@@ -45,6 +45,7 @@ var namespaceExecute =
     [ "GetELFSection", "d5/d27/namespaceExecute.html#ad4527c193949a102a6793a17f1e2fb45", null ],
     [ "GetELFSheader", "d5/d27/namespaceExecute.html#a31dfd87b6fa1ef7beaa37ed956b34097", null ],
     [ "GetELFStringTable", "d5/d27/namespaceExecute.html#a4d3d0d454ea84db99c805b1ed826f8d8", null ],
+    [ "GetLibrary", "d5/d27/namespaceExecute.html#a1b1903888a9c824421eac36466865bcd", null ],
     [ "LoadELFInterpreter", "d5/d27/namespaceExecute.html#aa4496a58d12e4f8b81e79483a3dba5cb", null ],
     [ "SearchLibrary", "d5/d27/namespaceExecute.html#a91a5c0c6c8c3c3e89a5f07211ed3988c", null ],
     [ "Spawn", "d5/d27/namespaceExecute.html#afc1af56a72388d4fce8b751aa6107d81", null ],

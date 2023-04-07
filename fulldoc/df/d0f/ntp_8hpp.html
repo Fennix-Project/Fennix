@@ -88,7 +88,6 @@ $(document).ready(function(){initNavTree('df/d0f/ntp_8hpp.html','../../'); initR
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">ntp.hpp File Reference</div>  </div>
@@ -111,54 +110,10 @@ Namespaces</h2></td></tr>
 <tr class="memitem:db/dfe/namespaceNetworkNTP"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfe/namespaceNetworkNTP.html">NetworkNTP</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a02d39716b9a572c2c393ab9e5e85e22d"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/dfe/namespaceNetworkNTP.html#df/d24/structNetworkNTP_1_1NTPHeader">NetworkNTP::NTPHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfe/namespaceNetworkNTP.html#a02d39716b9a572c2c393ab9e5e85e22d">NetworkNTP::__attribute__</a> ((packed))</td></tr>
-<tr class="separator:a02d39716b9a572c2c393ab9e5e85e22d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad4cc206ea6ce96bb18625a26608130d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#ad4cc206ea6ce96bb18625a26608130d8">LeapIndicator</a></td></tr>
-<tr class="memdesc:ad4cc206ea6ce96bb18625a26608130d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Leap indicator 00 - no warning 01 - last minute has 61 seconds 10 - last minute has 59 seconds 11 - alarm condition (clock not synchronized)  <a href="../../df/d0f/ntp_8hpp.html#ad4cc206ea6ce96bb18625a26608130d8">More...</a><br /></td></tr>
-<tr class="separator:ad4cc206ea6ce96bb18625a26608130d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59f9455560ecd145b69b0de0cdb96fd0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#a59f9455560ecd145b69b0de0cdb96fd0">VersionNumber</a></td></tr>
-<tr class="memdesc:a59f9455560ecd145b69b0de0cdb96fd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Version number of the protocol 3 - IPv4 only 4 - IPv4, IPv6 and OSI 5 - IPv4, IPv6 and OSI 6 - IPv4, IPv6 and OSI 7 - IPv4, IPv6 and OSI.  <a href="../../df/d0f/ntp_8hpp.html#a59f9455560ecd145b69b0de0cdb96fd0">More...</a><br /></td></tr>
-<tr class="separator:a59f9455560ecd145b69b0de0cdb96fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad11c3137711cc547aa65686fa2c98fc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#ad11c3137711cc547aa65686fa2c98fc9">Mode</a></td></tr>
-<tr class="memdesc:ad11c3137711cc547aa65686fa2c98fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mode 0 - reserved 1 - symmetric active 2 - symmetric passive 3 - client 4 - server 5 - broadcast 6 - reserved for NTP control message 7 - reserved for private use.  <a href="../../df/d0f/ntp_8hpp.html#ad11c3137711cc547aa65686fa2c98fc9">More...</a><br /></td></tr>
-<tr class="separator:ad11c3137711cc547aa65686fa2c98fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7e12c9b138d3db2364da9042d616bc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#aa7e12c9b138d3db2364da9042d616bc8">Stratum</a></td></tr>
-<tr class="memdesc:aa7e12c9b138d3db2364da9042d616bc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stratum 0 - unspecified or unavailable 1 - primary reference (e.g. radio clock) 2-15 - secondary reference (via NTP or SNTP) 16 - unsynchronized 17-255 - reserved.  <a href="../../df/d0f/ntp_8hpp.html#aa7e12c9b138d3db2364da9042d616bc8">More...</a><br /></td></tr>
-<tr class="separator:aa7e12c9b138d3db2364da9042d616bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f3575e3459fb73cd335891024ce2fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#a91f3575e3459fb73cd335891024ce2fc">Poll</a></td></tr>
-<tr class="memdesc:a91f3575e3459fb73cd335891024ce2fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polling interval 4 - 16 seconds 5 - 32 seconds 6 - 64 seconds 7 - 128 seconds 8 - 256 seconds 9 - 512 seconds 10 - 1024 seconds 11 - 2048 seconds 12 - 4096 seconds 13 - 8192 seconds 14 - 16384 seconds 15 - 32768 seconds.  <a href="../../df/d0f/ntp_8hpp.html#a91f3575e3459fb73cd335891024ce2fc">More...</a><br /></td></tr>
-<tr class="separator:a91f3575e3459fb73cd335891024ce2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5e4f29c5061cfd6dc147461ae541ef8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#ae5e4f29c5061cfd6dc147461ae541ef8">Precision</a></td></tr>
-<tr class="memdesc:ae5e4f29c5061cfd6dc147461ae541ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precision -6 - 0.015625 seconds -5 - 0.03125 seconds -4 - 0.0625 seconds -3 - 0.125 seconds -2 - 0.25 seconds -1 - 0.5 seconds 0 - 1 second 1 - 2 seconds 2 - 4 seconds 3 - 8 seconds 4 - 16 seconds 5 - 32 seconds 6 - 64 seconds 7 - 128 seconds.  <a href="../../df/d0f/ntp_8hpp.html#ae5e4f29c5061cfd6dc147461ae541ef8">More...</a><br /></td></tr>
-<tr class="separator:ae5e4f29c5061cfd6dc147461ae541ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e6ca1738451fa4f7e977c4a85de2bce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#a3e6ca1738451fa4f7e977c4a85de2bce">RootDelay</a></td></tr>
-<tr class="memdesc:a3e6ca1738451fa4f7e977c4a85de2bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Root delay Total round trip delay to the primary reference source.  <a href="../../df/d0f/ntp_8hpp.html#a3e6ca1738451fa4f7e977c4a85de2bce">More...</a><br /></td></tr>
-<tr class="separator:a3e6ca1738451fa4f7e977c4a85de2bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5106dec9d0b71e8054c732b0af32d49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#ae5106dec9d0b71e8054c732b0af32d49">RootDispersion</a></td></tr>
-<tr class="memdesc:ae5106dec9d0b71e8054c732b0af32d49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Root dispersion Nominal error relative to the primary reference source.  <a href="../../df/d0f/ntp_8hpp.html#ae5106dec9d0b71e8054c732b0af32d49">More...</a><br /></td></tr>
-<tr class="separator:ae5106dec9d0b71e8054c732b0af32d49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2885c93505c94d0d4f1d8dd63f2bb03d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#a2885c93505c94d0d4f1d8dd63f2bb03d">ReferenceIdentifier</a></td></tr>
-<tr class="memdesc:a2885c93505c94d0d4f1d8dd63f2bb03d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference identifier 0x00000000 - unspecified 0x00000001 - radio clock 0x00000002 - atomic clock 0x00000003 - GPS receiver 0x00000004 - local oscillator 0x00000005 - LORAN-C receiver 0x00000006 - microprocessor 0x00000007 - internet 0x00000008 - FLL 0x00000009 - other 0x0000000A - WWV 0x0000000B - WWVB 0x0000000C - WWVH 0x0000000D - NIST dialup 0x0000000E - telephone 0x0000000F - reserved.  <a href="../../df/d0f/ntp_8hpp.html#a2885c93505c94d0d4f1d8dd63f2bb03d">More...</a><br /></td></tr>
-<tr class="separator:a2885c93505c94d0d4f1d8dd63f2bb03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a27eec80638308cbfa5e51daba14231"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#a9a27eec80638308cbfa5e51daba14231">ReferenceTimestamp</a> [2]</td></tr>
-<tr class="memdesc:a9a27eec80638308cbfa5e51daba14231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference timestamp The time at which the clock was last set or corrected.  <a href="../../df/d0f/ntp_8hpp.html#a9a27eec80638308cbfa5e51daba14231">More...</a><br /></td></tr>
-<tr class="separator:a9a27eec80638308cbfa5e51daba14231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8701631f147bca23fd8e05a310b138dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#a8701631f147bca23fd8e05a310b138dd">OriginateTimestamp</a> [2]</td></tr>
-<tr class="memdesc:a8701631f147bca23fd8e05a310b138dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Originate timestamp The time at which the request departed the client for the server.  <a href="../../df/d0f/ntp_8hpp.html#a8701631f147bca23fd8e05a310b138dd">More...</a><br /></td></tr>
-<tr class="separator:a8701631f147bca23fd8e05a310b138dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08a34a36df8e00e4b6b55a845db56d38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#a08a34a36df8e00e4b6b55a845db56d38">ReceiveTimestamp</a> [2]</td></tr>
-<tr class="memdesc:a08a34a36df8e00e4b6b55a845db56d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive timestamp The time at which the request arrived at the server.  <a href="../../df/d0f/ntp_8hpp.html#a08a34a36df8e00e4b6b55a845db56d38">More...</a><br /></td></tr>
-<tr class="separator:a08a34a36df8e00e4b6b55a845db56d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49d1460b7cf29064b5993a56c06a44b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/ntp_8hpp.html#a49d1460b7cf29064b5993a56c06a44b1">TransmitTimestamp</a> [2]</td></tr>
-<tr class="memdesc:a49d1460b7cf29064b5993a56c06a44b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transmit timestamp The time at which the reply departed the server for the client.  <a href="../../df/d0f/ntp_8hpp.html#a49d1460b7cf29064b5993a56c06a44b1">More...</a><br /></td></tr>
-<tr class="separator:a49d1460b7cf29064b5993a56c06a44b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3b3aa8058891fb07907c3e1ab882ee6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d0d/classNetworkNTP_1_1NTP.html">NetworkNTP::NTP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfe/namespaceNetworkNTP.html#aa3b3aa8058891fb07907c3e1ab882ee6">NetworkNTP::__attribute__</a></td></tr>
-<tr class="separator:aa3b3aa8058891fb07907c3e1ab882ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3438dfc8a610c8fc9af99fd472c62cb"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../db/dfe/namespaceNetworkNTP.html#df/d24/structNetworkNTP_1_1NTPHeader">NetworkNTP::NTPHeader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dfe/namespaceNetworkNTP.html#ad3438dfc8a610c8fc9af99fd472c62cb">NetworkNTP::__packed</a></td></tr>
+<tr class="separator:ad3438dfc8a610c8fc9af99fd472c62cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="df/d24/structNetworkNTP_1_1NTPHeader" id="df/d24/structNetworkNTP_1_1NTPHeader"></a>
@@ -173,7 +128,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00009">9</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00026">26</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -255,241 +210,6 @@ VersionNumber: 3</td>
 <td class="fielddoc">
 Version number of the protocol 3 - IPv4 only 4 - IPv4, IPv6 and OSI 5 - IPv4, IPv6 and OSI 6 - IPv4, IPv6 and OSI 7 - IPv4, IPv6 and OSI. </td></tr>
 </table>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ad4cc206ea6ce96bb18625a26608130d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4cc206ea6ce96bb18625a26608130d8">&#9670;&nbsp;</a></span>LeapIndicator</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> LeapIndicator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Leap indicator 00 - no warning 01 - last minute has 61 seconds 10 - last minute has 59 seconds 11 - alarm condition (clock not synchronized) </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00006">6</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ad11c3137711cc547aa65686fa2c98fc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad11c3137711cc547aa65686fa2c98fc9">&#9670;&nbsp;</a></span>Mode</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Mode</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Mode 0 - reserved 1 - symmetric active 2 - symmetric passive 3 - client 4 - server 5 - broadcast 6 - reserved for NTP control message 7 - reserved for private use. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a8701631f147bca23fd8e05a310b138dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8701631f147bca23fd8e05a310b138dd">&#9670;&nbsp;</a></span>OriginateTimestamp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> OriginateTimestamp[2]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Originate timestamp The time at which the request departed the client for the server. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00100">100</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a91f3575e3459fb73cd335891024ce2fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91f3575e3459fb73cd335891024ce2fc">&#9670;&nbsp;</a></span>Poll</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Poll</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Polling interval 4 - 16 seconds 5 - 32 seconds 6 - 64 seconds 7 - 128 seconds 8 - 256 seconds 9 - 512 seconds 10 - 1024 seconds 11 - 2048 seconds 12 - 4096 seconds 13 - 8192 seconds 14 - 16384 seconds 15 - 32768 seconds. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00048">48</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae5e4f29c5061cfd6dc147461ae541ef8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5e4f29c5061cfd6dc147461ae541ef8">&#9670;&nbsp;</a></span>Precision</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Precision</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Precision -6 - 0.015625 seconds -5 - 0.03125 seconds -4 - 0.0625 seconds -3 - 0.125 seconds -2 - 0.25 seconds -1 - 0.5 seconds 0 - 1 second 1 - 2 seconds 2 - 4 seconds 3 - 8 seconds 4 - 16 seconds 5 - 32 seconds 6 - 64 seconds 7 - 128 seconds. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00065">65</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a08a34a36df8e00e4b6b55a845db56d38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08a34a36df8e00e4b6b55a845db56d38">&#9670;&nbsp;</a></span>ReceiveTimestamp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ReceiveTimestamp[2]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Receive timestamp The time at which the request arrived at the server. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00104">104</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a2885c93505c94d0d4f1d8dd63f2bb03d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2885c93505c94d0d4f1d8dd63f2bb03d">&#9670;&nbsp;</a></span>ReferenceIdentifier</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ReferenceIdentifier</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reference identifier 0x00000000 - unspecified 0x00000001 - radio clock 0x00000002 - atomic clock 0x00000003 - GPS receiver 0x00000004 - local oscillator 0x00000005 - LORAN-C receiver 0x00000006 - microprocessor 0x00000007 - internet 0x00000008 - FLL 0x00000009 - other 0x0000000A - WWV 0x0000000B - WWVB 0x0000000C - WWVH 0x0000000D - NIST dialup 0x0000000E - telephone 0x0000000F - reserved. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00092">92</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a9a27eec80638308cbfa5e51daba14231"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a27eec80638308cbfa5e51daba14231">&#9670;&nbsp;</a></span>ReferenceTimestamp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ReferenceTimestamp[2]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reference timestamp The time at which the clock was last set or corrected. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00096">96</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a3e6ca1738451fa4f7e977c4a85de2bce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e6ca1738451fa4f7e977c4a85de2bce">&#9670;&nbsp;</a></span>RootDelay</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> RootDelay</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Root delay Total round trip delay to the primary reference source. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00069">69</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ae5106dec9d0b71e8054c732b0af32d49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5106dec9d0b71e8054c732b0af32d49">&#9670;&nbsp;</a></span>RootDispersion</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> RootDispersion</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Root dispersion Nominal error relative to the primary reference source. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00073">73</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aa7e12c9b138d3db2364da9042d616bc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7e12c9b138d3db2364da9042d616bc8">&#9670;&nbsp;</a></span>Stratum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Stratum</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Stratum 0 - unspecified or unavailable 1 - primary reference (e.g. radio clock) 2-15 - secondary reference (via NTP or SNTP) 16 - unsynchronized 17-255 - reserved. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a49d1460b7cf29064b5993a56c06a44b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49d1460b7cf29064b5993a56c06a44b1">&#9670;&nbsp;</a></span>TransmitTimestamp</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> TransmitTimestamp[2]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Transmit timestamp The time at which the reply departed the server for the client. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00108">108</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a59f9455560ecd145b69b0de0cdb96fd0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59f9455560ecd145b69b0de0cdb96fd0">&#9670;&nbsp;</a></span>VersionNumber</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> VersionNumber</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Version number of the protocol 3 - IPv4 only 4 - IPv4, IPv6 and OSI 5 - IPv4, IPv6 and OSI 6 - IPv4, IPv6 and OSI 7 - IPv4, IPv6 and OSI. </p>
-
-<p class="definition">Definition at line <a class="el" href="../../df/d0f/ntp_8hpp_source.html#l00014">14</a> of file <a class="el" href="../../df/d0f/ntp_8hpp_source.html">ntp.hpp</a>.</p>
 
 </div>
 </div>

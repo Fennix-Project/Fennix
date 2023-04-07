@@ -89,5 +89,5 @@ var w__wad_8c =
     [ "lumphash", "d1/d74/w__wad_8c.html#afa917698b43f87f853ef72ce7fd982b7", null ],
     [ "lumpinfo", "d1/d74/w__wad_8c.html#a03d658baf63cca865213ab58e57f3c60", null ],
     [ "numlumps", "d1/d74/w__wad_8c.html#a6296a6851e7791fae5401322643c65b1", null ],
-    [ "unique_lumps", "d1/d74/w__wad_8c.html#a983dd79f727e2bbea1b4b4488fcebb53", null ]
+    [ "unique_lumps", "d1/d74/w__wad_8c.html#ac8fd8b82925bed664d63172b06e1e47c", null ]
 ];

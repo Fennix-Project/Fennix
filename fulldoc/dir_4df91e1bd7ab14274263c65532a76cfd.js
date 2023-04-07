@@ -2,7 +2,7 @@ var dir_4df91e1bd7ab14274263c65532a76cfd =
 [
     [ "fd_set.h", "de/d3d/fd__set_8h.html", [
       [ "fd_set", "de/d3d/fd__set_8h.html#d5/d99/structfd__set", null ],
-      [ "fd_set.__unnamed952__", "de/d3d/fd__set_8h.html#dc/d38/unionfd__set_8____unnamed952____", [
+      [ "fd_set.__unnamed866__", "de/d3d/fd__set_8h.html#d4/d1b/unionfd__set_8____unnamed866____", [
         [ "__mlibc_elems", "de/d3d/fd__set_8h.html#a036fdbbe38cb68358a13a8161678e01e", null ],
         [ "fds_bits", "de/d3d/fd__set_8h.html#a9062bef40c1c337241dcb76465017a27", null ]
       ] ]
@@ -26,7 +26,7 @@ var dir_4df91e1bd7ab14274263c65532a76cfd =
     [ "posix_time.h", "d6/d17/posix__time_8h.html", "d6/d17/posix__time_8h" ],
     [ "posix_wctype.h", "d1/da1/posix__wctype_8h.html", "d1/da1/posix__wctype_8h" ],
     [ "pthread_t.h", "d3/d5c/pthread__t_8h.html", "d3/d5c/pthread__t_8h" ],
-    [ "stat.h", "db/db8/mlibc_2options_2posix_2include_2bits_2posix_2stat_8h.html", "db/db8/mlibc_2options_2posix_2include_2bits_2posix_2stat_8h" ],
+    [ "stat.h", "df/dc8/Userspace_2mlibc_2options_2posix_2include_2bits_2posix_2stat_8h.html", "df/dc8/Userspace_2mlibc_2options_2posix_2include_2bits_2posix_2stat_8h" ],
     [ "timer_t.h", "dd/d83/timer__t_8h.html", "dd/d83/timer__t_8h" ],
     [ "timeval.h", "d4/d80/timeval_8h.html", [
       [ "timeval", "d4/d80/timeval_8h.html#d1/d1b/structtimeval", [

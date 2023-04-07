@@ -15,6 +15,7 @@ var binfo_8h =
       [ "Pitch", "db/d96/structBootInfo.html#a898a6f47a537f71731ab594c9d052148", null ],
       [ "RedMaskShift", "db/d96/structBootInfo.html#acba0c3c98c22705dd28df051d1c5acff", null ],
       [ "RedMaskSize", "db/d96/structBootInfo.html#a44a262152a2c36caf29da46ed68561c1", null ],
+      [ "Type", "db/d96/structBootInfo.html#a279f1a8a0cc02938644de2587d60b3d1", null ],
       [ "Width", "db/d96/structBootInfo.html#a5f7c8fcce5de0403b4f0b115a0cde1d9", null ]
     ] ],
     [ "MemoryInfo", "db/d96/structBootInfo.html#d0/d9b/structBootInfo_1_1MemoryInfo", [
@@ -63,21 +64,28 @@ var binfo_8h =
     [ "MAX_FRAMEBUFFERS", "d9/d36/binfo_8h.html#a7c9ac2fcc618529fc9ff68d58e536cdf", null ],
     [ "MAX_MEMORY_ENTRIES", "d9/d36/binfo_8h.html#a242e86d715a7086b90f62e79205b38cb", null ],
     [ "MAX_MODULES", "d9/d36/binfo_8h.html#a6cce4323245f92154efd90478606fe56", null ],
+    [ "FramebufferType", "d9/d36/binfo_8h.html#a39df9e53af79b42773604b31cc7c928b", [
+      [ "Unknown_Framebuffer_Type", "d9/d36/binfo_8h.html#a39df9e53af79b42773604b31cc7c928ba844d8b18cb27e2ab774514cd4e640f03", null ],
+      [ "Indexed", "d9/d36/binfo_8h.html#a39df9e53af79b42773604b31cc7c928ba93747573a820d43208a296f9f56bf54e", null ],
+      [ "RGB", "d9/d36/binfo_8h.html#a39df9e53af79b42773604b31cc7c928ba30447e9f6efa4afdd251f9afc1d5fb44", null ],
+      [ "EGA", "d9/d36/binfo_8h.html#a39df9e53af79b42773604b31cc7c928baef36d4260b16ab193aaa139fb52f134d", null ]
+    ] ],
     [ "MemoryType", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01", [
-      [ "Unknown", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a4e81c184ac3ad48a389cd4454c4a05bb", null ],
+      [ "Unknown_Memory_Type", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a8550b58fc55256482f25d33573086cab", null ],
       [ "Usable", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01ab39314bfafff7bef77e9fcfab31bc7ac", null ],
       [ "ACPIReclaimable", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a223cdfc64e3ccaee890d1a22cbd9bf43", null ],
       [ "ACPINVS", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a11c2789934427d2d3f307c08e237eac6", null ],
       [ "BadMemory", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a288f459725332e0ae99372ead7b1cebd", null ],
       [ "BootloaderReclaimable", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01ac3339e3f10e46e625654bebfe85081e0", null ],
       [ "KernelAndModules", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a8b675d21252e54a28df94bb018e9c307", null ],
-      [ "Framebuffer", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01aabce225a38783329d7d4161fc5104952", null ]
+      [ "Framebuffer", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01aabce225a38783329d7d4161fc5104952", null ],
+      [ "Unknown", "d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a4e81c184ac3ad48a389cd4454c4a05bb", null ]
     ] ],
     [ "Checksum", "d9/d36/binfo_8h.html#ae129e9c4d84501484102e80f8b35d1da", null ],
     [ "ExtendedChecksum", "d9/d36/binfo_8h.html#ac1107a16cae7348a1f9788614a48cc46", null ],
     [ "Length", "d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3", null ],
     [ "OEMID", "d9/d36/binfo_8h.html#a5ee3903863982019b9ba7583799fafc6", null ],
-    [ "Reserved", "d9/d36/binfo_8h.html#a337071dd60b13ace5d56026af1ca048f", null ],
+    [ "Reserved", "d9/d36/binfo_8h.html#a49ad3f9f1032d92723561e6d37af48aa", null ],
     [ "Revision", "d9/d36/binfo_8h.html#a802f851dfe8c24d2bc3589d39f0a3101", null ],
     [ "RSDTAddress", "d9/d36/binfo_8h.html#ad2ba68dc8ae3ec197182eee27d60240a", null ],
     [ "Signature", "d9/d36/binfo_8h.html#a00e8a3ac03632ba8932771e3c4456e5d", null ],

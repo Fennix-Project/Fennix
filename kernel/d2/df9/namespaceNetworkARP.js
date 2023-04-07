@@ -18,8 +18,7 @@ var namespaceNetworkARP =
       [ "REQUEST", "d2/df9/namespaceNetworkARP.html#aeb09ccefe69677574f3e16c6ff2c375ba6d76f6fa7a69b2a1ab2cbf061e8ec4ec", null ],
       [ "REPLY", "d2/df9/namespaceNetworkARP.html#aeb09ccefe69677574f3e16c6ff2c375bafad19e0558b612421b8234f6649eef6e", null ]
     ] ],
-    [ "__attribute__", "d2/df9/namespaceNetworkARP.html#ab6186215ca5c5c07ae454a12ddb40035", null ],
-    [ "__attribute__", "d2/df9/namespaceNetworkARP.html#a37c42968503419cfbf3214eb33899fe6", null ],
+    [ "__packed", "d2/df9/namespaceNetworkARP.html#a18553740c35ddf74bf3841b46c7ca205", null ],
     [ "InvalidIP", "d2/df9/namespaceNetworkARP.html#a360ed7016a5a70d5b44f9def686ca14d", null ],
     [ "InvalidMAC", "d2/df9/namespaceNetworkARP.html#a5aca9e566091f1cf920995cf612e328d", null ],
     [ "InvalidRet", "d2/df9/namespaceNetworkARP.html#adc52637e86e4e5625907cfeb20a3c62b", null ]

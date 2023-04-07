@@ -31,15 +31,5 @@ var arp_8hpp =
       [ "REQUEST", "d3/d56/arp_8hpp.html#aeb09ccefe69677574f3e16c6ff2c375ba6d76f6fa7a69b2a1ab2cbf061e8ec4ec", null ],
       [ "REPLY", "d3/d56/arp_8hpp.html#aeb09ccefe69677574f3e16c6ff2c375bafad19e0558b612421b8234f6649eef6e", null ]
     ] ],
-    [ "__attribute__", "d3/d56/arp_8hpp.html#ab6186215ca5c5c07ae454a12ddb40035", null ],
-    [ "__attribute__", "d3/d56/arp_8hpp.html#a37c42968503419cfbf3214eb33899fe6", null ],
-    [ "HardwareSize", "d3/d56/arp_8hpp.html#a4f92a1ad75e05f1cf3601b9a38429a31", null ],
-    [ "HardwareType", "d3/d56/arp_8hpp.html#a2435f70eaa2bc2c71192d94377dc84bc", null ],
-    [ "Operation", "d3/d56/arp_8hpp.html#aeada6b6345b80cdc054856e28008b0fd", null ],
-    [ "ProtocolSize", "d3/d56/arp_8hpp.html#a5591f79ec1a19dd8b6cb096ec27c24c4", null ],
-    [ "ProtocolType", "d3/d56/arp_8hpp.html#a3b6c6dfedf1a11e58416ba8b9ff9d682", null ],
-    [ "SenderIP", "d3/d56/arp_8hpp.html#aaffd8b88587690b0fa0086290258ee57", null ],
-    [ "SenderMAC", "d3/d56/arp_8hpp.html#ae835300f8613f954c38a0ee466643f21", null ],
-    [ "TargetIP", "d3/d56/arp_8hpp.html#ab6c5f3c8d0977b15ad7c2e729c3caee9", null ],
-    [ "TargetMAC", "d3/d56/arp_8hpp.html#a353fb8b84bee92d6e2c27bc4e1ce16ec", null ]
+    [ "__packed", "d3/d56/arp_8hpp.html#a18553740c35ddf74bf3841b46c7ca205", null ]
 ];

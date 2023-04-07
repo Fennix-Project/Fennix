@@ -38,6 +38,7 @@ var syscalls_8h =
       [ "SYSCALL_ERROR", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5a947e6565f66067063215659482b21b41", null ],
       [ "SYSCALL_OK", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5a296a7e50222a67ed082bd38329046c5f", null ]
     ] ],
+    [ "IsSyscallError", "d2/d6e/syscalls_8h.html#a733341070f11eb1b7959d1a855997302", null ],
     [ "syscall0", "d2/d6e/syscalls_8h.html#ac0bfcce43babc000aa3ac47b3837f3c7", null ],
     [ "syscall1", "d2/d6e/syscalls_8h.html#ac728f9ac7fe430b82caa7bf3fdded380", null ],
     [ "syscall2", "d2/d6e/syscalls_8h.html#a2472d889b949db45eb788268d5c109cf", null ],

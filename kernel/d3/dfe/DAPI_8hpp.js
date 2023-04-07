@@ -298,7 +298,7 @@ var DAPI_8hpp =
     [ "Info", "d3/dfe/DAPI_8hpp.html#af38d995e497b6690f5b942df9a9f272d", null ],
     [ "Memory", "d3/dfe/DAPI_8hpp.html#a60f1dbaaf5ff071fb1ec94ea77c2d887", null ],
     [ "PCI", "d3/dfe/DAPI_8hpp.html#aba2f81613922672c077977ad68efc38d", null ],
-    [ "raw", "d3/dfe/DAPI_8hpp.html#a33656e1e604e9a92fef40e66e3bf036d", null ],
+    [ "raw", "d3/dfe/DAPI_8hpp.html#a4defb80d97731e426d12573c84767d0d", null ],
     [ "Util", "d3/dfe/DAPI_8hpp.html#a161cd2782bcfb14dca65d044bcddd8a9", null ],
     [ "Version", "d3/dfe/DAPI_8hpp.html#a85836edbd43c944d6deae284231ed228", null ]
 ];

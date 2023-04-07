@@ -125,7 +125,7 @@ Data Fields</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad225fe45e98572c150e7d66b280980c0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad225fe45e98572c150e7d66b280980c0">&#9670;&nbsp;</a></span>Block()</h2>
@@ -151,19 +151,19 @@ Data Fields</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Address</a> = <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a79c2058bb276cafa4a24007c504054a4">Xalloc_REQUEST_PAGES</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#adeabe2ec81355f0c97f06b88638a88e9">XStoP</a>(<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a>));</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a> = <a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a>;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a5c6c79cc95c0732ab0d2ac12a02d09a5">Xmemset</a>(this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Address</a>, 0, <a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a>);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
-<div class="ttc" id="aXallocV1_8cpp_html_a5c6c79cc95c0732ab0d2ac12a02d09a5"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a5c6c79cc95c0732ab0d2ac12a02d09a5">Xmemset</a></div><div class="ttdeci">void * Xmemset(void *__restrict__ Destination, int Data, Xuint64_t Length)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00026">XallocV1.cpp:26</a></div></div>
-<div class="ttc" id="aXallocV1_8cpp_html_a79c2058bb276cafa4a24007c504054a4"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a79c2058bb276cafa4a24007c504054a4">Xalloc_REQUEST_PAGES</a></div><div class="ttdeci">void * Xalloc_REQUEST_PAGES(Xsize_t Pages)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d21/Wrapper_8cpp_source.html#l00005">Wrapper.cpp:5</a></div></div>
-<div class="ttc" id="aXallocV1_8cpp_html_adeabe2ec81355f0c97f06b88638a88e9"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#adeabe2ec81355f0c97f06b88638a88e9">XStoP</a></div><div class="ttdeci">#define XStoP(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00006">XallocV1.cpp:6</a></div></div>
-<div class="ttc" id="aclassXalloc_1_1Block_html_a3cd3b00e39e3cbb732d23aa9ae34bbe0"><div class="ttname"><a href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Xalloc::Block::Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00039">XallocV1.cpp:39</a></div></div>
-<div class="ttc" id="aclassXalloc_1_1Block_html_ac908531c26e27b8ef5c108cb77e37709"><div class="ttname"><a href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Xalloc::Block::Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00042">XallocV1.cpp:42</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Address</a> = <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a79c2058bb276cafa4a24007c504054a4">Xalloc_REQUEST_PAGES</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#adeabe2ec81355f0c97f06b88638a88e9">XStoP</a>(<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a>));</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a> = <a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a5c6c79cc95c0732ab0d2ac12a02d09a5">Xmemset</a>(this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Address</a>, 0, <a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a>);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+<div class="ttc" id="aXallocV1_8cpp_html_a5c6c79cc95c0732ab0d2ac12a02d09a5"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a5c6c79cc95c0732ab0d2ac12a02d09a5">Xmemset</a></div><div class="ttdeci">void * Xmemset(void *__restrict__ Destination, int Data, Xuint64_t Length)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00043">XallocV1.cpp:43</a></div></div>
+<div class="ttc" id="aXallocV1_8cpp_html_a79c2058bb276cafa4a24007c504054a4"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a79c2058bb276cafa4a24007c504054a4">Xalloc_REQUEST_PAGES</a></div><div class="ttdeci">void * Xalloc_REQUEST_PAGES(Xsize_t Pages)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d21/Wrapper_8cpp_source.html#l00022">Wrapper.cpp:22</a></div></div>
+<div class="ttc" id="aXallocV1_8cpp_html_adeabe2ec81355f0c97f06b88638a88e9"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#adeabe2ec81355f0c97f06b88638a88e9">XStoP</a></div><div class="ttdeci">#define XStoP(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00023">XallocV1.cpp:23</a></div></div>
+<div class="ttc" id="aclassXalloc_1_1Block_html_a3cd3b00e39e3cbb732d23aa9ae34bbe0"><div class="ttname"><a href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Xalloc::Block::Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00056">XallocV1.cpp:56</a></div></div>
+<div class="ttc" id="aclassXalloc_1_1Block_html_ac908531c26e27b8ef5c108cb77e37709"><div class="ttname"><a href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Xalloc::Block::Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00059">XallocV1.cpp:59</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00042">Size</a>, <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html#l00005">Xalloc_REQUEST_PAGES()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00026">Xmemset()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00006">XStoP</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00059">Size</a>, <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html#l00022">Xalloc_REQUEST_PAGES()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00043">Xmemset()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00023">XStoP</a>.</p>
 
 </div>
 </div>
@@ -190,13 +190,13 @@ Data Fields</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00061">61</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aa12016bc79f2b4afddb00eb0c856c490">Xalloc_FREE_PAGES</a>(this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Address</a>, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#adeabe2ec81355f0c97f06b88638a88e9">XStoP</a>(this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a>));</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
-<div class="ttc" id="aXallocV1_8cpp_html_aa12016bc79f2b4afddb00eb0c856c490"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#aa12016bc79f2b4afddb00eb0c856c490">Xalloc_FREE_PAGES</a></div><div class="ttdeci">void Xalloc_FREE_PAGES(void *Address, Xsize_t Pages)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d21/Wrapper_8cpp_source.html#l00010">Wrapper.cpp:10</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00078">78</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aa12016bc79f2b4afddb00eb0c856c490">Xalloc_FREE_PAGES</a>(this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Address</a>, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#adeabe2ec81355f0c97f06b88638a88e9">XStoP</a>(this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a>));</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
+<div class="ttc" id="aXallocV1_8cpp_html_aa12016bc79f2b4afddb00eb0c856c490"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#aa12016bc79f2b4afddb00eb0c856c490">Xalloc_FREE_PAGES</a></div><div class="ttdeci">void Xalloc_FREE_PAGES(void *Address, Xsize_t Pages)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d21/Wrapper_8cpp_source.html#l00027">Wrapper.cpp:27</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html#l00010">Xalloc_FREE_PAGES()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00006">XStoP</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html#l00027">Xalloc_FREE_PAGES()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00023">XStoP</a>.</p>
 
 </div>
 </div>
@@ -224,18 +224,18 @@ Data Fields</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a0ee5bda2a7ace3c6ff006daacfa49af4">Checksum</a> != <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a46fe529591da60f8983baab8cf11f49a">Xalloc_BlockChecksum</a>)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        }</div>
-<div class="ttc" id="aXallocV1_8cpp_html_a46fe529591da60f8983baab8cf11f49a"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a46fe529591da60f8983baab8cf11f49a">Xalloc_BlockChecksum</a></div><div class="ttdeci">#define Xalloc_BlockChecksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00008">XallocV1.cpp:8</a></div></div>
-<div class="ttc" id="aclassXalloc_1_1Block_html_a0ee5bda2a7ace3c6ff006daacfa49af4"><div class="ttname"><a href="../../d6/da3/classXalloc_1_1Block.html#a0ee5bda2a7ace3c6ff006daacfa49af4">Xalloc::Block::Checksum</a></div><div class="ttdeci">int Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00041">XallocV1.cpp:41</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a0ee5bda2a7ace3c6ff006daacfa49af4">Checksum</a> != <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a46fe529591da60f8983baab8cf11f49a">Xalloc_BlockChecksum</a>)</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
+<div class="ttc" id="aXallocV1_8cpp_html_a46fe529591da60f8983baab8cf11f49a"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a46fe529591da60f8983baab8cf11f49a">Xalloc_BlockChecksum</a></div><div class="ttdeci">#define Xalloc_BlockChecksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00025">XallocV1.cpp:25</a></div></div>
+<div class="ttc" id="aclassXalloc_1_1Block_html_a0ee5bda2a7ace3c6ff006daacfa49af4"><div class="ttname"><a href="../../d6/da3/classXalloc_1_1Block.html#a0ee5bda2a7ace3c6ff006daacfa49af4">Xalloc::Block::Checksum</a></div><div class="ttdeci">int Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00058">XallocV1.cpp:58</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00008">Xalloc_BlockChecksum</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00025">Xalloc_BlockChecksum</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00179">Xalloc::V1::free()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00129">Xalloc::V1::malloc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00196">Xalloc::V1::free()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00146">Xalloc::V1::malloc()</a>.</p>
 
 </div>
 </div>
@@ -271,13 +271,13 @@ Data Fields</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00081">81</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aa12016bc79f2b4afddb00eb0c856c490">Xalloc_FREE_PAGES</a>(<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Address</a>, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#adeabe2ec81355f0c97f06b88638a88e9">XStoP</a>(<span class="keyword">sizeof</span>(<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ad225fe45e98572c150e7d66b280980c0">Block</a>)));</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div>
-<div class="ttc" id="aclassXalloc_1_1Block_html_ad225fe45e98572c150e7d66b280980c0"><div class="ttname"><a href="../../d6/da3/classXalloc_1_1Block.html#ad225fe45e98572c150e7d66b280980c0">Xalloc::Block::Block</a></div><div class="ttdeci">Block(Xsize_t Size)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00054">XallocV1.cpp:54</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00098">98</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aa12016bc79f2b4afddb00eb0c856c490">Xalloc_FREE_PAGES</a>(<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Address</a>, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#adeabe2ec81355f0c97f06b88638a88e9">XStoP</a>(<span class="keyword">sizeof</span>(<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ad225fe45e98572c150e7d66b280980c0">Block</a>)));</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        }</div>
+<div class="ttc" id="aclassXalloc_1_1Block_html_ad225fe45e98572c150e7d66b280980c0"><div class="ttname"><a href="../../d6/da3/classXalloc_1_1Block.html#ad225fe45e98572c150e7d66b280980c0">Xalloc::Block::Block</a></div><div class="ttdeci">Block(Xsize_t Size)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00071">XallocV1.cpp:71</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00039">Address</a>, <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html#l00010">Xalloc_FREE_PAGES()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00006">XStoP</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00056">Address</a>, <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html#l00027">Xalloc_FREE_PAGES()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00023">XStoP</a>.</p>
 
 </div>
 </div>
@@ -314,13 +314,13 @@ Data Fields</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void* Pointer to the allocated memory </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordtype">void</span> *ptr = <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a79c2058bb276cafa4a24007c504054a4">Xalloc_REQUEST_PAGES</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#adeabe2ec81355f0c97f06b88638a88e9">XStoP</a>(<span class="keyword">sizeof</span>(<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ad225fe45e98572c150e7d66b280980c0">Block</a>)));</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="keywordflow">return</span> ptr;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00088">88</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordtype">void</span> *ptr = <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a79c2058bb276cafa4a24007c504054a4">Xalloc_REQUEST_PAGES</a>(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#adeabe2ec81355f0c97f06b88638a88e9">XStoP</a>(<span class="keyword">sizeof</span>(<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#ad225fe45e98572c150e7d66b280980c0">Block</a>)));</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">return</span> ptr;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html#l00005">Xalloc_REQUEST_PAGES()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00006">XStoP</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html#l00022">Xalloc_REQUEST_PAGES()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00023">XStoP</a>.</p>
 
 </div>
 </div>
@@ -337,9 +337,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00056">56</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00179">Xalloc::V1::free()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00129">Xalloc::V1::malloc()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00081">operator delete()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00196">Xalloc::V1::free()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00146">Xalloc::V1::malloc()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00098">operator delete()</a>.</p>
 
 </div>
 </div>
@@ -355,9 +355,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00058">58</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00129">Xalloc::V1::malloc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00146">Xalloc::V1::malloc()</a>.</p>
 
 </div>
 </div>
@@ -373,9 +373,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00062">62</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00179">Xalloc::V1::free()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00129">Xalloc::V1::malloc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00196">Xalloc::V1::free()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00146">Xalloc::V1::malloc()</a>.</p>
 
 </div>
 </div>
@@ -391,7 +391,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00061">61</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 
 </div>
 </div>
@@ -407,9 +407,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00060">60</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00179">Xalloc::V1::free()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00129">Xalloc::V1::malloc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00196">Xalloc::V1::free()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00146">Xalloc::V1::malloc()</a>.</p>
 
 </div>
 </div>
@@ -425,9 +425,9 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00059">59</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00054">Block()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00129">Xalloc::V1::malloc()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00071">Block()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00146">Xalloc::V1::malloc()</a>.</p>
 
 </div>
 </div>

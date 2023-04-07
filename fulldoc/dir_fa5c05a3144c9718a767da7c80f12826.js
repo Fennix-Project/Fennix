@@ -24,6 +24,7 @@ var dir_fa5c05a3144c9718a767da7c80f12826 =
     [ "open_memstream.c", "dd/df6/open__memstream_8c.html", "dd/df6/open__memstream_8c" ],
     [ "pause.c", "d1/d3b/pause_8c.html", "d1/d3b/pause_8c" ],
     [ "popen.c", "d3/d81/popen_8c.html", "d3/d81/popen_8c" ],
+    [ "posix-timer.c", "d7/db0/posix-timer_8c.html", "d7/db0/posix-timer_8c" ],
     [ "posix_memalign.c", "d7/d69/posix__memalign_8c.html", "d7/d69/posix__memalign_8c" ],
     [ "posix_spawn.c", "d1/d0c/posix__spawn_8c.html", "d1/d0c/posix__spawn_8c" ],
     [ "pthread_atfork.c", "da/d80/pthread__atfork_8c.html", "da/d80/pthread__atfork_8c" ],

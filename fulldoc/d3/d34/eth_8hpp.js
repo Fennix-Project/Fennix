@@ -17,9 +17,5 @@ var eth_8hpp =
       [ "TYPE_RARP", "d3/d34/eth_8hpp.html#a0d9fe4b9c76bccc0ced7ea04986eb5e1a9967afdc259da0a91d19ad6011971055", null ],
       [ "TYPE_IPV6", "d3/d34/eth_8hpp.html#a0d9fe4b9c76bccc0ced7ea04986eb5e1a887417948d2cc84ef991bf1f87ecb068", null ]
     ] ],
-    [ "__attribute__", "d3/d34/eth_8hpp.html#a7883f42f69407a93a08ab45b6d41fe48", null ],
-    [ "__attribute__", "d3/d34/eth_8hpp.html#a1550d6ba61a77e0e50a6f7898fe55693", null ],
-    [ "DestinationMAC", "d3/d34/eth_8hpp.html#ad96a2a51f26180cea1857368a8982611", null ],
-    [ "SourceMAC", "d3/d34/eth_8hpp.html#aa547b52641e54f3f9ce116d837a63ec7", null ],
-    [ "Type", "d3/d34/eth_8hpp.html#a8e28e365723338285d89f0bb12bb0056", null ]
+    [ "__packed", "d3/d34/eth_8hpp.html#a4c746de276521d39c6d174d83a65baf6", null ]
 ];

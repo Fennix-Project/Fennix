@@ -53,7 +53,5 @@ var namespaceTasking =
       [ "Trusted", "d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93aa8722edd8cb36141cc08e307f58a7fcd", null ],
       [ "TrustedByKernel", "d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a540fdfc5743805f1f50b557677599607", null ],
       [ "FullTrust", "d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a65106eff93d2e9aae2f1eed955c44013", null ]
-    ] ],
-    [ "IdleProcessLoop", "d9/d3e/namespaceTasking.html#a1f03f20cc88ce2770beeae177027c70b", null ],
-    [ "ThreadDoExit", "d9/d3e/namespaceTasking.html#a14158fcf432e346339f307091826643c", null ]
+    ] ]
 ];

@@ -313,9 +313,9 @@ $(document).ready(function(){initNavTree('d2/dfb/i__input_8c_source.html','../..
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;};</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160; </div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
-<div class="line"><a name="l00225"></a><span class="lineno"><a class="line" href="../../d2/dfb/i__input_8c.html#ab8a1741d8ee625c6fede3f5f4372261e">  225</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/dfb/i__input_8c.html#ab8a1741d8ee625c6fede3f5f4372261e">TranslateKey</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>)</div>
+<div class="line"><a name="l00225"></a><span class="lineno"><a class="line" href="../../d2/dfb/i__input_8c.html#ab8a1741d8ee625c6fede3f5f4372261e">  225</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/dfb/i__input_8c.html#ab8a1741d8ee625c6fede3f5f4372261e">TranslateKey</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> key)</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;{</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordflow">return</span> key;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="comment">/*</span></div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="comment">    if (key &lt; sizeof(at_to_doom))</span></div>
@@ -330,28 +330,28 @@ $(document).ready(function(){initNavTree('d2/dfb/i__input_8c_source.html','../..
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="comment">// Get the equivalent ASCII (Unicode?) character for a keypress.</span></div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
-<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="../../d2/dfb/i__input_8c.html#acf2039ce2f4afbfb03e892ce6b83c63a">  242</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/dfb/i__input_8c.html#acf2039ce2f4afbfb03e892ce6b83c63a">GetTypedChar</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>)</div>
+<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="../../d2/dfb/i__input_8c.html#acf2039ce2f4afbfb03e892ce6b83c63a">  242</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/dfb/i__input_8c.html#acf2039ce2f4afbfb03e892ce6b83c63a">GetTypedChar</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> key)</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;{</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a> = <a class="code" href="../../d2/dfb/i__input_8c.html#ab8a1741d8ee625c6fede3f5f4372261e">TranslateKey</a>(<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    key = <a class="code" href="../../d2/dfb/i__input_8c.html#ab8a1741d8ee625c6fede3f5f4372261e">TranslateKey</a>(key);</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; </div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="comment">// Is shift held down?  If so, perform a translation.</span></div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/dfb/i__input_8c.html#aceae71b7e1262f572f68be551daffef2">shiftdown</a> &gt; 0)</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    {</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a> &gt;= 0 &amp;&amp; <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a> &lt; <a class="code" href="../../d8/d3a/doomtype_8h.html#aa2cb1b34aa6df268c499d3d415aa75d3">arrlen</a>(<a class="code" href="../../d2/dfb/i__input_8c.html#a7d45f251117d259fa7f62df75f0e8be6">shiftxform</a>))</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">if</span> (key &gt;= 0 &amp;&amp; key &lt; <a class="code" href="../../d8/d3a/doomtype_8h.html#aa2cb1b34aa6df268c499d3d415aa75d3">arrlen</a>(<a class="code" href="../../d2/dfb/i__input_8c.html#a7d45f251117d259fa7f62df75f0e8be6">shiftxform</a>))</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        {</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a> = <a class="code" href="../../d2/dfb/i__input_8c.html#a7d45f251117d259fa7f62df75f0e8be6">shiftxform</a>[<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>];</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            key = <a class="code" href="../../d2/dfb/i__input_8c.html#a7d45f251117d259fa7f62df75f0e8be6">shiftxform</a>[key];</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        }</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        {</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a> = 0;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            key = 0;</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        }</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    }</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160; </div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordflow">return</span> key;</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;}</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
-<div class="line"><a name="l00263"></a><span class="lineno"><a class="line" href="../../d2/dfb/i__input_8c.html#a8b8896fc153da2385ece4af54b2454f2">  263</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../d2/dfb/i__input_8c.html#a8b8896fc153da2385ece4af54b2454f2">UpdateShiftStatus</a>(<span class="keywordtype">int</span> pressed, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>)</div>
+<div class="line"><a name="l00263"></a><span class="lineno"><a class="line" href="../../d2/dfb/i__input_8c.html#a8b8896fc153da2385ece4af54b2454f2">  263</a></span>&#160;<span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="../../d2/dfb/i__input_8c.html#a8b8896fc153da2385ece4af54b2454f2">UpdateShiftStatus</a>(<span class="keywordtype">int</span> pressed, <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> key)</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;{</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keywordtype">int</span> change;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160; </div>
@@ -361,7 +361,7 @@ $(document).ready(function(){initNavTree('d2/dfb/i__input_8c_source.html','../..
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        change = -1;</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    }</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; </div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a> == <a class="code" href="../../d3/d91/doomkeys_8h.html#a5b52e8d492e96e2b4c21a94f50a689c5">KEY_RSHIFT</a>) {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="keywordflow">if</span> (key == <a class="code" href="../../d3/d91/doomkeys_8h.html#a5b52e8d492e96e2b4c21a94f50a689c5">KEY_RSHIFT</a>) {</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <a class="code" href="../../d2/dfb/i__input_8c.html#aceae71b7e1262f572f68be551daffef2">shiftdown</a> += change;</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    }</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;}</div>
@@ -371,12 +371,12 @@ $(document).ready(function(){initNavTree('d2/dfb/i__input_8c_source.html','../..
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;{</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <a class="code" href="../../dc/df3/d__event_8h.html#da/d67/structevent__t">event_t</a> event;</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="keywordtype">int</span> pressed;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> key;</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160; </div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    </div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../dc/d7e/doomgeneric_8h.html#aa42587133097fa8743603e36cb61de6d">DG_GetKey</a>(&amp;pressed, &amp;<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>))</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">while</span> (<a class="code" href="../../dc/d7e/doomgeneric_8h.html#aa42587133097fa8743603e36cb61de6d">DG_GetKey</a>(&amp;pressed, &amp;key))</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    {</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <a class="code" href="../../d2/dfb/i__input_8c.html#a8b8896fc153da2385ece4af54b2454f2">UpdateShiftStatus</a>(pressed, <a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <a class="code" href="../../d2/dfb/i__input_8c.html#a8b8896fc153da2385ece4af54b2454f2">UpdateShiftStatus</a>(pressed, key);</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160; </div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <span class="comment">// process event</span></div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        </div>
@@ -385,8 +385,8 @@ $(document).ready(function(){initNavTree('d2/dfb/i__input_8c_source.html','../..
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            <span class="comment">// data1 has the key pressed, data2 has the character</span></div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            <span class="comment">// (shift-translated, etc)</span></div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            <span class="keyword">event</span>.type = <a class="code" href="../../dc/df3/d__event_8h.html#a4c676ef04244b4debba9a1d0306d00afac0bac0591674973c49101729eec1f45f">ev_keydown</a>;</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            <span class="keyword">event</span>.data1 = <a class="code" href="../../d2/dfb/i__input_8c.html#ab8a1741d8ee625c6fede3f5f4372261e">TranslateKey</a>(<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>);</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <span class="keyword">event</span>.data2 = <a class="code" href="../../d2/dfb/i__input_8c.html#acf2039ce2f4afbfb03e892ce6b83c63a">GetTypedChar</a>(<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            <span class="keyword">event</span>.data1 = <a class="code" href="../../d2/dfb/i__input_8c.html#ab8a1741d8ee625c6fede3f5f4372261e">TranslateKey</a>(key);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <span class="keyword">event</span>.data2 = <a class="code" href="../../d2/dfb/i__input_8c.html#acf2039ce2f4afbfb03e892ce6b83c63a">GetTypedChar</a>(key);</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160; </div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            <span class="keywordflow">if</span> (event.<a class="code" href="../../dc/df3/d__event_8h.html#a353fcf43dc5b49bad26f04ea25ed41f7">data1</a> != 0)</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            {</div>
@@ -396,7 +396,7 @@ $(document).ready(function(){initNavTree('d2/dfb/i__input_8c_source.html','../..
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        {</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            <span class="keyword">event</span>.type = <a class="code" href="../../dc/df3/d__event_8h.html#a4c676ef04244b4debba9a1d0306d00afaa9f8dc468942a215666d3836708f49be">ev_keyup</a>;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="keyword">event</span>.data1 = <a class="code" href="../../d2/dfb/i__input_8c.html#ab8a1741d8ee625c6fede3f5f4372261e">TranslateKey</a>(<a class="code" href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">key</a>);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="keyword">event</span>.data1 = <a class="code" href="../../d2/dfb/i__input_8c.html#ab8a1741d8ee625c6fede3f5f4372261e">TranslateKey</a>(key);</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160; </div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            <span class="comment">// data2 is just initialized to zero for ev_keyup.</span></div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            <span class="comment">// For ev_keydown it&#39;s the shifted Unicode character</span></div>
@@ -485,7 +485,6 @@ $(document).ready(function(){initNavTree('d2/dfb/i__input_8c_source.html','../..
 <div class="ttc" id="am__argv_8h_html"><div class="ttname"><a href="../../db/d27/m__argv_8h.html">m_argv.h</a></div></div>
 <div class="ttc" id="am__config_8h_html"><div class="ttname"><a href="../../d7/dc8/m__config_8h.html">m_config.h</a></div></div>
 <div class="ttc" id="am__misc_8h_html"><div class="ttname"><a href="../../d6/df1/m__misc_8h.html">m_misc.h</a></div></div>
-<div class="ttc" id="anamespaceCrashHandler_html_af671273675a98837a01d53ce2810b3ef"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#af671273675a98837a01d53ce2810b3ef">CrashHandler::key</a></div><div class="ttdeci">int key</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc0/KBDrv_8cpp_source.html#l00134">KBDrv.cpp:134</a></div></div>
 <div class="ttc" id="atables_8h_html"><div class="ttname"><a href="../../df/d2c/tables_8h.html">tables.h</a></div></div>
 <div class="ttc" id="av__video_8h_html"><div class="ttname"><a href="../../d0/d8f/v__video_8h.html">v_video.h</a></div></div>
 <div class="ttc" id="aw__wad_8h_html"><div class="ttname"><a href="../../d3/d0c/w__wad_8h.html">w_wad.h</a></div></div>

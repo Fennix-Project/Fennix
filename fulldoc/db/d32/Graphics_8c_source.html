@@ -89,14 +89,28 @@ $(document).ready(function(){initNavTree('db/d32/Graphics_8c_source.html','../..
 <div class="title">Graphics.c</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../db/d32/Graphics_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;../../../Kernel/syscalls.h&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../db/d32/Graphics_8c.html#a6970795df5429d9fbd54d5f3a1125e27">    4</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../db/d32/Graphics_8c.html#a6970795df5429d9fbd54d5f3a1125e27">stub</a>()</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aGraphics_8c_html_a6970795df5429d9fbd54d5f3a1125e27"><div class="ttname"><a href="../../db/d32/Graphics_8c.html#a6970795df5429d9fbd54d5f3a1125e27">stub</a></div><div class="ttdeci">int stub()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d32/Graphics_8c_source.html#l00004">Graphics.c:4</a></div></div>
+<a href="../../db/d32/Graphics_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/da9/libdraw_8h.html">libdraw.h</a>&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;../../../Kernel/syscalls.h&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d7/da9/libdraw_8h.html#ab0f204e10e83b99354d5e91eebf0cb1a">    5</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d32/Graphics_8c.html#ab0f204e10e83b99354d5e91eebf0cb1a">DrawRect</a>(<span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, <span class="keywordtype">int</span> <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>, <span class="keywordtype">int</span> w, <span class="keywordtype">int</span> h, <span class="keywordtype">int</span> <a class="code" href="../../d8/d55/i__video_8c.html#d0/d91/structcolor">color</a>)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; w; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a> &lt; h; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a>++)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            <span class="comment">// TODO: DrawPixel(x + i, y + j, color);</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        }</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    }</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
+<div class="ttc" id="aGraphics_8c_html_ab0f204e10e83b99354d5e91eebf0cb1a"><div class="ttname"><a href="../../db/d32/Graphics_8c.html#ab0f204e10e83b99354d5e91eebf0cb1a">DrawRect</a></div><div class="ttdeci">void DrawRect(int x, int y, int w, int h, int color)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d32/Graphics_8c_source.html#l00005">Graphics.c:5</a></div></div>
+<div class="ttc" id="af__wipe_8c_html_a60ca3f7e128ed4283d00a73c65558617"><div class="ttname"><a href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a></div><div class="ttdeci">static int * y</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/f__wipe_8c_source.html#l00130">f_wipe.c:130</a></div></div>
+<div class="ttc" id="ai__video_8c_html_d0/d91/structcolor"><div class="ttname"><a href="../../d8/d55/i__video_8c.html#d0/d91/structcolor">color</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d55/i__video_8c_source.html#l00078">i_video.c:78</a></div></div>
+<div class="ttc" id="alibdraw_8h_html"><div class="ttname"><a href="../../d7/da9/libdraw_8h.html">libdraw.h</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_a37d972ae0b47b9099e30983131d31916"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a></div><div class="ttdeci">static int j</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00037">posix_stdlib.cpp:37</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00038">posix_stdlib.cpp:38</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

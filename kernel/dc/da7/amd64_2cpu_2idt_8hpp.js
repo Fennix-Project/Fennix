@@ -16,6 +16,8 @@ var amd64_2cpu_2idt_8hpp =
       [ "Entries", "d2/db2/namespaceInterruptDescriptorTable.html#ac57aeaa228c50e512aca8afd45812238", null ],
       [ "Length", "d2/db2/namespaceInterruptDescriptorTable.html#a6a75a8c1e5e9ca862e59506603c321ef", null ]
     ] ],
+    [ "InterruptDescriptorTableDescriptor", "dc/da7/amd64_2cpu_2idt_8hpp.html#ad63e3bcdb96cd8814586c737ce4eb9f2", null ],
+    [ "InterruptDescriptorTableEntry", "dc/da7/amd64_2cpu_2idt_8hpp.html#af2fbeed1966a379058d595a236155dbf", null ],
     [ "InterruptDescriptorTableFlags", "dc/da7/amd64_2cpu_2idt_8hpp.html#ae24ba5152e822eb3b7599bb191f81d9f", null ],
     [ "_InterruptDescriptorTableFlags", "dc/da7/amd64_2cpu_2idt_8hpp.html#ac608e596da0989c5e61a454c44e05fa1", [
       [ "FlagGate_TASK", "dc/da7/amd64_2cpu_2idt_8hpp.html#ac608e596da0989c5e61a454c44e05fa1ab080a80e39628b2e7267dc3d52d61d4a", null ],
@@ -29,19 +31,6 @@ var amd64_2cpu_2idt_8hpp =
       [ "FlagGate_RING3", "dc/da7/amd64_2cpu_2idt_8hpp.html#ac608e596da0989c5e61a454c44e05fa1a8cd1802c26bb40bb9bc522c46c529790", null ],
       [ "FlagGate_PRESENT", "dc/da7/amd64_2cpu_2idt_8hpp.html#ac608e596da0989c5e61a454c44e05fa1a16604b483134cd6a516f9c500db8f6ea", null ]
     ] ],
-    [ "__attribute__", "dc/da7/amd64_2cpu_2idt_8hpp.html#a8901e7de738cfe120b0529592d80496f", null ],
     [ "Init", "dc/da7/amd64_2cpu_2idt_8hpp.html#a5275e6707c957c5ba4b050102990c908", null ],
-    [ "SetEntry", "dc/da7/amd64_2cpu_2idt_8hpp.html#a91dd97eaf022dfa7a023a8734aa59a1b", null ],
-    [ "BaseHigh", "dc/da7/amd64_2cpu_2idt_8hpp.html#affc87079f08599e4a3804d23b9df736d", null ],
-    [ "BaseLow", "dc/da7/amd64_2cpu_2idt_8hpp.html#a578db8a0ba46c165c3504c06fb93ed80", null ],
-    [ "Entries", "dc/da7/amd64_2cpu_2idt_8hpp.html#a4198a2f4c3d714550631460af8d09c36", null ],
-    [ "Flags", "dc/da7/amd64_2cpu_2idt_8hpp.html#a7f328ecb741311a0c5026ffbb615d639", null ],
-    [ "InterruptStackTable", "dc/da7/amd64_2cpu_2idt_8hpp.html#a58670cd51a1f9b5f3390457c2481252d", null ],
-    [ "Length", "dc/da7/amd64_2cpu_2idt_8hpp.html#a930e5a4d8414c0427fe5c636062579db", null ],
-    [ "Present", "dc/da7/amd64_2cpu_2idt_8hpp.html#acdb871789a1e4398874af8cb07987ef6", null ],
-    [ "Reserved1", "dc/da7/amd64_2cpu_2idt_8hpp.html#afea133adf188dfb8979f48bcdaa69acf", null ],
-    [ "Reserved2", "dc/da7/amd64_2cpu_2idt_8hpp.html#a75ffe246834f18014b5ef078cc2c47d6", null ],
-    [ "Reserved3", "dc/da7/amd64_2cpu_2idt_8hpp.html#ae010e18fff7afc3a36f5dbba53881816", null ],
-    [ "Ring", "dc/da7/amd64_2cpu_2idt_8hpp.html#a5429fbc529e126b848e51b11bfbcf7ec", null ],
-    [ "SegmentSelector", "dc/da7/amd64_2cpu_2idt_8hpp.html#a1af69d0c46134134a1dcc3b6ac2e63eb", null ]
+    [ "SetEntry", "dc/da7/amd64_2cpu_2idt_8hpp.html#a91dd97eaf022dfa7a023a8734aa59a1b", null ]
 ];

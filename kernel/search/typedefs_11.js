@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['token_10583',['Token',['../d9/d3e/namespaceTasking.html#ac13006a48c82b3f644498a8423a0ff24',1,'Tasking']]],
-  ['trapframe_10584',['TrapFrame',['../de/d78/namespaceCPU_1_1x32.html#ad32608774d85b36615c7a8500f842317',1,'CPU::x32::TrapFrame()'],['../d9/d25/namespaceCPU_1_1x64.html#a7b876ab130e250374b67c12b0cd11680',1,'CPU::x64::TrapFrame()']]],
-  ['type_10585',['type',['../d8/dcc/namespacestd.html#add4d26d22b13a80b031aa55524a2fc32',1,'std::remove_reference::type()'],['../d8/dcc/namespacestd.html#ab1b7e1075debba22311f4dd395ac751e',1,'std::remove_reference&lt; T &amp; &gt;::type()'],['../d8/dcc/namespacestd.html#ab7c9eec9669fb4d3d5a57aee3d27af55',1,'std::remove_reference&lt; T &amp;&amp; &gt;::type()']]]
+  ['taskstatesegment_10756',['TaskStateSegment',['../d1/d69/namespaceGlobalDescriptorTable.html#a06e6acd04b830563ed08b6a2d71f77f8',1,'GlobalDescriptorTable']]],
+  ['taskstatesegmententry_10757',['TaskStateSegmentEntry',['../d1/d69/namespaceGlobalDescriptorTable.html#aacd2dfc0499d485dcf1cc81cf30b800c',1,'GlobalDescriptorTable']]],
+  ['token_10758',['Token',['../d9/d3e/namespaceTasking.html#ac13006a48c82b3f644498a8423a0ff24',1,'Tasking']]],
+  ['trapframe_10759',['TrapFrame',['../de/d52/namespacex32.html#a515e205dfa6bc04692d842221231442f',1,'x32::TrapFrame()'],['../d7/db0/namespacex64.html#a6332246c368bd87befc545996de40bee',1,'x64::TrapFrame()'],['../dc/dce/namespaceaarch64.html#a6e5d9f1c71e354eb1a2f9713a1ed2c23',1,'aarch64::TrapFrame()']]],
+  ['type_10760',['type',['../d8/dcc/namespacestd.html#add4d26d22b13a80b031aa55524a2fc32',1,'std::remove_reference::type()'],['../d8/dcc/namespacestd.html#ab1b7e1075debba22311f4dd395ac751e',1,'std::remove_reference&lt; T &amp; &gt;::type()'],['../d8/dcc/namespacestd.html#ab7c9eec9669fb4d3d5a57aee3d27af55',1,'std::remove_reference&lt; T &amp;&amp; &gt;::type()']]]
 ];

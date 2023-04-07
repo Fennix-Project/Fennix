@@ -24,6 +24,6 @@ var classVirtualFileSystem_1_1FAT =
     ] ],
     [ "FAT", "db/dad/classVirtualFileSystem_1_1FAT.html#a880fd38c6bd24a6648b8fdb82b930373", null ],
     [ "~FAT", "db/dad/classVirtualFileSystem_1_1FAT.html#a21a1b32f277fe9cbd599afac1bc75784", null ],
-    [ "__attribute__", "db/dad/classVirtualFileSystem_1_1FAT.html#a204baa98f4d76ca689c90dcdc90b112b", null ],
-    [ "GetFATType", "db/dad/classVirtualFileSystem_1_1FAT.html#ae9ae49713035288c9151df7792911fa6", null ]
+    [ "GetFATType", "db/dad/classVirtualFileSystem_1_1FAT.html#ae9ae49713035288c9151df7792911fa6", null ],
+    [ "__packed", "db/dad/classVirtualFileSystem_1_1FAT.html#a35aedecbf991f1ec59288bd1f6efd277", null ]
 ];

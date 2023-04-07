@@ -1,7 +1,7 @@
 var structGlobalDescriptorTable_1_1__TaskStateSegment =
 [
-    [ "__attribute__", "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ac3bb90a3568fb04a96bec65a17b38246", null ],
-    [ "__attribute__", "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ac3bb90a3568fb04a96bec65a17b38246", null ],
+    [ "__aligned", "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ae405bb681f023989544b45d91b9f6a6f", null ],
+    [ "__aligned", "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ae405bb681f023989544b45d91b9f6a6f", null ],
     [ "InterruptStackTable", "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ab7c3153a4c6d6b7202b9f8c70d1ed495", null ],
     [ "IOMapBaseAddressOffset", "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#af93790f77f99f38c9aee4dc454cd3bb9", null ],
     [ "Reserved1", "d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html#ad713dc6ddd78234082dc2cd404b1f861", null ],
