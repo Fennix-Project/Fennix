@@ -23,7 +23,8 @@
 			"doomkeys.h": "c",
 			"doomgeneric.h": "c",
 			"elf.h": "c",
-			"init.h": "c"
+			"init.h": "c",
+			"unused_code": "cpp"
 		},
 		"cSpell.words": [
 			"auxv",
