@@ -4,7 +4,7 @@ var aux_8h =
       [ "a_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a718e9da507aeab4eaff05dfd77214d19", null ],
       [ "a_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
       [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9f76609de5e434a01ba7dcd2af720c37", null ],
-      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a8e0eadb66962bc6141fb51d39000a391", null ]
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a8348cca542d05944ec597d06e55e0797", null ]
     ] ],
     [ "Elf64_auxv_t.a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
       [ "a_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],

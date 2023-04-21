@@ -22,6 +22,7 @@ var DAPI_8hpp =
       ] ],
       [ "KAPIInfo", "d3/dfe/DAPI_8hpp.html#d6/d53/structKernelAPI_1_1KAPIInfo", [
         [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a9b9158dbbfcb8f20c10a85ee33a1bab6", null ],
+        [ "KernelDebug", "d3/dfe/DAPI_8hpp.html#a3e64a531a111e979cc5c8e9b63cf7059", null ],
         [ "Offset", "d3/dfe/DAPI_8hpp.html#a8a7ff5307b67f86c5c1da8614b35bce0", null ]
       ] ],
       [ "KAPIMemory", "d0/d46/structKernelAPI_1_1KAPIMemory.html", [
@@ -62,6 +63,7 @@ var DAPI_8hpp =
     ] ],
     [ "KAPIInfo", "d3/dfe/DAPI_8hpp.html#d6/d53/structKernelAPI_1_1KAPIInfo", [
       [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a9b9158dbbfcb8f20c10a85ee33a1bab6", null ],
+      [ "KernelDebug", "d3/dfe/DAPI_8hpp.html#a3e64a531a111e979cc5c8e9b63cf7059", null ],
       [ "Offset", "d3/dfe/DAPI_8hpp.html#a8a7ff5307b67f86c5c1da8614b35bce0", null ]
     ] ],
     [ "KAPIMemory", "d0/d46/structKernelAPI_1_1KAPIMemory.html", "d0/d46/structKernelAPI_1_1KAPIMemory" ],
@@ -79,6 +81,7 @@ var DAPI_8hpp =
     ] ],
     [ "KAPIInfo", "d3/dfe/DAPI_8hpp.html#d7/d94/structKAPIInfo", [
       [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a92d49ca2a0571c2af24c6dc12bab8386", null ],
+      [ "KernelDebug", "d3/dfe/DAPI_8hpp.html#a6999cb54d917282abaf3615d0d33cee3", null ],
       [ "Offset", "d3/dfe/DAPI_8hpp.html#a20c1aa265357b80022945e74c26a0a86", null ]
     ] ],
     [ "KAPIMemory", "df/d33/structKAPIMemory.html", "df/d33/structKAPIMemory" ],

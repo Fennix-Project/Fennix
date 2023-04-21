@@ -5637,6 +5637,11 @@
                     <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
                    </Node>
                    <Node>
+                    <Name>IsATAPresent</Name>
+                    <Path>da/d05/ATA_8cpp.html</Path>
+                    <Anchor>ad6e017ef28a0f581f79336e81345db7d</Anchor>
+                   </Node>
+                   <Node>
                     <Name>KAPI</Name>
                     <Path>da/d05/ATA_8cpp.html</Path>
                     <Anchor>a8829069e57a9845d74b32ce27a618ccd</Anchor>

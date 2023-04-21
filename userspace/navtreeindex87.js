@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h.html#af67251a5818cd9c2bd80148f4db19c5b":[9,0,1,3,3,3,1,0,23,30],
+"da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h.html#afefafd04f0d0effdafae169dedf2e8ae":[9,0,1,3,3,3,1,0,23,15],
 "da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h_source.html":[9,0,1,3,3,3,1,0,23],
 "da/d85/weak__alias_8h.html":[9,0,1,3,2,0,2,214],
 "da/d85/weak__alias_8h.html#a2d08927d4845f895c17053dda1f76c3a":[9,0,1,3,2,0,2,214,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "da/d99/aarch64_2syscallnos_8h.html#a9ef344cd9b2ee507927f118972cefd88":[9,0,1,3,3,4,0,1,1],
 "da/d99/aarch64_2syscallnos_8h.html#aa0a5584d3d2f2a65a1f05e24111da077":[9,0,1,3,3,4,0,1,50],
 "da/d99/aarch64_2syscallnos_8h.html#aa1723cde4b297e9ba00214683bf2e5cf":[9,0,1,3,3,4,0,1,206],
-"da/d99/aarch64_2syscallnos_8h.html#aa1ed6c4ef452ceb42e7dba33d3e861b9":[9,0,1,3,3,4,0,1,289],
-"da/d99/aarch64_2syscallnos_8h.html#aa2078782f799f42760ee27fcbc822635":[9,0,1,3,3,4,0,1,266],
-"da/d99/aarch64_2syscallnos_8h.html#aa36596eb4092d38feee3f3768c9d583f":[9,0,1,3,3,4,0,1,139]
+"da/d99/aarch64_2syscallnos_8h.html#aa1ed6c4ef452ceb42e7dba33d3e861b9":[9,0,1,3,3,4,0,1,289]
 };

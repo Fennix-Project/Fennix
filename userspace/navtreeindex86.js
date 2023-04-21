@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"da/d80/aero_2include_2aero_2syscall_8h.html#a5891ce67e88d359800241d3224a9992d":[9,0,1,3,3,0,1,1,0,64],
+"da/d80/aero_2include_2aero_2syscall_8h.html#a5ce8ac29fd98f8b19d4f52a7b94a5704":[9,0,1,3,3,0,1,1,0,86],
 "da/d80/aero_2include_2aero_2syscall_8h.html#a5d873acf1ed604853238dade4838ad58":[9,0,1,3,3,0,1,1,0,70],
 "da/d80/aero_2include_2aero_2syscall_8h.html#a5e86aeeb6c36885c63c51f45afd6810a":[9,0,1,3,3,0,1,1,0,67],
 "da/d80/aero_2include_2aero_2syscall_8h.html#a60314685b76b4cc9e2e9f5b4a7bfc34b":[9,0,1,3,3,0,1,1,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h.html#ae3a454593da091f01bffa098a88be590":[9,0,1,3,3,3,1,0,23,35],
 "da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h.html#aeb221de5d411865889d3496fbac4d359":[9,0,1,3,3,3,1,0,23,29],
 "da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h.html#aeb3452e142769cec74211c87ff6fd484":[9,0,1,3,3,3,1,0,23,45],
-"da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h.html#aee42662f8eb611d14b8f3b19bc4664be":[9,0,1,3,3,3,1,0,23,5],
-"da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h.html#af67251a5818cd9c2bd80148f4db19c5b":[9,0,1,3,3,3,1,0,23,30],
-"da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h.html#afefafd04f0d0effdafae169dedf2e8ae":[9,0,1,3,3,3,1,0,23,15]
+"da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h.html#aee42662f8eb611d14b8f3b19bc4664be":[9,0,1,3,3,3,1,0,23,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX103 =
 {
+"dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a63930aea4397fe009d77056987ed33d7":[9,0,1,0,2,0,0,0,163,1,13],
+"dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a64a6e4d2e40da8c662e2b55adb3e4523":[9,0,1,0,2,0,0,0,163,1,2],
 "dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a655700cb59735e63d47ea8b7b74c23d2":[9,0,1,0,2,0,0,0,163,1,72],
 "dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a673d74cf2ed14f9582a43fb9ed4ff46d":[9,0,1,0,2,0,0,0,163,1,22],
 "dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a68ba935dd2499b6f03c6c42e4b85aee2":[9,0,1,0,2,0,0,0,163,1,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX103 =
 "dc/dfc/sysdeps_2lemon_2include_2abi-bits_2in_8h.html#af83308f7ff3a89fdc367669aa75727d2":[9,0,1,3,3,3,1,0,12,40],
 "dc/dfc/sysdeps_2lemon_2include_2abi-bits_2in_8h.html#afb714a436a9e93ea644de83f33c7caff":[9,0,1,3,3,3,1,0,12,49],
 "dc/dfc/sysdeps_2lemon_2include_2abi-bits_2in_8h.html#afcc32c29ac8987b2ad69411d0384a0e5":[9,0,1,3,3,3,1,0,12,64],
-"dc/dfc/sysdeps_2lemon_2include_2abi-bits_2in_8h.html#afce983cef8c9dfb0595ee46f7a955aa8":[9,0,1,3,3,3,1,0,12,54],
-"dc/dfc/sysdeps_2lemon_2include_2abi-bits_2in_8h.html#afe7e122d49f73c617afdba2a61d457be":[9,0,1,3,3,3,1,0,12,70],
-"dc/dfc/sysdeps_2lemon_2include_2abi-bits_2in_8h_source.html":[9,0,1,3,3,3,1,0,12]
+"dc/dfc/sysdeps_2lemon_2include_2abi-bits_2in_8h.html#afce983cef8c9dfb0595ee46f7a955aa8":[9,0,1,3,3,3,1,0,12,54]
 };

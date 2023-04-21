@@ -1,6 +1,6 @@
 var namespaceDriver =
 [
-    [ "DriverFile", "d1/d48/namespaceDriver.html#d1/d76/structDriver_1_1DriverFile", "d1/d48/namespaceDriver_d1/d76/structDriver_1_1DriverFile_dup" ],
+    [ "DriverFile", "d1/d76/structDriver_1_1DriverFile.html", "d1/d76/structDriver_1_1DriverFile" ],
     [ "DriverInterruptHook", "d5/dff/classDriver_1_1DriverInterruptHook.html", "d5/dff/classDriver_1_1DriverInterruptHook" ],
     [ "Driver", "d3/d7d/classDriver_1_1Driver.html", "d3/d7d/classDriver_1_1Driver" ],
     [ "DriverCode", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6", [
@@ -17,8 +17,8 @@ var namespaceDriver =
       [ "DRIVER_CONFLICT", "d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520", null ]
     ] ],
     [ "if", "d1/d48/namespaceDriver.html#ad80fc005719bfcb06db02a49c233d8da", null ],
+    [ "if", "d1/d48/namespaceDriver.html#ae61783cc6e054b7d5a86d23117dec161", null ],
     [ "UNUSED", "d1/d48/namespaceDriver.html#a940529db9c9924f62d18930b6e101eb6", null ],
     [ "void", "d1/d48/namespaceDriver.html#ab729393050904fd1bdaf3625252f2e19", null ],
-    [ "DriverTypesName", "d1/d48/namespaceDriver.html#ab6b0cdd8de3bb231a618dd471281906f", null ],
     [ "regs", "d1/d48/namespaceDriver.html#ae0b9a9476c69599a8c18049953626b4c", null ]
 ];

@@ -4793,6 +4793,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>IsATAPresent</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>da/d05/ATA_8cpp.html</Path>
+    <Anchor>ad6e017ef28a0f581f79336e81345db7d</Anchor>
+    <DeclaredIn>ATA.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>KAPI</Name>
       <APILanguage>c</APILanguage>
       <Type>data</Type>

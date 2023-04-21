@@ -145,7 +145,7 @@ Data Fields</h2></td></tr>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="afcb208da6cd403bb90465a1bf4a68d88"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="afcb208da6cd403bb90465a1bf4a68d88"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 BytesPerSector</td>
 <td class="fielddoc">
@@ -157,49 +157,49 @@ HiddenSectors</td>
 <td class="fielddoc">
 Number of hidden sectors. (i.e. the LBA of the beginning of the partition). </td></tr>
 <tr><td class="fieldtype">
-<a id="a50cbeb5e1cc24dd12d8d04720cb1664a"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a50cbeb5e1cc24dd12d8d04720cb1664a"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 JumpBoot[3]</td>
 <td class="fielddoc">
 The first three bytes EB 3C 90 disassemble to JMP SHORT 3C NOP. (The 3C value may be different.) The reason for this is to jump over the disk format information (the BPB and EBPB). Since the first sector of the disk is loaded into ram at location 0x0000:0x7c00 and executed, without this jump, the processor would attempt to execute data that isn't code. Even for non-bootable volumes, code matching this pattern (or using the E9 jump opcode) is required to be present by both Windows and OS X. To fulfil this requirement, an infinite loop can be placed here with the bytes EB FE 90. </td></tr>
 <tr><td class="fieldtype">
-<a id="a5566a458676c431ac9ab5721c2235fad"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a5566a458676c431ac9ab5721c2235fad"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 Media</td>
 <td class="fielddoc">
 This Byte indicates the media descriptor type. </td></tr>
 <tr><td class="fieldtype">
-<a id="af7ace9d7269d51794e38b5ecd1fda0eb"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="af7ace9d7269d51794e38b5ecd1fda0eb"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 NumberOfFATs</td>
 <td class="fielddoc">
-Number of <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#d9/dea/structVirtualFileSystem_1_1File">File</a> Allocation Tables (<a class="el" href="../../db/dad/classVirtualFileSystem_1_1FAT.html">FAT</a>'s) on the storage media. Often this value is 2. </td></tr>
+Number of <a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">File</a> Allocation Tables (<a class="el" href="../../db/dad/classVirtualFileSystem_1_1FAT.html">FAT</a>'s) on the storage media. Often this value is 2. </td></tr>
 <tr><td class="fieldtype">
-<a id="ac6be8e95ce0373537f6c2304bfabeb6f"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="ac6be8e95ce0373537f6c2304bfabeb6f"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 NumberOfHeads</td>
 <td class="fielddoc">
 Number of heads or sides on the storage media. </td></tr>
 <tr><td class="fieldtype">
-<a id="a6e1ff98e6a9101acfacc4ca804f3895c"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a6e1ff98e6a9101acfacc4ca804f3895c"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 OEM[8]</td>
 <td class="fielddoc">
 OEM identifier. The first 8 Bytes (3 - 10) is the version of DOS being used. The next eight Bytes 29 3A 63 7E 2D 49 48 and 43 read out the name of the version. The official <a class="el" href="../../db/dad/classVirtualFileSystem_1_1FAT.html">FAT</a> Specification from Microsoft says that this field is really meaningless and is ignored by MS <a class="el" href="../../db/dad/classVirtualFileSystem_1_1FAT.html">FAT</a> Drivers, however it does recommend the value "MSWIN4.1" as some 3rd party drivers supposedly check it and expect it to have that value. Older versions of dos also report MSDOS5.1, linux-formatted floppy will likely to carry "mkdosfs" here, and FreeDOS formatted disks have been observed to have "FRDOS5.1" here. If the string is less than 8 bytes, it is padded with spaces. </td></tr>
 <tr><td class="fieldtype">
-<a id="affef997439f29cb73b74af88d6bca5a6"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="affef997439f29cb73b74af88d6bca5a6"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 ReservedSectors</td>
 <td class="fielddoc">
 Number of reserved sectors. The boot record sectors are included in this value. </td></tr>
 <tr><td class="fieldtype">
-<a id="a46a68a79c886bcceabb86ad6b5cf8b97"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a46a68a79c886bcceabb86ad6b5cf8b97"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 RootDirectoryEntries</td>
 <td class="fielddoc">
 Number of root directory entries (must be set so that the root directory occupies entire sectors). </td></tr>
 <tr><td class="fieldtype">
-<a id="ae20b198b58511801843ce6bb4ffd27b2"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="ae20b198b58511801843ce6bb4ffd27b2"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 Sectors16</td>
 <td class="fielddoc">
@@ -211,19 +211,19 @@ Sectors32</td>
 <td class="fielddoc">
 Large sector count. This field is set if there are more than 65535 sectors in the volume, resulting in a value which does not fit in the Number of Sectors entry at 0x13. </td></tr>
 <tr><td class="fieldtype">
-<a id="a3e5a273a6332aa8a98cc36ad0a5eb0a5"></a><a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a3e5a273a6332aa8a98cc36ad0a5eb0a5"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
 SectorsPerCluster</td>
 <td class="fielddoc">
 Number of sectors per cluster. </td></tr>
 <tr><td class="fieldtype">
-<a id="a32cf70525ddf2eebab019a5f6c6f2f15"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a32cf70525ddf2eebab019a5f6c6f2f15"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 SectorsPerFAT</td>
 <td class="fielddoc">
 Number of sectors per <a class="el" href="../../db/dad/classVirtualFileSystem_1_1FAT.html">FAT</a>. FAT12/FAT16 only. </td></tr>
 <tr><td class="fieldtype">
-<a id="a6e77a1cd8d30fa0d7d4ea4ea9327323b"></a><a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<a id="a6e77a1cd8d30fa0d7d4ea4ea9327323b"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
 SectorsPerTrack</td>
 <td class="fielddoc">

@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"d9/d94/struct__net__module__s.html#a206f642b778b62c38e5956514e729036":[8,0,36,5],
+"d9/d94/struct__net__module__s.html#a2db0063edc9337e4dd9d528f52c456fd":[8,0,36,3],
 "d9/d94/struct__net__module__s.html#a680773462d5157990846ae193798e06e":[8,0,36,0],
 "d9/d94/struct__net__module__s.html#a908c268ec99eaf7e993c4f1e31d23d64":[8,0,36,6],
 "d9/d94/struct__net__module__s.html#aa6a3302f2376cfe7f1519f3cfcd80f05":[8,0,36,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a28df16158a6e4478f8b3d5922aa2c2f6":[9,0,1,3,3,5,1,0,12,23],
 "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a2e5d89b45fea8bd9ebc6bb781877adb0":[9,0,1,3,3,5,1,0,12,84],
 "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a3a52cdbaf5f9fc647399ef2481c8204d":[9,0,1,3,3,5,1,0,12,58],
-"d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a3d2472d6cf31b73eeb829110dd0fffea":[9,0,1,3,3,5,1,0,12,33],
-"d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a40e1ac82ee47dd9b9d35592ee4f0c3ea":[9,0,1,3,3,5,1,0,12,79],
-"d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a40ecf4278b613556b74a413672168944":[9,0,1,3,0,4,12,8,1]
+"d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a3d2472d6cf31b73eeb829110dd0fffea":[9,0,1,3,3,5,1,0,12,33]
 };

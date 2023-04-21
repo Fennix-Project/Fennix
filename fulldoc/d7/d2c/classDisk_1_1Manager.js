@@ -5,5 +5,5 @@ var classDisk_1_1Manager =
     [ "FetchDisks", "d7/d2c/classDisk_1_1Manager.html#ac38a516c4b8468018b9f57a0ccb5df82", null ],
     [ "AvailablePorts", "d7/d2c/classDisk_1_1Manager.html#a618a7be2f423cc0d38924084f6bba229", null ],
     [ "BytesPerSector", "d7/d2c/classDisk_1_1Manager.html#ac66feb4c05116b774430766c264d3926", null ],
-    [ "drives", "d7/d2c/classDisk_1_1Manager.html#a376f392795771c8f8a05b8cdd9ee7270", null ]
+    [ "drives", "d7/d2c/classDisk_1_1Manager.html#af2cbf0d5803fe7114175bcdc486f698e", null ]
 ];

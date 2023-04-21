@@ -2,12 +2,12 @@ var amd64_2cpu_2gdt_8hpp =
 [
     [ "GlobalDescriptorTableAccess", "d1/d69/namespaceGlobalDescriptorTable.html#d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess", [
       [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#af882553a7c3541d6c1e1f916a6c058d9", null ],
-      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#aaa3d4d0c6fbb49459d521c112004acae", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a4370298e78a0d136c313ca017eec4889", null ],
       [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#afd9dd502a7fed60cb06675ba090f5fe0", null ]
     ] ],
     [ "GlobalDescriptorTableFlags", "d1/d69/namespaceGlobalDescriptorTable.html#dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags", [
       [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a278526e4bc58a3bcb94b2f692d6d666d", null ],
-      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a71e7fa0abcca27ea4c7a4a31aa2830f3", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a76a535f8398d3bf8ff990987a8727be8", null ],
       [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#a8ca3092925e24125cdb5434019bd4a13", null ]
     ] ],
     [ "_TaskStateSegmentEntry", "d1/d69/namespaceGlobalDescriptorTable.html#da/d67/structGlobalDescriptorTable_1_1__TaskStateSegmentEntry", [

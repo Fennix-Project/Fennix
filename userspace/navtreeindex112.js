@@ -1,5 +1,11 @@
 var NAVTREEINDEX112 =
 {
+"dd/dcf/erf_8c.html#a6b4bcf60c20274bd3a4975dfb44e48c0":[9,0,1,3,2,0,2,60,32],
+"dd/dcf/erf_8c.html#a752fd8999fabb2dba3b3a7c5ebb50c50":[9,0,1,3,2,0,2,60,56],
+"dd/dcf/erf_8c.html#a771b543a53b7a021ce1e0f76f1849a72":[9,0,1,3,2,0,2,60,52],
+"dd/dcf/erf_8c.html#a79c256a5bdd23788658cbe36fd76eeba":[9,0,1,3,2,0,2,60,8],
+"dd/dcf/erf_8c.html#a7c7c5212b4634cd9da692513866a92b0":[9,0,1,3,2,0,2,60,11],
+"dd/dcf/erf_8c.html#a7dd8ea86ce279292874dbd54b6a6e2aa":[9,0,1,3,2,0,2,60,55],
 "dd/dcf/erf_8c.html#a7f826e3403a8d97746b9b212d0ddc609":[9,0,1,3,2,0,2,60,33],
 "dd/dcf/erf_8c.html#a85f7c2f2a5167e7a523438887ff5d24f":[9,0,1,3,2,0,2,60,45],
 "dd/dcf/erf_8c.html#a86510fab7e264a9b8e6027e448663232":[9,0,1,3,2,0,2,60,27],
@@ -243,11 +249,5 @@ var NAVTREEINDEX112 =
 "de/d01/libc-compat_8h_source.html":[9,0,1,3,2,8,1,1,0],
 "de/d03/managarm_2aarch64_2thread_8cpp.html":[9,0,1,3,3,6,0,0],
 "de/d03/managarm_2aarch64_2thread_8cpp.html#a5f1356657b60e208bb3b8f5afad672bc":[9,0,1,3,3,6,0,0,2],
-"de/d03/managarm_2aarch64_2thread_8cpp.html#ae35d6304b860cd7e489d633e3b9a5abb":[9,0,1,3,3,6,0,0,0],
-"de/d03/managarm_2aarch64_2thread_8cpp.html#aede6cc59c0c09ce01f6cdd377841ecbe":[9,0,1,3,3,6,0,0,1],
-"de/d03/managarm_2aarch64_2thread_8cpp_source.html":[9,0,1,3,3,6,0,0],
-"de/d03/time-stubs_8cpp.html":[9,0,1,3,2,0,0,14],
-"de/d03/time-stubs_8cpp.html#a08530f72132e5f42270738349ccd5cf3":[9,0,1,3,2,0,0,14,17],
-"de/d03/time-stubs_8cpp.html#a15afc682d20a7b843c2d27f2ad82e8c3":[9,0,1,3,2,0,0,14,35],
-"de/d03/time-stubs_8cpp.html#a2c86c77f43c5598db035606ea285e47b":[9,0,1,3,2,0,0,14,6]
+"de/d03/managarm_2aarch64_2thread_8cpp.html#ae35d6304b860cd7e489d633e3b9a5abb":[9,0,1,3,3,6,0,0,0]
 };

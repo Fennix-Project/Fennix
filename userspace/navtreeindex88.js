@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"da/d99/aarch64_2syscallnos_8h.html#aa2078782f799f42760ee27fcbc822635":[9,0,1,3,3,4,0,1,266],
+"da/d99/aarch64_2syscallnos_8h.html#aa36596eb4092d38feee3f3768c9d583f":[9,0,1,3,3,4,0,1,139],
 "da/d99/aarch64_2syscallnos_8h.html#aa42a0a887a47dba187e7ce80118ec133":[9,0,1,3,3,4,0,1,232],
 "da/d99/aarch64_2syscallnos_8h.html#aa4a42a543fa2d9b3c4400375717b8199":[9,0,1,3,3,4,0,1,83],
 "da/d99/aarch64_2syscallnos_8h.html#aa6067540099a8b43ebb5c4aee9c557ba":[9,0,1,3,3,4,0,1,122],
@@ -239,15 +241,13 @@ var NAVTREEINDEX88 =
 "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b03fbde0d38a589a2d68c7c16770104":[9,0,1,3,3,6,2,0,35,8],
 "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,3,5,1,0,35,0,6],
 "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,3,4,2,0,35,0,6],
-"da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,3,0,1,0,35,0,6],
+"da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,3,3,1,0,35,0,6],
 "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,3,1,1,0,34,0,6],
 "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,0,6,24,0,6],
 "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,3,2,1,0,35,0,6],
-"da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,3,3,1,0,35,0,6],
-"da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,0,4,35,0,6],
 "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,3,6,2,0,35,0,6],
+"da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,3,0,1,0,35,0,6],
+"da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[9,0,1,3,0,4,35,0,6],
 "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a4b196618ef2d4bec733c050791c240a5":[9,0,1,3,3,6,2,0,35,22],
-"da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a4bd226165fa7b97601be67dbd966499d":[9,0,1,3,3,6,2,0,35,42],
-"da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a4cc7d2ef3eeff7639d68f2efa84cc340":[9,0,1,3,3,6,2,0,35,23],
-"da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a4d47fc38b83dc3e81f6075313cb8e8b2":[9,0,1,3,3,6,2,0,35,12]
+"da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a4bd226165fa7b97601be67dbd966499d":[9,0,1,3,3,6,2,0,35,42]
 };

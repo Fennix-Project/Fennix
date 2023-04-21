@@ -85,107 +85,12 @@ $(document).ready(function(){initNavTree('d1/d05/Marco_8cpp.html','../../'); ini
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Marco.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;types.h&gt;</code><br />
-<code>#include &lt;memory.hpp&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
-</div>
+
 <p><a href="../../d1/d05/Marco_8cpp_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a32149ffc24d785a6ba8f748beebaf95c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#adfddecd84e2d59ace560a3ce8e7283ab">__constructor</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d05/Marco_8cpp.html#a32149ffc24d785a6ba8f748beebaf95c">TestMacros</a> ()</td></tr>
-<tr class="separator:a32149ffc24d785a6ba8f748beebaf95c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a32149ffc24d785a6ba8f748beebaf95c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32149ffc24d785a6ba8f748beebaf95c">&#9670;&nbsp;</a></span>TestMacros()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#adfddecd84e2d59ace560a3ce8e7283ab">__constructor</a> void TestMacros </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d05/Marco_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../d1/d05/Marco_8cpp_source.html">Marco.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    {</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="keywordtype">int</span> a = <a class="code" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a>(4096);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a> = <a class="code" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac8af6466c29c08f6443c392f25181fe3">FROM_PAGES</a>(2);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;a: 4096 -&gt; %d&quot;</span>, a);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;b:   a  -&gt; %d&quot;</span>, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a>);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">if</span> (a != 2)</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;TO_PAGES is not equal to 2&quot;</span>);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                ;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a> != 8192)</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;FROM_PAGES is not equal to 8192&quot;</span>);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                ;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;-------------------------&quot;</span>);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> actual = <a class="code" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> expected = 1;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; 128; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> a = <a class="code" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a>(actual);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a> = <a class="code" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac8af6466c29c08f6443c392f25181fe3">FROM_PAGES</a>(expected);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="comment">/* TODO: This is a workaround for now. */</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">if</span> (a != expected + 1)</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;TO_PAGES is not equal to %d (actual: %d)&quot;</span>, expected, a);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                    ;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            }</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a> != actual)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;FROM_PAGES is not equal to %d (actual: %d)&quot;</span>, actual, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a>);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                <span class="keywordflow">while</span> (1)</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                    ;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            }</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            actual += <a class="code" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            expected++;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00290">ArithmeticOperations.c:290</a></div></div>
-<div class="ttc" id="aLynx_2UEFI_2src_2Memory_2memory_8hpp_html_a10029add9db6f0340d9bd2be9b2d1048"><div class="ttname"><a href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a></div><div class="ttdeci">#define TO_PAGES(d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp_source.html#l00036">memory.hpp:36</a></div></div>
-<div class="ttc" id="aLynx_2UEFI_2src_2Memory_2memory_8hpp_html_a7d467c1d283fdfa1f2081ba1e0d01b6e"><div class="ttname"><a href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a></div><div class="ttdeci">#define PAGE_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp_source.html#l00033">memory.hpp:33</a></div></div>
-<div class="ttc" id="aLynx_2UEFI_2src_2Memory_2memory_8hpp_html_ac8af6466c29c08f6443c392f25181fe3"><div class="ttname"><a href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#ac8af6466c29c08f6443c392f25181fe3">FROM_PAGES</a></div><div class="ttdeci">#define FROM_PAGES(d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp_source.html#l00038">memory.hpp:38</a></div></div>
-<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00085">debug.h:85</a></div></div>
-<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00078">debug.h:78</a></div></div>
-<div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a87c169f71ea6dba62ac7bf605cae509e"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a></div><div class="ttdeci">jmp_buf b</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">stdlib-stubs.cpp:68</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">b</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00078">error</a>, <a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp_source.html#l00038">FROM_PAGES</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp_source.html#l00033">PAGE_SIZE</a>, and <a class="el" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp_source.html#l00036">TO_PAGES</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

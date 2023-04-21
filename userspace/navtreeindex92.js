@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"db/d35/mlibc_2options_2ansi_2include_2stdio_8h.html#af4de2514b7778805db3815e8dd6cf09a":[9,0,1,3,2,0,1,14,67],
+"db/d35/mlibc_2options_2ansi_2include_2stdio_8h.html#af7475971eb93ce0184379e71fe7626e9":[9,0,1,3,2,0,1,14,4],
 "db/d35/mlibc_2options_2ansi_2include_2stdio_8h.html#afa800bf3e4e3fe523d73f207da14ffa1":[9,0,1,3,2,0,1,14,75],
 "db/d35/mlibc_2options_2ansi_2include_2stdio_8h.html#afd1658dec48320096de455e55d33d139":[9,0,1,3,2,0,1,14,49],
 "db/d35/mlibc_2options_2ansi_2include_2stdio_8h.html#afda844d5cf3a03ab5df79ab835d98ce4":[9,0,1,3,2,0,1,14,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "db/d56/lgammaf__r_8c.html#ad62862b68010fbf7b47a0b71f8a3c162":[9,0,1,3,2,0,2,119,16],
 "db/d56/lgammaf__r_8c.html#ad90bb5099c20f400d6ec86071a7bac56":[9,0,1,3,2,0,2,119,34],
 "db/d56/lgammaf__r_8c.html#afe4c60df66818ac9a73d456c16d7f64e":[9,0,1,3,2,0,2,119,4],
-"db/d56/lgammaf__r_8c_source.html":[9,0,1,3,2,0,2,119],
-"db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html":[9,0,1,3,3,1,1,0,8],
-"db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#a025fad21a889c79f02ec53abe3526c32":[9,0,1,3,3,1,1,0,8,11]
+"db/d56/lgammaf__r_8c_source.html":[9,0,1,3,2,0,2,119]
 };

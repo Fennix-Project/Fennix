@@ -100,8 +100,8 @@ $(document).ready(function(){initNavTree('de/da8/structCPU_1_1x86_1_1Intel_1_1CP
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a41aaecc6e0c81e4e1d1020db218c675d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a41aaecc6e0c81e4e1d1020db218c675d">Get</a> ()</td></tr>
-<tr class="separator:a41aaecc6e0c81e4e1d1020db218c675d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f49073aad9bdc5514df1f2bb7acbd2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a92f49073aad9bdc5514df1f2bb7acbd2">Get</a> ()</td></tr>
+<tr class="separator:a92f49073aad9bdc5514df1f2bb7acbd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
@@ -297,8 +297,8 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d4f/cpuid__intel_8hpp_source.html#l00085">85</a> of file <a class="el" href="../../d5/d4f/cpuid__intel_8hpp_source.html">cpuid_intel.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a41aaecc6e0c81e4e1d1020db218c675d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41aaecc6e0c81e4e1d1020db218c675d">&#9670;&nbsp;</a></span>Get()</h2>
+<a id="a92f49073aad9bdc5514df1f2bb7acbd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92f49073aad9bdc5514df1f2bb7acbd2">&#9670;&nbsp;</a></span>Get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -307,7 +307,7 @@ Data Fields</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CPU::x86::Intel::CPUID0x00000001::Get </td>
+          <td class="memname"><a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> void CPU::x86::Intel::CPUID0x00000001::Get </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -322,19 +322,21 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d4f/cpuid__intel_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../d5/d4f/cpuid__intel_8hpp_source.html">cpuid_intel.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#if defined(a64) || defined(a32)</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;cpuid&quot;</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    <a class="code" href="../../d6/de6/include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;cpuid&quot;</span></div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a30da3869e5c143bf1516bdeaf2ab1d62">EAX</a>.raw), <span class="stringliteral">&quot;=b&quot;</span>(<a class="code" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#ae50b303f99f7a0ccbc443530bdb2ede7">EBX</a>.raw), <span class="stringliteral">&quot;=c&quot;</span>(<a class="code" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#aff0b451804772cfe2154145177c5bd23">ECX</a>.raw), <span class="stringliteral">&quot;=d&quot;</span>(<a class="code" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a10129a2c6c73c151573e4b554754e3e6">EDX</a>.raw)</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0x1));</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// a64 || a32</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                }</div>
+<div class="ttc" id="ainclude_2types_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00042">types.h:42</a></div></div>
 <div class="ttc" id="astructCPU_1_1x86_1_1Intel_1_1CPUID0x00000001_html_a10129a2c6c73c151573e4b554754e3e6"><div class="ttname"><a href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a10129a2c6c73c151573e4b554754e3e6">CPU::x86::Intel::CPUID0x00000001::EDX</a></div><div class="ttdeci">union CPU::x86::Intel::CPUID0x00000001::@109 EDX</div></div>
 <div class="ttc" id="astructCPU_1_1x86_1_1Intel_1_1CPUID0x00000001_html_a30da3869e5c143bf1516bdeaf2ab1d62"><div class="ttname"><a href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a30da3869e5c143bf1516bdeaf2ab1d62">CPU::x86::Intel::CPUID0x00000001::EAX</a></div><div class="ttdeci">union CPU::x86::Intel::CPUID0x00000001::@106 EAX</div></div>
 <div class="ttc" id="astructCPU_1_1x86_1_1Intel_1_1CPUID0x00000001_html_ae50b303f99f7a0ccbc443530bdb2ede7"><div class="ttname"><a href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#ae50b303f99f7a0ccbc443530bdb2ede7">CPU::x86::Intel::CPUID0x00000001::EBX</a></div><div class="ttdeci">union CPU::x86::Intel::CPUID0x00000001::@107 EBX</div></div>
 <div class="ttc" id="astructCPU_1_1x86_1_1Intel_1_1CPUID0x00000001_html_aff0b451804772cfe2154145177c5bd23"><div class="ttname"><a href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#aff0b451804772cfe2154145177c5bd23">CPU::x86::Intel::CPUID0x00000001::ECX</a></div><div class="ttdeci">union CPU::x86::Intel::CPUID0x00000001::@108 ECX</div></div>
-<div class="ttc" id="atypes_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00042">types.h:42</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00042">asmv</a>, <a class="el" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a30da3869e5c143bf1516bdeaf2ab1d62">EAX</a>, <a class="el" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#ae50b303f99f7a0ccbc443530bdb2ede7">EBX</a>, <a class="el" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#aff0b451804772cfe2154145177c5bd23">ECX</a>, and <a class="el" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a10129a2c6c73c151573e4b554754e3e6">EDX</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00042">asmv</a>, <a class="el" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a30da3869e5c143bf1516bdeaf2ab1d62">EAX</a>, <a class="el" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#ae50b303f99f7a0ccbc443530bdb2ede7">EBX</a>, <a class="el" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#aff0b451804772cfe2154145177c5bd23">ECX</a>, and <a class="el" href="../../de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a10129a2c6c73c151573e4b554754e3e6">EDX</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00202">CPU::InitializeFeatures()</a>.</p>
 
 </div>
 </div>
@@ -399,7 +401,7 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d4f/cpuid__intel_8hpp_source.html#l00087">Get()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d4f/cpuid__intel_8hpp_source.html#l00087">Get()</a>, and <a class="el" href="../../d7/d8d/CPU_8cpp_source.html#l00202">CPU::InitializeFeatures()</a>.</p>
 
 </div>
 </div>

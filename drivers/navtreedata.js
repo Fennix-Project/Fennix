@@ -55,8 +55,8 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "d9/d97/pci_8h.html#aa52a5efa20948a9e48117be9b52d8fd2",
-"dc/d7c/IntelGigabit_8cpp.html#a5fa07660bed21da1dd01e99605073060a314425fe42f2a11998942ed13b56f18d",
-"de/d94/AHCI_8cpp.html#aa4afabf36e5428477e4ac21519dad496"
+"dc/d7c/IntelGigabit_8cpp.html#a5fa07660bed21da1dd01e99605073060",
+"de/d94/AHCI_8cpp.html#aa315b38b270688a4d979ec71a9f33586"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

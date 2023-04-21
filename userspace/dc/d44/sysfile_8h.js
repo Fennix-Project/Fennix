@@ -17,8 +17,8 @@ var sysfile_8h =
     ] ],
     [ "FileClose", "dc/d44/sysfile_8h.html#aae8b2d831d84ab23c9f09f3aabc222f9", null ],
     [ "FileOpen", "dc/d44/sysfile_8h.html#a06a85b91cfc2fa4b1a8f08071dde34bf", null ],
-    [ "FileRead", "dc/d44/sysfile_8h.html#a570680ba13b436a18047d398abe6af43", null ],
+    [ "FileRead", "dc/d44/sysfile_8h.html#a6e0b3e02976fb3d5b1237dd89df7f6c6", null ],
     [ "FileSeek", "dc/d44/sysfile_8h.html#a877ee675a0d7d3021d6030d6a16eea74", null ],
     [ "FileStatus", "dc/d44/sysfile_8h.html#a08eade8198b99659befc7e8328d0ca61", null ],
-    [ "FileWrite", "dc/d44/sysfile_8h.html#a4cf95c4944ccc3c2e8c517cfbeebb1a2", null ]
+    [ "FileWrite", "dc/d44/sysfile_8h.html#a674ebac096bf2e79ff66a8547f75cbd7", null ]
 ];

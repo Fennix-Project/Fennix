@@ -1,6 +1,7 @@
 var Kernel_8cpp =
 [
     [ "CallPtr", "d2/d00/Kernel_8cpp.html#a9aa5b5a5410c2e97df5759c3e6d8c318", null ],
+    [ "__aligned", "d2/d00/Kernel_8cpp.html#aeeaf41f27dfc4f30d4776f9d7d6dcef8", null ],
     [ "BeforeShutdown", "d2/d00/Kernel_8cpp.html#a351f7a9223a3d5eea2fb51d4f27d50a8", null ],
     [ "Entry", "d2/d00/Kernel_8cpp.html#a50e99f20d55238b00c67840a8a71254d", null ],
     [ "KPrint", "d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e", null ],
@@ -12,7 +13,6 @@ var Kernel_8cpp =
     [ "__fini_array_start", "d2/d00/Kernel_8cpp.html#a7636e9947b338df7742d327806c5cf70", null ],
     [ "__init_array_end", "d2/d00/Kernel_8cpp.html#a5fb41005eba2ebaf93f1b8ec0b2fa462", null ],
     [ "__init_array_start", "d2/d00/Kernel_8cpp.html#a5acaf4f3a56e921fd97f62b643461ec7", null ],
-    [ "bInfo", "d2/d00/Kernel_8cpp.html#a48ddf8736a693c7ee5cf00028b014fcf", null ],
     [ "bootanim_vfs", "d2/d00/Kernel_8cpp.html#a69eb131a582118cda8ff08ec5a144883", null ],
     [ "BootClock", "d2/d00/Kernel_8cpp.html#a61d9bae26aed8f70334a9399c0a85807", null ],
     [ "Config", "d2/d00/Kernel_8cpp.html#af1e9bf8b2f6ad92b9da145f9eb732663", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX96 =
 {
+"db/dd0/sysdeps_2linux_2include_2abi-bits_2seek-whence_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8":[9,0,1,3,3,4,2,0,26,1],
+"db/dd0/sysdeps_2linux_2include_2abi-bits_2seek-whence_8h_source.html":[9,0,1,3,3,4,2,0,26],
 "db/dd4/cacosf_8c.html":[9,0,1,3,2,0,0,0,3],
 "db/dd4/cacosf_8c.html#a238bc3dbd59adeb477af18c9a501e04e":[9,0,1,3,2,0,0,0,3,0],
 "db/dd4/cacosf_8c_source.html":[9,0,1,3,2,0,0,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX96 =
 "db/dfe/mlibc_2sysdeps_2managarm_2include_2abi-bits_2errno_8h.html#a07773d22c3eb7a4d4ea0696ee5f49841":[9,0,1,3,3,6,2,0,7,99],
 "db/dfe/mlibc_2sysdeps_2managarm_2include_2abi-bits_2errno_8h.html#a088abe8bad2df798edad3053d719b937":[9,0,1,3,3,6,2,0,7,66],
 "db/dfe/mlibc_2sysdeps_2managarm_2include_2abi-bits_2errno_8h.html#a09e189d2214d9fe2847d27bf270ca1d7":[9,0,1,3,3,6,2,0,7,98],
-"db/dfe/mlibc_2sysdeps_2managarm_2include_2abi-bits_2errno_8h.html#a0a3bef9e5c47e42917692b5dae3b5498":[9,0,1,3,3,6,2,0,7,23],
-"db/dfe/mlibc_2sysdeps_2managarm_2include_2abi-bits_2errno_8h.html#a0e416d3478cf030e37e90c55d68ad97a":[9,0,1,3,3,6,2,0,7,20],
-"db/dfe/mlibc_2sysdeps_2managarm_2include_2abi-bits_2errno_8h.html#a0e42d4f9fecdcf5fcca2b333252173c3":[9,0,1,3,3,6,2,0,7,96]
+"db/dfe/mlibc_2sysdeps_2managarm_2include_2abi-bits_2errno_8h.html#a0a3bef9e5c47e42917692b5dae3b5498":[9,0,1,3,3,6,2,0,7,23]
 };

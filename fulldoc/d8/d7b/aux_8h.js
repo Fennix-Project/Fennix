@@ -4,8 +4,8 @@ var aux_8h =
       [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
       [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a718e9da507aeab4eaff05dfd77214d19", null ],
       [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#acb5051ed573fb3f5e8d7b56055a84e7b", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aabf36f5a7d22405498a7e241c7ddcd15", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a93f3ab065702fa447a3e1407a4fd046b", null ]
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ac585d110e28d3fc94c40d4951d447e38", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ad844e6cbde15513a531f9cfe199424d9", null ]
     ] ],
     [ "Elf64_auxv_t.a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
       [ "a_val", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],

@@ -128,7 +128,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00051">51</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00048">48</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3a84baf2528a7c6b1dbc2b7c3c3bb739"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3a84baf2528a7c6b1dbc2b7c3c3bb739">&#9670;&nbsp;</a></span>Events()</h2>
@@ -154,8 +154,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00223">223</a> of file <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html">NetworkController.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;{ <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>.push_back(<span class="keyword">this</span>); }</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00227">227</a> of file <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html">NetworkController.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;{ <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>.push_back(<span class="keyword">this</span>); }</div>
 <div class="ttc" id="anamespaceNetworkInterfaceManager_html_aa161a4feff3f4563334017345527f483"><div class="ttname"><a href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">NetworkInterfaceManager::RegisteredEvents</a></div><div class="ttdeci">std::vector&lt; Events * &gt; RegisteredEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/NetworkController_8cpp_source.html#l00037">NetworkController.cpp:37</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00037">NetworkInterfaceManager::RegisteredEvents</a>.</p>
@@ -185,15 +185,15 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00225">225</a> of file <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html">NetworkController.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    {</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>.size(); <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] == <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            {</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>.remove(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>);</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            }</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00229">229</a> of file <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html">NetworkController.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>.size(); <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] == <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                <a class="code" href="../../d9/d4c/namespaceNetworkInterfaceManager.html#aa161a4feff3f4563334017345527f483">RegisteredEvents</a>.remove(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    }</div>
 <div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, and <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00037">NetworkInterfaceManager::RegisteredEvents</a>.</p>
@@ -225,8 +225,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00058">58</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{ <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name); }</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00055">55</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{ <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name); }</div>
 <div class="ttc" id="anet_8hpp_html_a004134c58b97d5500bb67ad511fcbb96"><div class="ttname"><a href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a></div><div class="ttdeci">#define netdbg(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/net_8hpp_source.html#l00031">net.hpp:31</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, and <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>.</p>
@@ -257,8 +257,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00060">60</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{ <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name); }</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{ <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, and <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>.</p>
 
@@ -306,8 +306,8 @@ Protected Member Functions</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d7/d50/classNetworkEthernet_1_1Ethernet.html#ab249a0b878b871160f982f97d7ad2ebc">NetworkEthernet::Ethernet</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00061">61</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;{ <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name); }</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00058">58</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{ <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, and <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>.</p>
 
@@ -337,8 +337,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{ <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name); }</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00056">56</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{ <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, and <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>.</p>
 
@@ -384,8 +384,8 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00062">62</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{ <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name); }</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00059">59</a> of file <a class="el" href="../../d7/dc4/nc_8hpp_source.html">nc.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{ <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Event for %s not handled.&quot;</span>, Interface-&gt;Name); }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00033">NetworkInterfaceManager::DeviceInterface::Name</a>, and <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>.</p>
 

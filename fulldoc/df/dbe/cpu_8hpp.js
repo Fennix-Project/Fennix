@@ -112,7 +112,7 @@ var cpu_8hpp =
       [ "x29", "dc/dce/namespaceaarch64.html#a81cf27b563546c9886ce5210e4e49d94", null ],
       [ "x30", "dc/dce/namespaceaarch64.html#ad80cb1ad6f567fb099a112ee314e19fb", null ]
     ] ],
-    [ "EFLAGS.__unnamed777__", "de/d52/namespacex32.html#de/dae/structx32_1_1EFLAGS_8____unnamed777____", [
+    [ "EFLAGS.__unnamed789__", "de/d52/namespacex32.html#d1/d00/structx32_1_1EFLAGS_8____unnamed789____", [
       [ "AC", "de/d52/namespacex32.html#a4144e097d2fa7a491cec2a7a4322f2bc", null ],
       [ "AF", "de/d52/namespacex32.html#a06fa567b72d78b7e3ea746973fbbd1d5", null ],
       [ "AlwaysOne", "de/d52/namespacex32.html#aede1a165030b54c6ad9fd6f430f8b37c", null ],
@@ -135,7 +135,7 @@ var cpu_8hpp =
       [ "VM", "de/d52/namespacex32.html#a583a65df9db4119165f5ea0abaa50281", null ],
       [ "ZF", "de/d52/namespacex32.html#a8ec66b3387ffaa10d0be63d1a95c280a", null ]
     ] ],
-    [ "EFER.__unnamed779__", "de/d52/namespacex32.html#d6/da8/structx32_1_1EFER_8____unnamed779____", [
+    [ "EFER.__unnamed791__", "de/d52/namespacex32.html#d6/d8d/structx32_1_1EFER_8____unnamed791____", [
       [ "FFXSR", "de/d52/namespacex32.html#a7f31fb80ec8aebb4ba3d71448fadf795", null ],
       [ "LMA", "de/d52/namespacex32.html#a6df8d0415ebe8faadcf40719ec36f209", null ],
       [ "LME", "de/d52/namespacex32.html#adfdad30fb438d14f9742408313e1b6a3", null ],
@@ -148,7 +148,7 @@ var cpu_8hpp =
       [ "SVME", "de/d52/namespacex32.html#a7736dcefdc757d139bbe54b6f4731704", null ],
       [ "TCE", "de/d52/namespacex32.html#aa93108959b74bc7abe4ffb1344be0769", null ]
     ] ],
-    [ "DR7.__unnamed781__", "de/d52/namespacex32.html#d3/d51/structx32_1_1DR7_8____unnamed781____", [
+    [ "DR7.__unnamed793__", "de/d52/namespacex32.html#df/d1b/structx32_1_1DR7_8____unnamed793____", [
       [ "ConditionsDR0", "de/d52/namespacex32.html#a218bbb57cdf96f868c1989cf5c1b05a1", null ],
       [ "ConditionsDR1", "de/d52/namespacex32.html#a1aa9aebf8ec30819fcc7806d4473a068", null ],
       [ "ConditionsDR2", "de/d52/namespacex32.html#a10a456c1180ca5788db78418f39102fa", null ],
@@ -167,7 +167,7 @@ var cpu_8hpp =
       [ "SizeDR2", "de/d52/namespacex32.html#a2be6156b903b585189298c512054eb30", null ],
       [ "SizeDR3", "de/d52/namespacex32.html#a1b91683f6b8148199d84049b06ebb5f1", null ]
     ] ],
-    [ "__packed.__unnamed783__", "d7/db0/namespacex64.html#dd/d17/structx64_1_1____packed_8____unnamed783____", [
+    [ "__packed.__unnamed795__", "d7/db0/namespacex64.html#d5/da3/structx64_1_1____packed_8____unnamed795____", [
       [ "ApicBaseHi", "d7/db0/namespacex64.html#a0e3aad2f7384b2da11dbe3af7588bb7d", null ],
       [ "ApicBaseLo", "d7/db0/namespacex64.html#a78a92cde996f5ab594d36d58a7580274", null ],
       [ "BSP", "d7/db0/namespacex64.html#adb55f5a9e3472e08cf5af25914d2c94a", null ],
@@ -176,7 +176,7 @@ var cpu_8hpp =
       [ "Reserved0", "d7/db0/namespacex64.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
       [ "Reserved1", "d7/db0/namespacex64.html#a93876cb309016fa725517b046474c44b", null ]
     ] ],
-    [ "RFLAGS.__unnamed785__", "d7/db0/namespacex64.html#d9/d07/structx64_1_1RFLAGS_8____unnamed785____", [
+    [ "RFLAGS.__unnamed797__", "d7/db0/namespacex64.html#d3/d33/structx64_1_1RFLAGS_8____unnamed797____", [
       [ "AC", "d7/db0/namespacex64.html#a4144e097d2fa7a491cec2a7a4322f2bc", null ],
       [ "AF", "d7/db0/namespacex64.html#a06fa567b72d78b7e3ea746973fbbd1d5", null ],
       [ "AlwaysOne", "d7/db0/namespacex64.html#aede1a165030b54c6ad9fd6f430f8b37c", null ],
@@ -200,7 +200,7 @@ var cpu_8hpp =
       [ "VM", "d7/db0/namespacex64.html#a583a65df9db4119165f5ea0abaa50281", null ],
       [ "ZF", "d7/db0/namespacex64.html#a8ec66b3387ffaa10d0be63d1a95c280a", null ]
     ] ],
-    [ "EFER.__unnamed787__", "d7/db0/namespacex64.html#dc/d70/structx64_1_1EFER_8____unnamed787____", [
+    [ "EFER.__unnamed799__", "d7/db0/namespacex64.html#d4/d4b/structx64_1_1EFER_8____unnamed799____", [
       [ "FFXSR", "d7/db0/namespacex64.html#a7f31fb80ec8aebb4ba3d71448fadf795", null ],
       [ "LMA", "d7/db0/namespacex64.html#a6df8d0415ebe8faadcf40719ec36f209", null ],
       [ "LME", "d7/db0/namespacex64.html#adfdad30fb438d14f9742408313e1b6a3", null ],
@@ -213,7 +213,7 @@ var cpu_8hpp =
       [ "SVME", "d7/db0/namespacex64.html#a7736dcefdc757d139bbe54b6f4731704", null ],
       [ "TCE", "d7/db0/namespacex64.html#aa93108959b74bc7abe4ffb1344be0769", null ]
     ] ],
-    [ "DR7.__unnamed789__", "d7/db0/namespacex64.html#d8/d7b/structx64_1_1DR7_8____unnamed789____", [
+    [ "DR7.__unnamed801__", "d7/db0/namespacex64.html#dd/d6b/structx64_1_1DR7_8____unnamed801____", [
       [ "ConditionsDR0", "d7/db0/namespacex64.html#a218bbb57cdf96f868c1989cf5c1b05a1", null ],
       [ "ConditionsDR1", "d7/db0/namespacex64.html#a1aa9aebf8ec30819fcc7806d4473a068", null ],
       [ "ConditionsDR2", "d7/db0/namespacex64.html#a10a456c1180ca5788db78418f39102fa", null ],
@@ -232,7 +232,7 @@ var cpu_8hpp =
       [ "SizeDR2", "d7/db0/namespacex64.html#a2be6156b903b585189298c512054eb30", null ],
       [ "SizeDR3", "d7/db0/namespacex64.html#a1b91683f6b8148199d84049b06ebb5f1", null ]
     ] ],
-    [ "PageFaultErrorCode.__unnamed791__", "d7/db0/namespacex64.html#df/dd7/structx64_1_1PageFaultErrorCode_8____unnamed791____", [
+    [ "PageFaultErrorCode.__unnamed803__", "d7/db0/namespacex64.html#db/d57/structx64_1_1PageFaultErrorCode_8____unnamed803____", [
       [ "I", "d7/db0/namespacex64.html#add7536794b63bf90eccfd37f9b147d7f", null ],
       [ "P", "d7/db0/namespacex64.html#a44c29edb103a2872f519ad0c9a0fdaaa", null ],
       [ "PK", "d7/db0/namespacex64.html#ad71bdd22c8bb93b8d287dce6f46aed25", null ],
@@ -244,7 +244,7 @@ var cpu_8hpp =
       [ "U", "d7/db0/namespacex64.html#a4c614360da93c0a041b22e537de151eb", null ],
       [ "W", "d7/db0/namespacex64.html#a61e9c06ea9a85a5088a499df6458d276", null ]
     ] ],
-    [ "SelectorErrorCode.__unnamed793__", "d7/db0/namespacex64.html#d4/d96/structx64_1_1SelectorErrorCode_8____unnamed793____", [
+    [ "SelectorErrorCode.__unnamed805__", "d7/db0/namespacex64.html#d8/d89/structx64_1_1SelectorErrorCode_8____unnamed805____", [
       [ "External", "d7/db0/namespacex64.html#ab206a1b4ea1097761f78e8876f6da779", null ],
       [ "Idx", "d7/db0/namespacex64.html#a3c81cbbd361d97d7021798df6ff50939", null ],
       [ "Reserved", "d7/db0/namespacex64.html#a942d4e37dd5607ab68e54755540d4a47", null ],

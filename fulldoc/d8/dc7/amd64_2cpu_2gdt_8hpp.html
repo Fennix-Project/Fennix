@@ -194,7 +194,7 @@ __packed</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aaa3d4d0c6fbb49459d521c112004acae"></a>struct <a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#d0/de0/structGlobalDescriptorTable_1_1GlobalDescriptorTableAccess_8____packed">GlobalDescriptorTableAccess</a></td>
+<a id="a4370298e78a0d136c313ca017eec4889"></a>struct <a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#d0/de0/structGlobalDescriptorTable_1_1GlobalDescriptorTableAccess_8____packed">GlobalDescriptorTableAccess</a></td>
 <td class="fieldname">
 __packed</td>
 <td class="fielddoc">
@@ -231,7 +231,7 @@ __packed</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a71e7fa0abcca27ea4c7a4a31aa2830f3"></a>struct <a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#dc/df8/structGlobalDescriptorTable_1_1GlobalDescriptorTableFlags_8____packed">GlobalDescriptorTableFlags</a></td>
+<a id="a76a535f8398d3bf8ff990987a8727be8"></a>struct <a class="el" href="../../d1/d69/namespaceGlobalDescriptorTable.html#dc/df8/structGlobalDescriptorTable_1_1GlobalDescriptorTableFlags_8____packed">GlobalDescriptorTableFlags</a></td>
 <td class="fieldname">
 __packed</td>
 <td class="fielddoc">
@@ -470,7 +470,7 @@ GDT entries length. </td></tr>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a7fc56270e7a70fa81a5935b72eacbe29"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a7fc56270e7a70fa81a5935b72eacbe29"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 A: 1</td>
 <td class="fielddoc">
@@ -484,7 +484,7 @@ A: 1</td>
 Access bit. <dl class="section note"><dt>Note</dt><dd>The <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> sets this bit to 1 when the segment is accessed. </dd></dl>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="acf75e54791dd1f49f918345fdfe2430b"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="acf75e54791dd1f49f918345fdfe2430b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 DC: 1</td>
 <td class="fielddoc">
@@ -500,7 +500,7 @@ Direction bit for data segments, conforming bit for code segments. <p>For data s
 <p>For code segments, this bit must be 1 for code in the segment to be able to be executed from an equal or lower privilege level. </p>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="affbad918aa5e36b84c5d04b4f4ccee4f"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="affbad918aa5e36b84c5d04b4f4ccee4f"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 DPL: 2</td>
 <td class="fielddoc">
@@ -516,7 +516,7 @@ Descriptor privilege level. <p>This field determines the privilege level of the 
 <p>0 = kernel mode, 3 = user mode. </p>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3a3ea00cfc35332cedf6e5e9a32e94da"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a3a3ea00cfc35332cedf6e5e9a32e94da"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 E: 1</td>
 <td class="fielddoc">
@@ -532,7 +532,7 @@ Executable bit. <p>This bit must be 1 for code-segment descriptors.</p>
 <p>This bit must be 0 for data-segment and system descriptors. </p>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a44c29edb103a2872f519ad0c9a0fdaaa"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a44c29edb103a2872f519ad0c9a0fdaaa"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 P: 1</td>
 <td class="fielddoc">
@@ -546,7 +546,7 @@ P: 1</td>
 Present bit. <p>This bit must be 1 for all valid descriptors. </p>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a5c6dc3d436504b7a65191cafe28212ee"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a5c6dc3d436504b7a65191cafe28212ee"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 RW: 1</td>
 <td class="fielddoc">
@@ -562,7 +562,7 @@ Readable bit for code segments, writable bit for data segments. <p>For code segm
 <p>For data segments, this bit must be 1 for the segment to be writable. </p>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a5dbc98dcc983a70728bd082d1a47546e"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a5dbc98dcc983a70728bd082d1a47546e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 S: 1</td>
 <td class="fielddoc">
@@ -597,7 +597,7 @@ Descriptor type. <p>This bit must be 0 for system descriptors.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ad20caec3b48a1eef164cb4ca81ba2587"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="ad20caec3b48a1eef164cb4ca81ba2587"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 L: 1</td>
 <td class="fielddoc">
@@ -613,7 +613,7 @@ Long mode. <p>If the long mode bit is clear, the segment is in 32-bit protected 
 <p>If the long mode bit is set, the segment is in 64-bit long mode. </p>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a88183b946cc5f0e8c96b2e66e1c74a7e"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<a id="a88183b946cc5f0e8c96b2e66e1c74a7e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 Unknown: 5</td>
 <td class="fielddoc">

@@ -3,6 +3,7 @@ var InterruptDescriptorTable_8cpp =
     [ "EXCEPTION_ERROR_HANDLER", "d7/d21/InterruptDescriptorTable_8cpp.html#a91faac0f0bd85f400863bbff6ba06f7f", null ],
     [ "EXCEPTION_HANDLER", "d7/d21/InterruptDescriptorTable_8cpp.html#ae6aa82d43fcacd6bb94831abbb665799", null ],
     [ "INTERRUPT_HANDLER", "d7/d21/InterruptDescriptorTable_8cpp.html#aac29fce8b5436d26c80044516455b6f7", null ],
+    [ "__aligned", "d7/d21/InterruptDescriptorTable_8cpp.html#ae33a1317cc5ebd3cc50a15cbd787f6d6", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d7/d21/InterruptDescriptorTable_8cpp.html#afb7ecf9fc0491027fc6c9457c9e7a71f", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d7/d21/InterruptDescriptorTable_8cpp.html#a79b0b2a4ee90ae36c274116d678c16bf", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d7/d21/InterruptDescriptorTable_8cpp.html#a537df31f84d976556362b1b0de35f276", null ],
@@ -36,11 +37,9 @@ var InterruptDescriptorTable_8cpp =
     [ "EXCEPTION_HANDLER", "d7/d21/InterruptDescriptorTable_8cpp.html#a5c17bef14be9a26c98a78d9a523aade3", null ],
     [ "EXCEPTION_HANDLER", "d7/d21/InterruptDescriptorTable_8cpp.html#a06dc90ea4f9b497dde29a66795414f7a", null ],
     [ "ExceptionHandler", "d7/d21/InterruptDescriptorTable_8cpp.html#a29a0f4b501e81633a741ed838dace121", null ],
-    [ "ExceptionHandlerStub", "d7/d21/InterruptDescriptorTable_8cpp.html#acaf5b6fc70e97825348c34900c0d81c7", null ],
     [ "Init", "d7/d21/InterruptDescriptorTable_8cpp.html#a5275e6707c957c5ba4b050102990c908", null ],
-    [ "InterruptHandlerStub", "d7/d21/InterruptDescriptorTable_8cpp.html#a33c5c1968a22626a6e46b7b98907166f", null ],
     [ "MainInterruptHandler", "d7/d21/InterruptDescriptorTable_8cpp.html#ab315401343457f280dc7e89bd8ec6308", null ],
-    [ "SetEntry", "d7/d21/InterruptDescriptorTable_8cpp.html#a91dd97eaf022dfa7a023a8734aa59a1b", null ],
+    [ "SetEntry", "d7/d21/InterruptDescriptorTable_8cpp.html#aa4baace89060170178ec7e72b6e162c4", null ],
     [ "Entries", "d7/d21/InterruptDescriptorTable_8cpp.html#a679e5cab62e2086ee8684461fa9afa16", null ],
     [ "idtd", "d7/d21/InterruptDescriptorTable_8cpp.html#a2d9560d834d891b9d8f0e76ced1bc8a7", null ]
 ];

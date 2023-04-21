@@ -194,14 +194,13 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00162">162</a> of file <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    {</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a>.size(); <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a>.size(); <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a>[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] == <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            {</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a>.remove(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>);</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            }</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    }</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00165">types.h:165</a></div></div>
 <div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, and <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00024">RegisteredEvents</a>.</p>
@@ -276,9 +275,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00083">83</a> of file <a class="el" href="../../de/d3f/uart_8hpp_source.html">uart.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{ <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(Char); }</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00057">types.h:57</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00060">types.h:60</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00057">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00060">UNUSED</a>.</p>
 
 </div>
 </div>
@@ -317,7 +316,7 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00078">78</a> of file <a class="el" href="../../de/d3f/uart_8hpp_source.html">uart.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;{ <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(Char); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00057">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00060">UNUSED</a>.</p>
 
 </div>
 </div>

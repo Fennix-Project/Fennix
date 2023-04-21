@@ -242,12 +242,12 @@ var NAVTREEINDEX2 =
 "d0/d86/regcomp_8c.html#a8f3aaf476f8152cadc6a2f87be4a59cbac2d909f0cdc912222a107e3ae8ccd161":[9,0,1,3,2,10,2,2,34,2],
 "d0/d86/regcomp_8c.html#a8fa1d31718a2f625a02e86061148b174":[9,0,1,3,2,10,2,2,64],
 "d0/d86/regcomp_8c.html#a904a173c868b20309d78b0a52af53820":[9,0,1,3,2,10,2,2,57],
-"d0/d86/regcomp_8c.html#a9d3c59a971be602371bc6bb87f10e303":[9,0,1,3,2,10,2,2,80],
 "d0/d86/regcomp_8c.html#a9de2e0913f485e7b4ddeaf1265a9914d":[9,0,1,3,2,10,2,2,39],
 "d0/d86/regcomp_8c.html#aa03db0db300a82bbac094ae274aac46c":[9,0,1,3,2,10,2,2,16],
 "d0/d86/regcomp_8c.html#aa09b6ffce181c4efaa89dd8d5ff753b9":[9,0,1,3,2,10,2,2,41],
 "d0/d86/regcomp_8c.html#aa3d9016f72bcef400e2432bda503ad34":[9,0,1,3,2,10,2,2,3,1],
 "d0/d86/regcomp_8c.html#aa654094ba4eb1157d9ec6b4b1a3eb0fb":[9,0,1,3,2,10,2,2,12],
 "d0/d86/regcomp_8c.html#aa8666fd376424a5a4ca32c789d3662e4":[9,0,1,3,2,10,2,2,0,6],
-"d0/d86/regcomp_8c.html#aa8be50909b62589394da482eb3028d64":[9,0,1,3,2,10,2,2,47]
+"d0/d86/regcomp_8c.html#aa8be50909b62589394da482eb3028d64":[9,0,1,3,2,10,2,2,47],
+"d0/d86/regcomp_8c.html#aa985c28a03994209a51b2b4bc56e4b95":[9,0,1,3,2,10,2,2,26]
 };

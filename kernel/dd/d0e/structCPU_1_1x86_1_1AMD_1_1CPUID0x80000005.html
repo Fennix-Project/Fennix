@@ -100,8 +100,8 @@ $(document).ready(function(){initNavTree('dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUI
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a66315fde4aeff38ac3c3f1dcbf3b030e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a66315fde4aeff38ac3c3f1dcbf3b030e">Get</a> ()</td></tr>
-<tr class="separator:a66315fde4aeff38ac3c3f1dcbf3b030e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0a8d10d0c281cfc8d845d3b6fd4f97a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#ab0a8d10d0c281cfc8d845d3b6fd4f97a">Get</a> ()</td></tr>
+<tr class="separator:ab0a8d10d0c281cfc8d845d3b6fd4f97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
@@ -177,10 +177,10 @@ Data Fields</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>L1 Cache and TLB Information. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01127">1127</a> of file <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html">cpuid_amd.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01181">1181</a> of file <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html">cpuid_amd.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a66315fde4aeff38ac3c3f1dcbf3b030e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66315fde4aeff38ac3c3f1dcbf3b030e">&#9670;&nbsp;</a></span>Get()</h2>
+<a id="ab0a8d10d0c281cfc8d845d3b6fd4f97a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0a8d10d0c281cfc8d845d3b6fd4f97a">&#9670;&nbsp;</a></span>Get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -189,7 +189,7 @@ Data Fields</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CPU::x86::AMD::CPUID0x80000005::Get </td>
+          <td class="memname"><a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> void CPU::x86::AMD::CPUID0x80000005::Get </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -202,21 +202,21 @@ Data Fields</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01129">1129</a> of file <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html">cpuid_amd.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;                {</div>
-<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;<span class="preprocessor">#if defined(a64) || defined(a32)</span></div>
-<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;                    <a class="code" href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;cpuid&quot;</span></div>
-<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#af9ab0f88252d4ddb642258603a87ea63">EAX</a>.raw), <span class="stringliteral">&quot;=b&quot;</span>(<a class="code" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a19fb9103c96b2376cc3e931599487e54">EBX</a>.raw), <span class="stringliteral">&quot;=c&quot;</span>(<a class="code" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a06b905d2840dc26e0f6b67bf412d9b4e">ECX</a>.raw), <span class="stringliteral">&quot;=d&quot;</span>(<a class="code" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a736ec5ee9f30d1d32fd98fb710c3d390">EDX</a>.raw)</div>
-<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0x1));</div>
-<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// a64 || a32</span></div>
-<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;                }</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01183">1183</a> of file <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html">cpuid_amd.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;                {</div>
+<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
+<div class="line"><a name="l01186"></a><span class="lineno"> 1186</span>&#160;                    <a class="code" href="../../d6/de6/include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a>(<span class="stringliteral">&quot;cpuid&quot;</span></div>
+<div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#af9ab0f88252d4ddb642258603a87ea63">EAX</a>.raw), <span class="stringliteral">&quot;=b&quot;</span>(<a class="code" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a19fb9103c96b2376cc3e931599487e54">EBX</a>.raw), <span class="stringliteral">&quot;=c&quot;</span>(<a class="code" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a06b905d2840dc26e0f6b67bf412d9b4e">ECX</a>.raw), <span class="stringliteral">&quot;=d&quot;</span>(<a class="code" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a736ec5ee9f30d1d32fd98fb710c3d390">EDX</a>.raw)</div>
+<div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(0x80000005));</div>
+<div class="line"><a name="l01189"></a><span class="lineno"> 1189</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// a64 || a32</span></div>
+<div class="line"><a name="l01190"></a><span class="lineno"> 1190</span>&#160;                }</div>
+<div class="ttc" id="ainclude_2types_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00042">types.h:42</a></div></div>
 <div class="ttc" id="astructCPU_1_1x86_1_1AMD_1_1CPUID0x80000005_html_a06b905d2840dc26e0f6b67bf412d9b4e"><div class="ttname"><a href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a06b905d2840dc26e0f6b67bf412d9b4e">CPU::x86::AMD::CPUID0x80000005::ECX</a></div><div class="ttdeci">union CPU::x86::AMD::CPUID0x80000005::@552 ECX</div><div class="ttdoc">L1 Data Cache Information.</div></div>
 <div class="ttc" id="astructCPU_1_1x86_1_1AMD_1_1CPUID0x80000005_html_a19fb9103c96b2376cc3e931599487e54"><div class="ttname"><a href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a19fb9103c96b2376cc3e931599487e54">CPU::x86::AMD::CPUID0x80000005::EBX</a></div><div class="ttdeci">union CPU::x86::AMD::CPUID0x80000005::@551 EBX</div><div class="ttdoc">L1 TLB 4K Information.</div></div>
 <div class="ttc" id="astructCPU_1_1x86_1_1AMD_1_1CPUID0x80000005_html_a736ec5ee9f30d1d32fd98fb710c3d390"><div class="ttname"><a href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a736ec5ee9f30d1d32fd98fb710c3d390">CPU::x86::AMD::CPUID0x80000005::EDX</a></div><div class="ttdeci">union CPU::x86::AMD::CPUID0x80000005::@553 EDX</div><div class="ttdoc">L1 Instruction Cache Information.</div></div>
 <div class="ttc" id="astructCPU_1_1x86_1_1AMD_1_1CPUID0x80000005_html_af9ab0f88252d4ddb642258603a87ea63"><div class="ttname"><a href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#af9ab0f88252d4ddb642258603a87ea63">CPU::x86::AMD::CPUID0x80000005::EAX</a></div><div class="ttdeci">union CPU::x86::AMD::CPUID0x80000005::@550 EAX</div><div class="ttdoc">L1 TLB 2M/4M Information.</div></div>
-<div class="ttc" id="atypes_8h_html_a30e15c44c0b00e6a3ade119af60f111b"><div class="ttname"><a href="../../d9/d49/types_8h.html#a30e15c44c0b00e6a3ade119af60f111b">asmv</a></div><div class="ttdeci">#define asmv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00042">types.h:42</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d49/types_8h_source.html#l00042">asmv</a>, <a class="el" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#af9ab0f88252d4ddb642258603a87ea63">EAX</a>, <a class="el" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a19fb9103c96b2376cc3e931599487e54">EBX</a>, <a class="el" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a06b905d2840dc26e0f6b67bf412d9b4e">ECX</a>, and <a class="el" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a736ec5ee9f30d1d32fd98fb710c3d390">EDX</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00042">asmv</a>, <a class="el" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#af9ab0f88252d4ddb642258603a87ea63">EAX</a>, <a class="el" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a19fb9103c96b2376cc3e931599487e54">EBX</a>, <a class="el" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a06b905d2840dc26e0f6b67bf412d9b4e">ECX</a>, and <a class="el" href="../../dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html#a736ec5ee9f30d1d32fd98fb710c3d390">EDX</a>.</p>
 
 </div>
 </div>
@@ -235,7 +235,7 @@ Data Fields</h2></td></tr>
 
 <p>L1 TLB 2M/4M Information. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01129">Get()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01183">Get()</a>.</p>
 
 </div>
 </div>
@@ -253,7 +253,7 @@ Data Fields</h2></td></tr>
 
 <p>L1 TLB 4K Information. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01129">Get()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01183">Get()</a>.</p>
 
 </div>
 </div>
@@ -271,7 +271,7 @@ Data Fields</h2></td></tr>
 
 <p>L1 Data Cache Information. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01129">Get()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01183">Get()</a>.</p>
 
 </div>
 </div>
@@ -289,7 +289,7 @@ Data Fields</h2></td></tr>
 
 <p>L1 Instruction Cache Information. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01129">Get()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/d48/cpuid__amd_8hpp_source.html#l01183">Get()</a>.</p>
 
 </div>
 </div>

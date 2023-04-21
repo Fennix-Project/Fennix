@@ -25,11 +25,7 @@ var filesystem_8hpp =
       [ "Parent", "d5/da1/namespaceVirtualFileSystem.html#a2a269f685aa8f6429deb067e9b7ae56e", null ],
       [ "UserIdentifier", "d5/da1/namespaceVirtualFileSystem.html#a2f3f88e787fd98b7e0e869bbb0c66862", null ]
     ] ],
-    [ "File", "d5/da1/namespaceVirtualFileSystem.html#d9/dea/structVirtualFileSystem_1_1File", [
-      [ "Name", "d5/da1/namespaceVirtualFileSystem.html#a80070cace54c6f7caba1712fede54c32", null ],
-      [ "node", "d5/da1/namespaceVirtualFileSystem.html#a34e1dc710de659b8d2479573f24f6410", null ],
-      [ "Status", "d5/da1/namespaceVirtualFileSystem.html#a3fd0584812dced881baf80a6cf913d13", null ]
-    ] ],
+    [ "File", "d9/dea/structVirtualFileSystem_1_1File.html", "d9/dea/structVirtualFileSystem_1_1File" ],
     [ "Virtual", "d8/dbd/classVirtualFileSystem_1_1Virtual.html", "d8/dbd/classVirtualFileSystem_1_1Virtual" ],
     [ "CloseFSFunction", "d1/d85/filesystem_8hpp.html#ac707dee0f84de96388a8850b61ec26d9", null ],
     [ "CreateFSFunction", "d1/d85/filesystem_8hpp.html#ab5fe0d9f05321a1e464164873af53feb", null ],

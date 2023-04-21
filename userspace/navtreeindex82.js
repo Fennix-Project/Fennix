@@ -1,5 +1,7 @@
 var NAVTREEINDEX82 =
 {
+"d9/de4/sysdeps_2lyre_2include_2abi-bits_2socket_8h.html#a5ee0c2bb4f9a241310345db530c65272":[9,0,1,3,3,5,1,0,29,21],
+"d9/de4/sysdeps_2lyre_2include_2abi-bits_2socket_8h.html#a5ee7680542e1b38da1ab41e1c09ff8e3":[9,0,1,3,3,5,1,0,29,12],
 "d9/de4/sysdeps_2lyre_2include_2abi-bits_2socket_8h.html#a5f7b2b466e0dd5623ba05fc24eb94012":[9,0,1,3,3,5,1,0,29,161],
 "d9/de4/sysdeps_2lyre_2include_2abi-bits_2socket_8h.html#a5ff2d3ee01d12d923a988c3a8e2b794b":[9,0,1,3,3,5,1,0,29,52],
 "d9/de4/sysdeps_2lyre_2include_2abi-bits_2socket_8h.html#a60c35b1016d0d87fe1066ea817acad98":[9,0,1,3,3,5,1,0,29,66],
@@ -247,7 +249,5 @@ var NAVTREEINDEX82 =
 "d9/dfa/if__ether_8h.html#a4f0500e04b7a6290ed787d14cd824a85":[9,0,1,3,2,10,1,4,1,39],
 "d9/dfa/if__ether_8h.html#a50b9321abda315588514dc511a852092":[9,0,1,3,2,10,1,4,1,35],
 "d9/dfa/if__ether_8h.html#a5709fe3da7594eb4027472f7e00d63ef":[9,0,1,3,2,10,1,4,1,16],
-"d9/dfa/if__ether_8h.html#a576495a8af5ed315a5db5dd9520b6b61":[9,0,1,3,2,10,1,4,1,47],
-"d9/dfa/if__ether_8h.html#a588ccea9b9bdff3dc0dfa9209fab8d60":[9,0,1,3,2,10,1,4,1,0,3],
-"d9/dfa/if__ether_8h.html#a596a6896363a4be4d9e4ff7d843a17fe":[9,0,1,3,2,10,1,4,1,71]
+"d9/dfa/if__ether_8h.html#a576495a8af5ed315a5db5dd9520b6b61":[9,0,1,3,2,10,1,4,1,47]
 };

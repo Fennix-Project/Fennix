@@ -2,12 +2,12 @@ var i386_2cpu_2apic_8hpp =
 [
     [ "__packed", "d3/d88/namespaceAPIC.html#d5/d0e/unionAPIC_1_1____packed", [
       [ "raw", "d3/d88/namespaceAPIC.html#aace9fc1d515a705a6af03acb4f1f1353", null ],
-      [ "split", "d3/d88/namespaceAPIC.html#a8fcd1f549d53d365228b87b75dd45800", null ],
+      [ "split", "d3/d88/namespaceAPIC.html#a9608428d53cbfe9a7bd1aba28c636ec7", null ],
       [ "split", "d3/d88/namespaceAPIC.html#abf23d41c1660604f13412d53e448116a", null ]
     ] ],
     [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ],
     [ "Timer", "df/d9c/classAPIC_1_1Timer.html", "df/d9c/classAPIC_1_1Timer" ],
-    [ "__packed.__unnamed20__", "d3/d88/namespaceAPIC.html#d9/ddd/structAPIC_1_1____packed_8____unnamed20____", [
+    [ "__packed.__unnamed18__", "d3/d88/namespaceAPIC.html#d3/dec/structAPIC_1_1____packed_8____unnamed18____", [
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "Mask", "d3/d88/namespaceAPIC.html#a4a18312b5b75f549d5551e5912ad6ebf", null ],
       [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
@@ -16,7 +16,7 @@ var i386_2cpu_2apic_8hpp =
       [ "TimerMode", "d3/d88/namespaceAPIC.html#a1bc24773da7aa7b2637fc28b2d491723", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed22__", "d3/d88/namespaceAPIC.html#d3/d9a/structAPIC_1_1____packed_8____unnamed22____", [
+    [ "__packed.__unnamed21__", "d3/d88/namespaceAPIC.html#d7/da6/structAPIC_1_1____packed_8____unnamed21____", [
       [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
       [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
       [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],
@@ -30,7 +30,7 @@ var i386_2cpu_2apic_8hpp =
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed24__", "d3/d88/namespaceAPIC.html#d1/df1/structAPIC_1_1____packed_8____unnamed24____", [
+    [ "__packed.__unnamed23__", "d3/d88/namespaceAPIC.html#d6/db5/structAPIC_1_1____packed_8____unnamed23____", [
       [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "DestinationMode", "d3/d88/namespaceAPIC.html#a74e856f5a8e178cf38ae4e7c58bc838d", null ],

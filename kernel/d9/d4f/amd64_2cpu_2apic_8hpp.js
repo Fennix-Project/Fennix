@@ -2,7 +2,7 @@ var amd64_2cpu_2apic_8hpp =
 [
     [ "__packed", "d3/d88/namespaceAPIC.html#d5/d0e/unionAPIC_1_1____packed", [
       [ "raw", "d3/d88/namespaceAPIC.html#aace9fc1d515a705a6af03acb4f1f1353", null ],
-      [ "split", "d3/d88/namespaceAPIC.html#a8fcd1f549d53d365228b87b75dd45800", null ],
+      [ "split", "d3/d88/namespaceAPIC.html#a9608428d53cbfe9a7bd1aba28c636ec7", null ],
       [ "split", "d3/d88/namespaceAPIC.html#abf23d41c1660604f13412d53e448116a", null ]
     ] ],
     [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ],
@@ -40,7 +40,7 @@ var amd64_2cpu_2apic_8hpp =
       [ "Destination", "d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244", null ],
       [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ]
     ] ],
-    [ "__packed.__unnamed9__", "d3/d88/namespaceAPIC.html#d3/d1d/structAPIC_1_1____packed_8____unnamed9____", [
+    [ "__packed.__unnamed10__", "d3/d88/namespaceAPIC.html#da/d58/structAPIC_1_1____packed_8____unnamed10____", [
       [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "DestinationID", "d3/d88/namespaceAPIC.html#a07e65844f6fd690118c864c2abbf0013", null ],
@@ -65,13 +65,13 @@ var amd64_2cpu_2apic_8hpp =
       [ "Software", "d3/d88/namespaceAPIC.html#a719d067b229178f03bcfa1da4ac4dede", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed12__", "d3/d88/namespaceAPIC.html#d6/ddc/structAPIC_1_1____packed_8____unnamed12____", [
+    [ "__packed.__unnamed13__", "d3/d88/namespaceAPIC.html#d5/d7d/structAPIC_1_1____packed_8____unnamed13____", [
       [ "MaximumRedirectionEntry", "d3/d88/namespaceAPIC.html#a528bff8b6bcc79dfa0a42073f5eec7e9", null ],
       [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
       [ "Reserved2", "d3/d88/namespaceAPIC.html#ad783eb173ee49cc2a004bc1ca1313615", null ],
       [ "Version", "d3/d88/namespaceAPIC.html#a34b6cd75171affba6957e308dcbd92be", null ]
     ] ],
-    [ "__packed.__unnamed22__", "d3/d88/namespaceAPIC.html#d3/d9a/structAPIC_1_1____packed_8____unnamed22____", [
+    [ "__packed.__unnamed21__", "d3/d88/namespaceAPIC.html#d7/da6/structAPIC_1_1____packed_8____unnamed21____", [
       [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
       [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
       [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],
@@ -85,7 +85,7 @@ var amd64_2cpu_2apic_8hpp =
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed24__", "d3/d88/namespaceAPIC.html#d1/df1/structAPIC_1_1____packed_8____unnamed24____", [
+    [ "__packed.__unnamed23__", "d3/d88/namespaceAPIC.html#d6/db5/structAPIC_1_1____packed_8____unnamed23____", [
       [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "DestinationMode", "d3/d88/namespaceAPIC.html#a74e856f5a8e178cf38ae4e7c58bc838d", null ],

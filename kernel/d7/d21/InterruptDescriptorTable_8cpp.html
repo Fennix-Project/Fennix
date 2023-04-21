@@ -100,6 +100,7 @@ $(document).ready(function(){initNavTree('d7/d21/InterruptDescriptorTable_8cpp.h
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dac/io_8h_source.html">io.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/dc7/amd64_2cpu_2gdt_8hpp_source.html">gdt.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../../kernel.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -123,12 +124,10 @@ Functions</h2></td></tr>
 <tr class="separator:ab315401343457f280dc7e89bd8ec6308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29a0f4b501e81633a741ed838dace121"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp.html#a29a0f4b501e81633a741ed838dace121">ExceptionHandler</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
 <tr class="separator:a29a0f4b501e81633a741ed838dace121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91dd97eaf022dfa7a023a8734aa59a1b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a91dd97eaf022dfa7a023a8734aa59a1b">InterruptDescriptorTable::SetEntry</a> (<a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Index, void(*Base)(), InterruptDescriptorTableFlags Attribute, <a class="el" href="../../d9/d49/types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> InterruptStackTable, InterruptDescriptorTableFlags Ring, <a class="el" href="../../d9/d49/types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SegmentSelector)</td></tr>
-<tr class="separator:a91dd97eaf022dfa7a023a8734aa59a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaf5b6fc70e97825348c34900c0d81c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a> <a class="el" href="../../d9/d49/types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a> <a class="el" href="../../d9/d49/types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#acaf5b6fc70e97825348c34900c0d81c7">InterruptDescriptorTable::ExceptionHandlerStub</a> ()</td></tr>
-<tr class="separator:acaf5b6fc70e97825348c34900c0d81c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33c5c1968a22626a6e46b7b98907166f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d49/types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a> <a class="el" href="../../d9/d49/types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a> <a class="el" href="../../d9/d49/types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a33c5c1968a22626a6e46b7b98907166f">InterruptDescriptorTable::InterruptHandlerStub</a> ()</td></tr>
-<tr class="separator:a33c5c1968a22626a6e46b7b98907166f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4baace89060170178ec7e72b6e162c4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#aa4baace89060170178ec7e72b6e162c4">InterruptDescriptorTable::SetEntry</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Index, void(*Base)(), InterruptStackTableType InterruptStackTable, InterruptGateType Gate, InterruptRingType Ring, <a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> Present, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SegmentSelector)</td></tr>
+<tr class="separator:aa4baace89060170178ec7e72b6e162c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae33a1317cc5ebd3cc50a15cbd787f6d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a> <a class="el" href="../../d6/de6/include_2types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a> <a class="el" href="../../d6/de6/include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ae33a1317cc5ebd3cc50a15cbd787f6d6">InterruptDescriptorTable::__aligned</a> (16) void ExceptionHandlerStub()</td></tr>
+<tr class="separator:ae33a1317cc5ebd3cc50a15cbd787f6d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6ca365ac726708ccf804bc9fad2608a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ab6ca365ac726708ccf804bc9fad2608a">InterruptDescriptorTable::EXCEPTION_HANDLER</a> (0x0)</td></tr>
 <tr class="separator:ab6ca365ac726708ccf804bc9fad2608a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa36b3cf34d7076c1992469a27b8e6f24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#aa36b3cf34d7076c1992469a27b8e6f24">InterruptDescriptorTable::EXCEPTION_HANDLER</a> (0x1)</td></tr>
@@ -219,16 +218,17 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d9/d49/types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a> <a class="code" href="../../d9/d49/types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a> <a class="code" href="../../d9/d49/types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> <span class="keyword">static</span> <span class="keywordtype">void</span> InterruptHandler_##num() \</div>
-<div class="line">    {                                                                        \</div>
-<div class="line">        asm(<span class="stringliteral">&quot;pushq $&quot;</span> #num <span class="stringliteral">&quot;\n&quot;</span>                                              \</div>
-<div class="line">            <span class="stringliteral">&quot;jmp ExceptionHandlerStub&quot;</span>);                                     \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d6/de6/include_2types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a> <a class="code" href="../../d6/de6/include_2types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a> <a class="code" href="../../d6/de6/include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> <a class="code" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ae33a1317cc5ebd3cc50a15cbd787f6d6">__aligned</a>(16) static <span class="keywordtype">void</span> InterruptHandler_<span class="preprocessor">##num() \</span></div>
+<div class="line"><span class="preprocessor">    {                                                                                      \</span></div>
+<div class="line"><span class="preprocessor">        asm(&quot;pushq $&quot;</span> #num &quot;\n&quot;                                                            \</div>
+<div class="line">            &quot;jmp ExceptionHandlerStub&quot;);                                                   \</div>
 <div class="line">    }</div>
-<div class="ttc" id="atypes_8h_html_a3f59f2a8579d5e3c4dcf342f41afcc23"><div class="ttname"><a href="../../d9/d49/types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a></div><div class="ttdeci">#define __no_stack_protector</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00335">types.h:335</a></div></div>
-<div class="ttc" id="atypes_8h_html_a9314dbac96b8097be9506b69c32f5ae9"><div class="ttname"><a href="../../d9/d49/types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a></div><div class="ttdeci">#define __used</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00315">types.h:315</a></div></div>
-<div class="ttc" id="atypes_8h_html_abcaf90e207efed7e5d0887aee08c7338"><div class="ttname"><a href="../../d9/d49/types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a></div><div class="ttdeci">#define __naked</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d49/types_8h_source.html#l00303">types.h:303</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a3f59f2a8579d5e3c4dcf342f41afcc23"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a></div><div class="ttdeci">#define __no_stack_protector</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00338">types.h:338</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a9314dbac96b8097be9506b69c32f5ae9"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a></div><div class="ttdeci">#define __used</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00318">types.h:318</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_abcaf90e207efed7e5d0887aee08c7338"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a></div><div class="ttdeci">#define __naked</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00306">types.h:306</a></div></div>
+<div class="ttc" id="anamespaceInterruptDescriptorTable_html_ae33a1317cc5ebd3cc50a15cbd787f6d6"><div class="ttname"><a href="../../d2/db2/namespaceInterruptDescriptorTable.html#ae33a1317cc5ebd3cc50a15cbd787f6d6">InterruptDescriptorTable::__aligned</a></div><div class="ttdeci">__naked __used __no_stack_protector __aligned(16) void ExceptionHandlerStub()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00063">InterruptDescriptorTable.cpp:63</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00158">158</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00163">163</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -247,13 +247,13 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d9/d49/types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a> <a class="code" href="../../d9/d49/types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a> <a class="code" href="../../d9/d49/types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> <span class="keyword">static</span> <span class="keywordtype">void</span> InterruptHandler_##num() \</div>
-<div class="line">    {                                                                        \</div>
-<div class="line">        asm(<span class="stringliteral">&quot;pushq $0\npushq $&quot;</span> #num <span class="stringliteral">&quot;\n&quot;</span>                                    \</div>
-<div class="line">            <span class="stringliteral">&quot;jmp ExceptionHandlerStub&quot;</span>);                                     \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d6/de6/include_2types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a> <a class="code" href="../../d6/de6/include_2types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a> <a class="code" href="../../d6/de6/include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> <a class="code" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ae33a1317cc5ebd3cc50a15cbd787f6d6">__aligned</a>(16) static <span class="keywordtype">void</span> InterruptHandler_<span class="preprocessor">##num() \</span></div>
+<div class="line"><span class="preprocessor">    {                                                                                      \</span></div>
+<div class="line"><span class="preprocessor">        asm(&quot;pushq $0\npushq $&quot;</span> #num &quot;\n&quot;                                                  \</div>
+<div class="line">            &quot;jmp ExceptionHandlerStub&quot;);                                                   \</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00151">151</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00156">156</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -272,13 +272,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d9/d49/types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a> <a class="code" href="../../d9/d49/types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a> <a class="code" href="../../d9/d49/types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> <span class="keywordtype">void</span> InterruptHandler_##num() \</div>
-<div class="line">    {                                                                 \</div>
-<div class="line">        asm(<span class="stringliteral">&quot;pushq $0\npushq $&quot;</span> #num <span class="stringliteral">&quot;\n&quot;</span>                             \</div>
-<div class="line">            <span class="stringliteral">&quot;jmp InterruptHandlerStub\n&quot;</span>);                            \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="../../d6/de6/include_2types_8h.html#abcaf90e207efed7e5d0887aee08c7338">__naked</a> <a class="code" href="../../d6/de6/include_2types_8h.html#a9314dbac96b8097be9506b69c32f5ae9">__used</a> <a class="code" href="../../d6/de6/include_2types_8h.html#a3f59f2a8579d5e3c4dcf342f41afcc23">__no_stack_protector</a> <a class="code" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ae33a1317cc5ebd3cc50a15cbd787f6d6">__aligned</a>(16) <a class="code" href="../../d1/d48/namespaceDriver.html#ab729393050904fd1bdaf3625252f2e19">void</a> InterruptHandler_<span class="preprocessor">##num() \</span></div>
+<div class="line"><span class="preprocessor">    {                                                                               \</span></div>
+<div class="line"><span class="preprocessor">        asm(&quot;pushq $0\npushq $&quot;</span> #num &quot;\n&quot;                                           \</div>
+<div class="line">            &quot;jmp InterruptHandlerStub\n&quot;);                                          \</div>
 <div class="line">    }</div>
+<div class="ttc" id="anamespaceDriver_html_ab729393050904fd1bdaf3625252f2e19"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#ab729393050904fd1bdaf3625252f2e19">Driver::void</a></div><div class="ttdeci">int void(Handle.InterruptCallback))(&amp;regs)</div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00165">165</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html#l00170">170</a> of file <a class="el" href="../../d7/d21/InterruptDescriptorTable_8cpp_source.html">InterruptDescriptorTable.cpp</a>.</p>
 
 </div>
 </div>

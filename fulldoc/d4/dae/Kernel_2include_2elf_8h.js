@@ -92,15 +92,15 @@ var Kernel_2include_2elf_8h =
     ] ],
     [ "Elf32_Dyn", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a4576333aaa9264efbbe9a5b7eff4d693", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a604ebbe48968215b40194d157f338991", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a2dab35d069b77f938f251a12b7663876", null ]
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a77e683c718b426ea57b1da8df578abcd", null ],
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a2e92837654508b94ba71dcb03a4bc6f1", null ],
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a293ff7f96d62027a98efc38eaeb86c7b", null ]
     ] ],
     [ "Elf64_Dyn", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a3876fb686ef5d14f83de107e21c03547", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#adafb4a3f5de4a462dfb51dd47315a5e0", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#acdb9b8d0df30b663353b3215c51dde02", null ]
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#af66128b458466a494a8bf12e83a64d4b", null ],
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a1f41f51941d4526bedd439bf145b9be4", null ],
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a9ed66907becdb7e67378b06f7083b9ca", null ]
     ] ],
     [ "Elf64_Rela", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d7/dc1/structElf64__Rela", [
       [ "r_addend", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a04358b55027a7dcc414e221d916aac64", null ],

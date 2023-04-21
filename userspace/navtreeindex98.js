@@ -1,5 +1,7 @@
 var NAVTREEINDEX98 =
 {
+"dc/d44/sysfile_8h.html#a6e0b3e02976fb3d5b1237dd89df7f6c6":[9,0,1,2,0,4,4],
+"dc/d44/sysfile_8h.html#a877ee675a0d7d3021d6030d6a16eea74":[9,0,1,2,0,4,5],
 "dc/d44/sysfile_8h.html#aa1ca961e56962f0ab0844abe9764155f":[9,0,1,2,0,4,0,0],
 "dc/d44/sysfile_8h.html#aae8b2d831d84ab23c9f09f3aabc222f9":[9,0,1,2,0,4,2],
 "dc/d44/sysfile_8h.html#ae40fd93446e95a734d8074301e7744ad":[9,0,1,2,0,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX98 =
 "dc/d7f/sysdeps_2dripos_2include_2abi-bits_2socket_8h.html#a4cc92c75bdef586063216b2b8a4df560":[9,0,1,3,3,1,1,0,28,98],
 "dc/d7f/sysdeps_2dripos_2include_2abi-bits_2socket_8h.html#a4db8b9a846c67404db0b6f014f9a9fdf":[9,0,1,3,3,1,1,0,28,94],
 "dc/d7f/sysdeps_2dripos_2include_2abi-bits_2socket_8h.html#a4f9a3faa2c7b9488103960ead54e7d88":[9,0,1,3,3,1,1,0,28,93],
-"dc/d7f/sysdeps_2dripos_2include_2abi-bits_2socket_8h.html#a51dba11ffc8e3b1bf695e721b3144094":[9,0,1,3,3,1,1,0,28,57],
-"dc/d7f/sysdeps_2dripos_2include_2abi-bits_2socket_8h.html#a521c315ca2a2a4e6345878e84af4085e":[9,0,1,3,3,1,1,0,28,48],
-"dc/d7f/sysdeps_2dripos_2include_2abi-bits_2socket_8h.html#a552d2cd8ffc1157c016299c5eba95b72":[9,0,1,3,3,1,1,0,28,74]
+"dc/d7f/sysdeps_2dripos_2include_2abi-bits_2socket_8h.html#a51dba11ffc8e3b1bf695e721b3144094":[9,0,1,3,3,1,1,0,28,57]
 };

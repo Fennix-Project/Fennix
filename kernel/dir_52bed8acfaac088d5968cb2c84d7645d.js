@@ -6,6 +6,7 @@ var dir_52bed8acfaac088d5968cb2c84d7645d =
     [ "FileSystem", "dir_fc640013f0a76820c9597bdd35dc893a.html", "dir_fc640013f0a76820c9597bdd35dc893a" ],
     [ "GUI", "dir_82cfaa78861b2918f7bb1979a43adb98.html", "dir_82cfaa78861b2918f7bb1979a43adb98" ],
     [ "include", "dir_2c335c1ccbf6ef7c89cc08c9ed88be2e.html", "dir_2c335c1ccbf6ef7c89cc08c9ed88be2e" ],
+    [ "include_std", "dir_f6afea1f11e371a5eb8eaf7be6cd53d5.html", "dir_f6afea1f11e371a5eb8eaf7be6cd53d5" ],
     [ "Library", "dir_bc57d2c181e5486d5586596c831c91e5.html", "dir_bc57d2c181e5486d5586596c831c91e5" ],
     [ "Network", "dir_69198d0cb01596a3dc83d5e4e4ea8fe8.html", "dir_69198d0cb01596a3dc83d5e4e4ea8fe8" ],
     [ "Profiling", "dir_d2985db07a4f9632175563fc4783bdd4.html", "dir_d2985db07a4f9632175563fc4783bdd4" ],
@@ -16,10 +17,10 @@ var dir_52bed8acfaac088d5968cb2c84d7645d =
     [ "DAPI.hpp", "d3/dfe/DAPI_8hpp.html", "d3/dfe/DAPI_8hpp" ],
     [ "Fex.hpp", "d0/da5/Fex_8hpp.html", "d0/da5/Fex_8hpp" ],
     [ "ipc.h", "d9/d24/ipc_8h.html", "d9/d24/ipc_8h" ],
-    [ "KConfig.cpp", "d3/d81/KConfig_8cpp.html", "d3/d81/KConfig_8cpp" ],
     [ "Kernel.cpp", "d2/d00/Kernel_8cpp.html", "d2/d00/Kernel_8cpp" ],
     [ "kernel.h", "d0/daa/kernel_8h.html", "d0/daa/kernel_8h" ],
-    [ "KThread.cpp", "d4/dfc/KThread_8cpp.html", "d4/dfc/KThread_8cpp" ],
+    [ "KernelConfig.cpp", "dc/d66/KernelConfig_8cpp.html", "dc/d66/KernelConfig_8cpp" ],
+    [ "KernelThread.cpp", "dd/d06/KernelThread_8cpp.html", "dd/d06/KernelThread_8cpp" ],
     [ "Makefile", "d9/d65/Makefile.html", null ],
     [ "syscalls.h", "d2/d6e/syscalls_8h.html", "d2/d6e/syscalls_8h" ]
 ];

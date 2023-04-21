@@ -46,7 +46,8 @@ var Fex_8hpp =
       [ "FexDriverType_Storage", "d0/da5/Fex_8hpp.html#af14fd31908d899cc178ab1711ad99f0ea00d9daad0baf4fccb5fecaaa3b98e2ce", null ],
       [ "FexDriverType_FileSystem", "d0/da5/Fex_8hpp.html#af14fd31908d899cc178ab1711ad99f0eaa7c9ce4405a44e301df177253b917ab8", null ],
       [ "FexDriverType_Input", "d0/da5/Fex_8hpp.html#af14fd31908d899cc178ab1711ad99f0ea4b46541ae91d55195d43bd343be91986", null ],
-      [ "FexDriverType_Audio", "d0/da5/Fex_8hpp.html#af14fd31908d899cc178ab1711ad99f0ead58811c5cd989998940293e30aa5df3f", null ]
+      [ "FexDriverType_Audio", "d0/da5/Fex_8hpp.html#af14fd31908d899cc178ab1711ad99f0ead58811c5cd989998940293e30aa5df3f", null ],
+      [ "FexDriverType_ACPI", "d0/da5/Fex_8hpp.html#af14fd31908d899cc178ab1711ad99f0ea6334b02741173f7d46d8cb6003ca5b2b", null ]
     ] ],
     [ "FexFormatType", "d0/da5/Fex_8hpp.html#a4564a233d1c439c8083525ef1103e9c8", [
       [ "FexFormatType_Unknown", "d0/da5/Fex_8hpp.html#a4564a233d1c439c8083525ef1103e9c8a0234a3f52e35cac83988f6c530c54cd7", null ],

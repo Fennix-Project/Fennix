@@ -5,12 +5,12 @@ var sysdeps_2linux_2include_2abi_bits_2signal_8h =
       [ "sival_ptr", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#af21491dd45c96eb58e2211c98a57b5cc", null ]
     ] ],
     [ "siginfo_t", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t", [
-      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ac2ac29a37fa00047563deef6b0f0e458", null ],
-      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aae434870e44ea4925de1c3185e84f904", null ],
-      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aa58773b98333fe8f50e85e503d830329", null ],
-      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ad6304e91b5a7a0311b44489b6768485c", null ],
-      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ae8dea2c46ebc1228782e376ceff87796", null ],
-      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a52f38223f7eb5476bea72bd3299441df", null ],
+      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ac3c9b1cb1cee66fb700f2821f73500a7", null ],
+      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a970e4d03189ef1a1fdf2ead8513ee6d9", null ],
+      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a000e2a9c428e6373f5ecb10e147b75da", null ],
+      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ad590dc6f0c6ac85c7c36b25c169753cf", null ],
+      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a8ed14e0a61bd7fc631d81e178279bb67", null ],
+      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ae6d4815d81005843a729f68563cc8344", null ],
       [ "si_addr", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aa42eedcfa01bdcb2bc6b8ac3bab0d9e9", null ],
       [ "si_code", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a0dd36ae3e9df589f5755f88c93671c2d", null ],
       [ "si_errno", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ae840a8f2824bab1693577f19f4d0432d", null ],

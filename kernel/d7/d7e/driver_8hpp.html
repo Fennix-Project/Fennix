@@ -93,20 +93,20 @@ $(document).ready(function(){initNavTree('d7/d7e/driver_8hpp.html','../../'); in
 <div class="title">driver.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d49/types_8h_source.html">types.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../da/d16/vector_8hpp_source.html">vector.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../da/d3e/memory_8hpp_source.html">memory.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 </div>
 <p><a href="../../d7/d7e/driver_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:d1/d76/structDriver_1_1DriverFile"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#d1/d76/structDriver_1_1DriverFile">Driver::DriverFile</a></td></tr>
-<tr class="separator:d1/d76/structDriver_1_1DriverFile"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d76/structDriver_1_1DriverFile.html">Driver::DriverFile</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html">Driver::DriverInterruptHook</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/classDriver_1_1Driver.html">Driver::Driver</a></td></tr>
@@ -137,62 +137,6 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:a020a5b26e9a3fe6af243be692d6147c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/><h2 class="groupheader">Data Structure Documentation</h2>
-<a name="d1/d76/structDriver_1_1DriverFile" id="d1/d76/structDriver_1_1DriverFile"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d1/d76/structDriver_1_1DriverFile">&#9670;&nbsp;</a></span>Driver::DriverFile</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct Driver::DriverFile</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00048">48</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="a4e5a21065d08b50760da3d043a3c75a6"></a><a class="el" href="../../d1/d48/namespaceDriver.html#ab729393050904fd1bdaf3625252f2e19">void</a> *</td>
-<td class="fieldname">
-Address</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a2b2874e017e272fa7e232f9e99dcf3c7"></a>unsigned long</td>
-<td class="fieldname">
-DriverUID</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a13e745a0a68e590b619e6eddd3b12809"></a><a class="el" href="../../d9/d49/types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a></td>
-<td class="fieldname">
-Enabled</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aa5e26c43fe51ecc3cb4f4fd1f64818d3"></a><a class="el" href="../../d1/d48/namespaceDriver.html#ab729393050904fd1bdaf3625252f2e19">void</a> *</td>
-<td class="fieldname">
-InterruptCallback</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ae7b25ec3022b0c95834dcac1304544af"></a><a class="el" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html">DriverInterruptHook</a> *</td>
-<td class="fieldname">
-InterruptHook[16]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a7fb1cc052ff13b8c50f65eeeeb27a10d"></a>MemMgr *</td>
-<td class="fieldname">
-MemTrk</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

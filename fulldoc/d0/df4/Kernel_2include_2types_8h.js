@@ -62,6 +62,8 @@ var Kernel_2include_2types_8h =
     [ "END_EXTERNC", "d0/df4/Kernel_2include_2types_8h.html#a437ba916916730550dd2b045bccc6833", null ],
     [ "EXTERNC", "d0/df4/Kernel_2include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100", null ],
     [ "false", "d0/df4/Kernel_2include_2types_8h.html#a65e9886d74aaee76545e83dd09011727", null ],
+    [ "ilp", "d0/df4/Kernel_2include_2types_8h.html#a18b98db98b43158605fe3cd1087732a1", null ],
+    [ "inf_loop", "d0/df4/Kernel_2include_2types_8h.html#aa9230594915ed6dc218abef840f043b7", null ],
     [ "int1", "d0/df4/Kernel_2include_2types_8h.html#aedcd837de58f1534fba6848ec222dfaa", null ],
     [ "INT16_MAX", "d0/df4/Kernel_2include_2types_8h.html#ac58f2c111cc9989c86db2a7dc4fd84ca", null ],
     [ "INT16_MIN", "d0/df4/Kernel_2include_2types_8h.html#ad4e9955955b27624963643eac448118a", null ],

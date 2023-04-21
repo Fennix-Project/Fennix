@@ -131,11 +131,11 @@ $(document).ready(function(){initNavTree('d9/d65/Makefile_source.html','../../')
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;CPP_SOURCES = $(shell find ./ -type f -name &#39;*.cpp&#39; -not -path &quot;./Architecture/amd64/*&quot; -not -path &quot;./Architecture/i386/*&quot;)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;RS_SOURCES = $(shell find ./ -type f -name &#39;*.rs&#39; -not -path &quot;./Architecture/amd64/*&quot; -not -path &quot;./Architecture/i386/*&quot;)</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;endif</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;HEADERS = $(sort $(dir $(wildcard ./include/*)))</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;HEADERS = $(sort $(dir $(wildcard ./include/*))) $(sort $(dir $(wildcard ./include_std/*)))</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;OBJ = $(C_SOURCES:.c=.o) $(CPP_SOURCES:.cpp=.o) $(RS_SOURCES:.rs=.o) $(ASM_SOURCES:.asm=.o) $(S_SOURCES:.S=.o) $(PSF_SOURCES:.psf=.o) $(BMP_SOURCES:.bmp=.o)</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;STACK_USAGE_OBJ = $(C_SOURCES:.c=.su) $(CPP_SOURCES:.cpp=.su)</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;GCNO_OBJ = $(C_SOURCES:.c=.gcno) $(CPP_SOURCES:.cpp=.gcno)</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;INCLUDE_DIR = ./include</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;INCLUDE_DIR = -I./include -I./include_std</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;LDFLAGS := -Wl,-Map kernel.map -shared -nostdlib -nodefaultlibs -nolibc</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
@@ -147,7 +147,7 @@ $(document).ready(function(){initNavTree('d9/d65/Makefile_source.html','../../')
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;# https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;CFLAGS :=                                       \</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    -I$(INCLUDE_DIR)                            \</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    $(INCLUDE_DIR)                              \</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    -DKERNEL_NAME=&#39;&quot;$(OSNAME)&quot;&#39;                 \</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    -DKERNEL_VERSION=&#39;&quot;$(KERNEL_VERSION)&quot;&#39;      \</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    -DGIT_COMMIT=&#39;&quot;$(GIT_COMMIT)&quot;&#39;              \</div>
@@ -159,7 +159,7 @@ $(document).ready(function(){initNavTree('d9/d65/Makefile_source.html','../../')
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;CFLAGS += -fno-pic -fno-pie                 \</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;          -mno-red-zone -march=core2 -pipe  \</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;          -mcmodel=kernel -fno-builtin -Da64</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;          -mcmodel=kernel -fno-builtin -Da64 -Da86</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;CFLAG_STACK_PROTECTOR := -fstack-protector-all</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;LDFLAGS += -TArchitecture/amd64/linker.ld   \</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    -fno-pic -fno-pie                       \</div>
@@ -172,7 +172,7 @@ $(document).ready(function(){initNavTree('d9/d65/Makefile_source.html','../../')
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;CFLAGS += -fno-pic -fno-pie -mno-80387 -mno-mmx -mno-3dnow  \</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;          -mno-red-zone -march=pentium -pipe -msoft-float   \</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;          -fno-builtin -Da32</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;          -fno-builtin -Da32 -Da86</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;CFLAG_STACK_PROTECTOR := -fstack-protector-all</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;LDFLAGS += -TArchitecture/i386/linker.ld    \</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    -fno-pic -fno-pie                       \</div>

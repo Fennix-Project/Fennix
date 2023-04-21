@@ -16,7 +16,7 @@ var namespaceVirtualFileSystem =
     [ "USTAR", "d3/d26/classVirtualFileSystem_1_1USTAR.html", "d3/d26/classVirtualFileSystem_1_1USTAR" ],
     [ "FileSystemOperations", "d5/da1/namespaceVirtualFileSystem.html#d4/d2a/structVirtualFileSystem_1_1FileSystemOperations", "d5/da1/namespaceVirtualFileSystem_d4/d2a/structVirtualFileSystem_1_1FileSystemOperations_dup" ],
     [ "Node", "d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node", "d5/da1/namespaceVirtualFileSystem_da/d1a/structVirtualFileSystem_1_1Node_dup" ],
-    [ "File", "d5/da1/namespaceVirtualFileSystem.html#d9/dea/structVirtualFileSystem_1_1File", "d5/da1/namespaceVirtualFileSystem_d9/dea/structVirtualFileSystem_1_1File_dup" ],
+    [ "File", "d9/dea/structVirtualFileSystem_1_1File.html", "d9/dea/structVirtualFileSystem_1_1File" ],
     [ "Virtual", "d8/dbd/classVirtualFileSystem_1_1Virtual.html", "d8/dbd/classVirtualFileSystem_1_1Virtual" ],
     [ "OperationClose", "d5/da1/namespaceVirtualFileSystem.html#a8c746fc2aa5630d9c5c43b9a83933500", null ],
     [ "OperationCreate", "d5/da1/namespaceVirtualFileSystem.html#adc08a8cc040d568d927bf0121aa68d7e", null ],

@@ -1,5 +1,10 @@
 var NAVTREEINDEX34 =
 {
+"d3/d21/classACPI_1_1ACPI.html#ac151c44661abf0e29b8623f84bad0951":[11,0,1,0,2,46],
+"d3/d21/classACPI_1_1ACPI.html#ac151c44661abf0e29b8623f84bad0951":[12,0,0,0,1,3,5,46],
+"d3/d21/classACPI_1_1ACPI.html#ac43448b10ed6219c0ccae1262c01799a":[11,0,1,0,2,24],
+"d3/d21/classACPI_1_1ACPI.html#ac43448b10ed6219c0ccae1262c01799a":[12,0,0,0,1,3,5,24],
+"d3/d21/classACPI_1_1ACPI.html#ac447aebbbc584d79a3dfc37925ddb8f1":[11,0,1,0,1,2],
 "d3/d21/classACPI_1_1ACPI.html#ac447aebbbc584d79a3dfc37925ddb8f1":[12,0,0,0,1,3,6,2],
 "d3/d21/classACPI_1_1ACPI.html#aca414d3b0034839943dc9e56c315a060":[11,0,1,0,2,16],
 "d3/d21/classACPI_1_1ACPI.html#aca414d3b0034839943dc9e56c315a060":[12,0,0,0,1,3,5,16],
@@ -76,8 +81,8 @@ var NAVTREEINDEX34 =
 "d3/d21/classACPI_1_1ACPI.html#da/d64/structACPI_1_1ACPI_1_1HESTHeader":[12,0,0,0,1,3,11],
 "d3/d21/classACPI_1_1ACPI.html#db/d3d/structACPI_1_1ACPI_1_1TPM2Header":[11,0,1,0,10],
 "d3/d21/classACPI_1_1ACPI.html#db/d3d/structACPI_1_1ACPI_1_1TPM2Header":[12,0,0,0,1,3,8],
-"d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure":[12,0,0,0,1,3,2],
 "d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure":[11,0,1,0,3],
+"d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure":[12,0,0,0,1,3,2],
 "d3/d21/classACPI_1_1ACPI.html#dd/db0/structACPI_1_1ACPI_1_1MCFGHeader":[11,0,1,0,7],
 "d3/d21/classACPI_1_1ACPI.html#dd/db0/structACPI_1_1ACPI_1_1MCFGHeader":[12,0,0,0,1,3,3],
 "d3/d21/classACPI_1_1ACPI.html#df/d0c/structACPI_1_1ACPI_1_1FADTHeader":[11,0,1,0,2],
@@ -242,12 +247,7 @@ var NAVTREEINDEX34 =
 "d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs":[12,0,2,3,2,10,0,28,1],
 "d3/d30/spawn-stubs_8cpp.html#d8/d4a/structfdop":[12,0,2,3,2,10,0,28,0],
 "d3/d30/spawn-stubs_8cpp_source.html":[12,0,2,3,2,10,0,28],
-"d3/d31/structglobal__constructor__guard.html":[11,0,235],
-"d3/d31/structglobal__constructor__guard.html#aa333c821655babde38f236fbaad9eedb":[11,0,235,0],
-"d3/d32/WidgetEvents_8cpp.html":[12,0,0,4,4],
-"d3/d32/WidgetEvents_8cpp_source.html":[12,0,0,4,4],
-"d3/d33/sincosf_8c.html":[12,0,2,3,2,0,2,192],
-"d3/d33/sincosf_8c.html#a190fd504551ce54bf6f45b987b7a4087":[12,0,2,3,2,0,2,192,3],
-"d3/d33/sincosf_8c.html#a369266c24eacffb87046522897a570d5":[12,0,2,3,2,0,2,192,0],
-"d3/d33/sincosf_8c.html#a938594cc17f910c450dfdcdf4e41ed92":[12,0,2,3,2,0,2,192,2]
+"d3/d31/structglobal__constructor__guard.html":[11,0,234],
+"d3/d31/structglobal__constructor__guard.html#aa333c821655babde38f236fbaad9eedb":[11,0,234,0],
+"d3/d32/WidgetEvents_8cpp.html":[12,0,0,4,4]
 };

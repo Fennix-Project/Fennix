@@ -1,5 +1,11 @@
 var NAVTREEINDEX127 =
 {
+"df/d86/memrchr_8c.html":[9,0,1,3,4,4,20],
+"df/d86/memrchr_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[9,0,1,3,4,4,20,0],
+"df/d86/memrchr_8c_source.html":[9,0,1,3,4,4,20],
+"df/d87/sys-mman-stubs_8cpp.html":[9,0,1,3,2,10,0,32],
+"df/d87/sys-mman-stubs_8cpp.html#a03b30383879c5b943ac4d4f9077aeb66":[9,0,1,3,2,10,0,32,7],
+"df/d87/sys-mman-stubs_8cpp.html#a07669d429b5d7f9c9067b7ae2282a82a":[9,0,1,3,2,10,0,32,6],
 "df/d87/sys-mman-stubs_8cpp.html#a17d08ef977651eb39a74a7db64e9d215":[9,0,1,3,2,10,0,32,8],
 "df/d87/sys-mman-stubs_8cpp.html#a4037e49e9537e24edd610bd1acf090da":[9,0,1,3,2,10,0,32,13],
 "df/d87/sys-mman-stubs_8cpp.html#a49da9349d68e3ced27b73c1b2e88ebf3":[9,0,1,3,2,10,0,32,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX127 =
 "df/db5/sysdeps_2managarm_2include_2abi-bits_2access_8h_source.html":[9,0,1,3,3,6,2,0,0],
 "df/db6/namespaceanonymous__namespace_02pwd-stubs_8cpp_03.html":[7,0,11],
 "df/db6/namespaceanonymous__namespace_02pwd-stubs_8cpp_03.html#a15f384755ad554760aff468b940743ef":[7,0,11,3],
-"df/db6/namespaceanonymous__namespace_02pwd-stubs_8cpp_03.html#a3ccff4b6d2eea179fc9e8884529d31df":[7,0,11,4],
-"df/db6/namespaceanonymous__namespace_02pwd-stubs_8cpp_03.html#a3ff4477d6a3b0ca81b422a6d9116a1ba":[7,0,11,5],
-"df/db6/namespaceanonymous__namespace_02pwd-stubs_8cpp_03.html#a688b8f7b4a7cea334fca12f5bd0d33de":[7,0,11,2],
-"df/db6/namespaceanonymous__namespace_02pwd-stubs_8cpp_03.html#ade984c9a9b12814cd43a19989b1f9565":[7,0,11,0],
-"df/db6/namespaceanonymous__namespace_02pwd-stubs_8cpp_03.html#ae9f76b839f1211fbfce9b100e51ac706":[7,0,11,1],
-"df/db6/p__doors_8c.html":[9,0,1,0,2,0,0,0,113],
-"df/db6/p__doors_8c.html#a3c6c199dfd10698557da40d4dd47d2a0":[9,0,1,0,2,0,0,0,113,3]
+"df/db6/namespaceanonymous__namespace_02pwd-stubs_8cpp_03.html#a3ccff4b6d2eea179fc9e8884529d31df":[7,0,11,4]
 };

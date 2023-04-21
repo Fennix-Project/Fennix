@@ -129,7 +129,7 @@ var classACPI_1_1ACPI =
       [ "Flags", "d3/d21/classACPI_1_1ACPI.html#a333e8e62b3bcb5d54d9753687dff811d", null ],
       [ "Header", "d3/d21/classACPI_1_1ACPI.html#a6d623fecf2dc711bc3c034aae12ba7c7", null ]
     ] ],
-    [ "ACPI", "d3/d21/classACPI_1_1ACPI.html#abf400c32763e6b8236fed17d99e53b67", null ],
+    [ "ACPI", "d3/d21/classACPI_1_1ACPI.html#a9ba297defadc0ed2712f8106a54d11f1", null ],
     [ "~ACPI", "d3/d21/classACPI_1_1ACPI.html#a6b195e994f9c870ca9dfe0f85aec1bcb", null ],
     [ "FindTable", "d3/d21/classACPI_1_1ACPI.html#a1c23292da32c6b63963ce45162e7a3fa", null ],
     [ "SearchTables", "d3/d21/classACPI_1_1ACPI.html#a035077c5de0ff628300e57c8b64132e3", null ],

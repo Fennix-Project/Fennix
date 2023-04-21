@@ -142,7 +142,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *ptr = <span class="keyword">reinterpret_cast&lt;</span><span class="keyword">const </span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *<span class="keyword">&gt;</span>(set);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <span class="keyword">sizeof</span>(<a class="code" href="../../d3/d68/Userspace_2mlibc_2options_2posix_2include_2sched_8h.html#a3f2bd2626b036291ab48f5a7fb63e44f">cpu_set_t</a>); <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++) {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> bit = 0; bit &lt; <a class="code" href="../../df/d6f/Kernel_2include_2limits_8h.html#a308d9dd2c0028ddb184b455bbd7865de">CHAR_BIT</a>; bit++) {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> bit = 0; bit &lt; <a class="code" href="../../d4/df4/Kernel_2include__std_2limits_8h.html#a308d9dd2c0028ddb184b455bbd7865de">CHAR_BIT</a>; bit++) {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">if</span>((1 &lt;&lt; bit) &amp; ptr[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>])</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                <a class="code" href="../../d8/dc0/init_8h.html#a97425fbfd6f5a9b57a20721b2dcdf819">count</a>++;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        }</div>
@@ -150,12 +150,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/dc0/init_8h.html#a97425fbfd6f5a9b57a20721b2dcdf819">count</a>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include_2limits_8h_html_a308d9dd2c0028ddb184b455bbd7865de"><div class="ttname"><a href="../../df/d6f/Kernel_2include_2limits_8h.html#a308d9dd2c0028ddb184b455bbd7865de">CHAR_BIT</a></div><div class="ttdeci">#define CHAR_BIT</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d6f/Kernel_2include_2limits_8h_source.html#l00022">limits.h:22</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2limits_8h_html_a308d9dd2c0028ddb184b455bbd7865de"><div class="ttname"><a href="../../d4/df4/Kernel_2include__std_2limits_8h.html#a308d9dd2c0028ddb184b455bbd7865de">CHAR_BIT</a></div><div class="ttdeci">#define CHAR_BIT</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00022">limits.h:22</a></div></div>
 <div class="ttc" id="aUserspace_2mlibc_2options_2posix_2include_2sched_8h_html_a3f2bd2626b036291ab48f5a7fb63e44f"><div class="ttname"><a href="../../d3/d68/Userspace_2mlibc_2options_2posix_2include_2sched_8h.html#a3f2bd2626b036291ab48f5a7fb63e44f">cpu_set_t</a></div><div class="ttdeci">struct __mlibc_cpu_set cpu_set_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d68/Userspace_2mlibc_2options_2posix_2include_2sched_8h_source.html#l00056">sched.h:61</a></div></div>
 <div class="ttc" id="ainit_8h_html_a97425fbfd6f5a9b57a20721b2dcdf819"><div class="ttname"><a href="../../d8/dc0/init_8h.html#a97425fbfd6f5a9b57a20721b2dcdf819">count</a></div><div class="ttdeci">size_t count</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc0/init_8h_source.html#l00010">init.h:10</a></div></div>
 <div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d6f/Kernel_2include_2limits_8h_source.html#l00022">CHAR_BIT</a>, <a class="el" href="../../d8/dc0/init_8h_source.html#l00010">count</a>, and <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00022">CHAR_BIT</a>, <a class="el" href="../../d8/dc0/init_8h_source.html#l00010">count</a>, and <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>.</p>
 
 </div>
 </div>
@@ -298,16 +298,16 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keyword">auto</span> sysdep = <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a09174f822fdcd96043e758bf9f86cf96">mlibc::sys_get_min_priority</a>, -1);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = sysdep(policy, &amp;res); e) {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d9/d66/Kernel_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> res;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d9/d66/Kernel_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d66/Kernel_2include_2errno_8h_source.html#l00057">errno.h:57</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00057">errno.h:57</a></div></div>
 <div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00024">ensure.h:24</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a09174f822fdcd96043e758bf9f86cf96"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a09174f822fdcd96043e758bf9f86cf96">mlibc::sys_get_min_priority</a></div><div class="ttdeci">int sys_get_min_priority(int policy, int *out)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d66/Kernel_2include_2errno_8h_source.html#l00057">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d0/d9a/namespacemlibc.html#a09174f822fdcd96043e758bf9f86cf96">mlibc::sys_get_min_priority()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00057">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d0/d9a/namespacemlibc.html#a09174f822fdcd96043e758bf9f86cf96">mlibc::sys_get_min_priority()</a>.</p>
 
 </div>
 </div>
@@ -347,14 +347,14 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                                                     {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a4f69346ea4682328b477352822bd15f4">mlibc::sys_getaffinity</a>, -1);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = <a class="code" href="../../d0/d9a/namespacemlibc.html#a4f69346ea4682328b477352822bd15f4">mlibc::sys_getaffinity</a>(pid, cpusetsize, mask); e) {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../d9/d66/Kernel_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="ttc" id="anamespacemlibc_html_a4f69346ea4682328b477352822bd15f4"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a4f69346ea4682328b477352822bd15f4">mlibc::sys_getaffinity</a></div><div class="ttdeci">int sys_getaffinity(pid_t pid, size_t cpusetsize, cpu_set_t *mask)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d66/Kernel_2include_2errno_8h_source.html#l00057">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d0/d9a/namespacemlibc.html#a4f69346ea4682328b477352822bd15f4">mlibc::sys_getaffinity()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00057">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d0/d9a/namespacemlibc.html#a4f69346ea4682328b477352822bd15f4">mlibc::sys_getaffinity()</a>.</p>
 
 </div>
 </div>

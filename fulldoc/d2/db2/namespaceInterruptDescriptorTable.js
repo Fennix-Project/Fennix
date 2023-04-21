@@ -4,19 +4,32 @@ var namespaceInterruptDescriptorTable =
     [ "_InterruptDescriptorTableDescriptor", "d2/db2/namespaceInterruptDescriptorTable.html#dc/ded/structInterruptDescriptorTable_1_1__InterruptDescriptorTableDescriptor", "d2/db2/namespaceInterruptDescriptorTable_dc/ded/structInterruptDescriptorTable_1_1__InterruptDescriptorTableDescriptor_dup" ],
     [ "InterruptDescriptorTableDescriptor", "d2/db2/namespaceInterruptDescriptorTable.html#ad63e3bcdb96cd8814586c737ce4eb9f2", null ],
     [ "InterruptDescriptorTableEntry", "d2/db2/namespaceInterruptDescriptorTable.html#af2fbeed1966a379058d595a236155dbf", null ],
-    [ "InterruptDescriptorTableFlags", "d2/db2/namespaceInterruptDescriptorTable.html#ae24ba5152e822eb3b7599bb191f81d9f", null ],
-    [ "_InterruptDescriptorTableFlags", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1", [
-      [ "FlagGate_TASK", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1ab080a80e39628b2e7267dc3d52d61d4a", null ],
-      [ "FlagGate_16BIT_INT", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1aa6cb565c948c4616de5e8cc758a00d57", null ],
-      [ "FlagGate_16BIT_TRAP", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1afdc84ace9ccba574c6a3b7ceac0bec86", null ],
-      [ "FlagGate_32BIT_INT", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a5ee5558a0877e2298adac20cbc942c2a", null ],
-      [ "FlagGate_32BIT_TRAP", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a9da043d8f524dd37d2d34bf2432b9b3b", null ],
-      [ "FlagGate_RING0", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a35f89aeabb91849a65fcb295369fec40", null ],
-      [ "FlagGate_RING1", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1abc9d9ff2d3e1659ce39e6aba27d1c0d7", null ],
-      [ "FlagGate_RING2", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a371c27859efb080da36f2f95506a418c", null ],
-      [ "FlagGate_RING3", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a8cd1802c26bb40bb9bc522c46c529790", null ],
-      [ "FlagGate_PRESENT", "d2/db2/namespaceInterruptDescriptorTable.html#ac608e596da0989c5e61a454c44e05fa1a16604b483134cd6a516f9c500db8f6ea", null ]
+    [ "InterruptGateType", "d2/db2/namespaceInterruptDescriptorTable.html#abb287fb54c1a51695648e51e1775430f", null ],
+    [ "InterruptRingType", "d2/db2/namespaceInterruptDescriptorTable.html#a6a767f5a2fc3b3aa6bab00c39147d1de", null ],
+    [ "InterruptStackTableType", "d2/db2/namespaceInterruptDescriptorTable.html#adda18448162f2a2d7286a583d552211a", null ],
+    [ "_InterruptGateType", "d2/db2/namespaceInterruptDescriptorTable.html#ac2c495ffcea74939b7be67238750916d", [
+      [ "TASK", "d2/db2/namespaceInterruptDescriptorTable.html#ac2c495ffcea74939b7be67238750916daa3be5de422990d7c399f868887124990", null ],
+      [ "INT_16BIT", "d2/db2/namespaceInterruptDescriptorTable.html#ac2c495ffcea74939b7be67238750916da3e59aaa5793779a7ed4e7cc86535add2", null ],
+      [ "TRAP_16BIT", "d2/db2/namespaceInterruptDescriptorTable.html#ac2c495ffcea74939b7be67238750916da175910ac5ff670b6cf5f573cd2204e10", null ],
+      [ "INT_32BIT", "d2/db2/namespaceInterruptDescriptorTable.html#ac2c495ffcea74939b7be67238750916dae8173a4c35c856b98993dd7e27447c25", null ],
+      [ "TRAP_32BIT", "d2/db2/namespaceInterruptDescriptorTable.html#ac2c495ffcea74939b7be67238750916dac646754c8d2a6c4052308e6970588d4e", null ]
     ] ],
+    [ "_InterruptRingType", "d2/db2/namespaceInterruptDescriptorTable.html#ae79a6033a3ba26058229e609e58f21ed", [
+      [ "RING0", "d2/db2/namespaceInterruptDescriptorTable.html#ae79a6033a3ba26058229e609e58f21edadef256aa5534eb36bf70652626430f53", null ],
+      [ "RING1", "d2/db2/namespaceInterruptDescriptorTable.html#ae79a6033a3ba26058229e609e58f21eda6a24186a49c7106721c248d422a609ae", null ],
+      [ "RING2", "d2/db2/namespaceInterruptDescriptorTable.html#ae79a6033a3ba26058229e609e58f21edad77c3b7ef7f754570610f715468278b8", null ],
+      [ "RING3", "d2/db2/namespaceInterruptDescriptorTable.html#ae79a6033a3ba26058229e609e58f21eda0fdc87971ed5f9e04fd7375970dc6bc2", null ]
+    ] ],
+    [ "_InterruptStackTableType", "d2/db2/namespaceInterruptDescriptorTable.html#a264bc8fc3846eebd57fa8f027e30b88f", [
+      [ "IST0", "d2/db2/namespaceInterruptDescriptorTable.html#a264bc8fc3846eebd57fa8f027e30b88fa6dd926c7a2b139afa74d3f927ffb8a62", null ],
+      [ "IST1", "d2/db2/namespaceInterruptDescriptorTable.html#a264bc8fc3846eebd57fa8f027e30b88fae50f3c537d3800cda1a5f55444cc262f", null ],
+      [ "IST2", "d2/db2/namespaceInterruptDescriptorTable.html#a264bc8fc3846eebd57fa8f027e30b88fae7d5ca00fb0758499dd46d5741127cb7", null ],
+      [ "IST3", "d2/db2/namespaceInterruptDescriptorTable.html#a264bc8fc3846eebd57fa8f027e30b88fa4e2dce4f495fedbd32986e4b166e17b6", null ],
+      [ "IST4", "d2/db2/namespaceInterruptDescriptorTable.html#a264bc8fc3846eebd57fa8f027e30b88fae9c1989885713ddbac491cf2e067d300", null ],
+      [ "IST5", "d2/db2/namespaceInterruptDescriptorTable.html#a264bc8fc3846eebd57fa8f027e30b88faf5b6ecef715a91dc422d9f04d0a16540", null ],
+      [ "IST6", "d2/db2/namespaceInterruptDescriptorTable.html#a264bc8fc3846eebd57fa8f027e30b88faa6654648b549fce2d10755a86c3c1aa6", null ]
+    ] ],
+    [ "__aligned", "d2/db2/namespaceInterruptDescriptorTable.html#ae33a1317cc5ebd3cc50a15cbd787f6d6", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#afb7ecf9fc0491027fc6c9457c9e7a71f", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a79b0b2a4ee90ae36c274116d678c16bf", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a537df31f84d976556362b1b0de35f276", null ],
@@ -49,10 +62,8 @@ var namespaceInterruptDescriptorTable =
     [ "EXCEPTION_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a8b482057aba9d7fb8e0df91a00df0d0a", null ],
     [ "EXCEPTION_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a5c17bef14be9a26c98a78d9a523aade3", null ],
     [ "EXCEPTION_HANDLER", "d2/db2/namespaceInterruptDescriptorTable.html#a06dc90ea4f9b497dde29a66795414f7a", null ],
-    [ "ExceptionHandlerStub", "d2/db2/namespaceInterruptDescriptorTable.html#acaf5b6fc70e97825348c34900c0d81c7", null ],
     [ "Init", "d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908", null ],
-    [ "InterruptHandlerStub", "d2/db2/namespaceInterruptDescriptorTable.html#a33c5c1968a22626a6e46b7b98907166f", null ],
-    [ "SetEntry", "d2/db2/namespaceInterruptDescriptorTable.html#a91dd97eaf022dfa7a023a8734aa59a1b", null ],
+    [ "SetEntry", "d2/db2/namespaceInterruptDescriptorTable.html#aa4baace89060170178ec7e72b6e162c4", null ],
     [ "Entries", "d2/db2/namespaceInterruptDescriptorTable.html#a679e5cab62e2086ee8684461fa9afa16", null ],
     [ "idtd", "d2/db2/namespaceInterruptDescriptorTable.html#a2d9560d834d891b9d8f0e76ced1bc8a7", null ]
 ];
