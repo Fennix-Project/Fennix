@@ -1,22 +1,26 @@
 var classTime_1_1time =
 [
-    [ "HPET", "dd/d8d/classTime_1_1time.html#da/d40/structTime_1_1time_1_1HPET", [
-      [ "GeneralCapabilities", "dd/d8d/classTime_1_1time.html#a9606652f379beb538608ff7f58db7e72", null ],
-      [ "GeneralConfiguration", "dd/d8d/classTime_1_1time.html#aa4e67c0958e3df637a9dc94eee4cbd92", null ],
-      [ "GeneralIntStatus", "dd/d8d/classTime_1_1time.html#a6e023353236024a3945c1161012d085d", null ],
-      [ "MainCounterValue", "dd/d8d/classTime_1_1time.html#afd51f125af286eeed692d29376553c32", null ],
-      [ "Reserved0", "dd/d8d/classTime_1_1time.html#a79188a6d5ec55ab7befd3c5b95ef1ee3", null ],
-      [ "Reserved1", "dd/d8d/classTime_1_1time.html#ad405c4ef9bb703260d8268db501b1fdb", null ],
-      [ "Reserved2", "dd/d8d/classTime_1_1time.html#ae965286be04a4f2d8c29f7eb7e549c83", null ],
-      [ "Reserved3", "dd/d8d/classTime_1_1time.html#ae2c257159b14d2a56ab4ea3a151c0b22", null ],
-      [ "Reserved4", "dd/d8d/classTime_1_1time.html#aac77599a0ba95b29bd93e008f07f20f7", null ]
+    [ "TimeActiveTimer", "dd/d8d/classTime_1_1time.html#adf52b576e6faf9c02025245e1aff6369", [
+      [ "NONE", "dd/d8d/classTime_1_1time.html#adf52b576e6faf9c02025245e1aff6369aa70638649855cfb80bf2f7af92940b27", null ],
+      [ "RTC", "dd/d8d/classTime_1_1time.html#adf52b576e6faf9c02025245e1aff6369a6b948e113dc1b096632ef3fdc183a384", null ],
+      [ "PIT", "dd/d8d/classTime_1_1time.html#adf52b576e6faf9c02025245e1aff6369a9fa0137523f32d7967d4717d60763cd0", null ],
+      [ "HPET", "dd/d8d/classTime_1_1time.html#adf52b576e6faf9c02025245e1aff6369abcaa069f2d83350f38b4f26769183656", null ],
+      [ "ACPI", "dd/d8d/classTime_1_1time.html#adf52b576e6faf9c02025245e1aff6369a41d182dfd1f881766214666b98107707", null ],
+      [ "APIC", "dd/d8d/classTime_1_1time.html#adf52b576e6faf9c02025245e1aff6369aa6234da166712a1bf7ea45f36caeea9c", null ],
+      [ "TSC", "dd/d8d/classTime_1_1time.html#adf52b576e6faf9c02025245e1aff6369af88b6c145e9918e3262bf9be3caa0f04", null ]
     ] ],
-    [ "time", "dd/d8d/classTime_1_1time.html#aee23853afb1719c6582b2ad1093947ba", null ],
+    [ "time", "dd/d8d/classTime_1_1time.html#ae7732a66fd35772bf22b0525ffa20ecd", null ],
     [ "~time", "dd/d8d/classTime_1_1time.html#a7d3d3ad01473797014190b24b65eb36b", null ],
-    [ "CalculateTarget", "dd/d8d/classTime_1_1time.html#a012cab762805bbdfe71cfcfb7b31d027", null ],
+    [ "CalculateTarget", "dd/d8d/classTime_1_1time.html#a9359bb42e35516bd19f02e8855c6200a", null ],
+    [ "ChangeActiveTimer", "dd/d8d/classTime_1_1time.html#ae8100a229a19dcdb1f55a347944996e8", null ],
+    [ "FindTimers", "dd/d8d/classTime_1_1time.html#a626d2a7cbd790cebc3154e02eab3f00e", null ],
+    [ "GetActiveTimer", "dd/d8d/classTime_1_1time.html#a22a015ee619926c153b21d7741cceed5", null ],
     [ "GetCounter", "dd/d8d/classTime_1_1time.html#a3fb6d85ca30d0a2dfab46ede31bfa2f6", null ],
-    [ "Sleep", "dd/d8d/classTime_1_1time.html#a79937b39cb6ad50261411d2b4c1b7b7b", null ],
-    [ "acpi", "dd/d8d/classTime_1_1time.html#a9815a1c91ce9b75a63beeee3d3ba7bfb", null ],
-    [ "clk", "dd/d8d/classTime_1_1time.html#a9266676f52330e93bc38435aef59c240", null ],
-    [ "hpet", "dd/d8d/classTime_1_1time.html#a72eacc0532d25bab413418a89c2c8638", null ]
+    [ "GetNanosecondsSinceClassCreation", "dd/d8d/classTime_1_1time.html#a0d22feb52f3c4d0a785af47db829aed3", null ],
+    [ "GetSupportedTimers", "dd/d8d/classTime_1_1time.html#ab85791c8593419d775b753c1d21da9f9", null ],
+    [ "Sleep", "dd/d8d/classTime_1_1time.html#ab70a91fe9aaa0cd7695b24879077b313", null ],
+    [ "ActiveTimer", "dd/d8d/classTime_1_1time.html#a561209204e58d2eeba99f05e1c1166c1", null ],
+    [ "hpet", "dd/d8d/classTime_1_1time.html#ad4499bae32d87614eb56dc60ce866851", null ],
+    [ "SupportedTimers", "dd/d8d/classTime_1_1time.html#a192292a28c2cde15c453be13fff5ecd6", null ],
+    [ "tsc", "dd/d8d/classTime_1_1time.html#af046fa7a3688dfa9dd3c34f1f591e9da", null ]
 ];

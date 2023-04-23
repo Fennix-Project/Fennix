@@ -83,8 +83,6 @@ var namespaces_dup =
     [ "anonymous_namespace{time.cpp}", "d4/d30/namespaceanonymous__namespace_02time_8cpp_03.html", "d4/d30/namespaceanonymous__namespace_02time_8cpp_03" ],
     [ "anonymous_namespace{wchar-stubs.cpp}", "da/da2/namespaceanonymous__namespace_02wchar-stubs_8cpp_03.html", "da/da2/namespaceanonymous__namespace_02wchar-stubs_8cpp_03" ],
     [ "APIC", "d3/d88/namespaceAPIC.html", "d3/d88/namespaceAPIC" ],
-    [ "AVX", "d9/de6/namespaceAVX.html", null ],
-    [ "AVX2", "df/dfb/namespaceAVX2.html", null ],
     [ "CPU", "d7/dfa/namespaceCPU.html", "d7/dfa/namespaceCPU" ],
     [ "CrashHandler", "d2/d57/namespaceCrashHandler.html", "d2/d57/namespaceCrashHandler" ],
     [ "Disk", "d1/d29/namespaceDisk.html", "d1/d29/namespaceDisk" ],
@@ -113,7 +111,6 @@ var namespaces_dup =
       [ "mem_op", "d3/d97/namespaceMemory.html#a6c1d73cc8a1e574400a2055d2beddf2a", null ]
     ] ],
     [ "mlibc", "d0/d9a/namespacemlibc.html", "d0/d9a/namespacemlibc" ],
-    [ "MMX", "dd/db4/namespaceMMX.html", null ],
     [ "NetworkARP", "d2/df9/namespaceNetworkARP.html", "d2/df9/namespaceNetworkARP" ],
     [ "NetworkDHCP", "dd/d53/namespaceNetworkDHCP.html", "dd/d53/namespaceNetworkDHCP" ],
     [ "NetworkDNS", "d3/dd7/namespaceNetworkDNS.html", "d3/dd7/namespaceNetworkDNS" ],
@@ -146,12 +143,6 @@ var namespaces_dup =
       [ "Initialize", "d6/d37/namespaceSMP.html#a83df3dc276fba1e673fcf5551113ca7e", null ],
       [ "CPUCores", "d6/d37/namespaceSMP.html#adaefa60b0beb8f8a2acae6a8c6e87273", null ]
     ] ],
-    [ "SSE", "d5/de2/namespaceSSE.html", null ],
-    [ "SSE2", "d4/d85/namespaceSSE2.html", null ],
-    [ "SSE3", "d8/d98/namespaceSSE3.html", null ],
-    [ "SSE4_1", "de/db2/namespaceSSE4__1.html", null ],
-    [ "SSE4_2", "db/d3d/namespaceSSE4__2.html", null ],
-    [ "SSSE3", "d0/d9a/namespaceSSSE3.html", null ],
     [ "std", "d8/dcc/namespacestd.html", "d8/dcc/namespacestd" ],
     [ "SymbolResolver", "d9/d05/namespaceSymbolResolver.html", "d9/d05/namespaceSymbolResolver" ],
     [ "SysDbg", "d3/df0/namespaceSysDbg.html", [

@@ -6,7 +6,7 @@ var sysdeps_2lyre_2include_2abi_bits_2signal_8h =
     ] ],
     [ "siginfo_t", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t", [
       [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ac3c9b1cb1cee66fb700f2821f73500a7", null ],
-      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a970e4d03189ef1a1fdf2ead8513ee6d9", null ],
+      [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aecfb1d91676c87a22385b092a8342198", null ],
       [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a000e2a9c428e6373f5ecb10e147b75da", null ],
       [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ad590dc6f0c6ac85c7c36b25c169753cf", null ],
       [ "__si_fields", "d9/d3d/sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a8ed14e0a61bd7fc631d81e178279bb67", null ],

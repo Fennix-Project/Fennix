@@ -1,13 +1,13 @@
 var amd64_2cpu_2gdt_8hpp =
 [
     [ "GlobalDescriptorTableAccess", "d1/d69/namespaceGlobalDescriptorTable.html#d0/df6/unionGlobalDescriptorTable_1_1GlobalDescriptorTableAccess", [
-      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a0b1806da912eddd05da2fb5488b42820", null ],
-      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#aa3d09a0d0098ff145eea64e1561c5f5b", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#ae21f7eaf2b790738ad84f91b37d10618", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#ac824ce91c01512690ca8cda8f9d18e13", null ],
       [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#afd9dd502a7fed60cb06675ba090f5fe0", null ]
     ] ],
     [ "GlobalDescriptorTableFlags", "d1/d69/namespaceGlobalDescriptorTable.html#dd/d16/unionGlobalDescriptorTable_1_1GlobalDescriptorTableFlags", [
-      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a278526e4bc58a3bcb94b2f692d6d666d", null ],
-      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#ad8d6dcf413ca57ffb2c2122835ba8a47", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a54989b2cfe01f2f4ea08f44493665f23", null ],
+      [ "__packed", "d1/d69/namespaceGlobalDescriptorTable.html#a76a535f8398d3bf8ff990987a8727be8", null ],
       [ "Raw", "d1/d69/namespaceGlobalDescriptorTable.html#a8ca3092925e24125cdb5434019bd4a13", null ]
     ] ],
     [ "_TaskStateSegmentEntry", "d1/d69/namespaceGlobalDescriptorTable.html#da/d67/structGlobalDescriptorTable_1_1__TaskStateSegmentEntry", [

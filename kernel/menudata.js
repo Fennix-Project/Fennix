@@ -53,7 +53,8 @@ var menudata={children:[
 {text:"u",url:"namespacemembers_u.html#index_u"},
 {text:"v",url:"namespacemembers_v.html#index_v"},
 {text:"w",url:"namespacemembers_w.html#index_w"},
-{text:"x",url:"namespacemembers_x.html#index_x"}]},
+{text:"x",url:"namespacemembers_x.html#index_x"},
+{text:"y",url:"namespacemembers_y.html#index_y"}]},
 {text:"Functions",url:"namespacemembers_func.html",children:[
 {text:"_",url:"namespacemembers_func.html#index__5F"},
 {text:"a",url:"namespacemembers_func_a.html#index_a"},
@@ -123,6 +124,7 @@ var menudata={children:[
 {text:"p",url:"namespacemembers_enum.html#index_p"},
 {text:"s",url:"namespacemembers_enum.html#index_s"},
 {text:"t",url:"namespacemembers_enum.html#index_t"},
+{text:"u",url:"namespacemembers_enum.html#index_u"},
 {text:"x",url:"namespacemembers_enum.html#index_x"}]},
 {text:"Enumerator",url:"namespacemembers_eval.html",children:[
 {text:"a",url:"namespacemembers_eval.html#index_a"},
@@ -147,7 +149,8 @@ var menudata={children:[
 {text:"u",url:"namespacemembers_eval_u.html#index_u"},
 {text:"v",url:"namespacemembers_eval_v.html#index_v"},
 {text:"w",url:"namespacemembers_eval_w.html#index_w"},
-{text:"x",url:"namespacemembers_eval_x.html#index_x"}]}]}]},
+{text:"x",url:"namespacemembers_eval_x.html#index_x"},
+{text:"y",url:"namespacemembers_eval_y.html#index_y"}]}]}]},
 {text:"Data Structures",url:"annotated.html",children:[
 {text:"Data Structures",url:"annotated.html"},
 {text:"Data Structure Index",url:"classes.html"},

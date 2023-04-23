@@ -521,7 +521,7 @@ $(document).ready(function(){initNavTree('de/db0/Kernel_2Core_2Memory_2PhysicalM
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160; </div>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Reserving pages for SMP...&quot;</span>);</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        this-&gt;ReservePage((<span class="keywordtype">void</span> *)0x0); <span class="comment">/* Trampoline stack, gdt, idt, etc... */</span></div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        this-&gt;ReservePage((<span class="keywordtype">void</span> *)0x2000); <span class="comment">/* TRAMPOLINE_START */</span></div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        this-&gt;ReservePages((<span class="keywordtype">void</span> *)0x2000, 4); <span class="comment">/* TRAMPOLINE_START */</span></div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160; </div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Reserving bitmap pages...&quot;</span>);</div>
 <div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        this-&gt;ReservePages(PageBitmap.Buffer, <a class="code" href="../../d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a10029add9db6f0340d9bd2be9b2d1048">TO_PAGES</a>(PageBitmap.Size));</div>

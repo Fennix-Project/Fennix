@@ -39,7 +39,7 @@ var classTasking_1_1Task =
     [ "WaitForProcessStatus", "dc/dc5/classTasking_1_1Task.html#ae3815fa6b790a87f53ff433d8fb6d169", null ],
     [ "WaitForThread", "dc/dc5/classTasking_1_1Task.html#a0ca55c3ef4d7f2f737089260d42cad9b", null ],
     [ "WaitForThreadStatus", "dc/dc5/classTasking_1_1Task.html#a18572a9a3a81ac862327f095d766b0df", null ],
-    [ "WakeUpThreads", "dc/dc5/classTasking_1_1Task.html#a8ba5e855286c2738d0df2d702c09d34f", null ],
+    [ "WakeUpThreads", "dc/dc5/classTasking_1_1Task.html#ae68054733da28643ce413333804c1ce9", null ],
     [ "CleanupThread", "dc/dc5/classTasking_1_1Task.html#aa80af863c07443d8e58a5bae95eeb7dd", null ],
     [ "IdleProcess", "dc/dc5/classTasking_1_1Task.html#abb2ffc0ac912bed3971aeb567f98ba20", null ],
     [ "IdleThread", "dc/dc5/classTasking_1_1Task.html#a1a057c4ed8f8d0ab837f597eb7b2b3c5", null ],

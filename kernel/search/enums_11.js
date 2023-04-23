@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x86simdtype_11026',['x86SIMDType',['../d7/dfa/namespaceCPU.html#a9b7152a6891aa829fafb5d7cdc3c31c9',1,'CPU']]]
+  ['videotype_11065',['VideoType',['../d8/d0e/Multiboot2_8cpp.html#ad303a41483e094d68465b3d33e5d716f',1,'Multiboot2.cpp']]]
 ];

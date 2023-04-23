@@ -31,15 +31,15 @@ var x32_2cr_8hpp =
       [ "TS", "de/d78/namespaceCPU_1_1x32.html#a6ba89ab41823af9b65ea5d233031b9f8", null ],
       [ "WP", "de/d78/namespaceCPU_1_1x32.html#a84aee62cd1bc3644a3a81a8352b36d4f", null ]
     ] ],
-    [ "CR2.__unnamed769__", "de/d78/namespaceCPU_1_1x32.html#d1/df4/structCPU_1_1x32_1_1CR2_8____unnamed769____", [
+    [ "CR2.__unnamed781__", "de/d78/namespaceCPU_1_1x32.html#d0/d95/structCPU_1_1x32_1_1CR2_8____unnamed781____", [
       [ "PFLA", "de/d78/namespaceCPU_1_1x32.html#a3bdf404879d25f8d92b0cf7f0d56ff4a", null ]
     ] ],
-    [ "CR3.__unnamed771__", "de/d78/namespaceCPU_1_1x32.html#d3/dad/structCPU_1_1x32_1_1CR3_8____unnamed771____", [
+    [ "CR3.__unnamed783__", "de/d78/namespaceCPU_1_1x32.html#d1/dd2/structCPU_1_1x32_1_1CR3_8____unnamed783____", [
       [ "PCD", "de/d78/namespaceCPU_1_1x32.html#a64bd82be2f900e31c0c58b47fb919c28", null ],
       [ "PDBR", "de/d78/namespaceCPU_1_1x32.html#ab9b0a89c81249ad2e2e0784cf852e768", null ],
       [ "PWT", "de/d78/namespaceCPU_1_1x32.html#aa8ed3a0df35c06b217f95a9d52b23881", null ]
     ] ],
-    [ "CR4.__unnamed773__", "de/d78/namespaceCPU_1_1x32.html#d4/d82/structCPU_1_1x32_1_1CR4_8____unnamed773____", [
+    [ "CR4.__unnamed785__", "de/d78/namespaceCPU_1_1x32.html#d9/dbe/structCPU_1_1x32_1_1CR4_8____unnamed785____", [
       [ "CET", "de/d78/namespaceCPU_1_1x32.html#a7e706fb31ff4653c9554f30ff1ad542c", null ],
       [ "DE", "de/d78/namespaceCPU_1_1x32.html#a3a52f3c22ed6fcde5bf696a6c02c9e73", null ],
       [ "FSGSBASE", "de/d78/namespaceCPU_1_1x32.html#af3a69264228a8d0b970ea1595026c80e", null ],
@@ -66,7 +66,7 @@ var x32_2cr_8hpp =
       [ "VME", "de/d78/namespaceCPU_1_1x32.html#a5b382b19324e0a71d404284d5c312804", null ],
       [ "VMXE", "de/d78/namespaceCPU_1_1x32.html#ace4cbb42b611af13fab5dc8f9303fd14", null ]
     ] ],
-    [ "CR8.__unnamed775__", "de/d78/namespaceCPU_1_1x32.html#d5/d7b/structCPU_1_1x32_1_1CR8_8____unnamed775____", [
+    [ "CR8.__unnamed787__", "de/d78/namespaceCPU_1_1x32.html#d7/dc0/structCPU_1_1x32_1_1CR8_8____unnamed787____", [
       [ "TPL", "de/d78/namespaceCPU_1_1x32.html#aafec6abed17f07d98bb4ec07dc071c96", null ]
     ] ],
     [ "CR0", "df/da5/x32_2cr_8hpp.html#a76d33fb74d7f612207a7d19a88b13200", null ],

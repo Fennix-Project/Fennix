@@ -3,6 +3,7 @@ var dir_45b96e5faabc1aec1c962e9d67eabcf9 =
     [ "Crash", "dir_133a3aca315ff992552df9c81b16ceb4.html", "dir_133a3aca315ff992552df9c81b16ceb4" ],
     [ "Driver", "dir_9ca52dd548bb2b9d7c436d5785602862.html", "dir_9ca52dd548bb2b9d7c436d5785602862" ],
     [ "Memory", "dir_49e28e04fe5a683ab6442a3687c2ecf7.html", "dir_49e28e04fe5a683ab6442a3687c2ecf7" ],
+    [ "Time", "dir_11d394f3c63b76f8fd2102a935dde92c.html", "dir_11d394f3c63b76f8fd2102a935dde92c" ],
     [ "Video", "dir_1590741450b0f2b58caea626297a45a1.html", "dir_1590741450b0f2b58caea626297a45a1" ],
     [ "CPU.cpp", "d7/d8d/CPU_8cpp.html", "d7/d8d/CPU_8cpp" ],
     [ "crashhandler.hpp", "dc/d04/crashhandler_8hpp.html", "dc/d04/crashhandler_8hpp" ],
@@ -17,8 +18,6 @@ var dir_45b96e5faabc1aec1c962e9d67eabcf9 =
     [ "StackGuard.cpp", "d9/d13/StackGuard_8cpp.html", "d9/d13/StackGuard_8cpp" ],
     [ "Symbols.cpp", "d7/db9/Symbols_8cpp.html", null ],
     [ "SystemManagementBIOS.cpp", "d2/d49/SystemManagementBIOS_8cpp.html", "d2/d49/SystemManagementBIOS_8cpp" ],
-    [ "Time.cpp", "d8/d38/Time_8cpp.html", "d8/d38/Time_8cpp" ],
-    [ "Timer.cpp", "d0/dc2/Timer_8cpp.html", null ],
     [ "ubsan.h", "d0/d1f/ubsan_8h.html", [
       [ "source_location", "d0/d1f/ubsan_8h.html#d0/d7c/structsource__location", [
         [ "column", "d0/d1f/ubsan_8h.html#a07afcd48de6a19b0d781cea67749bb9c", null ],

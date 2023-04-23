@@ -40,13 +40,13 @@ var NAVTREE =
       [ "Version 3", "db/d7b/md_Userspace_mlibc_ABI_BREAKS.html#autotoc_md10", null ]
     ] ],
     [ "mlibc is a C standard library", "d5/d4a/md_Userspace_mlibc_README.html", [
-      [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md14", null ],
+      [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md13", null ],
       [ "Porting mlibc to a new OS", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md15", null ],
       [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md16", null ],
       [ "Running Tests", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md17", null ]
     ] ],
     [ "Versioning", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html", [
-      [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md13", null ]
+      [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md14", null ]
     ] ],
     [ "Userspace", "d1/df9/md_Userspace_README.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -133,7 +133,7 @@ var NAVTREEINDEX =
 "d4/d80/timeval_8h.html#a810bf8fcd58e255a5c1896d19538b86a",
 "d4/d8d/exp2f_8c.html",
 "d4/dec/abis_2mlibc_2nlink__t_8h.html",
-"d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a41303acba10e393d83caac181d880799",
+"d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a416acf1af7155b8a8856f87601985794",
 "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d5/dea/structElf32__Verdef",
 "d5/d1b/r__main_8h.html#a56c560023ff013206fe83e68c76e2391",
 "d5/d35/info_8c.html#a637d86ae4521367f103074d5b22fc325",
@@ -209,7 +209,7 @@ var NAVTREEINDEX =
 "de/d1b/mntent_8h.html#a2902ed920c5fa3ebd26a6da1ec77cd07",
 "de/d3a/lyre_2generic_2generic_8cpp.html#a80994dcea5e60fc9170ba1cb11d65cdd",
 "de/d84/fdlibm_8h.html#af5f88e73c634deac8c4d30c799b1227b",
-"de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a4a725f61ded23ce8a7dff8e82ed51986",
+"de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a4ea5f2f1138e5c8597097db255a9ec6c",
 "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87",
 "de/d9f/mman_8h.html#a78cebea00a8cf29e1eb1b44e099fd265",
 "de/da4/riscv64_2syscallnos_8h.html#aa70e3fbe65a0fbd6d8c21577ea9d772f",

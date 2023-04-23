@@ -3,18 +3,18 @@ var dir_0309b499b8950a5fc0ffafb09dd8e67f =
     [ "Bootstrap", "dir_239220c4ec43ab0aef70c89efa6d68cf.html", "dir_239220c4ec43ab0aef70c89efa6d68cf" ],
     [ "cpu", "dir_74c5661253e5cc21187b2a763abbb176.html", "dir_74c5661253e5cc21187b2a763abbb176" ],
     [ "runtime", "dir_e56249c55da71d1d040f751103f3796c.html", "dir_e56249c55da71d1d040f751103f3796c" ],
-    [ "acpi.hpp", "d1/d90/acpi_8hpp.html", [
+    [ "acpi.hpp", "dc/d7c/amd64_2acpi_8hpp.html", [
       [ "ACPI", "d3/d21/classACPI_1_1ACPI.html", "d3/d21/classACPI_1_1ACPI" ],
       [ "ACPIHeader", "d3/d21/classACPI_1_1ACPI.html#d1/de6/structACPI_1_1ACPI_1_1ACPIHeader", [
         [ "Checksum", "d3/d21/classACPI_1_1ACPI.html#abd8da980c77241cbe21ecb72688513e7", null ],
         [ "CreatorID", "d3/d21/classACPI_1_1ACPI.html#a8fa9c883bbabdd3f818b50e417ffbf05", null ],
         [ "CreatorRevision", "d3/d21/classACPI_1_1ACPI.html#ae0dbf90822ddb210e91fd37b91b23700", null ],
         [ "Length", "d3/d21/classACPI_1_1ACPI.html#aa43736791bb63931b0adc39b7abef442", null ],
-        [ "OEMID", "d3/d21/classACPI_1_1ACPI.html#a86ca4e63934747fae0da3801452ca027", null ],
+        [ "OEMID", "d3/d21/classACPI_1_1ACPI.html#a21fefc5d61fe4779dc6699baa905e36c", null ],
         [ "OEMRevision", "d3/d21/classACPI_1_1ACPI.html#ad7c9cab44ec30d7ed10e6d13b03ef32b", null ],
-        [ "OEMTableID", "d3/d21/classACPI_1_1ACPI.html#a129d3ff79bb85773030c5c195d8628a1", null ],
+        [ "OEMTableID", "d3/d21/classACPI_1_1ACPI.html#ac5d882a15d1c9b813a21e691b249e72b", null ],
         [ "Revision", "d3/d21/classACPI_1_1ACPI.html#a352766a4e830e0c9def432158697f05a", null ],
-        [ "Signature", "d3/d21/classACPI_1_1ACPI.html#a427a667f9cf95ccdc2694d98faa011fc", null ]
+        [ "Signature", "d3/d21/classACPI_1_1ACPI.html#a450d65c7353c4f479c125ff985978017", null ]
       ] ],
       [ "GenericAddressStructure", "d3/d21/classACPI_1_1ACPI.html#db/df1/structACPI_1_1ACPI_1_1GenericAddressStructure", [
         [ "AccessSize", "d3/d21/classACPI_1_1ACPI.html#af35d0d4db15c5a0aa47b12c19799fc70", null ],
@@ -75,7 +75,7 @@ var dir_0309b499b8950a5fc0ffafb09dd8e67f =
         [ "PSTATE_Control", "d3/d21/classACPI_1_1ACPI.html#ab5ca00250e9a27130e2ca09ab3989f5e", null ],
         [ "Reserved", "d3/d21/classACPI_1_1ACPI.html#a22d0bec19d43bab4973459b961ca7c5d", null ],
         [ "Reserved2", "d3/d21/classACPI_1_1ACPI.html#a0664ed9ac556b447664568b998c9c508", null ],
-        [ "Reserved3", "d3/d21/classACPI_1_1ACPI.html#aafd6e61a84e1eaf5ef9aceec45fe1d9d", null ],
+        [ "Reserved3", "d3/d21/classACPI_1_1ACPI.html#ac04fb6db5c8700bc3d3bc462a7f8a696", null ],
         [ "ResetReg", "d3/d21/classACPI_1_1ACPI.html#a86773f16c815b5aea0e51bab2fdf58f8", null ],
         [ "ResetValue", "d3/d21/classACPI_1_1ACPI.html#a8b38ef033e7be84021fa4ddcc5f76da6", null ],
         [ "S4BIOS_REQ", "d3/d21/classACPI_1_1ACPI.html#a0e2bb432ee50553435cf9811c6edbf23", null ],
@@ -129,7 +129,7 @@ var dir_0309b499b8950a5fc0ffafb09dd8e67f =
         [ "Header", "d3/d21/classACPI_1_1ACPI.html#a36ab734f023cf9e450ecb555111bec65", null ]
       ] ],
       [ "MADTHeader", "d3/d21/classACPI_1_1ACPI.html#d3/d66/structACPI_1_1ACPI_1_1MADTHeader", [
-        [ "Entries", "d3/d21/classACPI_1_1ACPI.html#a9bccffd5ce740de1ee35be58c248a676", null ],
+        [ "Entries", "d3/d21/classACPI_1_1ACPI.html#a9bf6e49691636631136db7221e4dbb10", null ],
         [ "Flags", "d3/d21/classACPI_1_1ACPI.html#aed1772ff7199838f4343f5f543ccd994", null ],
         [ "Header", "d3/d21/classACPI_1_1ACPI.html#a0f9e21ad451dce55f9db5960118dff0d", null ],
         [ "LocalControllerAddress", "d3/d21/classACPI_1_1ACPI.html#af220dd8649e2ea83fb3f7026c2f73648", null ]
@@ -168,7 +168,7 @@ var dir_0309b499b8950a5fc0ffafb09dd8e67f =
       [ "LAPIC", "da/db9/classACPI_1_1MADT.html#dc/de8/structACPI_1_1MADT_1_1LAPIC", [
         [ "id", "da/db9/classACPI_1_1MADT.html#a1b110fb36f72d3e09a9e5d880c6929ae", null ],
         [ "PhysicalAddress", "da/db9/classACPI_1_1MADT.html#ab51fa0bca1107b2c1e8bd8fcbfe42f6c", null ],
-        [ "VirtualAddress", "da/db9/classACPI_1_1MADT.html#af18d34a127d960f7fb9c9f40df0b04b9", null ]
+        [ "VirtualAddress", "da/db9/classACPI_1_1MADT.html#ac13de4cee106d240606d993b332d1f3a", null ]
       ] ],
       [ "DSDT", "dd/dc9/classACPI_1_1DSDT.html", "dd/dc9/classACPI_1_1DSDT" ]
     ] ],
