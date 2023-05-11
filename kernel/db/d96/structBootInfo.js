@@ -21,10 +21,17 @@ var structBootInfo =
       [ "Width", "db/d96/structBootInfo.html#a5f7c8fcce5de0403b4f0b115a0cde1d9", null ]
     ] ],
     [ "KernelInfo", "db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo", [
+      [ "KernelSymbolInfo", "db/d96/structBootInfo.html#dd/ddd/structBootInfo_1_1KernelInfo_1_1KernelSymbolInfo", [
+        [ "EntSize", "db/d96/structBootInfo.html#a3c92dedee016459c19de0561b41ae9b1", null ],
+        [ "Num", "db/d96/structBootInfo.html#aab63e00299e5915c728d724768adb544", null ],
+        [ "Sections", "db/d96/structBootInfo.html#ab731b2f8284dc7606bf62330b710d3fe", null ],
+        [ "Shndx", "db/d96/structBootInfo.html#ac8da1831bdf42330db84235348a6ee57", null ]
+      ] ],
       [ "CommandLine", "db/d96/structBootInfo.html#adde62f42ebd193e412df27ef24698adf", null ],
       [ "FileBase", "db/d96/structBootInfo.html#abafacba0a6db48f77b3216c00e0bea89", null ],
       [ "PhysicalBase", "db/d96/structBootInfo.html#a98f7b16d3f14aa26d7bf675a85d80c5a", null ],
       [ "Size", "db/d96/structBootInfo.html#abdfb19c908a50b60d9a407c0d42e3233", null ],
+      [ "Symbols", "db/d96/structBootInfo.html#a1960325b4ca96009a2f59ebca72ad363", null ],
       [ "VirtualBase", "db/d96/structBootInfo.html#aa93ca2b883a24035cce85ecf6e971bc3", null ]
     ] ],
     [ "MemoryInfo", "db/d96/structBootInfo.html#d0/d9b/structBootInfo_1_1MemoryInfo", [

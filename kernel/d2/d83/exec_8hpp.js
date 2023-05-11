@@ -25,7 +25,7 @@ var exec_8hpp =
       [ "VirtualMemoryImage", "d5/d27/namespaceExecute.html#a2b14a6e6fc49c7943a837f798c4ec394", null ]
     ] ],
     [ "MmImage", "d5/d27/namespaceExecute.html#dd/dcb/structExecute_1_1MmImage", [
-      [ "Phyiscal", "d5/d27/namespaceExecute.html#ab7f4962f7e22edb48b1ceff39c30765f", null ],
+      [ "Physical", "d5/d27/namespaceExecute.html#a7ffe596809872ac9f63c21f8a6dcfefc", null ],
       [ "Virtual", "d5/d27/namespaceExecute.html#ab374da346ca4c834191b71f594bd2598", null ]
     ] ],
     [ "BinaryType", "d2/d83/exec_8hpp.html#ad34702895af4c39542a1b5e0e75bbfbd", [

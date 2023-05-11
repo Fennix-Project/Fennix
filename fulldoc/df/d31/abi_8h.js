@@ -2,18 +2,19 @@ var abi_8h =
 [
     [ "Elf32_auxv_t", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t", [
       [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ab6d0fd7066a8703da6fa658d3c0c085d", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#adebf2eaf334d3442ba76dc77709364a0", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a7802c4aaf971455ba48e4989c3b3dd5c", null ]
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a356248347735ad977a3959239e673a43", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a6a763ebd38b4418a1c7c51cbed7f1a8a", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#accdfef1f7ad18d1281f84f0d1ade987f", null ]
     ] ],
     [ "Elf64_auxv_t", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d9/de7/structElf64__auxv__t", [
       [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
-      [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a718e9da507aeab4eaff05dfd77214d19", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#acb5051ed573fb3f5e8d7b56055a84e7b", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ac585d110e28d3fc94c40d4951d447e38", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ad844e6cbde15513a531f9cfe199424d9", null ]
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a2981fcc8e13633aef695e6abe42156ff", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a9d0848de7618abd0e4f4d928ec08dbe1", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a86eeb3ff9671f1bc8390823f81ebaaea", null ]
     ] ],
     [ "AuxiliaryVector", "df/d31/abi_8h.html#db/d1d/structAuxiliaryVector", null ],
     [ "Elf32_auxv_t.a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un", [
+      [ "a_val", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],

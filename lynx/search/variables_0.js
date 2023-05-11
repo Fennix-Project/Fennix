@@ -1,11 +1,19 @@
 var searchData=
 [
-  ['_5f_5fatexit_5ffunc_5fcount_395',['__atexit_func_count',['../d7/d66/cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc',1,'cxxabi.cpp']]],
-  ['_5f_5fatexit_5ffuncs_396',['__atexit_funcs',['../d7/d66/cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94',1,'cxxabi.cpp']]],
-  ['_5f_5fdso_5fhandle_397',['__dso_handle',['../d7/d66/cxxabi_8cpp.html#a19df960d2907e9c08a720ae7683e632c',1,'cxxabi.cpp']]],
-  ['_5fdata_398',['_data',['../d8/dcc/Memory_8cpp.html#a39c40b0eb66d06c470320cba62e58b64',1,'Memory.cpp']]],
-  ['_5fdata_5fsize_399',['_data_size',['../d8/dcc/Memory_8cpp.html#ae6529dd93f77de0f80fc521c1d30f815',1,'Memory.cpp']]],
-  ['_5fedata_400',['_edata',['../d8/dcc/Memory_8cpp.html#ad0eb6dfd1c750496c401cc8b4d8394c9',1,'Memory.cpp']]],
-  ['_5fetext_401',['_etext',['../d8/dcc/Memory_8cpp.html#a37df35acf5421d657a00059e56351eab',1,'Memory.cpp']]],
-  ['_5ftext_402',['_text',['../d8/dcc/Memory_8cpp.html#abb121aa56e570bf496f15788e5a3b2ee',1,'Memory.cpp']]]
+  ['_5f_5faligned_1921',['__aligned',['../d4/d7e/namespaceMemory64.html#a95296fe2972ab7eb13800b30e66fc9b9',1,'Memory64::__aligned()'],['../de/d90/namespaceMemory32.html#aafc18e791fc3730018d3410c39189446',1,'Memory32::__aligned()']]],
+  ['_5f_5fatexit_5ffunc_5fcount_1922',['__atexit_func_count',['../d0/dba/FennixLoader_2cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc',1,'__atexit_func_count():&#160;cxxabi.cpp'],['../d0/d20/UEFI_2src_2cxxabi_8cpp.html#a0f75f529cf75cf0a9cd266f8d67675dc',1,'__atexit_func_count():&#160;cxxabi.cpp']]],
+  ['_5f_5fatexit_5ffuncs_1923',['__atexit_funcs',['../d0/dba/FennixLoader_2cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94',1,'__atexit_funcs():&#160;cxxabi.cpp'],['../d0/d20/UEFI_2src_2cxxabi_8cpp.html#a8068edf906451857b4f6c7be313bec94',1,'__atexit_funcs():&#160;cxxabi.cpp']]],
+  ['_5f_5fattribute_5f_5f_1924',['__attribute__',['../d1/dc0/multiboot_8h.html#a4bbf25084dee10ec29f4356cacced463',1,'multiboot.h']]],
+  ['_5f_5fdso_5fhandle_1925',['__dso_handle',['../d0/dba/FennixLoader_2cxxabi_8cpp.html#a19df960d2907e9c08a720ae7683e632c',1,'__dso_handle():&#160;cxxabi.cpp'],['../d0/d20/UEFI_2src_2cxxabi_8cpp.html#a19df960d2907e9c08a720ae7683e632c',1,'__dso_handle():&#160;cxxabi.cpp']]],
+  ['_5f_5ffini_5farray_5fend_1926',['__fini_array_end',['../d0/def/Loader_8cpp.html#a44b0859526315b440c667baaba00f489',1,'Loader.cpp']]],
+  ['_5f_5ffini_5farray_5fstart_1927',['__fini_array_start',['../d0/def/Loader_8cpp.html#a7636e9947b338df7742d327806c5cf70',1,'Loader.cpp']]],
+  ['_5f_5finit_5farray_5fend_1928',['__init_array_end',['../d0/def/Loader_8cpp.html#a5fb41005eba2ebaf93f1b8ec0b2fa462',1,'Loader.cpp']]],
+  ['_5f_5finit_5farray_5fstart_1929',['__init_array_start',['../d0/def/Loader_8cpp.html#a5acaf4f3a56e921fd97f62b643461ec7',1,'Loader.cpp']]],
+  ['_5fdata_1930',['_data',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#a39c40b0eb66d06c470320cba62e58b64',1,'Memory.cpp']]],
+  ['_5fdata_5fsize_1931',['_data_size',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#ae6529dd93f77de0f80fc521c1d30f815',1,'Memory.cpp']]],
+  ['_5fedata_1932',['_edata',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#ad0eb6dfd1c750496c401cc8b4d8394c9',1,'Memory.cpp']]],
+  ['_5fetext_1933',['_etext',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#a37df35acf5421d657a00059e56351eab',1,'Memory.cpp']]],
+  ['_5fkernel_5fend_1934',['_kernel_end',['../de/d77/FennixLoader_2include_2memory_8hpp.html#a66c3b6a4c9164de907e6592a3a154dae',1,'memory.hpp']]],
+  ['_5fkernel_5fstart_1935',['_kernel_start',['../de/d77/FennixLoader_2include_2memory_8hpp.html#a5643a3fe0283e7cdbc47b2bd1a1d6006',1,'memory.hpp']]],
+  ['_5ftext_1936',['_text',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#abb121aa56e570bf496f15788e5a3b2ee',1,'Memory.cpp']]]
 ];

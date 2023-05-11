@@ -102,8 +102,8 @@ Data Structures</h2></td></tr>
 <tr class="separator:d6/dd8/structTasking_1_1TaskInfo"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d96/structTasking_1_1TCB.html">TCB</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:dd/dd1/structTasking_1_1PCB"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB">PCB</a></td></tr>
-<tr class="separator:dd/dd1/structTasking_1_1PCB"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd1/structTasking_1_1PCB.html">PCB</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dbb/classTasking_1_1Security.html">Security</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc5/classTasking_1_1Task.html">Task</a></td></tr>
@@ -265,18 +265,6 @@ Compatibility</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aab7e88a64f06a128c30b090efbc0b1a1"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-CurrentKernelTime</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a347a48b283b3e16c048a4f2ab8a901a2"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-CurrentUserTime</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
 <a id="abfd452d7a3d395b2d13f8e9588300c2c"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 Day</td>
@@ -292,6 +280,12 @@ Hour</td>
 <a id="ad3e07f6a281d8e6b99773afb38b64fd9"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 KernelTime</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="abc15dc42e2b14e359d18011b6ee2e4ca"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+LastUpdateTime</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -343,12 +337,6 @@ SpawnTime</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae55472b2aca41c753bdb80d8b36e48ce"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Usage[256]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
 <a id="a059654ee8fa36c9a9780453da0ca7fe0"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 UserTime</td>
@@ -358,109 +346,6 @@ UserTime</td>
 <a id="a3c8a75c770b3425732c1c40479a8eac4"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 Year</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a name="dd/dd1/structTasking_1_1PCB" id="dd/dd1/structTasking_1_1PCB"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#dd/dd1/structTasking_1_1PCB">&#9670;&nbsp;</a></span>Tasking::PCB</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct Tasking::PCB</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00180">180</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="aa34b30685edd8c5a9a006021fe036832"></a>vector&lt; <a class="el" href="../../d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB">PCB</a> * &gt;</td>
-<td class="fieldname">
-Children</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a8eb92f8788f988c3adc1926aaecd8aef"></a>Symbols *</td>
-<td class="fieldname">
-ELFSymbolTable</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ac6ed583519b20768ae85105cc5049f0e"></a>int</td>
-<td class="fieldname">
-ExitCode</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a75f172a74c8eff96f9697d59b063b6de"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#a04e2f481f6f63a104eee16ed8e34d0c0">UPID</a></td>
-<td class="fieldname">
-ID</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a887637de6f393b567a480ede30884446"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#d6/dd8/structTasking_1_1TaskInfo">TaskInfo</a></td>
-<td class="fieldname">
-Info</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a9b9523ac2d94690834db9de8e5e137bc"></a>IPC *</td>
-<td class="fieldname">
-IPC</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a164db4171a45b5df0f297b7805eaef65"></a>Node *</td>
-<td class="fieldname">
-memDirectory</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ae33532aeb44602803ff57c1bda7c8b2f"></a>char</td>
-<td class="fieldname">
-Name[256]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a6134a1d1e69e7ee0c5d6e9a543e4d16a"></a>PageTable4 *</td>
-<td class="fieldname">
-PageTable</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aa1b70c60a92bb5cd30c81c17f51af986"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#dd/dd1/structTasking_1_1PCB">PCB</a> *</td>
-<td class="fieldname">
-Parent</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a083c818308e3c64dda2d124ec16ed80f"></a>Node *</td>
-<td class="fieldname">
-ProcessDirectory</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a9d7688af2a2c20aa1b0dfcebfbc3b303"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#d6/df6/structTasking_1_1TaskSecurity">TaskSecurity</a></td>
-<td class="fieldname">
-Security</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a7edc51939760bc98c3a1388e94933045"></a><a class="el" href="../../d9/d3e/namespaceTasking.html#aa3e6e5078f8745bcb20a52db054b3a78">TaskStatus</a></td>
-<td class="fieldname">
-Status</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ab346d75cb439c34d3d476d58cab35699"></a>vector&lt; <a class="el" href="../../de/d96/structTasking_1_1TCB.html">TCB</a> * &gt;</td>
-<td class="fieldname">
-Threads</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -748,19 +633,19 @@ Threads</td>
 <tr><td class="fieldname"><a id="a9442509928b162fbf931920fa77dcf93a65106eff93d2e9aae2f1eed955c44013"></a>FullTrust&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00199">199</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    {</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a7eb5911ffd5f12a11b75fdf85a961024">UnknownTrustLevel</a> = 0b0001,</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a9c7125309ba38adbf43f5e795271147f">Untrusted</a> = 0b0010,</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93aa8722edd8cb36141cc08e307f58a7fcd">Trusted</a> = 0b0100,</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a540fdfc5743805f1f50b557677599607">TrustedByKernel</a> = 0b1000,</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a65106eff93d2e9aae2f1eed955c44013">FullTrust</a> = <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93aa8722edd8cb36141cc08e307f58a7fcd">Trusted</a> | <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a540fdfc5743805f1f50b557677599607">TrustedByKernel</a></div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    };</div>
-<div class="ttc" id="anamespaceTasking_html_a9442509928b162fbf931920fa77dcf93a540fdfc5743805f1f50b557677599607"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a540fdfc5743805f1f50b557677599607">Tasking::TrustedByKernel</a></div><div class="ttdeci">@ TrustedByKernel</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00204">task.hpp:204</a></div></div>
-<div class="ttc" id="anamespaceTasking_html_a9442509928b162fbf931920fa77dcf93a65106eff93d2e9aae2f1eed955c44013"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a65106eff93d2e9aae2f1eed955c44013">Tasking::FullTrust</a></div><div class="ttdeci">@ FullTrust</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00206">task.hpp:205</a></div></div>
-<div class="ttc" id="anamespaceTasking_html_a9442509928b162fbf931920fa77dcf93a7eb5911ffd5f12a11b75fdf85a961024"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a7eb5911ffd5f12a11b75fdf85a961024">Tasking::UnknownTrustLevel</a></div><div class="ttdeci">@ UnknownTrustLevel</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00201">task.hpp:201</a></div></div>
-<div class="ttc" id="anamespaceTasking_html_a9442509928b162fbf931920fa77dcf93a9c7125309ba38adbf43f5e795271147f"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a9c7125309ba38adbf43f5e795271147f">Tasking::Untrusted</a></div><div class="ttdeci">@ Untrusted</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00202">task.hpp:202</a></div></div>
-<div class="ttc" id="anamespaceTasking_html_a9442509928b162fbf931920fa77dcf93aa8722edd8cb36141cc08e307f58a7fcd"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93aa8722edd8cb36141cc08e307f58a7fcd">Tasking::Trusted</a></div><div class="ttdeci">@ Trusted</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00203">task.hpp:203</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00206">206</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a7eb5911ffd5f12a11b75fdf85a961024">UnknownTrustLevel</a> = 0b0001,</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a9c7125309ba38adbf43f5e795271147f">Untrusted</a> = 0b0010,</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93aa8722edd8cb36141cc08e307f58a7fcd">Trusted</a> = 0b0100,</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a540fdfc5743805f1f50b557677599607">TrustedByKernel</a> = 0b1000,</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a65106eff93d2e9aae2f1eed955c44013">FullTrust</a> = <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93aa8722edd8cb36141cc08e307f58a7fcd">Trusted</a> | <a class="code" href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a540fdfc5743805f1f50b557677599607">TrustedByKernel</a></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    };</div>
+<div class="ttc" id="anamespaceTasking_html_a9442509928b162fbf931920fa77dcf93a540fdfc5743805f1f50b557677599607"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a540fdfc5743805f1f50b557677599607">Tasking::TrustedByKernel</a></div><div class="ttdeci">@ TrustedByKernel</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00211">task.hpp:211</a></div></div>
+<div class="ttc" id="anamespaceTasking_html_a9442509928b162fbf931920fa77dcf93a65106eff93d2e9aae2f1eed955c44013"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a65106eff93d2e9aae2f1eed955c44013">Tasking::FullTrust</a></div><div class="ttdeci">@ FullTrust</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00213">task.hpp:212</a></div></div>
+<div class="ttc" id="anamespaceTasking_html_a9442509928b162fbf931920fa77dcf93a7eb5911ffd5f12a11b75fdf85a961024"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a7eb5911ffd5f12a11b75fdf85a961024">Tasking::UnknownTrustLevel</a></div><div class="ttdeci">@ UnknownTrustLevel</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00208">task.hpp:208</a></div></div>
+<div class="ttc" id="anamespaceTasking_html_a9442509928b162fbf931920fa77dcf93a9c7125309ba38adbf43f5e795271147f"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93a9c7125309ba38adbf43f5e795271147f">Tasking::Untrusted</a></div><div class="ttdeci">@ Untrusted</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00209">task.hpp:209</a></div></div>
+<div class="ttc" id="anamespaceTasking_html_a9442509928b162fbf931920fa77dcf93aa8722edd8cb36141cc08e307f58a7fcd"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a9442509928b162fbf931920fa77dcf93aa8722edd8cb36141cc08e307f58a7fcd">Tasking::Trusted</a></div><div class="ttdeci">@ Trusted</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00210">task.hpp:210</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

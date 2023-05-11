@@ -5,7 +5,7 @@ var utmpx_8h =
       [ "__ut_pad1", "d9/d9a/utmpx_8h.html#adc3e39b3d640985feb07d7cd233007fb", null ],
       [ "__ut_pad2", "d9/d9a/utmpx_8h.html#a4f5c5015f4152de3ebccee9ce529ce3a", null ],
       [ "ut_addr_v6", "d9/d9a/utmpx_8h.html#a4a91e9b5ef4947661cd667f09762c0f3", null ],
-      [ "ut_exit", "d9/d9a/utmpx_8h.html#a6f991ea7a593be764db4f99b51167bad", null ],
+      [ "ut_exit", "d9/d9a/utmpx_8h.html#a0e9749add27e3dc13a9efca476ff61bf", null ],
       [ "ut_host", "d9/d9a/utmpx_8h.html#a72be0c1d20fa3c33d73d953451a72690", null ],
       [ "ut_id", "d9/d9a/utmpx_8h.html#afc95507ee64d2596101ce512f1e446a4", null ],
       [ "ut_line", "d9/d9a/utmpx_8h.html#a8669df15cb35d393d2466f8686b669d2", null ],

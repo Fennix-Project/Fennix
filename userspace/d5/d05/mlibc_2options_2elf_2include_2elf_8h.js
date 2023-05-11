@@ -138,12 +138,12 @@ var mlibc_2options_2elf_2include_2elf_8h =
     [ "Elf32_Dyn", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
       [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a548b9e5dfb2b3d8e25a72cc027c5a8b1", null ],
-      [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aeefe803c7ae5a5cb713efa73598496e3", null ]
+      [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a306953ff7966925279fda16b9269e25f", null ]
     ] ],
     [ "Elf64_Dyn", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
       [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193", null ],
-      [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#af7f0d6371b0fe3da4f0293e055882921", null ]
+      [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a109093f248a9dc0fa7bcaffcf5ab814d", null ]
     ] ],
     [ "Elf32_Shdr", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#de/dce/structElf32__Shdr", [
       [ "sh_addr", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a7e668a62cee74a2f9c6edabb5f45635a", null ],
@@ -170,14 +170,14 @@ var mlibc_2options_2elf_2include_2elf_8h =
       [ "sh_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a6379cd77214969499ae99e6e8a46405c", null ]
     ] ],
     [ "Elf64_auxv_t", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d9/de7/structElf64__auxv__t", [
-      [ "a_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a718e9da507aeab4eaff05dfd77214d19", null ],
       [ "a_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
-      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9f76609de5e434a01ba7dcd2af720c37", null ],
-      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a8e0eadb66962bc6141fb51d39000a391", null ]
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a063dfb95d69672f12b1212184cf9c646", null ],
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#ab53079e81fc594e1376be865fc4e7ae6", null ]
     ] ],
     [ "Elf32_auxv_t", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t", [
       [ "a_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#ab6d0fd7066a8703da6fa658d3c0c085d", null ],
-      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a29b771f99129c50cc6eca25bad274b00", null ]
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aff72cfeb917f0df48027cb569c77d28a", null ],
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a7efe7a4ca2f192bcc428e104384140dc", null ]
     ] ],
     [ "Elf32_Nhdr", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#db/db0/structElf32__Nhdr", [
       [ "n_descsz", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#ad83450c86fb3e14d1096a141ea705f33", null ],
@@ -201,11 +201,12 @@ var mlibc_2options_2elf_2include_2elf_8h =
       [ "d_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#ac16b193bd04a52da28f2e6c8cf713fb4", null ],
       [ "d_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#ac16b193bd04a52da28f2e6c8cf713fb4", null ]
     ] ],
-    [ "Elf64_auxv_t.a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
+    [ "Elf32_auxv_t.a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un", [
       [ "a_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],
-    [ "Elf32_auxv_t.a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un", [
+    [ "Elf64_auxv_t.a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
+      [ "a_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],
     [ "AT_BASE", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9b8e51a44a47d7ea827c570ffdca14e5", null ],

@@ -91,8 +91,8 @@ $(document).ready(function(){initNavTree('d7/d37/File_8c.html','../../'); initRe
 <div class="title">File.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d2e/sysbase_8h_source.html">sysbase.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../dc/d44/sysfile_8h_source.html">sysfile.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d3/d5a/base_8h_source.html">libsys/base.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h_source.html">libsys/file.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d2/d6e/syscalls_8h_source.html">../../../Kernel/syscalls.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d7/d37/File_8c_source.html">Go to the source code of this file.</a></p>
@@ -101,17 +101,17 @@ $(document).ready(function(){initNavTree('d7/d37/File_8c.html','../../'); initRe
 Functions</h2></td></tr>
 <tr class="memitem:a654f220adbb8eaed520587f774ec00d3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a654f220adbb8eaed520587f774ec00d3">__attribute__</a> ((visibility(&quot;hidden&quot;)))</td></tr>
 <tr class="separator:a654f220adbb8eaed520587f774ec00d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06a85b91cfc2fa4b1a8f08071dde34bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a06a85b91cfc2fa4b1a8f08071dde34bf">FileOpen</a> (const char *Path, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Flags)</td></tr>
+<tr class="memitem:a06a85b91cfc2fa4b1a8f08071dde34bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a06a85b91cfc2fa4b1a8f08071dde34bf">FileOpen</a> (const char *Path, <a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>)</td></tr>
 <tr class="separator:a06a85b91cfc2fa4b1a8f08071dde34bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae8b2d831d84ab23c9f09f3aabc222f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#aae8b2d831d84ab23c9f09f3aabc222f9">FileClose</a> (<a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *<a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>)</td></tr>
+<tr class="memitem:aae8b2d831d84ab23c9f09f3aabc222f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#aae8b2d831d84ab23c9f09f3aabc222f9">FileClose</a> (<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>)</td></tr>
 <tr class="separator:aae8b2d831d84ab23c9f09f3aabc222f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e0b3e02976fb3d5b1237dd89df7f6c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a6e0b3e02976fb3d5b1237dd89df7f6c6">FileRead</a> (<a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *<a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Offset, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="memitem:a6e0b3e02976fb3d5b1237dd89df7f6c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a6e0b3e02976fb3d5b1237dd89df7f6c6">FileRead</a> (<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, <a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Offset, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer, <a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
 <tr class="separator:a6e0b3e02976fb3d5b1237dd89df7f6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a674ebac096bf2e79ff66a8547f75cbd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a674ebac096bf2e79ff66a8547f75cbd7">FileWrite</a> (<a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *<a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Offset, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="memitem:a674ebac096bf2e79ff66a8547f75cbd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a674ebac096bf2e79ff66a8547f75cbd7">FileWrite</a> (<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, <a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Offset, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer, <a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
 <tr class="separator:a674ebac096bf2e79ff66a8547f75cbd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a877ee675a0d7d3021d6030d6a16eea74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a877ee675a0d7d3021d6030d6a16eea74">FileSeek</a> (<a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *<a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Offset, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Whence)</td></tr>
+<tr class="memitem:a877ee675a0d7d3021d6030d6a16eea74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a877ee675a0d7d3021d6030d6a16eea74">FileSeek</a> (<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, <a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Offset, <a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Whence)</td></tr>
 <tr class="separator:a877ee675a0d7d3021d6030d6a16eea74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08eade8198b99659befc7e8328d0ca61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a08eade8198b99659befc7e8328d0ca61">FileStatus</a> (<a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *<a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>)</td></tr>
+<tr class="memitem:a08eade8198b99659befc7e8328d0ca61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d37/File_8c.html#a08eade8198b99659befc7e8328d0ca61">FileStatus</a> (<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *<a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>)</td></tr>
 <tr class="separator:a08eade8198b99659befc7e8328d0ca61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -135,13 +135,13 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">long</span> PageSize = 0;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (PageSize == 0)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        PageSize = <a class="code" href="../../dd/d2e/sysbase_8h.html#ab826bfc79d0a8112f75fe4d36bee1e91">DoCtl</a>(<a class="code" href="../../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77">KCTL_GET_PAGE_SIZE</a>, 0, 0, 0, 0);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        PageSize = <a class="code" href="../../d3/d5a/base_8h.html#ab826bfc79d0a8112f75fe4d36bee1e91">DoCtl</a>(<a class="code" href="../../d3/d5a/base_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77">KCTL_GET_PAGE_SIZE</a>, 0, 0, 0, 0);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> PageSize;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="asysbase_8h_html_ab826bfc79d0a8112f75fe4d36bee1e91"><div class="ttname"><a href="../../dd/d2e/sysbase_8h.html#ab826bfc79d0a8112f75fe4d36bee1e91">DoCtl</a></div><div class="ttdeci">long DoCtl(uint64_t Command, uint64_t Arg1, uint64_t Arg2, uint64_t Arg3, uint64_t Arg4)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d18/Base_8c_source.html#l00005">Base.c:5</a></div></div>
-<div class="ttc" id="asysbase_8h_html_ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77"><div class="ttname"><a href="../../dd/d2e/sysbase_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77">KCTL_GET_PAGE_SIZE</a></div><div class="ttdeci">@ KCTL_GET_PAGE_SIZE</div><div class="ttdoc">Get the page size.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2e/sysbase_8h_source.html#l00018">sysbase.h:18</a></div></div>
+<div class="ttc" id="abase_8h_html_ab826bfc79d0a8112f75fe4d36bee1e91"><div class="ttname"><a href="../../d3/d5a/base_8h.html#ab826bfc79d0a8112f75fe4d36bee1e91">DoCtl</a></div><div class="ttdeci">long DoCtl(uint64_t Command, uint64_t Arg1, uint64_t Arg2, uint64_t Arg3, uint64_t Arg4)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d18/Base_8c_source.html#l00005">Base.c:5</a></div></div>
+<div class="ttc" id="abase_8h_html_ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77"><div class="ttname"><a href="../../d3/d5a/base_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77">KCTL_GET_PAGE_SIZE</a></div><div class="ttdeci">@ KCTL_GET_PAGE_SIZE</div><div class="ttdoc">Get the page size.</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d5a/base_8h_source.html#l00018">base.h:18</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d18/Base_8c_source.html#l00005">DoCtl()</a>, and <a class="el" href="../../dd/d2e/sysbase_8h_source.html#l00018">KCTL_GET_PAGE_SIZE</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d18/Base_8c_source.html#l00005">DoCtl()</a>, and <a class="el" href="../../d3/d5a/base_8h_source.html#l00018">KCTL_GET_PAGE_SIZE</a>.</p>
 
 </div>
 </div>
@@ -154,7 +154,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void FileClose </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *&#160;</td>
           <td class="paramname"><em>File</em></td><td>)</td>
           <td></td>
         </tr>
@@ -163,20 +163,18 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d37/File_8c_source.html#l00021">21</a> of file <a class="el" href="../../d7/d37/File_8c_source.html">File.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../d2/d6e/syscalls_8h.html#ac728f9ac7fe430b82caa7bf3fdded380">syscall1</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea15e3975fb867399d1db643978b54eef7">_FileClose</a>, (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>-&gt;<a class="code" href="../../dc/d44/sysfile_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a>);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../dd/d2e/sysbase_8h.html#ae76f515a890b70d1323216ed4128aa82">KrnlFreePages</a>((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>, <span class="keyword">sizeof</span>(<a class="code" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>) / __FILE_GetPageSize() + 1);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../d2/d6e/syscalls_8h.html#ac728f9ac7fe430b82caa7bf3fdded380">syscall1</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea15e3975fb867399d1db643978b54eef7">_FileClose</a>, (<a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>-&gt;<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d3/d5a/base_8h.html#ae76f515a890b70d1323216ed4128aa82">KrnlFreePages</a>((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, <span class="keyword">sizeof</span>(<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>) / __FILE_GetPageSize() + 1);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00290">ArithmeticOperations.c:290</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00168">types.h:168</a></div></div>
-<div class="ttc" id="asysbase_8h_html_ae76f515a890b70d1323216ed4128aa82"><div class="ttname"><a href="../../dd/d2e/sysbase_8h.html#ae76f515a890b70d1323216ed4128aa82">KrnlFreePages</a></div><div class="ttdeci">void KrnlFreePages(uintptr_t Address, size_t Count)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d18/Base_8c_source.html#l00015">Base.c:15</a></div></div>
+<div class="ttc" id="aKernel_2Architecture_2i386_2ArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c_source.html#l00290">ArithmeticOperations.c:290</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00171">types.h:171</a></div></div>
+<div class="ttc" id="abase_8h_html_ae76f515a890b70d1323216ed4128aa82"><div class="ttname"><a href="../../d3/d5a/base_8h.html#ae76f515a890b70d1323216ed4128aa82">KrnlFreePages</a></div><div class="ttdeci">void KrnlFreePages(uintptr_t Address, size_t Count)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d18/Base_8c_source.html#l00015">Base.c:15</a></div></div>
+<div class="ttc" id="alibs_2include_2libsys_2file_8h_html_aa1ca961e56962f0ab0844abe9764155f"><div class="ttname"><a href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#aa1ca961e56962f0ab0844abe9764155f">File::KernelPrivate</a></div><div class="ttdeci">void * KernelPrivate</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d9f/libs_2include_2libsys_2file_8h_source.html#l00008">file.h:8</a></div></div>
+<div class="ttc" id="alibs_2include_2libsys_2file_8h_html_d6/d88/structFile"><div class="ttname"><a href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d9f/libs_2include_2libsys_2file_8h_source.html#l00006">file.h:7</a></div></div>
 <div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fcea15e3975fb867399d1db643978b54eef7"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea15e3975fb867399d1db643978b54eef7">_FileClose</a></div><div class="ttdeci">@ _FileClose</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00097">syscalls.h:97</a></div></div>
-<div class="ttc" id="asyscalls_8h_html_ac728f9ac7fe430b82caa7bf3fdded380"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#ac728f9ac7fe430b82caa7bf3fdded380">syscall1</a></div><div class="ttdeci">static long syscall1(long syscall, long arg1)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00260">syscalls.h:260</a></div></div>
-<div class="ttc" id="asysfile_8h_html_aa1ca961e56962f0ab0844abe9764155f"><div class="ttname"><a href="../../dc/d44/sysfile_8h.html#aa1ca961e56962f0ab0844abe9764155f">File::KernelPrivate</a></div><div class="ttdeci">void * KernelPrivate</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d44/sysfile_8h_source.html#l00008">sysfile.h:8</a></div></div>
-<div class="ttc" id="asysfile_8h_html_d6/d88/structFile"><div class="ttname"><a href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d44/sysfile_8h_source.html#l00006">sysfile.h:7</a></div></div>
+<div class="ttc" id="asyscalls_8h_html_ac728f9ac7fe430b82caa7bf3fdded380"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#ac728f9ac7fe430b82caa7bf3fdded380">syscall1</a></div><div class="ttdeci">static long syscall1(long syscall, long arg1)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00278">syscalls.h:278</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00097">_FileClose</a>, <a class="el" href="../../dc/d44/sysfile_8h_source.html#l00008">File::KernelPrivate</a>, <a class="el" href="../../d5/d18/Base_8c_source.html#l00015">KrnlFreePages()</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00260">syscall1()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d60/init_8c_source.html#l00018">main()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00097">_FileClose</a>, <a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h_source.html#l00008">File::KernelPrivate</a>, <a class="el" href="../../d5/d18/Base_8c_source.html#l00015">KrnlFreePages()</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00278">syscall1()</a>.</p>
 
 </div>
 </div>
@@ -187,7 +185,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>* FileOpen </td>
+          <td class="memname"><a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>* FileOpen </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>Path</em>, </td>
@@ -195,7 +193,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Flags</em>&#160;</td>
         </tr>
         <tr>
@@ -208,17 +206,16 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d37/File_8c_source.html#l00014">14</a> of file <a class="el" href="../../d7/d37/File_8c_source.html">File.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *FilePtr = (<a class="code" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *)<a class="code" href="../../dd/d2e/sysbase_8h.html#aad4cec973cd1f8f40606bcee8cd89d05">KrnlRequestPages</a>(<span class="keyword">sizeof</span>(<a class="code" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>) / __FILE_GetPageSize() + 1);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    FilePtr-&gt;<a class="code" href="../../dc/d44/sysfile_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a> = (<span class="keywordtype">void</span> *)<a class="code" href="../../d2/d6e/syscalls_8h.html#a2472d889b949db45eb788268d5c109cf">syscall2</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea67d50a6c2fcc2c0de3a215f606866a5c">_FileOpen</a>, (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)Path, Flags);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *FilePtr = (<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *)<a class="code" href="../../d3/d5a/base_8h.html#aad4cec973cd1f8f40606bcee8cd89d05">KrnlRequestPages</a>(<span class="keyword">sizeof</span>(<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>) / __FILE_GetPageSize() + 1);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    FilePtr-&gt;<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a> = (<span class="keywordtype">void</span> *)<a class="code" href="../../d2/d6e/syscalls_8h.html#a2472d889b949db45eb788268d5c109cf">syscall2</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea67d50a6c2fcc2c0de3a215f606866a5c">_FileOpen</a>, (<a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)Path, <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> FilePtr;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
-<div class="ttc" id="asysbase_8h_html_aad4cec973cd1f8f40606bcee8cd89d05"><div class="ttname"><a href="../../dd/d2e/sysbase_8h.html#aad4cec973cd1f8f40606bcee8cd89d05">KrnlRequestPages</a></div><div class="ttdeci">uintptr_t KrnlRequestPages(size_t Count)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d18/Base_8c_source.html#l00010">Base.c:10</a></div></div>
-<div class="ttc" id="asyscalls_8h_html_a2472d889b949db45eb788268d5c109cf"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a2472d889b949db45eb788268d5c109cf">syscall2</a></div><div class="ttdeci">static long syscall2(long syscall, long arg1, long arg2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00270">syscalls.h:270</a></div></div>
+<div class="ttc" id="aMultiboot64bitMap_8cpp_html_a4851ebd1cf29bead5f3abe382b16bc8f"><div class="ttname"><a href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a></div><div class="ttdeci">void uint64_t Flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00197">Multiboot64bitMap.cpp:198</a></div></div>
+<div class="ttc" id="abase_8h_html_aad4cec973cd1f8f40606bcee8cd89d05"><div class="ttname"><a href="../../d3/d5a/base_8h.html#aad4cec973cd1f8f40606bcee8cd89d05">KrnlRequestPages</a></div><div class="ttdeci">uintptr_t KrnlRequestPages(size_t Count)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d18/Base_8c_source.html#l00010">Base.c:10</a></div></div>
+<div class="ttc" id="asyscalls_8h_html_a2472d889b949db45eb788268d5c109cf"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a2472d889b949db45eb788268d5c109cf">syscall2</a></div><div class="ttdeci">static long syscall2(long syscall, long arg1, long arg2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00288">syscalls.h:288</a></div></div>
 <div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fcea67d50a6c2fcc2c0de3a215f606866a5c"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea67d50a6c2fcc2c0de3a215f606866a5c">_FileOpen</a></div><div class="ttdeci">@ _FileOpen</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00091">syscalls.h:91</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00091">_FileOpen</a>, <a class="el" href="../../dc/d44/sysfile_8h_source.html#l00008">File::KernelPrivate</a>, <a class="el" href="../../d5/d18/Base_8c_source.html#l00010">KrnlRequestPages()</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00270">syscall2()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d60/init_8c_source.html#l00018">main()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00091">_FileOpen</a>, <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00198">Flags</a>, <a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h_source.html#l00008">File::KernelPrivate</a>, <a class="el" href="../../d5/d18/Base_8c_source.html#l00010">KrnlRequestPages()</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00288">syscall2()</a>.</p>
 
 </div>
 </div>
@@ -229,15 +226,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> FileRead </td>
+          <td class="memname"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> FileRead </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *&#160;</td>
           <td class="paramname"><em>File</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Offset</em>, </td>
         </tr>
         <tr>
@@ -249,7 +246,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Size</em>&#160;</td>
         </tr>
         <tr>
@@ -262,15 +259,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d37/File_8c_source.html#l00027">27</a> of file <a class="el" href="../../d7/d37/File_8c_source.html">File.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d6e/syscalls_8h.html#a00103c1560f97ed1585d9b85ef18decb">syscall4</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea85355d1f0b9f7daf155306243f0e82f3">_FileRead</a>, (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>-&gt;<a class="code" href="../../dc/d44/sysfile_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a>, Offset, (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)Buffer, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d6e/syscalls_8h.html#a00103c1560f97ed1585d9b85ef18decb">syscall4</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea85355d1f0b9f7daf155306243f0e82f3">_FileRead</a>, (<a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>-&gt;<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a>, Offset, (<a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)Buffer, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 <div class="ttc" id="aXallocV1_8cpp_html_a9a6916f13c01e1cbb39bf087545542c7"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">XallocV1.cpp:4</a></div></div>
-<div class="ttc" id="asyscalls_8h_html_a00103c1560f97ed1585d9b85ef18decb"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a00103c1560f97ed1585d9b85ef18decb">syscall4</a></div><div class="ttdeci">static long syscall4(long syscall, long arg1, long arg2, long arg3, long arg4)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00290">syscalls.h:290</a></div></div>
+<div class="ttc" id="asyscalls_8h_html_a00103c1560f97ed1585d9b85ef18decb"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a00103c1560f97ed1585d9b85ef18decb">syscall4</a></div><div class="ttdeci">static long syscall4(long syscall, long arg1, long arg2, long arg3, long arg4)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00308">syscalls.h:308</a></div></div>
 <div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fcea85355d1f0b9f7daf155306243f0e82f3"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea85355d1f0b9f7daf155306243f0e82f3">_FileRead</a></div><div class="ttdeci">@ _FileRead</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00103">syscalls.h:103</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00103">_FileRead</a>, <a class="el" href="../../dc/d44/sysfile_8h_source.html#l00008">File::KernelPrivate</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00290">syscall4()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d60/init_8c_source.html#l00018">main()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00103">_FileRead</a>, <a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h_source.html#l00008">File::KernelPrivate</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00308">syscall4()</a>.</p>
 
 </div>
 </div>
@@ -281,21 +276,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> FileSeek </td>
+          <td class="memname"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> FileSeek </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *&#160;</td>
           <td class="paramname"><em>File</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Offset</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Whence</em>&#160;</td>
         </tr>
         <tr>
@@ -308,12 +303,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d37/File_8c_source.html#l00037">37</a> of file <a class="el" href="../../d7/d37/File_8c_source.html">File.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d6e/syscalls_8h.html#a6a80d6661349162f434c25de68808c85">syscall3</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaf4f6c0bd4af843e6fcf8bcd125467b82">_FileSeek</a>, (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>-&gt;<a class="code" href="../../dc/d44/sysfile_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a>, Offset, Whence);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d6e/syscalls_8h.html#a6a80d6661349162f434c25de68808c85">syscall3</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaf4f6c0bd4af843e6fcf8bcd125467b82">_FileSeek</a>, (<a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>-&gt;<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a>, Offset, Whence);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
-<div class="ttc" id="asyscalls_8h_html_a6a80d6661349162f434c25de68808c85"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a6a80d6661349162f434c25de68808c85">syscall3</a></div><div class="ttdeci">static long syscall3(long syscall, long arg1, long arg2, long arg3)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00280">syscalls.h:280</a></div></div>
+<div class="ttc" id="asyscalls_8h_html_a6a80d6661349162f434c25de68808c85"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a6a80d6661349162f434c25de68808c85">syscall3</a></div><div class="ttdeci">static long syscall3(long syscall, long arg1, long arg2, long arg3)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00298">syscalls.h:298</a></div></div>
 <div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fceaf4f6c0bd4af843e6fcf8bcd125467b82"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaf4f6c0bd4af843e6fcf8bcd125467b82">_FileSeek</a></div><div class="ttdeci">@ _FileSeek</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00115">syscalls.h:115</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00115">_FileSeek</a>, <a class="el" href="../../dc/d44/sysfile_8h_source.html#l00008">File::KernelPrivate</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00280">syscall3()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00115">_FileSeek</a>, <a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h_source.html#l00008">File::KernelPrivate</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00298">syscall3()</a>.</p>
 
 </div>
 </div>
@@ -324,9 +319,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> FileStatus </td>
+          <td class="memname"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> FileStatus </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *&#160;</td>
           <td class="paramname"><em>File</em></td><td>)</td>
           <td></td>
         </tr>
@@ -335,11 +330,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d37/File_8c_source.html#l00042">42</a> of file <a class="el" href="../../d7/d37/File_8c_source.html">File.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d6e/syscalls_8h.html#ac728f9ac7fe430b82caa7bf3fdded380">syscall1</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea6d8c268464de46fda67d6a95a6685a24">_FileStatus</a>, (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>-&gt;<a class="code" href="../../dc/d44/sysfile_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d6e/syscalls_8h.html#ac728f9ac7fe430b82caa7bf3fdded380">syscall1</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea6d8c268464de46fda67d6a95a6685a24">_FileStatus</a>, (<a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>-&gt;<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a>);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fcea6d8c268464de46fda67d6a95a6685a24"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea6d8c268464de46fda67d6a95a6685a24">_FileStatus</a></div><div class="ttdeci">@ _FileStatus</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00121">syscalls.h:121</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00121">_FileStatus</a>, <a class="el" href="../../dc/d44/sysfile_8h_source.html#l00008">File::KernelPrivate</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00260">syscall1()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00121">_FileStatus</a>, <a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h_source.html#l00008">File::KernelPrivate</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00278">syscall1()</a>.</p>
 
 </div>
 </div>
@@ -350,15 +345,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> FileWrite </td>
+          <td class="memname"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> FileWrite </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a> *&#160;</td>
           <td class="paramname"><em>File</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Offset</em>, </td>
         </tr>
         <tr>
@@ -370,7 +365,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Size</em>&#160;</td>
         </tr>
         <tr>
@@ -383,11 +378,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d37/File_8c_source.html#l00032">32</a> of file <a class="el" href="../../d7/d37/File_8c_source.html">File.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d6e/syscalls_8h.html#a00103c1560f97ed1585d9b85ef18decb">syscall4</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaee6aec2259a35613db3755d03491b161">_FileWrite</a>, (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../dc/d44/sysfile_8h.html#d6/d88/structFile">File</a>-&gt;<a class="code" href="../../dc/d44/sysfile_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a>, Offset, (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)Buffer, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d6e/syscalls_8h.html#a00103c1560f97ed1585d9b85ef18decb">syscall4</a>(<a class="code" href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaee6aec2259a35613db3755d03491b161">_FileWrite</a>, (<a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>-&gt;<a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#aa1ca961e56962f0ab0844abe9764155f">KernelPrivate</a>, Offset, (<a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)Buffer, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
 <div class="ttc" id="asyscalls_8h_html_a7646da588c70d4a6c38c0e3cef328fceaee6aec2259a35613db3755d03491b161"><div class="ttname"><a href="../../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaee6aec2259a35613db3755d03491b161">_FileWrite</a></div><div class="ttdeci">@ _FileWrite</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6e/syscalls_8h_source.html#l00109">syscalls.h:109</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00109">_FileWrite</a>, <a class="el" href="../../dc/d44/sysfile_8h_source.html#l00008">File::KernelPrivate</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00290">syscall4()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00109">_FileWrite</a>, <a class="el" href="../../d8/d9f/libs_2include_2libsys_2file_8h_source.html#l00008">File::KernelPrivate</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>, and <a class="el" href="../../d2/d6e/syscalls_8h_source.html#l00308">syscall4()</a>.</p>
 
 </div>
 </div>

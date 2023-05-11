@@ -45,7 +45,7 @@ var dir_32410a4dee25a38d1644e5223d028edf =
         [ "used_ids", "d6/dc0/sysdeps_2managarm_2include_2abi-bits_2shm_8h.html#a733cad29409fd9d60a3bde1f8f8f02ef", null ]
       ] ]
     ] ],
-    [ "signal.h", "d9/d14/sysdeps_2linux_2include_2abi-bits_2signal_8h.html", "d9/d14/sysdeps_2linux_2include_2abi-bits_2signal_8h" ],
+    [ "signal.h", "d1/dfc/mlibc_2sysdeps_2linux_2include_2abi-bits_2signal_8h.html", "d1/dfc/mlibc_2sysdeps_2linux_2include_2abi-bits_2signal_8h" ],
     [ "socket.h", "d8/d52/sysdeps_2linux_2include_2abi-bits_2socket_8h.html", "d8/d52/sysdeps_2linux_2include_2abi-bits_2socket_8h" ],
     [ "socklen_t.h", "da/db1/sysdeps_2linux_2include_2abi-bits_2socklen__t_8h.html", "da/db1/sysdeps_2linux_2include_2abi-bits_2socklen__t_8h" ],
     [ "stat.h", "d0/d59/Userspace_2mlibc_2sysdeps_2linux_2include_2abi-bits_2stat_8h.html", "d0/d59/Userspace_2mlibc_2sysdeps_2linux_2include_2abi-bits_2stat_8h" ],
@@ -67,6 +67,6 @@ var dir_32410a4dee25a38d1644e5223d028edf =
     ] ],
     [ "vm-flags.h", "da/dc8/sysdeps_2linux_2include_2abi-bits_2vm-flags_8h.html", "da/dc8/sysdeps_2linux_2include_2abi-bits_2vm-flags_8h" ],
     [ "vt.h", "d5/d2c/sysdeps_2linux_2include_2abi-bits_2vt_8h.html", "d5/d2c/sysdeps_2linux_2include_2abi-bits_2vt_8h" ],
-    [ "wait.h", "d1/d7f/sysdeps_2linux_2include_2abi-bits_2wait_8h.html", "d1/d7f/sysdeps_2linux_2include_2abi-bits_2wait_8h" ],
+    [ "wait.h", "de/dd1/mlibc_2sysdeps_2linux_2include_2abi-bits_2wait_8h.html", "de/dd1/mlibc_2sysdeps_2linux_2include_2abi-bits_2wait_8h" ],
     [ "xattr.h", "d0/d47/sysdeps_2linux_2include_2abi-bits_2xattr_8h.html", "d0/d47/sysdeps_2linux_2include_2abi-bits_2xattr_8h" ]
 ];

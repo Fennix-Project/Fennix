@@ -147,7 +147,7 @@ $(document).ready(function(){initNavTree('d8/dbd/apps_2base_2echo_2Makefile_sour
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;build: $(FILENAME)</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    $(OBJDUMP) -d $(FILENAME) &gt; file_dump.map</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    mv $(FILENAME) ../../../out/system/$(FILENAME)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    mv $(FILENAME) ../../../out/system/bin/$(FILENAME)</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;$(FILENAME): $(OBJ)</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    $(info Linking $@)</div>

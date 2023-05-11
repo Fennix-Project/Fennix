@@ -532,21 +532,21 @@ TableLength</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html">SystemManagementBIOS.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19">SMBIOSPtr</a> != <span class="keyword">nullptr</span> &amp;&amp; <a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19">SMBIOSPtr</a> &lt; (<span class="keywordtype">void</span> *)0xFFFFFFFFFFFF0000)</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#aaa27d8ecf832d30b23fdbee67d4977fa">SMBIOSPtr</a> != <span class="keyword">nullptr</span> &amp;&amp; <a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#aaa27d8ecf832d30b23fdbee67d4977fa">SMBIOSPtr</a> &lt; (<span class="keywordtype">void</span> *)0xFFFFFFFFFFFF0000)</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;SMBIOS is available (%#lx).&quot;</span>, <a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19">SMBIOSPtr</a>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <a class="code" href="../../d3/d70/Kernel_2include_2debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;SMBIOS is available (%#lx).&quot;</span>, <a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#aaa27d8ecf832d30b23fdbee67d4977fa">SMBIOSPtr</a>);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;SMBIOS is not available. (%#lx)&quot;</span>, <a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19">SMBIOSPtr</a>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d3/d70/Kernel_2include_2debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;SMBIOS is not available. (%#lx)&quot;</span>, <a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#aaa27d8ecf832d30b23fdbee67d4977fa">SMBIOSPtr</a>);</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
-<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00085">debug.h:85</a></div></div>
+<div class="ttc" id="aKernel_2include_2debug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../d3/d70/Kernel_2include_2debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/Kernel_2include_2debug_8h_source.html#l00085">debug.h:85</a></div></div>
 <div class="ttc" id="akernel_8h_html_a7c22f2b1f38fbc850e69bb19a6a84319"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a></div><div class="ttdeci">struct BootInfo bInfo</div></div>
-<div class="ttc" id="astructBootInfo_html_a81df83387169f54a60361c6001411e19"><div class="ttname"><a href="../../db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19">BootInfo::SMBIOSPtr</a></div><div class="ttdeci">void * SMBIOSPtr</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00144">binfo.h:144</a></div></div>
+<div class="ttc" id="astructBootInfo_html_aaa27d8ecf832d30b23fdbee67d4977fa"><div class="ttname"><a href="../../db/d96/structBootInfo.html#aaa27d8ecf832d30b23fdbee67d4977fa">BootInfo::SMBIOSPtr</a></div><div class="ttdeci">void * SMBIOSPtr</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dad/Kernel_2include_2boot_2binfo_8h_source.html#l00152">binfo.h:152</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, and <a class="el" href="../../d9/d36/binfo_8h_source.html#l00144">BootInfo::SMBIOSPtr</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>, <a class="el" href="../../d3/d70/Kernel_2include_2debug_8h_source.html#l00085">debug</a>, and <a class="el" href="../../d3/dad/Kernel_2include_2boot_2binfo_8h_source.html#l00152">BootInfo::SMBIOSPtr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00048">GetSMBIOSHeader()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00255">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00048">GetSMBIOSHeader()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>.</p>
 
 </div>
 </div>
@@ -571,7 +571,7 @@ TableLength</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00048">GetSMBIOSHeader()</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00029">SMBIOSTypeBaseBoardInformation</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00255">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>.</p>
 
 </div>
 </div>
@@ -595,7 +595,7 @@ TableLength</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00048">GetSMBIOSHeader()</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00027">SMBIOSTypeBIOSInformation</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00255">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>.</p>
 
 </div>
 </div>
@@ -725,11 +725,11 @@ TableLength</td>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html">SystemManagementBIOS.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{ <span class="keywordflow">return</span> (SMBIOSEntryPoint *)<a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19">SMBIOSPtr</a>; }</div>
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{ <span class="keywordflow">return</span> (SMBIOSEntryPoint *)<a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#aaa27d8ecf832d30b23fdbee67d4977fa">SMBIOSPtr</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>, and <a class="el" href="../../d9/d36/binfo_8h_source.html#l00144">BootInfo::SMBIOSPtr</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>, and <a class="el" href="../../d3/dad/Kernel_2include_2boot_2binfo_8h_source.html#l00152">BootInfo::SMBIOSPtr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00255">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>.</p>
 
 </div>
 </div>
@@ -754,8 +754,8 @@ TableLength</td>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../da/d5f/namespaceSMBIOS.html#a2d28755c4392487cb470db704827389f">CheckSMBIOS</a>())</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        SMBIOSEntryPoint *Header = (SMBIOSEntryPoint *)<a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#a81df83387169f54a60361c6001411e19">SMBIOSPtr</a>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Getting SMBIOS header for type %d&quot;</span>, <a class="code" href="../../d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba">Type</a>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        SMBIOSEntryPoint *Header = (SMBIOSEntryPoint *)<a class="code" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>.<a class="code" href="../../db/d96/structBootInfo.html#aaa27d8ecf832d30b23fdbee67d4977fa">SMBIOSPtr</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="../../d3/d70/Kernel_2include_2debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Getting SMBIOS header for type %d&quot;</span>, <a class="code" href="../../d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba">Type</a>);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keyword">struct </span>SMBIOSHeader *hdr = (SMBIOSHeader *)(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)Header-&gt;TableAddress;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt;= 11; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
@@ -763,7 +763,7 @@ TableLength</td>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">if</span> (hdr &lt; (<span class="keywordtype">void</span> *)(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)(Header-&gt;TableAddress + Header-&gt;TableLength))</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                <span class="keywordflow">if</span> (hdr-&gt;Type == <a class="code" href="../../d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba">Type</a>)</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Found SMBIOS header for type %d at %#lx&quot;</span>, <a class="code" href="../../d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba">Type</a>, hdr);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                    <a class="code" href="../../d3/d70/Kernel_2include_2debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Found SMBIOS header for type %d at %#lx&quot;</span>, <a class="code" href="../../d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba">Type</a>, hdr);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                    <span class="keywordflow">return</span> hdr;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                }</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            hdr = (<span class="keyword">struct </span>SMBIOSHeader *)((<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)hdr + <a class="code" href="../../da/d5f/namespaceSMBIOS.html#a7cf58bb0289a439aff31df8a7a99fe61">SMBIOSTableLength</a>(hdr));</div>
@@ -771,12 +771,12 @@ TableLength</td>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
 <div class="ttc" id="aFex_8hpp_html_a875f6ae629219a43a4a631840c1cbaba"><div class="ttname"><a href="../../d0/da5/Fex_8hpp.html#a875f6ae629219a43a4a631840c1cbaba">Type</a></div><div class="ttdeci">enum FexFormatType Type</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da5/Fex_8hpp_source.html#l00000">Fex.hpp:1</a></div></div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00168">types.h:168</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00171">types.h:171</a></div></div>
 <div class="ttc" id="anamespaceSMBIOS_html_a2d28755c4392487cb470db704827389f"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#a2d28755c4392487cb470db704827389f">SMBIOS::CheckSMBIOS</a></div><div class="ttdeci">bool CheckSMBIOS()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00026">SystemManagementBIOS.cpp:26</a></div></div>
 <div class="ttc" id="anamespaceSMBIOS_html_a7cf58bb0289a439aff31df8a7a99fe61"><div class="ttname"><a href="../../da/d5f/namespaceSMBIOS.html#a7cf58bb0289a439aff31df8a7a99fe61">SMBIOS::SMBIOSTableLength</a></div><div class="ttdeci">static int SMBIOSTableLength(SMBIOSHeader *Hdr)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00039">SystemManagementBIOS.cpp:39</a></div></div>
 <div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00026">CheckSMBIOS()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00144">BootInfo::SMBIOSPtr</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00039">SMBIOSTableLength()</a>, <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00096">SMBIOS::SMBIOSEntryPoint::TableAddress</a>, <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00095">SMBIOS::SMBIOSEntryPoint::TableLength</a>, <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00078">SMBIOS::SMBIOSHeader::Type</a>, and <a class="el" href="../../d0/da5/Fex_8hpp_source.html#l00001">Type</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319">bInfo</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00026">CheckSMBIOS()</a>, <a class="el" href="../../d3/d70/Kernel_2include_2debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d3/dad/Kernel_2include_2boot_2binfo_8h_source.html#l00152">BootInfo::SMBIOSPtr</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00039">SMBIOSTableLength()</a>, <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00096">SMBIOS::SMBIOSEntryPoint::TableAddress</a>, <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00095">SMBIOS::SMBIOSEntryPoint::TableLength</a>, <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00078">SMBIOS::SMBIOSHeader::Type</a>, and <a class="el" href="../../d0/da5/Fex_8hpp_source.html#l00001">Type</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00074">GetBaseBoardInformation()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00070">GetBIOSInformation()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00078">GetMemoryArray()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00082">GetMemoryArrayMappedAddress()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00080">GetMemoryDevice()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00084">GetMemoryDeviceMappedAddress()</a>, <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00076">GetProcessorInformation()</a>, and <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00072">GetSystemInformation()</a>.</p>
 
@@ -802,7 +802,7 @@ TableLength</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d49/SystemManagementBIOS_8cpp_source.html#l00048">GetSMBIOSHeader()</a>, and <a class="el" href="../../d5/d8f/smbios_8hpp_source.html#l00028">SMBIOSTypeSystemInformation</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00255">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>.</p>
 
 </div>
 </div>

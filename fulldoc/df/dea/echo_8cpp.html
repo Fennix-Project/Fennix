@@ -91,13 +91,12 @@ $(document).ready(function(){initNavTree('df/dea/echo_8cpp.html','../../'); init
 <div class="title">echo.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+</div>
 <p><a href="../../df/dea/echo_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9314edc2ca3e103a3fcb3541c034c01e"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sc, long <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#accb7504aa297718c2d0bbd7ca588c252">arg1</a>, long <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#ab6a67dab286d858e9bd335e84f24fd31">arg2</a>)</td></tr>
-<tr class="separator:a9314edc2ca3e103a3fcb3541c034c01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dea/echo_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> argc, char *argv[])</td></tr>
 <tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -128,83 +127,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dea/echo_8cpp_source.html#l00011">11</a> of file <a class="el" href="../../df/dea/echo_8cpp_source.html">echo.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="comment">// TODO: Change this to use stdout</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 1; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; argc; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a> = 0; argv[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>][<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a>]; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a>++)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <a class="code" href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a>(1, argv[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>][<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a>], 0);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a>(1, <span class="charliteral">&#39; &#39;</span>, 0);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="ttc" id="aecho_8cpp_html_a9314edc2ca3e103a3fcb3541c034c01e"><div class="ttname"><a href="../../df/dea/echo_8cpp.html#a9314edc2ca3e103a3fcb3541c034c01e">syscall2</a></div><div class="ttdeci">static long syscall2(int sc, long arg1, long arg2)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dea/echo_8cpp_source.html#l00001">echo.cpp:1</a></div></div>
-<div class="ttc" id="aposix__stdlib_8cpp_html_a37d972ae0b47b9099e30983131d31916"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#a37d972ae0b47b9099e30983131d31916">j</a></div><div class="ttdeci">static int j</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00037">posix_stdlib.cpp:37</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../df/dea/echo_8cpp_source.html#l00003">3</a> of file <a class="el" href="../../df/dea/echo_8cpp_source.html">echo.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 1; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; argc; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s &quot;</span>, argv[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>]);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    }</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="ttc" id="aKernel_2Library_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
 <div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00037">j</a>, and <a class="el" href="../../df/dea/echo_8cpp_source.html#l00001">syscall2()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, and <a class="el" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c_source.html#l00060">printf</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../db/d66/m__config_8c_source.html#l01856">M_SaveDefaultsAlternate()</a>.</p>
-
-</div>
-</div>
-<a id="a9314edc2ca3e103a3fcb3541c034c01e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9314edc2ca3e103a3fcb3541c034c01e">&#9670;&nbsp;</a></span>syscall2()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static long syscall2 </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
-          <td class="paramname"><em>sc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>arg1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">long&#160;</td>
-          <td class="paramname"><em>arg2</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../df/dea/echo_8cpp_source.html#l00001">1</a> of file <a class="el" href="../../df/dea/echo_8cpp_source.html">echo.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <span class="keywordtype">long</span> <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    __asm__ __volatile__(<span class="stringliteral">&quot;syscall&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;                         : <span class="stringliteral">&quot;=a&quot;</span>(<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>)</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;                         : <span class="stringliteral">&quot;a&quot;</span>(sc), <span class="stringliteral">&quot;D&quot;</span>(<a class="code" href="../../da/d80/aero_2include_2aero_2syscall_8h.html#accb7504aa297718c2d0bbd7ca588c252">arg1</a>), <span class="stringliteral">&quot;S&quot;</span>(<a class="code" href="../../da/d80/aero_2include_2aero_2syscall_8h.html#ab6a67dab286d858e9bd335e84f24fd31">arg2</a>)</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;                         : <span class="stringliteral">&quot;rcx&quot;</span>, <span class="stringliteral">&quot;r11&quot;</span>, <span class="stringliteral">&quot;memory&quot;</span>);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="aaero_2include_2aero_2syscall_8h_html_ab6a67dab286d858e9bd335e84f24fd31"><div class="ttname"><a href="../../da/d80/aero_2include_2aero_2syscall_8h.html#ab6a67dab286d858e9bd335e84f24fd31">arg2</a></div><div class="ttdeci">sc_word_t sc_word_t sc_word_t arg2</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00193">syscall.h:193</a></div></div>
-<div class="ttc" id="aaero_2include_2aero_2syscall_8h_html_accb7504aa297718c2d0bbd7ca588c252"><div class="ttname"><a href="../../da/d80/aero_2include_2aero_2syscall_8h.html#accb7504aa297718c2d0bbd7ca588c252">arg1</a></div><div class="ttdeci">sc_word_t sc_word_t arg1</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00188">syscall.h:188</a></div></div>
-<div class="ttc" id="alemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00188">arg1</a>, <a class="el" href="../../da/d80/aero_2include_2aero_2syscall_8h_source.html#l00193">arg2</a>, and <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../df/dea/echo_8cpp_source.html#l00011">main()</a>.</p>
 
 </div>
 </div>

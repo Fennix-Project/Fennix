@@ -16,7 +16,7 @@ var dir_08644297d04b09ffacbf16a5276fd4a6 =
     [ "ino_t.h", "d0/d64/abis_2linux_2ino__t_8h.html", "d0/d64/abis_2linux_2ino__t_8h" ],
     [ "inotify.h", "d4/dbe/abis_2linux_2inotify_8h.html", "d4/dbe/abis_2linux_2inotify_8h" ],
     [ "ioctls.h", "d8/d86/abis_2linux_2ioctls_8h.html", "d8/d86/abis_2linux_2ioctls_8h" ],
-    [ "limits.h", "d4/d7e/abis_2linux_2limits_8h.html", "d4/d7e/abis_2linux_2limits_8h" ],
+    [ "limits.h", "d8/db3/mlibc_2abis_2linux_2limits_8h.html", "d8/db3/mlibc_2abis_2linux_2limits_8h" ],
     [ "mode_t.h", "df/d82/abis_2linux_2mode__t_8h.html", "df/d82/abis_2linux_2mode__t_8h" ],
     [ "mqueue.h", "dc/de0/abis_2linux_2mqueue_8h.html", [
       [ "mq_attr", "dd/d79/sysdeps_2managarm_2include_2abi-bits_2mqueue_8h.html#d4/daf/structmq__attr", [
@@ -45,7 +45,7 @@ var dir_08644297d04b09ffacbf16a5276fd4a6 =
         [ "used_ids", "d6/dc0/sysdeps_2managarm_2include_2abi-bits_2shm_8h.html#a733cad29409fd9d60a3bde1f8f8f02ef", null ]
       ] ]
     ] ],
-    [ "signal.h", "d7/d8b/abis_2linux_2signal_8h.html", "d7/d8b/abis_2linux_2signal_8h" ],
+    [ "signal.h", "d3/d36/mlibc_2abis_2linux_2signal_8h.html", "d3/d36/mlibc_2abis_2linux_2signal_8h" ],
     [ "socket.h", "d4/d3f/abis_2linux_2socket_8h.html", "d4/d3f/abis_2linux_2socket_8h" ],
     [ "socklen_t.h", "da/da3/abis_2linux_2socklen__t_8h.html", "da/da3/abis_2linux_2socklen__t_8h" ],
     [ "stat.h", "df/de1/mlibc_2abis_2linux_2stat_8h.html", "df/de1/mlibc_2abis_2linux_2stat_8h" ],
@@ -67,6 +67,6 @@ var dir_08644297d04b09ffacbf16a5276fd4a6 =
     ] ],
     [ "vm-flags.h", "df/df6/abis_2linux_2vm-flags_8h.html", "df/df6/abis_2linux_2vm-flags_8h" ],
     [ "vt.h", "d1/d65/abis_2linux_2vt_8h.html", "d1/d65/abis_2linux_2vt_8h" ],
-    [ "wait.h", "d3/dad/abis_2linux_2wait_8h.html", "d3/dad/abis_2linux_2wait_8h" ],
+    [ "wait.h", "d6/df4/mlibc_2abis_2linux_2wait_8h.html", "d6/df4/mlibc_2abis_2linux_2wait_8h" ],
     [ "xattr.h", "dd/d7f/abis_2linux_2xattr_8h.html", "dd/d7f/abis_2linux_2xattr_8h" ]
 ];

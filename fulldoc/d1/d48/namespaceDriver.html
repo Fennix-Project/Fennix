@@ -214,18 +214,18 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00276">276</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        {</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> IntNum = Frame-&gt;InterruptNumber - 32;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            <a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> IntNum = Frame-&gt;InterruptNumber - 32;</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> IntNum = Frame-&gt;InterruptNumber;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> IntNum = Frame-&gt;InterruptNumber;</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Interrupt callback for %ld is not set for driver %ld!&quot;</span>, IntNum, <a class="code" href="../../db/df1/namespaceGraphicalUserInterface.html#ae55dddd10e543824f42285df80eeb9b4">Handle</a>.DriverUID);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            <a class="code" href="../../d3/d70/Kernel_2include_2debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Interrupt callback for %ld is not set for driver %ld!&quot;</span>, IntNum, <a class="code" href="../../db/df1/namespaceGraphicalUserInterface.html#ae55dddd10e543824f42285df80eeb9b4">Handle</a>.DriverUID);</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        }</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00290">ArithmeticOperations.c:290</a></div></div>
-<div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00079">debug.h:79</a></div></div>
+<div class="ttc" id="aKernel_2Architecture_2i386_2ArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c_source.html#l00290">ArithmeticOperations.c:290</a></div></div>
+<div class="ttc" id="aKernel_2include_2debug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../d3/d70/Kernel_2include_2debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/Kernel_2include_2debug_8h_source.html#l00079">debug.h:79</a></div></div>
 <div class="ttc" id="anamespaceGraphicalUserInterface_html_ae55dddd10e543824f42285df80eeb9b4"><div class="ttname"><a href="../../db/df1/namespaceGraphicalUserInterface.html#ae55dddd10e543824f42285df80eeb9b4">GraphicalUserInterface::Handle</a></div><div class="ttdeci">uintptr_t Handle</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d7c/gui_8hpp_source.html#l00029">gui.hpp:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00079">warn</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d70/Kernel_2include_2debug_8h_source.html#l00079">warn</a>.</p>
 
 </div>
 </div>
@@ -247,12 +247,12 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00270">270</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        {</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Interrupt hook is not enabled&quot;</span>);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <a class="code" href="../../d3/d70/Kernel_2include_2debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Interrupt hook is not enabled&quot;</span>);</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        }</div>
-<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00085">debug.h:85</a></div></div>
+<div class="ttc" id="aKernel_2include_2debug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../d3/d70/Kernel_2include_2debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/Kernel_2include_2debug_8h_source.html#l00085">debug.h:85</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d70/Kernel_2include_2debug_8h_source.html#l00085">debug</a>.</p>
 
 </div>
 </div>

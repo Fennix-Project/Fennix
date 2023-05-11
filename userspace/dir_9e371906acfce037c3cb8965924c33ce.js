@@ -1,6 +1,6 @@
 var dir_9e371906acfce037c3cb8965924c33ce =
 [
-    [ "file.h", "d2/d4d/file_8h.html", "d2/d4d/file_8h" ],
+    [ "file.h", "d6/d66/mlibc_2options_2posix_2include_2sys_2file_8h.html", "d6/d66/mlibc_2options_2posix_2include_2sys_2file_8h" ],
     [ "ipc.h", "d9/d24/ipc_8h.html", "d9/d24/ipc_8h" ],
     [ "mman.h", "de/d9f/mman_8h.html", "de/d9f/mman_8h" ],
     [ "msg.h", "d1/d71/msg_8h.html", "d1/d71/msg_8h" ],
@@ -24,5 +24,5 @@ var dir_9e371906acfce037c3cb8965924c33ce =
     [ "un.h", "da/d4b/un_8h.html", "da/d4b/un_8h" ],
     [ "utsname.h", "d9/d33/options_2posix_2include_2sys_2utsname_8h.html", "d9/d33/options_2posix_2include_2sys_2utsname_8h" ],
     [ "vfs.h", "d5/dfa/vfs_8h.html", null ],
-    [ "wait.h", "db/df3/options_2posix_2include_2sys_2wait_8h.html", "db/df3/options_2posix_2include_2sys_2wait_8h" ]
+    [ "wait.h", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h" ]
 ];

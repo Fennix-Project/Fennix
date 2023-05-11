@@ -6,8 +6,8 @@ var DAPI_8hpp =
         [ "GetWidth", "de/d72/structKernelAPI_1_1KAPIDisplay.html#a13d10e1482410389ba615b12e51b5fab", null ]
       ] ],
       [ "KAPIDriverTalk", "d3/dfe/DAPI_8hpp.html#d1/d92/structKernelAPI_1_1KAPIDriverTalk", [
-        [ "Disk", "d3/dfe/DAPI_8hpp.html#aedd48cc926de2dd71dc94fbc8ff26b8e", null ],
-        [ "Network", "d3/dfe/DAPI_8hpp.html#a7c5e99f586825ce6be98f74a0c0750e3", null ]
+        [ "Disk", "d3/dfe/DAPI_8hpp.html#a13a279652cf4459edce5182312e8c890", null ],
+        [ "Network", "d3/dfe/DAPI_8hpp.html#a19fd4835343b1d3f28999d32dd75f660", null ]
       ] ],
       [ "KAPIDriverTalk.Disk", "d3/dfe/DAPI_8hpp.html#df/d2e/structKernelAPI_1_1KAPIDriverTalk_8Disk", [
         [ "AHCI", "d3/dfe/DAPI_8hpp.html#a4957524a53f6c6e4eaf8e504a652b6db", null ]
@@ -70,8 +70,8 @@ var DAPI_8hpp =
     [ "KAPIPCI", "d8/d2e/structKernelAPI_1_1KAPIPCI.html", "d8/d2e/structKernelAPI_1_1KAPIPCI" ],
     [ "KAPIUtilities", "d5/de3/structKernelAPI_1_1KAPIUtilities.html", "d5/de3/structKernelAPI_1_1KAPIUtilities" ],
     [ "KAPIDriverTalk", "d3/dfe/DAPI_8hpp.html#d1/d92/structKernelAPI_1_1KAPIDriverTalk", [
-      [ "Disk", "d3/dfe/DAPI_8hpp.html#aedd48cc926de2dd71dc94fbc8ff26b8e", null ],
-      [ "Network", "d3/dfe/DAPI_8hpp.html#a7c5e99f586825ce6be98f74a0c0750e3", null ]
+      [ "Disk", "d3/dfe/DAPI_8hpp.html#a13a279652cf4459edce5182312e8c890", null ],
+      [ "Network", "d3/dfe/DAPI_8hpp.html#a19fd4835343b1d3f28999d32dd75f660", null ]
     ] ],
     [ "KAPIDisplay", "de/d72/structKernelAPI_1_1KAPIDisplay.html", "de/d72/structKernelAPI_1_1KAPIDisplay" ],
     [ "KAPIVersion", "d3/dfe/DAPI_8hpp.html#d6/d76/structKAPIVersion", [
@@ -88,8 +88,8 @@ var DAPI_8hpp =
     [ "KAPIPCI", "de/d5d/structKAPIPCI.html", "de/d5d/structKAPIPCI" ],
     [ "KAPIUtilities", "d2/d58/structKAPIUtilities.html", "d2/d58/structKAPIUtilities" ],
     [ "KAPIDriverTalk", "d3/dfe/DAPI_8hpp.html#df/d77/structKAPIDriverTalk", [
-      [ "Disk", "d3/dfe/DAPI_8hpp.html#a5b10826793aaba503046701b9e75d89b", null ],
-      [ "Network", "d3/dfe/DAPI_8hpp.html#a82eddad5fe339f6cda487896d22a78d8", null ]
+      [ "Disk", "d3/dfe/DAPI_8hpp.html#a1d0f4e116ef8af4c6276a4ac8e58e511", null ],
+      [ "Network", "d3/dfe/DAPI_8hpp.html#a8874a9091dea7b5fd66e448ea676a594", null ]
     ] ],
     [ "KAPIDisplay", "d0/daf/structKAPIDisplay.html", "d0/daf/structKAPIDisplay" ],
     [ "KernelCallback", "d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback", [
@@ -108,7 +108,7 @@ var DAPI_8hpp =
       [ "AHCI", "d3/dfe/DAPI_8hpp.html#a4957524a53f6c6e4eaf8e504a652b6db", null ]
     ] ],
     [ "KAPIDriverTalk.Disk.AHCI", "d2/d36/structKAPIDriverTalk_8Disk_8AHCI.html", "d2/d36/structKAPIDriverTalk_8Disk_8AHCI" ],
-    [ "KernelCallback.__unnamed39__", "d3/dfe/DAPI_8hpp.html#d3/dad/structKernelCallback_8____unnamed39____", [
+    [ "KernelCallback.__unnamed65__", "d3/dfe/DAPI_8hpp.html#de/da5/structKernelCallback_8____unnamed65____", [
       [ "AudioCallback", "d3/dfe/DAPI_8hpp.html#a4d7af510a3dec029145c599dae8c4cf1", null ],
       [ "DiskCallback", "d3/dfe/DAPI_8hpp.html#a150ff50d6f9f7ca41a61138c32d96a6a", null ],
       [ "InputCallback", "d3/dfe/DAPI_8hpp.html#afb551618e914d0c7a0892832f1510cc4", null ],
@@ -118,53 +118,53 @@ var DAPI_8hpp =
       [ "RawPtr", "d3/dfe/DAPI_8hpp.html#a95363a4c177d131d25198f184c2a2993", null ],
       [ "Reason", "d3/dfe/DAPI_8hpp.html#afffcb4d1e12c96b2f571f77ad25878b8", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.NetworkCallback", "d3/dfe/DAPI_8hpp.html#d2/d38/structKernelCallback_8____unnamed39_____8NetworkCallback", [
+    [ "KernelCallback.__unnamed65__.NetworkCallback", "d3/dfe/DAPI_8hpp.html#d8/d37/structKernelCallback_8____unnamed65_____8NetworkCallback", [
       [ "Fetch", "d3/dfe/DAPI_8hpp.html#a4ea7755f84f02d23876d90be2f9765cf", null ],
       [ "Send", "d3/dfe/DAPI_8hpp.html#a94966d90747b97d1f0f206c98a8b1ac3", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.NetworkCallback.Send", "d3/dfe/DAPI_8hpp.html#da/dda/structKernelCallback_8____unnamed39_____8NetworkCallback_8Send", [
+    [ "KernelCallback.__unnamed65__.NetworkCallback.Send", "d3/dfe/DAPI_8hpp.html#da/ddb/structKernelCallback_8____unnamed65_____8NetworkCallback_8Send", [
       [ "Data", "d3/dfe/DAPI_8hpp.html#af6068daa29dbb05a7ead1e3b5a48bbee", null ],
       [ "Length", "d3/dfe/DAPI_8hpp.html#aba2a9c6c8c77e03f83ef8bf543612275", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.NetworkCallback.Fetch", "d3/dfe/DAPI_8hpp.html#d7/df1/structKernelCallback_8____unnamed39_____8NetworkCallback_8Fetch", [
+    [ "KernelCallback.__unnamed65__.NetworkCallback.Fetch", "d3/dfe/DAPI_8hpp.html#dc/daf/structKernelCallback_8____unnamed65_____8NetworkCallback_8Fetch", [
       [ "MAC", "d3/dfe/DAPI_8hpp.html#a2e25c285356cbb0ed8785a1377027d79", null ],
       [ "Name", "d3/dfe/DAPI_8hpp.html#a57d948c6d2375efae898cb507207eeee", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.DiskCallback", "d3/dfe/DAPI_8hpp.html#dd/d8b/structKernelCallback_8____unnamed39_____8DiskCallback", [
+    [ "KernelCallback.__unnamed65__.DiskCallback", "d3/dfe/DAPI_8hpp.html#d7/d21/structKernelCallback_8____unnamed65_____8DiskCallback", [
       [ "Fetch", "d3/dfe/DAPI_8hpp.html#a4ea7755f84f02d23876d90be2f9765cf", null ],
       [ "RW", "d3/dfe/DAPI_8hpp.html#a5c6dc3d436504b7a65191cafe28212ee", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.DiskCallback.RW", "d3/dfe/DAPI_8hpp.html#d8/d98/structKernelCallback_8____unnamed39_____8DiskCallback_8RW", [
+    [ "KernelCallback.__unnamed65__.DiskCallback.RW", "d3/dfe/DAPI_8hpp.html#df/d20/structKernelCallback_8____unnamed65_____8DiskCallback_8RW", [
       [ "Buffer", "d3/dfe/DAPI_8hpp.html#a7e62bc342f41c946868f0ea6f0b712d8", null ],
       [ "Port", "d3/dfe/DAPI_8hpp.html#a60aaf44d4b562252c04db7f98497e9aa", null ],
       [ "Sector", "d3/dfe/DAPI_8hpp.html#aeadc185cbe8bcd05a5deaf7b99064d56", null ],
       [ "SectorCount", "d3/dfe/DAPI_8hpp.html#af806bc55763f07b2395281bb62502dca", null ],
       [ "Write", "d3/dfe/DAPI_8hpp.html#a1129c0e4d43f2d121652a7302712cff6", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.DiskCallback.Fetch", "d3/dfe/DAPI_8hpp.html#d0/d3a/structKernelCallback_8____unnamed39_____8DiskCallback_8Fetch", [
+    [ "KernelCallback.__unnamed65__.DiskCallback.Fetch", "d3/dfe/DAPI_8hpp.html#d2/d55/structKernelCallback_8____unnamed65_____8DiskCallback_8Fetch", [
       [ "BytesPerSector", "d3/dfe/DAPI_8hpp.html#a9ce95649927a678d46b15cab5507e537", null ],
       [ "Ports", "d3/dfe/DAPI_8hpp.html#a407c4e9fac86b98147da49acd4fa0d01", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.InputCallback", "d3/dfe/DAPI_8hpp.html#d0/d1e/structKernelCallback_8____unnamed39_____8InputCallback", [
+    [ "KernelCallback.__unnamed65__.InputCallback", "d3/dfe/DAPI_8hpp.html#d7/d61/structKernelCallback_8____unnamed65_____8InputCallback", [
       [ "Mouse", "d3/dfe/DAPI_8hpp.html#af2a47c6809d88e175dade0ef7b16aa13", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.InputCallback.Mouse", "d3/dfe/DAPI_8hpp.html#d7/d2f/structKernelCallback_8____unnamed39_____8InputCallback_8Mouse", [
+    [ "KernelCallback.__unnamed65__.InputCallback.Mouse", "d3/dfe/DAPI_8hpp.html#d9/d58/structKernelCallback_8____unnamed65_____8InputCallback_8Mouse", [
       [ "Buttons", "d3/dfe/DAPI_8hpp.html#a5b3ec15499a125805b5bbf8e4afcec8c", null ],
       [ "X", "d3/dfe/DAPI_8hpp.html#a02129bb861061d1a052c592e2dc6b383", null ],
       [ "Y", "d3/dfe/DAPI_8hpp.html#a57cec4137b614c87cb4e24a3d003a3e0", null ],
       [ "Z", "d3/dfe/DAPI_8hpp.html#a21c2e59531c8710156d34a3c30ac81d5", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.InputCallback.Mouse.Buttons", "d3/dfe/DAPI_8hpp.html#d7/dec/structKernelCallback_8____unnamed39_____8InputCallback_8Mouse_8Buttons", [
+    [ "KernelCallback.__unnamed65__.InputCallback.Mouse.Buttons", "d3/dfe/DAPI_8hpp.html#dd/d09/structKernelCallback_8____unnamed65_____8InputCallback_8Mouse_8Buttons", [
       [ "Left", "d3/dfe/DAPI_8hpp.html#a945d5e233cf7d6240f6b783b36a374ff", null ],
       [ "Middle", "d3/dfe/DAPI_8hpp.html#ab1ca34f82e83c52b010f86955f264e05", null ],
       [ "Right", "d3/dfe/DAPI_8hpp.html#a92b09c7c48c520c3c55e497875da437c", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.AudioCallback", "d3/dfe/DAPI_8hpp.html#d7/d82/structKernelCallback_8____unnamed39_____8AudioCallback", [
+    [ "KernelCallback.__unnamed65__.AudioCallback", "d3/dfe/DAPI_8hpp.html#df/d2d/structKernelCallback_8____unnamed65_____8AudioCallback", [
       [ "Adjust", "d3/dfe/DAPI_8hpp.html#a51d7a685e12188ee196670343e1ac2cd", null ],
       [ "Fetch", "d3/dfe/DAPI_8hpp.html#a4ea7755f84f02d23876d90be2f9765cf", null ],
       [ "Send", "d3/dfe/DAPI_8hpp.html#a94966d90747b97d1f0f206c98a8b1ac3", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.AudioCallback.Adjust", "d3/dfe/DAPI_8hpp.html#db/d56/structKernelCallback_8____unnamed39_____8AudioCallback_8Adjust", [
+    [ "KernelCallback.__unnamed65__.AudioCallback.Adjust", "d3/dfe/DAPI_8hpp.html#d2/d6b/structKernelCallback_8____unnamed65_____8AudioCallback_8Adjust", [
       [ "_Channels", "d3/dfe/DAPI_8hpp.html#afb4cf35378d007402cba19d0123332de", null ],
       [ "_Encoding", "d3/dfe/DAPI_8hpp.html#a197a807f5c0b0d0f4b45407f51e41608", null ],
       [ "_SampleRate", "d3/dfe/DAPI_8hpp.html#aad9a6330b90c831f04e1bd44cc557a77", null ],
@@ -174,17 +174,17 @@ var DAPI_8hpp =
       [ "SampleRate", "d3/dfe/DAPI_8hpp.html#ab8b9b97682808000fc715cdd731e6165", null ],
       [ "Volume", "d3/dfe/DAPI_8hpp.html#abd7a9717d29c5ddcab1bc175eda1e298", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.AudioCallback.Send", "d3/dfe/DAPI_8hpp.html#d2/d9e/structKernelCallback_8____unnamed39_____8AudioCallback_8Send", [
+    [ "KernelCallback.__unnamed65__.AudioCallback.Send", "d3/dfe/DAPI_8hpp.html#d9/dca/structKernelCallback_8____unnamed65_____8AudioCallback_8Send", [
       [ "Data", "d3/dfe/DAPI_8hpp.html#af6068daa29dbb05a7ead1e3b5a48bbee", null ],
       [ "Length", "d3/dfe/DAPI_8hpp.html#aba2a9c6c8c77e03f83ef8bf543612275", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.AudioCallback.Fetch", "d3/dfe/DAPI_8hpp.html#d3/d0c/structKernelCallback_8____unnamed39_____8AudioCallback_8Fetch", [
+    [ "KernelCallback.__unnamed65__.AudioCallback.Fetch", "d3/dfe/DAPI_8hpp.html#d4/daf/structKernelCallback_8____unnamed65_____8AudioCallback_8Fetch", [
       [ "Channels", "d3/dfe/DAPI_8hpp.html#a14cb425d8170ed04f3d8016d5a0ccf20", null ],
       [ "Encoding", "d3/dfe/DAPI_8hpp.html#a169a6f6b44766410bffebf76ff3dcf17", null ],
       [ "SampleRate", "d3/dfe/DAPI_8hpp.html#ab8b9b97682808000fc715cdd731e6165", null ],
       [ "Volume", "d3/dfe/DAPI_8hpp.html#abd7a9717d29c5ddcab1bc175eda1e298", null ]
     ] ],
-    [ "KernelCallback.__unnamed39__.InterruptInfo", "d3/dfe/DAPI_8hpp.html#df/d18/structKernelCallback_8____unnamed39_____8InterruptInfo", [
+    [ "KernelCallback.__unnamed65__.InterruptInfo", "d3/dfe/DAPI_8hpp.html#d1/d19/structKernelCallback_8____unnamed65_____8InterruptInfo", [
       [ "Vector", "d3/dfe/DAPI_8hpp.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
     [ ".NetworkCallback", "d3/dfe/DAPI_8hpp.html#d1/d02/struct_8NetworkCallback", [
@@ -256,7 +256,7 @@ var DAPI_8hpp =
     [ ".InterruptInfo", "d3/dfe/DAPI_8hpp.html#de/dea/struct_8InterruptInfo", [
       [ "Vector", "d3/dfe/DAPI_8hpp.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "CPURegisters.__unnamed71__", "d3/dfe/DAPI_8hpp.html#d2/d0c/structCPURegisters_8____unnamed71____", null ],
+    [ "CPURegisters.__unnamed97__", "d3/dfe/DAPI_8hpp.html#da/dea/structCPURegisters_8____unnamed97____", null ],
     [ "CallbackReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dd", [
       [ "UnknownReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda8889069184c392232cee15200fa0d99d", null ],
       [ "AcknowledgeReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddaffe0297ef0c988cb097b4f9d4150c8a4", null ],

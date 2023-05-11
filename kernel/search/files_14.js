@@ -1,9 +1,5 @@
 var searchData=
 [
-  ['wchar_2eh_7787',['wchar.h',['../d9/dae/wchar_8h.html',1,'']]],
-  ['widgetevents_2ecpp_7788',['WidgetEvents.cpp',['../d3/d32/WidgetEvents_8cpp.html',1,'']]],
-  ['widgets_2ecpp_7789',['Widgets.cpp',['../d3/d50/Widgets_8cpp.html',1,'']]],
-  ['window_2ecpp_7790',['Window.cpp',['../d2/d84/Window_8cpp.html',1,'']]],
-  ['windowevents_2ecpp_7791',['WindowEvents.cpp',['../db/d69/WindowEvents_8cpp.html',1,'']]],
-  ['wrapper_2ecpp_7792',['Wrapper.cpp',['../d8/d21/Wrapper_8cpp.html',1,'']]]
+  ['vector_2ehpp_8000',['vector.hpp',['../da/d16/vector_8hpp.html',1,'']]],
+  ['virtualmemorymanager_2ecpp_8001',['VirtualMemoryManager.cpp',['../da/d1e/Architecture_2aarch64_2Memory_2VirtualMemoryManager_8cpp.html',1,'(Global Namespace)'],['../d8/d51/Architecture_2amd64_2Memory_2VirtualMemoryManager_8cpp.html',1,'(Global Namespace)'],['../d5/d29/Architecture_2i386_2Memory_2VirtualMemoryManager_8cpp.html',1,'(Global Namespace)'],['../d2/d69/Core_2Memory_2VirtualMemoryManager_8cpp.html',1,'(Global Namespace)']]]
 ];

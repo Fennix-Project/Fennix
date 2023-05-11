@@ -18,6 +18,7 @@ var classVirtualFileSystem_1_1Virtual =
     [ "NormalizePath", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a8cb71c3c1b37225449449ad1bf67e9b4", null ],
     [ "Open", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#af52956ce6674c77cc854cda73721a2b1", null ],
     [ "PathExists", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a18d495c85a51a3cb8b62bfd3ae74b562", null ],
+    [ "PathIsRelative", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#afc276136d594265811635703eb174f55", null ],
     [ "Read", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a0b284eb5ab1b3b09d3003b6943388025", null ],
     [ "RemoveChild", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#acbc081f75a4b25700da3242308a26f27", null ],
     [ "Unmount", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#ad2a4bbe693d6f61d84750bb7978d74ed", null ],

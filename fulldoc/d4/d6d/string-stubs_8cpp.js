@@ -51,5 +51,5 @@ var string_stubs_8cpp =
     [ "endptr", "d4/d6d/string-stubs_8cpp.html#a277af5311fc6b4461461b75008a98395", null ],
     [ "nullptr", "d4/d6d/string-stubs_8cpp.html#a231299e413293aab78d01e3d600f93d1", null ],
     [ "r", "d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25", null ],
-    [ "size", "d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78", null ]
+    [ "size", "d4/d6d/string-stubs_8cpp.html#a0f6ebe0c336a47aceb0d77ec2224d393", null ]
 ];

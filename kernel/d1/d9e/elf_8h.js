@@ -56,6 +56,16 @@ var elf_8h =
       [ "sh_size", "d1/d9e/elf_8h.html#a1e9054001e3e7d1284d051ad1291e4a4", null ],
       [ "sh_type", "d1/d9e/elf_8h.html#a20b1ca3674936878ca6a909802c0a3fd", null ]
     ] ],
+    [ "Elf32_Phdr", "d1/d9e/elf_8h.html#d9/db8/structElf32__Phdr", [
+      [ "p_align", "d1/d9e/elf_8h.html#afd09d9e4297b13fc94fd57d09f2a9f70", null ],
+      [ "p_filesz", "d1/d9e/elf_8h.html#ac9151f2e11001284bf1c7d2d2659555c", null ],
+      [ "p_flags", "d1/d9e/elf_8h.html#a35c457e6828894b7b275730593802050", null ],
+      [ "p_memsz", "d1/d9e/elf_8h.html#ada1cdd3d6ccb79a17bed0e3c21379c84", null ],
+      [ "p_offset", "d1/d9e/elf_8h.html#ac590d4c4b26104216e53058b5b03eef0", null ],
+      [ "p_paddr", "d1/d9e/elf_8h.html#af18f0a179a5fca09e3c04bcdce3fac2f", null ],
+      [ "p_type", "d1/d9e/elf_8h.html#a8b1d2942ddb9abcb85db1429b5116923", null ],
+      [ "p_vaddr", "d1/d9e/elf_8h.html#a01a298ebc899bcf9c23211a7bf1155a6", null ]
+    ] ],
     [ "Elf64_Phdr", "d1/d9e/elf_8h.html#d3/d7b/structElf64__Phdr", [
       [ "p_align", "d1/d9e/elf_8h.html#aa89a4b1835998c8866e821d777a2f879", null ],
       [ "p_filesz", "d1/d9e/elf_8h.html#af50e5756da2acda5ccb02ebaa3367092", null ],
@@ -92,11 +102,11 @@ var elf_8h =
     ] ],
     [ "Elf32_Dyn", "d1/d9e/elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d1/d9e/elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d1/d9e/elf_8h.html#a77e683c718b426ea57b1da8df578abcd", null ]
+      [ "d_un", "d1/d9e/elf_8h.html#af271cb0339229e28e5c0f45d948a3d96", null ]
     ] ],
     [ "Elf64_Dyn", "d1/d9e/elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d1/d9e/elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d1/d9e/elf_8h.html#af66128b458466a494a8bf12e83a64d4b", null ]
+      [ "d_un", "d1/d9e/elf_8h.html#a5a9c6b33cd4c83a790dbf694f18b1d1f", null ]
     ] ],
     [ "Elf64_Rela", "d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela", [
       [ "r_addend", "d1/d9e/elf_8h.html#a04358b55027a7dcc414e221d916aac64", null ],

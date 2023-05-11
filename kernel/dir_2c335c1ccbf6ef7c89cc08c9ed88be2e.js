@@ -44,7 +44,13 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     ] ],
     [ "smart_ptr.hpp", "d4/d8f/include_2smart__ptr_8hpp.html", null ],
     [ "smp.hpp", "d4/d33/smp_8hpp.html", "d4/d33/smp_8hpp" ],
-    [ "symbols.hpp", "d7/d94/symbols_8hpp.html", "d7/d94/symbols_8hpp" ],
+    [ "symbols.hpp", "d7/d94/symbols_8hpp.html", [
+      [ "Symbols", "d0/dcc/classSymbolResolver_1_1Symbols.html", "d0/dcc/classSymbolResolver_1_1Symbols" ],
+      [ "SymbolTable", "d0/dcc/classSymbolResolver_1_1Symbols.html#db/d91/structSymbolResolver_1_1Symbols_1_1SymbolTable", [
+        [ "Address", "d0/dcc/classSymbolResolver_1_1Symbols.html#ac24cfa0bdb0be0d922f3116765efdfda", null ],
+        [ "FunctionName", "d0/dcc/classSymbolResolver_1_1Symbols.html#a514742bb0d06957329fc2d85e04bbabe", null ]
+      ] ]
+    ] ],
     [ "syscalls.hpp", "d0/d35/syscalls_8hpp.html", "d0/d35/syscalls_8hpp" ],
     [ "targp.h", "db/d2a/targp_8h.html", "db/d2a/targp_8h" ],
     [ "task.hpp", "d8/da1/task_8hpp.html", "d8/da1/task_8hpp" ],

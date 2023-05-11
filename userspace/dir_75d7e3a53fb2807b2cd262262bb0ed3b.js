@@ -16,7 +16,7 @@ var dir_75d7e3a53fb2807b2cd262262bb0ed3b =
     [ "ino_t.h", "d9/d58/sysdeps_2aero_2include_2abi-bits_2ino__t_8h.html", "d9/d58/sysdeps_2aero_2include_2abi-bits_2ino__t_8h" ],
     [ "inotify.h", "d4/d8c/sysdeps_2aero_2include_2abi-bits_2inotify_8h.html", "d4/d8c/sysdeps_2aero_2include_2abi-bits_2inotify_8h" ],
     [ "ioctls.h", "d7/d99/sysdeps_2aero_2include_2abi-bits_2ioctls_8h.html", "d7/d99/sysdeps_2aero_2include_2abi-bits_2ioctls_8h" ],
-    [ "limits.h", "df/ddf/sysdeps_2aero_2include_2abi-bits_2limits_8h.html", "df/ddf/sysdeps_2aero_2include_2abi-bits_2limits_8h" ],
+    [ "limits.h", "d7/d45/mlibc_2sysdeps_2aero_2include_2abi-bits_2limits_8h.html", "d7/d45/mlibc_2sysdeps_2aero_2include_2abi-bits_2limits_8h" ],
     [ "mode_t.h", "d3/d53/sysdeps_2aero_2include_2abi-bits_2mode__t_8h.html", "d3/d53/sysdeps_2aero_2include_2abi-bits_2mode__t_8h" ],
     [ "mqueue.h", "db/dde/sysdeps_2aero_2include_2abi-bits_2mqueue_8h.html", [
       [ "mq_attr", "dd/d79/sysdeps_2managarm_2include_2abi-bits_2mqueue_8h.html#d4/daf/structmq__attr", [
@@ -45,7 +45,7 @@ var dir_75d7e3a53fb2807b2cd262262bb0ed3b =
         [ "used_ids", "d6/dc0/sysdeps_2managarm_2include_2abi-bits_2shm_8h.html#a733cad29409fd9d60a3bde1f8f8f02ef", null ]
       ] ]
     ] ],
-    [ "signal.h", "d1/d22/sysdeps_2aero_2include_2abi-bits_2signal_8h.html", "d1/d22/sysdeps_2aero_2include_2abi-bits_2signal_8h" ],
+    [ "signal.h", "d8/d14/mlibc_2sysdeps_2aero_2include_2abi-bits_2signal_8h.html", "d8/d14/mlibc_2sysdeps_2aero_2include_2abi-bits_2signal_8h" ],
     [ "socket.h", "dd/dc5/sysdeps_2aero_2include_2abi-bits_2socket_8h.html", "dd/dc5/sysdeps_2aero_2include_2abi-bits_2socket_8h" ],
     [ "socklen_t.h", "d4/d24/sysdeps_2aero_2include_2abi-bits_2socklen__t_8h.html", "d4/d24/sysdeps_2aero_2include_2abi-bits_2socklen__t_8h" ],
     [ "stat.h", "d8/d55/mlibc_2sysdeps_2aero_2include_2abi-bits_2stat_8h.html", "d8/d55/mlibc_2sysdeps_2aero_2include_2abi-bits_2stat_8h" ],
@@ -66,6 +66,6 @@ var dir_75d7e3a53fb2807b2cd262262bb0ed3b =
       ] ]
     ] ],
     [ "vm-flags.h", "d4/d82/sysdeps_2aero_2include_2abi-bits_2vm-flags_8h.html", "d4/d82/sysdeps_2aero_2include_2abi-bits_2vm-flags_8h" ],
-    [ "wait.h", "db/da3/sysdeps_2aero_2include_2abi-bits_2wait_8h.html", "db/da3/sysdeps_2aero_2include_2abi-bits_2wait_8h" ],
+    [ "wait.h", "d6/d6a/mlibc_2sysdeps_2aero_2include_2abi-bits_2wait_8h.html", "d6/d6a/mlibc_2sysdeps_2aero_2include_2abi-bits_2wait_8h" ],
     [ "xattr.h", "d0/d3b/sysdeps_2aero_2include_2abi-bits_2xattr_8h.html", "d0/d3b/sysdeps_2aero_2include_2abi-bits_2xattr_8h" ]
 ];

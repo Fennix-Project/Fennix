@@ -12,7 +12,7 @@ var dir_517446e61ae16af3529076a3a3627039 =
     [ "in.h", "dd/d2f/abis_2mlibc_2in_8h.html", "dd/d2f/abis_2mlibc_2in_8h" ],
     [ "ino_t.h", "d4/df5/abis_2mlibc_2ino__t_8h.html", "d4/df5/abis_2mlibc_2ino__t_8h" ],
     [ "inotify.h", "de/dc5/abis_2mlibc_2inotify_8h.html", "de/dc5/abis_2mlibc_2inotify_8h" ],
-    [ "limits.h", "d0/d94/abis_2mlibc_2limits_8h.html", "d0/d94/abis_2mlibc_2limits_8h" ],
+    [ "limits.h", "d8/d99/mlibc_2abis_2mlibc_2limits_8h.html", "d8/d99/mlibc_2abis_2mlibc_2limits_8h" ],
     [ "mode_t.h", "d5/d46/abis_2mlibc_2mode__t_8h.html", "d5/d46/abis_2mlibc_2mode__t_8h" ],
     [ "nlink_t.h", "d4/dec/abis_2mlibc_2nlink__t_8h.html", "d4/dec/abis_2mlibc_2nlink__t_8h" ],
     [ "packet.h", "db/d93/abis_2mlibc_2packet_8h.html", "db/d93/abis_2mlibc_2packet_8h" ],
@@ -21,7 +21,7 @@ var dir_517446e61ae16af3529076a3a3627039 =
     [ "ptrace.h", "d3/d45/abis_2mlibc_2ptrace_8h.html", "d3/d45/abis_2mlibc_2ptrace_8h" ],
     [ "resource.h", "d8/d88/abis_2mlibc_2resource_8h.html", "d8/d88/abis_2mlibc_2resource_8h" ],
     [ "seek-whence.h", "d1/de2/abis_2mlibc_2seek-whence_8h.html", "d1/de2/abis_2mlibc_2seek-whence_8h" ],
-    [ "signal.h", "da/dec/abis_2mlibc_2signal_8h.html", "da/dec/abis_2mlibc_2signal_8h" ],
+    [ "signal.h", "d5/d05/mlibc_2abis_2mlibc_2signal_8h.html", "d5/d05/mlibc_2abis_2mlibc_2signal_8h" ],
     [ "socket.h", "dc/dc3/abis_2mlibc_2socket_8h.html", "dc/dc3/abis_2mlibc_2socket_8h" ],
     [ "stat.h", "d5/de7/mlibc_2abis_2mlibc_2stat_8h.html", "d5/de7/mlibc_2abis_2mlibc_2stat_8h" ],
     [ "termios.h", "d3/dc8/abis_2mlibc_2termios_8h.html", "d3/dc8/abis_2mlibc_2termios_8h" ],
@@ -38,5 +38,5 @@ var dir_517446e61ae16af3529076a3a3627039 =
       ] ]
     ] ],
     [ "vm-flags.h", "d0/d17/abis_2mlibc_2vm-flags_8h.html", "d0/d17/abis_2mlibc_2vm-flags_8h" ],
-    [ "wait.h", "d1/d29/abis_2mlibc_2wait_8h.html", "d1/d29/abis_2mlibc_2wait_8h" ]
+    [ "wait.h", "db/da3/mlibc_2abis_2mlibc_2wait_8h.html", "db/da3/mlibc_2abis_2mlibc_2wait_8h" ]
 ];

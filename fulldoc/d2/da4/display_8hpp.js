@@ -36,7 +36,7 @@ var display_8hpp =
     [ "ScreenBuffer", "d6/de2/namespaceVideo.html#d6/d92/structVideo_1_1ScreenBuffer", [
       [ "Brightness", "d6/de2/namespaceVideo.html#aff19113207077e3f294bacc0610a2ef9", null ],
       [ "Buffer", "d6/de2/namespaceVideo.html#aca9ee49f5a73eef6efe426ecee15bd24", null ],
-      [ "Checksum", "d6/de2/namespaceVideo.html#acdd6c6c5813f9473c4d6d17c883ad2a9", null ],
+      [ "Checksum", "d6/de2/namespaceVideo.html#a5d5a6d1006826cb09fa6b136d02a42d3", null ],
       [ "Color", "d6/de2/namespaceVideo.html#a1452aa2f8749bd33cc4522af1a6abdde", null ],
       [ "CursorX", "d6/de2/namespaceVideo.html#a76af49c502cb7134be988b9e261837fe", null ],
       [ "CursorY", "d6/de2/namespaceVideo.html#aca20fd5febd3235e90cbcdd3b14856e5", null ],

@@ -2,7 +2,7 @@ var dir_0309b499b8950a5fc0ffafb09dd8e67f =
 [
     [ "Bootstrap", "dir_239220c4ec43ab0aef70c89efa6d68cf.html", "dir_239220c4ec43ab0aef70c89efa6d68cf" ],
     [ "cpu", "dir_74c5661253e5cc21187b2a763abbb176.html", "dir_74c5661253e5cc21187b2a763abbb176" ],
-    [ "runtime", "dir_e56249c55da71d1d040f751103f3796c.html", "dir_e56249c55da71d1d040f751103f3796c" ],
+    [ "Memory", "dir_fb0de48faacd4740e722e3208ce268e6.html", "dir_fb0de48faacd4740e722e3208ce268e6" ],
     [ "acpi.hpp", "dc/d7c/amd64_2acpi_8hpp.html", [
       [ "ACPI", "d3/d21/classACPI_1_1ACPI.html", "d3/d21/classACPI_1_1ACPI" ],
       [ "ACPIHeader", "d3/d21/classACPI_1_1ACPI.html#d1/de6/structACPI_1_1ACPI_1_1ACPIHeader", [

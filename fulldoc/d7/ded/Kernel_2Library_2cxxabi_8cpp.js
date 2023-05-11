@@ -1,8 +1,8 @@
 var Kernel_2Library_2cxxabi_8cpp =
 [
     [ "atexit_func_entry_t", "df/d34/structatexit__func__entry__t.html", "df/d34/structatexit__func__entry__t" ],
-    [ "type_info", "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#dd/d3a/structtype__info", [
-      [ "name", "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a80c9f4273049c54c7928cb0ba4df1077", null ]
+    [ "type_info", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#dd/d3a/structtype__info", [
+      [ "name", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a72ee6ee0df4f7559a716bc263875c3f1", null ]
     ] ],
     [ "unexpected_handler", "d0/d56/structunexpected__handler.html", "d0/d56/structunexpected__handler" ],
     [ "terminate_handler", "d2/d62/structterminate__handler.html", "d2/d62/structterminate__handler" ],
@@ -28,6 +28,15 @@ var Kernel_2Library_2cxxabi_8cpp =
       [ "_URC_HANDLER_FOUND", "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d", null ],
       [ "_URC_INSTALL_CONTEXT", "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0", null ],
       [ "_URC_CONTINUE_UNWIND", "d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6", null ],
+      [ "_URC_NO_REASON", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97", null ],
+      [ "_URC_FOREIGN_EXCEPTION_CAUGHT", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b", null ],
+      [ "_URC_FATAL_PHASE2_ERROR", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c", null ],
+      [ "_URC_FATAL_PHASE1_ERROR", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a", null ],
+      [ "_URC_NORMAL_STOP", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586", null ],
+      [ "_URC_END_OF_STACK", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5", null ],
+      [ "_URC_HANDLER_FOUND", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d", null ],
+      [ "_URC_INSTALL_CONTEXT", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0", null ],
+      [ "_URC_CONTINUE_UNWIND", "df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6", null ],
       [ "_URC_NO_REASON", "dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97", null ],
       [ "_URC_FOREIGN_EXCEPTION_CAUGHT", "dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b", null ],
       [ "_URC_FATAL_PHASE2_ERROR", "dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c", null ],

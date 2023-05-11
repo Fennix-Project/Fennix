@@ -45,7 +45,7 @@ var dir_18bd09331b080c174e505acdf2e2aecf =
         [ "used_ids", "d6/dc0/sysdeps_2managarm_2include_2abi-bits_2shm_8h.html#a733cad29409fd9d60a3bde1f8f8f02ef", null ]
       ] ]
     ] ],
-    [ "signal.h", "d0/d1c/sysdeps_2lyre_2include_2abi-bits_2signal_8h.html", "d0/d1c/sysdeps_2lyre_2include_2abi-bits_2signal_8h" ],
+    [ "signal.h", "d3/d1d/mlibc_2sysdeps_2lyre_2include_2abi-bits_2signal_8h.html", "d3/d1d/mlibc_2sysdeps_2lyre_2include_2abi-bits_2signal_8h" ],
     [ "socket.h", "d9/de4/sysdeps_2lyre_2include_2abi-bits_2socket_8h.html", "d9/de4/sysdeps_2lyre_2include_2abi-bits_2socket_8h" ],
     [ "socklen_t.h", "da/ddb/sysdeps_2lyre_2include_2abi-bits_2socklen__t_8h.html", "da/ddb/sysdeps_2lyre_2include_2abi-bits_2socklen__t_8h" ],
     [ "stat.h", "d7/d99/Userspace_2mlibc_2sysdeps_2lyre_2include_2abi-bits_2stat_8h.html", "d7/d99/Userspace_2mlibc_2sysdeps_2lyre_2include_2abi-bits_2stat_8h" ],
@@ -66,6 +66,6 @@ var dir_18bd09331b080c174e505acdf2e2aecf =
       ] ]
     ] ],
     [ "vm-flags.h", "dc/dff/sysdeps_2lyre_2include_2abi-bits_2vm-flags_8h.html", "dc/dff/sysdeps_2lyre_2include_2abi-bits_2vm-flags_8h" ],
-    [ "wait.h", "db/d0f/sysdeps_2lyre_2include_2abi-bits_2wait_8h.html", "db/d0f/sysdeps_2lyre_2include_2abi-bits_2wait_8h" ],
+    [ "wait.h", "d7/d88/mlibc_2sysdeps_2lyre_2include_2abi-bits_2wait_8h.html", "d7/d88/mlibc_2sysdeps_2lyre_2include_2abi-bits_2wait_8h" ],
     [ "xattr.h", "d3/d0a/sysdeps_2lyre_2include_2abi-bits_2xattr_8h.html", "d3/d0a/sysdeps_2lyre_2include_2abi-bits_2xattr_8h" ]
 ];

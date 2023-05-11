@@ -132,7 +132,7 @@ Functions</h2></td></tr>
 <tr class="separator:a0bdd4089ecef56196582afcef1020bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc83616a9d9def9c1933e53820ac34e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/z__zone_8h.html#adc83616a9d9def9c1933e53820ac34e3">Z_DumpHeap</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> lowtag, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> hightag)</td></tr>
 <tr class="separator:adc83616a9d9def9c1933e53820ac34e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c9d5a6f9499fd55754ad2b0ec6d18ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/z__zone_8h.html#a8c9d5a6f9499fd55754ad2b0ec6d18ee">Z_FileDumpHeap</a> (<a class="el" href="../../dc/d4d/libc_2include_2stdio_8h.html#de/dc3/structFILE">FILE</a> *f)</td></tr>
+<tr class="memitem:a8c9d5a6f9499fd55754ad2b0ec6d18ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/z__zone_8h.html#a8c9d5a6f9499fd55754ad2b0ec6d18ee">Z_FileDumpHeap</a> (<a class="el" href="../../dc/d4d/libc_2include_2stdio_8h.html#a912af5ab9f8a52ddd387b7defc0b49f1">FILE</a> *f)</td></tr>
 <tr class="separator:a8c9d5a6f9499fd55754ad2b0ec6d18ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af35f377fca36b4f7fd9960cbf29fae89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dc2/z__zone_8h.html#af35f377fca36b4f7fd9960cbf29fae89">Z_CheckHeap</a> (void)</td></tr>
 <tr class="separator:af35f377fca36b4f7fd9960cbf29fae89"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -470,7 +470,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void Z_FileDumpHeap </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/d4d/libc_2include_2stdio_8h.html#de/dc3/structFILE">FILE</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dc/d4d/libc_2include_2stdio_8h.html#a912af5ab9f8a52ddd387b7defc0b49f1">FILE</a> *&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
           <td></td>
         </tr>
@@ -504,9 +504,9 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a> (f,<span class="stringliteral">&quot;ERROR: two consecutive free blocks\n&quot;</span>);</div>
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    }</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;}</div>
-<div class="ttc" id="alibc_2include_2stdio_8h_html_ad9291335f34e874c8431285d705bc3aa"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a></div><div class="ttdeci">int fprintf(FILE *stream, const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d0a/io_8c_source.html#l00023">io.c:23</a></div></div>
+<div class="ttc" id="alibc_2include_2stdio_8h_html_ad9291335f34e874c8431285d705bc3aa"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a></div><div class="ttdeci">int fprintf(FILE *stream, const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00089">file.c:89</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00056">memzone_t::blocklist</a>, <a class="el" href="../../df/d0a/io_8c_source.html#l00023">fprintf()</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00064">mainzone</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00045">memblock_s::next</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00046">memblock_s::prev</a>, <a class="el" href="../../d5/dc2/z__zone_8h_source.html#l00038">PU_FREE</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00041">memblock_s::size</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00053">memzone_t::size</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00043">memblock_s::tag</a>, and <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00042">memblock_s::user</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00056">memzone_t::blocklist</a>, <a class="el" href="../../d6/d13/file_8c_source.html#l00089">fprintf()</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00064">mainzone</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00045">memblock_s::next</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00046">memblock_s::prev</a>, <a class="el" href="../../d5/dc2/z__zone_8h_source.html#l00038">PU_FREE</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00041">memblock_s::size</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00053">memzone_t::size</a>, <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00043">memblock_s::tag</a>, and <a class="el" href="../../d7/db2/z__zone_8c_source.html#l00042">memblock_s::user</a>.</p>
 
 </div>
 </div>

@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('d0/d70/assert-stubs_8cpp.html','../../
 <div class="title">assert-stubs.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../dc/da7/assert_8h_source.html">assert.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;stdlib.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dc5/ensure_8h_source.html">bits/ensure.h</a>&gt;</code><br />
@@ -144,15 +144,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d70/assert-stubs_8cpp_source.html#l00008">8</a> of file <a class="el" href="../../d0/d70/assert-stubs_8cpp_source.html">assert-stubs.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                              {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a>(<a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#ac9e47c346a25e2e7edd2c9b4ca5d0262">stderr</a>, <span class="stringliteral">&quot;In function %s, file %s:%d: Assertion &#39;%s&#39; failed!\n&quot;</span>,</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a>(<a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a>, <span class="stringliteral">&quot;In function %s, file %s:%d: Assertion &#39;%s&#39; failed!\n&quot;</span>,</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            <span class="keyword">function</span>, file, line, assertion);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d7/d2f/libc_2include_2stdlib_8h.html#a8dec7c95227ff149687066cf04029191">abort</a>();</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="ttc" id="alibc_2include_2stdio_8h_html_ac9e47c346a25e2e7edd2c9b4ca5d0262"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#ac9e47c346a25e2e7edd2c9b4ca5d0262">stderr</a></div><div class="ttdeci">FILE * stderr</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d0a/io_8c_source.html#l00006">io.c:6</a></div></div>
-<div class="ttc" id="alibc_2include_2stdio_8h_html_ad9291335f34e874c8431285d705bc3aa"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a></div><div class="ttdeci">int fprintf(FILE *stream, const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d0a/io_8c_source.html#l00023">io.c:23</a></div></div>
+<div class="ttc" id="alibc_2include_2stdio_8h_html_a5ce35bd5ba5021fd3b2e951e8f497656"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a></div><div class="ttdeci">#define stderr</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00060">stdio.h:60</a></div></div>
+<div class="ttc" id="alibc_2include_2stdio_8h_html_ad9291335f34e874c8431285d705bc3aa"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#ad9291335f34e874c8431285d705bc3aa">fprintf</a></div><div class="ttdeci">int fprintf(FILE *stream, const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00089">file.c:89</a></div></div>
 <div class="ttc" id="alibc_2include_2stdlib_8h_html_a8dec7c95227ff149687066cf04029191"><div class="ttname"><a href="../../d7/d2f/libc_2include_2stdlib_8h.html#a8dec7c95227ff149687066cf04029191">abort</a></div><div class="ttdeci">void abort(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dd7/lib_8c_source.html#l00007">lib.c:7</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dd7/lib_8c_source.html#l00007">abort()</a>, <a class="el" href="../../df/d0a/io_8c_source.html#l00023">fprintf()</a>, and <a class="el" href="../../df/d0a/io_8c_source.html#l00006">stderr</a>.</p>
+<p class="reference">References <a class="el" href="../../de/dd7/lib_8c_source.html#l00007">abort()</a>, <a class="el" href="../../d6/d13/file_8c_source.html#l00089">fprintf()</a>, and <a class="el" href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00060">stderr</a>.</p>
 
 </div>
 </div>

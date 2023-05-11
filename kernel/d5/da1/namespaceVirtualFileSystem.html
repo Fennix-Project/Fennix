@@ -145,7 +145,7 @@ Typedefs</h2></td></tr>
 <tr class="separator:ab4fcf402b68afbee61ddf9c43cdc6c58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46008b5dd3bd92f927a8b42dcde83124"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a46008b5dd3bd92f927a8b42dcde83124">OperationWrite</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Offset, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer)</td></tr>
 <tr class="separator:a46008b5dd3bd92f927a8b42dcde83124"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf54285307ce50e428033f1f6084caff"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#acf54285307ce50e428033f1f6084caff">OperationOpen</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Mode, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Flags)</td></tr>
+<tr class="memitem:acf54285307ce50e428033f1f6084caff"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#acf54285307ce50e428033f1f6084caff">OperationOpen</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Mode, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>)</td></tr>
 <tr class="separator:acf54285307ce50e428033f1f6084caff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c746fc2aa5630d9c5c43b9a83933500"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a8c746fc2aa5630d9c5c43b9a83933500">OperationClose</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node)</td></tr>
 <tr class="separator:a8c746fc2aa5630d9c5c43b9a83933500"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,6 +155,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:adc08a8cc040d568d927bf0121aa68d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d40e8e2835e0750d96dac4678caa68b"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a7d40e8e2835e0750d96dac4678caa68b">OperationMkdir</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, char *Name, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NameLength)</td></tr>
 <tr class="separator:a7d40e8e2835e0750d96dac4678caa68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf071d3ed7189c3c8dc1ffb1bbc88d0"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a1bf071d3ed7189c3c8dc1ffb1bbc88d0">OperationSeek</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Offset, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Whence)</td></tr>
+<tr class="separator:a1bf071d3ed7189c3c8dc1ffb1bbc88d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -206,6 +208,8 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a74e46dd680ad752d863d0cfe7830ac23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a74e46dd680ad752d863d0cfe7830ac23">ReadFSFunction</a> (USTAR_Read)</td></tr>
 <tr class="separator:a74e46dd680ad752d863d0cfe7830ac23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb42236f49273ca557c3be95bd461ffb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#adb42236f49273ca557c3be95bd461ffb">SeekFSFunction</a> (USTAR_Seek)</td></tr>
+<tr class="separator:adb42236f49273ca557c3be95bd461ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -225,7 +229,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00093">93</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00099">99</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -271,6 +275,12 @@ Read</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
+<a id="a0ad894c0222ae1c172adc0fd5a7c8b8c"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a1bf071d3ed7189c3c8dc1ffb1bbc88d0">OperationSeek</a></td>
+<td class="fieldname">
+Seek</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
 <a id="aed1ccb549e022d6d268b25e7d1aa5922"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a1c88a056f49fe6e1616e755bf63708c0">OperationUmount</a></td>
 <td class="fieldname">
 Umount</td>
@@ -298,7 +308,7 @@ Write</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00106">106</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00113">113</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -356,6 +366,12 @@ Name[<a class="el" href="../../d1/d85/filesystem_8hpp.html#a610ce22de673afc7b1e8
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
+<a id="af87d0caf01dbc0f9d1354416cf379c1c"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<td class="fieldname">
+Offset</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
 <a id="a6705fcbb1f33f4919fdf90ed7a2ecdb0"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#d4/d2a/structVirtualFileSystem_1_1FileSystemOperations">FileSystemOperations</a> *</td>
 <td class="fieldname">
 Operator</td>
@@ -390,7 +406,7 @@ UserIdentifier</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00036">36</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00040">40</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -406,7 +422,7 @@ UserIdentifier</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00042">42</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -422,7 +438,7 @@ UserIdentifier</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -438,7 +454,7 @@ UserIdentifier</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00035">35</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -449,12 +465,12 @@ UserIdentifier</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* VirtualFileSystem::OperationOpen) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Mode, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Flags)</td>
+          <td class="memname">typedef void(* VirtualFileSystem::OperationOpen) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Mode, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00035">35</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -470,7 +486,23 @@ UserIdentifier</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a1bf071d3ed7189c3c8dc1ffb1bbc88d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bf071d3ed7189c3c8dc1ffb1bbc88d0">&#9670;&nbsp;</a></span>OperationSeek</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(* VirtualFileSystem::OperationSeek) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Offset, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Whence)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00044">44</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -486,7 +518,7 @@ UserIdentifier</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -502,7 +534,7 @@ UserIdentifier</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00036">36</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -518,7 +550,7 @@ UserIdentifier</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
@@ -558,55 +590,55 @@ UserIdentifier</td>
 <tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5"></a>UnknownFileStatusError&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00052">52</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59">OK</a>,</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683">NotFound</a>,</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec">NotEmpty</a>,</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b">NotSupported</a>,</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353">AccessDenied</a>,</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">Timeout</a>,</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18">SectorNotFound</a>,</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566">PartiallyCompleted</a>,</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef">InvalidName</a>,</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9">InvalidParameter</a>,</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d">InvalidHandle</a>,</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8">InvalidPath</a>,</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc">InvalidDevice</a>,</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37">InvalidOperator</a>,</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe">InvalidNode</a>,</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0">FileExists</a>,</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483">FileIsADirectory</a>,</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9">FileIsInvalid</a>,</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7">DirectoryNotEmpty</a>,</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989">NotADirectory</a>,</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5">UnknownFileStatusError</a></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    };</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00058">58</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59">OK</a>,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683">NotFound</a>,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec">NotEmpty</a>,</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b">NotSupported</a>,</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353">AccessDenied</a>,</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">Timeout</a>,</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18">SectorNotFound</a>,</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566">PartiallyCompleted</a>,</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef">InvalidName</a>,</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9">InvalidParameter</a>,</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d">InvalidHandle</a>,</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8">InvalidPath</a>,</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc">InvalidDevice</a>,</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37">InvalidOperator</a>,</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe">InvalidNode</a>,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0">FileExists</a>,</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483">FileIsADirectory</a>,</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9">FileIsInvalid</a>,</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7">DirectoryNotEmpty</a>,</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989">NotADirectory</a>,</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5">UnknownFileStatusError</a></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    };</div>
 <div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59">OK</a></div><div class="ttdeci">@ OK</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00050">DAPI.hpp:50</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566">VirtualFileSystem::PartiallyCompleted</a></div><div class="ttdeci">@ PartiallyCompleted</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00061">filesystem.hpp:61</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8">VirtualFileSystem::InvalidPath</a></div><div class="ttdeci">@ InvalidPath</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00066">filesystem.hpp:66</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec">VirtualFileSystem::NotEmpty</a></div><div class="ttdeci">@ NotEmpty</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00056">filesystem.hpp:56</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc">VirtualFileSystem::InvalidDevice</a></div><div class="ttdeci">@ InvalidDevice</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00067">filesystem.hpp:67</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">VirtualFileSystem::Timeout</a></div><div class="ttdeci">@ Timeout</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00059">filesystem.hpp:59</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683">VirtualFileSystem::NotFound</a></div><div class="ttdeci">@ NotFound</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00055">filesystem.hpp:55</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989">VirtualFileSystem::NotADirectory</a></div><div class="ttdeci">@ NotADirectory</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00076">filesystem.hpp:76</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0">VirtualFileSystem::FileExists</a></div><div class="ttdeci">@ FileExists</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00071">filesystem.hpp:71</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18">VirtualFileSystem::SectorNotFound</a></div><div class="ttdeci">@ SectorNotFound</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00060">filesystem.hpp:60</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483">VirtualFileSystem::FileIsADirectory</a></div><div class="ttdeci">@ FileIsADirectory</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00072">filesystem.hpp:72</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d">VirtualFileSystem::InvalidHandle</a></div><div class="ttdeci">@ InvalidHandle</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00065">filesystem.hpp:65</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef">VirtualFileSystem::InvalidName</a></div><div class="ttdeci">@ InvalidName</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00063">filesystem.hpp:63</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5">VirtualFileSystem::UnknownFileStatusError</a></div><div class="ttdeci">@ UnknownFileStatusError</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00079">filesystem.hpp:78</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37">VirtualFileSystem::InvalidOperator</a></div><div class="ttdeci">@ InvalidOperator</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00068">filesystem.hpp:68</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7">VirtualFileSystem::DirectoryNotEmpty</a></div><div class="ttdeci">@ DirectoryNotEmpty</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00075">filesystem.hpp:75</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9">VirtualFileSystem::FileIsInvalid</a></div><div class="ttdeci">@ FileIsInvalid</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00073">filesystem.hpp:73</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe">VirtualFileSystem::InvalidNode</a></div><div class="ttdeci">@ InvalidNode</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00069">filesystem.hpp:69</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353">VirtualFileSystem::AccessDenied</a></div><div class="ttdeci">@ AccessDenied</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00058">filesystem.hpp:58</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b">VirtualFileSystem::NotSupported</a></div><div class="ttdeci">@ NotSupported</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00057">filesystem.hpp:57</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9">VirtualFileSystem::InvalidParameter</a></div><div class="ttdeci">@ InvalidParameter</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00064">filesystem.hpp:64</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566">VirtualFileSystem::PartiallyCompleted</a></div><div class="ttdeci">@ PartiallyCompleted</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00067">filesystem.hpp:67</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8">VirtualFileSystem::InvalidPath</a></div><div class="ttdeci">@ InvalidPath</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00072">filesystem.hpp:72</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec">VirtualFileSystem::NotEmpty</a></div><div class="ttdeci">@ NotEmpty</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00062">filesystem.hpp:62</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc">VirtualFileSystem::InvalidDevice</a></div><div class="ttdeci">@ InvalidDevice</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00073">filesystem.hpp:73</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">VirtualFileSystem::Timeout</a></div><div class="ttdeci">@ Timeout</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00065">filesystem.hpp:65</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683">VirtualFileSystem::NotFound</a></div><div class="ttdeci">@ NotFound</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00061">filesystem.hpp:61</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989">VirtualFileSystem::NotADirectory</a></div><div class="ttdeci">@ NotADirectory</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00082">filesystem.hpp:82</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0">VirtualFileSystem::FileExists</a></div><div class="ttdeci">@ FileExists</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00077">filesystem.hpp:77</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18">VirtualFileSystem::SectorNotFound</a></div><div class="ttdeci">@ SectorNotFound</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00066">filesystem.hpp:66</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483">VirtualFileSystem::FileIsADirectory</a></div><div class="ttdeci">@ FileIsADirectory</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00078">filesystem.hpp:78</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d">VirtualFileSystem::InvalidHandle</a></div><div class="ttdeci">@ InvalidHandle</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00071">filesystem.hpp:71</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef">VirtualFileSystem::InvalidName</a></div><div class="ttdeci">@ InvalidName</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00069">filesystem.hpp:69</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5">VirtualFileSystem::UnknownFileStatusError</a></div><div class="ttdeci">@ UnknownFileStatusError</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00085">filesystem.hpp:84</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37">VirtualFileSystem::InvalidOperator</a></div><div class="ttdeci">@ InvalidOperator</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00074">filesystem.hpp:74</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7">VirtualFileSystem::DirectoryNotEmpty</a></div><div class="ttdeci">@ DirectoryNotEmpty</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00081">filesystem.hpp:81</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9">VirtualFileSystem::FileIsInvalid</a></div><div class="ttdeci">@ FileIsInvalid</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00079">filesystem.hpp:79</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe">VirtualFileSystem::InvalidNode</a></div><div class="ttdeci">@ InvalidNode</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00075">filesystem.hpp:75</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353">VirtualFileSystem::AccessDenied</a></div><div class="ttdeci">@ AccessDenied</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00064">filesystem.hpp:64</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b">VirtualFileSystem::NotSupported</a></div><div class="ttdeci">@ NotSupported</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00063">filesystem.hpp:63</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9">VirtualFileSystem::InvalidParameter</a></div><div class="ttdeci">@ InvalidParameter</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00070">filesystem.hpp:70</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -632,25 +664,25 @@ UserIdentifier</td>
 <tr><td class="fieldname"><a id="a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8"></a>MOUNTPOINT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00081">81</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    {</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6">NODE_FLAG_ERROR</a> = 0x0,</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> = 0x01,</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0">DIRECTORY</a> = 0x02,</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7">CHARDEVICE</a> = 0x03,</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56">BLOCKDEVICE</a> = 0x04,</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c">PIPE</a> = 0x05,</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f">SYMLINK</a> = 0x06,</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8">MOUNTPOINT</a> = 0x08</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    };</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6">NODE_FLAG_ERROR</a> = 0x0,</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> = 0x01,</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0">DIRECTORY</a> = 0x02,</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7">CHARDEVICE</a> = 0x03,</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56">BLOCKDEVICE</a> = 0x04,</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c">PIPE</a> = 0x05,</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f">SYMLINK</a> = 0x06,</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8">MOUNTPOINT</a> = 0x08</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    };</div>
 <div class="ttc" id="acargs_8h_html_a69437b5d572dd16d6d4fdbcbd066c7a9"><div class="ttname"><a href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a></div><div class="ttdeci">unsigned int FILE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d37/cargs_8h_source.html#l00038">cargs.h:38</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56">VirtualFileSystem::BLOCKDEVICE</a></div><div class="ttdeci">@ BLOCKDEVICE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00087">filesystem.hpp:87</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f">VirtualFileSystem::SYMLINK</a></div><div class="ttdeci">@ SYMLINK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00089">filesystem.hpp:89</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6">VirtualFileSystem::NODE_FLAG_ERROR</a></div><div class="ttdeci">@ NODE_FLAG_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00083">filesystem.hpp:83</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7">VirtualFileSystem::CHARDEVICE</a></div><div class="ttdeci">@ CHARDEVICE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00086">filesystem.hpp:86</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0">VirtualFileSystem::DIRECTORY</a></div><div class="ttdeci">@ DIRECTORY</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00085">filesystem.hpp:85</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8">VirtualFileSystem::MOUNTPOINT</a></div><div class="ttdeci">@ MOUNTPOINT</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00091">filesystem.hpp:90</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c">VirtualFileSystem::PIPE</a></div><div class="ttdeci">@ PIPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00088">filesystem.hpp:88</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56">VirtualFileSystem::BLOCKDEVICE</a></div><div class="ttdeci">@ BLOCKDEVICE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00093">filesystem.hpp:93</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f">VirtualFileSystem::SYMLINK</a></div><div class="ttdeci">@ SYMLINK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00095">filesystem.hpp:95</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6">VirtualFileSystem::NODE_FLAG_ERROR</a></div><div class="ttdeci">@ NODE_FLAG_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00089">filesystem.hpp:89</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7">VirtualFileSystem::CHARDEVICE</a></div><div class="ttdeci">@ CHARDEVICE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00092">filesystem.hpp:92</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0">VirtualFileSystem::DIRECTORY</a></div><div class="ttdeci">@ DIRECTORY</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00091">filesystem.hpp:91</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8">VirtualFileSystem::MOUNTPOINT</a></div><div class="ttdeci">@ MOUNTPOINT</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00097">filesystem.hpp:96</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c">VirtualFileSystem::PIPE</a></div><div class="ttdeci">@ PIPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00094">filesystem.hpp:94</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -684,9 +716,67 @@ UserIdentifier</td>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
 <div class="ttc" id="aConvert_8cpp_html_a0c94a56e02776859c0f510bd6f7354c6"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memcpy(void *dest, const void *src, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l01030">Convert.cpp:1030</a></div></div>
 <div class="ttc" id="aXallocV1_8cpp_html_a9a6916f13c01e1cbb39bf087545542c7"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">XallocV1.cpp:4</a></div></div>
-<div class="ttc" id="ainclude_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00142">types.h:142</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00145">types.h:145</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01030">memcpy()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
+
+</div>
+</div>
+<a id="adb42236f49273ca557c3be95bd461ffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb42236f49273ca557c3be95bd461ffb">&#9670;&nbsp;</a></span>SeekFSFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VirtualFileSystem::SeekFSFunction </td>
+          <td>(</td>
+          <td class="paramtype">USTAR_Seek&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/db9/ustar_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../d9/db9/ustar_8cpp_source.html">ustar.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordtype">long</span> NewOffset;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> (Whence == <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>)</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">if</span> (Offset &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            node-&gt;Offset = Offset;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            NewOffset = node-&gt;Offset;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (Whence == <a class="code" href="../../d1/d85/filesystem_8hpp.html#a4c8d0b76b470ba65a43ca46a88320f39">SEEK_CUR</a>)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            NewOffset = node-&gt;Offset + Offset;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">if</span> ((<span class="keywordtype">size_t</span>)NewOffset &gt; node-&gt;Length || NewOffset &lt; 0)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            node-&gt;Offset = NewOffset;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (Whence == <a class="code" href="../../d1/d85/filesystem_8hpp.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            NewOffset = node-&gt;Length + Offset;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keywordflow">if</span> (NewOffset &lt; 0)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            node-&gt;Offset = NewOffset;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Invalid whence!&quot;</span>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> NewOffset;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00078">debug.h:78</a></div></div>
+<div class="ttc" id="afilesystem_8hpp_html_a0d112bae8fd35be772185b6ec6bcbe64"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a></div><div class="ttdeci">#define SEEK_SET</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00029">filesystem.hpp:29</a></div></div>
+<div class="ttc" id="afilesystem_8hpp_html_a4c8d0b76b470ba65a43ca46a88320f39"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a4c8d0b76b470ba65a43ca46a88320f39">SEEK_CUR</a></div><div class="ttdeci">#define SEEK_CUR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00030">filesystem.hpp:30</a></div></div>
+<div class="ttc" id="afilesystem_8hpp_html_ad2a2e6c114780c3071efd24f16c7f7d8"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a></div><div class="ttdeci">#define SEEK_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00031">filesystem.hpp:31</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00078">error</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00030">SEEK_CUR</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00031">SEEK_END</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00029">SEEK_SET</a>.</p>
 
 </div>
 </div>
@@ -705,11 +795,12 @@ UserIdentifier</td>
 <b>Initial value:</b><div class="fragment"><div class="line">= {</div>
 <div class="line">        .Name = <span class="stringliteral">&quot;ustar&quot;</span>,</div>
 <div class="line">        .Read = USTAR_Read,</div>
+<div class="line">        .Seek = USTAR_Seek,</div>
 <div class="line">    }</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d9/db9/ustar_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../d9/db9/ustar_8cpp_source.html">ustar.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/db9/ustar_8cpp_source.html#l00073">73</a> of file <a class="el" href="../../d9/db9/ustar_8cpp_source.html">ustar.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/db9/ustar_8cpp_source.html#l00044">VirtualFileSystem::USTAR::USTAR()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/db9/ustar_8cpp_source.html#l00079">VirtualFileSystem::USTAR::USTAR()</a>.</p>
 
 </div>
 </div>

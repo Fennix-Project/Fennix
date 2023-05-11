@@ -45,7 +45,7 @@ var dir_ed973d75a6ee5297544a78c344886538 =
         [ "used_ids", "d6/dc0/sysdeps_2managarm_2include_2abi-bits_2shm_8h.html#a733cad29409fd9d60a3bde1f8f8f02ef", null ]
       ] ]
     ] ],
-    [ "signal.h", "d3/dda/sysdeps_2lemon_2include_2abi-bits_2signal_8h.html", "d3/dda/sysdeps_2lemon_2include_2abi-bits_2signal_8h" ],
+    [ "signal.h", "dd/d7f/mlibc_2sysdeps_2lemon_2include_2abi-bits_2signal_8h.html", "dd/d7f/mlibc_2sysdeps_2lemon_2include_2abi-bits_2signal_8h" ],
     [ "socket.h", "dc/d7f/sysdeps_2lemon_2include_2abi-bits_2socket_8h.html", "dc/d7f/sysdeps_2lemon_2include_2abi-bits_2socket_8h" ],
     [ "socklen_t.h", "d4/d6d/sysdeps_2lemon_2include_2abi-bits_2socklen__t_8h.html", "d4/d6d/sysdeps_2lemon_2include_2abi-bits_2socklen__t_8h" ],
     [ "stat.h", "d3/dbf/Userspace_2mlibc_2sysdeps_2lemon_2include_2abi-bits_2stat_8h.html", "d3/dbf/Userspace_2mlibc_2sysdeps_2lemon_2include_2abi-bits_2stat_8h" ],
@@ -66,6 +66,6 @@ var dir_ed973d75a6ee5297544a78c344886538 =
       ] ]
     ] ],
     [ "vm-flags.h", "d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html", "d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h" ],
-    [ "wait.h", "d7/d68/sysdeps_2lemon_2include_2abi-bits_2wait_8h.html", "d7/d68/sysdeps_2lemon_2include_2abi-bits_2wait_8h" ],
+    [ "wait.h", "dc/d8c/mlibc_2sysdeps_2lemon_2include_2abi-bits_2wait_8h.html", "dc/d8c/mlibc_2sysdeps_2lemon_2include_2abi-bits_2wait_8h" ],
     [ "xattr.h", "d7/de7/sysdeps_2lemon_2include_2abi-bits_2xattr_8h.html", "d7/de7/sysdeps_2lemon_2include_2abi-bits_2xattr_8h" ]
 ];

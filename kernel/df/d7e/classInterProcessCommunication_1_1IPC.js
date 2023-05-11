@@ -6,6 +6,8 @@ var classInterProcessCommunication_1_1IPC =
     [ "Create", "df/d7e/classInterProcessCommunication_1_1IPC.html#a80b032f0cb64bff8ca8310d38be6d8ac", null ],
     [ "Deallocate", "df/d7e/classInterProcessCommunication_1_1IPC.html#a93f29872d53e0d41de14c61c8fc1ff77", null ],
     [ "Destroy", "df/d7e/classInterProcessCommunication_1_1IPC.html#ae6c8d18226bc2ed1d42efbcda20ca41a", null ],
+    [ "Fork", "df/d7e/classInterProcessCommunication_1_1IPC.html#a312c5514d82f9b015fcece8f7ed8ce27", null ],
+    [ "GetHandles", "df/d7e/classInterProcessCommunication_1_1IPC.html#ad23e398ece52a39146f34c033beccfdb", null ],
     [ "HandleSyscall", "df/d7e/classInterProcessCommunication_1_1IPC.html#a560784a2690fed08dbf87aa16554e8b2", null ],
     [ "Listen", "df/d7e/classInterProcessCommunication_1_1IPC.html#a6446a15ff04bf4ee9f0b594cb5664074", null ],
     [ "NewLock", "df/d7e/classInterProcessCommunication_1_1IPC.html#a24b3028e0b73162725aa514fe27d3953", null ],

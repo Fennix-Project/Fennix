@@ -16,7 +16,7 @@ var dir_4d445d46ae89f15bd8b949722b5d00bf =
     [ "ino_t.h", "dd/d43/sysdeps_2dripos_2include_2abi-bits_2ino__t_8h.html", "dd/d43/sysdeps_2dripos_2include_2abi-bits_2ino__t_8h" ],
     [ "inotify.h", "d9/d9d/sysdeps_2dripos_2include_2abi-bits_2inotify_8h.html", "d9/d9d/sysdeps_2dripos_2include_2abi-bits_2inotify_8h" ],
     [ "ioctls.h", "d5/d7c/sysdeps_2dripos_2include_2abi-bits_2ioctls_8h.html", "d5/d7c/sysdeps_2dripos_2include_2abi-bits_2ioctls_8h" ],
-    [ "limits.h", "dc/d3d/sysdeps_2dripos_2include_2abi-bits_2limits_8h.html", "dc/d3d/sysdeps_2dripos_2include_2abi-bits_2limits_8h" ],
+    [ "limits.h", "df/d83/mlibc_2sysdeps_2dripos_2include_2abi-bits_2limits_8h.html", "df/d83/mlibc_2sysdeps_2dripos_2include_2abi-bits_2limits_8h" ],
     [ "mode_t.h", "dc/d3a/sysdeps_2dripos_2include_2abi-bits_2mode__t_8h.html", "dc/d3a/sysdeps_2dripos_2include_2abi-bits_2mode__t_8h" ],
     [ "mqueue.h", "d3/d98/sysdeps_2dripos_2include_2abi-bits_2mqueue_8h.html", [
       [ "mq_attr", "dd/d79/sysdeps_2managarm_2include_2abi-bits_2mqueue_8h.html#d4/daf/structmq__attr", [
@@ -44,7 +44,7 @@ var dir_4d445d46ae89f15bd8b949722b5d00bf =
         [ "used_ids", "d6/dc0/sysdeps_2managarm_2include_2abi-bits_2shm_8h.html#a733cad29409fd9d60a3bde1f8f8f02ef", null ]
       ] ]
     ] ],
-    [ "signal.h", "d1/d0b/sysdeps_2dripos_2include_2abi-bits_2signal_8h.html", "d1/d0b/sysdeps_2dripos_2include_2abi-bits_2signal_8h" ],
+    [ "signal.h", "d5/d05/mlibc_2sysdeps_2dripos_2include_2abi-bits_2signal_8h.html", "d5/d05/mlibc_2sysdeps_2dripos_2include_2abi-bits_2signal_8h" ],
     [ "socket.h", "dc/d7f/sysdeps_2dripos_2include_2abi-bits_2socket_8h.html", "dc/d7f/sysdeps_2dripos_2include_2abi-bits_2socket_8h" ],
     [ "socklen_t.h", "db/d04/sysdeps_2dripos_2include_2abi-bits_2socklen__t_8h.html", "db/d04/sysdeps_2dripos_2include_2abi-bits_2socklen__t_8h" ],
     [ "stat.h", "d4/d8a/mlibc_2sysdeps_2dripos_2include_2abi-bits_2stat_8h.html", "d4/d8a/mlibc_2sysdeps_2dripos_2include_2abi-bits_2stat_8h" ],
@@ -65,6 +65,6 @@ var dir_4d445d46ae89f15bd8b949722b5d00bf =
       ] ]
     ] ],
     [ "vm-flags.h", "d7/da0/sysdeps_2dripos_2include_2abi-bits_2vm-flags_8h.html", "d7/da0/sysdeps_2dripos_2include_2abi-bits_2vm-flags_8h" ],
-    [ "wait.h", "d3/d41/sysdeps_2dripos_2include_2abi-bits_2wait_8h.html", "d3/d41/sysdeps_2dripos_2include_2abi-bits_2wait_8h" ],
+    [ "wait.h", "df/d7e/mlibc_2sysdeps_2dripos_2include_2abi-bits_2wait_8h.html", "df/d7e/mlibc_2sysdeps_2dripos_2include_2abi-bits_2wait_8h" ],
     [ "xattr.h", "d6/d6a/sysdeps_2dripos_2include_2abi-bits_2xattr_8h.html", "d6/d6a/sysdeps_2dripos_2include_2abi-bits_2xattr_8h" ]
 ];

@@ -1,10 +1,18 @@
 var aux_8h =
 [
+    [ "Elf32_auxv_t", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t", [
+      [ "a_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#ab6d0fd7066a8703da6fa658d3c0c085d", null ],
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aff72cfeb917f0df48027cb569c77d28a", null ],
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a7efe7a4ca2f192bcc428e104384140dc", null ]
+    ] ],
     [ "Elf64_auxv_t", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d9/de7/structElf64__auxv__t", [
-      [ "a_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a718e9da507aeab4eaff05dfd77214d19", null ],
       [ "a_type", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
-      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9f76609de5e434a01ba7dcd2af720c37", null ],
-      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a8e0eadb66962bc6141fb51d39000a391", null ]
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a063dfb95d69672f12b1212184cf9c646", null ],
+      [ "a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#ab53079e81fc594e1376be865fc4e7ae6", null ]
+    ] ],
+    [ "Elf32_auxv_t.a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un", [
+      [ "a_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
+      [ "a_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],
     [ "Elf64_auxv_t.a_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
       [ "a_val", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
@@ -47,5 +55,6 @@ var aux_8h =
     [ "AT_SECURE", "d8/d7b/aux_8h.html#ab260ff441f79a29f19d7c100d6293d5f", null ],
     [ "AT_SYSINFO", "d8/d7b/aux_8h.html#a276b8f83ca3f78ee17395d6263fb848c", null ],
     [ "AT_SYSINFO_EHDR", "d8/d7b/aux_8h.html#af7f10d7fd66afcdcec55c3355c20666c", null ],
-    [ "AT_UID", "d8/d7b/aux_8h.html#a7bc508a179d0a308a8e4b47b97bcf2a3", null ]
+    [ "AT_UID", "d8/d7b/aux_8h.html#a7bc508a179d0a308a8e4b47b97bcf2a3", null ],
+    [ "Elf_auxv_t", "d8/d7b/aux_8h.html#a4c4657b9b7e52c1a57dcd1d97a7dfc01", null ]
 ];

@@ -24,6 +24,7 @@ var namespaceVirtualFileSystem =
     [ "OperationMount", "d5/da1/namespaceVirtualFileSystem.html#ae226e9507b51c909b110ad3637de1e51", null ],
     [ "OperationOpen", "d5/da1/namespaceVirtualFileSystem.html#acf54285307ce50e428033f1f6084caff", null ],
     [ "OperationRead", "d5/da1/namespaceVirtualFileSystem.html#ab4fcf402b68afbee61ddf9c43cdc6c58", null ],
+    [ "OperationSeek", "d5/da1/namespaceVirtualFileSystem.html#a1bf071d3ed7189c3c8dc1ffb1bbc88d0", null ],
     [ "OperationSync", "d5/da1/namespaceVirtualFileSystem.html#a85a09540c85179b8c41d6520a8aeeaf8", null ],
     [ "OperationUmount", "d5/da1/namespaceVirtualFileSystem.html#a1c88a056f49fe6e1616e755bf63708c0", null ],
     [ "OperationWrite", "d5/da1/namespaceVirtualFileSystem.html#a46008b5dd3bd92f927a8b42dcde83124", null ],
@@ -61,5 +62,6 @@ var namespaceVirtualFileSystem =
       [ "MOUNTPOINT", "d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8", null ]
     ] ],
     [ "ReadFSFunction", "d5/da1/namespaceVirtualFileSystem.html#a74e46dd680ad752d863d0cfe7830ac23", null ],
+    [ "SeekFSFunction", "d5/da1/namespaceVirtualFileSystem.html#adb42236f49273ca557c3be95bd461ffb", null ],
     [ "ustar_op", "d5/da1/namespaceVirtualFileSystem.html#a7d9fff206826e089601740252c58e032", null ]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['idtype_5ft_22895',['idtype_t',['../db/df3/options_2posix_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1e',1,'wait.h']]]
+  ['idtype_5ft_23015',['idtype_t',['../d1/d7b/libc_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1e',1,'idtype_t():&#160;wait.h'],['../d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1e',1,'idtype_t():&#160;wait.h']]]
 ];

@@ -1,10 +1,26 @@
 var searchData=
 [
-  ['obj_5fptr_185',['obj_ptr',['../df/d34/structatexit__func__entry__t.html#acb40396ef073b7b089e74cb0b91f0ef6',1,'atexit_func_entry_t']]],
-  ['operator_20delete_186',['operator delete',['../d8/dcc/Memory_8cpp.html#a0bdfc4ea90f9da116443115a2b4dba30',1,'operator delete(void *Pointer):&#160;Memory.cpp'],['../d8/dcc/Memory_8cpp.html#a3707880d1e85a77b9c93a24f33e3fa4a',1,'operator delete(void *Pointer, long unsigned int Size):&#160;Memory.cpp']]],
-  ['operator_20delete_5b_5d_187',['operator delete[]',['../d8/dcc/Memory_8cpp.html#abca455060bb75ee720ded1c340f24b2e',1,'operator delete[](void *Pointer):&#160;Memory.cpp'],['../d8/dcc/Memory_8cpp.html#a836ceaae254f31768f02c0efc2f1dac0',1,'operator delete[](void *Pointer, long unsigned int Size):&#160;Memory.cpp']]],
-  ['operator_20new_188',['operator new',['../d8/dcc/Memory_8cpp.html#a7febc01b67beac02b74f2c4ffa79895e',1,'Memory.cpp']]],
-  ['operator_20new_5b_5d_189',['operator new[]',['../d8/dcc/Memory_8cpp.html#aa1b73c9701dfb258006c1d0c93242e49',1,'Memory.cpp']]],
-  ['out_5frev_5f_190',['out_rev_',['../d1/d3d/printf_8c.html#abc4e3b5513557b1fa071e01be1660b24',1,'printf.c']]],
-  ['output_5fgadget_5ft_191',['output_gadget_t',['../d0/d3e/structoutput__gadget__t.html',1,'']]]
+  ['o0_986',['O0',['../dd/d7b/FennixLoader_2include_2types_8h.html#a9b98c48b1af63a023e9926f4d4d98c46',1,'types.h']]],
+  ['o1_987',['O1',['../dd/d7b/FennixLoader_2include_2types_8h.html#ae81ce40c595ad939602698a5f93d995e',1,'types.h']]],
+  ['o2_988',['O2',['../dd/d7b/FennixLoader_2include_2types_8h.html#a31412dbd7c9b5771f1e7a5ff85d20ab9',1,'types.h']]],
+  ['o3_989',['O3',['../dd/d7b/FennixLoader_2include_2types_8h.html#a9219b301ab2bc696f1ec9e1ebe2ff7e8',1,'types.h']]],
+  ['obj_5fptr_990',['obj_ptr',['../df/d34/structatexit__func__entry__t.html#a5e24891568118c804dd79bb310180cf0',1,'atexit_func_entry_t']]],
+  ['oemid_991',['OEMID',['../db/d96/structBootInfo.html#aad0cf13e58eec09fc514760b0b07f087',1,'BootInfo::RSDPInfo::OEMID()'],['../d9/d36/binfo_8h.html#a5ee3903863982019b9ba7583799fafc6',1,'OEMID():&#160;binfo.h']]],
+  ['ofast_992',['Ofast',['../dd/d7b/FennixLoader_2include_2types_8h.html#a6b06136baaecc07c2e7eaed092ab784a',1,'types.h']]],
+  ['offset_993',['offset',['../d1/dc0/multiboot_8h.html#a97958b174fe0234cafab9019eb009b91',1,'multiboot_apm_info::offset()'],['../d5/dba/multiboot2_8h.html#ae9d788171dfbf0f540c37aee20c96eb3',1,'multiboot_tag_apm::offset()']]],
+  ['offsetof_994',['offsetof',['../dd/d7b/FennixLoader_2include_2types_8h.html#afd049f7ad59dbe455f460807475c2841',1,'types.h']]],
+  ['onegb_995',['OneGB',['../de/df0/unionMemory64_1_1PageDirectoryPointerTableEntry.html#a316c20f75b6568475e7d9c9921d9653f',1,'Memory64::PageDirectoryPointerTableEntry::OneGB()'],['../dc/d4c/classMemory64_1_1Virtual.html#a28d0116b18243f4167676c403f4de5dca8b235056b43e139b055a6ee4771903ae',1,'Memory64::Virtual::OneGB()']]],
+  ['operator_20delete_996',['operator delete',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#a3707880d1e85a77b9c93a24f33e3fa4a',1,'operator delete(void *Pointer, long unsigned int Size):&#160;Memory.cpp'],['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#a0bdfc4ea90f9da116443115a2b4dba30',1,'operator delete(void *Pointer):&#160;Memory.cpp']]],
+  ['operator_20delete_5b_5d_997',['operator delete[]',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#abca455060bb75ee720ded1c340f24b2e',1,'operator delete[](void *Pointer):&#160;Memory.cpp'],['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#a836ceaae254f31768f02c0efc2f1dac0',1,'operator delete[](void *Pointer, long unsigned int Size):&#160;Memory.cpp']]],
+  ['operator_20new_998',['operator new',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#a7febc01b67beac02b74f2c4ffa79895e',1,'Memory.cpp']]],
+  ['operator_20new_5b_5d_999',['operator new[]',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#aa1b73c9701dfb258006c1d0c93242e49',1,'Memory.cpp']]],
+  ['operator_5b_5d_1000',['operator[]',['../d3/d19/classBitmap.html#a9a1973a002c6c5b749d640b48d01fcd1',1,'Bitmap']]],
+  ['optimizedmap_1001',['OptimizedMap',['../dc/d4c/classMemory64_1_1Virtual.html#a604256907c8fb7d6823f5bce3c806aa9',1,'Memory64::Virtual']]],
+  ['os_1002',['Os',['../dd/d7b/FennixLoader_2include_2types_8h.html#ab16f9a2566f591e74290d7153d4ae9c1',1,'types.h']]],
+  ['out_5fof_5fbounds_5finfo_1003',['out_of_bounds_info',['../d0/d1f/ubsan_8h.html#d5/d4a/structout__of__bounds__info',1,'']]],
+  ['out_5frev_5f_1004',['out_rev_',['../de/df0/FennixLoader_2printf_8c.html#ae2f97478f4fae8d74eafa3663056ef59',1,'out_rev_(output_gadget_t *output, const char *buf, printf_size_t len, printf_size_t width, printf_flags_t flags):&#160;printf.c'],['../d0/d8b/UEFI_2src_2printf_8c.html#abc4e3b5513557b1fa071e01be1660b24',1,'out_rev_(output_gadget_t *output, const char *buf, printf_size_t len, printf_size_t width, printf_flags_t flags):&#160;printf.c']]],
+  ['outb_1005',['outb',['../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3',1,'ega.c']]],
+  ['outportb_1006',['outportb',['../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#a5abc80902ff63f91df7bce866f49a080',1,'UniversalAsynchronousReceiverTransmitter.cpp']]],
+  ['output_5fgadget_5ft_1007',['output_gadget_t',['../d0/d3e/structoutput__gadget__t.html',1,'']]],
+  ['overflow_5fdata_1008',['overflow_data',['../d0/d1f/ubsan_8h.html#d0/dd1/structoverflow__data',1,'']]]
 ];

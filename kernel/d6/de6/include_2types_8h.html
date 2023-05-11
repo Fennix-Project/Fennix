@@ -137,15 +137,19 @@ Macros</h2></td></tr>
 <tr class="separator:afb00b1a27b40fde5065d26e5aa367808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1de6625fa208285b5f2b043fa9c537e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a1de6625fa208285b5f2b043fa9c537e7">ALIGN_DOWN</a>(x,  align)&#160;&#160;&#160;((__typeof__(x))((x) &amp; (~((align)-1))))</td></tr>
 <tr class="separator:a1de6625fa208285b5f2b043fa9c537e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd049f7ad59dbe455f460807475c2841"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(type,  member)&#160;&#160;&#160;__builtin_offsetof(type, member)</td></tr>
+<tr class="memitem:afd049f7ad59dbe455f460807475c2841"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#afd049f7ad59dbe455f460807475c2841">offsetof</a>(<a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>,  member)&#160;&#160;&#160;__builtin_offsetof(<a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>, member)</td></tr>
 <tr class="separator:afd049f7ad59dbe455f460807475c2841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3acffbd305ee72dcd4593c0d8af64a4f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f">MIN</a>(a,  b)&#160;&#160;&#160;(((a) &lt; (b)) ? (a) : (b))</td></tr>
 <tr class="separator:a3acffbd305ee72dcd4593c0d8af64a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa99ec4acc4ecb2dc3c2d05da15d0e3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f">MAX</a>(a,  b)&#160;&#160;&#160;(((a) &gt; (b)) ? (a) : (b))</td></tr>
 <tr class="separator:afa99ec4acc4ecb2dc3c2d05da15d0e3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaba4eb2520bab0b16b9b65816ee5edef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aaba4eb2520bab0b16b9b65816ee5edef">VPOKE</a>(type,  address)&#160;&#160;&#160;(*((volatile type *)(address)))</td></tr>
+<tr class="memitem:a7a4ba4f2dbc3879306d8518c2670dd77"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a7a4ba4f2dbc3879306d8518c2670dd77">ROUND_UP</a>(x,  y)&#160;&#160;&#160;(((x) + (y)-1) &amp; ~((y)-1))</td></tr>
+<tr class="separator:a7a4ba4f2dbc3879306d8518c2670dd77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2df9aa51d543ea63caff6ee2f2d2d4e4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a2df9aa51d543ea63caff6ee2f2d2d4e4">ROUND_DOWN</a>(x,  y)&#160;&#160;&#160;((x) &amp; ~((y)-1))</td></tr>
+<tr class="separator:a2df9aa51d543ea63caff6ee2f2d2d4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba4eb2520bab0b16b9b65816ee5edef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aaba4eb2520bab0b16b9b65816ee5edef">VPOKE</a>(<a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>,  address)&#160;&#160;&#160;(*((volatile <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> *)(address)))</td></tr>
 <tr class="separator:aaba4eb2520bab0b16b9b65816ee5edef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a116392a97f8ae7523a63a135a0403e74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a116392a97f8ae7523a63a135a0403e74">POKE</a>(type,  address)&#160;&#160;&#160;(*((type *)(address)))</td></tr>
+<tr class="memitem:a116392a97f8ae7523a63a135a0403e74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a116392a97f8ae7523a63a135a0403e74">POKE</a>(<a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>,  address)&#160;&#160;&#160;(*((<a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> *)(address)))</td></tr>
 <tr class="separator:a116392a97f8ae7523a63a135a0403e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f747ba347cf4bb56a62d476fa86f687"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a1f747ba347cf4bb56a62d476fa86f687">C_LANGUAGE_STANDARD</a>&#160;&#160;&#160;1972</td></tr>
 <tr class="separator:a1f747ba347cf4bb56a62d476fa86f687"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -361,14 +365,19 @@ Macros</h2></td></tr>
 <tr class="separator:a6caa97361de843c899afa324c794618e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdfab2b4342289435f71ad154d25aa43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#afdfab2b4342289435f71ad154d25aa43">__min_vector_width</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((min_vector_width(x)))</td></tr>
 <tr class="separator:afdfab2b4342289435f71ad154d25aa43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa93e61a5a969434f36dca04e3c1d2089"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#aa93e61a5a969434f36dca04e3c1d2089">__no_sanitize</a>(x)&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_sanitize(x)))</td></tr>
+<tr class="separator:aa93e61a5a969434f36dca04e3c1d2089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af319c9e1982cc7c3c6c779789d667cd8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#af319c9e1982cc7c3c6c779789d667cd8">__no_sanitize_address</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_sanitize_address))</td></tr>
 <tr class="separator:af319c9e1982cc7c3c6c779789d667cd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a340dd001c287f8b0953d0f2b74244e65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a340dd001c287f8b0953d0f2b74244e65">__no_sanitize_undefined</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_sanitize_undefined))</td></tr>
-<tr class="separator:a340dd001c287f8b0953d0f2b74244e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3467bd0148d5803fcfc9a7da036d617"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ab3467bd0148d5803fcfc9a7da036d617">__no_address_safety_analysis</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_address_safety_analysis))</td></tr>
+<tr class="memdesc:ab3467bd0148d5803fcfc9a7da036d617"><td class="mdescLeft">&#160;</td><td class="mdescRight">The no_address_safety_analysis is a deprecated alias of the no_sanitize_address attribute, new code should use no_sanitize_address.  <a href="../../d6/de6/include_2types_8h.html#ab3467bd0148d5803fcfc9a7da036d617">More...</a><br /></td></tr>
 <tr class="separator:ab3467bd0148d5803fcfc9a7da036d617"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43438b17f4397f48fc81806def618b0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a43438b17f4397f48fc81806def618b0b">__no_sanitize_thread</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_sanitize_thread))</td></tr>
 <tr class="separator:a43438b17f4397f48fc81806def618b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a340dd001c287f8b0953d0f2b74244e65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a340dd001c287f8b0953d0f2b74244e65">__no_sanitize_undefined</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_sanitize_undefined))</td></tr>
+<tr class="separator:a340dd001c287f8b0953d0f2b74244e65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae78e593a344045bc9f633ad767dafda3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#ae78e593a344045bc9f633ad767dafda3">__no_sanitize_coverage</a>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_sanitize_coverage))</td></tr>
+<tr class="separator:ae78e593a344045bc9f633ad767dafda3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02f82dc52841c56eb88f93df6156e770"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a02f82dc52841c56eb88f93df6156e770">__synchronize</a>&#160;&#160;&#160;__sync_synchronize()</td></tr>
 <tr class="separator:a02f82dc52841c56eb88f93df6156e770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86105344cddf0ca9db6a3996854bad50"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/include_2types_8h.html#a86105344cddf0ca9db6a3996854bad50">__sync</a>&#160;&#160;&#160;<a class="el" href="../../d6/de6/include_2types_8h.html#a02f82dc52841c56eb88f93df6156e770">__synchronize</a></td></tr>
@@ -488,7 +497,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00311">311</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00314">314</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -508,7 +517,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00307">307</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00310">310</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -524,7 +533,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00312">312</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00315">315</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -544,7 +553,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00326">326</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00329">329</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -560,7 +569,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00315">315</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00318">318</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -576,7 +585,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00324">324</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00327">327</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -592,7 +601,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00319">319</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00322">322</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -612,7 +621,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00320">320</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00323">323</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -628,7 +637,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00325">325</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00328">328</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -644,7 +653,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00327">327</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00330">330</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -680,7 +689,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00333">333</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00336">336</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -700,7 +709,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00334">334</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00337">337</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -716,7 +725,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00316">316</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00319">319</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -736,7 +745,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00342">342</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00345">345</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -752,7 +761,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00306">306</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00309">309</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -768,7 +777,9 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00347">347</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p>The no_address_safety_analysis is a deprecated alias of the no_sanitize_address attribute, new code should use no_sanitize_address. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00351">351</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -784,7 +795,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00340">340</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00343">343</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -800,7 +811,27 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00339">339</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00342">342</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="aa93e61a5a969434f36dca04e3c1d2089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa93e61a5a969434f36dca04e3c1d2089">&#9670;&nbsp;</a></span>__no_sanitize</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __no_sanitize</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_sanitize(x)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00348">348</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -816,7 +847,23 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00345">345</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00349">349</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ae78e593a344045bc9f633ad767dafda3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae78e593a344045bc9f633ad767dafda3">&#9670;&nbsp;</a></span>__no_sanitize_coverage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __no_sanitize_coverage&#160;&#160;&#160;<a class="el" href="../../d7/d66/cxxabi_8cpp.html#aa5aa60072f4063655d5283b6d7b7ab44">__attribute__</a>((no_sanitize_coverage))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00354">354</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -832,7 +879,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00348">348</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00352">352</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -848,7 +895,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00346">346</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00353">353</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -864,7 +911,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00338">338</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00341">341</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -880,7 +927,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00313">313</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00316">316</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -900,7 +947,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00328">328</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00331">331</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -916,7 +963,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00336">336</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00339">339</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -932,7 +979,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00336">336</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00339">339</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -952,7 +999,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00335">335</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00338">338</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -968,7 +1015,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00309">309</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00312">312</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -984,7 +1031,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00305">305</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00308">308</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1000,7 +1047,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00314">314</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00317">317</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1016,7 +1063,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00330">330</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00333">333</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1032,7 +1079,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00317">317</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00320">320</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1052,7 +1099,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00308">308</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00311">311</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1068,7 +1115,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00331">331</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00334">334</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1084,7 +1131,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00332">332</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00335">335</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1100,7 +1147,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00134">134</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00137">137</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1116,7 +1163,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00351">351</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00357">357</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1132,7 +1179,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00350">350</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00356">356</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1152,7 +1199,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00341">341</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00344">344</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1168,7 +1215,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00304">304</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00307">307</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1184,7 +1231,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00318">318</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00321">321</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1204,7 +1251,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00323">323</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00326">326</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1220,7 +1267,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00337">337</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00340">340</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1236,7 +1283,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00310">310</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00313">313</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1256,7 +1303,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00321">321</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00324">324</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1276,7 +1323,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00322">322</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00325">325</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1388,7 +1435,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00279">279</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00282">282</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1408,7 +1455,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00280">280</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00283">283</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1428,7 +1475,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00277">277</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00280">280</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1454,7 +1501,7 @@ Typedefs</h2></td></tr>
 <div class="line">                 (((x)&amp;0x00ff00000000) &gt;&gt; 24) | \</div>
 <div class="line">                 (((x)&amp;0xff0000000000) &gt;&gt; 40)))</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00281">281</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00284">284</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1474,7 +1521,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00287">287</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00290">290</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1494,7 +1541,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00278">278</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00281">281</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1526,7 +1573,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00104">104</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00107">107</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1656,7 +1703,7 @@ Typedefs</h2></td></tr>
 <div class="line">                         :          \</div>
 <div class="line">                         : <span class="stringliteral">&quot;memory&quot;</span>)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">360</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00366">366</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1672,7 +1719,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00186">186</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00189">189</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1688,7 +1735,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00187">187</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00190">190</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1708,7 +1755,7 @@ Typedefs</h2></td></tr>
 <div class="line">                         :      \</div>
 <div class="line">                         : <span class="stringliteral">&quot;memory&quot;</span>)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00366">366</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00372">372</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1724,7 +1771,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00189">189</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00192">192</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1740,7 +1787,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00190">190</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00193">193</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1756,7 +1803,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00192">192</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00195">195</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1772,7 +1819,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00193">193</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00196">196</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1788,7 +1835,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00183">183</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00186">186</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1804,7 +1851,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00184">184</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00187">187</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1820,7 +1867,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00212">212</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00215">215</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1836,7 +1883,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00213">213</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00216">216</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1852,7 +1899,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00215">215</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00218">218</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1868,7 +1915,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00216">216</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00219">219</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1884,7 +1931,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00218">218</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00221">221</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1900,7 +1947,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00219">219</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00222">222</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1916,7 +1963,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00209">209</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00212">212</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1932,7 +1979,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00210">210</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00213">213</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1948,7 +1995,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00199">199</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00202">202</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1964,7 +2011,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00200">200</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00203">203</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1980,7 +2027,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00202">202</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00205">205</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1996,7 +2043,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00203">203</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00206">206</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2012,7 +2059,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00205">205</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00208">208</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2028,7 +2075,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00206">206</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00209">209</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2044,7 +2091,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00196">196</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00199">199</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2060,7 +2107,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00197">197</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00200">200</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2076,7 +2123,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00226">226</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00229">229</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2092,7 +2139,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00227">227</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00230">230</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2108,7 +2155,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00222">222</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00225">225</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2124,7 +2171,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00223">223</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00226">226</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2144,7 +2191,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00353">353</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00359">359</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2220,7 +2267,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00358">358</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00364">364</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2254,7 +2301,7 @@ Typedefs</h2></td></tr>
 
 <p>No optimization (the default); generates unoptimized code but has the fastest compilation time. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00292">292</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00295">295</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2272,7 +2319,7 @@ Typedefs</h2></td></tr>
 
 <p>Moderate optimization; optimizes reasonably well but does not degrade compilation time significantly. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00294">294</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00297">297</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2290,7 +2337,7 @@ Typedefs</h2></td></tr>
 
 <p>Full optimization; generates highly optimized code and has the slowest compilation time. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00296">296</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00299">299</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2308,7 +2355,7 @@ Typedefs</h2></td></tr>
 
 <p>Full optimization as in -O2; also uses more aggressive automatic inlining of subprograms within a unit (Inlining of Subprograms) and attempts to vectorize loops. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00298">298</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00301">301</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2326,7 +2373,7 @@ Typedefs</h2></td></tr>
 
 <p>Disregard strict standards compliance. -Ofast enables all -O3 optimizations. It also enables optimizations that are not valid for all standard-compliant programs. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00302">302</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00305">305</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2340,7 +2387,7 @@ Typedefs</h2></td></tr>
           <td class="memname">#define offsetof</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">type, </td>
+          <td class="paramname"><a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2351,7 +2398,7 @@ Typedefs</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;__builtin_offsetof(type, member)</td>
+          <td></td><td>&#160;&#160;&#160;__builtin_offsetof(<a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>, member)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2374,7 +2421,7 @@ Typedefs</h2></td></tr>
 
 <p>Optimize space usage (code and data) of resulting program. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00300">300</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00303">303</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2388,7 +2435,7 @@ Typedefs</h2></td></tr>
           <td class="memname">#define POKE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">type, </td>
+          <td class="paramname"><a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2399,12 +2446,12 @@ Typedefs</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(*((type *)(address)))</td>
+          <td></td><td>&#160;&#160;&#160;(*((<a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> *)(address)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00085">85</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00088">88</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2420,7 +2467,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00230">230</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00233">233</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2436,7 +2483,67 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00231">231</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00234">234</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a2df9aa51d543ea63caff6ee2f2d2d4e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2df9aa51d543ea63caff6ee2f2d2d4e4">&#9670;&nbsp;</a></span>ROUND_DOWN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ROUND_DOWN</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;((x) &amp; ~((y)-1))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00085">85</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="a7a4ba4f2dbc3879306d8518c2670dd77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a4ba4f2dbc3879306d8518c2670dd77">&#9670;&nbsp;</a></span>ROUND_UP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ROUND_UP</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(((x) + (y)-1) &amp; ~((y)-1))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00084">84</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2452,7 +2559,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00356">356</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00362">362</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2468,7 +2575,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00233">233</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00236">236</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2484,7 +2591,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00234">234</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00237">237</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2500,7 +2607,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00236">236</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00239">239</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2588,7 +2695,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00188">188</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00191">191</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2604,7 +2711,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00191">191</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00194">194</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2620,7 +2727,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00194">194</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00197">197</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2636,7 +2743,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00185">185</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00188">188</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2652,7 +2759,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00214">214</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00217">217</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2668,7 +2775,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00217">217</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00220">220</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2684,7 +2791,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00220">220</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00223">223</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2700,7 +2807,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00211">211</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00214">214</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2716,7 +2823,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00201">201</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00204">204</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2732,7 +2839,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00204">204</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00207">207</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2748,7 +2855,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00207">207</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00210">210</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2764,7 +2871,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00198">198</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00201">201</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2780,7 +2887,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00228">228</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00231">231</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2796,7 +2903,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00224">224</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00227">227</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2816,7 +2923,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00354">354</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">360</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2930,7 +3037,7 @@ Typedefs</h2></td></tr>
           <td class="memname">#define VPOKE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">type, </td>
+          <td class="paramname"><a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -2941,12 +3048,12 @@ Typedefs</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(*((volatile type *)(address)))</td>
+          <td></td><td>&#160;&#160;&#160;(*((volatile <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> *)(address)))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00084">84</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00087">87</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2962,7 +3069,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00238">238</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00241">241</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2978,7 +3085,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00239">239</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00242">242</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -2994,7 +3101,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00241">241</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00244">244</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3010,7 +3117,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00242">242</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00245">245</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3027,7 +3134,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00138">138</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00141">141</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3043,7 +3150,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00139">139</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00142">142</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3059,7 +3166,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00269">269</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00272">272</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3075,7 +3182,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00140">140</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00143">143</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3091,7 +3198,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00137">137</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00140">140</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3107,7 +3214,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00158">158</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00161">161</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3123,7 +3230,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00159">159</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00162">162</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3139,7 +3246,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00273">273</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00276">276</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3155,7 +3262,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00160">160</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00163">163</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3171,7 +3278,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00157">157</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00160">160</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3187,7 +3294,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00148">148</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00151">151</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3203,7 +3310,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00149">149</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00152">152</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3219,7 +3326,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00271">271</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00274">274</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3235,7 +3342,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00150">150</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00153">153</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3251,7 +3358,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00147">147</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00150">150</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3267,7 +3374,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00170">170</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00173">173</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3283,7 +3390,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00167">167</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00170">170</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3299,7 +3406,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00173">173</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00176">176</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3315,7 +3422,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00179">179</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00182">182</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3331,7 +3438,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00174">174</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00177">177</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3347,7 +3454,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00181">181</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00184">184</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3363,7 +3470,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00143">143</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00146">146</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3379,7 +3486,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00144">144</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00147">147</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3395,7 +3502,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00270">270</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00273">273</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3411,7 +3518,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00145">145</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00148">148</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3427,7 +3534,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00142">142</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00145">145</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3443,7 +3550,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00163">163</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00166">166</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3459,7 +3566,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00164">164</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00167">167</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3475,7 +3582,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00274">274</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00277">277</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3491,7 +3598,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00165">165</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00168">168</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3507,7 +3614,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00162">162</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00165">165</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3523,7 +3630,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00153">153</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00156">156</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3539,7 +3646,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00154">154</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00157">157</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3555,7 +3662,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00272">272</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00275">275</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3571,7 +3678,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00155">155</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00158">158</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3587,7 +3694,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00152">152</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00155">155</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3603,7 +3710,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00171">171</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00174">174</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3619,7 +3726,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00168">168</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00171">171</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3651,7 +3758,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00176">176</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00179">179</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -3667,7 +3774,7 @@ Typedefs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00178">178</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00181">181</a> of file <a class="el" href="../../d6/de6/include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>

@@ -85,12 +85,114 @@ $(document).ready(function(){initNavTree('d3/d6c/libc_2include_2ctype_8h.html','
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ctype.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><a href="../../d3/d6c/libc_2include_2ctype_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ac79d6114c9df7350cedcd8cf921a6ea4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d6c/libc_2include_2ctype_8h.html#ac79d6114c9df7350cedcd8cf921a6ea4">tolower</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>)</td></tr>
+<tr class="separator:ac79d6114c9df7350cedcd8cf921a6ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c2f57ac3865af9006fdbfd5db9fd517"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d6c/libc_2include_2ctype_8h.html#a9c2f57ac3865af9006fdbfd5db9fd517">toupper</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>)</td></tr>
+<tr class="separator:a9c2f57ac3865af9006fdbfd5db9fd517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56be4166e4673843042a548a7f513dbc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d6c/libc_2include_2ctype_8h.html#a56be4166e4673843042a548a7f513dbc">isspace</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>)</td></tr>
+<tr class="separator:a56be4166e4673843042a548a7f513dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a56be4166e4673843042a548a7f513dbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56be4166e4673843042a548a7f513dbc">&#9670;&nbsp;</a></span>isspace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> isspace </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d42/ctype_8c_source.html#l00024">24</a> of file <a class="el" href="../../d3/d42/ctype_8c_source.html">ctype.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> == <span class="charliteral">&#39; &#39;</span> || <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> == <span class="charliteral">&#39;\t&#39;</span> || <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> == <span class="charliteral">&#39;\r&#39;</span> || <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> == <span class="charliteral">&#39;\n&#39;</span> || <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> == <span class="charliteral">&#39;\f&#39;</span> || <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> == <span class="charliteral">&#39;\v&#39;</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="ttc" id="astring-stubs_8cpp_html_a53bc054f17562e88369c26b52125a12d"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a></div><div class="ttdeci">size_t const wchar_t *MLIBC_STUB_BODY wchar_t wchar_t c</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00319">string-stubs.cpp:319</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00319">c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00343">do_scanf()</a>, <a class="el" href="../../dd/d52/resolv__conf_8cpp_source.html#l00008">mlibc::get_nameserver()</a>, <a class="el" href="../../d2/dc6/d__main_8c_source.html#l00643">GetGameName()</a>, <a class="el" href="../../d3/d60/strtol_8hpp_source.html#l00041">mlibc::char_detail&lt; char &gt;::isSpace()</a>, <a class="el" href="../../de/da0/posix__ctype_8cpp_source.html#l00042">isspace_l()</a>, <a class="el" href="../../db/d2c/m__argv_8c_source.html#l00075">LoadResponseFile()</a>, <a class="el" href="../../d2/d69/lookup_8cpp_source.html#l00358">mlibc::lookup_addr_hosts()</a>, <a class="el" href="../../d2/d69/lookup_8cpp_source.html#l00292">mlibc::lookup_name_hosts()</a>, <a class="el" href="../../df/d9f/services_8cpp_source.html#l00097">mlibc::lookup_serv_file_name()</a>, <a class="el" href="../../df/d9f/services_8cpp_source.html#l00034">mlibc::lookup_serv_file_port()</a>, <a class="el" href="../../d0/d25/gusconf_8c_source.html#l00061">SplitLine()</a>, <a class="el" href="../../dd/d84/options_2posix_2generic_2time_8cpp_source.html#l00107">anonymous_namespace{time.cpp}::strptime_internal()</a>, and <a class="el" href="../../df/d73/inttypes-stubs_8cpp_source.html#l00021">strtoxmax()</a>.</p>
+
+</div>
+</div>
+<a id="ac79d6114c9df7350cedcd8cf921a6ea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac79d6114c9df7350cedcd8cf921a6ea4">&#9670;&nbsp;</a></span>tolower()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> tolower </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d42/ctype_8c_source.html#l00003">3</a> of file <a class="el" href="../../d3/d42/ctype_8c_source.html">ctype.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> &gt;= <span class="charliteral">&#39;A&#39;</span> &amp;&amp; <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> &lt;= <span class="charliteral">&#39;Z&#39;</span>)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> -= <span class="charliteral">&#39;A&#39;</span>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> += <span class="charliteral">&#39;a&#39;</span>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    }</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00319">c</a>.</p>
+
+</div>
+</div>
+<a id="a9c2f57ac3865af9006fdbfd5db9fd517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c2f57ac3865af9006fdbfd5db9fd517">&#9670;&nbsp;</a></span>toupper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> toupper </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d3/d42/ctype_8c_source.html#l00014">14</a> of file <a class="el" href="../../d3/d42/ctype_8c_source.html">ctype.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> &gt;= <span class="charliteral">&#39;a&#39;</span> &amp;&amp; <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> &lt;= <span class="charliteral">&#39;z&#39;</span>)</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> -= <span class="charliteral">&#39;a&#39;</span>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a> += <span class="charliteral">&#39;A&#39;</span>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00319">c</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

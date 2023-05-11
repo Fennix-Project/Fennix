@@ -1,11 +1,20 @@
 var searchData=
 [
-  ['kcalloc_131',['kcalloc',['../da/d3e/memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'memory.hpp']]],
-  ['kernel_5fheap_5fbase_132',['KERNEL_HEAP_BASE',['../da/d3e/memory_8hpp.html#a75b788f53a0d45523a0c9b1ab96c28a4',1,'memory.hpp']]],
-  ['kernel_5fvma_5foffset_133',['KERNEL_VMA_OFFSET',['../da/d3e/memory_8hpp.html#ad972eda420e75d192868c7fa6eecc2ab',1,'memory.hpp']]],
-  ['kernelallocator_134',['KernelAllocator',['../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf',1,'Memory.cpp']]],
-  ['kernelpagetable_135',['KernelPageTable',['../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9',1,'Memory.cpp']]],
-  ['kfree_136',['kfree',['../da/d3e/memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'memory.hpp']]],
-  ['kmalloc_137',['kmalloc',['../da/d3e/memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'memory.hpp']]],
-  ['krealloc_138',['krealloc',['../da/d3e/memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'memory.hpp']]]
+  ['kcalloc_726',['kcalloc',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'memory.hpp']]],
+  ['kernel_727',['Kernel',['../db/d96/structBootInfo.html#ae01ac1727fbb31d0fad56381cb6c858f',1,'BootInfo']]],
+  ['kernel_5fheap_5fbase_728',['KERNEL_HEAP_BASE',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#a75b788f53a0d45523a0c9b1ab96c28a4',1,'memory.hpp']]],
+  ['kernel_5fvma_5foffset_729',['KERNEL_VMA_OFFSET',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#ad972eda420e75d192868c7fa6eecc2ab',1,'memory.hpp']]],
+  ['kernelallocator_730',['KernelAllocator',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf',1,'Memory.cpp']]],
+  ['kernelallocator32_731',['KernelAllocator32',['../d4/dfc/FennixLoader_2Memory_2Memory_8cpp.html#ac9be6d2e618484b0a6dbca75a3113306',1,'KernelAllocator32():&#160;Memory.cpp'],['../de/d77/FennixLoader_2include_2memory_8hpp.html#ac9be6d2e618484b0a6dbca75a3113306',1,'KernelAllocator32():&#160;Memory.cpp']]],
+  ['kernelallocator64_732',['KernelAllocator64',['../d4/dfc/FennixLoader_2Memory_2Memory_8cpp.html#aeef1d10a59eec2b00bd8396a1edbfd41',1,'KernelAllocator64():&#160;Memory.cpp'],['../de/d77/FennixLoader_2include_2memory_8hpp.html#aeef1d10a59eec2b00bd8396a1edbfd41',1,'KernelAllocator64():&#160;Memory.cpp']]],
+  ['kernelandmodules_733',['KernelAndModules',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a8b675d21252e54a28df94bb018e9c307',1,'binfo.h']]],
+  ['kernelinfo_734',['KernelInfo',['../db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo',1,'BootInfo']]],
+  ['kerneljumpaddress_735',['KernelJumpAddress',['../d0/dbe/LoadElf_8cpp.html#a0cb322748a3f6bcd43b6159f30552b10',1,'LoadElf.cpp']]],
+  ['kernelpagetable_736',['KernelPageTable',['../d7/d52/UEFI_2src_2Memory_2Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9',1,'Memory.cpp']]],
+  ['kernelpagetable32_737',['KernelPageTable32',['../de/d77/FennixLoader_2include_2memory_8hpp.html#a612325e7a6e7738ecc3442d5a046ac40',1,'KernelPageTable32():&#160;Memory.cpp'],['../d4/dfc/FennixLoader_2Memory_2Memory_8cpp.html#a612325e7a6e7738ecc3442d5a046ac40',1,'KernelPageTable32():&#160;Memory.cpp']]],
+  ['kernelpagetable64_738',['KernelPageTable64',['../de/d77/FennixLoader_2include_2memory_8hpp.html#a5f05eed821e16a1c508ba56d90e3f8a3',1,'KernelPageTable64():&#160;Memory.cpp'],['../d4/dfc/FennixLoader_2Memory_2Memory_8cpp.html#a5f05eed821e16a1c508ba56d90e3f8a3',1,'KernelPageTable64():&#160;Memory.cpp']]],
+  ['kfree_739',['kfree',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'memory.hpp']]],
+  ['kind_740',['kind',['../d0/d1f/ubsan_8h.html#aaa398000599d719b9b1fcca18b24d259',1,'invalid_builtin_data::kind()'],['../d0/d1f/ubsan_8h.html#a20fe55e8840e6d55cd596609613cbc5c',1,'type_descriptor::kind()']]],
+  ['kmalloc_741',['kmalloc',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'memory.hpp']]],
+  ['krealloc_742',['krealloc',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'memory.hpp']]]
 ];

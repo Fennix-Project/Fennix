@@ -102,7 +102,7 @@ Functions</h2></td></tr>
 <tr class="separator:a79c2058bb276cafa4a24007c504054a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa12016bc79f2b4afddb00eb0c856c490"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/Wrapper_8cpp.html#aa12016bc79f2b4afddb00eb0c856c490">Xalloc_FREE_PAGES</a> (void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>, <a class="el" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> Pages)</td></tr>
 <tr class="separator:aa12016bc79f2b4afddb00eb0c856c490"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd396a5eefeee77f1fac8e07ed002b2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/Wrapper_8cpp.html#afd396a5eefeee77f1fac8e07ed002b2e">Xalloc_MAP_MEMORY</a> (void *VirtualAddress, void *PhysicalAddress, <a class="el" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> Flags)</td></tr>
+<tr class="memitem:afd396a5eefeee77f1fac8e07ed002b2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/Wrapper_8cpp.html#afd396a5eefeee77f1fac8e07ed002b2e">Xalloc_MAP_MEMORY</a> (void *VirtualAddress, void *<a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a>, <a class="el" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>)</td></tr>
 <tr class="separator:afd396a5eefeee77f1fac8e07ed002b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5653876339972db0db5f662e64f8f19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d21/Wrapper_8cpp.html#ac5653876339972db0db5f662e64f8f19">Xalloc_UNMAP_MEMORY</a> (void *VirtualAddress)</td></tr>
 <tr class="separator:ac5653876339972db0db5f662e64f8f19"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,11 +181,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html">Wrapper.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781">KernelPageTable</a>).Map(VirtualAddress, PhysicalAddress, Flags);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>).Map(VirtualAddress, <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a>, <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
-<div class="ttc" id="aMemory_8cpp_html_ab22e39b03b381282cced0b85485b8781"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781">KernelPageTable</a></div><div class="ttdeci">PageTable4 * KernelPageTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00050">Memory.cpp:50</a></div></div>
+<div class="ttc" id="aMemory_8cpp_html_a4333668045042c7f091a54e4962e51e9"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a></div><div class="ttdeci">PageTable * KernelPageTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00050">Memory.cpp:50</a></div></div>
+<div class="ttc" id="aMultiboot64bitMap_8cpp_html_a4851ebd1cf29bead5f3abe382b16bc8f"><div class="ttname"><a href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a></div><div class="ttdeci">void uint64_t Flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00197">Multiboot64bitMap.cpp:198</a></div></div>
+<div class="ttc" id="aMultiboot64bitMap_8cpp_html_aed951ef6b9c6cfec18d4673c1c32debc"><div class="ttname"><a href="../../d7/dfa/Multiboot64bitMap_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a></div><div class="ttdeci">void * PhysicalAddress</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00197">Multiboot64bitMap.cpp:197</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00050">KernelPageTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00198">Flags</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00050">KernelPageTable</a>, and <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00197">PhysicalAddress</a>.</p>
 
 </div>
 </div>
@@ -234,7 +236,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../d8/d21/Wrapper_8cpp_source.html">Wrapper.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#ab22e39b03b381282cced0b85485b8781">KernelPageTable</a>).Unmap(VirtualAddress);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>).Unmap(VirtualAddress);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00050">KernelPageTable</a>.</p>

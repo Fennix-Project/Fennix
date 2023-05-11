@@ -2,12 +2,12 @@ var amd64_2cpu_2apic_8hpp =
 [
     [ "__packed", "d3/d88/namespaceAPIC.html#d5/d0e/unionAPIC_1_1____packed", [
       [ "raw", "d3/d88/namespaceAPIC.html#aace9fc1d515a705a6af03acb4f1f1353", null ],
-      [ "split", "d3/d88/namespaceAPIC.html#a9608428d53cbfe9a7bd1aba28c636ec7", null ],
-      [ "split", "d3/d88/namespaceAPIC.html#a044ba2ceeaeb1c414df6ede30a07f097", null ]
+      [ "split", "d3/d88/namespaceAPIC.html#ac0a7c3e3fca24f7ba480fd6b9a12f56c", null ],
+      [ "split", "d3/d88/namespaceAPIC.html#a9bb8a0b1a630cdaca28908352e0b0a27", null ]
     ] ],
     [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ],
     [ "Timer", "df/d9c/classAPIC_1_1Timer.html", "df/d9c/classAPIC_1_1Timer" ],
-    [ "__packed.__unnamed1__", "d3/d88/namespaceAPIC.html#d4/d58/structAPIC_1_1____packed_8____unnamed1____", [
+    [ "__packed.__unnamed14__", "d3/d88/namespaceAPIC.html#dd/d01/structAPIC_1_1____packed_8____unnamed14____", [
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "Mask", "d3/d88/namespaceAPIC.html#a4a18312b5b75f549d5551e5912ad6ebf", null ],
       [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
@@ -16,7 +16,7 @@ var amd64_2cpu_2apic_8hpp =
       [ "TimerMode", "d3/d88/namespaceAPIC.html#a1bc24773da7aa7b2637fc28b2d491723", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed3__", "d3/d88/namespaceAPIC.html#d8/dcd/structAPIC_1_1____packed_8____unnamed3____", [
+    [ "__packed.__unnamed16__", "d3/d88/namespaceAPIC.html#df/de3/structAPIC_1_1____packed_8____unnamed16____", [
       [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
       [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],
       [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
@@ -24,7 +24,7 @@ var amd64_2cpu_2apic_8hpp =
       [ "Software", "d3/d88/namespaceAPIC.html#a719d067b229178f03bcfa1da4ac4dede", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed5__", "d3/d88/namespaceAPIC.html#da/d4a/structAPIC_1_1____packed_8____unnamed5____", [
+    [ "__packed.__unnamed18__", "d3/d88/namespaceAPIC.html#d3/dec/structAPIC_1_1____packed_8____unnamed18____", [
       [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "DestinationMode", "d3/d88/namespaceAPIC.html#a74e856f5a8e178cf38ae4e7c58bc838d", null ],
@@ -36,11 +36,11 @@ var amd64_2cpu_2apic_8hpp =
       [ "TriggerMode", "d3/d88/namespaceAPIC.html#ada82ca0db6273f084f67411579799c40", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed8__", "d3/d88/namespaceAPIC.html#d9/dfa/structAPIC_1_1____packed_8____unnamed8____", [
+    [ "__packed.__unnamed20__", "d3/d88/namespaceAPIC.html#d9/ddd/structAPIC_1_1____packed_8____unnamed20____", [
       [ "Destination", "d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244", null ],
       [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ]
     ] ],
-    [ "__packed.__unnamed10__", "d3/d88/namespaceAPIC.html#da/d58/structAPIC_1_1____packed_8____unnamed10____", [
+    [ "__packed.__unnamed22__", "d3/d88/namespaceAPIC.html#d3/d9a/structAPIC_1_1____packed_8____unnamed22____", [
       [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "DestinationID", "d3/d88/namespaceAPIC.html#a07e65844f6fd690118c864c2abbf0013", null ],
@@ -54,80 +54,15 @@ var amd64_2cpu_2apic_8hpp =
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
     [ "__packed.split", "d3/d88/namespaceAPIC.html#d5/dca/structAPIC_1_1____packed_8split", [
-      [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
-      [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],
       [ "High", "d3/d88/namespaceAPIC.html#a655d20c1ca69519ca647684edbb2db35", null ],
       [ "High", "d3/d88/namespaceAPIC.html#a655d20c1ca69519ca647684edbb2db35", null ],
       [ "Low", "d3/d88/namespaceAPIC.html#a28d0edd045e05cf5af64e35ae0c4c6ef", null ],
-      [ "Low", "d3/d88/namespaceAPIC.html#a28d0edd045e05cf5af64e35ae0c4c6ef", null ],
-      [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
-      [ "Reserved1", "d3/d88/namespaceAPIC.html#a93876cb309016fa725517b046474c44b", null ],
-      [ "Software", "d3/d88/namespaceAPIC.html#a719d067b229178f03bcfa1da4ac4dede", null ],
-      [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
+      [ "Low", "d3/d88/namespaceAPIC.html#a28d0edd045e05cf5af64e35ae0c4c6ef", null ]
     ] ],
-    [ "__packed.__unnamed14__", "d3/d88/namespaceAPIC.html#dd/d01/structAPIC_1_1____packed_8____unnamed14____", [
+    [ "__packed.__unnamed25__", "d3/d88/namespaceAPIC.html#d7/dff/structAPIC_1_1____packed_8____unnamed25____", [
       [ "MaximumRedirectionEntry", "d3/d88/namespaceAPIC.html#a528bff8b6bcc79dfa0a42073f5eec7e9", null ],
       [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
       [ "Reserved2", "d3/d88/namespaceAPIC.html#ad783eb173ee49cc2a004bc1ca1313615", null ],
-      [ "Version", "d3/d88/namespaceAPIC.html#a34b6cd75171affba6957e308dcbd92be", null ]
-    ] ],
-    [ "__packed.__unnamed22__", "d3/d88/namespaceAPIC.html#d3/d9a/structAPIC_1_1____packed_8____unnamed22____", [
-      [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
-      [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
-      [ "DestinationMode", "d3/d88/namespaceAPIC.html#a74e856f5a8e178cf38ae4e7c58bc838d", null ],
-      [ "DestinationShorthand", "d3/d88/namespaceAPIC.html#a483096f0fc1e2b8bcf9c487a6adf7bb8", null ],
-      [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
-      [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],
-      [ "Level", "d3/d88/namespaceAPIC.html#aa0db49ba470c1c9ae2128c3470339153", null ],
-      [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
-      [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
-      [ "Reserved1", "d3/d88/namespaceAPIC.html#a93876cb309016fa725517b046474c44b", null ],
-      [ "Reserved1", "d3/d88/namespaceAPIC.html#a93876cb309016fa725517b046474c44b", null ],
-      [ "Reserved2", "d3/d88/namespaceAPIC.html#ad783eb173ee49cc2a004bc1ca1313615", null ],
-      [ "Software", "d3/d88/namespaceAPIC.html#a719d067b229178f03bcfa1da4ac4dede", null ],
-      [ "TriggerMode", "d3/d88/namespaceAPIC.html#ada82ca0db6273f084f67411579799c40", null ],
-      [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ],
-      [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
-    ] ],
-    [ "__packed.__unnamed24__", "d3/d88/namespaceAPIC.html#d1/df1/structAPIC_1_1____packed_8____unnamed24____", [
-      [ "Destination", "d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244", null ],
-      [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
-      [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],
-      [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
-      [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
-      [ "Reserved1", "d3/d88/namespaceAPIC.html#a93876cb309016fa725517b046474c44b", null ],
-      [ "Software", "d3/d88/namespaceAPIC.html#a719d067b229178f03bcfa1da4ac4dede", null ],
-      [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
-    ] ],
-    [ "__packed.__unnamed26__", "d3/d88/namespaceAPIC.html#d4/d17/structAPIC_1_1____packed_8____unnamed26____", [
-      [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
-      [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
-      [ "DestinationID", "d3/d88/namespaceAPIC.html#a07e65844f6fd690118c864c2abbf0013", null ],
-      [ "DestinationMode", "d3/d88/namespaceAPIC.html#a74e856f5a8e178cf38ae4e7c58bc838d", null ],
-      [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
-      [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],
-      [ "Mask", "d3/d88/namespaceAPIC.html#a4a18312b5b75f549d5551e5912ad6ebf", null ],
-      [ "Polarity", "d3/d88/namespaceAPIC.html#a70f9a8e4c9be852cb8ecbe3a9481715b", null ],
-      [ "RemoteIRR", "d3/d88/namespaceAPIC.html#aef8daea9c5e8f4489335c2dc5bdc10ae", null ],
-      [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
-      [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
-      [ "Reserved1", "d3/d88/namespaceAPIC.html#a93876cb309016fa725517b046474c44b", null ],
-      [ "Reserved1", "d3/d88/namespaceAPIC.html#a93876cb309016fa725517b046474c44b", null ],
-      [ "Software", "d3/d88/namespaceAPIC.html#a719d067b229178f03bcfa1da4ac4dede", null ],
-      [ "TriggerMode", "d3/d88/namespaceAPIC.html#ada82ca0db6273f084f67411579799c40", null ],
-      [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ],
-      [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
-    ] ],
-    [ "__packed.__unnamed30__", "d3/d88/namespaceAPIC.html#df/d46/structAPIC_1_1____packed_8____unnamed30____", [
-      [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
-      [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],
-      [ "MaximumRedirectionEntry", "d3/d88/namespaceAPIC.html#a528bff8b6bcc79dfa0a42073f5eec7e9", null ],
-      [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
-      [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
-      [ "Reserved1", "d3/d88/namespaceAPIC.html#a93876cb309016fa725517b046474c44b", null ],
-      [ "Reserved2", "d3/d88/namespaceAPIC.html#ad783eb173ee49cc2a004bc1ca1313615", null ],
-      [ "Software", "d3/d88/namespaceAPIC.html#a719d067b229178f03bcfa1da4ac4dede", null ],
-      [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ],
       [ "Version", "d3/d88/namespaceAPIC.html#a34b6cd75171affba6957e308dcbd92be", null ]
     ] ],
     [ "APICDeliveryMode", "d9/d4f/amd64_2cpu_2apic_8hpp.html#a5e4cfe3016d6899c18a3ab7f900e2942", [

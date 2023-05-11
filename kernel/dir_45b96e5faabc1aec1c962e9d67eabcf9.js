@@ -15,8 +15,8 @@ var dir_45b96e5faabc1aec1c962e9d67eabcf9 =
     [ "Power.cpp", "d1/d9d/Power_8cpp.html", null ],
     [ "Random.cpp", "d4/dde/Random_8cpp.html", "d4/dde/Random_8cpp" ],
     [ "smbios.hpp", "d5/d8f/smbios_8hpp.html", "d5/d8f/smbios_8hpp" ],
-    [ "StackGuard.cpp", "d9/d13/StackGuard_8cpp.html", "d9/d13/StackGuard_8cpp" ],
-    [ "Symbols.cpp", "d7/db9/Symbols_8cpp.html", null ],
+    [ "StackCheck.cpp", "d4/d46/StackCheck_8cpp.html", "d4/d46/StackCheck_8cpp" ],
+    [ "Symbols.cpp", "d7/db9/Symbols_8cpp.html", "d7/db9/Symbols_8cpp" ],
     [ "SystemManagementBIOS.cpp", "d2/d49/SystemManagementBIOS_8cpp.html", "d2/d49/SystemManagementBIOS_8cpp" ],
     [ "ubsan.h", "d0/d1f/ubsan_8h.html", [
       [ "source_location", "d0/d1f/ubsan_8h.html#d0/d7c/structsource__location", [

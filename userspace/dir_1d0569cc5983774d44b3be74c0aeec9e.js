@@ -8,6 +8,5 @@ var dir_1d0569cc5983774d44b3be74c0aeec9e =
     [ "Lock.cpp", "d4/d90/Lock_8cpp.html", null ],
     [ "lock.hpp", "d1/de3/libc_2src_2lock_8hpp.html", null ],
     [ "Makefile", "d6/d4a/libc_2src_2Makefile.html", null ],
-    [ "Runtime.c", "d8/d5b/Runtime_8c.html", "d8/d5b/Runtime_8c" ],
-    [ "string.c", "d4/d3f/libc_2src_2string_8c.html", "d4/d3f/libc_2src_2string_8c" ]
+    [ "Runtime.c", "d8/d5b/Runtime_8c.html", "d8/d5b/Runtime_8c" ]
 ];

@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('d5/d26/Kernel_2Core_2Lock_8cpp.html','
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;lock.hpp&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
+<code>#include &lt;debug.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../kernel.h</a>&quot;</code><br />
 </div>
@@ -127,12 +127,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html">Lock.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d5/d26/Kernel_2Core_2Lock_8cpp.html#ab9f00a127e2ebb1c38cb4610090ee39b">LocksCount</a>.<a class="code" href="../../da/dec/classstd_1_1atomic.html#a53baa03a5117c6b577a92b1f2673eb00">load</a>(); }</div>
-<div class="ttc" id="aKernel_2Core_2Lock_8cpp_html_ab9f00a127e2ebb1c38cb4610090ee39b"><div class="ttname"><a href="../../d5/d26/Kernel_2Core_2Lock_8cpp.html#ab9f00a127e2ebb1c38cb4610090ee39b">LocksCount</a></div><div class="ttdeci">std::atomic_size_t LocksCount</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00032">Lock.cpp:32</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00081">81</a> of file <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html">Lock.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d5/d26/Kernel_2Core_2Lock_8cpp.html#ab9f00a127e2ebb1c38cb4610090ee39b">LocksCount</a>.<a class="code" href="../../da/dec/classstd_1_1atomic.html#a53baa03a5117c6b577a92b1f2673eb00">load</a>(); }</div>
+<div class="ttc" id="aKernel_2Core_2Lock_8cpp_html_ab9f00a127e2ebb1c38cb4610090ee39b"><div class="ttname"><a href="../../d5/d26/Kernel_2Core_2Lock_8cpp.html#ab9f00a127e2ebb1c38cb4610090ee39b">LocksCount</a></div><div class="ttdeci">std::atomic_size_t LocksCount</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00079">Lock.cpp:79</a></div></div>
 <div class="ttc" id="aclassstd_1_1atomic_html_a53baa03a5117c6b577a92b1f2673eb00"><div class="ttname"><a href="../../da/dec/classstd_1_1atomic.html#a53baa03a5117c6b577a92b1f2673eb00">std::atomic::load</a></div><div class="ttdeci">T load(memory_order order=memory_order::seq_cst) const noexcept</div><div class="ttdoc">Load the value of the atomic variable.</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6c/atomic_8hpp_source.html#l00104">atomic.hpp:104</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00104">std::atomic&lt; T &gt;::load()</a>, and <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00032">LocksCount</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d6c/atomic_8hpp_source.html#l00104">std::atomic&lt; T &gt;::load()</a>, and <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00079">LocksCount</a>.</p>
 
 </div>
 </div>
@@ -149,9 +149,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html">Lock.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00078">78</a> of file <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html">Lock.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00814">CrashHandler::Handle()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00816">CrashHandler::Handle()</a>.</p>
 
 </div>
 </div>
@@ -167,9 +167,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html">Lock.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00079">79</a> of file <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html">Lock.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00034">GetLocksCount()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00081">GetLocksCount()</a>.</p>
 
 </div>
 </div>

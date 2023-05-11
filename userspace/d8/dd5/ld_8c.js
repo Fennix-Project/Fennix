@@ -18,9 +18,12 @@ var ld_8c =
       [ "MemoryImage", "d8/dd5/ld_8c.html#a0bd515a0f84d99f6b2cd8383a07ab5b8", null ],
       [ "Path", "d8/dd5/ld_8c.html#a8964ed8e1ab99f685cedb1325a994f5f", null ]
     ] ],
+    [ "ltoaDbg", "d8/dd5/ld_8c.html#ad977bf2b43685fce883e0806dbf9302e", null ],
     [ "MAX", "d8/dd5/ld_8c.html#afa99ec4acc4ecb2dc3c2d05da15d0e3f", null ],
     [ "MIN", "d8/dd5/ld_8c.html#a3acffbd305ee72dcd4593c0d8af64a4f", null ],
     [ "Print", "d8/dd5/ld_8c.html#a4f0c21aca6db0f1df73f017f6c9a3668", null ],
+    [ "PrintDbg", "d8/dd5/ld_8c.html#aaf4401b68b0d69b1ab1b597e185b9376", null ],
+    [ "PrintDbgNL", "d8/dd5/ld_8c.html#a1f4ee3cab4c905c5920c9d0cb19f8903", null ],
     [ "PrintNL", "d8/dd5/ld_8c.html#a6f141c463e450c2efd96971e495098f0", null ],
     [ "__attribute__", "d8/dd5/ld_8c.html#ae9ef9358e344e6c571c18834f979c681", null ],
     [ "abs", "d8/dd5/ld_8c.html#af15d7205d8d10c4820f997ce5c526279", null ],

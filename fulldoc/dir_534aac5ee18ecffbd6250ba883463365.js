@@ -13,7 +13,7 @@ var dir_534aac5ee18ecffbd6250ba883463365 =
     [ "locale.h", "db/d9f/locale_8h.html", "db/d9f/locale_8h" ],
     [ "math.h", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h" ],
     [ "setjmp.h", "dd/df8/setjmp_8h.html", "dd/df8/setjmp_8h" ],
-    [ "signal.h", "d9/dd8/options_2ansi_2include_2signal_8h.html", "d9/dd8/options_2ansi_2include_2signal_8h" ],
+    [ "signal.h", "d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html", "d2/d71/mlibc_2options_2ansi_2include_2signal_8h" ],
     [ "stdio.h", "d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html", "d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h" ],
     [ "stdlib.h", "dd/d6a/Userspace_2mlibc_2options_2ansi_2include_2stdlib_8h.html", "dd/d6a/Userspace_2mlibc_2options_2ansi_2include_2stdlib_8h" ],
     [ "string.h", "dc/dfb/Userspace_2mlibc_2options_2ansi_2include_2string_8h.html", "dc/dfb/Userspace_2mlibc_2options_2ansi_2include_2string_8h" ],

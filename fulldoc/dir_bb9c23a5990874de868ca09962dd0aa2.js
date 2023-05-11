@@ -26,7 +26,7 @@ var dir_bb9c23a5990874de868ca09962dd0aa2 =
     [ "sched.h", "d3/d68/Userspace_2mlibc_2options_2posix_2include_2sched_8h.html", "d3/d68/Userspace_2mlibc_2options_2posix_2include_2sched_8h" ],
     [ "search.h", "d9/d85/search_8h.html", "d9/d85/search_8h" ],
     [ "semaphore.h", "d6/dc6/semaphore_8h.html", "d6/dc6/semaphore_8h" ],
-    [ "spawn.h", "d0/dbf/spawn_8h.html", "d0/dbf/spawn_8h" ],
+    [ "spawn.h", "d5/d5a/mlibc_2options_2posix_2include_2spawn_8h.html", "d5/d5a/mlibc_2options_2posix_2include_2spawn_8h" ],
     [ "strings.h", "d5/d8c/Userspace_2mlibc_2options_2posix_2include_2strings_8h.html", "d5/d8c/Userspace_2mlibc_2options_2posix_2include_2strings_8h" ],
     [ "syslog.h", "d7/d30/syslog_8h.html", "d7/d30/syslog_8h" ],
     [ "termios.h", "d0/d89/options_2posix_2include_2termios_8h.html", "d0/d89/options_2posix_2include_2termios_8h" ],

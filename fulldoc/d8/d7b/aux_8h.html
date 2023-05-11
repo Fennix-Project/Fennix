@@ -92,14 +92,18 @@ $(document).ready(function(){initNavTree('d8/d7b/aux_8h.html','../../'); initRes
 <div class="title">aux.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h_source.html">types.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h_source.html">stddef.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d8/d7b/aux_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
+<tr class="memitem:d2/d6b/structElf32__auxv__t"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t">Elf32_auxv_t</a></td></tr>
+<tr class="separator:d2/d6b/structElf32__auxv__t"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/de7/structElf64__auxv__t"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a></td></tr>
 <tr class="separator:d9/de7/structElf64__auxv__t"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:da/d9c/unionElf32__auxv__t_8a__un"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t.a_un</a></td></tr>
+<tr class="separator:da/d9c/unionElf32__auxv__t_8a__un"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d0/dc1/unionElf64__auxv__t_8a__un"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t.a_un</a></td></tr>
 <tr class="separator:d0/dc1/unionElf64__auxv__t_8a__un"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -181,8 +185,53 @@ Macros</h2></td></tr>
 <tr class="separator:a62fffa879531ee4acf9b254cb0857c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2aa639db0a8fd3b574ff79c7baf11a9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7b/aux_8h.html#af2aa639db0a8fd3b574ff79c7baf11a9">AT_MINSIGSTKSZ</a>&#160;&#160;&#160;51</td></tr>
 <tr class="separator:af2aa639db0a8fd3b574ff79c7baf11a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c4657b9b7e52c1a57dcd1d97a7dfc01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d7b/aux_8h.html#a4c4657b9b7e52c1a57dcd1d97a7dfc01">Elf_auxv_t</a>&#160;&#160;&#160;<a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t">Elf32_auxv_t</a></td></tr>
+<tr class="separator:a4c4657b9b7e52c1a57dcd1d97a7dfc01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
+<a name="d2/d6b/structElf32__auxv__t" id="d2/d6b/structElf32__auxv__t"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d2/d6b/structElf32__auxv__t">&#9670;&nbsp;</a></span>Elf32_auxv_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct Elf32_auxv_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../df/d31/abi_8h_source.html#l00062">62</a> of file <a class="el" href="../../df/d31/abi_8h_source.html">abi.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ab6d0fd7066a8703da6fa658d3c0c085d"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<td class="fieldname">
+a_type</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a356248347735ad977a3959239e673a43"></a>union <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
+<td class="fieldname">
+a_un</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a6a763ebd38b4418a1c7c51cbed7f1a8a"></a>union <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
+<td class="fieldname">
+a_un</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="accdfef1f7ad18d1281f84f0d1ade987f"></a>union <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un">Elf32_auxv_t</a></td>
+<td class="fieldname">
+a_un</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="d9/de7/structElf64__auxv__t" id="d9/de7/structElf64__auxv__t"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#d9/de7/structElf64__auxv__t">&#9670;&nbsp;</a></span>Elf64_auxv_t</h2>
 
@@ -199,33 +248,64 @@ Macros</h2></td></tr>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="aa4799367aa86aa03c70a44148b14d000"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="aa4799367aa86aa03c70a44148b14d000"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 a_type</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a718e9da507aeab4eaff05dfd77214d19"></a>unsigned long</td>
-<td class="fieldname">
-a_type</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="acb5051ed573fb3f5e8d7b56055a84e7b"></a>union <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
+<a id="a2981fcc8e13633aef695e6abe42156ff"></a>union <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ac585d110e28d3fc94c40d4951d447e38"></a>union <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
+<a id="a9d0848de7618abd0e4f4d928ec08dbe1"></a>union <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad844e6cbde15513a531f9cfe199424d9"></a>union <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
+<a id="a86eeb3ff9671f1bc8390823f81ebaaea"></a>union <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un">Elf64_auxv_t</a></td>
 <td class="fieldname">
 a_un</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="da/d9c/unionElf32__auxv__t_8a__un" id="da/d9c/unionElf32__auxv__t_8a__un"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#da/d9c/unionElf32__auxv__t_8a__un">&#9670;&nbsp;</a></span>Elf32_auxv_t.a_un</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union Elf32_auxv_t.a_un</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h_source.html#l00434">434</a> of file <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h_source.html">elf.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a63c799ad053ae73a0c9d241353f3d625"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<td class="fieldname">
+a_val</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a63c799ad053ae73a0c9d241353f3d625"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<td class="fieldname">
+a_val</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a63c799ad053ae73a0c9d241353f3d625"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<td class="fieldname">
+a_val</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -248,19 +328,19 @@ a_un</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a63c799ad053ae73a0c9d241353f3d625"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a63c799ad053ae73a0c9d241353f3d625"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 a_val</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a63c799ad053ae73a0c9d241353f3d625"></a>unsigned long</td>
+<a id="a63c799ad053ae73a0c9d241353f3d625"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 a_val</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a63c799ad053ae73a0c9d241353f3d625"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a63c799ad053ae73a0c9d241353f3d625"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 a_val</td>
 <td class="fielddoc">
@@ -875,6 +955,22 @@ a_val</td>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d7b/aux_8h_source.html#l00017">17</a> of file <a class="el" href="../../d8/d7b/aux_8h_source.html">aux.h</a>.</p>
+
+</div>
+</div>
+<a id="a4c4657b9b7e52c1a57dcd1d97a7dfc01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c4657b9b7e52c1a57dcd1d97a7dfc01">&#9670;&nbsp;</a></span>Elf_auxv_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Elf_auxv_t&#160;&#160;&#160;<a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t">Elf32_auxv_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d7b/aux_8h_source.html#l00066">66</a> of file <a class="el" href="../../d8/d7b/aux_8h_source.html">aux.h</a>.</p>
 
 </div>
 </div>

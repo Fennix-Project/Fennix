@@ -16,7 +16,7 @@ var dir_3bd0749d2fd5f01e7a1b6c31fb9f407b =
     [ "ino_t.h", "d1/d7d/sysdeps_2ironclad_2include_2abi-bits_2ino__t_8h.html", "d1/d7d/sysdeps_2ironclad_2include_2abi-bits_2ino__t_8h" ],
     [ "inotify.h", "dc/d02/sysdeps_2ironclad_2include_2abi-bits_2inotify_8h.html", "dc/d02/sysdeps_2ironclad_2include_2abi-bits_2inotify_8h" ],
     [ "ioctls.h", "db/d01/sysdeps_2ironclad_2include_2abi-bits_2ioctls_8h.html", "db/d01/sysdeps_2ironclad_2include_2abi-bits_2ioctls_8h" ],
-    [ "limits.h", "db/d3e/sysdeps_2ironclad_2include_2abi-bits_2limits_8h.html", "db/d3e/sysdeps_2ironclad_2include_2abi-bits_2limits_8h" ],
+    [ "limits.h", "df/dcf/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2limits_8h.html", "df/dcf/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2limits_8h" ],
     [ "mode_t.h", "d2/d07/sysdeps_2ironclad_2include_2abi-bits_2mode__t_8h.html", "d2/d07/sysdeps_2ironclad_2include_2abi-bits_2mode__t_8h" ],
     [ "mqueue.h", "dd/dff/sysdeps_2ironclad_2include_2abi-bits_2mqueue_8h.html", [
       [ "mq_attr", "dd/d79/sysdeps_2managarm_2include_2abi-bits_2mqueue_8h.html#d4/daf/structmq__attr", [
@@ -45,7 +45,7 @@ var dir_3bd0749d2fd5f01e7a1b6c31fb9f407b =
         [ "used_ids", "d6/dc0/sysdeps_2managarm_2include_2abi-bits_2shm_8h.html#a733cad29409fd9d60a3bde1f8f8f02ef", null ]
       ] ]
     ] ],
-    [ "signal.h", "df/d83/sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html", "df/d83/sysdeps_2ironclad_2include_2abi-bits_2signal_8h" ],
+    [ "signal.h", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h" ],
     [ "socket.h", "d9/dab/sysdeps_2ironclad_2include_2abi-bits_2socket_8h.html", "d9/dab/sysdeps_2ironclad_2include_2abi-bits_2socket_8h" ],
     [ "socklen_t.h", "db/da1/sysdeps_2ironclad_2include_2abi-bits_2socklen__t_8h.html", "db/da1/sysdeps_2ironclad_2include_2abi-bits_2socklen__t_8h" ],
     [ "stat.h", "d9/db8/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2stat_8h.html", "d9/db8/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2stat_8h" ],
@@ -66,6 +66,6 @@ var dir_3bd0749d2fd5f01e7a1b6c31fb9f407b =
       ] ]
     ] ],
     [ "vm-flags.h", "d6/d07/sysdeps_2ironclad_2include_2abi-bits_2vm-flags_8h.html", "d6/d07/sysdeps_2ironclad_2include_2abi-bits_2vm-flags_8h" ],
-    [ "wait.h", "dd/d5f/sysdeps_2ironclad_2include_2abi-bits_2wait_8h.html", "dd/d5f/sysdeps_2ironclad_2include_2abi-bits_2wait_8h" ],
+    [ "wait.h", "d9/d5a/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2wait_8h.html", "d9/d5a/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2wait_8h" ],
     [ "xattr.h", "d7/d94/sysdeps_2ironclad_2include_2abi-bits_2xattr_8h.html", "d7/d94/sysdeps_2ironclad_2include_2abi-bits_2xattr_8h" ]
 ];
