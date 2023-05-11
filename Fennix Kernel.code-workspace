@@ -34,7 +34,8 @@
 			"symbols.hpp": "c",
 			"cstddef": "cpp",
 			"atomic.hpp": "c",
-			"atomic": "cpp"
+			"atomic": "cpp",
+			"syscalls.h": "c"
 		},
 		"cSpell.words": [
 			"AABBCC",
@@ -311,6 +312,7 @@
 			"Symbios",
 			"SYMENT",
 			"SYSENTER",
+			"sysretq",
 			"Tamsyn",
 			"targp",
 			"TCCR",

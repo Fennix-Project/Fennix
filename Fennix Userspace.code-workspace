@@ -24,7 +24,11 @@
 			"doomgeneric.h": "c",
 			"elf.h": "c",
 			"init.h": "c",
-			"unused_code": "cpp"
+			"unused_code": "cpp",
+			"liballoc_1_1.h": "c",
+			"errno.h": "c",
+			"stdlib.h": "c",
+			"stdarg.h": "c"
 		},
 		"cSpell.words": [
 			"auxv",
@@ -34,9 +38,11 @@
 			"Krnl",
 			"liballoc",
 			"libinit",
+			"oldpath",
 			"preinit",
 			"Shdr",
-			"vfctprintf"
+			"vfctprintf",
+			"WAITSTATUS"
 		]
 	}
 }

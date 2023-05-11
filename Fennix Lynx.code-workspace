@@ -12,8 +12,11 @@
 		},
 		"cSpell.words": [
 			"Bootloader",
+			"COMNULL",
+			"CPUID",
 			"FENNIX",
-			"JMPREL"
+			"JMPREL",
+			"UBSAN"
 		]
 	}
 }
