@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,79,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,81,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,83,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,73,0],
@@ -76,7 +77,6 @@ var NAVTREEINDEX127 =
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,229,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,207,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,109,0],
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,153,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,247,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,275,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,119,0],
@@ -87,12 +87,11 @@ var NAVTREEINDEX127 =
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,107,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,211,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,87,0],
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,131,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,129,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,151,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,127,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,239,0],
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,251,0],
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,121,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,303,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,289,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,307,0],
@@ -111,6 +110,7 @@ var NAVTREEINDEX127 =
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,305,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,233,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,291,0],
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,121,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb":[12,0,0,5,1,0,2,63,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abe797ddea71e0d3970fb71a78ecd26fd":[12,0,0,5,1,0,2,50,6],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abe797ddea71e0d3970fb71a78ecd26fd":[12,0,0,5,1,0,2,154,6],
@@ -248,6 +248,6 @@ var NAVTREEINDEX127 =
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aff3da9fa37305280824b8a9e11299b56":[12,0,0,5,1,0,2,50,9],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aff3da9fa37305280824b8a9e11299b56":[12,0,0,5,1,0,2,154,9],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aff3e179b3cc64393841107ccba0d6e48":[12,0,0,5,1,0,2,48,6],
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#d0/d11/unionCPU_1_1x86_1_1AMD_1_1CPUID0x80000019_8ECX":[12,0,0,5,1,0,2,223],
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#d0/d1f/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000000_8ECX_8____unnamed211____":[12,0,0,5,1,0,2,40]
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#d0/d03/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000000A_8EAX_8____unnamed479____":[12,0,0,5,1,0,2,212],
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#d0/d11/unionCPU_1_1x86_1_1AMD_1_1CPUID0x80000019_8ECX":[12,0,0,5,1,0,2,223]
 };

@@ -14734,7 +14734,7 @@
       <Scope>Memory64::PageDirectoryEntry</Scope>
     </TokenIdentifier>
     <Path>dd/d18/unionMemory64_1_1PageDirectoryEntry.html</Path>
-    <Anchor>af43c82928fa7c4fa6a835046c310c2f3</Anchor>
+    <Anchor>aa493b32cfc2cbaac165871e68e4682dd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -14788,7 +14788,7 @@
       <Scope>Memory64::PageDirectoryPointerTableEntry</Scope>
     </TokenIdentifier>
     <Path>de/df0/unionMemory64_1_1PageDirectoryPointerTableEntry.html</Path>
-    <Anchor>a316c20f75b6568475e7d9c9921d9653f</Anchor>
+    <Anchor>a457bbe19b2a1306aebbf95e7550bf819</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>

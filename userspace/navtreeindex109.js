@@ -226,12 +226,12 @@ var NAVTREEINDEX109 =
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#adb5590226d96e3aa68f094a5b842e98c":[9,0,1,3,3,5,1,0,38,0,3],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#adb5590226d96e3aa68f094a5b842e98c":[9,0,1,3,3,2,1,0,38,0,3],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#adb5590226d96e3aa68f094a5b842e98c":[9,0,1,3,3,0,1,0,38,0,3],
-"dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#adb5590226d96e3aa68f094a5b842e98c":[9,0,1,3,3,6,2,0,38,0,3],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#adb5590226d96e3aa68f094a5b842e98c":[9,0,1,3,0,6,27,0,3],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#adb5590226d96e3aa68f094a5b842e98c":[9,0,1,3,3,3,1,0,38,0,3],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#adb5590226d96e3aa68f094a5b842e98c":[9,0,1,3,0,4,38,0,3],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#adb5590226d96e3aa68f094a5b842e98c":[9,0,1,3,3,1,1,0,37,0,3],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#adb5590226d96e3aa68f094a5b842e98c":[9,0,1,3,3,4,2,0,38,0,3],
+"dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#adb5590226d96e3aa68f094a5b842e98c":[9,0,1,3,3,6,2,0,38,0,3],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#af155f3284e27e5999d8953281330f14f":[9,0,1,3,3,1,1,0,37,0,2],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#af155f3284e27e5999d8953281330f14f":[9,0,1,3,3,3,1,0,38,0,2],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#af155f3284e27e5999d8953281330f14f":[9,0,1,3,3,6,2,0,38,0,2],
@@ -248,6 +248,6 @@ var NAVTREEINDEX109 =
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#db/d19/structutsname":[9,0,1,3,3,4,2,0,38,0],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#db/d19/structutsname":[9,0,1,3,3,5,1,0,38,0],
 "dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#db/d19/structutsname":[9,0,1,3,3,1,1,0,37,0],
-"dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#db/d19/structutsname":[9,0,1,3,3,3,1,0,38,0],
-"dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#db/d19/structutsname":[9,0,1,3,3,6,2,0,38,0]
+"dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#db/d19/structutsname":[9,0,1,3,3,6,2,0,38,0],
+"dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#db/d19/structutsname":[9,0,1,3,3,3,1,0,38,0]
 };

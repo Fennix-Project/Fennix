@@ -235,6 +235,7 @@ var NAVTREEINDEX118 =
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,0,1,0,28,7,10],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,5,1,0,28,7,6],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,5,1,0,28,7,7],
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,5,1,0,28,7,10],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,5,1,0,28,7,11],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,5,1,0,28,7,8],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,3,1,0,28,7,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,3,1,0,28,7,6],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,3,1,0,28,7,7],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,3,1,0,28,7,11],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,4,2,0,28,7,6],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,6,2,0,28,7,6]
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a08610c24afd0471bb34aa92ab39f1a34":[12,0,2,3,3,4,2,0,28,7,6]
 };

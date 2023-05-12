@@ -21,12 +21,12 @@ var annotated_dup =
       [ "PageTable", "db/da8/structMemory64_1_1PageTable.html", "db/da8/structMemory64_1_1PageTable" ],
       [ "Physical", "de/df4/classMemory64_1_1Physical.html", "de/df4/classMemory64_1_1Physical" ],
       [ "Virtual", "dc/d4c/classMemory64_1_1Virtual.html", "dc/d4c/classMemory64_1_1Virtual" ],
-      [ "PageTableEntry.__unnamed10__", "d4/d7e/namespaceMemory64.html#de/de1/structMemory64_1_1PageTableEntry_8____unnamed10____", "d4/d7e/namespaceMemory64_de/de1/structMemory64_1_1PageTableEntry_8____unnamed10_____dup" ],
-      [ "PageDirectoryEntry.__unnamed18__", "d4/d7e/namespaceMemory64.html#d5/d1c/structMemory64_1_1PageDirectoryEntry_8____unnamed18____", "d4/d7e/namespaceMemory64_d5/d1c/structMemory64_1_1PageDirectoryEntry_8____unnamed18_____dup" ],
+      [ "PageTableEntry.__unnamed9__", "d4/d7e/namespaceMemory64.html#d5/df1/structMemory64_1_1PageTableEntry_8____unnamed9____", "d4/d7e/namespaceMemory64_d5/df1/structMemory64_1_1PageTableEntry_8____unnamed9_____dup" ],
+      [ "PageDirectoryEntry.__unnamed11__", "d4/d7e/namespaceMemory64.html#d9/d3d/structMemory64_1_1PageDirectoryEntry_8____unnamed11____", "d4/d7e/namespaceMemory64_d9/d3d/structMemory64_1_1PageDirectoryEntry_8____unnamed11_____dup" ],
       [ "PageDirectoryEntry.TwoMB", "d4/d7e/namespaceMemory64.html#d6/dba/structMemory64_1_1PageDirectoryEntry_8TwoMB", "d4/d7e/namespaceMemory64_d6/dba/structMemory64_1_1PageDirectoryEntry_8TwoMB_dup" ],
-      [ "PageDirectoryPointerTableEntry.__unnamed21__", "d4/d7e/namespaceMemory64.html#d5/df5/structMemory64_1_1PageDirectoryPointerTableEntry_8____unnamed21____", "d4/d7e/namespaceMemory64_d5/df5/structMemory64_1_1PageDirectoryPointerTableEntry_8____unnamed21_____dup" ],
+      [ "PageDirectoryPointerTableEntry.__unnamed14__", "d4/d7e/namespaceMemory64.html#d4/dc4/structMemory64_1_1PageDirectoryPointerTableEntry_8____unnamed14____", "d4/d7e/namespaceMemory64_d4/dc4/structMemory64_1_1PageDirectoryPointerTableEntry_8____unnamed14_____dup" ],
       [ "PageDirectoryPointerTableEntry.OneGB", "d4/d7e/namespaceMemory64.html#dc/d69/structMemory64_1_1PageDirectoryPointerTableEntry_8OneGB", "d4/d7e/namespaceMemory64_dc/d69/structMemory64_1_1PageDirectoryPointerTableEntry_8OneGB_dup" ],
-      [ "PageMapLevel4.__unnamed24__", "d4/d7e/namespaceMemory64.html#df/df0/structMemory64_1_1PageMapLevel4_8____unnamed24____", "d4/d7e/namespaceMemory64_df/df0/structMemory64_1_1PageMapLevel4_8____unnamed24_____dup" ]
+      [ "PageMapLevel4.__unnamed18__", "d4/d7e/namespaceMemory64.html#d7/d4f/structMemory64_1_1PageMapLevel4_8____unnamed18____", "d4/d7e/namespaceMemory64_d7/d4f/structMemory64_1_1PageMapLevel4_8____unnamed18_____dup" ]
     ] ],
     [ "UniversalAsynchronousReceiverTransmitter", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html", [
       [ "UART", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html", "d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART" ]
@@ -77,9 +77,9 @@ var annotated_dup =
     [ "multiboot_header_tag_module_align", "d5/dba/multiboot2_8h.html#d1/d54/structmultiboot__header__tag__module__align", "d5/dba/multiboot2_8h_d1/d54/structmultiboot__header__tag__module__align" ],
     [ "multiboot_header_tag_relocatable", "d5/dba/multiboot2_8h.html#d4/daf/structmultiboot__header__tag__relocatable", "d5/dba/multiboot2_8h_d4/daf/structmultiboot__header__tag__relocatable" ],
     [ "multiboot_info", "d1/dc0/multiboot_8h.html#df/d9f/structmultiboot__info", "d1/dc0/multiboot_8h_df/d9f/structmultiboot__info" ],
-    [ "multiboot_info.__unnamed12__", "d1/dc0/multiboot_8h.html#d0/dc2/unionmultiboot__info_8____unnamed12____", null ],
-    [ "multiboot_info.__unnamed12__.__unnamed14__", "d1/dc0/multiboot_8h.html#db/df6/structmultiboot__info_8____unnamed12_____8____unnamed14____", "d1/dc0/multiboot_8h_db/df6/structmultiboot__info_8____unnamed12_____8____unnamed14____" ],
-    [ "multiboot_info.__unnamed12__.__unnamed16__", "d1/dc0/multiboot_8h.html#d2/d07/structmultiboot__info_8____unnamed12_____8____unnamed16____", "d1/dc0/multiboot_8h_d2/d07/structmultiboot__info_8____unnamed12_____8____unnamed16____" ],
+    [ "multiboot_info.__unnamed20__", "d1/dc0/multiboot_8h.html#de/d85/unionmultiboot__info_8____unnamed20____", null ],
+    [ "multiboot_info.__unnamed20__.__unnamed22__", "d1/dc0/multiboot_8h.html#d2/d49/structmultiboot__info_8____unnamed20_____8____unnamed22____", "d1/dc0/multiboot_8h_d2/d49/structmultiboot__info_8____unnamed20_____8____unnamed22____" ],
+    [ "multiboot_info.__unnamed20__.__unnamed24__", "d1/dc0/multiboot_8h.html#d6/d4f/structmultiboot__info_8____unnamed20_____8____unnamed24____", "d1/dc0/multiboot_8h_d6/d4f/structmultiboot__info_8____unnamed20_____8____unnamed24____" ],
     [ "multiboot_info.u", "d1/dc0/multiboot_8h.html#d0/dd6/unionmultiboot__info_8u", "d1/dc0/multiboot_8h_d0/dd6/unionmultiboot__info_8u" ],
     [ "multiboot_mmap_entry", "d5/dba/multiboot2_8h.html#d5/de2/structmultiboot__mmap__entry", "d5/dba/multiboot2_8h_d5/de2/structmultiboot__mmap__entry" ],
     [ "multiboot_mod_list", "d1/dc0/multiboot_8h.html#d6/d6f/structmultiboot__mod__list", "d1/dc0/multiboot_8h_d6/d6f/structmultiboot__mod__list" ],

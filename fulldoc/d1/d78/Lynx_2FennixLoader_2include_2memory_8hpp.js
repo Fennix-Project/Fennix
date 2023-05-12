@@ -101,7 +101,7 @@ var Lynx_2FennixLoader_2include_2memory_8hpp =
       [ "UserSupervisor", "d4/d7e/namespaceMemory64.html#ab78d9c7f973907151dbc755d6c7ea9d5", null ],
       [ "WriteThrough", "d4/d7e/namespaceMemory64.html#aacb7820573f20d69befb56e41f440549", null ]
     ] ],
-    [ "PageDirectoryPointerTableEntry.__unnamed848__", "d4/d7e/namespaceMemory64.html#df/def/structMemory64_1_1PageDirectoryPointerTableEntry_8____unnamed848____", [
+    [ "PageDirectoryPointerTableEntry.__unnamed850__", "d4/d7e/namespaceMemory64.html#db/dc2/structMemory64_1_1PageDirectoryPointerTableEntry_8____unnamed850____", [
       [ "Accessed", "d4/d7e/namespaceMemory64.html#a94fdc41c6eefc2426f3f0ffedfa4b019", null ],
       [ "Address", "d4/d7e/namespaceMemory64.html#add7bf230fde8d4836917806aff6a6b27", null ],
       [ "Available0", "d4/d7e/namespaceMemory64.html#aee215da807d8f621731e5e18770c09ce", null ],
@@ -133,7 +133,7 @@ var Lynx_2FennixLoader_2include_2memory_8hpp =
       [ "UserSupervisor", "d4/d7e/namespaceMemory64.html#ab78d9c7f973907151dbc755d6c7ea9d5", null ],
       [ "WriteThrough", "d4/d7e/namespaceMemory64.html#aacb7820573f20d69befb56e41f440549", null ]
     ] ],
-    [ "PageMapLevel4.__unnamed851__", "d4/d7e/namespaceMemory64.html#d1/d42/structMemory64_1_1PageMapLevel4_8____unnamed851____", [
+    [ "PageMapLevel4.__unnamed858__", "d4/d7e/namespaceMemory64.html#d1/df7/structMemory64_1_1PageMapLevel4_8____unnamed858____", [
       [ "Accessed", "d4/d7e/namespaceMemory64.html#a94fdc41c6eefc2426f3f0ffedfa4b019", null ],
       [ "Address", "d4/d7e/namespaceMemory64.html#add7bf230fde8d4836917806aff6a6b27", null ],
       [ "Available0", "d4/d7e/namespaceMemory64.html#aee215da807d8f621731e5e18770c09ce", null ],

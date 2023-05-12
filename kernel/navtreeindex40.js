@@ -228,6 +228,7 @@ var NAVTREEINDEX40 =
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,240,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,242,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,244,0],
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,246,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,248,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,250,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,252,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,290,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,292,0],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,296,0],
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,298,0],
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,300,0]
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#aea5cb8ff0abf6b4ca0080069daaeada0":[7,0,0,5,1,0,2,298,0]
 };
