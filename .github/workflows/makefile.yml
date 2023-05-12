@@ -40,7 +40,7 @@ jobs:
 
     - name: Cache cross Folder
       id: cache-cross
-      uses: actions/cache@v3.0.10
+      uses: actions/cache@v3
       with:
         path: tools/cross
         key: ${{ runner.os }}-cross-${{ hashFiles('tools/Makefile') }}
@@ -113,7 +113,7 @@ jobs:
 
     - name: Cache gnu-efi Folder
       id: cache-gnuefi
-      uses: actions/cache@v3.0.10
+      uses: actions/cache@v3
       with:
         path: Lynx/gnu-efi
         key: ${{ runner.os }}-gnuefi-${{ hashFiles('Lynx/Makefile') }}
@@ -167,14 +167,14 @@ jobs:
 
     - name: Cache cross
       id: cache-cross
-      uses: actions/cache@v3.0.10
+      uses: actions/cache@v3
       with:
         path: tools/cross
         key: ${{ runner.os }}-cross-${{ hashFiles('tools/Makefile') }}
 
     - name: Cache gnuefi
       id: cache-gnuefi
-      uses: actions/cache@v3.0.10
+      uses: actions/cache@v3
       with:
         path: Lynx/gnu-efi
         key: ${{ runner.os }}-gnuefi-${{ hashFiles('Lynx/Makefile') }}
@@ -211,14 +211,14 @@ jobs:
 
     - name: Cache cross Folder
       id: cache-cross
-      uses: actions/cache@v3.0.10
+      uses: actions/cache@v3
       with:
         path: tools/cross
         key: ${{ runner.os }}-cross-${{ hashFiles('tools/Makefile') }}
 
     - name: Cache gnu-efi Folder
       id: cache-gnuefi
-      uses: actions/cache@v3.0.10
+      uses: actions/cache@v3
       with:
         path: Lynx/gnu-efi
         key: ${{ runner.os }}-gnuefi-${{ hashFiles('Lynx/Makefile') }}
@@ -236,13 +236,13 @@ jobs:
         mv Fennix.iso Fennix-release.iso
 
     - name: Upload Artifact (Fennix-debug.iso)
-      uses: actions/upload-artifact@v3.1.0
+      uses: actions/upload-artifact@v3
       with:
         name: Fennix-amd64-debug
         path: Fennix-debug.iso
 
     - name: Upload Artifact (Fennix-release.iso)
-      uses: actions/upload-artifact@v3.1.0
+      uses: actions/upload-artifact@v3
       with:
         name: Fennix-amd64-release
         path: Fennix-release.iso
@@ -268,14 +268,14 @@ jobs:
 
     - name: Cache cross Folder
       id: cache-cross
-      uses: actions/cache@v3.0.10
+      uses: actions/cache@v3
       with:
         path: tools/cross
         key: ${{ runner.os }}-cross-${{ hashFiles('tools/Makefile') }}
 
     - name: Cache gnu-efi Folder
       id: cache-gnuefi
-      uses: actions/cache@v3.0.10
+      uses: actions/cache@v3
       with:
         path: Lynx/gnu-efi
         key: ${{ runner.os }}-gnuefi-${{ hashFiles('Lynx/Makefile') }}
@@ -293,13 +293,13 @@ jobs:
         mv Fennix.iso Fennix-release.iso
 
     - name: Upload Artifact (Fennix-debug.iso)
-      uses: actions/upload-artifact@v3.1.0
+      uses: actions/upload-artifact@v3
       with:
         name: Fennix-i386-debug
         path: Fennix-debug.iso
 
     - name: Upload Artifact (Fennix-release.iso)
-      uses: actions/upload-artifact@v3.1.0
+      uses: actions/upload-artifact@v3
       with:
         name: Fennix-i386-release
         path: Fennix-release.iso
@@ -325,14 +325,14 @@ jobs:
 
     - name: Cache cross Folder
       id: cache-cross
-      uses: actions/cache@v3.0.10
+      uses: actions/cache@v3
       with:
         path: tools/cross
         key: ${{ runner.os }}-cross-${{ hashFiles('tools/Makefile') }}
 
     - name: Cache gnu-efi Folder
       id: cache-gnuefi
-      uses: actions/cache@v3.0.10
+      uses: actions/cache@v3
       with:
         path: Lynx/gnu-efi
         key: ${{ runner.os }}-gnuefi-${{ hashFiles('Lynx/Makefile') }}
@@ -350,13 +350,13 @@ jobs:
         mv Fennix.iso Fennix-release.iso
 
     - name: Upload Artifact (Fennix-debug.iso)
-      uses: actions/upload-artifact@v3.1.0
+      uses: actions/upload-artifact@v3
       with:
         name: Fennix-aarch64-debug
         path: Fennix-debug.iso
 
     - name: Upload Artifact (Fennix-release.iso)
-      uses: actions/upload-artifact@v3.1.0
+      uses: actions/upload-artifact@v3
       with:
         name: Fennix-aarch64-release
         path: Fennix-release.iso
