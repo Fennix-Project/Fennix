@@ -51,7 +51,7 @@ var Lynx_2FennixLoader_2include_2multiboot_8h =
       [ "mods_count", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#aebdafce31f94277d138202f7b1ec35cc", null ],
       [ "u", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a0baf89db690d3586dd8edfd345b8058f", null ],
       [ "u", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a3a036f6ca64ccdf46d92f68318fa7b19", null ],
-      [ "u", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a9fdce036355c498f18e95a3c88c6c609", null ],
+      [ "u", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a27bd4750a920e855b153c87667fd7dbc", null ],
       [ "vbe_control_info", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a06191cef73b64e9d64a01850547fd2e8", null ],
       [ "vbe_interface_len", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#ab3c537df524db1ed0aeaa2e6f61a23e6", null ],
       [ "vbe_interface_off", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a1621d51b1cc198a1496e9f61b3708291", null ],
@@ -96,12 +96,12 @@ var Lynx_2FennixLoader_2include_2multiboot_8h =
       [ "elf_sec", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#af2b83453f34de71046f2bbb48051c1f4", null ],
       [ "elf_sec", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#af2b83453f34de71046f2bbb48051c1f4", null ]
     ] ],
-    [ "multiboot_info.__unnamed852__", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#d7/d72/unionmultiboot__info_8____unnamed852____", null ],
-    [ "multiboot_info.__unnamed852__.__unnamed854__", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#d2/dfa/structmultiboot__info_8____unnamed852_____8____unnamed854____", [
+    [ "multiboot_info.__unnamed854__", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#de/d18/unionmultiboot__info_8____unnamed854____", null ],
+    [ "multiboot_info.__unnamed854__.__unnamed856__", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#de/d9c/structmultiboot__info_8____unnamed854_____8____unnamed856____", [
       [ "framebuffer_palette_addr", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#ab4a160c025f0db5470ddced0d2c99de3", null ],
       [ "framebuffer_palette_num_colors", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a9ea6d9ae58149f37ee098ce870bf07f0", null ]
     ] ],
-    [ "multiboot_info.__unnamed852__.__unnamed856__", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#d8/d59/structmultiboot__info_8____unnamed852_____8____unnamed856____", [
+    [ "multiboot_info.__unnamed854__.__unnamed858__", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#d1/d3c/structmultiboot__info_8____unnamed854_____8____unnamed858____", [
       [ "framebuffer_blue_field_position", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#ace107d23f7f4af6fd8d969926c5c9d16", null ],
       [ "framebuffer_blue_mask_size", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#aa8eaba7a0a6cf04509a014ac4bc937c0", null ],
       [ "framebuffer_green_field_position", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#adfcdecf04630d77ee5e41006f47dc4d7", null ],

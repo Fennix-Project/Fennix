@@ -61,13 +61,13 @@ var NAVTREE =
       [ "Version 3", "db/d7b/md_Userspace_mlibc_ABI_BREAKS.html#autotoc_md34", null ]
     ] ],
     [ "mlibc is a C standard library", "d5/d4a/md_Userspace_mlibc_README.html", [
-      [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md36", null ],
-      [ "Porting mlibc to a new OS", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md37", null ],
-      [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md38", null ],
-      [ "Running Tests", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md39", null ]
+      [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md38", null ],
+      [ "Porting mlibc to a new OS", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md39", null ],
+      [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md40", null ],
+      [ "Running Tests", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md41", null ]
     ] ],
     [ "Versioning", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html", [
-      [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md41", null ]
+      [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md37", null ]
     ] ],
     [ "Userspace", "d1/df9/md_Userspace_README.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -117,14 +117,14 @@ var NAVTREEINDEX =
 "annotated.html",
 "d0/d25/gusconf_8c.html#a0b87313afb7a5dd578579d6a48847ea0",
 "d0/d48/structMediaAccessControl.html",
-"d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#aabda58c4901010772f1a68ae20d9b8da",
+"d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#af0c5bf0237f007022abadc9739add59e",
 "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a1af1381f5718fe352d553bc072772986",
 "d0/d96/sysdeps_2aero_2include_2abi-bits_2resource_8h.html#aa368f25ca5adfaaeced92e6570376fc4",
 "d0/d9a/namespacemlibc.html#a8f4d2345a446884011faa2fbff5c4a41",
 "d0/da5/Fex_8hpp.html#a9bd81329febf6efe22788e03ddeaf0af",
 "d0/db7/namespaceCPU_1_1x86_1_1Intel.html#a2137698d1e326e69bcebfe0d3982158c",
 "d0/db7/namespaceCPU_1_1x86_1_1Intel.html#abdd166af3a63f7be696dd17a218a6ffb",
-"d0/db7/namespaceCPU_1_1x86_1_1Intel.html#db/d85/structCPU_1_1x86_1_1Intel_1_1CPUID0x8000000A_8EAX_8____unnamed767____",
+"d0/db7/namespaceCPU_1_1x86_1_1Intel.html#db/d22/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004_8EAX_8____unnamed443____",
 "d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14",
 "d0/df4/Kernel_2include_2types_8h.html#ad0aa975b4187f4598b69b93cffe94a37",
 "d1/d03/powl_8c_source.html",
@@ -172,7 +172,7 @@ var NAVTREEINDEX =
 "d4/d3f/abis_2linux_2socket_8h.html#a4f83194833ee26b3b757a9fa8413b548",
 "d4/d55/classVirtualFileSystem_1_1EXT2.html#a0525a59bec163e3004ab037871a06023",
 "d4/d64/p__maputl_8c.html#a6c2a2c840c396441b69d67649dc9c329",
-"d4/d7e/namespaceMemory64.html#d1/df7/structMemory64_1_1PageMapLevel4_8____unnamed858____",
+"d4/d7e/namespaceMemory64.html#d1/d42/structMemory64_1_1PageMapLevel4_8____unnamed851____",
 "d4/d88/Userspace_2mlibc_2abis_2mlibc_2errno_8h.html#a3f317946e043623f9d6b93dbf60e6316",
 "d4/da7/r__draw_8h.html#ab45e80d76223a6757a4dcf15e0c11637",
 "d4/dae/Kernel_2include_2elf_8h.html#a66ff4e7f9a5626441f6b1863496408f4",
@@ -242,8 +242,8 @@ var NAVTREEINDEX =
 "d9/dfa/if__ether_8h.html#a5fc595c40916681c4101cea398e54535",
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#a349e088067ed610ea823b73dab2feb0b",
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb",
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#d0/d3c/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003_8ECX_8____unnamed407____",
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#de/d4a/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000019_8EDX_8____unnamed498____",
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#d0/d33/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003_8EBX_8____unnamed553____",
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#dd/dae/unionCPU_1_1x86_1_1AMD_1_1CPUID0x8000001F_8ECX",
 "da/d5e/j0f_8c.html#ad41a344bb46bc37164ee0282070a19a4",
 "da/d7d/cwalk_8h.html#ac5ac1f6c3505a13cf6af679b3e1075ab",
 "da/d83/sysdeps_2lemon_2include_2abi-bits_2ptrace_8h.html#a9f647e339a4e795aff0db62d3a3ef041",

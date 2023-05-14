@@ -51,7 +51,7 @@ var Kernel_2Architecture_2amd64_2Bootstrap_2Multiboot_21_2multiboot_8h =
       [ "mods_count", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#aebdafce31f94277d138202f7b1ec35cc", null ],
       [ "u", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a0baf89db690d3586dd8edfd345b8058f", null ],
       [ "u", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a3a036f6ca64ccdf46d92f68318fa7b19", null ],
-      [ "u", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a9fdce036355c498f18e95a3c88c6c609", null ],
+      [ "u", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a27bd4750a920e855b153c87667fd7dbc", null ],
       [ "vbe_control_info", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a06191cef73b64e9d64a01850547fd2e8", null ],
       [ "vbe_interface_len", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#ab3c537df524db1ed0aeaa2e6f61a23e6", null ],
       [ "vbe_interface_off", "de/d0f/Lynx_2FennixLoader_2include_2multiboot_8h.html#a1621d51b1cc198a1496e9f61b3708291", null ],

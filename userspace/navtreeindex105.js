@@ -204,8 +204,8 @@ var NAVTREEINDEX105 =
 "dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a23b0ddddd76c48b173a903da632e3623":[9,0,1,3,3,6,2,0,25,11],
 "dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a27f1c056632ca282cccbbfb18a7fd65e":[9,0,1,3,0,4,25,0,22],
 "dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a27f1c056632ca282cccbbfb18a7fd65e":[9,0,1,3,3,5,1,0,25,0,22],
-"dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a27f1c056632ca282cccbbfb18a7fd65e":[9,0,1,3,3,1,1,0,24,0,22],
 "dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a27f1c056632ca282cccbbfb18a7fd65e":[9,0,1,3,3,2,1,0,25,0,22],
+"dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a27f1c056632ca282cccbbfb18a7fd65e":[9,0,1,3,3,1,1,0,24,0,22],
 "dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a27f1c056632ca282cccbbfb18a7fd65e":[9,0,1,3,0,6,19,0,22],
 "dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a27f1c056632ca282cccbbfb18a7fd65e":[9,0,1,3,3,0,1,0,25,0,22],
 "dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a27f1c056632ca282cccbbfb18a7fd65e":[9,0,1,3,3,3,1,0,25,0,22],
@@ -248,6 +248,6 @@ var NAVTREEINDEX105 =
 "dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a4ce68fcaf7242cc09be270c56cc2f55e":[9,0,1,3,3,5,1,0,25,0,18],
 "dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a4ce68fcaf7242cc09be270c56cc2f55e":[9,0,1,3,3,2,1,0,25,0,18],
 "dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a4ce68fcaf7242cc09be270c56cc2f55e":[9,0,1,3,3,0,1,0,25,0,18],
-"dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a4ce68fcaf7242cc09be270c56cc2f55e":[9,0,1,3,0,4,25,0,18],
-"dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a4ce68fcaf7242cc09be270c56cc2f55e":[9,0,1,3,0,6,19,0,18]
+"dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a4ce68fcaf7242cc09be270c56cc2f55e":[9,0,1,3,0,6,19,0,18],
+"dd/d0e/sysdeps_2managarm_2include_2abi-bits_2resource_8h.html#a4ce68fcaf7242cc09be270c56cc2f55e":[9,0,1,3,0,4,25,0,18]
 };

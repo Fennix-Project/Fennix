@@ -13,9 +13,9 @@ var namespaceMemory64 =
     [ "PageTableEntry.__unnamed843__", "d4/d7e/namespaceMemory64.html#d0/d56/structMemory64_1_1PageTableEntry_8____unnamed843____", "d4/d7e/namespaceMemory64_d0/d56/structMemory64_1_1PageTableEntry_8____unnamed843_____dup" ],
     [ "PageDirectoryEntry.__unnamed845__", "d4/d7e/namespaceMemory64.html#da/d79/structMemory64_1_1PageDirectoryEntry_8____unnamed845____", "d4/d7e/namespaceMemory64_da/d79/structMemory64_1_1PageDirectoryEntry_8____unnamed845_____dup" ],
     [ "PageDirectoryEntry.TwoMB", "d4/d7e/namespaceMemory64.html#d6/dba/structMemory64_1_1PageDirectoryEntry_8TwoMB", "d4/d7e/namespaceMemory64_d6/dba/structMemory64_1_1PageDirectoryEntry_8TwoMB_dup" ],
-    [ "PageDirectoryPointerTableEntry.__unnamed850__", "d4/d7e/namespaceMemory64.html#db/dc2/structMemory64_1_1PageDirectoryPointerTableEntry_8____unnamed850____", "d4/d7e/namespaceMemory64_db/dc2/structMemory64_1_1PageDirectoryPointerTableEntry_8____unnamed850_____dup" ],
+    [ "PageDirectoryPointerTableEntry.__unnamed848__", "d4/d7e/namespaceMemory64.html#df/def/structMemory64_1_1PageDirectoryPointerTableEntry_8____unnamed848____", "d4/d7e/namespaceMemory64_df/def/structMemory64_1_1PageDirectoryPointerTableEntry_8____unnamed848_____dup" ],
     [ "PageDirectoryPointerTableEntry.OneGB", "d4/d7e/namespaceMemory64.html#dc/d69/structMemory64_1_1PageDirectoryPointerTableEntry_8OneGB", "d4/d7e/namespaceMemory64_dc/d69/structMemory64_1_1PageDirectoryPointerTableEntry_8OneGB_dup" ],
-    [ "PageMapLevel4.__unnamed858__", "d4/d7e/namespaceMemory64.html#d1/df7/structMemory64_1_1PageMapLevel4_8____unnamed858____", "d4/d7e/namespaceMemory64_d1/df7/structMemory64_1_1PageMapLevel4_8____unnamed858_____dup" ],
+    [ "PageMapLevel4.__unnamed851__", "d4/d7e/namespaceMemory64.html#d1/d42/structMemory64_1_1PageMapLevel4_8____unnamed851____", "d4/d7e/namespaceMemory64_d1/d42/structMemory64_1_1PageMapLevel4_8____unnamed851_____dup" ],
     [ "__aligned", "d4/d7e/namespaceMemory64.html#ae178d0489c3270d2519e8fcd60d20a51", null ],
     [ "__aligned", "d4/d7e/namespaceMemory64.html#a95296fe2972ab7eb13800b30e66fc9b9", null ]
 ];

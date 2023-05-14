@@ -5,8 +5,8 @@ var mlibc_2sysdeps_2lyre_2include_2abi_bits_2signal_8h =
       [ "sival_ptr", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#af21491dd45c96eb58e2211c98a57b5cc", null ]
     ] ],
     [ "siginfo_t", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t", [
-      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a315dcce48d3f52f2d743144b1d691aaf", null ],
-      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aaa8e33b73ceb30c2199baa804a793752", null ],
+      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ab69c10a35e2cebe0ca45c5d4dcd0b7cf", null ],
+      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a9b57e76a59fc59a123e506da7d28f448", null ],
       [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a01c72cd013b882374d9bab653bac230c", null ],
       [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a3fc9e62cdd2e436008298db228213adc", null ],
       [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aa883e18c5beda576643711f00f21804c", null ],

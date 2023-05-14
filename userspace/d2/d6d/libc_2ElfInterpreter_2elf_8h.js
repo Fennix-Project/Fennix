@@ -58,12 +58,12 @@ var libc_2ElfInterpreter_2elf_8h =
     ] ],
     [ "Elf32_Dyn", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#abaefe998bc58ae329014d4f2ce800237", null ],
+      [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a548b9e5dfb2b3d8e25a72cc027c5a8b1", null ],
       [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a306953ff7966925279fda16b9269e25f", null ]
     ] ],
     [ "Elf64_Dyn", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1f674be27551dc73795b3b9618db0acb", null ],
+      [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a1e3ff5d1c9c03e07bff83cafc1de6193", null ],
       [ "d_un", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a109093f248a9dc0fa7bcaffcf5ab814d", null ]
     ] ],
     [ "Elf64_Phdr", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#d3/d7b/structElf64__Phdr", [
