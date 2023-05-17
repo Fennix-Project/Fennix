@@ -300,7 +300,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html</Path>
-    <Anchor>a91c9bfafa1ae3d6ec4ce064c67039ad7</Anchor>
+    <Anchor>a3566340b6a222c5755e4b2281916308e</Anchor>
     <DeclaredIn>SymmetricMultiprocessing.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -576,6 +576,17 @@
     <Anchor>a623b6425a07c15a56d165d69c08b67f2</Anchor>
     <Abstract>Initialize syscalls for the current CPU. (Function is available on x32, x64 &amp; aarch64)</Abstract>
     <DeclaredIn>SystemCalls.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__no_sanitize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>ACPI</Scope>
+    </TokenIdentifier>
+    <Path>df/d22/namespaceACPI.html</Path>
+    <Anchor>a7e85632c6e7ad046e5c363b356146df3</Anchor>
+    <DeclaredIn>AdvancedConfigurationAndPowerInterface.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -3199,61 +3210,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>TaskStateSegmentEntry</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>aacd2dfc0499d485dcf1cc81cf30b800c</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TaskStateSegment</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>a06e6acd04b830563ed08b6a2d71f77f8</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GlobalDescriptorTableEntry</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>ae37cf2547db7a08c3d3072637cc4b3ac</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GlobalDescriptorTableEntries</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>a0d4e4fbefea041e82ee895772b9f6150</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GlobalDescriptorTableDescriptor</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>a763ac5dacc27c0de58a05283a268b9f0</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Init</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -3283,6 +3239,17 @@
     </TokenIdentifier>
     <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
     <Anchor>ab8fe0c39e450d238fcbba11a60791922</Anchor>
+    <DeclaredIn>gdt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__packed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>aabf46d67d2677552477795fd2d6ea43d</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -3381,6 +3348,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetKernelStack</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>ab8fe0c39e450d238fcbba11a60791922</Anchor>
+    <DeclaredIn>gdt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>__aligned</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -3436,6 +3414,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__aligned</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>a81fa1ff5178ded4376fc6d7f4a7c74c9</Anchor>
+    <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Init</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -3458,6 +3447,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>GetKernelStack</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>ab8fe0c39e450d238fcbba11a60791922</Anchor>
+    <DeclaredIn>gdt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>GDTEntriesTemplate</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -3465,28 +3465,6 @@
     </TokenIdentifier>
     <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
     <Anchor>a00d675ef11f786ca4899530e59d6acf2</Anchor>
-    <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GDTEntries</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>ab39462761311729389cbcfb551d23c04</Anchor>
-    <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>gdt</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>aedb1fa5caf696d1d3931c6cbd16314da</Anchor>
     <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -3568,6 +3546,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SetEntry</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a5546f91a593afa23ea4ccc8baac3db64</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Init</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -3580,30 +3569,30 @@
   <Token>
     <TokenIdentifier>
       <Name>EXCEPTION_HANDLER</Name>
-      <APILanguage>unknown</APILanguage>
+      <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d21/InterruptDescriptorTable_8cpp.html</Path>
+    <Path>d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html</Path>
     <Anchor>ae6aa82d43fcacd6bb94831abbb665799</Anchor>
     <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>EXCEPTION_ERROR_HANDLER</Name>
-      <APILanguage>unknown</APILanguage>
+      <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d21/InterruptDescriptorTable_8cpp.html</Path>
+    <Path>d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html</Path>
     <Anchor>a91faac0f0bd85f400863bbff6ba06f7f</Anchor>
     <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>INTERRUPT_HANDLER</Name>
-      <APILanguage>unknown</APILanguage>
+      <APILanguage>c</APILanguage>
       <Type>macro</Type>
     </TokenIdentifier>
-    <Path>d7/d21/InterruptDescriptorTable_8cpp.html</Path>
+    <Path>d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html</Path>
     <Anchor>aac29fce8b5436d26c80044516455b6f7</Anchor>
     <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
   </Token>
@@ -3613,7 +3602,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d7/d21/InterruptDescriptorTable_8cpp.html</Path>
+    <Path>d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html</Path>
     <Anchor>ab315401343457f280dc7e89bd8ec6308</Anchor>
     <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
   </Token>
@@ -3623,7 +3612,7 @@
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
-    <Path>d7/d21/InterruptDescriptorTable_8cpp.html</Path>
+    <Path>d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html</Path>
     <Anchor>a29a0f4b501e81633a741ed838dace121</Anchor>
     <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
   </Token>
@@ -4032,6 +4021,452 @@
     </TokenIdentifier>
     <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
     <Anchor>a2d9560d834d891b9d8f0e76ced1bc8a7</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/db5/i386_2cpu_2InterruptDescriptorTable_8cpp.html</Path>
+    <Anchor>ae6aa82d43fcacd6bb94831abbb665799</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_ERROR_HANDLER</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/db5/i386_2cpu_2InterruptDescriptorTable_8cpp.html</Path>
+    <Anchor>a91faac0f0bd85f400863bbff6ba06f7f</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INTERRUPT_HANDLER</Name>
+      <APILanguage>c</APILanguage>
+      <Type>macro</Type>
+    </TokenIdentifier>
+    <Path>d8/db5/i386_2cpu_2InterruptDescriptorTable_8cpp.html</Path>
+    <Anchor>aac29fce8b5436d26c80044516455b6f7</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>MainInterruptHandler</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/db5/i386_2cpu_2InterruptDescriptorTable_8cpp.html</Path>
+    <Anchor>ab315401343457f280dc7e89bd8ec6308</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ExceptionHandler</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d8/db5/i386_2cpu_2InterruptDescriptorTable_8cpp.html</Path>
+    <Anchor>a29a0f4b501e81633a741ed838dace121</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>SetEntry</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a5546f91a593afa23ea4ccc8baac3db64</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__aligned</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae33a1317cc5ebd3cc50a15cbd787f6d6</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ab6ca365ac726708ccf804bc9fad2608a</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>aa36b3cf34d7076c1992469a27b8e6f24</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a36ae68ef9666359b6a4de74344c8577c</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a041f3a8a51d8034961964bfe299fa9d5</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a02fc13c860c1d41abbc1a53dcd11e44c</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a11725ead203546f02fa848ca9ae5cf3b</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a0d563f2f05aabc844639dc0a663c0bf5</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a8b482057aba9d7fb8e0df91a00df0d0a</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_ERROR_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a79b0b2a4ee90ae36c274116d678c16bf</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a5c17bef14be9a26c98a78d9a523aade3</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_ERROR_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a537df31f84d976556362b1b0de35f276</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_ERROR_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a811a2cc0a8217b48a3574760d9a398fa</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_ERROR_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a9cc9495625b20165c4d7c88d2a926edd</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_ERROR_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ace13e1254cf82a83f1abf34ff5ec6188</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_ERROR_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a3987c1d613b1813c9cdb3038fcccf5b7</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a06dc90ea4f9b497dde29a66795414f7a</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_ERROR_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>afb7ecf9fc0491027fc6c9457c9e7a71f</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a4484e5cb7f200bb95c185dd37efa3bf7</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae6b018b84df4bed6d7f27aa40df1aaab</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a734d3f67a69990f812e88f1b78715d51</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2bd67b7ea0705eb2ae5d07cd2a21e47</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a3cfef204dc822963e2fb2798df7190d6</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>acf36ad7cb2569bfe2f4839f6321da321</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a40b83d2a96a90ef9826130d3f48c38f3</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a0cfa1968b6dbd63cd06903361c0cd8f7</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>aab9014ffc5513135e7bbb4a71c07b3a8</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a412f162c743768ca1538603fcc73d1d2</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>abaeb2b1036c94d6cf7cc8be04be82efa</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>acd2c7ebf3ffd778069db76aac568b099</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a980c8e129727980c99db9d43f2b3999b</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a144815f221e87e0338e083162f90ca79</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>EXCEPTION_HANDLER</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a309bb2bbfd79c26f7bb0261aaab69209</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Init</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a5275e6707c957c5ba4b050102990c908</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>Entries</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a679e5cab62e2086ee8684461fa9afa16</Anchor>
     <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -4623,6 +5058,16 @@
     </TokenIdentifier>
     <Path>d0/d18/ArithmeticOperations_8c.html</Path>
     <Anchor>a512dbc95cfa30c51b16042a780414dbe</Anchor>
+    <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__nesf2</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d0/d18/ArithmeticOperations_8c.html</Path>
+    <Anchor>a6045da5716bbf035094b7ac9def77cb2</Anchor>
     <DeclaredIn>ArithmeticOperations.c</DeclaredIn>
   </Token>
   <Token>
@@ -9003,7 +9448,7 @@
       <Scope>SMBIOS</Scope>
     </TokenIdentifier>
     <Path>da/d5f/namespaceSMBIOS.html</Path>
-    <Anchor>a0ccad5c9ebf41beebd6a842f30239096</Anchor>
+    <Anchor>a0f5fdd3d90fdc98b67cad79b7a1debc9</Anchor>
     <DeclaredIn>smbios.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -9179,25 +9624,14 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SMBIOSTableLength</Name>
+      <Name>__no_sanitize</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>SMBIOS</Scope>
     </TokenIdentifier>
     <Path>da/d5f/namespaceSMBIOS.html</Path>
-    <Anchor>a7cf58bb0289a439aff31df8a7a99fe61</Anchor>
+    <Anchor>afaf6549352ef94a1a55a3dd2cf8908d4</Anchor>
     <DeclaredIn>SystemManagementBIOS.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GetSMBIOSHeader</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>func</Type>
-      <Scope>SMBIOS</Scope>
-    </TokenIdentifier>
-    <Path>da/d5f/namespaceSMBIOS.html</Path>
-    <Anchor>a0ccad5c9ebf41beebd6a842f30239096</Anchor>
-    <DeclaredIn>smbios.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -9857,16 +10291,6 @@
     </TokenIdentifier>
     <Path>da/d15/UndefinedBehaviorSanitization_8c.html</Path>
     <Anchor>acc9c24ecf6efe5ccaa2e4ee13bce9e43</Anchor>
-    <DeclaredIn>UndefinedBehaviorSanitization.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>UBSANMsg</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>da/d15/UndefinedBehaviorSanitization_8c.html</Path>
-    <Anchor>a1449bfebee00d3a390692660adaaccc4</Anchor>
     <DeclaredIn>UndefinedBehaviorSanitization.c</DeclaredIn>
   </Token>
   <Token>
@@ -11007,7 +11431,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d0/da5/Fex_8hpp.html</Path>
-    <Anchor>a1e46c3e8d5ce03c5cd747c9333c88ffb</Anchor>
+    <Anchor>a496e3fd38a24fb1eb3beee608c8e3797</Anchor>
     <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -11017,7 +11441,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>d0/da5/Fex_8hpp.html</Path>
-    <Anchor>aad4d8df6ca834da4e58697dc39c7ddfa</Anchor>
+    <Anchor>afe18fe81b534540d884cbf3189e3ba73</Anchor>
     <DeclaredIn>Fex.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -11291,7 +11715,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>a63e7ccbad4ab57fe188cdddb5f0739c4</Anchor>
+    <Anchor>a673f4f56d1633bb6730bfe36b699f959</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -11302,7 +11726,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>a63708ba2e12d5c6ea53e1921127765e3</Anchor>
+    <Anchor>a0dd8851e1d482d2a5316ff4a0825991f</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -11313,7 +11737,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>a1d4b566cf2a43db2bc8cc00201c814d3</Anchor>
+    <Anchor>ac4f047a33ac3f610e5fe7e5498d51479</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -11324,7 +11748,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>ac3aa491e96b9f6ef7a4bf33cd447ac37</Anchor>
+    <Anchor>a31ff2f6e71febae6afaf97bbdf9fa164</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -11390,7 +11814,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>a5990a47cd408b26c4f30648c359df162</Anchor>
+    <Anchor>ae1adfb02095931e319124530e589a756</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -13172,17 +13596,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>EFER</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>x32</Scope>
-    </TokenIdentifier>
-    <Path>de/d52/namespacex32.html</Path>
-    <Anchor>a0e869c2a27690d5523250fc700d3476d</Anchor>
-    <DeclaredIn>cpu.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>DR7</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -13399,6 +13812,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>lgdt</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d52/namespacex32.html</Path>
+    <Anchor>ad9e787a0d701d7c2a8efc0e2e73c52f3</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lidt</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d52/namespacex32.html</Path>
+    <Anchor>a77e1dc98e287b48ac982986ddb8a75e9</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ltr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d52/namespacex32.html</Path>
+    <Anchor>a740caf3bf0be1c36578c1f20a7127407</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>invlpg</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -13406,6 +13852,28 @@
     </TokenIdentifier>
     <Path>de/d52/namespacex32.html</Path>
     <Anchor>aa5ab3109baaf98f4eb8a8ef2415bd7f6</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fxsave</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d52/namespacex32.html</Path>
+    <Anchor>a296f5c407f3cbf7c86be8de9f7735e6e</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fxrstor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d52/namespacex32.html</Path>
+    <Anchor>a85cf1622e1fef6619a9e77c837de51c4</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -18150,7 +18618,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>a63708ba2e12d5c6ea53e1921127765e3</Anchor>
+    <Anchor>a0dd8851e1d482d2a5316ff4a0825991f</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -18161,7 +18629,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>ac3aa491e96b9f6ef7a4bf33cd447ac37</Anchor>
+    <Anchor>a31ff2f6e71febae6afaf97bbdf9fa164</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -18227,7 +18695,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>a5990a47cd408b26c4f30648c359df162</Anchor>
+    <Anchor>ae1adfb02095931e319124530e589a756</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -19602,7 +20070,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d4/d2d/net_8hpp.html</Path>
-    <Anchor>a2a1717c80764765604bac6355d8eadb2</Anchor>
+    <Anchor>a8c14b5ee2df294ccbb24e2a889b108ba</Anchor>
     <DeclaredIn>net.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -26167,7 +26635,7 @@
       <Type>data</Type>
     </TokenIdentifier>
     <Path>dd/d06/KernelThread_8cpp.html</Path>
-    <Anchor>af926009d2060e4aa1bdfa2e80bb2e3bd</Anchor>
+    <Anchor>aea40c6a582db2bc41976f4a83bd92069</Anchor>
     <DeclaredIn>KernelThread.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -28115,86 +28583,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>liballoc_memset</Name>
+      <Name>__no_sanitize</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d2/dc3/liballoc__1__1_8c.html</Path>
-    <Anchor>ad824e94da51543e1febb05f96f0083ba</Anchor>
-    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>liballoc_memcpy</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d2/dc3/liballoc__1__1_8c.html</Path>
-    <Anchor>a58b3101a659b6a2f7e2ca290bef6bfb4</Anchor>
-    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>liballoc_dump</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d2/dc3/liballoc__1__1_8c.html</Path>
-    <Anchor>a3a68c0bf75f35813ab63a469d63e34e5</Anchor>
-    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>allocate_new_page</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d2/dc3/liballoc__1__1_8c.html</Path>
-    <Anchor>a2d00f44b620b913bc15fc92d44dd7c89</Anchor>
-    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>malloc</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
-    <Anchor>ga5223b5fb1255b5179f53b0595fe9251c</Anchor>
-    <Abstract>The standard function.</Abstract>
-    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>free</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
-    <Anchor>ga4835fe140973dbc5e1aafd9c33acf6d4</Anchor>
-    <Abstract>The standard function.</Abstract>
-    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>calloc</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
-    <Anchor>ga9db1af54761723ecddbd1e253c01a2ad</Anchor>
-    <Abstract>The standard function.</Abstract>
-    <DeclaredIn>liballoc_1_1.c</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>realloc</Name>
-      <APILanguage>c</APILanguage>
-      <Type>func</Type>
-    </TokenIdentifier>
-    <Path>d8/dc8/group__ALLOCHOOKS.html</Path>
-    <Anchor>gadc710223dc26577d1e49cac212d7d083</Anchor>
-    <Abstract>The standard function.</Abstract>
+    <Anchor>afb17fcdcc29b50e260126a38ecc5d6d5</Anchor>
     <DeclaredIn>liballoc_1_1.c</DeclaredIn>
   </Token>
   <Token>
@@ -29761,8 +30155,19 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>d5/d24/Checksum_8cpp.html</Path>
-    <Anchor>a2a1717c80764765604bac6355d8eadb2</Anchor>
+    <Anchor>a8c14b5ee2df294ccbb24e2a889b108ba</Anchor>
     <DeclaredIn>Checksum.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__no_sanitize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>NetworkDHCP</Scope>
+    </TokenIdentifier>
+    <Path>dd/d53/namespaceNetworkDHCP.html</Path>
+    <Anchor>a59862d8b209257407a556bdc150e8fb3</Anchor>
+    <DeclaredIn>DynamicHostConfigurationProtocol.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -29774,6 +30179,17 @@
     <Path>da/dcd/namespaceNetworkEthernet.html</Path>
     <Anchor>a3cf014c60c2cf2a0ca174194f4ea13b1</Anchor>
     <DeclaredIn>Ethernet.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__no_sanitize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>NetworkIPv4</Scope>
+    </TokenIdentifier>
+    <Path>df/d2a/namespaceNetworkIPv4.html</Path>
+    <Anchor>afe8248b873667543c2ebfdb5fa5e3a96</Anchor>
+    <DeclaredIn>InternetProtocol.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -34877,6 +35293,16 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__no_sanitize</Name>
+      <APILanguage>c</APILanguage>
+      <Type>func</Type>
+    </TokenIdentifier>
+    <Path>d3/d71/Task_8cpp.html</Path>
+    <Anchor>af3fc106411b73fe948d67a194da6597a</Anchor>
+    <DeclaredIn>Task.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>md_Kernel_Core_Memory_HeapAllocators_Xalloc_README</Name>
       <APILanguage>markdown</APILanguage>
     </TokenIdentifier>
@@ -36251,6 +36677,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>__no_sanitize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>ACPI</Scope>
+    </TokenIdentifier>
+    <Path>df/d22/namespaceACPI.html</Path>
+    <Anchor>a7e85632c6e7ad046e5c363b356146df3</Anchor>
+    <DeclaredIn>AdvancedConfigurationAndPowerInterface.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>IsCanonical</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -36278,7 +36715,7 @@
       <Scope>ACPI::ACPI</Scope>
     </TokenIdentifier>
     <Path>d3/d21/classACPI_1_1ACPI.html</Path>
-    <Anchor>a1c23292da32c6b63963ce45162e7a3fa</Anchor>
+    <Anchor>a27d7045a57c355446aad809b74325234</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -36829,7 +37266,7 @@
       <Scope>ACPI::DSDT</Scope>
     </TokenIdentifier>
     <Path>dd/dc9/classACPI_1_1DSDT.html</Path>
-    <Anchor>ac50f4bc674ec3037fef21c09619067a7</Anchor>
+    <Anchor>ad730e63fbc670cd6531ebc08d92ef3bc</Anchor>
     <DeclaredIn>acpi.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -52022,7 +52459,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000000</Scope>
     </TokenIdentifier>
     <Path>df/d48/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000000.html</Path>
-    <Anchor>a01d1e5ea4e807d8df6a3ff4a82e5e506</Anchor>
+    <Anchor>aa1c73f51e322ba50d89e2679f09a2628</Anchor>
     <Abstract>Largest Standard Function Number.</Abstract>
   </Token>
   <Token>
@@ -52033,7 +52470,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000000</Scope>
     </TokenIdentifier>
     <Path>df/d48/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000000.html</Path>
-    <Anchor>a4272cf8165c3e2bef3f30a6f6e8e9a36</Anchor>
+    <Anchor>a6a54c00c44ae4c14149b6fc68ba2db8d</Anchor>
     <Abstract>Processor Vendor.</Abstract>
   </Token>
   <Token>
@@ -52044,7 +52481,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000000</Scope>
     </TokenIdentifier>
     <Path>df/d48/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000000.html</Path>
-    <Anchor>a5c2c128af18e39a5e20b8ed60317adf3</Anchor>
+    <Anchor>a909611b2d0a436c65a848b206e237d24</Anchor>
     <Abstract>Processor Vendor.</Abstract>
   </Token>
   <Token>
@@ -52055,7 +52492,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000000</Scope>
     </TokenIdentifier>
     <Path>df/d48/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000000.html</Path>
-    <Anchor>a360cdcf6250557c11f3b68919adb856e</Anchor>
+    <Anchor>a5d149e5aa015530966d912daf132b17e</Anchor>
     <Abstract>Processor Vendor.</Abstract>
   </Token>
   <Token>
@@ -52088,7 +52525,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000001</Scope>
     </TokenIdentifier>
     <Path>d3/dba/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000001.html</Path>
-    <Anchor>ab3b70e4b0524c8cf78d813995c324563</Anchor>
+    <Anchor>a943695fe280d99d3ea4775fe43e0e032</Anchor>
     <Abstract>Family, Model, Stepping Identifiers.</Abstract>
   </Token>
   <Token>
@@ -52099,7 +52536,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000001</Scope>
     </TokenIdentifier>
     <Path>d3/dba/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000001.html</Path>
-    <Anchor>a8c0edbd8306fc55028cd5d57d9b5d9eb</Anchor>
+    <Anchor>a7d8001dacc99a138b2caf23e29441f20</Anchor>
     <Abstract>LocalApicId, LogicalProcessorCount, CLFlush.</Abstract>
   </Token>
   <Token>
@@ -52110,7 +52547,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000001</Scope>
     </TokenIdentifier>
     <Path>d3/dba/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000001.html</Path>
-    <Anchor>a4bff48c3dbd0f8570cd2fd3b398a36f8</Anchor>
+    <Anchor>a00574f88d3e3211688110200fa545123</Anchor>
     <Abstract>Feature Identifiers.</Abstract>
   </Token>
   <Token>
@@ -52121,7 +52558,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000001</Scope>
     </TokenIdentifier>
     <Path>d3/dba/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000001.html</Path>
-    <Anchor>af864218d4fe413fddcf77970d59f6436</Anchor>
+    <Anchor>a6ed6754e468e3efa72e4871677693ff2</Anchor>
     <Abstract>Feature Identifiers.</Abstract>
   </Token>
   <Token>
@@ -52154,7 +52591,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000005</Scope>
     </TokenIdentifier>
     <Path>d9/d8e/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000005.html</Path>
-    <Anchor>acd0b9327d6a344c16c650302b16c8916</Anchor>
+    <Anchor>a61d3283b24a36eda4951f8aed4860803</Anchor>
     <Abstract>Monitor/MWait.</Abstract>
   </Token>
   <Token>
@@ -52165,7 +52602,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000005</Scope>
     </TokenIdentifier>
     <Path>d9/d8e/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000005.html</Path>
-    <Anchor>a5ea8f747df92e5a1493292e2f60e6acf</Anchor>
+    <Anchor>a54a594866146dcc3d0cf3cb635187e42</Anchor>
     <Abstract>Monitor/MWait.</Abstract>
   </Token>
   <Token>
@@ -52176,7 +52613,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000005</Scope>
     </TokenIdentifier>
     <Path>d9/d8e/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000005.html</Path>
-    <Anchor>aa6659dfdbff99680babffcda9908dfb3</Anchor>
+    <Anchor>aab378dae73f637633a573eee7b0e405c</Anchor>
     <Abstract>Monitor/MWait.</Abstract>
   </Token>
   <Token>
@@ -52187,7 +52624,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000005</Scope>
     </TokenIdentifier>
     <Path>d9/d8e/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000005.html</Path>
-    <Anchor>a03a5cf1d367747bfe5a2dbb4b51a9da6</Anchor>
+    <Anchor>a9514d90c52270c89311ee5e272289d34</Anchor>
     <Abstract>Reserved.</Abstract>
   </Token>
   <Token>
@@ -52220,7 +52657,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000006</Scope>
     </TokenIdentifier>
     <Path>d7/dd3/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000006.html</Path>
-    <Anchor>a58d4cf014948f19153da69e309f09029</Anchor>
+    <Anchor>a4af15d2ae93897ea9723d4c3a478aac5</Anchor>
     <Abstract>Local APIC Timer Invariance.</Abstract>
   </Token>
   <Token>
@@ -52231,7 +52668,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000006</Scope>
     </TokenIdentifier>
     <Path>d7/dd3/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000006.html</Path>
-    <Anchor>a586afdcd4c1e35c31c94164debc2840d</Anchor>
+    <Anchor>a4212f8ad68f551542a760b252a4b8846</Anchor>
     <Abstract>Reserved.</Abstract>
   </Token>
   <Token>
@@ -52242,7 +52679,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000006</Scope>
     </TokenIdentifier>
     <Path>d7/dd3/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000006.html</Path>
-    <Anchor>a114ffb013b71dd97dab66ef9972351df</Anchor>
+    <Anchor>afe5b230f8b58901d57fd31dc8c0c5fba</Anchor>
     <Abstract>Effective Processor Frequency Interface.</Abstract>
   </Token>
   <Token>
@@ -52253,7 +52690,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000006</Scope>
     </TokenIdentifier>
     <Path>d7/dd3/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000006.html</Path>
-    <Anchor>ac6d228d710e4c132caaec347c699b20f</Anchor>
+    <Anchor>a726d0331996ca9c2f5fbb822a79c165e</Anchor>
     <Abstract>Reserved.</Abstract>
   </Token>
   <Token>
@@ -52286,7 +52723,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000007</Scope>
     </TokenIdentifier>
     <Path>da/d87/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000007.html</Path>
-    <Anchor>ad5252f691949cfd6d1f3963bfe1081d0</Anchor>
+    <Anchor>a7c1b8e060a301c07e58186be6fbe077e</Anchor>
     <Abstract>Structured Extended Feature Identifiers.</Abstract>
   </Token>
   <Token>
@@ -52297,7 +52734,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000007</Scope>
     </TokenIdentifier>
     <Path>da/d87/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000007.html</Path>
-    <Anchor>afc9c33a90bd21eac062c8582b958ae6d</Anchor>
+    <Anchor>ae88e99ef4dc5b94ba72e45a016ad22f1</Anchor>
     <Abstract>Structured Extended Feature Identifiers.</Abstract>
   </Token>
   <Token>
@@ -52308,7 +52745,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000007</Scope>
     </TokenIdentifier>
     <Path>da/d87/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000007.html</Path>
-    <Anchor>a464e8618b772fa87912021ccab595a4a</Anchor>
+    <Anchor>aea8ffebc5ed5339598797dd10a7065d6</Anchor>
     <Abstract>Structured Extended Feature Identifiers.</Abstract>
   </Token>
   <Token>
@@ -52319,7 +52756,7 @@
       <Scope>CPU::x86::AMD::CPUID0x00000007</Scope>
     </TokenIdentifier>
     <Path>da/d87/structCPU_1_1x86_1_1AMD_1_1CPUID0x00000007.html</Path>
-    <Anchor>aaff2f0b7cde494928d20936638f349c2</Anchor>
+    <Anchor>af803db9f903bc1a570027b86a41eba4d</Anchor>
     <Abstract>Structured Extended Feature Identifiers.</Abstract>
   </Token>
   <Token>
@@ -52352,7 +52789,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000B_ECX_0</Scope>
     </TokenIdentifier>
     <Path>d4/d0b/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000B__ECX__0.html</Path>
-    <Anchor>a617155035e8f24432deea04b977054ff</Anchor>
+    <Anchor>a7ba60e690d81a71f86b497aeb1a23d82</Anchor>
     <Abstract>Extended Topology Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52363,7 +52800,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000B_ECX_0</Scope>
     </TokenIdentifier>
     <Path>d4/d0b/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000B__ECX__0.html</Path>
-    <Anchor>a1642904cedef64bb0860ad9621f56c48</Anchor>
+    <Anchor>a09b9ad3dbf726cc885e52fc03b66c23a</Anchor>
     <Abstract>Extended Topology Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52374,7 +52811,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000B_ECX_0</Scope>
     </TokenIdentifier>
     <Path>d4/d0b/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000B__ECX__0.html</Path>
-    <Anchor>a2a120c65f4d763a1b8a0ae3f94b69f89</Anchor>
+    <Anchor>a7d3cec19644f2d2320638472ac570c2d</Anchor>
     <Abstract>Extended Topology Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52385,7 +52822,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000B_ECX_0</Scope>
     </TokenIdentifier>
     <Path>d4/d0b/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000B__ECX__0.html</Path>
-    <Anchor>ab4a3928d7ac6faeec5e56bc3edf1a123</Anchor>
+    <Anchor>af6bb9aeacc4a254d38ac6769f5da5367</Anchor>
     <Abstract>Extended Topology Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52418,7 +52855,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000B_ECX_1</Scope>
     </TokenIdentifier>
     <Path>d6/d7a/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000B__ECX__1.html</Path>
-    <Anchor>ab5cee8642476309d5d8913c571dd3bb0</Anchor>
+    <Anchor>a71849d403c4fb37d8386213cb2a056c4</Anchor>
     <Abstract>Extended Topology Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52429,7 +52866,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000B_ECX_1</Scope>
     </TokenIdentifier>
     <Path>d6/d7a/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000B__ECX__1.html</Path>
-    <Anchor>a919c7a188e358914ef2f69421fbc5d9f</Anchor>
+    <Anchor>aedce0de48a82f361abe2fe43a02dad0a</Anchor>
     <Abstract>Extended Topology Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52440,7 +52877,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000B_ECX_1</Scope>
     </TokenIdentifier>
     <Path>d6/d7a/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000B__ECX__1.html</Path>
-    <Anchor>a67737880870f4333025bdfe02c620dda</Anchor>
+    <Anchor>a57f1088222fab341419b41768ee3886d</Anchor>
     <Abstract>Extended Topology Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52451,7 +52888,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000B_ECX_1</Scope>
     </TokenIdentifier>
     <Path>d6/d7a/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000B__ECX__1.html</Path>
-    <Anchor>af153f309941a6c42a033961f1fba0df9</Anchor>
+    <Anchor>ab106b68d4ac8599d189ba6486473da97</Anchor>
     <Abstract>Extended Topology Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52484,7 +52921,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_0</Scope>
     </TokenIdentifier>
     <Path>d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html</Path>
-    <Anchor>ae018b02ad21f6370b0795dd6bd74e1aa</Anchor>
+    <Anchor>a1ba31ace59d1b28eb327be8578f2e77c</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52495,7 +52932,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_0</Scope>
     </TokenIdentifier>
     <Path>d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html</Path>
-    <Anchor>a3fcd0178af9bafc66ddf9c88eb12beba</Anchor>
+    <Anchor>aae2bc4a476c6bb765980234723248512</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52506,7 +52943,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_0</Scope>
     </TokenIdentifier>
     <Path>d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html</Path>
-    <Anchor>ab926c1589d7ed49d19350310fa21908b</Anchor>
+    <Anchor>adea8eb6a6adbd17462071563a0edd475</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52517,7 +52954,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_0</Scope>
     </TokenIdentifier>
     <Path>d1/d64/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__0.html</Path>
-    <Anchor>a28d94d9e10ff479667e19034c02f25c0</Anchor>
+    <Anchor>a45674b552e153635cc8c721f5c3291f3</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52550,7 +52987,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_1</Scope>
     </TokenIdentifier>
     <Path>db/d83/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__1.html</Path>
-    <Anchor>abc90d8c49a29786ff1fde30f897933e1</Anchor>
+    <Anchor>a3ba84fa3c42590ed87b80507295d9b64</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52561,7 +52998,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_1</Scope>
     </TokenIdentifier>
     <Path>db/d83/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__1.html</Path>
-    <Anchor>a7499442fc260153e40036d963d15313e</Anchor>
+    <Anchor>a64f5ebb87079d8d89d823ddea4be537d</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52572,7 +53009,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_1</Scope>
     </TokenIdentifier>
     <Path>db/d83/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__1.html</Path>
-    <Anchor>af948164ccc5b42c2f3ac31b0b3477746</Anchor>
+    <Anchor>a7469c8216e0917cb908e26c1cf106fec</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52583,7 +53020,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_1</Scope>
     </TokenIdentifier>
     <Path>db/d83/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__1.html</Path>
-    <Anchor>a54ccf42d0a5707f49152c6f8123122f9</Anchor>
+    <Anchor>a3fcc1f510a332869dcd3e21f07550d55</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52616,7 +53053,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_2</Scope>
     </TokenIdentifier>
     <Path>d6/d58/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__2.html</Path>
-    <Anchor>a9622e72328e323d175a6eb6aceb04cda</Anchor>
+    <Anchor>aa6163b751961ad10e1ddc3d9b3bb1958</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52627,7 +53064,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_2</Scope>
     </TokenIdentifier>
     <Path>d6/d58/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__2.html</Path>
-    <Anchor>a95d11b590f08fdc7cd16ac84b85d0c95</Anchor>
+    <Anchor>a49bf021554179728556bcd7612386703</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52638,7 +53075,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_2</Scope>
     </TokenIdentifier>
     <Path>d6/d58/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__2.html</Path>
-    <Anchor>a14cf43a403a3cdebc7cbfd6b957523b6</Anchor>
+    <Anchor>a1b5d1dc9d0a6ed74e032928c43e1f36c</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52649,7 +53086,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_2</Scope>
     </TokenIdentifier>
     <Path>d6/d58/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__2.html</Path>
-    <Anchor>a71ee6946b410feb18119f4c83910441b</Anchor>
+    <Anchor>a552f5c5b345b17144f039740ba18f0cc</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52682,7 +53119,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_11</Scope>
     </TokenIdentifier>
     <Path>dc/d9f/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__11.html</Path>
-    <Anchor>acd12a6e4a8c4af32ff556020ed088b18</Anchor>
+    <Anchor>a026eaf6315fa2ebcbc6ab39a4954bf08</Anchor>
     <Abstract>Processor Extended State Emulation.</Abstract>
   </Token>
   <Token>
@@ -52693,7 +53130,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_11</Scope>
     </TokenIdentifier>
     <Path>dc/d9f/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__11.html</Path>
-    <Anchor>a285e1d6f9c05044ac45c8b62e8538fd3</Anchor>
+    <Anchor>ab66ebc7736cfde89f57d90106324854e</Anchor>
     <Abstract>Processor Extended State Emulation.</Abstract>
   </Token>
   <Token>
@@ -52704,7 +53141,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_11</Scope>
     </TokenIdentifier>
     <Path>dc/d9f/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__11.html</Path>
-    <Anchor>ac7fb6c1185da8d487dea64bfbeb3bf00</Anchor>
+    <Anchor>a5ce5bc9238f32272315edf8d9a17a29a</Anchor>
     <Abstract>Processor Extended State Emulation.</Abstract>
   </Token>
   <Token>
@@ -52715,7 +53152,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_11</Scope>
     </TokenIdentifier>
     <Path>dc/d9f/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__11.html</Path>
-    <Anchor>ad23b68e67ce7c96f5ff31e01b57bb45d</Anchor>
+    <Anchor>af085f1e09ae30ebaae395a66e136a5e9</Anchor>
     <Abstract>Processor Extended State Emulation.</Abstract>
   </Token>
   <Token>
@@ -52748,7 +53185,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_12</Scope>
     </TokenIdentifier>
     <Path>dd/d65/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__12.html</Path>
-    <Anchor>a1dbd3c3dc18842121ed23d4f1653ea72</Anchor>
+    <Anchor>a1ad789945b25b916492410dd6b15636b</Anchor>
     <Abstract>Processor Extended State Emulation.</Abstract>
   </Token>
   <Token>
@@ -52759,7 +53196,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_12</Scope>
     </TokenIdentifier>
     <Path>dd/d65/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__12.html</Path>
-    <Anchor>abe4e3e6824456b570338e7f0ed3e026d</Anchor>
+    <Anchor>a3a544c3970e9cabcf0d80b3443fcd2e7</Anchor>
     <Abstract>Processor Extended State Emulation.</Abstract>
   </Token>
   <Token>
@@ -52770,7 +53207,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_12</Scope>
     </TokenIdentifier>
     <Path>dd/d65/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__12.html</Path>
-    <Anchor>aa2e2e43200928f8b1c70ef79cf054146</Anchor>
+    <Anchor>a0a8f968cc9907ce6a3d0f361f4bc6ce2</Anchor>
     <Abstract>Processor Extended State Emulation.</Abstract>
   </Token>
   <Token>
@@ -52781,7 +53218,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_12</Scope>
     </TokenIdentifier>
     <Path>dd/d65/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__12.html</Path>
-    <Anchor>a2fa1a13618cfd4d81b75e9658b7b3b9d</Anchor>
+    <Anchor>adb47ec157132d79077b861672295d78b</Anchor>
     <Abstract>Processor Extended State Emulation.</Abstract>
   </Token>
   <Token>
@@ -52814,7 +53251,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_3E</Scope>
     </TokenIdentifier>
     <Path>d0/d02/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__3E.html</Path>
-    <Anchor>a3628c27d11db2edd69e3b675aebbc312</Anchor>
+    <Anchor>abdc5804605e84b0739602b426af39375</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52825,7 +53262,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_3E</Scope>
     </TokenIdentifier>
     <Path>d0/d02/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__3E.html</Path>
-    <Anchor>a5c5a261d14bf5f46255091c2a7116730</Anchor>
+    <Anchor>aedf01d58b8199ddc5ffc1a35370f8ad4</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52836,7 +53273,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_3E</Scope>
     </TokenIdentifier>
     <Path>d0/d02/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__3E.html</Path>
-    <Anchor>a4bc15503bb6ac2ca435fe1da2762c316</Anchor>
+    <Anchor>ad66a75c6a4b7746f1506f60d602e7ebf</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52847,7 +53284,7 @@
       <Scope>CPU::x86::AMD::CPUID0x0000000D_ECX_3E</Scope>
     </TokenIdentifier>
     <Path>d0/d02/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__3E.html</Path>
-    <Anchor>afa2812d95f5d817096fe96b06308e7fe</Anchor>
+    <Anchor>a6d370a5ec4b3445bc9b4dc2c511e658c</Anchor>
     <Abstract>Processor Extended State Enumeration.</Abstract>
   </Token>
   <Token>
@@ -52880,7 +53317,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000000</Scope>
     </TokenIdentifier>
     <Path>dd/dde/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000000.html</Path>
-    <Anchor>a2161aeabd1aa05a056298c5d9bbfb3c7</Anchor>
+    <Anchor>a7bfbac95169bb5b7acfa4a8da943dc98</Anchor>
     <Abstract>Largest Extended Function Number.</Abstract>
   </Token>
   <Token>
@@ -52891,7 +53328,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000000</Scope>
     </TokenIdentifier>
     <Path>dd/dde/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000000.html</Path>
-    <Anchor>ab82fdcb052a83687ea8fde0641344ce5</Anchor>
+    <Anchor>a7717233aef0ccb02e46ed056f7dd8379</Anchor>
     <Abstract>Processor Vendor.</Abstract>
   </Token>
   <Token>
@@ -52902,7 +53339,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000000</Scope>
     </TokenIdentifier>
     <Path>dd/dde/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000000.html</Path>
-    <Anchor>ab0c18c93c607737cdac4f9edf0af8dc1</Anchor>
+    <Anchor>a7a1447a53f2f661772fcd6fc5fa6a5ea</Anchor>
     <Abstract>Processor Vendor.</Abstract>
   </Token>
   <Token>
@@ -52913,7 +53350,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000000</Scope>
     </TokenIdentifier>
     <Path>dd/dde/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000000.html</Path>
-    <Anchor>afc6943130a8a4afa0552631b2abe195b</Anchor>
+    <Anchor>ad22a6da2bbdbac3801235121238a0416</Anchor>
     <Abstract>Processor Vendor.</Abstract>
   </Token>
   <Token>
@@ -52946,7 +53383,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000001</Scope>
     </TokenIdentifier>
     <Path>d2/dd3/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000001.html</Path>
-    <Anchor>a793347387ed5bbb42f22550e300cdb0d</Anchor>
+    <Anchor>a3a82f54056fbbbc2c120f1bc06c31c8b</Anchor>
     <Abstract>AMD Family, Model, Stepping.</Abstract>
   </Token>
   <Token>
@@ -52957,7 +53394,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000001</Scope>
     </TokenIdentifier>
     <Path>d2/dd3/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000001.html</Path>
-    <Anchor>af9daa734b6dbe5807111a6b7d2e5bcf9</Anchor>
+    <Anchor>af853d91ffd9830affedcd131c2503fab</Anchor>
     <Abstract>BrandId Identifier.</Abstract>
   </Token>
   <Token>
@@ -52968,7 +53405,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000001</Scope>
     </TokenIdentifier>
     <Path>d2/dd3/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000001.html</Path>
-    <Anchor>a773b02f33e238e75e894c303c10271d7</Anchor>
+    <Anchor>a385a7442f98eebe651e0eb692e22b956</Anchor>
     <Abstract>Feature Identifiers.</Abstract>
   </Token>
   <Token>
@@ -52979,7 +53416,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000001</Scope>
     </TokenIdentifier>
     <Path>d2/dd3/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000001.html</Path>
-    <Anchor>ab8f5fff20ec14af575b3c96b23293304</Anchor>
+    <Anchor>a038ff7714ac1ed23a35fd3986ef4b1c6</Anchor>
     <Abstract>Feature Identifiers.</Abstract>
   </Token>
   <Token>
@@ -53012,7 +53449,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000002</Scope>
     </TokenIdentifier>
     <Path>d0/d2d/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000002.html</Path>
-    <Anchor>aaec0691ca5e5df62d2b9e737faaf80c5</Anchor>
+    <Anchor>ae84f33c16ac14992afd306ceedb06408</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53022,7 +53459,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000002</Scope>
     </TokenIdentifier>
     <Path>d0/d2d/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000002.html</Path>
-    <Anchor>a1e704483fc3eaffd3487e0b66f064f29</Anchor>
+    <Anchor>a4fe4ac8c1a2272ca4a9a8fcbaea6e61a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53032,7 +53469,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000002</Scope>
     </TokenIdentifier>
     <Path>d0/d2d/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000002.html</Path>
-    <Anchor>a075a56ee677516d098da613aaf12101f</Anchor>
+    <Anchor>a03d873ac2b9c43a438501a45b044bfe5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53042,7 +53479,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000002</Scope>
     </TokenIdentifier>
     <Path>d0/d2d/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000002.html</Path>
-    <Anchor>a9cda1848336b6cec277939e2cf2ed19b</Anchor>
+    <Anchor>a2a04dfc57f8847a1e0a091b391b59345</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53074,7 +53511,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000003</Scope>
     </TokenIdentifier>
     <Path>da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html</Path>
-    <Anchor>a5e62d799d980a3dd43dcac09eabb7969</Anchor>
+    <Anchor>a1a2b1e7bd9a8906b369b40aef88afac8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53084,7 +53521,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000003</Scope>
     </TokenIdentifier>
     <Path>da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html</Path>
-    <Anchor>a110f5079e4ab0b94aaff6e435376b2b6</Anchor>
+    <Anchor>a39c6634739f766a0c43f6167828fee41</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53094,7 +53531,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000003</Scope>
     </TokenIdentifier>
     <Path>da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html</Path>
-    <Anchor>a67ff7e08bd3b104e44a225865c2e662d</Anchor>
+    <Anchor>acf360ffa88a230743a310b9a9d271f0d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53104,7 +53541,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000003</Scope>
     </TokenIdentifier>
     <Path>da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html</Path>
-    <Anchor>aeab841cac15b8be609ef98f7c0fde7d0</Anchor>
+    <Anchor>a507450504b2a0a1dbacf0e6d4c500ad9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53136,7 +53573,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000004</Scope>
     </TokenIdentifier>
     <Path>d6/dbc/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000004.html</Path>
-    <Anchor>af3a72f9d6b2dbc903dcf8a04722ec418</Anchor>
+    <Anchor>a5c5a570c336b778bf502f909d483193e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53146,7 +53583,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000004</Scope>
     </TokenIdentifier>
     <Path>d6/dbc/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000004.html</Path>
-    <Anchor>a9e1434cbb10a8714be0bbf7c0846170d</Anchor>
+    <Anchor>a8ca04cd0d0c504d9fbfc78d8a1583caa</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53156,7 +53593,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000004</Scope>
     </TokenIdentifier>
     <Path>d6/dbc/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000004.html</Path>
-    <Anchor>aa1cbdadc1a3cc98460b71cf08f2036b8</Anchor>
+    <Anchor>a0eb8002d2ef87781a5d26d8707c5deb5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53166,7 +53603,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000004</Scope>
     </TokenIdentifier>
     <Path>d6/dbc/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000004.html</Path>
-    <Anchor>aad2ca8e8ac9b306f0e36cd7d1bb47e0c</Anchor>
+    <Anchor>a98f7ed7814318587ec1bbbcc7188d7e7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53198,7 +53635,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000005</Scope>
     </TokenIdentifier>
     <Path>dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html</Path>
-    <Anchor>ae24eae9cc8d01b21f2bc893ff7dae699</Anchor>
+    <Anchor>a5fe67799abb074cbabc1c1a230a70fc2</Anchor>
     <Abstract>L1 TLB 2M/4M Information.</Abstract>
   </Token>
   <Token>
@@ -53209,7 +53646,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000005</Scope>
     </TokenIdentifier>
     <Path>dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html</Path>
-    <Anchor>a5a999a7f1f46791d3f4eb55648002799</Anchor>
+    <Anchor>ad715784938e707c808a83658e7341373</Anchor>
     <Abstract>L1 TLB 4K Information.</Abstract>
   </Token>
   <Token>
@@ -53220,7 +53657,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000005</Scope>
     </TokenIdentifier>
     <Path>dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html</Path>
-    <Anchor>a503c4b2cd4ceac450fb4aef75b18bab5</Anchor>
+    <Anchor>aacffdb7e6cb1e1b019062ec0637e513f</Anchor>
     <Abstract>L1 Data Cache Information.</Abstract>
   </Token>
   <Token>
@@ -53231,7 +53668,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000005</Scope>
     </TokenIdentifier>
     <Path>dd/d0e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000005.html</Path>
-    <Anchor>a5d32d39f1b9ed2845ff3717c00b43f4f</Anchor>
+    <Anchor>a396292d683e25d76dd60c2ee8f4b34ec</Anchor>
     <Abstract>L1 Instruction Cache Information.</Abstract>
   </Token>
   <Token>
@@ -53264,7 +53701,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000006</Scope>
     </TokenIdentifier>
     <Path>dd/d15/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000006.html</Path>
-    <Anchor>ad80961b5768fad1a12cc63284d34e850</Anchor>
+    <Anchor>af2b38fb1d072faa45b7ab9c9d4adc6cb</Anchor>
     <Abstract>L2 TLB 2M/4M Information.</Abstract>
   </Token>
   <Token>
@@ -53275,7 +53712,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000006</Scope>
     </TokenIdentifier>
     <Path>dd/d15/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000006.html</Path>
-    <Anchor>a6d423499c82747105b952e71cb2f1284</Anchor>
+    <Anchor>aa235c54b1c4914fbb6f70350e852bccd</Anchor>
     <Abstract>L2 TLB 4K Information.</Abstract>
   </Token>
   <Token>
@@ -53286,7 +53723,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000006</Scope>
     </TokenIdentifier>
     <Path>dd/d15/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000006.html</Path>
-    <Anchor>ae2656d556e16af46eb139e27716b0611</Anchor>
+    <Anchor>aaf46b1d0e4a9f258aadcc89cdc6e7464</Anchor>
     <Abstract>L2 Cache Information.</Abstract>
   </Token>
   <Token>
@@ -53297,7 +53734,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000006</Scope>
     </TokenIdentifier>
     <Path>dd/d15/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000006.html</Path>
-    <Anchor>aa9bbb4ce53a4e0dac74b694ac719948f</Anchor>
+    <Anchor>aa13098885b0ea4edf34080feed9b93cc</Anchor>
     <Abstract>L3 Cache Information.</Abstract>
   </Token>
   <Token>
@@ -53330,7 +53767,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000007</Scope>
     </TokenIdentifier>
     <Path>d2/d20/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000007.html</Path>
-    <Anchor>a1b853cbce468d1019998b5e35577b017</Anchor>
+    <Anchor>ad178245f0d8b3610a4306ea76dd541b7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53340,7 +53777,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000007</Scope>
     </TokenIdentifier>
     <Path>d2/d20/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000007.html</Path>
-    <Anchor>a8d9248a342bded9a4047922343cdeffc</Anchor>
+    <Anchor>a05230bef39abf2cda4e3bbc055a1ea96</Anchor>
     <Abstract>RAS Capabilities.</Abstract>
   </Token>
   <Token>
@@ -53351,7 +53788,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000007</Scope>
     </TokenIdentifier>
     <Path>d2/d20/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000007.html</Path>
-    <Anchor>ac51249a710f08b957201ad9ebd527ee4</Anchor>
+    <Anchor>a983ad10968757f2136ce3116a4011ade</Anchor>
     <Abstract>Processor Power Monitoring Interface.</Abstract>
   </Token>
   <Token>
@@ -53362,7 +53799,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000007</Scope>
     </TokenIdentifier>
     <Path>d2/d20/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000007.html</Path>
-    <Anchor>a9bdb6ca918e364770e6995af68442da5</Anchor>
+    <Anchor>a487be3152ceeeb60b817d003f0aae066</Anchor>
     <Abstract>Advanced Power Management Features.</Abstract>
   </Token>
   <Token>
@@ -53395,7 +53832,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000008</Scope>
     </TokenIdentifier>
     <Path>db/de7/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000008.html</Path>
-    <Anchor>ac0e1eaebe6af3da12f343d138201e80c</Anchor>
+    <Anchor>a3c2581460b25bdf8f4db138f74a6aa06</Anchor>
     <Abstract>Long Mode Size Identifiers.</Abstract>
   </Token>
   <Token>
@@ -53406,7 +53843,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000008</Scope>
     </TokenIdentifier>
     <Path>db/de7/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000008.html</Path>
-    <Anchor>ae11f2d6f03c7c154e492e879f3f4eef5</Anchor>
+    <Anchor>a6e6397d2845647ac158443e8b190f16a</Anchor>
     <Abstract>Extended Feature Identifiers.</Abstract>
   </Token>
   <Token>
@@ -53417,7 +53854,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000008</Scope>
     </TokenIdentifier>
     <Path>db/de7/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000008.html</Path>
-    <Anchor>a906e756ea724c83751ad2ac22a7a825a</Anchor>
+    <Anchor>ac12ca56f7b6f8d5f62c3f55b39ddc296</Anchor>
     <Abstract>Size Identifiers.</Abstract>
   </Token>
   <Token>
@@ -53428,7 +53865,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000008</Scope>
     </TokenIdentifier>
     <Path>db/de7/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000008.html</Path>
-    <Anchor>ace463a3850964029d59bdbb3b6fabe8d</Anchor>
+    <Anchor>aa3004af05fbf1aae565b382c2a7f1079</Anchor>
     <Abstract>RDPRU Register Identifier Range.</Abstract>
   </Token>
   <Token>
@@ -53461,7 +53898,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000000A</Scope>
     </TokenIdentifier>
     <Path>d1/dbd/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000000A.html</Path>
-    <Anchor>a71e1d803ee6a0e10717ef9395bea2c0f</Anchor>
+    <Anchor>ac81472036d40993e9b3e94212ef3528e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53471,7 +53908,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000000A</Scope>
     </TokenIdentifier>
     <Path>d1/dbd/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000000A.html</Path>
-    <Anchor>a3a87ebe4c22dd7f5c96e84f00aab890f</Anchor>
+    <Anchor>a9af02a793bce2487f546c7b992b5f6a2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53481,7 +53918,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000000A</Scope>
     </TokenIdentifier>
     <Path>d1/dbd/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000000A.html</Path>
-    <Anchor>a7dcccae1019896a5c1d481a891e62177</Anchor>
+    <Anchor>aaad8b495187395de01167aac41ba8e59</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53491,7 +53928,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000000A</Scope>
     </TokenIdentifier>
     <Path>d1/dbd/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000000A.html</Path>
-    <Anchor>aa922f0835de2ee492079d311f73fdfdc</Anchor>
+    <Anchor>a72c0bd62189b91e6b9134c8aeeedd764</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53523,7 +53960,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000019</Scope>
     </TokenIdentifier>
     <Path>d6/d5c/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000019.html</Path>
-    <Anchor>a7c091a575d864cc3daa2900c28f18f24</Anchor>
+    <Anchor>abaa685ff558b098c21d3a6beb3d6ac39</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53533,7 +53970,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000019</Scope>
     </TokenIdentifier>
     <Path>d6/d5c/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000019.html</Path>
-    <Anchor>a415b41b02927f2178ee80f2a793383a0</Anchor>
+    <Anchor>aa563244911777485403d3878482aa2a9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53543,7 +53980,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000019</Scope>
     </TokenIdentifier>
     <Path>d6/d5c/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000019.html</Path>
-    <Anchor>a1022d395331a8a24fbb7f3a5f969cb60</Anchor>
+    <Anchor>ae4428215f418408f85c7af2f86fc0d03</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53553,7 +53990,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000019</Scope>
     </TokenIdentifier>
     <Path>d6/d5c/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000019.html</Path>
-    <Anchor>a1f9f0ffad93ab351d8b18484058532d4</Anchor>
+    <Anchor>a874e5450c35a8f30b84c91c8e27f10f9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53585,7 +54022,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001A</Scope>
     </TokenIdentifier>
     <Path>db/d35/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001A.html</Path>
-    <Anchor>afaee29cacbcbf255db60bdcd4087e7ae</Anchor>
+    <Anchor>a6e1e8454fe24c03f58be578dd08c5eea</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53595,7 +54032,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001A</Scope>
     </TokenIdentifier>
     <Path>db/d35/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001A.html</Path>
-    <Anchor>abe326a106faa57bd31a44827fc6908a6</Anchor>
+    <Anchor>a6901de67b48f2aec15edbe85bd8cf6ac</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53605,7 +54042,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001A</Scope>
     </TokenIdentifier>
     <Path>db/d35/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001A.html</Path>
-    <Anchor>ab1285fcfacc04f9d43efdda4368ea89c</Anchor>
+    <Anchor>abf7d7ed07887d7d260cf7634a9c07e84</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53615,7 +54052,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001A</Scope>
     </TokenIdentifier>
     <Path>db/d35/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001A.html</Path>
-    <Anchor>a1cd3a25a20118212d15923a1fce11382</Anchor>
+    <Anchor>ac4e8714c53367f180631560a8fc69698</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53647,7 +54084,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001B</Scope>
     </TokenIdentifier>
     <Path>d9/df6/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001B.html</Path>
-    <Anchor>a7d54c2f7f472616b8ca4a5fb9e588940</Anchor>
+    <Anchor>a06c3141964208984a83997528f90e57d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53657,7 +54094,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001B</Scope>
     </TokenIdentifier>
     <Path>d9/df6/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001B.html</Path>
-    <Anchor>a1e0a3ce8dd9717f1614ef3e1040a756f</Anchor>
+    <Anchor>af54004a7b181c86927a9a86fefbd4911</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53667,7 +54104,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001B</Scope>
     </TokenIdentifier>
     <Path>d9/df6/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001B.html</Path>
-    <Anchor>ad0c4beba74ae5d2a4dc1f24b815e05b6</Anchor>
+    <Anchor>a73ab8d5f4dbb0a8522e0520f97153d39</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53677,7 +54114,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001B</Scope>
     </TokenIdentifier>
     <Path>d9/df6/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001B.html</Path>
-    <Anchor>a7eb29827be9df7bdea4d2e74d04802ce</Anchor>
+    <Anchor>ab8f36a7ec708423342f56d0fb68a5613</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53709,7 +54146,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001C</Scope>
     </TokenIdentifier>
     <Path>d0/d3c/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001C.html</Path>
-    <Anchor>a91a32d5bf551229c2056607247590022</Anchor>
+    <Anchor>a3accdd99aff44e2e98e14fe63d0fd2b6</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53719,7 +54156,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001C</Scope>
     </TokenIdentifier>
     <Path>d0/d3c/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001C.html</Path>
-    <Anchor>a6ee8c6763fdb0328df7fec4352c85db6</Anchor>
+    <Anchor>a8ecc5d61c871c8d2e611098a3c285438</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53729,7 +54166,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001C</Scope>
     </TokenIdentifier>
     <Path>d0/d3c/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001C.html</Path>
-    <Anchor>acbc4ed5f4c1f68000d3a59f34f81eec7</Anchor>
+    <Anchor>aaf7bf3fdf46086c3c7430ded152f69b6</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53739,7 +54176,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001C</Scope>
     </TokenIdentifier>
     <Path>d0/d3c/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001C.html</Path>
-    <Anchor>af2d66a8734213c1df6c514a0436364fa</Anchor>
+    <Anchor>a4fdd5721902fbb2c49d872234e8c715b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53771,7 +54208,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001D</Scope>
     </TokenIdentifier>
     <Path>d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html</Path>
-    <Anchor>a053acd22818dc511c6eccb16ab24a61e</Anchor>
+    <Anchor>ac5db242399f16008f88be18f9ffcfd21</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53781,7 +54218,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001D</Scope>
     </TokenIdentifier>
     <Path>d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html</Path>
-    <Anchor>af0c5bf0237f007022abadc9739add59e</Anchor>
+    <Anchor>ad4e7c924b3e0abd3d813b8967c71c79c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53791,7 +54228,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001D</Scope>
     </TokenIdentifier>
     <Path>d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html</Path>
-    <Anchor>a5e1f87e51c1836c889f72a096219a937</Anchor>
+    <Anchor>a372a4e41681d3ccb55db0e5e50ba83e1</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53801,7 +54238,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001D</Scope>
     </TokenIdentifier>
     <Path>d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html</Path>
-    <Anchor>aabf93bfda7aec1263b49680ef39eb68d</Anchor>
+    <Anchor>a53857c54d3ce27fa68e835d196c67795</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53833,7 +54270,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001E</Scope>
     </TokenIdentifier>
     <Path>d1/df1/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001E.html</Path>
-    <Anchor>a19457abc695d9c72efca03c2df8511a5</Anchor>
+    <Anchor>a1a0272ecbe26b55ba63d76e5cb4fa47f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53843,7 +54280,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001E</Scope>
     </TokenIdentifier>
     <Path>d1/df1/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001E.html</Path>
-    <Anchor>a12e6c81214bb52d9ad3aad4f5f4e0285</Anchor>
+    <Anchor>a10b733a5ec112c4f37cfa911e8b23c6c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53853,7 +54290,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001E</Scope>
     </TokenIdentifier>
     <Path>d1/df1/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001E.html</Path>
-    <Anchor>a23430575c310ee0e893974e2bc56463c</Anchor>
+    <Anchor>a67e93f649eab9f6ae4877d95fa27f64a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53863,7 +54300,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001E</Scope>
     </TokenIdentifier>
     <Path>d1/df1/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001E.html</Path>
-    <Anchor>aa5abec40d4b0fbdfc4cb6ad36af1e3a0</Anchor>
+    <Anchor>a9ddca99d5581aa14f8b57c974551c8d9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53895,7 +54332,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001F</Scope>
     </TokenIdentifier>
     <Path>df/da4/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001F.html</Path>
-    <Anchor>af8d7387e6a47082db1105ea7785ffd55</Anchor>
+    <Anchor>a586f4d3f297ae70fd72f284d5c2ff7f4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53905,7 +54342,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001F</Scope>
     </TokenIdentifier>
     <Path>df/da4/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001F.html</Path>
-    <Anchor>af654883e53fad464052feab937fd9774</Anchor>
+    <Anchor>a556fcd21b7711bc36ca1f0d853f2493c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53915,7 +54352,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001F</Scope>
     </TokenIdentifier>
     <Path>df/da4/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001F.html</Path>
-    <Anchor>aa54d33045709bd95c1929a88a7a1dd8f</Anchor>
+    <Anchor>a123cfe695bd2c20733954aadedde7fe5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53925,7 +54362,7 @@
       <Scope>CPU::x86::AMD::CPUID0x8000001F</Scope>
     </TokenIdentifier>
     <Path>df/da4/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001F.html</Path>
-    <Anchor>a1c58df90aacb63c34a5659127ac3821d</Anchor>
+    <Anchor>ad659eaf071d040a7290c1659e7d93bfd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53957,7 +54394,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000020</Scope>
     </TokenIdentifier>
     <Path>dd/da2/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000020.html</Path>
-    <Anchor>a56d1b3ef6a935e4269598b63885a53f4</Anchor>
+    <Anchor>a77449614314887d598e41ec642bfe559</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53967,7 +54404,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000020</Scope>
     </TokenIdentifier>
     <Path>dd/da2/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000020.html</Path>
-    <Anchor>aa091e3dc0cd5cfec58aac418a362810b</Anchor>
+    <Anchor>ae08ffcf1dae0d888ccbbbaaa9ebf53f6</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53977,7 +54414,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000020</Scope>
     </TokenIdentifier>
     <Path>dd/da2/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000020.html</Path>
-    <Anchor>ac39cc3ee937b498d655dd9e68c889c97</Anchor>
+    <Anchor>aa7baaa0188bc8ec8045e8d255d94af02</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -53987,7 +54424,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000020</Scope>
     </TokenIdentifier>
     <Path>dd/da2/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000020.html</Path>
-    <Anchor>a398d3fb4499f8d0f6d4b8408390227f5</Anchor>
+    <Anchor>a8f5358933035d3656bda92d8c0262bd3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54019,7 +54456,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000021</Scope>
     </TokenIdentifier>
     <Path>d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html</Path>
-    <Anchor>ac8a7e9f197c8c0e970d5209d82264f26</Anchor>
+    <Anchor>a24a5a578ccb668759650855046a7bbde</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54029,7 +54466,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000021</Scope>
     </TokenIdentifier>
     <Path>d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html</Path>
-    <Anchor>aa74c20ecd19dc17c832e72526b29a2ec</Anchor>
+    <Anchor>acc9b29e8e24a8e5b92f1477d602a4cbb</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54039,7 +54476,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000021</Scope>
     </TokenIdentifier>
     <Path>d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html</Path>
-    <Anchor>a61da99e606000498d7726e04791818a8</Anchor>
+    <Anchor>ab25a5b268f83df086696fd3350b6f2f6</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54049,7 +54486,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000021</Scope>
     </TokenIdentifier>
     <Path>d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html</Path>
-    <Anchor>ac170a2ba0d8d7c6fcf09924ab90e45ec</Anchor>
+    <Anchor>a345f03afdfdb79bde40504f71040bc6b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54081,7 +54518,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000022</Scope>
     </TokenIdentifier>
     <Path>dc/d72/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000022.html</Path>
-    <Anchor>a51aad48f685d2da8c810b136edcae1d6</Anchor>
+    <Anchor>ae95704754c4b6d140d708cc761079342</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54091,7 +54528,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000022</Scope>
     </TokenIdentifier>
     <Path>dc/d72/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000022.html</Path>
-    <Anchor>a7f2e2f56e5e75c658fe5f501c6a70ac3</Anchor>
+    <Anchor>ac793630475bf735b47d62ded25d5bc35</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54101,7 +54538,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000022</Scope>
     </TokenIdentifier>
     <Path>dc/d72/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000022.html</Path>
-    <Anchor>aa68413ca46e8059834ee25bb207d1b02</Anchor>
+    <Anchor>a17f385693c293d8b861de547dd4190ae</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54111,7 +54548,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000022</Scope>
     </TokenIdentifier>
     <Path>dc/d72/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000022.html</Path>
-    <Anchor>aac7b403223a784b1333befbaf3873d0f</Anchor>
+    <Anchor>a7c8143f56c34f1a1c5d4942a402a385b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54143,7 +54580,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000023</Scope>
     </TokenIdentifier>
     <Path>d7/d74/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000023.html</Path>
-    <Anchor>a0d7bfc2351f6b5e5830a67cc348374c6</Anchor>
+    <Anchor>a5faaa0faf5aa2f7e6b93b718a47688c3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54153,7 +54590,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000023</Scope>
     </TokenIdentifier>
     <Path>d7/d74/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000023.html</Path>
-    <Anchor>a83f396b27f198bc632520d91aa728616</Anchor>
+    <Anchor>a15997c0d428a0138f42989ec6059fa2f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54163,7 +54600,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000023</Scope>
     </TokenIdentifier>
     <Path>d7/d74/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000023.html</Path>
-    <Anchor>a983b1f48e5a08b0589978ee0019f82ae</Anchor>
+    <Anchor>a7d82a074801d605718dd233af5015e56</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54173,7 +54610,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000023</Scope>
     </TokenIdentifier>
     <Path>d7/d74/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000023.html</Path>
-    <Anchor>a9b609daa52c146dfdac8f094ee931e80</Anchor>
+    <Anchor>ac511314297832cca8432599bc5f7507f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54205,7 +54642,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000026</Scope>
     </TokenIdentifier>
     <Path>dd/d89/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000026.html</Path>
-    <Anchor>a040fc3c5a1c993828a857854937ef66e</Anchor>
+    <Anchor>a7f94b2dda96b7daaa4971fec0462d000</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54215,7 +54652,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000026</Scope>
     </TokenIdentifier>
     <Path>dd/d89/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000026.html</Path>
-    <Anchor>ad40a13aafc165b43f90465d8287183c8</Anchor>
+    <Anchor>a8e3025dd5cd1bf48628b0fe69dfc058b</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54225,7 +54662,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000026</Scope>
     </TokenIdentifier>
     <Path>dd/d89/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000026.html</Path>
-    <Anchor>a51f40722add79fb1a9183275078437db</Anchor>
+    <Anchor>aaf061d4a1b7dc66967857b63d17b81ee</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54235,7 +54672,7 @@
       <Scope>CPU::x86::AMD::CPUID0x80000026</Scope>
     </TokenIdentifier>
     <Path>dd/d89/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000026.html</Path>
-    <Anchor>a85589fef60aadeea8a9eca643d2865b5</Anchor>
+    <Anchor>adb059f44688c91ff747b720846fb13a5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54287,7 +54724,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000000</Scope>
     </TokenIdentifier>
     <Path>d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html</Path>
-    <Anchor>a672203fca1bc80931f66d7ea4009bc28</Anchor>
+    <Anchor>a8a0ddd89d7bb0f31a6c654c7e0631495</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54297,7 +54734,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000000</Scope>
     </TokenIdentifier>
     <Path>d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html</Path>
-    <Anchor>a9b03311b72bae6eca0e79ef3128c0a19</Anchor>
+    <Anchor>a243b6d198a7c00fa49f219b0740d3cda</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54307,7 +54744,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000000</Scope>
     </TokenIdentifier>
     <Path>d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html</Path>
-    <Anchor>aca5200772926f7fa6eb31d34593ae6c7</Anchor>
+    <Anchor>a3166d4154c3870140eb6084961d1003e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54317,7 +54754,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000000</Scope>
     </TokenIdentifier>
     <Path>d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html</Path>
-    <Anchor>ae50da7f1ee02963203b6201a52765b93</Anchor>
+    <Anchor>a4946bac3674539c2aea8bff7843a8af3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54349,7 +54786,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000001</Scope>
     </TokenIdentifier>
     <Path>de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html</Path>
-    <Anchor>afd757dd8b87358071badebbecb5a9042</Anchor>
+    <Anchor>ab7aa9dde6fbcf546c0624eb7003eb874</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54359,7 +54796,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000001</Scope>
     </TokenIdentifier>
     <Path>de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html</Path>
-    <Anchor>a38838792233a7bfcb9b3c3572c60f721</Anchor>
+    <Anchor>a17c75c22bed0511b674ed2cadaf93cc5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54369,7 +54806,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000001</Scope>
     </TokenIdentifier>
     <Path>de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html</Path>
-    <Anchor>a1641ef57ac8149ea15d3cde4d1edf392</Anchor>
+    <Anchor>a667319b5f3f0da19db761b2e3511b72a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54379,7 +54816,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000001</Scope>
     </TokenIdentifier>
     <Path>de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html</Path>
-    <Anchor>abe0b3c8e4d44483646c035d785592534</Anchor>
+    <Anchor>aff2fd33902bd7168c65a0caf76150001</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54411,7 +54848,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000002</Scope>
     </TokenIdentifier>
     <Path>d0/d1c/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000002.html</Path>
-    <Anchor>a51dcdfce00706f13b9a50d42c1d2c389</Anchor>
+    <Anchor>a6384bd884f163de2fab2833d7fe5d1eb</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54421,7 +54858,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000002</Scope>
     </TokenIdentifier>
     <Path>d0/d1c/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000002.html</Path>
-    <Anchor>a89e9cbba7ac17c7fb8fd3005bcfefc6e</Anchor>
+    <Anchor>a1979f7810d1b9a57d1be9c803db29b10</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54431,7 +54868,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000002</Scope>
     </TokenIdentifier>
     <Path>d0/d1c/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000002.html</Path>
-    <Anchor>ab4e6801f60914079ab9ae56cfd99c156</Anchor>
+    <Anchor>aa6760d0ffaae9679b6f1216042776edd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54441,7 +54878,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000002</Scope>
     </TokenIdentifier>
     <Path>d0/d1c/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000002.html</Path>
-    <Anchor>a8b12c594eac6f4c02a12a7e547ac4aed</Anchor>
+    <Anchor>a829922d05ea969d51a913ed347e951ca</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54473,7 +54910,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000003</Scope>
     </TokenIdentifier>
     <Path>d2/d30/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000003.html</Path>
-    <Anchor>a448daa5122618fd73a3cc1b6d76cde7e</Anchor>
+    <Anchor>acf83d7ffaba4f6d3cf982887ec6ddd30</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54483,7 +54920,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000003</Scope>
     </TokenIdentifier>
     <Path>d2/d30/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000003.html</Path>
-    <Anchor>ac4b85323c5f0544f08ba4386d7e8ec98</Anchor>
+    <Anchor>a97d9038accb0690e24998080f401ce48</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54493,7 +54930,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000003</Scope>
     </TokenIdentifier>
     <Path>d2/d30/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000003.html</Path>
-    <Anchor>a71daafc8e4b7e027e9744c924df1a369</Anchor>
+    <Anchor>a8b6bfaf00a0685a762ca77ddef1a7e93</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54503,7 +54940,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000003</Scope>
     </TokenIdentifier>
     <Path>d2/d30/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000003.html</Path>
-    <Anchor>a0a262a952e99bc3c1d46f005acabef78</Anchor>
+    <Anchor>ae7998f5fa149b49f9b48f49a9ad6c9fc</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54535,7 +54972,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000004_1</Scope>
     </TokenIdentifier>
     <Path>d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html</Path>
-    <Anchor>a5fd46307dbb63335b9e9dca208f76060</Anchor>
+    <Anchor>ac2e80b41e5af31da4714e13f47a79982</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54545,7 +54982,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000004_1</Scope>
     </TokenIdentifier>
     <Path>d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html</Path>
-    <Anchor>a1f97f2ee1313f62596f538401749985e</Anchor>
+    <Anchor>af949acc241cde902a39400e808605114</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54555,7 +54992,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000004_1</Scope>
     </TokenIdentifier>
     <Path>d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html</Path>
-    <Anchor>a3bc8af62bb2b57cfc328302456284774</Anchor>
+    <Anchor>a6f4ca3b1c2ad34994e8d42280224a186</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54565,7 +55002,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000004_1</Scope>
     </TokenIdentifier>
     <Path>d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html</Path>
-    <Anchor>a624aac355998fc3787b0c9065e209c37</Anchor>
+    <Anchor>a3e373bc80cfa920227a4c3e4403c56f5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54597,7 +55034,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000005</Scope>
     </TokenIdentifier>
     <Path>d4/db9/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000005.html</Path>
-    <Anchor>ac436bedfe571ebfeab64e65463de3c2a</Anchor>
+    <Anchor>a7311574f5e030a1abb575f7488aceba5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54607,7 +55044,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000005</Scope>
     </TokenIdentifier>
     <Path>d4/db9/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000005.html</Path>
-    <Anchor>ac821b5cff9187b14d7618d9907d5d2b4</Anchor>
+    <Anchor>adbe81f790408a1bf91073b6a905d34b9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54617,7 +55054,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000005</Scope>
     </TokenIdentifier>
     <Path>d4/db9/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000005.html</Path>
-    <Anchor>a65441923c61c99ad087af80738fa471b</Anchor>
+    <Anchor>a48d8b180a5ae6110fae4fe8b02361d33</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54627,7 +55064,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000005</Scope>
     </TokenIdentifier>
     <Path>d4/db9/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000005.html</Path>
-    <Anchor>ab00885a9cd0482ec830edb6c4230a5eb</Anchor>
+    <Anchor>ae76752de30acdf0c025fbc6d8745f8e7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54659,7 +55096,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000006</Scope>
     </TokenIdentifier>
     <Path>dc/dd3/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000006.html</Path>
-    <Anchor>a4f4095f9f8e4bf8f8fb332bf387d8ec9</Anchor>
+    <Anchor>ad3ec61c5973618cb375e7e34ae2a933d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54669,7 +55106,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000006</Scope>
     </TokenIdentifier>
     <Path>dc/dd3/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000006.html</Path>
-    <Anchor>a21bceab97af7d206b46ed17f8d30dec9</Anchor>
+    <Anchor>a388628f86095d219923323b88f2d1e1e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54679,7 +55116,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000006</Scope>
     </TokenIdentifier>
     <Path>dc/dd3/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000006.html</Path>
-    <Anchor>aa3c2e704a50308c691451c0fd3780122</Anchor>
+    <Anchor>a9844dee879c200b43b1e5ec20aefb6cd</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54689,7 +55126,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000006</Scope>
     </TokenIdentifier>
     <Path>dc/dd3/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000006.html</Path>
-    <Anchor>acfd06f63e0f0666d9f7822dcea54d291</Anchor>
+    <Anchor>a538a48e9725c3d89c1ab75d3a95b9904</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54721,7 +55158,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000007_0</Scope>
     </TokenIdentifier>
     <Path>d1/d60/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000007__0.html</Path>
-    <Anchor>a6e04e6b2b82943e617d5d5c136e14da0</Anchor>
+    <Anchor>adab5c84300b81f6251e6d6591ade513c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54731,7 +55168,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000007_0</Scope>
     </TokenIdentifier>
     <Path>d1/d60/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000007__0.html</Path>
-    <Anchor>a64def249c653fa91d2949671933289b0</Anchor>
+    <Anchor>a88106b3d5f0dc17dfea3bcbbed361cda</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54741,7 +55178,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000007_0</Scope>
     </TokenIdentifier>
     <Path>d1/d60/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000007__0.html</Path>
-    <Anchor>a6ff48451b80b74d483aa363611600bfc</Anchor>
+    <Anchor>a6e18ed5be53adec0dc5302f430a73461</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54751,7 +55188,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000007_0</Scope>
     </TokenIdentifier>
     <Path>d1/d60/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000007__0.html</Path>
-    <Anchor>a78606636f8e29533e2a54d1e12148b3f</Anchor>
+    <Anchor>a9d0fb8cd98434387608a9a1e18c38312</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54783,7 +55220,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000007_1</Scope>
     </TokenIdentifier>
     <Path>d0/d9b/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000007__1.html</Path>
-    <Anchor>a693ea309e276f3e165fe52aa37d0b35d</Anchor>
+    <Anchor>a49c586132c2219c3ea2ec1ee8a30f857</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54793,7 +55230,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000007_1</Scope>
     </TokenIdentifier>
     <Path>d0/d9b/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000007__1.html</Path>
-    <Anchor>a821e40f06b13936b5abe2eb5dcf16abe</Anchor>
+    <Anchor>ac30db00d37dc0f98c6cb46b416eb6e6a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54803,7 +55240,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000007_1</Scope>
     </TokenIdentifier>
     <Path>d0/d9b/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000007__1.html</Path>
-    <Anchor>aa0e78938be2435241f116179d6370869</Anchor>
+    <Anchor>a06d213a602371ee695c36e03df9b5014</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54813,7 +55250,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000007_1</Scope>
     </TokenIdentifier>
     <Path>d0/d9b/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000007__1.html</Path>
-    <Anchor>a0b112f2039f97c9cf9ec9fe29cc82521</Anchor>
+    <Anchor>acf981a61d6dfc23d47d736342dfe6157</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54845,7 +55282,7 @@
       <Scope>CPU::x86::Intel::CPUID0x0000000A</Scope>
     </TokenIdentifier>
     <Path>da/d23/structCPU_1_1x86_1_1Intel_1_1CPUID0x0000000A.html</Path>
-    <Anchor>a69d2d916054149a2179b25bb519e76e4</Anchor>
+    <Anchor>a1efd75de99ac321b53d6211072fab90c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54855,7 +55292,7 @@
       <Scope>CPU::x86::Intel::CPUID0x0000000A</Scope>
     </TokenIdentifier>
     <Path>da/d23/structCPU_1_1x86_1_1Intel_1_1CPUID0x0000000A.html</Path>
-    <Anchor>a65298f96fda22f7aa9151d4f817723e2</Anchor>
+    <Anchor>a497d40e4eefc52c11302938084452cf6</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54865,7 +55302,7 @@
       <Scope>CPU::x86::Intel::CPUID0x0000000A</Scope>
     </TokenIdentifier>
     <Path>da/d23/structCPU_1_1x86_1_1Intel_1_1CPUID0x0000000A.html</Path>
-    <Anchor>a2e8d35927d060561103b31359e00f071</Anchor>
+    <Anchor>a5aa7f8345b11bf0ce0e642ebaa7a9a08</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54875,7 +55312,7 @@
       <Scope>CPU::x86::Intel::CPUID0x0000000A</Scope>
     </TokenIdentifier>
     <Path>da/d23/structCPU_1_1x86_1_1Intel_1_1CPUID0x0000000A.html</Path>
-    <Anchor>aae5a580c4732d8e327d56c8a4b274da9</Anchor>
+    <Anchor>ac33b4037e4df997ed8d907cfd4d2db6e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54907,7 +55344,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000015</Scope>
     </TokenIdentifier>
     <Path>d2/d2c/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000015.html</Path>
-    <Anchor>adb6d33ef6e93305ed37bc1f5ace23dd9</Anchor>
+    <Anchor>a6c6c6ece5c4950f2289df4aab759fb8d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54917,7 +55354,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000015</Scope>
     </TokenIdentifier>
     <Path>d2/d2c/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000015.html</Path>
-    <Anchor>a9d75d423116ced3fb6417278d07404a7</Anchor>
+    <Anchor>a6c06b2a9cafe51d454d1486ba6d64040</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54927,7 +55364,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000015</Scope>
     </TokenIdentifier>
     <Path>d2/d2c/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000015.html</Path>
-    <Anchor>a3441386dd8600ba55d8ecfffba0f0ba0</Anchor>
+    <Anchor>ae1490a44f031109ad9ba96532e66c262</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54937,7 +55374,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000015</Scope>
     </TokenIdentifier>
     <Path>d2/d2c/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000015.html</Path>
-    <Anchor>aeb1913e038947e77e39977566daa6705</Anchor>
+    <Anchor>a57aaad2bbe13fc4af1c6be8cb023d109</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54969,7 +55406,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000016</Scope>
     </TokenIdentifier>
     <Path>de/de3/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000016.html</Path>
-    <Anchor>ac8c729f2b37fa7503f932aad5aa78336</Anchor>
+    <Anchor>ab3f25b2e3819e4071c1ab73427a31716</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54979,7 +55416,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000016</Scope>
     </TokenIdentifier>
     <Path>de/de3/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000016.html</Path>
-    <Anchor>a548573deb27cf378a4482e9ac4deca13</Anchor>
+    <Anchor>a8a2125cfc06fa5e5652cad4d8ea5704e</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54989,7 +55426,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000016</Scope>
     </TokenIdentifier>
     <Path>de/de3/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000016.html</Path>
-    <Anchor>a5216e3d14e883108a18bc49b16744397</Anchor>
+    <Anchor>a0eb1ca74b3f637acbc3497d8f49a7b10</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -54999,7 +55436,7 @@
       <Scope>CPU::x86::Intel::CPUID0x00000016</Scope>
     </TokenIdentifier>
     <Path>de/de3/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000016.html</Path>
-    <Anchor>a4efeddc85818bd695ecb4afc9c5d33c1</Anchor>
+    <Anchor>ad309e1117afebabd688863d11403028c</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55031,7 +55468,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000000</Scope>
     </TokenIdentifier>
     <Path>d8/dd2/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000000.html</Path>
-    <Anchor>aab40312b32a94b127e89765516a96f80</Anchor>
+    <Anchor>adcd6041284d82f9068bfefb90482d6d5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55041,7 +55478,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000000</Scope>
     </TokenIdentifier>
     <Path>d8/dd2/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000000.html</Path>
-    <Anchor>a84c2450ae06aeb6816dc7dde27b9dd6c</Anchor>
+    <Anchor>a49c6c10dcfe67d57155770132380ef36</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55051,7 +55488,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000000</Scope>
     </TokenIdentifier>
     <Path>d8/dd2/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000000.html</Path>
-    <Anchor>a8519b2e9d78855f1a15203b1e266a065</Anchor>
+    <Anchor>a204828d47c61d4cce4a0c4b58ae3b488</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55061,7 +55498,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000000</Scope>
     </TokenIdentifier>
     <Path>d8/dd2/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000000.html</Path>
-    <Anchor>ada8ecd0f44cbf883017cb7d585df0599</Anchor>
+    <Anchor>a6e1bfc1ac10a8c2e7fe105847ee625ec</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55103,7 +55540,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000001</Scope>
     </TokenIdentifier>
     <Path>dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html</Path>
-    <Anchor>a92dc297d50066bcd994aff21253c4f24</Anchor>
+    <Anchor>ac07e4b345180da3af7af8957a7e37234</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55113,7 +55550,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000001</Scope>
     </TokenIdentifier>
     <Path>dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html</Path>
-    <Anchor>a97f7cc566716a5e75e86237744314218</Anchor>
+    <Anchor>a313904a1fdc50fba575c7ac27906ebee</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55123,7 +55560,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000001</Scope>
     </TokenIdentifier>
     <Path>dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html</Path>
-    <Anchor>a9d9442bcef50af0c3bce0f2f1057df65</Anchor>
+    <Anchor>a60507446a55feee468dcdf3061d1603d</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55133,7 +55570,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000001</Scope>
     </TokenIdentifier>
     <Path>dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html</Path>
-    <Anchor>a8cf7cdb7ca2d51f0c1baae3a8f23ce79</Anchor>
+    <Anchor>aff4d332d8590a284d7ad51ede69cd598</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55175,7 +55612,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000002</Scope>
     </TokenIdentifier>
     <Path>d4/dba/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000002.html</Path>
-    <Anchor>ad76b09bd00ef8de659524495a9dda10a</Anchor>
+    <Anchor>af1916f466339a6bbea96752a45a580ee</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55185,7 +55622,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000002</Scope>
     </TokenIdentifier>
     <Path>d4/dba/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000002.html</Path>
-    <Anchor>a86d8c88085db5a245b15615138359b80</Anchor>
+    <Anchor>a92f1a16a04aa65bc0bad35f42479acc5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55195,7 +55632,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000002</Scope>
     </TokenIdentifier>
     <Path>d4/dba/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000002.html</Path>
-    <Anchor>a30bb105bd521a5975ac4388e068e70bc</Anchor>
+    <Anchor>aec1181c97b70cca3859a88e12a137ba3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55205,7 +55642,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000002</Scope>
     </TokenIdentifier>
     <Path>d4/dba/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000002.html</Path>
-    <Anchor>a1aceead9efca10b4daf7c619ef76563b</Anchor>
+    <Anchor>a5dff02c300be4b1a27c6f0990a12b362</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55247,7 +55684,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000003</Scope>
     </TokenIdentifier>
     <Path>d6/d34/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000003.html</Path>
-    <Anchor>aa2a870a673853330765aebc509259358</Anchor>
+    <Anchor>a8e80995170115ed1cf6dd6d5aaa347c4</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55257,7 +55694,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000003</Scope>
     </TokenIdentifier>
     <Path>d6/d34/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000003.html</Path>
-    <Anchor>a78c7220e9b8bd66327661e578bc3794c</Anchor>
+    <Anchor>ae23be5945bb6d7d25d322b761d4f57f1</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55267,7 +55704,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000003</Scope>
     </TokenIdentifier>
     <Path>d6/d34/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000003.html</Path>
-    <Anchor>a89231fe53db030efe7879d7d6c65151e</Anchor>
+    <Anchor>a141c6e3055cee9c6eeeed5a0c6dbdd25</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55277,7 +55714,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000003</Scope>
     </TokenIdentifier>
     <Path>d6/d34/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000003.html</Path>
-    <Anchor>a6da66ef67c08483c39303ef22fcbe045</Anchor>
+    <Anchor>aade851c26ab7985a7c27a5111a10e0bf</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55319,7 +55756,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000004</Scope>
     </TokenIdentifier>
     <Path>db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html</Path>
-    <Anchor>a17f39dab34a5550ebfc707c41ea7df0c</Anchor>
+    <Anchor>a10d0fe2c4d003e7f64131ada5cd5df12</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55329,7 +55766,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000004</Scope>
     </TokenIdentifier>
     <Path>db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html</Path>
-    <Anchor>a58bd4750735880404cf25d94cd55ab94</Anchor>
+    <Anchor>aa24f305db191f55bbb0760b98f287630</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55339,7 +55776,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000004</Scope>
     </TokenIdentifier>
     <Path>db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html</Path>
-    <Anchor>a4f21c11ce105763ac3861a10f581a21f</Anchor>
+    <Anchor>a1fb803ed3ac09ea1aeb4698a65898bad</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55349,7 +55786,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000004</Scope>
     </TokenIdentifier>
     <Path>db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html</Path>
-    <Anchor>a90bf83bb4ed2dfba42f43689f18e5a81</Anchor>
+    <Anchor>a08c1deefa5d690c61d50c97075ca41d0</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55391,7 +55828,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000006</Scope>
     </TokenIdentifier>
     <Path>d5/df3/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000006.html</Path>
-    <Anchor>a19c368c200d2095e3f7f3c477ac28f25</Anchor>
+    <Anchor>af042693c5f85f56258aea92aa026b0b5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55401,7 +55838,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000006</Scope>
     </TokenIdentifier>
     <Path>d5/df3/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000006.html</Path>
-    <Anchor>af780428137d0a2c8fc88e4782d0180b0</Anchor>
+    <Anchor>a14f8c3c29c219e67f0580ca9d218e907</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55411,7 +55848,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000006</Scope>
     </TokenIdentifier>
     <Path>d5/df3/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000006.html</Path>
-    <Anchor>ad7da4f3d1c491839af2c7adf8df70d8d</Anchor>
+    <Anchor>a948b5b3388a8da1144236a30f40761a3</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55421,7 +55858,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000006</Scope>
     </TokenIdentifier>
     <Path>d5/df3/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000006.html</Path>
-    <Anchor>a3c27da24956d1ec2fdb5c321e27f498a</Anchor>
+    <Anchor>a08ba119d59c6a2d5320f758e5acf5d58</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55463,7 +55900,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000008</Scope>
     </TokenIdentifier>
     <Path>d8/d2b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000008.html</Path>
-    <Anchor>a78db62171bee8c415b6c1172987ff46d</Anchor>
+    <Anchor>a85a7af371240ceadef22ba5addec9eba</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55473,7 +55910,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000008</Scope>
     </TokenIdentifier>
     <Path>d8/d2b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000008.html</Path>
-    <Anchor>a689d7dfc31f19861eb905a99a59db8a9</Anchor>
+    <Anchor>a23549bf479f84ff2ebecbf0ad0d97639</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55483,7 +55920,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000008</Scope>
     </TokenIdentifier>
     <Path>d8/d2b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000008.html</Path>
-    <Anchor>aa4c0e43ef2377bae97b7a87b2583a4b3</Anchor>
+    <Anchor>a63ae36716491dabbbfdfec8c1c905b56</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55493,7 +55930,7 @@
       <Scope>CPU::x86::Intel::CPUID0x80000008</Scope>
     </TokenIdentifier>
     <Path>d8/d2b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000008.html</Path>
-    <Anchor>ac97ff9a281af859dea5d306a52398e05</Anchor>
+    <Anchor>a5783656a896520ea3408f1067f83f98f</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55535,7 +55972,7 @@
       <Scope>CPU::x86::Intel::CPUID0x8000000A</Scope>
     </TokenIdentifier>
     <Path>d8/d45/structCPU_1_1x86_1_1Intel_1_1CPUID0x8000000A.html</Path>
-    <Anchor>a7913e7950b67c9cc6ff34b5abf0402d1</Anchor>
+    <Anchor>af32ee5bfc5cd0c8d78c770284a8ba677</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55545,7 +55982,7 @@
       <Scope>CPU::x86::Intel::CPUID0x8000000A</Scope>
     </TokenIdentifier>
     <Path>d8/d45/structCPU_1_1x86_1_1Intel_1_1CPUID0x8000000A.html</Path>
-    <Anchor>a46c4cf05913cd1fcf0f8656a5ff72fd0</Anchor>
+    <Anchor>a643b244d7501c43f47481334bce5e9b7</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55555,7 +55992,7 @@
       <Scope>CPU::x86::Intel::CPUID0x8000000A</Scope>
     </TokenIdentifier>
     <Path>d8/d45/structCPU_1_1x86_1_1Intel_1_1CPUID0x8000000A.html</Path>
-    <Anchor>a04044ba1ef6aec6c3c5e81c44c16e355</Anchor>
+    <Anchor>a13654fb7b0c89b720a1559bacf589231</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -55565,7 +56002,7 @@
       <Scope>CPU::x86::Intel::CPUID0x8000000A</Scope>
     </TokenIdentifier>
     <Path>d8/d45/structCPU_1_1x86_1_1Intel_1_1CPUID0x8000000A.html</Path>
-    <Anchor>a05d523accc053160533d1cbb39353614</Anchor>
+    <Anchor>aab876031e135315290396e2dc70d8af2</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -56086,7 +56523,7 @@
       <Scope>Disk::Partition</Scope>
     </TokenIdentifier>
     <Path>d6/da1/classDisk_1_1Partition.html</Path>
-    <Anchor>ae89e7e0dab44e30f362fcbf6050aa734</Anchor>
+    <Anchor>ae2c671fd9af0285777c233e9fd53b9b9</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -56096,7 +56533,7 @@
       <Scope>Disk::Partition</Scope>
     </TokenIdentifier>
     <Path>d6/da1/classDisk_1_1Partition.html</Path>
-    <Anchor>ad5263d2e4a7eb147f67a8b07752b1f50</Anchor>
+    <Anchor>ae712c7e5384edfb9ce0bc01a3171e758</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -56569,7 +57006,7 @@
       <Scope>Driver::DriverFile</Scope>
     </TokenIdentifier>
     <Path>d1/d76/structDriver_1_1DriverFile.html</Path>
-    <Anchor>a2b2874e017e272fa7e232f9e99dcf3c7</Anchor>
+    <Anchor>afc1ddb2cb0723fa5d84f84de762f13f8</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -57836,61 +58273,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>TaskStateSegmentEntry</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>aacd2dfc0499d485dcf1cc81cf30b800c</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>TaskStateSegment</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>a06e6acd04b830563ed08b6a2d71f77f8</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GlobalDescriptorTableEntry</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>ae37cf2547db7a08c3d3072637cc4b3ac</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GlobalDescriptorTableEntries</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>a0d4e4fbefea041e82ee895772b9f6150</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GlobalDescriptorTableDescriptor</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>a763ac5dacc27c0de58a05283a268b9f0</Anchor>
-    <DeclaredIn>gdt.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>Init</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -57932,6 +58314,17 @@
     <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
     <Anchor>a81fa1ff5178ded4376fc6d7f4a7c74c9</Anchor>
     <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__packed</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>GlobalDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
+    <Anchor>aabf46d67d2677552477795fd2d6ea43d</Anchor>
+    <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -57979,34 +58372,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>GDTEntries</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>ab39462761311729389cbcfb551d23c04</Anchor>
-    <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>gdt</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>GlobalDescriptorTable</Scope>
-    </TokenIdentifier>
-    <Path>d1/d69/namespaceGlobalDescriptorTable.html</Path>
-    <Anchor>aedb1fa5caf696d1d3931c6cbd16314da</Anchor>
-    <DeclaredIn>GlobalDescriptorTable.cpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>GlobalDescriptorTable::_TaskStateSegment</Name>
+      <Name>GlobalDescriptorTable::TaskStateSegment</Name>
       <APILanguage>c</APILanguage>
       <Type>cl</Type>
-      <Scope>GlobalDescriptorTable::_TaskStateSegment</Scope>
+      <Scope>GlobalDescriptorTable::TaskStateSegment</Scope>
     </TokenIdentifier>
-    <Path>d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html</Path>
+    <Path>d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html</Path>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -58014,10 +58385,10 @@
       <Name>__aligned</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>GlobalDescriptorTable::_TaskStateSegment</Scope>
+      <Scope>GlobalDescriptorTable::TaskStateSegment</Scope>
     </TokenIdentifier>
-    <Path>d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html</Path>
-    <Anchor>a0192af12b9d993ef4543845bb4cc83d3</Anchor>
+    <Path>d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html</Path>
+    <Anchor>a2cc429a2e5eb0b84b243d4ab0ebf6d5b</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -58025,10 +58396,10 @@
       <Name>__aligned</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
-      <Scope>GlobalDescriptorTable::_TaskStateSegment</Scope>
+      <Scope>GlobalDescriptorTable::TaskStateSegment</Scope>
     </TokenIdentifier>
-    <Path>d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html</Path>
-    <Anchor>a0192af12b9d993ef4543845bb4cc83d3</Anchor>
+    <Path>d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html</Path>
+    <Anchor>a2cc429a2e5eb0b84b243d4ab0ebf6d5b</Anchor>
     <DeclaredIn>gdt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -58036,70 +58407,60 @@
       <Name>StackPointer</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>GlobalDescriptorTable::_TaskStateSegment</Scope>
+      <Scope>GlobalDescriptorTable::TaskStateSegment</Scope>
     </TokenIdentifier>
-    <Path>d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html</Path>
-    <Anchor>a9093c39c2fbd46a509cdd491d3debad1</Anchor>
+    <Path>d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html</Path>
+    <Anchor>a69cdfe4f9a67a6c3f0ff7272d88fe8be</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>Reserved1</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>GlobalDescriptorTable::_TaskStateSegment</Scope>
+      <Scope>GlobalDescriptorTable::TaskStateSegment</Scope>
     </TokenIdentifier>
-    <Path>d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html</Path>
-    <Anchor>ad713dc6ddd78234082dc2cd404b1f861</Anchor>
+    <Path>d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html</Path>
+    <Anchor>ab3b10ad6b3ab6d90ce489f051da9bcde</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>InterruptStackTable</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>GlobalDescriptorTable::_TaskStateSegment</Scope>
+      <Scope>GlobalDescriptorTable::TaskStateSegment</Scope>
     </TokenIdentifier>
-    <Path>d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html</Path>
-    <Anchor>ab7c3153a4c6d6b7202b9f8c70d1ed495</Anchor>
+    <Path>d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html</Path>
+    <Anchor>ae3e3e1da920cf906ab76f95516984a19</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>Reserved2</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>GlobalDescriptorTable::_TaskStateSegment</Scope>
+      <Scope>GlobalDescriptorTable::TaskStateSegment</Scope>
     </TokenIdentifier>
-    <Path>d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html</Path>
-    <Anchor>a1ae972c9b59c6c668423775011f6e15a</Anchor>
+    <Path>d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html</Path>
+    <Anchor>a9e4de4579a487bcb1ffad04c83a5db9a</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>Reserved3</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>GlobalDescriptorTable::_TaskStateSegment</Scope>
+      <Scope>GlobalDescriptorTable::TaskStateSegment</Scope>
     </TokenIdentifier>
-    <Path>d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html</Path>
-    <Anchor>a4721ad72b5a4dee9304004e61bd2eab0</Anchor>
+    <Path>d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html</Path>
+    <Anchor>a1148b6d2c18ae65947bfa47fdd6536ac</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
       <Name>IOMapBaseAddressOffset</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
-      <Scope>GlobalDescriptorTable::_TaskStateSegment</Scope>
+      <Scope>GlobalDescriptorTable::TaskStateSegment</Scope>
     </TokenIdentifier>
-    <Path>d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html</Path>
-    <Anchor>af93790f77f99f38c9aee4dc454cd3bb9</Anchor>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>Reserved2</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>GlobalDescriptorTable::_TaskStateSegment</Scope>
-    </TokenIdentifier>
-    <Path>d2/dc5/structGlobalDescriptorTable_1_1__TaskStateSegment.html</Path>
-    <Anchor>a8071b41ba0df97c95cbf541956c2a9b2</Anchor>
+    <Path>d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html</Path>
+    <Anchor>a7ad339dccf14fe98719e49b01fa9f7e5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -58129,7 +58490,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>a63e7ccbad4ab57fe188cdddb5f0739c4</Anchor>
+    <Anchor>a673f4f56d1633bb6730bfe36b699f959</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -58140,7 +58501,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>a63708ba2e12d5c6ea53e1921127765e3</Anchor>
+    <Anchor>a0dd8851e1d482d2a5316ff4a0825991f</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -58151,7 +58512,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>a1d4b566cf2a43db2bc8cc00201c814d3</Anchor>
+    <Anchor>ac4f047a33ac3f610e5fe7e5498d51479</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -58162,7 +58523,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>ac3aa491e96b9f6ef7a4bf33cd447ac37</Anchor>
+    <Anchor>a31ff2f6e71febae6afaf97bbdf9fa164</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -58228,7 +58589,7 @@
       <Scope>GraphicalUserInterface</Scope>
     </TokenIdentifier>
     <Path>db/df1/namespaceGraphicalUserInterface.html</Path>
-    <Anchor>a5990a47cd408b26c4f30648c359df162</Anchor>
+    <Anchor>ae1adfb02095931e319124530e589a756</Anchor>
     <DeclaredIn>GUITools.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -58467,7 +58828,7 @@
       <Scope>GraphicalUserInterface::Rect</Scope>
     </TokenIdentifier>
     <Path>d7/dbb/structGraphicalUserInterface_1_1Rect.html</Path>
-    <Anchor>adc5592f016eaf6d8e3895f2bb438f3ff</Anchor>
+    <Anchor>a58f3a4345fa259846df9df1be80352a5</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -58477,7 +58838,7 @@
       <Scope>GraphicalUserInterface::Rect</Scope>
     </TokenIdentifier>
     <Path>d7/dbb/structGraphicalUserInterface_1_1Rect.html</Path>
-    <Anchor>a7ea33c28af11425ec0a788d19df79a36</Anchor>
+    <Anchor>a61850506ae00297359a4614f17962426</Anchor>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -60765,6 +61126,17 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>SetEntry</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a5546f91a593afa23ea4ccc8baac3db64</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>Entries</Name>
       <APILanguage>cpp</APILanguage>
       <Type>data</Type>
@@ -60787,13 +61159,24 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>Entries</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>data</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>a679e5cab62e2086ee8684461fa9afa16</Anchor>
+    <DeclaredIn>InterruptDescriptorTable.cpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>TASK</Name>
       <APILanguage>cpp</APILanguage>
       <Type>econst</Type>
       <Scope>InterruptDescriptorTable</Scope>
     </TokenIdentifier>
     <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
-    <Anchor>ac2c495ffcea74939b7be67238750916daa3be5de422990d7c399f868887124990</Anchor>
+    <Anchor>ac2c495ffcea74939b7be67238750916da0584f13264e40aca882888a24b9c72f8</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -60804,7 +61187,7 @@
       <Scope>InterruptDescriptorTable</Scope>
     </TokenIdentifier>
     <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
-    <Anchor>ac2c495ffcea74939b7be67238750916da3e59aaa5793779a7ed4e7cc86535add2</Anchor>
+    <Anchor>ac2c495ffcea74939b7be67238750916daaaad385a0ce5d73f2f33bfd7eecf4611</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -60815,7 +61198,7 @@
       <Scope>InterruptDescriptorTable</Scope>
     </TokenIdentifier>
     <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
-    <Anchor>ac2c495ffcea74939b7be67238750916da175910ac5ff670b6cf5f573cd2204e10</Anchor>
+    <Anchor>ac2c495ffcea74939b7be67238750916dacfd3464e113c7fee3ff1edaca8c19b34</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -60826,7 +61209,7 @@
       <Scope>InterruptDescriptorTable</Scope>
     </TokenIdentifier>
     <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
-    <Anchor>ac2c495ffcea74939b7be67238750916dae8173a4c35c856b98993dd7e27447c25</Anchor>
+    <Anchor>ac2c495ffcea74939b7be67238750916da029f95489a26116ff941eb51d2bf1fc7</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -60837,7 +61220,172 @@
       <Scope>InterruptDescriptorTable</Scope>
     </TokenIdentifier>
     <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
-    <Anchor>ac2c495ffcea74939b7be67238750916dac646754c8d2a6c4052308e6970588d4e</Anchor>
+    <Anchor>ac2c495ffcea74939b7be67238750916da0522ecacbb0fc0114e36f240cee97e42</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TASK</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916da0584f13264e40aca882888a24b9c72f8</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INT_16BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916daaaad385a0ce5d73f2f33bfd7eecf4611</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TRAP_16BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916dacfd3464e113c7fee3ff1edaca8c19b34</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INT_32BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916da029f95489a26116ff941eb51d2bf1fc7</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TRAP_32BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916da0522ecacbb0fc0114e36f240cee97e42</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TASK</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916da0584f13264e40aca882888a24b9c72f8</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INT_16BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916daaaad385a0ce5d73f2f33bfd7eecf4611</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TRAP_16BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916dacfd3464e113c7fee3ff1edaca8c19b34</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INT_32BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916da029f95489a26116ff941eb51d2bf1fc7</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TRAP_32BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916da0522ecacbb0fc0114e36f240cee97e42</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TASK</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916da0584f13264e40aca882888a24b9c72f8</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INT_16BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916daaaad385a0ce5d73f2f33bfd7eecf4611</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TRAP_16BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916dacfd3464e113c7fee3ff1edaca8c19b34</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>INT_32BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916da029f95489a26116ff941eb51d2bf1fc7</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>TRAP_32BIT</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ac2c495ffcea74939b7be67238750916da0522ecacbb0fc0114e36f240cee97e42</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -60848,7 +61396,7 @@
       <Scope>InterruptDescriptorTable</Scope>
     </TokenIdentifier>
     <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
-    <Anchor>ae79a6033a3ba26058229e609e58f21edadef256aa5534eb36bf70652626430f53</Anchor>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda0fcddc8feb45edcdb02be62f7c120296</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -60859,7 +61407,7 @@
       <Scope>InterruptDescriptorTable</Scope>
     </TokenIdentifier>
     <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
-    <Anchor>ae79a6033a3ba26058229e609e58f21eda6a24186a49c7106721c248d422a609ae</Anchor>
+    <Anchor>ae79a6033a3ba26058229e609e58f21edae16eff06f8c1580d3217539f112a5b5a</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -60870,7 +61418,7 @@
       <Scope>InterruptDescriptorTable</Scope>
     </TokenIdentifier>
     <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
-    <Anchor>ae79a6033a3ba26058229e609e58f21edad77c3b7ef7f754570610f715468278b8</Anchor>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda967dcfd2ba8dffd87638a19f69fd0d2f</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -60881,7 +61429,139 @@
       <Scope>InterruptDescriptorTable</Scope>
     </TokenIdentifier>
     <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
-    <Anchor>ae79a6033a3ba26058229e609e58f21eda0fdc87971ed5f9e04fd7375970dc6bc2</Anchor>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda1b962115c9c2e43471cecf1b5b40c268</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING0</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda0fcddc8feb45edcdb02be62f7c120296</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21edae16eff06f8c1580d3217539f112a5b5a</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda967dcfd2ba8dffd87638a19f69fd0d2f</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING3</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda1b962115c9c2e43471cecf1b5b40c268</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING0</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda0fcddc8feb45edcdb02be62f7c120296</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21edae16eff06f8c1580d3217539f112a5b5a</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda967dcfd2ba8dffd87638a19f69fd0d2f</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING3</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda1b962115c9c2e43471cecf1b5b40c268</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING0</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda0fcddc8feb45edcdb02be62f7c120296</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING1</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21edae16eff06f8c1580d3217539f112a5b5a</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING2</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda967dcfd2ba8dffd87638a19f69fd0d2f</Anchor>
+    <DeclaredIn>idt.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>RING3</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>econst</Type>
+      <Scope>InterruptDescriptorTable</Scope>
+    </TokenIdentifier>
+    <Path>d2/db2/namespaceInterruptDescriptorTable.html</Path>
+    <Anchor>ae79a6033a3ba26058229e609e58f21eda1b962115c9c2e43471cecf1b5b40c268</Anchor>
     <DeclaredIn>idt.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -61470,7 +62150,7 @@
       <Scope>NetworkARP::ARP</Scope>
     </TokenIdentifier>
     <Path>d9/d9b/classNetworkARP_1_1ARP.html</Path>
-    <Anchor>a28d3c1490f804aa4568e995bfbcc51dd</Anchor>
+    <Anchor>acabd9bc20401d98bbb7d294de3fcd3db</Anchor>
     <DeclaredIn>arp.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -61563,6 +62243,17 @@
       <Scope>NetworkDHCP</Scope>
     </TokenIdentifier>
     <Path>dd/d53/namespaceNetworkDHCP.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__no_sanitize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>NetworkDHCP</Scope>
+    </TokenIdentifier>
+    <Path>dd/d53/namespaceNetworkDHCP.html</Path>
+    <Anchor>a59862d8b209257407a556bdc150e8fb3</Anchor>
+    <DeclaredIn>DynamicHostConfigurationProtocol.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -62627,7 +63318,7 @@
       <Scope>NetworkDHCP::DHCP</Scope>
     </TokenIdentifier>
     <Path>db/dd7/classNetworkDHCP_1_1DHCP.html</Path>
-    <Anchor>a6dbf7f25200131939b5685c65d79acb4</Anchor>
+    <Anchor>a4e4349028ed27de696a59a88a52c8df9</Anchor>
     <DeclaredIn>dhcp.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -62731,7 +63422,7 @@
       <Scope>NetworkUDP::UDPEvents</Scope>
     </TokenIdentifier>
     <Path>d9/d4a/classNetworkUDP_1_1UDPEvents.html</Path>
-    <Anchor>a6a9974d4d01044be9dd465ada049b5b5</Anchor>
+    <Anchor>a6e7e78e42b429bc18f4c47f81a928790</Anchor>
     <DeclaredIn>udp.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -62881,7 +63572,7 @@
       <Scope>NetworkEthernet::EthernetEvents</Scope>
     </TokenIdentifier>
     <Path>de/de9/classNetworkEthernet_1_1EthernetEvents.html</Path>
-    <Anchor>a90b03fe72c573a844d8a24965d112226</Anchor>
+    <Anchor>aa0b4778df8aa957e6121ffaa88811158</Anchor>
     <DeclaredIn>eth.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -62968,7 +63659,7 @@
       <Scope>NetworkEthernet::Ethernet</Scope>
     </TokenIdentifier>
     <Path>d7/d50/classNetworkEthernet_1_1Ethernet.html</Path>
-    <Anchor>a091df1b4fb91b03a60ffb7761db0edfc</Anchor>
+    <Anchor>af31512ad4ca910b429ba09f6ff27ce30</Anchor>
     <Abstract>Send an Ethernet packet.</Abstract>
     <DeclaredIn>eth.hpp</DeclaredIn>
   </Token>
@@ -63013,7 +63704,7 @@
       <Scope>NetworkInterfaceManager::Events</Scope>
     </TokenIdentifier>
     <Path>de/d23/classNetworkInterfaceManager_1_1Events.html</Path>
-    <Anchor>afcd74ffa7d21b4c3daaa163c84fcf6ba</Anchor>
+    <Anchor>a79bcb1ae199a379ef3abd5fb75c31ce5</Anchor>
     <DeclaredIn>nc.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -63024,7 +63715,7 @@
       <Scope>NetworkEthernet::Ethernet</Scope>
     </TokenIdentifier>
     <Path>d7/d50/classNetworkEthernet_1_1Ethernet.html</Path>
-    <Anchor>a6ca63b81d42e540d87653cbf9b6227d9</Anchor>
+    <Anchor>af2f167e0553a5465d12bf904d1dbe55a</Anchor>
     <DeclaredIn>eth.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -63035,7 +63726,7 @@
       <Scope>NetworkEthernet::Ethernet</Scope>
     </TokenIdentifier>
     <Path>d7/d50/classNetworkEthernet_1_1Ethernet.html</Path>
-    <Anchor>ab249a0b878b871160f982f97d7ad2ebc</Anchor>
+    <Anchor>ad127bdca1021804b28a655ad19a59a45</Anchor>
     <DeclaredIn>eth.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -63335,7 +64026,7 @@
       <Scope>NetworkICMPv6::ICMPv6</Scope>
     </TokenIdentifier>
     <Path>d6/df1/classNetworkICMPv6_1_1ICMPv6.html</Path>
-    <Anchor>ac54061463abaca82c3f88d01a7f4c46a</Anchor>
+    <Anchor>a0935da0809dd78889cf90e56a1361d95</Anchor>
     <DeclaredIn>icmpv6.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -63463,7 +64154,7 @@
       <Scope>NetworkInterfaceManager::Events</Scope>
     </TokenIdentifier>
     <Path>de/d23/classNetworkInterfaceManager_1_1Events.html</Path>
-    <Anchor>abc482af1abe2edb49f1ccc2af3a0b48b</Anchor>
+    <Anchor>aba5301d7d1dd31c6e096a77cfae9e3b4</Anchor>
     <DeclaredIn>nc.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -63474,7 +64165,7 @@
       <Scope>NetworkInterfaceManager::Events</Scope>
     </TokenIdentifier>
     <Path>de/d23/classNetworkInterfaceManager_1_1Events.html</Path>
-    <Anchor>afcd74ffa7d21b4c3daaa163c84fcf6ba</Anchor>
+    <Anchor>a79bcb1ae199a379ef3abd5fb75c31ce5</Anchor>
     <DeclaredIn>nc.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -63550,7 +64241,7 @@
       <Scope>NetworkInterfaceManager::NetworkInterface</Scope>
     </TokenIdentifier>
     <Path>d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html</Path>
-    <Anchor>ab3dda12341ce28d8a8ea62f599cbce24</Anchor>
+    <Anchor>a5d47d6d381f46848815843ee2c2023a3</Anchor>
     <DeclaredIn>nc.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -63561,7 +64252,7 @@
       <Scope>NetworkInterfaceManager::NetworkInterface</Scope>
     </TokenIdentifier>
     <Path>d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html</Path>
-    <Anchor>ad988df2e95b5195bde776b6160779f26</Anchor>
+    <Anchor>a910e8ac2b31213ded312eabac9cb6f42</Anchor>
     <DeclaredIn>nc.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -63667,6 +64358,17 @@
       <Scope>NetworkIPv4</Scope>
     </TokenIdentifier>
     <Path>df/d2a/namespaceNetworkIPv4.html</Path>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>__no_sanitize</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>NetworkIPv4</Scope>
+    </TokenIdentifier>
+    <Path>df/d2a/namespaceNetworkIPv4.html</Path>
+    <Anchor>afe8248b873667543c2ebfdb5fa5e3a96</Anchor>
+    <DeclaredIn>InternetProtocol.cpp</DeclaredIn>
   </Token>
   <Token>
     <TokenIdentifier>
@@ -63928,7 +64630,7 @@
       <Scope>NetworkIPv4::IPv4</Scope>
     </TokenIdentifier>
     <Path>d3/d07/classNetworkIPv4_1_1IPv4.html</Path>
-    <Anchor>a4768ee6139985ab914571e365998f946</Anchor>
+    <Anchor>a911ce45e17a97db3ce031b2d3070010c</Anchor>
     <Abstract>Send an IPv4 packet.</Abstract>
     <DeclaredIn>ipv4.hpp</DeclaredIn>
   </Token>
@@ -63982,7 +64684,7 @@
       <Scope>NetworkIPv4::IPv4</Scope>
     </TokenIdentifier>
     <Path>d3/d07/classNetworkIPv4_1_1IPv4.html</Path>
-    <Anchor>af5d77a52d398c4b84e32ef1131decbc2</Anchor>
+    <Anchor>a3fc426cbcbed3886f2cec6eaa5311a50</Anchor>
     <DeclaredIn>ipv4.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64056,7 +64758,7 @@
       <Scope>NetworkIPv4::IPv4Events</Scope>
     </TokenIdentifier>
     <Path>d1/dd4/classNetworkIPv4_1_1IPv4Events.html</Path>
-    <Anchor>a32795959b67be3c6d4a042b1dce033e0</Anchor>
+    <Anchor>a1c3352f5e5d7df0c29425e8189fb21ad</Anchor>
     <DeclaredIn>ipv4.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64172,7 +64874,7 @@
       <Scope>NetworkNTP::NTP</Scope>
     </TokenIdentifier>
     <Path>d7/d0d/classNetworkNTP_1_1NTP.html</Path>
-    <Anchor>a67c88138b3f5816891325b57b1580f1c</Anchor>
+    <Anchor>af19d18b4c4acd74cf4a9e52b390eda09</Anchor>
     <DeclaredIn>ntp.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64296,7 +64998,7 @@
       <Scope>NetworkUDP::UDPEvents</Scope>
     </TokenIdentifier>
     <Path>d9/d4a/classNetworkUDP_1_1UDPEvents.html</Path>
-    <Anchor>a6a9974d4d01044be9dd465ada049b5b5</Anchor>
+    <Anchor>a6e7e78e42b429bc18f4c47f81a928790</Anchor>
     <DeclaredIn>udp.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64405,7 +65107,7 @@
       <Scope>NetworkUDP::UDP</Scope>
     </TokenIdentifier>
     <Path>d0/d72/classNetworkUDP_1_1UDP.html</Path>
-    <Anchor>a731f5592291061b9be161e1bc971aaae</Anchor>
+    <Anchor>acdc863060688de987cdbb53ce983b03d</Anchor>
     <DeclaredIn>udp.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64427,7 +65129,7 @@
       <Scope>NetworkUDP::UDP</Scope>
     </TokenIdentifier>
     <Path>d0/d72/classNetworkUDP_1_1UDP.html</Path>
-    <Anchor>a0f162ff95cf6fe698dfa40ede5e8c3ce</Anchor>
+    <Anchor>a928a7fb68d6096cf67b87385fa2cbb1e</Anchor>
     <DeclaredIn>udp.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64766,7 +65468,7 @@
       <Scope>PCI::PCI</Scope>
     </TokenIdentifier>
     <Path>d8/d81/classPCI_1_1PCI.html</Path>
-    <Anchor>aceb232954eff7993bdadc3183d9f08b6</Anchor>
+    <Anchor>a6603ff4050d83d96bc92712b33403674</Anchor>
     <DeclaredIn>pci.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64777,7 +65479,7 @@
       <Scope>PCI::PCI</Scope>
     </TokenIdentifier>
     <Path>d8/d81/classPCI_1_1PCI.html</Path>
-    <Anchor>ae15fb7e4a4e5fc7d7cfbf399b7151a43</Anchor>
+    <Anchor>a4eb46b19ffefb931abffa3961391881c</Anchor>
     <DeclaredIn>pci.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -64788,7 +65490,7 @@
       <Scope>PCI::PCI</Scope>
     </TokenIdentifier>
     <Path>d8/d81/classPCI_1_1PCI.html</Path>
-    <Anchor>a610f7694b4d3278fd05cf5e8ff54bf0e</Anchor>
+    <Anchor>a8e08f743e46c8ea7b3898204d7b14854</Anchor>
     <DeclaredIn>pci.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66221,7 +66923,7 @@
       <Scope>SMBIOS</Scope>
     </TokenIdentifier>
     <Path>da/d5f/namespaceSMBIOS.html</Path>
-    <Anchor>a0ccad5c9ebf41beebd6a842f30239096</Anchor>
+    <Anchor>a0f5fdd3d90fdc98b67cad79b7a1debc9</Anchor>
     <DeclaredIn>smbios.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -66314,13 +67016,13 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>SMBIOSTableLength</Name>
+      <Name>__no_sanitize</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
       <Scope>SMBIOS</Scope>
     </TokenIdentifier>
     <Path>da/d5f/namespaceSMBIOS.html</Path>
-    <Anchor>a7cf58bb0289a439aff31df8a7a99fe61</Anchor>
+    <Anchor>afaf6549352ef94a1a55a3dd2cf8908d4</Anchor>
     <DeclaredIn>SystemManagementBIOS.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -71605,7 +72307,7 @@
       <Scope>SymbolResolver::Symbols</Scope>
     </TokenIdentifier>
     <Path>d0/dcc/classSymbolResolver_1_1Symbols.html</Path>
-    <Anchor>aa0e15059a54a39daa6e4984327d69c76</Anchor>
+    <Anchor>abd510254a655b7a441b59a3f6a72fd3b</Anchor>
     <DeclaredIn>symbols.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -72967,7 +73669,7 @@
       <Scope>Tasking::Task</Scope>
     </TokenIdentifier>
     <Path>dc/dc5/classTasking_1_1Task.html</Path>
-    <Anchor>a61aa1e4b54bc30b05a8fdfa52bd7e21a</Anchor>
+    <Anchor>a0c769d89938683e7ddada78f5894ee1c</Anchor>
     <DeclaredIn>task.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -74294,7 +74996,7 @@
       <Scope>Video::Display</Scope>
     </TokenIdentifier>
     <Path>db/d81/classVideo_1_1Display.html</Path>
-    <Anchor>a1be7547a6978bec145f858efcfdb4d1b</Anchor>
+    <Anchor>af479dbfc82032a70b88c51d6ffa1555f</Anchor>
     <DeclaredIn>display.hpp</DeclaredIn>
   </Token>
   <Token>
@@ -76009,17 +76711,6 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>EFER</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>tdef</Type>
-      <Scope>x32</Scope>
-    </TokenIdentifier>
-    <Path>de/d52/namespacex32.html</Path>
-    <Anchor>a0e869c2a27690d5523250fc700d3476d</Anchor>
-    <DeclaredIn>cpu.hpp</DeclaredIn>
-  </Token>
-  <Token>
-    <TokenIdentifier>
       <Name>DR7</Name>
       <APILanguage>cpp</APILanguage>
       <Type>tdef</Type>
@@ -76043,6 +76734,39 @@
   </Token>
   <Token>
     <TokenIdentifier>
+      <Name>lgdt</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d52/namespacex32.html</Path>
+    <Anchor>ad9e787a0d701d7c2a8efc0e2e73c52f3</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>lidt</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d52/namespacex32.html</Path>
+    <Anchor>a77e1dc98e287b48ac982986ddb8a75e9</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>ltr</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d52/namespacex32.html</Path>
+    <Anchor>a740caf3bf0be1c36578c1f20a7127407</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
       <Name>invlpg</Name>
       <APILanguage>cpp</APILanguage>
       <Type>func</Type>
@@ -76050,6 +76774,28 @@
     </TokenIdentifier>
     <Path>de/d52/namespacex32.html</Path>
     <Anchor>aa5ab3109baaf98f4eb8a8ef2415bd7f6</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fxsave</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d52/namespacex32.html</Path>
+    <Anchor>a296f5c407f3cbf7c86be8de9f7735e6e</Anchor>
+    <DeclaredIn>cpu.hpp</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>fxrstor</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>func</Type>
+      <Scope>x32</Scope>
+    </TokenIdentifier>
+    <Path>de/d52/namespacex32.html</Path>
+    <Anchor>a85cf1622e1fef6619a9e77c837de51c4</Anchor>
     <DeclaredIn>cpu.hpp</DeclaredIn>
   </Token>
   <Token>

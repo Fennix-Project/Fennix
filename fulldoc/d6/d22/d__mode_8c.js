@@ -6,6 +6,6 @@ var d__mode_8c =
     [ "D_ValidEpisodeMap", "d6/d22/d__mode_8c.html#a53b4654367558fa00ba8dd5568d03dd9", null ],
     [ "D_ValidGameMode", "d6/d22/d__mode_8c.html#a8b686b95af54c888cc11f262c777c18f", null ],
     [ "D_ValidGameVersion", "d6/d22/d__mode_8c.html#aae757f61f04f530c84edf9e8e8b35ebb", null ],
-    [ "valid_modes", "d6/d22/d__mode_8c.html#aa811d71e88af3e2b76888d6fdca23bcf", null ],
-    [ "valid_versions", "d6/d22/d__mode_8c.html#ab4d40d419adc9dd88361a4e29a59c00f", null ]
+    [ "valid_modes", "d6/d22/d__mode_8c.html#a50f61b6b1545d296481979d1c62aa02c", null ],
+    [ "valid_versions", "d6/d22/d__mode_8c.html#aa4f27835f07b4446551ecac041c105a4", null ]
 ];

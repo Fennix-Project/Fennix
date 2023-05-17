@@ -1,9 +1,9 @@
 var ArithmeticOperations_8c =
 [
     [ "arith64_word", "d0/d18/ArithmeticOperations_8c.html#d3/d6a/unionarith64__word", [
-      [ "s32", "d0/d18/ArithmeticOperations_8c.html#a6e467705a6691fc3ff876e76cf18c160", null ],
+      [ "s32", "d0/d18/ArithmeticOperations_8c.html#a720ce7c6842f9160c7ab554d3ec48714", null ],
       [ "s64", "d0/d18/ArithmeticOperations_8c.html#ae05a2ca8fb9ebfd35615d32938fb4aa3", null ],
-      [ "u32", "d0/d18/ArithmeticOperations_8c.html#a04c9f13e4df3988cb15e8c3c2e77878d", null ],
+      [ "u32", "d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3", null ],
       [ "u64", "d0/d18/ArithmeticOperations_8c.html#ad192cbe21090ac61ed87ab8fefea7fd8", null ]
     ] ],
     [ "atomic_uint64_t", "d0/d18/ArithmeticOperations_8c.html#d0/d1b/structatomic__uint64__t", [
@@ -64,6 +64,7 @@ var ArithmeticOperations_8c =
     [ "__muldf3", "d0/d18/ArithmeticOperations_8c.html#ad84587c0fd7657788f036b42f5d37e7b", null ],
     [ "__mulsf3", "d0/d18/ArithmeticOperations_8c.html#af1df8ff89024c799b24cb56bf0327380", null ],
     [ "__nedf2", "d0/d18/ArithmeticOperations_8c.html#a217f7b7d94461799a0264398df524bdd", null ],
+    [ "__nesf2", "d0/d18/ArithmeticOperations_8c.html#a6045da5716bbf035094b7ac9def77cb2", null ],
     [ "__popcountdi2", "d0/d18/ArithmeticOperations_8c.html#ad09591fa215472eecaa513d8e8f1ba28", null ],
     [ "__popcountsi2", "d0/d18/ArithmeticOperations_8c.html#a84c610895108e6510c064690a834b2cd", null ],
     [ "__subdf3", "d0/d18/ArithmeticOperations_8c.html#a8243402917a8e3551e58276ce3a32e92", null ],

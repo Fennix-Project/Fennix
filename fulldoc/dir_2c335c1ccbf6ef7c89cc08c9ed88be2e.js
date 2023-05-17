@@ -14,7 +14,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "cpu.hpp", "df/dbe/cpu_8hpp.html", "df/dbe/cpu_8hpp" ],
     [ "crc32.h", "dc/d24/crc32_8h.html", "dc/d24/crc32_8h" ],
     [ "cwalk.h", "da/d7d/cwalk_8h.html", "da/d7d/cwalk_8h" ],
-    [ "debug.h", "d3/d70/Kernel_2include_2debug_8h.html", "d3/d70/Kernel_2include_2debug_8h" ],
+    [ "debug.h", "db/d16/debug_8h.html", "db/d16/debug_8h" ],
     [ "disk.hpp", "d8/da3/disk_8hpp.html", "d8/da3/disk_8hpp" ],
     [ "display.hpp", "d2/da4/display_8hpp.html", "d2/da4/display_8hpp" ],
     [ "driver.hpp", "d7/d7e/driver_8hpp.html", "d7/d7e/driver_8hpp" ],
@@ -56,5 +56,5 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "task.hpp", "d8/da1/task_8hpp.html", "d8/da1/task_8hpp" ],
     [ "time.hpp", "de/d99/time_8hpp.html", "de/d99/time_8hpp" ],
     [ "types.h", "d0/df4/Kernel_2include_2types_8h.html", "d0/df4/Kernel_2include_2types_8h" ],
-    [ "uart.hpp", "dd/d99/Kernel_2include_2uart_8hpp.html", "dd/d99/Kernel_2include_2uart_8hpp" ]
+    [ "uart.hpp", "de/d3f/uart_8hpp.html", "de/d3f/uart_8hpp" ]
 ];

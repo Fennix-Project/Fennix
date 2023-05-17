@@ -10,7 +10,7 @@ var classVideo_1_1Display =
     [ "GetBuffer", "db/d81/classVideo_1_1Display.html#a060126a04e145f3d25ca00d957ffb7d6", null ],
     [ "GetBufferCursor", "db/d81/classVideo_1_1Display.html#a0097ccf084f7dc5a12d1cc11a44b4b23", null ],
     [ "GetCurrentFont", "db/d81/classVideo_1_1Display.html#a3f28ee62fda3c67362e8a337f2c2103a", null ],
-    [ "GetPitch", "db/d81/classVideo_1_1Display.html#a1be7547a6978bec145f858efcfdb4d1b", null ],
+    [ "GetPitch", "db/d81/classVideo_1_1Display.html#af479dbfc82032a70b88c51d6ffa1555f", null ],
     [ "GetPixel", "db/d81/classVideo_1_1Display.html#abd4c5c00303ee20b32f7e71ff596c7a0", null ],
     [ "Print", "db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82", null ],
     [ "Scroll", "db/d81/classVideo_1_1Display.html#a5c4acb83008add3aa6605abd1d7baa97", null ],

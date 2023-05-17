@@ -18,7 +18,7 @@ var KernelThread_8cpp =
     [ "DevFS", "dd/d06/KernelThread_8cpp.html#a43052874d2e8f788508a68ec4cc5a043", null ],
     [ "DiskManager", "dd/d06/KernelThread_8cpp.html#a33f633a63c7075ece0b1c1dc31e49043", null ],
     [ "DriverManager", "dd/d06/KernelThread_8cpp.html#ace4da8d4e1075769d48168995aba88f7", null ],
-    [ "FrameCount", "dd/d06/KernelThread_8cpp.html#af926009d2060e4aa1bdfa2e80bb2e3bd", null ],
+    [ "FrameCount", "dd/d06/KernelThread_8cpp.html#aea40c6a582db2bc41976f4a83bd92069", null ],
     [ "Frames", "dd/d06/KernelThread_8cpp.html#af9c08e118a1df3a7e89b5ccbe95313aa", null ],
     [ "FrameSizes", "dd/d06/KernelThread_8cpp.html#a997963992146fd6c7da2a2042c55be46", null ],
     [ "MntFS", "dd/d06/KernelThread_8cpp.html#abb03315691c3e421aae0098752d17f43", null ],

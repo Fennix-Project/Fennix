@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('df/d2a/namespaceNetworkIPv4.html','../
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">NetworkIPv4 Namespace Reference</div>  </div>
@@ -134,6 +135,11 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:ac92e7701f3e30b7514632f40e687f879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:afe8248b873667543c2ebfdb5fa5e3a96"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d2a/namespaceNetworkIPv4.html#afe8248b873667543c2ebfdb5fa5e3a96">__no_sanitize</a> (&quot;alignment&quot;) bool <a class="el" href="../../d3/d07/classNetworkIPv4_1_1IPv4.html">IPv4</a></td></tr>
+<tr class="separator:afe8248b873667543c2ebfdb5fa5e3a96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -341,6 +347,94 @@ Header</td>
 </div><!-- fragment -->
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="afe8248b873667543c2ebfdb5fa5e3a96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe8248b873667543c2ebfdb5fa5e3a96">&#9670;&nbsp;</a></span>__no_sanitize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NetworkIPv4::__no_sanitize </td>
+          <td>(</td>
+          <td class="paramtype">&quot;alignment&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00071">71</a> of file <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html">InternetProtocol.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        IPv4Packet *Packet = (IPv4Packet *)<a class="code" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Received %d bytes [Protocol %ld]&quot;</span>, <a class="code" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>, Packet-&gt;Header.Protocol);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a> &lt; <span class="keyword">sizeof</span>(IPv4Header))</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Packet too short&quot;</span>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordtype">bool</span> Reply = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a>(Packet-&gt;Header.DestinationIP) == Ethernet-&gt;GetInterface()-&gt;IP.v4.ToHex() || <a class="code" href="../../d6/de6/include_2types_8h.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a>(Packet-&gt;Header.DestinationIP) == 0xFFFFFFFF || Ethernet-&gt;GetInterface()-&gt;IP.v4.ToHex() == 0)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordtype">size_t</span> TotalLength = Packet-&gt;Header.TotalLength;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">if</span> (TotalLength &gt; <a class="code" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                TotalLength = <a class="code" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> Event <span class="keywordflow">in</span> <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a>)</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <span class="keywordflow">if</span> (Packet-&gt;Header.Protocol == Event-&gt;GetProtocol())</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                    <a class="code" href="../../d4/d2d/net_8hpp.html#d8/d38/structInternetProtocol">InternetProtocol</a> SourceIP;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                    <a class="code" href="../../d4/d2d/net_8hpp.html#d8/d38/structInternetProtocol">InternetProtocol</a> DestinationIP;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                    SourceIP.<a class="code" href="../../d4/d2d/net_8hpp.html#ab9ff0a78f940f0b2408f5108ac69eeb5">v4</a> = SourceIP.<a class="code" href="../../d4/d2d/net_8hpp.html#ab9ff0a78f940f0b2408f5108ac69eeb5">v4</a>.<a class="code" href="../../d0/d8b/structInternetProtocol_1_1Version4.html#a0717b0a61a8d0928177bd44a0664926f">FromHex</a>(<a class="code" href="../../d6/de6/include_2types_8h.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a>(Packet-&gt;Header.SourceIP));</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                    DestinationIP.<a class="code" href="../../d4/d2d/net_8hpp.html#ab9ff0a78f940f0b2408f5108ac69eeb5">v4</a> = DestinationIP.<a class="code" href="../../d4/d2d/net_8hpp.html#ab9ff0a78f940f0b2408f5108ac69eeb5">v4</a>.<a class="code" href="../../d0/d8b/structInternetProtocol_1_1Version4.html#a0717b0a61a8d0928177bd44a0664926f">FromHex</a>(<a class="code" href="../../d6/de6/include_2types_8h.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a>(Packet-&gt;Header.DestinationIP));</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                    <span class="keywordflow">if</span> (Event-&gt;OnIPv4PacketReceived(SourceIP, DestinationIP, (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)((<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a> + 4 * Packet-&gt;Header.IHL), TotalLength - 4 * Packet-&gt;Header.IHL))</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                        Reply = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            <a class="code" href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a>(<span class="stringliteral">&quot;Not for us. We are %s but this is for %s&quot;</span>,</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                   Ethernet-&gt;GetInterface()-&gt;IP.v4.ToHex(),</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                   Packet-&gt;Header.DestinationIP);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        }</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">if</span> (Reply)</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> SwapIP = Packet-&gt;Header.DestinationIP;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            Packet-&gt;Header.DestinationIP = Packet-&gt;Header.SourceIP;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            Packet-&gt;Header.SourceIP = SwapIP;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            Packet-&gt;Header.TimeToLive = 0x40;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            Packet-&gt;Header.HeaderChecksum = 0x0;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            Packet-&gt;Header.HeaderChecksum = <a class="code" href="../../d4/d2d/net_8hpp.html#a8c14b5ee2df294ccbb24e2a889b108ba">CalculateChecksum</a>((<a class="code" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> *)<a class="code" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>, 4 * Packet-&gt;Header.TotalLength);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <a class="code" href="../../dd/d06/KernelThread_8cpp.html#a78221b78083c91d052ddd9370185fc1b">NIManager</a>-&gt;<a class="code" href="../../d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a5d47d6d381f46848815843ee2c2023a3">Send</a>(Ethernet-&gt;GetInterface(), (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)<a class="code" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>, <a class="code" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">return</span> Reply;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
+<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
+<div class="ttc" id="aKernelThread_8cpp_html_a78221b78083c91d052ddd9370185fc1b"><div class="ttname"><a href="../../dd/d06/KernelThread_8cpp.html#a78221b78083c91d052ddd9370185fc1b">NIManager</a></div><div class="ttdeci">NetworkInterfaceManager::NetworkInterface * NIManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d06/KernelThread_8cpp_source.html#l00049">KernelThread.cpp:49</a></div></div>
+<div class="ttc" id="aUniversalAsynchronousReceiverTransmitter_8cpp_html_aee0ff1d31b3a68174974904f35c61071"><div class="ttname"><a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a></div><div class="ttdeci">std::vector&lt; UniversalAsynchronousReceiverTransmitter::Events * &gt; RegisteredEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00024">UniversalAsynchronousReceiverTransmitter.cpp:24</a></div></div>
+<div class="ttc" id="abinfo_8h_html_a01ae9666c16c57cec1c6e4e28a0eb0e3"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a></div><div class="ttdeci">__UINT32_TYPE__ Length</div><div class="ttdoc">Length.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00025">binfo.h:25</a></div></div>
+<div class="ttc" id="aclassNetworkInterfaceManager_1_1NetworkInterface_html_a5d47d6d381f46848815843ee2c2023a3"><div class="ttname"><a href="../../d0/d99/classNetworkInterfaceManager_1_1NetworkInterface.html#a5d47d6d381f46848815843ee2c2023a3">NetworkInterfaceManager::NetworkInterface::Send</a></div><div class="ttdeci">void Send(DeviceInterface *Interface, uint8_t *Data, size_t Length)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d3a/NetworkController_8cpp_source.html#l00213">NetworkController.cpp:213</a></div></div>
+<div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00079">debug.h:79</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00145">types.h:145</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00146">types.h:146</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_ae6339ff3644650c6bb6416c9afd8bf5d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a></div><div class="ttdeci">#define b32(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00283">types.h:283</a></div></div>
+<div class="ttc" id="anet_8hpp_html_a004134c58b97d5500bb67ad511fcbb96"><div class="ttname"><a href="../../d4/d2d/net_8hpp.html#a004134c58b97d5500bb67ad511fcbb96">netdbg</a></div><div class="ttdeci">#define netdbg(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/net_8hpp_source.html#l00031">net.hpp:31</a></div></div>
+<div class="ttc" id="anet_8hpp_html_a8c14b5ee2df294ccbb24e2a889b108ba"><div class="ttname"><a href="../../d4/d2d/net_8hpp.html#a8c14b5ee2df294ccbb24e2a889b108ba">CalculateChecksum</a></div><div class="ttdeci">uint16_t CalculateChecksum(uint16_t *Data, size_t Length)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d24/Checksum_8cpp_source.html#l00020">Checksum.cpp:20</a></div></div>
+<div class="ttc" id="anet_8hpp_html_ab9ff0a78f940f0b2408f5108ac69eeb5"><div class="ttname"><a href="../../d4/d2d/net_8hpp.html#ab9ff0a78f940f0b2408f5108ac69eeb5">InternetProtocol::v4</a></div><div class="ttdeci">struct InternetProtocol::Version4 v4</div></div>
+<div class="ttc" id="anet_8hpp_html_d8/d38/structInternetProtocol"><div class="ttname"><a href="../../d4/d2d/net_8hpp.html#d8/d38/structInternetProtocol">InternetProtocol</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/net_8hpp_source.html#l00131">net.hpp:132</a></div></div>
+<div class="ttc" id="asmp_8hpp_html_a7c318f3349713a8030d610e4a263d10a"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a></div><div class="ttdeci">CPUArchData Data</div><div class="ttdoc">Architecture-specific data.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00022">smp.hpp:22</a></div></div>
+<div class="ttc" id="astructInternetProtocol_1_1Version4_html_a0717b0a61a8d0928177bd44a0664926f"><div class="ttname"><a href="../../d0/d8b/structInternetProtocol_1_1Version4.html#a0717b0a61a8d0928177bd44a0664926f">InternetProtocol::Version4::FromHex</a></div><div class="ttdeci">InternetProtocol::Version4 FromHex(uint32_t Hex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2d/net_8hpp_source.html#l00171">net.hpp:171</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00283">b32</a>, <a class="el" href="../../d5/d24/Checksum_8cpp_source.html#l00020">CalculateChecksum()</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00022">Data</a>, <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00041">NetworkIPv4::IPv4Header::DestinationIP</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00171">InternetProtocol::Version4::FromHex()</a>, <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00061">NetworkIPv4::IPv4Packet::Header</a>, <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00039">NetworkIPv4::IPv4Header::HeaderChecksum</a>, <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00030">NetworkIPv4::IPv4Header::IHL</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00025">Length</a>, <a class="el" href="../../d4/d2d/net_8hpp_source.html#l00031">netdbg</a>, <a class="el" href="../../dd/d06/KernelThread_8cpp_source.html#l00049">NIManager</a>, <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00038">NetworkIPv4::IPv4Header::Protocol</a>, <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00069">RegisteredEvents</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00213">NetworkInterfaceManager::NetworkInterface::Send()</a>, <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00040">NetworkIPv4::IPv4Header::SourceIP</a>, <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00037">NetworkIPv4::IPv4Header::TimeToLive</a>, <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00033">NetworkIPv4::IPv4Header::TotalLength</a>, <a class="el" href="../../d4/d2d/net_8hpp.html#ab9ff0a78f940f0b2408f5108ac69eeb5">InternetProtocol::v4</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00079">warn</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a8b08389dabc1ca3e4733fb9b1720805f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b08389dabc1ca3e4733fb9b1720805f">&#9670;&nbsp;</a></span>RegisteredEvents</h2>
@@ -356,7 +450,7 @@ Header</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00069">69</a> of file <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html">InternetProtocol.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00122">NetworkIPv4::IPv4Events::IPv4Events()</a>, <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00071">NetworkIPv4::IPv4::OnEthernetPacketReceived()</a>, and <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00128">NetworkIPv4::IPv4Events::~IPv4Events()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00071">__no_sanitize()</a>, <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00122">NetworkIPv4::IPv4Events::IPv4Events()</a>, and <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00128">NetworkIPv4::IPv4Events::~IPv4Events()</a>.</p>
 
 </div>
 </div>

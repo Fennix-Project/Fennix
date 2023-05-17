@@ -22,7 +22,7 @@ var filesystem_8hpp =
       [ "Mask", "d5/da1/namespaceVirtualFileSystem.html#ab5b721fadfb91a39d2615f6d4c9f4d11", null ],
       [ "Mode", "d5/da1/namespaceVirtualFileSystem.html#a521c32a6e7b8d5da1dc472e4cdb9a0e5", null ],
       [ "Name", "d5/da1/namespaceVirtualFileSystem.html#acf0e5c228699b890c32df3ebe86a3d9d", null ],
-      [ "Offset", "d5/da1/namespaceVirtualFileSystem.html#af87d0caf01dbc0f9d1354416cf379c1c", null ],
+      [ "Offset", "d5/da1/namespaceVirtualFileSystem.html#ac57e3c29c9f45ce070c8a7b7864dfa9c", null ],
       [ "Operator", "d5/da1/namespaceVirtualFileSystem.html#a6705fcbb1f33f4919fdf90ed7a2ecdb0", null ],
       [ "Parent", "d5/da1/namespaceVirtualFileSystem.html#a2a269f685aa8f6429deb067e9b7ae56e", null ],
       [ "UserIdentifier", "d5/da1/namespaceVirtualFileSystem.html#a2f3f88e787fd98b7e0e869bbb0c66862", null ]

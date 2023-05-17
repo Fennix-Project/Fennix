@@ -10,7 +10,7 @@ var classSymbolResolver_1_1Symbols =
     [ "AddSymbol", "d0/dcc/classSymbolResolver_1_1Symbols.html#a21edee6b4d264c96fb47c52be5cd9e55", null ],
     [ "GetImage", "d0/dcc/classSymbolResolver_1_1Symbols.html#a2ba7f8a0866432abf64c000db7091009", null ],
     [ "GetSymbolFromAddress", "d0/dcc/classSymbolResolver_1_1Symbols.html#a25044e347cfff3b35579a1eaa71aa55a", null ],
-    [ "GetTotalEntries", "d0/dcc/classSymbolResolver_1_1Symbols.html#aa0e15059a54a39daa6e4984327d69c76", null ],
+    [ "GetTotalEntries", "d0/dcc/classSymbolResolver_1_1Symbols.html#abd510254a655b7a441b59a3f6a72fd3b", null ],
     [ "Image", "d0/dcc/classSymbolResolver_1_1Symbols.html#af93fc58294c0d28b3f30dda06431cb23", null ],
     [ "SymTable", "d0/dcc/classSymbolResolver_1_1Symbols.html#a8a89962f11e2f6f12f18d3594f16b3ce", null ],
     [ "TotalEntries", "d0/dcc/classSymbolResolver_1_1Symbols.html#a50b6a63e80b10258866965bbc050dc47", null ]

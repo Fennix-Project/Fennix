@@ -7,8 +7,8 @@ var classNetworkUDP_1_1UDP =
     [ "Disconnect", "d0/d72/classNetworkUDP_1_1UDP.html#a50c2e68288d80d8523f010c657dcd4df", null ],
     [ "GetInterface", "d0/d72/classNetworkUDP_1_1UDP.html#a986d53d5dc00acf9785eb11a0f9daa72", null ],
     [ "Listen", "d0/d72/classNetworkUDP_1_1UDP.html#a9a92c621a2e6c41b492c8af5e4130548", null ],
-    [ "OnIPv4PacketReceived", "d0/d72/classNetworkUDP_1_1UDP.html#a0f162ff95cf6fe698dfa40ede5e8c3ce", null ],
-    [ "Send", "d0/d72/classNetworkUDP_1_1UDP.html#a731f5592291061b9be161e1bc971aaae", null ],
+    [ "OnIPv4PacketReceived", "d0/d72/classNetworkUDP_1_1UDP.html#a928a7fb68d6096cf67b87385fa2cbb1e", null ],
+    [ "Send", "d0/d72/classNetworkUDP_1_1UDP.html#acdc863060688de987cdbb53ce983b03d", null ],
     [ "Interface", "d0/d72/classNetworkUDP_1_1UDP.html#ac5b70e140f8c0250f44a1bacedebe613", null ],
     [ "ipv4", "d0/d72/classNetworkUDP_1_1UDP.html#a5e2d7de699c5aca070d7ebbcdc276a7e", null ]
 ];

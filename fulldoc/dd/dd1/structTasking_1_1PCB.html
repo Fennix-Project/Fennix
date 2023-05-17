@@ -164,15 +164,15 @@ Data Fields</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00197">197</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        {</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            CriticalSection cs;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <a class="code" href="../../d3/d70/Kernel_2include_2debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Setting working directory of process %s to %#lx (%s)&quot;</span>, <a class="code" href="../../dd/dd1/structTasking_1_1PCB.html#ae33532aeb44602803ff57c1bda7c8b2f">Name</a>, <a class="code" href="../../d9/def/search_8cpp.html#d5/da1/structnode">node</a>, <a class="code" href="../../d9/def/search_8cpp.html#d5/da1/structnode">node</a>-&gt;Name);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Setting working directory of process %s to %#lx (%s)&quot;</span>, <a class="code" href="../../dd/dd1/structTasking_1_1PCB.html#ae33532aeb44602803ff57c1bda7c8b2f">Name</a>, <a class="code" href="../../d9/def/search_8cpp.html#d5/da1/structnode">node</a>, <a class="code" href="../../d9/def/search_8cpp.html#d5/da1/structnode">node</a>-&gt;Name);</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <a class="code" href="../../dd/dd1/structTasking_1_1PCB.html#ad6b1c0357e13eb4e90d9703102f784ee">CurrentWorkingDirectory</a> = <a class="code" href="../../d9/def/search_8cpp.html#d5/da1/structnode">node</a>;</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        }</div>
-<div class="ttc" id="aKernel_2include_2debug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../d3/d70/Kernel_2include_2debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/Kernel_2include_2debug_8h_source.html#l00088">debug.h:88</a></div></div>
+<div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00088">debug.h:88</a></div></div>
 <div class="ttc" id="asearch_8cpp_html_d5/da1/structnode"><div class="ttname"><a href="../../d9/def/search_8cpp.html#d5/da1/structnode">node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/def/search_8cpp_source.html#l00010">search.cpp:10</a></div></div>
 <div class="ttc" id="astructTasking_1_1PCB_html_ad6b1c0357e13eb4e90d9703102f784ee"><div class="ttname"><a href="../../dd/dd1/structTasking_1_1PCB.html#ad6b1c0357e13eb4e90d9703102f784ee">Tasking::PCB::CurrentWorkingDirectory</a></div><div class="ttdeci">VirtualFileSystem::Node * CurrentWorkingDirectory</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00193">task.hpp:193</a></div></div>
 <div class="ttc" id="astructTasking_1_1PCB_html_ae33532aeb44602803ff57c1bda7c8b2f"><div class="ttname"><a href="../../dd/dd1/structTasking_1_1PCB.html#ae33532aeb44602803ff57c1bda7c8b2f">Tasking::PCB::Name</a></div><div class="ttdeci">char Name[256]</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00182">task.hpp:182</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/da1/task_8hpp_source.html#l00193">CurrentWorkingDirectory</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00182">Name</a>, and <a class="el" href="../../d3/d70/Kernel_2include_2debug_8h_source.html#l00088">trace</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da1/task_8hpp_source.html#l00193">CurrentWorkingDirectory</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00182">Name</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00088">trace</a>.</p>
 
 </div>
 </div>
@@ -317,7 +317,7 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00195">195</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">Tasking::Task::CreateThread()</a>, <a class="el" href="../../d3/d4b/BindInput_8cpp_source.html#l00034">Driver::Driver::DriverLoadBindInput()</a>, <a class="el" href="../../da/df8/BindInterrupt_8cpp_source.html#l00034">Driver::Driver::DriverLoadBindInterrupt()</a>, <a class="el" href="../../d7/dc4/BindPCI_8cpp_source.html#l00130">Driver::Driver::DriverLoadBindPCI()</a>, and <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00039">NetworkInterfaceManager::NetworkInterface::NetworkInterface()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d4b/BindInput_8cpp_source.html#l00034">Driver::Driver::DriverLoadBindInput()</a>, <a class="el" href="../../da/df8/BindInterrupt_8cpp_source.html#l00034">Driver::Driver::DriverLoadBindInterrupt()</a>, <a class="el" href="../../d7/dc4/BindPCI_8cpp_source.html#l00130">Driver::Driver::DriverLoadBindPCI()</a>, and <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00039">NetworkInterfaceManager::NetworkInterface::NetworkInterface()</a>.</p>
 
 </div>
 </div>
@@ -335,7 +335,7 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00182">182</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">Tasking::Task::CreateThread()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00816">CrashHandler::Handle()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00197">SetWorkingDirectory()</a>, <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00345">sys_fork()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00761">Tasking::Task::Task()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00217">Tasking::Task::WaitForProcess()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00239">Tasking::Task::WaitForProcessStatus()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00816">CrashHandler::Handle()</a>, <a class="el" href="../../d8/da1/task_8hpp_source.html#l00197">SetWorkingDirectory()</a>, <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00345">sys_fork()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00761">Tasking::Task::Task()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00217">Tasking::Task::WaitForProcess()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00239">Tasking::Task::WaitForProcessStatus()</a>.</p>
 
 </div>
 </div>
@@ -353,7 +353,7 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00191">191</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">Tasking::Task::CreateThread()</a>, and <a class="el" href="../../de/d15/UserHandler_8cpp_source.html#l00045">UserModeExceptionHandler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d15/UserHandler_8cpp_source.html#l00045">UserModeExceptionHandler()</a>.</p>
 
 </div>
 </div>
@@ -405,7 +405,7 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/da1/task_8hpp_source.html#l00186">186</a> of file <a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">Tasking::Task::CreateThread()</a>, and <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00345">sys_fork()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00345">sys_fork()</a>.</p>
 
 </div>
 </div>

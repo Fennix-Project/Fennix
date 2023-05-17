@@ -12,8 +12,8 @@ var gui_8hpp =
       [ "BitsPerPixel", "db/df1/namespaceGraphicalUserInterface.html#a5ee2583396d1488c6a5d8b8f9445a587", null ],
       [ "Data", "db/df1/namespaceGraphicalUserInterface.html#a8e70ed26a503e32dfab786acd859dcbf", null ],
       [ "Height", "db/df1/namespaceGraphicalUserInterface.html#ad6979e9418773fa4a34b4d3f501025a6", null ],
-      [ "Pitch", "db/df1/namespaceGraphicalUserInterface.html#a607c3afee115639c6c1410adc6acb69c", null ],
-      [ "Size", "db/df1/namespaceGraphicalUserInterface.html#ac37ffa6d4a169674b836e3d4aa633922", null ],
+      [ "Pitch", "db/df1/namespaceGraphicalUserInterface.html#a53cc4ffd3ab514317db04bc9c5f27c82", null ],
+      [ "Size", "db/df1/namespaceGraphicalUserInterface.html#aa22021f6a878dd03acd7453aabf19b11", null ],
       [ "Width", "db/df1/namespaceGraphicalUserInterface.html#a3b7b98f7e6f58184a30032738f8ed801", null ]
     ] ],
     [ "Rect", "d7/dbb/structGraphicalUserInterface_1_1Rect.html", "d7/dbb/structGraphicalUserInterface_1_1Rect" ],
@@ -28,8 +28,8 @@ var gui_8hpp =
       [ "Type", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a463e1a87cbe1a5b5d0414a658654d5a7", null ]
     ] ],
     [ "LabelObject", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#d0/d64/structGraphicalUserInterface_1_1WidgetCollection_1_1LabelObject", [
-      [ "CharCursorX", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a339c81c9d42639d6d6e5b86c58867223", null ],
-      [ "CharCursorY", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a6f7eb708fda54ad791d61e7ce245a40b", null ],
+      [ "CharCursorX", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a4784ddd1aca5dc6157de69ce6f9afe7f", null ],
+      [ "CharCursorY", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a646500ef03feaade941201727ea6c031", null ],
       [ "Color", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a179efb922a04052c443838b1597be52a", null ],
       [ "Handle", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#aaec320512e61dc4416386a3c985c9c4e", null ],
       [ "rect", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#afeee401dd26e068565a2c98ae2b382cc", null ],
@@ -45,8 +45,8 @@ var gui_8hpp =
     ] ],
     [ "ButtonObject", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#d3/d02/structGraphicalUserInterface_1_1WidgetCollection_1_1ButtonObject", [
       [ "BorderColor", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a545b3378886b32d0f610f6d7fa0cbe34", null ],
-      [ "CharCursorX", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ac5881ed939d87bf2adfef4d023436b59", null ],
-      [ "CharCursorY", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ad60a4a9ed2408de69de1443860846db6", null ],
+      [ "CharCursorX", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a171681f16c01e752d5d3b6600dd5fce4", null ],
+      [ "CharCursorY", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a2e345ed972a4d9359cb0acb1afc62f9a", null ],
       [ "Color", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ad14ca2528553181593ae03446e447678", null ],
       [ "Handle", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a654ee309dc59c2ca9a2449de60bdecf1", null ],
       [ "Hover", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ae58cea9003f4e28de6accba5e6c3305a", null ],
@@ -105,12 +105,12 @@ var gui_8hpp =
       [ "AppStarting", "dc/d7c/gui_8hpp.html#a12a8cbbe1fe1863d4758451bf8a8ff81a750245ef3b26c980862c51748a9db3cb", null ]
     ] ],
     [ "BlendColors", "dc/d7c/gui_8hpp.html#af94aeb8bbe20df91e4aa306366a25a91", null ],
-    [ "DrawOverBitmap", "dc/d7c/gui_8hpp.html#ac3aa491e96b9f6ef7a4bf33cd447ac37", null ],
+    [ "DrawOverBitmap", "dc/d7c/gui_8hpp.html#a31ff2f6e71febae6afaf97bbdf9fa164", null ],
     [ "DrawShadow", "dc/d7c/gui_8hpp.html#a90d701ebb12eb1384ee3505c8c46b2e9", null ],
     [ "DrawString", "dc/d7c/gui_8hpp.html#a686327d6b641f719154ed28af46024df", null ],
-    [ "PaintChar", "dc/d7c/gui_8hpp.html#a5990a47cd408b26c4f30648c359df162", null ],
+    [ "PaintChar", "dc/d7c/gui_8hpp.html#ae1adfb02095931e319124530e589a756", null ],
     [ "PutBorder", "dc/d7c/gui_8hpp.html#ac541063f719ab5ee515df5b4189b60e0", null ],
     [ "PutBorderWithShadow", "dc/d7c/gui_8hpp.html#a1ce4f5d5e5a92586897c810527b821b3", null ],
     [ "PutRect", "dc/d7c/gui_8hpp.html#acbaae7c325a3965ab8f3c2be193ff8af", null ],
-    [ "SetPixel", "dc/d7c/gui_8hpp.html#a63708ba2e12d5c6ea53e1921127765e3", null ]
+    [ "SetPixel", "dc/d7c/gui_8hpp.html#a0dd8851e1d482d2a5316ff4a0825991f", null ]
 ];

@@ -15,15 +15,13 @@ var disk_8hpp =
       [ "Signature", "d1/d29/namespaceDisk.html#ae042f4fd5a7f6b7e8e32c80ae5606ef6", null ],
       [ "UniqueID", "d1/d29/namespaceDisk.html#a8abff675eb2cf8aa6cf3db249164f099", null ]
     ] ],
-    [ "GUIDPartitionTablePartition", "d1/d29/namespaceDisk.html#d6/de1/structDisk_1_1GUIDPartitionTablePartition", [
-      [ "Attributes", "d1/d29/namespaceDisk.html#a14b2f6e043bd31c9ffc07aa7707f75cc", null ],
-      [ "EndLBA", "d1/d29/namespaceDisk.html#a27322763bc387a8d1cdb7b34770f06f9", null ],
-      [ "GUIDHigh", "d1/d29/namespaceDisk.html#a729ae3c97a977541324af447f09118b9", null ],
-      [ "GUIDLow", "d1/d29/namespaceDisk.html#a99fd670b81d7c67981ebb0b8fcb25793", null ],
-      [ "Label", "d1/d29/namespaceDisk.html#a7970fded543c7018cdbcfec7f58eee63", null ],
-      [ "StartLBA", "d1/d29/namespaceDisk.html#abc3626e3f1d77c991e72a7b1804ebf4b", null ],
-      [ "TypeHigh", "d1/d29/namespaceDisk.html#a92be33133cd609c50f58899dc68ec674", null ],
-      [ "TypeLow", "d1/d29/namespaceDisk.html#a188bfc8b6331a856eb6433ba2dbdece2", null ]
+    [ "GUIDPartitionTableEntry", "d1/d29/namespaceDisk.html#d6/d5a/structDisk_1_1GUIDPartitionTableEntry", [
+      [ "Attributes", "d1/d29/namespaceDisk.html#a7fe5f2f1c902ad7236f0305818438ae2", null ],
+      [ "FirstLBA", "d1/d29/namespaceDisk.html#af8bd6a1005d80e3210dbf033c180cd91", null ],
+      [ "LastLBA", "d1/d29/namespaceDisk.html#a4c78e88a66a03df1620a1e174bb0a69c", null ],
+      [ "PartitionName", "d1/d29/namespaceDisk.html#a42e267a65d4bfd78ab8bf6097a717d7c", null ],
+      [ "PartitionType", "d1/d29/namespaceDisk.html#ac2e806891a46306951353851897e487a", null ],
+      [ "UniquePartitionGUID", "d1/d29/namespaceDisk.html#a6eff1be9127db1e75f7b10e65f89c0a1", null ]
     ] ],
     [ "GUIDPartitionTable", "d1/d29/namespaceDisk.html#df/dcb/structDisk_1_1GUIDPartitionTable", [
       [ "ALTLBA", "d1/d29/namespaceDisk.html#a656338a01219a7cbc81c6b467ea93fea", null ],

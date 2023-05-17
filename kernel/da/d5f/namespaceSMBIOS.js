@@ -59,6 +59,7 @@ var namespaceSMBIOS =
       [ "SMBIOSTypeInactive", "da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863aeaf14ab97f6bc5408e01ac88c53292d9f3", null ],
       [ "SMBIOSTypeEndOfTable", "da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863aea3079a3ee2c55a0f04b2f4f6cd38383c1", null ]
     ] ],
+    [ "__no_sanitize", "da/d5f/namespaceSMBIOS.html#afaf6549352ef94a1a55a3dd2cf8908d4", null ],
     [ "CheckSMBIOS", "da/d5f/namespaceSMBIOS.html#a2d28755c4392487cb470db704827389f", null ],
     [ "GetBaseBoardInformation", "da/d5f/namespaceSMBIOS.html#a214579dc4ded5382f8c7fe9744258a66", null ],
     [ "GetBIOSInformation", "da/d5f/namespaceSMBIOS.html#afea14b109675868b6b1d7d5896a6b5e1", null ],
@@ -68,8 +69,7 @@ var namespaceSMBIOS =
     [ "GetMemoryDeviceMappedAddress", "da/d5f/namespaceSMBIOS.html#a5c6cb485d017991de7d7683c2e19bca7", null ],
     [ "GetProcessorInformation", "da/d5f/namespaceSMBIOS.html#ac8048918c891100b8675f4d5c865036b", null ],
     [ "GetSMBIOSEntryPoint", "da/d5f/namespaceSMBIOS.html#acfc63dd9088cbc27b8beceed47cbec33", null ],
-    [ "GetSMBIOSHeader", "da/d5f/namespaceSMBIOS.html#a0ccad5c9ebf41beebd6a842f30239096", null ],
+    [ "GetSMBIOSHeader", "da/d5f/namespaceSMBIOS.html#a0f5fdd3d90fdc98b67cad79b7a1debc9", null ],
     [ "GetSystemInformation", "da/d5f/namespaceSMBIOS.html#ae3382ba080dc48b747f06b169360434a", null ],
-    [ "SMBIOSNextString", "da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30", null ],
-    [ "SMBIOSTableLength", "da/d5f/namespaceSMBIOS.html#a7cf58bb0289a439aff31df8a7a99fe61", null ]
+    [ "SMBIOSNextString", "da/d5f/namespaceSMBIOS.html#ade5c4d4c3f23921f77e72a38d3e2fc30", null ]
 ];

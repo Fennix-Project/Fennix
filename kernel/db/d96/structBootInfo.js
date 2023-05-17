@@ -9,12 +9,12 @@ var structBootInfo =
       [ "BitsPerPixel", "db/d96/structBootInfo.html#ab6e652d2b6f726897ef913afa11abfc9", null ],
       [ "BlueMaskShift", "db/d96/structBootInfo.html#a076ac0ee6a1b3afa60b48e31bce38880", null ],
       [ "BlueMaskSize", "db/d96/structBootInfo.html#a950a3a010b62ed4dfb315ae5b6fe2e93", null ],
-      [ "EDIDSize", "db/d96/structBootInfo.html#a5862918f2b61fe8838bdea968208fa13", null ],
+      [ "EDIDSize", "db/d96/structBootInfo.html#aa2c4299b0e7c5f34484e6d887a43c67a", null ],
       [ "ExtendedDisplayIdentificationData", "db/d96/structBootInfo.html#afe9278be01394e480172f6587115acc0", null ],
       [ "GreenMaskShift", "db/d96/structBootInfo.html#a3af61265847b0d8143198a533994673a", null ],
       [ "GreenMaskSize", "db/d96/structBootInfo.html#a551646aa90577dd36ee59d4105bfd300", null ],
       [ "Height", "db/d96/structBootInfo.html#a2fd06952a5867454ba1166ae9ca41878", null ],
-      [ "Pitch", "db/d96/structBootInfo.html#a898a6f47a537f71731ab594c9d052148", null ],
+      [ "Pitch", "db/d96/structBootInfo.html#ac5c33e345e909084d82e5bc1c771f4d2", null ],
       [ "RedMaskShift", "db/d96/structBootInfo.html#acba0c3c98c22705dd28df051d1c5acff", null ],
       [ "RedMaskSize", "db/d96/structBootInfo.html#a44a262152a2c36caf29da46ed68561c1", null ],
       [ "Type", "db/d96/structBootInfo.html#a279f1a8a0cc02938644de2587d60b3d1", null ],
@@ -30,25 +30,25 @@ var structBootInfo =
       [ "CommandLine", "db/d96/structBootInfo.html#adde62f42ebd193e412df27ef24698adf", null ],
       [ "FileBase", "db/d96/structBootInfo.html#abafacba0a6db48f77b3216c00e0bea89", null ],
       [ "PhysicalBase", "db/d96/structBootInfo.html#a98f7b16d3f14aa26d7bf675a85d80c5a", null ],
-      [ "Size", "db/d96/structBootInfo.html#abdfb19c908a50b60d9a407c0d42e3233", null ],
+      [ "Size", "db/d96/structBootInfo.html#a4b7700f1e642ef6f0d64ef329849cf68", null ],
       [ "Symbols", "db/d96/structBootInfo.html#a1960325b4ca96009a2f59ebca72ad363", null ],
       [ "VirtualBase", "db/d96/structBootInfo.html#aa93ca2b883a24035cce85ecf6e971bc3", null ]
     ] ],
     [ "MemoryInfo", "db/d96/structBootInfo.html#d0/d9b/structBootInfo_1_1MemoryInfo", [
       [ "MemoryEntryInfo", "db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo", [
         [ "BaseAddress", "db/d96/structBootInfo.html#abf81547812f6b2c7d0ccd5a424e2a4ac", null ],
-        [ "Length", "db/d96/structBootInfo.html#a5ae01a51310fc4c14ef875840ed44a2f", null ],
+        [ "Length", "db/d96/structBootInfo.html#ad9fb558d6e7dbb9c36675529fd9454cd", null ],
         [ "Type", "db/d96/structBootInfo.html#af9c40d64c0871090a237608cd029a51a", null ]
       ] ],
-      [ "Entries", "db/d96/structBootInfo.html#a0d5fe2487b411a85698f6aadb36057e6", null ],
+      [ "Entries", "db/d96/structBootInfo.html#a58cc83659bf17e514ed0512fc41d5f9a", null ],
       [ "Entry", "db/d96/structBootInfo.html#aaca38a442e9a31d75c1ee29321b27674", null ],
-      [ "Size", "db/d96/structBootInfo.html#a6b7fed1a6e0f9b3d85983476d729c403", null ]
+      [ "Size", "db/d96/structBootInfo.html#aefeb7b77f47d6abf82ae3c48498f4d2b", null ]
     ] ],
     [ "ModuleInfo", "db/d96/structBootInfo.html#df/dea/structBootInfo_1_1ModuleInfo", [
       [ "Address", "db/d96/structBootInfo.html#a44f742145baaf1c58fba9692438370d6", null ],
       [ "CommandLine", "db/d96/structBootInfo.html#afa71c86662f958f9f001bb8fee4bde88", null ],
       [ "Path", "db/d96/structBootInfo.html#af3e92090babf7f7cfee8017638b4dc66", null ],
-      [ "Size", "db/d96/structBootInfo.html#aea1dd1188d7c197fa12b4bfab7120f42", null ]
+      [ "Size", "db/d96/structBootInfo.html#a1b8060887d0b8842375adb4871dca102", null ]
     ] ],
     [ "RSDPInfo", "db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo", [
       [ "Checksum", "db/d96/structBootInfo.html#ad8c9de10464506ca61a2e7bab5d99a58", null ],

@@ -2,8 +2,8 @@ var classGraphicalUserInterface_1_1WidgetCollection =
 [
     [ "ButtonObject", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#d3/d02/structGraphicalUserInterface_1_1WidgetCollection_1_1ButtonObject", [
       [ "BorderColor", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a545b3378886b32d0f610f6d7fa0cbe34", null ],
-      [ "CharCursorX", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ac5881ed939d87bf2adfef4d023436b59", null ],
-      [ "CharCursorY", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ad60a4a9ed2408de69de1443860846db6", null ],
+      [ "CharCursorX", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a171681f16c01e752d5d3b6600dd5fce4", null ],
+      [ "CharCursorY", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a2e345ed972a4d9359cb0acb1afc62f9a", null ],
       [ "Color", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ad14ca2528553181593ae03446e447678", null ],
       [ "Handle", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a654ee309dc59c2ca9a2449de60bdecf1", null ],
       [ "Hover", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#ae58cea9003f4e28de6accba5e6c3305a", null ],
@@ -20,8 +20,8 @@ var classGraphicalUserInterface_1_1WidgetCollection =
       [ "Type", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a463e1a87cbe1a5b5d0414a658654d5a7", null ]
     ] ],
     [ "LabelObject", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#d0/d64/structGraphicalUserInterface_1_1WidgetCollection_1_1LabelObject", [
-      [ "CharCursorX", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a339c81c9d42639d6d6e5b86c58867223", null ],
-      [ "CharCursorY", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a6f7eb708fda54ad791d61e7ce245a40b", null ],
+      [ "CharCursorX", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a4784ddd1aca5dc6157de69ce6f9afe7f", null ],
+      [ "CharCursorY", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a646500ef03feaade941201727ea6c031", null ],
       [ "Color", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#a179efb922a04052c443838b1597be52a", null ],
       [ "Handle", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#aaec320512e61dc4416386a3c985c9c4e", null ],
       [ "rect", "d0/d8f/classGraphicalUserInterface_1_1WidgetCollection.html#afeee401dd26e068565a2c98ae2b382cc", null ],

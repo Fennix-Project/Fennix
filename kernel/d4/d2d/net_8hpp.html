@@ -128,8 +128,8 @@ Functions</h2></td></tr>
 <tr class="separator:ad84880b6b8e83379a51553bc8e87b10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67d478073e5dd1f8a50f4d9d3baa3fed"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#a67d478073e5dd1f8a50f4d9d3baa3fed">DbgDumpData</a> (const char *Description, void *<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>, unsigned long <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
 <tr class="separator:a67d478073e5dd1f8a50f4d9d3baa3fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a1717c80764765604bac6355d8eadb2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#a2a1717c80764765604bac6355d8eadb2">CalculateChecksum</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
-<tr class="separator:a2a1717c80764765604bac6355d8eadb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c14b5ee2df294ccbb24e2a889b108ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d2d/net_8hpp.html#a8c14b5ee2df294ccbb24e2a889b108ba">CalculateChecksum</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a>)</td></tr>
+<tr class="separator:a8c14b5ee2df294ccbb24e2a889b108ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d8/d38/structInternetProtocol" id="d8/d38/structInternetProtocol"></a>
@@ -222,8 +222,8 @@ v6</td>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a2a1717c80764765604bac6355d8eadb2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a1717c80764765604bac6355d8eadb2">&#9670;&nbsp;</a></span>CalculateChecksum()</h2>
+<a id="a8c14b5ee2df294ccbb24e2a889b108ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c14b5ee2df294ccbb24e2a889b108ba">&#9670;&nbsp;</a></span>CalculateChecksum()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -237,7 +237,7 @@ v6</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>Length</em>&#160;</td>
         </tr>
         <tr>
@@ -260,7 +260,7 @@ v6</td>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> = (<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> &amp; 0xFFFF) + (<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> &gt;&gt; 16);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>)(((~<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> &amp; 0xFF00) &gt;&gt; 8) | ((~<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> &amp; 0x00FF) &lt;&lt; 8));</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00290">ArithmeticOperations.c:290</a></div></div>
+<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
 <div class="ttc" id="aXallocV1_8cpp_html_aca10be923fb0da174d8c3a29d8b5083b"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a></div><div class="ttdeci">int Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">XallocV1.cpp:3</a></div></div>
 <div class="ttc" id="abinfo_8h_html_a01ae9666c16c57cec1c6e4e28a0eb0e3"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#a01ae9666c16c57cec1c6e4e28a0eb0e3">Length</a></div><div class="ttdeci">__UINT32_TYPE__ Length</div><div class="ttdoc">Length.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00025">binfo.h:25</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00146">types.h:146</a></div></div>
@@ -268,7 +268,7 @@ v6</td>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00022">Data</a>, and <a class="el" href="../../d9/d36/binfo_8h_source.html#l00025">Length</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00071">NetworkIPv4::IPv4::OnEthernetPacketReceived()</a>, <a class="el" href="../../d7/dc0/InternetControlMessageProtocol_8cpp_source.html#l00042">NetworkICMPv4::ICMPv4::Receive()</a>, and <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00037">NetworkIPv4::IPv4::Send()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00071">NetworkIPv4::__no_sanitize()</a>, <a class="el" href="../../d7/dc0/InternetControlMessageProtocol_8cpp_source.html#l00042">NetworkICMPv4::ICMPv4::Receive()</a>, and <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00037">NetworkIPv4::IPv4::Send()</a>.</p>
 
 </div>
 </div>

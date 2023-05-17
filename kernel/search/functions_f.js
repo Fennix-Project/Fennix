@@ -3,7 +3,7 @@ var searchData=
   ['pagefaultexceptionhandler_8859',['PageFaultExceptionHandler',['../d7/d85/CrashDetails_8cpp.html#a931f781de65964733362ae57fb4abd94',1,'PageFaultExceptionHandler(CHArchTrapFrame *Frame):&#160;CrashDetails.cpp'],['../dc/dd9/chfcts_8hpp.html#a5415f989fcd82c4dff7e99793b228112',1,'PageFaultExceptionHandler(CHArchTrapFrame *Frame):&#160;CrashDetails.cpp']]],
   ['pagemapindexer_8860',['PageMapIndexer',['../d4/d5f/classPageMapIndexer.html#a2f0570b372d65c2c7c4d5faf44e4ae59',1,'PageMapIndexer']]],
   ['pagetable_8861',['PageTable',['../df/dbe/cpu_8hpp.html#a996123e837c93ad5c4a1761027df2090',1,'PageTable():&#160;cpu.hpp'],['../d7/dfa/namespaceCPU.html#a24120d57f8ed5bafeeca4d7d9e74594e',1,'CPU::PageTable()']]],
-  ['paintchar_8862',['PaintChar',['../db/df1/namespaceGraphicalUserInterface.html#a5990a47cd408b26c4f30648c359df162',1,'GraphicalUserInterface']]],
+  ['paintchar_8862',['PaintChar',['../db/df1/namespaceGraphicalUserInterface.html#ae1adfb02095931e319124530e589a756',1,'GraphicalUserInterface']]],
   ['paintcursor_8863',['PaintCursor',['../d6/d43/classGraphicalUserInterface_1_1GUI.html#a1b5fdda9d6b8cf50af582d765bf96399',1,'GraphicalUserInterface::GUI']]],
   ['paintdesktop_8864',['PaintDesktop',['../d6/d43/classGraphicalUserInterface_1_1GUI.html#ab1659e0c1ea48052beb47192cd42ca98',1,'GraphicalUserInterface::GUI']]],
   ['paintwidgets_8865',['PaintWidgets',['../d6/d43/classGraphicalUserInterface_1_1GUI.html#a997c4fe838c2cf41ae6565e4e0e2f663',1,'GraphicalUserInterface::GUI']]],

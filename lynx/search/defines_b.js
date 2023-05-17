@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['nif_2827',['NIF',['../dd/d7b/FennixLoader_2include_2types_8h.html#a1afe765b4510add91239ee23e5a89ba4',1,'types.h']]],
-  ['normal_5fvma_5foffset_2828',['NORMAL_VMA_OFFSET',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#ab2ed1581af9d674b98f3aa559cba18ac',1,'memory.hpp']]],
-  ['null_2829',['NULL',['../dd/d7b/FennixLoader_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;types.h'],['../dc/d93/UEFI_2src_2bitmap_8hpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;bitmap.hpp'],['../d0/d20/UEFI_2src_2cxxabi_8cpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;cxxabi.cpp'],['../d6/dd0/liballoc__1__1_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;liballoc_1_1.h'],['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;memory.hpp'],['../d9/df9/UEFI_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;types.h']]],
-  ['num_5fdecimal_5fdigits_5fin_5fint64_5ft_2830',['NUM_DECIMAL_DIGITS_IN_INT64_T',['../de/df0/FennixLoader_2printf_8c.html#a38df259cdf24350ce4d98a22cc2524b0',1,'NUM_DECIMAL_DIGITS_IN_INT64_T():&#160;printf.c'],['../d0/d8b/UEFI_2src_2printf_8c.html#a38df259cdf24350ce4d98a22cc2524b0',1,'NUM_DECIMAL_DIGITS_IN_INT64_T():&#160;printf.c']]]
+  ['unalign_552',['UNALIGN',['../d2/dc3/liballoc__1__1_8c.html#a1c35d927b46457b91f58e659890008c1',1,'liballoc_1_1.c']]],
+  ['use_5fcase1_553',['USE_CASE1',['../d2/dc3/liballoc__1__1_8c.html#acf41d85e37dc0c5a00cd435c23341b5d',1,'liballoc_1_1.c']]],
+  ['use_5fcase2_554',['USE_CASE2',['../d2/dc3/liballoc__1__1_8c.html#a41e019f5f2ff975130482948cce00391',1,'liballoc_1_1.c']]],
+  ['use_5fcase3_555',['USE_CASE3',['../d2/dc3/liballoc__1__1_8c.html#afdf81e99f4d3fbf4ae6c195fe1d08da5',1,'liballoc_1_1.c']]],
+  ['use_5fcase4_556',['USE_CASE4',['../d2/dc3/liballoc__1__1_8c.html#a4f805eceb2d7fba79091b4fc8e438313',1,'liballoc_1_1.c']]],
+  ['use_5fcase5_557',['USE_CASE5',['../d2/dc3/liballoc__1__1_8c.html#ab1abb106de2d83df6fc4a5fb141acd79',1,'liballoc_1_1.c']]],
+  ['user_5fheap_5fbase_558',['USER_HEAP_BASE',['../da/d3e/memory_8hpp.html#aa6e99f855eb906d87180d7c66506ba49',1,'memory.hpp']]]
 ];

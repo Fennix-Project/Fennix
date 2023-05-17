@@ -137,8 +137,8 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a39b83fb6138ba860e1d516675d4a4ea7"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a39b83fb6138ba860e1d516675d4a4ea7">__aligned</a> (0x1000) <a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> CPUs[<a class="el" href="../../d4/d33/smp_8hpp.html#a163aa934e4e42ebaea98661d54c0af08">MAX_CPU</a>]</td></tr>
 <tr class="separator:a39b83fb6138ba860e1d516675d4a4ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91c9bfafa1ae3d6ec4ce064c67039ad7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> <a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a91c9bfafa1ae3d6ec4ce064c67039ad7">GetCPU</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> id)</td></tr>
-<tr class="separator:a91c9bfafa1ae3d6ec4ce064c67039ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3566340b6a222c5755e4b2281916308e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> <a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a3566340b6a222c5755e4b2281916308e">GetCPU</a> (long id)</td></tr>
+<tr class="separator:a3566340b6a222c5755e4b2281916308e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a554fc11f8a93510db1c570b03954f45f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> <a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a554fc11f8a93510db1c570b03954f45f">GetCurrentCPU</a> ()</td></tr>
 <tr class="separator:a554fc11f8a93510db1c570b03954f45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83df3dc276fba1e673fcf5551113ca7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d37/namespaceSMP.html#a83df3dc276fba1e673fcf5551113ca7e">SMP::Initialize</a> (void *madt)</td></tr>
@@ -225,8 +225,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a91c9bfafa1ae3d6ec4ce064c67039ad7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91c9bfafa1ae3d6ec4ce064c67039ad7">&#9670;&nbsp;</a></span>GetCPU()</h2>
+<a id="a3566340b6a222c5755e4b2281916308e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3566340b6a222c5755e4b2281916308e">&#9670;&nbsp;</a></span>GetCPU()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -234,7 +234,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d6/de6/include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25">SafeFunction</a> <a class="el" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a>* GetCPU </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype">long&#160;</td>
           <td class="paramname"><em>id</em></td><td>)</td>
           <td></td>
         </tr>
@@ -272,7 +272,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>((&amp;CPUs[ret])-&gt;<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> == <a class="code" href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a>);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> &amp;CPUs[ret];</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00290">ArithmeticOperations.c:290</a></div></div>
+<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
 <div class="ttc" id="aXallocV1_8cpp_html_aca10be923fb0da174d8c3a29d8b5083b"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a></div><div class="ttdeci">int Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">XallocV1.cpp:3</a></div></div>
 <div class="ttc" id="aassert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da7/assert_8h_source.html#l00023">assert.h:23</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00027">smp.hpp:27</a></div></div>

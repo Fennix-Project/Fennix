@@ -30,14 +30,14 @@ var namespaceGraphicalUserInterface =
       [ "AppStarting", "db/df1/namespaceGraphicalUserInterface.html#a12a8cbbe1fe1863d4758451bf8a8ff81a750245ef3b26c980862c51748a9db3cb", null ]
     ] ],
     [ "BlendColors", "db/df1/namespaceGraphicalUserInterface.html#af94aeb8bbe20df91e4aa306366a25a91", null ],
-    [ "DrawOverBitmap", "db/df1/namespaceGraphicalUserInterface.html#ac3aa491e96b9f6ef7a4bf33cd447ac37", null ],
+    [ "DrawOverBitmap", "db/df1/namespaceGraphicalUserInterface.html#a31ff2f6e71febae6afaf97bbdf9fa164", null ],
     [ "DrawShadow", "db/df1/namespaceGraphicalUserInterface.html#a90d701ebb12eb1384ee3505c8c46b2e9", null ],
     [ "DrawString", "db/df1/namespaceGraphicalUserInterface.html#a686327d6b641f719154ed28af46024df", null ],
-    [ "GetPixel", "db/df1/namespaceGraphicalUserInterface.html#a1d4b566cf2a43db2bc8cc00201c814d3", null ],
-    [ "InlineSetPixel", "db/df1/namespaceGraphicalUserInterface.html#a63e7ccbad4ab57fe188cdddb5f0739c4", null ],
-    [ "PaintChar", "db/df1/namespaceGraphicalUserInterface.html#a5990a47cd408b26c4f30648c359df162", null ],
+    [ "GetPixel", "db/df1/namespaceGraphicalUserInterface.html#ac4f047a33ac3f610e5fe7e5498d51479", null ],
+    [ "InlineSetPixel", "db/df1/namespaceGraphicalUserInterface.html#a673f4f56d1633bb6730bfe36b699f959", null ],
+    [ "PaintChar", "db/df1/namespaceGraphicalUserInterface.html#ae1adfb02095931e319124530e589a756", null ],
     [ "PutBorder", "db/df1/namespaceGraphicalUserInterface.html#ac541063f719ab5ee515df5b4189b60e0", null ],
     [ "PutBorderWithShadow", "db/df1/namespaceGraphicalUserInterface.html#a1ce4f5d5e5a92586897c810527b821b3", null ],
     [ "PutRect", "db/df1/namespaceGraphicalUserInterface.html#acbaae7c325a3965ab8f3c2be193ff8af", null ],
-    [ "SetPixel", "db/df1/namespaceGraphicalUserInterface.html#a63708ba2e12d5c6ea53e1921127765e3", null ]
+    [ "SetPixel", "db/df1/namespaceGraphicalUserInterface.html#a0dd8851e1d482d2a5316ff4a0825991f", null ]
 ];

@@ -172,7 +172,7 @@ var dir_0309b499b8950a5fc0ffafb09dd8e67f =
       ] ],
       [ "DSDT", "dd/dc9/classACPI_1_1DSDT.html", "dd/dc9/classACPI_1_1DSDT" ]
     ] ],
-    [ "AdvancedConfigurationAndPowerInterface.cpp", "d6/d7f/AdvancedConfigurationAndPowerInterface_8cpp.html", null ],
+    [ "AdvancedConfigurationAndPowerInterface.cpp", "d6/d7f/AdvancedConfigurationAndPowerInterface_8cpp.html", "d6/d7f/AdvancedConfigurationAndPowerInterface_8cpp" ],
     [ "DifferentiatedSystemDescriptionTable.cpp", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html", "df/d64/DifferentiatedSystemDescriptionTable_8cpp" ],
     [ "MultipleAPICDescriptionTable.cpp", "d5/db3/MultipleAPICDescriptionTable_8cpp.html", null ],
     [ "SystemCalls.cpp", "d9/d9d/amd64_2SystemCalls_8cpp.html", "d9/d9d/amd64_2SystemCalls_8cpp" ]

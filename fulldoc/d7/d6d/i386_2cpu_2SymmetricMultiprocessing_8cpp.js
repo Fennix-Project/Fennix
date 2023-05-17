@@ -17,7 +17,7 @@ var i386_2cpu_2SymmetricMultiprocessing_8cpp =
       [ "TRAMPOLINE_START", "d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780", null ]
     ] ],
     [ "__aligned", "d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a39b83fb6138ba860e1d516675d4a4ea7", null ],
-    [ "GetCPU", "d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a91c9bfafa1ae3d6ec4ce064c67039ad7", null ],
+    [ "GetCPU", "d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a3566340b6a222c5755e4b2281916308e", null ],
     [ "GetCurrentCPU", "d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a554fc11f8a93510db1c570b03954f45f", null ],
     [ "Initialize", "d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a83df3dc276fba1e673fcf5551113ca7e", null ],
     [ "CPUEnabled", "d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a8c0438c158eaa1a1fc7fe66512c99e6a", null ]

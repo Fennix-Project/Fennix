@@ -19,7 +19,7 @@ var Multiboot64bitMap_8cpp =
     [ "_kernel_start", "d7/dfa/Multiboot64bitMap_8cpp.html#a5643a3fe0283e7cdbc47b2bd1a1d6006", null ],
     [ "BootPageTable", "d7/dfa/Multiboot64bitMap_8cpp.html#a7b8be4d10db05f7c7fe5a0c340d29484", null ],
     [ "DirectoryFlags", "d7/dfa/Multiboot64bitMap_8cpp.html#ae719387a9d1e8202cfdb8b85c2d9468b", null ],
-    [ "Entries", "d7/dfa/Multiboot64bitMap_8cpp.html#a282812933c264c3664dc8ef5e151f9be", null ],
+    [ "Entries", "d7/dfa/Multiboot64bitMap_8cpp.html#a9e27d048ee5d6937dd755a81b0e7b81e", null ],
     [ "Flags", "d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f", null ],
     [ "PDE", "d7/dfa/Multiboot64bitMap_8cpp.html#a2454dd9b87b7886ce161bbfff50f23a9", null ],
     [ "PDEPtr", "d7/dfa/Multiboot64bitMap_8cpp.html#a11a9f20377e6ffc23513ef4a34798b27", null ],

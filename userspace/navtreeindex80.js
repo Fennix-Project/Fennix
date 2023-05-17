@@ -1,5 +1,15 @@
 var NAVTREEINDEX80 =
 {
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,0,4,28,14,8],
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,0,4,28,14,10],
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,3,5,1,0,28,14,7],
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,3,6,2,0,28,14,11],
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,3,0,1,0,28,14,6],
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,3,6,2,0,28,14,9],
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,3,6,2,0,28,14,8],
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,0,4,28,14,9],
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,3,0,1,0,28,14,7],
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,3,0,1,0,28,14,8],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,3,0,1,0,28,14,9],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,3,0,1,0,28,14,11],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a792c25d4ba5969d24684b5d3a2226424":[9,0,1,3,3,3,1,0,28,14,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX80 =
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,3,1,0,28,16,15],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,5,1,0,28,16,17],
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,3,1,0,28,16,12],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,3,1,0,28,16,14],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,5,1,0,28,16,12],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,5,1,0,28,16,14],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,5,1,0,28,16,16],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,4,2,0,28,16,15],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,4,2,0,28,16,13],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,4,2,0,28,16,17],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,6,2,0,28,16,12],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,6,2,0,28,16,16],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a927f6ae16379576d638006c7498ac5d7":[9,0,1,3,3,6,2,0,28,99],
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a929c5eace94ce2e099c6fa732450ce86":[9,0,1,3,3,6,2,0,28,118]
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb":[9,0,1,3,3,3,1,0,28,16,14]
 };

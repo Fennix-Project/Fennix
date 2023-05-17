@@ -100,8 +100,8 @@ Data Structures</h2></td></tr>
 <tr class="separator:d8/d34/structDisk_1_1MasterBootRecordPartition"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:de/dd8/structDisk_1_1MasterBootRecord"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d29/namespaceDisk.html#de/dd8/structDisk_1_1MasterBootRecord">MasterBootRecord</a></td></tr>
 <tr class="separator:de/dd8/structDisk_1_1MasterBootRecord"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d6/de1/structDisk_1_1GUIDPartitionTablePartition"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d29/namespaceDisk.html#d6/de1/structDisk_1_1GUIDPartitionTablePartition">GUIDPartitionTablePartition</a></td></tr>
-<tr class="separator:d6/de1/structDisk_1_1GUIDPartitionTablePartition"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d6/d5a/structDisk_1_1GUIDPartitionTableEntry"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d29/namespaceDisk.html#d6/d5a/structDisk_1_1GUIDPartitionTableEntry">GUIDPartitionTableEntry</a></td></tr>
+<tr class="separator:d6/d5a/structDisk_1_1GUIDPartitionTableEntry"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:df/dcb/structDisk_1_1GUIDPartitionTable"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d29/namespaceDisk.html#df/dcb/structDisk_1_1GUIDPartitionTable">GUIDPartitionTable</a></td></tr>
 <tr class="separator:df/dcb/structDisk_1_1GUIDPartitionTable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d1/d68/structDisk_1_1PartitionTable"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d29/namespaceDisk.html#d1/d68/structDisk_1_1PartitionTable">PartitionTable</a></td></tr>
@@ -166,13 +166,13 @@ Flags</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae0ee701001c779897019b2e77602ee8e"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="ae0ee701001c779897019b2e77602ee8e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 LBAFirst</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a814cdae9e9551bfb6d116f14dfd3f642"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a814cdae9e9551bfb6d116f14dfd3f642"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Sectors</td>
 <td class="fielddoc">
@@ -227,7 +227,7 @@ Signature[2]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a8abff675eb2cf8aa6cf3db249164f099"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a8abff675eb2cf8aa6cf3db249164f099"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 UniqueID</td>
 <td class="fielddoc">
@@ -236,14 +236,14 @@ UniqueID</td>
 
 </div>
 </div>
-<a name="d6/de1/structDisk_1_1GUIDPartitionTablePartition" id="d6/de1/structDisk_1_1GUIDPartitionTablePartition"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d6/de1/structDisk_1_1GUIDPartitionTablePartition">&#9670;&nbsp;</a></span>Disk::GUIDPartitionTablePartition</h2>
+<a name="d6/d5a/structDisk_1_1GUIDPartitionTableEntry" id="d6/d5a/structDisk_1_1GUIDPartitionTableEntry"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d6/d5a/structDisk_1_1GUIDPartitionTableEntry">&#9670;&nbsp;</a></span>Disk::GUIDPartitionTableEntry</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct Disk::GUIDPartitionTablePartition</td>
+          <td class="memname">struct Disk::GUIDPartitionTableEntry</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -252,51 +252,39 @@ UniqueID</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a14b2f6e043bd31c9ffc07aa7707f75cc"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a7fe5f2f1c902ad7236f0305818438ae2"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 Attributes</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a27322763bc387a8d1cdb7b34770f06f9"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="af8bd6a1005d80e3210dbf033c180cd91"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
-EndLBA</td>
+FirstLBA</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a729ae3c97a977541324af447f09118b9"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a4c78e88a66a03df1620a1e174bb0a69c"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
-GUIDHigh</td>
+LastLBA</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a99fd670b81d7c67981ebb0b8fcb25793"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a42e267a65d4bfd78ab8bf6097a717d7c"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
 <td class="fieldname">
-GUIDLow</td>
+PartitionName[36]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a7970fded543c7018cdbcfec7f58eee63"></a>char</td>
+<a id="ac2e806891a46306951353851897e487a"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
-Label[72]</td>
+PartitionType[16]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="abc3626e3f1d77c991e72a7b1804ebf4b"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a6eff1be9127db1e75f7b10e65f89c0a1"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
 <td class="fieldname">
-StartLBA</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a92be33133cd609c50f58899dc68ec674"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-TypeHigh</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a188bfc8b6331a856eb6433ba2dbdece2"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-TypeLow</td>
+UniquePartitionGUID[16]</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -315,95 +303,95 @@ TypeLow</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/da3/disk_8hpp_source.html#l00077">77</a> of file <a class="el" href="../../d8/da3/disk_8hpp_source.html">disk.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da3/disk_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d8/da3/disk_8hpp_source.html">disk.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a656338a01219a7cbc81c6b467ea93fea"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a656338a01219a7cbc81c6b467ea93fea"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 ALTLBA</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a93755f75ab0563b29f1fe826f2089dab"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a93755f75ab0563b29f1fe826f2089dab"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 EntrySize</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a1334033b938be567b881472391390928"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a1334033b938be567b881472391390928"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 FirstBlock</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad86af3dc2edde6b5b50d26daf313930f"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="ad86af3dc2edde6b5b50d26daf313930f"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 GUIDHigh</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a6b4f60cab304671950ae5087b9485b02"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a6b4f60cab304671950ae5087b9485b02"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 GUIDLow</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="adfe51545b2ec30ab2a1532f3acd82621"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="adfe51545b2ec30ab2a1532f3acd82621"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 HdrCRC32</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a6e556392b3a4de4d683e8ffd49e587f8"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a6e556392b3a4de4d683e8ffd49e587f8"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 HdrSize</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a51050ff4b3fe1e1439d850480b5d6391"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a51050ff4b3fe1e1439d850480b5d6391"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 LastBlock</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a0dd11f655f7ef2c141c5237201369c18"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a0dd11f655f7ef2c141c5237201369c18"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 LBA</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a1b931a84f19d09288a91af1809ad851d"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a1b931a84f19d09288a91af1809ad851d"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 PartCount</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a41996ba68192843e842e5600cb48f54e"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a41996ba68192843e842e5600cb48f54e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 PartCRC32</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aa6c567e73702692524d48fbc347ea352"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="aa6c567e73702692524d48fbc347ea352"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 PartLBA</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a397027cec53f789f3e9458d806a39ad1"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a397027cec53f789f3e9458d806a39ad1"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Reserved</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a6657c260738d632c3f45f9861b129447"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a6657c260738d632c3f45f9861b129447"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Revision</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad99f89598275e5db383d5c06b1be44b8"></a><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="ad99f89598275e5db383d5c06b1be44b8"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 Signature</td>
 <td class="fielddoc">
@@ -424,7 +412,7 @@ Signature</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d8/da3/disk_8hpp_source.html#l00096">96</a> of file <a class="el" href="../../d8/da3/disk_8hpp_source.html">disk.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/da3/disk_8hpp_source.html#l00094">94</a> of file <a class="el" href="../../d8/da3/disk_8hpp_source.html">disk.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -492,13 +480,13 @@ MBR</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/da3/disk_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d8/da3/disk_8hpp_source.html">disk.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="../../d1/d29/namespaceDisk.html#a71245edf60dd20e7910d4f422bb5d40aad58d8ba1c8d46e9959d5a5e2c033ab98">Unknown</a>,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="../../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a4e81c184ac3ad48a389cd4454c4a05bb">Unknown</a>,</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../d1/d29/namespaceDisk.html#a71245edf60dd20e7910d4f422bb5d40aa0a29de6618a4df8f24640f4b06141801">MBR</a>,</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="../../d1/d29/namespaceDisk.html#a71245edf60dd20e7910d4f422bb5d40aa1159dd1769c401d02070192ea4b7bb10">GPT</a></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    };</div>
+<div class="ttc" id="abinfo_8h_html_a462bfa9dfea81692463ecb192183dd01a4e81c184ac3ad48a389cd4454c4a05bb"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01a4e81c184ac3ad48a389cd4454c4a05bb">Unknown</a></div><div class="ttdeci">@ Unknown</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00033">binfo.h:32</a></div></div>
 <div class="ttc" id="anamespaceDisk_html_a71245edf60dd20e7910d4f422bb5d40aa0a29de6618a4df8f24640f4b06141801"><div class="ttname"><a href="../../d1/d29/namespaceDisk.html#a71245edf60dd20e7910d4f422bb5d40aa0a29de6618a4df8f24640f4b06141801">Disk::MBR</a></div><div class="ttdeci">@ MBR</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da3/disk_8hpp_source.html#l00035">disk.hpp:35</a></div></div>
 <div class="ttc" id="anamespaceDisk_html_a71245edf60dd20e7910d4f422bb5d40aa1159dd1769c401d02070192ea4b7bb10"><div class="ttname"><a href="../../d1/d29/namespaceDisk.html#a71245edf60dd20e7910d4f422bb5d40aa1159dd1769c401d02070192ea4b7bb10">Disk::GPT</a></div><div class="ttdeci">@ GPT</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da3/disk_8hpp_source.html#l00037">disk.hpp:36</a></div></div>
-<div class="ttc" id="anamespaceDisk_html_a71245edf60dd20e7910d4f422bb5d40aad58d8ba1c8d46e9959d5a5e2c033ab98"><div class="ttname"><a href="../../d1/d29/namespaceDisk.html#a71245edf60dd20e7910d4f422bb5d40aad58d8ba1c8d46e9959d5a5e2c033ab98">Disk::Unknown</a></div><div class="ttdeci">@ Unknown</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da3/disk_8hpp_source.html#l00034">disk.hpp:34</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

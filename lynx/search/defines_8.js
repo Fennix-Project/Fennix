@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['kcalloc_2726',['kcalloc',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#a778ebd1959202ffd1073f89a446caf8b',1,'memory.hpp']]],
-  ['kernel_5fheap_5fbase_2727',['KERNEL_HEAP_BASE',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#a75b788f53a0d45523a0c9b1ab96c28a4',1,'memory.hpp']]],
-  ['kernel_5fvma_5foffset_2728',['KERNEL_VMA_OFFSET',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#ad972eda420e75d192868c7fa6eecc2ab',1,'memory.hpp']]],
-  ['kfree_2729',['kfree',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#aef27615e6561e63428541f98e7e60b88',1,'memory.hpp']]],
-  ['kmalloc_2730',['kmalloc',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#aa700d7a085f4fa2439650b7675228b88',1,'memory.hpp']]],
-  ['krealloc_2731',['krealloc',['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#a2c1f3b7e5e4c2c928206834a68a75b6c',1,'memory.hpp']]]
+  ['normal_5fvma_5foffset_525',['NORMAL_VMA_OFFSET',['../da/d3e/memory_8hpp.html#ab2ed1581af9d674b98f3aa559cba18ac',1,'memory.hpp']]],
+  ['null_526',['NULL',['../d3/d88/bitmap_8hpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;bitmap.hpp'],['../d7/d66/cxxabi_8cpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;cxxabi.cpp'],['../d6/dd0/liballoc__1__1_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;liballoc_1_1.h'],['../da/d3e/memory_8hpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;memory.hpp'],['../d9/d49/types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'NULL():&#160;types.h']]],
+  ['num_5fdecimal_5fdigits_5fin_5fint64_5ft_527',['NUM_DECIMAL_DIGITS_IN_INT64_T',['../d1/d3d/printf_8c.html#a38df259cdf24350ce4d98a22cc2524b0',1,'printf.c']]]
 ];

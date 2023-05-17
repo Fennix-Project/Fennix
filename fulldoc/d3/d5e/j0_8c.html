@@ -102,7 +102,7 @@ Functions</h2></td></tr>
 <tr class="separator:a8074312f4fa0b38436d581c7e93dff60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac683d4a9b95da2614f43561eb81d8b82"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/j0_8c.html#ac683d4a9b95da2614f43561eb81d8b82">qzero</a> (double)</td></tr>
 <tr class="separator:ac683d4a9b95da2614f43561eb81d8b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3813987522a78ef85bba788ebc0531d"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/j0_8c.html#ac3813987522a78ef85bba788ebc0531d">common</a> (<a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix, double <a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d3/d5e/j0_8c.html#afca57fd80386476e5cd1dd52173103c5">y0</a>)</td></tr>
+<tr class="memitem:ac3813987522a78ef85bba788ebc0531d"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/j0_8c.html#ac3813987522a78ef85bba788ebc0531d">common</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix, double <a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d3/d5e/j0_8c.html#afca57fd80386476e5cd1dd52173103c5">y0</a>)</td></tr>
 <tr class="separator:ac3813987522a78ef85bba788ebc0531d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:affb00730a1127dee798137075951ae21"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d5e/j0_8c.html#affb00730a1127dee798137075951ae21">j0</a> (double <a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
 <tr class="separator:affb00730a1127dee798137075951ae21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,7 +199,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">static double common </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
           <td class="paramname"><em>ix</em>, </td>
         </tr>
         <tr>
@@ -295,7 +295,7 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d3/d5e/j0_8c_source.html#l00111">111</a> of file <a class="el" href="../../d3/d5e/j0_8c_source.html">j0.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;{</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordtype">double</span> z,<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>,s;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../d9/ded/libm_8h.html#a28e217eb1bf68bac582e26a8fe15ba39">GET_HIGH_WORD</a>(ix, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    ix &amp;= 0x7fffffff;</div>
@@ -326,7 +326,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> = 0.25*<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>*<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>;</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">return</span> 1 - <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;}</div>
-<div class="ttc" id="aKernel_2Architecture_2i386_2ArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c_source.html#l00291">ArithmeticOperations.c:291</a></div></div>
+<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
 <div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_a8fb5c0b9b43a108724b355136d29d2f9"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8fb5c0b9b43a108724b355136d29d2f9">fabs</a></div><div class="ttdeci">double fabs(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d14/fabs_8c_source.html#l00004">fabs.c:4</a></div></div>
 <div class="ttc" id="aj0_8c_html_a06d6e6510029e9203861d77d508689c6"><div class="ttname"><a href="../../d3/d5e/j0_8c.html#a06d6e6510029e9203861d77d508689c6">R02</a></div><div class="ttdeci">static const double R02</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d5e/j0_8c_source.html#l00102">j0.c:102</a></div></div>
 <div class="ttc" id="aj0_8c_html_a08d3a6eb4e02539f46cc168b08c1f4a0"><div class="ttname"><a href="../../d3/d5e/j0_8c.html#a08d3a6eb4e02539f46cc168b08c1f4a0">S04</a></div><div class="ttdeci">static const double S04</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d5e/j0_8c_source.html#l00109">j0.c:109</a></div></div>
@@ -374,7 +374,7 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;{</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> *<a class="code" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>,*q;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#ac340fde9f4743ef7a9398b79d7bea8bd">double_t</a> z,<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>,s;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix;</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160; </div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <a class="code" href="../../d9/ded/libm_8h.html#a28e217eb1bf68bac582e26a8fe15ba39">GET_HIGH_WORD</a>(ix, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    ix &amp;= 0x7fffffff;</div>
@@ -424,7 +424,7 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;{</div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> *<a class="code" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>,*q;</div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#ac340fde9f4743ef7a9398b79d7bea8bd">double_t</a> s,<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>,z;</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix;</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix;</div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160; </div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <a class="code" href="../../d9/ded/libm_8h.html#a28e217eb1bf68bac582e26a8fe15ba39">GET_HIGH_WORD</a>(ix, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    ix &amp;= 0x7fffffff;</div>
@@ -471,7 +471,7 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d3/d5e/j0_8c_source.html#l00159">159</a> of file <a class="el" href="../../d3/d5e/j0_8c_source.html">j0.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;{</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordtype">double</span> z,u,v;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix,lx;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix,lx;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="../../d9/ded/libm_8h.html#a93b9af3c2f68cd381faaa18f031566dc">EXTRACT_WORDS</a>(ix, lx, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>

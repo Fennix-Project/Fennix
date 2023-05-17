@@ -1,25 +1,8 @@
 var searchData=
 [
-  ['abs_5ffor_5fprinting_2596',['ABS_FOR_PRINTING',['../d0/d8b/UEFI_2src_2printf_8c.html#a8d302099b82242df3916cbe38d476694',1,'ABS_FOR_PRINTING():&#160;printf.c'],['../de/df0/FennixLoader_2printf_8c.html#a8d302099b82242df3916cbe38d476694',1,'ABS_FOR_PRINTING():&#160;printf.c']]],
-  ['advance_5fin_5fformat_5fstring_2597',['ADVANCE_IN_FORMAT_STRING',['../de/df0/FennixLoader_2printf_8c.html#adfc91b180601d6587c09c5faecc56460',1,'printf.c']]],
-  ['align_2598',['ALIGN',['../d2/dc3/liballoc__1__1_8c.html#a4d3a4d8ba3325af096e123278cffec04',1,'liballoc_1_1.c']]],
-  ['align_5fdown_2599',['ALIGN_DOWN',['../dd/d7b/FennixLoader_2include_2types_8h.html#a1de6625fa208285b5f2b043fa9c537e7',1,'ALIGN_DOWN():&#160;types.h'],['../dc/d93/UEFI_2src_2bitmap_8hpp.html#a1de6625fa208285b5f2b043fa9c537e7',1,'ALIGN_DOWN():&#160;bitmap.hpp'],['../d0/d20/UEFI_2src_2cxxabi_8cpp.html#a1de6625fa208285b5f2b043fa9c537e7',1,'ALIGN_DOWN():&#160;cxxabi.cpp'],['../d6/dd0/liballoc__1__1_8h.html#a1de6625fa208285b5f2b043fa9c537e7',1,'ALIGN_DOWN():&#160;liballoc_1_1.h'],['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#a1de6625fa208285b5f2b043fa9c537e7',1,'ALIGN_DOWN():&#160;memory.hpp'],['../d9/df9/UEFI_2types_8h.html#a1de6625fa208285b5f2b043fa9c537e7',1,'ALIGN_DOWN():&#160;types.h']]],
-  ['align_5finfo_2600',['ALIGN_INFO',['../d2/dc3/liballoc__1__1_8c.html#a794344346279e2c33cdf963b440693fc',1,'liballoc_1_1.c']]],
-  ['align_5ftype_2601',['ALIGN_TYPE',['../d2/dc3/liballoc__1__1_8c.html#a4781c052bb138f69ef6d60737fd569e3',1,'liballoc_1_1.c']]],
-  ['align_5fup_2602',['ALIGN_UP',['../dd/d7b/FennixLoader_2include_2types_8h.html#afb00b1a27b40fde5065d26e5aa367808',1,'ALIGN_UP():&#160;types.h'],['../dc/d93/UEFI_2src_2bitmap_8hpp.html#afb00b1a27b40fde5065d26e5aa367808',1,'ALIGN_UP():&#160;bitmap.hpp'],['../d0/d20/UEFI_2src_2cxxabi_8cpp.html#afb00b1a27b40fde5065d26e5aa367808',1,'ALIGN_UP():&#160;cxxabi.cpp'],['../d6/dd0/liballoc__1__1_8h.html#afb00b1a27b40fde5065d26e5aa367808',1,'ALIGN_UP():&#160;liballoc_1_1.h'],['../d8/dcb/UEFI_2src_2Memory_2memory_8hpp.html#afb00b1a27b40fde5065d26e5aa367808',1,'ALIGN_UP():&#160;memory.hpp'],['../d9/df9/UEFI_2types_8h.html#afb00b1a27b40fde5065d26e5aa367808',1,'ALIGN_UP():&#160;types.h']]],
-  ['alignment_2603',['ALIGNMENT',['../d2/dc3/liballoc__1__1_8c.html#a450f9d8af07bfe2f313dbe3a78738a5e',1,'liballoc_1_1.c']]],
-  ['arith64_5fabs_2604',['arith64_abs',['../d0/d18/ArithmeticOperations_8c.html#a8f5867e27b915c5eb54ebd57b1ace3f4',1,'ArithmeticOperations.c']]],
-  ['arith64_5fhi_2605',['arith64_hi',['../d0/d18/ArithmeticOperations_8c.html#a7b340ea7ffe2d8397faf257d06ad0499',1,'ArithmeticOperations.c']]],
-  ['arith64_5flo_2606',['arith64_lo',['../d0/d18/ArithmeticOperations_8c.html#a032b36f0fd9d0392f60e1d831ead8204',1,'ArithmeticOperations.c']]],
-  ['arith64_5fneg_2607',['arith64_neg',['../d0/d18/ArithmeticOperations_8c.html#afff665b35b9678331f4ecd149ddf7629',1,'ArithmeticOperations.c']]],
-  ['arith64_5fs32_2608',['arith64_s32',['../d0/d18/ArithmeticOperations_8c.html#ab5b8c8efaac3a3bef707b91ef4bccb62',1,'ArithmeticOperations.c']]],
-  ['arith64_5fs64_2609',['arith64_s64',['../d0/d18/ArithmeticOperations_8c.html#aad3271ab92f48b78bca71e2d9f4c1723',1,'ArithmeticOperations.c']]],
-  ['arith64_5fu32_2610',['arith64_u32',['../d0/d18/ArithmeticOperations_8c.html#a6571aa5060676d8b0923245ee63a2b46',1,'ArithmeticOperations.c']]],
-  ['arith64_5fu64_2611',['arith64_u64',['../d0/d18/ArithmeticOperations_8c.html#ae5cbcfc8c01a178587935407bbc02a56',1,'ArithmeticOperations.c']]],
-  ['asm_2612',['asm',['../dd/d7b/FennixLoader_2include_2types_8h.html#a71921cebf4610b0dbb2b7a0daaf3fedf',1,'types.h']]],
-  ['asmv_2613',['asmv',['../dd/d7b/FennixLoader_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b',1,'types.h']]],
-  ['atexit_2614',['atexit',['../d2/dc3/liballoc__1__1_8c.html#a3f8e43468fdf43b724aa3e47f0d65243',1,'liballoc_1_1.c']]],
-  ['atexit_5fmax_5ffuncs_2615',['ATEXIT_MAX_FUNCS',['../d0/dba/FennixLoader_2cxxabi_8cpp.html#ae07a9ad040d2fbefafcff363b77697ce',1,'ATEXIT_MAX_FUNCS():&#160;cxxabi.cpp'],['../d0/d20/UEFI_2src_2cxxabi_8cpp.html#ae07a9ad040d2fbefafcff363b77697ce',1,'ATEXIT_MAX_FUNCS():&#160;cxxabi.cpp']]],
-  ['attr_5fprintf_2616',['ATTR_PRINTF',['../dd/d09/FennixLoader_2include_2printf_8h.html#a7f65924a9437093b218072fbf1e0e27f',1,'ATTR_PRINTF():&#160;printf.h'],['../dd/db8/UEFI_2src_2printf_8h.html#a7f65924a9437093b218072fbf1e0e27f',1,'ATTR_PRINTF():&#160;printf.h']]],
-  ['attr_5fvprintf_2617',['ATTR_VPRINTF',['../dd/d09/FennixLoader_2include_2printf_8h.html#a0bf4b55e618023b0a33ec7f5305b6b71',1,'ATTR_VPRINTF():&#160;printf.h'],['../dd/db8/UEFI_2src_2printf_8h.html#a0bf4b55e618023b0a33ec7f5305b6b71',1,'ATTR_VPRINTF():&#160;printf.h']]]
+  ['base_5fbinary_486',['BASE_BINARY',['../d1/d3d/printf_8c.html#ac0194a004d8ee898b82545e8a23227c3',1,'printf.c']]],
+  ['base_5fdecimal_487',['BASE_DECIMAL',['../d1/d3d/printf_8c.html#a7c2e9072939c9b2f8a5cafe37631b8a0',1,'printf.c']]],
+  ['base_5fhex_488',['BASE_HEX',['../d1/d3d/printf_8c.html#a11b0944d693580cca5cf793d5a7c9e9d',1,'printf.c']]],
+  ['base_5foctal_489',['BASE_OCTAL',['../d1/d3d/printf_8c.html#a8706ee490451d2694347f1b6b6fd4cb8',1,'printf.c']]],
+  ['bool_490',['bool',['../d1/d3d/printf_8c.html#abb452686968e48b67397da5f97445f5b',1,'printf.c']]]
 ];

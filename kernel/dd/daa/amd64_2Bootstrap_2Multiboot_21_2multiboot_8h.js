@@ -50,7 +50,7 @@ var amd64_2Bootstrap_2Multiboot_21_2multiboot_8h =
       [ "mods_addr", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a854bdbfa7b23c9c3dfa0bfc155ef8242", null ],
       [ "mods_count", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#aebdafce31f94277d138202f7b1ec35cc", null ],
       [ "u", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a0baf89db690d3586dd8edfd345b8058f", null ],
-      [ "u", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a47581a0f9b950de948be5f3625d193c3", null ],
+      [ "u", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a303b516125f9309ac4e8890501811c9e", null ],
       [ "vbe_control_info", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a06191cef73b64e9d64a01850547fd2e8", null ],
       [ "vbe_interface_len", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#ab3c537df524db1ed0aeaa2e6f61a23e6", null ],
       [ "vbe_interface_off", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a1621d51b1cc198a1496e9f61b3708291", null ],

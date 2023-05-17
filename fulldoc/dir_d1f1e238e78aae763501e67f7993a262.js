@@ -173,6 +173,6 @@ var dir_d1f1e238e78aae763501e67f7993a262 =
       ] ],
       [ "DSDT", "dd/dc9/classACPI_1_1DSDT.html", "dd/dc9/classACPI_1_1DSDT" ]
     ] ],
-    [ "ArithmeticOperations.c", "d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html", "d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c" ],
+    [ "ArithmeticOperations.c", "d0/d18/ArithmeticOperations_8c.html", "d0/d18/ArithmeticOperations_8c" ],
     [ "SystemCalls.cpp", "d8/d1e/i386_2SystemCalls_8cpp.html", "d8/d1e/i386_2SystemCalls_8cpp" ]
 ];

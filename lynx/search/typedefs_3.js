@@ -1,20 +1,7 @@
 var searchData=
 [
-  ['int16_5ft_2244',['int16_t',['../d0/d8b/UEFI_2src_2printf_8c.html#afe270aee8d96ad7f279a4020b9d58bdf',1,'int16_t():&#160;printf.c'],['../dd/d7b/FennixLoader_2include_2types_8h.html#afe270aee8d96ad7f279a4020b9d58bdf',1,'int16_t():&#160;types.h']]],
-  ['int32_5ft_2245',['int32_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#a0c18914b3041c2f583aba76f418399c2',1,'int32_t():&#160;types.h'],['../d0/d8b/UEFI_2src_2printf_8c.html#a0c18914b3041c2f583aba76f418399c2',1,'int32_t():&#160;printf.c']]],
-  ['int48_5ft_2246',['int48_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#a3489c66fde928eaa6731f18a5aef2c54',1,'types.h']]],
-  ['int64_5ft_2247',['int64_t',['../d0/d18/ArithmeticOperations_8c.html#a996e72f71b11a5bb8b3b7b6936b1516d',1,'int64_t():&#160;ArithmeticOperations.c'],['../dd/d7b/FennixLoader_2include_2types_8h.html#ac714c0d2c1a4adb10e73cab29623314b',1,'int64_t():&#160;types.h'],['../d0/d8b/UEFI_2src_2printf_8c.html#ac714c0d2c1a4adb10e73cab29623314b',1,'int64_t():&#160;printf.c']]],
-  ['int8_5ft_2248',['int8_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#accbd6432732c88ad6adc5365800433b6',1,'int8_t():&#160;types.h'],['../d0/d8b/UEFI_2src_2printf_8c.html#accbd6432732c88ad6adc5365800433b6',1,'int8_t():&#160;printf.c']]],
-  ['int_5ffast16_5ft_2249',['int_fast16_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#a888269be199d49b7f40006aaafa5a350',1,'types.h']]],
-  ['int_5ffast32_5ft_2250',['int_fast32_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#a530ba8ffc89f6393d2d0e2fb2db38b54',1,'types.h']]],
-  ['int_5ffast48_5ft_2251',['int_fast48_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#acf2bd44757462bf2ee5189258f74a49a',1,'types.h']]],
-  ['int_5ffast64_5ft_2252',['int_fast64_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#abcdb0a9f6e7d139ad4f521ab8f4efdc0',1,'int_fast64_t():&#160;types.h'],['../d0/d8b/UEFI_2src_2printf_8c.html#abcdb0a9f6e7d139ad4f521ab8f4efdc0',1,'int_fast64_t():&#160;printf.c']]],
-  ['int_5ffast8_5ft_2253',['int_fast8_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#a98f573ff8187ff09c9594a3f2af7be0d',1,'types.h']]],
-  ['int_5fleast16_5ft_2254',['int_least16_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#a3a4bc1e426626e17f6a6e0f64decec56',1,'types.h']]],
-  ['int_5fleast32_5ft_2255',['int_least32_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#a4462f62ae74ff8172526401354d2fc9b',1,'types.h']]],
-  ['int_5fleast48_5ft_2256',['int_least48_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#a3cc7392e09771888be40b61d532f8915',1,'types.h']]],
-  ['int_5fleast64_5ft_2257',['int_least64_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#a8a5003442318117c64d16d6f32f64f37',1,'types.h']]],
-  ['int_5fleast8_5ft_2258',['int_least8_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#adb5f4bf8afa3bee9e4da1bb9daf4908d',1,'types.h']]],
-  ['intmax_5ft_2259',['intmax_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#ae26fa513a7dfed63221f72d93de2a021',1,'intmax_t():&#160;types.h'],['../d0/d8b/UEFI_2src_2printf_8c.html#ae26fa513a7dfed63221f72d93de2a021',1,'intmax_t():&#160;printf.c']]],
-  ['intptr_5ft_2260',['intptr_t',['../dd/d7b/FennixLoader_2include_2types_8h.html#a0bd5dec00e345e69027427f8621d6a6c',1,'types.h']]]
+  ['printf_5fflags_5ft_454',['printf_flags_t',['../d1/d3d/printf_8c.html#a9d4a10dcdc829ae96fb79bb912da57e2',1,'printf.c']]],
+  ['printf_5fsigned_5fvalue_5ft_455',['printf_signed_value_t',['../d1/d3d/printf_8c.html#a087d874d932f510310412187369a6cf9',1,'printf.c']]],
+  ['printf_5fsize_5ft_456',['printf_size_t',['../d1/d3d/printf_8c.html#a248c42df6acfe93973ab8ea2148820c7',1,'printf.c']]],
+  ['printf_5funsigned_5fvalue_5ft_457',['printf_unsigned_value_t',['../d1/d3d/printf_8c.html#af43407109a0952f9ce5dee4160f21235',1,'printf.c']]]
 ];

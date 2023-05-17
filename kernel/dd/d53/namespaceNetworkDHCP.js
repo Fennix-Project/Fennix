@@ -92,5 +92,6 @@ var namespaceNetworkDHCP =
       [ "DHCP_OPTION_NETWORK_TIME_SERVER", "dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa61e5f19d4cb6c5dbeecc85958104f94e", null ],
       [ "DHCP_OPTION_END", "dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa55b1f8195d4b26bf33508bf24e662187", null ]
     ] ],
+    [ "__no_sanitize", "dd/d53/namespaceNetworkDHCP.html#a59862d8b209257407a556bdc150e8fb3", null ],
     [ "__packed", "dd/d53/namespaceNetworkDHCP.html#a40c92eedfea2c53bbdf866e429abba12", null ]
 ];

@@ -125,30 +125,30 @@ $(document).ready(function(){initNavTree('d5/dae/8259PIC_8cpp_source.html','../.
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        SlaveMask = 0xFF;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="comment">// ICW1</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(MasterCommandPort, 0x11);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(SlaveCommandPort, 0x11);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        outb(MasterCommandPort, 0x11);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        outb(SlaveCommandPort, 0x11);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="comment">// ICW2</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(MasterDataPort, MasterOffset);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(SlaveDataPort, SlaveOffset);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        outb(MasterDataPort, MasterOffset);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        outb(SlaveDataPort, SlaveOffset);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="comment">// ICW3</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(MasterDataPort, 0x04);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(SlaveDataPort, 0x02);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        outb(MasterDataPort, 0x04);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        outb(SlaveDataPort, 0x02);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">// ICW4</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(MasterDataPort, 0x01);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(SlaveDataPort, 0x01);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        outb(MasterDataPort, 0x01);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        outb(SlaveDataPort, 0x01);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">// OCW1</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(MasterDataPort, MasterMask);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(SlaveDataPort, SlaveMask);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        outb(MasterDataPort, MasterMask);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        outb(SlaveDataPort, SlaveMask);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
 <div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../d2/d37/classPIC_1_1PIC.html#abe37603a947b620d16c27d0ff1adbcdc">   57</a></span>&#160;    PIC::~PIC()</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(MasterDataPort, 0xFF);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(SlaveDataPort, 0xFF);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        outb(MasterDataPort, 0xFF);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        outb(SlaveDataPort, 0xFF);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
 <div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../d2/d37/classPIC_1_1PIC.html#a7170a6cd5e558af101a85a4551c45b6b">   63</a></span>&#160;    <span class="keywordtype">void</span> PIC::Mask(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ)</div>
@@ -159,17 +159,17 @@ $(document).ready(function(){initNavTree('d5/dae/8259PIC_8cpp_source.html','../.
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">if</span> (IRQ &lt; 8)</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        {</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            Port = MasterDataPort;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <a class="code" href="../../d9/df3/structValue.html">Value</a> = MasterMask &amp; ~(1 &lt;&lt; IRQ);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <a class="code" href="../../d9/df3/structValue.html">Value</a> = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)(MasterMask &amp; ~(1 &lt;&lt; IRQ));</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            MasterMask = <a class="code" href="../../d9/df3/structValue.html">Value</a>;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        {</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            Port = SlaveDataPort;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <a class="code" href="../../d9/df3/structValue.html">Value</a> = SlaveMask &amp; ~(1 &lt;&lt; (IRQ - 8));</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <a class="code" href="../../d9/df3/structValue.html">Value</a> = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)(SlaveMask &amp; ~(1 &lt;&lt; (IRQ - 8)));</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            SlaveMask = <a class="code" href="../../d9/df3/structValue.html">Value</a>;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(Port, <a class="code" href="../../d9/df3/structValue.html">Value</a>);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        outb(Port, <a class="code" href="../../d9/df3/structValue.html">Value</a>);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
 <div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="../../d2/d37/classPIC_1_1PIC.html#a968c8150bee1b6374dc0aa2533bc402d">   84</a></span>&#160;    <span class="keywordtype">void</span> PIC::Unmask(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ)</div>
@@ -190,15 +190,15 @@ $(document).ready(function(){initNavTree('d5/dae/8259PIC_8cpp_source.html','../.
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            SlaveMask = <a class="code" href="../../d9/df3/structValue.html">Value</a>;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(Port, <a class="code" href="../../d9/df3/structValue.html">Value</a>);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        outb(Port, <a class="code" href="../../d9/df3/structValue.html">Value</a>);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
 <div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="../../d2/d37/classPIC_1_1PIC.html#acc7dc000d45d6baf88d146b575a35a86">  105</a></span>&#160;    <span class="keywordtype">void</span> PIC::SendEOI(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> IRQ)</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">if</span> (IRQ &gt;= 8)</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(SlaveCommandPort, 0x20);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            outb(SlaveCommandPort, 0x20);</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(MasterCommandPort, 0x20);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        outb(MasterCommandPort, 0x20);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
 <div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="../../d1/d20/classPIC_1_1PIT.html#ae6064457a2b00c870b30c76751ede0af">  113</a></span>&#160;    <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#ae6064457a2b00c870b30c76751ede0af">PIT::PIT</a>(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Port, <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Frequency)</div>
@@ -211,15 +211,15 @@ $(document).ready(function(){initNavTree('d5/dae/8259PIC_8cpp_source.html','../.
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    {</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
-<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="../../d1/d20/classPIC_1_1PIT.html#ab19f075c061d0862597c19475d570e95">  123</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#ab19f075c061d0862597c19475d570e95">PIT::PrepareSleep</a>(<a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1aab73e2ac34c19c796d3e4e3a49dc0f11">Milliseconds</a>)</div>
+<div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="../../d1/d20/classPIC_1_1PIT.html#ab19f075c061d0862597c19475d570e95">  123</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#ab19f075c061d0862597c19475d570e95">PIT::PrepareSleep</a>(<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1aab73e2ac34c19c796d3e4e3a49dc0f11">Milliseconds</a>)</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    {</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Divisor = 1193182 / <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#a7e85a061c9f54867d2e44e7fce653994">Frequency</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Divisor = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>)(1193182 / <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#a7e85a061c9f54867d2e44e7fce653994">Frequency</a>);</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8a69ef600f42f76b29661ff112d10596be">Low</a> = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)(Divisor &amp; 0xFF);</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8abc37da077a4c3351142e364e7ab2b2ca">High</a> = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)((Divisor &gt;&gt; 8) &amp; 0xFF);</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(<a class="code" href="../../d1/d20/classPIC_1_1PIT.html#aaa064bf3ff64c261b3ca5ab3992e5d34">Port</a> + 3, 0x36);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(<a class="code" href="../../d1/d20/classPIC_1_1PIT.html#aaa064bf3ff64c261b3ca5ab3992e5d34">Port</a> + 0, <a class="code" href="../../d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8a69ef600f42f76b29661ff112d10596be">Low</a>);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <a class="code" href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a>(<a class="code" href="../../d1/d20/classPIC_1_1PIT.html#aaa064bf3ff64c261b3ca5ab3992e5d34">Port</a> + 1, <a class="code" href="../../d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8abc37da077a4c3351142e364e7ab2b2ca">High</a>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        outb(<a class="code" href="../../d1/d20/classPIC_1_1PIT.html#aaa064bf3ff64c261b3ca5ab3992e5d34">Port</a> + 3, 0x36);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        outb(<a class="code" href="../../d1/d20/classPIC_1_1PIT.html#aaa064bf3ff64c261b3ca5ab3992e5d34">Port</a> + 0, <a class="code" href="../../d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8a69ef600f42f76b29661ff112d10596be">Low</a>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        outb(<a class="code" href="../../d1/d20/classPIC_1_1PIT.html#aaa064bf3ff64c261b3ca5ab3992e5d34">Port</a> + 1, <a class="code" href="../../d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8abc37da077a4c3351142e364e7ab2b2ca">High</a>);</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160; </div>
 <div class="line"><a name="l00134"></a><span class="lineno"><a class="line" href="../../d1/d20/classPIC_1_1PIT.html#abf776b71e7d000b8560afb94b531c90a">  134</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#abf776b71e7d000b8560afb94b531c90a">PIT::PerformSleep</a>()</div>
@@ -229,7 +229,7 @@ $(document).ready(function(){initNavTree('d5/dae/8259PIC_8cpp_source.html','../.
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            <a class="code" href="../../d9/df3/structValue.html">Value</a> = inb(<a class="code" href="../../d1/d20/classPIC_1_1PIT.html#aaa064bf3ff64c261b3ca5ab3992e5d34">Port</a> + 0);</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;}</div>
-<div class="ttc" id="aKernel_2Architecture_2i386_2ArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c_source.html#l00291">ArithmeticOperations.c:291</a></div></div>
+<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00145">types.h:145</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00146">types.h:146</a></div></div>
 <div class="ttc" id="aclassPIC_1_1PIC_html"><div class="ttname"><a href="../../d2/d37/classPIC_1_1PIC.html">PIC::PIC</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d25/pic_8hpp_source.html#l00025">pic.hpp:26</a></div></div>
@@ -239,7 +239,6 @@ $(document).ready(function(){initNavTree('d5/dae/8259PIC_8cpp_source.html','../.
 <div class="ttc" id="aclassPIC_1_1PIT_html_ab90f83f0d543c035eb82833a841c8a14"><div class="ttname"><a href="../../d1/d20/classPIC_1_1PIT.html#ab90f83f0d543c035eb82833a841c8a14">PIC::PIT::~PIT</a></div><div class="ttdeci">~PIT()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dae/8259PIC_8cpp_source.html#l00119">8259PIC.cpp:119</a></div></div>
 <div class="ttc" id="aclassPIC_1_1PIT_html_abf776b71e7d000b8560afb94b531c90a"><div class="ttname"><a href="../../d1/d20/classPIC_1_1PIT.html#abf776b71e7d000b8560afb94b531c90a">PIC::PIT::PerformSleep</a></div><div class="ttdeci">void PerformSleep()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dae/8259PIC_8cpp_source.html#l00134">8259PIC.cpp:134</a></div></div>
 <div class="ttc" id="aclassPIC_1_1PIT_html_ae6064457a2b00c870b30c76751ede0af"><div class="ttname"><a href="../../d1/d20/classPIC_1_1PIT.html#ae6064457a2b00c870b30c76751ede0af">PIC::PIT::PIT</a></div><div class="ttdeci">PIT(uint16_t Port, uint16_t Frequency)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dae/8259PIC_8cpp_source.html#l00113">8259PIC.cpp:113</a></div></div>
-<div class="ttc" id="aega_8c_html_a8bf7a9af91c08e6f876aaffeccd48ff3"><div class="ttname"><a href="../../d3/dac/ega_8c.html#a8bf7a9af91c08e6f876aaffeccd48ff3">outb</a></div><div class="ttdeci">void outb(uint16_t port, uint8_t val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dac/ega_8c_source.html#l00024">ega.c:24</a></div></div>
 <div class="ttc" id="aio_8h_html"><div class="ttname"><a href="../../dc/dac/io_8h.html">io.h</a></div></div>
 <div class="ttc" id="anamespacePIC_html"><div class="ttname"><a href="../../de/dad/namespacePIC.html">PIC</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dae/8259PIC_8cpp_source.html#l00022">8259PIC.cpp:23</a></div></div>
 <div class="ttc" id="anamespaceTasking_html_a6e7b9a12601b9ef62ca79d6b801c29c8a69ef600f42f76b29661ff112d10596be"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8a69ef600f42f76b29661ff112d10596be">Tasking::Low</a></div><div class="ttdeci">@ Low</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00081">task.hpp:81</a></div></div>

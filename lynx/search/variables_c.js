@@ -1,22 +1,5 @@
 var searchData=
 [
-  ['magic_2074',['magic',['../d2/dc3/liballoc__1__1_8c.html#a2a521ac1721a7b39baf53f995e0fcccf',1,'liballoc_minor::magic()'],['../d5/dba/multiboot2_8h.html#a7fddee92e60ff58e159c6bf2c40bf29b',1,'multiboot_header::magic()']]],
-  ['major_2075',['major',['../d5/dba/multiboot2_8h.html#a1979fc6821ff6ffb79bd95c2794104a0',1,'multiboot_tag_smbios']]],
-  ['max_5faddr_2076',['max_addr',['../d5/dba/multiboot2_8h.html#a9b71cbacfed4a5b1f123d6992f42bd74',1,'multiboot_header_tag_relocatable']]],
-  ['max_5fchars_2077',['max_chars',['../d0/d3e/structoutput__gadget__t.html#a0cd7104610b3f06fa140e68c1c9d9e73',1,'output_gadget_t']]],
-  ['mb2binfo_2078',['mb2binfo',['../d0/def/Loader_8cpp.html#a465e61be989d9009fa71dc38f57d7bb1',1,'Loader.cpp']]],
-  ['mem_5flower_2079',['mem_lower',['../d5/dba/multiboot2_8h.html#aaabdaf3c52dd3be82d1ab4fbd50f9004',1,'multiboot_tag_basic_meminfo::mem_lower()'],['../d1/dc0/multiboot_8h.html#aa3503176ee0d132ef98537fa0b36ff09',1,'multiboot_info::mem_lower()']]],
-  ['mem_5fupper_2080',['mem_upper',['../d1/dc0/multiboot_8h.html#a87db5803d5a79490b2bf32cb8e9a05c9',1,'multiboot_info::mem_upper()'],['../d5/dba/multiboot2_8h.html#ae329d0036de802dbac0b6bd991495738',1,'multiboot_tag_basic_meminfo::mem_upper()']]],
-  ['memory_2081',['Memory',['../db/d96/structBootInfo.html#af20195d9ca2aca3e8c401d10eb477c25',1,'BootInfo']]],
-  ['min_5faddr_2082',['min_addr',['../d5/dba/multiboot2_8h.html#a97193a1e961755821ca483bf378d11d3',1,'multiboot_header_tag_relocatable']]],
-  ['minor_2083',['minor',['../d5/dba/multiboot2_8h.html#abe83621d3f54ab2868c75a6396b25729',1,'multiboot_tag_smbios']]],
-  ['mmap_5faddr_2084',['mmap_addr',['../d1/dc0/multiboot_8h.html#aacf83273b9f8448d91fb24690492c0d8',1,'multiboot_info']]],
-  ['mmap_5flength_2085',['mmap_length',['../d1/dc0/multiboot_8h.html#a86a0d881c5233a4b1c8cd690ccd19b75',1,'multiboot_info']]],
-  ['mod_5fend_2086',['mod_end',['../d1/dc0/multiboot_8h.html#a75b0899f1e1f90d4ff629b7136f5b988',1,'multiboot_mod_list::mod_end()'],['../d5/dba/multiboot2_8h.html#ae0a4f42952619e0807cbb5debbf6e5af',1,'multiboot_tag_module::mod_end()']]],
-  ['mod_5fstart_2087',['mod_start',['../d1/dc0/multiboot_8h.html#afe0e2af1e8c0297c17a7771bd1a62e0f',1,'multiboot_mod_list::mod_start()'],['../d5/dba/multiboot2_8h.html#af2870ead515a1c38d4484645ab54fb03',1,'multiboot_tag_module::mod_start()']]],
-  ['mode_5ftype_2088',['mode_type',['../d5/dba/multiboot2_8h.html#a4c90b7929342dd5aab7d08afa0906d28',1,'multiboot_header']]],
-  ['mods_5faddr_2089',['mods_addr',['../d1/dc0/multiboot_8h.html#a854bdbfa7b23c9c3dfa0bfc155ef8242',1,'multiboot_info']]],
-  ['mods_5fcount_2090',['mods_count',['../d1/dc0/multiboot_8h.html#aebdafce31f94277d138202f7b1ec35cc',1,'multiboot_info']]],
-  ['modules_2091',['Modules',['../db/d96/structBootInfo.html#a66f34d5eae212d81e4f13032903863a4',1,'BootInfo']]],
-  ['multiply_2092',['multiply',['../d0/d8b/UEFI_2src_2printf_8c.html#a20a9219b33c6c3af38d83904470cc788',1,'scaling_factor']]]
+  ['raw_5ffactor_439',['raw_factor',['../d1/d3d/printf_8c.html#a6ca58048ee4d2c706d0b3a196cd847f8',1,'scaling_factor']]],
+  ['req_5fsize_440',['req_size',['../d2/dc3/liballoc__1__1_8c.html#a0e798303ee8177899564e567fea41d3f',1,'liballoc_minor']]]
 ];

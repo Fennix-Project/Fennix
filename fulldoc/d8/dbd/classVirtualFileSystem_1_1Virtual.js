@@ -1,7 +1,7 @@
 var classVirtualFileSystem_1_1Virtual =
 [
-    [ "Virtual", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a7d201550fbf9021d721a9cdbf4cfda05", null ],
-    [ "~Virtual", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a93c3bb9931b4473fab141f902f12d59f", null ],
+    [ "Virtual", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a29ff14cec9d825430559a96e831f13bc", null ],
+    [ "~Virtual", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a75c97a61bce18d901a6c22f9a8e087ec", null ],
     [ "AddNewChild", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a80694fc0b74fb59e25310c79c7545d4a", null ],
     [ "Close", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a469b6998ce7bbc7a69e8b8193bfef7a5", null ],
     [ "ConvertNodeToFILE", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a1ce4a3bb9555ab28891ab1041e90ba31", null ],

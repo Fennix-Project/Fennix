@@ -87,7 +87,7 @@ var smbios_8hpp =
     [ "GetMemoryDeviceMappedAddress", "d5/d8f/smbios_8hpp.html#a5c6cb485d017991de7d7683c2e19bca7", null ],
     [ "GetProcessorInformation", "d5/d8f/smbios_8hpp.html#ac8048918c891100b8675f4d5c865036b", null ],
     [ "GetSMBIOSEntryPoint", "d5/d8f/smbios_8hpp.html#acfc63dd9088cbc27b8beceed47cbec33", null ],
-    [ "GetSMBIOSHeader", "d5/d8f/smbios_8hpp.html#a0ccad5c9ebf41beebd6a842f30239096", null ],
+    [ "GetSMBIOSHeader", "d5/d8f/smbios_8hpp.html#a0f5fdd3d90fdc98b67cad79b7a1debc9", null ],
     [ "GetSystemInformation", "d5/d8f/smbios_8hpp.html#ae3382ba080dc48b747f06b169360434a", null ],
     [ "SMBIOSNextString", "d5/d8f/smbios_8hpp.html#ade5c4d4c3f23921f77e72a38d3e2fc30", null ]
 ];

@@ -112,7 +112,7 @@ Macros</h2></td></tr>
 <tr class="separator:a972f8ec732deadabcb18aa4567f95a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;&#160;&#160;((void *)0)</td></tr>
 <tr class="separator:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb00b1a27b40fde5065d26e5aa367808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a>(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>,  align)&#160;&#160;&#160;((__typeof__(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>))(((<a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) + ((align)-1)) &amp; (~((align)-1))))</td></tr>
+<tr class="memitem:afb00b1a27b40fde5065d26e5aa367808"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#afb00b1a27b40fde5065d26e5aa367808">ALIGN_UP</a>(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>,  align)&#160;&#160;&#160;((__typeof__(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>))(((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) + ((align)-1)) &amp; (~((align)-1))))</td></tr>
 <tr class="separator:afb00b1a27b40fde5065d26e5aa367808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1de6625fa208285b5f2b043fa9c537e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a1de6625fa208285b5f2b043fa9c537e7">ALIGN_DOWN</a>(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>,  align)&#160;&#160;&#160;((__typeof__(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>))((<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) &amp; (~((align)-1))))</td></tr>
 <tr class="separator:a1de6625fa208285b5f2b043fa9c537e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,27 +156,16 @@ Enumerations</h2></td></tr>
 , <a class="el" href="../../d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0">_URC_INSTALL_CONTEXT</a> = 7
 , <br />
 &#160;&#160;<a class="el" href="../../d7/ded/Kernel_2Library_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6">_URC_CONTINUE_UNWIND</a> = 8
-, <a class="el" href="../../df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97">_URC_NO_REASON</a> = 0
-, <a class="el" href="../../df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b">_URC_FOREIGN_EXCEPTION_CAUGHT</a> = 1
-, <a class="el" href="../../df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c">_URC_FATAL_PHASE2_ERROR</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a">_URC_FATAL_PHASE1_ERROR</a> = 3
-, <a class="el" href="../../df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586">_URC_NORMAL_STOP</a> = 4
-, <a class="el" href="../../df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5">_URC_END_OF_STACK</a> = 5
-, <a class="el" href="../../df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d">_URC_HANDLER_FOUND</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0">_URC_INSTALL_CONTEXT</a> = 7
-, <a class="el" href="../../df/d6f/Lynx_2FennixLoader_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6">_URC_CONTINUE_UNWIND</a> = 8
 , <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97">_URC_NO_REASON</a> = 0
 , <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b">_URC_FOREIGN_EXCEPTION_CAUGHT</a> = 1
+, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c">_URC_FATAL_PHASE2_ERROR</a> = 2
 , <br />
-&#160;&#160;<a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c">_URC_FATAL_PHASE2_ERROR</a> = 2
-, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a">_URC_FATAL_PHASE1_ERROR</a> = 3
+&#160;&#160;<a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a">_URC_FATAL_PHASE1_ERROR</a> = 3
 , <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586">_URC_NORMAL_STOP</a> = 4
 , <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5">_URC_END_OF_STACK</a> = 5
+, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d">_URC_HANDLER_FOUND</a> = 6
 , <br />
-&#160;&#160;<a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d">_URC_HANDLER_FOUND</a> = 6
-, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0">_URC_INSTALL_CONTEXT</a> = 7
+&#160;&#160;<a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0">_URC_INSTALL_CONTEXT</a> = 7
 , <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6">_URC_CONTINUE_UNWIND</a> = 8
 <br />
  }</td></tr>
@@ -196,7 +185,7 @@ Functions</h2></td></tr>
 <tr class="separator:aebcc976a7993632e8679b287e8f2ff11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a333d4d92c55d23e69b5c447d90795b8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a333d4d92c55d23e69b5c447d90795b8f">_Unwind_Resume</a> (struct <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#de/dc3/struct__Unwind__Exception">_Unwind_Exception</a> *exc)</td></tr>
 <tr class="separator:a333d4d92c55d23e69b5c447d90795b8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93fda3960d3337ef69b6bf27979dc07d"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a93fda3960d3337ef69b6bf27979dc07d">__cxa_allocate_exception</a> (<a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> thrown_size)  throw ()</td></tr>
+<tr class="memitem:a93fda3960d3337ef69b6bf27979dc07d"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a93fda3960d3337ef69b6bf27979dc07d">__cxa_allocate_exception</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> thrown_size)  throw ()</td></tr>
 <tr class="separator:a93fda3960d3337ef69b6bf27979dc07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79efbfe75b9090140cf0b167a7ff7148"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp.html#a79efbfe75b9090140cf0b167a7ff7148">__cxa_throw</a> (void *thrown_object, void *tinfo, void(*dest)(void *))</td></tr>
 <tr class="separator:a79efbfe75b9090140cf0b167a7ff7148"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -334,7 +323,7 @@ private_2</td>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((__typeof__(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>))(((<a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) + ((align)-1)) &amp; (~((align)-1))))</td>
+          <td></td><td>&#160;&#160;&#160;((__typeof__(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>))(((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) + ((align)-1)) &amp; (~((align)-1))))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -495,7 +484,7 @@ private_2</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef __UINT32_TYPE__ <a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+          <td class="memname">typedef __UINT32_TYPE__ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -511,7 +500,7 @@ private_2</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef __UINT64_TYPE__ <a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+          <td class="memname">typedef __UINT64_TYPE__ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -566,15 +555,6 @@ private_2</td>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97"></a>_URC_NO_REASON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b"></a>_URC_FOREIGN_EXCEPTION_CAUGHT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c"></a>_URC_FATAL_PHASE2_ERROR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a"></a>_URC_FATAL_PHASE1_ERROR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2afb395219565efdeddd6511bd94388586"></a>_URC_NORMAL_STOP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2ad764c4ff93e12350f072e0cbd70398c5"></a>_URC_END_OF_STACK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2a608f0da2ee309a1c1395063b8b6d028d"></a>_URC_HANDLER_FOUND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2a1f57f348816bdd0564bdfd9180e50fc0"></a>_URC_INSTALL_CONTEXT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2aceacf011e23d791d187b7b10b599bdb6"></a>_URC_CONTINUE_UNWIND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2a41ad850ae0c5b105dca3d223df38af97"></a>_URC_NO_REASON&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b"></a>_URC_FOREIGN_EXCEPTION_CAUGHT&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2a30528e6b6930b75402dca7f9af05cf9c"></a>_URC_FATAL_PHASE2_ERROR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a26f33dc6f6d23dc64517389b6b786ac2a53bf3ead23368c90ad6a0464eb47097a"></a>_URC_FATAL_PHASE1_ERROR&#160;</td><td class="fielddoc"></td></tr>
@@ -667,7 +647,7 @@ private_2</td>
         <tr>
           <td class="memname">void* __cxa_allocate_exception </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>thrown_size</em></td><td>)</td>
           <td></td>
         </tr>

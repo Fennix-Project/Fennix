@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['framebufferinfo_1507',['FramebufferInfo',['../db/d96/structBootInfo.html#dc/d85/structBootInfo_1_1FramebufferInfo',1,'BootInfo']]]
+  ['scaling_5ffactor_288',['scaling_factor',['../d1/d3d/printf_8c.html#db/dfc/structscaling__factor',1,'']]]
 ];

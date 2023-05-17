@@ -88,6 +88,7 @@ $(document).ready(function(){initNavTree('dd/d53/namespaceNetworkDHCP.html','../
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">NetworkDHCP Namespace Reference</div>  </div>
@@ -216,6 +217,11 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a23496c1315a5b90e844b83fe4342290d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a59862d8b209257407a556bdc150e8fb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d53/namespaceNetworkDHCP.html#a59862d8b209257407a556bdc150e8fb3">__no_sanitize</a> (&quot;alignment&quot;) void <a class="el" href="../../db/dd7/classNetworkDHCP_1_1DHCP.html">DHCP</a></td></tr>
+<tr class="separator:a59862d8b209257407a556bdc150e8fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -651,6 +657,90 @@ YourIP</td>
 <div class="ttc" id="anamespaceNetworkDHCP_html_a42afac4eee371cb0e894d6d68da1181aaf91bcfeeb5d156cb220f6a0d8152e5a0"><div class="ttname"><a href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aaf91bcfeeb5d156cb220f6a0d8152e5a0">NetworkDHCP::DHCP_OPTION_NETBIOS_SCOPE</a></div><div class="ttdeci">@ DHCP_OPTION_NETBIOS_SCOPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d16/dhcp_8hpp_source.html#l00108">dhcp.hpp:108</a></div></div>
 <div class="ttc" id="anamespaceNetworkDHCP_html_a42afac4eee371cb0e894d6d68da1181aafde70687d636a3b4ad5420c59076331d"><div class="ttname"><a href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aafde70687d636a3b4ad5420c59076331d">NetworkDHCP::DHCP_OPTION_PERFORM_MASK_DISCOVERY</a></div><div class="ttdeci">@ DHCP_OPTION_PERFORM_MASK_DISCOVERY</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d16/dhcp_8hpp_source.html#l00087">dhcp.hpp:87</a></div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a59862d8b209257407a556bdc150e8fb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59862d8b209257407a556bdc150e8fb3">&#9670;&nbsp;</a></span>__no_sanitize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">NetworkDHCP::__no_sanitize </td>
+          <td>(</td>
+          <td class="paramtype">&quot;alignment&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d38/DynamicHostConfigurationProtocol_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../d8/d38/DynamicHostConfigurationProtocol_8cpp_source.html">DynamicHostConfigurationProtocol.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        Packet-&gt;Opcode = <a class="code" href="../../d6/de6/include_2types_8h.html#a94eac8d9cd20ccc4c673e8f907253679">b8</a>(<a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a9a6e69d30835fac1c460b04ad0f894d2ab456f31342ce9ace24f2c17f1a2ce84f">DHCP_OP_BOOTREQUEST</a>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        Packet-&gt;HardwareType = <a class="code" href="../../d6/de6/include_2types_8h.html#a94eac8d9cd20ccc4c673e8f907253679">b8</a>(1);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        Packet-&gt;HardwareAddressLength = <a class="code" href="../../d6/de6/include_2types_8h.html#a94eac8d9cd20ccc4c673e8f907253679">b8</a>(6);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        Packet-&gt;Hops = <a class="code" href="../../d6/de6/include_2types_8h.html#a94eac8d9cd20ccc4c673e8f907253679">b8</a>(0);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        Packet-&gt;TransactionID = <a class="code" href="../../d6/de6/include_2types_8h.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a>(<a class="code" href="../../d0/d16/dhcp_8hpp.html#a74bf772424eaf4b1d5711735476b3ac6">DHCP_TRANSACTION_ID</a>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        Packet-&gt;Flags = <a class="code" href="../../d6/de6/include_2types_8h.html#a88da023a73ece4eb02fd14231ba1718b">b16</a>(0x40);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a25baf26b50bc73c25d21005f30ca33b6">uint48_t</a> InterfaceMAC = <a class="code" href="../../d6/de6/include_2types_8h.html#a9e129c4f168e2503e45cf0ab2fb1994d">b48</a>(Interface-&gt;MAC.ToHex());</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>(Packet-&gt;ClientHardwareAddress, &amp;InterfaceMAC, <span class="keyword">sizeof</span>(InterfaceMAC));</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Ptr = Packet-&gt;Options;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        *((<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *)(Ptr)) = <a class="code" href="../../d6/de6/include_2types_8h.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a>(0x63825363); <span class="comment">// Magic Cookie</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        Ptr += 4;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aac632824b3dd4edc0713c71bbd8aaf431">DHCP_OPTION_MESSAGE_TYPE</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a23496c1315a5b90e844b83fe4342290da7d70f23def771e9c16d070be5b64fbf1">DHCP_MESSAGE_TYPE_DISCOVER</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        *(Ptr++) = MessageType;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa3e876a9fd83a98e6900f517311a8458a">DHCP_OPTION_CLIENT_IDENTIFIER</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        *(Ptr++) = 0x07;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        *(Ptr++) = 0x01;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>(Ptr, &amp;InterfaceMAC, <span class="keyword">sizeof</span>(InterfaceMAC));</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        Ptr += 6;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa91da8efa8f93a45793844d3e3b0c5056">DHCP_OPTION_REQUESTED_IP</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        *(Ptr++) = 0x04;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        *((<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *)(Ptr)) = <a class="code" href="../../d6/de6/include_2types_8h.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a>(0x0a00020e);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>((<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *)(Ptr), &amp;RequestIP, 4);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        Ptr += 4;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa9172f3aa509af4a85f271cab5516fcfa">DHCP_OPTION_HOST_NAME</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordtype">char</span> *HostName = (<span class="keywordtype">char</span> *)KERNEL_NAME;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        *(Ptr++) = s_cst(<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>, 1 + <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(HostName));</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>(Ptr, HostName, <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(HostName));</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        Ptr += <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(HostName);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa79c6d1a43386f4dfbf3a6b81074d1a21">DHCP_OPTION_PAD</a>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa0a39d53cd1778263f36ddd0870d847e9">DHCP_OPTION_PARAMETER_REQUEST_LIST</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa5bd6bd2a690b0726437877a09adfec85">DHCP_OPTION_COOKIE_SERVER</a>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aaa72849786ab0b644232e6f0e261deb8f">DHCP_OPTION_SUBNETMASK</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa93591bc3ae2485a2c15d1b8b1e85603b">DHCP_OPTION_ROUTER</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa02bbc6275308d906ac6ec8a71eebd894">DHCP_OPTION_DOMAIN_NAME_SERVER</a>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa36c8c5ea40cb64a47756ec9b02d2bf63">DHCP_OPTION_DOMAIN_NAME</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa30490eeb20e7210467474e26e06e4bb8">DHCP_OPTION_NETBIOS_NAME_SERVERS</a>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa010556dbed908782f209227e475fc1b0">DHCP_OPTION_NETBIOS_NODE_TYPE</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aaf91bcfeeb5d156cb220f6a0d8152e5a0">DHCP_OPTION_NETBIOS_SCOPE</a>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa8ba00e7b443d168299d4dfdb3cb0a910">DHCP_OPTION_MAX_MESSAGE_SIZE</a>;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        *(Ptr++) = <a class="code" href="../../dd/d53/namespaceNetworkDHCP.html#a42afac4eee371cb0e894d6d68da1181aa55b1f8195d4b26bf33508bf24e662187">DHCP_OPTION_END</a>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
+<div class="ttc" id="aConvert_8cpp_html_a0c94a56e02776859c0f510bd6f7354c6"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memcpy(void *dest, const void *src, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l01030">Convert.cpp:1030</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00064">Convert.cpp:64</a></div></div>
+<div class="ttc" id="adhcp_8hpp_html_a74bf772424eaf4b1d5711735476b3ac6"><div class="ttname"><a href="../../d0/d16/dhcp_8hpp.html#a74bf772424eaf4b1d5711735476b3ac6">DHCP_TRANSACTION_ID</a></div><div class="ttdeci">#define DHCP_TRANSACTION_ID</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d16/dhcp_8hpp_source.html#l00152">dhcp.hpp:152</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a25baf26b50bc73c25d21005f30ca33b6"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a25baf26b50bc73c25d21005f30ca33b6">uint48_t</a></div><div class="ttdeci">__UINT64_TYPE__ uint48_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00273">types.h:273</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00145">types.h:145</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a88da023a73ece4eb02fd14231ba1718b"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a88da023a73ece4eb02fd14231ba1718b">b16</a></div><div class="ttdeci">#define b16(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00282">types.h:282</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a94eac8d9cd20ccc4c673e8f907253679"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a94eac8d9cd20ccc4c673e8f907253679">b8</a></div><div class="ttdeci">#define b8(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00281">types.h:281</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a9e129c4f168e2503e45cf0ab2fb1994d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a9e129c4f168e2503e45cf0ab2fb1994d">b48</a></div><div class="ttdeci">#define b48(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00284">types.h:284</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_ae6339ff3644650c6bb6416c9afd8bf5d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#ae6339ff3644650c6bb6416c9afd8bf5d">b32</a></div><div class="ttdeci">#define b32(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00283">types.h:283</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00282">b16</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00283">b32</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00284">b48</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00281">b8</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00132">DHCP_MESSAGE_TYPE_DISCOVER</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00049">DHCP_OP_BOOTREQUEST</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00123">DHCP_OPTION_CLIENT_IDENTIFIER</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00064">DHCP_OPTION_COOKIE_SERVER</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00071">DHCP_OPTION_DOMAIN_NAME</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00062">DHCP_OPTION_DOMAIN_NAME_SERVER</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00127">DHCP_OPTION_END</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00068">DHCP_OPTION_HOST_NAME</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00119">DHCP_OPTION_MAX_MESSAGE_SIZE</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00115">DHCP_OPTION_MESSAGE_TYPE</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00105">DHCP_OPTION_NETBIOS_NAME_SERVERS</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00107">DHCP_OPTION_NETBIOS_NODE_TYPE</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00108">DHCP_OPTION_NETBIOS_SCOPE</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00056">DHCP_OPTION_PAD</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00117">DHCP_OPTION_PARAMETER_REQUEST_LIST</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00112">DHCP_OPTION_REQUESTED_IP</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00059">DHCP_OPTION_ROUTER</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00057">DHCP_OPTION_SUBNETMASK</a>, <a class="el" href="../../d0/d16/dhcp_8hpp_source.html#l00152">DHCP_TRANSACTION_ID</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01030">memcpy()</a>, and <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>

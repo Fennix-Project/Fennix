@@ -4,7 +4,7 @@ var classTasking_1_1Task =
     [ "~Task", "dc/dc5/classTasking_1_1Task.html#a3ecf499ea35fb4a96853969a1e1cbbce", null ],
     [ "CleanupProcessesThread", "dc/dc5/classTasking_1_1Task.html#a1c3f0af7a581a9d230990fec85225e61", null ],
     [ "CreateProcess", "dc/dc5/classTasking_1_1Task.html#a48736ae4ec7133fac9ca0c956ddfa73c", null ],
-    [ "CreateThread", "dc/dc5/classTasking_1_1Task.html#a61aa1e4b54bc30b05a8fdfa52bd7e21a", null ],
+    [ "CreateThread", "dc/dc5/classTasking_1_1Task.html#a0c769d89938683e7ddada78f5894ee1c", null ],
     [ "FindNewProcess", "dc/dc5/classTasking_1_1Task.html#a5ee9480d5619cd1286f5c8ed835348e3", null ],
     [ "GetCurrentProcess", "dc/dc5/classTasking_1_1Task.html#a23a57b7f1f5c43776c4c030f808651df", null ],
     [ "GetCurrentThread", "dc/dc5/classTasking_1_1Task.html#a10a2b0db88f5a29369b03218d797e527", null ],

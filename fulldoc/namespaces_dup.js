@@ -112,8 +112,6 @@ var namespaces_dup =
       [ "WriteFSFunction", "d3/d97/namespaceMemory.html#a1c5c24bf1615ba4a406fce3ad555d2fa", null ],
       [ "mem_op", "d3/d97/namespaceMemory.html#a6c1d73cc8a1e574400a2055d2beddf2a", null ]
     ] ],
-    [ "Memory32", "de/d90/namespaceMemory32.html", "de/d90/namespaceMemory32" ],
-    [ "Memory64", "d4/d7e/namespaceMemory64.html", "d4/d7e/namespaceMemory64" ],
     [ "mlibc", "d0/d9a/namespacemlibc.html", "d0/d9a/namespacemlibc" ],
     [ "NetworkARP", "d2/df9/namespaceNetworkARP.html", "d2/df9/namespaceNetworkARP" ],
     [ "NetworkDHCP", "dd/d53/namespaceNetworkDHCP.html", "dd/d53/namespaceNetworkDHCP" ],
@@ -152,8 +150,8 @@ var namespaces_dup =
     [ "SysDbg", "d3/df0/namespaceSysDbg.html", [
       [ "LockedWrite", "d3/df0/namespaceSysDbg.html#a1d6b6ed94c1d9927e3f57c869a61d6b0", null ],
       [ "LockedWriteLine", "d3/df0/namespaceSysDbg.html#a9035cadd2fa3b7619632acd8055ff56c", null ],
-      [ "Write", "d3/df0/namespaceSysDbg.html#a0ad2a389dcb1764431d35f46966404af", null ],
-      [ "WriteLine", "d3/df0/namespaceSysDbg.html#a8d62ceb6419ec955d3926134d274c35c", null ]
+      [ "Write", "d3/df0/namespaceSysDbg.html#a56519f591431842de3118d8b729bdaec", null ],
+      [ "WriteLine", "d3/df0/namespaceSysDbg.html#a2fd34f75c42a378c4a07656d9ad28d35", null ]
     ] ],
     [ "Tasking", "d9/d3e/namespaceTasking.html", "d9/d3e/namespaceTasking" ],
     [ "Time", "d3/d56/namespaceTime.html", "d3/d56/namespaceTime" ],

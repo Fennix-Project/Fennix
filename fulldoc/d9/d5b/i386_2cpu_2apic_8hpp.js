@@ -7,7 +7,7 @@ var i386_2cpu_2apic_8hpp =
     ] ],
     [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ],
     [ "Timer", "df/d9c/classAPIC_1_1Timer.html", "df/d9c/classAPIC_1_1Timer" ],
-    [ "__packed.__unnamed44__", "d3/d88/namespaceAPIC.html#de/d47/structAPIC_1_1____packed_8____unnamed44____", [
+    [ "__packed.__unnamed45__", "d3/d88/namespaceAPIC.html#d3/de1/structAPIC_1_1____packed_8____unnamed45____", [
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "Mask", "d3/d88/namespaceAPIC.html#a4a18312b5b75f549d5551e5912ad6ebf", null ],
       [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
@@ -16,7 +16,7 @@ var i386_2cpu_2apic_8hpp =
       [ "TimerMode", "d3/d88/namespaceAPIC.html#a1bc24773da7aa7b2637fc28b2d491723", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed47__", "d3/d88/namespaceAPIC.html#d6/ddd/structAPIC_1_1____packed_8____unnamed47____", [
+    [ "__packed.__unnamed48__", "d3/d88/namespaceAPIC.html#d8/dd9/structAPIC_1_1____packed_8____unnamed48____", [
       [ "DisableEOIBroadcast", "d3/d88/namespaceAPIC.html#a9181cfd5af6141f9280afcc23725fc79", null ],
       [ "FocusProcessorChecking", "d3/d88/namespaceAPIC.html#a49be6122235fc845f2e3da809328d744", null ],
       [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
@@ -24,7 +24,7 @@ var i386_2cpu_2apic_8hpp =
       [ "Software", "d3/d88/namespaceAPIC.html#a719d067b229178f03bcfa1da4ac4dede", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed49__", "d3/d88/namespaceAPIC.html#db/d67/structAPIC_1_1____packed_8____unnamed49____", [
+    [ "__packed.__unnamed50__", "d3/d88/namespaceAPIC.html#db/dcb/structAPIC_1_1____packed_8____unnamed50____", [
       [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "DestinationMode", "d3/d88/namespaceAPIC.html#a74e856f5a8e178cf38ae4e7c58bc838d", null ],
@@ -59,7 +59,7 @@ var i386_2cpu_2apic_8hpp =
       [ "Low", "d3/d88/namespaceAPIC.html#a28d0edd045e05cf5af64e35ae0c4c6ef", null ],
       [ "Low", "d3/d88/namespaceAPIC.html#a28d0edd045e05cf5af64e35ae0c4c6ef", null ]
     ] ],
-    [ "__packed.__unnamed57__", "d3/d88/namespaceAPIC.html#dc/dd9/structAPIC_1_1____packed_8____unnamed57____", [
+    [ "__packed.__unnamed58__", "d3/d88/namespaceAPIC.html#dd/d4d/structAPIC_1_1____packed_8____unnamed58____", [
       [ "MaximumRedirectionEntry", "d3/d88/namespaceAPIC.html#a528bff8b6bcc79dfa0a42073f5eec7e9", null ],
       [ "Reserved", "d3/d88/namespaceAPIC.html#a942d4e37dd5607ab68e54755540d4a47", null ],
       [ "Reserved2", "d3/d88/namespaceAPIC.html#ad783eb173ee49cc2a004bc1ca1313615", null ],

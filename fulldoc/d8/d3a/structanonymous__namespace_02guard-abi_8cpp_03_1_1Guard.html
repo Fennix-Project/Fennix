@@ -105,7 +105,7 @@ Public Member Functions</h2></td></tr>
 Data Fields</h2></td></tr>
 <tr class="memitem:ad5f47fecf91d4e2c394e620a772a5ad3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d3a/structanonymous__namespace_02guard-abi_8cpp_03_1_1Guard.html#ad5f47fecf91d4e2c394e620a772a5ad3">complete</a></td></tr>
 <tr class="separator:ad5f47fecf91d4e2c394e620a772a5ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abee3b7d5f9d2d98c10c35566bfaa2fe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d3a/structanonymous__namespace_02guard-abi_8cpp_03_1_1Guard.html#abee3b7d5f9d2d98c10c35566bfaa2fe7">mutex</a></td></tr>
+<tr class="memitem:abee3b7d5f9d2d98c10c35566bfaa2fe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d3a/structanonymous__namespace_02guard-abi_8cpp_03_1_1Guard.html#abee3b7d5f9d2d98c10c35566bfaa2fe7">mutex</a></td></tr>
 <tr class="separator:abee3b7d5f9d2d98c10c35566bfaa2fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
@@ -142,7 +142,7 @@ Static Public Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d07/guard-abi_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../d8/d07/guard-abi_8cpp_source.html">guard-abi.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v = 0;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v = 0;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">if</span>(__atomic_compare_exchange_n(&amp;<a class="code" href="../../d8/d3a/structanonymous__namespace_02guard-abi_8cpp_03_1_1Guard.html#abee3b7d5f9d2d98c10c35566bfaa2fe7">mutex</a>, &amp;v, <a class="code" href="../../d8/d3a/structanonymous__namespace_02guard-abi_8cpp_03_1_1Guard.html#a625bdfa55068957c945100eac821a194">Guard::locked</a>, <span class="keyword">false</span>,</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                __ATOMIC_ACQUIRE, __ATOMIC_RELAXED))</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordflow">return</span>;</div>
@@ -150,7 +150,7 @@ Static Public Attributes</h2></td></tr>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../d0/d9a/namespacemlibc.html#a34fdf458c4c2f35027b0b2d81566c1a0">mlibc::sys_libc_log</a>(<span class="stringliteral">&quot;__cxa_guard_acquire contention&quot;</span>);</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        __builtin_trap();</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
-<div class="ttc" id="aKernel_2Architecture_2i386_2ArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c_source.html#l00291">ArithmeticOperations.c:291</a></div></div>
+<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a34fdf458c4c2f35027b0b2d81566c1a0"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a34fdf458c4c2f35027b0b2d81566c1a0">mlibc::sys_libc_log</a></div><div class="ttdeci">void sys_libc_log(const char *message)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/aero_8cpp_source.html#l00145">aero.cpp:145</a></div></div>
 <div class="ttc" id="astructanonymous__namespace_02guard-abi_8cpp_03_1_1Guard_html_a625bdfa55068957c945100eac821a194"><div class="ttname"><a href="../../d8/d3a/structanonymous__namespace_02guard-abi_8cpp_03_1_1Guard.html#a625bdfa55068957c945100eac821a194">anonymous_namespace{guard-abi.cpp}::Guard::locked</a></div><div class="ttdeci">static constexpr int32_t locked</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d07/guard-abi_8cpp_source.html#l00015">guard-abi.cpp:15</a></div></div>
 <div class="ttc" id="astructanonymous__namespace_02guard-abi_8cpp_03_1_1Guard_html_abee3b7d5f9d2d98c10c35566bfaa2fe7"><div class="ttname"><a href="../../d8/d3a/structanonymous__namespace_02guard-abi_8cpp_03_1_1Guard.html#abee3b7d5f9d2d98c10c35566bfaa2fe7">anonymous_namespace{guard-abi.cpp}::Guard::mutex</a></div><div class="ttdeci">uint32_t mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d07/guard-abi_8cpp_source.html#l00036">guard-abi.cpp:36</a></div></div>
@@ -239,7 +239,7 @@ Static Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> anonymous_namespace{<a class="el" href="../../d2/dcf/managarm_2generic_2entry_8cpp.html#ac5e426d88d8792960998234d514f4472">guard</a>-abi.cpp}::Guard::mutex</td>
+          <td class="memname"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> anonymous_namespace{<a class="el" href="../../d2/dcf/managarm_2generic_2entry_8cpp.html#ac5e426d88d8792960998234d514f4472">guard</a>-abi.cpp}::Guard::mutex</td>
         </tr>
       </table>
 </div><div class="memdoc">

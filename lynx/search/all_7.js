@@ -1,15 +1,8 @@
 var searchData=
 [
-  ['g_639',['G',['../de/d77/FennixLoader_2include_2memory_8hpp.html#a01615b7fec8f37b8215dda294f13d4a5a2fe993340f6abb2234e543cd427df70b',1,'memory.hpp']]],
-  ['get_640',['Get',['../d3/d19/classBitmap.html#a9f96c621ef1f5b2217d6c63b20af246e',1,'Bitmap']]],
-  ['get_5fbit_5faccess_641',['get_bit_access',['../d0/d8b/UEFI_2src_2printf_8c.html#a415be1c3d47bfe5e7d7f60710bf5aee6',1,'get_bit_access(unsigned long x):&#160;printf.c'],['../de/df0/FennixLoader_2printf_8c.html#a7c540c159e5a2d75db4cb3bb1d8a139b',1,'get_bit_access(double x):&#160;printf.c']]],
-  ['get_5fcomponents_642',['get_components',['../d0/d8b/UEFI_2src_2printf_8c.html#aeb693680ca054bf2b054821a58de88c7',1,'get_components(unsigned long number, printf_size_t precision):&#160;printf.c'],['../de/df0/FennixLoader_2printf_8c.html#a9114406a391499b4f8249cec5db2f340',1,'get_components(double number, printf_size_t precision):&#160;printf.c']]],
-  ['get_5fexp2_643',['get_exp2',['../d0/d8b/UEFI_2src_2printf_8c.html#a06bae36118027e52e83c591122bd9ca5',1,'get_exp2(double_with_bit_access x):&#160;printf.c'],['../de/df0/FennixLoader_2printf_8c.html#a06bae36118027e52e83c591122bd9ca5',1,'get_exp2(double_with_bit_access x):&#160;printf.c']]],
-  ['get_5fnormalized_5fcomponents_644',['get_normalized_components',['../d0/d8b/UEFI_2src_2printf_8c.html#aef0730f71463ec27d7f10c1eba1c11c2',1,'get_normalized_components(bool negative, printf_size_t precision, unsigned long non_normalized, struct scaling_factor normalization, int floored_exp10):&#160;printf.c'],['../de/df0/FennixLoader_2printf_8c.html#a136267510121e5b38f8859b10b9cc8ab',1,'get_normalized_components(bool negative, printf_size_t precision, double non_normalized, struct scaling_factor normalization, int floored_exp10):&#160;printf.c']]],
-  ['get_5fsign_5fbit_645',['get_sign_bit',['../d0/d8b/UEFI_2src_2printf_8c.html#aaf6e951337db93053dcbba7aa0e276b7',1,'get_sign_bit(unsigned long x):&#160;printf.c'],['../de/df0/FennixLoader_2printf_8c.html#a5557c36e70832aaf9453cede2be6a4be',1,'get_sign_bit(double x):&#160;printf.c']]],
-  ['getaddress_646',['GetAddress',['../d8/d4a/unionMemory64_1_1PageMapLevel4.html#a4314a9029911649acc5e98f3f49c8f73',1,'Memory64::PageMapLevel4::GetAddress()'],['../de/df0/unionMemory64_1_1PageDirectoryPointerTableEntry.html#ab6d3c5fd3ca8794987096b12670d3a39',1,'Memory64::PageDirectoryPointerTableEntry::GetAddress()'],['../dd/d18/unionMemory64_1_1PageDirectoryEntry.html#a52e94ee29d7e41f4a5759d4b77af948d',1,'Memory64::PageDirectoryEntry::GetAddress()'],['../d3/df4/unionMemory64_1_1PageTableEntry.html#ad1a4370d2cc11ef5b2965a964f3cf1a4',1,'Memory64::PageTableEntry::GetAddress()'],['../de/d62/unionMemory32_1_1PageDirectoryEntry.html#a1fe6f163fc67d5659314af7fd0c35ca1',1,'Memory32::PageDirectoryEntry::GetAddress()'],['../dc/d30/unionMemory32_1_1PageTableEntry.html#ab013adb2f0877ff62aa9409311ad3180',1,'Memory32::PageTableEntry::GetAddress()']]],
-  ['getphysical_647',['GetPhysical',['../dc/d4c/classMemory64_1_1Virtual.html#a124c522e6188d6b95c818aa14610adb5',1,'Memory64::Virtual']]],
-  ['green_648',['green',['../d5/dba/multiboot2_8h.html#a08e1c8bc977b39015c9043645e79713d',1,'multiboot_color']]],
-  ['greenmaskshift_649',['GreenMaskShift',['../db/d96/structBootInfo.html#a3af61265847b0d8143198a533994673a',1,'BootInfo::FramebufferInfo']]],
-  ['greenmasksize_650',['GreenMaskSize',['../db/d96/structBootInfo.html#a551646aa90577dd36ee59d4105bfd300',1,'BootInfo::FramebufferInfo']]]
+  ['get_5fbit_5faccess_109',['get_bit_access',['../d1/d3d/printf_8c.html#a415be1c3d47bfe5e7d7f60710bf5aee6',1,'printf.c']]],
+  ['get_5fcomponents_110',['get_components',['../d1/d3d/printf_8c.html#aeb693680ca054bf2b054821a58de88c7',1,'printf.c']]],
+  ['get_5fexp2_111',['get_exp2',['../d1/d3d/printf_8c.html#a06bae36118027e52e83c591122bd9ca5',1,'printf.c']]],
+  ['get_5fnormalized_5fcomponents_112',['get_normalized_components',['../d1/d3d/printf_8c.html#aef0730f71463ec27d7f10c1eba1c11c2',1,'printf.c']]],
+  ['get_5fsign_5fbit_113',['get_sign_bit',['../d1/d3d/printf_8c.html#aaf6e951337db93053dcbba7aa0e276b7',1,'printf.c']]]
 ];

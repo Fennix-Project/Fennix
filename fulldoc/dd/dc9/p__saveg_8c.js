@@ -65,5 +65,5 @@ var p__saveg_8c =
     [ "save_stream", "dd/dc9/p__saveg_8c.html#a2fd1a3b9dbbd65e5c661437bd8323de3", null ],
     [ "savegame_error", "dd/dc9/p__saveg_8c.html#ac2ce25a99eb63ed3acdd0c774e5b3b29", null ],
     [ "savegamelength", "dd/dc9/p__saveg_8c.html#ab14cc7a21059ee0ad7c8507e247b89a2", null ],
-    [ "specials_e", "dd/dc9/p__saveg_8c.html#af6753246f314e920f664477256352798", null ]
+    [ "specials_e", "dd/dc9/p__saveg_8c.html#afcf53d8cf168b558558884c729da8e29", null ]
 ];

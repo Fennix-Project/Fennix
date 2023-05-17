@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['wait_9517',['wait',['../da/dec/classstd_1_1atomic.html#a5ce22afea79bab1c217488cd7d8a9927',1,'std::atomic::wait(T old, std::memory_order order=std::memory_order::seq_cst) const noexcept'],['../da/dec/classstd_1_1atomic.html#a892f15171eb6270237c535fcc4b0c8be',1,'std::atomic::wait(T old, std::memory_order order=std::memory_order::seq_cst) const volatile noexcept']]],
-  ['wait_9518',['Wait',['../df/d7e/classInterProcessCommunication_1_1IPC.html#ad075ac6c9f6fa81605e9dddb2dd4dca6',1,'InterProcessCommunication::IPC']]],
+  ['wait_9516',['wait',['../da/dec/classstd_1_1atomic.html#a892f15171eb6270237c535fcc4b0c8be',1,'std::atomic']]],
+  ['wait_9517',['Wait',['../df/d7e/classInterProcessCommunication_1_1IPC.html#ad075ac6c9f6fa81605e9dddb2dd4dca6',1,'InterProcessCommunication::IPC']]],
+  ['wait_9518',['wait',['../da/dec/classstd_1_1atomic.html#a5ce22afea79bab1c217488cd7d8a9927',1,'std::atomic']]],
   ['waitforipi_9519',['WaitForIPI',['../d4/da9/classAPIC_1_1APIC.html#a99f029a47ea68b2dce6865f123e96174',1,'APIC::APIC::WaitForIPI()'],['../d4/da9/classAPIC_1_1APIC.html#a99f029a47ea68b2dce6865f123e96174',1,'APIC::APIC::WaitForIPI()']]],
   ['waitforprocess_9520',['WaitForProcess',['../dc/dc5/classTasking_1_1Task.html#a924688cafbaf86904fb2025d2aa0322b',1,'Tasking::Task']]],
   ['waitforprocessstatus_9521',['WaitForProcessStatus',['../dc/dc5/classTasking_1_1Task.html#ae3815fa6b790a87f53ff433d8fb6d169',1,'Tasking::Task']]],

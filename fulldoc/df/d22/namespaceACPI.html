@@ -104,10 +104,69 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adca528a45c8cbdefdf20910ae5103a69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d90/Lynx_2FennixLoader_2include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#adca528a45c8cbdefdf20910ae5103a69">IsCanonical</a> (<a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>)</td></tr>
+<tr class="memitem:a7e85632c6e7ad046e5c363b356146df3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#a7e85632c6e7ad046e5c363b356146df3">__no_sanitize</a> (&quot;alignment&quot;) void *<a class="el" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI</a></td></tr>
+<tr class="separator:a7e85632c6e7ad046e5c363b356146df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca528a45c8cbdefdf20910ae5103a69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#adca528a45c8cbdefdf20910ae5103a69">IsCanonical</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#ae0cc8a5c23a59a178d241a27f12b1ef5">Address</a>)</td></tr>
 <tr class="separator:adca528a45c8cbdefdf20910ae5103a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a7e85632c6e7ad046e5c363b356146df3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e85632c6e7ad046e5c363b356146df3">&#9670;&nbsp;</a></span>__no_sanitize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ACPI::__no_sanitize </td>
+          <td>(</td>
+          <td class="paramtype">&quot;alignment&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d7f/AdvancedConfigurationAndPowerInterface_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../d6/d7f/AdvancedConfigurationAndPowerInterface_8cpp_source.html">AdvancedConfigurationAndPowerInterface.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> t = 0; t &lt; ((ACPIHeader-&gt;Length - <span class="keyword">sizeof</span>(ACPI::ACPIHeader)) / (XSDTSupported ? 8 : 4)); t++)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#pragma GCC diagnostic push</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#pragma GCC diagnostic ignored &quot;-Wint-to-pointer-cast&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <span class="comment">// TODO: Should I be concerned about unaligned memory access?</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            ACPI::ACPIHeader *SDTHdr = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordflow">if</span> (XSDTSupported)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                SDTHdr = (ACPI::ACPIHeader *)(*(<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> *)((<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)ACPIHeader + <span class="keyword">sizeof</span>(ACPI::ACPIHeader) + (t * 8)));</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                SDTHdr = (ACPI::ACPIHeader *)(*(<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *)((<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)ACPIHeader + <span class="keyword">sizeof</span>(ACPI::ACPIHeader) + (t * 4)));</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#pragma GCC diagnostic pop</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; 4; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++)</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="keywordflow">if</span> (SDTHdr-&gt;Signature[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] != <a class="code" href="../../d9/d36/binfo_8h.html#a00e8a3ac03632ba8932771e3c4456e5d">Signature</a>[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>])</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> == 3)</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;%s found at address %p&quot;</span>, <a class="code" href="../../d9/d36/binfo_8h.html#a00e8a3ac03632ba8932771e3c4456e5d">Signature</a>, (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)SDTHdr);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                    <span class="keywordflow">return</span> SDTHdr;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                }</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="comment">// warn(&quot;%s not found!&quot;, Signature);</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
+<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
+<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00171">types.h:171</a></div></div>
+<div class="ttc" id="abinfo_8h_html_a00e8a3ac03632ba8932771e3c4456e5d"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#a00e8a3ac03632ba8932771e3c4456e5d">Signature</a></div><div class="ttdeci">__UINT8_TYPE__ Signature[8]</div><div class="ttdoc">Signature.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00003">binfo.h:3</a></div></div>
+<div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00088">debug.h:88</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../dc/d7c/amd64_2acpi_8hpp_source.html#l00035">ACPI::ACPI::ACPIHeader::Signature</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00003">Signature</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00088">trace</a>.</p>
+
+</div>
+</div>
 <a id="adca528a45c8cbdefdf20910ae5103a69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adca528a45c8cbdefdf20910ae5103a69">&#9670;&nbsp;</a></span>IsCanonical()</h2>
 
@@ -118,9 +177,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d90/Lynx_2FennixLoader_2include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> ACPI::IsCanonical </td>
+          <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> ACPI::IsCanonical </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d7a/Kernel_2Architecture_2i386_2ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>Address</em></td><td>)</td>
           <td></td>
         </tr>
