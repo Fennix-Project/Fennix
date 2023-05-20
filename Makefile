@@ -75,7 +75,7 @@ doxygen:
 	doxygen Kernel/Doxyfile
 	doxygen Lynx/Doxyfile
 	doxygen Userspace/Doxyfile
-	doxygen Drivers/Doxyfile
+	doxygen Modules/Doxyfile
 
 qemu_vdisk:
 ifneq (,$(wildcard ./qemu-disk.img))
@@ -90,49 +90,52 @@ tools:
 	make --quiet -C Kernel prepare
 	make --quiet -C Lynx prepare
 	make --quiet -C Userspace prepare
-	make --quiet -C Drivers prepare
+	make --quiet -C Modules prepare
 
-build: build_lynx build_kernel build_userspace build_drivers build_image
+build: build_lynx build_kernel build_userspace build_modules build_image
 
 dump:
 	make --quiet -C Kernel dump
 
 rebuild: clean build
 
-# Quickly build the operating system (it won't create the ISO file and doxygen documentation)
+ifeq ($(QUIET_BUILD), 1)
+MAKE_QUIET_FLAG = --quiet
+endif
+
 build_lynx:
 ifeq ($(BOOTLOADER), lynx)
-	make --quiet -C Lynx build
+	make $(MAKE_QUIET_FLAG) -C Lynx build
 endif
 
 build_kernel:
 ifeq ($(BUILD_KERNEL), 1)
-	make -j$(shell nproc) --quiet -C Kernel build
+	make -j$(shell nproc) $(MAKE_QUIET_FLAG) -C Kernel build
 endif
 
 build_userspace:
-ifeq ($(OSARCH), amd64)
 ifeq ($(BUILD_USERSPACE), 1)
-	make --quiet -C Userspace build
-	cp -r Userspace/out/* initrd/
-endif
+	make $(MAKE_QUIET_FLAG) -C Userspace build
 endif
 
-build_drivers:
-ifeq ($(OSARCH), amd64)
-ifeq ($(BUILD_DRIVERS), 1)
-	make --quiet -C Drivers build
-	cp Drivers/out/* initrd/system/drivers/
-endif
+build_modules:
+ifeq ($(BUILD_MODULES), 1)
+	make $(MAKE_QUIET_FLAG) -C Modules build
 endif
 
 build_image:
 	mkdir -p iso_tmp_data
-#	tar czf initrd.tar.gz -C initrd/ ./ --format=ustar
-#	tar czf bootanim.tar.gz -C bootanim/ ./ --format=ustar
-	tar cf initrd.tar.gz -C initrd/ ./ --format=ustar
-	tar cf bootanim.tar.gz -C bootanim/ ./ --format=ustar
-	cp Kernel/kernel.fsys initrd.tar.gz bootanim.tar.gz \
+	mkdir -p initrd_tmp_data
+	cp -r initrd/* initrd_tmp_data/
+ifeq ($(BUILD_MODULES), 1)
+	cp -r Modules/out/* initrd_tmp_data/modules/
+endif
+ifeq ($(BUILD_USERSPACE), 1)
+	cp -r Userspace/out/* initrd_tmp_data/
+endif
+#	tar czf initrd.tar.gz -C initrd_tmp_data/ ./ --format=ustar
+	tar cf initrd.tar.gz -C initrd_tmp_data/ ./ --format=ustar
+	cp Kernel/kernel.fsys initrd.tar.gz \
 		iso_tmp_data/
 ifeq ($(BOOTLOADER), lynx)
 	cp tools/lynx.cfg Lynx/loader.bin Lynx/efi-loader.bin iso_tmp_data/
@@ -183,7 +186,7 @@ QEMU_SMP_DBG = -smp 4
 QEMU_SMP = -smp 4
 endif
 
-vscode_debug: build_lynx build_kernel build_userspace build_drivers build_image
+vscode_debug: build_lynx build_kernel build_userspace build_modules build_image
 	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
 	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 1G $(QEMUFLAGS) $(QEMU_SMP_DBG)
 
@@ -198,26 +201,9 @@ qemubios: qemu_vdisk
 run: build qemu
 
 clean:
-	rm -rf doxygen-doc iso_tmp_data
-	rm -f initrd.tar.gz bootanim.tar.gz $(OSNAME).iso $(OSNAME).img
-	rm -f initrd/system/drivers/*.fex
-	rm -f initrd/system/drivers/*.elf
-	rm -f initrd/system/drivers/*.raw
-	rm -f initrd/system/*.fex
-	rm -f initrd/system/*.elf
-	rm -f initrd/system/*.raw
-	rm -f initrd/system/*.so
-	rm -f initrd/system/*.a
-	rm -f initrd/system/bin/*.elf
-	rm -f initrd/system/lib/*.a
-	rm -f initrd/system/lib/*.raw
-	rm -f initrd/system/lib/*.so
-	rm -f initrd/system/lib/*.o
-	rm -f initrd/system/include/*.h
-	rm -f initrd/system/include/*.hpp
-	rm -f initrd/system/include/sys/*.h
-	rm -f initrd/system/include/sys/*.hpp
+	rm -rf doxygen-doc iso_tmp_data initrd_tmp_data
+	rm -f initrd.tar.gz $(OSNAME).iso $(OSNAME).img
 	make -C Kernel clean
 	make -C Lynx clean
 	make -C Userspace clean
-	make -C Drivers clean
+	make -C Modules clean

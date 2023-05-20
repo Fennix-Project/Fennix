@@ -7,6 +7,6 @@
 [submodule "Userspace"]
 	path = Userspace
 	url = https://github.com/Fennix-Project/Userspace.git
-[submodule "Drivers"]
-	path = Drivers
-	url = https://github.com/Fennix-Project/Drivers.git
+[submodule "Modules"]
+	path = Modules
+	url = https://github.com/Fennix-Project/Modules.git
