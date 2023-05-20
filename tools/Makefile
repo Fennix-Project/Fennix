@@ -69,7 +69,7 @@ do_qemu:
 
 do_binutils64:
 	cd build-binutilsamd64 && \
-	../binutils-gdb/configure --target=amd64-elf --prefix="$(CROSS_DIR)" --with-sysroot --disable-werror && \
+	../binutils-gdb/configure --target=amd64-elf --prefix="$(CROSS_DIR)" --with-sysroot --enable-shared --disable-werror && \
 	make all -j$(shell nproc) && make install
 
 do_binutils32:
@@ -96,11 +96,6 @@ do_gccarm64:
 	cd build-gccarm64 && \
 	../gcc/configure --target=aarch64-elf --prefix="$(CROSS_DIR)" --enable-languages=c,c++ --without-headers && \
 	make all-gcc -j$(shell nproc) && make install-gcc -j$(shell nproc)
-
-do_binutils64:
-	cd build-binutilsamd64 && \
-	../binutils-gdb/configure --target=amd64-elf --prefix="$(CROSS_DIR)" --with-sysroot --enable-shared --disable-werror && \
-	make all -j$(shell nproc) && make install
 
 do_toolchain_binutils64:
 	cd build-toolchain-binutils64 && \
