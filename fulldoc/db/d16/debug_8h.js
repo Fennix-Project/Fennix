@@ -11,6 +11,7 @@ var debug_8h =
     [ "locked_trace", "db/d16/debug_8h.html#a98f38de4d750fef04406181db47bb91f", null ],
     [ "locked_ubsan", "db/d16/debug_8h.html#ad345ea08feb74d72388057543c344db6", null ],
     [ "locked_warn", "db/d16/debug_8h.html#a07044fb6fefc013288056f38ebe36279", null ],
+    [ "stub", "db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d", null ],
     [ "trace", "db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616", null ],
     [ "ubsan", "db/d16/debug_8h.html#ad9f6a21afe9288f9a5d5bb06121e4f21", null ],
     [ "warn", "db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55", null ],

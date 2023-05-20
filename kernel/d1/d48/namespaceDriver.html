@@ -99,6 +99,8 @@ $(document).ready(function(){initNavTree('d1/d48/namespaceDriver.html','../../')
 Data Structures</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d76/structDriver_1_1DriverFile.html">DriverFile</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dbb/structDriver_1_1BuiltInDriverInfo.html">BuiltInDriverInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html">DriverInterruptHook</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d7d/classDriver_1_1Driver.html">Driver</a></td></tr>
@@ -109,15 +111,31 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a020a5b26e9a3fe6af243be692d6147c6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6">DriverCode</a> { <br />
 &#160;&#160;<a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a3610c57fcd777f71c8d2036a48404471">ERROR</a>
 , <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a007757eccb0a47675b90978c29a7a8a2">OK</a>
-, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a21f1de81a1cb164791070d2a0ddb075c">NOT_AVAILABLE</a>
-, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13">INVALID_FEX_HEADER</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4">INVALID_DRIVER_DATA</a>
-, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333">NOT_DRIVER</a>
 , <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a9e02cd5eb948db14fd2c31d5731a332e">NOT_IMPLEMENTED</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a482c0038badb927aa062bf7733dfe278">NOT_FOUND</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a611de71b8c4a8e2f4a0444e0341e849c">NOT_READY</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a21f1de81a1cb164791070d2a0ddb075c">NOT_AVAILABLE</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6acdf0cfeebac44e825fe99f50612135c2">NOT_AUTHORIZED</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a991d9c624fd58a8833df9b9203118abe">NOT_VALID</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a875173136410ca6d6d1268993248b6f7">NOT_ACCEPTED</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a8590ac34309f4c5f8268aa8d5bb207c8">INVALID_PCI_BAR</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6afa6e88989428342e975be600ca792a7f">INVALID_KERNEL_API</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6ad2271288f64f466b6e04dfa3627fe849">INVALID_MEMORY_ALLOCATION</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6acc49128baa431e5974b8954ac8a47a94">INVALID_DATA</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6afec286ddd3b9f44a61b9328d61721172">DEVICE_NOT_SUPPORTED</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a3899da52bddd679582b8e1267b08772a">SYSTEM_NOT_SUPPORTED</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a16f217a9aff269ce63dd5d0fa4b7957b">KERNEL_API_VERSION_NOT_SUPPORTED</a>
+, <br />
+&#160;&#160;<a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13">INVALID_FEX_HEADER</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4">INVALID_DRIVER_DATA</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333">NOT_DRIVER</a>
 , <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8">DRIVER_RETURNED_ERROR</a>
 , <br />
 &#160;&#160;<a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a">UNKNOWN_DRIVER_TYPE</a>
+, <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a8539d8c90eea4d5e91aaf9f1e9e623c7">UNKNOWN_DRIVER_BIND_TYPE</a>
 , <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c">PCI_DEVICE_NOT_FOUND</a>
 , <a class="el" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520">DRIVER_CONFLICT</a>
 <br />
@@ -155,42 +173,85 @@ Variables</h2></td></tr>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a3610c57fcd777f71c8d2036a48404471"></a>ERROR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a007757eccb0a47675b90978c29a7a8a2"></a>OK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a9e02cd5eb948db14fd2c31d5731a332e"></a>NOT_IMPLEMENTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a482c0038badb927aa062bf7733dfe278"></a>NOT_FOUND&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a611de71b8c4a8e2f4a0444e0341e849c"></a>NOT_READY&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a21f1de81a1cb164791070d2a0ddb075c"></a>NOT_AVAILABLE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6acdf0cfeebac44e825fe99f50612135c2"></a>NOT_AUTHORIZED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a991d9c624fd58a8833df9b9203118abe"></a>NOT_VALID&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a875173136410ca6d6d1268993248b6f7"></a>NOT_ACCEPTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a8590ac34309f4c5f8268aa8d5bb207c8"></a>INVALID_PCI_BAR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6afa6e88989428342e975be600ca792a7f"></a>INVALID_KERNEL_API&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6ad2271288f64f466b6e04dfa3627fe849"></a>INVALID_MEMORY_ALLOCATION&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6acc49128baa431e5974b8954ac8a47a94"></a>INVALID_DATA&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6afec286ddd3b9f44a61b9328d61721172"></a>DEVICE_NOT_SUPPORTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a3899da52bddd679582b8e1267b08772a"></a>SYSTEM_NOT_SUPPORTED&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a16f217a9aff269ce63dd5d0fa4b7957b"></a>KERNEL_API_VERSION_NOT_SUPPORTED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13"></a>INVALID_FEX_HEADER&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4"></a>INVALID_DRIVER_DATA&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333"></a>NOT_DRIVER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a9e02cd5eb948db14fd2c31d5731a332e"></a>NOT_IMPLEMENTED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8"></a>DRIVER_RETURNED_ERROR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a"></a>UNKNOWN_DRIVER_TYPE&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a8539d8c90eea4d5e91aaf9f1e9e623c7"></a>UNKNOWN_DRIVER_BIND_TYPE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c"></a>PCI_DEVICE_NOT_FOUND&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520"></a>DRIVER_CONFLICT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2fd6f336d08340583bd620a7f5694c90">ERROR</a>,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59">OK</a>,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0ae5197dad9f2c55ef495a12d1ae8b23b3">NOT_AVAILABLE</a>,</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13">INVALID_FEX_HEADER</a>,</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4">INVALID_DRIVER_DATA</a>,</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333">NOT_DRIVER</a>,</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a12bcc9d9958a22b983e65f77f3faf90b">NOT_IMPLEMENTED</a>,</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8">DRIVER_RETURNED_ERROR</a>,</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a">UNKNOWN_DRIVER_TYPE</a>,</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c">PCI_DEVICE_NOT_FOUND</a>,</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520">DRIVER_CONFLICT</a></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    };</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00033">33</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="comment">/* This must be the same as in DAPI.hpp DriverReturnCode */</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2fd6f336d08340583bd620a7f5694c90">ERROR</a>,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59">OK</a>,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a12bcc9d9958a22b983e65f77f3faf90b">NOT_IMPLEMENTED</a>,</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0acdaa2919bac56fe1090eb3dbb9526472">NOT_FOUND</a>,</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2d0ab2296896fcb80babf4dadfd039a5">NOT_READY</a>,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0ae5197dad9f2c55ef495a12d1ae8b23b3">NOT_AVAILABLE</a>,</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a79107f54d02f4b0fab010a896da253ec">NOT_AUTHORIZED</a>,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a7f1ec5eb59564ae05005b9260e1d974e">NOT_VALID</a>,</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a74db395e36b456be451dda1bfd19dbcf">NOT_ACCEPTED</a>,</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0acd46924d0d8b8c830190f88aeb0ff378">INVALID_PCI_BAR</a>,</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a819d86f8303442ec0bb2b0f3e6bb7794">INVALID_KERNEL_API</a>,</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a5f86fec94cc54683730ad264a7c03cb2">INVALID_MEMORY_ALLOCATION</a>,</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a1cf2f29eaea742a6926f1efd4b9c16e8">INVALID_DATA</a>,</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a359ede774126bb2d1b691f90e5094cb3">DEVICE_NOT_SUPPORTED</a>,</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a6035c13d71bc54bfe7d1c1edb36b7fdb">SYSTEM_NOT_SUPPORTED</a>,</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a96cf87ef245ea5f91707ab2288191118">KERNEL_API_VERSION_NOT_SUPPORTED</a>,</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="comment">/* End of driver-only errors */</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13">INVALID_FEX_HEADER</a>,</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4">INVALID_DRIVER_DATA</a>,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333">NOT_DRIVER</a>,</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8">DRIVER_RETURNED_ERROR</a>,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a">UNKNOWN_DRIVER_TYPE</a>,</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a8539d8c90eea4d5e91aaf9f1e9e623c7">UNKNOWN_DRIVER_BIND_TYPE</a>,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c">PCI_DEVICE_NOT_FOUND</a>,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520">DRIVER_CONFLICT</a></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    };</div>
 <div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a12bcc9d9958a22b983e65f77f3faf90b"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a12bcc9d9958a22b983e65f77f3faf90b">NOT_IMPLEMENTED</a></div><div class="ttdeci">@ NOT_IMPLEMENTED</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00051">DAPI.hpp:51</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a1cf2f29eaea742a6926f1efd4b9c16e8"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a1cf2f29eaea742a6926f1efd4b9c16e8">INVALID_DATA</a></div><div class="ttdeci">@ INVALID_DATA</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00061">DAPI.hpp:61</a></div></div>
 <div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59">OK</a></div><div class="ttdeci">@ OK</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00050">DAPI.hpp:50</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a2d0ab2296896fcb80babf4dadfd039a5"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2d0ab2296896fcb80babf4dadfd039a5">NOT_READY</a></div><div class="ttdeci">@ NOT_READY</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00053">DAPI.hpp:53</a></div></div>
 <div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a2fd6f336d08340583bd620a7f5694c90"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2fd6f336d08340583bd620a7f5694c90">ERROR</a></div><div class="ttdeci">@ ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00049">DAPI.hpp:49</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a359ede774126bb2d1b691f90e5094cb3"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a359ede774126bb2d1b691f90e5094cb3">DEVICE_NOT_SUPPORTED</a></div><div class="ttdeci">@ DEVICE_NOT_SUPPORTED</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00062">DAPI.hpp:62</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a5f86fec94cc54683730ad264a7c03cb2"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a5f86fec94cc54683730ad264a7c03cb2">INVALID_MEMORY_ALLOCATION</a></div><div class="ttdeci">@ INVALID_MEMORY_ALLOCATION</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00060">DAPI.hpp:60</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a6035c13d71bc54bfe7d1c1edb36b7fdb"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a6035c13d71bc54bfe7d1c1edb36b7fdb">SYSTEM_NOT_SUPPORTED</a></div><div class="ttdeci">@ SYSTEM_NOT_SUPPORTED</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00063">DAPI.hpp:63</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a74db395e36b456be451dda1bfd19dbcf"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a74db395e36b456be451dda1bfd19dbcf">NOT_ACCEPTED</a></div><div class="ttdeci">@ NOT_ACCEPTED</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00057">DAPI.hpp:57</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a79107f54d02f4b0fab010a896da253ec"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a79107f54d02f4b0fab010a896da253ec">NOT_AUTHORIZED</a></div><div class="ttdeci">@ NOT_AUTHORIZED</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00055">DAPI.hpp:55</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a7f1ec5eb59564ae05005b9260e1d974e"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a7f1ec5eb59564ae05005b9260e1d974e">NOT_VALID</a></div><div class="ttdeci">@ NOT_VALID</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00056">DAPI.hpp:56</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a819d86f8303442ec0bb2b0f3e6bb7794"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a819d86f8303442ec0bb2b0f3e6bb7794">INVALID_KERNEL_API</a></div><div class="ttdeci">@ INVALID_KERNEL_API</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00059">DAPI.hpp:59</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a96cf87ef245ea5f91707ab2288191118"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a96cf87ef245ea5f91707ab2288191118">KERNEL_API_VERSION_NOT_SUPPORTED</a></div><div class="ttdeci">@ KERNEL_API_VERSION_NOT_SUPPORTED</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00064">DAPI.hpp:64</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0acd46924d0d8b8c830190f88aeb0ff378"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0acd46924d0d8b8c830190f88aeb0ff378">INVALID_PCI_BAR</a></div><div class="ttdeci">@ INVALID_PCI_BAR</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00058">DAPI.hpp:58</a></div></div>
+<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0acdaa2919bac56fe1090eb3dbb9526472"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0acdaa2919bac56fe1090eb3dbb9526472">NOT_FOUND</a></div><div class="ttdeci">@ NOT_FOUND</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00052">DAPI.hpp:52</a></div></div>
 <div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0ae5197dad9f2c55ef495a12d1ae8b23b3"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0ae5197dad9f2c55ef495a12d1ae8b23b3">NOT_AVAILABLE</a></div><div class="ttdeci">@ NOT_AVAILABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00054">DAPI.hpp:54</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c">Driver::PCI_DEVICE_NOT_FOUND</a></div><div class="ttdeci">@ PCI_DEVICE_NOT_FOUND</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00043">driver.hpp:43</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8">Driver::DRIVER_RETURNED_ERROR</a></div><div class="ttdeci">@ DRIVER_RETURNED_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00041">driver.hpp:41</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a">Driver::UNKNOWN_DRIVER_TYPE</a></div><div class="ttdeci">@ UNKNOWN_DRIVER_TYPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00042">driver.hpp:42</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13">Driver::INVALID_FEX_HEADER</a></div><div class="ttdeci">@ INVALID_FEX_HEADER</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00037">driver.hpp:37</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520">Driver::DRIVER_CONFLICT</a></div><div class="ttdeci">@ DRIVER_CONFLICT</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00045">driver.hpp:44</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333">Driver::NOT_DRIVER</a></div><div class="ttdeci">@ NOT_DRIVER</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00039">driver.hpp:39</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4">Driver::INVALID_DRIVER_DATA</a></div><div class="ttdeci">@ INVALID_DRIVER_DATA</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00038">driver.hpp:38</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a059a630c7d42644eae8e6e06e3d38a0c">Driver::PCI_DEVICE_NOT_FOUND</a></div><div class="ttdeci">@ PCI_DEVICE_NOT_FOUND</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00061">driver.hpp:61</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a43b914854e9c33663096094144a4d6a8">Driver::DRIVER_RETURNED_ERROR</a></div><div class="ttdeci">@ DRIVER_RETURNED_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00058">driver.hpp:58</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a4a5fd42c429a7ec7bd2139aa9ffe2b3a">Driver::UNKNOWN_DRIVER_TYPE</a></div><div class="ttdeci">@ UNKNOWN_DRIVER_TYPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00059">driver.hpp:59</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a5dd7da1bbcee85a2791a678783e20f13">Driver::INVALID_FEX_HEADER</a></div><div class="ttdeci">@ INVALID_FEX_HEADER</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00055">driver.hpp:55</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a8539d8c90eea4d5e91aaf9f1e9e623c7"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a8539d8c90eea4d5e91aaf9f1e9e623c7">Driver::UNKNOWN_DRIVER_BIND_TYPE</a></div><div class="ttdeci">@ UNKNOWN_DRIVER_BIND_TYPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00060">driver.hpp:60</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a87ad954ae8ab1b825d60d7e1176c9520">Driver::DRIVER_CONFLICT</a></div><div class="ttdeci">@ DRIVER_CONFLICT</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00063">driver.hpp:62</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6a9e5b8ff9e02d5cdb0913b747a366e333">Driver::NOT_DRIVER</a></div><div class="ttdeci">@ NOT_DRIVER</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00057">driver.hpp:57</a></div></div>
+<div class="ttc" id="anamespaceDriver_html_a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#a020a5b26e9a3fe6af243be692d6147c6ad7bc45cd7365d021c28d46d914a3cdd4">Driver::INVALID_DRIVER_DATA</a></div><div class="ttdeci">@ INVALID_DRIVER_DATA</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00056">driver.hpp:56</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -211,16 +272,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00273">273</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        {</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> IntNum = Frame-&gt;InterruptNumber - 32;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> IntNum = Frame-&gt;InterruptNumber;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Interrupt callback for %ld is not set for driver %ld!&quot;</span>, IntNum, <a class="code" href="../../db/df1/namespaceGraphicalUserInterface.html#ae55dddd10e543824f42285df80eeb9b4">Handle</a>.DriverUID);</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00269">269</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> IntNum = Frame-&gt;InterruptNumber - 32;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> IntNum = Frame-&gt;InterruptNumber;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Interrupt callback for %ld is not set for driver %ld!&quot;</span>, IntNum, <a class="code" href="../../db/df1/namespaceGraphicalUserInterface.html#ae55dddd10e543824f42285df80eeb9b4">Handle</a>.DriverUID);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        }</div>
 <div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
 <div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00079">debug.h:79</a></div></div>
 <div class="ttc" id="anamespaceGraphicalUserInterface_html_ae55dddd10e543824f42285df80eeb9b4"><div class="ttname"><a href="../../db/df1/namespaceGraphicalUserInterface.html#ae55dddd10e543824f42285df80eeb9b4">GraphicalUserInterface::Handle</a></div><div class="ttdeci">uintptr_t Handle</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d7c/gui_8hpp_source.html#l00029">gui.hpp:29</a></div></div>
@@ -245,11 +306,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        {</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Interrupt hook is not enabled&quot;</span>);</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00263">263</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Interrupt hook is not enabled&quot;</span>);</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        }</div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00085">debug.h:85</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>.</p>
@@ -272,8 +333,6 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d5/dcd/Input_2Audio_8cpp_source.html#l00034">Driver::Driver::BindInputAudio()</a>, <a class="el" href="../../d3/da1/Driver_2DriverBinding_2Input_2Display_8cpp_source.html#l00034">Driver::Driver::BindInputDisplay()</a>, <a class="el" href="../../d6/d30/Core_2Driver_2DriverBinding_2Input_2Filesystem_8cpp_source.html#l00034">Driver::Driver::BindInputFileSystem()</a>, <a class="el" href="../../da/d60/Input_2Generic_8cpp_source.html#l00034">Driver::Driver::BindInputGeneric()</a>, <a class="el" href="../../dc/d41/Input_2Network_8cpp_source.html#l00034">Driver::Driver::BindInputNetwork()</a>, <a class="el" href="../../d4/d81/Input_2Storage_8cpp_source.html#l00034">Driver::Driver::BindInputStorage()</a>, <a class="el" href="../../d6/d2a/Driver_2DriverBinding_2PCI_2Display_8cpp_source.html#l00034">Driver::Driver::BindPCIDisplay()</a>, <a class="el" href="../../d7/d8f/Core_2Driver_2DriverBinding_2PCI_2Filesystem_8cpp_source.html#l00034">Driver::Driver::BindPCIFileSystem()</a>, <a class="el" href="../../d1/da3/PCI_2Generic_8cpp_source.html#l00034">Driver::Driver::BindPCIGeneric()</a>, <a class="el" href="../../dd/dbf/PCI_2Input_8cpp_source.html#l00034">Driver::Driver::BindPCIInput()</a>, <a class="el" href="../../d1/de0/Process_2Audio_8cpp_source.html#l00034">Driver::Driver::BindProcessAudio()</a>, <a class="el" href="../../d3/d87/Driver_2DriverBinding_2Process_2Display_8cpp_source.html#l00034">Driver::Driver::BindProcessDisplay()</a>, <a class="el" href="../../d5/d92/Core_2Driver_2DriverBinding_2Process_2Filesystem_8cpp_source.html#l00034">Driver::Driver::BindProcessFileSystem()</a>, <a class="el" href="../../d8/dc2/Process_2Generic_8cpp_source.html#l00034">Driver::Driver::BindProcessGeneric()</a>, <a class="el" href="../../d1/dbd/Process_2Input_8cpp_source.html#l00034">Driver::Driver::BindProcessInput()</a>, <a class="el" href="../../da/ded/Process_2Network_8cpp_source.html#l00034">Driver::Driver::BindProcessNetwork()</a>, <a class="el" href="../../dc/d3c/Process_2Storage_8cpp_source.html#l00034">Driver::Driver::BindProcessStorage()</a>, <a class="el" href="../../d3/d4b/BindInput_8cpp_source.html#l00034">Driver::Driver::DriverLoadBindInput()</a>, <a class="el" href="../../da/df8/BindInterrupt_8cpp_source.html#l00034">Driver::Driver::DriverLoadBindInterrupt()</a>, <a class="el" href="../../d7/dc4/BindPCI_8cpp_source.html#l00130">Driver::Driver::DriverLoadBindPCI()</a>, and <a class="el" href="../../d8/d16/BindProcess_8cpp_source.html#l00034">Driver::Driver::DriverLoadBindProcess()</a>.</p>
-
 </div>
 </div>
 <a id="ab729393050904fd1bdaf3625252f2e19"></a>
@@ -292,7 +351,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d32/WidgetEvents_8cpp_source.html#l00120">GraphicalUserInterface::WidgetCollection::OnMouseUp()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00088">Xalloc::Block::operator new()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00194">VMwareMouse::InterruptCallback()</a>, <a class="el" href="../../d3/d32/WidgetEvents_8cpp_source.html#l00120">GraphicalUserInterface::WidgetCollection::OnMouseUp()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00088">Xalloc::Block::operator new()</a>.</p>
 
 </div>
 </div>
@@ -309,7 +368,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00283">283</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00279">279</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
 
 </div>
 </div>

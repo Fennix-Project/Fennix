@@ -21,7 +21,7 @@ var DAPI_8hpp =
         [ "SendPacket", "d3/d6f/structKernelAPI_1_1KAPIDriverTalk_8Network.html#ae01b714faeb8d4a8e1d469a5933b1c4c", null ]
       ] ],
       [ "KAPIInfo", "d3/dfe/DAPI_8hpp.html#d6/d53/structKernelAPI_1_1KAPIInfo", [
-        [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a9b9158dbbfcb8f20c10a85ee33a1bab6", null ],
+        [ "DriverUID", "d3/dfe/DAPI_8hpp.html#adf23e50b5b807d1be81ed2edee348f69", null ],
         [ "KernelDebug", "d3/dfe/DAPI_8hpp.html#a3e64a531a111e979cc5c8e9b63cf7059", null ],
         [ "Offset", "d3/dfe/DAPI_8hpp.html#a8a7ff5307b67f86c5c1da8614b35bce0", null ]
       ] ],
@@ -62,7 +62,7 @@ var DAPI_8hpp =
       [ "Patch", "d3/dfe/DAPI_8hpp.html#a6b23a9be4567fb79d60abf21b06a1f24", null ]
     ] ],
     [ "KAPIInfo", "d3/dfe/DAPI_8hpp.html#d6/d53/structKernelAPI_1_1KAPIInfo", [
-      [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a9b9158dbbfcb8f20c10a85ee33a1bab6", null ],
+      [ "DriverUID", "d3/dfe/DAPI_8hpp.html#adf23e50b5b807d1be81ed2edee348f69", null ],
       [ "KernelDebug", "d3/dfe/DAPI_8hpp.html#a3e64a531a111e979cc5c8e9b63cf7059", null ],
       [ "Offset", "d3/dfe/DAPI_8hpp.html#a8a7ff5307b67f86c5c1da8614b35bce0", null ]
     ] ],
@@ -80,7 +80,7 @@ var DAPI_8hpp =
       [ "Patch", "d3/dfe/DAPI_8hpp.html#acee12c0a0608a6733d222542dbe7bbd7", null ]
     ] ],
     [ "KAPIInfo", "d3/dfe/DAPI_8hpp.html#d7/d94/structKAPIInfo", [
-      [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a92d49ca2a0571c2af24c6dc12bab8386", null ],
+      [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a0f140dbc6bb1ee899fa4c712a2204d4c", null ],
       [ "KernelDebug", "d3/dfe/DAPI_8hpp.html#a6999cb54d917282abaf3615d0d33cee3", null ],
       [ "Offset", "d3/dfe/DAPI_8hpp.html#a20c1aa265357b80022945e74c26a0a86", null ]
     ] ],

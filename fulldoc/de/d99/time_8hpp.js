@@ -1,7 +1,7 @@
 var time_8hpp =
 [
     [ "Clock", "d3/d56/namespaceTime.html#d1/d28/structTime_1_1Clock", [
-      [ "Counter", "d3/d56/namespaceTime.html#a7dce65784a200d569822d2dcfb411410", null ],
+      [ "Counter", "d3/d56/namespaceTime.html#a1dfb52872715f1cd2e5b09c71b7e6a60", null ],
       [ "Day", "d3/d56/namespaceTime.html#aacce8a0027d66ae66310c3873117952e", null ],
       [ "Hour", "d3/d56/namespaceTime.html#ab169047aaabaabceaf6a8034ea34e7b3", null ],
       [ "Minute", "d3/d56/namespaceTime.html#a0ad218ccb8783c2b69bb4dfbf55b091d", null ],

@@ -8,5 +8,6 @@ var classPCI_1_1PCI =
     [ "FindPCIDevice", "d8/d81/classPCI_1_1PCI.html#a664b5ef69dae8961baf97b7429272621", null ],
     [ "FindPCIDevice", "d8/d81/classPCI_1_1PCI.html#ac2b631069d07f69628f917bcf22a8088", null ],
     [ "GetDevices", "d8/d81/classPCI_1_1PCI.html#a370308e3fed82058668dd4ebb9b50148", null ],
+    [ "MapPCIAddresses", "d8/d81/classPCI_1_1PCI.html#a18ec126e41497d7b4d13b9c3f6cac5f8", null ],
     [ "Devices", "d8/d81/classPCI_1_1PCI.html#a09956e84c0d0aa7a28ad6a9d6bfef1fc", null ]
 ];

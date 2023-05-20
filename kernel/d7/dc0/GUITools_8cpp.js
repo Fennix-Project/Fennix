@@ -11,5 +11,5 @@ var GUITools_8cpp =
     [ "PutBorder", "d7/dc0/GUITools_8cpp.html#ac541063f719ab5ee515df5b4189b60e0", null ],
     [ "PutBorderWithShadow", "d7/dc0/GUITools_8cpp.html#a1ce4f5d5e5a92586897c810527b821b3", null ],
     [ "PutRect", "d7/dc0/GUITools_8cpp.html#acbaae7c325a3965ab8f3c2be193ff8af", null ],
-    [ "SetPixel", "d7/dc0/GUITools_8cpp.html#a0dd8851e1d482d2a5316ff4a0825991f", null ]
+    [ "SetPixel", "d7/dc0/GUITools_8cpp.html#ac689af5f4ba367069c1ab6bc3eeb7b41", null ]
 ];

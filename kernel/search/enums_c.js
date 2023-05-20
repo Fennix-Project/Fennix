@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['partitionflags_11304',['PartitionFlags',['../d1/d29/namespaceDisk.html#a9bf86371ea9b6aabf4afa7bea7339c60',1,'Disk']]],
-  ['partitionstyle_11305',['PartitionStyle',['../d1/d29/namespaceDisk.html#a71245edf60dd20e7910d4f422bb5d40a',1,'Disk']]],
-  ['pcicommands_11306',['PCICommands',['../d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09',1,'PCI']]],
-  ['pcivendors_11307',['PCIVendors',['../d1/d62/namespacePCI_1_1Descriptors.html#a9b174a996d5ead64c595b3081edb586c',1,'PCI::Descriptors']]],
-  ['progflags_5ftypes_11308',['ProgFlags_Types',['../d1/d9e/elf_8h.html#a91de15bebe547cf4e31819b359002593',1,'elf.h']]]
+  ['nativeaudiobusmasterboxoffsets_11825',['NativeAudioBusMasterBoxOffsets',['../d6/dc2/namespaceAudioCodec97.html#a7c14cc6342ba6a29f4bba97c18828390',1,'AudioCodec97']]],
+  ['nativeaudiobusmasterregisters_11826',['NativeAudioBusMasterRegisters',['../d6/dc2/namespaceAudioCodec97.html#adb0ecbd06e7856bcb83d290cdcdf1239',1,'AudioCodec97']]],
+  ['nativeaudiomixerregisters_11827',['NativeAudioMixerRegisters',['../d6/dc2/namespaceAudioCodec97.html#a9d9eacaae2b5b277eb2651a3ced1b021',1,'AudioCodec97']]],
+  ['nativesyscalls_11828',['NativeSyscalls',['../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fce',1,'syscalls.h']]],
+  ['nodeflags_11829',['NodeFlags',['../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cf',1,'VirtualFileSystem']]]
 ];

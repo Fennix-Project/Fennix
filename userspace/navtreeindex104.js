@@ -1,12 +1,5 @@
 var NAVTREEINDEX104 =
 {
-"dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a759b2b5aaa17a758dc8d786b66d032e4":[9,0,1,0,2,0,0,0,163,1,18],
-"dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a76081d6800a91bee4230d0a7b7d8c50d":[9,0,1,0,2,0,0,0,163,1,74],
-"dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a7787c316138cdaec9925032108cd24d8":[9,0,1,0,2,0,0,0,163,1,36],
-"dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a77c33ebe9b16c14e4a48c2e8375b2470":[9,0,1,0,2,0,0,0,163,1,99],
-"dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a77d1ad94a7745673314ad47354f4f86e":[9,0,1,0,2,0,0,0,163,1,75],
-"dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a79354bea21a85a7084774447ca72d55a":[9,0,1,0,2,0,0,0,163,1,46],
-"dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a7bee4a9a2bf610c086eba0d342e06ba2":[9,0,1,0,2,0,0,0,163,1,78],
 "dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a7c2149c6c65b6bb150b4db85859acb37":[9,0,1,0,2,0,0,0,163,1,64],
 "dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a7c752381d23f9b182665e43ac343e69b":[9,0,1,0,2,0,0,0,163,1,51],
 "dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706a7f40e30d780d921efa124b62007d7463":[9,0,1,0,2,0,0,0,163,1,96],
@@ -249,5 +242,12 @@ var NAVTREEINDEX104 =
 "dc/dfc/sysdeps_2lemon_2include_2abi-bits_2in_8h_source.html":[9,0,1,3,3,3,1,0,12],
 "dc/dfd/options_2internal_2generic_2ensure_8cpp.html":[9,0,1,3,2,6,3,4],
 "dc/dfd/options_2internal_2generic_2ensure_8cpp.html#a628e5c803c39fb1f1125bbccd0289ffc":[9,0,1,3,2,6,3,4,0],
-"dc/dfd/options_2internal_2generic_2ensure_8cpp.html#a9130da224e9e5a2d5f79a6b88ca7e2da":[9,0,1,3,2,6,3,4,1]
+"dc/dfd/options_2internal_2generic_2ensure_8cpp.html#a9130da224e9e5a2d5f79a6b88ca7e2da":[9,0,1,3,2,6,3,4,1],
+"dc/dfd/options_2internal_2generic_2ensure_8cpp_source.html":[9,0,1,3,2,6,3,4],
+"dc/dff/sysdeps_2lyre_2include_2abi-bits_2vm-flags_8h.html":[9,0,1,3,3,5,1,0,39],
+"dc/dff/sysdeps_2lyre_2include_2abi-bits_2vm-flags_8h.html#a0c037e793cffabd4a0e3cdfaadce82df":[9,0,1,3,3,5,1,0,39,27],
+"dc/dff/sysdeps_2lyre_2include_2abi-bits_2vm-flags_8h.html#a15bf68ce8b590838b3a5c0b639d8d519":[9,0,1,3,3,5,1,0,39,30],
+"dc/dff/sysdeps_2lyre_2include_2abi-bits_2vm-flags_8h.html#a16895a0a5f756f38b53b10dbd281604c":[9,0,1,3,3,5,1,0,39,26],
+"dc/dff/sysdeps_2lyre_2include_2abi-bits_2vm-flags_8h.html#a1d9ebf7ab094a827cd93d1e49e81e8a0":[9,0,1,3,3,5,1,0,39,16],
+"dc/dff/sysdeps_2lyre_2include_2abi-bits_2vm-flags_8h.html#a22408a60244fd4662ed07d8afd74f8d0":[9,0,1,3,3,5,1,0,39,14]
 };

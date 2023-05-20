@@ -13,7 +13,6 @@ var Kernel_8cpp =
     [ "__fini_array_start", "d2/d00/Kernel_8cpp.html#a7636e9947b338df7742d327806c5cf70", null ],
     [ "__init_array_end", "d2/d00/Kernel_8cpp.html#a5fb41005eba2ebaf93f1b8ec0b2fa462", null ],
     [ "__init_array_start", "d2/d00/Kernel_8cpp.html#a5acaf4f3a56e921fd97f62b643461ec7", null ],
-    [ "bootanim_vfs", "d2/d00/Kernel_8cpp.html#a69eb131a582118cda8ff08ec5a144883", null ],
     [ "Config", "d2/d00/Kernel_8cpp.html#af1e9bf8b2f6ad92b9da145f9eb732663", null ],
     [ "DebuggerIsAttached", "d2/d00/Kernel_8cpp.html#a736191a1f8c302532a3f21c75292a53f", null ],
     [ "Display", "d2/d00/Kernel_8cpp.html#ad16e05b6fc09d13310729e16882edc4d", null ],

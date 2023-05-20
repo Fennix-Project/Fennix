@@ -1,7 +1,7 @@
 var Linux_8cpp =
 [
     [ "internal_unimpl", "db/d9e/Linux_8cpp.html#a9eb2196ffc6d719b7f57d748eac871ed", null ],
-    [ "stub", "db/d9e/Linux_8cpp.html#adf15bfcff815fe251f86a6479793cd82", null ],
+    [ "syscall_stub", "db/d9e/Linux_8cpp.html#a07752334e0825d90746ad05c00b2b46a", null ],
     [ "mode_t", "db/d9e/Linux_8cpp.html#a4c39e0c5c2965112d6b55652a6b7f781", null ],
     [ "copy_file_range", "db/d9e/Linux_8cpp.html#ad8321e44e345d67ec9d2aa916f68070d", null ],
     [ "HandleLinuxSyscalls", "db/d9e/Linux_8cpp.html#a469cfc2030bd619f2b890e234cd349f4", null ],

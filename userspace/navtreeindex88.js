@@ -1,7 +1,5 @@
 var NAVTREEINDEX88 =
 {
-"da/d81/ansi_2include_2wchar_8h.html#aae78a018cc1814340d6e16f1ed22a30d":[9,0,1,3,2,0,1,18,40],
-"da/d81/ansi_2include_2wchar_8h.html#aaf3232841abc82fc9556b3c38a2e7e9e":[9,0,1,3,2,0,1,18,42],
 "da/d81/ansi_2include_2wchar_8h.html#ab1a21cddfc0aac3ed68d43580b8d62fe":[9,0,1,3,2,0,1,18,46],
 "da/d81/ansi_2include_2wchar_8h.html#ab32b4cdb2a8cf76716ddc2407dbd9d25":[9,0,1,3,2,0,1,18,68],
 "da/d81/ansi_2include_2wchar_8h.html#ab4d703d6b5bea25a4e702cd274d19852":[9,0,1,3,2,0,1,18,38],
@@ -249,5 +247,7 @@ var NAVTREEINDEX88 =
 "da/d99/aarch64_2syscallnos_8h.html#a62224f5e6dae93f476945689c98c6036":[9,0,1,3,3,4,0,1,56],
 "da/d99/aarch64_2syscallnos_8h.html#a62eee7158266f367bdb83f28a2cbebc3":[9,0,1,3,3,4,0,1,112],
 "da/d99/aarch64_2syscallnos_8h.html#a631be86751d4969772624be4c6f649bf":[9,0,1,3,3,4,0,1,91],
-"da/d99/aarch64_2syscallnos_8h.html#a64dbccd73ef09c5aa331717f98870580":[9,0,1,3,3,4,0,1,277]
+"da/d99/aarch64_2syscallnos_8h.html#a64dbccd73ef09c5aa331717f98870580":[9,0,1,3,3,4,0,1,277],
+"da/d99/aarch64_2syscallnos_8h.html#a64ee0bafc4d112c01ba26d0a0f067093":[9,0,1,3,3,4,0,1,25],
+"da/d99/aarch64_2syscallnos_8h.html#a66e7e2d0ae3fd449afd27b077d19faf5":[9,0,1,3,3,4,0,1,108]
 };

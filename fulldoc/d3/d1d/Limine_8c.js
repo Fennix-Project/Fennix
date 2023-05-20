@@ -11,6 +11,5 @@ var Limine_8c =
     [ "ModuleRequest", "d3/d1d/Limine_8c.html#aa67cd4fc965a4eb4a2405ee8a0a52f34", null ],
     [ "RsdpRequest", "d3/d1d/Limine_8c.html#a0470546b520931ffd609a5eb42647ac7", null ],
     [ "SmbiosRequest", "d3/d1d/Limine_8c.html#aabdac8923a5685eddee180787e0de18e", null ],
-    [ "TempStackPtr", "d3/d1d/Limine_8c.html#a387a1ea668019121e381152995b07309", null ],
-    [ "TerminalRequest", "d3/d1d/Limine_8c.html#afc8804a50e797015870e044848fd6175", null ]
+    [ "TempStackPtr", "d3/d1d/Limine_8c.html#a387a1ea668019121e381152995b07309", null ]
 ];

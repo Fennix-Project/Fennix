@@ -4,17 +4,17 @@ var gui_8hpp =
       [ "Left", "db/df1/namespaceGraphicalUserInterface.html#a143ec546ba6686cda849bdabc9cf4e46", null ],
       [ "Middle", "db/df1/namespaceGraphicalUserInterface.html#a06b6a0a1f4caf989bdde33aa48319f84", null ],
       [ "Right", "db/df1/namespaceGraphicalUserInterface.html#a0aca852492d22a506ead1a8b737c44c7", null ],
-      [ "X", "db/df1/namespaceGraphicalUserInterface.html#ad43260a3f42a80a9b5e85bbfd28227c7", null ],
-      [ "Y", "db/df1/namespaceGraphicalUserInterface.html#a0ed8be86ba0b9875e0ae1a0b32cfb956", null ],
-      [ "Z", "db/df1/namespaceGraphicalUserInterface.html#a5089af08495738161d481e61cba007a6", null ]
+      [ "X", "db/df1/namespaceGraphicalUserInterface.html#a76d010e52d6d9cb2129f3253fc097a58", null ],
+      [ "Y", "db/df1/namespaceGraphicalUserInterface.html#a27608d2f6907a1438c877382273450f6", null ],
+      [ "Z", "db/df1/namespaceGraphicalUserInterface.html#a550bf485df005be2ef51cda2f9e9b63a", null ]
     ] ],
     [ "ScreenBitmap", "db/df1/namespaceGraphicalUserInterface.html#df/d29/structGraphicalUserInterface_1_1ScreenBitmap", [
       [ "BitsPerPixel", "db/df1/namespaceGraphicalUserInterface.html#a5ee2583396d1488c6a5d8b8f9445a587", null ],
       [ "Data", "db/df1/namespaceGraphicalUserInterface.html#a8e70ed26a503e32dfab786acd859dcbf", null ],
-      [ "Height", "db/df1/namespaceGraphicalUserInterface.html#ad6979e9418773fa4a34b4d3f501025a6", null ],
+      [ "Height", "db/df1/namespaceGraphicalUserInterface.html#ab62e0cb3a575705c9eed0a279625f216", null ],
       [ "Pitch", "db/df1/namespaceGraphicalUserInterface.html#a53cc4ffd3ab514317db04bc9c5f27c82", null ],
       [ "Size", "db/df1/namespaceGraphicalUserInterface.html#aa22021f6a878dd03acd7453aabf19b11", null ],
-      [ "Width", "db/df1/namespaceGraphicalUserInterface.html#a3b7b98f7e6f58184a30032738f8ed801", null ]
+      [ "Width", "db/df1/namespaceGraphicalUserInterface.html#a972e562068ec8f1b761e0560a55cf8d6", null ]
     ] ],
     [ "Rect", "d7/dbb/structGraphicalUserInterface_1_1Rect.html", "d7/dbb/structGraphicalUserInterface_1_1Rect" ],
     [ "Event", "db/df1/namespaceGraphicalUserInterface.html#d6/de2/structGraphicalUserInterface_1_1Event", [
@@ -112,5 +112,5 @@ var gui_8hpp =
     [ "PutBorder", "dc/d7c/gui_8hpp.html#ac541063f719ab5ee515df5b4189b60e0", null ],
     [ "PutBorderWithShadow", "dc/d7c/gui_8hpp.html#a1ce4f5d5e5a92586897c810527b821b3", null ],
     [ "PutRect", "dc/d7c/gui_8hpp.html#acbaae7c325a3965ab8f3c2be193ff8af", null ],
-    [ "SetPixel", "dc/d7c/gui_8hpp.html#a0dd8851e1d482d2a5316ff4a0825991f", null ]
+    [ "SetPixel", "dc/d7c/gui_8hpp.html#ac689af5f4ba367069c1ab6bc3eeb7b41", null ]
 ];

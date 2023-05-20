@@ -182,12 +182,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00418">418</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00418">418</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    {</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ae18e5ee42467343b65baf26ada6056e9">framebuffer</a> = <a class="code" href="../../d3/dfe/DAPI_8hpp.html#af38d995e497b6690f5b942df9a9f272d">Info</a>;</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <span class="keywordflow">if</span> (LoadDefaultFont)</div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        {</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a468d3a2ad204e1e61f90bbaa50ad3a1f">CurrentFont</a> = <span class="keyword">new</span> Font(&amp;<a class="code" href="../../d9/dc5/Video_2Display_8cpp.html#aea621b4907aeb219ecbf0b600d6b649d">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_start</a>, &amp;<a class="code" href="../../d9/dc5/Video_2Display_8cpp.html#ae4017f2e525fbd7ee5c13ed7dba20fe7">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_end</a>, <a class="code" href="../../d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1ca993154ea1df2801b562f76f51fc974f4">FontType::PCScreenFont2</a>);</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a468d3a2ad204e1e61f90bbaa50ad3a1f">CurrentFont</a> = <span class="keyword">new</span> Font(&amp;<a class="code" href="../../d8/d17/Display_8cpp.html#aea621b4907aeb219ecbf0b600d6b649d">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_start</a>, &amp;<a class="code" href="../../d8/d17/Display_8cpp.html#ae4017f2e525fbd7ee5c13ed7dba20fe7">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_end</a>, <a class="code" href="../../d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1ca993154ea1df2801b562f76f51fc974f4">FontType::PCScreenFont2</a>);</div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;            FontInfo <a class="code" href="../../d3/dfe/DAPI_8hpp.html#af38d995e497b6690f5b942df9a9f272d">Info</a> = this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a468d3a2ad204e1e61f90bbaa50ad3a1f">CurrentFont</a>-&gt;<a class="code" href="../../d3/d41/classVideo_1_1Font.html#ab7be6986d30fb8693b774be2e022404c">GetInfo</a>();</div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Font loaded: %dx%d %s&quot;</span>,</div>
@@ -197,17 +197,17 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a87721e0bf91caa057f70f661c6ad4998">CreateBuffer</a>(Info.Width, <a class="code" href="../../d3/dfe/DAPI_8hpp.html#af38d995e497b6690f5b942df9a9f272d">Info</a>.Height, 0);</div>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    }</div>
 <div class="ttc" id="aDAPI_8hpp_html_af38d995e497b6690f5b942df9a9f272d"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#af38d995e497b6690f5b942df9a9f272d">Info</a></div><div class="ttdeci">struct KAPIInfo Info</div></div>
-<div class="ttc" id="aVideo_2Display_8cpp_html_ae4017f2e525fbd7ee5c13ed7dba20fe7"><div class="ttname"><a href="../../d9/dc5/Video_2Display_8cpp.html#ae4017f2e525fbd7ee5c13ed7dba20fe7">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_end</a></div><div class="ttdeci">uintptr_t _binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_end</div></div>
-<div class="ttc" id="aVideo_2Display_8cpp_html_aea621b4907aeb219ecbf0b600d6b649d"><div class="ttname"><a href="../../d9/dc5/Video_2Display_8cpp.html#aea621b4907aeb219ecbf0b600d6b649d">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_start</a></div><div class="ttdeci">uintptr_t _binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_start</div></div>
+<div class="ttc" id="aDisplay_8cpp_html_ae4017f2e525fbd7ee5c13ed7dba20fe7"><div class="ttname"><a href="../../d8/d17/Display_8cpp.html#ae4017f2e525fbd7ee5c13ed7dba20fe7">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_end</a></div><div class="ttdeci">uintptr_t _binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_end</div></div>
+<div class="ttc" id="aDisplay_8cpp_html_aea621b4907aeb219ecbf0b600d6b649d"><div class="ttname"><a href="../../d8/d17/Display_8cpp.html#aea621b4907aeb219ecbf0b600d6b649d">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_start</a></div><div class="ttdeci">uintptr_t _binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_start</div></div>
 <div class="ttc" id="aclassVideo_1_1Display_html_a468d3a2ad204e1e61f90bbaa50ad3a1f"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a468d3a2ad204e1e61f90bbaa50ad3a1f">Video::Display::CurrentFont</a></div><div class="ttdeci">Font * CurrentFont</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00112">display.hpp:112</a></div></div>
-<div class="ttc" id="aclassVideo_1_1Display_html_a87721e0bf91caa057f70f661c6ad4998"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a87721e0bf91caa057f70f661c6ad4998">Video::Display::CreateBuffer</a></div><div class="ttdeci">void CreateBuffer(uint32_t Width, uint32_t Height, int Index)</div><div class="ttdoc">Create a new buffer.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc5/Video_2Display_8cpp_source.html#l00036">Display.cpp:36</a></div></div>
+<div class="ttc" id="aclassVideo_1_1Display_html_a87721e0bf91caa057f70f661c6ad4998"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a87721e0bf91caa057f70f661c6ad4998">Video::Display::CreateBuffer</a></div><div class="ttdeci">void CreateBuffer(uint32_t Width, uint32_t Height, int Index)</div><div class="ttdoc">Create a new buffer.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d17/Display_8cpp_source.html#l00036">Display.cpp:36</a></div></div>
 <div class="ttc" id="aclassVideo_1_1Display_html_ae18e5ee42467343b65baf26ada6056e9"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#ae18e5ee42467343b65baf26ada6056e9">Video::Display::framebuffer</a></div><div class="ttdeci">BootInfo::FramebufferInfo framebuffer</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00111">display.hpp:111</a></div></div>
 <div class="ttc" id="aclassVideo_1_1Font_html_ab7be6986d30fb8693b774be2e022404c"><div class="ttname"><a href="../../d3/d41/classVideo_1_1Font.html#ab7be6986d30fb8693b774be2e022404c">Video::Font::GetInfo</a></div><div class="ttdeci">FontInfo GetInfo()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00091">display.hpp:91</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00085">debug.h:85</a></div></div>
 <div class="ttc" id="anamespaceVideo_html_a1d549e9c98577a9e2ddc84723ac9ac1ca993154ea1df2801b562f76f51fc974f4"><div class="ttname"><a href="../../d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1ca993154ea1df2801b562f76f51fc974f4">Video::PCScreenFont2</a></div><div class="ttdeci">@ PCScreenFont2</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00073">display.hpp:72</a></div></div>
 <div class="ttc" id="anamespaceVideo_html_a1d549e9c98577a9e2ddc84723ac9ac1cac1878e6cbf133b2686f85c7a6bb0a4f4"><div class="ttname"><a href="../../d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1cac1878e6cbf133b2686f85c7a6bb0a4f4">Video::PCScreenFont1</a></div><div class="ttdeci">@ PCScreenFont1</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00071">display.hpp:71</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/dc5/Video_2Display_8cpp.html#ae4017f2e525fbd7ee5c13ed7dba20fe7">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_end</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp.html#aea621b4907aeb219ecbf0b600d6b649d">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_start</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00036">CreateBuffer()</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00112">CurrentFont</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00111">framebuffer</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00091">Video::Font::GetInfo()</a>, <a class="el" href="../../d3/dfe/DAPI_8hpp.html#af38d995e497b6690f5b942df9a9f272d">Info</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00071">Video::PCScreenFont1</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00072">Video::PCScreenFont2</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00053">BootInfo::FramebufferInfo::Width</a>, and <a class="el" href="../../d2/da4/display_8hpp_source.html#l00081">Video::FontInfo::Width</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d17/Display_8cpp.html#ae4017f2e525fbd7ee5c13ed7dba20fe7">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_end</a>, <a class="el" href="../../d8/d17/Display_8cpp.html#aea621b4907aeb219ecbf0b600d6b649d">_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_start</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00036">CreateBuffer()</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00112">CurrentFont</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00111">framebuffer</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00091">Video::Font::GetInfo()</a>, <a class="el" href="../../d3/dfe/DAPI_8hpp.html#af38d995e497b6690f5b942df9a9f272d">Info</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00071">Video::PCScreenFont1</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00072">Video::PCScreenFont2</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00053">BootInfo::FramebufferInfo::Width</a>, and <a class="el" href="../../d2/da4/display_8hpp_source.html#l00081">Video::FontInfo::Width</a>.</p>
 
 </div>
 </div>
@@ -226,7 +226,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00433">433</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00433">433</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    {</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Destructor called&quot;</span>);</div>
 <div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#a7f23cd22f88c004958f8fda064d669b3">ClearBuffer</a>(0);</div>
@@ -239,12 +239,12 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        }</div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    }</div>
 <div class="ttc" id="aXallocV1_8cpp_html_aca10be923fb0da174d8c3a29d8b5083b"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a></div><div class="ttdeci">int Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">XallocV1.cpp:3</a></div></div>
-<div class="ttc" id="aclassVideo_1_1Display_html_a776c5cf7a196100de3050c86c7510656"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">Video::Display::SetBuffer</a></div><div class="ttdeci">void SetBuffer(int Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc5/Video_2Display_8cpp_source.html#l00067">Display.cpp:67</a></div></div>
-<div class="ttc" id="aclassVideo_1_1Display_html_a7f23cd22f88c004958f8fda064d669b3"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a7f23cd22f88c004958f8fda064d669b3">Video::Display::ClearBuffer</a></div><div class="ttdeci">void ClearBuffer(int Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc5/Video_2Display_8cpp_source.html#l00086">Display.cpp:86</a></div></div>
-<div class="ttc" id="aclassVideo_1_1Display_html_ae29244a6ffd291cdee9d7b05c780098d"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#ae29244a6ffd291cdee9d7b05c780098d">Video::Display::DeleteBuffer</a></div><div class="ttdeci">void DeleteBuffer(int Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc5/Video_2Display_8cpp_source.html#l00097">Display.cpp:97</a></div></div>
+<div class="ttc" id="aclassVideo_1_1Display_html_a776c5cf7a196100de3050c86c7510656"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a776c5cf7a196100de3050c86c7510656">Video::Display::SetBuffer</a></div><div class="ttdeci">void SetBuffer(int Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d17/Display_8cpp_source.html#l00067">Display.cpp:67</a></div></div>
+<div class="ttc" id="aclassVideo_1_1Display_html_a7f23cd22f88c004958f8fda064d669b3"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a7f23cd22f88c004958f8fda064d669b3">Video::Display::ClearBuffer</a></div><div class="ttdeci">void ClearBuffer(int Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d17/Display_8cpp_source.html#l00086">Display.cpp:86</a></div></div>
+<div class="ttc" id="aclassVideo_1_1Display_html_ae29244a6ffd291cdee9d7b05c780098d"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#ae29244a6ffd291cdee9d7b05c780098d">Video::Display::DeleteBuffer</a></div><div class="ttdeci">void DeleteBuffer(int Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d17/Display_8cpp_source.html#l00097">Display.cpp:97</a></div></div>
 <div class="ttc" id="aclassVideo_1_1Display_html_aeff195e8471e42590d724aa0cfba6ac0"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Video::Display::Buffers</a></div><div class="ttdeci">ScreenBuffer Buffers[256]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00113">display.hpp:113</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00086">ClearBuffer()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00097">DeleteBuffer()</a>, and <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00067">SetBuffer()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00086">ClearBuffer()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00097">DeleteBuffer()</a>, and <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00067">SetBuffer()</a>.</p>
 
 </div>
 </div>
@@ -265,7 +265,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    {</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        {</div>
@@ -281,7 +281,7 @@ Private Attributes</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01057">memset()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">unlikely</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00433">~Display()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00433">~Display()</a>.</p>
 
 </div>
 </div>
@@ -332,7 +332,7 @@ Height. Both values must be greater than 0.</dd></dl>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">if</span> (Width == 0 || Height == 0)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        {</div>
@@ -379,7 +379,7 @@ Height. Both values must be greater than 0.</dd></dl>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00103">Video::ScreenBuffer::Brightness</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00098">Video::ScreenBuffer::Buffer</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00105">Video::ScreenBuffer::Checksum</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00101">Video::ScreenBuffer::Color</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00102">Video::ScreenBuffer::CursorX</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00102">Video::ScreenBuffer::CursorY</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00111">framebuffer</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00054">BootInfo::FramebufferInfo::Height</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00099">Video::ScreenBuffer::Height</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00049">KernelAllocator</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01057">memset()</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00055">BootInfo::FramebufferInfo::Pitch</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00100">Video::ScreenBuffer::Size</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00079">warn</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00053">BootInfo::FramebufferInfo::Width</a>, and <a class="el" href="../../d2/da4/display_8hpp_source.html#l00099">Video::ScreenBuffer::Width</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00418">Display()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00418">Display()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>.</p>
 
 </div>
 </div>
@@ -399,7 +399,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00097">97</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00097">97</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    {</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        {</div>
@@ -415,7 +415,7 @@ Height. Both values must be greater than 0.</dd></dl>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00098">Video::ScreenBuffer::Buffer</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00105">Video::ScreenBuffer::Checksum</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00049">KernelAllocator</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">unlikely</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00433">~Display()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00433">~Display()</a>.</p>
 
 </div>
 </div>
@@ -463,7 +463,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00403">403</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00403">403</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    {</div>
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        {</div>
@@ -477,9 +477,9 @@ Height. Both values must be greater than 0.</dd></dl>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; String[i] != <span class="charliteral">&#39;\0&#39;</span>; i++)</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;            this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Print</a>(String[i], Index, WriteToUART);</div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    }</div>
-<div class="ttc" id="aclassVideo_1_1Display_html_ab05a86198845ef9aefa590cea4166a82"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Video::Display::Print</a></div><div class="ttdeci">char Print(char Char, int Index, bool WriteToUART=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc5/Video_2Display_8cpp_source.html#l00238">Display.cpp:238</a></div></div>
+<div class="ttc" id="aclassVideo_1_1Display_html_ab05a86198845ef9aefa590cea4166a82"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#ab05a86198845ef9aefa590cea4166a82">Video::Display::Print</a></div><div class="ttdeci">char Print(char Char, int Index, bool WriteToUART=false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d17/Display_8cpp_source.html#l00238">Display.cpp:238</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00102">Video::ScreenBuffer::CursorX</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00102">Video::ScreenBuffer::CursorY</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00238">Print()</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00102">Video::ScreenBuffer::CursorX</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00102">Video::ScreenBuffer::CursorY</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00238">Print()</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">unlikely</a>.</p>
 
 </div>
 </div>
@@ -498,7 +498,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ae18e5ee42467343b65baf26ada6056e9">framebuffer</a>.<a class="code" href="../../db/d96/structBootInfo.html#ab6e652d2b6f726897ef913afa11abfc9">BitsPerPixel</a>; }</div>
 <div class="ttc" id="astructBootInfo_html_ab6e652d2b6f726897ef913afa11abfc9"><div class="ttname"><a href="../../db/d96/structBootInfo.html#ab6e652d2b6f726897ef913afa11abfc9">BootInfo::FramebufferInfo::BitsPerPixel</a></div><div class="ttdeci">__UINT16_TYPE__ BitsPerPixel</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00056">binfo.h:56</a></div></div>
 </div><!-- fragment -->
@@ -522,7 +522,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;{ <span class="keywordflow">return</span> &amp;this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index]; }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>.</p>
@@ -563,7 +563,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00158">158</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00158">158</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    {</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        {</div>
@@ -594,12 +594,12 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../db/d81/classVideo_1_1Display.html#a468d3a2ad204e1e61f90bbaa50ad3a1f">CurrentFont</a>; }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00112">CurrentFont</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>, and <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00238">Print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>, and <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00238">Print()</a>.</p>
 
 </div>
 </div>
@@ -618,7 +618,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{ <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ae18e5ee42467343b65baf26ada6056e9">framebuffer</a>.<a class="code" href="../../db/d96/structBootInfo.html#ac5c33e345e909084d82e5bc1c771f4d2">Pitch</a>; }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00111">framebuffer</a>, and <a class="el" href="../../d9/d36/binfo_8h_source.html#l00055">BootInfo::FramebufferInfo::Pitch</a>.</p>
@@ -657,7 +657,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00188">188</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00188">188</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    {</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="keywordflow">return</span> 0;</div>
@@ -707,7 +707,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00238">238</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00238">238</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    {</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <span class="keywordflow">return</span> 0;</div>
@@ -874,8 +874,8 @@ Height. Both values must be greater than 0.</dd></dl>
 <div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
 <div class="ttc" id="aclassUniversalAsynchronousReceiverTransmitter_1_1UART_html"><div class="ttname"><a href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html">UniversalAsynchronousReceiverTransmitter::UART</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3f/uart_8hpp_source.html#l00041">uart.hpp:42</a></div></div>
 <div class="ttc" id="aclassUniversalAsynchronousReceiverTransmitter_1_1UART_html_a7906991fad520423bc367e05767db183"><div class="ttname"><a href="../../d5/d80/classUniversalAsynchronousReceiverTransmitter_1_1UART.html#a7906991fad520423bc367e05767db183">UniversalAsynchronousReceiverTransmitter::UART::Write</a></div><div class="ttdeci">void Write(uint8_t Char)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00129">UniversalAsynchronousReceiverTransmitter.cpp:129</a></div></div>
-<div class="ttc" id="aclassVideo_1_1Display_html_a3f28ee62fda3c67362e8a337f2c2103a"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a3f28ee62fda3c67362e8a337f2c2103a">Video::Display::GetCurrentFont</a></div><div class="ttdeci">Font * GetCurrentFont()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc5/Video_2Display_8cpp_source.html#l00031">Display.cpp:31</a></div></div>
-<div class="ttc" id="aclassVideo_1_1Display_html_a5c4acb83008add3aa6605abd1d7baa97"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a5c4acb83008add3aa6605abd1d7baa97">Video::Display::Scroll</a></div><div class="ttdeci">void Scroll(int Index, int Lines)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc5/Video_2Display_8cpp_source.html#l00200">Display.cpp:200</a></div></div>
+<div class="ttc" id="aclassVideo_1_1Display_html_a3f28ee62fda3c67362e8a337f2c2103a"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a3f28ee62fda3c67362e8a337f2c2103a">Video::Display::GetCurrentFont</a></div><div class="ttdeci">Font * GetCurrentFont()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d17/Display_8cpp_source.html#l00031">Display.cpp:31</a></div></div>
+<div class="ttc" id="aclassVideo_1_1Display_html_a5c4acb83008add3aa6605abd1d7baa97"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#a5c4acb83008add3aa6605abd1d7baa97">Video::Display::Scroll</a></div><div class="ttdeci">void Scroll(int Index, int Lines)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d17/Display_8cpp_source.html#l00200">Display.cpp:200</a></div></div>
 <div class="ttc" id="aclassVideo_1_1Display_html_ab671919c361d8df31e5832211c253cea"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#ab671919c361d8df31e5832211c253cea">Video::Display::ColorPickerIteration</a></div><div class="ttdeci">int ColorPickerIteration</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00115">display.hpp:115</a></div></div>
 <div class="ttc" id="aclassVideo_1_1Display_html_ababb6b398e44135997b52f77982c2dbb"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#ababb6b398e44135997b52f77982c2dbb">Video::Display::ColorIteration</a></div><div class="ttdeci">bool ColorIteration</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00114">display.hpp:114</a></div></div>
 <div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00089">debug.h:89</a></div></div>
@@ -896,9 +896,9 @@ Height. Both values must be greater than 0.</dd></dl>
 <div class="ttc" id="anamespaceVideo_html_adf3b5d00d2074bf6d8b24f70aa3d7e01"><div class="ttname"><a href="../../d6/de2/namespaceVideo.html#adf3b5d00d2074bf6d8b24f70aa3d7e01">Video::FontInfo::PSF1Font</a></div><div class="ttdeci">PSF1_FONT * PSF1Font</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00079">display.hpp:79</a></div></div>
 <div class="ttc" id="anamespaceVideo_html_af415854c2e6502bc9af6558aa8256778"><div class="ttname"><a href="../../d6/de2/namespaceVideo.html#af415854c2e6502bc9af6558aa8256778">Video::FontInfo::PSF2Font</a></div><div class="ttdeci">PSF2_FONT * PSF2Font</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00080">display.hpp:80</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d36/binfo_8h_source.html#l00056">BootInfo::FramebufferInfo::BitsPerPixel</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00098">Video::ScreenBuffer::Buffer</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00042">Video::PSF1_HEADER::charsize</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00052">Video::PSF2_HEADER::charsize</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00101">Video::ScreenBuffer::Color</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00114">ColorIteration</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00115">ColorPickerIteration</a>, <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00031">UniversalAsynchronousReceiverTransmitter::COM1</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00112">CurrentFont</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00102">Video::ScreenBuffer::CursorX</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00102">Video::ScreenBuffer::CursorY</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00089">fixme</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00111">framebuffer</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00031">GetCurrentFont()</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00091">Video::Font::GetInfo()</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00059">Video::_PSF1_FONT::GlyphBuffer</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00058">Video::_PSF1_FONT::Header</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00064">Video::_PSF2_FONT::Header</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00049">Video::PSF2_HEADER::headersize</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00053">Video::PSF2_HEADER::height</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00081">Video::FontInfo::Height</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00051">Video::PSF2_HEADER::length</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00071">Video::PCScreenFont1</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00072">Video::PCScreenFont2</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00079">Video::FontInfo::PSF1Font</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00080">Video::FontInfo::PSF2Font</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00200">Scroll()</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00077">Video::FontInfo::StartAddress</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00082">Video::FontInfo::Type</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">unlikely</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00079">warn</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00053">Video::PSF2_HEADER::width</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00081">Video::FontInfo::Width</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00099">Video::ScreenBuffer::Width</a>, and <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00129">UniversalAsynchronousReceiverTransmitter::UART::Write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d36/binfo_8h_source.html#l00056">BootInfo::FramebufferInfo::BitsPerPixel</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00098">Video::ScreenBuffer::Buffer</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00042">Video::PSF1_HEADER::charsize</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00052">Video::PSF2_HEADER::charsize</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00101">Video::ScreenBuffer::Color</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00114">ColorIteration</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00115">ColorPickerIteration</a>, <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00031">UniversalAsynchronousReceiverTransmitter::COM1</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00112">CurrentFont</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00102">Video::ScreenBuffer::CursorX</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00102">Video::ScreenBuffer::CursorY</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00089">fixme</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00111">framebuffer</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00031">GetCurrentFont()</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00091">Video::Font::GetInfo()</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00059">Video::_PSF1_FONT::GlyphBuffer</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00058">Video::_PSF1_FONT::Header</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00064">Video::_PSF2_FONT::Header</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00049">Video::PSF2_HEADER::headersize</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00053">Video::PSF2_HEADER::height</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00081">Video::FontInfo::Height</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00051">Video::PSF2_HEADER::length</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00071">Video::PCScreenFont1</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00072">Video::PCScreenFont2</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00079">Video::FontInfo::PSF1Font</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00080">Video::FontInfo::PSF2Font</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00200">Scroll()</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00077">Video::FontInfo::StartAddress</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00082">Video::FontInfo::Type</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">unlikely</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00079">warn</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00053">Video::PSF2_HEADER::width</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00081">Video::FontInfo::Width</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00099">Video::ScreenBuffer::Width</a>, and <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00129">UniversalAsynchronousReceiverTransmitter::UART::Write()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00403">DrawString()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00226">putchar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00403">DrawString()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00226">putchar()</a>.</p>
 
 </div>
 </div>
@@ -928,7 +928,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00200">200</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00200">200</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    {</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        {</div>
@@ -956,7 +956,7 @@ Height. Both values must be greater than 0.</dd></dl>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d9/d36/binfo_8h_source.html#l00056">BootInfo::FramebufferInfo::BitsPerPixel</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00112">CurrentFont</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00111">framebuffer</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00091">Video::Font::GetInfo()</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00081">Video::FontInfo::Height</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00124">memmove</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01057">memset()</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00100">Video::ScreenBuffer::Size</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">unlikely</a>, and <a class="el" href="../../d2/da4/display_8hpp_source.html#l00099">Video::ScreenBuffer::Width</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00238">Print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00238">Print()</a>.</p>
 
 </div>
 </div>
@@ -986,7 +986,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00111">111</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00111">111</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    {</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        {</div>
@@ -1023,7 +1023,7 @@ Height. Both values must be greater than 0.</dd></dl>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00103">Video::ScreenBuffer::Brightness</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00099">Video::ScreenBuffer::Height</a>, <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">unlikely</a>, and <a class="el" href="../../d2/da4/display_8hpp_source.html#l00099">Video::ScreenBuffer::Width</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00067">SetBuffer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00067">SetBuffer()</a>.</p>
 
 </div>
 </div>
@@ -1043,7 +1043,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00067">67</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    {</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        {</div>
@@ -1060,12 +1060,12 @@ Height. Both values must be greater than 0.</dd></dl>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#ae18e5ee42467343b65baf26ada6056e9">framebuffer</a>.<a class="code" href="../../db/d96/structBootInfo.html#aa77a54ab865bf5cbf639e25395bcf0e8">BaseAddress</a>, this-&gt;Buffers[Index].Buffer, this-&gt;Buffers[Index].Size);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
 <div class="ttc" id="aConvert_8cpp_html_a0c94a56e02776859c0f510bd6f7354c6"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memcpy(void *dest, const void *src, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l01030">Convert.cpp:1030</a></div></div>
-<div class="ttc" id="aclassVideo_1_1Display_html_af2aaab019901c352192b6a3a485a6794"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#af2aaab019901c352192b6a3a485a6794">Video::Display::SetBrightness</a></div><div class="ttdeci">void SetBrightness(int Value, int Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc5/Video_2Display_8cpp_source.html#l00111">Display.cpp:111</a></div></div>
+<div class="ttc" id="aclassVideo_1_1Display_html_af2aaab019901c352192b6a3a485a6794"><div class="ttname"><a href="../../db/d81/classVideo_1_1Display.html#af2aaab019901c352192b6a3a485a6794">Video::Display::SetBrightness</a></div><div class="ttdeci">void SetBrightness(int Value, int Index)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d17/Display_8cpp_source.html#l00111">Display.cpp:111</a></div></div>
 <div class="ttc" id="astructBootInfo_html_aa77a54ab865bf5cbf639e25395bcf0e8"><div class="ttname"><a href="../../db/d96/structBootInfo.html#aa77a54ab865bf5cbf639e25395bcf0e8">BootInfo::FramebufferInfo::BaseAddress</a></div><div class="ttdeci">void * BaseAddress</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00052">binfo.h:52</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d36/binfo_8h_source.html#l00052">BootInfo::FramebufferInfo::BaseAddress</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00111">framebuffer</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01030">memcpy()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01057">memset()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00111">SetBrightness()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d36/binfo_8h_source.html#l00052">BootInfo::FramebufferInfo::BaseAddress</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">Buffers</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00085">debug</a>, <a class="el" href="../../d2/da4/display_8hpp_source.html#l00111">framebuffer</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01030">memcpy()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01057">memset()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00111">SetBrightness()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00360">unlikely</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00234">KPrint()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>, and <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00433">~Display()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00234">KPrint()</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00259">Main()</a>, and <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00433">~Display()</a>.</p>
 
 </div>
 </div>
@@ -1101,7 +1101,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    {</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        {</div>
@@ -1135,7 +1135,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;{ <a class="code" href="../../db/d81/classVideo_1_1Display.html#a468d3a2ad204e1e61f90bbaa50ad3a1f">CurrentFont</a> = Font; }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/da4/display_8hpp_source.html#l00112">CurrentFont</a>.</p>
@@ -1168,7 +1168,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00224">224</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00224">224</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    {</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        {</div>
@@ -1224,7 +1224,7 @@ Height. Both values must be greater than 0.</dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00170">170</a> of file <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00170">170</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    {</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;<a class="code" href="../../db/d81/classVideo_1_1Display.html#aeff195e8471e42590d724aa0cfba6ac0">Buffers</a>[Index].<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> != 0xBBFFE515A117E))</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        {</div>
@@ -1269,7 +1269,7 @@ Height. Both values must be greater than 0.</dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/da4/display_8hpp_source.html#l00113">113</a> of file <a class="el" href="../../d2/da4/display_8hpp_source.html">display.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00086">ClearBuffer()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00036">CreateBuffer()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00097">DeleteBuffer()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00403">DrawString()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00084">GetBuffer()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00158">GetBufferCursor()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00188">GetPixel()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00238">Print()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00200">Scroll()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00111">SetBrightness()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00067">SetBuffer()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00146">SetBufferCursor()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00224">SetDoNotScroll()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00170">SetPixel()</a>, and <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00433">~Display()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00086">ClearBuffer()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00036">CreateBuffer()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00097">DeleteBuffer()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00403">DrawString()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00084">GetBuffer()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00158">GetBufferCursor()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00188">GetPixel()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00238">Print()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00200">Scroll()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00111">SetBrightness()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00067">SetBuffer()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00146">SetBufferCursor()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00224">SetDoNotScroll()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00170">SetPixel()</a>, and <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00433">~Display()</a>.</p>
 
 </div>
 </div>
@@ -1295,7 +1295,7 @@ Height. Both values must be greater than 0.</dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/da4/display_8hpp_source.html#l00114">114</a> of file <a class="el" href="../../d2/da4/display_8hpp_source.html">display.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00238">Print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00238">Print()</a>.</p>
 
 </div>
 </div>
@@ -1321,7 +1321,7 @@ Height. Both values must be greater than 0.</dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/da4/display_8hpp_source.html#l00115">115</a> of file <a class="el" href="../../d2/da4/display_8hpp_source.html">display.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00238">Print()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00238">Print()</a>.</p>
 
 </div>
 </div>
@@ -1347,7 +1347,7 @@ Height. Both values must be greater than 0.</dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/da4/display_8hpp_source.html#l00112">112</a> of file <a class="el" href="../../d2/da4/display_8hpp_source.html">display.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00418">Display()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00031">GetCurrentFont()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00238">Print()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00200">Scroll()</a>, and <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00032">SetCurrentFont()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00418">Display()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00031">GetCurrentFont()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00238">Print()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00200">Scroll()</a>, and <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00032">SetCurrentFont()</a>.</p>
 
 </div>
 </div>
@@ -1373,13 +1373,13 @@ Height. Both values must be greater than 0.</dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/da4/display_8hpp_source.html#l00111">111</a> of file <a class="el" href="../../d2/da4/display_8hpp_source.html">display.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00036">CreateBuffer()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00418">Display()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00033">GetBitsPerPixel()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00034">GetPitch()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00188">GetPixel()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00238">Print()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00200">Scroll()</a>, <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00067">SetBuffer()</a>, and <a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html#l00170">SetPixel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00036">CreateBuffer()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00418">Display()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00033">GetBitsPerPixel()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00034">GetPitch()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00188">GetPixel()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00238">Print()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00200">Scroll()</a>, <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00067">SetBuffer()</a>, and <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00170">SetPixel()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Kernel/include/<a class="el" href="../../d2/da4/display_8hpp_source.html">display.hpp</a></li>
-<li>Kernel/Core/Video/<a class="el" href="../../d9/dc5/Video_2Display_8cpp_source.html">Display.cpp</a></li>
+<li>Kernel/Core/Video/<a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

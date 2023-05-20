@@ -1,7 +1,5 @@
 var NAVTREEINDEX87 =
 {
-"da/d73/ironclad_8h.html#da/d51/structironclad__mouse__data":[9,0,1,3,3,2,1,1,0,1],
-"da/d73/ironclad_8h_source.html":[9,0,1,3,3,2,1,1,0],
 "da/d74/netrom_8h.html":[9,0,1,3,2,4,1,6,0],
 "da/d74/netrom_8h.html#a0469eb9d992b95a4bb42ffb6ccbba0f5":[9,0,1,3,2,4,1,6,0,0,3],
 "da/d74/netrom_8h.html#a0a33a06f4796dd1b541d93989b290632":[9,0,1,3,2,4,1,6,0,0,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX87 =
 "da/d81/ansi_2include_2wchar_8h.html#aa8a23c5d87d7f63587c5264dd6a62401":[9,0,1,3,2,0,1,18,10],
 "da/d81/ansi_2include_2wchar_8h.html#aacc738cc968f30a7b8ce1b0ed5c7411c":[9,0,1,3,2,0,1,18,8],
 "da/d81/ansi_2include_2wchar_8h.html#aada6ae27bad607646e5ad98da8a48399":[9,0,1,3,2,0,1,18,57],
-"da/d81/ansi_2include_2wchar_8h.html#aae6f87d6b235bf74ac8d372b08f46fe8":[9,0,1,3,2,0,1,18,49]
+"da/d81/ansi_2include_2wchar_8h.html#aae6f87d6b235bf74ac8d372b08f46fe8":[9,0,1,3,2,0,1,18,49],
+"da/d81/ansi_2include_2wchar_8h.html#aae78a018cc1814340d6e16f1ed22a30d":[9,0,1,3,2,0,1,18,40],
+"da/d81/ansi_2include_2wchar_8h.html#aaf3232841abc82fc9556b3c38a2e7e9e":[9,0,1,3,2,0,1,18,42]
 };

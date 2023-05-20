@@ -1,7 +1,5 @@
 var NAVTREEINDEX86 =
 {
-"da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a2e1baae9134e580910322362dc23290e":[9,0,1,3,2,0,1,11,21],
-"da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a2f4830e468138e1513b55ca6a92a0f9a":[9,0,1,3,2,0,1,11,199],
 "da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a2f9c0448126d1a838624e3460217bb84":[9,0,1,3,2,0,1,11,170],
 "da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a32eba50da417c9f303ba49583d5b9f40":[9,0,1,3,2,0,1,11,8],
 "da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a33daf51eb7138d477e0b0985c51e4fad":[9,0,1,3,2,0,1,11,23],
@@ -249,5 +247,7 @@ var NAVTREEINDEX86 =
 "da/d73/ironclad_8h.html#ad01777120064f3ff8db4ee8e93d0a217":[9,0,1,3,3,2,1,1,0,0,0],
 "da/d73/ironclad_8h.html#ad1cfb48c890296f4846c0f4721c511b0":[9,0,1,3,3,2,1,1,0,3],
 "da/d73/ironclad_8h.html#aee7512e771894ad72d69fe378cf5ae0c":[9,0,1,3,3,2,1,1,0,6],
-"da/d73/ironclad_8h.html#d3/de1/structironclad__fb__dimensions":[9,0,1,3,3,2,1,1,0,0]
+"da/d73/ironclad_8h.html#d3/de1/structironclad__fb__dimensions":[9,0,1,3,3,2,1,1,0,0],
+"da/d73/ironclad_8h.html#da/d51/structironclad__mouse__data":[9,0,1,3,3,2,1,1,0,1],
+"da/d73/ironclad_8h_source.html":[9,0,1,3,3,2,1,1,0]
 };

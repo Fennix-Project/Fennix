@@ -1,7 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"da/d99/aarch64_2syscallnos_8h.html#a64ee0bafc4d112c01ba26d0a0f067093":[9,0,1,3,3,4,0,1,25],
-"da/d99/aarch64_2syscallnos_8h.html#a66e7e2d0ae3fd449afd27b077d19faf5":[9,0,1,3,3,4,0,1,108],
 "da/d99/aarch64_2syscallnos_8h.html#a6793b39776aa0877fd639d3b49f93b6b":[9,0,1,3,3,4,0,1,153],
 "da/d99/aarch64_2syscallnos_8h.html#a6947a2f4f09ba90a107406e20d0d31a6":[9,0,1,3,3,4,0,1,47],
 "da/d99/aarch64_2syscallnos_8h.html#a6953bd3711227b463abc00dda8c91f97":[9,0,1,3,3,4,0,1,114],
@@ -249,5 +247,7 @@ var NAVTREEINDEX89 =
 "da/da2/options_2posix_2include_2sys_2socket_8h.html#ad3f501692b5df0bab9ac8cadc822494d":[9,0,1,3,2,10,1,5,10,24],
 "da/da2/options_2posix_2include_2sys_2socket_8h.html#ad8757ba7b643ff8279abf9593f543494":[9,0,1,3,2,10,1,5,10,30],
 "da/da2/options_2posix_2include_2sys_2socket_8h.html#aefe15cd32043c4749736c759b56c0438":[9,0,1,3,2,10,1,5,10,27],
-"da/da2/options_2posix_2include_2sys_2socket_8h.html#afaee3c2cfdfaed9755111cf651d7a664":[9,0,1,3,2,10,1,5,10,3]
+"da/da2/options_2posix_2include_2sys_2socket_8h.html#afaee3c2cfdfaed9755111cf651d7a664":[9,0,1,3,2,10,1,5,10,3],
+"da/da2/options_2posix_2include_2sys_2socket_8h.html#afd5d95d56d0f8959f5b56458b3b3c714":[9,0,1,3,2,10,1,5,10,0,0],
+"da/da2/options_2posix_2include_2sys_2socket_8h.html#d0/d85/structlinger":[9,0,1,3,2,10,1,5,10,1]
 };

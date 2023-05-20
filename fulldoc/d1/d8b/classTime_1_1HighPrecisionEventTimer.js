@@ -13,12 +13,12 @@ var classTime_1_1HighPrecisionEventTimer =
     ] ],
     [ "HighPrecisionEventTimer", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#af2bb73b62f4eb26b70d52be390fa2287", null ],
     [ "~HighPrecisionEventTimer", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#abb3243ffd9ad6fda796eabdde85ba75b", null ],
-    [ "CalculateTarget", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a57b632d87355aa7db421b1f7f925e004", null ],
-    [ "ConvertUnit", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a3ebfea8115dbb3ea6690f88e165609bd", null ],
-    [ "GetCounter", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#af7c3e5a3401f424e6ba6b2fbe12d56cd", null ],
-    [ "GetNanosecondsSinceClassCreation", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a71c33d56f6c1050f1e364ca5c84000a6", null ],
-    [ "Sleep", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#ac97d2bc9d8d22e42aa398e7366729381", null ],
-    [ "ClassCreationTime", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a5b5c1dd265377fca58c42f06774ef760", null ],
+    [ "CalculateTarget", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a68383246bb1e6475192b6c4aa455f14a", null ],
+    [ "ConvertUnit", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#adfd66ce5ae33b7fb6115532b1f0ba9c6", null ],
+    [ "GetCounter", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a3da8c749b5f0ff5117f3e9ff9f894b84", null ],
+    [ "GetNanosecondsSinceClassCreation", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a30b5c0fac67317267a6c1635d4bb0f32", null ],
+    [ "Sleep", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a4bc82d45b251a0734520b89c7572ff3d", null ],
+    [ "ClassCreationTime", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a4b7641caaf310912822eca90bfbe95d9", null ],
     [ "clk", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#ad2640c904f17fe385086e861b57be7a8", null ],
     [ "hpet", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#abeffe8a7ee9fefacdde20e604c963d8a", null ]
 ];
