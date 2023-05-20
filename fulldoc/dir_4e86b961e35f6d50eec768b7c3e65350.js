@@ -7,33 +7,33 @@ var dir_4e86b961e35f6d50eec768b7c3e65350 =
     [ "exceptions.hpp", "da/d49/exceptions_8hpp.html", "da/d49/exceptions_8hpp" ],
     [ "hypervisor.hpp", "dd/d82/hypervisor_8hpp.html", [
       [ "CPUID0x40000000", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#db/dfc/structCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000", [
-        [ "EAX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#ad0c9bd98f53fa9c4a7710b6a9f4c5b5c", null ],
-        [ "EBX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#a79b3feecff973b8464317af0fa5e68c5", null ],
-        [ "ECX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#ac07cf5a7f72ef75683050ee373e06175", null ],
-        [ "EDX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#a510d419107bd27d278cf0adf6163e4ea", null ]
+        [ "EAX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#a15957d2676258d34da02249f674a3960", null ],
+        [ "EBX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#a53ff63f3aad73544b76f16cde3a7833d", null ],
+        [ "ECX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#ad697ad2f54492fb8022cf1b41a7f1f57", null ],
+        [ "EDX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#a925f6204fd2f270cf714c85774fc6622", null ]
       ] ],
       [ "CPUID0x40000000.EAX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#d3/d10/unionCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8EAX", [
         [ "raw", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#abdd166af3a63f7be696dd17a218a6ffb", null ]
       ] ],
-      [ "CPUID0x40000000.EAX.__unnamed612__", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#df/d9f/structCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8EAX_8____unnamed612____", [
+      [ "CPUID0x40000000.EAX.__unnamed609__", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#d3/def/structCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8EAX_8____unnamed609____", [
         [ "MaximumInputValue", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#a58e4c8087a59cc2a15b8424709a1d5b6", null ]
       ] ],
       [ "CPUID0x40000000.EBX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#d4/d20/unionCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8EBX", [
         [ "raw", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#abdd166af3a63f7be696dd17a218a6ffb", null ]
       ] ],
-      [ "CPUID0x40000000.EBX.__unnamed614__", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#d3/d1d/structCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8EBX_8____unnamed614____", [
+      [ "CPUID0x40000000.EBX.__unnamed611__", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#d4/da0/structCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8EBX_8____unnamed611____", [
         [ "Hypervisor", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#a09b32b25d85b43eb266f72114ffe17ce", null ]
       ] ],
       [ "CPUID0x40000000.ECX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#d9/df5/unionCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8ECX", [
         [ "raw", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#abdd166af3a63f7be696dd17a218a6ffb", null ]
       ] ],
-      [ "CPUID0x40000000.ECX.__unnamed616__", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#de/d79/structCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8ECX_8____unnamed616____", [
+      [ "CPUID0x40000000.ECX.__unnamed613__", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#d3/dbe/structCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8ECX_8____unnamed613____", [
         [ "Hypervisor", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#a09b32b25d85b43eb266f72114ffe17ce", null ]
       ] ],
       [ "CPUID0x40000000.EDX", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#dc/d8e/unionCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8EDX", [
         [ "raw", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#abdd166af3a63f7be696dd17a218a6ffb", null ]
       ] ],
-      [ "CPUID0x40000000.EDX.__unnamed618__", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#d3/d2a/structCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8EDX_8____unnamed618____", [
+      [ "CPUID0x40000000.EDX.__unnamed615__", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#de/dfb/structCPU_1_1x86_1_1Hypervisor_1_1CPUID0x40000000_8EDX_8____unnamed615____", [
         [ "Hypervisor", "d9/d5e/namespaceCPU_1_1x86_1_1Hypervisor.html#a09b32b25d85b43eb266f72114ffe17ce", null ]
       ] ]
     ] ],

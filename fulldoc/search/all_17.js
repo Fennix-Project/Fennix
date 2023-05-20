@@ -1,7 +1,7 @@
 var searchData=
 [
   ['u_19768',['U',['../de/d45/Userspace_2libc_2src_2print_2printf_8c.html#aa068905bf5228a7be958460b0f048d36',1,'double_with_bit_access']]],
-  ['u_19769',['u',['../db/d0a/tre_8h.html#aafd4baf574cb4d2c103f257070ce436a',1,'tnfa_transition::u()'],['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a472fc1dfe582f4b4efac2c6f8fa9b92b',1,'multiboot_info::u()'],['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a0baf89db690d3586dd8edfd345b8058f',1,'multiboot_info::u()']]],
+  ['u_19769',['u',['../db/d0a/tre_8h.html#a254583fe8eac3822415bda840aafbc8d',1,'tnfa_transition::u()'],['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a472fc1dfe582f4b4efac2c6f8fa9b92b',1,'multiboot_info::u()'],['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a0baf89db690d3586dd8edfd345b8058f',1,'multiboot_info::u()']]],
   ['u0_19770',['U0',['../de/d48/j1_8c.html#acc2a7d1db8de9f51a6817eef341e64d5',1,'U0():&#160;j1.c'],['../d2/deb/j1f_8c.html#ade7f8b84b0182a84c8da8ec11991fc5b',1,'U0():&#160;j1f.c']]],
   ['u0_19771',['u0',['../d3/d84/lgamma__r_8c.html#aea69f0325091359ce926f389279d7cb5',1,'u0():&#160;lgamma_r.c'],['../db/d56/lgammaf__r_8c.html#a555b5855f6b60dd54d09ac3ac4ed11b6',1,'u0():&#160;lgammaf_r.c']]],
   ['u00_19772',['u00',['../d3/d5e/j0_8c.html#a2134801eb7d2ed7c260505ce65e49841',1,'u00():&#160;j0.c'],['../da/d5e/j0f_8c.html#a5ba3922e3546b256f799f467aee7a2b5',1,'u00():&#160;j0f.c']]],

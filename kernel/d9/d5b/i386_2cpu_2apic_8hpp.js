@@ -3,7 +3,7 @@ var i386_2cpu_2apic_8hpp =
     [ "__packed", "d3/d88/namespaceAPIC.html#d5/d0e/unionAPIC_1_1____packed", [
       [ "raw", "d3/d88/namespaceAPIC.html#aace9fc1d515a705a6af03acb4f1f1353", null ],
       [ "split", "d3/d88/namespaceAPIC.html#ac0a7c3e3fca24f7ba480fd6b9a12f56c", null ],
-      [ "split", "d3/d88/namespaceAPIC.html#a9007bf05cac10457c3ca017c6028e1ee", null ]
+      [ "split", "d3/d88/namespaceAPIC.html#ae30d717ec9f340bba84c68b0bd6332eb", null ]
     ] ],
     [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ],
     [ "Timer", "df/d9c/classAPIC_1_1Timer.html", "df/d9c/classAPIC_1_1Timer" ],
@@ -24,7 +24,7 @@ var i386_2cpu_2apic_8hpp =
       [ "Software", "d3/d88/namespaceAPIC.html#a719d067b229178f03bcfa1da4ac4dede", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed50__", "d3/d88/namespaceAPIC.html#db/dcb/structAPIC_1_1____packed_8____unnamed50____", [
+    [ "__packed.__unnamed51__", "d3/d88/namespaceAPIC.html#d5/d26/structAPIC_1_1____packed_8____unnamed51____", [
       [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "DestinationMode", "d3/d88/namespaceAPIC.html#a74e856f5a8e178cf38ae4e7c58bc838d", null ],
@@ -40,7 +40,7 @@ var i386_2cpu_2apic_8hpp =
       [ "Destination", "d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244", null ],
       [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ]
     ] ],
-    [ "__packed.__unnamed55__", "d3/d88/namespaceAPIC.html#de/d7f/structAPIC_1_1____packed_8____unnamed55____", [
+    [ "__packed.__unnamed56__", "d3/d88/namespaceAPIC.html#d9/d6f/structAPIC_1_1____packed_8____unnamed56____", [
       [ "DeliveryMode", "d3/d88/namespaceAPIC.html#aeb79da102f438001347463ccc8315118", null ],
       [ "DeliveryStatus", "d3/d88/namespaceAPIC.html#a931d70b77ff2dfd286caf687e9dd1b30", null ],
       [ "DestinationID", "d3/d88/namespaceAPIC.html#a07e65844f6fd690118c864c2abbf0013", null ],

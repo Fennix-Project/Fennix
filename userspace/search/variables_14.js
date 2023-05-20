@@ -147,7 +147,7 @@ var searchData=
   ['translations_22459',['translations',['../de/d19/r__draw_8c.html#afe686e17a9a0149d7b0af7146183f36f',1,'r_draw.c']]],
   ['translationtables_22460',['translationtables',['../d4/da7/r__draw_8h.html#ab45e80d76223a6757a4dcf15e0c11637',1,'translationtables():&#160;r_draw.c'],['../de/d19/r__draw_8c.html#ab45e80d76223a6757a4dcf15e0c11637',1,'translationtables():&#160;r_draw.c']]],
   ['transp_22461',['transp',['../d8/d55/i__video_8c.html#a29c59b4d56660a4b0261402aedfa735d',1,'FB_ScreenInfo']]],
-  ['tre_5fmacros_22462',['tre_macros',['../d0/d86/regcomp_8c.html#aca9b5edcdfa0711eb854174df7ff9514',1,'regcomp.c']]],
+  ['tre_5fmacros_22462',['tre_macros',['../d0/d86/regcomp_8c.html#a21b5810ee26750a6209342dcddf81147',1,'regcomp.c']]],
   ['tre_5fparse_5fctx_5ft_22463',['tre_parse_ctx_t',['../d0/d86/regcomp_8c.html#a15b75d8c88e55a8b2d731afcad3e498b',1,'regcomp.c']]],
   ['triangle_5fguy_22464',['triangle_guy',['../db/de2/am__map_8c.html#a880c17bdec4795746e6634ba03a5882e',1,'am_map.c']]],
   ['tries_22465',['tries',['../da/d74/netrom_8h.html#a843bb97772c8368401bc5d365bb7deb2',1,'nr_parms_struct']]],

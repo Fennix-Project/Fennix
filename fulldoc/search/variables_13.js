@@ -422,7 +422,7 @@ var searchData=
   ['speed_32106',['Speed',['../d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8',1,'SMBIOS::SMBIOSMemoryDevice']]],
   ['speed_32107',['speed',['../d4/d21/info_8h.html#a6225775325a042121dd8ad1caafeaf1b',1,'mobjinfo_t']]],
   ['splat_32108',['splat',['../d6/d23/wi__stuff_8c.html#a9113bdba15258bc45e9cbe77eca2c852',1,'wi_stuff.c']]],
-  ['split_32109',['split',['../d3/d88/namespaceAPIC.html#a9007bf05cac10457c3ca017c6028e1ee',1,'APIC::__packed::split()'],['../d3/d88/namespaceAPIC.html#ac0a7c3e3fca24f7ba480fd6b9a12f56c',1,'APIC::__packed::split()']]],
+  ['split_32109',['split',['../d3/d88/namespaceAPIC.html#a09ab6bb3d83f7633f8a4f884dcbcb16d',1,'APIC::__packed::split()'],['../d3/d88/namespaceAPIC.html#ac0a7c3e3fca24f7ba480fd6b9a12f56c',1,'APIC::__packed::split()']]],
   ['sprbottomclip_32110',['sprbottomclip',['../dd/d76/r__defs_8h.html#a9d9041e138f40fc097b55e9514e40c9b',1,'drawseg_s']]],
   ['sprev_32111',['sprev',['../df/d05/p__mobj_8h.html#afd6475e62472a0e5fec38c48157c6598',1,'mobj_s']]],
   ['sprintf_32112',['sprintf',['../d5/de3/structKernelAPI_1_1KAPIUtilities.html#a2f220f805307c1dcf9baef2ea8dd3033',1,'KernelAPI::KAPIUtilities::sprintf()'],['../d2/d58/structKAPIUtilities.html#ad421c573f3326f4ce2d8d7322ff7abfc',1,'KAPIUtilities::sprintf()']]],

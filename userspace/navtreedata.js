@@ -42,8 +42,8 @@ var NAVTREE =
     [ "mlibc is a C standard library", "d5/d4a/md_Userspace_mlibc_README.html", [
       [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md12", null ],
       [ "Porting mlibc to a new OS", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md13", null ],
-      [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md14", null ],
-      [ "Running Tests", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md15", null ]
+      [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md15", null ],
+      [ "Running Tests", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md16", null ]
     ] ],
     [ "Versioning", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html", [
       [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md17", null ]
