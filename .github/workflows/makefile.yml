@@ -159,7 +159,7 @@ jobs:
       run: |
         make build_lynx
         make build_userspace
-        make build_drivers
+        make build_modules
         make build_kernel
         make build_userspace
 
