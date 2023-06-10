@@ -1,7 +1,7 @@
 var searchData=
 [
   ['s_5832',['S',['../d7/d6c/md5_8c.html#ad027248bcb51afd36a14242edabc3567',1,'md5.c']]],
-  ['s32_5833',['s32',['../d0/d18/ArithmeticOperations_8c.html#af7b60d8fd7874bd17b5a1aa5e686a0d1',1,'arith64_word']]],
+  ['s32_5833',['s32',['../d0/d18/ArithmeticOperations_8c.html#a28eebac60024097fce16525bf928317d',1,'arith64_word']]],
   ['s4bios_5freq_5834',['S4BIOS_REQ',['../d3/d21/classACPI_1_1ACPI.html#a0e2bb432ee50553435cf9811c6edbf23',1,'ACPI::ACPI::FADTHeader']]],
   ['s64_5835',['s64',['../d0/d18/ArithmeticOperations_8c.html#ae05a2ca8fb9ebfd35615d32938fb4aa3',1,'arith64_word']]],
   ['safefunction_5836',['SafeFunction',['../d6/de6/include_2types_8h.html#a72459587db2f8ad7625b1814b20fff25',1,'types.h']]],
@@ -370,7 +370,7 @@ var searchData=
   ['speed_6199',['Speed',['../d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8',1,'SMBIOS::SMBIOSMemoryDevice']]],
   ['speed_5fselection_5flsb_6200',['SPEED_SELECTION_LSB',['../d5/d83/namespaceGigabit.html#ae52361bc31e5a91459ad8ff4630cab07a10657d61692f7bbb31257cb60ddbc6f6',1,'Gigabit']]],
   ['speed_5fselection_5fmsb_6201',['SPEED_SELECTION_MSB',['../d5/d83/namespaceGigabit.html#ae52361bc31e5a91459ad8ff4630cab07aef443b937477f8ec1ad427d50435ef88',1,'Gigabit']]],
-  ['split_6202',['split',['../d3/d88/namespaceAPIC.html#ae30d717ec9f340bba84c68b0bd6332eb',1,'APIC::__packed::split()'],['../d3/d88/namespaceAPIC.html#ac0a7c3e3fca24f7ba480fd6b9a12f56c',1,'APIC::__packed::split()']]],
+  ['split_6202',['split',['../d3/d88/namespaceAPIC.html#a9007bf05cac10457c3ca017c6028e1ee',1,'APIC::__packed::split()'],['../d3/d88/namespaceAPIC.html#ac0a7c3e3fca24f7ba480fd6b9a12f56c',1,'APIC::__packed::split()']]],
   ['sprintf_6203',['sprintf',['../d2/d58/structKAPIUtilities.html#ad421c573f3326f4ce2d8d7322ff7abfc',1,'KAPIUtilities::sprintf()'],['../d3/d6b/printf_8h.html#a77dac04ed12a16543832b623c7778729',1,'sprintf(char *s, const char *format,...) ATTR_PRINTF(2:&#160;printf.h'],['../d1/d3d/printf_8c.html#ae36c4273382c327ff2f6e10572862539',1,'sprintf(char *s, const char *format,...):&#160;printf.c'],['../d5/de3/structKernelAPI_1_1KAPIUtilities.html#a2f220f805307c1dcf9baef2ea8dd3033',1,'KernelAPI::KAPIUtilities::sprintf()']]],
   ['spsr_5fel1_6204',['spsr_el1',['../dc/dce/namespaceaarch64.html#ab471758b41b88fb7020d39f0ea1705da',1,'aarch64::TrapFrame']]],
   ['sqrtf_6205',['sqrtf',['../d3/d82/convert_8h.html#a46c9a8d40cde7c4d5ab40a67e55316bb',1,'sqrtf(float x):&#160;Convert.cpp'],['../d0/dc7/Convert_8cpp.html#a1963ae9763b306b055a2488f704ee431',1,'sqrtf(float x):&#160;Convert.cpp']]],

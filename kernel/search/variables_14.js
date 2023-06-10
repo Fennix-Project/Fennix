@@ -2,8 +2,8 @@ var searchData=
 [
   ['u_11803',['u',['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a0baf89db690d3586dd8edfd345b8058f',1,'multiboot_info']]],
   ['u_11804',['U',['../d1/d3d/printf_8c.html#aa068905bf5228a7be958460b0f048d36',1,'double_with_bit_access']]],
-  ['u_11805',['u',['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a303b516125f9309ac4e8890501811c9e',1,'multiboot_info']]],
-  ['u32_11806',['u32',['../d0/d18/ArithmeticOperations_8c.html#a25b04e991e65fb379f75549848729947',1,'arith64_word']]],
+  ['u_11805',['u',['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a472fc1dfe582f4b4efac2c6f8fa9b92b',1,'multiboot_info']]],
+  ['u32_11806',['u32',['../d0/d18/ArithmeticOperations_8c.html#a2a9e8caf8b26f81fc4e46818d5e8aee3',1,'arith64_word']]],
   ['u64_11807',['u64',['../d0/d18/ArithmeticOperations_8c.html#ad192cbe21090ac61ed87ab8fefea7fd8',1,'arith64_word']]],
   ['udpsocket_11808',['UDPSocket',['../db/dd7/classNetworkDHCP_1_1DHCP.html#a939c5d23e0416d2dbd0a2648da91588a',1,'NetworkDHCP::DHCP::UDPSocket()'],['../db/d20/classNetworkDNS_1_1DNS.html#ae037ed964f012da6c229f429631f4fcb',1,'NetworkDNS::DNS::UDPSocket()'],['../d7/d0d/classNetworkNTP_1_1NTP.html#a5192088403a91dc436562df67a14f69d',1,'NetworkNTP::NTP::UDPSocket()'],['../dd/df9/namespaceNetworkUDP.html#adc94a9191fb05532c10564d446300bf9',1,'NetworkUDP::EventInfo::UDPSocket()']]],
   ['uid_11809',['uid',['../d3/d26/classVirtualFileSystem_1_1USTAR.html#a5c6fac2a28b1bf11f66b598afd1cadd4',1,'VirtualFileSystem::USTAR::FileHeader']]],

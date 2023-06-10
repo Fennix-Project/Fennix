@@ -62,13 +62,13 @@ var NAVTREE =
       [ "Version 3", "db/d7b/md_Userspace_mlibc_ABI_BREAKS.html#autotoc_md35", null ]
     ] ],
     [ "mlibc is a C standard library", "d5/d4a/md_Userspace_mlibc_README.html", [
-      [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md38", null ],
-      [ "Porting mlibc to a new OS", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md39", null ],
-      [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md40", null ],
+      [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md39", null ],
+      [ "Porting mlibc to a new OS", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md40", null ],
+      [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md41", null ],
       [ "Running Tests", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md42", null ]
     ] ],
     [ "Versioning", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html", [
-      [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md41", null ]
+      [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md38", null ]
     ] ],
     [ "Userspace", "d1/df9/md_Userspace_README.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -159,7 +159,7 @@ var NAVTREEINDEX =
 "d3/d82/x32_2msr_8hpp.html#a6c41656dc4a6f098c79385cfedda7ff6a2a8f0e1fd2d620a78a3f281ebf08735c",
 "d3/d82/x32_2msr_8hpp.html#a6c41656dc4a6f098c79385cfedda7ff6add6b554816b5f95f07242cc22cc743b0",
 "d3/d88/namespaceAPIC.html#a655d20c1ca69519ca647684edbb2db35",
-"d3/d88/namespaceAPIC.html#d7/dff/structAPIC_1_1____packed_8____unnamed25____",
+"d3/d88/namespaceAPIC.html#d8/dd9/structAPIC_1_1____packed_8____unnamed48____",
 "d3/db6/unwind_8h.html#a26f33dc6f6d23dc64517389b6b786ac2a9fd826377b4f2f85771d886c1a4ce37b",
 "d3/dc8/abis_2mlibc_2termios_8h.html#a78d4cc663609cb874010fab6adb4ec51",
 "d3/de8/sysdeps_2managarm_2include_2abi-bits_2statvfs_8h.html#a3400d89a2627d6313da0cb39ff6209ec",
@@ -239,7 +239,7 @@ var NAVTREEINDEX =
 "d9/ded/libm_8h.html#a74b9d725010569181645dd73c774760b",
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a1392212494c662dd497cc341798831b0",
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a442c2e401a3d0f346ab29cc043fa9467",
-"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a7ac6c437e3d6d8896f14840c43bd2c95",
+"d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a7b5a834c924089609a5d681baca88449",
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a91ba153b3a685e2d55e3c8d0ceecc1bb",
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aabb931f37b88685de3ef13a26038097b",
 "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#acfaba126e0a866017e131151da171d46",
@@ -248,7 +248,7 @@ var NAVTREEINDEX =
 "da/d15/UndefinedBehaviorSanitization_8c.html#abb924263d0e1c89539c1a63a24a9f34a",
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#a63b0727cb48c60da1a4f12f995db8dd0",
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#abdd166af3a63f7be696dd17a218a6ffb",
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#d5/d82/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__11_8EBX_8____unnamed358____",
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#d5/d90/unionCPU_1_1x86_1_1AMD_1_1CPUID0x8000001F_8EAX",
 "da/d24/structInternetProtocol_1_1Version6.html#aa3261401ddb24f349a8bdf1b8c17ecd6",
 "da/d5f/namespaceSMBIOS.html#a821b8d475eadb2cc8ceff8c3f6b863aeae2346ee8b4ab2ab577c96af8e5c99a00",
 "da/d80/Userspace_2mlibc_2sysdeps_2dripos_2include_2abi-bits_2stat_8h.html#a5303f49f26293acdb9533756c78322fb",
@@ -303,7 +303,7 @@ var NAVTREEINDEX =
 "de/d78/namespaceCPU_1_1x32.html#a6c41656dc4a6f098c79385cfedda7ff6a21ce0673863588bc8b6839d0a63070aa",
 "de/d78/namespaceCPU_1_1x32.html#a6c41656dc4a6f098c79385cfedda7ff6ad3772bc4d9ff6b9e10bc6b78406ed896",
 "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a119a26b7bd803a27abf89d15ef25fe9a",
-"de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a6d7738414c711bc099c805a902cc5951",
+"de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a6f3edca7f3d7f79e6df9dc3a6d3f6b8b",
 "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87",
 "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#da/d47/structin6__pktinfo",
 "de/da4/riscv64_2syscallnos_8h.html#a177250184281077b034475c20b2892d8",
@@ -315,7 +315,7 @@ var NAVTREEINDEX =
 "df/d19/scsi__ioctl_8h_source.html",
 "df/d33/mlibc_2sysdeps_2aero_2include_2abi-bits_2fcntl_8h.html#ad623014f05ffb83df42ba96900fcd62e",
 "df/d38/d__englsh_8h.html#aaf8b14aa19c4c8eba34541d8cfb65db8",
-"df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a56f1f9975d88f768d7928b0ed587ef38",
+"df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a5b508cacf6662e4bc0e98ffe1eb61636",
 "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aed64e7dede5f8150f10457c420b48416",
 "df/d53/Userspace_2libc_2include_2errno_8h.html#a9e655f47bfd914a1174f281fc31cf63d",
 "df/d74/posix-sysdeps_8hpp.html#abbdab8357f7e8e2ec5a3ae16fb72a607",

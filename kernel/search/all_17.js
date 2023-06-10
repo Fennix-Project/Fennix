@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['u_6994',['u',['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a303b516125f9309ac4e8890501811c9e',1,'multiboot_info::u()'],['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a0baf89db690d3586dd8edfd345b8058f',1,'multiboot_info::u()']]],
+  ['u_6994',['u',['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a472fc1dfe582f4b4efac2c6f8fa9b92b',1,'multiboot_info::u()'],['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a0baf89db690d3586dd8edfd345b8058f',1,'multiboot_info::u()']]],
   ['u_6995',['U',['../d1/d3d/printf_8c.html#aa068905bf5228a7be958460b0f048d36',1,'double_with_bit_access']]],
-  ['u32_6996',['u32',['../d0/d18/ArithmeticOperations_8c.html#a25b04e991e65fb379f75549848729947',1,'arith64_word']]],
+  ['u32_6996',['u32',['../d0/d18/ArithmeticOperations_8c.html#a2a9e8caf8b26f81fc4e46818d5e8aee3',1,'arith64_word']]],
   ['u32tohexstring_6997',['u32ToHexString',['../d1/d62/namespacePCI_1_1Descriptors.html#a1b4b7950199fc112872f022d9fd71768',1,'PCI::Descriptors']]],
   ['u64_6998',['u64',['../d0/d18/ArithmeticOperations_8c.html#ad192cbe21090ac61ed87ab8fefea7fd8',1,'arith64_word']]],
   ['u8tohexstring_6999',['u8ToHexString',['../d1/d62/namespacePCI_1_1Descriptors.html#afe2709a6476a1c52d59a62c3141e44dd',1,'PCI::Descriptors']]],
