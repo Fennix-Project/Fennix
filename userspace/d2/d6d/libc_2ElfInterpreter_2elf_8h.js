@@ -269,6 +269,5 @@ var libc_2ElfInterpreter_2elf_8h =
       [ "PT_HISUNW", "d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2abd2ab1a79917a2fd28e9ff22f1b0d573", null ],
       [ "PT_LOPROC", "d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a20f5617084b54d26ae506ce9dabf3dc5", null ],
       [ "PT_HIPROC", "d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a384e8634c1aa98561199b04d3f49a48b", null ]
-    ] ],
-    [ "ELFGetDynamicTag", "d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ab13e78e154557396c210e860d3057f78", null ]
+    ] ]
 ];

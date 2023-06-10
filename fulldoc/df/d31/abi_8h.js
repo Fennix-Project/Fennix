@@ -3,14 +3,14 @@ var abi_8h =
     [ "Elf32_auxv_t", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t", [
       [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ab6d0fd7066a8703da6fa658d3c0c085d", null ],
       [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a96cab7a477b37cfc6c2ced56a5e7bfa4", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a2421ffe79ef3af7c224ad67e751bb146", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aad1f6ba45d9cae4ae27cb1f839bc814f", null ]
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aea40a9598ba912d4aaf91c75f9aa9897", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aef6e9e7ad0b08a5fd58d6ad50e19ca88", null ]
     ] ],
     [ "Elf64_auxv_t", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d9/de7/structElf64__auxv__t", [
       [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
       [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a4bdd1810c49ddb4bab1e11c18c68e8e3", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#af2720eb3f3095bb814ea0e1c122b1c2f", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a77c5151e36d41a7363b825cc906a5972", null ]
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ab962700601894f34e4b584aa810d4d51", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a19dec30ed5f69db02bbcf72179054b0c", null ]
     ] ],
     [ "AuxiliaryVector", "df/d31/abi_8h.html#db/d1d/structAuxiliaryVector", null ],
     [ "Elf32_auxv_t.a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un", [

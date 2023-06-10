@@ -97,6 +97,7 @@ $(document).ready(function(){initNavTree('d1/df3/options_2linux_2include_2sys_2e
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &lt;abi-bits/signal.h&gt;</code><br />
 <code>#include &lt;abi-bits/epoll.h&gt;</code><br />
+<code>#include &lt;abi-bits/fcntl.h&gt;</code><br />
 </div>
 <p><a href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -109,6 +110,8 @@ Data Structures</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:adc4ef5b287477490cfb888ad47e912c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h.html#adc4ef5b287477490cfb888ad47e912c3">EPOLL_NONBLOCK</a>&#160;&#160;&#160;<a class="el" href="../../d3/d72/mlibc_2sysdeps_2managarm_2include_2abi-bits_2fcntl_8h.html#a39d33ce33804efd4d52606d59071c6d8">O_NONBLOCK</a></td></tr>
+<tr class="separator:adc4ef5b287477490cfb888ad47e912c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9473bb25876648bb51926e6723802982"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h.html#a9473bb25876648bb51926e6723802982">EPOLLIN</a>&#160;&#160;&#160;0x001</td></tr>
 <tr class="separator:a9473bb25876648bb51926e6723802982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af76a4ccb6d42cfdf3ff7d5ac5a971834"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h.html#af76a4ccb6d42cfdf3ff7d5ac5a971834">EPOLLPRI</a>&#160;&#160;&#160;0x002</td></tr>
@@ -177,7 +180,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00033">33</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00036">36</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -220,7 +223,7 @@ u64</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00040">40</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00043">43</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -252,7 +255,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00025">25</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00028">28</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -268,7 +271,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00026">26</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00029">29</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -284,7 +287,23 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00027">27</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00030">30</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+
+</div>
+</div>
+<a id="adc4ef5b287477490cfb888ad47e912c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc4ef5b287477490cfb888ad47e912c3">&#9670;&nbsp;</a></span>EPOLL_NONBLOCK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EPOLL_NONBLOCK&#160;&#160;&#160;<a class="el" href="../../d3/d72/mlibc_2sysdeps_2managarm_2include_2abi-bits_2fcntl_8h.html#a39d33ce33804efd4d52606d59071c6d8">O_NONBLOCK</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00009">9</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -300,7 +319,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00017">17</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00020">20</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -316,7 +335,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00023">23</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00026">26</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -332,7 +351,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00020">20</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00023">23</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -348,7 +367,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00018">18</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00021">21</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -364,7 +383,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00009">9</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00012">12</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -380,7 +399,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00016">16</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00019">19</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -396,7 +415,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00022">22</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00025">25</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -412,7 +431,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00011">11</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00014">14</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -428,7 +447,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00010">10</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00013">13</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -444,7 +463,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00013">13</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00016">16</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -460,7 +479,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00019">19</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00022">22</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -476,7 +495,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00012">12</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00015">15</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +511,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00021">21</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00024">24</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -508,7 +527,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00015">15</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00018">18</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -524,7 +543,7 @@ events</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00014">14</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html#l00017">17</a> of file <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h_source.html">epoll.h</a>.</p>
 
 </div>
 </div>
@@ -571,11 +590,11 @@ events</td>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d49/utmp-stubs_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno.h:152</a></div></div>
-<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00024">ensure.h:24</a></div></div>
+<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00028">ensure.h:28</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a2ecb2f05584e975e14ec400471c29134"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a2ecb2f05584e975e14ec400471c29134">mlibc::sys_epoll_create</a></div><div class="ttdeci">int sys_epoll_create(int flags, int *fd)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00320">filesystem.cpp:320</a></div></div>
 <div class="ttc" id="autmp-stubs_8cpp_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="../../dd/d49/utmp-stubs_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">static int fd</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">utmp-stubs.cpp:19</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00320">mlibc::sys_epoll_create()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00320">mlibc::sys_epoll_create()</a>.</p>
 
 </div>
 </div>
@@ -607,7 +626,7 @@ events</td>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
 <div class="ttc" id="anamespacemlibc_html_ab23074ec2cdf531bdcbd6bcc91e90e12"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#ab23074ec2cdf531bdcbd6bcc91e90e12">mlibc::flags</a></div><div class="ttdeci">void int int flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/aero_8cpp_source.html#l00297">aero.cpp:297</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::flags</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00320">mlibc::sys_epoll_create()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::flags</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00320">mlibc::sys_epoll_create()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00396">mlibc::sys_pselect()</a>.</p>
 
@@ -662,7 +681,7 @@ events</td>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
 <div class="ttc" id="anamespacemlibc_html_ae1339e9c8f0c36f8f4d37d7e30e5dec7"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#ae1339e9c8f0c36f8f4d37d7e30e5dec7">mlibc::sys_epoll_ctl</a></div><div class="ttdeci">int sys_epoll_ctl(int epfd, int mode, int fd, struct epoll_event *ev)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00331">filesystem.cpp:331</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00331">mlibc::sys_epoll_ctl()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00331">mlibc::sys_epoll_ctl()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00396">mlibc::sys_pselect()</a>.</p>
 
@@ -722,12 +741,12 @@ events</td>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">return</span> raised;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
-<div class="ttc" id="anamespacemlibc_html_a5c93429fcae7b65ebf85d188e46818d2"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a5c93429fcae7b65ebf85d188e46818d2">mlibc::timeout</a></div><div class="ttdeci">int int *STUB_ONLY int fd_set fd_set fd_set const struct timespec * timeout</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00127">generic.cpp:127</a></div></div>
-<div class="ttc" id="anamespacemlibc_html_a5da01558eaa71dec83aee80def067186"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a5da01558eaa71dec83aee80def067186">mlibc::sigmask</a></div><div class="ttdeci">int int *STUB_ONLY int fd_set fd_set fd_set const struct timespec const sigset_t * sigmask</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00128">generic.cpp:128</a></div></div>
+<div class="ttc" id="anamespacemlibc_html_a5c93429fcae7b65ebf85d188e46818d2"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a5c93429fcae7b65ebf85d188e46818d2">mlibc::timeout</a></div><div class="ttdeci">int int *STUB_ONLY int fd_set fd_set fd_set const struct timespec * timeout</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00142">generic.cpp:142</a></div></div>
+<div class="ttc" id="anamespacemlibc_html_a5da01558eaa71dec83aee80def067186"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a5da01558eaa71dec83aee80def067186">mlibc::sigmask</a></div><div class="ttdeci">int int *STUB_ONLY int fd_set fd_set fd_set const struct timespec const sigset_t * sigmask</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00143">generic.cpp:143</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_afaa2a0eb7ba7a8b34c6dd4fbaf83466a"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#afaa2a0eb7ba7a8b34c6dd4fbaf83466a">mlibc::sys_epoll_pwait</a></div><div class="ttdeci">int sys_epoll_pwait(int epfd, struct epoll_event *ev, int n, int timeout, const sigset_t *sigmask, int *raised)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00341">filesystem.cpp:341</a></div></div>
 <div class="ttc" id="aposix__stdlib_8cpp_html_a76f11d9a0a47b94f72c2d0e77fb32240"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a></div><div class="ttdeci">static int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00035">posix_stdlib.cpp:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00035">n</a>, <a class="el" href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00128">mlibc::sigmask</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00341">mlibc::sys_epoll_pwait()</a>, and <a class="el" href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00127">mlibc::timeout</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00035">n</a>, <a class="el" href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00143">mlibc::sigmask</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00341">mlibc::sys_epoll_pwait()</a>, and <a class="el" href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00142">mlibc::timeout</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00396">mlibc::sys_pselect()</a>.</p>
 
@@ -783,7 +802,7 @@ events</td>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
 <div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00035">n</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00341">mlibc::sys_epoll_pwait()</a>, and <a class="el" href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00127">mlibc::timeout</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00035">n</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00341">mlibc::sys_epoll_pwait()</a>, and <a class="el" href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00142">mlibc::timeout</a>.</p>
 
 </div>
 </div>

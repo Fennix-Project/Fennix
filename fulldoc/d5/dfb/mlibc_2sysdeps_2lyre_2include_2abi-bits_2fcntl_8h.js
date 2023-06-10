@@ -1,5 +1,9 @@
 var mlibc_2sysdeps_2lyre_2include_2abi_bits_2fcntl_8h =
 [
+    [ "f_owner_ex", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#d2/dd7/structf__owner__ex", [
+      [ "pid", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#af64f49cc3f3024dce2031477aa13d8f7", null ],
+      [ "type", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#afd32d7286d5aba4fb1ba922d58591997", null ]
+    ] ],
     [ "AT_EACCESS", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#afba18be015711a5c496d49a1387bd412", null ],
     [ "AT_EMPTY_PATH", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#a8e97dad5f7f075f61d80766d9fb69216", null ],
     [ "AT_FDCWD", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216", null ],
@@ -55,5 +59,11 @@ var mlibc_2sysdeps_2lyre_2include_2abi_bits_2fcntl_8h =
     [ "O_SYNC", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#aae85139bfa94236d126bb1e3b772998f", null ],
     [ "O_TMPFILE", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#a45d7d635756f7b0d8fb0b5e639dd6dcb", null ],
     [ "O_TRUNC", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#ad1d67e453fb3031f40f8cd3403773813", null ],
-    [ "O_WRONLY", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#a11b644a8526139c4cc1850dac1271ced", null ]
+    [ "O_WRONLY", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#a11b644a8526139c4cc1850dac1271ced", null ],
+    [ "POSIX_FADV_DONTNEED", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#a088883d3ba2ef3135e249427b897c650", null ],
+    [ "POSIX_FADV_NOREUSE", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#a4e3faf88d9b26f7cff31148b4f484149", null ],
+    [ "POSIX_FADV_NORMAL", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#afa2732611a1cf71fcf542361a97a4745", null ],
+    [ "POSIX_FADV_RANDOM", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#aae17e2b1aa1265c588e04df5ec81c3d1", null ],
+    [ "POSIX_FADV_SEQUENTIAL", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#a997e00c0569d307a3f01a2f21517ee84", null ],
+    [ "POSIX_FADV_WILLNEED", "d5/dfb/mlibc_2sysdeps_2lyre_2include_2abi-bits_2fcntl_8h.html#a4ba20512b0198da87b7d5176767ec29e", null ]
 ];

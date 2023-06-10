@@ -8,6 +8,7 @@ var posix__signal_8cpp =
     [ "sigaltstack", "d5/dd4/posix__signal_8cpp.html#a1de473516b609718e256ee8a503c25fb", null ],
     [ "siginterrupt", "d5/dd4/posix__signal_8cpp.html#a5d5adc4eb4b54c2ce456db2c36905322", null ],
     [ "sigpending", "d5/dd4/posix__signal_8cpp.html#a09557fedb21522e430dc384d86ccd73d", null ],
+    [ "sigqueue", "d5/dd4/posix__signal_8cpp.html#a5fb870688f5c45951354c071e8c81abd", null ],
     [ "sigsuspend", "d5/dd4/posix__signal_8cpp.html#a20d9f879bbe69c79f62bd3813fcc1e63", null ],
     [ "sigtimedwait", "d5/dd4/posix__signal_8cpp.html#a155a526c3da5ffd1a79ba2925bdd278a", null ],
     [ "sigwait", "d5/dd4/posix__signal_8cpp.html#a900d91a9635b965dbbae6b3cee2d2a2b", null ],

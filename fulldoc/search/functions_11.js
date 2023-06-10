@@ -1,12 +1,14 @@
 var searchData=
 [
-  ['qone_26671',['qone',['../de/d48/j1_8c.html#a93e1e2e8b833f5fe8c47c7ef05a0c1ff',1,'j1.c']]],
-  ['qonef_26672',['qonef',['../d2/deb/j1f_8c.html#a38c6321a50fdc5b5849ba87076f98462',1,'j1f.c']]],
-  ['qsort_26673',['qsort',['../de/dc7/stdlib-stubs_8cpp.html#a7baa77417fb07090c87a98ae07ab34b6',1,'qsort(void *base, size_t count, size_t size, int(*compare)(const void *, const void *)):&#160;stdlib-stubs.cpp'],['../dd/d6a/Userspace_2mlibc_2options_2ansi_2include_2stdlib_8h.html#a7baa77417fb07090c87a98ae07ab34b6',1,'qsort(void *base, size_t count, size_t size, int(*compare)(const void *, const void *)):&#160;stdlib-stubs.cpp']]],
-  ['qsort_5fr_26674',['qsort_r',['../de/dc7/stdlib-stubs_8cpp.html#adcfa8fd8bac711519942df808ac2481c',1,'qsort_r(void *, size_t, size_t, int(*compare)(const void *, const void *, void *), void *):&#160;stdlib-stubs.cpp'],['../dd/d6a/Userspace_2mlibc_2options_2ansi_2include_2stdlib_8h.html#a108744e70f6e2ca952e88277145d5346',1,'qsort_r(void *base, size_t nmemb, size_t size, int(*compar)(const void *, const void *, void *), void *arg):&#160;stdlib-stubs.cpp']]],
-  ['query_5flocale_5fdescription_26675',['query_locale_description',['../d0/d9a/namespacemlibc.html#ab714c7ebba5f955055722a0b0c40d883',1,'mlibc']]],
-  ['queue_26676',['Queue',['../d1/daf/structQueue.html#a7cfca3637d57c4a9e37351b3426ffd40',1,'Queue::Queue()'],['../d1/daf/structQueue.html#a7a63a6fa59a5522f5a4798a17382ebe7',1,'Queue::Queue(const Queue &amp;)=delete'],['../d1/daf/structQueue.html#a7cfca3637d57c4a9e37351b3426ffd40',1,'Queue::Queue()'],['../d1/daf/structQueue.html#a7a63a6fa59a5522f5a4798a17382ebe7',1,'Queue::Queue(const Queue &amp;)=delete']]],
-  ['quick_5fexit_26677',['quick_exit',['../de/dc7/stdlib-stubs_8cpp.html#a23dedd391d64094816798370fe84e25a',1,'stdlib-stubs.cpp']]],
-  ['qzero_26678',['qzero',['../d3/d5e/j0_8c.html#ac683d4a9b95da2614f43561eb81d8b82',1,'j0.c']]],
-  ['qzerof_26679',['qzerof',['../da/d5e/j0f_8c.html#aa19218ef104d6cc945c22606ef8d1973',1,'j0f.c']]]
+  ['qone_27862',['qone',['../de/d48/j1_8c.html#a93e1e2e8b833f5fe8c47c7ef05a0c1ff',1,'j1.c']]],
+  ['qonef_27863',['qonef',['../d2/deb/j1f_8c.html#a38c6321a50fdc5b5849ba87076f98462',1,'j1f.c']]],
+  ['qsort_27864',['qsort',['../de/dc7/stdlib-stubs_8cpp.html#a7baa77417fb07090c87a98ae07ab34b6',1,'qsort(void *base, size_t count, size_t size, int(*compare)(const void *, const void *)):&#160;stdlib-stubs.cpp'],['../dd/d6a/Userspace_2mlibc_2options_2ansi_2include_2stdlib_8h.html#a7baa77417fb07090c87a98ae07ab34b6',1,'qsort(void *base, size_t count, size_t size, int(*compare)(const void *, const void *)):&#160;stdlib-stubs.cpp']]],
+  ['qsort_5fcallback_27865',['qsort_callback',['../de/dc7/stdlib-stubs_8cpp.html#a41937f0919e5499636cd6b9e7c4f6e74',1,'stdlib-stubs.cpp']]],
+  ['qsort_5fr_27866',['qsort_r',['../dd/d6a/Userspace_2mlibc_2options_2ansi_2include_2stdlib_8h.html#a108744e70f6e2ca952e88277145d5346',1,'qsort_r(void *base, size_t nmemb, size_t size, int(*compar)(const void *, const void *, void *), void *arg):&#160;stdlib-stubs.cpp'],['../de/dc7/stdlib-stubs_8cpp.html#a7f15c981cbdcb6408069ed30d2b67b0d',1,'qsort_r(void *base, size_t count, size_t size, int(*compare)(const void *, const void *, void *), void *arg):&#160;stdlib-stubs.cpp']]],
+  ['query_5flocale_5fdescription_27867',['query_locale_description',['../d0/d9a/namespacemlibc.html#ab714c7ebba5f955055722a0b0c40d883',1,'mlibc']]],
+  ['queue_27868',['Queue',['../d1/daf/structQueue.html#a7a63a6fa59a5522f5a4798a17382ebe7',1,'Queue::Queue(const Queue &amp;)=delete'],['../d1/daf/structQueue.html#a7a63a6fa59a5522f5a4798a17382ebe7',1,'Queue::Queue(const Queue &amp;)=delete'],['../d1/daf/structQueue.html#a7cfca3637d57c4a9e37351b3426ffd40',1,'Queue::Queue()'],['../d1/daf/structQueue.html#a7cfca3637d57c4a9e37351b3426ffd40',1,'Queue::Queue()']]],
+  ['quick_5fexit_27869',['quick_exit',['../de/dc7/stdlib-stubs_8cpp.html#a23dedd391d64094816798370fe84e25a',1,'stdlib-stubs.cpp']]],
+  ['quotactl_27870',['quotactl',['../d4/d7f/sys-quota_8cpp.html#ad4670c5d5d98dc1b370e204cf4c17928',1,'quotactl(int, const char *, int, caddr_t):&#160;sys-quota.cpp'],['../db/ddb/quota_8h.html#a362c38cfa830b63a12c1d0bfe8219d7f',1,'quotactl(int cmd, const char *special, int id, caddr_t addr):&#160;sys-quota.cpp']]],
+  ['qzero_27871',['qzero',['../d3/d5e/j0_8c.html#ac683d4a9b95da2614f43561eb81d8b82',1,'j0.c']]],
+  ['qzerof_27872',['qzerof',['../da/d5e/j0f_8c.html#aa19218ef104d6cc945c22606ef8d1973',1,'j0f.c']]]
 ];

@@ -177,9 +177,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d10/wait_8c_source.html#l00003">3</a> of file <a class="el" href="../../dd/d10/wait_8c_source.html">wait.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d10/wait_8c.html#a3b0bf87bfa87bef2f83452175a34bf2d">waitpid</a>(-1, &amp;wstatus, 0);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d10/wait_8c.html#a138fa78f4651ff0e359e3f2af5e44e0d">waitpid</a>(-1, &amp;wstatus, 0);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="await_8c_html_a3b0bf87bfa87bef2f83452175a34bf2d"><div class="ttname"><a href="../../dd/d10/wait_8c.html#a3b0bf87bfa87bef2f83452175a34bf2d">waitpid</a></div><div class="ttdeci">pid_t waitpid(pid_t pid, int *wstatus, int options)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d10/wait_8c_source.html#l00008">wait.c:8</a></div></div>
+<div class="ttc" id="await_8c_html_a138fa78f4651ff0e359e3f2af5e44e0d"><div class="ttname"><a href="../../dd/d10/wait_8c.html#a138fa78f4651ff0e359e3f2af5e44e0d">waitpid</a></div><div class="ttdeci">PUBLIC pid_t waitpid(pid_t pid, int *wstatus, int options)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d10/wait_8c_source.html#l00008">wait.c:8</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::status</a>, and <a class="el" href="../../d3/d10/sys-wait-stubs_8cpp_source.html#l00015">waitpid()</a>.</p>
 
@@ -282,14 +282,14 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
-<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00024">ensure.h:24</a></div></div>
+<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00028">ensure.h:28</a></div></div>
 <div class="ttc" id="alemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
-<div class="ttc" id="alibc_2include_2sys_2types_8h_html_a63bef27b1fbd4a91faa273a387a38dc2"><div class="ttname"><a href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a></div><div class="ttdeci">__pid_t pid_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5b/libc_2include_2sys_2types_8h_source.html#l00008">types.h:8</a></div></div>
+<div class="ttc" id="alibc_2include_2sys_2types_8h_html_a63bef27b1fbd4a91faa273a387a38dc2"><div class="ttname"><a href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a></div><div class="ttdeci">__pid_t pid_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5b/libc_2include_2sys_2types_8h_source.html#l00017">types.h:17</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a56016d1b3587cc741124d6a806dbb7aa"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a56016d1b3587cc741124d6a806dbb7aa">mlibc::ru</a></div><div class="ttdeci">void int int struct rusage * ru</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/aero_8cpp_source.html#l00297">aero.cpp:297</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_adf60879a0ff358564488dcc07bcaa803"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#adf60879a0ff358564488dcc07bcaa803">mlibc::sys_waitpid</a></div><div class="ttdeci">int sys_waitpid(pid_t pid, int *status, int flags, struct rusage *ru, pid_t *ret_pid)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00250">generic.cpp:250</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../d4/d81/m__menu_8c_source.html#l00234">options</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::ru</a>, <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::status</a>, and <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00250">mlibc::sys_waitpid()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../d4/d81/m__menu_8c_source.html#l00234">options</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::ru</a>, <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::status</a>, and <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00250">mlibc::sys_waitpid()</a>.</p>
 
 </div>
 </div>
@@ -335,7 +335,7 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00015">__ensure</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">__ensure</a>.</p>
 
 </div>
 </div>
@@ -375,7 +375,7 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::flags</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::status</a>, and <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00250">mlibc::sys_waitpid()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::flags</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::status</a>, and <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00250">mlibc::sys_waitpid()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d10/wait_8c_source.html#l00003">wait()</a>, and <a class="el" href="../../d3/d10/sys-wait-stubs_8cpp_source.html#l00033">wait3()</a>.</p>
 

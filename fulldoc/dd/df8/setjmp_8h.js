@@ -9,7 +9,7 @@ var setjmp_8h =
       [ "sigset", "dd/df8/setjmp_8h.html#adbef23e6c8e22a5664bce77d04f525bf", null ]
     ] ],
     [ "jmp_buf", "dd/df8/setjmp_8h.html#a879bc6138e8bf1cf36208c0edd75363e", null ],
-    [ "__attribute__", "dd/df8/setjmp_8h.html#a497fedfc861656d0dd6d18d6e15eb070", null ],
-    [ "__attribute__", "dd/df8/setjmp_8h.html#a7d57780d1128ffaff0c3be12b9cdc9b3", null ],
+    [ "__attribute__", "dd/df8/setjmp_8h.html#aba6c64b10f20c386d3f137c66c2a0cd4", null ],
+    [ "__attribute__", "dd/df8/setjmp_8h.html#a4f166596537794c405c24109a7534727", null ],
     [ "value", "dd/df8/setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed", null ]
 ];

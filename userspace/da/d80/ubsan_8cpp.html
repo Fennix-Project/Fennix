@@ -125,6 +125,8 @@ Data Structures</h2></td></tr>
 <tr class="separator:d9/dd0/structInvalidBuiltinData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d9/d8f/structVLABoundData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d80/ubsan_8cpp.html#d9/d8f/structVLABoundData">VLABoundData</a></td></tr>
 <tr class="separator:d9/d8f/structVLABoundData"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/d37/structNonNullArgData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d80/ubsan_8cpp.html#d4/d37/structNonNullArgData">NonNullArgData</a></td></tr>
+<tr class="separator:d4/d37/structNonNullArgData"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
@@ -179,6 +181,8 @@ Functions</h2></td></tr>
 <tr class="separator:a01e86c3d750f8ee8ea4c3fa816390ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c3fda202a614f7097de4e7d3629cd2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d80/ubsan_8cpp.html#a9c3fda202a614f7097de4e7d3629cd2a">__ubsan_handle_missing_return</a> (<a class="el" href="../../da/d80/ubsan_8cpp.html#d6/d82/structUnreachableData">UnreachableData</a> *data)</td></tr>
 <tr class="separator:a9c3fda202a614f7097de4e7d3629cd2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e2584560e89a0f1903b8c8a8aafddd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d80/ubsan_8cpp.html#a9e2584560e89a0f1903b8c8a8aafddd9">__ubsan_handle_nonnull_arg</a> (<a class="el" href="../../da/d80/ubsan_8cpp.html#d4/d37/structNonNullArgData">NonNullArgData</a> *data)</td></tr>
+<tr class="separator:a9e2584560e89a0f1903b8c8a8aafddd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d8/dab/structSourceLocation" id="d8/dab/structSourceLocation"></a>
@@ -503,6 +507,43 @@ loc</td>
 <a id="ad5010b5189da75d744993e71fc2a987a"></a>const <a class="el" href="../../df/d9e/structTypeDescriptor.html">TypeDescriptor</a> &amp;</td>
 <td class="fieldname">
 type</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d4/d37/structNonNullArgData" id="d4/d37/structNonNullArgData"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d4/d37/structNonNullArgData">&#9670;&nbsp;</a></span>NonNullArgData</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct NonNullArgData</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00242">242</a> of file <a class="el" href="../../da/d80/ubsan_8cpp_source.html">ubsan.cpp</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="aeb78f0e86e32fbaf4227cc932d997f0e"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<td class="fieldname">
+arg_index</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a980b473206f6a62cf8bf74cd3dea93c8"></a><a class="el" href="../../da/d80/ubsan_8cpp.html#d8/dab/structSourceLocation">SourceLocation</a></td>
+<td class="fieldname">
+attr_loc</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a146c34fe22127faf9ba84fd60416b340"></a><a class="el" href="../../da/d80/ubsan_8cpp.html#d8/dab/structSourceLocation">SourceLocation</a></td>
+<td class="fieldname">
+loc</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -910,6 +951,37 @@ type</td>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00128">OverflowData::loc</a>, <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00007">LOG_LHS_RHS</a>, <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00006">LOG_NAME_LOC</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00009">mlibc::panicLogger</a>, and <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00129">OverflowData::type</a>.</p>
+
+</div>
+</div>
+<a id="a9e2584560e89a0f1903b8c8a8aafddd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e2584560e89a0f1903b8c8a8aafddd9">&#9670;&nbsp;</a></span>__ubsan_handle_nonnull_arg()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void __ubsan_handle_nonnull_arg </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d80/ubsan_8cpp.html#d4/d37/structNonNullArgData">NonNullArgData</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00249">249</a> of file <a class="el" href="../../da/d80/ubsan_8cpp_source.html">ubsan.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                                                      {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <a class="code" href="../../d0/d9a/namespacemlibc.html#aa67893864417221ab1be56f6a26d7899">mlibc::panicLogger</a>()</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        &lt;&lt; <a class="code" href="../../da/d80/ubsan_8cpp.html#ab34ee3fcee8dcb4011d48c41701cceaa">LOG_NAME_LOC</a>(<span class="stringliteral">&quot;null pointer passed to non-null argument&quot;</span>, data-&gt;<a class="code" href="../../da/d80/ubsan_8cpp.html#a146c34fe22127faf9ba84fd60416b340">loc</a>)</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        &lt;&lt; <span class="stringliteral">&quot;argument &quot;</span> &lt;&lt; data-&gt;<a class="code" href="../../da/d80/ubsan_8cpp.html#aeb78f0e86e32fbaf4227cc932d997f0e">arg_index</a> &lt;&lt; <span class="stringliteral">&quot; is required to be non-null in &quot;</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        &lt;&lt; data-&gt;<a class="code" href="../../da/d80/ubsan_8cpp.html#a980b473206f6a62cf8bf74cd3dea93c8">attr_loc</a> &lt;&lt; frg::endlog;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;}</div>
+<div class="ttc" id="aubsan_8cpp_html_a146c34fe22127faf9ba84fd60416b340"><div class="ttname"><a href="../../da/d80/ubsan_8cpp.html#a146c34fe22127faf9ba84fd60416b340">NonNullArgData::loc</a></div><div class="ttdeci">SourceLocation loc</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/ubsan_8cpp_source.html#l00243">ubsan.cpp:243</a></div></div>
+<div class="ttc" id="aubsan_8cpp_html_a980b473206f6a62cf8bf74cd3dea93c8"><div class="ttname"><a href="../../da/d80/ubsan_8cpp.html#a980b473206f6a62cf8bf74cd3dea93c8">NonNullArgData::attr_loc</a></div><div class="ttdeci">SourceLocation attr_loc</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/ubsan_8cpp_source.html#l00244">ubsan.cpp:244</a></div></div>
+<div class="ttc" id="aubsan_8cpp_html_aeb78f0e86e32fbaf4227cc932d997f0e"><div class="ttname"><a href="../../da/d80/ubsan_8cpp.html#aeb78f0e86e32fbaf4227cc932d997f0e">NonNullArgData::arg_index</a></div><div class="ttdeci">int arg_index</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/ubsan_8cpp_source.html#l00245">ubsan.cpp:245</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00245">NonNullArgData::arg_index</a>, <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00244">NonNullArgData::attr_loc</a>, <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00243">NonNullArgData::loc</a>, <a class="el" href="../../da/d80/ubsan_8cpp_source.html#l00006">LOG_NAME_LOC</a>, and <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00009">mlibc::panicLogger</a>.</p>
 
 </div>
 </div>

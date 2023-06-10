@@ -39,6 +39,7 @@ var namespaceRecovery =
     [ "RebootCommandThread", "d2/d3b/namespaceRecovery.html#a3418cb1c3ff51440fd22361b659d2c30", null ],
     [ "RebootCommandWrapper", "d2/d3b/namespaceRecovery.html#afed8ead579d4427bd2ea556bbe60775e", null ],
     [ "RecoveryThreadWrapper", "d2/d3b/namespaceRecovery.html#a68e17f929da07be0342232e7ebb6da22", null ],
+    [ "ShellCommandWrapper", "d2/d3b/namespaceRecovery.html#af06183539407587390cdf535224a98f8", null ],
     [ "ShutdownCommandThread", "d2/d3b/namespaceRecovery.html#acbe17b004e599019348e61d4764f8c4c", null ],
     [ "ShutdownCommandWrapper", "d2/d3b/namespaceRecovery.html#a737551b302636f7ab7c2c48a89231314", null ],
     [ "AudioFile", "d2/d3b/namespaceRecovery.html#a2729eb86a7253d85ab17ac50266aead7", null ],

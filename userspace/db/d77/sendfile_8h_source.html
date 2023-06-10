@@ -99,14 +99,18 @@ $(document).ready(function(){initNavTree('db/d77/sendfile_8h_source.html','../..
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;unistd.h&gt;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<a class="code" href="../../df/d4c/ssize__t_8h.html#a831c6b6852c6d34448e30a88c34539fd">ssize_t</a> <a class="code" href="../../db/d77/sendfile_8h.html#a4265c05be46ad615d02386fad556ce54">sendfile</a>(<span class="keywordtype">int</span>, <span class="keywordtype">int</span>, <a class="code" href="../../dc/dcd/off__t_8h.html#af83497edef361523a95b06deda0b4c2d">off_t</a> *, <span class="keywordtype">size_t</span>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<a class="code" href="../../df/d4c/ssize__t_8h.html#a831c6b6852c6d34448e30a88c34539fd">ssize_t</a> <a class="code" href="../../db/d77/sendfile_8h.html#a4265c05be46ad615d02386fad556ce54">sendfile</a>(<span class="keywordtype">int</span>, <span class="keywordtype">int</span>, <a class="code" href="../../dc/dcd/off__t_8h.html#af83497edef361523a95b06deda0b4c2d">off_t</a> *, <span class="keywordtype">size_t</span>);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_SENDFILE_H_</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_SENDFILE_H_</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="ttc" id="aoff__t_8h_html_af83497edef361523a95b06deda0b4c2d"><div class="ttname"><a href="../../dc/dcd/off__t_8h.html#af83497edef361523a95b06deda0b4c2d">off_t</a></div><div class="ttdeci">long off_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dcd/off__t_8h_source.html#l00005">off_t.h:5</a></div></div>
 <div class="ttc" id="asendfile_8h_html_a4265c05be46ad615d02386fad556ce54"><div class="ttname"><a href="../../db/d77/sendfile_8h.html#a4265c05be46ad615d02386fad556ce54">sendfile</a></div><div class="ttdeci">ssize_t sendfile(int, int, off_t *, size_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d85/sys-sendfile-stubs_8cpp_source.html#l00005">sys-sendfile-stubs.cpp:5</a></div></div>
 <div class="ttc" id="assize__t_8h_html_a831c6b6852c6d34448e30a88c34539fd"><div class="ttname"><a href="../../df/d4c/ssize__t_8h.html#a831c6b6852c6d34448e30a88c34539fd">ssize_t</a></div><div class="ttdeci">long ssize_t</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d4c/ssize__t_8h_source.html#l00006">ssize_t.h:6</a></div></div>

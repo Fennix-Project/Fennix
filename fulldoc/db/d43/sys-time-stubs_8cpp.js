@@ -3,6 +3,7 @@ var sys_time_stubs_8cpp =
     [ "getitimer", "db/d43/sys-time-stubs_8cpp.html#aee0b91fe1ac5bce5f9457628289b8146", null ],
     [ "gettimeofday", "db/d43/sys-time-stubs_8cpp.html#ab74c3aa499ee6335812ac6fefdac1b5b", null ],
     [ "setitimer", "db/d43/sys-time-stubs_8cpp.html#a1b92a3b70897ebc9080275e03620baf2", null ],
+    [ "settimeofday", "db/d43/sys-time-stubs_8cpp.html#a80c762335d3b2d850d5bb0d2b9904454", null ],
     [ "timer_create", "db/d43/sys-time-stubs_8cpp.html#a8fbd2295a78906cff09bf85f50295fae", null ],
     [ "timer_delete", "db/d43/sys-time-stubs_8cpp.html#a61fa078bdadbd957cfcdfb12d0592ac1", null ],
     [ "timer_gettime", "db/d43/sys-time-stubs_8cpp.html#a862d2cf20358278b86251c127c7719ee", null ],

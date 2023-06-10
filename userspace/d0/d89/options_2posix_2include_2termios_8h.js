@@ -29,6 +29,8 @@ var options_2posix_2include_2termios_8h =
     [ "ECHOKE", "d0/d89/options_2posix_2include_2termios_8h.html#ae5aeef4d21a390052a1a6cbb106e830c", null ],
     [ "FLUSHO", "d0/d89/options_2posix_2include_2termios_8h.html#afdd59c6c80097ad6566377e1638b6c3d", null ],
     [ "IMAXBEL", "d0/d89/options_2posix_2include_2termios_8h.html#a9bd5f371bd87fe2f1629535f638d544d", null ],
+    [ "IUCLC", "d0/d89/options_2posix_2include_2termios_8h.html#a60397fb1a881cadaa5e210dd5d347989", null ],
+    [ "IUTF8", "d0/d89/options_2posix_2include_2termios_8h.html#a0f5c02276e931955bae940f6b650e921", null ],
     [ "TCIFLUSH", "d0/d89/options_2posix_2include_2termios_8h.html#a058d97bfe9b14f76cf512b97504d7223", null ],
     [ "TCIOFF", "d0/d89/options_2posix_2include_2termios_8h.html#a227fea9e0767c2a418967e87f2fc222d", null ],
     [ "TCIOFLUSH", "d0/d89/options_2posix_2include_2termios_8h.html#a101bfc62e2af02c05dde40905aa47c1b", null ],

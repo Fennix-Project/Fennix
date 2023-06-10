@@ -85,12 +85,137 @@ $(document).ready(function(){initNavTree('d0/dca/ip6_8h.html','../../'); initRes
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Data Structures</a>  </div>
   <div class="headertitle">
 <div class="title">ip6.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
+<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d96/options_2posix_2include_2netinet_2in_8h_source.html">netinet/in.h</a>&gt;</code><br />
+</div>
 <p><a href="../../d0/dca/ip6_8h_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:d2/d9c/structip6__hdr"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#d2/d9c/structip6__hdr">ip6_hdr</a></td></tr>
+<tr class="separator:d2/d9c/structip6__hdr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/db4/unionip6__hdr_8ip6__ctlun"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#dd/db4/unionip6__hdr_8ip6__ctlun">ip6_hdr.ip6_ctlun</a></td></tr>
+<tr class="separator:dd/db4/unionip6__hdr_8ip6__ctlun"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/d50/structip6__hdr_1_1ip6__hdrctl_8ip6__ctlun_8ip6__un1"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#dc/d50/structip6__hdr_1_1ip6__hdrctl_8ip6__ctlun_8ip6__un1">ip6_hdrctl.ip6_ctlun.ip6_un1</a></td></tr>
+<tr class="separator:dc/d50/structip6__hdr_1_1ip6__hdrctl_8ip6__ctlun_8ip6__un1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<hr/><h2 class="groupheader">Data Structure Documentation</h2>
+<a name="d2/d9c/structip6__hdr" id="d2/d9c/structip6__hdr"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d2/d9c/structip6__hdr">&#9670;&nbsp;</a></span>ip6_hdr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_hdr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00010">10</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a68ba0391a9cbd536f3511016c18cc68d"></a>union <a class="el" href="../../d0/dca/ip6_8h.html#dd/db4/unionip6__hdr_8ip6__ctlun">ip6_hdr</a></td>
+<td class="fieldname">
+ip6_ctlun</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a81c98bd7918a87cb7fccd5c91d4d78e9"></a>struct <a class="el" href="../../de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d4/d7d/structin6__addr">in6_addr</a></td>
+<td class="fieldname">
+ip6_dst</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa9c66bbc7c3b02bd0d3572acac860dfa"></a>struct <a class="el" href="../../de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d4/d7d/structin6__addr">in6_addr</a></td>
+<td class="fieldname">
+ip6_src</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dd/db4/unionip6__hdr_8ip6__ctlun" id="dd/db4/unionip6__hdr_8ip6__ctlun"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/db4/unionip6__hdr_8ip6__ctlun">&#9670;&nbsp;</a></span>ip6_hdr.ip6_ctlun</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union ip6_hdr.ip6_ctlun</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00011">11</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a92272cd95a1d87857f6c0454a8ed744e"></a><a class="el" href="../../d0/dca/ip6_8h.html#dc/d50/structip6__hdr_1_1ip6__hdrctl_8ip6__ctlun_8ip6__un1">ip6_ctlun</a></td>
+<td class="fieldname">
+ip6_un1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab38f3b6262f7d4fe3bf2fe7030820ee3"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6_un2_vfc</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dc/d50/structip6__hdr_1_1ip6__hdrctl_8ip6__ctlun_8ip6__un1" id="dc/d50/structip6__hdr_1_1ip6__hdrctl_8ip6__ctlun_8ip6__un1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dc/d50/structip6__hdr_1_1ip6__hdrctl_8ip6__ctlun_8ip6__un1">&#9670;&nbsp;</a></span>ip6_hdr::ip6_hdrctl.ip6_ctlun.ip6_un1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_hdr::ip6_hdrctl.ip6_ctlun.ip6_un1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00012">12</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="aa105cce236d792f55c16695e9dfb5334"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<td class="fieldname">
+ip6_un1_flow</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a47346a816739b08d5821f1b72d31b29e"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6_un1_hlim</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa1efc3c6f55392de71bdb2ca507bfebb"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6_un1_nxt</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af130cefd9b10e0186fde3ac4926c0d1d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+ip6_un1_plen</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

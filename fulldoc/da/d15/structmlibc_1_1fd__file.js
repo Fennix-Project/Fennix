@@ -9,6 +9,7 @@ var structmlibc_1_1fd__file =
     [ "io_seek", "da/d15/structmlibc_1_1fd__file.html#a5be913244f2121d3316eb8e474e27e95", null ],
     [ "io_write", "da/d15/structmlibc_1_1fd__file.html#ac1b6e628d7d14bda1773a370cc887209", null ],
     [ "parse_modestring", "da/d15/structmlibc_1_1fd__file.html#a9945e6dba0ba6896ab55e07bab3b1597", null ],
+    [ "reopen", "da/d15/structmlibc_1_1fd__file.html#a85d3b968e480e0e81e03147e016b3828", null ],
     [ "_fd", "da/d15/structmlibc_1_1fd__file.html#a6e15def6a26699ed3435d16767fe9a81", null ],
     [ "_force_unbuffered", "da/d15/structmlibc_1_1fd__file.html#aaf3d8fb8da00a9c1bbf066c1b551a80c", null ]
 ];

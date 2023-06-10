@@ -4,6 +4,8 @@ var arpa_inet_stubs_8cpp =
     [ "htons", "de/d1b/arpa-inet-stubs_8cpp.html#a09e66c87d5004e62605c274951a64de0", null ],
     [ "inet_addr", "de/d1b/arpa-inet-stubs_8cpp.html#a617651ec952a1f4c9cbddbf78f4b2e2e", null ],
     [ "inet_aton", "de/d1b/arpa-inet-stubs_8cpp.html#a5fb40ff32c527bfaf595134283e733c8", null ],
+    [ "inet_makeaddr", "de/d1b/arpa-inet-stubs_8cpp.html#ae3fab0290249af9a0f539903add3d3f7", null ],
+    [ "inet_netof", "de/d1b/arpa-inet-stubs_8cpp.html#a313c800fb686a5fbb2983b2d2d8744ba", null ],
     [ "inet_ntoa", "de/d1b/arpa-inet-stubs_8cpp.html#a2b2ad3bb9f1c4a0870fc67c91bf6b91e", null ],
     [ "inet_ntop", "de/d1b/arpa-inet-stubs_8cpp.html#a75ccc33c3ffdc5e88b12972d77177ed4", null ],
     [ "inet_pton", "de/d1b/arpa-inet-stubs_8cpp.html#a659d8132f2faec86c7663adab265b3d9", null ],

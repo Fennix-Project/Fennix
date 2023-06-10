@@ -10,12 +10,12 @@ var fork_exec_8cpp =
     [ "sys_getegid", "dd/dd6/fork-exec_8cpp.html#a01b5a675f902bdb3c44bfe5f71d69da9", null ],
     [ "sys_geteuid", "dd/dd6/fork-exec_8cpp.html#af65ef3416b44fd255bb9edd29ecaa29b", null ],
     [ "sys_getgid", "dd/dd6/fork-exec_8cpp.html#afe5605327c55ffcb706ab6f9d59cde19", null ],
-    [ "sys_getpgid", "dd/dd6/fork-exec_8cpp.html#aff8e9f5090c273c50cd9fa5386f6a544", null ],
+    [ "sys_getpgid", "dd/dd6/fork-exec_8cpp.html#adbe32b9c274b6befaaffd0a7920eb2cd", null ],
     [ "sys_getpid", "dd/dd6/fork-exec_8cpp.html#a01d5da3cb1e67fd91c425680a8f2bc4e", null ],
     [ "sys_getppid", "dd/dd6/fork-exec_8cpp.html#ac1eb0767450eba0804557b4ca15869f9", null ],
     [ "sys_getrusage", "dd/dd6/fork-exec_8cpp.html#a5776f571036f1804f0dc670dd37b30fd", null ],
     [ "sys_getschedparam", "dd/dd6/fork-exec_8cpp.html#a018fbd77e92b323620e189ac927da571", null ],
-    [ "sys_getsid", "dd/dd6/fork-exec_8cpp.html#a22d1a5a1d105879213e2de4d53db0b46", null ],
+    [ "sys_getsid", "dd/dd6/fork-exec_8cpp.html#ada1a435045ba5e1901809f36c0e8515b", null ],
     [ "sys_gettid", "dd/dd6/fork-exec_8cpp.html#a4346db5874c1a58f7c02b660971d528a", null ],
     [ "sys_getuid", "dd/dd6/fork-exec_8cpp.html#a64595e849727cad6676f5c5782f6bc43", null ],
     [ "sys_setegid", "dd/dd6/fork-exec_8cpp.html#abbdab8357f7e8e2ec5a3ae16fb72a607", null ],
@@ -27,6 +27,8 @@ var fork_exec_8cpp =
     [ "sys_sleep", "dd/dd6/fork-exec_8cpp.html#a91e044f429e7249487c3aa5865ab8051", null ],
     [ "sys_tcb_set", "dd/dd6/fork-exec_8cpp.html#a778c9089611e892252caf5d0d98b4b45", null ],
     [ "sys_thread_exit", "dd/dd6/fork-exec_8cpp.html#a57137c195eec1649764d8dfbbf29b104", null ],
+    [ "sys_thread_getname", "dd/dd6/fork-exec_8cpp.html#ab8b5cd883b92629012d4307ac08268c7", null ],
+    [ "sys_thread_setname", "dd/dd6/fork-exec_8cpp.html#a04e2cc82957d549c3af737f2953652b4", null ],
     [ "sys_waitpid", "dd/dd6/fork-exec_8cpp.html#adf60879a0ff358564488dcc07bcaa803", null ],
     [ "sys_yield", "dd/dd6/fork-exec_8cpp.html#a4fc9b4f743adcd27594315069e1d4f6c", null ]
 ];

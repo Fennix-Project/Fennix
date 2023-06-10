@@ -146,20 +146,24 @@ $(document).ready(function(){initNavTree('d7/d30/syslog_8h_source.html','../../'
 <div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d7/d30/syslog_8h.html#aeb4f36db01bd128c7afeac5889dac311">   55</a></span>&#160;<span class="preprocessor">#define LOG_INFO 6</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d7/d30/syslog_8h.html#a6ff63e8955665c4a58b1598f2b07c51a">   56</a></span>&#160;<span class="preprocessor">#define LOG_DEBUG 7</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d30/syslog_8h.html#ae1e4e53707d8c3fbc36bbc523fbbcda3">closelog</a>(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d30/syslog_8h.html#adce444b3a44f1c03f1dded27939518ab">openlog</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/d30/syslog_8h.html#a92b593f72db53d87930b47b66e000d50">setlogmask</a>(<span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d30/syslog_8h.html#a8fd4d039dfe941b0576bab9cbe3ee4d9">syslog</a>(<span class="keywordtype">int</span>, <span class="keyword">const</span> <span class="keywordtype">char</span> *, ...);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">// This is a linux extension</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d30/syslog_8h.html#ad10039650a86339c8a7ab91b5c726ac8">vsyslog</a>(<span class="keywordtype">int</span>, <span class="keyword">const</span> <span class="keywordtype">char</span> *, <a class="code" href="../../d1/d2d/stdarg_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a>);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d30/syslog_8h.html#ae1e4e53707d8c3fbc36bbc523fbbcda3">closelog</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d30/syslog_8h.html#adce444b3a44f1c03f1dded27939518ab">openlog</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/d30/syslog_8h.html#a92b593f72db53d87930b47b66e000d50">setlogmask</a>(<span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d30/syslog_8h.html#a8fd4d039dfe941b0576bab9cbe3ee4d9">syslog</a>(<span class="keywordtype">int</span>, <span class="keyword">const</span> <span class="keywordtype">char</span> *, ...);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="comment">// This is a linux extension</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d30/syslog_8h.html#ad10039650a86339c8a7ab91b5c726ac8">vsyslog</a>(<span class="keywordtype">int</span>, <span class="keyword">const</span> <span class="keywordtype">char</span> *, <a class="code" href="../../d1/d2d/stdarg_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYSLOG_H</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYSLOG_H</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
 <div class="ttc" id="astdarg_8h_html"><div class="ttname"><a href="../../d1/d2d/stdarg_8h.html">stdarg.h</a></div></div>
 <div class="ttc" id="astdarg_8h_html_a2ed76bdaf83448883f275ac530e804e9"><div class="ttname"><a href="../../d1/d2d/stdarg_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a></div><div class="ttdeci">__builtin_va_list va_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2d/stdarg_8h_source.html#l00005">stdarg.h:5</a></div></div>
 <div class="ttc" id="asyslog_8h_html_a8fd4d039dfe941b0576bab9cbe3ee4d9"><div class="ttname"><a href="../../d7/d30/syslog_8h.html#a8fd4d039dfe941b0576bab9cbe3ee4d9">syslog</a></div><div class="ttdeci">void syslog(int, const char *,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d23/syslog-stubs_8cpp_source.html#l00135">syslog-stubs.cpp:135</a></div></div>

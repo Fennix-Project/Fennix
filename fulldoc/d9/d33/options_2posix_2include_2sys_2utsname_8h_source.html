@@ -99,14 +99,18 @@ $(document).ready(function(){initNavTree('d9/d33/options_2posix_2include_2sys_2u
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d9/d33/options_2posix_2include_2sys_2utsname_8h.html#a883b5b5a1cd4a1f6a5837c1cf98ede1c">uname</a>(<span class="keyword">struct</span> <a class="code" href="../../dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#db/d19/structutsname">utsname</a> *);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d9/d33/options_2posix_2include_2sys_2utsname_8h.html#a883b5b5a1cd4a1f6a5837c1cf98ede1c">uname</a>(<span class="keyword">struct</span> <a class="code" href="../../dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#db/d19/structutsname">utsname</a> *);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_UTSNAME_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_UTSNAME_H</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="ttc" id="aoptions_2posix_2include_2sys_2utsname_8h_html_a883b5b5a1cd4a1f6a5837c1cf98ede1c"><div class="ttname"><a href="../../d9/d33/options_2posix_2include_2sys_2utsname_8h.html#a883b5b5a1cd4a1f6a5837c1cf98ede1c">uname</a></div><div class="ttdeci">int uname(struct utsname *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d76/sys-utsname_8cpp_source.html#l00011">sys-utsname.cpp:11</a></div></div>
 <div class="ttc" id="asysdeps_2managarm_2include_2abi-bits_2utsname_8h_html_db/d19/structutsname"><div class="ttname"><a href="../../dd/d92/sysdeps_2managarm_2include_2abi-bits_2utsname_8h.html#db/d19/structutsname">utsname</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d77/abis_2linux_2utsname_8h_source.html#l00004">utsname.h:4</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

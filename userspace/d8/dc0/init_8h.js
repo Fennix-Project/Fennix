@@ -1,8 +1,10 @@
 var init_8h =
 [
-    [ "__attribute__", "d8/dc0/init_8h.html#a50eede2d10ce7a29cba130698532e883", null ],
-    [ "init_log", "d8/dc0/init_8h.html#ac20614cb9b568968a0f3f548e52367a7", null ],
-    [ "arg", "d8/dc0/init_8h.html#adbc328e5b19ccfb142e424b3ac1a77df", null ],
-    [ "count", "d8/dc0/init_8h.html#a97425fbfd6f5a9b57a20721b2dcdf819", null ],
-    [ "format", "d8/dc0/init_8h.html#a88dce16aa61c3ef8608f966c3dec1f94", null ]
+    [ "__attribute__", "d8/dc0/init_8h.html#a94b8408e7a51274f661d54054f1b6167", null ],
+    [ "printf_libinit", "d8/dc0/init_8h.html#a5b383117c28d733a218a975e89f64e1f", null ],
+    [ "snprintf_libinit", "d8/dc0/init_8h.html#a78149220a1d03d85041d3a92edd9ab26", null ],
+    [ "sprintf_libinit", "d8/dc0/init_8h.html#a0947533f68fc0cadaa7153bd839d7c8f", null ],
+    [ "vprintf_libinit", "d8/dc0/init_8h.html#a1a26bfe97037ebf76d5065532c67f717", null ],
+    [ "vsnprintf_libinit", "d8/dc0/init_8h.html#a6f0f3cd08ee7ba76055e54fcf8cbbf53", null ],
+    [ "vsprintf_libinit", "d8/dc0/init_8h.html#ad3a189afeced87804a44571b5d7b5921", null ]
 ];

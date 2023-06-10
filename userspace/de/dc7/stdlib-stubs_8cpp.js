@@ -1,7 +1,7 @@
 var stdlib_stubs_8cpp =
 [
-    [ "__attribute__", "de/dc7/stdlib-stubs_8cpp.html#a97d2cfe4c4bc2205e919a1080d1331ab", null ],
-    [ "__attribute__", "de/dc7/stdlib-stubs_8cpp.html#a64f915464b51b5b6dc6b9775f7f5a722", null ],
+    [ "__attribute__", "de/dc7/stdlib-stubs_8cpp.html#ac6118ac733a68506754ac60f47364897", null ],
+    [ "__attribute__", "de/dc7/stdlib-stubs_8cpp.html#a332f6ede00dd509dc157894b6094bc54", null ],
     [ "__cxa_atexit", "de/dc7/stdlib-stubs_8cpp.html#a0764c13be80b7d19057263d11f704e78", null ],
     [ "__mlibc_do_finalize", "de/dc7/stdlib-stubs_8cpp.html#ab43d8c6142be22843232384db722a762", null ],
     [ "_Exit", "de/dc7/stdlib-stubs_8cpp.html#a7631d470a867ad04b3272667ea4b643e", null ],
@@ -32,7 +32,8 @@ var stdlib_stubs_8cpp =
     [ "mktemp", "de/dc7/stdlib-stubs_8cpp.html#a90805504fda2908d2627e897a0f89e03", null ],
     [ "posix_memalign", "de/dc7/stdlib-stubs_8cpp.html#ae351c79d19f3b0431d49f5589ebdca15", null ],
     [ "qsort", "de/dc7/stdlib-stubs_8cpp.html#a7baa77417fb07090c87a98ae07ab34b6", null ],
-    [ "qsort_r", "de/dc7/stdlib-stubs_8cpp.html#adcfa8fd8bac711519942df808ac2481c", null ],
+    [ "qsort_callback", "de/dc7/stdlib-stubs_8cpp.html#a41937f0919e5499636cd6b9e7c4f6e74", null ],
+    [ "qsort_r", "de/dc7/stdlib-stubs_8cpp.html#a7f15c981cbdcb6408069ed30d2b67b0d", null ],
     [ "quick_exit", "de/dc7/stdlib-stubs_8cpp.html#a23dedd391d64094816798370fe84e25a", null ],
     [ "rand", "de/dc7/stdlib-stubs_8cpp.html#a20e50ab9d6b10af0e2940d9419448f42", null ],
     [ "rand_r", "de/dc7/stdlib-stubs_8cpp.html#abe67c697d18b1036b763cf584741af33", null ],

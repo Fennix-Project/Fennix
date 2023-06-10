@@ -8,6 +8,7 @@ var structmlibc_1_1mem__file =
     [ "io_read", "d3/d6f/structmlibc_1_1mem__file.html#a7b4ce97d8901739a328956bde70907b9", null ],
     [ "io_seek", "d3/d6f/structmlibc_1_1mem__file.html#a371622cdf47ead2c5220844527205d71", null ],
     [ "io_write", "d3/d6f/structmlibc_1_1mem__file.html#a962812f38c1264e0a7973b30c59d8808", null ],
+    [ "reopen", "d3/d6f/structmlibc_1_1mem__file.html#a67bb04c2ead273d13428eeea7d79704f", null ],
     [ "_buf", "d3/d6f/structmlibc_1_1mem__file.html#ae99e770ba2aeccaffc7ec856170bfac7", null ],
     [ "_bufloc", "d3/d6f/structmlibc_1_1mem__file.html#a515e82ddc39c30453d295f375d617289", null ],
     [ "_pos", "d3/d6f/structmlibc_1_1mem__file.html#affa244c8bdeb8cc8e643ae0b24641f28", null ],

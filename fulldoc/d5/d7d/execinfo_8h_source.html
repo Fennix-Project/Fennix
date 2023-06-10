@@ -96,15 +96,19 @@ $(document).ready(function(){initNavTree('d5/d7d/execinfo_8h_source.html','../..
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d5/d7d/execinfo_8h.html#afb223ebadbd604d1d09db21987e1e1c4">backtrace</a>(<span class="keywordtype">void</span> **, <span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keywordtype">char</span> **<a class="code" href="../../d5/d7d/execinfo_8h.html#ae09ebaf4c46e011b380839cc7600b7e4">backtrace_symbols</a>(<span class="keywordtype">void</span> *<span class="keyword">const</span> *, <span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/d7d/execinfo_8h.html#a3950e65e9ed6df6a3046da0407892217">backtrace_symbols_fd</a>(<span class="keywordtype">void</span> *<span class="keyword">const</span> *, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d5/d7d/execinfo_8h.html#afb223ebadbd604d1d09db21987e1e1c4">backtrace</a>(<span class="keywordtype">void</span> **, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">char</span> **<a class="code" href="../../d5/d7d/execinfo_8h.html#ae09ebaf4c46e011b380839cc7600b7e4">backtrace_symbols</a>(<span class="keywordtype">void</span> *<span class="keyword">const</span> *, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/d7d/execinfo_8h.html#a3950e65e9ed6df6a3046da0407892217">backtrace_symbols_fd</a>(<span class="keywordtype">void</span> *<span class="keyword">const</span> *, <span class="keywordtype">int</span>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aexecinfo_8h_html_a3950e65e9ed6df6a3046da0407892217"><div class="ttname"><a href="../../d5/d7d/execinfo_8h.html#a3950e65e9ed6df6a3046da0407892217">backtrace_symbols_fd</a></div><div class="ttdeci">void backtrace_symbols_fd(void *const *, int, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da6/execinfo_8cpp_source.html#l00014">execinfo.cpp:14</a></div></div>
 <div class="ttc" id="aexecinfo_8h_html_ae09ebaf4c46e011b380839cc7600b7e4"><div class="ttname"><a href="../../d5/d7d/execinfo_8h.html#ae09ebaf4c46e011b380839cc7600b7e4">backtrace_symbols</a></div><div class="ttdeci">char ** backtrace_symbols(void *const *, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da6/execinfo_8cpp_source.html#l00009">execinfo.cpp:9</a></div></div>
 <div class="ttc" id="aexecinfo_8h_html_afb223ebadbd604d1d09db21987e1e1c4"><div class="ttname"><a href="../../d5/d7d/execinfo_8h.html#afb223ebadbd604d1d09db21987e1e1c4">backtrace</a></div><div class="ttdeci">int backtrace(void **, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da6/execinfo_8cpp_source.html#l00004">execinfo.cpp:4</a></div></div>

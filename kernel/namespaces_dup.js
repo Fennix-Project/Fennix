@@ -1,5 +1,6 @@
 var namespaces_dup =
 [
+    [ "__cxxabiv1", "da/d75/namespace____cxxabiv1.html", "da/d75/namespace____cxxabiv1" ],
     [ "aarch64", "dc/dce/namespaceaarch64.html", "dc/dce/namespaceaarch64" ],
     [ "ACPI", "df/d22/namespaceACPI.html", "df/d22/namespaceACPI" ],
     [ "AdvancedHostControllerInterface", "de/da1/namespaceAdvancedHostControllerInterface.html", "de/da1/namespaceAdvancedHostControllerInterface" ],
@@ -32,7 +33,6 @@ var namespaces_dup =
     [ "Memory", "d3/d97/namespaceMemory.html", [
       [ "__no_sanitize", "d3/d97/namespaceMemory.html#afb12cf57bb646f530c629da2a1e9743c", null ],
       [ "ReadFSFunction", "d3/d97/namespaceMemory.html#a3e630a684edd2a6cd3e265fea85eade9", null ],
-      [ "SeekFSFunction", "d3/d97/namespaceMemory.html#a28872d2597310c76775f2585d14c124e", null ],
       [ "WriteFSFunction", "d3/d97/namespaceMemory.html#a1c5c24bf1615ba4a406fce3ad555d2fa", null ],
       [ "mem_op", "d3/d97/namespaceMemory.html#a6c1d73cc8a1e574400a2055d2beddf2a", null ]
     ] ],

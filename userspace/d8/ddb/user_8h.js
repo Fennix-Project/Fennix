@@ -59,5 +59,8 @@ var user_8h =
       [ "u_ssize", "d8/ddb/user_8h.html#ae2803d997147f65b9106f03d3eb90263", null ],
       [ "u_tsize", "d8/ddb/user_8h.html#a6e471b4d83d5606a99a6eeb263e53a1e", null ]
     ] ],
+    [ "PAGE_MASK", "d8/ddb/user_8h.html#ae4aa620ce57c7c3171b916de2c5f09f2", null ],
+    [ "PAGE_SHIFT", "d8/ddb/user_8h.html#a850d80ca2291d26b40dc6b25c419f81a", null ],
+    [ "PAGE_SIZE", "d8/ddb/user_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e", null ],
     [ "elf_fpregset_t", "d8/ddb/user_8h.html#a6dcff93cff23648fce5c1bf9c5680977", null ]
 ];

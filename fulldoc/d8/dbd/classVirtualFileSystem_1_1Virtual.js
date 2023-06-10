@@ -19,9 +19,10 @@ var classVirtualFileSystem_1_1Virtual =
     [ "Open", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#af52956ce6674c77cc854cda73721a2b1", null ],
     [ "PathExists", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a18d495c85a51a3cb8b62bfd3ae74b562", null ],
     [ "PathIsRelative", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#afc276136d594265811635703eb174f55", null ],
-    [ "Read", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a0b284eb5ab1b3b09d3003b6943388025", null ],
+    [ "Read", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a68f757ff8401535e790206dcfad48169", null ],
     [ "RemoveChild", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#acbc081f75a4b25700da3242308a26f27", null ],
+    [ "Seek", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a41911648717ed617888796b0cefc0072", null ],
     [ "Unmount", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#ad2a4bbe693d6f61d84750bb7978d74ed", null ],
-    [ "Write", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a6b996a2a515e72a8646ec2e925d24f93", null ],
+    [ "Write", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#ae6ba56c28e2990a6414b4334f701d37f", null ],
     [ "FileSystemRoot", "d8/dbd/classVirtualFileSystem_1_1Virtual.html#a9c6b58786e20ba382f8523354034bb11", null ]
 ];

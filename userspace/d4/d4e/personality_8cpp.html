@@ -92,18 +92,20 @@ $(document).ready(function(){initNavTree('d4/d4e/personality_8cpp.html','../../'
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../dc/dc5/ensure_8h_source.html">bits/ensure.h</a>&gt;</code><br />
+<code>#include &lt;errno.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/d13/glibc-sysdeps_8hpp_source.html">mlibc/glibc-sysdeps.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dc0/personality_8h_source.html">sys/personality.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d4/d4e/personality_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:add1bd69d7a024ad310ecce315976a44d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4e/personality_8cpp.html#add1bd69d7a024ad310ecce315976a44d">personality</a> (unsigned long)</td></tr>
-<tr class="separator:add1bd69d7a024ad310ecce315976a44d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1c59b592e9edf2b387aec26713a0d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4e/personality_8cpp.html#afc1c59b592e9edf2b387aec26713a0d1">personality</a> (unsigned long persona)</td></tr>
+<tr class="separator:afc1c59b592e9edf2b387aec26713a0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="add1bd69d7a024ad310ecce315976a44d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add1bd69d7a024ad310ecce315976a44d">&#9670;&nbsp;</a></span>personality()</h2>
+<a id="afc1c59b592e9edf2b387aec26713a0d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1c59b592e9edf2b387aec26713a0d1">&#9670;&nbsp;</a></span>personality()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -118,14 +120,22 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d4e/personality_8cpp_source.html#l00004">4</a> of file <a class="el" href="../../d4/d4e/personality_8cpp_source.html">personality.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;                               {</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    __builtin_unreachable();</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aensure_8h_html_a5e2c6c11947e5c706f6557c5195d90be"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a></div><div class="ttdeci">#define __ensure(assertion)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00015">ensure.h:15</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d4e/personality_8cpp_source.html#l00006">6</a> of file <a class="el" href="../../d4/d4e/personality_8cpp_source.html">personality.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;                                       {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">int</span> out = 0;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">auto</span> sysdep = <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a3542296f0bc6746fe9dda5d0c3f4db88">mlibc::sys_personality</a>, -1);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = sysdep(persona, &amp;out); e) {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    }</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> out;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
+<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00028">ensure.h:28</a></div></div>
+<div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
+<div class="ttc" id="anamespacemlibc_html_a3542296f0bc6746fe9dda5d0c3f4db88"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a3542296f0bc6746fe9dda5d0c3f4db88">mlibc::sys_personality</a></div><div class="ttdeci">int sys_personality(unsigned long persona, int *out)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00015">__ensure</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d0/d9a/namespacemlibc.html#a3542296f0bc6746fe9dda5d0c3f4db88">mlibc::sys_personality()</a>.</p>
 
 </div>
 </div>

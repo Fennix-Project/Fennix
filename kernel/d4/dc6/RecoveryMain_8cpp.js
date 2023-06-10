@@ -39,6 +39,7 @@ var RecoveryMain_8cpp =
     [ "RebootCommandThread", "d4/dc6/RecoveryMain_8cpp.html#a3418cb1c3ff51440fd22361b659d2c30", null ],
     [ "RebootCommandWrapper", "d4/dc6/RecoveryMain_8cpp.html#afed8ead579d4427bd2ea556bbe60775e", null ],
     [ "RecoveryThreadWrapper", "d4/dc6/RecoveryMain_8cpp.html#a68e17f929da07be0342232e7ebb6da22", null ],
+    [ "ShellCommandWrapper", "d4/dc6/RecoveryMain_8cpp.html#af06183539407587390cdf535224a98f8", null ],
     [ "ShutdownCommandThread", "d4/dc6/RecoveryMain_8cpp.html#acbe17b004e599019348e61d4764f8c4c", null ],
     [ "ShutdownCommandWrapper", "d4/dc6/RecoveryMain_8cpp.html#a737551b302636f7ab7c2c48a89231314", null ],
     [ "_binary_Files_tamsyn_font_1_11_Tamsyn7x14r_psf_end", "d4/dc6/RecoveryMain_8cpp.html#ae4017f2e525fbd7ee5c13ed7dba20fe7", null ],

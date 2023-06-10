@@ -19,6 +19,9 @@ var utmpx_8h =
       [ "__e_exit", "d9/d9a/utmpx_8h.html#a710ba02527ef2618ef765e7af3469d51", null ],
       [ "__e_termination", "d9/d9a/utmpx_8h.html#adb7436741b43ebabfdb3c2c9db804002", null ]
     ] ],
+    [ "__UT_HOSTSIZE", "d9/d9a/utmpx_8h.html#a9d3947a80a9b596308057d27619c7d2a", null ],
+    [ "__UT_LINESIZE", "d9/d9a/utmpx_8h.html#a0e16c6c874252dc5f938e6fa41aeaa65", null ],
+    [ "__UT_NAMESIZE", "d9/d9a/utmpx_8h.html#a66d4b9e52343bbfc03595b24ee1ffeda", null ],
     [ "BOOT_TIME", "d9/d9a/utmpx_8h.html#a5ab03916aa2a1644de4a108701c277f1", null ],
     [ "DEAD_PROCESS", "d9/d9a/utmpx_8h.html#afb52c6d8bcd23109edf0ebc5fa96bc78", null ],
     [ "EMPTY", "d9/d9a/utmpx_8h.html#a2b7cf2a3641be7b89138615764d60ba3", null ],

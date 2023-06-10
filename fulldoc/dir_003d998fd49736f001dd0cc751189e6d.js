@@ -7,7 +7,7 @@ var dir_003d998fd49736f001dd0cc751189e6d =
     [ "fork-exec.cpp", "dd/dd6/fork-exec_8cpp.html", "dd/dd6/fork-exec_8cpp" ],
     [ "ioctl.cpp", "da/dfb/ioctl_8cpp.html", "da/dfb/ioctl_8cpp" ],
     [ "memory.cpp", "d8/d71/memory_8cpp.html", "d8/d71/memory_8cpp" ],
-    [ "mount.cpp", "d3/d1e/mount_8cpp.html", "d3/d1e/mount_8cpp" ],
+    [ "mount.cpp", "da/d1f/managarm_2generic_2mount_8cpp.html", "da/d1f/managarm_2generic_2mount_8cpp" ],
     [ "net.cpp", "dd/d84/net_8cpp.html", "dd/d84/net_8cpp" ],
     [ "signals.cpp", "d1/db0/managarm_2generic_2signals_8cpp.html", "d1/db0/managarm_2generic_2signals_8cpp" ],
     [ "socket.cpp", "d8/d81/socket_8cpp.html", "d8/d81/socket_8cpp" ],

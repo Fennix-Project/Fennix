@@ -19,10 +19,11 @@ var KernelThread_8cpp =
     [ "DiskManager", "dd/d06/KernelThread_8cpp.html#a33f633a63c7075ece0b1c1dc31e49043", null ],
     [ "DriverManager", "dd/d06/KernelThread_8cpp.html#ace4da8d4e1075769d48168995aba88f7", null ],
     [ "FrameCount", "dd/d06/KernelThread_8cpp.html#aea40c6a582db2bc41976f4a83bd92069", null ],
-    [ "Frames", "dd/d06/KernelThread_8cpp.html#af9c08e118a1df3a7e89b5ccbe95313aa", null ],
+    [ "Frames", "dd/d06/KernelThread_8cpp.html#a416c8652d44d5bccad0a887f905f38bd", null ],
     [ "FrameSizes", "dd/d06/KernelThread_8cpp.html#a997963992146fd6c7da2a2042c55be46", null ],
     [ "MntFS", "dd/d06/KernelThread_8cpp.html#abb03315691c3e421aae0098752d17f43", null ],
     [ "NIManager", "dd/d06/KernelThread_8cpp.html#a78221b78083c91d052ddd9370185fc1b", null ],
     [ "ProcFS", "dd/d06/KernelThread_8cpp.html#af138637d41d37d593930b97331137601", null ],
-    [ "RecoveryScreen", "dd/d06/KernelThread_8cpp.html#a6965da5f7fc08bbf04f3479849d59d11", null ]
+    [ "RecoveryScreen", "dd/d06/KernelThread_8cpp.html#a6965da5f7fc08bbf04f3479849d59d11", null ],
+    [ "VarLogFS", "dd/d06/KernelThread_8cpp.html#a1cc6a4ed4f4fb189430c25fe9f14a62c", null ]
 ];

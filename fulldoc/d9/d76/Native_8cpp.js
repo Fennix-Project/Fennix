@@ -6,10 +6,10 @@ var Native_8cpp =
     [ "sys_exit", "d9/d76/Native_8cpp.html#a0a8d0247f5f069b67b0a5576e283f36d", null ],
     [ "sys_file_close", "d9/d76/Native_8cpp.html#a8155134ee353cd765ff3e19f66085c7d", null ],
     [ "sys_file_open", "d9/d76/Native_8cpp.html#ac9bf9891ad3a9994bd60a20f98b69e84", null ],
-    [ "sys_file_read", "d9/d76/Native_8cpp.html#ada43badee62cab7bb63e63a115e571aa", null ],
-    [ "sys_file_seek", "d9/d76/Native_8cpp.html#a309fdfa9ae2518285530d79fb7cbf79d", null ],
+    [ "sys_file_read", "d9/d76/Native_8cpp.html#ace6dd4d1e3741ab9867e94fb5659de7f", null ],
+    [ "sys_file_seek", "d9/d76/Native_8cpp.html#a29ad793df4c5b9d13583c12be4c24395", null ],
     [ "sys_file_status", "d9/d76/Native_8cpp.html#af2bf734927772f2b2b74f36ce539b229", null ],
-    [ "sys_file_write", "d9/d76/Native_8cpp.html#af0cbeeb14eb3ac967ebdb48d38d5e0b7", null ],
+    [ "sys_file_write", "d9/d76/Native_8cpp.html#a169614194f1483c87960d060b660836a", null ],
     [ "sys_fork", "d9/d76/Native_8cpp.html#a3310abd95be0e417f02fc8d4bb7456b7", null ],
     [ "sys_free_pages", "d9/d76/Native_8cpp.html#a5cfad8404403202a26c3c93bf6179153", null ],
     [ "sys_get_current_process", "d9/d76/Native_8cpp.html#ac223eb9fc0baed638065f35a61e5e72a", null ],
@@ -24,6 +24,8 @@ var Native_8cpp =
     [ "sys_kill", "d9/d76/Native_8cpp.html#a21a774e3b640f0617b8d38365271a7eb", null ],
     [ "sys_kill_process", "d9/d76/Native_8cpp.html#a69296533469339a9d5e851355db1f43c", null ],
     [ "sys_kill_thread", "d9/d76/Native_8cpp.html#adc4d8a6d39af91d6612a7b5fd46a16bc", null ],
+    [ "sys_memory_map", "d9/d76/Native_8cpp.html#abfe3aa9578d36e549967be12e03b89d5", null ],
+    [ "sys_memory_unmap", "d9/d76/Native_8cpp.html#a32ec56158d971f475876f55100dfe0af", null ],
     [ "sys_print", "d9/d76/Native_8cpp.html#abafe5ee5b3728479eed675c3e328a596", null ],
     [ "sys_request_pages", "d9/d76/Native_8cpp.html#ac992c4f95b3c6139a8b7e5bd3890e732", null ],
     [ "sys_sleep", "d9/d76/Native_8cpp.html#ac3bac7be2ece45f4168e44ac8937f171", null ],
@@ -32,6 +34,5 @@ var Native_8cpp =
     [ "sys_sys_reserved_create_process", "d9/d76/Native_8cpp.html#a71d68b42ff96001cc3f2078c6492cb99", null ],
     [ "sys_sys_reserved_create_thread", "d9/d76/Native_8cpp.html#a8c7c029b30988d7c06453fad7428891b", null ],
     [ "sys_wait", "d9/d76/Native_8cpp.html#a63b3f2f0c62be314ed25a458013356c2", null ],
-    [ "_ChildPID", "d9/d76/Native_8cpp.html#a7fe28e604eea2e0f3901c012e8c9f4bd", null ],
-    [ "NativeSyscallsTable", "d9/d76/Native_8cpp.html#a545da301a1e8bc4857c483888c71cefe", null ]
+    [ "NativeSyscallsTable", "d9/d76/Native_8cpp.html#a403cc1899f20db4046127fd5c240d2b9", null ]
 ];

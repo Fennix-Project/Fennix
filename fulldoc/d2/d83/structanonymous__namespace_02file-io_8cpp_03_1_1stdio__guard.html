@@ -101,7 +101,7 @@ Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/d24/file-io_8cpp_source.html#l00562">562</a> of file <a class="el" href="../../d5/d24/file-io_8cpp_source.html">file-io.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d24/file-io_8cpp_source.html#l00587">587</a> of file <a class="el" href="../../d5/d24/file-io_8cpp_source.html">file-io.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7cc7e4e26226ffabdc07f99eaa3186f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7cc7e4e26226ffabdc07f99eaa3186f4">&#9670;&nbsp;</a></span>stdio_guard()</h2>
@@ -126,8 +126,8 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d24/file-io_8cpp_source.html#l00563">563</a> of file <a class="el" href="../../d5/d24/file-io_8cpp_source.html">file-io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;{ }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d24/file-io_8cpp_source.html#l00588">588</a> of file <a class="el" href="../../d5/d24/file-io_8cpp_source.html">file-io.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;{ }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -154,15 +154,15 @@ Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d24/file-io_8cpp_source.html#l00565">565</a> of file <a class="el" href="../../d5/d24/file-io_8cpp_source.html">file-io.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;                       {</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;            <span class="comment">// Only flush the files but do not close them.</span></div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;            <span class="keywordflow">for</span>(<span class="keyword">auto</span> it : <a class="code" href="../../dd/d34/namespacemlibc_1_1anonymous__namespace_02file-io_8cpp_03.html#ab354324cee8f9d7b676d035edd65529c">mlibc::global_file_list</a>()) {</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;                <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = it-&gt;flush(); e)</div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;                    <a class="code" href="../../d0/d9a/namespacemlibc.html#a1700960d1a2454df21e4e1aa6f098a0a">mlibc::infoLogger</a>() &lt;&lt; <span class="stringliteral">&quot;mlibc warning: Failed to flush file before exit()&quot;</span></div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;                            &lt;&lt; frg::endlog;</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;            }</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d24/file-io_8cpp_source.html#l00590">590</a> of file <a class="el" href="../../d5/d24/file-io_8cpp_source.html">file-io.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;                       {</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;            <span class="comment">// Only flush the files but do not close them.</span></div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;            <span class="keywordflow">for</span>(<span class="keyword">auto</span> it : <a class="code" href="../../dd/d34/namespacemlibc_1_1anonymous__namespace_02file-io_8cpp_03.html#ab354324cee8f9d7b676d035edd65529c">mlibc::global_file_list</a>()) {</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;                <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = it-&gt;flush(); e)</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;                    <a class="code" href="../../d0/d9a/namespacemlibc.html#a1700960d1a2454df21e4e1aa6f098a0a">mlibc::infoLogger</a>() &lt;&lt; <span class="stringliteral">&quot;mlibc warning: Failed to flush file before exit()&quot;</span></div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;                            &lt;&lt; frg::endlog;</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;            }</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        }</div>
 <div class="ttc" id="anamespacemlibc_1_1anonymous__namespace_02file-io_8cpp_03_html_ab354324cee8f9d7b676d035edd65529c"><div class="ttname"><a href="../../dd/d34/namespacemlibc_1_1anonymous__namespace_02file-io_8cpp_03.html#ab354324cee8f9d7b676d035edd65529c">mlibc::anonymous_namespace{file-io.cpp}::global_file_list</a></div><div class="ttdeci">file_list &amp; global_file_list()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d24/file-io_8cpp_source.html#l00046">file-io.cpp:46</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a1700960d1a2454df21e4e1aa6f098a0a"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a1700960d1a2454df21e4e1aa6f098a0a">mlibc::infoLogger</a></div><div class="ttdeci">frg::stack_buffer_logger&lt; InfoSink, 512 &gt; infoLogger</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00008">debug.cpp:8</a></div></div>
 </div><!-- fragment -->

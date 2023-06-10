@@ -112,43 +112,47 @@ $(document).ready(function(){initNavTree('d0/da2/mlibc_2options_2ansi_2include_2
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"># error &quot;Unsupported configuration, please define either LONG_MAX or __LONG_MAX__&quot;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#undef LLONG_MAX</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#undef ULLONG_MAX</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#af17a13b2ae0e9c24c020ac1f044f30c2">   26</a></span>&#160;<span class="preprocessor">#define LLONG_MIN (-__LONG_LONG_MAX__ - 1LL)</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a23ec2cf7fc07ea8f817bbac758402baf">   27</a></span>&#160;<span class="preprocessor">#define LLONG_MAX __LONG_LONG_MAX__</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#aa1dd7166a75b73ad62b111ae6fc17c59">   28</a></span>&#160;<span class="preprocessor">#define ULLONG_MAX (__LONG_LONG_MAX__ * 2ULL + 1ULL)</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#ac64541bdd81c961304b9babef1402640">   30</a></span>&#160;<span class="preprocessor">#define NAME_MAX 255</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#ae688d728e1acdfe5988c7db45d6f0166">   31</a></span>&#160;<span class="preprocessor">#define PATH_MAX 4096</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#aae3371f3a2ed27aefae9c4e26982fc99">   32</a></span>&#160;<span class="preprocessor">#define LINE_MAX 4096</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#ad2c1c798d36bdba42d5f4d50da5ae200">   33</a></span>&#160;<span class="preprocessor">#define PIPE_BUF 4096</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a4d7b5062719e4bbb66f269d54d0a4aae">   35</a></span>&#160;<span class="preprocessor">#define CHARCLASS_NAME_MAX 14</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#aa7d072d0a88c61d3692dc547ea27538e">   36</a></span>&#160;<span class="preprocessor">#define RE_DUP_MAX 255</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#undef INT_MAX</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#undef LLONG_MAX</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#undef ULLONG_MAX</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a21658776274b3d146c674318b635a334">   27</a></span>&#160;<span class="preprocessor">#define INT_MIN (-INT_MAX - 1)</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a9ec306f36d50c7375e74f0d1c55a3a67">   28</a></span>&#160;<span class="preprocessor">#define INT_MAX __INT_MAX__</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#af17a13b2ae0e9c24c020ac1f044f30c2">   29</a></span>&#160;<span class="preprocessor">#define LLONG_MIN (-__LONG_LONG_MAX__ - 1LL)</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a23ec2cf7fc07ea8f817bbac758402baf">   30</a></span>&#160;<span class="preprocessor">#define LLONG_MAX __LONG_LONG_MAX__</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#aa1dd7166a75b73ad62b111ae6fc17c59">   31</a></span>&#160;<span class="preprocessor">#define ULLONG_MAX (__LONG_LONG_MAX__ * 2ULL + 1ULL)</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#ac64541bdd81c961304b9babef1402640">   33</a></span>&#160;<span class="preprocessor">#define NAME_MAX 255</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#ae688d728e1acdfe5988c7db45d6f0166">   34</a></span>&#160;<span class="preprocessor">#define PATH_MAX 4096</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#aae3371f3a2ed27aefae9c4e26982fc99">   35</a></span>&#160;<span class="preprocessor">#define LINE_MAX 4096</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#ad2c1c798d36bdba42d5f4d50da5ae200">   36</a></span>&#160;<span class="preprocessor">#define PIPE_BUF 4096</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">// This value is a guaranteed minimum, get the current maximum from sysconf</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#ad9a83302400dca73a271e7944851a209">   39</a></span>&#160;<span class="preprocessor">#define NGROUPS_MAX 8</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">// POSIX states 9 is the minimum for NL_ARGMAX</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a223358278e2720315ec60584c1355f55">   41</a></span>&#160;<span class="preprocessor">#define NL_ARGMAX 9</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor">#if INTPTR_MAX == INT64_MAX</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a2d6569aa794c2f23e90691e60d2f3ad2">   44</a></span>&#160;<span class="preprocessor"># define SSIZE_MAX LONG_MAX</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#elif INTPTR_MAX == INT32_MAX</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"># define SSIZE_MAX INT_MAX</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a4f110288b817e5af0f5ccada9d06caff">   49</a></span>&#160;<span class="preprocessor">#define _POSIX_ARG_MAX 4096</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#abc31c8676449a9d679ba9cc27bd2b31d">   50</a></span>&#160;<span class="preprocessor">#define _POSIX_OPEN_MAX 16</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a4d72639ebf7718f6ae1ab7c1630a8f08">   51</a></span>&#160;<span class="preprocessor">#define _POSIX_HOST_NAME_MAX 255</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a40421197683e96ab80c76a22a4e9ad91">   52</a></span>&#160;<span class="preprocessor">#define _POSIX_NAME_MAX 14</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#adf4013feae136db6c22d586dad364389">   53</a></span>&#160;<span class="preprocessor">#define _XOPEN_NAME_MAX 255</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a8b3dc1c5c1a165d6143b1dce950e8266">   55</a></span>&#160;<span class="preprocessor">#define PTHREAD_STACK_MIN 16384</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a0a23e66e087bcf5c253b9b2746f19a64">   56</a></span>&#160;<span class="preprocessor">#define PTHREAD_KEYS_MAX 1024</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#include &lt;abi-bits/limits.h&gt;</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _LIMITS_H</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a4d7b5062719e4bbb66f269d54d0a4aae">   38</a></span>&#160;<span class="preprocessor">#define CHARCLASS_NAME_MAX 14</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#aa7d072d0a88c61d3692dc547ea27538e">   39</a></span>&#160;<span class="preprocessor">#define RE_DUP_MAX 255</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// This value is a guaranteed minimum, get the current maximum from sysconf</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#ad9a83302400dca73a271e7944851a209">   42</a></span>&#160;<span class="preprocessor">#define NGROUPS_MAX 8</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">// POSIX states 9 is the minimum for NL_ARGMAX</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a223358278e2720315ec60584c1355f55">   44</a></span>&#160;<span class="preprocessor">#define NL_ARGMAX 9</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#if INTPTR_MAX == INT64_MAX</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a2d6569aa794c2f23e90691e60d2f3ad2">   47</a></span>&#160;<span class="preprocessor"># define SSIZE_MAX LONG_MAX</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#elif INTPTR_MAX == INT32_MAX</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"># define SSIZE_MAX INT_MAX</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a4f110288b817e5af0f5ccada9d06caff">   52</a></span>&#160;<span class="preprocessor">#define _POSIX_ARG_MAX 4096</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#abc31c8676449a9d679ba9cc27bd2b31d">   53</a></span>&#160;<span class="preprocessor">#define _POSIX_OPEN_MAX 16</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a4d72639ebf7718f6ae1ab7c1630a8f08">   54</a></span>&#160;<span class="preprocessor">#define _POSIX_HOST_NAME_MAX 255</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a40421197683e96ab80c76a22a4e9ad91">   55</a></span>&#160;<span class="preprocessor">#define _POSIX_NAME_MAX 14</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a6584667fb088563245832cc91fa19c24">   56</a></span>&#160;<span class="preprocessor">#define _POSIX_TZNAME_MAX 6</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#adf4013feae136db6c22d586dad364389">   57</a></span>&#160;<span class="preprocessor">#define _XOPEN_NAME_MAX 255</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a8b3dc1c5c1a165d6143b1dce950e8266">   59</a></span>&#160;<span class="preprocessor">#define PTHREAD_STACK_MIN 16384</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="../../d0/da2/mlibc_2options_2ansi_2include_2limits_8h.html#a0a23e66e087bcf5c253b9b2746f19a64">   60</a></span>&#160;<span class="preprocessor">#define PTHREAD_KEYS_MAX 1024</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#include &lt;abi-bits/limits.h&gt;</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _LIMITS_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

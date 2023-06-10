@@ -8,6 +8,7 @@ var posix__stdlib_8h =
     [ "initstate", "df/d33/posix__stdlib_8h.html#a981144d3e13eec5481640dcb24f683b9", null ],
     [ "mkdtemp", "df/d33/posix__stdlib_8h.html#af2b26da30ba2c87e1c027536f38d60f4", null ],
     [ "mkostemp", "df/d33/posix__stdlib_8h.html#a05b07282a8a4e876578461df215756a9", null ],
+    [ "mkostemps", "df/d33/posix__stdlib_8h.html#aa74eeee80c19ef8d4b3498141d4d165f", null ],
     [ "mkstemp", "df/d33/posix__stdlib_8h.html#a567fc2c0116424fbecf9238ecf7c5fe4", null ],
     [ "posix_openpt", "df/d33/posix__stdlib_8h.html#afd9475f7eaa6222c6eac2d3c1df049c5", null ],
     [ "ptsname", "df/d33/posix__stdlib_8h.html#a4602f14b8c8f146f93d72986341a27b7", null ],

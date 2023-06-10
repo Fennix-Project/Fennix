@@ -11,15 +11,16 @@ var abis_2linux_2in_8h =
       [ "sin_zero", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a1bd2547085fb473ac4e44661fb9e257e", null ]
     ] ],
     [ "in6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d4/d7d/structin6__addr", [
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a019fa87185b633c235f7b613b78aaae2", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a9e8e277a3a8c0a1b2733debf21119e96", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#af339755266ea2c7a00b939180aedccba", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a381502b0e4e86763443edd59d3f89bf8", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a49b30806f36d0cb63a73ccd5b417cef2", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa7bfd387b8e44a89245bcca0125e2fc6", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a60af5a3750c19ddc6809c0ecd4b0286a", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ab8b91f13afbd8c58431def283943a4f4", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ae2cd25e833a2f29b1ddc7296af809db7", null ]
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa0b80418041a6a5808a03cab3a4bc1c7", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac6b7c4da7ece72397137a6610dc618e1", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a8effe60025a6ee66ba4d77fd53675e84", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a7b6d0859b3c8a18a8f6138635360a99a", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa4ef8fd3347ac5e1c00be837205cab2e", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a22bbc6ea053e0ef177aafd37bfb329ea", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aeeddfdf24d09f2a6e7448e024875a0a5", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a0e81f4e17e3cfc973a148c2716ebfec1", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a6b57e339d7fd616211de90d30fbaddcc", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a2663a2256ff3b90e3a71c28673120969", null ]
     ] ],
     [ "sockaddr_in6", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d0/d26/structsockaddr__in6", [
       [ "sin6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a219e7f3ecd6d7dcf8fc2465475be490f", null ],
@@ -31,6 +32,11 @@ var abis_2linux_2in_8h =
     [ "ip_mreq", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d1/d77/structip__mreq", [
       [ "imr_interface", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a5a01c67398a3c25dab84996a04730a2a", null ],
       [ "imr_multiaddr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a68a7523377d80bddb61cd260ed0d8658", null ]
+    ] ],
+    [ "ip_mreq_source", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d6/df3/structip__mreq__source", [
+      [ "imr_interface", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ae2e158e1fa2c20ef2fb9ffe2d23e90a4", null ],
+      [ "imr_multiaddr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ad5bc88005eebbe0e0f0d1613f9be2015", null ],
+      [ "imr_sourceaddr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a19863a6206d9631eb18acc9347bb74e6", null ]
     ] ],
     [ "ipv6_mreq", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d1/ddb/structipv6__mreq", [
       [ "ipv6mr_interface", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a71a3b731f87a33794ffaeb15eae0661a", null ],
@@ -49,6 +55,11 @@ var abis_2linux_2in_8h =
       [ "gr_group", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#ac908300a839f5ee936c0f3e656ad27e2", null ],
       [ "gr_interface", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a40ecf4278b613556b74a413672168944", null ]
     ] ],
+    [ "group_source_req", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d4/d52/structgroup__source__req", [
+      [ "gsr_group", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a6d7738414c711bc099c805a902cc5951", null ],
+      [ "gsr_interface", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac94ef4bad853488af9868ee95573fb41", null ],
+      [ "gsr_source", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a1511d15e97b3d6898151a24906a1c3d0", null ]
+    ] ],
     [ "in6_addr.__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#dc/db2/unionin6__addr_8____in6__union", [
       [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
       [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
@@ -59,6 +70,7 @@ var abis_2linux_2in_8h =
       [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
       [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
       [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
+      [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
@@ -68,6 +80,8 @@ var abis_2linux_2in_8h =
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
+      [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
+      [ "__s6_addr32", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a119a26b7bd803a27abf89d15ef25fe9a", null ],
       [ "__s6_addr32", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a119a26b7bd803a27abf89d15ef25fe9a", null ],
       [ "__s6_addr32", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a119a26b7bd803a27abf89d15ef25fe9a", null ],
       [ "__s6_addr32", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a119a26b7bd803a27abf89d15ef25fe9a", null ],
@@ -106,11 +120,14 @@ var abis_2linux_2in_8h =
     [ "INET6_ADDRSTRLEN", "d3/dec/abis_2linux_2in_8h.html#af776b22a727aae7c9f4d869d50df47e8", null ],
     [ "INET_ADDRSTRLEN", "d3/dec/abis_2linux_2in_8h.html#a93b37007689284fd9c4bde1a8f4b9199", null ],
     [ "IP_ADD_MEMBERSHIP", "d3/dec/abis_2linux_2in_8h.html#a924b1653500b7d3bf1bcef96a1a28431", null ],
+    [ "IP_ADD_SOURCE_MEMBERSHIP", "d3/dec/abis_2linux_2in_8h.html#a6c6181c959573d49b64c3aa35265fb99", null ],
     [ "IP_DROP_MEMBERSHIP", "d3/dec/abis_2linux_2in_8h.html#ad9e530e8ee1d2a001717d40d3aa26618", null ],
+    [ "IP_DROP_SOURCE_MEMBERSHIP", "d3/dec/abis_2linux_2in_8h.html#a2e6a751abdbc29564a553a4639d11ca5", null ],
     [ "IP_MULTICAST_IF", "d3/dec/abis_2linux_2in_8h.html#a95ac9ecdbd7845274e20667d3b42cd00", null ],
     [ "IP_MULTICAST_LOOP", "d3/dec/abis_2linux_2in_8h.html#a5481dc4543c45fa31bf769119057a259", null ],
     [ "IP_MULTICAST_TTL", "d3/dec/abis_2linux_2in_8h.html#abf2be8a26ec89482c3c440028aacc523", null ],
     [ "IP_PKTINFO", "d3/dec/abis_2linux_2in_8h.html#abb449c8b8ec93bdb600a03ca443e9a56", null ],
+    [ "IP_RECVERR", "d3/dec/abis_2linux_2in_8h.html#a0e42ee0d51b75ad933ac4e2abfc338f3", null ],
     [ "IP_TOS", "d3/dec/abis_2linux_2in_8h.html#a879a5597c2c02787d91b6a112c2660a2", null ],
     [ "IP_TTL", "d3/dec/abis_2linux_2in_8h.html#a4e304dc3f19993aee2a94bb63ee5f2fa", null ],
     [ "IPPORT_RESERVED", "d3/dec/abis_2linux_2in_8h.html#a033497dc6ba6ae83c8b2d4e65ca87fbf", null ],
@@ -154,10 +171,14 @@ var abis_2linux_2in_8h =
     [ "IPV6_MULTICAST_IF", "d3/dec/abis_2linux_2in_8h.html#afcc32c29ac8987b2ad69411d0384a0e5", null ],
     [ "IPV6_MULTICAST_LOOP", "d3/dec/abis_2linux_2in_8h.html#a2e5d89b45fea8bd9ebc6bb781877adb0", null ],
     [ "IPV6_PKTINFO", "d3/dec/abis_2linux_2in_8h.html#ac7d6d3b9a65d7a035d97539565f46db5", null ],
+    [ "IPV6_RECVERR", "d3/dec/abis_2linux_2in_8h.html#a9e4ad553957e03fad33dd40438fa73b4", null ],
     [ "IPV6_RECVHOPLIMIT", "d3/dec/abis_2linux_2in_8h.html#afe7e122d49f73c617afdba2a61d457be", null ],
     [ "IPV6_RECVPKTINFO", "d3/dec/abis_2linux_2in_8h.html#a543986d3b828a4a5b2d4aabbc61eea49", null ],
     [ "IPV6_UNICAST_HOPS", "d3/dec/abis_2linux_2in_8h.html#a4ba4c2d2371787c5302580b03e6ad0c8", null ],
     [ "IPV6_V6ONLY", "d3/dec/abis_2linux_2in_8h.html#a48fb8bf5da186346125c2750265b0c65", null ],
+    [ "MCAST_INCLUDE", "d3/dec/abis_2linux_2in_8h.html#a8c571fe4a9488a60a94c8b8c38a6eba7", null ],
+    [ "MCAST_JOIN_SOURCE_GROUP", "d3/dec/abis_2linux_2in_8h.html#a6f3edca7f3d7f79e6df9dc3a6d3f6b8b", null ],
+    [ "MCAST_LEAVE_SOURCE_GROUP", "d3/dec/abis_2linux_2in_8h.html#a0db78642486a0b1401feea85fe20fd90", null ],
     [ "s6_addr", "d3/dec/abis_2linux_2in_8h.html#ac7f92897f00d3373bf818709dfb0724a", null ],
     [ "s6_addr16", "d3/dec/abis_2linux_2in_8h.html#aecbd9b398e217b6985b40d07c61b7d38", null ],
     [ "s6_addr32", "d3/dec/abis_2linux_2in_8h.html#a96548646562811588d19c4e0acde1161", null ]

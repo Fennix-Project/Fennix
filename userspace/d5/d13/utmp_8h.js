@@ -39,10 +39,16 @@ var utmp_8h =
     [ "UT_NAMESIZE", "d5/d13/utmp_8h.html#a3c0992b5691d5c0a3175fe408ab5e64c", null ],
     [ "ut_time", "d5/d13/utmp_8h.html#ab91818a21a1b7d2f0abbdbba32a8a0bd", null ],
     [ "ut_xtime", "d5/d13/utmp_8h.html#af666f6b0a3f1314b99471a3cc088b370", null ],
+    [ "UTMP_FILE", "d5/d13/utmp_8h.html#a74e2d964d89ecd495b3e93920ea1790f", null ],
+    [ "UTMP_FILENAME", "d5/d13/utmp_8h.html#a7811ca3bc08133722913661fca4f6c1b", null ],
+    [ "WTMP_FILE", "d5/d13/utmp_8h.html#aaed180bf9c721a43ad889aaa3f32d2f5", null ],
+    [ "WTMP_FILENAME", "d5/d13/utmp_8h.html#a970c0624c2b5da66301ef28ceee6d88e", null ],
     [ "endutent", "d5/d13/utmp_8h.html#ae4876a02930b5eda4b0fcd1850980ede", null ],
     [ "getutent", "d5/d13/utmp_8h.html#a122b2b2e8f6e9a60a55dabb6077fe641", null ],
     [ "getutent_r", "d5/d13/utmp_8h.html#a32677180c8b91d87e7a7aefee0d90c6d", null ],
+    [ "getutid", "d5/d13/utmp_8h.html#aefae273b97acfb87c5841dab0812d741", null ],
     [ "getutline", "d5/d13/utmp_8h.html#a605db84356547dccc20dc41f3bc4bf36", null ],
     [ "pututline", "d5/d13/utmp_8h.html#a5cacf92943904a0aa30f2d99861261ce", null ],
-    [ "setutent", "d5/d13/utmp_8h.html#a2a2b62600816d1334bdd537520b7ebf4", null ]
+    [ "setutent", "d5/d13/utmp_8h.html#a2a2b62600816d1334bdd537520b7ebf4", null ],
+    [ "utmpname", "d5/d13/utmp_8h.html#a8f8bc82f248342051691b45218b1ef7b", null ]
 ];

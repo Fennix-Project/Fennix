@@ -13,7 +13,7 @@ var dir_c5daf8fb3a081982b13269771724d633 =
     [ "math.h", "d3/d1e/Userspace_2libc_2include_2math_8h.html", null ],
     [ "signal.h", "df/dff/libc_2include_2signal_8h.html", "df/dff/libc_2include_2signal_8h" ],
     [ "spawn.h", "d6/db9/libc_2include_2spawn_8h.html", "d6/db9/libc_2include_2spawn_8h" ],
-    [ "stdarg.h", "d1/d2d/stdarg_8h.html", "d1/d2d/stdarg_8h" ],
+    [ "stdarg.h", "d1/d4b/Userspace_2libc_2include_2stdarg_8h.html", "d1/d4b/Userspace_2libc_2include_2stdarg_8h" ],
     [ "stddef.h", "dd/dfa/Userspace_2libc_2include_2stddef_8h.html", "dd/dfa/Userspace_2libc_2include_2stddef_8h" ],
     [ "stdio.h", "dd/d69/Userspace_2libc_2include_2stdio_8h.html", "dd/d69/Userspace_2libc_2include_2stdio_8h" ],
     [ "stdlib.h", "de/dd7/Userspace_2libc_2include_2stdlib_8h.html", "de/dd7/Userspace_2libc_2include_2stdlib_8h" ],

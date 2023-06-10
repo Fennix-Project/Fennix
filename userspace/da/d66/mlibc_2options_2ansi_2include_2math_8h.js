@@ -35,6 +35,7 @@ var mlibc_2options_2ansi_2include_2math_8h =
     [ "M_PI", "da/d66/mlibc_2options_2ansi_2include_2math_8h.html#ae71449b1cc6e6250b91f539153a7a0d3", null ],
     [ "M_PI_2", "da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a958e4508ed28ee5cc04249144312c15f", null ],
     [ "M_PI_4", "da/d66/mlibc_2options_2ansi_2include_2math_8h.html#aeb24420b096a677f3a2dc5a72b36bf22", null ],
+    [ "M_PIl", "da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a126570edaffa4fa37291be26b3b8fdce", null ],
     [ "M_SQRT1_2", "da/d66/mlibc_2options_2ansi_2include_2math_8h.html#acdbb2c2f9429f08916f03c8786d2d2d7", null ],
     [ "M_SQRT2", "da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a66b3ab30f1332874326ed93969e496e0", null ],
     [ "MATH_ERREXCEPT", "da/d66/mlibc_2options_2ansi_2include_2math_8h.html#ae05ce3fe3745507c8e989f6e9efe0a83", null ],

@@ -10,8 +10,6 @@ var libm_8h =
     [ "GET_HIGH_WORD", "d9/ded/libm_8h.html#a28e217eb1bf68bac582e26a8fe15ba39", null ],
     [ "GET_LOW_WORD", "d9/ded/libm_8h.html#ab423bfd971e82c9491f8c5b66299f263", null ],
     [ "INSERT_WORDS", "d9/ded/libm_8h.html#aafc8dd1911616bc53eff89bcf08806c9", null ],
-    [ "INT_MAX", "d9/ded/libm_8h.html#a9ec306f36d50c7375e74f0d1c55a3a67", null ],
-    [ "INT_MIN", "d9/ded/libm_8h.html#a21658776274b3d146c674318b635a334", null ],
     [ "SET_FLOAT_WORD", "d9/ded/libm_8h.html#a57c8f059842a997737fd40f0ba01abd0", null ],
     [ "SET_HIGH_WORD", "d9/ded/libm_8h.html#af0268238b4230e0e8d05b080697b2e37", null ],
     [ "SET_LOW_WORD", "d9/ded/libm_8h.html#ae6cba77ff554dcebf47b2c9eb3e5469b", null ],

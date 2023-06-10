@@ -73,7 +73,7 @@ var aero_2include_2aero_2syscall_8h =
     [ "SYS_WRITE", "da/d80/aero_2include_2aero_2syscall_8h.html#a5d873acf1ed604853238dade4838ad58", null ],
     [ "UNIMPLEMENTED", "da/d80/aero_2include_2aero_2syscall_8h.html#a95467b48b950dd4a59f83842bbc46340", null ],
     [ "sc_word_t", "da/d80/aero_2include_2aero_2syscall_8h.html#aeb89c544259304ff09647915f61df85b", null ],
-    [ "__attribute__", "da/d80/aero_2include_2aero_2syscall_8h.html#a8593707184f5db9b7799db1b95b7d916", null ],
+    [ "__attribute__", "da/d80/aero_2include_2aero_2syscall_8h.html#a6a0e122cd29aa769eeb1657ec8d1faef", null ],
     [ "syscall0", "da/d80/aero_2include_2aero_2syscall_8h.html#a98a2998ebff55917a46283d48737b0f5", null ],
     [ "syscall1", "da/d80/aero_2include_2aero_2syscall_8h.html#afba059dc91a3a55ef4288728bd1787ab", null ],
     [ "syscall2", "da/d80/aero_2include_2aero_2syscall_8h.html#a4e980555a86ed2b93929ee66e2693b19", null ],

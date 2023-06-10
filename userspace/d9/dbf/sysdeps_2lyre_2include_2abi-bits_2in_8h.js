@@ -13,13 +13,14 @@ var sysdeps_2lyre_2include_2abi_bits_2in_8h =
     [ "in6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d4/d7d/structin6__addr", [
       [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#adb31f0f0203d483e4b87db62ed1176dd", null ],
       [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aeb8a0d10b34b5bbf74e64c0a4c402435", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa967b7ea5c3d0a54220acb2b27630958", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ad837228a63c8cfb387f386f6bbf1e25f", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a4798e7f898b134acb0a391d85f7f9940", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a5b7e4d6aa4ac304d86d82dce393f7b98", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a501957a76bbc56794d2060185484d2de", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#acee89f276e7a1e5446ec37929d404448", null ],
-      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a51a54364f76000e6e3d68aa2db6dbc67", null ]
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a55383e3f7056c91257f91ada9b3bbca0", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a7f9b8688072f1a5d7ff7147cb30ff3e6", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#abc3eeb43eeaedeb70639fa43d6687539", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a3ce8888bdf491c35304152cd2ed2614a", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ace628c8b3d0da50622a784e806f24c1f", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa53d93448a95a5e026abe82b29eb0af4", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ae9d06672b40c61581ced097c62207dc5", null ],
+      [ "__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aef5d8e0ef1d9a5b9fd7e859aea6e98a7", null ]
     ] ],
     [ "sockaddr_in6", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d0/d26/structsockaddr__in6", [
       [ "sin6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a219e7f3ecd6d7dcf8fc2465475be490f", null ],
@@ -31,6 +32,11 @@ var sysdeps_2lyre_2include_2abi_bits_2in_8h =
     [ "ip_mreq", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d1/d77/structip__mreq", [
       [ "imr_interface", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a5a01c67398a3c25dab84996a04730a2a", null ],
       [ "imr_multiaddr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a68a7523377d80bddb61cd260ed0d8658", null ]
+    ] ],
+    [ "ip_mreq_source", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d6/df3/structip__mreq__source", [
+      [ "imr_interface", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ae2e158e1fa2c20ef2fb9ffe2d23e90a4", null ],
+      [ "imr_multiaddr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ad5bc88005eebbe0e0f0d1613f9be2015", null ],
+      [ "imr_sourceaddr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a19863a6206d9631eb18acc9347bb74e6", null ]
     ] ],
     [ "ipv6_mreq", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d1/ddb/structipv6__mreq", [
       [ "ipv6mr_interface", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a71a3b731f87a33794ffaeb15eae0661a", null ],
@@ -49,6 +55,11 @@ var sysdeps_2lyre_2include_2abi_bits_2in_8h =
       [ "gr_group", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#ac908300a839f5ee936c0f3e656ad27e2", null ],
       [ "gr_interface", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a40ecf4278b613556b74a413672168944", null ]
     ] ],
+    [ "group_source_req", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d4/d52/structgroup__source__req", [
+      [ "gsr_group", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a6d7738414c711bc099c805a902cc5951", null ],
+      [ "gsr_interface", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac94ef4bad853488af9868ee95573fb41", null ],
+      [ "gsr_source", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a1511d15e97b3d6898151a24906a1c3d0", null ]
+    ] ],
     [ "in6_addr.__in6_union", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#dc/db2/unionin6__addr_8____in6__union", [
       [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
       [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
@@ -59,6 +70,7 @@ var sysdeps_2lyre_2include_2abi_bits_2in_8h =
       [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
       [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
       [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
+      [ "__s6_addr", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#ac5661df131cf6ce17640099df0c19e87", null ],
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
@@ -68,6 +80,8 @@ var sysdeps_2lyre_2include_2abi_bits_2in_8h =
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
       [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
+      [ "__s6_addr16", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4", null ],
+      [ "__s6_addr32", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a119a26b7bd803a27abf89d15ef25fe9a", null ],
       [ "__s6_addr32", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a119a26b7bd803a27abf89d15ef25fe9a", null ],
       [ "__s6_addr32", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a119a26b7bd803a27abf89d15ef25fe9a", null ],
       [ "__s6_addr32", "de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#a119a26b7bd803a27abf89d15ef25fe9a", null ],
@@ -106,11 +120,14 @@ var sysdeps_2lyre_2include_2abi_bits_2in_8h =
     [ "INET6_ADDRSTRLEN", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#af776b22a727aae7c9f4d869d50df47e8", null ],
     [ "INET_ADDRSTRLEN", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a93b37007689284fd9c4bde1a8f4b9199", null ],
     [ "IP_ADD_MEMBERSHIP", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a924b1653500b7d3bf1bcef96a1a28431", null ],
+    [ "IP_ADD_SOURCE_MEMBERSHIP", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a6c6181c959573d49b64c3aa35265fb99", null ],
     [ "IP_DROP_MEMBERSHIP", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#ad9e530e8ee1d2a001717d40d3aa26618", null ],
+    [ "IP_DROP_SOURCE_MEMBERSHIP", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a2e6a751abdbc29564a553a4639d11ca5", null ],
     [ "IP_MULTICAST_IF", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a95ac9ecdbd7845274e20667d3b42cd00", null ],
     [ "IP_MULTICAST_LOOP", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a5481dc4543c45fa31bf769119057a259", null ],
     [ "IP_MULTICAST_TTL", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#abf2be8a26ec89482c3c440028aacc523", null ],
     [ "IP_PKTINFO", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#abb449c8b8ec93bdb600a03ca443e9a56", null ],
+    [ "IP_RECVERR", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a0e42ee0d51b75ad933ac4e2abfc338f3", null ],
     [ "IP_TOS", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a879a5597c2c02787d91b6a112c2660a2", null ],
     [ "IP_TTL", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a4e304dc3f19993aee2a94bb63ee5f2fa", null ],
     [ "IPPORT_RESERVED", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a033497dc6ba6ae83c8b2d4e65ca87fbf", null ],
@@ -154,10 +171,14 @@ var sysdeps_2lyre_2include_2abi_bits_2in_8h =
     [ "IPV6_MULTICAST_IF", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#afcc32c29ac8987b2ad69411d0384a0e5", null ],
     [ "IPV6_MULTICAST_LOOP", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a2e5d89b45fea8bd9ebc6bb781877adb0", null ],
     [ "IPV6_PKTINFO", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#ac7d6d3b9a65d7a035d97539565f46db5", null ],
+    [ "IPV6_RECVERR", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a9e4ad553957e03fad33dd40438fa73b4", null ],
     [ "IPV6_RECVHOPLIMIT", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#afe7e122d49f73c617afdba2a61d457be", null ],
     [ "IPV6_RECVPKTINFO", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a543986d3b828a4a5b2d4aabbc61eea49", null ],
     [ "IPV6_UNICAST_HOPS", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a4ba4c2d2371787c5302580b03e6ad0c8", null ],
     [ "IPV6_V6ONLY", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a48fb8bf5da186346125c2750265b0c65", null ],
+    [ "MCAST_INCLUDE", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a8c571fe4a9488a60a94c8b8c38a6eba7", null ],
+    [ "MCAST_JOIN_SOURCE_GROUP", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a6f3edca7f3d7f79e6df9dc3a6d3f6b8b", null ],
+    [ "MCAST_LEAVE_SOURCE_GROUP", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a0db78642486a0b1401feea85fe20fd90", null ],
     [ "s6_addr", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#ac7f92897f00d3373bf818709dfb0724a", null ],
     [ "s6_addr16", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#aecbd9b398e217b6985b40d07c61b7d38", null ],
     [ "s6_addr32", "d9/dbf/sysdeps_2lyre_2include_2abi-bits_2in_8h.html#a96548646562811588d19c4e0acde1161", null ]

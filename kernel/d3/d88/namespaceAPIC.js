@@ -13,7 +13,7 @@ var namespaceAPIC =
     [ "__packed.__unnamed46__", "d3/d88/namespaceAPIC.html#d9/dd7/structAPIC_1_1____packed_8____unnamed46____", "d3/d88/namespaceAPIC_d9/dd7/structAPIC_1_1____packed_8____unnamed46_____dup" ],
     [ "__packed.__unnamed48__", "d3/d88/namespaceAPIC.html#d8/dd9/structAPIC_1_1____packed_8____unnamed48____", "d3/d88/namespaceAPIC_d8/dd9/structAPIC_1_1____packed_8____unnamed48_____dup" ],
     [ "__packed.__unnamed51__", "d3/d88/namespaceAPIC.html#d5/d26/structAPIC_1_1____packed_8____unnamed51____", "d3/d88/namespaceAPIC_d5/d26/structAPIC_1_1____packed_8____unnamed51_____dup" ],
-    [ "__packed.__unnamed53__", "d3/d88/namespaceAPIC.html#da/dbd/structAPIC_1_1____packed_8____unnamed53____", "d3/d88/namespaceAPIC_da/dbd/structAPIC_1_1____packed_8____unnamed53_____dup" ],
+    [ "__packed.__unnamed54__", "d3/d88/namespaceAPIC.html#d2/d33/structAPIC_1_1____packed_8____unnamed54____", "d3/d88/namespaceAPIC_d2/d33/structAPIC_1_1____packed_8____unnamed54_____dup" ],
     [ "__packed.__unnamed56__", "d3/d88/namespaceAPIC.html#d9/d6f/structAPIC_1_1____packed_8____unnamed56____", "d3/d88/namespaceAPIC_d9/d6f/structAPIC_1_1____packed_8____unnamed56_____dup" ],
     [ "__packed.__unnamed59__", "d3/d88/namespaceAPIC.html#d1/d68/structAPIC_1_1____packed_8____unnamed59____", "d3/d88/namespaceAPIC_d1/d68/structAPIC_1_1____packed_8____unnamed59_____dup" ],
     [ "APICDeliveryMode", "d3/d88/namespaceAPIC.html#a5e4cfe3016d6899c18a3ab7f900e2942", [

@@ -1,12 +1,7 @@
 var dirent_8h =
 [
-    [ "dirent", "d7/da9/dirent_8h.html#d5/de2/structdirent", [
-      [ "d_ino", "d7/da9/dirent_8h.html#aaea0878aa0629630d94e180f5dbc22c5", null ],
-      [ "d_name", "d7/da9/dirent_8h.html#a985708aa0e1c29f21118866f0b3cb759", null ],
-      [ "d_off", "d7/da9/dirent_8h.html#af812e4ed54eeb48e843efa6fb9a5465f", null ],
-      [ "d_reclen", "d7/da9/dirent_8h.html#a90dc47836e8ef510437317876368859e", null ],
-      [ "d_type", "d7/da9/dirent_8h.html#adca3b20d5a245f0d8b9f2aa84844b1ff", null ]
-    ] ],
+    [ "dirent", "d7/da9/dirent_8h.html#d5/de2/structdirent", null ],
+    [ "dirent64", "d7/da9/dirent_8h.html#d5/d79/structdirent64", null ],
     [ "__mlibc_dir_struct", "d7/da9/dirent_8h.html#d6/d8b/struct____mlibc__dir__struct", [
       [ "__current", "d7/da9/dirent_8h.html#a4ef1b81fc773e9ebb96f555949d01f53", null ],
       [ "__ent_buffer", "d7/da9/dirent_8h.html#af48145482abd24e67f15b2f3e15bdb86", null ],
@@ -14,6 +9,7 @@ var dirent_8h =
       [ "__ent_next", "d7/da9/dirent_8h.html#a27b65871144f71548d6a2cf05850c925", null ],
       [ "__handle", "d7/da9/dirent_8h.html#a7ecc68ab06b636809e2ce68a435bbe6f", null ]
     ] ],
+    [ "__MLIBC_DIRENT_BODY", "d7/da9/dirent_8h.html#add7e0d7569c6b0046a4b065ec0db22a6", null ],
     [ "d_fileno", "d7/da9/dirent_8h.html#a28add2fe1e622bd008b1abf449f25035", null ],
     [ "DT_BLK", "d7/da9/dirent_8h.html#a212cebbaad682bc6c3bf798c8749abc5", null ],
     [ "DT_CHR", "d7/da9/dirent_8h.html#a7d0095c3caf2c334bf222608d02576d7", null ],
@@ -24,6 +20,7 @@ var dirent_8h =
     [ "DT_SOCK", "d7/da9/dirent_8h.html#aaa6ed2fc54836a2c7d9b698923705f5e", null ],
     [ "DT_UNKNOWN", "d7/da9/dirent_8h.html#a293ce58a2d39f35c52f7f4516a857057", null ],
     [ "DT_WHT", "d7/da9/dirent_8h.html#a9584ba1798d7454f4f63433418ba8798", null ],
+    [ "IFTODT", "d7/da9/dirent_8h.html#af862352847d1b389ef162ec1222130a8", null ],
     [ "DIR", "d7/da9/dirent_8h.html#a4d6f853971d58e77742ef94501b889d4", null ],
     [ "alphasort", "d7/da9/dirent_8h.html#a32e50218db396663189061a7b33bcf76", null ],
     [ "closedir", "d7/da9/dirent_8h.html#a008fe2cb2468b06197c2f9bc406300a4", null ],

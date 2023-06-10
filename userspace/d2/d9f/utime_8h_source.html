@@ -103,13 +103,17 @@ $(document).ready(function(){initNavTree('d2/d9f/utime_8h_source.html','../../')
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d2/d9f/utime_8h.html#a7588ffe699a9eda52e94aa593bf7d6d8">   12</a></span>&#160;    <a class="code" href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a> <a class="code" href="../../d2/d9f/utime_8h.html#a7588ffe699a9eda52e94aa593bf7d6d8">modtime</a>;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;};</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/d9f/utime_8h.html#a1edf4a3714bb71ce52d9493ae8acc4a5">utime</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *, <span class="keyword">const</span> <span class="keyword">struct</span> <a class="code" href="../../d2/d9f/utime_8h.html#dd/d29/structutimbuf">utimbuf</a> *);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/d9f/utime_8h.html#a1edf4a3714bb71ce52d9493ae8acc4a5">utime</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *, <span class="keyword">const</span> <span class="keyword">struct</span> <a class="code" href="../../d2/d9f/utime_8h.html#dd/d29/structutimbuf">utimbuf</a> *);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _UTIME_H</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _UTIME_H</span></div>
 <div class="ttc" id="atime__t_8h_html"><div class="ttname"><a href="../../da/dc7/time__t_8h.html">time_t.h</a></div></div>
 <div class="ttc" id="atime__t_8h_html_a824afaa48b313f905546cf45822800fc"><div class="ttname"><a href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a></div><div class="ttdeci">long time_t</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc7/time__t_8h_source.html#l00005">time_t.h:5</a></div></div>
 <div class="ttc" id="autime_8h_html_a1edf4a3714bb71ce52d9493ae8acc4a5"><div class="ttname"><a href="../../d2/d9f/utime_8h.html#a1edf4a3714bb71ce52d9493ae8acc4a5">utime</a></div><div class="ttdeci">int utime(const char *, const struct utimbuf *)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d9b/utime-stubs_8cpp_source.html#l00009">utime-stubs.cpp:9</a></div></div>

@@ -1,6 +1,7 @@
 var aero_2generic_2sockets_8cpp =
 [
-    [ "sys_accept", "d9/d0d/aero_2generic_2sockets_8cpp.html#a23d000cb7fa6c662241a85cb30569705", null ],
+    [ "fcntl_helper", "d9/d0d/aero_2generic_2sockets_8cpp.html#aefadab4e6aabbc24f853057d42e34ee1", null ],
+    [ "sys_accept", "d9/d0d/aero_2generic_2sockets_8cpp.html#ac33b3476499646a6ce677d6b1a4cc1df", null ],
     [ "sys_bind", "d9/d0d/aero_2generic_2sockets_8cpp.html#ab7d0a6c9599d07e67404c6b3c958feaa", null ],
     [ "sys_connect", "d9/d0d/aero_2generic_2sockets_8cpp.html#a055c0aa022537a647ed435aa99c76bfb", null ],
     [ "sys_getsockopt", "d9/d0d/aero_2generic_2sockets_8cpp.html#a9adb3639150ffaadbd55ca797620d41b", null ],

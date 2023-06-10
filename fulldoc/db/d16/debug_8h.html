@@ -109,10 +109,14 @@ Macros</h2></td></tr>
 <tr class="separator:a31e7d5c5946947277dce12f2584e7a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9f6a21afe9288f9a5d5bb06121e4f21"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#ad9f6a21afe9288f9a5d5bb06121e4f21">ubsan</a>(Format, ...)</td></tr>
 <tr class="separator:ad9f6a21afe9288f9a5d5bb06121e4f21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac56ee31762db2d7b05b7080812aaf7f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#ac56ee31762db2d7b05b7080812aaf7f1">function</a>(Format, ...)</td></tr>
+<tr class="separator:ac56ee31762db2d7b05b7080812aaf7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8666d232022b928a87f7fdf6de29d616"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f">DebugLevelTrace</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
 <tr class="separator:a8666d232022b928a87f7fdf6de29d616"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd4acaf7c67bd126aefd672fbbd5747f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd">DebugLevelFixme</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
 <tr class="separator:abd4acaf7c67bd126aefd672fbbd5747f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5daca020dc132cf1c649ba9beb4ca63d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a>&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa3d9e124e7184eacd0d11ee66bd4a03a">DebugLevelStub</a>, __FILE__, __LINE__, __FUNCTION__, &quot;stub&quot;)</td></tr>
+<tr class="separator:a5daca020dc132cf1c649ba9beb4ca63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada5899766be9ef0767417364395ea287"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#ada5899766be9ef0767417364395ea287">locked_error</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a4f70f6e676b3da79e8fc2d7fd4637261">SysDbgLockedWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395ad6e4fa64404a1decc8ef41d34722fb0b">DebugLevelError</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
 <tr class="separator:ada5899766be9ef0767417364395ea287"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07044fb6fefc013288056f38ebe36279"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a07044fb6fefc013288056f38ebe36279">locked_warn</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a4f70f6e676b3da79e8fc2d7fd4637261">SysDbgLockedWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a1b21ff7eb7a9b80bf53ed154277818b4">DebugLevelWarning</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
@@ -123,25 +127,30 @@ Macros</h2></td></tr>
 <tr class="separator:a13bea1f96fe6e179ea413fb1114341bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad345ea08feb74d72388057543c344db6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#ad345ea08feb74d72388057543c344db6">locked_ubsan</a>(Format, ...)</td></tr>
 <tr class="separator:ad345ea08feb74d72388057543c344db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab95bcc1c24c5446f4324b92749eecd44"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#ab95bcc1c24c5446f4324b92749eecd44">locked_function</a>(Format, ...)</td></tr>
+<tr class="separator:ab95bcc1c24c5446f4324b92749eecd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98f38de4d750fef04406181db47bb91f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a98f38de4d750fef04406181db47bb91f">locked_trace</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a4f70f6e676b3da79e8fc2d7fd4637261">SysDbgLockedWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f">DebugLevelTrace</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
 <tr class="separator:a98f38de4d750fef04406181db47bb91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac35a1c343e3aec48aacc4d38f52560fd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#ac35a1c343e3aec48aacc4d38f52560fd">locked_fixme</a>(Format, ...)&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a4f70f6e676b3da79e8fc2d7fd4637261">SysDbgLockedWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd">DebugLevelFixme</a>, __FILE__, __LINE__, __FUNCTION__, Format, ##__VA_ARGS__)</td></tr>
 <tr class="separator:ac35a1c343e3aec48aacc4d38f52560fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5daca020dc132cf1c649ba9beb4ca63d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a5daca020dc132cf1c649ba9beb4ca63d">stub</a>&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(&quot;stub&quot;)</td></tr>
-<tr class="separator:a5daca020dc132cf1c649ba9beb4ca63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57bc976a9bb01fa0982e711c64accf54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#a57bc976a9bb01fa0982e711c64accf54">locked_stub</a>&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a4f70f6e676b3da79e8fc2d7fd4637261">SysDbgLockedWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa3d9e124e7184eacd0d11ee66bd4a03a">DebugLevelStub</a>, __FILE__, __LINE__, __FUNCTION__, &quot;stub&quot;)</td></tr>
+<tr class="separator:a57bc976a9bb01fa0982e711c64accf54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:ab658e6d84759440dbf3c890446075395"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395">DebugLevel</a> { <br />
 &#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa114e9058dec632ed3a55b821021782a">DebugLevelNone</a> = 0
-, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395ad6e4fa64404a1decc8ef41d34722fb0b">DebugLevelError</a> = 1
-, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a1b21ff7eb7a9b80bf53ed154277818b4">DebugLevelWarning</a> = 2
-, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a025492f2cc5d5a4aac7b17cb0a1f6861">DebugLevelInfo</a> = 3
+, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395ad6e4fa64404a1decc8ef41d34722fb0b">DebugLevelError</a>
+, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a1b21ff7eb7a9b80bf53ed154277818b4">DebugLevelWarning</a>
+, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a025492f2cc5d5a4aac7b17cb0a1f6861">DebugLevelInfo</a>
 , <br />
-&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a63db8a1dcf928bc7ecf8bfa76c603988">DebugLevelDebug</a> = 4
-, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f">DebugLevelTrace</a> = 5
-, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd">DebugLevelFixme</a> = 6
-, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6">DebugLevelUbsan</a> = 7
+&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a63db8a1dcf928bc7ecf8bfa76c603988">DebugLevelDebug</a>
+, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f">DebugLevelTrace</a>
+, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd">DebugLevelFixme</a>
+, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6">DebugLevelUbsan</a>
+, <br />
+&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa3d9e124e7184eacd0d11ee66bd4a03a">DebugLevelStub</a>
+, <a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395af1af66091ae5a8a3831e1d6fca50fbf4">DebugLevelFunction</a>
 <br />
  }</td></tr>
 <tr class="separator:ab658e6d84759440dbf3c890446075395"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,7 +193,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00085">85</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00094">94</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -214,7 +223,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00078">78</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00086">86</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -244,7 +253,37 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00089">89</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00099">99</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+
+</div>
+</div>
+<a id="ac56ee31762db2d7b05b7080812aaf7f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56ee31762db2d7b05b7080812aaf7f1">&#9670;&nbsp;</a></span>function</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define function</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Format, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00096">96</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -274,7 +313,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00080">80</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00088">88</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -304,7 +343,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00098">98</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00110">110</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -334,7 +373,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00091">91</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00102">102</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -364,7 +403,37 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00102">102</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00115">115</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+
+</div>
+</div>
+<a id="ab95bcc1c24c5446f4324b92749eecd44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab95bcc1c24c5446f4324b92749eecd44">&#9670;&nbsp;</a></span>locked_function</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define locked_function</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Format, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00112">112</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -394,7 +463,23 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00093">93</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00104">104</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+
+</div>
+</div>
+<a id="a57bc976a9bb01fa0982e711c64accf54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57bc976a9bb01fa0982e711c64accf54">&#9670;&nbsp;</a></span>locked_stub</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define locked_stub&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a4f70f6e676b3da79e8fc2d7fd4637261">SysDbgLockedWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa3d9e124e7184eacd0d11ee66bd4a03a">DebugLevelStub</a>, __FILE__, __LINE__, __FUNCTION__, &quot;stub&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00116">116</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -424,7 +509,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00101">101</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00114">114</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -454,7 +539,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00099">99</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00111">111</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -484,7 +569,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00092">92</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00103">103</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -495,12 +580,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define stub&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(&quot;stub&quot;)</td>
+          <td class="memname">#define stub&#160;&#160;&#160;<a class="el" href="../../db/d16/debug_8h.html#a74f3fc61fe0e1344da54caea3bdc2d4f">SysDbgWriteLine</a>(<a class="el" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa3d9e124e7184eacd0d11ee66bd4a03a">DebugLevelStub</a>, __FILE__, __LINE__, __FUNCTION__, &quot;stub&quot;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00106">106</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00100">100</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -530,7 +615,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00088">88</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00098">98</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -560,7 +645,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00086">86</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00095">95</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -590,7 +675,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00079">79</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00087">87</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 
 </div>
 </div>
@@ -615,27 +700,33 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f"></a>DebugLevelTrace&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd"></a>DebugLevelFixme&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6"></a>DebugLevelUbsan&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab658e6d84759440dbf3c890446075395aa3d9e124e7184eacd0d11ee66bd4a03a"></a>DebugLevelStub&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ab658e6d84759440dbf3c890446075395af1af66091ae5a8a3831e1d6fca50fbf4"></a>DebugLevelFunction&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d16/debug_8h_source.html#l00023">23</a> of file <a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>.</p>
 <div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa114e9058dec632ed3a55b821021782a">DebugLevelNone</a> = 0,</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395ad6e4fa64404a1decc8ef41d34722fb0b">DebugLevelError</a> = 1,</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a1b21ff7eb7a9b80bf53ed154277818b4">DebugLevelWarning</a> = 2,</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a025492f2cc5d5a4aac7b17cb0a1f6861">DebugLevelInfo</a> = 3,</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a63db8a1dcf928bc7ecf8bfa76c603988">DebugLevelDebug</a> = 4,</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f">DebugLevelTrace</a> = 5,</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd">DebugLevelFixme</a> = 6,</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6">DebugLevelUbsan</a> = 7</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;};</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395ad6e4fa64404a1decc8ef41d34722fb0b">DebugLevelError</a>,</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a1b21ff7eb7a9b80bf53ed154277818b4">DebugLevelWarning</a>,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a025492f2cc5d5a4aac7b17cb0a1f6861">DebugLevelInfo</a>,</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a63db8a1dcf928bc7ecf8bfa76c603988">DebugLevelDebug</a>,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f">DebugLevelTrace</a>,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd">DebugLevelFixme</a>,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6">DebugLevelUbsan</a>,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa3d9e124e7184eacd0d11ee66bd4a03a">DebugLevelStub</a>,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395af1af66091ae5a8a3831e1d6fca50fbf4">DebugLevelFunction</a>,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
 <div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395a025492f2cc5d5a4aac7b17cb0a1f6861"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a025492f2cc5d5a4aac7b17cb0a1f6861">DebugLevelInfo</a></div><div class="ttdeci">@ DebugLevelInfo</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00028">debug.h:28</a></div></div>
 <div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395a1b21ff7eb7a9b80bf53ed154277818b4"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a1b21ff7eb7a9b80bf53ed154277818b4">DebugLevelWarning</a></div><div class="ttdeci">@ DebugLevelWarning</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00027">debug.h:27</a></div></div>
 <div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a54602156909dd633066e5c4fa08f06fd">DebugLevelFixme</a></div><div class="ttdeci">@ DebugLevelFixme</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00031">debug.h:31</a></div></div>
 <div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395a63db8a1dcf928bc7ecf8bfa76c603988"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a63db8a1dcf928bc7ecf8bfa76c603988">DebugLevelDebug</a></div><div class="ttdeci">@ DebugLevelDebug</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00029">debug.h:29</a></div></div>
-<div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6">DebugLevelUbsan</a></div><div class="ttdeci">@ DebugLevelUbsan</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00033">debug.h:32</a></div></div>
+<div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a6b27869f6213341294756e1c0fbebbe6">DebugLevelUbsan</a></div><div class="ttdeci">@ DebugLevelUbsan</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00032">debug.h:32</a></div></div>
 <div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395a70aa6640989f7d51c9a132fb2d2d1b0f">DebugLevelTrace</a></div><div class="ttdeci">@ DebugLevelTrace</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00030">debug.h:30</a></div></div>
 <div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395aa114e9058dec632ed3a55b821021782a"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa114e9058dec632ed3a55b821021782a">DebugLevelNone</a></div><div class="ttdeci">@ DebugLevelNone</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00025">debug.h:25</a></div></div>
+<div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395aa3d9e124e7184eacd0d11ee66bd4a03a"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395aa3d9e124e7184eacd0d11ee66bd4a03a">DebugLevelStub</a></div><div class="ttdeci">@ DebugLevelStub</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00033">debug.h:33</a></div></div>
 <div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395ad6e4fa64404a1decc8ef41d34722fb0b"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395ad6e4fa64404a1decc8ef41d34722fb0b">DebugLevelError</a></div><div class="ttdeci">@ DebugLevelError</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00026">debug.h:26</a></div></div>
+<div class="ttc" id="adebug_8h_html_ab658e6d84759440dbf3c890446075395af1af66091ae5a8a3831e1d6fca50fbf4"><div class="ttname"><a href="../../db/d16/debug_8h.html#ab658e6d84759440dbf3c890446075395af1af66091ae5a8a3831e1d6fca50fbf4">DebugLevelFunction</a></div><div class="ttdeci">@ DebugLevelFunction</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00034">debug.h:34</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -690,27 +781,31 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00135">135</a> of file <a class="el" href="../../db/d7b/Debugger_8cpp_source.html">Debugger.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;{</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    SmartTimeoutLock(DebuggerLock, 1000);</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="../../db/d7b/Debugger_8cpp.html#a3173907b49e7ff941cc37b041e84ab77">WritePrefix</a>(<a class="code" href="../../d3/dbd/cyg_8cpp.html#aa3d2c0758a70c3bb49a3d73a14a94d0a">Level</a>, <a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, Line, Function);</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> <a class="code" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ae18258ca48b920ac9e1d5a7738d83c92">args</a>;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>, Format);</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d">vfctprintf</a>(<a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>, <span class="keyword">nullptr</span>, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;}</div>
-<div class="ttc" id="aDebugger_8cpp_html_a3173907b49e7ff941cc37b041e84ab77"><div class="ttname"><a href="../../db/d7b/Debugger_8cpp.html#a3173907b49e7ff941cc37b041e84ab77">WritePrefix</a></div><div class="ttdeci">static NIF void WritePrefix(DebugLevel Level, const char *File, int Line, const char *Function)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7b/Debugger_8cpp_source.html#l00034">Debugger.cpp:34</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../db/d7b/Debugger_8cpp_source.html">Debugger.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;{</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    SmartTimeoutLock(DebuggerLock, 1000);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> <a class="code" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#acbc73987f03217305640cb5c52bd954a">args</a>;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>, Format);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d7b/Debugger_8cpp.html#adbc8a86ad7c99107caaaf1cf9453bca9">WritePrefix</a>(<a class="code" href="../../d3/dbd/cyg_8cpp.html#aa3d2c0758a70c3bb49a3d73a14a94d0a">Level</a>, <a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, Line, Function, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>))</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    }</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d">vfctprintf</a>(<a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>, <span class="keyword">nullptr</span>, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}</div>
 <div class="ttc" id="aDebugger_8cpp_html_a880c069d39b415a57e61af1c0961e3dc"><div class="ttname"><a href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a></div><div class="ttdeci">static NIF void uart_wrapper(char c, void *unused)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7b/Debugger_8cpp_source.html#l00028">Debugger.cpp:28</a></div></div>
+<div class="ttc" id="aDebugger_8cpp_html_adbc8a86ad7c99107caaaf1cf9453bca9"><div class="ttname"><a href="../../db/d7b/Debugger_8cpp.html#adbc8a86ad7c99107caaaf1cf9453bca9">WritePrefix</a></div><div class="ttdeci">static NIF bool WritePrefix(DebugLevel Level, const char *File, int Line, const char *Function, const char *Format, va_list args)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d7b/Debugger_8cpp_source.html#l00034">Debugger.cpp:34</a></div></div>
 <div class="ttc" id="aKernel_2include_2printf_8h_html_a47c8d7b7f2120352c780f49b0212a13d"><div class="ttname"><a href="../../dc/df9/Kernel_2include_2printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d">vfctprintf</a></div><div class="ttdeci">PRINTF_VISIBILITY int PRINTF_VISIBILITY int vfctprintf(void(*out)(char c, void *extra_arg), void *extra_arg, const char *format, va_list arg) ATTR_VPRINTF(3)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01552">printf.c:1552</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a2ed76bdaf83448883f275ac530e804e9"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a></div><div class="ttdeci">__builtin_va_list va_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00069">types.h:69</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2stdio_8h_html_ae18258ca48b920ac9e1d5a7738d83c92"><div class="ttname"><a href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ae18258ca48b920ac9e1d5a7738d83c92">args</a></div><div class="ttdeci">const char *__restrict const char *__restrict size_t const char *__restrict const char *__restrict const char *__restrict const char *__restrict __gnuc_va_list args</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h_source.html#l00129">stdio.h:129</a></div></div>
+<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2stdio_8h_html_acbc73987f03217305640cb5c52bd954a"><div class="ttname"><a href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#acbc73987f03217305640cb5c52bd954a">args</a></div><div class="ttdeci">const char *__restrict const char *__restrict size_t const char *__restrict const char *__restrict const char *__restrict const char *__restrict __builtin_va_list args</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h_source.html#l00126">stdio.h:126</a></div></div>
 <div class="ttc" id="acyg_8cpp_html_aa3d2c0758a70c3bb49a3d73a14a94d0a"><div class="ttname"><a href="../../d3/dbd/cyg_8cpp.html#aa3d2c0758a70c3bb49a3d73a14a94d0a">Level</a></div><div class="ttdeci">unsigned int Level</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbd/cyg_8cpp_source.html#l00027">cyg.cpp:27</a></div></div>
 <div class="ttc" id="aerr_8cpp_html_a8325641b40794a24f83bd134baab41ca"><div class="ttname"><a href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a></div><div class="ttdeci">va_end(params)</div></div>
 <div class="ttc" id="aerr_8cpp_html_a99630f30e015969e8479d586931c5848"><div class="ttname"><a href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a></div><div class="ttdeci">const char va_start(params, fmt)</div></div>
 <div class="ttc" id="alibs_2include_2libsys_2file_8h_html_d6/d88/structFile"><div class="ttname"><a href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d9f/libs_2include_2libsys_2file_8h_source.html#l00006">file.h:7</a></div></div>
 <div class="ttc" id="aspawn-stubs_8cpp_html_d8/d08/structargs"><div class="ttname"><a href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d30/spawn-stubs_8cpp_source.html#l00045">spawn-stubs.cpp:45</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h_source.html#l00129">args</a>, <a class="el" href="../../d3/dbd/cyg_8cpp_source.html#l00027">Level</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00028">uart_wrapper()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start()</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01552">vfctprintf()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00034">WritePrefix()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h_source.html#l00126">args</a>, <a class="el" href="../../d3/dbd/cyg_8cpp_source.html#l00027">Level</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00028">uart_wrapper()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start()</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01552">vfctprintf()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00034">WritePrefix()</a>.</p>
 
 </div>
 </div>
@@ -764,18 +859,22 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../db/d7b/Debugger_8cpp_source.html">Debugger.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;{</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    SmartTimeoutLock(DebuggerLock, 1000);</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="../../db/d7b/Debugger_8cpp.html#a3173907b49e7ff941cc37b041e84ab77">WritePrefix</a>(<a class="code" href="../../d3/dbd/cyg_8cpp.html#aa3d2c0758a70c3bb49a3d73a14a94d0a">Level</a>, <a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, Line, Function);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> <a class="code" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ae18258ca48b920ac9e1d5a7738d83c92">args</a>;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>, Format);</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d">vfctprintf</a>(<a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>, <span class="keyword">nullptr</span>, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>(<span class="charliteral">&#39;\n&#39;</span>, <span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00183">183</a> of file <a class="el" href="../../db/d7b/Debugger_8cpp_source.html">Debugger.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;{</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    SmartTimeoutLock(DebuggerLock, 1000);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> <a class="code" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#acbc73987f03217305640cb5c52bd954a">args</a>;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>, Format);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d7b/Debugger_8cpp.html#adbc8a86ad7c99107caaaf1cf9453bca9">WritePrefix</a>(<a class="code" href="../../d3/dbd/cyg_8cpp.html#aa3d2c0758a70c3bb49a3d73a14a94d0a">Level</a>, <a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, Line, Function, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>))</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d">vfctprintf</a>(<a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>, <span class="keyword">nullptr</span>, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>(<span class="charliteral">&#39;\n&#39;</span>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h_source.html#l00129">args</a>, <a class="el" href="../../d3/dbd/cyg_8cpp_source.html#l00027">Level</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00028">uart_wrapper()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start()</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01552">vfctprintf()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00034">WritePrefix()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h_source.html#l00126">args</a>, <a class="el" href="../../d3/dbd/cyg_8cpp_source.html#l00027">Level</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00028">uart_wrapper()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start()</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01552">vfctprintf()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00034">WritePrefix()</a>.</p>
 
 </div>
 </div>
@@ -829,16 +928,20 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00114">114</a> of file <a class="el" href="../../db/d7b/Debugger_8cpp_source.html">Debugger.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../db/d7b/Debugger_8cpp.html#a3173907b49e7ff941cc37b041e84ab77">WritePrefix</a>(<a class="code" href="../../d3/dbd/cyg_8cpp.html#aa3d2c0758a70c3bb49a3d73a14a94d0a">Level</a>, <a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, Line, Function);</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> <a class="code" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ae18258ca48b920ac9e1d5a7738d83c92">args</a>;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>, Format);</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d">vfctprintf</a>(<a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>, <span class="keyword">nullptr</span>, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00139">139</a> of file <a class="el" href="../../db/d7b/Debugger_8cpp_source.html">Debugger.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;{</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> <a class="code" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#acbc73987f03217305640cb5c52bd954a">args</a>;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>, Format);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d7b/Debugger_8cpp.html#adbc8a86ad7c99107caaaf1cf9453bca9">WritePrefix</a>(<a class="code" href="../../d3/dbd/cyg_8cpp.html#aa3d2c0758a70c3bb49a3d73a14a94d0a">Level</a>, <a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, Line, Function, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>))</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d">vfctprintf</a>(<a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>, <span class="keyword">nullptr</span>, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h_source.html#l00129">args</a>, <a class="el" href="../../d3/dbd/cyg_8cpp_source.html#l00027">Level</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00028">uart_wrapper()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start()</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01552">vfctprintf()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00034">WritePrefix()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h_source.html#l00126">args</a>, <a class="el" href="../../d3/dbd/cyg_8cpp_source.html#l00027">Level</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00028">uart_wrapper()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start()</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01552">vfctprintf()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00034">WritePrefix()</a>.</p>
 
 </div>
 </div>
@@ -892,17 +995,21 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00124">124</a> of file <a class="el" href="../../db/d7b/Debugger_8cpp_source.html">Debugger.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;{</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../db/d7b/Debugger_8cpp.html#a3173907b49e7ff941cc37b041e84ab77">WritePrefix</a>(<a class="code" href="../../d3/dbd/cyg_8cpp.html#aa3d2c0758a70c3bb49a3d73a14a94d0a">Level</a>, <a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, Line, Function);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> <a class="code" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ae18258ca48b920ac9e1d5a7738d83c92">args</a>;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>, Format);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d">vfctprintf</a>(<a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>, <span class="keyword">nullptr</span>, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>(<span class="charliteral">&#39;\n&#39;</span>, <span class="keyword">nullptr</span>);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00153">153</a> of file <a class="el" href="../../db/d7b/Debugger_8cpp_source.html">Debugger.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;{</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> <a class="code" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#acbc73987f03217305640cb5c52bd954a">args</a>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>, Format);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../db/d7b/Debugger_8cpp.html#adbc8a86ad7c99107caaaf1cf9453bca9">WritePrefix</a>(<a class="code" href="../../d3/dbd/cyg_8cpp.html#aa3d2c0758a70c3bb49a3d73a14a94d0a">Level</a>, <a class="code" href="../../d8/d9f/libs_2include_2libsys_2file_8h.html#d6/d88/structFile">File</a>, Line, Function, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>))</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="../../dc/df9/Kernel_2include_2printf_8h.html#a47c8d7b7f2120352c780f49b0212a13d">vfctprintf</a>(<a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>, <span class="keyword">nullptr</span>, Format, <a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(<a class="code" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="../../db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc">uart_wrapper</a>(<span class="charliteral">&#39;\n&#39;</span>, <span class="keyword">nullptr</span>);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h_source.html#l00129">args</a>, <a class="el" href="../../d3/dbd/cyg_8cpp_source.html#l00027">Level</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00028">uart_wrapper()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start()</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01552">vfctprintf()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00034">WritePrefix()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h_source.html#l00126">args</a>, <a class="el" href="../../d3/dbd/cyg_8cpp_source.html#l00027">Level</a>, <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00028">uart_wrapper()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start()</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01552">vfctprintf()</a>, and <a class="el" href="../../db/d7b/Debugger_8cpp_source.html#l00034">WritePrefix()</a>.</p>
 
 </div>
 </div>

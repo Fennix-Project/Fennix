@@ -28,8 +28,10 @@ var classVirtualFileSystem_1_1USTAR =
       [ "DIRECTORY", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a546482713011000f5c267bd18b278e8ba692bd10b48c271f5dfd6d59b53ecd646", null ],
       [ "FIFO", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a546482713011000f5c267bd18b278e8baaccc119c58b7c2e9394e4b7978e207fc", null ]
     ] ],
-    [ "USTAR", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a2390f333cf65cef5a0ee095d6c373119", null ],
+    [ "USTAR", "d3/d26/classVirtualFileSystem_1_1USTAR.html#ac016de6bb644e6b151d1e521542c8b92", null ],
     [ "~USTAR", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a8b8bffa7dacfa5af0c724972be531e48", null ],
     [ "getsize", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a139f18e2cc5409dc3c8bf680064124bd", null ],
-    [ "string2int", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a3701415eb5dd6e9a2b72d407c9c8229e", null ]
+    [ "ReadArchive", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a70a1ba9a1e7f1aa1d1ceb12e7d6d6e12", null ],
+    [ "string2int", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a3701415eb5dd6e9a2b72d407c9c8229e", null ],
+    [ "TestArchive", "d3/d26/classVirtualFileSystem_1_1USTAR.html#a80032651301ce3ad023028a40d505e71", null ]
 ];

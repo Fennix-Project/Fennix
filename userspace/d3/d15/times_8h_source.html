@@ -106,13 +106,17 @@ $(document).ready(function(){initNavTree('d3/d15/times_8h_source.html','../../')
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d3/d15/times_8h.html#ad21f41a18aff2813fe6154154f1f9522">   15</a></span>&#160;    <a class="code" href="../../d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a56d31f5d6d90595c821854a129b3e33a">clock_t</a> <a class="code" href="../../d3/d15/times_8h.html#ad21f41a18aff2813fe6154154f1f9522">tms_cstime</a>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;};</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<a class="code" href="../../d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a56d31f5d6d90595c821854a129b3e33a">clock_t</a> <a class="code" href="../../d3/d15/times_8h.html#ae09b58dd4e07018d157cc19d324dd6bc">times</a>(<span class="keyword">struct</span> <a class="code" href="../../d3/d15/times_8h.html#d8/d15/structtms">tms</a> *);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<a class="code" href="../../d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a56d31f5d6d90595c821854a129b3e33a">clock_t</a> <a class="code" href="../../d3/d15/times_8h.html#ae09b58dd4e07018d157cc19d324dd6bc">times</a>(<span class="keyword">struct</span> <a class="code" href="../../d3/d15/times_8h.html#d8/d15/structtms">tms</a> *);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_TIMES_H</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_TIMES_H</span></div>
 <div class="ttc" id="amlibc_2options_2ansi_2include_2time_8h_html_a56d31f5d6d90595c821854a129b3e33a"><div class="ttname"><a href="../../d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a56d31f5d6d90595c821854a129b3e33a">clock_t</a></div><div class="ttdeci">long clock_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df2/mlibc_2options_2ansi_2include_2time_8h_source.html#l00035">time.h:35</a></div></div>
 <div class="ttc" id="amlibc_2sysdeps_2managarm_2include_2abi-bits_2time_8h_html"><div class="ttname"><a href="../../d0/dad/mlibc_2sysdeps_2managarm_2include_2abi-bits_2time_8h.html">time.h</a></div></div>
 <div class="ttc" id="atimes_8h_html_a2522ba0b91f98baeb8f2b7249f367b7c"><div class="ttname"><a href="../../d3/d15/times_8h.html#a2522ba0b91f98baeb8f2b7249f367b7c">tms::tms_utime</a></div><div class="ttdeci">clock_t tms_utime</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d15/times_8h_source.html#l00012">times.h:12</a></div></div>

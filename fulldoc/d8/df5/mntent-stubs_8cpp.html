@@ -86,33 +86,72 @@ $(document).ready(function(){initNavTree('d8/df5/mntent-stubs_8cpp.html','../../
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">mntent-stubs.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../de/d1b/mntent_8h_source.html">mntent.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;errno.h&gt;</code><br />
+<code>#include &lt;mntent.h&gt;</code><br />
 <code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;limits.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dc5/ensure_8h_source.html">bits/ensure.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d8/df5/mntent-stubs_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html">anonymous_namespace{mntent-stubs.cpp}</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:af2af475b85aef66019c417d8ded1c435"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#af2af475b85aef66019c417d8ded1c435">SENTINEL</a>&#160;&#160;&#160;(char *)&amp;internal_buf</td></tr>
+<tr class="separator:af2af475b85aef66019c417d8ded1c435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a71e2cbe3790726f2c19d5a0e7f924d54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#a71e2cbe3790726f2c19d5a0e7f924d54">setmntent</a> (const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>, const char *mode)</td></tr>
 <tr class="separator:a71e2cbe3790726f2c19d5a0e7f924d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac47c4964c045da6ea37362cfbe6da384"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../de/d1b/mntent_8h.html#d4/d79/structmntent">mntent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#ac47c4964c045da6ea37362cfbe6da384">getmntent</a> (<a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *)</td></tr>
-<tr class="separator:ac47c4964c045da6ea37362cfbe6da384"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a025bc93b2dd70bc5d5103cab99cf6e12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#a025bc93b2dd70bc5d5103cab99cf6e12">addmntent</a> (<a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *f, const struct <a class="el" href="../../de/d1b/mntent_8h.html#d4/d79/structmntent">mntent</a> *mnt)</td></tr>
+<tr class="memitem:a178ecfd931ed448d902e3b45b302057f"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#a178ecfd931ed448d902e3b45b302057f">getmntent</a> (<a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *f)</td></tr>
+<tr class="separator:a178ecfd931ed448d902e3b45b302057f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a025bc93b2dd70bc5d5103cab99cf6e12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#a025bc93b2dd70bc5d5103cab99cf6e12">addmntent</a> (<a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *f, const struct <a class="el" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a> *mnt)</td></tr>
 <tr class="separator:a025bc93b2dd70bc5d5103cab99cf6e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a080d66742bcc8689edd2ce3c3fde881f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#a080d66742bcc8689edd2ce3c3fde881f">endmntent</a> (<a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *f)</td></tr>
 <tr class="separator:a080d66742bcc8689edd2ce3c3fde881f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a5596ac228bdc0054f4b9f6a0b29c34"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#a5a5596ac228bdc0054f4b9f6a0b29c34">hasmntopt</a> (const struct <a class="el" href="../../de/d1b/mntent_8h.html#d4/d79/structmntent">mntent</a> *mnt, const char *opt)</td></tr>
+<tr class="memitem:a5a5596ac228bdc0054f4b9f6a0b29c34"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#a5a5596ac228bdc0054f4b9f6a0b29c34">hasmntopt</a> (const struct <a class="el" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a> *mnt, const char *opt)</td></tr>
 <tr class="separator:a5a5596ac228bdc0054f4b9f6a0b29c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4736263db73a8f1b65bd21a347884810"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../de/d1b/mntent_8h.html#d4/d79/structmntent">mntent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#a4736263db73a8f1b65bd21a347884810">getmntent_r</a> (<a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *, struct <a class="el" href="../../de/d1b/mntent_8h.html#d4/d79/structmntent">mntent</a> *, char *, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>)</td></tr>
-<tr class="separator:a4736263db73a8f1b65bd21a347884810"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec29c9a862c58f92d3e004b198d7c913"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/df5/mntent-stubs_8cpp.html#aec29c9a862c58f92d3e004b198d7c913">getmntent_r</a> (<a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *f, struct <a class="el" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a> *mnt, char *linebuf, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> buflen)</td></tr>
+<tr class="separator:aec29c9a862c58f92d3e004b198d7c913"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:adf2b766fbb5437b930cd242cfe82691e"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html#adf2b766fbb5437b930cd242cfe82691e">anonymous_namespace{mntent-stubs.cpp}::internal_buf</a></td></tr>
+<tr class="separator:adf2b766fbb5437b930cd242cfe82691e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5c86e7857a6dab13cc825637ac8c768"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5b9a73153ebbd0f9c911015c8244b8ce">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html#ae5c86e7857a6dab13cc825637ac8c768">anonymous_namespace{mntent-stubs.cpp}::internal_bufsize</a></td></tr>
+<tr class="separator:ae5c86e7857a6dab13cc825637ac8c768"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af2af475b85aef66019c417d8ded1c435"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2af475b85aef66019c417d8ded1c435">&#9670;&nbsp;</a></span>SENTINEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define SENTINEL&#160;&#160;&#160;(char *)&amp;internal_buf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a025bc93b2dd70bc5d5103cab99cf6e12"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a025bc93b2dd70bc5d5103cab99cf6e12">&#9670;&nbsp;</a></span>addmntent()</h2>
@@ -129,7 +168,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct <a class="el" href="../../de/d1b/mntent_8h.html#d4/d79/structmntent">mntent</a> *&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a> *&#160;</td>
           <td class="paramname"><em>mnt</em>&#160;</td>
         </tr>
         <tr>
@@ -140,26 +179,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00016">16</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                                                 {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a0e2e427efc2203119e977e5c36546f81">fseek</a>(f, 0, <a class="code" href="../../d1/d85/filesystem_8hpp.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>)) {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(f, <span class="stringliteral">&quot;%s\t%s\t%s\t%s\t%d\t%d\n&quot;</span>,</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        mnt-&gt;<a class="code" href="../../de/d1b/mntent_8h.html#a12668ee91b76c5bf9a629191ebaa5a79">mnt_fsname</a>, mnt-&gt;<a class="code" href="../../de/d1b/mntent_8h.html#a19ea641b8cbbbfa61abe265e5802b092">mnt_dir</a>, mnt-&gt;<a class="code" href="../../de/d1b/mntent_8h.html#a4afd5bd8fa7b0a24a394994dceecb7a5">mnt_type</a>, mnt-&gt;<a class="code" href="../../de/d1b/mntent_8h.html#a2d2f5aa667cd75b99590e09be6ee5bd9">mnt_opts</a>,</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        mnt-&gt;<a class="code" href="../../de/d1b/mntent_8h.html#a8b76d6e7c1b521e9f9ad6b49fef3a377">mnt_freq</a>, mnt-&gt;<a class="code" href="../../de/d1b/mntent_8h.html#a7ed657ca8bb608a42b9613aef7a86a00">mnt_passno</a>) &lt; 0;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                                                 {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a0e2e427efc2203119e977e5c36546f81">fseek</a>(f, 0, <a class="code" href="../../d1/d85/filesystem_8hpp.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a>)) {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(f, <span class="stringliteral">&quot;%s\t%s\t%s\t%s\t%d\t%d\n&quot;</span>,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a17df7e25dc7b2cfef1148d27facf2958">mnt_fsname</a>, mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a7a3579be8b608b8ca4e9a4e3a54a306d">mnt_dir</a>, mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#ad6710cebf2b99813fb48383120243c67">mnt_type</a>, mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#ac4ea89b7c8f328b7f35f47198d49ee89">mnt_opts</a>,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a8b76d6e7c1b521e9f9ad6b49fef3a377">mnt_freq</a>, mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a7ed657ca8bb608a42b9613aef7a86a00">mnt_passno</a>) &lt; 0;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
 <div class="ttc" id="aKernelConfig_8cpp_html_a4db4281a3169b26f4f69f18f20440e5d"><div class="ttname"><a href="../../dc/d66/KernelConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a></div><div class="ttdeci">EXTERNC void fprintf(FILE *stream, const char *Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d66/KernelConfig_8cpp_source.html#l00028">KernelConfig.cpp:28</a></div></div>
-<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_a0e2e427efc2203119e977e5c36546f81"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a0e2e427efc2203119e977e5c36546f81">fseek</a></div><div class="ttdeci">off_t fseek(FILE *stream, long offset, int whence)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00057">file.c:57</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_a0e2e427efc2203119e977e5c36546f81"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a0e2e427efc2203119e977e5c36546f81">fseek</a></div><div class="ttdeci">off_t fseek(FILE *stream, long offset, int whence)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00061">file.c:61</a></div></div>
 <div class="ttc" id="afilesystem_8hpp_html_ad2a2e6c114780c3071efd24f16c7f7d8"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#ad2a2e6c114780c3071efd24f16c7f7d8">SEEK_END</a></div><div class="ttdeci">#define SEEK_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00031">filesystem.hpp:31</a></div></div>
-<div class="ttc" id="amntent_8h_html_a12668ee91b76c5bf9a629191ebaa5a79"><div class="ttname"><a href="../../de/d1b/mntent_8h.html#a12668ee91b76c5bf9a629191ebaa5a79">mntent::mnt_fsname</a></div><div class="ttdeci">char * mnt_fsname</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1b/mntent_8h_source.html#l00022">mntent.h:22</a></div></div>
-<div class="ttc" id="amntent_8h_html_a19ea641b8cbbbfa61abe265e5802b092"><div class="ttname"><a href="../../de/d1b/mntent_8h.html#a19ea641b8cbbbfa61abe265e5802b092">mntent::mnt_dir</a></div><div class="ttdeci">char * mnt_dir</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1b/mntent_8h_source.html#l00023">mntent.h:23</a></div></div>
-<div class="ttc" id="amntent_8h_html_a2d2f5aa667cd75b99590e09be6ee5bd9"><div class="ttname"><a href="../../de/d1b/mntent_8h.html#a2d2f5aa667cd75b99590e09be6ee5bd9">mntent::mnt_opts</a></div><div class="ttdeci">char * mnt_opts</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1b/mntent_8h_source.html#l00025">mntent.h:25</a></div></div>
-<div class="ttc" id="amntent_8h_html_a4afd5bd8fa7b0a24a394994dceecb7a5"><div class="ttname"><a href="../../de/d1b/mntent_8h.html#a4afd5bd8fa7b0a24a394994dceecb7a5">mntent::mnt_type</a></div><div class="ttdeci">char * mnt_type</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1b/mntent_8h_source.html#l00024">mntent.h:24</a></div></div>
-<div class="ttc" id="amntent_8h_html_a7ed657ca8bb608a42b9613aef7a86a00"><div class="ttname"><a href="../../de/d1b/mntent_8h.html#a7ed657ca8bb608a42b9613aef7a86a00">mntent::mnt_passno</a></div><div class="ttdeci">int mnt_passno</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1b/mntent_8h_source.html#l00027">mntent.h:27</a></div></div>
-<div class="ttc" id="amntent_8h_html_a8b76d6e7c1b521e9f9ad6b49fef3a377"><div class="ttname"><a href="../../de/d1b/mntent_8h.html#a8b76d6e7c1b521e9f9ad6b49fef3a377">mntent::mnt_freq</a></div><div class="ttdeci">int mnt_freq</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1b/mntent_8h_source.html#l00026">mntent.h:26</a></div></div>
+<div class="ttc" id="asysdeps_2lyre_2include_2mntent_8h_html_a17df7e25dc7b2cfef1148d27facf2958"><div class="ttname"><a href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a17df7e25dc7b2cfef1148d27facf2958">mntent::mnt_fsname</a></div><div class="ttdeci">char * mnt_fsname</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00022">mntent.h:22</a></div></div>
+<div class="ttc" id="asysdeps_2lyre_2include_2mntent_8h_html_a7a3579be8b608b8ca4e9a4e3a54a306d"><div class="ttname"><a href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a7a3579be8b608b8ca4e9a4e3a54a306d">mntent::mnt_dir</a></div><div class="ttdeci">char * mnt_dir</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00023">mntent.h:23</a></div></div>
+<div class="ttc" id="asysdeps_2lyre_2include_2mntent_8h_html_a7ed657ca8bb608a42b9613aef7a86a00"><div class="ttname"><a href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a7ed657ca8bb608a42b9613aef7a86a00">mntent::mnt_passno</a></div><div class="ttdeci">int mnt_passno</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00027">mntent.h:27</a></div></div>
+<div class="ttc" id="asysdeps_2lyre_2include_2mntent_8h_html_a8b76d6e7c1b521e9f9ad6b49fef3a377"><div class="ttname"><a href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a8b76d6e7c1b521e9f9ad6b49fef3a377">mntent::mnt_freq</a></div><div class="ttdeci">int mnt_freq</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00026">mntent.h:26</a></div></div>
+<div class="ttc" id="asysdeps_2lyre_2include_2mntent_8h_html_ac4ea89b7c8f328b7f35f47198d49ee89"><div class="ttname"><a href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#ac4ea89b7c8f328b7f35f47198d49ee89">mntent::mnt_opts</a></div><div class="ttdeci">char * mnt_opts</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00025">mntent.h:25</a></div></div>
+<div class="ttc" id="asysdeps_2lyre_2include_2mntent_8h_html_ad6710cebf2b99813fb48383120243c67"><div class="ttname"><a href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#ad6710cebf2b99813fb48383120243c67">mntent::mnt_type</a></div><div class="ttdeci">char * mnt_type</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00024">mntent.h:24</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d66/KernelConfig_8cpp_source.html#l00028">fprintf()</a>, <a class="el" href="../../d6/d13/file_8c_source.html#l00057">fseek()</a>, <a class="el" href="../../de/d1b/mntent_8h_source.html#l00023">mntent::mnt_dir</a>, <a class="el" href="../../de/d1b/mntent_8h_source.html#l00026">mntent::mnt_freq</a>, <a class="el" href="../../de/d1b/mntent_8h_source.html#l00022">mntent::mnt_fsname</a>, <a class="el" href="../../de/d1b/mntent_8h_source.html#l00025">mntent::mnt_opts</a>, <a class="el" href="../../de/d1b/mntent_8h_source.html#l00027">mntent::mnt_passno</a>, <a class="el" href="../../de/d1b/mntent_8h_source.html#l00024">mntent::mnt_type</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00031">SEEK_END</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d66/KernelConfig_8cpp_source.html#l00028">fprintf()</a>, <a class="el" href="../../d6/d13/file_8c_source.html#l00061">fseek()</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00023">mntent::mnt_dir</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00026">mntent::mnt_freq</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00022">mntent::mnt_fsname</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00025">mntent::mnt_opts</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00027">mntent::mnt_passno</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00024">mntent::mnt_type</a>, and <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00031">SEEK_END</a>.</p>
 
 </div>
 </div>
@@ -179,75 +218,77 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00025">25</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                       {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">if</span>(f) {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a3abd78c220b4b49d1b088f0dfe40bf23">fclose</a>(f);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_a3abd78c220b4b49d1b088f0dfe40bf23"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a3abd78c220b4b49d1b088f0dfe40bf23">fclose</a></div><div class="ttdeci">int fclose(FILE *fp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00044">file.c:44</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                       {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span>(f) {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a3abd78c220b4b49d1b088f0dfe40bf23">fclose</a>(f);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
+<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_a3abd78c220b4b49d1b088f0dfe40bf23"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a3abd78c220b4b49d1b088f0dfe40bf23">fclose</a></div><div class="ttdeci">int fclose(FILE *fp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00048">file.c:48</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d13/file_8c_source.html#l00044">fclose()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d13/file_8c_source.html#l00048">fclose()</a>.</p>
 
 </div>
 </div>
-<a id="ac47c4964c045da6ea37362cfbe6da384"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac47c4964c045da6ea37362cfbe6da384">&#9670;&nbsp;</a></span>getmntent()</h2>
+<a id="a178ecfd931ed448d902e3b45b302057f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a178ecfd931ed448d902e3b45b302057f">&#9670;&nbsp;</a></span>getmntent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../de/d1b/mntent_8h.html#d4/d79/structmntent">mntent</a>* getmntent </td>
+          <td class="memname">struct <a class="el" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a>* getmntent </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>f</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00011">11</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                                 {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    __builtin_unreachable();</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="aensure_8h_html_a5e2c6c11947e5c706f6557c5195d90be"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a></div><div class="ttdeci">#define __ensure(assertion)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00015">ensure.h:15</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00022">22</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                                  {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">static</span> <span class="keyword">struct </span><a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a> mnt;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/df5/mntent-stubs_8cpp.html#aec29c9a862c58f92d3e004b198d7c913">getmntent_r</a>(f, &amp;mnt, <a class="code" href="../../d8/df5/mntent-stubs_8cpp.html#af2af475b85aef66019c417d8ded1c435">SENTINEL</a>, 0);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
+<div class="ttc" id="amntent-stubs_8cpp_html_aec29c9a862c58f92d3e004b198d7c913"><div class="ttname"><a href="../../d8/df5/mntent-stubs_8cpp.html#aec29c9a862c58f92d3e004b198d7c913">getmntent_r</a></div><div class="ttdeci">struct mntent * getmntent_r(FILE *f, struct mntent *mnt, char *linebuf, int buflen)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df5/mntent-stubs_8cpp_source.html#l00048">mntent-stubs.cpp:48</a></div></div>
+<div class="ttc" id="amntent-stubs_8cpp_html_af2af475b85aef66019c417d8ded1c435"><div class="ttname"><a href="../../d8/df5/mntent-stubs_8cpp.html#af2af475b85aef66019c417d8ded1c435">SENTINEL</a></div><div class="ttdeci">#define SENTINEL</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df5/mntent-stubs_8cpp_source.html#l00016">mntent-stubs.cpp:16</a></div></div>
+<div class="ttc" id="asysdeps_2lyre_2include_2mntent_8h_html_d4/d79/structmntent"><div class="ttname"><a href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00021">mntent.h:21</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00015">__ensure</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00048">getmntent_r()</a>, and <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00016">SENTINEL</a>.</p>
 
 </div>
 </div>
-<a id="a4736263db73a8f1b65bd21a347884810"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4736263db73a8f1b65bd21a347884810">&#9670;&nbsp;</a></span>getmntent_r()</h2>
+<a id="aec29c9a862c58f92d3e004b198d7c913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec29c9a862c58f92d3e004b198d7c913">&#9670;&nbsp;</a></span>getmntent_r()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../de/d1b/mntent_8h.html#d4/d79/structmntent">mntent</a>* getmntent_r </td>
+          <td class="memname">struct <a class="el" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a>* getmntent_r </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>f</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="../../de/d1b/mntent_8h.html#d4/d79/structmntent">mntent</a> *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">struct <a class="el" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a> *&#160;</td>
+          <td class="paramname"><em>mnt</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">char *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>linebuf</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>buflen</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -257,13 +298,78 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                                                  {</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    __builtin_unreachable();</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00048">48</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                                                                   {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[8];</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">bool</span> use_internal = (linebuf == <a class="code" href="../../d8/df5/mntent-stubs_8cpp.html#af2af475b85aef66019c417d8ded1c435">SENTINEL</a>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a8b76d6e7c1b521e9f9ad6b49fef3a377">mnt_freq</a> = 0;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a7ed657ca8bb608a42b9613aef7a86a00">mnt_passno</a> = 0;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">do</span> {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">if</span>(use_internal) {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#ab6b1c358b1a59fe69277c46e26242f73">getline</a>(&amp;<a class="code" href="../../d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html#adf2b766fbb5437b930cd242cfe82691e">internal_buf</a>, &amp;<a class="code" href="../../d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html#ae5c86e7857a6dab13cc825637ac8c768">internal_bufsize</a>, f);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            linebuf = <a class="code" href="../../d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html#adf2b766fbb5437b930cd242cfe82691e">internal_buf</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#a2e02df40e6ba663485d699718b7cd491">fgets</a>(linebuf, buflen, f);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#a33ab6f268338c905adecabb3933102c8">feof</a>(f) || <a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#aa58677f5b5059349ad98bcec9792dba4">ferror</a>(f)) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a>(linebuf, <span class="charliteral">&#39;\n&#39;</span>)) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#adc5957d0a36b7d07bafd66245193c375">fscanf</a>(f, <span class="stringliteral">&quot;%*[^\n]%*[\n]&quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#aa1591a4f3a86360108de5b9ba34980ca">ERANGE</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> = <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(linebuf);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> &gt; <a class="code" href="../../d4/df4/Kernel_2include__std_2limits_8h.html#a9ec306f36d50c7375e74f0d1c55a3a67">INT_MAX</a>) {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">for</span>(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> = 0; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a> &lt; <span class="keyword">sizeof</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> / <span class="keyword">sizeof</span> *<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>; <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>++) {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a>] = <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#acd369d6926dd1e1fb503821a8b167414">sscanf</a>(linebuf, <span class="stringliteral">&quot; %n%*s%n %n%*s%n %n%*s%n %n%*s%n %d %d&quot;</span>,</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> + 1, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> + 2, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> + 3, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> + 4, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> + 5, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> + 6, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a> + 7,</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            &amp;mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a8b76d6e7c1b521e9f9ad6b49fef3a377">mnt_freq</a>, &amp;mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a7ed657ca8bb608a42b9613aef7a86a00">mnt_passno</a>);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    } <span class="keywordflow">while</span>(linebuf[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[0]] == <span class="charliteral">&#39;#&#39;</span> || <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[1] == <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    linebuf[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[1]] = 0;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    linebuf[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[3]] = 0;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    linebuf[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[5]] = 0;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    linebuf[<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[7]] = 0;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a17df7e25dc7b2cfef1148d27facf2958">mnt_fsname</a> = linebuf + <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[0];</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#a7a3579be8b608b8ca4e9a4e3a54a306d">mnt_dir</a> = linebuf + <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[2];</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#ad6710cebf2b99813fb48383120243c67">mnt_type</a> = linebuf + <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[4];</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#ac4ea89b7c8f328b7f35f47198d49ee89">mnt_opts</a> = linebuf + <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>[6];</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">return</span> mnt;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_aa1591a4f3a86360108de5b9ba34980ca"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#aa1591a4f3a86360108de5b9ba34980ca">ERANGE</a></div><div class="ttdeci">#define ERANGE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00054">errno.h:54</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno.h:152</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2limits_8h_html_a9ec306f36d50c7375e74f0d1c55a3a67"><div class="ttname"><a href="../../d4/df4/Kernel_2include__std_2limits_8h.html#a9ec306f36d50c7375e74f0d1c55a3a67">INT_MAX</a></div><div class="ttdeci">#define INT_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00071">limits.h:71</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_acd369d6926dd1e1fb503821a8b167414"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#acd369d6926dd1e1fb503821a8b167414">sscanf</a></div><div class="ttdeci">int sscanf(const char *s, const char *format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00121">file.c:121</a></div></div>
+<div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00064">Convert.cpp:64</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a88b07011b83b06b8856027f02d55a880"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a></div><div class="ttdeci">char * strchr(const char *String, int Char)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00144">Convert.cpp:144</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02mntent-stubs_8cpp_03_html_adf2b766fbb5437b930cd242cfe82691e"><div class="ttname"><a href="../../d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html#adf2b766fbb5437b930cd242cfe82691e">anonymous_namespace{mntent-stubs.cpp}::internal_buf</a></div><div class="ttdeci">char * internal_buf</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df5/mntent-stubs_8cpp_source.html#l00011">mntent-stubs.cpp:11</a></div></div>
+<div class="ttc" id="anamespaceanonymous__namespace_02mntent-stubs_8cpp_03_html_ae5c86e7857a6dab13cc825637ac8c768"><div class="ttname"><a href="../../d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html#ae5c86e7857a6dab13cc825637ac8c768">anonymous_namespace{mntent-stubs.cpp}::internal_bufsize</a></div><div class="ttdeci">size_t internal_bufsize</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df5/mntent-stubs_8cpp_source.html#l00012">mntent-stubs.cpp:12</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_a76f11d9a0a47b94f72c2d0e77fb32240"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a></div><div class="ttdeci">static int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00035">posix_stdlib.cpp:35</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_acb559820d9ca11295b4500f179ef6392"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#acb559820d9ca11295b4500f179ef6392">i</a></div><div class="ttdeci">static int i</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">posix_stdlib.cpp:36</a></div></div>
+<div class="ttc" id="astdio-stubs_8cpp_html_a2e02df40e6ba663485d699718b7cd491"><div class="ttname"><a href="../../dd/dc0/stdio-stubs_8cpp.html#a2e02df40e6ba663485d699718b7cd491">fgets</a></div><div class="ttdeci">char * fgets(char *__restrict buffer, size_t max_size, FILE *__restrict stream)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00850">stdio-stubs.cpp:850</a></div></div>
+<div class="ttc" id="astdio-stubs_8cpp_html_a33ab6f268338c905adecabb3933102c8"><div class="ttname"><a href="../../dd/dc0/stdio-stubs_8cpp.html#a33ab6f268338c905adecabb3933102c8">feof</a></div><div class="ttdeci">int feof(FILE *file_base)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00989">stdio-stubs.cpp:989</a></div></div>
+<div class="ttc" id="astdio-stubs_8cpp_html_aa58677f5b5059349ad98bcec9792dba4"><div class="ttname"><a href="../../dd/dc0/stdio-stubs_8cpp.html#aa58677f5b5059349ad98bcec9792dba4">ferror</a></div><div class="ttdeci">int ferror(FILE *file_base)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00993">stdio-stubs.cpp:993</a></div></div>
+<div class="ttc" id="astdio-stubs_8cpp_html_ab6b1c358b1a59fe69277c46e26242f73"><div class="ttname"><a href="../../dd/dc0/stdio-stubs_8cpp.html#ab6b1c358b1a59fe69277c46e26242f73">getline</a></div><div class="ttdeci">ssize_t getline(char **line, size_t *n, FILE *stream)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/stdio-stubs_8cpp_source.html#l01007">stdio-stubs.cpp:1007</a></div></div>
+<div class="ttc" id="astdio-stubs_8cpp_html_adc5957d0a36b7d07bafd66245193c375"><div class="ttname"><a href="../../dd/dc0/stdio-stubs_8cpp.html#adc5957d0a36b7d07bafd66245193c375">fscanf</a></div><div class="ttdeci">int fscanf(FILE *__restrict stream, const char *__restrict format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00289">stdio-stubs.cpp:289</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00015">__ensure</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00054">ERANGE</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00989">feof()</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00993">ferror()</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00850">fgets()</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00289">fscanf()</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp_source.html#l01007">getline()</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00036">i</a>, <a class="el" href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00071">INT_MAX</a>, <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00011">anonymous_namespace{mntent-stubs.cpp}::internal_buf</a>, <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00012">anonymous_namespace{mntent-stubs.cpp}::internal_bufsize</a>, <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00023">mntent::mnt_dir</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00026">mntent::mnt_freq</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00022">mntent::mnt_fsname</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00025">mntent::mnt_opts</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00027">mntent::mnt_passno</a>, <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00024">mntent::mnt_type</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00035">n</a>, <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00016">SENTINEL</a>, <a class="el" href="../../d6/d13/file_8c_source.html#l00121">sscanf()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00144">strchr()</a>, and <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00022">getmntent()</a>.</p>
 
 </div>
 </div>
@@ -276,7 +382,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">char* hasmntopt </td>
           <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="../../de/d1b/mntent_8h.html#d4/d79/structmntent">mntent</a> *&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#d4/d79/structmntent">mntent</a> *&#160;</td>
           <td class="paramname"><em>mnt</em>, </td>
         </tr>
         <tr>
@@ -293,13 +399,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                                           {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d82/convert_8h.html#a4a710d86541afc6b7dafddcdb4b1c94f">strstr</a>(mnt-&gt;<a class="code" href="../../de/d1b/mntent_8h.html#a2d2f5aa667cd75b99590e09be6ee5bd9">mnt_opts</a>, opt);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                                                           {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d82/convert_8h.html#a4a710d86541afc6b7dafddcdb4b1c94f">strstr</a>(mnt-&gt;<a class="code" href="../../de/dde/sysdeps_2lyre_2include_2mntent_8h.html#ac4ea89b7c8f328b7f35f47198d49ee89">mnt_opts</a>, opt);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="ttc" id="aconvert_8h_html_a4a710d86541afc6b7dafddcdb4b1c94f"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a4a710d86541afc6b7dafddcdb4b1c94f">strstr</a></div><div class="ttdeci">char * strstr(const char *haystack, const char *needle)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00127">Convert.cpp:127</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d1b/mntent_8h_source.html#l00025">mntent::mnt_opts</a>, and <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00127">strstr()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d96/options_2linux_2include_2mntent_8h_source.html#l00025">mntent::mnt_opts</a>, and <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00127">strstr()</a>.</p>
 
 </div>
 </div>
@@ -329,14 +435,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00007">7</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;                                                    {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#afffa3e442e49895773d564f422e1be1c">fopen</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, mode);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_afffa3e442e49895773d564f422e1be1c"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#afffa3e442e49895773d564f422e1be1c">fopen</a></div><div class="ttdeci">FILE * fopen(const char *filename, const char *mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00011">file.c:11</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html#l00018">18</a> of file <a class="el" href="../../d8/df5/mntent-stubs_8cpp_source.html">mntent-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                                                    {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#afffa3e442e49895773d564f422e1be1c">fopen</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, mode);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_afffa3e442e49895773d564f422e1be1c"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#afffa3e442e49895773d564f422e1be1c">fopen</a></div><div class="ttdeci">FILE * fopen(const char *filename, const char *mode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00013">file.c:13</a></div></div>
 <div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d13/file_8c_source.html#l00011">fopen()</a>, and <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d13/file_8c_source.html#l00013">fopen()</a>, and <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>.</p>
 
 </div>
 </div>

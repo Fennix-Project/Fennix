@@ -137,15 +137,15 @@ var Userspace_2mlibc_2options_2elf_2include_2elf_8h =
     ] ],
     [ "Elf32_Dyn", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#af271cb0339229e28e5c0f45d948a3d96", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a78179482522cbdee8ad82e44d67997b1", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aaf0cddc1c61fdf4b8b7d01b6559f009d", null ]
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a0f11c94f4d99b1bdd4eea7631ccc2b0e", null ],
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a29721bae613c52a40b95f033b57fb555", null ],
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#acd9a25ccf234e621bb247c4fed75f4eb", null ]
     ] ],
     [ "Elf64_Dyn", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a5a9c6b33cd4c83a790dbf694f18b1d1f", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a80283aa20bd8b72505cd3a16b6c5bf9a", null ],
-      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aa1268a9d671e0137228dfcdc2d9971d8", null ]
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aae1f184aae5ebc2e8fdf200c9d289a2a", null ],
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a51e75d4d5a86c74d954b772bfe0c2eb2", null ],
+      [ "d_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a58618955b5ce0376a9ebf8027a508d18", null ]
     ] ],
     [ "Elf32_Shdr", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#de/dce/structElf32__Shdr", [
       [ "sh_addr", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a7e668a62cee74a2f9c6edabb5f45635a", null ],
@@ -174,14 +174,14 @@ var Userspace_2mlibc_2options_2elf_2include_2elf_8h =
     [ "Elf64_auxv_t", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d9/de7/structElf64__auxv__t", [
       [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
       [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a4bdd1810c49ddb4bab1e11c18c68e8e3", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#af2720eb3f3095bb814ea0e1c122b1c2f", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a77c5151e36d41a7363b825cc906a5972", null ]
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ab962700601894f34e4b584aa810d4d51", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a19dec30ed5f69db02bbcf72179054b0c", null ]
     ] ],
     [ "Elf32_auxv_t", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t", [
       [ "a_type", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ab6d0fd7066a8703da6fa658d3c0c085d", null ],
       [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a96cab7a477b37cfc6c2ced56a5e7bfa4", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a2421ffe79ef3af7c224ad67e751bb146", null ],
-      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aad1f6ba45d9cae4ae27cb1f839bc814f", null ]
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aea40a9598ba912d4aaf91c75f9aa9897", null ],
+      [ "a_un", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aef6e9e7ad0b08a5fd58d6ad50e19ca88", null ]
     ] ],
     [ "Elf32_Nhdr", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#db/db0/structElf32__Nhdr", [
       [ "n_descsz", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ad83450c86fb3e14d1096a141ea705f33", null ],
@@ -244,6 +244,9 @@ var Userspace_2mlibc_2options_2elf_2include_2elf_8h =
     [ "EI_NIDENT", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#ae407130db14180c6737390604ba7c1fe", null ],
     [ "EI_OSABI", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a862a7ea859a2a2bed110aedf7744d969", null ],
     [ "EI_VERSION", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aac8694b14e6500d9dc5047ef62518845", null ],
+    [ "ELF64_ST_BIND", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a42a5357c8e88e59874be665f0f8bece6", null ],
+    [ "ELF64_ST_INFO", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a3e3404b8adf465a8b34921c9dc0626ab", null ],
+    [ "ELF64_ST_TYPE", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a669aab4bedacc708965ef6c997084028", null ],
     [ "ELF_NOTE_GNU", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a5c13d62cb3d6a6a21d7bb80f56127475", null ],
     [ "ELFCLASS32", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a5f84b1bf6e07374d6289eab3d8c57f1c", null ],
     [ "ELFCLASS64", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a9ee66b59be5c78ea1f1eea8a36f2c291", null ],
@@ -347,8 +350,5 @@ var Userspace_2mlibc_2options_2elf_2include_2elf_8h =
     [ "ELF32_ST_INFO", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a3f7c2022f114dd5950276dcdf25f57e1", null ],
     [ "ELF32_ST_TYPE", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a99995028311a6771740f7490c6a4c6fa", null ],
     [ "ELF64_R_SYM", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a65748e6f2c1a680ae61b212f71048e8a", null ],
-    [ "ELF64_R_TYPE", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aa99085b28116a972cc95460d9d5493cc", null ],
-    [ "ELF64_ST_BIND", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a6a5b00cb9f76606937b54f87bf2e60c7", null ],
-    [ "ELF64_ST_INFO", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#a77aa610eca7371c1ecad7fd681803639", null ],
-    [ "ELF64_ST_TYPE", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aebd3747f20fd4a9a3166670352827364", null ]
+    [ "ELF64_R_TYPE", "df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#aa99085b28116a972cc95460d9d5493cc", null ]
 ];

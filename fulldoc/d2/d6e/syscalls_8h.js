@@ -1,19 +1,41 @@
 var syscalls_8h =
 [
+    [ "SEEK_CUR", "d2/d6e/syscalls_8h.html#a4c8d0b76b470ba65a43ca46a88320f39", null ],
+    [ "SEEK_END", "d2/d6e/syscalls_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8", null ],
+    [ "SEEK_SET", "d2/d6e/syscalls_8h.html#a0d112bae8fd35be772185b6ec6bcbe64", null ],
+    [ "KCtl", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1f", [
+      [ "KCTL_NULL", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa571aa3760135e3dc9572c3217ab42ffb", null ],
+      [ "KCTL_GET_PID", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1face129e39bef73a80e9da01d75aa04049", null ],
+      [ "KCTL_GET_TID", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa0eb36ec74e65567b2d22ef97911e8a3e", null ],
+      [ "KCTL_GET_UID", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa218ab4e88581b8103b701b52213f61ca", null ],
+      [ "KCTL_GET_GID", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1faa408d2fc92ec8616c3bfca48059ad355", null ],
+      [ "KCTL_GET_PAGE_SIZE", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa575a512d8875fcc6d7c826aae23fad77", null ],
+      [ "KCTL_IS_CRITICAL", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1faeab410f95bf886709e0ed6dd400c1499", null ],
+      [ "KCTL_REGISTER_ELF_LIB", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fac572d2a93e89e2a85915f0e57a21668c", null ],
+      [ "KCTL_GET_ELF_LIB_MEMORY_IMAGE", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa8bcf40c123c1986da6c9cde7ea8378eb", null ],
+      [ "KCTL_GET_ABSOLUTE_PATH", "d2/d6e/syscalls_8h.html#ac30fb415508f133d3e4eccf9b6e1dd1fa6935ea9296a615bd59f2793a22e16efc", null ]
+    ] ],
+    [ "MemoryMapFlags", "d2/d6e/syscalls_8h.html#a410ef698233dd9808af5483ea337123a", [
+      [ "MAP_PRESENT", "d2/d6e/syscalls_8h.html#a410ef698233dd9808af5483ea337123aac6561ce1d7eedab3962cfca17c460341", null ],
+      [ "MAP_WRITABLE", "d2/d6e/syscalls_8h.html#a410ef698233dd9808af5483ea337123aae20375ab92ce4cc4a5eda1a4b5b9831f", null ],
+      [ "MAP_USER", "d2/d6e/syscalls_8h.html#a410ef698233dd9808af5483ea337123aaf80f9130d5cda510347a1e3ef55e076c", null ]
+    ] ],
     [ "NativeSyscalls", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fce", [
       [ "_Exit", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea47eb6ecc154db2d5318af2c5066210e5", null ],
       [ "_Print", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea2deae65add1a55d75746c7fe79848fec", null ],
       [ "_RequestPages", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceafa255aa514605050a1a67929744c8d92", null ],
       [ "_FreePages", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaef368749ef576063c343ba77dab98258", null ],
       [ "_DetachAddress", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea1affc62310a7b9b50053543348164098", null ],
+      [ "_MemoryMap", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea523d3a0c9c7668e686a737af2c0c258f", null ],
+      [ "_MemoryUnmap", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea3fd23a0c671c7546bcd1e5284195fa43", null ],
       [ "_KernelCTL", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceade444453889da625811d8a634baa1327", null ],
-      [ "_IPC", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaa6f4e84d45759ce3af1c16ca7bda94d7", null ],
       [ "_FileOpen", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea67d50a6c2fcc2c0de3a215f606866a5c", null ],
       [ "_FileClose", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea15e3975fb867399d1db643978b54eef7", null ],
       [ "_FileRead", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea85355d1f0b9f7daf155306243f0e82f3", null ],
       [ "_FileWrite", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaee6aec2259a35613db3755d03491b161", null ],
       [ "_FileSeek", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaf4f6c0bd4af843e6fcf8bcd125467b82", null ],
       [ "_FileStatus", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea6d8c268464de46fda67d6a95a6685a24", null ],
+      [ "_IPC", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaa6f4e84d45759ce3af1c16ca7bda94d7", null ],
       [ "_Sleep", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceaeed38220f1208e2f1e9b347eba917cf4", null ],
       [ "_Fork", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcead8f07783521a503c5dd1cbfc4277c95d", null ],
       [ "_Wait", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea8ca643184172402d7a546b0bb5219768", null ],
@@ -30,7 +52,8 @@ var syscalls_8h =
       [ "_KillProcess", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fceab6930866f1460b94cbc95d2258d2cdaa", null ],
       [ "_KillThread", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea279c3758f11bfbec2615e79c4334a51f", null ],
       [ "_SysReservedCreateProcess", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcead7db76e512d7c217f6250f19da7322cc", null ],
-      [ "_SysReservedCreateThread", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea52e4b39f85a19059d507d2c4e564f458", null ]
+      [ "_SysReservedCreateThread", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea52e4b39f85a19059d507d2c4e564f458", null ],
+      [ "_MaxSyscall", "d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fcea93bed13309b2e27402c706a9978b5d52", null ]
     ] ],
     [ "SyscallsErrorCodes", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5", [
       [ "SYSCALL_ACCESS_DENIED", "d2/d6e/syscalls_8h.html#a6c2e4ac2a17f9d49e54230ea0c8263b5a17a786fc05461da1f17c9ac23ebb1d55", null ],

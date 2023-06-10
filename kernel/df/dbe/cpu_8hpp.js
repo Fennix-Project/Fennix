@@ -19,6 +19,9 @@ var cpu_8hpp =
       [ "InterruptNumber", "de/d52/namespacex32.html#aaafc494c344bda136ce1952873156e17", null ],
       [ "ss", "de/d52/namespacex32.html#a9039c34da43297e9f886098fe2e89ec3", null ]
     ] ],
+    [ "DR6", "de/d52/namespacex32.html#dd/d9c/unionx32_1_1DR6", [
+      [ "raw", "de/d52/namespacex32.html#a8ba4d4b4d2940ee5c6c2944feaf25042", null ]
+    ] ],
     [ "DR7", "de/d52/namespacex32.html#dd/da4/unionx32_1_1DR7", [
       [ "raw", "de/d52/namespacex32.html#acc212255a8af922fb5b2b62332d494ce", null ]
     ] ],
@@ -67,6 +70,9 @@ var cpu_8hpp =
     ] ],
     [ "EFER", "d7/db0/namespacex64.html#da/dda/unionx64_1_1EFER", [
       [ "raw", "d7/db0/namespacex64.html#a25e37313f3234e6e7ed9a26788ac2d17", null ]
+    ] ],
+    [ "DR6", "d7/db0/namespacex64.html#d2/d8d/unionx64_1_1DR6", [
+      [ "raw", "d7/db0/namespacex64.html#a85338c9c616f059641ff00bdd3583861", null ]
     ] ],
     [ "DR7", "d7/db0/namespacex64.html#d0/d89/unionx64_1_1DR7", [
       [ "raw", "d7/db0/namespacex64.html#ab96b400b6b92f28a161ef8a7854f95b4", null ]
@@ -132,26 +138,43 @@ var cpu_8hpp =
       [ "VM", "de/d52/namespacex32.html#a583a65df9db4119165f5ea0abaa50281", null ],
       [ "ZF", "de/d52/namespacex32.html#a8ec66b3387ffaa10d0be63d1a95c280a", null ]
     ] ],
-    [ "DR7.__unnamed813__", "de/d52/namespacex32.html#dd/db0/structx32_1_1DR7_8____unnamed813____", [
-      [ "ConditionsDR0", "de/d52/namespacex32.html#a218bbb57cdf96f868c1989cf5c1b05a1", null ],
-      [ "ConditionsDR1", "de/d52/namespacex32.html#a1aa9aebf8ec30819fcc7806d4473a068", null ],
-      [ "ConditionsDR2", "de/d52/namespacex32.html#a10a456c1180ca5788db78418f39102fa", null ],
-      [ "ConditionsDR3", "de/d52/namespacex32.html#aec021b6935ec1b13b4b705d01db8fa50", null ],
-      [ "GlobalDR0", "de/d52/namespacex32.html#a023497f7020ab2176e8c6f8bdf77edb2", null ],
-      [ "GlobalDR1", "de/d52/namespacex32.html#a07d5d8f93747f2106cf87ecede68a5c6", null ],
-      [ "GlobalDR2", "de/d52/namespacex32.html#a564bb13da4c61d0d9c101846c55cf8ef", null ],
-      [ "GlobalDR3", "de/d52/namespacex32.html#a2e2a8a48fa6f7e4668af0517fa2e3891", null ],
-      [ "LocalDR0", "de/d52/namespacex32.html#a3f82144c4d7d6377d8fdc851228bf3de", null ],
-      [ "LocalDR1", "de/d52/namespacex32.html#aeb509dcb3106bffd6053d8cddfdc0f19", null ],
-      [ "LocalDR2", "de/d52/namespacex32.html#af2820fd33da13b5751e3728d213ee31a", null ],
-      [ "LocalDR3", "de/d52/namespacex32.html#a54141de3937b758a6f88902a9dabb640", null ],
-      [ "Reserved", "de/d52/namespacex32.html#a942d4e37dd5607ab68e54755540d4a47", null ],
-      [ "SizeDR0", "de/d52/namespacex32.html#a02587630662f6606d6f278c3cbbacc38", null ],
-      [ "SizeDR1", "de/d52/namespacex32.html#a56f670e6a958da9473ab50261ecee460", null ],
-      [ "SizeDR2", "de/d52/namespacex32.html#a2be6156b903b585189298c512054eb30", null ],
-      [ "SizeDR3", "de/d52/namespacex32.html#a1b91683f6b8148199d84049b06ebb5f1", null ]
+    [ "DR6.__unnamed813__", "de/d52/namespacex32.html#d6/d46/structx32_1_1DR6_8____unnamed813____", [
+      [ "B0", "de/d52/namespacex32.html#a4c769c2c9989abb9fa024ab9930270e5", null ],
+      [ "B1", "de/d52/namespacex32.html#ac9512565ef6194ca664dc41ec0de7a53", null ],
+      [ "B2", "de/d52/namespacex32.html#abbd97b00c539801e32317ab550867ec4", null ],
+      [ "B3", "de/d52/namespacex32.html#a0c4ecd7b59ebc5b9f47974cb9845fd02", null ],
+      [ "BD", "de/d52/namespacex32.html#a87a47565be4714701a8bc2354cbaea36", null ],
+      [ "BS", "de/d52/namespacex32.html#a9a231c14a3416b1055b8ffb960151aee", null ],
+      [ "BT", "de/d52/namespacex32.html#a277b18808bb6fba9845a813795fe8baa", null ],
+      [ "Reserved0", "de/d52/namespacex32.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
+      [ "Reserved1", "de/d52/namespacex32.html#a93876cb309016fa725517b046474c44b", null ],
+      [ "Reserved2", "de/d52/namespacex32.html#ad783eb173ee49cc2a004bc1ca1313615", null ]
     ] ],
-    [ "__packed.__unnamed815__", "d7/db0/namespacex64.html#d1/dfa/structx64_1_1____packed_8____unnamed815____", [
+    [ "DR7.__unnamed815__", "de/d52/namespacex32.html#d3/dea/structx32_1_1DR7_8____unnamed815____", [
+      [ "G0", "de/d52/namespacex32.html#a22294e216be9e629e37caf9fa0cc5872", null ],
+      [ "G1", "de/d52/namespacex32.html#ac0497521d35d66866e3af408094864c3", null ],
+      [ "G2", "de/d52/namespacex32.html#ad24bade136bc8cd77e37395ea94226eb", null ],
+      [ "G3", "de/d52/namespacex32.html#abc75ca3e24efaf835d947dbe27a95c8a", null ],
+      [ "GD", "de/d52/namespacex32.html#a56a036735e46821195a55359c5ad144f", null ],
+      [ "GE", "de/d52/namespacex32.html#af803729628adf4199f224c2a225038e9", null ],
+      [ "L0", "de/d52/namespacex32.html#a9b2571fa925a02f94028dcc9ec129866", null ],
+      [ "L1", "de/d52/namespacex32.html#a9ec4c0afd450ceac7adb81c3bcfc9732", null ],
+      [ "L2", "de/d52/namespacex32.html#a7e6aa2d53f6ee2b1a34b017fa403cb76", null ],
+      [ "L3", "de/d52/namespacex32.html#a842ce6eb510f7e7047da883915ec90e0", null ],
+      [ "LE", "de/d52/namespacex32.html#acfe6055d2e0503be378bb63449ec7ba6", null ],
+      [ "LEN0", "de/d52/namespacex32.html#aa151ccd00518a4d0104c074ebb4bd2a3", null ],
+      [ "LEN1", "de/d52/namespacex32.html#a7cb1e01dee3fb2ccb90197aff13640cf", null ],
+      [ "LEN2", "de/d52/namespacex32.html#a0ac6df4d09deb3cc374554c8fa7e1e68", null ],
+      [ "LEN3", "de/d52/namespacex32.html#a835193d8b9d5e135592004928182232a", null ],
+      [ "Reserved0", "de/d52/namespacex32.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
+      [ "Reserved1", "de/d52/namespacex32.html#a93876cb309016fa725517b046474c44b", null ],
+      [ "Reserved2", "de/d52/namespacex32.html#ad783eb173ee49cc2a004bc1ca1313615", null ],
+      [ "RW0", "de/d52/namespacex32.html#aa85ccaf28cad3517553d1575f0a1a2ca", null ],
+      [ "RW1", "de/d52/namespacex32.html#a013858b526a1d764d889d41ff22a27e7", null ],
+      [ "RW2", "de/d52/namespacex32.html#a424148acf2adb331977c39998e2cfe36", null ],
+      [ "RW3", "de/d52/namespacex32.html#ac211beff9de93518ff3fb577f625a245", null ]
+    ] ],
+    [ "__packed.__unnamed817__", "d7/db0/namespacex64.html#db/d80/structx64_1_1____packed_8____unnamed817____", [
       [ "ApicBaseHi", "d7/db0/namespacex64.html#a0e3aad2f7384b2da11dbe3af7588bb7d", null ],
       [ "ApicBaseLo", "d7/db0/namespacex64.html#a78a92cde996f5ab594d36d58a7580274", null ],
       [ "BSP", "d7/db0/namespacex64.html#adb55f5a9e3472e08cf5af25914d2c94a", null ],
@@ -160,7 +183,7 @@ var cpu_8hpp =
       [ "Reserved0", "d7/db0/namespacex64.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
       [ "Reserved1", "d7/db0/namespacex64.html#a93876cb309016fa725517b046474c44b", null ]
     ] ],
-    [ "RFLAGS.__unnamed817__", "d7/db0/namespacex64.html#d0/d39/structx64_1_1RFLAGS_8____unnamed817____", [
+    [ "RFLAGS.__unnamed819__", "d7/db0/namespacex64.html#d9/d4d/structx64_1_1RFLAGS_8____unnamed819____", [
       [ "AC", "d7/db0/namespacex64.html#a4144e097d2fa7a491cec2a7a4322f2bc", null ],
       [ "AF", "d7/db0/namespacex64.html#a06fa567b72d78b7e3ea746973fbbd1d5", null ],
       [ "AlwaysOne", "d7/db0/namespacex64.html#aede1a165030b54c6ad9fd6f430f8b37c", null ],
@@ -184,7 +207,7 @@ var cpu_8hpp =
       [ "VM", "d7/db0/namespacex64.html#a583a65df9db4119165f5ea0abaa50281", null ],
       [ "ZF", "d7/db0/namespacex64.html#a8ec66b3387ffaa10d0be63d1a95c280a", null ]
     ] ],
-    [ "EFER.__unnamed819__", "d7/db0/namespacex64.html#de/d45/structx64_1_1EFER_8____unnamed819____", [
+    [ "EFER.__unnamed821__", "d7/db0/namespacex64.html#db/d81/structx64_1_1EFER_8____unnamed821____", [
       [ "FFXSR", "d7/db0/namespacex64.html#a7f31fb80ec8aebb4ba3d71448fadf795", null ],
       [ "LMA", "d7/db0/namespacex64.html#a6df8d0415ebe8faadcf40719ec36f209", null ],
       [ "LME", "d7/db0/namespacex64.html#adfdad30fb438d14f9742408313e1b6a3", null ],
@@ -197,26 +220,45 @@ var cpu_8hpp =
       [ "SVME", "d7/db0/namespacex64.html#a7736dcefdc757d139bbe54b6f4731704", null ],
       [ "TCE", "d7/db0/namespacex64.html#aa93108959b74bc7abe4ffb1344be0769", null ]
     ] ],
-    [ "DR7.__unnamed821__", "d7/db0/namespacex64.html#dd/dbf/structx64_1_1DR7_8____unnamed821____", [
-      [ "ConditionsDR0", "d7/db0/namespacex64.html#a218bbb57cdf96f868c1989cf5c1b05a1", null ],
-      [ "ConditionsDR1", "d7/db0/namespacex64.html#a1aa9aebf8ec30819fcc7806d4473a068", null ],
-      [ "ConditionsDR2", "d7/db0/namespacex64.html#a10a456c1180ca5788db78418f39102fa", null ],
-      [ "ConditionsDR3", "d7/db0/namespacex64.html#aec021b6935ec1b13b4b705d01db8fa50", null ],
-      [ "GlobalDR0", "d7/db0/namespacex64.html#a023497f7020ab2176e8c6f8bdf77edb2", null ],
-      [ "GlobalDR1", "d7/db0/namespacex64.html#a07d5d8f93747f2106cf87ecede68a5c6", null ],
-      [ "GlobalDR2", "d7/db0/namespacex64.html#a564bb13da4c61d0d9c101846c55cf8ef", null ],
-      [ "GlobalDR3", "d7/db0/namespacex64.html#a2e2a8a48fa6f7e4668af0517fa2e3891", null ],
-      [ "LocalDR0", "d7/db0/namespacex64.html#a3f82144c4d7d6377d8fdc851228bf3de", null ],
-      [ "LocalDR1", "d7/db0/namespacex64.html#aeb509dcb3106bffd6053d8cddfdc0f19", null ],
-      [ "LocalDR2", "d7/db0/namespacex64.html#af2820fd33da13b5751e3728d213ee31a", null ],
-      [ "LocalDR3", "d7/db0/namespacex64.html#a54141de3937b758a6f88902a9dabb640", null ],
-      [ "Reserved", "d7/db0/namespacex64.html#a942d4e37dd5607ab68e54755540d4a47", null ],
-      [ "SizeDR0", "d7/db0/namespacex64.html#a02587630662f6606d6f278c3cbbacc38", null ],
-      [ "SizeDR1", "d7/db0/namespacex64.html#a56f670e6a958da9473ab50261ecee460", null ],
-      [ "SizeDR2", "d7/db0/namespacex64.html#a2be6156b903b585189298c512054eb30", null ],
-      [ "SizeDR3", "d7/db0/namespacex64.html#a1b91683f6b8148199d84049b06ebb5f1", null ]
+    [ "DR6.__unnamed823__", "d7/db0/namespacex64.html#da/d31/structx64_1_1DR6_8____unnamed823____", [
+      [ "B0", "d7/db0/namespacex64.html#a4c769c2c9989abb9fa024ab9930270e5", null ],
+      [ "B1", "d7/db0/namespacex64.html#ac9512565ef6194ca664dc41ec0de7a53", null ],
+      [ "B2", "d7/db0/namespacex64.html#abbd97b00c539801e32317ab550867ec4", null ],
+      [ "B3", "d7/db0/namespacex64.html#a0c4ecd7b59ebc5b9f47974cb9845fd02", null ],
+      [ "BD", "d7/db0/namespacex64.html#a87a47565be4714701a8bc2354cbaea36", null ],
+      [ "BS", "d7/db0/namespacex64.html#a9a231c14a3416b1055b8ffb960151aee", null ],
+      [ "BT", "d7/db0/namespacex64.html#a277b18808bb6fba9845a813795fe8baa", null ],
+      [ "Reserved0", "d7/db0/namespacex64.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
+      [ "Reserved1", "d7/db0/namespacex64.html#a93876cb309016fa725517b046474c44b", null ],
+      [ "Reserved2", "d7/db0/namespacex64.html#ad783eb173ee49cc2a004bc1ca1313615", null ],
+      [ "Reserved3", "d7/db0/namespacex64.html#ab3edf740b9a6b5d2be22c377fe076c04", null ]
     ] ],
-    [ "PageFaultErrorCode.__unnamed823__", "d7/db0/namespacex64.html#dd/dc0/structx64_1_1PageFaultErrorCode_8____unnamed823____", [
+    [ "DR7.__unnamed825__", "d7/db0/namespacex64.html#d4/da4/structx64_1_1DR7_8____unnamed825____", [
+      [ "G0", "d7/db0/namespacex64.html#a22294e216be9e629e37caf9fa0cc5872", null ],
+      [ "G1", "d7/db0/namespacex64.html#ac0497521d35d66866e3af408094864c3", null ],
+      [ "G2", "d7/db0/namespacex64.html#ad24bade136bc8cd77e37395ea94226eb", null ],
+      [ "G3", "d7/db0/namespacex64.html#abc75ca3e24efaf835d947dbe27a95c8a", null ],
+      [ "GD", "d7/db0/namespacex64.html#a56a036735e46821195a55359c5ad144f", null ],
+      [ "GE", "d7/db0/namespacex64.html#af803729628adf4199f224c2a225038e9", null ],
+      [ "L0", "d7/db0/namespacex64.html#a9b2571fa925a02f94028dcc9ec129866", null ],
+      [ "L1", "d7/db0/namespacex64.html#a9ec4c0afd450ceac7adb81c3bcfc9732", null ],
+      [ "L2", "d7/db0/namespacex64.html#a7e6aa2d53f6ee2b1a34b017fa403cb76", null ],
+      [ "L3", "d7/db0/namespacex64.html#a842ce6eb510f7e7047da883915ec90e0", null ],
+      [ "LE", "d7/db0/namespacex64.html#acfe6055d2e0503be378bb63449ec7ba6", null ],
+      [ "LEN0", "d7/db0/namespacex64.html#aa151ccd00518a4d0104c074ebb4bd2a3", null ],
+      [ "LEN1", "d7/db0/namespacex64.html#a7cb1e01dee3fb2ccb90197aff13640cf", null ],
+      [ "LEN2", "d7/db0/namespacex64.html#a0ac6df4d09deb3cc374554c8fa7e1e68", null ],
+      [ "LEN3", "d7/db0/namespacex64.html#a835193d8b9d5e135592004928182232a", null ],
+      [ "Reserved0", "d7/db0/namespacex64.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ],
+      [ "Reserved1", "d7/db0/namespacex64.html#a93876cb309016fa725517b046474c44b", null ],
+      [ "Reserved2", "d7/db0/namespacex64.html#ad783eb173ee49cc2a004bc1ca1313615", null ],
+      [ "Reserved3", "d7/db0/namespacex64.html#ab3edf740b9a6b5d2be22c377fe076c04", null ],
+      [ "RW0", "d7/db0/namespacex64.html#aa85ccaf28cad3517553d1575f0a1a2ca", null ],
+      [ "RW1", "d7/db0/namespacex64.html#a013858b526a1d764d889d41ff22a27e7", null ],
+      [ "RW2", "d7/db0/namespacex64.html#a424148acf2adb331977c39998e2cfe36", null ],
+      [ "RW3", "d7/db0/namespacex64.html#ac211beff9de93518ff3fb577f625a245", null ]
+    ] ],
+    [ "PageFaultErrorCode.__unnamed827__", "d7/db0/namespacex64.html#d7/dd8/structx64_1_1PageFaultErrorCode_8____unnamed827____", [
       [ "I", "d7/db0/namespacex64.html#add7536794b63bf90eccfd37f9b147d7f", null ],
       [ "P", "d7/db0/namespacex64.html#a44c29edb103a2872f519ad0c9a0fdaaa", null ],
       [ "PK", "d7/db0/namespacex64.html#ad71bdd22c8bb93b8d287dce6f46aed25", null ],
@@ -228,12 +270,14 @@ var cpu_8hpp =
       [ "U", "d7/db0/namespacex64.html#a4c614360da93c0a041b22e537de151eb", null ],
       [ "W", "d7/db0/namespacex64.html#a61e9c06ea9a85a5088a499df6458d276", null ]
     ] ],
-    [ "SelectorErrorCode.__unnamed825__", "d7/db0/namespacex64.html#d6/d75/structx64_1_1SelectorErrorCode_8____unnamed825____", [
+    [ "SelectorErrorCode.__unnamed829__", "d7/db0/namespacex64.html#d6/d4a/structx64_1_1SelectorErrorCode_8____unnamed829____", [
       [ "External", "d7/db0/namespacex64.html#ab206a1b4ea1097761f78e8876f6da779", null ],
       [ "Idx", "d7/db0/namespacex64.html#a3c81cbbd361d97d7021798df6ff50939", null ],
       [ "Reserved", "d7/db0/namespacex64.html#a942d4e37dd5607ab68e54755540d4a47", null ],
       [ "Table", "d7/db0/namespacex64.html#a51c45b795d5d18a3e4e0c37e8b20a141", null ]
     ] ],
+    [ "DR6", "df/dbe/cpu_8hpp.html#ab2014fbe7b7b897b74f12c9407fcd590", null ],
+    [ "DR6", "df/dbe/cpu_8hpp.html#ae8f1c938f9b1d8e009d3b25104e9e814", null ],
     [ "DR7", "df/dbe/cpu_8hpp.html#a7d95504fd36d9d673f994150a5bb6fb1", null ],
     [ "DR7", "df/dbe/cpu_8hpp.html#a284db7d8534cedd71e109425b697e1e1", null ],
     [ "EFER", "df/dbe/cpu_8hpp.html#a6bbcee56c837141fe73c5bc53509b885", null ],

@@ -1,9 +1,9 @@
 var put_8c =
 [
-    [ "fputc", "df/d79/put_8c.html#abe6299d5823dd023e610aaa619735a3f", null ],
-    [ "fputs", "df/d79/put_8c.html#a68236e664c1f0da049b25fba1c1695f6", null ],
-    [ "perror", "df/d79/put_8c.html#ab39f9634fa53ffd52b87431f3afab11b", null ],
-    [ "putc", "df/d79/put_8c.html#a38f980218f04ebdddcdcd1b77e1cf6b1", null ],
-    [ "putchar", "df/d79/put_8c.html#af4de2514b7778805db3815e8dd6cf09a", null ],
-    [ "puts", "df/d79/put_8c.html#ad41876f99f190c7488e64ef39c50a23f", null ]
+    [ "fputc", "df/d79/put_8c.html#a62b1ea81ddec52762b0ab8d421196f4b", null ],
+    [ "fputs", "df/d79/put_8c.html#addff52fc4eb94d62e9085a3dc7409052", null ],
+    [ "perror", "df/d79/put_8c.html#a6eb69de0d452d3f9dc47a67989cb713f", null ],
+    [ "putc", "df/d79/put_8c.html#ad1c624e03f069f350870780d3ee9a9ef", null ],
+    [ "putchar", "df/d79/put_8c.html#a7e83444f75869945386b69ae3e456c38", null ],
+    [ "puts", "df/d79/put_8c.html#a47b172ca57b2ab6187dd18d39b7e1f06", null ]
 ];

@@ -21,6 +21,7 @@ var dir_52bed8acfaac088d5968cb2c84d7645d =
     [ "Kernel.cpp", "d2/d00/Kernel_8cpp.html", "d2/d00/Kernel_8cpp" ],
     [ "kernel.h", "d0/daa/kernel_8h.html", "d0/daa/kernel_8h" ],
     [ "KernelConfig.cpp", "dc/d66/KernelConfig_8cpp.html", "dc/d66/KernelConfig_8cpp" ],
+    [ "KernelShell.cpp", "d6/d56/KernelShell_8cpp.html", "d6/d56/KernelShell_8cpp" ],
     [ "KernelThread.cpp", "dd/d06/KernelThread_8cpp.html", "dd/d06/KernelThread_8cpp" ],
     [ "Makefile", "d9/d65/Makefile.html", null ],
     [ "syscalls.h", "d2/d6e/syscalls_8h.html", "d2/d6e/syscalls_8h" ]

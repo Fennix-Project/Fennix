@@ -22,7 +22,7 @@ var filesystem_8hpp =
       [ "Mask", "d5/da1/namespaceVirtualFileSystem.html#ab5b721fadfb91a39d2615f6d4c9f4d11", null ],
       [ "Mode", "d5/da1/namespaceVirtualFileSystem.html#a521c32a6e7b8d5da1dc472e4cdb9a0e5", null ],
       [ "Name", "d5/da1/namespaceVirtualFileSystem.html#acf0e5c228699b890c32df3ebe86a3d9d", null ],
-      [ "Offset", "d5/da1/namespaceVirtualFileSystem.html#ac57e3c29c9f45ce070c8a7b7864dfa9c", null ],
+      [ "Offset", "d5/da1/namespaceVirtualFileSystem.html#ae590a9ff8aa0a972365035fb46f9380d", null ],
       [ "Operator", "d5/da1/namespaceVirtualFileSystem.html#a6705fcbb1f33f4919fdf90ed7a2ecdb0", null ],
       [ "Parent", "d5/da1/namespaceVirtualFileSystem.html#a2a269f685aa8f6429deb067e9b7ae56e", null ],
       [ "UserIdentifier", "d5/da1/namespaceVirtualFileSystem.html#a2f3f88e787fd98b7e0e869bbb0c66862", null ]
@@ -48,11 +48,11 @@ var filesystem_8hpp =
     [ "OperationMkdir", "d1/d85/filesystem_8hpp.html#a7d40e8e2835e0750d96dac4678caa68b", null ],
     [ "OperationMount", "d1/d85/filesystem_8hpp.html#ae226e9507b51c909b110ad3637de1e51", null ],
     [ "OperationOpen", "d1/d85/filesystem_8hpp.html#acf54285307ce50e428033f1f6084caff", null ],
-    [ "OperationRead", "d1/d85/filesystem_8hpp.html#ab4fcf402b68afbee61ddf9c43cdc6c58", null ],
+    [ "OperationRead", "d1/d85/filesystem_8hpp.html#ab96c04bb4469a2c67e08dca3d9f1e097", null ],
     [ "OperationSeek", "d1/d85/filesystem_8hpp.html#a1bf071d3ed7189c3c8dc1ffb1bbc88d0", null ],
     [ "OperationSync", "d1/d85/filesystem_8hpp.html#a85a09540c85179b8c41d6520a8aeeaf8", null ],
     [ "OperationUmount", "d1/d85/filesystem_8hpp.html#a1c88a056f49fe6e1616e755bf63708c0", null ],
-    [ "OperationWrite", "d1/d85/filesystem_8hpp.html#a46008b5dd3bd92f927a8b42dcde83124", null ],
+    [ "OperationWrite", "d1/d85/filesystem_8hpp.html#a9aedb1c9f8f91c36e4281f22767f3dab", null ],
     [ "FileStatus", "d1/d85/filesystem_8hpp.html#aae3beedde8379e8aa682819426bd58d9", [
       [ "OK", "d1/d85/filesystem_8hpp.html#aae3beedde8379e8aa682819426bd58d9ab2d66b182b53077e600b127cc965bdbb", null ],
       [ "NotFound", "d1/d85/filesystem_8hpp.html#aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683", null ],

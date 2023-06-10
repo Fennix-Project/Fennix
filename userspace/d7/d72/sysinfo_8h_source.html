@@ -112,13 +112,17 @@ $(document).ready(function(){initNavTree('d7/d72/sysinfo_8h_source.html','../../
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d7/d72/sysinfo_8h.html#a929d086db546ab2c15c219ecb58c0c6b">   21</a></span>&#160;    <span class="keywordtype">char</span> <a class="code" href="../../d7/d72/sysinfo_8h.html#a929d086db546ab2c15c219ecb58c0c6b">_f</a>[20 - 2 * <span class="keyword">sizeof</span>(long) - <span class="keyword">sizeof</span>(<span class="keywordtype">int</span>)]; <span class="comment">// Padding to 64 bytes according to my man page</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;};</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/d72/sysinfo_8h.html#aaa322ad991bd6a2b71684eb5f2c2649e">sysinfo</a>(<span class="keyword">struct</span> <a class="code" href="../../d7/d72/sysinfo_8h.html#d7/df8/structsysinfo">sysinfo</a> *);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/d72/sysinfo_8h.html#aaa322ad991bd6a2b71684eb5f2c2649e">sysinfo</a>(<span class="keyword">struct</span> <a class="code" href="../../d7/d72/sysinfo_8h.html#d7/df8/structsysinfo">sysinfo</a> *);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_SYSINFO_H</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_SYSINFO_H</span></div>
 <div class="ttc" id="asysinfo_8h_html_a0211f8ddb8073f67e8ace6406fb0bf86"><div class="ttname"><a href="../../d7/d72/sysinfo_8h.html#a0211f8ddb8073f67e8ace6406fb0bf86">sysinfo::totalswap</a></div><div class="ttdeci">unsigned long totalswap</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d72/sysinfo_8h_source.html#l00015">sysinfo.h:15</a></div></div>
 <div class="ttc" id="asysinfo_8h_html_a1859e36b26fd71848a0266854ec2cfd7"><div class="ttname"><a href="../../d7/d72/sysinfo_8h.html#a1859e36b26fd71848a0266854ec2cfd7">sysinfo::bufferram</a></div><div class="ttdeci">unsigned long bufferram</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d72/sysinfo_8h_source.html#l00014">sysinfo.h:14</a></div></div>
 <div class="ttc" id="asysinfo_8h_html_a1a108eebb16b2d599f4d58430b663236"><div class="ttname"><a href="../../d7/d72/sysinfo_8h.html#a1a108eebb16b2d599f4d58430b663236">sysinfo::freehigh</a></div><div class="ttdeci">unsigned long freehigh</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d72/sysinfo_8h_source.html#l00019">sysinfo.h:19</a></div></div>

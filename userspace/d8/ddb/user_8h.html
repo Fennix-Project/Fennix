@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('d8/ddb/user_8h.html','../../'); initRe
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">user.h File Reference</div>  </div>
@@ -104,6 +105,15 @@ Data Structures</h2></td></tr>
 <tr class="separator:d4/db2/structuser__regs__struct"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d8/dbc/structuser"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ddb/user_8h.html#d8/dbc/structuser">user</a></td></tr>
 <tr class="separator:d8/dbc/structuser"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a850d80ca2291d26b40dc6b25c419f81a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ddb/user_8h.html#a850d80ca2291d26b40dc6b25c419f81a">PAGE_SHIFT</a>&#160;&#160;&#160;12</td></tr>
+<tr class="separator:a850d80ca2291d26b40dc6b25c419f81a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d467c1d283fdfa1f2081ba1e0d01b6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ddb/user_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a>&#160;&#160;&#160;(1UL &lt;&lt; <a class="el" href="../../d8/ddb/user_8h.html#a850d80ca2291d26b40dc6b25c419f81a">PAGE_SHIFT</a>)</td></tr>
+<tr class="separator:a7d467c1d283fdfa1f2081ba1e0d01b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4aa620ce57c7c3171b916de2c5f09f2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ddb/user_8h.html#ae4aa620ce57c7c3171b916de2c5f09f2">PAGE_MASK</a>&#160;&#160;&#160;(~(<a class="el" href="../../d8/ddb/user_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> - 1))</td></tr>
+<tr class="separator:ae4aa620ce57c7c3171b916de2c5f09f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -483,6 +493,55 @@ u_tsize</td>
 <td class="fielddoc">
 </td></tr>
 </table>
+
+</div>
+</div>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ae4aa620ce57c7c3171b916de2c5f09f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4aa620ce57c7c3171b916de2c5f09f2">&#9670;&nbsp;</a></span>PAGE_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PAGE_MASK&#160;&#160;&#160;(~(<a class="el" href="../../d8/ddb/user_8h.html#a7d467c1d283fdfa1f2081ba1e0d01b6e">PAGE_SIZE</a> - 1))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/ddb/user_8h_source.html#l00047">47</a> of file <a class="el" href="../../d8/ddb/user_8h_source.html">user.h</a>.</p>
+
+</div>
+</div>
+<a id="a850d80ca2291d26b40dc6b25c419f81a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a850d80ca2291d26b40dc6b25c419f81a">&#9670;&nbsp;</a></span>PAGE_SHIFT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PAGE_SHIFT&#160;&#160;&#160;12</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/ddb/user_8h_source.html#l00045">45</a> of file <a class="el" href="../../d8/ddb/user_8h_source.html">user.h</a>.</p>
+
+</div>
+</div>
+<a id="a7d467c1d283fdfa1f2081ba1e0d01b6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d467c1d283fdfa1f2081ba1e0d01b6e">&#9670;&nbsp;</a></span>PAGE_SIZE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PAGE_SIZE&#160;&#160;&#160;(1UL &lt;&lt; <a class="el" href="../../d8/ddb/user_8h.html#a850d80ca2291d26b40dc6b25c419f81a">PAGE_SHIFT</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/ddb/user_8h_source.html#l00046">46</a> of file <a class="el" href="../../d8/ddb/user_8h_source.html">user.h</a>.</p>
 
 </div>
 </div>

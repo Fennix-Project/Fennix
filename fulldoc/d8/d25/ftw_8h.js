@@ -5,6 +5,7 @@ var ftw_8h =
       [ "level", "d8/d25/ftw_8h.html#af3d03dada9fed0c37d2cb30ff742c130", null ]
     ] ],
     [ "FTW_CHDIR", "d8/d25/ftw_8h.html#ad8a9cc4cf048af5fab2c5f65ed9cb0db", null ],
+    [ "FTW_CONTINUE", "d8/d25/ftw_8h.html#a489f1ba08933cf1002a8ebcc88c8fad6", null ],
     [ "FTW_D", "d8/d25/ftw_8h.html#abb7c3d2c39c0f3c8c5f0f1b9caa3499a", null ],
     [ "FTW_DEPTH", "d8/d25/ftw_8h.html#af9008c0040247fbea883ec24b10cf884", null ],
     [ "FTW_DNR", "d8/d25/ftw_8h.html#af38dcdf86d19736b0aa55ac4defa666e", null ],

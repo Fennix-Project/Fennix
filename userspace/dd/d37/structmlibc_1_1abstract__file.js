@@ -20,6 +20,7 @@ var structmlibc_1_1abstract__file =
     [ "operator=", "dd/d37/structmlibc_1_1abstract__file.html#a3f68ca4493d9969f267cfe9725059fd1", null ],
     [ "purge", "dd/d37/structmlibc_1_1abstract__file.html#aa9ce3681f59c0d7376a7dd898a9de390", null ],
     [ "read", "dd/d37/structmlibc_1_1abstract__file.html#a88afcba0fc8c70b2959980cc307c7f72", null ],
+    [ "reopen", "dd/d37/structmlibc_1_1abstract__file.html#a867053f3a1238eb3691d8360c2a3bdf1", null ],
     [ "seek", "dd/d37/structmlibc_1_1abstract__file.html#a657c5773e24964cc9d8a017e62874e3b", null ],
     [ "tell", "dd/d37/structmlibc_1_1abstract__file.html#a87480239a305b46b252a8a1ba8ab22f7", null ],
     [ "unget", "dd/d37/structmlibc_1_1abstract__file.html#ac20741ee2f5d09ace16e9445dfef9a20", null ],

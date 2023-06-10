@@ -98,15 +98,19 @@ $(document).ready(function(){initNavTree('d7/db3/options_2posix_2include_2sys_2s
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;abi-bits/statfs.h&gt;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/db3/options_2posix_2include_2sys_2statfs_8h.html#afe717f8388919d33f8f2e32961aebff8">statfs</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *, <span class="keyword">struct</span> <a class="code" href="../../d8/ddc/sysdeps_2managarm_2include_2abi-bits_2statfs_8h.html#db/dc9/structstatfs">statfs</a> *);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/db3/options_2posix_2include_2sys_2statfs_8h.html#a21e541a988e570aab5c27a5983572f2c">fstatfs</a>(<span class="keywordtype">int</span>, <span class="keyword">struct</span> <a class="code" href="../../d8/ddc/sysdeps_2managarm_2include_2abi-bits_2statfs_8h.html#db/dc9/structstatfs">statfs</a> *);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/db3/options_2posix_2include_2sys_2statfs_8h.html#afe717f8388919d33f8f2e32961aebff8">statfs</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *, <span class="keyword">struct</span> <a class="code" href="../../d8/ddc/sysdeps_2managarm_2include_2abi-bits_2statfs_8h.html#db/dc9/structstatfs">statfs</a> *);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/db3/options_2posix_2include_2sys_2statfs_8h.html#a21e541a988e570aab5c27a5983572f2c">fstatfs</a>(<span class="keywordtype">int</span>, <span class="keyword">struct</span> <a class="code" href="../../d8/ddc/sysdeps_2managarm_2include_2abi-bits_2statfs_8h.html#db/dc9/structstatfs">statfs</a> *);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_STATFS_H</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_STATFS_H</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="ttc" id="aoptions_2posix_2include_2sys_2statfs_8h_html_a21e541a988e570aab5c27a5983572f2c"><div class="ttname"><a href="../../d7/db3/options_2posix_2include_2sys_2statfs_8h.html#a21e541a988e570aab5c27a5983572f2c">fstatfs</a></div><div class="ttdeci">int fstatfs(int, struct statfs *)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d1d/sys-statfs-stubs_8cpp_source.html#l00018">sys-statfs-stubs.cpp:18</a></div></div>
 <div class="ttc" id="aoptions_2posix_2include_2sys_2statfs_8h_html_afe717f8388919d33f8f2e32961aebff8"><div class="ttname"><a href="../../d7/db3/options_2posix_2include_2sys_2statfs_8h.html#afe717f8388919d33f8f2e32961aebff8">statfs</a></div><div class="ttdeci">int statfs(const char *, struct statfs *)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d1d/sys-statfs-stubs_8cpp_source.html#l00009">sys-statfs-stubs.cpp:9</a></div></div>
 <div class="ttc" id="asysdeps_2managarm_2include_2abi-bits_2statfs_8h_html_db/dc9/structstatfs"><div class="ttname"><a href="../../d8/ddc/sysdeps_2managarm_2include_2abi-bits_2statfs_8h.html#db/dc9/structstatfs">statfs</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/de6/abis_2linux_2statfs_8h_source.html#l00011">statfs.h:11</a></div></div>

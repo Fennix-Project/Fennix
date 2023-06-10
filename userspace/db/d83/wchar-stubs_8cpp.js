@@ -12,6 +12,7 @@ var wchar_stubs_8cpp =
     [ "mbsnrtowcs", "db/d83/wchar-stubs_8cpp.html#adf43775c7a3939153ecec953c5069d4d", null ],
     [ "mbsrtowcs", "db/d83/wchar-stubs_8cpp.html#a007cbd3f5a4ddcbeb08196316b1c51c3", null ],
     [ "wcrtomb", "db/d83/wchar-stubs_8cpp.html#ad4c2b7d440745cc99761bea55bf50c60", null ],
+    [ "wcscasecmp", "db/d83/wchar-stubs_8cpp.html#a025bcc56932189f6a7945fdd319a6318", null ],
     [ "wcsdup", "db/d83/wchar-stubs_8cpp.html#a21234261a334fd22ff3d6ba8883eca3a", null ],
     [ "wcsncasecmp", "db/d83/wchar-stubs_8cpp.html#a5c9957285778ae41af839bb22cc4a9d0", null ],
     [ "wcsnrtombs", "db/d83/wchar-stubs_8cpp.html#aa161f58d3624efb0ac49117f088a2680", null ],

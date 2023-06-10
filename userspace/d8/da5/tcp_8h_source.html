@@ -99,16 +99,32 @@ $(document).ready(function(){initNavTree('d8/da5/tcp_8h_source.html','../../'); 
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// Define some macros using same ABI as Linux</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a8f02455d581f55196a37a12377ecfc0e">    9</a></span>&#160;<span class="preprocessor">#define TCP_NODELAY 1</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#af20c12fa9bf018281e14c3b43b777e2e">   10</a></span>&#160;<span class="preprocessor">#define TCP_MAXSEG 2</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a9c6b9a6c4de47f3d63a3aebfe576949a">   11</a></span>&#160;<span class="preprocessor">#define TCP_KEEPINTVL 5</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a12f91d2d736c245cb8a3dcd9ce47ea56">   12</a></span>&#160;<span class="preprocessor">#define TCP_KEEPCNT 6</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#ac65409d904781e5a23529bd6bef2b673">   14</a></span>&#160;<span class="preprocessor">#define SOL_TCP 6</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _NETINET_TCP_H</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#aa603b466ef9284b35c22b7281cbaa8cb">   11</a></span>&#160;<span class="preprocessor">#define TCP_KEEPIDLE 4</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a9c6b9a6c4de47f3d63a3aebfe576949a">   12</a></span>&#160;<span class="preprocessor">#define TCP_KEEPINTVL 5</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a12f91d2d736c245cb8a3dcd9ce47ea56">   13</a></span>&#160;<span class="preprocessor">#define TCP_KEEPCNT 6</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a292a96c6183e78cbc6ff63a226507179">   14</a></span>&#160;<span class="preprocessor">#define TCP_DEFER_ACCEPT 9</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#aa70372e25d5268d1ad93957e6cbab550">   15</a></span>&#160;<span class="preprocessor">#define TCP_CONGESTION 13</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#ae78be2131c19247dcd3deb523fb80c66">   16</a></span>&#160;<span class="preprocessor">#define TCP_FASTOPEN 23</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#aa7ca01c873510550b783d661e2882105">   18</a></span>&#160;<span class="preprocessor">#define TCP_ESTABLISHED 1</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#ae1bbee15a952fb872a7b65f5a1dc0453">   19</a></span>&#160;<span class="preprocessor">#define TCP_SYN_SENT 2</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a14b15d3784c84bc1bc8e952f854f83ab">   20</a></span>&#160;<span class="preprocessor">#define TCP_SYN_RECV 3</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a44eef38b1bf509c683c42863f04ad8f2">   21</a></span>&#160;<span class="preprocessor">#define TCP_FIN_WAIT1 4</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#acaae57ebddc97386a97aa497c57e1c84">   22</a></span>&#160;<span class="preprocessor">#define TCP_FIN_WAIT2 5</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a7ee2a5421825ce50e0379ce73fb6899f">   23</a></span>&#160;<span class="preprocessor">#define TCP_TIME_WAIT 6</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#ac0569fec73c207f215f77417a95e3b29">   24</a></span>&#160;<span class="preprocessor">#define TCP_CLOSE 7</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#ab4b7bd502730e7b59a6e469a64976fb6">   25</a></span>&#160;<span class="preprocessor">#define TCP_CLOSE_WAIT 8</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#aa738cd54d83db749f8f4213fe010e648">   26</a></span>&#160;<span class="preprocessor">#define TCP_LAST_ACK 9</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a83aa133c67f785a5edb6b432244a886b">   27</a></span>&#160;<span class="preprocessor">#define TCP_LISTEN 10</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#a7490c8c3caace3b45e4e183bc21ec446">   28</a></span>&#160;<span class="preprocessor">#define TCP_CLOSING 11</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d8/da5/tcp_8h.html#ac65409d904781e5a23529bd6bef2b673">   30</a></span>&#160;<span class="preprocessor">#define SOL_TCP 6</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _NETINET_TCP_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

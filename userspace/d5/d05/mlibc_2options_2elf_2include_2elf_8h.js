@@ -234,6 +234,9 @@ var mlibc_2options_2elf_2include_2elf_8h =
     [ "EI_NIDENT", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#ae407130db14180c6737390604ba7c1fe", null ],
     [ "EI_OSABI", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a862a7ea859a2a2bed110aedf7744d969", null ],
     [ "EI_VERSION", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aac8694b14e6500d9dc5047ef62518845", null ],
+    [ "ELF64_ST_BIND", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a42a5357c8e88e59874be665f0f8bece6", null ],
+    [ "ELF64_ST_INFO", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a3e3404b8adf465a8b34921c9dc0626ab", null ],
+    [ "ELF64_ST_TYPE", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a669aab4bedacc708965ef6c997084028", null ],
     [ "ELF_NOTE_GNU", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a5c13d62cb3d6a6a21d7bb80f56127475", null ],
     [ "ELFCLASS32", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a5f84b1bf6e07374d6289eab3d8c57f1c", null ],
     [ "ELFCLASS64", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a9ee66b59be5c78ea1f1eea8a36f2c291", null ],
@@ -337,8 +340,5 @@ var mlibc_2options_2elf_2include_2elf_8h =
     [ "ELF32_ST_INFO", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a3f7c2022f114dd5950276dcdf25f57e1", null ],
     [ "ELF32_ST_TYPE", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a99995028311a6771740f7490c6a4c6fa", null ],
     [ "ELF64_R_SYM", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a65748e6f2c1a680ae61b212f71048e8a", null ],
-    [ "ELF64_R_TYPE", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aa99085b28116a972cc95460d9d5493cc", null ],
-    [ "ELF64_ST_BIND", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a6a5b00cb9f76606937b54f87bf2e60c7", null ],
-    [ "ELF64_ST_INFO", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#a77aa610eca7371c1ecad7fd681803639", null ],
-    [ "ELF64_ST_TYPE", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aebd3747f20fd4a9a3166670352827364", null ]
+    [ "ELF64_R_TYPE", "d5/d05/mlibc_2options_2elf_2include_2elf_8h.html#aa99085b28116a972cc95460d9d5493cc", null ]
 ];

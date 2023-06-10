@@ -45,6 +45,11 @@ var ubsan_8cpp =
       [ "loc", "da/d80/ubsan_8cpp.html#a4e1e34f12556d23617e6be4d61b4f601", null ],
       [ "type", "da/d80/ubsan_8cpp.html#ad5010b5189da75d744993e71fc2a987a", null ]
     ] ],
+    [ "NonNullArgData", "da/d80/ubsan_8cpp.html#d4/d37/structNonNullArgData", [
+      [ "arg_index", "da/d80/ubsan_8cpp.html#aeb78f0e86e32fbaf4227cc932d997f0e", null ],
+      [ "attr_loc", "da/d80/ubsan_8cpp.html#a980b473206f6a62cf8bf74cd3dea93c8", null ],
+      [ "loc", "da/d80/ubsan_8cpp.html#a146c34fe22127faf9ba84fd60416b340", null ]
+    ] ],
     [ "FMT", "da/d80/ubsan_8cpp.html#ae08f5b881ce4d999800bc778aeb35a34", null ],
     [ "LOG_LHS_RHS", "da/d80/ubsan_8cpp.html#a749eb2ce5dae753c03788427920a44f7", null ],
     [ "LOG_NAME_LOC", "da/d80/ubsan_8cpp.html#ab34ee3fcee8dcb4011d48c41701cceaa", null ],
@@ -57,6 +62,7 @@ var ubsan_8cpp =
     [ "__ubsan_handle_missing_return", "da/d80/ubsan_8cpp.html#a9c3fda202a614f7097de4e7d3629cd2a", null ],
     [ "__ubsan_handle_mul_overflow", "da/d80/ubsan_8cpp.html#ac7a0240675671d6f70d73ec6ee422b6f", null ],
     [ "__ubsan_handle_negate_overflow", "da/d80/ubsan_8cpp.html#a407062641c9f824c16a3de75a2cdc630", null ],
+    [ "__ubsan_handle_nonnull_arg", "da/d80/ubsan_8cpp.html#a9e2584560e89a0f1903b8c8a8aafddd9", null ],
     [ "__ubsan_handle_out_of_bounds", "da/d80/ubsan_8cpp.html#a3a0a974b0687ce4a90d740bc89ab9f91", null ],
     [ "__ubsan_handle_pointer_overflow", "da/d80/ubsan_8cpp.html#a94b4f88c610774a6a19a2c4a887b9b89", null ],
     [ "__ubsan_handle_shift_out_of_bounds", "da/d80/ubsan_8cpp.html#a04199348c6aac4cd4e16fe80c671cc57", null ],

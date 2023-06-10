@@ -110,29 +110,33 @@ $(document).ready(function(){initNavTree('d2/d71/mlibc_2options_2ansi_2include_2
 <div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#a1844847a22da24371fa347b959283916">   19</a></span>&#160;<span class="preprocessor">#define CLD_STOPPED 5</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#afad5fd60fd725025f0682ec2697d1b45">   20</a></span>&#160;<span class="preprocessor">#define CLD_CONTINUED 6</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">// [7.14.1] signal() function</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<a class="code" href="../../d3/d36/mlibc_2abis_2linux_2signal_8h.html#aee602fbe29cd6605b66867706d7ce0e6">__sighandler</a> <a class="code" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#ad7d09f2a17db29d8e4c08e92abcf0860">signal</a>(<span class="keywordtype">int</span> sig, <a class="code" href="../../d3/d36/mlibc_2abis_2linux_2signal_8h.html#aee602fbe29cd6605b66867706d7ce0e6">__sighandler</a> <a class="code" href="../../da/d52/abort_8c.html#a3f64b652bf3cbb822474a96f4988fe03">handler</a>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// [7.14.1] signal() function</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">// [7.14.2] raise() function</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<a class="code" href="../../d3/d36/mlibc_2abis_2linux_2signal_8h.html#aee602fbe29cd6605b66867706d7ce0e6">__sighandler</a> <a class="code" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#ad7d09f2a17db29d8e4c08e92abcf0860">signal</a>(<span class="keywordtype">int</span> sig, <a class="code" href="../../d3/d36/mlibc_2abis_2linux_2signal_8h.html#aee602fbe29cd6605b66867706d7ce0e6">__sighandler</a> <a class="code" href="../../da/d52/abort_8c.html#a3f64b652bf3cbb822474a96f4988fe03">handler</a>);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keywordtype">int</span> <span class="keyword">raise</span>(<span class="keywordtype">int</span> sig);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">// [7.14.2] raise() function</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">   30</a></span>&#160;<span class="preprocessor">#define _NSIG NSIG</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">int</span> <span class="keyword">raise</span>(<span class="keywordtype">int</span> sig);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">   34</a></span>&#160;<span class="preprocessor">#define _NSIG NSIG</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#if __MLIBC_POSIX_OPTION</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#   include &lt;<a class="code" href="../../d5/d22/posix__signal_8h.html">bits/posix/posix_signal.h</a>&gt;</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#if __MLIBC_GLIBC_OPTION</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#   include &lt;<a class="code" href="../../d8/db1/glibc__signal_8h.html">bits/glibc/glibc_signal.h</a>&gt;</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#if __MLIBC_POSIX_OPTION</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#   include &lt;<a class="code" href="../../d5/d22/posix__signal_8h.html">bits/posix/posix_signal.h</a>&gt;</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SIGNAL_H</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#if __MLIBC_GLIBC_OPTION</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#   include &lt;<a class="code" href="../../d8/db1/glibc__signal_8h.html">bits/glibc/glibc_signal.h</a>&gt;</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SIGNAL_H</span></div>
 <div class="ttc" id="aabort_8c_html_a3f64b652bf3cbb822474a96f4988fe03"><div class="ttname"><a href="../../da/d52/abort_8c.html#a3f64b652bf3cbb822474a96f4988fe03">handler</a></div><div class="ttdeci">void handler(int sig, siginfo_t *info, void *ctx)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d52/abort_8c_source.html#l00005">abort.c:5</a></div></div>
 <div class="ttc" id="aglibc__signal_8h_html"><div class="ttname"><a href="../../d8/db1/glibc__signal_8h.html">glibc_signal.h</a></div></div>
 <div class="ttc" id="amlibc_2abis_2linux_2signal_8h_html_aee602fbe29cd6605b66867706d7ce0e6"><div class="ttname"><a href="../../d3/d36/mlibc_2abis_2linux_2signal_8h.html#aee602fbe29cd6605b66867706d7ce0e6">__sighandler</a></div><div class="ttdeci">void(* __sighandler)(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d36/mlibc_2abis_2linux_2signal_8h_source.html#l00098">signal.h:98</a></div></div>

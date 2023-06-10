@@ -111,6 +111,8 @@ Functions</h2></td></tr>
 <tr class="separator:a767b0960ff512bb48837a2f2b44b4982"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69bfa66b7aa1dd93b1fae8b168997fd7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/sys-resource-stubs_8cpp.html#a69bfa66b7aa1dd93b1fae8b168997fd7">setrlimit</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> resource, const struct <a class="el" href="../../db/d91/options_2posix_2include_2sys_2resource_8h.html#da/d56/structrlimit">rlimit</a> *limit)</td></tr>
 <tr class="separator:a69bfa66b7aa1dd93b1fae8b168997fd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca41fe53f7cf9b10a437c96456274a44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/daa/sys-resource-stubs_8cpp.html#aca41fe53f7cf9b10a437c96456274a44">prlimit</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>, const struct <a class="el" href="../../db/d91/options_2posix_2include_2sys_2resource_8h.html#da/d56/structrlimit">rlimit</a> *, struct <a class="el" href="../../db/d91/options_2posix_2include_2sys_2resource_8h.html#da/d56/structrlimit">rlimit</a> *)</td></tr>
+<tr class="separator:aca41fe53f7cf9b10a437c96456274a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ac2ee4921a8961060b4c7fcad8bf2b4e2"></a>
@@ -148,12 +150,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    }</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
-<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00024">ensure.h:24</a></div></div>
+<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00028">ensure.h:28</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a354119ed03dfa7e92fd808aba5827655"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a354119ed03dfa7e92fd808aba5827655">mlibc::sys_getpriority</a></div><div class="ttdeci">int sys_getpriority(int which, id_t who, int *value)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00416">generic.cpp:416</a></div></div>
 <div class="ttc" id="astdlib-stubs_8cpp_html_ac4f474c82e82cbb89ca7c36dd52be0ed"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a></div><div class="ttdeci">int value</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00065">stdlib-stubs.cpp:65</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00416">mlibc::sys_getpriority()</a>, and <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00065">value</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00416">mlibc::sys_getpriority()</a>, and <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00065">value</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d2b/setpriority_8c_source.html#l00009">main()</a>.</p>
 
@@ -194,11 +196,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
-<div class="ttc" id="anamespacemlibc_html_aa94c6d284fc2d1cb54e8a6592221427b"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#aa94c6d284fc2d1cb54e8a6592221427b">mlibc::sys_getrlimit</a></div><div class="ttdeci">int sys_getrlimit(int resource, struct rlimit *limit)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d54/sysdeps_8cpp_source.html#l01341">sysdeps.cpp:1341</a></div></div>
+<div class="ttc" id="anamespacemlibc_html_aa94c6d284fc2d1cb54e8a6592221427b"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#aa94c6d284fc2d1cb54e8a6592221427b">mlibc::sys_getrlimit</a></div><div class="ttdeci">int sys_getrlimit(int resource, struct rlimit *limit)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d54/sysdeps_8cpp_source.html#l01573">sysdeps.cpp:1573</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d9/d54/sysdeps_8cpp_source.html#l01341">mlibc::sys_getrlimit()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d9/d54/sysdeps_8cpp_source.html#l01573">mlibc::sys_getrlimit()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/db2/rlimits_8c_source.html#l00007">main()</a>, and <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00679">sysconf()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/db2/rlimits_8c_source.html#l00007">main()</a>, and <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00680">sysconf()</a>.</p>
 
 </div>
 </div>
@@ -237,9 +239,58 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="ttc" id="anamespacemlibc_html_a5776f571036f1804f0dc670dd37b30fd"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a5776f571036f1804f0dc670dd37b30fd">mlibc::sys_getrusage</a></div><div class="ttdeci">int sys_getrusage(int scope, struct rusage *usage)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd6/fork-exec_8cpp_source.html#l00550">fork-exec.cpp:550</a></div></div>
+<div class="ttc" id="anamespacemlibc_html_a5776f571036f1804f0dc670dd37b30fd"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a5776f571036f1804f0dc670dd37b30fd">mlibc::sys_getrusage</a></div><div class="ttdeci">int sys_getrusage(int scope, struct rusage *usage)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd6/fork-exec_8cpp_source.html#l00552">fork-exec.cpp:552</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../dd/dd6/fork-exec_8cpp_source.html#l00550">mlibc::sys_getrusage()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../dd/dd6/fork-exec_8cpp_source.html#l00552">mlibc::sys_getrusage()</a>.</p>
+
+</div>
+</div>
+<a id="aca41fe53f7cf9b10a437c96456274a44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca41fe53f7cf9b10a437c96456274a44">&#9670;&nbsp;</a></span>prlimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> prlimit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td>
+          <td class="paramname"><em>pid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>resource</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const struct <a class="el" href="../../db/d91/options_2posix_2include_2sys_2resource_8h.html#da/d56/structrlimit">rlimit</a> *&#160;</td>
+          <td class="paramname"><em>new_limits</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">struct <a class="el" href="../../db/d91/options_2posix_2include_2sys_2resource_8h.html#da/d56/structrlimit">rlimit</a> *&#160;</td>
+          <td class="paramname"><em>old_limits</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d7/daa/sys-resource-stubs_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../d7/daa/sys-resource-stubs_8cpp_source.html">sys-resource-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                                                {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    __builtin_unreachable();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="ttc" id="aensure_8h_html_a5e2c6c11947e5c706f6557c5195d90be"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a></div><div class="ttdeci">#define __ensure(assertion)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00019">ensure.h:19</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">__ensure</a>.</p>
 
 </div>
 </div>
@@ -286,7 +337,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
 <div class="ttc" id="anamespacemlibc_html_ac48be26cf7ea9bfa3cdcc3a03990f2d5"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#ac48be26cf7ea9bfa3cdcc3a03990f2d5">mlibc::sys_setpriority</a></div><div class="ttdeci">int sys_setpriority(int which, id_t who, int prio)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00429">generic.cpp:429</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00429">mlibc::sys_setpriority()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../de/d38/ironclad_2generic_2generic_8cpp_source.html#l00429">mlibc::sys_setpriority()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d2b/setpriority_8c_source.html#l00009">main()</a>.</p>
 
@@ -327,9 +378,9 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
-<div class="ttc" id="anamespacemlibc_html_a29e980a9c4258375f8a460f737a118d7"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a29e980a9c4258375f8a460f737a118d7">mlibc::sys_setrlimit</a></div><div class="ttdeci">int sys_setrlimit(int resource, const struct rlimit *limit)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d54/sysdeps_8cpp_source.html#l01348">sysdeps.cpp:1348</a></div></div>
+<div class="ttc" id="anamespacemlibc_html_a29e980a9c4258375f8a460f737a118d7"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a29e980a9c4258375f8a460f737a118d7">mlibc::sys_setrlimit</a></div><div class="ttdeci">int sys_setrlimit(int resource, const struct rlimit *limit)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d54/sysdeps_8cpp_source.html#l01580">sysdeps.cpp:1580</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d9/d54/sysdeps_8cpp_source.html#l01348">mlibc::sys_setrlimit()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../d9/d54/sysdeps_8cpp_source.html#l01580">mlibc::sys_setrlimit()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/db2/rlimits_8c_source.html#l00007">main()</a>.</p>
 

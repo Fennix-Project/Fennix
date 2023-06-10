@@ -110,9 +110,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a628e5c803c39fb1f1125bbccd0289ffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc5/ensure_8h.html#a628e5c803c39fb1f1125bbccd0289ffc">__ensure_fail</a> (const char *assertion, const char *file, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> line, const char *function)</td></tr>
+<tr class="memitem:a628e5c803c39fb1f1125bbccd0289ffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc5/ensure_8h.html#a628e5c803c39fb1f1125bbccd0289ffc">__ensure_fail</a> (const char *assertion, const char *file, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> line, const char *<a class="el" href="../../db/d16/debug_8h.html#ac56ee31762db2d7b05b7080812aaf7f1">function</a>)</td></tr>
 <tr class="separator:a628e5c803c39fb1f1125bbccd0289ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9130da224e9e5a2d5f79a6b88ca7e2da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc5/ensure_8h.html#a9130da224e9e5a2d5f79a6b88ca7e2da">__ensure_warn</a> (const char *assertion, const char *file, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> line, const char *function)</td></tr>
+<tr class="memitem:a9130da224e9e5a2d5f79a6b88ca7e2da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dc5/ensure_8h.html#a9130da224e9e5a2d5f79a6b88ca7e2da">__ensure_warn</a> (const char *assertion, const char *file, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> line, const char *<a class="el" href="../../db/d16/debug_8h.html#ac56ee31762db2d7b05b7080812aaf7f1">function</a>)</td></tr>
 <tr class="separator:a9130da224e9e5a2d5f79a6b88ca7e2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -134,7 +134,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">        <span class="keywordflow">do</span> { <span class="keywordflow">if</span>(!(assertion)) \</div>
 <div class="line">        __ensure_fail(#assertion, __FILE__, __LINE__, __func__); } <span class="keywordflow">while</span>(0)</div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00015">15</a> of file <a class="el" href="../../dc/dc5/ensure_8h_source.html">ensure.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">19</a> of file <a class="el" href="../../dc/dc5/ensure_8h_source.html">ensure.h</a>.</p>
 
 </div>
 </div>
@@ -175,7 +175,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="aKernel_2include__std_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00058">errno.h:58</a></div></div>
 <div class="ttc" id="alemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">24</a> of file <a class="el" href="../../dc/dc5/ensure_8h_source.html">ensure.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">28</a> of file <a class="el" href="../../dc/dc5/ensure_8h_source.html">ensure.h</a>.</p>
 
 </div>
 </div>
@@ -197,7 +197,7 @@ Functions</h2></td></tr>
 <div class="line">        __FILE__, __LINE__, __func__)</div>
 <div class="ttc" id="aensure_8h_html_a9130da224e9e5a2d5f79a6b88ca7e2da"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a9130da224e9e5a2d5f79a6b88ca7e2da">__ensure_warn</a></div><div class="ttdeci">void __ensure_warn(const char *assertion, const char *file, unsigned int line, const char *function)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp_source.html#l00012">ensure.cpp:12</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00021">21</a> of file <a class="el" href="../../dc/dc5/ensure_8h_source.html">ensure.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00025">25</a> of file <a class="el" href="../../dc/dc5/ensure_8h_source.html">ensure.h</a>.</p>
 
 </div>
 </div>
@@ -213,7 +213,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00034">34</a> of file <a class="el" href="../../dc/dc5/ensure_8h_source.html">ensure.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00038">38</a> of file <a class="el" href="../../dc/dc5/ensure_8h_source.html">ensure.h</a>.</p>
 
 </div>
 </div>
@@ -235,7 +235,7 @@ Functions</h2></td></tr>
 <div class="line">        __FILE__, __LINE__, __func__)</div>
 <div class="ttc" id="aensure_8h_html_a628e5c803c39fb1f1125bbccd0289ffc"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a628e5c803c39fb1f1125bbccd0289ffc">__ensure_fail</a></div><div class="ttdeci">void __ensure_fail(const char *assertion, const char *file, unsigned int line, const char *function)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp_source.html#l00005">ensure.cpp:5</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00018">18</a> of file <a class="el" href="../../dc/dc5/ensure_8h_source.html">ensure.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00022">22</a> of file <a class="el" href="../../dc/dc5/ensure_8h_source.html">ensure.h</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,32 @@
 var linux__sched_8h =
 [
+    [ "CLONE_CHILD_CLEARTID", "d9/d35/linux__sched_8h.html#a79914877b533fca7fbdb319640b42add", null ],
+    [ "CLONE_CHILD_SETTID", "d9/d35/linux__sched_8h.html#a816767a2cd31aaac3573d5bd6e32871c", null ],
+    [ "CLONE_DETACHED", "d9/d35/linux__sched_8h.html#a4263cd6fbfe5ed33f52e09ef24c6de58", null ],
+    [ "CLONE_FILES", "d9/d35/linux__sched_8h.html#ab062e8c87b92d645f7f4698a36e5b57a", null ],
+    [ "CLONE_FS", "d9/d35/linux__sched_8h.html#abf70cffabfa4515feef97f66bae6a5c7", null ],
+    [ "CLONE_IO", "d9/d35/linux__sched_8h.html#a3e6aada28e7b8090ed425ff96e6ac191", null ],
+    [ "CLONE_NEWCGROUP", "d9/d35/linux__sched_8h.html#a9d5d88148a26086567c3731e2e5e110a", null ],
+    [ "CLONE_NEWIPC", "d9/d35/linux__sched_8h.html#a1f702bf1b80ed7a8cef30e363a87e3e3", null ],
+    [ "CLONE_NEWNET", "d9/d35/linux__sched_8h.html#a2ba1673aa7423b46a7bcfa8f68cd2bce", null ],
+    [ "CLONE_NEWNS", "d9/d35/linux__sched_8h.html#aab02ccd05c3d9fa806d974e38a8debc4", null ],
+    [ "CLONE_NEWPID", "d9/d35/linux__sched_8h.html#a2fa6801173606dd3492ca9061d1c4ad4", null ],
+    [ "CLONE_NEWUSER", "d9/d35/linux__sched_8h.html#a5d697cae6f0156524a1bd7d77bcf8e87", null ],
+    [ "CLONE_NEWUTS", "d9/d35/linux__sched_8h.html#afaf1addd4b1e90196d1876896c1a53c3", null ],
+    [ "CLONE_PARENT", "d9/d35/linux__sched_8h.html#a93d70879b6c53ae3475b3241d09c4741", null ],
+    [ "CLONE_PARENT_SETTID", "d9/d35/linux__sched_8h.html#a1373b97ed9463892bebd97c564905043", null ],
+    [ "CLONE_PTRACE", "d9/d35/linux__sched_8h.html#a3d840224e4d7734b628800b9906491fe", null ],
+    [ "CLONE_SETTLS", "d9/d35/linux__sched_8h.html#a977f0a84f5dd94d49fbbc0fa194e26a3", null ],
+    [ "CLONE_SIGHAND", "d9/d35/linux__sched_8h.html#a36c57614f62361d9a91c75d2ef1bf854", null ],
+    [ "CLONE_SYSVSEM", "d9/d35/linux__sched_8h.html#adf7188a799214c0cc99c30dcc2594b37", null ],
+    [ "CLONE_THREAD", "d9/d35/linux__sched_8h.html#a349a1461dd7321b43878ea9ecd5be8ee", null ],
+    [ "CLONE_UNTRACED", "d9/d35/linux__sched_8h.html#a29244834ccba5811ef328921a5e9a482", null ],
+    [ "CLONE_VFORK", "d9/d35/linux__sched_8h.html#ab197605ca12b5976dac64103a5f6cccc", null ],
+    [ "CLONE_VM", "d9/d35/linux__sched_8h.html#ac07965af2ad895ca67fdc8352303fbb5", null ],
+    [ "clone", "d9/d35/linux__sched_8h.html#a4a58da912909f937e2e7247a55b161fd", null ],
+    [ "sched_getaffinity", "d9/d35/linux__sched_8h.html#a4b7ccb0eb4ad49973d9c54d7b7bc1ace", null ],
     [ "sched_getcpu", "d9/d35/linux__sched_8h.html#a84cb2ee7e8316f4d44ba8119dbfeef08", null ],
-    [ "setns", "d9/d35/linux__sched_8h.html#a9aa5c2738ac9781ed9cd8202d87fb089", null ]
+    [ "sched_getscheduler", "d9/d35/linux__sched_8h.html#a99fcb2532b1482d236dc04495a3f194d", null ],
+    [ "sched_setaffinity", "d9/d35/linux__sched_8h.html#ac5dd89aac453a882679e3651fc2aefe8", null ],
+    [ "unshare", "d9/d35/linux__sched_8h.html#acc42a7568304405be339c5d878a9cbf6", null ]
 ];

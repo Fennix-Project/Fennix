@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('d4/d33/smp_8hpp.html','../../'); initR
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d0/dc4/cxxabi_8h_source.html">cxxabi.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html">types.h</a>&gt;</code><br />
 <code>#include &lt;atomic&gt;</code><br />
 </div>
@@ -155,6 +156,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a4fcbc98bdc4609add35b123d0be391de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dec/classstd_1_1atomic.html">std::atomic</a>&lt; <a class="el" href="../../de/d96/structTasking_1_1TCB.html">Tasking::TCB</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a></td></tr>
 <tr class="memdesc:a4fcbc98bdc4609add35b123d0be391de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current running thread.  <a href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">More...</a><br /></td></tr>
 <tr class="separator:a4fcbc98bdc4609add35b123d0be391de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc2363439c4ff84e2faa9589c3ba70c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc4/cxxabi_8h.html#da/d07/struct____cxa__eh__globals">__cxa_eh_globals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#acc2363439c4ff84e2faa9589c3ba70c7">EHGlobals</a></td></tr>
+<tr class="memdesc:acc2363439c4ff84e2faa9589c3ba70c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unwind data.  <a href="../../d4/d33/smp_8hpp.html#acc2363439c4ff84e2faa9589c3ba70c7">More...</a><br /></td></tr>
+<tr class="separator:acc2363439c4ff84e2faa9589c3ba70c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c318f3349713a8030d610e4a263d10a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d33/smp_8hpp.html#d4/d49/structCPUArchData">CPUArchData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a></td></tr>
 <tr class="memdesc:a7c318f3349713a8030d610e4a263d10a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Architecture-specific data.  <a href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">More...</a><br /></td></tr>
 <tr class="separator:a7c318f3349713a8030d610e4a263d10a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,7 +182,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00029">29</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00030">30</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 </div>
 </div>
 </div>
@@ -194,7 +198,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00042">42</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -221,6 +225,12 @@ Current running thread. </td></tr>
 Data</td>
 <td class="fielddoc">
 Architecture-specific data. </td></tr>
+<tr><td class="fieldtype">
+<a id="ae8a224d969d59fd7fcfc16ba1bfba539"></a><a class="el" href="../../d0/dc4/cxxabi_8h.html#da/d07/struct____cxa__eh__globals">__cxa_eh_globals</a></td>
+<td class="fieldname">
+EHGlobals</td>
+<td class="fielddoc">
+Unwind data. </td></tr>
 <tr><td class="fieldtype">
 <a id="a590e51ea5f73b23f0a436857588c2e96"></a>long</td>
 <td class="fieldname">
@@ -274,7 +284,7 @@ Used by syscall handler. </td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00027">27</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
 </div>
 </div>
@@ -292,7 +302,7 @@ Used by syscall handler. </td></tr>
 
 <p>Maximum supported number of <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> cores by the kernel. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00026">26</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00027">27</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
 </div>
 </div>
@@ -429,14 +439,14 @@ Used by syscall handler. </td></tr>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
 <div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
 <div class="ttc" id="aXallocV1_8cpp_html_aca10be923fb0da174d8c3a29d8b5083b"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a></div><div class="ttdeci">int Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">XallocV1.cpp:3</a></div></div>
-<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00078">debug.h:78</a></div></div>
+<div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
 <div class="ttc" id="alemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
-<div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00027">smp.hpp:27</a></div></div>
-<div class="ttc" id="asmp_8hpp_html_a92c6b1cf703f9e064f5efc0907f80379"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></div><div class="ttdeci">bool IsActive</div><div class="ttdoc">Is CPU online?</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00028">smp.hpp:28</a></div></div>
+<div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00028">smp.hpp:28</a></div></div>
+<div class="ttc" id="asmp_8hpp_html_a92c6b1cf703f9e064f5efc0907f80379"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></div><div class="ttdeci">bool IsActive</div><div class="ttdoc">Is CPU online?</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00031">smp.hpp:31</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00031">APIC::APIC_ID</a>, <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00027">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00078">error</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">IsActive</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00360">unlikely</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html#l00031">APIC::APIC_ID</a>, <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00031">IsActive</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00374">unlikely</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00197">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00198">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00271">GlobalDescriptorTable::GetKernelStack()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00816">CrashHandler::Handle()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00145">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00051">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00253">GlobalDescriptorTable::SetKernelStack()</a>, <a class="el" href="../../df/df7/Scheduler_8cpp_source.html#l00110">TaskingScheduler_OneShot()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00188">ThreadDoExit()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00369">APIC::Timer::Timer()</a>, <a class="el" href="../../de/d15/UserHandler_8cpp_source.html#l00045">UserModeExceptionHandler()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00844">Tasking::Task::~Task()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/d16/Kernel_2Library_2libstdc_09_09_2cxxabi_8cpp_source.html#l00035">__cxxabiv1::__cxa_get_globals()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00334">__no_sanitize()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00187">Tasking::Task::GetCurrentProcess()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00188">Tasking::Task::GetCurrentThread()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00271">GlobalDescriptorTable::GetKernelStack()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00816">CrashHandler::Handle()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00145">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00051">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00253">GlobalDescriptorTable::SetKernelStack()</a>, <a class="el" href="../../df/df7/Scheduler_8cpp_source.html#l00110">TaskingScheduler_OneShot()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00178">ThreadDoExit()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00369">APIC::Timer::Timer()</a>, <a class="el" href="../../de/d15/UserHandler_8cpp_source.html#l00045">UserModeExceptionHandler()</a>, and <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00827">Tasking::Task::~Task()</a>.</p>
 
 </div>
 </div>
@@ -455,7 +465,7 @@ Used by syscall handler. </td></tr>
 
 <p>Checksum. Used to verify the integrity of the data. Must be equal to CPU_DATA_CHECKSUM (0xC0FFEE). </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
 </div>
 </div>
@@ -475,7 +485,7 @@ Used by syscall handler. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00016">16</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00844">Tasking::Task::~Task()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00827">Tasking::Task::~Task()</a>.</p>
 
 </div>
 </div>
@@ -495,7 +505,7 @@ Used by syscall handler. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00019">19</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00844">Tasking::Task::~Task()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00827">Tasking::Task::~Task()</a>.</p>
 
 </div>
 </div>
@@ -513,9 +523,27 @@ Used by syscall handler. </td></tr>
 
 <p>Architecture-specific data. </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00025">25</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00071">NetworkIPv4::__no_sanitize()</a>, <a class="el" href="../../d5/d24/Checksum_8cpp_source.html#l00020">CalculateChecksum()</a>, <a class="el" href="../../d7/dd1/AudioCodec97_8cpp_source.html#l00047">AudioCodec97::CallbackHandler()</a>, <a class="el" href="../../d1/d97/PCNET_8cpp_source.html#l00060">PCNET::CallbackHandler()</a>, <a class="el" href="../../d6/d33/AdvancedHostControllerInterface_8cpp_source.html#l00236">AdvancedHostControllerInterface::CallbackHandler()</a>, <a class="el" href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00041">AdvancedTechnologyAttachment::CallbackHandler()</a>, <a class="el" href="../../da/d02/Gigabit_8cpp_source.html#l00167">Gigabit::CallbackHandler()</a>, <a class="el" href="../../d4/d38/PersonalSystem2_2Mouse_8cpp_source.html#l00059">PS2Mouse::CallbackHandler()</a>, <a class="el" href="../../da/d9e/RTL8139_8cpp_source.html#l00102">RTL8139::CallbackHandler()</a>, <a class="el" href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00132">VMwareMouse::CallbackHandler()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00105">DriverAHCIDiskRead()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00113">DriverAHCIDiskWrite()</a>, <a class="el" href="../../d7/dd1/AudioCodec97_8cpp_source.html#l00036">AudioCodec97::DriverEntry()</a>, <a class="el" href="../../d1/d97/PCNET_8cpp_source.html#l00050">PCNET::DriverEntry()</a>, <a class="el" href="../../d6/d33/AdvancedHostControllerInterface_8cpp_source.html#l00225">AdvancedHostControllerInterface::DriverEntry()</a>, <a class="el" href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00026">AdvancedTechnologyAttachment::DriverEntry()</a>, <a class="el" href="../../da/d02/Gigabit_8cpp_source.html#l00157">Gigabit::DriverEntry()</a>, <a class="el" href="../../d4/d38/PersonalSystem2_2Mouse_8cpp_source.html#l00048">PS2Mouse::DriverEntry()</a>, <a class="el" href="../../da/d9e/RTL8139_8cpp_source.html#l00092">RTL8139::DriverEntry()</a>, <a class="el" href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00034">VMwareMouse::DriverEntry()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00099">DriverNetReceive()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00092">DriverNetSend()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00206">NetworkInterfaceManager::NetworkInterface::DrvReceive()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00199">NetworkInterfaceManager::NetworkInterface::DrvSend()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00039">ExceptionHandler()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00816">CrashHandler::Handle()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00158">GlobalDescriptorTable::Init()</a>, <a class="el" href="../../da/d02/Gigabit_8cpp_source.html#l00351">Gigabit::InterruptCallback()</a>, <a class="el" href="../../d4/d38/PersonalSystem2_2Mouse_8cpp_source.html#l00120">PS2Mouse::InterruptCallback()</a>, <a class="el" href="../../da/d9e/RTL8139_8cpp_source.html#l00173">RTL8139::InterruptCallback()</a>, <a class="el" href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00194">VMwareMouse::InterruptCallback()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00145">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../d3/d3b/AddressResolutionProtocol_8cpp_source.html#l00191">NetworkARP::ARP::OnEthernetPacketReceived()</a>, <a class="el" href="../../d3/d34/eth_8hpp_source.html#l00064">NetworkEthernet::EthernetEvents::OnEthernetPacketReceived()</a>, <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00073">NetworkInterfaceManager::Events::OnInterfaceReceived()</a>, <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00081">NetworkInterfaceManager::Events::OnInterfaceSent()</a>, <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00125">NetworkIPv4::IPv4Events::OnIPv4PacketReceived()</a>, <a class="el" href="../../d2/dda/UserDatagramProtocol_8cpp_source.html#l00100">NetworkUDP::UDP::OnIPv4PacketReceived()</a>, <a class="el" href="../../d9/db8/NetworkTimeProtocol_8cpp_source.html#l00025">NetworkNTP::NTP::OnUDPPacketReceived()</a>, <a class="el" href="../../d4/d19/udp_8hpp_source.html#l00051">NetworkUDP::UDPEvents::OnUDPPacketReceived()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00044">operator delete()</a>, <a class="el" href="../../da/d02/Gigabit_8cpp_source.html#l00052">Gigabit::ReadEEPROM()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00229">NetworkInterfaceManager::NetworkInterface::Receive()</a>, <a class="el" href="../../d7/dc0/InternetControlMessageProtocol_8cpp_source.html#l00072">NetworkICMPv6::ICMPv6::Receive()</a>, <a class="el" href="../../d9/d3b/Ethernet_8cpp_source.html#l00063">NetworkEthernet::Ethernet::Receive()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00213">NetworkInterfaceManager::NetworkInterface::Send()</a>, <a class="el" href="../../d9/d3b/Ethernet_8cpp_source.html#l00046">NetworkEthernet::Ethernet::Send()</a>, <a class="el" href="../../d2/dda/UserDatagramProtocol_8cpp_source.html#l00079">NetworkUDP::UDP::Send()</a>, <a class="el" href="../../d7/dc0/InternetControlMessageProtocol_8cpp_source.html#l00065">NetworkICMPv6::ICMPv6::Send()</a>, and <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00037">NetworkIPv4::IPv4::Send()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00071">NetworkIPv4::__no_sanitize()</a>, <a class="el" href="../../d5/d24/Checksum_8cpp_source.html#l00020">CalculateChecksum()</a>, <a class="el" href="../../d7/dd1/AudioCodec97_8cpp_source.html#l00047">AudioCodec97::CallbackHandler()</a>, <a class="el" href="../../d1/d97/PCNET_8cpp_source.html#l00060">PCNET::CallbackHandler()</a>, <a class="el" href="../../d6/d33/AdvancedHostControllerInterface_8cpp_source.html#l00236">AdvancedHostControllerInterface::CallbackHandler()</a>, <a class="el" href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00041">AdvancedTechnologyAttachment::CallbackHandler()</a>, <a class="el" href="../../da/d02/Gigabit_8cpp_source.html#l00167">Gigabit::CallbackHandler()</a>, <a class="el" href="../../d4/d38/PersonalSystem2_2Mouse_8cpp_source.html#l00059">PS2Mouse::CallbackHandler()</a>, <a class="el" href="../../da/d9e/RTL8139_8cpp_source.html#l00102">RTL8139::CallbackHandler()</a>, <a class="el" href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00132">VMwareMouse::CallbackHandler()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00105">DriverAHCIDiskRead()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00113">DriverAHCIDiskWrite()</a>, <a class="el" href="../../d7/dd1/AudioCodec97_8cpp_source.html#l00036">AudioCodec97::DriverEntry()</a>, <a class="el" href="../../d1/d97/PCNET_8cpp_source.html#l00050">PCNET::DriverEntry()</a>, <a class="el" href="../../d6/d33/AdvancedHostControllerInterface_8cpp_source.html#l00225">AdvancedHostControllerInterface::DriverEntry()</a>, <a class="el" href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00026">AdvancedTechnologyAttachment::DriverEntry()</a>, <a class="el" href="../../da/d02/Gigabit_8cpp_source.html#l00157">Gigabit::DriverEntry()</a>, <a class="el" href="../../d4/d38/PersonalSystem2_2Mouse_8cpp_source.html#l00048">PS2Mouse::DriverEntry()</a>, <a class="el" href="../../da/d9e/RTL8139_8cpp_source.html#l00092">RTL8139::DriverEntry()</a>, <a class="el" href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00034">VMwareMouse::DriverEntry()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00099">DriverNetReceive()</a>, <a class="el" href="../../d4/db2/DriverAPI_8cpp_source.html#l00092">DriverNetSend()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00186">NetworkInterfaceManager::NetworkInterface::DrvReceive()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00179">NetworkInterfaceManager::NetworkInterface::DrvSend()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00039">ExceptionHandler()</a>, <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00816">CrashHandler::Handle()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00158">GlobalDescriptorTable::Init()</a>, <a class="el" href="../../da/d02/Gigabit_8cpp_source.html#l00351">Gigabit::InterruptCallback()</a>, <a class="el" href="../../d4/d38/PersonalSystem2_2Mouse_8cpp_source.html#l00120">PS2Mouse::InterruptCallback()</a>, <a class="el" href="../../da/d9e/RTL8139_8cpp_source.html#l00173">RTL8139::InterruptCallback()</a>, <a class="el" href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00194">VMwareMouse::InterruptCallback()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00145">Interrupts::MainInterruptHandler()</a>, <a class="el" href="../../d3/d3b/AddressResolutionProtocol_8cpp_source.html#l00191">NetworkARP::ARP::OnEthernetPacketReceived()</a>, <a class="el" href="../../d3/d34/eth_8hpp_source.html#l00064">NetworkEthernet::EthernetEvents::OnEthernetPacketReceived()</a>, <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00073">NetworkInterfaceManager::Events::OnInterfaceReceived()</a>, <a class="el" href="../../d7/dc4/nc_8hpp_source.html#l00081">NetworkInterfaceManager::Events::OnInterfaceSent()</a>, <a class="el" href="../../da/db9/ipv4_8hpp_source.html#l00125">NetworkIPv4::IPv4Events::OnIPv4PacketReceived()</a>, <a class="el" href="../../d2/dda/UserDatagramProtocol_8cpp_source.html#l00100">NetworkUDP::UDP::OnIPv4PacketReceived()</a>, <a class="el" href="../../d9/db8/NetworkTimeProtocol_8cpp_source.html#l00025">NetworkNTP::NTP::OnUDPPacketReceived()</a>, <a class="el" href="../../d4/d19/udp_8hpp_source.html#l00051">NetworkUDP::UDPEvents::OnUDPPacketReceived()</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00044">operator delete()</a>, <a class="el" href="../../da/d02/Gigabit_8cpp_source.html#l00052">Gigabit::ReadEEPROM()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00209">NetworkInterfaceManager::NetworkInterface::Receive()</a>, <a class="el" href="../../d7/dc0/InternetControlMessageProtocol_8cpp_source.html#l00072">NetworkICMPv6::ICMPv6::Receive()</a>, <a class="el" href="../../d9/d3b/Ethernet_8cpp_source.html#l00063">NetworkEthernet::Ethernet::Receive()</a>, <a class="el" href="../../d8/d3a/NetworkController_8cpp_source.html#l00193">NetworkInterfaceManager::NetworkInterface::Send()</a>, <a class="el" href="../../d9/d3b/Ethernet_8cpp_source.html#l00046">NetworkEthernet::Ethernet::Send()</a>, <a class="el" href="../../d2/dda/UserDatagramProtocol_8cpp_source.html#l00079">NetworkUDP::UDP::Send()</a>, <a class="el" href="../../d7/dc0/InternetControlMessageProtocol_8cpp_source.html#l00065">NetworkICMPv6::ICMPv6::Send()</a>, and <a class="el" href="../../d7/dbb/InternetProtocol_8cpp_source.html#l00037">NetworkIPv4::IPv4::Send()</a>.</p>
+
+</div>
+</div>
+<a id="acc2363439c4ff84e2faa9589c3ba70c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc2363439c4ff84e2faa9589c3ba70c7">&#9670;&nbsp;</a></span>EHGlobals</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dc4/cxxabi_8h.html#da/d07/struct____cxa__eh__globals">__cxa_eh_globals</a> EHGlobals</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unwind data. </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00022">22</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
 </div>
 </div>
@@ -553,7 +581,7 @@ Used by syscall handler. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00010">10</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00075">InterProcessCommunication::IPC::Allocate()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00096">InterProcessCommunication::IPC::Deallocate()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00057">InterProcessCommunication::IPC::Destroy()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00200">Tasking::Task::GetProcessByID()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00208">Tasking::Task::GetThreadByID()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00227">InterProcessCommunication::IPC::HandleSyscall()</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00018">IPC()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00179">InterProcessCommunication::IPC::Listen()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00051">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00115">InterProcessCommunication::IPC::Read()</a>, <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00241">sys_ipc()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00369">APIC::Timer::Timer()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00194">InterProcessCommunication::IPC::Wait()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00145">InterProcessCommunication::IPC::Write()</a>, and <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00222">Interrupts::Handler::~Handler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00075">InterProcessCommunication::IPC::Allocate()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00096">InterProcessCommunication::IPC::Deallocate()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00057">InterProcessCommunication::IPC::Destroy()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00190">Tasking::Task::GetProcessByID()</a>, <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00198">Tasking::Task::GetThreadByID()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00227">InterProcessCommunication::IPC::HandleSyscall()</a>, <a class="el" href="../../d4/d7b/fcts_8c_source.html#l00016">IPC()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00179">InterProcessCommunication::IPC::Listen()</a>, <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00051">ACPI::DSDT::OnInterruptReceived()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00115">InterProcessCommunication::IPC::Read()</a>, <a class="el" href="../../d9/d76/Native_8cpp_source.html#l00379">sys_ipc()</a>, <a class="el" href="../../d4/d70/AdvancedProgrammableInterruptController_8cpp_source.html#l00369">APIC::Timer::Timer()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00194">InterProcessCommunication::IPC::Wait()</a>, <a class="el" href="../../d3/dff/InterProcessCommunication_8cpp_source.html#l00145">InterProcessCommunication::IPC::Write()</a>, and <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00222">Interrupts::Handler::~Handler()</a>.</p>
 
 </div>
 </div>
@@ -571,7 +599,7 @@ Used by syscall handler. </td></tr>
 
 <p>Is <a class="el" href="../../d7/dfa/namespaceCPU.html" title="CPU related functions.">CPU</a> online? </p>
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">28</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00033">GetCurrentCPU()</a>.</p>
 
@@ -593,7 +621,7 @@ Used by syscall handler. </td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00007">7</a> of file <a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00350">__no_sanitize()</a>, <a class="el" href="../../d4/d46/StackCheck_8cpp_source.html#l00055">__stack_chk_fail()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00253">GlobalDescriptorTable::SetKernelStack()</a>, and <a class="el" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00069">StartCPU()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d71/Task_8cpp_source.html#l00334">__no_sanitize()</a>, <a class="el" href="../../d4/d46/StackCheck_8cpp_source.html#l00055">__stack_chk_fail()</a>, <a class="el" href="../../d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp_source.html#l00253">GlobalDescriptorTable::SetKernelStack()</a>, and <a class="el" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00069">StartCPU()</a>.</p>
 
 </div>
 </div>

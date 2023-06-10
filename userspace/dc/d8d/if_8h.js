@@ -41,7 +41,9 @@ var if_8h =
       [ "ifcu_buf", "dc/d8d/if_8h.html#af31d39bb2476ca1ed6dca55beda5e43c", null ],
       [ "ifcu_req", "dc/d8d/if_8h.html#ad57d8bc08e9e78e54338eb283d4b23d2", null ]
     ] ],
+    [ "ALTIFNAMSIZ", "dc/d8d/if_8h.html#af60d8f9bbe80f9b42e2fd4b5ced576b0", null ],
     [ "IF_NAMESIZE", "dc/d8d/if_8h.html#aedb93bcce9682d7644080b859849f59d", null ],
+    [ "IFALIASZ", "dc/d8d/if_8h.html#a563bd49f2ff322ba218a24382d385469", null ],
     [ "ifc_buf", "dc/d8d/if_8h.html#a843e43dcc69b3230f7890a49a5f72aac", null ],
     [ "ifc_req", "dc/d8d/if_8h.html#a62a1dc139d61e10e5f633c0ef7cc1184", null ],
     [ "IFF_ALLMULTI", "dc/d8d/if_8h.html#a4388f61b9395271b02d106db5681ac2c", null ],
@@ -63,6 +65,7 @@ var if_8h =
     [ "IFF_RUNNING", "dc/d8d/if_8h.html#a80d412cdeb960f62ace72900a6d8124d", null ],
     [ "IFF_SLAVE", "dc/d8d/if_8h.html#aad01a373db9ab0dfef3cd8e46d67fdd6", null ],
     [ "IFF_UP", "dc/d8d/if_8h.html#afe3b956069abb0a0a60c8ec1d4c13174", null ],
+    [ "IFF_VOLATILE", "dc/d8d/if_8h.html#a8bf533a5892a120d273eaeb01d713b8d", null ],
     [ "IFNAMSIZ", "dc/d8d/if_8h.html#acd06da230a96d3b7e6f193c5b3142002", null ],
     [ "ifr_addr", "dc/d8d/if_8h.html#a6ced5f364c0b2a60b54f6938fd9f1b48", null ],
     [ "ifr_bandwidth", "dc/d8d/if_8h.html#a4e2aae71d2c5c26c03b6633cedb6ce55", null ],

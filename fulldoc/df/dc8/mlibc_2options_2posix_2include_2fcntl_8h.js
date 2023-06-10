@@ -12,13 +12,14 @@ var mlibc_2options_2posix_2include_2fcntl_8h =
       [ "handle_bytes", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a391c6fb75a0ee511808466a1a8064b15", null ],
       [ "handle_type", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#aa9e1a17f8c83603d7bb5907e9778932b", null ]
     ] ],
+    [ "AT_NO_AUTOMOUNT", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#ad6b62f22648b4a282047f42ffc87ccb6", null ],
+    [ "F_GETPIPE_SZ", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#afbcdddc33d995137cadf4f9c9f424870", null ],
+    [ "F_SETPIPE_SZ", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a7d823f2bced73f1b095f284d648898e1", null ],
     [ "O_NDELAY", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a63ba256ec18f373817941d5a4d0e2d5e", null ],
-    [ "POSIX_FADV_DONTNEED", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a088883d3ba2ef3135e249427b897c650", null ],
-    [ "POSIX_FADV_NOREUSE", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a4e3faf88d9b26f7cff31148b4f484149", null ],
-    [ "POSIX_FADV_NORMAL", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#afa2732611a1cf71fcf542361a97a4745", null ],
-    [ "POSIX_FADV_RANDOM", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#aae17e2b1aa1265c588e04df5ec81c3d1", null ],
-    [ "POSIX_FADV_SEQUENTIAL", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a997e00c0569d307a3f01a2f21517ee84", null ],
-    [ "POSIX_FADV_WILLNEED", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a4ba20512b0198da87b7d5176767ec29e", null ],
+    [ "SPLICE_F_GIFT", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a6ca6c67e56ccb2f87e52c965e313dcc3", null ],
+    [ "SPLICE_F_MORE", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a69625edea2e55a6849f823226619f7a3", null ],
+    [ "SPLICE_F_MOVE", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a55e06bd61f0eade7c486dcb9e4c30491", null ],
+    [ "SPLICE_F_NONBLOCK", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#accc8242428003aedc86a4ccf9705936f", null ],
     [ "creat", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#adacdd2db4479c58ca8890e41075c8aff", null ],
     [ "fallocate", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a26ba05fc43886db02fe169b35e04bfdf", null ],
     [ "fcntl", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a8117d90cc9f8fa12be813e30a83dfa7b", null ],
@@ -27,5 +28,7 @@ var mlibc_2options_2posix_2include_2fcntl_8h =
     [ "open_by_handle_at", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a300d78f113f78a0e584821e293a53861", null ],
     [ "openat", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a336e4d65497f70bab24b0756c140c9f6", null ],
     [ "posix_fadvise", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a2b9ecf6f7a67c043c92ca03d5fddcc04", null ],
-    [ "posix_fallocate", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a28fbc53911b955548ea898857d258cbe", null ]
+    [ "posix_fallocate", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a28fbc53911b955548ea898857d258cbe", null ],
+    [ "splice", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#ab333a160f70657612062939cd61956dd", null ],
+    [ "vmsplice", "df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#a4970b56309ec395ece5bc4214329d79a", null ]
 ];

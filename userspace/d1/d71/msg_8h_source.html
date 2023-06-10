@@ -98,16 +98,24 @@ $(document).ready(function(){initNavTree('d1/d71/msg_8h_source.html','../../'); 
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d1/d71/msg_8h.html#a4322c74505ddb6faef66c1190778fbd1">msgget</a>(<a class="code" href="../../d9/d24/ipc_8h.html#a99c5bd20241a4a2708237037a1857062">key_t</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d1/d71/msg_8h.html#a4322c74505ddb6faef66c1190778fbd1">msgget</a>(<a class="code" href="../../d9/d24/ipc_8h.html#a99c5bd20241a4a2708237037a1857062">key_t</a>, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d1/d71/msg_8h.html#ad51652de4c0a239d5253df6a7b8dc94d">msgctl</a>(<span class="keywordtype">int</span> msqid, <span class="keywordtype">int</span> cmd, <span class="keyword">struct</span> msqid_ds *<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_MSG_H</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// _SYS_MSG_H</span></div>
 <div class="ttc" id="aipc_8h_html"><div class="ttname"><a href="../../d9/d24/ipc_8h.html">ipc.h</a></div></div>
 <div class="ttc" id="aipc_8h_html_a99c5bd20241a4a2708237037a1857062"><div class="ttname"><a href="../../d9/d24/ipc_8h.html#a99c5bd20241a4a2708237037a1857062">key_t</a></div><div class="ttdeci">int key_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d24/ipc_8h_source.html#l00023">ipc.h:23</a></div></div>
+<div class="ttc" id="alongjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3e/longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
 <div class="ttc" id="amsg_8h_html_a4322c74505ddb6faef66c1190778fbd1"><div class="ttname"><a href="../../d1/d71/msg_8h.html#a4322c74505ddb6faef66c1190778fbd1">msgget</a></div><div class="ttdeci">int msgget(key_t, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6a/sys-msg_8cpp_source.html#l00005">sys-msg.cpp:5</a></div></div>
+<div class="ttc" id="amsg_8h_html_ad51652de4c0a239d5253df6a7b8dc94d"><div class="ttname"><a href="../../d1/d71/msg_8h.html#ad51652de4c0a239d5253df6a7b8dc94d">msgctl</a></div><div class="ttdeci">int msgctl(int msqid, int cmd, struct msqid_ds *buf)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6a/sys-msg_8cpp_source.html#l00010">sys-msg.cpp:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

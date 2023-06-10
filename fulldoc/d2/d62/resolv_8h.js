@@ -1,7 +1,7 @@
 var resolv_8h =
 [
     [ "__res_state", "d2/d62/resolv_8h.html#dd/d38/struct____res__state", [
-      [ "_u", "d2/d62/resolv_8h.html#acc7eb38e78ee3a8f2604877589690512", null ],
+      [ "_u", "d2/d62/resolv_8h.html#aa4a07b1755ef0ebbeb5652c975184d67", null ],
       [ "defdname", "d2/d62/resolv_8h.html#a65cc50969bb19911b11a06aa563d0a75", null ],
       [ "dnsrch", "d2/d62/resolv_8h.html#ae1798043a45663acc97587355c6012ed", null ],
       [ "ndots", "d2/d62/resolv_8h.html#a9e74d539475d682c1cafe920e9ce4f56", null ],

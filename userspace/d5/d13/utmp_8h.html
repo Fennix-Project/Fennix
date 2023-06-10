@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('d5/d13/utmp_8h.html','../../'); initRe
 <div class="textblock"><code>#include &lt;abi-bits/pid_t.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d80/timeval_8h_source.html">bits/posix/timeval.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/d3d/mlibc_2options_2internal_2include_2bits_2types_8h_source.html">bits/types.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../dd/df2/paths_8h_source.html">paths.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d5/d13/utmp_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -136,6 +137,14 @@ Macros</h2></td></tr>
 <tr class="separator:a3c0992b5691d5c0a3175fe408ab5e64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4ec45135b54c47ec0f3d5de34025b12"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/utmp_8h.html#af4ec45135b54c47ec0f3d5de34025b12">UT_HOSTSIZE</a>&#160;&#160;&#160;256</td></tr>
 <tr class="separator:af4ec45135b54c47ec0f3d5de34025b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaed180bf9c721a43ad889aaa3f32d2f5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/utmp_8h.html#aaed180bf9c721a43ad889aaa3f32d2f5">WTMP_FILE</a>&#160;&#160;&#160;<a class="el" href="../../dd/df2/paths_8h.html#a9430fd07c2841f76b5899725a71c1385">_PATH_WTMP</a></td></tr>
+<tr class="separator:aaed180bf9c721a43ad889aaa3f32d2f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a970c0624c2b5da66301ef28ceee6d88e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/utmp_8h.html#a970c0624c2b5da66301ef28ceee6d88e">WTMP_FILENAME</a>&#160;&#160;&#160;<a class="el" href="../../dd/df2/paths_8h.html#a9430fd07c2841f76b5899725a71c1385">_PATH_WTMP</a></td></tr>
+<tr class="separator:a970c0624c2b5da66301ef28ceee6d88e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74e2d964d89ecd495b3e93920ea1790f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/utmp_8h.html#a74e2d964d89ecd495b3e93920ea1790f">UTMP_FILE</a>&#160;&#160;&#160;<a class="el" href="../../dd/df2/paths_8h.html#af2a70290d27584dddee0fa859917a3c5">_PATH_UTMP</a></td></tr>
+<tr class="separator:a74e2d964d89ecd495b3e93920ea1790f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7811ca3bc08133722913661fca4f6c1b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/utmp_8h.html#a7811ca3bc08133722913661fca4f6c1b">UTMP_FILENAME</a>&#160;&#160;&#160;<a class="el" href="../../dd/df2/paths_8h.html#af2a70290d27584dddee0fa859917a3c5">_PATH_UTMP</a></td></tr>
+<tr class="separator:a7811ca3bc08133722913661fca4f6c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58721946dc6f9a29d5e8b4d1df633669"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/utmp_8h.html#a58721946dc6f9a29d5e8b4d1df633669">ut_name</a>&#160;&#160;&#160;ut_user</td></tr>
 <tr class="separator:a58721946dc6f9a29d5e8b4d1df633669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab91818a21a1b7d2f0abbdbba32a8a0bd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/utmp_8h.html#ab91818a21a1b7d2f0abbdbba32a8a0bd">ut_time</a>&#160;&#160;&#160;ut_tv.tv_sec</td></tr>
@@ -159,6 +168,10 @@ Functions</h2></td></tr>
 <tr class="separator:a5cacf92943904a0aa30f2d99861261ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a605db84356547dccc20dc41f3bc4bf36"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d5/d13/utmp_8h.html#d2/dae/structutmp">utmp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/utmp_8h.html#a605db84356547dccc20dc41f3bc4bf36">getutline</a> (const struct <a class="el" href="../../d5/d13/utmp_8h.html#d2/dae/structutmp">utmp</a> *)</td></tr>
 <tr class="separator:a605db84356547dccc20dc41f3bc4bf36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefae273b97acfb87c5841dab0812d741"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d5/d13/utmp_8h.html#d2/dae/structutmp">utmp</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/utmp_8h.html#aefae273b97acfb87c5841dab0812d741">getutid</a> (const struct <a class="el" href="../../d5/d13/utmp_8h.html#d2/dae/structutmp">utmp</a> *)</td></tr>
+<tr class="separator:aefae273b97acfb87c5841dab0812d741"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f8bc82f248342051691b45218b1ef7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d13/utmp_8h.html#a8f8bc82f248342051691b45218b1ef7b">utmpname</a> (const char *)</td></tr>
+<tr class="separator:a8f8bc82f248342051691b45218b1ef7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d9/def/structexit__status" id="d9/def/structexit__status"></a>
@@ -173,7 +186,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00027">27</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00034">34</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -204,7 +217,7 @@ e_termination</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00032">32</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00039">39</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -289,7 +302,7 @@ ut_user[<a class="el" href="../../d5/d13/utmp_8h.html#a3c0992b5691d5c0a3175fe408
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00046">46</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00053">53</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -327,7 +340,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00021">21</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00022">22</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -343,7 +356,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00014">14</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00015">15</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -359,7 +372,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00020">20</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00021">21</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -375,7 +388,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00012">12</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00013">13</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -391,7 +404,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00017">17</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00018">18</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -407,7 +420,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00018">18</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00019">19</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -423,7 +436,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00015">15</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00016">16</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -439,7 +452,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00016">16</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00017">17</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -455,7 +468,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00013">13</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00014">14</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -471,7 +484,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00019">19</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00020">20</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -487,7 +500,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00058">58</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00065">65</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -503,7 +516,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00025">25</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00026">26</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -519,7 +532,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00023">23</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00024">24</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -535,7 +548,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00053">53</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00060">60</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -551,7 +564,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00024">24</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00025">25</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -567,7 +580,7 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00055">55</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00062">62</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -583,7 +596,71 @@ ll_time</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00057">57</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00064">64</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+
+</div>
+</div>
+<a id="a74e2d964d89ecd495b3e93920ea1790f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74e2d964d89ecd495b3e93920ea1790f">&#9670;&nbsp;</a></span>UTMP_FILE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UTMP_FILE&#160;&#160;&#160;<a class="el" href="../../dd/df2/paths_8h.html#af2a70290d27584dddee0fa859917a3c5">_PATH_UTMP</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00031">31</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+
+</div>
+</div>
+<a id="a7811ca3bc08133722913661fca4f6c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7811ca3bc08133722913661fca4f6c1b">&#9670;&nbsp;</a></span>UTMP_FILENAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define UTMP_FILENAME&#160;&#160;&#160;<a class="el" href="../../dd/df2/paths_8h.html#af2a70290d27584dddee0fa859917a3c5">_PATH_UTMP</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00032">32</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+
+</div>
+</div>
+<a id="aaed180bf9c721a43ad889aaa3f32d2f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaed180bf9c721a43ad889aaa3f32d2f5">&#9670;&nbsp;</a></span>WTMP_FILE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WTMP_FILE&#160;&#160;&#160;<a class="el" href="../../dd/df2/paths_8h.html#a9430fd07c2841f76b5899725a71c1385">_PATH_WTMP</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00028">28</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
+
+</div>
+</div>
+<a id="a970c0624c2b5da66301ef28ceee6d88e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a970c0624c2b5da66301ef28ceee6d88e">&#9670;&nbsp;</a></span>WTMP_FILENAME</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WTMP_FILENAME&#160;&#160;&#160;<a class="el" href="../../dd/df2/paths_8h.html#a9430fd07c2841f76b5899725a71c1385">_PATH_WTMP</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/d13/utmp_8h_source.html#l00029">29</a> of file <a class="el" href="../../d5/d13/utmp_8h_source.html">utmp.h</a>.</p>
 
 </div>
 </div>
@@ -611,10 +688,10 @@ ll_time</td>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="../../dd/d49/utmp-stubs_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a> = -1;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;}</div>
-<div class="ttc" id="aunistd-stubs_8cpp_html_aafbcde67669a1b96577e735ddebd8634"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#aafbcde67669a1b96577e735ddebd8634">close</a></div><div class="ttdeci">int close(int fd)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00904">unistd-stubs.cpp:904</a></div></div>
+<div class="ttc" id="aunistd-stubs_8cpp_html_aafbcde67669a1b96577e735ddebd8634"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#aafbcde67669a1b96577e735ddebd8634">close</a></div><div class="ttdeci">int close(int fd)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00908">unistd-stubs.cpp:908</a></div></div>
 <div class="ttc" id="autmp-stubs_8cpp_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="../../dd/d49/utmp-stubs_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">static int fd</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">utmp-stubs.cpp:19</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00904">close()</a>, and <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00908">close()</a>, and <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>.</p>
 
 </div>
 </div>
@@ -653,12 +730,12 @@ ll_time</td>
 <div class="ttc" id="adl__iterate__phdr_2test_8c_html_d9/d98/structresult"><div class="ttname"><a href="../../da/d01/dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d01/dl__iterate__phdr_2test_8c_source.html#l00017">test.c:17</a></div></div>
 <div class="ttc" id="alibc_2include_2stdlib_8h_html_a8e98da217438bd3b4c8b03f81b4a1d8e"><div class="ttname"><a href="../../d7/d2f/libc_2include_2stdlib_8h.html#a8e98da217438bd3b4c8b03f81b4a1d8e">malloc</a></div><div class="ttdeci">void * malloc(size_t Size)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc3/liballoc__1__1_8c_source.html#l00227">liballoc_1_1.c:227</a></div></div>
 <div class="ttc" id="alongjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3e/longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
-<div class="ttc" id="anamespacemlibc_html_aaddf368e25429b4771f99458fd655c9c"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#aaddf368e25429b4771f99458fd655c9c">mlibc::result</a></div><div class="ttdeci">int unsigned long void int * result</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00220">generic.cpp:220</a></div></div>
+<div class="ttc" id="anamespacemlibc_html_aaddf368e25429b4771f99458fd655c9c"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#aaddf368e25429b4771f99458fd655c9c">mlibc::result</a></div><div class="ttdeci">int unsigned long void int * result</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00235">generic.cpp:235</a></div></div>
 <div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
 <div class="ttc" id="autmp-stubs_8cpp_html_a9e018a0b29e8f8e9c3c02e7e5a91b4d9"><div class="ttname"><a href="../../dd/d49/utmp-stubs_8cpp.html#a9e018a0b29e8f8e9c3c02e7e5a91b4d9">getutent_r</a></div><div class="ttdeci">int getutent_r(struct utmp *buf, struct utmp **res)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d49/utmp-stubs_8cpp_source.html#l00068">utmp-stubs.cpp:68</a></div></div>
-<div class="ttc" id="autmp_8h_html_d2/dae/structutmp"><div class="ttname"><a href="../../d5/d13/utmp_8h.html#d2/dae/structutmp">utmp</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d13/utmp_8h_source.html#l00032">utmp.h:32</a></div></div>
+<div class="ttc" id="autmp_8h_html_d2/dae/structutmp"><div class="ttname"><a href="../../d5/d13/utmp_8h.html#d2/dae/structutmp">utmp</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d13/utmp_8h_source.html#l00039">utmp.h:39</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d3e/longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00068">getutent_r()</a>, <a class="el" href="../../d2/dc3/liballoc__1__1_8c_source.html#l00227">malloc()</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, and <a class="el" href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00220">mlibc::result</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d3e/longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00068">getutent_r()</a>, <a class="el" href="../../d2/dc3/liballoc__1__1_8c_source.html#l00227">malloc()</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, and <a class="el" href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00235">mlibc::result</a>.</p>
 
 </div>
 </div>
@@ -706,21 +783,48 @@ ll_time</td>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="../../d8/dd5/ld_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, &amp;<a class="code" href="../../dd/d49/utmp-stubs_8cpp.html#ab279ecbb54fe3f86881f3fb4ad5b63f8">last_entry</a>, <span class="keyword">sizeof</span>(<span class="keyword">struct</span> <a class="code" href="../../d5/d13/utmp_8h.html#d2/dae/structutmp">utmp</a>));</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, &amp;<a class="code" href="../../dd/d49/utmp-stubs_8cpp.html#ab279ecbb54fe3f86881f3fb4ad5b63f8">last_entry</a>, <span class="keyword">sizeof</span>(<span class="keyword">struct</span> <a class="code" href="../../d5/d13/utmp_8h.html#d2/dae/structutmp">utmp</a>));</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    *res = <a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;}</div>
-<div class="ttc" id="ald_8c_html_a14938524dcbeb59d7117ba5e151ad1b1"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a></div><div class="ttdeci">void * memcpy(void *dest, const void *src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00154">ld.c:154</a></div></div>
+<div class="ttc" id="afcts_8c_html_a14938524dcbeb59d7117ba5e151ad1b1"><div class="ttname"><a href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a></div><div class="ttdeci">void * memcpy(void *dest, const void *src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7b/fcts_8c_source.html#l00090">fcts.c:90</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
 <div class="ttc" id="assize__t_8h_html_a831c6b6852c6d34448e30a88c34539fd"><div class="ttname"><a href="../../df/d4c/ssize__t_8h.html#a831c6b6852c6d34448e30a88c34539fd">ssize_t</a></div><div class="ttdeci">long ssize_t</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d4c/ssize__t_8h_source.html#l00006">ssize_t.h:6</a></div></div>
 <div class="ttc" id="autmp-stubs_8cpp_html_a2a2b62600816d1334bdd537520b7ebf4"><div class="ttname"><a href="../../dd/d49/utmp-stubs_8cpp.html#a2a2b62600816d1334bdd537520b7ebf4">setutent</a></div><div class="ttdeci">void setutent(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d49/utmp-stubs_8cpp_source.html#l00024">utmp-stubs.cpp:24</a></div></div>
 <div class="ttc" id="autmp-stubs_8cpp_html_ab279ecbb54fe3f86881f3fb4ad5b63f8"><div class="ttname"><a href="../../dd/d49/utmp-stubs_8cpp.html#ab279ecbb54fe3f86881f3fb4ad5b63f8">last_entry</a></div><div class="ttdeci">static struct utmp last_entry</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d49/utmp-stubs_8cpp_source.html#l00020">utmp-stubs.cpp:22</a></div></div>
 <div class="ttc" id="autmp-stubs_8cpp_html_abcc397508e3299421928b75700eae616"><div class="ttname"><a href="../../dd/d49/utmp-stubs_8cpp.html#abcc397508e3299421928b75700eae616">read_last_entry</a></div><div class="ttdeci">static ssize_t read_last_entry(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d49/utmp-stubs_8cpp_source.html#l00036">utmp-stubs.cpp:36</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d3e/longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00022">last_entry</a>, <a class="el" href="../../d8/dd5/ld_8c_source.html#l00154">memcpy()</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00036">read_last_entry()</a>, and <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00024">setutent()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d3e/longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00022">last_entry</a>, <a class="el" href="../../d4/d7b/fcts_8c_source.html#l00090">memcpy()</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00036">read_last_entry()</a>, and <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00024">setutent()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00052">getutent()</a>.</p>
+
+</div>
+</div>
+<a id="aefae273b97acfb87c5841dab0812d741"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefae273b97acfb87c5841dab0812d741">&#9670;&nbsp;</a></span>getutid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct <a class="el" href="../../d5/d13/utmp_8h.html#d2/dae/structutmp">utmp</a>* getutid </td>
+          <td>(</td>
+          <td class="paramtype">const struct <a class="el" href="../../d5/d13/utmp_8h.html#d2/dae/structutmp">utmp</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00113">113</a> of file <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html">utmp-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                                          {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    __builtin_unreachable();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
+<div class="ttc" id="aensure_8h_html_a5e2c6c11947e5c706f6557c5195d90be"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a></div><div class="ttdeci">#define __ensure(assertion)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00019">ensure.h:19</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">__ensure</a>.</p>
 
 </div>
 </div>
@@ -745,9 +849,8 @@ ll_time</td>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    __builtin_unreachable();</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;}</div>
-<div class="ttc" id="aensure_8h_html_a5e2c6c11947e5c706f6557c5195d90be"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a></div><div class="ttdeci">#define __ensure(assertion)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00015">ensure.h:15</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00015">__ensure</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">__ensure</a>.</p>
 
 </div>
 </div>
@@ -773,7 +876,7 @@ ll_time</td>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    __builtin_unreachable();</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00015">__ensure</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">__ensure</a>.</p>
 
 </div>
 </div>
@@ -805,17 +908,43 @@ ll_time</td>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../dd/d08/unistd-stubs_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a>(<a class="code" href="../../dd/d49/utmp-stubs_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, 0, <a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../dd/d49/utmp-stubs_8cpp.html#ad5f0842c40c7e46344fd8df70187fa0f">offset</a> = 0;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="ttc" id="afcntl-stubs_8cpp_html_a079d60801c18155ac2ec1707b56867fb"><div class="ttname"><a href="../../d1/dcd/fcntl-stubs_8cpp.html#a079d60801c18155ac2ec1707b56867fb">open</a></div><div class="ttdeci">int open(const char *pathname, int flags,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcd/fcntl-stubs_8cpp_source.html#l00081">fcntl-stubs.cpp:81</a></div></div>
+<div class="ttc" id="afcntl-stubs_8cpp_html_a079d60801c18155ac2ec1707b56867fb"><div class="ttname"><a href="../../d1/dcd/fcntl-stubs_8cpp.html#a079d60801c18155ac2ec1707b56867fb">open</a></div><div class="ttdeci">int open(const char *pathname, int flags,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcd/fcntl-stubs_8cpp_source.html#l00091">fcntl-stubs.cpp:91</a></div></div>
 <div class="ttc" id="alibc_2include_2stdio_8h_html_a0d112bae8fd35be772185b6ec6bcbe64"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a></div><div class="ttdeci">#define SEEK_SET</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00008">stdio.h:8</a></div></div>
 <div class="ttc" id="amlibc_2abis_2ironclad_2fcntl_8h_html_a1126309aa58e7c99553c7f6be1bc7348"><div class="ttname"><a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#a1126309aa58e7c99553c7f6be1bc7348">O_LARGEFILE</a></div><div class="ttdeci">#define O_LARGEFILE</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00026">fcntl.h:26</a></div></div>
 <div class="ttc" id="amlibc_2abis_2ironclad_2fcntl_8h_html_a7a68c9ffaac7dbcd652225dd7c06a54b"><div class="ttname"><a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#a7a68c9ffaac7dbcd652225dd7c06a54b">O_RDONLY</a></div><div class="ttdeci">#define O_RDONLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00006">fcntl.h:6</a></div></div>
 <div class="ttc" id="amlibc_2abis_2ironclad_2fcntl_8h_html_ad6d8fbe4e494b4dbe051612572d3f757"><div class="ttname"><a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#ad6d8fbe4e494b4dbe051612572d3f757">O_CLOEXEC</a></div><div class="ttdeci">#define O_CLOEXEC</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00024">fcntl.h:24</a></div></div>
-<div class="ttc" id="aunistd-stubs_8cpp_html_a8bd74caed008a66808d92d57fa74d9f6"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a></div><div class="ttdeci">off_t lseek(int fd, off_t offset, int whence)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00886">unistd-stubs.cpp:886</a></div></div>
+<div class="ttc" id="aunistd-stubs_8cpp_html_a8bd74caed008a66808d92d57fa74d9f6"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a></div><div class="ttdeci">off_t lseek(int fd, off_t offset, int whence)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00890">unistd-stubs.cpp:890</a></div></div>
 <div class="ttc" id="autmp-stubs_8cpp_html_ad5f0842c40c7e46344fd8df70187fa0f"><div class="ttname"><a href="../../dd/d49/utmp-stubs_8cpp.html#ad5f0842c40c7e46344fd8df70187fa0f">offset</a></div><div class="ttdeci">static off_t offset</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d49/utmp-stubs_8cpp_source.html#l00020">utmp-stubs.cpp:20</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00886">lseek()</a>, <a class="el" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00024">O_CLOEXEC</a>, <a class="el" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00026">O_LARGEFILE</a>, <a class="el" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00006">O_RDONLY</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00020">offset</a>, <a class="el" href="../../d1/dcd/fcntl-stubs_8cpp_source.html#l00081">open()</a>, and <a class="el" href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00008">SEEK_SET</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00890">lseek()</a>, <a class="el" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00024">O_CLOEXEC</a>, <a class="el" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00026">O_LARGEFILE</a>, <a class="el" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00006">O_RDONLY</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00020">offset</a>, <a class="el" href="../../d1/dcd/fcntl-stubs_8cpp_source.html#l00091">open()</a>, and <a class="el" href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00008">SEEK_SET</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00068">getutent_r()</a>.</p>
+
+</div>
+</div>
+<a id="a8f8bc82f248342051691b45218b1ef7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f8bc82f248342051691b45218b1ef7b">&#9670;&nbsp;</a></span>utmpname()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> utmpname </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00108">108</a> of file <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html">utmp-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                           {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    __builtin_unreachable();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">__ensure</a>.</p>
 
 </div>
 </div>

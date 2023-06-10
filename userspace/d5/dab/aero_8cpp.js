@@ -24,7 +24,7 @@ var aero_8cpp =
     [ "sys_getegid", "d5/dab/aero_8cpp.html#a01b5a675f902bdb3c44bfe5f71d69da9", null ],
     [ "sys_geteuid", "d5/dab/aero_8cpp.html#af65ef3416b44fd255bb9edd29ecaa29b", null ],
     [ "sys_gethostname", "d5/dab/aero_8cpp.html#a4aa7f53096441f87892152d50173e044", null ],
-    [ "sys_getpgid", "d5/dab/aero_8cpp.html#aff8e9f5090c273c50cd9fa5386f6a544", null ],
+    [ "sys_getpgid", "d5/dab/aero_8cpp.html#adbe32b9c274b6befaaffd0a7920eb2cd", null ],
     [ "sys_getpid", "d5/dab/aero_8cpp.html#a01d5da3cb1e67fd91c425680a8f2bc4e", null ],
     [ "sys_getppid", "d5/dab/aero_8cpp.html#ac1eb0767450eba0804557b4ca15869f9", null ],
     [ "sys_getuid", "d5/dab/aero_8cpp.html#a64595e849727cad6676f5c5782f6bc43", null ],

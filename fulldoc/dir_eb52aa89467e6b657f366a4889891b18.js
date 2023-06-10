@@ -10,7 +10,7 @@ var dir_eb52aa89467e6b657f366a4889891b18 =
     [ "lastlog.h", "d9/d5a/lastlog_8h.html", null ],
     [ "malloc.h", "d0/d4c/malloc_8h.html", "d0/d4c/malloc_8h" ],
     [ "memory.h", "d9/df0/linux_2include_2memory_8h.html", null ],
-    [ "mntent.h", "de/d1b/mntent_8h.html", "de/d1b/mntent_8h" ],
+    [ "mntent.h", "d3/d96/options_2linux_2include_2mntent_8h.html", "d3/d96/options_2linux_2include_2mntent_8h" ],
     [ "module.h", "d5/d16/module_8h.html", "d5/d16/module_8h" ],
     [ "pty.h", "d2/d00/pty_8h.html", "d2/d00/pty_8h" ],
     [ "utmp.h", "d5/d13/utmp_8h.html", "d5/d13/utmp_8h" ],

@@ -15,6 +15,7 @@ var options_2posix_2include_2sys_2resource_8h =
     [ "getpriority", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a67c49fa701040254398d93e3cc787821", null ],
     [ "getrlimit", "db/d91/options_2posix_2include_2sys_2resource_8h.html#ac7e7a27a353c22831fe2fd0ad75138b6", null ],
     [ "getrusage", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a3ba721bfdd51d1326fbcb72caf74afff", null ],
+    [ "prlimit", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a6888108096b183a9494f5ba1e85c1afa", null ],
     [ "setpriority", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a798be8dc55f4d09235203f3f771006d4", null ],
     [ "setrlimit", "db/d91/options_2posix_2include_2sys_2resource_8h.html#a4e9c03f0b5714a39bcbee7562b74f4c5", null ]
 ];

@@ -9,5 +9,6 @@ var sysdeps_2linux_2include_2abi_bits_2poll_8h =
     [ "POLLRDBAND", "de/d66/sysdeps_2linux_2include_2abi-bits_2poll_8h.html#a37c71608162976b7fa0a5465009ce3ab", null ],
     [ "POLLRDHUP", "de/d66/sysdeps_2linux_2include_2abi-bits_2poll_8h.html#acc058eb75fbe9bf75064cd675ad96d21", null ],
     [ "POLLRDNORM", "de/d66/sysdeps_2linux_2include_2abi-bits_2poll_8h.html#a8ca81f2b28be692732d3f0b601fd828d", null ],
+    [ "POLLWRBAND", "de/d66/sysdeps_2linux_2include_2abi-bits_2poll_8h.html#a272636cc42f343281665cd1ba92f2f1e", null ],
     [ "POLLWRNORM", "de/d66/sysdeps_2linux_2include_2abi-bits_2poll_8h.html#ab8f1f69608ba2430cd5fa629a87b5420", null ]
 ];

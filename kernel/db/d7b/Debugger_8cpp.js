@@ -10,5 +10,5 @@ var Debugger_8cpp =
     [ "uart_wrapper", "db/d7b/Debugger_8cpp.html#a880c069d39b415a57e61af1c0961e3dc", null ],
     [ "Write", "db/d7b/Debugger_8cpp.html#a56519f591431842de3118d8b729bdaec", null ],
     [ "WriteLine", "db/d7b/Debugger_8cpp.html#a2fd34f75c42a378c4a07656d9ad28d35", null ],
-    [ "WritePrefix", "db/d7b/Debugger_8cpp.html#a3173907b49e7ff941cc37b041e84ab77", null ]
+    [ "WritePrefix", "db/d7b/Debugger_8cpp.html#adbc8a86ad7c99107caaaf1cf9453bca9", null ]
 ];

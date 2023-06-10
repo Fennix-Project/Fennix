@@ -10,6 +10,7 @@ var posix__stdlib_8cpp =
     [ "loadstate", "d4/d24/posix__stdlib_8cpp.html#a94ba732745ced7ea12e0b89dcedbb81f", null ],
     [ "mkdtemp", "d4/d24/posix__stdlib_8cpp.html#adbca5306775cc2b3aeaaf31b6ce6f397", null ],
     [ "mkostemp", "d4/d24/posix__stdlib_8cpp.html#a3f7c556e87c6112174a67a2f2cf050bf", null ],
+    [ "mkostemps", "d4/d24/posix__stdlib_8cpp.html#aa74eeee80c19ef8d4b3498141d4d165f", null ],
     [ "mkstemp", "d4/d24/posix__stdlib_8cpp.html#a0b8d4c3f9014280ee36a9aa5571f4111", null ],
     [ "posix_openpt", "d4/d24/posix__stdlib_8cpp.html#afd9475f7eaa6222c6eac2d3c1df049c5", null ],
     [ "ptsname", "d4/d24/posix__stdlib_8cpp.html#a4602f14b8c8f146f93d72986341a27b7", null ],

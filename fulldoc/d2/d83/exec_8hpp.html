@@ -98,6 +98,7 @@ $(document).ready(function(){initNavTree('d2/d83/exec_8hpp.html','../../'); init
 <code>#include &lt;<a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d1/d8c/std_8hpp_source.html">std.hpp</a>&gt;</code><br />
+<code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/dae/Kernel_2include_2elf_8h_source.html">elf.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d2/d83/exec_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -106,12 +107,14 @@ $(document).ready(function(){initNavTree('d2/d83/exec_8hpp.html','../../'); init
 Data Structures</h2></td></tr>
 <tr class="memitem:d7/d93/structExecute_1_1SpawnData"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#d7/d93/structExecute_1_1SpawnData">Execute::SpawnData</a></td></tr>
 <tr class="separator:d7/d93/structExecute_1_1SpawnData"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d2/d8b/structExecute_1_1SharedLibraries"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#d2/d8b/structExecute_1_1SharedLibraries">Execute::SharedLibraries</a></td></tr>
-<tr class="separator:d2/d8b/structExecute_1_1SharedLibraries"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d0/d45/structExecute_1_1SharedLibrary"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#d0/d45/structExecute_1_1SharedLibrary">Execute::SharedLibrary</a></td></tr>
+<tr class="separator:d0/d45/structExecute_1_1SharedLibrary"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d4/df8/structExecute_1_1ELFBaseLoad"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#d4/df8/structExecute_1_1ELFBaseLoad">Execute::ELFBaseLoad</a></td></tr>
 <tr class="separator:d4/df8/structExecute_1_1ELFBaseLoad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dd/dcb/structExecute_1_1MmImage"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#dd/dcb/structExecute_1_1MmImage">Execute::MmImage</a></td></tr>
 <tr class="separator:dd/dcb/structExecute_1_1MmImage"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dc8/classExecute_1_1ELFObject.html">Execute::ELFObject</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -138,12 +141,13 @@ Enumerations</h2></td></tr>
 , <a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424ae4fcfa380b3e313eeb36e765dd580224">Execute::Unsupported</a>
 , <a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a68ae2a7fcc8ea154b6edec56ad53ebe3">Execute::GenericError</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a8fa4c166e63602c45874f50b689533ee">Execute::InvalidFile</a>
+&#160;&#160;<a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424acdbc24a6a7851d610fdc4f90ccbbed7a">Execute::LoadingProcedureFailed</a>
+, <a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a8fa4c166e63602c45874f50b689533ee">Execute::InvalidFile</a>
 , <a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a4586a70facdbdd10fae43377e671f081">Execute::InvalidFileFormat</a>
 , <a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a371852134732d4c94433d4ba56b3df1b">Execute::InvalidFileHeader</a>
-, <a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a1d15bd5fe0676815717e26898fd86658">Execute::InvalidFileData</a>
 , <br />
-&#160;&#160;<a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a5bb1597932d379325addbf3e2e1babd4">Execute::InvalidFileEntryPoint</a>
+&#160;&#160;<a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a1d15bd5fe0676815717e26898fd86658">Execute::InvalidFileData</a>
+, <a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a5bb1597932d379325addbf3e2e1babd4">Execute::InvalidFileEntryPoint</a>
 , <a class="el" href="../../d5/d27/namespaceExecute.html#a282102d37805166b07bb40a352ebb424a868b4989770a47e5d2982b7cec8c24c3">Execute::InvalidFilePath</a>
 <br />
  }</td></tr>
@@ -157,8 +161,12 @@ Functions</h2></td></tr>
 <tr class="separator:a222c41ddec469ce960da37986428ca0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc1af56a72388d4fce8b751aa6107d81"><td class="memItemLeft" align="right" valign="top">SpawnData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#afc1af56a72388d4fce8b751aa6107d81">Execute::Spawn</a> (char *Path, const char **argv, const char **envp)</td></tr>
 <tr class="separator:afc1af56a72388d4fce8b751aa6107d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed3e9a6488bac2a26b603386d6860bb2"><td class="memItemLeft" align="right" valign="top">ELFBaseLoad&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#aed3e9a6488bac2a26b603386d6860bb2">Execute::ELFLoad</a> (char *Path, const char **argv, const char **envp, <a class="el" href="../../d9/d3e/namespaceTasking.html#acdb977b9f386c7a7662877c8b0532d48">Tasking::TaskCompatibility</a> Compatibility)</td></tr>
-<tr class="separator:aed3e9a6488bac2a26b603386d6860bb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab218ab2bd411f348437d11b0876391b8"><td class="memItemLeft" align="right" valign="top">ELFBaseLoad&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#ab218ab2bd411f348437d11b0876391b8">Execute::ELFLoad</a> (char *Path, const char **argv, const char **envp, <a class="el" href="../../d9/d3e/namespaceTasking.html#acdb977b9f386c7a7662877c8b0532d48">TaskCompatibility</a> Compatibility)</td></tr>
+<tr class="separator:ab218ab2bd411f348437d11b0876391b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15ac7ca887ec8a520b0d30b69eac3b68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a15ac7ca887ec8a520b0d30b69eac3b68">Execute::ELFInterpreterIPCThread</a> (<a class="el" href="../../dd/dd1/structTasking_1_1PCB.html">PCB</a> *TargetProcess, <a class="el" href="../../d8/d29/classstd_1_1string.html">std::string</a> *TargetPath, void *MemoryImage, <a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt; const char * &gt; *_NeededLibraries)</td></tr>
+<tr class="separator:a15ac7ca887ec8a520b0d30b69eac3b68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcdddb68a114a95cf29792bfca2b274a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#afcdddb68a114a95cf29792bfca2b274a">Execute::ELFIs64</a> (void *Header)</td></tr>
+<tr class="separator:afcdddb68a114a95cf29792bfca2b274a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31dfd87b6fa1ef7beaa37ed956b34097"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#de/da8/structElf64__Shdr">Elf64_Shdr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a31dfd87b6fa1ef7beaa37ed956b34097">Execute::GetELFSheader</a> (<a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#df/de8/structElf64__Ehdr">Elf64_Ehdr</a> *Header)</td></tr>
 <tr class="separator:a31dfd87b6fa1ef7beaa37ed956b34097"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4527c193949a102a6793a17f1e2fb45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#de/da8/structElf64__Shdr">Elf64_Shdr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#ad4527c193949a102a6793a17f1e2fb45">Execute::GetELFSection</a> (<a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#df/de8/structElf64__Ehdr">Elf64_Ehdr</a> *Header, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Index)</td></tr>
@@ -169,29 +177,37 @@ Functions</h2></td></tr>
 <tr class="separator:a7894a544dca4203177ce939296a1e59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a660cd5854fd95bf599775f39f0f99966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a660cd5854fd95bf599775f39f0f99966">Execute::ELFLookupSymbol</a> (<a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#df/de8/structElf64__Ehdr">Elf64_Ehdr</a> *Header, const char *Name)</td></tr>
 <tr class="separator:a660cd5854fd95bf599775f39f0f99966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab1eade0c10f56d657c61085ccae4ba2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#de/dae/structElf64__Sym">Elf64_Sym</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#aab1eade0c10f56d657c61085ccae4ba2">Execute::ELFLookupSymbol</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, const char *Name)</td></tr>
+<tr class="separator:aab1eade0c10f56d657c61085ccae4ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab90293c663674036e5f1f8f7bfdb5624"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#ab90293c663674036e5f1f8f7bfdb5624">Execute::ELFGetSymbolValue</a> (<a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#df/de8/structElf64__Ehdr">Elf64_Ehdr</a> *Header, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Table, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Index)</td></tr>
 <tr class="separator:ab90293c663674036e5f1f8f7bfdb5624"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3379ae6c774083ff08fe121ff0be174e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a3379ae6c774083ff08fe121ff0be174e">Execute::ELFGetDynamicTag</a> (void *ElfFile, enum <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h.html#a370bb33de42069f09315e96d5f8053bb">DynamicArrayTags</a> Tag)</td></tr>
-<tr class="separator:a3379ae6c774083ff08fe121ff0be174e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a509b5c10d741719e8f06486c35fca91c"><td class="memItemLeft" align="right" valign="top">MmImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a509b5c10d741719e8f06486c35fca91c">Execute::ELFCreateMemoryImage</a> (Memory::MemMgr *mem, Memory::Virtual &amp;pV, void *ElfFile, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d9/d4e/gigabit_8hpp.html#a975543b90f799d299886f54993f36b3b">Length</a>)</td></tr>
-<tr class="memdesc:a509b5c10d741719e8f06486c35fca91c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a ELF <a class="el" href="../../d3/d97/namespaceMemory.html">Memory</a> Image.  <a href="../../d5/d27/namespaceExecute.html#a509b5c10d741719e8f06486c35fca91c">More...</a><br /></td></tr>
-<tr class="separator:a509b5c10d741719e8f06486c35fca91c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4496a58d12e4f8b81e79483a3dba5cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#aa4496a58d12e4f8b81e79483a3dba5cb">Execute::LoadELFInterpreter</a> (Memory::MemMgr *mem, Memory::Virtual &amp;pV, const char *Interpreter)</td></tr>
-<tr class="separator:aa4496a58d12e4f8b81e79483a3dba5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac32ec41f6f5ffe39239218b86cae2fcc"><td class="memItemLeft" align="right" valign="top">ELFBaseLoad&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#ac32ec41f6f5ffe39239218b86cae2fcc">Execute::ELFLoadRel</a> (void *BaseImage, <a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ExFile, <a class="el" href="../../dd/dd1/structTasking_1_1PCB.html">Tasking::PCB</a> *<a class="el" href="../../df/d03/proc_8h.html#db/df7/structProcess">Process</a>)</td></tr>
-<tr class="separator:ac32ec41f6f5ffe39239218b86cae2fcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afea8c22de83473e277f7ebf568450c39"><td class="memItemLeft" align="right" valign="top">ELFBaseLoad&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#afea8c22de83473e277f7ebf568450c39">Execute::ELFLoadExec</a> (void *ElfFile, <a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ExFile, <a class="el" href="../../dd/dd1/structTasking_1_1PCB.html">Tasking::PCB</a> *<a class="el" href="../../df/d03/proc_8h.html#db/df7/structProcess">Process</a>)</td></tr>
-<tr class="separator:afea8c22de83473e277f7ebf568450c39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adeadfc9b6b2af94de2eacc073d704109"><td class="memItemLeft" align="right" valign="top">ELFBaseLoad&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#adeadfc9b6b2af94de2eacc073d704109">Execute::ELFLoadDyn</a> (void *BaseImage, <a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ExFile, <a class="el" href="../../dd/dd1/structTasking_1_1PCB.html">Tasking::PCB</a> *<a class="el" href="../../df/d03/proc_8h.html#db/df7/structProcess">Process</a>)</td></tr>
-<tr class="separator:adeadfc9b6b2af94de2eacc073d704109"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93f062652adad6dd560be98f572abbe8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a93f062652adad6dd560be98f572abbe8">Execute::StartExecuteService</a> ()</td></tr>
-<tr class="separator:a93f062652adad6dd560be98f572abbe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c2abbcd1512b24b87c0c9dd6761a773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a5c2abbcd1512b24b87c0c9dd6761a773">Execute::AddLibrary</a> (char *Identifier, void *ElfImage, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d9/d4e/gigabit_8hpp.html#a975543b90f799d299886f54993f36b3b">Length</a>, const Memory::Virtual &amp;pV)</td></tr>
-<tr class="separator:a5c2abbcd1512b24b87c0c9dd6761a773"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91a5c0c6c8c3c3e89a5f07211ed3988c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a91a5c0c6c8c3c3e89a5f07211ed3988c">Execute::SearchLibrary</a> (char *Identifier)</td></tr>
-<tr class="separator:a91a5c0c6c8c3c3e89a5f07211ed3988c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b1903888a9c824421eac36466865bcd"><td class="memItemLeft" align="right" valign="top">SharedLibraries&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a1b1903888a9c824421eac36466865bcd">Execute::GetLibrary</a> (char *Identifier)</td></tr>
-<tr class="separator:a1b1903888a9c824421eac36466865bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accc842b89a51d4ad340bcd8ef135dff2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt; <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d3/d7b/structElf64__Phdr">Elf64_Phdr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#accc842b89a51d4ad340bcd8ef135dff2">Execute::ELFGetSymbolType_x86_64</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2">SegmentTypes</a> Tag)</td></tr>
+<tr class="separator:accc842b89a51d4ad340bcd8ef135dff2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6818b48bc0867336acbe03ddc433999"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt; <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d9/db8/structElf32__Phdr">Elf32_Phdr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#ab6818b48bc0867336acbe03ddc433999">Execute::ELFGetSymbolType_x86_32</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2">SegmentTypes</a> Tag)</td></tr>
+<tr class="separator:ab6818b48bc0867336acbe03ddc433999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeab8dea815fa190c370ed28cf61ab93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt; <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#de/da8/structElf64__Shdr">Elf64_Shdr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#adeab8dea815fa190c370ed28cf61ab93">Execute::ELFGetSections_x86_64</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, const char *SectionName)</td></tr>
+<tr class="separator:adeab8dea815fa190c370ed28cf61ab93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be4de3131835a81516ec3418f6f8719"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt; <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#de/dce/structElf32__Shdr">Elf32_Shdr</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a0be4de3131835a81516ec3418f6f8719">Execute::ELFGetSections_x86_32</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, const char *SectionName)</td></tr>
+<tr class="separator:a0be4de3131835a81516ec3418f6f8719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134c92b666493fa15b6375fdcfc6e96d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt; <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a134c92b666493fa15b6375fdcfc6e96d">Execute::ELFGetDynamicTag_x86_64</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h.html#a370bb33de42069f09315e96d5f8053bb">DynamicArrayTags</a> Tag)</td></tr>
+<tr class="separator:a134c92b666493fa15b6375fdcfc6e96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3883fdb5b020f7da7567c52e346b1c70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d4e/classstd_1_1vector.html">std::vector</a>&lt; <a class="el" href="../../df/d4c/Userspace_2mlibc_2options_2elf_2include_2elf_8h.html#d8/d23/structElf32__Dyn">Elf32_Dyn</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a3883fdb5b020f7da7567c52e346b1c70">Execute::ELFGetDynamicTag_x86_32</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, <a class="el" href="../../d4/dae/Kernel_2include_2elf_8h.html#a370bb33de42069f09315e96d5f8053bb">DynamicArrayTags</a> Tag)</td></tr>
+<tr class="separator:a3883fdb5b020f7da7567c52e346b1c70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9863be72b967ded800758b8615557ac5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a9863be72b967ded800758b8615557ac5">Execute::CopyLOADSegments</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> HdrsBase, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> PhysicalBase)</td></tr>
+<tr class="separator:a9863be72b967ded800758b8615557ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500558df7ca3e3b6299b2d9eccd2ca16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a500558df7ca3e3b6299b2d9eccd2ca16">Execute::GetBaseAndSize</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> &amp;Base, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5b9a73153ebbd0f9c911015c8244b8ce">size_t</a> &amp;<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
+<tr class="separator:a500558df7ca3e3b6299b2d9eccd2ca16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5342ef9feb0bb1a0da6fdebbc75262f"><td class="memItemLeft" align="right" valign="top">MmImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#ac5342ef9feb0bb1a0da6fdebbc75262f">Execute::ELFCreateMemoryImage</a> (Memory::MemMgr *mem, Memory::Virtual &amp;vmm, <a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5b9a73153ebbd0f9c911015c8244b8ce">size_t</a> <a class="el" href="../../d9/d4e/gigabit_8hpp.html#a975543b90f799d299886f54993f36b3b">Length</a>)</td></tr>
+<tr class="memdesc:ac5342ef9feb0bb1a0da6fdebbc75262f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a ELF <a class="el" href="../../d3/d97/namespaceMemory.html">Memory</a> Image.  <a href="../../d5/d27/namespaceExecute.html#ac5342ef9feb0bb1a0da6fdebbc75262f">More...</a><br /></td></tr>
+<tr class="separator:ac5342ef9feb0bb1a0da6fdebbc75262f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d46ec09e82e71fec44fb4a01d4e90f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a1d46ec09e82e71fec44fb4a01d4e90f4">Execute::LoadELFInterpreter</a> (Memory::MemMgr *mem, Memory::Virtual &amp;vmm, const char *Interpreter)</td></tr>
+<tr class="separator:a1d46ec09e82e71fec44fb4a01d4e90f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84b285258adfc8a5aaebafcbe7332e5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a84b285258adfc8a5aaebafcbe7332e5b">Execute::LibraryManagerService</a> ()</td></tr>
+<tr class="separator:a84b285258adfc8a5aaebafcbe7332e5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa721350f7e725a0e9e3e0980cae85d53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#aa721350f7e725a0e9e3e0980cae85d53">Execute::AddLibrary</a> (char *Identifier, <a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ExFile, const Memory::Virtual &amp;vmm)</td></tr>
+<tr class="separator:aa721350f7e725a0e9e3e0980cae85d53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76e673a6e33539f41bdb44cac07e30f4"><td class="memItemLeft" align="right" valign="top">SharedLibrary&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a76e673a6e33539f41bdb44cac07e30f4">Execute::GetLibrary</a> (char *Identifier)</td></tr>
+<tr class="separator:a76e673a6e33539f41bdb44cac07e30f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d7/d93/structExecute_1_1SpawnData" id="d7/d93/structExecute_1_1SpawnData"></a>
@@ -206,7 +222,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d2/d83/exec_8hpp_source.html#l00055">55</a> of file <a class="el" href="../../d2/d83/exec_8hpp_source.html">exec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d83/exec_8hpp_source.html#l00057">57</a> of file <a class="el" href="../../d2/d83/exec_8hpp_source.html">exec.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -231,53 +247,53 @@ Thread</td>
 
 </div>
 </div>
-<a name="d2/d8b/structExecute_1_1SharedLibraries" id="d2/d8b/structExecute_1_1SharedLibraries"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d2/d8b/structExecute_1_1SharedLibraries">&#9670;&nbsp;</a></span>Execute::SharedLibraries</h2>
+<a name="d0/d45/structExecute_1_1SharedLibrary" id="d0/d45/structExecute_1_1SharedLibrary"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d0/d45/structExecute_1_1SharedLibrary">&#9670;&nbsp;</a></span>Execute::SharedLibrary</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct Execute::SharedLibraries</td>
+          <td class="memname">struct Execute::SharedLibrary</td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d2/d83/exec_8hpp_source.html#l00062">62</a> of file <a class="el" href="../../d2/d83/exec_8hpp_source.html">exec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d83/exec_8hpp_source.html#l00064">64</a> of file <a class="el" href="../../d2/d83/exec_8hpp_source.html">exec.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a05f0e117abcfafb88a1f7c7bd0d0d3a0"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></td>
-<td class="fieldname">
-Address</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a1a59052659c02a92464bfadd89002187"></a>char</td>
+<a id="aeda13ffe10957e09f2dbaeec5d73fde7"></a>char</td>
 <td class="fieldname">
 Identifier[64]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a97312602505cf78ae0620ba8eb51e3dd"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a></td>
+<a id="a942a8b59ef44bd06b7f9917ec4dcde13"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5b9a73153ebbd0f9c911015c8244b8ce">size_t</a></td>
 <td class="fieldname">
 Length</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="adaf1637c0c12af90049a171ae7cf5fd7"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></td>
+<a id="a9cd8dc3e8bfadd5810c39de698b3fb18"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></td>
 <td class="fieldname">
 MemoryImage</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="afe7806c57b5556d33eb3f299b1577266"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="ac241dc0bb0393da1ccc285e9840b52a9"></a>char</td>
+<td class="fieldname">
+Path[256]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a0abb1623640dedc6c8e01d4698d81ed5"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
 <td class="fieldname">
 RefCount</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af442344926fbb7a1470094a9afde6944"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
+<a id="a704445fc3634a75bf0cfc19e63289b6e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
 <td class="fieldname">
 Timeout</td>
 <td class="fielddoc">
@@ -298,7 +314,7 @@ Timeout</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d2/d83/exec_8hpp_source.html#l00073">73</a> of file <a class="el" href="../../d2/d83/exec_8hpp_source.html">exec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d83/exec_8hpp_source.html#l00075">75</a> of file <a class="el" href="../../d2/d83/exec_8hpp_source.html">exec.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -371,7 +387,7 @@ VirtualMemoryImage</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d2/d83/exec_8hpp_source.html#l00092">92</a> of file <a class="el" href="../../d2/d83/exec_8hpp_source.html">exec.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d2/d83/exec_8hpp_source.html#l00094">94</a> of file <a class="el" href="../../d2/d83/exec_8hpp_source.html">exec.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">

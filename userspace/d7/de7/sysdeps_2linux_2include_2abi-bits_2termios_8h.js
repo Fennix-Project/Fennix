@@ -10,6 +10,14 @@ var sysdeps_2linux_2include_2abi_bits_2termios_8h =
       [ "ibaud", "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092", null ],
       [ "obaud", "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a589d0b9a66b5c5e2206843189c482115", null ]
     ] ],
+    [ "termio", "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#df/dd0/structtermio", [
+      [ "c_cc", "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#ae752584e69ab686e24c13735017eb443", null ],
+      [ "c_cflag", "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a2c44ad0e3c3d1368c11a8cc03ac8a838", null ],
+      [ "c_iflag", "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a651725c448617b01177ac006526382e6", null ],
+      [ "c_lflag", "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#ad2ee3cd713885981ddf1cb4981caea1e", null ],
+      [ "c_line", "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a5711539dab3485c216d213f96a6a6987", null ],
+      [ "c_oflag", "da/db6/sysdeps_2managarm_2include_2abi-bits_2termios_8h.html#a5148e910515825bd9c4540482b290ec5", null ]
+    ] ],
     [ "BRKINT", "d7/de7/sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a51f85744efb808bc7cdfc9bf689cb043", null ],
     [ "BS0", "d7/de7/sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a81500241a5060c2d72ec3fb1c355caf5", null ],
     [ "BS1", "d7/de7/sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a7ad54a4113cf1d284a2f088fe76adcde", null ],
@@ -49,6 +57,7 @@ var sysdeps_2linux_2include_2abi_bits_2termios_8h =
     [ "IXANY", "d7/de7/sysdeps_2linux_2include_2abi-bits_2termios_8h.html#ad426ef776a603872c6638f8775d63309", null ],
     [ "IXOFF", "d7/de7/sysdeps_2linux_2include_2abi-bits_2termios_8h.html#afdda6cad5fc4a9b67ba6dbe620065d91", null ],
     [ "IXON", "d7/de7/sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a788d2780deb67c58ba8a049981a8161c", null ],
+    [ "NCC", "d7/de7/sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a683a095fe9c9a8e599555d92c11ff725", null ],
     [ "NCCS", "d7/de7/sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a15cde8857ad26391c93358f528e7e13a", null ],
     [ "NL0", "d7/de7/sysdeps_2linux_2include_2abi-bits_2termios_8h.html#aaf2cd459fe39ccc0e2a7fb1f30a956b9", null ],
     [ "NL1", "d7/de7/sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a4bd226165fa7b97601be67dbd966499d", null ],

@@ -36,7 +36,7 @@ var i386_2cpu_2apic_8hpp =
       [ "TriggerMode", "d3/d88/namespaceAPIC.html#ada82ca0db6273f084f67411579799c40", null ],
       [ "Vector", "d3/d88/namespaceAPIC.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "__packed.__unnamed53__", "d3/d88/namespaceAPIC.html#da/dbd/structAPIC_1_1____packed_8____unnamed53____", [
+    [ "__packed.__unnamed54__", "d3/d88/namespaceAPIC.html#d2/d33/structAPIC_1_1____packed_8____unnamed54____", [
       [ "Destination", "d3/d88/namespaceAPIC.html#a12007e1d59f4d09c87dbe2c438256244", null ],
       [ "Reserved0", "d3/d88/namespaceAPIC.html#a3cdecefb5fa15c31235080e3dfac5a6d", null ]
     ] ],

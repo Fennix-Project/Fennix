@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('df/d19/Userspace_2libc_2include_2types
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h_source.html">stddef.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d1/d2d/stdarg_8h_source.html">stdarg.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d4b/Userspace_2libc_2include_2stdarg_8h_source.html">stdarg.h</a>&gt;</code><br />
 </div>
 <p><a href="../../df/d19/Userspace_2libc_2include_2types_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -251,6 +251,10 @@ Macros</h2></td></tr>
 <tr class="separator:a9e129c4f168e2503e45cf0ab2fb1994d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa40826e19ab43b143542d0a80a175bad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#aa40826e19ab43b143542d0a80a175bad">b64</a>(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&#160;&#160;&#160;__builtin_bswap64(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
 <tr class="separator:aa40826e19ab43b143542d0a80a175bad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad17d551e31d1828c68acf40684849b7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a>&#160;&#160;&#160;<a class="el" href="../../d7/d35/rtld__next_2libfoo_8c.html#af9aace1b44b73111e15aa39f06f43456">__attribute__</a>((visibility(&quot;default&quot;)))</td></tr>
+<tr class="separator:ad17d551e31d1828c68acf40684849b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e151c615eda34903514212f05a5ccf8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h.html#a5e151c615eda34903514212f05a5ccf8">PRIVATE</a>&#160;&#160;&#160;<a class="el" href="../../d7/d35/rtld__next_2libfoo_8c.html#af9aace1b44b73111e15aa39f06f43456">__attribute__</a>((visibility(&quot;hidden&quot;)))</td></tr>
+<tr class="separator:a5e151c615eda34903514212f05a5ccf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -1190,6 +1194,22 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
+<a id="a5e151c615eda34903514212f05a5ccf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e151c615eda34903514212f05a5ccf8">&#9670;&nbsp;</a></span>PRIVATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PRIVATE&#160;&#160;&#160;<a class="el" href="../../d7/d35/rtld__next_2libfoo_8c.html#af9aace1b44b73111e15aa39f06f43456">__attribute__</a>((visibility(&quot;hidden&quot;)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h_source.html#l00203">203</a> of file <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
 <a id="add2ef7bffac19cfdd1f4b5495409672f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add2ef7bffac19cfdd1f4b5495409672f">&#9670;&nbsp;</a></span>PTRDIFF_MAX</h2>
 
@@ -1219,6 +1239,22 @@ Typedefs</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h_source.html#l00178">178</a> of file <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h_source.html">types.h</a>.</p>
+
+</div>
+</div>
+<a id="ad17d551e31d1828c68acf40684849b7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad17d551e31d1828c68acf40684849b7e">&#9670;&nbsp;</a></span>PUBLIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define PUBLIC&#160;&#160;&#160;<a class="el" href="../../d7/d35/rtld__next_2libfoo_8c.html#af9aace1b44b73111e15aa39f06f43456">__attribute__</a>((visibility(&quot;default&quot;)))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h_source.html#l00199">199</a> of file <a class="el" href="../../df/d19/Userspace_2libc_2include_2types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>
@@ -1928,7 +1964,7 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef __SIZE_TYPE__ <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a></td>
+          <td class="memname">typedef __SIZE_TYPE__ <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5b9a73153ebbd0f9c911015c8244b8ce">size_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

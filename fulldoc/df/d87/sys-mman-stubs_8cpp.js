@@ -6,7 +6,7 @@ var sys_mman_stubs_8cpp =
     [ "mprotect", "df/d87/sys-mman-stubs_8cpp.html#a658bf56654b87f53c187df50aca5f6bf", null ],
     [ "mremap", "df/d87/sys-mman-stubs_8cpp.html#ab6e97f7b0904c9a3e51dc821d3dac888", null ],
     [ "msync", "df/d87/sys-mman-stubs_8cpp.html#abef113c04cdf88b279b9d4204a63d448", null ],
-    [ "munlock", "df/d87/sys-mman-stubs_8cpp.html#a07669d429b5d7f9c9067b7ae2282a82a", null ],
+    [ "munlock", "df/d87/sys-mman-stubs_8cpp.html#ad3cfd73f8180a1a364cb57dc909bcb69", null ],
     [ "munlockall", "df/d87/sys-mman-stubs_8cpp.html#a03b30383879c5b943ac4d4f9077aeb66", null ],
     [ "munmap", "df/d87/sys-mman-stubs_8cpp.html#a17d08ef977651eb39a74a7db64e9d215", null ],
     [ "posix_madvise", "df/d87/sys-mman-stubs_8cpp.html#ac8d11dabe01ddc88c2937687ed3ed619", null ],

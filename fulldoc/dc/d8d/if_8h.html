@@ -120,6 +120,10 @@ Macros</h2></td></tr>
 <tr class="separator:aedb93bcce9682d7644080b859849f59d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd06da230a96d3b7e6f193c5b3142002"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8d/if_8h.html#acd06da230a96d3b7e6f193c5b3142002">IFNAMSIZ</a>&#160;&#160;&#160;<a class="el" href="../../dc/d8d/if_8h.html#aedb93bcce9682d7644080b859849f59d">IF_NAMESIZE</a></td></tr>
 <tr class="separator:acd06da230a96d3b7e6f193c5b3142002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af60d8f9bbe80f9b42e2fd4b5ced576b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8d/if_8h.html#af60d8f9bbe80f9b42e2fd4b5ced576b0">ALTIFNAMSIZ</a>&#160;&#160;&#160;128</td></tr>
+<tr class="separator:af60d8f9bbe80f9b42e2fd4b5ced576b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563bd49f2ff322ba218a24382d385469"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8d/if_8h.html#a563bd49f2ff322ba218a24382d385469">IFALIASZ</a>&#160;&#160;&#160;256</td></tr>
+<tr class="separator:a563bd49f2ff322ba218a24382d385469"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8088aa4a81f49f81d724e3e9e1f4cabd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8d/if_8h.html#a8088aa4a81f49f81d724e3e9e1f4cabd">ifr_name</a>&#160;&#160;&#160;ifr_ifrn.ifrn_name</td></tr>
 <tr class="separator:a8088aa4a81f49f81d724e3e9e1f4cabd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af189fdd85ad23b304223b02166c784e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8d/if_8h.html#af189fdd85ad23b304223b02166c784e7">ifr_hwaddr</a>&#160;&#160;&#160;ifr_ifru.ifru_hwaddr</td></tr>
@@ -194,6 +198,8 @@ Macros</h2></td></tr>
 <tr class="separator:afc1beaeedce1b811b1d63d9a01665266"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5cb545b4bf3750169a84500f2a0afe86"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8d/if_8h.html#a5cb545b4bf3750169a84500f2a0afe86">IFF_ECHO</a>&#160;&#160;&#160;0x40000</td></tr>
 <tr class="separator:a5cb545b4bf3750169a84500f2a0afe86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf533a5892a120d273eaeb01d713b8d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d8d/if_8h.html#a8bf533a5892a120d273eaeb01d713b8d">IFF_VOLATILE</a></td></tr>
+<tr class="separator:a8bf533a5892a120d273eaeb01d713b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -219,7 +225,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00014">14</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00016">16</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -250,7 +256,7 @@ if_name</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00019">19</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00021">21</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -305,17 +311,17 @@ port</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00028">28</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00030">30</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ae005a059b642eec473ba4f8bcf139be9"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d7/d77/unionifreq_8ifr__ifrn">ifreq</a></td>
+<a id="ad184237059b2e9b8aac3f0679c0569a5"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d7/d77/unionifreq_8ifr__ifrn">ifreq</a></td>
 <td class="fieldname">
 ifr_ifrn</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a57367b40e151c3b2914c2076376989de"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d3/d35/unionifreq_8ifr__ifru">ifreq</a></td>
+<a id="ad535e86727a6f899834a9c0ce2683f80"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d3/d35/unionifreq_8ifr__ifru">ifreq</a></td>
 <td class="fieldname">
 ifr_ifru</td>
 <td class="fielddoc">
@@ -336,11 +342,11 @@ ifr_ifru</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00066">66</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00068">68</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="add1fb00b9c3e2dc4c24063313df4a8d8"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d9/dfc/unionifconf_8ifc__ifcu">ifconf</a></td>
+<a id="adb0a2ae08d91d12267f74e74054d6be5"></a>union <a class="el" href="../../dc/d8d/if_8h.html#d9/dfc/unionifconf_8ifc__ifcu">ifconf</a></td>
 <td class="fieldname">
 ifc_ifcu</td>
 <td class="fielddoc">
@@ -367,7 +373,7 @@ ifc_len</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00029">29</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00031">31</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -392,7 +398,7 @@ ifrn_name[<a class="el" href="../../dc/d8d/if_8h.html#acd06da230a96d3b7e6f193c5b
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00033">33</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00035">35</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -483,7 +489,7 @@ ifru_slave[<a class="el" href="../../dc/d8d/if_8h.html#acd06da230a96d3b7e6f193c5
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00068">68</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00070">70</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -503,6 +509,22 @@ ifcu_req</td>
 </div>
 </div>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="af60d8f9bbe80f9b42e2fd4b5ced576b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af60d8f9bbe80f9b42e2fd4b5ced576b0">&#9670;&nbsp;</a></span>ALTIFNAMSIZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ALTIFNAMSIZ&#160;&#160;&#160;128</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00013">13</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+
+</div>
+</div>
 <a id="aedb93bcce9682d7644080b859849f59d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aedb93bcce9682d7644080b859849f59d">&#9670;&nbsp;</a></span>IF_NAMESIZE</h2>
 
@@ -519,6 +541,22 @@ ifcu_req</td>
 
 </div>
 </div>
+<a id="a563bd49f2ff322ba218a24382d385469"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a563bd49f2ff322ba218a24382d385469">&#9670;&nbsp;</a></span>IFALIASZ</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IFALIASZ&#160;&#160;&#160;256</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00014">14</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+
+</div>
+</div>
 <a id="a843e43dcc69b3230f7890a49a5f72aac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a843e43dcc69b3230f7890a49a5f72aac">&#9670;&nbsp;</a></span>ifc_buf</h2>
 
@@ -531,7 +569,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00074">74</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00076">76</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -547,7 +585,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00075">75</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00077">77</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -563,7 +601,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00091">91</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00097">97</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -579,7 +617,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00096">96</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00102">102</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -595,7 +633,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00083">83</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00089">89</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -611,7 +649,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00084">84</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00090">90</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -627,7 +665,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00099">99</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00105">105</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -643,7 +681,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00097">97</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00103">103</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -659,7 +697,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00100">100</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00106">106</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -675,7 +713,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00085">85</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00091">91</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -691,7 +729,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00098">98</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00104">104</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -707,7 +745,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00092">92</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00098">98</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -723,7 +761,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00094">94</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00100">100</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -739,7 +777,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00089">89</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00095">95</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -755,7 +793,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00087">87</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00093">93</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -771,7 +809,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00086">86</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00092">92</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -787,7 +825,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00095">95</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00101">101</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -803,7 +841,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00090">90</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00096">96</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -819,7 +857,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00088">88</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00094">94</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -835,7 +873,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00093">93</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00099">99</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -851,7 +889,33 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00082">82</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00088">88</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+
+</div>
+</div>
+<a id="a8bf533a5892a120d273eaeb01d713b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf533a5892a120d273eaeb01d713b8d">&#9670;&nbsp;</a></span>IFF_VOLATILE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IFF_VOLATILE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">        (<a class="code" href="../../dc/d8d/if_8h.html#ac8b783b6b114168cfdda88c753a8b352">IFF_LOOPBACK</a>|<a class="code" href="../../dc/d8d/if_8h.html#a888bd247755fb47ea06b3528f62bf464">IFF_POINTOPOINT</a>|<a class="code" href="../../dc/d8d/if_8h.html#a2064b99a99e93fda07845c1f390a31f7">IFF_BROADCAST</a>| \</div>
+<div class="line">        IFF_ECHO|<a class="code" href="../../dc/d8d/if_8h.html#a8f09a6625fcb14ee7ebc755a770988ed">IFF_MASTER</a>|<a class="code" href="../../dc/d8d/if_8h.html#aad01a373db9ab0dfef3cd8e46d67fdd6">IFF_SLAVE</a>|<a class="code" href="../../dc/d8d/if_8h.html#a80d412cdeb960f62ace72900a6d8124d">IFF_RUNNING</a>|<a class="code" href="../../dc/d8d/if_8h.html#a7575070af494121fe5adec2d01f248ea">IFF_LOWER_UP</a>|<a class="code" href="../../dc/d8d/if_8h.html#afc1beaeedce1b811b1d63d9a01665266">IFF_DORMANT</a>)</div>
+<div class="ttc" id="aif_8h_html_a2064b99a99e93fda07845c1f390a31f7"><div class="ttname"><a href="../../dc/d8d/if_8h.html#a2064b99a99e93fda07845c1f390a31f7">IFF_BROADCAST</a></div><div class="ttdeci">#define IFF_BROADCAST</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8d/if_8h_source.html#l00089">if.h:89</a></div></div>
+<div class="ttc" id="aif_8h_html_a7575070af494121fe5adec2d01f248ea"><div class="ttname"><a href="../../dc/d8d/if_8h.html#a7575070af494121fe5adec2d01f248ea">IFF_LOWER_UP</a></div><div class="ttdeci">#define IFF_LOWER_UP</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8d/if_8h_source.html#l00104">if.h:104</a></div></div>
+<div class="ttc" id="aif_8h_html_a80d412cdeb960f62ace72900a6d8124d"><div class="ttname"><a href="../../dc/d8d/if_8h.html#a80d412cdeb960f62ace72900a6d8124d">IFF_RUNNING</a></div><div class="ttdeci">#define IFF_RUNNING</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8d/if_8h_source.html#l00094">if.h:94</a></div></div>
+<div class="ttc" id="aif_8h_html_a888bd247755fb47ea06b3528f62bf464"><div class="ttname"><a href="../../dc/d8d/if_8h.html#a888bd247755fb47ea06b3528f62bf464">IFF_POINTOPOINT</a></div><div class="ttdeci">#define IFF_POINTOPOINT</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8d/if_8h_source.html#l00092">if.h:92</a></div></div>
+<div class="ttc" id="aif_8h_html_a8f09a6625fcb14ee7ebc755a770988ed"><div class="ttname"><a href="../../dc/d8d/if_8h.html#a8f09a6625fcb14ee7ebc755a770988ed">IFF_MASTER</a></div><div class="ttdeci">#define IFF_MASTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8d/if_8h_source.html#l00098">if.h:98</a></div></div>
+<div class="ttc" id="aif_8h_html_aad01a373db9ab0dfef3cd8e46d67fdd6"><div class="ttname"><a href="../../dc/d8d/if_8h.html#aad01a373db9ab0dfef3cd8e46d67fdd6">IFF_SLAVE</a></div><div class="ttdeci">#define IFF_SLAVE</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8d/if_8h_source.html#l00099">if.h:99</a></div></div>
+<div class="ttc" id="aif_8h_html_ac8b783b6b114168cfdda88c753a8b352"><div class="ttname"><a href="../../dc/d8d/if_8h.html#ac8b783b6b114168cfdda88c753a8b352">IFF_LOOPBACK</a></div><div class="ttdeci">#define IFF_LOOPBACK</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8d/if_8h_source.html#l00091">if.h:91</a></div></div>
+<div class="ttc" id="aif_8h_html_afc1beaeedce1b811b1d63d9a01665266"><div class="ttname"><a href="../../dc/d8d/if_8h.html#afc1beaeedce1b811b1d63d9a01665266">IFF_DORMANT</a></div><div class="ttdeci">#define IFF_DORMANT</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8d/if_8h_source.html#l00105">if.h:105</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00107">107</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -883,7 +947,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00051">51</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00053">53</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -899,7 +963,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00062">62</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00064">64</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -915,7 +979,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00053">53</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00055">55</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -931,7 +995,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00060">60</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00062">62</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -947,7 +1011,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00052">52</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00054">54</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -963,7 +1027,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00055">55</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00057">57</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -979,7 +1043,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00050">50</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00052">52</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -995,7 +1059,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00061">61</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00063">63</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -1011,7 +1075,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00058">58</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00060">60</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -1027,7 +1091,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00056">56</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00058">58</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -1043,7 +1107,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00057">57</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00059">59</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -1059,7 +1123,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00049">49</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00051">51</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -1075,7 +1139,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00054">54</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00056">56</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -1091,7 +1155,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00064">64</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00066">66</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -1107,7 +1171,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00063">63</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00065">65</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -1123,7 +1187,7 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00059">59</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/d8d/if_8h_source.html#l00061">61</a> of file <a class="el" href="../../dc/d8d/if_8h_source.html">if.h</a>.</p>
 
 </div>
 </div>
@@ -1144,14 +1208,13 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html#l00007">7</a> of file <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html">net-if-stubs.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;                                             {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    __builtin_unreachable();</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
-<div class="ttc" id="aensure_8h_html_a5e2c6c11947e5c706f6557c5195d90be"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a></div><div class="ttdeci">#define __ensure(assertion)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00015">ensure.h:15</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html#l00009">9</a> of file <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html">net-if-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                                             {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d0/d9a/namespacemlibc.html#a1700960d1a2454df21e4e1aa6f098a0a">mlibc::infoLogger</a>() &lt;&lt; <span class="stringliteral">&quot;mlibc: if_freenameindex is a no-op&quot;</span> &lt;&lt; frg::endlog;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="ttc" id="anamespacemlibc_html_a1700960d1a2454df21e4e1aa6f098a0a"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a1700960d1a2454df21e4e1aa6f098a0a">mlibc::infoLogger</a></div><div class="ttdeci">frg::stack_buffer_logger&lt; InfoSink, 512 &gt; infoLogger</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00008">debug.cpp:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00015">__ensure</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00008">mlibc::infoLogger</a>.</p>
 
 </div>
 </div>
@@ -1181,25 +1244,25 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html#l00012">12</a> of file <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html">net-if-stubs.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                                                     {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keyword">auto</span> sysdep = <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a23e696647c7d7eb5c48c16c8db794a49">mlibc::sys_if_indextoname</a>, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = sysdep(<a class="code" href="../../d1/dd6/strings-stubs_8cpp.html#a1d3748ca570dcb09a2fb28e8015107dd">index</a>, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>); e) {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html#l00013">13</a> of file <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html">net-if-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                                                     {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keyword">auto</span> sysdep = <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a23e696647c7d7eb5c48c16c8db794a49">mlibc::sys_if_indextoname</a>, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = sysdep(<a class="code" href="../../d1/dd6/strings-stubs_8cpp.html#a1d3748ca570dcb09a2fb28e8015107dd">index</a>, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>); e) {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno.h:152</a></div></div>
 <div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
-<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00024">ensure.h:24</a></div></div>
+<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00028">ensure.h:28</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a23e696647c7d7eb5c48c16c8db794a49"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a23e696647c7d7eb5c48c16c8db794a49">mlibc::sys_if_indextoname</a></div><div class="ttdeci">int sys_if_indextoname(unsigned int index, char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d84/net_8cpp_source.html#l00010">net.cpp:10</a></div></div>
 <div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
 <div class="ttc" id="astrings-stubs_8cpp_html_a1d3748ca570dcb09a2fb28e8015107dd"><div class="ttname"><a href="../../d1/dd6/strings-stubs_8cpp.html#a1d3748ca570dcb09a2fb28e8015107dd">index</a></div><div class="ttdeci">char * index(const char *s, int c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd6/strings-stubs_8cpp_source.html#l00009">strings-stubs.cpp:9</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../d1/dd6/strings-stubs_8cpp_source.html#l00009">index()</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, and <a class="el" href="../../dd/d84/net_8cpp_source.html#l00010">mlibc::sys_if_indextoname()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../d1/dd6/strings-stubs_8cpp_source.html#l00009">index()</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, and <a class="el" href="../../dd/d84/net_8cpp_source.html#l00010">mlibc::sys_if_indextoname()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d52/if__indextoname_8c_source.html#l00005">main()</a>.</p>
 
@@ -1221,13 +1284,15 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html">net-if-stubs.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                                        {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    __builtin_unreachable();</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html">net-if-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                                        {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d0/d9a/namespacemlibc.html#a1700960d1a2454df21e4e1aa6f098a0a">mlibc::infoLogger</a>() &lt;&lt; <span class="stringliteral">&quot;mlibc: if_nameindex() is a no-op&quot;</span> &lt;&lt; frg::endlog;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00058">errno.h:58</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00015">__ensure</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00058">ENOSYS</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00008">mlibc::infoLogger</a>, and <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>.</p>
 
 </div>
 </div>
@@ -1247,22 +1312,22 @@ ifcu_req</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html">net-if-stubs.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                                              {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">auto</span> sysdep = <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a388ed6f5876e2f1dbcfb004b0620917e">mlibc::sys_if_nametoindex</a>, 0);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = 0;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = sysdep(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, &amp;<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>); e) {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html">net-if-stubs.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                              {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">auto</span> sysdep = <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a388ed6f5876e2f1dbcfb004b0620917e">mlibc::sys_if_nametoindex</a>, 0);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = 0;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = sysdep(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, &amp;<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>); e) {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 <div class="ttc" id="alemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a388ed6f5876e2f1dbcfb004b0620917e"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a388ed6f5876e2f1dbcfb004b0620917e">mlibc::sys_if_nametoindex</a></div><div class="ttdeci">int sys_if_nametoindex(const char *name, unsigned int *ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d84/net_8cpp_source.html#l00035">net.cpp:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00024">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, and <a class="el" href="../../dd/d84/net_8cpp_source.html#l00035">mlibc::sys_if_nametoindex()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00152">errno</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, and <a class="el" href="../../dd/d84/net_8cpp_source.html#l00035">mlibc::sys_if_nametoindex()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/d52/if__indextoname_8c_source.html#l00005">main()</a>.</p>
 

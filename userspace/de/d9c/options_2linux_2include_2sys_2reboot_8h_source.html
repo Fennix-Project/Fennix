@@ -98,14 +98,18 @@ $(document).ready(function(){initNavTree('de/d9c/options_2linux_2include_2sys_2r
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../de/d9c/options_2linux_2include_2sys_2reboot_8h.html#ac3284db9253f6e87ea8da78a04b61c2f">reboot</a>(<span class="keywordtype">int</span> <a class="code" href="../../d8/dc0/init_8h.html#adbc328e5b19ccfb142e424b3ac1a77df">arg</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../de/d9c/options_2linux_2include_2sys_2reboot_8h.html#ac3284db9253f6e87ea8da78a04b61c2f">reboot</a>(<span class="keywordtype">int</span> <a class="code" href="../../d0/d9a/namespacemlibc.html#af4fce7742cb64fa0eeb66f7d55bf709b">arg</a>);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MLIBC_SYS_REBOOT_H</span></div>
-<div class="ttc" id="ainit_8h_html_adbc328e5b19ccfb142e424b3ac1a77df"><div class="ttname"><a href="../../d8/dc0/init_8h.html#adbc328e5b19ccfb142e424b3ac1a77df">arg</a></div><div class="ttdeci">va_list arg</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc0/init_8h_source.html#l00008">init.h:8</a></div></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MLIBC_SYS_REBOOT_H</span></div>
+<div class="ttc" id="anamespacemlibc_html_af4fce7742cb64fa0eeb66f7d55bf709b"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#af4fce7742cb64fa0eeb66f7d55bf709b">mlibc::arg</a></div><div class="ttdeci">int unsigned long void * arg</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3a/lyre_2generic_2generic_8cpp_source.html#l00235">generic.cpp:235</a></div></div>
 <div class="ttc" id="aoptions_2linux_2include_2sys_2reboot_8h_html_ac3284db9253f6e87ea8da78a04b61c2f"><div class="ttname"><a href="../../de/d9c/options_2linux_2include_2sys_2reboot_8h.html#ac3284db9253f6e87ea8da78a04b61c2f">reboot</a></div><div class="ttdeci">int reboot(int arg)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d66/sys-reboot_8cpp_source.html#l00006">sys-reboot.cpp:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -24,11 +24,36 @@ var sg_8h =
       [ "timeout", "d7/d1c/sg_8h.html#a81761ed152a330dab8376a35e9647fdc", null ],
       [ "usr_ptr", "d7/d1c/sg_8h.html#acc7cca28702c59f9a4b6744c79d8ef2f", null ]
     ] ],
+    [ "sg_scsi_id", "d7/d1c/sg_8h.html#de/da7/structsg__scsi__id", [
+      [ "channel", "d7/d1c/sg_8h.html#a4993c85cf9b29648889463319b417dc9", null ],
+      [ "d_queue_depth", "d7/d1c/sg_8h.html#a54d6e94b62791ee2ea26b55f221a5809", null ],
+      [ "h_cmd_per_lun", "d7/d1c/sg_8h.html#a259da5789935d57ec8ab577d30ed3484", null ],
+      [ "host_no", "d7/d1c/sg_8h.html#a8e206cbc344270ec75fcca97b30db77d", null ],
+      [ "lun", "d7/d1c/sg_8h.html#a62a9c3f6485b1eb0d3afe18b4754f036", null ],
+      [ "scsi_id", "d7/d1c/sg_8h.html#afd04e2576b6a00d98a74c2652d395492", null ],
+      [ "scsi_type", "d7/d1c/sg_8h.html#a6adedc78b34a37a36521a50563dd7107", null ],
+      [ "unused", "d7/d1c/sg_8h.html#ad7534ae62076a1326674d69d785f6bb3", null ]
+    ] ],
+    [ "sg_req_info", "d7/d1c/sg_8h.html#de/ded/structsg__req__info", [
+      [ "duration", "d7/d1c/sg_8h.html#ad67f54cfccd070c5ffba358a9f6e073e", null ],
+      [ "orphan", "d7/d1c/sg_8h.html#ac74925d63adac0f8586bfe1d14b311c0", null ],
+      [ "pack_id", "d7/d1c/sg_8h.html#a41cc8e41450c26efc5c9ec59d88a9cfb", null ],
+      [ "problem", "d7/d1c/sg_8h.html#a6bc12eb9835c6f0e985bb1b2e46d6378", null ],
+      [ "req_state", "d7/d1c/sg_8h.html#aec9b889252d20e971744c23de1893d3f", null ],
+      [ "sg_io_owned", "d7/d1c/sg_8h.html#abf67f0ebc175b0c07403783995a4d08c", null ],
+      [ "unused", "d7/d1c/sg_8h.html#a8a6959ef8a093f952e8881226bf92ca2", null ],
+      [ "usr_ptr", "d7/d1c/sg_8h.html#adca6116c5435baa1d94378dddb768549", null ]
+    ] ],
     [ "SG_DXFER_FROM_DEV", "d7/d1c/sg_8h.html#a202216320f2a375df976219487fa0a7d", null ],
     [ "SG_DXFER_NONE", "d7/d1c/sg_8h.html#ac1496474132206180ae994a46cf1cd3c", null ],
+    [ "SG_DXFER_NONE", "d7/d1c/sg_8h.html#ac1496474132206180ae994a46cf1cd3c", null ],
+    [ "SG_DXFER_TO_DEV", "d7/d1c/sg_8h.html#aad87ca74b6290e2202b08aebdd304bb5", null ],
+    [ "SG_DXFER_TO_FROM_DEV", "d7/d1c/sg_8h.html#a62b3d1b4a0bf7921c6d10220f025c3db", null ],
+    [ "SG_DXFER_TO_FROM_DEV", "d7/d1c/sg_8h.html#a62b3d1b4a0bf7921c6d10220f025c3db", null ],
     [ "SG_FLAG_DIRECT_IO", "d7/d1c/sg_8h.html#ada3aee2f812159a2bfe13c90fe032ffe", null ],
     [ "SG_FLAG_LUN_INHIBIT", "d7/d1c/sg_8h.html#a8971899b0e52b2d4c0311f392d3ba789", null ],
     [ "SG_INFO_OK", "d7/d1c/sg_8h.html#a45b3e178e645fa0537a44a3ea002a268", null ],
     [ "SG_INFO_OK_MASK", "d7/d1c/sg_8h.html#ae32c757909ae942fbdbb8517be3a2aaf", null ],
-    [ "SG_IO", "d7/d1c/sg_8h.html#ae2e3cdc96eeb266d2aadcf8615bd014f", null ]
+    [ "SG_IO", "d7/d1c/sg_8h.html#ae2e3cdc96eeb266d2aadcf8615bd014f", null ],
+    [ "sg_req_info_t", "d7/d1c/sg_8h.html#a2606adf2200cfc292ae9cc636640d4c9", null ]
 ];

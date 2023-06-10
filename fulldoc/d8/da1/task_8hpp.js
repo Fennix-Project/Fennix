@@ -38,11 +38,18 @@ var task_8hpp =
     [ "Task", "dc/dc5/classTasking_1_1Task.html", "dc/dc5/classTasking_1_1Task" ],
     [ "PEXIT", "d8/da1/task_8hpp.html#a3f396a5788f48a761516791722376f47", null ],
     [ "TEXIT", "d8/da1/task_8hpp.html#a2eb27b42a373d4f7e66d4fac4e6ce241", null ],
-    [ "IP", "d8/da1/task_8hpp.html#a1d6c5ad87e3a04eb27f6958a4d7890d9", null ],
-    [ "IPOffset", "d8/da1/task_8hpp.html#ac029c43062671dceeb247d3b4c88de75", null ],
+    [ "IP", "d8/da1/task_8hpp.html#acf7f74020dfbe0bd9bbce8a2877abb6d", null ],
+    [ "PID", "d8/da1/task_8hpp.html#a751a57ef6a40c1dc96de2fa13e29b03e", null ],
+    [ "TID", "d8/da1/task_8hpp.html#a4997704a70b8f8cc2b51aff2cf4e1f17", null ],
     [ "Token", "d8/da1/task_8hpp.html#ac13006a48c82b3f644498a8423a0ff24", null ],
-    [ "UPID", "d8/da1/task_8hpp.html#a04e2f481f6f63a104eee16ed8e34d0c0", null ],
-    [ "UTID", "d8/da1/task_8hpp.html#af5a2dfa2e9c69bcc3e82a0d7dc7a939e", null ],
+    [ "KillErrorCodes", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7", [
+      [ "KILL_SCHEDULER_DESTRUCTION", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7ac70d565c3766df493f932b4351fe3ee9", null ],
+      [ "KILL_CXXABI_EXCEPTION", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7a49f974482c14ec22545bbe618d851891", null ],
+      [ "KILL_SYSCALL", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7ab2ef1684c097cbec580c77d3771d410b", null ],
+      [ "KILL_OOM", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7a5db1738520d017ad44bc7ba4e83e04e2", null ],
+      [ "KILL_ERROR", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7a40849aba4e019370ef75dc3d76022532", null ],
+      [ "KILL_SUCCESS", "d8/da1/task_8hpp.html#a80f195a3819fbc143c8c557cc4c16ae7af61681c0a4b664c818dcf792fe4439f8", null ]
+    ] ],
     [ "TaskArchitecture", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302", [
       [ "UnknownArchitecture", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302a5b2a90cc96dd262a5f1d340deaa28628", null ],
       [ "x32", "d8/da1/task_8hpp.html#a96e537039eec201fc357dae47c819302a67026fb63dbef08d56b1cacef7d3e3ad", null ],

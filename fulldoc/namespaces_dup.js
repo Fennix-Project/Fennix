@@ -1,5 +1,6 @@
 var namespaces_dup =
 [
+    [ "__cxxabiv1", "da/d75/namespace____cxxabiv1.html", "da/d75/namespace____cxxabiv1" ],
     [ "aarch64", "dc/dce/namespaceaarch64.html", "dc/dce/namespaceaarch64" ],
     [ "ACPI", "df/d22/namespaceACPI.html", "df/d22/namespaceACPI" ],
     [ "AdvancedHostControllerInterface", "de/da1/namespaceAdvancedHostControllerInterface.html", "de/da1/namespaceAdvancedHostControllerInterface" ],
@@ -28,6 +29,9 @@ var namespaces_dup =
     ] ],
     [ "anonymous_namespace{essential.cpp}", "d7/d40/namespaceanonymous__namespace_02essential_8cpp_03.html", "d7/d40/namespaceanonymous__namespace_02essential_8cpp_03" ],
     [ "anonymous_namespace{file-io.cpp}", "d9/d27/namespaceanonymous__namespace_02file-io_8cpp_03.html", "d9/d27/namespaceanonymous__namespace_02file-io_8cpp_03" ],
+    [ "anonymous_namespace{generic.cpp}", "de/d0a/namespaceanonymous__namespace_02generic_8cpp_03.html", [
+      [ "fcntl_helper", "de/d0a/namespaceanonymous__namespace_02generic_8cpp_03.html#ab265b1683be899d84d4f512f16db8c1a", null ]
+    ] ],
     [ "anonymous_namespace{getopt-stubs.cpp}", "db/d09/namespaceanonymous__namespace_02getopt-stubs_8cpp_03.html", [
       [ "GetoptMode", "db/d09/namespaceanonymous__namespace_02getopt-stubs_8cpp_03.html#aed0fc03b943e6a0201f3762aa64138f7", [
         [ "Short", "db/d09/namespaceanonymous__namespace_02getopt-stubs_8cpp_03.html#aed0fc03b943e6a0201f3762aa64138f7a3e25224c03ab6090ce802e0d1c4c0153", null ],
@@ -52,6 +56,18 @@ var namespaces_dup =
       [ "c_lconv", "d4/d94/namespaceanonymous__namespace_02locale-stubs_8cpp_03.html#a4bc280fb14f9253e50993e7243219f56", null ],
       [ "effective_lc", "d4/d94/namespaceanonymous__namespace_02locale-stubs_8cpp_03.html#a16dc378025bb2a43023f6a2f37f65b56", null ]
     ] ],
+    [ "anonymous_namespace{mntent-stubs.cpp}", "d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html", [
+      [ "internal_buf", "d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html#adf2b766fbb5437b930cd242cfe82691e", null ],
+      [ "internal_bufsize", "d9/da9/namespaceanonymous__namespace_02mntent-stubs_8cpp_03.html#ae5c86e7857a6dab13cc825637ac8c768", null ]
+    ] ],
+    [ "anonymous_namespace{mntent.cpp}", "d8/d35/namespaceanonymous__namespace_02mntent_8cpp_03.html", [
+      [ "internal_buf", "d8/d35/namespaceanonymous__namespace_02mntent_8cpp_03.html#aa513b517d073a58d66d5fb8df7002e54", null ],
+      [ "internal_bufsize", "d8/d35/namespaceanonymous__namespace_02mntent_8cpp_03.html#ab48a44d0f62153c7fafeaa3a1138357a", null ]
+    ] ],
+    [ "anonymous_namespace{posix_locale.cpp}", "d3/d87/namespaceanonymous__namespace_02posix__locale_8cpp_03.html", [
+      [ "newlocale_seen", "d3/d87/namespaceanonymous__namespace_02posix__locale_8cpp_03.html#ae2a7f56e6bb687fc72f11be772048f7d", null ],
+      [ "uselocale_seen", "d3/d87/namespaceanonymous__namespace_02posix__locale_8cpp_03.html#a3335c25ce3c1474bc1a521f402732330", null ]
+    ] ],
     [ "anonymous_namespace{posix_stdlib.cpp}", "d5/d46/namespaceanonymous__namespace_02posix__stdlib_8cpp_03.html", [
       [ "debugPathResolution", "d5/d46/namespaceanonymous__namespace_02posix__stdlib_8cpp_03.html#a5221cce5dc9ae6427ff4f0397668c208", null ]
     ] ],
@@ -68,6 +84,12 @@ var namespaces_dup =
       [ "balance_tree", "dc/d4e/namespaceanonymous__namespace_02search_8cpp_03.html#a7e050058ad31de24bac2ee3b57af381c", null ],
       [ "height", "dc/d4e/namespaceanonymous__namespace_02search_8cpp_03.html#a0e97247203fa703de26361fbe0f38a98", null ],
       [ "rotate", "dc/d4e/namespaceanonymous__namespace_02search_8cpp_03.html#acedab301ecc5a5bc98d106ebcf311c69", null ]
+    ] ],
+    [ "anonymous_namespace{socket.cpp}", "d8/d54/namespaceanonymous__namespace_02socket_8cpp_03.html", [
+      [ "fcntl_helper", "d8/d54/namespaceanonymous__namespace_02socket_8cpp_03.html#a4566fa91a411850f784cafa27449a912", null ]
+    ] ],
+    [ "anonymous_namespace{sockets.cpp}", "d4/d76/namespaceanonymous__namespace_02sockets_8cpp_03.html", [
+      [ "fcntl_helper", "d4/d76/namespaceanonymous__namespace_02sockets_8cpp_03.html#aefadab4e6aabbc24f853057d42e34ee1", null ]
     ] ],
     [ "anonymous_namespace{stdio-stubs.cpp}", "d6/dc6/namespaceanonymous__namespace_02stdio-stubs_8cpp_03.html", null ],
     [ "anonymous_namespace{stdlib-stubs.cpp}", "d2/dd9/namespaceanonymous__namespace_02stdlib-stubs_8cpp_03.html", [
@@ -118,7 +140,6 @@ var namespaces_dup =
     [ "Memory", "d3/d97/namespaceMemory.html", [
       [ "__no_sanitize", "d3/d97/namespaceMemory.html#afb12cf57bb646f530c629da2a1e9743c", null ],
       [ "ReadFSFunction", "d3/d97/namespaceMemory.html#a3e630a684edd2a6cd3e265fea85eade9", null ],
-      [ "SeekFSFunction", "d3/d97/namespaceMemory.html#a28872d2597310c76775f2585d14c124e", null ],
       [ "WriteFSFunction", "d3/d97/namespaceMemory.html#a1c5c24bf1615ba4a406fce3ad555d2fa", null ],
       [ "mem_op", "d3/d97/namespaceMemory.html#a6c1d73cc8a1e574400a2055d2beddf2a", null ]
     ] ],
