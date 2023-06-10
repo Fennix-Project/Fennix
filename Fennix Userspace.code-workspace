@@ -28,7 +28,15 @@
 			"liballoc_1_1.h": "c",
 			"errno.h": "c",
 			"stdlib.h": "c",
-			"stdarg.h": "c"
+			"stdarg.h": "c",
+			"printf.h": "c",
+			"ctype.h": "c",
+			"unistd.h": "c",
+			"stat.h": "c",
+			"wait.h": "c",
+			"base.h": "c",
+			"ld.h": "c",
+			"syscall.h": "c"
 		},
 		"cSpell.words": [
 			"auxv",

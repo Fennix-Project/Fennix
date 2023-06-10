@@ -35,7 +35,10 @@
 			"cstddef": "cpp",
 			"atomic.hpp": "c",
 			"atomic": "cpp",
-			"syscalls.h": "c"
+			"syscalls.h": "c",
+			"cmath": "cpp",
+			"typeinfo": "c",
+			"exception": "cpp"
 		},
 		"cSpell.words": [
 			"AABBCC",
@@ -244,6 +247,7 @@
 			"PERFEVTSEL",
 			"PEXIT",
 			"PFLA",
+			"Phdrs",
 			"pheader",
 			"PHENT",
 			"phentsize",

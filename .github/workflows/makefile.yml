@@ -55,53 +55,29 @@ jobs:
 
     - name: Clone All
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools clone_all
+      run: make --quiet -C tools __clone_all_no_qemu
 
     - name: Compile Binutils amd64
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_binutils64
+      run: make --quiet -C tools do_binutils_64
 
     - name: Compile Binutils i386
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_binutils32
-
-    - name: Compile Binutils aarch64
-      if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_binutilsarm64
+      run: make --quiet -C tools do_binutils_32
 
     - name: Compile GCC amd64
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_gcc64
+      run: make --quiet -C tools do_gcc_64
 
     - name: Compile GCC i386
       if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_gcc32
-
-    - name: Compile GCC aarch64
-      if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_gccarm64
-
-    - name: Compile 64-bit Toolchain Binutils
-      if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_toolchain_binutils64
-
-    - name: Compile 64-bit Toolchain GCC
-      if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_toolchain_gcc64
-
-    - name: Compile 32-bit Toolchain Binutils
-      if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_toolchain_binutils32
-
-    - name: Compile 32-bit Toolchain GCC
-      if: steps.cache-cross.outputs.cache-hit != 'true'
-      run: make --quiet -C tools do_toolchain_gcc32
+      run: make --quiet -C tools do_gcc_32
 
     - name: Clean Up
       if: steps.cache-cross.outputs.cache-hit != 'true'
       run: |
         cd tools
-        rm -rf binutils-gdb gcc qemu build-binutilsamd64 build-binutilsi386 build-binutilsarm64 build-gccamd64 build-gcci386 build-gccarm64 build-toolchain-binutils64 build-toolchain-gcc64 build-toolchain-binutils32 build-toolchain-gcc32
+        rm -rf binutils-gdb gcc build-binutils64 build-gcc64 build-binutils32 build-gcc32
 
   compilegnuefi:
     name: Build GNU-EFI
@@ -305,6 +281,7 @@ jobs:
         path: Fennix-release.iso
 
   compilearm64:
+    if: ${{ false }} # Disabled until we can get it to work
     name: Build aarch64
     runs-on: ubuntu-latest
     needs: [buildcompiler, compilegnuefi]

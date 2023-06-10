@@ -186,9 +186,11 @@ QEMU_SMP_DBG = -smp 4
 QEMU_SMP = -smp 4
 endif
 
-vscode_debug: build_lynx build_kernel build_userspace build_modules build_image
+vscode_debug_only:
 	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
 	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 1G $(QEMUFLAGS) $(QEMU_SMP_DBG)
+
+vscode_debug: build_lynx build_kernel build_userspace build_modules build_image vscode_debug_only
 
 qemu: qemu_vdisk
 	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
