@@ -178,7 +178,7 @@ jobs:
     - name: Update & Install Required Packages
       run: |
         sudo apt-get update
-        sudo apt-get install rustc xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
+        sudo apt-get install rustc xorriso mtools genisoimage ovmf nasm doxygen make meson gcc-10 g++-10 gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
         make --quiet -C tools do_limine
         make --quiet -C Modules prepare
         make --quiet -C Userspace prepare
@@ -235,7 +235,7 @@ jobs:
     - name: Update & Install Required Packages
       run: |
         sudo apt-get update
-        sudo apt-get install rustc xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
+        sudo apt-get install rustc xorriso mtools genisoimage ovmf nasm doxygen make meson gcc-10 g++-10 gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
         make --quiet -C tools do_limine
         make --quiet -C Modules prepare
         make --quiet -C Userspace prepare
@@ -293,7 +293,7 @@ jobs:
     - name: Update & Install Required Packages
       run: |
         sudo apt-get update
-        sudo apt-get install rustc xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
+        sudo apt-get install rustc xorriso mtools genisoimage ovmf nasm doxygen make meson gcc-10 g++-10 gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64 -y
         make --quiet -C tools do_limine
         make --quiet -C Modules prepare
         make --quiet -C Userspace prepare
