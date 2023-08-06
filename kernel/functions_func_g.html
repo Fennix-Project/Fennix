@@ -125,6 +125,7 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 , <a class="el" href="dc/d72/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000022.html#aa570eec132ce7f8460836b8dec836b2a">CPU::x86::AMD::CPUID0x80000022</a>
 , <a class="el" href="d7/d74/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000023.html#ab60fd07e1561a546e5382c78b6602a10">CPU::x86::AMD::CPUID0x80000023</a>
 , <a class="el" href="dd/d89/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000026.html#ad26eeb2234b74cceaa0489214bbb70b4">CPU::x86::AMD::CPUID0x80000026</a>
+, <a class="el" href="db/d52/structCPU_1_1x86_1_1AMD_1_1CPUID0x8FFFFFFF.html#a494859339e7cc4f5cb436351fd5c2801">CPU::x86::AMD::CPUID0x8FFFFFFF</a>
 , <a class="el" href="d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a2c9a0b5906e32a3665be7d41266ce139">CPU::x86::Intel::CPUID0x00000000</a>
 , <a class="el" href="de/da8/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000001.html#a92f49073aad9bdc5514df1f2bb7acbd2">CPU::x86::Intel::CPUID0x00000001</a>
 , <a class="el" href="d0/d1c/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000002.html#aa6091685b2213dee0401d0e9e21575c0">CPU::x86::Intel::CPUID0x00000002</a>
@@ -155,21 +156,20 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>get_count()
 : <a class="el" href="df/ddb/classstd_1_1shared__ptr.html#ac479edfac51ea2e4b06058d96c9fc439">std::shared_ptr&lt; T &gt;</a>
 </li>
+<li>GetAbsolutePath()
+: <a class="el" href="d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#ab2fb543e6ac735b15da61fdc1436c0b7">VirtualFileSystem::FileDescriptorTable</a>
+</li>
 <li>GetACPI()
 : <a class="el" href="d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">Power::Power</a>
 </li>
 <li>GetActiveTimer()
 : <a class="el" href="dd/d8d/classTime_1_1time.html#a22a015ee619926c153b21d7741cceed5">Time::time</a>
 </li>
-<li>GetBaseLoadInfo()
-: <a class="el" href="d3/dc8/classExecute_1_1ELFObject.html#a11a4e579bfe430ff960ecb7935b3ce04">Execute::ELFObject</a>
-</li>
 <li>GetBitsPerPixel()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#a9478d46218b12a00d175cf835bc89b5a">Video::Display</a>
 </li>
 <li>GetBuffer()
-: <a class="el" href="d2/d89/classGraphicalUserInterface_1_1Window.html#a3305fcd4d0fa9effbf7f4e112e8a3142">GraphicalUserInterface::Window</a>
-, <a class="el" href="db/d81/classVideo_1_1Display.html#a060126a04e145f3d25ca00d957ffb7d6">Video::Display</a>
+: <a class="el" href="db/d81/classVideo_1_1Display.html#a060126a04e145f3d25ca00d957ffb7d6">Video::Display</a>
 </li>
 <li>GetBufferCursor()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#a0097ccf084f7dc5a12d1cc11a44b4b23">Video::Display</a>
@@ -177,13 +177,10 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>GetChild()
 : <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#a6a7709b694f12e6bd0fcd69a915fc1b8">VirtualFileSystem::Virtual</a>
 </li>
-<li>GetChildren()
-: <a class="el" href="d9/dea/structVirtualFileSystem_1_1File.html#af1c06f7800d9e484c0f6257741d81e16">VirtualFileSystem::File</a>
-</li>
 <li>GetCounter()
-: <a class="el" href="d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a3da8c749b5f0ff5117f3e9ff9f894b84">Time::HighPrecisionEventTimer</a>
-, <a class="el" href="dd/d8d/classTime_1_1time.html#a9b0cd82a23031e5f17608b8ba8bcc334">Time::time</a>
-, <a class="el" href="d8/dfe/classTime_1_1TimeStampCounter.html#a80542b53fdba2cc96341c39511efa3f4">Time::TimeStampCounter</a>
+: <a class="el" href="d1/d8b/classTime_1_1HighPrecisionEventTimer.html#af7c3e5a3401f424e6ba6b2fbe12d56cd">Time::HighPrecisionEventTimer</a>
+, <a class="el" href="dd/d8d/classTime_1_1time.html#a3fb6d85ca30d0a2dfab46ede31bfa2f6">Time::time</a>
+, <a class="el" href="d8/dfe/classTime_1_1TimeStampCounter.html#acde7080452d860cff9cb4c537be0b999">Time::TimeStampCounter</a>
 </li>
 <li>GetCurrentFont()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#a3f28ee62fda3c67362e8a337f2c2103a">Video::Display</a>
@@ -204,16 +201,22 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="d0/df9/classPower_1_1Power.html#a6873600aa7f666f8e8a6eaaa1afcde15">Power::Power</a>
 </li>
 <li>GetExitCode()
-: <a class="el" href="de/d96/structTasking_1_1TCB.html#a3dcbdaf9bce6d5d4c4a197df10d9eb59">Tasking::TCB</a>
+: <a class="el" href="da/daf/classTasking_1_1TCB.html#a3dcbdaf9bce6d5d4c4a197df10d9eb59">Tasking::TCB</a>
 </li>
 <li>GetFATType()
 : <a class="el" href="db/dad/classVirtualFileSystem_1_1FAT.html#ae9ae49713035288c9151df7792911fa6">VirtualFileSystem::FAT</a>
 </li>
-<li>GetFlags()
-: <a class="el" href="d9/dea/structVirtualFileSystem_1_1File.html#a3037dbf1ebff4554d694fd39f4a989eb">VirtualFileSystem::File</a>
+<li>GetFileDescriptor()
+: <a class="el" href="d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a66055955911d20add3b5606417c2f95b">VirtualFileSystem::FileDescriptorTable</a>
+</li>
+<li>GetFileDescriptors()
+: <a class="el" href="d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a742cbb62e5036b054108e0a72a04a7d5">VirtualFileSystem::FileDescriptorTable</a>
 </li>
 <li>GetFrameType()
 : <a class="el" href="de/de9/classNetworkEthernet_1_1EthernetEvents.html#a72ffd002884880e8ae592cde820a36df">NetworkEthernet::EthernetEvents</a>
+</li>
+<li>GetFreeFileDescriptor()
+: <a class="el" href="d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a60f9d7ffec8f76e01f58a6181b7f393e">VirtualFileSystem::FileDescriptorTable</a>
 </li>
 <li>GetHandles()
 : <a class="el" href="df/d7e/classInterProcessCommunication_1_1IPC.html#ad23e398ece52a39146f34c033beccfdb">InterProcessCommunication::IPC</a>
@@ -239,16 +242,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 <li>GetLastTaskTicks()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#ae4808b2cbb64d48a772d6a5b27b852ad">Tasking::Task</a>
 </li>
-<li>GetLength()
-: <a class="el" href="d9/dea/structVirtualFileSystem_1_1File.html#a7377e7d70e717b40d75ad56d7ed4d785">VirtualFileSystem::File</a>
-</li>
 <li>GetMADT()
 : <a class="el" href="d0/df9/classPower_1_1Power.html#a7d90f526c69e2b02e1890b5c9d07aa0f">Power::Power</a>
 </li>
 <li>GetNanosecondsSinceClassCreation()
-: <a class="el" href="d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a30b5c0fac67317267a6c1635d4bb0f32">Time::HighPrecisionEventTimer</a>
-, <a class="el" href="dd/d8d/classTime_1_1time.html#abed52591a301adef6228861561a5111d">Time::time</a>
-, <a class="el" href="d8/dfe/classTime_1_1TimeStampCounter.html#a3bf6851667f0ad4a844bd3a035abce52">Time::TimeStampCounter</a>
+: <a class="el" href="d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a71c33d56f6c1050f1e364ca5c84000a6">Time::HighPrecisionEventTimer</a>
+, <a class="el" href="dd/d8d/classTime_1_1time.html#a0d22feb52f3c4d0a785af47db829aed3">Time::time</a>
+, <a class="el" href="d8/dfe/classTime_1_1TimeStampCounter.html#a43041a950317d20d154695988ebd3107">Time::TimeStampCounter</a>
 </li>
 <li>GetNextAvailableProcess()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#a578969cd3eae22dc4258b76f5d42d14f">Tasking::Task</a>
@@ -257,10 +257,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#a633a5834eaebf13a8b7c707b7d789c01">Tasking::Task</a>
 </li>
 <li>GetNode()
-: <a class="el" href="d9/dea/structVirtualFileSystem_1_1File.html#aae0cd7c464e501871a6bdc20a27b8111">VirtualFileSystem::File</a>
+: <a class="el" href="da/d08/classVirtualFileSystem_1_1ReferenceNode.html#aab1b7b1f2c4236436417572a1b878b4a">VirtualFileSystem::ReferenceNode</a>
 </li>
 <li>GetNodeFromPath()
 : <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#a2cfdef15ab11eb25e9b151fd86412bc6">VirtualFileSystem::Virtual</a>
+</li>
+<li>GetNodeFromPath_Unsafe()
+: <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#a0d723d2f906c2941ca5b663b53e330f0">VirtualFileSystem::Virtual</a>
 </li>
 <li>GetOption()
 : <a class="el" href="db/dd7/classNetworkDHCP_1_1DHCP.html#ac92d633e2b80863b91fd4ab9f8035dfb">NetworkDHCP::DHCP</a>
@@ -269,19 +272,13 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 : <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#acccd958a12a8c2f5df76552f38e81ed4">VirtualFileSystem::Virtual</a>
 </li>
 <li>GetPathFromNode()
-: <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#a073e87bf18d484d03cdf0ed1be34d7fc">VirtualFileSystem::Virtual</a>
+: <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#a2ce5dc411a2e230fde7480d8dde78ccb">VirtualFileSystem::Virtual</a>
 </li>
 <li>GetPitch()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#af479dbfc82032a70b88c51d6ffa1555f">Video::Display</a>
 </li>
 <li>GetPixel()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#abd4c5c00303ee20b32f7e71ff596c7a0">Video::Display</a>
-</li>
-<li>GetPosition()
-: <a class="el" href="d2/d89/classGraphicalUserInterface_1_1Window.html#a5f17a26007ab7ebd0d4172ad4bb16545">GraphicalUserInterface::Window</a>
-</li>
-<li>GetPositionPtr()
-: <a class="el" href="d2/d89/classGraphicalUserInterface_1_1Window.html#a13ea8c39d9d48d278e6666ca0a7f98fc">GraphicalUserInterface::Window</a>
 </li>
 <li>GetProcessByID()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#a886f438a2728b169062df5000470e2ff">Tasking::Task</a>
@@ -300,9 +297,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>GetSchedulerTicks()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#ac819bee16af9bfd684ea79038ca15f48">Tasking::Task</a>
-</li>
-<li>GetSecurityManager()
-: <a class="el" href="dc/dc5/classTasking_1_1Task.html#a20d489bc46631bc785e534688fed711f">Tasking::Task</a>
 </li>
 <li>getsize()
 : <a class="el" href="d3/d26/classVirtualFileSystem_1_1USTAR.html#a139f18e2cc5409dc3c8bf680064124bd">VirtualFileSystem::USTAR</a>
@@ -328,18 +322,6 @@ $(document).ready(function(){initNavTree('functions_func_g.html',''); initResiza
 </li>
 <li>GetTicks()
 : <a class="el" href="df/d9c/classAPIC_1_1Timer.html#a10be503a95f58fcfa6af65c6216f9519">APIC::Timer</a>
-</li>
-<li>GetTitle()
-: <a class="el" href="d2/d89/classGraphicalUserInterface_1_1Window.html#ae776b9f743d4abd4a253822346f5595a">GraphicalUserInterface::Window</a>
-</li>
-<li>GetTokenTrustLevel()
-: <a class="el" href="d0/dbb/classTasking_1_1Security.html#ac3d0e95747465d527d66db74a8c19a4d">Tasking::Security</a>
-</li>
-<li>GetTotalEntries()
-: <a class="el" href="d0/dcc/classSymbolResolver_1_1Symbols.html#abd510254a655b7a441b59a3f6a72fd3b">SymbolResolver::Symbols</a>
-</li>
-<li>GUI()
-: <a class="el" href="d6/d43/classGraphicalUserInterface_1_1GUI.html#a371285d2ad2e008bc132ae68b6a4a267">GraphicalUserInterface::GUI</a>
 </li>
 </ul>
 </div><!-- contents -->

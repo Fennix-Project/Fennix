@@ -8,6 +8,7 @@ var globals_type =
     [ "e", "globals_type_e.html", null ],
     [ "f", "globals_type_f.html", null ],
     [ "g", "globals_type_g.html", null ],
+    [ "h", "globals_type_h.html", null ],
     [ "i", "globals_type_i.html", null ],
     [ "j", "globals_type_j.html", null ],
     [ "k", "globals_type_k.html", null ],
@@ -22,5 +23,6 @@ var globals_type =
     [ "t", "globals_type_t.html", null ],
     [ "u", "globals_type_u.html", null ],
     [ "v", "globals_type_v.html", null ],
-    [ "w", "globals_type_w.html", null ]
+    [ "w", "globals_type_w.html", null ],
+    [ "y", "globals_type_y.html", null ]
 ];

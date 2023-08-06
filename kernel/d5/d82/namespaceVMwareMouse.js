@@ -1,10 +1,10 @@
 var namespaceVMwareMouse =
 [
     [ "VMwareCommand", "d5/d82/namespaceVMwareMouse.html#d0/d89/structVMwareMouse_1_1VMwareCommand", "d5/d82/namespaceVMwareMouse_d0/d89/structVMwareMouse_1_1VMwareCommand_dup" ],
-    [ "VMwareCommand.__unnamed839__", "d5/d82/namespaceVMwareMouse.html#d4/dba/unionVMwareMouse_1_1VMwareCommand_8____unnamed839____", "d5/d82/namespaceVMwareMouse_d4/dba/unionVMwareMouse_1_1VMwareCommand_8____unnamed839_____dup" ],
-    [ "VMwareCommand.__unnamed841__", "d5/d82/namespaceVMwareMouse.html#d2/d6b/unionVMwareMouse_1_1VMwareCommand_8____unnamed841____", "d5/d82/namespaceVMwareMouse_d2/d6b/unionVMwareMouse_1_1VMwareCommand_8____unnamed841_____dup" ],
-    [ "VMwareCommand.__unnamed843__", "d5/d82/namespaceVMwareMouse.html#d9/dc6/unionVMwareMouse_1_1VMwareCommand_8____unnamed843____", "d5/d82/namespaceVMwareMouse_d9/dc6/unionVMwareMouse_1_1VMwareCommand_8____unnamed843_____dup" ],
-    [ "VMwareCommand.__unnamed845__", "d5/d82/namespaceVMwareMouse.html#dd/d76/unionVMwareMouse_1_1VMwareCommand_8____unnamed845____", "d5/d82/namespaceVMwareMouse_dd/d76/unionVMwareMouse_1_1VMwareCommand_8____unnamed845_____dup" ],
+    [ "VMwareCommand.__unnamed852__", "d5/d82/namespaceVMwareMouse.html#dd/dee/unionVMwareMouse_1_1VMwareCommand_8____unnamed852____", "d5/d82/namespaceVMwareMouse_dd/dee/unionVMwareMouse_1_1VMwareCommand_8____unnamed852_____dup" ],
+    [ "VMwareCommand.__unnamed854__", "d5/d82/namespaceVMwareMouse.html#d2/def/unionVMwareMouse_1_1VMwareCommand_8____unnamed854____", "d5/d82/namespaceVMwareMouse_d2/def/unionVMwareMouse_1_1VMwareCommand_8____unnamed854_____dup" ],
+    [ "VMwareCommand.__unnamed856__", "d5/d82/namespaceVMwareMouse.html#dd/d45/unionVMwareMouse_1_1VMwareCommand_8____unnamed856____", "d5/d82/namespaceVMwareMouse_dd/d45/unionVMwareMouse_1_1VMwareCommand_8____unnamed856_____dup" ],
+    [ "VMwareCommand.__unnamed858__", "d5/d82/namespaceVMwareMouse.html#d5/d7e/unionVMwareMouse_1_1VMwareCommand_8____unnamed858____", "d5/d82/namespaceVMwareMouse_d5/d7e/unionVMwareMouse_1_1VMwareCommand_8____unnamed858_____dup" ],
     [ "Config", "d5/d82/namespaceVMwareMouse.html#a8f8e4afba5485602e5aea3830941cd51", [
       [ "READ_CONFIG", "d5/d82/namespaceVMwareMouse.html#a8f8e4afba5485602e5aea3830941cd51a49e8b4904cdc7000e69b55ce3bc5a2d4", null ],
       [ "WRITE_CONFIG", "d5/d82/namespaceVMwareMouse.html#a8f8e4afba5485602e5aea3830941cd51a346be4df25a90a72c225319f6ad1cd3f", null ]
@@ -30,6 +30,7 @@ var namespaceVMwareMouse =
     [ "WaitRead", "d5/d82/namespaceVMwareMouse.html#aeb91f7c98b6a1a3c9d0343adbe75ece0", null ],
     [ "WaitWrite", "d5/d82/namespaceVMwareMouse.html#a14601386f0d5a0020954e8f3498c549f", null ],
     [ "Write", "d5/d82/namespaceVMwareMouse.html#a5f474f43aacdcdc65b137a160a3ace45", null ],
+    [ "InputReceived", "d5/d82/namespaceVMwareMouse.html#a0fa4b3f442b268f7376e3f9e476813a2", null ],
     [ "KAPI", "d5/d82/namespaceVMwareMouse.html#a20b661ddba7df2d5c22a6caf7a2c4328", null ],
     [ "MouseButton", "d5/d82/namespaceVMwareMouse.html#ade6b34e0089331cd53f03a52346a4656", null ],
     [ "MouseX", "d5/d82/namespaceVMwareMouse.html#a98cd88003bf1a8594937f1187bc1da0c", null ],

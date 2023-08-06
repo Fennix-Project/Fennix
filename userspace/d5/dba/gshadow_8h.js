@@ -6,6 +6,5 @@ var gshadow_8h =
       [ "sg_namp", "d5/dba/gshadow_8h.html#a3a7380c56113bcca4a76c697a982d545", null ],
       [ "sg_passwd", "d5/dba/gshadow_8h.html#a2af0fc5d3d47fb7a7f5576b53cd83b13", null ]
     ] ],
-    [ "GSHADOW", "d5/dba/gshadow_8h.html#a52c7708d9e2a1b6a3144da01dc102e89", null ],
-    [ "getsgnam_r", "d5/dba/gshadow_8h.html#a014ba8deb0c50a41ddffd20ff0fc6bc7", null ]
+    [ "GSHADOW", "d5/dba/gshadow_8h.html#a52c7708d9e2a1b6a3144da01dc102e89", null ]
 ];

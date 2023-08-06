@@ -2,6 +2,7 @@ var Kernel_8cpp =
 [
     [ "CallPtr", "d2/d00/Kernel_8cpp.html#a9aa5b5a5410c2e97df5759c3e6d8c318", null ],
     [ "__aligned", "d2/d00/Kernel_8cpp.html#aeeaf41f27dfc4f30d4776f9d7d6dcef8", null ],
+    [ "__cxa_finalize", "d2/d00/Kernel_8cpp.html#ab8f7a6be69ef6cc7a14abfa1a1a9e5b7", null ],
     [ "BeforeShutdown", "d2/d00/Kernel_8cpp.html#a351f7a9223a3d5eea2fb51d4f27d50a8", null ],
     [ "Entry", "d2/d00/Kernel_8cpp.html#a50e99f20d55238b00c67840a8a71254d", null ],
     [ "KPrint", "d2/d00/Kernel_8cpp.html#a856ca7c6595acc2941208b1241cd8f3e", null ],

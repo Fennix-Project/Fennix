@@ -1,0 +1,26 @@
+var histfile_8c =
+[
+    [ "HIST_TIMESTAMP_START", "db/de3/histfile_8c.html#ac4fa1cff7bac7d570d1758dedbd4ed3c", null ],
+    [ "O_BINARY", "db/de3/histfile_8c.html#a36fa9b2e726512bc17a7a6d3e39002be", null ],
+    [ "PATH_MAX", "db/de3/histfile_8c.html#ae688d728e1acdfe5988c7db45d6f0166", null ],
+    [ "READLINE_LIBRARY", "db/de3/histfile_8c.html#a3a30bc39a88ec237f66888013a879aea", null ],
+    [ "SHOULD_CHOWN", "db/de3/histfile_8c.html#a6c9fefb552c65e856c21c05fa86bd536", null ],
+    [ "append_history", "db/de3/histfile_8c.html#a648ba4907b32fccdf8f35c1ab7e5a98b", null ],
+    [ "histfile_backup", "db/de3/histfile_8c.html#a856bbb6abf4a91ecf937b78eac7d377f", null ],
+    [ "histfile_restore", "db/de3/histfile_8c.html#aba664df21bffa521c06c5be8ab8b2413", null ],
+    [ "history_backupfile", "db/de3/histfile_8c.html#a92ce0058421bd9bda1a93a87cdd4b5d2", null ],
+    [ "history_do_write", "db/de3/histfile_8c.html#aea2e5b2b3ef695795546ee4b835bfe8c", null ],
+    [ "history_filename", "db/de3/histfile_8c.html#a44e2e69b46dbb737a7619e3cd342c463", null ],
+    [ "history_rename", "db/de3/histfile_8c.html#a55c71d258f012d8c08e59220cc6cc219", null ],
+    [ "history_tempfile", "db/de3/histfile_8c.html#aedc1a47c75f6b76f3bfd507ce2a0869f", null ],
+    [ "history_truncate_file", "db/de3/histfile_8c.html#a92b483d7660b4cab3513cc7064056985", null ],
+    [ "read_history", "db/de3/histfile_8c.html#a9a42736dbef25c2ebd19649cd3828386", null ],
+    [ "read_history_range", "db/de3/histfile_8c.html#acdb59447ef47e5a59c48459699c0a58d", null ],
+    [ "write_history", "db/de3/histfile_8c.html#af873e37c8ed9780196e5dc1bcbcbcbf1", null ],
+    [ "errno", "db/de3/histfile_8c.html#ad65a8842cc674e3ddf69355898c0ecbf", null ],
+    [ "history_file_version", "db/de3/histfile_8c.html#a3c7b48674e486eac946fae786f3d5714", null ],
+    [ "history_lines_read_from_file", "db/de3/histfile_8c.html#acc845b2e0ba622f3ed5cedd7b32b66e3", null ],
+    [ "history_lines_written_to_file", "db/de3/histfile_8c.html#a53cc9f6c38b967dfa5f235104d0881ae", null ],
+    [ "history_multiline_entries", "db/de3/histfile_8c.html#ac45bc7d9ce759cdcc1a1529964291688", null ],
+    [ "history_write_timestamps", "db/de3/histfile_8c.html#acc8ffd4888ea01ba0f408a685c877384", null ]
+];

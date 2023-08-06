@@ -110,7 +110,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afdd5e3c942bbdfd2aee3fb15c812c059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da6/sysdeps_2managarm_2generic_2ensure_8cpp.html#afdd5e3c942bbdfd2aee3fb15c812c059">__frigg_assert_fail</a> (const char *assertion, const char *file, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> line, const char *<a class="el" href="../../db/d16/debug_8h.html#ac56ee31762db2d7b05b7080812aaf7f1">function</a>)</td></tr>
+<tr class="memitem:afdd5e3c942bbdfd2aee3fb15c812c059"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da6/sysdeps_2managarm_2generic_2ensure_8cpp.html#afdd5e3c942bbdfd2aee3fb15c812c059">__frigg_assert_fail</a> (const char *assertion, const char *file, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>, const char *<a class="el" href="../../db/d16/debug_8h.html#ac56ee31762db2d7b05b7080812aaf7f1">function</a>)</td></tr>
 <tr class="separator:afdd5e3c942bbdfd2aee3fb15c812c059"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a34fdf458c4c2f35027b0b2d81566c1a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9a/namespacemlibc.html#a34fdf458c4c2f35027b0b2d81566c1a0">mlibc::sys_libc_log</a> (const char *message)</td></tr>
 <tr class="separator:a34fdf458c4c2f35027b0b2d81566c1a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,12 +159,13 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d4/da6/sysdeps_2managarm_2generic_2ensure_8cpp_source.html#l00013">13</a> of file <a class="el" href="../../d4/da6/sysdeps_2managarm_2generic_2ensure_8cpp_source.html">ensure.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                              {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../d0/d9a/namespacemlibc.html#aa67893864417221ab1be56f6a26d7899">mlibc::panicLogger</a>() &lt;&lt; <span class="stringliteral">&quot;In function &quot;</span> &lt;&lt; <span class="keyword">function</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            &lt;&lt; <span class="stringliteral">&quot;, file &quot;</span> &lt;&lt; file &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; line &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            &lt;&lt; <span class="stringliteral">&quot;, file &quot;</span> &lt;&lt; file &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            &lt;&lt; <span class="stringliteral">&quot;__ensure(&quot;</span> &lt;&lt; assertion &lt;&lt; <span class="stringliteral">&quot;) failed&quot;</span> &lt;&lt; frg::endlog;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="ttc" id="agetusershell_8c_html_a8adb30f4f6669f927fd9232f686c637b"><div class="ttname"><a href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a></div><div class="ttdeci">static char * line</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/getusershell_8c_source.html#l00007">getusershell.c:7</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_aa67893864417221ab1be56f6a26d7899"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#aa67893864417221ab1be56f6a26d7899">mlibc::panicLogger</a></div><div class="ttdeci">frg::stack_buffer_logger&lt; PanicSink, 512 &gt; panicLogger</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00009">debug.cpp:9</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00009">mlibc::panicLogger</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00007">line</a>, and <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00009">mlibc::panicLogger</a>.</p>
 
 </div>
 </div>

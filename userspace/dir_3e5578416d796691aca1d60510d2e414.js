@@ -5,6 +5,5 @@ var dir_3e5578416d796691aca1d60510d2e414 =
     [ "filesystem.cpp", "da/d1c/aero_2generic_2filesystem_8cpp.html", "da/d1c/aero_2generic_2filesystem_8cpp" ],
     [ "signals.cpp", "d9/db0/aero_2generic_2signals_8cpp.html", "d9/db0/aero_2generic_2signals_8cpp" ],
     [ "sockets.cpp", "d9/d0d/aero_2generic_2sockets_8cpp.html", "d9/d0d/aero_2generic_2sockets_8cpp" ],
-    [ "thread.cpp", "d3/d80/aero_2generic_2thread_8cpp.html", "d3/d80/aero_2generic_2thread_8cpp" ],
-    [ "time.cpp", "d6/d5b/sysdeps_2aero_2generic_2time_8cpp.html", "d6/d5b/sysdeps_2aero_2generic_2time_8cpp" ]
+    [ "thread.cpp", "d3/d80/aero_2generic_2thread_8cpp.html", "d3/d80/aero_2generic_2thread_8cpp" ]
 ];

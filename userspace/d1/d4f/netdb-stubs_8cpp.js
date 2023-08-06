@@ -11,7 +11,6 @@ var netdb_stubs_8cpp =
     [ "gethostbyaddr", "d1/d4f/netdb-stubs_8cpp.html#adda653beb29b77113ef4f00496fe93a6", null ],
     [ "gethostbyaddr_r", "d1/d4f/netdb-stubs_8cpp.html#aba093a2031f6a7051c2097f23f2e872b", null ],
     [ "gethostbyname", "d1/d4f/netdb-stubs_8cpp.html#a636674bf9937205b85a797ee6077faa9", null ],
-    [ "gethostbyname2", "d1/d4f/netdb-stubs_8cpp.html#a1aeeae592713100c59cebedb0c3822e2", null ],
     [ "gethostbyname_r", "d1/d4f/netdb-stubs_8cpp.html#aadb368419b05b9d534324e43bdde5a49", null ],
     [ "gethostent", "d1/d4f/netdb-stubs_8cpp.html#a5238a05cb76d39b53ef8e000ee941058", null ],
     [ "getnameinfo", "d1/d4f/netdb-stubs_8cpp.html#a4b435d33d31c9a68fdc402de9048fd75", null ],

@@ -164,8 +164,6 @@ var include_2types_8h =
     [ "int_least8_t", "d6/de6/include_2types_8h.html#adb5f4bf8afa3bee9e4da1bb9daf4908d", null ],
     [ "intmax_t", "d6/de6/include_2types_8h.html#ae26fa513a7dfed63221f72d93de2a021", null ],
     [ "intptr_t", "d6/de6/include_2types_8h.html#a0bd5dec00e345e69027427f8621d6a6c", null ],
-    [ "off64_t", "d6/de6/include_2types_8h.html#aa688ec058157f2483db747a121ae6035", null ],
-    [ "off_t", "d6/de6/include_2types_8h.html#af83497edef361523a95b06deda0b4c2d", null ],
     [ "ptrdiff_t", "d6/de6/include_2types_8h.html#a6d26a0475a6d6c897e655cdc5d8019d2", null ],
     [ "sig_atomic_t", "d6/de6/include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086", null ],
     [ "size_t", "d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e", null ],

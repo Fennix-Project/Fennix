@@ -14,7 +14,7 @@ var KernelThread_8cpp =
     [ "KST_Reboot", "dd/d06/KernelThread_8cpp.html#a2742d88d40ade37e9c2412a24bd06741", null ],
     [ "KST_Shutdown", "dd/d06/KernelThread_8cpp.html#aafaf4760845b96a8ac5e28d92b2f210c", null ],
     [ "NewLock", "dd/d06/KernelThread_8cpp.html#a89c9da25c9ca23970db1290e1245139b", null ],
-    [ "SpawnInit", "dd/d06/KernelThread_8cpp.html#ac4dca52e18f52b222b2ac1d0b611c7fc", null ],
+    [ "SpawnInit", "dd/d06/KernelThread_8cpp.html#a91f74a2af51bab88a0701a8da3f9e8f9", null ],
     [ "DevFS", "dd/d06/KernelThread_8cpp.html#a43052874d2e8f788508a68ec4cc5a043", null ],
     [ "DiskManager", "dd/d06/KernelThread_8cpp.html#a33f633a63c7075ece0b1c1dc31e49043", null ],
     [ "DriverManager", "dd/d06/KernelThread_8cpp.html#ace4da8d4e1075769d48168995aba88f7", null ],
@@ -24,6 +24,5 @@ var KernelThread_8cpp =
     [ "MntFS", "dd/d06/KernelThread_8cpp.html#abb03315691c3e421aae0098752d17f43", null ],
     [ "NIManager", "dd/d06/KernelThread_8cpp.html#a78221b78083c91d052ddd9370185fc1b", null ],
     [ "ProcFS", "dd/d06/KernelThread_8cpp.html#af138637d41d37d593930b97331137601", null ],
-    [ "RecoveryScreen", "dd/d06/KernelThread_8cpp.html#a6965da5f7fc08bbf04f3479849d59d11", null ],
     [ "VarLogFS", "dd/d06/KernelThread_8cpp.html#a1cc6a4ed4f4fb189430c25fe9f14a62c", null ]
 ];

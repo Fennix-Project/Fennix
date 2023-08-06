@@ -50,11 +50,5 @@ var mlibc_2sysdeps_2dripos_2include_2abi_bits_2fcntl_8h =
     [ "O_SYNC", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#aae85139bfa94236d126bb1e3b772998f", null ],
     [ "O_TMPFILE", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#a45d7d635756f7b0d8fb0b5e639dd6dcb", null ],
     [ "O_TRUNC", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#ad1d67e453fb3031f40f8cd3403773813", null ],
-    [ "O_WRONLY", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#a11b644a8526139c4cc1850dac1271ced", null ],
-    [ "POSIX_FADV_DONTNEED", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#a088883d3ba2ef3135e249427b897c650", null ],
-    [ "POSIX_FADV_NOREUSE", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#a4e3faf88d9b26f7cff31148b4f484149", null ],
-    [ "POSIX_FADV_NORMAL", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#afa2732611a1cf71fcf542361a97a4745", null ],
-    [ "POSIX_FADV_RANDOM", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#aae17e2b1aa1265c588e04df5ec81c3d1", null ],
-    [ "POSIX_FADV_SEQUENTIAL", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#a997e00c0569d307a3f01a2f21517ee84", null ],
-    [ "POSIX_FADV_WILLNEED", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#a4ba20512b0198da87b7d5176767ec29e", null ]
+    [ "O_WRONLY", "db/d5d/mlibc_2sysdeps_2dripos_2include_2abi-bits_2fcntl_8h.html#a11b644a8526139c4cc1850dac1271ced", null ]
 ];

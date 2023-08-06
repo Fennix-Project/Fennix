@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Userspace: Userspace/mlibc/options/ansi/generic/complex/carg.c File Reference</title>
+<title>Fennix Userspace: Userspace/musl/src/complex/carg.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -91,14 +91,13 @@ $(document).ready(function(){initNavTree('d1/dc6/carg_8c.html','../../'); initRe
 <div class="title">carg.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d3b/complex_8h_source.html">complex.h</a>&gt;</code><br />
-<code>#include &lt;math.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/d6e/complex__impl_8h_source.html">complex_impl.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d1/dc6/carg_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4a1e5d839db7a1dc6013b2846b2432d9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/carg_8c.html#a4a1e5d839db7a1dc6013b2846b2432d9">carg</a> (double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
+<tr class="memitem:a4a1e5d839db7a1dc6013b2846b2432d9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc6/carg_8c.html#a4a1e5d839db7a1dc6013b2846b2432d9">carg</a> (double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
 <tr class="separator:a4a1e5d839db7a1dc6013b2846b2432d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,25 +110,22 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">double carg </td>
           <td>(</td>
-          <td class="paramtype">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
+          <td class="paramtype">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
           <td class="paramname"><em>z</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/dc6/carg_8c_source.html#l00055">55</a> of file <a class="el" href="../../d1/dc6/carg_8c_source.html">carg.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a52b355c010908a63a7bfbc8f7f24fa6a">atan2</a>( <a class="code" href="../../d5/d82/cimag_8c.html#a6c3d7c875ae93700b0a2a32db24b37d3">cimag</a>(z) , <a class="code" href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a>(z) );</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
-<div class="ttc" id="acimag_8c_html_a6c3d7c875ae93700b0a2a32db24b37d3"><div class="ttname"><a href="../../d5/d82/cimag_8c.html#a6c3d7c875ae93700b0a2a32db24b37d3">cimag</a></div><div class="ttdeci">double cimag(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/cimag_8c_source.html#l00049">cimag.c:49</a></div></div>
-<div class="ttc" id="acreal_8c_html_a24b1a511efdb973354d81646c5c3bb81"><div class="ttname"><a href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a></div><div class="ttdeci">double creal(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dea/creal_8c_source.html#l00049">creal.c:49</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_a52b355c010908a63a7bfbc8f7f24fa6a"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a52b355c010908a63a7bfbc8f7f24fa6a">atan2</a></div><div class="ttdeci">double atan2(double x, double y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d16/atan2_8c_source.html#l00046">atan2.c:46</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d1/dc6/carg_8c_source.html#l00003">3</a> of file <a class="el" href="../../d1/dc6/carg_8c_source.html">carg.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/d10/tgmath_8h.html#a525d483aa59186e25ad8a1b5b8428536">atan2</a>(<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#aa713d2bb929faf220a94f27c19575ce9">cimag</a>(z), <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a7b802a4e6b10c95bbc77930071d47568">creal</a>(z));</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a7b802a4e6b10c95bbc77930071d47568"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a7b802a4e6b10c95bbc77930071d47568">creal</a></div><div class="ttdeci">#define creal(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00108">complex.h:108</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_aa713d2bb929faf220a94f27c19575ce9"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#aa713d2bb929faf220a94f27c19575ce9">cimag</a></div><div class="ttdeci">#define cimag(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00112">complex.h:112</a></div></div>
+<div class="ttc" id="atgmath_8h_html_a525d483aa59186e25ad8a1b5b8428536"><div class="ttname"><a href="../../d9/d10/tgmath_8h.html#a525d483aa59186e25ad8a1b5b8428536">atan2</a></div><div class="ttdeci">#define atan2(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d10/tgmath_8h_source.html#l00214">tgmath.h:214</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d16/atan2_8c_source.html#l00046">atan2()</a>, <a class="el" href="../../d5/d82/cimag_8c_source.html#l00049">cimag()</a>, and <a class="el" href="../../da/dea/creal_8c_source.html#l00049">creal()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d5/d7a/cpow_8c_source.html#l00081">cpow()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d10/tgmath_8h_source.html#l00214">atan2</a>, <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00112">cimag</a>, and <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00108">creal</a>.</p>
 
 </div>
 </div>
@@ -138,7 +134,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_9e2aac7ae95dd40287f9f0a14447c512.html">options</a></li><li class="navelem"><a class="el" href="../../dir_e178355fa75681e7481d0c1933f8ada2.html">ansi</a></li><li class="navelem"><a class="el" href="../../dir_05a9d8a20c64f169fc09acbdb0782630.html">generic</a></li><li class="navelem"><a class="el" href="../../dir_49dc252cc2d3469e406675e6dba1de05.html">complex</a></li><li class="navelem"><a class="el" href="../../d1/dc6/carg_8c.html">carg.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_d4c78ba7ac40508bdb05e781ab57ffb9.html">complex</a></li><li class="navelem"><a class="el" href="../../d1/dc6/carg_8c.html">carg.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -1,35 +1,32 @@
 var mlibc_2sysdeps_2ironclad_2include_2abi_bits_2signal_8h =
 [
-    [ "sigval", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#d5/d3e/unionsigval", [
-      [ "sival_int", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a560393252ee7edc37df44bf1c11bdbdd", null ],
-      [ "sival_ptr", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#af21491dd45c96eb58e2211c98a57b5cc", null ]
+    [ "sigval", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#d5/d3e/unionsigval", [
+      [ "sival_int", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a560393252ee7edc37df44bf1c11bdbdd", null ],
+      [ "sival_ptr", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#af21491dd45c96eb58e2211c98a57b5cc", null ]
     ] ],
-    [ "siginfo_t", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t", [
-      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ac6c6741a4d4cef6be0234b3b251cb5b3", null ],
-      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a95479cb84e60cb6f5ecc1b3d72396d5e", null ],
-      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a3cabba3566eb0e09af31b5af69e149c1", null ],
-      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a2ab78d78478fd42586478fcfbc7fb0d7", null ],
-      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a442c2e401a3d0f346ab29cc043fa9467", null ],
-      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a8aee48d7d084c376bd26726a7abf69ba", null ],
-      [ "__si_fields", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ab42dd9d50e7aeb8231a1e02e47af9cec", null ],
-      [ "si_addr", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aa42eedcfa01bdcb2bc6b8ac3bab0d9e9", null ],
-      [ "si_code", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a0dd36ae3e9df589f5755f88c93671c2d", null ],
-      [ "si_errno", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ae840a8f2824bab1693577f19f4d0432d", null ],
-      [ "si_pid", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a6053bfd6db1f12a9678cf53ebfeae45d", null ],
-      [ "si_signo", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a238821f6eb15317d3d7b10efef80b9c7", null ],
-      [ "si_status", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#accaf16ba75f1d4efd2e76f1991dc2b56", null ],
-      [ "si_uid", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a1574f7a20201b3f6bf64c5091fd14845", null ],
-      [ "si_value", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aea6512792c4af9f46ba221e454b6e0a7", null ],
-      [ "stub", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#aa91552fa3db0a0570cefe972d3ef31a0", null ]
+    [ "siginfo_t", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t", [
+      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a143aaaf286004b63c3a9c8074cc85930", null ],
+      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a0322956190f4071f3a668e38ed5702fb", null ],
+      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a74388bd3820e4abddd86965ab66693dd", null ],
+      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a7f6a35c53086a3221970c75d0cb2c256", null ],
+      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a4618ac796f0f4ff7b7a3bae468058d88", null ],
+      [ "si_addr", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#aa42eedcfa01bdcb2bc6b8ac3bab0d9e9", null ],
+      [ "si_code", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a0dd36ae3e9df589f5755f88c93671c2d", null ],
+      [ "si_errno", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#ae840a8f2824bab1693577f19f4d0432d", null ],
+      [ "si_pid", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a6053bfd6db1f12a9678cf53ebfeae45d", null ],
+      [ "si_signo", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a238821f6eb15317d3d7b10efef80b9c7", null ],
+      [ "si_status", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#accaf16ba75f1d4efd2e76f1991dc2b56", null ],
+      [ "si_uid", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a1574f7a20201b3f6bf64c5091fd14845", null ],
+      [ "si_value", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#aea6512792c4af9f46ba221e454b6e0a7", null ],
+      [ "stub", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#aa91552fa3db0a0570cefe972d3ef31a0", null ]
     ] ],
-    [ "__stack", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#df/d4a/struct____stack", [
-      [ "ss_flags", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#a2e24dcb198345b0ad0e93bd26631eeb9", null ],
-      [ "ss_size", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#abc5daf1f7793fca9fb462ab7b3355a92", null ],
-      [ "ss_sp", "d9/df5/mlibc_2sysdeps_2managarm_2include_2abi-bits_2signal_8h.html#ad699ce24e5dbc02bbb11f4ca6232ea40", null ]
+    [ "__stack", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#df/d4a/struct____stack", [
+      [ "ss_flags", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a2e24dcb198345b0ad0e93bd26631eeb9", null ],
+      [ "ss_size", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#abc5daf1f7793fca9fb462ab7b3355a92", null ],
+      [ "ss_sp", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#ad699ce24e5dbc02bbb11f4ca6232ea40", null ]
     ] ],
     [ "sigevent", "d7/df9/structsigevent.html", "d7/df9/structsigevent" ],
     [ "sigaction", "d7/def/structsigaction.html", "d7/def/structsigaction" ],
-    [ "_NSIG", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19", null ],
     [ "BUS_ADRALN", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#a6ea334f3e9a67fbe0cce4c9738cc842a", null ],
     [ "BUS_ADRERR", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#a2343c7bb80913e6f8d69ae3cd7bd6273", null ],
     [ "BUS_OBJERR", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#a1b507e6736ff85de98cc1b0151f61d44", null ],
@@ -116,7 +113,6 @@ var mlibc_2sysdeps_2ironclad_2include_2abi_bits_2signal_8h =
     [ "SIGXFSZ", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#a75440a7aa885a1052dfd3b4393fd9baa", null ],
     [ "SS_DISABLE", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#ac515f2efc91c54803f65de08d14d4566", null ],
     [ "SS_ONSTACK", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#a17bcfefa3c6fafd5d3277d867bd723fb", null ],
-    [ "__sighandler", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#aee602fbe29cd6605b66867706d7ce0e6", null ],
     [ "sigset_t", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#a853973d6d1b902f1835c821c0dd33c2a", null ],
     [ "stack_t", "de/dcb/mlibc_2sysdeps_2ironclad_2include_2abi-bits_2signal_8h.html#aa106b3cc0a3a0c8db41f09eed2cf4cbe", null ]
 ];

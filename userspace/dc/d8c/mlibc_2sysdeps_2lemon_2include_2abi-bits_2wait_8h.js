@@ -2,7 +2,6 @@ var mlibc_2sysdeps_2lemon_2include_2abi_bits_2wait_8h =
 [
     [ "__WALL", "dc/d8c/mlibc_2sysdeps_2lemon_2include_2abi-bits_2wait_8h.html#a7fd14a22366abb406582723ffe7b46cb", null ],
     [ "__WCLONE", "dc/d8c/mlibc_2sysdeps_2lemon_2include_2abi-bits_2wait_8h.html#a7b7f0251afca5fe5bdbcc570d4333b97", null ],
-    [ "W_EXITCODE", "dc/d8c/mlibc_2sysdeps_2lemon_2include_2abi-bits_2wait_8h.html#aa92bb2176175244bd1313e7dbb5313f0", null ],
     [ "WCONTINUED", "dc/d8c/mlibc_2sysdeps_2lemon_2include_2abi-bits_2wait_8h.html#afcc090a70f53d677b748f4b1a4b896e6", null ],
     [ "WCOREDUMP", "dc/d8c/mlibc_2sysdeps_2lemon_2include_2abi-bits_2wait_8h.html#a6db11dadebdde2109e82adc8e02befc9", null ],
     [ "WCOREFLAG", "dc/d8c/mlibc_2sysdeps_2lemon_2include_2abi-bits_2wait_8h.html#a11e4614fef97eb15d1b43ed056e09ddf", null ],

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/options/ansi/generic/complex/cexp.c File Reference</title>
+<title>Fennix: Userspace/musl/src/complex/cexp.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,20 +86,27 @@ $(document).ready(function(){initNavTree('d4/d16/cexp_8c.html','../../'); initRe
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">cexp.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d3b/complex_8h_source.html">complex.h</a>&gt;</code><br />
-<code>#include &lt;math.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/d6e/complex__impl_8h_source.html">complex_impl.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d4/d16/cexp_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab9c654c52efefb54d06d52aa1a1c1827"><td class="memItemLeft" align="right" valign="top">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/cexp_8c.html#ab9c654c52efefb54d06d52aa1a1c1827">cexp</a> (double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
+<tr class="memitem:ab9c654c52efefb54d06d52aa1a1c1827"><td class="memItemLeft" align="right" valign="top">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/cexp_8c.html#ab9c654c52efefb54d06d52aa1a1c1827">cexp</a> (double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
 <tr class="separator:ab9c654c52efefb54d06d52aa1a1c1827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ae682db936eb01259b5e0037f3e2a6ec6"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/cexp_8c.html#ae682db936eb01259b5e0037f3e2a6ec6">exp_ovfl</a> = 0x40862e42</td></tr>
+<tr class="separator:ae682db936eb01259b5e0037f3e2a6ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4355f38c4ff6dcf2f77092cf23737732"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d16/cexp_8c.html#a4355f38c4ff6dcf2f77092cf23737732">cexp_ovfl</a> = 0x4096b8e4</td></tr>
+<tr class="separator:a4355f38c4ff6dcf2f77092cf23737732"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="ab9c654c52efefb54d06d52aa1a1c1827"></a>
@@ -109,38 +116,135 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> cexp </td>
+          <td class="memname">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> cexp </td>
           <td>(</td>
-          <td class="paramtype">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
+          <td class="paramtype">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
           <td class="paramname"><em>z</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/d16/cexp_8c_source.html#l00072">72</a> of file <a class="el" href="../../d4/d16/cexp_8c_source.html">cexp.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;{</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> w;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> = <a class="code" href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a>(z);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> = <a class="code" href="../../d5/d82/cimag_8c.html#a6c3d7c875ae93700b0a2a32db24b37d3">cimag</a>(z);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#ae09128febbbe6372cde4fa0c65608a42">exp</a>(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    w = <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> * <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a5e7b53a694b3cf0f2d7debd444140fbd">cos</a>(<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>) + <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> * <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#aad4af25633b071b0e2cdb8ebd87eca77">sin</a>(<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>) * <a class="code" href="../../da/db0/md5_8h.html#ae64a2adea9b5c7925d02e4755a1642b9">I</a>;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">return</span> w;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_a5e7b53a694b3cf0f2d7debd444140fbd"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a5e7b53a694b3cf0f2d7debd444140fbd">cos</a></div><div class="ttdeci">double cos(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d09/cos_8c_source.html#l00045">cos.c:45</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_aad4af25633b071b0e2cdb8ebd87eca77"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#aad4af25633b071b0e2cdb8ebd87eca77">sin</a></div><div class="ttdeci">double sin(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ded/sin_8c_source.html#l00045">sin.c:45</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_ae09128febbbe6372cde4fa0c65608a42"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#ae09128febbbe6372cde4fa0c65608a42">exp</a></div><div class="ttdeci">double exp(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6f/exp_8c_source.html#l00081">exp.c:81</a></div></div>
-<div class="ttc" id="acimag_8c_html_a6c3d7c875ae93700b0a2a32db24b37d3"><div class="ttname"><a href="../../d5/d82/cimag_8c.html#a6c3d7c875ae93700b0a2a32db24b37d3">cimag</a></div><div class="ttdeci">double cimag(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/cimag_8c_source.html#l00049">cimag.c:49</a></div></div>
-<div class="ttc" id="acomplex_8h_html_a0fa4878c968311979d497ccc322e0b9b"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a></div><div class="ttdeci">#define complex</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00011">complex.h:11</a></div></div>
-<div class="ttc" id="acreal_8c_html_a24b1a511efdb973354d81646c5c3bb81"><div class="ttname"><a href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a></div><div class="ttdeci">double creal(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dea/creal_8c_source.html#l00049">creal.c:49</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d4/d16/cexp_8c_source.html#l00034">34</a> of file <a class="el" href="../../d4/d16/cexp_8c_source.html">cexp.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>, exp_x;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> hx, hy, lx, ly;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> = <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a7b802a4e6b10c95bbc77930071d47568">creal</a>(z);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> = <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#aa713d2bb929faf220a94f27c19575ce9">cimag</a>(z);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a93b9af3c2f68cd381faaa18f031566dc">EXTRACT_WORDS</a>(hy, ly, <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    hy &amp;= 0x7fffffff;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">/* cexp(x + I 0) = exp(x) + I 0 */</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span> ((hy | ly) == 0)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a>(<a class="code" href="../../d9/d10/tgmath_8h.html#afd8bf2ee8004f952446a6df0cbec3dc4">exp</a>(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>), <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a93b9af3c2f68cd381faaa18f031566dc">EXTRACT_WORDS</a>(hx, lx, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">/* cexp(0 + I y) = cos(y) + I sin(y) */</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">if</span> (((hx &amp; 0x7fffffff) | lx) == 0)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a>(<a class="code" href="../../d9/d10/tgmath_8h.html#a6164614557902f0c3801d44b5b47e7a6">cos</a>(<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>), <a class="code" href="../../d9/d10/tgmath_8h.html#a0cb8046c9ac52516329d57a440a7e60a">sin</a>(<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>));</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> (hy &gt;= 0x7ff00000) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">if</span> (lx != 0 || (hx &amp; 0x7fffffff) != 0x7ff00000) {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="comment">/* cexp(finite|NaN +- I Inf|NaN) = NaN + I NaN */</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a>(<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> - <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>, <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> - <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (hx &amp; 0x80000000) {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="comment">/* cexp(-Inf +- I Inf|NaN) = 0 + I 0 */</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a>(0.0, 0.0);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="comment">/* cexp(+Inf +- I Inf|NaN) = Inf + I NaN */</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a>(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> - <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">if</span> (hx &gt;= <a class="code" href="../../d4/d16/cexp_8c.html#ae682db936eb01259b5e0037f3e2a6ec6">exp_ovfl</a> &amp;&amp; hx &lt;= <a class="code" href="../../d4/d16/cexp_8c.html#a4355f38c4ff6dcf2f77092cf23737732">cexp_ovfl</a>) {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">         * x is between 709.7 and 1454.3, so we must scale to avoid</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">         * overflow in exp(x).</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../da/d5e/____cexp_8c.html#a73cbd68396f63d42e3ff51bcf682577e">__ldexp_cexp</a>(z, 0);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">         * Cases covered here:</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">         *  -  x &lt; exp_ovfl and exp(x) won&#39;t overflow (common case)</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">         *  -  x &gt; cexp_ovfl, so exp(x) * s overflows for all s &gt; 0</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">         *  -  x = +-Inf (generated by exp())</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">         *  -  x = NaN (spurious inexact exception from y)</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        exp_x = <a class="code" href="../../d9/d10/tgmath_8h.html#afd8bf2ee8004f952446a6df0cbec3dc4">exp</a>(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a>(exp_x * <a class="code" href="../../d9/d10/tgmath_8h.html#a6164614557902f0c3801d44b5b47e7a6">cos</a>(<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>), exp_x * <a class="code" href="../../d9/d10/tgmath_8h.html#a0cb8046c9ac52516329d57a440a7e60a">sin</a>(<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>));</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
+<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
+<div class="ttc" id="a____cexp_8c_html_a73cbd68396f63d42e3ff51bcf682577e"><div class="ttname"><a href="../../da/d5e/____cexp_8c.html#a73cbd68396f63d42e3ff51bcf682577e">__ldexp_cexp</a></div><div class="ttdeci">double complex __ldexp_cexp(double complex z, int expt)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/____cexp_8c_source.html#l00067">__cexp.c:67</a></div></div>
+<div class="ttc" id="acexp_8c_html_a4355f38c4ff6dcf2f77092cf23737732"><div class="ttname"><a href="../../d4/d16/cexp_8c.html#a4355f38c4ff6dcf2f77092cf23737732">cexp_ovfl</a></div><div class="ttdeci">static const uint32_t cexp_ovfl</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d16/cexp_8c_source.html#l00032">cexp.c:32</a></div></div>
+<div class="ttc" id="acexp_8c_html_ae682db936eb01259b5e0037f3e2a6ec6"><div class="ttname"><a href="../../d4/d16/cexp_8c.html#ae682db936eb01259b5e0037f3e2a6ec6">exp_ovfl</a></div><div class="ttdeci">static const uint32_t exp_ovfl</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d16/cexp_8c_source.html#l00031">cexp.c:31</a></div></div>
 <div class="ttc" id="af__wipe_8c_html_a60ca3f7e128ed4283d00a73c65558617"><div class="ttname"><a href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a></div><div class="ttdeci">static int * y</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/f__wipe_8c_source.html#l00130">f_wipe.c:130</a></div></div>
-<div class="ttc" id="amd5_8h_html_ae64a2adea9b5c7925d02e4755a1642b9"><div class="ttname"><a href="../../da/db0/md5_8h.html#ae64a2adea9b5c7925d02e4755a1642b9">I</a></div><div class="ttdeci">uint32_t I(uint32_t X, uint32_t Y, uint32_t Z)</div></div>
-<div class="ttc" id="aposix__stdlib_8cpp_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00038">posix_stdlib.cpp:38</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00278">string-stubs.cpp:278</a></div></div>
+<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2libm_8h_html_a88de97e9525c314cef95543c6e0ce633"><div class="ttname"><a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a></div><div class="ttdeci">#define CMPLX(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00154">libm.h:154</a></div></div>
+<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2libm_8h_html_a93b9af3c2f68cd381faaa18f031566dc"><div class="ttname"><a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a93b9af3c2f68cd381faaa18f031566dc">EXTRACT_WORDS</a></div><div class="ttdeci">#define EXTRACT_WORDS(hi, lo, d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00078">libm.h:78</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a7b802a4e6b10c95bbc77930071d47568"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a7b802a4e6b10c95bbc77930071d47568">creal</a></div><div class="ttdeci">#define creal(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00108">complex.h:108</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_aa713d2bb929faf220a94f27c19575ce9"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#aa713d2bb929faf220a94f27c19575ce9">cimag</a></div><div class="ttdeci">#define cimag(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00112">complex.h:112</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00039">posix_stdlib.cpp:39</a></div></div>
+<div class="ttc" id="atgmath_8h_html_a0cb8046c9ac52516329d57a440a7e60a"><div class="ttname"><a href="../../d9/d10/tgmath_8h.html#a0cb8046c9ac52516329d57a440a7e60a">sin</a></div><div class="ttdeci">#define sin(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d10/tgmath_8h_source.html#l00262">tgmath.h:262</a></div></div>
+<div class="ttc" id="atgmath_8h_html_a6164614557902f0c3801d44b5b47e7a6"><div class="ttname"><a href="../../d9/d10/tgmath_8h.html#a6164614557902f0c3801d44b5b47e7a6">cos</a></div><div class="ttdeci">#define cos(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d10/tgmath_8h_source.html#l00222">tgmath.h:222</a></div></div>
+<div class="ttc" id="atgmath_8h_html_afd8bf2ee8004f952446a6df0cbec3dc4"><div class="ttname"><a href="../../d9/d10/tgmath_8h.html#afd8bf2ee8004f952446a6df0cbec3dc4">exp</a></div><div class="ttdeci">#define exp(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d10/tgmath_8h_source.html#l00228">tgmath.h:228</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d82/cimag_8c_source.html#l00049">cimag()</a>, <a class="el" href="../../d7/d3b/complex_8h_source.html#l00011">complex</a>, <a class="el" href="../../d1/d09/cos_8c_source.html#l00045">cos()</a>, <a class="el" href="../../da/dea/creal_8c_source.html#l00049">creal()</a>, <a class="el" href="../../d5/d6f/exp_8c_source.html#l00081">exp()</a>, <a class="el" href="../../da/db0/md5_8h.html#ae64a2adea9b5c7925d02e4755a1642b9">I()</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00278">r</a>, <a class="el" href="../../d3/ded/sin_8c_source.html#l00045">sin()</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00038">x</a>, and <a class="el" href="../../da/db0/f__wipe_8c_source.html#l00130">y</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d5e/____cexp_8c_source.html#l00067">__ldexp_cexp()</a>, <a class="el" href="../../d4/d16/cexp_8c_source.html#l00032">cexp_ovfl</a>, <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00112">cimag</a>, <a class="el" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00154">CMPLX</a>, <a class="el" href="../../d9/d10/tgmath_8h_source.html#l00222">cos</a>, <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00108">creal</a>, <a class="el" href="../../d9/d10/tgmath_8h_source.html#l00228">exp</a>, <a class="el" href="../../d4/d16/cexp_8c_source.html#l00031">exp_ovfl</a>, <a class="el" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00078">EXTRACT_WORDS</a>, <a class="el" href="../../d9/d10/tgmath_8h_source.html#l00262">sin</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00039">x</a>, and <a class="el" href="../../da/db0/f__wipe_8c_source.html#l00130">y</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d21/cexpl_8c_source.html#l00004">cexpl()</a>, and <a class="el" href="../../d5/d7a/cpow_8c_source.html#l00005">cpow()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a4355f38c4ff6dcf2f77092cf23737732"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4355f38c4ff6dcf2f77092cf23737732">&#9670;&nbsp;</a></span>cexp_ovfl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> cexp_ovfl = 0x4096b8e4</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d16/cexp_8c_source.html#l00032">32</a> of file <a class="el" href="../../d4/d16/cexp_8c_source.html">cexp.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d16/cexp_8c_source.html#l00034">cexp()</a>.</p>
+
+</div>
+</div>
+<a id="ae682db936eb01259b5e0037f3e2a6ec6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae682db936eb01259b5e0037f3e2a6ec6">&#9670;&nbsp;</a></span>exp_ovfl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> exp_ovfl = 0x40862e42</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/d16/cexp_8c_source.html#l00031">31</a> of file <a class="el" href="../../d4/d16/cexp_8c_source.html">cexp.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d16/cexp_8c_source.html#l00034">cexp()</a>.</p>
 
 </div>
 </div>
@@ -149,7 +253,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_9e2aac7ae95dd40287f9f0a14447c512.html">options</a></li><li class="navelem"><a class="el" href="../../dir_e178355fa75681e7481d0c1933f8ada2.html">ansi</a></li><li class="navelem"><a class="el" href="../../dir_05a9d8a20c64f169fc09acbdb0782630.html">generic</a></li><li class="navelem"><a class="el" href="../../dir_49dc252cc2d3469e406675e6dba1de05.html">complex</a></li><li class="navelem"><a class="el" href="../../d4/d16/cexp_8c.html">cexp.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_d4c78ba7ac40508bdb05e781ab57ffb9.html">complex</a></li><li class="navelem"><a class="el" href="../../d4/d16/cexp_8c.html">cexp.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

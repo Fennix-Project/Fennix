@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/include_std/string.hpp File Reference</title>
+<title>Fennix Kernel: Kernel/include_std/std/string.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -85,19 +85,108 @@ $(document).ready(function(){initNavTree('d4/da0/string_8hpp.html','../../'); in
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">string.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d63/std_2string_8hpp_source.html">std/string.hpp</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;types.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d3/d82/convert_8h_source.html">convert.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d4/da0/string_8hpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Data Structures</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d29/classstd_1_1string.html">std::string</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">String class String class that can be used to store strings.  <a href="../../d8/d29/classstd_1_1string.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d5b/classstd_1_1string_1_1iterator.html">std::string::iterator</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:d8/dcc/namespacestd"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html">std</a></td></tr>
+<tr class="memdesc:d8/dcc/namespacestd"><td class="mdescLeft">&#160;</td><td class="mdescRight">// stub namespace for <a class="el" href="../../d8/dcc/namespacestd.html#a7642f080918114d2cbf08148cf66a229">std::align_val_t</a> and new operator <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a7cdd41144bf94efee18c9d0bccd1db54"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da0/string_8hpp.html#a7cdd41144bf94efee18c9d0bccd1db54">strdbg</a>(m, ...)</td></tr>
+<tr class="separator:a7cdd41144bf94efee18c9d0bccd1db54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a220dcbc0f470bad42cb587829d27bf8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/da0/string_8hpp.html#a220dcbc0f470bad42cb587829d27bf8e">v_strdbg</a>(m, ...)</td></tr>
+<tr class="separator:a220dcbc0f470bad42cb587829d27bf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a7cdd41144bf94efee18c9d0bccd1db54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cdd41144bf94efee18c9d0bccd1db54">&#9670;&nbsp;</a></span>strdbg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define strdbg</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">m, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/da0/string_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d4/da0/string_8hpp_source.html">string.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a220dcbc0f470bad42cb587829d27bf8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a220dcbc0f470bad42cb587829d27bf8e">&#9670;&nbsp;</a></span>v_strdbg</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define v_strdbg</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">m, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/da0/string_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d4/da0/string_8hpp_source.html">string.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_f6afea1f11e371a5eb8eaf7be6cd53d5.html">include_std</a></li><li class="navelem"><a class="el" href="../../d4/da0/string_8hpp.html">string.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_f6afea1f11e371a5eb8eaf7be6cd53d5.html">include_std</a></li><li class="navelem"><a class="el" href="../../dir_3d4c87dff3e486de6cd8c82081cbdd9a.html">std</a></li><li class="navelem"><a class="el" href="../../d4/da0/string_8hpp.html">string.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

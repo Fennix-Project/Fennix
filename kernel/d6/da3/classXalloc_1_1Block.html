@@ -112,8 +112,8 @@ Public Member Functions</h2></td></tr>
 Data Fields</h2></td></tr>
 <tr class="memitem:a3cd3b00e39e3cbb732d23aa9ae34bbe0"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da3/classXalloc_1_1Block.html#a3cd3b00e39e3cbb732d23aa9ae34bbe0">Address</a> = nullptr</td></tr>
 <tr class="separator:a3cd3b00e39e3cbb732d23aa9ae34bbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ee5bda2a7ace3c6ff006daacfa49af4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da3/classXalloc_1_1Block.html#a0ee5bda2a7ace3c6ff006daacfa49af4">Checksum</a> = <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a46fe529591da60f8983baab8cf11f49a">Xalloc_BlockChecksum</a></td></tr>
-<tr class="separator:a0ee5bda2a7ace3c6ff006daacfa49af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc1a64b4f2da794852c0fd976b7be9d5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da3/classXalloc_1_1Block.html#afc1a64b4f2da794852c0fd976b7be9d5">Sanity</a> = <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a0b12aaa63ddd5e216a5823132baa1c03">Xalloc_BlockSanityKey</a></td></tr>
+<tr class="separator:afc1a64b4f2da794852c0fd976b7be9d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac908531c26e27b8ef5c108cb77e37709"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da3/classXalloc_1_1Block.html#ac908531c26e27b8ef5c108cb77e37709">Size</a> = 0</td></tr>
 <tr class="separator:ac908531c26e27b8ef5c108cb77e37709"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0423018cd397540c7f4deecf5a18fd29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/da3/classXalloc_1_1Block.html">Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da3/classXalloc_1_1Block.html#a0423018cd397540c7f4deecf5a18fd29">Next</a> = nullptr</td></tr>
@@ -226,14 +226,14 @@ Data Fields</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00064">64</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#a0ee5bda2a7ace3c6ff006daacfa49af4">Checksum</a> != <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a46fe529591da60f8983baab8cf11f49a">Xalloc_BlockChecksum</a>)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordflow">if</span> (this-&gt;<a class="code" href="../../d6/da3/classXalloc_1_1Block.html#afc1a64b4f2da794852c0fd976b7be9d5">Sanity</a> != <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a0b12aaa63ddd5e216a5823132baa1c03">Xalloc_BlockSanityKey</a>)</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
-<div class="ttc" id="aXallocV1_8cpp_html_a46fe529591da60f8983baab8cf11f49a"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a46fe529591da60f8983baab8cf11f49a">Xalloc_BlockChecksum</a></div><div class="ttdeci">#define Xalloc_BlockChecksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00025">XallocV1.cpp:25</a></div></div>
-<div class="ttc" id="aclassXalloc_1_1Block_html_a0ee5bda2a7ace3c6ff006daacfa49af4"><div class="ttname"><a href="../../d6/da3/classXalloc_1_1Block.html#a0ee5bda2a7ace3c6ff006daacfa49af4">Xalloc::Block::Checksum</a></div><div class="ttdeci">int Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00058">XallocV1.cpp:58</a></div></div>
+<div class="ttc" id="aXallocV1_8cpp_html_a0b12aaa63ddd5e216a5823132baa1c03"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a0b12aaa63ddd5e216a5823132baa1c03">Xalloc_BlockSanityKey</a></div><div class="ttdeci">#define Xalloc_BlockSanityKey</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00025">XallocV1.cpp:25</a></div></div>
+<div class="ttc" id="aclassXalloc_1_1Block_html_afc1a64b4f2da794852c0fd976b7be9d5"><div class="ttname"><a href="../../d6/da3/classXalloc_1_1Block.html#afc1a64b4f2da794852c0fd976b7be9d5">Xalloc::Block::Sanity</a></div><div class="ttdeci">int Sanity</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00058">XallocV1.cpp:58</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00025">Xalloc_BlockChecksum</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00025">Xalloc_BlockSanityKey</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00197">Xalloc::V1::free()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00147">Xalloc::V1::malloc()</a>.</p>
 
@@ -345,24 +345,6 @@ Data Fields</h2></td></tr>
 
 </div>
 </div>
-<a id="a0ee5bda2a7ace3c6ff006daacfa49af4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ee5bda2a7ace3c6ff006daacfa49af4">&#9670;&nbsp;</a></span>Checksum</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Xalloc::Block::Checksum = <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a46fe529591da60f8983baab8cf11f49a">Xalloc_BlockChecksum</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00058">58</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00197">Xalloc::V1::free()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00147">Xalloc::V1::malloc()</a>.</p>
-
-</div>
-</div>
 <a id="a126feb2fb1c3e00375d634f5cab5547e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a126feb2fb1c3e00375d634f5cab5547e">&#9670;&nbsp;</a></span>IsFree</h2>
 
@@ -410,6 +392,24 @@ Data Fields</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00060">60</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00197">Xalloc::V1::free()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00147">Xalloc::V1::malloc()</a>.</p>
+
+</div>
+</div>
+<a id="afc1a64b4f2da794852c0fd976b7be9d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc1a64b4f2da794852c0fd976b7be9d5">&#9670;&nbsp;</a></span>Sanity</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Xalloc::Block::Sanity = <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a0b12aaa63ddd5e216a5823132baa1c03">Xalloc_BlockSanityKey</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00058">58</a> of file <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html">XallocV1.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00197">Xalloc::V1::free()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00147">Xalloc::V1::malloc()</a>.</p>
 

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/options/ansi/generic/complex/conj.c File Reference</title>
+<title>Fennix: Userspace/musl/src/complex/conj.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -91,14 +91,13 @@ $(document).ready(function(){initNavTree('d6/de6/conj_8c.html','../../'); initRe
 <div class="title">conj.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d3b/complex_8h_source.html">complex.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../de/d84/fdlibm_8h_source.html">fdlibm.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/d6e/complex__impl_8h_source.html">complex_impl.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d6/de6/conj_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6fb30f37aa43eb2e0199ffdc38cac18a"><td class="memItemLeft" align="right" valign="top">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/conj_8c.html#a6fb30f37aa43eb2e0199ffdc38cac18a">conj</a> (double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
+<tr class="memitem:a6fb30f37aa43eb2e0199ffdc38cac18a"><td class="memItemLeft" align="right" valign="top">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de6/conj_8c.html#a6fb30f37aa43eb2e0199ffdc38cac18a">conj</a> (double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
 <tr class="separator:a6fb30f37aa43eb2e0199ffdc38cac18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,28 +108,24 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> conj </td>
+          <td class="memname">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> conj </td>
           <td>(</td>
-          <td class="paramtype">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
+          <td class="paramtype">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
           <td class="paramname"><em>z</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/de6/conj_8c_source.html#l00049">49</a> of file <a class="el" href="../../d6/de6/conj_8c_source.html">conj.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../de/d84/fdlibm_8h.html#d5/d84/uniondouble__complex">double_complex</a> w = { .<a class="code" href="../../de/d84/fdlibm_8h.html#a335105049bc3384999761c9e54b6e88c">z</a> = z };</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../de/d84/fdlibm_8h.html#af2ec11abad1ad66e6fab43ca0ec74740">IMAG_PART</a>(w) = -<a class="code" href="../../de/d84/fdlibm_8h.html#af2ec11abad1ad66e6fab43ca0ec74740">IMAG_PART</a>(w);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> (w.<a class="code" href="../../de/d84/fdlibm_8h.html#a335105049bc3384999761c9e54b6e88c">z</a>);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
-<div class="ttc" id="afdlibm_8h_html_a335105049bc3384999761c9e54b6e88c"><div class="ttname"><a href="../../de/d84/fdlibm_8h.html#a335105049bc3384999761c9e54b6e88c">double_complex::z</a></div><div class="ttdeci">double complex z</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d84/fdlibm_8h_source.html#l00013">fdlibm.h:13</a></div></div>
-<div class="ttc" id="afdlibm_8h_html_af2ec11abad1ad66e6fab43ca0ec74740"><div class="ttname"><a href="../../de/d84/fdlibm_8h.html#af2ec11abad1ad66e6fab43ca0ec74740">IMAG_PART</a></div><div class="ttdeci">#define IMAG_PART(z)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d84/fdlibm_8h_source.html#l00005">fdlibm.h:5</a></div></div>
-<div class="ttc" id="afdlibm_8h_html_d5/d84/uniondouble__complex"><div class="ttname"><a href="../../de/d84/fdlibm_8h.html#d5/d84/uniondouble__complex">double_complex</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d84/fdlibm_8h_source.html#l00012">fdlibm.h:12</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d6/de6/conj_8c_source.html#l00003">3</a> of file <a class="el" href="../../d6/de6/conj_8c_source.html">conj.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a>(<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a7b802a4e6b10c95bbc77930071d47568">creal</a>(z), -<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#aa713d2bb929faf220a94f27c19575ce9">cimag</a>(z));</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
+<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2libm_8h_html_a88de97e9525c314cef95543c6e0ce633"><div class="ttname"><a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a></div><div class="ttdeci">#define CMPLX(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00154">libm.h:154</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a7b802a4e6b10c95bbc77930071d47568"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a7b802a4e6b10c95bbc77930071d47568">creal</a></div><div class="ttdeci">#define creal(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00108">complex.h:108</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_aa713d2bb929faf220a94f27c19575ce9"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#aa713d2bb929faf220a94f27c19575ce9">cimag</a></div><div class="ttdeci">#define cimag(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00112">complex.h:112</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d84/fdlibm_8h_source.html#l00005">IMAG_PART</a>, and <a class="el" href="../../de/d84/fdlibm_8h_source.html#l00013">double_complex::z</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00112">cimag</a>, <a class="el" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00154">CMPLX</a>, and <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00108">creal</a>.</p>
 
 </div>
 </div>
@@ -139,7 +134,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_9e2aac7ae95dd40287f9f0a14447c512.html">options</a></li><li class="navelem"><a class="el" href="../../dir_e178355fa75681e7481d0c1933f8ada2.html">ansi</a></li><li class="navelem"><a class="el" href="../../dir_05a9d8a20c64f169fc09acbdb0782630.html">generic</a></li><li class="navelem"><a class="el" href="../../dir_49dc252cc2d3469e406675e6dba1de05.html">complex</a></li><li class="navelem"><a class="el" href="../../d6/de6/conj_8c.html">conj.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_d4c78ba7ac40508bdb05e781ab57ffb9.html">complex</a></li><li class="navelem"><a class="el" href="../../d6/de6/conj_8c.html">conj.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

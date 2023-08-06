@@ -185,7 +185,7 @@ API</h1>
 Xalloc::V1</h2>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> *<a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="ttc" id="aXallocV1_8cpp_html_a9a6916f13c01e1cbb39bf087545542c7"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">XallocV1.cpp:4</a></div></div>
-<div class="ttc" id="agroup__ALLOCHOOKS_html_ga5223b5fb1255b5179f53b0595fe9251c"><div class="ttname"><a href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a></div><div class="ttdeci">void * malloc(size_t Size)</div><div class="ttdoc">The standard function.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00416">Memory.cpp:416</a></div></div>
+<div class="ttc" id="agroup__ALLOCHOOKS_html_ga5223b5fb1255b5179f53b0595fe9251c"><div class="ttname"><a href="../../d8/dc8/group__ALLOCHOOKS.html#ga5223b5fb1255b5179f53b0595fe9251c">malloc</a></div><div class="ttdeci">void * malloc(size_t Size)</div><div class="ttdoc">The standard function.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00413">Memory.cpp:413</a></div></div>
 </div><!-- fragment --><p> Allocates a block of memory of size <code>Size</code> bytes. If <code>Size</code> is 0, then <code>nullptr</code> is returned.</p><ul>
 <li><code>Size</code> - The size of the block to allocate in bytes.</li>
 </ul>
@@ -193,7 +193,7 @@ Xalloc::V1</h2>
 <br  />
 </p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> <a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4">free</a>(<span class="keywordtype">void</span> *<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>);</div>
-<div class="ttc" id="agroup__ALLOCHOOKS_html_ga4835fe140973dbc5e1aafd9c33acf6d4"><div class="ttname"><a href="../../d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4">free</a></div><div class="ttdeci">void free(void *Address)</div><div class="ttdoc">The standard function.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00584">Memory.cpp:584</a></div></div>
+<div class="ttc" id="agroup__ALLOCHOOKS_html_ga4835fe140973dbc5e1aafd9c33acf6d4"><div class="ttname"><a href="../../d8/dc8/group__ALLOCHOOKS.html#ga4835fe140973dbc5e1aafd9c33acf6d4">free</a></div><div class="ttdeci">void free(void *Address)</div><div class="ttdoc">The standard function.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00587">Memory.cpp:587</a></div></div>
 </div><!-- fragment --><p> Frees the memory block pointed to by <code>Address</code>. If <code>Address</code> is <code>nullptr</code>, then no operation is performed.</p><ul>
 <li><code>Address</code> - The address of the memory block to free.</li>
 </ul>
@@ -201,7 +201,7 @@ Xalloc::V1</h2>
 <br  />
 </p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> *<a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga9db1af54761723ecddbd1e253c01a2ad">calloc</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> NumberOfBlocks, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
-<div class="ttc" id="agroup__ALLOCHOOKS_html_ga9db1af54761723ecddbd1e253c01a2ad"><div class="ttname"><a href="../../d8/dc8/group__ALLOCHOOKS.html#ga9db1af54761723ecddbd1e253c01a2ad">calloc</a></div><div class="ttdeci">void * calloc(size_t n, size_t Size)</div><div class="ttdoc">The standard function.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00472">Memory.cpp:472</a></div></div>
+<div class="ttc" id="agroup__ALLOCHOOKS_html_ga9db1af54761723ecddbd1e253c01a2ad"><div class="ttname"><a href="../../d8/dc8/group__ALLOCHOOKS.html#ga9db1af54761723ecddbd1e253c01a2ad">calloc</a></div><div class="ttdeci">void * calloc(size_t n, size_t Size)</div><div class="ttdoc">The standard function.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00471">Memory.cpp:471</a></div></div>
 </div><!-- fragment --><p> Allocates a block of memory for an array of <code>NumberOfBlocks</code> elements, each of them <code>Size</code> bytes long. If <code>NumberOfBlocks</code> or <code>Size</code> is 0, then <code>nullptr</code> is returned.</p><ul>
 <li><code>NumberOfBlocks</code> - The number of elements to allocate.</li>
 <li><code>Size</code> - The size of each element in bytes.</li>
@@ -210,7 +210,7 @@ Xalloc::V1</h2>
 <br  />
 </p>
 <div class="fragment"><div class="line"><span class="keywordtype">void</span> *<a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#gadc710223dc26577d1e49cac212d7d083">realloc</a>(<span class="keywordtype">void</span> *<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
-<div class="ttc" id="agroup__ALLOCHOOKS_html_gadc710223dc26577d1e49cac212d7d083"><div class="ttname"><a href="../../d8/dc8/group__ALLOCHOOKS.html#gadc710223dc26577d1e49cac212d7d083">realloc</a></div><div class="ttdeci">void * realloc(void *Address, size_t Size)</div><div class="ttdoc">The standard function.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00528">Memory.cpp:528</a></div></div>
+<div class="ttc" id="agroup__ALLOCHOOKS_html_gadc710223dc26577d1e49cac212d7d083"><div class="ttname"><a href="../../d8/dc8/group__ALLOCHOOKS.html#gadc710223dc26577d1e49cac212d7d083">realloc</a></div><div class="ttdeci">void * realloc(void *Address, size_t Size)</div><div class="ttdoc">The standard function.</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00529">Memory.cpp:529</a></div></div>
 </div><!-- fragment --><p> Changes the size of the memory block pointed to by <code>Address</code> to <code>Size</code> bytes. If <code>Address</code> is <code>nullptr</code>, then the call is equivalent to <code>malloc(Size)</code>. If <code>Size</code> is equal to zero, and <code>Address</code> is not <code>nullptr</code>, then the call is equivalent to <code>free(Address)</code>.</p><ul>
 <li><code>Address</code> - The address of the memory block to resize.</li>
 <li><code>Size</code> - The new size of the memory block in bytes.</li>

@@ -23,7 +23,6 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "emmintrin.h", "d9/dae/emmintrin_8h.html", null ],
     [ "exec.hpp", "d2/d83/exec_8hpp.html", "d2/d83/exec_8hpp" ],
     [ "filesystem.hpp", "d1/d85/filesystem_8hpp.html", "d1/d85/filesystem_8hpp" ],
-    [ "gui.hpp", "dc/d7c/gui_8hpp.html", "dc/d7c/gui_8hpp" ],
     [ "hashmap.hpp", "d2/d89/hashmap_8hpp.html", "d2/d89/hashmap_8hpp" ],
     [ "intrin.hpp", "df/db4/intrin_8hpp.html", "df/db4/intrin_8hpp" ],
     [ "ints.hpp", "d0/d36/ints_8hpp.html", "d0/d36/ints_8hpp" ],
@@ -41,9 +40,6 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     ] ],
     [ "printf.h", "d3/d6b/printf_8h.html", "d3/d6b/printf_8h" ],
     [ "rand.hpp", "d4/d0b/rand_8hpp.html", "d4/d0b/rand_8hpp" ],
-    [ "recovery.hpp", "dd/de7/recovery_8hpp.html", [
-      [ "KernelRecovery", "d0/db2/classRecovery_1_1KernelRecovery.html", "d0/db2/classRecovery_1_1KernelRecovery" ]
-    ] ],
     [ "smart_ptr.hpp", "d4/d8f/include_2smart__ptr_8hpp.html", null ],
     [ "smp.hpp", "d4/d33/smp_8hpp.html", "d4/d33/smp_8hpp" ],
     [ "symbols.hpp", "d7/d94/symbols_8hpp.html", [
@@ -58,5 +54,6 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "task.hpp", "d8/da1/task_8hpp.html", "d8/da1/task_8hpp" ],
     [ "time.hpp", "de/d99/time_8hpp.html", "de/d99/time_8hpp" ],
     [ "types.h", "d6/de6/include_2types_8h.html", "d6/de6/include_2types_8h" ],
-    [ "uart.hpp", "de/d3f/uart_8hpp.html", "de/d3f/uart_8hpp" ]
+    [ "uart.hpp", "de/d3f/uart_8hpp.html", "de/d3f/uart_8hpp" ],
+    [ "vm.hpp", "d6/df9/vm_8hpp.html", "d6/df9/vm_8hpp" ]
 ];

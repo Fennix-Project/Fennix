@@ -25,6 +25,7 @@ var VMware_2Mouse_8cpp =
     [ "WaitRead", "d6/d6b/VMware_2Mouse_8cpp.html#aeb91f7c98b6a1a3c9d0343adbe75ece0", null ],
     [ "WaitWrite", "d6/d6b/VMware_2Mouse_8cpp.html#a14601386f0d5a0020954e8f3498c549f", null ],
     [ "Write", "d6/d6b/VMware_2Mouse_8cpp.html#a5f474f43aacdcdc65b137a160a3ace45", null ],
+    [ "InputReceived", "d6/d6b/VMware_2Mouse_8cpp.html#a0fa4b3f442b268f7376e3f9e476813a2", null ],
     [ "KAPI", "d6/d6b/VMware_2Mouse_8cpp.html#a20b661ddba7df2d5c22a6caf7a2c4328", null ],
     [ "MouseButton", "d6/d6b/VMware_2Mouse_8cpp.html#ade6b34e0089331cd53f03a52346a4656", null ],
     [ "MouseX", "d6/d6b/VMware_2Mouse_8cpp.html#a98cd88003bf1a8594937f1187bc1da0c", null ],

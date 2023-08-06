@@ -158,11 +158,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> *func = <a class="code" href="../../da/d9b/InitArray_8c.html#a8375604a8a2110c022e6bc71d7547e45">__fini_array_start</a>; func != <a class="code" href="../../da/d9b/InitArray_8c.html#afb8807db945a15eded852be650c390bf">__fini_array_end</a>; func++)</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        (*func)();</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
-<div class="ttc" id="aInitArray_8c_html_a8375604a8a2110c022e6bc71d7547e45"><div class="ttname"><a href="../../da/d9b/InitArray_8c.html#a8375604a8a2110c022e6bc71d7547e45">__fini_array_start</a></div><div class="ttdeci">fct __fini_array_start[0]</div></div>
+<div class="ttc" id="aInitArray_8c_html_a8375604a8a2110c022e6bc71d7547e45"><div class="ttname"><a href="../../da/d9b/InitArray_8c.html#a8375604a8a2110c022e6bc71d7547e45">__fini_array_start</a></div><div class="ttdeci">fct __fini_array_start[0]</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00162">dynlink.c:162</a></div></div>
 <div class="ttc" id="aInitArray_8c_html_ab2f77750ed4ac7d7d9d0bd0770660e29"><div class="ttname"><a href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a></div><div class="ttdeci">void(* fct)(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00008">InitArray.c:8</a></div></div>
 <div class="ttc" id="aInitArray_8c_html_afb8807db945a15eded852be650c390bf"><div class="ttname"><a href="../../da/d9b/InitArray_8c.html#afb8807db945a15eded852be650c390bf">__fini_array_end</a></div><div class="ttdeci">fct __fini_array_end[0]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d9b/InitArray_8c_source.html#l00010">InitArray.c:10</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00010">__fini_array_end</a>, and <a class="el" href="../../da/d9b/InitArray_8c.html#a8375604a8a2110c022e6bc71d7547e45">__fini_array_start</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00010">__fini_array_end</a>, and <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00162">__fini_array_start</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d5b/Runtime_8c_source.html#l00016">_exit()</a>.</p>
 
@@ -227,7 +227,11 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> __fini_array_start[0]</td>
+          <td class="memname"><a class="el" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> __fini_array_start[0] </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -236,6 +240,8 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00162">162</a> of file <a class="el" href="../../d5/db0/dynlink_8c_source.html">dynlink.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00018">__libc_fini_array()</a>.</p>
 
@@ -248,14 +254,18 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> __init_array_end[0]</td>
+          <td class="memname"><a class="el" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> __init_array_end[0] </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00009">9</a> of file <a class="el" href="../../da/d9b/InitArray_8c_source.html">InitArray.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00012">__libc_init_array()</a>, and <a class="el" href="../../d0/d23/linker_8cpp_source.html#l00125">ObjectRepository::injectStaticObject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00012">__libc_init_array()</a>, and <a class="el" href="../../d0/d23/linker_8cpp_source.html#l00123">ObjectRepository::injectStaticObject()</a>.</p>
 
 </div>
 </div>
@@ -269,7 +279,11 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> __init_array_start[0]</td>
+          <td class="memname"><a class="el" href="../../da/d9b/InitArray_8c.html#ab2f77750ed4ac7d7d9d0bd0770660e29">fct</a> __init_array_start[0] </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -281,7 +295,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/dc0/startup_8cpp_source.html#l00010">10</a> of file <a class="el" href="../../de/dc0/startup_8cpp_source.html">startup.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00012">__libc_init_array()</a>, and <a class="el" href="../../d0/d23/linker_8cpp_source.html#l00125">ObjectRepository::injectStaticObject()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d9b/InitArray_8c_source.html#l00012">__libc_init_array()</a>, and <a class="el" href="../../d0/d23/linker_8cpp_source.html#l00123">ObjectRepository::injectStaticObject()</a>.</p>
 
 </div>
 </div>

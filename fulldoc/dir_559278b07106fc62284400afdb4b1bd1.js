@@ -8,6 +8,6 @@ var dir_559278b07106fc62284400afdb4b1bd1 =
     [ "PersonalSystem2", "dir_46a039de010f33cd5e57d0680b3edf37.html", "dir_46a039de010f33cd5e57d0680b3edf37" ],
     [ "Realtek", "dir_4e6c4ad3f6cdb98a046194c8cc26cddc.html", "dir_4e6c4ad3f6cdb98a046194c8cc26cddc" ],
     [ "VMware", "dir_f068a5f81eb142e0e5b0a21968d26e9d.html", "dir_f068a5f81eb142e0e5b0a21968d26e9d" ],
-    [ "BuiltinDriverLoader.cpp", "d1/d90/BuiltinDriverLoader_8cpp.html", "d1/d90/BuiltinDriverLoader_8cpp" ],
+    [ "BuiltinModuleLoader.cpp", "d4/d8a/BuiltinModuleLoader_8cpp.html", "d4/d8a/BuiltinModuleLoader_8cpp" ],
     [ "drv.hpp", "d9/d37/drv_8hpp.html", "d9/d37/drv_8hpp" ]
 ];

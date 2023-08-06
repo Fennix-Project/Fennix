@@ -139,13 +139,13 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">boolean</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#aaf561721f8fb42a92442d68103e79e88">P_UseSpecialLine</a></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;( <a class="code" href="../../df/d05/p__mobj_8h.html#d4/d05/structmobj__s">mobj_t</a>*   thing,</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keywordtype">int</span>       side );</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="keywordtype">void</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a6fed964d2a0bf109ca595f008db0a53c">P_ShootSpecialLine</a></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;( <a class="code" href="../../df/d05/p__mobj_8h.html#d4/d05/structmobj__s">mobj_t</a>*   thing,</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line );</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a> );</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="keywordtype">void</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#ad3126be57610401da58982f5c8c42de4">P_CrossSpecialLine</a></div>
@@ -158,18 +158,18 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#ab44973c4702e74c3c277a50c5f9649b6">twoSided</a></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;( <span class="keywordtype">int</span>       sector,</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordtype">int</span>       line );</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;  <span class="keywordtype">int</span>       <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a> );</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<a class="code" href="../../dd/d76/r__defs_8h.html#d4/d19/structsector__t">sector_t</a>*</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#af494d6e7081c01be96a32d46430c9083">getSector</a></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;( <span class="keywordtype">int</span>       currentSector,</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keywordtype">int</span>       line,</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;  <span class="keywordtype">int</span>       <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordtype">int</span>       side );</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<a class="code" href="../../dd/d76/r__defs_8h.html#df/d36/structside__t">side_t</a>*</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a06fdd649184ddb24709cf89032666a0e">getSide</a></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;( <span class="keywordtype">int</span>       currentSector,</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordtype">int</span>       line,</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <span class="keywordtype">int</span>       <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  <span class="keywordtype">int</span>       side );</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<a class="code" href="../../d4/d57/m__fixed_8h.html#a7fdea216e6bec468d1569e8ab1bd469b">fixed_t</a> <a class="code" href="../../d2/d78/p__spec_8h.html#a7d8abbc55a716dfe09df7d223888fda3">P_FindLowestFloorSurrounding</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d4/d19/structsector__t">sector_t</a>* sec);</div>
@@ -185,24 +185,24 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#aef3a107e5bb91cf6c055740a62085acc">P_FindSectorFromLineTag</a></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordtype">int</span>       start );</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  <span class="keywordtype">int</span>       <a class="code" href="../../db/d51/mq__notify_8c.html#ad91438039536049066822e3316cba86a">start</a> );</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160; </div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a0c34a596272bb98753af932ce2b29e3e">P_FindMinSurroundingLight</a></div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d4/d19/structsector__t">sector_t</a>* sector,</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <span class="keywordtype">int</span>       max );</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <span class="keywordtype">int</span>       <a class="code" href="../../d6/dec/gm__loop_8c.html#a2f9ce5f01c066eb6ef649c9a2b0dbf0e">max</a> );</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<a class="code" href="../../dd/d76/r__defs_8h.html#d4/d19/structsector__t">sector_t</a>*</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#adbbfab811d17520fb4c82b87c6e6d685">getNextSector</a></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  <a class="code" href="../../dd/d76/r__defs_8h.html#d4/d19/structsector__t">sector_t</a>* sec );</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="comment">// SPECIAL</span></div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/d78/p__spec_8h.html#aee1676cdf9408422beda762db00d7c28">EV_DoDonut</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* line);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/d78/p__spec_8h.html#aee1676cdf9408422beda762db00d7c28">EV_DoDonut</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>);</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160; </div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
@@ -277,15 +277,15 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  <span class="keywordtype">int</span>       fastOrSlow,</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  <span class="keywordtype">int</span>       inSync );</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160; </div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#a09dcd0111c339855717ea248897acb5e">EV_StartLightStrobing</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* line);</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#a894f64d3b0ebefb1fb3cb042ee33ff51">EV_TurnTagLightsOff</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* line);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#a09dcd0111c339855717ea248897acb5e">EV_StartLightStrobing</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#a894f64d3b0ebefb1fb3cb042ee33ff51">EV_TurnTagLightsOff</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>);</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;<span class="keywordtype">void</span></div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a99bf552a5e51feffc49f86ccb80a9e0d">EV_LightTurnOn</a></div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;  <span class="keywordtype">int</span>       bright );</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160; </div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#a3511f0d09fce628aa9b9cd3decbc0f97">T_Glow</a>(<a class="code" href="../../d2/d78/p__spec_8h.html#d0/dcd/structglow__t">glow_t</a>* <a class="code" href="../../de/dc0/startup_8cpp.html#a597da8c09abd28f746665b38823c1295">g</a>);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#a3511f0d09fce628aa9b9cd3decbc0f97">T_Glow</a>(<a class="code" href="../../d2/d78/p__spec_8h.html#d0/dcd/structglow__t">glow_t</a>* <a class="code" href="../../de/d72/hash-string_8h.html#a73c18c59a39b18382081ec00bb456d43">g</a>);</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#ab61eda1ade07b614fca192be6446c77d">P_SpawnGlowingLight</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d4/d19/structsector__t">sector_t</a>* sector);</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160; </div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
@@ -338,7 +338,7 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="keywordtype">void</span></div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a5be5a83ca4d146fdd07a079a23457690">P_ChangeSwitchTexture</a></div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  <span class="keywordtype">int</span>       useAgain );</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d78/p__spec_8h.html#a8c8a6b089b647bd59f75fc4fbd029ea2">P_InitSwitchList</a>(<span class="keywordtype">void</span>);</div>
@@ -400,13 +400,13 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160; </div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a66b38aad5bba1cf383a03b90360e1ab6">EV_DoPlat</a></div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  <a class="code" href="../../d2/d78/p__spec_8h.html#ab52a6e23a834774fe851035e5095b6d2">plattype_e</a>    type,</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;  <span class="keywordtype">int</span>       amount );</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160; </div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#a476e64ddbbdadaae288f7629afbbcce1">P_AddActivePlat</a>(<a class="code" href="../../d2/d78/p__spec_8h.html#df/d5c/structplat__t">plat_t</a>* plat);</div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#a3775e7d153d7220e99c3c3d1fafebbec">P_RemoveActivePlat</a>(<a class="code" href="../../d2/d78/p__spec_8h.html#df/d5c/structplat__t">plat_t</a>* plat);</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#afe6be6241c8b015e0ed30188ea24d581">EV_StopPlat</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* line);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#afe6be6241c8b015e0ed30188ea24d581">EV_StopPlat</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>);</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#a227425487a19a7511e93c27f8324df2c">P_ActivateInStasis</a>(<span class="keywordtype">int</span> tag);</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160; </div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
@@ -454,17 +454,17 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160; </div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;<span class="keywordtype">void</span></div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a922760f1480f12d57ff7b9b4657190e8">EV_VerticalDoor</a></div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;  <a class="code" href="../../df/d05/p__mobj_8h.html#d4/d05/structmobj__s">mobj_t</a>*   thing );</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160; </div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a902ccc8fa71c96d0e15ce35e459c9777">EV_DoDoor</a></div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;  <a class="code" href="../../d2/d78/p__spec_8h.html#a44dbbe4023b183beefa3155a27797b65">vldoor_e</a>  type );</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160; </div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#afb7ddbae1dee93e7a28ad16aa75249d7">EV_DoLockedDoor</a></div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;  <a class="code" href="../../d2/d78/p__spec_8h.html#a44dbbe4023b183beefa3155a27797b65">vldoor_e</a>  type,</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;  <a class="code" href="../../df/d05/p__mobj_8h.html#d4/d05/structmobj__s">mobj_t</a>*   thing );</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160; </div>
@@ -507,13 +507,13 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;{</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    <a class="code" href="../../d7/db1/d__think_8h.html#d9/d02/structthinker__s">thinker_t</a>   thinker;</div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    sdt_e   type;</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* line;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>;</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <span class="keywordtype">int</span>     frame;</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <span class="keywordtype">int</span>     whichDoorIndex;</div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <span class="keywordtype">int</span>     timer;</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <a class="code" href="../../dd/d76/r__defs_8h.html#d4/d19/structsector__t">sector_t</a>*   <a class="code" href="../../d3/d14/r__bsp_8c.html#a79ce05d093811f51011c4119ec32abb2">frontsector</a>;</div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <a class="code" href="../../dd/d76/r__defs_8h.html#d4/d19/structsector__t">sector_t</a>*   <a class="code" href="../../d3/d14/r__bsp_8c.html#a6e0e02696c49d7c87b7443c7da40d688">backsector</a>;</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    sd_e     <a class="code" href="../../d0/d9a/namespacemlibc.html#ae950c8331c437120441168adf67693de">status</a>;</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    sd_e     <a class="code" href="../../d0/d9a/namespacemlibc.html#aaeed1ba4cfaa93b3e24e5ddbefe82358">status</a>;</div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160; </div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;} slidedoor_t;</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160; </div>
@@ -556,7 +556,7 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160; </div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;<span class="keywordtype">void</span></div>
 <div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;EV_SlidingDoor</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;  <a class="code" href="../../df/d05/p__mobj_8h.html#d4/d05/structmobj__s">mobj_t</a>*   thing );</div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160; </div>
@@ -609,14 +609,14 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160; </div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a28e115c26307a248e38428127f2fe86e">EV_DoCeiling</a></div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;  <a class="code" href="../../d2/d78/p__spec_8h.html#ae19311c7bd774a460d8964a06f1593a2">ceiling_e</a> type );</div>
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160; </div>
 <div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#a77599148f1def37804100ec4457ff05a">T_MoveCeiling</a> (<a class="code" href="../../d2/d78/p__spec_8h.html#da/d36/structceiling__t">ceiling_t</a>* ceiling);</div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#af5645e25fb0ff826d06126e7c3836506">P_AddActiveCeiling</a>(<a class="code" href="../../d2/d78/p__spec_8h.html#da/d36/structceiling__t">ceiling_t</a>* <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>);</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#ad80a97b168204ae45627707dc21d8016">P_RemoveActiveCeiling</a>(<a class="code" href="../../d2/d78/p__spec_8h.html#da/d36/structceiling__t">ceiling_t</a>* <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>);</div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/d78/p__spec_8h.html#ac32050f5e1c7cfb70dd85ca1b3484f68">EV_CeilingCrushStop</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* line);</div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#abe0f100e619331e9fbd1a764fe0038ad">P_ActivateInStasisCeiling</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* line);</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#af5645e25fb0ff826d06126e7c3836506">P_AddActiveCeiling</a>(<a class="code" href="../../d2/d78/p__spec_8h.html#da/d36/structceiling__t">ceiling_t</a>* <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>);</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#ad80a97b168204ae45627707dc21d8016">P_RemoveActiveCeiling</a>(<a class="code" href="../../d2/d78/p__spec_8h.html#da/d36/structceiling__t">ceiling_t</a>* <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>);</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d2/d78/p__spec_8h.html#ac32050f5e1c7cfb70dd85ca1b3484f68">EV_CeilingCrushStop</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>);</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;<span class="keywordtype">void</span>    <a class="code" href="../../d2/d78/p__spec_8h.html#abe0f100e619331e9fbd1a764fe0038ad">P_ActivateInStasisCeiling</a>(<a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>* <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>);</div>
 <div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160; </div>
 <div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160; </div>
 <div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;<span class="comment">//</span></div>
@@ -706,31 +706,35 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160; </div>
 <div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a1739dac6e8d2390e49bb18a9bcf192a7">EV_BuildStairs</a></div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;  <a class="code" href="../../d2/d78/p__spec_8h.html#a39c5f6b909ec3ecfc29d131e3436152b">stair_e</a>   type );</div>
 <div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160; </div>
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#ab1b6d8420f64a2990e48688e0ee0bbfd">EV_DoFloor</a></div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;  <a class="code" href="../../d2/d78/p__spec_8h.html#a65d12fa7436b99f7be6829b6c019130e">floor_e</a>   floortype );</div>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160; </div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d78/p__spec_8h.html#aef0fea20df3c5279d4beedea089f1a83">T_MoveFloor</a>( <a class="code" href="../../d2/d78/p__spec_8h.html#df/df1/structfloormove__t">floormove_t</a>* <a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a6de60a3e907dcf0bfe3ea8d64f1e8873">floor</a>);</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/d78/p__spec_8h.html#aef0fea20df3c5279d4beedea089f1a83">T_MoveFloor</a>( <a class="code" href="../../d2/d78/p__spec_8h.html#df/df1/structfloormove__t">floormove_t</a>* <a class="code" href="../../d9/d10/tgmath_8h.html#af856cb49514ce62a1b07883867f6f255">floor</a>);</div>
 <div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160; </div>
 <div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;<span class="comment">// P_TELEPT</span></div>
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;<span class="keywordtype">int</span></div>
 <div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;<a class="code" href="../../d2/d78/p__spec_8h.html#a743c5cb5d144d43193b6f34177186860">EV_Teleport</a></div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   line,</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;( <a class="code" href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_t</a>*   <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
 <div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;  <span class="keywordtype">int</span>       side,</div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;  <a class="code" href="../../df/d05/p__mobj_8h.html#d4/d05/structmobj__s">mobj_t</a>*   thing );</div>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160; </div>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="ad__player_8h_html_d6/d0e/structplayer__s"><div class="ttname"><a href="../../d5/d9f/d__player_8h.html#d6/d0e/structplayer__s">player_s</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d9f/d__player_8h_source.html#l00078">d_player.h:79</a></div></div>
 <div class="ttc" id="ad__think_8h_html_d9/d02/structthinker__s"><div class="ttname"><a href="../../d7/db1/d__think_8h.html#d9/d02/structthinker__s">thinker_s</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db1/d__think_8h_source.html#l00058">d_think.h:59</a></div></div>
+<div class="ttc" id="agetusershell_8c_html_a8adb30f4f6669f927fd9232f686c637b"><div class="ttname"><a href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a></div><div class="ttdeci">static char * line</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/getusershell_8c_source.html#l00007">getusershell.c:7</a></div></div>
+<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
+<div class="ttc" id="agm__loop_8c_html_a2f9ce5f01c066eb6ef649c9a2b0dbf0e"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#a2f9ce5f01c066eb6ef649c9a2b0dbf0e">max</a></div><div class="ttdeci">size_t max</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00076">gm_loop.c:76</a></div></div>
+<div class="ttc" id="ahash-string_8h_html_a73c18c59a39b18382081ec00bb456d43"><div class="ttname"><a href="../../de/d72/hash-string_8h.html#a73c18c59a39b18382081ec00bb456d43">g</a></div><div class="ttdeci">g</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d72/hash-string_8h_source.html#l00053">hash-string.h:53</a></div></div>
 <div class="ttc" id="am__fixed_8h_html_a7fdea216e6bec468d1569e8ab1bd469b"><div class="ttname"><a href="../../d4/d57/m__fixed_8h.html#a7fdea216e6bec468d1569e8ab1bd469b">fixed_t</a></div><div class="ttdeci">int fixed_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d57/m__fixed_8h_source.html#l00032">m_fixed.h:32</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_a6de60a3e907dcf0bfe3ea8d64f1e8873"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a6de60a3e907dcf0bfe3ea8d64f1e8873">floor</a></div><div class="ttdeci">double floor(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de3/floor_8c_source.html#l00010">floor.c:10</a></div></div>
-<div class="ttc" id="anamespacemlibc_html_ae950c8331c437120441168adf67693de"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#ae950c8331c437120441168adf67693de">mlibc::status</a></div><div class="ttdeci">void int * status</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/aero_8cpp_source.html#l00297">aero.cpp:297</a></div></div>
+<div class="ttc" id="amq__notify_8c_html_ad91438039536049066822e3316cba86a"><div class="ttname"><a href="../../db/d51/mq__notify_8c.html#ad91438039536049066822e3316cba86a">start</a></div><div class="ttdeci">static void * start(void *p)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d51/mq__notify_8c_source.html#l00018">mq_notify.c:18</a></div></div>
+<div class="ttc" id="anamespacemlibc_html_aaeed1ba4cfaa93b3e24e5ddbefe82358"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#aaeed1ba4cfaa93b3e24e5ddbefe82358">mlibc::status</a></div><div class="ttdeci">void int * status</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/aero_8cpp_source.html#l00274">aero.cpp:274</a></div></div>
 <div class="ttc" id="ap__mobj_8h_html_d4/d05/structmobj__s"><div class="ttname"><a href="../../df/d05/p__mobj_8h.html#d4/d05/structmobj__s">mobj_s</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d05/p__mobj_8h_source.html#l00201">p_mobj.h:202</a></div></div>
 <div class="ttc" id="ap__spec_8h_html_a00794bb9dc13033c0f0604112c79ec02"><div class="ttname"><a href="../../d2/d78/p__spec_8h.html#a00794bb9dc13033c0f0604112c79ec02">floormove_t::direction</a></div><div class="ttdeci">int direction</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d78/p__spec_8h_source.html#l00587">p_spec.h:587</a></div></div>
 <div class="ttc" id="ap__spec_8h_html_a034815a7b95c593cb95955c3f617f588"><div class="ttname"><a href="../../d2/d78/p__spec_8h.html#a034815a7b95c593cb95955c3f617f588">button_t::where</a></div><div class="ttdeci">bwhere_e where</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d78/p__spec_8h_source.html#l00227">p_spec.h:227</a></div></div>
@@ -931,8 +935,7 @@ $(document).ready(function(){initNavTree('d2/d78/p__spec_8h_source.html','../../
 <div class="ttc" id="ar__defs_8h_html_d8/da7/structdegenmobj__t"><div class="ttname"><a href="../../dd/d76/r__defs_8h.html#d8/da7/structdegenmobj__t">degenmobj_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d76/r__defs_8h_source.html#l00084">r_defs.h:85</a></div></div>
 <div class="ttc" id="ar__defs_8h_html_d9/d06/structline__s"><div class="ttname"><a href="../../dd/d76/r__defs_8h.html#d9/d06/structline__s">line_s</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d76/r__defs_8h_source.html#l00175">r_defs.h:176</a></div></div>
 <div class="ttc" id="ar__defs_8h_html_df/d36/structside__t"><div class="ttname"><a href="../../dd/d76/r__defs_8h.html#df/d36/structside__t">side_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d76/r__defs_8h_source.html#l00140">r_defs.h:141</a></div></div>
-<div class="ttc" id="astartup_8cpp_html_a597da8c09abd28f746665b38823c1295"><div class="ttname"><a href="../../de/dc0/startup_8cpp.html#a597da8c09abd28f746665b38823c1295">g</a></div><div class="ttdeci">static global_constructor_guard g</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc0/startup_8cpp_source.html#l00023">startup.cpp:23</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a53bc054f17562e88369c26b52125a12d"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a></div><div class="ttdeci">size_t const wchar_t *MLIBC_STUB_BODY wchar_t wchar_t c</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00319">string-stubs.cpp:319</a></div></div>
+<div class="ttc" id="atgmath_8h_html_af856cb49514ce62a1b07883867f6f255"><div class="ttname"><a href="../../d9/d10/tgmath_8h.html#af856cb49514ce62a1b07883867f6f255">floor</a></div><div class="ttdeci">#define floor(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d10/tgmath_8h_source.html#l00233">tgmath.h:233</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

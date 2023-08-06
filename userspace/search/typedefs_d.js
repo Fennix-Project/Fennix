@@ -1,16 +1,15 @@
 var searchData=
 [
-  ['net_5faddr_5ft_23850',['net_addr_t',['../d1/d3f/net__defs_8h.html#a39d45b2db095a3d40ebb2ea35a1cd800',1,'net_defs.h']]],
-  ['net_5fcontext_5ft_23851',['net_context_t',['../d1/d3f/net__defs_8h.html#afbe2cf388588e99bf6c173fca0b9df85',1,'net_defs.h']]],
-  ['net_5fmodule_5ft_23852',['net_module_t',['../d1/d3f/net__defs_8h.html#a860272d446fd5e66bba50f3250ed86f9',1,'net_defs.h']]],
-  ['net_5fpacket_5ft_23853',['net_packet_t',['../d1/d3f/net__defs_8h.html#a5b6802427b54fedda6f77bbcdc5cd359',1,'net_defs.h']]],
-  ['net_5fquery_5fcallback_5ft_23854',['net_query_callback_t',['../d1/d86/net__query_8h.html#ae291a84c4fecdc4a796bf44d55c26c91',1,'net_query.h']]],
-  ['netgame_5fstartup_5fcallback_5ft_23855',['netgame_startup_callback_t',['../d7/d0d/d__loop_8h.html#a805d4d4531b4d86f93175304dbf51abc',1,'d_loop.h']]],
-  ['nfds_5ft_23856',['nfds_t',['../d4/d1c/options_2posix_2include_2sys_2poll_8h.html#ac264ae349ebf30294df14a250a68048a',1,'poll.h']]],
-  ['nl_5fitem_23857',['nl_item',['../df/d75/nl__item_8h.html#a3e837d7c96871f164e3c8b28159f01bc',1,'nl_item.h']]],
-  ['nlink_5ft_23858',['nlink_t',['../de/da1/sysdeps_2dripos_2include_2abi-bits_2nlink__t_8h.html#a7d2bfa938cbb6b3fa6ebd4d80ed8ce47',1,'nlink_t():&#160;nlink_t.h'],['../db/d9c/sysdeps_2managarm_2include_2abi-bits_2nlink__t_8h.html#a7d2bfa938cbb6b3fa6ebd4d80ed8ce47',1,'nlink_t():&#160;nlink_t.h'],['../d7/d79/sysdeps_2lyre_2include_2abi-bits_2nlink__t_8h.html#af2739176220b526afc2936e1c5f6f16a',1,'nlink_t():&#160;nlink_t.h'],['../d2/d95/sysdeps_2linux_2include_2abi-bits_2nlink__t_8h.html#af2739176220b526afc2936e1c5f6f16a',1,'nlink_t():&#160;nlink_t.h'],['../db/d06/sysdeps_2lemon_2include_2abi-bits_2nlink__t_8h.html#a7d2bfa938cbb6b3fa6ebd4d80ed8ce47',1,'nlink_t():&#160;nlink_t.h'],['../d5/d61/sysdeps_2keyronex_2include_2abi-bits_2nlink__t_8h.html#af2739176220b526afc2936e1c5f6f16a',1,'nlink_t():&#160;nlink_t.h'],['../d0/d47/sysdeps_2ironclad_2include_2abi-bits_2nlink__t_8h.html#a7d2bfa938cbb6b3fa6ebd4d80ed8ce47',1,'nlink_t():&#160;nlink_t.h'],['../d8/dec/sysdeps_2aero_2include_2abi-bits_2nlink__t_8h.html#a7d2bfa938cbb6b3fa6ebd4d80ed8ce47',1,'nlink_t():&#160;nlink_t.h'],['../d4/dec/abis_2mlibc_2nlink__t_8h.html#a7d2bfa938cbb6b3fa6ebd4d80ed8ce47',1,'nlink_t():&#160;nlink_t.h'],['../da/de8/abis_2linux_2nlink__t_8h.html#af2739176220b526afc2936e1c5f6f16a',1,'nlink_t():&#160;nlink_t.h']]],
-  ['ns_5fclass_23859',['ns_class',['../d2/d7b/nameser_8h.html#a65186aa2fbe284154b55e74e6657b1a9',1,'nameser.h']]],
-  ['ns_5frcode_23860',['ns_rcode',['../d2/d7b/nameser_8h.html#af05b2543fc58b1226e2086592af478c5',1,'nameser.h']]],
-  ['ns_5ftype_23861',['ns_type',['../d2/d7b/nameser_8h.html#aec8584b3c9d38d5d204ecbf874543dc5',1,'nameser.h']]],
-  ['numeric_5fbase_5ft_23862',['numeric_base_t',['../d1/dae/libc_2src_2print_2printf_8c.html#ac78b37a9c20028d552e74454f76bfd51',1,'numeric_base_t():&#160;printf.c'],['../dc/d99/libs_2libinit_2printf_8c.html#ac78b37a9c20028d552e74454f76bfd51',1,'numeric_base_t():&#160;printf.c']]]
+  ['mbstate_5ft_49073',['mbstate_t',['../d7/d9f/mlibc_2options_2ansi_2include_2wchar_8h.html#a25a306a2efb8b4604a0ad04cad4a8251',1,'wchar.h']]],
+  ['memblock_5ft_49074',['memblock_t',['../d7/db2/z__zone_8c.html#aac3399b79340edcb992a5c26b6036351',1,'z_zone.c']]],
+  ['memfile_49075',['MEMFILE',['../db/dd7/memio_8h.html#a1e45c2b671a4a7c996e2f2f8edddce6f',1,'memio.h']]],
+  ['memoryallocator_49076',['MemoryAllocator',['../d5/d61/allocator_8hpp.html#a7bb128747516af3e788d67c42c0d74e1',1,'allocator.hpp']]],
+  ['memorypool_49077',['MemoryPool',['../d5/d61/allocator_8hpp.html#a09947452128ae93904bb62c67eff7118',1,'allocator.hpp']]],
+  ['menu_5ft_49078',['menu_t',['../d4/d81/m__menu_8c.html#aed08c6d5d5b5d87ad2368f169239217c',1,'m_menu.c']]],
+  ['mguard_5ft_49079',['mguard_t',['../dd/d9a/apps_2base_2bash_2lib_2malloc_2malloc_8c.html#a533d57373c0ea217bb98418b834d6ff7',1,'malloc.c']]],
+  ['mobj_5ft_49080',['mobj_t',['../df/d05/p__mobj_8h.html#aa544c60d64973cdefd71b626bac0bcde',1,'p_mobj.h']]],
+  ['mode_5ft_49081',['mode_t',['../d3/d53/sysdeps_2aero_2include_2abi-bits_2mode__t_8h.html#a8a35dd1207a16dfa8b1d4163176d828c',1,'mode_t():&#160;mode_t.h'],['../dc/d4f/sysdeps_2vinix_2include_2abi-bits_2mode__t_8h.html#a8a35dd1207a16dfa8b1d4163176d828c',1,'mode_t():&#160;mode_t.h'],['../de/d15/sysdeps_2managarm_2include_2abi-bits_2mode__t_8h.html#a8a35dd1207a16dfa8b1d4163176d828c',1,'mode_t():&#160;mode_t.h'],['../d3/d58/sysdeps_2linux_2include_2abi-bits_2mode__t_8h.html#adb8322e115035a284aab704909e63d00',1,'mode_t():&#160;mode_t.h'],['../d9/d94/sysdeps_2lemon_2include_2abi-bits_2mode__t_8h.html#a8a35dd1207a16dfa8b1d4163176d828c',1,'mode_t():&#160;mode_t.h'],['../d2/d07/sysdeps_2ironclad_2include_2abi-bits_2mode__t_8h.html#a8a35dd1207a16dfa8b1d4163176d828c',1,'mode_t():&#160;mode_t.h'],['../d4/dd7/sysdeps_2fennix_2include_2abi-bits_2mode__t_8h.html#a8a35dd1207a16dfa8b1d4163176d828c',1,'mode_t():&#160;mode_t.h'],['../dc/d3a/sysdeps_2dripos_2include_2abi-bits_2mode__t_8h.html#a8a35dd1207a16dfa8b1d4163176d828c',1,'mode_t():&#160;mode_t.h'],['../d5/d46/abis_2mlibc_2mode__t_8h.html#a8a35dd1207a16dfa8b1d4163176d828c',1,'mode_t():&#160;mode_t.h'],['../df/d82/abis_2linux_2mode__t_8h.html#adb8322e115035a284aab704909e63d00',1,'mode_t():&#160;mode_t.h']]],
+  ['mqd_5ft_49082',['mqd_t',['../db/dee/musl_2include_2mqueue_8h.html#a4820b065fbcbb30569e78e64ef5ad809',1,'mqueue.h']]],
+  ['msglen_5ft_49083',['msglen_t',['../de/d19/musl_2include_2sys_2msg_8h.html#ab825346c09752672e12262fa44ab28f2',1,'msg.h']]],
+  ['msgqnum_5ft_49084',['msgqnum_t',['../de/d19/musl_2include_2sys_2msg_8h.html#a311795f70a05c23defbf0793d2923235',1,'msg.h']]]
 ];

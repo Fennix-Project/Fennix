@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/options/ansi/generic/complex/creal.c Source File</title>
+<title>Fennix: Userspace/musl/src/complex/creal.c Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -89,73 +89,20 @@ $(document).ready(function(){initNavTree('da/dea/creal_8c_source.html','../../')
 <div class="title">creal.c</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../da/dea/creal_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* $NetBSD: creal.c,v 1.2 2010/09/15 16:11:29 christos Exp $ */</span></div>
+<a href="../../da/dea/creal_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;complex.h&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Written by Matthias Drochner &lt;drochner@NetBSD.org&gt;.</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * Public domain.</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * imported and modified include for newlib 2010/10/03 </span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * Marco Atzeri &lt;marco_atzeri@yahoo.it&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">FUNCTION</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">        &lt;&lt;creal&gt;&gt;, &lt;&lt;crealf&gt;&gt;---real part</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">INDEX</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">        creal</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">INDEX</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">        crealf</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">ANSI_SYNOPSIS</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">       #include &lt;complex.h&gt;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">       double creal(double complex &lt;[z]&gt;);</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment">       float crealf(float complex &lt;[z]&gt;);</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">DESCRIPTION</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">        These functions compute the real part of &lt;[z]&gt;.</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">        &lt;&lt;crealf&gt;&gt; is identical to &lt;&lt;creal&gt;&gt;, except that it performs</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment">        its calculations on &lt;&lt;floats complex&gt;&gt;.</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">RETURNS</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">        The creal functions return the real part value.</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">PORTABILITY</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">        &lt;&lt;creal&gt;&gt; and &lt;&lt;crealf&gt;&gt; are ISO C99</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">QUICKREF</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">        &lt;&lt;creal&gt;&gt; and &lt;&lt;crealf&gt;&gt; are ISO C99</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/d3b/complex_8h.html">complex.h</a>&gt;</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/d84/fdlibm_8h.html">fdlibm.h</a>&quot;</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">double</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">   49</a></span>&#160;<a class="code" href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a>(<span class="keywordtype">double</span> <a class="code" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../de/d84/fdlibm_8h.html#d5/d84/uniondouble__complex">double_complex</a> w = { .<a class="code" href="../../de/d84/fdlibm_8h.html#a335105049bc3384999761c9e54b6e88c">z</a> = z };</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../de/d84/fdlibm_8h.html#abe71472a1db694c210cd45a928ede69d">REAL_PART</a>(w));</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
-<div class="ttc" id="acomplex_8h_html"><div class="ttname"><a href="../../d7/d3b/complex_8h.html">complex.h</a></div></div>
-<div class="ttc" id="acomplex_8h_html_a0fa4878c968311979d497ccc322e0b9b"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a></div><div class="ttdeci">#define complex</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00011">complex.h:11</a></div></div>
-<div class="ttc" id="acreal_8c_html_a24b1a511efdb973354d81646c5c3bb81"><div class="ttname"><a href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a></div><div class="ttdeci">double creal(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dea/creal_8c_source.html#l00049">creal.c:49</a></div></div>
-<div class="ttc" id="afdlibm_8h_html"><div class="ttname"><a href="../../de/d84/fdlibm_8h.html">fdlibm.h</a></div></div>
-<div class="ttc" id="afdlibm_8h_html_a335105049bc3384999761c9e54b6e88c"><div class="ttname"><a href="../../de/d84/fdlibm_8h.html#a335105049bc3384999761c9e54b6e88c">double_complex::z</a></div><div class="ttdeci">double complex z</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d84/fdlibm_8h_source.html#l00013">fdlibm.h:13</a></div></div>
-<div class="ttc" id="afdlibm_8h_html_abe71472a1db694c210cd45a928ede69d"><div class="ttname"><a href="../../de/d84/fdlibm_8h.html#abe71472a1db694c210cd45a928ede69d">REAL_PART</a></div><div class="ttdeci">#define REAL_PART(z)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d84/fdlibm_8h_source.html#l00004">fdlibm.h:4</a></div></div>
-<div class="ttc" id="afdlibm_8h_html_d5/d84/uniondouble__complex"><div class="ttname"><a href="../../de/d84/fdlibm_8h.html#d5/d84/uniondouble__complex">double_complex</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d84/fdlibm_8h_source.html#l00012">fdlibm.h:12</a></div></div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d5/d26/musl_2include_2complex_8h.html#aa353dc50ef26fcdec2640636269bca6a">    3</a></span>&#160;double (<a class="code" href="../../da/dea/creal_8c.html#afbadb4be9fea4eafb1aef46ae3a0cbf8">creal</a>)(<span class="keywordtype">double</span> <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/dea/creal_8c.html#afbadb4be9fea4eafb1aef46ae3a0cbf8">creal</a>(z);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
+<div class="ttc" id="acreal_8c_html_afbadb4be9fea4eafb1aef46ae3a0cbf8"><div class="ttname"><a href="../../da/dea/creal_8c.html#afbadb4be9fea4eafb1aef46ae3a0cbf8">creal</a></div><div class="ttdeci">double() creal(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dea/creal_8c_source.html#l00003">creal.c:3</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a0fa4878c968311979d497ccc322e0b9b"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a></div><div class="ttdeci">#define complex</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00008">complex.h:8</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_9e2aac7ae95dd40287f9f0a14447c512.html">options</a></li><li class="navelem"><a class="el" href="../../dir_e178355fa75681e7481d0c1933f8ada2.html">ansi</a></li><li class="navelem"><a class="el" href="../../dir_05a9d8a20c64f169fc09acbdb0782630.html">generic</a></li><li class="navelem"><a class="el" href="../../dir_49dc252cc2d3469e406675e6dba1de05.html">complex</a></li><li class="navelem"><a class="el" href="../../da/dea/creal_8c.html">creal.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_d4c78ba7ac40508bdb05e781ab57ffb9.html">complex</a></li><li class="navelem"><a class="el" href="../../da/dea/creal_8c.html">creal.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

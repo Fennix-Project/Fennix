@@ -17,6 +17,8 @@ var lemon_2generic_2filesystem_8cpp =
       [ "name", "d0/d9a/namespacemlibc.html#aad6d9be267a1e7db6baf3807719770ae", null ],
       [ "type", "d0/d9a/namespacemlibc.html#a3ae49d21e4f98aa4f8649c7e6c948a33", null ]
     ] ],
+    [ "LEMON_TIOCGATTR", "d2/d3b/lemon_2generic_2filesystem_8cpp.html#af7d2e2d6908d66e103756b94fcdccfed", null ],
+    [ "LEMON_TIOCSATTR", "d2/d3b/lemon_2generic_2filesystem_8cpp.html#a939baf5fff23743f21a5ed6f6e71e87a", null ],
     [ "lemon_dirent_t", "d2/d3b/lemon_2generic_2filesystem_8cpp.html#aaebb36997460809b57816796452d09bf", null ],
     [ "sys_access", "d2/d3b/lemon_2generic_2filesystem_8cpp.html#aff21b333c103d09ae169725fd65f5cda", null ],
     [ "sys_chmod", "d2/d3b/lemon_2generic_2filesystem_8cpp.html#adef73ae595558ce646f8a45f38a30f02", null ],

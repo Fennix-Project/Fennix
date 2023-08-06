@@ -97,45 +97,41 @@ $(document).ready(function(){initNavTree('dc/dc5/ensure_8h_source.html','../../'
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef __MLIBC_ABI_ONLY</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/dc5/ensure_8h.html#a628e5c803c39fb1f1125bbccd0289ffc">__ensure_fail</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *assertion, <span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> line,</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<span class="keyword">function</span>);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/dc5/ensure_8h.html#a9130da224e9e5a2d5f79a6b88ca7e2da">__ensure_warn</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *assertion, <span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> line,</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<span class="keyword">function</span>);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* !__MLIBC_ABI_ONLY */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">   19</a></span>&#160;<span class="preprocessor">#define __ensure(assertion) do { if(!(assertion)) \</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">        __ensure_fail(#assertion, __FILE__, __LINE__, __func__); } while(0)</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../dc/dc5/ensure_8h.html#a85a51e7e7d8bca40de8a0fde264f9438">   22</a></span>&#160;<span class="preprocessor">#define MLIBC_UNIMPLEMENTED() __ensure_fail(&quot;Functionality is not implemented&quot;</span>, \</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        __FILE__, __LINE__, __func__)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../dc/dc5/ensure_8h.html#a661d7e91dffd92a29a780ac96420355b">   25</a></span>&#160;<span class="preprocessor">#define MLIBC_MISSING_SYSDEP() __ensure_warn(&quot;Library function fails due to missing sysdep&quot;</span>, \</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        __FILE__, __LINE__, __func__)</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">   28</a></span>&#160;<span class="preprocessor">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret) ({ \</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">            if (!(sysdep)) { \</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">                __ensure_warn(&quot;Library function fails due to missing sysdep&quot;</span>, \</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                    __FILE__, __LINE__, __func__); \</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                errno = ENOSYS; \</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                return (ret); \</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            } \</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            sysdep; \</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        })</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../dc/dc5/ensure_8h.html#a42dcfeb4b1a44102fbc98994857736e5">   38</a></span>&#160;<span class="preprocessor">#define MLIBC_STUB_BODY { MLIBC_UNIMPLEMENTED(); __builtin_unreachable(); }</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MLIBC_ENSURE_H</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/dc5/ensure_8h.html#a628e5c803c39fb1f1125bbccd0289ffc">__ensure_fail</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *assertion, <span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<span class="keyword">function</span>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/dc5/ensure_8h.html#a9130da224e9e5a2d5f79a6b88ca7e2da">__ensure_warn</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *assertion, <span class="keyword">const</span> <span class="keywordtype">char</span> *file, <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>,</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">char</span> *<span class="keyword">function</span>);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">   15</a></span>&#160;<span class="preprocessor">#define __ensure(assertion) do { if(!(assertion)) \</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">        __ensure_fail(#assertion, __FILE__, __LINE__, __func__); } while(0)</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../dc/dc5/ensure_8h.html#a85a51e7e7d8bca40de8a0fde264f9438">   18</a></span>&#160;<span class="preprocessor">#define MLIBC_UNIMPLEMENTED() __ensure_fail(&quot;Functionality is not implemented&quot;</span>, \</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        __FILE__, __LINE__, __func__)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../dc/dc5/ensure_8h.html#a661d7e91dffd92a29a780ac96420355b">   21</a></span>&#160;<span class="preprocessor">#define MLIBC_MISSING_SYSDEP() __ensure_warn(&quot;Library function fails due to missing sysdep&quot;</span>, \</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        __FILE__, __LINE__, __func__)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">   24</a></span>&#160;<span class="preprocessor">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret) ({ \</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">            if (!(sysdep)) { \</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">                __ensure_warn(&quot;Library function fails due to missing sysdep&quot;</span>, \</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                    __FILE__, __LINE__, __func__); \</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                errno = ENOSYS; \</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                return (ret); \</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            } \</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        })</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../dc/dc5/ensure_8h.html#a42dcfeb4b1a44102fbc98994857736e5">   33</a></span>&#160;<span class="preprocessor">#define MLIBC_STUB_BODY { MLIBC_UNIMPLEMENTED(); __builtin_unreachable(); }</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MLIBC_ENSURE_H</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
 <div class="ttc" id="aensure_8h_html_a628e5c803c39fb1f1125bbccd0289ffc"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a628e5c803c39fb1f1125bbccd0289ffc">__ensure_fail</a></div><div class="ttdeci">void __ensure_fail(const char *assertion, const char *file, unsigned int line, const char *function)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp_source.html#l00005">ensure.cpp:5</a></div></div>
 <div class="ttc" id="aensure_8h_html_a9130da224e9e5a2d5f79a6b88ca7e2da"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a9130da224e9e5a2d5f79a6b88ca7e2da">__ensure_warn</a></div><div class="ttdeci">void __ensure_warn(const char *assertion, const char *file, unsigned int line, const char *function)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp_source.html#l00012">ensure.cpp:12</a></div></div>
+<div class="ttc" id="agetusershell_8c_html_a8adb30f4f6669f927fd9232f686c637b"><div class="ttname"><a href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a></div><div class="ttdeci">static char * line</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/getusershell_8c_source.html#l00007">getusershell.c:7</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

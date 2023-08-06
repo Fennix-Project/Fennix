@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/tests/posix/if_indextoname.c File Reference</title>
+<title>Fennix: Userspace/musl/src/network/if_indextoname.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,55 +86,109 @@ $(document).ready(function(){initNavTree('d2/d52/if__indextoname_8c.html','../..
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">if_indextoname.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../dc/d8d/if_8h_source.html">net/if.h</a>&gt;</code><br />
-<code>#include &lt;stdio.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;net/if.h&gt;</code><br />
+<code>#include &lt;sys/socket.h&gt;</code><br />
+<code>#include &lt;sys/ioctl.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;errno.h&gt;</code><br />
+<code>#include &quot;syscall.h&quot;</code><br />
 </div>
 <p><a href="../../d2/d52/if__indextoname_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a369266c24eacffb87046522897a570d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d52/if__indextoname_8c.html#a369266c24eacffb87046522897a570d5">_GNU_SOURCE</a></td></tr>
+<tr class="separator:a369266c24eacffb87046522897a570d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d52/if__indextoname_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
-<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f85372908c53f941da76242aa8fd14"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d52/if__indextoname_8c.html#a17f85372908c53f941da76242aa8fd14">if_indextoname</a> (unsigned <a class="el" href="../../dc/d2f/musl_2src_2string_2index_8c.html#a1d3748ca570dcb09a2fb28e8015107dd">index</a>, char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>)</td></tr>
+<tr class="separator:a17f85372908c53f941da76242aa8fd14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a369266c24eacffb87046522897a570d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a369266c24eacffb87046522897a570d5">&#9670;&nbsp;</a></span>_GNU_SOURCE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> main </td>
-          <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">#define _GNU_SOURCE</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d52/if__indextoname_8c_source.html#l00005">5</a> of file <a class="el" href="../../d2/d52/if__indextoname_8c_source.html">if_indextoname.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;           {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">char</span> <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>[<a class="code" href="../../dc/d8d/if_8h.html#aedb93bcce9682d7644080b859849f59d">IF_NAMESIZE</a>];</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a> == <a class="code" href="../../d7/d54/net-if-stubs_8cpp.html#aa7400eae6b026cabcddebd94c11c1a27">if_indextoname</a>(1, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>));</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;test: name &#39;%s&#39;\n&quot;</span>, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(1 == <a class="code" href="../../d7/d54/net-if-stubs_8cpp.html#a957921d44ba446eb52b305bb270ca2df">if_nametoindex</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>));</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="aKernel_2Library_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
-<div class="ttc" id="aKernel_2include__std_2assert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert.h:23</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d2/d52/if__indextoname_8c_source.html#l00001">1</a> of file <a class="el" href="../../d2/d52/if__indextoname_8c_source.html">if_indextoname.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a17f85372908c53f941da76242aa8fd14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f85372908c53f941da76242aa8fd14">&#9670;&nbsp;</a></span>if_indextoname()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* if_indextoname </td>
+          <td>(</td>
+          <td class="paramtype">unsigned&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d52/if__indextoname_8c_source.html#l00009">9</a> of file <a class="el" href="../../d2/d52/if__indextoname_8c_source.html">if_indextoname.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/de1/mlibc_2options_2posix_2include_2net_2if_8h.html#dd/d5d/structifreq">ifreq</a> ifr;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d0/d9a/namespacemlibc.html#a044a8b2c83b559d1c76488c0ef8c2b3fa36eba1e1e343279857ea7f69a597324e">fd</a>, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> ((fd = <a class="code" href="../../d2/d85/sys-socket-stubs_8cpp.html#abd21dff339393ec8e83b439d1120df71">socket</a>(<a class="code" href="../../d5/d08/mlibc_2abis_2linux_2socket_8h.html#a0fd8739854bc8b48d65f0b669fed3ffe">AF_UNIX</a>, <a class="code" href="../../d5/d08/mlibc_2abis_2linux_2socket_8h.html#a4db8b9a846c67404db0b6f014f9a9fdf">SOCK_DGRAM</a>|<a class="code" href="../../d5/d08/mlibc_2abis_2linux_2socket_8h.html#ac337901f5606f0cf6f8e9867ef3fc1c4">SOCK_CLOEXEC</a>, 0)) &lt; 0) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    ifr.ifr_ifindex = <a class="code" href="../../d2/d48/____tz_8c.html#a20076e5fe0ca600b47fb83e2296ddfb7">index</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d2/dda/sys-ioctl_8cpp.html#a1487536105f7a596481bf6bfa8de99f6">ioctl</a>(fd, <a class="code" href="../../d8/d86/abis_2linux_2ioctls_8h.html#a4c0143039af27ddf5e85ddb5999c285c">SIOCGIFNAME</a>, &amp;ifr);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_close, fd);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> &lt; 0) {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> == <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a>) <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2b3884b11e4932bd372bb6d899d6fbfe">ENXIO</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d82/convert_8h.html#a12f4a7953a24e197c8d26bf0493f8225">strncpy</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, ifr.ifr_name, <a class="code" href="../../d5/de1/mlibc_2options_2posix_2include_2net_2if_8h.html#aedb93bcce9682d7644080b859849f59d">IF_NAMESIZE</a>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a2b3884b11e4932bd372bb6d899d6fbfe"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2b3884b11e4932bd372bb6d899d6fbfe">ENXIO</a></div><div class="ttdeci">#define ENXIO</div><div class="ttdoc">No such device or address.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00037">errno.h:37</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00409">errno.h:409</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab9b8cc17d1947160d13faaba7a18d6d1"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab9b8cc17d1947160d13faaba7a18d6d1">ENODEV</a></div><div class="ttdeci">#define ENODEV</div><div class="ttdoc">No such device.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00076">errno.h:76</a></div></div>
+<div class="ttc" id="a____tz_8c_html_a20076e5fe0ca600b47fb83e2296ddfb7"><div class="ttname"><a href="../../d2/d48/____tz_8c.html#a20076e5fe0ca600b47fb83e2296ddfb7">index</a></div><div class="ttdeci">static const unsigned char * index</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d48/____tz_8c_source.html#l00032">__tz.c:32</a></div></div>
+<div class="ttc" id="aabis_2linux_2ioctls_8h_html_a4c0143039af27ddf5e85ddb5999c285c"><div class="ttname"><a href="../../d8/d86/abis_2linux_2ioctls_8h.html#a4c0143039af27ddf5e85ddb5999c285c">SIOCGIFNAME</a></div><div class="ttdeci">#define SIOCGIFNAME</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d86/abis_2linux_2ioctls_8h_source.html#l00005">ioctls.h:5</a></div></div>
 <div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
-<div class="ttc" id="aif_8h_html_aedb93bcce9682d7644080b859849f59d"><div class="ttname"><a href="../../dc/d8d/if_8h.html#aedb93bcce9682d7644080b859849f59d">IF_NAMESIZE</a></div><div class="ttdeci">#define IF_NAMESIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d8d/if_8h_source.html#l00011">if.h:11</a></div></div>
-<div class="ttc" id="anet-if-stubs_8cpp_html_a957921d44ba446eb52b305bb270ca2df"><div class="ttname"><a href="../../d7/d54/net-if-stubs_8cpp.html#a957921d44ba446eb52b305bb270ca2df">if_nametoindex</a></div><div class="ttdeci">unsigned int if_nametoindex(const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d54/net-if-stubs_8cpp_source.html#l00030">net-if-stubs.cpp:30</a></div></div>
-<div class="ttc" id="anet-if-stubs_8cpp_html_aa7400eae6b026cabcddebd94c11c1a27"><div class="ttname"><a href="../../d7/d54/net-if-stubs_8cpp.html#aa7400eae6b026cabcddebd94c11c1a27">if_indextoname</a></div><div class="ttdeci">char * if_indextoname(unsigned int index, char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d54/net-if-stubs_8cpp_source.html#l00013">net-if-stubs.cpp:13</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a12f4a7953a24e197c8d26bf0493f8225"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a12f4a7953a24e197c8d26bf0493f8225">strncpy</a></div><div class="ttdeci">char * strncpy(char *destination, const char *source, unsigned long num)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00105">Convert.cpp:105</a></div></div>
+<div class="ttc" id="amlibc_2abis_2linux_2socket_8h_html_a0fd8739854bc8b48d65f0b669fed3ffe"><div class="ttname"><a href="../../d5/d08/mlibc_2abis_2linux_2socket_8h.html#a0fd8739854bc8b48d65f0b669fed3ffe">AF_UNIX</a></div><div class="ttdeci">#define AF_UNIX</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d08/mlibc_2abis_2linux_2socket_8h_source.html#l00119">socket.h:119</a></div></div>
+<div class="ttc" id="amlibc_2abis_2linux_2socket_8h_html_a4db8b9a846c67404db0b6f014f9a9fdf"><div class="ttname"><a href="../../d5/d08/mlibc_2abis_2linux_2socket_8h.html#a4db8b9a846c67404db0b6f014f9a9fdf">SOCK_DGRAM</a></div><div class="ttdeci">#define SOCK_DGRAM</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d08/mlibc_2abis_2linux_2socket_8h_source.html#l00053">socket.h:53</a></div></div>
+<div class="ttc" id="amlibc_2abis_2linux_2socket_8h_html_ac337901f5606f0cf6f8e9867ef3fc1c4"><div class="ttname"><a href="../../d5/d08/mlibc_2abis_2linux_2socket_8h.html#ac337901f5606f0cf6f8e9867ef3fc1c4">SOCK_CLOEXEC</a></div><div class="ttdeci">#define SOCK_CLOEXEC</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d08/mlibc_2abis_2linux_2socket_8h_source.html#l00063">socket.h:63</a></div></div>
+<div class="ttc" id="amlibc_2options_2posix_2include_2net_2if_8h_html_aedb93bcce9682d7644080b859849f59d"><div class="ttname"><a href="../../d5/de1/mlibc_2options_2posix_2include_2net_2if_8h.html#aedb93bcce9682d7644080b859849f59d">IF_NAMESIZE</a></div><div class="ttdeci">#define IF_NAMESIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de1/mlibc_2options_2posix_2include_2net_2if_8h_source.html#l00011">if.h:11</a></div></div>
+<div class="ttc" id="amlibc_2options_2posix_2include_2net_2if_8h_html_dd/d5d/structifreq"><div class="ttname"><a href="../../d5/de1/mlibc_2options_2posix_2include_2net_2if_8h.html#dd/d5d/structifreq">ifreq</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d0e/mlibc_2options_2linux-headers_2include_2linux_2if_8h_source.html#l00035">if.h:35</a></div></div>
+<div class="ttc" id="amlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">syscall.h:25</a></div></div>
+<div class="ttc" id="anamespacemlibc_html_a044a8b2c83b559d1c76488c0ef8c2b3fa36eba1e1e343279857ea7f69a597324e"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a044a8b2c83b559d1c76488c0ef8c2b3fa36eba1e1e343279857ea7f69a597324e">mlibc::fsfd_target::fd</a></div><div class="ttdeci">@ fd</div></div>
+<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
+<div class="ttc" id="asys-ioctl_8cpp_html_a1487536105f7a596481bf6bfa8de99f6"><div class="ttname"><a href="../../d2/dda/sys-ioctl_8cpp.html#a1487536105f7a596481bf6bfa8de99f6">ioctl</a></div><div class="ttdeci">int ioctl(int fd, unsigned long request,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dda/sys-ioctl_8cpp_source.html#l00009">sys-ioctl.cpp:9</a></div></div>
+<div class="ttc" id="asys-socket-stubs_8cpp_html_abd21dff339393ec8e83b439d1120df71"><div class="ttname"><a href="../../d2/d85/sys-socket-stubs_8cpp.html#abd21dff339393ec8e83b439d1120df71">socket</a></div><div class="ttdeci">int socket(int family, int type, int protocol)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d85/sys-socket-stubs_8cpp_source.html#l00186">sys-socket-stubs.cpp:186</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html#l00013">if_indextoname()</a>, <a class="el" href="../../dc/d8d/if_8h_source.html#l00011">IF_NAMESIZE</a>, <a class="el" href="../../d7/d54/net-if-stubs_8cpp_source.html#l00030">if_nametoindex()</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, and <a class="el" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c_source.html#l00060">printf</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">__syscall</a>, <a class="el" href="../../d5/d08/mlibc_2abis_2linux_2socket_8h_source.html#l00119">AF_UNIX</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00076">ENODEV</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00037">ENXIO</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00409">errno</a>, <a class="el" href="../../d5/de1/mlibc_2options_2posix_2include_2net_2if_8h_source.html#l00011">IF_NAMESIZE</a>, <a class="el" href="../../d5/de1/mlibc_2options_2posix_2include_2net_2if_8h_source.html#l00029">ifreq::ifr_name</a>, <a class="el" href="../../d2/d48/____tz_8c_source.html#l00032">index</a>, <a class="el" href="../../d2/dda/sys-ioctl_8cpp_source.html#l00009">ioctl()</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>, <a class="el" href="../../d8/d86/abis_2linux_2ioctls_8h_source.html#l00005">SIOCGIFNAME</a>, <a class="el" href="../../d5/d08/mlibc_2abis_2linux_2socket_8h_source.html#l00063">SOCK_CLOEXEC</a>, <a class="el" href="../../d5/d08/mlibc_2abis_2linux_2socket_8h_source.html#l00053">SOCK_DGRAM</a>, <a class="el" href="../../d2/d85/sys-socket-stubs_8cpp_source.html#l00186">socket()</a>, and <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00105">strncpy()</a>.</p>
 
 </div>
 </div>
@@ -143,7 +197,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_502167504e2d86143081e2e7cc315d6c.html">tests</a></li><li class="navelem"><a class="el" href="../../dir_fa5c05a3144c9718a767da7c80f12826.html">posix</a></li><li class="navelem"><a class="el" href="../../d2/d52/if__indextoname_8c.html">if_indextoname.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_d02723f0f1609935a328eac6d701826e.html">network</a></li><li class="navelem"><a class="el" href="../../d2/d52/if__indextoname_8c.html">if_indextoname.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

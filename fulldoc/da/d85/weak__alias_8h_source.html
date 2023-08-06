@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('da/d85/weak__alias_8h_source.html','..
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define _WEAK_ALIAS_H</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../da/d85/weak__alias_8h.html#a2d08927d4845f895c17053dda1f76c3a">    4</a></span>&#160;<span class="preprocessor">#define weak_alias(name, alias_to) \</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">    extern __typeof (name) alias_to __attribute__((__weak__, __alias__(#name)));</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">    extern __typeof (name) alias_to __attribute__ ((weak, alias(#name)));</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->

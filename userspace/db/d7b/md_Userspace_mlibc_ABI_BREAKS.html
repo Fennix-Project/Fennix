@@ -90,22 +90,10 @@ $(document).ready(function(){initNavTree('db/d7b/md_Userspace_mlibc_ABI_BREAKS.h
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This document lists the ABI breaks that were made in each mlibc major version.</p>
-<h1><a class="anchor" id="autotoc_md10"></a>
-Version 4</h1>
-<ul>
-<li><a href="https://github.com/managarm/mlibc/pull/814">#814</a>: <code>struct timex</code>'s <code>long int tai</code> changed to the correct <code>int tai</code>, and <code>int __padding[11]</code> got appended to the struct.</li>
-<li><a href="https://github.com/managarm/mlibc/pull/816">#816</a>: <code>sys_wait4</code> on Linux now correctly returns a <code>pid_t</code>, not an <code>int</code> as previously.</li>
-<li><a href="https://github.com/managarm/mlibc/pull/816">#816</a>: All <code>MS_*</code> macros of the <code>sys/mount.h</code> header were adjusted to match linux.</li>
-<li><a href="https://github.com/managarm/mlibc/pull/816">#816</a>: <code>struct <a class="el" href="../../d1/df3/options_2linux_2include_2sys_2epoll_8h.html#d2/d6e/structepoll__event">epoll_event</a></code> now gets correctly packed on <code>x86_64</code>.</li>
-<li><a href="https://github.com/managarm/mlibc/pull/819">#819</a>: <code>str(n)dupa</code> is now defined as a pure macro, and not as a macro that points to a function.</li>
-<li><a href="https://github.com/managarm/mlibc/pull/828">#828</a>: Linux-specific functions previously included in the posix option in <code>pthreads.h</code> and <code><a class="el" href="../../d7/d00/sched_8h.html">sched.h</a></code> are not correctly guarded behind the linux option.</li>
-<li><a href="https://github.com/managarm/mlibc/pull/828">#828</a>: The <code>CPU_*</code> macros of <code><a class="el" href="../../d7/d00/sched_8h.html">sched.h</a></code> have been rewritten to resolve to internal mlibc implementations, and are now correctly guarded behind the linux option.</li>
-<li><a href="https://github.com/managarm/mlibc/pull/735">#735</a>: <code>sched_getcpu</code> and <code>setns</code> were previously mistakenly C++-mangled and not declared, which has now been rectified.</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md11"></a>
+<h1><a class="anchor" id="autotoc_md18"></a>
 Version 3</h1>
 <ul>
-<li><a href="https://github.com/managarm/mlibc/pull/728">#728</a>: The macros <code>CMSG_{LEN,SPACE,DATA}</code> were not accounting for padding between <code>struct cmsghdr</code> and it's respective data. This manifested itself as some parts of control data being skipped on platforms where <code>struct cmsghdr</code> is not divisible by <code>alignof(size_t)</code>.</li>
+<li><a href="https://github.com/managarm/mlibc/pull/728">#728</a>: The macros <code>CMSG_{LEN,SPACE,<a class="el" href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c.html#d4/dde/structDATA">DATA</a>}</code> were not accounting for padding between <code>struct cmsghdr</code> and it's respective data. This manifested itself as some parts of control data being skipped on platforms where <code>struct cmsghdr</code> is not divisible by <code><a class="el" href="../../dc/d32/ioctl_8c.html#af0be37650624956159ea26977e8ce879">alignof(size_t)</a></code>.</li>
 <li><a href="https://github.com/managarm/mlibc/pull/452">#452</a>: The functions <code>FD_{CLR,ISSET,SET,ZERO}</code> were renamed to <code>__FD_{CLR,ISSET,SET,ZERO}</code> and replaced by macros to match Wine's assumptions.</li>
 <li><a href="https://github.com/managarm/mlibc/pull/511">#511</a>: Musl's regex engine was added, implementing <code>regcomp</code> and <code>regexec</code>. This required some changes to the <code>regex_t</code> struct.</li>
 <li><a href="https://github.com/managarm/mlibc/pull/504">#504</a>: In the Linux ABI, a <code>domainname</code> member was added to <code>struct utsname</code>, which is a glibc extension.</li>

@@ -28,12 +28,11 @@ var linker_8hpp =
     [ "accessDtv", "d9/d7f/linker_8hpp.html#a469fba20f64498374328f9da9068c3aa", null ],
     [ "allocateTcb", "d9/d7f/linker_8hpp.html#ad5f37dd8adbf547377a7484b24b47198", null ],
     [ "initTlsObjects", "d9/d7f/linker_8hpp.html#a0e1c3cbadbe727795071f709cfcc6e63", null ],
-    [ "pltRelocateStub", "d9/d7f/linker_8hpp.html#a8d249318c3fa5779a9988afcf99d443d", null ],
+    [ "pltRelocateStub", "d9/d7f/linker_8hpp.html#a67a161516231b64c65585946b065685f", null ],
     [ "processCopyRelocations", "d9/d7f/linker_8hpp.html#a516b78195af3967fdfd9c0b7213eed8c", null ],
     [ "resolveInObject", "d9/d7f/linker_8hpp.html#a724a94e8fc5dace0e3531777a1c5d198", null ],
     [ "rtdl_auxvector", "d9/d7f/linker_8hpp.html#a63a622bfcb48db15f7d239a3dcc8e913", null ],
     [ "tryAccessDtv", "d9/d7f/linker_8hpp.html#a80376477a45f5ce87a6f1592d92bfd1a", null ],
-    [ "globalScope", "d9/d7f/linker_8hpp.html#a9bc8c414ef19ed87e8f433dbbc2b22c9", null ],
     [ "rtsCounter", "d9/d7f/linker_8hpp.html#a531f5c254542d7556cb27dc1b79e13e6", null ],
     [ "runtimeTlsMap", "d9/d7f/linker_8hpp.html#ad0a7caeba87d4dcedc326ba2ff0935be", null ]
 ];

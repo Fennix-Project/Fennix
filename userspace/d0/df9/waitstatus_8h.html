@@ -106,7 +106,7 @@ Macros</h2></td></tr>
 <tr class="separator:a50acef64cc45083042271357c75dfeb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaff8bf6040e3343cfdefb6226ee0f49d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df9/waitstatus_8h.html#aaff8bf6040e3343cfdefb6226ee0f49d">__WIFEXITED</a>(status)&#160;&#160;&#160;(<a class="el" href="../../d0/df9/waitstatus_8h.html#a28d914fc02ef8af2680dd169d1da9152">__WTERMSIG</a>(status) == 0)</td></tr>
 <tr class="separator:aaff8bf6040e3343cfdefb6226ee0f49d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe487241d47460400091b00f56ccb7c5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df9/waitstatus_8h.html#afe487241d47460400091b00f56ccb7c5">__WIFSIGNALED</a>(status)&#160;&#160;&#160;(((signed char)(((status)&amp;0x7F) + 1) &gt;&gt; 1) &gt; 0)</td></tr>
+<tr class="memitem:afe487241d47460400091b00f56ccb7c5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df9/waitstatus_8h.html#afe487241d47460400091b00f56ccb7c5">__WIFSIGNALED</a>(status)&#160;&#160;&#160;(((<a class="el" href="../../d9/de8/stdc_8h.html#ae31516cd0c4adc3d52b93ef2e5c6117b">signed</a> char)(((status)&amp;0x7F) + 1) &gt;&gt; 1) &gt; 0)</td></tr>
 <tr class="separator:afe487241d47460400091b00f56ccb7c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a325bf760b327255f04bd015d8196e9bf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/df9/waitstatus_8h.html#a325bf760b327255f04bd015d8196e9bf">__WIFSTOPPED</a>(status)&#160;&#160;&#160;(((status)&amp;0xFF) == 0x7F)</td></tr>
 <tr class="separator:a325bf760b327255f04bd015d8196e9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,7 +201,7 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">status</td><td>)</td>
-          <td>&#160;&#160;&#160;(((signed char)(((status)&amp;0x7F) + 1) &gt;&gt; 1) &gt; 0)</td>
+          <td>&#160;&#160;&#160;(((<a class="el" href="../../d9/de8/stdc_8h.html#ae31516cd0c4adc3d52b93ef2e5c6117b">signed</a> char)(((status)&amp;0x7F) + 1) &gt;&gt; 1) &gt; 0)</td>
         </tr>
       </table>
 </div><div class="memdoc">

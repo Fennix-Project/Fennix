@@ -1,22 +1,22 @@
 var mlibc_2options_2ansi_2include_2stdlib_8h =
 [
-    [ "div_t", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#d5/d65/structdiv__t", [
-      [ "quot", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#a0b9dda2884048daa68ca4aaa12b17b9a", null ],
-      [ "rem", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#ac64389de252de53eda8b4f8dbb7c623f", null ]
+    [ "div_t", "d4/daf/musl_2include_2stdlib_8h.html#d5/d65/structdiv__t", [
+      [ "quot", "d4/daf/musl_2include_2stdlib_8h.html#a0b9dda2884048daa68ca4aaa12b17b9a", null ],
+      [ "rem", "d4/daf/musl_2include_2stdlib_8h.html#ac64389de252de53eda8b4f8dbb7c623f", null ]
     ] ],
-    [ "ldiv_t", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#d2/dfe/structldiv__t", [
-      [ "quot", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#a73efd59c176304c327cb4214d0e5e5c9", null ],
-      [ "rem", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#a0f217ff62b8640aa945ec84d6d0bd000", null ]
+    [ "ldiv_t", "d4/daf/musl_2include_2stdlib_8h.html#d2/dfe/structldiv__t", [
+      [ "quot", "d4/daf/musl_2include_2stdlib_8h.html#a73efd59c176304c327cb4214d0e5e5c9", null ],
+      [ "rem", "d4/daf/musl_2include_2stdlib_8h.html#a0f217ff62b8640aa945ec84d6d0bd000", null ]
     ] ],
-    [ "lldiv_t", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#de/db3/structlldiv__t", [
-      [ "quot", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#ae4d4bccdf22f41e052073f5790c5ec37", null ],
-      [ "rem", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#a32d4596a917aa9b496c8a49178a0e3c6", null ]
+    [ "lldiv_t", "d4/daf/musl_2include_2stdlib_8h.html#de/db3/structlldiv__t", [
+      [ "quot", "d4/daf/musl_2include_2stdlib_8h.html#ae4d4bccdf22f41e052073f5790c5ec37", null ],
+      [ "rem", "d4/daf/musl_2include_2stdlib_8h.html#a32d4596a917aa9b496c8a49178a0e3c6", null ]
     ] ],
     [ "EXIT_FAILURE", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#a73efe787c131b385070f25d18b7c9aa4", null ],
     [ "EXIT_SUCCESS", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#a687984f47d8cce148d1b914d2b79612a", null ],
     [ "MB_CUR_MAX", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#a5455b7a60d7e3087ec55dfe37a088bd1", null ],
     [ "RAND_MAX", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#a690f251553b39fd4f31894826141b61a", null ],
-    [ "__attribute__", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#a342b9cd31607a848b169a5dcca6cc149", null ],
+    [ "__attribute__", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#acac56fd762ae7fce67be68cf1d282994", null ],
     [ "abs", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#a1c3ab96ec0ba2d3de5370432c9d7d07c", null ],
     [ "aligned_alloc", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#af7c32811d7d24557ba92cd3d9dae7ddd", null ],
     [ "at_quick_exit", "dc/d8c/mlibc_2options_2ansi_2include_2stdlib_8h.html#adb1bb1aba8db8ce38b4a2d796b50d260", null ],

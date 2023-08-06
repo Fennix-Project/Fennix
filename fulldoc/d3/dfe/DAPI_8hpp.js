@@ -146,6 +146,7 @@ var DAPI_8hpp =
       [ "Ports", "d3/dfe/DAPI_8hpp.html#a407c4e9fac86b98147da49acd4fa0d01", null ]
     ] ],
     [ "KernelCallback.__unnamed67__.InputCallback", "d3/dfe/DAPI_8hpp.html#d0/daf/structKernelCallback_8____unnamed67_____8InputCallback", [
+      [ "Keyboard", "d3/dfe/DAPI_8hpp.html#a6ce4d85a628a88bbdb3ac24a8e5a9c2e", null ],
       [ "Mouse", "d3/dfe/DAPI_8hpp.html#af2a47c6809d88e175dade0ef7b16aa13", null ]
     ] ],
     [ "KernelCallback.__unnamed67__.InputCallback.Mouse", "d3/dfe/DAPI_8hpp.html#d3/dd3/structKernelCallback_8____unnamed67_____8InputCallback_8Mouse", [
@@ -158,6 +159,9 @@ var DAPI_8hpp =
       [ "Left", "d3/dfe/DAPI_8hpp.html#a945d5e233cf7d6240f6b783b36a374ff", null ],
       [ "Middle", "d3/dfe/DAPI_8hpp.html#ab1ca34f82e83c52b010f86955f264e05", null ],
       [ "Right", "d3/dfe/DAPI_8hpp.html#a92b09c7c48c520c3c55e497875da437c", null ]
+    ] ],
+    [ "KernelCallback.__unnamed67__.InputCallback.Keyboard", "d3/dfe/DAPI_8hpp.html#d1/dc0/structKernelCallback_8____unnamed67_____8InputCallback_8Keyboard", [
+      [ "Key", "d3/dfe/DAPI_8hpp.html#a897356954c2cd3d41b221e3f24f99bba", null ]
     ] ],
     [ "KernelCallback.__unnamed67__.AudioCallback", "d3/dfe/DAPI_8hpp.html#df/d7a/structKernelCallback_8____unnamed67_____8AudioCallback", [
       [ "Adjust", "d3/dfe/DAPI_8hpp.html#a51d7a685e12188ee196670343e1ac2cd", null ],
@@ -215,6 +219,7 @@ var DAPI_8hpp =
       [ "Ports", "d3/dfe/DAPI_8hpp.html#a407c4e9fac86b98147da49acd4fa0d01", null ]
     ] ],
     [ ".InputCallback", "d3/dfe/DAPI_8hpp.html#d2/d09/struct_8InputCallback", [
+      [ "Keyboard", "d3/dfe/DAPI_8hpp.html#a6ce4d85a628a88bbdb3ac24a8e5a9c2e", null ],
       [ "Mouse", "d3/dfe/DAPI_8hpp.html#af2a47c6809d88e175dade0ef7b16aa13", null ]
     ] ],
     [ ".InputCallback.Mouse", "d3/dfe/DAPI_8hpp.html#d0/d9e/struct_8InputCallback_8Mouse", [
@@ -227,6 +232,9 @@ var DAPI_8hpp =
       [ "Left", "d3/dfe/DAPI_8hpp.html#a945d5e233cf7d6240f6b783b36a374ff", null ],
       [ "Middle", "d3/dfe/DAPI_8hpp.html#ab1ca34f82e83c52b010f86955f264e05", null ],
       [ "Right", "d3/dfe/DAPI_8hpp.html#a92b09c7c48c520c3c55e497875da437c", null ]
+    ] ],
+    [ ".InputCallback.Keyboard", "d3/dfe/DAPI_8hpp.html#d2/d9e/struct_8InputCallback_8Keyboard", [
+      [ "Key", "d3/dfe/DAPI_8hpp.html#a897356954c2cd3d41b221e3f24f99bba", null ]
     ] ],
     [ ".AudioCallback", "d3/dfe/DAPI_8hpp.html#dc/d74/struct_8AudioCallback", [
       [ "Adjust", "d3/dfe/DAPI_8hpp.html#a51d7a685e12188ee196670343e1ac2cd", null ],
@@ -256,7 +264,7 @@ var DAPI_8hpp =
     [ ".InterruptInfo", "d3/dfe/DAPI_8hpp.html#de/dea/struct_8InterruptInfo", [
       [ "Vector", "d3/dfe/DAPI_8hpp.html#a57dea6f5039281b7fee517fc43bf3110", null ]
     ] ],
-    [ "CPURegisters.__unnamed99__", "d3/dfe/DAPI_8hpp.html#d0/d7b/structCPURegisters_8____unnamed99____", null ],
+    [ "CPURegisters.__unnamed101__", "d3/dfe/DAPI_8hpp.html#d7/def/structCPURegisters_8____unnamed101____", null ],
     [ "CallbackReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dd", [
       [ "UnknownReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda8889069184c392232cee15200fa0d99d", null ],
       [ "AcknowledgeReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddaffe0297ef0c988cb097b4f9d4150c8a4", null ],
@@ -267,7 +275,8 @@ var DAPI_8hpp =
       [ "SendReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda3170f78fc8bb0bc44b1defcd3c4358a2", null ],
       [ "ReceiveReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda4742b4d8f5e56147658a76d126bb7687", null ],
       [ "AdjustReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0dda80dd77b5b8f72d79039ed8975c7b7f35", null ],
-      [ "FetchReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddadcb973611e79107b928979a7a88f8e76", null ]
+      [ "QueryReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddafbc1bffd33bd99b8a2cda0a505617720", null ],
+      [ "PollWaitReason", "d3/dfe/DAPI_8hpp.html#a3f1f8fd0a3bdcb3facb66023a78ac0ddae027bba348924c31dca613d5a13b70e4", null ]
     ] ],
     [ "DriverBindType", "d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17", [
       [ "BIND_NULL", "d3/dfe/DAPI_8hpp.html#a40ed72a348e9d2a6fae1f27878ac1f17a328f938175fec590fa92f8b6cd7ffdfb", null ],

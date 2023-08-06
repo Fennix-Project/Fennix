@@ -102,11 +102,16 @@ var elf_8h =
     ] ],
     [ "Elf32_Dyn", "d1/d9e/elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d1/d9e/elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d1/d9e/elf_8h.html#a0f11c94f4d99b1bdd4eea7631ccc2b0e", null ]
+      [ "d_un", "d1/d9e/elf_8h.html#aec7a58ea345094fd814bc460383335f6", null ]
     ] ],
     [ "Elf64_Dyn", "d1/d9e/elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d1/d9e/elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d1/d9e/elf_8h.html#aae1f184aae5ebc2e8fdf200c9d289a2a", null ]
+      [ "d_un", "d1/d9e/elf_8h.html#a4f31f680ca10e8b2179e4cb90e21e8a5", null ]
+    ] ],
+    [ "Elf32_Rela", "d1/d9e/elf_8h.html#d6/d35/structElf32__Rela", [
+      [ "r_addend", "d1/d9e/elf_8h.html#a1952286a900648afb9029c68a8bcea4d", null ],
+      [ "r_info", "d1/d9e/elf_8h.html#ac3a79d3f04209c33ddb4c36d07e68a79", null ],
+      [ "r_offset", "d1/d9e/elf_8h.html#aa850a306ee7fa3935a9f8c3d1aae4e51", null ]
     ] ],
     [ "Elf64_Rela", "d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela", [
       [ "r_addend", "d1/d9e/elf_8h.html#a04358b55027a7dcc414e221d916aac64", null ],
@@ -585,7 +590,9 @@ var elf_8h =
       [ "PT_SUNWSTACK", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a245a2852fd792fbd6f45e4a7593c76e4", null ],
       [ "PT_HISUNW", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2abd2ab1a79917a2fd28e9ff22f1b0d573", null ],
       [ "PT_LOPROC", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a20f5617084b54d26ae506ce9dabf3dc5", null ],
-      [ "PT_HIPROC", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a384e8634c1aa98561199b04d3f49a48b", null ]
+      [ "PT_HIPROC", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a384e8634c1aa98561199b04d3f49a48b", null ],
+      [ "PT_GNU_EH_FRAME", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2adb27e86abc40960ca0544a9c6f660424", null ],
+      [ "PT_GNU_STACK", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a4c9884d60c50de08002a5d27f3a144e5", null ]
     ] ],
     [ "SpecialSections", "d1/d9e/elf_8h.html#ac66207c7e7e0fab7248858c17aa1b194", [
       [ "SHT_NULL", "d1/d9e/elf_8h.html#ac66207c7e7e0fab7248858c17aa1b194aa131743814e8f0dde8dddac6dbb6b3cd", null ],

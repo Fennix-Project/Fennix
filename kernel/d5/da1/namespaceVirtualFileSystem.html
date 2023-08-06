@@ -128,89 +128,57 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:d4/d2a/structVirtualFileSystem_1_1FileSystemOperations"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#d4/d2a/structVirtualFileSystem_1_1FileSystemOperations">FileSystemOperations</a></td></tr>
 <tr class="separator:d4/d2a/structVirtualFileSystem_1_1FileSystemOperations"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:da/d1a/structVirtualFileSystem_1_1Node"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a></td></tr>
-<tr class="separator:da/d1a/structVirtualFileSystem_1_1Node"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">File</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d08/classVirtualFileSystem_1_1ReferenceNode.html">ReferenceNode</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbd/classVirtualFileSystem_1_1Virtual.html">Virtual</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html">FileDescriptorTable</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ae226e9507b51c909b110ad3637de1e51"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#ae226e9507b51c909b110ad3637de1e51">OperationMount</a>) (const char *, unsigned long, const void *)</td></tr>
-<tr class="separator:ae226e9507b51c909b110ad3637de1e51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c88a056f49fe6e1616e755bf63708c0"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a1c88a056f49fe6e1616e755bf63708c0">OperationUmount</a>) (int)</td></tr>
-<tr class="separator:a1c88a056f49fe6e1616e755bf63708c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab96c04bb4469a2c67e08dca3d9f1e097"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#ab96c04bb4469a2c67e08dca3d9f1e097">OperationRead</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer)</td></tr>
-<tr class="separator:ab96c04bb4469a2c67e08dca3d9f1e097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9aedb1c9f8f91c36e4281f22767f3dab"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a9aedb1c9f8f91c36e4281f22767f3dab">OperationWrite</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer)</td></tr>
-<tr class="separator:a9aedb1c9f8f91c36e4281f22767f3dab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf54285307ce50e428033f1f6084caff"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#acf54285307ce50e428033f1f6084caff">OperationOpen</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Mode, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="el" href="../../da/d16/ac97_8hpp.html#af2800c799892d286bd4a937d93fff2d2">Flags</a>)</td></tr>
-<tr class="separator:acf54285307ce50e428033f1f6084caff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c746fc2aa5630d9c5c43b9a83933500"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a8c746fc2aa5630d9c5c43b9a83933500">OperationClose</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node)</td></tr>
-<tr class="separator:a8c746fc2aa5630d9c5c43b9a83933500"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85a09540c85179b8c41d6520a8aeeaf8"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a85a09540c85179b8c41d6520a8aeeaf8">OperationSync</a>) (void)</td></tr>
-<tr class="separator:a85a09540c85179b8c41d6520a8aeeaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc08a8cc040d568d927bf0121aa68d7e"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#adc08a8cc040d568d927bf0121aa68d7e">OperationCreate</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, char *Name, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NameLength)</td></tr>
-<tr class="separator:adc08a8cc040d568d927bf0121aa68d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d40e8e2835e0750d96dac4678caa68b"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a7d40e8e2835e0750d96dac4678caa68b">OperationMkdir</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, char *Name, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NameLength)</td></tr>
-<tr class="separator:a7d40e8e2835e0750d96dac4678caa68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bf071d3ed7189c3c8dc1ffb1bbc88d0"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a1bf071d3ed7189c3c8dc1ffb1bbc88d0">OperationSeek</a>) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Offset, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Whence)</td></tr>
-<tr class="separator:a1bf071d3ed7189c3c8dc1ffb1bbc88d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe97fc902d188fb34296d7ea6f0281b1"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#afe97fc902d188fb34296d7ea6f0281b1">OperationRead</a>) (<a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a> *node, <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer, off_t &amp;RefOffset)</td></tr>
+<tr class="separator:afe97fc902d188fb34296d7ea6f0281b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb3dc889afde49b1d59cfaf1aaf793b4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#adb3dc889afde49b1d59cfaf1aaf793b4">OperationWrite</a>) (<a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a> *node, <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer, off_t &amp;RefOffset)</td></tr>
+<tr class="separator:adb3dc889afde49b1d59cfaf1aaf793b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a220f92fbb0424b2f80526848d87b4fac"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a220f92fbb0424b2f80526848d87b4fac">OperationCreate</a>) (<a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a> *node, char *Name, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NameLength, off_t &amp;RefOffset)</td></tr>
+<tr class="separator:a220f92fbb0424b2f80526848d87b4fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51eddbf64033dd5232ab1c1680dee2b3"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a51eddbf64033dd5232ab1c1680dee2b3">OperationMkdir</a>) (<a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a> *node, char *Name, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NameLength, off_t &amp;RefOffset)</td></tr>
+<tr class="separator:a51eddbf64033dd5232ab1c1680dee2b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e9e2e04b300f5eaf233a952491ff914"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a>(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a3e9e2e04b300f5eaf233a952491ff914">OperationSeek</a>) (<a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a> *node, <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> Offset, int Whence, off_t &amp;RefOffset)</td></tr>
+<tr class="separator:a3e9e2e04b300f5eaf233a952491ff914"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aae3beedde8379e8aa682819426bd58d9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9">FileStatus</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ab2d66b182b53077e600b127cc965bdbb">OK</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683">NotFound</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec">NotEmpty</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b">NotSupported</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353">AccessDenied</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">Timeout</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18">SectorNotFound</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566">PartiallyCompleted</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef">InvalidName</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9">InvalidParameter</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d">InvalidHandle</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8">InvalidPath</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc">InvalidDevice</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37">InvalidOperator</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe">InvalidNode</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0">FileExists</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483">FileIsADirectory</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9">FileIsInvalid</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7">DirectoryNotEmpty</a>
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989">NotADirectory</a>
-, <br />
-&#160;&#160;<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5">UnknownFileStatusError</a>
-<br />
- }</td></tr>
-<tr class="separator:aae3beedde8379e8aa682819426bd58d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47411d848726acd2f7e1045a7bb7f7cf"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cf">NodeFlags</a> { <br />
 &#160;&#160;<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6">NODE_FLAG_ERROR</a> = 0x0
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa3abcbb79368a93dc4f4330a0aebe8a12">FILE</a> = 0x01
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0">DIRECTORY</a> = 0x02
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7">CHARDEVICE</a> = 0x03
+, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa3abcbb79368a93dc4f4330a0aebe8a12">FILE</a> = S_IFREG
+, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0">DIRECTORY</a> = S_IFDIR
+, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7">CHARDEVICE</a> = S_IFCHR
 , <br />
-&#160;&#160;<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56">BLOCKDEVICE</a> = 0x04
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c">PIPE</a> = 0x05
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f">SYMLINK</a> = 0x06
-, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8">MOUNTPOINT</a> = 0x08
+&#160;&#160;<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56">BLOCKDEVICE</a> = S_IFBLK
+, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c">PIPE</a> = S_IFIFO
+, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f">SYMLINK</a> = S_IFLNK
+, <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8">MOUNTPOINT</a> = S_IFDIR
 <br />
  }</td></tr>
 <tr class="separator:a47411d848726acd2f7e1045a7bb7f7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a653da9cb08739a904fe0319bec19e84c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a653da9cb08739a904fe0319bec19e84c">ReadFSFunction</a> (fd_Read)</td></tr>
+<tr class="separator:a653da9cb08739a904fe0319bec19e84c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455ae4137a8351f195893ae097ecbed9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a455ae4137a8351f195893ae097ecbed9">WriteFSFunction</a> (fd_Write)</td></tr>
+<tr class="separator:a455ae4137a8351f195893ae097ecbed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74e46dd680ad752d863d0cfe7830ac23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a74e46dd680ad752d863d0cfe7830ac23">ReadFSFunction</a> (USTAR_Read)</td></tr>
 <tr class="separator:a74e46dd680ad752d863d0cfe7830ac23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a310aa8394b175b351f3982385f27ca3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#d4/d2a/structVirtualFileSystem_1_1FileSystemOperations">VirtualFileSystem::FileSystemOperations</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a310aa8394b175b351f3982385f27ca3d">fd_op</a></td></tr>
+<tr class="separator:a310aa8394b175b351f3982385f27ca3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d9fff206826e089601740252c58e032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#d4/d2a/structVirtualFileSystem_1_1FileSystemOperations">FileSystemOperations</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a7d9fff206826e089601740252c58e032">ustar_op</a></td></tr>
 <tr class="separator:a7d9fff206826e089601740252c58e032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -227,419 +195,143 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00099">99</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00176">176</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a3241a11903373bf5d931c0ea32f9ba11"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a8c746fc2aa5630d9c5c43b9a83933500">OperationClose</a></td>
-<td class="fieldname">
-Close</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ad5cd47ae31eb64d5625e29ebe6c681ec"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#adc08a8cc040d568d927bf0121aa68d7e">OperationCreate</a></td>
+<a id="ad5cd47ae31eb64d5625e29ebe6c681ec"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a220f92fbb0424b2f80526848d87b4fac">OperationCreate</a></td>
 <td class="fieldname">
 Create</td>
 <td class="fielddoc">
+<p>Pointer to the create function</p>
+<dl class="section note"><dt>Note</dt><dd>Optional </dd></dl>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a0ec52f44b39d175c2e594f859306a380"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a7d40e8e2835e0750d96dac4678caa68b">OperationMkdir</a></td>
+<a id="a0ec52f44b39d175c2e594f859306a380"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a51eddbf64033dd5232ab1c1680dee2b3">OperationMkdir</a></td>
 <td class="fieldname">
 MakeDirectory</td>
 <td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a6939d592d92499613379e98dd9b6873a"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#ae226e9507b51c909b110ad3637de1e51">OperationMount</a></td>
-<td class="fieldname">
-Mount</td>
-<td class="fielddoc">
+<p>Pointer to the mkdir function</p>
+<dl class="section note"><dt>Note</dt><dd>Optional </dd></dl>
 </td></tr>
 <tr><td class="fieldtype">
 <a id="a89adf3980936251168a5bd8ae19c693c"></a>char</td>
 <td class="fieldname">
 Name[<a class="el" href="../../d1/d85/filesystem_8hpp.html#a610ce22de673afc7b1e8b0e7b3c9fe7a">FILENAME_LENGTH</a>]</td>
 <td class="fielddoc">
+<p>Name of the filesystem operations</p>
+<dl class="section note"><dt>Note</dt><dd>Mandatory </dd></dl>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a5f176c448eab3745380c286b83fd7fd7"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#acf54285307ce50e428033f1f6084caff">OperationOpen</a></td>
-<td class="fieldname">
-Open</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aaf92bb5ec8e2c7a9cb4d9b93297e9b50"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#ab96c04bb4469a2c67e08dca3d9f1e097">OperationRead</a></td>
+<a id="aaf92bb5ec8e2c7a9cb4d9b93297e9b50"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#afe97fc902d188fb34296d7ea6f0281b1">OperationRead</a></td>
 <td class="fieldname">
 Read</td>
 <td class="fielddoc">
+<p>Pointer to the read function</p>
+<dl class="section note"><dt>Note</dt><dd>Mandatory </dd></dl>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a0ad894c0222ae1c172adc0fd5a7c8b8c"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a1bf071d3ed7189c3c8dc1ffb1bbc88d0">OperationSeek</a></td>
+<a id="a0ad894c0222ae1c172adc0fd5a7c8b8c"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a3e9e2e04b300f5eaf233a952491ff914">OperationSeek</a></td>
 <td class="fieldname">
 Seek</td>
 <td class="fielddoc">
+<p>Pointer to the seek function</p>
+<dl class="section note"><dt>Note</dt><dd>Optional </dd></dl>
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aed1ccb549e022d6d268b25e7d1aa5922"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a1c88a056f49fe6e1616e755bf63708c0">OperationUmount</a></td>
-<td class="fieldname">
-Umount</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a5321578224bfb90723fd5d1f56c43c72"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a9aedb1c9f8f91c36e4281f22767f3dab">OperationWrite</a></td>
+<a id="a5321578224bfb90723fd5d1f56c43c72"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#adb3dc889afde49b1d59cfaf1aaf793b4">OperationWrite</a></td>
 <td class="fieldname">
 Write</td>
 <td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a name="da/d1a/structVirtualFileSystem_1_1Node" id="da/d1a/structVirtualFileSystem_1_1Node"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#da/d1a/structVirtualFileSystem_1_1Node">&#9670;&nbsp;</a></span>VirtualFileSystem::Node</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct VirtualFileSystem::Node</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00113">113</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="a0a187509f887b6dda7954acce3463863"></a><a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></td>
-<td class="fieldname">
-Address</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="adfcb43c5d7c54ff32a90d58a9e8560d1"></a>vector&lt; <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> * &gt;</td>
-<td class="fieldname">
-Children</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a1bc9fee000c064f7890eb7f2992faef8"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cf">NodeFlags</a></td>
-<td class="fieldname">
-Flags</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a3d081006361c0e8abc86a6a1057ef052"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-GroupIdentifier</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a158c27a82afa00091709253fb79775ca"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-IndexNode</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a785adf7482736ac3479b077fd02021d7"></a><a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a></td>
-<td class="fieldname">
-Length</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ab5b721fadfb91a39d2615f6d4c9f4d11"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Mask</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a521c32a6e7b8d5da1dc472e4cdb9a0e5"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Mode</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="acf0e5c228699b890c32df3ebe86a3d9d"></a>char</td>
-<td class="fieldname">
-Name[<a class="el" href="../../d1/d85/filesystem_8hpp.html#a610ce22de673afc7b1e8b0e7b3c9fe7a">FILENAME_LENGTH</a>]</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ae590a9ff8aa0a972365035fb46f9380d"></a><a class="el" href="../../d6/de6/include_2types_8h.html#af83497edef361523a95b06deda0b4c2d">off_t</a></td>
-<td class="fieldname">
-Offset</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a6705fcbb1f33f4919fdf90ed7a2ecdb0"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#d4/d2a/structVirtualFileSystem_1_1FileSystemOperations">FileSystemOperations</a> *</td>
-<td class="fieldname">
-Operator</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a2a269f685aa8f6429deb067e9b7ae56e"></a><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *</td>
-<td class="fieldname">
-Parent</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a2f3f88e787fd98b7e0e869bbb0c66862"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-UserIdentifier</td>
-<td class="fielddoc">
+<p>Pointer to the write function</p>
+<dl class="section note"><dt>Note</dt><dd>Mandatory </dd></dl>
 </td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a8c746fc2aa5630d9c5c43b9a83933500"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c746fc2aa5630d9c5c43b9a83933500">&#9670;&nbsp;</a></span>OperationClose</h2>
+<a id="a220f92fbb0424b2f80526848d87b4fac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a220f92fbb0424b2f80526848d87b4fac">&#9670;&nbsp;</a></span>OperationCreate</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* VirtualFileSystem::OperationClose) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node)</td>
+          <td class="memname">typedef void(* VirtualFileSystem::OperationCreate) (<a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a> *node, char *Name, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NameLength, off_t &amp;RefOffset)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00040">40</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00149">149</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
-<a id="adc08a8cc040d568d927bf0121aa68d7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc08a8cc040d568d927bf0121aa68d7e">&#9670;&nbsp;</a></span>OperationCreate</h2>
+<a id="a51eddbf64033dd5232ab1c1680dee2b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51eddbf64033dd5232ab1c1680dee2b3">&#9670;&nbsp;</a></span>OperationMkdir</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* VirtualFileSystem::OperationCreate) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, char *Name, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NameLength)</td>
+          <td class="memname">typedef void(* VirtualFileSystem::OperationMkdir) (<a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a> *node, char *Name, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NameLength, off_t &amp;RefOffset)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00042">42</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00150">150</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a7d40e8e2835e0750d96dac4678caa68b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d40e8e2835e0750d96dac4678caa68b">&#9670;&nbsp;</a></span>OperationMkdir</h2>
+<a id="afe97fc902d188fb34296d7ea6f0281b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe97fc902d188fb34296d7ea6f0281b1">&#9670;&nbsp;</a></span>OperationRead</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* VirtualFileSystem::OperationMkdir) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, char *Name, <a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> NameLength)</td>
+          <td class="memname">typedef <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a>(* VirtualFileSystem::OperationRead) (<a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a> *node, <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer, off_t &amp;RefOffset)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00043">43</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00147">147</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ae226e9507b51c909b110ad3637de1e51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae226e9507b51c909b110ad3637de1e51">&#9670;&nbsp;</a></span>OperationMount</h2>
+<a id="a3e9e2e04b300f5eaf233a952491ff914"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e9e2e04b300f5eaf233a952491ff914">&#9670;&nbsp;</a></span>OperationSeek</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(* VirtualFileSystem::OperationMount) (const char *, unsigned long, const void *)</td>
+          <td class="memname">typedef <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a>(* VirtualFileSystem::OperationSeek) (<a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a> *node, <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> Offset, int Whence, off_t &amp;RefOffset)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00035">35</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00151">151</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
-<a id="acf54285307ce50e428033f1f6084caff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf54285307ce50e428033f1f6084caff">&#9670;&nbsp;</a></span>OperationOpen</h2>
+<a id="adb3dc889afde49b1d59cfaf1aaf793b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3dc889afde49b1d59cfaf1aaf793b4">&#9670;&nbsp;</a></span>OperationWrite</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* VirtualFileSystem::OperationOpen) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Mode, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="el" href="../../da/d16/ac97_8hpp.html#af2800c799892d286bd4a937d93fff2d2">Flags</a>)</td>
+          <td class="memname">typedef <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a>(* VirtualFileSystem::OperationWrite) (<a class="el" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html">Node</a> *node, <a class="el" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer, off_t &amp;RefOffset)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00039">39</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ab96c04bb4469a2c67e08dca3d9f1e097"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab96c04bb4469a2c67e08dca3d9f1e097">&#9670;&nbsp;</a></span>OperationRead</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(* VirtualFileSystem::OperationRead) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00037">37</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1bf071d3ed7189c3c8dc1ffb1bbc88d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bf071d3ed7189c3c8dc1ffb1bbc88d0">&#9670;&nbsp;</a></span>OperationSeek</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(* VirtualFileSystem::OperationSeek) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> Offset, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Whence)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00044">44</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a85a09540c85179b8c41d6520a8aeeaf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85a09540c85179b8c41d6520a8aeeaf8">&#9670;&nbsp;</a></span>OperationSync</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(* VirtualFileSystem::OperationSync) (void)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00041">41</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a1c88a056f49fe6e1616e755bf63708c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c88a056f49fe6e1616e755bf63708c0">&#9670;&nbsp;</a></span>OperationUmount</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(* VirtualFileSystem::OperationUmount) (int)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00036">36</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-
-</div>
-</div>
-<a id="a9aedb1c9f8f91c36e4281f22767f3dab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9aedb1c9f8f91c36e4281f22767f3dab">&#9670;&nbsp;</a></span>OperationWrite</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>(* VirtualFileSystem::OperationWrite) (<a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#da/d1a/structVirtualFileSystem_1_1Node">Node</a> *node, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *Buffer)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00038">38</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00148">148</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="aae3beedde8379e8aa682819426bd58d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae3beedde8379e8aa682819426bd58d9">&#9670;&nbsp;</a></span>FileStatus</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9">VirtualFileSystem::FileStatus</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9ab2d66b182b53077e600b127cc965bdbb"></a>OK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683"></a>NotFound&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec"></a>NotEmpty&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b"></a>NotSupported&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353"></a>AccessDenied&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169"></a>Timeout&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18"></a>SectorNotFound&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566"></a>PartiallyCompleted&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef"></a>InvalidName&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9"></a>InvalidParameter&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d"></a>InvalidHandle&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8"></a>InvalidPath&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc"></a>InvalidDevice&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37"></a>InvalidOperator&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe"></a>InvalidNode&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0"></a>FileExists&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483"></a>FileIsADirectory&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9"></a>FileIsInvalid&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7"></a>DirectoryNotEmpty&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989"></a>NotADirectory&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5"></a>UnknownFileStatusError&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00058">58</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59">OK</a>,</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683">NotFound</a>,</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec">NotEmpty</a>,</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b">NotSupported</a>,</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353">AccessDenied</a>,</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">Timeout</a>,</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18">SectorNotFound</a>,</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566">PartiallyCompleted</a>,</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef">InvalidName</a>,</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9">InvalidParameter</a>,</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d">InvalidHandle</a>,</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8">InvalidPath</a>,</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc">InvalidDevice</a>,</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37">InvalidOperator</a>,</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe">InvalidNode</a>,</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0">FileExists</a>,</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483">FileIsADirectory</a>,</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9">FileIsInvalid</a>,</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7">DirectoryNotEmpty</a>,</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989">NotADirectory</a>,</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5">UnknownFileStatusError</a></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    };</div>
-<div class="ttc" id="aDAPI_8hpp_html_adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#adc3813269f8120111d82d0b85c3cd2a0a2bc49ec37d6a5715dd23e85f1ff5bb59">OK</a></div><div class="ttdeci">@ OK</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00050">DAPI.hpp:50</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a079b177645307a63789124631754e566">VirtualFileSystem::PartiallyCompleted</a></div><div class="ttdeci">@ PartiallyCompleted</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00067">filesystem.hpp:67</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a0d8223c2f9cd382bd2a89ab195fc97d8">VirtualFileSystem::InvalidPath</a></div><div class="ttdeci">@ InvalidPath</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00072">filesystem.hpp:72</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a18729537f8040ec7ae7e3109735111ec">VirtualFileSystem::NotEmpty</a></div><div class="ttdeci">@ NotEmpty</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00062">filesystem.hpp:62</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a2d470f84e8dd927ed2244e590b4185fc">VirtualFileSystem::InvalidDevice</a></div><div class="ttdeci">@ InvalidDevice</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00073">filesystem.hpp:73</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a52d701867a4609f3bd268cb077736169">VirtualFileSystem::Timeout</a></div><div class="ttdeci">@ Timeout</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00065">filesystem.hpp:65</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a5d0bf9dd896fe1c2f789a93138d6c683">VirtualFileSystem::NotFound</a></div><div class="ttdeci">@ NotFound</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00061">filesystem.hpp:61</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a68d1ba86ca5c11a63bb40e6c0896d989">VirtualFileSystem::NotADirectory</a></div><div class="ttdeci">@ NotADirectory</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00082">filesystem.hpp:82</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a7a7f361d3b87c2f1f2a57e661399b8f0">VirtualFileSystem::FileExists</a></div><div class="ttdeci">@ FileExists</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00077">filesystem.hpp:77</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a80b6ced6d9b3071c6139f6d9cbdadd18">VirtualFileSystem::SectorNotFound</a></div><div class="ttdeci">@ SectorNotFound</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00066">filesystem.hpp:66</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a8aa1158b5210c8b5d41954dcca32e483">VirtualFileSystem::FileIsADirectory</a></div><div class="ttdeci">@ FileIsADirectory</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00078">filesystem.hpp:78</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a9041a35144a93f760f113b9d9e78710d">VirtualFileSystem::InvalidHandle</a></div><div class="ttdeci">@ InvalidHandle</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00071">filesystem.hpp:71</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9a938f59518a869452068b09114428fdef">VirtualFileSystem::InvalidName</a></div><div class="ttdeci">@ InvalidName</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00069">filesystem.hpp:69</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9abbbd5bb6b296dd747095ce52d1ed31a5">VirtualFileSystem::UnknownFileStatusError</a></div><div class="ttdeci">@ UnknownFileStatusError</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00085">filesystem.hpp:84</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9aca0f558ffa472f42bb2e59012849fe37">VirtualFileSystem::InvalidOperator</a></div><div class="ttdeci">@ InvalidOperator</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00074">filesystem.hpp:74</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9acff087752c36b675efdbea0f829015a7">VirtualFileSystem::DirectoryNotEmpty</a></div><div class="ttdeci">@ DirectoryNotEmpty</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00081">filesystem.hpp:81</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae71737ba65103a2705e08d7173c7bce9">VirtualFileSystem::FileIsInvalid</a></div><div class="ttdeci">@ FileIsInvalid</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00079">filesystem.hpp:79</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9ae96844e491ad13e91df0d1e5d9ee90fe">VirtualFileSystem::InvalidNode</a></div><div class="ttdeci">@ InvalidNode</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00075">filesystem.hpp:75</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afab45ea38cea0204ab7678ff72e74353">VirtualFileSystem::AccessDenied</a></div><div class="ttdeci">@ AccessDenied</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00064">filesystem.hpp:64</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afb8c030bb0067aa1e8c785ef534ad28b">VirtualFileSystem::NotSupported</a></div><div class="ttdeci">@ NotSupported</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00063">filesystem.hpp:63</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#aae3beedde8379e8aa682819426bd58d9afdb10dce2d0ff863cd6cf38725bc8dd9">VirtualFileSystem::InvalidParameter</a></div><div class="ttdeci">@ InvalidParameter</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00070">filesystem.hpp:70</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="a47411d848726acd2f7e1045a7bb7f7cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a47411d848726acd2f7e1045a7bb7f7cf">&#9670;&nbsp;</a></span>NodeFlags</h2>
 
@@ -662,31 +354,75 @@ UserIdentifier</td>
 <tr><td class="fieldname"><a id="a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8"></a>MOUNTPOINT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6">NODE_FLAG_ERROR</a> = 0x0,</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <a class="code" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> = 0x01,</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0">DIRECTORY</a> = 0x02,</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7">CHARDEVICE</a> = 0x03,</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56">BLOCKDEVICE</a> = 0x04,</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c">PIPE</a> = 0x05,</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f">SYMLINK</a> = 0x06,</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8">MOUNTPOINT</a> = 0x08</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    };</div>
+<p class="definition">Definition at line <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00164">164</a> of file <a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6">NODE_FLAG_ERROR</a> = 0x0,</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <a class="code" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> = <a class="code" href="../../d1/d85/filesystem_8hpp.html#a1aaa48b192a5dd3b6d7ee91fc98cd17d">S_IFREG</a>,</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0">DIRECTORY</a> = <a class="code" href="../../d1/d85/filesystem_8hpp.html#a11fb0652b963a735f3377eb1c9239f2d">S_IFDIR</a>,</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7">CHARDEVICE</a> = <a class="code" href="../../d1/d85/filesystem_8hpp.html#aef3a1d1ba22c83e30b5c834dd343b2a8">S_IFCHR</a>,</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56">BLOCKDEVICE</a> = <a class="code" href="../../d1/d85/filesystem_8hpp.html#a5c5b74a1cb1a1ae83572500b94e1938f">S_IFBLK</a>,</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c">PIPE</a> = <a class="code" href="../../d1/d85/filesystem_8hpp.html#a4966f25d9f03a7a06bc47ac729fd86cf">S_IFIFO</a>,</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f">SYMLINK</a> = <a class="code" href="../../d1/d85/filesystem_8hpp.html#afef163ce62372757e84bd9fc88c07aad">S_IFLNK</a>,</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8">MOUNTPOINT</a> = <a class="code" href="../../d1/d85/filesystem_8hpp.html#a11fb0652b963a735f3377eb1c9239f2d">S_IFDIR</a></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    };</div>
 <div class="ttc" id="acargs_8h_html_a69437b5d572dd16d6d4fdbcbd066c7a9"><div class="ttname"><a href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a></div><div class="ttdeci">unsigned int FILE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d37/cargs_8h_source.html#l00038">cargs.h:38</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56">VirtualFileSystem::BLOCKDEVICE</a></div><div class="ttdeci">@ BLOCKDEVICE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00093">filesystem.hpp:93</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f">VirtualFileSystem::SYMLINK</a></div><div class="ttdeci">@ SYMLINK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00095">filesystem.hpp:95</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6">VirtualFileSystem::NODE_FLAG_ERROR</a></div><div class="ttdeci">@ NODE_FLAG_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00089">filesystem.hpp:89</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7">VirtualFileSystem::CHARDEVICE</a></div><div class="ttdeci">@ CHARDEVICE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00092">filesystem.hpp:92</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0">VirtualFileSystem::DIRECTORY</a></div><div class="ttdeci">@ DIRECTORY</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00091">filesystem.hpp:91</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8">VirtualFileSystem::MOUNTPOINT</a></div><div class="ttdeci">@ MOUNTPOINT</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00097">filesystem.hpp:96</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c">VirtualFileSystem::PIPE</a></div><div class="ttdeci">@ PIPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00094">filesystem.hpp:94</a></div></div>
+<div class="ttc" id="afilesystem_8hpp_html_a11fb0652b963a735f3377eb1c9239f2d"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a11fb0652b963a735f3377eb1c9239f2d">S_IFDIR</a></div><div class="ttdeci">#define S_IFDIR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00061">filesystem.hpp:61</a></div></div>
+<div class="ttc" id="afilesystem_8hpp_html_a1aaa48b192a5dd3b6d7ee91fc98cd17d"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a1aaa48b192a5dd3b6d7ee91fc98cd17d">S_IFREG</a></div><div class="ttdeci">#define S_IFREG</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00063">filesystem.hpp:63</a></div></div>
+<div class="ttc" id="afilesystem_8hpp_html_a4966f25d9f03a7a06bc47ac729fd86cf"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a4966f25d9f03a7a06bc47ac729fd86cf">S_IFIFO</a></div><div class="ttdeci">#define S_IFIFO</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00059">filesystem.hpp:59</a></div></div>
+<div class="ttc" id="afilesystem_8hpp_html_a5c5b74a1cb1a1ae83572500b94e1938f"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a5c5b74a1cb1a1ae83572500b94e1938f">S_IFBLK</a></div><div class="ttdeci">#define S_IFBLK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00062">filesystem.hpp:62</a></div></div>
+<div class="ttc" id="afilesystem_8hpp_html_aef3a1d1ba22c83e30b5c834dd343b2a8"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#aef3a1d1ba22c83e30b5c834dd343b2a8">S_IFCHR</a></div><div class="ttdeci">#define S_IFCHR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00060">filesystem.hpp:60</a></div></div>
+<div class="ttc" id="afilesystem_8hpp_html_afef163ce62372757e84bd9fc88c07aad"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#afef163ce62372757e84bd9fc88c07aad">S_IFLNK</a></div><div class="ttdeci">#define S_IFLNK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00064">filesystem.hpp:64</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa2dce3f9216ccf57fa16c51f3908b0d56">VirtualFileSystem::BLOCKDEVICE</a></div><div class="ttdeci">@ BLOCKDEVICE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00170">filesystem.hpp:170</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa4c766fa5c6b560b6c3d037cea442624f">VirtualFileSystem::SYMLINK</a></div><div class="ttdeci">@ SYMLINK</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00172">filesystem.hpp:172</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa5b450cd9eaf6da677b1187b15b5e3ca6">VirtualFileSystem::NODE_FLAG_ERROR</a></div><div class="ttdeci">@ NODE_FLAG_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00166">filesystem.hpp:166</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfa6b77d588a18904bb78bfdf65109773d7">VirtualFileSystem::CHARDEVICE</a></div><div class="ttdeci">@ CHARDEVICE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00169">filesystem.hpp:169</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfab0e0ca57ce9c43cbe354c37d82dd67d0">VirtualFileSystem::DIRECTORY</a></div><div class="ttdeci">@ DIRECTORY</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00168">filesystem.hpp:168</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfac4b05b22e8e6012788c9bfa8c48f50d8">VirtualFileSystem::MOUNTPOINT</a></div><div class="ttdeci">@ MOUNTPOINT</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00174">filesystem.hpp:173</a></div></div>
+<div class="ttc" id="anamespaceVirtualFileSystem_html_a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cfada3278aebc363d7db9d06d6c3610d53c">VirtualFileSystem::PIPE</a></div><div class="ttdeci">@ PIPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00171">filesystem.hpp:171</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a653da9cb08739a904fe0319bec19e84c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a653da9cb08739a904fe0319bec19e84c">&#9670;&nbsp;</a></span>ReadFSFunction() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VirtualFileSystem::ReadFSFunction </td>
+          <td>(</td>
+          <td class="paramtype">fd_Read&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d9f/FileDescriptor_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../d0/d9f/FileDescriptor_8cpp_source.html">FileDescriptor.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = node-&gt;Length;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span> (RefOffset &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">if</span> (RefOffset + (off_t)<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = node-&gt;Length - RefOffset;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>(Buffer, (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)(node-&gt;Address + RefOffset), <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
+<div class="ttc" id="aConvert_8cpp_html_a0c94a56e02776859c0f510bd6f7354c6"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memcpy(void *dest, const void *src, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l01061">Convert.cpp:1061</a></div></div>
+<div class="ttc" id="aXallocV1_8cpp_html_a9a6916f13c01e1cbb39bf087545542c7"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">XallocV1.cpp:4</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00160">types.h:160</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01061">memcpy()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
+
+</div>
+</div>
 <a id="a74e46dd680ad752d863d0cfe7830ac23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74e46dd680ad752d863d0cfe7830ac23">&#9670;&nbsp;</a></span>ReadFSFunction()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a74e46dd680ad752d863d0cfe7830ac23">&#9670;&nbsp;</a></span>ReadFSFunction() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -706,24 +442,79 @@ UserIdentifier</td>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = node-&gt;Length;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span> ((<span class="keywordtype">size_t</span>)node-&gt;Offset &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span> (RefOffset &gt; node-&gt;Length)</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">if</span> (node-&gt;Offset + <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> &gt; node-&gt;Length)</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = node-&gt;Length - node-&gt;Offset;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">if</span> (RefOffset + (off_t)<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = node-&gt;Length - RefOffset;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>(Buffer, (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)(node-&gt;Address + node-&gt;Offset), <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>(Buffer, (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)(node-&gt;Address + RefOffset), <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
-<div class="ttc" id="aConvert_8cpp_html_a0c94a56e02776859c0f510bd6f7354c6"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memcpy(void *dest, const void *src, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l01030">Convert.cpp:1030</a></div></div>
-<div class="ttc" id="aXallocV1_8cpp_html_a9a6916f13c01e1cbb39bf087545542c7"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">XallocV1.cpp:4</a></div></div>
-<div class="ttc" id="ainclude_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00156">types.h:156</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01030">memcpy()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01061">memcpy()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
+
+</div>
+</div>
+<a id="a455ae4137a8351f195893ae097ecbed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455ae4137a8351f195893ae097ecbed9">&#9670;&nbsp;</a></span>WriteFSFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">VirtualFileSystem::WriteFSFunction </td>
+          <td>(</td>
+          <td class="paramtype">fd_Write&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/d9f/FileDescriptor_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../d0/d9f/FileDescriptor_8cpp_source.html">FileDescriptor.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = node-&gt;Length;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span> (RefOffset &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">if</span> (RefOffset + (off_t)<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> &gt; node-&gt;Length)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a> = node-&gt;Length - RefOffset;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../d0/dc7/Convert_8cpp.html#a0c94a56e02776859c0f510bd6f7354c6">memcpy</a>((<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)(node-&gt;Address + RefOffset), Buffer, <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l01061">memcpy()</a>, and <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">Size</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a310aa8394b175b351f3982385f27ca3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a310aa8394b175b351f3982385f27ca3d">&#9670;&nbsp;</a></span>fd_op</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/da1/namespaceVirtualFileSystem.html#d4/d2a/structVirtualFileSystem_1_1FileSystemOperations">VirtualFileSystem::FileSystemOperations</a> VirtualFileSystem::fd_op</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">        .Name = <span class="stringliteral">&quot;fd&quot;</span>,</div>
+<div class="line">        </div>
+<div class="line">        </div>
+<div class="line">    }</div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d0/d9f/FileDescriptor_8cpp_source.html#l00061">61</a> of file <a class="el" href="../../d0/d9f/FileDescriptor_8cpp_source.html">FileDescriptor.cpp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/d9f/FileDescriptor_8cpp_source.html#l00102">VirtualFileSystem::FileDescriptorTable::AddFileDescriptor()</a>.</p>
+
+</div>
+</div>
 <a id="a7d9fff206826e089601740252c58e032"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7d9fff206826e089601740252c58e032">&#9670;&nbsp;</a></span>ustar_op</h2>
 

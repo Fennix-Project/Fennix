@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Userspace: Userspace/mlibc/tests/linux/xattr.c File Reference</title>
+<title>Fennix Userspace: Userspace/musl/src/linux/xattr.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,100 +86,73 @@ $(document).ready(function(){initNavTree('de/d1d/xattr_8c.html','../../'); initR
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">xattr.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
-<code>#include &lt;stdlib.h&gt;</code><br />
-<code>#include &lt;errno.h&gt;</code><br />
-<code>#include &lt;string.h&gt;</code><br />
-<code>#include &lt;unistd.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d3/d4c/options_2linux_2include_2sys_2xattr_8h_source.html">sys/xattr.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d4/d3d/xattr_8h_source.html">sys/xattr.h</a>&gt;</code><br />
+<code>#include &quot;syscall.h&quot;</code><br />
 </div>
 <p><a href="../../de/d1d/xattr_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:ade612e3827534f0f12cd577353cfc83c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a>(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
-<tr class="separator:ade612e3827534f0f12cd577353cfc83c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01a4e75e1c0e21ad10227c1d8096d11b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a>(<a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>,  m)</td></tr>
-<tr class="separator:a01a4e75e1c0e21ad10227c1d8096d11b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4602602e56e7eef872b55a727d070f02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#a4602602e56e7eef872b55a727d070f02">_cleanup_file_</a>&#160;&#160;&#160;<a class="el" href="../../d7/d35/rtld__next_2libfoo_8c.html#af9aace1b44b73111e15aa39f06f43456">__attribute__</a>((<a class="el" href="../../de/d6a/realpath_8c.html#ad9c1bf3b3fcefeca6d22ff3b2321dd8d">cleanup</a>(<a class="el" href="../../de/d1d/xattr_8c.html#aca0af9be67ce15be136c93f87a40d42d">remove_tmp</a>)))</td></tr>
-<tr class="separator:a4602602e56e7eef872b55a727d070f02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aca0af9be67ce15be136c93f87a40d42d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#aca0af9be67ce15be136c93f87a40d42d">remove_tmp</a> (const char(*fname)[])</td></tr>
-<tr class="separator:aca0af9be67ce15be136c93f87a40d42d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a840291bc02cba5474a4cb46a9b9566fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#a840291bc02cba5474a4cb46a9b9566fe">main</a> (void)</td></tr>
-<tr class="separator:a840291bc02cba5474a4cb46a9b9566fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a101b158e14ed67a88ade0707ef247c67"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#a101b158e14ed67a88ade0707ef247c67">getxattr</a> (const char *path, const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>, void *<a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>)</td></tr>
+<tr class="separator:a101b158e14ed67a88ade0707ef247c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8aefc7f65e94ff6a18ad8b63254e3ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#ab8aefc7f65e94ff6a18ad8b63254e3ae">lgetxattr</a> (const char *path, const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>, void *<a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>)</td></tr>
+<tr class="separator:ab8aefc7f65e94ff6a18ad8b63254e3ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96b7788fa54333c2f0e875c0d5d00808"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#a96b7788fa54333c2f0e875c0d5d00808">fgetxattr</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> filedes, const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>, void *<a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>)</td></tr>
+<tr class="separator:a96b7788fa54333c2f0e875c0d5d00808"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c0bb21860dbe8ecef2f9e4898c5a95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#a18c0bb21860dbe8ecef2f9e4898c5a95">listxattr</a> (const char *path, char *list, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>)</td></tr>
+<tr class="separator:a18c0bb21860dbe8ecef2f9e4898c5a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a478e78259174f320691e6c123f0dfcb1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#a478e78259174f320691e6c123f0dfcb1">llistxattr</a> (const char *path, char *list, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>)</td></tr>
+<tr class="separator:a478e78259174f320691e6c123f0dfcb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab777b8490f8d677a955828fce4d7f7a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#ab777b8490f8d677a955828fce4d7f7a8">flistxattr</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> filedes, char *list, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>)</td></tr>
+<tr class="separator:ab777b8490f8d677a955828fce4d7f7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7891221c9b241ab4e281d9912227f3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#ae7891221c9b241ab4e281d9912227f3a">setxattr</a> (const char *path, const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>, const void *<a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d6/d5a/videodev2_8h.html#aa2585d779da0ab21273a8d92de9a0ebe">flags</a>)</td></tr>
+<tr class="separator:ae7891221c9b241ab4e281d9912227f3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae53ec9d363e6df71a9264690700308c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#ae53ec9d363e6df71a9264690700308c2">lsetxattr</a> (const char *path, const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>, const void *<a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d6/d5a/videodev2_8h.html#aa2585d779da0ab21273a8d92de9a0ebe">flags</a>)</td></tr>
+<tr class="separator:ae53ec9d363e6df71a9264690700308c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7428f08d3ca003d7fbbe97c11a4a20ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#a7428f08d3ca003d7fbbe97c11a4a20ca">fsetxattr</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> filedes, const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>, const void *<a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d6/d5a/videodev2_8h.html#aa2585d779da0ab21273a8d92de9a0ebe">flags</a>)</td></tr>
+<tr class="separator:a7428f08d3ca003d7fbbe97c11a4a20ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac33a87767b64b4c22cb31b7e23d51a04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#ac33a87767b64b4c22cb31b7e23d51a04">removexattr</a> (const char *path, const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>)</td></tr>
+<tr class="separator:ac33a87767b64b4c22cb31b7e23d51a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a266e51d4ac5fb0958fbfe2ffddeba8fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#a266e51d4ac5fb0958fbfe2ffddeba8fe">lremovexattr</a> (const char *path, const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>)</td></tr>
+<tr class="separator:a266e51d4ac5fb0958fbfe2ffddeba8fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a051035c03a80d540618d64d60415e27d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d1d/xattr_8c.html#a051035c03a80d540618d64d60415e27d">fremovexattr</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>)</td></tr>
+<tr class="separator:a051035c03a80d540618d64d60415e27d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a4602602e56e7eef872b55a727d070f02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4602602e56e7eef872b55a727d070f02">&#9670;&nbsp;</a></span>_cleanup_file_</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a96b7788fa54333c2f0e875c0d5d00808"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96b7788fa54333c2f0e875c0d5d00808">&#9670;&nbsp;</a></span>fgetxattr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define _cleanup_file_&#160;&#160;&#160;<a class="el" href="../../d7/d35/rtld__next_2libfoo_8c.html#af9aace1b44b73111e15aa39f06f43456">__attribute__</a>((<a class="el" href="../../de/d6a/realpath_8c.html#ad9c1bf3b3fcefeca6d22ff3b2321dd8d">cleanup</a>(<a class="el" href="../../de/d1d/xattr_8c.html#aca0af9be67ce15be136c93f87a40d42d">remove_tmp</a>)))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00029">29</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
-
-</div>
-</div>
-<a id="ade612e3827534f0f12cd577353cfc83c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade612e3827534f0f12cd577353cfc83c">&#9670;&nbsp;</a></span>assert_perror</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define assert_perror</td>
+          <td class="memname"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a> fgetxattr </td>
           <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    ({                          \</div>
-<div class="line">        int res = (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>);      \</div>
-<div class="line">        if (res &lt; 0) {      \</div>
-<div class="line">            perror(#<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>); \</div>
-<div class="line">            return 1;   \</div>
-<div class="line">        }                   \</div>
-<div class="line">        res;                \</div>
-<div class="line">    })</div>
-<div class="ttc" id="aposix__stdlib_8cpp_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00038">posix_stdlib.cpp:38</a></div></div>
-</div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00008">8</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
-
-</div>
-</div>
-<a id="a01a4e75e1c0e21ad10227c1d8096d11b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a01a4e75e1c0e21ad10227c1d8096d11b">&#9670;&nbsp;</a></span>soft_assert</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define soft_assert</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, </td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>filedes</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">m&#160;</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -188,138 +161,499 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    ({                                                                  \</div>
-<div class="line">        if (!(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>)) {                                                 \</div>
-<div class="line">            fprintf(<a class="code" href="../../dc/d4d/libc_2include_2stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a>, <span class="stringliteral">&quot;cond \&quot;%s\&quot; failed: %s\n&quot;</span>, #<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, m); \</div>
-<div class="line">            return 1;                                           \</div>
-<div class="line">        }                                                           \</div>
-<div class="line">    })</div>
-<div class="ttc" id="alibc_2include_2stdio_8h_html_a5ce35bd5ba5021fd3b2e951e8f497656"><div class="ttname"><a href="../../dc/d4d/libc_2include_2stdio_8h.html#a5ce35bd5ba5021fd3b2e951e8f497656">stderr</a></div><div class="ttdeci">#define stderr</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d4d/libc_2include_2stdio_8h_source.html#l00060">stdio.h:60</a></div></div>
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00014">14</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_fgetxattr, filedes, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, <a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78">size</a>);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
+<div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
+<div class="ttc" id="alibc_2include_2setjmp_8h_html_ac4f474c82e82cbb89ca7c36dd52be0ed"><div class="ttname"><a href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a></div><div class="ttdeci">int value</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">setjmp.h:32</a></div></div>
+<div class="ttc" id="astring-stubs_8cpp_html_a252e4787d2e315cb28693ef2d9862e78"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78">size</a></div><div class="ttdeci">int const wchar_t size_t MLIBC_STUB_BODY int const wchar_t size_t size</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00285">string-stubs.cpp:285</a></div></div>
+<div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00018">18</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00285">size</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, and <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">value</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a840291bc02cba5474a4cb46a9b9566fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a840291bc02cba5474a4cb46a9b9566fe">&#9670;&nbsp;</a></span>main()</h2>
+<a id="ab777b8490f8d677a955828fce4d7f7a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab777b8490f8d677a955828fce4d7f7a8">&#9670;&nbsp;</a></span>flistxattr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> main </td>
+          <td class="memname"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a> flistxattr </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>filedes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00031">31</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;               {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">char</span> <a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>[32] = { 0 };</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#a4602602e56e7eef872b55a727d070f02">_cleanup_file_</a> <span class="keywordtype">char</span> filename[] = <span class="stringliteral">&quot;xattr_test.XXXXXX&quot;</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#a4602602e56e7eef872b55a727d070f02">_cleanup_file_</a> <span class="keywordtype">char</span> filename2[] = <span class="stringliteral">&quot;xattr_test.XXXXXX.2&quot;</span>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#aa415204f66d1e605f41738e448208467">tmpfile</a> = <a class="code" href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a>(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#a0b8d4c3f9014280ee36a9aa5571f4111">mkstemp</a>(filename));</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(filename2, filename, <span class="keyword">sizeof</span>(filename) - 1);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a>(<a class="code" href="../../dd/d08/unistd-stubs_8cpp.html#ad42b5c4d9c9b8b5dfa8beae310b4a7af">symlink</a>(filename, filename2));</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a>(<a class="code" href="../../df/de1/sys-xattr_8cpp.html#aa20b67f8ff7ed34a126a7e265e51a161">setxattr</a>(filename, <span class="stringliteral">&quot;user.T1&quot;</span>, <span class="stringliteral">&quot;ABC&quot;</span>, 3, <a class="code" href="../../dd/d7f/abis_2linux_2xattr_8h.html#a9a553a1ea33e2cb76ec66d4a1cde0a70">XATTR_CREATE</a>));</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a>(<a class="code" href="../../df/de1/sys-xattr_8cpp.html#abf0e970ac9a34f3eec793573391c23e0">fsetxattr</a>(<a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#aa415204f66d1e605f41738e448208467">tmpfile</a>, <span class="stringliteral">&quot;user.T2&quot;</span>, <span class="stringliteral">&quot;DEF&quot;</span>, 3, <a class="code" href="../../dd/d7f/abis_2linux_2xattr_8h.html#a9a553a1ea33e2cb76ec66d4a1cde0a70">XATTR_CREATE</a>));</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">// for testing remove</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a>(<a class="code" href="../../df/de1/sys-xattr_8cpp.html#abf0e970ac9a34f3eec793573391c23e0">fsetxattr</a>(<a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#aa415204f66d1e605f41738e448208467">tmpfile</a>, <span class="stringliteral">&quot;user.T3&quot;</span>, <span class="stringliteral">&quot;DEF&quot;</span>, 3, <a class="code" href="../../dd/d7f/abis_2linux_2xattr_8h.html#a9a553a1ea33e2cb76ec66d4a1cde0a70">XATTR_CREATE</a>));</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">if</span> ((<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../df/de1/sys-xattr_8cpp.html#a1579b5d49f8d311204865697a3b68167">getxattr</a>(filename, <span class="stringliteral">&quot;user.T1&quot;</span>, <a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, 3)) != 3) {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> &lt; 0) {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <a class="code" href="../../d7/d2f/libc_2include_2stdlib_8h.html#ab39f9634fa53ffd52b87431f3afab11b">perror</a>(<span class="stringliteral">&quot;getxattr&quot;</span>);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a1bb9fd6c6ac73e72798cc503affaebb3">memcmp</a>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <span class="stringliteral">&quot;ABC&quot;</span>, 3) == 0, <span class="stringliteral">&quot;xattr read wrong&quot;</span>);</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../df/de1/sys-xattr_8cpp.html#afe36c57e9122cf0d3f45dd66661f40d0">lgetxattr</a>(filename2, <span class="stringliteral">&quot;user.T1&quot;</span>, <a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, 3);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a>(<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> &lt; 0 &amp;&amp; <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> == <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a0030614bc864d1b24eaedd71585acc27">ENODATA</a>, <span class="stringliteral">&quot;lgetxattr deref&#39;d&quot;</span>);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span> ((<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../df/de1/sys-xattr_8cpp.html#ad23ea5663395eea477875f2f31a89516">fgetxattr</a>(<a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#aa415204f66d1e605f41738e448208467">tmpfile</a>, <span class="stringliteral">&quot;user.T3&quot;</span>, <a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, 3)) != 3) {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> &lt; 0) {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="../../d7/d2f/libc_2include_2stdlib_8h.html#ab39f9634fa53ffd52b87431f3afab11b">perror</a>(<span class="stringliteral">&quot;fgetxattr&quot;</span>);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordflow">return</span> 1;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a1bb9fd6c6ac73e72798cc503affaebb3">memcmp</a>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <span class="stringliteral">&quot;DEF&quot;</span>, 3) == 0, <span class="stringliteral">&quot;xattr read wrong&quot;</span>);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a>(<a class="code" href="../../df/de1/sys-xattr_8cpp.html#ac33a87767b64b4c22cb31b7e23d51a04">removexattr</a>(filename, <span class="stringliteral">&quot;user.T2&quot;</span>));</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a>(<a class="code" href="../../df/de1/sys-xattr_8cpp.html#a051035c03a80d540618d64d60415e27d">fremovexattr</a>(<a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#aa415204f66d1e605f41738e448208467">tmpfile</a>, <span class="stringliteral">&quot;user.T3&quot;</span>));</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a>(<a class="code" href="../../df/de1/sys-xattr_8cpp.html#a18c0bb21860dbe8ecef2f9e4898c5a95">listxattr</a>(filename, <a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <span class="keyword">sizeof</span>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>) - 1));</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#aa1cc19b86f2a1088652418ec92204e9b">memmem</a>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>, <span class="stringliteral">&quot;user.T1&quot;</span>, 7), <span class="stringliteral">&quot;user.T1 not found&quot;</span>);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a>(!<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#aa1cc19b86f2a1088652418ec92204e9b">memmem</a>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>, <span class="stringliteral">&quot;user.T2&quot;</span>, 7), <span class="stringliteral">&quot;user.T2 found&quot;</span>);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a>(!<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#aa1cc19b86f2a1088652418ec92204e9b">memmem</a>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>, <span class="stringliteral">&quot;user.T3&quot;</span>, 7), <span class="stringliteral">&quot;user.T3 found&quot;</span>);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a>(<a class="code" href="../../df/de1/sys-xattr_8cpp.html#a28624cf51ec611bdcb75a7e349909af8">flistxattr</a>(<a class="code" href="../../dd/dc0/stdio-stubs_8cpp.html#aa415204f66d1e605f41738e448208467">tmpfile</a>, <a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <span class="keyword">sizeof</span>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>) - 1));</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#aa1cc19b86f2a1088652418ec92204e9b">memmem</a>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>, <span class="stringliteral">&quot;user.T1&quot;</span>, 7), <span class="stringliteral">&quot;user.T1 not found&quot;</span>);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a>(!<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#aa1cc19b86f2a1088652418ec92204e9b">memmem</a>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>, <span class="stringliteral">&quot;user.T2&quot;</span>, 7), <span class="stringliteral">&quot;user.T2 found&quot;</span>);</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a>(!<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#aa1cc19b86f2a1088652418ec92204e9b">memmem</a>(<a class="code" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>, <span class="stringliteral">&quot;user.T3&quot;</span>, 7), <span class="stringliteral">&quot;user.T3 found&quot;</span>);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
-<div class="ttc" id="aabis_2linux_2xattr_8h_html_a9a553a1ea33e2cb76ec66d4a1cde0a70"><div class="ttname"><a href="../../dd/d7f/abis_2linux_2xattr_8h.html#a9a553a1ea33e2cb76ec66d4a1cde0a70">XATTR_CREATE</a></div><div class="ttdeci">#define XATTR_CREATE</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7f/abis_2linux_2xattr_8h_source.html#l00014">xattr.h:14</a></div></div>
-<div class="ttc" id="afcts_8c_html_a14938524dcbeb59d7117ba5e151ad1b1"><div class="ttname"><a href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a></div><div class="ttdeci">void * memcpy(void *dest, const void *src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7b/fcts_8c_source.html#l00090">fcts.c:90</a></div></div>
-<div class="ttc" id="alemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
-<div class="ttc" id="alibc_2include_2errno_8h_html_a0030614bc864d1b24eaedd71585acc27"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a0030614bc864d1b24eaedd71585acc27">ENODATA</a></div><div class="ttdeci">#define ENODATA</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00062">errno.h:62</a></div></div>
-<div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
-<div class="ttc" id="alibc_2include_2stdlib_8h_html_ab39f9634fa53ffd52b87431f3afab11b"><div class="ttname"><a href="../../d7/d2f/libc_2include_2stdlib_8h.html#ab39f9634fa53ffd52b87431f3afab11b">perror</a></div><div class="ttdeci">void perror(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d79/put_8c_source.html#l00034">put.c:34</a></div></div>
-<div class="ttc" id="alongjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d3e/longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
-<div class="ttc" id="aposix__stdlib_8cpp_html_a0b8d4c3f9014280ee36a9aa5571f4111"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#a0b8d4c3f9014280ee36a9aa5571f4111">mkstemp</a></div><div class="ttdeci">int mkstemp(char *path)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00175">posix_stdlib.cpp:175</a></div></div>
-<div class="ttc" id="astdio-stubs_8cpp_html_aa415204f66d1e605f41738e448208467"><div class="ttname"><a href="../../dd/dc0/stdio-stubs_8cpp.html#aa415204f66d1e605f41738e448208467">tmpfile</a></div><div class="ttdeci">FILE * tmpfile(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00244">stdio-stubs.cpp:244</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a1bb9fd6c6ac73e72798cc503affaebb3"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a1bb9fd6c6ac73e72798cc503affaebb3">memcmp</a></div><div class="ttdeci">int memcmp(const void *a, const void *b, size_t size)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00054">string-stubs.cpp:54</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_aa1cc19b86f2a1088652418ec92204e9b"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#aa1cc19b86f2a1088652418ec92204e9b">memmem</a></div><div class="ttdeci">void * memmem(const void *hs, size_t haystackLen, const void *nd, size_t needleLen)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00514">string-stubs.cpp:514</a></div></div>
-<div class="ttc" id="asys-xattr_8cpp_html_a051035c03a80d540618d64d60415e27d"><div class="ttname"><a href="../../df/de1/sys-xattr_8cpp.html#a051035c03a80d540618d64d60415e27d">fremovexattr</a></div><div class="ttdeci">int fremovexattr(int fd, const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de1/sys-xattr_8cpp_source.html#l00086">sys-xattr.cpp:86</a></div></div>
-<div class="ttc" id="asys-xattr_8cpp_html_a1579b5d49f8d311204865697a3b68167"><div class="ttname"><a href="../../df/de1/sys-xattr_8cpp.html#a1579b5d49f8d311204865697a3b68167">getxattr</a></div><div class="ttdeci">ssize_t getxattr(const char *path, const char *name, void *val, size_t size)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de1/sys-xattr_8cpp_source.html#l00040">sys-xattr.cpp:40</a></div></div>
-<div class="ttc" id="asys-xattr_8cpp_html_a18c0bb21860dbe8ecef2f9e4898c5a95"><div class="ttname"><a href="../../df/de1/sys-xattr_8cpp.html#a18c0bb21860dbe8ecef2f9e4898c5a95">listxattr</a></div><div class="ttdeci">ssize_t listxattr(const char *path, char *list, size_t size)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de1/sys-xattr_8cpp_source.html#l00091">sys-xattr.cpp:91</a></div></div>
-<div class="ttc" id="asys-xattr_8cpp_html_a28624cf51ec611bdcb75a7e349909af8"><div class="ttname"><a href="../../df/de1/sys-xattr_8cpp.html#a28624cf51ec611bdcb75a7e349909af8">flistxattr</a></div><div class="ttdeci">ssize_t flistxattr(int fd, char *list, size_t size)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de1/sys-xattr_8cpp_source.html#l00113">sys-xattr.cpp:113</a></div></div>
-<div class="ttc" id="asys-xattr_8cpp_html_aa20b67f8ff7ed34a126a7e265e51a161"><div class="ttname"><a href="../../df/de1/sys-xattr_8cpp.html#aa20b67f8ff7ed34a126a7e265e51a161">setxattr</a></div><div class="ttdeci">int setxattr(const char *path, const char *name, const void *val, size_t size, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de1/sys-xattr_8cpp_source.html#l00007">sys-xattr.cpp:7</a></div></div>
-<div class="ttc" id="asys-xattr_8cpp_html_abf0e970ac9a34f3eec793573391c23e0"><div class="ttname"><a href="../../df/de1/sys-xattr_8cpp.html#abf0e970ac9a34f3eec793573391c23e0">fsetxattr</a></div><div class="ttdeci">int fsetxattr(int fd, const char *name, const void *val, size_t size, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de1/sys-xattr_8cpp_source.html#l00029">sys-xattr.cpp:29</a></div></div>
-<div class="ttc" id="asys-xattr_8cpp_html_ac33a87767b64b4c22cb31b7e23d51a04"><div class="ttname"><a href="../../df/de1/sys-xattr_8cpp.html#ac33a87767b64b4c22cb31b7e23d51a04">removexattr</a></div><div class="ttdeci">int removexattr(const char *path, const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de1/sys-xattr_8cpp_source.html#l00076">sys-xattr.cpp:76</a></div></div>
-<div class="ttc" id="asys-xattr_8cpp_html_ad23ea5663395eea477875f2f31a89516"><div class="ttname"><a href="../../df/de1/sys-xattr_8cpp.html#ad23ea5663395eea477875f2f31a89516">fgetxattr</a></div><div class="ttdeci">ssize_t fgetxattr(int fd, const char *name, void *val, size_t size)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de1/sys-xattr_8cpp_source.html#l00064">sys-xattr.cpp:64</a></div></div>
-<div class="ttc" id="asys-xattr_8cpp_html_afe36c57e9122cf0d3f45dd66661f40d0"><div class="ttname"><a href="../../df/de1/sys-xattr_8cpp.html#afe36c57e9122cf0d3f45dd66661f40d0">lgetxattr</a></div><div class="ttdeci">ssize_t lgetxattr(const char *path, const char *name, void *val, size_t size)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/de1/sys-xattr_8cpp_source.html#l00052">sys-xattr.cpp:52</a></div></div>
-<div class="ttc" id="aunistd-stubs_8cpp_html_ad42b5c4d9c9b8b5dfa8beae310b4a7af"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#ad42b5c4d9c9b8b5dfa8beae310b4a7af">symlink</a></div><div class="ttdeci">int symlink(const char *target_path, const char *link_path)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00654">unistd-stubs.cpp:654</a></div></div>
-<div class="ttc" id="axattr_8c_html_a01a4e75e1c0e21ad10227c1d8096d11b"><div class="ttname"><a href="../../de/d1d/xattr_8c.html#a01a4e75e1c0e21ad10227c1d8096d11b">soft_assert</a></div><div class="ttdeci">#define soft_assert(x, m)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1d/xattr_8c_source.html#l00018">xattr.c:18</a></div></div>
-<div class="ttc" id="axattr_8c_html_a4602602e56e7eef872b55a727d070f02"><div class="ttname"><a href="../../de/d1d/xattr_8c.html#a4602602e56e7eef872b55a727d070f02">_cleanup_file_</a></div><div class="ttdeci">#define _cleanup_file_</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1d/xattr_8c_source.html#l00029">xattr.c:29</a></div></div>
-<div class="ttc" id="axattr_8c_html_ade612e3827534f0f12cd577353cfc83c"><div class="ttname"><a href="../../de/d1d/xattr_8c.html#ade612e3827534f0f12cd577353cfc83c">assert_perror</a></div><div class="ttdeci">#define assert_perror(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d1d/xattr_8c_source.html#l00008">xattr.c:8</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00029">29</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_flistxattr, filedes, list, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78">size</a>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d1d/xattr_8c_source.html#l00029">_cleanup_file_</a>, <a class="el" href="../../de/d1d/xattr_8c_source.html#l00008">assert_perror</a>, <a class="el" href="../../dd/d3e/longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00062">ENODATA</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../df/de1/sys-xattr_8cpp_source.html#l00064">fgetxattr()</a>, <a class="el" href="../../df/de1/sys-xattr_8cpp_source.html#l00113">flistxattr()</a>, <a class="el" href="../../df/de1/sys-xattr_8cpp_source.html#l00086">fremovexattr()</a>, <a class="el" href="../../df/de1/sys-xattr_8cpp_source.html#l00029">fsetxattr()</a>, <a class="el" href="../../df/de1/sys-xattr_8cpp_source.html#l00040">getxattr()</a>, <a class="el" href="../../df/de1/sys-xattr_8cpp_source.html#l00052">lgetxattr()</a>, <a class="el" href="../../df/de1/sys-xattr_8cpp_source.html#l00091">listxattr()</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00054">memcmp()</a>, <a class="el" href="../../d4/d7b/fcts_8c_source.html#l00090">memcpy()</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00514">memmem()</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00175">mkstemp()</a>, <a class="el" href="../../df/d79/put_8c_source.html#l00034">perror()</a>, <a class="el" href="../../df/de1/sys-xattr_8cpp_source.html#l00076">removexattr()</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, <a class="el" href="../../df/de1/sys-xattr_8cpp_source.html#l00007">setxattr()</a>, <a class="el" href="../../de/d1d/xattr_8c_source.html#l00018">soft_assert</a>, <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00654">symlink()</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp_source.html#l00244">tmpfile()</a>, and <a class="el" href="../../dd/d7f/abis_2linux_2xattr_8h_source.html#l00014">XATTR_CREATE</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00285">size</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>
-<a id="aca0af9be67ce15be136c93f87a40d42d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca0af9be67ce15be136c93f87a40d42d">&#9670;&nbsp;</a></span>remove_tmp()</h2>
+<a id="a051035c03a80d540618d64d60415e27d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a051035c03a80d540618d64d60415e27d">&#9670;&nbsp;</a></span>fremovexattr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void remove_tmp </td>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fremovexattr </td>
           <td>(</td>
-          <td class="paramtype">const char(*)&#160;</td>
-          <td class="paramname"><em>fname</em>[]</td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>fd</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00026">26</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                                       {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../dd/d08/unistd-stubs_8cpp.html#a28af9471bbdf262321af663e02899a47">unlink</a>(&amp;(*fname)[0]);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
-<div class="ttc" id="aunistd-stubs_8cpp_html_a28af9471bbdf262321af663e02899a47"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#a28af9471bbdf262321af663e02899a47">unlink</a></div><div class="ttdeci">int unlink(const char *path)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00780">unistd-stubs.cpp:780</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00059">59</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_fremovexattr, fd, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00780">unlink()</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+
+</div>
+</div>
+<a id="a7428f08d3ca003d7fbbe97c11a4a20ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7428f08d3ca003d7fbbe97c11a4a20ca">&#9670;&nbsp;</a></span>fsetxattr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fsetxattr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>filedes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>flags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00044">44</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;{</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_fsetxattr, filedes, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, <a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78">size</a>, <a class="code" href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
+<div class="ttc" id="agm__loop_8c_html_ac8bf36fe0577cba66bccda3a6f7e80a4"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a></div><div class="ttdeci">int flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00047">gm_loop.c:47</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00047">flags</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00285">size</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, and <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">value</a>.</p>
+
+</div>
+</div>
+<a id="a101b158e14ed67a88ade0707ef247c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a101b158e14ed67a88ade0707ef247c67">&#9670;&nbsp;</a></span>getxattr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a> getxattr </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00004">4</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_getxattr, path, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, <a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78">size</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00285">size</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, and <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">value</a>.</p>
+
+</div>
+</div>
+<a id="ab8aefc7f65e94ff6a18ad8b63254e3ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8aefc7f65e94ff6a18ad8b63254e3ae">&#9670;&nbsp;</a></span>lgetxattr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a> lgetxattr </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00009">9</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_lgetxattr, path, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, <a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78">size</a>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00285">size</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, and <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">value</a>.</p>
+
+</div>
+</div>
+<a id="a18c0bb21860dbe8ecef2f9e4898c5a95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18c0bb21860dbe8ecef2f9e4898c5a95">&#9670;&nbsp;</a></span>listxattr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a> listxattr </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00019">19</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_listxattr, path, list, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78">size</a>);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00285">size</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+
+</div>
+</div>
+<a id="a478e78259174f320691e6c123f0dfcb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a478e78259174f320691e6c123f0dfcb1">&#9670;&nbsp;</a></span>llistxattr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a> llistxattr </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00024">24</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_llistxattr, path, list, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78">size</a>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00285">size</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+
+</div>
+</div>
+<a id="a266e51d4ac5fb0958fbfe2ffddeba8fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a266e51d4ac5fb0958fbfe2ffddeba8fe">&#9670;&nbsp;</a></span>lremovexattr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> lremovexattr </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00054">54</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_lremovexattr, path, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+
+</div>
+</div>
+<a id="ae53ec9d363e6df71a9264690700308c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae53ec9d363e6df71a9264690700308c2">&#9670;&nbsp;</a></span>lsetxattr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> lsetxattr </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>flags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00039">39</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_lsetxattr, path, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, <a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78">size</a>, <a class="code" href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00047">flags</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00285">size</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, and <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">value</a>.</p>
+
+</div>
+</div>
+<a id="ac33a87767b64b4c22cb31b7e23d51a04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac33a87767b64b4c22cb31b7e23d51a04">&#9670;&nbsp;</a></span>removexattr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> removexattr </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00049">49</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_removexattr, path, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+
+</div>
+</div>
+<a id="ae7891221c9b241ab4e281d9912227f3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7891221c9b241ab4e281d9912227f3a">&#9670;&nbsp;</a></span>setxattr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> setxattr </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramname"><em>flags</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d1d/xattr_8c_source.html#l00034">34</a> of file <a class="el" href="../../de/d1d/xattr_8c_source.html">xattr.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_setxattr, path, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, <a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a252e4787d2e315cb28693ef2d9862e78">size</a>, <a class="code" href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00047">flags</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00285">size</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, and <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">value</a>.</p>
 
 </div>
 </div>
@@ -328,7 +662,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_502167504e2d86143081e2e7cc315d6c.html">tests</a></li><li class="navelem"><a class="el" href="../../dir_35d783c1a39cb7d36bbc935255fe64b7.html">linux</a></li><li class="navelem"><a class="el" href="../../de/d1d/xattr_8c.html">xattr.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_5050215390e794c3e981e152606afa1c.html">linux</a></li><li class="navelem"><a class="el" href="../../de/d1d/xattr_8c.html">xattr.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

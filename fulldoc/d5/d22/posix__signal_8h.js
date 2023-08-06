@@ -52,9 +52,8 @@ var posix__signal_8h =
     [ "siginterrupt", "d5/d22/posix__signal_8h.html#a5d5adc4eb4b54c2ce456db2c36905322", null ],
     [ "sigpending", "d5/d22/posix__signal_8h.html#a09557fedb21522e430dc384d86ccd73d", null ],
     [ "sigprocmask", "d5/d22/posix__signal_8h.html#a4526e5281e08b1b63a01d447ee8033aa", null ],
-    [ "sigqueue", "d5/d22/posix__signal_8h.html#a372244697abb114b476afc12f6c3c2e9", null ],
     [ "sigsuspend", "d5/d22/posix__signal_8h.html#a271f9551984e286249f88e90c86dd58f", null ],
-    [ "sigtimedwait", "d5/d22/posix__signal_8h.html#a155a526c3da5ffd1a79ba2925bdd278a", null ],
-    [ "sigwait", "d5/d22/posix__signal_8h.html#a900d91a9635b965dbbae6b3cee2d2a2b", null ],
+    [ "sigtimedwait", "d5/d22/posix__signal_8h.html#a46a4955896c3559e14d1b688ddc838c4", null ],
+    [ "sigwait", "d5/d22/posix__signal_8h.html#adc0d6eabea5878a70fe1f97b002f5f2a", null ],
     [ "sigwaitinfo", "d5/d22/posix__signal_8h.html#a786f18a8e5b7eceed0ddcdc722f3340b", null ]
 ];

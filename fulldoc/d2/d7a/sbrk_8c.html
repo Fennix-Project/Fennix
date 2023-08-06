@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/tests/bsd/sbrk.c File Reference</title>
+<title>Fennix: Userspace/musl/src/linux/sbrk.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,50 +86,73 @@ $(document).ready(function(){initNavTree('d2/d7a/sbrk_8c.html','../../'); initRe
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">sbrk.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
-<code>#include &lt;stdio.h&gt;</code><br />
-<code>#include &lt;unistd.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;errno.h&gt;</code><br />
+<code>#include &quot;syscall.h&quot;</code><br />
 </div>
 <p><a href="../../d2/d7a/sbrk_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:ad3d8a3bd0c0b677acef144f2c2ef6d73"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d7a/sbrk_8c.html#ad3d8a3bd0c0b677acef144f2c2ef6d73">_BSD_SOURCE</a></td></tr>
+<tr class="separator:ad3d8a3bd0c0b677acef144f2c2ef6d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d7a/sbrk_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
-<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a189dacb9484ba7a896f255ff2b9228fb"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d7a/sbrk_8c.html#a189dacb9484ba7a896f255ff2b9228fb">sbrk</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0bd5dec00e345e69027427f8621d6a6c">intptr_t</a> inc)</td></tr>
+<tr class="separator:a189dacb9484ba7a896f255ff2b9228fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad3d8a3bd0c0b677acef144f2c2ef6d73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d8a3bd0c0b677acef144f2c2ef6d73">&#9670;&nbsp;</a></span>_BSD_SOURCE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> main </td>
+          <td class="memname">#define _BSD_SOURCE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d2/d7a/sbrk_8c_source.html#l00001">1</a> of file <a class="el" href="../../d2/d7a/sbrk_8c_source.html">sbrk.c</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a189dacb9484ba7a896f255ff2b9228fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a189dacb9484ba7a896f255ff2b9228fb">&#9670;&nbsp;</a></span>sbrk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* sbrk </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a0bd5dec00e345e69027427f8621d6a6c">intptr_t</a>&#160;</td>
+          <td class="paramname"><em>inc</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d2/d7a/sbrk_8c_source.html#l00005">5</a> of file <a class="el" href="../../d2/d7a/sbrk_8c_source.html">sbrk.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;           {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">void</span> *<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../db/dfe/bsd__unistd_8h.html#a3b818446c640442e94e746319f5f2858">sbrk</a>(0);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> != (<span class="keywordtype">void</span> *) -1);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include__std_2assert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert.h:23</a></div></div>
-<div class="ttc" id="absd__unistd_8h_html_a3b818446c640442e94e746319f5f2858"><div class="ttname"><a href="../../db/dfe/bsd__unistd_8h.html#a3b818446c640442e94e746319f5f2858">sbrk</a></div><div class="ttdeci">void * sbrk(intptr_t increment)</div></div>
-<div class="ttc" id="alemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d2/d7a/sbrk_8c_source.html#l00007">7</a> of file <a class="el" href="../../d2/d7a/sbrk_8c_source.html">sbrk.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (inc) <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)<a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(-<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a6a05c923dad0c1208043e9c20a58c8e5">ENOMEM</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)<a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_brk, 0);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a6a05c923dad0c1208043e9c20a58c8e5"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a6a05c923dad0c1208043e9c20a58c8e5">ENOMEM</a></div><div class="ttdeci">#define ENOMEM</div><div class="ttdoc">Out of memory.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00055">errno.h:55</a></div></div>
+<div class="ttc" id="amlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">syscall.h:25</a></div></div>
+<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../d1/d7b/lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, and <a class="el" href="../../db/dfe/bsd__unistd_8h.html#a3b818446c640442e94e746319f5f2858">sbrk()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">__syscall</a>, <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, and <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00055">ENOMEM</a>.</p>
 
 </div>
 </div>
@@ -138,7 +161,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_502167504e2d86143081e2e7cc315d6c.html">tests</a></li><li class="navelem"><a class="el" href="../../dir_8a92cc98f6726b73adbd5d579892d32c.html">bsd</a></li><li class="navelem"><a class="el" href="../../d2/d7a/sbrk_8c.html">sbrk.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_5050215390e794c3e981e152606afa1c.html">linux</a></li><li class="navelem"><a class="el" href="../../d2/d7a/sbrk_8c.html">sbrk.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

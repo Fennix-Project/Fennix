@@ -96,9 +96,10 @@ $(document).ready(function(){initNavTree('d6/d6b/VMware_2Mouse_8cpp.html','../..
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d2c/VMware_2mouse_8hpp_source.html">mouse.hpp</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../dc/dac/io_8h_source.html">io.h</a>&gt;</code><br />
+<code>#include &lt;io.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">../../DAPI.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d9/d37/drv_8hpp_source.html">../drv.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../kernel.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d6/d6b/VMware_2Mouse_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -128,7 +129,7 @@ Enumerations</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a7a54577ffd19a5f96213aeb70f0fe458"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#a7a54577ffd19a5f96213aeb70f0fe458">VMwareMouse::CommandSend</a> (VMwareCommand *cmd)</td></tr>
 <tr class="separator:a7a54577ffd19a5f96213aeb70f0fe458"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80b0f2c3670c903bebb789454277f41c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dfa/Userspace_2libc_2include_2stddef_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#a80b0f2c3670c903bebb789454277f41c">VMwareMouse::IsVMwareBackdoorAvailable</a> (void)</td></tr>
+<tr class="memitem:a80b0f2c3670c903bebb789454277f41c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#a80b0f2c3670c903bebb789454277f41c">VMwareMouse::IsVMwareBackdoorAvailable</a> (void)</td></tr>
 <tr class="separator:a80b0f2c3670c903bebb789454277f41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8ada76466e559957f60738d37f04841"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#aa8ada76466e559957f60738d37f04841">VMwareMouse::DriverEntry</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
 <tr class="separator:aa8ada76466e559957f60738d37f04841"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,6 +162,8 @@ Variables</h2></td></tr>
 <tr class="separator:aad6b9a7750ceba315beed1b2f4a4a508"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade6b34e0089331cd53f03a52346a4656"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#ade6b34e0089331cd53f03a52346a4656">VMwareMouse::MouseButton</a> = 0</td></tr>
 <tr class="separator:ade6b34e0089331cd53f03a52346a4656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fa4b3f442b268f7376e3f9e476813a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#a0fa4b3f442b268f7376e3f9e476813a2">VMwareMouse::InputReceived</a> = <a class="el" href="../../d8/d3a/doomtype_8h.html#a7c6368b321bd9acd0149b030bb8275edae9de385ef6fe9bf3360d1038396b884c">false</a></td></tr>
+<tr class="separator:a0fa4b3f442b268f7376e3f9e476813a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -1,9 +1,11 @@
 var search_8cpp =
 [
-    [ "node", "d9/def/search_8cpp.html#d5/da1/structnode", [
-      [ "a", "d9/def/search_8cpp.html#aad194f9cf5ee82d7c1889ecd16a1eb8d", null ],
-      [ "h", "d9/def/search_8cpp.html#a850e8af553a6eb934ef47e3a05a3b28b", null ],
-      [ "key", "d9/def/search_8cpp.html#ad5c7d4cbb4e3bf585d109ac8f38abe71", null ]
+    [ "node", "d3/ddd/tsearch_8h.html#d5/da1/structnode", [
+      [ "a", "d3/ddd/tsearch_8h.html#ad374978f24d3ea2c5cf99324533879ef", null ],
+      [ "h", "d3/ddd/tsearch_8h.html#a850e8af553a6eb934ef47e3a05a3b28b", null ],
+      [ "key", "d3/ddd/tsearch_8h.html#ad42b395d4c3edec2671b452c86ee63e3", null ],
+      [ "next", "d3/ddd/tsearch_8h.html#aa3e8aa83f864292b5a01210f4453fcc0", null ],
+      [ "prev", "d3/ddd/tsearch_8h.html#a7ee3d227c728ce18a86e43ebc301046e", null ]
     ] ],
     [ "balance_tree", "d9/def/search_8cpp.html#a7e050058ad31de24bac2ee3b57af381c", null ],
     [ "height", "d9/def/search_8cpp.html#a0e97247203fa703de26361fbe0f38a98", null ],

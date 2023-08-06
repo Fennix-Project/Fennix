@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('d3/de1/sys-klog_8cpp_source.html','../
 </div><!--header-->
 <div class="contents">
 <a href="../../d3/de1/sys-klog_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;errno.h&gt;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d4/d92/klog_8h.html">sys/klog.h</a>&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;sys/klog.h&gt;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dc/dc5/ensure_8h.html">bits/ensure.h</a>&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
@@ -98,20 +98,20 @@ $(document).ready(function(){initNavTree('d3/de1/sys-klog_8cpp_source.html','../
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
 <div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d3/de1/sys-klog_8cpp.html#ad70b5e1a238e98642c26fda8e4077b41">    8</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d3/de1/sys-klog_8cpp.html#ad70b5e1a238e98642c26fda8e4077b41">klogctl</a>(<span class="keywordtype">int</span> type, <span class="keywordtype">char</span> *bufp, <span class="keywordtype">int</span> len) {</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a0864d1b5481db8609da41bf3cbd1ab76">mlibc::sys_klogctl</a>, -1);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">int</span> out;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> (<span class="keywordtype">int</span> e = <a class="code" href="../../d0/d9a/namespacemlibc.html#a0864d1b5481db8609da41bf3cbd1ab76">mlibc::sys_klogctl</a>(type, bufp, len, &amp;out); e) {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d3/d61/vfprintf_8c.html#ad834e8db1d9c585ad9e072f5256c24b2">out</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> (<span class="keywordtype">int</span> e = <a class="code" href="../../d0/d9a/namespacemlibc.html#a0864d1b5481db8609da41bf3cbd1ab76">mlibc::sys_klogctl</a>(type, bufp, len, &amp;<a class="code" href="../../d3/d61/vfprintf_8c.html#ad834e8db1d9c585ad9e072f5256c24b2">out</a>); e) {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    }</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> out;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d61/vfprintf_8c.html#ad834e8db1d9c585ad9e072f5256c24b2">out</a>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
 <div class="ttc" id="aensure_8h_html"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html">ensure.h</a></div></div>
-<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00028">ensure.h:28</a></div></div>
-<div class="ttc" id="aklog_8h_html"><div class="ttname"><a href="../../d4/d92/klog_8h.html">klog.h</a></div></div>
+<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00024">ensure.h:24</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
 <div class="ttc" id="alinux-sysdeps_8hpp_html"><div class="ttname"><a href="../../db/d6a/linux-sysdeps_8hpp.html">linux-sysdeps.hpp</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a0864d1b5481db8609da41bf3cbd1ab76"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a0864d1b5481db8609da41bf3cbd1ab76">mlibc::sys_klogctl</a></div><div class="ttdeci">int sys_klogctl(int type, char *bufp, int len, int *out)</div></div>
 <div class="ttc" id="asys-klog_8cpp_html_ad70b5e1a238e98642c26fda8e4077b41"><div class="ttname"><a href="../../d3/de1/sys-klog_8cpp.html#ad70b5e1a238e98642c26fda8e4077b41">klogctl</a></div><div class="ttdeci">int klogctl(int type, char *bufp, int len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de1/sys-klog_8cpp_source.html#l00008">sys-klog.cpp:8</a></div></div>
+<div class="ttc" id="avfprintf_8c_html_ad834e8db1d9c585ad9e072f5256c24b2"><div class="ttname"><a href="../../d3/d61/vfprintf_8c.html#ad834e8db1d9c585ad9e072f5256c24b2">out</a></div><div class="ttdeci">static void out(FILE *f, const char *s, size_t l)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d61/vfprintf_8c_source.html#l00133">vfprintf.c:133</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

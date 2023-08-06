@@ -194,13 +194,15 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00165">165</a> of file <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html">UniversalAsynchronousReceiverTransmitter.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    {</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a>.size(); i++)</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a>[i] == <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            {</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a>.remove(i);</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            }</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        forItr(itr, <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a>)</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            <span class="keywordflow">if</span> (*itr == <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            {</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                <a class="code" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp.html#aee0ff1d31b3a68174974904f35c61071">RegisteredEvents</a>.erase(itr);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            }</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/dac/UniversalAsynchronousReceiverTransmitter_8cpp_source.html#l00024">RegisteredEvents</a>.</p>
 
@@ -274,9 +276,9 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00083">83</a> of file <a class="el" href="../../de/d3f/uart_8hpp_source.html">uart.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{ <a class="code" href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(Char); }</div>
-<div class="ttc" id="ainclude_2types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00060">types.h:60</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00064">types.h:64</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00060">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00064">UNUSED</a>.</p>
 
 </div>
 </div>
@@ -315,7 +317,7 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../de/d3f/uart_8hpp_source.html#l00078">78</a> of file <a class="el" href="../../de/d3f/uart_8hpp_source.html">uart.hpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;{ <a class="code" href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(Char); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00060">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00064">UNUSED</a>.</p>
 
 </div>
 </div>

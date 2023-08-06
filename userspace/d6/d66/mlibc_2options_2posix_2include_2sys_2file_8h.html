@@ -184,7 +184,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../df/dc8/mlibc_2options_2posix_2include_2fcntl_8h.html#d6/df2/structflock">flock</a> </td>
+          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h.html#d6/df2/structflock">flock</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
@@ -206,19 +206,16 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d2/d18/sys-file-stubs_8cpp_source.html#l00008">8</a> of file <a class="el" href="../../d2/d18/sys-file-stubs_8cpp_source.html">sys-file-stubs.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                           {</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#abe0d447e37647cef2f73f2300edc01e8">mlibc::sys_flock</a>, -1);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = <a class="code" href="../../d0/d9a/namespacemlibc.html#abe0d447e37647cef2f73f2300edc01e8">mlibc::sys_flock</a>(<a class="code" href="../../dd/d49/utmp-stubs_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, opt); e) {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = <a class="code" href="../../d0/d9a/namespacemlibc.html#abe0d447e37647cef2f73f2300edc01e8">mlibc::sys_flock</a>(fd, opt); e) {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    }</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00028">ensure.h:28</a></div></div>
+<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00024">ensure.h:24</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
-<div class="ttc" id="anamespacemlibc_html_abe0d447e37647cef2f73f2300edc01e8"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#abe0d447e37647cef2f73f2300edc01e8">mlibc::sys_flock</a></div><div class="ttdeci">int sys_flock(int fd, int options)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd5/file_8cpp_source.html#l02215">file.cpp:2215</a></div></div>
-<div class="ttc" id="autmp-stubs_8cpp_html_a6f8059414f0228f0256115e024eeed4b"><div class="ttname"><a href="../../dd/d49/utmp-stubs_8cpp.html#a6f8059414f0228f0256115e024eeed4b">fd</a></div><div class="ttdeci">static int fd</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">utmp-stubs.cpp:19</a></div></div>
+<div class="ttc" id="anamespacemlibc_html_abe0d447e37647cef2f73f2300edc01e8"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#abe0d447e37647cef2f73f2300edc01e8">mlibc::sys_flock</a></div><div class="ttdeci">int sys_flock(int fd, int options)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd5/file_8cpp_source.html#l04644">file.cpp:4644</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../dd/d49/utmp-stubs_8cpp_source.html#l00019">fd</a>, <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00028">MLIBC_CHECK_OR_ENOSYS</a>, and <a class="el" href="../../df/dd5/file_8cpp_source.html#l02215">mlibc::sys_flock()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->

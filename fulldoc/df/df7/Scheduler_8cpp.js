@@ -6,6 +6,5 @@ var Scheduler_8cpp =
     [ "schedbg", "df/df7/Scheduler_8cpp.html#a69e88d2644af903e00cc5fb802bdd125", null ],
     [ "sspt_schedbg", "df/df7/Scheduler_8cpp.html#a1f9161808274cad766d820c09931ac70", null ],
     [ "wut_schedbg", "df/df7/Scheduler_8cpp.html#a594bd22d98ef46e75c15a7b9cbf32851", null ],
-    [ "NewLock", "df/df7/Scheduler_8cpp.html#a6e39d56841385491a755394b4ee04d40", null ],
     [ "TaskingScheduler_OneShot", "df/df7/Scheduler_8cpp.html#a7981e1f4d7beb07742785f7ab7fc9bd1", null ]
 ];

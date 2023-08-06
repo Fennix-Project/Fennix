@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('df/d97/libc_2include_2dlfcn_8h.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad559be443b3edb0af8835d6ec2c29a3a"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d97/libc_2include_2dlfcn_8h.html#ad559be443b3edb0af8835d6ec2c29a3a">dlopen</a> (const char *filename, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> flags)</td></tr>
+<tr class="memitem:ad559be443b3edb0af8835d6ec2c29a3a"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d97/libc_2include_2dlfcn_8h.html#ad559be443b3edb0af8835d6ec2c29a3a">dlopen</a> (const char *filename, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d6/d5a/videodev2_8h.html#aa2585d779da0ab21273a8d92de9a0ebe">flags</a>)</td></tr>
 <tr class="separator:ad559be443b3edb0af8835d6ec2c29a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84cb8784df910bfcc3002dc5e9e2f406"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d97/libc_2include_2dlfcn_8h.html#a84cb8784df910bfcc3002dc5e9e2f406">dlsym</a> (void *handle, const char *symbol)</td></tr>
 <tr class="separator:a84cb8784df910bfcc3002dc5e9e2f406"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,8 +130,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="adlfcn-stubs_8cpp_html_a324c5b181f660d27c7f9ea3dc86fc277"><div class="ttname"><a href="../../d8/d3b/dlfcn-stubs_8cpp.html#a324c5b181f660d27c7f9ea3dc86fc277">__dlapi_close</a></div><div class="ttdeci">int __dlapi_close(void *)</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d8/d3b/dlfcn-stubs_8cpp.html#a324c5b181f660d27c7f9ea3dc86fc277">__dlapi_close()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../da/d01/dl__iterate__phdr_2test_8c_source.html#l00059">main()</a>.</p>
 
 </div>
 </div>
@@ -190,14 +188,12 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d8/d3b/dlfcn-stubs_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../d8/d3b/dlfcn-stubs_8cpp_source.html">dlfcn-stubs.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                          {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">auto</span> ra = __builtin_extract_return_addr(__builtin_return_address(0));</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d3b/dlfcn-stubs_8cpp.html#af910db5c96394a1482c60950a451498c">__dlapi_open</a>(file, <a class="code" href="../../d0/d9a/namespacemlibc.html#ab23074ec2cdf531bdcbd6bcc91e90e12">flags</a>, ra);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d3b/dlfcn-stubs_8cpp.html#af910db5c96394a1482c60950a451498c">__dlapi_open</a>(file, <a class="code" href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>, ra);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 <div class="ttc" id="adlfcn-stubs_8cpp_html_af910db5c96394a1482c60950a451498c"><div class="ttname"><a href="../../d8/d3b/dlfcn-stubs_8cpp.html#af910db5c96394a1482c60950a451498c">__dlapi_open</a></div><div class="ttdeci">void * __dlapi_open(const char *, int, void *)</div></div>
-<div class="ttc" id="anamespacemlibc_html_ab23074ec2cdf531bdcbd6bcc91e90e12"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#ab23074ec2cdf531bdcbd6bcc91e90e12">mlibc::flags</a></div><div class="ttdeci">void int int flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dab/aero_8cpp_source.html#l00297">aero.cpp:297</a></div></div>
+<div class="ttc" id="agm__loop_8c_html_ac8bf36fe0577cba66bccda3a6f7e80a4"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a></div><div class="ttdeci">int flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00047">gm_loop.c:47</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d3b/dlfcn-stubs_8cpp.html#af910db5c96394a1482c60950a451498c">__dlapi_open()</a>, and <a class="el" href="../../d5/dab/aero_8cpp_source.html#l00297">mlibc::flags</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../da/d01/dl__iterate__phdr_2test_8c_source.html#l00059">main()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d3b/dlfcn-stubs_8cpp.html#af910db5c96394a1482c60950a451498c">__dlapi_open()</a>, and <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00047">flags</a>.</p>
 
 </div>
 </div>
@@ -226,8 +222,6 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../d8/d28/rtld__next_2libbar_8c_source.html#l00010">barGetDefault()</a>, <a class="el" href="../../d8/d28/rtld__next_2libbar_8c_source.html#l00014">barGetNext()</a>, <a class="el" href="../../d7/d35/rtld__next_2libfoo_8c_source.html#l00010">fooGetDefault()</a>, <a class="el" href="../../d7/d35/rtld__next_2libfoo_8c_source.html#l00014">fooGetNext()</a>, and <a class="el" href="../../dd/dce/noload-promote_2test_8c_source.html#l00011">main()</a>.</p>
 
 </div>
 </div>

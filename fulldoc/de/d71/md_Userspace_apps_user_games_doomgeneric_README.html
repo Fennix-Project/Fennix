@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('de/d71/md_Userspace_apps_user_games_do
 <div class="contents">
 <div class="textblock"><p>The purpose of doomgeneric is to make porting Doom easier. Of course Doom is already portable but with doomgeneric it is possible with just a few functions.</p>
 <p>To try it you will need a WAD file (game data). If you don't own the game, shareware version is freely available (doom1.wad).</p>
-<h1><a class="anchor" id="autotoc_md25"></a>
+<h1><a class="anchor" id="autotoc_md33"></a>
 porting</h1>
 <p>Create a file named doomgeneric_yourplatform.c and just implement these functions to suit your platform.</p><ul>
 <li>DG_Init</li>
@@ -116,7 +116,7 @@ porting</h1>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">DG_SetWindowTitle   </td><td class="markdownTableBodyNone">Not required. This is for setting the window title as Doom sets this from WAD file.   </td></tr>
 </table>
-<h3><a class="anchor" id="autotoc_md26"></a>
+<h3><a class="anchor" id="autotoc_md34"></a>
 main loop</h3>
 <p>At start, call <a class="el" href="../../d6/d13/doomgeneric_8c.html#accddd9618aa7659353f2073fe1fa5409">doomgeneric_Create()</a>.</p>
 <p>In a loop, call <a class="el" href="../../d2/dc6/d__main_8c.html#a8841f891ddd9365ac6a5a171f3c669ae">doomgeneric_Tick()</a>.</p>
@@ -131,22 +131,22 @@ main loop</h3>
 <div class="line">    </div>
 <div class="line">    return 0;</div>
 <div class="line">}</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md27"></a>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md35"></a>
 sound</h1>
 <p>Sound is much harder to implement! If you need sound, take a look at SDL port. It fully supports sound and music! Where to start? Define FEATURE_SOUND, assign DG_sound_module and DG_music_module.</p>
-<h1><a class="anchor" id="autotoc_md28"></a>
+<h1><a class="anchor" id="autotoc_md36"></a>
 platforms</h1>
 <p>Ported platforms include Windows, X11, SDL, Soso. Just look at (doomgeneric_win.c or doomgeneric_xlib.c).</p>
-<h2><a class="anchor" id="autotoc_md29"></a>
+<h2><a class="anchor" id="autotoc_md37"></a>
 Windows</h2>
 <p><img src="../../screenshots/windows.png" alt="Windows" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md30"></a>
+<h2><a class="anchor" id="autotoc_md38"></a>
 X11 - Ubuntu</h2>
 <p><img src="../../screenshots/ubuntu.png" alt="Ubuntu" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md31"></a>
+<h2><a class="anchor" id="autotoc_md39"></a>
 X11 - FreeBSD</h2>
 <p><img src="../../screenshots/freebsd.png" alt="FreeBSD" class="inline"/></p>
-<h2><a class="anchor" id="autotoc_md32"></a>
+<h2><a class="anchor" id="autotoc_md40"></a>
 SDL</h2>
 <p><img src="../../screenshots/sdl.png" alt="SDL" class="inline"/> </p>
 </div></div><!-- contents -->

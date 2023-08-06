@@ -4,19 +4,19 @@ var VMware_2mouse_8hpp =
       [ "di", "d5/d82/namespaceVMwareMouse.html#a76fbae6c5a6f698da3d7586ab7fa1d58", null ],
       [ "si", "d5/d82/namespaceVMwareMouse.html#a5a50398c90e596d4be693bc7ca90700c", null ]
     ] ],
-    [ "VMwareCommand.__unnamed839__", "d5/d82/namespaceVMwareMouse.html#d4/dba/unionVMwareMouse_1_1VMwareCommand_8____unnamed839____", [
+    [ "VMwareCommand.__unnamed852__", "d5/d82/namespaceVMwareMouse.html#dd/dee/unionVMwareMouse_1_1VMwareCommand_8____unnamed852____", [
       [ "ax", "d5/d82/namespaceVMwareMouse.html#a9cea1e2473aaf49955fa34faac95b3e7", null ],
       [ "magic", "d5/d82/namespaceVMwareMouse.html#a2f3a4fccca6406e35bcf33e92dd93135", null ]
     ] ],
-    [ "VMwareCommand.__unnamed841__", "d5/d82/namespaceVMwareMouse.html#d2/d6b/unionVMwareMouse_1_1VMwareCommand_8____unnamed841____", [
+    [ "VMwareCommand.__unnamed854__", "d5/d82/namespaceVMwareMouse.html#d2/def/unionVMwareMouse_1_1VMwareCommand_8____unnamed854____", [
       [ "bx", "d5/d82/namespaceVMwareMouse.html#a6f5770d50b01a0abbce803768d3592b0", null ],
       [ "size", "d5/d82/namespaceVMwareMouse.html#af7bd60b75b29d79b660a2859395c1a24", null ]
     ] ],
-    [ "VMwareCommand.__unnamed843__", "d5/d82/namespaceVMwareMouse.html#d9/dc6/unionVMwareMouse_1_1VMwareCommand_8____unnamed843____", [
+    [ "VMwareCommand.__unnamed856__", "d5/d82/namespaceVMwareMouse.html#dd/d45/unionVMwareMouse_1_1VMwareCommand_8____unnamed856____", [
       [ "command", "d5/d82/namespaceVMwareMouse.html#a1dccadfed7bcbb036c56a4afb97e906f", null ],
       [ "cx", "d5/d82/namespaceVMwareMouse.html#a0bdff8095c8bf1b38775bf35547a1317", null ]
     ] ],
-    [ "VMwareCommand.__unnamed845__", "d5/d82/namespaceVMwareMouse.html#dd/d76/unionVMwareMouse_1_1VMwareCommand_8____unnamed845____", [
+    [ "VMwareCommand.__unnamed858__", "d5/d82/namespaceVMwareMouse.html#d5/d7e/unionVMwareMouse_1_1VMwareCommand_8____unnamed858____", [
       [ "dx", "d5/d82/namespaceVMwareMouse.html#aacd2b09d39705a84bff035c18c9faea9", null ],
       [ "port", "d5/d82/namespaceVMwareMouse.html#a901555fb06e346cb065ceb9808dcfc25", null ]
     ] ],

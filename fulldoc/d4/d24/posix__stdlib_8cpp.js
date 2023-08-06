@@ -1,6 +1,6 @@
 var posix__stdlib_8cpp =
 [
-    [ "canonicalize_file_name", "d4/d24/posix__stdlib_8cpp.html#ab5665565086744a17107a6617cfef3da", null ],
+    [ "canonicalize_file_name", "d4/d24/posix__stdlib_8cpp.html#ade54786152a3fc33dc313ddebbae25a9", null ],
     [ "drand48", "d4/d24/posix__stdlib_8cpp.html#af9329f9acef07ca14ea2256191c3ce74", null ],
     [ "getloadavg", "d4/d24/posix__stdlib_8cpp.html#ab6933a29bf700d90f3ce9e0caafae9cc", null ],
     [ "grantpt", "d4/d24/posix__stdlib_8cpp.html#ae09b28c5490741231182c52028a23165", null ],
@@ -10,7 +10,6 @@ var posix__stdlib_8cpp =
     [ "loadstate", "d4/d24/posix__stdlib_8cpp.html#a94ba732745ced7ea12e0b89dcedbb81f", null ],
     [ "mkdtemp", "d4/d24/posix__stdlib_8cpp.html#adbca5306775cc2b3aeaaf31b6ce6f397", null ],
     [ "mkostemp", "d4/d24/posix__stdlib_8cpp.html#a3f7c556e87c6112174a67a2f2cf050bf", null ],
-    [ "mkostemps", "d4/d24/posix__stdlib_8cpp.html#aa74eeee80c19ef8d4b3498141d4d165f", null ],
     [ "mkstemp", "d4/d24/posix__stdlib_8cpp.html#a0b8d4c3f9014280ee36a9aa5571f4111", null ],
     [ "posix_openpt", "d4/d24/posix__stdlib_8cpp.html#afd9475f7eaa6222c6eac2d3c1df049c5", null ],
     [ "ptsname", "d4/d24/posix__stdlib_8cpp.html#a4602f14b8c8f146f93d72986341a27b7", null ],

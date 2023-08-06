@@ -6,7 +6,11 @@ var mlibc_2options_2posix_2include_2sys_2wait_8h =
       [ "P_PGID", "d1/d7b/libc_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea351482652f992f695740282f8554d156", null ],
       [ "P_ALL", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea3e3e77552a242f89c892494ef1596758", null ],
       [ "P_PID", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea670c56bdd326fb6de6112e15dd6c020e", null ],
-      [ "P_PGID", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea351482652f992f695740282f8554d156", null ]
+      [ "P_PGID", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea351482652f992f695740282f8554d156", null ],
+      [ "P_ALL", "d7/d0e/musl_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea3e3e77552a242f89c892494ef1596758", null ],
+      [ "P_PID", "d7/d0e/musl_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea670c56bdd326fb6de6112e15dd6c020e", null ],
+      [ "P_PGID", "d7/d0e/musl_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea351482652f992f695740282f8554d156", null ],
+      [ "P_PIDFD", "d7/d0e/musl_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1eade18c56e85842f8977229ba4ae634afd", null ]
     ] ],
     [ "wait", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html#abf2fbcf6df59fd5234e9eed4db1a1804", null ],
     [ "wait3", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html#a8f43719213946449cf4d1a00babeb514", null ],

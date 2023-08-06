@@ -24,7 +24,7 @@ var string_stubs_8cpp =
     [ "strtok", "d4/d6d/string-stubs_8cpp.html#af252c89057913e315cdad9c2b176cc9c", null ],
     [ "strtok_r", "d4/d6d/string-stubs_8cpp.html#a5205723089c144f8b84b944cd13a857c", null ],
     [ "strverscmp", "d4/d6d/string-stubs_8cpp.html#aaef15365f85f11bb33753e756931288f", null ],
-    [ "strxfrm", "d4/d6d/string-stubs_8cpp.html#a1d0bfaa2b1bfe241bee048b98a485218", null ],
+    [ "strxfrm", "d4/d6d/string-stubs_8cpp.html#a977757b5098fa24eeb94905be9525a3f", null ],
     [ "wcscat", "d4/d6d/string-stubs_8cpp.html#afe0920261d2f7f9a1b4eaaaadf37c405", null ],
     [ "wcschr", "d4/d6d/string-stubs_8cpp.html#ade46083c40887e2d8983a02c6661affd", null ],
     [ "wcscoll", "d4/d6d/string-stubs_8cpp.html#a8bc90ff31e5b1f1d42cf996689ab4c51", null ],

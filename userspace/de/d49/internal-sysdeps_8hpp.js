@@ -14,6 +14,5 @@ var internal_sysdeps_8hpp =
     [ "sys_stat", "de/d49/internal-sysdeps_8hpp.html#a8a6b849548c71bc37b423a275c51c1bb", null ],
     [ "sys_tcb_set", "de/d49/internal-sysdeps_8hpp.html#a778c9089611e892252caf5d0d98b4b45", null ],
     [ "sys_vm_map", "de/d49/internal-sysdeps_8hpp.html#a7ae04ddbac9c8e27efc36524ae35d95b", null ],
-    [ "sys_vm_protect", "de/d49/internal-sysdeps_8hpp.html#a4316d1398e3f2b929852056965887a66", null ],
     [ "sys_vm_unmap", "de/d49/internal-sysdeps_8hpp.html#ad9bed8d2b1141f61f24b40ca884121bd", null ]
 ];

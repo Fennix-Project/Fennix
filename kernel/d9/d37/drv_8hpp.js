@@ -5,6 +5,7 @@ var drv_8hpp =
     [ "StartATA", "d9/d37/drv_8hpp.html#ac736443a2fd115087ccebc5fdad41805", null ],
     [ "StartGigabit", "d9/d37/drv_8hpp.html#a1eaae721e5017d0400d9ed6e1fbe7b47", null ],
     [ "StartPCNET", "d9/d37/drv_8hpp.html#a2b0f533c82905960726184e900d07d5e", null ],
+    [ "StartPS2Keyboard", "d9/d37/drv_8hpp.html#a8f0a6861d7a2fa2ac4b04a1ba1304175", null ],
     [ "StartPS2Mouse", "d9/d37/drv_8hpp.html#a00035fecc90b11a820e6b4664dc17246", null ],
     [ "StartRTL8139", "d9/d37/drv_8hpp.html#a6f5dc73210138bd961863acb55ba8f3b", null ],
     [ "StartVMwareMouse", "d9/d37/drv_8hpp.html#aabd355befa0436e3867e30fe1c445041", null ]

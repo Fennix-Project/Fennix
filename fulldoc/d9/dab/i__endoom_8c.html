@@ -167,7 +167,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *screendata;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> indent;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d6/dd8/print__cmd_8c.html#a0b10841e5bd6f04dc1a36dafc0f88fe6">indent</a>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="comment">// Set up text mode screen</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
@@ -179,12 +179,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    screendata = TXT_GetScreenData();</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    indent = (<a class="code" href="../../d9/dab/i__endoom_8c.html#add1107f947f16e9506490c3cf1dd11a2">ENDOOM_W</a> - TXT_SCREEN_W) / 2;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../d6/dd8/print__cmd_8c.html#a0b10841e5bd6f04dc1a36dafc0f88fe6">indent</a> = (<a class="code" href="../../d9/dab/i__endoom_8c.html#add1107f947f16e9506490c3cf1dd11a2">ENDOOM_W</a> - TXT_SCREEN_W) / 2;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>=0; <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>&lt;TXT_SCREEN_H; ++<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>)</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <a class="code" href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a>(screendata + (<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> * TXT_SCREEN_W * 2),</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;               endoom_data + (<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> * <a class="code" href="../../d9/dab/i__endoom_8c.html#add1107f947f16e9506490c3cf1dd11a2">ENDOOM_W</a> + indent) * 2,</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;               endoom_data + (<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> * <a class="code" href="../../d9/dab/i__endoom_8c.html#add1107f947f16e9506490c3cf1dd11a2">ENDOOM_W</a> + <a class="code" href="../../d6/dd8/print__cmd_8c.html#a0b10841e5bd6f04dc1a36dafc0f88fe6">indent</a>) * 2,</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;               TXT_SCREEN_W * 2);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
@@ -212,8 +212,9 @@ Functions</h2></td></tr>
 <div class="ttc" id="ai__endoom_8c_html_add1107f947f16e9506490c3cf1dd11a2"><div class="ttname"><a href="../../d9/dab/i__endoom_8c.html#add1107f947f16e9506490c3cf1dd11a2">ENDOOM_W</a></div><div class="ttdeci">#define ENDOOM_W</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dab/i__endoom_8c_source.html#l00029">i_endoom.c:29</a></div></div>
 <div class="ttc" id="ai__video_8h_html_a6943a08cf7b1444dfe2c9c7e764838a2"><div class="ttname"><a href="../../de/da9/i__video_8h.html#a6943a08cf7b1444dfe2c9c7e764838a2">I_InitWindowIcon</a></div><div class="ttdeci">void I_InitWindowIcon(void)</div></div>
 <div class="ttc" id="ai__video_8h_html_ae76c79231bbc339a7509ecb2d731d936"><div class="ttname"><a href="../../de/da9/i__video_8h.html#ae76c79231bbc339a7509ecb2d731d936">I_InitWindowTitle</a></div><div class="ttdeci">void I_InitWindowTitle(void)</div></div>
+<div class="ttc" id="aprint__cmd_8c_html_a0b10841e5bd6f04dc1a36dafc0f88fe6"><div class="ttname"><a href="../../d6/dd8/print__cmd_8c.html#a0b10841e5bd6f04dc1a36dafc0f88fe6">indent</a></div><div class="ttdeci">static void indent(int amount)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd8/print__cmd_8c_source.html#l01498">print_cmd.c:1498</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/dab/i__endoom_8c_source.html#l00029">ENDOOM_W</a>, <a class="el" href="../../de/da9/i__video_8h.html#a6943a08cf7b1444dfe2c9c7e764838a2">I_InitWindowIcon()</a>, <a class="el" href="../../de/da9/i__video_8h.html#ae76c79231bbc339a7509ecb2d731d936">I_InitWindowTitle()</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00116">memcpy</a>, and <a class="el" href="../../da/db0/f__wipe_8c_source.html#l00130">y</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dab/i__endoom_8c_source.html#l00029">ENDOOM_W</a>, <a class="el" href="../../de/da9/i__video_8h.html#a6943a08cf7b1444dfe2c9c7e764838a2">I_InitWindowIcon()</a>, <a class="el" href="../../de/da9/i__video_8h.html#ae76c79231bbc339a7509ecb2d731d936">I_InitWindowTitle()</a>, <a class="el" href="../../d6/dd8/print__cmd_8c_source.html#l01498">indent()</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00116">memcpy</a>, and <a class="el" href="../../da/db0/f__wipe_8c_source.html#l00130">y</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d2/dc6/d__main_8c_source.html#l01067">D_Endoom()</a>.</p>
 

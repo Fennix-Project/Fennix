@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/Execute/Elf/ElfParse.cpp File Reference</title>
+<title>Fennix Kernel: Kernel/ExecutionLayer/Elf/ElfParse.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -118,24 +118,17 @@ Functions</h2></td></tr>
 <tr class="separator:a7894a544dca4203177ce939296a1e59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a660cd5854fd95bf599775f39f0f99966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d9e/elf_8h.html#a444e910ff0ecd13df9478b60951f4eee">Elf64_Sym</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a660cd5854fd95bf599775f39f0f99966">Execute::ELFLookupSymbol</a> (<a class="el" href="../../d1/d9e/elf_8h.html#af59c9cc8cec9316330f757a0fbd79956">Elf64_Ehdr</a> *Header, const char *Name)</td></tr>
 <tr class="separator:a660cd5854fd95bf599775f39f0f99966"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab1eade0c10f56d657c61085ccae4ba2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d9e/elf_8h.html#a444e910ff0ecd13df9478b60951f4eee">Elf64_Sym</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#aab1eade0c10f56d657c61085ccae4ba2">Execute::ELFLookupSymbol</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, const char *Name)</td></tr>
-<tr class="separator:aab1eade0c10f56d657c61085ccae4ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a208160ff41b6dcf8a704c735933f9c1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d9e/elf_8h.html#a444e910ff0ecd13df9478b60951f4eee">Elf64_Sym</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a208160ff41b6dcf8a704c735933f9c1a">Execute::ELFLookupSymbol</a> (int fd, const char *Name)</td></tr>
+<tr class="separator:a208160ff41b6dcf8a704c735933f9c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab90293c663674036e5f1f8f7bfdb5624"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#ab90293c663674036e5f1f8f7bfdb5624">Execute::ELFGetSymbolValue</a> (<a class="el" href="../../d1/d9e/elf_8h.html#af59c9cc8cec9316330f757a0fbd79956">Elf64_Ehdr</a> *Header, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Table, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Index)</td></tr>
 <tr class="separator:ab90293c663674036e5f1f8f7bfdb5624"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9863be72b967ded800758b8615557ac5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a9863be72b967ded800758b8615557ac5">Execute::CopyLOADSegments</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, <a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> HdrsBase, <a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> PhysicalBase)</td></tr>
-<tr class="separator:a9863be72b967ded800758b8615557ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a500558df7ca3e3b6299b2d9eccd2ca16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#a500558df7ca3e3b6299b2d9eccd2ca16">Execute::GetBaseAndSize</a> (<a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, <a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> &amp;Base, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> &amp;<a class="el" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>)</td></tr>
-<tr class="separator:a500558df7ca3e3b6299b2d9eccd2ca16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5342ef9feb0bb1a0da6fdebbc75262f"><td class="memItemLeft" align="right" valign="top">MmImage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d27/namespaceExecute.html#ac5342ef9feb0bb1a0da6fdebbc75262f">Execute::ELFCreateMemoryImage</a> (Memory::MemMgr *mem, Memory::Virtual &amp;vmm, <a class="el" href="../../d9/dea/structVirtualFileSystem_1_1File.html">VirtualFileSystem::File</a> &amp;ElfFile, <a class="el" href="../../d6/de6/include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d9/d4e/gigabit_8hpp.html#a975543b90f799d299886f54993f36b3b">Length</a>)</td></tr>
-<tr class="memdesc:ac5342ef9feb0bb1a0da6fdebbc75262f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a ELF <a class="el" href="../../d3/d97/namespaceMemory.html">Memory</a> Image.  <a href="../../d5/d27/namespaceExecute.html#ac5342ef9feb0bb1a0da6fdebbc75262f">More...</a><br /></td></tr>
-<tr class="separator:ac5342ef9feb0bb1a0da6fdebbc75262f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_48577533852a032f02052cba4579054b.html">Execute</a></li><li class="navelem"><a class="el" href="../../dir_bc73a328148e86de91b44e9985832553.html">Elf</a></li><li class="navelem"><a class="el" href="../../d8/d62/ElfParse_8cpp.html">ElfParse.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_4b744e453ba6f65213eaf8a0739dcfd7.html">ExecutionLayer</a></li><li class="navelem"><a class="el" href="../../dir_ef1318bc5709643b3fba9a58efb8b25f.html">Elf</a></li><li class="navelem"><a class="el" href="../../d8/d62/ElfParse_8cpp.html">ElfParse.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

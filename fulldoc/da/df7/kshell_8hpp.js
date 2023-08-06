@@ -1,4 +1,4 @@
 var kshell_8hpp =
 [
-    [ "StartKernelShell", "da/df7/kshell_8hpp.html#af9d5e140597037dddfd009372971c059", null ]
+    [ "KShellThread", "da/df7/kshell_8hpp.html#a0fee01991a81f966136c64b4a604e07e", null ]
 ];

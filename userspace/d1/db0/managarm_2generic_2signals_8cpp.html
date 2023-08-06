@@ -94,8 +94,8 @@ $(document).ready(function(){initNavTree('d1/db0/managarm_2generic_2signals_8cpp
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../dc/dc5/ensure_8h_source.html">bits/ensure.h</a>&gt;</code><br />
 <code>#include &lt;signal.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d3/dce/stddef_8h_source.html">stddef.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../df/dd8/stdint_8h_source.html">stdint.h</a>&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
 <code>#include &lt;hel.h&gt;</code><br />
@@ -107,7 +107,6 @@ $(document).ready(function(){initNavTree('d1/db0/managarm_2generic_2signals_8cpp
 <code>#include &lt;posix.frigg_bragi.hpp&gt;</code><br />
 <code>#include &lt;bragi/helpers-frigg.hpp&gt;</code><br />
 <code>#include &lt;helix/ipc-structs.hpp&gt;</code><br />
-<code>#include &lt;protocols/posix/supercalls.hpp&gt;</code><br />
 </div>
 <p><a href="../../d1/db0/managarm_2generic_2signals_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -120,9 +119,9 @@ Namespaces</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:ae32a1967f28b72b77039c0c8cd513575"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db0/managarm_2generic_2signals_8cpp.html#ae32a1967f28b72b77039c0c8cd513575">__mlibc_signal_restore</a> ()</td></tr>
 <tr class="separator:ae32a1967f28b72b77039c0c8cd513575"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7637b18e87cb5c24f18da3b21b59dbd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9a/namespacemlibc.html#a7637b18e87cb5c24f18da3b21b59dbd9">mlibc::sys_sigprocmask</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>, const <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#a3a655e945c8ac85b36edb8705afad673">__restrict</a>, <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#a3a655e945c8ac85b36edb8705afad673">__restrict</a>)</td></tr>
-<tr class="separator:a7637b18e87cb5c24f18da3b21b59dbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adac66b96e0ec7a7e5cd3007ec1ebcc5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9a/namespacemlibc.html#adac66b96e0ec7a7e5cd3007ec1ebcc5b">mlibc::sys_sigaction</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> how, const struct <a class="el" href="../../d7/def/structsigaction.html">sigaction</a> *<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#a3a655e945c8ac85b36edb8705afad673">__restrict</a> action, struct <a class="el" href="../../d7/def/structsigaction.html">sigaction</a> *<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#a3a655e945c8ac85b36edb8705afad673">__restrict</a> old_action)</td></tr>
+<tr class="memitem:af5f755a48ccba16542bcdc4db33b9681"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9a/namespacemlibc.html#af5f755a48ccba16542bcdc4db33b9681">mlibc::sys_sigprocmask</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> how, const <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *set, <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *retrieve)</td></tr>
+<tr class="separator:af5f755a48ccba16542bcdc4db33b9681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adac66b96e0ec7a7e5cd3007ec1ebcc5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9a/namespacemlibc.html#adac66b96e0ec7a7e5cd3007ec1ebcc5b">mlibc::sys_sigaction</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> how, const struct <a class="el" href="../../d7/def/structsigaction.html">sigaction</a> *<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#a36d1598ff393ba54cdcc425cdf633974">__restrict</a> action, struct <a class="el" href="../../d7/def/structsigaction.html">sigaction</a> *<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#a36d1598ff393ba54cdcc425cdf633974">__restrict</a> old_action)</td></tr>
 <tr class="separator:adac66b96e0ec7a7e5cd3007ec1ebcc5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3011784adbe36da5854aa0377b59db28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9a/namespacemlibc.html#a3011784adbe36da5854aa0377b59db28">mlibc::sys_kill</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>)</td></tr>
 <tr class="separator:a3011784adbe36da5854aa0377b59db28"><td class="memSeparator" colspan="2">&#160;</td></tr>

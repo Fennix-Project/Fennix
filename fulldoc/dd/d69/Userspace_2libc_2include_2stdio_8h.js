@@ -5,22 +5,7 @@ var Userspace_2libc_2include_2stdio_8h =
       [ "_pos", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a3f83a64703190d685175dc43b9e122a6", null ],
       [ "_sbuf", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a02ffb292db4c63093e9cf0a5a78c934b", null ]
     ] ],
-    [ "_IO_FILE", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#d0/d57/struct__IO__FILE", [
-      [ "_chain", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a148f6239f490808c7875a5d43f13e645", null ],
-      [ "_fileno", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a1883574299ff3f4ac644796985ca0a1d", null ],
-      [ "_flags", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a364ce3577f2cdb788df3a2a54909f45a", null ],
-      [ "_IO_buf_base", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a2bf5a30fdc43564cf2e46d2cce8e82dd", null ],
-      [ "_IO_buf_end", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#ac9fa3b261e95a246dac19dc35045be42", null ],
-      [ "_IO_read_base", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a2a449978f6e6aa2172f7f82ed1d42f37", null ],
-      [ "_IO_read_end", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a6994a0f73699af311e4669b4baa0e26b", null ],
-      [ "_IO_read_ptr", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a1c2f65148a6f2e35c478af0fc144fded", null ],
-      [ "_IO_write_base", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a6631dc1b00cd5a378280606c9333f40a", null ],
-      [ "_IO_write_end", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#ad68f27b22fb43ab7a50bdaa50dc7d725", null ],
-      [ "_IO_write_ptr", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#ab746b60c0613c28d3451b13afdd703b5", null ],
-      [ "_markers", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a301622bd790c688312565f4cf3b4ede4", null ],
-      [ "_offset", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a6ece920ef39fa43f38630584b53bf77d", null ],
-      [ "KernelPrivate", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a8261052342d4948e52c07840abd5a89a", null ]
-    ] ],
+    [ "_IO_FILE", "d0/d57/struct__IO__FILE.html", "d0/d57/struct__IO__FILE" ],
     [ "EOF", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a59adc4c82490d23754cd39c2fb99b0da", null ],
     [ "SEEK_CUR", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#a4c8d0b76b470ba65a43ca46a88320f39", null ],
     [ "SEEK_END", "dd/d69/Userspace_2libc_2include_2stdio_8h.html#ad2a2e6c114780c3071efd24f16c7f7d8", null ],

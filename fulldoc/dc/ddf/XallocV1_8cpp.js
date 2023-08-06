@@ -3,7 +3,7 @@ var XallocV1_8cpp =
     [ "Block", "d6/da3/classXalloc_1_1Block.html", "d6/da3/classXalloc_1_1Block" ],
     [ "SmartSMAPClass", "da/ddb/classXalloc_1_1SmartSMAPClass.html", "da/ddb/classXalloc_1_1SmartSMAPClass" ],
     [ "SmartSMAP", "dc/ddf/XallocV1_8cpp.html#a2a82b73eed542e1a090ed34bd621bdca", null ],
-    [ "Xalloc_BlockChecksum", "dc/ddf/XallocV1_8cpp.html#a46fe529591da60f8983baab8cf11f49a", null ],
+    [ "Xalloc_BlockSanityKey", "dc/ddf/XallocV1_8cpp.html#a0b12aaa63ddd5e216a5823132baa1c03", null ],
     [ "XALLOC_CONCAT", "dc/ddf/XallocV1_8cpp.html#a2d5f903403ec4e6d9aa60e09c28d9ed1", null ],
     [ "XPtoS", "dc/ddf/XallocV1_8cpp.html#a38cd196350f9d0cf0a37411bf6a50ff5", null ],
     [ "XStoP", "dc/ddf/XallocV1_8cpp.html#a5b7a92042b1817575716769e5daa6bb8", null ],
@@ -21,10 +21,10 @@ var XallocV1_8cpp =
     [ "~Block", "dc/ddf/XallocV1_8cpp.html#a489712ea29925ff0009186e7bdbe85e3", null ],
     [ "__attribute__", "dc/ddf/XallocV1_8cpp.html#a15c9a26dcacc424e7d293056e82a6574", null ],
     [ "Address", "dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc", null ],
-    [ "Checksum", "dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b", null ],
     [ "IsFree", "dc/ddf/XallocV1_8cpp.html#acb388cdb96fcfdac81a08f7ae8f8da84", null ],
     [ "Last", "dc/ddf/XallocV1_8cpp.html#a0749b442b5247bf9455c7bb9e83ffcd9", null ],
     [ "Next", "dc/ddf/XallocV1_8cpp.html#ae01a39b245e84b29bd60f59f52801d40", null ],
+    [ "Sanity", "dc/ddf/XallocV1_8cpp.html#a5969a93224837456b1121b653762cd47", null ],
     [ "Size", "dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7", null ],
     [ "Xalloc_def", "dc/ddf/XallocV1_8cpp.html#a83499008b4ceaf1ce20da46c2060f640", null ]
 ];

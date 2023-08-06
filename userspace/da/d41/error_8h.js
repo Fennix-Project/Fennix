@@ -1,8 +1,10 @@
 var error_8h =
 [
-    [ "error", "da/d41/error_8h.html#a9c181d242eb5a187ee64a6e5709e8bec", null ],
-    [ "error_at_line", "da/d41/error_8h.html#aa16871f842d983eda9b14a78e8de5ac6", null ],
-    [ "error_message_count", "da/d41/error_8h.html#a4da93110ed50a2ed059c8848910e7f2e", null ],
-    [ "error_one_per_line", "da/d41/error_8h.html#a5f618b45664d3be689d21fa25750daaf", null ],
-    [ "error_print_progname", "da/d41/error_8h.html#a712aced4dc7a84722af0eb55e61d2291", null ]
+    [ "INTERNAL_DEBUG", "da/d41/error_8h.html#a1c7d66dc03b5cb6a3a6c2a79bcbf8e4d", null ],
+    [ "PARAMS", "da/d41/error_8h.html#aaef7c2b558118ae10336304b14cf1106", null ],
+    [ "PARAMS", "da/d41/error_8h.html#a00625d7ea9123361b55cf8a629570f49", null ],
+    [ "PARAMS", "da/d41/error_8h.html#a2eda36dad3d74cff3e3b7be50e93dd67", null ],
+    [ "PARAMS", "da/d41/error_8h.html#a0af671680517a89056fcfb84697cb20e", null ],
+    [ "PARAMS", "da/d41/error_8h.html#a6282fd7eff391b36578a551cf488b9ec", null ],
+    [ "PARAMS", "da/d41/error_8h.html#aea9a251b9105eaf4fa07f7f8aacaa4b6", null ]
 ];

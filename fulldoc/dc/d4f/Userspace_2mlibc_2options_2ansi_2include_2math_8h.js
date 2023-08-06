@@ -1,7 +1,6 @@
 var Userspace_2mlibc_2options_2ansi_2include_2math_8h =
 [
     [ "__MLIBC_CHOOSE_COMPARISON", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a9de86946ba6e0fbcf32dc73dd6dcaeae", null ],
-    [ "__signgam", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#acdb2a2420399d5f6f15c948a4341ac2d", null ],
     [ "FP_ILOGB0", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a9ec0e31304d15c42262b2c4a3b58443c", null ],
     [ "FP_ILOGBNAN", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a01e2e5be97c739a5bdcbc619b44f9742", null ],
     [ "FP_INFINITE", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a4f64bcc64f8b84dd9daf5a4e56abf0ca", null ],
@@ -35,7 +34,6 @@ var Userspace_2mlibc_2options_2ansi_2include_2math_8h =
     [ "M_PI", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#ae71449b1cc6e6250b91f539153a7a0d3", null ],
     [ "M_PI_2", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a958e4508ed28ee5cc04249144312c15f", null ],
     [ "M_PI_4", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#aeb24420b096a677f3a2dc5a72b36bf22", null ],
-    [ "M_PIl", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a126570edaffa4fa37291be26b3b8fdce", null ],
     [ "M_SQRT1_2", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#acdbb2c2f9429f08916f03c8786d2d2d7", null ],
     [ "M_SQRT2", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a66b3ab30f1332874326ed93969e496e0", null ],
     [ "MATH_ERREXCEPT", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#ae05ce3fe3745507c8e989f6e9efe0a83", null ],
@@ -242,6 +240,5 @@ var Userspace_2mlibc_2options_2ansi_2include_2math_8h =
     [ "tgammal", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8eff39a57115761c5025e08ff2e08c6a", null ],
     [ "trunc", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a82a151adfde56b28fa8a50355c4f2ff6", null ],
     [ "truncf", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#aa8bb2049c170c9ac5b131fdba029991a", null ],
-    [ "truncl", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8f9695496a9bb839eb5f728b6bf0c856", null ],
-    [ "signgam", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#aaf3c24f586d5e086574db96ff817e3e3", null ]
+    [ "truncl", "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8f9695496a9bb839eb5f728b6bf0c856", null ]
 ];

@@ -111,19 +111,14 @@ $(document).ready(function(){initNavTree('d7/d15/all-sysdeps_8hpp_source.html','
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#   include &lt;<a class="code" href="../../d0/d13/glibc-sysdeps_8hpp.html">mlibc/glibc-sysdeps.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __MLIBC_GLIBC_OPTION */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#if __MLIBC_BSD_OPTION</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#   include &lt;<a class="code" href="../../da/d93/bsd-sysdeps_8hpp.html">mlibc/bsd-sysdeps.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* __MLIBC_BSD_OPTION */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#if MLIBC_BUILDING_RTDL</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#   include &lt;<a class="code" href="../../d3/dfe/rtdl-sysdeps_8hpp.html">mlibc/rtdl-sysdeps.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MLIBC_BUILDING_RTDL */</span><span class="preprocessor"></span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#if MLIBC_BUILDING_RTDL</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#   include &lt;<a class="code" href="../../d3/dfe/rtdl-sysdeps_8hpp.html">mlibc/rtdl-sysdeps.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MLIBC_BUILDING_RTDL */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../de/d49/internal-sysdeps_8hpp.html">mlibc/internal-sysdeps.hpp</a>&gt;</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#endif </span><span class="comment">/* MLIBC_ALL_SYSDEPS */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../de/d49/internal-sysdeps_8hpp.html">mlibc/internal-sysdeps.hpp</a>&gt;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// MLIBC_ALL_SYSDEPS</span></div>
 <div class="ttc" id="aansi-sysdeps_8hpp_html"><div class="ttname"><a href="../../de/dae/ansi-sysdeps_8hpp.html">ansi-sysdeps.hpp</a></div></div>
-<div class="ttc" id="absd-sysdeps_8hpp_html"><div class="ttname"><a href="../../da/d93/bsd-sysdeps_8hpp.html">bsd-sysdeps.hpp</a></div></div>
 <div class="ttc" id="aglibc-sysdeps_8hpp_html"><div class="ttname"><a href="../../d0/d13/glibc-sysdeps_8hpp.html">glibc-sysdeps.hpp</a></div></div>
 <div class="ttc" id="ainternal-sysdeps_8hpp_html"><div class="ttname"><a href="../../de/d49/internal-sysdeps_8hpp.html">internal-sysdeps.hpp</a></div></div>
 <div class="ttc" id="alinux-sysdeps_8hpp_html"><div class="ttname"><a href="../../db/d6a/linux-sysdeps_8hpp.html">linux-sysdeps.hpp</a></div></div>

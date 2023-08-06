@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/options/posix/include/netinet/ip6.h File Reference</title>
+<title>Fennix: Userspace/musl/include/netinet/ip6.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -86,12 +86,14 @@ $(document).ready(function(){initNavTree('d0/dca/ip6_8h.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Data Structures</a>  </div>
+<a href="#nested-classes">Data Structures</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">ip6.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../dd/d96/options_2posix_2include_2netinet_2in_8h_source.html">netinet/in.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;netinet/in.h&gt;</code><br />
 </div>
 <p><a href="../../d0/dca/ip6_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -99,10 +101,85 @@ $(document).ready(function(){initNavTree('d0/dca/ip6_8h.html','../../'); initRes
 Data Structures</h2></td></tr>
 <tr class="memitem:d2/d9c/structip6__hdr"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#d2/d9c/structip6__hdr">ip6_hdr</a></td></tr>
 <tr class="separator:d2/d9c/structip6__hdr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d6/df5/structip6__ext"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#d6/df5/structip6__ext">ip6_ext</a></td></tr>
+<tr class="separator:d6/df5/structip6__ext"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:de/df2/structip6__hbh"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#de/df2/structip6__hbh">ip6_hbh</a></td></tr>
+<tr class="separator:de/df2/structip6__hbh"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/d34/structip6__dest"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#dc/d34/structip6__dest">ip6_dest</a></td></tr>
+<tr class="separator:dc/d34/structip6__dest"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/d01/structip6__rthdr"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#dd/d01/structip6__rthdr">ip6_rthdr</a></td></tr>
+<tr class="separator:dd/d01/structip6__rthdr"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d4/d4a/structip6__rthdr0"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#d4/d4a/structip6__rthdr0">ip6_rthdr0</a></td></tr>
+<tr class="separator:d4/d4a/structip6__rthdr0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dd/d63/structip6__frag"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#dd/d63/structip6__frag">ip6_frag</a></td></tr>
+<tr class="separator:dd/d63/structip6__frag"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d2/d24/structip6__opt"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#d2/d24/structip6__opt">ip6_opt</a></td></tr>
+<tr class="separator:d2/d24/structip6__opt"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/d1e/structip6__opt__jumbo"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#dc/d1e/structip6__opt__jumbo">ip6_opt_jumbo</a></td></tr>
+<tr class="separator:dc/d1e/structip6__opt__jumbo"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/db0/structip6__opt__nsap"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#dc/db0/structip6__opt__nsap">ip6_opt_nsap</a></td></tr>
+<tr class="separator:dc/db0/structip6__opt__nsap"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:d5/dd0/structip6__opt__tunnel"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#d5/dd0/structip6__opt__tunnel">ip6_opt_tunnel</a></td></tr>
+<tr class="separator:d5/dd0/structip6__opt__tunnel"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:dc/d52/structip6__opt__router"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#dc/d52/structip6__opt__router">ip6_opt_router</a></td></tr>
+<tr class="separator:dc/d52/structip6__opt__router"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dd/db4/unionip6__hdr_8ip6__ctlun"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#dd/db4/unionip6__hdr_8ip6__ctlun">ip6_hdr.ip6_ctlun</a></td></tr>
 <tr class="separator:dd/db4/unionip6__hdr_8ip6__ctlun"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:dc/d50/structip6__hdr_1_1ip6__hdrctl_8ip6__ctlun_8ip6__un1"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#dc/d50/structip6__hdr_1_1ip6__hdrctl_8ip6__ctlun_8ip6__un1">ip6_hdrctl.ip6_ctlun.ip6_un1</a></td></tr>
 <tr class="separator:dc/d50/structip6__hdr_1_1ip6__hdrctl_8ip6__ctlun_8ip6__un1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a4070ab87c58e9ea0b339a49d5599a716"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a4070ab87c58e9ea0b339a49d5599a716">ip6_vfc</a>&#160;&#160;&#160;ip6_ctlun.ip6_un2_vfc</td></tr>
+<tr class="separator:a4070ab87c58e9ea0b339a49d5599a716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b7afb14f7a6dce90a6d382445c028ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a3b7afb14f7a6dce90a6d382445c028ee">ip6_flow</a>&#160;&#160;&#160;ip6_ctlun.ip6_un1.ip6_un1_flow</td></tr>
+<tr class="separator:a3b7afb14f7a6dce90a6d382445c028ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f12fbab2e739076876c82ae50da4f5a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a2f12fbab2e739076876c82ae50da4f5a">ip6_plen</a>&#160;&#160;&#160;ip6_ctlun.ip6_un1.ip6_un1_plen</td></tr>
+<tr class="separator:a2f12fbab2e739076876c82ae50da4f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51d28c6adc4201dbc5302e83815c7b6b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a51d28c6adc4201dbc5302e83815c7b6b">ip6_nxt</a>&#160;&#160;&#160;ip6_ctlun.ip6_un1.ip6_un1_nxt</td></tr>
+<tr class="separator:a51d28c6adc4201dbc5302e83815c7b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aace8be997ae474eb807fceb2f7b84f2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#aace8be997ae474eb807fceb2f7b84f2c">ip6_hlim</a>&#160;&#160;&#160;ip6_ctlun.ip6_un1.ip6_un1_hlim</td></tr>
+<tr class="separator:aace8be997ae474eb807fceb2f7b84f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c6f491754e32143a7f9c1bef4b4856"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a22c6f491754e32143a7f9c1bef4b4856">ip6_hops</a>&#160;&#160;&#160;ip6_ctlun.ip6_un1.ip6_un1_hlim</td></tr>
+<tr class="separator:a22c6f491754e32143a7f9c1bef4b4856"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3c2649ad47ab570ebe7497916af285f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#ad3c2649ad47ab570ebe7497916af285f">IP6F_OFF_MASK</a>&#160;&#160;&#160;0xfff8</td></tr>
+<tr class="separator:ad3c2649ad47ab570ebe7497916af285f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679bf26e6522a3d5e6855e5d5d09be40"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a679bf26e6522a3d5e6855e5d5d09be40">IP6F_RESERVED_MASK</a>&#160;&#160;&#160;0x0006</td></tr>
+<tr class="separator:a679bf26e6522a3d5e6855e5d5d09be40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a083e5687872bbf9f6a98dad08a42ffd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a083e5687872bbf9f6a98dad08a42ffd3">IP6F_MORE_FRAG</a>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="separator:a083e5687872bbf9f6a98dad08a42ffd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ac0d8d7522fa1fd450c2b97a3de589d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a1ac0d8d7522fa1fd450c2b97a3de589d">IP6OPT_TYPE</a>(o)&#160;&#160;&#160;((o) &amp; 0xc0)</td></tr>
+<tr class="separator:a1ac0d8d7522fa1fd450c2b97a3de589d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa377c02fb595e45472c4910e69dab749"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#aa377c02fb595e45472c4910e69dab749">IP6OPT_TYPE_SKIP</a>&#160;&#160;&#160;0x00</td></tr>
+<tr class="separator:aa377c02fb595e45472c4910e69dab749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c16cf693e4b3b759afa1f705f8e8144"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a7c16cf693e4b3b759afa1f705f8e8144">IP6OPT_TYPE_DISCARD</a>&#160;&#160;&#160;0x40</td></tr>
+<tr class="separator:a7c16cf693e4b3b759afa1f705f8e8144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee2929fffbcb2baa1fb529e2682a630"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a1ee2929fffbcb2baa1fb529e2682a630">IP6OPT_TYPE_FORCEICMP</a>&#160;&#160;&#160;0x80</td></tr>
+<tr class="separator:a1ee2929fffbcb2baa1fb529e2682a630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af42dea58e34f63d04583cba0f2e8ed56"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#af42dea58e34f63d04583cba0f2e8ed56">IP6OPT_TYPE_ICMP</a>&#160;&#160;&#160;0xc0</td></tr>
+<tr class="separator:af42dea58e34f63d04583cba0f2e8ed56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf19597cbf45fbf749b7aa2d96edabf5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#acf19597cbf45fbf749b7aa2d96edabf5">IP6OPT_TYPE_MUTABLE</a>&#160;&#160;&#160;0x20</td></tr>
+<tr class="separator:acf19597cbf45fbf749b7aa2d96edabf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8334d544151f052317c2ae3727c121c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#aa8334d544151f052317c2ae3727c121c">IP6OPT_PAD1</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:aa8334d544151f052317c2ae3727c121c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af49f318181963a2e514485b9330f7fb0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#af49f318181963a2e514485b9330f7fb0">IP6OPT_PADN</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:af49f318181963a2e514485b9330f7fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9b8d710aad6957e7c3d0afad761133"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a8e9b8d710aad6957e7c3d0afad761133">IP6OPT_JUMBO</a>&#160;&#160;&#160;0xc2</td></tr>
+<tr class="separator:a8e9b8d710aad6957e7c3d0afad761133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4edd4d1d0331d49a0f4b22533c0351"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a2f4edd4d1d0331d49a0f4b22533c0351">IP6OPT_NSAP_ADDR</a>&#160;&#160;&#160;0xc3</td></tr>
+<tr class="separator:a2f4edd4d1d0331d49a0f4b22533c0351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a5ec33af48c5acf52637b77cd61abbb"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a8a5ec33af48c5acf52637b77cd61abbb">IP6OPT_TUNNEL_LIMIT</a>&#160;&#160;&#160;0x04</td></tr>
+<tr class="separator:a8a5ec33af48c5acf52637b77cd61abbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27ff48b19d8137f51c929ae6a5e22de0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a27ff48b19d8137f51c929ae6a5e22de0">IP6OPT_ROUTER_ALERT</a>&#160;&#160;&#160;0x05</td></tr>
+<tr class="separator:a27ff48b19d8137f51c929ae6a5e22de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6dad3f922622d2ef092e3216b3fb561"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#ae6dad3f922622d2ef092e3216b3fb561">IP6OPT_JUMBO_LEN</a>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:ae6dad3f922622d2ef092e3216b3fb561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbf192c1f84e1423d99215a0f840ec55"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#acbf192c1f84e1423d99215a0f840ec55">IP6_ALERT_MLD</a>&#160;&#160;&#160;0x0000</td></tr>
+<tr class="separator:acbf192c1f84e1423d99215a0f840ec55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f791af543f22372a0edac8b0c71ae1b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a8f791af543f22372a0edac8b0c71ae1b">IP6_ALERT_RSVP</a>&#160;&#160;&#160;0x0001</td></tr>
+<tr class="separator:a8f791af543f22372a0edac8b0c71ae1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57625f05722bbb76f25ee35a82ab4681"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dca/ip6_8h.html#a57625f05722bbb76f25ee35a82ab4681">IP6_ALERT_AN</a>&#160;&#160;&#160;0x0002</td></tr>
+<tr class="separator:a57625f05722bbb76f25ee35a82ab4681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="d2/d9c/structip6__hdr" id="d2/d9c/structip6__hdr"></a>
@@ -117,25 +194,450 @@ Data Structures</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00010">10</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00011">11</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a68ba0391a9cbd536f3511016c18cc68d"></a>union <a class="el" href="../../d0/dca/ip6_8h.html#dd/db4/unionip6__hdr_8ip6__ctlun">ip6_hdr</a></td>
+<a id="a709c26ac6970926112137a1c35a54586"></a>union <a class="el" href="../../d0/dca/ip6_8h.html#dd/db4/unionip6__hdr_8ip6__ctlun">ip6_hdr</a></td>
 <td class="fieldname">
 ip6_ctlun</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a81c98bd7918a87cb7fccd5c91d4d78e9"></a>struct <a class="el" href="../../de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d4/d7d/structin6__addr">in6_addr</a></td>
+<a id="a81c98bd7918a87cb7fccd5c91d4d78e9"></a>struct <a class="el" href="../../d4/d9c/musl_2include_2netinet_2in_8h.html#d4/d7d/structin6__addr">in6_addr</a></td>
 <td class="fieldname">
 ip6_dst</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aa9c66bbc7c3b02bd0d3572acac860dfa"></a>struct <a class="el" href="../../de/d99/sysdeps_2managarm_2include_2abi-bits_2in_8h.html#d4/d7d/structin6__addr">in6_addr</a></td>
+<a id="aa9c66bbc7c3b02bd0d3572acac860dfa"></a>struct <a class="el" href="../../d4/d9c/musl_2include_2netinet_2in_8h.html#d4/d7d/structin6__addr">in6_addr</a></td>
 <td class="fieldname">
 ip6_src</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d6/df5/structip6__ext" id="d6/df5/structip6__ext"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d6/df5/structip6__ext">&#9670;&nbsp;</a></span>ip6_ext</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_ext</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00032">32</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a1807ffc62262df0ee110a20183b3d62d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6e_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4114f7a8a3705c1d74f0710ecd79ce67"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6e_nxt</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="de/df2/structip6__hbh" id="de/df2/structip6__hbh"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#de/df2/structip6__hbh">&#9670;&nbsp;</a></span>ip6_hbh</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_hbh</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00037">37</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ac5e1185743cc34b2eedb75380fa63bc2"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6h_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aaa1a17dd1e8895e43f1fc96931bd9285"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6h_nxt</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dc/d34/structip6__dest" id="dc/d34/structip6__dest"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dc/d34/structip6__dest">&#9670;&nbsp;</a></span>ip6_dest</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_dest</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00042">42</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a3fe9ac05ef63c5d2c3645c1eede2a023"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6d_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a481b711a32973a4a9240a929094631c6"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6d_nxt</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dd/d01/structip6__rthdr" id="dd/d01/structip6__rthdr"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/d01/structip6__rthdr">&#9670;&nbsp;</a></span>ip6_rthdr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_rthdr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00047">47</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="ab22c7eb7f406425d09d7877095d3d19e"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6r_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a9604aa0c95428a4aaa52db2dd3a53286"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6r_nxt</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aeb06d9b42d4588879784a3c56a2c9635"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6r_segleft</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af508749951f3187504f9c7346535696b"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6r_type</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d4/d4a/structip6__rthdr0" id="d4/d4a/structip6__rthdr0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d4/d4a/structip6__rthdr0">&#9670;&nbsp;</a></span>ip6_rthdr0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_rthdr0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00054">54</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a1c6dffcf9bc747427de5193b3dcc9570"></a>struct <a class="el" href="../../d4/d9c/musl_2include_2netinet_2in_8h.html#d4/d7d/structin6__addr">in6_addr</a></td>
+<td class="fieldname">
+ip6r0_addr[]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a12da0d0272596ff932c88554d54d504c"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6r0_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af1caf3a4338125e95361aaeb8e02b8d5"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6r0_nxt</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a88f329fa46cecef64e26cba44f8ef5d2"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6r0_reserved</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a966258726a95193b95cd1ee8bc0b120d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6r0_segleft</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a35a1839c6c56cdd5474e2733203c02b2"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6r0_slmap[3]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a23af21c1148e91733ea8bcf876432e54"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6r0_type</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dd/d63/structip6__frag" id="dd/d63/structip6__frag"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dd/d63/structip6__frag">&#9670;&nbsp;</a></span>ip6_frag</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_frag</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00064">64</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a43845f282cab11bf93194cc9562ec779"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<td class="fieldname">
+ip6f_ident</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aecc3fe4b1ecd08647c6089dcb9cc43f1"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6f_nxt</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a329330a39b60a8d67c392c00b098d032"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></td>
+<td class="fieldname">
+ip6f_offlg</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a660aa05c42a34532579cff51fc502e47"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6f_reserved</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d2/d24/structip6__opt" id="d2/d24/structip6__opt"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d2/d24/structip6__opt">&#9670;&nbsp;</a></span>ip6_opt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_opt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00081">81</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="aa6d9659e9f7a9f277236cc95dd3b15fa"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6o_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="af4e2de3bf3157c32f64b6b556f3b2799"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6o_type</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dc/d1e/structip6__opt__jumbo" id="dc/d1e/structip6__opt__jumbo"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dc/d1e/structip6__opt__jumbo">&#9670;&nbsp;</a></span>ip6_opt_jumbo</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_opt_jumbo</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00101">101</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="abeb21e58276cc52126738ccbc7b230ed"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6oj_jumbo_len[4]</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ad6a71f2fd28ad7717a13fc0f297c4dfd"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6oj_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a08f0d8a3a8a9defad020b3051cd8c0bc"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6oj_type</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dc/db0/structip6__opt__nsap" id="dc/db0/structip6__opt__nsap"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dc/db0/structip6__opt__nsap">&#9670;&nbsp;</a></span>ip6_opt_nsap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_opt_nsap</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00108">108</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a0371a4c5bbd228a49478ef2831606d10"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6on_dst_nsap_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ad2acd06637e97aa7ae56f46ac42a25fc"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6on_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ae38caa49e01e93bf528ab3c212fd0cdf"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6on_src_nsap_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a12e429009e7b61239a6d42bcaa18a806"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6on_type</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="d5/dd0/structip6__opt__tunnel" id="d5/dd0/structip6__opt__tunnel"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#d5/dd0/structip6__opt__tunnel">&#9670;&nbsp;</a></span>ip6_opt_tunnel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_opt_tunnel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00115">115</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="aa7d1e1c09c38a559fc9ca053cf71121e"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6ot_encap_limit</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a5439815008364647ecf7fc0d378dab5d"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6ot_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="addc7b2f33a572df9a2a3af79aa41d171"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6ot_type</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<a name="dc/d52/structip6__opt__router" id="dc/d52/structip6__opt__router"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#dc/d52/structip6__opt__router">&#9670;&nbsp;</a></span>ip6_opt_router</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ip6_opt_router</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00121">121</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a94b06659178cf2507738f8654ae95910"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6or_len</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="afdb0689820f7941b0cd13fbbe4707a44"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6or_type</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a9881a3d0bcc6592f84a5099a8523e73f"></a><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></td>
+<td class="fieldname">
+ip6or_value[2]</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -154,7 +656,7 @@ ip6_src</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00011">11</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00012">12</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -185,7 +687,7 @@ ip6_un2_vfc</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00012">12</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00013">13</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -216,12 +718,417 @@ ip6_un1_plen</td>
 
 </div>
 </div>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a57625f05722bbb76f25ee35a82ab4681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57625f05722bbb76f25ee35a82ab4681">&#9670;&nbsp;</a></span>IP6_ALERT_AN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6_ALERT_AN&#160;&#160;&#160;0x0002</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00130">130</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="acbf192c1f84e1423d99215a0f840ec55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbf192c1f84e1423d99215a0f840ec55">&#9670;&nbsp;</a></span>IP6_ALERT_MLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6_ALERT_MLD&#160;&#160;&#160;0x0000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00128">128</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a8f791af543f22372a0edac8b0c71ae1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f791af543f22372a0edac8b0c71ae1b">&#9670;&nbsp;</a></span>IP6_ALERT_RSVP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6_ALERT_RSVP&#160;&#160;&#160;0x0001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00129">129</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a3b7afb14f7a6dce90a6d382445c028ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b7afb14f7a6dce90a6d382445c028ee">&#9670;&nbsp;</a></span>ip6_flow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ip6_flow&#160;&#160;&#160;ip6_ctlun.ip6_un1.ip6_un1_flow</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00026">26</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="aace8be997ae474eb807fceb2f7b84f2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aace8be997ae474eb807fceb2f7b84f2c">&#9670;&nbsp;</a></span>ip6_hlim</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ip6_hlim&#160;&#160;&#160;ip6_ctlun.ip6_un1.ip6_un1_hlim</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00029">29</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a22c6f491754e32143a7f9c1bef4b4856"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22c6f491754e32143a7f9c1bef4b4856">&#9670;&nbsp;</a></span>ip6_hops</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ip6_hops&#160;&#160;&#160;ip6_ctlun.ip6_un1.ip6_un1_hlim</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00030">30</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a51d28c6adc4201dbc5302e83815c7b6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51d28c6adc4201dbc5302e83815c7b6b">&#9670;&nbsp;</a></span>ip6_nxt</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ip6_nxt&#160;&#160;&#160;ip6_ctlun.ip6_un1.ip6_un1_nxt</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00028">28</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a2f12fbab2e739076876c82ae50da4f5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f12fbab2e739076876c82ae50da4f5a">&#9670;&nbsp;</a></span>ip6_plen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ip6_plen&#160;&#160;&#160;ip6_ctlun.ip6_un1.ip6_un1_plen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00027">27</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a4070ab87c58e9ea0b339a49d5599a716"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4070ab87c58e9ea0b339a49d5599a716">&#9670;&nbsp;</a></span>ip6_vfc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ip6_vfc&#160;&#160;&#160;ip6_ctlun.ip6_un2_vfc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00025">25</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a083e5687872bbf9f6a98dad08a42ffd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a083e5687872bbf9f6a98dad08a42ffd3">&#9670;&nbsp;</a></span>IP6F_MORE_FRAG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6F_MORE_FRAG&#160;&#160;&#160;0x0001</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00074">74</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="ad3c2649ad47ab570ebe7497916af285f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3c2649ad47ab570ebe7497916af285f">&#9670;&nbsp;</a></span>IP6F_OFF_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6F_OFF_MASK&#160;&#160;&#160;0xfff8</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00072">72</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a679bf26e6522a3d5e6855e5d5d09be40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679bf26e6522a3d5e6855e5d5d09be40">&#9670;&nbsp;</a></span>IP6F_RESERVED_MASK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6F_RESERVED_MASK&#160;&#160;&#160;0x0006</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00073">73</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a8e9b8d710aad6957e7c3d0afad761133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e9b8d710aad6957e7c3d0afad761133">&#9670;&nbsp;</a></span>IP6OPT_JUMBO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_JUMBO&#160;&#160;&#160;0xc2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00096">96</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="ae6dad3f922622d2ef092e3216b3fb561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6dad3f922622d2ef092e3216b3fb561">&#9670;&nbsp;</a></span>IP6OPT_JUMBO_LEN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_JUMBO_LEN&#160;&#160;&#160;6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00106">106</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a2f4edd4d1d0331d49a0f4b22533c0351"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f4edd4d1d0331d49a0f4b22533c0351">&#9670;&nbsp;</a></span>IP6OPT_NSAP_ADDR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_NSAP_ADDR&#160;&#160;&#160;0xc3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00097">97</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="aa8334d544151f052317c2ae3727c121c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8334d544151f052317c2ae3727c121c">&#9670;&nbsp;</a></span>IP6OPT_PAD1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_PAD1&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00093">93</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="af49f318181963a2e514485b9330f7fb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af49f318181963a2e514485b9330f7fb0">&#9670;&nbsp;</a></span>IP6OPT_PADN</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_PADN&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00094">94</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a27ff48b19d8137f51c929ae6a5e22de0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27ff48b19d8137f51c929ae6a5e22de0">&#9670;&nbsp;</a></span>IP6OPT_ROUTER_ALERT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_ROUTER_ALERT&#160;&#160;&#160;0x05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00099">99</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a8a5ec33af48c5acf52637b77cd61abbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a5ec33af48c5acf52637b77cd61abbb">&#9670;&nbsp;</a></span>IP6OPT_TUNNEL_LIMIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_TUNNEL_LIMIT&#160;&#160;&#160;0x04</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00098">98</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a1ac0d8d7522fa1fd450c2b97a3de589d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ac0d8d7522fa1fd450c2b97a3de589d">&#9670;&nbsp;</a></span>IP6OPT_TYPE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_TYPE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o</td><td>)</td>
+          <td>&#160;&#160;&#160;((o) &amp; 0xc0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00086">86</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a7c16cf693e4b3b759afa1f705f8e8144"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c16cf693e4b3b759afa1f705f8e8144">&#9670;&nbsp;</a></span>IP6OPT_TYPE_DISCARD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_TYPE_DISCARD&#160;&#160;&#160;0x40</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00088">88</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="a1ee2929fffbcb2baa1fb529e2682a630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ee2929fffbcb2baa1fb529e2682a630">&#9670;&nbsp;</a></span>IP6OPT_TYPE_FORCEICMP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_TYPE_FORCEICMP&#160;&#160;&#160;0x80</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00089">89</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="af42dea58e34f63d04583cba0f2e8ed56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af42dea58e34f63d04583cba0f2e8ed56">&#9670;&nbsp;</a></span>IP6OPT_TYPE_ICMP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_TYPE_ICMP&#160;&#160;&#160;0xc0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00090">90</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="acf19597cbf45fbf749b7aa2d96edabf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf19597cbf45fbf749b7aa2d96edabf5">&#9670;&nbsp;</a></span>IP6OPT_TYPE_MUTABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_TYPE_MUTABLE&#160;&#160;&#160;0x20</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00091">91</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
+<a id="aa377c02fb595e45472c4910e69dab749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa377c02fb595e45472c4910e69dab749">&#9670;&nbsp;</a></span>IP6OPT_TYPE_SKIP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IP6OPT_TYPE_SKIP&#160;&#160;&#160;0x00</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d0/dca/ip6_8h_source.html#l00087">87</a> of file <a class="el" href="../../d0/dca/ip6_8h_source.html">ip6.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_9e2aac7ae95dd40287f9f0a14447c512.html">options</a></li><li class="navelem"><a class="el" href="../../dir_deedb76606094a251784ef1bbf87d05b.html">posix</a></li><li class="navelem"><a class="el" href="../../dir_bb9c23a5990874de868ca09962dd0aa2.html">include</a></li><li class="navelem"><a class="el" href="../../dir_da345fa4101b6359e2395cc9360e6a1a.html">netinet</a></li><li class="navelem"><a class="el" href="../../d0/dca/ip6_8h.html">ip6.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_ef146483fd353a960d23a3a6df0a375c.html">include</a></li><li class="navelem"><a class="el" href="../../dir_a5d60749714b90c1118b53cd95453cea.html">netinet</a></li><li class="navelem"><a class="el" href="../../d0/dca/ip6_8h.html">ip6.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/options/ansi/generic/complex/ctan.c File Reference</title>
+<title>Fennix: Userspace/musl/src/complex/ctan.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -91,15 +91,13 @@ $(document).ready(function(){initNavTree('d7/da1/ctan_8c.html','../../'); initRe
 <div class="title">ctan.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d3b/complex_8h_source.html">complex.h</a>&gt;</code><br />
-<code>#include &lt;math.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/d4b/cephes__subr_8h_source.html">cephes_subr.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/d6e/complex__impl_8h_source.html">complex_impl.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d7/da1/ctan_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a665b5dfc1b1f51d3b444f049c6bd95dd"><td class="memItemLeft" align="right" valign="top">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da1/ctan_8c.html#a665b5dfc1b1f51d3b444f049c6bd95dd">ctan</a> (double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
+<tr class="memitem:a665b5dfc1b1f51d3b444f049c6bd95dd"><td class="memItemLeft" align="right" valign="top">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da1/ctan_8c.html#a665b5dfc1b1f51d3b444f049c6bd95dd">ctan</a> (double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
 <tr class="separator:a665b5dfc1b1f51d3b444f049c6bd95dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,47 +108,26 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> ctan </td>
+          <td class="memname">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> ctan </td>
           <td>(</td>
-          <td class="paramtype">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
+          <td class="paramtype">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
           <td class="paramname"><em>z</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/da1/ctan_8c_source.html#l00073">73</a> of file <a class="el" href="../../d7/da1/ctan_8c_source.html">ctan.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> w;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">double</span> d;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    d = <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a5e7b53a694b3cf0f2d7debd444140fbd">cos</a>(2.0 * <a class="code" href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a>(z)) + <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a3795d3c1f1d30819be56da4e4d67f64b">cosh</a>(2.0 * <a class="code" href="../../d5/d82/cimag_8c.html#a6c3d7c875ae93700b0a2a32db24b37d3">cimag</a>(z));</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8fb5c0b9b43a108724b355136d29d2f9">fabs</a>(d) &lt; 0.25)</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        d = <a class="code" href="../../d6/dea/cephes__subr_8c.html#a6a6763a2df249bf9fa3dc7c4a3866d56">__mlibc_ctans</a>(z);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">if</span> (d == 0.0) {</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="comment">/* mtherr (&quot;ctan&quot;, OVERFLOW); */</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        w = <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#af2164b2db92d8a0ed3838ad5c28db971">HUGE_VAL</a> + <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#af2164b2db92d8a0ed3838ad5c28db971">HUGE_VAL</a> * <a class="code" href="../../da/db0/md5_8h.html#ae64a2adea9b5c7925d02e4755a1642b9">I</a>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">return</span> w;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    w = <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#aad4af25633b071b0e2cdb8ebd87eca77">sin</a>(2.0 * <a class="code" href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a>(z)) / d + (<a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a862012e970c977c482507064e2793b45">sinh</a>(2.0 * <a class="code" href="../../d5/d82/cimag_8c.html#a6c3d7c875ae93700b0a2a32db24b37d3">cimag</a>(z)) / d) * <a class="code" href="../../da/db0/md5_8h.html#ae64a2adea9b5c7925d02e4755a1642b9">I</a>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> w;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_a3795d3c1f1d30819be56da4e4d67f64b"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a3795d3c1f1d30819be56da4e4d67f64b">cosh</a></div><div class="ttdeci">double cosh(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d21/cosh_8c_source.html#l00007">cosh.c:7</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_a5e7b53a694b3cf0f2d7debd444140fbd"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a5e7b53a694b3cf0f2d7debd444140fbd">cos</a></div><div class="ttdeci">double cos(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d09/cos_8c_source.html#l00045">cos.c:45</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_a862012e970c977c482507064e2793b45"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a862012e970c977c482507064e2793b45">sinh</a></div><div class="ttdeci">double sinh(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dea/sinh_8c_source.html#l00007">sinh.c:7</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_a8fb5c0b9b43a108724b355136d29d2f9"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8fb5c0b9b43a108724b355136d29d2f9">fabs</a></div><div class="ttdeci">double fabs(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d14/fabs_8c_source.html#l00004">fabs.c:4</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_aad4af25633b071b0e2cdb8ebd87eca77"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#aad4af25633b071b0e2cdb8ebd87eca77">sin</a></div><div class="ttdeci">double sin(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ded/sin_8c_source.html#l00045">sin.c:45</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_af2164b2db92d8a0ed3838ad5c28db971"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#af2164b2db92d8a0ed3838ad5c28db971">HUGE_VAL</a></div><div class="ttdeci">#define HUGE_VAL</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h_source.html#l00034">math.h:34</a></div></div>
-<div class="ttc" id="acephes__subr_8c_html_a6a6763a2df249bf9fa3dc7c4a3866d56"><div class="ttname"><a href="../../d6/dea/cephes__subr_8c.html#a6a6763a2df249bf9fa3dc7c4a3866d56">__mlibc_ctans</a></div><div class="ttdeci">double __mlibc_ctans(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dea/cephes__subr_8c_source.html#l00087">cephes_subr.c:87</a></div></div>
-<div class="ttc" id="acimag_8c_html_a6c3d7c875ae93700b0a2a32db24b37d3"><div class="ttname"><a href="../../d5/d82/cimag_8c.html#a6c3d7c875ae93700b0a2a32db24b37d3">cimag</a></div><div class="ttdeci">double cimag(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/cimag_8c_source.html#l00049">cimag.c:49</a></div></div>
-<div class="ttc" id="acomplex_8h_html_a0fa4878c968311979d497ccc322e0b9b"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a></div><div class="ttdeci">#define complex</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00011">complex.h:11</a></div></div>
-<div class="ttc" id="acreal_8c_html_a24b1a511efdb973354d81646c5c3bb81"><div class="ttname"><a href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a></div><div class="ttdeci">double creal(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dea/creal_8c_source.html#l00049">creal.c:49</a></div></div>
-<div class="ttc" id="amd5_8h_html_ae64a2adea9b5c7925d02e4755a1642b9"><div class="ttname"><a href="../../da/db0/md5_8h.html#ae64a2adea9b5c7925d02e4755a1642b9">I</a></div><div class="ttdeci">uint32_t I(uint32_t X, uint32_t Y, uint32_t Z)</div></div>
+<p class="definition">Definition at line <a class="el" href="../../d7/da1/ctan_8c_source.html#l00005">5</a> of file <a class="el" href="../../d7/da1/ctan_8c_source.html">ctan.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    z = <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a8af708b78f4ab42959eaf7aa94f2aa28">ctanh</a>(<a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a>(-<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#aa713d2bb929faf220a94f27c19575ce9">cimag</a>(z), <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a7b802a4e6b10c95bbc77930071d47568">creal</a>(z)));</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a>(<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#aa713d2bb929faf220a94f27c19575ce9">cimag</a>(z), -<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a7b802a4e6b10c95bbc77930071d47568">creal</a>(z));</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
+<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2libm_8h_html_a88de97e9525c314cef95543c6e0ce633"><div class="ttname"><a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a88de97e9525c314cef95543c6e0ce633">CMPLX</a></div><div class="ttdeci">#define CMPLX(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00154">libm.h:154</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a7b802a4e6b10c95bbc77930071d47568"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a7b802a4e6b10c95bbc77930071d47568">creal</a></div><div class="ttdeci">#define creal(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00108">complex.h:108</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a8af708b78f4ab42959eaf7aa94f2aa28"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a8af708b78f4ab42959eaf7aa94f2aa28">ctanh</a></div><div class="ttdeci">double complex ctanh(double complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d5e/ctanh_8c_source.html#l00068">ctanh.c:68</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_aa713d2bb929faf220a94f27c19575ce9"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#aa713d2bb929faf220a94f27c19575ce9">cimag</a></div><div class="ttdeci">#define cimag(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00112">complex.h:112</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dea/cephes__subr_8c_source.html#l00087">__mlibc_ctans()</a>, <a class="el" href="../../d5/d82/cimag_8c_source.html#l00049">cimag()</a>, <a class="el" href="../../d7/d3b/complex_8h_source.html#l00011">complex</a>, <a class="el" href="../../d1/d09/cos_8c_source.html#l00045">cos()</a>, <a class="el" href="../../de/d21/cosh_8c_source.html#l00007">cosh()</a>, <a class="el" href="../../da/dea/creal_8c_source.html#l00049">creal()</a>, <a class="el" href="../../d7/d14/fabs_8c_source.html#l00004">fabs()</a>, <a class="el" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h_source.html#l00034">HUGE_VAL</a>, <a class="el" href="../../da/db0/md5_8h.html#ae64a2adea9b5c7925d02e4755a1642b9">I()</a>, <a class="el" href="../../d3/ded/sin_8c_source.html#l00045">sin()</a>, and <a class="el" href="../../d8/dea/sinh_8c_source.html#l00007">sinh()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00112">cimag</a>, <a class="el" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00154">CMPLX</a>, <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00108">creal</a>, and <a class="el" href="../../d8/d5e/ctanh_8c_source.html#l00068">ctanh()</a>.</p>
 
 </div>
 </div>
@@ -159,7 +136,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_9e2aac7ae95dd40287f9f0a14447c512.html">options</a></li><li class="navelem"><a class="el" href="../../dir_e178355fa75681e7481d0c1933f8ada2.html">ansi</a></li><li class="navelem"><a class="el" href="../../dir_05a9d8a20c64f169fc09acbdb0782630.html">generic</a></li><li class="navelem"><a class="el" href="../../dir_49dc252cc2d3469e406675e6dba1de05.html">complex</a></li><li class="navelem"><a class="el" href="../../d7/da1/ctan_8c.html">ctan.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_d4c78ba7ac40508bdb05e781ab57ffb9.html">complex</a></li><li class="navelem"><a class="el" href="../../d7/da1/ctan_8c.html">ctan.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

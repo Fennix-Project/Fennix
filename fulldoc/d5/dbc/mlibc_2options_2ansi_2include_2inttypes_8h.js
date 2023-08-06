@@ -1,8 +1,8 @@
 var mlibc_2options_2ansi_2include_2inttypes_8h =
 [
-    [ "imaxdiv_t", "d5/dbc/mlibc_2options_2ansi_2include_2inttypes_8h.html#df/dc0/structimaxdiv__t", [
-      [ "quot", "d5/dbc/mlibc_2options_2ansi_2include_2inttypes_8h.html#a9339814cbb7610c72fb7d30c6573b393", null ],
-      [ "rem", "d5/dbc/mlibc_2options_2ansi_2include_2inttypes_8h.html#a6c9701ad10bff81edae7ff679cae7850", null ]
+    [ "imaxdiv_t", "d5/de5/musl_2include_2inttypes_8h.html#df/dc0/structimaxdiv__t", [
+      [ "quot", "d5/de5/musl_2include_2inttypes_8h.html#a9339814cbb7610c72fb7d30c6573b393", null ],
+      [ "rem", "d5/de5/musl_2include_2inttypes_8h.html#a6c9701ad10bff81edae7ff679cae7850", null ]
     ] ],
     [ "PRId16", "d5/dbc/mlibc_2options_2ansi_2include_2inttypes_8h.html#a087e50fe0283aacc71d7138d13e91939", null ],
     [ "PRId32", "d5/dbc/mlibc_2options_2ansi_2include_2inttypes_8h.html#a6d94d1417e1b35c53aee6306590de72b", null ],

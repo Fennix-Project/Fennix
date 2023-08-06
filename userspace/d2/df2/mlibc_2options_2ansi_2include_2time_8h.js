@@ -1,30 +1,30 @@
 var mlibc_2options_2ansi_2include_2time_8h =
 [
-    [ "tm", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#d8/d5a/structtm", [
-      [ "tm_gmtoff", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#ab76d309569eaf7b4e3c777430086f362", null ],
-      [ "tm_hour", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a3e7ca4e37f1abcaf56b8a916c38eb9fe", null ],
-      [ "tm_isdst", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a5645ca0580c8ab2c24f6c2965d9c9f9c", null ],
-      [ "tm_mday", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#ab8d8904bad43b0c8b96e61941c5b5310", null ],
-      [ "tm_min", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#af414eb7c86cc3099595211eee4d4211b", null ],
-      [ "tm_mon", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a112ac36fa2f593777138a417cf031e17", null ],
-      [ "tm_sec", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a4d098a9a5c03a00b2ee61e10851de81e", null ],
-      [ "tm_wday", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#afe81a8c46f1c693c43f259b288859f4f", null ],
-      [ "tm_yday", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a93a0ba77cc23796df84405dcbcc57eb1", null ],
-      [ "tm_year", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a33adf78fd6476b2120ce3b9c4a852053", null ],
-      [ "tm_zone", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a1b903718353b804011758faf372e5646", null ]
+    [ "tm", "d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm", [
+      [ "__tm_gmtoff", "d4/d02/musl_2include_2time_8h.html#ab077b3fcacf0aa575918483856c9cc7c", null ],
+      [ "__tm_zone", "d4/d02/musl_2include_2time_8h.html#ada643d899220f1284814158a9efaf0f0", null ],
+      [ "tm_gmtoff", "d4/d02/musl_2include_2time_8h.html#ab76d309569eaf7b4e3c777430086f362", null ],
+      [ "tm_hour", "d4/d02/musl_2include_2time_8h.html#a3e7ca4e37f1abcaf56b8a916c38eb9fe", null ],
+      [ "tm_isdst", "d4/d02/musl_2include_2time_8h.html#a5645ca0580c8ab2c24f6c2965d9c9f9c", null ],
+      [ "tm_mday", "d4/d02/musl_2include_2time_8h.html#ab8d8904bad43b0c8b96e61941c5b5310", null ],
+      [ "tm_min", "d4/d02/musl_2include_2time_8h.html#af414eb7c86cc3099595211eee4d4211b", null ],
+      [ "tm_mon", "d4/d02/musl_2include_2time_8h.html#a112ac36fa2f593777138a417cf031e17", null ],
+      [ "tm_sec", "d4/d02/musl_2include_2time_8h.html#a4d098a9a5c03a00b2ee61e10851de81e", null ],
+      [ "tm_wday", "d4/d02/musl_2include_2time_8h.html#afe81a8c46f1c693c43f259b288859f4f", null ],
+      [ "tm_yday", "d4/d02/musl_2include_2time_8h.html#a93a0ba77cc23796df84405dcbcc57eb1", null ],
+      [ "tm_year", "d4/d02/musl_2include_2time_8h.html#a33adf78fd6476b2120ce3b9c4a852053", null ],
+      [ "tm_zone", "d4/d02/musl_2include_2time_8h.html#a1b903718353b804011758faf372e5646", null ]
     ] ],
     [ "itimerspec", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#dd/dd4/structitimerspec", [
       [ "it_interval", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a27cedae552e2b2fe0993c1b2c4ff1889", null ],
       [ "it_value", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a754dda918053251c24558b07571d6e8f", null ]
     ] ],
     [ "CLOCK_BOOTTIME", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a178a9965a4481e583b0b4a559c950567", null ],
-    [ "CLOCK_BOOTTIME_ALARM", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#aab2693d9b979b68ebf71f6bb801331f0", null ],
     [ "CLOCK_MONOTONIC", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a6fb83f5e91e704391ff796553d5e0f46", null ],
     [ "CLOCK_MONOTONIC_COARSE", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#aec7304645b1e13a52fa6dfb11f1c671b", null ],
     [ "CLOCK_MONOTONIC_RAW", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#abc28c2ee4e33ae055ef2f737110a7020", null ],
     [ "CLOCK_PROCESS_CPUTIME_ID", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#ae1c3939a1e7b7cd1e5a4a7fa601cc4e9", null ],
     [ "CLOCK_REALTIME", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a922ce1ae64374c9410c8a999e25e82af", null ],
-    [ "CLOCK_REALTIME_ALARM", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#ac16321003eac28fbea29eb0407a5360e", null ],
     [ "CLOCK_REALTIME_COARSE", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#accb072221e0afcac765ec2bb6e4eca04", null ],
     [ "CLOCK_THREAD_CPUTIME_ID", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a30114e19c18f57f83727bcaba2458f1e", null ],
     [ "CLOCKS_PER_SEC", "d2/df2/mlibc_2options_2ansi_2include_2time_8h.html#a3d9fc3c745d0880902fe3ea3d5d5f71e", null ],

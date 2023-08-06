@@ -1,7 +1,7 @@
 var structSharedObject =
 [
-    [ "SharedObject", "d1/d04/structSharedObject.html#ae7ced5bb0387fff8e82a76c68015cd47", null ],
-    [ "SharedObject", "d1/d04/structSharedObject.html#a3199afb599c0d488210e89ed874d4209", null ],
+    [ "SharedObject", "d1/d04/structSharedObject.html#a8b59bf9c98c51ba7e4b36ffc7328c1a8", null ],
+    [ "SharedObject", "d1/d04/structSharedObject.html#a0de01aee8be9c4d467d2c6da9e4c99fd", null ],
     [ "baseAddress", "d1/d04/structSharedObject.html#ad623aa375f6b016260682151a13607b2", null ],
     [ "dependencies", "d1/d04/structSharedObject.html#a39ad1d4de926bbb88e6030162be6b72a", null ],
     [ "dynamic", "d1/d04/structSharedObject.html#a2fd3864691421dd2198f0fb2aff8ac18", null ],

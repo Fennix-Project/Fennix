@@ -98,9 +98,9 @@ $(document).ready(function(){initNavTree('dc/dfd/options_2internal_2generic_2ens
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a628e5c803c39fb1f1125bbccd0289ffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp.html#a628e5c803c39fb1f1125bbccd0289ffc">__ensure_fail</a> (const char *assertion, const char *file, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> line, const char *<a class="el" href="../../db/d16/debug_8h.html#ac56ee31762db2d7b05b7080812aaf7f1">function</a>)</td></tr>
+<tr class="memitem:a628e5c803c39fb1f1125bbccd0289ffc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp.html#a628e5c803c39fb1f1125bbccd0289ffc">__ensure_fail</a> (const char *assertion, const char *file, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>, const char *<a class="el" href="../../db/d16/debug_8h.html#ac56ee31762db2d7b05b7080812aaf7f1">function</a>)</td></tr>
 <tr class="separator:a628e5c803c39fb1f1125bbccd0289ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9130da224e9e5a2d5f79a6b88ca7e2da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp.html#a9130da224e9e5a2d5f79a6b88ca7e2da">__ensure_warn</a> (const char *assertion, const char *file, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> line, const char *<a class="el" href="../../db/d16/debug_8h.html#ac56ee31762db2d7b05b7080812aaf7f1">function</a>)</td></tr>
+<tr class="memitem:a9130da224e9e5a2d5f79a6b88ca7e2da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp.html#a9130da224e9e5a2d5f79a6b88ca7e2da">__ensure_warn</a> (const char *assertion, const char *file, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d7/d06/getpwent_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a>, const char *<a class="el" href="../../db/d16/debug_8h.html#ac56ee31762db2d7b05b7080812aaf7f1">function</a>)</td></tr>
 <tr class="separator:a9130da224e9e5a2d5f79a6b88ca7e2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -145,12 +145,13 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp_source.html#l00005">5</a> of file <a class="el" href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp_source.html">ensure.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;                              {</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d0/d9a/namespacemlibc.html#aa67893864417221ab1be56f6a26d7899">mlibc::panicLogger</a>() &lt;&lt; <span class="stringliteral">&quot;In function &quot;</span> &lt;&lt; <span class="keyword">function</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;            &lt;&lt; <span class="stringliteral">&quot;, file &quot;</span> &lt;&lt; file &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; line &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;            &lt;&lt; <span class="stringliteral">&quot;, file &quot;</span> &lt;&lt; file &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;            &lt;&lt; <span class="stringliteral">&quot;__ensure(&quot;</span> &lt;&lt; assertion &lt;&lt; <span class="stringliteral">&quot;) failed&quot;</span> &lt;&lt; frg::endlog;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
+<div class="ttc" id="agetusershell_8c_html_a8adb30f4f6669f927fd9232f686c637b"><div class="ttname"><a href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a></div><div class="ttdeci">static char * line</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/getusershell_8c_source.html#l00007">getusershell.c:7</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_aa67893864417221ab1be56f6a26d7899"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#aa67893864417221ab1be56f6a26d7899">mlibc::panicLogger</a></div><div class="ttdeci">frg::stack_buffer_logger&lt; PanicSink, 512 &gt; panicLogger</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00009">debug.cpp:9</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00009">mlibc::panicLogger</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00007">line</a>, and <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00009">mlibc::panicLogger</a>.</p>
 
 </div>
 </div>
@@ -195,12 +196,12 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp_source.html#l00012">12</a> of file <a class="el" href="../../dc/dfd/options_2internal_2generic_2ensure_8cpp_source.html">ensure.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                              {</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="../../d0/d9a/namespacemlibc.html#a1700960d1a2454df21e4e1aa6f098a0a">mlibc::infoLogger</a>() &lt;&lt; <span class="stringliteral">&quot;In function &quot;</span> &lt;&lt; <span class="keyword">function</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            &lt;&lt; <span class="stringliteral">&quot;, file &quot;</span> &lt;&lt; file &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; line &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            &lt;&lt; <span class="stringliteral">&quot;, file &quot;</span> &lt;&lt; file &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; <a class="code" href="../../d0/dd9/getusershell_8c.html#a8adb30f4f6669f927fd9232f686c637b">line</a> &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            &lt;&lt; <span class="stringliteral">&quot;__ensure(&quot;</span> &lt;&lt; assertion &lt;&lt; <span class="stringliteral">&quot;) failed&quot;</span> &lt;&lt; frg::endlog;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
 <div class="ttc" id="anamespacemlibc_html_a1700960d1a2454df21e4e1aa6f098a0a"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a1700960d1a2454df21e4e1aa6f098a0a">mlibc::infoLogger</a></div><div class="ttdeci">frg::stack_buffer_logger&lt; InfoSink, 512 &gt; infoLogger</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d00/debug_8cpp_source.html#l00008">debug.cpp:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00008">mlibc::infoLogger</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d00/debug_8cpp_source.html#l00008">mlibc::infoLogger</a>, and <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00007">line</a>.</p>
 
 </div>
 </div>

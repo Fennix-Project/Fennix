@@ -1,12 +1,10 @@
 var structsigaction =
 [
-    [ "__sa_handler", "d7/def/structsigaction.html#ab1a2b7773ccf4b6e546b2d3bc395ea55", null ],
-    [ "__sa_handler", "d7/def/structsigaction.html#afb1802d4b303bd90ea9bc662091fed75", null ],
-    [ "__sa_handler", "d7/def/structsigaction.html#ab81600e41b6626fa0d0a50a4bf285fb8", null ],
-    [ "__sa_handler", "d7/def/structsigaction.html#a530131c399945f9ff4b1a8e7495f6b11", null ],
-    [ "__sa_handler", "d7/def/structsigaction.html#a6c163964dd6cdf00c80fbb7e801d51d5", null ],
-    [ "__sa_handler", "d7/def/structsigaction.html#a1fcad606e0dfeb111fccade02bdf348d", null ],
-    [ "__sa_handler", "d7/def/structsigaction.html#a78bbb6cf11a66435607281988bf0a871", null ],
+    [ "__sa_handler", "d7/def/structsigaction.html#a44775b73666a2e0726ad3ec2c99ef5b5", null ],
+    [ "__sa_handler", "d7/def/structsigaction.html#a6349781dd63f8b80251f74ff17b460aa", null ],
+    [ "__sa_handler", "d7/def/structsigaction.html#a4e27f55c02f974eeed40c1914ad300e7", null ],
+    [ "__sa_handler", "d7/def/structsigaction.html#ad12bad4cf8811ba3fdc270294cd48987", null ],
+    [ "__sa_handler", "d7/def/structsigaction.html#ab7670d324e6d40be611fdde1f047325b", null ],
     [ "sa_flags", "d7/def/structsigaction.html#aea0dabe7a03641c8b426521f4406b425", null ],
     [ "sa_handler", "d7/def/structsigaction.html#ae8f41c6e765a2ce9a214220ebd261a76", null ],
     [ "sa_mask", "d7/def/structsigaction.html#a684e70081d03d46ce70af097ea5cfd49", null ],

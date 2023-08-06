@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['kernel_15872',['Kernel',['../d6/d07/namespaceupdate-syscall-list.html#d8/d96/classupdate-syscall-list_1_1Kernel',1,'update-syscall-list']]],
-  ['key_5fglobal_5finfo_15873',['key_global_info',['../d0/d6b/structanonymous__namespace_02pthread-stubs_8cpp_03_1_1key__global__info.html',1,'anonymous_namespace{pthread-stubs.cpp}']]]
+  ['jmp_5fbuf_33173',['jmp_buf',['../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#da/db0/structjmp__buf',1,'']]],
+  ['job_33174',['job',['../d3/d3a/jobs_8h.html#d3/d8c/structjob',1,'']]],
+  ['jobstats_33175',['jobstats',['../d3/d3a/jobs_8h.html#d9/dff/structjobstats',1,'']]]
 ];

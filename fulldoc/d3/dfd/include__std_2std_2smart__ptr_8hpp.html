@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('d3/dfd/include__std_2std_2smart__ptr_8
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;types.h&gt;</code><br />
+<code>#include &lt;type_trails&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">Go to the source code of this file.</a></p>
@@ -115,12 +116,6 @@ Data Structures</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d51/classstd_1_1shared__ptr_1_1counter.html">std::shared_ptr&lt; T &gt;::counter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d0/d79/structstd_1_1remove__reference"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#d0/d79/structstd_1_1remove__reference">std::remove_reference&lt; T &gt;</a></td></tr>
-<tr class="separator:d0/d79/structstd_1_1remove__reference"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/d98/structstd_1_1remove__reference_3_01T_01_6_01_4"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#d7/d98/structstd_1_1remove__reference_3_01T_01_6_01_4">std::remove_reference&lt; T &amp; &gt;</a></td></tr>
-<tr class="separator:d7/d98/structstd_1_1remove__reference_3_01T_01_6_01_4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:d7/d55/structstd_1_1remove__reference_3_01T_01_6_6_01_4"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#d7/d55/structstd_1_1remove__reference_3_01T_01_6_6_01_4">std::remove_reference&lt; T &amp;&amp; &gt;</a></td></tr>
-<tr class="separator:d7/d55/structstd_1_1remove__reference_3_01T_01_6_6_01_4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -136,22 +131,22 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
 <tr class="memitem:a1de5d405966c0d4f9d72f2c89f82c960"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a1de5d405966c0d4f9d72f2c89f82c960"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#a1de5d405966c0d4f9d72f2c89f82c960">std::remove_reference_t</a> = typename remove_reference&lt; <a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &gt;::<a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a></td></tr>
+<tr class="memitem:a1de5d405966c0d4f9d72f2c89f82c960"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#a1de5d405966c0d4f9d72f2c89f82c960">std::remove_reference_t</a> = typename remove_reference&lt; <a class="el" href="../../dd/d7f/musl_2src_2math_2____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &gt;::<a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a></td></tr>
 <tr class="separator:a1de5d405966c0d4f9d72f2c89f82c960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a7de6141cbc66578566a2747bef639818"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a7de6141cbc66578566a2747bef639818"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &amp;&amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#a7de6141cbc66578566a2747bef639818">std::forward</a> (remove_reference_t&lt; <a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &gt; &amp;t)</td></tr>
+<tr class="memitem:a7de6141cbc66578566a2747bef639818"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d7f/musl_2src_2math_2____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &amp;&amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#a7de6141cbc66578566a2747bef639818">std::forward</a> (remove_reference_t&lt; <a class="el" href="../../dd/d7f/musl_2src_2math_2____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &gt; &amp;<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>)</td></tr>
 <tr class="separator:a7de6141cbc66578566a2747bef639818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba4b8a01458ab13414b0fdbcc85820ef"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aba4b8a01458ab13414b0fdbcc85820ef"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &amp;&amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#aba4b8a01458ab13414b0fdbcc85820ef">std::forward</a> (remove_reference_t&lt; <a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &gt; &amp;&amp;t)</td></tr>
+<tr class="memitem:aba4b8a01458ab13414b0fdbcc85820ef"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../dd/d7f/musl_2src_2math_2____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &amp;&amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#aba4b8a01458ab13414b0fdbcc85820ef">std::forward</a> (remove_reference_t&lt; <a class="el" href="../../dd/d7f/musl_2src_2math_2____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &gt; &amp;&amp;<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>)</td></tr>
 <tr class="separator:aba4b8a01458ab13414b0fdbcc85820ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a508b90b46e6012ecb37e46107963cf80"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Args&gt; </td></tr>
-<tr class="memitem:a508b90b46e6012ecb37e46107963cf80"><td class="memTemplItemLeft" align="right" valign="top">shared_ptr&lt; <a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#a508b90b46e6012ecb37e46107963cf80">std::make_shared</a> (Args &amp;&amp;...<a class="el" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>)</td></tr>
+<tr class="memitem:a508b90b46e6012ecb37e46107963cf80"><td class="memTemplItemLeft" align="right" valign="top">shared_ptr&lt; <a class="el" href="../../dd/d7f/musl_2src_2math_2____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#a508b90b46e6012ecb37e46107963cf80">std::make_shared</a> (Args &amp;&amp;...<a class="el" href="../../d9/d68/musl_2src_2process_2posix__spawn_8c.html#d8/d08/structargs">args</a>)</td></tr>
 <tr class="separator:a508b90b46e6012ecb37e46107963cf80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a108196ce675cc051d33a30b7dbcca2a3"><td class="memTemplParams" colspan="2">template&lt;typename T , typename... Args&gt; </td></tr>
-<tr class="memitem:a108196ce675cc051d33a30b7dbcca2a3"><td class="memTemplItemLeft" align="right" valign="top">smart_ptr&lt; <a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#a108196ce675cc051d33a30b7dbcca2a3">std::make_smart</a> (Args &amp;&amp;...<a class="el" href="../../d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs">args</a>)</td></tr>
+<tr class="memitem:a108196ce675cc051d33a30b7dbcca2a3"><td class="memTemplItemLeft" align="right" valign="top">smart_ptr&lt; <a class="el" href="../../dd/d7f/musl_2src_2math_2____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d8/dcc/namespacestd.html#a108196ce675cc051d33a30b7dbcca2a3">std::make_smart</a> (Args &amp;&amp;...<a class="el" href="../../d9/d68/musl_2src_2process_2posix__spawn_8c.html#d8/d08/structargs">args</a>)</td></tr>
 <tr class="separator:a108196ce675cc051d33a30b7dbcca2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
@@ -170,7 +165,7 @@ Functions</h2></td></tr>
 class std::auto_ptr&lt; T &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00086">86</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00087">87</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 </div>
 </div>
 </div>
@@ -189,7 +184,7 @@ class std::auto_ptr&lt; T &gt;</h3>
 class std::unique_ptr&lt; T &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00091">91</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00092">92</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 </div>
 </div>
 </div>
@@ -208,92 +203,8 @@ class std::unique_ptr&lt; T &gt;</h3>
 class std::weak_ptr&lt; T &gt;</h3>
 
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00096">96</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00097">97</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 </div>
-</div>
-</div>
-<a name="d0/d79/structstd_1_1remove__reference" id="d0/d79/structstd_1_1remove__reference"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d0/d79/structstd_1_1remove__reference">&#9670;&nbsp;</a></span>std::remove_reference</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct std::remove_reference</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-struct std::remove_reference&lt; T &gt;</h3>
-
-
-<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00253">253</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="add4d26d22b13a80b031aa55524a2fc32"></a>typedef <a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a></td>
-<td class="fieldname">
-type</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a name="d7/d98/structstd_1_1remove__reference_3_01T_01_6_01_4" id="d7/d98/structstd_1_1remove__reference_3_01T_01_6_01_4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d7/d98/structstd_1_1remove__reference_3_01T_01_6_01_4">&#9670;&nbsp;</a></span>std::remove_reference&lt; T &amp; &gt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct std::remove_reference&lt; T &amp; &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-struct std::remove_reference&lt; T &amp; &gt;</h3>
-
-
-<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00259">259</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="ab1b7e1075debba22311f4dd395ac751e"></a>typedef <a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a></td>
-<td class="fieldname">
-type</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
-</div>
-</div>
-<a name="d7/d55/structstd_1_1remove__reference_3_01T_01_6_6_01_4" id="d7/d55/structstd_1_1remove__reference_3_01T_01_6_6_01_4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#d7/d55/structstd_1_1remove__reference_3_01T_01_6_6_01_4">&#9670;&nbsp;</a></span>std::remove_reference&lt; T &amp;&amp; &gt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">struct std::remove_reference&lt; T &amp;&amp; &gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="textblock"><h3>template&lt;typename T&gt;<br />
-struct std::remove_reference&lt; T &amp;&amp; &gt;</h3>
-
-
-<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00265">265</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
-</div><table class="fieldtable">
-<tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="ab7c9eec9669fb4d3d5a57aee3d27af55"></a>typedef <a class="el" href="../../d6/d59/____tandf_8c.html#a3f23ef19f75a1358ade1d01a49060f77">T</a></td>
-<td class="fieldname">
-type</td>
-<td class="fielddoc">
-</td></tr>
-</table>
-
 </div>
 </div>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -323,7 +234,7 @@ type</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00031">31</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html#l00032">32</a> of file <a class="el" href="../../d3/dfd/include__std_2std_2smart__ptr_8hpp_source.html">smart_ptr.hpp</a>.</p>
 
 </div>
 </div>

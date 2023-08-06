@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['virtual_38810',['Virtual',['../d9/dea/structVirtualFileSystem_1_1File.html#a357f25208d71a897d3d8b96f0b624be2',1,'VirtualFileSystem::File']]]
+  ['swap_63769',['swap',['../da/d7b/structElementHandle.html#aef807753feade0c66ea8b9ae672a968b',1,'ElementHandle']]]
 ];

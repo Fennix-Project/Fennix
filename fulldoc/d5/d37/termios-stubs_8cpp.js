@@ -7,7 +7,7 @@ var termios_stubs_8cpp =
     [ "cfsetospeed", "d5/d37/termios-stubs_8cpp.html#ac773d28fe3a998747475821721b61ed3", null ],
     [ "tcdrain", "d5/d37/termios-stubs_8cpp.html#a19430734023da2c68143ee1b5d77e36c", null ],
     [ "tcflow", "d5/d37/termios-stubs_8cpp.html#a001b2a366396e5788b78d6ab024f6450", null ],
-    [ "tcflush", "d5/d37/termios-stubs_8cpp.html#aa06627f0564601144c0df1f16a6d463b", null ],
+    [ "tcflush", "d5/d37/termios-stubs_8cpp.html#a02051ff2ab6368c28c2c486d17d33436", null ],
     [ "tcgetattr", "d5/d37/termios-stubs_8cpp.html#a0a89b8fd6934a4b09a83fd85d26cf50b", null ],
     [ "tcgetsid", "d5/d37/termios-stubs_8cpp.html#a9f67b46602acc6dd14ec0e2ce43952d7", null ],
     [ "tcsendbreak", "d5/d37/termios-stubs_8cpp.html#aca84f4488526d724beebe3386cfac017", null ],

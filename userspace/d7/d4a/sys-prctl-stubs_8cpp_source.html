@@ -90,10 +90,10 @@ $(document).ready(function(){initNavTree('d7/d4a/sys-prctl-stubs_8cpp_source.htm
 </div><!--header-->
 <div class="contents">
 <a href="../../d7/d4a/sys-prctl-stubs_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d1/d2d/stdarg_8h.html">stdarg.h</a>&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;stdarg.h&gt;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;errno.h&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dc/dc5/ensure_8h.html">bits/ensure.h</a>&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/dba/prctl_8h.html">sys/prctl.h</a>&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;sys/prctl.h&gt;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/d7b/debug_8hpp.html">mlibc/debug.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
@@ -102,29 +102,28 @@ $(document).ready(function(){initNavTree('d7/d4a/sys-prctl-stubs_8cpp_source.htm
 <div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../d7/d4a/sys-prctl-stubs_8cpp.html#a537ab574402aaf0132184cde539b151f">   11</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d7/d4a/sys-prctl-stubs_8cpp.html#a537ab574402aaf0132184cde539b151f">prctl</a>(<span class="keywordtype">int</span> op, ...) {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a>(<a class="code" href="../../d0/d9a/namespacemlibc.html#a33a2ac56005cb1a531d4c492da6b0ce4">mlibc::sys_prctl</a>, -1);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">int</span> val;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../d1/d2d/stdarg_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> ap;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../d1/dba/libc_2include_2stdarg_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> ap;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a>(ap, op);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = <a class="code" href="../../d0/d9a/namespacemlibc.html#a33a2ac56005cb1a531d4c492da6b0ce4">mlibc::sys_prctl</a>(op, ap, &amp;val); e) {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span>(<span class="keywordtype">int</span> e = <a class="code" href="../../d0/d9a/namespacemlibc.html#a33a2ac56005cb1a531d4c492da6b0ce4">mlibc::sys_prctl</a>(op, ap, &amp;<a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>); e) {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = e;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(ap);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">return</span> val;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="ttc" id="adebug_8hpp_html"><div class="ttname"><a href="../../da/d7b/debug_8hpp.html">debug.hpp</a></div></div>
 <div class="ttc" id="aensure_8h_html"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html">ensure.h</a></div></div>
-<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00028">ensure.h:28</a></div></div>
+<div class="ttc" id="aensure_8h_html_aa6df31b26e583d37e61ccd567f3a1418"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#aa6df31b26e583d37e61ccd567f3a1418">MLIBC_CHECK_OR_ENOSYS</a></div><div class="ttdeci">#define MLIBC_CHECK_OR_ENOSYS(sysdep, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00024">ensure.h:24</a></div></div>
 <div class="ttc" id="aerr_8cpp_html_a8325641b40794a24f83bd134baab41ca"><div class="ttname"><a href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a></div><div class="ttdeci">va_end(params)</div></div>
 <div class="ttc" id="aerr_8cpp_html_a99630f30e015969e8479d586931c5848"><div class="ttname"><a href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a></div><div class="ttdeci">const char va_start(params, fmt)</div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
+<div class="ttc" id="alibc_2include_2stdarg_8h_html_a2ed76bdaf83448883f275ac530e804e9"><div class="ttname"><a href="../../d1/dba/libc_2include_2stdarg_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a></div><div class="ttdeci">__builtin_va_list va_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dba/libc_2include_2stdarg_8h_source.html#l00005">stdarg.h:5</a></div></div>
 <div class="ttc" id="alinux-sysdeps_8hpp_html"><div class="ttname"><a href="../../db/d6a/linux-sysdeps_8hpp.html">linux-sysdeps.hpp</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a33a2ac56005cb1a531d4c492da6b0ce4"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a33a2ac56005cb1a531d4c492da6b0ce4">mlibc::sys_prctl</a></div><div class="ttdeci">int sys_prctl(int option, va_list va, int *out)</div></div>
-<div class="ttc" id="aprctl_8h_html"><div class="ttname"><a href="../../db/dba/prctl_8h.html">prctl.h</a></div></div>
-<div class="ttc" id="astdarg_8h_html"><div class="ttname"><a href="../../d1/d2d/stdarg_8h.html">stdarg.h</a></div></div>
-<div class="ttc" id="astdarg_8h_html_a2ed76bdaf83448883f275ac530e804e9"><div class="ttname"><a href="../../d1/d2d/stdarg_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a></div><div class="ttdeci">__builtin_va_list va_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d2d/stdarg_8h_source.html#l00005">stdarg.h:5</a></div></div>
+<div class="ttc" id="asm__loop_8c_html_acb906433e1289aa1c251dc5057746a88"><div class="ttname"><a href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a></div><div class="ttdeci">INT val</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd4/sm__loop_8c_source.html#l00387">sm_loop.c:385</a></div></div>
 <div class="ttc" id="asys-prctl-stubs_8cpp_html_a537ab574402aaf0132184cde539b151f"><div class="ttname"><a href="../../d7/d4a/sys-prctl-stubs_8cpp.html#a537ab574402aaf0132184cde539b151f">prctl</a></div><div class="ttdeci">int prctl(int op,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4a/sys-prctl-stubs_8cpp_source.html#l00011">sys-prctl-stubs.cpp:11</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

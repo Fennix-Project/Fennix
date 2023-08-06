@@ -6,5 +6,6 @@ var dir_35815a98fc7e62c98d5ea503c7e72038 =
     [ "lemon", "dir_8b9fe6ff692fbfe3678d1df6105f4a2d.html", "dir_8b9fe6ff692fbfe3678d1df6105f4a2d" ],
     [ "linux", "dir_08644297d04b09ffacbf16a5276fd4a6.html", "dir_08644297d04b09ffacbf16a5276fd4a6" ],
     [ "managarm", "dir_725a32333e8605e7630b0afa32cb63df.html", "dir_725a32333e8605e7630b0afa32cb63df" ],
-    [ "mlibc", "dir_517446e61ae16af3529076a3a3627039.html", "dir_517446e61ae16af3529076a3a3627039" ]
+    [ "mlibc", "dir_517446e61ae16af3529076a3a3627039.html", "dir_517446e61ae16af3529076a3a3627039" ],
+    [ "vinix", "dir_8dab93eb389c7380338e39b7b0571615.html", "dir_8dab93eb389c7380338e39b7b0571615" ]
 ];

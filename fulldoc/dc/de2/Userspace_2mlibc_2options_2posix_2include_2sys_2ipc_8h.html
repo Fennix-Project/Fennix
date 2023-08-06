@@ -102,7 +102,7 @@ $(document).ready(function(){initNavTree('dc/de2/Userspace_2mlibc_2options_2posi
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
-<tr class="memitem:d4/d0a/structipc__perm"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de2/Userspace_2mlibc_2options_2posix_2include_2sys_2ipc_8h.html#d4/d0a/structipc__perm">ipc_perm</a></td></tr>
+<tr class="memitem:d4/d0a/structipc__perm"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d49/Userspace_2musl_2arch_2x32_2bits_2ipc_8h.html#d4/d0a/structipc__perm">ipc_perm</a></td></tr>
 <tr class="separator:d4/d0a/structipc__perm"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
@@ -163,6 +163,54 @@ __ipc_perm_seq</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
+<a id="aff1f49e26791b43aecae350aaad5e653"></a>long</td>
+<td class="fieldname">
+__pad1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aff1f49e26791b43aecae350aaad5e653"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<td class="fieldname">
+__pad1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a5b07dc795daa83859e095931be08391f"></a>long long</td>
+<td class="fieldname">
+__pad1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a6744d9f423d138e8a1fd3cc563fab12e"></a>long</td>
+<td class="fieldname">
+__pad2</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a6744d9f423d138e8a1fd3cc563fab12e"></a>long long</td>
+<td class="fieldname">
+__pad2</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a63c234bcd88f0685a4b9d463a305050d"></a>long long</td>
+<td class="fieldname">
+__pad3</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a97b9c34b4c5ebcd9ef842b1b688c4a70"></a>unsigned long</td>
+<td class="fieldname">
+__unused1</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a5fdaacf3adef88bd00f7ca3e4afa5785"></a>unsigned long</td>
+<td class="fieldname">
+__unused2</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
 <a id="a1501ad9c5a481e39cfc3814ad5810dc7"></a><a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a></td>
 <td class="fieldname">
 cgid</td>
@@ -181,7 +229,7 @@ gid</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab949b2a2f2358f7d0771d32dc96b1563"></a><a class="el" href="../../db/d9e/Linux_8cpp.html#a4c39e0c5c2965112d6b55652a6b7f781">mode_t</a></td>
+<a id="ab949b2a2f2358f7d0771d32dc96b1563"></a><a class="el" href="../../df/d82/abis_2linux_2mode__t_8h.html#adb8322e115035a284aab704909e63d00">mode_t</a></td>
 <td class="fieldname">
 mode</td>
 <td class="fielddoc">
@@ -353,13 +401,13 @@ uid</td>
           <td class="memname"><a class="el" href="../../dc/de2/Userspace_2mlibc_2options_2posix_2include_2sys_2ipc_8h.html#a99c5bd20241a4a2708237037a1857062">key_t</a> ftok </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramname"><em>path</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -374,10 +422,8 @@ uid</td>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    __builtin_unreachable();</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="aensure_8h_html_a5e2c6c11947e5c706f6557c5195d90be"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a></div><div class="ttdeci">#define __ensure(assertion)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00019">ensure.h:19</a></div></div>
+<div class="ttc" id="aensure_8h_html_a5e2c6c11947e5c706f6557c5195d90be"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a></div><div class="ttdeci">#define __ensure(assertion)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00015">ensure.h:15</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">__ensure</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->

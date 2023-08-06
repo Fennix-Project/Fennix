@@ -10,7 +10,6 @@ var Userspace_2mlibc_2options_2posix_2include_2sys_2time_8h =
     [ "getitimer", "d7/dec/Userspace_2mlibc_2options_2posix_2include_2sys_2time_8h.html#aee0b91fe1ac5bce5f9457628289b8146", null ],
     [ "gettimeofday", "d7/dec/Userspace_2mlibc_2options_2posix_2include_2sys_2time_8h.html#ab74c3aa499ee6335812ac6fefdac1b5b", null ],
     [ "setitimer", "d7/dec/Userspace_2mlibc_2options_2posix_2include_2sys_2time_8h.html#a1b92a3b70897ebc9080275e03620baf2", null ],
-    [ "settimeofday", "d7/dec/Userspace_2mlibc_2options_2posix_2include_2sys_2time_8h.html#a0063546a5c13e0aaed5e9bec49cb01c0", null ],
     [ "timer_create", "d7/dec/Userspace_2mlibc_2options_2posix_2include_2sys_2time_8h.html#ad798670e10008a5658a435710bf7f4f5", null ],
     [ "timer_delete", "d7/dec/Userspace_2mlibc_2options_2posix_2include_2sys_2time_8h.html#ad114bb350d7d5d12cff3fd19bf533303", null ],
     [ "timer_gettime", "d7/dec/Userspace_2mlibc_2options_2posix_2include_2sys_2time_8h.html#aaa37b1ad77721f776718e61e81777a9d", null ],

@@ -10,6 +10,7 @@ var globals_eval =
     [ "g", "globals_eval_g.html", null ],
     [ "h", "globals_eval_h.html", null ],
     [ "i", "globals_eval_i.html", null ],
+    [ "j", "globals_eval_j.html", null ],
     [ "k", "globals_eval_k.html", null ],
     [ "l", "globals_eval_l.html", null ],
     [ "m", "globals_eval_m.html", null ],
@@ -23,5 +24,6 @@ var globals_eval =
     [ "u", "globals_eval_u.html", null ],
     [ "v", "globals_eval_v.html", null ],
     [ "w", "globals_eval_w.html", null ],
-    [ "x", "globals_eval_x.html", null ]
+    [ "y", "globals_eval_y.html", null ],
+    [ "z", "globals_eval_z.html", null ]
 ];

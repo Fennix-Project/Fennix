@@ -133,7 +133,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/d3f/Userspace_2mlibc_2options_2ansi_2include_2errno_8h_source.html#l00013">13</a> of file <a class="el" href="../../d1/d3f/Userspace_2mlibc_2options_2ansi_2include_2errno_8h_source.html">errno.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/d3f/Userspace_2mlibc_2options_2ansi_2include_2errno_8h_source.html#l00011">11</a> of file <a class="el" href="../../d1/d3f/Userspace_2mlibc_2options_2ansi_2include_2errno_8h_source.html">errno.h</a>.</p>
 
 </div>
 </div>
@@ -154,15 +154,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/db0/errno_8cpp_source.html#l00023">23</a> of file <a class="el" href="../../d1/db0/errno_8cpp_source.html">errno.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;errno_location() is not implemented yet!&quot;</span>);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00099">debug.h:99</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d1/db0/errno_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d1/db0/errno_8cpp_source.html">errno.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(!<a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a> || !<a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>))</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> &amp;errno_value;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> &amp;<a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>-&gt;ErrorNumber;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00405">types.h:405</a></div></div>
+<div class="ttc" id="aKernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00221">Kernel.cpp:221</a></div></div>
+<div class="ttc" id="atask_8hpp_html_a1cf492bc489f4879fe6f67325e8f8dc7"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a></div><div class="ttdeci">#define thisThread</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00477">task.hpp:477</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d90/errno_8c_source.html#l00005">__local_stub_errno</a>, <a class="el" href="../../d9/d87/errno-stubs_8cpp_source.html#l00003">__mlibc_errno</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
@@ -212,6 +213,10 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="../../de/d78/libc_8c_source.html#l00006">6</a> of file <a class="el" href="../../de/d78/libc_8c_source.html">libc.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d09/____libc__start__main_8c_source.html#l00023">__init_libc()</a>.</p>
+
 </div>
 </div>
 <a id="a9862db9fc2ab751be0b53dc507c7fbc1"></a>
@@ -233,6 +238,10 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d78/libc_8c_source.html#l00006">6</a> of file <a class="el" href="../../de/d78/libc_8c_source.html">libc.c</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d09/____libc__start__main_8c_source.html#l00023">__init_libc()</a>.</p>
 
 </div>
 </div>
@@ -258,7 +267,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d87/errno-stubs_8cpp_source.html#l00005">5</a> of file <a class="el" href="../../d9/d87/errno-stubs_8cpp_source.html">errno-stubs.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/db1/error_8cpp_source.html#l00012">error()</a>, <a class="el" href="../../dd/db1/error_8cpp_source.html#l00036">error_at_line()</a>, and <a class="el" href="../../de/dc0/startup_8cpp_source.html#l00051">mlibc::set_startup_data()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/dc0/startup_8cpp_source.html#l00051">mlibc::set_startup_data()</a>.</p>
 
 </div>
 </div>

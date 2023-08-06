@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Userspace: Userspace/mlibc/options/ansi/generic/complex/cpow.c File Reference</title>
+<title>Fennix Userspace: Userspace/musl/src/complex/cpow.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -91,34 +91,33 @@ $(document).ready(function(){initNavTree('d5/d7a/cpow_8c.html','../../'); initRe
 <div class="title">cpow.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d3b/complex_8h_source.html">complex.h</a>&gt;</code><br />
-<code>#include &lt;math.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/d6e/complex__impl_8h_source.html">complex_impl.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d5/d7a/cpow_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6feb5d2c762dfc1a5ff76847b1e932a7"><td class="memItemLeft" align="right" valign="top">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7a/cpow_8c.html#a6feb5d2c762dfc1a5ff76847b1e932a7">cpow</a> (double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> a, double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
-<tr class="separator:a6feb5d2c762dfc1a5ff76847b1e932a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57668fea417edd7debfeb7a5f8eef5fe"><td class="memItemLeft" align="right" valign="top">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7a/cpow_8c.html#a57668fea417edd7debfeb7a5f8eef5fe">cpow</a> (double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z, double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>)</td></tr>
+<tr class="separator:a57668fea417edd7debfeb7a5f8eef5fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a6feb5d2c762dfc1a5ff76847b1e932a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6feb5d2c762dfc1a5ff76847b1e932a7">&#9670;&nbsp;</a></span>cpow()</h2>
+<a id="a57668fea417edd7debfeb7a5f8eef5fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57668fea417edd7debfeb7a5f8eef5fe">&#9670;&nbsp;</a></span>cpow()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> cpow </td>
+          <td class="memname">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> cpow </td>
           <td>(</td>
-          <td class="paramtype">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
+          <td class="paramtype">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
-          <td class="paramname"><em>z</em>&#160;</td>
+          <td class="paramtype">double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
+          <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -128,43 +127,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d7a/cpow_8c_source.html#l00081">81</a> of file <a class="el" href="../../d5/d7a/cpow_8c_source.html">cpow.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;{</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> w;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">double</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>, theta, absa, arga;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> = <a class="code" href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a>(z);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> = <a class="code" href="../../d5/d82/cimag_8c.html#a6c3d7c875ae93700b0a2a32db24b37d3">cimag</a>(z);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    absa = <a class="code" href="../../d3/d16/cabs_8c.html#a82c65f6b05062b620716623ba49ff07f">cabs</a>(a);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">if</span> (absa == 0.0) {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> (0.0 + 0.0 * <a class="code" href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a>);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    arga = <a class="code" href="../../d1/dc6/carg_8c.html#a4a1e5d839db7a1dc6013b2846b2432d9">carg</a>(a);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#aa56c9494c95edf68386375e97d64159b">pow</a>(absa, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    theta = <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> * arga;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> != 0.0) {</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> * <a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#ae09128febbbe6372cde4fa0c65608a42">exp</a>(-<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> * arga);</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        theta = theta + <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> * <a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#adb302c9aafbaa5e180d9f60ee954bb82">log</a>(absa);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    }</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    w = <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> * <a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a5e7b53a694b3cf0f2d7debd444140fbd">cos</a>(theta) + (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> * <a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#aad4af25633b071b0e2cdb8ebd87eca77">sin</a>(theta)) * <a class="code" href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a>;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">return</span> w;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
-<div class="ttc" id="acabs_8c_html_a82c65f6b05062b620716623ba49ff07f"><div class="ttname"><a href="../../d3/d16/cabs_8c.html#a82c65f6b05062b620716623ba49ff07f">cabs</a></div><div class="ttdeci">double cabs(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d16/cabs_8c_source.html#l00049">cabs.c:49</a></div></div>
-<div class="ttc" id="acarg_8c_html_a4a1e5d839db7a1dc6013b2846b2432d9"><div class="ttname"><a href="../../d1/dc6/carg_8c.html#a4a1e5d839db7a1dc6013b2846b2432d9">carg</a></div><div class="ttdeci">double carg(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc6/carg_8c_source.html#l00055">carg.c:55</a></div></div>
-<div class="ttc" id="acimag_8c_html_a6c3d7c875ae93700b0a2a32db24b37d3"><div class="ttname"><a href="../../d5/d82/cimag_8c.html#a6c3d7c875ae93700b0a2a32db24b37d3">cimag</a></div><div class="ttdeci">double cimag(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d82/cimag_8c_source.html#l00049">cimag.c:49</a></div></div>
-<div class="ttc" id="acomplex_8h_html_a0fa4878c968311979d497ccc322e0b9b"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a></div><div class="ttdeci">#define complex</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00011">complex.h:11</a></div></div>
-<div class="ttc" id="acomplex_8h_html_a60ef6e1bcfabb95cfeb300e1d03ce470"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a></div><div class="ttdeci">#define I</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00013">complex.h:13</a></div></div>
-<div class="ttc" id="acreal_8c_html_a24b1a511efdb973354d81646c5c3bb81"><div class="ttname"><a href="../../da/dea/creal_8c.html#a24b1a511efdb973354d81646c5c3bb81">creal</a></div><div class="ttdeci">double creal(double complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dea/creal_8c_source.html#l00049">creal.c:49</a></div></div>
-<div class="ttc" id="af__wipe_8c_html_a60ca3f7e128ed4283d00a73c65558617"><div class="ttname"><a href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a></div><div class="ttdeci">static int * y</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/f__wipe_8c_source.html#l00130">f_wipe.c:130</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_a5e7b53a694b3cf0f2d7debd444140fbd"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a5e7b53a694b3cf0f2d7debd444140fbd">cos</a></div><div class="ttdeci">double cos(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d09/cos_8c_source.html#l00045">cos.c:45</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_aa56c9494c95edf68386375e97d64159b"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#aa56c9494c95edf68386375e97d64159b">pow</a></div><div class="ttdeci">double pow(double x, double y)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da6/pow_8c_source.html#l00092">pow.c:92</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_aad4af25633b071b0e2cdb8ebd87eca77"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#aad4af25633b071b0e2cdb8ebd87eca77">sin</a></div><div class="ttdeci">double sin(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ded/sin_8c_source.html#l00045">sin.c:45</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_adb302c9aafbaa5e180d9f60ee954bb82"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#adb302c9aafbaa5e180d9f60ee954bb82">log</a></div><div class="ttdeci">double log(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df8/log_8c_source.html#l00077">log.c:77</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_ae09128febbbe6372cde4fa0c65608a42"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#ae09128febbbe6372cde4fa0c65608a42">exp</a></div><div class="ttdeci">double exp(double x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6f/exp_8c_source.html#l00081">exp.c:81</a></div></div>
-<div class="ttc" id="aposix__stdlib_8cpp_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00038">posix_stdlib.cpp:38</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00278">string-stubs.cpp:278</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d7a/cpow_8c_source.html#l00005">5</a> of file <a class="el" href="../../d5/d7a/cpow_8c_source.html">cpow.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a7ca72c8437d02ceb59e49d0143c14e9a">cexp</a>(<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> * <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#ac8a5c51667e88fab12d41a945c8f042c">clog</a>(z));</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
+<div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a7ca72c8437d02ceb59e49d0143c14e9a"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a7ca72c8437d02ceb59e49d0143c14e9a">cexp</a></div><div class="ttdeci">double complex cexp(double complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d16/cexp_8c_source.html#l00034">cexp.c:34</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_ac8a5c51667e88fab12d41a945c8f042c"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#ac8a5c51667e88fab12d41a945c8f042c">clog</a></div><div class="ttdeci">double complex clog(double complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d2d/clog_8c_source.html#l00007">clog.c:7</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d16/cabs_8c_source.html#l00049">cabs()</a>, <a class="el" href="../../d1/dc6/carg_8c_source.html#l00055">carg()</a>, <a class="el" href="../../d5/d82/cimag_8c_source.html#l00049">cimag()</a>, <a class="el" href="../../d7/d3b/complex_8h_source.html#l00011">complex</a>, <a class="el" href="../../d1/d09/cos_8c_source.html#l00045">cos()</a>, <a class="el" href="../../da/dea/creal_8c_source.html#l00049">creal()</a>, <a class="el" href="../../d5/d6f/exp_8c_source.html#l00081">exp()</a>, <a class="el" href="../../d7/d3b/complex_8h_source.html#l00013">I</a>, <a class="el" href="../../d7/df8/log_8c_source.html#l00077">log()</a>, <a class="el" href="../../dc/da6/pow_8c_source.html#l00092">pow()</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00278">r</a>, <a class="el" href="../../d3/ded/sin_8c_source.html#l00045">sin()</a>, <a class="el" href="../../d4/d24/posix__stdlib_8cpp_source.html#l00038">x</a>, and <a class="el" href="../../da/db0/f__wipe_8c_source.html#l00130">y</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../d4/d16/cexp_8c_source.html#l00034">cexp()</a>, and <a class="el" href="../../d9/d2d/clog_8c_source.html#l00007">clog()</a>.</p>
 
 </div>
 </div>
@@ -173,7 +144,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_9e2aac7ae95dd40287f9f0a14447c512.html">options</a></li><li class="navelem"><a class="el" href="../../dir_e178355fa75681e7481d0c1933f8ada2.html">ansi</a></li><li class="navelem"><a class="el" href="../../dir_05a9d8a20c64f169fc09acbdb0782630.html">generic</a></li><li class="navelem"><a class="el" href="../../dir_49dc252cc2d3469e406675e6dba1de05.html">complex</a></li><li class="navelem"><a class="el" href="../../d5/d7a/cpow_8c.html">cpow.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_d4c78ba7ac40508bdb05e781ab57ffb9.html">complex</a></li><li class="navelem"><a class="el" href="../../d5/d7a/cpow_8c.html">cpow.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

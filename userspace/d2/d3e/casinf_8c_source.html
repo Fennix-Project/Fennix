@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Userspace: Userspace/mlibc/options/ansi/generic/complex/casinf.c Source File</title>
+<title>Fennix Userspace: Userspace/musl/src/complex/casinf.c Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -89,147 +89,38 @@ $(document).ready(function(){initNavTree('d2/d3e/casinf_8c_source.html','../../'
 <div class="title">casinf.c</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d2/d3e/casinf_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/* $NetBSD: casinf.c,v 1.1 2007/08/20 16:01:31 drochner Exp $ */</span></div>
+<a href="../../d2/d3e/casinf_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dd/d6e/complex__impl_8h.html">complex_impl.h</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">/*-</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Copyright (c) 2007 The NetBSD Foundation, Inc.</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * All rights reserved.</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * This code is derived from software written by Stephen L. Moshier.</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> * It is redistributed by the NetBSD Foundation by permission of the author.</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> * Redistribution and use in source and binary forms, with or without</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment"> * modification, are permitted provided that the following conditions</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment"> * are met:</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"> * 1. Redistributions of source code must retain the above copyright</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment"> *    notice, this list of conditions and the following disclaimer.</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"> * 2. Redistributions in binary form must reproduce the above copyright</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment"> *    notice, this list of conditions and the following disclaimer in the</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"> *    documentation and/or other materials provided with the distribution.</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment"> * THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment"> * ``AS IS&#39;&#39; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment"> * TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment"> * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR CONTRIBUTORS</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="comment"> * BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment"> * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment"> * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment"> * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment"> * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment"> * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment"> * POSSIBILITY OF SUCH DAMAGE.</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="comment"> *</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment"> * imported and modified include for newlib 2010/10/03 </span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment"> * Marco Atzeri &lt;marco_atzeri@yahoo.it&gt;</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/d3b/complex_8h.html">complex.h</a>&gt;</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#include &lt;math.h&gt;</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifdef __weak_alias</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;__weak_alias(<a class="code" href="../../d2/d3e/casinf_8c.html#a04d2cd1f0b47d3f1b782aeb517151033">casinf</a>, _casinf)</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a></div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../d2/d3e/casinf_8c.html#a04d2cd1f0b47d3f1b782aeb517151033">   43</a></span>&#160;<a class="code" href="../../d2/d3e/casinf_8c.html#a04d2cd1f0b47d3f1b782aeb517151033">casinf</a>(<span class="keywordtype">float</span> <a class="code" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> w;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> ca, ct, zz, z2;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> = <a class="code" href="../../de/dc5/crealf_8c.html#ad052a3eb4d9f32153173e6bcea9e42ce">crealf</a>(z);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> = <a class="code" href="../../d8/dad/cimagf_8c.html#aac22dc2fffc4326595ff807d441f0675">cimagf</a>(z);</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#if 0 </span><span class="comment">/* MD: test is incorrect, casin(&gt;1) is defined */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> == 0.0f) {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a9b02e2f3ebf257ac4f4d3ca1da6147d7">fabsf</a>(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) &gt; 1.0) {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            w = <a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a958e4508ed28ee5cc04249144312c15f">M_PI_2</a> + 0.0f * <a class="code" href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#if 0</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            mtherr (<span class="stringliteral">&quot;casin&quot;</span>, DOMAIN);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            w = <a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a7447a7400ca474ba42d127b04d6ee2b7">asinf</a>(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) + 0.0f * <a class="code" href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a>;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        }</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">return</span> w;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="comment">/* Power series expansion */</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">b = cabsf(z);</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">if( b &lt; 0.125 )</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">{</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">z2.r = (x - y) * (x + y);</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">z2.i = 2.0 * x * y;</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="comment">cn = 1.0;</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="comment">n = 1.0;</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">ca.r = x;</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">ca.i = y;</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">sum.r = x;</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="comment">sum.i = y;</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="comment">do</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="comment">    {</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="comment">    ct.r = z2.r * ca.r  -  z2.i * ca.i;</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">    ct.i = z2.r * ca.i  +  z2.i * ca.r;</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="comment">    ca.r = ct.r;</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="comment">    ca.i = ct.i;</span></div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="comment">    cn *= n;</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">    n += 1.0;</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="comment">    cn /= n;</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="comment">    n += 1.0;</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="comment">    b = cn/n;</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">    ct.r *= b;</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="comment">    ct.i *= b;</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">    sum.r += ct.r;</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="comment">    sum.i += ct.i;</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="comment">    b = fabsf(ct.r) + fabsf(ct.i);</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="comment">    }</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="comment">while( b &gt; MACHEP );</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="comment">w-&gt;r = sum.r;</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="comment">w-&gt;i = sum.i;</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="comment">return;</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="comment">}</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160; </div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    ca = <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> + <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> * <a class="code" href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    ct = ca * <a class="code" href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a>;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="comment">/* sqrt( 1 - z*z) */</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="comment">/* cmul( &amp;ca, &amp;ca, &amp;zz ) */</span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="comment">/*x * x  -  y * y */</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    zz = (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> - <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>) * (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> + <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>) + (2.0f * <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> * <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>) * <a class="code" href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a>;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    zz = 1.0f - <a class="code" href="../../de/dc5/crealf_8c.html#ad052a3eb4d9f32153173e6bcea9e42ce">crealf</a>(zz) - <a class="code" href="../../d8/dad/cimagf_8c.html#aac22dc2fffc4326595ff807d441f0675">cimagf</a>(zz) * <a class="code" href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a>;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    z2 = <a class="code" href="../../d5/dbf/csqrtf_8c.html#ab8e425ba3e5d52d410afc3041bdeadce">csqrtf</a>(zz);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    zz = ct + z2;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    zz = <a class="code" href="../../d8/d62/clogf_8c.html#a0c9f343c7d1dabc91f6e4cb868b81152">clogf</a>(zz);</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="comment">/* multiply by 1/i = -i */</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    w = zz * (-1.0f * <a class="code" href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a>);</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> w;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
-<div class="ttc" id="acasinf_8c_html_a04d2cd1f0b47d3f1b782aeb517151033"><div class="ttname"><a href="../../d2/d3e/casinf_8c.html#a04d2cd1f0b47d3f1b782aeb517151033">casinf</a></div><div class="ttdeci">float complex casinf(float complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d3e/casinf_8c_source.html#l00043">casinf.c:43</a></div></div>
-<div class="ttc" id="acimagf_8c_html_aac22dc2fffc4326595ff807d441f0675"><div class="ttname"><a href="../../d8/dad/cimagf_8c.html#aac22dc2fffc4326595ff807d441f0675">cimagf</a></div><div class="ttdeci">float cimagf(float complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dad/cimagf_8c_source.html#l00016">cimagf.c:16</a></div></div>
-<div class="ttc" id="aclogf_8c_html_a0c9f343c7d1dabc91f6e4cb868b81152"><div class="ttname"><a href="../../d8/d62/clogf_8c.html#a0c9f343c7d1dabc91f6e4cb868b81152">clogf</a></div><div class="ttdeci">float complex clogf(float complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d62/clogf_8c_source.html#l00039">clogf.c:39</a></div></div>
-<div class="ttc" id="acomplex_8h_html"><div class="ttname"><a href="../../d7/d3b/complex_8h.html">complex.h</a></div></div>
-<div class="ttc" id="acomplex_8h_html_a0fa4878c968311979d497ccc322e0b9b"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a></div><div class="ttdeci">#define complex</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00011">complex.h:11</a></div></div>
-<div class="ttc" id="acomplex_8h_html_a60ef6e1bcfabb95cfeb300e1d03ce470"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a60ef6e1bcfabb95cfeb300e1d03ce470">I</a></div><div class="ttdeci">#define I</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00013">complex.h:13</a></div></div>
-<div class="ttc" id="acrealf_8c_html_ad052a3eb4d9f32153173e6bcea9e42ce"><div class="ttname"><a href="../../de/dc5/crealf_8c.html#ad052a3eb4d9f32153173e6bcea9e42ce">crealf</a></div><div class="ttdeci">float crealf(float complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc5/crealf_8c_source.html#l00016">crealf.c:16</a></div></div>
-<div class="ttc" id="acsqrtf_8c_html_ab8e425ba3e5d52d410afc3041bdeadce"><div class="ttname"><a href="../../d5/dbf/csqrtf_8c.html#ab8e425ba3e5d52d410afc3041bdeadce">csqrtf</a></div><div class="ttdeci">float complex csqrtf(float complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbf/csqrtf_8c_source.html#l00039">csqrtf.c:39</a></div></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// FIXME</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d5/d26/musl_2include_2complex_8h.html#a44a7a81682c3c05650b2e5785f777be0">    5</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> <a class="code" href="../../d2/d3e/casinf_8c.html#a04d2cd1f0b47d3f1b782aeb517151033">casinf</a>(<span class="keywordtype">float</span> <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> w;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>, <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> = <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a>(z);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> = <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a6ffde693131d8b43e240be8652a677c5">cimagf</a>(z);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    w = <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a>(1.0 - (<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> - <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>)*(<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a> + <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>), -2.0*<a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>*<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#ad0b428d29328b613bd0df8a677b1f30f">clogf</a>(<a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a>(-<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>, <a class="code" href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a>) + <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a66994fe3ae3423143b4e9adfaaf8689b">csqrtf</a>(w));</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a>(<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a6ffde693131d8b43e240be8652a677c5">cimagf</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>), -<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>));</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
+<div class="ttc" id="acasinf_8c_html_a04d2cd1f0b47d3f1b782aeb517151033"><div class="ttname"><a href="../../d2/d3e/casinf_8c.html#a04d2cd1f0b47d3f1b782aeb517151033">casinf</a></div><div class="ttdeci">float complex casinf(float complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d3e/casinf_8c_source.html#l00005">casinf.c:5</a></div></div>
+<div class="ttc" id="acomplex__impl_8h_html"><div class="ttname"><a href="../../dd/d6e/complex__impl_8h.html">complex_impl.h</a></div></div>
 <div class="ttc" id="af__wipe_8c_html_a60ca3f7e128ed4283d00a73c65558617"><div class="ttname"><a href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a></div><div class="ttdeci">static int * y</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db0/f__wipe_8c_source.html#l00130">f_wipe.c:130</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_a7447a7400ca474ba42d127b04d6ee2b7"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a7447a7400ca474ba42d127b04d6ee2b7">asinf</a></div><div class="ttdeci">float asinf(float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc7/asinf_8c_source.html#l00035">asinf.c:35</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_a958e4508ed28ee5cc04249144312c15f"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a958e4508ed28ee5cc04249144312c15f">M_PI_2</a></div><div class="ttdeci">#define M_PI_2</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h_source.html#l00014">math.h:14</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_a9b02e2f3ebf257ac4f4d3ca1da6147d7"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#a9b02e2f3ebf257ac4f4d3ca1da6147d7">fabsf</a></div><div class="ttdeci">float fabsf(float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/de7/fabsf_8c_source.html#l00004">fabsf.c:4</a></div></div>
-<div class="ttc" id="aposix__stdlib_8cpp_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00038">posix_stdlib.cpp:38</a></div></div>
+<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2libm_8h_html_a58b69dd647c86d37f2d35dfd2d75b08d"><div class="ttname"><a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a></div><div class="ttdeci">#define CMPLXF(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00155">libm.h:155</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a0fa4878c968311979d497ccc322e0b9b"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a></div><div class="ttdeci">#define complex</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00008">complex.h:8</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a61855cb5a4ec0a59dc95bb4d0970f010"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a></div><div class="ttdeci">#define crealf(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00109">complex.h:109</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a66994fe3ae3423143b4e9adfaaf8689b"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a66994fe3ae3423143b4e9adfaaf8689b">csqrtf</a></div><div class="ttdeci">float complex csqrtf(float complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbf/csqrtf_8c_source.html#l00039">csqrtf.c:39</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a6ffde693131d8b43e240be8652a677c5"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a6ffde693131d8b43e240be8652a677c5">cimagf</a></div><div class="ttdeci">#define cimagf(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00113">complex.h:113</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_ad0b428d29328b613bd0df8a677b1f30f"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#ad0b428d29328b613bd0df8a677b1f30f">clogf</a></div><div class="ttdeci">float complex clogf(float complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d62/clogf_8c_source.html#l00005">clogf.c:5</a></div></div>
+<div class="ttc" id="aposix__stdlib_8cpp_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../d4/d24/posix__stdlib_8cpp.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d24/posix__stdlib_8cpp_source.html#l00039">posix_stdlib.cpp:39</a></div></div>
+<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_9e2aac7ae95dd40287f9f0a14447c512.html">options</a></li><li class="navelem"><a class="el" href="../../dir_e178355fa75681e7481d0c1933f8ada2.html">ansi</a></li><li class="navelem"><a class="el" href="../../dir_05a9d8a20c64f169fc09acbdb0782630.html">generic</a></li><li class="navelem"><a class="el" href="../../dir_49dc252cc2d3469e406675e6dba1de05.html">complex</a></li><li class="navelem"><a class="el" href="../../d2/d3e/casinf_8c.html">casinf.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_d4c78ba7ac40508bdb05e781ab57ffb9.html">complex</a></li><li class="navelem"><a class="el" href="../../d2/d3e/casinf_8c.html">casinf.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -146,7 +146,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8c0438c158eaa1a1fc7fe66512c99e6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dcc/namespacestd.html#af6086d29df25216dda5a4a25283e8c1b">std::atomic_bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a8c0438c158eaa1a1fc7fe66512c99e6a">CPUEnabled</a> = <a class="el" href="../../d6/de6/include_2types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></td></tr>
+<tr class="memitem:a8c0438c158eaa1a1fc7fe66512c99e6a"><td class="memItemLeft" align="right" valign="top">std::atomic_bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp.html#a8c0438c158eaa1a1fc7fe66512c99e6a">CPUEnabled</a> = <a class="el" href="../../d6/de6/include_2types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></td></tr>
 <tr class="separator:a8c0438c158eaa1a1fc7fe66512c99e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -269,16 +269,16 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">// error(&quot;CPU %d is not active!&quot;, ret); FIXME</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">return</span> &amp;CPUs[0];</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>((&amp;CPUs[ret])-&gt;<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a> == <a class="code" href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>((&amp;CPUs[ret])-&gt;<a class="code" href="../../d9/d36/binfo_8h.html#ae129e9c4d84501484102e80f8b35d1da">Checksum</a> == <a class="code" href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a>);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> &amp;CPUs[ret];</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
 <div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
-<div class="ttc" id="aXallocV1_8cpp_html_aca10be923fb0da174d8c3a29d8b5083b"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#aca10be923fb0da174d8c3a29d8b5083b">Checksum</a></div><div class="ttdeci">int Checksum</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">XallocV1.cpp:3</a></div></div>
 <div class="ttc" id="aassert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da7/assert_8h_source.html#l00023">assert.h:23</a></div></div>
+<div class="ttc" id="abinfo_8h_html_ae129e9c4d84501484102e80f8b35d1da"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#ae129e9c4d84501484102e80f8b35d1da">Checksum</a></div><div class="ttdeci">__UINT8_TYPE__ Checksum</div><div class="ttdoc">Checksum.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00007">binfo.h:7</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00028">smp.hpp:28</a></div></div>
-<div class="ttc" id="asmp_8hpp_html_a92c6b1cf703f9e064f5efc0907f80379"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></div><div class="ttdeci">bool IsActive</div><div class="ttdoc">Is CPU online?</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00031">smp.hpp:31</a></div></div>
+<div class="ttc" id="asmp_8hpp_html_a92c6b1cf703f9e064f5efc0907f80379"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></div><div class="ttdeci">bool IsActive</div><div class="ttdoc">Is CPU online?</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00025">smp.hpp:25</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/da7/assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../dc/ddf/XallocV1_8cpp_source.html#l00003">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">CPU_DATA_CHECKSUM</a>, and <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00031">IsActive</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/da7/assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00007">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">CPU_DATA_CHECKSUM</a>, and <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00025">IsActive</a>.</p>
 
 </div>
 </div>
@@ -290,7 +290,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/dcc/namespacestd.html#af6086d29df25216dda5a4a25283e8c1b">std::atomic_bool</a> CPUEnabled = <a class="el" href="../../d6/de6/include_2types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></td>
+          <td class="memname">std::atomic_bool CPUEnabled = <a class="el" href="../../d6/de6/include_2types_8h.html#a65e9886d74aaee76545e83dd09011727">false</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

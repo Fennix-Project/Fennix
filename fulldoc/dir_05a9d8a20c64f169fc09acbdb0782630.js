@@ -1,8 +1,6 @@
 var dir_05a9d8a20c64f169fc09acbdb0782630 =
 [
-    [ "complex", "dir_49dc252cc2d3469e406675e6dba1de05.html", "dir_49dc252cc2d3469e406675e6dba1de05" ],
     [ "assert-stubs.cpp", "d0/d70/assert-stubs_8cpp.html", "d0/d70/assert-stubs_8cpp" ],
-    [ "complex-stubs.cpp", "d7/d53/complex-stubs_8cpp.html", "d7/d53/complex-stubs_8cpp" ],
     [ "ctype-stubs.cpp", "dd/d6d/ctype-stubs_8cpp.html", "dd/d6d/ctype-stubs_8cpp" ],
     [ "environment.cpp", "dc/d82/environment_8cpp.html", "dc/d82/environment_8cpp" ],
     [ "errno-stubs.cpp", "d9/d87/errno-stubs_8cpp.html", "d9/d87/errno-stubs_8cpp" ],

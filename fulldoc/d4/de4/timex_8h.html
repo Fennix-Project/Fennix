@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/options/glibc/include/sys/timex.h File Reference</title>
+<title>Fennix: Userspace/musl/include/sys/timex.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -93,18 +93,22 @@ $(document).ready(function(){initNavTree('d4/de4/timex_8h.html','../../'); initR
 <div class="title">timex.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;abi-bits/clockid_t.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../d4/d80/timeval_8h_source.html">bits/posix/timeval.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;bits/alltypes.h&gt;</code><br />
+<code>#include &lt;sys/time.h&gt;</code><br />
 </div>
 <p><a href="../../d4/de4/timex_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
+<tr class="memitem:df/d96/structntptimeval"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#df/d96/structntptimeval">ntptimeval</a></td></tr>
+<tr class="separator:df/d96/structntptimeval"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:de/de1/structtimex"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#de/de1/structtimex">timex</a></td></tr>
 <tr class="separator:de/de1/structtimex"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a825251ace80f45028318dec9dcb8c3cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a825251ace80f45028318dec9dcb8c3cd">__NEED_clockid_t</a></td></tr>
+<tr class="separator:a825251ace80f45028318dec9dcb8c3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c8518cc2948338ae00a241d91314c3f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a3c8518cc2948338ae00a241d91314c3f">ADJ_OFFSET</a>&#160;&#160;&#160;0x0001</td></tr>
 <tr class="separator:a3c8518cc2948338ae00a241d91314c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab19aee79b2bdcc14babffe6a5751cda"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#aab19aee79b2bdcc14babffe6a5751cda">ADJ_FREQUENCY</a>&#160;&#160;&#160;0x0002</td></tr>
@@ -131,6 +135,28 @@ Macros</h2></td></tr>
 <tr class="separator:ab739012a4b8e9e286ab6cabd9c9f07d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12258f9007c6af38e633e7c4b412fb79"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a12258f9007c6af38e633e7c4b412fb79">ADJ_OFFSET_SS_READ</a>&#160;&#160;&#160;0xa001</td></tr>
 <tr class="separator:a12258f9007c6af38e633e7c4b412fb79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc8a2cdb7fdd075c29c1fd883964d300"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#acc8a2cdb7fdd075c29c1fd883964d300">MOD_OFFSET</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a3c8518cc2948338ae00a241d91314c3f">ADJ_OFFSET</a></td></tr>
+<tr class="separator:acc8a2cdb7fdd075c29c1fd883964d300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcf3180f4bd1fce807ba938158a4470e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#abcf3180f4bd1fce807ba938158a4470e">MOD_FREQUENCY</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#aab19aee79b2bdcc14babffe6a5751cda">ADJ_FREQUENCY</a></td></tr>
+<tr class="separator:abcf3180f4bd1fce807ba938158a4470e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af659091799e149d0f9697c073c531747"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#af659091799e149d0f9697c073c531747">MOD_MAXERROR</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a9bb9ed82997bebfb3730dca446b1e3f5">ADJ_MAXERROR</a></td></tr>
+<tr class="separator:af659091799e149d0f9697c073c531747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3531e87f84d39326c2548dbceefa3256"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a3531e87f84d39326c2548dbceefa3256">MOD_ESTERROR</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#aabe4ea19f98b79dd00b7210c224b8304">ADJ_ESTERROR</a></td></tr>
+<tr class="separator:a3531e87f84d39326c2548dbceefa3256"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af540c4d3418fe31075320161046f7c35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#af540c4d3418fe31075320161046f7c35">MOD_STATUS</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#af02e271dbc9c23a3742eec23c6a6675a">ADJ_STATUS</a></td></tr>
+<tr class="separator:af540c4d3418fe31075320161046f7c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8082a35b184d96bfc9f6267436d4ad8e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a8082a35b184d96bfc9f6267436d4ad8e">MOD_TIMECONST</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a23b87c2a6077d64f50eb5e4e02b58c04">ADJ_TIMECONST</a></td></tr>
+<tr class="separator:a8082a35b184d96bfc9f6267436d4ad8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd386a782d838bebfc203077e37e31c0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#afd386a782d838bebfc203077e37e31c0">MOD_CLKB</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a31f47656cb9cc48aa1f9c67c8c60d218">ADJ_TICK</a></td></tr>
+<tr class="separator:afd386a782d838bebfc203077e37e31c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97e99d779a32bff8807e38db78c83391"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a97e99d779a32bff8807e38db78c83391">MOD_CLKA</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#ab739012a4b8e9e286ab6cabd9c9f07d4">ADJ_OFFSET_SINGLESHOT</a></td></tr>
+<tr class="separator:a97e99d779a32bff8807e38db78c83391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128dbe2b1c5f2a0150fa67bea1f09d68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a128dbe2b1c5f2a0150fa67bea1f09d68">MOD_TAI</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a991adb122e7490fe9cbb1124ed32a092">ADJ_TAI</a></td></tr>
+<tr class="separator:a128dbe2b1c5f2a0150fa67bea1f09d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab866490ffe837b132d856da53953ac7e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#ab866490ffe837b132d856da53953ac7e">MOD_MICRO</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a003e2013be81816b0a16f2542f92f964">ADJ_MICRO</a></td></tr>
+<tr class="separator:ab866490ffe837b132d856da53953ac7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae857ffed58ac88f10bbf2db00f91a907"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#ae857ffed58ac88f10bbf2db00f91a907">MOD_NANO</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a2e1a5c1a907f524e17c90fbc26ba9e95">ADJ_NANO</a></td></tr>
+<tr class="separator:ae857ffed58ac88f10bbf2db00f91a907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6afa0e41397bfed025461da694e3a108"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a6afa0e41397bfed025461da694e3a108">STA_PLL</a>&#160;&#160;&#160;0x0001</td></tr>
 <tr class="separator:a6afa0e41397bfed025461da694e3a108"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1a0db78e2be821a1b65b0e0802d6c5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#ac1a0db78e2be821a1b65b0e0802d6c5b">STA_PPSFREQ</a>&#160;&#160;&#160;0x0002</td></tr>
@@ -163,17 +189,70 @@ Macros</h2></td></tr>
 <tr class="separator:af54723277ccec1d15b50392d509a871c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a069932bda07cc781d93f1083d822fdf6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a069932bda07cc781d93f1083d822fdf6">STA_CLK</a>&#160;&#160;&#160;0x8000</td></tr>
 <tr class="separator:a069932bda07cc781d93f1083d822fdf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6c2cb3162bf77185913f53f960e64b4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#ac6c2cb3162bf77185913f53f960e64b4">STA_RONLY</a></td></tr>
+<tr class="separator:ac6c2cb3162bf77185913f53f960e64b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a8f377fc0eaaafb652217bfe8a5d58a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a1a8f377fc0eaaafb652217bfe8a5d58a">TIME_OK</a>&#160;&#160;&#160;0</td></tr>
+<tr class="separator:a1a8f377fc0eaaafb652217bfe8a5d58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8edb86e9fac809f6728f4bd5b050b267"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a8edb86e9fac809f6728f4bd5b050b267">TIME_INS</a>&#160;&#160;&#160;1</td></tr>
+<tr class="separator:a8edb86e9fac809f6728f4bd5b050b267"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ec3b102bfd084b7020cccfad729b541"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a0ec3b102bfd084b7020cccfad729b541">TIME_DEL</a>&#160;&#160;&#160;2</td></tr>
+<tr class="separator:a0ec3b102bfd084b7020cccfad729b541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac86b0c6fc7fbe9da5c1660fadb43de56"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#ac86b0c6fc7fbe9da5c1660fadb43de56">TIME_OOP</a>&#160;&#160;&#160;3</td></tr>
+<tr class="separator:ac86b0c6fc7fbe9da5c1660fadb43de56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24fa2248797a8a88020d8cda0ea2189c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a24fa2248797a8a88020d8cda0ea2189c">TIME_WAIT</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:a24fa2248797a8a88020d8cda0ea2189c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1adc2d647c3b6fa0d24595dbbdce9b7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a1adc2d647c3b6fa0d24595dbbdce9b7a">TIME_ERROR</a>&#160;&#160;&#160;5</td></tr>
+<tr class="separator:a1adc2d647c3b6fa0d24595dbbdce9b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a379c0ffeacb0859f4685e71872d911fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a379c0ffeacb0859f4685e71872d911fc">TIME_BAD</a>&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a1adc2d647c3b6fa0d24595dbbdce9b7a">TIME_ERROR</a></td></tr>
+<tr class="separator:a379c0ffeacb0859f4685e71872d911fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a283ccaaf3b2809b02392eb58923e22b9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a283ccaaf3b2809b02392eb58923e22b9">MAXTC</a>&#160;&#160;&#160;6</td></tr>
+<tr class="separator:a283ccaaf3b2809b02392eb58923e22b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aa41978ff0b1faa505942fab4ae96fec2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#aa41978ff0b1faa505942fab4ae96fec2">adjtimex</a> (struct <a class="el" href="../../d4/de4/timex_8h.html#de/de1/structtimex">timex</a> *)</td></tr>
 <tr class="separator:aa41978ff0b1faa505942fab4ae96fec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a475bd4ec7e2299f8386f2b0f9e57e2be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a475bd4ec7e2299f8386f2b0f9e57e2be">clock_adjtime</a> (<a class="el" href="../../dc/d1f/abis_2linux_2clockid__t_8h.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a> clk_id, struct <a class="el" href="../../d4/de4/timex_8h.html#de/de1/structtimex">timex</a> *<a class="el" href="../../dd/d3e/longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>)</td></tr>
-<tr class="separator:a475bd4ec7e2299f8386f2b0f9e57e2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a034e7e79dee33a1f6c507df1260b1b01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a034e7e79dee33a1f6c507df1260b1b01">ntp_adjtime</a> (struct <a class="el" href="../../d4/de4/timex_8h.html#de/de1/structtimex">timex</a> *)</td></tr>
-<tr class="separator:a034e7e79dee33a1f6c507df1260b1b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a709aa34c6f511c0194b96b0d76be34b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de4/timex_8h.html#a709aa34c6f511c0194b96b0d76be34b8">clock_adjtime</a> (<a class="el" href="../../dc/d1f/abis_2linux_2clockid__t_8h.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a>, struct <a class="el" href="../../d4/de4/timex_8h.html#de/de1/structtimex">timex</a> *)</td></tr>
+<tr class="separator:a709aa34c6f511c0194b96b0d76be34b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
+<a name="df/d96/structntptimeval" id="df/d96/structntptimeval"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#df/d96/structntptimeval">&#9670;&nbsp;</a></span>ntptimeval</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct ntptimeval</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="textblock">
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00014">14</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+</div><table class="fieldtable">
+<tr><th colspan="3">Data Fields</th></tr>
+<tr><td class="fieldtype">
+<a id="a1ea37dc2b80494351bbf05c81d8b8a23"></a>long</td>
+<td class="fieldname">
+esterror</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a9fd5b17716bfe5890aa4c6e273ccbce2"></a>long</td>
+<td class="fieldname">
+maxerror</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a55d850de0037ba19c795bcbd536b1f52"></a>struct <a class="el" href="../../d4/d80/timeval_8h.html#d1/d1b/structtimeval">timeval</a></td>
+<td class="fieldname">
+time</td>
+<td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
 <a name="de/de1/structtimex" id="de/de1/structtimex"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#de/de1/structtimex">&#9670;&nbsp;</a></span>timex</h2>
 
@@ -186,7 +265,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00011">11</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00019">19</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -244,7 +323,7 @@ maxerror</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af41de1e3a9d7b47ebd95a2cd2f32cba4"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="ad336e0557970d28042d8ae3a9858ee7d"></a>unsigned</td>
 <td class="fieldname">
 modes</td>
 <td class="fielddoc">
@@ -320,6 +399,22 @@ tolerance</td>
 </div>
 </div>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a825251ace80f45028318dec9dcb8c3cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a825251ace80f45028318dec9dcb8c3cd">&#9670;&nbsp;</a></span>__NEED_clockid_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __NEED_clockid_t</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00008">8</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
 <a id="aabe4ea19f98b79dd00b7210c224b8304"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aabe4ea19f98b79dd00b7210c224b8304">&#9670;&nbsp;</a></span>ADJ_ESTERROR</h2>
 
@@ -332,7 +427,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00038">38</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00035">35</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -348,7 +443,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00036">36</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00033">33</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -364,7 +459,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00037">37</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00034">34</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -380,7 +475,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00043">43</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00040">40</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -396,7 +491,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00044">44</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00041">41</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -412,7 +507,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00035">35</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00032">32</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -428,7 +523,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00046">46</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00043">43</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -444,7 +539,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00047">47</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00044">44</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -460,7 +555,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00042">42</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00039">39</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -476,7 +571,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00039">39</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00036">36</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -492,7 +587,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00041">41</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00038">38</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -508,7 +603,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00045">45</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00042">42</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -524,7 +619,199 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00040">40</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00037">37</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a283ccaaf3b2809b02392eb58923e22b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a283ccaaf3b2809b02392eb58923e22b9">&#9670;&nbsp;</a></span>MAXTC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MAXTC&#160;&#160;&#160;6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00089">89</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a97e99d779a32bff8807e38db78c83391"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97e99d779a32bff8807e38db78c83391">&#9670;&nbsp;</a></span>MOD_CLKA</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_CLKA&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#ab739012a4b8e9e286ab6cabd9c9f07d4">ADJ_OFFSET_SINGLESHOT</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00053">53</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="afd386a782d838bebfc203077e37e31c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd386a782d838bebfc203077e37e31c0">&#9670;&nbsp;</a></span>MOD_CLKB</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_CLKB&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a31f47656cb9cc48aa1f9c67c8c60d218">ADJ_TICK</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00052">52</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a3531e87f84d39326c2548dbceefa3256"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3531e87f84d39326c2548dbceefa3256">&#9670;&nbsp;</a></span>MOD_ESTERROR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_ESTERROR&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#aabe4ea19f98b79dd00b7210c224b8304">ADJ_ESTERROR</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00049">49</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="abcf3180f4bd1fce807ba938158a4470e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcf3180f4bd1fce807ba938158a4470e">&#9670;&nbsp;</a></span>MOD_FREQUENCY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_FREQUENCY&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#aab19aee79b2bdcc14babffe6a5751cda">ADJ_FREQUENCY</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00047">47</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="af659091799e149d0f9697c073c531747"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af659091799e149d0f9697c073c531747">&#9670;&nbsp;</a></span>MOD_MAXERROR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_MAXERROR&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a9bb9ed82997bebfb3730dca446b1e3f5">ADJ_MAXERROR</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00048">48</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="ab866490ffe837b132d856da53953ac7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab866490ffe837b132d856da53953ac7e">&#9670;&nbsp;</a></span>MOD_MICRO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_MICRO&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a003e2013be81816b0a16f2542f92f964">ADJ_MICRO</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00055">55</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="ae857ffed58ac88f10bbf2db00f91a907"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae857ffed58ac88f10bbf2db00f91a907">&#9670;&nbsp;</a></span>MOD_NANO</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_NANO&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a2e1a5c1a907f524e17c90fbc26ba9e95">ADJ_NANO</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00056">56</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="acc8a2cdb7fdd075c29c1fd883964d300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc8a2cdb7fdd075c29c1fd883964d300">&#9670;&nbsp;</a></span>MOD_OFFSET</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_OFFSET&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a3c8518cc2948338ae00a241d91314c3f">ADJ_OFFSET</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00046">46</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="af540c4d3418fe31075320161046f7c35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af540c4d3418fe31075320161046f7c35">&#9670;&nbsp;</a></span>MOD_STATUS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_STATUS&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#af02e271dbc9c23a3742eec23c6a6675a">ADJ_STATUS</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00050">50</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a128dbe2b1c5f2a0150fa67bea1f09d68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a128dbe2b1c5f2a0150fa67bea1f09d68">&#9670;&nbsp;</a></span>MOD_TAI</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_TAI&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a991adb122e7490fe9cbb1124ed32a092">ADJ_TAI</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00054">54</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a8082a35b184d96bfc9f6267436d4ad8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8082a35b184d96bfc9f6267436d4ad8e">&#9670;&nbsp;</a></span>MOD_TIMECONST</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MOD_TIMECONST&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a23b87c2a6077d64f50eb5e4e02b58c04">ADJ_TIMECONST</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00051">51</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -540,7 +827,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00064">64</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00076">76</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -556,7 +843,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00061">61</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00073">73</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -572,7 +859,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00054">54</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00064">64</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -588,7 +875,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00052">52</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00061">61</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -604,7 +891,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00056">56</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00066">66</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -620,7 +907,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00053">53</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00063">63</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -636,7 +923,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00063">63</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00075">75</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -652,7 +939,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00062">62</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00074">74</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -668,7 +955,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00049">49</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00058">58</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -684,7 +971,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00060">60</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00071">71</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -700,7 +987,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00050">50</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00059">59</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -716,7 +1003,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00058">58</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00069">69</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -732,7 +1019,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00057">57</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00068">68</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -748,7 +1035,7 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00051">51</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00060">60</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -764,7 +1051,32 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00059">59</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00070">70</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="ac6c2cb3162bf77185913f53f960e64b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6c2cb3162bf77185913f53f960e64b4">&#9670;&nbsp;</a></span>STA_RONLY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define STA_RONLY</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    (<a class="code" href="../../d4/de4/timex_8h.html#a4fab75033545af7400d3a420798c2443">STA_PPSSIGNAL</a> | <a class="code" href="../../d4/de4/timex_8h.html#af1cfe8a3efab41e7b57a9ab9ef36f731">STA_PPSJITTER</a> | <a class="code" href="../../d4/de4/timex_8h.html#a7d13176ff881135e0fe45d6fb59f31cc">STA_PPSWANDER</a> | \</div>
+<div class="line">    STA_PPSERROR | <a class="code" href="../../d4/de4/timex_8h.html#ae078fbcbccf85de38dfe30766c091fc7">STA_CLOCKERR</a> | <a class="code" href="../../d4/de4/timex_8h.html#aa0e2d45ca884ed76375317f28c6fed0f">STA_NANO</a> | <a class="code" href="../../d4/de4/timex_8h.html#af54723277ccec1d15b50392d509a871c">STA_MODE</a> | <a class="code" href="../../d4/de4/timex_8h.html#a069932bda07cc781d93f1083d822fdf6">STA_CLK</a>)</div>
+<div class="ttc" id="atimex_8h_html_a069932bda07cc781d93f1083d822fdf6"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a069932bda07cc781d93f1083d822fdf6">STA_CLK</a></div><div class="ttdeci">#define STA_CLK</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00076">timex.h:76</a></div></div>
+<div class="ttc" id="atimex_8h_html_a4fab75033545af7400d3a420798c2443"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a4fab75033545af7400d3a420798c2443">STA_PPSSIGNAL</a></div><div class="ttdeci">#define STA_PPSSIGNAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00068">timex.h:68</a></div></div>
+<div class="ttc" id="atimex_8h_html_a7d13176ff881135e0fe45d6fb59f31cc"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a7d13176ff881135e0fe45d6fb59f31cc">STA_PPSWANDER</a></div><div class="ttdeci">#define STA_PPSWANDER</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00070">timex.h:70</a></div></div>
+<div class="ttc" id="atimex_8h_html_aa0e2d45ca884ed76375317f28c6fed0f"><div class="ttname"><a href="../../d4/de4/timex_8h.html#aa0e2d45ca884ed76375317f28c6fed0f">STA_NANO</a></div><div class="ttdeci">#define STA_NANO</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00074">timex.h:74</a></div></div>
+<div class="ttc" id="atimex_8h_html_ae078fbcbccf85de38dfe30766c091fc7"><div class="ttname"><a href="../../d4/de4/timex_8h.html#ae078fbcbccf85de38dfe30766c091fc7">STA_CLOCKERR</a></div><div class="ttdeci">#define STA_CLOCKERR</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00073">timex.h:73</a></div></div>
+<div class="ttc" id="atimex_8h_html_af1cfe8a3efab41e7b57a9ab9ef36f731"><div class="ttname"><a href="../../d4/de4/timex_8h.html#af1cfe8a3efab41e7b57a9ab9ef36f731">STA_PPSJITTER</a></div><div class="ttdeci">#define STA_PPSJITTER</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00069">timex.h:69</a></div></div>
+<div class="ttc" id="atimex_8h_html_af54723277ccec1d15b50392d509a871c"><div class="ttname"><a href="../../d4/de4/timex_8h.html#af54723277ccec1d15b50392d509a871c">STA_MODE</a></div><div class="ttdeci">#define STA_MODE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00075">timex.h:75</a></div></div>
+</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00078">78</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -780,7 +1092,119 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00055">55</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00065">65</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a379c0ffeacb0859f4685e71872d911fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a379c0ffeacb0859f4685e71872d911fc">&#9670;&nbsp;</a></span>TIME_BAD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIME_BAD&#160;&#160;&#160;<a class="el" href="../../d4/de4/timex_8h.html#a1adc2d647c3b6fa0d24595dbbdce9b7a">TIME_ERROR</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00087">87</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a0ec3b102bfd084b7020cccfad729b541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ec3b102bfd084b7020cccfad729b541">&#9670;&nbsp;</a></span>TIME_DEL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIME_DEL&#160;&#160;&#160;2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00083">83</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a1adc2d647c3b6fa0d24595dbbdce9b7a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1adc2d647c3b6fa0d24595dbbdce9b7a">&#9670;&nbsp;</a></span>TIME_ERROR</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIME_ERROR&#160;&#160;&#160;5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00086">86</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a8edb86e9fac809f6728f4bd5b050b267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8edb86e9fac809f6728f4bd5b050b267">&#9670;&nbsp;</a></span>TIME_INS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIME_INS&#160;&#160;&#160;1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00082">82</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a1a8f377fc0eaaafb652217bfe8a5d58a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a8f377fc0eaaafb652217bfe8a5d58a">&#9670;&nbsp;</a></span>TIME_OK</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIME_OK&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00081">81</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="ac86b0c6fc7fbe9da5c1660fadb43de56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac86b0c6fc7fbe9da5c1660fadb43de56">&#9670;&nbsp;</a></span>TIME_OOP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIME_OOP&#160;&#160;&#160;3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00084">84</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
+
+</div>
+</div>
+<a id="a24fa2248797a8a88020d8cda0ea2189c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24fa2248797a8a88020d8cda0ea2189c">&#9670;&nbsp;</a></span>TIME_WAIT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TIME_WAIT&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d4/de4/timex_8h_source.html#l00085">85</a> of file <a class="el" href="../../d4/de4/timex_8h_source.html">timex.h</a>.</p>
 
 </div>
 </div>
@@ -795,25 +1219,27 @@ tolerance</td>
           <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> adjtimex </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="../../d4/de4/timex_8h.html#de/de1/structtimex">timex</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>tx</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d18/sys-timex_8cpp_source.html#l00004">4</a> of file <a class="el" href="../../d5/d18/sys-timex_8cpp_source.html">sys-timex.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;                             {</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    __builtin_unreachable();</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d9f/adjtimex_8c_source.html#l00004">4</a> of file <a class="el" href="../../d5/d9f/adjtimex_8c_source.html">adjtimex.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/de4/timex_8h.html#a709aa34c6f511c0194b96b0d76be34b8">clock_adjtime</a>(<a class="code" href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h.html#a922ce1ae64374c9410c8a999e25e82af">CLOCK_REALTIME</a>, tx);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aensure_8h_html_a5e2c6c11947e5c706f6557c5195d90be"><div class="ttname"><a href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a></div><div class="ttdeci">#define __ensure(assertion)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc5/ensure_8h_source.html#l00019">ensure.h:19</a></div></div>
+<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2time_8h_html_a922ce1ae64374c9410c8a999e25e82af"><div class="ttname"><a href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h.html#a922ce1ae64374c9410c8a999e25e82af">CLOCK_REALTIME</a></div><div class="ttdeci">#define CLOCK_REALTIME</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h_source.html#l00018">time.h:18</a></div></div>
+<div class="ttc" id="atimex_8h_html_a709aa34c6f511c0194b96b0d76be34b8"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a709aa34c6f511c0194b96b0d76be34b8">clock_adjtime</a></div><div class="ttdeci">int clock_adjtime(clockid_t, struct timex *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00037">clock_adjtime.c:37</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">__ensure</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00037">clock_adjtime()</a>, and <a class="el" href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h_source.html#l00018">CLOCK_REALTIME</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/de1/adjtime_8c_source.html#l00007">adjtime()</a>.</p>
 
 </div>
 </div>
-<a id="a475bd4ec7e2299f8386f2b0f9e57e2be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a475bd4ec7e2299f8386f2b0f9e57e2be">&#9670;&nbsp;</a></span>clock_adjtime()</h2>
+<a id="a709aa34c6f511c0194b96b0d76be34b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a709aa34c6f511c0194b96b0d76be34b8">&#9670;&nbsp;</a></span>clock_adjtime()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -822,13 +1248,13 @@ tolerance</td>
           <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> clock_adjtime </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dc/d1f/abis_2linux_2clockid__t_8h.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a>&#160;</td>
-          <td class="paramname"><em>clk_id</em>, </td>
+          <td class="paramname"><em>clock_id</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">struct <a class="el" href="../../d4/de4/timex_8h.html#de/de1/structtimex">timex</a> *&#160;</td>
-          <td class="paramname"><em>buf</em>&#160;</td>
+          <td class="paramname"><em>utx</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -838,39 +1264,202 @@ tolerance</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d18/sys-timex_8cpp_source.html#l00009">9</a> of file <a class="el" href="../../d5/d18/sys-timex_8cpp_source.html">sys-timex.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                                             {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    __builtin_unreachable();</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00037">37</a> of file <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html">clock_adjtime.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = -<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#ifdef SYS_clock_adjtime64</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d2/ddc/clock__adjtime_8c.html#d7/d3e/structktimex64">ktimex64</a> ktx = {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        .<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#adadae7010f52c8e93f61ae4ea0666eb2">modes</a> = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ad336e0557970d28042d8ae3a9858ee7d">modes</a>,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        .offset = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3eb461d5664b8186efada5b830b413ab">offset</a>,</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        .freq = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a332dccdeffc4f47c0e44549b5e9adee1">freq</a>,</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        .maxerror = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a80108b1176487bcebc54a35ed99a77cc">maxerror</a>,</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        .esterror = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#abe9847ee029aa04c0e0a43c0e5714f69">esterror</a>,</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        .status = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7cd7a7465c8c01e42fb46e6abb42597b">status</a>,</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        .constant = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7d2bffeac2b8e7e11755380bad9091db">constant</a>,</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        .precision = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ae1647a0011396e72a11b2bffa18b42f9">precision</a>,</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        .tolerance = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#acc40f7b67544fef306e004e7cce993f6">tolerance</a>,</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        .time_sec = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ac5aece1a3f6ed7b985e48e46e74756af">time</a>.<a class="code" href="../../d4/d80/timeval_8h.html#aef6ddab1064c430758f9f913b7e4a21e">tv_sec</a>,</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        .time_usec = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ac5aece1a3f6ed7b985e48e46e74756af">time</a>.<a class="code" href="../../d4/d80/timeval_8h.html#a6f90a236deb00a89fe3dd8023d525d9c">tv_usec</a>,</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        .tick = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a68df8442f57131048505f78a6cf57f32">tick</a>,</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        .ppsfreq = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#adf1bc45193dde6fd6c34e0b3db8dca91">ppsfreq</a>,</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        .jitter = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a21d6edbf815143189261d22856f27de5">jitter</a>,</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        .shift = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3c181bdab2180e3cb2076e2443b25346">shift</a>,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        .stabil = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a985a6d1a8515d0bb7db8f1e85e9a4b19">stabil</a>,</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        .jitcnt = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#acd9fe2ddfedca8520e30cae809af4f92">jitcnt</a>,</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        .calcnt = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3bbefe4719e9439ce5f73cc079fff7c1">calcnt</a>,</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        .errcnt = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a143001c1024fd7981afa2b9ea4b1bf5e">errcnt</a>,</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        .stbcnt = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7490abd8d9c2bbbba00493e72813cf28">stbcnt</a>,</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        .tai = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3868b614fbf87b6c7eea168049724e77">tai</a>,</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    };</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(<a class="code" href="../../d7/dc5/x32_2syscall__arch_8h.html#a5f34970600862d6977f2cd267fffcd5f">SYS_clock_adjtime64</a>, clock_id, &amp;ktx);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>&gt;=0) {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ad336e0557970d28042d8ae3a9858ee7d">modes</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#adadae7010f52c8e93f61ae4ea0666eb2">modes</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3eb461d5664b8186efada5b830b413ab">offset</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#aa65e620820d3e8bedd6b017e0d7c667d">offset</a>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a332dccdeffc4f47c0e44549b5e9adee1">freq</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ae670f52b4329b845aa0b74ccfe69c048">freq</a>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a80108b1176487bcebc54a35ed99a77cc">maxerror</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a3c75bee964d02c1fd2817b666662584e">maxerror</a>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#abe9847ee029aa04c0e0a43c0e5714f69">esterror</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a2ecd5c76d098d90c4158fe42a5424a7c">esterror</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7cd7a7465c8c01e42fb46e6abb42597b">status</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a29c0a36c50a013b7257425e1df9f834c">status</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7d2bffeac2b8e7e11755380bad9091db">constant</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a8e800fba298e8258a942c2d7eaf7b416">constant</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ae1647a0011396e72a11b2bffa18b42f9">precision</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a2a4cb4dd1f778eaedbddc4cd8931e508">precision</a>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#acc40f7b67544fef306e004e7cce993f6">tolerance</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a8406e2aca43a01f835831cb1935f70db">tolerance</a>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ac5aece1a3f6ed7b985e48e46e74756af">time</a>.<a class="code" href="../../d4/d80/timeval_8h.html#aef6ddab1064c430758f9f913b7e4a21e">tv_sec</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ac019a8930d5e1ae7b758693bf43185ef">time_sec</a>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ac5aece1a3f6ed7b985e48e46e74756af">time</a>.<a class="code" href="../../d4/d80/timeval_8h.html#a6f90a236deb00a89fe3dd8023d525d9c">tv_usec</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a05889a16efd097a6775bcef8285d5617">time_usec</a>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a68df8442f57131048505f78a6cf57f32">tick</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#abe4069320273f5842241163dc5d56415">tick</a>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#adf1bc45193dde6fd6c34e0b3db8dca91">ppsfreq</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a5e333f6948fd4fbc6bf12fc408600aa6">ppsfreq</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a21d6edbf815143189261d22856f27de5">jitter</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ad9cd1f7813fe9cce1fd8437b8dfb5acb">jitter</a>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3c181bdab2180e3cb2076e2443b25346">shift</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a70ba27259e005e6189b40e9e638d2a79">shift</a>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a985a6d1a8515d0bb7db8f1e85e9a4b19">stabil</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a3acc7f6d85697bce7d17d59fcfb19c10">stabil</a>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#acd9fe2ddfedca8520e30cae809af4f92">jitcnt</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ab5cf641e8314b26e3787b824d992c1f5">jitcnt</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3bbefe4719e9439ce5f73cc079fff7c1">calcnt</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a8e372871c4424c6675886260b8f18719">calcnt</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a143001c1024fd7981afa2b9ea4b1bf5e">errcnt</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a24cbb38a9eed80a4c67020b5bdde7682">errcnt</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7490abd8d9c2bbbba00493e72813cf28">stbcnt</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a459b39de96e1c0ee965604f2a2279a74">stbcnt</a>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3868b614fbf87b6c7eea168049724e77">tai</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a94b1f357d8e5412b0423746a2b427b9f">tai</a>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a33702d99cfda335b5465ee44d35eb0ac">SYS_clock_adjtime</a> == <a class="code" href="../../d7/dc5/x32_2syscall__arch_8h.html#a5f34970600862d6977f2cd267fffcd5f">SYS_clock_adjtime64</a> || <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>!=-<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>)</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span> ((utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ad336e0557970d28042d8ae3a9858ee7d">modes</a> &amp; <a class="code" href="../../d4/de4/timex_8h.html#a536e4ee365f962750ea39d0479d61bba">ADJ_SETOFFSET</a>) &amp;&amp; !<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a9e8fd528c051a9a4bc9a8f2249d664ce">IS32BIT</a>(utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ac5aece1a3f6ed7b985e48e46e74756af">time</a>.<a class="code" href="../../d4/d80/timeval_8h.html#aef6ddab1064c430758f9f913b7e4a21e">tv_sec</a>))</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(-<a class="code" href="../../d7/dae/Userspace_2mlibc_2abis_2dripos_2errno_8h.html#a91457bbf35f0f1085619a99423bb1f33">ENOTSUP</a>);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">sizeof</span>(<a class="code" href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a>) &gt; <span class="keyword">sizeof</span>(<span class="keywordtype">long</span>)) {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keyword">struct </span><a class="code" href="../../d2/ddc/clock__adjtime_8c.html#db/d28/structktimex">ktimex</a> ktx = {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            .<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#adadae7010f52c8e93f61ae4ea0666eb2">modes</a> = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ad336e0557970d28042d8ae3a9858ee7d">modes</a>,</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            .offset = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3eb461d5664b8186efada5b830b413ab">offset</a>,</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            .freq = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a332dccdeffc4f47c0e44549b5e9adee1">freq</a>,</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            .maxerror = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a80108b1176487bcebc54a35ed99a77cc">maxerror</a>,</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            .esterror = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#abe9847ee029aa04c0e0a43c0e5714f69">esterror</a>,</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            .status = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7cd7a7465c8c01e42fb46e6abb42597b">status</a>,</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            .constant = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7d2bffeac2b8e7e11755380bad9091db">constant</a>,</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            .precision = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ae1647a0011396e72a11b2bffa18b42f9">precision</a>,</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            .tolerance = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#acc40f7b67544fef306e004e7cce993f6">tolerance</a>,</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            .time_sec = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ac5aece1a3f6ed7b985e48e46e74756af">time</a>.<a class="code" href="../../d4/d80/timeval_8h.html#aef6ddab1064c430758f9f913b7e4a21e">tv_sec</a>,</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            .time_usec = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ac5aece1a3f6ed7b985e48e46e74756af">time</a>.<a class="code" href="../../d4/d80/timeval_8h.html#a6f90a236deb00a89fe3dd8023d525d9c">tv_usec</a>,</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            .tick = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a68df8442f57131048505f78a6cf57f32">tick</a>,</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            .ppsfreq = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#adf1bc45193dde6fd6c34e0b3db8dca91">ppsfreq</a>,</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            .jitter = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a21d6edbf815143189261d22856f27de5">jitter</a>,</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            .shift = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3c181bdab2180e3cb2076e2443b25346">shift</a>,</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            .stabil = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a985a6d1a8515d0bb7db8f1e85e9a4b19">stabil</a>,</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            .jitcnt = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#acd9fe2ddfedca8520e30cae809af4f92">jitcnt</a>,</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            .calcnt = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3bbefe4719e9439ce5f73cc079fff7c1">calcnt</a>,</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            .errcnt = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a143001c1024fd7981afa2b9ea4b1bf5e">errcnt</a>,</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            .stbcnt = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7490abd8d9c2bbbba00493e72813cf28">stbcnt</a>,</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            .tai = utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3868b614fbf87b6c7eea168049724e77">tai</a>,</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        };</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#ifdef SYS_adjtimex</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">if</span> (clock_id==<a class="code" href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h.html#a922ce1ae64374c9410c8a999e25e82af">CLOCK_REALTIME</a>) <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_adjtimex, &amp;ktx);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(<a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a33702d99cfda335b5465ee44d35eb0ac">SYS_clock_adjtime</a>, clock_id, &amp;ktx);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>&gt;=0) {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ad336e0557970d28042d8ae3a9858ee7d">modes</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ad4cc7e7555a6b619a1780c0d9be95c8a">modes</a>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3eb461d5664b8186efada5b830b413ab">offset</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a55aa7dca17a57bca4f51daa029a8082a">offset</a>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a332dccdeffc4f47c0e44549b5e9adee1">freq</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a0c1ccd48741ba1617ce34fe7a09770cf">freq</a>;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a80108b1176487bcebc54a35ed99a77cc">maxerror</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a0fc10294d23d3b7ccae58726b052bec7">maxerror</a>;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#abe9847ee029aa04c0e0a43c0e5714f69">esterror</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ad3d21419a40330dde22a83e79367b1b5">esterror</a>;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7cd7a7465c8c01e42fb46e6abb42597b">status</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ab8278ab7f8796943a8f1da6348e82301">status</a>;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7d2bffeac2b8e7e11755380bad9091db">constant</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a43296512d79d79fc0bd9f87daa6e77fd">constant</a>;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ae1647a0011396e72a11b2bffa18b42f9">precision</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a30e8bd555879021f602bc27fdd3f8c9a">precision</a>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#acc40f7b67544fef306e004e7cce993f6">tolerance</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ab69bdb68e5e26ba1d383c943dfbc9f65">tolerance</a>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ac5aece1a3f6ed7b985e48e46e74756af">time</a>.<a class="code" href="../../d4/d80/timeval_8h.html#aef6ddab1064c430758f9f913b7e4a21e">tv_sec</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a76a2c179a0d5b9ce806d1e06ee5fb648">time_sec</a>;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#ac5aece1a3f6ed7b985e48e46e74756af">time</a>.<a class="code" href="../../d4/d80/timeval_8h.html#a6f90a236deb00a89fe3dd8023d525d9c">tv_usec</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#aacebfbf055ba8b8588da5df28e52b914">time_usec</a>;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a68df8442f57131048505f78a6cf57f32">tick</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ad25439bdb6f7922326ea77e0766a08c9">tick</a>;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#adf1bc45193dde6fd6c34e0b3db8dca91">ppsfreq</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a837f51135b16f66e33f414af3352617a">ppsfreq</a>;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a21d6edbf815143189261d22856f27de5">jitter</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ac9154ac147bca7dcfc6b036723c64b16">jitter</a>;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3c181bdab2180e3cb2076e2443b25346">shift</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a728ac9c21a3206fd486a46cb5559098c">shift</a>;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a985a6d1a8515d0bb7db8f1e85e9a4b19">stabil</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a9ca1f4313d157fd652ea83220817dce8">stabil</a>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#acd9fe2ddfedca8520e30cae809af4f92">jitcnt</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a40ab85653e82d8dae909794eadf2c9ea">jitcnt</a>;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3bbefe4719e9439ce5f73cc079fff7c1">calcnt</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a5417ae6315de6f113f61d0d237fb49ca">calcnt</a>;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a143001c1024fd7981afa2b9ea4b1bf5e">errcnt</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a6a67bfb5e4bbd751aa89a2cf328418e6">errcnt</a>;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a7490abd8d9c2bbbba00493e72813cf28">stbcnt</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#a206f7a7e2498618caab25c061f8503ec">stbcnt</a>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            utx-&gt;<a class="code" href="../../d4/de4/timex_8h.html#a3868b614fbf87b6c7eea168049724e77">tai</a> = ktx.<a class="code" href="../../d2/ddc/clock__adjtime_8c.html#ad690a570f34c7b978d53d59d258ceee1">tai</a>;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        }</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="preprocessor">#ifdef SYS_adjtimex</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordflow">if</span> (clock_id==<a class="code" href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h.html#a922ce1ae64374c9410c8a999e25e82af">CLOCK_REALTIME</a>) <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_adjtimex, utx);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(<a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a33702d99cfda335b5465ee44d35eb0ac">SYS_clock_adjtime</a>, clock_id, utx);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdoc">Function not implemented.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">errno.h:133</a></div></div>
+<div class="ttc" id="aUserspace_2mlibc_2abis_2dripos_2errno_8h_html_a91457bbf35f0f1085619a99423bb1f33"><div class="ttname"><a href="../../d7/dae/Userspace_2mlibc_2abis_2dripos_2errno_8h.html#a91457bbf35f0f1085619a99423bb1f33">ENOTSUP</a></div><div class="ttdeci">#define ENOTSUP</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dae/Userspace_2mlibc_2abis_2dripos_2errno_8h_source.html#l00147">errno.h:147</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a05889a16efd097a6775bcef8285d5617"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a05889a16efd097a6775bcef8285d5617">ktimex64::time_usec</a></div><div class="ttdeci">long long time_usec</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00015">clock_adjtime.c:15</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a0c1ccd48741ba1617ce34fe7a09770cf"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a0c1ccd48741ba1617ce34fe7a09770cf">ktimex::freq</a></div><div class="ttdeci">long freq</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00026">clock_adjtime.c:26</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a0fc10294d23d3b7ccae58726b052bec7"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a0fc10294d23d3b7ccae58726b052bec7">ktimex::maxerror</a></div><div class="ttdeci">long maxerror</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00026">clock_adjtime.c:26</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a206f7a7e2498618caab25c061f8503ec"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a206f7a7e2498618caab25c061f8503ec">ktimex::stbcnt</a></div><div class="ttdeci">long stbcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00032">clock_adjtime.c:32</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a24cbb38a9eed80a4c67020b5bdde7682"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a24cbb38a9eed80a4c67020b5bdde7682">ktimex64::errcnt</a></div><div class="ttdeci">long long errcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00019">clock_adjtime.c:19</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a29c0a36c50a013b7257425e1df9f834c"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a29c0a36c50a013b7257425e1df9f834c">ktimex64::status</a></div><div class="ttdeci">int status</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00012">clock_adjtime.c:12</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a2a4cb4dd1f778eaedbddc4cd8931e508"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a2a4cb4dd1f778eaedbddc4cd8931e508">ktimex64::precision</a></div><div class="ttdeci">long long precision</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00014">clock_adjtime.c:14</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a2ecd5c76d098d90c4158fe42a5424a7c"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a2ecd5c76d098d90c4158fe42a5424a7c">ktimex64::esterror</a></div><div class="ttdeci">long long esterror</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00011">clock_adjtime.c:11</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a30e8bd555879021f602bc27fdd3f8c9a"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a30e8bd555879021f602bc27fdd3f8c9a">ktimex::precision</a></div><div class="ttdeci">long precision</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00028">clock_adjtime.c:28</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a3acc7f6d85697bce7d17d59fcfb19c10"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a3acc7f6d85697bce7d17d59fcfb19c10">ktimex64::stabil</a></div><div class="ttdeci">long long stabil</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00019">clock_adjtime.c:19</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a3c75bee964d02c1fd2817b666662584e"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a3c75bee964d02c1fd2817b666662584e">ktimex64::maxerror</a></div><div class="ttdeci">long long maxerror</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00011">clock_adjtime.c:11</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a40ab85653e82d8dae909794eadf2c9ea"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a40ab85653e82d8dae909794eadf2c9ea">ktimex::jitcnt</a></div><div class="ttdeci">long jitcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00032">clock_adjtime.c:32</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a43296512d79d79fc0bd9f87daa6e77fd"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a43296512d79d79fc0bd9f87daa6e77fd">ktimex::constant</a></div><div class="ttdeci">long constant</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00028">clock_adjtime.c:28</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a459b39de96e1c0ee965604f2a2279a74"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a459b39de96e1c0ee965604f2a2279a74">ktimex64::stbcnt</a></div><div class="ttdeci">long long stbcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00019">clock_adjtime.c:19</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a5417ae6315de6f113f61d0d237fb49ca"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a5417ae6315de6f113f61d0d237fb49ca">ktimex::calcnt</a></div><div class="ttdeci">long calcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00032">clock_adjtime.c:32</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a55aa7dca17a57bca4f51daa029a8082a"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a55aa7dca17a57bca4f51daa029a8082a">ktimex::offset</a></div><div class="ttdeci">long offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00026">clock_adjtime.c:26</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a5e333f6948fd4fbc6bf12fc408600aa6"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a5e333f6948fd4fbc6bf12fc408600aa6">ktimex64::ppsfreq</a></div><div class="ttdeci">long long ppsfreq</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00016">clock_adjtime.c:16</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a6a67bfb5e4bbd751aa89a2cf328418e6"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a6a67bfb5e4bbd751aa89a2cf328418e6">ktimex::errcnt</a></div><div class="ttdeci">long errcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00032">clock_adjtime.c:32</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a70ba27259e005e6189b40e9e638d2a79"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a70ba27259e005e6189b40e9e638d2a79">ktimex64::shift</a></div><div class="ttdeci">int shift</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00017">clock_adjtime.c:17</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a728ac9c21a3206fd486a46cb5559098c"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a728ac9c21a3206fd486a46cb5559098c">ktimex::shift</a></div><div class="ttdeci">int shift</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00031">clock_adjtime.c:31</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a76a2c179a0d5b9ce806d1e06ee5fb648"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a76a2c179a0d5b9ce806d1e06ee5fb648">ktimex::time_sec</a></div><div class="ttdeci">long time_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00029">clock_adjtime.c:29</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a837f51135b16f66e33f414af3352617a"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a837f51135b16f66e33f414af3352617a">ktimex::ppsfreq</a></div><div class="ttdeci">long ppsfreq</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00030">clock_adjtime.c:30</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a8406e2aca43a01f835831cb1935f70db"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a8406e2aca43a01f835831cb1935f70db">ktimex64::tolerance</a></div><div class="ttdeci">long long tolerance</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00014">clock_adjtime.c:14</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a8e372871c4424c6675886260b8f18719"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a8e372871c4424c6675886260b8f18719">ktimex64::calcnt</a></div><div class="ttdeci">long long calcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00019">clock_adjtime.c:19</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a8e800fba298e8258a942c2d7eaf7b416"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a8e800fba298e8258a942c2d7eaf7b416">ktimex64::constant</a></div><div class="ttdeci">long long constant</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00014">clock_adjtime.c:14</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a94b1f357d8e5412b0423746a2b427b9f"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a94b1f357d8e5412b0423746a2b427b9f">ktimex64::tai</a></div><div class="ttdeci">int tai</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00020">clock_adjtime.c:20</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a9ca1f4313d157fd652ea83220817dce8"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a9ca1f4313d157fd652ea83220817dce8">ktimex::stabil</a></div><div class="ttdeci">long stabil</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00032">clock_adjtime.c:32</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_a9e8fd528c051a9a4bc9a8f2249d664ce"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#a9e8fd528c051a9a4bc9a8f2249d664ce">IS32BIT</a></div><div class="ttdeci">#define IS32BIT(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00006">clock_adjtime.c:6</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_aa65e620820d3e8bedd6b017e0d7c667d"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#aa65e620820d3e8bedd6b017e0d7c667d">ktimex64::offset</a></div><div class="ttdeci">long long offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00011">clock_adjtime.c:11</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_aacebfbf055ba8b8588da5df28e52b914"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#aacebfbf055ba8b8588da5df28e52b914">ktimex::time_usec</a></div><div class="ttdeci">long time_usec</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00029">clock_adjtime.c:29</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ab5cf641e8314b26e3787b824d992c1f5"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ab5cf641e8314b26e3787b824d992c1f5">ktimex64::jitcnt</a></div><div class="ttdeci">long long jitcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00019">clock_adjtime.c:19</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ab69bdb68e5e26ba1d383c943dfbc9f65"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ab69bdb68e5e26ba1d383c943dfbc9f65">ktimex::tolerance</a></div><div class="ttdeci">long tolerance</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00028">clock_adjtime.c:28</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ab8278ab7f8796943a8f1da6348e82301"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ab8278ab7f8796943a8f1da6348e82301">ktimex::status</a></div><div class="ttdeci">int status</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00027">clock_adjtime.c:27</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_abe4069320273f5842241163dc5d56415"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#abe4069320273f5842241163dc5d56415">ktimex64::tick</a></div><div class="ttdeci">long long tick</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00016">clock_adjtime.c:16</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ac019a8930d5e1ae7b758693bf43185ef"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ac019a8930d5e1ae7b758693bf43185ef">ktimex64::time_sec</a></div><div class="ttdeci">long long time_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00015">clock_adjtime.c:15</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ac9154ac147bca7dcfc6b036723c64b16"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ac9154ac147bca7dcfc6b036723c64b16">ktimex::jitter</a></div><div class="ttdeci">long jitter</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00030">clock_adjtime.c:30</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ad25439bdb6f7922326ea77e0766a08c9"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ad25439bdb6f7922326ea77e0766a08c9">ktimex::tick</a></div><div class="ttdeci">long tick</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00030">clock_adjtime.c:30</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ad3d21419a40330dde22a83e79367b1b5"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ad3d21419a40330dde22a83e79367b1b5">ktimex::esterror</a></div><div class="ttdeci">long esterror</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00026">clock_adjtime.c:26</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ad4cc7e7555a6b619a1780c0d9be95c8a"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ad4cc7e7555a6b619a1780c0d9be95c8a">ktimex::modes</a></div><div class="ttdeci">unsigned modes</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00025">clock_adjtime.c:25</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ad690a570f34c7b978d53d59d258ceee1"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ad690a570f34c7b978d53d59d258ceee1">ktimex::tai</a></div><div class="ttdeci">int tai</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00033">clock_adjtime.c:33</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ad9cd1f7813fe9cce1fd8437b8dfb5acb"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ad9cd1f7813fe9cce1fd8437b8dfb5acb">ktimex64::jitter</a></div><div class="ttdeci">long long jitter</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00016">clock_adjtime.c:16</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_adadae7010f52c8e93f61ae4ea0666eb2"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#adadae7010f52c8e93f61ae4ea0666eb2">ktimex64::modes</a></div><div class="ttdeci">unsigned modes</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00009">clock_adjtime.c:9</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_ae670f52b4329b845aa0b74ccfe69c048"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#ae670f52b4329b845aa0b74ccfe69c048">ktimex64::freq</a></div><div class="ttdeci">long long freq</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00011">clock_adjtime.c:11</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_d7/d3e/structktimex64"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#d7/d3e/structktimex64">ktimex64</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00008">clock_adjtime.c:8</a></div></div>
+<div class="ttc" id="aclock__adjtime_8c_html_db/d28/structktimex"><div class="ttname"><a href="../../d2/ddc/clock__adjtime_8c.html#db/d28/structktimex">ktimex</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/ddc/clock__adjtime_8c_source.html#l00024">clock_adjtime.c:24</a></div></div>
+<div class="ttc" id="amlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">syscall.h:25</a></div></div>
+<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_a33702d99cfda335b5465ee44d35eb0ac"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a33702d99cfda335b5465ee44d35eb0ac">SYS_clock_adjtime</a></div><div class="ttdeci">#define SYS_clock_adjtime</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00258">syscall.h:258</a></div></div>
+<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
+<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
+<div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
+<div class="ttc" id="atime__t_8h_html_a824afaa48b313f905546cf45822800fc"><div class="ttname"><a href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a></div><div class="ttdeci">long time_t</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc7/time__t_8h_source.html#l00005">time_t.h:5</a></div></div>
+<div class="ttc" id="atimeval_8h_html_a6f90a236deb00a89fe3dd8023d525d9c"><div class="ttname"><a href="../../d4/d80/timeval_8h.html#a6f90a236deb00a89fe3dd8023d525d9c">timeval::tv_usec</a></div><div class="ttdeci">long int tv_usec</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbc/include_2posixtime_8h_source.html#l00047">posixtime.h:47</a></div></div>
+<div class="ttc" id="atimeval_8h_html_aef6ddab1064c430758f9f913b7e4a21e"><div class="ttname"><a href="../../d4/d80/timeval_8h.html#aef6ddab1064c430758f9f913b7e4a21e">timeval::tv_sec</a></div><div class="ttdeci">time_t tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbc/include_2posixtime_8h_source.html#l00046">posixtime.h:46</a></div></div>
+<div class="ttc" id="atimex_8h_html_a143001c1024fd7981afa2b9ea4b1bf5e"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a143001c1024fd7981afa2b9ea4b1bf5e">timex::errcnt</a></div><div class="ttdeci">long errcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00027">timex.h:27</a></div></div>
+<div class="ttc" id="atimex_8h_html_a21d6edbf815143189261d22856f27de5"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a21d6edbf815143189261d22856f27de5">timex::jitter</a></div><div class="ttdeci">long jitter</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00025">timex.h:25</a></div></div>
+<div class="ttc" id="atimex_8h_html_a332dccdeffc4f47c0e44549b5e9adee1"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a332dccdeffc4f47c0e44549b5e9adee1">timex::freq</a></div><div class="ttdeci">long freq</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00021">timex.h:21</a></div></div>
+<div class="ttc" id="atimex_8h_html_a3868b614fbf87b6c7eea168049724e77"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a3868b614fbf87b6c7eea168049724e77">timex::tai</a></div><div class="ttdeci">int tai</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00028">timex.h:28</a></div></div>
+<div class="ttc" id="atimex_8h_html_a3bbefe4719e9439ce5f73cc079fff7c1"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a3bbefe4719e9439ce5f73cc079fff7c1">timex::calcnt</a></div><div class="ttdeci">long calcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00027">timex.h:27</a></div></div>
+<div class="ttc" id="atimex_8h_html_a3c181bdab2180e3cb2076e2443b25346"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a3c181bdab2180e3cb2076e2443b25346">timex::shift</a></div><div class="ttdeci">int shift</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00026">timex.h:26</a></div></div>
+<div class="ttc" id="atimex_8h_html_a3eb461d5664b8186efada5b830b413ab"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a3eb461d5664b8186efada5b830b413ab">timex::offset</a></div><div class="ttdeci">long offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00021">timex.h:21</a></div></div>
+<div class="ttc" id="atimex_8h_html_a536e4ee365f962750ea39d0479d61bba"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a536e4ee365f962750ea39d0479d61bba">ADJ_SETOFFSET</a></div><div class="ttdeci">#define ADJ_SETOFFSET</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00039">timex.h:39</a></div></div>
+<div class="ttc" id="atimex_8h_html_a68df8442f57131048505f78a6cf57f32"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a68df8442f57131048505f78a6cf57f32">timex::tick</a></div><div class="ttdeci">long tick</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00025">timex.h:25</a></div></div>
+<div class="ttc" id="atimex_8h_html_a7490abd8d9c2bbbba00493e72813cf28"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a7490abd8d9c2bbbba00493e72813cf28">timex::stbcnt</a></div><div class="ttdeci">long stbcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00027">timex.h:27</a></div></div>
+<div class="ttc" id="atimex_8h_html_a7cd7a7465c8c01e42fb46e6abb42597b"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a7cd7a7465c8c01e42fb46e6abb42597b">timex::status</a></div><div class="ttdeci">int status</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00022">timex.h:22</a></div></div>
+<div class="ttc" id="atimex_8h_html_a7d2bffeac2b8e7e11755380bad9091db"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a7d2bffeac2b8e7e11755380bad9091db">timex::constant</a></div><div class="ttdeci">long constant</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00023">timex.h:23</a></div></div>
+<div class="ttc" id="atimex_8h_html_a80108b1176487bcebc54a35ed99a77cc"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a80108b1176487bcebc54a35ed99a77cc">timex::maxerror</a></div><div class="ttdeci">long maxerror</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00021">timex.h:21</a></div></div>
+<div class="ttc" id="atimex_8h_html_a985a6d1a8515d0bb7db8f1e85e9a4b19"><div class="ttname"><a href="../../d4/de4/timex_8h.html#a985a6d1a8515d0bb7db8f1e85e9a4b19">timex::stabil</a></div><div class="ttdeci">long stabil</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00027">timex.h:27</a></div></div>
+<div class="ttc" id="atimex_8h_html_abe9847ee029aa04c0e0a43c0e5714f69"><div class="ttname"><a href="../../d4/de4/timex_8h.html#abe9847ee029aa04c0e0a43c0e5714f69">timex::esterror</a></div><div class="ttdeci">long esterror</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00021">timex.h:21</a></div></div>
+<div class="ttc" id="atimex_8h_html_ac5aece1a3f6ed7b985e48e46e74756af"><div class="ttname"><a href="../../d4/de4/timex_8h.html#ac5aece1a3f6ed7b985e48e46e74756af">timex::time</a></div><div class="ttdeci">struct timeval time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00023">timex.h:24</a></div></div>
+<div class="ttc" id="atimex_8h_html_acc40f7b67544fef306e004e7cce993f6"><div class="ttname"><a href="../../d4/de4/timex_8h.html#acc40f7b67544fef306e004e7cce993f6">timex::tolerance</a></div><div class="ttdeci">long tolerance</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00023">timex.h:23</a></div></div>
+<div class="ttc" id="atimex_8h_html_acd9fe2ddfedca8520e30cae809af4f92"><div class="ttname"><a href="../../d4/de4/timex_8h.html#acd9fe2ddfedca8520e30cae809af4f92">timex::jitcnt</a></div><div class="ttdeci">long jitcnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00027">timex.h:27</a></div></div>
+<div class="ttc" id="atimex_8h_html_ad336e0557970d28042d8ae3a9858ee7d"><div class="ttname"><a href="../../d4/de4/timex_8h.html#ad336e0557970d28042d8ae3a9858ee7d">timex::modes</a></div><div class="ttdeci">unsigned modes</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00020">timex.h:20</a></div></div>
+<div class="ttc" id="atimex_8h_html_adf1bc45193dde6fd6c34e0b3db8dca91"><div class="ttname"><a href="../../d4/de4/timex_8h.html#adf1bc45193dde6fd6c34e0b3db8dca91">timex::ppsfreq</a></div><div class="ttdeci">long ppsfreq</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00025">timex.h:25</a></div></div>
+<div class="ttc" id="atimex_8h_html_ae1647a0011396e72a11b2bffa18b42f9"><div class="ttname"><a href="../../d4/de4/timex_8h.html#ae1647a0011396e72a11b2bffa18b42f9">timex::precision</a></div><div class="ttdeci">long precision</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de4/timex_8h_source.html#l00023">timex.h:23</a></div></div>
+<div class="ttc" id="ax32_2syscall__arch_8h_html_a5f34970600862d6977f2cd267fffcd5f"><div class="ttname"><a href="../../d7/dc5/x32_2syscall__arch_8h.html#a5f34970600862d6977f2cd267fffcd5f">SYS_clock_adjtime64</a></div><div class="ttdeci">#define SYS_clock_adjtime64</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc5/x32_2syscall__arch_8h_source.html#l00074">syscall_arch.h:74</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">__ensure</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">__syscall</a>, <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00039">ADJ_SETOFFSET</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00027">timex::calcnt</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00019">ktimex64::calcnt</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00032">ktimex::calcnt</a>, <a class="el" href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h_source.html#l00018">CLOCK_REALTIME</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00023">timex::constant</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00014">ktimex64::constant</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00028">ktimex::constant</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">ENOSYS</a>, <a class="el" href="../../d7/dae/Userspace_2mlibc_2abis_2dripos_2errno_8h_source.html#l00147">ENOTSUP</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00027">timex::errcnt</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00019">ktimex64::errcnt</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00032">ktimex::errcnt</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00021">timex::esterror</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00011">ktimex64::esterror</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00026">ktimex::esterror</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00021">timex::freq</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00011">ktimex64::freq</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00026">ktimex::freq</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00006">IS32BIT</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00027">timex::jitcnt</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00019">ktimex64::jitcnt</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00032">ktimex::jitcnt</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00025">timex::jitter</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00016">ktimex64::jitter</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00030">ktimex::jitter</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00021">timex::maxerror</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00011">ktimex64::maxerror</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00026">ktimex::maxerror</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00020">timex::modes</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00009">ktimex64::modes</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00025">ktimex::modes</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00021">timex::offset</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00011">ktimex64::offset</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00026">ktimex::offset</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00025">timex::ppsfreq</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00016">ktimex64::ppsfreq</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00030">ktimex::ppsfreq</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00023">timex::precision</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00014">ktimex64::precision</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00028">ktimex::precision</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00026">timex::shift</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00017">ktimex64::shift</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00031">ktimex::shift</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00027">timex::stabil</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00019">ktimex64::stabil</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00032">ktimex::stabil</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00022">timex::status</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00012">ktimex64::status</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00027">ktimex::status</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00027">timex::stbcnt</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00019">ktimex64::stbcnt</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00032">ktimex::stbcnt</a>, <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00258">SYS_clock_adjtime</a>, <a class="el" href="../../d7/dc5/x32_2syscall__arch_8h_source.html#l00074">SYS_clock_adjtime64</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00028">timex::tai</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00020">ktimex64::tai</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00033">ktimex::tai</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00025">timex::tick</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00016">ktimex64::tick</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00030">ktimex::tick</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00024">timex::time</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00015">ktimex64::time_sec</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00029">ktimex::time_sec</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00015">ktimex64::time_usec</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00029">ktimex::time_usec</a>, <a class="el" href="../../d4/de4/timex_8h_source.html#l00023">timex::tolerance</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00014">ktimex64::tolerance</a>, <a class="el" href="../../d2/ddc/clock__adjtime_8c_source.html#l00028">ktimex::tolerance</a>, <a class="el" href="../../d6/dbc/include_2posixtime_8h_source.html#l00046">timeval::tv_sec</a>, and <a class="el" href="../../d6/dbc/include_2posixtime_8h_source.html#l00047">timeval::tv_usec</a>.</p>
 
-</div>
-</div>
-<a id="a034e7e79dee33a1f6c507df1260b1b01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a034e7e79dee33a1f6c507df1260b1b01">&#9670;&nbsp;</a></span>ntp_adjtime()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> ntp_adjtime </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="../../d4/de4/timex_8h.html#de/de1/structtimex">timex</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../d5/d18/sys-timex_8cpp_source.html#l00014">14</a> of file <a class="el" href="../../d5/d18/sys-timex_8cpp_source.html">sys-timex.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                                {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../dc/dc5/ensure_8h.html#a5e2c6c11947e5c706f6557c5195d90be">__ensure</a>(!<span class="stringliteral">&quot;Not implemented&quot;</span>);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    __builtin_unreachable();</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dc5/ensure_8h_source.html#l00019">__ensure</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/deb/clock__adjtime32_8c_source.html#l00021">__clock_adjtime32()</a>, and <a class="el" href="../../d5/d9f/adjtimex_8c_source.html#l00004">adjtimex()</a>.</p>
 
 </div>
 </div>
@@ -879,7 +1468,7 @@ tolerance</td>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_9e2aac7ae95dd40287f9f0a14447c512.html">options</a></li><li class="navelem"><a class="el" href="../../dir_671d7d722b73a38613942d7e08112871.html">glibc</a></li><li class="navelem"><a class="el" href="../../dir_b88d2b737f67a3e2f767ada17e48ff29.html">include</a></li><li class="navelem"><a class="el" href="../../dir_3d57f6a2c7f5d9886633279d1a97c024.html">sys</a></li><li class="navelem"><a class="el" href="../../d4/de4/timex_8h.html">timex.h</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_ef146483fd353a960d23a3a6df0a375c.html">include</a></li><li class="navelem"><a class="el" href="../../dir_bdd34a2200479cb1c89088e99c8d7e58.html">sys</a></li><li class="navelem"><a class="el" href="../../d4/de4/timex_8h.html">timex.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

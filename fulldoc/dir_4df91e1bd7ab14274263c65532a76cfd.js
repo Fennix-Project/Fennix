@@ -1,8 +1,10 @@
 var dir_4df91e1bd7ab14274263c65532a76cfd =
 [
     [ "fd_set.h", "de/d3d/fd__set_8h.html", [
-      [ "fd_set", "de/d3d/fd__set_8h.html#d5/d99/structfd__set", null ],
-      [ "fd_set.__unnamed911__", "de/d3d/fd__set_8h.html#dc/d02/unionfd__set_8____unnamed911____", [
+      [ "fd_set", "d3/d9b/musl_2include_2sys_2select_8h.html#d5/d99/structfd__set", [
+        [ "fds_bits", "d3/d9b/musl_2include_2sys_2select_8h.html#af3253fd40c49cf37181639e903f16aba", null ]
+      ] ],
+      [ "fd_set.__unnamed991__", "de/d3d/fd__set_8h.html#d8/dd9/unionfd__set_8____unnamed991____", [
         [ "__mlibc_elems", "de/d3d/fd__set_8h.html#a036fdbbe38cb68358a13a8161678e01e", null ],
         [ "fds_bits", "de/d3d/fd__set_8h.html#a9062bef40c1c337241dcb76465017a27", null ]
       ] ]
@@ -12,7 +14,8 @@ var dir_4df91e1bd7ab14274263c65532a76cfd =
     [ "in_port_t.h", "dc/d18/in__port__t_8h.html", "dc/d18/in__port__t_8h" ],
     [ "iovec.h", "d6/dbc/iovec_8h.html", [
       [ "iovec", "d6/dbc/iovec_8h.html#db/d79/structiovec", [
-        [ "iov_base", "d6/dbc/iovec_8h.html#a07aeddeccf80f14520fdd7ef0759442b", null ],
+        [ "iov_base", "d6/dbc/iovec_8h.html#a03d7cd6fabcba6523b6366738c691321", null ],
+        [ "iov_len", "d6/dbc/iovec_8h.html#a17b5ac2078fd1adfabb262a95808a07d", null ],
         [ "iov_len", "d6/dbc/iovec_8h.html#a128e89d5832f58b6d8244ceb4f9011e3", null ]
       ] ]
     ] ],
@@ -31,6 +34,7 @@ var dir_4df91e1bd7ab14274263c65532a76cfd =
     [ "timeval.h", "d4/d80/timeval_8h.html", [
       [ "timeval", "d4/d80/timeval_8h.html#d1/d1b/structtimeval", [
         [ "tv_sec", "d4/d80/timeval_8h.html#aef6ddab1064c430758f9f913b7e4a21e", null ],
+        [ "tv_usec", "d4/d80/timeval_8h.html#a6f90a236deb00a89fe3dd8023d525d9c", null ],
         [ "tv_usec", "d4/d80/timeval_8h.html#a810bf8fcd58e255a5c1896d19538b86a", null ]
       ] ]
     ] ]

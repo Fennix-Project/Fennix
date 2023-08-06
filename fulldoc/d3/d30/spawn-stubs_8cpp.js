@@ -1,23 +1,29 @@
 var spawn_stubs_8cpp =
 [
-    [ "fdop", "d3/d30/spawn-stubs_8cpp.html#d8/d4a/structfdop", [
-      [ "cmd", "d3/d30/spawn-stubs_8cpp.html#aaab5c3f414e20a4d9e8c50159debdc8c", null ],
-      [ "fd", "d3/d30/spawn-stubs_8cpp.html#ad66b4f5cf124100873480cb42eef158a", null ],
-      [ "mode", "d3/d30/spawn-stubs_8cpp.html#af51dc7fc75fb7a8b86bca97f4686ffc6", null ],
-      [ "next", "d3/d30/spawn-stubs_8cpp.html#a623e2d60b3e44599c100445e22c9dcdf", null ],
-      [ "oflag", "d3/d30/spawn-stubs_8cpp.html#a5c694503e55ee2d1b5aa7c1a3be093f2", null ],
-      [ "path", "d3/d30/spawn-stubs_8cpp.html#a6b293c15bca67cd8eaa0e387e0d93754", null ],
-      [ "prev", "d3/d30/spawn-stubs_8cpp.html#a3201ab75de7f1773a54b77fae0207aa8", null ],
-      [ "srcfd", "d3/d30/spawn-stubs_8cpp.html#a7f4ebf22812e5e0543f4260107387757", null ]
+    [ "fdop", "d7/d71/fdop_8h.html#d8/d4a/structfdop", [
+      [ "cmd", "d7/d71/fdop_8h.html#aaab5c3f414e20a4d9e8c50159debdc8c", null ],
+      [ "fd", "d7/d71/fdop_8h.html#ad66b4f5cf124100873480cb42eef158a", null ],
+      [ "mode", "d7/d71/fdop_8h.html#af51dc7fc75fb7a8b86bca97f4686ffc6", null ],
+      [ "next", "d7/d71/fdop_8h.html#a4e00094a191331d45d955263572609cf", null ],
+      [ "oflag", "d7/d71/fdop_8h.html#a5c694503e55ee2d1b5aa7c1a3be093f2", null ],
+      [ "path", "d7/d71/fdop_8h.html#afda5dc5d2e794ad8fb1f5d46fc1093af", null ],
+      [ "prev", "d7/d71/fdop_8h.html#a3201ab75de7f1773a54b77fae0207aa8", null ],
+      [ "srcfd", "d7/d71/fdop_8h.html#a7f4ebf22812e5e0543f4260107387757", null ]
     ] ],
-    [ "args", "d3/d30/spawn-stubs_8cpp.html#d8/d08/structargs", [
-      [ "argv", "d3/d30/spawn-stubs_8cpp.html#a5353fe034974d6f99e8fee25973b9151", null ],
-      [ "attr", "d3/d30/spawn-stubs_8cpp.html#a09816f84927984fb93e13b147cccbb3e", null ],
-      [ "envp", "d3/d30/spawn-stubs_8cpp.html#a43ebba60693aaca0bf37a129df1cfbde", null ],
-      [ "fa", "d3/d30/spawn-stubs_8cpp.html#aab8f5b9ce7fada096d8637a8cb6b2998", null ],
-      [ "oldmask", "d3/d30/spawn-stubs_8cpp.html#a10aee383bf1066a6a5353b3cba6f0721", null ],
-      [ "p", "d3/d30/spawn-stubs_8cpp.html#abf0e0e51204aef785ae5cb633773667e", null ],
-      [ "path", "d3/d30/spawn-stubs_8cpp.html#a3b1b36bc3f7cfcf07ff40f7efb6c0495", null ]
+    [ "args", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#d8/d08/structargs", [
+      [ "argv", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#ae1a0e7fb65d12c84e36d03b7b9095288", null ],
+      [ "attr", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#a09816f84927984fb93e13b147cccbb3e", null ],
+      [ "attr", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#a82d90fa5c101ac4f537cf16bcac5c721", null ],
+      [ "envp", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#a6fb80bd9d958f577005819c1d632b291", null ],
+      [ "err", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#ab7ceef84d4aac74d5d294dcf4ea5c55b", null ],
+      [ "fa", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#a3fdd761faf6c058a4c329319d7a9863e", null ],
+      [ "mqd", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#a946bbab4bcd7582ca15d23b8bd113b66", null ],
+      [ "oldmask", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#a10aee383bf1066a6a5353b3cba6f0721", null ],
+      [ "p", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#a2f0e9cbb9146d1284fac703725b36007", null ],
+      [ "path", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#a664815d8ddeddfca53c1d04e7d25c083", null ],
+      [ "sem", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#a27cd29bc1423ed4fcaa2c9fd7bab72e6", null ],
+      [ "sev", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#a5f2579ffee1daafeb204110958fb5fcb", null ],
+      [ "sock", "d9/d68/musl_2src_2process_2posix__spawn_8c.html#abb1ab0da3967a935018a9c5121482fed", null ]
     ] ],
     [ "FDOP_CHDIR", "d3/d30/spawn-stubs_8cpp.html#acaa29697597160e6f272004f0e9b1806", null ],
     [ "FDOP_CLOSE", "d3/d30/spawn-stubs_8cpp.html#afe21840399365f4b5a8cdb28c9c7b160", null ],

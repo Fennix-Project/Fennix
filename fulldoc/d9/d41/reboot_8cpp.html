@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/sysdeps/lyre/generic/reboot.cpp File Reference</title>
+<title>Fennix: Kernel/KernelShell/Commands/reboot.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -91,39 +91,45 @@ $(document).ready(function(){initNavTree('d9/d41/reboot_8cpp.html','../../'); in
 <div class="title">reboot.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;errno.h&gt;</code><br />
-<code>#include &lt;sys/reboot.h&gt;</code><br />
-<code>#include &lt;<a class="el" href="../../dc/dc5/ensure_8h_source.html">bits/ensure.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../db/d47/cmds_8hpp_source.html">../cmds.hpp</a>&quot;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d85/filesystem_8hpp_source.html">filesystem.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d8/da1/task_8hpp_source.html">task.hpp</a>&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../kernel.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d9/d41/reboot_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8679ed0ea253b98860862290f56f54a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d41/reboot_8cpp.html#a8679ed0ea253b98860862290f56f54a9">reboot</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> what)</td></tr>
-<tr class="separator:a8679ed0ea253b98860862290f56f54a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25128aab27a316601d7fe41d5b92d8dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d41/reboot_8cpp.html#a25128aab27a316601d7fe41d5b92d8dd">cmd_reboot</a> (const char *)</td></tr>
+<tr class="separator:a25128aab27a316601d7fe41d5b92d8dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8679ed0ea253b98860862290f56f54a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8679ed0ea253b98860862290f56f54a9">&#9670;&nbsp;</a></span>reboot()</h2>
+<a id="a25128aab27a316601d7fe41d5b92d8dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25128aab27a316601d7fe41d5b92d8dd">&#9670;&nbsp;</a></span>cmd_reboot()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> reboot </td>
+          <td class="memname">void cmd_reboot </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
-          <td class="paramname"><em>what</em></td><td>)</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/d41/reboot_8cpp_source.html#l00005">5</a> of file <a class="el" href="../../d9/d41/reboot_8cpp_source.html">reboot.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;                     {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/d41/reboot_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d9/d41/reboot_8cpp_source.html">reboot.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d0/daa/kernel_8h.html#a65e8d0c10ca585e174b6099e74fbc8b6">KernelShutdownThread</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../df/dbe/cpu_8hpp.html#a1723d109de3be441538d14f47f432120">CPU::Halt</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<div class="ttc" id="acpu_8hpp_html_a1723d109de3be441538d14f47f432120"><div class="ttname"><a href="../../df/dbe/cpu_8hpp.html#a1723d109de3be441538d14f47f432120">Halt</a></div><div class="ttdeci">static SafeFunction void Halt(bool Loop=false)</div><div class="ttdoc">Halt the CPU.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00177">cpu.hpp:177</a></div></div>
+<div class="ttc" id="akernel_8h_html_a65e8d0c10ca585e174b6099e74fbc8b6"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a65e8d0c10ca585e174b6099e74fbc8b6">KernelShutdownThread</a></div><div class="ttdeci">EXTERNC void KernelShutdownThread(bool Reboot)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d06/KernelThread_8cpp_source.html#l00561">KernelThread.cpp:561</a></div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00177">Halt()</a>, and <a class="el" href="../../dd/d06/KernelThread_8cpp_source.html#l00561">KernelShutdownThread()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -131,7 +137,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_3b486b33480e92669e5cfda602c54536.html">sysdeps</a></li><li class="navelem"><a class="el" href="../../dir_c3cd69ca89f9b43d9eacba3b584add29.html">lyre</a></li><li class="navelem"><a class="el" href="../../dir_c41904a02b04f21e270bf37d0467cfc2.html">generic</a></li><li class="navelem"><a class="el" href="../../d9/d41/reboot_8cpp.html">reboot.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_88ab6059d7314379aec44b69c6467aa4.html">KernelShell</a></li><li class="navelem"><a class="el" href="../../dir_105f589b55020470501771e09d5231da.html">Commands</a></li><li class="navelem"><a class="el" href="../../d9/d41/reboot_8cpp.html">reboot.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

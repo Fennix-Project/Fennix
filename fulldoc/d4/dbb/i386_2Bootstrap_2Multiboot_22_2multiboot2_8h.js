@@ -224,12 +224,12 @@ var i386_2Bootstrap_2Multiboot_22_2multiboot2_8h =
       [ "size", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#a83e0d3f690f3dfc07547112af1f3cd06", null ],
       [ "type", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#a12fa5ee88e4ebcfef0a42bbdf4608941", null ]
     ] ],
-    [ "multiboot_tag_framebuffer.__unnamed39__", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#d5/dbd/unionmultiboot__tag__framebuffer_8____unnamed39____", null ],
-    [ "multiboot_tag_framebuffer.__unnamed39__.__unnamed41__", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#df/d43/structmultiboot__tag__framebuffer_8____unnamed39_____8____unnamed41____", [
+    [ "multiboot_tag_framebuffer.__unnamed37__", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#d7/d6f/unionmultiboot__tag__framebuffer_8____unnamed37____", null ],
+    [ "multiboot_tag_framebuffer.__unnamed37__.__unnamed39__", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#d8/db4/structmultiboot__tag__framebuffer_8____unnamed37_____8____unnamed39____", [
       [ "framebuffer_palette", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#ac7df1fdfee327da3c205ba9086e4802a", null ],
       [ "framebuffer_palette_num_colors", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#a9ea6d9ae58149f37ee098ce870bf07f0", null ]
     ] ],
-    [ "multiboot_tag_framebuffer.__unnamed39__.__unnamed43__", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#de/dde/structmultiboot__tag__framebuffer_8____unnamed39_____8____unnamed43____", [
+    [ "multiboot_tag_framebuffer.__unnamed37__.__unnamed41__", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#da/db2/structmultiboot__tag__framebuffer_8____unnamed37_____8____unnamed41____", [
       [ "framebuffer_blue_field_position", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#ace107d23f7f4af6fd8d969926c5c9d16", null ],
       [ "framebuffer_blue_mask_size", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#aa8eaba7a0a6cf04509a014ac4bc937c0", null ],
       [ "framebuffer_green_field_position", "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html#adfcdecf04630d77ee5e41006f47dc4d7", null ],

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/options/ansi/generic/complex/ccosf.c File Reference</title>
+<title>Fennix: Userspace/musl/src/complex/ccosf.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -91,15 +91,13 @@ $(document).ready(function(){initNavTree('d8/dfc/ccosf_8c.html','../../'); initR
 <div class="title">ccosf.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d3b/complex_8h_source.html">complex.h</a>&gt;</code><br />
-<code>#include &lt;math.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../da/d0c/cephes__subrf_8h_source.html">cephes_subrf.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../dd/d6e/complex__impl_8h_source.html">complex_impl.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d8/dfc/ccosf_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a88df5eebfb10b88ed37e444f5b13fd6a"><td class="memItemLeft" align="right" valign="top">float <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfc/ccosf_8c.html#a88df5eebfb10b88ed37e444f5b13fd6a">ccosf</a> (float <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
+<tr class="memitem:a88df5eebfb10b88ed37e444f5b13fd6a"><td class="memItemLeft" align="right" valign="top">float <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfc/ccosf_8c.html#a88df5eebfb10b88ed37e444f5b13fd6a">ccosf</a> (float <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
 <tr class="separator:a88df5eebfb10b88ed37e444f5b13fd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,33 +108,25 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> ccosf </td>
+          <td class="memname">float <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> ccosf </td>
           <td>(</td>
-          <td class="paramtype">float <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
+          <td class="paramtype">float <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
           <td class="paramname"><em>z</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/dfc/ccosf_8c_source.html#l00040">40</a> of file <a class="el" href="../../d8/dfc/ccosf_8c_source.html">ccosf.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> w;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordtype">float</span> ch, sh;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../df/deb/cephes__subrf_8c.html#a2d08b8d53f545819f11d25ab88bf7b22">__mlibc_cchshf</a>(<a class="code" href="../../d8/dad/cimagf_8c.html#aac22dc2fffc4326595ff807d441f0675">cimagf</a>(z), &amp;ch, &amp;sh);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    w = <a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a7b126b2344591e649c21c9ab0b8adb40">cosf</a>(<a class="code" href="../../de/dc5/crealf_8c.html#ad052a3eb4d9f32153173e6bcea9e42ce">crealf</a>(z)) * ch - (<a class="code" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8a7dc2a88e109f4e15b661247665709a">sinf</a>(<a class="code" href="../../de/dc5/crealf_8c.html#ad052a3eb4d9f32153173e6bcea9e42ce">crealf</a>(z)) * sh) * <a class="code" href="../../da/db0/md5_8h.html#ae64a2adea9b5c7925d02e4755a1642b9">I</a>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">return</span> w;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_a7b126b2344591e649c21c9ab0b8adb40"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a7b126b2344591e649c21c9ab0b8adb40">cosf</a></div><div class="ttdeci">float cosf(float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d10/cosf_8c_source.html#l00026">cosf.c:26</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2math_8h_html_a8a7dc2a88e109f4e15b661247665709a"><div class="ttname"><a href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a8a7dc2a88e109f4e15b661247665709a">sinf</a></div><div class="ttdeci">float sinf(float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d03/sinf_8c_source.html#l00026">sinf.c:26</a></div></div>
-<div class="ttc" id="acephes__subrf_8c_html_a2d08b8d53f545819f11d25ab88bf7b22"><div class="ttname"><a href="../../df/deb/cephes__subrf_8c.html#a2d08b8d53f545819f11d25ab88bf7b22">__mlibc_cchshf</a></div><div class="ttdeci">void __mlibc_cchshf(float x, float *c, float *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/deb/cephes__subrf_8c_source.html#l00042">cephes_subrf.c:42</a></div></div>
-<div class="ttc" id="acimagf_8c_html_aac22dc2fffc4326595ff807d441f0675"><div class="ttname"><a href="../../d8/dad/cimagf_8c.html#aac22dc2fffc4326595ff807d441f0675">cimagf</a></div><div class="ttdeci">float cimagf(float complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dad/cimagf_8c_source.html#l00016">cimagf.c:16</a></div></div>
-<div class="ttc" id="acomplex_8h_html_a0fa4878c968311979d497ccc322e0b9b"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a></div><div class="ttdeci">#define complex</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00011">complex.h:11</a></div></div>
-<div class="ttc" id="acrealf_8c_html_ad052a3eb4d9f32153173e6bcea9e42ce"><div class="ttname"><a href="../../de/dc5/crealf_8c.html#ad052a3eb4d9f32153173e6bcea9e42ce">crealf</a></div><div class="ttdeci">float crealf(float complex z)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc5/crealf_8c_source.html#l00016">crealf.c:16</a></div></div>
-<div class="ttc" id="amd5_8h_html_ae64a2adea9b5c7925d02e4755a1642b9"><div class="ttname"><a href="../../da/db0/md5_8h.html#ae64a2adea9b5c7925d02e4755a1642b9">I</a></div><div class="ttdeci">uint32_t I(uint32_t X, uint32_t Y, uint32_t Z)</div></div>
+<p class="definition">Definition at line <a class="el" href="../../d8/dfc/ccosf_8c_source.html#l00003">3</a> of file <a class="el" href="../../d8/dfc/ccosf_8c_source.html">ccosf.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a68b30836f2bc851adbb64edefc656336">ccoshf</a>(<a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a>(-<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a6ffde693131d8b43e240be8652a677c5">cimagf</a>(z), <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a>(z)));</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
+<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2libm_8h_html_a58b69dd647c86d37f2d35dfd2d75b08d"><div class="ttname"><a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a></div><div class="ttdeci">#define CMPLXF(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00155">libm.h:155</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a61855cb5a4ec0a59dc95bb4d0970f010"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a></div><div class="ttdeci">#define crealf(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00109">complex.h:109</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a68b30836f2bc851adbb64edefc656336"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a68b30836f2bc851adbb64edefc656336">ccoshf</a></div><div class="ttdeci">float complex ccoshf(float complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d23/ccoshf_8c_source.html#l00035">ccoshf.c:35</a></div></div>
+<div class="ttc" id="amusl_2include_2complex_8h_html_a6ffde693131d8b43e240be8652a677c5"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a6ffde693131d8b43e240be8652a677c5">cimagf</a></div><div class="ttdeci">#define cimagf(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00113">complex.h:113</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/deb/cephes__subrf_8c_source.html#l00042">__mlibc_cchshf()</a>, <a class="el" href="../../d8/dad/cimagf_8c_source.html#l00016">cimagf()</a>, <a class="el" href="../../d7/d3b/complex_8h_source.html#l00011">complex</a>, <a class="el" href="../../de/d10/cosf_8c_source.html#l00026">cosf()</a>, <a class="el" href="../../de/dc5/crealf_8c_source.html#l00016">crealf()</a>, <a class="el" href="../../da/db0/md5_8h.html#ae64a2adea9b5c7925d02e4755a1642b9">I()</a>, and <a class="el" href="../../d0/d03/sinf_8c_source.html#l00026">sinf()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d23/ccoshf_8c_source.html#l00035">ccoshf()</a>, <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00113">cimagf</a>, <a class="el" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00155">CMPLXF</a>, and <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00109">crealf</a>.</p>
 
 </div>
 </div>
@@ -145,7 +135,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_9e2aac7ae95dd40287f9f0a14447c512.html">options</a></li><li class="navelem"><a class="el" href="../../dir_e178355fa75681e7481d0c1933f8ada2.html">ansi</a></li><li class="navelem"><a class="el" href="../../dir_05a9d8a20c64f169fc09acbdb0782630.html">generic</a></li><li class="navelem"><a class="el" href="../../dir_49dc252cc2d3469e406675e6dba1de05.html">complex</a></li><li class="navelem"><a class="el" href="../../d8/dfc/ccosf_8c.html">ccosf.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_47d7742199c8d53af1928dc9f4c4dff6.html">musl</a></li><li class="navelem"><a class="el" href="../../dir_288bda80f20c9f6b23f489e34d44fc5e.html">src</a></li><li class="navelem"><a class="el" href="../../dir_d4c78ba7ac40508bdb05e781ab57ffb9.html">complex</a></li><li class="navelem"><a class="el" href="../../d8/dfc/ccosf_8c.html">ccosf.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

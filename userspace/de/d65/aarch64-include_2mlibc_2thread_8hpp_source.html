@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('de/d65/aarch64-include_2mlibc_2thread_
 <div class="contents">
 <a href="../../de/d65/aarch64-include_2mlibc_2thread_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160; </div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/dd8/stdint_8h.html">stdint.h</a>&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/d1e/tcb_8hpp.html">mlibc/tcb.hpp</a>&gt;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d0/d9a/namespacemlibc.html">mlibc</a> {</div>
@@ -104,17 +104,17 @@ $(document).ready(function(){initNavTree('de/d65/aarch64-include_2mlibc_2thread_
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d0/d9a/namespacemlibc.html#a2e82d4eaf11de83082c4b575eb77eef5">   15</a></span>&#160;<span class="keyword">inline</span> <a class="code" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> <a class="code" href="../../d0/d9a/namespacemlibc.html#a2e82d4eaf11de83082c4b575eb77eef5">get_sp</a>() {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> sp;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">asm</span> (<span class="stringliteral">&quot;mov %0, sp&quot;</span> : <span class="stringliteral">&quot;=r&quot;</span>(sp));</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> sp;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> <a class="code" href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">asm</span> (<span class="stringliteral">&quot;mov %0, sp&quot;</span> : <span class="stringliteral">&quot;=r&quot;</span>(<a class="code" href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a>));</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a>;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;} <span class="comment">// namespace mlibc</span></div>
+<div class="ttc" id="abashgetopt_8c_html_a024603cda52d9847e8d8df3c2e884b8c"><div class="ttname"><a href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a></div><div class="ttdeci">static int sp</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/df1/bashgetopt_8c_source.html#l00039">bashgetopt.c:39</a></div></div>
 <div class="ttc" id="alibc_2include_2inttypes_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d4/df0/libc_2include_2inttypes_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df0/libc_2include_2inttypes_8h_source.html#l00032">inttypes.h:32</a></div></div>
 <div class="ttc" id="anamespacemlibc_html"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html">mlibc</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d82/environment_8cpp_source.html#l00109">environment.cpp:109</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a2e82d4eaf11de83082c4b575eb77eef5"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a2e82d4eaf11de83082c4b575eb77eef5">mlibc::get_sp</a></div><div class="ttdeci">uintptr_t get_sp()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d65/aarch64-include_2mlibc_2thread_8hpp_source.html#l00015">thread.hpp:15</a></div></div>
 <div class="ttc" id="anamespacemlibc_html_a565bc126d9b32c133207ad49c9598f4d"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a565bc126d9b32c133207ad49c9598f4d">mlibc::get_current_tcb</a></div><div class="ttdeci">Tcb * get_current_tcb()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d65/aarch64-include_2mlibc_2thread_8hpp_source.html#l00008">thread.hpp:8</a></div></div>
-<div class="ttc" id="astdint_8h_html"><div class="ttname"><a href="../../df/dd8/stdint_8h.html">stdint.h</a></div></div>
 <div class="ttc" id="atcb_8hpp_html"><div class="ttname"><a href="../../d7/d1e/tcb_8hpp.html">tcb.hpp</a></div></div>
 <div class="ttc" id="atcb_8hpp_html_d5/d87/structTcb"><div class="ttname"><a href="../../d7/d1e/tcb_8hpp.html#d5/d87/structTcb">Tcb</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1e/tcb_8hpp_source.html#l00082">tcb.hpp:82</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

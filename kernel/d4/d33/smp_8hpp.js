@@ -10,9 +10,7 @@ var smp_8hpp =
       [ "ErrorCode", "d4/d33/smp_8hpp.html#a590e51ea5f73b23f0a436857588c2e96", null ],
       [ "ID", "d4/d33/smp_8hpp.html#a90edc97d396a595dd1d29a76744ac738", null ],
       [ "IsActive", "d4/d33/smp_8hpp.html#a76db22a0f9d9bce50f8b711eaaf5cc41", null ],
-      [ "Stack", "d4/d33/smp_8hpp.html#a2244356397cf80cd78c046a2016e6847", null ],
-      [ "SystemCallStack", "d4/d33/smp_8hpp.html#a9bc9d1366d3f1b837fb2590e06a670fe", null ],
-      [ "TempStack", "d4/d33/smp_8hpp.html#ac44ad2f328f7ae457c16cd5c2bacfa7f", null ]
+      [ "Stack", "d4/d33/smp_8hpp.html#a2244356397cf80cd78c046a2016e6847", null ]
     ] ],
     [ "CPU_DATA_CHECKSUM", "d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1", null ],
     [ "MAX_CPU", "d4/d33/smp_8hpp.html#a163aa934e4e42ebaea98661d54c0af08", null ],
@@ -28,7 +26,5 @@ var smp_8hpp =
     [ "ErrorCode", "d4/d33/smp_8hpp.html#a8ec11ac6067b0e4293052a4a39e925f7", null ],
     [ "ID", "d4/d33/smp_8hpp.html#af180e926633cde08a05ccbc3af397ee4", null ],
     [ "IsActive", "d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379", null ],
-    [ "Stack", "d4/d33/smp_8hpp.html#a98988c09e59995d8f6a571039d35e3c8", null ],
-    [ "SystemCallStack", "d4/d33/smp_8hpp.html#ab5cdfc9d7d95e40909772d3a3090a9bd", null ],
-    [ "TempStack", "d4/d33/smp_8hpp.html#a3951ce0b49c913a3c77281c3b2b07ceb", null ]
+    [ "Stack", "d4/d33/smp_8hpp.html#a98988c09e59995d8f6a571039d35e3c8", null ]
 ];
