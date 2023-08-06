@@ -1,8 +1,8 @@
 var structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021 =
 [
     [ "Get", "d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html#a62238fa159134c380cc79c9f49132fec", null ],
-    [ "EAX", "d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html#ab0c5ce0b6ae21c27acfcaed8da007ea4", null ],
-    [ "EBX", "d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html#a17498cf83140b572b46bee1d05601e85", null ],
-    [ "ECX", "d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html#a4451d70d11f0935637009591ed5d79ce", null ],
-    [ "EDX", "d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html#aa863851ee5f6fd2633e0c82401844b1d", null ]
+    [ "EAX", "d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html#a7fd741b8b38be07a0e31d85c357ec721", null ],
+    [ "EBX", "d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html#aa89e131852a634b612f9c3d59b366b46", null ],
+    [ "ECX", "d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html#a9dc3608239140a9594f555abe10a4eaa", null ],
+    [ "EDX", "d1/db9/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000021.html#a1dfdcaa4b9777b4a5e38b4535e61ae70", null ]
 ];

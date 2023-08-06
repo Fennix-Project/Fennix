@@ -4,7 +4,7 @@ var ip__icmp_8h =
       [ "checksum", "dd/de8/ip__icmp_8h.html#a646ca3a419713963a900cf7a966cf7ae", null ],
       [ "code", "dd/de8/ip__icmp_8h.html#a95e15c8a254d6db2e2fab31b48b03433", null ],
       [ "type", "dd/de8/ip__icmp_8h.html#a70ae4477546c46f5d2ebb4d72e551223", null ],
-      [ "un", "dd/de8/ip__icmp_8h.html#a4e01d6cf21dff70aecb2688171547352", null ]
+      [ "un", "dd/de8/ip__icmp_8h.html#aeeef84cce9267145f2b65eb1dbea4578", null ]
     ] ],
     [ "icmp_ra_addr", "dd/de8/ip__icmp_8h.html#da/d99/structicmp__ra__addr", [
       [ "ira_addr", "dd/de8/ip__icmp_8h.html#a92b57d7a08ec46f2811db1b6aa8872e1", null ],
@@ -13,8 +13,8 @@ var ip__icmp_8h =
     [ "icmp", "dd/de8/ip__icmp_8h.html#d2/d9d/structicmp", [
       [ "icmp_cksum", "dd/de8/ip__icmp_8h.html#afa357099d7ea3ad6f80efb937d548345", null ],
       [ "icmp_code", "dd/de8/ip__icmp_8h.html#a26087109fdfcf2101c63e2f0264f33f3", null ],
-      [ "icmp_dun", "dd/de8/ip__icmp_8h.html#a33ce8b518ee0ca97b64b9cd4798d78e6", null ],
-      [ "icmp_hun", "dd/de8/ip__icmp_8h.html#aba4c86b1ac407a7864d4c9e6f85b8df9", null ],
+      [ "icmp_dun", "dd/de8/ip__icmp_8h.html#aca4bee3b0ba17063b6d2e2f0e17dafe3", null ],
+      [ "icmp_hun", "dd/de8/ip__icmp_8h.html#a445a2fb99ef709af8a27b016ea23da55", null ],
       [ "icmp_type", "dd/de8/ip__icmp_8h.html#a9732acbef10030eb1e84a6fed3058db3", null ]
     ] ],
     [ "icmphdr.un", "dd/de8/ip__icmp_8h.html#d6/d74/unionicmphdr_8un", [

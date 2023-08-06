@@ -249,5 +249,5 @@ var NAVTREEINDEX237 =
 "db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[10,0,1,3,3,6,2,0,35,0,8],
 "db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[10,0,1,3,0,6,24,0,8],
 "db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[10,0,1,3,3,8,1,0,35,0,8],
-"db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[10,0,1,4,0,6,0,22,0,8]
+"db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#a3b811ef0e5f0c3db1fa48b6c71564092":[10,0,1,4,0,2,0,23,0,8]
 };

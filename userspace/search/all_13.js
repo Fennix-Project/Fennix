@@ -3293,7 +3293,7 @@ var searchData=
   ['sort_5felement_27311',['sort_element',['../da/d68/asort_8c.html#a703d5a253747468b0cf30ceb587472a5',1,'sort_element():&#160;asort.c'],['../da/d68/asort_8c.html#d9/dab/structsort__element',1,'sort_element']]],
   ['sort_5findex_27312',['sort_index',['../da/d68/asort_8c.html#ae3159a0ec654a027cff41efec6b5c4e3',1,'asort.c']]],
   ['sort_5finplace_27313',['sort_inplace',['../da/d68/asort_8c.html#acd4a74714ea90e966d9f19929196c9c8',1,'asort.c']]],
-  ['sort_5flist_27314',['sort_list',['../db/d80/musl_2include_2resolv_8h.html#a79a78fc9f86e3e4c9407fcaba95f1759',1,'__res_state']]],
+  ['sort_5flist_27314',['sort_list',['../db/d80/musl_2include_2resolv_8h.html#a3191b9ac48badabb511a733b42cd695b',1,'__res_state']]],
   ['sort_5fvariables_27315',['sort_variables',['../d5/de8/variables_8c.html#a442efbe36fcb6a7afdd5e3599ad26585',1,'variables.c']]],
   ['sortkey_27316',['sortkey',['../dd/d45/lookup_8h.html#ab39bf9c0ac8930ef08364b1d9cb73c9a',1,'address']]],
   ['sound_27317',['SOUND',['../d4/d8b/sounds_8c.html#a416a35d5a1bfeab883df0b878c7187b6',1,'sounds.c']]],

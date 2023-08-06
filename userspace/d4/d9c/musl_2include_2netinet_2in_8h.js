@@ -21,7 +21,7 @@ var musl_2include_2netinet_2in_8h =
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a084acf52320ecc3262e20ce2f21de6a7", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a4b845bbed91f6c411e201ca6466f0cec", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a0c071ac753abc90a533705d23427eff0", null ],
-      [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a3e339a6f14532dd68482b5890ab2fbb4", null ]
+      [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a0b238c28a823ae010050275d41e0fafa", null ]
     ] ],
     [ "sockaddr_in6", "d4/d9c/musl_2include_2netinet_2in_8h.html#d0/d26/structsockaddr__in6", [
       [ "sin6_addr", "d4/d9c/musl_2include_2netinet_2in_8h.html#a219e7f3ecd6d7dcf8fc2465475be490f", null ],

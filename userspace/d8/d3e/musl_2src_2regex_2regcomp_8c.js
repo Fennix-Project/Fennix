@@ -179,6 +179,6 @@ var musl_2src_2regex_2regcomp_8c =
     [ "tre_stack_new", "d8/d3e/musl_2src_2regex_2regcomp_8c.html#a714bb9af38c3d18cbef8bf09196ffcf9", null ],
     [ "tre_stack_num_objects", "d8/d3e/musl_2src_2regex_2regcomp_8c.html#a20cc7e9c59bccd2040fe8c1b941ddf2b", null ],
     [ "tre_stack_push", "d8/d3e/musl_2src_2regex_2regcomp_8c.html#a46f6302c4c440158a334ebb7be9d35ab", null ],
-    [ "tre_macros", "d8/d3e/musl_2src_2regex_2regcomp_8c.html#a0575458be5d6eaf33d2b83ab7b2d829a", null ],
+    [ "tre_macros", "d8/d3e/musl_2src_2regex_2regcomp_8c.html#a81e98adf915f2574328c5bc3b91da628", null ],
     [ "tre_parse_ctx_t", "d8/d3e/musl_2src_2regex_2regcomp_8c.html#a15b75d8c88e55a8b2d731afcad3e498b", null ]
 ];

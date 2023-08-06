@@ -114,7 +114,7 @@ var searchData=
   ['spawntime_10882',['SpawnTime',['../d9/d3e/namespaceTasking.html#a95a4c55b1816d16d967879f6734ea06f',1,'Tasking::TaskInfo']]],
   ['special_10883',['Special',['../d5/d83/namespaceGigabit.html#abbe14fb1e96435e7fb043bde077d9f88',1,'Gigabit::RXDescriptor::Special()'],['../d9/d4e/gigabit_8hpp.html#a16a7e9c966c3e276c96d36278a7b460f',1,'Special():&#160;gigabit.hpp'],['../d5/d83/namespaceGigabit.html#a70d0474b3d5c308563e48893d6eb31a1',1,'Gigabit::TXDescriptor::Special()']]],
   ['speed_10884',['Speed',['../d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0da2f041de440fe5db2756f3a9a9fef8',1,'SMBIOS::SMBIOSMemoryDevice']]],
-  ['split_10885',['split',['../d3/d88/namespaceAPIC.html#ac0a7c3e3fca24f7ba480fd6b9a12f56c',1,'APIC::__packed::split()'],['../d3/d88/namespaceAPIC.html#a9bb8a0b1a630cdaca28908352e0b0a27',1,'APIC::__packed::split()']]],
+  ['split_10885',['split',['../d3/d88/namespaceAPIC.html#ac0a7c3e3fca24f7ba480fd6b9a12f56c',1,'APIC::__packed::split()'],['../d3/d88/namespaceAPIC.html#a9007bf05cac10457c3ca017c6028e1ee',1,'APIC::__packed::split()']]],
   ['sprintf_10886',['sprintf',['../d5/de3/structKernelAPI_1_1KAPIUtilities.html#a2f220f805307c1dcf9baef2ea8dd3033',1,'KernelAPI::KAPIUtilities::sprintf()'],['../d2/d58/structKAPIUtilities.html#ad421c573f3326f4ce2d8d7322ff7abfc',1,'KAPIUtilities::sprintf()']]],
   ['spsr_5fel1_10887',['spsr_el1',['../dc/dce/namespaceaarch64.html#ab471758b41b88fb7020d39f0ea1705da',1,'aarch64::TrapFrame']]],
   ['srat_10888',['SRAT',['../d3/d21/classACPI_1_1ACPI.html#a4e025eb63dabbf16c1319ca94523e5b1',1,'ACPI::ACPI']]],

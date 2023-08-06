@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x86simdtype_58908',['x86SIMDType',['../d7/dfa/namespaceCPU.html#a9b7152a6891aa829fafb5d7cdc3c31c9',1,'CPU']]]
+  ['x86simdtype_58907',['x86SIMDType',['../d7/dfa/namespaceCPU.html#a9b7152a6891aa829fafb5d7cdc3c31c9',1,'CPU']]]
 ];

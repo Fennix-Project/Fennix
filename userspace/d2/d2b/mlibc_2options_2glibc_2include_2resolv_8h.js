@@ -3,7 +3,7 @@ var mlibc_2options_2glibc_2include_2resolv_8h =
     [ "__res_state", "db/d80/musl_2include_2resolv_8h.html#dd/d38/struct____res__state", [
       [ "_flags", "db/d80/musl_2include_2resolv_8h.html#a11f211a754e2200b76dc11e397e45ce7", null ],
       [ "_u", "db/d80/musl_2include_2resolv_8h.html#a6ea9e701783162a6d553dd83ef74b6ca", null ],
-      [ "_u", "db/d80/musl_2include_2resolv_8h.html#a4f4da095034f90043575afbd77853ce0", null ],
+      [ "_u", "db/d80/musl_2include_2resolv_8h.html#adc14bcc6446a77fb7005fbba29071976", null ],
       [ "_vcsock", "db/d80/musl_2include_2resolv_8h.html#a43b32ad6f4fe95ffb2c0336e4963db72", null ],
       [ "defdname", "db/d80/musl_2include_2resolv_8h.html#a53820c59536f93a12875adae932d5ce4", null ],
       [ "dnsrch", "db/d80/musl_2include_2resolv_8h.html#a3fa1124ba3a057358394eebf06574481", null ],
@@ -20,7 +20,7 @@ var mlibc_2options_2glibc_2include_2resolv_8h =
       [ "retrans", "db/d80/musl_2include_2resolv_8h.html#a14bf3b4153fa1aad7310fc49dd7d9b51", null ],
       [ "retry", "db/d80/musl_2include_2resolv_8h.html#a1d3b0ec428b1232680fd5ef5634ade16", null ],
       [ "rhook", "db/d80/musl_2include_2resolv_8h.html#afcbf46270d369d0b6ebd347bd3bf7a07", null ],
-      [ "sort_list", "db/d80/musl_2include_2resolv_8h.html#a79a78fc9f86e3e4c9407fcaba95f1759", null ],
+      [ "sort_list", "db/d80/musl_2include_2resolv_8h.html#a3191b9ac48badabb511a733b42cd695b", null ],
       [ "unused", "db/d80/musl_2include_2resolv_8h.html#a610d012c92e68215434fe501bbbb928f", null ]
     ] ],
     [ "__res_state._u", "db/d80/musl_2include_2resolv_8h.html#d3/d8a/union____res__state_8__u", [

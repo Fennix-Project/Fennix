@@ -71,7 +71,7 @@ var searchData=
   ['gametic_9930',['gametic',['../d5/da0/d__loop_8c.html#a99ef31dc1922e3747a8af3b87c13cb04',1,'gametic():&#160;d_loop.c'],['../d7/d0d/d__loop_8h.html#a99ef31dc1922e3747a8af3b87c13cb04',1,'gametic():&#160;d_loop.c']]],
   ['gameversion_9931',['gameversion',['../d1/d3f/net__defs_8h.html#a84fea87c5d478f818d4d03b0c79896f3',1,'net_gamesettings_t::gameversion()'],['../dc/d10/doomstat_8c.html#a251f624c2720465cab9eb8b55dad6132',1,'gameversion():&#160;doomstat.c'],['../d2/dce/doomstat_8h.html#a251f624c2720465cab9eb8b55dad6132',1,'gameversion():&#160;doomstat.c']]],
   ['gameversion_5ft_9932',['GameVersion_t',['../d7/d68/d__mode_8h.html#a51bdd0c44e21280e246ce44d0583f11f',1,'d_mode.h']]],
-  ['gameversions_9933',['gameversions',['../d2/dc6/d__main_8c.html#a27e8475fef5eca3d075add8ec3cb4a6e',1,'d_main.c']]],
+  ['gameversions_9933',['gameversions',['../d2/dc6/d__main_8c.html#a65ccd5208fe58daf7fd8bb2c07a21b3d',1,'d_main.c']]],
   ['gammalvl0_9934',['GAMMALVL0',['../df/d38/d__englsh_8h.html#aec7e14ebfbc658d287ba0d34b22e5563',1,'d_englsh.h']]],
   ['gammalvl1_9935',['GAMMALVL1',['../df/d38/d__englsh_8h.html#a5f1dc4e0b6e3ad89151acda565e97c00',1,'d_englsh.h']]],
   ['gammalvl2_9936',['GAMMALVL2',['../df/d38/d__englsh_8h.html#ae1b261e825b4c400c5ee4320558f9d3b',1,'d_englsh.h']]],

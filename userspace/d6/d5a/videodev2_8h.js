@@ -135,7 +135,7 @@ var videodev2_8h =
       [ "dataformat", "d6/d5a/videodev2_8h.html#ada348e69b87065ebbebef5bcc030b79e", null ]
     ] ],
     [ "v4l2_format", "d6/d5a/videodev2_8h.html#df/dd0/structv4l2__format", [
-      [ "fmt", "d6/d5a/videodev2_8h.html#aaf7238265a4b2b0ca4eb33dea354b5eb", null ],
+      [ "fmt", "d6/d5a/videodev2_8h.html#a20dc79e8fb17fbadd8981808e03803c7", null ],
       [ "type", "d6/d5a/videodev2_8h.html#aae4abd0e6845aa8820b40cc922c0aab0", null ]
     ] ],
     [ "v4l2_frmsizeenum.__unnamed120__", "d6/d5a/videodev2_8h.html#db/d18/unionv4l2__frmsizeenum_8____unnamed120____", [
@@ -150,7 +150,7 @@ var videodev2_8h =
       [ "hsv_enc", "d6/d5a/videodev2_8h.html#a972b2506f345c55a1babcefc5d0be05c", null ],
       [ "ycbcr_enc", "d6/d5a/videodev2_8h.html#a4f4ed85b7964c6df93ac4a2206fa4fe6", null ]
     ] ],
-    [ "v4l2_pix_format_mplane.__unnamed127__", "d6/d5a/videodev2_8h.html#d1/d26/unionv4l2__pix__format__mplane_8____unnamed127____", [
+    [ "v4l2_pix_format_mplane.__unnamed126__", "d6/d5a/videodev2_8h.html#d4/d07/unionv4l2__pix__format__mplane_8____unnamed126____", [
       [ "hsv_enc", "d6/d5a/videodev2_8h.html#a972b2506f345c55a1babcefc5d0be05c", null ],
       [ "ycbcr_enc", "d6/d5a/videodev2_8h.html#a4f4ed85b7964c6df93ac4a2206fa4fe6", null ]
     ] ],

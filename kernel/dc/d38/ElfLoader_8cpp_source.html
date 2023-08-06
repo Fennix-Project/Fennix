@@ -279,9 +279,9 @@ $(document).ready(function(){initNavTree('dc/d38/ElfLoader_8cpp_source.html','..
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="comment">// AT_RANDOM 25</span></div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <span class="comment">// AT_SECURE 23</span></div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a687680c9f0b9bbabf6619f0aa5116580">AT_EGID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}}); <span class="comment">/* FIXME */</span></div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a38d3d729013f2b2c5f51f90b0005e85d">AT_GID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}}); <span class="comment">/* FIXME */</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a38d3d729013f2b2c5f51f90b0005e85d">AT_GID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}});  <span class="comment">/* FIXME */</span></div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a22b81b71265e55a9e11e0b95d4118050">AT_EUID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}}); <span class="comment">/* FIXME */</span></div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a7bc508a179d0a308a8e4b47b97bcf2a3">AT_UID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}}); <span class="comment">/* FIXME */</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a7bc508a179d0a308a8e4b47b97bcf2a3">AT_UID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}});  <span class="comment">/* FIXME */</span></div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a80f2ea99241a6afdc4718d3c4318c871">AT_ENTRY</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">EntryPoint</a>}}});</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="comment">// AT_FLAGS 8</span></div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a9b8e51a44a47d7ea827c570ffdca14e5">AT_BASE</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)BaseAddress}}});</div>
@@ -483,403 +483,415 @@ $(document).ready(function(){initNavTree('dc/d38/ElfLoader_8cpp_source.html','..
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <a class="code" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> PltGotSize = PltGot.size();</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160; </div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        <span class="keywordflow">if</span> (JmpRelSize &lt; 1)</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;No DT_JMPREL&quot;</span>);</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160; </div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="keywordflow">if</span> (SymTabSize &lt; 1)</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;No DT_SYMTAB&quot;</span>);</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160; </div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        <span class="keywordflow">if</span> (StrTabSize &lt; 1)</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;No DT_STRTAB&quot;</span>);</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160; </div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <span class="keywordflow">if</span> (RelaDynSize_v &lt; 1)</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;No DT_RELA&quot;</span>);</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160; </div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        <span class="keywordflow">if</span> (RelaDynSize[0].d_un.d_val &lt; 1)</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;DT_RELASZ is &lt; 1&quot;</span>);</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        {</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;No DT_JMPREL&quot;</span>);</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        }</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160; </div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        <span class="keywordflow">if</span> (SymTabSize &lt; 1)</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        {</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;No DT_SYMTAB&quot;</span>);</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        }</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160; </div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        <span class="keywordflow">if</span> (StrTabSize &lt; 1)</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        {</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;No DT_STRTAB&quot;</span>);</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        }</div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160; </div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        <span class="keywordflow">if</span> (PltGotSize &lt; 1)</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;No DT_PLTGOT&quot;</span>);</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160; </div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <span class="keywordflow">if</span> (JmpRelSize &gt; 0 &amp;&amp; SymTabSize &gt; 0 &amp;&amp; StrTabSize &gt; 0)</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        {</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;JmpRel: %#lx, SymTab: %#lx, StrTab: %#lx&quot;</span>,</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;                  JmpRel[0].d_un.d_ptr, SymTab[0].d_un.d_ptr, StrTab[0].d_un.d_ptr);</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160; </div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;            <a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *_JmpRel = (<a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)BaseAddress + JmpRel[0].d_un.d_ptr);</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;            <a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> *_SymTab = (<a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)BaseAddress + SymTab[0].d_un.d_ptr);</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;            <span class="keywordtype">char</span> *_DynStr = (<span class="keywordtype">char</span> *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)BaseAddress + StrTab[0].d_un.d_ptr);</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;            <a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *_RelaDyn = (<a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)BaseAddress + RelaDyn[0].d_un.d_ptr);</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160; </div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            <a class="code" href="../../d1/d9e/elf_8h.html#d3/d22/structelf64__shdr">Elf64_Shdr</a> *gotSection = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;            <a class="code" href="../../d1/d9e/elf_8h.html#d3/d22/structelf64__shdr">Elf64_Shdr</a> shdr;</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="../../d1/d9e/elf_8h.html#adb6a5584018b431da3472e7c6a7fd731">Elf64_Half</a> i = 0; i &lt; ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a43fa0c51b15fb5acca4fa91275da8154">e_shnum</a>; i++)</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;            {</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;                <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a>(fd, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#adbf80ace75d46820117f58618b5f2870">e_shoff</a> + i * <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#d3/d22/structelf64__shdr">Elf64_Shdr</a>), <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;                <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a59e6d0024b412f266839f22638916254">fread</a>(fd, (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)&amp;shdr, <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#d3/d22/structelf64__shdr">Elf64_Shdr</a>));</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;                <span class="keywordflow">if</span> (shdr.sh_type == <a class="code" href="../../d1/d9e/elf_8h.html#ac66207c7e7e0fab7248858c17aa1b194a1aba15f822554d4f8e031628b5a4657d">SHT_PROGBITS</a> &amp;&amp;</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;                    (shdr.sh_flags &amp; <a class="code" href="../../d1/d9e/elf_8h.html#a025c79223b0fee4676337d660f76b59b">SHF_WRITE</a>) &amp;&amp;</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;                    (shdr.sh_flags &amp; <a class="code" href="../../d1/d9e/elf_8h.html#a38476fe4ed88ac83ba86a4e103199a86">SHF_ALLOC</a>))</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;                {</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;                    gotSection = <span class="keyword">new</span> <a class="code" href="../../d1/d9e/elf_8h.html#ae1c4a562108c5d4dbccc19966145a77f">Elf64_Shdr</a>;</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;                    *gotSection = shdr;</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Found GOT section&quot;</span>);</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;                }</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;            }</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160; </div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;            <span class="keywordflow">if</span> (gotSection)</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;            {</div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;                <span class="comment">// .rela.plt</span></div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;                <span class="comment">// R_X86_64_JUMP_SLOT</span></div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;                <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> numEntries = gotSection-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a1e9054001e3e7d1284d051ad1291e4a4">sh_size</a> / <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>);</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;                <span class="keywordflow">for</span> (<a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> i = 0; i &lt; numEntries; i++)</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;                {</div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *)(gotSection-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a95fc1d39362f66104c1b66d63ba85a34">sh_addr</a> + BaseAddress + i * <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>));</div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> GOTEntryValue = *GOTEntry;</div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160; </div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;                    <span class="keywordflow">if</span> (GOTEntryValue == 0)</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;                        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160; </div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *Rel = _JmpRel + i;</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> RelType = <a class="code" href="../../d1/d9e/elf_8h.html#a51aeadee885873fec9a218c058fe9e09">ELF64_R_TYPE</a>(Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>);</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160; </div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;                    <span class="keywordflow">switch</span> (RelType)</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;                    {</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a49c53c5dd8ff90ceb3dad1484397ef16ac7ca451ce423a4390d4057317c0446ff">R_X86_64_JUMP_SLOT</a>:</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;                    {</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;                        <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> SymIndex = <a class="code" href="../../d1/d9e/elf_8h.html#ab8a1253bfcc928f9aa9d4177d84f6830">ELF64_R_SYM</a>(Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>);</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;                        <a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> *Sym = _SymTab + SymIndex;</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160; </div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;                        <span class="keywordflow">if</span> (Sym-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a5db6c4acfde404ba93d5f6de48c2b330">st_name</a>)</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;                        {</div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;                            <span class="keywordtype">char</span> *SymName = _DynStr + Sym-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a5db6c4acfde404ba93d5f6de48c2b330">st_name</a>;</div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;                            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;SymName: %s&quot;</span>, SymName);</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        <span class="keywordflow">if</span> (RelaDynSize_v &lt; 1)</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        {</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;No DT_RELA&quot;</span>);</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        }</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160; </div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        <span class="keywordflow">if</span> (RelaDynSize[0].d_un.d_val &lt; 1)</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        {</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;DT_RELASZ is &lt; 1&quot;</span>);</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        }</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160; </div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        <span class="keywordflow">if</span> (PltGotSize &lt; 1)</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        {</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;No DT_PLTGOT&quot;</span>);</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        }</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160; </div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        <span class="keywordflow">if</span> (JmpRelSize &gt; 0 &amp;&amp; SymTabSize &gt; 0 &amp;&amp; StrTabSize &gt; 0)</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        {</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;JmpRel: %#lx, SymTab: %#lx, StrTab: %#lx&quot;</span>,</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;                  JmpRel[0].d_un.d_ptr, SymTab[0].d_un.d_ptr, StrTab[0].d_un.d_ptr);</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160; </div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;            <a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *_JmpRel = (<a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)BaseAddress + JmpRel[0].d_un.d_ptr);</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;            <a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> *_SymTab = (<a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)BaseAddress + SymTab[0].d_un.d_ptr);</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;            <span class="keywordtype">char</span> *_DynStr = (<span class="keywordtype">char</span> *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)BaseAddress + StrTab[0].d_un.d_ptr);</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;            <a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *_RelaDyn = (<a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)BaseAddress + RelaDyn[0].d_un.d_ptr);</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160; </div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;            <a class="code" href="../../d1/d9e/elf_8h.html#d3/d22/structelf64__shdr">Elf64_Shdr</a> *gotSection = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;            <a class="code" href="../../d1/d9e/elf_8h.html#d3/d22/structelf64__shdr">Elf64_Shdr</a> shdr;</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="../../d1/d9e/elf_8h.html#adb6a5584018b431da3472e7c6a7fd731">Elf64_Half</a> i = 0; i &lt; ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a43fa0c51b15fb5acca4fa91275da8154">e_shnum</a>; i++)</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;            {</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;                <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a>(fd, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#adbf80ace75d46820117f58618b5f2870">e_shoff</a> + i * <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#d3/d22/structelf64__shdr">Elf64_Shdr</a>), <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;                <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a59e6d0024b412f266839f22638916254">fread</a>(fd, (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)&amp;shdr, <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#d3/d22/structelf64__shdr">Elf64_Shdr</a>));</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;                <span class="keywordflow">if</span> (shdr.sh_type == <a class="code" href="../../d1/d9e/elf_8h.html#ac66207c7e7e0fab7248858c17aa1b194a1aba15f822554d4f8e031628b5a4657d">SHT_PROGBITS</a> &amp;&amp;</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;                    (shdr.sh_flags &amp; <a class="code" href="../../d1/d9e/elf_8h.html#a025c79223b0fee4676337d660f76b59b">SHF_WRITE</a>) &amp;&amp;</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;                    (shdr.sh_flags &amp; <a class="code" href="../../d1/d9e/elf_8h.html#a38476fe4ed88ac83ba86a4e103199a86">SHF_ALLOC</a>))</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;                {</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;                    gotSection = <span class="keyword">new</span> <a class="code" href="../../d1/d9e/elf_8h.html#ae1c4a562108c5d4dbccc19966145a77f">Elf64_Shdr</a>;</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;                    *gotSection = shdr;</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Found GOT section&quot;</span>);</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;                }</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;            }</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160; </div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;            <span class="keywordflow">if</span> (gotSection)</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;            {</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;                <span class="comment">// .rela.plt</span></div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;                <span class="comment">// R_X86_64_JUMP_SLOT</span></div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;                <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> numEntries = gotSection-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a1e9054001e3e7d1284d051ad1291e4a4">sh_size</a> / <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>);</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;                <span class="keywordflow">for</span> (<a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> i = 0; i &lt; numEntries; i++)</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;                {</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *)(gotSection-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a95fc1d39362f66104c1b66d63ba85a34">sh_addr</a> + BaseAddress + i * <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>));</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> GOTEntryValue = *GOTEntry;</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160; </div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;                    <span class="keywordflow">if</span> (GOTEntryValue == 0)</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160; </div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *Rel = _JmpRel + i;</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> RelType = <a class="code" href="../../d1/d9e/elf_8h.html#a51aeadee885873fec9a218c058fe9e09">ELF64_R_TYPE</a>(Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>);</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160; </div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;                            <a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> LibSym = <a class="code" href="../../d5/d27/namespaceExecute.html#a660cd5854fd95bf599775f39f0f99966">ELFLookupSymbol</a>(fd, SymName);</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;                            <span class="keywordflow">if</span> (LibSym.<a class="code" href="../../d1/d9e/elf_8h.html#ade472d8a7be87eb8feaba4b40ae31aee">st_value</a>)</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;                            {</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;                                *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>)(BaseAddress + LibSym.<a class="code" href="../../d1/d9e/elf_8h.html#ade472d8a7be87eb8feaba4b40ae31aee">st_value</a>);</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;                                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;GOT[%ld](%#lx): %#lx&quot;</span>,</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;                                      i, <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(GOTEntry) - BaseAddress,</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;                                      *GOTEntry);</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;                            }</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;                        }</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;                        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;                    }</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;                    <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                    {</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;                        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Unhandled relocation type: %#lx&quot;</span>, RelType);</div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;                        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;                    }</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                    }</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;                }</div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160; </div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;                <span class="comment">// .rela.dyn</span></div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;                <span class="comment">// R_X86_64_RELATIVE</span></div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                <span class="comment">// R_X86_64_GLOB_DAT</span></div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;                <span class="keywordflow">if</span> (RelaDynSize_v &gt; 0 &amp;&amp; RelaDynSize[0].d_un.d_val &gt; 0)</div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                {</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> numRelaDynEntries = RelaDynSize[0].d_un.d_val / <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a>);</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;                    <span class="keywordflow">for</span> (<a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> i = 0; i &lt; numRelaDynEntries; i++)</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;                    {</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;                        <a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *Rel = _RelaDyn + i;</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;                        <a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *)(Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a9ea7e07ec6e0d57bf4bcd53b89de7948">r_offset</a> + BaseAddress);</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;                        <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> RelType = <a class="code" href="../../d1/d9e/elf_8h.html#a51aeadee885873fec9a218c058fe9e09">ELF64_R_TYPE</a>(Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>);</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;                    <span class="keywordflow">switch</span> (RelType)</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;                    {</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a49c53c5dd8ff90ceb3dad1484397ef16ac7ca451ce423a4390d4057317c0446ff">R_X86_64_JUMP_SLOT</a>:</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;                    {</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;                        <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> SymIndex = <a class="code" href="../../d1/d9e/elf_8h.html#ab8a1253bfcc928f9aa9d4177d84f6830">ELF64_R_SYM</a>(Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>);</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;                        <a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> *Sym = _SymTab + SymIndex;</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160; </div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;                        <span class="keywordflow">if</span> (Sym-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a5db6c4acfde404ba93d5f6de48c2b330">st_name</a>)</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;                        {</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;                            <span class="keywordtype">char</span> *SymName = _DynStr + Sym-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a5db6c4acfde404ba93d5f6de48c2b330">st_name</a>;</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;                            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;SymName: %s&quot;</span>, SymName);</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160; </div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                            <a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> LibSym = <a class="code" href="../../d5/d27/namespaceExecute.html#a660cd5854fd95bf599775f39f0f99966">ELFLookupSymbol</a>(fd, SymName);</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;                            <span class="keywordflow">if</span> (LibSym.<a class="code" href="../../d1/d9e/elf_8h.html#ade472d8a7be87eb8feaba4b40ae31aee">st_value</a>)</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;                            {</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;                                *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>)(BaseAddress + LibSym.<a class="code" href="../../d1/d9e/elf_8h.html#ade472d8a7be87eb8feaba4b40ae31aee">st_value</a>);</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;GOT[%ld](%#lx): %#lx&quot;</span>,</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;                                      i, <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(GOTEntry) - BaseAddress,</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;                                      *GOTEntry);</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;                            }</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;                        }</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;                    }</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                    <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                    {</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;                        <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Unhandled relocation type: %#lx&quot;</span>, RelType);</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;                    }</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;                    }</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;                }</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160; </div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                        <span class="keywordflow">switch</span> (RelType)</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;                        {</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;                        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a49c53c5dd8ff90ceb3dad1484397ef16a09422b813688f2ab0d77d62440b2886b">R_X86_64_RELATIVE</a>:</div>
-<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;                        {</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;                            *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>)(BaseAddress + Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a04358b55027a7dcc414e221d916aac64">r_addend</a>);</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;                            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;GOT[%ld](%#lx): %#lx (R_X86_64_RELATIVE)&quot;</span>,</div>
-<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;                                  i, <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(GOTEntry) - BaseAddress,</div>
-<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;                                  *GOTEntry);</div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;                            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;                        }</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;                        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a49c53c5dd8ff90ceb3dad1484397ef16a27547191777bbd35f02a0a7e4ddbdc9a">R_X86_64_GLOB_DAT</a>:</div>
-<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;                        {</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;                            <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> SymIndex = <a class="code" href="../../d1/d9e/elf_8h.html#ab8a1253bfcc928f9aa9d4177d84f6830">ELF64_R_SYM</a>(Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>);</div>
-<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;                            <a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> *Sym = _SymTab + SymIndex;</div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160; </div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;                            <span class="keywordflow">if</span> (Sym-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a5db6c4acfde404ba93d5f6de48c2b330">st_name</a>)</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;                            {</div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;                                <span class="keywordtype">char</span> *SymName = _DynStr + Sym-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a5db6c4acfde404ba93d5f6de48c2b330">st_name</a>;</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;                                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;SymName: %s&quot;</span>, SymName);</div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160; </div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;                                <a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> LibSym = <a class="code" href="../../d5/d27/namespaceExecute.html#a660cd5854fd95bf599775f39f0f99966">ELFLookupSymbol</a>(fd, SymName);</div>
-<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;                                <span class="keywordflow">if</span> (LibSym.<a class="code" href="../../d1/d9e/elf_8h.html#ade472d8a7be87eb8feaba4b40ae31aee">st_value</a>)</div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;                                {</div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;                                    *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>)(BaseAddress + LibSym.<a class="code" href="../../d1/d9e/elf_8h.html#ade472d8a7be87eb8feaba4b40ae31aee">st_value</a>);</div>
-<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;                                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;GOT[%ld](%#lx): %#lx (R_X86_64_GLOB_DAT)&quot;</span>,</div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;                                          i, <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(GOTEntry) - BaseAddress,</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;                                          *GOTEntry);</div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;                                }</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;                            }</div>
-<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;                            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;                        }</div>
-<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;                        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;                        {</div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;                            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Unhandled relocation type: %#lx&quot;</span>, RelType);</div>
-<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;                            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;                        }</div>
-<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;                        }</div>
-<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;                    }</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;                }</div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160; </div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;                <span class="comment">// _GLOBAL_OFFSET_TABLE_</span></div>
-<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;                <span class="keywordflow">if</span> (PltGotSize &gt; 0)</div>
-<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;                {</div>
-<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> got = PltGot[0];</div>
-<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *)(got.<a class="code" href="../../d1/d9e/elf_8h.html#a4f31f680ca10e8b2179e4cb90e21e8a5">d_un</a>.d_ptr + BaseAddress);</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;                    <span class="comment">// *GOTEntry = (Elf64_Addr)(BaseAddress + PltGot[0].d_un.d_val);</span></div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160; </div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;                    std::vector&lt;Elf64_Phdr&gt; DYNAMICPhdrs = <a class="code" href="../../d5/d27/namespaceExecute.html#a7f4667b7d5f0a5dea5a52b5fe6a1da90">ELFGetSymbolType_x86_64</a>(fd, <a class="code" href="../../d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2adb5972d68614ececce857a4a0e59eb73">PT_DYNAMIC</a>);</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;                    <span class="keywordflow">if</span> (DYNAMICPhdrs.size() &gt; 0)</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;                        *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>)(BaseAddress + DYNAMICPhdrs[0].p_vaddr);</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                <span class="comment">// .rela.dyn</span></div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;                <span class="comment">// R_X86_64_RELATIVE</span></div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;                <span class="comment">// R_X86_64_GLOB_DAT</span></div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;                <span class="keywordflow">if</span> (RelaDynSize_v &gt; 0 &amp;&amp; RelaDynSize[0].d_un.d_val &gt; 0)</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;                {</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> numRelaDynEntries = RelaDynSize[0].d_un.d_val / <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a>);</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;                    <span class="keywordflow">for</span> (<a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> i = 0; i &lt; numRelaDynEntries; i++)</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;                    {</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;                        <a class="code" href="../../d1/d9e/elf_8h.html#d7/dc1/structElf64__Rela">Elf64_Rela</a> *Rel = _RelaDyn + i;</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;                        <a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *)(Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a9ea7e07ec6e0d57bf4bcd53b89de7948">r_offset</a> + BaseAddress);</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;                        <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> RelType = <a class="code" href="../../d1/d9e/elf_8h.html#a51aeadee885873fec9a218c058fe9e09">ELF64_R_TYPE</a>(Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>);</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160; </div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;                        <span class="keywordflow">switch</span> (RelType)</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;                        {</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;                        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a49c53c5dd8ff90ceb3dad1484397ef16a09422b813688f2ab0d77d62440b2886b">R_X86_64_RELATIVE</a>:</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;                        {</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;                            *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>)(BaseAddress + Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a04358b55027a7dcc414e221d916aac64">r_addend</a>);</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;                            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;GOT[%ld](%#lx): %#lx (R_X86_64_RELATIVE)&quot;</span>,</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;                                  i, <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(GOTEntry) - BaseAddress,</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;                                  *GOTEntry);</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;                            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;                        }</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;                        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a49c53c5dd8ff90ceb3dad1484397ef16a27547191777bbd35f02a0a7e4ddbdc9a">R_X86_64_GLOB_DAT</a>:</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;                        {</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;                            <a class="code" href="../../d1/d9e/elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> SymIndex = <a class="code" href="../../d1/d9e/elf_8h.html#ab8a1253bfcc928f9aa9d4177d84f6830">ELF64_R_SYM</a>(Rel-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#aeab8bc0f9035184127ec02d947bf2c76">r_info</a>);</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;                            <a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> *Sym = _SymTab + SymIndex;</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160; </div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;                            <span class="keywordflow">if</span> (Sym-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a5db6c4acfde404ba93d5f6de48c2b330">st_name</a>)</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;                            {</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;                                <span class="keywordtype">char</span> *SymName = _DynStr + Sym-&gt;<a class="code" href="../../d1/d9e/elf_8h.html#a5db6c4acfde404ba93d5f6de48c2b330">st_name</a>;</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;                                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;SymName: %s&quot;</span>, SymName);</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160; </div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;                                <a class="code" href="../../d1/d9e/elf_8h.html#d8/d92/structelf64__sym">Elf64_Sym</a> LibSym = <a class="code" href="../../d5/d27/namespaceExecute.html#a660cd5854fd95bf599775f39f0f99966">ELFLookupSymbol</a>(fd, SymName);</div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;                                <span class="keywordflow">if</span> (LibSym.<a class="code" href="../../d1/d9e/elf_8h.html#ade472d8a7be87eb8feaba4b40ae31aee">st_value</a>)</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;                                {</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;                                    *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>)(BaseAddress + LibSym.<a class="code" href="../../d1/d9e/elf_8h.html#ade472d8a7be87eb8feaba4b40ae31aee">st_value</a>);</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;                                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;GOT[%ld](%#lx): %#lx (R_X86_64_GLOB_DAT)&quot;</span>,</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;                                          i, <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(GOTEntry) - BaseAddress,</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;                                          *GOTEntry);</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;                                }</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;                            }</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;                            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;                        }</div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;                        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;                        {</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;                            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;Unhandled relocation type: %#lx&quot;</span>, RelType);</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;                            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;                        }</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;                        }</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;                    }</div>
 <div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;                }</div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160; </div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;                <span class="keyword">delete</span> gotSection;</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;            }</div>
-<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;            {</div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;GOT section not found&quot;</span>);</div>
-<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;            }</div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;        }</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160; </div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;        <span class="comment">/* ------------------------------------------------------------------------ */</span></div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160; </div>
-<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;        <span class="keyword">struct </span><a class="code" href="../../d1/d85/filesystem_8hpp.html#da/de7/structstat">stat</a> statbuf;</div>
-<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a27628bfab8ccdd0fdeed6778b25cd734">fstat</a>(fd, &amp;statbuf);</div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;        Memory::SmartHeap sh = Memory::SmartHeap(statbuf.<a class="code" href="../../d1/d85/filesystem_8hpp.html#a040e19c8b9766f841fde8786ce9297bf">st_size</a>);</div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a>(fd, 0, <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
-<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a59e6d0024b412f266839f22638916254">fread</a>(fd, sh, statbuf.<a class="code" href="../../d1/d85/filesystem_8hpp.html#a040e19c8b9766f841fde8786ce9297bf">st_size</a>);</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;        TargetProcess-&gt;ELFSymbolTable-&gt;AppendSymbols(<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(sh.GetObject()), BaseAddress);</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160; </div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Entry Point: %#lx&quot;</span>, <a class="code" href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">EntryPoint</a>);</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160; </div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;        <span class="keywordtype">char</span> *aux_platform = (<span class="keywordtype">char</span> *)mm-&gt;RequestPages(1, <span class="keyword">true</span>); <span class="comment">/* TODO: 4KiB is too much for this */</span></div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;        <a class="code" href="../../d3/d82/convert_8h.html#a06688b0d2444199f657ccb56b0ce11b3">strcpy</a>(aux_platform, <span class="stringliteral">&quot;x86_64&quot;</span>);</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;                <span class="comment">// _GLOBAL_OFFSET_TABLE_</span></div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;                <span class="keywordflow">if</span> (PltGotSize &gt; 0)</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;                {</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#dd/d27/structElf64__Dyn">Elf64_Dyn</a> got = PltGot[0];</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;                    <a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a> *)(got.<a class="code" href="../../d1/d9e/elf_8h.html#a4f31f680ca10e8b2179e4cb90e21e8a5">d_un</a>.d_ptr + BaseAddress);</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;                    <span class="comment">// *GOTEntry = (Elf64_Addr)(BaseAddress + PltGot[0].d_un.d_val);</span></div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160; </div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;                    std::vector&lt;Elf64_Phdr&gt; DYNAMICPhdrs = <a class="code" href="../../d5/d27/namespaceExecute.html#a7f4667b7d5f0a5dea5a52b5fe6a1da90">ELFGetSymbolType_x86_64</a>(fd, <a class="code" href="../../d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2adb5972d68614ececce857a4a0e59eb73">PT_DYNAMIC</a>);</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;                    <span class="keywordflow">if</span> (DYNAMICPhdrs.size() &gt; 0)</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;                        *GOTEntry = (<a class="code" href="../../d1/d9e/elf_8h.html#aeed51d08e3a950d637f8ec1f0cd4ef65">Elf64_Addr</a>)(BaseAddress + DYNAMICPhdrs[0].p_vaddr);</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;                }</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160; </div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;                <span class="keyword">delete</span> gotSection;</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;            }</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;            {</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;GOT section not found&quot;</span>);</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;            }</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;        }</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160; </div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;        <span class="comment">/* ------------------------------------------------------------------------ */</span></div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160; </div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        <a class="code" href="../../d8/d29/classstd_1_1string.html">std::string</a> execfn = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>-&gt;FileDescriptors-&gt;GetAbsolutePath(fd);</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        <span class="keywordtype">void</span> *execfn_str = mm-&gt;RequestPages(TO_PAGES(execfn.<a class="code" href="../../d8/d29/classstd_1_1string.html#a669d026a65f27aa46e635aa8460f438c">size</a>() + 1), <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;        <a class="code" href="../../d3/d82/convert_8h.html#a06688b0d2444199f657ccb56b0ce11b3">strcpy</a>((<span class="keywordtype">char</span> *)execfn_str, execfn.<a class="code" href="../../d8/d29/classstd_1_1string.html#a6cea7d665828a8cfd273dc2afe451f7f">c_str</a>());</div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160; </div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;        <span class="comment">// prep. for AT_PHDR</span></div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;        <span class="keywordtype">void</span> *phdr_array = mm-&gt;RequestPages(TO_PAGES(ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#aa90fd4904e5bb87fcaff192b9426e54c">e_phnum</a> * <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#d3/d7b/structElf64__Phdr">Elf64_Phdr</a>)), <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a>(fd, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ae87fc9ce25b4b5c40ad58045609e522c">e_phoff</a>, <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a59e6d0024b412f266839f22638916254">fread</a>(fd, (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)phdr_array, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#aa90fd4904e5bb87fcaff192b9426e54c">e_phnum</a> * <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#d3/d7b/structElf64__Phdr">Elf64_Phdr</a>));</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        <span class="keyword">struct </span><a class="code" href="../../d1/d85/filesystem_8hpp.html#da/de7/structstat">stat</a> statbuf;</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a27628bfab8ccdd0fdeed6778b25cd734">fstat</a>(fd, &amp;statbuf);</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;        Memory::SmartHeap sh = Memory::SmartHeap(statbuf.<a class="code" href="../../d1/d85/filesystem_8hpp.html#a040e19c8b9766f841fde8786ce9297bf">st_size</a>);</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a>(fd, 0, <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a59e6d0024b412f266839f22638916254">fread</a>(fd, sh, statbuf.<a class="code" href="../../d1/d85/filesystem_8hpp.html#a040e19c8b9766f841fde8786ce9297bf">st_size</a>);</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;        TargetProcess-&gt;ELFSymbolTable-&gt;AppendSymbols(<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>(sh.GetObject()), BaseAddress);</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160; </div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Entry Point: %#lx&quot;</span>, <a class="code" href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">EntryPoint</a>);</div>
 <div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160; </div>
-<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#aa893f7231479240d49c660c5649cac5b">AT_NULL</a>, .a_un = {.a_val = 0}}});</div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a9e8e819c6a3e1d1353cf8ad994c8f125">AT_PLATFORM</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)aux_platform}}});</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#ac21da7eb71598f030f51308be8fba5d9">AT_EXECFN</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)execfn_str}}});</div>
-<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;        <span class="comment">// AT_HWCAP2 26</span></div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;        <span class="comment">// AT_RANDOM 25</span></div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;        <span class="comment">// AT_SECURE 23</span></div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a687680c9f0b9bbabf6619f0aa5116580">AT_EGID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}}); <span class="comment">/* FIXME */</span></div>
-<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a38d3d729013f2b2c5f51f90b0005e85d">AT_GID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}}); <span class="comment">/* FIXME */</span></div>
-<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a22b81b71265e55a9e11e0b95d4118050">AT_EUID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}}); <span class="comment">/* FIXME */</span></div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a7bc508a179d0a308a8e4b47b97bcf2a3">AT_UID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}}); <span class="comment">/* FIXME */</span></div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a80f2ea99241a6afdc4718d3c4318c871">AT_ENTRY</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">EntryPoint</a>}}});</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        <span class="comment">// AT_FLAGS 8</span></div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a9b8e51a44a47d7ea827c570ffdca14e5">AT_BASE</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)BaseAddress}}});</div>
-<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#abc712c67bee059574b4e3c096538d5bd">AT_PHNUM</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#aa90fd4904e5bb87fcaff192b9426e54c">e_phnum</a>}}});</div>
-<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a56f1f9975d88f768d7928b0ed587ef38">AT_PHENT</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a00bb9e8e47ccd8f8e05da370e0f4d7d0">e_phentsize</a>}}});</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a3de7ec7b5cee2d34208387ab97dc0642">AT_PHDR</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)phdr_array}}});</div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <span class="comment">// AT_CLKTCK 17</span></div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a7269f0c135d4bd3f9bc074d18fb30f9d">AT_PAGESZ</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)PAGE_SIZE}}});</div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        <span class="comment">// AT_HWCAP 16</span></div>
-<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        <span class="comment">// AT_MINSIGSTKSZ 51</span></div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <span class="comment">// AT_SYSINFO_EHDR 33</span></div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160; </div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        this-&gt;ip = <a class="code" href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">EntryPoint</a>;</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        this-&gt;IsElfValid = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    }</div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160; </div>
-<div class="line"><a name="l00607"></a><span class="lineno"><a class="line" href="../../d3/dc8/classExecute_1_1ELFObject.html#ab4f81ffb001438f833770ff302910af6">  607</a></span>&#160;    <span class="keywordtype">bool</span> ELFObject::LoadInterpreter(<span class="keywordtype">int</span> fd, <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *TargetProcess)</div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    {</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;        <a class="code" href="../../d1/d9e/elf_8h.html#dd/d18/structelf32__hdr">Elf32_Ehdr</a> ELFHeader;</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a59e6d0024b412f266839f22638916254">fread</a>(fd, &amp;ELFHeader, <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#dd/d18/structelf32__hdr">Elf32_Ehdr</a>));</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160; </div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;        <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a01aab87d9a8f658d41a1162158c07878">e_type</a>)</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;        {</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a643c2b18fd5edd897eed4462bb70e3ea">ET_REL</a>:</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;        {</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;ET_REL not implemented&quot;</span>);</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        }</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33aff80e596d1ea270d3913f3b2307e3e2b">ET_EXEC</a>:</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;        {</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;            <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>)</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;            {</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a77301c665274669ba8d05978eb0d299e">EM_386</a>:</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;                this-&gt;LoadExec_x86_32(fd, TargetProcess);</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a23fd3947ed1cfe58469b045efb4bb418">EM_X86_64</a>:</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;                this-&gt;LoadExec_x86_64(fd, TargetProcess);</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ad8fac71aae0d2fbfab30f278a79c941a">EM_ARM</a>:</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM is not supported yet!&quot;</span>);</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ae7d928612b2d484d2ccfd58f50be7db4">EM_AARCH64</a>:</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM64 is not supported yet!&quot;</span>);</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;            <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown architecture: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>);</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            }</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;        }</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a6f74666d6507191328044aa839534c4e">ET_DYN</a>:</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;        {</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;            <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>)</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;            {</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a77301c665274669ba8d05978eb0d299e">EM_386</a>:</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;                this-&gt;LoadDyn_x86_32(fd, TargetProcess);</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a23fd3947ed1cfe58469b045efb4bb418">EM_X86_64</a>:</div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;                this-&gt;LoadDyn_x86_64(fd, TargetProcess);</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ad8fac71aae0d2fbfab30f278a79c941a">EM_ARM</a>:</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM is not supported yet!&quot;</span>);</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ae7d928612b2d484d2ccfd58f50be7db4">EM_AARCH64</a>:</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM64 is not supported yet!&quot;</span>);</div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;            <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown architecture: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>);</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;            }</div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;        }</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33ad0fdf1845f785a5a43313801bbf6f741">ET_CORE</a>:</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;        {</div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;ET_CORE not implemented&quot;</span>);</div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;        }</div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a16ec634ec16b5750f108673917d231a8">ET_NONE</a>:</div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;        {</div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown ELF Type: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a01aab87d9a8f658d41a1162158c07878">e_type</a>);</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;        }</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;        <span class="keywordtype">char</span> *aux_platform = (<span class="keywordtype">char</span> *)mm-&gt;RequestPages(1, <span class="keyword">true</span>); <span class="comment">/* TODO: 4KiB is too much for this */</span></div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;        <a class="code" href="../../d3/d82/convert_8h.html#a06688b0d2444199f657ccb56b0ce11b3">strcpy</a>(aux_platform, <span class="stringliteral">&quot;x86_64&quot;</span>);</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160; </div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;        <a class="code" href="../../d8/d29/classstd_1_1string.html">std::string</a> execfn = <a class="code" href="../../d8/da1/task_8hpp.html#abcc2c2d29a284c2304deb5d0778c59c8">thisProcess</a>-&gt;FileDescriptors-&gt;GetAbsolutePath(fd);</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;        <span class="keywordtype">void</span> *execfn_str = mm-&gt;RequestPages(TO_PAGES(execfn.<a class="code" href="../../d8/d29/classstd_1_1string.html#a669d026a65f27aa46e635aa8460f438c">size</a>() + 1), <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;        <a class="code" href="../../d3/d82/convert_8h.html#a06688b0d2444199f657ccb56b0ce11b3">strcpy</a>((<span class="keywordtype">char</span> *)execfn_str, execfn.<a class="code" href="../../d8/d29/classstd_1_1string.html#a6cea7d665828a8cfd273dc2afe451f7f">c_str</a>());</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160; </div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;        <span class="comment">// prep. for AT_PHDR</span></div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;        <span class="keywordtype">void</span> *phdr_array = mm-&gt;RequestPages(TO_PAGES(ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#aa90fd4904e5bb87fcaff192b9426e54c">e_phnum</a> * <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#d3/d7b/structElf64__Phdr">Elf64_Phdr</a>)), <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a>(fd, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ae87fc9ce25b4b5c40ad58045609e522c">e_phoff</a>, <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a59e6d0024b412f266839f22638916254">fread</a>(fd, (<a class="code" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)phdr_array, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#aa90fd4904e5bb87fcaff192b9426e54c">e_phnum</a> * <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#d3/d7b/structElf64__Phdr">Elf64_Phdr</a>));</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160; </div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#aa893f7231479240d49c660c5649cac5b">AT_NULL</a>, .a_un = {.a_val = 0}}});</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a9e8e819c6a3e1d1353cf8ad994c8f125">AT_PLATFORM</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)aux_platform}}});</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#ac21da7eb71598f030f51308be8fba5d9">AT_EXECFN</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)execfn_str}}});</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;        <span class="comment">// AT_HWCAP2 26</span></div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <span class="comment">// AT_RANDOM 25</span></div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        <span class="comment">// AT_SECURE 23</span></div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a687680c9f0b9bbabf6619f0aa5116580">AT_EGID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}}); <span class="comment">/* FIXME */</span></div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a38d3d729013f2b2c5f51f90b0005e85d">AT_GID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}});  <span class="comment">/* FIXME */</span></div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a22b81b71265e55a9e11e0b95d4118050">AT_EUID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}}); <span class="comment">/* FIXME */</span></div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a7bc508a179d0a308a8e4b47b97bcf2a3">AT_UID</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)0}}});  <span class="comment">/* FIXME */</span></div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a80f2ea99241a6afdc4718d3c4318c871">AT_ENTRY</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="code" href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">EntryPoint</a>}}});</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        <span class="comment">// AT_FLAGS 8</span></div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a9b8e51a44a47d7ea827c570ffdca14e5">AT_BASE</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)BaseAddress}}});</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#abc712c67bee059574b4e3c096538d5bd">AT_PHNUM</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#aa90fd4904e5bb87fcaff192b9426e54c">e_phnum</a>}}});</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a56f1f9975d88f768d7928b0ed587ef38">AT_PHENT</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a00bb9e8e47ccd8f8e05da370e0f4d7d0">e_phentsize</a>}}});</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a3de7ec7b5cee2d34208387ab97dc0642">AT_PHDR</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)phdr_array}}});</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;        <span class="comment">// AT_CLKTCK 17</span></div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;        Elfauxv.push_back({.archaux = {.a_type = <a class="code" href="../../df/d31/abi_8h.html#a7269f0c135d4bd3f9bc074d18fb30f9d">AT_PAGESZ</a>, .a_un = {.a_val = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)PAGE_SIZE}}});</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;        <span class="comment">// AT_HWCAP 16</span></div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;        <span class="comment">// AT_MINSIGSTKSZ 51</span></div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;        <span class="comment">// AT_SYSINFO_EHDR 33</span></div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160; </div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;        this-&gt;ip = <a class="code" href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">EntryPoint</a>;</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;        this-&gt;IsElfValid = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    }</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160; </div>
+<div class="line"><a name="l00619"></a><span class="lineno"><a class="line" href="../../d3/dc8/classExecute_1_1ELFObject.html#ab4f81ffb001438f833770ff302910af6">  619</a></span>&#160;    <span class="keywordtype">bool</span> ELFObject::LoadInterpreter(<span class="keywordtype">int</span> fd, <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *TargetProcess)</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    {</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;        <a class="code" href="../../d1/d9e/elf_8h.html#dd/d18/structelf32__hdr">Elf32_Ehdr</a> ELFHeader;</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a59e6d0024b412f266839f22638916254">fread</a>(fd, &amp;ELFHeader, <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#dd/d18/structelf32__hdr">Elf32_Ehdr</a>));</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160; </div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;        <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a01aab87d9a8f658d41a1162158c07878">e_type</a>)</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;        {</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a643c2b18fd5edd897eed4462bb70e3ea">ET_REL</a>:</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;        {</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;ET_REL not implemented&quot;</span>);</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;        }</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33aff80e596d1ea270d3913f3b2307e3e2b">ET_EXEC</a>:</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        {</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;            <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>)</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;            {</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a77301c665274669ba8d05978eb0d299e">EM_386</a>:</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;                this-&gt;LoadExec_x86_32(fd, TargetProcess);</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a23fd3947ed1cfe58469b045efb4bb418">EM_X86_64</a>:</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;                this-&gt;LoadExec_x86_64(fd, TargetProcess);</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ad8fac71aae0d2fbfab30f278a79c941a">EM_ARM</a>:</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM is not supported yet!&quot;</span>);</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ae7d928612b2d484d2ccfd58f50be7db4">EM_AARCH64</a>:</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM64 is not supported yet!&quot;</span>);</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown architecture: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>);</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;            }</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;        }</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a6f74666d6507191328044aa839534c4e">ET_DYN</a>:</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;        {</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;            <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>)</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;            {</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a77301c665274669ba8d05978eb0d299e">EM_386</a>:</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;                this-&gt;LoadDyn_x86_32(fd, TargetProcess);</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a23fd3947ed1cfe58469b045efb4bb418">EM_X86_64</a>:</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;                this-&gt;LoadDyn_x86_64(fd, TargetProcess);</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ad8fac71aae0d2fbfab30f278a79c941a">EM_ARM</a>:</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM is not supported yet!&quot;</span>);</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ae7d928612b2d484d2ccfd58f50be7db4">EM_AARCH64</a>:</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM64 is not supported yet!&quot;</span>);</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown architecture: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>);</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;            }</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;        }</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    }</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160; </div>
-<div class="line"><a name="l00678"></a><span class="lineno"><a class="line" href="../../d3/dc8/classExecute_1_1ELFObject.html#a6bd9c2223352198ca9bc12b789d697bd">  678</a></span>&#160;    ELFObject::ELFObject(<span class="keywordtype">char</span> *AbsolutePath,</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;                         <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *TargetProcess,</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;                         <span class="keyword">const</span> <span class="keywordtype">char</span> **argv,</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;                         <span class="keyword">const</span> <span class="keywordtype">char</span> **envp)</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    {</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/d27/namespaceExecute.html#a7660dbbcb09b7326abe3631cd98fc2ca">GetBinaryType</a>(AbsolutePath) != <a class="code" href="../../d5/d27/namespaceExecute.html#af4e1abcc5b1e4823d6a344e90bd6dfefa6928c465385d0a26e049a88b34a524f4">BinaryType::BinTypeELF</a>)</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;        {</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;%s is not an ELF file or is invalid.&quot;</span>, AbsolutePath);</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;        }</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160; </div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;        <span class="keywordtype">int</span> fd = <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#ae2ec3b9037ed12c33f4f7327099f615c">fopen</a>(AbsolutePath, <span class="stringliteral">&quot;r&quot;</span>);</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;        <span class="keywordflow">if</span> (fd &lt; 0)</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;        {</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Failed to open %s, errno: %d&quot;</span>, AbsolutePath, fd);</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;        }</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160; </div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;        <span class="keywordtype">int</span> argc = 0;</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;        <span class="keywordtype">int</span> envc = 0;</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160; </div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;        <span class="keywordflow">while</span> (argv[argc] != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;            argc++;</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;        <span class="keywordflow">while</span> (envp[envc] != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;            envc++;</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160; </div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;        <span class="comment">// ELFargv = new const char *[argc + 2];</span></div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;        <a class="code" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> argv_size = TO_PAGES(argc + 2 * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span> *));</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;        ELFargv = (<span class="keyword">const</span> <span class="keywordtype">char</span> **)TargetProcess-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#a06b7ec145f7f8bd74a3338a6f38ee1e8">Memory</a>-&gt;RequestPages(argv_size);</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; argc; i++)</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;            ELFargv[i] = argv[i];</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        ELFargv[argc] = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33ad0fdf1845f785a5a43313801bbf6f741">ET_CORE</a>:</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;        {</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;ET_CORE not implemented&quot;</span>);</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        }</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a16ec634ec16b5750f108673917d231a8">ET_NONE</a>:</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;        {</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown ELF Type: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a01aab87d9a8f658d41a1162158c07878">e_type</a>);</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;        }</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;        }</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;    }</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160; </div>
+<div class="line"><a name="l00690"></a><span class="lineno"><a class="line" href="../../d3/dc8/classExecute_1_1ELFObject.html#a6bd9c2223352198ca9bc12b789d697bd">  690</a></span>&#160;    ELFObject::ELFObject(<span class="keywordtype">char</span> *AbsolutePath,</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;                         <a class="code" href="../../d6/d17/classTasking_1_1PCB.html">PCB</a> *TargetProcess,</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;                         <span class="keyword">const</span> <span class="keywordtype">char</span> **argv,</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;                         <span class="keyword">const</span> <span class="keywordtype">char</span> **envp)</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    {</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/d27/namespaceExecute.html#a7660dbbcb09b7326abe3631cd98fc2ca">GetBinaryType</a>(AbsolutePath) != <a class="code" href="../../d5/d27/namespaceExecute.html#af4e1abcc5b1e4823d6a344e90bd6dfefa6928c465385d0a26e049a88b34a524f4">BinaryType::BinTypeELF</a>)</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;        {</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;%s is not an ELF file or is invalid.&quot;</span>, AbsolutePath);</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;        }</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160; </div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;        <span class="keywordtype">int</span> fd = <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#ae2ec3b9037ed12c33f4f7327099f615c">fopen</a>(AbsolutePath, <span class="stringliteral">&quot;r&quot;</span>);</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;        <span class="keywordflow">if</span> (fd &lt; 0)</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;        {</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Failed to open %s, errno: %d&quot;</span>, AbsolutePath, fd);</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;        }</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160; </div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        <span class="keywordtype">int</span> argc = 0;</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        <span class="keywordtype">int</span> envc = 0;</div>
 <div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160; </div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;        <span class="comment">// ELFenvp = new const char *[envc + 1];</span></div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;        <a class="code" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> envp_size = TO_PAGES(envc + 1 * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span> *));</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;        ELFenvp = (<span class="keyword">const</span> <span class="keywordtype">char</span> **)TargetProcess-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#a06b7ec145f7f8bd74a3338a6f38ee1e8">Memory</a>-&gt;RequestPages(envp_size);</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; envc; i++)</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;            ELFenvp[i] = envp[i];</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;        ELFenvp[envc] = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160; </div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        <a class="code" href="../../d1/d9e/elf_8h.html#dd/d18/structelf32__hdr">Elf32_Ehdr</a> ELFHeader;</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a59e6d0024b412f266839f22638916254">fread</a>(fd, &amp;ELFHeader, <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#dd/d18/structelf32__hdr">Elf32_Ehdr</a>));</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160; </div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;        <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a01aab87d9a8f658d41a1162158c07878">e_type</a>)</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        {</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a643c2b18fd5edd897eed4462bb70e3ea">ET_REL</a>:</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        {</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;ET_REL not implemented&quot;</span>);</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;        }</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33aff80e596d1ea270d3913f3b2307e3e2b">ET_EXEC</a>:</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;        {</div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;            <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>)</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;            {</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a77301c665274669ba8d05978eb0d299e">EM_386</a>:</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;                this-&gt;LoadExec_x86_32(fd, TargetProcess);</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a23fd3947ed1cfe58469b045efb4bb418">EM_X86_64</a>:</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;                this-&gt;LoadExec_x86_64(fd, TargetProcess);</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ad8fac71aae0d2fbfab30f278a79c941a">EM_ARM</a>:</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM is not supported yet!&quot;</span>);</div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ae7d928612b2d484d2ccfd58f50be7db4">EM_AARCH64</a>:</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM64 is not supported yet!&quot;</span>);</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;            <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown architecture: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>);</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;        <span class="keywordflow">while</span> (argv[argc] != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;            argc++;</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;        <span class="keywordflow">while</span> (envp[envc] != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;            envc++;</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160; </div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;        <span class="comment">// ELFargv = new const char *[argc + 2];</span></div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        <a class="code" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> argv_size = TO_PAGES(argc + 2 * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span> *));</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        ELFargv = (<span class="keyword">const</span> <span class="keywordtype">char</span> **)TargetProcess-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#a06b7ec145f7f8bd74a3338a6f38ee1e8">Memory</a>-&gt;RequestPages(argv_size);</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; argc; i++)</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;            ELFargv[i] = argv[i];</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;        ELFargv[argc] = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160; </div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;        <span class="comment">// ELFenvp = new const char *[envc + 1];</span></div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        <a class="code" href="../../d8/dcc/namespacestd.html#ad477e282dc33a113ed64628b9b32e3dd">std::size_t</a> envp_size = TO_PAGES(envc + 1 * <span class="keyword">sizeof</span>(<span class="keywordtype">char</span> *));</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        ELFenvp = (<span class="keyword">const</span> <span class="keywordtype">char</span> **)TargetProcess-&gt;<a class="code" href="../../d6/d17/classTasking_1_1PCB.html#a06b7ec145f7f8bd74a3338a6f38ee1e8">Memory</a>-&gt;RequestPages(envp_size);</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; envc; i++)</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;            ELFenvp[i] = envp[i];</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        ELFenvp[envc] = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160; </div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;        <a class="code" href="../../d1/d9e/elf_8h.html#dd/d18/structelf32__hdr">Elf32_Ehdr</a> ELFHeader;</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a59e6d0024b412f266839f22638916254">fread</a>(fd, &amp;ELFHeader, <span class="keyword">sizeof</span>(<a class="code" href="../../d1/d9e/elf_8h.html#dd/d18/structelf32__hdr">Elf32_Ehdr</a>));</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160; </div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;        <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a01aab87d9a8f658d41a1162158c07878">e_type</a>)</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;        {</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a643c2b18fd5edd897eed4462bb70e3ea">ET_REL</a>:</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;        {</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;ET_REL not implemented&quot;</span>);</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;        }</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33aff80e596d1ea270d3913f3b2307e3e2b">ET_EXEC</a>:</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;        {</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;            <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>)</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;            {</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a77301c665274669ba8d05978eb0d299e">EM_386</a>:</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;                this-&gt;LoadExec_x86_32(fd, TargetProcess);</div>
 <div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;            }</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;        }</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a6f74666d6507191328044aa839534c4e">ET_DYN</a>:</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;        {</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;            <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>)</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;            {</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a77301c665274669ba8d05978eb0d299e">EM_386</a>:</div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;                this-&gt;LoadDyn_x86_32(fd, TargetProcess);</div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a23fd3947ed1cfe58469b045efb4bb418">EM_X86_64</a>:</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;                this-&gt;LoadDyn_x86_64(fd, TargetProcess);</div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ad8fac71aae0d2fbfab30f278a79c941a">EM_ARM</a>:</div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM is not supported yet!&quot;</span>);</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ae7d928612b2d484d2ccfd58f50be7db4">EM_AARCH64</a>:</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM64 is not supported yet!&quot;</span>);</div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;            <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown architecture: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>);</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a23fd3947ed1cfe58469b045efb4bb418">EM_X86_64</a>:</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;                this-&gt;LoadExec_x86_64(fd, TargetProcess);</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ad8fac71aae0d2fbfab30f278a79c941a">EM_ARM</a>:</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM is not supported yet!&quot;</span>);</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ae7d928612b2d484d2ccfd58f50be7db4">EM_AARCH64</a>:</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM64 is not supported yet!&quot;</span>);</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown architecture: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>);</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;            }</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;        }</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a6f74666d6507191328044aa839534c4e">ET_DYN</a>:</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;        {</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;            <span class="keywordflow">switch</span> (ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>)</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;            {</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a77301c665274669ba8d05978eb0d299e">EM_386</a>:</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;                this-&gt;LoadDyn_x86_32(fd, TargetProcess);</div>
 <div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;            }</div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;        }</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33ad0fdf1845f785a5a43313801bbf6f741">ET_CORE</a>:</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;        {</div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;ET_CORE not implemented&quot;</span>);</div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;        }</div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a16ec634ec16b5750f108673917d231a8">ET_NONE</a>:</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;        {</div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown ELF Type: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a01aab87d9a8f658d41a1162158c07878">e_type</a>);</div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;        }</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a23fd3947ed1cfe58469b045efb4bb418">EM_X86_64</a>:</div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;                this-&gt;LoadDyn_x86_64(fd, TargetProcess);</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ad8fac71aae0d2fbfab30f278a79c941a">EM_ARM</a>:</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM is not supported yet!&quot;</span>);</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#ae7d928612b2d484d2ccfd58f50be7db4">EM_AARCH64</a>:</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ARM64 is not supported yet!&quot;</span>);</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown architecture: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#ac683164e0380f6babe3f46a3a1ffdfe9">e_machine</a>);</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;            }</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;        }</div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160; </div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a575cfdaca3a77c3f910df16d56d7240c">fclose</a>(fd);</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;    }</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160; </div>
-<div class="line"><a name="l00788"></a><span class="lineno"><a class="line" href="../../d3/dc8/classExecute_1_1ELFObject.html#aa22624fb8595d8017c6c3e17d8cf1b4b">  788</a></span>&#160;    ELFObject::~ELFObject()</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;    {</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;    }</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;}</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33ad0fdf1845f785a5a43313801bbf6f741">ET_CORE</a>:</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;        {</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a>(<span class="stringliteral">&quot;ET_CORE not implemented&quot;</span>);</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;        }</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d9e/elf_8h.html#a75b2c600816bb6c17eae8efdeb979a33a16ec634ec16b5750f108673917d231a8">ET_NONE</a>:</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;        {</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown ELF Type: %d&quot;</span>, ELFHeader.<a class="code" href="../../d1/d9e/elf_8h.html#a01aab87d9a8f658d41a1162158c07878">e_type</a>);</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;        }</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;        }</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160; </div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;        <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a575cfdaca3a77c3f910df16d56d7240c">fclose</a>(fd);</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;    }</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160; </div>
+<div class="line"><a name="l00800"></a><span class="lineno"><a class="line" href="../../d3/dc8/classExecute_1_1ELFObject.html#aa22624fb8595d8017c6c3e17d8cf1b4b">  800</a></span>&#160;    ELFObject::~ELFObject()</div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;    {</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;    }</div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;}</div>
 <div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
 <div class="ttc" id="aConvert_8cpp_html_ae577b1098c1f745563eb0789fa58ae14"><div class="ttname"><a href="../../d0/dc7/Convert_8cpp.html#ae577b1098c1f745563eb0789fa58ae14">memset</a></div><div class="ttdeci">EXTERNC __no_stack_protector void * memset(void *dest, int val, size_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l01088">Convert.cpp:1088</a></div></div>
 <div class="ttc" id="aFex_8hpp_html_af279c0af4cb38234d36db472572d28b3"><div class="ttname"><a href="../../d0/da5/Fex_8hpp.html#af279c0af4cb38234d36db472572d28b3">EntryPoint</a></div><div class="ttdeci">int(* EntryPoint)(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da5/Fex_8hpp_source.html#l00003">Fex.hpp:3</a></div></div>

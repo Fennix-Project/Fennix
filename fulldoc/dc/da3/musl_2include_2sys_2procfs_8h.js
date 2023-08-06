@@ -7,10 +7,10 @@ var musl_2include_2sys_2procfs_8h =
     ] ],
     [ "elf_prstatus", "dc/da3/musl_2include_2sys_2procfs_8h.html#d5/dda/structelf__prstatus", [
       [ "pr_cstime", "dc/da3/musl_2include_2sys_2procfs_8h.html#a3ddb81d59df953bd7ebb1f7d823ad11e", null ],
-      [ "pr_cstime", "dc/da3/musl_2include_2sys_2procfs_8h.html#aa52b1862d55bf9c6c2c0736c15266cab", null ],
+      [ "pr_cstime", "dc/da3/musl_2include_2sys_2procfs_8h.html#aa2a005cfd4333cc8811271ad615d7e11", null ],
       [ "pr_cursig", "dc/da3/musl_2include_2sys_2procfs_8h.html#ae9d3fd77cef8c8ba4eb506232abe8b68", null ],
       [ "pr_cutime", "dc/da3/musl_2include_2sys_2procfs_8h.html#a864059038237647b83ee71590032cbb1", null ],
-      [ "pr_cutime", "dc/da3/musl_2include_2sys_2procfs_8h.html#adc2e56652a24553abf64e9eac9b5abd5", null ],
+      [ "pr_cutime", "dc/da3/musl_2include_2sys_2procfs_8h.html#a89aa53d4c0a6988eb05a3e44a69320fb", null ],
       [ "pr_fpvalid", "dc/da3/musl_2include_2sys_2procfs_8h.html#a38d404be781fe1432c3569b809354d7e", null ],
       [ "pr_info", "dc/da3/musl_2include_2sys_2procfs_8h.html#a2ca898878a9b306f1c4c65a65d537dfe", null ],
       [ "pr_pgrp", "dc/da3/musl_2include_2sys_2procfs_8h.html#a36fdbc1cc42902db7e9fb71ec6bd218f", null ],
@@ -21,9 +21,9 @@ var musl_2include_2sys_2procfs_8h =
       [ "pr_sighold", "dc/da3/musl_2include_2sys_2procfs_8h.html#a71d75a73d548a342dc9a16e0ef4a81b5", null ],
       [ "pr_sigpend", "dc/da3/musl_2include_2sys_2procfs_8h.html#a9ef818a34a6459aebae9f5780fbfa2c6", null ],
       [ "pr_stime", "dc/da3/musl_2include_2sys_2procfs_8h.html#a63eec14d1c3cb81f0bd622faef1292a2", null ],
-      [ "pr_stime", "dc/da3/musl_2include_2sys_2procfs_8h.html#a7158f966b8450e3d5d4aab3ed865a230", null ],
+      [ "pr_stime", "dc/da3/musl_2include_2sys_2procfs_8h.html#a3711b4f2d1fd306fc0b571974b6bf223", null ],
       [ "pr_utime", "dc/da3/musl_2include_2sys_2procfs_8h.html#ab9ca9e23c0e0a38b4ca8fb6e9520a9b5", null ],
-      [ "pr_utime", "dc/da3/musl_2include_2sys_2procfs_8h.html#a18319382f15773fe128ca084bde04401", null ]
+      [ "pr_utime", "dc/da3/musl_2include_2sys_2procfs_8h.html#a86e3c476d415a7be8b4bd07854f16904", null ]
     ] ],
     [ "elf_prpsinfo", "dc/da3/musl_2include_2sys_2procfs_8h.html#d2/dbb/structelf__prpsinfo", [
       [ "pr_flag", "dc/da3/musl_2include_2sys_2procfs_8h.html#aee9c18db6fa206cb93cb911cbade4867", null ],
