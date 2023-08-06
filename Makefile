@@ -194,6 +194,8 @@ vscode_debug: build_lynx build_kernel build_userspace build_modules build_image 
 
 qemu: qemu_vdisk
 	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
+#	touch serial.log
+#	x-terminal-emulator -e tail -f serial.log &
 	$(QEMU) $(QEMU_UEFI_BIOS) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) $(QEMU_SMP)
 
 qemubios: qemu_vdisk

@@ -38,7 +38,14 @@
 			"syscalls.h": "c",
 			"cmath": "cpp",
 			"typeinfo": "c",
-			"exception": "cpp"
+			"exception": "cpp",
+			"errno.h": "c",
+			"float.h": "c",
+			"mutex": "cpp",
+			"type_trails": "cpp",
+			"utility": "cpp",
+			"algorithm": "cpp",
+			"functional": "cpp"
 		},
 		"cSpell.words": [
 			"AABBCC",
@@ -129,6 +136,7 @@
 			"FAFAFAI",
 			"Fargc",
 			"Fargv",
+			"fcreat",
 			"fctprintf",
 			"Femto",
 			"FENIXOS",

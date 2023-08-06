@@ -36,7 +36,9 @@
 			"wait.h": "c",
 			"base.h": "c",
 			"ld.h": "c",
-			"syscall.h": "c"
+			"syscall.h": "c",
+			"stdint.h": "c",
+			"setjmp.h": "c"
 		},
 		"cSpell.words": [
 			"auxv",
