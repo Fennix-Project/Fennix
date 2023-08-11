@@ -22,7 +22,7 @@ var classTasking_1_1TCB =
     [ "Memory", "da/daf/classTasking_1_1TCB.html#a1057a52581a362b973262a69633ebad4", null ],
     [ "Name", "da/daf/classTasking_1_1TCB.html#aedede7d8d3c42d330b86d08a4ecb5ac9", null ],
     [ "Parent", "da/daf/classTasking_1_1TCB.html#a10866ac8b2b2b12de2be148015d8faf0", null ],
-    [ "Security", "da/daf/classTasking_1_1TCB.html#ab613acb9ab60658422b01849e297d5ac", null ],
+    [ "Security", "da/daf/classTasking_1_1TCB.html#aa42235d53aedf4dddc0b3354b237d71f", null ],
     [ "Stack", "da/daf/classTasking_1_1TCB.html#a400cfe1efe4e2a03d86245924bbd417f", null ],
     [ "Status", "da/daf/classTasking_1_1TCB.html#ade9f4a0d255025816ff6195c2c247814", null ]
 ];

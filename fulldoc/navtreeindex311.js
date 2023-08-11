@@ -1,5 +1,8 @@
 var NAVTREEINDEX311 =
 {
+"dc/dfd/options_2internal_2generic_2ensure_8cpp_source.html":[13,0,2,3,2,6,3,4],
+"dc/dfe/libc_2src_2std_2uni_2sleep_8c.html":[13,0,2,1,3,2,3,1],
+"dc/dfe/libc_2src_2std_2uni_2sleep_8c.html#abb84793d233172171df5b8f7ca972c88":[13,0,2,1,3,2,3,1,0],
 "dc/dfe/libc_2src_2std_2uni_2sleep_8c.html#af9334f6532812a75cb8aa827b346b2cd":[13,0,2,1,3,2,3,1,1],
 "dc/dfe/libc_2src_2std_2uni_2sleep_8c_source.html":[13,0,2,1,3,2,3,1],
 "dc/dff/mlibc_2options_2ansi_2musl-generic-math_2log2l_8c.html":[13,0,2,3,2,0,2,137],
@@ -246,8 +249,5 @@ var NAVTREEINDEX311 =
 "dd/d04/mlibc_2abis_2linux_2termios_8h.html#afdda6cad5fc4a9b67ba6dbe620065d91":[13,0,2,3,0,4,35,38],
 "dd/d04/mlibc_2abis_2linux_2termios_8h_source.html":[13,0,2,3,0,4,35],
 "dd/d04/musl_2src_2math_2s390x_2fma_8c.html":[13,0,2,4,5,19,8,9],
-"dd/d04/musl_2src_2math_2s390x_2fma_8c.html#ac6df7bd41d198a70da3915a80de5452d":[13,0,2,4,5,19,8,9,0],
-"dd/d04/musl_2src_2math_2s390x_2fma_8c_source.html":[13,0,2,4,5,19,8,9],
-"dd/d06/KernelThread_8cpp.html":[13,0,0,21],
-"dd/d06/KernelThread_8cpp.html#a18372412ad2fc3ce1e3240b3cf0efe78":[13,0,0,21,0]
+"dd/d04/musl_2src_2math_2s390x_2fma_8c.html#ac6df7bd41d198a70da3915a80de5452d":[13,0,2,4,5,19,8,9,0]
 };

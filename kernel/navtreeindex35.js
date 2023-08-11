@@ -1,7 +1,6 @@
 var NAVTREEINDEX35 =
 {
-"d7/dfa/Multiboot64bitMap_8cpp_source.html":[7,0,0,0,1,0,1,1,6],
-"d7/dfa/namespaceCPU.html":[5,0,7],
+"d7/dfa/namespaceCPU.html#a000fcb89a8500e356b8a1efee0d389b6":[5,0,7,14],
 "d7/dfa/namespaceCPU.html#a045407e047f73998e6a6f6c759c4edb6":[5,0,7,9],
 "d7/dfa/namespaceCPU.html#a1175128f59cc4c5428896140965fc8f5":[5,0,7,6],
 "d7/dfa/namespaceCPU.html#a1cc036b2143b4358a3857bbef3921968":[5,0,7,11],
@@ -45,7 +44,6 @@ var NAVTREEINDEX35 =
 "d7/dfa/namespaceCPU.html#a9b7152a6891aa829fafb5d7cdc3c31c9afe5043eb6aa7f49c89e39eeaa1310264":[5,0,7,5,23],
 "d7/dfa/namespaceCPU.html#a9b7152a6891aa829fafb5d7cdc3c31c9aff181d5aa19033fd79fcbe1169343cbb":[5,0,7,5,4],
 "d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510":[5,0,7,12],
-"d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e":[5,0,7,14],
 "d7/dfa/namespaceCPU.html#adfe4248cc88b3b6deebb92b8e074561a":[5,0,7,8],
 "d7/dfb/classVirtualFileSystem_1_1Node.html":[6,0,39,16],
 "d7/dfb/classVirtualFileSystem_1_1Node.html#a0a187509f887b6dda7954acce3463863":[6,0,39,16,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX35 =
 "d8/d0a/interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6aac092c1b4b9c4b810713745f0c477b86":[7,0,0,4,1,0,6,0,54],
 "d8/d0a/interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6aac7ad40cb25c348f1155e148b2686a1a":[7,0,0,4,1,0,6,0,140],
 "d8/d0a/interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6aac85884c2bc5ce89d7abd49a35097342":[7,0,0,4,1,0,6,0,246],
-"d8/d0a/interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6aad9d287baf6e83dc34f931ca7115b2d4":[7,0,0,4,1,0,6,0,245]
+"d8/d0a/interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6aad9d287baf6e83dc34f931ca7115b2d4":[7,0,0,4,1,0,6,0,245],
+"d8/d0a/interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6aadf3f9f0bd8f6a542f8bf9c978a10527":[7,0,0,4,1,0,6,0,237],
+"d8/d0a/interrupts_8hpp.html#a19ba7a384228d6b62668aa85045199e6aae27916e3936631741bf6f19868a5488":[7,0,0,4,1,0,6,0,243]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX253 =
 {
-"da/d80/text_8c.html#a1b27b6eab657994c8c13f0345f3d0ddf":[13,0,2,0,0,0,4,3,54,59],
 "da/d80/text_8c.html#a1d477c530594a0e8e5d527b638c5ac7c":[13,0,2,0,0,0,4,3,54,37],
 "da/d80/text_8c.html#a1dc13133edf36adad4af8b11e024bc52":[13,0,2,0,0,0,4,3,54,46],
 "da/d80/text_8c.html#a2019a7e119a51936b33565019380dd99":[13,0,2,0,0,0,4,3,54,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX253 =
 "da/d95/mlibc_2sysdeps_2fennix_2include_2abi-bits_2ptrace_8h.html#a480ed93682b2df6a4df695323b60bb27":[13,0,2,3,3,2,1,0,23,37],
 "da/d95/mlibc_2sysdeps_2fennix_2include_2abi-bits_2ptrace_8h.html#a4ba8db577449a63895f08d4e8340bb83":[13,0,2,3,3,2,1,0,23,0],
 "da/d95/mlibc_2sysdeps_2fennix_2include_2abi-bits_2ptrace_8h.html#a5aca0b8a3a7863b2538ccc3719746e5f":[13,0,2,3,3,2,1,0,23,10],
-"da/d95/mlibc_2sysdeps_2fennix_2include_2abi-bits_2ptrace_8h.html#a64666ce6b2b83267e8c5f651f3f7b4b2":[13,0,2,3,3,2,1,0,23,20]
+"da/d95/mlibc_2sysdeps_2fennix_2include_2abi-bits_2ptrace_8h.html#a64666ce6b2b83267e8c5f651f3f7b4b2":[13,0,2,3,3,2,1,0,23,20],
+"da/d95/mlibc_2sysdeps_2fennix_2include_2abi-bits_2ptrace_8h.html#a654df7969d864c02c935acc5fd21b684":[13,0,2,3,3,2,1,0,23,8]
 };

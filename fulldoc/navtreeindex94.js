@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"d4/d3a/namespaceanonymous__namespace_02time-stubs_8cpp_03.html#ac5eb04c32f93454f2783163bc2bb33de":[11,0,23,1],
+"d4/d3a/namespaceanonymous__namespace_02time-stubs_8cpp_03.html#ad64b4d388b8a79f2c4f672cc2ef3089f":[13,0,2,3,2,0,0,12,0,6],
 "d4/d3a/namespaceanonymous__namespace_02time-stubs_8cpp_03.html#ad69e98c4acafcc2b9af6e7d4a77c0e33":[13,0,2,3,2,0,0,12,0,0],
 "d4/d3a/namespaceanonymous__namespace_02time-stubs_8cpp_03.html#ad729942625e5e0eca75a13a35e3ea87f":[13,0,2,3,2,0,0,12,0,7],
 "d4/d3a/namespaceanonymous__namespace_02time-stubs_8cpp_03.html#af9d3a49677658f096767c5930cb90dec":[13,0,2,3,2,0,0,12,0,8],
@@ -62,9 +64,6 @@ var NAVTREEINDEX94 =
 "d4/d3f/dirent-stubs_8cpp.html#ae4d263c5a1d3825c9511a898762513b2":[13,0,2,3,2,11,0,1,5],
 "d4/d3f/dirent-stubs_8cpp.html#afa648ff43ec9eba592716a334f243111":[13,0,2,3,2,11,0,1,4],
 "d4/d3f/dirent-stubs_8cpp_source.html":[13,0,2,3,2,11,0,1],
-"d4/d3f/unionsigaction_8____unnamed1058____.html":[12,0,867],
-"d4/d3f/unionsigaction_8____unnamed1058____.html#a2d175345296b202d27a410dfc6238950":[12,0,867,1],
-"d4/d3f/unionsigaction_8____unnamed1058____.html#afb693200a77d0b5ca0d875ea52594d27":[12,0,867,0],
 "d4/d42/aarch64_2longjmp_8s.html":[13,0,2,4,5,32,0,0],
 "d4/d42/aarch64_2longjmp_8s_source.html":[13,0,2,4,5,32,0,0],
 "d4/d45/sysdeps_2managarm_2include_2abi-bits_2ino__t_8h.html":[13,0,2,3,3,6,2,0,13],
@@ -244,10 +243,11 @@ var NAVTREEINDEX94 =
 "d4/d55/classVirtualFileSystem_1_1EXT2.html#a0be2c57bdb6db4ec7068fd4990bfd8be":[13,0,0,4,2,0,1,22],
 "d4/d55/classVirtualFileSystem_1_1EXT2.html#a0cdbcea596e7916c0722dffb598aab51":[13,0,0,4,2,0,1,12],
 "d4/d55/classVirtualFileSystem_1_1EXT2.html#a0cdbcea596e7916c0722dffb598aab51":[12,0,48,0,0,12],
-"d4/d55/classVirtualFileSystem_1_1EXT2.html#a11054014f185c1639fc89b111dd1be95":[12,0,48,0,0,40],
 "d4/d55/classVirtualFileSystem_1_1EXT2.html#a11054014f185c1639fc89b111dd1be95":[13,0,0,4,2,0,1,40],
+"d4/d55/classVirtualFileSystem_1_1EXT2.html#a11054014f185c1639fc89b111dd1be95":[12,0,48,0,0,40],
 "d4/d55/classVirtualFileSystem_1_1EXT2.html#a18107dc46438f1a219395c0265f04fad":[12,0,48,0,0,42],
 "d4/d55/classVirtualFileSystem_1_1EXT2.html#a18107dc46438f1a219395c0265f04fad":[13,0,0,4,2,0,1,42],
 "d4/d55/classVirtualFileSystem_1_1EXT2.html#a189b69d026ed8f0290468bf260253192":[12,0,48,0,0,20],
-"d4/d55/classVirtualFileSystem_1_1EXT2.html#a189b69d026ed8f0290468bf260253192":[13,0,0,4,2,0,1,20]
+"d4/d55/classVirtualFileSystem_1_1EXT2.html#a189b69d026ed8f0290468bf260253192":[13,0,0,4,2,0,1,20],
+"d4/d55/classVirtualFileSystem_1_1EXT2.html#a1a7dd466d5248b201ec6914eb065cdb0":[12,0,48,0,0,28]
 };

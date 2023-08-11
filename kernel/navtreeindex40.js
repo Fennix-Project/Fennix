@@ -1,7 +1,5 @@
 var NAVTREEINDEX40 =
 {
-"d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bdababbacc824ca0aca6911a29924b6c6ae":[5,0,7,2,18,42],
-"d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bdabac928037dac34472fc7c4e0aea026ef":[5,0,7,2,18,92],
 "d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bdabb9f70840979d830c267fae438cc16d1":[5,0,7,2,18,68],
 "d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bdabbb3a61208af13faa2c7036aedf3bfed":[5,0,7,2,18,187],
 "d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bdabca2c433088a6a5b11ea7ef64bb6cd04":[5,0,7,2,18,307],
@@ -249,5 +247,7 @@ var NAVTREEINDEX40 =
 "d9/d3e/namespaceTasking.html#a835309f5982bd96c7898e505f491d43d":[7,0,0,4,41,6,1],
 "d9/d3e/namespaceTasking.html#a8836ebab1c71fb68dbf9cf72761756d7":[7,0,0,4,41,0,0],
 "d9/d3e/namespaceTasking.html#a9126b4dd9715e3db81af7514047a474b":[7,0,0,4,41,5,1],
-"d9/d3e/namespaceTasking.html#a9126b4dd9715e3db81af7514047a474b":[7,0,0,4,41,6,2]
+"d9/d3e/namespaceTasking.html#a9126b4dd9715e3db81af7514047a474b":[7,0,0,4,41,6,2],
+"d9/d3e/namespaceTasking.html#a92f7bb81f1f9acf302df0a689c0c1253":[5,0,45,15],
+"d9/d3e/namespaceTasking.html#a92f7bb81f1f9acf302df0a689c0c1253a60a4943ea9de261ccb615c3586d47ebc":[5,0,45,15,4]
 };

@@ -10,7 +10,7 @@ var searchData=
   ['partition_9192',['Partition',['../d6/da1/classDisk_1_1Partition.html#a7c17852b795ddc8dc88c80a0913aed9c',1,'Disk::Partition']]],
   ['pathexists_9193',['PathExists',['../d8/dbd/classVirtualFileSystem_1_1Virtual.html#a18d495c85a51a3cb8b62bfd3ae74b562',1,'VirtualFileSystem::Virtual']]],
   ['pathisrelative_9194',['PathIsRelative',['../d8/dbd/classVirtualFileSystem_1_1Virtual.html#afc276136d594265811635703eb174f55',1,'VirtualFileSystem::Virtual']]],
-  ['pause_9195',['Pause',['../d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e',1,'CPU']]],
+  ['pause_9195',['Pause',['../d7/dfa/namespaceCPU.html#a000fcb89a8500e356b8a1efee0d389b6',1,'CPU']]],
   ['pcb_9196',['PCB',['../d6/d17/classTasking_1_1PCB.html#aa445b2ca2c1a64611f0069d162687d91',1,'Tasking::PCB']]],
   ['pci_9197',['PCI',['../d8/d81/classPCI_1_1PCI.html#a3fa42429d80847c439c6018475ab4fb0',1,'PCI::PCI']]],
   ['performsleep_9198',['PerformSleep',['../d1/d20/classPIC_1_1PIT.html#abf776b71e7d000b8560afb94b531c90a',1,'PIC::PIT']]],

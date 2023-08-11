@@ -1,9 +1,5 @@
 var NAVTREEINDEX210 =
 {
-"d8/d96/lutimes__time32_8c.html#a369266c24eacffb87046522897a570d5":[13,0,2,4,1,0,27,0],
-"d8/d96/lutimes__time32_8c.html#acf73f567ada4f51825a1bcec362973a0":[13,0,2,4,1,0,27,1],
-"d8/d96/lutimes__time32_8c_source.html":[13,0,2,4,1,0,27],
-"d8/d96/musl_2src_2math_2asinhl_8c.html":[13,0,2,4,5,19,56],
 "d8/d96/musl_2src_2math_2asinhl_8c_source.html":[13,0,2,4,5,19,56],
 "d8/d97/powerpc64_2crti_8s.html":[13,0,2,4,2,9,0],
 "d8/d97/powerpc64_2crti_8s_source.html":[13,0,2,4,2,9,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX210 =
 "d8/da8/utmpx_8c.html#ae62464baeb47bb25f7327ffec29efffb":[13,0,2,4,5,15,14,7],
 "d8/da8/utmpx_8c.html#aec344f7911d60551d08b015e7e7c4725":[13,0,2,4,5,15,14,2],
 "d8/da8/utmpx_8c_source.html":[13,0,2,4,5,15,14],
-"d8/da9/Lynx_2UEFI_2Makefile.html":[13,0,1,1,1]
+"d8/da9/Lynx_2UEFI_2Makefile.html":[13,0,1,1,1],
+"d8/da9/Lynx_2UEFI_2Makefile_source.html":[13,0,1,1,1],
+"d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html":[13,0,2,4,5,13,1],
+"d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a005dd6da84413bc5f74e3766591b08a0":[13,0,2,4,5,13,1,10],
+"d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a11f5f2ad812f4478cab88168ad0efb4c":[13,0,2,4,5,13,1,5]
 };

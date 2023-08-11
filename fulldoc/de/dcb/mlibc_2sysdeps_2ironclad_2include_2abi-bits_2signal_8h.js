@@ -6,7 +6,7 @@ var mlibc_2sysdeps_2ironclad_2include_2abi_bits_2signal_8h =
     ] ],
     [ "siginfo_t", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t", [
       [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a143aaaf286004b63c3a9c8074cc85930", null ],
-      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a0322956190f4071f3a668e38ed5702fb", null ],
+      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#ad6db9bd6332ae013943011dec3da4324", null ],
       [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a74388bd3820e4abddd86965ab66693dd", null ],
       [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a7f6a35c53086a3221970c75d0cb2c256", null ],
       [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a4618ac796f0f4ff7b7a3bae468058d88", null ],

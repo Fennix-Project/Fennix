@@ -3,7 +3,7 @@ var amd64_2cpu_2apic_8hpp =
     [ "__packed", "d3/d88/namespaceAPIC.html#d5/d0e/unionAPIC_1_1____packed", [
       [ "raw", "d3/d88/namespaceAPIC.html#aace9fc1d515a705a6af03acb4f1f1353", null ],
       [ "split", "d3/d88/namespaceAPIC.html#ac0a7c3e3fca24f7ba480fd6b9a12f56c", null ],
-      [ "split", "d3/d88/namespaceAPIC.html#ae30d717ec9f340bba84c68b0bd6332eb", null ]
+      [ "split", "d3/d88/namespaceAPIC.html#a9bb8a0b1a630cdaca28908352e0b0a27", null ]
     ] ],
     [ "APIC", "d4/da9/classAPIC_1_1APIC.html", "d4/da9/classAPIC_1_1APIC" ],
     [ "Timer", "df/d9c/classAPIC_1_1Timer.html", "df/d9c/classAPIC_1_1Timer" ],

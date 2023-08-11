@@ -49,13 +49,13 @@ var NAVTREE =
       [ "Version 3", "db/d7b/md_Userspace_mlibc_ABI_BREAKS.html#autotoc_md18", null ]
     ] ],
     [ "mlibc is a C standard library", "d5/d4a/md_Userspace_mlibc_README.html", [
-      [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md22", null ],
-      [ "Porting mlibc to a new OS", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md23", null ],
-      [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md24", null ],
-      [ "Running Tests", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md25", null ]
+      [ "Design of the library", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md20", null ],
+      [ "Porting mlibc to a new OS", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md21", null ],
+      [ "Build Configuration", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md22", null ],
+      [ "Running Tests", "d5/d4a/md_Userspace_mlibc_README.html#autotoc_md23", null ]
     ] ],
     [ "Versioning", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html", [
-      [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md21", null ]
+      [ "Release schedule", "d2/d38/md_Userspace_mlibc_RELEASE_PROCEDURE.html#autotoc_md25", null ]
     ] ],
     [ "Userspace", "d1/df9/md_Userspace_README.html", null ],
     [ "Modules", "modules.html", "modules" ],
@@ -192,7 +192,7 @@ var NAVTREEINDEX =
 "d4/d6d/musl_2include_2sys_2ioctl_8h.html#a95f636959db925ff1e636974f29381a0",
 "d4/d7d/musl_2arch_2mips_2bits_2fenv_8h.html#a6e24165ff28571734b3e14530219faab",
 "d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#adeeef1f5349095dcbfdf2df0dea3e41b",
-"d4/d9c/musl_2include_2netinet_2in_8h.html#a0e7561ab60e7b842530f48558199d036",
+"d4/d9c/musl_2include_2netinet_2in_8h.html#a104d988ebaa331a085f20243b49117b4",
 "d4/d9c/musl_2include_2netinet_2in_8h.html#a4b845bbed91f6c411e201ca6466f0cec",
 "d4/d9c/musl_2include_2netinet_2in_8h.html#aa1bcfd95f49ebe47cae8e85470fecbd4",
 "d4/d9c/musl_2include_2netinet_2in_8h.html#ae89eef5c2b45ce0a177379755edecafa",

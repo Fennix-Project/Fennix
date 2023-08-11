@@ -2,8 +2,8 @@ var searchData=
 [
   ['bang_49468',['BANG',['../d4/d0b/y_8tab_8h.html#a15c9f7bd2f0e9686df5d9df4f3314aa9a220fa389cdbdc1e8cd33f70c1f793d3c',1,'BANG():&#160;y.tab.h'],['../d5/def/y_8tab_8c.html#a15c9f7bd2f0e9686df5d9df4f3314aa9a220fa389cdbdc1e8cd33f70c1f793d3c',1,'BANG():&#160;y.tab.c']]],
   ['bar_5fand_49469',['BAR_AND',['../d5/def/y_8tab_8c.html#a15c9f7bd2f0e9686df5d9df4f3314aa9a50fc7eb1a68df4766dba3d9a6fdcd2db',1,'BAR_AND():&#160;y.tab.c'],['../d4/d0b/y_8tab_8h.html#a15c9f7bd2f0e9686df5d9df4f3314aa9a50fc7eb1a68df4766dba3d9a6fdcd2db',1,'BAR_AND():&#160;y.tab.h']]],
-  ['bare_49470',['BARE',['../d3/d61/vfprintf_8c.html#ad0dbe611dd282845a1b1c621fbcfbe00aefaf756c7499f3fe43d08e2016e42a06',1,'BARE():&#160;vfprintf.c'],['../d1/d40/vfwprintf_8c.html#a5ae760a5c9b7253fc22419bcd09c6a5eaefaf756c7499f3fe43d08e2016e42a06',1,'BARE():&#160;vfwprintf.c']]],
-  ['biglpre_49471',['BIGLPRE',['../d3/d61/vfprintf_8c.html#ad0dbe611dd282845a1b1c621fbcfbe00a6553930940d0325d6c4e3e8a5490d6ad',1,'BIGLPRE():&#160;vfprintf.c'],['../d1/d40/vfwprintf_8c.html#a5ae760a5c9b7253fc22419bcd09c6a5ea6553930940d0325d6c4e3e8a5490d6ad',1,'BIGLPRE():&#160;vfwprintf.c']]],
+  ['bare_49470',['BARE',['../d3/d61/vfprintf_8c.html#a5ae760a5c9b7253fc22419bcd09c6a5eaefaf756c7499f3fe43d08e2016e42a06',1,'BARE():&#160;vfprintf.c'],['../d1/d40/vfwprintf_8c.html#ad0dbe611dd282845a1b1c621fbcfbe00aefaf756c7499f3fe43d08e2016e42a06',1,'BARE():&#160;vfwprintf.c']]],
+  ['biglpre_49471',['BIGLPRE',['../d3/d61/vfprintf_8c.html#a5ae760a5c9b7253fc22419bcd09c6a5ea6553930940d0325d6c4e3e8a5490d6ad',1,'BIGLPRE():&#160;vfprintf.c'],['../d1/d40/vfwprintf_8c.html#ad0dbe611dd282845a1b1c621fbcfbe00a6553930940d0325d6c4e3e8a5490d6ad',1,'BIGLPRE():&#160;vfwprintf.c']]],
   ['blazedwus_49472',['blazeDWUS',['../d2/d78/p__spec_8h.html#ab52a6e23a834774fe851035e5095b6d2a3286170723ee6237bb08e0ce57762763',1,'p_spec.h']]],
   ['blockdev_49473',['blockdev',['../da/dd8/colors_8h.html#af547d73b85f475c4abfafdb76bf0c301ad4e1106aaa1c3fd0ce3264a54f58eddf',1,'colors.h']]],
   ['bottom_49474',['bottom',['../d2/d78/p__spec_8h.html#a61be60bd0fc3c2a1b8637d2bee8ea317a692ac8f8a4a43ac2513ce4cd90dc3ebe',1,'p_spec.h']]],

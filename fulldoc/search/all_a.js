@@ -27,7 +27,7 @@ var searchData=
   ['hack_5fspecial_5fboolean_5fvar_12808',['hack_special_boolean_var',['../da/df6/apps_2base_2bash_2lib_2readline_2bind_8c.html#adf5eebcf00e54f4e740b24985968df7c',1,'bind.c']]],
   ['half_12809',['half',['../d5/dac/mlibc_2options_2ansi_2musl-generic-math_2exp_8c.html#a824ae39f77337eb7e0d7294b27431926',1,'half():&#160;exp.c'],['../df/d45/mlibc_2options_2ansi_2musl-generic-math_2expf_8c.html#a630cae1d19a8b6cc5573cb88a50e736c',1,'half():&#160;expf.c']]],
   ['half_5fstretch_5ftable_12810',['half_stretch_table',['../d4/d6f/i__scale_8c.html#ada91e3b7d0145134913e2cbaa0d94e9d',1,'i_scale.c']]],
-  ['halt_12811',['Halt',['../df/dbe/cpu_8hpp.html#a1723d109de3be441538d14f47f432120',1,'cpu.hpp']]],
+  ['halt_12811',['Halt',['../df/dbe/cpu_8hpp.html#a643be30dd2659e9acee9a5372da38ecf',1,'cpu.hpp']]],
   ['handle_12812',['handle',['../d0/d3d/s__sound_8c.html#ad43cb198518ff675992e85f3ea545652',1,'channel_t']]],
   ['handle_12813',['Handle',['../d5/dff/classDriver_1_1DriverInterruptHook.html#a1faf3427bbc7f857b1d6fc8e77062f9b',1,'Driver::DriverInterruptHook::Handle()'],['../d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a860922d412527e2f1ee02e066d0ff325',1,'VirtualFileSystem::FileDescriptorTable::FileDescriptor::Handle()']]],
   ['handle_12814',['handle',['../d7/d41/builtins_8h.html#ac691203d59944ccbe8f0118abdd221e3',1,'builtin::handle()'],['../d9/d1b/i__sound_8h.html#af00649903461d89019ab9cbb3fefb5ca',1,'musicinfo_t::handle()'],['../d1/d3f/net__defs_8h.html#abeb604c8de61a380b7304dcf5ae22633',1,'_net_addr_s::handle()']]],

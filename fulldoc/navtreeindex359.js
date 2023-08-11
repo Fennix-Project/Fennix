@@ -1,5 +1,6 @@
 var NAVTREEINDEX359 =
 {
+"df/d19/Userspace_2libc_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b":[13,0,2,1,1,23,3],
 "df/d19/Userspace_2libc_2include_2types_8h.html#a35d0f98a2e507fd1be779d49da92724e":[13,0,2,1,1,23,35],
 "df/d19/Userspace_2libc_2include_2types_8h.html#a3a4bc1e426626e17f6a6e0f64decec56":[13,0,2,1,1,23,86],
 "df/d19/Userspace_2libc_2include_2types_8h.html#a3acffbd305ee72dcd4593c0d8af64a4f":[13,0,2,1,1,23,44],
@@ -248,6 +249,5 @@ var NAVTREEINDEX359 =
 "df/d1b/mlibc_2sysdeps_2managarm_2include_2abi-bits_2ptrace_8h.html#a7af0d00e499e0f4666a027ba78bd805d":[13,0,2,3,3,6,2,0,23,7],
 "df/d1b/mlibc_2sysdeps_2managarm_2include_2abi-bits_2ptrace_8h.html#a7eed8029d01d307b7bfb0d0e90cb3feb":[13,0,2,3,3,6,2,0,23,4],
 "df/d1b/mlibc_2sysdeps_2managarm_2include_2abi-bits_2ptrace_8h.html#a80767b187bbf6da893a82a91e0149b16":[13,0,2,3,3,6,2,0,23,41],
-"df/d1b/mlibc_2sysdeps_2managarm_2include_2abi-bits_2ptrace_8h.html#a86dd3fcefd9c8550a8243f1b6c38a636":[13,0,2,3,3,6,2,0,23,31],
-"df/d1b/mlibc_2sysdeps_2managarm_2include_2abi-bits_2ptrace_8h.html#a8732a447cf8264b9727671ce3db6b290":[13,0,2,3,3,6,2,0,23,12]
+"df/d1b/mlibc_2sysdeps_2managarm_2include_2abi-bits_2ptrace_8h.html#a86dd3fcefd9c8550a8243f1b6c38a636":[13,0,2,3,3,6,2,0,23,31]
 };

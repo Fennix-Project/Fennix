@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"d2/df1/mlibc_2sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a8fd17e0aa25ab2abd07477442ba1928e":[13,0,2,3,3,5,2,0,35,49],
+"d2/df1/mlibc_2sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a90ee9234e26b211a5d64c4df778f6c9f":[13,0,2,3,3,5,2,0,35,80],
 "d2/df1/mlibc_2sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a92de6c3a5fad380a69d67671987822b1":[13,0,2,3,3,5,2,0,35,14],
 "d2/df1/mlibc_2sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a957436bc6db0a0d49b081dc9b4c98ef2":[13,0,2,3,3,5,2,0,35,48],
 "d2/df1/mlibc_2sysdeps_2linux_2include_2abi-bits_2termios_8h.html#a9cf7186015f5a77e4796eee416867ab3":[13,0,2,3,3,5,2,0,35,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "d2/dff/si__class__type__info_8cpp.html":[13,0,0,7,0,5],
 "d2/dff/si__class__type__info_8cpp.html#a116ec23725ecd9653a1fa7557735fceb":[13,0,0,7,0,5,0],
 "d2/dff/si__class__type__info_8cpp_source.html":[13,0,0,7,0,5],
-"d3/d01/Kernel_2include_2lock_8hpp.html":[13,0,0,4,28],
-"d3/d01/Kernel_2include_2lock_8hpp_source.html":[13,0,0,4,28],
-"d3/d01/musl_2arch_2x86__64_2bits_2ptrace_8h.html":[13,0,2,4,0,16,0,6]
+"d3/d01/Kernel_2include_2lock_8hpp.html":[13,0,0,4,28]
 };

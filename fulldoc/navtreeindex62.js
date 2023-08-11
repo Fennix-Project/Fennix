@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"d3/d21/classACPI_1_1ACPI.html#aaf674a0bdcd5d5dafd7e1291a7e8c6e4":[13,0,0,0,2,4,5,22],
+"d3/d21/classACPI_1_1ACPI.html#ab1ea935633c2cdafc1045a4e79635887":[12,0,2,0,5,7],
 "d3/d21/classACPI_1_1ACPI.html#ab1ea935633c2cdafc1045a4e79635887":[13,0,0,0,1,3,4,7],
 "d3/d21/classACPI_1_1ACPI.html#ab1ea935633c2cdafc1045a4e79635887":[13,0,0,0,2,4,4,7],
 "d3/d21/classACPI_1_1ACPI.html#ab206186f703f6f5afbd253292bd4fbbe":[12,0,2,0,4,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "d3/d24/s390x_2atomic__arch_8h.html#aa9d447b1f9da1150501ae0fa0072b58b":[13,0,2,4,0,13,1,4],
 "d3/d24/s390x_2atomic__arch_8h.html#aab4cdf4bfeac610c9e375b467bf7a1f2":[13,0,2,4,0,13,1,5],
 "d3/d24/s390x_2atomic__arch_8h.html#acf94b42b060ee536fc750a448ccd2928":[13,0,2,4,0,13,1,1],
-"d3/d24/s390x_2atomic__arch_8h_source.html":[13,0,2,4,0,13,1],
-"d3/d25/gethostbyname2__r_8c.html":[13,0,2,4,5,24,17],
-"d3/d25/gethostbyname2__r_8c.html#a369266c24eacffb87046522897a570d5":[13,0,2,4,5,24,17,0]
+"d3/d24/s390x_2atomic__arch_8h_source.html":[13,0,2,4,0,13,1]
 };

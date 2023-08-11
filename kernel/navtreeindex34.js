@@ -1,7 +1,5 @@
 var NAVTREEINDEX34 =
 {
-"d7/df8/namespaceCPU_1_1x86.html#a19ba7a384228d6b62668aa85045199e6a2797d0cdefe25160ae2c67aa508f1636":[5,0,7,3,3,166],
-"d7/df8/namespaceCPU_1_1x86.html#a19ba7a384228d6b62668aa85045199e6a281703c52ecbc53c40e43f88e36d084a":[5,0,7,3,3,38],
 "d7/df8/namespaceCPU_1_1x86.html#a19ba7a384228d6b62668aa85045199e6a28611aa5ebde640115b3d16a62ad60a3":[5,0,7,3,3,175],
 "d7/df8/namespaceCPU_1_1x86.html#a19ba7a384228d6b62668aa85045199e6a290e0581f16065c6b9ce74b9d02aa829":[5,0,7,3,3,242],
 "d7/df8/namespaceCPU_1_1x86.html#a19ba7a384228d6b62668aa85045199e6a29225d8fdcf491e3c55f6e67faa6a128":[5,0,7,3,3,102],
@@ -249,5 +247,7 @@ var NAVTREEINDEX34 =
 "d7/dfa/Multiboot64bitMap_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc":[7,0,0,0,1,0,1,1,6,23],
 "d7/dfa/Multiboot64bitMap_8cpp.html#af797a44ecd02ca870927a67a3cb0ea89":[7,0,0,0,1,0,1,1,6,7],
 "d7/dfa/Multiboot64bitMap_8cpp.html#af84b20d77e2743ef6c041a567de9bc12":[7,0,0,0,1,0,1,1,6,27],
-"d7/dfa/Multiboot64bitMap_8cpp.html#d0/d1e/structPageTable4":[7,0,0,0,1,0,1,1,6,0]
+"d7/dfa/Multiboot64bitMap_8cpp.html#d0/d1e/structPageTable4":[7,0,0,0,1,0,1,1,6,0],
+"d7/dfa/Multiboot64bitMap_8cpp_source.html":[7,0,0,0,1,0,1,1,6],
+"d7/dfa/namespaceCPU.html":[5,0,7]
 };

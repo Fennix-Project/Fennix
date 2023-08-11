@@ -1,9 +1,5 @@
 var NAVTREEINDEX144 =
 {
-"d5/d8c/std_8cpp.html":[13,0,0,13,5],
-"d5/d8c/std_8cpp_source.html":[13,0,0,13,5],
-"d5/d8c/sys-statvfs-stubs_8cpp.html":[13,0,2,3,2,11,0,39],
-"d5/d8c/sys-statvfs-stubs_8cpp.html#a741da60fb7c2c87f4751ae2a43d61e1a":[13,0,2,3,2,11,0,39,1],
 "d5/d8c/sys-statvfs-stubs_8cpp.html#a80356d0ee71598f6f037ba03fb53a736":[13,0,2,3,2,11,0,39,0],
 "d5/d8c/sys-statvfs-stubs_8cpp_source.html":[13,0,2,3,2,11,0,39],
 "d5/d8f/mlibc_2options_2posix_2include_2utime_8h.html":[13,0,2,3,2,11,1,32],
@@ -72,11 +68,11 @@ var NAVTREEINDEX144 =
 "d5/d8f/smbios_8hpp.html#afea14b109675868b6b1d7d5896a6b5e1":[13,0,0,1,14,13],
 "d5/d8f/smbios_8hpp_source.html":[13,0,0,1,14],
 "d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html":[12,0,13,2,2,0],
-"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a27b4890cc01b2e47011bb82dccf3f625":[12,0,13,2,2,0,2],
+"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a16c4b9af0b98da2a57245d3df8dfbc3b":[12,0,13,2,2,0,1],
 "d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a2c9a0b5906e32a3665be7d41266ce139":[12,0,13,2,2,0,0],
-"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a7fc352fcf719051930ff53a2c069a763":[12,0,13,2,2,0,1],
-"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#aa6deaef71e089d53c56c02a7624d39eb":[12,0,13,2,2,0,4],
-"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#af675acf3afd329e5df2ebfa008c196c0":[12,0,13,2,2,0,3],
+"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a4ae5fe1a0ef90154ebf2382581df8e58":[12,0,13,2,2,0,4],
+"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#ab952f7d2c3d6c4045bf9d248a2d90cd0":[12,0,13,2,2,0,2],
+"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#adb73afa85efbbe86fe3735d1fc8bef28":[12,0,13,2,2,0,3],
 "d5/d91/sysdeps_2vinix_2include_2abi-bits_2fsfilcnt__t_8h.html":[13,0,2,3,3,8,1,0,10],
 "d5/d91/sysdeps_2vinix_2include_2abi-bits_2fsfilcnt__t_8h.html#a8ce9346d6220eeccc7568de31c34d3d2":[13,0,2,3,3,8,1,0,10,0],
 "d5/d91/sysdeps_2vinix_2include_2abi-bits_2fsfilcnt__t_8h_source.html":[13,0,2,3,3,8,1,0,10],
@@ -100,6 +96,8 @@ var NAVTREEINDEX144 =
 "d5/d99/pthread__mutex__init_8c.html":[13,0,2,4,5,40,84],
 "d5/d99/pthread__mutex__init_8c.html#a87bf9fe646fd68c7de03742bfec8934b":[13,0,2,4,5,40,84,0],
 "d5/d99/pthread__mutex__init_8c_source.html":[13,0,2,4,5,40,84],
+"d5/d9b/i386_2Bootstrap_2Multiboot_22_2Start_8s.html":[13,0,0,0,2,0,0,1,6],
+"d5/d9b/i386_2Bootstrap_2Multiboot_22_2Start_8s_source.html":[13,0,0,0,2,0,0,1,6],
 "d5/d9b/struct__shtimer.html":[12,0,148],
 "d5/d9b/struct__shtimer.html#a04cad8b9f11f2444cee67236eaeb91cd":[12,0,148,8],
 "d5/d9b/struct__shtimer.html#a1aa79e9f158322c021b353c18e4f058d":[12,0,148,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX144 =
 "d5/d9f/d__player_8h.html#ace5ea132b140fd1cf9787320e6636f51":[13,0,2,0,2,0,0,0,17,1,2],
 "d5/d9f/d__player_8h.html#ad49ee71a61b008410e3200d7fe339696":[13,0,2,0,2,0,0,0,17,0,8],
 "d5/d9f/d__player_8h.html#ad608ede427c4685716aea0c8c1862641":[13,0,2,0,2,0,0,0,17,0,10],
-"d5/d9f/d__player_8h.html#ad9233a21e1b35afa32f3dba65ba90012":[13,0,2,0,2,0,0,0,17,0,29]
+"d5/d9f/d__player_8h.html#ad9233a21e1b35afa32f3dba65ba90012":[13,0,2,0,2,0,0,0,17,0,29],
+"d5/d9f/d__player_8h.html#ada25a40d7b7c97803b1353144b7da381":[13,0,2,0,2,0,0,0,17,0,17],
+"d5/d9f/d__player_8h.html#ae2089b9b39b210f2774685c6684cb56b":[13,0,2,0,2,0,0,0,17,2,6]
 };

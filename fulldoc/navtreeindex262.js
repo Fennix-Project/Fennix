@@ -1,6 +1,5 @@
 var NAVTREEINDEX262 =
 {
-"da/df1/mkbuiltins_8c.html#a18730123b929f286908dff098c72e8f9":[13,0,2,0,0,0,0,9,56],
 "da/df1/mkbuiltins_8c.html#a198eeda44640f25891d7a519ef0b215c":[13,0,2,0,0,0,0,9,37],
 "da/df1/mkbuiltins_8c.html#a1a88d0994e7f31e2f61f2a41eac7f5b0":[13,0,2,0,0,0,0,9,16],
 "da/df1/mkbuiltins_8c.html#a1ad3799371381bd5f22910c0e0911718":[13,0,2,0,0,0,0,9,25],
@@ -249,5 +248,6 @@ var NAVTREEINDEX262 =
 "da/df6/apps_2base_2bash_2lib_2readline_2bind_8c.html#a9c3151501ec459ed425d891028c1709f":[13,0,2,0,0,0,4,3,3,33],
 "da/df6/apps_2base_2bash_2lib_2readline_2bind_8c.html#a9c3bbb11a0019c3af978ce65a247a667":[13,0,2,0,0,0,4,3,3,86],
 "da/df6/apps_2base_2bash_2lib_2readline_2bind_8c.html#a9d65b3ac232bcfaec4fe8a13615677c2":[13,0,2,0,0,0,4,3,3,35],
-"da/df6/apps_2base_2bash_2lib_2readline_2bind_8c.html#a9e164887a11ff5621f4c40d28b230a2e":[13,0,2,0,0,0,4,3,3,37]
+"da/df6/apps_2base_2bash_2lib_2readline_2bind_8c.html#a9e164887a11ff5621f4c40d28b230a2e":[13,0,2,0,0,0,4,3,3,37],
+"da/df6/apps_2base_2bash_2lib_2readline_2bind_8c.html#a9e3fc238fdb790372e158e83dc0b0be7":[13,0,2,0,0,0,4,3,3,18]
 };

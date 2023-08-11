@@ -1,5 +1,6 @@
 var NAVTREEINDEX273 =
 {
+"db/d83/insque_8c.html#a6eacb6b71cce0a4fe532a39b5ce8d8f9":[13,0,2,4,5,30,1,2],
 "db/d83/insque_8c.html#a7dc680d5d6d07984f96737c220058d64":[13,0,2,4,5,30,1,1],
 "db/d83/insque_8c_source.html":[13,0,2,4,5,30,1],
 "db/d83/structCPU_1_1x86_1_1AMD_1_1CPUID0x0000000D__ECX__1.html":[12,0,13,2,0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX273 =
 "db/d8a/pkt__sched_8h.html#aff6864dbf527170989e7501a538e4df8":[13,0,2,3,2,9,0,1,34,0,1],
 "db/d8a/pkt__sched_8h.html#d3/d2c/structtc__tbf__qopt":[13,0,2,3,2,9,0,1,34,1],
 "db/d8a/pkt__sched_8h.html#d4/ddf/structtc__sfb__qopt":[13,0,2,3,2,9,0,1,34,5],
-"db/d8a/pkt__sched_8h.html#da/d36/structtc__ratespec":[13,0,2,3,2,9,0,1,34,0],
-"db/d8a/pkt__sched_8h.html#db/daf/structtc__htb__opt":[13,0,2,3,2,9,0,1,34,3]
+"db/d8a/pkt__sched_8h.html#da/d36/structtc__ratespec":[13,0,2,3,2,9,0,1,34,0]
 };

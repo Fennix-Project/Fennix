@@ -1,5 +1,6 @@
 var NAVTREEINDEX358 =
 {
+"df/d14/mlibc_2options_2posix_2include_2sys_2socket_8h.html#a33eddee13432eee315b71ffb679048a7":[13,0,2,3,2,11,1,5,10,18],
 "df/d14/mlibc_2options_2posix_2include_2sys_2socket_8h.html#a41831a1f0330604f52d7b066af560f11":[13,0,2,3,2,11,1,5,10,2,1],
 "df/d14/mlibc_2options_2posix_2include_2sys_2socket_8h.html#a4ef2da5563987eb0b751e234d64ff296":[13,0,2,3,2,11,1,5,10,23],
 "df/d14/mlibc_2options_2posix_2include_2sys_2socket_8h.html#a5030628dc107655814318f76233cd07b":[13,0,2,3,2,11,1,5,10,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX358 =
 "df/d19/Userspace_2libc_2include_2types_8h.html#a2c6f97ea2d76d0cf6260c84046cdb44e":[13,0,2,1,1,23,65],
 "df/d19/Userspace_2libc_2include_2types_8h.html#a2f18db18bca26cafa95e9719de4a41ef":[13,0,2,1,1,23,11],
 "df/d19/Userspace_2libc_2include_2types_8h.html#a2fd35d0ea091e04caec504ff0042cf00":[13,0,2,1,1,23,23],
-"df/d19/Userspace_2libc_2include_2types_8h.html#a30654b4b67d97c42ca3f9b6052dda916":[13,0,2,1,1,23,60],
-"df/d19/Userspace_2libc_2include_2types_8h.html#a30e15c44c0b00e6a3ade119af60f111b":[13,0,2,1,1,23,3]
+"df/d19/Userspace_2libc_2include_2types_8h.html#a30654b4b67d97c42ca3f9b6052dda916":[13,0,2,1,1,23,60]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX248 =
 {
-"da/d4a/musl_2arch_2mips_2bits_2socket_8h.html#a8ab1e00e94a92737d3a4b407f7fa90f1":[13,0,2,4,0,6,0,18,24],
 "da/d4a/musl_2arch_2mips_2bits_2socket_8h.html#a92d045f6ee2f343d6b28830a9fec082e":[13,0,2,4,0,6,0,18,29],
 "da/d4a/musl_2arch_2mips_2bits_2socket_8h.html#a99bbb865e94524ad17e2b75ea615f546":[13,0,2,4,0,6,0,18,11],
 "da/d4a/musl_2arch_2mips_2bits_2socket_8h.html#a9d0e448a58f53814a3a6adcdf50dfa8e":[13,0,2,4,0,6,0,18,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX248 =
 "da/d55/mlibc_2sysdeps_2lemon_2include_2abi-bits_2socket_8h.html#ad05e5d66b4608d73747c4a10b802a737":[13,0,2,3,3,4,1,0,29,143],
 "da/d55/mlibc_2sysdeps_2lemon_2include_2abi-bits_2socket_8h.html#ad0709e6ae5e9dc8391369c2cda0aff5a":[13,0,2,3,3,4,1,0,29,223],
 "da/d55/mlibc_2sysdeps_2lemon_2include_2abi-bits_2socket_8h.html#ad2fef00c03b785a3d8455e46de262d95":[13,0,2,3,3,4,1,0,29,122],
-"da/d55/mlibc_2sysdeps_2lemon_2include_2abi-bits_2socket_8h.html#ad76360e0c7f11131962d3eca2033b68e":[13,0,2,3,3,4,1,0,29,219]
+"da/d55/mlibc_2sysdeps_2lemon_2include_2abi-bits_2socket_8h.html#ad76360e0c7f11131962d3eca2033b68e":[13,0,2,3,3,4,1,0,29,219],
+"da/d55/mlibc_2sysdeps_2lemon_2include_2abi-bits_2socket_8h.html#ad7f60cee1fa890abf054f8f9cbe65158":[13,0,2,3,3,4,1,0,29,144]
 };

@@ -6,6 +6,6 @@ var dir_74c5661253e5cc21187b2a763abbb176 =
     [ "GlobalDescriptorTable.cpp", "d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp.html", "d0/d1a/amd64_2cpu_2GlobalDescriptorTable_8cpp" ],
     [ "idt.hpp", "dc/da7/amd64_2cpu_2idt_8hpp.html", "dc/da7/amd64_2cpu_2idt_8hpp" ],
     [ "InterruptDescriptorTable.cpp", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp" ],
-    [ "SMPTrampoline.asm", "d4/dd4/SMPTrampoline_8asm.html", null ],
+    [ "SMPTrampoline.s", "dc/dde/SMPTrampoline_8s.html", null ],
     [ "SymmetricMultiprocessing.cpp", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html", "d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp" ]
 ];

@@ -48,6 +48,8 @@ var NAVTREEINDEX55 =
 "d2/ddc/test_8h.html#ab9c6371b6b56255e871172d5ee2ac091":[13,0,2,0,0,0,84,5],
 "d2/ddc/test_8h.html#abe29d8485983e5c60b285173fba6d0b5":[13,0,2,0,0,0,84,7],
 "d2/ddc/test_8h_source.html":[13,0,2,0,0,0,84],
+"d2/dde/amd64_2Bootstrap_2Multiboot_22_2Start_8s.html":[13,0,0,0,1,0,1,1,8],
+"d2/dde/amd64_2Bootstrap_2Multiboot_22_2Start_8s_source.html":[13,0,0,0,1,0,1,1,8],
 "d2/dde/i386_2fenv_8s.html":[13,0,2,4,5,10,2,0],
 "d2/dde/i386_2fenv_8s_source.html":[13,0,2,4,5,10,2,0],
 "d2/ddf/memalign_8c.html":[13,0,2,4,5,18,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX55 =
 "d2/de5/x86__64_2syscallnos_8h.html#a2cbfdb211aeb788929b42daace392db4":[13,0,2,3,3,5,5,1,236],
 "d2/de5/x86__64_2syscallnos_8h.html#a2d039f06f5322fc6032967c032e64d20":[13,0,2,3,3,5,5,1,220],
 "d2/de5/x86__64_2syscallnos_8h.html#a2e21eb31eab3bdf0776998726759e760":[13,0,2,3,3,5,5,1,238],
-"d2/de5/x86__64_2syscallnos_8h.html#a2e3b792497af11a300208b33b3516b3c":[13,0,2,3,3,5,5,1,58],
-"d2/de5/x86__64_2syscallnos_8h.html#a2e5e317f1ba5207b10949d783c458953":[13,0,2,3,3,5,5,1,308],
-"d2/de5/x86__64_2syscallnos_8h.html#a2ee79f3a2dbeee92c903bf89bb7dca47":[13,0,2,3,3,5,5,1,310]
+"d2/de5/x86__64_2syscallnos_8h.html#a2e3b792497af11a300208b33b3516b3c":[13,0,2,3,3,5,5,1,58]
 };

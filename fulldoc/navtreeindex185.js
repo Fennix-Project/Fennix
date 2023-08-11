@@ -1,11 +1,5 @@
 var NAVTREEINDEX185 =
 {
-"d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ac9e47c346a25e2e7edd2c9b4ca5d0262":[13,0,2,3,2,0,1,14,85],
-"d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#aca9e52813bd224e4519e0b1289abbce9":[13,0,2,3,2,0,1,14,5],
-"d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#acab9c1fe2a80b10e01858bda28a04244":[13,0,2,3,2,0,1,14,86],
-"d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ad2560a07a7528c4975660f391320faca":[13,0,2,3,2,0,1,14,11],
-"d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ad30692284fad5798ae9d9395205043c5":[13,0,2,3,2,0,1,14,18],
-"d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ad5a0ea2c21a23a380b7c30fe35fa9456":[13,0,2,3,2,0,1,14,57],
 "d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ad7c58abeaac39d4deb30324e93374b44":[13,0,2,3,2,0,1,14,19],
 "d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ad9097a94b45ce7fd649bef1505bf06c9":[13,0,2,3,2,0,1,14,74],
 "d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#ada7e63a6fb078a062192145950369d09":[13,0,2,3,2,0,1,14,12],
@@ -54,6 +48,8 @@ var NAVTREEINDEX185 =
 "d7/d5c/pthread__cleanup_8c_source.html":[13,0,2,3,4,3,29],
 "d7/d5d/musl_2src_2math_2powerpc64_2ceilf_8c.html":[13,0,2,4,5,19,6,1],
 "d7/d5d/musl_2src_2math_2powerpc64_2ceilf_8c_source.html":[13,0,2,4,5,19,6,1],
+"d7/d5e/i386_2Bootstrap_2Multiboot_21_2Start_8s.html":[13,0,0,0,2,0,0,0,2],
+"d7/d5e/i386_2Bootstrap_2Multiboot_21_2Start_8s_source.html":[13,0,0,0,2,0,0,0,2],
 "d7/d5e/musl_2src_2math_2riscv64_2copysignf_8c.html":[13,0,2,4,5,19,7,1],
 "d7/d5e/musl_2src_2math_2riscv64_2copysignf_8c_source.html":[13,0,2,4,5,19,7,1],
 "d7/d5f/namespaceInterProcessCommunication.html":[11,0,36],
@@ -249,5 +245,9 @@ var NAVTREEINDEX185 =
 "d7/d69/Userspace_2libs_2libinit_2printf_8c.html#ae705ec5d8f325983e9c04affb48d659f":[13,0,2,2,2,2,32],
 "d7/d69/Userspace_2libs_2libinit_2printf_8c.html#af43407109a0952f9ce5dee4160f21235":[13,0,2,2,2,2,40],
 "d7/d69/Userspace_2libs_2libinit_2printf_8c.html#af606869a99c94ef28f05107135230c13":[13,0,2,2,2,2,60],
-"d7/d69/Userspace_2libs_2libinit_2printf_8c_source.html":[13,0,2,2,2,2]
+"d7/d69/Userspace_2libs_2libinit_2printf_8c_source.html":[13,0,2,2,2,2],
+"d7/d6b/fileno_8c.html":[13,0,2,4,5,35,30],
+"d7/d6b/fileno_8c.html#a28fcf27d2927fa7529ef0ef91450bce8":[13,0,2,4,5,35,30,1],
+"d7/d6b/fileno_8c.html#a8262871768d894c0962fa898b9680ce4":[13,0,2,4,5,35,30,0],
+"d7/d6b/fileno_8c_source.html":[13,0,2,4,5,35,30]
 };

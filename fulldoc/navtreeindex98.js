@@ -1,6 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"d4/d7d/floatscan_8h_source.html":[13,0,2,4,5,12,9],
 "d4/d7d/musl_2arch_2arm_2bits_2setjmp_8h.html":[13,0,2,4,0,1,0,11],
 "d4/d7d/musl_2arch_2arm_2bits_2setjmp_8h.html#ae5d5fd3f46b130634c9d3ed41ebbda6e":[13,0,2,4,0,1,0,11,0],
 "d4/d7d/musl_2arch_2arm_2bits_2setjmp_8h_source.html":[13,0,2,4,0,1,0,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX98 =
 "d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#a398ef47a991a44389aa9818c98a28d24":[13,0,2,3,3,4,1,0,39,12],
 "d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#a403c070913f388ac8d97521f949533ae":[13,0,2,3,3,4,1,0,39,15],
 "d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#a5251e8fa4acd2123079bd04ef1c01955":[13,0,2,3,3,4,1,0,39,4],
-"d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#a5264b298162a1d7d8447bbf1c2fc5290":[13,0,2,3,3,4,1,0,39,25]
+"d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#a5264b298162a1d7d8447bbf1c2fc5290":[13,0,2,3,3,4,1,0,39,25],
+"d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#a57028962c2a7c0c802ca6613492f2ef3":[13,0,2,3,3,4,1,0,39,13]
 };

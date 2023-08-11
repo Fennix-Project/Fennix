@@ -1,5 +1,6 @@
 var NAVTREEINDEX275 =
 {
+"db/d96/structBootInfo.html#ade41d2010abcb019ba18cf213376d938":[13,0,0,4,0,0,5,1],
 "db/d96/structBootInfo.html#ade41d2010abcb019ba18cf213376d938":[12,0,204,5,1],
 "db/d96/structBootInfo.html#ae01ac1727fbb31d0fad56381cb6c858f":[12,0,204,9],
 "db/d96/structBootInfo.html#aefeb7b77f47d6abf82ae3c48498f4d2b":[13,0,0,4,0,0,2,3],
@@ -7,13 +8,13 @@ var NAVTREEINDEX275 =
 "db/d96/structBootInfo.html#af20195d9ca2aca3e8c401d10eb477c25":[12,0,204,10],
 "db/d96/structBootInfo.html#af3e92090babf7f7cfee8017638b4dc66":[13,0,0,4,0,0,4,2],
 "db/d96/structBootInfo.html#af3e92090babf7f7cfee8017638b4dc66":[12,0,204,4,2],
-"db/d96/structBootInfo.html#af9c40d64c0871090a237608cd029a51a":[12,0,204,3,0,2],
 "db/d96/structBootInfo.html#af9c40d64c0871090a237608cd029a51a":[13,0,0,4,0,0,2,0,2],
+"db/d96/structBootInfo.html#af9c40d64c0871090a237608cd029a51a":[12,0,204,3,0,2],
 "db/d96/structBootInfo.html#af9c40d64c0871090a237608cd029a51a":[13,0,0,4,0,0,3,2],
 "db/d96/structBootInfo.html#afa71c86662f958f9f001bb8fee4bde88":[13,0,0,4,0,0,4,1],
 "db/d96/structBootInfo.html#afa71c86662f958f9f001bb8fee4bde88":[12,0,204,4,1],
-"db/d96/structBootInfo.html#afe9278be01394e480172f6587115acc0":[12,0,204,1,5],
 "db/d96/structBootInfo.html#afe9278be01394e480172f6587115acc0":[13,0,0,4,0,0,1,5],
+"db/d96/structBootInfo.html#afe9278be01394e480172f6587115acc0":[12,0,204,1,5],
 "db/d96/structBootInfo.html#d0/d9b/structBootInfo_1_1MemoryInfo":[13,0,0,4,0,0,2],
 "db/d96/structBootInfo.html#d0/d9b/structBootInfo_1_1MemoryInfo":[12,0,204,3],
 "db/d96/structBootInfo.html#d1/d21/structBootInfo_1_1KernelInfo":[12,0,204,2],
@@ -21,12 +22,12 @@ var NAVTREEINDEX275 =
 "db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[13,0,0,4,0,0,2,0],
 "db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[12,0,204,3,0],
 "db/d96/structBootInfo.html#d2/d26/structBootInfo_1_1MemoryInfo_1_1MemoryEntryInfo":[13,0,0,4,0,0,3],
-"db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo":[12,0,204,5],
 "db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo":[13,0,0,4,0,0,5],
+"db/d96/structBootInfo.html#d2/d41/structBootInfo_1_1RSDPInfo":[12,0,204,5],
 "db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo":[13,0,0,4,0,0,8],
 "db/d96/structBootInfo.html#d4/d24/structBootInfo_1_1BootloaderInfo":[12,0,204,0],
-"db/d96/structBootInfo.html#dc/d85/structBootInfo_1_1FramebufferInfo":[13,0,0,4,0,0,1],
 "db/d96/structBootInfo.html#dc/d85/structBootInfo_1_1FramebufferInfo":[12,0,204,1],
+"db/d96/structBootInfo.html#dc/d85/structBootInfo_1_1FramebufferInfo":[13,0,0,4,0,0,1],
 "db/d96/structBootInfo.html#dd/ddd/structBootInfo_1_1KernelInfo_1_1KernelSymbolInfo":[13,0,0,4,0,0,7],
 "db/d96/structBootInfo.html#dd/ddd/structBootInfo_1_1KernelInfo_1_1KernelSymbolInfo":[13,0,0,4,0,0,6,0],
 "db/d96/structBootInfo.html#dd/ddd/structBootInfo_1_1KernelInfo_1_1KernelSymbolInfo":[12,0,204,2,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX275 =
 "db/da0/icmp6_8h.html#a6081c9a52ff41a8e00f21c15b7da55d6":[13,0,2,4,3,2,1,73],
 "db/da0/icmp6_8h.html#a61a949afe549d40f4ca7c12c049930c2":[13,0,2,4,3,2,1,1,3],
 "db/da0/icmp6_8h.html#a61bb90bc8b591515a2a3a316dafd4d6e":[13,0,2,4,3,2,1,111],
-"db/da0/icmp6_8h.html#a653aae738b94c27ebb69ed945e105066":[13,0,2,4,3,2,1,92],
-"db/da0/icmp6_8h.html#a657d34e26e3b1e82a3cec695faf5f674":[13,0,2,4,3,2,1,23]
+"db/da0/icmp6_8h.html#a653aae738b94c27ebb69ed945e105066":[13,0,2,4,3,2,1,92]
 };

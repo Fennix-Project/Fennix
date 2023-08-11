@@ -44,7 +44,7 @@ var wireless_8h =
       [ "txpower", "d5/d1f/wireless_8h.html#a4aacfcd5ddf375e1ce7a37e88a18c169", null ]
     ] ],
     [ "iwreq", "d5/d1f/wireless_8h.html#d6/d28/structiwreq", [
-      [ "ifr_ifrn", "d5/d1f/wireless_8h.html#a776e40fa4faf6d0c3e5614226927d58e", null ],
+      [ "ifr_ifrn", "d5/d1f/wireless_8h.html#a31659898c6a8fbbfa25864353fdb1b0b", null ],
       [ "u", "d5/d1f/wireless_8h.html#ad86c5a8a562da83ba492b06b502bca33", null ]
     ] ],
     [ "iwreq.ifr_ifrn", "d5/d1f/wireless_8h.html#de/d5b/unioniwreq_8ifr__ifrn", [

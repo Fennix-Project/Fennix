@@ -1,5 +1,7 @@
 var NAVTREEINDEX92 =
 {
+"d4/d21/musl_2arch_2powerpc_2bits_2termios_8h.html#abd0c2389a768405ef39c86fe8cf5c7ec":[13,0,2,4,0,10,0,20,54],
+"d4/d21/musl_2arch_2powerpc_2bits_2termios_8h.html#ac4f671a0015eb258fcbfaf62bd5a9b17":[13,0,2,4,0,10,0,20,72],
 "d4/d21/musl_2arch_2powerpc_2bits_2termios_8h.html#ac80dbb0a432ec6bcb0eaaf9ff9d6d8e2":[13,0,2,4,0,10,0,20,3],
 "d4/d21/musl_2arch_2powerpc_2bits_2termios_8h.html#ac8f494082416f4d63fde6c6289c4968d":[13,0,2,4,0,10,0,20,13],
 "d4/d21/musl_2arch_2powerpc_2bits_2termios_8h.html#acb80c15451346a6ae479344124cea120":[13,0,2,4,0,10,0,20,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX92 =
 "d4/d31/mlibc_2tests_2posix_2getcwd_8c.html":[13,0,2,3,4,3,10],
 "d4/d31/mlibc_2tests_2posix_2getcwd_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[13,0,2,3,4,3,10,0],
 "d4/d31/mlibc_2tests_2posix_2getcwd_8c_source.html":[13,0,2,3,4,3,10],
-"d4/d31/musl_2include_2getopt_8h.html":[13,0,2,4,3,28],
-"d4/d31/musl_2include_2getopt_8h.html#a13bd155ec3b405d29c41ab8d0793be11":[13,0,2,4,3,28,0,3],
-"d4/d31/musl_2include_2getopt_8h.html#a13bd155ec3b405d29c41ab8d0793be11":[13,0,2,3,2,4,1,13,0,3]
+"d4/d31/musl_2include_2getopt_8h.html":[13,0,2,4,3,28]
 };

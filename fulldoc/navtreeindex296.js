@@ -1,5 +1,6 @@
 var NAVTREEINDEX296 =
 {
+"dc/d32/ioctl_8c.html#ac5c0ef574f6625679e42beaf9dd285e9":[13,0,2,4,5,20,22,0,3],
 "dc/d32/ioctl_8c.html#ad63cd24df5aed7f328bc3cf5da23f7a8":[13,0,2,4,5,20,22,4],
 "dc/d32/ioctl_8c.html#ad6c18d6a472eb512e8c32238fcd58732":[13,0,2,4,5,20,22,10],
 "dc/d32/ioctl_8c.html#adbcb2cf49651bf55398702c8e57b13fd":[13,0,2,4,5,20,22,3],
@@ -189,11 +190,11 @@ var NAVTREEINDEX296 =
 "dc/d49/riscv64-include_2mlibc_2arch-defs_8hpp.html":[13,0,2,3,2,6,5,0,0],
 "dc/d49/riscv64-include_2mlibc_2arch-defs_8hpp_source.html":[13,0,2,3,2,6,5,0,0],
 "dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html":[12,0,13,2,2,13],
-"dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html#a2300a4379de1f54ab892eadb8cdf9b35":[12,0,13,2,2,13,3],
-"dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html#a3d1a0b7a2e710e9a16776c2f94a5d183":[12,0,13,2,2,13,4],
-"dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html#a8d8a5917a046a8ac68332f7cb477e05d":[12,0,13,2,2,13,1],
 "dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html#a935081d04018ec2573182a443b5e6a5e":[12,0,13,2,2,13,0],
-"dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html#ae76f509ae20264659d4d3f25acc33184":[12,0,13,2,2,13,2],
+"dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html#a9af5b6df954589b32097295cbb675fd6":[12,0,13,2,2,13,1],
+"dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html#aa905b99fb70b7d22eabd6d0b65333cd9":[12,0,13,2,2,13,2],
+"dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html#ab1d2ef8a47baf1b4692b9ac0bd64dcc7":[12,0,13,2,2,13,3],
+"dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html#ae1a6102bb73f77e70eeb1ea7dc5aaf0c":[12,0,13,2,2,13,4],
 "dc/d4b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000001.html#af1f1ff83c4d8a19527dbfc335f9d7b41":[12,0,13,2,2,13,5],
 "dc/d4d/execv_8c.html":[13,0,2,4,5,27,12],
 "dc/d4d/execv_8c.html#a09fe4c716afd8b742c14d504555cf564":[13,0,2,4,5,27,12,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX296 =
 "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a3795d3c1f1d30819be56da4e4d67f64b":[13,0,2,3,2,0,1,11,93],
 "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a3899e3a43011b8fe89e4df3860d8495d":[13,0,2,3,2,0,1,11,220],
 "dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a38b7703c78f40644c784390cba79fd86":[13,0,2,3,2,0,1,11,188],
-"dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a38bd88274dc5594b4826fd60c8054c8e":[13,0,2,3,2,0,1,11,164],
-"dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a396c6a553500a355627741e234045bf4":[13,0,2,3,2,0,1,11,83]
+"dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a38bd88274dc5594b4826fd60c8054c8e":[13,0,2,3,2,0,1,11,164]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a1c3206485f073c8bb9c73ef4668e5713":[5,0,35,1,27],
-"d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a1c433551056583119f1369442f6ff491":[5,0,35,1,78],
 "d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a1c6d5220acdab2c4a260a6fccdcb6c5c":[5,0,35,1,67],
 "d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a1d53d7cd73b4dc9793db128ff03406b3":[5,0,35,1,56],
 "d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a201627010868e6bcba755cd741e62a5a":[5,0,35,1,29],
@@ -249,5 +247,7 @@ var NAVTREEINDEX26 =
 "d5/d83/namespaceGigabit.html#a23caa63452998ac327febb265d84f241a9a3aeec11b03552958c4e44b97164af3":[5,0,13,3,4],
 "d5/d83/namespaceGigabit.html#a23caa63452998ac327febb265d84f241ab7bd84c567481f05e22fbf73a2ee7827":[5,0,13,3,5],
 "d5/d83/namespaceGigabit.html#a23caa63452998ac327febb265d84f241ae3565603fb3a38826045e605ce56da04":[5,0,13,3,2],
-"d5/d83/namespaceGigabit.html#a23caa63452998ac327febb265d84f241ae3b0204db4ea7aa39d583590415cb8b8":[5,0,13,3,0]
+"d5/d83/namespaceGigabit.html#a23caa63452998ac327febb265d84f241ae3b0204db4ea7aa39d583590415cb8b8":[5,0,13,3,0],
+"d5/d83/namespaceGigabit.html#a2d149b49129893e23b80789714d1ee71":[5,0,13,23],
+"d5/d83/namespaceGigabit.html#a3732ac7c6eb2fcb93b1b4446437c68ab":[5,0,13,26]
 };

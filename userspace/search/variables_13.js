@@ -467,7 +467,7 @@ var searchData=
   ['socktype_47798',['socktype',['../dd/d45/lookup_8h.html#a8c682feeabb0e88f7d03a6106e777f44',1,'service::socktype()'],['../d5/dd6/structmlibc_1_1service__buf.html#a2fd732ffca707e45d0a8ed62a8b40bbf',1,'mlibc::service_buf::socktype()']]],
   ['solidsegs_47799',['solidsegs',['../d3/d14/r__bsp_8c.html#a1df377cbda317f78abd2c9995ec68fe4',1,'r_bsp.c']]],
   ['soname_47800',['soName',['../d1/d04/structSharedObject.html#a182418945fdf9b2c74b757ad008e19b6',1,'SharedObject']]],
-  ['sort_5flist_47801',['sort_list',['../db/d80/musl_2include_2resolv_8h.html#a3191b9ac48badabb511a733b42cd695b',1,'__res_state']]],
+  ['sort_5flist_47801',['sort_list',['../db/d80/musl_2include_2resolv_8h.html#a79a78fc9f86e3e4c9407fcaba95f1759',1,'__res_state']]],
   ['sortkey_47802',['sortkey',['../dd/d45/lookup_8h.html#ab39bf9c0ac8930ef08364b1d9cb73c9a',1,'address']]],
   ['sound_5fdevices_47803',['sound_devices',['../df/d52/structsound__module__t.html#a8795bc590267cbfe5f33f067b1800542',1,'sound_module_t::sound_devices()'],['../dd/d2f/structmusic__module__t.html#a5b5588d473ddd883a52d7885add51b1b',1,'music_module_t::sound_devices()']]],
   ['sound_5fe_47804',['sound_e',['../d4/d81/m__menu_8c.html#a207c0e9076e7d6eee1c6b50874aab801',1,'m_menu.c']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX71 =
 {
+"d3/d6d/mlibc_2options_2linux_2include_2sys_2epoll_8h.html#afbb5378f8b8352fa79506ef98b984bc7":[13,0,2,3,2,8,1,5,0,25],
+"d3/d6d/mlibc_2options_2linux_2include_2sys_2epoll_8h_source.html":[13,0,2,3,2,8,1,5,0],
 "d3/d6e/sockios_8h.html":[13,0,2,3,2,9,0,1,39],
 "d3/d6e/sockios_8h.html#a061e530ea114a0ff3d29473a06ae40ac":[13,0,2,3,2,9,0,1,39,4],
 "d3/d6e/sockios_8h.html#a0d3de9033c4baa7dba2387516e4ba40f":[13,0,2,3,2,9,0,1,39,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX71 =
 "d3/d75/musl_2include_2net_2ethernet_8h.html#a05b33d6afd13562a40e1a00188351cff":[13,0,2,4,3,1,0,3],
 "d3/d75/musl_2include_2net_2ethernet_8h.html#a0b09f14d44f1b37e96c75b02ca7b58a7":[13,0,2,4,3,1,0,7],
 "d3/d75/musl_2include_2net_2ethernet_8h.html#a0eee73f1048c0756b951674570977ff9":[13,0,2,4,3,1,0,23],
-"d3/d75/musl_2include_2net_2ethernet_8h.html#a17471f2d0d180ef15ed20835686f42bc":[13,0,2,4,3,1,0,19],
-"d3/d75/musl_2include_2net_2ethernet_8h.html#a18647eaf51c27c7adef913666faafcec":[13,0,2,4,3,1,0,1,1],
-"d3/d75/musl_2include_2net_2ethernet_8h.html#a1c8d7d6b66fcdae8d55c88db1dd5b38d":[13,0,2,4,3,1,0,1,0]
+"d3/d75/musl_2include_2net_2ethernet_8h.html#a17471f2d0d180ef15ed20835686f42bc":[13,0,2,4,3,1,0,19]
 };

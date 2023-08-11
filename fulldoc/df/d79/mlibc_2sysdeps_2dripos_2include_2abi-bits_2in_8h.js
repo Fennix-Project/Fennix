@@ -13,15 +13,15 @@ var mlibc_2sysdeps_2dripos_2include_2abi_bits_2in_8h =
     [ "in6_addr", "d4/d9c/musl_2include_2netinet_2in_8h.html#d4/d7d/structin6__addr", [
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a830a035b013c6fb92f5e596e163b9644", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a2482029abe761bede41140a07110a655", null ],
-      [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a7443fdc26c315a15e81f02c033e2227e", null ],
+      [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a1e1ddbce6fb8c696873e54b33a7c9015", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#af83d9ccd890f498bcf67e877ebca0077", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a28a761775d2e5e8846b0d8d0fcac464f", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#ad9884a092b2d8516849be2e5e3175983", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#ae403194155db44cc64816931c324a08c", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#aad3215d33ceaac318a67a6e1ae990f6e", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#aecd6d8cfd54ec51353ff7b94c79ac7df", null ],
-      [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a9911f796df6d858b9894d2f35b9e49a2", null ],
-      [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#aad71b8bf9eca3bb7c563c5fbe17b544b", null ]
+      [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a49a0d2cdc4039fdd17f5ea9efb20df11", null ],
+      [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a5108c735c2a60521c4b8a48747d44331", null ]
     ] ],
     [ "in6_pktinfo", "de/d25/mlibc_2sysdeps_2vinix_2include_2abi-bits_2in_8h.html#da/d47/structin6__pktinfo", [
       [ "ipi6_addr", "de/d25/mlibc_2sysdeps_2vinix_2include_2abi-bits_2in_8h.html#a87b026872bd4ab42bc948a1951f0922b", null ],

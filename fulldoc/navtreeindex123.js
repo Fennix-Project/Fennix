@@ -1,9 +1,5 @@
 var NAVTREEINDEX123 =
 {
-"d5/d3e/musl_2include_2sys_2socket_8h.html#a9d41f314e262b43c69167885dc22f4ee":[13,0,2,4,3,5,39,257],
-"d5/d3e/musl_2include_2sys_2socket_8h.html#a9dbc641eb342d3ad19f1162305d268d6":[13,0,2,4,3,5,39,167],
-"d5/d3e/musl_2include_2sys_2socket_8h.html#a9e387a12de2eb287a6e24e9d336ca671":[13,0,2,4,3,5,39,87],
-"d5/d3e/musl_2include_2sys_2socket_8h.html#a9e6d2831dfdfe9bed76f39f07f151445":[13,0,2,4,3,5,39,165],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#a9e8ff97d402c99551cbfd564e9e10a74":[13,0,2,3,0,4,29,0,3],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#a9e8ff97d402c99551cbfd564e9e10a74":[13,0,2,3,0,6,22,0,3],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#a9e8ff97d402c99551cbfd564e9e10a74":[13,0,2,4,3,5,39,0,3],
@@ -101,8 +97,8 @@ var NAVTREEINDEX123 =
 "d5/d3e/musl_2include_2sys_2socket_8h.html#ac23c08657b5f48364c658ee1c548936c":[13,0,2,3,3,5,2,0,29,0,2],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#ac23c08657b5f48364c658ee1c548936c":[13,0,2,3,3,6,2,0,29,0,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#ac23c08657b5f48364c658ee1c548936c":[13,0,2,3,3,6,2,0,29,0,2],
-"d5/d3e/musl_2include_2sys_2socket_8h.html#ac23c08657b5f48364c658ee1c548936c":[13,0,2,3,3,8,1,0,29,0,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#ac23c08657b5f48364c658ee1c548936c":[13,0,2,3,3,8,1,0,29,0,2],
+"d5/d3e/musl_2include_2sys_2socket_8h.html#ac23c08657b5f48364c658ee1c548936c":[13,0,2,3,3,8,1,0,29,0,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#ac337901f5606f0cf6f8e9867ef3fc1c4":[13,0,2,4,3,5,39,218],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#ac33d22aa543d9a3c70d6e10bbe1d2efb":[13,0,2,4,3,5,39,184],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#ac399c58e5fb579921fa80cdf7c386293":[13,0,2,4,3,5,39,124],
@@ -166,8 +162,8 @@ var NAVTREEINDEX123 =
 "d5/d3e/musl_2include_2sys_2socket_8h.html#afe751ce3bf358951bd9b7135679e6431":[13,0,2,4,3,5,39,117],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#affb5715b9a01723adbf3ad27918575c6":[13,0,2,4,3,5,39,224],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d6d/structsockaddr__storage":[13,0,2,3,0,4,29,1],
-"d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d6d/structsockaddr__storage":[13,0,2,3,0,6,22,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d6d/structsockaddr__storage":[13,0,2,4,3,5,39,4],
+"d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d6d/structsockaddr__storage":[13,0,2,3,0,6,22,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d6d/structsockaddr__storage":[13,0,2,3,3,0,1,0,29,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d6d/structsockaddr__storage":[13,0,2,3,3,1,1,0,28,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d6d/structsockaddr__storage":[13,0,2,3,3,2,1,0,29,1],
@@ -176,8 +172,8 @@ var NAVTREEINDEX123 =
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d6d/structsockaddr__storage":[13,0,2,3,3,5,2,0,29,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d6d/structsockaddr__storage":[13,0,2,3,3,6,2,0,29,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d6d/structsockaddr__storage":[13,0,2,3,3,8,1,0,29,1],
-"d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d85/structlinger":[13,0,2,3,2,11,1,5,10,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d85/structlinger":[13,0,2,4,3,5,39,2],
+"d5/d3e/musl_2include_2sys_2socket_8h.html#d0/d85/structlinger":[13,0,2,3,2,11,1,5,10,1],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d1/d4e/structmsghdr":[13,0,2,3,0,4,29,0],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d1/d4e/structmsghdr":[13,0,2,3,0,6,22,0],
 "d5/d3e/musl_2include_2sys_2socket_8h.html#d1/d4e/structmsghdr":[13,0,2,4,3,5,39,0],
@@ -249,5 +245,9 @@ var NAVTREEINDEX123 =
 "d5/d44/musl_2arch_2mipsn32_2bits_2user_8h.html#a5a885dea17a9c5870f247545c89f397c":[13,0,2,4,0,8,0,23,4],
 "d5/d44/musl_2arch_2mipsn32_2bits_2user_8h.html#a9ed08f298a9f42034240d1e962191d83":[13,0,2,4,0,8,0,23,3],
 "d5/d44/musl_2arch_2mipsn32_2bits_2user_8h.html#ab513006b06995fd7df07ab7c5bb1015e":[13,0,2,4,0,8,0,23,5],
-"d5/d44/musl_2arch_2mipsn32_2bits_2user_8h.html#afb1233037443a7c048dd19b4a84e57b0":[13,0,2,4,0,8,0,23,2]
+"d5/d44/musl_2arch_2mipsn32_2bits_2user_8h.html#afb1233037443a7c048dd19b4a84e57b0":[13,0,2,4,0,8,0,23,2],
+"d5/d44/musl_2arch_2mipsn32_2bits_2user_8h_source.html":[13,0,2,4,0,8,0,23],
+"d5/d46/abis_2mlibc_2mode__t_8h.html":[13,0,2,3,0,6,13],
+"d5/d46/abis_2mlibc_2mode__t_8h.html#a8a35dd1207a16dfa8b1d4163176d828c":[13,0,2,3,0,6,13,0],
+"d5/d46/abis_2mlibc_2mode__t_8h_source.html":[13,0,2,3,0,6,13]
 };

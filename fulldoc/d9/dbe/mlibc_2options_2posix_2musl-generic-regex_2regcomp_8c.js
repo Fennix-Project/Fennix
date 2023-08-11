@@ -179,6 +179,6 @@ var mlibc_2options_2posix_2musl_generic_regex_2regcomp_8c =
     [ "tre_stack_new", "d9/dbe/mlibc_2options_2posix_2musl-generic-regex_2regcomp_8c.html#a714bb9af38c3d18cbef8bf09196ffcf9", null ],
     [ "tre_stack_num_objects", "d9/dbe/mlibc_2options_2posix_2musl-generic-regex_2regcomp_8c.html#a20cc7e9c59bccd2040fe8c1b941ddf2b", null ],
     [ "tre_stack_push", "d9/dbe/mlibc_2options_2posix_2musl-generic-regex_2regcomp_8c.html#a46f6302c4c440158a334ebb7be9d35ab", null ],
-    [ "tre_macros", "d9/dbe/mlibc_2options_2posix_2musl-generic-regex_2regcomp_8c.html#a842c68f1c21967d8a4249ae5298ec6c8", null ],
+    [ "tre_macros", "d9/dbe/mlibc_2options_2posix_2musl-generic-regex_2regcomp_8c.html#af5c0529ae19ec8909a3da6f0cf357a4c", null ],
     [ "tre_parse_ctx_t", "d9/dbe/mlibc_2options_2posix_2musl-generic-regex_2regcomp_8c.html#a15b75d8c88e55a8b2d731afcad3e498b", null ]
 ];

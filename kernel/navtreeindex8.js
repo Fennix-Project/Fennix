@@ -105,8 +105,6 @@ var NAVTREEINDEX8 =
 "d1/d97/PCNET_8cpp_source.html":[7,0,0,8,0,0],
 "d1/d9a/SmartHeap_8cpp.html":[7,0,0,1,2,7],
 "d1/d9a/SmartHeap_8cpp_source.html":[7,0,0,1,2,7],
-"d1/d9c/amd64_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8asm.html":[7,0,0,0,1,0,1,1,7],
-"d1/d9c/amd64_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8asm_source.html":[7,0,0,0,1,0,1,1,7],
 "d1/d9d/Power_8cpp.html":[7,0,0,1,12],
 "d1/d9d/Power_8cpp_source.html":[7,0,0,1,12],
 "d1/d9e/elf_8h.html":[7,0,0,4,17],
@@ -249,5 +247,7 @@ var NAVTREEINDEX8 =
 "d1/d9e/elf_8h.html#a370bb33de42069f09315e96d5f8053bbafc5e563b8644867d7f259a47a83d4d2d":[7,0,0,4,17,255,61],
 "d1/d9e/elf_8h.html#a38476fe4ed88ac83ba86a4e103199a86":[7,0,0,4,17,230],
 "d1/d9e/elf_8h.html#a3af4f5f1ead2aefe753e2709ef5218ed":[7,0,0,4,17,8,1],
-"d1/d9e/elf_8h.html#a3b0db6c4c1f251f6e979dc66d654d52c":[7,0,0,4,17,51]
+"d1/d9e/elf_8h.html#a3b0db6c4c1f251f6e979dc66d654d52c":[7,0,0,4,17,51],
+"d1/d9e/elf_8h.html#a3bd4dc6e5c251416e5036b88441b16ea":[7,0,0,4,17,116],
+"d1/d9e/elf_8h.html#a3c9f5feb04790dee640ecafbabfbda34":[7,0,0,4,17,1,13]
 };

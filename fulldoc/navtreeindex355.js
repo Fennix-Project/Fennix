@@ -1,5 +1,6 @@
 var NAVTREEINDEX355 =
 {
+"de/df9/m__controls_8c.html#ac10cd65003a356e086d2c9ca76b1a9d1":[13,0,2,0,2,0,0,0,87,44],
 "de/df9/m__controls_8c.html#ac6898c476bcb8761d3b64087ed617085":[13,0,2,0,2,0,0,0,87,112],
 "de/df9/m__controls_8c.html#ac99409eb80622a9b225cf435739964c6":[13,0,2,0,2,0,0,0,87,48],
 "de/df9/m__controls_8c.html#ace982104a94a6cff371d13470cd539ce":[13,0,2,0,2,0,0,0,87,40],
@@ -248,6 +249,5 @@ var NAVTREEINDEX355 =
 "df/d00/Userspace_2musl_2include_2pthread_8h.html#a825251ace80f45028318dec9dcb8c3cd":[13,0,2,4,3,52,1],
 "df/d00/Userspace_2musl_2include_2pthread_8h.html#a82f41395d1d8eee4f8a0d1bb9957328e":[13,0,2,4,3,52,92],
 "df/d00/Userspace_2musl_2include_2pthread_8h.html#a837d940829716500d2030306db824e42":[13,0,2,4,3,52,10],
-"df/d00/Userspace_2musl_2include_2pthread_8h.html#a84e55100366a6a8338a2af3b3f279686":[13,0,2,4,3,52,36],
-"df/d00/Userspace_2musl_2include_2pthread_8h.html#a85f2d2fde478614ed58d38be1a65e421":[13,0,2,4,3,52,104]
+"df/d00/Userspace_2musl_2include_2pthread_8h.html#a84e55100366a6a8338a2af3b3f279686":[13,0,2,4,3,52,36]
 };

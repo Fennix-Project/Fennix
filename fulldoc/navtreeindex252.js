@@ -1,6 +1,5 @@
 var NAVTREEINDEX252 =
 {
-"da/d75/Userspace_2musl_2arch_2riscv64_2bits_2stdint_8h.html#a920d4b149da0252281b6762375fb644a":[13,0,2,4,0,12,0,7,13],
 "da/d75/Userspace_2musl_2arch_2riscv64_2bits_2stdint_8h.html#a9e5742f2bae4a5283431a3c03499e3a9":[13,0,2,4,0,12,0,7,4],
 "da/d75/Userspace_2musl_2arch_2riscv64_2bits_2stdint_8h.html#aa1be3704b25b67bb824ac9f78950909c":[13,0,2,4,0,12,0,7,14],
 "da/d75/Userspace_2musl_2arch_2riscv64_2bits_2stdint_8h.html#ab2355300ea19395357e62d780f4dd073":[13,0,2,4,0,12,0,7,11],
@@ -177,11 +176,11 @@ var NAVTREEINDEX252 =
 "da/d7e/sh_2bits_2ipcstat_8h.html#a16a91ee69c3cb6bfec425e1bfd5edd18":[13,0,2,4,0,14,0,4,0],
 "da/d7e/sh_2bits_2ipcstat_8h_source.html":[13,0,2,4,0,14,0,4],
 "da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html":[12,0,13,2,0,16],
-"da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html#a652f6df4eb32c67ff67700c7da8c4093":[12,0,13,2,0,16,1],
-"da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html#a6d6727d3b85fcdb0bee6e5edc5af3d3b":[12,0,13,2,0,16,2],
+"da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html#a44420bffbea558887726ad979b178c10":[12,0,13,2,0,16,3],
+"da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html#a50007c24ddf41cac694d9bfa81cfed2b":[12,0,13,2,0,16,4],
+"da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html#ab5f7c5d5a535b1bf6771e9f895070538":[12,0,13,2,0,16,1],
 "da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html#ab9b4c098d91ebb60766f7e233fafce75":[12,0,13,2,0,16,0],
-"da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html#aba06f926f8e20ccc102d0ff37979a84b":[12,0,13,2,0,16,3],
-"da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html#ad476c3fd15f85d3b77ad9baa9c3c03bd":[12,0,13,2,0,16,4],
+"da/d7e/structCPU_1_1x86_1_1AMD_1_1CPUID0x80000003.html#ae65653f8b878bc130f79a6b8114fc890":[12,0,13,2,0,16,2],
 "da/d7f/bind__textdomain__codeset_8c.html":[13,0,2,4,5,17,3],
 "da/d7f/bind__textdomain__codeset_8c.html#a8d02d24ade4c4b8a3134591880a195fa":[13,0,2,4,5,17,3,0],
 "da/d7f/bind__textdomain__codeset_8c_source.html":[13,0,2,4,5,17,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX252 =
 "da/d80/text_8c.html#a077aef605b17631fc399c7364c682c7c":[13,0,2,0,0,0,4,3,54,12],
 "da/d80/text_8c.html#a08c1ab2ce1a472331019e10faf6ceff6":[13,0,2,0,0,0,4,3,54,63],
 "da/d80/text_8c.html#a0bf43a9552745ddc058c47767b6d325b":[13,0,2,0,0,0,4,3,54,40],
-"da/d80/text_8c.html#a0cedf8a35f0d52fcd365757d446f6723":[13,0,2,0,0,0,4,3,54,11]
+"da/d80/text_8c.html#a0cedf8a35f0d52fcd365757d446f6723":[13,0,2,0,0,0,4,3,54,11],
+"da/d80/text_8c.html#a1b27b6eab657994c8c13f0345f3d0ddf":[13,0,2,0,0,0,4,3,54,59]
 };

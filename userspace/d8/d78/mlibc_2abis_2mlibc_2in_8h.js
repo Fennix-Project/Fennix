@@ -21,7 +21,7 @@ var mlibc_2abis_2mlibc_2in_8h =
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a084acf52320ecc3262e20ce2f21de6a7", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a4b845bbed91f6c411e201ca6466f0cec", null ],
       [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a0c071ac753abc90a533705d23427eff0", null ],
-      [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a0b238c28a823ae010050275d41e0fafa", null ]
+      [ "__in6_union", "d4/d9c/musl_2include_2netinet_2in_8h.html#a188fd6eecd8f9803bf4aadd395bf440a", null ]
     ] ],
     [ "in6_pktinfo", "de/d25/mlibc_2sysdeps_2vinix_2include_2abi-bits_2in_8h.html#da/d47/structin6__pktinfo", [
       [ "ipi6_addr", "de/d25/mlibc_2sysdeps_2vinix_2include_2abi-bits_2in_8h.html#a87b026872bd4ab42bc948a1951f0922b", null ],

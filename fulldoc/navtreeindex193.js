@@ -1,9 +1,5 @@
 var NAVTREEINDEX193 =
 {
-"d7/db2/musl_2arch_2mips64_2bits_2termios_8h.html#af3c4df8e33e15100b0a9e3ae6aa02d92":[13,0,2,4,0,7,0,19,98],
-"d7/db2/musl_2arch_2mips64_2bits_2termios_8h.html#af5bd4045b436cba08feb96e15994c04b":[13,0,2,4,0,7,0,19,15],
-"d7/db2/musl_2arch_2mips64_2bits_2termios_8h.html#af9af65d3f6ca8f2ea3eecb1d06d5abd1":[13,0,2,4,0,7,0,19,56],
-"d7/db2/musl_2arch_2mips64_2bits_2termios_8h.html#af9d210a765b81afc6a40275185c4d5da":[13,0,2,4,0,7,0,19,45],
 "d7/db2/musl_2arch_2mips64_2bits_2termios_8h.html#afdce6a08e849190113d017282db3d425":[13,0,2,4,0,7,0,19,97],
 "d7/db2/musl_2arch_2mips64_2bits_2termios_8h.html#afdda6cad5fc4a9b67ba6dbe620065d91":[13,0,2,4,0,7,0,19,61],
 "d7/db2/musl_2arch_2mips64_2bits_2termios_8h_source.html":[13,0,2,4,0,7,0,19],
@@ -249,5 +245,9 @@ var NAVTREEINDEX193 =
 "d7/dc5/x32_2syscall__arch_8h.html#a6e7a4a0f048da49f13b73ee488a3d5e5":[13,0,2,4,0,15,7,17],
 "d7/dc5/x32_2syscall__arch_8h.html#a6e83b44ad228f0bdc0745ef4a177a87c":[13,0,2,4,0,15,7,19],
 "d7/dc5/x32_2syscall__arch_8h.html#a703f415cd0fa10aedfeadf0de7f621a2":[13,0,2,4,0,15,7,8],
-"d7/dc5/x32_2syscall__arch_8h.html#a7e3756f63c217662979f83d53635b5bf":[13,0,2,4,0,15,7,15]
+"d7/dc5/x32_2syscall__arch_8h.html#a7e3756f63c217662979f83d53635b5bf":[13,0,2,4,0,15,7,15],
+"d7/dc5/x32_2syscall__arch_8h.html#a85818d9712c73cb29b70dfc1a829b92d":[13,0,2,4,0,15,7,13],
+"d7/dc5/x32_2syscall__arch_8h.html#a87718796a8e5f4511a1c1188b5379a8c":[13,0,2,4,0,15,7,27],
+"d7/dc5/x32_2syscall__arch_8h.html#a8c00d07ca0f05f26f9bb743b8016cdd7":[13,0,2,4,0,15,7,7],
+"d7/dc5/x32_2syscall__arch_8h.html#a8c8fcf9b62cc3875b10f704243ea9652":[13,0,2,4,0,15,7,30]
 };

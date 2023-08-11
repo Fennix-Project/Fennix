@@ -1,5 +1,6 @@
 var NAVTREEINDEX350 =
 {
+"de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a62045b465be11891160d53c10861b16c":[13,0,2,4,0,12,0,5,17],
 "de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a633dbd7dca7d839e6af0299bd4713f0a":[13,0,2,4,0,12,0,5,16],
 "de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a682182a5e5f38fd61f4311501e9dac5d":[13,0,2,4,0,12,0,5,22],
 "de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a71403d2f5240e409e213060ea3301851":[13,0,2,4,0,12,0,5,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX350 =
 "de/dc7/stdlib-stubs_8cpp.html#a121e93809fa459b6d65a9a3dea122cb4":[13,0,2,3,2,0,0,10,45],
 "de/dc7/stdlib-stubs_8cpp.html#a1a767533f8dd5b9114680c0018e642db":[13,0,2,3,2,0,0,10,13],
 "de/dc7/stdlib-stubs_8cpp.html#a1de0f30e08cf806ce72025c63b00fba0":[13,0,2,3,2,0,0,10,20],
-"de/dc7/stdlib-stubs_8cpp.html#a20e50ab9d6b10af0e2940d9419448f42":[13,0,2,3,2,0,0,10,34],
-"de/dc7/stdlib-stubs_8cpp.html#a23dedd391d64094816798370fe84e25a":[13,0,2,3,2,0,0,10,33]
+"de/dc7/stdlib-stubs_8cpp.html#a20e50ab9d6b10af0e2940d9419448f42":[13,0,2,3,2,0,0,10,34]
 };

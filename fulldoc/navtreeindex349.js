@@ -1,5 +1,8 @@
 var NAVTREEINDEX349 =
 {
+"de/da9/i__video_8h.html#a448fd2a7879095096dc1ec2b79932c60":[13,0,2,0,2,0,0,0,75,13],
+"de/da9/i__video_8h.html#a44dee4c68fef9b7aa707e60a68cc3570":[13,0,2,0,2,0,0,0,75,26],
+"de/da9/i__video_8h.html#a4520458e24ba3f67521b65e8eb74c53e":[13,0,2,0,2,0,0,0,75,12],
 "de/da9/i__video_8h.html#a46767b18bf9368050fc4a54394a0dd07":[13,0,2,0,2,0,0,0,75,38],
 "de/da9/i__video_8h.html#a58e34723ebc88f8e7f6eab143428b696":[13,0,2,0,2,0,0,0,75,27],
 "de/da9/i__video_8h.html#a5ad845d91a388cf304c2b75b01f019e4":[13,0,2,0,2,0,0,0,75,40],
@@ -204,8 +207,6 @@ var NAVTREEINDEX349 =
 "de/db5/localcharset_8h.html":[13,0,2,0,0,0,4,1,18],
 "de/db5/localcharset_8h.html#a5d2c0879045afdfa6c14fab0ef874190":[13,0,2,0,0,0,4,1,18,0],
 "de/db5/localcharset_8h_source.html":[13,0,2,0,0,0,4,1,18],
-"de/db6/amd64_2Bootstrap_2Multiboot_21_2Start_8asm.html":[13,0,0,0,1,0,1,0,2],
-"de/db6/amd64_2Bootstrap_2Multiboot_21_2Start_8asm_source.html":[13,0,0,0,1,0,1,0,2],
 "de/db6/ext_8c.html":[13,0,2,4,5,35,18],
 "de/db6/ext_8c.html#a13447c835ce1a29e59c51bb7bf6d5c6d":[13,0,2,4,5,35,18,1],
 "de/db6/ext_8c.html#a369266c24eacffb87046522897a570d5":[13,0,2,4,5,35,18,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX349 =
 "de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a2c146e34a6b5a78dfba41cded3331181":[13,0,2,4,0,12,0,5,25],
 "de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a487309e3e9e0527535644115204a639a":[13,0,2,4,0,12,0,5,9],
 "de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a4c9c5284f8c8d146bd7a93d25017fc62":[13,0,2,4,0,12,0,5,8],
-"de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a57e9c8c5fa13bf86bc779a9f6f408b7c":[13,0,2,4,0,12,0,5,13],
-"de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a62045b465be11891160d53c10861b16c":[13,0,2,4,0,12,0,5,17]
+"de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a57e9c8c5fa13bf86bc779a9f6f408b7c":[13,0,2,4,0,12,0,5,13]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX146 =
 {
-"d5/da9/mlibc_2sysdeps_2fennix_2include_2abi-bits_2in_8h.html#a95ac9ecdbd7845274e20667d3b42cd00":[13,0,2,3,3,2,1,0,12,27],
-"d5/da9/mlibc_2sysdeps_2fennix_2include_2abi-bits_2in_8h.html#a96548646562811588d19c4e0acde1161":[13,0,2,3,3,2,1,0,12,71],
 "d5/da9/mlibc_2sysdeps_2fennix_2include_2abi-bits_2in_8h.html#a9757068bb0854aa35eb74b3f13add0ad":[13,0,2,3,3,2,1,0,12,38],
 "d5/da9/mlibc_2sysdeps_2fennix_2include_2abi-bits_2in_8h.html#a98edd0af28e1b5f97c806c9cae442339":[13,0,2,3,3,2,1,0,12,41],
 "d5/da9/mlibc_2sysdeps_2fennix_2include_2abi-bits_2in_8h.html#a9e4ad553957e03fad33dd40438fa73b4":[13,0,2,3,3,2,1,0,12,61],
@@ -94,8 +92,6 @@ var NAVTREEINDEX146 =
 "d5/dab/aero_8cpp.html#affdd63ba0bda25d867ba993896257641":[13,0,2,3,3,0,0,0,3],
 "d5/dab/aero_8cpp.html#dc/d71/structSlice":[13,0,2,3,3,0,0,0,0],
 "d5/dab/aero_8cpp_source.html":[13,0,2,3,3,0,0,0],
-"d5/dab/i386_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8asm.html":[13,0,0,0,2,0,0,1,5],
-"d5/dab/i386_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8asm_source.html":[13,0,0,0,2,0,0,1,5],
 "d5/dac/class__type__info_8cpp.html":[13,0,0,7,0,0],
 "d5/dac/class__type__info_8cpp_source.html":[13,0,0,7,0,0],
 "d5/dac/memfd_8h.html":[13,0,2,3,2,9,0,1,30],
@@ -199,8 +195,8 @@ var NAVTREEINDEX146 =
 "d5/db0/dynlink_8c.html#a2df6cf7c185957e238d5da0e2a73c0fa":[13,0,2,4,4,1,45],
 "d5/db0/dynlink_8c.html#a311a57b1b22d0c7a017817acc94a93e6":[13,0,2,4,4,1,37],
 "d5/db0/dynlink_8c.html#a34a43b59b8ce4cfa626e1f7d5fea506f":[13,0,2,4,4,1,117],
-"d5/db0/dynlink_8c.html#a34bba9841c517519491a37cc8368ce45":[13,0,2,4,4,1,2,0,0],
 "d5/db0/dynlink_8c.html#a34bba9841c517519491a37cc8368ce45":[13,0,2,4,4,1,3,0],
+"d5/db0/dynlink_8c.html#a34bba9841c517519491a37cc8368ce45":[13,0,2,4,4,1,2,0,0],
 "d5/db0/dynlink_8c.html#a369266c24eacffb87046522897a570d5":[13,0,2,4,4,1,6],
 "d5/db0/dynlink_8c.html#a37c0f64cc3044ae11f879825d861838c":[13,0,2,4,4,1,52],
 "d5/db0/dynlink_8c.html#a3831dae0c8f3a730a518537f1cda9fb3":[13,0,2,4,4,1,92],
@@ -244,10 +240,14 @@ var NAVTREEINDEX146 =
 "d5/db0/dynlink_8c.html#a6a829a61c35c66340bb9d7e6bf2b7b15":[13,0,2,4,4,1,2,45],
 "d5/db0/dynlink_8c.html#a70cbf846258de4eed281de8dd7f5a764":[13,0,2,4,4,1,36],
 "d5/db0/dynlink_8c.html#a719c96a4eec495365d8fcdb840ce7233":[13,0,2,4,4,1,2,13],
-"d5/db0/dynlink_8c.html#a7242e5260ba2c02dcfc695d6ffb18e60":[13,0,2,4,4,1,3,1],
 "d5/db0/dynlink_8c.html#a7242e5260ba2c02dcfc695d6ffb18e60":[13,0,2,4,4,1,2,0,1],
+"d5/db0/dynlink_8c.html#a7242e5260ba2c02dcfc695d6ffb18e60":[13,0,2,4,4,1,3,1],
 "d5/db0/dynlink_8c.html#a7274e160c53c26493de236e4ef991bee":[13,0,2,4,4,1,35],
 "d5/db0/dynlink_8c.html#a72a9a902b1a92b9d74d0c81b07661f9a":[13,0,2,4,4,1,80],
 "d5/db0/dynlink_8c.html#a7529509a0ed64a98309348a8ef679264":[13,0,2,4,4,1,2,17],
-"d5/db0/dynlink_8c.html#a77e8dd3f452aa4990793915a228e638c":[13,0,2,4,4,1,95]
+"d5/db0/dynlink_8c.html#a77e8dd3f452aa4990793915a228e638c":[13,0,2,4,4,1,95],
+"d5/db0/dynlink_8c.html#a787835739312bd0b46aa4bd4707e516c":[13,0,2,4,4,1,31],
+"d5/db0/dynlink_8c.html#a78d0d7293a22dc5b02302109f3a2d784":[13,0,2,4,4,1,16],
+"d5/db0/dynlink_8c.html#a78fd0e7b4c8903f281e88c06e6977fc1":[13,0,2,4,4,1,106],
+"d5/db0/dynlink_8c.html#a7a79f67c2778543f65a3b350a06d49ac":[13,0,2,4,4,1,96]
 };

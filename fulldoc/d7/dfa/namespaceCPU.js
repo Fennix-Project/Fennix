@@ -53,7 +53,7 @@ var namespaceCPU =
     [ "Interrupts", "d7/dfa/namespaceCPU.html#a1cc036b2143b4358a3857bbef3921968", null ],
     [ "Name", "d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510", null ],
     [ "PageTable", "d7/dfa/namespaceCPU.html#a24120d57f8ed5bafeeca4d7d9e74594e", null ],
-    [ "Pause", "d7/dfa/namespaceCPU.html#aa28a1c6e21b176efea57cc6bc092421e", null ],
+    [ "Pause", "d7/dfa/namespaceCPU.html#a000fcb89a8500e356b8a1efee0d389b6", null ],
     [ "Vendor", "d7/dfa/namespaceCPU.html#a5ec1ffd60694e9823ed2cb69ee1b37cd", null ],
     [ "SSEEnabled", "d7/dfa/namespaceCPU.html#a244fa33d0fa8ba7d4481cb5627cf2337", null ]
 ];

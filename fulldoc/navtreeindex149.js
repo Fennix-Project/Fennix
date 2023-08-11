@@ -1,9 +1,5 @@
 var NAVTREEINDEX149 =
 {
-"d5/dcc/settimeofday_8c_source.html":[13,0,2,4,5,16,48],
-"d5/dcd/s390x_2bits_2ioctl__fix_8h.html":[13,0,2,4,0,13,0,4],
-"d5/dcd/s390x_2bits_2ioctl__fix_8h.html#afac41aceea2ccc99dcb7052f9b743f11":[13,0,2,4,0,13,0,4,0],
-"d5/dcd/s390x_2bits_2ioctl__fix_8h_source.html":[13,0,2,4,0,13,0,4],
 "d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html":[13,0,1,1,0,0,3],
 "d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a070d2ce7b6bb7e5c05602aa8c308d0c4":[13,0,1,1,0,0,3,12],
 "d5/dce/Lynx_2UEFI_2src_2Memory_2memory_8hpp.html#a0a040753e4a4cccce6354a50184d35eb":[13,0,1,1,0,0,3,25],
@@ -249,5 +245,9 @@ var NAVTREEINDEX149 =
 "d5/dd2/getentropy_8c.html":[13,0,2,4,5,20,11],
 "d5/dd2/getentropy_8c.html#a490bbcdb19be66b49fbb80c3200bdfc7":[13,0,2,4,5,20,11,1],
 "d5/dd2/getentropy_8c.html#ad3d8a3bd0c0b677acef144f2c2ef6d73":[13,0,2,4,5,20,11,0],
-"d5/dd2/getentropy_8c_source.html":[13,0,2,4,5,20,11]
+"d5/dd2/getentropy_8c_source.html":[13,0,2,4,5,20,11],
+"d5/dd4/mlibc_2options_2ansi_2musl-generic-math_2expm1f_8c.html":[13,0,2,3,2,0,2,73],
+"d5/dd4/mlibc_2options_2ansi_2musl-generic-math_2expm1f_8c.html#a15d9c50abf07566e286496f27e3a39b1":[13,0,2,3,2,0,2,73,4],
+"d5/dd4/mlibc_2options_2ansi_2musl-generic-math_2expm1f_8c.html#a481a420fdd701473f2992df69447cc1f":[13,0,2,3,2,0,2,73,5],
+"d5/dd4/mlibc_2options_2ansi_2musl-generic-math_2expm1f_8c.html#a526801ae2b1016ee1986f3b9fe10e136":[13,0,2,3,2,0,2,73,3]
 };

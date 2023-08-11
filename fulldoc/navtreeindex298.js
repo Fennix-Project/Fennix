@@ -1,5 +1,6 @@
 var NAVTREEINDEX298 =
 {
+"dc/d53/musl_2src_2math_2log2_8c.html":[13,0,2,4,5,19,160],
 "dc/d53/musl_2src_2math_2log2_8c.html#a0240ac851181b84ac374872dc5434ee4":[13,0,2,4,5,19,160,6],
 "dc/d53/musl_2src_2math_2log2_8c.html#a0acb682b8260ab1c60b918599864e2e5":[13,0,2,4,5,19,160,8],
 "dc/d53/musl_2src_2math_2log2_8c.html#a111da81ae5883147168bbb8366377b10":[13,0,2,4,5,19,160,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX298 =
 "dc/d6d/Userspace_2musl_2arch_2s390x_2bits_2stdint_8h.html#ad93df1652ed0635513d5efe4f1219926":[13,0,2,4,0,13,0,14,3],
 "dc/d6d/Userspace_2musl_2arch_2s390x_2bits_2stdint_8h.html#ad9b88ba2fb858f98b50b38e49875d90e":[13,0,2,4,0,13,0,14,7],
 "dc/d6d/Userspace_2musl_2arch_2s390x_2bits_2stdint_8h.html#add2ef7bffac19cfdd1f4b5495409672f":[13,0,2,4,0,13,0,14,6],
-"dc/d6d/Userspace_2musl_2arch_2s390x_2bits_2stdint_8h.html#aed28ca63d9b222f6f1377358fe73a183":[13,0,2,4,0,13,0,14,9],
-"dc/d6d/Userspace_2musl_2arch_2s390x_2bits_2stdint_8h_source.html":[13,0,2,4,0,13,0,14]
+"dc/d6d/Userspace_2musl_2arch_2s390x_2bits_2stdint_8h.html#aed28ca63d9b222f6f1377358fe73a183":[13,0,2,4,0,13,0,14,9]
 };

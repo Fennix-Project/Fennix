@@ -1,7 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"da/d08/classVirtualFileSystem_1_1ReferenceNode.html#aab1b7b1f2c4236436417572a1b878b4a":[6,0,39,15,2],
-"da/d08/classVirtualFileSystem_1_1ReferenceNode.html#ac46c4077d5026b27cdc1c6c5c920a887":[6,0,39,15,4],
 "da/d08/classVirtualFileSystem_1_1ReferenceNode.html#acf032e930e1a67cc9693e6f9203b8d3d":[6,0,39,15,10],
 "da/d08/classVirtualFileSystem_1_1ReferenceNode.html#ad404a3fbb3d7c641939c56094effe77d":[6,0,39,15,13],
 "da/d08/classVirtualFileSystem_1_1ReferenceNode.html#affe88027edde7dcf868f6ac5796bd710":[6,0,39,15,12],
@@ -249,5 +247,7 @@ var NAVTREEINDEX44 =
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#a6bfa8aa28d901b8a2a489e7edef42897":[7,0,0,4,1,0,2,71,19],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#a6dc939bf0ff09cc617706100363f9371":[7,0,0,4,1,0,2,153,15],
 "da/d1a/namespaceCPU_1_1x86_1_1AMD.html#a6f0862d55fca52dbe032fa0b99e9c6b5":[7,0,0,4,1,0,2,51,16],
-"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#a6f0862d55fca52dbe032fa0b99e9c6b5":[7,0,0,4,1,0,2,155,19]
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#a6f0862d55fca52dbe032fa0b99e9c6b5":[7,0,0,4,1,0,2,155,19],
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#a6f9765157eda6418986e6a811d4df141":[7,0,0,4,1,0,2,153,16],
+"da/d1a/namespaceCPU_1_1x86_1_1AMD.html#a7020b1fc9ee9f4237b0c51ba30447642":[7,0,0,4,1,0,2,153,10]
 };

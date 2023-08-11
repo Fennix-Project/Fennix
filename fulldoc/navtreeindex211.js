@@ -1,9 +1,5 @@
 var NAVTREEINDEX211 =
 {
-"d8/da9/Lynx_2UEFI_2Makefile_source.html":[13,0,1,1,1],
-"d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html":[13,0,2,4,5,13,1],
-"d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a005dd6da84413bc5f74e3766591b08a0":[13,0,2,4,5,13,1,10],
-"d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a11f5f2ad812f4478cab88168ad0efb4c":[13,0,2,4,5,13,1,5],
 "d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a3cdab68b376a736e9bb717ae9efa62ff":[13,0,2,4,5,13,1,14],
 "d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a43cb53b868943784cc5c72ba403c0204":[13,0,2,4,5,13,1,11],
 "d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a558e2c7f434e5f54595fb871bc77dc76":[13,0,2,4,5,13,1,2],
@@ -249,5 +245,9 @@ var NAVTREEINDEX211 =
 "d8/dbb/musl_2include_2scsi_2scsi_8h.html#a36ce748328fcf825e73f959abfbb842f":[13,0,2,4,3,4,0,0,6],
 "d8/dbb/musl_2include_2scsi_2scsi_8h.html#a37d02e4d3e29d8310a651714aba5bbe2":[13,0,2,4,3,4,0,16],
 "d8/dbb/musl_2include_2scsi_2scsi_8h.html#a3d22463a23c9fb611361da672b555497":[13,0,2,4,3,4,0,81],
-"d8/dbb/musl_2include_2scsi_2scsi_8h.html#a3df1c6fc7f6732b54ac996f960dbb9b4":[13,0,2,4,3,4,0,89]
+"d8/dbb/musl_2include_2scsi_2scsi_8h.html#a3df1c6fc7f6732b54ac996f960dbb9b4":[13,0,2,4,3,4,0,89],
+"d8/dbb/musl_2include_2scsi_2scsi_8h.html#a44c384093094911baf87b2cbed68d205":[13,0,2,4,3,4,0,7],
+"d8/dbb/musl_2include_2scsi_2scsi_8h.html#a44eb0d4a0a5a3c464d0b84e18bc83ab2":[13,0,2,4,3,4,0,79],
+"d8/dbb/musl_2include_2scsi_2scsi_8h.html#a49dd1b9b14c198fd5ae226152a35df6b":[13,0,2,4,3,4,0,5],
+"d8/dbb/musl_2include_2scsi_2scsi_8h.html#a4adf7c6105c54a1608753548236d1387":[13,0,2,4,3,4,0,25]
 };

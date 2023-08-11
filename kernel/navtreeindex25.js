@@ -86,8 +86,6 @@ var NAVTREEINDEX25 =
 "d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h_source.html":[7,0,0,0,2,0,0,1,4],
 "d4/dcb/FileNode_8cpp.html":[7,0,0,3,2],
 "d4/dcb/FileNode_8cpp_source.html":[7,0,0,3,2],
-"d4/dd4/SMPTrampoline_8asm.html":[7,0,0,0,1,1,6],
-"d4/dd4/SMPTrampoline_8asm_source.html":[7,0,0,0,1,1,6],
 "d4/dde/Random_8cpp.html":[7,0,0,1,13],
 "d4/dde/Random_8cpp.html#a627ce30d9a4df06cb77a969ab621161c":[7,0,0,1,13,1],
 "d4/dde/Random_8cpp.html#a7c83f51f3638a3819673976f19d619e5":[7,0,0,1,13,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX25 =
 "d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a0dff10875652e90411c03a9cb5e76af5":[5,0,35,1,6],
 "d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a10f2bf19080bed39f0eefdcf12efb29d":[5,0,35,1,11],
 "d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a1196a2dc879e8ab63d7c3d46008fc6a7":[5,0,35,1,1],
-"d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a16f16bcf51383123f17cbc8f7fad4f14":[5,0,35,1,68]
+"d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a16f16bcf51383123f17cbc8f7fad4f14":[5,0,35,1,68],
+"d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a1c3206485f073c8bb9c73ef4668e5713":[5,0,35,1,27],
+"d5/d22/namespacePS2Keyboard.html#a7a20295571b505bbdc0820e82a637e30a1c433551056583119f1369442f6ff491":[5,0,35,1,78]
 };

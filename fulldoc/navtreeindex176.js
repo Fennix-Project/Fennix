@@ -1,11 +1,5 @@
 var NAVTREEINDEX176 =
 {
-"d7/d1d/linux__syscalls_8hpp.html#a486fa27cb42421c2285066ea0cac57b4":[13,0,0,11,0,1,5],
-"d7/d1d/linux__syscalls_8hpp.html#a4a053693e2923c3102482af69d51976d":[13,0,0,11,0,1,144],
-"d7/d1d/linux__syscalls_8hpp.html#a4a10483a52daef817cc42093d2902997":[13,0,0,11,0,1,199],
-"d7/d1d/linux__syscalls_8hpp.html#a4a6a737a1e77f56a8888997d02adc93e":[13,0,0,11,0,1,104],
-"d7/d1d/linux__syscalls_8hpp.html#a4ab73b8efda6b857a75c91babce95e98":[13,0,0,11,0,1,256],
-"d7/d1d/linux__syscalls_8hpp.html#a4b35e745def11233b890b8cd0d4e0a3a":[13,0,0,11,0,1,309],
 "d7/d1d/linux__syscalls_8hpp.html#a4c6bf28a84b3c7cb80d751d681e79e11":[13,0,0,11,0,1,66],
 "d7/d1d/linux__syscalls_8hpp.html#a4c7ce53c909a43ce2078c33323506f89":[13,0,0,11,0,1,335],
 "d7/d1d/linux__syscalls_8hpp.html#a4c8cc4c3e0ada5af29729f86d52ee9e2":[13,0,0,11,0,1,213],
@@ -249,5 +243,11 @@ var NAVTREEINDEX176 =
 "d7/d1d/linux__syscalls_8hpp.html#af69ab07fff143e0fd0923abfdeb9775a":[13,0,0,11,0,1,307],
 "d7/d1d/linux__syscalls_8hpp.html#af6a698a7058fcb148391916d1d11f1da":[13,0,0,11,0,1,62],
 "d7/d1d/linux__syscalls_8hpp.html#af6fc75f0f46798d946a21c715ec7ad0f":[13,0,0,11,0,1,88],
-"d7/d1d/linux__syscalls_8hpp.html#af832457da1c8089ea81449fc4675d30a":[13,0,0,11,0,1,338]
+"d7/d1d/linux__syscalls_8hpp.html#af832457da1c8089ea81449fc4675d30a":[13,0,0,11,0,1,338],
+"d7/d1d/linux__syscalls_8hpp.html#af8dead6a6820299cbe8b74aae499312e":[13,0,0,11,0,1,253],
+"d7/d1d/linux__syscalls_8hpp.html#afa28faed078971918a1415f2e6f92bb4":[13,0,0,11,0,1,300],
+"d7/d1d/linux__syscalls_8hpp.html#afbdb7bfc7933c212474f304dbcd783df":[13,0,0,11,0,1,343],
+"d7/d1d/linux__syscalls_8hpp.html#afc79986496d7b0c7d3896dc057648be4":[13,0,0,11,0,1,252],
+"d7/d1d/linux__syscalls_8hpp.html#afd5fbea20e74943dc641e26574649b96":[13,0,0,11,0,1,339],
+"d7/d1d/linux__syscalls_8hpp.html#afd8481bc47de1721529621e51c8820c3":[13,0,0,11,0,1,192]
 };

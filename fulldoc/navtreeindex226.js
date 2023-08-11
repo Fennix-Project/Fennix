@@ -1,9 +1,5 @@
 var NAVTREEINDEX226 =
 {
-"d9/d4d/Userspace_2mlibc_2sysdeps_2aero_2include_2abi-bits_2errno_8h.html#a0e5993319c80d5a93ed10b6253878ae5":[13,0,2,3,3,0,1,0,7,90],
-"d9/d4d/Userspace_2mlibc_2sysdeps_2aero_2include_2abi-bits_2errno_8h.html#a10426080250efba47f4aaf254036ff00":[13,0,2,3,3,0,1,0,7,101],
-"d9/d4d/Userspace_2mlibc_2sysdeps_2aero_2include_2abi-bits_2errno_8h.html#a164ca8549da7a385e2fe1cba823b9eaf":[13,0,2,3,3,0,1,0,7,33],
-"d9/d4d/Userspace_2mlibc_2sysdeps_2aero_2include_2abi-bits_2errno_8h.html#a1ef2e2afa19fd790ef00003c23fc90dd":[13,0,2,3,3,0,1,0,7,91],
 "d9/d4d/Userspace_2mlibc_2sysdeps_2aero_2include_2abi-bits_2errno_8h.html#a21e1aad43086cf76131101b31ca391cc":[13,0,2,3,3,0,1,0,7,56],
 "d9/d4d/Userspace_2mlibc_2sysdeps_2aero_2include_2abi-bits_2errno_8h.html#a251e9b536ed96ccb16aa28ca2d5bd656":[13,0,2,3,3,0,1,0,7,9],
 "d9/d4d/Userspace_2mlibc_2sysdeps_2aero_2include_2abi-bits_2errno_8h.html#a2a55c5dd8b54ff5aace6c274c6726d68":[13,0,2,3,3,0,1,0,7,93],
@@ -249,5 +245,9 @@ var NAVTREEINDEX226 =
 "d9/d4f/amd64_2cpu_2apic_8hpp.html#a5e4cfe3016d6899c18a3ab7f900e2942a894cf33e77fc5e14332afe3944c8abbf":[13,0,0,0,1,1,1,10,15],
 "d9/d4f/amd64_2cpu_2apic_8hpp.html#a5e4cfe3016d6899c18a3ab7f900e2942a8d245fdc2f35f4b62a0286b1876f3b89":[13,0,0,0,1,1,1,10,4],
 "d9/d4f/amd64_2cpu_2apic_8hpp.html#a5e4cfe3016d6899c18a3ab7f900e2942a8d245fdc2f35f4b62a0286b1876f3b89":[13,0,0,0,1,1,1,10,12],
-"d9/d4f/amd64_2cpu_2apic_8hpp.html#a5e4cfe3016d6899c18a3ab7f900e2942ab509218dba8ca379de8ca98a8e93b1f8":[13,0,0,0,1,1,1,10,0]
+"d9/d4f/amd64_2cpu_2apic_8hpp.html#a5e4cfe3016d6899c18a3ab7f900e2942ab509218dba8ca379de8ca98a8e93b1f8":[13,0,0,0,1,1,1,10,0],
+"d9/d4f/amd64_2cpu_2apic_8hpp.html#a5e4cfe3016d6899c18a3ab7f900e2942ab509218dba8ca379de8ca98a8e93b1f8":[13,0,0,0,1,1,1,10,8],
+"d9/d4f/amd64_2cpu_2apic_8hpp.html#a5e4cfe3016d6899c18a3ab7f900e2942accd67964c9763660b54a9444b3d509f0":[13,0,0,0,1,1,1,10,3],
+"d9/d4f/amd64_2cpu_2apic_8hpp.html#a5e4cfe3016d6899c18a3ab7f900e2942accd67964c9763660b54a9444b3d509f0":[13,0,0,0,1,1,1,10,11],
+"d9/d4f/amd64_2cpu_2apic_8hpp.html#a5e4cfe3016d6899c18a3ab7f900e2942af67128068320256838251b366d2d0cde":[13,0,0,0,1,1,1,10,6]
 };

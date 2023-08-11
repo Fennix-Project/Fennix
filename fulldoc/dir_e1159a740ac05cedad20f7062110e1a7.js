@@ -7,6 +7,6 @@ var dir_e1159a740ac05cedad20f7062110e1a7 =
     [ "Multiboot.cpp", "d9/dad/amd64_2Bootstrap_2Multiboot_22_2Multiboot_8cpp.html", "d9/dad/amd64_2Bootstrap_2Multiboot_22_2Multiboot_8cpp" ],
     [ "multiboot2.h", "dd/dbc/amd64_2Bootstrap_2Multiboot_22_2multiboot2_8h.html", "dd/dbc/amd64_2Bootstrap_2Multiboot_22_2multiboot2_8h" ],
     [ "Multiboot64bitMap.cpp", "d7/dfa/Multiboot64bitMap_8cpp.html", "d7/dfa/Multiboot64bitMap_8cpp" ],
-    [ "Multiboot_PageTable.asm", "d1/d9c/amd64_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8asm.html", null ],
-    [ "Start.asm", "d4/d93/amd64_2Bootstrap_2Multiboot_22_2Start_8asm.html", null ]
+    [ "Multiboot_PageTable.s", "db/d81/amd64_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8s.html", null ],
+    [ "Start.s", "d2/dde/amd64_2Bootstrap_2Multiboot_22_2Start_8s.html", null ]
 ];

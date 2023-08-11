@@ -1,6 +1,5 @@
 var NAVTREEINDEX249 =
 {
-"da/d55/mlibc_2sysdeps_2lemon_2include_2abi-bits_2socket_8h.html#ad7f60cee1fa890abf054f8f9cbe65158":[13,0,2,3,3,4,1,0,29,144],
 "da/d55/mlibc_2sysdeps_2lemon_2include_2abi-bits_2socket_8h.html#ad9a4da1bd020dbf79d44cd735ce837c9":[13,0,2,3,3,4,1,0,29,96],
 "da/d55/mlibc_2sysdeps_2lemon_2include_2abi-bits_2socket_8h.html#add17c6476ae31df2a1b83d0732ad4a38":[13,0,2,3,3,4,1,0,29,139],
 "da/d55/mlibc_2sysdeps_2lemon_2include_2abi-bits_2socket_8h.html#addb0a758e6fafdd89f5b7120f84738eb":[13,0,2,3,3,4,1,0,29,134],
@@ -249,5 +248,6 @@ var NAVTREEINDEX249 =
 "da/d5f/namespaceSMBIOS.html#a18db4ef4867dc704ade29185a69bfebb":[13,0,0,1,14,1,7],
 "da/d5f/namespaceSMBIOS.html#a20ac4933bb7b0af385e351c66027773b":[13,0,0,1,14,1,8],
 "da/d5f/namespaceSMBIOS.html#a211f57b747394cc9bf125ec0c6d1018a":[13,0,0,1,14,0,2],
-"da/d5f/namespaceSMBIOS.html#a214579dc4ded5382f8c7fe9744258a66":[11,0,62,13]
+"da/d5f/namespaceSMBIOS.html#a214579dc4ded5382f8c7fe9744258a66":[11,0,62,13],
+"da/d5f/namespaceSMBIOS.html#a2d28755c4392487cb470db704827389f":[11,0,62,12]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"d5/d83/namespaceGigabit.html#a2d149b49129893e23b80789714d1ee71":[5,0,13,23],
-"d5/d83/namespaceGigabit.html#a3732ac7c6eb2fcb93b1b4446437c68ab":[5,0,13,26],
 "d5/d83/namespaceGigabit.html#a3979b364d9f19bfe0a7ebdcbc637a699":[5,0,13,10],
 "d5/d83/namespaceGigabit.html#a3979b364d9f19bfe0a7ebdcbc637a699a32b7baf87e15ab7ec55e37eac0f305a6":[5,0,13,10,2],
 "d5/d83/namespaceGigabit.html#a3979b364d9f19bfe0a7ebdcbc637a699a7d465a6215558b4664901711da8f31b4":[5,0,13,10,5],
@@ -150,11 +148,13 @@ var NAVTREEINDEX27 =
 "d5/d8f/smbios_8hpp.html#afea14b109675868b6b1d7d5896a6b5e1":[7,0,0,1,14,13],
 "d5/d8f/smbios_8hpp_source.html":[7,0,0,1,14],
 "d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html":[6,0,6,2,2,0],
-"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a15ce4800684d602a8efb6ded597f1dd5":[6,0,6,2,2,0,4],
 "d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a2c9a0b5906e32a3665be7d41266ce139":[6,0,6,2,2,0,0],
-"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a5a99ca35ca36c7ec74f7c76e45a0c868":[6,0,6,2,2,0,3],
-"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#aafbf42f1f63a00f8db34a772753f5bf5":[6,0,6,2,2,0,2],
-"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#aed2c89e77b11c1efd9c14f406a698931":[6,0,6,2,2,0,1],
+"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a349a3623adde6d3308b50cf7d320cbbb":[6,0,6,2,2,0,3],
+"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a34adcccf4e62bd4334dbca02f8f93e4a":[6,0,6,2,2,0,1],
+"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#a61b2302174d31ce40666bee71e814e85":[6,0,6,2,2,0,2],
+"d5/d91/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000000.html#afcc09e86644c3309308301ba9b4643e4":[6,0,6,2,2,0,4],
+"d5/d9b/i386_2Bootstrap_2Multiboot_22_2Start_8s.html":[7,0,0,0,2,0,0,1,6],
+"d5/d9b/i386_2Bootstrap_2Multiboot_22_2Start_8s_source.html":[7,0,0,0,2,0,0,1,6],
 "d5/d9c/i386_2Bootstrap_2Multiboot_22_2Header_8s.html":[7,0,0,0,2,0,0,1,2],
 "d5/d9c/i386_2Bootstrap_2Multiboot_22_2Header_8s_source.html":[7,0,0,0,2,0,0,1,2],
 "d5/da1/namespaceVirtualFileSystem.html":[5,0,49],
@@ -184,8 +184,6 @@ var NAVTREEINDEX27 =
 "d5/da1/namespaceVirtualFileSystem.html#adb3dc889afde49b1d59cfaf1aaf793b4":[5,0,49,23],
 "d5/da1/namespaceVirtualFileSystem.html#afe97fc902d188fb34296d7ea6f0281b1":[5,0,49,21],
 "d5/da1/namespaceVirtualFileSystem.html#d4/d2a/structVirtualFileSystem_1_1FileSystemOperations":[7,0,0,4,20,2],
-"d5/dab/i386_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8asm.html":[7,0,0,0,2,0,0,1,5],
-"d5/dab/i386_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8asm_source.html":[7,0,0,0,2,0,0,1,5],
 "d5/dac/class__type__info_8cpp.html":[7,0,0,7,0,0],
 "d5/dac/class__type__info_8cpp_source.html":[7,0,0,7,0,0],
 "d5/dae/8259PIC_8cpp.html":[7,0,0,0,2,2,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX27 =
 "d5/dc1/MemorySetSIMD_8cpp.html#abca14cf4181818128012913cf58e1c68":[7,0,0,7,15,1],
 "d5/dc1/MemorySetSIMD_8cpp.html#ac084621c9ee5f368bc17852baca8c49d":[7,0,0,7,15,2],
 "d5/dc1/MemorySetSIMD_8cpp.html#ae4211e0cb2374374c3b01eef90f3bf8f":[7,0,0,7,15,3],
-"d5/dc1/MemorySetSIMD_8cpp_source.html":[7,0,0,7,15]
+"d5/dc1/MemorySetSIMD_8cpp_source.html":[7,0,0,7,15],
+"d5/dd9/dumper_8hpp.html":[7,0,0,4,16],
+"d5/dd9/dumper_8hpp.html#a0fc66b31c24d157f0d3f5cc901f9d8cd":[7,0,0,4,16,0]
 };

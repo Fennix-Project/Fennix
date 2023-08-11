@@ -6,7 +6,7 @@ var mlibc_2sysdeps_2vinix_2include_2abi_bits_2signal_8h =
     ] ],
     [ "siginfo_t", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t", [
       [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a143aaaf286004b63c3a9c8074cc85930", null ],
-      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a0322956190f4071f3a668e38ed5702fb", null ],
+      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#ad6db9bd6332ae013943011dec3da4324", null ],
       [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a74388bd3820e4abddd86965ab66693dd", null ],
       [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a7f6a35c53086a3221970c75d0cb2c256", null ],
       [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a4618ac796f0f4ff7b7a3bae468058d88", null ],
@@ -27,7 +27,7 @@ var mlibc_2sysdeps_2vinix_2include_2abi_bits_2signal_8h =
     ] ],
     [ "sigevent", "d7/df9/structsigevent.html", "d7/df9/structsigevent" ],
     [ "sigaction", "d7/def/structsigaction.html", "d7/def/structsigaction" ],
-    [ "sigaction.__unnamed1058__", "d4/d3f/unionsigaction_8____unnamed1058____.html", "d4/d3f/unionsigaction_8____unnamed1058____" ],
+    [ "sigaction.__unnamed1057__", "d9/da2/unionsigaction_8____unnamed1057____.html", "d9/da2/unionsigaction_8____unnamed1057____" ],
     [ "BUS_ADRALN", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a6ea334f3e9a67fbe0cce4c9738cc842a", null ],
     [ "BUS_ADRERR", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a2343c7bb80913e6f8d69ae3cd7bd6273", null ],
     [ "BUS_OBJERR", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a1b507e6736ff85de98cc1b0151f61d44", null ],

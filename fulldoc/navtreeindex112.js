@@ -1,8 +1,5 @@
 var NAVTREEINDEX112 =
 {
-"d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a94d7d45df72884f2f8d474af1f79d204":[13,0,2,4,3,94,42],
-"d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a94f5298106f6d2936bc0fcf1a8257afc":[13,0,2,4,3,94,27],
-"d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a95fcf5fcd1f361165f2eb9fa0404a2a9":[13,0,2,4,3,94,39],
 "d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a9bc50fba41314cfd6fb923da5b8d3f7d":[13,0,2,4,3,94,64],
 "d4/dc4/Userspace_2musl_2include_2wchar_8h.html#aa1379ae6936df3415301dc580aa8756e":[13,0,2,4,3,94,20],
 "d4/dc4/Userspace_2musl_2include_2wchar_8h.html#aa8a23c5d87d7f63587c5264dd6a62401":[13,0,2,4,3,94,17],
@@ -187,8 +184,6 @@ var NAVTREEINDEX112 =
 "d4/dd1/____math__oflowf_8c.html":[13,0,2,4,5,19,27],
 "d4/dd1/____math__oflowf_8c.html#ab5f6ac659c9f631f1e9a7e2b7e82650c":[13,0,2,4,5,19,27,0],
 "d4/dd1/____math__oflowf_8c_source.html":[13,0,2,4,5,19,27],
-"d4/dd4/SMPTrampoline_8asm.html":[13,0,0,0,1,1,6],
-"d4/dd4/SMPTrampoline_8asm_source.html":[13,0,0,0,1,1,6],
 "d4/dd5/musl_2src_2math_2i386_2remainderf_8c.html":[13,0,2,4,5,19,2,53],
 "d4/dd5/musl_2src_2math_2i386_2remainderf_8c.html#a370ff5cfa842822bfd8ea0a93d441a33":[13,0,2,4,5,19,2,53,0],
 "d4/dd5/musl_2src_2math_2i386_2remainderf_8c.html#a8d93548099c0cc1faa80a3faff1561ce":[13,0,2,4,5,19,2,53,1],
@@ -249,5 +244,10 @@ var NAVTREEINDEX112 =
 "d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a5760397a3b875a073800edd2052d3816":[13,0,2,3,3,0,1,0,35,66],
 "d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a58265a371303d00a4a3b1f128d72c21e":[13,0,2,3,3,0,1,0,35,27],
 "d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a61e9f563e0f9533dc9cf221f427f6d1a":[13,0,2,3,3,0,1,0,35,17],
-"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a659dbdf07b27a95c6ca57fb14a9e15ad":[13,0,2,3,3,0,1,0,35,63]
+"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a659dbdf07b27a95c6ca57fb14a9e15ad":[13,0,2,3,3,0,1,0,35,63],
+"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a6695c16777cf8a5211cfba9a23d45985":[13,0,2,3,3,0,1,0,35,20],
+"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a671d46b6d4ea404575eb6316dcd48fd6":[13,0,2,3,3,0,1,0,35,46],
+"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a6730af7a4424b34b8c495cea64004632":[13,0,2,3,3,0,1,0,35,10],
+"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a674c937c98eb91a74265cd9cb55565a3":[13,0,2,3,3,0,1,0,35,79],
+"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a6e11c405d7ddff22c2318c8623c3affa":[13,0,2,3,3,0,1,0,35,65]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX67 =
 {
+"d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564a11a98e69965974da8ed2192620767693":[13,0,2,0,2,0,0,0,27,13,3],
+"d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564a3f65d95e543505d690ca6ae2fe260acb":[13,0,2,0,2,0,0,0,27,13,6],
 "d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564a5ba291db9c49abf5df189f423355ad4d":[13,0,2,0,2,0,0,0,27,13,2],
 "d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564a9b784260084cae6a8d3decedaafe0cce":[13,0,2,0,2,0,0,0,27,13,0],
 "d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564a9de9ded8ed1d16c9dc6f07131ebd8e9f":[13,0,2,0,2,0,0,0,27,13,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX67 =
 "d3/d56/namespaceTime.html#a7a638d4358ab458c4da00f4bc150a5a3":[13,0,0,4,42,0,5],
 "d3/d56/namespaceTime.html#aacce8a0027d66ae66310c3873117952e":[13,0,0,4,42,0,1],
 "d3/d56/namespaceTime.html#ab169047aaabaabceaf6a8034ea34e7b3":[13,0,0,4,42,0,2],
-"d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1":[11,0,68,4],
-"d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a040adf802521b00a87d0826c581c62b1":[11,0,68,4,5],
-"d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1a15b77fe907e5064effc488a52e84cade":[11,0,68,4,2]
+"d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1":[11,0,68,4]
 };

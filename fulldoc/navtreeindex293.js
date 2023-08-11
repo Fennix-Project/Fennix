@@ -1,5 +1,6 @@
 var NAVTREEINDEX293 =
 {
+"dc/d19/csinh_8c_source.html":[13,0,2,4,5,1,55],
 "dc/d19/gettext_8c.html":[13,0,2,0,0,0,4,1,9],
 "dc/d19/gettext_8c.html#a27077f7d3e33c1e2180ceaebe273da9e":[13,0,2,0,0,0,4,1,9,1],
 "dc/d19/gettext_8c.html#a40523177333eedff8b57bf9641c5ced4":[13,0,2,0,0,0,4,1,9,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX293 =
 "dc/d20/mlibc_2sysdeps_2fennix_2include_2abi-bits_2socket_8h.html#ae4da9ba9a2ccc2a72c3725ee784e57f8":[13,0,2,3,3,2,1,0,29,147],
 "dc/d20/mlibc_2sysdeps_2fennix_2include_2abi-bits_2socket_8h.html#ae77ae24b14b7b7f294f3e04121173f12":[13,0,2,3,3,2,1,0,29,48],
 "dc/d20/mlibc_2sysdeps_2fennix_2include_2abi-bits_2socket_8h.html#aeac0c3db7a1e021f17987bcc76893849":[13,0,2,3,3,2,1,0,29,83],
-"dc/d20/mlibc_2sysdeps_2fennix_2include_2abi-bits_2socket_8h.html#aee89ca4499b6810d2182a0dce63b515b":[13,0,2,3,3,2,1,0,29,171],
-"dc/d20/mlibc_2sysdeps_2fennix_2include_2abi-bits_2socket_8h.html#af15f4946f22313143183ea18e5f516ce":[13,0,2,3,3,2,1,0,29,74]
+"dc/d20/mlibc_2sysdeps_2fennix_2include_2abi-bits_2socket_8h.html#aee89ca4499b6810d2182a0dce63b515b":[13,0,2,3,3,2,1,0,29,171]
 };

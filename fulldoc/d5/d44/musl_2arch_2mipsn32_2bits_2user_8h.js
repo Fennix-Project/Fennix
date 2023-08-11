@@ -13,7 +13,7 @@ var musl_2arch_2mipsn32_2bits_2user_8h =
       [ "regs", "d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#a09669dc4fcc02787f2a94d0722d7b53d", null ],
       [ "regs", "d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#a071c23543d8ca7cef6a797846ae7fc25", null ],
       [ "regs", "d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#a1735b1acf036bcd61332ca7f9dfffad2", null ],
-      [ "regs", "d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#ac73e7122e5a9c27b92c532f893d5c07f", null ],
+      [ "regs", "d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#a1229a749130b7ac6df4a34e089da52f2", null ],
       [ "reserved", "d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#a5df052951e5fb6e0ac39291f8965376f", null ],
       [ "signal", "d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#a34fda8318296f27bb57eb9fe0c88e983", null ],
       [ "signal", "d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#a3df4aad34c33e546e91ab4532ae07c41", null ],

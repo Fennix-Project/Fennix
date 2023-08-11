@@ -1,10 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a6695c16777cf8a5211cfba9a23d45985":[13,0,2,3,3,0,1,0,35,20],
-"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a671d46b6d4ea404575eb6316dcd48fd6":[13,0,2,3,3,0,1,0,35,46],
-"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a6730af7a4424b34b8c495cea64004632":[13,0,2,3,3,0,1,0,35,10],
-"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a674c937c98eb91a74265cd9cb55565a3":[13,0,2,3,3,0,1,0,35,79],
-"d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a6e11c405d7ddff22c2318c8623c3affa":[13,0,2,3,3,0,1,0,35,65],
 "d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a7548fc84dd9f9a97eb068b321ce20da0":[13,0,2,3,3,0,1,0,35,58],
 "d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a7696d3f5131e13fba7751bc568edb7a2":[13,0,2,3,3,0,1,0,35,53],
 "d4/de0/mlibc_2sysdeps_2aero_2include_2abi-bits_2termios_8h.html#a788d2780deb67c58ba8a049981a8161c":[13,0,2,3,3,0,1,0,35,39],
@@ -249,5 +244,10 @@ var NAVTREEINDEX113 =
 "d4/dea/update-syscall-list_8py.html":[13,0,2,3,3,5,6],
 "d4/dea/update-syscall-list_8py.html#a1da68c8a38fc8508347f1f7d1cb16018":[13,0,2,3,3,5,6,6],
 "d4/dea/update-syscall-list_8py.html#a226aac65f97c7b6791ef316a4585fc58":[13,0,2,3,3,5,6,14],
-"d4/dea/update-syscall-list_8py.html#a2a4d4a5bf93c359d86e14cb1f9f8c3ca":[13,0,2,3,3,5,6,13]
+"d4/dea/update-syscall-list_8py.html#a2a4d4a5bf93c359d86e14cb1f9f8c3ca":[13,0,2,3,3,5,6,13],
+"d4/dea/update-syscall-list_8py.html#a327edb7d335fdf46530039d83808f42c":[13,0,2,3,3,5,6,9],
+"d4/dea/update-syscall-list_8py.html#a3b0dfb8137e39db2bd05447cac3ffed3":[13,0,2,3,3,5,6,15],
+"d4/dea/update-syscall-list_8py.html#a4836544ec63003869158e031fef2b0b9":[13,0,2,3,3,5,6,10],
+"d4/dea/update-syscall-list_8py.html#a53d43dcdf990fbdf91e79b57283da375":[13,0,2,3,3,5,6,3],
+"d4/dea/update-syscall-list_8py.html#a5912213e6181d9eed11736012f4d92de":[13,0,2,3,3,5,6,8]
 };

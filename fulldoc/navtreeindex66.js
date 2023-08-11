@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"d3/d3a/jobs_8h.html#a3bd05641b634d18fc3d9df674447f162":[13,0,2,0,0,0,53,80],
+"d3/d3a/jobs_8h.html#a3c74d4692759e4d8ec8089acefa23583":[13,0,2,0,0,0,53,3,0],
 "d3/d3a/jobs_8h.html#a3cd30b59b6ea29dc4d58020e6004d718":[13,0,2,0,0,0,53,3,13],
 "d3/d3a/jobs_8h.html#a3e32ddd300903bbc3e8a401532ff6eef":[13,0,2,0,0,0,53,35],
 "d3/d3a/jobs_8h.html#a3ff82f1bcd8f784be267c51de644c3ed":[13,0,2,0,0,0,53,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "d3/d47/doomdef_8h.html#aa3df7fce134ae5843a2bd6cdcd5796d0ab3a06b2a68d4d4236e693c0152277392":[13,0,2,0,2,0,0,0,27,11,1],
 "d3/d47/doomdef_8h.html#aa3df7fce134ae5843a2bd6cdcd5796d0ae7101ea586c564b6ff5f7ffdd16f8d10":[13,0,2,0,2,0,0,0,27,11,2],
 "d3/d47/doomdef_8h.html#aa9ac36cf8da0e13bb137f79bbbd035e0":[13,0,2,0,2,0,0,0,27,1],
-"d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564":[13,0,2,0,2,0,0,0,27,13],
-"d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564a11a98e69965974da8ed2192620767693":[13,0,2,0,2,0,0,0,27,13,3],
-"d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564a3f65d95e543505d690ca6ae2fe260acb":[13,0,2,0,2,0,0,0,27,13,6]
+"d3/d47/doomdef_8h.html#ada461cebd7de36146f358613b1816564":[13,0,2,0,2,0,0,0,27,13]
 };

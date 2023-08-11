@@ -1,9 +1,5 @@
 var NAVTREEINDEX124 =
 {
-"d5/d44/musl_2arch_2mipsn32_2bits_2user_8h_source.html":[13,0,2,4,0,8,0,23],
-"d5/d46/abis_2mlibc_2mode__t_8h.html":[13,0,2,3,0,6,13],
-"d5/d46/abis_2mlibc_2mode__t_8h.html#a8a35dd1207a16dfa8b1d4163176d828c":[13,0,2,3,0,6,13,0],
-"d5/d46/abis_2mlibc_2mode__t_8h_source.html":[13,0,2,3,0,6,13],
 "d5/d46/namespaceanonymous__namespace_02posix__stdlib_8cpp_03.html":[11,0,14],
 "d5/d46/namespaceanonymous__namespace_02posix__stdlib_8cpp_03.html#a5221cce5dc9ae6427ff4f0397668c208":[11,0,14,0],
 "d5/d48/fennix_2generic_2generic_8cpp.html":[13,0,2,3,3,2,0,1],
@@ -29,10 +25,10 @@ var NAVTREEINDEX124 =
 "d5/d48/fennix_2generic_2generic_8cpp.html#af106c0e80a14f396c3e23de3b88bf484":[13,0,2,3,3,2,0,1,6],
 "d5/d48/fennix_2generic_2generic_8cpp_source.html":[13,0,2,3,3,2,0,1],
 "d5/d4a/md_Userspace_mlibc_README.html":[7],
-"d5/d4a/md_Userspace_mlibc_README.html#autotoc_md44":[7,0],
-"d5/d4a/md_Userspace_mlibc_README.html#autotoc_md45":[7,1],
-"d5/d4a/md_Userspace_mlibc_README.html#autotoc_md46":[7,2],
-"d5/d4a/md_Userspace_mlibc_README.html#autotoc_md47":[7,3],
+"d5/d4a/md_Userspace_mlibc_README.html#autotoc_md45":[7,0],
+"d5/d4a/md_Userspace_mlibc_README.html#autotoc_md46":[7,1],
+"d5/d4a/md_Userspace_mlibc_README.html#autotoc_md48":[7,2],
+"d5/d4a/md_Userspace_mlibc_README.html#autotoc_md49":[7,3],
 "d5/d4a/shmbutil_8h.html":[13,0,2,0,0,0,3,14],
 "d5/d4a/shmbutil_8h.html#a09f874f86b7100389229a2a6dbf2adf2":[13,0,2,0,0,0,3,14,6],
 "d5/d4a/shmbutil_8h.html#a180bc2b170635692ffd1e5a2f5bc83e7":[13,0,2,0,0,0,3,14,9],
@@ -249,5 +245,9 @@ var NAVTREEINDEX124 =
 "d5/d4d/x86__64_2kstat_8h.html#a3367fe6570767334ca284e626eb238d6":[13,0,2,4,0,9,3,0,44],
 "d5/d4d/x86__64_2kstat_8h.html#a3367fe6570767334ca284e626eb238d6":[13,0,2,4,0,10,3,0,44],
 "d5/d4d/x86__64_2kstat_8h.html#a3367fe6570767334ca284e626eb238d6":[13,0,2,4,0,11,3,0,44],
-"d5/d4d/x86__64_2kstat_8h.html#a3367fe6570767334ca284e626eb238d6":[13,0,2,4,0,12,3,0,44]
+"d5/d4d/x86__64_2kstat_8h.html#a3367fe6570767334ca284e626eb238d6":[13,0,2,4,0,12,3,0,44],
+"d5/d4d/x86__64_2kstat_8h.html#a3367fe6570767334ca284e626eb238d6":[13,0,2,4,0,13,3,0,44],
+"d5/d4d/x86__64_2kstat_8h.html#a3367fe6570767334ca284e626eb238d6":[13,0,2,4,0,14,4,0,44],
+"d5/d4d/x86__64_2kstat_8h.html#a3367fe6570767334ca284e626eb238d6":[13,0,2,4,0,15,4,0,44],
+"d5/d4d/x86__64_2kstat_8h.html#a3367fe6570767334ca284e626eb238d6":[13,0,2,4,0,16,4,0,44]
 };

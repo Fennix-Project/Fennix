@@ -26,7 +26,7 @@ var searchData=
   ['multiboot_2eh_8391',['multiboot.h',['../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html',1,'(Global Namespace)'],['../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html',1,'(Global Namespace)']]],
   ['multiboot2_2eh_8392',['multiboot2.h',['../d4/dbb/i386_2Bootstrap_2Multiboot_22_2multiboot2_8h.html',1,'(Global Namespace)'],['../dd/dbc/amd64_2Bootstrap_2Multiboot_22_2multiboot2_8h.html',1,'(Global Namespace)']]],
   ['multiboot64bitmap_2ecpp_8393',['Multiboot64bitMap.cpp',['../d7/dfa/Multiboot64bitMap_8cpp.html',1,'']]],
-  ['multiboot_5fpagetable_2easm_8394',['Multiboot_PageTable.asm',['../d1/d9c/amd64_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8asm.html',1,'(Global Namespace)'],['../d5/dab/i386_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8asm.html',1,'(Global Namespace)']]],
+  ['multiboot_5fpagetable_2es_8394',['Multiboot_PageTable.s',['../db/d81/amd64_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8s.html',1,'(Global Namespace)'],['../d1/dbf/i386_2Bootstrap_2Multiboot_22_2Multiboot__PageTable_8s.html',1,'(Global Namespace)']]],
   ['multipleapicdescriptiontable_2ecpp_8395',['MultipleAPICDescriptionTable.cpp',['../d5/db3/MultipleAPICDescriptionTable_8cpp.html',1,'']]],
   ['mutex_2ecpp_8396',['mutex.cpp',['../d0/dbb/mutex_8cpp.html',1,'']]]
 ];

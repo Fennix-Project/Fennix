@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"d3/df4/musl_2include_2scsi_2sg_8h.html#aebf13d6b5f43d02acea3b2f4da238a77":[13,0,2,4,3,4,2,36],
+"d3/df4/musl_2include_2scsi_2sg_8h.html#aec9b889252d20e971744c23de1893d3f":[13,0,2,4,3,4,2,3,4],
 "d3/df4/musl_2include_2scsi_2sg_8h.html#aecb04d1ea04446f6474cb55e186addbc":[13,0,2,4,3,4,2,4,6],
 "d3/df4/musl_2include_2scsi_2sg_8h.html#aed31d1ee18bf8960d9066aba43497142":[13,0,2,4,3,4,2,4,3],
 "d3/df4/musl_2include_2scsi_2sg_8h.html#aed41f0a80ded626e24011e0bf7b5302d":[13,0,2,4,3,4,2,45],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "d3/dfe/DAPI_8hpp.html#d1/d72/struct_8DiskCallback":[13,0,0,15,42],
 "d3/dfe/DAPI_8hpp.html#d1/d92/structKernelAPI_1_1KAPIDriverTalk":[13,0,0,15,0,1],
 "d3/dfe/DAPI_8hpp.html#d1/d92/structKernelAPI_1_1KAPIDriverTalk":[13,0,0,15,6],
-"d3/dfe/DAPI_8hpp.html#d1/dc0/structKernelCallback_8____unnamed67_____8InputCallback_8Keyboard":[13,0,0,15,33],
-"d3/dfe/DAPI_8hpp.html#d2/d09/struct_8InputCallback":[13,0,0,15,45],
-"d3/dfe/DAPI_8hpp.html#d2/d54/structKernelCallback_8____unnamed67_____8AudioCallback_8Fetch":[13,0,0,15,37]
+"d3/dfe/DAPI_8hpp.html#d1/dc0/structKernelCallback_8____unnamed67_____8InputCallback_8Keyboard":[13,0,0,15,33]
 };

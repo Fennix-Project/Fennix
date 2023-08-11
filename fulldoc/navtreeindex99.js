@@ -1,6 +1,5 @@
 var NAVTREEINDEX99 =
 {
-"d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#a57028962c2a7c0c802ca6613492f2ef3":[13,0,2,3,3,4,1,0,39,13],
 "d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#a689fc9cb8e5f54526471e67573624af9":[13,0,2,3,3,4,1,0,39,18],
 "d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#a6a982b48b8d3eb8eccd17e0d54ee5379":[13,0,2,3,3,4,1,0,39,29],
 "d4/d86/sysdeps_2lemon_2include_2abi-bits_2vm-flags_8h.html#a77848f068638e916c72cd543f5ecb815":[13,0,2,3,3,4,1,0,39,28],
@@ -211,8 +210,6 @@ var NAVTREEINDEX99 =
 "d4/d90/musl_2src_2math_2fmax_8c_source.html":[13,0,2,4,5,19,115],
 "d4/d92/Userspace_2apps_2base_2Makefile.html":[13,0,2,0,0,3],
 "d4/d92/Userspace_2apps_2base_2Makefile_source.html":[13,0,2,0,0,3],
-"d4/d93/amd64_2Bootstrap_2Multiboot_22_2Start_8asm.html":[13,0,0,0,1,0,1,1,8],
-"d4/d93/amd64_2Bootstrap_2Multiboot_22_2Start_8asm_source.html":[13,0,0,0,1,0,1,1,8],
 "d4/d94/namespaceanonymous__namespace_02locale-stubs_8cpp_03.html":[11,0,13],
 "d4/d94/namespaceanonymous__namespace_02locale-stubs_8cpp_03.html#a16dc378025bb2a43023f6a2f37f65b56":[11,0,13,1],
 "d4/d94/namespaceanonymous__namespace_02locale-stubs_8cpp_03.html#a4bc280fb14f9253e50993e7243219f56":[11,0,13,0],
@@ -249,5 +246,8 @@ var NAVTREEINDEX99 =
 "d4/d97/make__cmd_8c.html#a836b2ccddcd28421ba80c7891ede901f":[13,0,2,0,0,0,58,15],
 "d4/d97/make__cmd_8c.html#a88d88cabcd4d690be39e8be3248f3720":[13,0,2,0,0,0,58,3],
 "d4/d97/make__cmd_8c.html#aa65bc9c12d704886558fffb9af305282":[13,0,2,0,0,0,58,31],
-"d4/d97/make__cmd_8c.html#aa707cc6dc36f4646bd1b0c25d3082d9c":[13,0,2,0,0,0,58,32]
+"d4/d97/make__cmd_8c.html#aa707cc6dc36f4646bd1b0c25d3082d9c":[13,0,2,0,0,0,58,32],
+"d4/d97/make__cmd_8c.html#ab39e508f0407f0116610fe76bad3b699":[13,0,2,0,0,0,58,4],
+"d4/d97/make__cmd_8c.html#abb6a88766cbb4bf2dc7e6949ab3b6159":[13,0,2,0,0,0,58,33],
+"d4/d97/make__cmd_8c.html#ac639c519592e9e3aaa21d436d0518885":[13,0,2,0,0,0,58,35]
 };

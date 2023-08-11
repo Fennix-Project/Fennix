@@ -138,19 +138,19 @@ var videodev2_8h =
       [ "fmt", "d6/d5a/videodev2_8h.html#a0a85446d6109ce80687f3ead4948193a", null ],
       [ "type", "d6/d5a/videodev2_8h.html#aae4abd0e6845aa8820b40cc922c0aab0", null ]
     ] ],
-    [ "v4l2_frmsizeenum.__unnamed980__", "d6/d5a/videodev2_8h.html#d6/d88/unionv4l2__frmsizeenum_8____unnamed980____", [
+    [ "v4l2_frmsizeenum.__unnamed979__", "d6/d5a/videodev2_8h.html#de/d54/unionv4l2__frmsizeenum_8____unnamed979____", [
       [ "discrete", "d6/d5a/videodev2_8h.html#a8c5f2fed7d3999790b2aeb843aee4610", null ],
       [ "stepwise", "d6/d5a/videodev2_8h.html#aa671e26ca3e89d4bf81c75ca7fa1dae0", null ]
     ] ],
-    [ "v4l2_frmivalenum.__unnamed982__", "d6/d5a/videodev2_8h.html#dd/dbc/unionv4l2__frmivalenum_8____unnamed982____", [
+    [ "v4l2_frmivalenum.__unnamed981__", "d6/d5a/videodev2_8h.html#d5/daa/unionv4l2__frmivalenum_8____unnamed981____", [
       [ "discrete", "d6/d5a/videodev2_8h.html#a8c5f2fed7d3999790b2aeb843aee4610", null ],
       [ "stepwise", "d6/d5a/videodev2_8h.html#aa671e26ca3e89d4bf81c75ca7fa1dae0", null ]
     ] ],
-    [ "v4l2_pix_format.__unnamed984__", "d6/d5a/videodev2_8h.html#d8/dd5/unionv4l2__pix__format_8____unnamed984____", [
+    [ "v4l2_pix_format.__unnamed983__", "d6/d5a/videodev2_8h.html#df/ddf/unionv4l2__pix__format_8____unnamed983____", [
       [ "hsv_enc", "d6/d5a/videodev2_8h.html#a972b2506f345c55a1babcefc5d0be05c", null ],
       [ "ycbcr_enc", "d6/d5a/videodev2_8h.html#a4f4ed85b7964c6df93ac4a2206fa4fe6", null ]
     ] ],
-    [ "v4l2_pix_format_mplane.__unnamed986__", "d6/d5a/videodev2_8h.html#db/d1d/unionv4l2__pix__format__mplane_8____unnamed986____", [
+    [ "v4l2_pix_format_mplane.__unnamed985__", "d6/d5a/videodev2_8h.html#dd/d37/unionv4l2__pix__format__mplane_8____unnamed985____", [
       [ "hsv_enc", "d6/d5a/videodev2_8h.html#a972b2506f345c55a1babcefc5d0be05c", null ],
       [ "ycbcr_enc", "d6/d5a/videodev2_8h.html#a4f4ed85b7964c6df93ac4a2206fa4fe6", null ]
     ] ],
