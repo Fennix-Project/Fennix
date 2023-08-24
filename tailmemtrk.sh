@@ -1,1 +1,0 @@
-tail -f memtrk.dmp
