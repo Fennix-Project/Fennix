@@ -13,5 +13,10 @@ var DifferentiatedSystemDescriptionTable_8cpp =
     [ "ACPI_SLEEP_BUTTON", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#a31df40a76e93fe84e07b5134ddf89b45", null ],
     [ "ACPI_TIMER", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#a20dc0f32fe1821a5f6d30b2843572aff", null ],
     [ "ACPI_WAKE", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#ad7a926146864d9621c1217a1208c3803", null ],
-    [ "IsCanonical", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#adca528a45c8cbdefdf20910ae5103a69", null ]
+    [ "debug", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#a96af53071f7af77ea9d82be70d839605", null ],
+    [ "if", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#a5a9df1fde6d4bd7dd0351437bdbf5058", null ],
+    [ "if", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#ae3b1fa370e25945cf549a83d7468d92d", null ],
+    [ "IsCanonical", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#adca528a45c8cbdefdf20910ae5103a69", null ],
+    [ "else", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#ad2ee62be9410588c9453f20b40ca66e7", null ],
+    [ "Event", "df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#a10c415b7220b92cece1ab3f1acc97188", null ]
 ];

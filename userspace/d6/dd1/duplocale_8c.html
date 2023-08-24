@@ -112,9 +112,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9414ffe0a2569fca34d7f1ad44487fb4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/df9/locale__t_8h.html#aa1f5af873d05619cbcf7901e194b292c">locale_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/duplocale_8c.html#a9414ffe0a2569fca34d7f1ad44487fb4">__duplocale</a> (<a class="el" href="../../d7/df9/locale__t_8h.html#aa1f5af873d05619cbcf7901e194b292c">locale_t</a> old)</td></tr>
+<tr class="memitem:a9414ffe0a2569fca34d7f1ad44487fb4"><td class="memItemLeft" align="right" valign="top">locale_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/duplocale_8c.html#a9414ffe0a2569fca34d7f1ad44487fb4">__duplocale</a> (locale_t <a class="el" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a>)</td></tr>
 <tr class="separator:a9414ffe0a2569fca34d7f1ad44487fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99d5bd44d3fe773179de8b19b68b330e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/duplocale_8c.html#a99d5bd44d3fe773179de8b19b68b330e">weak_alias</a> (<a class="el" href="../../d6/dd1/duplocale_8c.html#a9414ffe0a2569fca34d7f1ad44487fb4">__duplocale</a>, <a class="el" href="../../de/d30/posix__locale_8h.html#a64319b933187f4a2baf5f87e3f17e9af">duplocale</a>)</td></tr>
+<tr class="memitem:a99d5bd44d3fe773179de8b19b68b330e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dd1/duplocale_8c.html#a99d5bd44d3fe773179de8b19b68b330e">weak_alias</a> (<a class="el" href="../../d6/dd1/duplocale_8c.html#a9414ffe0a2569fca34d7f1ad44487fb4">__duplocale</a>, duplocale)</td></tr>
 <tr class="separator:a99d5bd44d3fe773179de8b19b68b330e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -190,9 +190,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/df9/locale__t_8h.html#aa1f5af873d05619cbcf7901e194b292c">locale_t</a> __duplocale </td>
+          <td class="memname">locale_t __duplocale </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/df9/locale__t_8h.html#aa1f5af873d05619cbcf7901e194b292c">locale_t</a>&#160;</td>
+          <td class="paramtype">locale_t&#160;</td>
           <td class="paramname"><em>old</em></td><td>)</td>
           <td></td>
         </tr>
@@ -201,18 +201,17 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/dd1/duplocale_8c_source.html#l00011">11</a> of file <a class="el" href="../../d6/dd1/duplocale_8c_source.html">duplocale.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d7/df9/locale__t_8h.html#aa1f5af873d05619cbcf7901e194b292c">locale_t</a> <span class="keyword">new</span> = <a class="code" href="../../d6/dd1/duplocale_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a>(<span class="keyword">sizeof</span> *<span class="keyword">new</span>);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    locale_t <span class="keyword">new</span> = <a class="code" href="../../d6/dd1/duplocale_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a>(<span class="keyword">sizeof</span> *<span class="keyword">new</span>);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (!<span class="keyword">new</span>) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (old == <a class="code" href="../../d0/d73/mlibc_2options_2ansi_2include_2locale_8h.html#a30c35e179a1346223ac650826472a704">LC_GLOBAL_LOCALE</a>) old = &amp;<a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.global_locale;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    *<span class="keyword">new</span> = *old;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a> == LC_GLOBAL_LOCALE) <a class="code" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a> = &amp;<a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.global_locale;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    *<span class="keyword">new</span> = *<a class="code" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">new</span>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
 <div class="ttc" id="aduplocale_8c_html_acf143577800376dd931c059ecc61ba06"><div class="ttname"><a href="../../d6/dd1/duplocale_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a></div><div class="ttdeci">#define malloc</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd1/duplocale_8c_source.html#l00006">duplocale.c:6</a></div></div>
 <div class="ttc" id="alibc_8h_html_a562c50deef56f1ef956e231f804c5d0b"><div class="ttname"><a href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a></div><div class="ttdeci">#define libc</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dc8/libc_8h_source.html#l00038">libc.h:38</a></div></div>
-<div class="ttc" id="alocale__t_8h_html_aa1f5af873d05619cbcf7901e194b292c"><div class="ttname"><a href="../../d7/df9/locale__t_8h.html#aa1f5af873d05619cbcf7901e194b292c">locale_t</a></div><div class="ttdeci">void * locale_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df9/locale__t_8h_source.html#l00008">locale_t.h:8</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2locale_8h_html_a30c35e179a1346223ac650826472a704"><div class="ttname"><a href="../../d0/d73/mlibc_2options_2ansi_2include_2locale_8h.html#a30c35e179a1346223ac650826472a704">LC_GLOBAL_LOCALE</a></div><div class="ttdeci">#define LC_GLOBAL_LOCALE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d73/mlibc_2options_2ansi_2include_2locale_8h_source.html#l00017">locale.h:17</a></div></div>
+<div class="ttc" id="anmeter_8c_html_a3a539e6d7382aa2150a8ce8f33b91deb"><div class="ttname"><a href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a></div><div class="ttdeci">ullong old[CPU_FIELDCNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcd/nmeter_8c_source.html#l00351">nmeter.c:351</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d73/mlibc_2options_2ansi_2include_2locale_8h_source.html#l00017">LC_GLOBAL_LOCALE</a>, <a class="el" href="../../db/dc8/libc_8h_source.html#l00038">libc</a>, and <a class="el" href="../../d6/dd1/duplocale_8c_source.html#l00006">malloc</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dc8/libc_8h_source.html#l00038">libc</a>, <a class="el" href="../../d6/dd1/duplocale_8c_source.html#l00006">malloc</a>, and <a class="el" href="../../d4/dcd/nmeter_8c_source.html#l00351">old</a>.</p>
 
 </div>
 </div>
@@ -231,7 +230,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d30/posix__locale_8h.html#a64319b933187f4a2baf5f87e3f17e9af">duplocale</a>&#160;</td>
+          <td class="paramtype">duplocale&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

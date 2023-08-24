@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d0/dad/creat_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6e39c79493a70254a5830420fce8b00b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/creat_8c.html#a6e39c79493a70254a5830420fce8b00b">creat</a> (const char *filename, <a class="el" href="../../df/d82/abis_2linux_2mode__t_8h.html#adb8322e115035a284aab704909e63d00">mode_t</a> mode)</td></tr>
+<tr class="memitem:a6e39c79493a70254a5830420fce8b00b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dad/creat_8c.html#a6e39c79493a70254a5830420fce8b00b">creat</a> (const char *<a class="el" href="../../d0/d43/mconf_8c.html#a1dd0092466ef147d6873cd10f5d5e38b">filename</a>, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a> mode)</td></tr>
 <tr class="separator:a6e39c79493a70254a5830420fce8b00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,7 +108,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> creat </td>
+          <td class="memname">int creat </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>filename</em>, </td>
@@ -116,7 +116,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d82/abis_2linux_2mode__t_8h.html#adb8322e115035a284aab704909e63d00">mode_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ad2933406ba93c0e0d1884fc09c18a0bf">mode_t</a>&#160;</td>
           <td class="paramname"><em>mode</em>&#160;</td>
         </tr>
         <tr>
@@ -129,14 +129,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/dad/creat_8c_source.html#l00003">3</a> of file <a class="el" href="../../d0/dad/creat_8c_source.html">creat.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/dcd/fcntl-stubs_8cpp.html#a079d60801c18155ac2ec1707b56867fb">open</a>(filename, <a class="code" href="../../d1/d85/filesystem_8hpp.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">O_CREAT</a>|<a class="code" href="../../d1/d85/filesystem_8hpp.html#a11b644a8526139c4cc1850dac1271ced">O_WRONLY</a>|<a class="code" href="../../d1/d85/filesystem_8hpp.html#ad1d67e453fb3031f40f8cd3403773813">O_TRUNC</a>, mode);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#aa138ddaa9bbe8b8ccca32ed43e75b72c">open</a>(<a class="code" href="../../d4/daf/flashcp_8c.html#abe2fedc3a963bcd397037e60e16adabb">filename</a>, <a class="code" href="../../d1/d85/filesystem_8hpp.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">O_CREAT</a>|<a class="code" href="../../d1/d85/filesystem_8hpp.html#a11b644a8526139c4cc1850dac1271ced">O_WRONLY</a>|<a class="code" href="../../d1/d85/filesystem_8hpp.html#ad1d67e453fb3031f40f8cd3403773813">O_TRUNC</a>, mode);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="afcntl-stubs_8cpp_html_a079d60801c18155ac2ec1707b56867fb"><div class="ttname"><a href="../../d1/dcd/fcntl-stubs_8cpp.html#a079d60801c18155ac2ec1707b56867fb">open</a></div><div class="ttdeci">int open(const char *pathname, int flags,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dcd/fcntl-stubs_8cpp_source.html#l00075">fcntl-stubs.cpp:75</a></div></div>
 <div class="ttc" id="afilesystem_8hpp_html_a11b644a8526139c4cc1850dac1271ced"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a11b644a8526139c4cc1850dac1271ced">O_WRONLY</a></div><div class="ttdeci">#define O_WRONLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00051">filesystem.hpp:51</a></div></div>
 <div class="ttc" id="afilesystem_8hpp_html_a1cf6b1de1fffedaa1d26b189e9a8d2cc"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a1cf6b1de1fffedaa1d26b189e9a8d2cc">O_CREAT</a></div><div class="ttdeci">#define O_CREAT</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00053">filesystem.hpp:53</a></div></div>
 <div class="ttc" id="afilesystem_8hpp_html_ad1d67e453fb3031f40f8cd3403773813"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#ad1d67e453fb3031f40f8cd3403773813">O_TRUNC</a></div><div class="ttdeci">#define O_TRUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00055">filesystem.hpp:55</a></div></div>
+<div class="ttc" id="aflashcp_8c_html_abe2fedc3a963bcd397037e60e16adabb"><div class="ttname"><a href="../../d4/daf/flashcp_8c.html#abe2fedc3a963bcd397037e60e16adabb">filename</a></div><div class="ttdeci">#define filename</div></div>
+<div class="ttc" id="amusl_2include_2fcntl_8h_html_aa138ddaa9bbe8b8ccca32ed43e75b72c"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#aa138ddaa9bbe8b8ccca32ed43e75b72c">open</a></div><div class="ttdeci">int open(const char *, int,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/deb/open_8c_source.html#l00005">open.c:5</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00053">O_CREAT</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00055">O_TRUNC</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00051">O_WRONLY</a>, and <a class="el" href="../../d1/dcd/fcntl-stubs_8cpp_source.html#l00075">open()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/daf/flashcp_8c.html#abe2fedc3a963bcd397037e60e16adabb">filename</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00053">O_CREAT</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00055">O_TRUNC</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00051">O_WRONLY</a>, and <a class="el" href="../../da/deb/open_8c_source.html#l00005">open()</a>.</p>
 
 </div>
 </div>

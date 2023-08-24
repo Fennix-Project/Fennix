@@ -11,12 +11,20 @@ var jobs_8h =
       [ "next", "d3/d3a/jobs_8h.html#a736199ba9d005768c1a764a5da6a69e6", null ],
       [ "pipeline", "d3/d3a/jobs_8h.html#a150b4d503a5673894709f96b053de8b2", null ]
     ] ],
-    [ "job", "d3/d3a/jobs_8h.html#d3/d8c/structjob", [
-      [ "flags", "d3/d3a/jobs_8h.html#af96c169abb39b4b3f9ccce91cb4b17dc", null ],
-      [ "pgrp", "d3/d3a/jobs_8h.html#a36d8fbcede662cb503c447511b10dabc", null ],
-      [ "pipe", "d3/d3a/jobs_8h.html#a7e5648df5ec2f0d459900325c2cc5816", null ],
-      [ "state", "d3/d3a/jobs_8h.html#a5bee3de4970de999192f8929f926a4fe", null ],
-      [ "wd", "d3/d3a/jobs_8h.html#ab27dfab9ba607cb3bbdd2b6f2b4e3efc", null ]
+    [ "job", "d1/dbe/ash_8c.html#d3/d8c/structjob", [
+      [ "changed", "d1/dbe/ash_8c.html#a71a47f80b46358218663cb5b9e8243c3", null ],
+      [ "flags", "d1/dbe/ash_8c.html#af96c169abb39b4b3f9ccce91cb4b17dc", null ],
+      [ "nprocs", "d1/dbe/ash_8c.html#addfb8fe9344cda35aa5e0b80cbc1d247", null ],
+      [ "pgrp", "d1/dbe/ash_8c.html#a36d8fbcede662cb503c447511b10dabc", null ],
+      [ "pipe", "d1/dbe/ash_8c.html#a7e5648df5ec2f0d459900325c2cc5816", null ],
+      [ "prev_job", "d1/dbe/ash_8c.html#a1a3c81e173fc61cd487d9c7e3fee2417", null ],
+      [ "ps", "d1/dbe/ash_8c.html#aaa22db0aa532373b810e8d2121ce8b42", null ],
+      [ "ps0", "d1/dbe/ash_8c.html#a8489c2df317e5734c87e572a5e9b3e08", null ],
+      [ "state", "d1/dbe/ash_8c.html#a5bee3de4970de999192f8929f926a4fe", null ],
+      [ "state", "d1/dbe/ash_8c.html#a5f9964e051fb0d61cef9413c7c34907b", null ],
+      [ "used", "d1/dbe/ash_8c.html#a64cc344105b625a76853c3a9ac4a11e3", null ],
+      [ "waited", "d1/dbe/ash_8c.html#a3709e1422f4276fd148fa8209326f414", null ],
+      [ "wd", "d1/dbe/ash_8c.html#ab27dfab9ba607cb3bbdd2b6f2b4e3efc", null ]
     ] ],
     [ "jobstats", "d3/d3a/jobs_8h.html#d9/dff/structjobstats", [
       [ "c_childmax", "d3/d3a/jobs_8h.html#a3c74d4692759e4d8ec8089acefa23583", null ],
@@ -47,9 +55,12 @@ var jobs_8h =
       [ "npid", "d3/d3a/jobs_8h.html#a3b393c1d3d52cb76efbe24e0fffc2871", null ],
       [ "storage", "d3/d3a/jobs_8h.html#a9e1b9f32d9f6e5db5387b07d9e5440ff", null ]
     ] ],
-    [ "procstat", "d3/d3a/jobs_8h.html#d3/d9e/structprocstat", [
-      [ "pid", "d3/d3a/jobs_8h.html#af09e6fefb632493d1b89497880b49425", null ],
-      [ "status", "d3/d3a/jobs_8h.html#af5b6f282bc378b9165ce3ebb958784af", null ]
+    [ "procstat", "d1/dbe/ash_8c.html#d3/d9e/structprocstat", [
+      [ "pid", "d1/dbe/ash_8c.html#af09e6fefb632493d1b89497880b49425", null ],
+      [ "ps_cmd", "d1/dbe/ash_8c.html#a6ce35594df9dbfbd16fee8fa3392cda3", null ],
+      [ "ps_pid", "d1/dbe/ash_8c.html#acaebe3175fd344596caae3da49c1951a", null ],
+      [ "ps_status", "d1/dbe/ash_8c.html#a3b7883f93dae2be9b79ac0e88979bb83", null ],
+      [ "status", "d1/dbe/ash_8c.html#af5b6f282bc378b9165ce3ebb958784af", null ]
     ] ],
     [ "procchain", "d3/d3a/jobs_8h.html#da/dd5/structprocchain", [
       [ "end", "d3/d3a/jobs_8h.html#afbb938a761edbd90861579b520839053", null ],

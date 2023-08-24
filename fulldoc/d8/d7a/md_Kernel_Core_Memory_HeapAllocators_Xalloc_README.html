@@ -89,15 +89,16 @@ $(document).ready(function(){initNavTree('d8/d7a/md_Kernel_Core_Memory_HeapAlloc
 <div class="title"><a class="el" href="../../dc/d0a/namespaceXalloc.html">Xalloc</a> </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="el" href="../../dc/d0a/namespaceXalloc.html">Xalloc</a> is a custom memory allocator designed for hobby operating systems. It is written in C++ and provides a simple and efficient way to manage memory in your hobby OS.</p>
+<div class="textblock"><p><a class="el" href="../../dc/d0a/namespaceXalloc.html">Xalloc</a> is a custom memory allocator designed for hobby operating systems. Written in C++ and provides a simple and efficient way to manage memory in your hobby OS.</p>
 <h3><a class="anchor" id="autotoc_md1"></a>
 ❗ This project is still in development and is not ready for use in production environments. ❗</h3>
 <hr  />
 <h1><a class="anchor" id="autotoc_md3"></a>
 Features</h1>
 <ul>
-<li><b>Simple API</b> - <a class="el" href="../../dc/d0a/namespaceXalloc.html">Xalloc</a> provides a simple API for allocating and freeing memory. It is designed to be easy to use and understand.</li>
-<li>[ ] todo complete this</li>
+<li><b>Simple API</b> - Simple API for allocating and freeing memory.</li>
+<li><b>Efficient</b> - Uses a free-list to manage memory and is designed to be fast.</li>
+<li><b>No dependencies</b> - No dependencies and is designed to be easy to integrate into your OS.</li>
 </ul>
 <hr  />
 <h1><a class="anchor" id="autotoc_md5"></a>
@@ -107,21 +108,23 @@ Implementing missing functions</h2>
 <p>You will need to implement the following functions in your OS:</p>
 <h4><a class="anchor" id="autotoc_md7"></a>
 Wrapper.cpp</h4>
-<div class="fragment"><div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> *<a class="code" href="../../d8/d21/Wrapper_8cpp.html#a79c2058bb276cafa4a24007c504054a4">Xalloc_REQUEST_PAGES</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> Pages)</div>
+<div class="fragment"><div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> *<a class="code" href="../../d8/d21/Wrapper_8cpp.html#a79c2058bb276cafa4a24007c504054a4">Xalloc_REQUEST_PAGES</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> Pages)</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// ...</span></div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d21/Wrapper_8cpp.html#aa12016bc79f2b4afddb00eb0c856c490">Xalloc_FREE_PAGES</a>(<span class="keywordtype">void</span> *<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> Pages)</div>
+<div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d21/Wrapper_8cpp.html#aa12016bc79f2b4afddb00eb0c856c490">Xalloc_FREE_PAGES</a>(<span class="keywordtype">void</span> *<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> Pages)</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// ...</span></div>
 <div class="line">}</div>
 <div class="line"> </div>
-<div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d21/Wrapper_8cpp.html#afd396a5eefeee77f1fac8e07ed002b2e">Xalloc_MAP_MEMORY</a>(<span class="keywordtype">void</span> *VirtualAddress, <span class="keywordtype">void</span> *<a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a>, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>)</div>
+<div class="line"><span class="comment">/* Mandatory only if Xalloc_MapPages is set to true */</span></div>
+<div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d21/Wrapper_8cpp.html#afd396a5eefeee77f1fac8e07ed002b2e">Xalloc_MAP_MEMORY</a>(<span class="keywordtype">void</span> *VirtualAddress, <span class="keywordtype">void</span> *<a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a>, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>)</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// ...</span></div>
 <div class="line">}</div>
 <div class="line"> </div>
+<div class="line"><span class="comment">/* Mandatory only if Xalloc_MapPages is set to true */</span></div>
 <div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="../../d8/d21/Wrapper_8cpp.html#ac5653876339972db0db5f662e64f8f19">Xalloc_UNMAP_MEMORY</a>(<span class="keywordtype">void</span> *VirtualAddress)</div>
 <div class="line">{</div>
 <div class="line">    <span class="comment">// ...</span></div>
@@ -133,16 +136,24 @@ Wrapper.cpp</h4>
 <div class="ttc" id="aWrapper_8cpp_html_ac5653876339972db0db5f662e64f8f19"><div class="ttname"><a href="../../d8/d21/Wrapper_8cpp.html#ac5653876339972db0db5f662e64f8f19">Xalloc_UNMAP_MEMORY</a></div><div class="ttdeci">void Xalloc_UNMAP_MEMORY(void *VirtualAddress)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d21/Wrapper_8cpp_source.html#l00037">Wrapper.cpp:37</a></div></div>
 <div class="ttc" id="aWrapper_8cpp_html_afd396a5eefeee77f1fac8e07ed002b2e"><div class="ttname"><a href="../../d8/d21/Wrapper_8cpp.html#afd396a5eefeee77f1fac8e07ed002b2e">Xalloc_MAP_MEMORY</a></div><div class="ttdeci">void Xalloc_MAP_MEMORY(void *VirtualAddress, void *PhysicalAddress, Xsize_t Flags)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d21/Wrapper_8cpp_source.html#l00032">Wrapper.cpp:32</a></div></div>
 <div class="ttc" id="aXallocV1_8cpp_html_a6fc2b8ed8be1aa26731a45000f43b8cc"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">XallocV1.cpp:1</a></div></div>
-<div class="ttc" id="aXalloc_8hpp_html_a7b8a412335c2f3e107935b5f5450ec6e"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a></div><div class="ttdeci">long unsigned Xsize_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00026">Xalloc.hpp:26</a></div></div>
+<div class="ttc" id="aXalloc_8hpp_html_acbad0a9a6f7d3c53ed27bf0f4792c695"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a></div><div class="ttdeci">__SIZE_TYPE__ Xsize_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00026">Xalloc.hpp:26</a></div></div>
 </div><!-- fragment --><h4><a class="anchor" id="autotoc_md8"></a>
 Xalloc.hpp</h4>
-<div class="fragment"><div class="line"><span class="preprocessor">#define Xalloc_PAGE_SIZE &lt;page size&gt; </span><span class="comment">/* &lt;-- Replace with your page size */</span><span class="preprocessor"></span></div>
+<div class="fragment"><div class="line"><span class="preprocessor">#define Xalloc_StopOnFail &lt;bool&gt; </span><span class="comment">/* Infinite loop on failure */</span><span class="preprocessor"></span></div>
+<div class="line"><span class="preprocessor">#define Xalloc_MapPages &lt;bool&gt; </span><span class="comment">/* Map pages on allocation */</span><span class="preprocessor"></span></div>
+<div class="line"><span class="preprocessor">#define Xalloc_PAGE_SIZE &lt;page size&gt; </span><span class="comment">/* &lt;-- Replace with your page size */</span><span class="preprocessor"></span></div>
 <div class="line"><span class="preprocessor">#define Xalloc_trace(m, ...) &lt;trace function&gt;</span></div>
 <div class="line"><span class="preprocessor">#define Xalloc_warn(m, ...) &lt;warning function&gt;</span></div>
 <div class="line"><span class="preprocessor">#define Xalloc_err(m, ...) &lt;error function&gt;</span></div>
-<div class="line"><span class="preprocessor">#define Xalloc_def &lt;define a lock&gt; </span><span class="comment">/* eg. std::mutex Xalloc_lock; */</span><span class="preprocessor"></span></div>
-<div class="line"><span class="preprocessor">#define Xalloc_lock &lt;lock function&gt;</span></div>
-<div class="line"><span class="preprocessor">#define Xalloc_unlock &lt;unlock function&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="preprocessor">#define XallocV1_def &lt;define a lock&gt; </span><span class="comment">/* eg. std::mutex Xalloc_lock; */</span><span class="preprocessor"></span></div>
+<div class="line"><span class="preprocessor">#define XallocV1_lock &lt;lock function&gt;</span></div>
+<div class="line"><span class="preprocessor">#define XallocV1_unlock &lt;unlock function&gt;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="comment">/* Same as above */</span></div>
+<div class="line"><span class="preprocessor">#define XallocV2_def &lt;define a lock&gt; </span></div>
+<div class="line"><span class="preprocessor">#define XallocV2_lock &lt;lock function&gt;</span></div>
+<div class="line"><span class="preprocessor">#define XallocV2_unlock &lt;unlock function&gt;</span></div>
 </div><!-- fragment --><h2><a class="anchor" id="autotoc_md9"></a>
 Typical usage</h2>
 <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="../../d8/d12/Xalloc_8hpp.html">Xalloc.hpp</a>&quot;</span></div>
@@ -160,9 +171,9 @@ Typical usage</h2>
 <div class="line">    <span class="keyword">delete</span> <a class="code" href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ae1071ff6f628b5f371122caafcbd46c3">XallocV1Allocator</a>;</div>
 <div class="line">    <span class="keywordflow">return</span> 0;</div>
 <div class="line">}</div>
-<div class="ttc" id="aKernel_2Core_2Memory_2Memory_8cpp_html_ae1071ff6f628b5f371122caafcbd46c3"><div class="ttname"><a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ae1071ff6f628b5f371122caafcbd46c3">XallocV1Allocator</a></div><div class="ttdeci">Xalloc::V1 * XallocV1Allocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00055">Memory.cpp:55</a></div></div>
+<div class="ttc" id="aKernel_2Core_2Memory_2Memory_8cpp_html_ae1071ff6f628b5f371122caafcbd46c3"><div class="ttname"><a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp.html#ae1071ff6f628b5f371122caafcbd46c3">XallocV1Allocator</a></div><div class="ttdeci">Xalloc::V1 * XallocV1Allocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d12/Kernel_2Core_2Memory_2Memory_8cpp_source.html#l00049">Memory.cpp:49</a></div></div>
 <div class="ttc" id="aXalloc_8hpp_html"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html">Xalloc.hpp</a></div></div>
-<div class="ttc" id="aclassXalloc_1_1V1_html"><div class="ttname"><a href="../../d5/d32/classXalloc_1_1V1.html">Xalloc::V1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00039">Xalloc.hpp:40</a></div></div>
+<div class="ttc" id="aclassXalloc_1_1V1_html"><div class="ttname"><a href="../../d5/d32/classXalloc_1_1V1.html">Xalloc::V1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00046">Xalloc.hpp:47</a></div></div>
 <div class="ttc" id="aclassXalloc_1_1V1_html_a2117446e99c18c3159a459e6428e3feb"><div class="ttname"><a href="../../d5/d32/classXalloc_1_1V1.html#a2117446e99c18c3159a459e6428e3feb">Xalloc::V1::malloc</a></div><div class="ttdeci">void * malloc(Xsize_t Size)</div><div class="ttdoc">Allocate a new memory block.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00147">XallocV1.cpp:147</a></div></div>
 <div class="ttc" id="aclassXalloc_1_1V1_html_ac96c3ce565da97e8eaa6117737434a16"><div class="ttname"><a href="../../d5/d32/classXalloc_1_1V1.html#ac96c3ce565da97e8eaa6117737434a16">Xalloc::V1::free</a></div><div class="ttdeci">void free(void *Address)</div><div class="ttdoc">Free a previously allocated block.</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00197">XallocV1.cpp:197</a></div></div>
 <div class="ttc" id="agen-helpfiles_8c_html_a3c04138a5bfe5d72780bb7e82a18e627"><div class="ttname"><a href="../../d6/ddf/gen-helpfiles_8c.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a></div><div class="ttdeci">int main(int argc, char **argv)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddf/gen-helpfiles_8c_source.html#l00108">gen-helpfiles.c:108</a></div></div>
@@ -185,7 +196,7 @@ Typical usage</h2>
 API</h1>
 <h2><a class="anchor" id="autotoc_md12"></a>
 Xalloc::V1</h2>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> *<a class="code" href="../../d7/d55/alloca_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> *<a class="code" href="../../d7/d55/alloca_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="ttc" id="aXallocV1_8cpp_html_a9a6916f13c01e1cbb39bf087545542c7"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">XallocV1.cpp:4</a></div></div>
 <div class="ttc" id="aalloca_8c_html_acf143577800376dd931c059ecc61ba06"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a></div><div class="ttdeci">#define malloc</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d55/alloca_8c_source.html#l00079">alloca.c:79</a></div></div>
 </div><!-- fragment --><p> Allocates a block of memory of size <code>Size</code> bytes. If <code>Size</code> is 0, then <code>nullptr</code> is returned.</p><ul>
@@ -202,7 +213,7 @@ Xalloc::V1</h2>
 <p><br  />
 <br  />
 </p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> *<a class="code" href="../../d5/db0/dynlink_8c.html#a84beef8cc122add35118ec7cd35286c4">calloc</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> NumberOfBlocks, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> *<a class="code" href="../../d5/db0/dynlink_8c.html#a84beef8cc122add35118ec7cd35286c4">calloc</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> NumberOfBlocks, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="ttc" id="adynlink_8c_html_a84beef8cc122add35118ec7cd35286c4"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#a84beef8cc122add35118ec7cd35286c4">calloc</a></div><div class="ttdeci">#define calloc</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00034">dynlink.c:34</a></div></div>
 </div><!-- fragment --><p> Allocates a block of memory for an array of <code>NumberOfBlocks</code> elements, each of them <code>Size</code> bytes long. If <code>NumberOfBlocks</code> or <code>Size</code> is 0, then <code>nullptr</code> is returned.</p><ul>
 <li><code>NumberOfBlocks</code> - The number of elements to allocate.</li>
@@ -211,14 +222,19 @@ Xalloc::V1</h2>
 <p><br  />
 <br  />
 </p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> *<a class="code" href="../../d5/db0/dynlink_8c.html#a1b739878adcdb46fb5d209af7ce79628">realloc</a>(<span class="keywordtype">void</span> *<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7b8a412335c2f3e107935b5f5450ec6e">Xsize_t</a> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
+<div class="fragment"><div class="line"><span class="keywordtype">void</span> *<a class="code" href="../../d5/db0/dynlink_8c.html#a1b739878adcdb46fb5d209af7ce79628">realloc</a>(<span class="keywordtype">void</span> *<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> <a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a>);</div>
 <div class="ttc" id="adynlink_8c_html_a1b739878adcdb46fb5d209af7ce79628"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#a1b739878adcdb46fb5d209af7ce79628">realloc</a></div><div class="ttdeci">#define realloc</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00035">dynlink.c:35</a></div></div>
 </div><!-- fragment --><p> Changes the size of the memory block pointed to by <code>Address</code> to <code>Size</code> bytes. If <code>Address</code> is <code>nullptr</code>, then the call is equivalent to <code><a class="el" href="../../d2/d48/____tz_8c.html#acf143577800376dd931c059ecc61ba06">malloc(Size)</a></code>. If <code>Size</code> is equal to zero, and <code>Address</code> is not <code>nullptr</code>, then the call is equivalent to <code><a class="el" href="../../d2/d48/____tz_8c.html#a2c6efa7679f8cd9f61af96e105017560">free(Address)</a></code>.</p><ul>
 <li><code>Address</code> - The address of the memory block to resize.</li>
 <li><code>Size</code> - The new size of the memory block in bytes.</li>
 </ul>
 <hr  />
- </div></div><!-- contents -->
+<h1><a class="anchor" id="autotoc_md14"></a>
+To-do</h1>
+<ul>
+<li>[ ] Multiple free-lists for different block sizes </li>
+</ul>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->

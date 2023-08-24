@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d4/d62/pthread__mutexattr__settype_8c.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1dd90ee27d219efc5e013859000d9f00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d62/pthread__mutexattr__settype_8c.html#a1dd90ee27d219efc5e013859000d9f00">pthread_mutexattr_settype</a> (<a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#abe42f061d48fc0f743860c62ac2a468d">pthread_mutexattr_t</a> *a, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>)</td></tr>
+<tr class="memitem:a1dd90ee27d219efc5e013859000d9f00"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d62/pthread__mutexattr__settype_8c.html#a1dd90ee27d219efc5e013859000d9f00">pthread_mutexattr_settype</a> (pthread_mutexattr_t *a, int <a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>)</td></tr>
 <tr class="separator:a1dd90ee27d219efc5e013859000d9f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,15 +108,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> pthread_mutexattr_settype </td>
+          <td class="memname">int pthread_mutexattr_settype </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#abe42f061d48fc0f743860c62ac2a468d">pthread_mutexattr_t</a> *&#160;</td>
+          <td class="paramtype">pthread_mutexattr_t *&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>type</em>&#160;</td>
         </tr>
         <tr>
@@ -129,14 +129,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d62/pthread__mutexattr__settype_8c_source.html#l00003">3</a> of file <a class="el" href="../../d4/d62/pthread__mutexattr__settype_8c_source.html">pthread_mutexattr_settype.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span> ((<span class="keywordtype">unsigned</span>)<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> &gt; 2) <span class="keywordflow">return</span> <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    a-&gt;__attr = (a-&gt;__attr &amp; ~3) | <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span> ((<span class="keywordtype">unsigned</span>)<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a> &gt; 2) <span class="keywordflow">return</span> <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    a-&gt;__attr = (a-&gt;__attr &amp; ~3) | <a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdoc">Invalid argument.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">errno.h:85</a></div></div>
-<div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a8da1a8c7127a0371eec0810a29e30f3c"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a></div><div class="ttdeci">multiboot_uint32_t type</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00008">multiboot.h:8</a></div></div>
+<div class="ttc" id="axatonum_8c_html_a53155e22eaa05190346890241be3367c"><div class="ttname"><a href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a></div><div class="ttdeci">#define type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d80/xatonum_8c_source.html#l00011">xatonum.c:11</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">EINVAL</a>, and <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00008">type</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">EINVAL</a>, and <a class="el" href="../../d1/d80/xatonum_8c_source.html#l00011">type</a>.</p>
 
 </div>
 </div>

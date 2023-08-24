@@ -1,12 +1,4 @@
 var searchData=
 [
-  ['v4l2_5fbuf_5ftype_49394',['v4l2_buf_type',['../d6/d5a/videodev2_8h.html#a09aeaa46bdc6869319c400eb9edfffff',1,'videodev2.h']]],
-  ['v4l2_5fcolorfx_49395',['v4l2_colorfx',['../da/d3e/v4l2-controls_8h.html#a35b9d3a829804f381c4f69fa85e0e910',1,'v4l2-controls.h']]],
-  ['v4l2_5fexposure_5fauto_5ftype_49396',['v4l2_exposure_auto_type',['../da/d3e/v4l2-controls_8h.html#a48f2df30a26b9358e107d7fbb61d6fe5',1,'v4l2-controls.h']]],
-  ['v4l2_5ffrmivaltypes_49397',['v4l2_frmivaltypes',['../d6/d5a/videodev2_8h.html#a6f5ab70fa57886b75d572275643ef4c1',1,'videodev2.h']]],
-  ['v4l2_5ffrmsizetypes_49398',['v4l2_frmsizetypes',['../d6/d5a/videodev2_8h.html#a7a920ebcf13045884141093b108ce482',1,'videodev2.h']]],
-  ['v4l2_5fiso_5fsensitivity_5fauto_5ftype_49399',['v4l2_iso_sensitivity_auto_type',['../da/d3e/v4l2-controls_8h.html#a99865db496b1f671a529fd683426ea5e',1,'v4l2-controls.h']]],
-  ['v4l2_5fpower_5fline_5ffrequency_49400',['v4l2_power_line_frequency',['../da/d3e/v4l2-controls_8h.html#a6e32c23479c5b9aeeef0ec5f95eeda04',1,'v4l2-controls.h']]],
-  ['visit_49401',['VISIT',['../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45a',1,'VISIT():&#160;search.h'],['../d8/dd8/musl_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45a',1,'VISIT():&#160;search.h']]],
-  ['vldoor_5fe_49402',['vldoor_e',['../d2/d78/p__spec_8h.html#a44dbbe4023b183beefa3155a27797b65',1,'p_spec.h']]]
+  ['weapontype_5ft_63315',['weapontype_t',['../d3/d47/doomdef_8h.html#a0c185b291c0d4c8937a04795c72e3918',1,'doomdef.h']]]
 ];

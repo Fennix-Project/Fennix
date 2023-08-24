@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d5/d99/pthread__mutex__init_8c.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a87bf9fe646fd68c7de03742bfec8934b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d99/pthread__mutex__init_8c.html#a87bf9fe646fd68c7de03742bfec8934b">pthread_mutex_init</a> (<a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#a48d62d90b00974bcecdaa5f3789fd420">pthread_mutex_t</a> *restrict m, const <a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#abe42f061d48fc0f743860c62ac2a468d">pthread_mutexattr_t</a> *restrict a)</td></tr>
+<tr class="memitem:a87bf9fe646fd68c7de03742bfec8934b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d99/pthread__mutex__init_8c.html#a87bf9fe646fd68c7de03742bfec8934b">pthread_mutex_init</a> (pthread_mutex_t *restrict m, const pthread_mutexattr_t *restrict a)</td></tr>
 <tr class="separator:a87bf9fe646fd68c7de03742bfec8934b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,15 +108,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> pthread_mutex_init </td>
+          <td class="memname">int pthread_mutex_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#a48d62d90b00974bcecdaa5f3789fd420">pthread_mutex_t</a> *restrict&#160;</td>
+          <td class="paramtype">pthread_mutex_t *restrict&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#abe42f061d48fc0f743860c62ac2a468d">pthread_mutexattr_t</a> *restrict&#160;</td>
+          <td class="paramtype">const pthread_mutexattr_t *restrict&#160;</td>
           <td class="paramname"><em>a</em>&#160;</td>
         </tr>
         <tr>
@@ -129,11 +129,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d99/pthread__mutex__init_8c_source.html#l00003">3</a> of file <a class="el" href="../../d5/d99/pthread__mutex__init_8c_source.html">pthread_mutex_init.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    *m = (<a class="code" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#a48d62d90b00974bcecdaa5f3789fd420">pthread_mutex_t</a>){0};</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    *m = (pthread_mutex_t){0};</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (a) m-&gt;_m_type = a-&gt;__attr;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2posix_2include_2pthread_8h_html_a48d62d90b00974bcecdaa5f3789fd420"><div class="ttname"><a href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#a48d62d90b00974bcecdaa5f3789fd420">pthread_mutex_t</a></div><div class="ttdeci">struct __mlibc_mutex pthread_mutex_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h_source.html#l00096">pthread.h:118</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

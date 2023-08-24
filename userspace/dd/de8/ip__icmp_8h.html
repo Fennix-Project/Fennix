@@ -93,8 +93,8 @@ $(document).ready(function(){initNavTree('dd/de8/ip__icmp_8h.html','../../'); in
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;stdint.h&gt;</code><br />
-<code>#include &lt;netinet/in.h&gt;</code><br />
-<code>#include &lt;netinet/ip.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d10/in_8h_source.html">netinet/in.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../da/d2f/ip_8h_source.html">netinet/ip.h</a>&gt;</code><br />
 </div>
 <p><a href="../../dd/de8/ip__icmp_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -239,11 +239,11 @@ Macros</h2></td></tr>
 <tr class="separator:a7eae76e1c45a7a97fc0e050a4df1920f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f29f52b21f278ac2f6786b17f0b9d61"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de8/ip__icmp_8h.html#a4f29f52b21f278ac2f6786b17f0b9d61">ICMP_MINLEN</a>&#160;&#160;&#160;8</td></tr>
 <tr class="separator:a4f29f52b21f278ac2f6786b17f0b9d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac88c6c41dfda324c068017b36695de35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de8/ip__icmp_8h.html#ac88c6c41dfda324c068017b36695de35">ICMP_TSLEN</a>&#160;&#160;&#160;(8 + 3 * sizeof (<a class="el" href="../../d7/ded/musl_2include_2netinet_2in__systm_8h.html#a3eb0fe9339c413e4e5477cb33137c3cc">n_time</a>))</td></tr>
+<tr class="memitem:ac88c6c41dfda324c068017b36695de35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de8/ip__icmp_8h.html#ac88c6c41dfda324c068017b36695de35">ICMP_TSLEN</a>&#160;&#160;&#160;(8 + 3 * sizeof (<a class="el" href="../../d9/dce/in__systm_8h.html#a3eb0fe9339c413e4e5477cb33137c3cc">n_time</a>))</td></tr>
 <tr class="separator:ac88c6c41dfda324c068017b36695de35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75a31666674028f820564fd152a1abbd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de8/ip__icmp_8h.html#a75a31666674028f820564fd152a1abbd">ICMP_MASKLEN</a>&#160;&#160;&#160;12</td></tr>
 <tr class="separator:a75a31666674028f820564fd152a1abbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd3aa4703919ce3d55fa1c102782a563"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de8/ip__icmp_8h.html#abd3aa4703919ce3d55fa1c102782a563">ICMP_ADVLENMIN</a>&#160;&#160;&#160;(8 + sizeof (struct <a class="el" href="../../d7/d9d/musl_2include_2netinet_2ip_8h.html#d5/d5b/structip">ip</a>) + 8)</td></tr>
+<tr class="memitem:abd3aa4703919ce3d55fa1c102782a563"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de8/ip__icmp_8h.html#abd3aa4703919ce3d55fa1c102782a563">ICMP_ADVLENMIN</a>&#160;&#160;&#160;(8 + sizeof (struct <a class="el" href="../../da/d2f/ip_8h.html#d5/d5b/structip">ip</a>) + 8)</td></tr>
 <tr class="separator:abd3aa4703919ce3d55fa1c102782a563"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ebc93fd61550d0c4c72cce50bc42166"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de8/ip__icmp_8h.html#a1ebc93fd61550d0c4c72cce50bc42166">ICMP_ADVLEN</a>(<a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>)&#160;&#160;&#160;(8 + ((<a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>)-&gt;icmp_ip.ip_hl &lt;&lt; 2) + 8)</td></tr>
 <tr class="separator:a1ebc93fd61550d0c4c72cce50bc42166"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -319,7 +319,7 @@ Macros</h2></td></tr>
 <tr class="separator:ae99744be808ccf1c4dc27c16cd91a7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a863452dc23f115cd09b48b53771fd330"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de8/ip__icmp_8h.html#a863452dc23f115cd09b48b53771fd330">ICMP_PARAMPROB_OPTABSENT</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:a863452dc23f115cd09b48b53771fd330"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1f2425f19b05145a368dfb2a827a993"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de8/ip__icmp_8h.html#aa1f2425f19b05145a368dfb2a827a993">ICMP_INFOTYPE</a>(type)</td></tr>
+<tr class="memitem:aa1f2425f19b05145a368dfb2a827a993"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/de8/ip__icmp_8h.html#aa1f2425f19b05145a368dfb2a827a993">ICMP_INFOTYPE</a>(<a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>)</td></tr>
 <tr class="separator:aa1f2425f19b05145a368dfb2a827a993"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
@@ -357,7 +357,7 @@ type</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aeeef84cce9267145f2b65eb1dbea4578"></a>union <a class="el" href="../../dd/de8/ip__icmp_8h.html#d6/d74/unionicmphdr_8un">icmphdr</a></td>
+<a id="aca23cc40972f068837c538b5d785c76a"></a>union <a class="el" href="../../dd/de8/ip__icmp_8h.html#d6/d74/unionicmphdr_8un">icmphdr</a></td>
 <td class="fieldname">
 un</td>
 <td class="fielddoc">
@@ -425,13 +425,13 @@ icmp_code</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aca4bee3b0ba17063b6d2e2f0e17dafe3"></a>union <a class="el" href="../../dd/de8/ip__icmp_8h.html#db/d25/unionicmp_8icmp__dun">icmp</a></td>
+<a id="a35e13cec89213aa302215ea55bb3f19a"></a>union <a class="el" href="../../dd/de8/ip__icmp_8h.html#db/d25/unionicmp_8icmp__dun">icmp</a></td>
 <td class="fieldname">
 icmp_dun</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a445a2fb99ef709af8a27b016ea23da55"></a>union <a class="el" href="../../dd/de8/ip__icmp_8h.html#d1/d4c/unionicmp_8icmp__hun">icmp</a></td>
+<a id="a83e719e72cf5a30ecc2dac3131b8e062"></a>union <a class="el" href="../../dd/de8/ip__icmp_8h.html#d1/d4c/unionicmp_8icmp__hun">icmp</a></td>
 <td class="fieldname">
 icmp_hun</td>
 <td class="fielddoc">
@@ -567,7 +567,7 @@ mtu</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a97b36a02813ab5888f614e0e7da71e45"></a>struct <a class="el" href="../../d4/d9c/musl_2include_2netinet_2in_8h.html#da/d7e/structin__addr">in_addr</a></td>
+<a id="a97b36a02813ab5888f614e0e7da71e45"></a>struct <a class="el" href="../../d1/d10/in_8h.html#da/d7e/structin__addr">in_addr</a></td>
 <td class="fieldname">
 ih_gwaddr</td>
 <td class="fielddoc">
@@ -807,7 +807,7 @@ its_ttime</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a911602b0e35c1f0df4e7cb4ce530c979"></a>struct <a class="el" href="../../d7/d9d/musl_2include_2netinet_2ip_8h.html#d5/d5b/structip">ip</a></td>
+<a id="a911602b0e35c1f0df4e7cb4ce530c979"></a>struct <a class="el" href="../../da/d2f/ip_8h.html#d5/d5b/structip">ip</a></td>
 <td class="fieldname">
 idi_ip</td>
 <td class="fielddoc">
@@ -876,7 +876,7 @@ idi_ip</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ICMP_ADVLENMIN&#160;&#160;&#160;(8 + sizeof (struct <a class="el" href="../../d7/d9d/musl_2include_2netinet_2ip_8h.html#d5/d5b/structip">ip</a>) + 8)</td>
+          <td class="memname">#define ICMP_ADVLENMIN&#160;&#160;&#160;(8 + sizeof (struct <a class="el" href="../../da/d2f/ip_8h.html#d5/d5b/structip">ip</a>) + 8)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1151,16 +1151,16 @@ idi_ip</td>
           <td class="memname">#define ICMP_INFOTYPE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">type</td><td>)</td>
+          <td class="paramname"><a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    ((type) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#a82c3c22ccc3ab020f598fa6832a78d12">ICMP_ECHOREPLY</a> || (type) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#ad58231410d58e34b455328b888a9e73c">ICMP_ECHO</a> || \</div>
-<div class="line">    (type) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#a378e8c9e15b519665b52161df53eea56">ICMP_ROUTERADVERT</a> || (type) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#a3c94ac7432cd169ab5c9ef37d50ad981">ICMP_ROUTERSOLICIT</a> || \</div>
-<div class="line">    (type) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#a62bf3a7886f5cbbd6f0f67303a39fc8f">ICMP_TSTAMP</a> || (type) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#afa0adb2fb9705db67f1145ab92d581a7">ICMP_TSTAMPREPLY</a> || \</div>
-<div class="line">    (type) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#a3fd3b310a59aa6bad86a0c37a99aeb8c">ICMP_IREQ</a> || (type) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#ac25271988d45328dc281f8ed301d0b2a">ICMP_IREQREPLY</a> || \</div>
-<div class="line">    (type) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#ad200822fc3735b19416dbd8376b02e37">ICMP_MASKREQ</a> || (type) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#aeecbd895301a4ebe549f270a6486b0c5">ICMP_MASKREPLY</a>)</div>
+<b>Value:</b><div class="fragment"><div class="line">    ((<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#a82c3c22ccc3ab020f598fa6832a78d12">ICMP_ECHOREPLY</a> || (<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#ad58231410d58e34b455328b888a9e73c">ICMP_ECHO</a> || \</div>
+<div class="line">    (<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#a378e8c9e15b519665b52161df53eea56">ICMP_ROUTERADVERT</a> || (<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#a3c94ac7432cd169ab5c9ef37d50ad981">ICMP_ROUTERSOLICIT</a> || \</div>
+<div class="line">    (<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#a62bf3a7886f5cbbd6f0f67303a39fc8f">ICMP_TSTAMP</a> || (<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#afa0adb2fb9705db67f1145ab92d581a7">ICMP_TSTAMPREPLY</a> || \</div>
+<div class="line">    (<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#a3fd3b310a59aa6bad86a0c37a99aeb8c">ICMP_IREQ</a> || (<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#ac25271988d45328dc281f8ed301d0b2a">ICMP_IREQREPLY</a> || \</div>
+<div class="line">    (<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#ad200822fc3735b19416dbd8376b02e37">ICMP_MASKREQ</a> || (<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>) == <a class="code" href="../../dd/de8/ip__icmp_8h.html#aeecbd895301a4ebe549f270a6486b0c5">ICMP_MASKREPLY</a>)</div>
 <div class="ttc" id="aip__icmp_8h_html_a378e8c9e15b519665b52161df53eea56"><div class="ttname"><a href="../../dd/de8/ip__icmp_8h.html#a378e8c9e15b519665b52161df53eea56">ICMP_ROUTERADVERT</a></div><div class="ttdeci">#define ICMP_ROUTERADVERT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de8/ip__icmp_8h_source.html#l00143">ip_icmp.h:143</a></div></div>
 <div class="ttc" id="aip__icmp_8h_html_a3c94ac7432cd169ab5c9ef37d50ad981"><div class="ttname"><a href="../../dd/de8/ip__icmp_8h.html#a3c94ac7432cd169ab5c9ef37d50ad981">ICMP_ROUTERSOLICIT</a></div><div class="ttdeci">#define ICMP_ROUTERSOLICIT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de8/ip__icmp_8h_source.html#l00144">ip_icmp.h:144</a></div></div>
 <div class="ttc" id="aip__icmp_8h_html_a3fd3b310a59aa6bad86a0c37a99aeb8c"><div class="ttname"><a href="../../dd/de8/ip__icmp_8h.html#a3fd3b310a59aa6bad86a0c37a99aeb8c">ICMP_IREQ</a></div><div class="ttdeci">#define ICMP_IREQ</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de8/ip__icmp_8h_source.html#l00149">ip_icmp.h:149</a></div></div>
@@ -1171,6 +1171,7 @@ idi_ip</td>
 <div class="ttc" id="aip__icmp_8h_html_ad58231410d58e34b455328b888a9e73c"><div class="ttname"><a href="../../dd/de8/ip__icmp_8h.html#ad58231410d58e34b455328b888a9e73c">ICMP_ECHO</a></div><div class="ttdeci">#define ICMP_ECHO</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de8/ip__icmp_8h_source.html#l00034">ip_icmp.h:34</a></div></div>
 <div class="ttc" id="aip__icmp_8h_html_aeecbd895301a4ebe549f270a6486b0c5"><div class="ttname"><a href="../../dd/de8/ip__icmp_8h.html#aeecbd895301a4ebe549f270a6486b0c5">ICMP_MASKREPLY</a></div><div class="ttdeci">#define ICMP_MASKREPLY</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de8/ip__icmp_8h_source.html#l00152">ip_icmp.h:152</a></div></div>
 <div class="ttc" id="aip__icmp_8h_html_afa0adb2fb9705db67f1145ab92d581a7"><div class="ttname"><a href="../../dd/de8/ip__icmp_8h.html#afa0adb2fb9705db67f1145ab92d581a7">ICMP_TSTAMPREPLY</a></div><div class="ttdeci">#define ICMP_TSTAMPREPLY</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de8/ip__icmp_8h_source.html#l00148">ip_icmp.h:148</a></div></div>
+<div class="ttc" id="axatonum_8c_html_a53155e22eaa05190346890241be3367c"><div class="ttname"><a href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a></div><div class="ttdeci">#define type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d80/xatonum_8c_source.html#l00011">xatonum.c:11</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../dd/de8/ip__icmp_8h_source.html#l00182">182</a> of file <a class="el" href="../../dd/de8/ip__icmp_8h_source.html">ip_icmp.h</a>.</p>
 
@@ -1983,7 +1984,7 @@ idi_ip</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define ICMP_TSLEN&#160;&#160;&#160;(8 + 3 * sizeof (<a class="el" href="../../d7/ded/musl_2include_2netinet_2in__systm_8h.html#a3eb0fe9339c413e4e5477cb33137c3cc">n_time</a>))</td>
+          <td class="memname">#define ICMP_TSLEN&#160;&#160;&#160;(8 + 3 * sizeof (<a class="el" href="../../d9/dce/in__systm_8h.html#a3eb0fe9339c413e4e5477cb33137c3cc">n_time</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">

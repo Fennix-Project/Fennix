@@ -1,12 +1,20 @@
 var searchData=
 [
-  ['objcache_39796',['objcache',['../de/d36/ocache_8h.html#d7/d01/structobjcache',1,'']]],
-  ['objectrepository_39797',['ObjectRepository',['../dd/d3a/structObjectRepository.html',1,'']]],
-  ['objectsymbol_39798',['ObjectSymbol',['../d9/d5c/structObjectSymbol.html',1,'']]],
-  ['option_39799',['option',['../d4/d31/musl_2include_2getopt_8h.html#d6/d43/structoption',1,'']]],
-  ['out_5fof_5fbounds_5finfo_39800',['out_of_bounds_info',['../d0/d1f/ubsan_8h.html#d5/d4a/structout__of__bounds__info',1,'']]],
-  ['outofboundsdata_39801',['OutOfBoundsData',['../da/d80/ubsan_8cpp.html#d9/dfe/structOutOfBoundsData',1,'']]],
-  ['output_5fgadget_5ft_39802',['output_gadget_t',['../d0/d3e/structoutput__gadget__t.html',1,'']]],
-  ['overflow_5fdata_39803',['overflow_data',['../d0/d1f/ubsan_8h.html#d0/dd1/structoverflow__data',1,'']]],
-  ['overflowdata_39804',['OverflowData',['../da/d80/ubsan_8cpp.html#d4/de2/structOverflowData',1,'']]]
+  ['o_5fstring_48794',['o_string',['../d6/d90/hush_8c.html#d0/db6/structo__string',1,'']]],
+  ['obj_5ffile_48795',['obj_file',['../dc/ded/modutils-24_8c.html#d8/dfe/structobj__file',1,'']]],
+  ['obj_5fsection_48796',['obj_section',['../dc/ded/modutils-24_8c.html#d7/d5a/structobj__section',1,'']]],
+  ['obj_5fstring_5fpatch_48797',['obj_string_patch',['../dc/ded/modutils-24_8c.html#d4/d2e/structobj__string__patch',1,'']]],
+  ['obj_5fsymbol_48798',['obj_symbol',['../dc/ded/modutils-24_8c.html#d5/dd8/structobj__symbol',1,'']]],
+  ['obj_5fsymbol_5fpatch_48799',['obj_symbol_patch',['../dc/ded/modutils-24_8c.html#dc/d14/structobj__symbol__patch',1,'']]],
+  ['objcache_48800',['objcache',['../de/d36/ocache_8h.html#d7/d01/structobjcache',1,'']]],
+  ['ocfs2_5fsuper_5fblock_48801',['ocfs2_super_block',['../db/d06/ocfs2_8c.html#dc/da0/structocfs2__super__block',1,'']]],
+  ['op_48802',['op',['../d5/df6/structop.html',1,'']]],
+  ['operator_5ft_48803',['operator_t',['../d6/d9e/busybox_2coreutils_2test_8c.html#db/dfb/structoperator__t',1,'']]],
+  ['option_48804',['option',['../d4/d31/musl_2include_2getopt_8h.html#d6/d43/structoption',1,'']]],
+  ['option_5fset_48805',['option_set',['../df/d31/busybox_2networking_2udhcp_2common_8h.html#dd/df5/structoption__set',1,'']]],
+  ['options_48806',['options',['../d3/df2/ifconfig_8c.html#d1/d38/structoptions',1,'']]],
+  ['out_5fof_5fbounds_5finfo_48807',['out_of_bounds_info',['../d0/d1f/ubsan_8h.html#d5/d4a/structout__of__bounds__info',1,'']]],
+  ['outdata_5ft_48808',['outdata_t',['../d1/d4c/traceroute_8c.html#d2/db0/structoutdata__t',1,'']]],
+  ['output_5fgadget_5ft_48809',['output_gadget_t',['../d0/d3e/structoutput__gadget__t.html',1,'']]],
+  ['overflow_5fdata_48810',['overflow_data',['../d0/d1f/ubsan_8h.html#d0/dd1/structoverflow__data',1,'']]]
 ];

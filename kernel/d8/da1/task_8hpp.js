@@ -33,6 +33,10 @@ var task_8hpp =
       [ "IsDebugEnabled", "d9/d3e/namespaceTasking.html#aa8b64dfb6a2382bc19ba8ef60dd271ce", null ],
       [ "IsKernelDebugEnabled", "d9/d3e/namespaceTasking.html#ac40809dda4c3aca2f57cac3d32c3910d", null ]
     ] ],
+    [ "TCB.Linux", "d9/d3e/namespaceTasking.html#dd/df3/structTasking_1_1TCB_8Linux", [
+      [ "clear_child_tid", "d9/d3e/namespaceTasking.html#a985c8213878c0011cbeae40853dd33ba", null ],
+      [ "set_child_tid", "d9/d3e/namespaceTasking.html#ade8fa74653f9b587fcaf7bf7cd0eea53", null ]
+    ] ],
     [ "PCB.Security", "d9/d3e/namespaceTasking.html#de/d3f/structTasking_1_1PCB_8Security", [
       [ "Effective", "d9/d3e/namespaceTasking.html#a975826920e100645fa7b60f265742446", null ],
       [ "ExecutionMode", "d9/d3e/namespaceTasking.html#a835309f5982bd96c7898e505f491d43d", null ],

@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('d9/d71/msgsnd_8c.html','../../'); init
 <div class="title">msgsnd.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;sys/msg.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d6/d2b/include_2sys_2msg_8h_source.html">sys/msg.h</a>&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h_source.html">ipc.h</a>&quot;</code><br />
 </div>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d9/d71/msgsnd_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac75e29c95ee571322a26fa2ef17f481b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d71/msgsnd_8c.html#ac75e29c95ee571322a26fa2ef17f481b">msgsnd</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> q, const void *m, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> flag)</td></tr>
+<tr class="memitem:ac75e29c95ee571322a26fa2ef17f481b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d71/msgsnd_8c.html#ac75e29c95ee571322a26fa2ef17f481b">msgsnd</a> (int q, const void *m, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>, int flag)</td></tr>
 <tr class="separator:ac75e29c95ee571322a26fa2ef17f481b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,9 +110,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> msgsnd </td>
+          <td class="memname">int msgsnd </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>q</em>, </td>
         </tr>
         <tr>
@@ -124,13 +124,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>len</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>flag</em>&#160;</td>
         </tr>
         <tr>
@@ -144,16 +144,16 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d9/d71/msgsnd_8c_source.html#l00005">5</a> of file <a class="el" href="../../d9/d71/msgsnd_8c_source.html">msgsnd.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef SYS_ipc</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_msgsnd, q, m, <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>, flag);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_msgsnd, q, m, <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>, flag);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_ipc, <a class="code" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a7457fa2611374704e84603a275c7fd7d">IPCOP_msgsnd</a>, q, <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>, flag, m);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_ipc, <a class="code" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a7457fa2611374704e84603a275c7fd7d">IPCOP_msgsnd</a>, q, <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>, flag, m);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
 <div class="ttc" id="aUserspace_2musl_2src_2ipc_2ipc_8h_html_a7457fa2611374704e84603a275c7fd7d"><div class="ttname"><a href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a7457fa2611374704e84603a275c7fd7d">IPCOP_msgsnd</a></div><div class="ttdeci">#define IPCOP_msgsnd</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h_source.html#l00007">ipc.h:7</a></div></div>
 <div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h_source.html#l00007">IPCOP_msgsnd</a>, <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>, and <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h_source.html#l00007">IPCOP_msgsnd</a>, <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
 
 </div>
 </div>

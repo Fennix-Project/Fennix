@@ -88,7 +88,8 @@ $(document).ready(function(){initNavTree('d6/de2/namespaceVideo.html','../../');
   <div class="summary">
 <a href="#nested-classes">Data Structures</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Video Namespace Reference</div>  </div>
 </div><!--header-->
@@ -127,6 +128,11 @@ Enumerations</h2></td></tr>
 , <a class="el" href="../../d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1ca993154ea1df2801b562f76f51fc974f4">PCScreenFont2</a>
  }</td></tr>
 <tr class="separator:a1d549e9c98577a9e2ddc84723ac9ac1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a8876a1680cdd8afab9d4f8a165951518"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de2/namespaceVideo.html#a8876a1680cdd8afab9d4f8a165951518">__no_sanitize</a> (&quot;undefined&quot;) void <a class="el" href="../../db/d81/classVideo_1_1Display.html">Display</a></td></tr>
+<tr class="separator:a8876a1680cdd8afab9d4f8a165951518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
 <a name="dd/dbd/structVideo_1_1PSF1__HEADER" id="dd/dbd/structVideo_1_1PSF1__HEADER"></a>
@@ -492,6 +498,50 @@ Width</td>
 <div class="ttc" id="anamespaceVideo_html_a1d549e9c98577a9e2ddc84723ac9ac1ca993154ea1df2801b562f76f51fc974f4"><div class="ttname"><a href="../../d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1ca993154ea1df2801b562f76f51fc974f4">Video::PCScreenFont2</a></div><div class="ttdeci">@ PCScreenFont2</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00073">display.hpp:72</a></div></div>
 <div class="ttc" id="anamespaceVideo_html_a1d549e9c98577a9e2ddc84723ac9ac1cac1878e6cbf133b2686f85c7a6bb0a4f4"><div class="ttname"><a href="../../d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1cac1878e6cbf133b2686f85c7a6bb0a4f4">Video::PCScreenFont1</a></div><div class="ttdeci">@ PCScreenFont1</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/da4/display_8hpp_source.html#l00071">display.hpp:71</a></div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a8876a1680cdd8afab9d4f8a165951518"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8876a1680cdd8afab9d4f8a165951518">&#9670;&nbsp;</a></span>__no_sanitize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Video::__no_sanitize </td>
+          <td>(</td>
+          <td class="paramtype">&quot;undefined&quot;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d17/Display_8cpp_source.html#l00170">170</a> of file <a class="el" href="../../d8/d17/Display_8cpp_source.html">Display.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(this-&gt;Buffers[Index].<a class="code" href="../../d9/d36/binfo_8h.html#ae129e9c4d84501484102e80f8b35d1da">Checksum</a> != 0xBBFFE515A117E))</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Invalid buffer %d&quot;</span>, Index);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        }</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160; </div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(X &gt;= this-&gt;Buffers[Index].Width))</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            X = this-&gt;Buffers[Index].Width - 1;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160; </div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(Y &gt;= this-&gt;Buffers[Index].Height))</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            Y = this-&gt;Buffers[Index].Height - 1;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *Pixel = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)this-&gt;Buffers[Index].Buffer + (Y * this-&gt;Buffers[Index].Width + X) * (this-&gt;framebuffer.BitsPerPixel / 8));</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        *Pixel = Color;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    }</div>
+<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
+<div class="ttc" id="abinfo_8h_html_ae129e9c4d84501484102e80f8b35d1da"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#ae129e9c4d84501484102e80f8b35d1da">Checksum</a></div><div class="ttdeci">__UINT8_TYPE__ Checksum</div><div class="ttdoc">Checksum.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00007">binfo.h:7</a></div></div>
+<div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00186">types.h:186</a></div></div>
+<div class="ttc" id="ainclude_2types_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00405">types.h:405</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d9/d36/binfo_8h_source.html#l00007">Checksum</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, and <a class="el" href="../../d6/de6/include_2types_8h_source.html#l00405">unlikely</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->

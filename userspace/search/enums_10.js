@@ -1,10 +1,20 @@
 var searchData=
 [
-  ['r_5finstruction_49364',['r_instruction',['../d0/d09/command_8h.html#a30995e3628b99a0514ed9fdd9843e55d',1,'command.h']]],
-  ['result_5fe_49365',['result_e',['../d2/d78/p__spec_8h.html#abcf175336fd34515e797965afebe4f0f',1,'p_spec.h']]],
-  ['rt_5fclass_5ft_49366',['rt_class_t',['../d9/d06/rtnetlink_8h.html#a1b32484bdf929bdbdb9e71c201a8d6d7',1,'rtnetlink.h']]],
-  ['rt_5fscope_5ft_49367',['rt_scope_t',['../d9/d06/rtnetlink_8h.html#a0a24f857b720ea82629522e1f5bd3cf5',1,'rtnetlink.h']]],
-  ['rtattr_5ftype_5ft_49368',['rtattr_type_t',['../d9/d06/rtnetlink_8h.html#ac4fb73b9e0bbdbc8a639619e800d8173',1,'rtnetlink.h']]],
-  ['rtnetlink_5fgroups_49369',['rtnetlink_groups',['../d9/d06/rtnetlink_8h.html#a977507b853027f758d625719bdfaf2db',1,'rtnetlink.h']]],
-  ['rtt_5ftypes_49370',['RtT_Types',['../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#a99019c567a914f79a4c488ecf2305834',1,'elf.h']]]
+  ['sectionheadertype_63281',['SectionHeaderType',['../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#af972be6246bb5b3009f361b1185410f9',1,'elf.h']]],
+  ['segmenttypes_63282',['SegmentTypes',['../d2/d6d/libc_2ElfInterpreter_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2',1,'elf.h']]],
+  ['sfxenum_5ft_63283',['sfxenum_t',['../dc/ddc/sounds_8h.html#acf2ad8edb557df908c3859c7e3e30706',1,'sounds.h']]],
+  ['size_5fspec_63284',['size_spec',['../d1/dac/od__bloaty_8c.html#a1d1ed0bda7484f6a206f72e892e1e8ea',1,'od_bloaty.c']]],
+  ['skill_5ft_63285',['skill_t',['../d7/d68/d__mode_8h.html#a80cfb3e8b04748649d26c22a1aaff90e',1,'d_mode.h']]],
+  ['slopetype_5ft_63286',['slopetype_t',['../dd/d76/r__defs_8h.html#ad458e73c26eba728dce6d0cf01f4b376',1,'r_defs.h']]],
+  ['snddevice_5ft_63287',['snddevice_t',['../d9/d1b/i__sound_8h.html#a36a8f7d6784e309bb5ca47d4bc570dae',1,'i_sound.h']]],
+  ['socket_5fstate_63288',['socket_state',['../dd/d3f/netstat_8c.html#a4a055720116545d1fd52227e417488f8',1,'netstat.c']]],
+  ['speed_5fsetting_63289',['speed_setting',['../d7/dd7/stty_8c.html#a473f9fa08123ec01555678edbb649cae',1,'stty.c']]],
+  ['spritenum_5ft_63290',['spritenum_t',['../d4/d21/info_8h.html#a059c98f3565f26d03c8b4932d25458e4',1,'info.h']]],
+  ['st_5fchatstateenum_5ft_63291',['st_chatstateenum_t',['../de/d27/st__stuff_8h.html#a3bf4c5b34bf90da5cdb459c6e4b2f475',1,'st_stuff.h']]],
+  ['st_5fstateenum_5ft_63292',['st_stateenum_t',['../de/d27/st__stuff_8h.html#a7adfa994fc16b15ae7bbb364d3b41b31',1,'st_stuff.h']]],
+  ['stair_5fe_63293',['stair_e',['../d2/d78/p__spec_8h.html#a39c5f6b909ec3ecfc29d131e3436152b',1,'p_spec.h']]],
+  ['stateenum_5ft_63294',['stateenum_t',['../df/d47/wi__stuff_8h.html#a56e1c4b0731621fcc856f91a00a719e7',1,'wi_stuff.h']]],
+  ['statenum_5ft_63295',['statenum_t',['../d4/d21/info_8h.html#a29353e95e7dd5ba27a3d1c65edc71a85',1,'info.h']]],
+  ['stream_5ftype_63296',['stream_type',['../de/ded/input_8h.html#a565ef8a9f2a47f27189e6a48b5dc615a',1,'input.h']]],
+  ['symbol_5ftype_63297',['symbol_type',['../d4/d78/expr_8h.html#a9e6705a3296471be728a3b6570b56231',1,'expr.h']]]
 ];

@@ -2,26 +2,22 @@ var apps_2system_2init_2aux_8h =
 [
     [ "Elf32_auxv_t", "d0/d45/musl_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t", [
       [ "a_type", "d0/d45/musl_2include_2elf_8h.html#ab6d0fd7066a8703da6fa658d3c0c085d", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#aa8114d5b813dd5ed6a0329eeb6bde865", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#ac9a4c2fc1a54bf96886a05ab0e79f466", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a5c10e0cffe5c84eef6022e01ba9a4e81", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a9d65258f79905399d6a470a99274f531", null ]
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#ac15f9df3127dccd08738f7737fd2683f", null ],
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a7b98ec28b19d7caa9c2581efb41141a0", null ],
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a4084d752f4fa65f78f09023cb9b499fe", null ]
     ] ],
     [ "Elf64_auxv_t", "d0/d45/musl_2include_2elf_8h.html#d9/de7/structElf64__auxv__t", [
       [ "a_type", "d0/d45/musl_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#ab44877c5b58ecabaff1191ef80156dbb", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#af0acaa6bc476966bed71fe2f9acb5587", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a455351b2b88b5144c0a73ebd5f8462e6", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#adcbd016a7ff268bfa51cf28dac32d3c8", null ]
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#ab772759f39dbada77007013b1d33100c", null ],
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a05d2daa6baca2837869b51e405e117e1", null ],
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a30d730775b6889a3aa3ea212fcb512af", null ]
     ] ],
     [ "Elf32_auxv_t.a_un", "d0/d45/musl_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un", [
-      [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],
     [ "Elf64_auxv_t.a_un", "d0/d45/musl_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
-      [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]

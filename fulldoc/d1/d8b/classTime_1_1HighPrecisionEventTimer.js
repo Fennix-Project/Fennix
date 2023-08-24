@@ -1,15 +1,15 @@
 var classTime_1_1HighPrecisionEventTimer =
 [
     [ "HPET", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#da/d5f/structTime_1_1HighPrecisionEventTimer_1_1HPET", [
-      [ "GeneralCapabilities", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a5632aa99ab3e09329240883f83f7950a", null ],
-      [ "GeneralConfiguration", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a3dcd1cdfed25165beeb81b9ee5c9c565", null ],
-      [ "GeneralIntStatus", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#aa83c7d73a53401d4659bf5285623041b", null ],
-      [ "MainCounterValue", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#aa2796ad2e5ec0d3b45801473c6538ab2", null ],
-      [ "Reserved0", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a92846a0fe5f549eda4f9ddc7674f2613", null ],
-      [ "Reserved1", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a1b2cb0d628be575f40a447573f553d5a", null ],
-      [ "Reserved2", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#ac9fafdd2b5f949f852435896cb7fddc1", null ],
-      [ "Reserved3", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a727eb41d57db7eefb701b8499090c562", null ],
-      [ "Reserved4", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a4e6030270ff7efa49ec1c1d7f282562c", null ]
+      [ "GeneralCapabilities", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#af393da6abb2a65edba60fc1c2c600fa6", null ],
+      [ "GeneralConfiguration", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a0bf1630b6a7e944dfa070ee1c83b4b13", null ],
+      [ "GeneralIntStatus", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a849ce0850815b614b365a89ab6db0027", null ],
+      [ "MainCounterValue", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a74612d2dea619535d9eb8c5daf234345", null ],
+      [ "Reserved0", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a6b02d5c666df548aedc90673733d9ae0", null ],
+      [ "Reserved1", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a964f5b54b5ea697145e8c4aee38eb0d0", null ],
+      [ "Reserved2", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#aef14a83d8bd4db2a5dc14a162cb5c086", null ],
+      [ "Reserved3", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#ad738609a03e52fe103365775eb1d7c55", null ],
+      [ "Reserved4", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a08a80be65056e71812efcb2d8f665fac", null ]
     ] ],
     [ "HighPrecisionEventTimer", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#af2bb73b62f4eb26b70d52be390fa2287", null ],
     [ "~HighPrecisionEventTimer", "d1/d8b/classTime_1_1HighPrecisionEventTimer.html#abb3243ffd9ad6fda796eabdde85ba75b", null ],

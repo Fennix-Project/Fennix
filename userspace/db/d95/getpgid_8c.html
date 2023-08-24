@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('db/d95/getpgid_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a48f523c98970793dfc2c5a05f6832006"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d95/getpgid_8c.html#a48f523c98970793dfc2c5a05f6832006">getpgid</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> pid)</td></tr>
+<tr class="memitem:a48f523c98970793dfc2c5a05f6832006"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d95/getpgid_8c.html#a48f523c98970793dfc2c5a05f6832006">getpgid</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>)</td></tr>
 <tr class="separator:a48f523c98970793dfc2c5a05f6832006"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -120,11 +120,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d95/getpgid_8c_source.html#l00004">4</a> of file <a class="el" href="../../db/d95/getpgid_8c_source.html">getpgid.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_getpgid, pid);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_getpgid, <a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="amconf_8c_html_ae0d46a978d5cd6707411f276ad869b9c"><div class="ttname"><a href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a></div><div class="ttdeci">pid_t pid</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d43/mconf_8c_source.html#l00450">mconf.c:450</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d43/mconf_8c_source.html#l00450">pid</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

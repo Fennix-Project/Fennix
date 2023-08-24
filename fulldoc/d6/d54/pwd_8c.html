@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Userspace/mlibc/tests/posix/pwd.c File Reference</title>
+<title>Fennix: Userspace/apps/base/busybox/coreutils/pwd.c File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -91,139 +91,184 @@ $(document).ready(function(){initNavTree('d6/d54/pwd_8c.html','../../'); initRes
 <div class="title">pwd.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;stdlib.h&gt;</code><br />
-<code>#include &lt;stdio.h&gt;</code><br />
-<code>#include &lt;pwd.h&gt;</code><br />
-<code>#include &lt;unistd.h&gt;</code><br />
-<code>#include &lt;assert.h&gt;</code><br />
-<code>#include &lt;string.h&gt;</code><br />
-<code>#include &lt;errno.h&gt;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/dd7/libbb_8h_source.html">libbb.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d6/d54/pwd_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d54/pwd_8c.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
-<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f304af0acbbda2b692e53ea61f073d6"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d54/pwd_8c.html#a7f304af0acbbda2b692e53ea61f073d6">logical_getcwd</a> (void)</td></tr>
+<tr class="separator:a7f304af0acbbda2b692e53ea61f073d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5209b4dead1e3cce2bba89c7ffaf36bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d54/pwd_8c.html#a5209b4dead1e3cce2bba89c7ffaf36bc">pwd_main</a> (int <a class="el" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a>, char **<a class="el" href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>) <a class="el" href="../../d7/dd7/libbb_8h.html#a50bff3dbf83ecbd070954b228becba4e">MAIN_EXTERNALLY_VISIBLE</a></td></tr>
+<tr class="separator:a5209b4dead1e3cce2bba89c7ffaf36bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb29c33ffc760e211b08433c57abb730"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d54/pwd_8c.html#acb29c33ffc760e211b08433c57abb730">pwd_main</a> (int <a class="el" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a> <a class="el" href="../../de/d03/platform_8h.html#a32dce3380228f1a23cdc1f784263762b">UNUSED_PARAM</a>, char **<a class="el" href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a> <a class="el" href="../../de/d03/platform_8h.html#a32dce3380228f1a23cdc1f784263762b">UNUSED_PARAM</a>)</td></tr>
+<tr class="separator:acb29c33ffc760e211b08433c57abb730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
+<a id="a7f304af0acbbda2b692e53ea61f073d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f304af0acbbda2b692e53ea61f073d6">&#9670;&nbsp;</a></span>logical_getcwd()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> main </td>
+          <td class="memname">static int logical_getcwd </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/d54/pwd_8c_source.html#l00009">9</a> of file <a class="el" href="../../d6/d54/pwd_8c_source.html">pwd.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../dd/d3c/musl_2include_2pwd_8h.html#d6/d85/structpasswd">passwd</a> pwd, *<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordtype">char</span> *<a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">size_t</span> bufsize;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordtype">int</span> s;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    bufsize = <a class="code" href="../../dd/d08/unistd-stubs_8cpp.html#ae403e7dadbc2b42bd0ab2c409e12ca86">sysconf</a>(<a class="code" href="../../dc/dfc/Userspace_2mlibc_2options_2posix_2include_2unistd_8h.html#a15f8be04c2d386c22be3ccb046fefdd0">_SC_GETPW_R_SIZE_MAX</a>);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bufsize &gt; 0 &amp;&amp; bufsize &lt; 0x100000);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a> = <a class="code" href="../../d7/d55/alloca_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a>(bufsize);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    s = <a class="code" href="../../dc/df5/pwd-stubs_8cpp.html#a769fc8a670e49b195fa2851732af1efa">getpwnam_r</a>(<span class="stringliteral">&quot;root&quot;</span>, &amp;pwd, <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, bufsize, &amp;<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!s);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(pwd.pw_uid == 0);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(pwd.pw_name, <span class="stringliteral">&quot;root&quot;</span>));</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(pwd.pw_passwd) &lt;= 1000);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    s = <a class="code" href="../../dc/df5/pwd-stubs_8cpp.html#a6c6a92b0c7d999930a67d44330c9f7ea">getpwuid_r</a>(0, &amp;pwd, <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, bufsize, &amp;<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!s);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(pwd.pw_uid == 0);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(pwd.pw_name, <span class="stringliteral">&quot;root&quot;</span>));</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(pwd.pw_passwd) &lt;= 1000);</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = <a class="code" href="../../dc/df5/pwd-stubs_8cpp.html#a08249b8fcd2bf95afbddd22fdc86814c">getpwnam</a>(<span class="stringliteral">&quot;root&quot;</span>);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_uid == 0);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_name, <span class="stringliteral">&quot;root&quot;</span>));</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_passwd) &lt;= 1000);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = <a class="code" href="../../d8/dd1/id_8c.html#acd27a52431812721f369e421d87b6ebb">getpwuid</a>(0);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_uid == 0);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_name, <span class="stringliteral">&quot;root&quot;</span>));</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_passwd) &lt;= 1000);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = 0;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="../../dc/df5/pwd-stubs_8cpp.html#a015c67a1cd39fb9dc8910ad7d622c6fa">setpwent</a>();</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> == 0);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = 0;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = <a class="code" href="../../dc/df5/pwd-stubs_8cpp.html#a6c9819b8d04fd2807a7a017801b76d17">getpwent</a>();</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    pwd = *<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    pwd.pw_name = <a class="code" href="../../d3/d82/convert_8h.html#a73d3b899fd0ce1012c7cc634f62401ed">strdup</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_name);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    pwd.pw_passwd = <a class="code" href="../../d3/d82/convert_8h.html#a73d3b899fd0ce1012c7cc634f62401ed">strdup</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_passwd);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    pwd.pw_gecos = <a class="code" href="../../d3/d82/convert_8h.html#a73d3b899fd0ce1012c7cc634f62401ed">strdup</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_gecos);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    pwd.pw_dir = <a class="code" href="../../d3/d82/convert_8h.html#a73d3b899fd0ce1012c7cc634f62401ed">strdup</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_dir);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    pwd.pw_shell = <a class="code" href="../../d3/d82/convert_8h.html#a73d3b899fd0ce1012c7cc634f62401ed">strdup</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_shell);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(pwd.pw_name);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(pwd.pw_passwd);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(pwd.pw_gecos);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(pwd.pw_dir);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(pwd.pw_shell);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = 0;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="../../dc/df5/pwd-stubs_8cpp.html#a015c67a1cd39fb9dc8910ad7d622c6fa">setpwent</a>();</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> == 0);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = 0;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = <a class="code" href="../../dc/df5/pwd-stubs_8cpp.html#a6c9819b8d04fd2807a7a017801b76d17">getpwent</a>();</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(pwd.pw_name, <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_name));</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(pwd.pw_passwd, <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_passwd));</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(pwd.pw_gecos, <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_gecos));</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(pwd.pw_dir, <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_dir));</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(!<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(pwd.pw_shell, <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_shell));</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(pwd.pw_uid == <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_uid);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(pwd.pw_gid == <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>-&gt;pw_gid);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(<a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(pwd.pw_name);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(pwd.pw_passwd);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(pwd.pw_gecos);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(pwd.pw_dir);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(pwd.pw_shell);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include__std_2assert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert.h:23</a></div></div>
-<div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00409">errno.h:409</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2posix_2include_2unistd_8h_html_a15f8be04c2d386c22be3ccb046fefdd0"><div class="ttname"><a href="../../dc/dfc/Userspace_2mlibc_2options_2posix_2include_2unistd_8h.html#a15f8be04c2d386c22be3ccb046fefdd0">_SC_GETPW_R_SIZE_MAX</a></div><div class="ttdeci">#define _SC_GETPW_R_SIZE_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dfc/Userspace_2mlibc_2options_2posix_2include_2unistd_8h_source.html#l00107">unistd.h:107</a></div></div>
-<div class="ttc" id="aalloca_8c_html_acf143577800376dd931c059ecc61ba06"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a></div><div class="ttdeci">#define malloc</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d55/alloca_8c_source.html#l00079">alloca.c:79</a></div></div>
-<div class="ttc" id="aconvert_8h_html_a73d3b899fd0ce1012c7cc634f62401ed"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a73d3b899fd0ce1012c7cc634f62401ed">strdup</a></div><div class="ttdeci">char * strdup(const char *String)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00154">Convert.cpp:154</a></div></div>
-<div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00064">Convert.cpp:64</a></div></div>
-<div class="ttc" id="adynlink_8c_html_a2c6efa7679f8cd9f61af96e105017560"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a></div><div class="ttdeci">#define free</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00036">dynlink.c:36</a></div></div>
-<div class="ttc" id="adynlink_8c_html_af3054366f27929432795c5ae420a5294"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a></div><div class="ttdeci">#define strcmp(l, r)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00174">dynlink.c:174</a></div></div>
-<div class="ttc" id="aid_8c_html_acd27a52431812721f369e421d87b6ebb"><div class="ttname"><a href="../../d8/dd1/id_8c.html#acd27a52431812721f369e421d87b6ebb">getpwuid</a></div><div class="ttdeci">struct passwd * getpwuid()</div></div>
-<div class="ttc" id="amlibc_2tests_2ansi_2longjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
-<div class="ttc" id="amlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c_html_d9/d98/structresult"><div class="ttname"><a href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c_source.html#l00018">test.c:18</a></div></div>
-<div class="ttc" id="amusl_2include_2pwd_8h_html_d6/d85/structpasswd"><div class="ttname"><a href="../../dd/d3c/musl_2include_2pwd_8h.html#d6/d85/structpasswd">passwd</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db0/mlibc_2options_2posix_2include_2pwd_8h_source.html#l00014">pwd.h:14</a></div></div>
-<div class="ttc" id="apwd-stubs_8cpp_html_a015c67a1cd39fb9dc8910ad7d622c6fa"><div class="ttname"><a href="../../dc/df5/pwd-stubs_8cpp.html#a015c67a1cd39fb9dc8910ad7d622c6fa">setpwent</a></div><div class="ttdeci">void setpwent(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/pwd-stubs_8cpp_source.html#l00265">pwd-stubs.cpp:265</a></div></div>
-<div class="ttc" id="apwd-stubs_8cpp_html_a08249b8fcd2bf95afbddd22fdc86814c"><div class="ttname"><a href="../../dc/df5/pwd-stubs_8cpp.html#a08249b8fcd2bf95afbddd22fdc86814c">getpwnam</a></div><div class="ttdeci">struct passwd * getpwnam(const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/pwd-stubs_8cpp_source.html#l00143">pwd-stubs.cpp:143</a></div></div>
-<div class="ttc" id="apwd-stubs_8cpp_html_a6c6a92b0c7d999930a67d44330c9f7ea"><div class="ttname"><a href="../../dc/df5/pwd-stubs_8cpp.html#a6c6a92b0c7d999930a67d44330c9f7ea">getpwuid_r</a></div><div class="ttdeci">int getpwuid_r(uid_t uid, struct passwd *pwd, char *buffer, size_t size, struct passwd **result)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/pwd-stubs_8cpp_source.html#l00231">pwd-stubs.cpp:231</a></div></div>
-<div class="ttc" id="apwd-stubs_8cpp_html_a6c9819b8d04fd2807a7a017801b76d17"><div class="ttname"><a href="../../dc/df5/pwd-stubs_8cpp.html#a6c9819b8d04fd2807a7a017801b76d17">getpwent</a></div><div class="ttdeci">struct passwd * getpwent(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/pwd-stubs_8cpp_source.html#l00119">pwd-stubs.cpp:119</a></div></div>
-<div class="ttc" id="apwd-stubs_8cpp_html_a769fc8a670e49b195fa2851732af1efa"><div class="ttname"><a href="../../dc/df5/pwd-stubs_8cpp.html#a769fc8a670e49b195fa2851732af1efa">getpwnam_r</a></div><div class="ttdeci">int getpwnam_r(const char *name, struct passwd *pwd, char *buffer, size_t size, struct passwd **result)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/pwd-stubs_8cpp_source.html#l00170">pwd-stubs.cpp:170</a></div></div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
-<div class="ttc" id="aunistd-stubs_8cpp_html_ae403e7dadbc2b42bd0ab2c409e12ca86"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#ae403e7dadbc2b42bd0ab2c409e12ca86">sysconf</a></div><div class="ttdeci">unsigned long sysconf(int number)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00678">unistd-stubs.cpp:678</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d6/d54/pwd_8c_source.html#l00030">30</a> of file <a class="el" href="../../d6/d54/pwd_8c_source.html">pwd.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> st1;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> st2;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">char</span> *wd;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">char</span> *<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    wd = <a class="code" href="../../d2/d02/os2compat_8h.html#aafc8c101dfb6313ab0416a6c5903ce66">getenv</a>(<span class="stringliteral">&quot;PWD&quot;</span>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (!wd || wd[0] != <span class="charliteral">&#39;/&#39;</span>)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a> = wd;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">while</span> (*<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a>) {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="comment">/* doing strstr(p, &quot;/.&quot;) by hand is smaller and faster... */</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">if</span> (*<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a>++ != <span class="charliteral">&#39;/&#39;</span>)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">if</span> (*<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a> != <span class="charliteral">&#39;.&#39;</span>)</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">/* we found &quot;/.&quot;, skip to next char */</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a>++;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">if</span> (*<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a> == <span class="charliteral">&#39;.&#39;</span>)</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a>++; <span class="comment">/* we found &quot;/..&quot; */</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span> (*<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a> == <span class="charliteral">&#39;\0&#39;</span> || *<a class="code" href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a> == <span class="charliteral">&#39;/&#39;</span>)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">return</span> 0; <span class="comment">/* &quot;/./&quot; or &quot;/../&quot; component: bad */</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a495553b93f6e4b88e7d82195f189cb22">stat</a>(wd, &amp;st1) != 0)</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a495553b93f6e4b88e7d82195f189cb22">stat</a>(<span class="stringliteral">&quot;.&quot;</span>, &amp;st2) != 0)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">if</span> (st1.st_ino != st2.st_ino)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">if</span> (st1.st_dev != st2.st_dev)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#ad41876f99f190c7488e64ef39c50a23f">puts</a>(wd);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
+<div class="ttc" id="aKernel__IO_8cpp_html_a495553b93f6e4b88e7d82195f189cb22"><div class="ttname"><a href="../../d0/db0/Kernel__IO_8cpp.html#a495553b93f6e4b88e7d82195f189cb22">stat</a></div><div class="ttdeci">int stat(const char *pathname, struct stat *statbuf)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db0/Kernel__IO_8cpp_source.html#l00117">Kernel_IO.cpp:117</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_ad41876f99f190c7488e64ef39c50a23f"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#ad41876f99f190c7488e64ef39c50a23f">puts</a></div><div class="ttdeci">int puts(const char *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d79/put_8c_source.html#l00027">put.c:27</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2arch_2x86__64_2bits_2stat_8h_html_da/de7/structstat"><div class="ttname"><a href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00077">filesystem.hpp:78</a></div></div>
+<div class="ttc" id="aglob__loop_8c_html_ac483f6ce851c9ecd9fb835ff7551737c"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#ac483f6ce851c9ecd9fb835ff7551737c">p</a></div><div class="ttdeci">p</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00031">glob_loop.c:31</a></div></div>
+<div class="ttc" id="aos2compat_8h_html_aafc8c101dfb6313ab0416a6c5903ce66"><div class="ttname"><a href="../../d2/d02/os2compat_8h.html#aafc8c101dfb6313ab0416a6c5903ce66">getenv</a></div><div class="ttdeci">#define getenv</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d02/os2compat_8h_source.html#l00045">os2compat.h:45</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/dfc/Userspace_2mlibc_2options_2posix_2include_2unistd_8h_source.html#l00107">_SC_GETPW_R_SIZE_MAX</a>, <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00409">errno</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, <a class="el" href="../../dc/df5/pwd-stubs_8cpp_source.html#l00119">getpwent()</a>, <a class="el" href="../../dc/df5/pwd-stubs_8cpp_source.html#l00143">getpwnam()</a>, <a class="el" href="../../dc/df5/pwd-stubs_8cpp_source.html#l00170">getpwnam_r()</a>, <a class="el" href="../../d8/dd1/id_8c.html#acd27a52431812721f369e421d87b6ebb">getpwuid()</a>, <a class="el" href="../../dc/df5/pwd-stubs_8cpp_source.html#l00231">getpwuid_r()</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00079">malloc</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, <a class="el" href="../../d0/db0/mlibc_2options_2posix_2include_2pwd_8h_source.html#l00020">passwd::pw_dir</a>, <a class="el" href="../../d0/db0/mlibc_2options_2posix_2include_2pwd_8h_source.html#l00019">passwd::pw_gecos</a>, <a class="el" href="../../d0/db0/mlibc_2options_2posix_2include_2pwd_8h_source.html#l00018">passwd::pw_gid</a>, <a class="el" href="../../d0/db0/mlibc_2options_2posix_2include_2pwd_8h_source.html#l00015">passwd::pw_name</a>, <a class="el" href="../../d0/db0/mlibc_2options_2posix_2include_2pwd_8h_source.html#l00016">passwd::pw_passwd</a>, <a class="el" href="../../d0/db0/mlibc_2options_2posix_2include_2pwd_8h_source.html#l00021">passwd::pw_shell</a>, <a class="el" href="../../d0/db0/mlibc_2options_2posix_2include_2pwd_8h_source.html#l00017">passwd::pw_uid</a>, <a class="el" href="../../dc/df5/pwd-stubs_8cpp_source.html#l00265">setpwent()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00174">strcmp</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00154">strdup()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>, and <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00678">sysconf()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d02/os2compat_8h_source.html#l00045">getenv</a>, <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00031">p</a>, <a class="el" href="../../df/d79/put_8c_source.html#l00027">puts()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00079">stat::st_dev</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00080">stat::st_ino</a>, and <a class="el" href="../../d0/db0/Kernel__IO_8cpp_source.html#l00117">stat()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d54/pwd_8c_source.html#l00070">pwd_main()</a>.</p>
+
+</div>
+</div>
+<a id="acb29c33ffc760e211b08433c57abb730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb29c33ffc760e211b08433c57abb730">&#9670;&nbsp;</a></span>pwd_main() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pwd_main </td>
+          <td>(</td>
+          <td class="paramtype">int <a class="el" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a>&#160;</td>
+          <td class="paramname"><em>UNUSED_PARAM</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **<a class="el" href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>&#160;</td>
+          <td class="paramname"><em>UNUSED_PARAM</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d54/pwd_8c_source.html#l00070">70</a> of file <a class="el" href="../../d6/d54/pwd_8c_source.html">pwd.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">char</span> *<a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">if</span> (ENABLE_DESKTOP) {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="comment">/* TODO: assume -L if $POSIXLY_CORRECT? (coreutils does that)</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="comment">         * Rationale:</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="comment">         * POSIX requires a default of -L, but most scripts expect -P</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordtype">unsigned</span> <a class="code" href="../../d4/dcd/nmeter_8c.html#a6b9d817d08c1417f5c533eb8ad775312">opt</a> = <a class="code" href="../../d7/dd7/libbb_8h.html#ae9d64bed6edb4d6ec066d5d7c3653fd2">getopt32</a>(<a class="code" href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>, <span class="stringliteral">&quot;LP&quot;</span>);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">if</span> ((<a class="code" href="../../d4/dcd/nmeter_8c.html#a6b9d817d08c1417f5c533eb8ad775312">opt</a> &amp; 1) &amp;&amp; <a class="code" href="../../d6/d54/pwd_8c.html#a7f304af0acbbda2b692e53ea61f073d6">logical_getcwd</a>())</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d7/dd7/libbb_8h.html#a8f037f44db72dcde4db67b3cb5dee815">fflush_all</a>();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a> = <a class="code" href="../../d7/dd7/libbb_8h.html#af60eaf864b6887ead5f987312c789553">xrealloc_getcwd_or_warn</a>(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>) {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#ad41876f99f190c7488e64ef39c50a23f">puts</a>(<a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(<a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d7/dd7/libbb_8h.html#a8f037f44db72dcde4db67b3cb5dee815">fflush_all</a>();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/d84/man2html_8c.html#a73efe787c131b385070f25d18b7c9aa4">EXIT_FAILURE</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">types.h:37</a></div></div>
+<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
+<div class="ttc" id="abash_2test_8c_html_af2efa898e9eed6fe6715279cb1ec35b0"><div class="ttname"><a href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a></div><div class="ttdeci">static char ** argv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd0/bash_2test_8c_source.html#l00110">test.c:110</a></div></div>
+<div class="ttc" id="adynlink_8c_html_a2c6efa7679f8cd9f61af96e105017560"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a></div><div class="ttdeci">#define free</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00036">dynlink.c:36</a></div></div>
+<div class="ttc" id="alibbb_8h_html_a8f037f44db72dcde4db67b3cb5dee815"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a8f037f44db72dcde4db67b3cb5dee815">fflush_all</a></div><div class="ttdeci">int fflush_all(void) FAST_FUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd6/xfuncs__printf_8c_source.html#l00307">xfuncs_printf.c:307</a></div></div>
+<div class="ttc" id="alibbb_8h_html_ae9d64bed6edb4d6ec066d5d7c3653fd2"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#ae9d64bed6edb4d6ec066d5d7c3653fd2">getopt32</a></div><div class="ttdeci">uint32_t getopt32(char **argv, const char *applet_opts,...) FAST_FUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7f/getopt32_8c_source.html#l00599">getopt32.c:599</a></div></div>
+<div class="ttc" id="alibbb_8h_html_af60eaf864b6887ead5f987312c789553"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#af60eaf864b6887ead5f987312c789553">xrealloc_getcwd_or_warn</a></div><div class="ttdeci">char * xrealloc_getcwd_or_warn(char *cwd) FAST_FUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db7/xgetcwd_8c_source.html#l00019">xgetcwd.c:19</a></div></div>
+<div class="ttc" id="aman2html_8c_html_a73efe787c131b385070f25d18b7c9aa4"><div class="ttname"><a href="../../d9/d84/man2html_8c.html#a73efe787c131b385070f25d18b7c9aa4">EXIT_FAILURE</a></div><div class="ttdeci">#define EXIT_FAILURE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d84/man2html_8c_source.html#l00098">man2html.c:98</a></div></div>
+<div class="ttc" id="anmeter_8c_html_a6b9d817d08c1417f5c533eb8ad775312"><div class="ttname"><a href="../../d4/dcd/nmeter_8c.html#a6b9d817d08c1417f5c533eb8ad775312">opt</a></div><div class="ttdeci">char opt</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcd/nmeter_8c_source.html#l00626">nmeter.c:626</a></div></div>
+<div class="ttc" id="apwd_8c_html_a7f304af0acbbda2b692e53ea61f073d6"><div class="ttname"><a href="../../d6/d54/pwd_8c.html#a7f304af0acbbda2b692e53ea61f073d6">logical_getcwd</a></div><div class="ttdeci">static int logical_getcwd(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d54/pwd_8c_source.html#l00030">pwd.c:30</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00110">argv</a>, <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d9/d84/man2html_8c_source.html#l00098">EXIT_FAILURE</a>, <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00307">fflush_all()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, <a class="el" href="../../d4/d7f/getopt32_8c_source.html#l00599">getopt32()</a>, <a class="el" href="../../d6/d54/pwd_8c_source.html#l00030">logical_getcwd()</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, <a class="el" href="../../d4/dcd/nmeter_8c_source.html#l00626">opt</a>, <a class="el" href="../../df/d79/put_8c_source.html#l00027">puts()</a>, and <a class="el" href="../../d5/db7/xgetcwd_8c_source.html#l00019">xrealloc_getcwd_or_warn()</a>.</p>
+
+</div>
+</div>
+<a id="a5209b4dead1e3cce2bba89c7ffaf36bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5209b4dead1e3cce2bba89c7ffaf36bc">&#9670;&nbsp;</a></span>pwd_main() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int pwd_main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -232,7 +277,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_ba5f49895413a8f5d3f39a542e8efb62.html">mlibc</a></li><li class="navelem"><a class="el" href="../../dir_502167504e2d86143081e2e7cc315d6c.html">tests</a></li><li class="navelem"><a class="el" href="../../dir_fa5c05a3144c9718a767da7c80f12826.html">posix</a></li><li class="navelem"><a class="el" href="../../d6/d54/pwd_8c.html">pwd.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_97d86ce2f18c7710ea326fa47777d7d7.html">Userspace</a></li><li class="navelem"><a class="el" href="../../dir_0276b9b7d706caf6f8b101518c949f15.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_825a5fc57f8484006531699dcb39fa0d.html">base</a></li><li class="navelem"><a class="el" href="../../dir_87e330aa425985c7f88c27f5b355b004.html">busybox</a></li><li class="navelem"><a class="el" href="../../dir_aaf0ccba2534bddeaaa4752e37b78c77.html">coreutils</a></li><li class="navelem"><a class="el" href="../../d6/d54/pwd_8c.html">pwd.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

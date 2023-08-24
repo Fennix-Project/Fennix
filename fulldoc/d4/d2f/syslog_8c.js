@@ -11,7 +11,7 @@ var syslog_8c =
     [ "weak_alias", "d4/d2f/syslog_8c.html#a406a4fb3b7e4b7e87f09e3bc21ec2bba", null ],
     [ "__syslog_lockptr", "d4/d2f/syslog_8c.html#aa8288df6297860355d8954584adc0276", null ],
     [ "lock", "d4/d2f/syslog_8c.html#a6a733c9ba5924e19957e8516b132ccd9", null ],
-    [ "log_addr", "d4/d2f/syslog_8c.html#a108b0a0def6ce92a7694a14f0bbe0179", null ],
+    [ "log_addr", "d4/d2f/syslog_8c.html#a4f04e4889a384e0caf8baf0bf5e1ee59", null ],
     [ "log_facility", "d4/d2f/syslog_8c.html#a7105775420483c638899c72d15fe31b2", null ],
     [ "log_fd", "d4/d2f/syslog_8c.html#ad9f84b0791cb1cac996456b223aeffec", null ],
     [ "log_ident", "d4/d2f/syslog_8c.html#a1eca9a75bb21dacfbac208f2427f35a0", null ],

@@ -272,26 +272,25 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d5/dae/8259PIC_8cpp_source.html#l00063">63</a> of file <a class="el" href="../../d5/dae/8259PIC_8cpp_source.html">8259PIC.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    {</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Port;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d9/df3/structValue.html">Value</a>;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Value;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">if</span> (IRQ &lt; 8)</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        {</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            Port = <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a236d0b1c7fd015c5c887c1d308803d34">MasterDataPort</a>;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <a class="code" href="../../d9/df3/structValue.html">Value</a> = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)(<a class="code" href="../../d2/d37/classPIC_1_1PIC.html#aa7694c4c65c7d9674da27bd2ef96d281">MasterMask</a> &amp; ~(1 &lt;&lt; IRQ));</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#aa7694c4c65c7d9674da27bd2ef96d281">MasterMask</a> = <a class="code" href="../../d9/df3/structValue.html">Value</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            Value = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)(<a class="code" href="../../d2/d37/classPIC_1_1PIC.html#aa7694c4c65c7d9674da27bd2ef96d281">MasterMask</a> &amp; ~(1 &lt;&lt; IRQ));</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#aa7694c4c65c7d9674da27bd2ef96d281">MasterMask</a> = Value;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        }</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        {</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            Port = <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a1579272f0ee76c768ec412c59f4224fd">SlaveDataPort</a>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <a class="code" href="../../d9/df3/structValue.html">Value</a> = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)(<a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a34a071cf84315c923244a9db678ab7d0">SlaveMask</a> &amp; ~(1 &lt;&lt; (IRQ - 8)));</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a34a071cf84315c923244a9db678ab7d0">SlaveMask</a> = <a class="code" href="../../d9/df3/structValue.html">Value</a>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            Value = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)(<a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a34a071cf84315c923244a9db678ab7d0">SlaveMask</a> &amp; ~(1 &lt;&lt; (IRQ - 8)));</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a34a071cf84315c923244a9db678ab7d0">SlaveMask</a> = Value;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../de/d58/Userspace_2musl_2arch_2i386_2bits_2io_8h.html#a7d043ebc841b820a9c354a2f5aeecbd3">outb</a>(Port, <a class="code" href="../../d9/df3/structValue.html">Value</a>);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../de/d58/Userspace_2musl_2arch_2i386_2bits_2io_8h.html#a7d043ebc841b820a9c354a2f5aeecbd3">outb</a>(Port, Value);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00160">types.h:160</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00161">types.h:161</a></div></div>
-<div class="ttc" id="astructValue_html"><div class="ttname"><a href="../../d9/df3/structValue.html">Value</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/ubsan_8cpp_source.html#l00059">ubsan.cpp:59</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d58/Userspace_2musl_2arch_2i386_2bits_2io_8h_source.html#l00001">outb()</a>.</p>
 
@@ -344,22 +343,22 @@ Private Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d5/dae/8259PIC_8cpp_source.html#l00084">84</a> of file <a class="el" href="../../d5/dae/8259PIC_8cpp_source.html">8259PIC.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> Port;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../d9/df3/structValue.html">Value</a>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Value;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">if</span> (IRQ &lt; 8)</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        {</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            Port = <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a236d0b1c7fd015c5c887c1d308803d34">MasterDataPort</a>;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            <a class="code" href="../../d9/df3/structValue.html">Value</a> = <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#aa7694c4c65c7d9674da27bd2ef96d281">MasterMask</a> | (1 &lt;&lt; IRQ);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#aa7694c4c65c7d9674da27bd2ef96d281">MasterMask</a> = <a class="code" href="../../d9/df3/structValue.html">Value</a>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            Value = <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#aa7694c4c65c7d9674da27bd2ef96d281">MasterMask</a> | (1 &lt;&lt; IRQ);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#aa7694c4c65c7d9674da27bd2ef96d281">MasterMask</a> = Value;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        {</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            Port = <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a1579272f0ee76c768ec412c59f4224fd">SlaveDataPort</a>;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <a class="code" href="../../d9/df3/structValue.html">Value</a> = <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a34a071cf84315c923244a9db678ab7d0">SlaveMask</a> | (1 &lt;&lt; (IRQ - 8));</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a34a071cf84315c923244a9db678ab7d0">SlaveMask</a> = <a class="code" href="../../d9/df3/structValue.html">Value</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            Value = <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a34a071cf84315c923244a9db678ab7d0">SlaveMask</a> | (1 &lt;&lt; (IRQ - 8));</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <a class="code" href="../../d2/d37/classPIC_1_1PIC.html#a34a071cf84315c923244a9db678ab7d0">SlaveMask</a> = Value;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="code" href="../../de/d58/Userspace_2musl_2arch_2i386_2bits_2io_8h.html#a7d043ebc841b820a9c354a2f5aeecbd3">outb</a>(Port, <a class="code" href="../../d9/df3/structValue.html">Value</a>);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <a class="code" href="../../de/d58/Userspace_2musl_2arch_2i386_2bits_2io_8h.html#a7d043ebc841b820a9c354a2f5aeecbd3">outb</a>(Port, Value);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../de/d58/Userspace_2musl_2arch_2i386_2bits_2io_8h_source.html#l00001">outb()</a>.</p>

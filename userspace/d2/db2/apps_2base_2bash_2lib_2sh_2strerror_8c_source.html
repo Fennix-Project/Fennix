@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('d2/db2/apps_2base_2bash_2lib_2sh_2stre
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d21/bashtypes_8h.html">bashtypes.h</a>&gt;</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#if defined (HAVE_SYS_PARAM_H)</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#  include &lt;sys/param.h&gt;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#  include &lt;<a class="code" href="../../d5/d33/param_8h.html">sys/param.h</a>&gt;</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#if defined (HAVE_UNISTD_H)</span></div>
@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('d2/db2/apps_2base_2bash_2lib_2sh_2stre
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      z = <a class="code" href="../../df/d57/itos_8c.html#a4458df0c815a2822d5129649049b85b9">itos</a> (e);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <a class="code" href="../../d6/ddf/gen-helpfiles_8c.html#add539a5755e4c4070b0c8ca97477fe47">strcpy</a> (emsg, <a class="code" href="../../d2/db2/apps_2base_2bash_2lib_2sh_2strerror_8c.html#a7f128cac85e3a55c9b07f5dce110718c">errbase</a>);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#ae810f5794c31105a68d07b26121fd9d5">strcat</a> (emsg, z);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <a class="code" href="../../d6/d32/musl_2include_2string_8h.html#ae9574a0c155c11ae729dc92f054ed22c">strcat</a> (emsg, z);</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a> (z);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keywordflow">return</span> (&amp;emsg[0]);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
@@ -172,8 +172,9 @@ $(document).ready(function(){initNavTree('d2/db2/apps_2base_2bash_2lib_2sh_2stre
 <div class="ttc" id="aerrlist_8c_html_a560e1e3acaca1d09a7eddcdb528ed92e"><div class="ttname"><a href="../../df/d3a/errlist_8c.html#a560e1e3acaca1d09a7eddcdb528ed92e">sys_nerr</a></div><div class="ttdeci">int sys_nerr</div></div>
 <div class="ttc" id="agen-helpfiles_8c_html_add539a5755e4c4070b0c8ca97477fe47"><div class="ttname"><a href="../../d6/ddf/gen-helpfiles_8c.html#add539a5755e4c4070b0c8ca97477fe47">strcpy</a></div><div class="ttdeci">char * strcpy()</div></div>
 <div class="ttc" id="aitos_8c_html_a4458df0c815a2822d5129649049b85b9"><div class="ttname"><a href="../../df/d57/itos_8c.html#a4458df0c815a2822d5129649049b85b9">itos</a></div><div class="ttdeci">char * itos(intmax_t i)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d57/itos_8c_source.html#l00044">itos.c:44</a></div></div>
+<div class="ttc" id="amusl_2include_2string_8h_html_ae9574a0c155c11ae729dc92f054ed22c"><div class="ttname"><a href="../../d6/d32/musl_2include_2string_8h.html#ae9574a0c155c11ae729dc92f054ed22c">strcat</a></div><div class="ttdeci">char * strcat(char *__restrict, const char *__restrict)</div></div>
+<div class="ttc" id="aparam_8h_html"><div class="ttname"><a href="../../d5/d33/param_8h.html">param.h</a></div></div>
 <div class="ttc" id="ashell_8h_html"><div class="ttname"><a href="../../df/d03/shell_8h.html">shell.h</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_ae810f5794c31105a68d07b26121fd9d5"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#ae810f5794c31105a68d07b26121fd9d5">strcat</a></div><div class="ttdeci">char * strcat(char *__restrict dest, const char *__restrict src)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00037">string-stubs.cpp:37</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

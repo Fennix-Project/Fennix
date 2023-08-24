@@ -91,14 +91,14 @@ $(document).ready(function(){initNavTree('d0/dc9/sem__unlink_8c.html','../../');
 <div class="title">sem_unlink.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;semaphore.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d6/dc6/semaphore_8h_source.html">semaphore.h</a>&gt;</code><br />
 <code>#include &lt;sys/mman.h&gt;</code><br />
 </div>
 <p><a href="../../d0/dc9/sem__unlink_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a776256d1a473906f8b7490689bfcb75c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc9/sem__unlink_8c.html#a776256d1a473906f8b7490689bfcb75c">sem_unlink</a> (const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>)</td></tr>
+<tr class="memitem:a776256d1a473906f8b7490689bfcb75c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc9/sem__unlink_8c.html#a776256d1a473906f8b7490689bfcb75c">sem_unlink</a> (const char *name)</td></tr>
 <tr class="separator:a776256d1a473906f8b7490689bfcb75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sem_unlink </td>
+          <td class="memname">int sem_unlink </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -120,12 +120,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/dc9/sem__unlink_8c_source.html#l00004">4</a> of file <a class="el" href="../../d0/dc9/sem__unlink_8c_source.html">sem_unlink.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/d87/sys-mman-stubs_8cpp.html#a4037e49e9537e24edd610bd1acf090da">shm_unlink</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/d6b/include_2sys_2mman_8h.html#a1d2f3c62bfb687e7eb8fa282524d2073">shm_unlink</a>(name);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
-<div class="ttc" id="asys-mman-stubs_8cpp_html_a4037e49e9537e24edd610bd1acf090da"><div class="ttname"><a href="../../df/d87/sys-mman-stubs_8cpp.html#a4037e49e9537e24edd610bd1acf090da">shm_unlink</a></div><div class="ttdeci">int shm_unlink(const char *name)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d87/sys-mman-stubs_8cpp_source.html#l00127">sys-mman-stubs.cpp:127</a></div></div>
+<div class="ttc" id="ainclude_2sys_2mman_8h_html_a1d2f3c62bfb687e7eb8fa282524d2073"><div class="ttname"><a href="../../df/d6b/include_2sys_2mman_8h.html#a1d2f3c62bfb687e7eb8fa282524d2073">shm_unlink</a></div><div class="ttdeci">int shm_unlink(const char *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d6a/shm__open_8c_source.html#l00038">shm_open.c:38</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, and <a class="el" href="../../df/d87/sys-mman-stubs_8cpp_source.html#l00127">shm_unlink()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d6a/shm__open_8c_source.html#l00038">shm_unlink()</a>.</p>
 
 </div>
 </div>

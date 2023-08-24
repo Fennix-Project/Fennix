@@ -104,7 +104,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a131d5a62230be50122c603018fdb3fc2"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dca/secure__getenv_8c.html#a131d5a62230be50122c603018fdb3fc2">secure_getenv</a> (const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>)</td></tr>
+<tr class="memitem:a131d5a62230be50122c603018fdb3fc2"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/dca/secure__getenv_8c.html#a131d5a62230be50122c603018fdb3fc2">secure_getenv</a> (const char *name)</td></tr>
 <tr class="separator:a131d5a62230be50122c603018fdb3fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -143,14 +143,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/dca/secure__getenv_8c_source.html#l00005">5</a> of file <a class="el" href="../../d4/dca/secure__getenv_8c_source.html">secure_getenv.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.secure ? <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a> : <a class="code" href="../../d2/d02/os2compat_8h.html#aafc8c101dfb6313ab0416a6c5903ce66">getenv</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a>.secure ? <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a> : <a class="code" href="../../d2/d02/os2compat_8h.html#aafc8c101dfb6313ab0416a6c5903ce66">getenv</a>(name);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
+<div class="ttc" id="ageneral_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d14/general_8h_source.html#l00053">general.h:53</a></div></div>
 <div class="ttc" id="alibc_8h_html_a562c50deef56f1ef956e231f804c5d0b"><div class="ttname"><a href="../../db/dc8/libc_8h.html#a562c50deef56f1ef956e231f804c5d0b">libc</a></div><div class="ttdeci">#define libc</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dc8/libc_8h_source.html#l00038">libc.h:38</a></div></div>
 <div class="ttc" id="aos2compat_8h_html_aafc8c101dfb6313ab0416a6c5903ce66"><div class="ttname"><a href="../../d2/d02/os2compat_8h.html#aafc8c101dfb6313ab0416a6c5903ce66">getenv</a></div><div class="ttdeci">#define getenv</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d02/os2compat_8h_source.html#l00045">os2compat.h:45</a></div></div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d02/os2compat_8h_source.html#l00045">getenv</a>, <a class="el" href="../../db/dc8/libc_8h_source.html#l00038">libc</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, and <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d02/os2compat_8h_source.html#l00045">getenv</a>, <a class="el" href="../../db/dc8/libc_8h_source.html#l00038">libc</a>, and <a class="el" href="../../d9/d14/general_8h_source.html#l00053">NULL</a>.</p>
 
 </div>
 </div>

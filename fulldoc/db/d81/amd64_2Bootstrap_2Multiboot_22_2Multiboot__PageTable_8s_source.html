@@ -109,13 +109,13 @@ $(document).ready(function(){initNavTree('db/d81/amd64_2Bootstrap_2Multiboot_22_
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;PAGE_TABLE_SIZE = 0x4</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;.code32</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;.section .bootstrap.data</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;.section .bootstrap.data, &quot;a&quot;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;.align 0x1000</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;.global BootPageTable</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;BootPageTable:</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    .space 0x10000 /* 0x4000 bytes will be used in UpdatePageTable */</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;.section .bootstrap.text</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;.section .bootstrap.text, &quot;a&quot;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;.global UpdatePageTable</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;UpdatePageTable:</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    mov $(BootPageTable + 0x0000), %edi /* First PML4E */</div>

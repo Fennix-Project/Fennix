@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('db/d58/difftime_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a780ca0a18ad4b4e6501eca77626dd2a1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d58/difftime_8c.html#a780ca0a18ad4b4e6501eca77626dd2a1">difftime</a> (<a class="el" href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a> <a class="el" href="../../d2/de5/musl_2src_2math_2lgammaf__r_8c.html#aa6dc163867a19228f88531cee9da925f">t1</a>, <a class="el" href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a> <a class="el" href="../../d2/de5/musl_2src_2math_2lgammaf__r_8c.html#a2eca069ff569fed6dd7aeb9630583ace">t0</a>)</td></tr>
+<tr class="memitem:a780ca0a18ad4b4e6501eca77626dd2a1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d58/difftime_8c.html#a780ca0a18ad4b4e6501eca77626dd2a1">difftime</a> (time_t <a class="el" href="../../db/d56/lgammaf__r_8c.html#aa6dc163867a19228f88531cee9da925f">t1</a>, time_t <a class="el" href="../../db/d56/lgammaf__r_8c.html#a2eca069ff569fed6dd7aeb9630583ace">t0</a>)</td></tr>
 <tr class="separator:a780ca0a18ad4b4e6501eca77626dd2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,13 +110,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">double difftime </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a>&#160;</td>
+          <td class="paramtype">time_t&#160;</td>
           <td class="paramname"><em>t1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a>&#160;</td>
+          <td class="paramtype">time_t&#160;</td>
           <td class="paramname"><em>t0</em>&#160;</td>
         </tr>
         <tr>
@@ -129,12 +129,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d58/difftime_8c_source.html#l00003">3</a> of file <a class="el" href="../../db/d58/difftime_8c_source.html">difftime.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/ddc/mlibc_2options_2ansi_2musl-generic-math_2lgamma__r_8c.html#a65214077828087a81420f38e5305d466">t1</a>-<a class="code" href="../../dc/ddc/mlibc_2options_2ansi_2musl-generic-math_2lgamma__r_8c.html#a127c082e9dd58ebd1c7da962f940cabe">t0</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d84/lgamma__r_8c.html#a65214077828087a81420f38e5305d466">t1</a>-<a class="code" href="../../d3/d84/lgamma__r_8c.html#a127c082e9dd58ebd1c7da962f940cabe">t0</a>;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2lgamma__r_8c_html_a127c082e9dd58ebd1c7da962f940cabe"><div class="ttname"><a href="../../dc/ddc/mlibc_2options_2ansi_2musl-generic-math_2lgamma__r_8c.html#a127c082e9dd58ebd1c7da962f940cabe">t0</a></div><div class="ttdeci">static const double t0</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddc/mlibc_2options_2ansi_2musl-generic-math_2lgamma__r_8c_source.html#l00103">lgamma_r.c:103</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2lgamma__r_8c_html_a65214077828087a81420f38e5305d466"><div class="ttname"><a href="../../dc/ddc/mlibc_2options_2ansi_2musl-generic-math_2lgamma__r_8c.html#a65214077828087a81420f38e5305d466">t1</a></div><div class="ttdeci">static const double t1</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddc/mlibc_2options_2ansi_2musl-generic-math_2lgamma__r_8c_source.html#l00104">lgamma_r.c:104</a></div></div>
+<div class="ttc" id="algamma__r_8c_html_a127c082e9dd58ebd1c7da962f940cabe"><div class="ttname"><a href="../../d3/d84/lgamma__r_8c.html#a127c082e9dd58ebd1c7da962f940cabe">t0</a></div><div class="ttdeci">static const double t0</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d84/lgamma__r_8c_source.html#l00101">lgamma_r.c:101</a></div></div>
+<div class="ttc" id="algamma__r_8c_html_a65214077828087a81420f38e5305d466"><div class="ttname"><a href="../../d3/d84/lgamma__r_8c.html#a65214077828087a81420f38e5305d466">t1</a></div><div class="ttdeci">static const double t1</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d84/lgamma__r_8c_source.html#l00102">lgamma_r.c:102</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/ddc/mlibc_2options_2ansi_2musl-generic-math_2lgamma__r_8c_source.html#l00103">t0</a>, and <a class="el" href="../../dc/ddc/mlibc_2options_2ansi_2musl-generic-math_2lgamma__r_8c_source.html#l00104">t1</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d84/lgamma__r_8c_source.html#l00101">t0</a>, and <a class="el" href="../../d3/d84/lgamma__r_8c_source.html#l00102">t1</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/de1/difftime32_8c_source.html#l00004">__difftime32()</a>.</p>
 
 </div>
 </div>

@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d5/d52/res__querydomain_8c.html','../.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a04be6d41b4b8ae4a173da659be252e7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d52/res__querydomain_8c.html#a04be6d41b4b8ae4a173da659be252e7b">res_querydomain</a> (const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>, const char *<a class="el" href="../../d0/d32/dcigettext_8c.html#a2569bd159e781a92d5d465d57885dc12">domain</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> class, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> type, unsigned char *dest, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> len)</td></tr>
+<tr class="memitem:a04be6d41b4b8ae4a173da659be252e7b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d52/res__querydomain_8c.html#a04be6d41b4b8ae4a173da659be252e7b">res_querydomain</a> (const char *name, const char *<a class="el" href="../../d0/d32/dcigettext_8c.html#a2569bd159e781a92d5d465d57885dc12">domain</a>, int class, int <a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>, unsigned char *dest, int len)</td></tr>
 <tr class="separator:a04be6d41b4b8ae4a173da659be252e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> res_querydomain </td>
+          <td class="memname">int res_querydomain </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -123,13 +123,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>class</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>type</em>, </td>
         </tr>
         <tr>
@@ -141,7 +141,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -155,21 +155,21 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d5/d52/res__querydomain_8c_source.html#l00004">4</a> of file <a class="el" href="../../d5/d52/res__querydomain_8c_source.html">res_querydomain.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">char</span> tmp[255];</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">size_t</span> nl = <a class="code" href="../../d1/d45/apps_2base_2bash_2lib_2sh_2strnlen_8c.html#afc92d2231e45d19988c7894aa2a07f0c">strnlen</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, 255);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">size_t</span> nl = <a class="code" href="../../d1/d45/apps_2base_2bash_2lib_2sh_2strnlen_8c.html#afc92d2231e45d19988c7894aa2a07f0c">strnlen</a>(name, 255);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">size_t</span> dl = <a class="code" href="../../d1/d45/apps_2base_2bash_2lib_2sh_2strnlen_8c.html#afc92d2231e45d19988c7894aa2a07f0c">strnlen</a>(<a class="code" href="../../d0/d32/dcigettext_8c.html#a2569bd159e781a92d5d465d57885dc12">domain</a>, 255);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (nl+dl+1 &gt; 254) <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(tmp, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, nl);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(tmp, name, nl);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    tmp[nl] = <span class="charliteral">&#39;.&#39;</span>;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(tmp+nl+1, <a class="code" href="../../d0/d32/dcigettext_8c.html#a2569bd159e781a92d5d465d57885dc12">domain</a>, dl+1);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d61/resolv-stubs_8cpp.html#a228bed5a077b145cd1856259070730cc">res_query</a>(tmp, <span class="keyword">class</span>, type, dest, len);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/d70/include_2resolv_8h.html#a228bed5a077b145cd1856259070730cc">res_query</a>(tmp, <span class="keyword">class</span>, <a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>, dest, len);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
 <div class="ttc" id="aapps_2base_2bash_2lib_2sh_2strnlen_8c_html_afc92d2231e45d19988c7894aa2a07f0c"><div class="ttname"><a href="../../d1/d45/apps_2base_2bash_2lib_2sh_2strnlen_8c.html#afc92d2231e45d19988c7894aa2a07f0c">strnlen</a></div><div class="ttdeci">size_t strnlen(const char *s, size_t maxlen)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d45/apps_2base_2bash_2lib_2sh_2strnlen_8c_source.html#l00038">strnlen.c:38</a></div></div>
 <div class="ttc" id="adcigettext_8c_html_a2569bd159e781a92d5d465d57885dc12"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a2569bd159e781a92d5d465d57885dc12">domain</a></div><div class="ttdeci">struct loaded_l10nfile * domain</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00447">dcigettext.c:447</a></div></div>
 <div class="ttc" id="afcts_8c_html_a14938524dcbeb59d7117ba5e151ad1b1"><div class="ttname"><a href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a></div><div class="ttdeci">void * memcpy(void *dest, const void *src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7b/fcts_8c_source.html#l00090">fcts.c:90</a></div></div>
-<div class="ttc" id="aresolv-stubs_8cpp_html_a228bed5a077b145cd1856259070730cc"><div class="ttname"><a href="../../dc/d61/resolv-stubs_8cpp.html#a228bed5a077b145cd1856259070730cc">res_query</a></div><div class="ttdeci">int res_query(const char *, int, int, unsigned char *, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d61/resolv-stubs_8cpp_source.html#l00011">resolv-stubs.cpp:11</a></div></div>
+<div class="ttc" id="ainclude_2resolv_8h_html_a228bed5a077b145cd1856259070730cc"><div class="ttname"><a href="../../d9/d70/include_2resolv_8h.html#a228bed5a077b145cd1856259070730cc">res_query</a></div><div class="ttdeci">int res_query(const char *, int, int, unsigned char *, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d50/res__query_8c_source.html#l00005">res_query.c:5</a></div></div>
+<div class="ttc" id="axatonum_8c_html_a53155e22eaa05190346890241be3367c"><div class="ttname"><a href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a></div><div class="ttdeci">#define type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d80/xatonum_8c_source.html#l00011">xatonum.c:11</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00447">domain</a>, <a class="el" href="../../d4/d7b/fcts_8c_source.html#l00090">memcpy()</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../dc/d61/resolv-stubs_8cpp_source.html#l00011">res_query()</a>, and <a class="el" href="../../d1/d45/apps_2base_2bash_2lib_2sh_2strnlen_8c_source.html#l00038">strnlen()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00447">domain</a>, <a class="el" href="../../d4/d7b/fcts_8c_source.html#l00090">memcpy()</a>, <a class="el" href="../../d9/d50/res__query_8c_source.html#l00005">res_query()</a>, <a class="el" href="../../d1/d45/apps_2base_2bash_2lib_2sh_2strnlen_8c_source.html#l00038">strnlen()</a>, and <a class="el" href="../../d1/d80/xatonum_8c_source.html#l00011">type</a>.</p>
 
 </div>
 </div>

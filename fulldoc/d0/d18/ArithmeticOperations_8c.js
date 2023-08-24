@@ -33,8 +33,6 @@ var ArithmeticOperations_8c =
     [ "__addsf3", "d0/d18/ArithmeticOperations_8c.html#aa8c8f7f1dee15c95f0fd261c72921820", null ],
     [ "__ashldi3", "d0/d18/ArithmeticOperations_8c.html#a077bde72bd4bad5ed44de1e1bf204b1f", null ],
     [ "__ashrdi3", "d0/d18/ArithmeticOperations_8c.html#aba0b084b7be1a3d06a43816ce36be3a1", null ],
-    [ "__atomic_load_8", "d0/d18/ArithmeticOperations_8c.html#ad225ee0863a4040d8cda504f31c78501", null ],
-    [ "__atomic_store_8", "d0/d18/ArithmeticOperations_8c.html#afe21ecd4cae50b22c23837757476985d", null ],
     [ "__clzdi2", "d0/d18/ArithmeticOperations_8c.html#adb5b1f8ac32d49273c420bb4bfe99764", null ],
     [ "__clzsi2", "d0/d18/ArithmeticOperations_8c.html#a641e564e98b0a1199d2a923870299f02", null ],
     [ "__ctzdi2", "d0/d18/ArithmeticOperations_8c.html#a61b3d96bd96226ec7ff554c230caadee", null ],

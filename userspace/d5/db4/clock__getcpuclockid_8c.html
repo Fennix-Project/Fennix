@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('d5/db4/clock__getcpuclockid_8c.html','
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a16aa069b0cc2f3bce9a18ab69530ac37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db4/clock__getcpuclockid_8c.html#a16aa069b0cc2f3bce9a18ab69530ac37">clock_getcpuclockid</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> pid, <a class="el" href="../../dc/d1f/abis_2linux_2clockid__t_8h.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a> *clk)</td></tr>
+<tr class="memitem:a16aa069b0cc2f3bce9a18ab69530ac37"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/db4/clock__getcpuclockid_8c.html#a16aa069b0cc2f3bce9a18ab69530ac37">clock_getcpuclockid</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, clockid_t *clk)</td></tr>
 <tr class="separator:a16aa069b0cc2f3bce9a18ab69530ac37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,7 +111,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> clock_getcpuclockid </td>
+          <td class="memname">int clock_getcpuclockid </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td>
           <td class="paramname"><em>pid</em>, </td>
@@ -119,7 +119,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/d1f/abis_2linux_2clockid__t_8h.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a> *&#160;</td>
+          <td class="paramtype">clockid_t *&#160;</td>
           <td class="paramname"><em>clk</em>&#160;</td>
         </tr>
         <tr>
@@ -132,23 +132,22 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/db4/clock__getcpuclockid_8c_source.html#l00006">6</a> of file <a class="el" href="../../d5/db4/clock__getcpuclockid_8c_source.html">clock_getcpuclockid.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a> ts;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../dc/d1f/abis_2linux_2clockid__t_8h.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a> <span class="keywordtype">id</span> = (-pid-1)*8U + 2;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(<a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#afaf5e47b25bcc83ddd65826a289fd415">SYS_clock_getres</a>, <span class="keywordtype">id</span>, &amp;ts);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> == -<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>) <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = -<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a462e47a8af6288232a5df548221ada4c">ESRCH</a>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>) <span class="keywordflow">return</span> -<a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> ts;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    clockid_t <span class="keywordtype">id</span> = (-<a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>-1)*8U + 2;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">int</span> ret = <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#afaf5e47b25bcc83ddd65826a289fd415">SYS_clock_getres</a>, <span class="keywordtype">id</span>, &amp;ts);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> (ret == -<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>) ret = -<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a462e47a8af6288232a5df548221ada4c">ESRCH</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">if</span> (ret) <span class="keywordflow">return</span> -ret;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    *clk = id;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-<div class="ttc" id="aabis_2linux_2clockid__t_8h_html_a6dcac6a5cea7d9c842145e1444d91e22"><div class="ttname"><a href="../../dc/d1f/abis_2linux_2clockid__t_8h.html#a6dcac6a5cea7d9c842145e1444d91e22">clockid_t</a></div><div class="ttdeci">int clockid_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1f/abis_2linux_2clockid__t_8h_source.html#l00004">clockid_t.h:4</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">errno.h:25</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a462e47a8af6288232a5df548221ada4c"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a462e47a8af6288232a5df548221ada4c">ESRCH</a></div><div class="ttdeci">#define ESRCH</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00006">errno.h:6</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">syscall.h:25</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_afaf5e47b25bcc83ddd65826a289fd415"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#afaf5e47b25bcc83ddd65826a289fd415">SYS_clock_getres</a></div><div class="ttdeci">#define SYS_clock_getres</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00262">syscall.h:262</a></div></div>
-<div class="ttc" id="atimespec_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
+<div class="ttc" id="amconf_8c_html_ae0d46a978d5cd6707411f276ad869b9c"><div class="ttname"><a href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a></div><div class="ttdeci">pid_t pid</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d43/mconf_8c_source.html#l00450">mconf.c:450</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">syscall.h:44</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_afaf5e47b25bcc83ddd65826a289fd415"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#afaf5e47b25bcc83ddd65826a289fd415">SYS_clock_getres</a></div><div class="ttdeci">#define SYS_clock_getres</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00262">syscall.h:262</a></div></div>
+<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">__syscall</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00006">ESRCH</a>, <a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, and <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00262">SYS_clock_getres</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00006">ESRCH</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00450">pid</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00262">SYS_clock_getres</a>.</p>
 
 </div>
 </div>

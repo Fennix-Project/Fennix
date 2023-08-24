@@ -100,16 +100,16 @@ $(document).ready(function(){initNavTree('d3/d88/mbschr_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af571e37ab8b61707dd5aea115daab03d"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d88/mbschr_8c.html#af571e37ab8b61707dd5aea115daab03d">utf8_mbschr</a> (const char *, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>)</td></tr>
+<tr class="memitem:af571e37ab8b61707dd5aea115daab03d"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d88/mbschr_8c.html#af571e37ab8b61707dd5aea115daab03d">utf8_mbschr</a> (const char *, int)</td></tr>
 <tr class="separator:af571e37ab8b61707dd5aea115daab03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acef2f11657ef6f35cc9e13ba4f6717d4"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d88/mbschr_8c.html#acef2f11657ef6f35cc9e13ba4f6717d4">mbschr</a> (char *s, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a53bc054f17562e88369c26b52125a12d">c</a>) const</td></tr>
+<tr class="memitem:acef2f11657ef6f35cc9e13ba4f6717d4"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d88/mbschr_8c.html#acef2f11657ef6f35cc9e13ba4f6717d4">mbschr</a> (char *<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, int <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>) const</td></tr>
 <tr class="separator:acef2f11657ef6f35cc9e13ba4f6717d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a459ce17e071bd8965a1ec2fde4b5302b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d88/mbschr_8c.html#a459ce17e071bd8965a1ec2fde4b5302b">locale_mb_cur_max</a></td></tr>
+<tr class="memitem:a459ce17e071bd8965a1ec2fde4b5302b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d88/mbschr_8c.html#a459ce17e071bd8965a1ec2fde4b5302b">locale_mb_cur_max</a></td></tr>
 <tr class="separator:a459ce17e071bd8965a1ec2fde4b5302b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a06dec6a71f242f615a934c6860419da9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d88/mbschr_8c.html#a06dec6a71f242f615a934c6860419da9">locale_utf8locale</a></td></tr>
+<tr class="memitem:a06dec6a71f242f615a934c6860419da9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d88/mbschr_8c.html#a06dec6a71f242f615a934c6860419da9">locale_utf8locale</a></td></tr>
 <tr class="separator:a06dec6a71f242f615a934c6860419da9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -128,7 +128,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>c</em>&#160;</td>
         </tr>
         <tr>
@@ -142,12 +142,12 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d3/d88/mbschr_8c_source.html#l00045">45</a> of file <a class="el" href="../../d3/d88/mbschr_8c_source.html">mbschr.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#if HANDLE_MULTIBYTE</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">char</span> *<a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">char</span> *<a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <a class="code" href="../../d3/d82/convert_8h.html#db/d77/structmbstate__t">mbstate_t</a> <a class="code" href="../../d6/d23/wi__stuff_8c.html#a102a30241e29b7ae7a452418431f728d">state</a>;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keywordtype">size_t</span> strlength, mblength;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d3/d88/mbschr_8c.html#a06dec6a71f242f615a934c6860419da9">locale_utf8locale</a> &amp;&amp; <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> &lt; 0x80)</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d3/d88/mbschr_8c.html#af571e37ab8b61707dd5aea115daab03d">utf8_mbschr</a> (s, <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>));        <span class="comment">/* XXX */</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d3/d88/mbschr_8c.html#af571e37ab8b61707dd5aea115daab03d">utf8_mbschr</a> (<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>));        <span class="comment">/* XXX */</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="comment">/* The locale encodings with said weird property are BIG5, BIG5-HKSCS,</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">     GBK, GB18030, SHIFT_JIS, and JOHAB.  They exhibit the problem only</span></div>
@@ -155,48 +155,49 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">     c &lt;= 0x30. */</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keywordflow">if</span> ((<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> &gt;= <span class="charliteral">&#39;0&#39;</span> &amp;&amp; <a class="code" href="../../d3/d88/mbschr_8c.html#a459ce17e071bd8965a1ec2fde4b5302b">locale_mb_cur_max</a> &gt; 1)</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a> = (<span class="keywordtype">char</span> *)s;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a> = (<span class="keywordtype">char</span> *)<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      <a class="code" href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">memset</a> (&amp;<a class="code" href="../../d6/d23/wi__stuff_8c.html#a102a30241e29b7ae7a452418431f728d">state</a>, <span class="charliteral">&#39;\0&#39;</span>, <span class="keyword">sizeof</span>(<a class="code" href="../../d3/d82/convert_8h.html#db/d77/structmbstate__t">mbstate_t</a>));</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      strlength = <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a> (s);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      strlength = <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a> (<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <span class="keywordflow">while</span> (strlength &gt; 0)</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      <span class="keywordflow">if</span> (is_basic (*<a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>))</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      <span class="keywordflow">if</span> (is_basic (*<a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>))</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        mblength = 1;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;          mblength = <a class="code" href="../../db/d83/wchar-stubs_8cpp.html#af0d61cfc269376e293086d2efc7066c3">mbrlen</a> (<a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>, strlength, &amp;<a class="code" href="../../d6/d23/wi__stuff_8c.html#a102a30241e29b7ae7a452418431f728d">state</a>);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;          mblength = <a class="code" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a6bd329ff3121078a28f3f45fac85dd50">mbrlen</a> (<a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>, strlength, &amp;<a class="code" href="../../d6/d23/wi__stuff_8c.html#a102a30241e29b7ae7a452418431f728d">state</a>);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;          <span class="keywordflow">if</span> (mblength == (<span class="keywordtype">size_t</span>)-2 || mblength == (<span class="keywordtype">size_t</span>)-1 || mblength == (<span class="keywordtype">size_t</span>)0)</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            mblength = 1;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        }</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keywordflow">if</span> (mblength == 1 &amp;&amp; <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>)*<a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>)</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keywordflow">if</span> (mblength == 1 &amp;&amp; <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> == (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>)*<a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>)</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;      strlength -= mblength;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      <a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a> += mblength;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;      <a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a> += mblength;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      <span class="keywordflow">return</span> ((<span class="keywordtype">char</span> *)<a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      <span class="keywordflow">return</span> ((<span class="keywordtype">char</span> *)<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordflow">return</span> (<a class="code" href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a> (s, <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>));</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordflow">return</span> (<a class="code" href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a> (<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>));</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
-<div class="ttc" id="aapps_2base_2bash_2test_8c_html_a1910d262855b71da353ed0d07a6c7823"><div class="ttname"><a href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a></div><div class="ttdeci">static int pos</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d14/apps_2base_2bash_2test_8c_source.html#l00108">test.c:108</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">types.h:37</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2wchar_8h_html_a6bd329ff3121078a28f3f45fac85dd50"><div class="ttname"><a href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a6bd329ff3121078a28f3f45fac85dd50">mbrlen</a></div><div class="ttdeci">size_t mbrlen(const char *__restrict, size_t, mbstate_t *__restrict)</div></div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
+<div class="ttc" id="abash_2test_8c_html_a1910d262855b71da353ed0d07a6c7823"><div class="ttname"><a href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a></div><div class="ttdeci">static int pos</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd0/bash_2test_8c_source.html#l00108">test.c:108</a></div></div>
 <div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00064">Convert.cpp:64</a></div></div>
-<div class="ttc" id="aconvert_8h_html_a88b07011b83b06b8856027f02d55a880"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a></div><div class="ttdeci">char * strchr(const char *String, int Char)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00144">Convert.cpp:144</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a88b07011b83b06b8856027f02d55a880"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a></div><div class="ttdeci">char * strchr(const char *String, int Char)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00148">Convert.cpp:148</a></div></div>
 <div class="ttc" id="aconvert_8h_html_ac72cd3c233680f95fd1d168a22c912ad"><div class="ttname"><a href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">memset</a></div><div class="ttdeci">#define memset(dest, c, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00120">convert.h:120</a></div></div>
 <div class="ttc" id="aconvert_8h_html_db/d77/structmbstate__t"><div class="ttname"><a href="../../d3/d82/convert_8h.html#db/d77/structmbstate__t">mbstate_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00026">convert.h:27</a></div></div>
 <div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
-<div class="ttc" id="ambschr_8c_html_a06dec6a71f242f615a934c6860419da9"><div class="ttname"><a href="../../d3/d88/mbschr_8c.html#a06dec6a71f242f615a934c6860419da9">locale_utf8locale</a></div><div class="ttdeci">int locale_utf8locale</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d71/apps_2base_2bash_2locale_8c_source.html#l00046">locale.c:46</a></div></div>
-<div class="ttc" id="ambschr_8c_html_a459ce17e071bd8965a1ec2fde4b5302b"><div class="ttname"><a href="../../d3/d88/mbschr_8c.html#a459ce17e071bd8965a1ec2fde4b5302b">locale_mb_cur_max</a></div><div class="ttdeci">int locale_mb_cur_max</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d71/apps_2base_2bash_2locale_8c_source.html#l00047">locale.c:47</a></div></div>
+<div class="ttc" id="ambschr_8c_html_a06dec6a71f242f615a934c6860419da9"><div class="ttname"><a href="../../d3/d88/mbschr_8c.html#a06dec6a71f242f615a934c6860419da9">locale_utf8locale</a></div><div class="ttdeci">int locale_utf8locale</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/locale_8c_source.html#l00046">locale.c:46</a></div></div>
+<div class="ttc" id="ambschr_8c_html_a459ce17e071bd8965a1ec2fde4b5302b"><div class="ttname"><a href="../../d3/d88/mbschr_8c.html#a459ce17e071bd8965a1ec2fde4b5302b">locale_mb_cur_max</a></div><div class="ttdeci">int locale_mb_cur_max</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/locale_8c_source.html#l00047">locale.c:47</a></div></div>
 <div class="ttc" id="ambschr_8c_html_af571e37ab8b61707dd5aea115daab03d"><div class="ttname"><a href="../../d3/d88/mbschr_8c.html#af571e37ab8b61707dd5aea115daab03d">utf8_mbschr</a></div><div class="ttdeci">char * utf8_mbschr(const char *, int)</div></div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
-<div class="ttc" id="awchar-stubs_8cpp_html_af0d61cfc269376e293086d2efc7066c3"><div class="ttname"><a href="../../db/d83/wchar-stubs_8cpp.html#af0d61cfc269376e293086d2efc7066c3">mbrlen</a></div><div class="ttdeci">size_t mbrlen(const char *mbs, size_t mb_limit, mbstate_t *stp)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d83/wchar-stubs_8cpp_source.html#l00044">wchar-stubs.cpp:44</a></div></div>
 <div class="ttc" id="awi__stuff_8c_html_a102a30241e29b7ae7a452418431f728d"><div class="ttname"><a href="../../d6/d23/wi__stuff_8c.html#a102a30241e29b7ae7a452418431f728d">state</a></div><div class="ttdeci">static stateenum_t state</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d23/wi__stuff_8c_source.html#l00309">wi_stuff.c:309</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../da/d71/apps_2base_2bash_2locale_8c_source.html#l00047">locale_mb_cur_max</a>, <a class="el" href="../../da/d71/apps_2base_2bash_2locale_8c_source.html#l00046">locale_utf8locale</a>, <a class="el" href="../../db/d83/wchar-stubs_8cpp_source.html#l00044">mbrlen()</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00120">memset</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, <a class="el" href="../../df/d14/apps_2base_2bash_2test_8c_source.html#l00108">pos</a>, <a class="el" href="../../d6/d23/wi__stuff_8c_source.html#l00309">state</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00144">strchr()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>, and <a class="el" href="../../d3/d88/mbschr_8c.html#af571e37ab8b61707dd5aea115daab03d">utf8_mbschr()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../d3/d82/locale_8c_source.html#l00047">locale_mb_cur_max</a>, <a class="el" href="../../d3/d82/locale_8c_source.html#l00046">locale_utf8locale</a>, <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a6bd329ff3121078a28f3f45fac85dd50">mbrlen()</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00120">memset</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00108">pos</a>, <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d6/d23/wi__stuff_8c_source.html#l00309">state</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00148">strchr()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>, and <a class="el" href="../../d3/d88/mbschr_8c.html#af571e37ab8b61707dd5aea115daab03d">utf8_mbschr()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/dca/general_8c_source.html#l00815">absolute_program()</a>, <a class="el" href="../../d1/d93/subst_8c_source.html#l07330">chk_atstar()</a>, <a class="el" href="../../d1/d93/subst_8c_source.html#l03545">do_assignment_internal()</a>, <a class="el" href="../../de/d3d/execute__cmd_8c_source.html#l05586">execute_disk_command()</a>, <a class="el" href="../../d1/dca/general_8c_source.html#l00402">exportable_function_name()</a>, and <a class="el" href="../../d1/d93/subst_8c_source.html#l09539">parameter_brace_expand()</a>.</p>
 
@@ -217,7 +218,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -243,7 +244,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> locale_mb_cur_max</td>
+          <td class="memname">int locale_mb_cur_max</td>
         </tr>
       </table>
   </td>
@@ -253,7 +254,7 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d71/apps_2base_2bash_2locale_8c_source.html#l00047">47</a> of file <a class="el" href="../../da/d71/apps_2base_2bash_2locale_8c_source.html">locale.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d82/locale_8c_source.html#l00047">47</a> of file <a class="el" href="../../d3/d82/locale_8c_source.html">locale.c</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d1/d93/subst_8c_source.html#l04175">expand_string_dollar_quote()</a>, <a class="el" href="../../d1/d93/subst_8c_source.html#l01531">extract_heredoc_dolbrace_string()</a>, <a class="el" href="../../d3/d88/mbschr_8c_source.html#l00045">mbschr()</a>, <a class="el" href="../../d1/d93/subst_8c_source.html#l08927">pat_subst()</a>, and <a class="el" href="../../dd/d55/strvis_8c_source.html#l00056">sh_charvis()</a>.</p>
 
@@ -269,7 +270,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> locale_utf8locale</td>
+          <td class="memname">int locale_utf8locale</td>
         </tr>
       </table>
   </td>
@@ -279,9 +280,9 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/d71/apps_2base_2bash_2locale_8c_source.html#l00046">46</a> of file <a class="el" href="../../da/d71/apps_2base_2bash_2locale_8c_source.html">locale.c</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d3/d82/locale_8c_source.html#l00046">46</a> of file <a class="el" href="../../d3/d82/locale_8c_source.html">locale.c</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dc5/strtrans_8c_source.html#l00051">ansicstr()</a>, <a class="el" href="../../d5/db7/cut_8c_source.html#l00200">cutchars()</a>, <a class="el" href="../../d3/d88/mbschr_8c_source.html#l00045">mbschr()</a>, <a class="el" href="../../d1/d93/subst_8c_source.html#l06784">read_comsub()</a>, <a class="el" href="../../d1/d93/subst_8c_source.html#l12006">setifs()</a>, <a class="el" href="../../dd/d6c/shquote_8c_source.html#l00262">sh_backslash_quote()</a>, <a class="el" href="../../dd/d55/strvis_8c_source.html#l00056">sh_charvis()</a>, <a class="el" href="../../dd/d6c/shquote_8c_source.html#l00135">sh_double_quote()</a>, <a class="el" href="../../dd/d6c/shquote_8c_source.html#l00183">sh_mkdoublequoted()</a>, and <a class="el" href="../../d1/d93/subst_8c_source.html#l01166">string_extract_verbatim()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dc5/strtrans_8c_source.html#l00051">ansicstr()</a>, <a class="el" href="../../d0/df2/bash_2examples_2loadables_2cut_8c_source.html#l00200">cutchars()</a>, <a class="el" href="../../d3/d88/mbschr_8c_source.html#l00045">mbschr()</a>, <a class="el" href="../../d1/d93/subst_8c_source.html#l06784">read_comsub()</a>, <a class="el" href="../../d1/d93/subst_8c_source.html#l12006">setifs()</a>, <a class="el" href="../../dd/d6c/shquote_8c_source.html#l00262">sh_backslash_quote()</a>, <a class="el" href="../../dd/d55/strvis_8c_source.html#l00056">sh_charvis()</a>, <a class="el" href="../../dd/d6c/shquote_8c_source.html#l00135">sh_double_quote()</a>, <a class="el" href="../../dd/d6c/shquote_8c_source.html#l00183">sh_mkdoublequoted()</a>, and <a class="el" href="../../d1/d93/subst_8c_source.html#l01166">string_extract_verbatim()</a>.</p>
 
 </div>
 </div>

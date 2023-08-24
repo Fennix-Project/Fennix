@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('df/dd3/mips64_2reloc_8h.html','../../'
 <div class="title">reloc.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;endian.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d1/d84/endian_8h_source.html">endian.h</a>&gt;</code><br />
 </div>
 <p><a href="../../df/dd3/mips64_2reloc_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -119,11 +119,11 @@ Macros</h2></td></tr>
 <tr class="separator:ab79b03493181ab4bdb1882ec9b7a2983"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56dcbe447183f0372eae030d567f1e24"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a56dcbe447183f0372eae030d567f1e24">REL_TPOFF</a>&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a255f07d3076b944434a1a4162808567c">R_MIPS_TLS_TPREL64</a></td></tr>
 <tr class="separator:a56dcbe447183f0372eae030d567f1e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23ab9edf04c74931892541d354b10c5c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a23ab9edf04c74931892541d354b10c5c">R_TYPE</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&#160;&#160;&#160;(<a class="el" href="../../d5/dc3/musl_2include_2endian_8h.html#af94eb043f5be14b4f260fb9b4c89ca2e">be64toh</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&amp;0x7fffffff)</td></tr>
+<tr class="memitem:a23ab9edf04c74931892541d354b10c5c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a23ab9edf04c74931892541d354b10c5c">R_TYPE</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&#160;&#160;&#160;(<a class="el" href="../../d1/d84/endian_8h.html#af94eb043f5be14b4f260fb9b4c89ca2e">be64toh</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&amp;0x7fffffff)</td></tr>
 <tr class="separator:a23ab9edf04c74931892541d354b10c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a713bec6fe59fc7838301fe138b241301"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a713bec6fe59fc7838301fe138b241301">R_SYM</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&#160;&#160;&#160;(<a class="el" href="../../d5/dc3/musl_2include_2endian_8h.html#a6acac399720b3a57d9050420aa0aac41">be32toh</a>(<a class="el" href="../../d5/dc3/musl_2include_2endian_8h.html#af94eb043f5be14b4f260fb9b4c89ca2e">be64toh</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&gt;&gt;32))</td></tr>
+<tr class="memitem:a713bec6fe59fc7838301fe138b241301"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a713bec6fe59fc7838301fe138b241301">R_SYM</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&#160;&#160;&#160;(<a class="el" href="../../d1/d84/endian_8h.html#a6acac399720b3a57d9050420aa0aac41">be32toh</a>(<a class="el" href="../../d1/d84/endian_8h.html#af94eb043f5be14b4f260fb9b4c89ca2e">be64toh</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&gt;&gt;32))</td></tr>
 <tr class="separator:a713bec6fe59fc7838301fe138b241301"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a357405ec3c9ccc9f2458e8b769425470"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a357405ec3c9ccc9f2458e8b769425470">R_INFO</a>(s,  <a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>)&#160;&#160;&#160;(<a class="el" href="../../d5/dc3/musl_2include_2endian_8h.html#a5c81b75e6da4507e0a90b6f6169c4787">htobe64</a>((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="el" href="../../d5/dc3/musl_2include_2endian_8h.html#aa65407014913309932b9a5ea3c16a86d">htobe32</a>(s)&lt;&lt;32 | (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>))</td></tr>
+<tr class="memitem:a357405ec3c9ccc9f2458e8b769425470"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a357405ec3c9ccc9f2458e8b769425470">R_INFO</a>(<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>,  <a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>)&#160;&#160;&#160;(<a class="el" href="../../d1/d84/endian_8h.html#a5c81b75e6da4507e0a90b6f6169c4787">htobe64</a>((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="el" href="../../d1/d84/endian_8h.html#aa65407014913309932b9a5ea3c16a86d">htobe32</a>(<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)&lt;&lt;32 | (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>))</td></tr>
 <tr class="separator:a357405ec3c9ccc9f2458e8b769425470"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78639c99cb6ecd81c6fe940f5c493d89"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a78639c99cb6ecd81c6fe940f5c493d89">NEED_MIPS_GOT_RELOCS</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:a78639c99cb6ecd81c6fe940f5c493d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,7 +131,7 @@ Macros</h2></td></tr>
 <tr class="separator:aabb7111abfbecb076e511968a546084c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f423aa6bd18c01adedf8a5c7882a9b3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a8f423aa6bd18c01adedf8a5c7882a9b3">DT_DEBUG_INDIRECT_REL</a>&#160;&#160;&#160;<a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#af6afe2ef4732a8f5b519ac12e22816ae">DT_MIPS_RLD_MAP_REL</a></td></tr>
 <tr class="separator:a8f423aa6bd18c01adedf8a5c7882a9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14c7fd54c8710eaf87a8f5c8d07c1f5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a14c7fd54c8710eaf87a8f5c8d07c1f5d">ARCH_SYM_REJECT_UND</a>(s)&#160;&#160;&#160;(!((s)-&gt;st_other &amp; <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aef09d02ec2e816b1e171b20cfdef7e5e">STO_MIPS_PLT</a>))</td></tr>
+<tr class="memitem:a14c7fd54c8710eaf87a8f5c8d07c1f5d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a14c7fd54c8710eaf87a8f5c8d07c1f5d">ARCH_SYM_REJECT_UND</a>(<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)&#160;&#160;&#160;(!((<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)-&gt;st_other &amp; <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aef09d02ec2e816b1e171b20cfdef7e5e">STO_MIPS_PLT</a>))</td></tr>
 <tr class="separator:a14c7fd54c8710eaf87a8f5c8d07c1f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a800958c03c1e7ed2fc20458de77c1e58"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dd3/mips64_2reloc_8h.html#a800958c03c1e7ed2fc20458de77c1e58">CRTJMP</a>(pc,  <a class="el" href="../../d9/df1/bashgetopt_8c.html#a024603cda52d9847e8d8df3c2e884b8c">sp</a>)</td></tr>
 <tr class="separator:a800958c03c1e7ed2fc20458de77c1e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,8 +149,8 @@ Macros</h2></td></tr>
           <td class="memname">#define ARCH_SYM_REJECT_UND</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">s</td><td>)</td>
-          <td>&#160;&#160;&#160;(!((s)-&gt;st_other &amp; <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aef09d02ec2e816b1e171b20cfdef7e5e">STO_MIPS_PLT</a>))</td>
+          <td class="paramname"><a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></td><td>)</td>
+          <td>&#160;&#160;&#160;(!((<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)-&gt;st_other &amp; <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#aef09d02ec2e816b1e171b20cfdef7e5e">STO_MIPS_PLT</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -366,7 +366,7 @@ Macros</h2></td></tr>
           <td class="memname">#define R_INFO</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">s, </td>
+          <td class="paramname"><a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -377,7 +377,7 @@ Macros</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d5/dc3/musl_2include_2endian_8h.html#a5c81b75e6da4507e0a90b6f6169c4787">htobe64</a>((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="el" href="../../d5/dc3/musl_2include_2endian_8h.html#aa65407014913309932b9a5ea3c16a86d">htobe32</a>(s)&lt;&lt;32 | (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>))</td>
+          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d1/d84/endian_8h.html#a5c81b75e6da4507e0a90b6f6169c4787">htobe64</a>((<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="el" href="../../d1/d84/endian_8h.html#aa65407014913309932b9a5ea3c16a86d">htobe32</a>(<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)&lt;&lt;32 | (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>)<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -397,7 +397,7 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="../../d5/dc3/musl_2include_2endian_8h.html#a6acac399720b3a57d9050420aa0aac41">be32toh</a>(<a class="el" href="../../d5/dc3/musl_2include_2endian_8h.html#af94eb043f5be14b4f260fb9b4c89ca2e">be64toh</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&gt;&gt;32))</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="../../d1/d84/endian_8h.html#a6acac399720b3a57d9050420aa0aac41">be32toh</a>(<a class="el" href="../../d1/d84/endian_8h.html#af94eb043f5be14b4f260fb9b4c89ca2e">be64toh</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&gt;&gt;32))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -417,7 +417,7 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="../../d5/dc3/musl_2include_2endian_8h.html#af94eb043f5be14b4f260fb9b4c89ca2e">be64toh</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&amp;0x7fffffff)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="../../d1/d84/endian_8h.html#af94eb043f5be14b4f260fb9b4c89ca2e">be64toh</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&amp;0x7fffffff)</td>
         </tr>
       </table>
 </div><div class="memdoc">

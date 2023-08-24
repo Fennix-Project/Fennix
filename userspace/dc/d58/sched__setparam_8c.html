@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('dc/d58/sched__setparam_8c.html','../..
 <div class="title">sched_setparam.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;sched.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d00/sched_8h_source.html">sched.h</a>&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
 </div>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('dc/d58/sched__setparam_8c.html','../..
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a06b497c4ea6bbabd2b62ba1a8a848a1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d58/sched__setparam_8c.html#a06b497c4ea6bbabd2b62ba1a8a848a1b">sched_setparam</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> pid, const struct <a class="el" href="../../dc/d8b/musl_2include_2sched_8h.html#d4/d82/structsched__param">sched_param</a> *param)</td></tr>
+<tr class="memitem:a06b497c4ea6bbabd2b62ba1a8a848a1b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d58/sched__setparam_8c.html#a06b497c4ea6bbabd2b62ba1a8a848a1b">sched_setparam</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, const struct <a class="el" href="../../d7/d00/sched_8h.html#d4/d82/structsched__param">sched_param</a> *<a class="el" href="../../d5/db3/apps_2base_2busybox_2coreutils_2chown_8c.html#acff701cfc8fab0de8704435ba1462970">param</a>)</td></tr>
 <tr class="separator:a06b497c4ea6bbabd2b62ba1a8a848a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,7 +110,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sched_setparam </td>
+          <td class="memname">int sched_setparam </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td>
           <td class="paramname"><em>pid</em>, </td>
@@ -118,7 +118,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct <a class="el" href="../../dc/d8b/musl_2include_2sched_8h.html#d4/d82/structsched__param">sched_param</a> *&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../d7/d00/sched_8h.html#d4/d82/structsched__param">sched_param</a> *&#160;</td>
           <td class="paramname"><em>param</em>&#160;</td>
         </tr>
         <tr>
@@ -131,12 +131,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d58/sched__setparam_8c_source.html#l00005">5</a> of file <a class="el" href="../../dc/d58/sched__setparam_8c_source.html">sched_setparam.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(-<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(-<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00041">errno.h:41</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, and <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00041">ENOSYS</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, and <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00041">ENOSYS</a>.</p>
 
 </div>
 </div>

@@ -1,6 +1,12 @@
 var musl_2include_2glob_8h =
 [
-    [ "glob_t", "d6/d23/structglob__t.html", "d6/d23/structglob__t" ],
+    [ "glob_t", "df/dc1/musl_2include_2glob_8h.html#d6/d23/structglob__t", [
+      [ "__dummy1", "df/dc1/musl_2include_2glob_8h.html#a4c513a5052da196989959829b849e215", null ],
+      [ "__dummy2", "df/dc1/musl_2include_2glob_8h.html#a3464c2e4788573794bd5779c592b628f", null ],
+      [ "gl_offs", "df/dc1/musl_2include_2glob_8h.html#ada6945e8f6ca53ecf82c9d736fb5307e", null ],
+      [ "gl_pathc", "df/dc1/musl_2include_2glob_8h.html#a69dc492f370a9793f06c11e3eb12f199", null ],
+      [ "gl_pathv", "df/dc1/musl_2include_2glob_8h.html#abd9ba3e5bd7a4767af2cd3dd98a2a64f", null ]
+    ] ],
     [ "__NEED_size_t", "df/dc1/musl_2include_2glob_8h.html#af5ff0ddb287a97be99547162f2af7cce", null ],
     [ "GLOB_ABORTED", "df/dc1/musl_2include_2glob_8h.html#ab5de50cedafa21283878657d05fb2ba8", null ],
     [ "GLOB_APPEND", "df/dc1/musl_2include_2glob_8h.html#a7e586df07bb159e904a61d8470f1fda2", null ],

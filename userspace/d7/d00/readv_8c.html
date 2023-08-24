@@ -91,14 +91,14 @@ $(document).ready(function(){initNavTree('d7/d00/readv_8c.html','../../'); initR
 <div class="title">readv.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;sys/uio.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d8/d80/uio_8h_source.html">sys/uio.h</a>&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
 </div>
 <p><a href="../../d7/d00/readv_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af7fef1d29581530ca0fc732a22aa38e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d00/readv_8c.html#af7fef1d29581530ca0fc732a22aa38e8">readv</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, const struct <a class="el" href="../../d6/dbc/iovec_8h.html#db/d79/structiovec">iovec</a> *iov, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
+<tr class="memitem:af7fef1d29581530ca0fc732a22aa38e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d00/readv_8c.html#af7fef1d29581530ca0fc732a22aa38e8">readv</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, const struct iovec *iov, int <a class="el" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:af7fef1d29581530ca0fc732a22aa38e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,19 +111,19 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a> readv </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct <a class="el" href="../../d6/dbc/iovec_8h.html#db/d79/structiovec">iovec</a> *&#160;</td>
+          <td class="paramtype">const struct iovec *&#160;</td>
           <td class="paramname"><em>iov</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>count</em>&#160;</td>
         </tr>
         <tr>
@@ -136,12 +136,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d00/readv_8c_source.html#l00004">4</a> of file <a class="el" href="../../d7/d00/readv_8c_source.html">readv.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_readv, fd, iov, <a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_readv, <a class="code" href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a>, iov, <a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aat__quick__exit_8c_html_ad43c3812e6d13e0518d9f8b8f463ffcf"><div class="ttname"><a href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a></div><div class="ttdeci">static int count</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d48/at__quick__exit_8c_source.html#l00009">at_quick_exit.c:9</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
+<div class="ttc" id="add_8c_html_ac74ae34e9c58234aacabb6867b245c58"><div class="ttname"><a href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a></div><div class="ttdeci">#define count</div></div>
+<div class="ttc" id="ahdparm_8c_html_a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00009">count</a>, and <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
 
 </div>
 </div>

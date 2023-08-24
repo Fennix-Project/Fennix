@@ -6,6 +6,7 @@ var dir_49e28e04fe5a683ab6442a3687c2ecf7 =
     [ "PageMapIndexer.cpp", "dc/d3c/PageMapIndexer_8cpp.html", null ],
     [ "PageTable.cpp", "d1/da4/PageTable_8cpp.html", null ],
     [ "PhysicalMemoryManager.cpp", "d4/d60/PhysicalMemoryManager_8cpp.html", null ],
+    [ "ProgramBreak.cpp", "de/dc3/ProgramBreak_8cpp.html", null ],
     [ "ReserveEssentials.cpp", "dd/d0b/ReserveEssentials_8cpp.html", "dd/d0b/ReserveEssentials_8cpp" ],
     [ "SmartHeap.cpp", "d1/d9a/SmartHeap_8cpp.html", null ],
     [ "StackGuard.cpp", "d9/d13/StackGuard_8cpp.html", null ],

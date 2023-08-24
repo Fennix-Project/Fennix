@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d6/da2/gmtime_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a30d9732f32117a94652e28512905bfb9"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/gmtime_8c.html#a30d9732f32117a94652e28512905bfb9">gmtime</a> (const <a class="el" href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a> *<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>)</td></tr>
+<tr class="memitem:a30d9732f32117a94652e28512905bfb9"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da2/gmtime_8c.html#a30d9732f32117a94652e28512905bfb9">gmtime</a> (const time_t *<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>)</td></tr>
 <tr class="separator:a30d9732f32117a94652e28512905bfb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,7 +111,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">struct <a class="el" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a>* gmtime </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a> *&#160;</td>
+          <td class="paramtype">const time_t *&#160;</td>
           <td class="paramname"><em>t</em></td><td>)</td>
           <td></td>
         </tr>
@@ -124,10 +124,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/de3/musl_2src_2include_2time_8h.html#a3bd904a6a1c21a34d843a7fbd73875f5">__gmtime_r</a>(<a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, &amp;<a class="code" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a>);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="agm__loop_8c_html_ac310d9181e916ba43604099aee272c71"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a></div><div class="ttdeci">int t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00079">gm_loop.c:79</a></div></div>
-<div class="ttc" id="amusl_2include_2time_8h_html_d8/d5a/structtm"><div class="ttname"><a href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df2/mlibc_2options_2ansi_2include_2time_8h_source.html#l00035">time.h:35</a></div></div>
+<div class="ttc" id="amusl_2include_2time_8h_html_d8/d5a/structtm"><div class="ttname"><a href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d02/musl_2include_2time_8h_source.html#l00040">time.h:40</a></div></div>
 <div class="ttc" id="amusl_2src_2include_2time_8h_html_a3bd904a6a1c21a34d843a7fbd73875f5"><div class="ttname"><a href="../../d0/de3/musl_2src_2include_2time_8h.html#a3bd904a6a1c21a34d843a7fbd73875f5">__gmtime_r</a></div><div class="ttdeci">hidden struct tm * __gmtime_r(const time_t *restrict, struct tm *restrict)</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d0/de3/musl_2src_2include_2time_8h.html#a3bd904a6a1c21a34d843a7fbd73875f5">__gmtime_r()</a>, and <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d08/gmtime32_8c_source.html#l00004">__gmtime32()</a>, <a class="el" href="../../d4/dcd/nmeter_8c_source.html#l00782">collect_tv()</a>, <a class="el" href="../../d9/dc6/confdata_8c_source.html#l00331">conf_write()</a>, and <a class="el" href="../../d5/d4a/httpd__indexcgi_8c_source.html#l00214">main()</a>.</p>
 
 </div>
 </div>

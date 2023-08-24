@@ -91,16 +91,16 @@ $(document).ready(function(){initNavTree('d2/d04/twalk_8c.html','../../'); initR
 <div class="title">twalk.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;search.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d85/search_8h_source.html">search.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/ddd/tsearch_8h_source.html">tsearch.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d2/d04/twalk_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a078f881df37ea472e20769a1d078119c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d04/twalk_8c.html#a078f881df37ea472e20769a1d078119c">walk</a> (const struct <a class="el" href="../../d3/ddd/tsearch_8h.html#d5/da1/structnode">node</a> *<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>, void(*action)(const void *, <a class="el" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45a">VISIT</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>), <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> d)</td></tr>
+<tr class="memitem:a078f881df37ea472e20769a1d078119c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d04/twalk_8c.html#a078f881df37ea472e20769a1d078119c">walk</a> (const struct <a class="el" href="../../d3/ddd/tsearch_8h.html#d5/da1/structnode">node</a> *r, void(*<a class="el" href="../../d3/d0a/find_8c.html#dd/d87/structaction">action</a>)(const void *, <a class="el" href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45a">VISIT</a>, int), int d)</td></tr>
 <tr class="separator:a078f881df37ea472e20769a1d078119c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af65588f937cae15d85ee4737cd4f7b5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d04/twalk_8c.html#af65588f937cae15d85ee4737cd4f7b5c">twalk</a> (const void *root, void(*action)(const void *, <a class="el" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45a">VISIT</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>))</td></tr>
+<tr class="memitem:af65588f937cae15d85ee4737cd4f7b5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d04/twalk_8c.html#af65588f937cae15d85ee4737cd4f7b5c">twalk</a> (const void *root, void(*<a class="el" href="../../d3/d0a/find_8c.html#dd/d87/structaction">action</a>)(const void *, <a class="el" href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45a">VISIT</a>, int))</td></tr>
 <tr class="separator:af65588f937cae15d85ee4737cd4f7b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -119,7 +119,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void(*)(const void *, <a class="el" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45a">VISIT</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>)&#160;</td>
+          <td class="paramtype">void(*)(const void *, <a class="el" href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45a">VISIT</a>, int)&#160;</td>
           <td class="paramname"><em>action</em>&#160;</td>
         </tr>
         <tr>
@@ -132,8 +132,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d04/twalk_8c_source.html#l00019">19</a> of file <a class="el" href="../../d2/d04/twalk_8c_source.html">twalk.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../d2/d04/twalk_8c.html#a078f881df37ea472e20769a1d078119c">walk</a>(root, action, 0);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../d2/d04/twalk_8c.html#a078f881df37ea472e20769a1d078119c">walk</a>(root, <a class="code" href="../../d3/d0a/find_8c.html#dd/d87/structaction">action</a>, 0);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="ttc" id="afind_8c_html_dd/d87/structaction"><div class="ttname"><a href="../../d3/d0a/find_8c.html#dd/d87/structaction">action</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d0a/find_8c_source.html#l00432">find.c:432</a></div></div>
 <div class="ttc" id="atwalk_8c_html_a078f881df37ea472e20769a1d078119c"><div class="ttname"><a href="../../d2/d04/twalk_8c.html#a078f881df37ea472e20769a1d078119c">walk</a></div><div class="ttdeci">static void walk(const struct node *r, void(*action)(const void *, VISIT, int), int d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d04/twalk_8c_source.html#l00004">twalk.c:4</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/d04/twalk_8c_source.html#l00004">walk()</a>.</p>
@@ -158,13 +159,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void(*)(const void *, <a class="el" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45a">VISIT</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>)&#160;</td>
+          <td class="paramtype">void(*)(const void *, <a class="el" href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45a">VISIT</a>, int)&#160;</td>
           <td class="paramname"><em>action</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>d</em>&#160;</td>
         </tr>
         <tr>
@@ -182,27 +183,29 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d04/twalk_8c_source.html#l00004">4</a> of file <a class="el" href="../../d2/d04/twalk_8c_source.html">twalk.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (!r)</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>-&gt;h == 1)</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        action(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>, <a class="code" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aaa4a5c1bd6ae255f5ae17f6e54d579185">leaf</a>, d);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (r-&gt;<a class="code" href="../../d3/ddd/tsearch_8h.html#a850e8af553a6eb934ef47e3a05a3b28b">h</a> == 1)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <a class="code" href="../../d6/d86/fdisk_8c.html#a2f4ab7bf743142dae2e459aa18f9f1d4">action</a>(r, <a class="code" href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aaa4a5c1bd6ae255f5ae17f6e54d579185">leaf</a>, d);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        action(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>, <a class="code" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aadefb5d09673c144dc5b4dc177e278696">preorder</a>, d);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../d2/d04/twalk_8c.html#a078f881df37ea472e20769a1d078119c">walk</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>-&gt;a[0], action, d+1);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        action(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>, <a class="code" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aa2b26810565bd469bf0fcda626669d3dc">postorder</a>, d);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="../../d2/d04/twalk_8c.html#a078f881df37ea472e20769a1d078119c">walk</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>-&gt;a[1], action, d+1);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        action(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>, <a class="code" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aac533b010efe1fc4de8c8a20799bbd98f">endorder</a>, d);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../d6/d86/fdisk_8c.html#a2f4ab7bf743142dae2e459aa18f9f1d4">action</a>(r, <a class="code" href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aadefb5d09673c144dc5b4dc177e278696">preorder</a>, d);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../d2/d04/twalk_8c.html#a078f881df37ea472e20769a1d078119c">walk</a>(r-&gt;<a class="code" href="../../d3/ddd/tsearch_8h.html#aad194f9cf5ee82d7c1889ecd16a1eb8d">a</a>[0], <a class="code" href="../../d3/d0a/find_8c.html#dd/d87/structaction">action</a>, d+1);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="../../d6/d86/fdisk_8c.html#a2f4ab7bf743142dae2e459aa18f9f1d4">action</a>(r, <a class="code" href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aa2b26810565bd469bf0fcda626669d3dc">postorder</a>, d);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="../../d2/d04/twalk_8c.html#a078f881df37ea472e20769a1d078119c">walk</a>(r-&gt;<a class="code" href="../../d3/ddd/tsearch_8h.html#aad194f9cf5ee82d7c1889ecd16a1eb8d">a</a>[1], <a class="code" href="../../d3/d0a/find_8c.html#dd/d87/structaction">action</a>, d+1);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="../../d6/d86/fdisk_8c.html#a2f4ab7bf743142dae2e459aa18f9f1d4">action</a>(r, <a class="code" href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aac533b010efe1fc4de8c8a20799bbd98f">endorder</a>, d);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-<div class="ttc" id="amlibc_2options_2posix_2include_2search_8h_html_ae12cb0f4c3f495b2790151d2f180e45aa2b26810565bd469bf0fcda626669d3dc"><div class="ttname"><a href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aa2b26810565bd469bf0fcda626669d3dc">postorder</a></div><div class="ttdeci">@ postorder</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h_source.html#l00013">search.h:13</a></div></div>
-<div class="ttc" id="amlibc_2options_2posix_2include_2search_8h_html_ae12cb0f4c3f495b2790151d2f180e45aaa4a5c1bd6ae255f5ae17f6e54d579185"><div class="ttname"><a href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aaa4a5c1bd6ae255f5ae17f6e54d579185">leaf</a></div><div class="ttdeci">@ leaf</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h_source.html#l00016">search.h:15</a></div></div>
-<div class="ttc" id="amlibc_2options_2posix_2include_2search_8h_html_ae12cb0f4c3f495b2790151d2f180e45aac533b010efe1fc4de8c8a20799bbd98f"><div class="ttname"><a href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aac533b010efe1fc4de8c8a20799bbd98f">endorder</a></div><div class="ttdeci">@ endorder</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h_source.html#l00014">search.h:14</a></div></div>
-<div class="ttc" id="amlibc_2options_2posix_2include_2search_8h_html_ae12cb0f4c3f495b2790151d2f180e45aadefb5d09673c144dc5b4dc177e278696"><div class="ttname"><a href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aadefb5d09673c144dc5b4dc177e278696">preorder</a></div><div class="ttdeci">@ preorder</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h_source.html#l00012">search.h:12</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
+<div class="ttc" id="afdisk_8c_html_a2f4ab7bf743142dae2e459aa18f9f1d4"><div class="ttname"><a href="../../d6/d86/fdisk_8c.html#a2f4ab7bf743142dae2e459aa18f9f1d4">action</a></div><div class="ttdeci">action</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d86/fdisk_8c_source.html#l00284">fdisk.c:284</a></div></div>
+<div class="ttc" id="asearch_8h_html_ae12cb0f4c3f495b2790151d2f180e45aa2b26810565bd469bf0fcda626669d3dc"><div class="ttname"><a href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aa2b26810565bd469bf0fcda626669d3dc">postorder</a></div><div class="ttdeci">@ postorder</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d85/search_8h_source.html#l00014">search.h:14</a></div></div>
+<div class="ttc" id="asearch_8h_html_ae12cb0f4c3f495b2790151d2f180e45aaa4a5c1bd6ae255f5ae17f6e54d579185"><div class="ttname"><a href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aaa4a5c1bd6ae255f5ae17f6e54d579185">leaf</a></div><div class="ttdeci">@ leaf</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d85/search_8h_source.html#l00014">search.h:14</a></div></div>
+<div class="ttc" id="asearch_8h_html_ae12cb0f4c3f495b2790151d2f180e45aac533b010efe1fc4de8c8a20799bbd98f"><div class="ttname"><a href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aac533b010efe1fc4de8c8a20799bbd98f">endorder</a></div><div class="ttdeci">@ endorder</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d85/search_8h_source.html#l00014">search.h:14</a></div></div>
+<div class="ttc" id="asearch_8h_html_ae12cb0f4c3f495b2790151d2f180e45aadefb5d09673c144dc5b4dc177e278696"><div class="ttname"><a href="../../d9/d85/search_8h.html#ae12cb0f4c3f495b2790151d2f180e45aadefb5d09673c144dc5b4dc177e278696">preorder</a></div><div class="ttdeci">@ preorder</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d85/search_8h_source.html#l00014">search.h:14</a></div></div>
+<div class="ttc" id="atsearch_8h_html_a850e8af553a6eb934ef47e3a05a3b28b"><div class="ttname"><a href="../../d3/ddd/tsearch_8h.html#a850e8af553a6eb934ef47e3a05a3b28b">node::h</a></div><div class="ttdeci">int h</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddd/tsearch_8h_source.html#l00010">tsearch.h:10</a></div></div>
+<div class="ttc" id="atsearch_8h_html_aad194f9cf5ee82d7c1889ecd16a1eb8d"><div class="ttname"><a href="../../d3/ddd/tsearch_8h.html#aad194f9cf5ee82d7c1889ecd16a1eb8d">node::a</a></div><div class="ttdeci">void * a[2]</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddd/tsearch_8h_source.html#l00009">tsearch.h:9</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h_source.html#l00014">endorder</a>, <a class="el" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h_source.html#l00015">leaf</a>, <a class="el" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h_source.html#l00013">postorder</a>, <a class="el" href="../../d7/df4/mlibc_2options_2posix_2include_2search_8h_source.html#l00012">preorder</a>, and <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/ddd/tsearch_8h_source.html#l00009">node::a</a>, <a class="el" href="../../d9/d85/search_8h_source.html#l00014">endorder</a>, <a class="el" href="../../d3/ddd/tsearch_8h_source.html#l00010">node::h</a>, <a class="el" href="../../d9/d85/search_8h_source.html#l00014">leaf</a>, <a class="el" href="../../d9/d85/search_8h_source.html#l00014">postorder</a>, and <a class="el" href="../../d9/d85/search_8h_source.html#l00014">preorder</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d2/d04/twalk_8c_source.html#l00019">twalk()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d3/d16/pstree_8c_source.html#l00155">add_child()</a>, <a class="el" href="../../d3/d16/pstree_8c_source.html#l00329">dump_by_user()</a>, <a class="el" href="../../d3/d16/pstree_8c_source.html#l00244">dump_tree()</a>, <a class="el" href="../../d3/d16/pstree_8c_source.html#l00131">find_proc()</a>, and <a class="el" href="../../d2/d04/twalk_8c_source.html#l00019">twalk()</a>.</p>
 
 </div>
 </div>

@@ -1,4 +1,4 @@
 var structKAPIPCI =
 [
-    [ "GetDeviceName", "de/d5d/structKAPIPCI.html#ae2acb05b8e2d76908de135d1989ed94a", null ]
+    [ "GetDeviceName", "de/d5d/structKAPIPCI.html#ab80432f25aa5fb5e5cce6075df672abf", null ]
 ];

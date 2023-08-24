@@ -91,13 +91,13 @@ $(document).ready(function(){initNavTree('d5/dba/ftw_8c.html','../../'); initRes
 <div class="title">ftw.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;ftw.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d8/d25/ftw_8h_source.html">ftw.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d5/dba/ftw_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aadf35d2e389fdfe2a25f2107eb29f471"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dba/ftw_8c.html#aadf35d2e389fdfe2a25f2107eb29f471">ftw</a> (const char *path, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>(*fn)(const char *, const struct <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> *, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>), <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd_limit)</td></tr>
+<tr class="memitem:aadf35d2e389fdfe2a25f2107eb29f471"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dba/ftw_8c.html#aadf35d2e389fdfe2a25f2107eb29f471">ftw</a> (const char *path, int(*fn)(const char *, const struct <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> *, int), int fd_limit)</td></tr>
 <tr class="separator:aadf35d2e389fdfe2a25f2107eb29f471"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,7 +108,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> ftw </td>
+          <td class="memname">int ftw </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>path</em>, </td>
@@ -116,13 +116,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>(*)(const char *, const struct <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> *, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>)&#160;</td>
+          <td class="paramtype">int(*)(const char *, const struct <a class="el" href="../../db/df2/Userspace_2musl_2arch_2x86__64_2bits_2stat_8h.html#da/de7/structstat">stat</a> *, int)&#160;</td>
           <td class="paramname"><em>fn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd_limit</em>&#160;</td>
         </tr>
         <tr>
@@ -138,12 +138,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="comment">/* The following cast assumes that calling a function with one</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">     * argument more than it needs behaves as expected. This is</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">     * actually undefined, but works on all real-world machines. */</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/ftw-stubs_8cpp.html#a9b21bff144b7186c2ab01d1c8fa70524">nftw</a>(path, (<span class="keywordtype">int</span> (*)())fn, fd_limit, <a class="code" href="../../de/dcb/mlibc_2options_2posix_2include_2ftw_8h.html#a8c98a3c79a82339a189b11094032a09a">FTW_PHYS</a>);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d25/ftw_8h.html#a42066b415d9db174f2c040f5b739346b">nftw</a>(path, (<span class="keywordtype">int</span> (*)())fn, fd_limit, <a class="code" href="../../d8/d25/ftw_8h.html#a8c98a3c79a82339a189b11094032a09a">FTW_PHYS</a>);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="aftw-stubs_8cpp_html_a9b21bff144b7186c2ab01d1c8fa70524"><div class="ttname"><a href="../../d8/de2/ftw-stubs_8cpp.html#a9b21bff144b7186c2ab01d1c8fa70524">nftw</a></div><div class="ttdeci">int nftw(const char *, int(*fn)(const char *, const struct stat *, int, struct FTW *), int, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/ftw-stubs_8cpp_source.html#l00012">ftw-stubs.cpp:12</a></div></div>
-<div class="ttc" id="amlibc_2options_2posix_2include_2ftw_8h_html_a8c98a3c79a82339a189b11094032a09a"><div class="ttname"><a href="../../de/dcb/mlibc_2options_2posix_2include_2ftw_8h.html#a8c98a3c79a82339a189b11094032a09a">FTW_PHYS</a></div><div class="ttdeci">#define FTW_PHYS</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/mlibc_2options_2posix_2include_2ftw_8h_source.html#l00015">ftw.h:15</a></div></div>
+<div class="ttc" id="aftw_8h_html_a42066b415d9db174f2c040f5b739346b"><div class="ttname"><a href="../../d8/d25/ftw_8h.html#a42066b415d9db174f2c040f5b739346b">nftw</a></div><div class="ttdeci">int nftw(const char *, int(*)(const char *, const struct stat *, int, struct FTW *), int, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9d/nftw_8c_source.html#l00123">nftw.c:123</a></div></div>
+<div class="ttc" id="aftw_8h_html_a8c98a3c79a82339a189b11094032a09a"><div class="ttname"><a href="../../d8/d25/ftw_8h.html#a8c98a3c79a82339a189b11094032a09a">FTW_PHYS</a></div><div class="ttdeci">#define FTW_PHYS</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d25/ftw_8h_source.html#l00019">ftw.h:19</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dcb/mlibc_2options_2posix_2include_2ftw_8h_source.html#l00015">FTW_PHYS</a>, and <a class="el" href="../../d8/de2/ftw-stubs_8cpp_source.html#l00012">nftw()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d25/ftw_8h_source.html#l00019">FTW_PHYS</a>, and <a class="el" href="../../df/d9d/nftw_8c_source.html#l00123">nftw()</a>.</p>
 
 </div>
 </div>

@@ -6,6 +6,7 @@ var namespaceTasking =
     [ "PCB", "d6/d17/classTasking_1_1PCB.html", "d6/d17/classTasking_1_1PCB" ],
     [ "Task", "dc/dc5/classTasking_1_1Task.html", "dc/dc5/classTasking_1_1Task" ],
     [ "TCB.Security", "d9/d3e/namespaceTasking.html#de/d8c/structTasking_1_1TCB_8Security", "d9/d3e/namespaceTasking_de/d8c/structTasking_1_1TCB_8Security_dup" ],
+    [ "TCB.Linux", "d9/d3e/namespaceTasking.html#dd/df3/structTasking_1_1TCB_8Linux", "d9/d3e/namespaceTasking_dd/df3/structTasking_1_1TCB_8Linux_dup" ],
     [ "PCB.Security", "d9/d3e/namespaceTasking.html#de/d3f/structTasking_1_1PCB_8Security", "d9/d3e/namespaceTasking_de/d3f/structTasking_1_1PCB_8Security_dup" ],
     [ "PCB.Security.Real", "d9/d3e/namespaceTasking.html#da/d00/structTasking_1_1PCB_8Security_8Real", "d9/d3e/namespaceTasking_da/d00/structTasking_1_1PCB_8Security_8Real_dup" ],
     [ "PCB.Security.Effective", "d9/d3e/namespaceTasking.html#d8/d99/structTasking_1_1PCB_8Security_8Effective", "d9/d3e/namespaceTasking_d8/d99/structTasking_1_1PCB_8Security_8Effective_dup" ],
@@ -68,5 +69,5 @@ var namespaceTasking =
       [ "_StatusMin", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ea2547ba923c87a848418e8c90331a5593", null ],
       [ "_StatusMax", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ea122d9cb11d78b0a8a082332d7ec18f98", null ]
     ] ],
-    [ "__no_sanitize", "d9/d3e/namespaceTasking.html#a9f83162fe9e974a9a50b4b4025507e7f", null ]
+    [ "__no_sanitize", "d9/d3e/namespaceTasking.html#a591d6f9b922ab5cc821cc805f77e8ad0", null ]
 ];

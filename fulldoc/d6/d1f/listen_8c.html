@@ -91,14 +91,14 @@ $(document).ready(function(){initNavTree('d6/d1f/listen_8c.html','../../'); init
 <div class="title">listen.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;sys/socket.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d4/d92/include_2sys_2socket_8h_source.html">sys/socket.h</a>&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
 </div>
 <p><a href="../../d6/d1f/listen_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0467a21b4f2322d40ecee81da82831c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1f/listen_8c.html#a0467a21b4f2322d40ecee81da82831c0">listen</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> backlog)</td></tr>
+<tr class="memitem:a0467a21b4f2322d40ecee81da82831c0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1f/listen_8c.html#a0467a21b4f2322d40ecee81da82831c0">listen</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, int backlog)</td></tr>
 <tr class="separator:a0467a21b4f2322d40ecee81da82831c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,15 +109,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> listen </td>
+          <td class="memname">int listen </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>backlog</em>&#160;</td>
         </tr>
         <tr>
@@ -130,12 +130,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d1f/listen_8c_source.html#l00004">4</a> of file <a class="el" href="../../d6/d1f/listen_8c_source.html">listen.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#af3e90690889243765c086fa27b7866a8">socketcall</a>(<a class="code" href="../../d6/d1f/listen_8c.html#a0467a21b4f2322d40ecee81da82831c0">listen</a>, fd, backlog, 0, 0, 0, 0);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#af3e90690889243765c086fa27b7866a8">socketcall</a>(<a class="code" href="../../d6/d1f/listen_8c.html#a0467a21b4f2322d40ecee81da82831c0">listen</a>, <a class="code" href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a>, backlog, 0, 0, 0, 0);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="ahdparm_8c_html_a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="alisten_8c_html_a0467a21b4f2322d40ecee81da82831c0"><div class="ttname"><a href="../../d6/d1f/listen_8c.html#a0467a21b4f2322d40ecee81da82831c0">listen</a></div><div class="ttdeci">int listen(int fd, int backlog)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d1f/listen_8c_source.html#l00004">listen.c:4</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_af3e90690889243765c086fa27b7866a8"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#af3e90690889243765c086fa27b7866a8">socketcall</a></div><div class="ttdeci">#define socketcall(nm, a, b, c, d, e, f)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00047">syscall.h:47</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_af3e90690889243765c086fa27b7866a8"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#af3e90690889243765c086fa27b7866a8">socketcall</a></div><div class="ttdeci">#define socketcall(nm, a, b, c, d, e, f)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00047">syscall.h:47</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00047">socketcall</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d6/d1f/listen_8c_source.html#l00004">listen()</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00047">socketcall</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/df6/apps_2base_2bash_2examples_2loadables_2accept_8c_source.html#l00045">accept_builtin()</a>, <a class="el" href="../../d6/d1f/listen_8c_source.html#l00004">listen()</a>, <a class="el" href="../../dc/d37/inetd_8c_source.html#l00596">prepare_socket_fd()</a>, and <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00499">xlisten()</a>.</p>
 
 </div>
 </div>

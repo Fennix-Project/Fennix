@@ -66,7 +66,6 @@ var Kernel_2include_2types_8h =
     [ "false", "d0/df4/Kernel_2include_2types_8h.html#a65e9886d74aaee76545e83dd09011727", null ],
     [ "ilp", "d0/df4/Kernel_2include_2types_8h.html#a18b98db98b43158605fe3cd1087732a1", null ],
     [ "inf_loop", "d0/df4/Kernel_2include_2types_8h.html#aa9230594915ed6dc218abef840f043b7", null ],
-    [ "int1", "d0/df4/Kernel_2include_2types_8h.html#aedcd837de58f1534fba6848ec222dfaa", null ],
     [ "INT16_MAX", "d0/df4/Kernel_2include_2types_8h.html#ac58f2c111cc9989c86db2a7dc4fd84ca", null ],
     [ "INT16_MIN", "d0/df4/Kernel_2include_2types_8h.html#ad4e9955955b27624963643eac448118a", null ],
     [ "int3", "d0/df4/Kernel_2include_2types_8h.html#af90a6cfd43c9a4509afa907f57b7ec82", null ],
@@ -166,7 +165,7 @@ var Kernel_2include_2types_8h =
     [ "intptr_t", "d0/df4/Kernel_2include_2types_8h.html#a0bd5dec00e345e69027427f8621d6a6c", null ],
     [ "ptrdiff_t", "d0/df4/Kernel_2include_2types_8h.html#a6d26a0475a6d6c897e655cdc5d8019d2", null ],
     [ "sig_atomic_t", "d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086", null ],
-    [ "size_t", "d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad", null ],
+    [ "size_t", "d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e", null ],
     [ "ssize_t", "d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48", null ],
     [ "uint16_t", "d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e", null ],
     [ "uint32_t", "d0/df4/Kernel_2include_2types_8h.html#a0a8582351ac627ee8bde2973c825e47f", null ],
@@ -185,7 +184,7 @@ var Kernel_2include_2types_8h =
     [ "uint_least8_t", "d0/df4/Kernel_2include_2types_8h.html#a61d44370ed65907c324edad5e8d34632", null ],
     [ "uintmax_t", "d0/df4/Kernel_2include_2types_8h.html#a4e5632221b295f0fcdcb2233f3f60515", null ],
     [ "uintptr_t", "d0/df4/Kernel_2include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808", null ],
-    [ "va_list", "d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9", null ],
+    [ "va_list", "d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1", null ],
     [ "wchar_t", "d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca", null ],
     [ "wint_t", "d0/df4/Kernel_2include_2types_8h.html#abd99e7f4ef6b86204820c995f988403b", null ]
 ];

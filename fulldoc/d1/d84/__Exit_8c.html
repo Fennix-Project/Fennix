@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d1/d84/__Exit_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8110dbad81d68c4ff9d525df464c6ea9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dd1/musl_2include_2features_8h.html#afdc60192553b70b37149691b71022d5a">_Noreturn</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d84/__Exit_8c.html#a8110dbad81d68c4ff9d525df464c6ea9">_Exit</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> ec)</td></tr>
+<tr class="memitem:a8110dbad81d68c4ff9d525df464c6ea9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dd1/musl_2include_2features_8h.html#afdc60192553b70b37149691b71022d5a">_Noreturn</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d84/__Exit_8c.html#a8110dbad81d68c4ff9d525df464c6ea9">_Exit</a> (int ec)</td></tr>
 <tr class="separator:a8110dbad81d68c4ff9d525df464c6ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,7 +111,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../de/dd1/musl_2include_2features_8h.html#afdc60192553b70b37149691b71022d5a">_Noreturn</a> void _Exit </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>ec</em></td><td>)</td>
           <td></td>
         </tr>
@@ -120,12 +120,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d84/__Exit_8c_source.html#l00004">4</a> of file <a class="el" href="../../d1/d84/__Exit_8c_source.html">_Exit.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_exit_group, ec);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">for</span> (;;) <a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_exit, ec);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_exit_group, ec);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">for</span> (;;) <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_exit, ec);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="amlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">syscall.h:25</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">syscall.h:44</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">__syscall</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d0/df4/__exit_8c_source.html#l00004">_exit()</a>, <a class="el" href="../../da/d52/abort_8c_source.html#l00009">abort()</a>, <a class="el" href="../../d1/d85/exit_8c_source.html#l00027">exit()</a>, and <a class="el" href="../../df/d40/quick__exit_8c_source.html#l00007">quick_exit()</a>.</p>
 
 </div>
 </div>

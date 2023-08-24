@@ -88,7 +88,7 @@ var pci_8hpp =
       [ "SubsystemVendorID", "d0/d8f/namespacePCI.html#ad964c240b966ecaf49fe665d7e85ca09", null ]
     ] ],
     [ "DeviceConfig", "d0/d8f/namespacePCI.html#d8/de9/structPCI_1_1DeviceConfig", [
-      [ "BaseAddress", "d0/d8f/namespacePCI.html#a6b40135622cb5c9fb0f940e275fbd9d7", null ],
+      [ "BaseAddress", "d0/d8f/namespacePCI.html#a75eb908aaca3e0e96cbb471aed59c19e", null ],
       [ "EndBus", "d0/d8f/namespacePCI.html#a7f50f08040708ea32fd98462b6e5c59e", null ],
       [ "PCISegGroup", "d0/d8f/namespacePCI.html#a8f7b0c7bdb70faac928951f3a9f05fba", null ],
       [ "Reserved", "d0/d8f/namespacePCI.html#a9601542f2b0799218aba54d4e5ac4b26", null ],

@@ -32,7 +32,7 @@ var fileman_8c =
     [ "stripwhite", "d1/d47/fileman_8c.html#aac1824b2f2dd443367a16694191c89fe", null ],
     [ "too_dangerous", "d1/d47/fileman_8c.html#a58c470c429f2dd995fb75252b1077d8c", null ],
     [ "valid_argument", "d1/d47/fileman_8c.html#a1d666cd51e401ee13bebb8ab2e368fc3", null ],
-    [ "commands", "d1/d47/fileman_8c.html#a65fdb89db8a30e859113a3f232aa6980", null ],
+    [ "commands", "d1/d47/fileman_8c.html#a429b7f1888e76828b3699d26234489ea", null ],
     [ "done", "d1/d47/fileman_8c.html#a5992b274cfdcacdbc1fa8347fd01ebde", null ],
     [ "progname", "d1/d47/fileman_8c.html#ab9e1449fd00c98428516f0b41eddcb10", null ],
     [ "syscom", "d1/d47/fileman_8c.html#a15ab56f94b90f779b916e341c4c59119", null ]

@@ -96,9 +96,9 @@ $(document).ready(function(){initNavTree('d0/d4f/____aeabi__atexit_8c.html','../
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afd023c7099547c0fe1c64a791a66e667"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a> (void(*func)(void *), void *<a class="el" href="../../d1/d40/vfwprintf_8c.html#d9/ddc/unionarg">arg</a>, void *<a class="el" href="../../d5/db0/dynlink_8c.html#d8/d6b/structdso">dso</a>)</td></tr>
+<tr class="memitem:afd023c7099547c0fe1c64a791a66e667"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a> (void(*<a class="el" href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a>)(void *), void *<a class="el" href="../../d1/d40/vfwprintf_8c.html#d9/ddc/unionarg">arg</a>, void *<a class="el" href="../../d5/db0/dynlink_8c.html#d8/d6b/structdso">dso</a>)</td></tr>
 <tr class="separator:afd023c7099547c0fe1c64a791a66e667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85f0de735b632cdff9f46eadc611ced1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4f/____aeabi__atexit_8c.html#a85f0de735b632cdff9f46eadc611ced1">__aeabi_atexit</a> (void *obj, void(*func)(void *), void *d)</td></tr>
+<tr class="memitem:a85f0de735b632cdff9f46eadc611ced1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4f/____aeabi__atexit_8c.html#a85f0de735b632cdff9f46eadc611ced1">__aeabi_atexit</a> (void *obj, void(*<a class="el" href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a>)(void *), void *d)</td></tr>
 <tr class="separator:a85f0de735b632cdff9f46eadc611ced1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> __aeabi_atexit </td>
+          <td class="memname">int __aeabi_atexit </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>obj</em>, </td>
@@ -136,11 +136,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d4f/____aeabi__atexit_8c_source.html#l00003">3</a> of file <a class="el" href="../../d0/d4f/____aeabi__atexit_8c_source.html">__aeabi_atexit.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a> (func, obj, d);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a> (<a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a>, obj, d);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="a____aeabi__atexit_8c_html_afd023c7099547c0fe1c64a791a66e667"><div class="ttname"><a href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a></div><div class="ttdeci">int __cxa_atexit(void(*func)(void *), void *arg, void *dso)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de8/dso__exit_8cpp_source.html#l00026">dso_exit.cpp:26</a></div></div>
+<div class="ttc" id="a____aeabi__atexit_8c_html_afd023c7099547c0fe1c64a791a66e667"><div class="ttname"><a href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a></div><div class="ttdeci">int __cxa_atexit(void(*func)(void *), void *arg, void *dso)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df7/atexit_8c_source.html#l00043">atexit.c:43</a></div></div>
+<div class="ttc" id="aawk_8c_html_dd/d55/structfunc__s"><div class="ttname"><a href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func_s</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcc/awk_8c_source.html#l00140">awk.c:140</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/de8/dso__exit_8cpp_source.html#l00026">__cxa_atexit()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/df7/atexit_8c_source.html#l00043">__cxa_atexit()</a>.</p>
 
 </div>
 </div>
@@ -151,7 +152,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> __cxa_atexit </td>
+          <td class="memname">int __cxa_atexit </td>
           <td>(</td>
           <td class="paramtype">void(*)(void *)&#160;</td>
           <td class="paramname"><em>func</em>, </td>
@@ -176,19 +177,47 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../dd/de8/dso__exit_8cpp_source.html#l00026">26</a> of file <a class="el" href="../../dd/de8/dso__exit_8cpp_source.html">dso_exit.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                                                                                    {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../da/dfe/structExitHandler.html">ExitHandler</a> <a class="code" href="../../d6/d19/mlibc_2tests_2posix_2abort_8c.html#a3f64b652bf3cbb822474a96f4988fe03">handler</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../d6/d19/mlibc_2tests_2posix_2abort_8c.html#a3f64b652bf3cbb822474a96f4988fe03">handler</a>.function = <span class="keyword">function</span>;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../d6/d19/mlibc_2tests_2posix_2abort_8c.html#a3f64b652bf3cbb822474a96f4988fe03">handler</a>.argument = <a class="code" href="../../d9/d84/man2html_8c.html#a343dee1c5e152123ffb779928190a92f">argument</a>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d6/d19/mlibc_2tests_2posix_2abort_8c.html#a3f64b652bf3cbb822474a96f4988fe03">handler</a>.dsoHandle = handle;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../dd/de8/dso__exit_8cpp.html#ab4bcd935152842a320cb4f9167eecb74">getExitQueue</a>().push(<a class="code" href="../../d6/d19/mlibc_2tests_2posix_2abort_8c.html#a3f64b652bf3cbb822474a96f4988fe03">handler</a>);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="ttc" id="adso__exit_8cpp_html_ab4bcd935152842a320cb4f9167eecb74"><div class="ttname"><a href="../../dd/de8/dso__exit_8cpp.html#ab4bcd935152842a320cb4f9167eecb74">getExitQueue</a></div><div class="ttdeci">ExitQueue &amp; getExitQueue()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de8/dso__exit_8cpp_source.html#l00019">dso_exit.cpp:19</a></div></div>
-<div class="ttc" id="aman2html_8c_html_a343dee1c5e152123ffb779928190a92f"><div class="ttname"><a href="../../d9/d84/man2html_8c.html#a343dee1c5e152123ffb779928190a92f">argument</a></div><div class="ttdeci">static char ** argument</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d84/man2html_8c_source.html#l00444">man2html.c:444</a></div></div>
-<div class="ttc" id="amlibc_2tests_2posix_2abort_8c_html_a3f64b652bf3cbb822474a96f4988fe03"><div class="ttname"><a href="../../d6/d19/mlibc_2tests_2posix_2abort_8c.html#a3f64b652bf3cbb822474a96f4988fe03">handler</a></div><div class="ttdeci">void handler(int sig, siginfo_t *info, void *ctx)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d19/mlibc_2tests_2posix_2abort_8c_source.html#l00005">abort.c:5</a></div></div>
-<div class="ttc" id="astructExitHandler_html"><div class="ttname"><a href="../../da/dfe/structExitHandler.html">ExitHandler</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/de8/dso__exit_8cpp_source.html#l00011">dso_exit.cpp:11</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d4/df7/atexit_8c_source.html#l00043">43</a> of file <a class="el" href="../../d4/df7/atexit_8c_source.html">atexit.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../dd/d42/lock_8h.html#a2f41aca864bb48d137ed64b2dca9f50a">LOCK</a>(<a class="code" href="../../d4/df7/atexit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">/* Defer initialization of head so it can be in BSS */</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>) <a class="code" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a> = &amp;<a class="code" href="../../d4/df7/atexit_8c.html#a2fda250c182c006e9741526a33e28747">builtin</a>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">/* If the current function list is full, add a new one */</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/df7/atexit_8c.html#a83d6e2127b4cc5e01f2012608487d31a">slot</a>==<a class="code" href="../../d4/df7/atexit_8c.html#a698c124f1c293f98840449d6c5b9d984">COUNT</a>) {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keyword">struct </span><a class="code" href="../../d2/d1a/structfl.html">fl</a> *new_fl = <a class="code" href="../../d4/df7/atexit_8c.html#a84beef8cc122add35118ec7cd35286c4">calloc</a>(<span class="keyword">sizeof</span>(<span class="keyword">struct</span> <a class="code" href="../../d2/d1a/structfl.html">fl</a>), 1);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">if</span> (!new_fl) {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <a class="code" href="../../dd/d42/lock_8h.html#aec45270f410dc5d02a7fedeee1545cbc">UNLOCK</a>(<a class="code" href="../../d4/df7/atexit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a>);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        }</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        new_fl-&gt;<a class="code" href="../../d2/d1a/structfl.html#ad813020a5aca0e912caf603921fa9c24">next</a> = <a class="code" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <a class="code" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a> = new_fl;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="../../d4/df7/atexit_8c.html#a83d6e2127b4cc5e01f2012608487d31a">slot</a> = 0;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">/* Append function to the list. */</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>-&gt;<a class="code" href="../../d2/d1a/structfl.html#a9851412bb0047d3372e5099503561f30">f</a>[<a class="code" href="../../d4/df7/atexit_8c.html#a83d6e2127b4cc5e01f2012608487d31a">slot</a>] = <a class="code" href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>-&gt;<a class="code" href="../../d2/d1a/structfl.html#a5546971ae87a080e474956e5da641fbb">a</a>[<a class="code" href="../../d4/df7/atexit_8c.html#a83d6e2127b4cc5e01f2012608487d31a">slot</a>] = <a class="code" href="../../d1/d40/vfwprintf_8c.html#d9/ddc/unionarg">arg</a>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../d4/df7/atexit_8c.html#a83d6e2127b4cc5e01f2012608487d31a">slot</a>++;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="../../dd/d42/lock_8h.html#aec45270f410dc5d02a7fedeee1545cbc">UNLOCK</a>(<a class="code" href="../../d4/df7/atexit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;}</div>
+<div class="ttc" id="aatexit_8c_html_a2fda250c182c006e9741526a33e28747"><div class="ttname"><a href="../../d4/df7/atexit_8c.html#a2fda250c182c006e9741526a33e28747">builtin</a></div><div class="ttdeci">static struct fl builtin</div></div>
+<div class="ttc" id="aatexit_8c_html_a3592dbf34b02b87a974abb8dc8cd642d"><div class="ttname"><a href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a></div><div class="ttdeci">static struct fl * head</div></div>
+<div class="ttc" id="aatexit_8c_html_a698c124f1c293f98840449d6c5b9d984"><div class="ttname"><a href="../../d4/df7/atexit_8c.html#a698c124f1c293f98840449d6c5b9d984">COUNT</a></div><div class="ttdeci">#define COUNT</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df7/atexit_8c_source.html#l00013">atexit.c:13</a></div></div>
+<div class="ttc" id="aatexit_8c_html_a6a733c9ba5924e19957e8516b132ccd9"><div class="ttname"><a href="../../d4/df7/atexit_8c.html#a6a733c9ba5924e19957e8516b132ccd9">lock</a></div><div class="ttdeci">static volatile int lock[1]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df7/atexit_8c_source.html#l00023">atexit.c:23</a></div></div>
+<div class="ttc" id="aatexit_8c_html_a83d6e2127b4cc5e01f2012608487d31a"><div class="ttname"><a href="../../d4/df7/atexit_8c.html#a83d6e2127b4cc5e01f2012608487d31a">slot</a></div><div class="ttdeci">static int slot</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df7/atexit_8c_source.html#l00022">atexit.c:22</a></div></div>
+<div class="ttc" id="aatexit_8c_html_a84beef8cc122add35118ec7cd35286c4"><div class="ttname"><a href="../../d4/df7/atexit_8c.html#a84beef8cc122add35118ec7cd35286c4">calloc</a></div><div class="ttdeci">#define calloc</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df7/atexit_8c_source.html#l00008">atexit.c:8</a></div></div>
+<div class="ttc" id="aawk_8c_html_a553299c54ca0f9dd61768a1f8a0e481a"><div class="ttname"><a href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a></div><div class="ttdeci">struct func_s func</div></div>
+<div class="ttc" id="alock_8h_html_a2f41aca864bb48d137ed64b2dca9f50a"><div class="ttname"><a href="../../dd/d42/lock_8h.html#a2f41aca864bb48d137ed64b2dca9f50a">LOCK</a></div><div class="ttdeci">#define LOCK(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d42/lock_8h_source.html#l00006">lock.h:6</a></div></div>
+<div class="ttc" id="alock_8h_html_aec45270f410dc5d02a7fedeee1545cbc"><div class="ttname"><a href="../../dd/d42/lock_8h.html#aec45270f410dc5d02a7fedeee1545cbc">UNLOCK</a></div><div class="ttdeci">#define UNLOCK(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d42/lock_8h_source.html#l00007">lock.h:7</a></div></div>
+<div class="ttc" id="astructfl_html"><div class="ttname"><a href="../../d2/d1a/structfl.html">fl</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df7/atexit_8c_source.html#l00015">atexit.c:16</a></div></div>
+<div class="ttc" id="astructfl_html_a5546971ae87a080e474956e5da641fbb"><div class="ttname"><a href="../../d2/d1a/structfl.html#a5546971ae87a080e474956e5da641fbb">fl::a</a></div><div class="ttdeci">void * a[COUNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df7/atexit_8c_source.html#l00019">atexit.c:19</a></div></div>
+<div class="ttc" id="astructfl_html_a9851412bb0047d3372e5099503561f30"><div class="ttname"><a href="../../d2/d1a/structfl.html#a9851412bb0047d3372e5099503561f30">fl::f</a></div><div class="ttdeci">void(* f[COUNT])(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df7/atexit_8c_source.html#l00018">atexit.c:18</a></div></div>
+<div class="ttc" id="astructfl_html_ad813020a5aca0e912caf603921fa9c24"><div class="ttname"><a href="../../d2/d1a/structfl.html#ad813020a5aca0e912caf603921fa9c24">fl::next</a></div><div class="ttdeci">struct fl * next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df7/atexit_8c_source.html#l00017">atexit.c:17</a></div></div>
+<div class="ttc" id="avfwprintf_8c_html_d9/ddc/unionarg"><div class="ttname"><a href="../../d1/d40/vfwprintf_8c.html#d9/ddc/unionarg">arg</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d61/vfprintf_8c_source.html#l00102">vfprintf.c:103</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/df7/atexit_8c_source.html#l00019">fl::a</a>, <a class="el" href="../../d4/df7/atexit_8c.html#a2fda250c182c006e9741526a33e28747">builtin</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00008">calloc</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00013">COUNT</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00018">fl::f</a>, <a class="el" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>, <a class="el" href="../../dd/d42/lock_8h_source.html#l00006">LOCK</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00023">lock</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00017">fl::next</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00022">slot</a>, and <a class="el" href="../../dd/d42/lock_8h_source.html#l00007">UNLOCK</a>.</p>
 

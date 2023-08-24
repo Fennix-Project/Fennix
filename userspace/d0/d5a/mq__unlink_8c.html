@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('d0/d5a/mq__unlink_8c.html','../../'); 
 <div class="title">mq_unlink.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;mqueue.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../df/df8/mqueue_8h_source.html">mqueue.h</a>&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
 </div>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d0/d5a/mq__unlink_8c.html','../../'); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:accd8c5ee36e60d990963e1d544ef4140"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5a/mq__unlink_8c.html#accd8c5ee36e60d990963e1d544ef4140">mq_unlink</a> (const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>)</td></tr>
+<tr class="memitem:accd8c5ee36e60d990963e1d544ef4140"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d5a/mq__unlink_8c.html#accd8c5ee36e60d990963e1d544ef4140">mq_unlink</a> (const char *name)</td></tr>
 <tr class="separator:accd8c5ee36e60d990963e1d544ef4140"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,7 +110,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> mq_unlink </td>
+          <td class="memname">int mq_unlink </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -121,24 +121,22 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d5a/mq__unlink_8c_source.html#l00005">5</a> of file <a class="el" href="../../d0/d5a/mq__unlink_8c_source.html">mq_unlink.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (*<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a> == <span class="charliteral">&#39;/&#39;</span>) <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>++;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_mq_unlink, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> &lt; 0) {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> == -<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#add669d31505a077f769cff8e66c780b3">EPERM</a>) <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = -<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ac2a2e9fa555401f94478f74e01868032">EACCES</a>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = -<a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">int</span> ret;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (*name == <span class="charliteral">&#39;/&#39;</span>) name++;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    ret = <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_mq_unlink, name);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span> (ret &lt; 0) {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">if</span> (ret == -<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#add669d31505a077f769cff8e66c780b3">EPERM</a>) ret = -<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ac2a2e9fa555401f94478f74e01868032">EACCES</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = -ret;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    }</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
-<div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ac2a2e9fa555401f94478f74e01868032"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ac2a2e9fa555401f94478f74e01868032">EACCES</a></div><div class="ttdeci">#define EACCES</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00016">errno.h:16</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_add669d31505a077f769cff8e66c780b3"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#add669d31505a077f769cff8e66c780b3">EPERM</a></div><div class="ttdeci">#define EPERM</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00004">errno.h:4</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">syscall.h:25</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">syscall.h:44</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">__syscall</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00016">EACCES</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00004">EPERM</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, and <a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00016">EACCES</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00004">EPERM</a>, and <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>.</p>
 
 </div>
 </div>

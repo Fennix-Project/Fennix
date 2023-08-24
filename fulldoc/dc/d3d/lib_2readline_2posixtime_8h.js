@@ -1,9 +1,8 @@
 var lib_2readline_2posixtime_8h =
 [
-    [ "timeval", "d4/d80/timeval_8h.html#d1/d1b/structtimeval", [
-      [ "tv_sec", "d4/d80/timeval_8h.html#aef6ddab1064c430758f9f913b7e4a21e", null ],
-      [ "tv_usec", "d4/d80/timeval_8h.html#a6f90a236deb00a89fe3dd8023d525d9c", null ],
-      [ "tv_usec", "d4/d80/timeval_8h.html#a810bf8fcd58e255a5c1896d19538b86a", null ]
+    [ "timeval", "dc/d3d/lib_2readline_2posixtime_8h.html#d1/d1b/structtimeval", [
+      [ "tv_sec", "dc/d3d/lib_2readline_2posixtime_8h.html#aef6ddab1064c430758f9f913b7e4a21e", null ],
+      [ "tv_usec", "dc/d3d/lib_2readline_2posixtime_8h.html#a6f90a236deb00a89fe3dd8023d525d9c", null ]
     ] ],
     [ "CLK_TCK", "dc/d3d/lib_2readline_2posixtime_8h.html#a03df76d1f70664d745ca8de2864e39b3", null ],
     [ "timerclear", "dc/d3d/lib_2readline_2posixtime_8h.html#ab95d90a9147b65d4ec1fab6bd2db6d1f", null ],

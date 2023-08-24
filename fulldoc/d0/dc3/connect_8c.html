@@ -91,14 +91,14 @@ $(document).ready(function(){initNavTree('d0/dc3/connect_8c.html','../../'); ini
 <div class="title">connect.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;sys/socket.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d4/d92/include_2sys_2socket_8h_source.html">sys/socket.h</a>&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
 </div>
 <p><a href="../../d0/dc3/connect_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7e6529d400966367b94e3d90bdad54c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/connect_8c.html#a7e6529d400966367b94e3d90bdad54c5">connect</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, const struct <a class="el" href="../../d5/d3e/musl_2include_2sys_2socket_8h.html#d5/dad/structsockaddr">sockaddr</a> *<a class="el" href="../../d2/de9/nscd__query_8c.html#ad6ad0a001f78ce01ba332cbc957f9a73">addr</a>, <a class="el" href="../../da/da3/abis_2linux_2socklen__t_8h.html#afb1a61946c13fc19c32b18be7c506d65">socklen_t</a> <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
+<tr class="memitem:a7e6529d400966367b94e3d90bdad54c5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc3/connect_8c.html#a7e6529d400966367b94e3d90bdad54c5">connect</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, const struct <a class="el" href="../../d4/d92/include_2sys_2socket_8h.html#d5/dad/structsockaddr">sockaddr</a> *<a class="el" href="../../d2/de9/nscd__query_8c.html#a5b145232bd35dec239f2db0c19254143">addr</a>, socklen_t <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
 <tr class="separator:a7e6529d400966367b94e3d90bdad54c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,21 +109,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> connect </td>
+          <td class="memname">int connect </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct <a class="el" href="../../d5/d3e/musl_2include_2sys_2socket_8h.html#d5/dad/structsockaddr">sockaddr</a> *&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../d4/d92/include_2sys_2socket_8h.html#d5/dad/structsockaddr">sockaddr</a> *&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/da3/abis_2linux_2socklen__t_8h.html#afb1a61946c13fc19c32b18be7c506d65">socklen_t</a>&#160;</td>
+          <td class="paramtype">socklen_t&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -136,14 +136,17 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/dc3/connect_8c_source.html#l00004">4</a> of file <a class="el" href="../../d0/dc3/connect_8c_source.html">connect.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ad65e0f5ada84b392059fd9e257e68cbc">socketcall_cp</a>(<a class="code" href="../../d0/dc3/connect_8c.html#a7e6529d400966367b94e3d90bdad54c5">connect</a>, fd, <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>, <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>, 0, 0, 0);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#ad65e0f5ada84b392059fd9e257e68cbc">socketcall_cp</a>(<a class="code" href="../../d0/dc3/connect_8c.html#a7e6529d400966367b94e3d90bdad54c5">connect</a>, <a class="code" href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>, <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>, 0, 0, 0);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 <div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
 <div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a8286ae6db03c34c4bb161accbfbfbbcd"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a></div><div class="ttdeci">multiboot_uint64_t addr</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00001">multiboot.h:1</a></div></div>
 <div class="ttc" id="aconnect_8c_html_a7e6529d400966367b94e3d90bdad54c5"><div class="ttname"><a href="../../d0/dc3/connect_8c.html#a7e6529d400966367b94e3d90bdad54c5">connect</a></div><div class="ttdeci">int connect(int fd, const struct sockaddr *addr, socklen_t len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc3/connect_8c_source.html#l00004">connect.c:4</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_ad65e0f5ada84b392059fd9e257e68cbc"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ad65e0f5ada84b392059fd9e257e68cbc">socketcall_cp</a></div><div class="ttdeci">#define socketcall_cp(nm, a, b, c, d, e, f)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00048">syscall.h:48</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_ad65e0f5ada84b392059fd9e257e68cbc"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#ad65e0f5ada84b392059fd9e257e68cbc">socketcall_cp</a></div><div class="ttdeci">#define socketcall_cp(nm, a, b, c, d, e, f)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00048">syscall.h:48</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00001">addr</a>, <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>, and <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00048">socketcall_cp</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00001">addr</a>, <a class="el" href="../../d0/dc3/connect_8c_source.html#l00004">connect()</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00048">socketcall_cp</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d14/lookup__name_8c_source.html#l00308">__lookup_name()</a>, <a class="el" href="../../d2/de9/nscd__query_8c_source.html#l00018">__nscd_query()</a>, <a class="el" href="../../d4/d2f/syslog_8c_source.html#l00051">__openlog()</a>, <a class="el" href="../../d4/d2f/syslog_8c_source.html#l00084">_vsyslog()</a>, <a class="el" href="../../df/df0/qconf_8cc_source.html#l00388">ConfigList::ConfigList()</a>, <a class="el" href="../../df/df0/qconf_8cc_source.html#l00813">ConfigMainWindow::ConfigMainWindow()</a>, <a class="el" href="../../d0/dc3/connect_8c_source.html#l00004">connect()</a>, <a class="el" href="../../da/daa/nc__bloaty_8c_source.html#l00287">connect_w_timeout()</a>, <a class="el" href="../../da/d59/d6__packet_8c_source.html#l00139">d6_send_kernel_packet_from_client_data_ifindex()</a>, <a class="el" href="../../d5/dab/getaddrinfo_8c_source.html#l00012">getaddrinfo()</a>, <a class="el" href="../../d1/de7/httpd_8c_source.html#l02180">handle_incoming_and_exit()</a>, <a class="el" href="../../dc/d37/inetd_8c_source.html#l01215">inetd_main()</a>, <a class="el" href="../../de/d10/pscan_8c_source.html#l00054">pscan_main()</a>, <a class="el" href="../../d1/d89/res__msend_8c_source.html#l00034">start_tcp()</a>, <a class="el" href="../../de/df3/packet_8c_source.html#l00192">udhcp_send_kernel_packet()</a>, and <a class="el" href="../../d8/d4c/xconnect_8c_source.html#l00103">xconnect()</a>.</p>
 
 </div>
 </div>

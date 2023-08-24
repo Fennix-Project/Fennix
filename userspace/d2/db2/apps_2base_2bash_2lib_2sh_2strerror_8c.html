@@ -102,14 +102,14 @@ $(document).ready(function(){initNavTree('d2/db2/apps_2base_2bash_2lib_2sh_2stre
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab11dd742e00adaee81acd3f7ed6af365"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/apps_2base_2bash_2lib_2sh_2strerror_8c.html#ab11dd742e00adaee81acd3f7ed6af365">strerror</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> e)</td></tr>
+<tr class="memitem:ab11dd742e00adaee81acd3f7ed6af365"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/apps_2base_2bash_2lib_2sh_2strerror_8c.html#ab11dd742e00adaee81acd3f7ed6af365">strerror</a> (int e)</td></tr>
 <tr class="separator:ab11dd742e00adaee81acd3f7ed6af365"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/apps_2base_2bash_2lib_2sh_2strerror_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a></td></tr>
+<tr class="memitem:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/apps_2base_2bash_2lib_2sh_2strerror_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a></td></tr>
 <tr class="separator:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f128cac85e3a55c9b07f5dce110718c"><td class="memItemLeft" align="right" valign="top">static char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/apps_2base_2bash_2lib_2sh_2strerror_8c.html#a7f128cac85e3a55c9b07f5dce110718c">errbase</a> = &quot;Unknown <a class="el" href="../../d7/d8f/musl_2src_2process_2system_8c.html#a5e43287e1dd4097af9094206a00d8806">system</a> <a class="el" href="../../d5/db0/dynlink_8c.html#a27a8748e833282478e79e744e16cb131">error</a> &quot;</td></tr>
+<tr class="memitem:a7f128cac85e3a55c9b07f5dce110718c"><td class="memItemLeft" align="right" valign="top">static char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/apps_2base_2bash_2lib_2sh_2strerror_8c.html#a7f128cac85e3a55c9b07f5dce110718c">errbase</a> = &quot;Unknown <a class="el" href="../../d4/dfd/system_8c.html#a5e43287e1dd4097af9094206a00d8806">system</a> <a class="el" href="../../d5/db0/dynlink_8c.html#a27a8748e833282478e79e744e16cb131">error</a> &quot;</td></tr>
 <tr class="separator:a7f128cac85e3a55c9b07f5dce110718c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -122,7 +122,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">char* strerror </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>e</em></td><td>)</td>
           <td></td>
         </tr>
@@ -145,7 +145,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      z = <a class="code" href="../../df/d57/itos_8c.html#a4458df0c815a2822d5129649049b85b9">itos</a> (e);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <a class="code" href="../../d6/ddf/gen-helpfiles_8c.html#add539a5755e4c4070b0c8ca97477fe47">strcpy</a> (emsg, <a class="code" href="../../d2/db2/apps_2base_2bash_2lib_2sh_2strerror_8c.html#a7f128cac85e3a55c9b07f5dce110718c">errbase</a>);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#ae810f5794c31105a68d07b26121fd9d5">strcat</a> (emsg, z);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <a class="code" href="../../d6/d32/musl_2include_2string_8h.html#ae9574a0c155c11ae729dc92f054ed22c">strcat</a> (emsg, z);</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      <a class="code" href="../../d5/db0/dynlink_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a> (z);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="keywordflow">return</span> (&amp;emsg[0]);</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
@@ -155,9 +155,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="aerrlist_8c_html_a560e1e3acaca1d09a7eddcdb528ed92e"><div class="ttname"><a href="../../df/d3a/errlist_8c.html#a560e1e3acaca1d09a7eddcdb528ed92e">sys_nerr</a></div><div class="ttdeci">int sys_nerr</div></div>
 <div class="ttc" id="agen-helpfiles_8c_html_add539a5755e4c4070b0c8ca97477fe47"><div class="ttname"><a href="../../d6/ddf/gen-helpfiles_8c.html#add539a5755e4c4070b0c8ca97477fe47">strcpy</a></div><div class="ttdeci">char * strcpy()</div></div>
 <div class="ttc" id="aitos_8c_html_a4458df0c815a2822d5129649049b85b9"><div class="ttname"><a href="../../df/d57/itos_8c.html#a4458df0c815a2822d5129649049b85b9">itos</a></div><div class="ttdeci">char * itos(intmax_t i)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d57/itos_8c_source.html#l00044">itos.c:44</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_ae810f5794c31105a68d07b26121fd9d5"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#ae810f5794c31105a68d07b26121fd9d5">strcat</a></div><div class="ttdeci">char * strcat(char *__restrict dest, const char *__restrict src)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00037">string-stubs.cpp:37</a></div></div>
+<div class="ttc" id="amusl_2include_2string_8h_html_ae9574a0c155c11ae729dc92f054ed22c"><div class="ttname"><a href="../../d6/d32/musl_2include_2string_8h.html#ae9574a0c155c11ae729dc92f054ed22c">strcat</a></div><div class="ttdeci">char * strcat(char *__restrict, const char *__restrict)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/db2/apps_2base_2bash_2lib_2sh_2strerror_8c_source.html#l00049">errbase</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, <a class="el" href="../../df/d57/itos_8c_source.html#l00044">itos()</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00037">strcat()</a>, <a class="el" href="../../d6/ddf/gen-helpfiles_8c.html#add539a5755e4c4070b0c8ca97477fe47">strcpy()</a>, and <a class="el" href="../../df/d3a/errlist_8c.html#a560e1e3acaca1d09a7eddcdb528ed92e">sys_nerr</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db2/apps_2base_2bash_2lib_2sh_2strerror_8c_source.html#l00049">errbase</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, <a class="el" href="../../df/d57/itos_8c_source.html#l00044">itos()</a>, <a class="el" href="../../d6/d32/musl_2include_2string_8h.html#ae9574a0c155c11ae729dc92f054ed22c">strcat()</a>, <a class="el" href="../../d6/ddf/gen-helpfiles_8c.html#add539a5755e4c4070b0c8ca97477fe47">strcpy()</a>, and <a class="el" href="../../df/d3a/errlist_8c.html#a560e1e3acaca1d09a7eddcdb528ed92e">sys_nerr</a>.</p>
 
 </div>
 </div>
@@ -172,7 +172,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char* errbase = &quot;Unknown <a class="el" href="../../d7/d8f/musl_2src_2process_2system_8c.html#a5e43287e1dd4097af9094206a00d8806">system</a> <a class="el" href="../../d5/db0/dynlink_8c.html#a27a8748e833282478e79e744e16cb131">error</a> &quot;</td>
+          <td class="memname">char* errbase = &quot;Unknown <a class="el" href="../../d4/dfd/system_8c.html#a5e43287e1dd4097af9094206a00d8806">system</a> <a class="el" href="../../d5/db0/dynlink_8c.html#a27a8748e833282478e79e744e16cb131">error</a> &quot;</td>
         </tr>
       </table>
   </td>
@@ -198,7 +198,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> errno</td>
+          <td class="memname">int errno</td>
         </tr>
       </table>
   </td>

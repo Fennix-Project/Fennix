@@ -107,7 +107,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:aa0246195b64447ad0ba3510f410604f4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#aebf354859b412e164c6aa1a83c602e4a">pthread_rwlock_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d50/lock__ptc_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a> = <a class="el" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#aa92fd7b492a8a5b31b2f8b3b6039c622">PTHREAD_RWLOCK_INITIALIZER</a></td></tr>
+<tr class="memitem:aa0246195b64447ad0ba3510f410604f4"><td class="memItemLeft" align="right" valign="top">static pthread_rwlock_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d50/lock__ptc_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a> = <a class="el" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#aa92fd7b492a8a5b31b2f8b3b6039c622">PTHREAD_RWLOCK_INITIALIZER</a></td></tr>
 <tr class="separator:aa0246195b64447ad0ba3510f410604f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -129,14 +129,14 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d50/lock__ptc_8c_source.html#l00010">10</a> of file <a class="el" href="../../de/d50/lock__ptc_8c_source.html">lock_ptc.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../df/d80/pthread-stubs_8cpp.html#a6153aca32112735053e6cc4a2a290feb">pthread_rwlock_rdlock</a>(&amp;<a class="code" href="../../de/d50/lock__ptc_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#a760ec40fd48d249f3360e28b6b251935">pthread_rwlock_rdlock</a>(&amp;<a class="code" href="../../de/d50/lock__ptc_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a>);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
+<div class="ttc" id="aUserspace_2musl_2include_2pthread_8h_html_a760ec40fd48d249f3360e28b6b251935"><div class="ttname"><a href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#a760ec40fd48d249f3360e28b6b251935">pthread_rwlock_rdlock</a></div><div class="ttdeci">int pthread_rwlock_rdlock(pthread_rwlock_t *)</div></div>
 <div class="ttc" id="alock__ptc_8c_html_aa0246195b64447ad0ba3510f410604f4"><div class="ttname"><a href="../../de/d50/lock__ptc_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a></div><div class="ttdeci">static pthread_rwlock_t lock</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d50/lock__ptc_8c_source.html#l00003">lock_ptc.c:3</a></div></div>
-<div class="ttc" id="apthread-stubs_8cpp_html_a6153aca32112735053e6cc4a2a290feb"><div class="ttname"><a href="../../df/d80/pthread-stubs_8cpp.html#a6153aca32112735053e6cc4a2a290feb">pthread_rwlock_rdlock</a></div><div class="ttdeci">int pthread_rwlock_rdlock(pthread_rwlock_t *rw)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d80/pthread-stubs_8cpp_source.html#l01574">pthread-stubs.cpp:1574</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d50/lock__ptc_8c_source.html#l00003">lock</a>, and <a class="el" href="../../df/d80/pthread-stubs_8cpp_source.html#l01574">pthread_rwlock_rdlock()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d50/lock__ptc_8c_source.html#l00003">lock</a>, and <a class="el" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#a760ec40fd48d249f3360e28b6b251935">pthread_rwlock_rdlock()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dc9/musl_2src_2thread_2pthread__create_8c_source.html#l00237">__pthread_create()</a>, <a class="el" href="../../d2/d64/pthread__attr__init_8c_source.html#l00003">pthread_attr_init()</a>, and <a class="el" href="../../d6/d31/pthread__setattr__default__np_8c_source.html#l00028">pthread_getattr_default_np()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dc2/pthread__create_8c_source.html#l00237">__pthread_create()</a>, <a class="el" href="../../d2/d64/pthread__attr__init_8c_source.html#l00003">pthread_attr_init()</a>, and <a class="el" href="../../d6/d31/pthread__setattr__default__np_8c_source.html#l00028">pthread_getattr_default_np()</a>.</p>
 
 </div>
 </div>
@@ -158,11 +158,11 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d50/lock__ptc_8c_source.html#l00005">5</a> of file <a class="el" href="../../de/d50/lock__ptc_8c_source.html">lock_ptc.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../df/d80/pthread-stubs_8cpp.html#af2ca5563676ae3ac35d3bc7b3547e7f7">pthread_rwlock_wrlock</a>(&amp;<a class="code" href="../../de/d50/lock__ptc_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#abf94ad54f8350dc5a0252694e194d3be">pthread_rwlock_wrlock</a>(&amp;<a class="code" href="../../de/d50/lock__ptc_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a>);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="apthread-stubs_8cpp_html_af2ca5563676ae3ac35d3bc7b3547e7f7"><div class="ttname"><a href="../../df/d80/pthread-stubs_8cpp.html#af2ca5563676ae3ac35d3bc7b3547e7f7">pthread_rwlock_wrlock</a></div><div class="ttdeci">int pthread_rwlock_wrlock(pthread_rwlock_t *rw)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d80/pthread-stubs_8cpp_source.html#l01519">pthread-stubs.cpp:1519</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2pthread_8h_html_abf94ad54f8350dc5a0252694e194d3be"><div class="ttname"><a href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#abf94ad54f8350dc5a0252694e194d3be">pthread_rwlock_wrlock</a></div><div class="ttdeci">int pthread_rwlock_wrlock(pthread_rwlock_t *)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d50/lock__ptc_8c_source.html#l00003">lock</a>, and <a class="el" href="../../df/d80/pthread-stubs_8cpp_source.html#l01519">pthread_rwlock_wrlock()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d50/lock__ptc_8c_source.html#l00003">lock</a>, and <a class="el" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#abf94ad54f8350dc5a0252694e194d3be">pthread_rwlock_wrlock()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d5/db0/dynlink_8c_source.html#l02099">dlopen()</a>, <a class="el" href="../../dd/d97/fork_8c_source.html#l00047">fork()</a>, and <a class="el" href="../../d6/d31/pthread__setattr__default__np_8c_source.html#l00008">pthread_setattr_default_np()</a>.</p>
 
@@ -186,13 +186,13 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d50/lock__ptc_8c_source.html#l00015">15</a> of file <a class="el" href="../../de/d50/lock__ptc_8c_source.html">lock_ptc.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../df/d80/pthread-stubs_8cpp.html#affd8a19e83fc87d865d103d6fbce8c4f">pthread_rwlock_unlock</a>(&amp;<a class="code" href="../../de/d50/lock__ptc_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a>);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#ac825e396d5b0821cb5ee97f34b5190e8">pthread_rwlock_unlock</a>(&amp;<a class="code" href="../../de/d50/lock__ptc_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a>);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
-<div class="ttc" id="apthread-stubs_8cpp_html_affd8a19e83fc87d865d103d6fbce8c4f"><div class="ttname"><a href="../../df/d80/pthread-stubs_8cpp.html#affd8a19e83fc87d865d103d6fbce8c4f">pthread_rwlock_unlock</a></div><div class="ttdeci">int pthread_rwlock_unlock(pthread_rwlock_t *rw)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d80/pthread-stubs_8cpp_source.html#l01590">pthread-stubs.cpp:1590</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2pthread_8h_html_ac825e396d5b0821cb5ee97f34b5190e8"><div class="ttname"><a href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#ac825e396d5b0821cb5ee97f34b5190e8">pthread_rwlock_unlock</a></div><div class="ttdeci">int pthread_rwlock_unlock(pthread_rwlock_t *)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d50/lock__ptc_8c_source.html#l00003">lock</a>, and <a class="el" href="../../df/d80/pthread-stubs_8cpp_source.html#l01590">pthread_rwlock_unlock()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d50/lock__ptc_8c_source.html#l00003">lock</a>, and <a class="el" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#ac825e396d5b0821cb5ee97f34b5190e8">pthread_rwlock_unlock()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dc9/musl_2src_2thread_2pthread__create_8c_source.html#l00237">__pthread_create()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l02099">dlopen()</a>, <a class="el" href="../../dd/d97/fork_8c_source.html#l00047">fork()</a>, <a class="el" href="../../d2/d64/pthread__attr__init_8c_source.html#l00003">pthread_attr_init()</a>, <a class="el" href="../../d6/d31/pthread__setattr__default__np_8c_source.html#l00028">pthread_getattr_default_np()</a>, and <a class="el" href="../../d6/d31/pthread__setattr__default__np_8c_source.html#l00008">pthread_setattr_default_np()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d7/dc2/pthread__create_8c_source.html#l00237">__pthread_create()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l02099">dlopen()</a>, <a class="el" href="../../dd/d97/fork_8c_source.html#l00047">fork()</a>, <a class="el" href="../../d2/d64/pthread__attr__init_8c_source.html#l00003">pthread_attr_init()</a>, <a class="el" href="../../d6/d31/pthread__setattr__default__np_8c_source.html#l00028">pthread_getattr_default_np()</a>, and <a class="el" href="../../d6/d31/pthread__setattr__default__np_8c_source.html#l00008">pthread_setattr_default_np()</a>.</p>
 
 </div>
 </div>
@@ -207,7 +207,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#aebf354859b412e164c6aa1a83c602e4a">pthread_rwlock_t</a> lock = <a class="el" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#aa92fd7b492a8a5b31b2f8b3b6039c622">PTHREAD_RWLOCK_INITIALIZER</a></td>
+          <td class="memname">pthread_rwlock_t lock = <a class="el" href="../../df/d00/Userspace_2musl_2include_2pthread_8h.html#aa92fd7b492a8a5b31b2f8b3b6039c622">PTHREAD_RWLOCK_INITIALIZER</a></td>
         </tr>
       </table>
   </td>

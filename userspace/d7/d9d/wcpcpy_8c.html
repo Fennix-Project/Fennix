@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d7/d9d/wcpcpy_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8732032906cbd3354dac928885272866"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9d/wcpcpy_8c.html#a8732032906cbd3354dac928885272866">wcpcpy</a> (<a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict d, const <a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict s)</td></tr>
+<tr class="memitem:a8732032906cbd3354dac928885272866"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d9d/wcpcpy_8c.html#a8732032906cbd3354dac928885272866">wcpcpy</a> (<a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict d, const <a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)</td></tr>
 <tr class="separator:a8732032906cbd3354dac928885272866"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -129,12 +129,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d9d/wcpcpy_8c_source.html#l00003">3</a> of file <a class="el" href="../../d7/d9d/wcpcpy_8c_source.html">wcpcpy.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a6333364b1e0153b86825f5c2057a89e6">wcscpy</a>(d, s) + <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a7859e4ba07f77515772c4632d4caa4e0">wcslen</a>(s);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d9b/include_2wchar_8h.html#af75bd6cf72a22d65be71b66de4ed7d29">wcscpy</a>(d, <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>) + <a class="code" href="../../dc/d9b/include_2wchar_8h.html#a4ab806a2f203c635e9fc5c1d01e6e92b">wcslen</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="astring-stubs_8cpp_html_a6333364b1e0153b86825f5c2057a89e6"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a6333364b1e0153b86825f5c2057a89e6">wcscpy</a></div><div class="ttdeci">wchar_t * wcscpy(wchar_t *__restrict dest, const wchar_t *__restrict src)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00245">string-stubs.cpp:245</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a7859e4ba07f77515772c4632d4caa4e0"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a7859e4ba07f77515772c4632d4caa4e0">wcslen</a></div><div class="ttdeci">size_t wcslen(const wchar_t *s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00325">string-stubs.cpp:325</a></div></div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
+<div class="ttc" id="ainclude_2wchar_8h_html_a4ab806a2f203c635e9fc5c1d01e6e92b"><div class="ttname"><a href="../../dc/d9b/include_2wchar_8h.html#a4ab806a2f203c635e9fc5c1d01e6e92b">wcslen</a></div><div class="ttdeci">size_t wcslen(const wchar_t *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/wcslen_8c_source.html#l00003">wcslen.c:3</a></div></div>
+<div class="ttc" id="ainclude_2wchar_8h_html_af75bd6cf72a22d65be71b66de4ed7d29"><div class="ttname"><a href="../../dc/d9b/include_2wchar_8h.html#af75bd6cf72a22d65be71b66de4ed7d29">wcscpy</a></div><div class="ttdeci">wchar_t * wcscpy(wchar_t *__restrict, const wchar_t *__restrict)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00245">wcscpy()</a>, and <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00325">wcslen()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../dc/d9b/include_2wchar_8h.html#af75bd6cf72a22d65be71b66de4ed7d29">wcscpy()</a>, and <a class="el" href="../../d2/db4/wcslen_8c_source.html#l00003">wcslen()</a>.</p>
 
 </div>
 </div>

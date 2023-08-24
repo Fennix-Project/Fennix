@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('db/d2b/sem__init_8c.html','../../'); i
 <div class="title">sem_init.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;semaphore.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d6/dc6/semaphore_8h_source.html">semaphore.h</a>&gt;</code><br />
 <code>#include &lt;limits.h&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
 </div>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('db/d2b/sem__init_8c.html','../../'); i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8437c38b02b5858b66f2df30f4f26435"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2b/sem__init_8c.html#a8437c38b02b5858b66f2df30f4f26435">sem_init</a> (<a class="el" href="../../d7/df4/musl_2include_2semaphore_8h.html#db/d5a/structsem__t">sem_t</a> *sem, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> pshared, unsigned <a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>)</td></tr>
+<tr class="memitem:a8437c38b02b5858b66f2df30f4f26435"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2b/sem__init_8c.html#a8437c38b02b5858b66f2df30f4f26435">sem_init</a> (<a class="el" href="../../d6/dc6/semaphore_8h.html#db/d5a/structsem__t">sem_t</a> *sem, int pshared, unsigned <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>)</td></tr>
 <tr class="separator:a8437c38b02b5858b66f2df30f4f26435"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,15 +110,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sem_init </td>
+          <td class="memname">int sem_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/df4/musl_2include_2semaphore_8h.html#db/d5a/structsem__t">sem_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/dc6/semaphore_8h.html#db/d5a/structsem__t">sem_t</a> *&#160;</td>
           <td class="paramname"><em>sem</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>pshared</em>, </td>
         </tr>
         <tr>
@@ -137,22 +137,23 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d2b/sem__init_8c_source.html#l00005">5</a> of file <a class="el" href="../../db/d2b/sem__init_8c_source.html">sem_init.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a> &gt; <a class="code" href="../../d1/deb/mlibc_2options_2posix_2include_2semaphore_8h.html#a2961bb23950351c6b10976674c27ddaf">SEM_VALUE_MAX</a>) {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a> &gt; SEM_VALUE_MAX) {</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    }</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    sem-&gt;<a class="code" href="../../d7/df4/musl_2include_2semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">__val</a>[0] = <a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    sem-&gt;<a class="code" href="../../d7/df4/musl_2include_2semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">__val</a>[1] = 0;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    sem-&gt;<a class="code" href="../../d7/df4/musl_2include_2semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">__val</a>[2] = pshared ? 0 : 128;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    sem-&gt;<a class="code" href="../../d6/dc6/semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">__val</a>[0] = <a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    sem-&gt;<a class="code" href="../../d6/dc6/semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">__val</a>[1] = 0;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    sem-&gt;<a class="code" href="../../d6/dc6/semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">__val</a>[2] = pshared ? 0 : 128;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">errno.h:25</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
 <div class="ttc" id="alibc_2include_2setjmp_8h_html_ac4f474c82e82cbb89ca7c36dd52be0ed"><div class="ttname"><a href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a></div><div class="ttdeci">int value</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">setjmp.h:32</a></div></div>
-<div class="ttc" id="amlibc_2options_2posix_2include_2semaphore_8h_html_a2961bb23950351c6b10976674c27ddaf"><div class="ttname"><a href="../../d1/deb/mlibc_2options_2posix_2include_2semaphore_8h.html#a2961bb23950351c6b10976674c27ddaf">SEM_VALUE_MAX</a></div><div class="ttdeci">#define SEM_VALUE_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/deb/mlibc_2options_2posix_2include_2semaphore_8h_source.html#l00011">semaphore.h:11</a></div></div>
-<div class="ttc" id="amusl_2include_2semaphore_8h_html_a79fdf291ed1877958bc756d78fc16cf3"><div class="ttname"><a href="../../d7/df4/musl_2include_2semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">sem_t::__val</a></div><div class="ttdeci">volatile int __val[4 *sizeof(long)/sizeof(int)]</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df4/musl_2include_2semaphore_8h_source.html#l00018">semaphore.h:18</a></div></div>
+<div class="ttc" id="asemaphore_8h_html_a79fdf291ed1877958bc756d78fc16cf3"><div class="ttname"><a href="../../d6/dc6/semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">sem_t::__val</a></div><div class="ttdeci">volatile int __val[4 *sizeof(long)/sizeof(int)]</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc6/semaphore_8h_source.html#l00018">semaphore.h:18</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/df4/musl_2include_2semaphore_8h_source.html#l00018">sem_t::__val</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../d1/deb/mlibc_2options_2posix_2include_2semaphore_8h_source.html#l00011">SEM_VALUE_MAX</a>, and <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">value</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dc6/semaphore_8h_source.html#l00018">sem_t::__val</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, and <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">value</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/de2/membarrier_8c_source.html#l00022">__membarrier()</a>, <a class="el" href="../../d5/d9c/synccall_8c_source.html#l00044">__synccall()</a>, <a class="el" href="../../db/d51/mq__notify_8c_source.html#l00046">mq_notify()</a>, <a class="el" href="../../d6/d12/sem__open_8c_source.html#l00032">sem_open()</a>, and <a class="el" href="../../d8/d77/aio_8c_source.html#l00282">submit()</a>.</p>
 
 </div>
 </div>

@@ -118,8 +118,8 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a9e42a6833fd6750b7c411b0c0f017f82"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/de4/Thread_8cpp.html#a9e42a6833fd6750b7c411b0c0f017f82">ThreadDoExit</a> ()</td></tr>
 <tr class="separator:a9e42a6833fd6750b7c411b0c0f017f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f83162fe9e974a9a50b4b4025507e7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a9f83162fe9e974a9a50b4b4025507e7f">Tasking::__no_sanitize</a> (&quot;undefined&quot;) TCB</td></tr>
-<tr class="separator:a9f83162fe9e974a9a50b4b4025507e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a591d6f9b922ab5cc821cc805f77e8ad0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d3e/namespaceTasking.html#a591d6f9b922ab5cc821cc805f77e8ad0">Tasking::__no_sanitize</a> (&quot;undefined&quot;) void TCB</td></tr>
+<tr class="separator:a591d6f9b922ab5cc821cc805f77e8ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="aace3a9b0e5fd50db66d27fe07b390253"></a>
@@ -148,7 +148,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/de4/Thread_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../da/de4/Thread_8cpp_source.html">Thread.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/de4/Thread_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../da/de4/Thread_8cpp_source.html">Thread.cpp</a>.</p>
 
 </div>
 </div>
@@ -168,18 +168,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../da/de4/Thread_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../da/de4/Thread_8cpp_source.html">Thread.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *<a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> = <a class="code" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>();</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../da/daf/classTasking_1_1TCB.html">Tasking::TCB</a> *<a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a> = <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a>-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a491373d6c819684bf4b29bbae4422703">CurrentThread</a>.load();</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;Status = <a class="code" href="../../d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ea773f96280709f0b4ee36122b01357f51">Tasking::TaskStatus::Terminated</a>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;\&quot;%s\&quot;(%d) exited with code: %#lx&quot;</span>,</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;          <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;Name,</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;          <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;ID,</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;          <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;ExitCode);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../df/dbe/cpu_8hpp.html#a643be30dd2659e9acee9a5372da38ecf">CPU::Halt</a>(<span class="keyword">true</span>);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../da/de4/Thread_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../da/de4/Thread_8cpp_source.html">Thread.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> *<a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a> = <a class="code" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a>();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="../../da/daf/classTasking_1_1TCB.html">Tasking::TCB</a> *<a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a> = <a class="code" href="../../d4/d33/smp_8hpp.html#de/df9/structCPUData">CPUData</a>-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a491373d6c819684bf4b29bbae4422703">CurrentThread</a>.load();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;Status = <a class="code" href="../../d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ea773f96280709f0b4ee36122b01357f51">Tasking::TaskStatus::Terminated</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;\&quot;%s\&quot;(%d) exited with code: %#lx&quot;</span>,</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;          <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;Name,</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;          <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;ID,</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;          <a class="code" href="../../d4/d33/smp_8hpp.html#a4fcbc98bdc4609add35b123d0be391de">CurrentThread</a>-&gt;ExitCode);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <a class="code" href="../../df/dbe/cpu_8hpp.html#a643be30dd2659e9acee9a5372da38ecf">CPU::Halt</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
 <div class="ttc" id="aaarch64_2cpu_2SymmetricMultiprocessing_8cpp_html_aa53a3783575d262dc378af3a30ca775d"><div class="ttname"><a href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp.html#aa53a3783575d262dc378af3a30ca775d">GetCurrentCPU</a></div><div class="ttdeci">CPUData * GetCurrentCPU()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00033">SymmetricMultiprocessing.cpp:33</a></div></div>
 <div class="ttc" id="aclassTasking_1_1TCB_html"><div class="ttname"><a href="../../da/daf/classTasking_1_1TCB.html">Tasking::TCB</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00157">task.hpp:158</a></div></div>
 <div class="ttc" id="acpu_8hpp_html_a643be30dd2659e9acee9a5372da38ecf"><div class="ttname"><a href="../../df/dbe/cpu_8hpp.html#a643be30dd2659e9acee9a5372da38ecf">Halt</a></div><div class="ttdeci">static SafeFunction __always_inline void Halt(bool Loop=false)</div><div class="ttdoc">Halt the CPU.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00177">cpu.hpp:177</a></div></div>
@@ -191,7 +191,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00013">CurrentThread</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00057">CPUData::CurrentThread</a>, <a class="el" href="../../d4/dbe/mksyntax_8c_source.html#l00072">debug</a>, <a class="el" href="../../d2/d7d/aarch64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00033">GetCurrentCPU()</a>, <a class="el" href="../../df/dbe/cpu_8hpp_source.html#l00177">Halt()</a>, and <a class="el" href="../../d8/da1/task_8hpp_source.html#l00087">Tasking::Terminated</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/de4/Thread_8cpp_source.html#l00128">Tasking::__no_sanitize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/de4/Thread_8cpp_source.html#l00317">Tasking::TCB::TCB()</a>.</p>
 
 </div>
 </div>

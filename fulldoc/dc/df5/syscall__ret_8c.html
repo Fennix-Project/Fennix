@@ -92,13 +92,13 @@ $(document).ready(function(){initNavTree('dc/df5/syscall__ret_8c.html','../../')
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;errno.h&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html">syscall.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html">syscall.h</a>&quot;</code><br />
 </div>
 <p><a href="../../dc/df5/syscall__ret_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac5a9fe7bbf4e56db4c22dbb286f18f45"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df5/syscall__ret_8c.html#ac5a9fe7bbf4e56db4c22dbb286f18f45">__syscall_ret</a> (unsigned long <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>)</td></tr>
+<tr class="memitem:ac5a9fe7bbf4e56db4c22dbb286f18f45"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df5/syscall__ret_8c.html#ac5a9fe7bbf4e56db4c22dbb286f18f45">__syscall_ret</a> (unsigned long r)</td></tr>
 <tr class="separator:ac5a9fe7bbf4e56db4c22dbb286f18f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">long <a class="el" href="../../df/d63/mlibc_2sysdeps_2vinix_2generic_2syscall_8h.html#d4/d5b/struct____syscall__ret">__syscall_ret</a> </td>
+          <td class="memname">long __syscall_ret </td>
           <td>(</td>
           <td class="paramtype">unsigned long&#160;</td>
           <td class="paramname"><em>r</em></td><td>)</td>
@@ -120,16 +120,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/df5/syscall__ret_8c_source.html#l00004">4</a> of file <a class="el" href="../../dc/df5/syscall__ret_8c_source.html">syscall_ret.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> &gt; -4096UL) {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = -<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (r &gt; -4096UL) {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = -r;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    }</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> r;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00409">errno.h:409</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00409">errno</a>, and <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00409">errno</a>.</p>
 
 </div>
 </div>

@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d8/dbf/musl_2src_2unistd_2setpgid_8c.h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae5aae5b0275eefe79314a4673195e475"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbf/musl_2src_2unistd_2setpgid_8c.html#ae5aae5b0275eefe79314a4673195e475">setpgid</a> (<a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> pid, <a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> pgid)</td></tr>
+<tr class="memitem:ae5aae5b0275eefe79314a4673195e475"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dbf/musl_2src_2unistd_2setpgid_8c.html#ae5aae5b0275eefe79314a4673195e475">setpgid</a> (<a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, <a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> pgid)</td></tr>
 <tr class="separator:ae5aae5b0275eefe79314a4673195e475"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> setpgid </td>
+          <td class="memname">int setpgid </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td>
           <td class="paramname"><em>pid</em>, </td>
@@ -130,11 +130,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/dbf/musl_2src_2unistd_2setpgid_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/dbf/musl_2src_2unistd_2setpgid_8c_source.html">setpgid.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_setpgid, pid, pgid);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_setpgid, <a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, pgid);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="amconf_8c_html_ae0d46a978d5cd6707411f276ad869b9c"><div class="ttname"><a href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a></div><div class="ttdeci">pid_t pid</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d43/mconf_8c_source.html#l00450">mconf.c:450</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d43/mconf_8c_source.html#l00450">pid</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

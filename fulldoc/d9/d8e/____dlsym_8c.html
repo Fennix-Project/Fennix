@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d9/d8e/____dlsym_8c.html','../../'); i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6255c0d548539c6810dbb97378e65f77"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d8e/____dlsym_8c.html#a6255c0d548539c6810dbb97378e65f77">stub_dlsym</a> (void *restrict <a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>, const char *restrict s, void *restrict ra)</td></tr>
+<tr class="memitem:a6255c0d548539c6810dbb97378e65f77"><td class="memItemLeft" align="right" valign="top">static void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d8e/____dlsym_8c.html#a6255c0d548539c6810dbb97378e65f77">stub_dlsym</a> (void *restrict <a class="el" href="../../d6/d23/wi__stuff_8c.html#a5f53dec9fe800012c2be6ab5167d2cfd">p</a>, const char *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, void *restrict ra)</td></tr>
 <tr class="separator:a6255c0d548539c6810dbb97378e65f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a160a99554c66ffc1715a0f3ee263229d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d8e/____dlsym_8c.html#a160a99554c66ffc1715a0f3ee263229d">weak_alias</a> (<a class="el" href="../../d9/d8e/____dlsym_8c.html#a6255c0d548539c6810dbb97378e65f77">stub_dlsym</a>, <a class="el" href="../../d0/d5e/dynlink_8h.html#a3283021332e6ba01d30656a1a8eb695b">__dlsym</a>)</td></tr>
 <tr class="separator:a160a99554c66ffc1715a0f3ee263229d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,12 +146,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d8e/____dlsym_8c_source.html#l00004">4</a> of file <a class="el" href="../../d9/d8e/____dlsym_8c_source.html">__dlsym.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d0/d5e/dynlink_8h.html#a31b1407e6687e9243338536f9f089f7c">__dl_seterr</a>(<span class="stringliteral">&quot;Symbol not found: %s&quot;</span>, s);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d0/d5e/dynlink_8h.html#a31b1407e6687e9243338536f9f089f7c">__dl_seterr</a>(<span class="stringliteral">&quot;Symbol not found: %s&quot;</span>, <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="adynlink_8h_html_a31b1407e6687e9243338536f9f089f7c"><div class="ttname"><a href="../../d0/d5e/dynlink_8h.html#a31b1407e6687e9243338536f9f089f7c">__dl_seterr</a></div><div class="ttdeci">hidden void __dl_seterr(const char *,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dcb/dlerror_8c_source.html#l00075">dlerror.c:75</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/dcb/dlerror_8c_source.html#l00075">__dl_seterr()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dcb/dlerror_8c_source.html#l00075">__dl_seterr()</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
 
 </div>
 </div>

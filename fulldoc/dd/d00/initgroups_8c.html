@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('dd/d00/initgroups_8c.html','../../'); 
 <div class="title">initgroups.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;grp.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d1/d47/grp_8h_source.html">grp.h</a>&gt;</code><br />
 <code>#include &lt;limits.h&gt;</code><br />
 </div>
 <p><a href="../../dd/d00/initgroups_8c_source.html">Go to the source code of this file.</a></p>
@@ -104,7 +104,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af1d6e5f5980fdfc51e04da652371bb66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d00/initgroups_8c.html#af1d6e5f5980fdfc51e04da652371bb66">initgroups</a> (const char *<a class="el" href="../../d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#d8/dbc/structuser">user</a>, <a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a> gid)</td></tr>
+<tr class="memitem:af1d6e5f5980fdfc51e04da652371bb66"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d00/initgroups_8c.html#af1d6e5f5980fdfc51e04da652371bb66">initgroups</a> (const char *<a class="el" href="../../dc/d9d/arch_2x86__64_2bits_2user_8h.html#d8/dbc/structuser">user</a>, gid_t gid)</td></tr>
 <tr class="separator:af1d6e5f5980fdfc51e04da652371bb66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -132,7 +132,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> initgroups </td>
+          <td class="memname">int initgroups </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>user</em>, </td>
@@ -140,7 +140,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a>&#160;</td>
+          <td class="paramtype">gid_t&#160;</td>
           <td class="paramname"><em>gid</em>&#160;</td>
         </tr>
         <tr>
@@ -153,19 +153,18 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d00/initgroups_8c_source.html#l00005">5</a> of file <a class="el" href="../../dd/d00/initgroups_8c_source.html">initgroups.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a> groups[<a class="code" href="../../d4/de2/Userspace_2mlibc_2options_2ansi_2include_2limits_8h.html#ad9a83302400dca73a271e7944851a209">NGROUPS_MAX</a>];</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a> = <a class="code" href="../../d4/de2/Userspace_2mlibc_2options_2ansi_2include_2limits_8h.html#ad9a83302400dca73a271e7944851a209">NGROUPS_MAX</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../df/d52/grp-stubs_8cpp.html#a17c6f07c5046a88203bc881f1c5ebeeb">getgrouplist</a>(<a class="code" href="../../d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#d8/dbc/structuser">user</a>, gid, groups, &amp;<a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>) &lt; 0) <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/d52/grp-stubs_8cpp.html#af7df624933ff8690b60c537a29659718">setgroups</a>(<a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>, groups);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    gid_t <a class="code" href="../../d4/dab/libnetlink_8c.html#a58d471a63a8da949152c28fca31b454e">groups</a>[NGROUPS_MAX];</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a> = NGROUPS_MAX;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d32/grp___8h.html#a9082c989f684ea21a2bd67d5d7ca4bd0">getgrouplist</a>(<a class="code" href="../../dc/d9d/arch_2x86__64_2bits_2user_8h.html#d8/dbc/structuser">user</a>, gid, <a class="code" href="../../d4/dab/libnetlink_8c.html#a58d471a63a8da949152c28fca31b454e">groups</a>, &amp;<a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>) &lt; 0) <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/ddf/setgroups_8c.html#ad378b938f84b9fcb0d91f2efe5022b24">setgroups</a>(<a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>, <a class="code" href="../../d4/dab/libnetlink_8c.html#a58d471a63a8da949152c28fca31b454e">groups</a>);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2limits_8h_html_ad9a83302400dca73a271e7944851a209"><div class="ttname"><a href="../../d4/de2/Userspace_2mlibc_2options_2ansi_2include_2limits_8h.html#ad9a83302400dca73a271e7944851a209">NGROUPS_MAX</a></div><div class="ttdeci">#define NGROUPS_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/de2/Userspace_2mlibc_2options_2ansi_2include_2limits_8h_source.html#l00039">limits.h:39</a></div></div>
-<div class="ttc" id="aabis_2linux_2gid__t_8h_html_a78ecefd3a9f3f0c110b9f6f038b690eb"><div class="ttname"><a href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a></div><div class="ttdeci">int gid_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dc2/abis_2linux_2gid__t_8h_source.html#l00005">gid_t.h:5</a></div></div>
-<div class="ttc" id="aat__quick__exit_8c_html_ad43c3812e6d13e0518d9f8b8f463ffcf"><div class="ttname"><a href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a></div><div class="ttdeci">static int count</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d48/at__quick__exit_8c_source.html#l00009">at_quick_exit.c:9</a></div></div>
-<div class="ttc" id="agrp-stubs_8cpp_html_a17c6f07c5046a88203bc881f1c5ebeeb"><div class="ttname"><a href="../../df/d52/grp-stubs_8cpp.html#a17c6f07c5046a88203bc881f1c5ebeeb">getgrouplist</a></div><div class="ttdeci">int getgrouplist(const char *, gid_t, gid_t *, int *)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d52/grp-stubs_8cpp_source.html#l00313">grp-stubs.cpp:313</a></div></div>
-<div class="ttc" id="agrp-stubs_8cpp_html_af7df624933ff8690b60c537a29659718"><div class="ttname"><a href="../../df/d52/grp-stubs_8cpp.html#af7df624933ff8690b60c537a29659718">setgroups</a></div><div class="ttdeci">int setgroups(size_t size, const gid_t *list)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d52/grp-stubs_8cpp_source.html#l00289">grp-stubs.cpp:289</a></div></div>
-<div class="ttc" id="amusl_2arch_2x86__64_2bits_2user_8h_html_d8/dbc/structuser"><div class="ttname"><a href="../../d6/d80/musl_2arch_2x86__64_2bits_2user_8h.html#d8/dbc/structuser">user</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df6/mlibc_2options_2glibc_2include_2sys_2user_8h_source.html#l00023">user.h:23</a></div></div>
+<div class="ttc" id="aarch_2x86__64_2bits_2user_8h_html_d8/dbc/structuser"><div class="ttname"><a href="../../dc/d9d/arch_2x86__64_2bits_2user_8h.html#d8/dbc/structuser">user</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dbd/arch_2arm_2bits_2user_8h_source.html#l00023">user.h:23</a></div></div>
+<div class="ttc" id="add_8c_html_ac74ae34e9c58234aacabb6867b245c58"><div class="ttname"><a href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a></div><div class="ttdeci">#define count</div></div>
+<div class="ttc" id="agrp___8h_html_a9082c989f684ea21a2bd67d5d7ca4bd0"><div class="ttname"><a href="../../db/d32/grp___8h.html#a9082c989f684ea21a2bd67d5d7ca4bd0">getgrouplist</a></div><div class="ttdeci">#define getgrouplist</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d32/grp___8h_source.html#l00036">grp_.h:36</a></div></div>
+<div class="ttc" id="alibnetlink_8c_html_a58d471a63a8da949152c28fca31b454e"><div class="ttname"><a href="../../d4/dab/libnetlink_8c.html#a58d471a63a8da949152c28fca31b454e">groups</a></div><div class="ttdeci">#define groups</div></div>
+<div class="ttc" id="asetgroups_8c_html_ad378b938f84b9fcb0d91f2efe5022b24"><div class="ttname"><a href="../../dc/ddf/setgroups_8c.html#ad378b938f84b9fcb0d91f2efe5022b24">setgroups</a></div><div class="ttdeci">int setgroups(size_t count, const gid_t list[])</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/setgroups_8c_source.html#l00029">setgroups.c:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00009">count</a>, <a class="el" href="../../df/d52/grp-stubs_8cpp_source.html#l00313">getgrouplist()</a>, <a class="el" href="../../d4/de2/Userspace_2mlibc_2options_2ansi_2include_2limits_8h_source.html#l00039">NGROUPS_MAX</a>, and <a class="el" href="../../df/d52/grp-stubs_8cpp_source.html#l00289">setgroups()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, <a class="el" href="../../db/d32/grp___8h_source.html#l00036">getgrouplist</a>, <a class="el" href="../../d0/d34/pwd__grp_8c_source.html#l00510">getgrouplist_internal()</a>, <a class="el" href="../../d4/dab/libnetlink_8c.html#a58d471a63a8da949152c28fca31b454e">groups</a>, <a class="el" href="../../d6/d9e/busybox_2coreutils_2test_8c_source.html#l00444">ngroups</a>, and <a class="el" href="../../dc/ddf/setgroups_8c_source.html#l00029">setgroups()</a>.</p>
 
 </div>
 </div>

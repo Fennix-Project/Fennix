@@ -115,14 +115,14 @@ $(document).ready(function(){initNavTree('d5/d9b/i386_2Bootstrap_2Multiboot_22_2
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;.extern LoadGDT32</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;.extern BootPageTable</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;.section .bootstrap.data</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;.section .bootstrap.data, &quot;a&quot;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;MB_HeaderMagic:</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    .quad 0</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;MB_HeaderInfo:</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    .quad 0</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;.section .bootstrap.text</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;.section .bootstrap.text, &quot;a&quot;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;.global Multiboot2_start</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;Multiboot2_start:</div>
@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('d5/d9b/i386_2Bootstrap_2Multiboot_22_2
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    hlt</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    jmp .Hang</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;.section .bootstrap.bss</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;.section .bootstrap.bss, &quot;a&quot;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;.align 16</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;KernelStack:</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    .space KERNEL_STACK_SIZE</div>

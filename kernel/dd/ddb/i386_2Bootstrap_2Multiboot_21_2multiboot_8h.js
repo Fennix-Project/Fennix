@@ -50,7 +50,7 @@ var i386_2Bootstrap_2Multiboot_21_2multiboot_8h =
       [ "mods_addr", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a854bdbfa7b23c9c3dfa0bfc155ef8242", null ],
       [ "mods_count", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#aebdafce31f94277d138202f7b1ec35cc", null ],
       [ "u", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a0baf89db690d3586dd8edfd345b8058f", null ],
-      [ "u", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a472fc1dfe582f4b4efac2c6f8fa9b92b", null ],
+      [ "u", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a303b516125f9309ac4e8890501811c9e", null ],
       [ "vbe_control_info", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a06191cef73b64e9d64a01850547fd2e8", null ],
       [ "vbe_interface_len", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#ab3c537df524db1ed0aeaa2e6f61a23e6", null ],
       [ "vbe_interface_off", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a1621d51b1cc198a1496e9f61b3708291", null ],
@@ -93,12 +93,12 @@ var i386_2Bootstrap_2Multiboot_21_2multiboot_8h =
       [ "elf_sec", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#af2b83453f34de71046f2bbb48051c1f4", null ],
       [ "elf_sec", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#af2b83453f34de71046f2bbb48051c1f4", null ]
     ] ],
-    [ "multiboot_info.__unnamed33__", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#d4/d1e/unionmultiboot__info_8____unnamed33____", null ],
-    [ "multiboot_info.__unnamed33__.__unnamed35__", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#d3/dc0/structmultiboot__info_8____unnamed33_____8____unnamed35____", [
+    [ "multiboot_info.__unnamed31__", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#d4/d68/unionmultiboot__info_8____unnamed31____", null ],
+    [ "multiboot_info.__unnamed31__.__unnamed33__", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#d9/d95/structmultiboot__info_8____unnamed31_____8____unnamed33____", [
       [ "framebuffer_palette_addr", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#ab4a160c025f0db5470ddced0d2c99de3", null ],
       [ "framebuffer_palette_num_colors", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a9ea6d9ae58149f37ee098ce870bf07f0", null ]
     ] ],
-    [ "multiboot_info.__unnamed33__.__unnamed37__", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#dd/ddb/structmultiboot__info_8____unnamed33_____8____unnamed37____", [
+    [ "multiboot_info.__unnamed31__.__unnamed35__", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#dd/d53/structmultiboot__info_8____unnamed31_____8____unnamed35____", [
       [ "framebuffer_blue_field_position", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#ace107d23f7f4af6fd8d969926c5c9d16", null ],
       [ "framebuffer_blue_mask_size", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#aa8eaba7a0a6cf04509a014ac4bc937c0", null ],
       [ "framebuffer_green_field_position", "dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#adfcdecf04630d77ee5e41006f47dc4d7", null ],

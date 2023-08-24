@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('da/deb/csinl_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad594fa6071ea5d383a0c7abaa0c32d80"><td class="memItemLeft" align="right" valign="top">long double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/csinl_8c.html#ad594fa6071ea5d383a0c7abaa0c32d80">csinl</a> (long double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
+<tr class="memitem:ad594fa6071ea5d383a0c7abaa0c32d80"><td class="memItemLeft" align="right" valign="top">long double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/deb/csinl_8c.html#ad594fa6071ea5d383a0c7abaa0c32d80">csinl</a> (long double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
 <tr class="separator:ad594fa6071ea5d383a0c7abaa0c32d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,9 +108,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">long double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> csinl </td>
+          <td class="memname">long double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> csinl </td>
           <td>(</td>
-          <td class="paramtype">long double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
+          <td class="paramtype">long double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
           <td class="paramname"><em>z</em></td><td>)</td>
           <td></td>
         </tr>
@@ -119,15 +119,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/deb/csinl_8c_source.html#l00009">9</a> of file <a class="el" href="../../da/deb/csinl_8c_source.html">csinl.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    z = <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a1006866659c37ebe0b539357f2b9f9b1">csinhl</a>(<a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a2f4e3ea8476e46e113680bc7eea6e66c">CMPLXL</a>(-<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a0b926dfbd5b46eb0238bc781570e2fa4">cimagl</a>(z), <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#adfe4d26e1d7adbddb6bc302a92230318">creall</a>(z)));</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a2f4e3ea8476e46e113680bc7eea6e66c">CMPLXL</a>(<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a0b926dfbd5b46eb0238bc781570e2fa4">cimagl</a>(z), -<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#adfe4d26e1d7adbddb6bc302a92230318">creall</a>(z));</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    z = <a class="code" href="../../d7/d3b/complex_8h.html#a1006866659c37ebe0b539357f2b9f9b1">csinhl</a>(<a class="code" href="../../dd/d6e/complex__impl_8h.html#a2f4e3ea8476e46e113680bc7eea6e66c">CMPLXL</a>(-<a class="code" href="../../d7/d3b/complex_8h.html#a0b926dfbd5b46eb0238bc781570e2fa4">cimagl</a>(z), <a class="code" href="../../d7/d3b/complex_8h.html#adfe4d26e1d7adbddb6bc302a92230318">creall</a>(z)));</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d6e/complex__impl_8h.html#a2f4e3ea8476e46e113680bc7eea6e66c">CMPLXL</a>(<a class="code" href="../../d7/d3b/complex_8h.html#a0b926dfbd5b46eb0238bc781570e2fa4">cimagl</a>(z), -<a class="code" href="../../d7/d3b/complex_8h.html#adfe4d26e1d7adbddb6bc302a92230318">creall</a>(z));</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2libm_8h_html_a2f4e3ea8476e46e113680bc7eea6e66c"><div class="ttname"><a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a2f4e3ea8476e46e113680bc7eea6e66c">CMPLXL</a></div><div class="ttdeci">#define CMPLXL(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00156">libm.h:156</a></div></div>
-<div class="ttc" id="amusl_2include_2complex_8h_html_a0b926dfbd5b46eb0238bc781570e2fa4"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a0b926dfbd5b46eb0238bc781570e2fa4">cimagl</a></div><div class="ttdeci">#define cimagl(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00114">complex.h:114</a></div></div>
-<div class="ttc" id="amusl_2include_2complex_8h_html_a1006866659c37ebe0b539357f2b9f9b1"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a1006866659c37ebe0b539357f2b9f9b1">csinhl</a></div><div class="ttdeci">long double complex csinhl(long double complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d46/csinhl_8c_source.html#l00004">csinhl.c:4</a></div></div>
-<div class="ttc" id="amusl_2include_2complex_8h_html_adfe4d26e1d7adbddb6bc302a92230318"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#adfe4d26e1d7adbddb6bc302a92230318">creall</a></div><div class="ttdeci">#define creall(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00110">complex.h:110</a></div></div>
+<div class="ttc" id="acomplex_8h_html_a0b926dfbd5b46eb0238bc781570e2fa4"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a0b926dfbd5b46eb0238bc781570e2fa4">cimagl</a></div><div class="ttdeci">#define cimagl(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00114">complex.h:114</a></div></div>
+<div class="ttc" id="acomplex_8h_html_a1006866659c37ebe0b539357f2b9f9b1"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a1006866659c37ebe0b539357f2b9f9b1">csinhl</a></div><div class="ttdeci">long double complex csinhl(long double complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d46/csinhl_8c_source.html#l00004">csinhl.c:4</a></div></div>
+<div class="ttc" id="acomplex_8h_html_adfe4d26e1d7adbddb6bc302a92230318"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#adfe4d26e1d7adbddb6bc302a92230318">creall</a></div><div class="ttdeci">#define creall(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00110">complex.h:110</a></div></div>
+<div class="ttc" id="acomplex__impl_8h_html_a2f4e3ea8476e46e113680bc7eea6e66c"><div class="ttname"><a href="../../dd/d6e/complex__impl_8h.html#a2f4e3ea8476e46e113680bc7eea6e66c">CMPLXL</a></div><div class="ttdeci">#define CMPLXL(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d6e/complex__impl_8h_source.html#l00017">complex_impl.h:17</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00114">cimagl</a>, <a class="el" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00156">CMPLXL</a>, <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00110">creall</a>, and <a class="el" href="../../d4/d46/csinhl_8c_source.html#l00004">csinhl()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d3b/complex_8h_source.html#l00114">cimagl</a>, <a class="el" href="../../dd/d6e/complex__impl_8h_source.html#l00017">CMPLXL</a>, <a class="el" href="../../d7/d3b/complex_8h_source.html#l00110">creall</a>, and <a class="el" href="../../d4/d46/csinhl_8c_source.html#l00004">csinhl()</a>.</p>
 
 </div>
 </div>

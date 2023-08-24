@@ -105,7 +105,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abb0ec1f467235bee75ee359400d817e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d25/setresgid_8c.html#abb0ec1f467235bee75ee359400d817e4">setresgid</a> (<a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a> <a class="el" href="../../d8/dd1/id_8c.html#af8975719a222d7b1d9c9bd740eee9530">rgid</a>, <a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a> <a class="el" href="../../d8/dd1/id_8c.html#aa51c114049e13d20ab39c82046b1f5fa">egid</a>, <a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a> sgid)</td></tr>
+<tr class="memitem:abb0ec1f467235bee75ee359400d817e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d25/setresgid_8c.html#abb0ec1f467235bee75ee359400d817e4">setresgid</a> (gid_t <a class="el" href="../../db/d04/bash_2examples_2loadables_2id_8c.html#af8975719a222d7b1d9c9bd740eee9530">rgid</a>, gid_t <a class="el" href="../../db/d04/bash_2examples_2loadables_2id_8c.html#aa51c114049e13d20ab39c82046b1f5fa">egid</a>, gid_t sgid)</td></tr>
 <tr class="separator:abb0ec1f467235bee75ee359400d817e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -133,21 +133,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> setresgid </td>
+          <td class="memname">int setresgid </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a>&#160;</td>
+          <td class="paramtype">gid_t&#160;</td>
           <td class="paramname"><em>rgid</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a>&#160;</td>
+          <td class="paramtype">gid_t&#160;</td>
           <td class="paramname"><em>egid</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a>&#160;</td>
+          <td class="paramtype">gid_t&#160;</td>
           <td class="paramname"><em>sgid</em>&#160;</td>
         </tr>
         <tr>
@@ -160,13 +160,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d25/setresgid_8c_source.html#l00006">6</a> of file <a class="el" href="../../db/d25/setresgid_8c_source.html">setresgid.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dc8/libc_8h.html#a57d106d4d5e5d53aa35aa75bf3efa8b8">__setxid</a>(SYS_setresgid, <a class="code" href="../../d8/dd1/id_8c.html#af8975719a222d7b1d9c9bd740eee9530">rgid</a>, <a class="code" href="../../d8/dd1/id_8c.html#aa51c114049e13d20ab39c82046b1f5fa">egid</a>, sgid);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dc8/libc_8h.html#a57d106d4d5e5d53aa35aa75bf3efa8b8">__setxid</a>(SYS_setresgid, <a class="code" href="../../db/d04/bash_2examples_2loadables_2id_8c.html#af8975719a222d7b1d9c9bd740eee9530">rgid</a>, <a class="code" href="../../db/d04/bash_2examples_2loadables_2id_8c.html#aa51c114049e13d20ab39c82046b1f5fa">egid</a>, sgid);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="aid_8c_html_aa51c114049e13d20ab39c82046b1f5fa"><div class="ttname"><a href="../../d8/dd1/id_8c.html#aa51c114049e13d20ab39c82046b1f5fa">egid</a></div><div class="ttdeci">static gid_t egid</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd1/id_8c_source.html#l00065">id.c:65</a></div></div>
-<div class="ttc" id="aid_8c_html_af8975719a222d7b1d9c9bd740eee9530"><div class="ttname"><a href="../../d8/dd1/id_8c.html#af8975719a222d7b1d9c9bd740eee9530">rgid</a></div><div class="ttdeci">static gid_t rgid</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd1/id_8c_source.html#l00065">id.c:65</a></div></div>
+<div class="ttc" id="abash_2examples_2loadables_2id_8c_html_aa51c114049e13d20ab39c82046b1f5fa"><div class="ttname"><a href="../../db/d04/bash_2examples_2loadables_2id_8c.html#aa51c114049e13d20ab39c82046b1f5fa">egid</a></div><div class="ttdeci">static gid_t egid</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d04/bash_2examples_2loadables_2id_8c_source.html#l00065">id.c:65</a></div></div>
+<div class="ttc" id="abash_2examples_2loadables_2id_8c_html_af8975719a222d7b1d9c9bd740eee9530"><div class="ttname"><a href="../../db/d04/bash_2examples_2loadables_2id_8c.html#af8975719a222d7b1d9c9bd740eee9530">rgid</a></div><div class="ttdeci">static gid_t rgid</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d04/bash_2examples_2loadables_2id_8c_source.html#l00065">id.c:65</a></div></div>
 <div class="ttc" id="alibc_8h_html_a57d106d4d5e5d53aa35aa75bf3efa8b8"><div class="ttname"><a href="../../db/dc8/libc_8h.html#a57d106d4d5e5d53aa35aa75bf3efa8b8">__setxid</a></div><div class="ttdeci">hidden int __setxid(int, int, int, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd6/setxid_8c_source.html#l00027">setxid.c:27</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/dd6/setxid_8c_source.html#l00027">__setxid()</a>, <a class="el" href="../../d8/dd1/id_8c_source.html#l00065">egid</a>, and <a class="el" href="../../d8/dd1/id_8c_source.html#l00065">rgid</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd6/setxid_8c_source.html#l00027">__setxid()</a>, <a class="el" href="../../db/d04/bash_2examples_2loadables_2id_8c_source.html#l00065">egid</a>, and <a class="el" href="../../db/d04/bash_2examples_2loadables_2id_8c_source.html#l00065">rgid</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d4f/shell_8c_source.html#l01339">disable_priv_mode()</a>.</p>
 
 </div>
 </div>

@@ -136,16 +136,16 @@ $(document).ready(function(){initNavTree('de/db9/musl_2arch_2riscv64_2bits_2sign
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#if defined(_GNU_SOURCE) || defined(_BSD_SOURCE)</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d5/d22/posix__signal_8h.html#a2e0c4a5cff308f4a2dd696e7765efec1">greg_t</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> greg_t;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> gregset_t[32];</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">typedef</span> <span class="keyword">union </span>__riscv_mc_fp_state <a class="code" href="../../d5/d22/posix__signal_8h.html#d4/d1d/struct__libc__fpstate">fpregset_t</a>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="keyword">typedef</span> <span class="keyword">union </span>__riscv_mc_fp_state fpregset_t;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keyword">struct </span>sigcontext {</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    gregset_t gregs;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../d5/d22/posix__signal_8h.html#d4/d1d/struct__libc__fpstate">fpregset_t</a> fpregs;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    fpregset_t fpregs;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">struct </span><a class="code" href="../../d5/dd4/posix__signal_8cpp.html#a1de473516b609718e256ee8a503c25fb">sigaltstack</a> {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="keyword">struct </span><a class="code" href="../../dc/d3d/sigaltstack_8c.html#a08eb84f187cc8f0a2861721838039bbc">sigaltstack</a> {</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> *ss_sp;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> ss_flags;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">size_t</span> ss_size;</div>
@@ -155,8 +155,8 @@ $(document).ready(function(){initNavTree('de/db9/musl_2arch_2riscv64_2bits_2sign
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> uc_flags;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">struct </span>__ucontext *uc_link;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#df/d4a/struct____stack">stack_t</a> uc_stack;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> uc_sigmask;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    stack_t uc_stack;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <a class="code" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> uc_sigmask;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    mcontext_t uc_mcontext;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;} ucontext_t;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
@@ -206,11 +206,8 @@ $(document).ready(function(){initNavTree('de/db9/musl_2arch_2riscv64_2bits_2sign
 <div class="line"><a name="l00115"></a><span class="lineno"><a class="line" href="../../de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a11e925ada5a97c7bbb6b88de8ed543b4">  115</a></span>&#160;<span class="preprocessor">#define SIGUNUSED SIGSYS</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160; </div>
 <div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="../../de/db9/musl_2arch_2riscv64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">  117</a></span>&#160;<span class="preprocessor">#define _NSIG     65</span></div>
-<div class="ttc" id="alibc_2include_2bits_2types_2sigset__t_8h_html_a9140a5882f847f67b8155c759ac6aa05"><div class="ttname"><a href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a></div><div class="ttdeci">unsigned long sigset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h_source.html#l00004">sigset_t.h:4</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h_html_df/d4a/struct____stack"><div class="ttname"><a href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#df/d4a/struct____stack">__stack</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d36/mlibc_2abis_2linux_2signal_8h_source.html#l00153">signal.h:153</a></div></div>
-<div class="ttc" id="aposix__signal_8cpp_html_a1de473516b609718e256ee8a503c25fb"><div class="ttname"><a href="../../d5/dd4/posix__signal_8cpp.html#a1de473516b609718e256ee8a503c25fb">sigaltstack</a></div><div class="ttdeci">int sigaltstack(const stack_t *__restrict ss, stack_t *__restrict oss)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd4/posix__signal_8cpp_source.html#l00106">posix_signal.cpp:106</a></div></div>
-<div class="ttc" id="aposix__signal_8h_html_a2e0c4a5cff308f4a2dd696e7765efec1"><div class="ttname"><a href="../../d5/d22/posix__signal_8h.html#a2e0c4a5cff308f4a2dd696e7765efec1">greg_t</a></div><div class="ttdeci">unsigned long int greg_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d22/posix__signal_8h_source.html#l00057">posix_signal.h:57</a></div></div>
-<div class="ttc" id="aposix__signal_8h_html_d4/d1d/struct__libc__fpstate"><div class="ttname"><a href="../../d5/d22/posix__signal_8h.html#d4/d1d/struct__libc__fpstate">_libc_fpstate</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d22/posix__signal_8h_source.html#l00040">posix_signal.h:40</a></div></div>
+<div class="ttc" id="asigaltstack_8c_html_a08eb84f187cc8f0a2861721838039bbc"><div class="ttname"><a href="../../dc/d3d/sigaltstack_8c.html#a08eb84f187cc8f0a2861721838039bbc">sigaltstack</a></div><div class="ttdeci">int sigaltstack(const stack_t *restrict ss, stack_t *restrict old)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/sigaltstack_8c_source.html#l00005">sigaltstack.c:5</a></div></div>
+<div class="ttc" id="asigset__t_8h_html_a9140a5882f847f67b8155c759ac6aa05"><div class="ttname"><a href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a></div><div class="ttdeci">unsigned long sigset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d90/sigset__t_8h_source.html#l00004">sigset_t.h:4</a></div></div>
 <div class="ttc" id="astdc_8h_html_a9d373a9b65ff25b2db84c07394e1c212"><div class="ttname"><a href="../../d9/de8/stdc_8h.html#a9d373a9b65ff25b2db84c07394e1c212">__attribute__</a></div><div class="ttdeci">#define __attribute__(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de8/stdc_8h_source.html#l00071">stdc.h:71</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

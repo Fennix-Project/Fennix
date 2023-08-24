@@ -25,12 +25,20 @@ var command_8h =
       [ "redirect", "d0/d09/command_8h.html#ad3f13da7e9bdbe54746af382c8b6d9e5", null ],
       [ "word", "d0/d09/command_8h.html#a74c8c3c3cf92b8287e450fab71ed2074", null ]
     ] ],
-    [ "command", "d0/d09/command_8h.html#dc/d76/structcommand", [
-      [ "flags", "d0/d09/command_8h.html#aa901bebf4c7f683f6934e69ad95f2b11", null ],
-      [ "line", "d0/d09/command_8h.html#a35171ddf374dcfc97662a6b3965d2ad0", null ],
-      [ "redirects", "d0/d09/command_8h.html#a5b5efa4854e0319791e28028712fee9a", null ],
-      [ "type", "d0/d09/command_8h.html#adc520136f05efbf94b38913f7d8b1f31", null ],
-      [ "value", "d0/d09/command_8h.html#aa629a40a7a5315e7fa4e0087cc5c6da8", null ]
+    [ "command", "d6/d90/hush_8c.html#dc/d76/structcommand", [
+      [ "argv", "d6/d90/hush_8c.html#a03bac117621dd0961bafddbc41b10a9d", null ],
+      [ "assignment_cnt", "d6/d90/hush_8c.html#a60c41d12628a26411edc3d7996f6c0ed", null ],
+      [ "cmd_exitcode", "d6/d90/hush_8c.html#ad981bfc6c2f31671a415ae389fd4c69f", null ],
+      [ "cmd_type", "d6/d90/hush_8c.html#ae4169290da5010a3acb7e2a06054a348", null ],
+      [ "flags", "d6/d90/hush_8c.html#aa901bebf4c7f683f6934e69ad95f2b11", null ],
+      [ "group", "d6/d90/hush_8c.html#a58ecc8542a1ba9e81a008e8925cf3a9b", null ],
+      [ "group_as_string", "d6/d90/hush_8c.html#a6ba88d4d672b6786a017698b31176d44", null ],
+      [ "line", "d6/d90/hush_8c.html#a35171ddf374dcfc97662a6b3965d2ad0", null ],
+      [ "pid", "d6/d90/hush_8c.html#a2b3ed623e7b9307c5aeb1a1946cba773", null ],
+      [ "redirects", "d6/d90/hush_8c.html#a5b5efa4854e0319791e28028712fee9a", null ],
+      [ "redirects", "d6/d90/hush_8c.html#a8fa92cf7b7a60ee7e508e65fccb7688a", null ],
+      [ "type", "d6/d90/hush_8c.html#adc520136f05efbf94b38913f7d8b1f31", null ],
+      [ "value", "d6/d90/hush_8c.html#a5a5d523f7ef018f9ac2d7e4f792bba88", null ]
     ] ],
     [ "connection", "d0/d09/command_8h.html#d2/da7/structconnection", [
       [ "connector", "d0/d09/command_8h.html#a07879bb1744b9d358c5042cd08ef8570", null ],

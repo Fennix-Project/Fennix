@@ -122,26 +122,27 @@ $(document).ready(function(){initNavTree('d2/dce/apps_2base_2bash_2lib_2sh_2strp
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="comment">/* Find the first occurrence in S of any character in ACCEPT.  */</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">char</span> *</div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d2/dce/apps_2base_2bash_2lib_2sh_2strpbrk_8c.html#a119f23a5dcb4eb5f1c1eed3cbf5cb0ed">   34</a></span>&#160;<a class="code" href="../../d2/dce/apps_2base_2bash_2lib_2sh_2strpbrk_8c.html#a119f23a5dcb4eb5f1c1eed3cbf5cb0ed">strpbrk</a> (s, <a class="code" href="../../d2/d85/sys-socket-stubs_8cpp.html#aae6ad9722948b7f52bf619a2da047113">accept</a>)</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;     <span class="keyword">register</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *s;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;     <span class="keyword">register</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="../../d2/d85/sys-socket-stubs_8cpp.html#aae6ad9722948b7f52bf619a2da047113">accept</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d2/dce/apps_2base_2bash_2lib_2sh_2strpbrk_8c.html#a119f23a5dcb4eb5f1c1eed3cbf5cb0ed">   34</a></span>&#160;<a class="code" href="../../d2/dce/apps_2base_2bash_2lib_2sh_2strpbrk_8c.html#a119f23a5dcb4eb5f1c1eed3cbf5cb0ed">strpbrk</a> (<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="code" href="../../d4/d92/include_2sys_2socket_8h.html#a5dfc9aaf6b1be017b7c0647570a5f2a9">accept</a>)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;     <span class="keyword">register</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;     <span class="keyword">register</span> <span class="keyword">const</span> <span class="keywordtype">char</span> *<a class="code" href="../../d4/d92/include_2sys_2socket_8h.html#a5dfc9aaf6b1be017b7c0647570a5f2a9">accept</a>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordflow">while</span> (*s != <span class="charliteral">&#39;\0&#39;</span>)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;  <span class="keywordflow">while</span> (*<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a> != <span class="charliteral">&#39;\0&#39;</span>)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">char</span> *a = <a class="code" href="../../d2/d85/sys-socket-stubs_8cpp.html#aae6ad9722948b7f52bf619a2da047113">accept</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      <span class="keyword">const</span> <span class="keywordtype">char</span> *a = <a class="code" href="../../d4/d92/include_2sys_2socket_8h.html#a5dfc9aaf6b1be017b7c0647570a5f2a9">accept</a>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;      <span class="keywordflow">while</span> (*a != <span class="charliteral">&#39;\0&#39;</span>)</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> (*a++ == *s)</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      <span class="keywordflow">return</span> (<span class="keywordtype">char</span> *) s;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      ++s;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> (*a++ == *<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;      <span class="keywordflow">return</span> (<span class="keywordtype">char</span> *) <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;      ++<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aapps_2base_2bash_2lib_2sh_2strpbrk_8c_html_a119f23a5dcb4eb5f1c1eed3cbf5cb0ed"><div class="ttname"><a href="../../d2/dce/apps_2base_2bash_2lib_2sh_2strpbrk_8c.html#a119f23a5dcb4eb5f1c1eed3cbf5cb0ed">strpbrk</a></div><div class="ttdeci">char * strpbrk(const char *s, const char *accept)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dce/apps_2base_2bash_2lib_2sh_2strpbrk_8c_source.html#l00034">strpbrk.c:34</a></div></div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="aconfig_8h_html"><div class="ttname"><a href="../../db/d16/config_8h.html">config.h</a></div></div>
+<div class="ttc" id="ainclude_2sys_2socket_8h_html_a5dfc9aaf6b1be017b7c0647570a5f2a9"><div class="ttname"><a href="../../d4/d92/include_2sys_2socket_8h.html#a5dfc9aaf6b1be017b7c0647570a5f2a9">accept</a></div><div class="ttdeci">int accept(int, struct sockaddr *__restrict, socklen_t *__restrict)</div></div>
 <div class="ttc" id="astdc_8h_html"><div class="ttname"><a href="../../d9/de8/stdc_8h.html">stdc.h</a></div></div>
-<div class="ttc" id="asys-socket-stubs_8cpp_html_aae6ad9722948b7f52bf619a2da047113"><div class="ttname"><a href="../../d2/d85/sys-socket-stubs_8cpp.html#aae6ad9722948b7f52bf619a2da047113">accept</a></div><div class="ttdeci">int accept(int fd, struct sockaddr *__restrict addr_ptr, socklen_t *__restrict addr_length)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d85/sys-socket-stubs_8cpp_source.html#l00010">sys-socket-stubs.cpp:10</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

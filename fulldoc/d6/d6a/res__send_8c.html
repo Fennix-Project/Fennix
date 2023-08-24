@@ -98,9 +98,9 @@ $(document).ready(function(){initNavTree('d6/d6a/res__send_8c.html','../../'); i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7e496046f772fbd668c7bfc85269749a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6a/res__send_8c.html#a7e496046f772fbd668c7bfc85269749a">__res_send</a> (const unsigned char *msg, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> msglen, unsigned char *answer, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> anslen)</td></tr>
+<tr class="memitem:a7e496046f772fbd668c7bfc85269749a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6a/res__send_8c.html#a7e496046f772fbd668c7bfc85269749a">__res_send</a> (const unsigned char *msg, int msglen, unsigned char *answer, int anslen)</td></tr>
 <tr class="separator:a7e496046f772fbd668c7bfc85269749a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46761cff25d4b64b832ca6d2a8da59b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6a/res__send_8c.html#a46761cff25d4b64b832ca6d2a8da59b5">weak_alias</a> (<a class="el" href="../../d6/d6a/res__send_8c.html#a7e496046f772fbd668c7bfc85269749a">__res_send</a>, <a class="el" href="../../db/d80/musl_2include_2resolv_8h.html#a40db41a1512ae301ed0c1b413e8788f7">res_send</a>)</td></tr>
+<tr class="memitem:a46761cff25d4b64b832ca6d2a8da59b5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d6a/res__send_8c.html#a46761cff25d4b64b832ca6d2a8da59b5">weak_alias</a> (<a class="el" href="../../d6/d6a/res__send_8c.html#a7e496046f772fbd668c7bfc85269749a">__res_send</a>, <a class="el" href="../../d9/d70/include_2resolv_8h.html#a40db41a1512ae301ed0c1b413e8788f7">res_send</a>)</td></tr>
 <tr class="separator:a46761cff25d4b64b832ca6d2a8da59b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,7 +111,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> __res_send </td>
+          <td class="memname">int __res_send </td>
           <td>(</td>
           <td class="paramtype">const unsigned char *&#160;</td>
           <td class="paramname"><em>msg</em>, </td>
@@ -119,7 +119,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>msglen</em>, </td>
         </tr>
         <tr>
@@ -131,7 +131,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>anslen</em>&#160;</td>
         </tr>
         <tr>
@@ -144,25 +144,24 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d6a/res__send_8c_source.html#l00004">4</a> of file <a class="el" href="../../d6/d6a/res__send_8c_source.html">res_send.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> r;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (anslen &lt; 512) {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>[512];</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d6/d6a/res__send_8c.html#a7e496046f772fbd668c7bfc85269749a">__res_send</a>(msg, msglen, <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <span class="keyword">sizeof</span> <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> &gt;= 0) <a class="code" href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a>(answer, <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> &lt; anslen ? <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> : anslen);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[512];</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        r = <a class="code" href="../../d6/d6a/res__send_8c.html#a7e496046f772fbd668c7bfc85269749a">__res_send</a>(msg, msglen, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <span class="keyword">sizeof</span> <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">if</span> (r &gt;= 0) <a class="code" href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a>(answer, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, r &lt; anslen ? r : anslen);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">return</span> r;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d8/d0c/musl_2src_2include_2resolv_8h.html#a567a93a59c3fc6faf4777dd554fb0efa">__res_msend</a>(1, &amp;msg, &amp;msglen, &amp;answer, &amp;anslen, anslen);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>&lt;0 || !anslen ? -1 : anslen;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    r = <a class="code" href="../../d3/d54/src_2include_2resolv_8h.html#a567a93a59c3fc6faf4777dd554fb0efa">__res_msend</a>(1, &amp;msg, &amp;msglen, &amp;answer, &amp;anslen, anslen);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">return</span> r&lt;0 || !anslen ? -1 : anslen;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
+<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
 <div class="ttc" id="aconvert_8h_html_a309e07aa23e76adc2ad0830978663c45"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a></div><div class="ttdeci">#define memcpy(dest, src, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00116">convert.h:116</a></div></div>
-<div class="ttc" id="amlibc_2tests_2ansi_2longjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
-<div class="ttc" id="amusl_2src_2include_2resolv_8h_html_a567a93a59c3fc6faf4777dd554fb0efa"><div class="ttname"><a href="../../d8/d0c/musl_2src_2include_2resolv_8h.html#a567a93a59c3fc6faf4777dd554fb0efa">__res_msend</a></div><div class="ttdeci">hidden int __res_msend(int, const unsigned char *const *, const int *, unsigned char *const *, int *, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d89/res__msend_8c_source.html#l00319">res_msend.c:319</a></div></div>
 <div class="ttc" id="ares__send_8c_html_a7e496046f772fbd668c7bfc85269749a"><div class="ttname"><a href="../../d6/d6a/res__send_8c.html#a7e496046f772fbd668c7bfc85269749a">__res_send</a></div><div class="ttdeci">int __res_send(const unsigned char *msg, int msglen, unsigned char *answer, int anslen)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6a/res__send_8c_source.html#l00004">res_send.c:4</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
+<div class="ttc" id="asrc_2include_2resolv_8h_html_a567a93a59c3fc6faf4777dd554fb0efa"><div class="ttname"><a href="../../d3/d54/src_2include_2resolv_8h.html#a567a93a59c3fc6faf4777dd554fb0efa">__res_msend</a></div><div class="ttdeci">hidden int __res_msend(int, const unsigned char *const *, const int *, unsigned char *const *, int *, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d89/res__msend_8c_source.html#l00319">res_msend.c:319</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d89/res__msend_8c_source.html#l00319">__res_msend()</a>, <a class="el" href="../../d6/d6a/res__send_8c_source.html#l00004">__res_send()</a>, <a class="el" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00116">memcpy</a>, and <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d89/res__msend_8c_source.html#l00319">__res_msend()</a>, <a class="el" href="../../d6/d6a/res__send_8c_source.html#l00004">__res_send()</a>, <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, and <a class="el" href="../../d3/d82/convert_8h_source.html#l00116">memcpy</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d6a/res__send_8c_source.html#l00004">__res_send()</a>, <a class="el" href="../../d9/d5a/musl_2src_2network_2getnameinfo_8c_source.html#l00122">getnameinfo()</a>, and <a class="el" href="../../d9/d50/res__query_8c_source.html#l00005">res_query()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d6a/res__send_8c_source.html#l00004">__res_send()</a>, <a class="el" href="../../d5/d22/getnameinfo_8c_source.html#l00122">getnameinfo()</a>, and <a class="el" href="../../d9/d50/res__query_8c_source.html#l00005">res_query()</a>.</p>
 
 </div>
 </div>
@@ -181,7 +180,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d80/musl_2include_2resolv_8h.html#a40db41a1512ae301ed0c1b413e8788f7">res_send</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d70/include_2resolv_8h.html#a40db41a1512ae301ed0c1b413e8788f7">res_send</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

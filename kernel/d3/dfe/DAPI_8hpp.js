@@ -2,8 +2,8 @@ var DAPI_8hpp =
 [
     [ "KernelAPI", "d3/dfe/DAPI_8hpp.html#d7/d61/structKernelAPI", [
       [ "KAPIDisplay", "de/d72/structKernelAPI_1_1KAPIDisplay.html", [
-        [ "GetHeight", "de/d72/structKernelAPI_1_1KAPIDisplay.html#a12c2c9786b6e66d5dea9bb29394eb00b", null ],
-        [ "GetWidth", "de/d72/structKernelAPI_1_1KAPIDisplay.html#a13d10e1482410389ba615b12e51b5fab", null ]
+        [ "GetHeight", "de/d72/structKernelAPI_1_1KAPIDisplay.html#a12b843780169949536d54c102bda3f15", null ],
+        [ "GetWidth", "de/d72/structKernelAPI_1_1KAPIDisplay.html#a4448aa904380d6ba8475ea535e61c5a0", null ]
       ] ],
       [ "KAPIDriverTalk", "d3/dfe/DAPI_8hpp.html#d1/d92/structKernelAPI_1_1KAPIDriverTalk", [
         [ "Disk", "d3/dfe/DAPI_8hpp.html#a31e92250ecffae7a06319a6ec071cdef", null ],
@@ -13,34 +13,34 @@ var DAPI_8hpp =
         [ "AHCI", "d3/dfe/DAPI_8hpp.html#a4957524a53f6c6e4eaf8e504a652b6db", null ]
       ] ],
       [ "KAPIDriverTalk.Disk.AHCI", "de/d58/structKernelAPI_1_1KAPIDriverTalk_8Disk_8AHCI.html", [
-        [ "ReadSector", "de/d58/structKernelAPI_1_1KAPIDriverTalk_8Disk_8AHCI.html#a4c0d39eaf260a5e3bc8055877c0011e0", null ],
-        [ "WriteSector", "de/d58/structKernelAPI_1_1KAPIDriverTalk_8Disk_8AHCI.html#ac91ff983fdc6393cd852b00f58f7f250", null ]
+        [ "ReadSector", "de/d58/structKernelAPI_1_1KAPIDriverTalk_8Disk_8AHCI.html#a2823bb5c4169cf65382757de760012fc", null ],
+        [ "WriteSector", "de/d58/structKernelAPI_1_1KAPIDriverTalk_8Disk_8AHCI.html#a58a939a47166ba47eb352038d66019dd", null ]
       ] ],
       [ "KAPIDriverTalk.Network", "d3/d6f/structKernelAPI_1_1KAPIDriverTalk_8Network.html", [
-        [ "ReceivePacket", "d3/d6f/structKernelAPI_1_1KAPIDriverTalk_8Network.html#a1755282266e75539d2b216c8d1eee405", null ],
-        [ "SendPacket", "d3/d6f/structKernelAPI_1_1KAPIDriverTalk_8Network.html#ae01b714faeb8d4a8e1d469a5933b1c4c", null ]
+        [ "ReceivePacket", "d3/d6f/structKernelAPI_1_1KAPIDriverTalk_8Network.html#a4b5ab868f93ad603e2a7d082544e3d58", null ],
+        [ "SendPacket", "d3/d6f/structKernelAPI_1_1KAPIDriverTalk_8Network.html#a94404d396dc14326facb774ebf84da36", null ]
       ] ],
       [ "KAPIInfo", "d3/dfe/DAPI_8hpp.html#d6/d53/structKernelAPI_1_1KAPIInfo", [
-        [ "DriverUID", "d3/dfe/DAPI_8hpp.html#adf23e50b5b807d1be81ed2edee348f69", null ],
+        [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a5c4a6d436b1ca7964a897547e853f62d", null ],
         [ "KernelDebug", "d3/dfe/DAPI_8hpp.html#a3e64a531a111e979cc5c8e9b63cf7059", null ],
-        [ "Offset", "d3/dfe/DAPI_8hpp.html#a8a7ff5307b67f86c5c1da8614b35bce0", null ]
+        [ "Offset", "d3/dfe/DAPI_8hpp.html#a45bea5f539972f9441ac42c5ae867465", null ]
       ] ],
       [ "KAPIMemory", "d0/d46/structKernelAPI_1_1KAPIMemory.html", [
-        [ "FreePage", "d0/d46/structKernelAPI_1_1KAPIMemory.html#a0d960d4bf479b40906ede57778210bac", null ],
-        [ "Map", "d0/d46/structKernelAPI_1_1KAPIMemory.html#a0c3c5f6613f5eb380c67fc1174a973a2", null ],
-        [ "PageSize", "d0/d46/structKernelAPI_1_1KAPIMemory.html#ab057f9a73afe056179b696c0abbe4ac1", null ],
-        [ "RequestPage", "d0/d46/structKernelAPI_1_1KAPIMemory.html#a9cc3468252498cfe3aa5187f1b9b5151", null ],
+        [ "FreePage", "d0/d46/structKernelAPI_1_1KAPIMemory.html#abc747cff887fea878e38401ccd3b221e", null ],
+        [ "Map", "d0/d46/structKernelAPI_1_1KAPIMemory.html#a82c64da5906dc1e9b5637df211eba6fa", null ],
+        [ "PageSize", "d0/d46/structKernelAPI_1_1KAPIMemory.html#a3f3dff5bb378e3e38cd73f86d408a69e", null ],
+        [ "RequestPage", "d0/d46/structKernelAPI_1_1KAPIMemory.html#a2f7b4592dfedfe69ed222d3cb083abb4", null ],
         [ "Unmap", "d0/d46/structKernelAPI_1_1KAPIMemory.html#a1f98ea15d1fee92e1e1fffdc8a94e583", null ]
       ] ],
       [ "KAPIPCI", "d8/d2e/structKernelAPI_1_1KAPIPCI.html", [
-        [ "GetDeviceName", "d8/d2e/structKernelAPI_1_1KAPIPCI.html#aa225808c27a0a529c98c5f2ccbc117b5", null ]
+        [ "GetDeviceName", "d8/d2e/structKernelAPI_1_1KAPIPCI.html#a632efd6439c3ccfeca4d89d0c1c3126a", null ]
       ] ],
       [ "KAPIUtilities", "d5/de3/structKernelAPI_1_1KAPIUtilities.html", [
-        [ "DebugPrint", "d5/de3/structKernelAPI_1_1KAPIUtilities.html#a89514307a985da670fae2eb5b704c654", null ],
+        [ "DebugPrint", "d5/de3/structKernelAPI_1_1KAPIUtilities.html#ac7a83206f8541aba2a09fa33dc7eb162", null ],
         [ "DisplayPrint", "d5/de3/structKernelAPI_1_1KAPIUtilities.html#aedbdf6a64020c125831d6e799f209488", null ],
-        [ "memcpy", "d5/de3/structKernelAPI_1_1KAPIUtilities.html#a936f2019956c010c3125f9714bb854c4", null ],
-        [ "memset", "d5/de3/structKernelAPI_1_1KAPIUtilities.html#a786104aac548efdd75eb225fc20124e4", null ],
-        [ "Sleep", "d5/de3/structKernelAPI_1_1KAPIUtilities.html#a3f3510c1e49322e9771ca1c6487cb029", null ],
+        [ "memcpy", "d5/de3/structKernelAPI_1_1KAPIUtilities.html#ac6e5ee15a1af632f63533de31da87d35", null ],
+        [ "memset", "d5/de3/structKernelAPI_1_1KAPIUtilities.html#a8bb40119960d0a36365becaeb5080456", null ],
+        [ "Sleep", "d5/de3/structKernelAPI_1_1KAPIUtilities.html#a287084e664be004f69c0221be3930f43", null ],
         [ "sprintf", "d5/de3/structKernelAPI_1_1KAPIUtilities.html#a2f220f805307c1dcf9baef2ea8dd3033", null ]
       ] ],
       [ "KAPIVersion", "d3/dfe/DAPI_8hpp.html#de/d91/structKernelAPI_1_1KAPIVersion", [
@@ -62,9 +62,9 @@ var DAPI_8hpp =
       [ "Patch", "d3/dfe/DAPI_8hpp.html#a6b23a9be4567fb79d60abf21b06a1f24", null ]
     ] ],
     [ "KAPIInfo", "d3/dfe/DAPI_8hpp.html#d6/d53/structKernelAPI_1_1KAPIInfo", [
-      [ "DriverUID", "d3/dfe/DAPI_8hpp.html#adf23e50b5b807d1be81ed2edee348f69", null ],
+      [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a5c4a6d436b1ca7964a897547e853f62d", null ],
       [ "KernelDebug", "d3/dfe/DAPI_8hpp.html#a3e64a531a111e979cc5c8e9b63cf7059", null ],
-      [ "Offset", "d3/dfe/DAPI_8hpp.html#a8a7ff5307b67f86c5c1da8614b35bce0", null ]
+      [ "Offset", "d3/dfe/DAPI_8hpp.html#a45bea5f539972f9441ac42c5ae867465", null ]
     ] ],
     [ "KAPIMemory", "d0/d46/structKernelAPI_1_1KAPIMemory.html", "d0/d46/structKernelAPI_1_1KAPIMemory" ],
     [ "KAPIPCI", "d8/d2e/structKernelAPI_1_1KAPIPCI.html", "d8/d2e/structKernelAPI_1_1KAPIPCI" ],
@@ -80,9 +80,9 @@ var DAPI_8hpp =
       [ "Patch", "d3/dfe/DAPI_8hpp.html#acee12c0a0608a6733d222542dbe7bbd7", null ]
     ] ],
     [ "KAPIInfo", "d3/dfe/DAPI_8hpp.html#d7/d94/structKAPIInfo", [
-      [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a0f140dbc6bb1ee899fa4c712a2204d4c", null ],
+      [ "DriverUID", "d3/dfe/DAPI_8hpp.html#a362d5a1b755e06038fcb3811991a78cb", null ],
       [ "KernelDebug", "d3/dfe/DAPI_8hpp.html#a6999cb54d917282abaf3615d0d33cee3", null ],
-      [ "Offset", "d3/dfe/DAPI_8hpp.html#a20c1aa265357b80022945e74c26a0a86", null ]
+      [ "Offset", "d3/dfe/DAPI_8hpp.html#aae73df80f23c8c765413bfa406e0768c", null ]
     ] ],
     [ "KAPIMemory", "df/d33/structKAPIMemory.html", "df/d33/structKAPIMemory" ],
     [ "KAPIPCI", "de/d5d/structKAPIPCI.html", "de/d5d/structKAPIPCI" ],
@@ -93,10 +93,10 @@ var DAPI_8hpp =
     ] ],
     [ "KAPIDisplay", "d0/daf/structKAPIDisplay.html", "d0/daf/structKAPIDisplay" ],
     [ "KernelCallback", "d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback", [
-      [ "raw", "d3/dfe/DAPI_8hpp.html#ac8cebaa314870bb2350b53f7febe9f8e", null ]
+      [ "raw", "d3/dfe/DAPI_8hpp.html#a270705b616769bb6c21901dca4752007", null ]
     ] ],
     [ "CPURegisters", "d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters", [
-      [ "raw", "d3/dfe/DAPI_8hpp.html#a560ad88a29d199a9ab7c7461acb0f47f", null ]
+      [ "raw", "d3/dfe/DAPI_8hpp.html#a06cde0183c308b91dd2f12e886959e41", null ]
     ] ],
     [ "KAPIDriverTalk.Network", "d3/d6f/structKernelAPI_1_1KAPIDriverTalk_8Network.html", "d3/d6f/structKernelAPI_1_1KAPIDriverTalk_8Network" ],
     [ "KAPIDriverTalk.Disk", "d3/dfe/DAPI_8hpp.html#df/d2e/structKernelAPI_1_1KAPIDriverTalk_8Disk", [
@@ -310,7 +310,7 @@ var DAPI_8hpp =
     [ "Info", "d3/dfe/DAPI_8hpp.html#af38d995e497b6690f5b942df9a9f272d", null ],
     [ "Memory", "d3/dfe/DAPI_8hpp.html#a60f1dbaaf5ff071fb1ec94ea77c2d887", null ],
     [ "PCI", "d3/dfe/DAPI_8hpp.html#aba2f81613922672c077977ad68efc38d", null ],
-    [ "raw", "d3/dfe/DAPI_8hpp.html#a4defb80d97731e426d12573c84767d0d", null ],
+    [ "raw", "d3/dfe/DAPI_8hpp.html#a8b94bc635bb19accceee537ad7f058de", null ],
     [ "Util", "d3/dfe/DAPI_8hpp.html#a161cd2782bcfb14dca65d044bcddd8a9", null ],
     [ "Version", "d3/dfe/DAPI_8hpp.html#a85836edbd43c944d6deae284231ed228", null ]
 ];

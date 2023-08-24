@@ -1695,7 +1695,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d4/d21/info_8h_source.html#l01144">1144</a> of file <a class="el" href="../../d4/d21/info_8h_source.html">info.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dcc/decompress__gunzip_8c_source.html#l00070">70</a> of file <a class="el" href="../../d6/dcc/decompress__gunzip_8c_source.html">decompress_gunzip.c</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -1705,21 +1705,207 @@ action</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab3f294b6c003e440b1bcbd23f021f347"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="aaaf4b861b5c301aeeafb815dbad6b6f1"></a>unsigned char *</td>
+<td class="fieldname">
+bytebuffer</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a5b39a4153af225ec8bc9592eeb236678"></a>unsigned</td>
+<td class="fieldname">
+bytebuffer_offset</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a1c70dec10e33f840db42fcff568d1143"></a>unsigned</td>
+<td class="fieldname">
+bytebuffer_size</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa734cf43d5a84edbec3f0ad5bb4b50f1"></a><a class="el" href="../../de/d03/platform_8h.html#ad05b39cab98c2ea86551b631e839efbf">smallint</a></td>
+<td class="fieldname">
+end_reached</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a9bd58fe5813cb630f702af9af3fa2edb"></a><a class="el" href="../../db/d5e/libc_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a></td>
+<td class="fieldname">
+error_jmp</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa7e12116bef7b7422c1731d06c75911a"></a>const char *</td>
+<td class="fieldname">
+error_msg</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab3f294b6c003e440b1bcbd23f021f347"></a>int</td>
 <td class="fieldname">
 frame</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab284cdc4759f856a06a436c200b25d6b"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="af48484a89de232f230749d438e87d1c9"></a>unsigned</td>
+<td class="fieldname">
+gunzip_bb</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a5b00ff70cc45668c785c4834f17e4684"></a>unsigned char</td>
+<td class="fieldname">
+gunzip_bk</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a8eb514a02366f1dff469aa3406636b94"></a><a class="el" href="../../dc/dc1/libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a></td>
+<td class="fieldname">
+gunzip_bytes_out</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="abce8206aa45692745a0fe338a4a59704"></a><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a></td>
+<td class="fieldname">
+gunzip_crc</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa32555a5960580b6b02ed674d140f8d0"></a><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a> *</td>
+<td class="fieldname">
+gunzip_crc_table</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a27311c34edd17ea13055aa79828cfe66"></a>unsigned</td>
+<td class="fieldname">
+gunzip_outbuf_count</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4960b120668b175aad75c9eb907c8706"></a>int</td>
+<td class="fieldname">
+gunzip_src_fd</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a2991ff6e9fcc0405d1a1a195bd9dd507"></a>unsigned char *</td>
+<td class="fieldname">
+gunzip_window</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a93d80dcd6d75f37b8ca34022d6882398"></a>unsigned</td>
+<td class="fieldname">
+inflate_codes_bb</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a74cdd851537d7952b4e62c59db3cd7e4"></a>unsigned</td>
+<td class="fieldname">
+inflate_codes_bd</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a29badd1b20bcbc7f6abc80a75161348e"></a>unsigned</td>
+<td class="fieldname">
+inflate_codes_bl</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a3b1b0a9bad521241de3ee25da2bb3dff"></a>unsigned</td>
+<td class="fieldname">
+inflate_codes_dd</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a46230a3f706b1124785fd7ed35a117f5"></a>unsigned</td>
+<td class="fieldname">
+inflate_codes_k</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="afc6fd7fdf1a6f5a6be1617a618b476c5"></a>unsigned</td>
+<td class="fieldname">
+inflate_codes_md</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a226ce465bb157504f19a483624a4835b"></a>unsigned</td>
+<td class="fieldname">
+inflate_codes_ml</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a156ea4c7af23b51922075306ed141e63"></a>unsigned</td>
+<td class="fieldname">
+inflate_codes_nn</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aa5ebf00f20fae2b63528369867a17e4e"></a><a class="el" href="../../d6/dcc/decompress__gunzip_8c.html#db/ddd/structhuft__t">huft_t</a> *</td>
+<td class="fieldname">
+inflate_codes_td</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a94572446d1a339fd72dbbc8d5b8f815a"></a><a class="el" href="../../d6/dcc/decompress__gunzip_8c.html#db/ddd/structhuft__t">huft_t</a> *</td>
+<td class="fieldname">
+inflate_codes_tl</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a46f259093f0aaf14bd31c98d4e212ff8"></a>unsigned</td>
+<td class="fieldname">
+inflate_codes_w</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a74b1f04f195b2928adaf9f96c156c8a4"></a>unsigned</td>
+<td class="fieldname">
+inflate_stored_b</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a2ae3ca5701a5798ce601e2f72650ac19"></a>unsigned</td>
+<td class="fieldname">
+inflate_stored_k</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a4bb5cf2d990204646e9276bda0a58335"></a>unsigned</td>
+<td class="fieldname">
+inflate_stored_n</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a9eafc79cfe46bd5e7637f6fc248c0143"></a>unsigned</td>
+<td class="fieldname">
+inflate_stored_w</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="a8bba2d4486affcb7a68e1072df14e591"></a><a class="el" href="../../de/d03/platform_8h.html#ad05b39cab98c2ea86551b631e839efbf">smallint</a></td>
+<td class="fieldname">
+method</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ab284cdc4759f856a06a436c200b25d6b"></a>int</td>
 <td class="fieldname">
 misc1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af02803f8e77baec03280b1f21ee0d62d"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="af02803f8e77baec03280b1f21ee0d62d"></a>int</td>
 <td class="fieldname">
 misc2</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="aed8b87280402b530cd1789d658e6f7df"></a><a class="el" href="../../de/d03/platform_8h.html#ad05b39cab98c2ea86551b631e839efbf">smallint</a></td>
+<td class="fieldname">
+need_another_block</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -1729,15 +1915,27 @@ nextstate</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
+<a id="a11d9ecb9a0766c5d407d373f63cc4958"></a><a class="el" href="../../de/d03/platform_8h.html#ad05b39cab98c2ea86551b631e839efbf">smallint</a></td>
+<td class="fieldname">
+resume_copy</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
 <a id="aa8a0af2d12b430d2ebf7ae9ce39b9f87"></a><a class="el" href="../../d4/d21/info_8h.html#a059c98f3565f26d03c8b4932d25458e4">spritenum_t</a></td>
 <td class="fieldname">
 sprite</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a0f4cb046e6fd68241324681ce027ee55"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a0f4cb046e6fd68241324681ce027ee55"></a>int</td>
 <td class="fieldname">
 tics</td>
+<td class="fielddoc">
+</td></tr>
+<tr><td class="fieldtype">
+<a id="ac29b243e37b71d7f89f257d32de71c64"></a><a class="el" href="../../dc/dc1/libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a></td>
+<td class="fieldname">
+to_read</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -1760,139 +1958,139 @@ tics</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a2c3edfb8718b4ed89d40f4e0979e8256"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a2c3edfb8718b4ed89d40f4e0979e8256"></a>int</td>
 <td class="fieldname">
 activesound</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="adc01648fda89d0d751a8ef8de146c8d8"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="adc01648fda89d0d751a8ef8de146c8d8"></a>int</td>
 <td class="fieldname">
 attacksound</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a315960dc8b206d4e9ba9cc00fc7d5634"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a315960dc8b206d4e9ba9cc00fc7d5634"></a>int</td>
 <td class="fieldname">
 damage</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a87fd8f531642c0fb5ca9f23fc9948731"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a87fd8f531642c0fb5ca9f23fc9948731"></a>int</td>
 <td class="fieldname">
 deathsound</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aac6587dd4872b45f7c5dfea10a485286"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="aac6587dd4872b45f7c5dfea10a485286"></a>int</td>
 <td class="fieldname">
 deathstate</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a2448cd792f8574c009c10032d073cee2"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a2448cd792f8574c009c10032d073cee2"></a>int</td>
 <td class="fieldname">
 doomednum</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae33cc3b2585136b5297b0e625be03d9a"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="ae33cc3b2585136b5297b0e625be03d9a"></a>int</td>
 <td class="fieldname">
 flags</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a05aaeb8f511c2dbdae2bb94ef117185a"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a05aaeb8f511c2dbdae2bb94ef117185a"></a>int</td>
 <td class="fieldname">
 height</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aff70cbda544959bde82571ce63c33efb"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="aff70cbda544959bde82571ce63c33efb"></a>int</td>
 <td class="fieldname">
 mass</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a002a8efe9f6737bbaf81e52d20945f52"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a002a8efe9f6737bbaf81e52d20945f52"></a>int</td>
 <td class="fieldname">
 meleestate</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a60655fb568e583a980f7d6e589bc2684"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a60655fb568e583a980f7d6e589bc2684"></a>int</td>
 <td class="fieldname">
 missilestate</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a581a7aaa550ef9dee11149d6d20dd85f"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a581a7aaa550ef9dee11149d6d20dd85f"></a>int</td>
 <td class="fieldname">
 painchance</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a8c88f6a454492e0d72beb2da556cbc0d"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a8c88f6a454492e0d72beb2da556cbc0d"></a>int</td>
 <td class="fieldname">
 painsound</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aa4ec71db18a096bd04404d6df2cc6ef0"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="aa4ec71db18a096bd04404d6df2cc6ef0"></a>int</td>
 <td class="fieldname">
 painstate</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a42d2f85d189037b0ed6458aa52746cb8"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a42d2f85d189037b0ed6458aa52746cb8"></a>int</td>
 <td class="fieldname">
 radius</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a8c6d4ff7debc24231454601404e51306"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a8c6d4ff7debc24231454601404e51306"></a>int</td>
 <td class="fieldname">
 raisestate</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a2986ff4d6632fb9c19b71252cb92b12f"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a2986ff4d6632fb9c19b71252cb92b12f"></a>int</td>
 <td class="fieldname">
 reactiontime</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a4cae234822f9ca74ace73d445affe478"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a4cae234822f9ca74ace73d445affe478"></a>int</td>
 <td class="fieldname">
 seesound</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="acbfa0437341d1d4ed2beb07f111dcea6"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="acbfa0437341d1d4ed2beb07f111dcea6"></a>int</td>
 <td class="fieldname">
 seestate</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a8e5cea1199b30af380df52e5ef6eedd7"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a8e5cea1199b30af380df52e5ef6eedd7"></a>int</td>
 <td class="fieldname">
 spawnhealth</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="acfdc19a3f75a2fdac9ab516de5d582c9"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="acfdc19a3f75a2fdac9ab516de5d582c9"></a>int</td>
 <td class="fieldname">
 spawnstate</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a6225775325a042121dd8ad1caafeaf1b"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a6225775325a042121dd8ad1caafeaf1b"></a>int</td>
 <td class="fieldname">
 speed</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a08fccee064f067391e96ee79f2854fc5"></a><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a></td>
+<a id="a08fccee064f067391e96ee79f2854fc5"></a>int</td>
 <td class="fieldname">
 xdeathstate</td>
 <td class="fielddoc">

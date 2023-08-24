@@ -27,7 +27,7 @@ var dir_be293dd8bded9c30136dc99abe316348 =
     [ "setitimer.c", "d7/d44/setitimer_8c.html", "d7/d44/setitimer_8c" ],
     [ "sigaction.c", "d6/d86/sigaction_8c.html", "d6/d86/sigaction_8c" ],
     [ "sigaddset.c", "d1/d7b/sigaddset_8c.html", "d1/d7b/sigaddset_8c" ],
-    [ "sigaltstack.c", "de/d4f/musl_2src_2signal_2sigaltstack_8c.html", "de/d4f/musl_2src_2signal_2sigaltstack_8c" ],
+    [ "sigaltstack.c", "dc/d3d/sigaltstack_8c.html", "dc/d3d/sigaltstack_8c" ],
     [ "sigandset.c", "df/d13/sigandset_8c.html", "df/d13/sigandset_8c" ],
     [ "sigdelset.c", "d4/d65/sigdelset_8c.html", "d4/d65/sigdelset_8c" ],
     [ "sigemptyset.c", "db/d82/sigemptyset_8c.html", "db/d82/sigemptyset_8c" ],
@@ -50,7 +50,7 @@ var dir_be293dd8bded9c30136dc99abe316348 =
     [ "sigset.c", "dd/d10/sigset_8c.html", "dd/d10/sigset_8c" ],
     [ "sigsetjmp.c", "de/da5/sigsetjmp_8c.html", null ],
     [ "sigsetjmp_tail.c", "de/df6/sigsetjmp__tail_8c.html", "de/df6/sigsetjmp__tail_8c" ],
-    [ "sigsuspend.c", "d0/d3f/musl_2src_2signal_2sigsuspend_8c.html", "d0/d3f/musl_2src_2signal_2sigsuspend_8c" ],
+    [ "sigsuspend.c", "dd/df2/sigsuspend_8c.html", "dd/df2/sigsuspend_8c" ],
     [ "sigtimedwait.c", "d4/dc6/sigtimedwait_8c.html", "d4/dc6/sigtimedwait_8c" ],
     [ "sigwait.c", "d0/d52/sigwait_8c.html", "d0/d52/sigwait_8c" ],
     [ "sigwaitinfo.c", "d7/d1d/sigwaitinfo_8c.html", "d7/d1d/sigwaitinfo_8c" ]

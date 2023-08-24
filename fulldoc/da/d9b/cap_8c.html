@@ -97,9 +97,9 @@ $(document).ready(function(){initNavTree('da/d9b/cap_8c.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8fd226b856b16985bb7b4fd4fc4416b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9b/cap_8c.html#a8fd226b856b16985bb7b4fd4fc4416b0">capset</a> (void *a, void *<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)</td></tr>
+<tr class="memitem:a8fd226b856b16985bb7b4fd4fc4416b0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9b/cap_8c.html#a8fd226b856b16985bb7b4fd4fc4416b0">capset</a> (void *a, void *b)</td></tr>
 <tr class="separator:a8fd226b856b16985bb7b4fd4fc4416b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fc72fe33065f01209569f3153e6b1ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9b/cap_8c.html#a6fc72fe33065f01209569f3153e6b1ff">capget</a> (void *a, void *<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)</td></tr>
+<tr class="memitem:a6fc72fe33065f01209569f3153e6b1ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d9b/cap_8c.html#a6fc72fe33065f01209569f3153e6b1ff">capget</a> (void *a, void *b)</td></tr>
 <tr class="separator:a6fc72fe33065f01209569f3153e6b1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,7 +110,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> capget </td>
+          <td class="memname">int capget </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -131,12 +131,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d9b/cap_8c_source.html#l00008">8</a> of file <a class="el" href="../../da/d9b/cap_8c_source.html">cap.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_capget, a, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_capget, a, b);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a87c169f71ea6dba62ac7bf605cae509e"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a></div><div class="ttdeci">jmp_buf b</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">stdlib-stubs.cpp:68</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">b</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>
@@ -147,7 +146,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> capset </td>
+          <td class="memname">int capset </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -168,10 +167,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d9b/cap_8c_source.html#l00003">3</a> of file <a class="el" href="../../da/d9b/cap_8c_source.html">cap.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_capset, a, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_capset, a, b);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">b</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

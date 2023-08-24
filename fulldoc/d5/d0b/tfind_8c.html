@@ -91,14 +91,14 @@ $(document).ready(function(){initNavTree('d5/d0b/tfind_8c.html','../../'); initR
 <div class="title">tfind.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;search.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d85/search_8h_source.html">search.h</a>&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d3/ddd/tsearch_8h_source.html">tsearch.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d5/d0b/tfind_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3402bbc7ea121f5017d1c53f838bcd36"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/tfind_8c.html#a3402bbc7ea121f5017d1c53f838bcd36">tfind</a> (const void *key, void *const *rootp, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>(*<a class="el" href="../../d7/d70/catgets_8c.html#a6f91b4cd1af5dc277444c465e2ca3ab6">cmp</a>)(const void *, const void *))</td></tr>
+<tr class="memitem:a3402bbc7ea121f5017d1c53f838bcd36"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d0b/tfind_8c.html#a3402bbc7ea121f5017d1c53f838bcd36">tfind</a> (const void *key, void *const *rootp, int(*<a class="el" href="../../d7/d70/catgets_8c.html#a6f91b4cd1af5dc277444c465e2ca3ab6">cmp</a>)(const void *, const void *))</td></tr>
 <tr class="separator:a3402bbc7ea121f5017d1c53f838bcd36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -123,7 +123,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>(*)(const void *, const void *)&#160;</td>
+          <td class="paramtype">int(*)(const void *, const void *)&#160;</td>
           <td class="paramname"><em>cmp</em>&#160;</td>
         </tr>
         <tr>
@@ -143,7 +143,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">for</span> (;;) {</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>)</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> = <a class="code" href="../../d7/d70/catgets_8c.html#a6f91b4cd1af5dc277444c465e2ca3ab6">cmp</a>(<a class="code" href="../../d3/ddd/tsearch_8h.html#ad42b395d4c3edec2671b452c86ee63e3">key</a>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>-&gt;key);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> = <a class="code" href="../../d7/d70/catgets_8c.html#a6f91b4cd1af5dc277444c465e2ca3ab6">cmp</a>(<a class="code" href="../../d3/ddd/tsearch_8h.html#ad5c7d4cbb4e3bf585d109ac8f38abe71">key</a>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>-&gt;key);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a> = <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>-&gt;a[<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>&gt;0];</div>
@@ -153,10 +153,10 @@ Functions</h2></td></tr>
 <div class="ttc" id="acatgets_8c_html_a6f91b4cd1af5dc277444c465e2ca3ab6"><div class="ttname"><a href="../../d7/d70/catgets_8c.html#a6f91b4cd1af5dc277444c465e2ca3ab6">cmp</a></div><div class="ttdeci">static int cmp(const void *a, const void *b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d70/catgets_8c_source.html#l00010">catgets.c:10</a></div></div>
 <div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
 <div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
-<div class="ttc" id="atsearch_8h_html_ad42b395d4c3edec2671b452c86ee63e3"><div class="ttname"><a href="../../d3/ddd/tsearch_8h.html#ad42b395d4c3edec2671b452c86ee63e3">node::key</a></div><div class="ttdeci">const void * key</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/def/search_8cpp_source.html#l00011">search.cpp:11</a></div></div>
-<div class="ttc" id="atsearch_8h_html_d5/da1/structnode"><div class="ttname"><a href="../../d3/ddd/tsearch_8h.html#d5/da1/structnode">node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/def/search_8cpp_source.html#l00010">search.cpp:10</a></div></div>
+<div class="ttc" id="atsearch_8h_html_ad5c7d4cbb4e3bf585d109ac8f38abe71"><div class="ttname"><a href="../../d3/ddd/tsearch_8h.html#ad5c7d4cbb4e3bf585d109ac8f38abe71">node::key</a></div><div class="ttdeci">const void * key</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddd/tsearch_8h_source.html#l00008">tsearch.h:8</a></div></div>
+<div class="ttc" id="atsearch_8h_html_d5/da1/structnode"><div class="ttname"><a href="../../d3/ddd/tsearch_8h.html#d5/da1/structnode">node</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d24/tsort_8c_source.html#l00033">tsort.c:33</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../d7/d70/catgets_8c_source.html#l00010">cmp()</a>, <a class="el" href="../../d9/def/search_8cpp_source.html#l00011">node::key</a>, and <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d64/glob__loop_8c_source.html#l00026">c</a>, <a class="el" href="../../d7/d70/catgets_8c_source.html#l00010">cmp()</a>, <a class="el" href="../../d3/ddd/tsearch_8h_source.html#l00008">node::key</a>, and <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>.</p>
 
 </div>
 </div>

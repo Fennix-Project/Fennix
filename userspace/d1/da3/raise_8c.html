@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('d1/da3/raise_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a08ba0dd26a850108a1746412faba2b21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da3/raise_8c.html#a08ba0dd26a850108a1746412faba2b21">raise</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sig)</td></tr>
+<tr class="memitem:a08ba0dd26a850108a1746412faba2b21"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da3/raise_8c.html#a08ba0dd26a850108a1746412faba2b21">raise</a> (int sig)</td></tr>
 <tr class="separator:a08ba0dd26a850108a1746412faba2b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,9 +111,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> raise </td>
+          <td class="memname">int raise </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>sig</em></td><td>)</td>
           <td></td>
         </tr>
@@ -122,20 +122,19 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/da3/raise_8c_source.html#l00006">6</a> of file <a class="el" href="../../d1/da3/raise_8c_source.html">raise.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> set;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> set;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../de/df9/musl_2src_2include_2signal_8h.html#ae6fdd6b31152545b2e454b6ecac740c8">__block_app_sigs</a>(&amp;set);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_tkill, <a class="code" href="../../d7/dd7/pthread__impl_8h.html#a10e218eb7ae37b8c1542e3d03c324d23">__pthread_self</a>()-&gt;tid, sig);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">int</span> ret = <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_tkill, <a class="code" href="../../d7/dd7/pthread__impl_8h.html#a10e218eb7ae37b8c1542e3d03c324d23">__pthread_self</a>()-&gt;tid, sig);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../de/df9/musl_2src_2include_2signal_8h.html#a129974f2cf673330f9f9ce7bd2935dc2">__restore_sigs</a>(&amp;set);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="ttc" id="alibc_2include_2bits_2types_2sigset__t_8h_html_a9140a5882f847f67b8155c759ac6aa05"><div class="ttname"><a href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a></div><div class="ttdeci">unsigned long sigset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h_source.html#l00004">sigset_t.h:4</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
 <div class="ttc" id="amusl_2src_2include_2signal_8h_html_a129974f2cf673330f9f9ce7bd2935dc2"><div class="ttname"><a href="../../de/df9/musl_2src_2include_2signal_8h.html#a129974f2cf673330f9f9ce7bd2935dc2">__restore_sigs</a></div><div class="ttdeci">hidden void __restore_sigs(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d1c/block_8c_source.html#l00041">block.c:41</a></div></div>
 <div class="ttc" id="amusl_2src_2include_2signal_8h_html_ae6fdd6b31152545b2e454b6ecac740c8"><div class="ttname"><a href="../../de/df9/musl_2src_2include_2signal_8h.html#ae6fdd6b31152545b2e454b6ecac740c8">__block_app_sigs</a></div><div class="ttdeci">hidden void __block_app_sigs(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d1c/block_8c_source.html#l00036">block.c:36</a></div></div>
 <div class="ttc" id="apthread__impl_8h_html_a10e218eb7ae37b8c1542e3d03c324d23"><div class="ttname"><a href="../../d7/dd7/pthread__impl_8h.html#a10e218eb7ae37b8c1542e3d03c324d23">__pthread_self</a></div><div class="ttdeci">#define __pthread_self()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/pthread__impl_8h_source.html#l00122">pthread_impl.h:122</a></div></div>
+<div class="ttc" id="asigset__t_8h_html_a9140a5882f847f67b8155c759ac6aa05"><div class="ttname"><a href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a></div><div class="ttdeci">unsigned long sigset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d90/sigset__t_8h_source.html#l00004">sigset_t.h:4</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d1c/block_8c_source.html#l00036">__block_app_sigs()</a>, <a class="el" href="../../d7/dd7/pthread__impl_8h_source.html#l00122">__pthread_self</a>, <a class="el" href="../../d3/d1c/block_8c_source.html#l00041">__restore_sigs()</a>, <a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d3/d1c/block_8c_source.html#l00036">__block_app_sigs()</a>, <a class="el" href="../../d7/dd7/pthread__impl_8h_source.html#l00122">__pthread_self</a>, <a class="el" href="../../d3/d1c/block_8c_source.html#l00041">__restore_sigs()</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

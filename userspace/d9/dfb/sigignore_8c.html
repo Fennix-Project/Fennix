@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d9/dfb/sigignore_8c.html','../../'); i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1034c4dceaeebeee401fbf7c5e4396ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dfb/sigignore_8c.html#a1034c4dceaeebeee401fbf7c5e4396ed">sigignore</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sig)</td></tr>
+<tr class="memitem:a1034c4dceaeebeee401fbf7c5e4396ed"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dfb/sigignore_8c.html#a1034c4dceaeebeee401fbf7c5e4396ed">sigignore</a> (int sig)</td></tr>
 <tr class="separator:a1034c4dceaeebeee401fbf7c5e4396ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,9 +108,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sigignore </td>
+          <td class="memname">int sigignore </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>sig</em></td><td>)</td>
           <td></td>
         </tr>
@@ -119,19 +119,17 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dfb/sigignore_8c_source.html#l00003">3</a> of file <a class="el" href="../../d9/dfb/sigignore_8c_source.html">sigignore.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d7/def/structsigaction.html">sigaction</a> sa;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keyword">struct </span>sigaction sa;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../da/db8/signals_8c.html#a98930e3dbc944558ae130d17f851994b">sigemptyset</a>(&amp;sa.sa_mask);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    sa.sa_handler = <a class="code" href="../../d3/d36/mlibc_2abis_2linux_2signal_8h.html#acf0e499b0ac946b366b4f47a3b3e8b9e">SIG_IGN</a>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../db/d82/sigemptyset_8c.html#a5925352f90eb589393274fa0376d7def">sigemptyset</a>(&amp;sa.sa_mask);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    sa.sa_handler = <a class="code" href="../../de/d2b/musl_2include_2signal_8h.html#acf0e499b0ac946b366b4f47a3b3e8b9e">SIG_IGN</a>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    sa.sa_flags = 0;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dd4/posix__signal_8cpp.html#a5263ce0feb3eb0934bc56ab81cae8ddb">sigaction</a>(sig, &amp;sa, 0);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> sigaction(sig, &amp;sa, 0);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="amlibc_2abis_2linux_2signal_8h_html_acf0e499b0ac946b366b4f47a3b3e8b9e"><div class="ttname"><a href="../../d3/d36/mlibc_2abis_2linux_2signal_8h.html#acf0e499b0ac946b366b4f47a3b3e8b9e">SIG_IGN</a></div><div class="ttdeci">#define SIG_IGN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d36/mlibc_2abis_2linux_2signal_8h_source.html#l00099">signal.h:99</a></div></div>
-<div class="ttc" id="aposix__signal_8cpp_html_a5263ce0feb3eb0934bc56ab81cae8ddb"><div class="ttname"><a href="../../d5/dd4/posix__signal_8cpp.html#a5263ce0feb3eb0934bc56ab81cae8ddb">sigaction</a></div><div class="ttdeci">int sigaction(int signum, const struct sigaction *__restrict act, struct sigaction *__restrict oldact)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd4/posix__signal_8cpp_source.html#l00045">posix_signal.cpp:45</a></div></div>
-<div class="ttc" id="asignals_8c_html_a98930e3dbc944558ae130d17f851994b"><div class="ttname"><a href="../../da/db8/signals_8c.html#a98930e3dbc944558ae130d17f851994b">sigemptyset</a></div><div class="ttdeci">#define sigemptyset(m)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db8/signals_8c_source.html#l00062">signals.c:62</a></div></div>
-<div class="ttc" id="astructsigaction_html"><div class="ttname"><a href="../../d7/def/structsigaction.html">sigaction</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d36/mlibc_2abis_2linux_2signal_8h_source.html#l00218">signal.h:218</a></div></div>
+<div class="ttc" id="amusl_2include_2signal_8h_html_acf0e499b0ac946b366b4f47a3b3e8b9e"><div class="ttname"><a href="../../de/d2b/musl_2include_2signal_8h.html#acf0e499b0ac946b366b4f47a3b3e8b9e">SIG_IGN</a></div><div class="ttdeci">#define SIG_IGN</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2b/musl_2include_2signal_8h_source.html#l00285">signal.h:285</a></div></div>
+<div class="ttc" id="asigemptyset_8c_html_a5925352f90eb589393274fa0376d7def"><div class="ttname"><a href="../../db/d82/sigemptyset_8c.html#a5925352f90eb589393274fa0376d7def">sigemptyset</a></div><div class="ttdeci">int sigemptyset(sigset_t *set)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d82/sigemptyset_8c_source.html#l00004">sigemptyset.c:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d36/mlibc_2abis_2linux_2signal_8h_source.html#l00224">sigaction::sa_flags</a>, <a class="el" href="../../d5/d05/mlibc_2abis_2mlibc_2signal_8h_source.html#l00156">sigaction::sa_handler</a>, <a class="el" href="../../d3/d36/mlibc_2abis_2linux_2signal_8h_source.html#l00223">sigaction::sa_mask</a>, <a class="el" href="../../d3/d36/mlibc_2abis_2linux_2signal_8h_source.html#l00099">SIG_IGN</a>, <a class="el" href="../../d5/dd4/posix__signal_8cpp_source.html#l00045">sigaction()</a>, and <a class="el" href="../../da/db8/signals_8c_source.html#l00062">sigemptyset</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d2b/musl_2include_2signal_8h_source.html#l00285">SIG_IGN</a>, and <a class="el" href="../../db/d82/sigemptyset_8c_source.html#l00004">sigemptyset()</a>.</p>
 
 </div>
 </div>

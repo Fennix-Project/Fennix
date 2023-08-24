@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d7/d1d/sigwaitinfo_8c.html','../../');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad63234ada0e200a0d8bb59d957a859d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1d/sigwaitinfo_8c.html#ad63234ada0e200a0d8bb59d957a859d1">sigwaitinfo</a> (const <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict mask, <a class="el" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *restrict si)</td></tr>
+<tr class="memitem:ad63234ada0e200a0d8bb59d957a859d1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d1d/sigwaitinfo_8c.html#ad63234ada0e200a0d8bb59d957a859d1">sigwaitinfo</a> (const <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict mask, <a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *restrict si)</td></tr>
 <tr class="separator:ad63234ada0e200a0d8bb59d957a859d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,15 +108,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sigwaitinfo </td>
+          <td class="memname">int sigwaitinfo </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *restrict&#160;</td>
           <td class="paramname"><em>mask</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *restrict&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *restrict&#160;</td>
           <td class="paramname"><em>si</em>&#160;</td>
         </tr>
         <tr>
@@ -129,11 +129,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d1d/sigwaitinfo_8c_source.html#l00003">3</a> of file <a class="el" href="../../d7/d1d/sigwaitinfo_8c_source.html">sigwaitinfo.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dd4/posix__signal_8cpp.html#a30b76b0bc9909f5d1999eba8fc07c3b6">sigtimedwait</a>(mask, si, 0);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/dc6/sigtimedwait_8c.html#af87a27ac49dec011071312ad387dabf2">sigtimedwait</a>(mask, si, 0);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="aposix__signal_8cpp_html_a30b76b0bc9909f5d1999eba8fc07c3b6"><div class="ttname"><a href="../../d5/dd4/posix__signal_8cpp.html#a30b76b0bc9909f5d1999eba8fc07c3b6">sigtimedwait</a></div><div class="ttdeci">int sigtimedwait(const sigset_t *, siginfo_t *, const struct timespec *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd4/posix__signal_8cpp_source.html#l00086">posix_signal.cpp:86</a></div></div>
+<div class="ttc" id="asigtimedwait_8c_html_af87a27ac49dec011071312ad387dabf2"><div class="ttname"><a href="../../d4/dc6/sigtimedwait_8c.html#af87a27ac49dec011071312ad387dabf2">sigtimedwait</a></div><div class="ttdeci">int sigtimedwait(const sigset_t *restrict mask, siginfo_t *restrict si, const struct timespec *restrict timeout)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc6/sigtimedwait_8c_source.html#l00026">sigtimedwait.c:26</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dd4/posix__signal_8cpp_source.html#l00086">sigtimedwait()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/dc6/sigtimedwait_8c_source.html#l00026">sigtimedwait()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d55/timer__create_8c_source.html#l00036">start()</a>.</p>
 
 </div>
 </div>

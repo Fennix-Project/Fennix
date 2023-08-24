@@ -150,6 +150,6 @@ var amd64_2Bootstrap_2Multiboot_21_2multiboot_8h =
     [ "__attribute__", "dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a4bbf25084dee10ec29f4356cacced463", null ],
     [ "addr", "dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd", null ],
     [ "len", "dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6", null ],
-    [ "size", "dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a252e4787d2e315cb28693ef2d9862e78", null ],
+    [ "size", "dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33", null ],
     [ "type", "dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c", null ]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['doomgeneric_66137',['doomgeneric',['../de/d71/md_Userspace_apps_user_games_doomgeneric_README.html',1,'']]],
-  ['doxygen_66138',['Doxygen',['../index.html',1,'']]]
+  ['shellmath_83509',['Shellmath',['../dc/d96/md_Userspace_apps_base_bash_examples_shellmath_README.html',1,'']]]
 ];

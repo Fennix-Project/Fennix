@@ -1,0 +1,75 @@
+var netstat_8c =
+[
+    [ "prg_node", "dd/d3f/netstat_8c.html#d6/da9/structprg__node", [
+      [ "inode", "dd/d3f/netstat_8c.html#ac1e0408a63d199b7cceeded6b9b47b58", null ],
+      [ "name", "dd/d3f/netstat_8c.html#a6565141d64b8ab02ff6d06292b700b87", null ],
+      [ "next", "dd/d3f/netstat_8c.html#afe9126f40ab16fa8d7d4d645b321a12e", null ]
+    ] ],
+    [ "globals", "d8/d11/structglobals.html", "d8/d11/structglobals" ],
+    [ "inet_params", "dd/d3f/netstat_8c.html#d8/dc2/structinet__params", [
+      [ "inode", "dd/d3f/netstat_8c.html#ac94827a7ba4c9a356cb86ceb0272e3d1", null ],
+      [ "local_port", "dd/d3f/netstat_8c.html#a3185c9d141d744f4b0e775f20be443b7", null ],
+      [ "localaddr", "dd/d3f/netstat_8c.html#a32dac2a4c4260b119a7fdf0c44029860", null ],
+      [ "rem_port", "dd/d3f/netstat_8c.html#a6d368253ea051855413975998c095892", null ],
+      [ "remaddr", "dd/d3f/netstat_8c.html#a14b1779b70db1478ce240e3bd23c5d35", null ],
+      [ "rxq", "dd/d3f/netstat_8c.html#a4e7c51997b38ddbb0d37efdfa2c57045", null ],
+      [ "state", "dd/d3f/netstat_8c.html#a4005189cfe7f7f1c30104afdb8376ef1", null ],
+      [ "txq", "dd/d3f/netstat_8c.html#ad005e514931cb9a479696ffabbd646b1", null ],
+      [ "uid", "dd/d3f/netstat_8c.html#ad4215a3c0db2dc8c9bfe8b127d3d360c", null ]
+    ] ],
+    [ "inet_params.localaddr", "dd/d3f/netstat_8c.html#d1/db4/unioninet__params_8localaddr", [
+      [ "sa", "dd/d3f/netstat_8c.html#ac12e01f2a13ff5587e1e9e4aedb8242d", null ],
+      [ "sin", "dd/d3f/netstat_8c.html#a7d27e4a7ca7533a3bef4fad10a0c19c7", null ]
+    ] ],
+    [ "inet_params.remaddr", "dd/d3f/netstat_8c.html#de/df9/unioninet__params_8remaddr", [
+      [ "sa", "dd/d3f/netstat_8c.html#ac12e01f2a13ff5587e1e9e4aedb8242d", null ],
+      [ "sin", "dd/d3f/netstat_8c.html#a7d27e4a7ca7533a3bef4fad10a0c19c7", null ]
+    ] ],
+    [ "ADDR_NORMAL_WIDTH", "dd/d3f/netstat_8c.html#a4f43118d2318b90169d2d0250a114177", null ],
+    [ "ADDR_WIDE", "dd/d3f/netstat_8c.html#a9aab825ee9933395a1ad0ea2e8637c7f", null ],
+    [ "flags", "dd/d3f/netstat_8c.html#abb0829cce9dd20a40ae0d86890ae85c6", null ],
+    [ "FMT_NET_CONN_DATA", "dd/d3f/netstat_8c.html#add6e91c10306e12b65cc0dca96ea45d4", null ],
+    [ "FMT_NET_CONN_HEADER", "dd/d3f/netstat_8c.html#a8ca94a8bf39a327e7044e98720744ea7", null ],
+    [ "G", "dd/d3f/netstat_8c.html#aed9ea78689ecce0b7264c02c7f8a9a54", null ],
+    [ "INIT_G", "dd/d3f/netstat_8c.html#a39d017e5ed76fae1ae7cec57e0d600c4", null ],
+    [ "NETSTAT_ALLPROTO", "dd/d3f/netstat_8c.html#a72084821e5cca3c45b2b724c82db56db", null ],
+    [ "NETSTAT_CONNECTED", "dd/d3f/netstat_8c.html#a1d7c9883a9efe1275b976318c20602c3", null ],
+    [ "NETSTAT_LISTENING", "dd/d3f/netstat_8c.html#a37efdf826653809fe683906f8bd66e16", null ],
+    [ "NETSTAT_NUMERIC", "dd/d3f/netstat_8c.html#ac4826b669cd2ede9bafa1eba31891dfe", null ],
+    [ "NETSTAT_OPTS", "dd/d3f/netstat_8c.html#a3edfe22c869d35e3bf796bdd61f5d9bd", null ],
+    [ "NETSTAT_RAW", "dd/d3f/netstat_8c.html#a87cc248d08069de3bd5533bed435845c", null ],
+    [ "NETSTAT_TCP", "dd/d3f/netstat_8c.html#a55ed0eea6bdf49b3a708218c4cc214de", null ],
+    [ "NETSTAT_UDP", "dd/d3f/netstat_8c.html#a3178aa654e2455dd37638a23fba60717", null ],
+    [ "NETSTAT_UNIX", "dd/d3f/netstat_8c.html#af97bd1fd60d9b25aba41886dcdb564d3", null ],
+    [ "NOT_NULL_ADDR", "dd/d3f/netstat_8c.html#adbda1a53ca793a626a73850ff9235678", null ],
+    [ "prg_cache_clear", "dd/d3f/netstat_8c.html#a68dfac82155620e833067364d67d0d42", null ],
+    [ "prg_cache_loaded", "dd/d3f/netstat_8c.html#a9d17aeec3bc6c8ef9276fcf7d5d70ccc", null ],
+    [ "prg_hash", "dd/d3f/netstat_8c.html#a22ac91672f3879dbe876c87f720479a3", null ],
+    [ "PRG_HASH_SIZE", "dd/d3f/netstat_8c.html#aac4dc164b8dacfbcbeb53f6b5d7b33de", null ],
+    [ "PROGNAME_BANNER", "dd/d3f/netstat_8c.html#a29c4fd52a7544065d084ed723582c05e", null ],
+    [ "progname_banner", "dd/d3f/netstat_8c.html#a1aa14be1e9ff890ef8991a07280e43a4", null ],
+    [ "PROGNAME_WIDTH", "dd/d3f/netstat_8c.html#aae6a861e39e07a529ac6dd39339a8ed1", null ],
+    [ "PROGNAME_WIDTH_STR", "dd/d3f/netstat_8c.html#a270aa5b6da0296db5cc9d0261de666e4", null ],
+    [ "SO_ACCEPTCON", "dd/d3f/netstat_8c.html#ad3fcde07d49ae828e2565049619dc63f", null ],
+    [ "SO_NOSPACE", "dd/d3f/netstat_8c.html#aecd5ddd20e54089956adddf7b7868753", null ],
+    [ "SO_WAITDATA", "dd/d3f/netstat_8c.html#a3ca4f32b55bfb0cf13191984a763a1dc", null ],
+    [ "socket_state", "dd/d3f/netstat_8c.html#a4a055720116545d1fd52227e417488f8", [
+      [ "SS_FREE", "dd/d3f/netstat_8c.html#a4a055720116545d1fd52227e417488f8a1f0b07e356e4e2d182f057e2dc1e27dc", null ],
+      [ "SS_UNCONNECTED", "dd/d3f/netstat_8c.html#a4a055720116545d1fd52227e417488f8a3b2500a7ffff9084fdca145c1a37b722", null ],
+      [ "SS_CONNECTING", "dd/d3f/netstat_8c.html#a4a055720116545d1fd52227e417488f8a8407056ba960ba5990d4faf1a5df30a9", null ],
+      [ "SS_CONNECTED", "dd/d3f/netstat_8c.html#a4a055720116545d1fd52227e417488f8a097f95adc87c47e70cd008b417fbac57", null ],
+      [ "SS_DISCONNECTING", "dd/d3f/netstat_8c.html#a4a055720116545d1fd52227e417488f8a3426a6143a645f79cc1252838d9eeea5", null ]
+    ] ],
+    [ "build_ipv4_addr", "dd/d3f/netstat_8c.html#ab0b68fc788482c80dbc69c3bad45a439", null ],
+    [ "do_info", "dd/d3f/netstat_8c.html#aff1968de15688b7e3e1288d7d3d37785", null ],
+    [ "get_sname", "dd/d3f/netstat_8c.html#aecd2f7fa8440a1f43ea97320822ec5a4", null ],
+    [ "ip_port_str", "dd/d3f/netstat_8c.html#adc926b6a623da61d5f4fa57cd5ebcc6a", null ],
+    [ "netstat_main", "dd/d3f/netstat_8c.html#a4a26b30126a49216a3dbd6ccabaddf4c", null ],
+    [ "print_inet_line", "dd/d3f/netstat_8c.html#a7a6af2c2e29b18cf479cb27301126000", null ],
+    [ "raw_do_one", "dd/d3f/netstat_8c.html#a558846653d44dcb06f4c0fa6b63a3a21", null ],
+    [ "scan_inet_proc_line", "dd/d3f/netstat_8c.html#ad3027752d0924fa7541fa12785a0489f", null ],
+    [ "tcp_do_one", "dd/d3f/netstat_8c.html#ac05ea324b12a68e0c90d15c4a4b199ad", null ],
+    [ "udp_do_one", "dd/d3f/netstat_8c.html#ac91abbf37ef0980d641e93d786640659", null ],
+    [ "unix_do_one", "dd/d3f/netstat_8c.html#ad835b752c852f504a490ac04fbb636ba", null ],
+    [ "ALIGN_PTR", "dd/d3f/netstat_8c.html#aea26c3c9320795ff89af8472ed831aba", null ]
+];

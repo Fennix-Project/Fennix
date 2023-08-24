@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d9/dc5/musl_2src_2string_2strpbrk_8c.h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a566bea6bcfb00d675f0b4b283b757ac8"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/musl_2src_2string_2strpbrk_8c.html#a566bea6bcfb00d675f0b4b283b757ac8">strpbrk</a> (const char *s, const char *<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)</td></tr>
+<tr class="memitem:a566bea6bcfb00d675f0b4b283b757ac8"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc5/musl_2src_2string_2strpbrk_8c.html#a566bea6bcfb00d675f0b4b283b757ac8">strpbrk</a> (const char *<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, const char *b)</td></tr>
 <tr class="separator:a566bea6bcfb00d675f0b4b283b757ac8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -129,13 +129,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dc5/musl_2src_2string_2strpbrk_8c_source.html#l00003">3</a> of file <a class="el" href="../../d9/dc5/musl_2src_2string_2strpbrk_8c_source.html">strpbrk.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    s += <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#ad56b6c44277de6ea5179edf92cf4b01d">strcspn</a>(s, <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a>);</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> *s ? (<span class="keywordtype">char</span> *)s : 0;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a> += <a class="code" href="../../d6/d32/musl_2include_2string_8h.html#a4e8462eddc5a160451a246bc1bc22bb4">strcspn</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, b);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> *<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a> ? (<span class="keywordtype">char</span> *)<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a> : 0;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a87c169f71ea6dba62ac7bf605cae509e"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a></div><div class="ttdeci">jmp_buf b</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">stdlib-stubs.cpp:68</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_ad56b6c44277de6ea5179edf92cf4b01d"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#ad56b6c44277de6ea5179edf92cf4b01d">strcspn</a></div><div class="ttdeci">size_t strcspn(const char *s, const char *chrs)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00127">string-stubs.cpp:127</a></div></div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
+<div class="ttc" id="amusl_2include_2string_8h_html_a4e8462eddc5a160451a246bc1bc22bb4"><div class="ttname"><a href="../../d6/d32/musl_2include_2string_8h.html#a4e8462eddc5a160451a246bc1bc22bb4">strcspn</a></div><div class="ttdeci">size_t strcspn(const char *, const char *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dba/strcspn_8c_source.html#l00006">strcspn.c:6</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">b</a>, and <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00127">strcspn()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, and <a class="el" href="../../d8/dba/strcspn_8c_source.html#l00006">strcspn()</a>.</p>
 
 </div>
 </div>

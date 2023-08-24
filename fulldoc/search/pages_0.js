@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['abi_20breaks_77833',['ABI Breaks',['../db/d7b/md_Userspace_mlibc_ABI_BREAKS.html',1,'']]]
+  ['core_20components_96141',['Core components',['../df/dd8/md_Kernel_Core_README.html',1,'']]]
 ];

@@ -101,14 +101,14 @@ $(document).ready(function(){initNavTree('d7/d4a/ufuncs_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a00f9077325b0e6928f0aa003404f971c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4a/ufuncs_8c.html#a00f9077325b0e6928f0aa003404f971c">falarm</a> (unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> secs, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> usecs)</td></tr>
+<tr class="memitem:a00f9077325b0e6928f0aa003404f971c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4a/ufuncs_8c.html#a00f9077325b0e6928f0aa003404f971c">falarm</a> (unsigned int secs, unsigned int usecs)</td></tr>
 <tr class="separator:a00f9077325b0e6928f0aa003404f971c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a112f8079a1b7f73053c0a5bcf0c1c66f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4a/ufuncs_8c.html#a112f8079a1b7f73053c0a5bcf0c1c66f">fsleep</a> (long sec, long usec)</td></tr>
+<tr class="memitem:a112f8079a1b7f73053c0a5bcf0c1c66f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4a/ufuncs_8c.html#a112f8079a1b7f73053c0a5bcf0c1c66f">fsleep</a> (long sec, long usec)</td></tr>
 <tr class="separator:a112f8079a1b7f73053c0a5bcf0c1c66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4a/ufuncs_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a></td></tr>
+<tr class="memitem:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4a/ufuncs_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a></td></tr>
 <tr class="separator:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -119,15 +119,15 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> falarm </td>
+          <td class="memname">int falarm </td>
           <td>(</td>
-          <td class="paramtype">unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>secs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>usecs</em>&#160;</td>
         </tr>
         <tr>
@@ -141,18 +141,18 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d7/d4a/ufuncs_8c_source.html#l00068">68</a> of file <a class="el" href="../../d7/d4a/ufuncs_8c_source.html">ufuncs.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keywordflow">if</span> (secs == 0 &amp;&amp; usecs == 0)</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../dd/d08/unistd-stubs_8cpp.html#a8c476685d78ea93ee343f8a0580c79fe">alarm</a> (0));</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../de/d97/musl_2include_2unistd_8h.html#a2fe39182ce763d7864de35afa9fecb98">alarm</a> (0));</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  <span class="keywordflow">if</span> (secs == 0 || usecs &gt;= 500000)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    {</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      secs++;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      usecs = 0;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordflow">return</span> (<a class="code" href="../../dd/d08/unistd-stubs_8cpp.html#a8c476685d78ea93ee343f8a0580c79fe">alarm</a> (secs));</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  <span class="keywordflow">return</span> (<a class="code" href="../../de/d97/musl_2include_2unistd_8h.html#a2fe39182ce763d7864de35afa9fecb98">alarm</a> (secs));</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
-<div class="ttc" id="aunistd-stubs_8cpp_html_a8c476685d78ea93ee343f8a0580c79fe"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#a8c476685d78ea93ee343f8a0580c79fe">alarm</a></div><div class="ttdeci">unsigned int alarm(unsigned int seconds)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00018">unistd-stubs.cpp:18</a></div></div>
+<div class="ttc" id="amusl_2include_2unistd_8h_html_a2fe39182ce763d7864de35afa9fecb98"><div class="ttname"><a href="../../de/d97/musl_2include_2unistd_8h.html#a2fe39182ce763d7864de35afa9fecb98">alarm</a></div><div class="ttdeci">unsigned alarm(unsigned)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dce/alarm_8c_source.html#l00005">alarm.c:5</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00018">alarm()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dce/alarm_8c_source.html#l00005">alarm()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d80/timers_8c_source.html#l00099">shtimer_set()</a>, and <a class="el" href="../../d0/d80/timers_8c_source.html#l00126">shtimer_unset()</a>.</p>
 
@@ -165,7 +165,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fsleep </td>
+          <td class="memname">int fsleep </td>
           <td>(</td>
           <td class="paramtype">long&#160;</td>
           <td class="paramname"><em>sec</em>, </td>
@@ -209,7 +209,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> errno</td>
+          <td class="memname">int errno</td>
         </tr>
       </table>
   </td>

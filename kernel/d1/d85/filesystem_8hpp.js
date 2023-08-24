@@ -44,11 +44,23 @@ var filesystem_8hpp =
     [ "Node", "d7/dfb/classVirtualFileSystem_1_1Node.html", "d7/dfb/classVirtualFileSystem_1_1Node" ],
     [ "Virtual", "d8/dbd/classVirtualFileSystem_1_1Virtual.html", "d8/dbd/classVirtualFileSystem_1_1Virtual" ],
     [ "FileDescriptorTable", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable" ],
-    [ "FileDescriptor", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#dc/da2/structVirtualFileSystem_1_1FileDescriptorTable_1_1FileDescriptor", [
-      [ "Descriptor", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#ac94c293cb9e0e96e048bc42a8130d166", null ],
-      [ "Flags", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#aaa96e1500a413837176deeceace86887", null ],
-      [ "Handle", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a860922d412527e2f1ee02e066d0ff325", null ],
-      [ "Mode", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#ae6ee6918828d8fd4efd8e1e05cd633e3", null ]
+    [ "winsize", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#db/d94/structVirtualFileSystem_1_1FileDescriptorTable_1_1winsize", [
+      [ "ws_col", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a083b90c89f4f65666a2b7b9e11ed6762", null ],
+      [ "ws_row", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a6efc0fec45348193f5c1dce34854be3a", null ],
+      [ "ws_xpixel", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a62840715ce3c4c61f9c895e528596dcc", null ],
+      [ "ws_ypixel", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a161b0fc3b0d317aba6a915ae38b3d8e5", null ]
+    ] ],
+    [ "Fildes", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#d7/d63/structVirtualFileSystem_1_1FileDescriptorTable_1_1Fildes", [
+      [ "Descriptor", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a01b10f4782669801772e742da6a80c7d", null ],
+      [ "Flags", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a2fe4b95e740cd8109c1a3b0ae31abc62", null ],
+      [ "Handle", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a009d19b5fb6a9de6cdfe893ee061b41f", null ],
+      [ "Mode", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a3b9abb289599064d7c57dc95e27da886", null ]
+    ] ],
+    [ "DupFildes", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#d2/de5/structVirtualFileSystem_1_1FileDescriptorTable_1_1DupFildes", [
+      [ "Descriptor", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a76deffe22ea364ef7140bca0cab2097b", null ],
+      [ "Flags", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#af43a49eb7b19b43f516c4ab114789c9c", null ],
+      [ "Handle", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a6643e1e8219844e4c769cac0439f5a33", null ],
+      [ "Mode", "d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#af6fb7b4af3d405b4d35a718f8e7c0f49", null ]
     ] ],
     [ "CreateFSFunction", "d1/d85/filesystem_8hpp.html#ab5fe0d9f05321a1e464164873af53feb", null ],
     [ "FILENAME_LENGTH", "d1/d85/filesystem_8hpp.html#a610ce22de673afc7b1e8b0e7b3c9fe7a", null ],

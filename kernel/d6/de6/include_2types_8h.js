@@ -66,7 +66,6 @@ var include_2types_8h =
     [ "false", "d6/de6/include_2types_8h.html#a65e9886d74aaee76545e83dd09011727", null ],
     [ "ilp", "d6/de6/include_2types_8h.html#a18b98db98b43158605fe3cd1087732a1", null ],
     [ "inf_loop", "d6/de6/include_2types_8h.html#aa9230594915ed6dc218abef840f043b7", null ],
-    [ "int1", "d6/de6/include_2types_8h.html#aedcd837de58f1534fba6848ec222dfaa", null ],
     [ "INT16_MAX", "d6/de6/include_2types_8h.html#ac58f2c111cc9989c86db2a7dc4fd84ca", null ],
     [ "INT16_MIN", "d6/de6/include_2types_8h.html#ad4e9955955b27624963643eac448118a", null ],
     [ "int3", "d6/de6/include_2types_8h.html#af90a6cfd43c9a4509afa907f57b7ec82", null ],

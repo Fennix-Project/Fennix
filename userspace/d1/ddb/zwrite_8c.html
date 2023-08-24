@@ -100,12 +100,12 @@ $(document).ready(function(){initNavTree('d1/ddb/zwrite_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a92da81198d4f9bb855227487e8849044"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddb/zwrite_8c.html#a92da81198d4f9bb855227487e8849044">zwrite</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, char *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> nb)</td></tr>
+<tr class="memitem:a92da81198d4f9bb855227487e8849044"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddb/zwrite_8c.html#a92da81198d4f9bb855227487e8849044">zwrite</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, char *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> nb)</td></tr>
 <tr class="separator:a92da81198d4f9bb855227487e8849044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddb/zwrite_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a></td></tr>
+<tr class="memitem:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddb/zwrite_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a></td></tr>
 <tr class="separator:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -116,9 +116,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> zwrite </td>
+          <td class="memname">int zwrite </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
         </tr>
         <tr>
@@ -130,7 +130,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>nb</em>&#160;</td>
         </tr>
         <tr>
@@ -147,13 +147,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a> = nb, nt = 0;;)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = <a class="code" href="../../dd/d08/unistd-stubs_8cpp.html#abb39b21888372e95ad3e5c59b166f5c8">write</a> (fd, <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;      <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = <a class="code" href="../../de/d97/musl_2include_2unistd_8h.html#abd6ad778aba7e4737ddd9ccb3b1335ff">write</a> (<a class="code" href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &gt; 0)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;      <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a> -= <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a> &lt;= 0)</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">return</span> nb;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a> += <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a> += <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> == 0)</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    {</div>
@@ -164,14 +164,15 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
+<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
 <div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
 <div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a46b83d9f6c23b1b65a8cecfd775ddaed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a46b83d9f6c23b1b65a8cecfd775ddaed">EINTR</a></div><div class="ttdeci">#define EINTR</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00007">errno.h:7</a></div></div>
-<div class="ttc" id="amlibc_2tests_2ansi_2longjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
-<div class="ttc" id="aunistd-stubs_8cpp_html_abb39b21888372e95ad3e5c59b166f5c8"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#abb39b21888372e95ad3e5c59b166f5c8">write</a></div><div class="ttdeci">ssize_t write(int fd, const void *buf, size_t count)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00863">unistd-stubs.cpp:863</a></div></div>
+<div class="ttc" id="amusl_2include_2unistd_8h_html_abd6ad778aba7e4737ddd9ccb3b1335ff"><div class="ttname"><a href="../../de/d97/musl_2include_2unistd_8h.html#abd6ad778aba7e4737ddd9ccb3b1335ff">write</a></div><div class="ttdeci">ssize_t write(int, const void *, size_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd8/musl_2src_2unistd_2write_8c_source.html#l00004">write.c:4</a></div></div>
 <div class="ttc" id="azwrite_8c_html_ad65a8842cc674e3ddf69355898c0ecbf"><div class="ttname"><a href="../../d1/ddb/zwrite_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a></div><div class="ttdeci">int errno</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00007">EINTR</a>, <a class="el" href="../../d1/ddb/zwrite_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, and <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00863">write()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00007">EINTR</a>, <a class="el" href="../../d1/ddb/zwrite_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, and <a class="el" href="../../d5/dd8/musl_2src_2unistd_2write_8c_source.html#l00004">write()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d80/zcatfd_8c_source.html#l00047">zcatfd()</a>.</p>
 
@@ -188,7 +189,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> errno</td>
+          <td class="memname">int errno</td>
         </tr>
       </table>
   </td>

@@ -92,13 +92,13 @@ $(document).ready(function(){initNavTree('d8/d10/tcflush_8c.html','../../'); ini
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;termios.h&gt;</code><br />
-<code>#include &lt;sys/ioctl.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d3/d9a/include_2sys_2ioctl_8h_source.html">sys/ioctl.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d8/d10/tcflush_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2c389cc87ff3b7ca72e772060580c92d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d10/tcflush_8c.html#a2c389cc87ff3b7ca72e772060580c92d">tcflush</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../dd/dbc/meta_8h.html#afa3b171e7e8509513e110d6bbfb5c203">queue</a>)</td></tr>
+<tr class="memitem:a2c389cc87ff3b7ca72e772060580c92d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d10/tcflush_8c.html#a2c389cc87ff3b7ca72e772060580c92d">tcflush</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, int <a class="el" href="../../dd/dbc/meta_8h.html#afa3b171e7e8509513e110d6bbfb5c203">queue</a>)</td></tr>
 <tr class="separator:a2c389cc87ff3b7ca72e772060580c92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,15 +109,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> tcflush </td>
+          <td class="memname">int tcflush </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>queue</em>&#160;</td>
         </tr>
         <tr>
@@ -130,13 +130,16 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d10/tcflush_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/d10/tcflush_8c_source.html">tcflush.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/dda/sys-ioctl_8cpp.html#a1487536105f7a596481bf6bfa8de99f6">ioctl</a>(fd, <a class="code" href="../../d7/d3f/musl_2arch_2generic_2bits_2ioctl_8h.html#abb10d65a540367ecd99480dab4dce082">TCFLSH</a>, <a class="code" href="../../dd/dbc/meta_8h.html#afa3b171e7e8509513e110d6bbfb5c203">queue</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/dfe/Userspace_2musl_2include_2stropts_8h.html#ae3a230c65883ec8edc50e3a09ca80003">ioctl</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#abb10d65a540367ecd99480dab4dce082">TCFLSH</a>, <a class="code" href="../../dd/dbc/meta_8h.html#afa3b171e7e8509513e110d6bbfb5c203">queue</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="aKernel_2include__std_2stropts_8h_html_abb10d65a540367ecd99480dab4dce082"><div class="ttname"><a href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#abb10d65a540367ecd99480dab4dce082">TCFLSH</a></div><div class="ttdeci">#define TCFLSH</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d78/Kernel_2include__std_2stropts_8h_source.html#l00063">stropts.h:63</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2stropts_8h_html_ae3a230c65883ec8edc50e3a09ca80003"><div class="ttname"><a href="../../d6/dfe/Userspace_2musl_2include_2stropts_8h.html#ae3a230c65883ec8edc50e3a09ca80003">ioctl</a></div><div class="ttdeci">int ioctl(int, int,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d32/ioctl_8c_source.html#l00128">ioctl.c:128</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="ameta_8h_html_afa3b171e7e8509513e110d6bbfb5c203"><div class="ttname"><a href="../../dd/dbc/meta_8h.html#afa3b171e7e8509513e110d6bbfb5c203">queue</a></div><div class="ttdeci">static void queue(struct meta **phead, struct meta *m)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dbc/meta_8h_source.html#l00075">meta.h:75</a></div></div>
-<div class="ttc" id="amusl_2arch_2generic_2bits_2ioctl_8h_html_abb10d65a540367ecd99480dab4dce082"><div class="ttname"><a href="../../d7/d3f/musl_2arch_2generic_2bits_2ioctl_8h.html#abb10d65a540367ecd99480dab4dce082">TCFLSH</a></div><div class="ttdeci">#define TCFLSH</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3f/musl_2arch_2generic_2bits_2ioctl_8h_source.html#l00021">ioctl.h:21</a></div></div>
-<div class="ttc" id="asys-ioctl_8cpp_html_a1487536105f7a596481bf6bfa8de99f6"><div class="ttname"><a href="../../d2/dda/sys-ioctl_8cpp.html#a1487536105f7a596481bf6bfa8de99f6">ioctl</a></div><div class="ttdeci">int ioctl(int fd, unsigned long request,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dda/sys-ioctl_8cpp_source.html#l00009">sys-ioctl.cpp:9</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/dda/sys-ioctl_8cpp_source.html#l00009">ioctl()</a>, <a class="el" href="../../dd/dbc/meta_8h_source.html#l00075">queue()</a>, and <a class="el" href="../../d7/d3f/musl_2arch_2generic_2bits_2ioctl_8h_source.html#l00021">TCFLSH</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../dc/d32/ioctl_8c_source.html#l00128">ioctl()</a>, <a class="el" href="../../dd/dbc/meta_8h_source.html#l00075">queue()</a>, and <a class="el" href="../../d4/d78/Kernel_2include__std_2stropts_8h_source.html#l00063">TCFLSH</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d65/bb__askpass_8c_source.html#l00016">bb_ask_noecho()</a>, <a class="el" href="../../df/db0/getty_8c_source.html#l00461">get_logname()</a>, <a class="el" href="../../df/db0/getty_8c_source.html#l00256">init_tty_attrs()</a>, <a class="el" href="../../d5/d1e/loginutils_2login_8c_source.html#l00319">login_main()</a>, and <a class="el" href="../../d7/d4f/rx_8c_source.html#l00074">receive()</a>.</p>
 
 </div>
 </div>

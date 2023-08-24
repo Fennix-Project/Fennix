@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d3/df8/psiginfo_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:adcb249b68109c180930b6d694a8d7f7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df8/psiginfo_8c.html#adcb249b68109c180930b6d694a8d7f7c">psiginfo</a> (const <a class="el" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *si, const char *msg)</td></tr>
+<tr class="memitem:adcb249b68109c180930b6d694a8d7f7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/df8/psiginfo_8c.html#adcb249b68109c180930b6d694a8d7f7c">psiginfo</a> (const <a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *si, const char *msg)</td></tr>
 <tr class="separator:adcb249b68109c180930b6d694a8d7f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,7 +110,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void psiginfo </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *&#160;</td>
           <td class="paramname"><em>si</em>, </td>
         </tr>
         <tr>
@@ -129,12 +129,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/df8/psiginfo_8c_source.html#l00003">3</a> of file <a class="el" href="../../d3/df8/psiginfo_8c_source.html">psiginfo.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d9/deb/psignal_8c.html#a465fbc359d76f7c9fc28be5208a97c42">psignal</a>(si-&gt;<a class="code" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a238821f6eb15317d3d7b10efef80b9c7">si_signo</a>, msg);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d9/deb/psignal_8c.html#a465fbc359d76f7c9fc28be5208a97c42">psignal</a>(si-&gt;si_signo, msg);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="amlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h_html_a238821f6eb15317d3d7b10efef80b9c7"><div class="ttname"><a href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a238821f6eb15317d3d7b10efef80b9c7">siginfo_t::si_signo</a></div><div class="ttdeci">int si_signo</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d36/mlibc_2abis_2linux_2signal_8h_source.html#l00018">signal.h:18</a></div></div>
 <div class="ttc" id="apsignal_8c_html_a465fbc359d76f7c9fc28be5208a97c42"><div class="ttname"><a href="../../d9/deb/psignal_8c.html#a465fbc359d76f7c9fc28be5208a97c42">psignal</a></div><div class="ttdeci">void psignal(int sig, const char *msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/deb/psignal_8c_source.html#l00006">psignal.c:6</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/deb/psignal_8c_source.html#l00006">psignal()</a>, and <a class="el" href="../../d3/d36/mlibc_2abis_2linux_2signal_8h_source.html#l00018">siginfo_t::si_signo</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/deb/psignal_8c_source.html#l00006">psignal()</a>.</p>
 
 </div>
 </div>

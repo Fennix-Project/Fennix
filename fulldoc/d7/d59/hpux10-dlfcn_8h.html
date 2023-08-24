@@ -105,18 +105,18 @@ Macros</h2></td></tr>
 <tr class="separator:a98a6517467cf7d1dd27d6c6dce78a6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace65454279c135fe5e6168d456c31263"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#ace65454279c135fe5e6168d456c31263">RTLD_GLOBAL</a>&#160;&#160;&#160;DYNAMIC_PATH</td></tr>
 <tr class="separator:ace65454279c135fe5e6168d456c31263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a54aa250435f8b1afcfb9f7a4f3de74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#a2a54aa250435f8b1afcfb9f7a4f3de74">dlopen</a>(file,  mode)&#160;&#160;&#160;(void *)shl_load((file), (mode), 0L)</td></tr>
+<tr class="memitem:a2a54aa250435f8b1afcfb9f7a4f3de74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#a2a54aa250435f8b1afcfb9f7a4f3de74">dlopen</a>(<a class="el" href="../../d4/d78/expr_8h.html#d7/d3a/structfile">file</a>,  mode)&#160;&#160;&#160;(void *)shl_load((<a class="el" href="../../d4/d78/expr_8h.html#d7/d3a/structfile">file</a>), (mode), 0L)</td></tr>
 <tr class="separator:a2a54aa250435f8b1afcfb9f7a4f3de74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa846dfe331c0d5d376b885d6459d13f5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aa846dfe331c0d5d376b885d6459d13f5">dlclose</a>(handle)&#160;&#160;&#160;shl_unload((shl_t)(handle))</td></tr>
 <tr class="separator:aa846dfe331c0d5d376b885d6459d13f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91043af5211f42fb82464a335172eef2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#a91043af5211f42fb82464a335172eef2">dlsym</a>(handle,  <a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>)&#160;&#160;&#160;(<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>=0,shl_findsym((shl_t *)&amp;(handle),<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>,TYPE_UNDEFINED,&amp;<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>), (void *)<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>)</td></tr>
+<tr class="memitem:a91043af5211f42fb82464a335172eef2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#a91043af5211f42fb82464a335172eef2">dlsym</a>(handle,  name)&#160;&#160;&#160;(<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>=0,shl_findsym((shl_t *)&amp;(handle),name,TYPE_UNDEFINED,&amp;<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>), (void *)<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>)</td></tr>
 <tr class="separator:a91043af5211f42fb82464a335172eef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28ae52457b250847336f8d0a7c15dcd3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#a28ae52457b250847336f8d0a7c15dcd3">dlerror</a>()&#160;&#160;&#160;<a class="el" href="../../db/dd6/musl_2src_2errno_2strerror_8c.html#ab11dd742e00adaee81acd3f7ed6af365">strerror</a>(<a class="el" href="../../d5/def/y_8tab_8c.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a>)</td></tr>
 <tr class="separator:a28ae52457b250847336f8d0a7c15dcd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a></td></tr>
+<tr class="memitem:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#ad65a8842cc674e3ddf69355898c0ecbf">errno</a></td></tr>
 <tr class="separator:ad65a8842cc674e3ddf69355898c0ecbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad1380c971f43623eae8004239abdd75"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a></td></tr>
 <tr class="separator:aad1380c971f43623eae8004239abdd75"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,7 +172,7 @@ Variables</h2></td></tr>
           <td class="memname">#define dlopen</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">file, </td>
+          <td class="paramname"><a class="el" href="../../d4/d78/expr_8h.html#d7/d3a/structfile">file</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -183,7 +183,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(void *)shl_load((file), (mode), 0L)</td>
+          <td></td><td>&#160;&#160;&#160;(void *)shl_load((<a class="el" href="../../d4/d78/expr_8h.html#d7/d3a/structfile">file</a>), (mode), 0L)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -208,12 +208,12 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>&#160;</td>
+          <td class="paramname">name&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>=0,shl_findsym((shl_t *)&amp;(handle),<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>,TYPE_UNDEFINED,&amp;<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>), (void *)<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>)</td>
+          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>=0,shl_findsym((shl_t *)&amp;(handle),name,TYPE_UNDEFINED,&amp;<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>), (void *)<a class="el" href="../../d7/d59/hpux10-dlfcn_8h.html#aad1380c971f43623eae8004239abdd75">bash_global_sym_addr</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -297,7 +297,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> errno</td>
+          <td class="memname">int errno</td>
         </tr>
       </table>
   </td>

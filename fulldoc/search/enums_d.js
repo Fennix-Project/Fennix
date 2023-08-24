@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['mem_5frel_5ft_58804',['mem_rel_t',['../db/dd7/memio_8h.html#a994115c838996d1160e859abea5db3ec',1,'memio.h']]],
-  ['memfile_5fmode_5ft_58805',['memfile_mode_t',['../d3/d55/memio_8c.html#a13704cf565ae42495bc522f21dd17573',1,'memio.c']]],
-  ['memorymapflags_58806',['MemoryMapFlags',['../d2/d6e/syscalls_8h.html#a410ef698233dd9808af5483ea337123a',1,'syscalls.h']]],
-  ['memorytype_58807',['MemoryType',['../d9/d36/binfo_8h.html#a462bfa9dfea81692463ecb192183dd01',1,'binfo.h']]],
-  ['midievent_58808',['midievent',['../d7/dbe/mus2mid_8c.html#a61d9cd7694627b0a8deb5ecbdf443aab',1,'mus2mid.c']]],
-  ['mobjflag_5ft_58809',['mobjflag_t',['../df/d05/p__mobj_8h.html#ae37ec392724acd5928ddef02e4a372f7',1,'p_mobj.h']]],
-  ['mobjtype_5ft_58810',['mobjtype_t',['../d4/d21/info_8h.html#a2f6c6c60c0362e9ea1cf7ffe4d1ccfbd',1,'info.h']]],
-  ['msrid_58811',['MSRID',['../de/d78/namespaceCPU_1_1x32.html#a6c41656dc4a6f098c79385cfedda7ff6',1,'CPU::x32::MSRID()'],['../d9/d25/namespaceCPU_1_1x64.html#a54d16e130528efcdb696a7571814f3bd',1,'CPU::x64::MSRID()']]],
-  ['musevent_58812',['musevent',['../d7/dbe/mus2mid_8c.html#a5b590153d23aef6533c8aef509b7a878',1,'mus2mid.c']]],
-  ['musicenum_5ft_58813',['musicenum_t',['../dc/ddc/sounds_8h.html#a78ab782fb72b1d992df5d30bf7270fa3',1,'sounds.h']]]
+  ['nativeaudiobusmasterboxoffsets_73262',['NativeAudioBusMasterBoxOffsets',['../d6/dc2/namespaceAudioCodec97.html#a7c14cc6342ba6a29f4bba97c18828390',1,'AudioCodec97']]],
+  ['nativeaudiobusmasterregisters_73263',['NativeAudioBusMasterRegisters',['../d6/dc2/namespaceAudioCodec97.html#adb0ecbd06e7856bcb83d290cdcdf1239',1,'AudioCodec97']]],
+  ['nativeaudiomixerregisters_73264',['NativeAudioMixerRegisters',['../d6/dc2/namespaceAudioCodec97.html#a9d9eacaae2b5b277eb2651a3ced1b021',1,'AudioCodec97']]],
+  ['nativesyscalls_73265',['NativeSyscalls',['../d2/d6e/syscalls_8h.html#a7646da588c70d4a6c38c0e3cef328fce',1,'syscalls.h']]],
+  ['net_5fmaster_5fpacket_5ftype_5ft_73266',['net_master_packet_type_t',['../d1/d3f/net__defs_8h.html#af31c09fb787a1bead7b56a5286ef5936',1,'net_defs.h']]],
+  ['net_5fpacket_5ftype_5ft_73267',['net_packet_type_t',['../d1/d3f/net__defs_8h.html#a13e6d730c706c7e785da4540a5f04cb1',1,'net_defs.h']]],
+  ['nodeflags_73268',['NodeFlags',['../d5/da1/namespaceVirtualFileSystem.html#a47411d848726acd2f7e1045a7bb7f7cf',1,'VirtualFileSystem']]]
 ];

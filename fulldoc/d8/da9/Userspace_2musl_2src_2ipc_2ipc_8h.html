@@ -125,9 +125,9 @@ Macros</h2></td></tr>
 <tr class="separator:ab4324778937b331f2d9c9039e6525e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfbe056426378feffd7eae38feb262cf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#adfbe056426378feffd7eae38feb262cf">IPC_TIME64</a>&#160;&#160;&#160;(<a class="el" href="../../da/d7e/sh_2bits_2ipcstat_8h.html#a16a91ee69c3cb6bfec425e1bfd5edd18">IPC_STAT</a> &amp; 0x100)</td></tr>
 <tr class="separator:adfbe056426378feffd7eae38feb262cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f8ab6e51ccd07fe45d3eb58d6d70822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a6f8ab6e51ccd07fe45d3eb58d6d70822">IPC_CMD</a>(cmd)&#160;&#160;&#160;(((cmd) &amp; ~<a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#adfbe056426378feffd7eae38feb262cf">IPC_TIME64</a>) | <a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#ab4324778937b331f2d9c9039e6525e64">IPC_64</a>)</td></tr>
+<tr class="memitem:a6f8ab6e51ccd07fe45d3eb58d6d70822"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a6f8ab6e51ccd07fe45d3eb58d6d70822">IPC_CMD</a>(<a class="el" href="../../d0/d6d/run__parts_8c.html#a6e357f839ebe13390815f0b749845972">cmd</a>)&#160;&#160;&#160;(((<a class="el" href="../../d0/d6d/run__parts_8c.html#a6e357f839ebe13390815f0b749845972">cmd</a>) &amp; ~<a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#adfbe056426378feffd7eae38feb262cf">IPC_TIME64</a>) | <a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#ab4324778937b331f2d9c9039e6525e64">IPC_64</a>)</td></tr>
 <tr class="separator:a6f8ab6e51ccd07fe45d3eb58d6d70822"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a558e2c7f434e5f54595fb871bc77dc76"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a558e2c7f434e5f54595fb871bc77dc76">IPC_HILO</a>(<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>,  <a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>)&#160;&#160;&#160;((<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)-&gt;<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a> = (<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)-&gt;__##<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>##_lo | 0LL+(<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)-&gt;__##<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>##_hi&lt;&lt;32)</td></tr>
+<tr class="memitem:a558e2c7f434e5f54595fb871bc77dc76"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#a558e2c7f434e5f54595fb871bc77dc76">IPC_HILO</a>(b,  <a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>)&#160;&#160;&#160;((b)-&gt;<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a> = (b)-&gt;__##<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>##_lo | 0LL+(b)-&gt;__##<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>##_hi&lt;&lt;32)</td></tr>
 <tr class="separator:a558e2c7f434e5f54595fb871bc77dc76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -157,8 +157,8 @@ Macros</h2></td></tr>
           <td class="memname">#define IPC_CMD</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">cmd</td><td>)</td>
-          <td>&#160;&#160;&#160;(((cmd) &amp; ~<a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#adfbe056426378feffd7eae38feb262cf">IPC_TIME64</a>) | <a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#ab4324778937b331f2d9c9039e6525e64">IPC_64</a>)</td>
+          <td class="paramname"><a class="el" href="../../d0/d6d/run__parts_8c.html#a6e357f839ebe13390815f0b749845972">cmd</a></td><td>)</td>
+          <td>&#160;&#160;&#160;(((<a class="el" href="../../d0/d6d/run__parts_8c.html#a6e357f839ebe13390815f0b749845972">cmd</a>) &amp; ~<a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#adfbe056426378feffd7eae38feb262cf">IPC_TIME64</a>) | <a class="el" href="../../d8/da9/Userspace_2musl_2src_2ipc_2ipc_8h.html#ab4324778937b331f2d9c9039e6525e64">IPC_64</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -177,7 +177,7 @@ Macros</h2></td></tr>
           <td class="memname">#define IPC_HILO</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>, </td>
+          <td class="paramname">b, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -188,7 +188,7 @@ Macros</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;((<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)-&gt;<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a> = (<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)-&gt;__##<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>##_lo | 0LL+(<a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)-&gt;__##<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>##_hi&lt;&lt;32)</td>
+          <td></td><td>&#160;&#160;&#160;((b)-&gt;<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a> = (b)-&gt;__##<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>##_lo | 0LL+(b)-&gt;__##<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>##_hi&lt;&lt;32)</td>
         </tr>
       </table>
 </div><div class="memdoc">

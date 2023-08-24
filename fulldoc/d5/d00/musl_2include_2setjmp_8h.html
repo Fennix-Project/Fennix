@@ -118,9 +118,9 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a108df8e067cd73712a2fece9a159e9e4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d00/musl_2include_2setjmp_8h.html#a108df8e067cd73712a2fece9a159e9e4">setjmp</a> (<a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a>) <a class="el" href="../../d5/d00/musl_2include_2setjmp_8h.html#ab765ceb7ce6a6dcbc11047cccfd0d833">__setjmp_attr</a></td></tr>
+<tr class="memitem:a108df8e067cd73712a2fece9a159e9e4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d00/musl_2include_2setjmp_8h.html#a108df8e067cd73712a2fece9a159e9e4">setjmp</a> (<a class="el" href="../../db/d5e/libc_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a>) <a class="el" href="../../d5/d00/musl_2include_2setjmp_8h.html#ab765ceb7ce6a6dcbc11047cccfd0d833">__setjmp_attr</a></td></tr>
 <tr class="separator:a108df8e067cd73712a2fece9a159e9e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf56e20169cc5a6d5c1a968e24d04623"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dd1/musl_2include_2features_8h.html#afdc60192553b70b37149691b71022d5a">_Noreturn</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d00/musl_2include_2setjmp_8h.html#aaf56e20169cc5a6d5c1a968e24d04623">longjmp</a> (<a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>)</td></tr>
+<tr class="memitem:aaf56e20169cc5a6d5c1a968e24d04623"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/dd1/musl_2include_2features_8h.html#afdc60192553b70b37149691b71022d5a">_Noreturn</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d00/musl_2include_2setjmp_8h.html#aaf56e20169cc5a6d5c1a968e24d04623">longjmp</a> (<a class="el" href="../../db/d5e/libc_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a>, int)</td></tr>
 <tr class="separator:aaf56e20169cc5a6d5c1a968e24d04623"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/><h2 class="groupheader">Data Structure Documentation</h2>
@@ -202,7 +202,7 @@ __ss[128/sizeof(long)]</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="../../d5/d00/musl_2include_2setjmp_8h.html#d6/de7/struct____jmp__buf__tag">__jmp_buf_tag</a> <a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a>[1]</td>
+          <td class="memname">typedef struct <a class="el" href="../../d5/d00/musl_2include_2setjmp_8h.html#d6/de7/struct____jmp__buf__tag">__jmp_buf_tag</a> <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a>[1]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -219,13 +219,13 @@ __ss[128/sizeof(long)]</td>
         <tr>
           <td class="memname"><a class="el" href="../../de/dd1/musl_2include_2features_8h.html#afdc60192553b70b37149691b71022d5a">_Noreturn</a> void longjmp </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/d5e/libc_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -236,6 +236,8 @@ __ss[128/sizeof(long)]</td>
       </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="../../d6/dcc/decompress__gunzip_8c_source.html#l00252">abort_unzip()</a>, <a class="el" href="../../d6/d9e/busybox_2coreutils_2test_8c_source.html#l00557">binop()</a>, <a class="el" href="../../d6/d55/timer__create_8c_source.html#l00024">cleanup_fromsig()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00380">do_relocs()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l10318">evalcommand()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l13469">evalstring()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l09306">evaltree()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l00624">exitshell()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l13402">expandstr()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l01303">extend_bfs_deps()</a>, <a class="el" href="../../d6/d86/fdisk_8c_source.html#l00612">fdisk_fatal()</a>, <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00115">get_bits()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l01259">load_direct_deps()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l01025">makefuncdescs()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l02077">prepare_lazy()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l01508">queue_ctors()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l05913">redirectsafe()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l01408">reloc_all()</a>, <a class="el" href="../../d0/dbf/siglongjmp_8c_source.html#l00006">siglongjmp()</a>, <a class="el" href="../../d6/d9e/busybox_2coreutils_2test_8c_source.html#l00459">syntax()</a>, and <a class="el" href="../../da/daa/nc__bloaty_8c_source.html#l00224">tmtravel()</a>.</p>
+
 </div>
 </div>
 <a id="a108df8e067cd73712a2fece9a159e9e4"></a>
@@ -245,9 +247,9 @@ __ss[128/sizeof(long)]</td>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> setjmp </td>
+          <td class="memname">int setjmp </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d6b/mlibc_2options_2ansi_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/d5e/libc_2include_2setjmp_8h.html#da/db0/structjmp__buf">jmp_buf</a>&#160;</td>
           <td class="paramname"><em>env</em></td><td>)</td>
           <td></td>
         </tr>

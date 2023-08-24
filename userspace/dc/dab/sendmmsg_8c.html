@@ -92,7 +92,7 @@ $(document).ready(function(){initNavTree('dc/dab/sendmmsg_8c.html','../../'); in
 <div class="title">sendmmsg.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;sys/socket.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d4/d92/include_2sys_2socket_8h_source.html">sys/socket.h</a>&gt;</code><br />
 <code>#include &lt;limits.h&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
@@ -106,7 +106,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a493b3c087171bc683923aa47617abfbf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/sendmmsg_8c.html#a493b3c087171bc683923aa47617abfbf">sendmmsg</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, struct <a class="el" href="../../d3/d72/mlibc_2sysdeps_2vinix_2include_2abi-bits_2socket_8h.html#d9/dba/structmmsghdr">mmsghdr</a> *msgvec, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> vlen, unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d6/d5a/videodev2_8h.html#aa2585d779da0ab21273a8d92de9a0ebe">flags</a>)</td></tr>
+<tr class="memitem:a493b3c087171bc683923aa47617abfbf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dab/sendmmsg_8c.html#a493b3c087171bc683923aa47617abfbf">sendmmsg</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, struct mmsghdr *msgvec, unsigned int vlen, unsigned int <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>)</td></tr>
 <tr class="separator:a493b3c087171bc683923aa47617abfbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -134,27 +134,27 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sendmmsg </td>
+          <td class="memname">int sendmmsg </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="../../d3/d72/mlibc_2sysdeps_2vinix_2include_2abi-bits_2socket_8h.html#d9/dba/structmmsghdr">mmsghdr</a> *&#160;</td>
+          <td class="paramtype">struct mmsghdr *&#160;</td>
           <td class="paramname"><em>msgvec</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>vlen</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">unsigned <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>flags</em>&#160;</td>
         </tr>
         <tr>
@@ -172,34 +172,32 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">     * idea for the types of msg_iovlen, msg_controllen, and cmsg_len,</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">     * and the cmsg blocks cannot be modified in-place. */</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (vlen &gt; <a class="code" href="../../d8/db3/mlibc_2abis_2linux_2limits_8h.html#a25080e819a36fcf9aede01a6e7298ea4">IOV_MAX</a>) vlen = <a class="code" href="../../d8/db3/mlibc_2abis_2linux_2limits_8h.html#a25080e819a36fcf9aede01a6e7298ea4">IOV_MAX</a>; <span class="comment">/* This matches the kernel. */</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (vlen &gt; IOV_MAX) vlen = IOV_MAX; <span class="comment">/* This matches the kernel. */</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (!vlen) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>=0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>&lt;vlen; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++) {</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="comment">/* As an unfortunate inconsistency, the sendmmsg API uses</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">         * unsigned int for the resulting msg_len, despite sendmsg</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">         * returning ssize_t. However Linux limits the total bytes</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">         * sent by sendmsg to INT_MAX, so the assignment is safe. */</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d2/d85/sys-socket-stubs_8cpp.html#acb96f233b9b2f19ed743d1fee2ec6fdc">sendmsg</a>(fd, &amp;msgvec[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>].msg_hdr, <a class="code" href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> &lt; 0) <span class="keywordflow">goto</span> <a class="code" href="../../d2/d8a/dlfcn_8c.html#a37a27b523e8aff433c8a4adda2295f0d">error</a>;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        msgvec[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>].<a class="code" href="../../d3/d72/mlibc_2sysdeps_2vinix_2include_2abi-bits_2socket_8h.html#ad4fa5ef6efd2bef5d288f4cd0507fe11">msg_len</a> = <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a> r = <a class="code" href="../../d4/d92/include_2sys_2socket_8h.html#acd2d240c8e3abb62cd73178c178be936">sendmsg</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a>, &amp;msgvec[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>].msg_hdr, <a class="code" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">if</span> (r &lt; 0) <span class="keywordflow">goto</span> <a class="code" href="../../d2/d8a/dlfcn_8c.html#a37a27b523e8aff433c8a4adda2295f0d">error</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        msgvec[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>].msg_len = r;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<a class="code" href="../../d2/d8a/dlfcn_8c.html#a37a27b523e8aff433c8a4adda2295f0d">error</a>:</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> ? <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> : -1;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_sendmmsg, fd, msgvec, vlen, <a class="code" href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_sendmmsg, <a class="code" href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a>, msgvec, vlen, <a class="code" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
 <div class="ttc" id="adlfcn_8c_html_a37a27b523e8aff433c8a4adda2295f0d"><div class="ttname"><a href="../../d2/d8a/dlfcn_8c.html#a37a27b523e8aff433c8a4adda2295f0d">error</a></div><div class="ttdeci">static char * error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d8a/dlfcn_8c_source.html#l00003">dlfcn.c:3</a></div></div>
+<div class="ttc" id="adumpkmap_8c_html_abb0829cce9dd20a40ae0d86890ae85c6"><div class="ttname"><a href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a></div><div class="ttdeci">#define flags</div></div>
 <div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
-<div class="ttc" id="agm__loop_8c_html_ac8bf36fe0577cba66bccda3a6f7e80a4"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a></div><div class="ttdeci">int flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00047">gm_loop.c:47</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="ainclude_2sys_2socket_8h_html_acd2d240c8e3abb62cd73178c178be936"><div class="ttname"><a href="../../d4/d92/include_2sys_2socket_8h.html#acd2d240c8e3abb62cd73178c178be936">sendmsg</a></div><div class="ttdeci">ssize_t sendmsg(int, const struct msghdr *, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d50/sendmsg_8c_source.html#l00007">sendmsg.c:7</a></div></div>
 <div class="ttc" id="alibc_2include_2sys_2types_8h_html_a87bd983bf349d8b86901f3200d559e8e"><div class="ttname"><a href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a></div><div class="ttdeci">__ssize_t ssize_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5b/libc_2include_2sys_2types_8h_source.html#l00033">types.h:33</a></div></div>
-<div class="ttc" id="amlibc_2abis_2linux_2limits_8h_html_a25080e819a36fcf9aede01a6e7298ea4"><div class="ttname"><a href="../../d8/db3/mlibc_2abis_2linux_2limits_8h.html#a25080e819a36fcf9aede01a6e7298ea4">IOV_MAX</a></div><div class="ttdeci">#define IOV_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db3/mlibc_2abis_2linux_2limits_8h_source.html#l00004">limits.h:4</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2vinix_2include_2abi-bits_2socket_8h_html_ad4fa5ef6efd2bef5d288f4cd0507fe11"><div class="ttname"><a href="../../d3/d72/mlibc_2sysdeps_2vinix_2include_2abi-bits_2socket_8h.html#ad4fa5ef6efd2bef5d288f4cd0507fe11">mmsghdr::msg_len</a></div><div class="ttdeci">unsigned int msg_len</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d08/mlibc_2abis_2linux_2socket_8h_source.html#l00031">socket.h:31</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
-<div class="ttc" id="asys-socket-stubs_8cpp_html_acb96f233b9b2f19ed743d1fee2ec6fdc"><div class="ttname"><a href="../../d2/d85/sys-socket-stubs_8cpp.html#acb96f233b9b2f19ed743d1fee2ec6fdc">sendmsg</a></div><div class="ttdeci">ssize_t sendmsg(int fd, const struct msghdr *hdr, int flags)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d85/sys-socket-stubs_8cpp_source.html#l00155">sys-socket-stubs.cpp:155</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d8a/dlfcn_8c_source.html#l00003">error</a>, <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00047">flags</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d8/db3/mlibc_2abis_2linux_2limits_8h_source.html#l00004">IOV_MAX</a>, <a class="el" href="../../d5/d08/mlibc_2abis_2linux_2socket_8h_source.html#l00031">mmsghdr::msg_len</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>, <a class="el" href="../../d2/d85/sys-socket-stubs_8cpp_source.html#l00155">sendmsg()</a>, and <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d8a/dlfcn_8c_source.html#l00003">error</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d8/d50/sendmsg_8c_source.html#l00007">sendmsg()</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
 
 </div>
 </div>

@@ -97,9 +97,9 @@ $(document).ready(function(){initNavTree('dc/d23/pthread__rwlock__rdlock_8c.html
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0a08e8b22652eeddb05955aca8a5a3cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d23/pthread__rwlock__rdlock_8c.html#a0a08e8b22652eeddb05955aca8a5a3cf">__pthread_rwlock_rdlock</a> (<a class="el" href="../../d2/d6c/mlibc_2options_2posix_2include_2pthread_8h.html#aebf354859b412e164c6aa1a83c602e4a">pthread_rwlock_t</a> *rw)</td></tr>
+<tr class="memitem:a0a08e8b22652eeddb05955aca8a5a3cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d23/pthread__rwlock__rdlock_8c.html#a0a08e8b22652eeddb05955aca8a5a3cf">__pthread_rwlock_rdlock</a> (pthread_rwlock_t *rw)</td></tr>
 <tr class="separator:a0a08e8b22652eeddb05955aca8a5a3cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a737cc4a16f3aa3f4a1ecf9d1b40d8beb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d23/pthread__rwlock__rdlock_8c.html#a737cc4a16f3aa3f4a1ecf9d1b40d8beb">weak_alias</a> (<a class="el" href="../../dc/d23/pthread__rwlock__rdlock_8c.html#a0a08e8b22652eeddb05955aca8a5a3cf">__pthread_rwlock_rdlock</a>, <a class="el" href="../../d4/dae/musl_2include_2pthread_8h.html#a760ec40fd48d249f3360e28b6b251935">pthread_rwlock_rdlock</a>)</td></tr>
+<tr class="memitem:a737cc4a16f3aa3f4a1ecf9d1b40d8beb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d23/pthread__rwlock__rdlock_8c.html#a737cc4a16f3aa3f4a1ecf9d1b40d8beb">weak_alias</a> (<a class="el" href="../../dc/d23/pthread__rwlock__rdlock_8c.html#a0a08e8b22652eeddb05955aca8a5a3cf">__pthread_rwlock_rdlock</a>, <a class="el" href="../../d0/d0c/include_2pthread_8h.html#a760ec40fd48d249f3360e28b6b251935">pthread_rwlock_rdlock</a>)</td></tr>
 <tr class="separator:a737cc4a16f3aa3f4a1ecf9d1b40d8beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,9 +110,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> __pthread_rwlock_rdlock </td>
+          <td class="memname">int __pthread_rwlock_rdlock </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d6c/mlibc_2options_2posix_2include_2pthread_8h.html#aebf354859b412e164c6aa1a83c602e4a">pthread_rwlock_t</a> *&#160;</td>
+          <td class="paramtype">pthread_rwlock_t *&#160;</td>
           <td class="paramname"><em>rw</em></td><td>)</td>
           <td></td>
         </tr>
@@ -121,11 +121,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d23/pthread__rwlock__rdlock_8c_source.html#l00003">3</a> of file <a class="el" href="../../dc/d23/pthread__rwlock__rdlock_8c_source.html">pthread_rwlock_rdlock.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/d26/musl_2src_2include_2pthread_8h.html#a7196ffe962c1a83e1ad85ca92bdc7904">__pthread_rwlock_timedrdlock</a>(rw, 0);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d63/src_2include_2pthread_8h.html#a7196ffe962c1a83e1ad85ca92bdc7904">__pthread_rwlock_timedrdlock</a>(rw, 0);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="amusl_2src_2include_2pthread_8h_html_a7196ffe962c1a83e1ad85ca92bdc7904"><div class="ttname"><a href="../../d3/d26/musl_2src_2include_2pthread_8h.html#a7196ffe962c1a83e1ad85ca92bdc7904">__pthread_rwlock_timedrdlock</a></div><div class="ttdeci">hidden int __pthread_rwlock_timedrdlock(pthread_rwlock_t *__restrict, const struct timespec *__restrict)</div></div>
+<div class="ttc" id="asrc_2include_2pthread_8h_html_a7196ffe962c1a83e1ad85ca92bdc7904"><div class="ttname"><a href="../../dd/d63/src_2include_2pthread_8h.html#a7196ffe962c1a83e1ad85ca92bdc7904">__pthread_rwlock_timedrdlock</a></div><div class="ttdeci">hidden int __pthread_rwlock_timedrdlock(pthread_rwlock_t *__restrict, const struct timespec *__restrict)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d26/musl_2src_2include_2pthread_8h.html#a7196ffe962c1a83e1ad85ca92bdc7904">__pthread_rwlock_timedrdlock()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d63/src_2include_2pthread_8h.html#a7196ffe962c1a83e1ad85ca92bdc7904">__pthread_rwlock_timedrdlock()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/db0/pthread__key__create_8c_source.html#l00024">__pthread_key_atfork()</a>, and <a class="el" href="../../df/db0/pthread__key__create_8c_source.html#l00077">__pthread_tsd_run_dtors()</a>.</p>
 
@@ -146,7 +146,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dae/musl_2include_2pthread_8h.html#a760ec40fd48d249f3360e28b6b251935">pthread_rwlock_rdlock</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0c/include_2pthread_8h.html#a760ec40fd48d249f3360e28b6b251935">pthread_rwlock_rdlock</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

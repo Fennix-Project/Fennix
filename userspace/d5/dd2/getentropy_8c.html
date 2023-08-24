@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('d5/dd2/getentropy_8c.html','../../'); 
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;unistd.h&gt;</code><br />
-<code>#include &lt;sys/random.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d9/d62/musl_2include_2sys_2random_8h_source.html">sys/random.h</a>&gt;</code><br />
 <code>#include &lt;pthread.h&gt;</code><br />
 <code>#include &lt;errno.h&gt;</code><br />
 </div>
@@ -106,7 +106,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a490bbcdb19be66b49fbb80c3200bdfc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd2/getentropy_8c.html#a490bbcdb19be66b49fbb80c3200bdfc7">getentropy</a> (void *<a class="el" href="../../d6/dc6/termcap_8c.html#dd/da2/structbuffer">buffer</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> len)</td></tr>
+<tr class="memitem:a490bbcdb19be66b49fbb80c3200bdfc7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd2/getentropy_8c.html#a490bbcdb19be66b49fbb80c3200bdfc7">getentropy</a> (void *<a class="el" href="../../d6/dc6/termcap_8c.html#dd/da2/structbuffer">buffer</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> len)</td></tr>
 <tr class="separator:a490bbcdb19be66b49fbb80c3200bdfc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -134,7 +134,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> getentropy </td>
+          <td class="memname">int getentropy </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>buffer</em>, </td>
@@ -142,7 +142,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -155,42 +155,43 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/dd2/getentropy_8c_source.html#l00007">7</a> of file <a class="el" href="../../d5/dd2/getentropy_8c_source.html">getentropy.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordtype">int</span> cs, <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = 0;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">char</span> *<a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a> = <a class="code" href="../../d9/d84/man2html_8c.html#aff2566f4c366b48d73479bef43ee4d2e">buffer</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordtype">int</span> cs, ret = 0;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">char</span> *<a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a> = <a class="code" href="../../d1/d18/less_8c.html#aaadc06b5dac8070de2c8677210967bdb">buffer</a>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">if</span> (len &gt; 256) {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a70979f50f9c83e5aebab3d6a1bd4cf35">EIO</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    }</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../df/d80/pthread-stubs_8cpp.html#a37075410fbbaad7ee93c95375fc86e0e">pthread_setcancelstate</a>(<a class="code" href="../../d2/d6c/mlibc_2options_2posix_2include_2pthread_8h.html#a6c661332f782dcebc87b878990424b4c">PTHREAD_CANCEL_DISABLE</a>, &amp;cs);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../d0/d0c/include_2pthread_8h.html#a49d13e09de089a26868011dee270a154">pthread_setcancelstate</a>(<a class="code" href="../../d0/d0c/include_2pthread_8h.html#a6c661332f782dcebc87b878990424b4c">PTHREAD_CANCEL_DISABLE</a>, &amp;cs);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">while</span> (len) {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../d5/d15/apps_2base_2bash_2lib_2sh_2random_8c.html#a2e619af3a7e7c8efe5938a7b8f4e3535">getrandom</a>(<a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>, len, 0);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> &lt; 0) {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        ret = <a class="code" href="../../d5/d15/apps_2base_2bash_2lib_2sh_2random_8c.html#a2e619af3a7e7c8efe5938a7b8f4e3535">getrandom</a>(<a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>, len, 0);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">if</span> (ret &lt; 0) {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> == <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a46b83d9f6c23b1b65a8cecfd775ddaed">EINTR</a>) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a> += <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        len -= <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = 0;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a> += ret;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        len -= ret;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        ret = 0;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    }</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../df/d80/pthread-stubs_8cpp.html#a37075410fbbaad7ee93c95375fc86e0e">pthread_setcancelstate</a>(cs, 0);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d0/d0c/include_2pthread_8h.html#a49d13e09de089a26868011dee270a154">pthread_setcancelstate</a>(cs, 0);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
 <div class="ttc" id="aapps_2base_2bash_2lib_2sh_2random_8c_html_a2e619af3a7e7c8efe5938a7b8f4e3535"><div class="ttname"><a href="../../d5/d15/apps_2base_2bash_2lib_2sh_2random_8c.html#a2e619af3a7e7c8efe5938a7b8f4e3535">getrandom</a></div><div class="ttdeci">static ssize_t getrandom(void *buf, size_t len, unsigned int flags)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d15/apps_2base_2bash_2lib_2sh_2random_8c_source.html#l00188">random.c:188</a></div></div>
-<div class="ttc" id="aapps_2base_2bash_2test_8c_html_a1910d262855b71da353ed0d07a6c7823"><div class="ttname"><a href="../../df/d14/apps_2base_2bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a></div><div class="ttdeci">static int pos</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d14/apps_2base_2bash_2test_8c_source.html#l00108">test.c:108</a></div></div>
+<div class="ttc" id="abash_2test_8c_html_a1910d262855b71da353ed0d07a6c7823"><div class="ttname"><a href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a></div><div class="ttdeci">static int pos</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd0/bash_2test_8c_source.html#l00108">test.c:108</a></div></div>
+<div class="ttc" id="ainclude_2pthread_8h_html_a49d13e09de089a26868011dee270a154"><div class="ttname"><a href="../../d0/d0c/include_2pthread_8h.html#a49d13e09de089a26868011dee270a154">pthread_setcancelstate</a></div><div class="ttdeci">int pthread_setcancelstate(int, int *)</div></div>
+<div class="ttc" id="ainclude_2pthread_8h_html_a6c661332f782dcebc87b878990424b4c"><div class="ttname"><a href="../../d0/d0c/include_2pthread_8h.html#a6c661332f782dcebc87b878990424b4c">PTHREAD_CANCEL_DISABLE</a></div><div class="ttdeci">#define PTHREAD_CANCEL_DISABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d0c/include_2pthread_8h_source.html#l00065">pthread.h:65</a></div></div>
+<div class="ttc" id="aless_8c_html_aaadc06b5dac8070de2c8677210967bdb"><div class="ttname"><a href="../../d1/d18/less_8c.html#aaadc06b5dac8070de2c8677210967bdb">buffer</a></div><div class="ttdeci">#define buffer</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d18/less_8c_source.html#l00257">less.c:257</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a46b83d9f6c23b1b65a8cecfd775ddaed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a46b83d9f6c23b1b65a8cecfd775ddaed">EINTR</a></div><div class="ttdeci">#define EINTR</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00007">errno.h:7</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a70979f50f9c83e5aebab3d6a1bd4cf35"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a70979f50f9c83e5aebab3d6a1bd4cf35">EIO</a></div><div class="ttdeci">#define EIO</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00008">errno.h:8</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
-<div class="ttc" id="aman2html_8c_html_aff2566f4c366b48d73479bef43ee4d2e"><div class="ttname"><a href="../../d9/d84/man2html_8c.html#aff2566f4c366b48d73479bef43ee4d2e">buffer</a></div><div class="ttdeci">static char * buffer</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d84/man2html_8c_source.html#l00431">man2html.c:431</a></div></div>
-<div class="ttc" id="amlibc_2options_2posix_2include_2pthread_8h_html_a6c661332f782dcebc87b878990424b4c"><div class="ttname"><a href="../../d2/d6c/mlibc_2options_2posix_2include_2pthread_8h.html#a6c661332f782dcebc87b878990424b4c">PTHREAD_CANCEL_DISABLE</a></div><div class="ttdeci">#define PTHREAD_CANCEL_DISABLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d6c/mlibc_2options_2posix_2include_2pthread_8h_source.html#l00039">pthread.h:39</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
-<div class="ttc" id="apthread-stubs_8cpp_html_a37075410fbbaad7ee93c95375fc86e0e"><div class="ttname"><a href="../../df/d80/pthread-stubs_8cpp.html#a37075410fbbaad7ee93c95375fc86e0e">pthread_setcancelstate</a></div><div class="ttdeci">int pthread_setcancelstate(int state, int *oldstate)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d80/pthread-stubs_8cpp_source.html#l00635">pthread-stubs.cpp:635</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/d84/man2html_8c_source.html#l00431">buffer</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00007">EINTR</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00008">EIO</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../d5/d15/apps_2base_2bash_2lib_2sh_2random_8c_source.html#l00188">getrandom()</a>, <a class="el" href="../../df/d14/apps_2base_2bash_2test_8c_source.html#l00108">pos</a>, <a class="el" href="../../d2/d6c/mlibc_2options_2posix_2include_2pthread_8h_source.html#l00039">PTHREAD_CANCEL_DISABLE</a>, <a class="el" href="../../df/d80/pthread-stubs_8cpp_source.html#l00635">pthread_setcancelstate()</a>, and <a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d18/less_8c_source.html#l00257">buffer</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00007">EINTR</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00008">EIO</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../d5/d15/apps_2base_2bash_2lib_2sh_2random_8c_source.html#l00188">getrandom()</a>, <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00108">pos</a>, <a class="el" href="../../d0/d0c/include_2pthread_8h_source.html#l00065">PTHREAD_CANCEL_DISABLE</a>, and <a class="el" href="../../d0/d0c/include_2pthread_8h.html#a49d13e09de089a26868011dee270a154">pthread_setcancelstate()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/d15/apps_2base_2bash_2lib_2sh_2random_8c_source.html#l00188">getrandom()</a>.</p>
 
 </div>
 </div>

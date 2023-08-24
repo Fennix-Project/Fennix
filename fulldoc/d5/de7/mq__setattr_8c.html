@@ -91,14 +91,14 @@ $(document).ready(function(){initNavTree('d5/de7/mq__setattr_8c.html','../../');
 <div class="title">mq_setattr.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;mqueue.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../df/df8/mqueue_8h_source.html">mqueue.h</a>&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
 </div>
 <p><a href="../../d5/de7/mq__setattr_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9c2c0c0c34050cc31c64b5b68541d0e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de7/mq__setattr_8c.html#a9c2c0c0c34050cc31c64b5b68541d0e1">mq_setattr</a> (<a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#a4820b065fbcbb30569e78e64ef5ad809">mqd_t</a> mqd, const struct <a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *restrict new, struct <a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *restrict old)</td></tr>
+<tr class="memitem:a9c2c0c0c34050cc31c64b5b68541d0e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/de7/mq__setattr_8c.html#a9c2c0c0c34050cc31c64b5b68541d0e1">mq_setattr</a> (<a class="el" href="../../df/df8/mqueue_8h.html#a4820b065fbcbb30569e78e64ef5ad809">mqd_t</a> mqd, const struct <a class="el" href="../../df/df8/mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *restrict new, struct <a class="el" href="../../df/df8/mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *restrict <a class="el" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a>)</td></tr>
 <tr class="separator:a9c2c0c0c34050cc31c64b5b68541d0e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,21 +109,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> mq_setattr </td>
+          <td class="memname">int mq_setattr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#a4820b065fbcbb30569e78e64ef5ad809">mqd_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/df8/mqueue_8h.html#a4820b065fbcbb30569e78e64ef5ad809">mqd_t</a>&#160;</td>
           <td class="paramname"><em>mqd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct <a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *restrict&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../df/df8/mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *restrict&#160;</td>
           <td class="paramname"><em>new</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *restrict&#160;</td>
+          <td class="paramtype">struct <a class="el" href="../../df/df8/mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *restrict&#160;</td>
           <td class="paramname"><em>old</em>&#160;</td>
         </tr>
         <tr>
@@ -136,11 +136,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/de7/mq__setattr_8c_source.html#l00004">4</a> of file <a class="el" href="../../d5/de7/mq__setattr_8c_source.html">mq_setattr.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_mq_getsetattr, mqd, <span class="keyword">new</span>, old);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_mq_getsetattr, mqd, <span class="keyword">new</span>, <a class="code" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="anmeter_8c_html_a3a539e6d7382aa2150a8ce8f33b91deb"><div class="ttname"><a href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a></div><div class="ttdeci">ullong old[CPU_FIELDCNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcd/nmeter_8c_source.html#l00351">nmeter.c:351</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/dcd/nmeter_8c_source.html#l00351">old</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 </div>
 </div>

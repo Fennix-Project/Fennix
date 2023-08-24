@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('db/d44/pthread__mutex__timedlock__time
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2d58e2cc930cf6b4c619de7fd2a02762"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d44/pthread__mutex__timedlock__time32_8c.html#a2d58e2cc930cf6b4c619de7fd2a02762">__pthread_mutex_timedlock_time32</a> (<a class="el" href="../../d2/d6c/mlibc_2options_2posix_2include_2pthread_8h.html#a48d62d90b00974bcecdaa5f3789fd420">pthread_mutex_t</a> *restrict m, const struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *restrict ts32)</td></tr>
+<tr class="memitem:a2d58e2cc930cf6b4c619de7fd2a02762"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d44/pthread__mutex__timedlock__time32_8c.html#a2d58e2cc930cf6b4c619de7fd2a02762">__pthread_mutex_timedlock_time32</a> (pthread_mutex_t *restrict m, const struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *restrict ts32)</td></tr>
 <tr class="separator:a2d58e2cc930cf6b4c619de7fd2a02762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,9 +110,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> __pthread_mutex_timedlock_time32 </td>
+          <td class="memname">int __pthread_mutex_timedlock_time32 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d6c/mlibc_2options_2posix_2include_2pthread_8h.html#a48d62d90b00974bcecdaa5f3789fd420">pthread_mutex_t</a> *restrict&#160;</td>
+          <td class="paramtype">pthread_mutex_t *restrict&#160;</td>
           <td class="paramname"><em>m</em>, </td>
         </tr>
         <tr>
@@ -131,15 +131,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d44/pthread__mutex__timedlock__time32_8c_source.html#l00005">5</a> of file <a class="el" href="../../db/d44/pthread__mutex__timedlock__time32_8c_source.html">pthread_mutex_timedlock_time32.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/d80/pthread-stubs_8cpp.html#a0fa3a6b0f1c03ed5aefeba9a82882db0">pthread_mutex_timedlock</a>(m, !ts32 ? 0 : (&amp;(<span class="keyword">struct</span> <a class="code" href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a>){</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d0c/include_2pthread_8h.html#a0fa3a6b0f1c03ed5aefeba9a82882db0">pthread_mutex_timedlock</a>(m, !ts32 ? 0 : (&amp;(<span class="keyword">struct</span> <a class="code" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a>){</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        .tv_sec = ts32-&gt;<a class="code" href="../../da/de1/time32_8h.html#af8db5cfd5569ae1a34067b62508db932">tv_sec</a>, .tv_nsec = ts32-&gt;<a class="code" href="../../da/de1/time32_8h.html#a92bde6cadfeb47e4c18369cc1196601f">tv_nsec</a>}));</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="apthread-stubs_8cpp_html_a0fa3a6b0f1c03ed5aefeba9a82882db0"><div class="ttname"><a href="../../df/d80/pthread-stubs_8cpp.html#a0fa3a6b0f1c03ed5aefeba9a82882db0">pthread_mutex_timedlock</a></div><div class="ttdeci">int pthread_mutex_timedlock(pthread_mutex_t *__restrict, const struct timespec *__restrict)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d80/pthread-stubs_8cpp_source.html#l01069">pthread-stubs.cpp:1069</a></div></div>
+<div class="ttc" id="ainclude_2pthread_8h_html_a0fa3a6b0f1c03ed5aefeba9a82882db0"><div class="ttname"><a href="../../d0/d0c/include_2pthread_8h.html#a0fa3a6b0f1c03ed5aefeba9a82882db0">pthread_mutex_timedlock</a></div><div class="ttdeci">int pthread_mutex_timedlock(pthread_mutex_t *__restrict, const struct timespec *__restrict)</div></div>
+<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
 <div class="ttc" id="atime32_8h_html_a92bde6cadfeb47e4c18369cc1196601f"><div class="ttname"><a href="../../da/de1/time32_8h.html#a92bde6cadfeb47e4c18369cc1196601f">timespec32::tv_nsec</a></div><div class="ttdeci">long tv_nsec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00020">time32.h:20</a></div></div>
 <div class="ttc" id="atime32_8h_html_af8db5cfd5569ae1a34067b62508db932"><div class="ttname"><a href="../../da/de1/time32_8h.html#af8db5cfd5569ae1a34067b62508db932">timespec32::tv_sec</a></div><div class="ttdeci">long tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00019">time32.h:19</a></div></div>
-<div class="ttc" id="atimespec_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d80/pthread-stubs_8cpp_source.html#l01069">pthread_mutex_timedlock()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d0c/include_2pthread_8h.html#a0fa3a6b0f1c03ed5aefeba9a82882db0">pthread_mutex_timedlock()</a>.</p>
 
 </div>
 </div>

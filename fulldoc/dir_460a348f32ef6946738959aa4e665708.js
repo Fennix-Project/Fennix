@@ -17,7 +17,7 @@ var dir_460a348f32ef6946738959aa4e665708 =
     [ "ksigaction.h", "dd/d75/src_2internal_2ksigaction_8h.html", "dd/d75/src_2internal_2ksigaction_8h" ],
     [ "libc.c", "de/d78/libc_8c.html", "de/d78/libc_8c" ],
     [ "libc.h", "db/dc8/libc_8h.html", "db/dc8/libc_8h" ],
-    [ "libm.h", "de/db3/musl_2src_2internal_2libm_8h.html", "de/db3/musl_2src_2internal_2libm_8h" ],
+    [ "libm.h", "d9/ded/libm_8h.html", "d9/ded/libm_8h" ],
     [ "locale_impl.h", "d7/d76/locale__impl_8h.html", "d7/d76/locale__impl_8h" ],
     [ "lock.h", "dd/d42/lock_8h.html", "dd/d42/lock_8h" ],
     [ "procfdname.c", "d0/df8/procfdname_8c.html", "d0/df8/procfdname_8c" ],
@@ -25,7 +25,7 @@ var dir_460a348f32ef6946738959aa4e665708 =
     [ "shgetc.c", "d3/d41/shgetc_8c.html", "d3/d41/shgetc_8c" ],
     [ "shgetc.h", "db/dd6/shgetc_8h.html", "db/dd6/shgetc_8h" ],
     [ "stdio_impl.h", "d8/d0b/stdio__impl_8h.html", "d8/d0b/stdio__impl_8h" ],
-    [ "syscall.h", "dc/d89/musl_2src_2internal_2syscall_8h.html", "dc/d89/musl_2src_2internal_2syscall_8h" ],
+    [ "syscall.h", "de/da8/src_2internal_2syscall_8h.html", "de/da8/src_2internal_2syscall_8h" ],
     [ "syscall_ret.c", "dc/df5/syscall__ret_8c.html", "dc/df5/syscall__ret_8c" ],
     [ "vdso.c", "d2/d68/vdso_8c.html", null ],
     [ "version.c", "d7/d8b/musl_2src_2internal_2version_8c.html", "d7/d8b/musl_2src_2internal_2version_8c" ]

@@ -90,19 +90,18 @@ $(document).ready(function(){initNavTree('dc/df5/syscall__ret_8c_source.html','.
 </div><!--header-->
 <div class="contents">
 <a href="../../dc/df5/syscall__ret_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;errno.h&gt;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html">syscall.h</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html">syscall.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../dc/df5/syscall__ret_8c.html#ac5a9fe7bbf4e56db4c22dbb286f18f45">    4</a></span>&#160;<span class="keywordtype">long</span> <a class="code" href="../../dc/df5/syscall__ret_8c.html#ac5a9fe7bbf4e56db4c22dbb286f18f45">__syscall_ret</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>)</div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../dc/df5/syscall__ret_8c.html#ac5a9fe7bbf4e56db4c22dbb286f18f45">    4</a></span>&#160;<span class="keywordtype">long</span> <a class="code" href="../../dc/df5/syscall__ret_8c.html#ac5a9fe7bbf4e56db4c22dbb286f18f45">__syscall_ret</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> r)</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> &gt; -4096UL) {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = -<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (r &gt; -4096UL) {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = -r;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    }</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> r;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00409">errno.h:409</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html">syscall.h</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html">syscall.h</a></div></div>
 <div class="ttc" id="asyscall__ret_8c_html_ac5a9fe7bbf4e56db4c22dbb286f18f45"><div class="ttname"><a href="../../dc/df5/syscall__ret_8c.html#ac5a9fe7bbf4e56db4c22dbb286f18f45">__syscall_ret</a></div><div class="ttdeci">long __syscall_ret(unsigned long r)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df5/syscall__ret_8c_source.html#l00004">syscall_ret.c:4</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('de/d86/pthread__barrier__init_8c.html'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa18000785312a34eb7b67a5707315b35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/pthread__barrier__init_8c.html#aa18000785312a34eb7b67a5707315b35">pthread_barrier_init</a> (<a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#aa8e531167fa7b7ac3a7658bc26c202d7">pthread_barrier_t</a> *restrict <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>, const <a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#ae80a08bb178e6820685036e9f446a992">pthread_barrierattr_t</a> *restrict a, unsigned <a class="el" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
+<tr class="memitem:aa18000785312a34eb7b67a5707315b35"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d86/pthread__barrier__init_8c.html#aa18000785312a34eb7b67a5707315b35">pthread_barrier_init</a> (pthread_barrier_t *restrict b, const pthread_barrierattr_t *restrict a, unsigned <a class="el" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>)</td></tr>
 <tr class="separator:aa18000785312a34eb7b67a5707315b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,15 +108,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> pthread_barrier_init </td>
+          <td class="memname">int pthread_barrier_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#aa8e531167fa7b7ac3a7658bc26c202d7">pthread_barrier_t</a> *restrict&#160;</td>
+          <td class="paramtype">pthread_barrier_t *restrict&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#ae80a08bb178e6820685036e9f446a992">pthread_barrierattr_t</a> *restrict&#160;</td>
+          <td class="paramtype">const pthread_barrierattr_t *restrict&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
@@ -135,17 +135,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d86/pthread__barrier__init_8c_source.html#l00003">3</a> of file <a class="el" href="../../de/d86/pthread__barrier__init_8c_source.html">pthread_barrier_init.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>-1 &gt; <a class="code" href="../../d4/df4/Kernel_2include__std_2limits_8h.html#a9ec306f36d50c7375e74f0d1c55a3a67">INT_MAX</a>-1) <span class="keywordflow">return</span> <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    *<a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a> = (<a class="code" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#aa8e531167fa7b7ac3a7658bc26c202d7">pthread_barrier_t</a>){ ._b_limit = <a class="code" href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a>-1 | (a?a-&gt;__attr:0) };</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>-1 &gt; <a class="code" href="../../d4/df4/Kernel_2include__std_2limits_8h.html#a9ec306f36d50c7375e74f0d1c55a3a67">INT_MAX</a>-1) <span class="keywordflow">return</span> <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    *b = (pthread_barrier_t){ ._b_limit = <a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>-1 | (a?a-&gt;__attr:0) };</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdoc">Invalid argument.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">errno.h:85</a></div></div>
 <div class="ttc" id="aKernel_2include__std_2limits_8h_html_a9ec306f36d50c7375e74f0d1c55a3a67"><div class="ttname"><a href="../../d4/df4/Kernel_2include__std_2limits_8h.html#a9ec306f36d50c7375e74f0d1c55a3a67">INT_MAX</a></div><div class="ttdeci">#define INT_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00071">limits.h:71</a></div></div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2posix_2include_2pthread_8h_html_aa8e531167fa7b7ac3a7658bc26c202d7"><div class="ttname"><a href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#aa8e531167fa7b7ac3a7658bc26c202d7">pthread_barrier_t</a></div><div class="ttdeci">struct __mlibc_barrier pthread_barrier_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h_source.html#l00096">pthread.h:145</a></div></div>
-<div class="ttc" id="aat__quick__exit_8c_html_ad43c3812e6d13e0518d9f8b8f463ffcf"><div class="ttname"><a href="../../d8/d48/at__quick__exit_8c.html#ad43c3812e6d13e0518d9f8b8f463ffcf">count</a></div><div class="ttdeci">static int count</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d48/at__quick__exit_8c_source.html#l00009">at_quick_exit.c:9</a></div></div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a87c169f71ea6dba62ac7bf605cae509e"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a></div><div class="ttdeci">jmp_buf b</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">stdlib-stubs.cpp:68</a></div></div>
+<div class="ttc" id="add_8c_html_ac74ae34e9c58234aacabb6867b245c58"><div class="ttname"><a href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a></div><div class="ttdeci">#define count</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">b</a>, <a class="el" href="../../d8/d48/at__quick__exit_8c_source.html#l00009">count</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">EINVAL</a>, and <a class="el" href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00071">INT_MAX</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">EINVAL</a>, and <a class="el" href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00071">INT_MAX</a>.</p>
 
 </div>
 </div>

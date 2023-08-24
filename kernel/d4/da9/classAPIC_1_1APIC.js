@@ -15,7 +15,7 @@ var classAPIC_1_1APIC =
     [ "IPI", "d4/da9/classAPIC_1_1APIC.html#a8479fd958759f1679e36b97cd72ac346", null ],
     [ "IPI", "d4/da9/classAPIC_1_1APIC.html#a926d85840771caf9fdd03ab37f81c442", null ],
     [ "RawRedirectIRQ", "d4/da9/classAPIC_1_1APIC.html#a7e850f2ebb953eb8694bd1f878828a83", null ],
-    [ "RawRedirectIRQ", "d4/da9/classAPIC_1_1APIC.html#a8fb9f4ec3466d365bc41375d721b200c", null ],
+    [ "RawRedirectIRQ", "d4/da9/classAPIC_1_1APIC.html#a7e850f2ebb953eb8694bd1f878828a83", null ],
     [ "Read", "d4/da9/classAPIC_1_1APIC.html#a3d0bf25af33395f9706bd3f76009aec8", null ],
     [ "Read", "d4/da9/classAPIC_1_1APIC.html#a3d0bf25af33395f9706bd3f76009aec8", null ],
     [ "RedirectIRQ", "d4/da9/classAPIC_1_1APIC.html#af8878ec51c414e586897e36f2879e05b", null ],

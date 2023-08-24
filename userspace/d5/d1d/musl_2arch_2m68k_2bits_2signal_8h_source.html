@@ -149,15 +149,15 @@ $(document).ready(function(){initNavTree('d5/d1d/musl_2arch_2m68k_2bits_2signal_
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> sc_fpstate[216];</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;};</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">int</span> <a class="code" href="../../d5/d22/posix__signal_8h.html#a2e0c4a5cff308f4a2dd696e7765efec1">greg_t</a>, gregset_t[18];</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="keyword">typedef</span> <span class="keywordtype">int</span> greg_t, gregset_t[18];</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">int</span> f_pcr, f_psr, f_fpiaddr, f_fpregs[8][3];</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;} <a class="code" href="../../d5/d22/posix__signal_8h.html#a2399ee17d83ca21bc471e6ac97157151">fpregset_t</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;} fpregset_t;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">int</span> version;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    gregset_t gregs;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <a class="code" href="../../d5/d22/posix__signal_8h.html#d4/d1d/struct__libc__fpstate">fpregset_t</a> fpregs;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    fpregset_t fpregs;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;} mcontext_t;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>{</div>
@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('d5/d1d/musl_2arch_2m68k_2bits_2signal_
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;} mcontext_t;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">struct </span><a class="code" href="../../d5/dd4/posix__signal_8cpp.html#a1de473516b609718e256ee8a503c25fb">sigaltstack</a> {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="keyword">struct </span><a class="code" href="../../dc/d3d/sigaltstack_8c.html#a08eb84f187cc8f0a2861721838039bbc">sigaltstack</a> {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> *ss_sp;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">int</span> ss_flags;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">size_t</span> ss_size;</div>
@@ -176,10 +176,10 @@ $(document).ready(function(){initNavTree('d5/d1d/musl_2arch_2m68k_2bits_2signal_
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct </span>__ucontext {</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> uc_flags;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keyword">struct </span>__ucontext *uc_link;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#df/d4a/struct____stack">stack_t</a> uc_stack;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    stack_t uc_stack;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    mcontext_t uc_mcontext;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">long</span> __reserved[80];</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> uc_sigmask;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> uc_sigmask;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;} ucontext_t;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#define SA_NOCLDSTOP  1</span></div>
@@ -229,12 +229,8 @@ $(document).ready(function(){initNavTree('d5/d1d/musl_2arch_2m68k_2bits_2signal_
 <div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="../../d5/d1d/musl_2arch_2m68k_2bits_2signal_8h.html#a11e925ada5a97c7bbb6b88de8ed543b4">  138</a></span>&#160;<span class="preprocessor">#define SIGUNUSED SIGSYS</span></div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
 <div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="../../d5/d1d/musl_2arch_2m68k_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">  140</a></span>&#160;<span class="preprocessor">#define _NSIG 65</span></div>
-<div class="ttc" id="alibc_2include_2bits_2types_2sigset__t_8h_html_a9140a5882f847f67b8155c759ac6aa05"><div class="ttname"><a href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a></div><div class="ttdeci">unsigned long sigset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h_source.html#l00004">sigset_t.h:4</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h_html_df/d4a/struct____stack"><div class="ttname"><a href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#df/d4a/struct____stack">__stack</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d36/mlibc_2abis_2linux_2signal_8h_source.html#l00153">signal.h:153</a></div></div>
-<div class="ttc" id="aposix__signal_8cpp_html_a1de473516b609718e256ee8a503c25fb"><div class="ttname"><a href="../../d5/dd4/posix__signal_8cpp.html#a1de473516b609718e256ee8a503c25fb">sigaltstack</a></div><div class="ttdeci">int sigaltstack(const stack_t *__restrict ss, stack_t *__restrict oss)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd4/posix__signal_8cpp_source.html#l00106">posix_signal.cpp:106</a></div></div>
-<div class="ttc" id="aposix__signal_8h_html_a2399ee17d83ca21bc471e6ac97157151"><div class="ttname"><a href="../../d5/d22/posix__signal_8h.html#a2399ee17d83ca21bc471e6ac97157151">fpregset_t</a></div><div class="ttdeci">struct _libc_fpstate * fpregset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d22/posix__signal_8h_source.html#l00054">posix_signal.h:54</a></div></div>
-<div class="ttc" id="aposix__signal_8h_html_a2e0c4a5cff308f4a2dd696e7765efec1"><div class="ttname"><a href="../../d5/d22/posix__signal_8h.html#a2e0c4a5cff308f4a2dd696e7765efec1">greg_t</a></div><div class="ttdeci">unsigned long int greg_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d22/posix__signal_8h_source.html#l00057">posix_signal.h:57</a></div></div>
-<div class="ttc" id="aposix__signal_8h_html_d4/d1d/struct__libc__fpstate"><div class="ttname"><a href="../../d5/d22/posix__signal_8h.html#d4/d1d/struct__libc__fpstate">_libc_fpstate</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d22/posix__signal_8h_source.html#l00040">posix_signal.h:40</a></div></div>
+<div class="ttc" id="asigaltstack_8c_html_a08eb84f187cc8f0a2861721838039bbc"><div class="ttname"><a href="../../dc/d3d/sigaltstack_8c.html#a08eb84f187cc8f0a2861721838039bbc">sigaltstack</a></div><div class="ttdeci">int sigaltstack(const stack_t *restrict ss, stack_t *restrict old)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/sigaltstack_8c_source.html#l00005">sigaltstack.c:5</a></div></div>
+<div class="ttc" id="asigset__t_8h_html_a9140a5882f847f67b8155c759ac6aa05"><div class="ttname"><a href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a></div><div class="ttdeci">unsigned long sigset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d90/sigset__t_8h_source.html#l00004">sigset_t.h:4</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

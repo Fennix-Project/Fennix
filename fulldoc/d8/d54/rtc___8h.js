@@ -1,0 +1,46 @@
+var rtc___8h =
+[
+    [ "linux_rtc_time", "d8/d54/rtc___8h.html#d4/d1b/structlinux__rtc__time", [
+      [ "tm_hour", "d8/d54/rtc___8h.html#afbb40b94feade848b9b88762f961ab48", null ],
+      [ "tm_isdst", "d8/d54/rtc___8h.html#afbf8e2ec74f7e160727f44c5d48f6c13", null ],
+      [ "tm_mday", "d8/d54/rtc___8h.html#acc09c3af8d5565d5916a4822e09496a4", null ],
+      [ "tm_min", "d8/d54/rtc___8h.html#a7208d15467d3d4dd52a3adc6ab76d7a1", null ],
+      [ "tm_mon", "d8/d54/rtc___8h.html#a48026aa9e224a625e1ec83eec7043cab", null ],
+      [ "tm_sec", "d8/d54/rtc___8h.html#a21d9266e47ca1a08b7db66f9a10faf17", null ],
+      [ "tm_wday", "d8/d54/rtc___8h.html#ac51c995cf87d68181039e4f9e15e214a", null ],
+      [ "tm_yday", "d8/d54/rtc___8h.html#a6f7c53a98920a892c9646b8e1d483a07", null ],
+      [ "tm_year", "d8/d54/rtc___8h.html#a1c17f9c6ab6c4bcc4a8688a80dd82aaa", null ]
+    ] ],
+    [ "linux_rtc_wkalrm", "d8/d54/rtc___8h.html#df/deb/structlinux__rtc__wkalrm", [
+      [ "enabled", "d8/d54/rtc___8h.html#a68cca5a043ee18965d8188a6b7bb94ce", null ],
+      [ "pending", "d8/d54/rtc___8h.html#a15b5879e639159803d6aa48b977b5130", null ],
+      [ "time", "d8/d54/rtc___8h.html#a4c586d6ceaeddf6a741c5da82de34a50", null ]
+    ] ],
+    [ "ADJTIME_PATH", "d8/d54/rtc___8h.html#ae2fc368b916e1b79c9c14edb62789768", null ],
+    [ "RTC_AF", "d8/d54/rtc___8h.html#a0ed62fab6c50790f2c4b71849f2000b2", null ],
+    [ "RTC_AIE_OFF", "d8/d54/rtc___8h.html#a23a0edcbffd9bc879c7d73b9bc6bda2e", null ],
+    [ "RTC_AIE_ON", "d8/d54/rtc___8h.html#a08a4e020c1013d999dcdbf3ef06364d2", null ],
+    [ "RTC_ALM_READ", "d8/d54/rtc___8h.html#a0f54347a3131ffe3ea3655538660b889", null ],
+    [ "RTC_ALM_SET", "d8/d54/rtc___8h.html#a6cef57026acfedfecae9d1ffea0fb434", null ],
+    [ "RTC_EPOCH_READ", "d8/d54/rtc___8h.html#a0d3d6ecc30837159447be116313dbf0f", null ],
+    [ "RTC_EPOCH_SET", "d8/d54/rtc___8h.html#a4cc72305f536c50f24eeb8f6d1352317", null ],
+    [ "RTC_IRQF", "d8/d54/rtc___8h.html#a01c8262113ddc3b618fb7c97395ed142", null ],
+    [ "RTC_IRQP_READ", "d8/d54/rtc___8h.html#a608a69b2797ff22d81525ce503908b7e", null ],
+    [ "RTC_IRQP_SET", "d8/d54/rtc___8h.html#a5c9fd18211fc3aa644533ae307543ebf", null ],
+    [ "RTC_PF", "d8/d54/rtc___8h.html#a9d9fa73fa39aa2500273df240594afe6", null ],
+    [ "RTC_PIE_OFF", "d8/d54/rtc___8h.html#a9d07a7489329e1203a99394c27f8cc2b", null ],
+    [ "RTC_PIE_ON", "d8/d54/rtc___8h.html#adb37fd8a6c08ba1df8d644368561fe93", null ],
+    [ "RTC_RD_TIME", "d8/d54/rtc___8h.html#ad8cf9fb266fa7e4f7a5087dd910a5950", null ],
+    [ "RTC_SET_TIME", "d8/d54/rtc___8h.html#a134b89ac34862b801f881adc1807087d", null ],
+    [ "RTC_UF", "d8/d54/rtc___8h.html#a7c63615d9172c9065f5b9d1875ef6d04", null ],
+    [ "RTC_UIE_OFF", "d8/d54/rtc___8h.html#a5200716b5c879ff0db6069a211561a47", null ],
+    [ "RTC_UIE_ON", "d8/d54/rtc___8h.html#ab84d7c98d5d1735cf32c09ca4952be5f", null ],
+    [ "RTC_WIE_OFF", "d8/d54/rtc___8h.html#aefe2955af88d93aaaa06264989a11d29", null ],
+    [ "RTC_WIE_ON", "d8/d54/rtc___8h.html#a8c3df295adb9169811411bdb5def5e8c", null ],
+    [ "RTC_WKALM_RD", "d8/d54/rtc___8h.html#a99c691fbeaf1fb2dfc08055a15577c76", null ],
+    [ "RTC_WKALM_SET", "d8/d54/rtc___8h.html#ab8229b9b43a8ddb3a9dca86462ab1721", null ],
+    [ "rtc_adjtime_is_utc", "d8/d54/rtc___8h.html#add6bbb3f9b898496a053da728f8aa41e", null ],
+    [ "rtc_read_tm", "d8/d54/rtc___8h.html#a1034a1232d4c811c920e1e3fe953ba15", null ],
+    [ "rtc_tm2time", "d8/d54/rtc___8h.html#ad87ea8a9805156a75dcaea57df7abb55", null ],
+    [ "rtc_xopen", "d8/d54/rtc___8h.html#a24e212f10621570335a64e6b68a2d0fd", null ]
+];

@@ -96,11 +96,13 @@ $(document).ready(function(){initNavTree('d7/d6d/i386_2cpu_2SymmetricMultiproces
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &lt;memory.hpp&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>&gt;</code><br />
 <code>#include &lt;assert.h&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../df/dbe/cpu_8hpp_source.html">cpu.hpp</a>&gt;</code><br />
 <code>#include &lt;atomic&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../../kernel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d9/d5b/i386_2cpu_2apic_8hpp_source.html">apic.hpp</a>&quot;</code><br />
 </div>
 <p><a href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -178,16 +180,16 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780"></a>TRAMPOLINE_START&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa37ea3c449f78f10cf43e15ad1a899dab">PAGE_TABLE</a> = 0x500,</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa2cbb2ee4b5b14b938027e51ab8744c8b">START_ADDR</a> = 0x520,</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa3bfeb3e4822bcc96abf42601a42bbcd3">STACK</a> = 0x570,</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa0ebd216ccf715efc8f6c10b6ece9b241">GDT</a> = 0x580,</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfaaf66ba20bd2c95236cedcd07886926c1">IDT</a> = 0x590,</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa6fb62912f795482b5e8a28aded6b02e9">CORE</a> = 0x600,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780">TRAMPOLINE_START</a> = 0x2000</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;};</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa37ea3c449f78f10cf43e15ad1a899dab">PAGE_TABLE</a> = 0x500,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa2cbb2ee4b5b14b938027e51ab8744c8b">START_ADDR</a> = 0x520,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa3bfeb3e4822bcc96abf42601a42bbcd3">STACK</a> = 0x570,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa0ebd216ccf715efc8f6c10b6ece9b241">GDT</a> = 0x580,</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfaaf66ba20bd2c95236cedcd07886926c1">IDT</a> = 0x590,</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa6fb62912f795482b5e8a28aded6b02e9">CORE</a> = 0x600,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780">TRAMPOLINE_START</a> = 0x2000</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;};</div>
 <div class="ttc" id="aamd64_2cpu_2SymmetricMultiprocessing_8cpp_html_a0b5c6e72cf6eb484d3b3f699288138dfa0ebd216ccf715efc8f6c10b6ece9b241"><div class="ttname"><a href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa0ebd216ccf715efc8f6c10b6ece9b241">GDT</a></div><div class="ttdeci">@ GDT</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00038">SymmetricMultiprocessing.cpp:38</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2SymmetricMultiprocessing_8cpp_html_a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780"><div class="ttname"><a href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa21a467d1df7f6bfa2d2b79ec0b812780">TRAMPOLINE_START</a></div><div class="ttdeci">@ TRAMPOLINE_START</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00042">SymmetricMultiprocessing.cpp:41</a></div></div>
 <div class="ttc" id="aamd64_2cpu_2SymmetricMultiprocessing_8cpp_html_a0b5c6e72cf6eb484d3b3f699288138dfa2cbb2ee4b5b14b938027e51ab8744c8b"><div class="ttname"><a href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp.html#a0b5c6e72cf6eb484d3b3f699288138dfa2cbb2ee4b5b14b938027e51ab8744c8b">START_ADDR</a></div><div class="ttdeci">@ START_ADDR</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d9c/amd64_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00036">SymmetricMultiprocessing.cpp:36</a></div></div>
@@ -241,8 +243,8 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{ <span class="keywordflow">return</span> &amp;CPUs[id]; }</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{ <span class="keywordflow">return</span> &amp;CPUs[id]; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -261,25 +263,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00046">46</a> of file <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = 0;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span> (!(&amp;CPUs[<a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>])-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a>)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">// error(&quot;CPU %d is not active!&quot;, ret); FIXME</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">return</span> &amp;CPUs[0];</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>((&amp;CPUs[<a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>])-&gt;<a class="code" href="../../d9/d36/binfo_8h.html#ae129e9c4d84501484102e80f8b35d1da">Checksum</a> == <a class="code" href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a>);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> &amp;CPUs[<a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>];</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00048">48</a> of file <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;{</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> ret = 0;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (!(&amp;CPUs[ret])-&gt;<a class="code" href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a>)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="comment">// error(&quot;CPU %d is not active!&quot;, ret); FIXME</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">return</span> &amp;CPUs[0];</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>((&amp;CPUs[ret])-&gt;<a class="code" href="../../d9/d36/binfo_8h.html#ae129e9c4d84501484102e80f8b35d1da">Checksum</a> == <a class="code" href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">return</span> &amp;CPUs[ret];</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
 <div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
 <div class="ttc" id="aKernel_2include__std_2assert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/d6b/Kernel_2include__std_2assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert.h:23</a></div></div>
 <div class="ttc" id="abinfo_8h_html_ae129e9c4d84501484102e80f8b35d1da"><div class="ttname"><a href="../../d9/d36/binfo_8h.html#ae129e9c4d84501484102e80f8b35d1da">Checksum</a></div><div class="ttdeci">__UINT8_TYPE__ Checksum</div><div class="ttdoc">Checksum.</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d36/binfo_8h_source.html#l00007">binfo.h:7</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a39c988cf13da29ba3d8293d925456ab1"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a39c988cf13da29ba3d8293d925456ab1">CPU_DATA_CHECKSUM</a></div><div class="ttdeci">#define CPU_DATA_CHECKSUM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00028">smp.hpp:28</a></div></div>
 <div class="ttc" id="asmp_8hpp_html_a92c6b1cf703f9e064f5efc0907f80379"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a92c6b1cf703f9e064f5efc0907f80379">IsActive</a></div><div class="ttdeci">bool IsActive</div><div class="ttdoc">Is CPU online?</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00025">smp.hpp:25</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00007">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">CPU_DATA_CHECKSUM</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00025">IsActive</a>, and <a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>.</p>
+<p class="reference">References <a class="el" href="../../dc/d6b/Kernel_2include__std_2assert_8h_source.html#l00023">assert</a>, <a class="el" href="../../d9/d36/binfo_8h_source.html#l00007">Checksum</a>, <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00028">CPU_DATA_CHECKSUM</a>, and <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00025">IsActive</a>.</p>
 
 </div>
 </div>
@@ -296,7 +297,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html#l00041">41</a> of file <a class="el" href="../../d7/d6d/i386_2cpu_2SymmetricMultiprocessing_8cpp_source.html">SymmetricMultiprocessing.cpp</a>.</p>
 
 </div>
 </div>

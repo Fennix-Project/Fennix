@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d9/d9f/futimens__time32_8c.html','../.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0fdce502655f2063e4e9cddd9ef4ff45"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9f/futimens__time32_8c.html#a0fdce502655f2063e4e9cddd9ef4ff45">__futimens_time32</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, const struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *times32)</td></tr>
+<tr class="memitem:a0fdce502655f2063e4e9cddd9ef4ff45"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d9f/futimens__time32_8c.html#a0fdce502655f2063e4e9cddd9ef4ff45">__futimens_time32</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, const struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *times32)</td></tr>
 <tr class="separator:a0fdce502655f2063e4e9cddd9ef4ff45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,9 +110,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> __futimens_time32 </td>
+          <td class="memname">int __futimens_time32 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
         </tr>
         <tr>
@@ -131,16 +131,17 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d9f/futimens__time32_8c_source.html#l00005">5</a> of file <a class="el" href="../../d9/d9f/futimens__time32_8c_source.html">futimens_time32.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d9b/sys-stat-stubs_8cpp.html#a47b7022461e3f65e812f461652ecc97f">futimens</a>(fd, !times32 ? 0 : ((<span class="keyword">struct</span> <a class="code" href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a>[2]){</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a68cbe4de37e6e9d2d329247bf8e14cf8">futimens</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a>, !times32 ? 0 : ((<span class="keyword">struct</span> <a class="code" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a>[2]){</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        {.tv_sec = times32[0].<a class="code" href="../../da/de1/time32_8h.html#af8db5cfd5569ae1a34067b62508db932">tv_sec</a>,.tv_nsec = times32[0].<a class="code" href="../../da/de1/time32_8h.html#a92bde6cadfeb47e4c18369cc1196601f">tv_nsec</a>},</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        {.tv_sec = times32[1].<a class="code" href="../../da/de1/time32_8h.html#af8db5cfd5569ae1a34067b62508db932">tv_sec</a>,.tv_nsec = times32[1].<a class="code" href="../../da/de1/time32_8h.html#a92bde6cadfeb47e4c18369cc1196601f">tv_nsec</a>}}));</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
-<div class="ttc" id="asys-stat-stubs_8cpp_html_a47b7022461e3f65e812f461652ecc97f"><div class="ttname"><a href="../../db/d9b/sys-stat-stubs_8cpp.html#a47b7022461e3f65e812f461652ecc97f">futimens</a></div><div class="ttdeci">int futimens(int fd, const struct timespec times[2])</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9b/sys-stat-stubs_8cpp_source.html#l00045">sys-stat-stubs.cpp:45</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2sys_2stat_8h_html_a68cbe4de37e6e9d2d329247bf8e14cf8"><div class="ttname"><a href="../../dd/d14/Userspace_2musl_2include_2sys_2stat_8h.html#a68cbe4de37e6e9d2d329247bf8e14cf8">futimens</a></div><div class="ttdeci">int futimens(int, const struct timespec[2])</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d29/futimens_8c_source.html#l00003">futimens.c:3</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
 <div class="ttc" id="atime32_8h_html_a92bde6cadfeb47e4c18369cc1196601f"><div class="ttname"><a href="../../da/de1/time32_8h.html#a92bde6cadfeb47e4c18369cc1196601f">timespec32::tv_nsec</a></div><div class="ttdeci">long tv_nsec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00020">time32.h:20</a></div></div>
 <div class="ttc" id="atime32_8h_html_af8db5cfd5569ae1a34067b62508db932"><div class="ttname"><a href="../../da/de1/time32_8h.html#af8db5cfd5569ae1a34067b62508db932">timespec32::tv_sec</a></div><div class="ttdeci">long tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00019">time32.h:19</a></div></div>
-<div class="ttc" id="atimespec_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d9b/sys-stat-stubs_8cpp_source.html#l00045">futimens()</a>, <a class="el" href="../../da/de1/time32_8h_source.html#l00020">timespec32::tv_nsec</a>, and <a class="el" href="../../da/de1/time32_8h_source.html#l00019">timespec32::tv_sec</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../de/d29/futimens_8c_source.html#l00003">futimens()</a>, <a class="el" href="../../da/de1/time32_8h_source.html#l00020">timespec32::tv_nsec</a>, and <a class="el" href="../../da/de1/time32_8h_source.html#l00019">timespec32::tv_sec</a>.</p>
 
 </div>
 </div>

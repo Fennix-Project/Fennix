@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('dc/df7/wcpncpy_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa68d78344fd049c3589cd2b158c53259"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df7/wcpncpy_8c.html#aa68d78344fd049c3589cd2b158c53259">wcpncpy</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *restrict d, const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *restrict s, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)</td></tr>
+<tr class="memitem:aa68d78344fd049c3589cd2b158c53259"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/df7/wcpncpy_8c.html#aa68d78344fd049c3589cd2b158c53259">wcpncpy</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *restrict d, const <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)</td></tr>
 <tr class="separator:aa68d78344fd049c3589cd2b158c53259"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -122,7 +122,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -135,13 +135,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/df7/wcpncpy_8c_source.html#l00003">3</a> of file <a class="el" href="../../dc/df7/wcpncpy_8c_source.html">wcpncpy.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a9415eeb4a638693b81a34ff7734d159c">wcsncpy</a>(d, s, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>) + <a class="code" href="../../d0/df0/wcsnlen_8c.html#ab7eba2a661b2c2ed59601036bbfa2161">wcsnlen</a>(s, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a331c0e1c4b56b01400fbc4bbf66d9c72">wcsncpy</a>(d, <a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>) + <a class="code" href="../../d0/df0/wcsnlen_8c.html#ab7eba2a661b2c2ed59601036bbfa2161">wcsnlen</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
+<div class="ttc" id="aUserspace_2musl_2include_2wchar_8h_html_a331c0e1c4b56b01400fbc4bbf66d9c72"><div class="ttname"><a href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a331c0e1c4b56b01400fbc4bbf66d9c72">wcsncpy</a></div><div class="ttdeci">wchar_t * wcsncpy(wchar_t *__restrict, const wchar_t *__restrict, size_t)</div></div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a9415eeb4a638693b81a34ff7734d159c"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a9415eeb4a638693b81a34ff7734d159c">wcsncpy</a></div><div class="ttdeci">wchar_t * wcsncpy(wchar_t *__restrict dest, const wchar_t *__restrict src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00251">string-stubs.cpp:251</a></div></div>
 <div class="ttc" id="awcsnlen_8c_html_ab7eba2a661b2c2ed59601036bbfa2161"><div class="ttname"><a href="../../d0/df0/wcsnlen_8c.html#ab7eba2a661b2c2ed59601036bbfa2161">wcsnlen</a></div><div class="ttdeci">size_t wcsnlen(const wchar_t *s, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df0/wcsnlen_8c_source.html#l00003">wcsnlen.c:3</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00251">wcsncpy()</a>, and <a class="el" href="../../d0/df0/wcsnlen_8c_source.html#l00003">wcsnlen()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a331c0e1c4b56b01400fbc4bbf66d9c72">wcsncpy()</a>, and <a class="el" href="../../d0/df0/wcsnlen_8c_source.html#l00003">wcsnlen()</a>.</p>
 
 </div>
 </div>

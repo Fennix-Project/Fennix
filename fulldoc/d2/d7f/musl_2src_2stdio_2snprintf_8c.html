@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d2/d7f/musl_2src_2stdio_2snprintf_8c.h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1dc034223e909f50a2458fcf93c94ad8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d7f/musl_2src_2stdio_2snprintf_8c.html#a1dc034223e909f50a2458fcf93c94ad8">snprintf</a> (char *restrict s, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, const char *restrict <a class="el" href="../../d6/d05/err_8cpp.html#a776e5cba9e51aac9902b10c9a2c354cc">fmt</a>,...)</td></tr>
+<tr class="memitem:a1dc034223e909f50a2458fcf93c94ad8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d7f/musl_2src_2stdio_2snprintf_8c.html#a1dc034223e909f50a2458fcf93c94ad8">snprintf</a> (char *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>, const char *restrict fmt,...)</td></tr>
 <tr class="separator:a1dc034223e909f50a2458fcf93c94ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> snprintf </td>
+          <td class="memname">int snprintf </td>
           <td>(</td>
           <td class="paramtype">char *restrict&#160;</td>
           <td class="paramname"><em>s</em>, </td>
@@ -117,7 +117,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
@@ -142,22 +142,22 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d7f/musl_2src_2stdio_2snprintf_8c_source.html#l00004">4</a> of file <a class="el" href="../../d2/d7f/musl_2src_2stdio_2snprintf_8c_source.html">snprintf.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> ap;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a>(ap, <a class="code" href="../../d6/d05/err_8cpp.html#a776e5cba9e51aac9902b10c9a2c354cc">fmt</a>);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = <a class="code" href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c.html#a93f2faab92096829141d811a1cf2b784">vsnprintf</a>(s, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>, <a class="code" href="../../d6/d05/err_8cpp.html#a776e5cba9e51aac9902b10c9a2c354cc">fmt</a>, ap);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a>(ap);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> ret;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a> <a class="code" href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#aa0628ab596c3d7e78f5e08c2d98e24da">va_start</a>(<a class="code" href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a>, fmt);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    ret = <a class="code" href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c.html#a93f2faab92096829141d811a1cf2b784">vsnprintf</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>, fmt, <a class="code" href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a823b205416e9129825841b74c3bf8484">va_end</a>(<a class="code" href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include_2types_8h_html_a2ed76bdaf83448883f275ac530e804e9"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a></div><div class="ttdeci">__builtin_va_list va_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00073">types.h:73</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a823b205416e9129825841b74c3bf8484"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a823b205416e9129825841b74c3bf8484">va_end</a></div><div class="ttdeci">#define va_end(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00077">types.h:77</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_aa0628ab596c3d7e78f5e08c2d98e24da"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#aa0628ab596c3d7e78f5e08c2d98e24da">va_start</a></div><div class="ttdeci">#define va_start(v, l)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00076">types.h:76</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_af53f622e3b6c080daeb167c1955d7ec1"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a></div><div class="ttdeci">__builtin_va_list va_list</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00073">types.h:73</a></div></div>
 <div class="ttc" id="aapps_2base_2bash_2lib_2sh_2snprintf_8c_html_a93f2faab92096829141d811a1cf2b784"><div class="ttname"><a href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c.html#a93f2faab92096829141d811a1cf2b784">vsnprintf</a></div><div class="ttdeci">int vsnprintf(char *string, size_t length, const char *format, va_list args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c_source.html#l01708">snprintf.c:1708</a></div></div>
+<div class="ttc" id="aarp_8c_html_a76d86451b3fb6fb6dc6a4b92b4bf3d49"><div class="ttname"><a href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a></div><div class="ttdeci">#define ap</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d94/arp_8c_source.html#l00083">arp.c:83</a></div></div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
-<div class="ttc" id="aerr_8cpp_html_a776e5cba9e51aac9902b10c9a2c354cc"><div class="ttname"><a href="../../d6/d05/err_8cpp.html#a776e5cba9e51aac9902b10c9a2c354cc">fmt</a></div><div class="ttdeci">const char * fmt</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d05/err_8cpp_source.html#l00026">err.cpp:26</a></div></div>
-<div class="ttc" id="aerr_8cpp_html_a8325641b40794a24f83bd134baab41ca"><div class="ttname"><a href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end</a></div><div class="ttdeci">va_end(params)</div></div>
-<div class="ttc" id="aerr_8cpp_html_a99630f30e015969e8479d586931c5848"><div class="ttname"><a href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start</a></div><div class="ttdeci">const char va_start(params, fmt)</div></div>
-<div class="ttc" id="amlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/d05/err_8cpp_source.html#l00026">fmt</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, <a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a8325641b40794a24f83bd134baab41ca">va_end()</a>, <a class="el" href="../../d6/d05/err_8cpp.html#a99630f30e015969e8479d586931c5848">va_start()</a>, and <a class="el" href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c_source.html#l01708">vsnprintf()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/d94/arp_8c_source.html#l00083">ap</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00077">va_end</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00076">va_start</a>, and <a class="el" href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c_source.html#l01708">vsnprintf()</a>.</p>
 
 </div>
 </div>

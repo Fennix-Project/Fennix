@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d5/d9c/i__joystick_8c.html#a57f4734a69c97a2adb1b42f20e26f846">   38</a></span>&#160;<span class="preprocessor">#define DEAD_ZONE (32768 / 3)</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">static</span> SDL_Joystick *joystick = <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keyword">static</span> SDL_Joystick *joystick = <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">// Configuration variables:</span></div>
@@ -168,10 +168,10 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="../../d5/d9c/i__joystick_8c.html#a2cce7fa450e07784fe074760cf3212cc">   77</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/d9c/i__joystick_8c.html#a2cce7fa450e07784fe074760cf3212cc">I_ShutdownJoystick</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;{</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">if</span> (joystick != <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>)</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">if</span> (joystick != <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        SDL_JoystickClose(joystick);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        joystick = <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        joystick = <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        SDL_QuitSubSystem(SDL_INIT_JOYSTICK);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    }</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -218,7 +218,7 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">if</span> (joystick_index &lt; 0 || joystick_index &gt;= SDL_NumJoysticks())</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;I_InitJoystick: Invalid joystick ID: %i\n&quot;</span>, <a class="code" href="../../d5/d9c/i__joystick_8c.html#a6786ac482d9fe632333dbfd262590cc6">joystick_index</a>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;I_InitJoystick: Invalid joystick ID: %i\n&quot;</span>, <a class="code" href="../../d5/d9c/i__joystick_8c.html#a6786ac482d9fe632333dbfd262590cc6">joystick_index</a>);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        SDL_QuitSubSystem(SDL_INIT_JOYSTICK);</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    }</div>
@@ -227,9 +227,9 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160; </div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    joystick = SDL_JoystickOpen(<a class="code" href="../../d5/d9c/i__joystick_8c.html#a6786ac482d9fe632333dbfd262590cc6">joystick_index</a>);</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">if</span> (joystick == <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>)</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">if</span> (joystick == <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    {</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;I_InitJoystick: Failed to open joystick #%i\n&quot;</span>,</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;I_InitJoystick: Failed to open joystick #%i\n&quot;</span>,</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;               <a class="code" href="../../d5/d9c/i__joystick_8c.html#a6786ac482d9fe632333dbfd262590cc6">joystick_index</a>);</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        SDL_QuitSubSystem(SDL_INIT_JOYSTICK);</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -239,12 +239,12 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;     || !IsValidAxis(<a class="code" href="../../d5/d9c/i__joystick_8c.html#a5440627e94d967eb9f71d82f3fc148d7">joystick_y_axis</a>)</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;     || !IsValidAxis(<a class="code" href="../../d5/d9c/i__joystick_8c.html#a3e303d6b525aeeb4eef8a7c0101318a2">joystick_strafe_axis</a>))</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    {</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;I_InitJoystick: Invalid joystick axis for joystick #%i &quot;</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;I_InitJoystick: Invalid joystick axis for joystick #%i &quot;</span></div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;               <span class="stringliteral">&quot;(run joystick setup again)\n&quot;</span>,</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;               <a class="code" href="../../d5/d9c/i__joystick_8c.html#a6786ac482d9fe632333dbfd262590cc6">joystick_index</a>);</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        SDL_JoystickClose(joystick);</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        joystick = <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        joystick = <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        SDL_QuitSubSystem(SDL_INIT_JOYSTICK);</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
@@ -252,7 +252,7 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="comment">// Initialized okay!</span></div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;I_InitJoystick: %s\n&quot;</span>, SDL_JoystickName(<a class="code" href="../../d5/d9c/i__joystick_8c.html#a6786ac482d9fe632333dbfd262590cc6">joystick_index</a>));</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;I_InitJoystick: %s\n&quot;</span>, SDL_JoystickName(<a class="code" href="../../d5/d9c/i__joystick_8c.html#a6786ac482d9fe632333dbfd262590cc6">joystick_index</a>));</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <a class="code" href="../../d9/d93/i__system_8c.html#a3d77cc4e1d9a8304d4a50e9b8dc2e98f">I_AtExit</a>(<a class="code" href="../../d5/d9c/i__joystick_8c.html#a2cce7fa450e07784fe074760cf3212cc">I_ShutdownJoystick</a>, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -319,26 +319,26 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="keyword">static</span> <span class="keywordtype">int</span> GetButtonsState(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;{</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordtype">int</span> result;</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160; </div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = 0;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    result = 0;</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; 20; ++<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>)</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    {</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="keywordflow">if</span> (ReadButtonState(<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>))</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        {</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> |= 1 &lt;&lt; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            result |= 1 &lt;&lt; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        }</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    }</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">return</span> result;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;}</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; </div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="comment">// Read the state of an axis, inverting if necessary.</span></div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="keyword">static</span> <span class="keywordtype">int</span> GetAxisState(<span class="keywordtype">int</span> axis, <span class="keywordtype">int</span> invert)</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;{</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordtype">int</span> result;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="comment">// Axis -1 means disabled.</span></div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
@@ -350,17 +350,17 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="comment">// Is this a button axis, or a hat axis?</span></div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="comment">// If so, we need to handle it specially.</span></div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = 0;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    result = 0;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/d3b/i__joystick_8h.html#a4187b4f897f2d394414242528ece761a">IS_BUTTON_AXIS</a>(axis))</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    {</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">if</span> (SDL_JoystickGetButton(joystick, <a class="code" href="../../d5/d3b/i__joystick_8h.html#ab25185fb2510404716cc9ed3c3e803d3">BUTTON_AXIS_NEG</a>(axis)))</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        {</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> -= 32767;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            result -= 32767;</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        }</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="keywordflow">if</span> (SDL_JoystickGetButton(joystick, <a class="code" href="../../d5/d3b/i__joystick_8h.html#a2b40eb39025c607a44954a0e92311fe8">BUTTON_AXIS_POS</a>(axis)))</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        {</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> += 32767;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            result += 32767;</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        }</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    }</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/d3b/i__joystick_8h.html#af03a082792d5686d6aefdaeabbcacab8">IS_HAT_AXIS</a>(axis))</div>
@@ -372,47 +372,47 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        {</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            <span class="keywordflow">if</span> ((hatval &amp; SDL_HAT_LEFT) != 0)</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            {</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> -= 32767;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                result -= 32767;</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            }</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((hatval &amp; SDL_HAT_RIGHT) != 0)</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            {</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> += 32767;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                result += 32767;</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            }</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        }</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (direction == <a class="code" href="../../d5/d3b/i__joystick_8h.html#adf94084dc8a8597e0f1e98b8dff676b5">HAT_AXIS_VERTICAL</a>)</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        {</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <span class="keywordflow">if</span> ((hatval &amp; SDL_HAT_UP) != 0)</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            {</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> -= 32767;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                result -= 32767;</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            }</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((hatval &amp; SDL_HAT_DOWN) != 0)</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            {</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> += 32767;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                result += 32767;</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            }</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        }</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    }</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    {</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = SDL_JoystickGetAxis(joystick, axis);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        result = SDL_JoystickGetAxis(joystick, axis);</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160; </div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result &lt; DEAD_ZONE &amp;&amp; result &gt;</a> -<a class="code" href="../../d5/d9c/i__joystick_8c.html#a57f4734a69c97a2adb1b42f20e26f846">DEAD_ZONE</a>)</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">if</span> (result &lt; DEAD_ZONE &amp;&amp; result &gt; -<a class="code" href="../../d5/d9c/i__joystick_8c.html#a57f4734a69c97a2adb1b42f20e26f846">DEAD_ZONE</a>)</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        {</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = 0;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            result = 0;</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        }</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    }</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160; </div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keywordflow">if</span> (invert)</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    {</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = -<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>;</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        result = -result;</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    }</div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160; </div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordflow">return</span> result;</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;}</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00321"></a><span class="lineno"><a class="line" href="../../d5/d9c/i__joystick_8c.html#a809adb5c1a445df2bfc2073102d279c9">  321</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/d9c/i__joystick_8c.html#a809adb5c1a445df2bfc2073102d279c9">I_UpdateJoystick</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;{</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor">#ifdef ORIGCODE</span></div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keywordflow">if</span> (joystick != <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>)</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keywordflow">if</span> (joystick != <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    {</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        <a class="code" href="../../dc/df3/d__event_8h.html#da/d67/structevent__t">event_t</a> ev;</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160; </div>
@@ -442,14 +442,14 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160; </div>
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../d5/d3b/i__joystick_8h.html#ab597a42fef94ebf83fd47bcb4a2317a0">NUM_VIRTUAL_BUTTONS</a>; ++<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>)</div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    {</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        <span class="keywordtype">char</span> <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>[32];</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <a class="code" href="../../d0/daa/m__misc_8c.html#a5544bd3872e3ace806c10fe30be2b335">M_snprintf</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, <span class="keyword">sizeof</span>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>), <span class="stringliteral">&quot;joystick_physical_button%i&quot;</span>, <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>);</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <a class="code" href="../../db/d66/m__config_8c.html#ae0770785eabf8d2c632ef2c56aaaef65">M_BindVariable</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, &amp;<a class="code" href="../../d5/d9c/i__joystick_8c.html#ada14e5472aae9a5a468067773ea42a42">joystick_physical_buttons</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        <span class="keywordtype">char</span> name[32];</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <a class="code" href="../../d0/daa/m__misc_8c.html#a5544bd3872e3ace806c10fe30be2b335">M_snprintf</a>(name, <span class="keyword">sizeof</span>(name), <span class="stringliteral">&quot;joystick_physical_button%i&quot;</span>, <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>);</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <a class="code" href="../../db/d66/m__config_8c.html#ae0770785eabf8d2c632ef2c56aaaef65">M_BindVariable</a>(name, &amp;<a class="code" href="../../d5/d9c/i__joystick_8c.html#ada14e5472aae9a5a468067773ea42a42">joystick_physical_buttons</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]);</div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    }</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;}</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160; </div>
-<div class="ttc" id="aKernel_2Library_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dbc/Kernel_2Library_2liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
-<div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
+<div class="ttc" id="aKernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
+<div class="ttc" id="aKernel_2include_2types_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">types.h:37</a></div></div>
 <div class="ttc" id="ad__event_8c_html_a5c20d3f64002c523f0d59acb8946a3cb"><div class="ttname"><a href="../../dc/da0/d__event_8c.html#a5c20d3f64002c523f0d59acb8946a3cb">D_PostEvent</a></div><div class="ttdeci">void D_PostEvent(event_t *ev)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da0/d__event_8c_source.html#l00035">d_event.c:35</a></div></div>
 <div class="ttc" id="ad__event_8h_html"><div class="ttname"><a href="../../dc/df3/d__event_8h.html">d_event.h</a></div></div>
 <div class="ttc" id="ad__event_8h_html_a217c278ebf32ee9b9facb1906caeffe0"><div class="ttname"><a href="../../dc/df3/d__event_8h.html#a217c278ebf32ee9b9facb1906caeffe0">event_t::data3</a></div><div class="ttdeci">int data3</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df3/d__event_8h_source.html#l00067">d_event.h:67</a></div></div>
@@ -491,8 +491,6 @@ $(document).ready(function(){initNavTree('d5/d9c/i__joystick_8c_source.html','..
 <div class="ttc" id="am__config_8h_html"><div class="ttname"><a href="../../d7/dc8/m__config_8h.html">m_config.h</a></div></div>
 <div class="ttc" id="am__misc_8c_html_a5544bd3872e3ace806c10fe30be2b335"><div class="ttname"><a href="../../d0/daa/m__misc_8c.html#a5544bd3872e3ace806c10fe30be2b335">M_snprintf</a></div><div class="ttdeci">int M_snprintf(char *buf, size_t buf_len, const char *s,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/daa/m__misc_8c_source.html#l00508">m_misc.c:508</a></div></div>
 <div class="ttc" id="am__misc_8h_html"><div class="ttname"><a href="../../d6/df1/m__misc_8h.html">m_misc.h</a></div></div>
-<div class="ttc" id="amlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c_html_d9/d98/structresult"><div class="ttname"><a href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c_source.html#l00018">test.c:18</a></div></div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

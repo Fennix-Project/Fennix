@@ -2,6 +2,8 @@ var classExecute_1_1ELFObject =
 [
     [ "ELFObject", "d3/dc8/classExecute_1_1ELFObject.html#a6bd9c2223352198ca9bc12b789d697bd", null ],
     [ "~ELFObject", "d3/dc8/classExecute_1_1ELFObject.html#aa22624fb8595d8017c6c3e17d8cf1b4b", null ],
+    [ "GenerateAuxiliaryVector_x86_32", "d3/dc8/classExecute_1_1ELFObject.html#a68ab70dc5147e49ef25fb04ce11fc1d9", null ],
+    [ "GenerateAuxiliaryVector_x86_64", "d3/dc8/classExecute_1_1ELFObject.html#a94e7b27253b0a65b02fe3f94c1084f15", null ],
     [ "LoadDyn_x86_32", "d3/dc8/classExecute_1_1ELFObject.html#a32bc8b7e9f0f7f8db1a3df58ff167740", null ],
     [ "LoadDyn_x86_64", "d3/dc8/classExecute_1_1ELFObject.html#a0843beec8e34e18eacca1d290ce01648", null ],
     [ "LoadExec_x86_32", "d3/dc8/classExecute_1_1ELFObject.html#ae8b05524769df726e64f2ccc3cdf4c57", null ],

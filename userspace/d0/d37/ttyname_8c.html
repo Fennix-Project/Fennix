@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d0/d37/ttyname_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2e03ec5f33c3405f50f5700331c2cfce"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d37/ttyname_8c.html#a2e03ec5f33c3405f50f5700331c2cfce">ttyname</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd)</td></tr>
+<tr class="memitem:a2e03ec5f33c3405f50f5700331c2cfce"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d37/ttyname_8c.html#a2e03ec5f33c3405f50f5700331c2cfce">ttyname</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)</td></tr>
 <tr class="separator:a2e03ec5f33c3405f50f5700331c2cfce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -112,7 +112,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">char* ttyname </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em></td><td>)</td>
           <td></td>
         </tr>
@@ -121,21 +121,21 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d37/ttyname_8c_source.html#l00005">5</a> of file <a class="el" href="../../d0/d37/ttyname_8c_source.html">ttyname.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">char</span> <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>[TTY_NAME_MAX];</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> ((<a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a> = <a class="code" href="../../dd/d08/unistd-stubs_8cpp.html#a6602aa07da6565feb6c44e61a9e74bc2">ttyname_r</a>(fd, <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <span class="keyword">sizeof</span> <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>))) {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a>;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">char</span> <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[TTY_NAME_MAX];</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> result;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> ((result = <a class="code" href="../../dc/d3f/platform_8c.html#a959654523479c5f997e812b3cf055879">ttyname_r</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <span class="keyword">sizeof</span> <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>))) {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = result;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
+<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
+<div class="ttc" id="ageneral_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d14/general_8h_source.html#l00053">general.h:53</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
-<div class="ttc" id="amlibc_2tests_2ansi_2longjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
-<div class="ttc" id="amlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c_html_d9/d98/structresult"><div class="ttname"><a href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c.html#d9/d98/structresult">result</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/ddf/mlibc_2tests_2rtdl_2dl__iterate__phdr_2test_8c_source.html#l00018">test.c:18</a></div></div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
-<div class="ttc" id="aunistd-stubs_8cpp_html_a6602aa07da6565feb6c44e61a9e74bc2"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#a6602aa07da6565feb6c44e61a9e74bc2">ttyname_r</a></div><div class="ttdeci">int ttyname_r(int fd, char *buf, size_t size)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00763">unistd-stubs.cpp:763</a></div></div>
+<div class="ttc" id="aplatform_8c_html_a959654523479c5f997e812b3cf055879"><div class="ttname"><a href="../../dc/d3f/platform_8c.html#a959654523479c5f997e812b3cf055879">ttyname_r</a></div><div class="ttdeci">int ttyname_r(int fd, char *buf, size_t buflen)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3f/platform_8c_source.html#l00211">platform.c:211</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">NULL</a>, and <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00763">ttyname_r()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d9/d14/general_8h_source.html#l00053">NULL</a>, and <a class="el" href="../../dc/d3f/platform_8c_source.html#l00211">ttyname_r()</a>.</p>
 
 </div>
 </div>

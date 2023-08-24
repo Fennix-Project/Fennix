@@ -89,15 +89,16 @@ $(document).ready(function(){initNavTree('d5/df0/personality_8c_source.html','..
 <div class="title">personality.c</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d5/df0/personality_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;sys/personality.h&gt;</span></div>
+<a href="../../d5/df0/personality_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/dc0/personality_8h.html">sys/personality.h</a>&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;syscall.h&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifdef SYS_personality</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../db/dae/musl_2include_2sys_2personality_8h.html#add1bd69d7a024ad310ecce315976a44d">personality</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> persona)</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../df/dc0/personality_8h.html#add1bd69d7a024ad310ecce315976a44d">personality</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> persona)</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_personality, persona);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="amusl_2include_2sys_2personality_8h_html_add1bd69d7a024ad310ecce315976a44d"><div class="ttname"><a href="../../db/dae/musl_2include_2sys_2personality_8h.html#add1bd69d7a024ad310ecce315976a44d">personality</a></div><div class="ttdeci">int personality(unsigned long)</div></div>
+<div class="ttc" id="apersonality_8h_html"><div class="ttname"><a href="../../df/dc0/personality_8h.html">personality.h</a></div></div>
+<div class="ttc" id="apersonality_8h_html_add1bd69d7a024ad310ecce315976a44d"><div class="ttname"><a href="../../df/dc0/personality_8h.html#add1bd69d7a024ad310ecce315976a44d">personality</a></div><div class="ttdeci">int personality(unsigned long)</div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

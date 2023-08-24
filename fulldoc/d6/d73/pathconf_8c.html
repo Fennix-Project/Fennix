@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d6/d73/pathconf_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa4ea4bbebf4841965159e66b5d1a49e8"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d73/pathconf_8c.html#aa4ea4bbebf4841965159e66b5d1a49e8">pathconf</a> (const char *path, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>)</td></tr>
+<tr class="memitem:aa4ea4bbebf4841965159e66b5d1a49e8"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d73/pathconf_8c.html#aa4ea4bbebf4841965159e66b5d1a49e8">pathconf</a> (const char *path, int name)</td></tr>
 <tr class="separator:aa4ea4bbebf4841965159e66b5d1a49e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -116,7 +116,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>name</em>&#160;</td>
         </tr>
         <tr>
@@ -129,12 +129,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d73/pathconf_8c_source.html#l00003">3</a> of file <a class="el" href="../../d6/d73/pathconf_8c_source.html">pathconf.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d08/unistd-stubs_8cpp.html#a1e36759a98eba6faae7e1d8915d7eda2">fpathconf</a>(-1, <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dad/Userspace_2musl_2include_2unistd_8h.html#a1e36759a98eba6faae7e1d8915d7eda2">fpathconf</a>(-1, name);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
-<div class="ttc" id="aunistd-stubs_8cpp_html_a1e36759a98eba6faae7e1d8915d7eda2"><div class="ttname"><a href="../../dd/d08/unistd-stubs_8cpp.html#a1e36759a98eba6faae7e1d8915d7eda2">fpathconf</a></div><div class="ttdeci">long fpathconf(int, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d08/unistd-stubs_8cpp_source.html#l00248">unistd-stubs.cpp:248</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2include_2unistd_8h_html_a1e36759a98eba6faae7e1d8915d7eda2"><div class="ttname"><a href="../../db/dad/Userspace_2musl_2include_2unistd_8h.html#a1e36759a98eba6faae7e1d8915d7eda2">fpathconf</a></div><div class="ttdeci">long fpathconf(int, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d58/fpathconf_8c_source.html#l00005">fpathconf.c:5</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d08/unistd-stubs_8cpp_source.html#l00248">fpathconf()</a>, and <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d58/fpathconf_8c_source.html#l00005">fpathconf()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/d00/apps_2base_2bash_2lib_2sh_2tmpfile_8c_source.html#l00095">get_tmpdir()</a>, and <a class="el" href="../../dd/d83/getconf_8c_source.html#l01037">getconf_print()</a>.</p>
 
 </div>
 </div>

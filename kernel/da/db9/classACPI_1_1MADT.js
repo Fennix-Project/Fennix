@@ -7,7 +7,7 @@ var classACPI_1_1MADT =
     [ "LAPIC", "da/db9/classACPI_1_1MADT.html#dc/de8/structACPI_1_1MADT_1_1LAPIC", [
       [ "id", "da/db9/classACPI_1_1MADT.html#a1b110fb36f72d3e09a9e5d880c6929ae", null ],
       [ "PhysicalAddress", "da/db9/classACPI_1_1MADT.html#ab51fa0bca1107b2c1e8bd8fcbfe42f6c", null ],
-      [ "VirtualAddress", "da/db9/classACPI_1_1MADT.html#ac13de4cee106d240606d993b332d1f3a", null ]
+      [ "VirtualAddress", "da/db9/classACPI_1_1MADT.html#af18d34a127d960f7fb9c9f40df0b04b9", null ]
     ] ],
     [ "LocalAPIC", "da/db9/classACPI_1_1MADT.html#dc/d88/structACPI_1_1MADT_1_1LocalAPIC", [
       [ "ACPIProcessorId", "da/db9/classACPI_1_1MADT.html#a70b4ffe9f9716d283a49abf3d71ef618", null ],
@@ -37,17 +37,15 @@ var classACPI_1_1MADT =
     ] ],
     [ "MADT", "da/db9/classACPI_1_1MADT.html#a755144daca151e74a2b40634c35e0f4a", null ],
     [ "~MADT", "da/db9/classACPI_1_1MADT.html#a76946fd6ab22794baa9bfcf607762b01", null ],
-    [ "MADT", "da/db9/classACPI_1_1MADT.html#a755144daca151e74a2b40634c35e0f4a", null ],
-    [ "~MADT", "da/db9/classACPI_1_1MADT.html#a76946fd6ab22794baa9bfcf607762b01", null ],
-    [ "__packed", "da/db9/classACPI_1_1MADT.html#a018071f072f7f5a60a4804d3c8d3cac0", null ],
+    [ "__packed", "da/db9/classACPI_1_1MADT.html#a3113fbfec8d6c939e51f2dcab2390b9a", null ],
     [ "__packed", "da/db9/classACPI_1_1MADT.html#a6fa3ae272113173eb2097c6b5d10f55f", null ],
     [ "__packed", "da/db9/classACPI_1_1MADT.html#a8540575267437650b6ee9e810d9cd17a", null ],
     [ "__packed", "da/db9/classACPI_1_1MADT.html#af96c8437f728c5342406803967d9d196", null ],
     [ "__packed", "da/db9/classACPI_1_1MADT.html#a018071f072f7f5a60a4804d3c8d3cac0", null ],
     [ "CPUCores", "da/db9/classACPI_1_1MADT.html#ad3f9e036f4413401813c7fc3c394f87a", null ],
-    [ "ioapic", "da/db9/classACPI_1_1MADT.html#a62e388a2f92a6676f39c56e3a5a40dc2", null ],
-    [ "iso", "da/db9/classACPI_1_1MADT.html#a1fea8df2f6d17ee272956339986bd5f8", null ],
-    [ "lapic", "da/db9/classACPI_1_1MADT.html#a3765780bcb0b5a77fd5ccb2641c9c7b6", null ],
-    [ "LAPICAddress", "da/db9/classACPI_1_1MADT.html#a8d5dccdfe1eecdab4f66ffc3a6898fb6", null ],
-    [ "nmi", "da/db9/classACPI_1_1MADT.html#ac16d4b79d658fccdea48a75b2e906f54", null ]
+    [ "ioapic", "da/db9/classACPI_1_1MADT.html#a154d6086b9bb4d53f53bb3ca32b7d968", null ],
+    [ "iso", "da/db9/classACPI_1_1MADT.html#ad4eacdf6b7b9c1dda2210ed7f49c8823", null ],
+    [ "lapic", "da/db9/classACPI_1_1MADT.html#a3c6b31d5c866db97dbc83aa8551bb597", null ],
+    [ "LAPICAddress", "da/db9/classACPI_1_1MADT.html#adf9825f7b240b6f5a26dbfed47c81890", null ],
+    [ "nmi", "da/db9/classACPI_1_1MADT.html#a12e1b85bddbcf348f0e96b63d06043a0", null ]
 ];

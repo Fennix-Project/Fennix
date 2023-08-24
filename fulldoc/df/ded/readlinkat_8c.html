@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('df/ded/readlinkat_8c.html','../../'); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7bf8c990885c1ab459264aa9f6f4fb4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/ded/readlinkat_8c.html#a7bf8c990885c1ab459264aa9f6f4fb4e">readlinkat</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, const char *restrict path, char *restrict <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> bufsize)</td></tr>
+<tr class="memitem:a7bf8c990885c1ab459264aa9f6f4fb4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/ded/readlinkat_8c.html#a7bf8c990885c1ab459264aa9f6f4fb4e">readlinkat</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, const char *restrict path, char *restrict <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> bufsize)</td></tr>
 <tr class="separator:a7bf8c990885c1ab459264aa9f6f4fb4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,7 +111,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a> readlinkat </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
         </tr>
         <tr>
@@ -129,7 +129,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>bufsize</em>&#160;</td>
         </tr>
         <tr>
@@ -144,20 +144,20 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">char</span> <a class="code" href="../../d9/d62/osdep_8c.html#acc752978a8a9354813076f8d236dee68">dummy</a>[1];</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (!bufsize) {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a> = <a class="code" href="../../d9/d62/osdep_8c.html#acc752978a8a9354813076f8d236dee68">dummy</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a> = <a class="code" href="../../d9/d62/osdep_8c.html#acc752978a8a9354813076f8d236dee68">dummy</a>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        bufsize = 1;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    }</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_readlinkat, fd, path, <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, bufsize);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a> == <a class="code" href="../../d9/d62/osdep_8c.html#acc752978a8a9354813076f8d236dee68">dummy</a> &amp;&amp; <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> &gt; 0) <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = 0;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">int</span> r = <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_readlinkat, <a class="code" href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a>, path, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, bufsize);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a> == <a class="code" href="../../d9/d62/osdep_8c.html#acc752978a8a9354813076f8d236dee68">dummy</a> &amp;&amp; r &gt; 0) r = 0;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(r);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="amlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">syscall.h:25</a></div></div>
-<div class="ttc" id="amlibc_2tests_2ansi_2longjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
+<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
+<div class="ttc" id="ahdparm_8c_html_a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="aosdep_8c_html_acc752978a8a9354813076f8d236dee68"><div class="ttname"><a href="../../d9/d62/osdep_8c.html#acc752978a8a9354813076f8d236dee68">dummy</a></div><div class="ttdeci">int dummy</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d62/osdep_8c_source.html#l00025">osdep.c:25</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">syscall.h:44</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">__syscall</a>, <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, <a class="el" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">buf</a>, and <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, and <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>.</p>
 
 </div>
 </div>

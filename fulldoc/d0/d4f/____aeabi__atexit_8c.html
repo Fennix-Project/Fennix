@@ -96,9 +96,9 @@ $(document).ready(function(){initNavTree('d0/d4f/____aeabi__atexit_8c.html','../
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afd023c7099547c0fe1c64a791a66e667"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a> (void(*func)(void *), void *<a class="el" href="../../d1/d40/vfwprintf_8c.html#d9/ddc/unionarg">arg</a>, void *<a class="el" href="../../d5/db0/dynlink_8c.html#d8/d6b/structdso">dso</a>)</td></tr>
+<tr class="memitem:afd023c7099547c0fe1c64a791a66e667"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a> (void(*<a class="el" href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a>)(void *), void *<a class="el" href="../../d1/d40/vfwprintf_8c.html#d9/ddc/unionarg">arg</a>, void *<a class="el" href="../../d5/db0/dynlink_8c.html#d8/d6b/structdso">dso</a>)</td></tr>
 <tr class="separator:afd023c7099547c0fe1c64a791a66e667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85f0de735b632cdff9f46eadc611ced1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4f/____aeabi__atexit_8c.html#a85f0de735b632cdff9f46eadc611ced1">__aeabi_atexit</a> (void *obj, void(*func)(void *), void *d)</td></tr>
+<tr class="memitem:a85f0de735b632cdff9f46eadc611ced1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d4f/____aeabi__atexit_8c.html#a85f0de735b632cdff9f46eadc611ced1">__aeabi_atexit</a> (void *obj, void(*<a class="el" href="../../de/dcc/awk_8c.html#a553299c54ca0f9dd61768a1f8a0e481a">func</a>)(void *), void *d)</td></tr>
 <tr class="separator:a85f0de735b632cdff9f46eadc611ced1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> __aeabi_atexit </td>
+          <td class="memname">int __aeabi_atexit </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>obj</em>, </td>
@@ -136,9 +136,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d4f/____aeabi__atexit_8c_source.html#l00003">3</a> of file <a class="el" href="../../d0/d4f/____aeabi__atexit_8c_source.html">__aeabi_atexit.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a> (func, obj, d);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a> (<a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a>, obj, d);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
 <div class="ttc" id="a____aeabi__atexit_8c_html_afd023c7099547c0fe1c64a791a66e667"><div class="ttname"><a href="../../d0/d4f/____aeabi__atexit_8c.html#afd023c7099547c0fe1c64a791a66e667">__cxa_atexit</a></div><div class="ttdeci">int __cxa_atexit(void(*func)(void *), void *arg, void *dso)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00074">cxxabi.cpp:74</a></div></div>
+<div class="ttc" id="aawk_8c_html_dd/d55/structfunc__s"><div class="ttname"><a href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func_s</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcc/awk_8c_source.html#l00140">awk.c:140</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00074">__cxa_atexit()</a>.</p>
 
@@ -151,7 +152,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> __cxa_atexit </td>
+          <td class="memname">int __cxa_atexit </td>
           <td>(</td>
           <td class="paramtype">void(*)(void *)&#160;</td>
           <td class="paramname"><em>func</em>, </td>
@@ -197,7 +198,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="astructatexit__func__entry__t_html_a9ba8d020fc72bad469b77318810b07a1"><div class="ttname"><a href="../../df/d34/structatexit__func__entry__t.html#a9ba8d020fc72bad469b77318810b07a1">atexit_func_entry_t::destructor_func</a></div><div class="ttdeci">void(* destructor_func)(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00034">cxxabi.cpp:34</a></div></div>
 <div class="ttc" id="astructatexit__func__entry__t_html_acb40396ef073b7b089e74cb0b91f0ef6"><div class="ttname"><a href="../../df/d34/structatexit__func__entry__t.html#acb40396ef073b7b089e74cb0b91f0ef6">atexit_func_entry_t::obj_ptr</a></div><div class="ttdeci">void * obj_ptr</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00035">cxxabi.cpp:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00072">__atexit_func_count</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00071">__atexit_funcs</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00019">fl::a</a>, <a class="el" href="../../d9/d84/man2html_8c_source.html#l00444">argument</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00024">ATEXIT_MAX_FUNCS</a>, <a class="el" href="../../d4/df7/atexit_8c.html#a2fda250c182c006e9741526a33e28747">builtin</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00008">calloc</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00013">COUNT</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00034">atexit_func_entry_t::destructor_func</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00036">atexit_func_entry_t::dso_handle</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00018">fl::f</a>, <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../dd/de8/dso__exit_8cpp_source.html#l00019">getExitQueue()</a>, <a class="el" href="../../d6/d19/mlibc_2tests_2posix_2abort_8c_source.html#l00005">handler()</a>, <a class="el" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>, <a class="el" href="../../dd/d42/lock_8h_source.html#l00006">LOCK</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00023">lock</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00017">fl::next</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00035">atexit_func_entry_t::obj_ptr</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01558">printf()</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00022">slot</a>, and <a class="el" href="../../dd/d42/lock_8h_source.html#l00007">UNLOCK</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00072">__atexit_func_count</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00071">__atexit_funcs</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00019">fl::a</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00024">ATEXIT_MAX_FUNCS</a>, <a class="el" href="../../d4/df7/atexit_8c.html#a2fda250c182c006e9741526a33e28747">builtin</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00008">calloc</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00013">COUNT</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00034">atexit_func_entry_t::destructor_func</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00036">atexit_func_entry_t::dso_handle</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00018">fl::f</a>, <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../d4/df7/atexit_8c.html#a3592dbf34b02b87a974abb8dc8cd642d">head</a>, <a class="el" href="../../dd/d42/lock_8h_source.html#l00006">LOCK</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00023">lock</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00017">fl::next</a>, <a class="el" href="../../dd/d46/Lynx_2UEFI_2src_2cxxabi_8cpp_source.html#l00035">atexit_func_entry_t::obj_ptr</a>, <a class="el" href="../../df/d7f/Kernel_2Library_2printf_8c_source.html#l01558">printf()</a>, <a class="el" href="../../d4/df7/atexit_8c_source.html#l00022">slot</a>, and <a class="el" href="../../dd/d42/lock_8h_source.html#l00007">UNLOCK</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/d4f/____aeabi__atexit_8c_source.html#l00003">__aeabi_atexit()</a>, and <a class="el" href="../../d4/df7/atexit_8c_source.html#l00076">atexit()</a>.</p>
 

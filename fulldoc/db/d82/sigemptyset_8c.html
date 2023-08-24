@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('db/d82/sigemptyset_8c.html','../../');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5925352f90eb589393274fa0376d7def"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d82/sigemptyset_8c.html#a5925352f90eb589393274fa0376d7def">sigemptyset</a> (<a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *set)</td></tr>
+<tr class="memitem:a5925352f90eb589393274fa0376d7def"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d82/sigemptyset_8c.html#a5925352f90eb589393274fa0376d7def">sigemptyset</a> (<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *set)</td></tr>
 <tr class="separator:a5925352f90eb589393274fa0376d7def"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,9 +109,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sigemptyset </td>
+          <td class="memname">int sigemptyset </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *&#160;</td>
           <td class="paramname"><em>set</em></td><td>)</td>
           <td></td>
         </tr>
@@ -121,16 +121,18 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../db/d82/sigemptyset_8c_source.html#l00004">4</a> of file <a class="el" href="../../db/d82/sigemptyset_8c_source.html">sigemptyset.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    set-&gt;__bits[0] = 0;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">sizeof</span>(<span class="keywordtype">long</span>)==4 || <a class="code" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a> &gt; 65) set-&gt;__bits[1] = 0;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">sizeof</span>(<span class="keywordtype">long</span>)==4 &amp;&amp; <a class="code" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a> &gt; 65) {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">sizeof</span>(<span class="keywordtype">long</span>)==4 || <a class="code" href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a> &gt; 65) set-&gt;__bits[1] = 0;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">sizeof</span>(<span class="keywordtype">long</span>)==4 &amp;&amp; <a class="code" href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a> &gt; 65) {</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        set-&gt;__bits[2] = 0;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        set-&gt;__bits[3] = 0;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    }</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2signal_8h_html_a275020780cb70a8b0cba8db5accc5d19"><div class="ttname"><a href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a></div><div class="ttdeci">#define _NSIG</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h_source.html#l00033">signal.h:33</a></div></div>
+<div class="ttc" id="amusl_2arch_2aarch64_2bits_2signal_8h_html_a275020780cb70a8b0cba8db5accc5d19"><div class="ttname"><a href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19">_NSIG</a></div><div class="ttdeci">#define _NSIG</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h_source.html#l00153">signal.h:153</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h_source.html#l00033">_NSIG</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dac/musl_2arch_2aarch64_2bits_2signal_8h_source.html#l00153">_NSIG</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d37/inetd_8c_source.html#l00485">block_CHLD_HUP_ALRM()</a>, <a class="el" href="../../d6/d3a/devfsd_8c_source.html#l00407">devfsd_main()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00462">exec_conf()</a>, <a class="el" href="../../df/d8e/jobs_8c_source.html#l04641">give_terminal_to()</a>, <a class="el" href="../../da/d12/sig_8c_source.html#l00310">initialize_shell_signals()</a>, <a class="el" href="../../da/d12/sig_8c_source.html#l00230">initialize_terminating_signals()</a>, <a class="el" href="../../df/d8e/jobs_8c_source.html#l02121">make_child()</a>, <a class="el" href="../../d7/db5/input__avail_8c_source.html#l00105">nchars_avail()</a>, <a class="el" href="../../df/d8e/jobs_8c_source.html#l04235">notify_of_job_status()</a>, <a class="el" href="../../df/da3/evalstring_8c_source.html#l00297">parse_and_execute()</a>, <a class="el" href="../../df/da3/evalstring_8c_source.html#l00602">parse_string()</a>, <a class="el" href="../../da/d12/sig_8c_source.html#l00342">reset_terminating_signals()</a>, <a class="el" href="../../da/de5/lib_2readline_2input_8c_source.html#l00803">rl_getc()</a>, <a class="el" href="../../d3/db2/busybox_2libbb_2signals_8c_source.html#l00080">sig_block()</a>, <a class="el" href="../../d3/db2/busybox_2libbb_2signals_8c_source.html#l00088">sig_unblock()</a>, <a class="el" href="../../d4/d5c/sighold_8c_source.html#l00003">sighold()</a>, <a class="el" href="../../d9/dfb/sigignore_8c_source.html#l00003">sigignore()</a>, <a class="el" href="../../d5/ddc/sigrelse_8c_source.html#l00003">sigrelse()</a>, <a class="el" href="../../db/d45/sigstat_8c_source.html#l00060">sigstat()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l01051">svlogd_main()</a>, <a class="el" href="../../d4/dfd/system_8c_source.html#l00011">system()</a>, <a class="el" href="../../dc/d6f/trap_8c_source.html#l00502">trap_handler()</a>, <a class="el" href="../../d3/db2/busybox_2libbb_2signals_8c_source.html#l00096">wait_for_any_sig()</a>, and <a class="el" href="../../d3/d37/mdev_8c_source.html#l00991">wait_for_seqfile()</a>.</p>
 
 </div>
 </div>

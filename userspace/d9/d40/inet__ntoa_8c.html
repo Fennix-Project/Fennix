@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d9/d40/inet__ntoa_8c.html','../../'); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a08b9fff487151e004d9862cbf34a51ad"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d40/inet__ntoa_8c.html#a08b9fff487151e004d9862cbf34a51ad">inet_ntoa</a> (struct <a class="el" href="../../d4/d9c/musl_2include_2netinet_2in_8h.html#da/d7e/structin__addr">in_addr</a> in)</td></tr>
+<tr class="memitem:a08b9fff487151e004d9862cbf34a51ad"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d40/inet__ntoa_8c.html#a08b9fff487151e004d9862cbf34a51ad">inet_ntoa</a> (struct <a class="el" href="../../d1/d10/in_8h.html#da/d7e/structin__addr">in_addr</a> in)</td></tr>
 <tr class="separator:a08b9fff487151e004d9862cbf34a51ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,7 +111,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">char* inet_ntoa </td>
           <td>(</td>
-          <td class="paramtype">struct <a class="el" href="../../d4/d9c/musl_2include_2netinet_2in_8h.html#da/d7e/structin__addr">in_addr</a>&#160;</td>
+          <td class="paramtype">struct <a class="el" href="../../d1/d10/in_8h.html#da/d7e/structin__addr">in_addr</a>&#160;</td>
           <td class="paramname"><em>in</em></td><td>)</td>
           <td></td>
         </tr>
@@ -120,15 +120,17 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d40/inet__ntoa_8c_source.html#l00004">4</a> of file <a class="el" href="../../d9/d40/inet__ntoa_8c_source.html">inet_ntoa.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">char</span> <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>[16];</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">char</span> <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[16];</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> *a = (<span class="keywordtype">void</span> *)&amp;in;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c.html#a2f895806f62a5ee9e7ce6575b4963f6e">snprintf</a>(<a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <span class="keyword">sizeof</span> <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, <span class="stringliteral">&quot;%d.%d.%d.%d&quot;</span>, a[0], a[1], a[2], a[3]);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c.html#a2f895806f62a5ee9e7ce6575b4963f6e">snprintf</a>(<a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <span class="keyword">sizeof</span> <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <span class="stringliteral">&quot;%d.%d.%d.%d&quot;</span>, a[0], a[1], a[2], a[3]);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
 <div class="ttc" id="aapps_2base_2bash_2lib_2sh_2snprintf_8c_html_a2f895806f62a5ee9e7ce6575b4963f6e"><div class="ttname"><a href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c.html#a2f895806f62a5ee9e7ce6575b4963f6e">snprintf</a></div><div class="ttdeci">int snprintf(char *string, size_t length, const char *format, va_alist)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c_source.html#l01727">snprintf.c:1727</a></div></div>
-<div class="ttc" id="amlibc_2tests_2ansi_2longjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
+<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">buf</a>, and <a class="el" href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c_source.html#l01727">snprintf()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, and <a class="el" href="../../d4/db1/apps_2base_2bash_2lib_2sh_2snprintf_8c_source.html#l01727">snprintf()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dd/df6/apps_2base_2bash_2examples_2loadables_2accept_8c_source.html#l00045">accept_builtin()</a>, <a class="el" href="../../df/dbf/route_8c_source.html#l00491">bb_displayroutes()</a>, <a class="el" href="../../db/dc9/d6__socket_8c_source.html#l00013">d6_read_interface()</a>, <a class="el" href="../../d4/d42/dumpleases_8c_source.html#l00023">dumpleases_main()</a>, <a class="el" href="../../d8/d03/hostname_8c_source.html#l00119">hostname_main()</a>, <a class="el" href="../../d7/d49/ipcalc_8c_source.html#l00119">ipcalc_main()</a>, <a class="el" href="../../dd/db1/zcip_8c_source.html#l00126">nip_to_a()</a>, <a class="el" href="../../d7/dc5/dhcpd_8c_source.html#l00249">nobody_responds_to_arp()</a>, <a class="el" href="../../d1/d4c/traceroute_8c_source.html#l00650">packet4_ok()</a>, <a class="el" href="../../dc/d18/dhcpc_8c_source.html#l01116">perform_release()</a>, <a class="el" href="../../df/d84/arping_8c_source.html#l00189">recv_pack()</a>, <a class="el" href="../../d7/dc5/dhcpd_8c_source.html#l00632">send_packet_verbose()</a>, <a class="el" href="../../dc/d18/dhcpc_8c_source.html#l00792">send_renew()</a>, <a class="el" href="../../dc/d18/dhcpc_8c_source.html#l00748">send_select()</a>, <a class="el" href="../../d5/df7/apps_2base_2busybox_2networking_2udhcp_2socket_8c_source.html#l00028">udhcp_read_interface()</a>, <a class="el" href="../../dc/d18/dhcpc_8c_source.html#l01209">udhcpc_main()</a>, and <a class="el" href="../../d8/d4c/xconnect_8c_source.html#l00103">xconnect()</a>.</p>
 
 </div>
 </div>

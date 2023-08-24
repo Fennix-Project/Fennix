@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('dd/d7e/wctomb_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab576ad05484aba7fe43b3d047a3fabb5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7e/wctomb_8c.html#ab576ad05484aba7fe43b3d047a3fabb5">wctomb</a> (char *s, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> wc)</td></tr>
+<tr class="memitem:ab576ad05484aba7fe43b3d047a3fabb5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d7e/wctomb_8c.html#ab576ad05484aba7fe43b3d047a3fabb5">wctomb</a> (char *<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca">wchar_t</a> wc)</td></tr>
 <tr class="separator:ab576ad05484aba7fe43b3d047a3fabb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> wctomb </td>
+          <td class="memname">int wctomb </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>s</em>, </td>
@@ -130,12 +130,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d7e/wctomb_8c_source.html#l00004">4</a> of file <a class="el" href="../../dd/d7e/wctomb_8c_source.html">wctomb.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (!s) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d83/wchar-stubs_8cpp.html#ad4c2b7d440745cc99761bea55bf50c60">wcrtomb</a>(s, wc, 0);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/dad/busybox_2libbb_2unicode_8c.html#a81f97b47638cb877b40922f03892f489">wcrtomb</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, wc, 0);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="awchar-stubs_8cpp_html_ad4c2b7d440745cc99761bea55bf50c60"><div class="ttname"><a href="../../db/d83/wchar-stubs_8cpp.html#ad4c2b7d440745cc99761bea55bf50c60">wcrtomb</a></div><div class="ttdeci">size_t wcrtomb(char *mbs, wchar_t wc, mbstate_t *stp)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d83/wchar-stubs_8cpp_source.html#l00095">wchar-stubs.cpp:95</a></div></div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
+<div class="ttc" id="abusybox_2libbb_2unicode_8c_html_a81f97b47638cb877b40922f03892f489"><div class="ttname"><a href="../../d9/dad/busybox_2libbb_2unicode_8c.html#a81f97b47638cb877b40922f03892f489">wcrtomb</a></div><div class="ttdeci">size_t FAST_FUNC wcrtomb(char *s, wchar_t wc, mbstate_t *ps UNUSED_PARAM)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dad/busybox_2libbb_2unicode_8c_source.html#l00124">unicode.c:124</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d83/wchar-stubs_8cpp_source.html#l00095">wcrtomb()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, and <a class="el" href="../../d9/dad/busybox_2libbb_2unicode_8c_source.html#l00124">wcrtomb()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d6/d22/fputwc_8c_source.html#l00007">__fputwc_unlocked()</a>, <a class="el" href="../../d3/d61/vfprintf_8c_source.html#l00430">printf_core()</a>, and <a class="el" href="../../d2/d7c/vfwscanf_8c_source.html#l00086">vfwscanf()</a>.</p>
 
 </div>
 </div>

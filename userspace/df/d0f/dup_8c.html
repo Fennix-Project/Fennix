@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('df/d0f/dup_8c.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4c16b3e0f35d0e104aa87db705451f2f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/dup_8c.html#a4c16b3e0f35d0e104aa87db705451f2f">dup</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd)</td></tr>
+<tr class="memitem:a4c16b3e0f35d0e104aa87db705451f2f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/dup_8c.html#a4c16b3e0f35d0e104aa87db705451f2f">dup</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)</td></tr>
 <tr class="separator:a4c16b3e0f35d0e104aa87db705451f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,9 +109,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> dup </td>
+          <td class="memname">int dup </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em></td><td>)</td>
           <td></td>
         </tr>
@@ -120,11 +120,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d0f/dup_8c_source.html#l00004">4</a> of file <a class="el" href="../../df/d0f/dup_8c_source.html">dup.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_dup, fd);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_dup, <a class="code" href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="ahdparm_8c_html_a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a8feb5a39a55448c86e0dfc20f53a6c1da1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/dc2/vfork__daemon__rexec_8c_source.html#l00280">bb_daemonize_or_rexec()</a>, <a class="el" href="../../da/d4f/apps_2base_2bash_2lib_2sh_2dprintf_8c_source.html#l00043">dprintf()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l10227">hush_main()</a>, <a class="el" href="../../df/d8e/jobs_8c_source.html#l04370">initialize_job_control()</a>, <a class="el" href="../../d3/df5/ftpd_8c_source.html#l00677">popen_ls()</a>, <a class="el" href="../../d6/db1/print_8c_source.html#l00075">print_builtin()</a>, <a class="el" href="../../d4/d68/sulogin_8c_source.html#l00030">sulogin_main()</a>, <a class="el" href="../../d0/d86/regcomp_8c_source.html#l02470">tre_make_trans()</a>, and <a class="el" href="../../da/da8/xargs_8c_source.html#l00611">xargs_main()</a>.</p>
 
 </div>
 </div>

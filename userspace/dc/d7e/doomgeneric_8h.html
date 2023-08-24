@@ -107,7 +107,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:accddd9618aa7659353f2073fe1fa5409"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7e/doomgeneric_8h.html#accddd9618aa7659353f2073fe1fa5409">doomgeneric_Create</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../df/d14/apps_2base_2bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a>, char **<a class="el" href="../../df/d14/apps_2base_2bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>)</td></tr>
+<tr class="memitem:accddd9618aa7659353f2073fe1fa5409"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7e/doomgeneric_8h.html#accddd9618aa7659353f2073fe1fa5409">doomgeneric_Create</a> (int <a class="el" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a>, char **<a class="el" href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>)</td></tr>
 <tr class="separator:accddd9618aa7659353f2073fe1fa5409"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8841f891ddd9365ac6a5a171f3c669ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7e/doomgeneric_8h.html#a8841f891ddd9365ac6a5a171f3c669ae">doomgeneric_Tick</a> ()</td></tr>
 <tr class="separator:a8841f891ddd9365ac6a5a171f3c669ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,7 +119,7 @@ Functions</h2></td></tr>
 <tr class="separator:a248482a56152c695c7838012b3da3e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad76b11c281aa2679b3edfe75a7ba1f6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a0a8582351ac627ee8bde2973c825e47f">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7e/doomgeneric_8h.html#ad76b11c281aa2679b3edfe75a7ba1f6a">DG_GetTicksMs</a> ()</td></tr>
 <tr class="separator:ad76b11c281aa2679b3edfe75a7ba1f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa42587133097fa8743603e36cb61de6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7e/doomgeneric_8h.html#aa42587133097fa8743603e36cb61de6d">DG_GetKey</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> *pressed, unsigned char *key)</td></tr>
+<tr class="memitem:aa42587133097fa8743603e36cb61de6d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7e/doomgeneric_8h.html#aa42587133097fa8743603e36cb61de6d">DG_GetKey</a> (int *pressed, unsigned char *key)</td></tr>
 <tr class="separator:aa42587133097fa8743603e36cb61de6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7020b321fe614f1964e58714308baab1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7e/doomgeneric_8h.html#a7020b321fe614f1964e58714308baab1">DG_SetWindowTitle</a> (const char *<a class="el" href="../../d2/dc6/d__main_8c.html#a6253ff71cb58d4a7e5d5ee6cf0ab8c50">title</a>)</td></tr>
 <tr class="separator:a7020b321fe614f1964e58714308baab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,9 +195,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> DG_GetKey </td>
+          <td class="memname">int DG_GetKey </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> *&#160;</td>
+          <td class="paramtype">int *&#160;</td>
           <td class="paramname"><em>pressed</em>, </td>
         </tr>
         <tr>
@@ -348,12 +348,9 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d0b/doomgeneric__fennix_8c_source.html#l00075">75</a> of file <a class="el" href="../../df/d0b/doomgeneric__fennix_8c_source.html">doomgeneric_fennix.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="../../da/df8/mlibc_2sysdeps_2aero_2include_2aero_2syscall_8h.html#afba059dc91a3a55ef4288728bd1787ab">syscall1</a>(sys_Sleep, ms);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    syscall1(sys_Sleep, ms);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
-<div class="ttc" id="amlibc_2sysdeps_2aero_2include_2aero_2syscall_8h_html_afba059dc91a3a55ef4288728bd1787ab"><div class="ttname"><a href="../../da/df8/mlibc_2sysdeps_2aero_2include_2aero_2syscall_8h.html#afba059dc91a3a55ef4288728bd1787ab">syscall1</a></div><div class="ttdeci">static sc_word_t syscall1(int sc, sc_word_t arg1)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/df8/mlibc_2sysdeps_2aero_2include_2aero_2syscall_8h_source.html#l00086">syscall.h:86</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../da/df8/mlibc_2sysdeps_2aero_2include_2aero_2syscall_8h_source.html#l00086">syscall1()</a>.</p>
-
 <p class="reference">Referenced by <a class="el" href="../../d9/d3b/i__timer_8c_source.html#l00076">I_Sleep()</a>.</p>
 
 </div>
@@ -367,7 +364,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">void doomgeneric_Create </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>argc</em>, </td>
         </tr>
         <tr>
@@ -387,8 +384,8 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d6/d13/doomgeneric_8c_source.html#l00013">13</a> of file <a class="el" href="../../d6/d13/doomgeneric_8c_source.html">doomgeneric.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="comment">// save arguments</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../db/d2c/m__argv_8c.html#a364ee6917e6b786a11a1ba30cd044781">myargc</a> = <a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../db/d2c/m__argv_8c.html#a11d3cc297a1318f3cc93f9af9a224e8d">myargv</a> = <a class="code" href="../../df/d14/apps_2base_2bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../db/d2c/m__argv_8c.html#a364ee6917e6b786a11a1ba30cd044781">myargc</a> = <a class="code" href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../db/d2c/m__argv_8c.html#a11d3cc297a1318f3cc93f9af9a224e8d">myargv</a> = <a class="code" href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d6/d13/doomgeneric_8c.html#a2e853fd51dc3aeccd49d7f281acdd19a">M_FindResponseFile</a>();</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
@@ -399,8 +396,8 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d6/d13/doomgeneric_8c.html#a15a5d58f4da3e67b958d153d232ba50e">D_DoomMain</a> ();</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
 <div class="ttc" id="aalloca_8c_html_acf143577800376dd931c059ecc61ba06"><div class="ttname"><a href="../../d7/d55/alloca_8c.html#acf143577800376dd931c059ecc61ba06">malloc</a></div><div class="ttdeci">#define malloc</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d55/alloca_8c_source.html#l00079">alloca.c:79</a></div></div>
-<div class="ttc" id="aapps_2base_2bash_2test_8c_html_ad1447518f4372828b8435ae82e48499e"><div class="ttname"><a href="../../df/d14/apps_2base_2bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a></div><div class="ttdeci">static int argc</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d14/apps_2base_2bash_2test_8c_source.html#l00109">test.c:109</a></div></div>
-<div class="ttc" id="aapps_2base_2bash_2test_8c_html_af2efa898e9eed6fe6715279cb1ec35b0"><div class="ttname"><a href="../../df/d14/apps_2base_2bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a></div><div class="ttdeci">static char ** argv</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d14/apps_2base_2bash_2test_8c_source.html#l00110">test.c:110</a></div></div>
+<div class="ttc" id="abash_2test_8c_html_ad1447518f4372828b8435ae82e48499e"><div class="ttname"><a href="../../d9/dd0/bash_2test_8c.html#ad1447518f4372828b8435ae82e48499e">argc</a></div><div class="ttdeci">static int argc</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd0/bash_2test_8c_source.html#l00109">test.c:109</a></div></div>
+<div class="ttc" id="abash_2test_8c_html_af2efa898e9eed6fe6715279cb1ec35b0"><div class="ttname"><a href="../../d9/dd0/bash_2test_8c.html#af2efa898e9eed6fe6715279cb1ec35b0">argv</a></div><div class="ttdeci">static char ** argv</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd0/bash_2test_8c_source.html#l00110">test.c:110</a></div></div>
 <div class="ttc" id="adoomgeneric_8c_html_a15a5d58f4da3e67b958d153d232ba50e"><div class="ttname"><a href="../../d6/d13/doomgeneric_8c.html#a15a5d58f4da3e67b958d153d232ba50e">D_DoomMain</a></div><div class="ttdeci">void D_DoomMain(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc6/d__main_8c_source.html#l01163">d_main.c:1163</a></div></div>
 <div class="ttc" id="adoomgeneric_8c_html_a2e853fd51dc3aeccd49d7f281acdd19a"><div class="ttname"><a href="../../d6/d13/doomgeneric_8c.html#a2e853fd51dc3aeccd49d7f281acdd19a">M_FindResponseFile</a></div><div class="ttdeci">void M_FindResponseFile(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2c/m__argv_8c_source.html#l00235">m_argv.c:235</a></div></div>
 <div class="ttc" id="adoomgeneric_8c_html_ac1a6461938f1bdd830db9e8170b3a981"><div class="ttname"><a href="../../d6/d13/doomgeneric_8c.html#ac1a6461938f1bdd830db9e8170b3a981">DG_ScreenBuffer</a></div><div class="ttdeci">uint32_t * DG_ScreenBuffer</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/doomgeneric_8c_source.html#l00007">doomgeneric.c:7</a></div></div>
@@ -410,7 +407,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="am__argv_8c_html_a11d3cc297a1318f3cc93f9af9a224e8d"><div class="ttname"><a href="../../db/d2c/m__argv_8c.html#a11d3cc297a1318f3cc93f9af9a224e8d">myargv</a></div><div class="ttdeci">char ** myargv</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2c/m__argv_8c_source.html#l00030">m_argv.c:30</a></div></div>
 <div class="ttc" id="am__argv_8c_html_a364ee6917e6b786a11a1ba30cd044781"><div class="ttname"><a href="../../db/d2c/m__argv_8c.html#a364ee6917e6b786a11a1ba30cd044781">myargc</a></div><div class="ttdeci">int myargc</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2c/m__argv_8c_source.html#l00029">m_argv.c:29</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d14/apps_2base_2bash_2test_8c_source.html#l00109">argc</a>, <a class="el" href="../../df/d14/apps_2base_2bash_2test_8c_source.html#l00110">argv</a>, <a class="el" href="../../d2/dc6/d__main_8c_source.html#l01163">D_DoomMain()</a>, <a class="el" href="../../df/d0b/doomgeneric__fennix_8c_source.html#l00064">DG_Init()</a>, <a class="el" href="../../d6/d13/doomgeneric_8c_source.html#l00007">DG_ScreenBuffer</a>, <a class="el" href="../../dc/d7e/doomgeneric_8h_source.html#l00007">DOOMGENERIC_RESX</a>, <a class="el" href="../../dc/d7e/doomgeneric_8h_source.html#l00008">DOOMGENERIC_RESY</a>, <a class="el" href="../../db/d2c/m__argv_8c_source.html#l00235">M_FindResponseFile()</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00079">malloc</a>, <a class="el" href="../../db/d2c/m__argv_8c_source.html#l00029">myargc</a>, and <a class="el" href="../../db/d2c/m__argv_8c_source.html#l00030">myargv</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00109">argc</a>, <a class="el" href="../../d9/dd0/bash_2test_8c_source.html#l00110">argv</a>, <a class="el" href="../../d2/dc6/d__main_8c_source.html#l01163">D_DoomMain()</a>, <a class="el" href="../../df/d0b/doomgeneric__fennix_8c_source.html#l00064">DG_Init()</a>, <a class="el" href="../../d6/d13/doomgeneric_8c_source.html#l00007">DG_ScreenBuffer</a>, <a class="el" href="../../dc/d7e/doomgeneric_8h_source.html#l00007">DOOMGENERIC_RESX</a>, <a class="el" href="../../dc/d7e/doomgeneric_8h_source.html#l00008">DOOMGENERIC_RESY</a>, <a class="el" href="../../db/d2c/m__argv_8c_source.html#l00235">M_FindResponseFile()</a>, <a class="el" href="../../d7/d55/alloca_8c_source.html#l00079">malloc</a>, <a class="el" href="../../db/d2c/m__argv_8c_source.html#l00029">myargc</a>, and <a class="el" href="../../db/d2c/m__argv_8c_source.html#l00030">myargv</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/d0b/doomgeneric__fennix_8c_source.html#l00119">main()</a>.</p>
 

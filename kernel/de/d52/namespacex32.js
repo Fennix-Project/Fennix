@@ -1,13 +1,15 @@
 var namespacex32 =
 [
+    [ "__packed", "de/d52/namespacex32.html#df/d74/unionx32_1_1____packed", "de/d52/namespacex32_df/d74/unionx32_1_1____packed_dup" ],
     [ "EFLAGS", "de/d52/namespacex32.html#da/db1/unionx32_1_1EFLAGS", "de/d52/namespacex32_da/db1/unionx32_1_1EFLAGS_dup" ],
     [ "TrapFrame", "de/d52/namespacex32.html#db/d62/structx32_1_1TrapFrame", "de/d52/namespacex32_db/d62/structx32_1_1TrapFrame_dup" ],
     [ "DR6", "de/d52/namespacex32.html#dd/d9c/unionx32_1_1DR6", "de/d52/namespacex32_dd/d9c/unionx32_1_1DR6_dup" ],
     [ "DR7", "de/d52/namespacex32.html#dd/da4/unionx32_1_1DR7", "de/d52/namespacex32_dd/da4/unionx32_1_1DR7_dup" ],
     [ "FXState", "de/d52/namespacex32.html#d7/d2c/structx32_1_1FXState", "de/d52/namespacex32_d7/d2c/structx32_1_1FXState_dup" ],
-    [ "EFLAGS.__unnamed825__", "de/d52/namespacex32.html#d3/d26/structx32_1_1EFLAGS_8____unnamed825____", "de/d52/namespacex32_d3/d26/structx32_1_1EFLAGS_8____unnamed825_____dup" ],
-    [ "DR6.__unnamed827__", "de/d52/namespacex32.html#db/d77/structx32_1_1DR6_8____unnamed827____", "de/d52/namespacex32_db/d77/structx32_1_1DR6_8____unnamed827_____dup" ],
-    [ "DR7.__unnamed829__", "de/d52/namespacex32.html#d7/dea/structx32_1_1DR7_8____unnamed829____", "de/d52/namespacex32_d7/dea/structx32_1_1DR7_8____unnamed829_____dup" ],
+    [ "__packed.__unnamed825__", "de/d52/namespacex32.html#da/d3a/structx32_1_1____packed_8____unnamed825____", "de/d52/namespacex32_da/d3a/structx32_1_1____packed_8____unnamed825_____dup" ],
+    [ "EFLAGS.__unnamed827__", "de/d52/namespacex32.html#d2/d7e/structx32_1_1EFLAGS_8____unnamed827____", "de/d52/namespacex32_d2/d7e/structx32_1_1EFLAGS_8____unnamed827_____dup" ],
+    [ "DR6.__unnamed829__", "de/d52/namespacex32.html#d3/de8/structx32_1_1DR6_8____unnamed829____", "de/d52/namespacex32_d3/de8/structx32_1_1DR6_8____unnamed829_____dup" ],
+    [ "DR7.__unnamed831__", "de/d52/namespacex32.html#d8/d43/structx32_1_1DR7_8____unnamed831____", "de/d52/namespacex32_d8/d43/structx32_1_1DR7_8____unnamed831_____dup" ],
     [ "DR6", "de/d52/namespacex32.html#ab2014fbe7b7b897b74f12c9407fcd590", null ],
     [ "DR7", "de/d52/namespacex32.html#a7d95504fd36d9d673f994150a5bb6fb1", null ],
     [ "TrapFrame", "de/d52/namespacex32.html#a515e205dfa6bc04692d842221231442f", null ],

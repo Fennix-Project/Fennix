@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('da/d59/wcstombs_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afb5debc6d96af2c99c85c57ac3693ed6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d59/wcstombs_8c.html#afb5debc6d96af2c99c85c57ac3693ed6">wcstombs</a> (char *restrict s, const <a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict ws, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)</td></tr>
+<tr class="memitem:afb5debc6d96af2c99c85c57ac3693ed6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d59/wcstombs_8c.html#afb5debc6d96af2c99c85c57ac3693ed6">wcstombs</a> (char *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, const <a class="el" href="../../d6/dea/rlmbutil_8h.html#a996b469b2e20f31259fb88cdad2a6309">wchar_t</a> *restrict ws, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)</td></tr>
 <tr class="separator:afb5debc6d96af2c99c85c57ac3693ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> wcstombs </td>
+          <td class="memname"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> wcstombs </td>
           <td>(</td>
           <td class="paramtype">char *restrict&#160;</td>
           <td class="paramname"><em>s</em>, </td>
@@ -123,7 +123,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -136,12 +136,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d59/wcstombs_8c_source.html#l00004">4</a> of file <a class="el" href="../../da/d59/wcstombs_8c_source.html">wcstombs.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d83/wchar-stubs_8cpp.html#af27b48f7ff198e30cfb541c02a45d3a9">wcsrtombs</a>(s, &amp;(<span class="keyword">const</span> <span class="keywordtype">wchar_t</span> *){ws}, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>, 0);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d9b/include_2wchar_8h.html#a41af0bf55718317323bf8f67d00b76a9">wcsrtombs</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, &amp;(<span class="keyword">const</span> <span class="keywordtype">wchar_t</span> *){ws}, <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>, 0);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
-<div class="ttc" id="awchar-stubs_8cpp_html_af27b48f7ff198e30cfb541c02a45d3a9"><div class="ttname"><a href="../../db/d83/wchar-stubs_8cpp.html#af27b48f7ff198e30cfb541c02a45d3a9">wcsrtombs</a></div><div class="ttdeci">size_t wcsrtombs(char *mbs, const wchar_t **wcsp, size_t mb_limit, mbstate_t *stp)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d83/wchar-stubs_8cpp_source.html#l00177">wchar-stubs.cpp:177</a></div></div>
+<div class="ttc" id="ainclude_2wchar_8h_html_a41af0bf55718317323bf8f67d00b76a9"><div class="ttname"><a href="../../dc/d9b/include_2wchar_8h.html#a41af0bf55718317323bf8f67d00b76a9">wcsrtombs</a></div><div class="ttdeci">size_t wcsrtombs(char *__restrict, const wchar_t **__restrict, size_t, mbstate_t *__restrict)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, and <a class="el" href="../../db/d83/wchar-stubs_8cpp_source.html#l00177">wcsrtombs()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, and <a class="el" href="../../dc/d9b/include_2wchar_8h.html#a41af0bf55718317323bf8f67d00b76a9">wcsrtombs()</a>.</p>
 
 </div>
 </div>

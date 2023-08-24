@@ -17,7 +17,7 @@ var dir_6ff019b671600876fee5e89a818c5606 =
     [ "mbtowc.c", "d9/d13/mbtowc_8c.html", "d9/d13/mbtowc_8c" ],
     [ "wcrtomb.c", "db/d78/wcrtomb_8c.html", "db/d78/wcrtomb_8c" ],
     [ "wcsnrtombs.c", "de/d90/wcsnrtombs_8c.html", "de/d90/wcsnrtombs_8c" ],
-    [ "wcsrtombs.c", "d6/d9e/musl_2src_2multibyte_2wcsrtombs_8c.html", "d6/d9e/musl_2src_2multibyte_2wcsrtombs_8c" ],
+    [ "wcsrtombs.c", "d7/d41/wcsrtombs_8c.html", "d7/d41/wcsrtombs_8c" ],
     [ "wcstombs.c", "da/d59/wcstombs_8c.html", "da/d59/wcstombs_8c" ],
     [ "wctob.c", "dc/d38/wctob_8c.html", "dc/d38/wctob_8c" ],
     [ "wctomb.c", "dd/d7e/wctomb_8c.html", "dd/d7e/wctomb_8c" ]

@@ -1,0 +1,27 @@
+var arch_2powerpc64_2bits_2ptrace_8h =
+[
+    [ "PT_GET_DEBUGREG", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a2d1b988fd4bc039761de8c29c7a33a36", null ],
+    [ "PT_GETEVRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#aa5a20554aa799733e42115b3204b44c2", null ],
+    [ "PT_GETREGS64", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#adb02844948dcea8638a3c326b5f1be25", null ],
+    [ "PT_GETVRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a0c90b04356a33c991b9b06101df69c4f", null ],
+    [ "PT_GETVSRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#af1cec18df958b7738febd7d58d94d616", null ],
+    [ "PT_SET_DEBUGREG", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a75a861a436287c2b466e1e200aa239f3", null ],
+    [ "PT_SETEVRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a1dfcd452294becbe9bc123f7e4ee94a0", null ],
+    [ "PT_SETREGS64", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#afac8d6c765c7214974bea3e9648ab99f", null ],
+    [ "PT_SETVRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a5a8113870cac7dd999239f79d55e7188", null ],
+    [ "PT_SETVSRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#af742c08229112d4046df815cb226201a", null ],
+    [ "PT_STEPBLOCK", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#af20cd43806b620f719f53421365fe700", null ],
+    [ "PTRACE_GET_DEBUGREG", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a2f6e44034c96ceb3c27087993583a7fb", null ],
+    [ "PTRACE_GETEVRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a9a47d205b085b4400cd4a50240933c3a", null ],
+    [ "PTRACE_GETREGS64", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a8922e6d0ff7570a9935a4268acae306b", null ],
+    [ "PTRACE_GETVRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a7e044d388a20d68fc0c0c99aecf75870", null ],
+    [ "PTRACE_GETVSRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a0b71da4b687e69424e48cee3f278323b", null ],
+    [ "PTRACE_SET_DEBUGREG", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a1f188ef3411e2a53a7894a994dbc08b5", null ],
+    [ "PTRACE_SETEVRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a599e399542626000d8a8694822458572", null ],
+    [ "PTRACE_SETREGS64", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a91af5840b219697ba90d46092bc07bb4", null ],
+    [ "PTRACE_SETVRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a79024e1ee468b1b5b3e9f84a53a2fe6a", null ],
+    [ "PTRACE_SETVSRREGS", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#ac21506768702cf0333752d0e625a6cb5", null ],
+    [ "PTRACE_SINGLEBLOCK", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#afe0a304e3b666bb8fc494a14edf02c0f", null ],
+    [ "PTRACE_SYSEMU", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a899aaf9b8c0415fd8d70fc451cb1e7a8", null ],
+    [ "PTRACE_SYSEMU_SINGLESTEP", "df/d11/arch_2powerpc64_2bits_2ptrace_8h.html#a82b63634782435d8e9e2ef16d8a691b9", null ]
+];

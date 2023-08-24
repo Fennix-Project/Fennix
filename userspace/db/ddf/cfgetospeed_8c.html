@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('db/ddf/cfgetospeed_8c.html','../../');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;termios.h&gt;</code><br />
-<code>#include &lt;sys/ioctl.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d3/d9a/include_2sys_2ioctl_8h_source.html">sys/ioctl.h</a>&gt;</code><br />
 </div>
 <p><a href="../../db/ddf/cfgetospeed_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -104,9 +104,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aeddf91463b31f55704d8e2bbad950a38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d04/mlibc_2abis_2linux_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/ddf/cfgetospeed_8c.html#aeddf91463b31f55704d8e2bbad950a38">cfgetospeed</a> (const struct <a class="el" href="../../db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *tio)</td></tr>
+<tr class="memitem:aeddf91463b31f55704d8e2bbad950a38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d4e/include_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/ddf/cfgetospeed_8c.html#aeddf91463b31f55704d8e2bbad950a38">cfgetospeed</a> (const struct <a class="el" href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *<a class="el" href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a>)</td></tr>
 <tr class="separator:aeddf91463b31f55704d8e2bbad950a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab016406d068a34321c62ac47ef455c7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d04/mlibc_2abis_2linux_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/ddf/cfgetospeed_8c.html#ab016406d068a34321c62ac47ef455c7c">cfgetispeed</a> (const struct <a class="el" href="../../db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *tio)</td></tr>
+<tr class="memitem:ab016406d068a34321c62ac47ef455c7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d4e/include_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/ddf/cfgetospeed_8c.html#ab016406d068a34321c62ac47ef455c7c">cfgetispeed</a> (const struct <a class="el" href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *<a class="el" href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a>)</td></tr>
 <tr class="separator:ab016406d068a34321c62ac47ef455c7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -134,9 +134,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d04/mlibc_2abis_2linux_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a> cfgetispeed </td>
+          <td class="memname"><a class="el" href="../../d2/d4e/include_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a> cfgetispeed </td>
           <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="../../db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *&#160;</td>
           <td class="paramname"><em>tio</em></td><td>)</td>
           <td></td>
         </tr>
@@ -145,11 +145,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/ddf/cfgetospeed_8c_source.html#l00010">10</a> of file <a class="el" href="../../db/ddf/cfgetospeed_8c_source.html">cfgetospeed.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/ddf/cfgetospeed_8c.html#aeddf91463b31f55704d8e2bbad950a38">cfgetospeed</a>(tio);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/ddf/cfgetospeed_8c.html#aeddf91463b31f55704d8e2bbad950a38">cfgetospeed</a>(<a class="code" href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a>);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="ttc" id="acfgetospeed_8c_html_aeddf91463b31f55704d8e2bbad950a38"><div class="ttname"><a href="../../db/ddf/cfgetospeed_8c.html#aeddf91463b31f55704d8e2bbad950a38">cfgetospeed</a></div><div class="ttdeci">speed_t cfgetospeed(const struct termios *tio)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/ddf/cfgetospeed_8c_source.html#l00005">cfgetospeed.c:5</a></div></div>
+<div class="ttc" id="ashowkey_8c_html_a706d72146370f32163fe2f0feff223c9"><div class="ttname"><a href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a></div><div class="ttdeci">#define tio</div><div class="ttdef"><b>Definition:</b> <a href="../../df/da8/showkey_8c_source.html#l00037">showkey.c:37</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/ddf/cfgetospeed_8c_source.html#l00005">cfgetospeed()</a>.</p>
+<p class="reference">References <a class="el" href="../../db/ddf/cfgetospeed_8c_source.html#l00005">cfgetospeed()</a>, and <a class="el" href="../../df/da8/showkey_8c_source.html#l00037">tio</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/dd7/stty_8c_source.html#l01000">display_speed()</a>, and <a class="el" href="../../d4/dbc/slattach_8c_source.html#l00097">slattach_main()</a>.</p>
 
 </div>
 </div>
@@ -160,9 +163,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d04/mlibc_2abis_2linux_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a> cfgetospeed </td>
+          <td class="memname"><a class="el" href="../../d2/d4e/include_2termios_8h.html#a14a0666abcf3bb67c7ff400b4a450467">speed_t</a> cfgetospeed </td>
           <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="../../db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../db/d49/arch_2powerpc64_2bits_2termios_8h.html#d6/d47/structtermios">termios</a> *&#160;</td>
           <td class="paramname"><em>tio</em></td><td>)</td>
           <td></td>
         </tr>
@@ -171,13 +174,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/ddf/cfgetospeed_8c_source.html#l00005">5</a> of file <a class="el" href="../../db/ddf/cfgetospeed_8c_source.html">cfgetospeed.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> tio-&gt;<a class="code" href="../../db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#a5d42b95faa4745c3bea53652d2812162">c_cflag</a> &amp; CBAUD;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/da8/showkey_8c.html#a706d72146370f32163fe2f0feff223c9">tio</a>-&gt;c_cflag &amp; <a class="code" href="../../d0/de2/base_2busybox_2init_2init_8c.html#a585af9d7ad225ac342d84f16d69fe427">CBAUD</a>;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="amusl_2arch_2powerpc64_2bits_2termios_8h_html_a5d42b95faa4745c3bea53652d2812162"><div class="ttname"><a href="../../db/dff/musl_2arch_2powerpc64_2bits_2termios_8h.html#a5d42b95faa4745c3bea53652d2812162">termios::c_cflag</a></div><div class="ttdeci">tcflag_t c_cflag</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d04/mlibc_2abis_2linux_2termios_8h_source.html#l00109">termios.h:109</a></div></div>
+<div class="ttc" id="abase_2busybox_2init_2init_8c_html_a585af9d7ad225ac342d84f16d69fe427"><div class="ttname"><a href="../../d0/de2/base_2busybox_2init_2init_8c.html#a585af9d7ad225ac342d84f16d69fe427">CBAUD</a></div><div class="ttdeci">#define CBAUD</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d04/mlibc_2abis_2linux_2termios_8h_source.html#l00109">termios::c_cflag</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c.html#a585af9d7ad225ac342d84f16d69fe427">CBAUD</a>, and <a class="el" href="../../df/da8/showkey_8c_source.html#l00037">tio</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../db/ddf/cfgetospeed_8c_source.html#l00010">cfgetispeed()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../db/ddf/cfgetospeed_8c_source.html#l00010">cfgetispeed()</a>, <a class="el" href="../../d7/dd7/stty_8c_source.html#l01000">display_speed()</a>, and <a class="el" href="../../d4/dbc/slattach_8c_source.html#l00097">slattach_main()</a>.</p>
 
 </div>
 </div>

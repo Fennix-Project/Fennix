@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d0/dce/ctime__r_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae6eed522503f70a5cf05be0be558b125"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dce/ctime__r_8c.html#ae6eed522503f70a5cf05be0be558b125">ctime_r</a> (const <a class="el" href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a> *<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, char *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)</td></tr>
+<tr class="memitem:ae6eed522503f70a5cf05be0be558b125"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dce/ctime__r_8c.html#ae6eed522503f70a5cf05be0be558b125">ctime_r</a> (const time_t *<a class="el" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, char *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)</td></tr>
 <tr class="separator:ae6eed522503f70a5cf05be0be558b125"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,7 +110,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">char* ctime_r </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../da/dc7/time__t_8h.html#a824afaa48b313f905546cf45822800fc">time_t</a> *&#160;</td>
+          <td class="paramtype">const time_t *&#160;</td>
           <td class="paramname"><em>t</em>, </td>
         </tr>
         <tr>
@@ -129,16 +129,16 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/dce/ctime__r_8c_source.html#l00003">3</a> of file <a class="el" href="../../d0/dce/ctime__r_8c_source.html">ctime_r.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a> <a class="code" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a>, *tm_p = <a class="code" href="../../de/d03/time-stubs_8cpp.html#a08530f72132e5f42270738349ccd5cf3">localtime_r</a>(<a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, &amp;<a class="code" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a>);</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> tm_p ? <a class="code" href="../../de/d03/time-stubs_8cpp.html#a38a6d3ac3d4f063468a846fb3240f928">asctime_r</a>(tm_p, <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>) : 0;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a> <a class="code" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a>, *tm_p = localtime_r(<a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>, &amp;<a class="code" href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> tm_p ? asctime_r(tm_p, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>) : 0;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
 <div class="ttc" id="agm__loop_8c_html_ac310d9181e916ba43604099aee272c71"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a></div><div class="ttdeci">int t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00079">gm_loop.c:79</a></div></div>
-<div class="ttc" id="amlibc_2tests_2ansi_2longjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
-<div class="ttc" id="amusl_2include_2time_8h_html_d8/d5a/structtm"><div class="ttname"><a href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df2/mlibc_2options_2ansi_2include_2time_8h_source.html#l00035">time.h:35</a></div></div>
-<div class="ttc" id="atime-stubs_8cpp_html_a08530f72132e5f42270738349ccd5cf3"><div class="ttname"><a href="../../de/d03/time-stubs_8cpp.html#a08530f72132e5f42270738349ccd5cf3">localtime_r</a></div><div class="ttdeci">struct tm * localtime_r(const time_t *unix_gmt, struct tm *res)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d03/time-stubs_8cpp_source.html#l00629">time-stubs.cpp:629</a></div></div>
-<div class="ttc" id="atime-stubs_8cpp_html_a38a6d3ac3d4f063468a846fb3240f928"><div class="ttname"><a href="../../de/d03/time-stubs_8cpp.html#a38a6d3ac3d4f063468a846fb3240f928">asctime_r</a></div><div class="ttdeci">char * asctime_r(const struct tm *tm, char *buf)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d03/time-stubs_8cpp_source.html#l00668">time-stubs.cpp:668</a></div></div>
+<div class="ttc" id="amusl_2include_2time_8h_html_d8/d5a/structtm"><div class="ttname"><a href="../../d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm">tm</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d02/musl_2include_2time_8h_source.html#l00040">time.h:40</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d03/time-stubs_8cpp_source.html#l00668">asctime_r()</a>, <a class="el" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../de/d03/time-stubs_8cpp_source.html#l00629">localtime_r()</a>, and <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, and <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00079">t</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d4/d69/ctime32__r_8c_source.html#l00004">__ctime32_r()</a>.</p>
 
 </div>
 </div>

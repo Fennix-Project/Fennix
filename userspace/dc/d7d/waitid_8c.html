@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('dc/d7d/waitid_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a53969d56f6500183cfda0d92da9a8b6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7d/waitid_8c.html#a53969d56f6500183cfda0d92da9a8b6f">waitid</a> (<a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1e">idtype_t</a> type, <a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a7f13a96f05e6a74e9b416154cbe5e2e2">id_t</a> id, <a class="el" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *info, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../d4/d81/m__menu_8c.html#ae4d5251432e1a9e6803c0240cc492e18a5eb3f84958aa2200df58a6af276027eb">options</a>)</td></tr>
+<tr class="memitem:a53969d56f6500183cfda0d92da9a8b6f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7d/waitid_8c.html#a53969d56f6500183cfda0d92da9a8b6f">waitid</a> (<a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1e">idtype_t</a> <a class="el" href="../../df/df9/chcon_8c.html#a23506fc4821ab6d9671f3e6222591a96">type</a>, <a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a7f13a96f05e6a74e9b416154cbe5e2e2">id_t</a> id, <a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *info, int <a class="el" href="../../d3/df2/ifconfig_8c.html#d1/d38/structoptions">options</a>)</td></tr>
 <tr class="separator:a53969d56f6500183cfda0d92da9a8b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> waitid </td>
+          <td class="memname">int waitid </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1e">idtype_t</a>&#160;</td>
           <td class="paramname"><em>type</em>, </td>
@@ -123,13 +123,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a> *&#160;</td>
           <td class="paramname"><em>info</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>options</em>&#160;</td>
         </tr>
         <tr>
@@ -142,12 +142,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d7d/waitid_8c_source.html#l00004">4</a> of file <a class="el" href="../../dc/d7d/waitid_8c_source.html">waitid.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_waitid, type, <span class="keywordtype">id</span>, info, <a class="code" href="../../d4/d81/m__menu_8c.html#ae4d5251432e1a9e6803c0240cc492e18a5eb3f84958aa2200df58a6af276027eb">options</a>, 0);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_waitid, <a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a>, <span class="keywordtype">id</span>, info, <a class="code" href="../../d3/df2/ifconfig_8c.html#d1/d38/structoptions">options</a>, 0);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="am__menu_8c_html_ae4d5251432e1a9e6803c0240cc492e18a5eb3f84958aa2200df58a6af276027eb"><div class="ttname"><a href="../../d4/d81/m__menu_8c.html#ae4d5251432e1a9e6803c0240cc492e18a5eb3f84958aa2200df58a6af276027eb">options</a></div><div class="ttdeci">@ options</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d81/m__menu_8c_source.html#l00234">m_menu.c:234</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
+<div class="ttc" id="aifconfig_8c_html_d1/d38/structoptions"><div class="ttname"><a href="../../d3/df2/ifconfig_8c.html#d1/d38/structoptions">options</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/df2/ifconfig_8c_source.html#l00232">ifconfig.c:232</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
+<div class="ttc" id="axatonum_8c_html_a53155e22eaa05190346890241be3367c"><div class="ttname"><a href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a></div><div class="ttdeci">#define type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d80/xatonum_8c_source.html#l00011">xatonum.c:11</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d81/m__menu_8c_source.html#l00234">options</a>, and <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>, and <a class="el" href="../../d1/d80/xatonum_8c_source.html#l00011">type</a>.</p>
 
 </div>
 </div>

@@ -101,9 +101,9 @@ Macros</h2></td></tr>
 <tr class="separator:a7e7a00c884ea124bb9f687b16cb5db9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a227a9d866638d8253d7eb806d719a83a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1c/filecntl_8h.html#a227a9d866638d8253d7eb806d719a83a">FD_NCLOEXEC</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a227a9d866638d8253d7eb806d719a83a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed5200a9d0687548035406c8a357d2d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1c/filecntl_8h.html#aed5200a9d0687548035406c8a357d2d7">SET_CLOSE_ON_EXEC</a>(fd)&#160;&#160;&#160;(<a class="el" href="../../dc/de6/fcntl_8c.html#ad39ebe4c4767eaa9a680777400cfaafe">fcntl</a> ((fd), <a class="el" href="../../df/dd7/musl_2arch_2x32_2bits_2fcntl_8h.html#ad27227e8d87b844648f07d66da38bb3f">F_SETFD</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h.html#a7e7a00c884ea124bb9f687b16cb5db9b">FD_CLOEXEC</a>))</td></tr>
+<tr class="memitem:aed5200a9d0687548035406c8a357d2d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1c/filecntl_8h.html#aed5200a9d0687548035406c8a357d2d7">SET_CLOSE_ON_EXEC</a>(<a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)&#160;&#160;&#160;(<a class="el" href="../../dc/de6/fcntl_8c.html#ad39ebe4c4767eaa9a680777400cfaafe">fcntl</a> ((<a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>), <a class="el" href="../../df/dd7/musl_2arch_2x32_2bits_2fcntl_8h.html#ad27227e8d87b844648f07d66da38bb3f">F_SETFD</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h.html#a7e7a00c884ea124bb9f687b16cb5db9b">FD_CLOEXEC</a>))</td></tr>
 <tr class="separator:aed5200a9d0687548035406c8a357d2d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab897e0ce4c670bac769e46048d768760"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1c/filecntl_8h.html#ab897e0ce4c670bac769e46048d768760">SET_OPEN_ON_EXEC</a>(fd)&#160;&#160;&#160;(<a class="el" href="../../dc/de6/fcntl_8c.html#ad39ebe4c4767eaa9a680777400cfaafe">fcntl</a> ((fd), <a class="el" href="../../df/dd7/musl_2arch_2x32_2bits_2fcntl_8h.html#ad27227e8d87b844648f07d66da38bb3f">F_SETFD</a>, <a class="el" href="../../d4/d1c/filecntl_8h.html#a227a9d866638d8253d7eb806d719a83a">FD_NCLOEXEC</a>))</td></tr>
+<tr class="memitem:ab897e0ce4c670bac769e46048d768760"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1c/filecntl_8h.html#ab897e0ce4c670bac769e46048d768760">SET_OPEN_ON_EXEC</a>(<a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)&#160;&#160;&#160;(<a class="el" href="../../dc/de6/fcntl_8c.html#ad39ebe4c4767eaa9a680777400cfaafe">fcntl</a> ((<a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>), <a class="el" href="../../df/dd7/musl_2arch_2x32_2bits_2fcntl_8h.html#ad27227e8d87b844648f07d66da38bb3f">F_SETFD</a>, <a class="el" href="../../d4/d1c/filecntl_8h.html#a227a9d866638d8253d7eb806d719a83a">FD_NCLOEXEC</a>))</td></tr>
 <tr class="separator:ab897e0ce4c670bac769e46048d768760"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39d33ce33804efd4d52606d59071c6d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1c/filecntl_8h.html#a39d33ce33804efd4d52606d59071c6d8">O_NONBLOCK</a>&#160;&#160;&#160;0</td></tr>
 <tr class="separator:a39d33ce33804efd4d52606d59071c6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,8 +203,8 @@ Macros</h2></td></tr>
           <td class="memname">#define SET_CLOSE_ON_EXEC</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">fd</td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="../../dc/de6/fcntl_8c.html#ad39ebe4c4767eaa9a680777400cfaafe">fcntl</a> ((fd), <a class="el" href="../../df/dd7/musl_2arch_2x32_2bits_2fcntl_8h.html#ad27227e8d87b844648f07d66da38bb3f">F_SETFD</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h.html#a7e7a00c884ea124bb9f687b16cb5db9b">FD_CLOEXEC</a>))</td>
+          <td class="paramname"><a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></td><td>)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="../../dc/de6/fcntl_8c.html#ad39ebe4c4767eaa9a680777400cfaafe">fcntl</a> ((<a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>), <a class="el" href="../../df/dd7/musl_2arch_2x32_2bits_2fcntl_8h.html#ad27227e8d87b844648f07d66da38bb3f">F_SETFD</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h.html#a7e7a00c884ea124bb9f687b16cb5db9b">FD_CLOEXEC</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -223,8 +223,8 @@ Macros</h2></td></tr>
           <td class="memname">#define SET_OPEN_ON_EXEC</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">fd</td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="../../dc/de6/fcntl_8c.html#ad39ebe4c4767eaa9a680777400cfaafe">fcntl</a> ((fd), <a class="el" href="../../df/dd7/musl_2arch_2x32_2bits_2fcntl_8h.html#ad27227e8d87b844648f07d66da38bb3f">F_SETFD</a>, <a class="el" href="../../d4/d1c/filecntl_8h.html#a227a9d866638d8253d7eb806d719a83a">FD_NCLOEXEC</a>))</td>
+          <td class="paramname"><a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a></td><td>)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="../../dc/de6/fcntl_8c.html#ad39ebe4c4767eaa9a680777400cfaafe">fcntl</a> ((<a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>), <a class="el" href="../../df/dd7/musl_2arch_2x32_2bits_2fcntl_8h.html#ad27227e8d87b844648f07d66da38bb3f">F_SETFD</a>, <a class="el" href="../../d4/d1c/filecntl_8h.html#a227a9d866638d8253d7eb806d719a83a">FD_NCLOEXEC</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -24,5 +24,6 @@ var globals_type =
     [ "u", "globals_type_u.html", null ],
     [ "v", "globals_type_v.html", null ],
     [ "w", "globals_type_w.html", null ],
+    [ "x", "globals_type_x.html", null ],
     [ "y", "globals_type_y.html", null ]
 ];

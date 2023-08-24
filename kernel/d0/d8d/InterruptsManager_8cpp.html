@@ -96,6 +96,7 @@ $(document).ready(function(){initNavTree('d0/d8d/InterruptsManager_8cpp.html','.
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d0/d35/syscalls_8hpp_source.html">syscalls.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dac/io_8h_source.html">io.h</a>&gt;</code><br />
@@ -149,7 +150,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00043">43</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -185,12 +186,14 @@ ID</td>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{ <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a>(<a class="code" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>); }</div>
-<div class="ttc" id="anamespaceCrashHandler_html_a202e013cac1a108322c79e592f3a5e0c"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a></div><div class="ttdeci">SafeFunction void Handle(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de7/CrashHandler_8cpp_source.html#l00816">CrashHandler.cpp:816</a></div></div>
-<div class="ttc" id="asmp_8hpp_html_a7c318f3349713a8030d610e4a263d10a"><div class="ttname"><a href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a></div><div class="ttdeci">CPUArchData Data</div><div class="ttdoc">Architecture-specific data.</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d33/smp_8hpp_source.html#l00019">smp.hpp:19</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00040">40</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#a7aacb0e1bf77e9bd405d9409047baad7">Data</a>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
+<div class="ttc" id="aXalloc_8hpp_html_a7aacb0e1bf77e9bd405d9409047baad7"><div class="ttname"><a href="../../d8/d12/Xalloc_8hpp.html#a7aacb0e1bf77e9bd405d9409047baad7">Data</a></div><div class="ttdeci">Xuint8_t * Data</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Xalloc.hpp:6</a></div></div>
+<div class="ttc" id="anamespaceCrashHandler_html_a202e013cac1a108322c79e592f3a5e0c"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a></div><div class="ttdeci">SafeFunction void Handle(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de7/CrashHandler_8cpp_source.html#l01133">CrashHandler.cpp:1133</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d33/smp_8hpp_source.html#l00019">Data</a>, and <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l00816">CrashHandler::Handle()</a>.</p>
+<p class="reference">References <a class="el" href="../../d8/d12/Xalloc_8hpp_source.html#l00006">Data</a>, and <a class="el" href="../../db/de7/CrashHandler_8cpp_source.html#l01133">CrashHandler::Handle()</a>.</p>
 
 </div>
 </div>

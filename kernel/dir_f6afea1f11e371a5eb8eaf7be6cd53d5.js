@@ -19,6 +19,7 @@ var dir_f6afea1f11e371a5eb8eaf7be6cd53d5 =
     [ "stdlib.h", "dc/d9c/stdlib_8h.html", null ],
     [ "string.h", "da/d66/string_8h.html", null ],
     [ "strings.h", "d6/d90/strings_8h.html", null ],
+    [ "stropts.h", "d3/de9/stropts_8h.html", "d3/de9/stropts_8h" ],
     [ "unistd.h", "da/d6f/unistd_8h.html", null ],
     [ "unwind.h", "d3/db6/unwind_8h.html", "d3/db6/unwind_8h" ],
     [ "wchar.h", "d9/dae/wchar_8h.html", null ]

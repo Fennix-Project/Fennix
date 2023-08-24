@@ -4,7 +4,7 @@ var musl_2include_2elf_8h =
       [ "e_ehsize", "d0/d45/musl_2include_2elf_8h.html#a04c658023e50479eed64f6d1b00a2504", null ],
       [ "e_entry", "d0/d45/musl_2include_2elf_8h.html#ab8a982696048d807017919b7d0145482", null ],
       [ "e_flags", "d0/d45/musl_2include_2elf_8h.html#a87cf481be7917fafde0c4ecf78c8e574", null ],
-      [ "e_ident", "d0/d45/musl_2include_2elf_8h.html#aebd5576e5ae99cb99c2eb76d94c7f9f7", null ],
+      [ "e_ident", "d0/d45/musl_2include_2elf_8h.html#aba47ac5e0af02d5668782f1fd5a7466c", null ],
       [ "e_machine", "d0/d45/musl_2include_2elf_8h.html#a19bca7faba9e5573814643efc3574c7b", null ],
       [ "e_phentsize", "d0/d45/musl_2include_2elf_8h.html#afa2289f96d86fcc568a3b1f40cc8953e", null ],
       [ "e_phnum", "d0/d45/musl_2include_2elf_8h.html#a360898812db1655f8cb8258780d9df5b", null ],
@@ -20,7 +20,7 @@ var musl_2include_2elf_8h =
       [ "e_ehsize", "d0/d45/musl_2include_2elf_8h.html#a404b7e3566d912b0382cacea17475e92", null ],
       [ "e_entry", "d0/d45/musl_2include_2elf_8h.html#a943c7d038a3cc3c1115e84b4cd19966d", null ],
       [ "e_flags", "d0/d45/musl_2include_2elf_8h.html#ae6ea9e821472d35e7d2c446fa79bdc3a", null ],
-      [ "e_ident", "d0/d45/musl_2include_2elf_8h.html#a6c07667c1adfd724637d66535c3ffed0", null ],
+      [ "e_ident", "d0/d45/musl_2include_2elf_8h.html#acdd2e122af003c5b5708d1ae75b4a85c", null ],
       [ "e_machine", "d0/d45/musl_2include_2elf_8h.html#adecc8b3641e23794f39c78f15ab8c809", null ],
       [ "e_phentsize", "d0/d45/musl_2include_2elf_8h.html#ab5aefb7a14b9cf2eafcbaf0664852369", null ],
       [ "e_phnum", "d0/d45/musl_2include_2elf_8h.html#af13bac5685d725c2ba9930c1176f3082", null ],
@@ -79,7 +79,6 @@ var musl_2include_2elf_8h =
       [ "st_info", "d0/d45/musl_2include_2elf_8h.html#a9bbd53b13b0f1403d8369cbdd15df08c", null ],
       [ "st_name", "d0/d45/musl_2include_2elf_8h.html#a4069f9db0c91ecc40bc2f4ddbdf28aff", null ],
       [ "st_other", "d0/d45/musl_2include_2elf_8h.html#adba66dcdbe19ab3ecc24830a58549230", null ],
-      [ "st_shndx", "d0/d45/musl_2include_2elf_8h.html#a3bd895ed278935218da81c754460d8d2", null ],
       [ "st_shndx", "d0/d45/musl_2include_2elf_8h.html#a942ca56d5692e290b23366388fc600e6", null ],
       [ "st_size", "d0/d45/musl_2include_2elf_8h.html#af5c72e0a09802b81e8087b303ec4d29f", null ],
       [ "st_value", "d0/d45/musl_2include_2elf_8h.html#a9601295da4c2e81cc18c1f777609e1bf", null ]
@@ -97,7 +96,6 @@ var musl_2include_2elf_8h =
       [ "r_offset", "d0/d45/musl_2include_2elf_8h.html#addcf5ef67ababeb4940889e912c11eff", null ]
     ] ],
     [ "Elf64_Rel", "d0/d45/musl_2include_2elf_8h.html#d5/dcb/structElf64__Rel", [
-      [ "r_info", "d0/d45/musl_2include_2elf_8h.html#a47e552986c6a18d9f991be7519b57b51", null ],
       [ "r_info", "d0/d45/musl_2include_2elf_8h.html#a775740962c9bd1e3f956bd8bffca173b", null ],
       [ "r_offset", "d0/d45/musl_2include_2elf_8h.html#af719169bd59569a885bf9d5df794b951", null ]
     ] ],
@@ -133,15 +131,13 @@ var musl_2include_2elf_8h =
     ] ],
     [ "Elf32_Dyn", "d0/d45/musl_2include_2elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d0/d45/musl_2include_2elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d0/d45/musl_2include_2elf_8h.html#a73152cc30963f9548481c06bb4819db2", null ],
-      [ "d_un", "d0/d45/musl_2include_2elf_8h.html#aa0122513f268a1fc29c91cd49b70a094", null ],
-      [ "d_un", "d0/d45/musl_2include_2elf_8h.html#aee7403d116cb21546fe725404db00c18", null ]
+      [ "d_un", "d0/d45/musl_2include_2elf_8h.html#afaaa4a78118555372644eece3228853d", null ],
+      [ "d_un", "d0/d45/musl_2include_2elf_8h.html#a828001d694fa08cbc81f0df3b03e10a5", null ]
     ] ],
     [ "Elf64_Dyn", "d0/d45/musl_2include_2elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d0/d45/musl_2include_2elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d0/d45/musl_2include_2elf_8h.html#a9a10a155a60f53b1c0ea257c08049642", null ],
-      [ "d_un", "d0/d45/musl_2include_2elf_8h.html#a82e33c3db6cfb87e9bfc05277cf4832f", null ],
-      [ "d_un", "d0/d45/musl_2include_2elf_8h.html#af835fe8cfe3f3ab4b4ac8d2fc8a8c8f0", null ]
+      [ "d_un", "d0/d45/musl_2include_2elf_8h.html#ac9fac66334d8097de4b703d2ca9c70a5", null ],
+      [ "d_un", "d0/d45/musl_2include_2elf_8h.html#a3a9aeac50779c828df248a723d95a2c6", null ]
     ] ],
     [ "Elf32_Verdef", "d0/d45/musl_2include_2elf_8h.html#d5/dea/structElf32__Verdef", [
       [ "vd_aux", "d0/d45/musl_2include_2elf_8h.html#a3693473efde66cb13cecda2053c91f9d", null ],
@@ -199,17 +195,15 @@ var musl_2include_2elf_8h =
     ] ],
     [ "Elf32_auxv_t", "d0/d45/musl_2include_2elf_8h.html#d2/d6b/structElf32__auxv__t", [
       [ "a_type", "d0/d45/musl_2include_2elf_8h.html#ab6d0fd7066a8703da6fa658d3c0c085d", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#aa8114d5b813dd5ed6a0329eeb6bde865", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#ac9a4c2fc1a54bf96886a05ab0e79f466", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a5c10e0cffe5c84eef6022e01ba9a4e81", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a9d65258f79905399d6a470a99274f531", null ]
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#ac15f9df3127dccd08738f7737fd2683f", null ],
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a7b98ec28b19d7caa9c2581efb41141a0", null ],
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a4084d752f4fa65f78f09023cb9b499fe", null ]
     ] ],
     [ "Elf64_auxv_t", "d0/d45/musl_2include_2elf_8h.html#d9/de7/structElf64__auxv__t", [
       [ "a_type", "d0/d45/musl_2include_2elf_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#ab44877c5b58ecabaff1191ef80156dbb", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#af0acaa6bc476966bed71fe2f9acb5587", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a455351b2b88b5144c0a73ebd5f8462e6", null ],
-      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#adcbd016a7ff268bfa51cf28dac32d3c8", null ]
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#ab772759f39dbada77007013b1d33100c", null ],
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a05d2daa6baca2837869b51e405e117e1", null ],
+      [ "a_un", "d0/d45/musl_2include_2elf_8h.html#a30d730775b6889a3aa3ea212fcb512af", null ]
     ] ],
     [ "Elf32_Nhdr", "d0/d45/musl_2include_2elf_8h.html#db/db0/structElf32__Nhdr", [
       [ "n_descsz", "d0/d45/musl_2include_2elf_8h.html#ad83450c86fb3e14d1096a141ea705f33", null ],
@@ -236,8 +230,8 @@ var musl_2include_2elf_8h =
       [ "m_value", "d0/d45/musl_2include_2elf_8h.html#ab6ef52b74b3742b569dcacc4a7f835df", null ]
     ] ],
     [ "Elf32_gptab", "d0/d45/musl_2include_2elf_8h.html#db/d40/unionElf32__gptab", [
-      [ "gt_entry", "d0/d45/musl_2include_2elf_8h.html#af065f6de671f39f08129e19b54bd63e6", null ],
-      [ "gt_header", "d0/d45/musl_2include_2elf_8h.html#a5432919d681a812a0ecf05a5fdd24cf0", null ]
+      [ "gt_entry", "d0/d45/musl_2include_2elf_8h.html#a99a6a81e385341db96f2c55c2e6b0643", null ],
+      [ "gt_header", "d0/d45/musl_2include_2elf_8h.html#a52636b0f54da17fc0b8a60d208515fc1", null ]
     ] ],
     [ "Elf32_RegInfo", "d0/d45/musl_2include_2elf_8h.html#d1/d71/structElf32__RegInfo", [
       [ "ri_cprmask", "d0/d45/musl_2include_2elf_8h.html#a42ab40af79e7bbfb3122546aa99824a8", null ],
@@ -284,11 +278,9 @@ var musl_2include_2elf_8h =
     [ "Elf32_auxv_t.a_un", "d0/d45/musl_2include_2elf_8h.html#da/d9c/unionElf32__auxv__t_8a__un", [
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
-      [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],
     [ "Elf64_auxv_t.a_un", "d0/d45/musl_2include_2elf_8h.html#d0/dc1/unionElf64__auxv__t_8a__un", [
-      [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ],
       [ "a_val", "d0/d45/musl_2include_2elf_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
@@ -296,16 +288,12 @@ var musl_2include_2elf_8h =
     [ "Elf32_Dyn.d_un", "d0/d45/musl_2include_2elf_8h.html#d7/df0/unionElf32__Dyn_8d__un", [
       [ "d_ptr", "d0/d45/musl_2include_2elf_8h.html#ac9d3a8305c0e05e4d0d52aee8d608056", null ],
       [ "d_ptr", "d0/d45/musl_2include_2elf_8h.html#ac9d3a8305c0e05e4d0d52aee8d608056", null ],
-      [ "d_ptr", "d0/d45/musl_2include_2elf_8h.html#ac9d3a8305c0e05e4d0d52aee8d608056", null ],
-      [ "d_val", "d0/d45/musl_2include_2elf_8h.html#ac16b193bd04a52da28f2e6c8cf713fb4", null ],
       [ "d_val", "d0/d45/musl_2include_2elf_8h.html#ac16b193bd04a52da28f2e6c8cf713fb4", null ],
       [ "d_val", "d0/d45/musl_2include_2elf_8h.html#ac16b193bd04a52da28f2e6c8cf713fb4", null ]
     ] ],
     [ "Elf64_Dyn.d_un", "d0/d45/musl_2include_2elf_8h.html#db/d36/unionElf64__Dyn_8d__un", [
       [ "d_ptr", "d0/d45/musl_2include_2elf_8h.html#ac9d3a8305c0e05e4d0d52aee8d608056", null ],
       [ "d_ptr", "d0/d45/musl_2include_2elf_8h.html#ac9d3a8305c0e05e4d0d52aee8d608056", null ],
-      [ "d_ptr", "d0/d45/musl_2include_2elf_8h.html#ac9d3a8305c0e05e4d0d52aee8d608056", null ],
-      [ "d_val", "d0/d45/musl_2include_2elf_8h.html#ac16b193bd04a52da28f2e6c8cf713fb4", null ],
       [ "d_val", "d0/d45/musl_2include_2elf_8h.html#ac16b193bd04a52da28f2e6c8cf713fb4", null ],
       [ "d_val", "d0/d45/musl_2include_2elf_8h.html#ac16b193bd04a52da28f2e6c8cf713fb4", null ]
     ] ],

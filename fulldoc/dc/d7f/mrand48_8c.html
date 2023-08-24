@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('dc/d7f/mrand48_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3724203b65a11246be7caf51ace717c7"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/mrand48_8c.html#a3724203b65a11246be7caf51ace717c7">jrand48</a> (unsigned short s[3])</td></tr>
+<tr class="memitem:a3724203b65a11246be7caf51ace717c7"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/mrand48_8c.html#a3724203b65a11246be7caf51ace717c7">jrand48</a> (unsigned short <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>[3])</td></tr>
 <tr class="separator:a3724203b65a11246be7caf51ace717c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c450a7a3d4437e3d5f8def180f68103"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d7f/mrand48_8c.html#a9c450a7a3d4437e3d5f8def180f68103">mrand48</a> (void)</td></tr>
 <tr class="separator:a9c450a7a3d4437e3d5f8def180f68103"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,13 +123,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d7f/mrand48_8c_source.html#l00005">5</a> of file <a class="el" href="../../dc/d7f/mrand48_8c_source.html">mrand48.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a0c18914b3041c2f583aba76f418399c2">int32_t</a>)(<a class="code" href="../../d7/dfb/____rand48__step_8c.html#a9dbab1465751c9edc7cbd9e873c10109">__rand48_step</a>(s, <a class="code" href="../../d0/d89/____seed48_8c.html#af2622eb04a788ae36255aaeacea294ae">__seed48</a>+3) &gt;&gt; 16);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a0c18914b3041c2f583aba76f418399c2">int32_t</a>)(<a class="code" href="../../d7/dfb/____rand48__step_8c.html#a9dbab1465751c9edc7cbd9e873c10109">__rand48_step</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="code" href="../../d0/d89/____seed48_8c.html#af2622eb04a788ae36255aaeacea294ae">__seed48</a>+3) &gt;&gt; 16);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a0c18914b3041c2f583aba76f418399c2"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a0c18914b3041c2f583aba76f418399c2">int32_t</a></div><div class="ttdeci">__INT32_TYPE__ int32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00157">types.h:157</a></div></div>
 <div class="ttc" id="a____rand48__step_8c_html_a9dbab1465751c9edc7cbd9e873c10109"><div class="ttname"><a href="../../d7/dfb/____rand48__step_8c.html#a9dbab1465751c9edc7cbd9e873c10109">__rand48_step</a></div><div class="ttdeci">uint64_t __rand48_step(unsigned short *xi, unsigned short *lc)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfb/____rand48__step_8c_source.html#l00004">__rand48_step.c:4</a></div></div>
 <div class="ttc" id="a____seed48_8c_html_af2622eb04a788ae36255aaeacea294ae"><div class="ttname"><a href="../../d0/d89/____seed48_8c.html#af2622eb04a788ae36255aaeacea294ae">__seed48</a></div><div class="ttdeci">unsigned short __seed48[7]</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d89/____seed48_8c_source.html#l00003">__seed48.c:3</a></div></div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/dfb/____rand48__step_8c_source.html#l00004">__rand48_step()</a>, and <a class="el" href="../../d0/d89/____seed48_8c_source.html#l00003">__seed48</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/dfb/____rand48__step_8c_source.html#l00004">__rand48_step()</a>, <a class="el" href="../../d0/d89/____seed48_8c_source.html#l00003">__seed48</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d7f/mrand48_8c_source.html#l00010">mrand48()</a>.</p>
 

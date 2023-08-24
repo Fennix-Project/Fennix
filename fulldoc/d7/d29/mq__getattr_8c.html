@@ -91,14 +91,14 @@ $(document).ready(function(){initNavTree('d7/d29/mq__getattr_8c.html','../../');
 <div class="title">mq_getattr.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;mqueue.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../df/df8/mqueue_8h_source.html">mqueue.h</a>&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
 </div>
 <p><a href="../../d7/d29/mq__getattr_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6d6542f6857baaef05e9c69a11ed9776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d29/mq__getattr_8c.html#a6d6542f6857baaef05e9c69a11ed9776">mq_getattr</a> (<a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#a4820b065fbcbb30569e78e64ef5ad809">mqd_t</a> mqd, struct <a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *attr)</td></tr>
+<tr class="memitem:a6d6542f6857baaef05e9c69a11ed9776"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d29/mq__getattr_8c.html#a6d6542f6857baaef05e9c69a11ed9776">mq_getattr</a> (<a class="el" href="../../df/df8/mqueue_8h.html#a4820b065fbcbb30569e78e64ef5ad809">mqd_t</a> mqd, struct <a class="el" href="../../df/df8/mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *attr)</td></tr>
 <tr class="separator:a6d6542f6857baaef05e9c69a11ed9776"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,15 +109,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> mq_getattr </td>
+          <td class="memname">int mq_getattr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#a4820b065fbcbb30569e78e64ef5ad809">mqd_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/df8/mqueue_8h.html#a4820b065fbcbb30569e78e64ef5ad809">mqd_t</a>&#160;</td>
           <td class="paramname"><em>mqd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *&#160;</td>
+          <td class="paramtype">struct <a class="el" href="../../df/df8/mqueue_8h.html#d4/daf/structmq__attr">mq_attr</a> *&#160;</td>
           <td class="paramname"><em>attr</em>&#160;</td>
         </tr>
         <tr>
@@ -130,11 +130,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d29/mq__getattr_8c_source.html#l00004">4</a> of file <a class="el" href="../../d7/d29/mq__getattr_8c_source.html">mq_getattr.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dee/musl_2include_2mqueue_8h.html#afe7e696799fc0ed21480e258afdf7840">mq_setattr</a>(mqd, 0, attr);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/df8/mqueue_8h.html#afe7e696799fc0ed21480e258afdf7840">mq_setattr</a>(mqd, 0, attr);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="amusl_2include_2mqueue_8h_html_afe7e696799fc0ed21480e258afdf7840"><div class="ttname"><a href="../../db/dee/musl_2include_2mqueue_8h.html#afe7e696799fc0ed21480e258afdf7840">mq_setattr</a></div><div class="ttdeci">int mq_setattr(mqd_t, const struct mq_attr *__restrict, struct mq_attr *__restrict)</div></div>
+<div class="ttc" id="amqueue_8h_html_afe7e696799fc0ed21480e258afdf7840"><div class="ttname"><a href="../../df/df8/mqueue_8h.html#afe7e696799fc0ed21480e258afdf7840">mq_setattr</a></div><div class="ttdeci">int mq_setattr(mqd_t, const struct mq_attr *__restrict, struct mq_attr *__restrict)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/dee/musl_2include_2mqueue_8h.html#afe7e696799fc0ed21480e258afdf7840">mq_setattr()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/df8/mqueue_8h.html#afe7e696799fc0ed21480e258afdf7840">mq_setattr()</a>.</p>
 
 </div>
 </div>

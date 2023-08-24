@@ -40,6 +40,6 @@ var dir_5641749a172aad5afab8ec69910f57e8 =
     [ "towctrans.c", "d8/dbe/towctrans_8c.html", "d8/dbe/towctrans_8c" ],
     [ "wcswidth.c", "d4/dd9/musl_2src_2ctype_2wcswidth_8c.html", "d4/dd9/musl_2src_2ctype_2wcswidth_8c" ],
     [ "wctrans.c", "d1/dad/wctrans_8c.html", "d1/dad/wctrans_8c" ],
-    [ "wcwidth.c", "dc/d3f/musl_2src_2ctype_2wcwidth_8c.html", "dc/d3f/musl_2src_2ctype_2wcwidth_8c" ],
+    [ "wcwidth.c", "d5/dfb/wcwidth_8c.html", "d5/dfb/wcwidth_8c" ],
     [ "wide.h", "d9/dca/wide_8h.html", null ]
 ];

@@ -16,8 +16,8 @@ var XallocV1_8cpp =
     [ "Xalloc_MAP_MEMORY", "dc/ddf/XallocV1_8cpp.html#afd396a5eefeee77f1fac8e07ed002b2e", null ],
     [ "Xalloc_REQUEST_PAGES", "dc/ddf/XallocV1_8cpp.html#a79c2058bb276cafa4a24007c504054a4", null ],
     [ "Xalloc_UNMAP_MEMORY", "dc/ddf/XallocV1_8cpp.html#ac5653876339972db0db5f662e64f8f19", null ],
-    [ "Xmemcpy", "dc/ddf/XallocV1_8cpp.html#ae85ef5e9cfaa1c33f1edc729f1cf4518", null ],
-    [ "Xmemset", "dc/ddf/XallocV1_8cpp.html#a5c6c79cc95c0732ab0d2ac12a02d09a5", null ],
+    [ "Xmemcpy", "dc/ddf/XallocV1_8cpp.html#ada0280d5249955accf8cecfb1bb6e891", null ],
+    [ "Xmemset", "dc/ddf/XallocV1_8cpp.html#af18c2dc699215ed669f4787a86643a11", null ],
     [ "~Block", "dc/ddf/XallocV1_8cpp.html#a489712ea29925ff0009186e7bdbe85e3", null ],
     [ "__attribute__", "dc/ddf/XallocV1_8cpp.html#a15c9a26dcacc424e7d293056e82a6574", null ],
     [ "Address", "dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc", null ],
@@ -26,5 +26,5 @@ var XallocV1_8cpp =
     [ "Next", "dc/ddf/XallocV1_8cpp.html#ae01a39b245e84b29bd60f59f52801d40", null ],
     [ "Sanity", "dc/ddf/XallocV1_8cpp.html#a5969a93224837456b1121b653762cd47", null ],
     [ "Size", "dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7", null ],
-    [ "Xalloc_def", "dc/ddf/XallocV1_8cpp.html#a83499008b4ceaf1ce20da46c2060f640", null ]
+    [ "XallocV1_def", "dc/ddf/XallocV1_8cpp.html#a2f4c6d4a47e510e99b1e52d3d7ead1e0", null ]
 ];

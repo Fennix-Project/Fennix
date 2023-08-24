@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('d3/de7/rewinddir_8c.html','../../'); i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa9b34669494ad61ee2035dee1eefee4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/rewinddir_8c.html#aa9b34669494ad61ee2035dee1eefee4f">rewinddir</a> (<a class="el" href="../../d5/d70/ndir_8h.html#dd/dfe/structDIR">DIR</a> *dir)</td></tr>
+<tr class="memitem:aa9b34669494ad61ee2035dee1eefee4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de7/rewinddir_8c.html#aa9b34669494ad61ee2035dee1eefee4f">rewinddir</a> (<a class="el" href="../../d5/d70/ndir_8h.html#dd/dfe/structDIR">DIR</a> *<a class="el" href="../../d4/d7c/svlogd_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>)</td></tr>
 <tr class="separator:aa9b34669494ad61ee2035dee1eefee4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -122,18 +122,19 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/de7/rewinddir_8c_source.html#l00006">6</a> of file <a class="el" href="../../d3/de7/rewinddir_8c_source.html">rewinddir.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../dd/d42/lock_8h.html#a2f41aca864bb48d137ed64b2dca9f50a">LOCK</a>(dir-&gt;lock);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a>(dir-&gt;fd, 0, <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    dir-&gt;buf_pos = dir-&gt;buf_end = 0;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    dir-&gt;tell = 0;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../dd/d42/lock_8h.html#aec45270f410dc5d02a7fedeee1545cbc">UNLOCK</a>(dir-&gt;lock);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../dd/d42/lock_8h.html#a2f41aca864bb48d137ed64b2dca9f50a">LOCK</a>(<a class="code" href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>-&gt;lock);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a>(<a class="code" href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>-&gt;fd, 0, <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>-&gt;buf_pos = <a class="code" href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>-&gt;buf_end = 0;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>-&gt;tell = 0;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../dd/d42/lock_8h.html#aec45270f410dc5d02a7fedeee1545cbc">UNLOCK</a>(<a class="code" href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a>-&gt;lock);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="ttc" id="aKernel__IO_8cpp_html_a8bd74caed008a66808d92d57fa74d9f6"><div class="ttname"><a href="../../d0/db0/Kernel__IO_8cpp.html#a8bd74caed008a66808d92d57fa74d9f6">lseek</a></div><div class="ttdeci">off_t lseek(int fd, off_t offset, int whence)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db0/Kernel__IO_8cpp_source.html#l00103">Kernel_IO.cpp:103</a></div></div>
 <div class="ttc" id="afilesystem_8hpp_html_a0d112bae8fd35be772185b6ec6bcbe64"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a></div><div class="ttdeci">#define SEEK_SET</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d85/filesystem_8hpp_source.html#l00033">filesystem.hpp:33</a></div></div>
 <div class="ttc" id="alock_8h_html_a2f41aca864bb48d137ed64b2dca9f50a"><div class="ttname"><a href="../../dd/d42/lock_8h.html#a2f41aca864bb48d137ed64b2dca9f50a">LOCK</a></div><div class="ttdeci">#define LOCK(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d42/lock_8h_source.html#l00006">lock.h:6</a></div></div>
 <div class="ttc" id="alock_8h_html_aec45270f410dc5d02a7fedeee1545cbc"><div class="ttname"><a href="../../dd/d42/lock_8h.html#aec45270f410dc5d02a7fedeee1545cbc">UNLOCK</a></div><div class="ttdeci">#define UNLOCK(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d42/lock_8h_source.html#l00007">lock.h:7</a></div></div>
+<div class="ttc" id="arunsv_8c_html_ad45ef284071e5bd5627127837e94bc27"><div class="ttname"><a href="../../df/dde/runsv_8c.html#ad45ef284071e5bd5627127837e94bc27">dir</a></div><div class="ttdeci">#define dir</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dde/runsv_8c_source.html#l00121">runsv.c:121</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d42/lock_8h_source.html#l00006">LOCK</a>, <a class="el" href="../../d0/db0/Kernel__IO_8cpp_source.html#l00103">lseek()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00033">SEEK_SET</a>, and <a class="el" href="../../dd/d42/lock_8h_source.html#l00007">UNLOCK</a>.</p>
+<p class="reference">References <a class="el" href="../../df/dde/runsv_8c_source.html#l00121">dir</a>, <a class="el" href="../../dd/d42/lock_8h_source.html#l00006">LOCK</a>, <a class="el" href="../../d0/db0/Kernel__IO_8cpp_source.html#l00103">lseek()</a>, <a class="el" href="../../d1/d85/filesystem_8hpp_source.html#l00033">SEEK_SET</a>, and <a class="el" href="../../dd/d42/lock_8h_source.html#l00007">UNLOCK</a>.</p>
 
 </div>
 </div>

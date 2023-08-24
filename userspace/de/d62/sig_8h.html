@@ -105,7 +105,7 @@ Macros</h2></td></tr>
 <tr class="separator:a09fccaf2f4ae9265e0535220e9447dce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa974fd0e2001758911195599747a2b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#afa974fd0e2001758911195599747a2b2">SIGRETURN</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)&#160;&#160;&#160;<a class="el" href="../../d0/d32/dcigettext_8c.html#aecfa2199108ab100a557759f57f01c99">return</a></td></tr>
 <tr class="separator:afa974fd0e2001758911195599747a2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefdb4e4f01f2aa4133f26dbabcc8358b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aefdb4e4f01f2aa4133f26dbabcc8358b">set_signal_handler</a>(sig,  <a class="el" href="../../d5/d9c/synccall_8c.html#a562565fc643b900926b9a5657b2a0569">handler</a>)&#160;&#160;&#160;(<a class="el" href="../../da/db8/signals_8c.html#a1f8d6bb6b9aaad1c21141fc327620e99">SigHandler</a> *)<a class="el" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#ad7d09f2a17db29d8e4c08e92abcf0860">signal</a> (sig, <a class="el" href="../../d5/d9c/synccall_8c.html#a562565fc643b900926b9a5657b2a0569">handler</a>)</td></tr>
+<tr class="memitem:aefdb4e4f01f2aa4133f26dbabcc8358b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aefdb4e4f01f2aa4133f26dbabcc8358b">set_signal_handler</a>(sig,  <a class="el" href="../../d5/d9c/synccall_8c.html#a562565fc643b900926b9a5657b2a0569">handler</a>)&#160;&#160;&#160;(<a class="el" href="../../dd/db7/bash_2lib_2readline_2signals_8c.html#a1f8d6bb6b9aaad1c21141fc327620e99">SigHandler</a> *)<a class="el" href="../../d8/d36/signal_8c.html#a1657764e51d1a68b7e879e86114a7afc">signal</a> (sig, <a class="el" href="../../d5/d9c/synccall_8c.html#a562565fc643b900926b9a5657b2a0569">handler</a>)</td></tr>
 <tr class="separator:aefdb4e4f01f2aa4133f26dbabcc8358b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b78c9a1c71efca7a30f9126a7fbfadf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a>(<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)&#160;&#160;&#160;(1 &lt;&lt; ((<a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)-1))</td></tr>
 <tr class="separator:a1b78c9a1c71efca7a30f9126a7fbfadf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,7 +115,7 @@ Macros</h2></td></tr>
 <tr class="separator:a37750b78b7ae75fe02ad26e70f6cc845"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba68b184334564e89ff959ab086bf936"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aba68b184334564e89ff959ab086bf936">sigemptyset</a>(set)&#160;&#160;&#160;(*(set) = 0)</td></tr>
 <tr class="separator:aba68b184334564e89ff959ab086bf936"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a202aa5f855d43823ef88bc2f55544214"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a202aa5f855d43823ef88bc2f55544214">sigfillset</a>(set)&#160;&#160;&#160;(*set) = <a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#ab83b88daaecc469d1edb90a527ab4a39">NSIG</a>) - 1</td></tr>
+<tr class="memitem:a202aa5f855d43823ef88bc2f55544214"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a202aa5f855d43823ef88bc2f55544214">sigfillset</a>(set)&#160;&#160;&#160;(*set) = <a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d7/d0b/trap_8h.html#ab83b88daaecc469d1edb90a527ab4a39">NSIG</a>) - 1</td></tr>
 <tr class="separator:a202aa5f855d43823ef88bc2f55544214"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a352f6f6822f6cca90a351ffdd927597f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a352f6f6822f6cca90a351ffdd927597f">sigaddset</a>(set,  sig)&#160;&#160;&#160;*(set) |= <a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (sig)</td></tr>
 <tr class="separator:a352f6f6822f6cca90a351ffdd927597f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,7 +127,7 @@ Macros</h2></td></tr>
 <tr class="separator:a2b47537f55054627b02f22492d624aeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1b2d380dc1779c219bfd7b8b65db57c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aa1b2d380dc1779c219bfd7b8b65db57c">BLOCK_SIGNAL</a>(sig,  nvar,  ovar)</td></tr>
 <tr class="separator:aa1b2d380dc1779c219bfd7b8b65db57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6ad5d81af3198ab9d90d7dac07150fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#ae6ad5d81af3198ab9d90d7dac07150fc">UNBLOCK_SIGNAL</a>(ovar)&#160;&#160;&#160;<a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (<a class="el" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a37750b78b7ae75fe02ad26e70f6cc845">SIG_SETMASK</a>, &amp;ovar, (<a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *) <a class="el" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>)</td></tr>
+<tr class="memitem:ae6ad5d81af3198ab9d90d7dac07150fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#ae6ad5d81af3198ab9d90d7dac07150fc">UNBLOCK_SIGNAL</a>(ovar)&#160;&#160;&#160;<a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (<a class="el" href="../../de/d62/sig_8h.html#a37750b78b7ae75fe02ad26e70f6cc845">SIG_SETMASK</a>, &amp;ovar, (<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *) <a class="el" href="../../dc/d9b/include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
 <tr class="separator:ae6ad5d81af3198ab9d90d7dac07150fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37d156f6ab7c2ade277f9a274314d258"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a37d156f6ab7c2ade277f9a274314d258">BLOCK_CHILD</a>(nvar,  ovar)&#160;&#160;&#160;ovar = sigblock (<a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d8/dfe/musl_2arch_2x86__64_2bits_2signal_8h.html#a0e63521a64cc8bc2b91d36a87d32c9f8">SIGCHLD</a>))</td></tr>
 <tr class="separator:a37d156f6ab7c2ade277f9a274314d258"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,27 +136,27 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ac04f0f72855dd472caf0514d51082771"><td class="memItemLeft" align="right" valign="top">typedef void <a class="el" href="../../da/db8/signals_8c.html#a1f8d6bb6b9aaad1c21141fc327620e99">SigHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#ac04f0f72855dd472caf0514d51082771">PARAMS</a>((<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>))</td></tr>
+<tr class="memitem:ac04f0f72855dd472caf0514d51082771"><td class="memItemLeft" align="right" valign="top">typedef void <a class="el" href="../../dd/db7/bash_2lib_2readline_2signals_8c.html#a1f8d6bb6b9aaad1c21141fc327620e99">SigHandler</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#ac04f0f72855dd472caf0514d51082771">PARAMS</a>((int))</td></tr>
 <tr class="separator:ac04f0f72855dd472caf0514d51082771"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aafcf8a843120ef4530d4807cff62fe9b"><td class="memItemLeft" align="right" valign="top">void <a class="el" href="../../da/d12/sig_8c.html#af6e26d8b1639be351169ac893a03a71c">initialize_terminating_signals</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aafcf8a843120ef4530d4807cff62fe9b">PARAMS</a> ((void))</td></tr>
 <tr class="separator:aafcf8a843120ef4530d4807cff62fe9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add55a5f2b3635775cdfc9eb6ad3dc9e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> block_trapped_signals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#add55a5f2b3635775cdfc9eb6ad3dc9e9">PARAMS</a> ((<a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *))</td></tr>
+<tr class="memitem:add55a5f2b3635775cdfc9eb6ad3dc9e9"><td class="memItemLeft" align="right" valign="top">int block_trapped_signals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#add55a5f2b3635775cdfc9eb6ad3dc9e9">PARAMS</a> ((<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *))</td></tr>
 <tr class="separator:add55a5f2b3635775cdfc9eb6ad3dc9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa00c15b4f598685c694be110a0991217"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> unblock_trapped_signals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aa00c15b4f598685c694be110a0991217">PARAMS</a> ((<a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *))</td></tr>
+<tr class="memitem:aa00c15b4f598685c694be110a0991217"><td class="memItemLeft" align="right" valign="top">int unblock_trapped_signals&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aa00c15b4f598685c694be110a0991217">PARAMS</a> ((<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *))</td></tr>
 <tr class="separator:aa00c15b4f598685c694be110a0991217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a7a77982e39c810b380a630ebd494d95c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#aad3cac9e499ce62e356901e96eaab412">volatile</a> <a class="el" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#a5d486213aa4f744f497959af6917e2a0">sig_atomic_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a7a77982e39c810b380a630ebd494d95c">sigwinch_received</a></td></tr>
+<tr class="memitem:a7a77982e39c810b380a630ebd494d95c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> <a class="el" href="../../de/d2b/musl_2include_2signal_8h.html#a5d486213aa4f744f497959af6917e2a0">sig_atomic_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a7a77982e39c810b380a630ebd494d95c">sigwinch_received</a></td></tr>
 <tr class="separator:a7a77982e39c810b380a630ebd494d95c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b02f2e548145c2c928160a4e2b6ef9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#aad3cac9e499ce62e356901e96eaab412">volatile</a> <a class="el" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#a5d486213aa4f744f497959af6917e2a0">sig_atomic_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a5b02f2e548145c2c928160a4e2b6ef9d">sigterm_received</a></td></tr>
+<tr class="memitem:a5b02f2e548145c2c928160a4e2b6ef9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> <a class="el" href="../../de/d2b/musl_2include_2signal_8h.html#a5d486213aa4f744f497959af6917e2a0">sig_atomic_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a5b02f2e548145c2c928160a4e2b6ef9d">sigterm_received</a></td></tr>
 <tr class="separator:a5b02f2e548145c2c928160a4e2b6ef9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab53709631666c77a60dcf13563912ac0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#ab53709631666c77a60dcf13563912ac0">interrupt_immediately</a></td></tr>
+<tr class="memitem:ab53709631666c77a60dcf13563912ac0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#ab53709631666c77a60dcf13563912ac0">interrupt_immediately</a></td></tr>
 <tr class="separator:ab53709631666c77a60dcf13563912ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd4ce9a0fa0e81841a164462921f2fe0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#afd4ce9a0fa0e81841a164462921f2fe0">terminate_immediately</a></td></tr>
+<tr class="memitem:afd4ce9a0fa0e81841a164462921f2fe0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#afd4ce9a0fa0e81841a164462921f2fe0">terminate_immediately</a></td></tr>
 <tr class="separator:afd4ce9a0fa0e81841a164462921f2fe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -254,7 +254,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../da/db8/signals_8c.html#a1f8d6bb6b9aaad1c21141fc327620e99">SigHandler</a> *)<a class="el" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#ad7d09f2a17db29d8e4c08e92abcf0860">signal</a> (sig, <a class="el" href="../../d5/d9c/synccall_8c.html#a562565fc643b900926b9a5657b2a0569">handler</a>)</td>
+          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../dd/db7/bash_2lib_2readline_2signals_8c.html#a1f8d6bb6b9aaad1c21141fc327620e99">SigHandler</a> *)<a class="el" href="../../d8/d36/signal_8c.html#a1657764e51d1a68b7e879e86114a7afc">signal</a> (sig, <a class="el" href="../../d5/d9c/synccall_8c.html#a562565fc643b900926b9a5657b2a0569">handler</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -386,7 +386,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">set</td><td>)</td>
-          <td>&#160;&#160;&#160;(*set) = <a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#ab83b88daaecc469d1edb90a527ab4a39">NSIG</a>) - 1</td>
+          <td>&#160;&#160;&#160;(*set) = <a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d7/d0b/trap_8h.html#ab83b88daaecc469d1edb90a527ab4a39">NSIG</a>) - 1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -532,7 +532,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">ovar</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (<a class="el" href="../../d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a37750b78b7ae75fe02ad26e70f6cc845">SIG_SETMASK</a>, &amp;ovar, (<a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *) <a class="el" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (<a class="el" href="../../de/d62/sig_8h.html#a37750b78b7ae75fe02ad26e70f6cc845">SIG_SETMASK</a>, &amp;ovar, (<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *) <a class="el" href="../../dc/d9b/include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -549,7 +549,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void <a class="el" href="../../da/db8/signals_8c.html#a1f8d6bb6b9aaad1c21141fc327620e99">SigHandler</a> PARAMS((<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>))</td>
+          <td class="memname">typedef void <a class="el" href="../../dd/db7/bash_2lib_2readline_2signals_8c.html#a1f8d6bb6b9aaad1c21141fc327620e99">SigHandler</a> PARAMS((int))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -566,9 +566,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> unblock_trapped_signals PARAMS </td>
+          <td class="memname">int unblock_trapped_signals PARAMS </td>
           <td>(</td>
-          <td class="paramtype">(<a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *)&#160;</td>
+          <td class="paramtype">(<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *)&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -584,9 +584,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> block_trapped_signals PARAMS </td>
+          <td class="memname">int block_trapped_signals PARAMS </td>
           <td>(</td>
-          <td class="paramtype">(<a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *)&#160;</td>
+          <td class="paramtype">(<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *, <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *)&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -624,7 +624,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> interrupt_immediately</td>
+          <td class="memname">int interrupt_immediately</td>
         </tr>
       </table>
   </td>
@@ -650,7 +650,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#aad3cac9e499ce62e356901e96eaab412">volatile</a> <a class="el" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#a5d486213aa4f744f497959af6917e2a0">sig_atomic_t</a> sigterm_received</td>
+          <td class="memname"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> <a class="el" href="../../de/d2b/musl_2include_2signal_8h.html#a5d486213aa4f744f497959af6917e2a0">sig_atomic_t</a> sigterm_received</td>
         </tr>
       </table>
   </td>
@@ -676,7 +676,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#aad3cac9e499ce62e356901e96eaab412">volatile</a> <a class="el" href="../../d2/d71/mlibc_2options_2ansi_2include_2signal_8h.html#a5d486213aa4f744f497959af6917e2a0">sig_atomic_t</a> sigwinch_received</td>
+          <td class="memname"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> <a class="el" href="../../de/d2b/musl_2include_2signal_8h.html#a5d486213aa4f744f497959af6917e2a0">sig_atomic_t</a> sigwinch_received</td>
         </tr>
       </table>
   </td>
@@ -702,7 +702,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> terminate_immediately</td>
+          <td class="memname">int terminate_immediately</td>
         </tr>
       </table>
   </td>

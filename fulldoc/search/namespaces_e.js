@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['universalasynchronousreceivertransmitter_40325',['UniversalAsynchronousReceiverTransmitter',['../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html',1,'']]],
-  ['update_2dsyscall_2dlist_40326',['update-syscall-list',['../d6/d07/namespaceupdate-syscall-list.html',1,'']]]
+  ['universalasynchronousreceivertransmitter_49364',['UniversalAsynchronousReceiverTransmitter',['../d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html',1,'']]]
 ];

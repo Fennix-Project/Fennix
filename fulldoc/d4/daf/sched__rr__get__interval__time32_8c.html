@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d4/daf/sched__rr__get__interval__time3
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a755d7aeeb3351366c2e1e1841a13ec61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/daf/sched__rr__get__interval__time32_8c.html#a755d7aeeb3351366c2e1e1841a13ec61">__sched_rr_get_interval_time32</a> (<a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> pid, struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *ts32)</td></tr>
+<tr class="memitem:a755d7aeeb3351366c2e1e1841a13ec61"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/daf/sched__rr__get__interval__time32_8c.html#a755d7aeeb3351366c2e1e1841a13ec61">__sched_rr_get_interval_time32</a> (<a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, struct <a class="el" href="../../da/de1/time32_8h.html#dd/d96/structtimespec32">timespec32</a> *ts32)</td></tr>
 <tr class="separator:a755d7aeeb3351366c2e1e1841a13ec61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,7 +110,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> __sched_rr_get_interval_time32 </td>
+          <td class="memname">int __sched_rr_get_interval_time32 </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td>
           <td class="paramname"><em>pid</em>, </td>
@@ -131,20 +131,20 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/daf/sched__rr__get__interval__time32_8c_source.html#l00005">5</a> of file <a class="el" href="../../d4/daf/sched__rr__get__interval__time32_8c_source.html">sched_rr_get_interval_time32.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a> ts;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d0/d36/Userspace_2musl_2include_2sched_8h.html#a5ec647cadee77568ccd4254b01878c9e">sched_rr_get_interval</a>(pid, &amp;ts);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>) <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> ts;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> r = <a class="code" href="../../d0/d36/Userspace_2musl_2include_2sched_8h.html#a5ec647cadee77568ccd4254b01878c9e">sched_rr_get_interval</a>(<a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, &amp;ts);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (r) <span class="keywordflow">return</span> r;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    ts32-&gt;<a class="code" href="../../da/de1/time32_8h.html#af8db5cfd5569ae1a34067b62508db932">tv_sec</a> = ts.tv_sec;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    ts32-&gt;<a class="code" href="../../da/de1/time32_8h.html#a92bde6cadfeb47e4c18369cc1196601f">tv_nsec</a> = ts.tv_nsec;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> r;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="ttc" id="aUserspace_2musl_2include_2sched_8h_html_a5ec647cadee77568ccd4254b01878c9e"><div class="ttname"><a href="../../d0/d36/Userspace_2musl_2include_2sched_8h.html#a5ec647cadee77568ccd4254b01878c9e">sched_rr_get_interval</a></div><div class="ttdeci">int sched_rr_get_interval(pid_t, struct timespec *)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d05/sched__rr__get__interval_8c_source.html#l00004">sched_rr_get_interval.c:4</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
+<div class="ttc" id="amconf_8c_html_ae0d46a978d5cd6707411f276ad869b9c"><div class="ttname"><a href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a></div><div class="ttdeci">pid_t pid</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d43/mconf_8c_source.html#l00450">mconf.c:450</a></div></div>
+<div class="ttc" id="astat-time_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
 <div class="ttc" id="atime32_8h_html_a92bde6cadfeb47e4c18369cc1196601f"><div class="ttname"><a href="../../da/de1/time32_8h.html#a92bde6cadfeb47e4c18369cc1196601f">timespec32::tv_nsec</a></div><div class="ttdeci">long tv_nsec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00020">time32.h:20</a></div></div>
 <div class="ttc" id="atime32_8h_html_af8db5cfd5569ae1a34067b62508db932"><div class="ttname"><a href="../../da/de1/time32_8h.html#af8db5cfd5569ae1a34067b62508db932">timespec32::tv_sec</a></div><div class="ttdeci">long tv_sec</div><div class="ttdef"><b>Definition:</b> <a href="../../da/de1/time32_8h_source.html#l00019">time32.h:19</a></div></div>
-<div class="ttc" id="atimespec_8h_html_da/d1c/structtimespec"><div class="ttname"><a href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d79/stat-time_8h_source.html#l00034">stat-time.h:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>, <a class="el" href="../../db/d05/sched__rr__get__interval_8c_source.html#l00004">sched_rr_get_interval()</a>, <a class="el" href="../../de/d79/stat-time_8h_source.html#l00037">timespec::tv_nsec</a>, <a class="el" href="../../da/de1/time32_8h_source.html#l00020">timespec32::tv_nsec</a>, <a class="el" href="../../de/d79/stat-time_8h_source.html#l00036">timespec::tv_sec</a>, and <a class="el" href="../../da/de1/time32_8h_source.html#l00019">timespec32::tv_sec</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d43/mconf_8c_source.html#l00450">pid</a>, <a class="el" href="../../db/d05/sched__rr__get__interval_8c_source.html#l00004">sched_rr_get_interval()</a>, <a class="el" href="../../de/d79/stat-time_8h_source.html#l00037">timespec::tv_nsec</a>, <a class="el" href="../../da/de1/time32_8h_source.html#l00020">timespec32::tv_nsec</a>, <a class="el" href="../../de/d79/stat-time_8h_source.html#l00036">timespec::tv_sec</a>, and <a class="el" href="../../da/de1/time32_8h_source.html#l00019">timespec32::tv_sec</a>.</p>
 
 </div>
 </div>

@@ -1,9 +1,8 @@
 var stat_time_8h =
 [
-    [ "timespec", "d6/d5f/timespec_8h.html#da/d1c/structtimespec", [
-      [ "tv_nsec", "d6/d5f/timespec_8h.html#aa9689622a344d847333e534ac23d3093", null ],
-      [ "tv_nsec", "d6/d5f/timespec_8h.html#ae3c7510dafa8cbcaede866ed13c99683", null ],
-      [ "tv_sec", "d6/d5f/timespec_8h.html#afc3302668d7cb5952f590da69fdd4955", null ]
+    [ "timespec", "de/d79/stat-time_8h.html#da/d1c/structtimespec", [
+      [ "tv_nsec", "de/d79/stat-time_8h.html#aa9689622a344d847333e534ac23d3093", null ],
+      [ "tv_sec", "de/d79/stat-time_8h.html#afc3302668d7cb5952f590da69fdd4955", null ]
     ] ],
     [ "get_stat_atime", "de/d79/stat-time_8h.html#af083f81e8637006e1f161e996957f20b", null ],
     [ "get_stat_atime_ns", "de/d79/stat-time_8h.html#ae3596142ac85a86be7ebae529b91eb23", null ],

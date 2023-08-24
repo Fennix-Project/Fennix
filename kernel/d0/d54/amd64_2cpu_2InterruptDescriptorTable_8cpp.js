@@ -4,6 +4,7 @@ var amd64_2cpu_2InterruptDescriptorTable_8cpp =
     [ "EXCEPTION_HANDLER", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#ae6aa82d43fcacd6bb94831abbb665799", null ],
     [ "INTERRUPT_HANDLER", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#aac29fce8b5436d26c80044516455b6f7", null ],
     [ "__aligned", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#ae33a1317cc5ebd3cc50a15cbd787f6d6", null ],
+    [ "__aligned", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#a4578952b3a8e95c706d30e7859caf535", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#afb7ecf9fc0491027fc6c9457c9e7a71f", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#a79b0b2a4ee90ae36c274116d678c16bf", null ],
     [ "EXCEPTION_ERROR_HANDLER", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#a537df31f84d976556362b1b0de35f276", null ],
@@ -39,7 +40,5 @@ var amd64_2cpu_2InterruptDescriptorTable_8cpp =
     [ "ExceptionHandler", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#a29a0f4b501e81633a741ed838dace121", null ],
     [ "Init", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#a5275e6707c957c5ba4b050102990c908", null ],
     [ "MainInterruptHandler", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#ab315401343457f280dc7e89bd8ec6308", null ],
-    [ "SetEntry", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#aa4baace89060170178ec7e72b6e162c4", null ],
-    [ "Entries", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#a679e5cab62e2086ee8684461fa9afa16", null ],
-    [ "idtd", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#a2d9560d834d891b9d8f0e76ced1bc8a7", null ]
+    [ "SetEntry", "d0/d54/amd64_2cpu_2InterruptDescriptorTable_8cpp.html#adcedaaebbdc2f60e14c0e8a1d7db5126", null ]
 ];

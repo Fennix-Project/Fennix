@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('d7/d2b/sched__getcpu_8c.html','../../'
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;errno.h&gt;</code><br />
-<code>#include &lt;sched.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d7/d00/sched_8h_source.html">sched.h</a>&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../dd/d02/atomic_8h_source.html">atomic.h</a>&quot;</code><br />
 </div>
@@ -106,7 +106,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a84cb2ee7e8316f4d44ba8119dbfeef08"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2b/sched__getcpu_8c.html#a84cb2ee7e8316f4d44ba8119dbfeef08">sched_getcpu</a> (void)</td></tr>
+<tr class="memitem:a84cb2ee7e8316f4d44ba8119dbfeef08"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d2b/sched__getcpu_8c.html#a84cb2ee7e8316f4d44ba8119dbfeef08">sched_getcpu</a> (void)</td></tr>
 <tr class="separator:a84cb2ee7e8316f4d44ba8119dbfeef08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -134,7 +134,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sched_getcpu </td>
+          <td class="memname">int sched_getcpu </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -145,29 +145,28 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d2b/sched__getcpu_8c_source.html#l00025">25</a> of file <a class="el" href="../../d7/d2b/sched__getcpu_8c_source.html">sched_getcpu.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> r;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">unsigned</span> cpu;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#ifdef VDSO_GETCPU_SYM</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    getcpu_f <a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a> = (getcpu_f)vdso_func;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>) {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>(&amp;cpu, 0, 0);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>) <span class="keywordflow">return</span> cpu;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> != -<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>) <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        r = <a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>(&amp;cpu, 0, 0);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">if</span> (!r) <span class="keywordflow">return</span> cpu;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">if</span> (r != -<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a>) <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(r);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_getcpu, &amp;cpu, 0, 0);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>) <span class="keywordflow">return</span> cpu;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    r = <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_getcpu, &amp;cpu, 0, 0);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">if</span> (!r) <span class="keywordflow">return</span> cpu;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(r);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="ttc" id="agetusershell_8c_html_a3efb0e1a16208deecbd84c15401f7cf8"><div class="ttname"><a href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a></div><div class="ttdeci">static FILE * f</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/getusershell_8c_source.html#l00009">getusershell.c:9</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00041">errno.h:41</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">syscall.h:25</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">syscall.h:44</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">__syscall</a>, <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00041">ENOSYS</a>, <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, and <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00041">ENOSYS</a>, and <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>.</p>
 
 </div>
 </div>

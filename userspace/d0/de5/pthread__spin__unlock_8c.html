@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d0/de5/pthread__spin__unlock_8c.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3fe246007a85cee9d5f7af9b7d592b54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de5/pthread__spin__unlock_8c.html#a3fe246007a85cee9d5f7af9b7d592b54">pthread_spin_unlock</a> (pthread_spinlock_t *s)</td></tr>
+<tr class="memitem:a3fe246007a85cee9d5f7af9b7d592b54"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/de5/pthread__spin__unlock_8c.html#a3fe246007a85cee9d5f7af9b7d592b54">pthread_spin_unlock</a> (pthread_spinlock_t *<a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>)</td></tr>
 <tr class="separator:a3fe246007a85cee9d5f7af9b7d592b54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,7 +108,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> pthread_spin_unlock </td>
+          <td class="memname">int pthread_spin_unlock </td>
           <td>(</td>
           <td class="paramtype">pthread_spinlock_t *&#160;</td>
           <td class="paramname"><em>s</em></td><td>)</td>
@@ -119,12 +119,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/de5/pthread__spin__unlock_8c_source.html#l00003">3</a> of file <a class="el" href="../../d0/de5/pthread__spin__unlock_8c_source.html">pthread_spin_unlock.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d6/dad/i386_2atomic__arch_8h.html#a85b370673a722ec695af4367a4e0c0a6">a_store</a>(s, 0);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d6/dad/i386_2atomic__arch_8h.html#a85b370673a722ec695af4367a4e0c0a6">a_store</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, 0);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="ai386_2atomic__arch_8h_html_a85b370673a722ec695af4367a4e0c0a6"><div class="ttname"><a href="../../d6/dad/i386_2atomic__arch_8h.html#a85b370673a722ec695af4367a4e0c0a6">a_store</a></div><div class="ttdeci">#define a_store</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dad/i386_2atomic__arch_8h_source.html#l00060">atomic_arch.h:60</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dad/i386_2atomic__arch_8h_source.html#l00060">a_store</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dad/i386_2atomic__arch_8h_source.html#l00060">a_store</a>, and <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>.</p>
 
 </div>
 </div>

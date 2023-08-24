@@ -91,14 +91,14 @@ $(document).ready(function(){initNavTree('d5/dd8/sem__getvalue_8c.html','../../'
 <div class="title">sem_getvalue.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;semaphore.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d6/dc6/semaphore_8h_source.html">semaphore.h</a>&gt;</code><br />
 <code>#include &lt;limits.h&gt;</code><br />
 </div>
 <p><a href="../../d5/dd8/sem__getvalue_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7b2243b90614914485dfe1fc533aead8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd8/sem__getvalue_8c.html#a7b2243b90614914485dfe1fc533aead8">sem_getvalue</a> (<a class="el" href="../../d7/df4/musl_2include_2semaphore_8h.html#db/d5a/structsem__t">sem_t</a> *restrict sem, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> *restrict valp)</td></tr>
+<tr class="memitem:a7b2243b90614914485dfe1fc533aead8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd8/sem__getvalue_8c.html#a7b2243b90614914485dfe1fc533aead8">sem_getvalue</a> (<a class="el" href="../../d6/dc6/semaphore_8h.html#db/d5a/structsem__t">sem_t</a> *restrict sem, int *restrict valp)</td></tr>
 <tr class="separator:a7b2243b90614914485dfe1fc533aead8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,15 +109,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sem_getvalue </td>
+          <td class="memname">int sem_getvalue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/df4/musl_2include_2semaphore_8h.html#db/d5a/structsem__t">sem_t</a> *restrict&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/dc6/semaphore_8h.html#db/d5a/structsem__t">sem_t</a> *restrict&#160;</td>
           <td class="paramname"><em>sem</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> *restrict&#160;</td>
+          <td class="paramtype">int *restrict&#160;</td>
           <td class="paramname"><em>valp</em>&#160;</td>
         </tr>
         <tr>
@@ -130,15 +130,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/dd8/sem__getvalue_8c_source.html#l00004">4</a> of file <a class="el" href="../../d5/dd8/sem__getvalue_8c_source.html">sem_getvalue.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a> = sem-&gt;<a class="code" href="../../d7/df4/musl_2include_2semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">__val</a>[0];</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    *valp = <a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a> &amp; <a class="code" href="../../d1/deb/mlibc_2options_2posix_2include_2semaphore_8h.html#a2961bb23950351c6b10976674c27ddaf">SEM_VALUE_MAX</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a> = sem-&gt;<a class="code" href="../../d6/dc6/semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">__val</a>[0];</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    *valp = <a class="code" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a> &amp; SEM_VALUE_MAX;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="amlibc_2options_2posix_2include_2semaphore_8h_html_a2961bb23950351c6b10976674c27ddaf"><div class="ttname"><a href="../../d1/deb/mlibc_2options_2posix_2include_2semaphore_8h.html#a2961bb23950351c6b10976674c27ddaf">SEM_VALUE_MAX</a></div><div class="ttdeci">#define SEM_VALUE_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/deb/mlibc_2options_2posix_2include_2semaphore_8h_source.html#l00011">semaphore.h:11</a></div></div>
-<div class="ttc" id="amusl_2include_2semaphore_8h_html_a79fdf291ed1877958bc756d78fc16cf3"><div class="ttname"><a href="../../d7/df4/musl_2include_2semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">sem_t::__val</a></div><div class="ttdeci">volatile int __val[4 *sizeof(long)/sizeof(int)]</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/df4/musl_2include_2semaphore_8h_source.html#l00018">semaphore.h:18</a></div></div>
+<div class="ttc" id="asemaphore_8h_html_a79fdf291ed1877958bc756d78fc16cf3"><div class="ttname"><a href="../../d6/dc6/semaphore_8h.html#a79fdf291ed1877958bc756d78fc16cf3">sem_t::__val</a></div><div class="ttdeci">volatile int __val[4 *sizeof(long)/sizeof(int)]</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc6/semaphore_8h_source.html#l00018">semaphore.h:18</a></div></div>
 <div class="ttc" id="asm__loop_8c_html_acb906433e1289aa1c251dc5057746a88"><div class="ttname"><a href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a></div><div class="ttdeci">INT val</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd4/sm__loop_8c_source.html#l00387">sm_loop.c:385</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/deb/mlibc_2options_2posix_2include_2semaphore_8h_source.html#l00011">SEM_VALUE_MAX</a>, and <a class="el" href="../../db/dd4/sm__loop_8c_source.html#l00385">val</a>.</p>
+<p class="reference">References <a class="el" href="../../db/dd4/sm__loop_8c_source.html#l00385">val</a>.</p>
 
 </div>
 </div>

@@ -8,7 +8,9 @@ var abi_8h =
       [ "a_type", "df/d31/abi_8h.html#aa4799367aa86aa03c70a44148b14d000", null ],
       [ "a_un", "df/d31/abi_8h.html#a4b0d9923ff47eb6d27b959fdcdf3b8d4", null ]
     ] ],
-    [ "AuxiliaryVector", "df/d31/abi_8h.html#db/d1d/structAuxiliaryVector", null ],
+    [ "AuxiliaryVector", "df/d31/abi_8h.html#db/d1d/structAuxiliaryVector", [
+      [ "archaux", "df/d31/abi_8h.html#a5f6edf801a4f35dc7a2effc7b8150932", null ]
+    ] ],
     [ "Elf32_auxv_t.a_un", "df/d31/abi_8h.html#da/d9c/unionElf32__auxv__t_8a__un", [
       [ "a_val", "df/d31/abi_8h.html#a63c799ad053ae73a0c9d241353f3d625", null ]
     ] ],

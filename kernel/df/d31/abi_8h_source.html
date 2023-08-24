@@ -168,25 +168,28 @@ $(document).ready(function(){initNavTree('df/d31/abi_8h_source.html','../../'); 
 <div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="../../df/d31/abi_8h.html#a4b0d9923ff47eb6d27b959fdcdf3b8d4">   77</a></span>&#160;    } a_un;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;} <a class="code" href="../../df/d31/abi_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a>;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="../../df/d31/abi_8h.html">   80</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="../../df/d31/abi_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a> archaux;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="../../df/d31/abi_8h.html#d2/d6b/structElf32__auxv__t">Elf32_auxv_t</a> archaux;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="../../df/d31/abi_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a> archaux;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;} <a class="code" href="../../df/d31/abi_8h.html#db/d1d/structAuxiliaryVector">AuxiliaryVector</a>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_ABI_H__</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">#if defined(a64)</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="keyword">typedef</span> <a class="code" href="../../df/d31/abi_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a> Elf_auxv_t;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="keyword">typedef</span> <a class="code" href="../../df/d31/abi_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a> Elf_auxv_t;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="keyword">typedef</span> <a class="code" href="../../df/d31/abi_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a> Elf_auxv_t;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="../../df/d31/abi_8h.html">   88</a></span>&#160;<span class="keyword">typedef</span> <span class="keyword">struct</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;{</div>
+<div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="../../df/d31/abi_8h.html#a5f6edf801a4f35dc7a2effc7b8150932">   90</a></span>&#160;    Elf_auxv_t <a class="code" href="../../df/d31/abi_8h.html#a5f6edf801a4f35dc7a2effc7b8150932">archaux</a>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;} <a class="code" href="../../df/d31/abi_8h.html#db/d1d/structAuxiliaryVector">AuxiliaryVector</a>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_ABI_H__</span></div>
 <div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
 <div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
+<div class="ttc" id="aabi_8h_html_a5f6edf801a4f35dc7a2effc7b8150932"><div class="ttname"><a href="../../df/d31/abi_8h.html#a5f6edf801a4f35dc7a2effc7b8150932">AuxiliaryVector::archaux</a></div><div class="ttdeci">Elf_auxv_t archaux</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d31/abi_8h_source.html#l00090">abi.h:90</a></div></div>
 <div class="ttc" id="aabi_8h_html_aa4799367aa86aa03c70a44148b14d000"><div class="ttname"><a href="../../df/d31/abi_8h.html#aa4799367aa86aa03c70a44148b14d000">Elf64_auxv_t::a_type</a></div><div class="ttdeci">uint64_t a_type</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d31/abi_8h_source.html#l00073">abi.h:73</a></div></div>
 <div class="ttc" id="aabi_8h_html_ab6d0fd7066a8703da6fa658d3c0c085d"><div class="ttname"><a href="../../df/d31/abi_8h.html#ab6d0fd7066a8703da6fa658d3c0c085d">Elf32_auxv_t::a_type</a></div><div class="ttdeci">uint32_t a_type</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d31/abi_8h_source.html#l00064">abi.h:64</a></div></div>
 <div class="ttc" id="aabi_8h_html_d2/d6b/structElf32__auxv__t"><div class="ttname"><a href="../../df/d31/abi_8h.html#d2/d6b/structElf32__auxv__t">Elf32_auxv_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d31/abi_8h_source.html#l00062">abi.h:63</a></div></div>
 <div class="ttc" id="aabi_8h_html_d9/de7/structElf64__auxv__t"><div class="ttname"><a href="../../df/d31/abi_8h.html#d9/de7/structElf64__auxv__t">Elf64_auxv_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d31/abi_8h_source.html#l00071">abi.h:72</a></div></div>
-<div class="ttc" id="aabi_8h_html_db/d1d/structAuxiliaryVector"><div class="ttname"><a href="../../df/d31/abi_8h.html#db/d1d/structAuxiliaryVector">AuxiliaryVector</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d31/abi_8h_source.html#l00080">abi.h:81</a></div></div>
+<div class="ttc" id="aabi_8h_html_db/d1d/structAuxiliaryVector"><div class="ttname"><a href="../../df/d31/abi_8h.html#db/d1d/structAuxiliaryVector">AuxiliaryVector</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/d31/abi_8h_source.html#l00088">abi.h:89</a></div></div>
 <div class="ttc" id="ainclude__std_2sys_2types_8h_html"><div class="ttname"><a href="../../d8/d0a/include__std_2sys_2types_8h.html">types.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

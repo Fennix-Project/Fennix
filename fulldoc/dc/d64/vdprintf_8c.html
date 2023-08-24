@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('dc/d64/vdprintf_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aefd4134bb1ff2efdb2de61a252628f34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/vdprintf_8c.html#aefd4134bb1ff2efdb2de61a252628f34">vdprintf</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, const char *restrict <a class="el" href="../../d6/d05/err_8cpp.html#a776e5cba9e51aac9902b10c9a2c354cc">fmt</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a> ap)</td></tr>
+<tr class="memitem:aefd4134bb1ff2efdb2de61a252628f34"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d64/vdprintf_8c.html#aefd4134bb1ff2efdb2de61a252628f34">vdprintf</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, const char *restrict fmt, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a> <a class="el" href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a>)</td></tr>
 <tr class="separator:aefd4134bb1ff2efdb2de61a252628f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,9 +108,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> vdprintf </td>
+          <td class="memname">int vdprintf </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
         </tr>
         <tr>
@@ -122,7 +122,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a2ed76bdaf83448883f275ac530e804e9">va_list</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af53f622e3b6c080daeb167c1955d7ec1">va_list</a>&#160;</td>
           <td class="paramname"><em>ap</em>&#160;</td>
         </tr>
         <tr>
@@ -136,22 +136,24 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../dc/d64/vdprintf_8c_source.html#l00003">3</a> of file <a class="el" href="../../dc/d64/vdprintf_8c_source.html">vdprintf.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> <a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a> = {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        .fd = <a class="code" href="../../d0/d9a/namespacemlibc.html#a044a8b2c83b559d1c76488c0ef8c2b3fa36eba1e1e343279857ea7f69a597324e">fd</a>, .lbf = <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a>, .write = <a class="code" href="../../d8/d0b/stdio__impl_8h.html#a42039b53c039a2b65fdd8a16772691c6">__stdio_write</a>,</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        .buf = (<span class="keywordtype">void</span> *)<a class="code" href="../../d6/d05/err_8cpp.html#a776e5cba9e51aac9902b10c9a2c354cc">fmt</a>, .buf_size = 0,</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        .fd = <a class="code" href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a>, .lbf = <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a>, .write = <a class="code" href="../../d8/d0b/stdio__impl_8h.html#a42039b53c039a2b65fdd8a16772691c6">__stdio_write</a>,</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        .buf = (<span class="keywordtype">void</span> *)fmt, .buf_size = 0,</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        .<a class="code" href="../../d5/db0/dynlink_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a> = -1</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    };</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a238ba3ae728d117984e087d9db33cd13">vfprintf</a>(&amp;<a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>, <a class="code" href="../../d6/d05/err_8cpp.html#a776e5cba9e51aac9902b10c9a2c354cc">fmt</a>, ap);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a238ba3ae728d117984e087d9db33cd13">vfprintf</a>(&amp;<a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>, fmt, <a class="code" href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a>);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_a238ba3ae728d117984e087d9db33cd13"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a238ba3ae728d117984e087d9db33cd13">vfprintf</a></div><div class="ttdeci">int vfprintf(FILE *stream, const char *format, va_list arg)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00110">file.c:110</a></div></div>
+<div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_a238ba3ae728d117984e087d9db33cd13"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a238ba3ae728d117984e087d9db33cd13">vfprintf</a></div><div class="ttdeci">int vfprintf(FILE *stream, const char *format, va_list arg)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d13/file_8c_source.html#l00116">file.c:116</a></div></div>
 <div class="ttc" id="aUserspace_2libc_2include_2stdio_8h_html_a59adc4c82490d23754cd39c2fb99b0da"><div class="ttname"><a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h.html#a59adc4c82490d23754cd39c2fb99b0da">EOF</a></div><div class="ttdeci">#define EOF</div><div class="ttdoc">EOF - End of file.</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/Userspace_2libc_2include_2stdio_8h_source.html#l00017">stdio.h:17</a></div></div>
+<div class="ttc" id="aarp_8c_html_a76d86451b3fb6fb6dc6a4b92b4bf3d49"><div class="ttname"><a href="../../d6/d94/arp_8c.html#a76d86451b3fb6fb6dc6a4b92b4bf3d49">ap</a></div><div class="ttdeci">#define ap</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d94/arp_8c_source.html#l00083">arp.c:83</a></div></div>
 <div class="ttc" id="acargs_8h_html_a69437b5d572dd16d6d4fdbcbd066c7a9"><div class="ttname"><a href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a></div><div class="ttdeci">unsigned int FILE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d37/cargs_8h_source.html#l00038">cargs.h:38</a></div></div>
 <div class="ttc" id="adynlink_8c_html_aa0246195b64447ad0ba3510f410604f4"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#aa0246195b64447ad0ba3510f410604f4">lock</a></div><div class="ttdeci">static pthread_rwlock_t lock</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00144">dynlink.c:144</a></div></div>
-<div class="ttc" id="aerr_8cpp_html_a776e5cba9e51aac9902b10c9a2c354cc"><div class="ttname"><a href="../../d6/d05/err_8cpp.html#a776e5cba9e51aac9902b10c9a2c354cc">fmt</a></div><div class="ttdeci">const char * fmt</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d05/err_8cpp_source.html#l00026">err.cpp:26</a></div></div>
 <div class="ttc" id="agetusershell_8c_html_a3efb0e1a16208deecbd84c15401f7cf8"><div class="ttname"><a href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a></div><div class="ttdeci">static FILE * f</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/getusershell_8c_source.html#l00009">getusershell.c:9</a></div></div>
-<div class="ttc" id="anamespacemlibc_html_a044a8b2c83b559d1c76488c0ef8c2b3fa36eba1e1e343279857ea7f69a597324e"><div class="ttname"><a href="../../d0/d9a/namespacemlibc.html#a044a8b2c83b559d1c76488c0ef8c2b3fa36eba1e1e343279857ea7f69a597324e">mlibc::fsfd_target::fd</a></div><div class="ttdeci">@ fd</div></div>
+<div class="ttc" id="ahdparm_8c_html_a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="astdio__impl_8h_html_a42039b53c039a2b65fdd8a16772691c6"><div class="ttname"><a href="../../d8/d0b/stdio__impl_8h.html#a42039b53c039a2b65fdd8a16772691c6">__stdio_write</a></div><div class="ttdeci">hidden size_t __stdio_write(FILE *, const unsigned char *, size_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dca/____stdio__write_8c_source.html#l00004">__stdio_write.c:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dca/____stdio__write_8c_source.html#l00004">__stdio_write()</a>, <a class="el" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h_source.html#l00017">EOF</a>, <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../d6/d05/err_8cpp_source.html#l00026">fmt</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00144">lock</a>, and <a class="el" href="../../d6/d13/file_8c_source.html#l00110">vfprintf()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dca/____stdio__write_8c_source.html#l00004">__stdio_write()</a>, <a class="el" href="../../d6/d94/arp_8c_source.html#l00083">ap</a>, <a class="el" href="../../dd/d69/Userspace_2libc_2include_2stdio_8h_source.html#l00017">EOF</a>, <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00144">lock</a>, and <a class="el" href="../../d6/d13/file_8c_source.html#l00116">vfprintf()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../db/d42/musl_2src_2stdio_2dprintf_8c_source.html#l00004">dprintf()</a>, and <a class="el" href="../../d5/db0/dynlink_8c_source.html#l02422">error_impl()</a>.</p>
 
 </div>
 </div>

@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d0/d64/clogl_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a48efe0bf63314044fafaeb32623fff17"><td class="memItemLeft" align="right" valign="top">long double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d64/clogl_8c.html#a48efe0bf63314044fafaeb32623fff17">clogl</a> (long double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
+<tr class="memitem:a48efe0bf63314044fafaeb32623fff17"><td class="memItemLeft" align="right" valign="top">long double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d64/clogl_8c.html#a48efe0bf63314044fafaeb32623fff17">clogl</a> (long double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
 <tr class="separator:a48efe0bf63314044fafaeb32623fff17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,9 +108,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">long double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> clogl </td>
+          <td class="memname">long double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> clogl </td>
           <td>(</td>
-          <td class="paramtype">long double <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
+          <td class="paramtype">long double <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
           <td class="paramname"><em>z</em></td><td>)</td>
           <td></td>
         </tr>
@@ -119,19 +119,18 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d64/clogl_8c_source.html#l00010">10</a> of file <a class="el" href="../../d0/d64/clogl_8c_source.html">clogl.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordtype">long</span> <span class="keywordtype">double</span> <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>, phi;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordtype">long</span> <span class="keywordtype">double</span> r, phi;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a9e31a1e524333b2dbf515fa30f02fb7f">cabsl</a>(z);</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    phi = <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a25c6c3244145362ef60a2f03ae8ff844">cargl</a>(z);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a2f4e3ea8476e46e113680bc7eea6e66c">CMPLXL</a>(<a class="code" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#af67da1c28ce33b403f955103f201dfb8">logl</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>), phi);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    r = <a class="code" href="../../d7/d3b/complex_8h.html#a9e31a1e524333b2dbf515fa30f02fb7f">cabsl</a>(z);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    phi = <a class="code" href="../../d7/d3b/complex_8h.html#a25c6c3244145362ef60a2f03ae8ff844">cargl</a>(z);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d6e/complex__impl_8h.html#a2f4e3ea8476e46e113680bc7eea6e66c">CMPLXL</a>(<a class="code" href="../../d9/d9e/musl_2include_2math_8h.html#af835cf6f401edb67986b2b83bcefe16e">logl</a>(r), phi);</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
-<div class="ttc" id="amlibc_2options_2ansi_2include_2math_8h_html_af67da1c28ce33b403f955103f201dfb8"><div class="ttname"><a href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#af67da1c28ce33b403f955103f201dfb8">logl</a></div><div class="ttdeci">long double logl(long double x)</div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2libm_8h_html_a2f4e3ea8476e46e113680bc7eea6e66c"><div class="ttname"><a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a2f4e3ea8476e46e113680bc7eea6e66c">CMPLXL</a></div><div class="ttdeci">#define CMPLXL(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00156">libm.h:156</a></div></div>
-<div class="ttc" id="amusl_2include_2complex_8h_html_a25c6c3244145362ef60a2f03ae8ff844"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a25c6c3244145362ef60a2f03ae8ff844">cargl</a></div><div class="ttdeci">long double cargl(long double complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/cargl_8c_source.html#l00009">cargl.c:9</a></div></div>
-<div class="ttc" id="amusl_2include_2complex_8h_html_a9e31a1e524333b2dbf515fa30f02fb7f"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a9e31a1e524333b2dbf515fa30f02fb7f">cabsl</a></div><div class="ttdeci">long double cabsl(long double complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc9/cabsl_8c_source.html#l00009">cabsl.c:9</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
+<div class="ttc" id="acomplex_8h_html_a25c6c3244145362ef60a2f03ae8ff844"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a25c6c3244145362ef60a2f03ae8ff844">cargl</a></div><div class="ttdeci">long double cargl(long double complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d5c/cargl_8c_source.html#l00009">cargl.c:9</a></div></div>
+<div class="ttc" id="acomplex_8h_html_a9e31a1e524333b2dbf515fa30f02fb7f"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a9e31a1e524333b2dbf515fa30f02fb7f">cabsl</a></div><div class="ttdeci">long double cabsl(long double complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dc9/cabsl_8c_source.html#l00009">cabsl.c:9</a></div></div>
+<div class="ttc" id="acomplex__impl_8h_html_a2f4e3ea8476e46e113680bc7eea6e66c"><div class="ttname"><a href="../../dd/d6e/complex__impl_8h.html#a2f4e3ea8476e46e113680bc7eea6e66c">CMPLXL</a></div><div class="ttdeci">#define CMPLXL(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d6e/complex__impl_8h_source.html#l00017">complex_impl.h:17</a></div></div>
+<div class="ttc" id="amusl_2include_2math_8h_html_af835cf6f401edb67986b2b83bcefe16e"><div class="ttname"><a href="../../d9/d9e/musl_2include_2math_8h.html#af835cf6f401edb67986b2b83bcefe16e">logl</a></div><div class="ttdeci">long double logl(long double)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dc9/cabsl_8c_source.html#l00009">cabsl()</a>, <a class="el" href="../../d7/d5c/cargl_8c_source.html#l00009">cargl()</a>, <a class="el" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00156">CMPLXL</a>, <a class="el" href="../../da/d66/mlibc_2options_2ansi_2include_2math_8h.html#af67da1c28ce33b403f955103f201dfb8">logl()</a>, and <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dc9/cabsl_8c_source.html#l00009">cabsl()</a>, <a class="el" href="../../d7/d5c/cargl_8c_source.html#l00009">cargl()</a>, <a class="el" href="../../dd/d6e/complex__impl_8h_source.html#l00017">CMPLXL</a>, and <a class="el" href="../../d9/d9e/musl_2include_2math_8h.html#af835cf6f401edb67986b2b83bcefe16e">logl()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d3/d5d/casinl_8c_source.html#l00010">casinl()</a>, and <a class="el" href="../../d8/d33/cpowl_8c_source.html#l00009">cpowl()</a>.</p>
 

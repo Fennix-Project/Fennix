@@ -92,13 +92,13 @@ $(document).ready(function(){initNavTree('d8/d6a/gethostname_8c.html','../../');
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;unistd.h&gt;</code><br />
-<code>#include &lt;sys/utsname.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d5/d3d/utsname_8h_source.html">sys/utsname.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d8/d6a/gethostname_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a97682b5596c36bcac6dd87ffd4ebd085"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d6a/gethostname_8c.html#a97682b5596c36bcac6dd87ffd4ebd085">gethostname</a> (char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
+<tr class="memitem:a97682b5596c36bcac6dd87ffd4ebd085"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d6a/gethostname_8c.html#a97682b5596c36bcac6dd87ffd4ebd085">gethostname</a> (char *name, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
 <tr class="separator:a97682b5596c36bcac6dd87ffd4ebd085"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> gethostname </td>
+          <td class="memname">int gethostname </td>
           <td>(</td>
           <td class="paramtype">char *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -117,7 +117,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -131,20 +131,19 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d8/d6a/gethostname_8c_source.html#l00004">4</a> of file <a class="el" href="../../d8/d6a/gethostname_8c_source.html">gethostname.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../df/d73/musl_2include_2sys_2utsname_8h.html#db/d19/structutsname">utsname</a> uts;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d76/sys-utsname_8cpp.html#af98ce7759f2b07f7ebdbb9d2c9fbef21">uname</a>(&amp;uts)) <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d5/d3d/utsname_8h.html#db/d19/structutsname">utsname</a> uts;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/d3d/utsname_8h.html#a883b5b5a1cd4a1f6a5837c1cf98ede1c">uname</a>(&amp;uts)) <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> &gt; <span class="keyword">sizeof</span> uts.nodename) <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> = <span class="keyword">sizeof</span> uts.nodename;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>=0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>&lt;<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> &amp;&amp; (<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = uts.nodename[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]); <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &amp;&amp; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>==<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>) <a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>-1] = 0;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>=0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>&lt;<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> &amp;&amp; (name[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = uts.nodename[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>]); <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &amp;&amp; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>==<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>) name[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>-1] = 0;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
-<div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
 <div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
 <div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
-<div class="ttc" id="amusl_2include_2sys_2utsname_8h_html_db/d19/structutsname"><div class="ttname"><a href="../../df/d73/musl_2include_2sys_2utsname_8h.html#db/d19/structutsname">utsname</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00034">uname.c:34</a></div></div>
-<div class="ttc" id="asys-utsname_8cpp_html_af98ce7759f2b07f7ebdbb9d2c9fbef21"><div class="ttname"><a href="../../d6/d76/sys-utsname_8cpp.html#af98ce7759f2b07f7ebdbb9d2c9fbef21">uname</a></div><div class="ttdeci">int uname(struct utsname *p)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d76/sys-utsname_8cpp_source.html#l00011">sys-utsname.cpp:11</a></div></div>
+<div class="ttc" id="autsname_8h_html_a883b5b5a1cd4a1f6a5837c1cf98ede1c"><div class="ttname"><a href="../../d5/d3d/utsname_8h.html#a883b5b5a1cd4a1f6a5837c1cf98ede1c">uname</a></div><div class="ttdeci">int uname(struct utsname *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/musl_2src_2misc_2uname_8c_source.html#l00004">uname.c:4</a></div></div>
+<div class="ttc" id="autsname_8h_html_db/d19/structutsname"><div class="ttname"><a href="../../d5/d3d/utsname_8h.html#db/d19/structutsname">utsname</a></div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00034">uname.c:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>, <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00036">utsname::nodename</a>, and <a class="el" href="../../d6/d76/sys-utsname_8cpp_source.html#l00011">uname()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>, <a class="el" href="../../da/dc1/apps_2base_2bash_2examples_2loadables_2uname_8c_source.html#l00036">utsname::nodename</a>, and <a class="el" href="../../d7/d63/musl_2src_2misc_2uname_8c_source.html#l00004">uname()</a>.</p>
 
 </div>
 </div>

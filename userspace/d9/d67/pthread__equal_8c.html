@@ -98,9 +98,9 @@ $(document).ready(function(){initNavTree('d9/d67/pthread__equal_8c.html','../../
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a87b4d5d61e5974d462f36ef09f11d70d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d67/pthread__equal_8c.html#a87b4d5d61e5974d462f36ef09f11d70d">__pthread_equal</a> (<a class="el" href="../../d3/d5c/pthread__t_8h.html#a857968bda537a833b780e61c3b5ae104">pthread_t</a> a, <a class="el" href="../../d3/d5c/pthread__t_8h.html#a857968bda537a833b780e61c3b5ae104">pthread_t</a> <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#a2b545fddb73d6568b53c6bee3b9fd7ed">b</a>)</td></tr>
+<tr class="memitem:a87b4d5d61e5974d462f36ef09f11d70d"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d67/pthread__equal_8c.html#a87b4d5d61e5974d462f36ef09f11d70d">__pthread_equal</a> (pthread_t a, pthread_t b)</td></tr>
 <tr class="separator:a87b4d5d61e5974d462f36ef09f11d70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58975a05d8e55474ab20910770eced7d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d67/pthread__equal_8c.html#a58975a05d8e55474ab20910770eced7d">weak_alias</a> (<a class="el" href="../../d9/d67/pthread__equal_8c.html#a87b4d5d61e5974d462f36ef09f11d70d">__pthread_equal</a>, <a class="el" href="../../d4/dae/musl_2include_2pthread_8h.html#aeac3275f51f8e4a0011a8a5103dec350">pthread_equal</a>)</td></tr>
+<tr class="memitem:a58975a05d8e55474ab20910770eced7d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d67/pthread__equal_8c.html#a58975a05d8e55474ab20910770eced7d">weak_alias</a> (<a class="el" href="../../d9/d67/pthread__equal_8c.html#a87b4d5d61e5974d462f36ef09f11d70d">__pthread_equal</a>, <a class="el" href="../../d0/d0c/include_2pthread_8h.html#aeac3275f51f8e4a0011a8a5103dec350">pthread_equal</a>)</td></tr>
 <tr class="separator:a58975a05d8e55474ab20910770eced7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a427d15e44e2cc38ae5c1b7e6e7639630"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d67/pthread__equal_8c.html#a427d15e44e2cc38ae5c1b7e6e7639630">weak_alias</a> (<a class="el" href="../../d9/d67/pthread__equal_8c.html#a87b4d5d61e5974d462f36ef09f11d70d">__pthread_equal</a>, <a class="el" href="../../db/d96/threads_8h.html#a6a9c4575eeae817af76776d10b8ed99b">thrd_equal</a>)</td></tr>
 <tr class="separator:a427d15e44e2cc38ae5c1b7e6e7639630"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,15 +116,15 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> __pthread_equal </td>
+          <td class="memname">static int __pthread_equal </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d5c/pthread__t_8h.html#a857968bda537a833b780e61c3b5ae104">pthread_t</a>&#160;</td>
+          <td class="paramtype">pthread_t&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d3/d5c/pthread__t_8h.html#a857968bda537a833b780e61c3b5ae104">pthread_t</a>&#160;</td>
+          <td class="paramtype">pthread_t&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
@@ -142,12 +142,9 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d67/pthread__equal_8c_source.html#l00004">4</a> of file <a class="el" href="../../d9/d67/pthread__equal_8c_source.html">pthread_equal.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> a==<a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> a==b;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a87c169f71ea6dba62ac7bf605cae509e"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a87c169f71ea6dba62ac7bf605cae509e">b</a></div><div class="ttdeci">jmp_buf b</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">stdlib-stubs.cpp:68</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00068">b</a>.</p>
-
 </div>
 </div>
 <a id="a58975a05d8e55474ab20910770eced7d"></a>
@@ -165,7 +162,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/dae/musl_2include_2pthread_8h.html#aeac3275f51f8e4a0011a8a5103dec350">pthread_equal</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0c/include_2pthread_8h.html#aeac3275f51f8e4a0011a8a5103dec350">pthread_equal</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

@@ -3,7 +3,6 @@ var musl_2include_2time_8h =
     [ "tm", "d4/d02/musl_2include_2time_8h.html#d8/d5a/structtm", [
       [ "__tm_gmtoff", "d4/d02/musl_2include_2time_8h.html#ab077b3fcacf0aa575918483856c9cc7c", null ],
       [ "__tm_zone", "d4/d02/musl_2include_2time_8h.html#ada643d899220f1284814158a9efaf0f0", null ],
-      [ "tm_gmtoff", "d4/d02/musl_2include_2time_8h.html#ab76d309569eaf7b4e3c777430086f362", null ],
       [ "tm_hour", "d4/d02/musl_2include_2time_8h.html#a3e7ca4e37f1abcaf56b8a916c38eb9fe", null ],
       [ "tm_isdst", "d4/d02/musl_2include_2time_8h.html#a5645ca0580c8ab2c24f6c2965d9c9f9c", null ],
       [ "tm_mday", "d4/d02/musl_2include_2time_8h.html#ab8d8904bad43b0c8b96e61941c5b5310", null ],
@@ -12,8 +11,7 @@ var musl_2include_2time_8h =
       [ "tm_sec", "d4/d02/musl_2include_2time_8h.html#a4d098a9a5c03a00b2ee61e10851de81e", null ],
       [ "tm_wday", "d4/d02/musl_2include_2time_8h.html#afe81a8c46f1c693c43f259b288859f4f", null ],
       [ "tm_yday", "d4/d02/musl_2include_2time_8h.html#a93a0ba77cc23796df84405dcbcc57eb1", null ],
-      [ "tm_year", "d4/d02/musl_2include_2time_8h.html#a33adf78fd6476b2120ce3b9c4a852053", null ],
-      [ "tm_zone", "d4/d02/musl_2include_2time_8h.html#a1b903718353b804011758faf372e5646", null ]
+      [ "tm_year", "d4/d02/musl_2include_2time_8h.html#a33adf78fd6476b2120ce3b9c4a852053", null ]
     ] ],
     [ "__NEED_clock_t", "d4/d02/musl_2include_2time_8h.html#a6e1c34b83096a0fea5cd2d46c9bc3eb1", null ],
     [ "__NEED_size_t", "d4/d02/musl_2include_2time_8h.html#af5ff0ddb287a97be99547162f2af7cce", null ],

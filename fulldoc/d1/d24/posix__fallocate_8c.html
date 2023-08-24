@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d1/d24/posix__fallocate_8c.html','../.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a3e85ae777381f851fe83ad6aa32df70c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d24/posix__fallocate_8c.html#a3e85ae777381f851fe83ad6aa32df70c">posix_fallocate</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fd, <a class="el" href="../../dc/dcd/off__t_8h.html#af83497edef361523a95b06deda0b4c2d">off_t</a> <a class="el" href="../../d4/d6d/string-stubs_8cpp.html#adfc2051758cc25af6761324f8af87c20">base</a>, <a class="el" href="../../dc/dcd/off__t_8h.html#af83497edef361523a95b06deda0b4c2d">off_t</a> <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
+<tr class="memitem:a3e85ae777381f851fe83ad6aa32df70c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d24/posix__fallocate_8c.html#a3e85ae777381f851fe83ad6aa32df70c">posix_fallocate</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a> <a class="el" href="../../d7/dc3/xatonum__template_8c.html#ae94e023ccc93d286aa0a640ad3fbc615">base</a>, <a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a> <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
 <tr class="separator:a3e85ae777381f851fe83ad6aa32df70c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,21 +109,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> posix_fallocate </td>
+          <td class="memname">int posix_fallocate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/dcd/off__t_8h.html#af83497edef361523a95b06deda0b4c2d">off_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a>&#160;</td>
           <td class="paramname"><em>base</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/dcd/off__t_8h.html#af83497edef361523a95b06deda0b4c2d">off_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/Userspace_2libc_2include_2sys_2stat_8h.html#ae498af04567b740d66e09d36613c2cd8">off_t</a>&#160;</td>
           <td class="paramname"><em>len</em>&#160;</td>
         </tr>
         <tr>
@@ -136,15 +136,18 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d24/posix__fallocate_8c_source.html#l00004">4</a> of file <a class="el" href="../../d1/d24/posix__fallocate_8c_source.html">posix_fallocate.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> -<a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_fallocate, fd, 0, <a class="code" href="../../d8/d85/aarch64_2syscall__arch_8h.html#ad46cc946cd296427bc7fd48a3e71e442">__SYSCALL_LL_E</a>(<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#adfc2051758cc25af6761324f8af87c20">base</a>),</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> -<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_fallocate, <a class="code" href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a>, 0, <a class="code" href="../../d8/d85/aarch64_2syscall__arch_8h.html#ad46cc946cd296427bc7fd48a3e71e442">__SYSCALL_LL_E</a>(<a class="code" href="../../d7/dc3/xatonum__template_8c.html#ae94e023ccc93d286aa0a640ad3fbc615">base</a>),</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../d8/d85/aarch64_2syscall__arch_8h.html#ad46cc946cd296427bc7fd48a3e71e442">__SYSCALL_LL_E</a>(<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>));</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aaarch64_2syscall__arch_8h_html_ad46cc946cd296427bc7fd48a3e71e442"><div class="ttname"><a href="../../d8/d85/aarch64_2syscall__arch_8h.html#ad46cc946cd296427bc7fd48a3e71e442">__SYSCALL_LL_E</a></div><div class="ttdeci">#define __SYSCALL_LL_E(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d85/aarch64_2syscall__arch_8h_source.html#l00001">syscall_arch.h:1</a></div></div>
 <div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">syscall.h:25</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_adfc2051758cc25af6761324f8af87c20"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#adfc2051758cc25af6761324f8af87c20">base</a></div><div class="ttdeci">double wchar_t **__restrict MLIBC_STUB_BODY long double wchar_t **__restrict int base</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00232">string-stubs.cpp:232</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#a4f1fe3896ed1cc62474c5180fcfc5fdda1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">syscall.h:44</a></div></div>
+<div class="ttc" id="axatonum__template_8c_html_ae94e023ccc93d286aa0a640ad3fbc615"><div class="ttname"><a href="../../d7/dc3/xatonum__template_8c.html#ae94e023ccc93d286aa0a640ad3fbc615">base</a></div><div class="ttdeci">unsigned type FAST_FUNC int base</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc3/xatonum__template_8c_source.html#l00090">xatonum_template.c:91</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">__syscall</a>, <a class="el" href="../../d8/d85/aarch64_2syscall__arch_8h_source.html#l00001">__SYSCALL_LL_E</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00232">base</a>, and <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, <a class="el" href="../../d8/d85/aarch64_2syscall__arch_8h_source.html#l00001">__SYSCALL_LL_E</a>, <a class="el" href="../../d7/dc3/xatonum__template_8c_source.html#l00091">base</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, and <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../dc/d23/apps_2base_2busybox_2util-linux_2fallocate_8c_source.html#l00075">fallocate_main()</a>.</p>
 
 </div>
 </div>

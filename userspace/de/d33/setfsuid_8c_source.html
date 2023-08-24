@@ -89,14 +89,14 @@ $(document).ready(function(){initNavTree('de/d33/setfsuid_8c_source.html','../..
 <div class="title">setfsuid.c</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../de/d33/setfsuid_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;sys/fsuid.h&gt;</span></div>
+<a href="../../de/d33/setfsuid_8c.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/df0/fsuid_8h.html">sys/fsuid.h</a>&gt;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;syscall.h&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../de/d33/setfsuid_8c.html#a215917f7d4c37f67981e8518a486a91c">    4</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../de/d33/setfsuid_8c.html#a215917f7d4c37f67981e8518a486a91c">setfsuid</a>(<a class="code" href="../../d0/d4b/abis_2linux_2uid__t_8h.html#afc544433253791fc5f87b8203c9b6e63">uid_t</a> uid)</div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d7/df0/fsuid_8h.html#adf7cecb2a8bbe2da7141f3d2aa83fafa">    4</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../de/d33/setfsuid_8c.html#a215917f7d4c37f67981e8518a486a91c">setfsuid</a>(uid_t uid)</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_setfsuid, uid);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aabis_2linux_2uid__t_8h_html_afc544433253791fc5f87b8203c9b6e63"><div class="ttname"><a href="../../d0/d4b/abis_2linux_2uid__t_8h.html#afc544433253791fc5f87b8203c9b6e63">uid_t</a></div><div class="ttdeci">int uid_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d4b/abis_2linux_2uid__t_8h_source.html#l00005">uid_t.h:5</a></div></div>
+<div class="ttc" id="afsuid_8h_html"><div class="ttname"><a href="../../d7/df0/fsuid_8h.html">fsuid.h</a></div></div>
 <div class="ttc" id="asetfsuid_8c_html_a215917f7d4c37f67981e8518a486a91c"><div class="ttname"><a href="../../de/d33/setfsuid_8c.html#a215917f7d4c37f67981e8518a486a91c">setfsuid</a></div><div class="ttdeci">int setfsuid(uid_t uid)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d33/setfsuid_8c_source.html#l00004">setfsuid.c:4</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment --></div><!-- contents -->

@@ -21,5 +21,6 @@ var Memory_8cpp =
     [ "KernelPageTable", "d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9", null ],
     [ "Page1GBSupport", "d8/dcc/Memory_8cpp.html#a99e24601ba870ddf8952904c15ccc599", null ],
     [ "PSESupport", "d8/dcc/Memory_8cpp.html#ab0271ec041bc6f8827608af83a3de2fd", null ],
-    [ "XallocV1Allocator", "d8/dcc/Memory_8cpp.html#ae1071ff6f628b5f371122caafcbd46c3", null ]
+    [ "XallocV1Allocator", "d8/dcc/Memory_8cpp.html#ae1071ff6f628b5f371122caafcbd46c3", null ],
+    [ "XallocV2Allocator", "d8/dcc/Memory_8cpp.html#a4db25a45463b727a503c74058f985388", null ]
 ];

@@ -1,8 +1,8 @@
 var musl_2src_2regex_2glob_8c =
 [
     [ "match", "dc/d00/musl_2src_2regex_2glob_8c.html#de/d90/structmatch", [
-      [ "name", "dc/d00/musl_2src_2regex_2glob_8c.html#aa660419f313445f4058d2c3b440712f2", null ],
-      [ "next", "dc/d00/musl_2src_2regex_2glob_8c.html#a5a1dde893010c3f4531063ddcf96ab44", null ]
+      [ "name", "dc/d00/musl_2src_2regex_2glob_8c.html#ada66633b7a5317150badde73e20c2c53", null ],
+      [ "next", "dc/d00/musl_2src_2regex_2glob_8c.html#ad0386e779b287b8c8d85032fec281f9a", null ]
     ] ],
     [ "_BSD_SOURCE", "dc/d00/musl_2src_2regex_2glob_8c.html#ad3d8a3bd0c0b677acef144f2c2ef6d73", null ],
     [ "append", "dc/d00/musl_2src_2regex_2glob_8c.html#a10dac0b77c29b4563aa315d63b2e440a", null ],

@@ -4,9 +4,9 @@ var fdop_8h =
       [ "cmd", "d7/d71/fdop_8h.html#aaab5c3f414e20a4d9e8c50159debdc8c", null ],
       [ "fd", "d7/d71/fdop_8h.html#ad66b4f5cf124100873480cb42eef158a", null ],
       [ "mode", "d7/d71/fdop_8h.html#af51dc7fc75fb7a8b86bca97f4686ffc6", null ],
-      [ "next", "d7/d71/fdop_8h.html#a4e00094a191331d45d955263572609cf", null ],
+      [ "next", "d7/d71/fdop_8h.html#a623e2d60b3e44599c100445e22c9dcdf", null ],
       [ "oflag", "d7/d71/fdop_8h.html#a5c694503e55ee2d1b5aa7c1a3be093f2", null ],
-      [ "path", "d7/d71/fdop_8h.html#afda5dc5d2e794ad8fb1f5d46fc1093af", null ],
+      [ "path", "d7/d71/fdop_8h.html#a6b293c15bca67cd8eaa0e387e0d93754", null ],
       [ "prev", "d7/d71/fdop_8h.html#a3201ab75de7f1773a54b77fae0207aa8", null ],
       [ "srcfd", "d7/d71/fdop_8h.html#a7f4ebf22812e5e0543f4260107387757", null ]
     ] ],

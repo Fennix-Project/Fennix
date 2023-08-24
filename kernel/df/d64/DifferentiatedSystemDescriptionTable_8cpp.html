@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/Architecture/amd64/DifferentiatedSystemDescriptionTable.cpp File Reference</title>
+<title>Fennix Kernel: Kernel/Core/DifferentiatedSystemDescriptionTable.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -88,18 +88,18 @@ $(document).ready(function(){initNavTree('df/d64/DifferentiatedSystemDescription
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">DifferentiatedSystemDescriptionTable.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../dc/d7c/amd64_2acpi_8hpp_source.html">acpi.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d1/d90/acpi_8hpp_source.html">acpi.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../de/d99/time_8hpp_source.html">time.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d4/d33/smp_8hpp_source.html">smp.hpp</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dac/io_8h_source.html">io.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d4f/amd64_2cpu_2apic_8hpp_source.html">cpu/apic.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../kernel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../kernel.h</a>&quot;</code><br />
 </div>
 <p><a href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -141,6 +141,19 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:adca528a45c8cbdefdf20910ae5103a69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a6034e8cd4bcd5bacfd060abd01bbd8a8">__always_inline</a> <a class="el" href="../../d6/de6/include_2types_8h.html#abb452686968e48b67397da5f97445f5b">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#adca528a45c8cbdefdf20910ae5103a69">ACPI::IsCanonical</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="el" href="../../d9/d4e/gigabit_8hpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>)</td></tr>
 <tr class="separator:adca528a45c8cbdefdf20910ae5103a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a9df1fde6d4bd7dd0351437bdbf5058"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#a5a9df1fde6d4bd7dd0351437bdbf5058">ACPI::if</a> (acpi-&gt;FADT-&gt;PM1aEventBlock)</td></tr>
+<tr class="separator:a5a9df1fde6d4bd7dd0351437bdbf5058"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96af53071f7af77ea9d82be70d839605"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#a96af53071f7af77ea9d82be70d839605">ACPI::debug</a> (&quot;SCI Event: %#lx&quot;, Event)</td></tr>
+<tr class="separator:a96af53071f7af77ea9d82be70d839605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3b1fa370e25945cf549a83d7468d92d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#ae3b1fa370e25945cf549a83d7468d92d">ACPI::if</a> (Event &amp;<a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp.html#ac8998f5d1ee26707e3b06d27010a2438">ACPI_BUSMASTER</a>)</td></tr>
+<tr class="separator:ae3b1fa370e25945cf549a83d7468d92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a10c415b7220b92cece1ab3f1acc97188"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#a10c415b7220b92cece1ab3f1acc97188">ACPI::Event</a> = 0</td></tr>
+<tr class="separator:a10c415b7220b92cece1ab3f1acc97188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2ee62be9410588c9453f20b40ca66e7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d22/namespaceACPI.html#ad2ee62be9410588c9453f20b40ca66e7">ACPI::else</a></td></tr>
+<tr class="separator:ad2ee62be9410588c9453f20b40ca66e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ac8998f5d1ee26707e3b06d27010a2438"></a>
@@ -155,7 +168,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00029">29</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -171,7 +184,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00044">44</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00050">50</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -187,7 +200,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00048">48</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00054">54</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -203,7 +216,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00053">53</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -219,7 +232,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -235,7 +248,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -251,7 +264,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00034">34</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00038">38</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -267,7 +280,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00031">31</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -283,7 +296,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -299,7 +312,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00045">45</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -315,7 +328,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -331,7 +344,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00028">28</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00032">32</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -347,7 +360,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00035">35</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html#l00039">39</a> of file <a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp_source.html">DifferentiatedSystemDescriptionTable.cpp</a>.</p>
 
 </div>
 </div>
@@ -356,7 +369,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_24d0e9fa304c1dbb1880c7df3a2dd8d2.html">Architecture</a></li><li class="navelem"><a class="el" href="../../dir_0309b499b8950a5fc0ffafb09dd8e67f.html">amd64</a></li><li class="navelem"><a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp.html">DifferentiatedSystemDescriptionTable.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_45b96e5faabc1aec1c962e9d67eabcf9.html">Core</a></li><li class="navelem"><a class="el" href="../../df/d64/DifferentiatedSystemDescriptionTable_8cpp.html">DifferentiatedSystemDescriptionTable.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

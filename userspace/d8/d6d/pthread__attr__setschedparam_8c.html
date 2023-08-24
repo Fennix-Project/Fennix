@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d8/d6d/pthread__attr__setschedparam_8c
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afbd9059eb34a7d7f7ce1fa380e3a311b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d6d/pthread__attr__setschedparam_8c.html#afbd9059eb34a7d7f7ce1fa380e3a311b">pthread_attr_setschedparam</a> (<a class="el" href="../../d2/d6c/mlibc_2options_2posix_2include_2pthread_8h.html#a927ac076e21f092c46a60a42d9da12e5">pthread_attr_t</a> *restrict a, const struct <a class="el" href="../../dc/d8b/musl_2include_2sched_8h.html#d4/d82/structsched__param">sched_param</a> *restrict param)</td></tr>
+<tr class="memitem:afbd9059eb34a7d7f7ce1fa380e3a311b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d6d/pthread__attr__setschedparam_8c.html#afbd9059eb34a7d7f7ce1fa380e3a311b">pthread_attr_setschedparam</a> (pthread_attr_t *restrict a, const struct <a class="el" href="../../d7/d00/sched_8h.html#d4/d82/structsched__param">sched_param</a> *restrict <a class="el" href="../../d5/db3/apps_2base_2busybox_2coreutils_2chown_8c.html#acff701cfc8fab0de8704435ba1462970">param</a>)</td></tr>
 <tr class="separator:afbd9059eb34a7d7f7ce1fa380e3a311b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,15 +108,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> pthread_attr_setschedparam </td>
+          <td class="memname">int pthread_attr_setschedparam </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d6c/mlibc_2options_2posix_2include_2pthread_8h.html#a927ac076e21f092c46a60a42d9da12e5">pthread_attr_t</a> *restrict&#160;</td>
+          <td class="paramtype">pthread_attr_t *restrict&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct <a class="el" href="../../dc/d8b/musl_2include_2sched_8h.html#d4/d82/structsched__param">sched_param</a> *restrict&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../d7/d00/sched_8h.html#d4/d82/structsched__param">sched_param</a> *restrict&#160;</td>
           <td class="paramname"><em>param</em>&#160;</td>
         </tr>
         <tr>
@@ -129,11 +129,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d6d/pthread__attr__setschedparam_8c_source.html#l00003">3</a> of file <a class="el" href="../../d8/d6d/pthread__attr__setschedparam_8c_source.html">pthread_attr_setschedparam.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    a-&gt;_a_prio = param-&gt;<a class="code" href="../../dc/d8b/musl_2include_2sched_8h.html#aa0f2640949273f2c30549ed8d1bb197e">sched_priority</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    a-&gt;_a_prio = <a class="code" href="../../d5/db3/apps_2base_2busybox_2coreutils_2chown_8c.html#acff701cfc8fab0de8704435ba1462970">param</a>-&gt;sched_priority;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="amusl_2include_2sched_8h_html_aa0f2640949273f2c30549ed8d1bb197e"><div class="ttname"><a href="../../dc/d8b/musl_2include_2sched_8h.html#aa0f2640949273f2c30549ed8d1bb197e">sched_param::sched_priority</a></div><div class="ttdeci">int sched_priority</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dae/struct__sched__param_8h_source.html#l00006">struct_sched_param.h:6</a></div></div>
+<div class="ttc" id="aapps_2base_2busybox_2coreutils_2chown_8c_html_acff701cfc8fab0de8704435ba1462970"><div class="ttname"><a href="../../d5/db3/apps_2base_2busybox_2coreutils_2chown_8c.html#acff701cfc8fab0de8704435ba1462970">param</a></div><div class="ttdeci">#define param</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../d5/db3/apps_2base_2busybox_2coreutils_2chown_8c.html#acff701cfc8fab0de8704435ba1462970">param</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->

@@ -110,7 +110,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acd2871abcbc95161bd33804e3787ad95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d86/freelocale_8c.html#acd2871abcbc95161bd33804e3787ad95">freelocale</a> (<a class="el" href="../../d7/df9/locale__t_8h.html#aa1f5af873d05619cbcf7901e194b292c">locale_t</a> l)</td></tr>
+<tr class="memitem:acd2871abcbc95161bd33804e3787ad95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d86/freelocale_8c.html#acd2871abcbc95161bd33804e3787ad95">freelocale</a> (locale_t <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>)</td></tr>
 <tr class="separator:acd2871abcbc95161bd33804e3787ad95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e94cfeefa03bd099b2fe943afd1b10c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d86/freelocale_8c.html#a8e94cfeefa03bd099b2fe943afd1b10c">weak_alias</a> (<a class="el" href="../../dc/d86/freelocale_8c.html#acd2871abcbc95161bd33804e3787ad95">freelocale</a>, __freelocale)</td></tr>
 <tr class="separator:a8e94cfeefa03bd099b2fe943afd1b10c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -190,7 +190,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">void freelocale </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/df9/locale__t_8h.html#aa1f5af873d05619cbcf7901e194b292c">locale_t</a>&#160;</td>
+          <td class="paramtype">locale_t&#160;</td>
           <td class="paramname"><em>l</em></td><td>)</td>
           <td></td>
         </tr>
@@ -199,12 +199,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/d86/freelocale_8c_source.html#l00009">9</a> of file <a class="el" href="../../dc/d86/freelocale_8c_source.html">freelocale.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/d76/locale__impl_8h.html#a0f37e44777c6a91272c2bf5187c19c32">__loc_is_allocated</a>(l)) <a class="code" href="../../dc/d86/freelocale_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(l);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/d76/locale__impl_8h.html#a0f37e44777c6a91272c2bf5187c19c32">__loc_is_allocated</a>(<a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>)) <a class="code" href="../../dc/d86/freelocale_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a>(<a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
 <div class="ttc" id="afreelocale_8c_html_a2c6efa7679f8cd9f61af96e105017560"><div class="ttname"><a href="../../dc/d86/freelocale_8c.html#a2c6efa7679f8cd9f61af96e105017560">free</a></div><div class="ttdeci">#define free</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d86/freelocale_8c_source.html#l00007">freelocale.c:7</a></div></div>
 <div class="ttc" id="alocale__impl_8h_html_a0f37e44777c6a91272c2bf5187c19c32"><div class="ttname"><a href="../../d7/d76/locale__impl_8h.html#a0f37e44777c6a91272c2bf5187c19c32">__loc_is_allocated</a></div><div class="ttdeci">hidden int __loc_is_allocated(locale_t)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d86/newlocale_8c_source.html#l00015">newlocale.c:15</a></div></div>
+<div class="ttc" id="atls__aesgcm_8c_html_a1cb503ddd20ff3cf9588d2b5abd202d8"><div class="ttname"><a href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a></div><div class="ttdeci">#define l</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d86/newlocale_8c_source.html#l00015">__loc_is_allocated()</a>, and <a class="el" href="../../dc/d86/freelocale_8c_source.html#l00007">free</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d86/newlocale_8c_source.html#l00015">__loc_is_allocated()</a>, <a class="el" href="../../dc/d86/freelocale_8c_source.html#l00007">free</a>, and <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>.</p>
 
 </div>
 </div>

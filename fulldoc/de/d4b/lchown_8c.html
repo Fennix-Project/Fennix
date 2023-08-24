@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('de/d4b/lchown_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6c7178c5a24a5e522117cd6166abfe33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4b/lchown_8c.html#a6c7178c5a24a5e522117cd6166abfe33">lchown</a> (const char *path, <a class="el" href="../../d0/d4b/abis_2linux_2uid__t_8h.html#afc544433253791fc5f87b8203c9b6e63">uid_t</a> uid, <a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a> gid)</td></tr>
+<tr class="memitem:a6c7178c5a24a5e522117cd6166abfe33"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d4b/lchown_8c.html#a6c7178c5a24a5e522117cd6166abfe33">lchown</a> (const char *path, uid_t uid, gid_t gid)</td></tr>
 <tr class="separator:a6c7178c5a24a5e522117cd6166abfe33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,7 +110,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> lchown </td>
+          <td class="memname">int lchown </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>path</em>, </td>
@@ -118,13 +118,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d4b/abis_2linux_2uid__t_8h.html#afc544433253791fc5f87b8203c9b6e63">uid_t</a>&#160;</td>
+          <td class="paramtype">uid_t&#160;</td>
           <td class="paramname"><em>uid</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/dc2/abis_2linux_2gid__t_8h.html#a78ecefd3a9f3f0c110b9f6f038b690eb">gid_t</a>&#160;</td>
+          <td class="paramtype">gid_t&#160;</td>
           <td class="paramname"><em>gid</em>&#160;</td>
         </tr>
         <tr>
@@ -140,14 +140,16 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifdef SYS_lchown</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_lchown, path, uid, gid);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_fchownat, <a class="code" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, path, uid, gid, <a class="code" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#ad623014f05ffb83df42ba96900fcd62e">AT_SYMLINK_NOFOLLOW</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_fchownat, <a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, path, uid, gid, <a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#ad623014f05ffb83df42ba96900fcd62e">AT_SYMLINK_NOFOLLOW</a>);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="amlibc_2abis_2ironclad_2fcntl_8h_html_a301749b9aa4b9416c329bb8b19345216"><div class="ttname"><a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a></div><div class="ttdeci">#define AT_FDCWD</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00062">fcntl.h:62</a></div></div>
-<div class="ttc" id="amlibc_2abis_2ironclad_2fcntl_8h_html_ad623014f05ffb83df42ba96900fcd62e"><div class="ttname"><a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#ad623014f05ffb83df42ba96900fcd62e">AT_SYMLINK_NOFOLLOW</a></div><div class="ttdeci">#define AT_SYMLINK_NOFOLLOW</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00058">fcntl.h:58</a></div></div>
+<div class="ttc" id="amusl_2include_2fcntl_8h_html_a301749b9aa4b9416c329bb8b19345216"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a></div><div class="ttdeci">#define AT_FDCWD</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">fcntl.h:60</a></div></div>
+<div class="ttc" id="amusl_2include_2fcntl_8h_html_ad623014f05ffb83df42ba96900fcd62e"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#ad623014f05ffb83df42ba96900fcd62e">AT_SYMLINK_NOFOLLOW</a></div><div class="ttdeci">#define AT_SYMLINK_NOFOLLOW</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00061">fcntl.h:61</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00062">AT_FDCWD</a>, <a class="el" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00058">AT_SYMLINK_NOFOLLOW</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">AT_FDCWD</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00061">AT_SYMLINK_NOFOLLOW</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d64/copy__file_8c_source.html#l00080">copy_file()</a>, and <a class="el" href="../../d0/dbd/install_8c_source.html#l00106">install_main()</a>.</p>
 
 </div>
 </div>

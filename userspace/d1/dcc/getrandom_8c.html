@@ -91,14 +91,14 @@ $(document).ready(function(){initNavTree('d1/dcc/getrandom_8c.html','../../'); i
 <div class="title">getrandom.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;sys/random.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d9/d62/musl_2include_2sys_2random_8h_source.html">sys/random.h</a>&gt;</code><br />
 <code>#include &quot;syscall.h&quot;</code><br />
 </div>
 <p><a href="../../d1/dcc/getrandom_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abcaa1800bcf3a7c6b7469562b8b001e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/getrandom_8c.html#abcaa1800bcf3a7c6b7469562b8b001e9">getrandom</a> (void *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> buflen, unsigned <a class="el" href="../../d6/d5a/videodev2_8h.html#aa2585d779da0ab21273a8d92de9a0ebe">flags</a>)</td></tr>
+<tr class="memitem:abcaa1800bcf3a7c6b7469562b8b001e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a87bd983bf349d8b86901f3200d559e8e">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dcc/getrandom_8c.html#abcaa1800bcf3a7c6b7469562b8b001e9">getrandom</a> (void *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d4/d7c/svlogd_8c.html#ac77ddf644df34d39af860ef27c6245bd">buflen</a>, unsigned <a class="el" href="../../db/dd4/sm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>)</td></tr>
 <tr class="separator:abcaa1800bcf3a7c6b7469562b8b001e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -117,7 +117,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>buflen</em>, </td>
         </tr>
         <tr>
@@ -136,13 +136,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/dcc/getrandom_8c_source.html#l00004">4</a> of file <a class="el" href="../../d1/dcc/getrandom_8c_source.html">getrandom.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_getrandom, <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, buflen, <a class="code" href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_getrandom, <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="code" href="../../d4/d7c/svlogd_8c.html#ac77ddf644df34d39af860ef27c6245bd">buflen</a>, <a class="code" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="agm__loop_8c_html_ac8bf36fe0577cba66bccda3a6f7e80a4"><div class="ttname"><a href="../../d6/dec/gm__loop_8c.html#ac8bf36fe0577cba66bccda3a6f7e80a4">flags</a></div><div class="ttdeci">int flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dec/gm__loop_8c_source.html#l00047">gm_loop.c:47</a></div></div>
-<div class="ttc" id="amlibc_2tests_2ansi_2longjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
+<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
+<div class="ttc" id="adumpkmap_8c_html_abb0829cce9dd20a40ae0d86890ae85c6"><div class="ttname"><a href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a></div><div class="ttdeci">#define flags</div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
+<div class="ttc" id="asvlogd_8c_html_ac77ddf644df34d39af860ef27c6245bd"><div class="ttname"><a href="../../d4/d7c/svlogd_8c.html#ac77ddf644df34d39af860ef27c6245bd">buflen</a></div><div class="ttdeci">#define buflen</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7c/svlogd_8c_source.html#l00226">svlogd.c:226</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../d6/dec/gm__loop_8c_source.html#l00047">flags</a>, and <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00226">buflen</a>, <a class="el" href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
 
 </div>
 </div>

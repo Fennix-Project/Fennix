@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d8/ddc/musl_2src_2unistd_2rmdir_8c.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab2df76f2c62ae012c2e417813b5fe8ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ddc/musl_2src_2unistd_2rmdir_8c.html#ab2df76f2c62ae012c2e417813b5fe8ce">rmdir</a> (const char *path)</td></tr>
+<tr class="memitem:ab2df76f2c62ae012c2e417813b5fe8ce"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/ddc/musl_2src_2unistd_2rmdir_8c.html#ab2df76f2c62ae012c2e417813b5fe8ce">rmdir</a> (const char *path)</td></tr>
 <tr class="separator:ab2df76f2c62ae012c2e417813b5fe8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -110,7 +110,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> rmdir </td>
+          <td class="memname">int rmdir </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>path</em></td><td>)</td>
@@ -124,16 +124,16 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifdef SYS_rmdir</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_rmdir, path);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_unlinkat, <a class="code" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, path, <a class="code" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#a18f47dae5e59e6683441ef49754fe068">AT_REMOVEDIR</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_unlinkat, <a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a>, path, <a class="code" href="../../d2/d44/musl_2include_2fcntl_8h.html#a18f47dae5e59e6683441ef49754fe068">AT_REMOVEDIR</a>);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="amlibc_2abis_2ironclad_2fcntl_8h_html_a18f47dae5e59e6683441ef49754fe068"><div class="ttname"><a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#a18f47dae5e59e6683441ef49754fe068">AT_REMOVEDIR</a></div><div class="ttdeci">#define AT_REMOVEDIR</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00059">fcntl.h:59</a></div></div>
-<div class="ttc" id="amlibc_2abis_2ironclad_2fcntl_8h_html_a301749b9aa4b9416c329bb8b19345216"><div class="ttname"><a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a></div><div class="ttdeci">#define AT_FDCWD</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00062">fcntl.h:62</a></div></div>
+<div class="ttc" id="amusl_2include_2fcntl_8h_html_a18f47dae5e59e6683441ef49754fe068"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#a18f47dae5e59e6683441ef49754fe068">AT_REMOVEDIR</a></div><div class="ttdeci">#define AT_REMOVEDIR</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00062">fcntl.h:62</a></div></div>
+<div class="ttc" id="amusl_2include_2fcntl_8h_html_a301749b9aa4b9416c329bb8b19345216"><div class="ttname"><a href="../../d2/d44/musl_2include_2fcntl_8h.html#a301749b9aa4b9416c329bb8b19345216">AT_FDCWD</a></div><div class="ttdeci">#define AT_FDCWD</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">fcntl.h:60</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00062">AT_FDCWD</a>, <a class="el" href="../../d3/d2b/mlibc_2abis_2ironclad_2fcntl_8h_source.html#l00059">AT_REMOVEDIR</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00060">AT_FDCWD</a>, <a class="el" href="../../d2/d44/musl_2include_2fcntl_8h_source.html#l00062">AT_REMOVEDIR</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/deb/apps_2base_2bash_2examples_2loadables_2rmdir_8c_source.html#l00036">rmdir_builtin()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d4b/bash_2examples_2loadables_2rm_8c_source.html#l00042">_remove_directory()</a>, <a class="el" href="../../d9/de8/bootchartd_8c_source.html#l00265">finalize()</a>, <a class="el" href="../../d4/d1b/apps_2base_2bash_2examples_2loadables_2mktemp_8c_source.html#l00035">mktemp_builtin()</a>, <a class="el" href="../../d9/d57/remove__file_8c_source.html#l00013">remove_file()</a>, <a class="el" href="../../d7/d05/dpkg_8c_source.html#l01229">remove_file_array()</a>, <a class="el" href="../../da/deb/apps_2base_2bash_2examples_2loadables_2rmdir_8c_source.html#l00036">rmdir_builtin()</a>, and <a class="el" href="../../d5/df4/apps_2base_2busybox_2coreutils_2rmdir_8c_source.html#l00044">rmdir_main()</a>.</p>
 
 </div>
 </div>

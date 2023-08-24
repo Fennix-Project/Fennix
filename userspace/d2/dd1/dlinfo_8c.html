@@ -104,7 +104,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a754c260135798773cb76ddac7e8def9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd1/dlinfo_8c.html#a754c260135798773cb76ddac7e8def9a">dlinfo</a> (void *<a class="el" href="../../d5/db0/dynlink_8c.html#d8/d6b/structdso">dso</a>, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> req, void *res)</td></tr>
+<tr class="memitem:a754c260135798773cb76ddac7e8def9a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd1/dlinfo_8c.html#a754c260135798773cb76ddac7e8def9a">dlinfo</a> (void *<a class="el" href="../../d5/db0/dynlink_8c.html#d8/d6b/structdso">dso</a>, int req, void *res)</td></tr>
 <tr class="separator:a754c260135798773cb76ddac7e8def9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -132,7 +132,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> dlinfo </td>
+          <td class="memname">int dlinfo </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>dso</em>, </td>
@@ -140,7 +140,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>req</em>, </td>
         </tr>
         <tr>
@@ -160,7 +160,7 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d2/dd1/dlinfo_8c_source.html#l00005">5</a> of file <a class="el" href="../../d2/dd1/dlinfo_8c_source.html">dlinfo.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/db0/dynlink_8c.html#adc783a9ba8412bdf5fd1af8c48fa6a07">__dl_invalid_handle</a>(<a class="code" href="../../d5/db0/dynlink_8c.html#d8/d6b/structdso">dso</a>)) <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (req != <a class="code" href="../../da/d2f/mlibc_2options_2posix_2include_2dlfcn_8h.html#afc522c1a0d6100a1af90b59ded39ef91">RTLD_DI_LINKMAP</a>) {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (req != <a class="code" href="../../df/da8/musl_2include_2dlfcn_8h.html#afc522c1a0d6100a1af90b59ded39ef91">RTLD_DI_LINKMAP</a>) {</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <a class="code" href="../../d0/d5e/dynlink_8h.html#a31b1407e6687e9243338536f9f089f7c">__dl_seterr</a>(<span class="stringliteral">&quot;Unsupported request %d&quot;</span>, req);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    }</div>
@@ -170,10 +170,10 @@ Functions</h2></td></tr>
 <div class="ttc" id="adynlink_8c_html_adc783a9ba8412bdf5fd1af8c48fa6a07"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#adc783a9ba8412bdf5fd1af8c48fa6a07">__dl_invalid_handle</a></div><div class="ttdeci">hidden int __dl_invalid_handle(void *h)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l02226">dynlink.c:2226</a></div></div>
 <div class="ttc" id="adynlink_8c_html_d8/d6b/structdso"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#d8/d6b/structdso">dso</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00061">dynlink.c:61</a></div></div>
 <div class="ttc" id="adynlink_8h_html_a31b1407e6687e9243338536f9f089f7c"><div class="ttname"><a href="../../d0/d5e/dynlink_8h.html#a31b1407e6687e9243338536f9f089f7c">__dl_seterr</a></div><div class="ttdeci">hidden void __dl_seterr(const char *,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dcb/dlerror_8c_source.html#l00075">dlerror.c:75</a></div></div>
-<div class="ttc" id="amlibc_2options_2posix_2include_2dlfcn_8h_html_afc522c1a0d6100a1af90b59ded39ef91"><div class="ttname"><a href="../../da/d2f/mlibc_2options_2posix_2include_2dlfcn_8h.html#afc522c1a0d6100a1af90b59ded39ef91">RTLD_DI_LINKMAP</a></div><div class="ttdeci">#define RTLD_DI_LINKMAP</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d2f/mlibc_2options_2posix_2include_2dlfcn_8h_source.html#l00016">dlfcn.h:16</a></div></div>
-<div class="ttc" id="astructlink__map_html"><div class="ttname"><a href="../../d7/de7/structlink__map.html">link_map</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/df2/mlibc_2options_2elf_2include_2link_8h_source.html#l00031">link.h:31</a></div></div>
+<div class="ttc" id="amusl_2include_2dlfcn_8h_html_afc522c1a0d6100a1af90b59ded39ef91"><div class="ttname"><a href="../../df/da8/musl_2include_2dlfcn_8h.html#afc522c1a0d6100a1af90b59ded39ef91">RTLD_DI_LINKMAP</a></div><div class="ttdeci">#define RTLD_DI_LINKMAP</div><div class="ttdef"><b>Definition:</b> <a href="../../df/da8/musl_2include_2dlfcn_8h_source.html#l00020">dlfcn.h:20</a></div></div>
+<div class="ttc" id="astructlink__map_html"><div class="ttname"><a href="../../d7/de7/structlink__map.html">link_map</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d6d/include_2link_8h_source.html#l00032">link.h:32</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/db0/dynlink_8c_source.html#l02226">__dl_invalid_handle()</a>, <a class="el" href="../../d9/dcb/dlerror_8c_source.html#l00075">__dl_seterr()</a>, and <a class="el" href="../../da/d2f/mlibc_2options_2posix_2include_2dlfcn_8h_source.html#l00016">RTLD_DI_LINKMAP</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/db0/dynlink_8c_source.html#l02226">__dl_invalid_handle()</a>, <a class="el" href="../../d9/dcb/dlerror_8c_source.html#l00075">__dl_seterr()</a>, and <a class="el" href="../../df/da8/musl_2include_2dlfcn_8h_source.html#l00020">RTLD_DI_LINKMAP</a>.</p>
 
 </div>
 </div>

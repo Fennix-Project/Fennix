@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['queue_33340',['Queue',['../d1/daf/structQueue.html',1,'']]]
+  ['qsettings_41902',['QSettings',['../dc/dc8/classQSettings.html',1,'']]]
 ];

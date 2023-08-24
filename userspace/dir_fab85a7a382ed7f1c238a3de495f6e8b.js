@@ -12,7 +12,7 @@ var dir_fab85a7a382ed7f1c238a3de495f6e8b =
     [ "table.c", "dc/d33/table_8c.html", "dc/d33/table_8c" ],
     [ "table.h", "dd/d98/table_8h.html", null ],
     [ "trace.c", "d8/ddc/trace_8c.html", "d8/ddc/trace_8c" ],
-    [ "watch.c", "d7/dc0/watch_8c.html", "d7/dc0/watch_8c" ],
+    [ "watch.c", "db/d7c/bash_2lib_2malloc_2watch_8c.html", "db/d7c/bash_2lib_2malloc_2watch_8c" ],
     [ "watch.h", "d4/d9e/watch_8h.html", null ],
     [ "x386-alloca.s", "db/df7/x386-alloca_8s.html", null ],
     [ "xmalloc.c", "d7/d47/lib_2malloc_2xmalloc_8c.html", "d7/d47/lib_2malloc_2xmalloc_8c" ]

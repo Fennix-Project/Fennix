@@ -5,6 +5,7 @@ var file_8c =
     [ "fopen", "d6/d13/file_8c.html#a1460c5f46a75368c8dbb3ea178035b62", null ],
     [ "fprintf", "d6/d13/file_8c.html#ab12d8b550c600edd049c3870606a3b32", null ],
     [ "fread", "d6/d13/file_8c.html#ada1cfa854da91878516b700d4d3178a8", null ],
+    [ "freopen", "d6/d13/file_8c.html#ad81b67eb1d1dda25cabb7aee4404f96f", null ],
     [ "fseek", "d6/d13/file_8c.html#a8820c52dbc8e991cef72cd0233a2d890", null ],
     [ "ftell", "d6/d13/file_8c.html#a23edd7ddccbdb8094ffe6eb96819981d", null ],
     [ "fwrite", "d6/d13/file_8c.html#a45750d00f22faaecab5dc89382225613", null ],

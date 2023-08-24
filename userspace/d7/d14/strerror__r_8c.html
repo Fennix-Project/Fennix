@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d7/d14/strerror__r_8c.html','../../');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acf0dd81f528c69cc2cb4990b2f778b48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/strerror__r_8c.html#acf0dd81f528c69cc2cb4990b2f778b48">strerror_r</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../da/d80/err_8c.html#a0f0e06a589f9b5b6dc88160bd570a5cc">err</a>, char *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> buflen)</td></tr>
+<tr class="memitem:acf0dd81f528c69cc2cb4990b2f778b48"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/strerror__r_8c.html#acf0dd81f528c69cc2cb4990b2f778b48">strerror_r</a> (int <a class="el" href="../../da/d80/err_8c.html#a0f0e06a589f9b5b6dc88160bd570a5cc">err</a>, char *<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> <a class="el" href="../../d4/d7c/svlogd_8c.html#ac77ddf644df34d39af860ef27c6245bd">buflen</a>)</td></tr>
 <tr class="separator:acf0dd81f528c69cc2cb4990b2f778b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a791e9a38dbcfbc168c5f9b43c4cd3f1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d14/strerror__r_8c.html#a791e9a38dbcfbc168c5f9b43c4cd3f1f">weak_alias</a> (<a class="el" href="../../d7/d14/strerror__r_8c.html#acf0dd81f528c69cc2cb4990b2f778b48">strerror_r</a>, __xpg_strerror_r)</td></tr>
 <tr class="separator:a791e9a38dbcfbc168c5f9b43c4cd3f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,9 +111,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> strerror_r </td>
+          <td class="memname">int strerror_r </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>err</em>, </td>
         </tr>
         <tr>
@@ -125,7 +125,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>buflen</em>&#160;</td>
         </tr>
         <tr>
@@ -138,26 +138,28 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d14/strerror__r_8c_source.html#l00004">4</a> of file <a class="el" href="../../d7/d14/strerror__r_8c_source.html">strerror_r.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">char</span> *msg = <a class="code" href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror</a>(<a class="code" href="../../da/d80/musl_2include_2err_8h.html#aa31bca214cc8f135a43aa7fbea017326">err</a>);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">size_t</span> l = <a class="code" href="../../dc/da4/libc_2include_2string_8h.html#a008e171a518fe0e0352f31b245e03875">strlen</a>(msg);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (l &gt;= buflen) {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">if</span> (buflen) {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(<a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, msg, buflen-1);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            <a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>[buflen-1] = 0;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">char</span> *msg = <a class="code" href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror</a>(<a class="code" href="../../d6/d40/err_8h.html#aa31bca214cc8f135a43aa7fbea017326">err</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a> = <a class="code" href="../../dc/da4/libc_2include_2string_8h.html#a008e171a518fe0e0352f31b245e03875">strlen</a>(msg);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a> &gt;= <a class="code" href="../../d4/d7c/svlogd_8c.html#ac77ddf644df34d39af860ef27c6245bd">buflen</a>) {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d7c/svlogd_8c.html#ac77ddf644df34d39af860ef27c6245bd">buflen</a>) {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(<a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, msg, <a class="code" href="../../d4/d7c/svlogd_8c.html#ac77ddf644df34d39af860ef27c6245bd">buflen</a>-1);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            <a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>[<a class="code" href="../../d4/d7c/svlogd_8c.html#ac77ddf644df34d39af860ef27c6245bd">buflen</a>-1] = 0;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        }</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#aa1591a4f3a86360108de5b9ba34980ca">ERANGE</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    }</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(<a class="code" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a>, msg, l+1);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a>(<a class="code" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, msg, <a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>+1);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
+<div class="ttc" id="aapps_2base_2busybox_2coreutils_2stat_8c_html_aa29b866765bdc5bdf87b7eb666d66093"><div class="ttname"><a href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a></div><div class="ttdeci">#define buf</div></div>
+<div class="ttc" id="aerr_8h_html_aa31bca214cc8f135a43aa7fbea017326"><div class="ttname"><a href="../../d6/d40/err_8h.html#aa31bca214cc8f135a43aa7fbea017326">err</a></div><div class="ttdeci">_Noreturn void err(int, const char *,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/err_8c_source.html#l00053">err.c:53</a></div></div>
 <div class="ttc" id="aerrlist_8c_html_a558c31d07190c0a536ec2a340b1eae07"><div class="ttname"><a href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror</a></div><div class="ttdeci">char * strerror()</div></div>
 <div class="ttc" id="afcts_8c_html_a14938524dcbeb59d7117ba5e151ad1b1"><div class="ttname"><a href="../../d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1">memcpy</a></div><div class="ttdeci">void * memcpy(void *dest, const void *src, size_t n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7b/fcts_8c_source.html#l00090">fcts.c:90</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_aa1591a4f3a86360108de5b9ba34980ca"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#aa1591a4f3a86360108de5b9ba34980ca">ERANGE</a></div><div class="ttdeci">#define ERANGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00037">errno.h:37</a></div></div>
-<div class="ttc" id="alibc_2include_2string_8h_html_a008e171a518fe0e0352f31b245e03875"><div class="ttname"><a href="../../dc/da4/libc_2include_2string_8h.html#a008e171a518fe0e0352f31b245e03875">strlen</a></div><div class="ttdeci">size_t strlen(const char *str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dca/libc_2src_2std_2string_2string_8c_source.html#l00005">string.c:5</a></div></div>
-<div class="ttc" id="amlibc_2tests_2ansi_2longjmp_8c_html_a02df3e2f0291bf06f3a685829975efec"><div class="ttname"><a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c.html#a02df3e2f0291bf06f3a685829975efec">buf</a></div><div class="ttdeci">jmp_buf buf</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">longjmp.c:6</a></div></div>
-<div class="ttc" id="amusl_2include_2err_8h_html_aa31bca214cc8f135a43aa7fbea017326"><div class="ttname"><a href="../../da/d80/musl_2include_2err_8h.html#aa31bca214cc8f135a43aa7fbea017326">err</a></div><div class="ttdeci">_Noreturn void err(int, const char *,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/err_8c_source.html#l00053">err.c:53</a></div></div>
+<div class="ttc" id="alibc_2include_2string_8h_html_a008e171a518fe0e0352f31b245e03875"><div class="ttname"><a href="../../dc/da4/libc_2include_2string_8h.html#a008e171a518fe0e0352f31b245e03875">strlen</a></div><div class="ttdeci">size_t strlen(const char *str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db0/string_8c_source.html#l00005">string.c:5</a></div></div>
+<div class="ttc" id="asvlogd_8c_html_ac77ddf644df34d39af860ef27c6245bd"><div class="ttname"><a href="../../d4/d7c/svlogd_8c.html#ac77ddf644df34d39af860ef27c6245bd">buflen</a></div><div class="ttdeci">#define buflen</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d7c/svlogd_8c_source.html#l00226">svlogd.c:226</a></div></div>
+<div class="ttc" id="atls__aesgcm_8c_html_a1cb503ddd20ff3cf9588d2b5abd202d8"><div class="ttname"><a href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a></div><div class="ttdeci">#define l</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/d36/mlibc_2tests_2ansi_2longjmp_8c_source.html#l00006">buf</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00037">ERANGE</a>, <a class="el" href="../../da/d80/err_8c_source.html#l00053">err()</a>, <a class="el" href="../../d4/d7b/fcts_8c_source.html#l00090">memcpy()</a>, <a class="el" href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror()</a>, and <a class="el" href="../../d4/dca/libc_2src_2std_2string_2string_8c_source.html#l00005">strlen()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d2f/apps_2base_2busybox_2coreutils_2stat_8c.html#aa29b866765bdc5bdf87b7eb666d66093">buf</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00226">buflen</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00037">ERANGE</a>, <a class="el" href="../../da/d80/err_8c_source.html#l00053">err()</a>, <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, <a class="el" href="../../d4/d7b/fcts_8c_source.html#l00090">memcpy()</a>, <a class="el" href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror()</a>, and <a class="el" href="../../d1/db0/string_8c_source.html#l00005">strlen()</a>.</p>
 
 </div>
 </div>

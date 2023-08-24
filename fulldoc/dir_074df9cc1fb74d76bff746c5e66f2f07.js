@@ -3,7 +3,7 @@ var dir_074df9cc1fb74d76bff746c5e66f2f07 =
     [ "a64l.c", "dd/d7c/a64l_8c.html", "dd/d7c/a64l_8c" ],
     [ "basename.c", "dc/dd9/musl_2src_2misc_2basename_8c.html", "dc/dd9/musl_2src_2misc_2basename_8c" ],
     [ "dirname.c", "d7/d22/musl_2src_2misc_2dirname_8c.html", "d7/d22/musl_2src_2misc_2dirname_8c" ],
-    [ "ffs.c", "db/d57/musl_2src_2misc_2ffs_8c.html", "db/d57/musl_2src_2misc_2ffs_8c" ],
+    [ "ffs.c", "de/df2/ffs_8c.html", "de/df2/ffs_8c" ],
     [ "ffsl.c", "d9/df4/ffsl_8c.html", "d9/df4/ffsl_8c" ],
     [ "ffsll.c", "dd/dfa/ffsll_8c.html", "dd/dfa/ffsll_8c" ],
     [ "fmtmsg.c", "d3/d3c/fmtmsg_8c.html", "d3/d3c/fmtmsg_8c" ],
@@ -33,10 +33,10 @@ var dir_074df9cc1fb74d76bff746c5e66f2f07 =
     [ "pty.c", "dd/d8f/pty_8c.html", "dd/d8f/pty_8c" ],
     [ "realpath.c", "d0/d21/musl_2src_2misc_2realpath_8c.html", "d0/d21/musl_2src_2misc_2realpath_8c" ],
     [ "setdomainname.c", "dd/dd7/setdomainname_8c.html", "dd/dd7/setdomainname_8c" ],
-    [ "setpriority.c", "d4/d5c/musl_2src_2misc_2setpriority_8c.html", "d4/d5c/musl_2src_2misc_2setpriority_8c" ],
+    [ "setpriority.c", "dc/d2b/setpriority_8c.html", "dc/d2b/setpriority_8c" ],
     [ "setrlimit.c", "d9/d7e/setrlimit_8c.html", "d9/d7e/setrlimit_8c" ],
     [ "syscall.c", "db/dd8/syscall_8c.html", "db/dd8/syscall_8c" ],
     [ "syslog.c", "d4/d2f/syslog_8c.html", "d4/d2f/syslog_8c" ],
     [ "uname.c", "d7/d63/musl_2src_2misc_2uname_8c.html", "d7/d63/musl_2src_2misc_2uname_8c" ],
-    [ "wordexp.c", "d3/da3/musl_2src_2misc_2wordexp_8c.html", "d3/da3/musl_2src_2misc_2wordexp_8c" ]
+    [ "wordexp.c", "d8/dbe/wordexp_8c.html", "d8/dbe/wordexp_8c" ]
 ];

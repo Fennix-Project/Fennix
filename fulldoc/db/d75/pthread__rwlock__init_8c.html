@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('db/d75/pthread__rwlock__init_8c.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1b64d8fe4fa791adbd44ba06fa881148"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d75/pthread__rwlock__init_8c.html#a1b64d8fe4fa791adbd44ba06fa881148">pthread_rwlock_init</a> (<a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#aebf354859b412e164c6aa1a83c602e4a">pthread_rwlock_t</a> *restrict rw, const <a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#a017a84d4edacef64f03be088d3df3570">pthread_rwlockattr_t</a> *restrict a)</td></tr>
+<tr class="memitem:a1b64d8fe4fa791adbd44ba06fa881148"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d75/pthread__rwlock__init_8c.html#a1b64d8fe4fa791adbd44ba06fa881148">pthread_rwlock_init</a> (pthread_rwlock_t *restrict rw, const pthread_rwlockattr_t *restrict a)</td></tr>
 <tr class="separator:a1b64d8fe4fa791adbd44ba06fa881148"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,15 +108,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> pthread_rwlock_init </td>
+          <td class="memname">int pthread_rwlock_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#aebf354859b412e164c6aa1a83c602e4a">pthread_rwlock_t</a> *restrict&#160;</td>
+          <td class="paramtype">pthread_rwlock_t *restrict&#160;</td>
           <td class="paramname"><em>rw</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#a017a84d4edacef64f03be088d3df3570">pthread_rwlockattr_t</a> *restrict&#160;</td>
+          <td class="paramtype">const pthread_rwlockattr_t *restrict&#160;</td>
           <td class="paramname"><em>a</em>&#160;</td>
         </tr>
         <tr>
@@ -129,11 +129,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/d75/pthread__rwlock__init_8c_source.html#l00003">3</a> of file <a class="el" href="../../db/d75/pthread__rwlock__init_8c_source.html">pthread_rwlock_init.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    *rw = (<a class="code" href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#aebf354859b412e164c6aa1a83c602e4a">pthread_rwlock_t</a>){0};</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    *rw = (pthread_rwlock_t){0};</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (a) rw-&gt;_rw_shared = a-&gt;__attr[0]*128;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2posix_2include_2pthread_8h_html_aebf354859b412e164c6aa1a83c602e4a"><div class="ttname"><a href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h.html#aebf354859b412e164c6aa1a83c602e4a">pthread_rwlock_t</a></div><div class="ttdeci">struct __mlibc_fair_rwlock pthread_rwlock_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/Userspace_2mlibc_2options_2posix_2include_2pthread_8h_source.html#l00096">pthread.h:152</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>

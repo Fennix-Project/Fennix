@@ -19,6 +19,7 @@ var dir_f6afea1f11e371a5eb8eaf7be6cd53d5 =
     [ "stdlib.h", "da/db9/Kernel_2include__std_2stdlib_8h.html", null ],
     [ "string.h", "d6/d54/Kernel_2include__std_2string_8h.html", null ],
     [ "strings.h", "dc/da4/Kernel_2include__std_2strings_8h.html", null ],
+    [ "stropts.h", "d4/d78/Kernel_2include__std_2stropts_8h.html", "d4/d78/Kernel_2include__std_2stropts_8h" ],
     [ "unistd.h", "d2/d58/Kernel_2include__std_2unistd_8h.html", null ],
     [ "unwind.h", "d3/db6/unwind_8h.html", "d3/db6/unwind_8h" ],
     [ "wchar.h", "d5/d89/Kernel_2include__std_2wchar_8h.html", null ]

@@ -27,5 +27,5 @@ var musl_2src_2malloc_2oldmalloc_2malloc_8c =
     [ "unlock_bin", "d4/db5/musl_2src_2malloc_2oldmalloc_2malloc_8c.html#a5c0ebe4070bffa85ac11b08b7041e9b4", null ],
     [ "unmap_chunk", "d4/db5/musl_2src_2malloc_2oldmalloc_2malloc_8c.html#a7308bfa0cbc76a5a6728983c690569ff", null ],
     [ "bin_tab", "d4/db5/musl_2src_2malloc_2oldmalloc_2malloc_8c.html#ae888f8dc4cebff38e4f53fb5097ee39e", null ],
-    [ "mal", "d4/db5/musl_2src_2malloc_2oldmalloc_2malloc_8c.html#a8a186f1d038d145edd4ab4e7fc62ece7", null ]
+    [ "mal", "d4/db5/musl_2src_2malloc_2oldmalloc_2malloc_8c.html#a323498d8b41957db863ef947c7f18d8b", null ]
 ];

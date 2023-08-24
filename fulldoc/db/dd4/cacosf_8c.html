@@ -98,12 +98,12 @@ $(document).ready(function(){initNavTree('db/dd4/cacosf_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a238bc3dbd59adeb477af18c9a501e04e"><td class="memItemLeft" align="right" valign="top">float <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd4/cacosf_8c.html#a238bc3dbd59adeb477af18c9a501e04e">cacosf</a> (float <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
+<tr class="memitem:a238bc3dbd59adeb477af18c9a501e04e"><td class="memItemLeft" align="right" valign="top">float <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd4/cacosf_8c.html#a238bc3dbd59adeb477af18c9a501e04e">cacosf</a> (float <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> z)</td></tr>
 <tr class="separator:a238bc3dbd59adeb477af18c9a501e04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a5a2424792a4a09e781a7629c141733c8"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd4/cacosf_8c.html#a5a2424792a4a09e781a7629c141733c8">float_pi_2</a> = <a class="el" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a958e4508ed28ee5cc04249144312c15f">M_PI_2</a></td></tr>
+<tr class="memitem:a5a2424792a4a09e781a7629c141733c8"><td class="memItemLeft" align="right" valign="top">static const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd4/cacosf_8c.html#a5a2424792a4a09e781a7629c141733c8">float_pi_2</a> = M_PI_2</td></tr>
 <tr class="separator:a5a2424792a4a09e781a7629c141733c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -114,9 +114,9 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> cacosf </td>
+          <td class="memname">float <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a> cacosf </td>
           <td>(</td>
-          <td class="paramtype">float <a class="el" href="../../d5/d26/musl_2include_2complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
+          <td class="paramtype">float <a class="el" href="../../d7/d3b/complex_8h.html#a0fa4878c968311979d497ccc322e0b9b">complex</a>&#160;</td>
           <td class="paramname"><em>z</em></td><td>)</td>
           <td></td>
         </tr>
@@ -125,16 +125,16 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../db/dd4/cacosf_8c_source.html#l00007">7</a> of file <a class="el" href="../../db/dd4/cacosf_8c_source.html">cacosf.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    z = <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a44a7a81682c3c05650b2e5785f777be0">casinf</a>(z);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a>(<a class="code" href="../../db/dd4/cacosf_8c.html#a5a2424792a4a09e781a7629c141733c8">float_pi_2</a> - <a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a>(z), -<a class="code" href="../../d5/d26/musl_2include_2complex_8h.html#a6ffde693131d8b43e240be8652a677c5">cimagf</a>(z));</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    z = <a class="code" href="../../d7/d3b/complex_8h.html#a44a7a81682c3c05650b2e5785f777be0">casinf</a>(z);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d6e/complex__impl_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a>(<a class="code" href="../../db/dd4/cacosf_8c.html#a5a2424792a4a09e781a7629c141733c8">float_pi_2</a> - <a class="code" href="../../d7/d3b/complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a>(z), -<a class="code" href="../../d7/d3b/complex_8h.html#a6ffde693131d8b43e240be8652a677c5">cimagf</a>(z));</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 <div class="ttc" id="acacosf_8c_html_a5a2424792a4a09e781a7629c141733c8"><div class="ttname"><a href="../../db/dd4/cacosf_8c.html#a5a2424792a4a09e781a7629c141733c8">float_pi_2</a></div><div class="ttdeci">static const float float_pi_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd4/cacosf_8c_source.html#l00005">cacosf.c:5</a></div></div>
-<div class="ttc" id="amlibc_2options_2ansi_2musl-generic-math_2libm_8h_html_a58b69dd647c86d37f2d35dfd2d75b08d"><div class="ttname"><a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a></div><div class="ttdeci">#define CMPLXF(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00155">libm.h:155</a></div></div>
-<div class="ttc" id="amusl_2include_2complex_8h_html_a44a7a81682c3c05650b2e5785f777be0"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a44a7a81682c3c05650b2e5785f777be0">casinf</a></div><div class="ttdeci">float complex casinf(float complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d3e/casinf_8c_source.html#l00005">casinf.c:5</a></div></div>
-<div class="ttc" id="amusl_2include_2complex_8h_html_a61855cb5a4ec0a59dc95bb4d0970f010"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a></div><div class="ttdeci">#define crealf(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00109">complex.h:109</a></div></div>
-<div class="ttc" id="amusl_2include_2complex_8h_html_a6ffde693131d8b43e240be8652a677c5"><div class="ttname"><a href="../../d5/d26/musl_2include_2complex_8h.html#a6ffde693131d8b43e240be8652a677c5">cimagf</a></div><div class="ttdeci">#define cimagf(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/musl_2include_2complex_8h_source.html#l00113">complex.h:113</a></div></div>
+<div class="ttc" id="acomplex_8h_html_a44a7a81682c3c05650b2e5785f777be0"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a44a7a81682c3c05650b2e5785f777be0">casinf</a></div><div class="ttdeci">float complex casinf(float complex)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d3e/casinf_8c_source.html#l00005">casinf.c:5</a></div></div>
+<div class="ttc" id="acomplex_8h_html_a61855cb5a4ec0a59dc95bb4d0970f010"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a></div><div class="ttdeci">#define crealf(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00109">complex.h:109</a></div></div>
+<div class="ttc" id="acomplex_8h_html_a6ffde693131d8b43e240be8652a677c5"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a6ffde693131d8b43e240be8652a677c5">cimagf</a></div><div class="ttdeci">#define cimagf(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00113">complex.h:113</a></div></div>
+<div class="ttc" id="acomplex__impl_8h_html_a58b69dd647c86d37f2d35dfd2d75b08d"><div class="ttname"><a href="../../dd/d6e/complex__impl_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a></div><div class="ttdeci">#define CMPLXF(x, y)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d6e/complex__impl_8h_source.html#l00016">complex_impl.h:16</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d2/d3e/casinf_8c_source.html#l00005">casinf()</a>, <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00113">cimagf</a>, <a class="el" href="../../d2/de0/mlibc_2options_2ansi_2musl-generic-math_2libm_8h_source.html#l00155">CMPLXF</a>, <a class="el" href="../../d5/d26/musl_2include_2complex_8h_source.html#l00109">crealf</a>, and <a class="el" href="../../db/dd4/cacosf_8c_source.html#l00005">float_pi_2</a>.</p>
+<p class="reference">References <a class="el" href="../../d2/d3e/casinf_8c_source.html#l00005">casinf()</a>, <a class="el" href="../../d7/d3b/complex_8h_source.html#l00113">cimagf</a>, <a class="el" href="../../dd/d6e/complex__impl_8h_source.html#l00016">CMPLXF</a>, <a class="el" href="../../d7/d3b/complex_8h_source.html#l00109">crealf</a>, and <a class="el" href="../../db/dd4/cacosf_8c_source.html#l00005">float_pi_2</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d0/da5/cacoshf_8c_source.html#l00003">cacoshf()</a>.</p>
 
@@ -151,7 +151,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const float float_pi_2 = <a class="el" href="../../dc/d4f/Userspace_2mlibc_2options_2ansi_2include_2math_8h.html#a958e4508ed28ee5cc04249144312c15f">M_PI_2</a></td>
+          <td class="memname">const float float_pi_2 = M_PI_2</td>
         </tr>
       </table>
   </td>

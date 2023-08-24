@@ -1,0 +1,65 @@
+var ntfs_8c =
+[
+    [ "ntfs_super_block", "d5/d8d/ntfs_8c.html#d6/d4c/structntfs__super__block", [
+      [ "bytes_per_sector", "d5/d8d/ntfs_8c.html#a81eea6c277b957bf12dafefbe9078c6e", null ],
+      [ "checksum", "d5/d8d/ntfs_8c.html#a32e644b9a0abe99b7f6e5ee813acfcbb", null ],
+      [ "cluster_per_index_record", "d5/d8d/ntfs_8c.html#a302a6fef69044676cf10426ff1afa844", null ],
+      [ "cluster_per_mft_record", "d5/d8d/ntfs_8c.html#a094b009c638e2b76883628f31da76ddc", null ],
+      [ "fats", "d5/d8d/ntfs_8c.html#a01522fb16769dd6c686febe6b4d1fe03", null ],
+      [ "heads", "d5/d8d/ntfs_8c.html#ad8da6b6ec942893197415afb83b560cc", null ],
+      [ "hidden_sectors", "d5/d8d/ntfs_8c.html#a74e3d6345fb4121caf9d90810a7e052c", null ],
+      [ "jump", "d5/d8d/ntfs_8c.html#aea34f2d2f5208605c0b356e38a75d00c", null ],
+      [ "large_sectors", "d5/d8d/ntfs_8c.html#a5d8359641b18563ac92a9c8e4e9c2f8b", null ],
+      [ "media_type", "d5/d8d/ntfs_8c.html#a3ae75ccc890a0cd2078c30497c5051dc", null ],
+      [ "mft_cluster_location", "d5/d8d/ntfs_8c.html#a03bb6cb037a960ee93361e40c4e56fc4", null ],
+      [ "mft_mirror_cluster_location", "d5/d8d/ntfs_8c.html#a06199973f064d6cfa1e7d3133e426d7b", null ],
+      [ "number_of_sectors", "d5/d8d/ntfs_8c.html#a73c4c316af23071dae05cd991d37a8f7", null ],
+      [ "oem_id", "d5/d8d/ntfs_8c.html#a1af89c09ce393b79fb2017defd8ff329", null ],
+      [ "reserved1", "d5/d8d/ntfs_8c.html#a629a2e76b95d2d7e358574623a8edba3", null ],
+      [ "reserved2", "d5/d8d/ntfs_8c.html#a770c94e09cdd12ced26d74722777cc96", null ],
+      [ "reserved_sectors", "d5/d8d/ntfs_8c.html#a10dde961beb26b72eee78a0abd722e02", null ],
+      [ "root_entries", "d5/d8d/ntfs_8c.html#a9a1e1108d7d46a234bc81f6798a5b1e3", null ],
+      [ "sectors", "d5/d8d/ntfs_8c.html#ac13c51a2cd3d34fe04f23405346361a0", null ],
+      [ "sectors_per_cluster", "d5/d8d/ntfs_8c.html#a17ef7b6f59ff2ce4b439a755979bf516", null ],
+      [ "sectors_per_fat", "d5/d8d/ntfs_8c.html#a5c6064a9bb23952a40035b4b168fd441", null ],
+      [ "sectors_per_track", "d5/d8d/ntfs_8c.html#a5944401154376975bd7e875779cd4fd5", null ],
+      [ "unused", "d5/d8d/ntfs_8c.html#aa1f15247e931db16e2f5173b8794c9dd", null ],
+      [ "volume_serial", "d5/d8d/ntfs_8c.html#a5ae58dda17962abcace3a0c06db2f149", null ]
+    ] ],
+    [ "master_file_table_record", "d5/d8d/ntfs_8c.html#d3/d25/structmaster__file__table__record", [
+      [ "attrs_offset", "d5/d8d/ntfs_8c.html#a3b7437c48f9a4890483f86739ce62061", null ],
+      [ "bytes_allocated", "d5/d8d/ntfs_8c.html#a0afb987343e0d7200f3e1ed1ddf254a2", null ],
+      [ "bytes_in_use", "d5/d8d/ntfs_8c.html#a1ba954365762b27950fa70d784ec56e7", null ],
+      [ "flags", "d5/d8d/ntfs_8c.html#a89e6b75449409a4cafb74482614189f9", null ],
+      [ "link_count", "d5/d8d/ntfs_8c.html#a3112d517d55de8681ae6c5cce632b3f6", null ],
+      [ "lsn", "d5/d8d/ntfs_8c.html#ae4c86473bb78c3f976868d2281ae376e", null ],
+      [ "magic", "d5/d8d/ntfs_8c.html#ad1dc70ae53296b7e3e10fad7bf77f124", null ],
+      [ "sequence_number", "d5/d8d/ntfs_8c.html#a3eb51ae6a3278d33d19c01673d8155f9", null ],
+      [ "usa_count", "d5/d8d/ntfs_8c.html#ac2b22ab0d1fa00b012dba6fdcc348edc", null ],
+      [ "usa_ofs", "d5/d8d/ntfs_8c.html#ab60a1fd741b0cc0e2efc0d174a86a644", null ]
+    ] ],
+    [ "file_attribute", "d5/d8d/ntfs_8c.html#de/db0/structfile__attribute", [
+      [ "flags", "d5/d8d/ntfs_8c.html#a687cddf217402bc6beca457a5ce10bf9", null ],
+      [ "instance", "d5/d8d/ntfs_8c.html#a67d6ea474fc31d6fe8d3a6e309f1b80a", null ],
+      [ "len", "d5/d8d/ntfs_8c.html#a9a0fe5882d3ea4cc1e1960beb3c268ad", null ],
+      [ "name_len", "d5/d8d/ntfs_8c.html#a784727612a989ceae56d8f8c3c924db4", null ],
+      [ "name_offset", "d5/d8d/ntfs_8c.html#a6be42e3ed75f22559d2e5f5463b8c154", null ],
+      [ "non_resident", "d5/d8d/ntfs_8c.html#a3fd4ee5fdf0cecda079e1eb6955231c6", null ],
+      [ "type", "d5/d8d/ntfs_8c.html#a99ce76dc2e0e4f49d161eacc521fcd42", null ],
+      [ "value_len", "d5/d8d/ntfs_8c.html#a2a731c82e4f5340db92200113e8f6637", null ],
+      [ "value_offset", "d5/d8d/ntfs_8c.html#a70e7426de8429291a6a32e928dab87b1", null ]
+    ] ],
+    [ "volume_info", "d5/d8d/ntfs_8c.html#d7/d91/structvolume__info", [
+      [ "major_ver", "d5/d8d/ntfs_8c.html#a8a089ae277e95db3eb48e1f2d749683d", null ],
+      [ "minor_ver", "d5/d8d/ntfs_8c.html#aba7418afcb9045554c46ee16f5cf7b38", null ],
+      [ "reserved", "d5/d8d/ntfs_8c.html#ad00d050802b8b6cfb6101f3c48782d95", null ]
+    ] ],
+    [ "MFT_RECORD_ATTR_END", "d5/d8d/ntfs_8c.html#aaa3d377132b47a7eedcea8b2e8548349", null ],
+    [ "MFT_RECORD_ATTR_OBJECT_ID", "d5/d8d/ntfs_8c.html#a497340334858015a8e7e1216cb5910d1", null ],
+    [ "MFT_RECORD_ATTR_VOLUME_INFO", "d5/d8d/ntfs_8c.html#a5dc795f9a9cee21c661e9ba5dcc5a865", null ],
+    [ "MFT_RECORD_ATTR_VOLUME_NAME", "d5/d8d/ntfs_8c.html#a8c98fcf74e8746dd65cc9e59e40d5ffb", null ],
+    [ "MFT_RECORD_VOLUME", "d5/d8d/ntfs_8c.html#aac512b4da65b4a69327c2a6202466fcd", null ],
+    [ "off", "d5/d8d/ntfs_8c.html#aa8df4166084b06f1e80d3510e5dcf7e1", null ],
+    [ "volume_id_probe_ntfs", "d5/d8d/ntfs_8c.html#acefc1227c02575cffd4dff989e3a3ce8", null ],
+    [ "PACKED", "d5/d8d/ntfs_8c.html#a17cd130140671a3802df2f1a2d91a804", null ]
+];

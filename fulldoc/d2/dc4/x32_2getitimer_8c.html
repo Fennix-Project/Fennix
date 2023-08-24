@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d2/dc4/x32_2getitimer_8c.html','../../
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9797054a4e0758bf6f487abb74c014f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/x32_2getitimer_8c.html#a9797054a4e0758bf6f487abb74c014f1">getitimer</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> which, struct <a class="el" href="../../d7/d3e/Userspace_2musl_2include_2sys_2time_8h.html#da/d2e/structitimerval">itimerval</a> *old)</td></tr>
+<tr class="memitem:a9797054a4e0758bf6f487abb74c014f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/x32_2getitimer_8c.html#a9797054a4e0758bf6f487abb74c014f1">getitimer</a> (int which, struct <a class="el" href="../../d7/d3e/Userspace_2musl_2include_2sys_2time_8h.html#da/d2e/structitimerval">itimerval</a> *<a class="el" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a>)</td></tr>
 <tr class="separator:a9797054a4e0758bf6f487abb74c014f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,9 +109,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> getitimer </td>
+          <td class="memname">int getitimer </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>which</em>, </td>
         </tr>
         <tr>
@@ -130,11 +130,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/dc4/x32_2getitimer_8c_source.html#l00004">4</a> of file <a class="el" href="../../d2/dc4/x32_2getitimer_8c_source.html">getitimer.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_getitimer, which, old);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_getitimer, which, <a class="code" href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="ttc" id="anmeter_8c_html_a3a539e6d7382aa2150a8ce8f33b91deb"><div class="ttname"><a href="../../d4/dcd/nmeter_8c.html#a3a539e6d7382aa2150a8ce8f33b91deb">old</a></div><div class="ttdeci">ullong old[CPU_FIELDCNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcd/nmeter_8c_source.html#l00351">nmeter.c:351</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, <a class="el" href="../../d4/dcd/nmeter_8c_source.html#l00351">old</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d2/d6c/getitimer__time32_8c_source.html#l00005">__getitimer_time32()</a>.</p>
 
 </div>
 </div>

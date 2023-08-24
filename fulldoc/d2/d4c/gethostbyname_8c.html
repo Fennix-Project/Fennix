@@ -92,10 +92,10 @@ $(document).ready(function(){initNavTree('d2/d4c/gethostbyname_8c.html','../../'
 <div class="title">gethostbyname.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;sys/socket.h&gt;</code><br />
-<code>#include &lt;netdb.h&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d4/d92/include_2sys_2socket_8h_source.html">sys/socket.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d4/d63/netdb_8h_source.html">netdb.h</a>&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
-<code>#include &lt;netinet/in.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="../../d1/d10/in_8h_source.html">netinet/in.h</a>&gt;</code><br />
 </div>
 <p><a href="../../d2/d4c/gethostbyname_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -106,7 +106,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a636674bf9937205b85a797ee6077faa9"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../df/dbc/musl_2include_2netdb_8h.html#d1/d80/structhostent">hostent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/gethostbyname_8c.html#a636674bf9937205b85a797ee6077faa9">gethostbyname</a> (const char *<a class="el" href="../../db/d12/soname_2libfoo_8c.html#af4745d2eeefc7084a5cd8661156db1db">name</a>)</td></tr>
+<tr class="memitem:a636674bf9937205b85a797ee6077faa9"><td class="memItemLeft" align="right" valign="top">struct <a class="el" href="../../d4/d63/netdb_8h.html#d1/d80/structhostent">hostent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4c/gethostbyname_8c.html#a636674bf9937205b85a797ee6077faa9">gethostbyname</a> (const char *name)</td></tr>
 <tr class="separator:a636674bf9937205b85a797ee6077faa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -134,7 +134,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">struct <a class="el" href="../../df/dbc/musl_2include_2netdb_8h.html#d1/d80/structhostent">hostent</a>* gethostbyname </td>
+          <td class="memname">struct <a class="el" href="../../d4/d63/netdb_8h.html#d1/d80/structhostent">hostent</a>* gethostbyname </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>name</em></td><td>)</td>
@@ -145,13 +145,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d2/d4c/gethostbyname_8c_source.html#l00008">8</a> of file <a class="el" href="../../d2/d4c/gethostbyname_8c_source.html">gethostbyname.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/d52/gethostbyname2_8c.html#ab6842b392151e8bf8d53fe4343baf91e">gethostbyname2</a>(<a class="code" href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a>, <a class="code" href="../../d5/d08/mlibc_2abis_2linux_2socket_8h.html#a9930604d0e32588eae76f43ca38e7826">AF_INET</a>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d9/d52/gethostbyname2_8c.html#ab6842b392151e8bf8d53fe4343baf91e">gethostbyname2</a>(name, <a class="code" href="../../d4/d92/include_2sys_2socket_8h.html#a9930604d0e32588eae76f43ca38e7826">AF_INET</a>);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="aaero_2generic_2filesystem_8cpp_html_a635b950b2ddb0f18644a528dbdd60dfe"><div class="ttname"><a href="../../da/d1c/aero_2generic_2filesystem_8cpp.html#a635b950b2ddb0f18644a528dbdd60dfe">name</a></div><div class="ttdeci">char name[]</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">filesystem.cpp:4</a></div></div>
 <div class="ttc" id="agethostbyname2_8c_html_ab6842b392151e8bf8d53fe4343baf91e"><div class="ttname"><a href="../../d9/d52/gethostbyname2_8c.html#ab6842b392151e8bf8d53fe4343baf91e">gethostbyname2</a></div><div class="ttdeci">struct hostent * gethostbyname2(const char *name, int af)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d52/gethostbyname2_8c_source.html#l00008">gethostbyname2.c:8</a></div></div>
-<div class="ttc" id="amlibc_2abis_2linux_2socket_8h_html_a9930604d0e32588eae76f43ca38e7826"><div class="ttname"><a href="../../d5/d08/mlibc_2abis_2linux_2socket_8h.html#a9930604d0e32588eae76f43ca38e7826">AF_INET</a></div><div class="ttdeci">#define AF_INET</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d08/mlibc_2abis_2linux_2socket_8h_source.html#l00121">socket.h:121</a></div></div>
+<div class="ttc" id="ainclude_2sys_2socket_8h_html_a9930604d0e32588eae76f43ca38e7826"><div class="ttname"><a href="../../d4/d92/include_2sys_2socket_8h.html#a9930604d0e32588eae76f43ca38e7826">AF_INET</a></div><div class="ttdeci">#define AF_INET</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/include_2sys_2socket_8h_source.html#l00153">socket.h:153</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/d08/mlibc_2abis_2linux_2socket_8h_source.html#l00121">AF_INET</a>, <a class="el" href="../../d9/d52/gethostbyname2_8c_source.html#l00008">gethostbyname2()</a>, and <a class="el" href="../../da/d1c/aero_2generic_2filesystem_8cpp_source.html#l00004">name</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/d92/include_2sys_2socket_8h_source.html#l00153">AF_INET</a>, and <a class="el" href="../../d9/d52/gethostbyname2_8c_source.html#l00008">gethostbyname2()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d6e/inet__common_8c_source.html#l00019">INET_resolve()</a>, and <a class="el" href="../../d8/d99/xgethostbyname_8c_source.html#l00011">xgethostbyname()</a>.</p>
 
 </div>
 </div>

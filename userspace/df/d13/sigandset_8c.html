@@ -105,7 +105,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2a0910ff9d18931a05b995143dc4576e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d13/sigandset_8c.html#a2a0910ff9d18931a05b995143dc4576e">sigandset</a> (<a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *dest, const <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *left, const <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *right)</td></tr>
+<tr class="memitem:a2a0910ff9d18931a05b995143dc4576e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d13/sigandset_8c.html#a2a0910ff9d18931a05b995143dc4576e">sigandset</a> (<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *dest, const <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *left, const <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *right)</td></tr>
 <tr class="separator:a2a0910ff9d18931a05b995143dc4576e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -149,21 +149,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sigandset </td>
+          <td class="memname">int sigandset </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *&#160;</td>
           <td class="paramname"><em>left</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *&#160;</td>
+          <td class="paramtype">const <a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *&#160;</td>
           <td class="paramname"><em>right</em>&#160;</td>
         </tr>
         <tr>
@@ -176,15 +176,15 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../df/d13/sigandset_8c_source.html#l00006">6</a> of file <a class="el" href="../../df/d13/sigandset_8c_source.html">sigandset.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0, *d = (<span class="keywordtype">void</span>*) dest, *l = (<span class="keywordtype">void</span>*) left, *<a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a> = (<span class="keywordtype">void</span>*) right;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">for</span>(; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../df/d13/sigandset_8c.html#a4bf08c2c4265d69c89c7df58b584cd9a">SST_SIZE</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++) d[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = l[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] &amp; <a class="code" href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0, *d = (<span class="keywordtype">void</span>*) dest, *<a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a> = (<span class="keywordtype">void</span>*) left, *r = (<span class="keywordtype">void</span>*) right;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">for</span>(; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../df/d13/sigandset_8c.html#a4bf08c2c4265d69c89c7df58b584cd9a">SST_SIZE</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++) d[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = <a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] &amp; r[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 <div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
 <div class="ttc" id="asigandset_8c_html_a4bf08c2c4265d69c89c7df58b584cd9a"><div class="ttname"><a href="../../df/d13/sigandset_8c.html#a4bf08c2c4265d69c89c7df58b584cd9a">SST_SIZE</a></div><div class="ttdeci">#define SST_SIZE</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d13/sigandset_8c_source.html#l00004">sigandset.c:4</a></div></div>
-<div class="ttc" id="astring-stubs_8cpp_html_a3dfc072f741d2fe38685a620d3151f25"><div class="ttname"><a href="../../d4/d6d/string-stubs_8cpp.html#a3dfc072f741d2fe38685a620d3151f25">r</a></div><div class="ttdeci">wchar_t const wchar_t * r</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">string-stubs.cpp:276</a></div></div>
+<div class="ttc" id="atls__aesgcm_8c_html_a1cb503ddd20ff3cf9588d2b5abd202d8"><div class="ttname"><a href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a></div><div class="ttdeci">#define l</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d4/d6d/string-stubs_8cpp_source.html#l00276">r</a>, and <a class="el" href="../../df/d13/sigandset_8c_source.html#l00004">SST_SIZE</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, and <a class="el" href="../../df/d13/sigandset_8c_source.html#l00004">SST_SIZE</a>.</p>
 
 </div>
 </div>

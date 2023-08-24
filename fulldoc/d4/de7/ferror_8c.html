@@ -97,9 +97,9 @@ $(document).ready(function(){initNavTree('d4/de7/ferror_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7d3d2b0c891c340cfaf0921aacfe392c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de7/ferror_8c.html#a7d3d2b0c891c340cfaf0921aacfe392c">ferror</a> (<a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *<a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>)</td></tr>
+<tr class="memitem:a7d3d2b0c891c340cfaf0921aacfe392c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de7/ferror_8c.html#a7d3d2b0c891c340cfaf0921aacfe392c">ferror</a> (<a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *<a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>)</td></tr>
 <tr class="separator:a7d3d2b0c891c340cfaf0921aacfe392c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a2318e6e3955c0e959385d64aea9c7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de7/ferror_8c.html#a8a2318e6e3955c0e959385d64aea9c7e">weak_alias</a> (<a class="el" href="../../d4/de7/ferror_8c.html#a7d3d2b0c891c340cfaf0921aacfe392c">ferror</a>, <a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#a19fe0e253d9944b7d476cb00400f55ac">ferror_unlocked</a>)</td></tr>
+<tr class="memitem:a8a2318e6e3955c0e959385d64aea9c7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de7/ferror_8c.html#a8a2318e6e3955c0e959385d64aea9c7e">weak_alias</a> (<a class="el" href="../../d4/de7/ferror_8c.html#a7d3d2b0c891c340cfaf0921aacfe392c">ferror</a>, ferror_unlocked)</td></tr>
 <tr class="separator:a8a2318e6e3955c0e959385d64aea9c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3aeeef53bf5f55c9e94d4a420528f1b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/de7/ferror_8c.html#ab3aeeef53bf5f55c9e94d4a420528f1b">weak_alias</a> (<a class="el" href="../../d4/de7/ferror_8c.html#a7d3d2b0c891c340cfaf0921aacfe392c">ferror</a>, _IO_ferror_unlocked)</td></tr>
 <tr class="separator:ab3aeeef53bf5f55c9e94d4a420528f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,7 +112,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> ferror </td>
+          <td class="memname">int ferror </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
@@ -124,17 +124,16 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d4/de7/ferror_8c_source.html#l00005">5</a> of file <a class="el" href="../../d4/de7/ferror_8c_source.html">ferror.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d8/d0b/stdio__impl_8h.html#a4701ec6c75e94b47a82721930d854c78">FLOCK</a>(<a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a> = !!(<a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>-&gt;flags &amp; <a class="code" href="../../d8/d0b/stdio__impl_8h.html#abaac2a5eeec84c65ed6dab449692ef8d">F_ERR</a>);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">int</span> ret = !!(<a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>-&gt;flags &amp; <a class="code" href="../../d8/d0b/stdio__impl_8h.html#abaac2a5eeec84c65ed6dab449692ef8d">F_ERR</a>);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d8/d0b/stdio__impl_8h.html#a93b67a0402a14f30fbd5dbacc41593f8">FUNLOCK</a>(<a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 <div class="ttc" id="agetusershell_8c_html_a3efb0e1a16208deecbd84c15401f7cf8"><div class="ttname"><a href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a></div><div class="ttdeci">static FILE * f</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/getusershell_8c_source.html#l00009">getusershell.c:9</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_html_a339672ff94e6199019102f50d317c3d7"><div class="ttname"><a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#a339672ff94e6199019102f50d317c3d7">ret</a></div><div class="ttdeci">return ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">syscall.h:131</a></div></div>
 <div class="ttc" id="astdio__impl_8h_html_a4701ec6c75e94b47a82721930d854c78"><div class="ttname"><a href="../../d8/d0b/stdio__impl_8h.html#a4701ec6c75e94b47a82721930d854c78">FLOCK</a></div><div class="ttdeci">#define FLOCK(f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0b/stdio__impl_8h_source.html#l00010">stdio_impl.h:10</a></div></div>
 <div class="ttc" id="astdio__impl_8h_html_a93b67a0402a14f30fbd5dbacc41593f8"><div class="ttname"><a href="../../d8/d0b/stdio__impl_8h.html#a93b67a0402a14f30fbd5dbacc41593f8">FUNLOCK</a></div><div class="ttdeci">#define FUNLOCK(f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0b/stdio__impl_8h_source.html#l00011">stdio_impl.h:11</a></div></div>
 <div class="ttc" id="astdio__impl_8h_html_abaac2a5eeec84c65ed6dab449692ef8d"><div class="ttname"><a href="../../d8/d0b/stdio__impl_8h.html#abaac2a5eeec84c65ed6dab449692ef8d">F_ERR</a></div><div class="ttdeci">#define F_ERR</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0b/stdio__impl_8h_source.html#l00017">stdio_impl.h:17</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../d8/d0b/stdio__impl_8h_source.html#l00017">F_ERR</a>, <a class="el" href="../../d8/d0b/stdio__impl_8h_source.html#l00010">FLOCK</a>, <a class="el" href="../../d8/d0b/stdio__impl_8h_source.html#l00011">FUNLOCK</a>, and <a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h_source.html#l00131">ret</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../d8/d0b/stdio__impl_8h_source.html#l00017">F_ERR</a>, <a class="el" href="../../d8/d0b/stdio__impl_8h_source.html#l00010">FLOCK</a>, and <a class="el" href="../../d8/d0b/stdio__impl_8h_source.html#l00011">FUNLOCK</a>.</p>
 
 </div>
 </div>
@@ -181,7 +180,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#a19fe0e253d9944b7d476cb00400f55ac">ferror_unlocked</a>&#160;</td>
+          <td class="paramtype">ferror_unlocked&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

@@ -30,5 +30,5 @@ var Multiboot64bitMap_8cpp =
     [ "Present", "d7/dfa/Multiboot64bitMap_8cpp.html#a778f4bee950ae142c87d00db61dc4eec", null ],
     [ "PTE", "d7/dfa/Multiboot64bitMap_8cpp.html#a86ea5488b18e18de561ed1ba29a2f9c1", null ],
     [ "PTEPtr", "d7/dfa/Multiboot64bitMap_8cpp.html#af84b20d77e2743ef6c041a567de9bc12", null ],
-    [ "raw", "d7/dfa/Multiboot64bitMap_8cpp.html#a4defb80d97731e426d12573c84767d0d", null ]
+    [ "raw", "d7/dfa/Multiboot64bitMap_8cpp.html#a8b94bc635bb19accceee537ad7f058de", null ]
 ];

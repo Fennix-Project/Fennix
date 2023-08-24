@@ -104,7 +104,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa937057085dd6f9a35c5f22fd11c8016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d34/posix__madvise_8c.html#aa937057085dd6f9a35c5f22fd11c8016">posix_madvise</a> (void *<a class="el" href="../../d2/de9/nscd__query_8c.html#a607853d25a7ee503ad6394afd8e1d688">addr</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a> len, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> advice)</td></tr>
+<tr class="memitem:aa937057085dd6f9a35c5f22fd11c8016"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d34/posix__madvise_8c.html#aa937057085dd6f9a35c5f22fd11c8016">posix_madvise</a> (void *<a class="el" href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a>, <a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> len, int advice)</td></tr>
 <tr class="separator:aa937057085dd6f9a35c5f22fd11c8016"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -132,7 +132,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> posix_madvise </td>
+          <td class="memname">int posix_madvise </td>
           <td>(</td>
           <td class="paramtype">void *&#160;</td>
           <td class="paramname"><em>addr</em>, </td>
@@ -140,13 +140,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#a1ea04414b0c81c2aef4d8da70f264aad">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df0/libc_2include_2inttypes_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a>&#160;</td>
           <td class="paramname"><em>len</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>advice</em>&#160;</td>
         </tr>
         <tr>
@@ -159,14 +159,13 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d34/posix__madvise_8c_source.html#l00005">5</a> of file <a class="el" href="../../d4/d34/posix__madvise_8c_source.html">posix_madvise.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (advice == <a class="code" href="../../df/df6/abis_2linux_2vm-flags_8h.html#adef2b7285968a843b78ba48fcd4d8c03">MADV_DONTNEED</a>) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> -<a class="code" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_madvise, <a class="code" href="../../d2/de9/nscd__query_8c.html#a607853d25a7ee503ad6394afd8e1d688">addr</a>, len, advice);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (advice == MADV_DONTNEED) <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> -<a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a>(SYS_madvise, <a class="code" href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a>, len, advice);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="aabis_2linux_2vm-flags_8h_html_adef2b7285968a843b78ba48fcd4d8c03"><div class="ttname"><a href="../../df/df6/abis_2linux_2vm-flags_8h.html#adef2b7285968a843b78ba48fcd4d8c03">MADV_DONTNEED</a></div><div class="ttdeci">#define MADV_DONTNEED</div><div class="ttdef"><b>Definition:</b> <a href="../../df/df6/abis_2linux_2vm-flags_8h_source.html#l00035">vm-flags.h:35</a></div></div>
-<div class="ttc" id="amlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">syscall.h:25</a></div></div>
-<div class="ttc" id="anscd__query_8c_html_a607853d25a7ee503ad6394afd8e1d688"><div class="ttname"><a href="../../d2/de9/nscd__query_8c.html#a607853d25a7ee503ad6394afd8e1d688">addr</a></div><div class="ttdeci">static const struct @260 addr</div></div>
+<div class="ttc" id="anscd__query_8c_html_ad9bf982eb7cffdeee05dfdd18ffc3819"><div class="ttname"><a href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a></div><div class="ttdeci">static const struct @427 addr</div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">syscall.h:44</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d5/dbb/mlibc_2sysdeps_2linux_2include_2bits_2syscall_8h_source.html#l00025">__syscall</a>, <a class="el" href="../../d2/de9/nscd__query_8c.html#a607853d25a7ee503ad6394afd8e1d688">addr</a>, and <a class="el" href="../../df/df6/abis_2linux_2vm-flags_8h_source.html#l00035">MADV_DONTNEED</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">__syscall</a>, and <a class="el" href="../../d2/de9/nscd__query_8c.html#ad9bf982eb7cffdeee05dfdd18ffc3819">addr</a>.</p>
 
 </div>
 </div>

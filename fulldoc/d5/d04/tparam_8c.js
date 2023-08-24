@@ -1,6 +1,5 @@
 var tparam_8c =
 [
-    [ "NULL", "d5/d04/tparam_8c.html#a070d2ce7b6bb7e5c05602aa8c308d0c4", null ],
     [ "malloc", "d5/d04/tparam_8c.html#ab7e36af3707843f77cc5b4e831c2fa6d", null ],
     [ "memory_out", "d5/d04/tparam_8c.html#a1f63b6c204aeac211cda35162bc2268a", null ],
     [ "realloc", "d5/d04/tparam_8c.html#a3d4d6185d412b00bc3def2b58b2898cc", null ],

@@ -101,19 +101,19 @@ $(document).ready(function(){initNavTree('d1/dea/apps_2base_2bash_2examples_2loa
 <code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="../../d7/d41/builtins_8h_source.html">builtins.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../df/d03/shell_8h_source.html">shell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../dc/d54/common_8h_source.html">common.h</a>&quot;</code><br />
+<code>#include &quot;common.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/d0e/bashgetopt_8h_source.html">bashgetopt.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:af35bd0de8c2181231698de03bbdd58ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c.html#af35bd0de8c2181231698de03bbdd58ca">setpgid</a>(pid,  pgrp)&#160;&#160;&#160;<a class="el" href="../../d0/d0e/setpgrp_8c.html#ada2b1e6782cd8fc506fde243f7d313ec">setpgrp</a> (pid, pgrp)</td></tr>
+<tr class="memitem:af35bd0de8c2181231698de03bbdd58ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c.html#af35bd0de8c2181231698de03bbdd58ca">setpgid</a>(<a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>,  pgrp)&#160;&#160;&#160;<a class="el" href="../../d0/d0e/setpgrp_8c.html#ada2b1e6782cd8fc506fde243f7d313ec">setpgrp</a> (<a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, pgrp)</td></tr>
 <tr class="separator:af35bd0de8c2181231698de03bbdd58ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0b31999f18973f55a7cdd2f12acc89bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c.html#a0b31999f18973f55a7cdd2f12acc89bf">setpgid_builtin</a> (<a class="el" href="../../d0/d09/command_8h.html#ab063e3018b56525d499b4215d6c745f0">WORD_LIST</a> *list)</td></tr>
+<tr class="memitem:a0b31999f18973f55a7cdd2f12acc89bf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c.html#a0b31999f18973f55a7cdd2f12acc89bf">setpgid_builtin</a> (<a class="el" href="../../d0/d09/command_8h.html#ab063e3018b56525d499b4215d6c745f0">WORD_LIST</a> *<a class="el" href="../../d1/dbe/ash_8c.html#a5622588ebb578fec742903968331ed4b">list</a>)</td></tr>
 <tr class="separator:a0b31999f18973f55a7cdd2f12acc89bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -134,7 +134,7 @@ Variables</h2></td></tr>
           <td class="memname">#define setpgid</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">pid, </td>
+          <td class="paramname"><a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -145,7 +145,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d0e/setpgrp_8c.html#ada2b1e6782cd8fc506fde243f7d313ec">setpgrp</a> (pid, pgrp)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d0e/setpgrp_8c.html#ada2b1e6782cd8fc506fde243f7d313ec">setpgrp</a> (<a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, pgrp)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -162,7 +162,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> setpgid_builtin </td>
+          <td class="memname">int setpgid_builtin </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d0/d09/command_8h.html#ab063e3018b56525d499b4215d6c745f0">WORD_LIST</a> *&#160;</td>
           <td class="paramname"><em>list</em></td><td>)</td>
@@ -175,15 +175,15 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;{</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keyword">register</span> <a class="code" href="../../d0/d09/command_8h.html#df/d75/structword__list">WORD_LIST</a> *wl;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <a class="code" href="../../d4/df0/libc_2include_2inttypes_8h.html#ae26fa513a7dfed63221f72d93de2a021">intmax_t</a> pid_arg, pgid_arg;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <a class="code" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> pid, pgid;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <a class="code" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> <a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, pgid;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keywordtype">char</span> *pidstr, *pgidstr;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  wl = list;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  pid = pgid = 0;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  wl = <a class="code" href="../../d1/dbe/ash_8c.html#a5622588ebb578fec742903968331ed4b">list</a>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  <a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a> = pgid = 0;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keywordflow">if</span> (wl == 0 || wl-&gt;<a class="code" href="../../d0/d09/command_8h.html#a73b79d504929eeb584d08f068a046efc">next</a> == 0)</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    {</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <a class="code" href="../../d8/d19/common_8c.html#a511faeac050ed40f69935dcf7a2b68aa">builtin_usage</a> ();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      <a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a511faeac050ed40f69935dcf7a2b68aa">builtin_usage</a> ();</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      <span class="keywordflow">return</span> (<a class="code" href="../../df/d03/shell_8h.html#abbdf9290893d2876419c13b7b28f5d4e">EX_USAGE</a>);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
@@ -192,59 +192,61 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <span class="keywordflow">if</span> (pidstr == 0 || pgidstr == 0)</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    {</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      <a class="code" href="../../d8/d19/common_8c.html#a511faeac050ed40f69935dcf7a2b68aa">builtin_usage</a> ();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      <a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a511faeac050ed40f69935dcf7a2b68aa">builtin_usage</a> ();</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <span class="keywordflow">return</span> (<a class="code" href="../../df/d03/shell_8h.html#abbdf9290893d2876419c13b7b28f5d4e">EX_USAGE</a>);</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      </div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d1/dca/general_8c.html#acf578cd76e0dc1087cdc627781f06c9e">legal_number</a> (pidstr, &amp;pid_arg) == 0)</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <a class="code" href="../../d8/d19/common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a> (<span class="stringliteral">&quot;%s: pid argument must be numeric&quot;</span>, pidstr);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;      <a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a> (<span class="stringliteral">&quot;%s: pid argument must be numeric&quot;</span>, pidstr);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      <span class="keywordflow">return</span> (<a class="code" href="../../df/d03/shell_8h.html#a894d864d355b691f3b4c8c8df3cad826">EXECUTION_FAILURE</a>);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;  <span class="keywordflow">if</span> (pid_arg &lt; 0)</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <a class="code" href="../../d8/d19/common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a>(<span class="stringliteral">&quot;%s: negative pid  values not allowed&quot;</span>, pidstr);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      <a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a>(<span class="stringliteral">&quot;%s: negative pid  values not allowed&quot;</span>, pidstr);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keywordflow">return</span> (<a class="code" href="../../df/d03/shell_8h.html#a894d864d355b691f3b4c8c8df3cad826">EXECUTION_FAILURE</a>);</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  pid = pid_arg;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  <a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a> = pid_arg;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d1/dca/general_8c.html#acf578cd76e0dc1087cdc627781f06c9e">legal_number</a> (pgidstr, &amp;pgid_arg) == 0)</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      <a class="code" href="../../d8/d19/common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a> (<span class="stringliteral">&quot;%s: pgrp argument must be numeric&quot;</span>, pgidstr);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      <a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a> (<span class="stringliteral">&quot;%s: pgrp argument must be numeric&quot;</span>, pgidstr);</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      <span class="keywordflow">return</span> (<a class="code" href="../../df/d03/shell_8h.html#a894d864d355b691f3b4c8c8df3cad826">EXECUTION_FAILURE</a>);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <span class="keywordflow">if</span> (pgid_arg &lt; 0)</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      <a class="code" href="../../d8/d19/common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a> (<span class="stringliteral">&quot;%s: negative pgrp values not allowed&quot;</span>, pgidstr);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      <a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a> (<span class="stringliteral">&quot;%s: negative pgrp values not allowed&quot;</span>, pgidstr);</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      <span class="keywordflow">return</span> (<a class="code" href="../../df/d03/shell_8h.html#a894d864d355b691f3b4c8c8df3cad826">EXECUTION_FAILURE</a>);</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  pgid = pgid_arg;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = 0;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c.html#af35bd0de8c2181231698de03bbdd58ca">setpgid</a>(pid, pgid) &lt; 0)</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c.html#af35bd0de8c2181231698de03bbdd58ca">setpgid</a>(<a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, pgid) &lt; 0)</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    {</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      <a class="code" href="../../d8/d19/common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a>(<span class="stringliteral">&quot;setpgid failed: %s&quot;</span>, <a class="code" href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror</a> (<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a>));</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      <a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a>(<span class="stringliteral">&quot;setpgid failed: %s&quot;</span>, <a class="code" href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror</a> (<a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a>));</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      <span class="keywordflow">return</span> (<a class="code" href="../../df/d03/shell_8h.html#a894d864d355b691f3b4c8c8df3cad826">EXECUTION_FAILURE</a>);     </div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  <span class="keywordflow">return</span> (<a class="code" href="../../df/d03/shell_8h.html#a24d155899d8cc037505383c1016dbd65">EXECUTION_SUCCESS</a>);     </div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
 <div class="ttc" id="aapps_2base_2bash_2examples_2loadables_2setpgid_8c_html_af35bd0de8c2181231698de03bbdd58ca"><div class="ttname"><a href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c.html#af35bd0de8c2181231698de03bbdd58ca">setpgid</a></div><div class="ttdeci">#define setpgid(pid, pgrp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c_source.html#l00041">setpgid.c:41</a></div></div>
+<div class="ttc" id="aash_8c_html_a5622588ebb578fec742903968331ed4b"><div class="ttname"><a href="../../d1/dbe/ash_8c.html#a5622588ebb578fec742903968331ed4b">list</a></div><div class="ttdeci">static union node * list(int nlflag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dbe/ash_8c_source.html#l11814">ash.c:11814</a></div></div>
+<div class="ttc" id="abash_2builtins_2common_8c_html_a0dfb9df0601372d187a32aa393bd086c"><div class="ttname"><a href="../../de/da3/bash_2builtins_2common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a></div><div class="ttdeci">void builtin_error(char *format, va_alist) const</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da3/bash_2builtins_2common_8c_source.html#l00106">common.c:106</a></div></div>
+<div class="ttc" id="abash_2builtins_2common_8c_html_a511faeac050ed40f69935dcf7a2b68aa"><div class="ttname"><a href="../../de/da3/bash_2builtins_2common_8c.html#a511faeac050ed40f69935dcf7a2b68aa">builtin_usage</a></div><div class="ttdeci">void builtin_usage()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da3/bash_2builtins_2common_8c_source.html#l00145">common.c:145</a></div></div>
 <div class="ttc" id="acommand_8h_html_a73b79d504929eeb584d08f068a046efc"><div class="ttname"><a href="../../d0/d09/command_8h.html#a73b79d504929eeb584d08f068a046efc">word_list::next</a></div><div class="ttdeci">struct word_list * next</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d09/command_8h_source.html#l00138">command.h:138</a></div></div>
 <div class="ttc" id="acommand_8h_html_a7fe36c900b18a60a1aeffadf9ae1c01f"><div class="ttname"><a href="../../d0/d09/command_8h.html#a7fe36c900b18a60a1aeffadf9ae1c01f">word_desc::word</a></div><div class="ttdeci">char * word</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d09/command_8h_source.html#l00132">command.h:132</a></div></div>
 <div class="ttc" id="acommand_8h_html_ae717a8244fbbcb28ae1debd9da89a0ef"><div class="ttname"><a href="../../d0/d09/command_8h.html#ae717a8244fbbcb28ae1debd9da89a0ef">word_list::word</a></div><div class="ttdeci">WORD_DESC * word</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d09/command_8h_source.html#l00139">command.h:139</a></div></div>
 <div class="ttc" id="acommand_8h_html_df/d75/structword__list"><div class="ttname"><a href="../../d0/d09/command_8h.html#df/d75/structword__list">word_list</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d09/command_8h_source.html#l00137">command.h:137</a></div></div>
-<div class="ttc" id="acommon_8c_html_a0dfb9df0601372d187a32aa393bd086c"><div class="ttname"><a href="../../d8/d19/common_8c.html#a0dfb9df0601372d187a32aa393bd086c">builtin_error</a></div><div class="ttdeci">void builtin_error(char *format, va_alist) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d19/common_8c_source.html#l00106">common.c:106</a></div></div>
-<div class="ttc" id="acommon_8c_html_a511faeac050ed40f69935dcf7a2b68aa"><div class="ttname"><a href="../../d8/d19/common_8c.html#a511faeac050ed40f69935dcf7a2b68aa">builtin_usage</a></div><div class="ttdeci">void builtin_usage()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d19/common_8c_source.html#l00145">common.c:145</a></div></div>
 <div class="ttc" id="aerrlist_8c_html_a558c31d07190c0a536ec2a340b1eae07"><div class="ttname"><a href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror</a></div><div class="ttdeci">char * strerror()</div></div>
 <div class="ttc" id="ageneral_8c_html_acf578cd76e0dc1087cdc627781f06c9e"><div class="ttname"><a href="../../d1/dca/general_8c.html#acf578cd76e0dc1087cdc627781f06c9e">legal_number</a></div><div class="ttdeci">int legal_number(char *string, intmax_t *result) const</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dca/general_8c_source.html#l00249">general.c:249</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
 <div class="ttc" id="alibc_2include_2inttypes_8h_html_ae26fa513a7dfed63221f72d93de2a021"><div class="ttname"><a href="../../d4/df0/libc_2include_2inttypes_8h.html#ae26fa513a7dfed63221f72d93de2a021">intmax_t</a></div><div class="ttdeci">__INTMAX_TYPE__ intmax_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df0/libc_2include_2inttypes_8h_source.html#l00034">inttypes.h:34</a></div></div>
 <div class="ttc" id="alibc_2include_2sys_2types_8h_html_a63bef27b1fbd4a91faa273a387a38dc2"><div class="ttname"><a href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a></div><div class="ttdeci">__pid_t pid_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5b/libc_2include_2sys_2types_8h_source.html#l00018">types.h:18</a></div></div>
+<div class="ttc" id="amconf_8c_html_ae0d46a978d5cd6707411f276ad869b9c"><div class="ttname"><a href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a></div><div class="ttdeci">pid_t pid</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d43/mconf_8c_source.html#l00450">mconf.c:450</a></div></div>
 <div class="ttc" id="ashell_8h_html_a24d155899d8cc037505383c1016dbd65"><div class="ttname"><a href="../../df/d03/shell_8h.html#a24d155899d8cc037505383c1016dbd65">EXECUTION_SUCCESS</a></div><div class="ttdeci">#define EXECUTION_SUCCESS</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d03/shell_8h_source.html#l00053">shell.h:53</a></div></div>
 <div class="ttc" id="ashell_8h_html_a894d864d355b691f3b4c8c8df3cad826"><div class="ttname"><a href="../../df/d03/shell_8h.html#a894d864d355b691f3b4c8c8df3cad826">EXECUTION_FAILURE</a></div><div class="ttdeci">#define EXECUTION_FAILURE</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d03/shell_8h_source.html#l00052">shell.h:52</a></div></div>
 <div class="ttc" id="ashell_8h_html_abbdf9290893d2876419c13b7b28f5d4e"><div class="ttname"><a href="../../df/d03/shell_8h.html#abbdf9290893d2876419c13b7b28f5d4e">EX_USAGE</a></div><div class="ttdeci">#define EX_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d03/shell_8h_source.html#l00071">shell.h:71</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d8/d19/common_8c_source.html#l00106">builtin_error()</a>, <a class="el" href="../../d8/d19/common_8c_source.html#l00145">builtin_usage()</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00071">EX_USAGE</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00052">EXECUTION_FAILURE</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00053">EXECUTION_SUCCESS</a>, <a class="el" href="../../d1/dca/general_8c_source.html#l00249">legal_number()</a>, <a class="el" href="../../d0/d09/command_8h_source.html#l00138">word_list::next</a>, <a class="el" href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c_source.html#l00041">setpgid</a>, <a class="el" href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror()</a>, <a class="el" href="../../d0/d09/command_8h_source.html#l00132">word_desc::word</a>, and <a class="el" href="../../d0/d09/command_8h_source.html#l00139">word_list::word</a>.</p>
+<p class="reference">References <a class="el" href="../../de/da3/bash_2builtins_2common_8c_source.html#l00106">builtin_error()</a>, <a class="el" href="../../de/da3/bash_2builtins_2common_8c_source.html#l00145">builtin_usage()</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00071">EX_USAGE</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00052">EXECUTION_FAILURE</a>, <a class="el" href="../../df/d03/shell_8h_source.html#l00053">EXECUTION_SUCCESS</a>, <a class="el" href="../../d1/dca/general_8c_source.html#l00249">legal_number()</a>, <a class="el" href="../../d1/dbe/ash_8c_source.html#l11814">list()</a>, <a class="el" href="../../d0/d09/command_8h_source.html#l00138">word_list::next</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00450">pid</a>, <a class="el" href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c_source.html#l00041">setpgid</a>, <a class="el" href="../../df/d3a/errlist_8c.html#a558c31d07190c0a536ec2a340b1eae07">strerror()</a>, <a class="el" href="../../d0/d09/command_8h_source.html#l00132">word_desc::word</a>, and <a class="el" href="../../d0/d09/command_8h_source.html#l00139">word_list::word</a>.</p>
 
 </div>
 </div>
@@ -267,9 +269,9 @@ Variables</h2></td></tr>
 <div class="line">    <span class="stringliteral">&quot;   pid : numeric process identifier, &gt;= 0&quot;</span>,</div>
 <div class="line">    <span class="stringliteral">&quot;   pgrpid: numeric process group identifier, &gt;=0&quot;</span>,</div>
 <div class="line">    <span class="stringliteral">&quot;See the setpgid(2) manual page.&quot;</span>,</div>
-<div class="line">    (<span class="keyword">const</span> <span class="keywordtype">char</span> *)<a class="code" href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div>
+<div class="line">    (<span class="keyword">const</span> <span class="keywordtype">char</span> *)<a class="code" href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div>
 <div class="line">}</div>
-<div class="ttc" id="astdlib-stubs_8cpp_html_a9578bf94fd913a1b19c44c1213156cf2"><div class="ttname"><a href="../../de/dc7/stdlib-stubs_8cpp.html#a9578bf94fd913a1b19c44c1213156cf2">NULL</a></div><div class="ttdeci">NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dc7/stdlib-stubs_8cpp_source.html#l00060">stdlib-stubs.cpp:60</a></div></div>
+<div class="ttc" id="ageneral_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d9/d14/general_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d14/general_8h_source.html#l00053">general.h:53</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c_source.html#l00104">104</a> of file <a class="el" href="../../d1/dea/apps_2base_2bash_2examples_2loadables_2setpgid_8c_source.html">setpgid.c</a>.</p>
 

@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d8/d73/killpg_8c.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7ffdc3cae8a7a29a324c1a86410597e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d73/killpg_8c.html#a7ffdc3cae8a7a29a324c1a86410597e1">killpg</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> pgid, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sig)</td></tr>
+<tr class="memitem:a7ffdc3cae8a7a29a324c1a86410597e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d73/killpg_8c.html#a7ffdc3cae8a7a29a324c1a86410597e1">killpg</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a> pgid, int sig)</td></tr>
 <tr class="separator:a7ffdc3cae8a7a29a324c1a86410597e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> killpg </td>
+          <td class="memname">int killpg </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#a63bef27b1fbd4a91faa273a387a38dc2">pid_t</a>&#160;</td>
           <td class="paramname"><em>pgid</em>, </td>
@@ -117,7 +117,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>sig</em>&#160;</td>
         </tr>
         <tr>
@@ -134,13 +134,13 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a> = <a class="code" href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    }</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dd4/posix__signal_8cpp.html#a246e8d1315a1d045de7d66c21444cd8e">kill</a>(-pgid, sig);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/da5/musl_2src_2signal_2kill_8c.html#a4539db972bcf3dd8c8b429af0dc3789d">kill</a>(-pgid, sig);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">errno.h:25</a></div></div>
 <div class="ttc" id="alibc_2include_2errno_8h_html_ab03f640d90fbc5bcb75285d08a0f25ed"><div class="ttname"><a href="../../d7/d8c/libc_2include_2errno_8h.html#ab03f640d90fbc5bcb75285d08a0f25ed">errno</a></div><div class="ttdeci">#define errno</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno.h:135</a></div></div>
-<div class="ttc" id="aposix__signal_8cpp_html_a246e8d1315a1d045de7d66c21444cd8e"><div class="ttname"><a href="../../d5/dd4/posix__signal_8cpp.html#a246e8d1315a1d045de7d66c21444cd8e">kill</a></div><div class="ttdeci">int kill(pid_t pid, int number)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd4/posix__signal_8cpp_source.html#l00068">posix_signal.cpp:68</a></div></div>
+<div class="ttc" id="amusl_2src_2signal_2kill_8c_html_a4539db972bcf3dd8c8b429af0dc3789d"><div class="ttname"><a href="../../d8/da5/musl_2src_2signal_2kill_8c.html#a4539db972bcf3dd8c8b429af0dc3789d">kill</a></div><div class="ttdeci">int kill(pid_t pid, int sig)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da5/musl_2src_2signal_2kill_8c_source.html#l00004">kill.c:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, and <a class="el" href="../../d5/dd4/posix__signal_8cpp_source.html#l00068">kill()</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00025">EINVAL</a>, <a class="el" href="../../d7/d8c/libc_2include_2errno_8h_source.html#l00135">errno</a>, and <a class="el" href="../../d8/da5/musl_2src_2signal_2kill_8c_source.html#l00004">kill()</a>.</p>
 
 </div>
 </div>

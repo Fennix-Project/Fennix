@@ -98,9 +98,9 @@ $(document).ready(function(){initNavTree('d1/db5/fputs_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac9fc7590c280b1fddf9f592ebe4aa78b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db5/fputs_8c.html#ac9fc7590c280b1fddf9f592ebe4aa78b">fputs</a> (const char *restrict s, <a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *restrict <a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>)</td></tr>
+<tr class="memitem:ac9fc7590c280b1fddf9f592ebe4aa78b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db5/fputs_8c.html#ac9fc7590c280b1fddf9f592ebe4aa78b">fputs</a> (const char *restrict <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, <a class="el" href="../../d1/d37/cargs_8h.html#a69437b5d572dd16d6d4fdbcbd066c7a9">FILE</a> *restrict <a class="el" href="../../d7/d06/getpwent_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>)</td></tr>
 <tr class="separator:ac9fc7590c280b1fddf9f592ebe4aa78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e16199c7010e2aec06ba852f19c4423"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db5/fputs_8c.html#a9e16199c7010e2aec06ba852f19c4423">weak_alias</a> (<a class="el" href="../../d1/db5/fputs_8c.html#ac9fc7590c280b1fddf9f592ebe4aa78b">fputs</a>, <a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#a3f4133200dd293ef361f6e36da4b5033">fputs_unlocked</a>)</td></tr>
+<tr class="memitem:a9e16199c7010e2aec06ba852f19c4423"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/db5/fputs_8c.html#a9e16199c7010e2aec06ba852f19c4423">weak_alias</a> (<a class="el" href="../../d1/db5/fputs_8c.html#ac9fc7590c280b1fddf9f592ebe4aa78b">fputs</a>, fputs_unlocked)</td></tr>
 <tr class="separator:a9e16199c7010e2aec06ba852f19c4423"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -111,7 +111,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> fputs </td>
+          <td class="memname">int fputs </td>
           <td>(</td>
           <td class="paramtype">const char *restrict&#160;</td>
           <td class="paramname"><em>s</em>, </td>
@@ -132,14 +132,16 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/db5/fputs_8c_source.html#l00004">4</a> of file <a class="el" href="../../d1/db5/fputs_8c_source.html">fputs.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">size_t</span> l = <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(s);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a08608c0aa56801926439704f198622e7">fwrite</a>(s, 1, l, <a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>)==l) - 1;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">size_t</span> <a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a> = <a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d0/db0/Kernel__IO_8cpp.html#a08608c0aa56801926439704f198622e7">fwrite</a>(<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, 1, <a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, <a class="code" href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a>)==<a class="code" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>) - 1;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aKernel__IO_8cpp_html_a08608c0aa56801926439704f198622e7"><div class="ttname"><a href="../../d0/db0/Kernel__IO_8cpp.html#a08608c0aa56801926439704f198622e7">fwrite</a></div><div class="ttdeci">ssize_t fwrite(int fd, const void *buf, size_t count)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/db0/Kernel__IO_8cpp_source.html#l00075">Kernel_IO.cpp:75</a></div></div>
+<div class="ttc" id="aarpping_8c_html_ac9562ee4ecb3b8aeebeb04656e7e57a9"><div class="ttname"><a href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a></div><div class="ttdeci">#define s</div></div>
 <div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00064">Convert.cpp:64</a></div></div>
 <div class="ttc" id="agetusershell_8c_html_a3efb0e1a16208deecbd84c15401f7cf8"><div class="ttname"><a href="../../d0/dd9/getusershell_8c.html#a3efb0e1a16208deecbd84c15401f7cf8">f</a></div><div class="ttdeci">static FILE * f</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd9/getusershell_8c_source.html#l00009">getusershell.c:9</a></div></div>
+<div class="ttc" id="atls__aesgcm_8c_html_a1cb503ddd20ff3cf9588d2b5abd202d8"><div class="ttname"><a href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a></div><div class="ttdeci">#define l</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../d0/db0/Kernel__IO_8cpp_source.html#l00075">fwrite()</a>, and <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/dd9/getusershell_8c_source.html#l00009">f</a>, <a class="el" href="../../d0/db0/Kernel__IO_8cpp_source.html#l00075">fwrite()</a>, <a class="el" href="../../d5/dd2/tls__aesgcm_8c.html#a1cb503ddd20ff3cf9588d2b5abd202d8">l</a>, <a class="el" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>, and <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>.</p>
 
 </div>
 </div>
@@ -158,7 +160,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d57/Userspace_2mlibc_2options_2ansi_2include_2stdio_8h.html#a3f4133200dd293ef361f6e36da4b5033">fputs_unlocked</a>&#160;</td>
+          <td class="paramtype">fputs_unlocked&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

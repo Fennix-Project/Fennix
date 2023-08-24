@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d7/d50/nanosleep_8c.html','../../'); i
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1b63fa141b202a0b01cfef8421aa48d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d50/nanosleep_8c.html#a1b63fa141b202a0b01cfef8421aa48d6">nanosleep</a> (const struct <a class="el" href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a> *req, struct <a class="el" href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a> *rem)</td></tr>
+<tr class="memitem:a1b63fa141b202a0b01cfef8421aa48d6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d50/nanosleep_8c.html#a1b63fa141b202a0b01cfef8421aa48d6">nanosleep</a> (const struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> *req, struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> *rem)</td></tr>
 <tr class="separator:a1b63fa141b202a0b01cfef8421aa48d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,15 +109,15 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> nanosleep </td>
+          <td class="memname">int nanosleep </td>
           <td>(</td>
-          <td class="paramtype">const struct <a class="el" href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a> *&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> *&#160;</td>
           <td class="paramname"><em>req</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct <a class="el" href="../../d6/d5f/timespec_8h.html#da/d1c/structtimespec">timespec</a> *&#160;</td>
+          <td class="paramtype">struct <a class="el" href="../../de/d79/stat-time_8h.html#da/d1c/structtimespec">timespec</a> *&#160;</td>
           <td class="paramname"><em>rem</em>&#160;</td>
         </tr>
         <tr>
@@ -130,13 +130,14 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d50/nanosleep_8c_source.html#l00004">4</a> of file <a class="el" href="../../d7/d50/nanosleep_8c_source.html">nanosleep.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(-<a class="code" href="../../d8/dc4/Userspace_2musl_2src_2include_2time_8h.html#abfd4b5ddf9fe34c23934877f41c68c6c">__clock_nanosleep</a>(<a class="code" href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h.html#a922ce1ae64374c9410c8a999e25e82af">CLOCK_REALTIME</a>, 0, req, rem));</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(-<a class="code" href="../../d8/dc4/Userspace_2musl_2src_2include_2time_8h.html#abfd4b5ddf9fe34c23934877f41c68c6c">__clock_nanosleep</a>(CLOCK_REALTIME, 0, req, rem));</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="aUserspace_2mlibc_2options_2ansi_2include_2time_8h_html_a922ce1ae64374c9410c8a999e25e82af"><div class="ttname"><a href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h.html#a922ce1ae64374c9410c8a999e25e82af">CLOCK_REALTIME</a></div><div class="ttdeci">#define CLOCK_REALTIME</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h_source.html#l00018">time.h:18</a></div></div>
 <div class="ttc" id="aUserspace_2musl_2src_2include_2time_8h_html_abfd4b5ddf9fe34c23934877f41c68c6c"><div class="ttname"><a href="../../d8/dc4/Userspace_2musl_2src_2include_2time_8h.html#abfd4b5ddf9fe34c23934877f41c68c6c">__clock_nanosleep</a></div><div class="ttdeci">hidden int __clock_nanosleep(clockid_t, int, const struct timespec *, struct timespec *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db9/clock__nanosleep_8c_source.html#l00008">clock_nanosleep.c:8</a></div></div>
-<div class="ttc" id="amusl_2src_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
+<div class="ttc" id="asrc_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/db9/clock__nanosleep_8c_source.html#l00008">__clock_nanosleep()</a>, <a class="el" href="../../dc/d89/musl_2src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>, and <a class="el" href="../../dc/dcd/Userspace_2mlibc_2options_2ansi_2include_2time_8h_source.html#l00018">CLOCK_REALTIME</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/db9/clock__nanosleep_8c_source.html#l00008">__clock_nanosleep()</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d7/d9a/nanosleep__time32_8c_source.html#l00005">__nanosleep_time32()</a>, <a class="el" href="../../dc/d35/hardshutdown_8c_source.html#l00105">main()</a>, <a class="el" href="../../d0/dac/bb__do__delay_8c_source.html#l00037">msleep()</a>, <a class="el" href="../../d1/d48/musl_2src_2unistd_2sleep_8c_source.html#l00004">sleep()</a>, and <a class="el" href="../../d8/df5/musl_2src_2unistd_2usleep_8c_source.html#l00005">usleep()</a>.</p>
 
 </div>
 </div>

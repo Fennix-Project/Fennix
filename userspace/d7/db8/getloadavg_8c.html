@@ -104,7 +104,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af784715209f1052308535bcef77da062"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/getloadavg_8c.html#af784715209f1052308535bcef77da062">getloadavg</a> (double *a, <a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)</td></tr>
+<tr class="memitem:af784715209f1052308535bcef77da062"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/db8/getloadavg_8c.html#af784715209f1052308535bcef77da062">getloadavg</a> (double *a, int <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a76f11d9a0a47b94f72c2d0e77fb32240">n</a>)</td></tr>
 <tr class="separator:af784715209f1052308535bcef77da062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -132,7 +132,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> getloadavg </td>
+          <td class="memname">int getloadavg </td>
           <td>(</td>
           <td class="paramtype">double *&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -140,7 +140,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -153,21 +153,21 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/db8/getloadavg_8c_source.html#l00005">5</a> of file <a class="el" href="../../d7/db8/getloadavg_8c_source.html">getloadavg.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d2/d47/musl_2include_2sys_2sysinfo_8h.html#d7/df8/structsysinfo">sysinfo</a> si;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keyword">struct </span><a class="code" href="../../d7/d78/include_2sys_2sysinfo_8h.html#d7/df8/structsysinfo">sysinfo</a> si;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a> &lt;= 0) <span class="keywordflow">return</span> <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a> ? -1 : 0;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../dc/df7/sys-sysinfo_8cpp.html#a8eb9bb661b566bdce3f438940690f453">sysinfo</a>(&amp;si);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d7/d78/include_2sys_2sysinfo_8h.html#aaa322ad991bd6a2b71684eb5f2c2649e">sysinfo</a>(&amp;si);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a> &gt; 3) <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a> = 3;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>=0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>&lt;<a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        a[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = 1.0/(1&lt;&lt;<a class="code" href="../../d2/d47/musl_2include_2sys_2sysinfo_8h.html#a6d978dab92b71ef09182261081a66dee">SI_LOAD_SHIFT</a>) * si.loads[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        a[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = 1.0/(1&lt;&lt;<a class="code" href="../../d7/d78/include_2sys_2sysinfo_8h.html#a6d978dab92b71ef09182261081a66dee">SI_LOAD_SHIFT</a>) * si.loads[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 <div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
 <div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
-<div class="ttc" id="amusl_2include_2sys_2sysinfo_8h_html_a6d978dab92b71ef09182261081a66dee"><div class="ttname"><a href="../../d2/d47/musl_2include_2sys_2sysinfo_8h.html#a6d978dab92b71ef09182261081a66dee">SI_LOAD_SHIFT</a></div><div class="ttdeci">#define SI_LOAD_SHIFT</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d47/musl_2include_2sys_2sysinfo_8h_source.html#l00008">sysinfo.h:8</a></div></div>
-<div class="ttc" id="amusl_2include_2sys_2sysinfo_8h_html_d7/df8/structsysinfo"><div class="ttname"><a href="../../d2/d47/musl_2include_2sys_2sysinfo_8h.html#d7/df8/structsysinfo">sysinfo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d18/mlibc_2options_2linux_2include_2sys_2sysinfo_8h_source.html#l00008">sysinfo.h:8</a></div></div>
-<div class="ttc" id="asys-sysinfo_8cpp_html_a8eb9bb661b566bdce3f438940690f453"><div class="ttname"><a href="../../dc/df7/sys-sysinfo_8cpp.html#a8eb9bb661b566bdce3f438940690f453">sysinfo</a></div><div class="ttdeci">int sysinfo(struct sysinfo *info)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/df7/sys-sysinfo_8cpp_source.html#l00008">sys-sysinfo.cpp:8</a></div></div>
+<div class="ttc" id="ainclude_2sys_2sysinfo_8h_html_a6d978dab92b71ef09182261081a66dee"><div class="ttname"><a href="../../d7/d78/include_2sys_2sysinfo_8h.html#a6d978dab92b71ef09182261081a66dee">SI_LOAD_SHIFT</a></div><div class="ttdeci">#define SI_LOAD_SHIFT</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d78/include_2sys_2sysinfo_8h_source.html#l00008">sysinfo.h:8</a></div></div>
+<div class="ttc" id="ainclude_2sys_2sysinfo_8h_html_aaa322ad991bd6a2b71684eb5f2c2649e"><div class="ttname"><a href="../../d7/d78/include_2sys_2sysinfo_8h.html#aaa322ad991bd6a2b71684eb5f2c2649e">sysinfo</a></div><div class="ttdeci">int sysinfo(struct sysinfo *)</div></div>
+<div class="ttc" id="ainclude_2sys_2sysinfo_8h_html_d7/df8/structsysinfo"><div class="ttname"><a href="../../d7/d78/include_2sys_2sysinfo_8h.html#d7/df8/structsysinfo">sysinfo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d78/include_2sys_2sysinfo_8h_source.html#l00010">sysinfo.h:10</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d5/d18/mlibc_2options_2linux_2include_2sys_2sysinfo_8h_source.html#l00010">sysinfo::loads</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, <a class="el" href="../../d2/d47/musl_2include_2sys_2sysinfo_8h_source.html#l00008">SI_LOAD_SHIFT</a>, and <a class="el" href="../../dc/df7/sys-sysinfo_8cpp_source.html#l00008">sysinfo()</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d7/d78/include_2sys_2sysinfo_8h_source.html#l00012">sysinfo::loads</a>, <a class="el" href="../../d0/d32/dcigettext_8c_source.html#l00441">n</a>, <a class="el" href="../../d7/d78/include_2sys_2sysinfo_8h_source.html#l00008">SI_LOAD_SHIFT</a>, and <a class="el" href="../../d7/d78/include_2sys_2sysinfo_8h.html#aaa322ad991bd6a2b71684eb5f2c2649e">sysinfo()</a>.</p>
 
 </div>
 </div>

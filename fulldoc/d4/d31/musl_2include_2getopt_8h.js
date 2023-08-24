@@ -1,9 +1,9 @@
 var musl_2include_2getopt_8h =
 [
     [ "option", "d4/d31/musl_2include_2getopt_8h.html#d6/d43/structoption", [
-      [ "flag", "d4/d31/musl_2include_2getopt_8h.html#a24ad4639d5d498fdc1c5b38bcaabc263", null ],
+      [ "flag", "d4/d31/musl_2include_2getopt_8h.html#ab366eea5fe7be25c1928328ba715e353", null ],
       [ "has_arg", "d4/d31/musl_2include_2getopt_8h.html#a90d7ee9a51eea5c002682dbd0af149e4", null ],
-      [ "name", "d4/d31/musl_2include_2getopt_8h.html#ae02f2d0cea6af34951d9008be8bfa625", null ],
+      [ "name", "d4/d31/musl_2include_2getopt_8h.html#adc503659d37af8017fb4b86d61c99086", null ],
       [ "val", "d4/d31/musl_2include_2getopt_8h.html#a13bd155ec3b405d29c41ab8d0793be11", null ]
     ] ],
     [ "no_argument", "d4/d31/musl_2include_2getopt_8h.html#a3bc1d5f667b5b4ca4b4abb685dc874ce", null ],

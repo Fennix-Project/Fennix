@@ -14,5 +14,6 @@ var namespaceVideo =
       [ "None", "d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1ca7760e482cfbf6af468fa8b9de03ea00b", null ],
       [ "PCScreenFont1", "d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1cac1878e6cbf133b2686f85c7a6bb0a4f4", null ],
       [ "PCScreenFont2", "d6/de2/namespaceVideo.html#a1d549e9c98577a9e2ddc84723ac9ac1ca993154ea1df2801b562f76f51fc974f4", null ]
-    ] ]
+    ] ],
+    [ "__no_sanitize", "d6/de2/namespaceVideo.html#a8876a1680cdd8afab9d4f8a165951518", null ]
 ];

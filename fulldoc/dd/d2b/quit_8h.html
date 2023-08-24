@@ -123,9 +123,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ac537ae77bc844e34fe1a43b15658c978"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#aad3cac9e499ce62e356901e96eaab412">volatile</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086">sig_atomic_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2b/quit_8h.html#ac537ae77bc844e34fe1a43b15658c978">interrupt_state</a></td></tr>
+<tr class="memitem:ac537ae77bc844e34fe1a43b15658c978"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086">sig_atomic_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2b/quit_8h.html#ac537ae77bc844e34fe1a43b15658c978">interrupt_state</a></td></tr>
 <tr class="separator:ac537ae77bc844e34fe1a43b15658c978"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18548eecf50c0cb3cee5ad12192e4414"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#aad3cac9e499ce62e356901e96eaab412">volatile</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086">sig_atomic_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2b/quit_8h.html#a18548eecf50c0cb3cee5ad12192e4414">terminating_signal</a></td></tr>
+<tr class="memitem:a18548eecf50c0cb3cee5ad12192e4414"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086">sig_atomic_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d2b/quit_8h.html#a18548eecf50c0cb3cee5ad12192e4414">terminating_signal</a></td></tr>
 <tr class="separator:a18548eecf50c0cb3cee5ad12192e4414"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -199,12 +199,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">do</span> { \</div>
-<div class="line">    if (<a class="code" href="../../dc/d54/common_8h.html#ad2accf6d6351e826ee6cbdc06f946f11">wait_intr_flag</a> &amp;&amp; <a class="code" href="../../dc/d6f/trap_8c.html#a935bd11f5afa23a8520efd4b6e10614d">wait_signal_received</a> &amp;&amp; <a class="code" href="../../d8/d19/common_8c.html#a90f34313402c8392a46af2a5d3147d89">this_shell_builtin</a> &amp;&amp; (<a class="code" href="../../d8/d19/common_8c.html#a90f34313402c8392a46af2a5d3147d89">this_shell_builtin</a> == wait_builtin)) \</div>
+<div class="line">    if (<a class="code" href="../../df/d28/bash_2builtins_2common_8h.html#ad2accf6d6351e826ee6cbdc06f946f11">wait_intr_flag</a> &amp;&amp; <a class="code" href="../../dc/d6f/trap_8c.html#a935bd11f5afa23a8520efd4b6e10614d">wait_signal_received</a> &amp;&amp; <a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a90f34313402c8392a46af2a5d3147d89">this_shell_builtin</a> &amp;&amp; (<a class="code" href="../../de/da3/bash_2builtins_2common_8c.html#a90f34313402c8392a46af2a5d3147d89">this_shell_builtin</a> == wait_builtin)) \</div>
 <div class="line">      sh_longjmp (<a class="code" href="../../da/d23/bashjmp_8h.html#a89d0152483195257de262e224716fcc1">wait_intr_buf</a>, 1); \</div>
 <div class="line">  } <span class="keywordflow">while</span> (0)</div>
+<div class="ttc" id="abash_2builtins_2common_8c_html_a90f34313402c8392a46af2a5d3147d89"><div class="ttname"><a href="../../de/da3/bash_2builtins_2common_8c.html#a90f34313402c8392a46af2a5d3147d89">this_shell_builtin</a></div><div class="ttdeci">sh_builtin_func_t * this_shell_builtin</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da3/bash_2builtins_2common_8c_source.html#l00075">common.c:75</a></div></div>
+<div class="ttc" id="abash_2builtins_2common_8h_html_ad2accf6d6351e826ee6cbdc06f946f11"><div class="ttname"><a href="../../df/d28/bash_2builtins_2common_8h.html#ad2accf6d6351e826ee6cbdc06f946f11">wait_intr_flag</a></div><div class="ttdeci">int wait_intr_flag</div></div>
 <div class="ttc" id="abashjmp_8h_html_a89d0152483195257de262e224716fcc1"><div class="ttname"><a href="../../da/d23/bashjmp_8h.html#a89d0152483195257de262e224716fcc1">wait_intr_buf</a></div><div class="ttdeci">procenv_t wait_intr_buf</div></div>
-<div class="ttc" id="acommon_8c_html_a90f34313402c8392a46af2a5d3147d89"><div class="ttname"><a href="../../d8/d19/common_8c.html#a90f34313402c8392a46af2a5d3147d89">this_shell_builtin</a></div><div class="ttdeci">sh_builtin_func_t * this_shell_builtin</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d19/common_8c_source.html#l00075">common.c:75</a></div></div>
-<div class="ttc" id="acommon_8h_html_ad2accf6d6351e826ee6cbdc06f946f11"><div class="ttname"><a href="../../dc/d54/common_8h.html#ad2accf6d6351e826ee6cbdc06f946f11">wait_intr_flag</a></div><div class="ttdeci">int wait_intr_flag</div></div>
 <div class="ttc" id="atrap_8c_html_a935bd11f5afa23a8520efd4b6e10614d"><div class="ttname"><a href="../../dc/d6f/trap_8c.html#a935bd11f5afa23a8520efd4b6e10614d">wait_signal_received</a></div><div class="ttdeci">int wait_signal_received</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d6f/trap_8c_source.html#l00120">trap.c:120</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../dd/d2b/quit_8h_source.html#l00060">60</a> of file <a class="el" href="../../dd/d2b/quit_8h_source.html">quit.h</a>.</p>
@@ -346,7 +346,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#aad3cac9e499ce62e356901e96eaab412">volatile</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086">sig_atomic_t</a> interrupt_state</td>
+          <td class="memname"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086">sig_atomic_t</a> interrupt_state</td>
         </tr>
       </table>
   </td>
@@ -372,7 +372,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/dfe/mlibc_2sysdeps_2lemon_2include_2lemon_2syscall_8h.html#aad3cac9e499ce62e356901e96eaab412">volatile</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086">sig_atomic_t</a> terminating_signal</td>
+          <td class="memname"><a class="el" href="../../d1/dd5/localcharset_8c.html#af55a5e48555be7d32ad73e76cf5d4db0">volatile</a> <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa1b8df8ccbb184c1af64769e84a9a086">sig_atomic_t</a> terminating_signal</td>
         </tr>
       </table>
   </td>

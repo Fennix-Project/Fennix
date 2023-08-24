@@ -1,20 +1,7 @@
 var libc_2include_2sys_2wait_8h =
 [
-    [ "siginfo_t", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#dc/dbc/structsiginfo__t", [
-      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a36fcb672ba2acb285ec08b6ce696639c", null ],
-      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a76086ac3bbcaf861fd7daaa88efe03e4", null ],
-      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#aff98b057560c1e9a29cdf43869f5ac24", null ],
-      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#afce3fd16258d1673f74f2cc4d92925f8", null ],
-      [ "__si_fields", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a86013df694010a495ed64f2a65a951be", null ],
-      [ "si_addr", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#aa42eedcfa01bdcb2bc6b8ac3bab0d9e9", null ],
-      [ "si_code", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a0dd36ae3e9df589f5755f88c93671c2d", null ],
-      [ "si_errno", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#ae840a8f2824bab1693577f19f4d0432d", null ],
-      [ "si_pid", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a6053bfd6db1f12a9678cf53ebfeae45d", null ],
-      [ "si_signo", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a238821f6eb15317d3d7b10efef80b9c7", null ],
-      [ "si_status", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#accaf16ba75f1d4efd2e76f1991dc2b56", null ],
-      [ "si_uid", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#a1574f7a20201b3f6bf64c5091fd14845", null ],
-      [ "si_value", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#aea6512792c4af9f46ba221e454b6e0a7", null ],
-      [ "stub", "d8/d7c/mlibc_2sysdeps_2vinix_2include_2abi-bits_2signal_8h.html#aa91552fa3db0a0570cefe972d3ef31a0", null ]
+    [ "siginfo_t", "d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t", [
+      [ "stub", "d1/d7b/libc_2include_2sys_2wait_8h.html#aa91552fa3db0a0570cefe972d3ef31a0", null ]
     ] ],
     [ "WCONTINUED", "d1/d7b/libc_2include_2sys_2wait_8h.html#afcc090a70f53d677b748f4b1a4b896e6", null ],
     [ "WEXITED", "d1/d7b/libc_2include_2sys_2wait_8h.html#a004990811e046790b928dbc7787ecfaa", null ],
@@ -33,9 +20,6 @@ var libc_2include_2sys_2wait_8h =
       [ "P_ALL", "d1/d7b/libc_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea3e3e77552a242f89c892494ef1596758", null ],
       [ "P_PID", "d1/d7b/libc_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea670c56bdd326fb6de6112e15dd6c020e", null ],
       [ "P_PGID", "d1/d7b/libc_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea351482652f992f695740282f8554d156", null ],
-      [ "P_ALL", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea3e3e77552a242f89c892494ef1596758", null ],
-      [ "P_PID", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea670c56bdd326fb6de6112e15dd6c020e", null ],
-      [ "P_PGID", "d6/d26/mlibc_2options_2posix_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea351482652f992f695740282f8554d156", null ],
       [ "P_ALL", "d7/d0e/musl_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea3e3e77552a242f89c892494ef1596758", null ],
       [ "P_PID", "d7/d0e/musl_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea670c56bdd326fb6de6112e15dd6c020e", null ],
       [ "P_PGID", "d7/d0e/musl_2include_2sys_2wait_8h.html#a0f6e7ffb9bfd4d17b665b16c3b1c2b1ea351482652f992f695740282f8554d156", null ],

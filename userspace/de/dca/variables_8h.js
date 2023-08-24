@@ -18,14 +18,20 @@ var variables_8h =
       [ "s", "de/dca/variables_8h.html#addb4ab2ffbf877c71d8a8c7cb52e6dd4", null ],
       [ "v", "de/dca/variables_8h.html#a81f5f742f41805c8591187b5b0acc0f2", null ]
     ] ],
-    [ "variable", "de/dca/variables_8h.html#db/d35/structvariable", [
-      [ "assign_func", "de/dca/variables_8h.html#ab0fef2f63969a5892eda920d9fd16611", null ],
-      [ "attributes", "de/dca/variables_8h.html#a32a92c8a80f38048bb2ef8ac0ca2287b", null ],
-      [ "context", "de/dca/variables_8h.html#a422d2931ad11d1875b0238974ad8f9dd", null ],
-      [ "dynamic_value", "de/dca/variables_8h.html#a93d9b7d062815920f1de93aee1d154ad", null ],
-      [ "exportstr", "de/dca/variables_8h.html#a82a15a94556a4eb824687c5d3fb81eb2", null ],
-      [ "name", "de/dca/variables_8h.html#a1cd70c44962eefd96c2f97444f004946", null ],
-      [ "value", "de/dca/variables_8h.html#a1f8e26d6efb860cfa550220991627bd8", null ]
+    [ "variable", "d6/d90/hush_8c.html#db/d35/structvariable", [
+      [ "assign_func", "d6/d90/hush_8c.html#ab0fef2f63969a5892eda920d9fd16611", null ],
+      [ "attributes", "d6/d90/hush_8c.html#a32a92c8a80f38048bb2ef8ac0ca2287b", null ],
+      [ "context", "d6/d90/hush_8c.html#a422d2931ad11d1875b0238974ad8f9dd", null ],
+      [ "dynamic_value", "d6/d90/hush_8c.html#a93d9b7d062815920f1de93aee1d154ad", null ],
+      [ "exportstr", "d6/d90/hush_8c.html#a82a15a94556a4eb824687c5d3fb81eb2", null ],
+      [ "flg_export", "d6/d90/hush_8c.html#a60eb54ea02aea4f1e0b1479ebf5d5e40", null ],
+      [ "flg_read_only", "d6/d90/hush_8c.html#a6222980eded276178a0a3ea36ad16258", null ],
+      [ "max_len", "d6/d90/hush_8c.html#ad06dc860759cb6e7e5d6830acec0a9a8", null ],
+      [ "name", "d6/d90/hush_8c.html#a1cd70c44962eefd96c2f97444f004946", null ],
+      [ "next", "d6/d90/hush_8c.html#a4cc707381b630a3085035293a883b743", null ],
+      [ "value", "d6/d90/hush_8c.html#a1f8e26d6efb860cfa550220991627bd8", null ],
+      [ "var_nest_level", "d6/d90/hush_8c.html#a9be0d4ca8aafce22a46e2e828c017a95", null ],
+      [ "varstr", "d6/d90/hush_8c.html#a111db6512faba2ce43eb95ae6e470347", null ]
     ] ],
     [ "_vlist", "de/dca/variables_8h.html#d6/d95/struct__vlist", [
       [ "list", "de/dca/variables_8h.html#a799b25ce65fe2f50ea530e137b66a433", null ],

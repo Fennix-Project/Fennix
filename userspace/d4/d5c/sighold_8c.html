@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d4/d5c/sighold_8c.html','../../'); ini
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8f2faa6ea120d4cb0cc916f46d3731a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5c/sighold_8c.html#a8f2faa6ea120d4cb0cc916f46d3731a7">sighold</a> (<a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sig)</td></tr>
+<tr class="memitem:a8f2faa6ea120d4cb0cc916f46d3731a7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5c/sighold_8c.html#a8f2faa6ea120d4cb0cc916f46d3731a7">sighold</a> (int sig)</td></tr>
 <tr class="separator:a8f2faa6ea120d4cb0cc916f46d3731a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,9 +108,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a> sighold </td>
+          <td class="memname">int sighold </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc0/stdio-stubs_8cpp.html#aaa75541e343d22996cdea3175072626b">int</a>&#160;</td>
+          <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>sig</em></td><td>)</td>
           <td></td>
         </tr>
@@ -119,21 +119,21 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d4/d5c/sighold_8c_source.html#l00003">3</a> of file <a class="el" href="../../d4/d5c/sighold_8c_source.html">sighold.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> mask;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> mask;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../da/db8/signals_8c.html#a98930e3dbc944558ae130d17f851994b">sigemptyset</a>(&amp;mask);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../de/d62/sig_8h.html#a352f6f6822f6cca90a351ffdd927597f">sigaddset</a>(&amp;mask, sig) &lt; 0) <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../db/d82/sigemptyset_8c.html#a5925352f90eb589393274fa0376d7def">sigemptyset</a>(&amp;mask);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d1/d7b/sigaddset_8c.html#aba080a9ab72ac6d079ff0bf8ac9b23f4">sigaddset</a>(&amp;mask, sig) &lt; 0) <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d12/sig_8c.html#a011fc3b4395063b580099bf602135a22">sigprocmask</a>(<a class="code" href="../../de/d62/sig_8h.html#a927f6ae16379576d638006c7498ac5d7">SIG_BLOCK</a>, &amp;mask, 0);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
-<div class="ttc" id="alibc_2include_2bits_2types_2sigset__t_8h_html_a9140a5882f847f67b8155c759ac6aa05"><div class="ttname"><a href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a></div><div class="ttdeci">unsigned long sigset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4b/libc_2include_2bits_2types_2sigset__t_8h_source.html#l00004">sigset_t.h:4</a></div></div>
 <div class="ttc" id="asig_8c_html_a011fc3b4395063b580099bf602135a22"><div class="ttname"><a href="../../da/d12/sig_8c.html#a011fc3b4395063b580099bf602135a22">sigprocmask</a></div><div class="ttdeci">sigprocmask(int operation, int *newset, int *oldset)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d12/sig_8c_source.html#l00762">sig.c:762</a></div></div>
-<div class="ttc" id="asig_8h_html_a352f6f6822f6cca90a351ffdd927597f"><div class="ttname"><a href="../../de/d62/sig_8h.html#a352f6f6822f6cca90a351ffdd927597f">sigaddset</a></div><div class="ttdeci">#define sigaddset(set, sig)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d62/sig_8h_source.html#l00071">sig.h:71</a></div></div>
 <div class="ttc" id="asig_8h_html_a927f6ae16379576d638006c7498ac5d7"><div class="ttname"><a href="../../de/d62/sig_8h.html#a927f6ae16379576d638006c7498ac5d7">SIG_BLOCK</a></div><div class="ttdeci">#define SIG_BLOCK</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d62/sig_8h_source.html#l00058">sig.h:58</a></div></div>
-<div class="ttc" id="asignals_8c_html_a98930e3dbc944558ae130d17f851994b"><div class="ttname"><a href="../../da/db8/signals_8c.html#a98930e3dbc944558ae130d17f851994b">sigemptyset</a></div><div class="ttdeci">#define sigemptyset(m)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/db8/signals_8c_source.html#l00062">signals.c:62</a></div></div>
+<div class="ttc" id="asigaddset_8c_html_aba080a9ab72ac6d079ff0bf8ac9b23f4"><div class="ttname"><a href="../../d1/d7b/sigaddset_8c.html#aba080a9ab72ac6d079ff0bf8ac9b23f4">sigaddset</a></div><div class="ttdeci">int sigaddset(sigset_t *set, int sig)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7b/sigaddset_8c_source.html#l00004">sigaddset.c:4</a></div></div>
+<div class="ttc" id="asigemptyset_8c_html_a5925352f90eb589393274fa0376d7def"><div class="ttname"><a href="../../db/d82/sigemptyset_8c.html#a5925352f90eb589393274fa0376d7def">sigemptyset</a></div><div class="ttdeci">int sigemptyset(sigset_t *set)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d82/sigemptyset_8c_source.html#l00004">sigemptyset.c:4</a></div></div>
+<div class="ttc" id="asigset__t_8h_html_a9140a5882f847f67b8155c759ac6aa05"><div class="ttname"><a href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a></div><div class="ttdeci">unsigned long sigset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d90/sigset__t_8h_source.html#l00004">sigset_t.h:4</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d62/sig_8h_source.html#l00058">SIG_BLOCK</a>, <a class="el" href="../../de/d62/sig_8h_source.html#l00071">sigaddset</a>, <a class="el" href="../../da/db8/signals_8c_source.html#l00062">sigemptyset</a>, and <a class="el" href="../../da/d12/sig_8c_source.html#l00762">sigprocmask()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d62/sig_8h_source.html#l00058">SIG_BLOCK</a>, <a class="el" href="../../d1/d7b/sigaddset_8c_source.html#l00004">sigaddset()</a>, <a class="el" href="../../db/d82/sigemptyset_8c_source.html#l00004">sigemptyset()</a>, and <a class="el" href="../../da/d12/sig_8c_source.html#l00762">sigprocmask()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/db8/signals_8c_source.html#l00662">_rl_block_sigwinch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/db7/bash_2lib_2readline_2signals_8c_source.html#l00662">_rl_block_sigwinch()</a>.</p>
 
 </div>
 </div>
