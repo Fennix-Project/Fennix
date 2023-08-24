@@ -105,6 +105,7 @@
 			"DAPI",
 			"DEBUGCTL",
 			"defragment",
+			"dfdesc",
 			"dialup",
 			"Didx",
 			"DLAB",
@@ -235,6 +236,7 @@
 			"objptr",
 			"OEMID",
 			"Ofast",
+			"oldfd",
 			"OPENVOS",
 			"OPTMZ",
 			"OSFXSR",
@@ -393,6 +395,7 @@
 			"XSLM",
 			"XSLR",
 			"Xstac",
+			"Xuintptr",
 			"yottabyte",
 			"zettabyte"
 		],

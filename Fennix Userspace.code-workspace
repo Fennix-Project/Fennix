@@ -38,7 +38,8 @@
 			"ld.h": "c",
 			"syscall.h": "c",
 			"stdint.h": "c",
-			"setjmp.h": "c"
+			"setjmp.h": "c",
+			"limits.h": "c"
 		},
 		"cSpell.words": [
 			"auxv",
