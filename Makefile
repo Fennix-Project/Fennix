@@ -33,8 +33,9 @@ QEMUFLAGS += -device vmware-svga -M q35 \
 			 -object filter-dump,id=usernet0,netdev=usernet0,file=network.dmp,maxlen=1024 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
-			 -serial file:memtrk.dmp \
+			 -serial file:serial3.dmp \
 			 -serial file:serial4.dmp \
+			 -parallel file:parallel.log \
 			 -device ahci,id=ahci \
 			 -drive id=bootdsk,file=$(OSNAME).iso,format=raw,if=none \
 			 -device ide-hd,drive=bootdsk,bus=ahci.0 \
@@ -53,8 +54,9 @@ QEMUFLAGS += -M q35 \
 			 -object filter-dump,id=usernet0,netdev=usernet0,file=network.dmp,maxlen=1024 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
-			 -serial file:memtrk.dmp \
+			 -serial file:serial3.dmp \
 			 -serial file:serial4.dmp \
+			 -parallel file:parallel.log \
 			 -hda $(OSNAME).iso \
 			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
 			 -machine pcspk-audiodev=pa1 \
@@ -64,7 +66,7 @@ QEMUFLAGS += -M raspi3b \
 			 -cpu cortex-a57 \
 			 -serial file:serial.log \
 			 -serial file:profiler.log \
-			 -serial file:memtrk.dmp \
+			 -serial file:serial3.dmp \
 			 -serial file:serial4.dmp \
 			 -kernel $(OSNAME).img
 endif
@@ -187,19 +189,20 @@ QEMU_SMP = -smp 4
 endif
 
 vscode_debug_only:
-	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
-	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 1G $(QEMUFLAGS) $(QEMU_SMP_DBG)
+	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp parallel.log
+	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 4G $(QEMUFLAGS) $(QEMU_SMP_DBG)
 
 vscode_debug: build_lynx build_kernel build_userspace build_modules build_image vscode_debug_only
 
 qemu: qemu_vdisk
-	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
-#	touch serial.log
+	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp parallel.log
+#	touch serial.log parallel.log
 #	x-terminal-emulator -e tail -f serial.log &
+#	x-terminal-emulator -e tail -f parallel.log &
 	$(QEMU) $(QEMU_UEFI_BIOS) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) $(QEMU_SMP)
 
 qemubios: qemu_vdisk
-	rm -f serial.log profiler.log memtrk.dmp serial4.dmp network.dmp
+	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp parallel.log
 	$(QEMU) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) $(QEMU_SMP)
 
 run: build qemu
