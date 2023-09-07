@@ -120,94 +120,95 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d7/db9/Symbols_8cpp_source.html#l00051">51</a> of file <a class="el" href="../../d7/db9/Symbols_8cpp_source.html">Symbols.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordtype">char</span> *sections = <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span> *<span class="keyword">&gt;</span>(Sections);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        Elf_Sym *Symbols = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *StringAddress = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#if defined(a64) || defined(aa64)</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <a class="code" href="../../d4/dae/Kernel_2include_2elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> SymbolSize = 0;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="comment">// Elf64_Xword StringSize = 0;</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <a class="code" href="../../d4/dae/Kernel_2include_2elf_8h.html#af5924ece606c732e86f8263a19408e45">Elf32_Word</a> SymbolSize = 0;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="comment">// Elf32_Word StringSize = 0;</span></div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordtype">size_t</span> TotalEntries = 0;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; Num; ++<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>)</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            Elf_Shdr *sym = (Elf_Shdr *)&amp;sections[EntSize * <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            Elf_Shdr *<a class="code" href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a> = (Elf_Shdr *)&amp;sections[EntSize * sym-&gt;sh_link];</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a7d5d79792cdea43010184ab50d14ac5a">if</a> (sym-&gt;sh_type == <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a4add7784e43ec3d3b9c09d3ffc476a81">SHT_SYMTAB</a> &amp;&amp;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                <a class="code" href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a>-&gt;sh_type == <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#af4b916dc4ca5016fb5c374068002a532">SHT_STRTAB</a>)</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                Symbols = (Elf_Sym *)sym-&gt;sh_addr;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                StringAddress = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)<a class="code" href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a>-&gt;sh_addr;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                SymbolSize = (int)sym-&gt;sh_size;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="comment">// StringSize = (int)str-&gt;sh_size;</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="comment">// TotalEntries = Section.sh_size / sizeof(Elf64_Sym)</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                TotalEntries = sym-&gt;sh_size / sym-&gt;sh_entsize;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Symbol table found, %d entries&quot;</span>,</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                      SymbolSize / sym-&gt;sh_entsize);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(SymbolSize);</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            }</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        }</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160; </div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">if</span> (Symbols != <span class="keyword">nullptr</span> &amp;&amp; StringAddress != <span class="keyword">nullptr</span>)</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        {</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keywordtype">size_t</span> Index, MinimumIndex;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; TotalEntries - 1; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            {</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                MinimumIndex = <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <span class="keywordflow">for</span> (Index = <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> + 1; Index &lt; TotalEntries; Index++)</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                    <span class="keywordflow">if</span> (Symbols[Index].st_value &lt; Symbols[MinimumIndex].st_value)</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                        MinimumIndex = Index;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                Elf_Sym tmp = Symbols[MinimumIndex];</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                Symbols[MinimumIndex] = Symbols[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                Symbols[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = tmp;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            }</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <span class="keywordflow">while</span> (Symbols[0].st_value == 0)</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            {</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                <span class="keywordflow">if</span> (TotalEntries &lt;= 0)</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                Symbols++;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                TotalEntries--;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            }</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="keywordflow">if</span> (TotalEntries &lt;= 0)</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            {</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Symbol table is empty&quot;</span>);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            }</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Symbol table loaded, %d entries (%ld KiB)&quot;</span>,</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                  TotalEntries, TO_KiB(TotalEntries * <span class="keyword">sizeof</span>(SymbolTable)));</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            Elf_Sym *sym = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="keyword">const</span> <span class="keywordtype">char</span> *name = <span class="keyword">nullptr</span>;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0, <a class="code" href="../../de/d72/hash-string_8h.html#a73c18c59a39b18382081ec00bb456d43">g</a> = TotalEntries; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../de/d72/hash-string_8h.html#a73c18c59a39b18382081ec00bb456d43">g</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            {</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                sym = &amp;Symbols[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                name = (<span class="keyword">const</span> <span class="keywordtype">char</span> *)&amp;StringAddress[Symbols[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>].st_name];</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(name) == 0)</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                SymbolTable tbl{};</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                tbl.Address = sym-&gt;st_value;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                tbl.FunctionName = (<span class="keywordtype">char</span> *)name;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                this-&gt;SymTable.push_back(tbl);</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                this-&gt;SymbolTableExists = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                <span class="comment">// debug(&quot;Symbol %d: %#lx %s(%#lx)&quot;,</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                <span class="comment">//    i, tbl.Address,</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                <span class="comment">//    tbl.FunctionName,</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                <span class="comment">//    name);</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            }</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        }</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d7/db9/Symbols_8cpp_source.html#l00052">52</a> of file <a class="el" href="../../d7/db9/Symbols_8cpp_source.html">Symbols.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordtype">char</span> *sections = <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span> *<span class="keyword">&gt;</span>(Sections);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        Elf_Sym *Symbols = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *StringAddress = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#if defined(a64) || defined(aa64)</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../d4/dae/Kernel_2include_2elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a> SymbolSize = 0;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="comment">// Elf64_Xword StringSize = 0;</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#elif defined(a32)</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../d4/dae/Kernel_2include_2elf_8h.html#af5924ece606c732e86f8263a19408e45">Elf32_Word</a> SymbolSize = 0;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="comment">// Elf32_Word StringSize = 0;</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordtype">size_t</span> TotalEntries = 0;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; Num; ++<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>)</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            Elf_Shdr *sym = (Elf_Shdr *)&amp;sections[EntSize * <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            Elf_Shdr *<a class="code" href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a> = (Elf_Shdr *)&amp;sections[EntSize * sym-&gt;sh_link];</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a7d5d79792cdea43010184ab50d14ac5a">if</a> (sym-&gt;sh_type == <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a4add7784e43ec3d3b9c09d3ffc476a81">SHT_SYMTAB</a> &amp;&amp;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <a class="code" href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a>-&gt;sh_type == <a class="code" href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#af4b916dc4ca5016fb5c374068002a532">SHT_STRTAB</a>)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                Symbols = (Elf_Sym *)sym-&gt;sh_addr;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                StringAddress = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> *)<a class="code" href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a>-&gt;sh_addr;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                SymbolSize = (int)sym-&gt;sh_size;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="comment">// StringSize = (int)str-&gt;sh_size;</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                <span class="comment">// TotalEntries = Section.sh_size / sizeof(Elf64_Sym)</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                TotalEntries = sym-&gt;sh_size / sym-&gt;sh_entsize;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Symbol table found, %d entries&quot;</span>,</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                      SymbolSize / sym-&gt;sh_entsize);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a>(SymbolSize);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">if</span> (Symbols != <span class="keyword">nullptr</span> &amp;&amp; StringAddress != <span class="keyword">nullptr</span>)</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordtype">size_t</span> Index, MinimumIndex;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; TotalEntries - 1; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                MinimumIndex = <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <span class="keywordflow">for</span> (Index = <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> + 1; Index &lt; TotalEntries; Index++)</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                    <span class="keywordflow">if</span> (Symbols[Index].st_value &lt; Symbols[MinimumIndex].st_value)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                        MinimumIndex = Index;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                Elf_Sym tmp = Symbols[MinimumIndex];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                Symbols[MinimumIndex] = Symbols[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                Symbols[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = tmp;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="keywordflow">while</span> (Symbols[0].st_value == 0)</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                <span class="keywordflow">if</span> (TotalEntries &lt;= 0)</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                Symbols++;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                TotalEntries--;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            }</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160; </div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <span class="keywordflow">if</span> (TotalEntries &lt;= 0)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Symbol table is empty&quot;</span>);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Symbol table loaded, %d entries (%ld KiB)&quot;</span>,</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                  TotalEntries, TO_KiB(TotalEntries * <span class="keyword">sizeof</span>(SymbolTable)));</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            Elf_Sym *sym = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keyword">const</span> <span class="keywordtype">char</span> *name = <span class="keyword">nullptr</span>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0, <a class="code" href="../../de/d72/hash-string_8h.html#a73c18c59a39b18382081ec00bb456d43">g</a> = TotalEntries; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; <a class="code" href="../../de/d72/hash-string_8h.html#a73c18c59a39b18382081ec00bb456d43">g</a>; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                sym = &amp;Symbols[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>];</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                name = (<span class="keyword">const</span> <span class="keywordtype">char</span> *)&amp;StringAddress[Symbols[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>].st_name];</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(name) == 0)</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                SymbolTable tbl{};</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                tbl.Address = sym-&gt;st_value;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                tbl.FunctionName = <span class="keyword">new</span> <span class="keywordtype">char</span>[<a class="code" href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a>(name) + 1];</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                <a class="code" href="../../d3/d82/convert_8h.html#a06688b0d2444199f657ccb56b0ce11b3">strcpy</a>(tbl.FunctionName, name);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                this-&gt;SymTable.push_back(tbl);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                this-&gt;SymbolTableExists = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160; </div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                <span class="comment">// debug(&quot;Symbol %d: %#lx %s(%#lx)&quot;,</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                <span class="comment">//    i, tbl.Address,</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                <span class="comment">//    tbl.FunctionName,</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                <span class="comment">//    name);</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            }</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        }</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
 <div class="ttc" id="aKernel_2include_2elf_8h_html_a5447a48a3dae0bd24f606415268c6fe4"><div class="ttname"><a href="../../d4/dae/Kernel_2include_2elf_8h.html#a5447a48a3dae0bd24f606415268c6fe4">Elf64_Xword</a></div><div class="ttdeci">uint64_t Elf64_Xword</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00037">elf.h:37</a></div></div>
 <div class="ttc" id="aKernel_2include_2elf_8h_html_af5924ece606c732e86f8263a19408e45"><div class="ttname"><a href="../../d4/dae/Kernel_2include_2elf_8h.html#af5924ece606c732e86f8263a19408e45">Elf32_Word</a></div><div class="ttdeci">uint32_t Elf32_Word</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dae/Kernel_2include_2elf_8h_source.html#l00028">elf.h:28</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00160">types.h:160</a></div></div>
@@ -215,6 +216,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="aMultiboot64bitMap_8cpp_html_a7d5d79792cdea43010184ab50d14ac5a"><div class="ttname"><a href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a7d5d79792cdea43010184ab50d14ac5a">if</a></div><div class="ttdeci">if(!PML4.Present)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00205">Multiboot64bitMap.cpp:205</a></div></div>
 <div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_a4add7784e43ec3d3b9c09d3ffc476a81"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#a4add7784e43ec3d3b9c09d3ffc476a81">SHT_SYMTAB</a></div><div class="ttdeci">#define SHT_SYMTAB</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l00373">elf.h:373</a></div></div>
 <div class="ttc" id="aUserspace_2musl_2include_2elf_8h_html_af4b916dc4ca5016fb5c374068002a532"><div class="ttname"><a href="../../d5/d81/Userspace_2musl_2include_2elf_8h.html#af4b916dc4ca5016fb5c374068002a532">SHT_STRTAB</a></div><div class="ttdeci">#define SHT_STRTAB</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l00374">elf.h:374</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a06688b0d2444199f657ccb56b0ce11b3"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a06688b0d2444199f657ccb56b0ce11b3">strcpy</a></div><div class="ttdeci">#define strcpy(dest, src)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00132">convert.h:132</a></div></div>
 <div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00064">Convert.cpp:64</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
 <div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00098">debug.h:98</a></div></div>
@@ -222,7 +224,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="ahash-string_8h_html_a537825d894fc8d6a786f28a99ce8af2c"><div class="ttname"><a href="../../de/d72/hash-string_8h.html#a537825d894fc8d6a786f28a99ce8af2c">str</a></div><div class="ttdeci">const char * str</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d72/hash-string_8h_source.html#l00045">hash-string.h:45</a></div></div>
 <div class="ttc" id="ahash-string_8h_html_a73c18c59a39b18382081ec00bb456d43"><div class="ttname"><a href="../../de/d72/hash-string_8h.html#a73c18c59a39b18382081ec00bb456d43">g</a></div><div class="ttdeci">g</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d72/hash-string_8h_source.html#l00053">hash-string.h:53</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../de/d72/hash-string_8h_source.html#l00053">g</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00205">if()</a>, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l00374">SHT_STRTAB</a>, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l00373">SHT_SYMTAB</a>, <a class="el" href="../../de/d72/hash-string_8h_source.html#l00045">str</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00098">trace</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00064">UNUSED</a>.</p>
+<p class="reference">References <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../de/d72/hash-string_8h_source.html#l00053">g</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00205">if()</a>, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l00374">SHT_STRTAB</a>, <a class="el" href="../../d5/d81/Userspace_2musl_2include_2elf_8h_source.html#l00373">SHT_SYMTAB</a>, <a class="el" href="../../de/d72/hash-string_8h_source.html#l00045">str</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00132">strcpy</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00098">trace</a>, and <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00064">UNUSED</a>.</p>
 
 </div>
 </div>

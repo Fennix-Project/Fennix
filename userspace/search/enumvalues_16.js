@@ -17,7 +17,7 @@ var searchData=
   ['ver_5fmore_67232',['VER_MORE',['../d7/d05/dpkg_8c.html#ac654d21de7f6a409f1c1fdec91f95112afa8f9f4d4d75991761a32cdb1f892f98',1,'dpkg.c']]],
   ['ver_5fmore_5fequal_67233',['VER_MORE_EQUAL',['../d7/d05/dpkg_8c.html#ac654d21de7f6a409f1c1fdec91f95112a6f90bd977650b2780f23f0c483e4884e',1,'dpkg.c']]],
   ['ver_5fnull_67234',['VER_NULL',['../d7/d05/dpkg_8c.html#ac654d21de7f6a409f1c1fdec91f95112a05025cba225f734911d8c854764ce156',1,'dpkg.c']]],
-  ['version2_67235',['version2',['../dc/d72/fsck__minix_8c.html#a0b59433d0ab361c389e51d79061c070ca68e4bc47eecd5b21bf0e31d76c901c95',1,'version2():&#160;fsck_minix.c'],['../d3/d9a/mkfs__minix_8c.html#a16a85e2bc30b7d629e4a3cf3cc573559a68e4bc47eecd5b21bf0e31d76c901c95',1,'version2():&#160;mkfs_minix.c']]],
+  ['version2_67235',['version2',['../dc/d72/fsck__minix_8c.html#a0b59433d0ab361c389e51d79061c070ca68e4bc47eecd5b21bf0e31d76c901c95',1,'version2():&#160;fsck_minix.c'],['../d3/d9a/mkfs__minix_8c.html#a53a02fc48226971c712c23863ecf8196a68e4bc47eecd5b21bf0e31d76c901c95',1,'version2():&#160;mkfs_minix.c']]],
   ['version_5fmask_67236',['VERSION_MASK',['../d5/d40/ntpd_8c.html#a4dd89091f7fcec969d562dcff9eabef3a3bdd0253bec51792b83d9d6603e131af',1,'ntpd.c']]],
   ['version_5fshift_67237',['VERSION_SHIFT',['../d5/d40/ntpd_8c.html#a4dd89091f7fcec969d562dcff9eabef3a7913873b92ba0d517ed68aa06348b5de',1,'ntpd.c']]],
   ['violence_67238',['violence',['../d4/d81/m__menu_8c.html#ae6f7b430ccd2b8df9ba02ada329b4e02a1e61d054030f043874672a86f4c0934f',1,'m_menu.c']]],
@@ -45,7 +45,7 @@ var searchData=
   ['volume_5fid_5funprobed_67260',['VOLUME_ID_UNPROBED',['../dd/dd1/volume__id__internal_8h.html#a089980519c04e907da91d8401078532da58d13daa9d851ddf6264dc920d986f50',1,'volume_id_internal.h']]],
   ['volume_5fid_5funused_67261',['VOLUME_ID_UNUSED',['../dd/dd1/volume__id__internal_8h.html#a089980519c04e907da91d8401078532dadc28ffe6110f5baafcb99a64ee4d111c',1,'volume_id_internal.h']]],
   ['vt_5factivate_67262',['VT_ACTIVATE',['../df/d7a/get__console_8c.html#a4d29ca5db06e2ae647d1ec22548a9d2aa13af8490e45cc6076caf0b7a805c9e09',1,'get_console.c']]],
-  ['vt_5fdisallocate_67263',['VT_DISALLOCATE',['../d9/d94/deallocvt_8c.html#a1f9aebf1de3ebbf4283a4dcf73308562a61ea4674c05a1b11ad96d338a7acb5d3',1,'deallocvt.c']]],
-  ['vt_5fgetstate_67264',['VT_GETSTATE',['../dd/d5c/fgconsole_8c.html#a77867ab4129f63159b37bca3b652a798a70e336a2f3222ff3c3e315de208043e3',1,'VT_GETSTATE():&#160;fgconsole.c'],['../dd/d3f/cttyhack_8c.html#a07422cff4c3dd5075f91f87bd0e57ee7a70e336a2f3222ff3c3e315de208043e3',1,'VT_GETSTATE():&#160;cttyhack.c']]],
+  ['vt_5fdisallocate_67263',['VT_DISALLOCATE',['../d9/d94/deallocvt_8c.html#a394b3903fbf00ba2b6243f60689a5a5fa61ea4674c05a1b11ad96d338a7acb5d3',1,'deallocvt.c']]],
+  ['vt_5fgetstate_67264',['VT_GETSTATE',['../dd/d5c/fgconsole_8c.html#ac205be2172292384dd687b5471a87edda70e336a2f3222ff3c3e315de208043e3',1,'VT_GETSTATE():&#160;fgconsole.c'],['../dd/d3f/cttyhack_8c.html#a07422cff4c3dd5075f91f87bd0e57ee7a70e336a2f3222ff3c3e315de208043e3',1,'VT_GETSTATE():&#160;cttyhack.c']]],
   ['vt_5fwaitactive_67265',['VT_WAITACTIVE',['../df/d7a/get__console_8c.html#a4d29ca5db06e2ae647d1ec22548a9d2aa2824224f126eb1b70ff6b0a351e21cd5',1,'get_console.c']]]
 ];

@@ -56,7 +56,7 @@ var xz__dec__lzma2_8c =
       [ "lzma", "d2/de0/xz__dec__lzma2_8c.html#af6a6f9205250fc89eaf65b883e9a0d61", null ],
       [ "lzma2", "d2/de0/xz__dec__lzma2_8c.html#a4bcf961b2ee7d7a591f34791be1b6c53", null ],
       [ "rc", "d2/de0/xz__dec__lzma2_8c.html#ab2a56c2545fe04a3dd0e514f273bcccb", null ],
-      [ "temp", "d2/de0/xz__dec__lzma2_8c.html#a2eac4599f2e065b424511bae27b81d66", null ]
+      [ "temp", "d2/de0/xz__dec__lzma2_8c.html#a411db3adde2bc6941e29506eb7380f13", null ]
     ] ],
     [ "xz_dec_lzma2.temp", "d2/de0/xz__dec__lzma2_8c.html#d6/dbe/structxz__dec__lzma2_8temp", [
       [ "buf", "d2/de0/xz__dec__lzma2_8c.html#a9e5cf1f3ce817d95df27ec97a221c298", null ],

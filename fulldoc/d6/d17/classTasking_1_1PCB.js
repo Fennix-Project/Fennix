@@ -21,7 +21,7 @@ var classTasking_1_1PCB =
     [ "Parent", "d6/d17/classTasking_1_1PCB.html#aa1b70c60a92bb5cd30c81c17f51af986", null ],
     [ "ProcessDirectory", "d6/d17/classTasking_1_1PCB.html#a7a6f103c359920019219af1920d7db61", null ],
     [ "ProgramBreak", "d6/d17/classTasking_1_1PCB.html#a14b49497fae5e804561570215ce4532c", null ],
-    [ "Security", "d6/d17/classTasking_1_1PCB.html#a6a1c4c3de1fe5da6172be0186e7bde37", null ],
+    [ "Security", "d6/d17/classTasking_1_1PCB.html#abbf3d0c574fe169d021b54aa9bb62e20", null ],
     [ "Status", "d6/d17/classTasking_1_1PCB.html#a5885b53a35b073e2d97b2b928726646c", null ],
     [ "Threads", "d6/d17/classTasking_1_1PCB.html#ab346d75cb439c34d3d476d58cab35699", null ]
 ];

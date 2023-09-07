@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <tr class="separator:a2da06fd66dfbe9477ac6fcf44941bdfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e34f53d1842f1d2b065c42e0173b3aa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d91/pthread__attr__get_8c.html#a9e34f53d1842f1d2b065c42e0173b3aa">pthread_attr_getscope</a> (const pthread_attr_t *restrict a, int *restrict scope)</td></tr>
 <tr class="separator:a9e34f53d1842f1d2b065c42e0173b3aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f4c03dd2de4cb2de9ce36b5f55b66eb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d91/pthread__attr__get_8c.html#a0f4c03dd2de4cb2de9ce36b5f55b66eb">pthread_attr_getstack</a> (const pthread_attr_t *restrict a, void **restrict <a class="el" href="../../d2/de9/nscd__query_8c.html#a5b145232bd35dec239f2db0c19254143">addr</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> *restrict <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>)</td></tr>
+<tr class="memitem:a0f4c03dd2de4cb2de9ce36b5f55b66eb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d91/pthread__attr__get_8c.html#a0f4c03dd2de4cb2de9ce36b5f55b66eb">pthread_attr_getstack</a> (const pthread_attr_t *restrict a, void **restrict <a class="el" href="../../d2/de9/nscd__query_8c.html#ad0356aff0f3c3c81b2199530e5b261d6">addr</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> *restrict <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>)</td></tr>
 <tr class="separator:a0f4c03dd2de4cb2de9ce36b5f55b66eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91d94da83440c1faebe2e0ed26eb70a4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d91/pthread__attr__get_8c.html#a91d94da83440c1faebe2e0ed26eb70a4">pthread_attr_getstacksize</a> (const pthread_attr_t *restrict a, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#aa9d55e2f20e580b7445617d0d12fff6e">size_t</a> *restrict <a class="el" href="../../d7/d06/getpwent_8c.html#a854352f53b148adc24983a58a1866d66">size</a>)</td></tr>
 <tr class="separator:a91d94da83440c1faebe2e0ed26eb70a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -196,12 +196,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d91/pthread__attr__get_8c_source.html#l00008">8</a> of file <a class="el" href="../../d8/d91/pthread__attr__get_8c_source.html">pthread_attr_get.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    *<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> = a-&gt;_a_guardsize;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    *<a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> = a-&gt;_a_guardsize;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
-<div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a6d813a0f2b5281b18dea3f4cda696c33"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a></div><div class="ttdeci">multiboot_uint32_t size</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00000">multiboot.h:0</a></div></div>
+<div class="ttc" id="amultiboot_8h_html_a6d813a0f2b5281b18dea3f4cda696c33"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a></div><div class="ttdeci">multiboot_uint32_t size</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00000">multiboot.h:0</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00000">size</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
 
 </div>
 </div>
@@ -384,14 +384,14 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">if</span> (!a-&gt;_a_stackaddr)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    *<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> = a-&gt;_a_stacksize;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    *<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a> = (<span class="keywordtype">void</span> *)(a-&gt;_a_stackaddr - *<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    *<a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> = a-&gt;_a_stacksize;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    *<a class="code" href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a> = (<span class="keywordtype">void</span> *)(a-&gt;_a_stackaddr - *<a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2errno_8h_html_a2d1678d5a7cc8ce499643f3b8957def4"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a2d1678d5a7cc8ce499643f3b8957def4">EINVAL</a></div><div class="ttdeci">#define EINVAL</div><div class="ttdoc">Invalid argument.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">errno.h:85</a></div></div>
-<div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a8286ae6db03c34c4bb161accbfbfbbcd"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a></div><div class="ttdeci">multiboot_uint64_t addr</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00001">multiboot.h:1</a></div></div>
+<div class="ttc" id="amultiboot_8h_html_a8286ae6db03c34c4bb161accbfbfbbcd"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a></div><div class="ttdeci">multiboot_uint64_t addr</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00001">multiboot.h:1</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00001">addr</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">EINVAL</a>, and <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00000">size</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00001">addr</a>, <a class="el" href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00085">EINVAL</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
 
 </div>
 </div>
@@ -423,11 +423,11 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d91/pthread__attr__get_8c_source.html#l00047">47</a> of file <a class="el" href="../../d8/d91/pthread__attr__get_8c_source.html">pthread_attr_get.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;{</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    *<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> = a-&gt;_a_stacksize;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    *<a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> = a-&gt;_a_stacksize;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00000">size</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
 
 </div>
 </div>
@@ -663,12 +663,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d91/pthread__attr__get_8c_source.html#l00088">88</a> of file <a class="el" href="../../d8/d91/pthread__attr__get_8c_source.html">pthread_attr_get.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;{</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    *<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a> = a-&gt;__attr &amp; 3;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    *<a class="code" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> = a-&gt;__attr &amp; 3;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
-<div class="ttc" id="axatonum_8c_html_a53155e22eaa05190346890241be3367c"><div class="ttname"><a href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a></div><div class="ttdeci">#define type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d80/xatonum_8c_source.html#l00011">xatonum.c:11</a></div></div>
+<div class="ttc" id="amultiboot_8h_html_a8da1a8c7127a0371eec0810a29e30f3c"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a></div><div class="ttdeci">multiboot_uint32_t type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00008">multiboot.h:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d80/xatonum_8c_source.html#l00011">type</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00008">type</a>.</p>
 
 </div>
 </div>

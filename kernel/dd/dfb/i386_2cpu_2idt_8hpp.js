@@ -15,47 +15,24 @@ var i386_2cpu_2idt_8hpp =
       [ "Zero1", "d2/db2/namespaceInterruptDescriptorTable.html#abde535b94f83682e007dfbe3e4fefcd5", null ]
     ] ],
     [ "CallGate", "d2/db2/namespaceInterruptDescriptorTable.html#d4/ddb/structInterruptDescriptorTable_1_1CallGate", [
-      [ "DescriptorPrivilegeLevel", "d2/db2/namespaceInterruptDescriptorTable.html#a1d0cc604819e9038bcac2fb95545a5d6", null ],
       [ "DescriptorPrivilegeLevel", "d2/db2/namespaceInterruptDescriptorTable.html#a6d0725923f34353842ec98c127f7a642", null ],
       [ "ParameterCount", "d2/db2/namespaceInterruptDescriptorTable.html#a6eec4d990725e235dc66938a6eb9c251", null ],
-      [ "Present", "d2/db2/namespaceInterruptDescriptorTable.html#a6f186360b4b78195f040607708f8f65f", null ],
       [ "Present", "d2/db2/namespaceInterruptDescriptorTable.html#a58dfcea040f6faf2d424f1de62736055", null ],
-      [ "Reserved0", "d2/db2/namespaceInterruptDescriptorTable.html#a1bb9dc2ed803ece3dadf0d0ea4aeb435", null ],
       [ "Reserved0", "d2/db2/namespaceInterruptDescriptorTable.html#a018e11d61eb4e51d7cb14b6ddcc8ccce", null ],
-      [ "Reserved1", "d2/db2/namespaceInterruptDescriptorTable.html#ad34114b5261e6ef28dec9722854741b4", null ],
-      [ "Reserved2", "d2/db2/namespaceInterruptDescriptorTable.html#a802b970ef6e8c47ba07e039720f79e90", null ],
       [ "TargetCodeSegmentOffsetHigh", "d2/db2/namespaceInterruptDescriptorTable.html#a04c0d5f77fe3014f2f9ccacae6ab6701", null ],
       [ "TargetCodeSegmentOffsetLow", "d2/db2/namespaceInterruptDescriptorTable.html#ab27f797bee5e9f7c27b6af5f2b85656a", null ],
       [ "TargetCodeSegmentSelector", "d2/db2/namespaceInterruptDescriptorTable.html#ae917290938de0c555cca52724e73e586", null ],
-      [ "TargetOffsetHigh", "d2/db2/namespaceInterruptDescriptorTable.html#ac2de7537b4ce746e9c6432497b51fe54", null ],
-      [ "TargetOffsetLow", "d2/db2/namespaceInterruptDescriptorTable.html#a7743ac5b92c7ab1dd78b139e7407dd02", null ],
-      [ "TargetOffsetMiddle", "d2/db2/namespaceInterruptDescriptorTable.html#a15a3d947c7efde87d95ff5e0c0de8aee", null ],
-      [ "TargetSelector", "d2/db2/namespaceInterruptDescriptorTable.html#a887bba6339f128b4ba9973a3969281b3", null ],
-      [ "Type", "d2/db2/namespaceInterruptDescriptorTable.html#a5c9c2853eb484745647be4178360d25e", null ],
       [ "Type", "d2/db2/namespaceInterruptDescriptorTable.html#a562cc455e37f330cc1ee18b898de7bef", null ],
-      [ "Zero", "d2/db2/namespaceInterruptDescriptorTable.html#aacd19b9ab985d2b9bb9cdcbd12d14911", null ],
-      [ "Zero0", "d2/db2/namespaceInterruptDescriptorTable.html#ac9aee7c07633cb1d4f2751174ae14bb4", null ],
-      [ "Zero1", "d2/db2/namespaceInterruptDescriptorTable.html#aa2b1360c589c9583c9c08ced4c3f9641", null ]
+      [ "Zero", "d2/db2/namespaceInterruptDescriptorTable.html#aacd19b9ab985d2b9bb9cdcbd12d14911", null ]
     ] ],
     [ "InterruptGate", "d2/db2/namespaceInterruptDescriptorTable.html#d0/db7/structInterruptDescriptorTable_1_1InterruptGate", [
-      [ "DescriptorPrivilegeLevel", "d2/db2/namespaceInterruptDescriptorTable.html#a7fac7b50b3c952253f1211cbc966bf6e", null ],
       [ "DescriptorPrivilegeLevel", "d2/db2/namespaceInterruptDescriptorTable.html#a5bc0a5251674dd0692d3fbf4d2ac49a4", null ],
-      [ "InterruptStackTable", "d2/db2/namespaceInterruptDescriptorTable.html#aada7d95a2b6e39f2c52082cc90d58a0e", null ],
-      [ "Present", "d2/db2/namespaceInterruptDescriptorTable.html#a800d472a9531274a3642454b46247baf", null ],
       [ "Present", "d2/db2/namespaceInterruptDescriptorTable.html#aee04942189b0ff390c6c5c8b64a6fe02", null ],
-      [ "Reserved0", "d2/db2/namespaceInterruptDescriptorTable.html#afe66d4692722b1abf48960425fee7a2a", null ],
       [ "Reserved0", "d2/db2/namespaceInterruptDescriptorTable.html#a1be51a396ca47c08a32b8ffca6023674", null ],
-      [ "Reserved1", "d2/db2/namespaceInterruptDescriptorTable.html#a516eae3ef465286c7dbc525614f20e0b", null ],
       [ "TargetCodeSegmentOffsetHigh", "d2/db2/namespaceInterruptDescriptorTable.html#a434c6ac332ce86350968f856114dd3c0", null ],
       [ "TargetCodeSegmentOffsetLow", "d2/db2/namespaceInterruptDescriptorTable.html#a76f57b0b5b932b60eb500531618ee18a", null ],
       [ "TargetCodeSegmentSelector", "d2/db2/namespaceInterruptDescriptorTable.html#a186e763fda350f366d212e4b52653bf1", null ],
-      [ "TargetOffsetHigh", "d2/db2/namespaceInterruptDescriptorTable.html#a3b5ed6b9cf38e2aeab2f596d91dbf9f0", null ],
-      [ "TargetOffsetLow", "d2/db2/namespaceInterruptDescriptorTable.html#a9c058774ab4cb0503b16f5a4b747c065", null ],
-      [ "TargetOffsetMiddle", "d2/db2/namespaceInterruptDescriptorTable.html#ac954a518de5e37b82aa5f62a54a1725c", null ],
-      [ "TargetSelector", "d2/db2/namespaceInterruptDescriptorTable.html#a2fb738dc401a60e19e08a27aa3c9dfda", null ],
-      [ "Type", "d2/db2/namespaceInterruptDescriptorTable.html#ab453e5df6f931dfe3c14cf9ae49ef7cf", null ],
       [ "Type", "d2/db2/namespaceInterruptDescriptorTable.html#a7ce5a628a974e01803ebdd70d8f0299a", null ],
-      [ "Zero", "d2/db2/namespaceInterruptDescriptorTable.html#abab95ea24f3c7c6fa811fa8bbe378f44", null ],
       [ "Zero", "d2/db2/namespaceInterruptDescriptorTable.html#aeb13fcc8b112684ea683d7e315d326f6", null ]
     ] ],
     [ "TaskGate", "d2/db2/namespaceInterruptDescriptorTable.html#d9/d56/structInterruptDescriptorTable_1_1TaskGate", [
@@ -77,14 +54,9 @@ var i386_2cpu_2idt_8hpp =
       [ "BaseAddress", "d2/db2/namespaceInterruptDescriptorTable.html#a597331713a61a7cc5dd65214f30b959e", null ],
       [ "Limit", "d2/db2/namespaceInterruptDescriptorTable.html#ad543cee3a8b5d644936c11be01cc0a7a", null ]
     ] ],
+    [ "TrapGate", "dd/dfb/i386_2cpu_2idt_8hpp.html#a92cd8284cd23400e03f67c2cc3fc3d2b", null ],
     [ "TSSDescriptor", "dd/dfb/i386_2cpu_2idt_8hpp.html#ab3e06ba8bb7cb9aa8e0a2b6526a6dc03", null ],
     [ "GateType", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46fa", [
-      [ "LDT_64BIT", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46faa7e587e661a4815f6ebcbd7d72b4e182b", null ],
-      [ "AVAILABLE_64BIT_TSS", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46faac8654aaf6cd5dd0222323dea574eb92e", null ],
-      [ "BUSY_64BIT_TSS", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46faa118ee39182336b9aecac6d622c8e7a5a", null ],
-      [ "CALL_GATE_64BIT", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46faa7c7583eddfa50f1c3212d4c6cc3f518a", null ],
-      [ "INTERRUPT_GATE_64BIT", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46faa0a90b978479599ae61cc9266ab837ac0", null ],
-      [ "TRAP_GATE_64BIT", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46faabde2cefed71d42f51653059f5c95733d", null ],
       [ "AVAILABLE_16BIT_TSS", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46faa16c494289f483b24448defc04ba317c5", null ],
       [ "LDT", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46faab6d58f045ecf9ad3ff18d474bbd0833a", null ],
       [ "BUSY_16BIT_TSS", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46faa0cb190458642325a19475997d56183c1", null ],
@@ -99,14 +71,10 @@ var i386_2cpu_2idt_8hpp =
       [ "TRAP_GATE_32BIT", "dd/dfb/i386_2cpu_2idt_8hpp.html#ad88b3bacbda9b3aaa6550432427f46faa8f4bbd1ba64ad1e1b02fc2c3098a3da2", null ]
     ] ],
     [ "PrivilegeLevelType", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcb", [
-      [ "RING0", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcba0fcddc8feb45edcdb02be62f7c120296", null ],
-      [ "RING1", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcbae16eff06f8c1580d3217539f112a5b5a", null ],
-      [ "RING2", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcba967dcfd2ba8dffd87638a19f69fd0d2f", null ],
-      [ "RING3", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcba1b962115c9c2e43471cecf1b5b40c268", null ],
-      [ "RING0", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcba0fcddc8feb45edcdb02be62f7c120296", null ],
-      [ "RING1", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcbae16eff06f8c1580d3217539f112a5b5a", null ],
-      [ "RING2", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcba967dcfd2ba8dffd87638a19f69fd0d2f", null ],
-      [ "RING3", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcba1b962115c9c2e43471cecf1b5b40c268", null ]
+      [ "RING0", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcbadef256aa5534eb36bf70652626430f53", null ],
+      [ "RING1", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcba6a24186a49c7106721c248d422a609ae", null ],
+      [ "RING2", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcbad77c3b7ef7f754570610f715468278b8", null ],
+      [ "RING3", "dd/dfb/i386_2cpu_2idt_8hpp.html#a12c6a714066f266c7da16fbd842d5bcba0fdc87971ed5f9e04fd7375970dc6bc2", null ]
     ] ],
     [ "Init", "dd/dfb/i386_2cpu_2idt_8hpp.html#a5275e6707c957c5ba4b050102990c908", null ],
     [ "SetEntry", "dd/dfb/i386_2cpu_2idt_8hpp.html#a1c8c4f4579ce990e1dfa47b85d48d7dc", null ]

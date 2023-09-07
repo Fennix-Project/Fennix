@@ -738,7 +738,7 @@ var structglobals =
     [ "tty_name", "d8/d11/structglobals.html#a5220ba47f3687bb7a643ac984d0e4e6c", null ],
     [ "tv", "d8/d11/structglobals.html#ad0ebcc7b5d8639b7d85d7322a2eb0b96", null ],
     [ "u", "d8/d11/structglobals.html#afb606254428b050850273c2f3708677e", null ],
-    [ "u", "d8/d11/structglobals.html#a8e520f2b1c2709dce00f7a0a7f0ecc64", null ],
+    [ "u", "d8/d11/structglobals.html#ad472cee937aa6a1a63ef4ea0b110e735", null ],
     [ "unit", "d8/d11/structglobals.html#a2fdc7c507908828dc8997d61f0353a7a", null ],
     [ "units_per_sector", "d8/d11/structglobals.html#a73586778d506d9833fac28846bcaa35c", null ],
     [ "unmask", "d8/d11/structglobals.html#a9b36565751ba7ab4c10f6bcb860f9a6b", null ],

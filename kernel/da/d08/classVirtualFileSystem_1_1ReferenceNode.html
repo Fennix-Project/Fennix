@@ -411,7 +411,7 @@ Friends</h2></td></tr>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <span class="keywordflow">return</span> this-&gt;<a class="code" href="../../da/d08/classVirtualFileSystem_1_1ReferenceNode.html#affe88027edde7dcf868f6ac5796bd710">node</a>-&gt;<a class="code" href="../../d7/dfb/classVirtualFileSystem_1_1Node.html#a6705fcbb1f33f4919fdf90ed7a2ecdb0">Operator</a>-&gt;<a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html#a0ad894c0222ae1c172adc0fd5a7c8b8c">Seek</a>(this-&gt;<a class="code" href="../../da/d08/classVirtualFileSystem_1_1ReferenceNode.html#affe88027edde7dcf868f6ac5796bd710">node</a>, _Offset, Whence, RefOffset);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        }</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Current offset is %d&quot;</span>, this-&gt;<a class="code" href="../../da/d08/classVirtualFileSystem_1_1ReferenceNode.html#ad404a3fbb3d7c641939c56094effe77d">Offset</a>.load());</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="comment">// debug(&quot;Current offset is %d&quot;, this-&gt;Offset.load());</span></div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">switch</span> (Whence)</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        {</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d1/d85/filesystem_8hpp.html#a0d112bae8fd35be772185b6ec6bcbe64">SEEK_SET</a>:</div>
@@ -473,10 +473,10 @@ Friends</h2></td></tr>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        }</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        off_t RetOffset = off_t(this-&gt;<a class="code" href="../../da/d08/classVirtualFileSystem_1_1ReferenceNode.html#ad404a3fbb3d7c641939c56094effe77d">Offset</a>.load());</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;( %d %ld %s[%d] ) -&gt; %d&quot;</span>,</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;              _Offset, this-&gt;<a class="code" href="../../da/d08/classVirtualFileSystem_1_1ReferenceNode.html#ad404a3fbb3d7c641939c56094effe77d">Offset</a>.load(),</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;              SeekStrings[Whence], Whence,</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;              RetOffset);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="comment">// debug(&quot;( %d %ld %s[%d] ) -&gt; %d&quot;,</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="comment">//    _Offset, this-&gt;Offset.load(),</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="comment">//    SeekStrings[Whence], Whence,</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="comment">//    RetOffset);</span></div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">return</span> RetOffset;</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
 <div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00099">debug.h:99</a></div></div>

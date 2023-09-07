@@ -1,9 +1,9 @@
 var structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004 =
 [
     [ "Get", "db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html#ad97d95cc519553e21b0a7388cacb3fd2", null ],
-    [ "EAX", "db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html#a0957f91e9876957c8f9e583f5cd910df", null ],
-    [ "EBX", "db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html#aca0d63b20f94686048395ab769330be4", null ],
-    [ "ECX", "db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html#afd518495e9a0fdb2727e32071d04612e", null ],
-    [ "EDX", "db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html#a50ad3617d31fe6bb9396d264c20787e4", null ],
+    [ "EAX", "db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html#af978e1de592b4fd2f8d179284f6c62ce", null ],
+    [ "EBX", "db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html#af3e1d726f8bc3ea0a5c94fe80dc5c65e", null ],
+    [ "ECX", "db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html#ae8643f8d33656822abb7d03ad5d33cb6", null ],
+    [ "EDX", "db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html#af34785af021063926fed21980e402992", null ],
     [ "raw", "db/d6b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000004.html#affdf03a60c9619edb42fd27ff2c1008d", null ]
 ];

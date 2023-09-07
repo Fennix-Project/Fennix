@@ -114,7 +114,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:acd0291c888c0687674fc665bbd0e7e29"><td class="memItemLeft" align="right" valign="top">static char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da9/kxgettext_8c.html#acd0291c888c0687674fc665bbd0e7e29">escape</a> (const char *<a class="el" href="../../d4/d49/vi_8c.html#a1144b296168b3bd3f9c04d75f4d5b94c">text</a>, char *bf, int <a class="el" href="../../dd/ddb/i386_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
+<tr class="memitem:acd0291c888c0687674fc665bbd0e7e29"><td class="memItemLeft" align="right" valign="top">static char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da9/kxgettext_8c.html#acd0291c888c0687674fc665bbd0e7e29">escape</a> (const char *<a class="el" href="../../d4/d49/vi_8c.html#a1144b296168b3bd3f9c04d75f4d5b94c">text</a>, char *bf, int <a class="el" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>)</td></tr>
 <tr class="separator:acd0291c888c0687674fc665bbd0e7e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a431c62474f60013ca6e81e4e0ee17635"><td class="memItemLeft" align="right" valign="top">static struct <a class="el" href="../../d6/da9/kxgettext_8c.html#dc/dda/structfile__line">file_line</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da9/kxgettext_8c.html#a431c62474f60013ca6e81e4e0ee17635">file_line__new</a> (char *<a class="el" href="../../d4/d78/expr_8h.html#d7/d3a/structfile">file</a>, int <a class="el" href="../../d1/dbe/ash_8c.html#a7ebe41dbc324c417b903071139d41440">lineno</a>)</td></tr>
 <tr class="separator:a431c62474f60013ca6e81e4e0ee17635"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,16 +292,16 @@ option</td>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        eol = 1;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    *bfp++ = <span class="charliteral">&#39;&quot;&#39;</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    --<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    --<a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">if</span> (multiline) {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        *bfp++ = <span class="charliteral">&#39;&quot;&#39;</span>;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        *bfp++ = <span class="charliteral">&#39;\n&#39;</span>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        *bfp++ = <span class="charliteral">&#39;&quot;&#39;</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> -= 3;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> -= 3;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">while</span> (*<a class="code" href="../../d4/d49/vi_8c.html#a1144b296168b3bd3f9c04d75f4d5b94c">text</a> != <span class="charliteral">&#39;\0&#39;</span> &amp;&amp; <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> &gt; 1) {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">while</span> (*<a class="code" href="../../d4/d49/vi_8c.html#a1144b296168b3bd3f9c04d75f4d5b94c">text</a> != <span class="charliteral">&#39;\0&#39;</span> &amp;&amp; <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> &gt; 1) {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">if</span> (*<a class="code" href="../../d4/d49/vi_8c.html#a1144b296168b3bd3f9c04d75f4d5b94c">text</a> == <span class="charliteral">&#39;&quot;&#39;</span>)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            *bfp++ = <span class="charliteral">&#39;\\&#39;</span>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (*<a class="code" href="../../d4/d49/vi_8c.html#a1144b296168b3bd3f9c04d75f4d5b94c">text</a> == <span class="charliteral">&#39;\n&#39;</span>) {</div>
@@ -310,13 +310,13 @@ option</td>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            *bfp++ = <span class="charliteral">&#39;&quot;&#39;</span>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            *bfp++ = <span class="charliteral">&#39;\n&#39;</span>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            *bfp++ = <span class="charliteral">&#39;&quot;&#39;</span>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> -= 5;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> -= 5;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            ++<a class="code" href="../../d4/d49/vi_8c.html#a1144b296168b3bd3f9c04d75f4d5b94c">text</a>;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">goto</span> <a class="code" href="../../da/d18/readprofile_8c.html#a2f905a9c4868f5f248b12d584a78dfbd">next</a>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        *bfp++ = *<a class="code" href="../../d4/d49/vi_8c.html#a1144b296168b3bd3f9c04d75f4d5b94c">text</a>++;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<a class="code" href="../../da/d18/readprofile_8c.html#a2f905a9c4868f5f248b12d584a78dfbd">next</a>:</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        --<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        --<a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (multiline &amp;&amp; eol)</div>
@@ -328,13 +328,13 @@ option</td>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">return</span> bf;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">types.h:37</a></div></div>
-<div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
 <div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00064">Convert.cpp:64</a></div></div>
 <div class="ttc" id="aconvert_8h_html_a88b07011b83b06b8856027f02d55a880"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a></div><div class="ttdeci">char * strchr(const char *String, int Char)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00148">Convert.cpp:148</a></div></div>
+<div class="ttc" id="amultiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
 <div class="ttc" id="areadprofile_8c_html_a2f905a9c4868f5f248b12d584a78dfbd"><div class="ttname"><a href="../../da/d18/readprofile_8c.html#a2f905a9c4868f5f248b12d584a78dfbd">next</a></div><div class="ttdeci">#define next</div></div>
 <div class="ttc" id="avi_8c_html_a1144b296168b3bd3f9c04d75f4d5b94c"><div class="ttname"><a href="../../d4/d49/vi_8c.html#a1144b296168b3bd3f9c04d75f4d5b94c">text</a></div><div class="ttdeci">#define text</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d49/vi_8c_source.html#l00468">vi.c:468</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>, <a class="el" href="../../da/d18/readprofile_8c.html#a2f905a9c4868f5f248b12d584a78dfbd">next</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00148">strchr()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>, and <a class="el" href="../../d4/d49/vi_8c_source.html#l00468">text</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00002">len</a>, <a class="el" href="../../da/d18/readprofile_8c.html#a2f905a9c4868f5f248b12d584a78dfbd">next</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00037">NULL</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00148">strchr()</a>, <a class="el" href="../../d0/dc7/Convert_8cpp_source.html#l00064">strlen()</a>, and <a class="el" href="../../d4/d49/vi_8c_source.html#l00468">text</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d6/da9/kxgettext_8c_source.html#l00144">message__add()</a>.</p>
 

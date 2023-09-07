@@ -64,8 +64,8 @@ var bb__e2fs__defs_8h =
       [ "i_mtime", "d3/da1/bb__e2fs__defs_8h.html#a7eb44698eabf570fee0e65d22cc5fbd1", null ],
       [ "i_size", "d3/da1/bb__e2fs__defs_8h.html#a2b9e2a1c732aa02b5dead0948fb47c72", null ],
       [ "i_uid", "d3/da1/bb__e2fs__defs_8h.html#a082def4b3c1c0c5f9dce1eab8ba51189", null ],
-      [ "osd1", "d3/da1/bb__e2fs__defs_8h.html#a46fafbd498db4f2dcbcd5b2041eba9b7", null ],
-      [ "osd2", "d3/da1/bb__e2fs__defs_8h.html#ab4d720b842ab9a4e422d3112ce4b1430", null ]
+      [ "osd1", "d3/da1/bb__e2fs__defs_8h.html#a34b30752f683e16029a140cb15081fc8", null ],
+      [ "osd2", "d3/da1/bb__e2fs__defs_8h.html#a191a0611a6c0a5bade2ed4b8a6dbf111", null ]
     ] ],
     [ "ext2_inode_large", "d3/da1/bb__e2fs__defs_8h.html#db/d30/structext2__inode__large", [
       [ "i_atime", "d3/da1/bb__e2fs__defs_8h.html#a223bdea775f6086f8d74d0c393d28fab", null ],
@@ -86,8 +86,8 @@ var bb__e2fs__defs_8h =
       [ "i_pad1", "d3/da1/bb__e2fs__defs_8h.html#a9b4e363e1df7d685a0f0aaf0ca4fae35", null ],
       [ "i_size", "d3/da1/bb__e2fs__defs_8h.html#a6a50e850cc63306ec44dc52a293750be", null ],
       [ "i_uid", "d3/da1/bb__e2fs__defs_8h.html#a8b0b6f9071680a49c9727c576153f180", null ],
-      [ "osd1", "d3/da1/bb__e2fs__defs_8h.html#ac5743f64556b62d72a6b5a27ec787690", null ],
-      [ "osd2", "d3/da1/bb__e2fs__defs_8h.html#ac735dcec1cc5d7ff0a32fa52d179bcc3", null ]
+      [ "osd1", "d3/da1/bb__e2fs__defs_8h.html#a9ca308829a5dfefba96b62edf3bc287e", null ],
+      [ "osd2", "d3/da1/bb__e2fs__defs_8h.html#ac65692de583c61f12d2b680001901131", null ]
     ] ],
     [ "ext2_super_block", "d3/da1/bb__e2fs__defs_8h.html#d9/ddf/structext2__super__block", [
       [ "s_algorithm_usage_bitmap", "d3/da1/bb__e2fs__defs_8h.html#ab3772dfdb48734922447cc462e5495ed", null ],

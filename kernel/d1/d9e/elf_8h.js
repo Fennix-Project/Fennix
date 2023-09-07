@@ -102,11 +102,11 @@ var elf_8h =
     ] ],
     [ "Elf32_Dyn", "d1/d9e/elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d1/d9e/elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d1/d9e/elf_8h.html#aab2bd600b4d722126cfae13a12731c61", null ]
+      [ "d_un", "d1/d9e/elf_8h.html#ae0c711303b5df6385c581faf94ef778b", null ]
     ] ],
     [ "Elf64_Dyn", "d1/d9e/elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d1/d9e/elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d1/d9e/elf_8h.html#a8470668f23aff0e60b34b911208f2bc3", null ]
+      [ "d_un", "d1/d9e/elf_8h.html#a4383caf7cf919e0f03ad531840a9ff72", null ]
     ] ],
     [ "Elf32_Rela", "d1/d9e/elf_8h.html#d6/d35/structElf32__Rela", [
       [ "r_addend", "d1/d9e/elf_8h.html#a1952286a900648afb9029c68a8bcea4d", null ],
@@ -585,10 +585,6 @@ var elf_8h =
       [ "PT_SHLIB", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a2ed11f7cb857ea0462c80c1a48ee5928", null ],
       [ "PT_PHDR", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a34eb875ba646e2f9c25c7637c0d21587", null ],
       [ "PT_TLS", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a35043cd8c586647c07d6a8ab7c3f7b31", null ],
-      [ "PT_LOSUNW", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2ab37851a21028f68046934ab559459c2f", null ],
-      [ "PT_SUNWBSS", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2ae51a9952f7202e9c2c5808c421836ad9", null ],
-      [ "PT_SUNWSTACK", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a245a2852fd792fbd6f45e4a7593c76e4", null ],
-      [ "PT_HISUNW", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2abd2ab1a79917a2fd28e9ff22f1b0d573", null ],
       [ "PT_LOPROC", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a20f5617084b54d26ae506ce9dabf3dc5", null ],
       [ "PT_HIPROC", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a384e8634c1aa98561199b04d3f49a48b", null ],
       [ "PT_GNU_EH_FRAME", "d1/d9e/elf_8h.html#ac07037baa575afc7b34fa782e6a49be2adb27e86abc40960ca0544a9c6f660424", null ],

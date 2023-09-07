@@ -102,15 +102,15 @@ var Kernel_2include_2elf_8h =
     ] ],
     [ "Elf32_Dyn", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#aab2bd600b4d722126cfae13a12731c61", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a3d87d4a100ec4d9f2a7c30e1d016b593", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a7fee82322011b19bde5534fe6bb7ffbe", null ]
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ae0c711303b5df6385c581faf94ef778b", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a162d8275b988957013c6b5d8e64ea4e5", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ae8ebb012f6bce20922c594b36c9d2009", null ]
     ] ],
     [ "Elf64_Dyn", "d5/d81/Userspace_2musl_2include_2elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a8470668f23aff0e60b34b911208f2bc3", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a2d3d95bf23855a32e358b514282ff0a2", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ad8f215e4f813ee2fcc9166ad1c127aa1", null ]
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a4383caf7cf919e0f03ad531840a9ff72", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a4bcae0e827a43b4395d39e7daec62e1f", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a03f60235831f137306deb2004f7ec943", null ]
     ] ],
     [ "Elf32_Rela", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d6/d35/structElf32__Rela", [
       [ "r_addend", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a1952286a900648afb9029c68a8bcea4d", null ],
@@ -597,10 +597,6 @@ var Kernel_2include_2elf_8h =
       [ "PT_SHLIB", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a2ed11f7cb857ea0462c80c1a48ee5928", null ],
       [ "PT_PHDR", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a34eb875ba646e2f9c25c7637c0d21587", null ],
       [ "PT_TLS", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a35043cd8c586647c07d6a8ab7c3f7b31", null ],
-      [ "PT_LOSUNW", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2ab37851a21028f68046934ab559459c2f", null ],
-      [ "PT_SUNWBSS", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2ae51a9952f7202e9c2c5808c421836ad9", null ],
-      [ "PT_SUNWSTACK", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a245a2852fd792fbd6f45e4a7593c76e4", null ],
-      [ "PT_HISUNW", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2abd2ab1a79917a2fd28e9ff22f1b0d573", null ],
       [ "PT_LOPROC", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a20f5617084b54d26ae506ce9dabf3dc5", null ],
       [ "PT_HIPROC", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2a384e8634c1aa98561199b04d3f49a48b", null ],
       [ "PT_GNU_EH_FRAME", "d4/dae/Kernel_2include_2elf_8h.html#ac07037baa575afc7b34fa782e6a49be2adb27e86abc40960ca0544a9c6f660424", null ],

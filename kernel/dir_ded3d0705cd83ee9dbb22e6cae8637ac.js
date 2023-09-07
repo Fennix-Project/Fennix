@@ -1,6 +1,10 @@
 var dir_ded3d0705cd83ee9dbb22e6cae8637ac =
 [
-    [ "1", "dir_6d705f79e976244689e9d3b37ce472e6.html", "dir_6d705f79e976244689e9d3b37ce472e6" ],
-    [ "2", "dir_e1159a740ac05cedad20f7062110e1a7.html", "dir_e1159a740ac05cedad20f7062110e1a7" ],
-    [ "_start.s", "d8/d9c/amd64_2Bootstrap_2Multiboot_2__start_8s.html", null ]
+    [ "Headers", "dir_8bee62b059f080d1c229f7638fe08fac.html", "dir_8bee62b059f080d1c229f7638fe08fac" ],
+    [ "Helper", "dir_a6624e90e93b80f8d433b3324a59995e.html", "dir_a6624e90e93b80f8d433b3324a59995e" ],
+    [ "Paging", "dir_4a8a14e207ea956a8acc197ba41543d8.html", "dir_4a8a14e207ea956a8acc197ba41543d8" ],
+    [ "Multiboot.cpp", "dc/d6b/amd64_2Bootstrap_2Multiboot_2Multiboot_8cpp.html", "dc/d6b/amd64_2Bootstrap_2Multiboot_2Multiboot_8cpp" ],
+    [ "Multiboot1Parse.cpp", "d3/da8/amd64_2Bootstrap_2Multiboot_2Multiboot1Parse_8cpp.html", "d3/da8/amd64_2Bootstrap_2Multiboot_2Multiboot1Parse_8cpp" ],
+    [ "Multiboot2Parse.cpp", "d1/d4f/amd64_2Bootstrap_2Multiboot_2Multiboot2Parse_8cpp.html", "d1/d4f/amd64_2Bootstrap_2Multiboot_2Multiboot2Parse_8cpp" ],
+    [ "Start.s", "d6/d5a/amd64_2Bootstrap_2Multiboot_2Start_8s.html", null ]
 ];

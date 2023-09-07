@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d0/dc7/Convert_8cpp.html#a63f423b45c7b0a5fac93c1c27cab43e7":[7,0,0,7,4,18],
 "d0/dc7/Convert_8cpp.html#a65ce096f31d9ca7b828b190ea1d850cf":[7,0,0,7,4,16],
 "d0/dc7/Convert_8cpp.html#a6cb80ce39a04b9cd0e4bc2b40771f469":[7,0,0,7,4,11],
 "d0/dc7/Convert_8cpp.html#a6d16cfe582260a88df041a033f946d23":[7,0,0,7,4,44],
@@ -113,11 +112,11 @@ var NAVTREEINDEX5 =
 "d1/d13/Zero_8cpp.html#ad0e5ed492a288b4772b4145579df2508":[7,0,0,3,1,3,3],
 "d1/d13/Zero_8cpp_source.html":[7,0,0,3,1,3],
 "d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html":[6,0,6,2,2,4],
-"d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html#a2efaef3e32b7afec46fb5c2144a0bea8":[6,0,6,2,2,4,4],
-"d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html#a6c20f8f362a04e8ce8b7b6b2f517ec7e":[6,0,6,2,2,4,2],
+"d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html#a015a4105360815f549ca23a7e86455da":[6,0,6,2,2,4,2],
+"d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html#a2e1cffb03a8527cd737547df5102e5b4":[6,0,6,2,2,4,1],
+"d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html#a3c8113a0507b6237e8f3e96afe72d7f7":[6,0,6,2,2,4,4],
 "d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html#a8a62734f5ed7a0b2d03ffb923db8fcea":[6,0,6,2,2,4,0],
-"d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html#ac8a8c1ad4b3267eb6ff8f6e32a6850bb":[6,0,6,2,2,4,1],
-"d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html#ad27df04fa2a90c2c9cbd5e279b8c6c89":[6,0,6,2,2,4,3],
+"d1/d1a/structCPU_1_1x86_1_1Intel_1_1CPUID0x00000004__1.html#ab5a81d4f8d3eb382065a30f11ea6f729":[6,0,6,2,2,4,3],
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html":[6,0,32,6],
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0a4eb053132bb31b6a8b6c5dd96b8119":[6,0,32,6,26],
 "d1/d1a/structSMBIOS_1_1SMBIOSMemoryDevice.html#a0c8787e7b25c195b21bab493a89267fa":[6,0,32,6,13],
@@ -164,8 +163,8 @@ var NAVTREEINDEX5 =
 "d1/d20/classPIC_1_1PIT.html#abf776b71e7d000b8560afb94b531c90a":[6,0,29,1,2],
 "d1/d20/classPIC_1_1PIT.html#ae6064457a2b00c870b30c76751ede0af":[6,0,29,1,0],
 "d1/d20/header-example.html":[8,0],
-"d1/d26/i386_2Bootstrap_2Multiboot_2__start_8s.html":[7,0,0,0,2,0,0,2],
-"d1/d26/i386_2Bootstrap_2Multiboot_2__start_8s_source.html":[7,0,0,0,2,0,0,2],
+"d1/d26/i386_2Bootstrap_2Multiboot_2__start_8s.html":[7,0,0,0,2,0,0,3],
+"d1/d26/i386_2Bootstrap_2Multiboot_2__start_8s_source.html":[7,0,0,0,2,0,0,3],
 "d1/d29/namespaceDisk.html":[5,0,9],
 "d1/d29/namespaceDisk.html#a0d156abbe5e4b2abd71be72faa1650fd":[7,0,0,4,14,4,0],
 "d1/d29/namespaceDisk.html#a0dd11f655f7ef2c141c5237201369c18":[7,0,0,4,14,3,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "d1/d37/cargs_8h.html#d3/df1/structcag__option__context":[7,0,0,4,8,1],
 "d1/d37/cargs_8h.html#d8/ddb/structcag__option":[7,0,0,4,8,0],
 "d1/d37/cargs_8h_source.html":[7,0,0,4,8],
-"d1/d3d/printf_8c.html":[7,0,0,7,13]
+"d1/d3d/printf_8c.html":[7,0,0,7,13],
+"d1/d3d/printf_8c.html#a009bc67e21c7542d964c1312163b9172":[7,0,0,7,13,35]
 };

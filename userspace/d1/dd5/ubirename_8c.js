@@ -2,7 +2,7 @@ var ubirename_8c =
 [
     [ "ubi_rnvol_req", "d1/dd5/ubirename_8c.html#d0/d36/structubi__rnvol__req", [
       [ "count", "d1/dd5/ubirename_8c.html#aced7d810f12fa738b25d610390f099ef", null ],
-      [ "ents", "d1/dd5/ubirename_8c.html#acdc579d3498ad99874da7bd3ffcf622a", null ],
+      [ "ents", "d1/dd5/ubirename_8c.html#ad493454e774fb7cf7c7554b260796583", null ],
       [ "padding1", "d1/dd5/ubirename_8c.html#a3ca263ed34c3d946423309ef87fb36f7", null ]
     ] ],
     [ "ubi_rnvol_req.ents", "d1/dd5/ubirename_8c.html#d1/d50/structubi__rnvol__req_8ents", [

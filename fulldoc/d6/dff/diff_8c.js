@@ -15,7 +15,7 @@ var diff_8c =
       [ "string", "dd/d7b/powertop_8c.html#a8874aa828d5858b0191b0201df4dc316", null ],
       [ "value", "dd/d7b/powertop_8c.html#a6ee8862ece986c7be3451575a234f2bc", null ]
     ] ],
-    [ "line.__unnamed945__", "d6/dff/diff_8c.html#d5/deb/unionline_8____unnamed945____", [
+    [ "line.__unnamed933__", "d6/dff/diff_8c.html#d5/d32/unionline_8____unnamed933____", [
       [ "offset", "d6/dff/diff_8c.html#a7a86c157ee9713c34fbd7a1ee40f0c5a", null ],
       [ "serial", "d6/dff/diff_8c.html#a74136b24217cb75599440e6e1d807cf7", null ]
     ] ],

@@ -9,6 +9,7 @@ var namespaceCPU =
     [ "x32", "de/d78/namespaceCPU_1_1x32.html", "de/d78/namespaceCPU_1_1x32" ],
     [ "x64", "d9/d25/namespaceCPU_1_1x64.html", "d9/d25/namespaceCPU_1_1x64" ],
     [ "x86", "d7/df8/namespaceCPU_1_1x86.html", "d7/df8/namespaceCPU_1_1x86" ],
+    [ "SupportedFeat", "d7/dfa/namespaceCPU.html#d6/db3/structCPU_1_1SupportedFeat", "d7/dfa/namespaceCPU_d6/db3/structCPU_1_1SupportedFeat_dup" ],
     [ "InterruptsType", "d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178", [
       [ "Check", "d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178a2e45a41bd35e0fdd2a5f320d9dfde0db", null ],
       [ "Enable", "d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178adb91be1ff77d40242e5c3ea53f344b05", null ],
@@ -48,8 +49,9 @@ var namespaceCPU =
     [ "CheckSIMD", "d7/dfa/namespaceCPU.html#a1175128f59cc4c5428896140965fc8f5", null ],
     [ "CheckSIMD", "d7/dfa/namespaceCPU.html#a3d16e0a922dd9127759b9d447c983ffd", null ],
     [ "Counter", "d7/dfa/namespaceCPU.html#adfe4248cc88b3b6deebb92b8e074561a", null ],
+    [ "GetCPUFeat", "d7/dfa/namespaceCPU.html#a7ff3f6fb9b8ad231333186213730d207", null ],
     [ "Hypervisor", "d7/dfa/namespaceCPU.html#a045407e047f73998e6a6f6c759c4edb6", null ],
-    [ "InitializeFeatures", "d7/dfa/namespaceCPU.html#a262b3d242b975465735fe70c6ed8307d", null ],
+    [ "InitializeFeatures", "d7/dfa/namespaceCPU.html#a468f1f9a421fc5b73355598e96a58d5c", null ],
     [ "Interrupts", "d7/dfa/namespaceCPU.html#a1cc036b2143b4358a3857bbef3921968", null ],
     [ "Name", "d7/dfa/namespaceCPU.html#aa2666633b57974db680ea4f94c98f510", null ],
     [ "PageTable", "d7/dfa/namespaceCPU.html#a24120d57f8ed5bafeeca4d7d9e74594e", null ],

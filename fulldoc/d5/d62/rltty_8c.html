@@ -311,12 +311,12 @@ sgttyb</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> != -1 &amp;&amp; kmap[(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>].<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a> == <a class="code" href="../../df/d24/keymaps_8h.html#a7b220098cebd5249f300b1422ca3d7a0">ISFUNC</a>) \</div>
+<b>Value:</b><div class="fragment"><div class="line">  <span class="keywordflow">if</span> (<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a> != -1 &amp;&amp; kmap[(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>].<a class="code" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> == <a class="code" href="../../df/d24/keymaps_8h.html#a7b220098cebd5249f300b1422ca3d7a0">ISFUNC</a>) \</div>
 <div class="line">    kmap[(<span class="keywordtype">unsigned</span> char)<a class="code" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>].<span class="keyword">function</span> = <a class="code" href="../../d3/d63/readline_8h.html#a44b757530d7fea0437ce3ed7ed4df2aa">rl_insert</a>;</div>
 <div class="ttc" id="aglob__loop_8c_html_a2019d0836036f2693a231fe5c7c65e20"><div class="ttname"><a href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a></div><div class="ttdeci">register GCHAR c</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d64/glob__loop_8c_source.html#l00028">glob_loop.c:26</a></div></div>
 <div class="ttc" id="akeymaps_8h_html_a7b220098cebd5249f300b1422ca3d7a0"><div class="ttname"><a href="../../df/d24/keymaps_8h.html#a7b220098cebd5249f300b1422ca3d7a0">ISFUNC</a></div><div class="ttdeci">#define ISFUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d24/keymaps_8h_source.html#l00059">keymaps.h:59</a></div></div>
+<div class="ttc" id="amultiboot_8h_html_a8da1a8c7127a0371eec0810a29e30f3c"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a></div><div class="ttdeci">multiboot_uint32_t type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00008">multiboot.h:8</a></div></div>
 <div class="ttc" id="areadline_8h_html_a44b757530d7fea0437ce3ed7ed4df2aa"><div class="ttname"><a href="../../d3/d63/readline_8h.html#a44b757530d7fea0437ce3ed7ed4df2aa">rl_insert</a></div><div class="ttdeci">int rl_insert(int, int)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d80/text_8c_source.html#l00951">text.c:951</a></div></div>
-<div class="ttc" id="axatonum_8c_html_a53155e22eaa05190346890241be3367c"><div class="ttname"><a href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a></div><div class="ttdeci">#define type</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d80/xatonum_8c_source.html#l00011">xatonum.c:11</a></div></div>
 </div><!-- fragment -->
 <p class="definition">Definition at line <a class="el" href="../../d5/d62/rltty_8c_source.html#l00831">831</a> of file <a class="el" href="../../d5/d62/rltty_8c_source.html">rltty.c</a>.</p>
 
@@ -1442,12 +1442,12 @@ sgttyb</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/d62/rltty_8c_source.html#l00825">825</a> of file <a class="el" href="../../d5/d62/rltty_8c_source.html">rltty.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;{</div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;  <span class="keywordflow">if</span> (sc != -1 &amp;&amp; kmap[(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>)sc].<a class="code" href="../../d1/d80/xatonum_8c.html#a53155e22eaa05190346890241be3367c">type</a> == <a class="code" href="../../df/d24/keymaps_8h.html#a7b220098cebd5249f300b1422ca3d7a0">ISFUNC</a>)</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;  <span class="keywordflow">if</span> (sc != -1 &amp;&amp; kmap[(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>)sc].<a class="code" href="../../d1/dc0/multiboot_8h.html#a8da1a8c7127a0371eec0810a29e30f3c">type</a> == <a class="code" href="../../df/d24/keymaps_8h.html#a7b220098cebd5249f300b1422ca3d7a0">ISFUNC</a>)</div>
 <div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;    kmap[(<span class="keywordtype">unsigned</span> char)sc].<span class="keyword">function</span> = <a class="code" href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func</a>;</div>
 <div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;}</div>
 <div class="ttc" id="aawk_8c_html_dd/d55/structfunc__s"><div class="ttname"><a href="../../de/dcc/awk_8c.html#dd/d55/structfunc__s">func_s</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcc/awk_8c_source.html#l00140">awk.c:140</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/d24/keymaps_8h_source.html#l00059">ISFUNC</a>, and <a class="el" href="../../d1/d80/xatonum_8c_source.html#l00011">type</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d24/keymaps_8h_source.html#l00059">ISFUNC</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00008">type</a>.</p>
 
 </div>
 </div>

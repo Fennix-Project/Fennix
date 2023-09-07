@@ -1,10 +1,10 @@
 var namespaceGlobalDescriptorTable =
 [
-    [ "TaskStateSegmentEntry", "d1/d69/namespaceGlobalDescriptorTable.html#da/d55/structGlobalDescriptorTable_1_1TaskStateSegmentEntry", "d1/d69/namespaceGlobalDescriptorTable_da/d55/structGlobalDescriptorTable_1_1TaskStateSegmentEntry_dup" ],
     [ "TaskStateSegment", "d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment.html", "d1/d76/structGlobalDescriptorTable_1_1TaskStateSegment" ],
-    [ "GlobalDescriptorTableEntry", "d1/d69/namespaceGlobalDescriptorTable.html#d9/d63/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry", "d1/d69/namespaceGlobalDescriptorTable_d9/d63/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_dup" ],
     [ "GlobalDescriptorTableEntries", "d1/d69/namespaceGlobalDescriptorTable.html#db/db2/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntries", "d1/d69/namespaceGlobalDescriptorTable_db/db2/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntries_dup" ],
     [ "GlobalDescriptorTableDescriptor", "d1/d69/namespaceGlobalDescriptorTable.html#db/d81/structGlobalDescriptorTable_1_1GlobalDescriptorTableDescriptor", "d1/d69/namespaceGlobalDescriptorTable_db/d81/structGlobalDescriptorTable_1_1GlobalDescriptorTableDescriptor_dup" ],
+    [ "TaskStateSegmentEntry", "d1/d69/namespaceGlobalDescriptorTable.html#da/d55/structGlobalDescriptorTable_1_1TaskStateSegmentEntry", "d1/d69/namespaceGlobalDescriptorTable_da/d55/structGlobalDescriptorTable_1_1TaskStateSegmentEntry_dup" ],
+    [ "GlobalDescriptorTableEntry", "d1/d69/namespaceGlobalDescriptorTable.html#d9/d63/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry", "d1/d69/namespaceGlobalDescriptorTable_d9/d63/structGlobalDescriptorTable_1_1GlobalDescriptorTableEntry_dup" ],
     [ "__aligned", "d1/d69/namespaceGlobalDescriptorTable.html#a81fa1ff5178ded4376fc6d7f4a7c74c9", null ],
     [ "GetKernelStack", "d1/d69/namespaceGlobalDescriptorTable.html#ab8fe0c39e450d238fcbba11a60791922", null ],
     [ "Init", "d1/d69/namespaceGlobalDescriptorTable.html#a621904c3d40203fc46b2a4aaa77774cc", null ],

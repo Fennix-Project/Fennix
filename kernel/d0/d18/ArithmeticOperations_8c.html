@@ -240,7 +240,7 @@ Functions</h2></td></tr>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a720ce7c6842f9160c7ab554d3ec48714"></a>struct <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#d6/d18/structarith64__word_8s32">arith64_word</a></td>
+<a id="a53c69f6cd2568ebcb17f0940894929b7"></a>struct <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#d6/d18/structarith64__word_8s32">arith64_word</a></td>
 <td class="fieldname">
 s32</td>
 <td class="fielddoc">
@@ -252,7 +252,7 @@ s64</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a505ce273d3ccd97fc6362bad2e14e1c3"></a>struct <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#d3/da7/structarith64__word_8u32">arith64_word</a></td>
+<a id="a381f85e3ab8acf4a79cc8ad319a3d337"></a>struct <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#d3/da7/structarith64__word_8u32">arith64_word</a></td>
 <td class="fieldname">
 u32</td>
 <td class="fielddoc">
@@ -683,21 +683,21 @@ lo</td>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> (b &gt;= 32)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.hi = w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.lo &lt;&lt; (b - 32);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.lo = 0;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.hi = w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.lo &lt;&lt; (b - 32);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.lo = 0;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (b)</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.hi = (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.lo &gt;&gt; (32 - b)) | (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.hi &lt;&lt; b);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.lo &lt;&lt;= b;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.hi = (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.lo &gt;&gt; (32 - b)) | (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.hi &lt;&lt; b);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.lo &lt;&lt;= b;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">return</span> w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#ae05a2ca8fb9ebfd35615d32938fb4aa3">s64</a>;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_a505ce273d3ccd97fc6362bad2e14e1c3"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">arith64_word::u32</a></div><div class="ttdeci">struct arith64_word::@36 u32</div></div>
+<div class="ttc" id="aArithmeticOperations_8c_html_a381f85e3ab8acf4a79cc8ad319a3d337"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">arith64_word::u32</a></div><div class="ttdeci">struct arith64_word::@15 u32</div></div>
 <div class="ttc" id="aArithmeticOperations_8c_html_ae05a2ca8fb9ebfd35615d32938fb4aa3"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#ae05a2ca8fb9ebfd35615d32938fb4aa3">arith64_word::s64</a></div><div class="ttdeci">arith64_s64 s64</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00014">ArithmeticOperations.c:14</a></div></div>
 <div class="ttc" id="aArithmeticOperations_8c_html_d3/d6a/unionarith64__word"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#d3/d6a/unionarith64__word">arith64_word</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00011">ArithmeticOperations.c:12</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d18/ArithmeticOperations_8c_source.html#l00014">arith64_word::s64</a>, and <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">arith64_word::u32</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d18/ArithmeticOperations_8c_source.html#l00014">arith64_word::s64</a>, and <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">arith64_word::u32</a>.</p>
 
 </div>
 </div>
@@ -735,19 +735,19 @@ lo</td>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">if</span> (b &gt;= 32)</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a720ce7c6842f9160c7ab554d3ec48714">s32</a>.lo = w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a720ce7c6842f9160c7ab554d3ec48714">s32</a>.hi &gt;&gt; (b - 32);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a720ce7c6842f9160c7ab554d3ec48714">s32</a>.hi &gt;&gt;= 31; <span class="comment">// 0xFFFFFFFF or 0</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a53c69f6cd2568ebcb17f0940894929b7">s32</a>.lo = w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a53c69f6cd2568ebcb17f0940894929b7">s32</a>.hi &gt;&gt; (b - 32);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a53c69f6cd2568ebcb17f0940894929b7">s32</a>.hi &gt;&gt;= 31; <span class="comment">// 0xFFFFFFFF or 0</span></div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (b)</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.lo = (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.hi &lt;&lt; (32 - b)) | (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.lo &gt;&gt; b);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a720ce7c6842f9160c7ab554d3ec48714">s32</a>.hi &gt;&gt;= b;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.lo = (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.hi &lt;&lt; (32 - b)) | (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.lo &gt;&gt; b);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a53c69f6cd2568ebcb17f0940894929b7">s32</a>.hi &gt;&gt;= b;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">return</span> w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#ae05a2ca8fb9ebfd35615d32938fb4aa3">s64</a>;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_a720ce7c6842f9160c7ab554d3ec48714"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a720ce7c6842f9160c7ab554d3ec48714">arith64_word::s32</a></div><div class="ttdeci">struct arith64_word::@37 s32</div></div>
+<div class="ttc" id="aArithmeticOperations_8c_html_a53c69f6cd2568ebcb17f0940894929b7"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a53c69f6cd2568ebcb17f0940894929b7">arith64_word::s32</a></div><div class="ttdeci">struct arith64_word::@16 s32</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a720ce7c6842f9160c7ab554d3ec48714">arith64_word::s32</a>, <a class="el" href="../../d0/d18/ArithmeticOperations_8c_source.html#l00014">arith64_word::s64</a>, and <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">arith64_word::u32</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a53c69f6cd2568ebcb17f0940894929b7">arith64_word::s32</a>, <a class="el" href="../../d0/d18/ArithmeticOperations_8c_source.html#l00014">arith64_word::s64</a>, and <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">arith64_word::u32</a>.</p>
 
 </div>
 </div>
@@ -1486,19 +1486,19 @@ lo</td>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160; </div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="keywordflow">if</span> (b &gt;= 32)</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    {</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.lo = w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.hi &gt;&gt; (b - 32);</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.hi = 0;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.lo = w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.hi &gt;&gt; (b - 32);</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.hi = 0;</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (b)</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    {</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.lo = (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.hi &lt;&lt; (32 - b)) | (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.lo &gt;&gt; b);</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">u32</a>.hi &gt;&gt;= b;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.lo = (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.hi &lt;&lt; (32 - b)) | (w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.lo &gt;&gt; b);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">u32</a>.hi &gt;&gt;= b;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    }</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordflow">return</span> w.<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#ad192cbe21090ac61ed87ab8fefea7fd8">u64</a>;</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;}</div>
 <div class="ttc" id="aArithmeticOperations_8c_html_ad192cbe21090ac61ed87ab8fefea7fd8"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#ad192cbe21090ac61ed87ab8fefea7fd8">arith64_word::u64</a></div><div class="ttdeci">arith64_u64 u64</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00013">ArithmeticOperations.c:13</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a505ce273d3ccd97fc6362bad2e14e1c3">arith64_word::u32</a>, and <a class="el" href="../../d0/d18/ArithmeticOperations_8c_source.html#l00013">arith64_word::u64</a>.</p>
+<p class="reference">References <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a381f85e3ab8acf4a79cc8ad319a3d337">arith64_word::u32</a>, and <a class="el" href="../../d0/d18/ArithmeticOperations_8c_source.html#l00013">arith64_word::u64</a>.</p>
 
 </div>
 </div>

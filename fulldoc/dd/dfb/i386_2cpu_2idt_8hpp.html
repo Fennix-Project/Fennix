@@ -123,52 +123,39 @@ Namespaces</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:ab3e06ba8bb7cb9aa8e0a2b6526a6dc03"><td class="memItemLeft" align="right" valign="top">typedef LDTDescriptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ab3e06ba8bb7cb9aa8e0a2b6526a6dc03">InterruptDescriptorTable::TSSDescriptor</a></td></tr>
 <tr class="separator:ab3e06ba8bb7cb9aa8e0a2b6526a6dc03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92cd8284cd23400e03f67c2cc3fc3d2b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../dc/d7c/SegmentDescriptors_8hpp.html#d3/d17/structInterruptGate">InterruptGate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a92cd8284cd23400e03f67c2cc3fc3d2b">InterruptDescriptorTable::TrapGate</a></td></tr>
+<tr class="separator:a92cd8284cd23400e03f67c2cc3fc3d2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
 <tr class="memitem:ad88b3bacbda9b3aaa6550432427f46fa"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46fa">InterruptDescriptorTable::GateType</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa7e587e661a4815f6ebcbd7d72b4e182b">InterruptDescriptorTable::LDT_64BIT</a> = 0b0010
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faac8654aaf6cd5dd0222323dea574eb92e">InterruptDescriptorTable::AVAILABLE_64BIT_TSS</a> = 0b1001
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa118ee39182336b9aecac6d622c8e7a5a">InterruptDescriptorTable::BUSY_64BIT_TSS</a> = 0b1011
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa7c7583eddfa50f1c3212d4c6cc3f518a">InterruptDescriptorTable::CALL_GATE_64BIT</a> = 0b1100
-, <br />
-&#160;&#160;<a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa0a90b978479599ae61cc9266ab837ac0">InterruptDescriptorTable::INTERRUPT_GATE_64BIT</a> = 0b1110
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faabde2cefed71d42f51653059f5c95733d">InterruptDescriptorTable::TRAP_GATE_64BIT</a> = 0b1111
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa16c494289f483b24448defc04ba317c5">InterruptDescriptorTable::AVAILABLE_16BIT_TSS</a> = 0b0001
+&#160;&#160;<a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa16c494289f483b24448defc04ba317c5">InterruptDescriptorTable::AVAILABLE_16BIT_TSS</a> = 0b0001
 , <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faab6d58f045ecf9ad3ff18d474bbd0833a">InterruptDescriptorTable::LDT</a> = 0b0010
-, <br />
-&#160;&#160;<a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa0cb190458642325a19475997d56183c1">InterruptDescriptorTable::BUSY_16BIT_TSS</a> = 0b0011
+, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa0cb190458642325a19475997d56183c1">InterruptDescriptorTable::BUSY_16BIT_TSS</a> = 0b0011
 , <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faac5bbd0e78a3843c105a25bc0b8bf077b">InterruptDescriptorTable::CALL_GATE_16BIT</a> = 0b0100
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faaff401169aa65999101fe84a59b68b57c">InterruptDescriptorTable::TASK_GATE</a> = 0b0101
+, <br />
+&#160;&#160;<a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faaff401169aa65999101fe84a59b68b57c">InterruptDescriptorTable::TASK_GATE</a> = 0b0101
 , <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faad193611e1cd6a5fe6842a5b4d219d053">InterruptDescriptorTable::INTERRUPT_GATE_16BIT</a> = 0b0110
-, <br />
-&#160;&#160;<a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa61c3c3276a6f402af65ed3d3a71204c9">InterruptDescriptorTable::TRAP_GATE_16BIT</a> = 0b0111
+, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa61c3c3276a6f402af65ed3d3a71204c9">InterruptDescriptorTable::TRAP_GATE_16BIT</a> = 0b0111
 , <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faafeddcd08a457525469d4406a3d93bf54">InterruptDescriptorTable::AVAILABLE_32BIT_TSS</a> = 0b1001
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa56121e974c592035c4d6e7ca24e4197c">InterruptDescriptorTable::BUSY_32BIT_TSS</a> = 0b1011
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faac0a3a93536e169f2428f5bcb79bbd2e1">InterruptDescriptorTable::CALL_GATE_32BIT</a> = 0b1100
 , <br />
-&#160;&#160;<a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa8cd251bc7168174bf196713dd5b92d5b">InterruptDescriptorTable::INTERRUPT_GATE_32BIT</a> = 0b1110
+&#160;&#160;<a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa56121e974c592035c4d6e7ca24e4197c">InterruptDescriptorTable::BUSY_32BIT_TSS</a> = 0b1011
+, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faac0a3a93536e169f2428f5bcb79bbd2e1">InterruptDescriptorTable::CALL_GATE_32BIT</a> = 0b1100
+, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa8cd251bc7168174bf196713dd5b92d5b">InterruptDescriptorTable::INTERRUPT_GATE_32BIT</a> = 0b1110
 , <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#ad88b3bacbda9b3aaa6550432427f46faa8f4bbd1ba64ad1e1b02fc2c3098a3da2">InterruptDescriptorTable::TRAP_GATE_32BIT</a> = 0b1111
 <br />
  }</td></tr>
 <tr class="separator:ad88b3bacbda9b3aaa6550432427f46fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12c6a714066f266c7da16fbd842d5bcb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcb">InterruptDescriptorTable::PrivilegeLevelType</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcba0fcddc8feb45edcdb02be62f7c120296">InterruptDescriptorTable::RING0</a> = 0b0
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcbae16eff06f8c1580d3217539f112a5b5a">InterruptDescriptorTable::RING1</a> = 0b1
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcba967dcfd2ba8dffd87638a19f69fd0d2f">InterruptDescriptorTable::RING2</a> = 0b10
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcba1b962115c9c2e43471cecf1b5b40c268">InterruptDescriptorTable::RING3</a> = 0b11
-, <br />
-&#160;&#160;<a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcba0fcddc8feb45edcdb02be62f7c120296">InterruptDescriptorTable::RING0</a> = 0b0
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcbae16eff06f8c1580d3217539f112a5b5a">InterruptDescriptorTable::RING1</a> = 0b1
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcba967dcfd2ba8dffd87638a19f69fd0d2f">InterruptDescriptorTable::RING2</a> = 0b10
-, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcba1b962115c9c2e43471cecf1b5b40c268">InterruptDescriptorTable::RING3</a> = 0b11
-<br />
+<tr class="memitem:a12c6a714066f266c7da16fbd842d5bcb"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcb">InterruptDescriptorTable::PrivilegeLevelType</a> { <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcbadef256aa5534eb36bf70652626430f53">InterruptDescriptorTable::RING0</a> = 0b0
+, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcba6a24186a49c7106721c248d422a609ae">InterruptDescriptorTable::RING1</a> = 0b1
+, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcbad77c3b7ef7f754570610f715468278b8">InterruptDescriptorTable::RING2</a> = 0b10
+, <a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a12c6a714066f266c7da16fbd842d5bcba0fdc87971ed5f9e04fd7375970dc6bc2">InterruptDescriptorTable::RING3</a> = 0b11
  }</td></tr>
 <tr class="separator:a12c6a714066f266c7da16fbd842d5bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1c8c4f4579ce990e1dfa47b85d48d7dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a1c8c4f4579ce990e1dfa47b85d48d7dc">InterruptDescriptorTable::SetEntry</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Index, void(*Base)(), GateType Gate, PrivilegeLevelType Ring, <a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a778f4bee950ae142c87d00db61dc4eec">Present</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SegmentSelector)</td></tr>
+<tr class="memitem:a1c8c4f4579ce990e1dfa47b85d48d7dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a1c8c4f4579ce990e1dfa47b85d48d7dc">InterruptDescriptorTable::SetEntry</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Index, void(*Base)(), <a class="el" href="../../dc/d7c/SegmentDescriptors_8hpp.html#a842ca6790f315b3f79faf3cda6d6789c">GateType</a> Gate, <a class="el" href="../../dc/d7c/SegmentDescriptors_8hpp.html#a8a3ba9e97b1605055028238eb08b4fdb">PrivilegeLevelType</a> Ring, <a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a778f4bee950ae142c87d00db61dc4eec">Present</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SegmentSelector)</td></tr>
 <tr class="separator:a1c8c4f4579ce990e1dfa47b85d48d7dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5275e6707c957c5ba4b050102990c908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908">InterruptDescriptorTable::Init</a> (int Core)</td></tr>
 <tr class="separator:a5275e6707c957c5ba4b050102990c908"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,15 +264,9 @@ Zero1: 2</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00082">82</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dfb/i386_2cpu_2idt_8hpp_source.html#l00076">76</a> of file <a class="el" href="../../dd/dfb/i386_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="a1d0cc604819e9038bcac2fb95545a5d6"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-DescriptorPrivilegeLevel: 2</td>
-<td class="fielddoc">
-</td></tr>
 <tr><td class="fieldtype">
 <a id="a6d0725923f34353842ec98c127f7a642"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
@@ -299,39 +280,15 @@ ParameterCount: 4</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a6f186360b4b78195f040607708f8f65f"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Present: 1</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
 <a id="a58dfcea040f6faf2d424f1de62736055"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Present: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a1bb9dc2ed803ece3dadf0d0ea4aeb435"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Reserved0: 8</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
 <a id="a018e11d61eb4e51d7cb14b6ddcc8ccce"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Reserved0: 3</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ad34114b5261e6ef28dec9722854741b4"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Reserved1: 8</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a802b970ef6e8c47ba07e039720f79e90"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Reserved2: 19</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -353,36 +310,6 @@ TargetCodeSegmentSelector: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ac2de7537b4ce746e9c6432497b51fe54"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-TargetOffsetHigh: 32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a7743ac5b92c7ab1dd78b139e7407dd02"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-TargetOffsetLow: 16</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a15a3d947c7efde87d95ff5e0c0de8aee"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-TargetOffsetMiddle: 16</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a887bba6339f128b4ba9973a3969281b3"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-TargetSelector: 16</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a5c9c2853eb484745647be4178360d25e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Type: 4</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
 <a id="a562cc455e37f330cc1ee18b898de7bef"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Type: 4</td>
@@ -392,18 +319,6 @@ Type: 4</td>
 <a id="aacd19b9ab985d2b9bb9cdcbd12d14911"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Zero: 1</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ac9aee7c07633cb1d4f2751174ae14bb4"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Zero0: 1</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aa2b1360c589c9583c9c08ced4c3f9641"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Zero1: 5</td>
 <td class="fielddoc">
 </td></tr>
 </table>
@@ -422,31 +337,13 @@ Zero1: 5</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00061">61</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dd/dfb/i386_2cpu_2idt_8hpp_source.html#l00091">91</a> of file <a class="el" href="../../dd/dfb/i386_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
-<tr><td class="fieldtype">
-<a id="a7fac7b50b3c952253f1211cbc966bf6e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-DescriptorPrivilegeLevel: 2</td>
-<td class="fielddoc">
-</td></tr>
 <tr><td class="fieldtype">
 <a id="a5bc0a5251674dd0692d3fbf4d2ac49a4"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 DescriptorPrivilegeLevel: 2</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="aada7d95a2b6e39f2c52082cc90d58a0e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-InterruptStackTable: 3</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a800d472a9531274a3642454b46247baf"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Present: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -456,21 +353,9 @@ Present: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="afe66d4692722b1abf48960425fee7a2a"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Reserved0: 5</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
 <a id="a1be51a396ca47c08a32b8ffca6023674"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Reserved0: 8</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a516eae3ef465286c7dbc525614f20e0b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Reserved1: 32</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -492,45 +377,9 @@ TargetCodeSegmentSelector: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3b5ed6b9cf38e2aeab2f596d91dbf9f0"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-TargetOffsetHigh: 32</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a9c058774ab4cb0503b16f5a4b747c065"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-TargetOffsetLow: 16</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ac954a518de5e37b82aa5f62a54a1725c"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-TargetOffsetMiddle: 16</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="a2fb738dc401a60e19e08a27aa3c9dfda"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-TargetSelector: 16</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="ab453e5df6f931dfe3c14cf9ae49ef7cf"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Type: 4</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
 <a id="a7ce5a628a974e01803ebdd70d8f0299a"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Type: 4</td>
-<td class="fielddoc">
-</td></tr>
-<tr><td class="fieldtype">
-<a id="abab95ea24f3c7c6fa811fa8bbe378f44"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></td>
-<td class="fieldname">
-Zero: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
@@ -622,7 +471,7 @@ Zero: 1</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00126">126</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00027">27</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
@@ -659,7 +508,7 @@ Trap</td>
       </table>
 </div><div class="memdoc">
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00133">133</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html#l00034">34</a> of file <a class="el" href="../../dc/da7/amd64_2cpu_2idt_8hpp_source.html">idt.hpp</a>.</p>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">

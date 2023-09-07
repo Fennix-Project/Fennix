@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d0/dab/casemod_8c.html":[10,0,2,0,0,0,4,4,0],
+"d0/dab/casemod_8c.html#a019b795ce86c826106764e884bbb6feb":[10,0,2,0,0,0,4,4,0,12],
 "d0/dab/casemod_8c.html#a10801dd855e20334cd83cace96616de6":[10,0,2,0,0,0,4,4,0,14],
 "d0/dab/casemod_8c.html#a16745c273a7ffa23327715b351ddaaaa":[10,0,2,0,0,0,4,4,0,0],
 "d0/dab/casemod_8c.html#a331782c5ffe91e26efd0fcc81b3005db":[10,0,2,0,0,0,4,4,0,3],
@@ -56,9 +58,6 @@ var NAVTREEINDEX12 =
 "d0/dae/x86__64_2syscall__arch_8h.html#af77a8b22cdd070b9a671c95c0395f5fb":[10,0,2,3,0,16,7,6],
 "d0/dae/x86__64_2syscall__arch_8h.html#af9949f4085f6cea800af9baa8c44def7":[10,0,2,3,0,16,7,1],
 "d0/dae/x86__64_2syscall__arch_8h_source.html":[10,0,2,3,0,16,7],
-"d0/daf/structKAPIDisplay.html":[9,0,701],
-"d0/daf/structKAPIDisplay.html#a21a346a0c61808a9ea84625e70e7c242":[9,0,701,1],
-"d0/daf/structKAPIDisplay.html#aa3584bfc5f70cbab7ad2fdb65ccb9606":[9,0,701,0],
 "d0/db0/Kernel__IO_8cpp.html":[10,0,0,3,5],
 "d0/db0/Kernel__IO_8cpp.html#a08608c0aa56801926439704f198622e7":[10,0,0,3,5,6],
 "d0/db0/Kernel__IO_8cpp.html#a0c7518235c1384debeb9e38b04623417":[10,0,0,3,5,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "d0/db7/namespaceCPU_1_1x86_1_1Intel.html#a7e9293e90055a83d4943872232ff638f":[10,0,0,4,1,0,3,81,9],
 "d0/db7/namespaceCPU_1_1x86_1_1Intel.html#a7f2c94aa80d17499953417a24b9c28d7":[10,0,0,4,1,0,3,79,20],
 "d0/db7/namespaceCPU_1_1x86_1_1Intel.html#a80592f32100c18dca343aa202a5da23c":[10,0,0,4,1,0,3,85,0],
-"d0/db7/namespaceCPU_1_1x86_1_1Intel.html#a846b7f5269c8b62ccbb058ba52e90f30":[10,0,0,4,1,0,3,53,0]
+"d0/db7/namespaceCPU_1_1x86_1_1Intel.html#a846b7f5269c8b62ccbb058ba52e90f30":[10,0,0,4,1,0,3,53,0],
+"d0/db7/namespaceCPU_1_1x86_1_1Intel.html#a852e4f9184ce3f3cfffd09ba243d51dd":[10,0,0,4,1,0,3,85,4]
 };

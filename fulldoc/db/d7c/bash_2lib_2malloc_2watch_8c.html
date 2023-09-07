@@ -98,9 +98,9 @@ $(document).ready(function(){initNavTree('db/d7c/bash_2lib_2malloc_2watch_8c.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9acc17b6281e953f9368c590ac373135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/de3/xmalloc_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/bash_2lib_2malloc_2watch_8c.html#a9acc17b6281e953f9368c590ac373135">malloc_watch</a> (<a class="el" href="../../d8/de3/xmalloc_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a> <a class="el" href="../../d2/de9/nscd__query_8c.html#a5b145232bd35dec239f2db0c19254143">addr</a>)</td></tr>
+<tr class="memitem:a9acc17b6281e953f9368c590ac373135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/de3/xmalloc_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/bash_2lib_2malloc_2watch_8c.html#a9acc17b6281e953f9368c590ac373135">malloc_watch</a> (<a class="el" href="../../d8/de3/xmalloc_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a> <a class="el" href="../../d2/de9/nscd__query_8c.html#ad0356aff0f3c3c81b2199530e5b261d6">addr</a>)</td></tr>
 <tr class="separator:a9acc17b6281e953f9368c590ac373135"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19ab0ca9b9e39bf31c13b15ab0dffb8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/de3/xmalloc_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/bash_2lib_2malloc_2watch_8c.html#a19ab0ca9b9e39bf31c13b15ab0dffb8f">malloc_unwatch</a> (<a class="el" href="../../d8/de3/xmalloc_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a> <a class="el" href="../../d2/de9/nscd__query_8c.html#a5b145232bd35dec239f2db0c19254143">addr</a>)</td></tr>
+<tr class="memitem:a19ab0ca9b9e39bf31c13b15ab0dffb8f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/de3/xmalloc_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7c/bash_2lib_2malloc_2watch_8c.html#a19ab0ca9b9e39bf31c13b15ab0dffb8f">malloc_unwatch</a> (<a class="el" href="../../d8/de3/xmalloc_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a> <a class="el" href="../../d2/de9/nscd__query_8c.html#ad0356aff0f3c3c81b2199530e5b261d6">addr</a>)</td></tr>
 <tr class="separator:a19ab0ca9b9e39bf31c13b15ab0dffb8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -125,7 +125,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">#ifdef MALLOC_WATCH</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  <span class="keyword">register</span> <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a> == 0)</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a> == 0)</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    {</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; _malloc_nwatch; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        _malloc_watch_list[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = (<a class="code" href="../../d4/d0d/hashlib_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a>)0;</div>
@@ -136,7 +136,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    {</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;      <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; _malloc_nwatch; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    {</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      <span class="keywordflow">if</span> (_malloc_watch_list[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] == <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>)</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      <span class="keywordflow">if</span> (_malloc_watch_list[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] == <a class="code" href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>)</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> == _malloc_nwatch)</div>
@@ -145,17 +145,17 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      _malloc_nwatch--;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      <span class="keywordflow">for</span> ( ; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; _malloc_nwatch; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        _malloc_watch_list[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = _malloc_watch_list[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>+1];</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>;</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  <span class="keywordflow">return</span> ((<a class="code" href="../../d4/d0d/hashlib_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a>)0);</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;}</div>
-<div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a8286ae6db03c34c4bb161accbfbfbbcd"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a></div><div class="ttdeci">multiboot_uint64_t addr</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00001">multiboot.h:1</a></div></div>
 <div class="ttc" id="agettextP_8h_html_a68428151ad44e31b19041cdeb8972a91"><div class="ttname"><a href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a></div><div class="ttdeci">static nls_uint32 nls_uint32 i</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d71/gettextP_8h_source.html#l00074">gettextP.h:74</a></div></div>
 <div class="ttc" id="ahashlib_8h_html_abbf31fec203727613ea15ba47bb8f344"><div class="ttname"><a href="../../d4/d0d/hashlib_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a></div><div class="ttdeci">#define PTR_T</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0d/hashlib_8h_source.html#l00030">hashlib.h:30</a></div></div>
+<div class="ttc" id="amultiboot_8h_html_a8286ae6db03c34c4bb161accbfbfbbcd"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a></div><div class="ttdeci">multiboot_uint64_t addr</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00001">multiboot.h:1</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00001">addr</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, and <a class="el" href="../../d4/d0d/hashlib_8h_source.html#l00030">PTR_T</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00001">addr</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, and <a class="el" href="../../d4/d0d/hashlib_8h_source.html#l00030">PTR_T</a>.</p>
 
 </div>
 </div>
@@ -180,14 +180,14 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  <span class="keyword">register</span> <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  <a class="code" href="../../d4/d0d/hashlib_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a> ret;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a> == 0)</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a> == 0)</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  ret = (<a class="code" href="../../d4/d0d/hashlib_8h.html#abbf31fec203727613ea15ba47bb8f344">PTR_T</a>)0;</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160; </div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#ifdef MALLOC_WATCH</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;  <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = _malloc_nwatch - 1; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &gt;= 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>--)</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      <span class="keywordflow">if</span> (_malloc_watch_list[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] == <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>)</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;      <span class="keywordflow">if</span> (_malloc_watch_list[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] == <a class="code" href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>)</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  <span class="keywordflow">if</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; 0)</div>
@@ -199,14 +199,14 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      <span class="keywordflow">for</span> (<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> = 0; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> &lt; _malloc_nwatch; <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>++)</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        _malloc_watch_list[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>] = _malloc_watch_list[<a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>+1];</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      _malloc_watch_list[_malloc_nwatch++] = <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      _malloc_watch_list[_malloc_nwatch++] = <a class="code" href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  <span class="keywordflow">return</span> ret;  </div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00001">addr</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, and <a class="el" href="../../d4/d0d/hashlib_8h_source.html#l00030">PTR_T</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00001">addr</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, and <a class="el" href="../../d4/d0d/hashlib_8h_source.html#l00030">PTR_T</a>.</p>
 
 </div>
 </div>

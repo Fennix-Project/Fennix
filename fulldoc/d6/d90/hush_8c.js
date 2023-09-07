@@ -47,7 +47,7 @@ var hush_8c =
       [ "redirects", "d6/d90/hush_8c.html#a5b5efa4854e0319791e28028712fee9a", null ],
       [ "redirects", "d6/d90/hush_8c.html#a8fa92cf7b7a60ee7e508e65fccb7688a", null ],
       [ "type", "d6/d90/hush_8c.html#adc520136f05efbf94b38913f7d8b1f31", null ],
-      [ "value", "d6/d90/hush_8c.html#a5a5d523f7ef018f9ac2d7e4f792bba88", null ]
+      [ "value", "d6/d90/hush_8c.html#a6ac4d700474584699343afb822f509d6", null ]
     ] ],
     [ "pipe", "d6/d90/hush_8c.html#d8/d53/structpipe", [
       [ "alive_cmds", "d6/d90/hush_8c.html#ade0eab2251f6cf87cd9305c878e52b9f", null ],
@@ -362,6 +362,6 @@ var hush_8c =
     [ "unbackslash", "d6/d90/hush_8c.html#af755ad4278123c147db6049f2919349b", null ],
     [ "xdup_CLOEXEC_and_close", "d6/d90/hush_8c.html#a8a7001b50718e5410bdadb8f07732ecc", null ],
     [ "ALIGN1", "d6/d90/hush_8c.html#acd5acb5ddd8ef3c6c46bba40d34a58ad", null ],
-    [ "ALIGN4", "d6/d90/hush_8c.html#a961fd6a8bab4ea16eac2995f12890792", null ],
+    [ "ALIGN4", "d6/d90/hush_8c.html#a2746756f41c6df66ae51a8b2d8d252ec", null ],
     [ "ALIGN_PTR", "d6/d90/hush_8c.html#af7877c2be55edf7dcbbe7eebcb8bbb2d", null ]
 ];

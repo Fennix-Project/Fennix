@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"d0/d76/hu__lib_8h.html#afa3d2cd1c10fdfb46e2dafa209547416":[10,0,2,0,2,0,0,0,53,9],
+"d0/d76/hu__lib_8h.html#aff483bacf0bd6bc28e9f3d90c89e5210":[10,0,2,0,2,0,0,0,53,19],
 "d0/d76/hu__lib_8h.html#aff685b823f2ba563f4c04d679b679dde":[10,0,2,0,2,0,0,0,53,7],
 "d0/d76/hu__lib_8h.html#d7/d55/structhu__stext__t":[10,0,2,0,2,0,0,0,53,1],
 "d0/d76/hu__lib_8h.html#da/df8/structhu__itext__t":[10,0,2,0,2,0,0,0,53,2],
@@ -234,11 +236,11 @@ var NAVTREEINDEX8 =
 "d0/d81/cd_8cpp.html#aa0a0b922e1f67d1180cc8499c21f6bef":[10,0,0,6,0,1,0],
 "d0/d81/cd_8cpp_source.html":[10,0,0,6,0,1],
 "d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html":[9,0,6,2,0,27],
-"d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#a37bf3311faee5e16cd52fd7406a73feb":[9,0,6,2,0,27,3],
-"d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#a5e08b85dce0eb92d9d237c563df46101":[9,0,6,2,0,27,4],
-"d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#a738b1dce1dc97498a3d414e3fdcc21b9":[9,0,6,2,0,27,1],
-"d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#a7b246a457b4de997b6d7166e8593a06d":[9,0,6,2,0,27,2],
+"d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#a30efc33242683867dcf99a2fb238e8ec":[9,0,6,2,0,27,2],
+"d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#a992632223a7089dc068901656d4a8cfd":[9,0,6,2,0,27,3],
 "d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#aabda58c4901010772f1a68ae20d9b8da":[9,0,6,2,0,27,0],
+"d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#ad7232310931159e2cd61bb2ad4325c52":[9,0,6,2,0,27,1],
+"d0/d81/structCPU_1_1x86_1_1AMD_1_1CPUID0x8000001D.html#ad8f77fa497f98818a19990bf913304dd":[9,0,6,2,0,27,4],
 "d0/d82/aarch64_2crtn_8s.html":[10,0,2,3,2,0,1],
 "d0/d82/aarch64_2crtn_8s_source.html":[10,0,2,3,2,0,1],
 "d0/d83/Userspace_2musl_2arch_2mipsn32_2bits_2errno_8h.html":[10,0,2,3,0,8,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "d0/d83/Userspace_2musl_2arch_2mipsn32_2bits_2errno_8h.html#a059ed0ab5dab96dfe00ffca40b35155f":[10,0,2,3,0,8,0,0,57],
 "d0/d83/Userspace_2musl_2arch_2mipsn32_2bits_2errno_8h.html#a07773d22c3eb7a4d4ea0696ee5f49841":[10,0,2,3,0,8,0,0,123],
 "d0/d83/Userspace_2musl_2arch_2mipsn32_2bits_2errno_8h.html#a088abe8bad2df798edad3053d719b937":[10,0,2,3,0,8,0,0,86],
-"d0/d83/Userspace_2musl_2arch_2mipsn32_2bits_2errno_8h.html#a09e189d2214d9fe2847d27bf270ca1d7":[10,0,2,3,0,8,0,0,122],
-"d0/d83/Userspace_2musl_2arch_2mipsn32_2bits_2errno_8h.html#a0a3bef9e5c47e42917692b5dae3b5498":[10,0,2,3,0,8,0,0,30],
-"d0/d83/Userspace_2musl_2arch_2mipsn32_2bits_2errno_8h.html#a0c17130b2933edfec68b2c70a2cd0a7f":[10,0,2,3,0,8,0,0,8]
+"d0/d83/Userspace_2musl_2arch_2mipsn32_2bits_2errno_8h.html#a09e189d2214d9fe2847d27bf270ca1d7":[10,0,2,3,0,8,0,0,122]
 };

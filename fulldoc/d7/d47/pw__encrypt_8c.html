@@ -136,32 +136,32 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d47/pw__encrypt_8c_source.html#l00055">55</a> of file <a class="el" href="../../d7/d47/pw__encrypt_8c_source.html">pw_encrypt.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> = 2/2;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> = 2/2;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">char</span> *salt_ptr = salt;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">/* Standard chpasswd uses uppercase algos (&quot;MD5&quot;, not &quot;md5&quot;).</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">     * Need to be case-insensitive in the code below.</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">     */</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">if</span> ((algo[0]|0x20) != <span class="charliteral">&#39;d&#39;</span>) { <span class="comment">/* not des */</span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> = 8/2; <span class="comment">/* so far assuming md5 */</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> = 8/2; <span class="comment">/* so far assuming md5 */</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        *salt_ptr++ = <span class="charliteral">&#39;$&#39;</span>;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        *salt_ptr++ = <span class="charliteral">&#39;1&#39;</span>;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        *salt_ptr++ = <span class="charliteral">&#39;$&#39;</span>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#if !ENABLE_USE_BB_CRYPT || ENABLE_USE_BB_CRYPT_SHA</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">if</span> ((algo[0]|0x20) == <span class="charliteral">&#39;s&#39;</span>) { <span class="comment">/* sha */</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            salt[1] = <span class="charliteral">&#39;5&#39;</span> + (<a class="code" href="../../d2/d02/os2compat_8h.html#ac99ec3f1036620727a68aa8c25a8963c">strcasecmp</a>(algo, <span class="stringliteral">&quot;sha512&quot;</span>) == 0);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> = 16/2;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> = 16/2;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        }</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="../../d7/d47/pw__encrypt_8c.html#aff8e783b3171a68772dff67b7122ae12">crypt_make_salt</a>(salt_ptr, <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="../../d7/d47/pw__encrypt_8c.html#aff8e783b3171a68772dff67b7122ae12">crypt_make_salt</a>(salt_ptr, <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">return</span> salt_ptr;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;}</div>
-<div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
+<div class="ttc" id="amultiboot_8h_html_a6de3a6d27a7e07942958b912d39792e6"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a></div><div class="ttdeci">multiboot_uint64_t len</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00002">multiboot.h:2</a></div></div>
 <div class="ttc" id="aos2compat_8h_html_ac99ec3f1036620727a68aa8c25a8963c"><div class="ttname"><a href="../../d2/d02/os2compat_8h.html#ac99ec3f1036620727a68aa8c25a8963c">strcasecmp</a></div><div class="ttdeci">#define strcasecmp</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d02/os2compat_8h_source.html#l00041">os2compat.h:41</a></div></div>
 <div class="ttc" id="apw__encrypt_8c_html_aff8e783b3171a68772dff67b7122ae12"><div class="ttname"><a href="../../d7/d47/pw__encrypt_8c.html#aff8e783b3171a68772dff67b7122ae12">crypt_make_salt</a></div><div class="ttdeci">int FAST_FUNC crypt_make_salt(char *p, int cnt)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d47/pw__encrypt_8c_source.html#l00034">pw_encrypt.c:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/d47/pw__encrypt_8c_source.html#l00034">crypt_make_salt()</a>, <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00002">len</a>, and <a class="el" href="../../d2/d02/os2compat_8h_source.html#l00041">strcasecmp</a>.</p>
+<p class="reference">References <a class="el" href="../../d7/d47/pw__encrypt_8c_source.html#l00034">crypt_make_salt()</a>, <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00002">len</a>, and <a class="el" href="../../d2/d02/os2compat_8h_source.html#l00041">strcasecmp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../dc/d8a/chpasswd_8c_source.html#l00050">chpasswd_main()</a>, <a class="el" href="../../d1/dc0/cryptpw_8c_source.html#l00085">cryptpw_main()</a>, and <a class="el" href="../../de/d9a/passwd_8c_source.html#l00043">new_password()</a>.</p>
 

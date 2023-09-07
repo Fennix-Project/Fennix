@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d1/ddd/shmat_8c.html','../../'); initR
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7912f319fa91f20147c23ed2e9b0a864"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddd/shmat_8c.html#a7912f319fa91f20147c23ed2e9b0a864">shmat</a> (int id, const void *<a class="el" href="../../d2/de9/nscd__query_8c.html#a5b145232bd35dec239f2db0c19254143">addr</a>, int flag)</td></tr>
+<tr class="memitem:a7912f319fa91f20147c23ed2e9b0a864"><td class="memItemLeft" align="right" valign="top">void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddd/shmat_8c.html#a7912f319fa91f20147c23ed2e9b0a864">shmat</a> (int id, const void *<a class="el" href="../../d2/de9/nscd__query_8c.html#ad0356aff0f3c3c81b2199530e5b261d6">addr</a>, int flag)</td></tr>
 <tr class="separator:a7912f319fa91f20147c23ed2e9b0a864"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -137,12 +137,12 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/ddd/shmat_8c_source.html#l00006">6</a> of file <a class="el" href="../../d1/ddd/shmat_8c_source.html">shmat.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)<a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_shmat, <span class="keywordtype">id</span>, <a class="code" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>, flag);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">void</span> *)<a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_shmat, <span class="keywordtype">id</span>, <a class="code" href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a>, flag);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
-<div class="ttc" id="aamd64_2Bootstrap_2Multiboot_21_2multiboot_8h_html_a8286ae6db03c34c4bb161accbfbfbbcd"><div class="ttname"><a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a></div><div class="ttdeci">multiboot_uint64_t addr</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00001">multiboot.h:1</a></div></div>
+<div class="ttc" id="amultiboot_8h_html_a8286ae6db03c34c4bb161accbfbfbbcd"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a8286ae6db03c34c4bb161accbfbfbbcd">addr</a></div><div class="ttdeci">multiboot_uint64_t addr</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00001">multiboot.h:1</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dd/daa/amd64_2Bootstrap_2Multiboot_21_2multiboot_8h_source.html#l00001">addr</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00001">addr</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d8/d11/logread_8c_source.html#l00110">logread_main()</a>.</p>
 

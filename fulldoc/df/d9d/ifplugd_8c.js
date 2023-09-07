@@ -23,5 +23,5 @@ var ifplugd_8c =
     [ "strstatus", "df/d9d/ifplugd_8c.html#a203801bdd133b3d2fb12b23246519942", null ],
     [ "up_iface", "df/d9d/ifplugd_8c.html#a2b1b1104ab1db558d3850732953898d5", null ],
     [ "ALIGN1", "df/d9d/ifplugd_8c.html#a9f1119f36591fa3ea4bbbb276bf2d541", null ],
-    [ "ALIGN_PTR", "df/d9d/ifplugd_8c.html#a8fd0f5e19fd223db80c62222688ad14c", null ]
+    [ "ALIGN_PTR", "df/d9d/ifplugd_8c.html#a64fffd879a1bbebee51076b920b4b0c9", null ]
 ];

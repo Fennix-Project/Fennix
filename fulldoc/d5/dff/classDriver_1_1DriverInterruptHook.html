@@ -176,16 +176,16 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00329">329</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                                                                             : <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html">Interrupts::Handler</a>(Interrupt)</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    {</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        this-&gt;<a class="code" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html#a1faf3427bbc7f857b1d6fc8e77062f9b">Handle</a> = <a class="code" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html#a1faf3427bbc7f857b1d6fc8e77062f9b">Handle</a>;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Interrupt %d hooked to driver %ld&quot;</span>, Interrupt, <a class="code" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html#a1faf3427bbc7f857b1d6fc8e77062f9b">Handle</a>.<a class="code" href="../../d1/d76/structDriver_1_1DriverFile.html#abc8100f10d5e40ae0909af2964aef36a">DriverUID</a>);</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Interrupt %d hooked to driver %ld&quot;</span>, Interrupt, <a class="code" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html#a1faf3427bbc7f857b1d6fc8e77062f9b">Handle</a>.<a class="code" href="../../d1/d76/structDriver_1_1DriverFile.html#abc8100f10d5e40ae0909af2964aef36a">DriverUID</a>);</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00330">330</a> of file <a class="el" href="../../df/dd9/Driver_8cpp_source.html">Driver.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                                                                             : <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html">Interrupts::Handler</a>(Interrupt)</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    {</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        this-&gt;<a class="code" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html#a1faf3427bbc7f857b1d6fc8e77062f9b">Handle</a> = <a class="code" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html#a1faf3427bbc7f857b1d6fc8e77062f9b">Handle</a>;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Interrupt %d hooked to driver %ld&quot;</span>, Interrupt, <a class="code" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html#a1faf3427bbc7f857b1d6fc8e77062f9b">Handle</a>.<a class="code" href="../../d1/d76/structDriver_1_1DriverFile.html#abc8100f10d5e40ae0909af2964aef36a">DriverUID</a>);</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a>(<span class="stringliteral">&quot;Interrupt %d hooked to driver %ld&quot;</span>, Interrupt, <a class="code" href="../../d5/dff/classDriver_1_1DriverInterruptHook.html#a1faf3427bbc7f857b1d6fc8e77062f9b">Handle</a>.<a class="code" href="../../d1/d76/structDriver_1_1DriverFile.html#abc8100f10d5e40ae0909af2964aef36a">DriverUID</a>);</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    }</div>
 <div class="ttc" id="aclassDriver_1_1DriverInterruptHook_html_a1faf3427bbc7f857b1d6fc8e77062f9b"><div class="ttname"><a href="../../d5/dff/classDriver_1_1DriverInterruptHook.html#a1faf3427bbc7f857b1d6fc8e77062f9b">Driver::DriverInterruptHook::Handle</a></div><div class="ttdeci">DriverFile Handle</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7e/driver_8hpp_source.html#l00094">driver.hpp:94</a></div></div>
 <div class="ttc" id="aclassInterrupts_1_1Handler_html"><div class="ttname"><a href="../../dd/dae/classInterrupts_1_1Handler.html">Interrupts::Handler</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d36/ints_8hpp_source.html#l00047">ints.hpp:48</a></div></div>
 <div class="ttc" id="adebug_8h_html_a8666d232022b928a87f7fdf6de29d616"><div class="ttname"><a href="../../db/d16/debug_8h.html#a8666d232022b928a87f7fdf6de29d616">trace</a></div><div class="ttdeci">#define trace(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00098">debug.h:98</a></div></div>
@@ -387,7 +387,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d7e/driver_8hpp_source.html#l00094">94</a> of file <a class="el" href="../../d7/d7e/driver_8hpp_source.html">driver.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00329">DriverInterruptHook()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/dd9/Driver_8cpp_source.html#l00330">DriverInterruptHook()</a>.</p>
 
 </div>
 </div>

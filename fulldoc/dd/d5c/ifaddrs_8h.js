@@ -4,7 +4,7 @@ var ifaddrs_8h =
       [ "ifa_addr", "dd/d5c/ifaddrs_8h.html#a12d148f51adf48cee024fc6204f42c94", null ],
       [ "ifa_data", "dd/d5c/ifaddrs_8h.html#a7298836283614a0a469c8da1eabdabb9", null ],
       [ "ifa_flags", "dd/d5c/ifaddrs_8h.html#a7a68b76a064a1b2474f73aac492780da", null ],
-      [ "ifa_ifu", "dd/d5c/ifaddrs_8h.html#afb9e336d97ef646102c43565cdd4ce2f", null ],
+      [ "ifa_ifu", "dd/d5c/ifaddrs_8h.html#aea3fc807a2c457902254cb8876959d1a", null ],
       [ "ifa_name", "dd/d5c/ifaddrs_8h.html#a15b0944beb947aaef5e8532635889f6f", null ],
       [ "ifa_netmask", "dd/d5c/ifaddrs_8h.html#acac3a8d7d40841c497bb55b9e42c41d5", null ],
       [ "ifa_next", "dd/d5c/ifaddrs_8h.html#a56ad9ba85e2c8f8634b8f15fc53b6447", null ]
