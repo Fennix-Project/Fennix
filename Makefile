@@ -13,17 +13,6 @@ QEMU = ./$(QEMU_PATH)$(QEMU_ARCH)
 QEMUFLAGS := -display gtk
 
 ifeq ($(OSARCH), amd64)
-QEMUHWACCELERATION = -machine q35 -enable-kvm
-QEMUMEMORY = -m 4G
-else ifeq ($(OSARCH), i386)
-QEMUHWACCELERATION = -machine q35 -enable-kvm
-QEMUMEMORY = -m 4G
-else ifeq ($(OSARCH), aarch64)
-QEMUHWACCELERATION =
-QEMUMEMORY = -m 1G
-endif
-
-ifeq ($(OSARCH), amd64)
 QEMUFLAGS += -device vmware-svga -M q35 \
 			 -usb \
 			 -usbdevice mouse \
@@ -188,9 +177,20 @@ QEMU_SMP_DBG = -smp 4
 QEMU_SMP = -smp 4
 endif
 
+ifeq ($(OSARCH), amd64)
+QEMUHWACCELERATION = -machine q35 -enable-kvm
+QEMUMEMORY = -m 4G
+else ifeq ($(OSARCH), i386)
+QEMUHWACCELERATION = -machine q35 -enable-kvm
+QEMUMEMORY = -m 4G
+else ifeq ($(OSARCH), aarch64)
+QEMUHWACCELERATION =
+QEMUMEMORY = -m 1G
+endif
+
 vscode_debug_only:
 	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp parallel.log
-	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 4G $(QEMUFLAGS) $(QEMU_SMP_DBG)
+	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 512M $(QEMUFLAGS) $(QEMU_SMP_DBG)
 
 vscode_debug: build_lynx build_kernel build_userspace build_modules build_image vscode_debug_only
 
