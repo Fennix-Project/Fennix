@@ -97,20 +97,20 @@ $(document).ready(function(){initNavTree('d8/d81/classPCI_1_1PCI.html','../../')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a370308e3fed82058668dd4ebb9b50148"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCIDeviceHeader</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a370308e3fed82058668dd4ebb9b50148">GetDevices</a> ()</td></tr>
-<tr class="separator:a370308e3fed82058668dd4ebb9b50148"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18ec126e41497d7b4d13b9c3f6cac5f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a18ec126e41497d7b4d13b9c3f6cac5f8">MapPCIAddresses</a> (<a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCIDeviceHeader</a> *PCIDevice, <a class="el" href="../../df/dbe/cpu_8hpp.html#a996123e837c93ad5c4a1761027df2090">Memory::PageTable</a> *Table=nullptr)</td></tr>
-<tr class="separator:a18ec126e41497d7b4d13b9c3f6cac5f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69b5896cc06f2c94723806ab100e0e52"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a69b5896cc06f2c94723806ab100e0e52">EnumerateFunction</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> DeviceAddress, <a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Function)</td></tr>
-<tr class="separator:a69b5896cc06f2c94723806ab100e0e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af849282dcf49531f08835564c09010f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#af849282dcf49531f08835564c09010f1">EnumerateDevice</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> BusAddress, <a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Device)</td></tr>
-<tr class="separator:af849282dcf49531f08835564c09010f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad98a9c573b39e954e5a72050c5bfced"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#aad98a9c573b39e954e5a72050c5bfced">EnumerateBus</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> BaseAddress, <a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Bus)</td></tr>
-<tr class="separator:aad98a9c573b39e954e5a72050c5bfced"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2b631069d07f69628f917bcf22a8088"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCIDeviceHeader</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#ac2b631069d07f69628f917bcf22a8088">FindPCIDevice</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Class, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Subclass, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> ProgIF)</td></tr>
-<tr class="separator:ac2b631069d07f69628f917bcf22a8088"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a664b5ef69dae8961baf97b7429272621"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCIDeviceHeader</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a664b5ef69dae8961baf97b7429272621">FindPCIDevice</a> (int VendorID, int DeviceID)</td></tr>
-<tr class="separator:a664b5ef69dae8961baf97b7429272621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c7313658657cff669e4366e98827b3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a95c7313658657cff669e4366e98827b3">GetDevices</a> ()</td></tr>
+<tr class="separator:a95c7313658657cff669e4366e98827b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4010727d5a48f28a841a7774b94f750"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#ac4010727d5a48f28a841a7774b94f750">MapPCIAddresses</a> (<a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a> Device, <a class="el" href="../../df/d1d/classMemory_1_1PageTable.html">Memory::PageTable</a> *Table=nullptr)</td></tr>
+<tr class="separator:ac4010727d5a48f28a841a7774b94f750"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e5a0cd1bed3403715700f6f8d050c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a15e5a0cd1bed3403715700f6f8d050c0">EnumerateFunction</a> (<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> DeviceAddress, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Function, <a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a> dev)</td></tr>
+<tr class="separator:a15e5a0cd1bed3403715700f6f8d050c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f72fd8631c6d34e2845567245252e95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a7f72fd8631c6d34e2845567245252e95">EnumerateDevice</a> (<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> BusAddress, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Device, <a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a> dev)</td></tr>
+<tr class="separator:a7f72fd8631c6d34e2845567245252e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a278a3d660db0c24828c01953c85f87b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a278a3d660db0c24828c01953c85f87b1">EnumerateBus</a> (<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> BaseAddress, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Bus, <a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a> dev)</td></tr>
+<tr class="separator:a278a3d660db0c24828c01953c85f87b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3448c5b8b7d8b24a80db8b7ae33ac7d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#ab3448c5b8b7d8b24a80db8b7ae33ac7d">FindPCIDevice</a> (<a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Class, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Subclass, <a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> ProgIF)</td></tr>
+<tr class="separator:ab3448c5b8b7d8b24a80db8b7ae33ac7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ee18355212e29a725de7c14fdd5f13"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a22ee18355212e29a725de7c14fdd5f13">FindPCIDevice</a> (int VendorID, int DeviceID)</td></tr>
+<tr class="separator:a22ee18355212e29a725de7c14fdd5f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fa42429d80847c439c6018475ab4fb0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a3fa42429d80847c439c6018475ab4fb0">PCI</a> ()</td></tr>
 <tr class="separator:a3fa42429d80847c439c6018475ab4fb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9da80f3c7d6d065305dbcdd28b083bcf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a9da80f3c7d6d065305dbcdd28b083bcf">~PCI</a> ()</td></tr>
@@ -118,12 +118,12 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a09956e84c0d0aa7a28ad6a9d6bfef1fc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCIDeviceHeader</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a09956e84c0d0aa7a28ad6a9d6bfef1fc">Devices</a></td></tr>
-<tr class="separator:a09956e84c0d0aa7a28ad6a9d6bfef1fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115ec4e79cad9a675db77635a9c8bc95"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d81/classPCI_1_1PCI.html#a115ec4e79cad9a675db77635a9c8bc95">Devices</a></td></tr>
+<tr class="separator:a115ec4e79cad9a675db77635a9c8bc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00223">223</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00232">232</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a3fa42429d80847c439c6018475ab4fb0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3fa42429d80847c439c6018475ab4fb0">&#9670;&nbsp;</a></span>PCI()</h2>
@@ -140,48 +140,55 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00952">952</a> of file <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html">PeripheralComponentInterconnect.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;    {</div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
-<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">GetACPI</a>())</div>
-<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;        {</div>
-<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ACPI not found&quot;</span>);</div>
-<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;        }</div>
-<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160; </div>
-<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;        <span class="keywordflow">if</span> (!((<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *)<a class="code" href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">GetACPI</a>())-&gt;MCFG)</div>
-<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;        {</div>
-<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;MCFG not found&quot;</span>);</div>
-<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;        }</div>
-<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160; </div>
-<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a9e27d048ee5d6937dd755a81b0e7b81e">Entries</a> = s_cst(<span class="keywordtype">int</span>, ((((<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *)<a class="code" href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">GetACPI</a>())-&gt;MCFG-&gt;Header.Length) - <span class="keyword">sizeof</span>(<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#dd/db0/structACPI_1_1ACPI_1_1MCFGHeader">ACPI::ACPI::MCFGHeader</a>)) / <span class="keyword">sizeof</span>(DeviceConfig));</div>
-<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;        Memory::Virtual vmm = Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>);</div>
-<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> t = 0; t &lt; <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a9e27d048ee5d6937dd755a81b0e7b81e">Entries</a>; t++)</div>
-<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;        {</div>
-<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;            DeviceConfig *NewDeviceConfig = (DeviceConfig *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)((<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *)<a class="code" href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">GetACPI</a>())-&gt;MCFG + <span class="keyword">sizeof</span>(<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#dd/db0/structACPI_1_1ACPI_1_1MCFGHeader">ACPI::ACPI::MCFGHeader</a>) + (<span class="keyword">sizeof</span>(DeviceConfig) * t));</div>
-<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;            vmm.Map((<span class="keywordtype">void</span> *)NewDeviceConfig-&gt;BaseAddress, (<span class="keywordtype">void</span> *)NewDeviceConfig-&gt;BaseAddress, Memory::PTFlag::RW);</div>
-<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;PCI Entry %d Address:%p BUS:%#x-%#x&quot;</span>, t, NewDeviceConfig-&gt;BaseAddress,</div>
-<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;                  NewDeviceConfig-&gt;StartBus, NewDeviceConfig-&gt;EndBus);</div>
-<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Bus = NewDeviceConfig-&gt;StartBus; Bus &lt; NewDeviceConfig-&gt;EndBus; Bus++)</div>
-<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;                <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#aad98a9c573b39e954e5a72050c5bfced">EnumerateBus</a>(NewDeviceConfig-&gt;BaseAddress, Bus);</div>
-<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;        }</div>
-<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
-<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;PCI not implemented on aarch64&quot;</span>);</div>
-<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;    }</div>
-<div class="ttc" id="aKernel_8cpp_html_ac4acbd97a34e46e0e3b1f643e7d9ce94"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a></div><div class="ttdeci">Power::Power * PowerManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00218">Kernel.cpp:218</a></div></div>
-<div class="ttc" id="aMemory_8cpp_html_a4333668045042c7f091a54e4962e51e9"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a></div><div class="ttdeci">PageTable * KernelPageTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00044">Memory.cpp:44</a></div></div>
-<div class="ttc" id="aMultiboot64bitMap_8cpp_html_a9e27d048ee5d6937dd755a81b0e7b81e"><div class="ttname"><a href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a9e27d048ee5d6937dd755a81b0e7b81e">Entries</a></div><div class="ttdeci">PageMapLevel4 Entries[512]</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00000">Multiboot64bitMap.cpp:0</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d87/pci_8cpp_source.html#l00977">977</a> of file <a class="el" href="../../d5/d87/pci_8cpp_source.html">pci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;    {</div>
+<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
+<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../dd/d24/kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">GetACPI</a>())</div>
+<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;        {</div>
+<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;ACPI not found&quot;</span>);</div>
+<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;        }</div>
+<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160; </div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;        <span class="keywordflow">if</span> (!((<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *)<a class="code" href="../../dd/d24/kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">GetACPI</a>())-&gt;MCFG)</div>
+<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;        {</div>
+<div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;MCFG not found&quot;</span>);</div>
+<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;        }</div>
+<div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160; </div>
+<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a9e27d048ee5d6937dd755a81b0e7b81e">Entries</a> = s_cst(<span class="keywordtype">int</span>, ((((<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *)<a class="code" href="../../dd/d24/kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">GetACPI</a>())-&gt;MCFG-&gt;Header.Length) - <span class="keyword">sizeof</span>(<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#dd/db0/structACPI_1_1ACPI_1_1MCFGHeader">ACPI::ACPI::MCFGHeader</a>)) / <span class="keyword">sizeof</span>(DeviceConfig));</div>
+<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;        <a class="code" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a> vmm = <a class="code" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(<a class="code" href="../../d8/d71/memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>);</div>
+<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> t = 0; t &lt; <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a9e27d048ee5d6937dd755a81b0e7b81e">Entries</a>; t++)</div>
+<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;        {</div>
+<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;            DeviceConfig *NewDeviceConfig = (DeviceConfig *)((<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>)((<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a> *)<a class="code" href="../../dd/d24/kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a>-&gt;<a class="code" href="../../d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">GetACPI</a>())-&gt;MCFG + <span class="keyword">sizeof</span>(<a class="code" href="../../d3/d21/classACPI_1_1ACPI.html#dd/db0/structACPI_1_1ACPI_1_1MCFGHeader">ACPI::ACPI::MCFGHeader</a>) + (<span class="keyword">sizeof</span>(DeviceConfig) * t));</div>
+<div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;            vmm.<a class="code" href="../../db/d82/classMemory_1_1Virtual.html#a1a5c185804c552d127a0e90162600f27">Map</a>((<span class="keywordtype">void</span> *)NewDeviceConfig-&gt;BaseAddress, (<span class="keywordtype">void</span> *)NewDeviceConfig-&gt;BaseAddress, <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">Memory::PTFlag::RW</a>);</div>
+<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;PCI Entry %d Address:%p BUS:%#x-%#x&quot;</span>, t, NewDeviceConfig-&gt;BaseAddress,</div>
+<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;                  NewDeviceConfig-&gt;StartBus, NewDeviceConfig-&gt;EndBus);</div>
+<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160; </div>
+<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;            PCIDevice dev{};</div>
+<div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;            dev.Config = NewDeviceConfig;</div>
+<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;            <span class="keywordflow">for</span> (<a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Bus = NewDeviceConfig-&gt;StartBus; Bus &lt; NewDeviceConfig-&gt;EndBus; Bus++)</div>
+<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;                <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a278a3d660db0c24828c01953c85f87b1">EnumerateBus</a>(NewDeviceConfig-&gt;BaseAddress, Bus, dev);</div>
+<div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;        }</div>
+<div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;<span class="preprocessor">#elif defined(aa64)</span></div>
+<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;PCI not implemented on aarch64&quot;</span>);</div>
+<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;    }</div>
+<div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
 <div class="ttc" id="aclassACPI_1_1ACPI_html"><div class="ttname"><a href="../../d3/d21/classACPI_1_1ACPI.html">ACPI::ACPI</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00030">acpi.hpp:31</a></div></div>
 <div class="ttc" id="aclassACPI_1_1ACPI_html_dd/db0/structACPI_1_1ACPI_1_1MCFGHeader"><div class="ttname"><a href="../../d3/d21/classACPI_1_1ACPI.html#dd/db0/structACPI_1_1ACPI_1_1MCFGHeader">ACPI::ACPI::MCFGHeader</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d90/acpi_8hpp_source.html#l00055">acpi.hpp:56</a></div></div>
-<div class="ttc" id="aclassPCI_1_1PCI_html_aad98a9c573b39e954e5a72050c5bfced"><div class="ttname"><a href="../../d8/d81/classPCI_1_1PCI.html#aad98a9c573b39e954e5a72050c5bfced">PCI::PCI::EnumerateBus</a></div><div class="ttdeci">void EnumerateBus(uint64_t BaseAddress, uintptr_t Bus)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00912">PeripheralComponentInterconnect.cpp:912</a></div></div>
+<div class="ttc" id="aclassMemory_1_1Virtual_html"><div class="ttname"><a href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dff/virtual_8hpp_source.html#l00029">virtual.hpp:30</a></div></div>
+<div class="ttc" id="aclassMemory_1_1Virtual_html_a1a5c185804c552d127a0e90162600f27"><div class="ttname"><a href="../../db/d82/classMemory_1_1Virtual.html#a1a5c185804c552d127a0e90162600f27">Memory::Virtual::Map</a></div><div class="ttdeci">void Map(void *VirtualAddress, void *PhysicalAddress, uint64_t Flag=PTFlag::P, MapType Type=MapType::FourKiB)</div><div class="ttdoc">Map page.</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d6c/arch_2aarch64_2memory_2vmm_8cpp_source.html#l00033">vmm.cpp:33</a></div></div>
+<div class="ttc" id="aclassPCI_1_1PCI_html_a278a3d660db0c24828c01953c85f87b1"><div class="ttname"><a href="../../d8/d81/classPCI_1_1PCI.html#a278a3d660db0c24828c01953c85f87b1">PCI::PCI::EnumerateBus</a></div><div class="ttdeci">void EnumerateBus(uint64_t BaseAddress, uint32_t Bus, PCIDevice dev)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d87/pci_8cpp_source.html#l00921">pci.cpp:921</a></div></div>
 <div class="ttc" id="aclassPower_1_1Power_html_a4da25ce55b83a893d1c217a23a443c8d"><div class="ttname"><a href="../../d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">Power::Power::GetACPI</a></div><div class="ttdeci">void * GetACPI()</div><div class="ttdoc">Get Advanced Configuration and Power Interface. (Available only on x32 and x64)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dfa/power_8hpp_source.html#l00038">power.hpp:38</a></div></div>
 <div class="ttc" id="adebug_8h_html_a31e7d5c5946947277dce12f2584e7a43"><div class="ttname"><a href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a></div><div class="ttdeci">#define debug(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00094">debug.h:94</a></div></div>
 <div class="ttc" id="adebug_8h_html_a65f6c7faf3bfe3937629a7a365e06574"><div class="ttname"><a href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a></div><div class="ttdeci">#define error(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00086">debug.h:86</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00186">types.h:186</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_ac4acbd97a34e46e0e3b1f643e7d9ce94"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#ac4acbd97a34e46e0e3b1f643e7d9ce94">PowerManager</a></div><div class="ttdeci">Power::Power * PowerManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00061">kernel.cpp:61</a></div></div>
+<div class="ttc" id="amb__64bit__map_8cpp_html_a9e27d048ee5d6937dd755a81b0e7b81e"><div class="ttname"><a href="../../d9/def/mb__64bit__map_8cpp.html#a9e27d048ee5d6937dd755a81b0e7b81e">Entries</a></div><div class="ttdeci">PageMapLevel4 Entries[512]</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/def/mb__64bit__map_8cpp_source.html#l00000">mb_64bit_map.cpp:0</a></div></div>
+<div class="ttc" id="amemory_8cpp_html_a4333668045042c7f091a54e4962e51e9"><div class="ttname"><a href="../../d8/d71/memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a></div><div class="ttdeci">PageTable * KernelPageTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d71/memory_8cpp_source.html#l00044">memory.cpp:44</a></div></div>
+<div class="ttc" id="anamespaceMemory_html_a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">Memory::RW</a></div><div class="ttdeci">@ RW</div><div class="ttdoc">Read/Write.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2d/table_8hpp_source.html#l00035">table.hpp:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00216">PCI::DeviceConfig::BaseAddress</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00219">PCI::DeviceConfig::EndBus</a>, <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00000">Entries</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../db/dfa/power_8hpp_source.html#l00038">Power::Power::GetACPI()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00044">KernelPageTable</a>, <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00218">PowerManager</a>, and <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00218">PCI::DeviceConfig::StartBus</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00216">PCI::DeviceConfig::BaseAddress</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00226">PCI::PCIDevice::Config</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00219">PCI::DeviceConfig::EndBus</a>, <a class="el" href="../../d9/def/mb__64bit__map_8cpp_source.html#l00000">Entries</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../db/dfa/power_8hpp_source.html#l00038">Power::Power::GetACPI()</a>, <a class="el" href="../../d8/d71/memory_8cpp_source.html#l00044">KernelPageTable</a>, <a class="el" href="../../d0/d6c/arch_2aarch64_2memory_2vmm_8cpp_source.html#l00033">Memory::Virtual::Map()</a>, <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00061">PowerManager</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00035">Memory::RW</a>, and <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00218">PCI::DeviceConfig::StartBus</a>.</p>
 
 </div>
 </div>
@@ -200,15 +207,14 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00983">983</a> of file <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html">PeripheralComponentInterconnect.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;    {</div>
-<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d87/pci_8cpp_source.html#l01011">1011</a> of file <a class="el" href="../../d5/d87/pci_8cpp_source.html">pci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aad98a9c573b39e954e5a72050c5bfced"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad98a9c573b39e954e5a72050c5bfced">&#9670;&nbsp;</a></span>EnumerateBus()</h2>
+<a id="a278a3d660db0c24828c01953c85f87b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a278a3d660db0c24828c01953c85f87b1">&#9670;&nbsp;</a></span>EnumerateBus()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,14 +222,20 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void PCI::PCI::EnumerateBus </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>BaseAddress</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td>
-          <td class="paramname"><em>Bus</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>Bus</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a>&#160;</td>
+          <td class="paramname"><em>dev</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -233,36 +245,41 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00912">912</a> of file <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html">PeripheralComponentInterconnect.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;    {</div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Offset = Bus &lt;&lt; 20;</div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> BusAddress = BaseAddress + Offset;</div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;        Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>).Map((<span class="keywordtype">void</span> *)BusAddress, (<span class="keywordtype">void</span> *)BusAddress, Memory::PTFlag::RW);</div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;        PCIDeviceHeader *PCIDeviceHdr = (PCIDeviceHeader *)BusAddress;</div>
-<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;        <span class="keywordflow">if</span> (Bus != 0) <span class="comment">// TODO: VirtualBox workaround (UNTESTED ON REAL HARDWARE!)</span></div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;        {</div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;            <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0)</div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;            <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0xFFFF)</div>
-<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;        }</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;PCI Bus DeviceID:%#x VendorID:%#x BIST:%#x Cache:%#x Class:%#x Cmd:%#x HdrType:%#x LatencyTimer:%#x ProgIF:%#x RevID:%#x Status:%#x SubClass:%#x &quot;</span>,</div>
-<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;              PCIDeviceHdr-&gt;DeviceID, PCIDeviceHdr-&gt;VendorID, PCIDeviceHdr-&gt;BIST,</div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;              PCIDeviceHdr-&gt;CacheLineSize, PCIDeviceHdr-&gt;Class, PCIDeviceHdr-&gt;Command,</div>
-<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;              PCIDeviceHdr-&gt;HeaderType, PCIDeviceHdr-&gt;LatencyTimer, PCIDeviceHdr-&gt;ProgIF,</div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;              PCIDeviceHdr-&gt;RevisionID, PCIDeviceHdr-&gt;Status, PCIDeviceHdr-&gt;Subclass);</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Device = 0; Device &lt; 32; Device++)</div>
-<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;            <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#af849282dcf49531f08835564c09010f1">EnumerateDevice</a>(BusAddress, Device);</div>
-<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;    }</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
-<div class="ttc" id="aclassPCI_1_1PCI_html_af849282dcf49531f08835564c09010f1"><div class="ttname"><a href="../../d8/d81/classPCI_1_1PCI.html#af849282dcf49531f08835564c09010f1">PCI::PCI::EnumerateDevice</a></div><div class="ttdeci">void EnumerateDevice(uint64_t BusAddress, uintptr_t Device)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00898">PeripheralComponentInterconnect.cpp:898</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d87/pci_8cpp_source.html#l00921">921</a> of file <a class="el" href="../../d5/d87/pci_8cpp_source.html">pci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;    {</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;        dev.Bus = Bus;</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160; </div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Offset = Bus &lt;&lt; 20;</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> BusAddress = BaseAddress + Offset;</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;        <a class="code" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(<a class="code" href="../../d8/d71/memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>).<a class="code" href="../../db/d82/classMemory_1_1Virtual.html#a1a5c185804c552d127a0e90162600f27">Map</a>((<span class="keywordtype">void</span> *)BusAddress, (<span class="keywordtype">void</span> *)BusAddress, <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">Memory::PTFlag::RW</a>);</div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;        PCIDeviceHeader *PCIDeviceHdr = (PCIDeviceHeader *)BusAddress;</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160; </div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;        <span class="keywordflow">if</span> (Bus != 0) <span class="comment">// TODO: VirtualBox workaround (UNTESTED ON REAL HARDWARE!)</span></div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;        {</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;            <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0)</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;            <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0xFFFF)</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;        }</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160; </div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;PCI Bus DeviceID:%#x VendorID:%#x BIST:%#x Cache:%#x Class:%#x Cmd:%#x HdrType:%#x LatencyTimer:%#x ProgIF:%#x RevID:%#x Status:%#x SubClass:%#x &quot;</span>,</div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;              PCIDeviceHdr-&gt;DeviceID, PCIDeviceHdr-&gt;VendorID, PCIDeviceHdr-&gt;BIST,</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;              PCIDeviceHdr-&gt;CacheLineSize, PCIDeviceHdr-&gt;Class, PCIDeviceHdr-&gt;Command,</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;              PCIDeviceHdr-&gt;HeaderType, PCIDeviceHdr-&gt;LatencyTimer, PCIDeviceHdr-&gt;ProgIF,</div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;              PCIDeviceHdr-&gt;RevisionID, PCIDeviceHdr-&gt;Status, PCIDeviceHdr-&gt;Subclass);</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160; </div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Device = 0; Device &lt; 32; Device++)</div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;            <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a7f72fd8631c6d34e2845567245252e95">EnumerateDevice</a>(BusAddress, Device, dev);</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    }</div>
+<div class="ttc" id="aarithmetic__operations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00294">arithmetic_operations.c:294</a></div></div>
+<div class="ttc" id="aclassPCI_1_1PCI_html_a7f72fd8631c6d34e2845567245252e95"><div class="ttname"><a href="../../d8/d81/classPCI_1_1PCI.html#a7f72fd8631c6d34e2845567245252e95">PCI::PCI::EnumerateDevice</a></div><div class="ttdeci">void EnumerateDevice(uint64_t BusAddress, uint32_t Device, PCIDevice dev)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d87/pci_8cpp_source.html#l00903">pci.cpp:903</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00122">PCI::PCIDeviceHeader::BIST</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00119">PCI::PCIDeviceHeader::CacheLineSize</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00118">PCI::PCIDeviceHeader::Class</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00113">PCI::PCIDeviceHeader::Command</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00112">PCI::PCIDeviceHeader::DeviceID</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00121">PCI::PCIDeviceHeader::HeaderType</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00044">KernelPageTable</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00120">PCI::PCIDeviceHeader::LatencyTimer</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00116">PCI::PCIDeviceHeader::ProgIF</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00115">PCI::PCIDeviceHeader::RevisionID</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00114">PCI::PCIDeviceHeader::Status</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00117">PCI::PCIDeviceHeader::Subclass</a>, and <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00111">PCI::PCIDeviceHeader::VendorID</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00122">PCI::PCIDeviceHeader::BIST</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00227">PCI::PCIDevice::Bus</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00119">PCI::PCIDeviceHeader::CacheLineSize</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00118">PCI::PCIDeviceHeader::Class</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00113">PCI::PCIDeviceHeader::Command</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00112">PCI::PCIDeviceHeader::DeviceID</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00121">PCI::PCIDeviceHeader::HeaderType</a>, <a class="el" href="../../d8/d71/memory_8cpp_source.html#l00044">KernelPageTable</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00120">PCI::PCIDeviceHeader::LatencyTimer</a>, <a class="el" href="../../d0/d6c/arch_2aarch64_2memory_2vmm_8cpp_source.html#l00033">Memory::Virtual::Map()</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00116">PCI::PCIDeviceHeader::ProgIF</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00115">PCI::PCIDeviceHeader::RevisionID</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00035">Memory::RW</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00114">PCI::PCIDeviceHeader::Status</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00117">PCI::PCIDeviceHeader::Subclass</a>, and <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00111">PCI::PCIDeviceHeader::VendorID</a>.</p>
 
 </div>
 </div>
-<a id="af849282dcf49531f08835564c09010f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af849282dcf49531f08835564c09010f1">&#9670;&nbsp;</a></span>EnumerateDevice()</h2>
+<a id="a7f72fd8631c6d34e2845567245252e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f72fd8631c6d34e2845567245252e95">&#9670;&nbsp;</a></span>EnumerateDevice()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -270,14 +287,20 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void PCI::PCI::EnumerateDevice </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>BusAddress</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td>
-          <td class="paramname"><em>Device</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a>&#160;</td>
+          <td class="paramname"><em>dev</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -287,27 +310,31 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00898">898</a> of file <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html">PeripheralComponentInterconnect.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;    {</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Offset = Device &lt;&lt; 15;</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> DeviceAddress = BusAddress + Offset;</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;        Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>).Map((<span class="keywordtype">void</span> *)DeviceAddress, (<span class="keywordtype">void</span> *)DeviceAddress, Memory::PTFlag::RW);</div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;        PCIDeviceHeader *PCIDeviceHdr = (PCIDeviceHeader *)DeviceAddress;</div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;        <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0)</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;        <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0xFFFF)</div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Function = 0; Function &lt; 8; Function++)</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;            <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a69b5896cc06f2c94723806ab100e0e52">EnumerateFunction</a>(DeviceAddress, Function);</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    }</div>
-<div class="ttc" id="aclassPCI_1_1PCI_html_a69b5896cc06f2c94723806ab100e0e52"><div class="ttname"><a href="../../d8/d81/classPCI_1_1PCI.html#a69b5896cc06f2c94723806ab100e0e52">PCI::PCI::EnumerateFunction</a></div><div class="ttdeci">void EnumerateFunction(uint64_t DeviceAddress, uintptr_t Function)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00882">PeripheralComponentInterconnect.cpp:882</a></div></div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d87/pci_8cpp_source.html#l00903">903</a> of file <a class="el" href="../../d5/d87/pci_8cpp_source.html">pci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;    {</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;        dev.Device = Device;</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160; </div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Offset = Device &lt;&lt; 15;</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> DeviceAddress = BusAddress + Offset;</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;        <a class="code" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(<a class="code" href="../../d8/d71/memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>).<a class="code" href="../../db/d82/classMemory_1_1Virtual.html#a1a5c185804c552d127a0e90162600f27">Map</a>((<span class="keywordtype">void</span> *)DeviceAddress, (<span class="keywordtype">void</span> *)DeviceAddress, <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">Memory::PTFlag::RW</a>);</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;        PCIDeviceHeader *PCIDeviceHdr = (PCIDeviceHeader *)DeviceAddress;</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160; </div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;        <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0)</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;        <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0xFFFF)</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160; </div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> Function = 0; Function &lt; 8; Function++)</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;            <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a15e5a0cd1bed3403715700f6f8d050c0">EnumerateFunction</a>(DeviceAddress, Function, dev);</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;    }</div>
+<div class="ttc" id="aclassPCI_1_1PCI_html_a15e5a0cd1bed3403715700f6f8d050c0"><div class="ttname"><a href="../../d8/d81/classPCI_1_1PCI.html#a15e5a0cd1bed3403715700f6f8d050c0">PCI::PCI::EnumerateFunction</a></div><div class="ttdeci">void EnumerateFunction(uint64_t DeviceAddress, uint32_t Function, PCIDevice dev)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d87/pci_8cpp_source.html#l00882">pci.cpp:882</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00112">PCI::PCIDeviceHeader::DeviceID</a>, and <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00044">KernelPageTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00228">PCI::PCIDevice::Device</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00112">PCI::PCIDeviceHeader::DeviceID</a>, <a class="el" href="../../d8/d71/memory_8cpp_source.html#l00044">KernelPageTable</a>, <a class="el" href="../../d0/d6c/arch_2aarch64_2memory_2vmm_8cpp_source.html#l00033">Memory::Virtual::Map()</a>, and <a class="el" href="../../de/d2d/table_8hpp_source.html#l00035">Memory::RW</a>.</p>
 
 </div>
 </div>
-<a id="a69b5896cc06f2c94723806ab100e0e52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69b5896cc06f2c94723806ab100e0e52">&#9670;&nbsp;</a></span>EnumerateFunction()</h2>
+<a id="a15e5a0cd1bed3403715700f6f8d050c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15e5a0cd1bed3403715700f6f8d050c0">&#9670;&nbsp;</a></span>EnumerateFunction()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,14 +342,20 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void PCI::PCI::EnumerateFunction </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td>
           <td class="paramname"><em>DeviceAddress</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a>&#160;</td>
-          <td class="paramname"><em>Function</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramname"><em>Function</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a>&#160;</td>
+          <td class="paramname"><em>dev</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -332,35 +365,40 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00882">882</a> of file <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html">PeripheralComponentInterconnect.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d87/pci_8cpp_source.html#l00882">882</a> of file <a class="el" href="../../d5/d87/pci_8cpp_source.html">pci.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;    {</div>
-<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Offset = Function &lt;&lt; 12;</div>
-<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> FunctionAddress = DeviceAddress + Offset;</div>
-<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;        Memory::Virtual(<a class="code" href="../../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>).Map((<span class="keywordtype">void</span> *)FunctionAddress, (<span class="keywordtype">void</span> *)FunctionAddress, Memory::PTFlag::RW);</div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;        PCIDeviceHeader *PCIDeviceHdr = (PCIDeviceHeader *)FunctionAddress;</div>
-<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;        <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0)</div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0xFFFF)</div>
-<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;        <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a09956e84c0d0aa7a28ad6a9d6bfef1fc">Devices</a>.push_back(PCIDeviceHdr);</div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;        e(PCIDeviceHdr);</div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;    }</div>
-<div class="ttc" id="aclassPCI_1_1PCI_html_a09956e84c0d0aa7a28ad6a9d6bfef1fc"><div class="ttname"><a href="../../d8/d81/classPCI_1_1PCI.html#a09956e84c0d0aa7a28ad6a9d6bfef1fc">PCI::PCI::Devices</a></div><div class="ttdeci">std::vector&lt; PCIDeviceHeader * &gt; Devices</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd5/pci_8hpp_source.html#l00226">pci.hpp:226</a></div></div>
+<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;        dev.Function = Function;</div>
+<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160; </div>
+<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;        <a class="code" href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a> Offset = Function &lt;&lt; 12;</div>
+<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> FunctionAddress = DeviceAddress + Offset;</div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;        <a class="code" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(<a class="code" href="../../d8/d71/memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>).<a class="code" href="../../db/d82/classMemory_1_1Virtual.html#a1a5c185804c552d127a0e90162600f27">Map</a>((<span class="keywordtype">void</span> *)FunctionAddress, (<span class="keywordtype">void</span> *)FunctionAddress, <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">Memory::PTFlag::RW</a>);</div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;        PCIDeviceHeader *PCIDeviceHdr = (PCIDeviceHeader *)FunctionAddress;</div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        dev.Header = PCIDeviceHdr;</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160; </div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;        <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0)</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;        <span class="keywordflow">if</span> (PCIDeviceHdr-&gt;DeviceID == 0xFFFF)</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160; </div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;        <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a115ec4e79cad9a675db77635a9c8bc95">Devices</a>.push_back(dev);</div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;<span class="preprocessor">#ifdef DEBUG</span></div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;        e(PCIDeviceHdr);</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;    }</div>
+<div class="ttc" id="aclassPCI_1_1PCI_html_a115ec4e79cad9a675db77635a9c8bc95"><div class="ttname"><a href="../../d8/d81/classPCI_1_1PCI.html#a115ec4e79cad9a675db77635a9c8bc95">PCI::PCI::Devices</a></div><div class="ttdeci">std::vector&lt; PCIDevice &gt; Devices</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd5/pci_8hpp_source.html#l00235">pci.hpp:235</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00112">PCI::PCIDeviceHeader::DeviceID</a>, and <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00044">KernelPageTable</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00112">PCI::PCIDeviceHeader::DeviceID</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00229">PCI::PCIDevice::Function</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00225">PCI::PCIDevice::Header</a>, <a class="el" href="../../d8/d71/memory_8cpp_source.html#l00044">KernelPageTable</a>, <a class="el" href="../../d0/d6c/arch_2aarch64_2memory_2vmm_8cpp_source.html#l00033">Memory::Virtual::Map()</a>, and <a class="el" href="../../de/d2d/table_8hpp_source.html#l00035">Memory::RW</a>.</p>
 
 </div>
 </div>
-<a id="a664b5ef69dae8961baf97b7429272621"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a664b5ef69dae8961baf97b7429272621">&#9670;&nbsp;</a></span>FindPCIDevice() <span class="overload">[1/2]</span></h2>
+<a id="a22ee18355212e29a725de7c14fdd5f13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22ee18355212e29a725de7c14fdd5f13">&#9670;&nbsp;</a></span>FindPCIDevice() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCIDeviceHeader</a> * &gt; PCI::PCI::FindPCIDevice </td>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a> &gt; PCI::PCI::FindPCIDevice </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>VendorID</em>, </td>
@@ -379,25 +417,30 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00943">943</a> of file <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html">PeripheralComponentInterconnect.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;    {</div>
-<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;        std::vector&lt;PCIDeviceHeader *&gt; DeviceFound;</div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> var : <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a09956e84c0d0aa7a28ad6a9d6bfef1fc">Devices</a>)</div>
-<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;            <span class="keywordflow">if</span> (var-&gt;VendorID == VendorID &amp;&amp; var-&gt;DeviceID == DeviceID)</div>
-<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;                DeviceFound.push_back(var);</div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;        <span class="keywordflow">return</span> DeviceFound;</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d87/pci_8cpp_source.html#l00963">963</a> of file <a class="el" href="../../d5/d87/pci_8cpp_source.html">pci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;    {</div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;        std::vector&lt;PCIDevice&gt; DeviceFound;</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;        <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> dev <span class="keywordflow">in</span> <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a115ec4e79cad9a675db77635a9c8bc95">Devices</a>)</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;        {</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;            <span class="keywordflow">if</span> (dev.Header-&gt;VendorID == VendorID &amp;&amp;</div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;                dev.Header-&gt;DeviceID == DeviceID)</div>
+<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;            {</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;                DeviceFound.push_back(dev);</div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;            }</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;        }</div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;        <span class="keywordflow">return</span> DeviceFound;</div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="ac2b631069d07f69628f917bcf22a8088"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2b631069d07f69628f917bcf22a8088">&#9670;&nbsp;</a></span>FindPCIDevice() <span class="overload">[2/2]</span></h2>
+<a id="ab3448c5b8b7d8b24a80db8b7ae33ac7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3448c5b8b7d8b24a80db8b7ae33ac7d">&#9670;&nbsp;</a></span>FindPCIDevice() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCIDeviceHeader</a> * &gt; PCI::PCI::FindPCIDevice </td>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a> &gt; PCI::PCI::FindPCIDevice </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td>
           <td class="paramname"><em>Class</em>, </td>
@@ -422,21 +465,27 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00934">934</a> of file <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html">PeripheralComponentInterconnect.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;    {</div>
-<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;        std::vector&lt;PCIDeviceHeader *&gt; DeviceFound;</div>
-<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;        <span class="keywordflow">for</span> (<span class="keyword">auto</span> var : <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a09956e84c0d0aa7a28ad6a9d6bfef1fc">Devices</a>)</div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;            <span class="keywordflow">if</span> (var-&gt;Class == Class &amp;&amp; var-&gt;Subclass == Subclass &amp;&amp; var-&gt;ProgIF == ProgIF)</div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;                DeviceFound.push_back(var);</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;        <span class="keywordflow">return</span> DeviceFound;</div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../d5/d87/pci_8cpp_source.html#l00948">948</a> of file <a class="el" href="../../d5/d87/pci_8cpp_source.html">pci.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;    {</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;        std::vector&lt;PCIDevice&gt; DeviceFound;</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;        <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> dev <span class="keywordflow">in</span> <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a115ec4e79cad9a675db77635a9c8bc95">Devices</a>)</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;        {</div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;            <span class="keywordflow">if</span> (dev.Header-&gt;Class == Class &amp;&amp;</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;                dev.Header-&gt;Subclass == Subclass &amp;&amp;</div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;                dev.Header-&gt;ProgIF == ProgIF)</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;            {</div>
+<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;                DeviceFound.push_back(dev);</div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;            }</div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;        }</div>
+<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;        <span class="keywordflow">return</span> DeviceFound;</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d7/dc4/BindPCI_8cpp_source.html#l00034">Driver::Driver::DriverLoadBindPCI()</a>, and <a class="el" href="../../d4/d8a/BuiltinModuleLoader_8cpp_source.html#l00177">FindPCI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d2/db7/mod__loader_8cpp_source.html#l00177">FindPCI()</a>, and <a class="el" href="../../dc/d70/bind__pci_8cpp_source.html#l00034">Module::Module::ModuleLoadBindPCI()</a>.</p>
 
 </div>
 </div>
-<a id="a370308e3fed82058668dd4ebb9b50148"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a370308e3fed82058668dd4ebb9b50148">&#9670;&nbsp;</a></span>GetDevices()</h2>
+<a id="a95c7313658657cff669e4366e98827b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95c7313658657cff669e4366e98827b3">&#9670;&nbsp;</a></span>GetDevices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +494,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCIDeviceHeader</a> *&gt;&amp; PCI::PCI::GetDevices </td>
+          <td class="memname">std::vector&lt;<a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a>&gt;&amp; PCI::PCI::GetDevices </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -458,15 +507,15 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00229">229</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a09956e84c0d0aa7a28ad6a9d6bfef1fc">Devices</a>; }</div>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00238">238</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a115ec4e79cad9a675db77635a9c8bc95">Devices</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../d4/d8d/lspci_8cpp_source.html#l00026">cmd_lspci()</a>, and <a class="el" href="../../d2/d00/Kernel_8cpp_source.html#l00282">Main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d4/d8d/lspci_8cpp_source.html#l00026">cmd_lspci()</a>, and <a class="el" href="../../dd/d24/kernel_8cpp_source.html#l00113">Main()</a>.</p>
 
 </div>
 </div>
-<a id="a18ec126e41497d7b4d13b9c3f6cac5f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18ec126e41497d7b4d13b9c3f6cac5f8">&#9670;&nbsp;</a></span>MapPCIAddresses()</h2>
+<a id="ac4010727d5a48f28a841a7774b94f750"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4010727d5a48f28a841a7774b94f750">&#9670;&nbsp;</a></span>MapPCIAddresses()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -474,13 +523,13 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void PCI::PCI::MapPCIAddresses </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCIDeviceHeader</a> *&#160;</td>
-          <td class="paramname"><em>PCIDevice</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a>&#160;</td>
+          <td class="paramname"><em>Device</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/dbe/cpu_8hpp.html#a996123e837c93ad5c4a1761027df2090">Memory::PageTable</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/d1d/classMemory_1_1PageTable.html">Memory::PageTable</a> *&#160;</td>
           <td class="paramname"><em>Table</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
@@ -491,22 +540,22 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00787">787</a> of file <a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html">PeripheralComponentInterconnect.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d5/d87/pci_8cpp_source.html#l00787">787</a> of file <a class="el" href="../../d5/d87/pci_8cpp_source.html">pci.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;    {</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Header Type: %d&quot;</span>, PCIDevice-&gt;HeaderType);</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;        <span class="keywordflow">switch</span> (PCIDevice-&gt;HeaderType)</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Header Type: %d&quot;</span>, Device.Header-&gt;HeaderType);</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;        <span class="keywordflow">switch</span> (Device.Header-&gt;HeaderType)</div>
 <div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;        {</div>
 <div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;        <span class="keywordflow">case</span> 0: <span class="comment">/* PCI Header 0 */</span></div>
 <div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;        {</div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[6] = {0};</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[6] = {0};</div>
 <div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;            <span class="keywordtype">size_t</span> BARsSize[6] = {0};</div>
 <div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160; </div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[0] = ((PCIHeader0 *)PCIDevice)-&gt;BAR0;</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[1] = ((PCIHeader0 *)PCIDevice)-&gt;BAR1;</div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[2] = ((PCIHeader0 *)PCIDevice)-&gt;BAR2;</div>
-<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[3] = ((PCIHeader0 *)PCIDevice)-&gt;BAR3;</div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[4] = ((PCIHeader0 *)PCIDevice)-&gt;BAR4;</div>
-<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[5] = ((PCIHeader0 *)PCIDevice)-&gt;BAR5;</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[0] = ((PCIHeader0 *)Device.Header)-&gt;BAR0;</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[1] = ((PCIHeader0 *)Device.Header)-&gt;BAR1;</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[2] = ((PCIHeader0 *)Device.Header)-&gt;BAR2;</div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[3] = ((PCIHeader0 *)Device.Header)-&gt;BAR3;</div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[4] = ((PCIHeader0 *)Device.Header)-&gt;BAR4;</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;            <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[5] = ((PCIHeader0 *)Device.Header)-&gt;BAR5;</div>
 <div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160; </div>
 <div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Type: %d; IOBase: %#lx; MemoryBase: %#lx&quot;</span>,</div>
 <div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;                  <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[0] &amp; 1,</div>
@@ -521,9 +570,9 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160; </div>
 <div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;                <span class="keywordflow">if</span> ((<a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[i] &amp; 1) == 0) <span class="comment">/* Memory Base */</span></div>
 <div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;                {</div>
-<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;                    ((PCIHeader0 *)PCIDevice)-&gt;BAR0 = 0xFFFFFFFF;</div>
-<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;                    <span class="keywordtype">size_t</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> = ((PCIHeader0 *)PCIDevice)-&gt;BAR0;</div>
-<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;                    ((PCIHeader0 *)PCIDevice)-&gt;BAR0 = <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[i];</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;                    ((PCIHeader0 *)Device.Header)-&gt;BAR0 = 0xFFFFFFFF;</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;                    <span class="keywordtype">size_t</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> = ((PCIHeader0 *)Device.Header)-&gt;BAR0;</div>
+<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;                    ((PCIHeader0 *)Device.Header)-&gt;BAR0 = <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[i];</div>
 <div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;                    BARsSize[i] = <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> &amp; (~15);</div>
 <div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;                    BARsSize[i] = ~BARsSize[i] + 1;</div>
 <div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;                    BARsSize[i] = BARsSize[i] &amp; 0xFFFFFFFF;</div>
@@ -531,9 +580,9 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;                }</div>
 <div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((<a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[i] &amp; 1) == 1) <span class="comment">/* I/O Base */</span></div>
 <div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;                {</div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;                    ((PCIHeader0 *)PCIDevice)-&gt;BAR1 = 0xFFFFFFFF;</div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;                    <span class="keywordtype">size_t</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> = ((PCIHeader0 *)PCIDevice)-&gt;BAR1;</div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;                    ((PCIHeader0 *)PCIDevice)-&gt;BAR1 = <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[i];</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;                    ((PCIHeader0 *)Device.Header)-&gt;BAR1 = 0xFFFFFFFF;</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;                    <span class="keywordtype">size_t</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> = ((PCIHeader0 *)Device.Header)-&gt;BAR1;</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;                    ((PCIHeader0 *)Device.Header)-&gt;BAR1 = <a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[i];</div>
 <div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;                    BARsSize[i] = <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a> &amp; (~3);</div>
 <div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;                    BARsSize[i] = ~BARsSize[i] + 1;</div>
 <div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;                    BARsSize[i] = BARsSize[i] &amp; 0xFFFF;</div>
@@ -553,8 +602,8 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;                    <span class="keywordtype">size_t</span> BARSize = BARsSize[i];</div>
 <div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160; </div>
 <div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Mapping BAR%d %#lx-%#lx&quot;</span>, i, BARBase, BARBase + BARSize);</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;                    Memory::Virtual(Table).Map((<span class="keywordtype">void</span> *)BARBase, (<span class="keywordtype">void</span> *)BARBase, BARSize,</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;                                               Memory::PTFlag::RW | Memory::PTFlag::PWT);</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;                    <a class="code" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(Table).<a class="code" href="../../db/d82/classMemory_1_1Virtual.html#a1a5c185804c552d127a0e90162600f27">Map</a>((<span class="keywordtype">void</span> *)BARBase, (<span class="keywordtype">void</span> *)BARBase, BARSize,</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;                                               <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">Memory::PTFlag::RW</a> | <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a90b062749a0e0013b88dabde45494ed2">Memory::PTFlag::PWT</a>);</div>
 <div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;                }</div>
 <div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((<a class="code" href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">BAR</a>[i] &amp; 1) == 1) <span class="comment">/* I/O Base */</span></div>
 <div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;                {</div>
@@ -562,8 +611,8 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;                    <span class="keywordtype">size_t</span> BARSize = BARsSize[i];</div>
 <div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160; </div>
 <div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;                    <a class="code" href="../../db/d16/debug_8h.html#a31e7d5c5946947277dce12f2584e7a43">debug</a>(<span class="stringliteral">&quot;Mapping BAR%d %#x-%#x&quot;</span>, i, BARBase, BARBase + BARSize);</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;                    Memory::Virtual(Table).Map((<span class="keywordtype">void</span> *)BARBase, (<span class="keywordtype">void</span> *)BARBase, BARSize,</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;                                               Memory::PTFlag::RW | Memory::PTFlag::PWT);</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;                    <a class="code" href="../../db/d82/classMemory_1_1Virtual.html">Memory::Virtual</a>(Table).<a class="code" href="../../db/d82/classMemory_1_1Virtual.html#a1a5c185804c552d127a0e90162600f27">Map</a>((<span class="keywordtype">void</span> *)BARBase, (<span class="keywordtype">void</span> *)BARBase, BARSize,</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;                                               <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a2e2cbfec756dc2799e930bcb018f3da0">Memory::PTFlag::RW</a> | <a class="code" href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a90b062749a0e0013b88dabde45494ed2">Memory::PTFlag::PWT</a>);</div>
 <div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;                }</div>
 <div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;            }</div>
 <div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;            <span class="keywordflow">break</span>;</div>
@@ -580,25 +629,25 @@ Private Attributes</h2></td></tr>
 <div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;        }</div>
 <div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;        {</div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown header type %d&quot;</span>, PCIDevice-&gt;HeaderType);</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;            <a class="code" href="../../db/d16/debug_8h.html#a65f6c7faf3bfe3937629a7a365e06574">error</a>(<span class="stringliteral">&quot;Unknown header type %d&quot;</span>, Device.Header-&gt;HeaderType);</div>
 <div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;        }</div>
 <div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;        }</div>
 <div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;    }</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
 <div class="ttc" id="adebug_8h_html_abd4acaf7c67bd126aefd672fbbd5747f"><div class="ttname"><a href="../../db/d16/debug_8h.html#abd4acaf7c67bd126aefd672fbbd5747f">fixme</a></div><div class="ttdeci">#define fixme(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00099">debug.h:99</a></div></div>
 <div class="ttc" id="amultiboot_8h_html_a6d813a0f2b5281b18dea3f4cda696c33"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a></div><div class="ttdeci">multiboot_uint32_t size</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00000">multiboot.h:0</a></div></div>
-<div class="ttc" id="anamespacePCNET_html_a6e1ad7a2624fc4103f1378458ec2178f"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">PCNET::BAR</a></div><div class="ttdeci">BARData BAR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d97/PCNET_8cpp_source.html#l00018">PCNET.cpp:18</a></div></div>
+<div class="ttc" id="anamespaceMemory_html_a0e8df7832e7ea87aa8937798d28472b2a90b062749a0e0013b88dabde45494ed2"><div class="ttname"><a href="../../d3/d97/namespaceMemory.html#a0e8df7832e7ea87aa8937798d28472b2a90b062749a0e0013b88dabde45494ed2">Memory::PWT</a></div><div class="ttdeci">@ PWT</div><div class="ttdoc">Write-Through.</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d2d/table_8hpp_source.html#l00041">table.hpp:41</a></div></div>
+<div class="ttc" id="anamespacePCNET_html_a6e1ad7a2624fc4103f1378458ec2178f"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#a6e1ad7a2624fc4103f1378458ec2178f">PCNET::BAR</a></div><div class="ttdeci">BARData BAR</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d97/PCNET_8cpp_source.html#l00035">PCNET.cpp:35</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d1/d97/PCNET_8cpp_source.html#l00018">PCNET::BAR</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00121">PCI::PCIDeviceHeader::HeaderType</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d97/PCNET_8cpp_source.html#l00035">PCNET::BAR</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00094">debug</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00086">error</a>, <a class="el" href="../../db/d16/debug_8h_source.html#l00099">fixme</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00225">PCI::PCIDevice::Header</a>, <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00121">PCI::PCIDeviceHeader::HeaderType</a>, <a class="el" href="../../d0/d6c/arch_2aarch64_2memory_2vmm_8cpp_source.html#l00033">Memory::Virtual::Map()</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00041">Memory::PWT</a>, <a class="el" href="../../de/d2d/table_8hpp_source.html#l00035">Memory::RW</a>, and <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00000">size</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d7/dc4/BindPCI_8cpp_source.html#l00034">Driver::Driver::DriverLoadBindPCI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/d70/bind__pci_8cpp_source.html#l00034">Module::Module::ModuleLoadBindPCI()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Field Documentation</h2>
-<a id="a09956e84c0d0aa7a28ad6a9d6bfef1fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09956e84c0d0aa7a28ad6a9d6bfef1fc">&#9670;&nbsp;</a></span>Devices</h2>
+<a id="a115ec4e79cad9a675db77635a9c8bc95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a115ec4e79cad9a675db77635a9c8bc95">&#9670;&nbsp;</a></span>Devices</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -607,7 +656,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="../../d0/d8f/namespacePCI.html#d7/d4b/structPCI_1_1PCIDeviceHeader">PCIDeviceHeader</a> *&gt; PCI::PCI::Devices</td>
+          <td class="memname">std::vector&lt;<a class="el" href="../../d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice">PCIDevice</a>&gt; PCI::PCI::Devices</td>
         </tr>
       </table>
   </td>
@@ -617,13 +666,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00226">226</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d9/dd5/pci_8hpp_source.html#l00235">235</a> of file <a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Kernel/include/<a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a></li>
-<li>Kernel/Core/<a class="el" href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html">PeripheralComponentInterconnect.cpp</a></li>
+<li>Kernel/core/<a class="el" href="../../d5/d87/pci_8cpp_source.html">pci.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

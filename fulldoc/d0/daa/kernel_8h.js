@@ -1,7 +1,9 @@
 var kernel_8h =
 [
     [ "BeforeShutdown", "d0/daa/kernel_8h.html#aba70d30b927dd57ed3877658148b3bc6", null ],
+    [ "BootLogoAnimationThread", "d0/daa/kernel_8h.html#ae3ff4f2b229f6401dad997d10814351b", null ],
     [ "Entry", "d0/daa/kernel_8h.html#a44a5261814dd20bdfce96c257845cb1b", null ],
+    [ "ExitLogoAnimationThread", "d0/daa/kernel_8h.html#a403b9c033971b69907d088a46b6cb5eb", null ],
     [ "KernelMainThread", "d0/daa/kernel_8h.html#a30d0f477733ba7d378ef836693d3b48d", null ],
     [ "KernelShutdownThread", "d0/daa/kernel_8h.html#a65e8d0c10ca585e174b6099e74fbc8b6", null ],
     [ "KPrint", "d0/daa/kernel_8h.html#a153b7d68a0bd505e7ea656f2fd8fcd64", null ],
@@ -10,5 +12,6 @@ var kernel_8h =
     [ "putchar", "d0/daa/kernel_8h.html#a0fb7b5cd002af45dc6c96488154d8552", null ],
     [ "TaskingPanic", "d0/daa/kernel_8h.html#a9bf4d76c2e04dc287d39c8729682cc25", null ],
     [ "bInfo", "d0/daa/kernel_8h.html#a7c22f2b1f38fbc850e69bb19a6a84319", null ],
+    [ "Config", "d0/daa/kernel_8h.html#af11d2c55903d5518696db3a642bfada4", null ],
     [ "DebuggerIsAttached", "d0/daa/kernel_8h.html#a736191a1f8c302532a3f21c75292a53f", null ]
 ];

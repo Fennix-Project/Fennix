@@ -110,9 +110,9 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a055d1ac5d2016d22c369d183cb2f2cef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/uio_8h.html#a055d1ac5d2016d22c369d183cb2f2cef">readv</a> (int, const struct <a class="el" href="../../db/d9e/Linux_8cpp.html#db/d79/structiovec">iovec</a> *, int)</td></tr>
+<tr class="memitem:a055d1ac5d2016d22c369d183cb2f2cef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/uio_8h.html#a055d1ac5d2016d22c369d183cb2f2cef">readv</a> (int, const struct <a class="el" href="../../d1/dd4/linux_8cpp.html#db/d79/structiovec">iovec</a> *, int)</td></tr>
 <tr class="separator:a055d1ac5d2016d22c369d183cb2f2cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a748cac1a05928d25defd27507a417ed2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/uio_8h.html#a748cac1a05928d25defd27507a417ed2">writev</a> (int, const struct <a class="el" href="../../db/d9e/Linux_8cpp.html#db/d79/structiovec">iovec</a> *, int)</td></tr>
+<tr class="memitem:a748cac1a05928d25defd27507a417ed2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#af10f4c58d91a6fa30ccc8a19d0ecbf48">ssize_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d80/uio_8h.html#a748cac1a05928d25defd27507a417ed2">writev</a> (int, const struct <a class="el" href="../../d1/dd4/linux_8cpp.html#db/d79/structiovec">iovec</a> *, int)</td></tr>
 <tr class="separator:a748cac1a05928d25defd27507a417ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -196,7 +196,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct <a class="el" href="../../db/d9e/Linux_8cpp.html#db/d79/structiovec">iovec</a> *&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../d1/dd4/linux_8cpp.html#db/d79/structiovec">iovec</a> *&#160;</td>
           <td class="paramname"><em>iov</em>, </td>
         </tr>
         <tr>
@@ -215,10 +215,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d00/readv_8c_source.html#l00004">4</a> of file <a class="el" href="../../d7/d00/readv_8c_source.html">readv.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_readv, <a class="code" href="../../d2/db3/hdparm_8c.html#aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42">fd</a>, iov, <a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_readv, <a class="code" href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a>, iov, <a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 <div class="ttc" id="add_8c_html_ac74ae34e9c58234aacabb6867b245c58"><div class="ttname"><a href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a></div><div class="ttdeci">#define count</div></div>
-<div class="ttc" id="ahdparm_8c_html_aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="asrc_2internal_2syscall_8h_html_a0dc7f19edb1df0f10eb8270a15b7b994"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a></div><div class="ttdeci">#define syscall_cp(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall.h:59</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>
@@ -240,7 +240,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const struct <a class="el" href="../../db/d9e/Linux_8cpp.html#db/d79/structiovec">iovec</a> *&#160;</td>
+          <td class="paramtype">const struct <a class="el" href="../../d1/dd4/linux_8cpp.html#db/d79/structiovec">iovec</a> *&#160;</td>
           <td class="paramname"><em>iov</em>, </td>
         </tr>
         <tr>
@@ -259,7 +259,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/dac/writev_8c_source.html#l00004">4</a> of file <a class="el" href="../../d7/dac/writev_8c_source.html">writev.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_writev, <a class="code" href="../../d2/db3/hdparm_8c.html#aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42">fd</a>, iov, <a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#a0dc7f19edb1df0f10eb8270a15b7b994">syscall_cp</a>(SYS_writev, <a class="code" href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a>, iov, <a class="code" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/dd6/dd_8c.html#ac74ae34e9c58234aacabb6867b245c58">count</a>, <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, and <a class="el" href="../../de/da8/src_2internal_2syscall_8h_source.html#l00059">syscall_cp</a>.</p>

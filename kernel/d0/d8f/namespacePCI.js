@@ -35,6 +35,7 @@ var namespacePCI =
     [ "PCIHeader1", "d0/d8f/namespacePCI.html#d8/d0d/structPCI_1_1PCIHeader1", "d0/d8f/namespacePCI_d8/d0d/structPCI_1_1PCIHeader1_dup" ],
     [ "PCIHeader2", "d0/d8f/namespacePCI.html#d7/d86/structPCI_1_1PCIHeader2", "d0/d8f/namespacePCI_d7/d86/structPCI_1_1PCIHeader2_dup" ],
     [ "DeviceConfig", "d0/d8f/namespacePCI.html#d8/de9/structPCI_1_1DeviceConfig", "d0/d8f/namespacePCI_d8/de9/structPCI_1_1DeviceConfig_dup" ],
+    [ "PCIDevice", "d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice", "d0/d8f/namespacePCI_d2/d9d/structPCI_1_1PCIDevice_dup" ],
     [ "PCI", "d8/d81/classPCI_1_1PCI.html", "d8/d81/classPCI_1_1PCI" ],
     [ "PCICommands", "d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09", [
       [ "PCI_COMMAND_IO", "d0/d8f/namespacePCI.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a62a2a1e7bb729a0a105b6b28ec8c748c", null ],

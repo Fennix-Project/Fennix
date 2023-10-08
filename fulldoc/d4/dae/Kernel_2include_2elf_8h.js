@@ -102,15 +102,15 @@ var Kernel_2include_2elf_8h =
     ] ],
     [ "Elf32_Dyn", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d8/d23/structElf32__Dyn", [
       [ "d_tag", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a0edbe45a1c49cbb352dc3e1937369180", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ae0c711303b5df6385c581faf94ef778b", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a162d8275b988957013c6b5d8e64ea4e5", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ae8ebb012f6bce20922c594b36c9d2009", null ]
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a97ddae06e2b37c763f7823029706aea1", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#af2f70627ebda0f39525ad05bf52776a9", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#ab999a33c075e4b31ae8cf7487e7a74a0", null ]
     ] ],
     [ "Elf64_Dyn", "d5/d81/Userspace_2musl_2include_2elf_8h.html#dd/d27/structElf64__Dyn", [
       [ "d_tag", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a74a63e5acb7d8ddc946a5b0c5eb3c26a", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a4383caf7cf919e0f03ad531840a9ff72", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a4bcae0e827a43b4395d39e7daec62e1f", null ],
-      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a03f60235831f137306deb2004f7ec943", null ]
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a77cfaa98f0042cb3963c39b78394c68b", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#acd0783e205e4fd7c6de35705653ca3c5", null ],
+      [ "d_un", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a6757606035a869a020f90d0cbf8df46d", null ]
     ] ],
     [ "Elf32_Rela", "d5/d81/Userspace_2musl_2include_2elf_8h.html#d6/d35/structElf32__Rela", [
       [ "r_addend", "d5/d81/Userspace_2musl_2include_2elf_8h.html#a1952286a900648afb9029c68a8bcea4d", null ],

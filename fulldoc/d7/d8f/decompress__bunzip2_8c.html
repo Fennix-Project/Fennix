@@ -229,13 +229,13 @@ permute[<a class="el" href="../../d7/d8f/decompress__bunzip2_8c.html#a38930c4ffb
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a2efe2e6ffb4cff20d4b546ab6110aa8f"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a2efe2e6ffb4cff20d4b546ab6110aa8f"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 crc32Table[256]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a07dc552bfe44aa83599f85c904759d91"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *</td>
+<a id="a07dc552bfe44aa83599f85c904759d91"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *</td>
 <td class="fieldname">
 dbuf</td>
 <td class="fielddoc">
@@ -253,7 +253,7 @@ groups[<a class="el" href="../../d7/d8f/decompress__bunzip2_8c.html#a36d20ba7442
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a87eb2217bb6818713a4a1bee4ccb4755"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a87eb2217bb6818713a4a1bee4ccb4755"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 headerCRC</td>
 <td class="fielddoc">
@@ -313,7 +313,7 @@ selectors[32768]</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="afd889b941e8bd85843894c938568e862"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="afd889b941e8bd85843894c938568e862"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 totalCRC</td>
 <td class="fielddoc">
@@ -331,7 +331,7 @@ writeCount</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="adcfacdaa59e5861a31d968fc81faaf13"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="adcfacdaa59e5861a31d968fc81faaf13"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 writeCRC</td>
 <td class="fielddoc">
@@ -788,7 +788,7 @@ writeRunCountdown</td>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordtype">int</span> groupCount, selector,</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>, <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#a37d972ae0b47b9099e30983131d31916">j</a>, symCount, symTotal, nSelectors, byteCount[256];</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> uc, symToByte[256], mtfSymbol[256], *selectors;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *dbuf;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *dbuf;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordtype">unsigned</span> origPtr, <a class="code" href="../../d6/dec/gm__loop_8c.html#ac310d9181e916ba43604099aee272c71">t</a>;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordtype">unsigned</span> dbufCount, runPos;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordtype">unsigned</span> runCnt = runCnt; <span class="comment">/* for compiler */</span></div>
@@ -1117,7 +1117,7 @@ writeRunCountdown</td>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;            tmp_byte = symToByte[mtfSymbol[0]];</div>
 <div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;            byteCount[tmp_byte] += runCnt;</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;            <span class="keywordflow">while</span> ((<span class="keywordtype">int</span>)--runCnt &gt;= 0)</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                dbuf[dbufCount++] = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)tmp_byte;</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                dbuf[dbufCount++] = (<a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)tmp_byte;</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;            runPos = 0;</div>
 <div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;        }</div>
 <div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160; </div>
@@ -1147,7 +1147,7 @@ writeRunCountdown</td>
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160; </div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;        <span class="comment">/* We have our literal byte.  Save it into dbuf. */</span></div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;        byteCount[uc]++;</div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;        dbuf[dbufCount++] = (<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)uc;</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;        dbuf[dbufCount++] = (<a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)uc;</div>
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160; </div>
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;        <span class="comment">/* Skip group initialization if we&#39;re not done with this group.  Done</span></div>
 <div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;<span class="comment">         * this way to avoid compiler warning. */</span></div>
@@ -1182,7 +1182,7 @@ writeRunCountdown</td>
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;<span class="comment">       doesn&#39;t get output, and if the first three characters are identical</span></div>
 <div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;<span class="comment">       it doesn&#39;t qualify as a run (hence writeRunCountdown=5). */</span></div>
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    <span class="keywordflow">if</span> (dbufCount) {</div>
-<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> tmp;</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> tmp;</div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        <span class="keywordflow">if</span> ((<span class="keywordtype">int</span>)origPtr &gt;= dbufCount) <span class="keywordflow">return</span> <a class="code" href="../../d7/d8f/decompress__bunzip2_8c.html#af15d89d2add9c85f758df448057ded1a">RETVAL_DATA_ERROR</a>;</div>
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;        tmp = dbuf[origPtr];</div>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;        <a class="code" href="../../d6/dcc/decompress__gunzip_8c.html#a69fd04aad1f8dd9c821f497754295f7a">bd</a>-&gt;writeCurrent = (<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>)tmp;</div>
@@ -1193,9 +1193,9 @@ writeRunCountdown</td>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160; </div>
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d8f/decompress__bunzip2_8c.html#a41aa8f63c944487a160a242622deb61e">RETVAL_OK</a>;</div>
 <div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00160">types.h:160</a></div></div>
 <div class="ttc" id="aKernel_2include__std_2limits_8h_html_a9ec306f36d50c7375e74f0d1c55a3a67"><div class="ttname"><a href="../../d4/df4/Kernel_2include__std_2limits_8h.html#a9ec306f36d50c7375e74f0d1c55a3a67">INT_MAX</a></div><div class="ttdeci">#define INT_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/Kernel_2include__std_2limits_8h_source.html#l00071">limits.h:71</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
 <div class="ttc" id="achpst_8c_html_a48030c0aa65269bae8381f3ed6a8bd15"><div class="ttname"><a href="../../d7/dfc/chpst_8c.html#a48030c0aa65269bae8381f3ed6a8bd15">limit</a></div><div class="ttdeci">static void limit(int what, long l)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfc/chpst_8c_source.html#l00262">chpst.c:262</a></div></div>
 <div class="ttc" id="adcigettext_8c_html_a58257445f1a929304e537613b62ebb35"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a58257445f1a929304e537613b62ebb35">n</a></div><div class="ttdeci">unsigned long int n</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00441">dcigettext.c:441</a></div></div>
 <div class="ttc" id="adecompress__bunzip2_8c_html_a0b420ba1a8269cc5278d823ae67d3ce4"><div class="ttname"><a href="../../d7/d8f/decompress__bunzip2_8c.html#a0b420ba1a8269cc5278d823ae67d3ce4">group_data::minLen</a></div><div class="ttdeci">int minLen</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00075">decompress_bunzip2.c:75</a></div></div>
@@ -1253,7 +1253,7 @@ writeRunCountdown</td>
 <div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a>;</div>
 <div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;    <span class="keywordtype">unsigned</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a>;</div>
 <div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160; </div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/daf/open__transformer_8c.html#a6b1afc043b3ee085850bb7e744088bad">check_signature16</a>(xstate, <a class="code" href="../../d1/d94/bb__archive_8h.html#a80607ff70f933c417e1e83710d63c394a55cdc84ad0c1a304da1491eb09aa81b4">BZIP2_MAGIC</a>))</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/daf/open__transformer_8c.html#a6b1afc043b3ee085850bb7e744088bad">check_signature16</a>(xstate, <a class="code" href="../../d1/d94/bb__archive_8h.html#a8f640e70442da8ea210a24e964f62802a55cdc84ad0c1a304da1491eb09aa81b4">BZIP2_MAGIC</a>))</div>
 <div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160; </div>
 <div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;    <a class="code" href="../../d4/dcd/nmeter_8c.html#a9f42c0960c4e20484468e09947a3f876">outbuf</a> = <a class="code" href="../../db/d0a/tre_8h.html#a6af5faec3f9662b20ffc9903f923dec0">xmalloc</a>(<a class="code" href="../../d7/d8f/decompress__bunzip2_8c.html#ac7fc090cede7c1c5a36bbedc3e561e2e">IOBUF_SIZE</a>);</div>
@@ -1311,7 +1311,7 @@ writeRunCountdown</td>
 <div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;            <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> = 2;</div>
 <div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;        }</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;        <span class="keywordflow">if</span> (*(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>*)<a class="code" href="../../d4/dcd/nmeter_8c.html#a9f42c0960c4e20484468e09947a3f876">outbuf</a> != <a class="code" href="../../d1/d94/bb__archive_8h.html#a80607ff70f933c417e1e83710d63c394a55cdc84ad0c1a304da1491eb09aa81b4">BZIP2_MAGIC</a>) <span class="comment">/* &quot;BZ&quot;? */</span></div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;        <span class="keywordflow">if</span> (*(<a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a>*)<a class="code" href="../../d4/dcd/nmeter_8c.html#a9f42c0960c4e20484468e09947a3f876">outbuf</a> != <a class="code" href="../../d1/d94/bb__archive_8h.html#a8f640e70442da8ea210a24e964f62802a55cdc84ad0c1a304da1491eb09aa81b4">BZIP2_MAGIC</a>) <span class="comment">/* &quot;BZ&quot;? */</span></div>
 <div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;        <a class="code" href="../../d7/d8f/decompress__bunzip2_8c.html#a3cf7df989ba770e9be572f6aa03d7243">dealloc_bunzip</a>(<a class="code" href="../../d6/dcc/decompress__gunzip_8c.html#a69fd04aad1f8dd9c821f497754295f7a">bd</a>);</div>
 <div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;        <a class="code" href="../../d1/dc0/multiboot_8h.html#a6de3a6d27a7e07942958b912d39792e6">len</a> -= 2;</div>
@@ -1324,7 +1324,7 @@ writeRunCountdown</td>
 <div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> ? <a class="code" href="../../dd/d71/gettextP_8h.html#a68428151ad44e31b19041cdeb8972a91">i</a> : <a class="code" href="../../d7/d8f/decompress__bunzip2_8c.html#abe66e5ea3a4f670625b7b59c91e8a499">IF_DESKTOP</a>(total_written) + 0;</div>
 <div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00161">types.h:161</a></div></div>
-<div class="ttc" id="abb__archive_8h_html_a80607ff70f933c417e1e83710d63c394a55cdc84ad0c1a304da1491eb09aa81b4"><div class="ttname"><a href="../../d1/d94/bb__archive_8h.html#a80607ff70f933c417e1e83710d63c394a55cdc84ad0c1a304da1491eb09aa81b4">BZIP2_MAGIC</a></div><div class="ttdeci">@ BZIP2_MAGIC</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d94/bb__archive_8h_source.html#l00023">bb_archive.h:23</a></div></div>
+<div class="ttc" id="abb__archive_8h_html_a8f640e70442da8ea210a24e964f62802a55cdc84ad0c1a304da1491eb09aa81b4"><div class="ttname"><a href="../../d1/d94/bb__archive_8h.html#a8f640e70442da8ea210a24e964f62802a55cdc84ad0c1a304da1491eb09aa81b4">BZIP2_MAGIC</a></div><div class="ttdeci">@ BZIP2_MAGIC</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d94/bb__archive_8h_source.html#l00023">bb_archive.h:23</a></div></div>
 <div class="ttc" id="aconvert_8h_html_a309e07aa23e76adc2ad0830978663c45"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a309e07aa23e76adc2ad0830978663c45">memcpy</a></div><div class="ttdeci">#define memcpy(dest, src, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00116">convert.h:116</a></div></div>
 <div class="ttc" id="adecompress__bunzip2_8c_html_a3cf7df989ba770e9be572f6aa03d7243"><div class="ttname"><a href="../../d7/d8f/decompress__bunzip2_8c.html#a3cf7df989ba770e9be572f6aa03d7243">dealloc_bunzip</a></div><div class="ttdeci">static void FAST_FUNC dealloc_bunzip(bunzip_data *bd)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00762">decompress_bunzip2.c:762</a></div></div>
 <div class="ttc" id="adecompress__bunzip2_8c_html_a41dfe5db70980105a3596491e6a8892e"><div class="ttname"><a href="../../d7/d8f/decompress__bunzip2_8c.html#a41dfe5db70980105a3596491e6a8892e">read_bunzip</a></div><div class="ttdeci">static int read_bunzip(bunzip_data *bd, char *outbuf, int len)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00578">decompress_bunzip2.c:578</a></div></div>
@@ -1388,9 +1388,9 @@ writeRunCountdown</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00578">578</a> of file <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html">decompress_bunzip2.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;{</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;    <span class="keyword">const</span> <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *dbuf;</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;    <span class="keyword">const</span> <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> *dbuf;</div>
 <div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d9/dd0/bash_2test_8c.html#a1910d262855b71da353ed0d07a6c7823">pos</a>, <a class="code" href="../../d9/dd9/gconf_8c.html#ad7fa239eccec9729d39030c316d5db98">current</a>, previous;</div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> CRC;</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> CRC;</div>
 <div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160; </div>
 <div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    <span class="comment">/* If we already have error/end indicator, return it */</span></div>
 <div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/dcc/decompress__gunzip_8c.html#a69fd04aad1f8dd9c821f497754295f7a">bd</a>-&gt;writeCount &lt; 0)</div>
@@ -1621,12 +1621,12 @@ writeRunCountdown</td>
 <div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;}</div>
 <div class="ttc" id="achat_8c_html_aa28364b44ea5d1bde8c124cb01039175"><div class="ttname"><a href="../../de/dc7/chat_8c.html#aa28364b44ea5d1bde8c124cb01039175">inbuf</a></div><div class="ttdeci">#define inbuf</div></div>
 <div class="ttc" id="adecompress__bunzip2_8c_html_a13c34d9a71136edba2fbc85378ad16b9"><div class="ttname"><a href="../../d7/d8f/decompress__bunzip2_8c.html#a13c34d9a71136edba2fbc85378ad16b9">bunzip_data</a></div><div class="ttdeci">struct bunzip_data bunzip_data</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00001">decompress_bunzip2.c:110</a></div></div>
-<div class="ttc" id="alibbb_8h_html_a356574da0f0b6c4bbaa55bfdb796da9f"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a356574da0f0b6c4bbaa55bfdb796da9f">crc32_filltable</a></div><div class="ttdeci">uint32_t * crc32_filltable(uint32_t *tbl256, int endian) FAST_FUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d44/crc32_8c_source.html#l00022">crc32.c:22</a></div></div>
+<div class="ttc" id="alibbb_8h_html_a356574da0f0b6c4bbaa55bfdb796da9f"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a356574da0f0b6c4bbaa55bfdb796da9f">crc32_filltable</a></div><div class="ttdeci">uint32_t * crc32_filltable(uint32_t *tbl256, int endian) FAST_FUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2f/Userspace_2apps_2base_2busybox_2libbb_2crc32_8c_source.html#l00022">crc32.c:22</a></div></div>
 <div class="ttc" id="alibbb_8h_html_a3fb174af67ffbdd20edfc032440e1eb8"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a3fb174af67ffbdd20edfc032440e1eb8">malloc_or_warn</a></div><div class="ttdeci">void * malloc_or_warn(size_t size) FAST_FUNC RETURNS_MALLOC</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd6/xfuncs__printf_8c_source.html#l00039">xfuncs_printf.c:39</a></div></div>
 <div class="ttc" id="alibbb_8h_html_a6b9d12af476b8fa4b9de87028b0ac27c"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a6b9d12af476b8fa4b9de87028b0ac27c">xzalloc</a></div><div class="ttdeci">void * xzalloc(size_t size) FAST_FUNC RETURNS_MALLOC</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd6/xfuncs__printf_8c_source.html#l00069">xfuncs_printf.c:69</a></div></div>
 <div class="ttc" id="alibbb_8h_html_a94a607b4c69c9d6883ee67ee8d46aec4"><div class="ttname"><a href="../../d7/dd7/libbb_8h.html#a94a607b4c69c9d6883ee67ee8d46aec4">xfunc_die</a></div><div class="ttdeci">void xfunc_die(void) NORETURN FAST_FUNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d42/xfunc__die_8c_source.html#l00016">xfunc_die.c:16</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d6/dcc/decompress__gunzip_8c_source.html#l00513">bd</a>, <a class="el" href="../../d7/d44/crc32_8c_source.html#l00022">crc32_filltable()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00115">get_bits()</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../de/dc7/chat_8c.html#aa28364b44ea5d1bde8c124cb01039175">inbuf</a>, <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00069">IOBUF_SIZE</a>, <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00002">len</a>, <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00039">malloc_or_warn()</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00116">memcpy</a>, <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00061">RETVAL_NOT_BZIP_DATA</a>, <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00059">RETVAL_OK</a>, <a class="el" href="../../d8/d42/xfunc__die_8c_source.html#l00016">xfunc_die()</a>, and <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00069">xzalloc()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dcc/decompress__gunzip_8c_source.html#l00513">bd</a>, <a class="el" href="../../d7/d2f/Userspace_2apps_2base_2busybox_2libbb_2crc32_8c_source.html#l00022">crc32_filltable()</a>, <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00036">free</a>, <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00115">get_bits()</a>, <a class="el" href="../../dd/d71/gettextP_8h_source.html#l00074">i</a>, <a class="el" href="../../de/dc7/chat_8c.html#aa28364b44ea5d1bde8c124cb01039175">inbuf</a>, <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00069">IOBUF_SIZE</a>, <a class="el" href="../../d1/dc0/multiboot_8h_source.html#l00002">len</a>, <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00039">malloc_or_warn()</a>, <a class="el" href="../../d3/d82/convert_8h_source.html#l00116">memcpy</a>, <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00061">RETVAL_NOT_BZIP_DATA</a>, <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00059">RETVAL_OK</a>, <a class="el" href="../../d8/d42/xfunc__die_8c_source.html#l00016">xfunc_die()</a>, and <a class="el" href="../../d9/dd6/xfuncs__printf_8c_source.html#l00069">xzalloc()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00770">IF_DESKTOP()</a>, and <a class="el" href="../../d7/d8f/decompress__bunzip2_8c_source.html#l00851">unpack_bz2_data()</a>.</p>
 

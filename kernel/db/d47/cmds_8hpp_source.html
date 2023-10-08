@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/KernelShell/cmds.hpp Source File</title>
+<title>Fennix Kernel: Kernel/kshell/cmds.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,20 +90,20 @@ $(document).ready(function(){initNavTree('db/d47/cmds_8hpp_source.html','../../'
 </div><!--header-->
 <div class="contents">
 <a href="../../db/d47/cmds_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef __FENNIX_KERNEL_SHELL_CMDS_H__</span></div>
@@ -137,13 +137,13 @@ $(document).ready(function(){initNavTree('db/d47/cmds_8hpp_source.html','../../'
 <div class="ttc" id="acmds_8hpp_html_a4b56b7b77f0e839367ef49e2c3d06ed1"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#a4b56b7b77f0e839367ef49e2c3d06ed1">cmd_uptime</a></div><div class="ttdeci">void cmd_uptime(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d61/uptime_8cpp_source.html#l00026">uptime.cpp:26</a></div></div>
 <div class="ttc" id="acmds_8hpp_html_a56ac7dda950de67b84d246966b6be71e"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#a56ac7dda950de67b84d246966b6be71e">cmd_ls</a></div><div class="ttdeci">void cmd_ls(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d95/ls_8cpp_source.html#l00026">ls.cpp:26</a></div></div>
 <div class="ttc" id="acmds_8hpp_html_a5a8954ae6f88515ebde70f841c60605f"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#a5a8954ae6f88515ebde70f841c60605f">cmd_ps</a></div><div class="ttdeci">void cmd_ps(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d0e/ps_8cpp_source.html#l00028">ps.cpp:28</a></div></div>
-<div class="ttc" id="acmds_8hpp_html_a639fef419a40ccf98246cae8bb0b9891"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#a639fef419a40ccf98246cae8bb0b9891">cmd_exit</a></div><div class="ttdeci">void cmd_exit(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d96/exit_8cpp_source.html#l00028">exit.cpp:28</a></div></div>
+<div class="ttc" id="acmds_8hpp_html_a639fef419a40ccf98246cae8bb0b9891"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#a639fef419a40ccf98246cae8bb0b9891">cmd_exit</a></div><div class="ttdeci">void cmd_exit(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de8/kshell_2commands_2exit_8cpp_source.html#l00028">exit.cpp:28</a></div></div>
 <div class="ttc" id="acmds_8hpp_html_a8301398671ab8005729152682606a75b"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#a8301398671ab8005729152682606a75b">cmd_uname</a></div><div class="ttdeci">void cmd_uname(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/uname_8cpp_source.html#l00026">uname.cpp:26</a></div></div>
 <div class="ttc" id="acmds_8hpp_html_a8cde4eda21980fd27e55f2e740512ff7"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#a8cde4eda21980fd27e55f2e740512ff7">cmd_shutdown</a></div><div class="ttdeci">void cmd_shutdown(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d04/shutdown_8cpp_source.html#l00028">shutdown.cpp:28</a></div></div>
 <div class="ttc" id="acmds_8hpp_html_a97a442890cba3f4b9e6ef3d8edd8ad36"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#a97a442890cba3f4b9e6ef3d8edd8ad36">cmd_reboot</a></div><div class="ttdeci">void cmd_reboot(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d41/reboot_8cpp_source.html#l00028">reboot.cpp:28</a></div></div>
 <div class="ttc" id="acmds_8hpp_html_aa0a0b922e1f67d1180cc8499c21f6bef"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#aa0a0b922e1f67d1180cc8499c21f6bef">cmd_cd</a></div><div class="ttdeci">void cmd_cd(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d81/cd_8cpp_source.html#l00026">cd.cpp:26</a></div></div>
 <div class="ttc" id="acmds_8hpp_html_ac06ba0a4f416818114e49bcf5095faa7"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#ac06ba0a4f416818114e49bcf5095faa7">cmd_echo</a></div><div class="ttdeci">void cmd_echo(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dea/echo_8cpp_source.html#l00022">echo.cpp:22</a></div></div>
-<div class="ttc" id="acmds_8hpp_html_ac332abc4f898568481413bbadb94b019"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#ac332abc4f898568481413bbadb94b019">cmd_lsof</a></div><div class="ttdeci">void cmd_lsof(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d8d/lsof_8cpp_source.html#l00022">lsof.cpp:22</a></div></div>
+<div class="ttc" id="acmds_8hpp_html_ac332abc4f898568481413bbadb94b019"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#ac332abc4f898568481413bbadb94b019">cmd_lsof</a></div><div class="ttdeci">void cmd_lsof(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/df2/kshell_2commands_2lsof_8cpp_source.html#l00022">lsof.cpp:22</a></div></div>
 <div class="ttc" id="acmds_8hpp_html_ac6f39d234686c206bcc60abc26ece16e"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#ac6f39d234686c206bcc60abc26ece16e">cmd_mem</a></div><div class="ttdeci">void cmd_mem(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6f/mem_8cpp_source.html#l00028">mem.cpp:28</a></div></div>
 <div class="ttc" id="acmds_8hpp_html_ae3222952c9177cba755016141ce502cc"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#ae3222952c9177cba755016141ce502cc">cmd_cat</a></div><div class="ttdeci">void cmd_cat(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d63/cat_8cpp_source.html#l00026">cat.cpp:26</a></div></div>
 <div class="ttc" id="acmds_8hpp_html_aeccd05e05f0b3b8dda735a0e778c295f"><div class="ttname"><a href="../../db/d47/cmds_8hpp.html#aeccd05e05f0b3b8dda735a0e778c295f">cmd_killall</a></div><div class="ttdeci">void cmd_killall(const char *args)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df9/killall_8cpp_source.html#l00028">killall.cpp:28</a></div></div>
@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('db/d47/cmds_8hpp_source.html','../../'
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_88ab6059d7314379aec44b69c6467aa4.html">KernelShell</a></li><li class="navelem"><a class="el" href="../../db/d47/cmds_8hpp.html">cmds.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_e9ffd35bd10593ca6aaa6872207964dd.html">kshell</a></li><li class="navelem"><a class="el" href="../../db/d47/cmds_8hpp.html">cmds.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

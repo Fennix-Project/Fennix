@@ -105,7 +105,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a00de8c0545c31325a425f53371a56235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5a/vfork_8c.html#a00de8c0545c31325a425f53371a56235">vfork</a> (void)</td></tr>
+<tr class="memitem:a00de8c0545c31325a425f53371a56235"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5a/vfork_8c.html#a00de8c0545c31325a425f53371a56235">vfork</a> (void)</td></tr>
 <tr class="separator:a00de8c0545c31325a425f53371a56235"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -133,7 +133,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> vfork </td>
+          <td class="memname"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> vfork </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -148,13 +148,13 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifdef SYS_fork</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_fork);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_clone, <a class="code" href="../../df/dff/libc_2include_2signal_8h.html#a0e63521a64cc8bc2b91d36a87d32c9f8">SIGCHLD</a>, 0);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_clone, <a class="code" href="../../d4/dc2/Kernel_2include_2signal_8h.html#ae334395fdd2ddcad969d5988c071c289a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a>, 0);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="alibc_2include_2signal_8h_html_a0e63521a64cc8bc2b91d36a87d32c9f8"><div class="ttname"><a href="../../df/dff/libc_2include_2signal_8h.html#a0e63521a64cc8bc2b91d36a87d32c9f8">SIGCHLD</a></div><div class="ttdeci">#define SIGCHLD</div><div class="ttdoc">Child stopped or terminated.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dff/libc_2include_2signal_8h_source.html#l00058">signal.h:58</a></div></div>
+<div class="ttc" id="aKernel_2include_2signal_8h_html_ae334395fdd2ddcad969d5988c071c289a6dfd856a32bc2d1933164dc9baf28354"><div class="ttname"><a href="../../d4/dc2/Kernel_2include_2signal_8h.html#ae334395fdd2ddcad969d5988c071c289a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a></div><div class="ttdeci">@ SIGCHLD</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dc2/Kernel_2include_2signal_8h_source.html#l00043">signal.h:43</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../df/dff/libc_2include_2signal_8h_source.html#l00058">SIGCHLD</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/dc2/Kernel_2include_2signal_8h_source.html#l00043">SIGCHLD</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../df/dde/runsv_8c_source.html#l00277">custom()</a>, <a class="el" href="../../d7/d17/ifupdown_8c_source.html#l01153">doit()</a>, <a class="el" href="../../dc/d37/inetd_8c_source.html#l01215">inetd_main()</a>, <a class="el" href="../../d5/d1e/loginutils_2login_8c_source.html#l00319">login_main()</a>, <a class="el" href="../../d7/def/telnetd_8c_source.html#l00428">make_new_session()</a>, <a class="el" href="../../d1/de7/httpd_8c_source.html#l02679">mini_httpd_nommu()</a>, <a class="el" href="../../d1/d1a/reformime_8c_source.html#l00074">parse()</a>, <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l00734">pause_and_low_level_reboot()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00392">processorstart()</a>, <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l00479">run()</a>, <a class="el" href="../../d6/d90/hush_8c_source.html#l09232">run_pipe()</a>, <a class="el" href="../../d1/d23/runsvdir_8c_source.html#l00119">runsv()</a>, <a class="el" href="../../d5/dc2/vfork__daemon__rexec_8c_source.html#l00176">spawn()</a>, <a class="el" href="../../d9/da1/crond_8c_source.html#l00843">start_one_job()</a>, <a class="el" href="../../df/dde/runsv_8c_source.html#l00334">startservice()</a>, <a class="el" href="../../d8/d6a/tcpudp_8c_source.html#l00252">tcpudpsvd_main()</a>, and <a class="el" href="../../dc/d1c/openvt_8c_source.html#l00111">vfork_child()</a>.</p>
 

@@ -194,7 +194,6 @@ var chfcts_8hpp =
     [ "DivideByZeroExceptionHandler", "dc/dd9/chfcts_8hpp.html#a08b84715274fe6a3e3e93db3c2a4b49c", null ],
     [ "DoubleFaultExceptionHandler", "dc/dd9/chfcts_8hpp.html#af9eeab78b0ddb2245769c1c00970039d", null ],
     [ "GeneralProtectionExceptionHandler", "dc/dd9/chfcts_8hpp.html#aca6791a7a17c585f4ff711cd42504f4f", null ],
-    [ "HookKeyboard", "dc/dd9/chfcts_8hpp.html#a44a7c3a43138b84c0cb127e69d89d682", null ],
     [ "InvalidOpcodeExceptionHandler", "dc/dd9/chfcts_8hpp.html#a447d5f8ca727f5066ba021fadf1510d2", null ],
     [ "InvalidTSSExceptionHandler", "dc/dd9/chfcts_8hpp.html#a527918cb5d040b0ef7f75104b0c6d9c5", null ],
     [ "MachineCheckExceptionHandler", "dc/dd9/chfcts_8hpp.html#a0e2093ff367d71ae189487d3a6144701", null ],
@@ -208,7 +207,7 @@ var chfcts_8hpp =
     [ "TraceFrames", "dc/dd9/chfcts_8hpp.html#aa2ce1c206d61d9426d9da017715fd678", null ],
     [ "UnknownExceptionHandler", "dc/dd9/chfcts_8hpp.html#ab74e5efd9f1659552b51daae7950b872", null ],
     [ "UserInput", "dc/dd9/chfcts_8hpp.html#a1cb59308e6e67023ed853324f606eb3c", null ],
-    [ "UserModeExceptionHandler", "dc/dd9/chfcts_8hpp.html#a16e4416feaed0d71c2f2e8c443049536", null ],
+    [ "UserModeExceptionHandler", "dc/dd9/chfcts_8hpp.html#a7205e43c24c05a371f9c51799f127421", null ],
     [ "VirtualizationExceptionHandler", "dc/dd9/chfcts_8hpp.html#a8a22f48a850d89af16de55cfff9638e0", null ],
     [ "x87FloatingPointExceptionHandler", "dc/dd9/chfcts_8hpp.html#a8445371ddff86a6f1bbc30cbdf3711bd", null ],
     [ "SBIdx", "dc/dd9/chfcts_8hpp.html#ad35e9ac2e303d57f06208a9b5c889ac5", null ]

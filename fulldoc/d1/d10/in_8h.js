@@ -10,7 +10,7 @@ var in_8h =
       [ "sin_zero", "d1/d10/in_8h.html#a4b2d5781ba9ced14492aea899b4e3274", null ]
     ] ],
     [ "in6_addr", "d1/d10/in_8h.html#d4/d7d/structin6__addr", [
-      [ "__in6_union", "d1/d10/in_8h.html#ad1b20fa50cab6bede93f0a0544b90471", null ]
+      [ "__in6_union", "d1/d10/in_8h.html#af4e7e99105d991b1c60579a98eb533b8", null ]
     ] ],
     [ "sockaddr_in6", "d1/d10/in_8h.html#d0/d26/structsockaddr__in6", [
       [ "sin6_addr", "d1/d10/in_8h.html#a219e7f3ecd6d7dcf8fc2465475be490f", null ],

@@ -5,6 +5,8 @@ var cwalk_8c =
       [ "paths", "d3/dc4/cwalk_8c.html#a813aa5d7ad55830bd7d66db2e060bd3b", null ],
       [ "segment", "d3/dc4/cwalk_8c.html#a17de2ef0ce93d44c29caa5dd58a293b9", null ]
     ] ],
+    [ "path_style", "d3/dc4/cwalk_8c.html#ad01cc25bcca9dcee31ee0d4274090010", null ],
+    [ "__cwalk_path_style", "d3/dc4/cwalk_8c.html#aa4754f23c8453abe25017129529c400e", null ],
     [ "cwk_path_change_basename", "d3/dc4/cwalk_8c.html#a2e579c3c6b74e488a0170d2bd80a5a49", null ],
     [ "cwk_path_change_extension", "d3/dc4/cwalk_8c.html#a2a04acb86aee8898e935cd9d056e7859", null ],
     [ "cwk_path_change_root", "d3/dc4/cwalk_8c.html#a60ae05adcc035bd0f06a8244d4ad7500", null ],
@@ -55,6 +57,5 @@ var cwalk_8c =
     [ "cwk_path_set_style", "d3/dc4/cwalk_8c.html#a1b5f8f116d5f20ea682feb16f4fa6721", null ],
     [ "cwk_path_skip_segments_until_diverge", "d3/dc4/cwalk_8c.html#a0af52b6862a6bd25e8678ab004ebf841", null ],
     [ "cwk_path_terminate_output", "d3/dc4/cwalk_8c.html#aa5d775df33238d8c1dc6c24d577bcfd9", null ],
-    [ "path_style", "d3/dc4/cwalk_8c.html#aeef7cc01e8dfcb89adcb6f31ac8139e8", null ],
     [ "separators", "d3/dc4/cwalk_8c.html#aa6cb61edbcc7e317d61aafbe5a13fc80", null ]
 ];

@@ -93,26 +93,26 @@ $(document).ready(function(){initNavTree('dc/db8/Example_8cpp.html','../../'); i
 <div class="title">Example.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;../../../Kernel/DAPI.hpp&quot;</code><br />
+<div class="textblock"><code>#include &quot;../../../Kernel/mapi.hpp&quot;</code><br />
 <code>#include &quot;../../../Kernel/Fex.hpp&quot;</code><br />
 </div>
 <p><a href="../../dc/db8/Example_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a93bdbb2eb161fecc1c12d7b87345e718"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(msg)&#160;&#160;&#160;KAPI.Util.DebugPrint((char *)(msg), KAPI.Info.DriverUID)</td></tr>
+<tr class="memitem:a93bdbb2eb161fecc1c12d7b87345e718"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(msg)&#160;&#160;&#160;KAPI.Util.DebugPrint((char *)(msg), KAPI.Info.modUniqueID)</td></tr>
 <tr class="separator:a93bdbb2eb161fecc1c12d7b87345e718"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a56474bd9ccbe42a82994dd3415226f38"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a> (void *Data)</td></tr>
-<tr class="separator:a56474bd9ccbe42a82994dd3415226f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a5c902daa34b4d35f7e349a2d236c7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#a31a5c902daa34b4d35f7e349a2d236c7">ModuleEntry</a> (void *Data)</td></tr>
+<tr class="separator:a31a5c902daa34b4d35f7e349a2d236c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8a62c2ae90dae14e107d0d84d3c2143"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143">CallbackHandler</a> (KernelCallback *Data)</td></tr>
 <tr class="separator:ae8a62c2ae90dae14e107d0d84d3c2143"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19e1c27c2f987931f74d5e5ef9ca9f72"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#a19e1c27c2f987931f74d5e5ef9ca9f72">InterruptCallback</a> (CPURegisters *Registers)</td></tr>
 <tr class="separator:a19e1c27c2f987931f74d5e5ef9ca9f72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af24e7dbc50400c89dbb3827cc25545fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc">HEAD</a> (FexFormatType_Driver, FexOSType_Fennix, <a class="el" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>)</td></tr>
-<tr class="separator:af24e7dbc50400c89dbb3827cc25545fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91afacc42a41e85e9622abf12c4ab2d8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#a91afacc42a41e85e9622abf12c4ab2d8">HEAD</a> (FexFormatType_Module, FexOSType_Fennix, <a class="el" href="../../dc/db8/Example_8cpp.html#a31a5c902daa34b4d35f7e349a2d236c7">ModuleEntry</a>)</td></tr>
+<tr class="separator:a91afacc42a41e85e9622abf12c4ab2d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af22ae37b84033edb178366e0d7d8f7e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/db8/Example_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">__attribute__</a> ((section(&quot;.extended&quot;))) FexExtended ExtendedHeader</td></tr>
 <tr class="separator:af22ae37b84033edb178366e0d7d8f7e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -133,7 +133,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">msg</td><td>)</td>
-          <td>&#160;&#160;&#160;KAPI.Util.DebugPrint((char *)(msg), KAPI.Info.DriverUID)</td>
+          <td>&#160;&#160;&#160;KAPI.Util.DebugPrint((char *)(msg), KAPI.Info.modUniqueID)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -185,12 +185,12 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    {</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">case</span> AcknowledgeReason:</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Kernel acknowledged the driver.&quot;</span>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Kernel acknowledged the module.&quot;</span>);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">case</span> StopReason:</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Driver stopped.&quot;</span>);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Module stopped.&quot;</span>);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">default</span>:</div>
@@ -209,49 +209,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a56474bd9ccbe42a82994dd3415226f38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56474bd9ccbe42a82994dd3415226f38">&#9670;&nbsp;</a></span>DriverEntry()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int DriverEntry </td>
-          <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>Data</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">/* Check if kernel API is valid */</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">if</span> (!Data)</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">return</span> INVALID_KERNEL_API;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">/* Set the global structure to the kernel API. */</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a> = *(KernelAPI *)Data;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">/* Check if kernel API version is valid.</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">       This is important because the kernel</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">       API may change in the future. */</span></div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a>.Version.Major &lt; 0 || <a class="code" href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a>.Version.Minor &lt; 0 || <a class="code" href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a>.Version.Patch &lt; 0)</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> KERNEL_API_VERSION_NOT_SUPPORTED;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">/* We print &quot;Hello World!&quot; to the kernel debugger. */</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Hello World!&quot;</span>);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> OK;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
-<div class="ttc" id="aExample_8cpp_html_ab002675cfb66a7900066ad4131d62228"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a></div><div class="ttdeci">KernelAPI KAPI</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00033">Example.cpp:33</a></div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00033">KAPI</a>, and <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00036">print</a>.</p>
-
-</div>
-</div>
-<a id="af24e7dbc50400c89dbb3827cc25545fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af24e7dbc50400c89dbb3827cc25545fc">&#9670;&nbsp;</a></span>HEAD()</h2>
+<a id="a91afacc42a41e85e9622abf12c4ab2d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91afacc42a41e85e9622abf12c4ab2d8">&#9670;&nbsp;</a></span>HEAD()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +218,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">HEAD </td>
           <td>(</td>
-          <td class="paramtype">FexFormatType_Driver&#160;</td>
+          <td class="paramtype">FexFormatType_Module&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -271,7 +230,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dc/db8/Example_8cpp.html#a31a5c902daa34b4d35f7e349a2d236c7">ModuleEntry</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -312,6 +271,47 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a id="a31a5c902daa34b4d35f7e349a2d236c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a5c902daa34b4d35f7e349a2d236c7">&#9670;&nbsp;</a></span>ModuleEntry()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ModuleEntry </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>Data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">/* Check if kernel API is valid */</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">if</span> (!Data)</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">return</span> INVALID_KERNEL_API;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">/* Set the global structure to the kernel API. */</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a> = *(KernelAPI *)Data;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">/* Check if kernel API version is valid.</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">       This is important because the kernel</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">       API may change in the future. */</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a>.Version.Major &lt; 0 || <a class="code" href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a>.Version.Minor &lt; 0 || <a class="code" href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a>.Version.Patch &lt; 0)</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordflow">return</span> KERNEL_API_VERSION_NOT_SUPPORTED;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">/* We print &quot;Hello World!&quot; to the kernel debugger. */</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Hello World!&quot;</span>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> OK;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
+<div class="ttc" id="aExample_8cpp_html_ab002675cfb66a7900066ad4131d62228"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a></div><div class="ttdeci">KernelAPI KAPI</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00033">Example.cpp:33</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00033">KAPI</a>, and <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00036">print</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="ab002675cfb66a7900066ad4131d62228"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab002675cfb66a7900066ad4131d62228">&#9670;&nbsp;</a></span>KAPI</h2>
@@ -327,7 +327,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00033">33</a> of file <a class="el" href="../../dc/db8/Example_8cpp_source.html">Example.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00042">DriverEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dc/db8/Example_8cpp_source.html#l00042">ModuleEntry()</a>.</p>
 
 </div>
 </div>

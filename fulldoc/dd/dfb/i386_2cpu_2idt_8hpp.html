@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/Architecture/i386/cpu/idt.hpp File Reference</title>
+<title>Fennix: Kernel/arch/i386/cpu/idt.hpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -155,7 +155,7 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1c8c4f4579ce990e1dfa47b85d48d7dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a1c8c4f4579ce990e1dfa47b85d48d7dc">InterruptDescriptorTable::SetEntry</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Index, void(*Base)(), <a class="el" href="../../dc/d7c/SegmentDescriptors_8hpp.html#a842ca6790f315b3f79faf3cda6d6789c">GateType</a> Gate, <a class="el" href="../../dc/d7c/SegmentDescriptors_8hpp.html#a8a3ba9e97b1605055028238eb08b4fdb">PrivilegeLevelType</a> Ring, <a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a778f4bee950ae142c87d00db61dc4eec">Present</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SegmentSelector)</td></tr>
+<tr class="memitem:a1c8c4f4579ce990e1dfa47b85d48d7dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a1c8c4f4579ce990e1dfa47b85d48d7dc">InterruptDescriptorTable::SetEntry</a> (<a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> Index, void(*Base)(), <a class="el" href="../../dc/d7c/SegmentDescriptors_8hpp.html#a842ca6790f315b3f79faf3cda6d6789c">GateType</a> Gate, <a class="el" href="../../dc/d7c/SegmentDescriptors_8hpp.html#a8a3ba9e97b1605055028238eb08b4fdb">PrivilegeLevelType</a> Ring, <a class="el" href="../../d9/d5e/stdbool_8h.html#abb452686968e48b67397da5f97445f5b">bool</a> <a class="el" href="../../d9/def/mb__64bit__map_8cpp.html#a778f4bee950ae142c87d00db61dc4eec">Present</a>, <a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> SegmentSelector)</td></tr>
 <tr class="separator:a1c8c4f4579ce990e1dfa47b85d48d7dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5275e6707c957c5ba4b050102990c908"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db2/namespaceInterruptDescriptorTable.html#a5275e6707c957c5ba4b050102990c908">InterruptDescriptorTable::Init</a> (int Core)</td></tr>
 <tr class="separator:a5275e6707c957c5ba4b050102990c908"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,73 +177,73 @@ Functions</h2></td></tr>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="ac8781f8029428f8ee4e162e09a98a85e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="ac8781f8029428f8ee4e162e09a98a85e"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Available: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af8dbe1bbd5529063cf16566749847228"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="af8dbe1bbd5529063cf16566749847228"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 BaseAddressHigh: 8</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae15398fdfa4b8c061b3974aac3f9953c"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="ae15398fdfa4b8c061b3974aac3f9953c"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 BaseAddressLow: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ac7c22b65dc98d951cc2bcc0a91b7f6bf"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="ac7c22b65dc98d951cc2bcc0a91b7f6bf"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 BaseAddressMiddle: 8</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab0be9e57b49ad37c72933a0b7f1c154e"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="ab0be9e57b49ad37c72933a0b7f1c154e"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 DescriptorPrivilegeLevel: 2</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a619e93cabb2acfb19abcdc8481f50514"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a619e93cabb2acfb19abcdc8481f50514"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Granularity: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3d56b9d1f48235ac888858f359e21e0b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a3d56b9d1f48235ac888858f359e21e0b"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Present: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a10a0db421d7b218b0656d019f76f666f"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a10a0db421d7b218b0656d019f76f666f"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 SegmentLimitHigh: 4</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a3111fb54a4de6339b8bf085c0dc95797"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a3111fb54a4de6339b8bf085c0dc95797"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 SegmentLimitLow: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a87513612380c75bd6545a3e95f3a64a6"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a87513612380c75bd6545a3e95f3a64a6"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Type: 4</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a22f037a82b235857510ea8f388f70032"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a22f037a82b235857510ea8f388f70032"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Zero: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="abde535b94f83682e007dfbe3e4fefcd5"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="abde535b94f83682e007dfbe3e4fefcd5"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Zero1: 2</td>
 <td class="fielddoc">
@@ -268,55 +268,55 @@ Zero1: 2</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a6d0725923f34353842ec98c127f7a642"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a6d0725923f34353842ec98c127f7a642"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 DescriptorPrivilegeLevel: 2</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a6eec4d990725e235dc66938a6eb9c251"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a6eec4d990725e235dc66938a6eb9c251"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 ParameterCount: 4</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a58dfcea040f6faf2d424f1de62736055"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a58dfcea040f6faf2d424f1de62736055"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Present: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a018e11d61eb4e51d7cb14b6ddcc8ccce"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a018e11d61eb4e51d7cb14b6ddcc8ccce"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Reserved0: 3</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a04c0d5f77fe3014f2f9ccacae6ab6701"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a04c0d5f77fe3014f2f9ccacae6ab6701"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 TargetCodeSegmentOffsetHigh: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab27f797bee5e9f7c27b6af5f2b85656a"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="ab27f797bee5e9f7c27b6af5f2b85656a"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 TargetCodeSegmentOffsetLow: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ae917290938de0c555cca52724e73e586"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="ae917290938de0c555cca52724e73e586"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 TargetCodeSegmentSelector: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a562cc455e37f330cc1ee18b898de7bef"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a562cc455e37f330cc1ee18b898de7bef"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Type: 4</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aacd19b9ab985d2b9bb9cdcbd12d14911"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="aacd19b9ab985d2b9bb9cdcbd12d14911"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Zero: 1</td>
 <td class="fielddoc">
@@ -341,49 +341,49 @@ Zero: 1</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a5bc0a5251674dd0692d3fbf4d2ac49a4"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a5bc0a5251674dd0692d3fbf4d2ac49a4"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 DescriptorPrivilegeLevel: 2</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aee04942189b0ff390c6c5c8b64a6fe02"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="aee04942189b0ff390c6c5c8b64a6fe02"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Present: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a1be51a396ca47c08a32b8ffca6023674"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a1be51a396ca47c08a32b8ffca6023674"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Reserved0: 8</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a434c6ac332ce86350968f856114dd3c0"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a434c6ac332ce86350968f856114dd3c0"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 TargetCodeSegmentOffsetHigh: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a76f57b0b5b932b60eb500531618ee18a"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a76f57b0b5b932b60eb500531618ee18a"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 TargetCodeSegmentOffsetLow: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a186e763fda350f366d212e4b52653bf1"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a186e763fda350f366d212e4b52653bf1"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 TargetCodeSegmentSelector: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a7ce5a628a974e01803ebdd70d8f0299a"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a7ce5a628a974e01803ebdd70d8f0299a"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Type: 4</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aeb13fcc8b112684ea683d7e315d326f6"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="aeb13fcc8b112684ea683d7e315d326f6"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Zero: 1</td>
 <td class="fielddoc">
@@ -408,49 +408,49 @@ Zero: 1</td>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a9a38f712eeb3a410770a4b19ecafe4b3"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a9a38f712eeb3a410770a4b19ecafe4b3"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 DescriptorPrivilegeLevel: 2</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="aeb0a8e1a31442970b9cb8ef2d753ecd0"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="aeb0a8e1a31442970b9cb8ef2d753ecd0"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Present: 1</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="af3f825376d318c58263b4250ff64e7a1"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="af3f825376d318c58263b4250ff64e7a1"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Reserved0: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="acdc3e860c6d5b96ed9cd7bfb864f8eff"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="acdc3e860c6d5b96ed9cd7bfb864f8eff"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Reserved1: 8</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ad37699bfd145a87869d1b0498dfa1cb6"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="ad37699bfd145a87869d1b0498dfa1cb6"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Reserved2: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab257aaf6f5e16f63ccdce6c23926e90d"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="ab257aaf6f5e16f63ccdce6c23926e90d"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 TSSSelector: 16</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a4958a37f689c91df7cbc36514853893f"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a4958a37f689c91df7cbc36514853893f"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Type: 4</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a70e84d5c40b9b00fa709f010827f0ca6"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a70e84d5c40b9b00fa709f010827f0ca6"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 Zero: 1</td>
 <td class="fielddoc">
@@ -532,7 +532,7 @@ Limit</td>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_24d0e9fa304c1dbb1880c7df3a2dd8d2.html">Architecture</a></li><li class="navelem"><a class="el" href="../../dir_d1f1e238e78aae763501e67f7993a262.html">i386</a></li><li class="navelem"><a class="el" href="../../dir_56f21a960145dbf2a9e9f1045934feed.html">cpu</a></li><li class="navelem"><a class="el" href="../../dd/dfb/i386_2cpu_2idt_8hpp.html">idt.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_23304d1932daabdb6e461c01efa6605d.html">arch</a></li><li class="navelem"><a class="el" href="../../dir_4277c6e84f663c5927ce4d6a7cd57f36.html">i386</a></li><li class="navelem"><a class="el" href="../../dir_80747bdf7f6312bd109dfbd2a78b9895.html">cpu</a></li><li class="navelem"><a class="el" href="../../dd/dfb/i386_2cpu_2idt_8hpp.html">idt.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -1,7 +1,5 @@
 var NAVTREEINDEX198 =
 {
-"da/dd8/bashhist_8h.html#a4386cfc2bda5cf8e119ce5436b061d69":[6,0,1,0,0,0,17,17],
-"da/dd8/bashhist_8h.html#a4687bf6d2633a8ea0fcb0a4dd04d1c4a":[6,0,1,0,0,0,17,16],
 "da/dd8/bashhist_8h.html#a4d4b85d3d35baed065a9ba7091a48587":[6,0,1,0,0,0,17,24],
 "da/dd8/bashhist_8h.html#a58314e569c620ef8862fe018ff98ff89":[6,0,1,0,0,0,17,7],
 "da/dd8/bashhist_8h.html#a630ddf8653e9dc70ac765ed521c1e6bd":[6,0,1,0,0,0,17,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX198 =
 "da/deb/busybox_2coreutils_2expr_8c.html#af437b837f3d3f435f652b661dceb4937":[6,0,1,0,0,1,4,20,5],
 "da/deb/busybox_2coreutils_2expr_8c.html#af4cf6cf5f1674d06f389e7847a9fb05b":[6,0,1,0,0,1,4,20,18],
 "da/deb/busybox_2coreutils_2expr_8c.html#af71f52cf4f6847bf41d6d629d678ee6f":[6,0,1,0,0,1,4,20,17],
-"da/deb/busybox_2coreutils_2expr_8c.html#afe0eccd452fb3ad6ee4be322397fc6c7":[6,0,1,0,0,1,4,20,12]
+"da/deb/busybox_2coreutils_2expr_8c.html#afe0eccd452fb3ad6ee4be322397fc6c7":[6,0,1,0,0,1,4,20,12],
+"da/deb/busybox_2coreutils_2expr_8c.html#d3/d7e/unionvalinfo_8u":[6,0,1,0,0,1,4,20,2],
+"da/deb/busybox_2coreutils_2expr_8c.html#dc/d8f/structvalinfo":[6,0,1,0,0,1,4,20,0]
 };

@@ -29,7 +29,7 @@ var namespaceAdvancedHostControllerInterface =
     [ "CheckPortType", "de/da1/namespaceAdvancedHostControllerInterface.html#aa6dedc0bc7031dd55884e6d45234ab73", null ],
     [ "DriverEntry", "de/da1/namespaceAdvancedHostControllerInterface.html#a669d1cbbf3a904ec6cccd1e4bc07ce90", null ],
     [ "InterruptCallback", "de/da1/namespaceAdvancedHostControllerInterface.html#a40b9236e1139569e49281dc3438d8388", null ],
-    [ "ABAR", "de/da1/namespaceAdvancedHostControllerInterface.html#a54aa8daa76a68da309f6d88a6163ac4a", null ],
+    [ "AHBA", "de/da1/namespaceAdvancedHostControllerInterface.html#a21a16b6ceca75415e1f432a3b8d329d2", null ],
     [ "KAPI", "de/da1/namespaceAdvancedHostControllerInterface.html#a0fbbb94d549d9a5ba4fc01b8be2ab01c", null ],
     [ "PCIBaseAddress", "de/da1/namespaceAdvancedHostControllerInterface.html#a0dbe7d61f93e4e77c40cfb1dc670968f", null ],
     [ "PortCount", "de/da1/namespaceAdvancedHostControllerInterface.html#a41ea5f5c7c35039ebbac7c4ab759cc05", null ],

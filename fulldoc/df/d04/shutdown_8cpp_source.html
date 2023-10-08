@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/KernelShell/Commands/shutdown.cpp Source File</title>
+<title>Fennix: Kernel/kshell/commands/shutdown.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,20 +90,20 @@ $(document).ready(function(){initNavTree('df/d04/shutdown_8cpp_source.html','../
 </div><!--header-->
 <div class="contents">
 <a href="../../df/d04/shutdown_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;../cmds.hpp&quot;</span></div>
@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('df/d04/shutdown_8cpp_source.html','../
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;../../kernel.h&quot;</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html">VirtualFileSystem</a>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../dc/dcb/namespacevfs.html">vfs</a>;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../d9/d3e/namespaceTasking.html">Tasking</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../db/d47/cmds_8hpp.html#a8cde4eda21980fd27e55f2e740512ff7">   28</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../df/d04/shutdown_8cpp.html#aa00b84756b784d75202c8a58ddf00f40">cmd_shutdown</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *)</div>
@@ -123,9 +123,9 @@ $(document).ready(function(){initNavTree('df/d04/shutdown_8cpp_source.html','../
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 <div class="ttc" id="acpu_8hpp_html_a643be30dd2659e9acee9a5372da38ecf"><div class="ttname"><a href="../../df/dbe/cpu_8hpp.html#a643be30dd2659e9acee9a5372da38ecf">Halt</a></div><div class="ttdeci">static SafeFunction __always_inline void Halt(bool Loop=false)</div><div class="ttdoc">Halt the CPU.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00177">cpu.hpp:177</a></div></div>
 <div class="ttc" id="afilesystem_8hpp_html"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html">filesystem.hpp</a></div></div>
-<div class="ttc" id="akernel_8h_html_a65e8d0c10ca585e174b6099e74fbc8b6"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a65e8d0c10ca585e174b6099e74fbc8b6">KernelShutdownThread</a></div><div class="ttdeci">EXTERNC void KernelShutdownThread(bool Reboot)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d06/KernelThread_8cpp_source.html#l00667">KernelThread.cpp:667</a></div></div>
-<div class="ttc" id="anamespaceTasking_html"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html">Tasking</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00033">task.hpp:34</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html">VirtualFileSystem</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9f/FileDescriptor_8cpp_source.html#l00030">FileDescriptor.cpp:31</a></div></div>
+<div class="ttc" id="akernel_8h_html_a65e8d0c10ca585e174b6099e74fbc8b6"><div class="ttname"><a href="../../d0/daa/kernel_8h.html#a65e8d0c10ca585e174b6099e74fbc8b6">KernelShutdownThread</a></div><div class="ttdeci">EXTERNC void KernelShutdownThread(bool Reboot)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d70/kernel__thread_8cpp_source.html#l00168">kernel_thread.cpp:168</a></div></div>
+<div class="ttc" id="anamespaceTasking_html"><div class="ttname"><a href="../../d9/d3e/namespaceTasking.html">Tasking</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00034">task.hpp:35</a></div></div>
+<div class="ttc" id="anamespacevfs_html"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html">vfs</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/de8/ext2_8hpp_source.html#l00025">ext2.hpp:26</a></div></div>
 <div class="ttc" id="ashutdown_8cpp_html_aa00b84756b784d75202c8a58ddf00f40"><div class="ttname"><a href="../../df/d04/shutdown_8cpp.html#aa00b84756b784d75202c8a58ddf00f40">cmd_shutdown</a></div><div class="ttdeci">void cmd_shutdown(const char *)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d04/shutdown_8cpp_source.html#l00028">shutdown.cpp:28</a></div></div>
 <div class="ttc" id="atask_8hpp_html"><div class="ttname"><a href="../../d8/da1/task_8hpp.html">task.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('df/d04/shutdown_8cpp_source.html','../
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_88ab6059d7314379aec44b69c6467aa4.html">KernelShell</a></li><li class="navelem"><a class="el" href="../../dir_105f589b55020470501771e09d5231da.html">Commands</a></li><li class="navelem"><a class="el" href="../../df/d04/shutdown_8cpp.html">shutdown.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_e9ffd35bd10593ca6aaa6872207964dd.html">kshell</a></li><li class="navelem"><a class="el" href="../../dir_0befaf9d32b914567ccf0e83b7a19c45.html">commands</a></li><li class="navelem"><a class="el" href="../../df/d04/shutdown_8cpp.html">shutdown.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

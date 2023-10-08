@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/Core/Memory/HeapAllocators/Xalloc/XallocV2.cpp Source File</title>
+<title>Fennix Kernel: Kernel/core/memory/heap_allocators/Xalloc/XallocV2.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,20 +90,20 @@ $(document).ready(function(){initNavTree('d7/d1e/XallocV2_8cpp_source.html','../
 </div><!--header-->
 <div class="contents">
 <a href="../../d7/d1e/XallocV2_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d12/Xalloc_8hpp.html">Xalloc.hpp</a>&quot;</span></div>
@@ -117,8 +117,8 @@ $(document).ready(function(){initNavTree('d7/d1e/XallocV2_8cpp_source.html','../
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> *<a class="code" href="../../d7/d1e/XallocV2_8cpp.html#a79c2058bb276cafa4a24007c504054a4">Xalloc_REQUEST_PAGES</a>(<a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> Pages);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="../../d7/d1e/XallocV2_8cpp.html#aa12016bc79f2b4afddb00eb0c856c490">Xalloc_FREE_PAGES</a>(<span class="keywordtype">void</span> *<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> Pages);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="../../d7/d1e/XallocV2_8cpp.html#afd396a5eefeee77f1fac8e07ed002b2e">Xalloc_MAP_MEMORY</a>(<span class="keywordtype">void</span> *VirtualAddress,</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                  <span class="keywordtype">void</span> *<a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a>,</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                  <a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                  <span class="keywordtype">void</span> *<a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a>,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                                  <a class="code" href="../../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695">Xsize_t</a> <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">void</span> <a class="code" href="../../d7/d1e/XallocV2_8cpp.html#ac5653876339972db0db5f662e64f8f19">Xalloc_UNMAP_MEMORY</a>(<span class="keywordtype">void</span> *VirtualAddress);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../d7/d1e/XallocV2_8cpp.html#a0b12aaa63ddd5e216a5823132baa1c03">   33</a></span>&#160;<span class="preprocessor">#define Xalloc_BlockSanityKey 0xA110C</span></div>
@@ -370,8 +370,6 @@ $(document).ready(function(){initNavTree('d7/d1e/XallocV2_8cpp_source.html','../
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <a class="code" href="../../d8/d12/Xalloc_8hpp.html#a5d8f8741934cb9a81daa6626cdbc35c3">XallocV2_unlock</a>;</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    }</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;}</div>
-<div class="ttc" id="aMultiboot64bitMap_8cpp_html_a4851ebd1cf29bead5f3abe382b16bc8f"><div class="ttname"><a href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a></div><div class="ttdeci">void uint64_t Flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00197">Multiboot64bitMap.cpp:198</a></div></div>
-<div class="ttc" id="aMultiboot64bitMap_8cpp_html_aed951ef6b9c6cfec18d4673c1c32debc"><div class="ttname"><a href="../../d7/dfa/Multiboot64bitMap_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a></div><div class="ttdeci">void * PhysicalAddress</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00197">Multiboot64bitMap.cpp:197</a></div></div>
 <div class="ttc" id="aXallocV1_8cpp_html_a6fc2b8ed8be1aa26731a45000f43b8cc"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">XallocV1.cpp:1</a></div></div>
 <div class="ttc" id="aXallocV1_8cpp_html_a9a6916f13c01e1cbb39bf087545542c7"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a9a6916f13c01e1cbb39bf087545542c7">Size</a></div><div class="ttdeci">Xsize_t Size</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00004">XallocV1.cpp:4</a></div></div>
 <div class="ttc" id="aXallocV2_8cpp_html_a0b12aaa63ddd5e216a5823132baa1c03"><div class="ttname"><a href="../../d7/d1e/XallocV2_8cpp.html#a0b12aaa63ddd5e216a5823132baa1c03">Xalloc_BlockSanityKey</a></div><div class="ttdeci">#define Xalloc_BlockSanityKey</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1e/XallocV2_8cpp_source.html#l00033">XallocV2.cpp:33</a></div></div>
@@ -425,13 +423,15 @@ $(document).ready(function(){initNavTree('d7/d1e/XallocV2_8cpp_source.html','../
 <div class="ttc" id="aclassXalloc_1_1V2_html_af8eba9892959d4330b44813937cd2bbc"><div class="ttname"><a href="../../df/d2f/classXalloc_1_1V2.html#af8eba9892959d4330b44813937cd2bbc">Xalloc::V2::free</a></div><div class="ttdeci">void free(void *Address)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1e/XallocV2_8cpp_source.html#l00193">XallocV2.cpp:193</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00160">types.h:160</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00405">types.h:405</a></div></div>
+<div class="ttc" id="amb__64bit__map_8cpp_html_a4851ebd1cf29bead5f3abe382b16bc8f"><div class="ttname"><a href="../../d9/def/mb__64bit__map_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a></div><div class="ttdeci">void uint64_t Flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/def/mb__64bit__map_8cpp_source.html#l00197">mb_64bit_map.cpp:198</a></div></div>
+<div class="ttc" id="amb__64bit__map_8cpp_html_aed951ef6b9c6cfec18d4673c1c32debc"><div class="ttname"><a href="../../d9/def/mb__64bit__map_8cpp.html#aed951ef6b9c6cfec18d4673c1c32debc">PhysicalAddress</a></div><div class="ttdeci">void * PhysicalAddress</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/def/mb__64bit__map_8cpp_source.html#l00197">mb_64bit_map.cpp:197</a></div></div>
 <div class="ttc" id="anamespaceXalloc_html"><div class="ttname"><a href="../../dc/d0a/namespaceXalloc.html">Xalloc</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d12/Xalloc_8hpp_source.html#l00044">Xalloc.hpp:45</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_45b96e5faabc1aec1c962e9d67eabcf9.html">Core</a></li><li class="navelem"><a class="el" href="../../dir_49e28e04fe5a683ab6442a3687c2ecf7.html">Memory</a></li><li class="navelem"><a class="el" href="../../dir_c22f59685a994d14d97026f7ec4b6a8c.html">HeapAllocators</a></li><li class="navelem"><a class="el" href="../../dir_cbe41fb991715380db4de405de1e780b.html">Xalloc</a></li><li class="navelem"><a class="el" href="../../d7/d1e/XallocV2_8cpp.html">XallocV2.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_4b43f92f3b36afcf854dcf934e6beeae.html">core</a></li><li class="navelem"><a class="el" href="../../dir_0324a785b1c9bd6cbd91488045f3d0b5.html">memory</a></li><li class="navelem"><a class="el" href="../../dir_c5ea9415aa1db88b86345b822e37d7c6.html">heap_allocators</a></li><li class="navelem"><a class="el" href="../../dir_c12dc02dd4ebee754aaeaad5bb0f68a9.html">Xalloc</a></li><li class="navelem"><a class="el" href="../../d7/d1e/XallocV2_8cpp.html">XallocV2.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/Modules/AdvancedMicroDevices/pcnet.hpp Source File</title>
+<title>Fennix: Kernel/modules/AdvancedMicroDevices/pcnet.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,27 +90,27 @@ $(document).ready(function(){initNavTree('d4/d88/pcnet_8hpp_source.html','../../
 </div><!--header-->
 <div class="contents">
 <a href="../../d4/d88/pcnet_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef __FENNIX_KERNEL_AMD_PCNET_H__</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define __FENNIX_KERNEL_AMD_PCNET_H__</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;types.h&gt;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;../../DAPI.hpp&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;../../mapi.hpp&quot;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../dd/d45/namespacePCNET.html">PCNET</a></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
@@ -118,24 +118,24 @@ $(document).ready(function(){initNavTree('d4/d88/pcnet_8hpp_source.html','../../
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
 <div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../dd/d45/namespacePCNET.html#a958f3b7447fce8382039b03a22c6a8f2">   28</a></span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a> <a class="code" href="../../dd/d45/namespacePCNET.html#a958f3b7447fce8382039b03a22c6a8f2">Type</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../dd/d45/namespacePCNET.html#ae7383920a5d79d4e446a5a023a34df83">   29</a></span>&#160;        <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../dd/d45/namespacePCNET.html#ae7383920a5d79d4e446a5a023a34df83">IOBase</a>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../dd/d45/namespacePCNET.html#a66704d50aab2e803b71fc04113e8c7ee">   30</a></span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="code" href="../../dd/d45/namespacePCNET.html#a66704d50aab2e803b71fc04113e8c7ee">MemoryBase</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="../../dd/d45/namespacePCNET.html#a66704d50aab2e803b71fc04113e8c7ee">   30</a></span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> <a class="code" href="../../dd/d45/namespacePCNET.html#a66704d50aab2e803b71fc04113e8c7ee">MemoryBase</a>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    };</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/d45/namespacePCNET.html#a5f466cf13ad3655b3e4436ed30f49399">DriverEntry</a>(<span class="keywordtype">void</span> *);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/d45/namespacePCNET.html#a5a4e08d408e3b67c53f3a799fcf338e7">CallbackHandler</a>(<a class="code" href="../../d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/d45/namespacePCNET.html#a2b12fb171820c57276c4221101082f3d">InterruptCallback</a>(<a class="code" href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/d45/namespacePCNET.html#a5a4e08d408e3b67c53f3a799fcf338e7">CallbackHandler</a>(<a class="code" href="../../d7/d11/mapi_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../dd/d45/namespacePCNET.html#a2b12fb171820c57276c4221101082f3d">InterruptCallback</a>(<a class="code" href="../../d7/d11/mapi_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_AMD_PCNET_H__</span></div>
-<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
-<div class="ttc" id="aDAPI_8hpp_html_d4/dc4/unionKernelCallback"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00229">DAPI.hpp:230</a></div></div>
-<div class="ttc" id="aDAPI_8hpp_html_da/db4/unionCPURegisters"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00403">DAPI.hpp:404</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a3cb4a16b0e8d6af0af86d4fd6ba5fd9d"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a></div><div class="ttdeci">__UINT8_TYPE__ uint8_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00160">types.h:160</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00161">types.h:161</a></div></div>
-<div class="ttc" id="anamespacePCNET_html"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html">PCNET</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d97/PCNET_8cpp_source.html#l00013">PCNET.cpp:14</a></div></div>
-<div class="ttc" id="anamespacePCNET_html_a2b12fb171820c57276c4221101082f3d"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#a2b12fb171820c57276c4221101082f3d">PCNET::InterruptCallback</a></div><div class="ttdeci">int InterruptCallback(CPURegisters *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d97/PCNET_8cpp_source.html#l00110">PCNET.cpp:110</a></div></div>
-<div class="ttc" id="anamespacePCNET_html_a5a4e08d408e3b67c53f3a799fcf338e7"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#a5a4e08d408e3b67c53f3a799fcf338e7">PCNET::CallbackHandler</a></div><div class="ttdeci">int CallbackHandler(KernelCallback *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d97/PCNET_8cpp_source.html#l00060">PCNET.cpp:60</a></div></div>
-<div class="ttc" id="anamespacePCNET_html_a5f466cf13ad3655b3e4436ed30f49399"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#a5f466cf13ad3655b3e4436ed30f49399">PCNET::DriverEntry</a></div><div class="ttdeci">int DriverEntry(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d97/PCNET_8cpp_source.html#l00050">PCNET.cpp:50</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00294">arithmetic_operations.c:294</a></div></div>
+<div class="ttc" id="amapi_8hpp_html_d4/dc4/unionKernelCallback"><div class="ttname"><a href="../../d7/d11/mapi_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d11/mapi_8hpp_source.html#l00229">mapi.hpp:230</a></div></div>
+<div class="ttc" id="amapi_8hpp_html_da/db4/unionCPURegisters"><div class="ttname"><a href="../../d7/d11/mapi_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d11/mapi_8hpp_source.html#l00403">mapi.hpp:404</a></div></div>
+<div class="ttc" id="anamespacePCNET_html"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html">PCNET</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d97/PCNET_8cpp_source.html#l00030">PCNET.cpp:31</a></div></div>
+<div class="ttc" id="anamespacePCNET_html_a2b12fb171820c57276c4221101082f3d"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#a2b12fb171820c57276c4221101082f3d">PCNET::InterruptCallback</a></div><div class="ttdeci">int InterruptCallback(CPURegisters *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d97/PCNET_8cpp_source.html#l00127">PCNET.cpp:127</a></div></div>
+<div class="ttc" id="anamespacePCNET_html_a5a4e08d408e3b67c53f3a799fcf338e7"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#a5a4e08d408e3b67c53f3a799fcf338e7">PCNET::CallbackHandler</a></div><div class="ttdeci">int CallbackHandler(KernelCallback *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d97/PCNET_8cpp_source.html#l00077">PCNET.cpp:77</a></div></div>
+<div class="ttc" id="anamespacePCNET_html_a5f466cf13ad3655b3e4436ed30f49399"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#a5f466cf13ad3655b3e4436ed30f49399">PCNET::DriverEntry</a></div><div class="ttdeci">int DriverEntry(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d97/PCNET_8cpp_source.html#l00067">PCNET.cpp:67</a></div></div>
 <div class="ttc" id="anamespacePCNET_html_a66704d50aab2e803b71fc04113e8c7ee"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#a66704d50aab2e803b71fc04113e8c7ee">PCNET::BARData::MemoryBase</a></div><div class="ttdeci">uint64_t MemoryBase</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d88/pcnet_8hpp_source.html#l00030">pcnet.hpp:30</a></div></div>
 <div class="ttc" id="anamespacePCNET_html_a958f3b7447fce8382039b03a22c6a8f2"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#a958f3b7447fce8382039b03a22c6a8f2">PCNET::BARData::Type</a></div><div class="ttdeci">uint8_t Type</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d88/pcnet_8hpp_source.html#l00028">pcnet.hpp:28</a></div></div>
 <div class="ttc" id="anamespacePCNET_html_ae7383920a5d79d4e446a5a023a34df83"><div class="ttname"><a href="../../dd/d45/namespacePCNET.html#ae7383920a5d79d4e446a5a023a34df83">PCNET::BARData::IOBase</a></div><div class="ttdeci">uint16_t IOBase</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d88/pcnet_8hpp_source.html#l00029">pcnet.hpp:29</a></div></div>
@@ -145,7 +145,7 @@ $(document).ready(function(){initNavTree('d4/d88/pcnet_8hpp_source.html','../../
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_559278b07106fc62284400afdb4b1bd1.html">Modules</a></li><li class="navelem"><a class="el" href="../../dir_9e1f1492de8c575abfbf74e1ac1e5d71.html">AdvancedMicroDevices</a></li><li class="navelem"><a class="el" href="../../d4/d88/pcnet_8hpp.html">pcnet.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_6bd7ae448e999fc4806673008d3d7608.html">modules</a></li><li class="navelem"><a class="el" href="../../dir_2c306fa90aa1bf467f7c4ead848bb25b.html">AdvancedMicroDevices</a></li><li class="navelem"><a class="el" href="../../d4/d88/pcnet_8hpp.html">pcnet.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

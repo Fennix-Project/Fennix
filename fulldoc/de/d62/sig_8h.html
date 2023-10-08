@@ -129,7 +129,7 @@ Macros</h2></td></tr>
 <tr class="separator:aa1b2d380dc1779c219bfd7b8b65db57c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6ad5d81af3198ab9d90d7dac07150fc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#ae6ad5d81af3198ab9d90d7dac07150fc">UNBLOCK_SIGNAL</a>(ovar)&#160;&#160;&#160;<a class="el" href="../../d9/de8/sigprocmask_8c.html#a90655aecbf91f9ade152eaa0ced5c3a5">sigprocmask</a> (<a class="el" href="../../de/d62/sig_8h.html#a37750b78b7ae75fe02ad26e70f6cc845">SIG_SETMASK</a>, &amp;ovar, (<a class="el" href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a> *) <a class="el" href="../../d4/dc4/Userspace_2musl_2include_2wchar_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
 <tr class="separator:ae6ad5d81af3198ab9d90d7dac07150fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37d156f6ab7c2ade277f9a274314d258"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a37d156f6ab7c2ade277f9a274314d258">BLOCK_CHILD</a>(nvar,  ovar)&#160;&#160;&#160;ovar = sigblock (<a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d8/dfe/musl_2arch_2x86__64_2bits_2signal_8h.html#a0e63521a64cc8bc2b91d36a87d32c9f8">SIGCHLD</a>))</td></tr>
+<tr class="memitem:a37d156f6ab7c2ade277f9a274314d258"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#a37d156f6ab7c2ade277f9a274314d258">BLOCK_CHILD</a>(nvar,  ovar)&#160;&#160;&#160;ovar = sigblock (<a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d4/dc2/Kernel_2include_2signal_8h.html#ae334395fdd2ddcad969d5988c071c289a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a>))</td></tr>
 <tr class="separator:a37d156f6ab7c2ade277f9a274314d258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9262558d91ca8060065606f36167783"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d62/sig_8h.html#aa9262558d91ca8060065606f36167783">UNBLOCK_CHILD</a>(ovar)&#160;&#160;&#160;sigsetmask (ovar)</td></tr>
 <tr class="separator:aa9262558d91ca8060065606f36167783"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,7 +181,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;ovar = sigblock (<a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d8/dfe/musl_2arch_2x86__64_2bits_2signal_8h.html#a0e63521a64cc8bc2b91d36a87d32c9f8">SIGCHLD</a>))</td>
+          <td></td><td>&#160;&#160;&#160;ovar = sigblock (<a class="el" href="../../de/d62/sig_8h.html#a1b78c9a1c71efca7a30f9126a7fbfadf">sigmask</a> (<a class="el" href="../../d4/dc2/Kernel_2include_2signal_8h.html#ae334395fdd2ddcad969d5988c071c289a6dfd856a32bc2d1933164dc9baf28354">SIGCHLD</a>))</td>
         </tr>
       </table>
 </div><div class="memdoc">

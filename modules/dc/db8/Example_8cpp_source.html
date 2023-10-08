@@ -89,17 +89,17 @@ $(document).ready(function(){initNavTree('dc/db8/Example_8cpp_source.html','../.
 <div class="title">Example.cpp</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dc/db8/Example_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;../../../Kernel/DAPI.hpp&quot;</span></div>
+<a href="../../dc/db8/Example_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;../../../Kernel/mapi.hpp&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;../../../Kernel/Fex.hpp&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>(<span class="keywordtype">void</span> *Data);</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> <span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#a31a5c902daa34b4d35f7e349a2d236c7">ModuleEntry</a>(<span class="keywordtype">void</span> *Data);</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143">CallbackHandler</a>(KernelCallback *Data);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#a19e1c27c2f987931f74d5e5ef9ca9f72">InterruptCallback</a>(CPURegisters *Registers);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*                           The driver is</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *       This is a driver     for Fennix     Driver Entry Extended Header</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">/*                           The module is</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment"> *       This is a module     for Fennix     Module Entry Extended Header</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment"> *              *                   *              *             */</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc">   11</a></span>&#160;<a class="code" href="../../dc/db8/Example_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc">HEAD</a>(FexFormatType_Driver, FexOSType_Fennix, <a class="code" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#a91afacc42a41e85e9622abf12c4ab2d8">   11</a></span>&#160;<a class="code" href="../../dc/db8/Example_8cpp.html#a91afacc42a41e85e9622abf12c4ab2d8">HEAD</a>(FexFormatType_Module, FexOSType_Fennix, <a class="code" href="../../dc/db8/Example_8cpp.html#a31a5c902daa34b4d35f7e349a2d236c7">ModuleEntry</a>);</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">/* Ignore the warning about missing field initializers. */</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#pragma GCC diagnostic push</span></div>
@@ -107,9 +107,9 @@ $(document).ready(function(){initNavTree('dc/db8/Example_8cpp_source.html','../.
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">/* Extended header which is used to give additional information to the kernel. */</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">   18</a></span>&#160;<a class="code" href="../../dc/db8/Example_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">__attribute__</a>((section(<span class="stringliteral">&quot;.extended&quot;</span>))) FexExtended ExtendedHeader = {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    .Driver = {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        .Name = <span class="stringliteral">&quot;Example Driver&quot;</span>,</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        .Type = FexDriverType_Generic,</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    .Module = {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        .Name = <span class="stringliteral">&quot;Example Module&quot;</span>,</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        .Type = FexModuleType_Generic,</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        .Callback = <a class="code" href="../../dc/db8/Example_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143">CallbackHandler</a>,</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        .InterruptCallback = <a class="code" href="../../dc/db8/Example_8cpp.html#a19e1c27c2f987931f74d5e5ef9ca9f72">InterruptCallback</a>,</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        .Bind = {</div>
@@ -124,13 +124,13 @@ $(document).ready(function(){initNavTree('dc/db8/Example_8cpp_source.html','../.
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">   33</a></span>&#160;KernelAPI <a class="code" href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a>{};</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">/* Macro that prints a message to the kernel debugger. */</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">   36</a></span>&#160;<span class="preprocessor">#define print(msg) KAPI.Util.DebugPrint((char *)(msg), KAPI.Info.DriverUID)</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">   36</a></span>&#160;<span class="preprocessor">#define print(msg) KAPI.Util.DebugPrint((char *)(msg), KAPI.Info.modUniqueID)</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">/* --------------------------------------------------------------------------------------------------------- */</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">/* Driver entry point. This is called at initialization.</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">/* Module entry point. This is called at initialization.</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">   &quot;Data&quot; argument points to the kernel API structure. */</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">   42</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a>(<span class="keywordtype">void</span> *Data)</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#a31a5c902daa34b4d35f7e349a2d236c7">   42</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#a31a5c902daa34b4d35f7e349a2d236c7">ModuleEntry</a>(<span class="keywordtype">void</span> *Data)</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;{</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="comment">/* Check if kernel API is valid */</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">if</span> (!Data)</div>
@@ -150,20 +150,20 @@ $(document).ready(function(){initNavTree('dc/db8/Example_8cpp_source.html','../.
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> OK;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">/* This is called when the driver is bound to an interrupt, process,</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">   or PCI device or when the kernel wants to send a message to the driver. */</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">/* This is called when the module is bound to an interrupt, process,</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">   or PCI device or when the kernel wants to send a message to the module. */</span></div>
 <div class="line"><a name="l00064"></a><span class="lineno"><a class="line" href="../../dc/db8/Example_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143">   64</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../dc/db8/Example_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143">CallbackHandler</a>(KernelCallback *Data)</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">switch</span> (Data-&gt;Reason)</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    {</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">case</span> AcknowledgeReason:</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Kernel acknowledged the driver.&quot;</span>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Kernel acknowledged the module.&quot;</span>);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">case</span> StopReason:</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    {</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Driver stopped.&quot;</span>);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a>(<span class="stringliteral">&quot;Module stopped.&quot;</span>);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">default</span>:</div>
@@ -182,12 +182,12 @@ $(document).ready(function(){initNavTree('dc/db8/Example_8cpp_source.html','../.
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">return</span> OK;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
 <div class="ttc" id="aExample_8cpp_html_a19e1c27c2f987931f74d5e5ef9ca9f72"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a19e1c27c2f987931f74d5e5ef9ca9f72">InterruptCallback</a></div><div class="ttdeci">int InterruptCallback(CPURegisters *Registers)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00088">Example.cpp:88</a></div></div>
-<div class="ttc" id="aExample_8cpp_html_a56474bd9ccbe42a82994dd3415226f38"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a56474bd9ccbe42a82994dd3415226f38">DriverEntry</a></div><div class="ttdeci">int DriverEntry(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00042">Example.cpp:42</a></div></div>
+<div class="ttc" id="aExample_8cpp_html_a31a5c902daa34b4d35f7e349a2d236c7"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a31a5c902daa34b4d35f7e349a2d236c7">ModuleEntry</a></div><div class="ttdeci">int ModuleEntry(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00042">Example.cpp:42</a></div></div>
+<div class="ttc" id="aExample_8cpp_html_a91afacc42a41e85e9622abf12c4ab2d8"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a91afacc42a41e85e9622abf12c4ab2d8">HEAD</a></div><div class="ttdeci">HEAD(FexFormatType_Module, FexOSType_Fennix, ModuleEntry)</div></div>
 <div class="ttc" id="aExample_8cpp_html_a93bdbb2eb161fecc1c12d7b87345e718"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#a93bdbb2eb161fecc1c12d7b87345e718">print</a></div><div class="ttdeci">#define print(msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00036">Example.cpp:36</a></div></div>
 <div class="ttc" id="aExample_8cpp_html_ab002675cfb66a7900066ad4131d62228"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#ab002675cfb66a7900066ad4131d62228">KAPI</a></div><div class="ttdeci">KernelAPI KAPI</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00033">Example.cpp:33</a></div></div>
 <div class="ttc" id="aExample_8cpp_html_ae8a62c2ae90dae14e107d0d84d3c2143"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#ae8a62c2ae90dae14e107d0d84d3c2143">CallbackHandler</a></div><div class="ttdeci">int CallbackHandler(KernelCallback *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/db8/Example_8cpp_source.html#l00064">Example.cpp:64</a></div></div>
 <div class="ttc" id="aExample_8cpp_html_af22ae37b84033edb178366e0d7d8f7e5"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#af22ae37b84033edb178366e0d7d8f7e5">__attribute__</a></div><div class="ttdeci">__attribute__((section(&quot;.extended&quot;))) FexExtended ExtendedHeader</div></div>
-<div class="ttc" id="aExample_8cpp_html_af24e7dbc50400c89dbb3827cc25545fc"><div class="ttname"><a href="../../dc/db8/Example_8cpp.html#af24e7dbc50400c89dbb3827cc25545fc">HEAD</a></div><div class="ttdeci">HEAD(FexFormatType_Driver, FexOSType_Fennix, DriverEntry)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

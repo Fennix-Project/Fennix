@@ -1,7 +1,5 @@
 var NAVTREEINDEX123 =
 {
-"d6/d54/mkfs__vfat_8c.html#ac9fb38db3f0f5e41b86eb154ea1389dd":[6,0,1,0,0,1,27,43,2,15],
-"d6/d54/mkfs__vfat_8c.html#acd1627305ab8f9b59fbf0c2d98d3a9e0":[6,0,1,0,0,1,27,43,1,2],
 "d6/d54/mkfs__vfat_8c.html#ad76e26366a244d81d5933d68bfc19eca":[6,0,1,0,0,1,27,43,5],
 "d6/d54/mkfs__vfat_8c.html#ad8f817ebc49b737b67b840378f310b84":[6,0,1,0,0,1,27,43,4,1],
 "d6/d54/mkfs__vfat_8c.html#ade21f2747e1da61912dce7a281053ded":[6,0,1,0,0,1,27,43,2,9],
@@ -249,5 +247,7 @@ var NAVTREEINDEX123 =
 "d6/d69/musl_2arch_2powerpc64_2bits_2fcntl_8h.html#aabb866cd0cf7ed3544dfc335e0e360fd":[6,0,1,3,0,11,0,1,11],
 "d6/d69/musl_2arch_2powerpc64_2bits_2fcntl_8h.html#aae85139bfa94236d126bb1e3b772998f":[6,0,1,3,0,11,0,1,31],
 "d6/d69/musl_2arch_2powerpc64_2bits_2fcntl_8h.html#ab93a8621587aba90181efd7d3aeea67e":[6,0,1,3,0,11,0,1,0],
-"d6/d69/musl_2arch_2powerpc64_2bits_2fcntl_8h.html#abc11141031604fb22b8e3a201155cbb3":[6,0,1,3,0,11,0,1,1]
+"d6/d69/musl_2arch_2powerpc64_2bits_2fcntl_8h.html#abc11141031604fb22b8e3a201155cbb3":[6,0,1,3,0,11,0,1,1],
+"d6/d69/musl_2arch_2powerpc64_2bits_2fcntl_8h.html#ac5d0c9848f853f8b026b1211b93f78b1":[6,0,1,3,0,11,0,1,16],
+"d6/d69/musl_2arch_2powerpc64_2bits_2fcntl_8h.html#ac9cf617d7c8fba45a5062f1f7322e6f8":[6,0,1,3,0,11,0,1,30]
 };

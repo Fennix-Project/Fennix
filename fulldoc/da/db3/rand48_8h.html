@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('da/db3/rand48_8h.html','../../'); init
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af232296a806f1bbb4111f03f8bbe9329"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d36/musl_2src_2include_2features_8h.html#a37bb9680a0044c686c95a4b3ec72bdc1">hidden</a> <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db3/rand48_8h.html#af232296a806f1bbb4111f03f8bbe9329">__rand48_step</a> (unsigned short *xi, unsigned short *lc)</td></tr>
+<tr class="memitem:af232296a806f1bbb4111f03f8bbe9329"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d36/musl_2src_2include_2features_8h.html#a37bb9680a0044c686c95a4b3ec72bdc1">hidden</a> <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/db3/rand48_8h.html#af232296a806f1bbb4111f03f8bbe9329">__rand48_step</a> (unsigned short *xi, unsigned short *lc)</td></tr>
 <tr class="separator:af232296a806f1bbb4111f03f8bbe9329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -115,7 +115,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/d36/musl_2src_2include_2features_8h.html#a37bb9680a0044c686c95a4b3ec72bdc1">hidden</a> <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> __rand48_step </td>
+          <td class="memname"><a class="el" href="../../da/d36/musl_2src_2include_2features_8h.html#a37bb9680a0044c686c95a4b3ec72bdc1">hidden</a> <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> __rand48_step </td>
           <td>(</td>
           <td class="paramtype">unsigned short *&#160;</td>
           <td class="paramname"><em>xi</em>, </td>
@@ -136,7 +136,7 @@ Variables</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d7/dfb/____rand48__step_8c_source.html#l00004">4</a> of file <a class="el" href="../../d7/dfb/____rand48__step_8c_source.html">__rand48_step.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> a, <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> a, <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a> = xi[0] | xi[1]+0U&lt;&lt;16 | xi[2]+0ULL&lt;&lt;32;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    a = lc[0] | lc[1]+0U&lt;&lt;16 | lc[2]+0ULL&lt;&lt;32;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a> = a*<a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a> + lc[3];</div>
@@ -145,7 +145,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    xi[2] = <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>&gt;&gt;32;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a> &amp; 0xffffffffffffull;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00294">arithmetic_operations.c:294</a></div></div>
 <div class="ttc" id="amusl_2src_2prng_2random_8c_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/musl_2src_2prng_2random_8c_source.html#l00025">random.c:25</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c_source.html#l00025">x</a>.</p>

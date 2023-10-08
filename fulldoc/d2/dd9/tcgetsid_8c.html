@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d2/dd9/tcgetsid_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a9f67b46602acc6dd14ec0e2ce43952d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd9/tcgetsid_8c.html#a9f67b46602acc6dd14ec0e2ce43952d7">tcgetsid</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)</td></tr>
+<tr class="memitem:a9f67b46602acc6dd14ec0e2ce43952d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dd9/tcgetsid_8c.html#a9f67b46602acc6dd14ec0e2ce43952d7">tcgetsid</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>)</td></tr>
 <tr class="separator:a9f67b46602acc6dd14ec0e2ce43952d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -109,7 +109,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> tcgetsid </td>
+          <td class="memname"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> tcgetsid </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>fd</em></td><td>)</td>
@@ -121,13 +121,13 @@ Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d2/dd9/tcgetsid_8c_source.html#l00004">4</a> of file <a class="el" href="../../d2/dd9/tcgetsid_8c_source.html">tcgetsid.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordtype">int</span> sid;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/dfe/Userspace_2musl_2include_2stropts_8h.html#ae3a230c65883ec8edc50e3a09ca80003">ioctl</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d1/d11/arch_2generic_2bits_2ioctl_8h.html#a5bd07dba57209cc8b106c734e7fad635">TIOCGSID</a>, &amp;sid) &lt; 0)</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/dfe/Userspace_2musl_2include_2stropts_8h.html#ae3a230c65883ec8edc50e3a09ca80003">ioctl</a>(<a class="code" href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d1/d11/arch_2generic_2bits_2ioctl_8h.html#a5bd07dba57209cc8b106c734e7fad635">TIOCGSID</a>, &amp;sid) &lt; 0)</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">return</span> -1;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">return</span> sid;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
 <div class="ttc" id="aUserspace_2musl_2include_2stropts_8h_html_ae3a230c65883ec8edc50e3a09ca80003"><div class="ttname"><a href="../../d6/dfe/Userspace_2musl_2include_2stropts_8h.html#ae3a230c65883ec8edc50e3a09ca80003">ioctl</a></div><div class="ttdeci">int ioctl(int, int,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d32/ioctl_8c_source.html#l00128">ioctl.c:128</a></div></div>
 <div class="ttc" id="aarch_2generic_2bits_2ioctl_8h_html_a5bd07dba57209cc8b106c734e7fad635"><div class="ttname"><a href="../../d1/d11/arch_2generic_2bits_2ioctl_8h.html#a5bd07dba57209cc8b106c734e7fad635">TIOCGSID</a></div><div class="ttdeci">#define TIOCGSID</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d11/arch_2generic_2bits_2ioctl_8h_source.html#l00051">ioctl.h:51</a></div></div>
-<div class="ttc" id="ahdparm_8c_html_aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../dc/d32/ioctl_8c_source.html#l00128">ioctl()</a>, and <a class="el" href="../../d1/d11/arch_2generic_2bits_2ioctl_8h_source.html#l00051">TIOCGSID</a>.</p>
 

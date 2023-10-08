@@ -103,9 +103,9 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ae682db936eb01259b5e0037f3e2a6ec6"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df3/cexpf_8c.html#ae682db936eb01259b5e0037f3e2a6ec6">exp_ovfl</a> = 0x42b17218</td></tr>
+<tr class="memitem:ae682db936eb01259b5e0037f3e2a6ec6"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df3/cexpf_8c.html#ae682db936eb01259b5e0037f3e2a6ec6">exp_ovfl</a> = 0x42b17218</td></tr>
 <tr class="separator:ae682db936eb01259b5e0037f3e2a6ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4355f38c4ff6dcf2f77092cf23737732"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df3/cexpf_8c.html#a4355f38c4ff6dcf2f77092cf23737732">cexp_ovfl</a> = 0x43400074</td></tr>
+<tr class="memitem:a4355f38c4ff6dcf2f77092cf23737732"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df3/cexpf_8c.html#a4355f38c4ff6dcf2f77092cf23737732">cexp_ovfl</a> = 0x43400074</td></tr>
 <tr class="separator:a4355f38c4ff6dcf2f77092cf23737732"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -128,7 +128,7 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d2/df3/cexpf_8c_source.html#l00034">34</a> of file <a class="el" href="../../d2/df3/cexpf_8c_source.html">cexpf.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>, <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>, exp_x;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> hx, hy;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> hx, hy;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a> = <a class="code" href="../../d7/d3b/complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a>(z);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a> = <a class="code" href="../../d7/d3b/complex_8h.html#a6ffde693131d8b43e240be8652a677c5">cimagf</a>(z);</div>
@@ -175,11 +175,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dd/d6e/complex__impl_8h.html#a58b69dd647c86d37f2d35dfd2d75b08d">CMPLXF</a>(exp_x * <a class="code" href="../../d2/db7/Userspace_2musl_2include_2math_8h.html#a0546342e76f932239ccd5f92144a311b">cosf</a>(<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>), exp_x * <a class="code" href="../../d2/db7/Userspace_2musl_2include_2math_8h.html#a312367f3e117fc37059783c301766042">sinf</a>(<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>));</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
 <div class="ttc" id="aUserspace_2musl_2include_2math_8h_html_a0003d647b1182eafd145bac98768d27e"><div class="ttname"><a href="../../d2/db7/Userspace_2musl_2include_2math_8h.html#a0003d647b1182eafd145bac98768d27e">expf</a></div><div class="ttdeci">float expf(float)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1a/expf_8c_source.html#l00033">expf.c:33</a></div></div>
 <div class="ttc" id="aUserspace_2musl_2include_2math_8h_html_a0546342e76f932239ccd5f92144a311b"><div class="ttname"><a href="../../d2/db7/Userspace_2musl_2include_2math_8h.html#a0546342e76f932239ccd5f92144a311b">cosf</a></div><div class="ttdeci">float cosf(float)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d10/cosf_8c_source.html#l00026">cosf.c:26</a></div></div>
 <div class="ttc" id="aUserspace_2musl_2include_2math_8h_html_a312367f3e117fc37059783c301766042"><div class="ttname"><a href="../../d2/db7/Userspace_2musl_2include_2math_8h.html#a312367f3e117fc37059783c301766042">sinf</a></div><div class="ttdeci">float sinf(float)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d03/sinf_8c_source.html#l00026">sinf.c:26</a></div></div>
 <div class="ttc" id="a____cexpf_8c_html_a5c80dafbee97189738d19c5c309117c1"><div class="ttname"><a href="../../d4/d1c/____cexpf_8c.html#a5c80dafbee97189738d19c5c309117c1">__ldexp_cexpf</a></div><div class="ttdeci">float complex __ldexp_cexpf(float complex z, int expt)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1c/____cexpf_8c_source.html#l00051">__cexpf.c:51</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
 <div class="ttc" id="acexpf_8c_html_a4355f38c4ff6dcf2f77092cf23737732"><div class="ttname"><a href="../../d2/df3/cexpf_8c.html#a4355f38c4ff6dcf2f77092cf23737732">cexp_ovfl</a></div><div class="ttdeci">static const uint32_t cexp_ovfl</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df3/cexpf_8c_source.html#l00032">cexpf.c:32</a></div></div>
 <div class="ttc" id="acexpf_8c_html_ae682db936eb01259b5e0037f3e2a6ec6"><div class="ttname"><a href="../../d2/df3/cexpf_8c.html#ae682db936eb01259b5e0037f3e2a6ec6">exp_ovfl</a></div><div class="ttdeci">static const uint32_t exp_ovfl</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/df3/cexpf_8c_source.html#l00031">cexpf.c:31</a></div></div>
 <div class="ttc" id="acomplex_8h_html_a61855cb5a4ec0a59dc95bb4d0970f010"><div class="ttname"><a href="../../d7/d3b/complex_8h.html#a61855cb5a4ec0a59dc95bb4d0970f010">crealf</a></div><div class="ttdeci">#define crealf(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d3b/complex_8h_source.html#l00109">complex.h:109</a></div></div>
@@ -206,7 +206,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> cexp_ovfl = 0x43400074</td>
+          <td class="memname">const <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> cexp_ovfl = 0x43400074</td>
         </tr>
       </table>
   </td>
@@ -232,7 +232,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> exp_ovfl = 0x42b17218</td>
+          <td class="memname">const <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> exp_ovfl = 0x42b17218</td>
         </tr>
       </table>
   </td>

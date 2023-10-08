@@ -15,7 +15,6 @@ var namespaceCrashHandler =
     [ "Handle", "d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c", null ],
     [ "Handle_x86_32", "d2/d57/namespaceCrashHandler.html#aee81185fb27c34d7d27cc28bbc548bed", null ],
     [ "Handle_x86_64", "d2/d57/namespaceCrashHandler.html#a3ef5c12654cb19ad292508b2a3fc0164", null ],
-    [ "HookKeyboard", "d2/d57/namespaceCrashHandler.html#a44a7c3a43138b84c0cb127e69d89d682", null ],
     [ "Print_x86_32", "d2/d57/namespaceCrashHandler.html#a3a98d51da7c844cfa572dd830575b530", null ],
     [ "Print_x86_64", "d2/d57/namespaceCrashHandler.html#adb89ae8f3f18b535f1dc5553c26b15be", null ],
     [ "printfWrapper", "d2/d57/namespaceCrashHandler.html#a92454254915b44c54a833c90da54cbf3", null ],
@@ -27,6 +26,7 @@ var namespaceCrashHandler =
     [ "crashdata", "d2/d57/namespaceCrashHandler.html#a12b3cdf72278dca522058fa300b3832b", null ],
     [ "EHIntFrames", "d2/d57/namespaceCrashHandler.html#a16c7b17cef8564d1a27df12f36f25f88", null ],
     [ "ExceptionOccurred", "d2/d57/namespaceCrashHandler.html#a726f6c34e138d63f5aaadd5dac81a42a", null ],
+    [ "kbd", "d2/d57/namespaceCrashHandler.html#a18b1cbd4d7defce7c50e7d38d2eb29b2", null ],
     [ "PageFaultAddress", "d2/d57/namespaceCrashHandler.html#aee307b4511d76c583b1c64d952d842ec", null ],
     [ "SBIdx", "d2/d57/namespaceCrashHandler.html#ad35e9ac2e303d57f06208a9b5c889ac5", null ],
     [ "UserInputBuffer", "d2/d57/namespaceCrashHandler.html#a5d68a69326e7908216d107aef0e3dd24", null ]

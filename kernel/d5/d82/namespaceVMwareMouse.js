@@ -1,10 +1,10 @@
 var namespaceVMwareMouse =
 [
     [ "VMwareCommand", "d5/d82/namespaceVMwareMouse.html#d0/d89/structVMwareMouse_1_1VMwareCommand", "d5/d82/namespaceVMwareMouse_d0/d89/structVMwareMouse_1_1VMwareCommand_dup" ],
-    [ "VMwareCommand.__unnamed843__", "d5/d82/namespaceVMwareMouse.html#d9/dc6/unionVMwareMouse_1_1VMwareCommand_8____unnamed843____", "d5/d82/namespaceVMwareMouse_d9/dc6/unionVMwareMouse_1_1VMwareCommand_8____unnamed843_____dup" ],
-    [ "VMwareCommand.__unnamed845__", "d5/d82/namespaceVMwareMouse.html#dd/d76/unionVMwareMouse_1_1VMwareCommand_8____unnamed845____", "d5/d82/namespaceVMwareMouse_dd/d76/unionVMwareMouse_1_1VMwareCommand_8____unnamed845_____dup" ],
-    [ "VMwareCommand.__unnamed847__", "d5/d82/namespaceVMwareMouse.html#d8/d88/unionVMwareMouse_1_1VMwareCommand_8____unnamed847____", "d5/d82/namespaceVMwareMouse_d8/d88/unionVMwareMouse_1_1VMwareCommand_8____unnamed847_____dup" ],
-    [ "VMwareCommand.__unnamed849__", "d5/d82/namespaceVMwareMouse.html#d0/de8/unionVMwareMouse_1_1VMwareCommand_8____unnamed849____", "d5/d82/namespaceVMwareMouse_d0/de8/unionVMwareMouse_1_1VMwareCommand_8____unnamed849_____dup" ],
+    [ "VMwareCommand.__unnamed844__", "d5/d82/namespaceVMwareMouse.html#d9/d13/unionVMwareMouse_1_1VMwareCommand_8____unnamed844____", "d5/d82/namespaceVMwareMouse_d9/d13/unionVMwareMouse_1_1VMwareCommand_8____unnamed844_____dup" ],
+    [ "VMwareCommand.__unnamed846__", "d5/d82/namespaceVMwareMouse.html#db/d89/unionVMwareMouse_1_1VMwareCommand_8____unnamed846____", "d5/d82/namespaceVMwareMouse_db/d89/unionVMwareMouse_1_1VMwareCommand_8____unnamed846_____dup" ],
+    [ "VMwareCommand.__unnamed848__", "d5/d82/namespaceVMwareMouse.html#d8/dec/unionVMwareMouse_1_1VMwareCommand_8____unnamed848____", "d5/d82/namespaceVMwareMouse_d8/dec/unionVMwareMouse_1_1VMwareCommand_8____unnamed848_____dup" ],
+    [ "VMwareCommand.__unnamed850__", "d5/d82/namespaceVMwareMouse.html#dc/da7/unionVMwareMouse_1_1VMwareCommand_8____unnamed850____", "d5/d82/namespaceVMwareMouse_dc/da7/unionVMwareMouse_1_1VMwareCommand_8____unnamed850_____dup" ],
     [ "Config", "d5/d82/namespaceVMwareMouse.html#a8f8e4afba5485602e5aea3830941cd51", [
       [ "READ_CONFIG", "d5/d82/namespaceVMwareMouse.html#a8f8e4afba5485602e5aea3830941cd51a49e8b4904cdc7000e69b55ce3bc5a2d4", null ],
       [ "WRITE_CONFIG", "d5/d82/namespaceVMwareMouse.html#a8f8e4afba5485602e5aea3830941cd51a346be4df25a90a72c225319f6ad1cd3f", null ]

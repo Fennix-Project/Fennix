@@ -1,7 +1,5 @@
 var NAVTREEINDEX109 =
 {
-"d5/d9e/r__segs_8c.html#a952dab1c68fceeb0edc1c87bf7575d7f":[6,0,1,0,2,0,0,0,151,37],
-"d5/d9e/r__segs_8c.html#a9d0838fb96f285bdb6e158db74568261":[6,0,1,0,2,0,0,0,151,31],
 "d5/d9e/r__segs_8c.html#a9e38f8b974c766cc37e4d87ffd88d949":[6,0,1,0,2,0,0,0,151,8],
 "d5/d9e/r__segs_8c.html#a9ee7b966107b08f74e6e5b516d670b5c":[6,0,1,0,2,0,0,0,151,0],
 "d5/d9e/r__segs_8c.html#a9f129d6f5bb9614d97417e633e970d19":[6,0,1,0,2,0,0,0,151,18],
@@ -249,5 +247,7 @@ var NAVTREEINDEX109 =
 "d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a0e63521a64cc8bc2b91d36a87d32c9f8":[6,0,1,3,0,0,0,8,4],
 "d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a11e925ada5a97c7bbb6b88de8ed543b4":[6,0,1,3,0,0,0,8,27],
 "d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a136c64ec2d1306de745e39d6aee362ca":[6,0,1,3,0,0,0,8,7],
-"d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a13ba0e7c4365813312eb4566907bce4f":[6,0,1,3,0,0,0,8,32]
+"d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a13ba0e7c4365813312eb4566907bce4f":[6,0,1,3,0,0,0,8,32],
+"d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a1614264a836d6a5642554775ef0134d0":[6,0,1,3,0,0,0,8,14],
+"d5/dac/musl_2arch_2aarch64_2bits_2signal_8h.html#a275020780cb70a8b0cba8db5accc5d19":[6,0,1,3,0,0,0,8,0]
 };

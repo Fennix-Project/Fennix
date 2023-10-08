@@ -16,8 +16,8 @@ var classInterProcessCommunication_1_1IPC =
     [ "Wait", "df/d7e/classInterProcessCommunication_1_1IPC.html#ad075ac6c9f6fa81605e9dddb2dd4dca6", null ],
     [ "Write", "df/d7e/classInterProcessCommunication_1_1IPC.html#a17349269150017538bd2c2a7818d45a3", null ],
     [ "Handles", "df/d7e/classInterProcessCommunication_1_1IPC.html#a87203006561c4dd54d6b7fed3ad63849", null ],
-    [ "IPCNode", "df/d7e/classInterProcessCommunication_1_1IPC.html#a2482eb0d991dffef95444c23635a824b", null ],
-    [ "mem", "df/d7e/classInterProcessCommunication_1_1IPC.html#acebf6a5d17fb1e5ae208ff2ba502000b", null ],
+    [ "IPCNode", "df/d7e/classInterProcessCommunication_1_1IPC.html#a26eafd14d2c7d7e27ab7455d5a19cc75", null ],
     [ "NextID", "df/d7e/classInterProcessCommunication_1_1IPC.html#aede6bcfc538a9cdf4fca26e92c34446b", null ],
-    [ "Process", "df/d7e/classInterProcessCommunication_1_1IPC.html#acd80c8cd89286a3982695ce3b4b47d23", null ]
+    [ "Process", "df/d7e/classInterProcessCommunication_1_1IPC.html#acd80c8cd89286a3982695ce3b4b47d23", null ],
+    [ "vma", "df/d7e/classInterProcessCommunication_1_1IPC.html#aca0dbb3fe2f9357d21710016ec825043", null ]
 ];

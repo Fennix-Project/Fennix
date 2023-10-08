@@ -184,15 +184,15 @@ Macros</h2></td></tr>
 <tr class="separator:a6628ba09e54c1c3f6594de0505012b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a903630c9a9341ff79b33bcdf3f133fb4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/platform_8h.html#a903630c9a9341ff79b33bcdf3f133fb4">move_to_unaligned64</a>(u64p,  v)</td></tr>
 <tr class="separator:a903630c9a9341ff79b33bcdf3f133fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7b4be2b8907d8d55845611217a1ec46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/platform_8h.html#af7b4be2b8907d8d55845611217a1ec46">get_unaligned_le32</a>(<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)&#160;&#160;&#160;({ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v; <a class="el" href="../../de/d03/platform_8h.html#a5b27ff781e21e412705167a70f5cc47a">move_from_unaligned32</a>(v, <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>); <a class="el" href="../../de/d03/platform_8h.html#a3154d0c2e8d9f1dd3410e9408cad21a2">SWAP_LE32</a>(v); })</td></tr>
+<tr class="memitem:af7b4be2b8907d8d55845611217a1ec46"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/platform_8h.html#af7b4be2b8907d8d55845611217a1ec46">get_unaligned_le32</a>(<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)&#160;&#160;&#160;({ <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v; <a class="el" href="../../de/d03/platform_8h.html#a5b27ff781e21e412705167a70f5cc47a">move_from_unaligned32</a>(v, <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>); <a class="el" href="../../de/d03/platform_8h.html#a3154d0c2e8d9f1dd3410e9408cad21a2">SWAP_LE32</a>(v); })</td></tr>
 <tr class="separator:af7b4be2b8907d8d55845611217a1ec46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaead800ad392978146c98bee1eb0b7ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/platform_8h.html#aaead800ad392978146c98bee1eb0b7ec">get_unaligned_be32</a>(<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)&#160;&#160;&#160;({ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v; <a class="el" href="../../de/d03/platform_8h.html#a5b27ff781e21e412705167a70f5cc47a">move_from_unaligned32</a>(v, <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>); <a class="el" href="../../de/d03/platform_8h.html#af96e69c1523be08022004cbdfe57a4cb">SWAP_BE32</a>(v); })</td></tr>
+<tr class="memitem:aaead800ad392978146c98bee1eb0b7ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/platform_8h.html#aaead800ad392978146c98bee1eb0b7ec">get_unaligned_be32</a>(<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)&#160;&#160;&#160;({ <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v; <a class="el" href="../../de/d03/platform_8h.html#a5b27ff781e21e412705167a70f5cc47a">move_from_unaligned32</a>(v, <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>); <a class="el" href="../../de/d03/platform_8h.html#af96e69c1523be08022004cbdfe57a4cb">SWAP_BE32</a>(v); })</td></tr>
 <tr class="separator:aaead800ad392978146c98bee1eb0b7ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0d54f26c6f2560a1351785b49848f70"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/platform_8h.html#ac0d54f26c6f2560a1351785b49848f70">put_unaligned_le32</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>,  <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)&#160;&#160;&#160;<a class="el" href="../../de/d03/platform_8h.html#a6628ba09e54c1c3f6594de0505012b8d">move_to_unaligned32</a>(<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../de/d03/platform_8h.html#a3154d0c2e8d9f1dd3410e9408cad21a2">SWAP_LE32</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>))</td></tr>
 <tr class="separator:ac0d54f26c6f2560a1351785b49848f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac463505af41ed81c1d16d20b21bd1cf2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/platform_8h.html#ac463505af41ed81c1d16d20b21bd1cf2">put_unaligned_be32</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>,  <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>)&#160;&#160;&#160;<a class="el" href="../../de/d03/platform_8h.html#a6628ba09e54c1c3f6594de0505012b8d">move_to_unaligned32</a>(<a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>, <a class="el" href="../../de/d03/platform_8h.html#af96e69c1523be08022004cbdfe57a4cb">SWAP_BE32</a>(<a class="el" href="../../db/dd4/sm__loop_8c.html#acb906433e1289aa1c251dc5057746a88">val</a>))</td></tr>
 <tr class="separator:ac463505af41ed81c1d16d20b21bd1cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7889c3d341ca16ccba34b50cc386708"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/platform_8h.html#af7889c3d341ca16ccba34b50cc386708">get_le32</a>(u32p)&#160;&#160;&#160;({ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v = *(bb__aliased_uint32_t*)(u32p); <a class="el" href="../../de/d03/platform_8h.html#a3154d0c2e8d9f1dd3410e9408cad21a2">SWAP_LE32</a>(v); })</td></tr>
+<tr class="memitem:af7889c3d341ca16ccba34b50cc386708"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/platform_8h.html#af7889c3d341ca16ccba34b50cc386708">get_le32</a>(u32p)&#160;&#160;&#160;({ <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v = *(bb__aliased_uint32_t*)(u32p); <a class="el" href="../../de/d03/platform_8h.html#a3154d0c2e8d9f1dd3410e9408cad21a2">SWAP_LE32</a>(v); })</td></tr>
 <tr class="separator:af7889c3d341ca16ccba34b50cc386708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af822dffedd37bfba44c2c0c8662723ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d03/platform_8h.html#af822dffedd37bfba44c2c0c8662723ad">KERNEL_VERSION</a>(a,  b,  <a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>)&#160;&#160;&#160;(((a) &lt;&lt; 16) + ((b) &lt;&lt; 8) + (<a class="el" href="../../d8/d64/glob__loop_8c.html#a2019d0836036f2693a231fe5c7c65e20">c</a>))</td></tr>
 <tr class="separator:af822dffedd37bfba44c2c0c8662723ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -699,7 +699,7 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> bb__aliased_uint64_t <a class="el" href="../../d8/d83/get__header__tar_8c.html#af230a4e6036a0e13213958c0ad0632fe">FIX_ALIASING</a></td>
+          <td class="memname">typedef <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> bb__aliased_uint64_t <a class="el" href="../../d8/d83/get__header__tar_8c.html#af230a4e6036a0e13213958c0ad0632fe">FIX_ALIASING</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -721,7 +721,7 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">u32p</td><td>)</td>
-          <td>&#160;&#160;&#160;({ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v = *(bb__aliased_uint32_t*)(u32p); <a class="el" href="../../de/d03/platform_8h.html#a3154d0c2e8d9f1dd3410e9408cad21a2">SWAP_LE32</a>(v); })</td>
+          <td>&#160;&#160;&#160;({ <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v = *(bb__aliased_uint32_t*)(u32p); <a class="el" href="../../de/d03/platform_8h.html#a3154d0c2e8d9f1dd3410e9408cad21a2">SWAP_LE32</a>(v); })</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -741,7 +741,7 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a></td><td>)</td>
-          <td>&#160;&#160;&#160;({ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v; <a class="el" href="../../de/d03/platform_8h.html#a5b27ff781e21e412705167a70f5cc47a">move_from_unaligned32</a>(v, <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>); <a class="el" href="../../de/d03/platform_8h.html#af96e69c1523be08022004cbdfe57a4cb">SWAP_BE32</a>(v); })</td>
+          <td>&#160;&#160;&#160;({ <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v; <a class="el" href="../../de/d03/platform_8h.html#a5b27ff781e21e412705167a70f5cc47a">move_from_unaligned32</a>(v, <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>); <a class="el" href="../../de/d03/platform_8h.html#af96e69c1523be08022004cbdfe57a4cb">SWAP_BE32</a>(v); })</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -761,7 +761,7 @@ Typedefs</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a></td><td>)</td>
-          <td>&#160;&#160;&#160;({ <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v; <a class="el" href="../../de/d03/platform_8h.html#a5b27ff781e21e412705167a70f5cc47a">move_from_unaligned32</a>(v, <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>); <a class="el" href="../../de/d03/platform_8h.html#a3154d0c2e8d9f1dd3410e9408cad21a2">SWAP_LE32</a>(v); })</td>
+          <td>&#160;&#160;&#160;({ <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> v; <a class="el" href="../../de/d03/platform_8h.html#a5b27ff781e21e412705167a70f5cc47a">move_from_unaligned32</a>(v, <a class="el" href="../../db/d16/stdout_8c.html#ae55dcb4c1b5d453b604861dc603ee9bf">buf</a>); <a class="el" href="../../de/d03/platform_8h.html#a3154d0c2e8d9f1dd3410e9408cad21a2">SWAP_LE32</a>(v); })</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1966,7 +1966,7 @@ Typedefs</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> bb__aliased_uint64_t <a class="el" href="../../d8/d83/get__header__tar_8c.html#af230a4e6036a0e13213958c0ad0632fe">FIX_ALIASING</a></td>
+          <td class="memname">typedef <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> bb__aliased_uint64_t <a class="el" href="../../d8/d83/get__header__tar_8c.html#af230a4e6036a0e13213958c0ad0632fe">FIX_ALIASING</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

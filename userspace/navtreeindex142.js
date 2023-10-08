@@ -1,7 +1,5 @@
 var NAVTREEINDEX142 =
 {
-"d7/d23/unionwait_8h.html#a8f6a01e834437f29d48f3db263d7b51a":[6,0,1,0,0,0,3,21,2,0],
-"d7/d23/unionwait_8h.html#acf7db74d249efc70e36c999def67f51d":[6,0,1,0,0,0,3,21,0,1],
 "d7/d23/unionwait_8h.html#ae0c8840076dd63d5e2367fff4f7f46f3":[6,0,1,0,0,0,3,21,8],
 "d7/d23/unionwait_8h.html#ae2b610235f988f4f3109f02a2f395727":[6,0,1,0,0,0,3,21,12],
 "d7/d23/unionwait_8h.html#aeba4d421572a9d681c73c347f24ad348":[6,0,1,0,0,0,3,21,15],
@@ -249,5 +247,7 @@ var NAVTREEINDEX142 =
 "d7/d2e/telnet_8h.html#ab7b2a4f07226d31a643aaa4b377725f2":[6,0,1,3,3,0,4,136],
 "d7/d2e/telnet_8h.html#ab8e852802e58f163b413e6dd415d882b":[6,0,1,3,3,0,4,32],
 "d7/d2e/telnet_8h.html#aba2b187200eec47c5fc32655e296783d":[6,0,1,3,3,0,4,62],
-"d7/d2e/telnet_8h.html#abaefb4e15764588308d33b0ff0c31761":[6,0,1,3,3,0,4,106]
+"d7/d2e/telnet_8h.html#abaefb4e15764588308d33b0ff0c31761":[6,0,1,3,3,0,4,106],
+"d7/d2e/telnet_8h.html#abba32e7d2c29a000419c747270df64e2":[6,0,1,3,3,0,4,89],
+"d7/d2e/telnet_8h.html#abe022c8f09db1f0680a92293523f25dd":[6,0,1,3,3,0,4,18]
 };

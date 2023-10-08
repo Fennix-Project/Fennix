@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('d5/ddd/tcgetwinsize_8c.html','../../')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2ea0bb2a4f0a93790ff9d1017d323c3f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddd/tcgetwinsize_8c.html#a2ea0bb2a4f0a93790ff9d1017d323c3f">tcgetwinsize</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, struct winsize *wsz)</td></tr>
+<tr class="memitem:a2ea0bb2a4f0a93790ff9d1017d323c3f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/ddd/tcgetwinsize_8c.html#a2ea0bb2a4f0a93790ff9d1017d323c3f">tcgetwinsize</a> (int <a class="el" href="../../d3/d46/textbox_8c.html#a6f8059414f0228f0256115e024eeed4b">fd</a>, struct <a class="el" href="../../d9/df4/ioctl_8hpp.html#da/d40/structwinsize">winsize</a> *wsz)</td></tr>
 <tr class="separator:a2ea0bb2a4f0a93790ff9d1017d323c3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -118,7 +118,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">struct winsize *&#160;</td>
+          <td class="paramtype">struct <a class="el" href="../../d9/df4/ioctl_8hpp.html#da/d40/structwinsize">winsize</a> *&#160;</td>
           <td class="paramname"><em>wsz</em>&#160;</td>
         </tr>
         <tr>
@@ -131,10 +131,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/ddd/tcgetwinsize_8c_source.html#l00005">5</a> of file <a class="el" href="../../d5/ddd/tcgetwinsize_8c_source.html">tcgetwinsize.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_ioctl, <a class="code" href="../../d2/db3/hdparm_8c.html#aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#a36ef545c47ae4202e81e14efafdd64db">TIOCGWINSZ</a>, wsz);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_ioctl, <a class="code" href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a>, <a class="code" href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#a36ef545c47ae4202e81e14efafdd64db">TIOCGWINSZ</a>, wsz);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
 <div class="ttc" id="aKernel_2include__std_2stropts_8h_html_a36ef545c47ae4202e81e14efafdd64db"><div class="ttname"><a href="../../d4/d78/Kernel_2include__std_2stropts_8h.html#a36ef545c47ae4202e81e14efafdd64db">TIOCGWINSZ</a></div><div class="ttdeci">#define TIOCGWINSZ</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d78/Kernel_2include__std_2stropts_8h_source.html#l00071">stropts.h:71</a></div></div>
-<div class="ttc" id="ahdparm_8c_html_aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>, and <a class="el" href="../../d4/d78/Kernel_2include__std_2stropts_8h_source.html#l00071">TIOCGWINSZ</a>.</p>

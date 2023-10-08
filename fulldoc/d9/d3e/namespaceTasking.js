@@ -58,16 +58,18 @@ var namespaceTasking =
       [ "_PriorityMin", "d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8acdc962c500581fd12465adfc8ccb9c50", null ],
       [ "_PriorityMax", "d9/d3e/namespaceTasking.html#a6e7b9a12601b9ef62ca79d6b801c29c8a80342285a95513c6ed17b15880e1b3b6", null ]
     ] ],
-    [ "TaskStatus", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634e", [
-      [ "UnknownStatus", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634eae4434abf01289f805a0123cb3c674588", null ],
-      [ "Ready", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ead63d08060d63334012f68b23d130f56e", null ],
-      [ "Running", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ea04712359124153cb2d93d8f09cabe8ed", null ],
-      [ "Sleeping", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ea04b9cd09b1c1946e6dd37f79903067fd", null ],
-      [ "Blocked", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634eafe2e4038377625035a20f5f4e5496219", null ],
-      [ "Zombie", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ea18dbf84b8bdb31f7955be3eef42610fc", null ],
-      [ "Terminated", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ea773f96280709f0b4ee36122b01357f51", null ],
-      [ "_StatusMin", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ea2547ba923c87a848418e8c90331a5593", null ],
-      [ "_StatusMax", "d9/d3e/namespaceTasking.html#a79258701bd80de033c1f0ef25965634ea122d9cb11d78b0a8a082332d7ec18f98", null ]
+    [ "TaskState", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74", [
+      [ "UnknownStatus", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74ae4434abf01289f805a0123cb3c674588", null ],
+      [ "Ready", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74ad63d08060d63334012f68b23d130f56e", null ],
+      [ "Running", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a04712359124153cb2d93d8f09cabe8ed", null ],
+      [ "Sleeping", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a04b9cd09b1c1946e6dd37f79903067fd", null ],
+      [ "Blocked", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74afe2e4038377625035a20f5f4e5496219", null ],
+      [ "Stopped", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a8922799a2dec53328f38596177889efd", null ],
+      [ "Waiting", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74af0c3719b73450e078a5c5c2d05cd5b83", null ],
+      [ "Zombie", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a18dbf84b8bdb31f7955be3eef42610fc", null ],
+      [ "Terminated", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a773f96280709f0b4ee36122b01357f51", null ],
+      [ "_StatusMin", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a2547ba923c87a848418e8c90331a5593", null ],
+      [ "_StatusMax", "d9/d3e/namespaceTasking.html#abbba64463e2df2b5f909cc6fe9cfbd74a122d9cb11d78b0a8a082332d7ec18f98", null ]
     ] ],
     [ "__no_sanitize", "d9/d3e/namespaceTasking.html#a591d6f9b922ab5cc821cc805f77e8ad0", null ]
 ];

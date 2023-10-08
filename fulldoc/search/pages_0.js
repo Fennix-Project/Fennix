@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['core_20components_96179',['Core components',['../df/dd8/md_Kernel_Core_README.html',1,'']]]
+  ['credits_20and_20references_96587',['Credits and References',['../d9/d3f/md_Kernel_CREDITS.html',1,'']]]
 ];

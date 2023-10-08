@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/Modules/VMware/mouse.hpp Source File</title>
+<title>Fennix: Kernel/modules/VMware/mouse.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,27 +90,27 @@ $(document).ready(function(){initNavTree('d4/d2c/VMware_2mouse_8hpp_source.html'
 </div><!--header-->
 <div class="contents">
 <a href="../../d4/d2c/VMware_2mouse_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef __FENNIX_KERNEL_VMWARE_MOUSE_H__</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define __FENNIX_KERNEL_VMWARE_MOUSE_H__</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;types.h&gt;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;../../DAPI.hpp&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;../../mapi.hpp&quot;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d5/d82/namespaceVMwareMouse.html">VMwareMouse</a></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
@@ -130,46 +130,46 @@ $(document).ready(function(){initNavTree('d4/d2c/VMware_2mouse_8hpp_source.html'
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
 <div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d5/d82/namespaceVMwareMouse.html">   40</a></span>&#160;        <span class="keyword">union</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ax;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> magic;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ax;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> magic;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        };</div>
 <div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="../../d5/d82/namespaceVMwareMouse.html">   45</a></span>&#160;        <span class="keyword">union</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> bx;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> bx;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordtype">size_t</span> <a class="code" href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        };</div>
 <div class="line"><a name="l00050"></a><span class="lineno"><a class="line" href="../../d5/d82/namespaceVMwareMouse.html">   50</a></span>&#160;        <span class="keyword">union</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> cx;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> cx;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d6/d90/hush_8c.html#dc/d76/structcommand">command</a>;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        };</div>
 <div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d5/d82/namespaceVMwareMouse.html">   55</a></span>&#160;        <span class="keyword">union</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> dx;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> dx;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d1/d4c/traceroute_8c.html#a2ed8e46b717479f8e2ef47a52d28d9ca">port</a>;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        };</div>
-<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="../../d5/d82/namespaceVMwareMouse.html#a5a50398c90e596d4be693bc7ca90700c">   60</a></span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d5/d82/namespaceVMwareMouse.html#a5a50398c90e596d4be693bc7ca90700c">si</a>;</div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d5/d82/namespaceVMwareMouse.html#a76fbae6c5a6f698da3d7586ab7fa1d58">   61</a></span>&#160;        <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d5/d82/namespaceVMwareMouse.html#a76fbae6c5a6f698da3d7586ab7fa1d58">di</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno"><a class="line" href="../../d5/d82/namespaceVMwareMouse.html#a5a50398c90e596d4be693bc7ca90700c">   60</a></span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d5/d82/namespaceVMwareMouse.html#a5a50398c90e596d4be693bc7ca90700c">si</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../d5/d82/namespaceVMwareMouse.html#a76fbae6c5a6f698da3d7586ab7fa1d58">   61</a></span>&#160;        <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d5/d82/namespaceVMwareMouse.html#a76fbae6c5a6f698da3d7586ab7fa1d58">di</a>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    } <a class="code" href="../../d5/d82/namespaceVMwareMouse.html#d0/d89/structVMwareMouse_1_1VMwareCommand">VMwareCommand</a>;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/d82/namespaceVMwareMouse.html#aa8ada76466e559957f60738d37f04841">DriverEntry</a>(<span class="keywordtype">void</span> *);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/d82/namespaceVMwareMouse.html#a5b15f5cceb16a6dcc1538bdd0749d8e5">CallbackHandler</a>(<a class="code" href="../../d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/d82/namespaceVMwareMouse.html#ac155b5664554b21b0bc2b37c60814399">InterruptCallback</a>(<a class="code" href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/d82/namespaceVMwareMouse.html#a5b15f5cceb16a6dcc1538bdd0749d8e5">CallbackHandler</a>(<a class="code" href="../../d7/d11/mapi_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/d82/namespaceVMwareMouse.html#ac155b5664554b21b0bc2b37c60814399">InterruptCallback</a>(<a class="code" href="../../d7/d11/mapi_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160; </div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_VMWARE_MOUSE_H__</span></div>
-<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
-<div class="ttc" id="aDAPI_8hpp_html_d4/dc4/unionKernelCallback"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00229">DAPI.hpp:230</a></div></div>
-<div class="ttc" id="aDAPI_8hpp_html_da/db4/unionCPURegisters"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00403">DAPI.hpp:404</a></div></div>
 <div class="ttc" id="aKernel_2include_2types_8h_html_a5debae8b2a1ec20a6694c0c443ee399e"><div class="ttname"><a href="../../d0/df4/Kernel_2include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a></div><div class="ttdeci">__UINT16_TYPE__ uint16_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df4/Kernel_2include_2types_8h_source.html#l00161">types.h:161</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
 <div class="ttc" id="ahush_8c_html_dc/d76/structcommand"><div class="ttname"><a href="../../d6/d90/hush_8c.html#dc/d76/structcommand">command</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d09/command_8h_source.html#l00197">command.h:197</a></div></div>
+<div class="ttc" id="amapi_8hpp_html_d4/dc4/unionKernelCallback"><div class="ttname"><a href="../../d7/d11/mapi_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d11/mapi_8hpp_source.html#l00229">mapi.hpp:230</a></div></div>
+<div class="ttc" id="amapi_8hpp_html_da/db4/unionCPURegisters"><div class="ttname"><a href="../../d7/d11/mapi_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d11/mapi_8hpp_source.html#l00403">mapi.hpp:404</a></div></div>
 <div class="ttc" id="amultiboot_8h_html_a6d813a0f2b5281b18dea3f4cda696c33"><div class="ttname"><a href="../../d1/dc0/multiboot_8h.html#a6d813a0f2b5281b18dea3f4cda696c33">size</a></div><div class="ttdeci">multiboot_uint32_t size</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dc0/multiboot_8h_source.html#l00000">multiboot.h:0</a></div></div>
-<div class="ttc" id="anamespaceVMwareMouse_html"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html">VMwareMouse</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00012">Mouse.cpp:13</a></div></div>
+<div class="ttc" id="anamespaceVMwareMouse_html"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html">VMwareMouse</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00029">Mouse.cpp:30</a></div></div>
 <div class="ttc" id="anamespaceVMwareMouse_html_a5a50398c90e596d4be693bc7ca90700c"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html#a5a50398c90e596d4be693bc7ca90700c">VMwareMouse::VMwareCommand::si</a></div><div class="ttdeci">uint32_t si</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/VMware_2mouse_8hpp_source.html#l00060">mouse.hpp:60</a></div></div>
-<div class="ttc" id="anamespaceVMwareMouse_html_a5b15f5cceb16a6dcc1538bdd0749d8e5"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html#a5b15f5cceb16a6dcc1538bdd0749d8e5">VMwareMouse::CallbackHandler</a></div><div class="ttdeci">int CallbackHandler(KernelCallback *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00135">Mouse.cpp:135</a></div></div>
+<div class="ttc" id="anamespaceVMwareMouse_html_a5b15f5cceb16a6dcc1538bdd0749d8e5"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html#a5b15f5cceb16a6dcc1538bdd0749d8e5">VMwareMouse::CallbackHandler</a></div><div class="ttdeci">int CallbackHandler(KernelCallback *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00152">Mouse.cpp:152</a></div></div>
 <div class="ttc" id="anamespaceVMwareMouse_html_a76fbae6c5a6f698da3d7586ab7fa1d58"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html#a76fbae6c5a6f698da3d7586ab7fa1d58">VMwareMouse::VMwareCommand::di</a></div><div class="ttdeci">uint32_t di</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/VMware_2mouse_8hpp_source.html#l00061">mouse.hpp:61</a></div></div>
-<div class="ttc" id="anamespaceVMwareMouse_html_aa8ada76466e559957f60738d37f04841"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html#aa8ada76466e559957f60738d37f04841">VMwareMouse::DriverEntry</a></div><div class="ttdeci">int DriverEntry(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00035">Mouse.cpp:35</a></div></div>
-<div class="ttc" id="anamespaceVMwareMouse_html_ac155b5664554b21b0bc2b37c60814399"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html#ac155b5664554b21b0bc2b37c60814399">VMwareMouse::InterruptCallback</a></div><div class="ttdeci">int InterruptCallback(CPURegisters *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00211">Mouse.cpp:211</a></div></div>
+<div class="ttc" id="anamespaceVMwareMouse_html_aa8ada76466e559957f60738d37f04841"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html#aa8ada76466e559957f60738d37f04841">VMwareMouse::DriverEntry</a></div><div class="ttdeci">int DriverEntry(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00052">Mouse.cpp:52</a></div></div>
+<div class="ttc" id="anamespaceVMwareMouse_html_ac155b5664554b21b0bc2b37c60814399"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html#ac155b5664554b21b0bc2b37c60814399">VMwareMouse::InterruptCallback</a></div><div class="ttdeci">int InterruptCallback(CPURegisters *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d6b/VMware_2Mouse_8cpp_source.html#l00228">Mouse.cpp:228</a></div></div>
 <div class="ttc" id="anamespaceVMwareMouse_html_d0/d89/structVMwareMouse_1_1VMwareCommand"><div class="ttname"><a href="../../d5/d82/namespaceVMwareMouse.html#d0/d89/structVMwareMouse_1_1VMwareCommand">VMwareMouse::VMwareCommand</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d2c/VMware_2mouse_8hpp_source.html#l00038">mouse.hpp:39</a></div></div>
 <div class="ttc" id="atraceroute_8c_html_a2ed8e46b717479f8e2ef47a52d28d9ca"><div class="ttname"><a href="../../d1/d4c/traceroute_8c.html#a2ed8e46b717479f8e2ef47a52d28d9ca">port</a></div><div class="ttdeci">#define port</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4c/traceroute_8c_source.html#l00429">traceroute.c:429</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('d4/d2c/VMware_2mouse_8hpp_source.html'
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_559278b07106fc62284400afdb4b1bd1.html">Modules</a></li><li class="navelem"><a class="el" href="../../dir_f068a5f81eb142e0e5b0a21968d26e9d.html">VMware</a></li><li class="navelem"><a class="el" href="../../d4/d2c/VMware_2mouse_8hpp.html">mouse.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_6bd7ae448e999fc4806673008d3d7608.html">modules</a></li><li class="navelem"><a class="el" href="../../dir_556c0b4534eef5fbc498cf658cdef6cc.html">VMware</a></li><li class="navelem"><a class="el" href="../../d4/d2c/VMware_2mouse_8hpp.html">mouse.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

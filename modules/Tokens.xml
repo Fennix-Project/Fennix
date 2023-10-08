@@ -12,12 +12,12 @@
   </Token>
   <Token>
     <TokenIdentifier>
-      <Name>DriverEntry</Name>
+      <Name>ModuleEntry</Name>
       <APILanguage>c</APILanguage>
       <Type>func</Type>
     </TokenIdentifier>
     <Path>dc/db8/Example_8cpp.html</Path>
-    <Anchor>a56474bd9ccbe42a82994dd3415226f38</Anchor>
+    <Anchor>a31a5c902daa34b4d35f7e349a2d236c7</Anchor>
     <DeclaredIn>Example.cpp</DeclaredIn>
   </Token>
   <Token>
@@ -47,7 +47,7 @@
       <Type>func</Type>
     </TokenIdentifier>
     <Path>dc/db8/Example_8cpp.html</Path>
-    <Anchor>af24e7dbc50400c89dbb3827cc25545fc</Anchor>
+    <Anchor>a91afacc42a41e85e9622abf12c4ab2d8</Anchor>
     <DeclaredIn>Example.cpp</DeclaredIn>
   </Token>
   <Token>

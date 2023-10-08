@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/Library/std/errno.cpp Source File</title>
+<title>Fennix Kernel: Kernel/library/std/errno.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,20 +90,20 @@ $(document).ready(function(){initNavTree('d1/db0/errno_8cpp_source.html','../../
 </div><!--header-->
 <div class="contents">
 <a href="../../d1/db0/errno_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d8/dc2/errno_8h.html">errno.h</a>&gt;</span></div>
@@ -118,23 +118,23 @@ $(document).ready(function(){initNavTree('d1/db0/errno_8cpp_source.html','../../
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../d1/db0/errno_8cpp.html#af7421234b15b89062853a783279b7885">   28</a></span>&#160;<span class="keywordtype">int</span> *<a class="code" href="../../d1/db0/errno_8cpp.html#af7421234b15b89062853a783279b7885">__errno_location</a>(<span class="keywordtype">void</span>)</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(!<a class="code" href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a> || !<a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>))</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a>(!<a class="code" href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a> || !<a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>))</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">return</span> &amp;errno_value;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">return</span> &amp;<a class="code" href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a>-&gt;ErrorNumber;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;}</div>
-<div class="ttc" id="aKernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00220">Kernel.cpp:220</a></div></div>
 <div class="ttc" id="adebug_8h_html"><div class="ttname"><a href="../../db/d16/debug_8h.html">debug.h</a></div></div>
-<div class="ttc" id="aerrno_8cpp_html_af5ebebf795f406d6e218f01ce09dfaf4"><div class="ttname"><a href="../../d1/db0/errno_8cpp.html#af5ebebf795f406d6e218f01ce09dfaf4">__aligned</a></div><div class="ttdeci">__aligned(16) static int errno_value=0</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d9d/amd64_2SystemCalls_8cpp_source.html#l00032">SystemCalls.cpp:32</a></div></div>
+<div class="ttc" id="aerrno_8cpp_html_af5ebebf795f406d6e218f01ce09dfaf4"><div class="ttname"><a href="../../d1/db0/errno_8cpp.html#af5ebebf795f406d6e218f01ce09dfaf4">__aligned</a></div><div class="ttdeci">__aligned(16) static int errno_value=0</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/arch_2amd64_2syscalls_8cpp_source.html#l00032">syscalls.cpp:32</a></div></div>
 <div class="ttc" id="aerrno_8cpp_html_af7421234b15b89062853a783279b7885"><div class="ttname"><a href="../../d1/db0/errno_8cpp.html#af7421234b15b89062853a783279b7885">__errno_location</a></div><div class="ttdeci">int * __errno_location(void)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/db0/errno_8cpp_source.html#l00028">errno.cpp:28</a></div></div>
 <div class="ttc" id="aerrno_8h_html"><div class="ttname"><a href="../../d8/dc2/errno_8h.html">errno.h</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_ac6c45889010c1bd68631771b64f18101"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#ac6c45889010c1bd68631771b64f18101">unlikely</a></div><div class="ttdeci">#define unlikely(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00405">types.h:405</a></div></div>
-<div class="ttc" id="atask_8hpp_html_a1cf492bc489f4879fe6f67325e8f8dc7"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a></div><div class="ttdeci">#define thisThread</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00518">task.hpp:518</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_a5a8d7736911609823f0ff8f3c8f51df2"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a5a8d7736911609823f0ff8f3c8f51df2">TaskManager</a></div><div class="ttdeci">Tasking::Task * TaskManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00069">kernel.cpp:69</a></div></div>
+<div class="ttc" id="atask_8hpp_html_a1cf492bc489f4879fe6f67325e8f8dc7"><div class="ttname"><a href="../../d8/da1/task_8hpp.html#a1cf492bc489f4879fe6f67325e8f8dc7">thisThread</a></div><div class="ttdeci">#define thisThread</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da1/task_8hpp_source.html#l00619">task.hpp:619</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_bc57d2c181e5486d5586596c831c91e5.html">Library</a></li><li class="navelem"><a class="el" href="../../dir_e9823b04da4f6adc21ad4bdad0cef9c9.html">std</a></li><li class="navelem"><a class="el" href="../../d1/db0/errno_8cpp.html">errno.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_c6664ce460682d76427a930e401fa3ea.html">library</a></li><li class="navelem"><a class="el" href="../../dir_89c51c629960ff6e0e609eb5a2c08882.html">std</a></li><li class="navelem"><a class="el" href="../../d1/db0/errno_8cpp.html">errno.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

@@ -105,7 +105,7 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:af2549a085abac72c4e84e5e78d4fdd74"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5e/____cexp_8c.html#af2549a085abac72c4e84e5e78d4fdd74">k</a> = 1799</td></tr>
+<tr class="memitem:af2549a085abac72c4e84e5e78d4fdd74"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5e/____cexp_8c.html#af2549a085abac72c4e84e5e78d4fdd74">k</a> = 1799</td></tr>
 <tr class="separator:af2549a085abac72c4e84e5e78d4fdd74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74ffbf720324faddbe83b7bac05955ed"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d5e/____cexp_8c.html#a74ffbf720324faddbe83b7bac05955ed">kln2</a> = 1246.97177782734161156</td></tr>
 <tr class="separator:a74ffbf720324faddbe83b7bac05955ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,7 +148,7 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../da/d5e/____cexp_8c_source.html#l00040">40</a> of file <a class="el" href="../../da/d5e/____cexp_8c_source.html">__cexp.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">double</span> exp_x;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> hx;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> hx;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">/*</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">     * We use exp(x) = exp(x - kln2) * 2**k, carefully chosen to</span></div>
@@ -162,9 +162,9 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d9/ded/libm_8h.html#af0268238b4230e0e8d05b080697b2e37">SET_HIGH_WORD</a>(exp_x, (hx &amp; 0xfffff) | ((0x3ff + 1023) &lt;&lt; 20));</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">return</span> exp_x;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
 <div class="ttc" id="a____cexp_8c_html_a74ffbf720324faddbe83b7bac05955ed"><div class="ttname"><a href="../../da/d5e/____cexp_8c.html#a74ffbf720324faddbe83b7bac05955ed">kln2</a></div><div class="ttdeci">static const double kln2</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/____cexp_8c_source.html#l00031">__cexp.c:31</a></div></div>
 <div class="ttc" id="a____cexp_8c_html_af2549a085abac72c4e84e5e78d4fdd74"><div class="ttname"><a href="../../da/d5e/____cexp_8c.html#af2549a085abac72c4e84e5e78d4fdd74">k</a></div><div class="ttdeci">static const uint32_t k</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/____cexp_8c_source.html#l00030">__cexp.c:30</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
 <div class="ttc" id="alibm_8h_html_a28e217eb1bf68bac582e26a8fe15ba39"><div class="ttname"><a href="../../d9/ded/libm_8h.html#a28e217eb1bf68bac582e26a8fe15ba39">GET_HIGH_WORD</a></div><div class="ttdeci">#define GET_HIGH_WORD(hi, d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ded/libm_8h_source.html#l00202">libm.h:202</a></div></div>
 <div class="ttc" id="alibm_8h_html_af0268238b4230e0e8d05b080697b2e37"><div class="ttname"><a href="../../d9/ded/libm_8h.html#af0268238b4230e0e8d05b080697b2e37">SET_HIGH_WORD</a></div><div class="ttdeci">#define SET_HIGH_WORD(d, hi)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ded/libm_8h_source.html#l00217">libm.h:217</a></div></div>
 <div class="ttc" id="amusl_2src_2prng_2random_8c_html_aeb26462df30f47f6fd73ee802457812b"><div class="ttname"><a href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a></div><div class="ttdeci">static uint32_t * x</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da2/musl_2src_2prng_2random_8c_source.html#l00025">random.c:25</a></div></div>
@@ -249,7 +249,7 @@ Variables</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> k = 1799</td>
+          <td class="memname">const <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> k = 1799</td>
         </tr>
       </table>
   </td>

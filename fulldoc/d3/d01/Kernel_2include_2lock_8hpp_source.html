@@ -90,20 +90,20 @@ $(document).ready(function(){initNavTree('d3/d01/Kernel_2include_2lock_8hpp_sour
 </div><!--header-->
 <div class="contents">
 <a href="../../d3/d01/Kernel_2include_2lock_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef __FENNIX_KERNEL_LOCK_H__</span></div>
@@ -117,9 +117,9 @@ $(document).ready(function(){initNavTree('d3/d01/Kernel_2include_2lock_8hpp_sour
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#ifdef __cplusplus</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">/* Enabled ONLY on crash. */</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">bool</span> <a class="code" href="../../d5/d26/Kernel_2Core_2Lock_8cpp.html#ad451dcbadb40bd78b3bfcf21de647d72">ForceUnlock</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">extern</span> <span class="keywordtype">bool</span> <a class="code" href="../../de/d93/lock_8cpp.html#ad451dcbadb40bd78b3bfcf21de647d72">ForceUnlock</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">size_t</span> <a class="code" href="../../d5/d26/Kernel_2Core_2Lock_8cpp.html#ad4f0ebe3599170333d5fb9ab336e9054">GetLocksCount</a>();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">size_t</span> <a class="code" href="../../de/d93/lock_8cpp.html#ad4f0ebe3599170333d5fb9ab336e9054">GetLocksCount</a>();</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">class </span>LockClass</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('d3/d01/Kernel_2include_2lock_8hpp_sour
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    std::atomic_ulong DeadLocks = 0;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">void</span> DeadLock(SpinLockData &amp;<a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a>);</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> TimeoutDeadLock(SpinLockData &amp;<a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a>, <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Timeout);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> TimeoutDeadLock(SpinLockData &amp;<a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a>, <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Timeout);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> Yield();</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keyword">public</span>:</div>
@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('d3/d01/Kernel_2include_2lock_8hpp_sour
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *FunctionName);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">int</span> Unlock();</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">int</span> TimeoutLock(<span class="keyword">const</span> <span class="keywordtype">char</span> *FunctionName, <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Timeout);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">int</span> TimeoutLock(<span class="keyword">const</span> <span class="keywordtype">char</span> *FunctionName, <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Timeout);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;};</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160; </div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="keyword">class </span>SmartLockClass</div>
@@ -174,7 +174,7 @@ $(document).ready(function(){initNavTree('d3/d01/Kernel_2include_2lock_8hpp_sour
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    SmartTimeoutLockClass(LockClass &amp;<a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a>,</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                          <span class="keyword">const</span> <span class="keywordtype">char</span> *FunctionName,</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                          <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Timeout)</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                          <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a> Timeout)</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        this-&gt;LockPointer = &amp;<a class="code" href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a>;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        this-&gt;LockPointer-&gt;TimeoutLock(FunctionName, Timeout);</div>
@@ -256,13 +256,13 @@ $(document).ready(function(){initNavTree('d3/d01/Kernel_2include_2lock_8hpp_sour
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// __cplusplus</span></div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_LOCK_H__</span></div>
-<div class="ttc" id="aArithmeticOperations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00294">ArithmeticOperations.c:294</a></div></div>
-<div class="ttc" id="aKernel_2Core_2Lock_8cpp_html_ad451dcbadb40bd78b3bfcf21de647d72"><div class="ttname"><a href="../../d5/d26/Kernel_2Core_2Lock_8cpp.html#ad451dcbadb40bd78b3bfcf21de647d72">ForceUnlock</a></div><div class="ttdeci">bool ForceUnlock</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00097">Lock.cpp:97</a></div></div>
-<div class="ttc" id="aKernel_2Core_2Lock_8cpp_html_ad4f0ebe3599170333d5fb9ab336e9054"><div class="ttname"><a href="../../d5/d26/Kernel_2Core_2Lock_8cpp.html#ad4f0ebe3599170333d5fb9ab336e9054">GetLocksCount</a></div><div class="ttdeci">size_t GetLocksCount()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/Kernel_2Core_2Lock_8cpp_source.html#l00100">Lock.cpp:100</a></div></div>
 <div class="ttc" id="aUserspace_2musl_2include_2sys_2types_8h_html"><div class="ttname"><a href="../../d9/d90/Userspace_2musl_2include_2sys_2types_8h.html">types.h</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_aaa5d1cd013383c889537491c3cfd9aad"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#aaa5d1cd013383c889537491c3cfd9aad">uint64_t</a></div><div class="ttdeci">unsigned long long uint64_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00294">arithmetic_operations.c:294</a></div></div>
 <div class="ttc" id="acpu_8hpp_html"><div class="ttname"><a href="../../df/dbe/cpu_8hpp.html">cpu.hpp</a></div></div>
 <div class="ttc" id="ald_8c_html_a95b9ec9b558db4721392ca6a4dfeda1e"><div class="ttname"><a href="../../d8/dd5/ld_8c.html#a95b9ec9b558db4721392ca6a4dfeda1e">Lock</a></div><div class="ttdeci">static char Lock</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd5/ld_8c_source.html#l00044">ld.c:44</a></div></div>
-<div class="ttc" id="anamespaceCPU_html_a1cc036b2143b4358a3857bbef3921968"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a1cc036b2143b4358a3857bbef3921968">CPU::Interrupts</a></div><div class="ttdeci">bool Interrupts(InterruptsType Type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8d/CPU_8cpp_source.html#l00132">CPU.cpp:132</a></div></div>
+<div class="ttc" id="alock_8cpp_html_ad451dcbadb40bd78b3bfcf21de647d72"><div class="ttname"><a href="../../de/d93/lock_8cpp.html#ad451dcbadb40bd78b3bfcf21de647d72">ForceUnlock</a></div><div class="ttdeci">bool ForceUnlock</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d93/lock_8cpp_source.html#l00097">lock.cpp:97</a></div></div>
+<div class="ttc" id="alock_8cpp_html_ad4f0ebe3599170333d5fb9ab336e9054"><div class="ttname"><a href="../../de/d93/lock_8cpp.html#ad4f0ebe3599170333d5fb9ab336e9054">GetLocksCount</a></div><div class="ttdeci">size_t GetLocksCount()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d93/lock_8cpp_source.html#l00100">lock.cpp:100</a></div></div>
+<div class="ttc" id="anamespaceCPU_html_a1cc036b2143b4358a3857bbef3921968"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a1cc036b2143b4358a3857bbef3921968">CPU::Interrupts</a></div><div class="ttdeci">bool Interrupts(InterruptsType Type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfc/cpu_8cpp_source.html#l00152">cpu.cpp:152</a></div></div>
 <div class="ttc" id="anamespaceCPU_html_a8fcf1f2cabd7ed5b6d22e93765aaf178a2e45a41bd35e0fdd2a5f320d9dfde0db"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178a2e45a41bd35e0fdd2a5f320d9dfde0db">CPU::Check</a></div><div class="ttdeci">@ Check</div><div class="ttdoc">Check if interrupts are enabled.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00048">cpu.hpp:48</a></div></div>
 <div class="ttc" id="anamespaceCPU_html_a8fcf1f2cabd7ed5b6d22e93765aaf178ad9f455a07bfc57fc6a9a63100ba5ded4"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178ad9f455a07bfc57fc6a9a63100ba5ded4">CPU::Disable</a></div><div class="ttdeci">@ Disable</div><div class="ttdoc">Disable interrupts.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00057">cpu.hpp:56</a></div></div>
 <div class="ttc" id="anamespaceCPU_html_a8fcf1f2cabd7ed5b6d22e93765aaf178adb91be1ff77d40242e5c3ea53f344b05"><div class="ttname"><a href="../../d7/dfa/namespaceCPU.html#a8fcf1f2cabd7ed5b6d22e93765aaf178adb91be1ff77d40242e5c3ea53f344b05">CPU::Enable</a></div><div class="ttdeci">@ Enable</div><div class="ttdoc">Enable interrupts.</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dbe/cpu_8hpp_source.html#l00052">cpu.hpp:52</a></div></div>

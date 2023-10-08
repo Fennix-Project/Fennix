@@ -3,6 +3,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "boot", "dir_90ce214ac5ba1a80d8a05e56215a902a.html", "dir_90ce214ac5ba1a80d8a05e56215a902a" ],
     [ "cpu", "dir_a1d90b661877d34cc639acf3578e068f.html", "dir_a1d90b661877d34cc639acf3578e068f" ],
     [ "filesystem", "dir_89bacd5653b0e46fa5f67f78c87fadfb.html", "dir_89bacd5653b0e46fa5f67f78c87fadfb" ],
+    [ "memory", "dir_b6ab17d5ba3b9a8a18b47a4bc59982c5.html", "dir_b6ab17d5ba3b9a8a18b47a4bc59982c5" ],
     [ "net", "dir_7d037a37ac426a4d7d1a8da0a2cc4a25.html", "dir_7d037a37ac426a4d7d1a8da0a2cc4a25" ],
     [ "stb", "dir_7b88f14dc0898fb5d4ae87ce590f2a34.html", "dir_7b88f14dc0898fb5d4ae87ce590f2a34" ],
     [ "abi.h", "df/d31/abi_8h.html", "df/d31/abi_8h" ],
@@ -186,7 +187,6 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "debug.h", "db/d16/debug_8h.html", "db/d16/debug_8h" ],
     [ "disk.hpp", "d8/da3/disk_8hpp.html", "d8/da3/disk_8hpp" ],
     [ "display.hpp", "d2/da4/display_8hpp.html", "d2/da4/display_8hpp" ],
-    [ "driver.hpp", "d7/d7e/driver_8hpp.html", "d7/d7e/driver_8hpp" ],
     [ "dumper.hpp", "d5/dd9/dumper_8hpp.html", "d5/dd9/dumper_8hpp" ],
     [ "elf.h", "d4/dae/Kernel_2include_2elf_8h.html", "d4/dae/Kernel_2include_2elf_8h" ],
     [ "emmintrin.h", "d9/dae/emmintrin_8h.html", null ],
@@ -202,6 +202,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     [ "lock.hpp", "d3/d01/Kernel_2include_2lock_8hpp.html", null ],
     [ "md5.h", "da/db0/md5_8h.html", "da/db0/md5_8h" ],
     [ "memory.hpp", "d9/df8/Kernel_2include_2memory_8hpp.html", "d9/df8/Kernel_2include_2memory_8hpp" ],
+    [ "module.hpp", "de/def/module_8hpp.html", "de/def/module_8hpp" ],
     [ "msexec.h", "de/d63/msexec_8h.html", "de/d63/msexec_8h" ],
     [ "pci.hpp", "d9/dd5/pci_8hpp.html", "d9/dd5/pci_8hpp" ],
     [ "power.hpp", "db/dfa/power_8hpp.html", [
@@ -209,6 +210,7 @@ var dir_2c335c1ccbf6ef7c89cc08c9ed88be2e =
     ] ],
     [ "printf.h", "dc/df9/Kernel_2include_2printf_8h.html", "dc/df9/Kernel_2include_2printf_8h" ],
     [ "rand.hpp", "d4/d0b/rand_8hpp.html", "d4/d0b/rand_8hpp" ],
+    [ "signal.h", "d4/dc2/Kernel_2include_2signal_8h.html", "d4/dc2/Kernel_2include_2signal_8h" ],
     [ "smart_ptr.hpp", "d4/d8f/include_2smart__ptr_8hpp.html", null ],
     [ "smp.hpp", "d4/d33/smp_8hpp.html", "d4/d33/smp_8hpp" ],
     [ "symbols.hpp", "d7/d94/symbols_8hpp.html", [

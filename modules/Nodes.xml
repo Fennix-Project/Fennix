@@ -617,19 +617,19 @@
                     <Anchor>ae8a62c2ae90dae14e107d0d84d3c2143</Anchor>
                    </Node>
                    <Node>
-                    <Name>DriverEntry</Name>
-                    <Path>dc/db8/Example_8cpp.html</Path>
-                    <Anchor>a56474bd9ccbe42a82994dd3415226f38</Anchor>
-                   </Node>
-                   <Node>
                     <Name>HEAD</Name>
                     <Path>dc/db8/Example_8cpp.html</Path>
-                    <Anchor>af24e7dbc50400c89dbb3827cc25545fc</Anchor>
+                    <Anchor>a91afacc42a41e85e9622abf12c4ab2d8</Anchor>
                    </Node>
                    <Node>
                     <Name>InterruptCallback</Name>
                     <Path>dc/db8/Example_8cpp.html</Path>
                     <Anchor>a19e1c27c2f987931f74d5e5ef9ca9f72</Anchor>
+                   </Node>
+                   <Node>
+                    <Name>ModuleEntry</Name>
+                    <Path>dc/db8/Example_8cpp.html</Path>
+                    <Anchor>a31a5c902daa34b4d35f7e349a2d236c7</Anchor>
                    </Node>
                    <Node>
                     <Name>KAPI</Name>

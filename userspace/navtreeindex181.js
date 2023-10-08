@@ -1,7 +1,5 @@
 var NAVTREEINDEX181 =
 {
-"d9/d9e/musl_2arch_2mips_2bits_2signal_8h.html#aa86c630133e5b5174ac970227b273446":[6,0,1,3,0,6,0,17,1],
-"d9/d9e/musl_2arch_2mips_2bits_2signal_8h.html#ab12271d5e5911f8a85dc7c3f0e2364c7":[6,0,1,3,0,6,0,17,12],
 "d9/d9e/musl_2arch_2mips_2bits_2signal_8h.html#ab43f07f46430ee328387ac0ef274a974":[6,0,1,3,0,6,0,17,6],
 "d9/d9e/musl_2arch_2mips_2bits_2signal_8h.html#ab6bd2a2ff7e58d45965ef257f96dfe65":[6,0,1,3,0,6,0,17,16],
 "d9/d9e/musl_2arch_2mips_2bits_2signal_8h.html#abaaa61abe503c43481e35e21b0b5a031":[6,0,1,3,0,6,0,17,30],
@@ -249,5 +247,7 @@ var NAVTREEINDEX181 =
 "d9/da0/flags_8h.html#a0b08a553c06abf8f71096d51e6e0906f":[6,0,1,0,0,0,43,19],
 "d9/da0/flags_8h.html#a193cf389beaaa21326a2a8047fc5a7f6":[6,0,1,0,0,0,43,20],
 "d9/da0/flags_8h.html#a26bfe3e64eb563e1a9d9ddaca42d0c98":[6,0,1,0,0,0,43,1],
-"d9/da0/flags_8h.html#a28bf95cff4cdc03f5486eab4c67c9d1f":[6,0,1,0,0,0,43,18]
+"d9/da0/flags_8h.html#a28bf95cff4cdc03f5486eab4c67c9d1f":[6,0,1,0,0,0,43,18],
+"d9/da0/flags_8h.html#a34151dd8e29f979ca7dd323e77243a9f":[6,0,1,0,0,0,43,7],
+"d9/da0/flags_8h.html#a36e3c464caa116130903e13f2d777664":[6,0,1,0,0,0,43,0,0]
 };

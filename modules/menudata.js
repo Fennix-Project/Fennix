@@ -67,10 +67,10 @@ var menudata={children:[
 {text:"All",url:"globals.html",children:[
 {text:"_",url:"globals.html#index__5F"},
 {text:"c",url:"globals.html#index_c"},
-{text:"d",url:"globals.html#index_d"},
 {text:"h",url:"globals.html#index_h"},
 {text:"i",url:"globals.html#index_i"},
 {text:"k",url:"globals.html#index_k"},
+{text:"m",url:"globals.html#index_m"},
 {text:"p",url:"globals.html#index_p"},
 {text:"s",url:"globals.html#index_s"},
 {text:"u",url:"globals.html#index_u"}]},

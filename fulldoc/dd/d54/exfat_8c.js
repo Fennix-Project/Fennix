@@ -20,7 +20,7 @@ var exfat_8c =
     ] ],
     [ "exfat_dir_entry", "dd/d54/exfat_8c.html#dd/d4b/structexfat__dir__entry", [
       [ "entry_type", "dd/d54/exfat_8c.html#a3ee5a4fcf0414bee4588d145ea1f4450", null ],
-      [ "type", "dd/d54/exfat_8c.html#ac875dcae8c9108074fd4bfe6895fa7ca", null ]
+      [ "type", "dd/d54/exfat_8c.html#a7dafea1379454e41b38e17b04a82101f", null ]
     ] ],
     [ "exfat_dir_entry.type", "dd/d54/exfat_8c.html#d4/dad/unionexfat__dir__entry_8type", [
       [ "guid", "dd/d54/exfat_8c.html#a1e0ca5b1252f1f6b1e0ac91be7e7219e", null ],

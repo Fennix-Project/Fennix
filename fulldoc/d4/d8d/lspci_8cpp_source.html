@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/KernelShell/Commands/lspci.cpp Source File</title>
+<title>Fennix: Kernel/kshell/commands/lspci.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,20 +90,20 @@ $(document).ready(function(){initNavTree('d4/d8d/lspci_8cpp_source.html','../../
 </div><!--header-->
 <div class="contents">
 <a href="../../d4/d8d/lspci_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &quot;../cmds.hpp&quot;</span></div>
@@ -112,40 +112,38 @@ $(document).ready(function(){initNavTree('d4/d8d/lspci_8cpp_source.html','../../
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;../../kernel.h&quot;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../d5/da1/namespaceVirtualFileSystem.html">VirtualFileSystem</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">using namespace </span><a class="code" href="../../dc/dcb/namespacevfs.html">vfs</a>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../db/d47/cmds_8hpp.html#a17c4fad31f1ff04c15cd14dd2f4ec969">   26</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/d8d/lspci_8cpp.html#a501389b9698cb88cee6c5c55269542b8">cmd_lspci</a>(<span class="keyword">const</span> <span class="keywordtype">char</span> *)</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> Device <span class="keywordflow">in</span> <a class="code" href="../../d2/d00/Kernel_8cpp.html#a62ee06f14377e458cdb16171abe25b80">PCIManager</a>-&gt;<a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a370308e3fed82058668dd4ebb9b50148">GetDevices</a>())</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> Device <span class="keywordflow">in</span> <a class="code" href="../../dd/d24/kernel_8cpp.html#a62ee06f14377e458cdb16171abe25b80">PCIManager</a>-&gt;<a class="code" href="../../d8/d81/classPCI_1_1PCI.html#a95c7313658657cff669e4366e98827b3">GetDevices</a>())</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%02x:%02x.%d: %s:  %s  %s  %s\n&quot;</span>,</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;               <span class="comment">//    Device-&gt;Bus,</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;               <span class="comment">//    Device-&gt;Device,</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;               <span class="comment">//    Device-&gt;Function,</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;               <span class="comment">// FIXME</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;               0, 0, 0,</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;               <a class="code" href="../../d1/d62/namespacePCI_1_1Descriptors.html#abfaf24294b7be88d50a37fe72f187a4f">PCI::Descriptors::BridgeDeviceSubclassName</a>(Device-&gt;Subclass),</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;               <a class="code" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a2665b1be0ddd3419bb90e85f3555ba4d">PCI::Descriptors::GetVendorName</a>(Device-&gt;VendorID),</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;               <a class="code" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a63169537a007b4fdb2ac67c5bf62d2f3">PCI::Descriptors::GetDeviceName</a>(Device-&gt;VendorID, Device-&gt;DeviceID),</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;               <a class="code" href="../../d1/d62/namespacePCI_1_1Descriptors.html#ae78bfbe48f0259cf60bcd1ce1fc92fea">PCI::Descriptors::GetSubclassName</a>(Device-&gt;Class, Device-&gt;Subclass));</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
-<div class="ttc" id="aKernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
-<div class="ttc" id="aKernel_8cpp_html_a62ee06f14377e458cdb16171abe25b80"><div class="ttname"><a href="../../d2/d00/Kernel_8cpp.html#a62ee06f14377e458cdb16171abe25b80">PCIManager</a></div><div class="ttdeci">PCI::PCI * PCIManager</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d00/Kernel_8cpp_source.html#l00219">Kernel.cpp:219</a></div></div>
-<div class="ttc" id="aclassPCI_1_1PCI_html_a370308e3fed82058668dd4ebb9b50148"><div class="ttname"><a href="../../d8/d81/classPCI_1_1PCI.html#a370308e3fed82058668dd4ebb9b50148">PCI::PCI::GetDevices</a></div><div class="ttdeci">std::vector&lt; PCIDeviceHeader * &gt; &amp; GetDevices()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd5/pci_8hpp_source.html#l00229">pci.hpp:229</a></div></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%02x:%02x.%d: %s:  %s  %s\n&quot;</span>,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;               Device.Bus,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;               Device.Device,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;               Device.Function,</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;               <a class="code" href="../../d1/d62/namespacePCI_1_1Descriptors.html#ae78bfbe48f0259cf60bcd1ce1fc92fea">PCI::Descriptors::GetSubclassName</a>(Device.Header-&gt;Class,</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                                 Device.Header-&gt;Subclass),</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;               <a class="code" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a2665b1be0ddd3419bb90e85f3555ba4d">PCI::Descriptors::GetVendorName</a>(Device.Header-&gt;VendorID),</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;               <a class="code" href="../../d1/d62/namespacePCI_1_1Descriptors.html#a63169537a007b4fdb2ac67c5bf62d2f3">PCI::Descriptors::GetDeviceName</a>(Device.Header-&gt;VendorID,</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                               Device.Header-&gt;DeviceID));</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
+<div class="ttc" id="aclassPCI_1_1PCI_html_a95c7313658657cff669e4366e98827b3"><div class="ttname"><a href="../../d8/d81/classPCI_1_1PCI.html#a95c7313658657cff669e4366e98827b3">PCI::PCI::GetDevices</a></div><div class="ttdeci">std::vector&lt; PCIDevice &gt; &amp; GetDevices()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dd5/pci_8hpp_source.html#l00238">pci.hpp:238</a></div></div>
 <div class="ttc" id="afilesystem_8hpp_html"><div class="ttname"><a href="../../d1/d85/filesystem_8hpp.html">filesystem.hpp</a></div></div>
+<div class="ttc" id="akernel_8cpp_html_a62ee06f14377e458cdb16171abe25b80"><div class="ttname"><a href="../../dd/d24/kernel_8cpp.html#a62ee06f14377e458cdb16171abe25b80">PCIManager</a></div><div class="ttdeci">PCI::PCI * PCIManager</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d24/kernel_8cpp_source.html#l00063">kernel.cpp:63</a></div></div>
 <div class="ttc" id="alspci_8cpp_html_a501389b9698cb88cee6c5c55269542b8"><div class="ttname"><a href="../../d4/d8d/lspci_8cpp.html#a501389b9698cb88cee6c5c55269542b8">cmd_lspci</a></div><div class="ttdeci">void cmd_lspci(const char *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d8d/lspci_8cpp_source.html#l00026">lspci.cpp:26</a></div></div>
-<div class="ttc" id="anamespacePCI_1_1Descriptors_html_a2665b1be0ddd3419bb90e85f3555ba4d"><div class="ttname"><a href="../../d1/d62/namespacePCI_1_1Descriptors.html#a2665b1be0ddd3419bb90e85f3555ba4d">PCI::Descriptors::GetVendorName</a></div><div class="ttdeci">const char * GetVendorName(uint32_t VendorID)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00278">PeripheralComponentInterconnect.cpp:278</a></div></div>
-<div class="ttc" id="anamespacePCI_1_1Descriptors_html_a63169537a007b4fdb2ac67c5bf62d2f3"><div class="ttname"><a href="../../d1/d62/namespacePCI_1_1Descriptors.html#a63169537a007b4fdb2ac67c5bf62d2f3">PCI::Descriptors::GetDeviceName</a></div><div class="ttdeci">const char * GetDeviceName(uint32_t VendorID, uint32_t DeviceID)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00316">PeripheralComponentInterconnect.cpp:316</a></div></div>
-<div class="ttc" id="anamespacePCI_1_1Descriptors_html_abfaf24294b7be88d50a37fe72f187a4f"><div class="ttname"><a href="../../d1/d62/namespacePCI_1_1Descriptors.html#abfaf24294b7be88d50a37fe72f187a4f">PCI::Descriptors::BridgeDeviceSubclassName</a></div><div class="ttdeci">const char * BridgeDeviceSubclassName(uint8_t SubclassCode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00224">PeripheralComponentInterconnect.cpp:224</a></div></div>
-<div class="ttc" id="anamespacePCI_1_1Descriptors_html_ae78bfbe48f0259cf60bcd1ce1fc92fea"><div class="ttname"><a href="../../d1/d62/namespacePCI_1_1Descriptors.html#ae78bfbe48f0259cf60bcd1ce1fc92fea">PCI::Descriptors::GetSubclassName</a></div><div class="ttdeci">const char * GetSubclassName(uint8_t ClassCode, uint8_t SubclassCode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d01/PeripheralComponentInterconnect_8cpp_source.html#l00577">PeripheralComponentInterconnect.cpp:577</a></div></div>
-<div class="ttc" id="anamespaceVirtualFileSystem_html"><div class="ttname"><a href="../../d5/da1/namespaceVirtualFileSystem.html">VirtualFileSystem</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d9f/FileDescriptor_8cpp_source.html#l00030">FileDescriptor.cpp:31</a></div></div>
+<div class="ttc" id="anamespacePCI_1_1Descriptors_html_a2665b1be0ddd3419bb90e85f3555ba4d"><div class="ttname"><a href="../../d1/d62/namespacePCI_1_1Descriptors.html#a2665b1be0ddd3419bb90e85f3555ba4d">PCI::Descriptors::GetVendorName</a></div><div class="ttdeci">const char * GetVendorName(uint32_t VendorID)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d87/pci_8cpp_source.html#l00278">pci.cpp:278</a></div></div>
+<div class="ttc" id="anamespacePCI_1_1Descriptors_html_a63169537a007b4fdb2ac67c5bf62d2f3"><div class="ttname"><a href="../../d1/d62/namespacePCI_1_1Descriptors.html#a63169537a007b4fdb2ac67c5bf62d2f3">PCI::Descriptors::GetDeviceName</a></div><div class="ttdeci">const char * GetDeviceName(uint32_t VendorID, uint32_t DeviceID)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d87/pci_8cpp_source.html#l00316">pci.cpp:316</a></div></div>
+<div class="ttc" id="anamespacePCI_1_1Descriptors_html_ae78bfbe48f0259cf60bcd1ce1fc92fea"><div class="ttname"><a href="../../d1/d62/namespacePCI_1_1Descriptors.html#ae78bfbe48f0259cf60bcd1ce1fc92fea">PCI::Descriptors::GetSubclassName</a></div><div class="ttdeci">const char * GetSubclassName(uint8_t ClassCode, uint8_t SubclassCode)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d87/pci_8cpp_source.html#l00577">pci.cpp:577</a></div></div>
+<div class="ttc" id="anamespacevfs_html"><div class="ttname"><a href="../../dc/dcb/namespacevfs.html">vfs</a></div><div class="ttdef"><b>Definition:</b> <a href="../../df/de8/ext2_8hpp_source.html#l00025">ext2.hpp:26</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_88ab6059d7314379aec44b69c6467aa4.html">KernelShell</a></li><li class="navelem"><a class="el" href="../../dir_105f589b55020470501771e09d5231da.html">Commands</a></li><li class="navelem"><a class="el" href="../../d4/d8d/lspci_8cpp.html">lspci.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_e9ffd35bd10593ca6aaa6872207964dd.html">kshell</a></li><li class="navelem"><a class="el" href="../../dir_0befaf9d32b914567ccf0e83b7a19c45.html">commands</a></li><li class="navelem"><a class="el" href="../../d4/d8d/lspci_8cpp.html">lspci.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

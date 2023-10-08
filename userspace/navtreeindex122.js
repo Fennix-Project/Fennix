@@ -1,7 +1,5 @@
 var NAVTREEINDEX122 =
 {
-"d6/d47/arch_2arm_2bits_2ptrace_8h.html#aeac65b8e3480c31a4017bf9fa6f22bc9":[6,0,1,3,0,1,0,8,22],
-"d6/d47/arch_2arm_2bits_2ptrace_8h_source.html":[6,0,1,3,0,1,0,8],
 "d6/d47/collsyms_8h.html":[6,0,1,0,0,0,4,0,1],
 "d6/d47/collsyms_8h.html#a55adaed35cefdd82342ccf5f757fac35":[6,0,1,0,0,0,4,0,1,0,1],
 "d6/d47/collsyms_8h.html#a6ac0d6388bb9becbb5efe2a08fc7c527":[6,0,1,0,0,0,4,0,1,1],
@@ -249,5 +247,7 @@ var NAVTREEINDEX122 =
 "d6/d54/mkfs__vfat_8c.html#abadac7ef2829c90ca174cc1d64c8a696":[6,0,1,0,0,1,27,43,2,17],
 "d6/d54/mkfs__vfat_8c.html#abc04df9bb0e8b58411e17dd0c9f131aa":[6,0,1,0,0,1,27,43,3,4],
 "d6/d54/mkfs__vfat_8c.html#abd9e07ed9093eb10776b6b754232770c":[6,0,1,0,0,1,27,43,2,22],
-"d6/d54/mkfs__vfat_8c.html#ac65fbd64c1053a7699435f757dbba2d6":[6,0,1,0,0,1,27,43,2,18]
+"d6/d54/mkfs__vfat_8c.html#ac65fbd64c1053a7699435f757dbba2d6":[6,0,1,0,0,1,27,43,2,18],
+"d6/d54/mkfs__vfat_8c.html#ac9fb38db3f0f5e41b86eb154ea1389dd":[6,0,1,0,0,1,27,43,2,15],
+"d6/d54/mkfs__vfat_8c.html#acd1627305ab8f9b59fbf0c2d98d3a9e0":[6,0,1,0,0,1,27,43,1,2]
 };

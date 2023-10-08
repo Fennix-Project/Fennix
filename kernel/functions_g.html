@@ -105,10 +105,10 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a849ce0850815b614b365a89ab6db0027">Time::HighPrecisionEventTimer::HPET</a>
 </li>
 <li>GenerateAuxiliaryVector_x86_32()
-: <a class="el" href="d3/dc8/classExecute_1_1ELFObject.html#a68ab70dc5147e49ef25fb04ce11fc1d9">Execute::ELFObject</a>
+: <a class="el" href="d3/dc8/classExecute_1_1ELFObject.html#add78b3f817134a826a5f89afd2fcae38">Execute::ELFObject</a>
 </li>
 <li>GenerateAuxiliaryVector_x86_64()
-: <a class="el" href="d3/dc8/classExecute_1_1ELFObject.html#a94e7b27253b0a65b02fe3f94c1084f15">Execute::ELFObject</a>
+: <a class="el" href="d3/dc8/classExecute_1_1ELFObject.html#a940d883290c2d981662b4973d12ff45d">Execute::ELFObject</a>
 </li>
 <li>Get()
 : <a class="el" href="d3/d19/classBitmap.html#a9f96c621ef1f5b2217d6c63b20af246e">Bitmap</a>
@@ -169,6 +169,8 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="d8/d2b/structCPU_1_1x86_1_1Intel_1_1CPUID0x80000008.html#a700c6b0de14ebc0094f62e39699f8998">CPU::x86::Intel::CPUID0x80000008</a>
 , <a class="el" href="d8/d45/structCPU_1_1x86_1_1Intel_1_1CPUID0x8000000A.html#ae367777b6fc9f7eb2ac6d76c0412d91f">CPU::x86::Intel::CPUID0x8000000A</a>
 , <a class="el" href="db/d1a/classHashMap.html#aefcbc87bbe2d6fe3d300aa5c9fb809ee">HashMap&lt; K, V &gt;</a>
+, <a class="el" href="df/d1d/classMemory_1_1PageTable.html#a3f53629fd4132647b236f5f9b467d8fd">Memory::PageTable</a>
+, <a class="el" href="d5/ddc/classMemory_1_1SmartHeap.html#a9a8c00f62d79439d1ce9fa10af1f6242">Memory::SmartHeap</a>
 </li>
 <li>get()
 : <a class="el" href="d6/d51/classstd_1_1shared__ptr_1_1counter.html#a64fd09f04ab15775d5ec9cd83920c296">std::shared_ptr&lt; T &gt;::counter</a>
@@ -179,13 +181,29 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="df/ddb/classstd_1_1shared__ptr.html#ac479edfac51ea2e4b06058d96c9fc439">std::shared_ptr&lt; T &gt;</a>
 </li>
 <li>GetAbsolutePath()
-: <a class="el" href="d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#ab2fb543e6ac735b15da61fdc1436c0b7">VirtualFileSystem::FileDescriptorTable</a>
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#a7ad5ede240eb18bde39ab6cdb6a0879f">vfs::FileDescriptorTable</a>
 </li>
 <li>GetACPI()
 : <a class="el" href="d0/df9/classPower_1_1Power.html#a4da25ce55b83a893d1c217a23a443c8d">Power::Power</a>
 </li>
 <li>GetActiveTimer()
 : <a class="el" href="dd/d8d/classTime_1_1time.html#a22a015ee619926c153b21d7741cceed5">Time::time</a>
+</li>
+<li>GetAddress()
+: <a class="el" href="d9/d3b/unionMemory_1_1PageDirectoryEntry.html#a1e9878dd206f5cbd5a1bbb8c6382a6d0">Memory::PageDirectoryEntry</a>
+, <a class="el" href="d1/d6a/unionMemory_1_1PageDirectoryPointerTableEntry.html#a5b8239767f6b7f71544eeaea571ec076">Memory::PageDirectoryPointerTableEntry</a>
+, <a class="el" href="d5/d2b/unionMemory_1_1PageMapLevel4.html#ac8e0e90e4c928663f9756d8b6efd5d03">Memory::PageMapLevel4</a>
+, <a class="el" href="d6/d7e/unionMemory_1_1PageMapLevel5.html#a064e9a71a8089dd7e4af07a7825aa2c3">Memory::PageMapLevel5</a>
+, <a class="el" href="dd/d44/unionMemory_1_1PageTableEntry.html#a4348f6f62e908740a9965111fb0ab1ec">Memory::PageTableEntry</a>
+</li>
+<li>GetAllocatedMemorySize()
+: <a class="el" href="d5/d49/classMemory_1_1VirtualMemoryArea.html#aa2fe135e8be9f18e31a24b8e250b77a7">Memory::VirtualMemoryArea</a>
+</li>
+<li>GetAllocatedPages()
+: <a class="el" href="dc/dbe/classMemory_1_1StackGuard.html#abe3bf55ae051f0e38ba93ac1110ff012">Memory::StackGuard</a>
+</li>
+<li>GetAllocatedPagesList()
+: <a class="el" href="d5/d49/classMemory_1_1VirtualMemoryArea.html#a92b4159a5b248215bf5b2bc00ce558ee">Memory::VirtualMemoryArea</a>
 </li>
 <li>GetBitsPerPixel()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#a9478d46218b12a00d175cf835bc89b5a">Video::Display</a>
@@ -196,8 +214,9 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GetBufferCursor()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#a0097ccf084f7dc5a12d1cc11a44b4b23">Video::Display</a>
 </li>
-<li>GetChild()
-: <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#a6a7709b694f12e6bd0fcd69a915fc1b8">VirtualFileSystem::Virtual</a>
+<li>GetContext()
+: <a class="el" href="d6/d17/classTasking_1_1PCB.html#aa99a374a800ccf2649fca58ee2a1d200">Tasking::PCB</a>
+, <a class="el" href="da/daf/classTasking_1_1TCB.html#a93dab82205d4cb609fcd7b5524871308">Tasking::TCB</a>
 </li>
 <li>GetCounter()
 : <a class="el" href="d1/d8b/classTime_1_1HighPrecisionEventTimer.html#af7c3e5a3401f424e6ba6b2fbe12d56cd">Time::HighPrecisionEventTimer</a>
@@ -218,28 +237,25 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 , <a class="el" href="d8/d2e/structKernelAPI_1_1KAPIPCI.html#a632efd6439c3ccfeca4d89d0c1c3126a">KernelAPI::KAPIPCI</a>
 </li>
 <li>GetDevices()
-: <a class="el" href="d8/d81/classPCI_1_1PCI.html#a370308e3fed82058668dd4ebb9b50148">PCI::PCI</a>
-</li>
-<li>GetDrivers()
-: <a class="el" href="d3/d7d/classDriver_1_1Driver.html#aaa7ee18835399a068c9cf1cd94920d76">Driver::Driver</a>
+: <a class="el" href="d8/d81/classPCI_1_1PCI.html#a95c7313658657cff669e4366e98827b3">PCI::PCI</a>
 </li>
 <li>GetDSDT()
 : <a class="el" href="d0/df9/classPower_1_1Power.html#a6873600aa7f666f8e8a6eaaa1afcde15">Power::Power</a>
 </li>
 <li>GetDupFildes()
-: <a class="el" href="d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#af0a8a03a1a389d0b5f1faa7f776c52f9">VirtualFileSystem::FileDescriptorTable</a>
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#a2c5127063f0e02b3046cc7eefdca6ab7">vfs::FileDescriptorTable</a>
 </li>
 <li>GetExitCode()
 : <a class="el" href="da/daf/classTasking_1_1TCB.html#a3dcbdaf9bce6d5d4c4a197df10d9eb59">Tasking::TCB</a>
 </li>
 <li>GetFATType()
-: <a class="el" href="db/dad/classVirtualFileSystem_1_1FAT.html#ae9ae49713035288c9151df7792911fa6">VirtualFileSystem::FAT</a>
+: <a class="el" href="d8/dbb/classvfs_1_1FAT.html#af7c83f2a94686ccb02b5710ea2027f78">vfs::FAT</a>
 </li>
 <li>GetFileDescriptor()
-: <a class="el" href="d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#ab7f8ce56b294dfc770075edd55c4aa1a">VirtualFileSystem::FileDescriptorTable</a>
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#a21522f60b0619042087bbc57d61ec2b2">vfs::FileDescriptorTable</a>
 </li>
 <li>GetFileDescriptors()
-: <a class="el" href="d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a67110365414f57086e07ebb1e79f3842">VirtualFileSystem::FileDescriptorTable</a>
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#ac48524ef33feca02a1d46c52d2c55a6d">vfs::FileDescriptorTable</a>
 </li>
 <li>GetFramebufferStruct()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#ac2d5efb2b3d44930e47be2911caa5b99">Video::Display</a>
@@ -248,7 +264,10 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="de/de9/classNetworkEthernet_1_1EthernetEvents.html#a72ffd002884880e8ae592cde820a36df">NetworkEthernet::EthernetEvents</a>
 </li>
 <li>GetFreeFileDescriptor()
-: <a class="el" href="d0/d2b/classVirtualFileSystem_1_1FileDescriptorTable.html#a60f9d7ffec8f76e01f58a6181b7f393e">VirtualFileSystem::FileDescriptorTable</a>
+: <a class="el" href="da/d88/classvfs_1_1FileDescriptorTable.html#a6083001f43eda5358937657020341a4f">vfs::FileDescriptorTable</a>
+</li>
+<li>GetFreeMemory()
+: <a class="el" href="d6/d05/classMemory_1_1Physical.html#a21f0b5f96ec2fd2610733bb94e69209e">Memory::Physical</a>
 </li>
 <li>GetHandles()
 : <a class="el" href="df/d7e/classInterProcessCommunication_1_1IPC.html#ad23e398ece52a39146f34c033beccfdb">InterProcessCommunication::IPC</a>
@@ -277,6 +296,12 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GetMADT()
 : <a class="el" href="d0/df9/classPower_1_1Power.html#a7d90f526c69e2b02e1890b5c9d07aa0f">Power::Power</a>
 </li>
+<li>GetMapType()
+: <a class="el" href="db/d82/classMemory_1_1Virtual.html#a812b887f09251adf70a99127c3fc2246">Memory::Virtual</a>
+</li>
+<li>GetModules()
+: <a class="el" href="de/d33/classModule_1_1Module.html#a7b3d20e716b0c0ea8c60302b4da48ed5">Module::Module</a>
+</li>
 <li>GetNanosecondsSinceClassCreation()
 : <a class="el" href="d1/d8b/classTime_1_1HighPrecisionEventTimer.html#a71c33d56f6c1050f1e364ca5c84000a6">Time::HighPrecisionEventTimer</a>
 , <a class="el" href="dd/d8d/classTime_1_1time.html#a0d22feb52f3c4d0a785af47db829aed3">Time::time</a>
@@ -288,23 +313,26 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GetNextAvailableThread()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#a633a5834eaebf13a8b7c707b7d789c01">Tasking::Task</a>
 </li>
-<li>GetNode()
-: <a class="el" href="da/d08/classVirtualFileSystem_1_1ReferenceNode.html#aab1b7b1f2c4236436417572a1b878b4a">VirtualFileSystem::ReferenceNode</a>
-</li>
 <li>GetNodeFromPath()
-: <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#a2cfdef15ab11eb25e9b151fd86412bc6">VirtualFileSystem::Virtual</a>
+: <a class="el" href="d8/d64/classvfs_1_1Virtual.html#acd2f13e6b8ada2d15edfe097501313b1">vfs::Virtual</a>
 </li>
 <li>GetNodeFromPath_Unsafe()
-: <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#a0d723d2f906c2941ca5b663b53e330f0">VirtualFileSystem::Virtual</a>
+: <a class="el" href="d8/d64/classvfs_1_1Virtual.html#ae00759cf0c567c849e634b918aa4b680">vfs::Virtual</a>
 </li>
 <li>GetOption()
 : <a class="el" href="db/dd7/classNetworkDHCP_1_1DHCP.html#ac92d633e2b80863b91fd4ab9f8035dfb">NetworkDHCP::DHCP</a>
 </li>
-<li>GetParent()
-: <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#acccd958a12a8c2f5df76552f38e81ed4">VirtualFileSystem::Virtual</a>
+<li>GetPageBitmap()
+: <a class="el" href="d6/d05/classMemory_1_1Physical.html#ae8507d9f7a316983ee1144850b79ba59">Memory::Physical</a>
 </li>
-<li>GetPathFromNode()
-: <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#a2ce5dc411a2e230fde7480d8dde78ccb">VirtualFileSystem::Virtual</a>
+<li>GetParent()
+: <a class="el" href="d8/d64/classvfs_1_1Virtual.html#a2514aaede0a0968ef3054a01430dc5ea">vfs::Virtual</a>
+</li>
+<li>GetPDE()
+: <a class="el" href="db/d82/classMemory_1_1Virtual.html#ac9e576ca6e1156d327f7c5dfd68c3121">Memory::Virtual</a>
+</li>
+<li>GetPhysical()
+: <a class="el" href="db/d82/classMemory_1_1Virtual.html#a3d92ca6f96e1c9a84ccf1b9c8477b86d">Memory::Virtual</a>
 </li>
 <li>GetPitch()
 : <a class="el" href="db/d81/classVideo_1_1Display.html#af479dbfc82032a70b88c51d6ffa1555f">Video::Display</a>
@@ -321,17 +349,43 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GetProtocol()
 : <a class="el" href="d1/dd4/classNetworkIPv4_1_1IPv4Events.html#ad5fa7aa0ec7aca0f3c3dd677dc7c3f4b">NetworkIPv4::IPv4Events</a>
 </li>
+<li>GetPTE()
+: <a class="el" href="db/d82/classMemory_1_1Virtual.html#abc95ab992f2389590be9c1089f8a51c7">Memory::Virtual</a>
+</li>
 <li>GetRegisteredPort()
 : <a class="el" href="d6/d4e/classUniversalAsynchronousReceiverTransmitter_1_1Events.html#a11b4cd6d462dd7cbe6c08a8e95e6df63">UniversalAsynchronousReceiverTransmitter::Events</a>
 </li>
+<li>GetReservedMemory()
+: <a class="el" href="d6/d05/classMemory_1_1Physical.html#a17133e6b26d8573066776218e44b1075">Memory::Physical</a>
+</li>
 <li>GetRootNode()
-: <a class="el" href="d8/dbd/classVirtualFileSystem_1_1Virtual.html#a162f64ea15bf741bd151af143416ae30">VirtualFileSystem::Virtual</a>
+: <a class="el" href="d8/d64/classvfs_1_1Virtual.html#a5fbc5002ab9d40f364f0b60d6b8d7f2b">vfs::Virtual</a>
 </li>
 <li>GetSchedulerTicks()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#ac819bee16af9bfd684ea79038ca15f48">Tasking::Task</a>
 </li>
+<li>GetSharedRegions()
+: <a class="el" href="d5/d49/classMemory_1_1VirtualMemoryArea.html#a1d66db867687c1b3d8a351ce42676131">Memory::VirtualMemoryArea</a>
+</li>
+<li>GetSize()
+: <a class="el" href="dc/dbe/classMemory_1_1StackGuard.html#ac83beaeccdde309c86fa0e3ede96bebf">Memory::StackGuard</a>
+, <a class="el" href="d6/d17/classTasking_1_1PCB.html#acb6f68459af266456c606eb08c696f32">Tasking::PCB</a>
+, <a class="el" href="da/daf/classTasking_1_1TCB.html#ad16c263dac1bca5f1d7050fdaa05d327">Tasking::TCB</a>
+</li>
 <li>getsize()
-: <a class="el" href="d3/d26/classVirtualFileSystem_1_1USTAR.html#a139f18e2cc5409dc3c8bf680064124bd">VirtualFileSystem::USTAR</a>
+: <a class="el" href="d7/d0a/classvfs_1_1USTAR.html#aecac8dbbaadedd77bf9ea20c405fe4c5">vfs::USTAR</a>
+</li>
+<li>GetStackBottom()
+: <a class="el" href="dc/dbe/classMemory_1_1StackGuard.html#a514d423502f0e9e563eaecd3ecc29461">Memory::StackGuard</a>
+</li>
+<li>GetStackPhysicalBottom()
+: <a class="el" href="dc/dbe/classMemory_1_1StackGuard.html#a0c4bdc4947b72e89e85bbb2320e832b8">Memory::StackGuard</a>
+</li>
+<li>GetStackPhysicalTop()
+: <a class="el" href="dc/dbe/classMemory_1_1StackGuard.html#a2de73cf825eb24b9e9c06b27a1272652">Memory::StackGuard</a>
+</li>
+<li>GetStackTop()
+: <a class="el" href="dc/dbe/classMemory_1_1StackGuard.html#a0234f42e9fed5aee900abe739fe8c8ac">Memory::StackGuard</a>
 </li>
 <li>GetString()
 : <a class="el" href="d6/ddc/structSMBIOS_1_1SMBIOSBaseBoardInformation.html#a74e9635eff7816328233adae73b32c6d">SMBIOS::SMBIOSBaseBoardInformation</a>
@@ -349,14 +403,26 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GetSymbolFromAddress()
 : <a class="el" href="d0/dcc/classSymbolResolver_1_1Symbols.html#a25044e347cfff3b35579a1eaa71aa55a">SymbolResolver::Symbols</a>
 </li>
+<li>GetTable()
+: <a class="el" href="d5/d49/classMemory_1_1VirtualMemoryArea.html#a8056bc267c3fcecf9468d432047ceaf2">Memory::VirtualMemoryArea</a>
+</li>
 <li>GetThreadByID()
 : <a class="el" href="dc/dc5/classTasking_1_1Task.html#aacfb3207a485114a56e631e738830b04">Tasking::Task</a>
 </li>
 <li>GetTicks()
 : <a class="el" href="df/d9c/classAPIC_1_1Timer.html#a10be503a95f58fcfa6af65c6216f9519">APIC::Timer</a>
 </li>
+<li>GetTotalMemory()
+: <a class="el" href="d6/d05/classMemory_1_1Physical.html#ae245f38fbc387df7d7ce3e7e56396962">Memory::Physical</a>
+</li>
+<li>GetUsedMemory()
+: <a class="el" href="d6/d05/classMemory_1_1Physical.html#a46c9b6a72efc3fa824a4c8314585cfa2">Memory::Physical</a>
+</li>
+<li>GetUserMode()
+: <a class="el" href="dc/dbe/classMemory_1_1StackGuard.html#ada2962996a34b6ecd83eff04c5cba0be">Memory::StackGuard</a>
+</li>
 <li>gid
-: <a class="el" href="d3/d26/classVirtualFileSystem_1_1USTAR.html#a1c8a9a39ad72ad207cd5cc142d996ef6">VirtualFileSystem::USTAR::FileHeader</a>
+: <a class="el" href="d7/d0a/classvfs_1_1USTAR.html#abe7b18c61a77a9ec4e92a458fd37fbee">vfs::USTAR::FileHeader</a>
 </li>
 <li>GlobalHostControl
 : <a class="el" href="de/da1/namespaceAdvancedHostControllerInterface.html#ad6af23a0718e2beb5d857c24c5574040">AdvancedHostControllerInterface::HBAMemory</a>
@@ -400,16 +466,19 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 : <a class="el" href="db/d96/structBootInfo.html#a551646aa90577dd36ee59d4105bfd300">BootInfo::FramebufferInfo</a>
 </li>
 <li>group
-: <a class="el" href="d3/d26/classVirtualFileSystem_1_1USTAR.html#a16ec1a8209fe9b1b6015389c0cd5aba1">VirtualFileSystem::USTAR::FileHeader</a>
+: <a class="el" href="d7/d0a/classvfs_1_1USTAR.html#a82e06635d182a4b506828afed886698f">vfs::USTAR::FileHeader</a>
 </li>
 <li>GroupIdentifier
-: <a class="el" href="d7/dfb/classVirtualFileSystem_1_1Node.html#a6af35a1a84de858431edd24bfef6c2b4">VirtualFileSystem::Node</a>
+: <a class="el" href="df/d69/classvfs_1_1Node.html#aec214166deb25c24cb8c097d4aa3c49e">vfs::Node</a>
 </li>
 <li>GSI
 : <a class="el" href="da/db9/classACPI_1_1MADT.html#ab7fa69180ff52b67e8f902a07ba40237">ACPI::MADT::MADTIso</a>
 </li>
 <li>GSIBase
 : <a class="el" href="da/db9/classACPI_1_1MADT.html#a48ef777d962119b28aabeff8c4042a16">ACPI::MADT::MADTIOApic</a>
+</li>
+<li>guard_sz
+: <a class="el" href="d8/d39/signal_8h.html#a508bab0c68a11ef9980141cdf83ecbb3">pthread_attr_t</a>
 </li>
 <li>GUIDHigh
 : <a class="el" href="d1/d29/namespaceDisk.html#ad86af3dc2edde6b5b50d26daf313930f">Disk::GUIDPartitionTable</a>

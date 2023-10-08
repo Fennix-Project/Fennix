@@ -3,7 +3,7 @@ var vconfig_8c =
     [ "vlan_ioctl_args", "db/db3/vconfig_8c.html#d8/df4/structvlan__ioctl__args", [
       [ "cmd", "db/db3/vconfig_8c.html#a8193f67605422fd4b171bcc62d9731de", null ],
       [ "device1", "db/db3/vconfig_8c.html#a64ff54182c28970a99893893ccc8ad5d", null ],
-      [ "u", "db/db3/vconfig_8c.html#a5d318d374ec33171d82a1834073d69d1", null ],
+      [ "u", "db/db3/vconfig_8c.html#a104f71c9361c98774c131355bfeaabea", null ],
       [ "vlan_qos", "db/db3/vconfig_8c.html#a0ee251479056c8dc13c4de716e86329a", null ]
     ] ],
     [ "vlan_ioctl_args.u", "db/db3/vconfig_8c.html#df/d46/unionvlan__ioctl__args_8u", [

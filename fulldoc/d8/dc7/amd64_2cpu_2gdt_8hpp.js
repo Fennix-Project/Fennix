@@ -27,9 +27,7 @@ var amd64_2cpu_2gdt_8hpp =
     [ "GDT_USER_CODE", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#af5c033543fb4db7939b4b7587de03867", null ],
     [ "GDT_USER_DATA", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2", null ],
     [ "GetKernelStack", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#ab8fe0c39e450d238fcbba11a60791922", null ],
-    [ "Init", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a621904c3d40203fc46b2a4aaa77774cc", null ],
-    [ "SetKernelStack", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#af44df44be911e3d57e2faf23148d32f8", null ],
-    [ "__packed", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#aabf46d67d2677552477795fd2d6ea43d", null ],
-    [ "CPUStackPointer", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a8edf748453df2f7d75e5f132c123de40", null ],
-    [ "tss", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a235db157b069789d03468cfbf9979dfa", null ]
+    [ "Init", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#a8f348435f90382d87ff30f9237f15a96", null ],
+    [ "SetKernelStack", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#ad8fb4be5b29d0def1177ee97e5d5c299", null ],
+    [ "__packed", "d8/dc7/amd64_2cpu_2gdt_8hpp.html#aabf46d67d2677552477795fd2d6ea43d", null ]
 ];

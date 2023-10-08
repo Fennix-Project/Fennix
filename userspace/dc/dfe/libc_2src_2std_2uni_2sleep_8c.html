@@ -100,9 +100,9 @@ $(document).ready(function(){initNavTree('dc/dfe/libc_2src_2std_2uni_2sleep_8c.h
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abb84793d233172171df5b8f7ca972c88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/ssp_8c.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfe/libc_2src_2std_2uni_2sleep_8c.html#abb84793d233172171df5b8f7ca972c88">sleep</a> (unsigned int seconds)</td></tr>
+<tr class="memitem:abb84793d233172171df5b8f7ca972c88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfe/libc_2src_2std_2uni_2sleep_8c.html#abb84793d233172171df5b8f7ca972c88">sleep</a> (unsigned int seconds)</td></tr>
 <tr class="separator:abb84793d233172171df5b8f7ca972c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9334f6532812a75cb8aa827b346b2cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/ssp_8c.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfe/libc_2src_2std_2uni_2sleep_8c.html#af9334f6532812a75cb8aa827b346b2cd">usleep</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#ade009632006273dfc1a33c2873122258">useconds_t</a> usec)</td></tr>
+<tr class="memitem:af9334f6532812a75cb8aa827b346b2cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfe/libc_2src_2std_2uni_2sleep_8c.html#af9334f6532812a75cb8aa827b346b2cd">usleep</a> (<a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#ade009632006273dfc1a33c2873122258">useconds_t</a> usec)</td></tr>
 <tr class="separator:af9334f6532812a75cb8aa827b346b2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -113,7 +113,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d2b/ssp_8c.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> unsigned int sleep </td>
+          <td class="memname"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> unsigned int sleep </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>seconds</em></td><td>)</td>
@@ -124,7 +124,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dfe/libc_2src_2std_2uni_2sleep_8c_source.html#l00006">6</a> of file <a class="el" href="../../dc/dfe/libc_2src_2std_2uni_2sleep_8c_source.html">sleep.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> syscall1(sys_Sleep, seconds * 1000000);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="comment">// return syscall1(sys_Sleep, seconds * 1000000);</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../d9/da1/crond_8c_source.html#l01021">crond_main()</a>, <a class="el" href="../../d0/d43/mconf_8c_source.html#l00462">exec_conf()</a>, <a class="el" href="../../d7/d4a/ufuncs_8c_source.html#l00133">fsleep()</a>, <a class="el" href="../../d4/dc1/halt_8c_source.html#l00165">halt_main()</a>, <a class="el" href="../../d6/d6d/iostat_8c_source.html#l00398">iostat_main()</a>, <a class="el" href="../../d6/d4f/shell_8c_source.html#l00370">main()</a>, <a class="el" href="../../df/d8e/jobs_8c_source.html#l02121">make_child()</a>, <a class="el" href="../../d9/dbf/nc_8c_source.html#l00119">nc_main()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00280">pause1cannot()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00285">pause2cannot()</a>, <a class="el" href="../../d0/dac/bb__do__delay_8c_source.html#l00016">pause_after_failed_login()</a>, <a class="el" href="../../d4/d7c/svlogd_8c_source.html#l00275">pause_nomem()</a>, <a class="el" href="../../dd/d7b/powertop_8c_source.html#l00686">powertop_main()</a>, <a class="el" href="../../d6/d4f/excallback_8c_source.html#l00148">process_line()</a>, <a class="el" href="../../da/daa/nc__bloaty_8c_source.html#l00590">readwrite()</a>, <a class="el" href="../../d1/d23/runsvdir_8c_source.html#l00236">runsvdir_main()</a>, <a class="el" href="../../dd/d57/sendmail_8c_source.html#l00218">sendmail_main()</a>, <a class="el" href="../../d4/dbc/slattach_8c_source.html#l00097">slattach_main()</a>, <a class="el" href="../../d0/dac/bb__do__delay_8c_source.html#l00032">sleep1()</a>, <a class="el" href="../../df/db0/getty_8c_source.html#l00544">sleep10()</a>, <a class="el" href="../../d5/d21/apps_2base_2busybox_2coreutils_2sleep_8c_source.html#l00064">sleep_main()</a>, <a class="el" href="../../d0/de2/base_2busybox_2init_2init_8c_source.html#l01033">sleep_much()</a>, <a class="el" href="../../df/dde/runsv_8c_source.html#l00334">startservice()</a>, <a class="el" href="../../d7/d56/tail_8c_source.html#l00114">tail_main()</a>, <a class="el" href="../../de/d3a/d6__dhcpc_8c_source.html#l01176">udhcpc6_main()</a>, and <a class="el" href="../../dc/d18/dhcpc_8c_source.html#l01209">udhcpc_main()</a>.</p>
@@ -138,7 +138,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d2b/ssp_8c.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> int usleep </td>
+          <td class="memname"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> int usleep </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d1/d5b/libc_2include_2sys_2types_8h.html#ade009632006273dfc1a33c2873122258">useconds_t</a>&#160;</td>
           <td class="paramname"><em>usec</em></td><td>)</td>
@@ -149,7 +149,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../dc/dfe/libc_2src_2std_2uni_2sleep_8c_source.html#l00011">11</a> of file <a class="el" href="../../dc/dfe/libc_2src_2std_2uni_2sleep_8c_source.html">sleep.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">return</span> syscall1(sys_Sleep, usec);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="comment">// return syscall1(sys_Sleep, usec);</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 </div><!-- fragment -->
 </div>

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['journaldev_3941',['JournalDev',['../d4/d55/classVirtualFileSystem_1_1EXT2.html#a9f11e9bf0c9d0db47d71f7a4b98ad2d7',1,'VirtualFileSystem::EXT2::SuperBlock']]],
-  ['journalinum_3942',['JournalInum',['../d4/d55/classVirtualFileSystem_1_1EXT2.html#a0be2c57bdb6db4ec7068fd4990bfd8be',1,'VirtualFileSystem::EXT2::SuperBlock']]],
-  ['journaluuid_3943',['JournalUUID',['../d4/d55/classVirtualFileSystem_1_1EXT2.html#a02596e9ff6f918baf25608ec8cc79e25',1,'VirtualFileSystem::EXT2::SuperBlock']]],
-  ['jumpboot_3944',['JumpBoot',['../db/dad/classVirtualFileSystem_1_1FAT.html#a50cbeb5e1cc24dd12d8d04720cb1664a',1,'VirtualFileSystem::FAT::BIOSParameterBlock']]]
+  ['journaldev_3964',['JournalDev',['../df/de1/classvfs_1_1EXT2.html#a06893462e2431dc091b3ae6e4214a730',1,'vfs::EXT2::SuperBlock']]],
+  ['journalinum_3965',['JournalInum',['../df/de1/classvfs_1_1EXT2.html#ad67e18891343f21b4094b7c14fa8c570',1,'vfs::EXT2::SuperBlock']]],
+  ['journaluuid_3966',['JournalUUID',['../df/de1/classvfs_1_1EXT2.html#ab0c0b654e8256649f1014c6cee5aea73',1,'vfs::EXT2::SuperBlock']]],
+  ['jumpboot_3967',['JumpBoot',['../d8/dbb/classvfs_1_1FAT.html#a10fdb96485dee405e4c91db7f65d8187',1,'vfs::FAT::BIOSParameterBlock']]]
 ];

@@ -119,6 +119,6 @@ var i386_2cpu_2gdt_8hpp =
     [ "GDT_USER_CODE", "dc/df0/i386_2cpu_2gdt_8hpp.html#af5c033543fb4db7939b4b7587de03867", null ],
     [ "GDT_USER_DATA", "dc/df0/i386_2cpu_2gdt_8hpp.html#a9670040bead28fb1c0b09ea363152cd2", null ],
     [ "GetKernelStack", "dc/df0/i386_2cpu_2gdt_8hpp.html#ab8fe0c39e450d238fcbba11a60791922", null ],
-    [ "Init", "dc/df0/i386_2cpu_2gdt_8hpp.html#a621904c3d40203fc46b2a4aaa77774cc", null ],
-    [ "SetKernelStack", "dc/df0/i386_2cpu_2gdt_8hpp.html#af44df44be911e3d57e2faf23148d32f8", null ]
+    [ "Init", "dc/df0/i386_2cpu_2gdt_8hpp.html#a8f348435f90382d87ff30f9237f15a96", null ],
+    [ "SetKernelStack", "dc/df0/i386_2cpu_2gdt_8hpp.html#ad8fb4be5b29d0def1177ee97e5d5c299", null ]
 ];

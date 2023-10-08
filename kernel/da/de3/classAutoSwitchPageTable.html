@@ -107,7 +107,7 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html">Syscalls.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00024">24</a> of file <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html">syscalls.cpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6a8a68492fb8f80fa65b69aefda848ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6a8a68492fb8f80fa65b69aefda848ad">&#9670;&nbsp;</a></span>AutoSwitchPageTable()</h2>
@@ -132,22 +132,22 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html">Syscalls.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00030">30</a> of file <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html">syscalls.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    {</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv</a>(<span class="stringliteral">&quot;mov %%cr3, %0&quot;</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv</a>(<span class="stringliteral">&quot;mov %%cr3, %0&quot;</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;             : <span class="stringliteral">&quot;=r&quot;</span>(<a class="code" href="../../da/de3/classAutoSwitchPageTable.html#a6af0914fba630b0a3e1126e2b1f68963">Original</a>));</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv</a>(<span class="stringliteral">&quot;mov %0, %%cr3&quot;</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv</a>(<span class="stringliteral">&quot;mov %0, %%cr3&quot;</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;             :</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;             : <span class="stringliteral">&quot;r&quot;</span>(<a class="code" href="../../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>));</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;             : <span class="stringliteral">&quot;r&quot;</span>(<a class="code" href="../../d8/d71/memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a>));</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
-<div class="ttc" id="aMemory_8cpp_html_a4333668045042c7f091a54e4962e51e9"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a></div><div class="ttdeci">PageTable * KernelPageTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00044">Memory.cpp:44</a></div></div>
-<div class="ttc" id="aMultiboot64bitMap_8cpp_html_ab17ab6407b8950c89ba3ff3b4919200b"><div class="ttname"><a href="../../d7/dfa/Multiboot64bitMap_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv</a></div><div class="ttdeci">asmv(&quot;invlpg (%0)&quot; ::&quot;r&quot;(VirtualAddress) :&quot;memory&quot;)</div></div>
-<div class="ttc" id="aclassAutoSwitchPageTable_html_a6af0914fba630b0a3e1126e2b1f68963"><div class="ttname"><a href="../../da/de3/classAutoSwitchPageTable.html#a6af0914fba630b0a3e1126e2b1f68963">AutoSwitchPageTable::Original</a></div><div class="ttdeci">uintptr_t Original</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de7/Syscalls_8cpp_source.html#l00027">Syscalls.cpp:27</a></div></div>
+<div class="ttc" id="aclassAutoSwitchPageTable_html_a6af0914fba630b0a3e1126e2b1f68963"><div class="ttname"><a href="../../da/de3/classAutoSwitchPageTable.html#a6af0914fba630b0a3e1126e2b1f68963">AutoSwitchPageTable::Original</a></div><div class="ttdeci">uintptr_t Original</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00027">syscalls.cpp:27</a></div></div>
+<div class="ttc" id="amb__64bit__map_8cpp_html_ab17ab6407b8950c89ba3ff3b4919200b"><div class="ttname"><a href="../../d9/def/mb__64bit__map_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv</a></div><div class="ttdeci">asmv(&quot;invlpg (%0)&quot; ::&quot;r&quot;(VirtualAddress) :&quot;memory&quot;)</div></div>
+<div class="ttc" id="amemory_8cpp_html_a4333668045042c7f091a54e4962e51e9"><div class="ttname"><a href="../../d8/d71/memory_8cpp.html#a4333668045042c7f091a54e4962e51e9">KernelPageTable</a></div><div class="ttdeci">PageTable * KernelPageTable</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d71/memory_8cpp_source.html#l00044">memory.cpp:44</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv()</a>, <a class="el" href="../../d8/dcc/Memory_8cpp_source.html#l00044">KernelPageTable</a>, and <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html#l00027">Original</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/def/mb__64bit__map_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv()</a>, <a class="el" href="../../d8/d71/memory_8cpp_source.html#l00044">KernelPageTable</a>, and <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00027">Original</a>.</p>
 
 </div>
 </div>
@@ -174,16 +174,16 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html">Syscalls.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00042">42</a> of file <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html">syscalls.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#if defined(a86)</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv</a>(<span class="stringliteral">&quot;mov %0, %%cr3&quot;</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv</a>(<span class="stringliteral">&quot;mov %0, %%cr3&quot;</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;             :</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;             : <span class="stringliteral">&quot;r&quot;</span>(<a class="code" href="../../da/de3/classAutoSwitchPageTable.html#a6af0914fba630b0a3e1126e2b1f68963">Original</a>));</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv()</a>, and <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html#l00027">Original</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/def/mb__64bit__map_8cpp.html#ab17ab6407b8950c89ba3ff3b4919200b">asmv()</a>, and <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00027">Original</a>.</p>
 
 </div>
 </div>
@@ -208,14 +208,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html">Syscalls.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00027">27</a> of file <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html">syscalls.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html#l00030">AutoSwitchPageTable()</a>, and <a class="el" href="../../d5/de7/Syscalls_8cpp_source.html#l00042">~AutoSwitchPageTable()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00030">AutoSwitchPageTable()</a>, and <a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html#l00042">~AutoSwitchPageTable()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Kernel/SystemCalls/<a class="el" href="../../d5/de7/Syscalls_8cpp_source.html">Syscalls.cpp</a></li>
+<li>Kernel/syscalls/<a class="el" href="../../da/dc9/syscalls_2syscalls_8cpp_source.html">syscalls.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

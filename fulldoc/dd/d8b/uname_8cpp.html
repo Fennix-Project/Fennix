@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/KernelShell/Commands/uname.cpp File Reference</title>
+<title>Fennix: Kernel/kshell/commands/uname.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -125,46 +125,46 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(<a class="code" href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a>, <span class="stringliteral">&quot;-a&quot;</span>) == 0)</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        {</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;Fennix Kernel %s %s %s %s\n&quot;</span>,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;Fennix Kernel %s %s %s %s\n&quot;</span>,</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                   <a class="code" href="../../de/d03/platform_8h.html#af822dffedd37bfba44c2c0c8662723ad">KERNEL_VERSION</a>, KERNEL_NAME, __DATE__,</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                   KERNEL_ARCH);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(<a class="code" href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a>, <span class="stringliteral">&quot;-s&quot;</span>) == 0)</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s\n&quot;</span>, KERNEL_NAME);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s\n&quot;</span>, KERNEL_NAME);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(<a class="code" href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a>, <span class="stringliteral">&quot;-v&quot;</span>) == 0)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s\n&quot;</span>, <a class="code" href="../../de/d03/platform_8h.html#af822dffedd37bfba44c2c0c8662723ad">KERNEL_VERSION</a>);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s\n&quot;</span>, <a class="code" href="../../de/d03/platform_8h.html#af822dffedd37bfba44c2c0c8662723ad">KERNEL_VERSION</a>);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(<a class="code" href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a>, <span class="stringliteral">&quot;-n&quot;</span>) == 0)</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;unknown\n&quot;</span>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;unknown\n&quot;</span>);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(<a class="code" href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a>, <span class="stringliteral">&quot;-r&quot;</span>) == 0)</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s\n&quot;</span>, KERNEL_NAME);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s\n&quot;</span>, KERNEL_NAME);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        }</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a>(<a class="code" href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a>, <span class="stringliteral">&quot;-m&quot;</span>) == 0)</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s\n&quot;</span>, KERNEL_ARCH);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;%s\n&quot;</span>, KERNEL_ARCH);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        }</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        {</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;uname: invalid option: %s\n&quot;</span>, <a class="code" href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a>);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;uname: invalid option: %s\n&quot;</span>, <a class="code" href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a>);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;Fennix Kernel\n&quot;</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a>(<span class="stringliteral">&quot;Fennix Kernel\n&quot;</span>);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
-<div class="ttc" id="aKernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
+<div class="ttc" id="aKernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_html_ae34a762828cbff7cce62bda6571b2bc0"><div class="ttname"><a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c.html#ae34a762828cbff7cce62bda6571b2bc0">printf</a></div><div class="ttdeci">#define printf(m,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">liballoc_1_1.c:60</a></div></div>
 <div class="ttc" id="adynlink_8c_html_af3054366f27929432795c5ae420a5294"><div class="ttname"><a href="../../d5/db0/dynlink_8c.html#af3054366f27929432795c5ae420a5294">strcmp</a></div><div class="ttdeci">#define strcmp(l, r)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/db0/dynlink_8c_source.html#l00174">dynlink.c:174</a></div></div>
 <div class="ttc" id="aplatform_8h_html_af822dffedd37bfba44c2c0c8662723ad"><div class="ttname"><a href="../../de/d03/platform_8h.html#af822dffedd37bfba44c2c0c8662723ad">KERNEL_VERSION</a></div><div class="ttdeci">#define KERNEL_VERSION(a, b, c)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d03/platform_8h_source.html#l00305">platform.h:305</a></div></div>
 <div class="ttc" id="aposix__spawn_8c_html_d8/d08/structargs"><div class="ttname"><a href="../../d1/d0c/posix__spawn_8c.html#d8/d08/structargs">args</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d51/mq__notify_8c_source.html#l00010">mq_notify.c:10</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../de/d03/platform_8h_source.html#l00305">KERNEL_VERSION</a>, <a class="el" href="../../dc/d74/Kernel_2Core_2Memory_2HeapAllocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">printf</a>, and <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00174">strcmp</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d03/platform_8h_source.html#l00305">KERNEL_VERSION</a>, <a class="el" href="../../d5/ddb/Kernel_2core_2memory_2heap__allocators_2liballoc__1__1_2liballoc__1__1_8c_source.html#l00060">printf</a>, and <a class="el" href="../../d5/db0/dynlink_8c_source.html#l00174">strcmp</a>.</p>
 
 </div>
 </div>
@@ -173,7 +173,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_88ab6059d7314379aec44b69c6467aa4.html">KernelShell</a></li><li class="navelem"><a class="el" href="../../dir_105f589b55020470501771e09d5231da.html">Commands</a></li><li class="navelem"><a class="el" href="../../dd/d8b/uname_8cpp.html">uname.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_e9ffd35bd10593ca6aaa6872207964dd.html">kshell</a></li><li class="navelem"><a class="el" href="../../dir_0befaf9d32b914567ccf0e83b7a19c45.html">commands</a></li><li class="navelem"><a class="el" href="../../dd/d8b/uname_8cpp.html">uname.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

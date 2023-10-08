@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/Library/cargs.c Source File</title>
+<title>Fennix Kernel: Kernel/library/cargs.c Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('db/d92/cargs_8c_source.html','../../')
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (option-&gt;<a class="code" href="../../d1/d37/cargs_8h.html#a82eeae2b3e62b12a47d255548814f0d3">value_name</a> != <a class="code" href="../../d6/de6/include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        *accessor_length += <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;=%s&quot;</span>, option-&gt;<a class="code" href="../../d1/d37/cargs_8h.html#a82eeae2b3e62b12a47d255548814f0d3">value_name</a>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        *accessor_length += <a class="code" href="../../d1/d6d/kernel__config_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;=%s&quot;</span>, option-&gt;<a class="code" href="../../d1/d37/cargs_8h.html#a82eeae2b3e62b12a47d255548814f0d3">value_name</a>);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    }</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
@@ -143,12 +143,12 @@ $(document).ready(function(){initNavTree('db/d92/cargs_8c_source.html','../../')
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        {</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">if</span> (*first)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                *accessor_length += <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;-%c&quot;</span>, *access_letter);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                *accessor_length += <a class="code" href="../../d1/d6d/kernel__config_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;-%c&quot;</span>, *access_letter);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                *first = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            }</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                *accessor_length += <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;, -%c&quot;</span>, *access_letter);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                *accessor_length += <a class="code" href="../../d1/d6d/kernel__config_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;, -%c&quot;</span>, *access_letter);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            }</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            ++access_letter;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
@@ -162,11 +162,11 @@ $(document).ready(function(){initNavTree('db/d92/cargs_8c_source.html','../../')
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    {</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">if</span> (*first)</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            *accessor_length += <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;--%s&quot;</span>, option-&gt;<a class="code" href="../../d1/d37/cargs_8h.html#a2d81aa9a9215027cf7087b3be2190326">access_name</a>);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            *accessor_length += <a class="code" href="../../d1/d6d/kernel__config_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;--%s&quot;</span>, option-&gt;<a class="code" href="../../d1/d37/cargs_8h.html#a2d81aa9a9215027cf7087b3be2190326">access_name</a>);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        }</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            *accessor_length += <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;, --%s&quot;</span>, option-&gt;<a class="code" href="../../d1/d37/cargs_8h.html#a2d81aa9a9215027cf7087b3be2190326">access_name</a>);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            *accessor_length += <a class="code" href="../../d1/d6d/kernel__config_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;, --%s&quot;</span>, option-&gt;<a class="code" href="../../d1/d37/cargs_8h.html#a2d81aa9a9215027cf7087b3be2190326">access_name</a>);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
@@ -225,7 +225,7 @@ $(document).ready(function(){initNavTree('db/d92/cargs_8c_source.html','../../')
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        accessor_length = 0;</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        first = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160; </div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a21dd329c917c905d4e35458e789eeef6">fputs</a>(<span class="stringliteral">&quot;  &quot;</span>, destination);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <a class="code" href="../../d1/d6d/kernel__config_8cpp.html#a21dd329c917c905d4e35458e789eeef6">fputs</a>(<span class="stringliteral">&quot;  &quot;</span>, destination);</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160; </div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <a class="code" href="../../db/d92/cargs_8c.html#ade785dfd2ea84feeb0fb4c67e287f67d">cag_option_print_letters</a>(option, &amp;first, &amp;accessor_length, destination);</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <a class="code" href="../../db/d92/cargs_8c.html#a5d36116f9004798db34615a12497bc54">cag_option_print_name</a>(option, &amp;first, &amp;accessor_length, destination);</div>
@@ -233,13 +233,13 @@ $(document).ready(function(){initNavTree('db/d92/cargs_8c_source.html','../../')
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <span class="keywordflow">for</span> (i = accessor_length; i &lt; indention; ++i)</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        {</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a21dd329c917c905d4e35458e789eeef6">fputs</a>(<span class="stringliteral">&quot; &quot;</span>, destination);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <a class="code" href="../../d1/d6d/kernel__config_8cpp.html#a21dd329c917c905d4e35458e789eeef6">fputs</a>(<span class="stringliteral">&quot; &quot;</span>, destination);</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        }</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160; </div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a21dd329c917c905d4e35458e789eeef6">fputs</a>(<span class="stringliteral">&quot; &quot;</span>, destination);</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a21dd329c917c905d4e35458e789eeef6">fputs</a>(option-&gt;<a class="code" href="../../d1/d37/cargs_8h.html#aa3a294dc3fe76344cf07d538bad90a76">description</a>, destination);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="../../d1/d6d/kernel__config_8cpp.html#a21dd329c917c905d4e35458e789eeef6">fputs</a>(<span class="stringliteral">&quot; &quot;</span>, destination);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="../../d1/d6d/kernel__config_8cpp.html#a21dd329c917c905d4e35458e789eeef6">fputs</a>(option-&gt;<a class="code" href="../../d1/d37/cargs_8h.html#aa3a294dc3fe76344cf07d538bad90a76">description</a>, destination);</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160; </div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <a class="code" href="../../dc/d66/KernelConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <a class="code" href="../../d1/d6d/kernel__config_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a>(destination, <span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    }</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;}</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
@@ -601,8 +601,6 @@ $(document).ready(function(){initNavTree('db/d92/cargs_8c_source.html','../../')
 <div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    <span class="comment">// Either we point to a value item,</span></div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    <span class="keywordflow">return</span> context-&gt;<a class="code" href="../../d1/d37/cargs_8h.html#a579ece2d9da71176678c2d1be2091dd2">index</a>;</div>
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;}</div>
-<div class="ttc" id="aKernelConfig_8cpp_html_a21dd329c917c905d4e35458e789eeef6"><div class="ttname"><a href="../../dc/d66/KernelConfig_8cpp.html#a21dd329c917c905d4e35458e789eeef6">fputs</a></div><div class="ttdeci">EXTERNC void fputs(const char *s, FILE *stream)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d66/KernelConfig_8cpp_source.html#l00038">KernelConfig.cpp:38</a></div></div>
-<div class="ttc" id="aKernelConfig_8cpp_html_a4db4281a3169b26f4f69f18f20440e5d"><div class="ttname"><a href="../../dc/d66/KernelConfig_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a></div><div class="ttdeci">EXTERNC void fprintf(FILE *stream, const char *Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d66/KernelConfig_8cpp_source.html#l00028">KernelConfig.cpp:28</a></div></div>
 <div class="ttc" id="aassert_8h_html"><div class="ttname"><a href="../../dc/da7/assert_8h.html">assert.h</a></div></div>
 <div class="ttc" id="aassert_8h_html_af576bf8ffa22a44e53018c67095ffbf0"><div class="ttname"><a href="../../dc/da7/assert_8h.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a></div><div class="ttdeci">#define assert(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da7/assert_8h_source.html#l00023">assert.h:23</a></div></div>
 <div class="ttc" id="acargs_8c_html_a05346d489bdec91fe9029f8e467b0039"><div class="ttname"><a href="../../db/d92/cargs_8c.html#a05346d489bdec91fe9029f8e467b0039">cag_option_parse_access_letter</a></div><div class="ttdeci">static void cag_option_parse_access_letter(cag_option_context *context, char **c)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d92/cargs_8c_source.html#l00312">cargs.c:312</a></div></div>
@@ -644,17 +642,19 @@ $(document).ready(function(){initNavTree('db/d92/cargs_8c_source.html','../../')
 <div class="ttc" id="acargs_8h_html_d3/df1/structcag__option__context"><div class="ttname"><a href="../../d1/d37/cargs_8h.html#d3/df1/structcag__option__context">cag_option_context</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d37/cargs_8h_source.html#l00083">cargs.h:84</a></div></div>
 <div class="ttc" id="acargs_8h_html_d8/ddb/structcag__option"><div class="ttname"><a href="../../d1/d37/cargs_8h.html#d8/ddb/structcag__option">cag_option</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d37/cargs_8h_source.html#l00070">cargs.h:71</a></div></div>
 <div class="ttc" id="aconvert_8h_html"><div class="ttname"><a href="../../d3/d82/convert_8h.html">convert.h</a></div></div>
-<div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00064">Convert.cpp:64</a></div></div>
-<div class="ttc" id="aconvert_8h_html_a88b07011b83b06b8856027f02d55a880"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a></div><div class="ttdeci">char * strchr(const char *String, int Char)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc7/Convert_8cpp_source.html#l00148">Convert.cpp:148</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a7dcc610f4b04a8ee418f03a6d9256629"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a7dcc610f4b04a8ee418f03a6d9256629">strlen</a></div><div class="ttdeci">long unsigned strlen(const char s[])</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d68/convert_8cpp_source.html#l00064">convert.cpp:64</a></div></div>
+<div class="ttc" id="aconvert_8h_html_a88b07011b83b06b8856027f02d55a880"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a88b07011b83b06b8856027f02d55a880">strchr</a></div><div class="ttdeci">char * strchr(const char *String, int Char)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d68/convert_8cpp_source.html#l00148">convert.cpp:148</a></div></div>
 <div class="ttc" id="aconvert_8h_html_a9afae77e412a26e6c01e26b89d5c2b47"><div class="ttname"><a href="../../d3/d82/convert_8h.html#a9afae77e412a26e6c01e26b89d5c2b47">strncmp</a></div><div class="ttdeci">int strncmp(const char *s1, const char *s2, unsigned long n)</div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00037">types.h:37</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a4788399d1d0b37ccf098a7da82254808"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a4788399d1d0b37ccf098a7da82254808">uintptr_t</a></div><div class="ttdeci">__UINTPTR_TYPE__ uintptr_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00186">types.h:186</a></div></div>
+<div class="ttc" id="akernel__config_8cpp_html_a21dd329c917c905d4e35458e789eeef6"><div class="ttname"><a href="../../d1/d6d/kernel__config_8cpp.html#a21dd329c917c905d4e35458e789eeef6">fputs</a></div><div class="ttdeci">EXTERNC void fputs(const char *s, FILE *stream)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6d/kernel__config_8cpp_source.html#l00038">kernel_config.cpp:38</a></div></div>
+<div class="ttc" id="akernel__config_8cpp_html_a4db4281a3169b26f4f69f18f20440e5d"><div class="ttname"><a href="../../d1/d6d/kernel__config_8cpp.html#a4db4281a3169b26f4f69f18f20440e5d">fprintf</a></div><div class="ttdeci">EXTERNC void fprintf(FILE *stream, const char *Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6d/kernel__config_8cpp_source.html#l00028">kernel_config.cpp:28</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_bc57d2c181e5486d5586596c831c91e5.html">Library</a></li><li class="navelem"><a class="el" href="../../db/d92/cargs_8c.html">cargs.c</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_c6664ce460682d76427a930e401fa3ea.html">library</a></li><li class="navelem"><a class="el" href="../../db/d92/cargs_8c.html">cargs.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

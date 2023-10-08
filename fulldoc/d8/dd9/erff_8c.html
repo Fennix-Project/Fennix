@@ -100,7 +100,7 @@ $(document).ready(function(){initNavTree('d8/dd9/erff_8c.html','../../'); initRe
 Functions</h2></td></tr>
 <tr class="memitem:a0e2c4d4b14f06ed938ae16a1666f44fc"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd9/erff_8c.html#a0e2c4d4b14f06ed938ae16a1666f44fc">erfc1</a> (float <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
 <tr class="separator:a0e2c4d4b14f06ed938ae16a1666f44fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1efd5272b3edcb3b0f8340411ddc6ee5"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd9/erff_8c.html#a1efd5272b3edcb3b0f8340411ddc6ee5">erfc2</a> (<a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix, float <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
+<tr class="memitem:a1efd5272b3edcb3b0f8340411ddc6ee5"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd9/erff_8c.html#a1efd5272b3edcb3b0f8340411ddc6ee5">erfc2</a> (<a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix, float <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
 <tr class="separator:a1efd5272b3edcb3b0f8340411ddc6ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabebdd2dd548c14805831297ac129862"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dd9/erff_8c.html#aabebdd2dd548c14805831297ac129862">erff</a> (float <a class="el" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>)</td></tr>
 <tr class="separator:aabebdd2dd548c14805831297ac129862"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -291,7 +291,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">static float erfc2 </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
           <td class="paramname"><em>ix</em>, </td>
         </tr>
         <tr>
@@ -400,7 +400,7 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d8/dd9/erff_8c_source.html#l00154">154</a> of file <a class="el" href="../../d8/dd9/erff_8c_source.html">erff.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;{</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordtype">float</span> r,<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>,z,<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix;</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordtype">int</span> sign;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <a class="code" href="../../d9/ded/libm_8h.html#a8aa6378858ffd9b920b5568294638e6b">GET_FLOAT_WORD</a>(ix, <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>
@@ -427,7 +427,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="keywordflow">return</span> sign ? 2 - 0x1p-120f : 0x1p-120f*0x1p-120f;</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;}</div>
-<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
 <div class="ttc" id="aerff_8c_html_a09373cf9233e2656e50a4d4c98ad7822"><div class="ttname"><a href="../../d8/dd9/erff_8c.html#a09373cf9233e2656e50a4d4c98ad7822">pp0</a></div><div class="ttdeci">static const float pp0</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd9/erff_8c_source.html#l00024">erff.c:24</a></div></div>
 <div class="ttc" id="aerff_8c_html_a0c8030f06d30286fa9a91e98c4e86b41"><div class="ttname"><a href="../../d8/dd9/erff_8c.html#a0c8030f06d30286fa9a91e98c4e86b41">pp2</a></div><div class="ttdeci">static const float pp2</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd9/erff_8c_source.html#l00026">erff.c:26</a></div></div>
 <div class="ttc" id="aerff_8c_html_a1efd5272b3edcb3b0f8340411ddc6ee5"><div class="ttname"><a href="../../d8/dd9/erff_8c.html#a1efd5272b3edcb3b0f8340411ddc6ee5">erfc2</a></div><div class="ttdeci">static float erfc2(uint32_t ix, float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dd9/erff_8c_source.html#l00097">erff.c:97</a></div></div>
@@ -464,7 +464,7 @@ Variables</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="../../d8/dd9/erff_8c_source.html#l00123">123</a> of file <a class="el" href="../../d8/dd9/erff_8c_source.html">erff.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;{</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordtype">float</span> r,<a class="code" href="../../df/d19/arpping_8c.html#ac9562ee4ecb3b8aeebeb04656e7e57a9">s</a>,z,<a class="code" href="../../da/db0/f__wipe_8c.html#a60ca3f7e128ed4283d00a73c65558617">y</a>;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> ix;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordtype">int</span> sign;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <a class="code" href="../../d9/ded/libm_8h.html#a8aa6378858ffd9b920b5568294638e6b">GET_FLOAT_WORD</a>(ix, <a class="code" href="../../dc/da2/musl_2src_2prng_2random_8c.html#aeb26462df30f47f6fd73ee802457812b">x</a>);</div>

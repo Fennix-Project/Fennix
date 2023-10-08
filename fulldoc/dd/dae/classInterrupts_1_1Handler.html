@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('dd/dae/classInterrupts_1_1Handler.html
 <area href="../../df/d9c/classAPIC_1_1Timer.html" alt="APIC::Timer" shape="rect" coords="232,56,454,80"/>
 <area href="../../df/d9c/classAPIC_1_1Timer.html" alt="APIC::Timer" shape="rect" coords="464,56,686,80"/>
 <area href="../../d9/d69/classCrashHandler_1_1CrashKeyboardDriver.html" alt="CrashHandler::CrashKeyboardDriver" shape="rect" coords="696,56,918,80"/>
-<area href="../../d5/dff/classDriver_1_1DriverInterruptHook.html" alt="Driver::DriverInterruptHook" shape="rect" coords="928,56,1150,80"/>
+<area href="../../d2/d9d/classModule_1_1ModuleInterruptHook.html" alt="Module::ModuleInterruptHook" shape="rect" coords="928,56,1150,80"/>
 <area href="../../dc/dc5/classTasking_1_1Task.html" alt="Tasking::Task" shape="rect" coords="1160,56,1382,80"/>
   </map>
 </div></div>
@@ -165,26 +165,29 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00225">225</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    {</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> ev <span class="keywordflow">in</span> <a class="code" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">RegisteredEvents</a>)</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        {</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            <span class="keywordflow">if</span> (ev.ID == <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>)</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            {</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;IRQ%d is already registered.&quot;</span>, <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            }</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        }</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;Registering interrupt handler for IRQ%d.&quot;</span>, <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        this-&gt;<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a> = <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>;</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        RegisteredEvents.push_back({<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>, <span class="keyword">this</span>});</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00228">228</a> of file <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html">interrupts_manager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">foreach</span> (<span class="keyword">auto</span> ev <span class="keywordflow">in</span> <a class="code" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">RegisteredEvents</a>)</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordflow">if</span> (ev.ID == <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>)</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;IRQ%d is already registered.&quot;</span>,</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                     <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        }</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;Registering interrupt handler for IRQ%d.&quot;</span>,</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;              <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        this-&gt;<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a> = <a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        RegisteredEvents.push_back({<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>, <span class="keyword">this</span>});</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    }</div>
 <div class="ttc" id="aclassInterrupts_1_1Handler_html_aab768f6db1d3921ca45b2f85fe0e1633"><div class="ttname"><a href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">Interrupts::Handler::InterruptNumber</a></div><div class="ttdeci">int InterruptNumber</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d36/ints_8hpp_source.html#l00050">ints.hpp:50</a></div></div>
 <div class="ttc" id="adebug_8h_html_a1d297376472cc7f4ad7c70327efa7b55"><div class="ttname"><a href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a></div><div class="ttdeci">#define warn(Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d16/debug_8h_source.html#l00087">debug.h:87</a></div></div>
 <div class="ttc" id="amksyntax_8c_html_ac3e1795766a80ec63b157951b4b9a7d4"><div class="ttname"><a href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a></div><div class="ttdeci">int debug</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbe/mksyntax_8c_source.html#l00072">mksyntax.c:72</a></div></div>
-<div class="ttc" id="anamespaceInterrupts_html_afcc4bd09a12169b61eb540c3bc165225"><div class="ttname"><a href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">Interrupts::RegisteredEvents</a></div><div class="ttdeci">std::vector&lt; Event &gt; RegisteredEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00052">InterruptsManager.cpp:52</a></div></div>
+<div class="ttc" id="anamespaceInterrupts_html_afcc4bd09a12169b61eb540c3bc165225"><div class="ttname"><a href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">Interrupts::RegisteredEvents</a></div><div class="ttdeci">std::vector&lt; Event &gt; RegisteredEvents</div><div class="ttdef"><b>Definition:</b> <a href="../../da/da7/interrupts__manager_8cpp_source.html#l00052">interrupts_manager.cpp:52</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/dbe/mksyntax_8c_source.html#l00072">debug</a>, <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00050">InterruptNumber</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00052">Interrupts::RegisteredEvents</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00087">warn</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/dbe/mksyntax_8c_source.html#l00072">debug</a>, <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00050">InterruptNumber</a>, <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00052">Interrupts::RegisteredEvents</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00087">warn</a>.</p>
 
 </div>
 </div>
@@ -211,22 +214,23 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00240">240</a> of file <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a>.</p>
-<div class="fragment"><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    {</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;Unregistering interrupt handler for IRQ%d.&quot;</span>, this-&gt;<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160; </div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        forItr(itr, <a class="code" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">RegisteredEvents</a>)</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        {</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keywordflow">if</span> (itr-&gt;ID == this-&gt;InterruptNumber)</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            {</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                <a class="code" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">RegisteredEvents</a>.erase(itr);</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            }</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        }</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Event %d not found.&quot;</span>, this-&gt;<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    }</div>
+<p class="definition">Definition at line <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00246">246</a> of file <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html">interrupts_manager.cpp</a>.</p>
+<div class="fragment"><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <a class="code" href="../../d4/dbe/mksyntax_8c.html#ac3e1795766a80ec63b157951b4b9a7d4">debug</a>(<span class="stringliteral">&quot;Unregistering interrupt handler for IRQ%d.&quot;</span>,</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;              this-&gt;<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160; </div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        forItr(itr, <a class="code" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">RegisteredEvents</a>)</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        {</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <span class="keywordflow">if</span> (itr-&gt;ID == this-&gt;InterruptNumber)</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            {</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                <a class="code" href="../../d3/dc3/namespaceInterrupts.html#afcc4bd09a12169b61eb540c3bc165225">RegisteredEvents</a>.erase(itr);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            }</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        }</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <a class="code" href="../../db/d16/debug_8h.html#a1d297376472cc7f4ad7c70327efa7b55">warn</a>(<span class="stringliteral">&quot;Event %d not found.&quot;</span>, this-&gt;<a class="code" href="../../dd/dae/classInterrupts_1_1Handler.html#aab768f6db1d3921ca45b2f85fe0e1633">InterruptNumber</a>);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d4/dbe/mksyntax_8c_source.html#l00072">debug</a>, <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00050">InterruptNumber</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00052">Interrupts::RegisteredEvents</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00087">warn</a>.</p>
+<p class="reference">References <a class="el" href="../../d4/dbe/mksyntax_8c_source.html#l00072">debug</a>, <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00050">InterruptNumber</a>, <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00052">Interrupts::RegisteredEvents</a>, and <a class="el" href="../../db/d16/debug_8h_source.html#l00087">warn</a>.</p>
 
 </div>
 </div>
@@ -323,13 +327,13 @@ Private Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00050">50</a> of file <a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00058">GetInterruptNumber()</a>, <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00225">Handler()</a>, <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00057">SetInterruptNumber()</a>, and <a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html#l00240">~Handler()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00058">GetInterruptNumber()</a>, <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00228">Handler()</a>, <a class="el" href="../../d0/d36/ints_8hpp_source.html#l00057">SetInterruptNumber()</a>, and <a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html#l00246">~Handler()</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>Kernel/include/<a class="el" href="../../d0/d36/ints_8hpp_source.html">ints.hpp</a></li>
-<li>Kernel/Core/<a class="el" href="../../d0/d8d/InterruptsManager_8cpp_source.html">InterruptsManager.cpp</a></li>
+<li>Kernel/core/<a class="el" href="../../da/da7/interrupts__manager_8cpp_source.html">interrupts_manager.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

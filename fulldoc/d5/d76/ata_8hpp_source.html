@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/Modules/ATA/ata.hpp Source File</title>
+<title>Fennix: Kernel/modules/ATA/ata.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,48 +90,48 @@ $(document).ready(function(){initNavTree('d5/d76/ata_8hpp_source.html','../../')
 </div><!--header-->
 <div class="contents">
 <a href="../../d5/d76/ata_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef __FENNIX_KERNEL_ATA_H__</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#define __FENNIX_KERNEL_ATA_H__</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;types.h&gt;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;../../DAPI.hpp&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;../../mapi.hpp&quot;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">namespace </span><a class="code" href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html">AdvancedTechnologyAttachment</a></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#afcaa47614b7087365888b27d34d20283">DriverEntry</a>(<span class="keywordtype">void</span> *);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#a523f7d32cca0729d0c871dfeb1ff80bd">CallbackHandler</a>(<a class="code" href="../../d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#ace3dfd8ac4362de9d714e01f4b20251b">InterruptCallback</a>(<a class="code" href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#a523f7d32cca0729d0c871dfeb1ff80bd">CallbackHandler</a>(<a class="code" href="../../d7/d11/mapi_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#ace3dfd8ac4362de9d714e01f4b20251b">InterruptCallback</a>(<a class="code" href="../../d7/d11/mapi_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_ATA_H__</span></div>
-<div class="ttc" id="aDAPI_8hpp_html_d4/dc4/unionKernelCallback"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00229">DAPI.hpp:230</a></div></div>
-<div class="ttc" id="aDAPI_8hpp_html_da/db4/unionCPURegisters"><div class="ttname"><a href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfe/DAPI_8hpp_source.html#l00403">DAPI.hpp:404</a></div></div>
-<div class="ttc" id="anamespaceAdvancedTechnologyAttachment_html"><div class="ttname"><a href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html">AdvancedTechnologyAttachment</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00010">AdvancedTechnologyAttachment.cpp:11</a></div></div>
-<div class="ttc" id="anamespaceAdvancedTechnologyAttachment_html_a523f7d32cca0729d0c871dfeb1ff80bd"><div class="ttname"><a href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#a523f7d32cca0729d0c871dfeb1ff80bd">AdvancedTechnologyAttachment::CallbackHandler</a></div><div class="ttdeci">int CallbackHandler(KernelCallback *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00041">AdvancedTechnologyAttachment.cpp:41</a></div></div>
-<div class="ttc" id="anamespaceAdvancedTechnologyAttachment_html_ace3dfd8ac4362de9d714e01f4b20251b"><div class="ttname"><a href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#ace3dfd8ac4362de9d714e01f4b20251b">AdvancedTechnologyAttachment::InterruptCallback</a></div><div class="ttdeci">int InterruptCallback(CPURegisters *Registers)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00079">AdvancedTechnologyAttachment.cpp:79</a></div></div>
-<div class="ttc" id="anamespaceAdvancedTechnologyAttachment_html_afcaa47614b7087365888b27d34d20283"><div class="ttname"><a href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#afcaa47614b7087365888b27d34d20283">AdvancedTechnologyAttachment::DriverEntry</a></div><div class="ttdeci">int DriverEntry(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00026">AdvancedTechnologyAttachment.cpp:26</a></div></div>
+<div class="ttc" id="amapi_8hpp_html_d4/dc4/unionKernelCallback"><div class="ttname"><a href="../../d7/d11/mapi_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d11/mapi_8hpp_source.html#l00229">mapi.hpp:230</a></div></div>
+<div class="ttc" id="amapi_8hpp_html_da/db4/unionCPURegisters"><div class="ttname"><a href="../../d7/d11/mapi_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d11/mapi_8hpp_source.html#l00403">mapi.hpp:404</a></div></div>
+<div class="ttc" id="anamespaceAdvancedTechnologyAttachment_html"><div class="ttname"><a href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html">AdvancedTechnologyAttachment</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00027">AdvancedTechnologyAttachment.cpp:28</a></div></div>
+<div class="ttc" id="anamespaceAdvancedTechnologyAttachment_html_a523f7d32cca0729d0c871dfeb1ff80bd"><div class="ttname"><a href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#a523f7d32cca0729d0c871dfeb1ff80bd">AdvancedTechnologyAttachment::CallbackHandler</a></div><div class="ttdeci">int CallbackHandler(KernelCallback *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00058">AdvancedTechnologyAttachment.cpp:58</a></div></div>
+<div class="ttc" id="anamespaceAdvancedTechnologyAttachment_html_ace3dfd8ac4362de9d714e01f4b20251b"><div class="ttname"><a href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#ace3dfd8ac4362de9d714e01f4b20251b">AdvancedTechnologyAttachment::InterruptCallback</a></div><div class="ttdeci">int InterruptCallback(CPURegisters *Registers)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00096">AdvancedTechnologyAttachment.cpp:96</a></div></div>
+<div class="ttc" id="anamespaceAdvancedTechnologyAttachment_html_afcaa47614b7087365888b27d34d20283"><div class="ttname"><a href="../../d3/de0/namespaceAdvancedTechnologyAttachment.html#afcaa47614b7087365888b27d34d20283">AdvancedTechnologyAttachment::DriverEntry</a></div><div class="ttdeci">int DriverEntry(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/ded/AdvancedTechnologyAttachment_8cpp_source.html#l00043">AdvancedTechnologyAttachment.cpp:43</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_559278b07106fc62284400afdb4b1bd1.html">Modules</a></li><li class="navelem"><a class="el" href="../../dir_4fddc915aee286fa835bc1c83d7ef5f2.html">ATA</a></li><li class="navelem"><a class="el" href="../../d5/d76/ata_8hpp.html">ata.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_6bd7ae448e999fc4806673008d3d7608.html">modules</a></li><li class="navelem"><a class="el" href="../../dir_c6a3dc51ecab7c936e24de4fce20fda3.html">ATA</a></li><li class="navelem"><a class="el" href="../../d5/d76/ata_8hpp.html">ata.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

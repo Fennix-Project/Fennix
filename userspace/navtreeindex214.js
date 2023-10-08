@@ -1,17 +1,5 @@
 var NAVTREEINDEX214 =
 {
-"db/de5/quotactl_8c.html":[6,0,1,3,5,16,37],
-"db/de5/quotactl_8c.html#a8920e169f539088728328e9d93710940":[6,0,1,3,5,16,37,0],
-"db/de5/quotactl_8c_source.html":[6,0,1,3,5,16,37],
-"db/de8/obscure_8c.html":[6,0,1,0,0,1,13,76],
-"db/de8/obscure_8c.html#a239701baeaeec0ba5ad9474217e14d2f":[6,0,1,0,0,1,13,76,9],
-"db/de8/obscure_8c.html#a4b381251c4037cdb74e5ac1b33b2330a":[6,0,1,0,0,1,13,76,6],
-"db/de8/obscure_8c.html#a52c6eed29863def7303121b65975e83b":[6,0,1,0,0,1,13,76,3],
-"db/de8/obscure_8c.html#a5b4d4e5f8ecfefe10c225726fe4c624f":[6,0,1,0,0,1,13,76,8],
-"db/de8/obscure_8c.html#a7d27cdb240c1d7b6c693a4344c08216d":[6,0,1,0,0,1,13,76,5],
-"db/de8/obscure_8c.html#a84acb423f634978b61ac46856de40a70":[6,0,1,0,0,1,13,76,4],
-"db/de8/obscure_8c.html#aaea70a6ac8f81711cfeb5d98e482f32d":[6,0,1,0,0,1,13,76,1],
-"db/de8/obscure_8c.html#ab255ee678532f4b4b8da3fdc422ef1da":[6,0,1,0,0,1,13,76,2],
 "db/de8/obscure_8c.html#aca1f039b3cfefde8aca1a3135e542f8e":[6,0,1,0,0,1,13,76,7],
 "db/de8/obscure_8c.html#af46ab44a0a70da17b70d6cb99174a392":[6,0,1,0,0,1,13,76,0],
 "db/de8/obscure_8c_source.html":[6,0,1,0,0,1,13,76],
@@ -249,5 +237,17 @@ var NAVTREEINDEX214 =
 "dc/d10/doomstat_8c.html":[6,0,1,0,2,0,0,0,38],
 "dc/d10/doomstat_8c.html#a09d226450e276a5b0ac1f790c5cb484f":[6,0,1,0,2,0,0,0,38,4],
 "dc/d10/doomstat_8c.html#a251f624c2720465cab9eb8b55dad6132":[6,0,1,0,2,0,0,0,38,3],
-"dc/d10/doomstat_8c.html#a4273633a13fe23dee5754f6e57cef6a1":[6,0,1,0,2,0,0,0,38,0]
+"dc/d10/doomstat_8c.html#a4273633a13fe23dee5754f6e57cef6a1":[6,0,1,0,2,0,0,0,38,0],
+"dc/d10/doomstat_8c.html#a766de8c317f90f5a29d58823bd553a9b":[6,0,1,0,2,0,0,0,38,1],
+"dc/d10/doomstat_8c.html#ab093eb158b8a285c03396dc1046ba1d4":[6,0,1,0,2,0,0,0,38,2],
+"dc/d10/doomstat_8c_source.html":[6,0,1,0,2,0,0,0,38],
+"dc/d10/securetty_8c.html":[6,0,1,0,0,1,13,109],
+"dc/d10/securetty_8c_source.html":[6,0,1,0,0,1,13,109],
+"dc/d11/powerpc64_2atomic__arch_8h.html":[6,0,1,3,0,11,1],
+"dc/d11/powerpc64_2atomic__arch_8h.html#a07ec579e39f7373b195e6acba55bf82b":[6,0,1,3,0,11,1,6],
+"dc/d11/powerpc64_2atomic__arch_8h.html#a30e4bd0cc7ad088c1b7672d79f82d88a":[6,0,1,3,0,11,1,9],
+"dc/d11/powerpc64_2atomic__arch_8h.html#a371f30d8f477d92bd3bdd520a23b56d5":[6,0,1,3,0,11,1,7],
+"dc/d11/powerpc64_2atomic__arch_8h.html#a53b4567a712ebb23a6c0f191d8e8f341":[6,0,1,3,0,11,1,5],
+"dc/d11/powerpc64_2atomic__arch_8h.html#a5e8bdf0fbece54d44ffd70c97f00bdef":[6,0,1,3,0,11,1,11],
+"dc/d11/powerpc64_2atomic__arch_8h.html#a86d0ef12cda90dfc01d28a2afffa9f39":[6,0,1,3,0,11,1,0]
 };

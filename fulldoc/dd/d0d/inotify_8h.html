@@ -166,7 +166,7 @@ Functions</h2></td></tr>
 <tr class="separator:a7d3c871da4bd8fc5798aa8834a38d304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27ba780fd20870a56007475c9de6c481"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0d/inotify_8h.html#a27ba780fd20870a56007475c9de6c481">inotify_init1</a> (int)</td></tr>
 <tr class="separator:a27ba780fd20870a56007475c9de6c481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3ee2ce9fc5f390dd3f60a3b2e16b7aa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0d/inotify_8h.html#ae3ee2ce9fc5f390dd3f60a3b2e16b7aa">inotify_add_watch</a> (int, const char *, <a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)</td></tr>
+<tr class="memitem:ae3ee2ce9fc5f390dd3f60a3b2e16b7aa"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0d/inotify_8h.html#ae3ee2ce9fc5f390dd3f60a3b2e16b7aa">inotify_add_watch</a> (int, const char *, <a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>)</td></tr>
 <tr class="separator:ae3ee2ce9fc5f390dd3f60a3b2e16b7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b5b3c3d91e8e57887d8dcfd505c2a52"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0d/inotify_8h.html#a5b5b3c3d91e8e57887d8dcfd505c2a52">inotify_rm_watch</a> (int, int)</td></tr>
 <tr class="separator:a5b5b3c3d91e8e57887d8dcfd505c2a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,19 +188,19 @@ Functions</h2></td></tr>
 </div><table class="fieldtable">
 <tr><th colspan="3">Data Fields</th></tr>
 <tr><td class="fieldtype">
-<a id="a2191478b276b4c2e9d5b4f39a7d33d16"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a2191478b276b4c2e9d5b4f39a7d33d16"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 cookie</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="a8e8212a6ad14d7de4e86abdcdc6c185b"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="a8e8212a6ad14d7de4e86abdcdc6c185b"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 len</td>
 <td class="fielddoc">
 </td></tr>
 <tr><td class="fieldtype">
-<a id="ab159a86f8ae6166889cdc5b824a3ca2f"></a><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
+<a id="ab159a86f8ae6166889cdc5b824a3ca2f"></a><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></td>
 <td class="fieldname">
 mask</td>
 <td class="fielddoc">
@@ -676,7 +676,7 @@ wd</td>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a>&#160;</td>
           <td class="paramname"><em>mask</em>&#160;</td>
         </tr>
         <tr>
@@ -689,9 +689,9 @@ wd</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/de5/inotify_8c_source.html#l00018">18</a> of file <a class="el" href="../../d3/de5/inotify_8c_source.html">inotify.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_inotify_add_watch, <a class="code" href="../../d2/db3/hdparm_8c.html#aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42">fd</a>, pathname, mask);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_inotify_add_watch, <a class="code" href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a>, pathname, mask);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;}</div>
-<div class="ttc" id="ahdparm_8c_html_aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
+<div class="ttc" id="ahdparm_8c_html_ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42"><div class="ttname"><a href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a></div><div class="ttdeci">@ fd</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db3/hdparm_8c_source.html#l00352">hdparm.c:352</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>
@@ -752,7 +752,7 @@ wd</td>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a>(r);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;}</div>
-<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdoc">Function not implemented.</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">errno.h:133</a></div></div>
+<div class="ttc" id="aKernel_2include__std_2errno_8h_html_a43785b9969e0bd1af532dbde06c5540b"><div class="ttname"><a href="../../db/d0b/Kernel_2include__std_2errno_8h.html#a43785b9969e0bd1af532dbde06c5540b">ENOSYS</a></div><div class="ttdeci">#define ENOSYS</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0b/Kernel_2include__std_2errno_8h_source.html#l00133">errno.h:133</a></div></div>
 <div class="ttc" id="adumpkmap_8c_html_abb0829cce9dd20a40ae0d86890ae85c6"><div class="ttname"><a href="../../db/d66/dumpkmap_8c.html#abb0829cce9dd20a40ae0d86890ae85c6">flags</a></div><div class="ttdeci">#define flags</div></div>
 <div class="ttc" id="asrc_2internal_2syscall_8h_html_a2c82a4fb7243bb9b67ca2a9ed8efa8d1"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#a2c82a4fb7243bb9b67ca2a9ed8efa8d1">__syscall</a></div><div class="ttdeci">#define __syscall(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/da8/src_2internal_2syscall_8h_source.html#l00044">syscall.h:44</a></div></div>
 <div class="ttc" id="asrc_2internal_2syscall_8h_html_ae35b4389e042ebbd967999e95f514b84"><div class="ttname"><a href="../../de/da8/src_2internal_2syscall_8h.html#ae35b4389e042ebbd967999e95f514b84">__syscall_ret</a></div><div class="ttdeci">hidden long __syscall_ret(unsigned long)</div></div>
@@ -791,7 +791,7 @@ wd</td>
 
 <p class="definition">Definition at line <a class="el" href="../../d3/de5/inotify_8c_source.html#l00023">23</a> of file <a class="el" href="../../d3/de5/inotify_8c_source.html">inotify.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_inotify_rm_watch, <a class="code" href="../../d2/db3/hdparm_8c.html#aa63d6dae9e652d4cc15eb849ab1dbda5a1e4d60e5b05464d07a30096747025a42">fd</a>, wd);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_inotify_rm_watch, <a class="code" href="../../d2/db3/hdparm_8c.html#ab2a2e4bafac36c706cfa563198638c67a1e4d60e5b05464d07a30096747025a42">fd</a>, wd);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d2/db3/hdparm_8c_source.html#l00352">fd</a>, and <a class="el" href="../../db/dd8/syscall_8c_source.html#l00008">syscall()</a>.</p>

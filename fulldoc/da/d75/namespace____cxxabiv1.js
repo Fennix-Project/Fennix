@@ -1,6 +1,6 @@
 var namespace____cxxabiv1 =
 [
-    [ "main loop", "de/d71/md_Userspace_apps_user_games_doomgeneric_README.html#autotoc_md35", null ],
+    [ "main loop", "de/d71/md_Userspace_apps_user_games_doomgeneric_README.html#autotoc_md58", null ],
     [ "atexit_func_entry_t", "d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t.html", "d3/dee/struct____cxxabiv1_1_1atexit__func__entry__t" ],
     [ "__cxa_exception", "dd/d57/struct____cxxabiv1_1_1____cxa__exception.html", "dd/d57/struct____cxxabiv1_1_1____cxa__exception" ],
     [ "uarch_t", "da/d75/namespace____cxxabiv1.html#a40b59e7581f6063603886ef240497a07", null ],

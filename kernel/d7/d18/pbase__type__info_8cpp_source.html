@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/Library/libstdc++/pbase_type_info.cpp Source File</title>
+<title>Fennix Kernel: Kernel/library/libstdc++/pbase_type_info.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,20 +90,20 @@ $(document).ready(function(){initNavTree('d7/d18/pbase__type__info_8cpp_source.h
 </div><!--header-->
 <div class="contents">
 <a href="../../d7/d18/pbase__type__info_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;typeinfo&gt;</span></div>
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('d7/d18/pbase__type__info_8cpp_source.h
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            {</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="keywordflow">if</span> (this-&gt;Pointee-&gt;__is_function_p())</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                    <span class="keyword">using</span> pmf_type = <a class="code" href="../../d1/d48/namespaceDriver.html#ab729393050904fd1bdaf3625252f2e19">void</a> (__pbase_type_info::*)();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                    <span class="keyword">using</span> pmf_type = <a class="code" href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">void</a> (__pbase_type_info::*)();</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                    <span class="keyword">static</span> <span class="keyword">const</span> pmf_type pmf = <span class="keyword">nullptr</span>;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                    *ThrowObject = <span class="keyword">const_cast&lt;</span>pmf_type *<span class="keyword">&gt;</span>(&amp;pmf);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -164,32 +164,32 @@ $(document).ready(function(){initNavTree('d7/d18/pbase__type__info_8cpp_source.h
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keyword">const</span> <span class="keywordtype">unsigned</span> FlagQualificationMask = __transaction_safe_mask | __noexcept_mask;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordtype">unsigned</span> ThrowFlagQualification = (TypeFlags &amp; FlagQualificationMask);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordtype">unsigned</span> CatchFlagQualification = (<a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a> &amp; FlagQualificationMask);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordtype">unsigned</span> CatchFlagQualification = (<a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a> &amp; FlagQualificationMask);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">if</span> (ThrowFlagQualification &amp; ~CatchFlagQualification)</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            TypeFlags &amp;= CatchFlagQualification;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">if</span> (CatchFlagQualification &amp; ~ThrowFlagQualification)</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160; </div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">if</span> (TypeFlags &amp; ~<a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>)</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">if</span> (TypeFlags &amp; ~<a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a>)</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160; </div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">if</span> (!(<a class="code" href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a> &amp; __const_mask))</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">if</span> (!(<a class="code" href="../../d9/def/mb__64bit__map_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a> &amp; __const_mask))</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            outer &amp;= ~1;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">return</span> __pointer_catch(ThrownType, ThrowObject, outer);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
-<div class="ttc" id="aMultiboot64bitMap_8cpp_html_a4851ebd1cf29bead5f3abe382b16bc8f"><div class="ttname"><a href="../../d7/dfa/Multiboot64bitMap_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a></div><div class="ttdeci">void uint64_t Flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dfa/Multiboot64bitMap_8cpp_source.html#l00197">Multiboot64bitMap.cpp:198</a></div></div>
 <div class="ttc" id="ainclude_2types_8h_html_a86d500a34c624c2cae56bc25a31b12f3"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a86d500a34c624c2cae56bc25a31b12f3">UNUSED</a></div><div class="ttdeci">#define UNUSED(x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00064">types.h:64</a></div></div>
-<div class="ttc" id="anamespaceDriver_html_ab729393050904fd1bdaf3625252f2e19"><div class="ttname"><a href="../../d1/d48/namespaceDriver.html#ab729393050904fd1bdaf3625252f2e19">Driver::void</a></div><div class="ttdeci">int void(Handle.InterruptCallback))(&amp;regs)</div></div>
+<div class="ttc" id="amb__64bit__map_8cpp_html_a4851ebd1cf29bead5f3abe382b16bc8f"><div class="ttname"><a href="../../d9/def/mb__64bit__map_8cpp.html#a4851ebd1cf29bead5f3abe382b16bc8f">Flags</a></div><div class="ttdeci">void uint64_t Flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/def/mb__64bit__map_8cpp_source.html#l00197">mb_64bit_map.cpp:198</a></div></div>
+<div class="ttc" id="anamespaceModule_html_aa56762f1e0bc7b507d773d431829e1a0"><div class="ttname"><a href="../../d9/d73/namespaceModule.html#aa56762f1e0bc7b507d773d431829e1a0">Module::void</a></div><div class="ttdeci">int void(Handle.InterruptCallback))(&amp;regs)</div></div>
 <div class="ttc" id="anamespace____cxxabiv1_html"><div class="ttname"><a href="../../da/d75/namespace____cxxabiv1.html">__cxxabiv1</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dc4/cxxabi_8h_source.html#l00025">cxxabi.h:26</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_bc57d2c181e5486d5586596c831c91e5.html">Library</a></li><li class="navelem"><a class="el" href="../../dir_50bc1ee8ce53045ce521b0d594b2969e.html">libstdc++</a></li><li class="navelem"><a class="el" href="../../d7/d18/pbase__type__info_8cpp.html">pbase_type_info.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_c6664ce460682d76427a930e401fa3ea.html">library</a></li><li class="navelem"><a class="el" href="../../dir_a8468f9c96c1fe22f60a13c0fcebe0c2.html">libstdc++</a></li><li class="navelem"><a class="el" href="../../d7/d18/pbase__type__info_8cpp.html">pbase_type_info.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

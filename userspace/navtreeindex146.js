@@ -1,7 +1,5 @@
 var NAVTREEINDEX146 =
 {
-"d7/d4c/libc_2include_2types_8h.html#accbd6432732c88ad6adc5365800433b6":[6,0,1,1,1,23,81],
-"d7/d4c/libc_2include_2types_8h.html#ad0d744f05898e32d01f73f8af3cd2071":[6,0,1,1,1,23,19],
 "d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e":[6,0,1,1,1,23,50],
 "d7/d4c/libc_2include_2types_8h.html#ad3f7b6bb8aa7d619017a91d3b2edc1ee":[6,0,1,1,1,23,76],
 "d7/d4c/libc_2include_2types_8h.html#ad4e9955955b27624963643eac448118a":[6,0,1,1,1,23,16],
@@ -249,5 +247,7 @@ var NAVTREEINDEX146 =
 "d7/d60/doomdata_8h.html#aaba47f431b18c6649ac45d3bc9962f0e":[6,0,1,0,2,0,0,0,25,3],
 "d7/d60/doomdata_8h.html#ab9af8a3ccc98fae92bb961693e39bd70":[6,0,1,0,2,0,0,0,25,1],
 "d7/d60/doomdata_8h.html#ae7586505e46b60bec5d21a5ab1defc3b":[6,0,1,0,2,0,0,0,25,5],
-"d7/d60/doomdata_8h_source.html":[6,0,1,0,2,0,0,0,25]
+"d7/d60/doomdata_8h_source.html":[6,0,1,0,2,0,0,0,25],
+"d7/d63/musl_2src_2misc_2uname_8c.html":[6,0,1,3,5,20,37],
+"d7/d63/musl_2src_2misc_2uname_8c.html#a0e752b73e74f8b22a628436b495bf92a":[6,0,1,3,5,20,37,0]
 };

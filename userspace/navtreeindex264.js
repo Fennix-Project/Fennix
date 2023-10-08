@@ -1,17 +1,5 @@
 var NAVTREEINDEX264 =
 {
-"df/d03/shell_8h.html#a41bd60fdf09f9d03381abca2a70fcb7f":[6,0,1,0,0,0,74,2,17],
-"df/d03/shell_8h.html#a459ce17e071bd8965a1ec2fde4b5302b":[6,0,1,0,0,0,74,61],
-"df/d03/shell_8h.html#a482a130396fa6607745971d02671555b":[6,0,1,0,0,0,74,37],
-"df/d03/shell_8h.html#a517147bcb8025cd9cb32020a26da92dc":[6,0,1,0,0,0,74,69],
-"df/d03/shell_8h.html#a51cfd0f9d6fe58aa79dbcdc9b5bdee31":[6,0,1,0,0,0,74,23],
-"df/d03/shell_8h.html#a528147dc4f85460b5eb54f236bac6ad9":[6,0,1,0,0,0,74,2,7],
-"df/d03/shell_8h.html#a5474d60edee7e82e47b35345fa4e8ca2":[6,0,1,0,0,0,74,71],
-"df/d03/shell_8h.html#a558735699f0b5cc25cef0852e806fc51":[6,0,1,0,0,0,74,2,10],
-"df/d03/shell_8h.html#a57da146a9b14743826b4e86e9f93130a":[6,0,1,0,0,0,74,32],
-"df/d03/shell_8h.html#a581055db933838f9b6bcc2cff3450345":[6,0,1,0,0,0,74,8],
-"df/d03/shell_8h.html#a5d59ed416d1e932f76e390b237e2b731":[6,0,1,0,0,0,74,52],
-"df/d03/shell_8h.html#a5dadbca0edb1930542227575513f8562":[6,0,1,0,0,0,74,70],
 "df/d03/shell_8h.html#a5f834a880b29097d1041e5381facb6da":[6,0,1,0,0,0,74,54],
 "df/d03/shell_8h.html#a6091ac0aaaa9a7866f28b13ec406e6e2":[6,0,1,0,0,0,74,3,2],
 "df/d03/shell_8h.html#a61038beb3d185705c2f54b6f4b66698b":[6,0,1,0,0,0,74,40],
@@ -249,5 +237,17 @@ var NAVTREEINDEX264 =
 "df/d07/arch_2mips_2bits_2termios_8h.html#a101bfc62e2af02c05dde40905aa47c1b":[6,0,1,3,0,6,0,22,77],
 "df/d07/arch_2mips_2bits_2termios_8h.html#a13190138439fcec2c985e2822df02b4c":[6,0,1,3,0,6,0,22,79],
 "df/d07/arch_2mips_2bits_2termios_8h.html#a1dec50a32b486302a9414456df4cbb11":[6,0,1,3,0,6,0,22,33],
-"df/d07/arch_2mips_2bits_2termios_8h.html#a227c117ac1c7d60d2728f5d68aaf79a0":[6,0,1,3,0,6,0,22,27]
+"df/d07/arch_2mips_2bits_2termios_8h.html#a227c117ac1c7d60d2728f5d68aaf79a0":[6,0,1,3,0,6,0,22,27],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a227fea9e0767c2a418967e87f2fc222d":[6,0,1,3,0,6,0,22,76],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a2913fdfccc72db70821a2100bfc8217a":[6,0,1,3,0,6,0,22,87],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a2927e7726bcf80e23592e0d0ddcfeac6":[6,0,1,3,0,6,0,22,96],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a2ed0011eaf721d107946bf06f1824b36":[6,0,1,3,0,6,0,22,67],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a2fa5de0b1c54040022ec2edbafe68db7":[6,0,1,3,0,6,0,22,49],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a319d50b414b08f633a04a0144b63ca39":[6,0,1,3,0,6,0,22,100],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a31cfa1f14eadee06c346549d734ed586":[6,0,1,3,0,6,0,22,95],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a32dc4578657dac59f79f0bc7ffc9416f":[6,0,1,3,0,6,0,22,2],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a339516a423571344e92138e42623843a":[6,0,1,3,0,6,0,22,74],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a348dc585f00cea776b320e7527e2f656":[6,0,1,3,0,6,0,22,99],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a36fdf3b468aa37c932c5feb0f3a9d7d7":[6,0,1,3,0,6,0,22,6],
+"df/d07/arch_2mips_2bits_2termios_8h.html#a3b0ce0abd5ad4af8d485c843c9bab66c":[6,0,1,3,0,6,0,22,23]
 };

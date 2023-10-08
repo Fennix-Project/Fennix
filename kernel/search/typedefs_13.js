@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['wchar_11503',['WCHAR',['../de/d63/msexec_8h.html#aad61bc3eae1804d8784adebdce0721d3',1,'msexec.h']]],
-  ['wchar_5ft_11504',['wchar_t',['../d6/de6/include_2types_8h.html#a5f245e933e58ed4d268146a5b1f116ca',1,'types.h']]],
-  ['wint_5ft_11505',['wint_t',['../d6/de6/include_2types_8h.html#abd99e7f4ef6b86204820c995f988403b',1,'types.h']]],
-  ['word_11506',['WORD',['../de/d63/msexec_8h.html#a197942eefa7db30960ae396d68339b97',1,'msexec.h']]]
+  ['xcr0_11930',['XCR0',['../d9/d25/namespaceCPU_1_1x64.html#a5f2f59d4c76e0ae4a2a146aa22c40ee2',1,'CPU::x64']]],
+  ['xsize_5ft_11931',['Xsize_t',['../d8/d12/Xalloc_8hpp.html#acbad0a9a6f7d3c53ed27bf0f4792c695',1,'Xalloc.hpp']]],
+  ['xuint8_5ft_11932',['Xuint8_t',['../d8/d12/Xalloc_8hpp.html#a77338578d07876b2f9c09586c9754085',1,'Xalloc.hpp']]],
+  ['xuintptr_5ft_11933',['Xuintptr_t',['../d8/d12/Xalloc_8hpp.html#afc5676769f4138a5010423c6d9903813',1,'Xalloc.hpp']]]
 ];

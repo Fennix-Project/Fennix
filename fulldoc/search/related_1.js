@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['filedescriptortable_79276',['FileDescriptorTable',['../da/d08/classVirtualFileSystem_1_1ReferenceNode.html#a9e18ae1085799682514aed9725be6667',1,'VirtualFileSystem::ReferenceNode']]]
+  ['filedescriptortable_79640',['FileDescriptorTable',['../da/d28/classvfs_1_1RefNode.html#a9e18ae1085799682514aed9725be6667',1,'vfs::RefNode']]]
 ];

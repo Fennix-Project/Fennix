@@ -1,7 +1,5 @@
 var NAVTREEINDEX187 =
 {
-"d9/dd4/aarch64_2fabs_8c.html":[6,0,1,3,5,19,0,2],
-"d9/dd4/aarch64_2fabs_8c.html#a8fb5c0b9b43a108724b355136d29d2f9":[6,0,1,3,5,19,0,2,0],
 "d9/dd4/aarch64_2fabs_8c_source.html":[6,0,1,3,5,19,0,2],
 "d9/dd4/musl_2include_2sys_2reboot_8h.html":[6,0,1,3,3,5,30],
 "d9/dd4/musl_2include_2sys_2reboot_8h.html#a1959ea6ff411c3473e1849a7ca56df8f":[6,0,1,3,3,5,30,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX187 =
 "d9/de8/bootchartd_8c.html#a8639ceaff17b6733e8368fbbeda7918e":[6,0,1,0,0,1,11,0,9],
 "d9/de8/bootchartd_8c.html#abcc987916064812701931a69cba887df":[6,0,1,0,0,1,11,0,6],
 "d9/de8/bootchartd_8c.html#ac8084c730ff050f0bd953a15fd1b0d0d":[6,0,1,0,0,1,11,0,10],
-"d9/de8/bootchartd_8c.html#ad1958bdc94105520e3d988ea8511c3ea":[6,0,1,0,0,1,11,0,11]
+"d9/de8/bootchartd_8c.html#ad1958bdc94105520e3d988ea8511c3ea":[6,0,1,0,0,1,11,0,11],
+"d9/de8/bootchartd_8c.html#aed9ea78689ecce0b7264c02c7f8a9a54":[6,0,1,0,0,1,11,0,3],
+"d9/de8/bootchartd_8c.html#aedfe519777367c3db46a6000cfeeb6a3":[6,0,1,0,0,1,11,0,2]
 };

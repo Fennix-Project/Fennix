@@ -16,7 +16,6 @@ var namespaces_dup =
     [ "CPU", "d7/dfa/namespaceCPU.html", "d7/dfa/namespaceCPU" ],
     [ "CrashHandler", "d2/d57/namespaceCrashHandler.html", "d2/d57/namespaceCrashHandler" ],
     [ "Disk", "d1/d29/namespaceDisk.html", "d1/d29/namespaceDisk" ],
-    [ "Driver", "d1/d48/namespaceDriver.html", "d1/d48/namespaceDriver" ],
     [ "Execute", "d5/d27/namespaceExecute.html", "d5/d27/namespaceExecute" ],
     [ "FXSR", "de/ded/namespaceFXSR.html", [
       [ "_fxrstor", "de/ded/namespaceFXSR.html#aab6a3556dcee10d6d62fda371c305f3e", null ],
@@ -29,12 +28,8 @@ var namespaces_dup =
     [ "InterProcessCommunication", "d7/d5f/namespaceInterProcessCommunication.html", "d7/d5f/namespaceInterProcessCommunication" ],
     [ "InterruptDescriptorTable", "d2/db2/namespaceInterruptDescriptorTable.html", "d2/db2/namespaceInterruptDescriptorTable" ],
     [ "Interrupts", "d3/dc3/namespaceInterrupts.html", "d3/dc3/namespaceInterrupts" ],
-    [ "Memory", "d3/d97/namespaceMemory.html", [
-      [ "__no_sanitize", "d3/d97/namespaceMemory.html#afb12cf57bb646f530c629da2a1e9743c", null ],
-      [ "ReadFSFunction", "d3/d97/namespaceMemory.html#a3e630a684edd2a6cd3e265fea85eade9", null ],
-      [ "WriteFSFunction", "d3/d97/namespaceMemory.html#a1c5c24bf1615ba4a406fce3ad555d2fa", null ],
-      [ "mem_op", "d3/d97/namespaceMemory.html#a6c1d73cc8a1e574400a2055d2beddf2a", null ]
-    ] ],
+    [ "Memory", "d3/d97/namespaceMemory.html", "d3/d97/namespaceMemory" ],
+    [ "Module", "d9/d73/namespaceModule.html", "d9/d73/namespaceModule" ],
     [ "NetworkARP", "d2/df9/namespaceNetworkARP.html", "d2/df9/namespaceNetworkARP" ],
     [ "NetworkDHCP", "dd/d53/namespaceNetworkDHCP.html", "dd/d53/namespaceNetworkDHCP" ],
     [ "NetworkDNS", "d3/dd7/namespaceNetworkDNS.html", "d3/dd7/namespaceNetworkDNS" ],
@@ -234,6 +229,7 @@ var namespaces_dup =
       [ "CallbackHandler", "d5/d22/namespacePS2Keyboard.html#a2c6ca6fdab762fe1cf34d8989ec7a0a8", null ],
       [ "DriverEntry", "d5/d22/namespacePS2Keyboard.html#af836e54b73e44d0ab76a1548f4de8f3d", null ],
       [ "InterruptCallback", "d5/d22/namespacePS2Keyboard.html#ac0d2d25f3af4409a7255cee9b9160f0c", null ],
+      [ "PS2Wait", "d5/d22/namespacePS2Keyboard.html#a7a75fc63a9dc035343515546a0461887", null ],
       [ "InputReceived", "d5/d22/namespacePS2Keyboard.html#af4720b4e2a272f0fcb0d942e87212618", null ],
       [ "KAPI", "d5/d22/namespacePS2Keyboard.html#ac951b145f46f269bbf815921c025ac17", null ],
       [ "ScanCode", "d5/d22/namespacePS2Keyboard.html#a8d7ae6492e7718110ed5c1e345f8ea8a", null ]
@@ -299,8 +295,8 @@ var namespaces_dup =
     [ "Tasking", "d9/d3e/namespaceTasking.html", "d9/d3e/namespaceTasking" ],
     [ "Time", "d3/d56/namespaceTime.html", "d3/d56/namespaceTime" ],
     [ "UniversalAsynchronousReceiverTransmitter", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter.html", "d3/d65/namespaceUniversalAsynchronousReceiverTransmitter" ],
+    [ "vfs", "dc/dcb/namespacevfs.html", "dc/dcb/namespacevfs" ],
     [ "Video", "d6/de2/namespaceVideo.html", "d6/de2/namespaceVideo" ],
-    [ "VirtualFileSystem", "d5/da1/namespaceVirtualFileSystem.html", "d5/da1/namespaceVirtualFileSystem" ],
     [ "VMwareMouse", "d5/d82/namespaceVMwareMouse.html", "d5/d82/namespaceVMwareMouse" ],
     [ "x32", "de/d52/namespacex32.html", "de/d52/namespacex32" ],
     [ "x64", "d7/db0/namespacex64.html", "d7/db0/namespacex64" ],

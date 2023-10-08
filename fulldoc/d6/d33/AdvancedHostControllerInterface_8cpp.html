@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/Modules/AHCI/AdvancedHostControllerInterface.cpp File Reference</title>
+<title>Fennix: Kernel/modules/AHCI/AdvancedHostControllerInterface.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -96,8 +96,8 @@ $(document).ready(function(){initNavTree('d6/d33/AdvancedHostControllerInterface
 <div class="textblock"><code>#include &quot;<a class="el" href="../../df/da3/ahci_8hpp_source.html">ahci.hpp</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../d9/dd5/pci_8hpp_source.html">pci.hpp</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">../../DAPI.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d37/drv_8hpp_source.html">../drv.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d11/mapi_8hpp_source.html">../../mapi.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d27/mod_8hpp_source.html">../mod.hpp</a>&quot;</code><br />
 </div>
 <p><a href="../../d6/d33/AdvancedHostControllerInterface_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -112,17 +112,17 @@ Functions</h2></td></tr>
 <tr class="separator:aa6dedc0bc7031dd55884e6d45234ab73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a669d1cbbf3a904ec6cccd1e4bc07ce90"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#a669d1cbbf3a904ec6cccd1e4bc07ce90">AdvancedHostControllerInterface::DriverEntry</a> (void *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
 <tr class="separator:a669d1cbbf3a904ec6cccd1e4bc07ce90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff9c21fadf2888e6fddee93164778297"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#aff9c21fadf2888e6fddee93164778297">AdvancedHostControllerInterface::CallbackHandler</a> (<a class="el" href="../../d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
+<tr class="memitem:aff9c21fadf2888e6fddee93164778297"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#aff9c21fadf2888e6fddee93164778297">AdvancedHostControllerInterface::CallbackHandler</a> (<a class="el" href="../../d7/d11/mapi_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
 <tr class="separator:aff9c21fadf2888e6fddee93164778297"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40b9236e1139569e49281dc3438d8388"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#a40b9236e1139569e49281dc3438d8388">AdvancedHostControllerInterface::InterruptCallback</a> (<a class="el" href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *)</td></tr>
+<tr class="memitem:a40b9236e1139569e49281dc3438d8388"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#a40b9236e1139569e49281dc3438d8388">AdvancedHostControllerInterface::InterruptCallback</a> (<a class="el" href="../../d7/d11/mapi_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *)</td></tr>
 <tr class="separator:a40b9236e1139569e49281dc3438d8388"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a0fbbb94d549d9a5ba4fc01b8be2ab01c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#d7/d61/structKernelAPI">KernelAPI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#a0fbbb94d549d9a5ba4fc01b8be2ab01c">AdvancedHostControllerInterface::KAPI</a></td></tr>
+<tr class="memitem:a0fbbb94d549d9a5ba4fc01b8be2ab01c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d11/mapi_8hpp.html#d7/d61/structKernelAPI">KernelAPI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#a0fbbb94d549d9a5ba4fc01b8be2ab01c">AdvancedHostControllerInterface::KAPI</a></td></tr>
 <tr class="separator:a0fbbb94d549d9a5ba4fc01b8be2ab01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54aa8daa76a68da309f6d88a6163ac4a"><td class="memItemLeft" align="right" valign="top">HBAMemory *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#a54aa8daa76a68da309f6d88a6163ac4a">AdvancedHostControllerInterface::ABAR</a></td></tr>
-<tr class="separator:a54aa8daa76a68da309f6d88a6163ac4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21a16b6ceca75415e1f432a3b8d329d2"><td class="memItemLeft" align="right" valign="top">HBAMemory *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#a21a16b6ceca75415e1f432a3b8d329d2">AdvancedHostControllerInterface::AHBA</a></td></tr>
+<tr class="separator:a21a16b6ceca75415e1f432a3b8d329d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ef61490f08861c008620f6e3446c51b"><td class="memItemLeft" align="right" valign="top">Port *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#a6ef61490f08861c008620f6e3446c51b">AdvancedHostControllerInterface::Ports</a> [32]</td></tr>
 <tr class="separator:a6ef61490f08861c008620f6e3446c51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41ea5f5c7c35039ebbac7c4ab759cc05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/df4/Kernel_2include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/da1/namespaceAdvancedHostControllerInterface.html#a41ea5f5c7c35039ebbac7c4ab759cc05">AdvancedHostControllerInterface::PortCount</a> = 0</td></tr>
@@ -137,7 +137,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_559278b07106fc62284400afdb4b1bd1.html">Modules</a></li><li class="navelem"><a class="el" href="../../dir_c2ec7a8e972e86c01f20048859c2836a.html">AHCI</a></li><li class="navelem"><a class="el" href="../../d6/d33/AdvancedHostControllerInterface_8cpp.html">AdvancedHostControllerInterface.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_6bd7ae448e999fc4806673008d3d7608.html">modules</a></li><li class="navelem"><a class="el" href="../../dir_e197e111381ecd7d6713d7cb58b86118.html">AHCI</a></li><li class="navelem"><a class="el" href="../../d6/d33/AdvancedHostControllerInterface_8cpp.html">AdvancedHostControllerInterface.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

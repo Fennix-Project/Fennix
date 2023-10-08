@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/Core/Memory/HeapAllocators/liballoc_1_1/liballoc_hooks.cpp Source File</title>
+<title>Fennix Kernel: Kernel/core/memory/heap_allocators/liballoc_1_1/liballoc_hooks.cpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,15 +107,14 @@ $(document).ready(function(){initNavTree('d1/dba/liballoc__hooks_8cpp_source.htm
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d8/dc8/group__ALLOCHOOKS.html#ga32070b2a98fd86b1a6ee5efecb4edd5b">   17</a></span>&#160;<a class="code" href="../../d6/de6/include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> <span class="keywordtype">void</span> *<a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga32070b2a98fd86b1a6ee5efecb4edd5b">liballoc_alloc</a>(<span class="keywordtype">size_t</span> Pages)</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPages(Pages);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/d71/memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.RequestPages(Pages);</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
 <div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d8/dc8/group__ALLOCHOOKS.html#ga8d5be3c85e157d771a44c48509b43c42">   22</a></span>&#160;<a class="code" href="../../d6/de6/include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a> <span class="keywordtype">int</span> <a class="code" href="../../d8/dc8/group__ALLOCHOOKS.html#ga8d5be3c85e157d771a44c48509b43c42">liballoc_free</a>(<span class="keywordtype">void</span> *<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, <span class="keywordtype">size_t</span> Pages)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.FreePages(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, Pages);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d8/d71/memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a>.FreePages(<a class="code" href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a>, Pages);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
-<div class="ttc" id="aMemory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d8/dcc/Memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dcc/Memory_8cpp_source.html#l00043">Memory.cpp:43</a></div></div>
 <div class="ttc" id="aXallocV1_8cpp_html_a6fc2b8ed8be1aa26731a45000f43b8cc"><div class="ttname"><a href="../../dc/ddf/XallocV1_8cpp.html#a6fc2b8ed8be1aa26731a45000f43b8cc">Address</a></div><div class="ttdeci">void * Address</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddf/XallocV1_8cpp_source.html#l00001">XallocV1.cpp:1</a></div></div>
 <div class="ttc" id="agroup__ALLOCHOOKS_html_ga32070b2a98fd86b1a6ee5efecb4edd5b"><div class="ttname"><a href="../../d8/dc8/group__ALLOCHOOKS.html#ga32070b2a98fd86b1a6ee5efecb4edd5b">liballoc_alloc</a></div><div class="ttdeci">EXTERNC void * liballoc_alloc(size_t Pages)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dba/liballoc__hooks_8cpp_source.html#l00017">liballoc_hooks.cpp:17</a></div></div>
 <div class="ttc" id="agroup__ALLOCHOOKS_html_ga8b5670e4594b0b6f8be78fe17f0c3b53"><div class="ttname"><a href="../../d8/dc8/group__ALLOCHOOKS.html#ga8b5670e4594b0b6f8be78fe17f0c3b53">liballoc_lock</a></div><div class="ttdeci">EXTERNC int liballoc_lock()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dba/liballoc__hooks_8cpp_source.html#l00007">liballoc_hooks.cpp:7</a></div></div>
@@ -124,13 +123,14 @@ $(document).ready(function(){initNavTree('d1/dba/liballoc__hooks_8cpp_source.htm
 <div class="ttc" id="ainclude_2types_8h_html_a95e1d92b2619a326b2e86600f3d23100"><div class="ttname"><a href="../../d6/de6/include_2types_8h.html#a95e1d92b2619a326b2e86600f3d23100">EXTERNC</a></div><div class="ttdeci">#define EXTERNC</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de6/include_2types_8h_source.html#l00029">types.h:29</a></div></div>
 <div class="ttc" id="aliballoc__hooks_8cpp_html_a53b3e0eac4b5a3d178834c4e3fff362f"><div class="ttname"><a href="../../d1/dba/liballoc__hooks_8cpp.html#a53b3e0eac4b5a3d178834c4e3fff362f">NewLock</a></div><div class="ttdeci">NewLock(liballocLock)</div></div>
 <div class="ttc" id="alock_8hpp_html"><div class="ttname"><a href="../../d0/d44/lock_8hpp.html">lock.hpp</a></div></div>
+<div class="ttc" id="amemory_8cpp_html_ad0bbf7b6012cd16abb06c03dd26ffbaf"><div class="ttname"><a href="../../d8/d71/memory_8cpp.html#ad0bbf7b6012cd16abb06c03dd26ffbaf">KernelAllocator</a></div><div class="ttdeci">Physical KernelAllocator</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d71/memory_8cpp_source.html#l00043">memory.cpp:43</a></div></div>
 <div class="ttc" id="amemory_8hpp_html"><div class="ttname"><a href="../../da/d3e/memory_8hpp.html">memory.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_45b96e5faabc1aec1c962e9d67eabcf9.html">Core</a></li><li class="navelem"><a class="el" href="../../dir_49e28e04fe5a683ab6442a3687c2ecf7.html">Memory</a></li><li class="navelem"><a class="el" href="../../dir_c22f59685a994d14d97026f7ec4b6a8c.html">HeapAllocators</a></li><li class="navelem"><a class="el" href="../../dir_55488f7092e086acd2e027176b4676d1.html">liballoc_1_1</a></li><li class="navelem"><a class="el" href="../../d1/dba/liballoc__hooks_8cpp.html">liballoc_hooks.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_4b43f92f3b36afcf854dcf934e6beeae.html">core</a></li><li class="navelem"><a class="el" href="../../dir_0324a785b1c9bd6cbd91488045f3d0b5.html">memory</a></li><li class="navelem"><a class="el" href="../../dir_c5ea9415aa1db88b86345b822e37d7c6.html">heap_allocators</a></li><li class="navelem"><a class="el" href="../../dir_b23b76b638a220729e15e112e9809778.html">liballoc_1_1</a></li><li class="navelem"><a class="el" href="../../d1/dba/liballoc__hooks_8cpp.html">liballoc_hooks.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

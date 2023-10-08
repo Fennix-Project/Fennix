@@ -2,7 +2,7 @@ var powf__data_8h =
 [
     [ "powf_log2_data", "d7/d99/powf__data_8h.html#da/d89/structpowf__log2__data", [
       [ "poly", "d7/d99/powf__data_8h.html#a31fd722fd903e668d53898e0bb41da78", null ],
-      [ "tab", "d7/d99/powf__data_8h.html#a8bbba2da43ea45d56747f59ade8a9761", null ]
+      [ "tab", "d7/d99/powf__data_8h.html#ab22503cb8d87310c7bbb47a43dc16aae", null ]
     ] ],
     [ "powf_log2_data.tab", "d7/d99/powf__data_8h.html#d2/dde/structpowf__log2__data_8tab", [
       [ "invc", "d7/d99/powf__data_8h.html#ac793896b0f1ce01182868fbf8e05ad42", null ],

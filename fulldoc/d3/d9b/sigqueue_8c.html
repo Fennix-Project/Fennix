@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('d3/d9b/sigqueue_8c.html','../../'); in
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a372244697abb114b476afc12f6c3c2e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9b/sigqueue_8c.html#a372244697abb114b476afc12f6c3c2e9">sigqueue</a> (<a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, int sig, const union sigval <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>)</td></tr>
+<tr class="memitem:a372244697abb114b476afc12f6c3c2e9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9b/sigqueue_8c.html#a372244697abb114b476afc12f6c3c2e9">sigqueue</a> (<a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> <a class="el" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, int sig, const union <a class="el" href="../../d4/dc2/Kernel_2include_2signal_8h.html#d5/d3e/unionsigval">sigval</a> <a class="el" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>)</td></tr>
 <tr class="separator:a372244697abb114b476afc12f6c3c2e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -114,7 +114,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int sigqueue </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td>
           <td class="paramname"><em>pid</em>, </td>
         </tr>
         <tr>
@@ -126,7 +126,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const union sigval&#160;</td>
+          <td class="paramtype">const union <a class="el" href="../../d4/dc2/Kernel_2include_2signal_8h.html#d5/d3e/unionsigval">sigval</a>&#160;</td>
           <td class="paramname"><em>value</em>&#160;</td>
         </tr>
         <tr>
@@ -147,20 +147,20 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    si.si_code = SI_QUEUE;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    si.si_value = <a class="code" href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    si.si_uid = <a class="code" href="../../d0/d32/dcigettext_8c.html#a844d3dee17e8924300992d69b641f7aa">getuid</a>();</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../de/df9/musl_2src_2include_2signal_8h.html#ae6fdd6b31152545b2e454b6ecac740c8">__block_app_sigs</a>(&amp;set);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../da/de3/Userspace_2musl_2src_2include_2signal_8h.html#ae6fdd6b31152545b2e454b6ecac740c8">__block_app_sigs</a>(&amp;set);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    si.si_pid = <a class="code" href="../../d3/d3a/jobs_8h.html#add1dc6545057b7f1c7f91352536fb060">getpid</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    r = <a class="code" href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a>(SYS_rt_sigqueueinfo, <a class="code" href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a>, sig, &amp;si);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../de/df9/musl_2src_2include_2signal_8h.html#a129974f2cf673330f9f9ce7bd2935dc2">__restore_sigs</a>(&amp;set);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../da/de3/Userspace_2musl_2src_2include_2signal_8h.html#a129974f2cf673330f9f9ce7bd2935dc2">__restore_sigs</a>(&amp;set);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">return</span> r;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<div class="ttc" id="aUserspace_2musl_2src_2include_2signal_8h_html_a129974f2cf673330f9f9ce7bd2935dc2"><div class="ttname"><a href="../../da/de3/Userspace_2musl_2src_2include_2signal_8h.html#a129974f2cf673330f9f9ce7bd2935dc2">__restore_sigs</a></div><div class="ttdeci">hidden void __restore_sigs(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d1c/block_8c_source.html#l00041">block.c:41</a></div></div>
+<div class="ttc" id="aUserspace_2musl_2src_2include_2signal_8h_html_ae6fdd6b31152545b2e454b6ecac740c8"><div class="ttname"><a href="../../da/de3/Userspace_2musl_2src_2include_2signal_8h.html#ae6fdd6b31152545b2e454b6ecac740c8">__block_app_sigs</a></div><div class="ttdeci">hidden void __block_app_sigs(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d1c/block_8c_source.html#l00036">block.c:36</a></div></div>
 <div class="ttc" id="aconvert_8h_html_ac72cd3c233680f95fd1d168a22c912ad"><div class="ttname"><a href="../../d3/d82/convert_8h.html#ac72cd3c233680f95fd1d168a22c912ad">memset</a></div><div class="ttdeci">#define memset(dest, c, n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d82/convert_8h_source.html#l00120">convert.h:120</a></div></div>
 <div class="ttc" id="adcigettext_8c_html_a844d3dee17e8924300992d69b641f7aa"><div class="ttname"><a href="../../d0/d32/dcigettext_8c.html#a844d3dee17e8924300992d69b641f7aa">getuid</a></div><div class="ttdeci">#define getuid()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d32/dcigettext_8c_source.html#l00402">dcigettext.c:402</a></div></div>
 <div class="ttc" id="ajobs_8h_html_add1dc6545057b7f1c7f91352536fb060"><div class="ttname"><a href="../../d3/d3a/jobs_8h.html#add1dc6545057b7f1c7f91352536fb060">getpid</a></div><div class="ttdeci">pid_t getpid()</div></div>
 <div class="ttc" id="alibc_2include_2setjmp_8h_html_ac4f474c82e82cbb89ca7c36dd52be0ed"><div class="ttname"><a href="../../db/d5e/libc_2include_2setjmp_8h.html#ac4f474c82e82cbb89ca7c36dd52be0ed">value</a></div><div class="ttdeci">int value</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d5e/libc_2include_2setjmp_8h_source.html#l00032">setjmp.h:32</a></div></div>
 <div class="ttc" id="alibc_2include_2sys_2wait_8h_html_dc/dbc/structsiginfo__t"><div class="ttname"><a href="../../d1/d7b/libc_2include_2sys_2wait_8h.html#dc/dbc/structsiginfo__t">siginfo_t</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d7b/libc_2include_2sys_2wait_8h_source.html#l00013">wait.h:14</a></div></div>
 <div class="ttc" id="amconf_8c_html_ae0d46a978d5cd6707411f276ad869b9c"><div class="ttname"><a href="../../d0/d43/mconf_8c.html#ae0d46a978d5cd6707411f276ad869b9c">pid</a></div><div class="ttdeci">pid_t pid</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d43/mconf_8c_source.html#l00450">mconf.c:450</a></div></div>
-<div class="ttc" id="amusl_2src_2include_2signal_8h_html_a129974f2cf673330f9f9ce7bd2935dc2"><div class="ttname"><a href="../../de/df9/musl_2src_2include_2signal_8h.html#a129974f2cf673330f9f9ce7bd2935dc2">__restore_sigs</a></div><div class="ttdeci">hidden void __restore_sigs(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d1c/block_8c_source.html#l00041">block.c:41</a></div></div>
-<div class="ttc" id="amusl_2src_2include_2signal_8h_html_ae6fdd6b31152545b2e454b6ecac740c8"><div class="ttname"><a href="../../de/df9/musl_2src_2include_2signal_8h.html#ae6fdd6b31152545b2e454b6ecac740c8">__block_app_sigs</a></div><div class="ttdeci">hidden void __block_app_sigs(void *)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d1c/block_8c_source.html#l00036">block.c:36</a></div></div>
 <div class="ttc" id="asigset__t_8h_html_a9140a5882f847f67b8155c759ac6aa05"><div class="ttname"><a href="../../d8/d90/sigset__t_8h.html#a9140a5882f847f67b8155c759ac6aa05">sigset_t</a></div><div class="ttdeci">unsigned long sigset_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d90/sigset__t_8h_source.html#l00004">sigset_t.h:4</a></div></div>
 <div class="ttc" id="asyscall_8c_html_a5a1fb7c33165b0611601f203d20ed6f7"><div class="ttname"><a href="../../db/dd8/syscall_8c.html#a5a1fb7c33165b0611601f203d20ed6f7">syscall</a></div><div class="ttdeci">long syscall(long n,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dd8/syscall_8c_source.html#l00008">syscall.c:8</a></div></div>
 </div><!-- fragment -->

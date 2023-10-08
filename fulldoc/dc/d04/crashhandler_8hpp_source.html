@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix: Kernel/Core/crashhandler.hpp Source File</title>
+<title>Fennix: Kernel/core/crashhandler.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,20 +90,20 @@ $(document).ready(function(){initNavTree('dc/d04/crashhandler_8hpp_source.html',
 </div><!--header-->
 <div class="contents">
 <a href="../../dc/d04/crashhandler_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef __FENNIX_KERNEL_CRASH_HANDLER_H__</span></div>
@@ -130,16 +130,16 @@ $(document).ready(function(){initNavTree('dc/d04/crashhandler_8hpp_source.html',
 <div class="ttc" id="aints_8hpp_html"><div class="ttname"><a href="../../d0/d36/ints_8hpp.html">ints.hpp</a></div></div>
 <div class="ttc" id="aints_8hpp_html_a8e948e343c3a3e30fc64d23a81ec2815"><div class="ttname"><a href="../../d0/d36/ints_8hpp.html#a8e948e343c3a3e30fc64d23a81ec2815">INT_FRAMES_MAX</a></div><div class="ttdeci">#define INT_FRAMES_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d36/ints_8hpp_source.html#l00029">ints.hpp:29</a></div></div>
 <div class="ttc" id="anamespaceCrashHandler_html"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html">CrashHandler</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dd9/chfcts_8hpp_source.html#l00269">chfcts.hpp:270</a></div></div>
-<div class="ttc" id="anamespaceCrashHandler_html_a16c7b17cef8564d1a27df12f36f25f88"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a16c7b17cef8564d1a27df12f36f25f88">CrashHandler::EHIntFrames</a></div><div class="ttdeci">void * EHIntFrames[INT_FRAMES_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de7/CrashHandler_8cpp_source.html#l00050">CrashHandler.cpp:50</a></div></div>
-<div class="ttc" id="anamespaceCrashHandler_html_a202e013cac1a108322c79e592f3a5e0c"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a></div><div class="ttdeci">SafeFunction void Handle(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de7/CrashHandler_8cpp_source.html#l01133">CrashHandler.cpp:1133</a></div></div>
-<div class="ttc" id="anamespaceCrashHandler_html_a75aadb54e6eafdfdd020ae223f65fbf8"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">CrashHandler::EHPrint</a></div><div class="ttdeci">SafeFunction void EHPrint(const char *Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de7/CrashHandler_8cpp_source.html#l00060">CrashHandler.cpp:60</a></div></div>
-<div class="ttc" id="anamespaceCrashHandler_html_aee307b4511d76c583b1c64d952d842ec"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#aee307b4511d76c583b1c64d952d842ec">CrashHandler::PageFaultAddress</a></div><div class="ttdeci">uintptr_t PageFaultAddress</div><div class="ttdef"><b>Definition:</b> <a href="../../db/de7/CrashHandler_8cpp_source.html#l00049">CrashHandler.cpp:49</a></div></div>
+<div class="ttc" id="anamespaceCrashHandler_html_a16c7b17cef8564d1a27df12f36f25f88"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a16c7b17cef8564d1a27df12f36f25f88">CrashHandler::EHIntFrames</a></div><div class="ttdeci">void * EHIntFrames[INT_FRAMES_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5f/crash__handler_8cpp_source.html#l00050">crash_handler.cpp:50</a></div></div>
+<div class="ttc" id="anamespaceCrashHandler_html_a202e013cac1a108322c79e592f3a5e0c"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a202e013cac1a108322c79e592f3a5e0c">CrashHandler::Handle</a></div><div class="ttdeci">SafeFunction void Handle(void *Data)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5f/crash__handler_8cpp_source.html#l01151">crash_handler.cpp:1151</a></div></div>
+<div class="ttc" id="anamespaceCrashHandler_html_a75aadb54e6eafdfdd020ae223f65fbf8"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#a75aadb54e6eafdfdd020ae223f65fbf8">CrashHandler::EHPrint</a></div><div class="ttdeci">SafeFunction void EHPrint(const char *Format,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5f/crash__handler_8cpp_source.html#l00061">crash_handler.cpp:61</a></div></div>
+<div class="ttc" id="anamespaceCrashHandler_html_aee307b4511d76c583b1c64d952d842ec"><div class="ttname"><a href="../../d2/d57/namespaceCrashHandler.html#aee307b4511d76c583b1c64d952d842ec">CrashHandler::PageFaultAddress</a></div><div class="ttdeci">uintptr_t PageFaultAddress</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d5f/crash__handler_8cpp_source.html#l00049">crash_handler.cpp:49</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_45b96e5faabc1aec1c962e9d67eabcf9.html">Core</a></li><li class="navelem"><a class="el" href="../../dc/d04/crashhandler_8hpp.html">crashhandler.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_4b43f92f3b36afcf854dcf934e6beeae.html">core</a></li><li class="navelem"><a class="el" href="../../dc/d04/crashhandler_8hpp.html">crashhandler.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

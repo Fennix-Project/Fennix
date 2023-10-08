@@ -84,7 +84,6 @@ var menudata={children:[
 {text:"c",url:"namespacemembers_vars.html#index_c"},
 {text:"d",url:"namespacemembers_vars.html#index_d"},
 {text:"e",url:"namespacemembers_vars.html#index_e"},
-{text:"f",url:"namespacemembers_vars.html#index_f"},
 {text:"g",url:"namespacemembers_vars.html#index_g"},
 {text:"i",url:"namespacemembers_vars.html#index_i"},
 {text:"k",url:"namespacemembers_vars.html#index_k"},
@@ -101,7 +100,6 @@ var menudata={children:[
 {text:"d",url:"namespacemembers_type.html#index_d"},
 {text:"e",url:"namespacemembers_type.html#index_e"},
 {text:"i",url:"namespacemembers_type.html#index_i"},
-{text:"o",url:"namespacemembers_type.html#index_o"},
 {text:"p",url:"namespacemembers_type.html#index_p"},
 {text:"r",url:"namespacemembers_type.html#index_r"},
 {text:"s",url:"namespacemembers_type.html#index_s"},
@@ -213,6 +211,7 @@ var menudata={children:[
 {text:"w",url:"functions_func_w.html#index_w"},
 {text:"x",url:"functions_func_x.html#index_x"},
 {text:"y",url:"functions_func_y.html#index_y"},
+{text:"z",url:"functions_func_z.html#index_z"},
 {text:"~",url:"functions_func_~.html#index__7E"}]},
 {text:"Variables",url:"functions_vars.html",children:[
 {text:"_",url:"functions_vars.html#index__5F"},
@@ -273,7 +272,6 @@ var menudata={children:[
 {text:"v",url:"globals_v.html#index_v"},
 {text:"w",url:"globals_w.html#index_w"},
 {text:"x",url:"globals_x.html#index_x"},
-{text:"z",url:"globals_z.html#index_z"},
 {text:"~",url:"globals_~.html#index__7E"}]},
 {text:"Functions",url:"globals_func.html",children:[
 {text:"_",url:"globals_func.html#index__5F"},
@@ -321,8 +319,7 @@ var menudata={children:[
 {text:"u",url:"globals_vars.html#index_u"},
 {text:"v",url:"globals_vars.html#index_v"},
 {text:"w",url:"globals_vars.html#index_w"},
-{text:"x",url:"globals_vars.html#index_x"},
-{text:"z",url:"globals_vars.html#index_z"}]},
+{text:"x",url:"globals_vars.html#index_x"}]},
 {text:"Typedefs",url:"globals_type.html",children:[
 {text:"_",url:"globals_type.html#index__5F"},
 {text:"b",url:"globals_type.html#index_b"},

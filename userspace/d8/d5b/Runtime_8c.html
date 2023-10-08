@@ -106,9 +106,9 @@ Functions</h2></td></tr>
 <tr class="separator:a5c154475f99930f1e8474ac110d14d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a401d8fb149919a365e73d74ec68cc898"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a401d8fb149919a365e73d74ec68cc898">__libc_fini_std</a> (void)</td></tr>
 <tr class="separator:a401d8fb149919a365e73d74ec68cc898"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a207028bbe9a1ca307b12b6ec505bb160"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/ssp_8c.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a207028bbe9a1ca307b12b6ec505bb160">__libc_init</a> (void)</td></tr>
+<tr class="memitem:a207028bbe9a1ca307b12b6ec505bb160"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a207028bbe9a1ca307b12b6ec505bb160">__libc_init</a> (void)</td></tr>
 <tr class="separator:a207028bbe9a1ca307b12b6ec505bb160"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2688b8362b867569ddf2cfdf15b28b29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d2b/ssp_8c.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a2688b8362b867569ddf2cfdf15b28b29">_exit</a> (int <a class="el" href="../../d6/dd0/gzip_8c.html#a068e76e6034d06450385bc98b69ea53e">Code</a>)</td></tr>
+<tr class="memitem:a2688b8362b867569ddf2cfdf15b28b29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/Runtime_8c.html#a2688b8362b867569ddf2cfdf15b28b29">_exit</a> (int <a class="el" href="../../d6/dd0/gzip_8c.html#a068e76e6034d06450385bc98b69ea53e">Code</a>)</td></tr>
 <tr class="separator:a2688b8362b867569ddf2cfdf15b28b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -175,7 +175,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d2b/ssp_8c.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void __libc_init </td>
+          <td class="memname"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void __libc_init </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -259,7 +259,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d2b/ssp_8c.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void _exit </td>
+          <td class="memname"><a class="el" href="../../d7/d4c/libc_2include_2types_8h.html#ad17d551e31d1828c68acf40684849b7e">PUBLIC</a> void _exit </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>Code</em></td><td>)</td>
@@ -272,7 +272,7 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#a401d8fb149919a365e73d74ec68cc898">__libc_fini_std</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d8/d5b/Runtime_8c.html#af80062f462ba444a6fbd61f52b58f170">__libc_fini_array</a>();</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    syscall1(sys_Exit, (<span class="keywordtype">long</span>)<a class="code" href="../../d6/dd0/gzip_8c.html#a068e76e6034d06450385bc98b69ea53e">Code</a>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    syscall1(sc_exit, (<span class="keywordtype">long</span>)<a class="code" href="../../d6/dd0/gzip_8c.html#a068e76e6034d06450385bc98b69ea53e">Code</a>);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">while</span> (1)</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        ;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>

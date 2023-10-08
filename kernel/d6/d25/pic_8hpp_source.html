@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/Architecture/i386/Interrupts/pic.hpp Source File</title>
+<title>Fennix Kernel: Kernel/arch/i386/interrupts/pic.hpp Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -90,20 +90,20 @@ $(document).ready(function(){initNavTree('d6/d25/pic_8hpp_source.html','../../')
 </div><!--header-->
 <div class="contents">
 <a href="../../d6/d25/pic_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">   This file is part of Fennix Kernel.</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment">    This file is part of Fennix Kernel.</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">   Fennix Kernel is free software: you can redistribute it and/or</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">   modify it under the terms of the GNU General Public License as</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">   published by the Free Software Foundation, either version 3 of</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">   the License, or (at your option) any later version.</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">    Fennix Kernel is free software: you can redistribute it and/or</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">    modify it under the terms of the GNU General Public License as</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">    published by the Free Software Foundation, either version 3 of</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">    the License, or (at your option) any later version.</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">   Fennix Kernel is distributed in the hope that it will be useful,</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">   but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">   GNU General Public License for more details.</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    Fennix Kernel is distributed in the hope that it will be useful,</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    but WITHOUT ANY WARRANTY; without even the implied warranty of</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    GNU General Public License for more details.</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment"></span> </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">   You should have received a copy of the GNU General Public License</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">   along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    You should have received a copy of the GNU General Public License</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    along with Fennix Kernel. If not, see &lt;https://www.gnu.org/licenses/&gt;.</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef __FENNIX_KERNEL_8259PIC_H__</span></div>
@@ -142,13 +142,13 @@ $(document).ready(function(){initNavTree('d6/d25/pic_8hpp_source.html','../../')
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#ae6064457a2b00c870b30c76751ede0af">PIT</a>(<a class="code" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#aaa064bf3ff64c261b3ca5ab3992e5d34">Port</a>, <a class="code" href="../../d6/de6/include_2types_8h.html#a5debae8b2a1ec20a6694c0c443ee399e">uint16_t</a> <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#a7e85a061c9f54867d2e44e7fce653994">Frequency</a>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#ab90f83f0d543c035eb82833a841c8a14">~PIT</a>();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#ab19f075c061d0862597c19475d570e95">PrepareSleep</a>(<a class="code" href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1aab73e2ac34c19c796d3e4e3a49dc0f11">Milliseconds</a>);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#ab19f075c061d0862597c19475d570e95">PrepareSleep</a>(<a class="code" href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a> <a class="code" href="../../d3/d56/namespaceTime.html#abf085dea646562954f331d46d9712ed1aab73e2ac34c19c796d3e4e3a49dc0f11">Milliseconds</a>);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../d1/d20/classPIC_1_1PIT.html#abf776b71e7d000b8560afb94b531c90a">PerformSleep</a>();</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    };</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !__FENNIX_KERNEL_8259PIC_H__</span></div>
-<div class="ttc" id="aArithmeticOperations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../d0/d18/ArithmeticOperations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d18/ArithmeticOperations_8c_source.html#l00295">ArithmeticOperations.c:295</a></div></div>
+<div class="ttc" id="aarithmetic__operations_8c_html_a435d1572bf3f880d55459d9805097f62"><div class="ttname"><a href="../../dd/ddd/arithmetic__operations_8c.html#a435d1572bf3f880d55459d9805097f62">uint32_t</a></div><div class="ttdeci">unsigned int uint32_t</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/ddd/arithmetic__operations_8c_source.html#l00295">arithmetic_operations.c:295</a></div></div>
 <div class="ttc" id="aclassPIC_1_1PIC_html_a1579272f0ee76c768ec412c59f4224fd"><div class="ttname"><a href="../../d2/d37/classPIC_1_1PIC.html#a1579272f0ee76c768ec412c59f4224fd">PIC::PIC::SlaveDataPort</a></div><div class="ttdeci">uint8_t SlaveDataPort</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d25/pic_8hpp_source.html#l00031">pic.hpp:31</a></div></div>
 <div class="ttc" id="aclassPIC_1_1PIC_html_a236d0b1c7fd015c5c887c1d308803d34"><div class="ttname"><a href="../../d2/d37/classPIC_1_1PIC.html#a236d0b1c7fd015c5c887c1d308803d34">PIC::PIC::MasterDataPort</a></div><div class="ttdeci">uint8_t MasterDataPort</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d25/pic_8hpp_source.html#l00029">pic.hpp:29</a></div></div>
 <div class="ttc" id="aclassPIC_1_1PIC_html_a23a00d51c810009f3fc87df9fef3b4cf"><div class="ttname"><a href="../../d2/d37/classPIC_1_1PIC.html#a23a00d51c810009f3fc87df9fef3b4cf">PIC::PIC::SlaveOffset</a></div><div class="ttdeci">uint8_t SlaveOffset</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d25/pic_8hpp_source.html#l00033">pic.hpp:33</a></div></div>
@@ -173,7 +173,7 @@ $(document).ready(function(){initNavTree('d6/d25/pic_8hpp_source.html','../../')
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_24d0e9fa304c1dbb1880c7df3a2dd8d2.html">Architecture</a></li><li class="navelem"><a class="el" href="../../dir_d1f1e238e78aae763501e67f7993a262.html">i386</a></li><li class="navelem"><a class="el" href="../../dir_38236384894d80697880a4739685f751.html">Interrupts</a></li><li class="navelem"><a class="el" href="../../d6/d25/pic_8hpp.html">pic.hpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_23304d1932daabdb6e461c01efa6605d.html">arch</a></li><li class="navelem"><a class="el" href="../../dir_4277c6e84f663c5927ce4d6a7cd57f36.html">i386</a></li><li class="navelem"><a class="el" href="../../dir_2dd4a1bb707d851bdcf934a2cda514f0.html">interrupts</a></li><li class="navelem"><a class="el" href="../../d6/d25/pic_8hpp.html">pic.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

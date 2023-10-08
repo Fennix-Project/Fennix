@@ -1,7 +1,5 @@
 var NAVTREEINDEX159 =
 {
-"d7/dee/arch_2or1k_2bits_2reg_8h.html#aeea7ec6e47ecea02cc6812b268034b28":[6,0,1,3,0,9,0,5,0],
-"d7/dee/arch_2or1k_2bits_2reg_8h_source.html":[6,0,1,3,0,9,0,5],
 "d7/dee/musl_2src_2misc_2getopt_8c.html":[6,0,1,3,5,20,13],
 "d7/dee/musl_2src_2misc_2getopt_8c.html#a089111af48b8674d3d29b53088b9c4c1":[6,0,1,3,5,20,13,7],
 "d7/dee/musl_2src_2misc_2getopt_8c.html#a207d113504e5af7ab4f47255ce60e81a":[6,0,1,3,5,20,13,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX159 =
 "d8/d11/structglobals.html#a0f382c43f32036a05fe92961204cefb1":[5,0,430,346],
 "d8/d11/structglobals.html#a0f557ad6bec047f362876d9fd3c4d97b":[5,0,430,762],
 "d8/d11/structglobals.html#a1008c8f28ad6a0e799c516c8afcc62ca":[5,0,430,152],
-"d8/d11/structglobals.html#a101cc10a901a7a42f7427f83b6f2848b":[5,0,430,390]
+"d8/d11/structglobals.html#a101cc10a901a7a42f7427f83b6f2848b":[5,0,430,390],
+"d8/d11/structglobals.html#a1071138984f77388bbc524913c0d543a":[5,0,430,492],
+"d8/d11/structglobals.html#a10ce52d46b56721de7f4ecb900aa838a":[5,0,430,433]
 };

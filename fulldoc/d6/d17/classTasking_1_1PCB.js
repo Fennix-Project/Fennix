@@ -2,8 +2,11 @@ var classTasking_1_1PCB =
 [
     [ "PCB", "d6/d17/classTasking_1_1PCB.html#aa445b2ca2c1a64611f0069d162687d91", null ],
     [ "~PCB", "d6/d17/classTasking_1_1PCB.html#a8c2aa410b424dd736ab088069ac88df3", null ],
+    [ "GetContext", "d6/d17/classTasking_1_1PCB.html#aa99a374a800ccf2649fca58ee2a1d200", null ],
+    [ "GetSize", "d6/d17/classTasking_1_1PCB.html#acb6f68459af266456c606eb08c696f32", null ],
     [ "Rename", "d6/d17/classTasking_1_1PCB.html#a349b3b4816cdd6db75c3889d8faae347", null ],
     [ "SetWorkingDirectory", "d6/d17/classTasking_1_1PCB.html#a6beb09bb9903a9f9d92a6a6a21cec150", null ],
+    [ "AllocatedMemory", "d6/d17/classTasking_1_1PCB.html#aa2bc0252506e99fa79cc2c66b7379b24", null ],
     [ "Children", "d6/d17/classTasking_1_1PCB.html#aa34b30685edd8c5a9a006021fe036832", null ],
     [ "ctx", "d6/d17/classTasking_1_1PCB.html#ad3f61f5b9108e0899e60415a3c87f7d1", null ],
     [ "CurrentWorkingDirectory", "d6/d17/classTasking_1_1PCB.html#a8e03a5739a123909e65a4737bbce16d0", null ],
@@ -13,15 +16,16 @@ var classTasking_1_1PCB =
     [ "ID", "d6/d17/classTasking_1_1PCB.html#a3bb6d884a387f44fa6e6b0bd79f5b24c", null ],
     [ "Info", "d6/d17/classTasking_1_1PCB.html#a887637de6f393b567a480ede30884446", null ],
     [ "IPC", "d6/d17/classTasking_1_1PCB.html#a9b9523ac2d94690834db9de8e5e137bc", null ],
-    [ "memDirectory", "d6/d17/classTasking_1_1PCB.html#a705672c55b8d6bc21dbed2003e083a4f", null ],
-    [ "Memory", "d6/d17/classTasking_1_1PCB.html#a06b7ec145f7f8bd74a3338a6f38ee1e8", null ],
+    [ "KeepInMemory", "d6/d17/classTasking_1_1PCB.html#ae3b6618d9f56907e735b2385b07c2913", null ],
+    [ "KeepTime", "d6/d17/classTasking_1_1PCB.html#ae34c0dfd1b8312a5cf89ce1781119790", null ],
     [ "Name", "d6/d17/classTasking_1_1PCB.html#a3471bd96877a52ae53906382f16ad7ad", null ],
     [ "OwnPageTable", "d6/d17/classTasking_1_1PCB.html#a1bffacf5aca4b124e8dc7ac5274de0d1", null ],
     [ "PageTable", "d6/d17/classTasking_1_1PCB.html#a26a0d1882e42b835ba923b400dadaeb8", null ],
     [ "Parent", "d6/d17/classTasking_1_1PCB.html#aa1b70c60a92bb5cd30c81c17f51af986", null ],
     [ "ProcessDirectory", "d6/d17/classTasking_1_1PCB.html#a7a6f103c359920019219af1920d7db61", null ],
     [ "ProgramBreak", "d6/d17/classTasking_1_1PCB.html#a14b49497fae5e804561570215ce4532c", null ],
-    [ "Security", "d6/d17/classTasking_1_1PCB.html#abbf3d0c574fe169d021b54aa9bb62e20", null ],
-    [ "Status", "d6/d17/classTasking_1_1PCB.html#a5885b53a35b073e2d97b2b928726646c", null ],
-    [ "Threads", "d6/d17/classTasking_1_1PCB.html#ab346d75cb439c34d3d476d58cab35699", null ]
+    [ "Security", "d6/d17/classTasking_1_1PCB.html#a76cfa46595c8dc178042f5b5e1d45423", null ],
+    [ "State", "d6/d17/classTasking_1_1PCB.html#a8526b515574585b993c26bd29960ea21", null ],
+    [ "Threads", "d6/d17/classTasking_1_1PCB.html#ab346d75cb439c34d3d476d58cab35699", null ],
+    [ "vma", "d6/d17/classTasking_1_1PCB.html#a411daae850caf3bb702d2ebbb69318d8", null ]
 ];

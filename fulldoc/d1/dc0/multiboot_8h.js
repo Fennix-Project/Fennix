@@ -49,7 +49,7 @@ var multiboot_8h =
       [ "mmap_length", "d1/dc0/multiboot_8h.html#a86a0d881c5233a4b1c8cd690ccd19b75", null ],
       [ "mods_addr", "d1/dc0/multiboot_8h.html#a854bdbfa7b23c9c3dfa0bfc155ef8242", null ],
       [ "mods_count", "d1/dc0/multiboot_8h.html#aebdafce31f94277d138202f7b1ec35cc", null ],
-      [ "u", "d1/dc0/multiboot_8h.html#aabbb421bb4db97ea05e078c6adfff704", null ],
+      [ "u", "d1/dc0/multiboot_8h.html#a16c9165788a02f56e57fa5bef3b6ca30", null ],
       [ "vbe_control_info", "d1/dc0/multiboot_8h.html#a06191cef73b64e9d64a01850547fd2e8", null ],
       [ "vbe_interface_len", "d1/dc0/multiboot_8h.html#ab3c537df524db1ed0aeaa2e6f61a23e6", null ],
       [ "vbe_interface_off", "d1/dc0/multiboot_8h.html#a1621d51b1cc198a1496e9f61b3708291", null ],
@@ -90,12 +90,12 @@ var multiboot_8h =
       [ "aout_sym", "d1/dc0/multiboot_8h.html#adcc9d90eba827321c643ad06b62c7817", null ],
       [ "elf_sec", "d1/dc0/multiboot_8h.html#af2b83453f34de71046f2bbb48051c1f4", null ]
     ] ],
-    [ "multiboot_info.__unnamed93__", "d1/dc0/multiboot_8h.html#d0/dac/unionmultiboot__info_8____unnamed93____", null ],
-    [ "multiboot_info.__unnamed93__.__unnamed95__", "d1/dc0/multiboot_8h.html#d5/dba/structmultiboot__info_8____unnamed93_____8____unnamed95____", [
+    [ "multiboot_info.__unnamed55__", "d1/dc0/multiboot_8h.html#df/d1e/unionmultiboot__info_8____unnamed55____", null ],
+    [ "multiboot_info.__unnamed55__.__unnamed57__", "d1/dc0/multiboot_8h.html#db/d30/structmultiboot__info_8____unnamed55_____8____unnamed57____", [
       [ "framebuffer_palette_addr", "d1/dc0/multiboot_8h.html#ab4a160c025f0db5470ddced0d2c99de3", null ],
       [ "framebuffer_palette_num_colors", "d1/dc0/multiboot_8h.html#a9ea6d9ae58149f37ee098ce870bf07f0", null ]
     ] ],
-    [ "multiboot_info.__unnamed93__.__unnamed97__", "d1/dc0/multiboot_8h.html#d1/d5f/structmultiboot__info_8____unnamed93_____8____unnamed97____", [
+    [ "multiboot_info.__unnamed55__.__unnamed59__", "d1/dc0/multiboot_8h.html#da/dfc/structmultiboot__info_8____unnamed55_____8____unnamed59____", [
       [ "framebuffer_blue_field_position", "d1/dc0/multiboot_8h.html#ace107d23f7f4af6fd8d969926c5c9d16", null ],
       [ "framebuffer_blue_mask_size", "d1/dc0/multiboot_8h.html#aa8eaba7a0a6cf04509a014ac4bc937c0", null ],
       [ "framebuffer_green_field_position", "d1/dc0/multiboot_8h.html#adfcdecf04630d77ee5e41006f47dc4d7", null ],

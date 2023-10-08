@@ -37,7 +37,7 @@ var dir_bdd34a2200479cb1c89088e99c8d7e58 =
     [ "sem.h", "de/dbd/include_2sys_2sem_8h.html", "de/dbd/include_2sys_2sem_8h" ],
     [ "sendfile.h", "db/d77/sendfile_8h.html", "db/d77/sendfile_8h" ],
     [ "shm.h", "da/d42/include_2sys_2shm_8h.html", "da/d42/include_2sys_2shm_8h" ],
-    [ "signal.h", "d6/d67/musl_2include_2sys_2signal_8h.html", null ],
+    [ "signal.h", "d7/d2c/Userspace_2musl_2include_2sys_2signal_8h.html", null ],
     [ "signalfd.h", "dc/d2f/signalfd_8h.html", "dc/d2f/signalfd_8h" ],
     [ "socket.h", "d4/d92/include_2sys_2socket_8h.html", "d4/d92/include_2sys_2socket_8h" ],
     [ "soundcard.h", "d1/d50/include_2sys_2soundcard_8h.html", null ],

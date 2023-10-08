@@ -97,7 +97,7 @@ $(document).ready(function(){initNavTree('d1/da0/musl_2src_2process_2wait_8c.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:abf2fbcf6df59fd5234e9eed4db1a1804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da0/musl_2src_2process_2wait_8c.html#abf2fbcf6df59fd5234e9eed4db1a1804">wait</a> (int *<a class="el" href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a>)</td></tr>
+<tr class="memitem:abf2fbcf6df59fd5234e9eed4db1a1804"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/da0/musl_2src_2process_2wait_8c.html#abf2fbcf6df59fd5234e9eed4db1a1804">wait</a> (int *<a class="el" href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a>)</td></tr>
 <tr class="separator:abf2fbcf6df59fd5234e9eed4db1a1804"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -108,7 +108,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> <a class="el" href="../../d7/d23/unionwait_8h.html#de/d61/unionwait">wait</a> </td>
+          <td class="memname"><a class="el" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a> <a class="el" href="../../d7/d23/unionwait_8h.html#de/d61/unionwait">wait</a> </td>
           <td>(</td>
           <td class="paramtype">int *&#160;</td>
           <td class="paramname"><em>status</em></td><td>)</td>
@@ -119,10 +119,10 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/da0/musl_2src_2process_2wait_8c_source.html#l00003">3</a> of file <a class="el" href="../../d1/da0/musl_2src_2process_2wait_8c_source.html">wait.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/df1/libc_2src_2std_2sys_2wait_8c.html#a138fa78f4651ff0e359e3f2af5e44e0d">waitpid</a>((<a class="code" href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>)-1, <a class="code" href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a>, 0);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/df1/libc_2src_2std_2sys_2wait_8c.html#a138fa78f4651ff0e359e3f2af5e44e0d">waitpid</a>((<a class="code" href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a>)-1, <a class="code" href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a>, 0);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="ttc" id="aLinux_8cpp_html_a288e13e815d43b06e75819f8939524df"><div class="ttname"><a href="../../db/d9e/Linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a></div><div class="ttdeci">int pid_t</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9e/Linux_8cpp_source.html#l00091">Linux.cpp:91</a></div></div>
 <div class="ttc" id="alibc_2src_2std_2sys_2wait_8c_html_a138fa78f4651ff0e359e3f2af5e44e0d"><div class="ttname"><a href="../../d3/df1/libc_2src_2std_2sys_2wait_8c.html#a138fa78f4651ff0e359e3f2af5e44e0d">waitpid</a></div><div class="ttdeci">PUBLIC pid_t waitpid(pid_t pid, int *wstatus, int options)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/df1/libc_2src_2std_2sys_2wait_8c_source.html#l00008">wait.c:8</a></div></div>
+<div class="ttc" id="alinux_8cpp_html_a288e13e815d43b06e75819f8939524df"><div class="ttname"><a href="../../d1/dd4/linux_8cpp.html#a288e13e815d43b06e75819f8939524df">pid_t</a></div><div class="ttdeci">int pid_t</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dd4/linux_8cpp_source.html#l00125">linux.cpp:125</a></div></div>
 <div class="ttc" id="amail_8c_html_a6943d6e2e83995c648644bc0a4d36f53"><div class="ttname"><a href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a></div><div class="ttdeci">#define status</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../d7/d5b/mail_8c.html#a6943d6e2e83995c648644bc0a4d36f53">status</a>, and <a class="el" href="../../d3/df1/libc_2src_2std_2sys_2wait_8c_source.html#l00008">waitpid()</a>.</p>

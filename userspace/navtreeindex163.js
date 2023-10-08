@@ -1,7 +1,5 @@
 var NAVTREEINDEX163 =
 {
-"d8/d12/ttydefaults_8h.html#a59c94e669e78fa9256075a108f759634":[6,0,1,3,3,5,56,13],
-"d8/d12/ttydefaults_8h.html#a618ca940766406f9ca1588fb46be1c25":[6,0,1,3,3,5,56,6],
 "d8/d12/ttydefaults_8h.html#a695c8d2a700c361dfd33ea71e0072165":[6,0,1,3,3,5,56,16],
 "d8/d12/ttydefaults_8h.html#a6a024cb86f13e357c3050c7c96e75536":[6,0,1,3,3,5,56,21],
 "d8/d12/ttydefaults_8h.html#a72285044abfbf25152a2e8e0926fcd76":[6,0,1,3,3,5,56,18],
@@ -249,5 +247,7 @@ var NAVTREEINDEX163 =
 "d8/d20/musl_2arch_2generic_2bits_2errno_8h.html#a0030614bc864d1b24eaedd71585acc27":[6,0,1,3,0,2,0,1,73],
 "d8/d20/musl_2arch_2generic_2bits_2errno_8h.html#a03e689f378f643d16ea7537918528a48":[6,0,1,3,0,2,0,1,75],
 "d8/d20/musl_2arch_2generic_2bits_2errno_8h.html#a059ed0ab5dab96dfe00ffca40b35155f":[6,0,1,3,0,2,0,1,57],
-"d8/d20/musl_2arch_2generic_2bits_2errno_8h.html#a07773d22c3eb7a4d4ea0696ee5f49841":[6,0,1,3,0,2,0,1,123]
+"d8/d20/musl_2arch_2generic_2bits_2errno_8h.html#a07773d22c3eb7a4d4ea0696ee5f49841":[6,0,1,3,0,2,0,1,123],
+"d8/d20/musl_2arch_2generic_2bits_2errno_8h.html#a088abe8bad2df798edad3053d719b937":[6,0,1,3,0,2,0,1,86],
+"d8/d20/musl_2arch_2generic_2bits_2errno_8h.html#a09e189d2214d9fe2847d27bf270ca1d7":[6,0,1,3,0,2,0,1,122]
 };

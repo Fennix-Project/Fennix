@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Fennix Kernel: Kernel/Modules/VMware/Mouse.cpp File Reference</title>
+<title>Fennix Kernel: Kernel/modules/VMware/Mouse.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -97,8 +97,8 @@ $(document).ready(function(){initNavTree('d6/d6b/VMware_2Mouse_8cpp.html','../..
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d4/d2c/VMware_2mouse_8hpp_source.html">mouse.hpp</a>&quot;</code><br />
 <code>#include &lt;<a class="el" href="../../db/d16/debug_8h_source.html">debug.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="../../dc/dac/io_8h_source.html">io.h</a>&gt;</code><br />
-<code>#include &quot;<a class="el" href="../../d3/dfe/DAPI_8hpp_source.html">../../DAPI.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../d9/d37/drv_8hpp_source.html">../drv.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../d7/d11/mapi_8hpp_source.html">../../mapi.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../da/d27/mod_8hpp_source.html">../mod.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d0/daa/kernel_8h_source.html">../../kernel.h</a>&quot;</code><br />
 </div>
 <p><a href="../../d6/d6b/VMware_2Mouse_8cpp_source.html">Go to the source code of this file.</a></p>
@@ -145,14 +145,14 @@ Functions</h2></td></tr>
 <tr class="separator:a5f474f43aacdcdc65b137a160a3ace45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad32a37e2e2efe193c50388c180349dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/de6/include_2types_8h.html#a3cb4a16b0e8d6af0af86d4fd6ba5fd9d">uint8_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#aad32a37e2e2efe193c50388c180349dd">VMwareMouse::Read</a> ()</td></tr>
 <tr class="separator:aad32a37e2e2efe193c50388c180349dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b15f5cceb16a6dcc1538bdd0749d8e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#a5b15f5cceb16a6dcc1538bdd0749d8e5">VMwareMouse::CallbackHandler</a> (<a class="el" href="../../d3/dfe/DAPI_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
+<tr class="memitem:a5b15f5cceb16a6dcc1538bdd0749d8e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#a5b15f5cceb16a6dcc1538bdd0749d8e5">VMwareMouse::CallbackHandler</a> (<a class="el" href="../../d7/d11/mapi_8hpp.html#d4/dc4/unionKernelCallback">KernelCallback</a> *<a class="el" href="../../d4/d33/smp_8hpp.html#a7c318f3349713a8030d610e4a263d10a">Data</a>)</td></tr>
 <tr class="separator:a5b15f5cceb16a6dcc1538bdd0749d8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac155b5664554b21b0bc2b37c60814399"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#ac155b5664554b21b0bc2b37c60814399">VMwareMouse::InterruptCallback</a> (<a class="el" href="../../d3/dfe/DAPI_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *)</td></tr>
+<tr class="memitem:ac155b5664554b21b0bc2b37c60814399"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#ac155b5664554b21b0bc2b37c60814399">VMwareMouse::InterruptCallback</a> (<a class="el" href="../../d7/d11/mapi_8hpp.html#da/db4/unionCPURegisters">CPURegisters</a> *)</td></tr>
 <tr class="separator:ac155b5664554b21b0bc2b37c60814399"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a20b661ddba7df2d5c22a6caf7a2c4328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dfe/DAPI_8hpp.html#d7/d61/structKernelAPI">KernelAPI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#a20b661ddba7df2d5c22a6caf7a2c4328">VMwareMouse::KAPI</a></td></tr>
+<tr class="memitem:a20b661ddba7df2d5c22a6caf7a2c4328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d11/mapi_8hpp.html#d7/d61/structKernelAPI">KernelAPI</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#a20b661ddba7df2d5c22a6caf7a2c4328">VMwareMouse::KAPI</a></td></tr>
 <tr class="separator:a20b661ddba7df2d5c22a6caf7a2c4328"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98cd88003bf1a8594937f1187bc1da0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d82/namespaceVMwareMouse.html#a98cd88003bf1a8594937f1187bc1da0c">VMwareMouse::MouseX</a> = 0</td></tr>
 <tr class="separator:a98cd88003bf1a8594937f1187bc1da0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,7 +170,7 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_559278b07106fc62284400afdb4b1bd1.html">Modules</a></li><li class="navelem"><a class="el" href="../../dir_f068a5f81eb142e0e5b0a21968d26e9d.html">VMware</a></li><li class="navelem"><a class="el" href="../../d6/d6b/VMware_2Mouse_8cpp.html">Mouse.cpp</a></li>
+    <li class="navelem"><a class="el" href="../../dir_52bed8acfaac088d5968cb2c84d7645d.html">Kernel</a></li><li class="navelem"><a class="el" href="../../dir_6bd7ae448e999fc4806673008d3d7608.html">modules</a></li><li class="navelem"><a class="el" href="../../dir_556c0b4534eef5fbc498cf658cdef6cc.html">VMware</a></li><li class="navelem"><a class="el" href="../../d6/d6b/VMware_2Mouse_8cpp.html">Mouse.cpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

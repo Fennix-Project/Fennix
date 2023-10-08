@@ -25,7 +25,7 @@ var dir_b8ba32dae580865efe537582ff8ab5a5 =
     [ "copy_file.c", "d1/d64/copy__file_8c.html", "d1/d64/copy__file_8c" ],
     [ "copyfd.c", "d0/df3/copyfd_8c.html", "d0/df3/copyfd_8c" ],
     [ "correct_password.c", "da/ddc/correct__password_8c.html", "da/ddc/correct__password_8c" ],
-    [ "crc32.c", "d7/d44/crc32_8c.html", "d7/d44/crc32_8c" ],
+    [ "crc32.c", "d7/d2f/Userspace_2apps_2base_2busybox_2libbb_2crc32_8c.html", "d7/d2f/Userspace_2apps_2base_2busybox_2libbb_2crc32_8c" ],
     [ "default_error_retval.c", "d7/de4/default__error__retval_8c.html", "d7/de4/default__error__retval_8c" ],
     [ "device_open.c", "d8/d77/device__open_8c.html", "d8/d77/device__open_8c" ],
     [ "die_if_bad_username.c", "d3/d2c/die__if__bad__username_8c.html", "d3/d2c/die__if__bad__username_8c" ],

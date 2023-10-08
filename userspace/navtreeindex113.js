@@ -1,7 +1,5 @@
 var NAVTREEINDEX113 =
 {
-"d5/dd1/dirfd_8c_source.html":[6,0,1,3,5,5,3],
-"d5/dd2/____timedwait_8c.html":[6,0,1,3,5,40,19],
 "d5/dd2/____timedwait_8c.html#a0943d3a318a20e7ac53c017b0f1b8a71":[6,0,1,3,5,40,19,6],
 "d5/dd2/____timedwait_8c.html#a1d202926c67a2c180538edce5da0631a":[6,0,1,3,5,40,19,3],
 "d5/dd2/____timedwait_8c.html#a40450c2c23f6cc66034f05722b11bfb4":[6,0,1,3,5,40,19,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX113 =
 "d5/de5/musl_2include_2inttypes_8h.html#a8b67140c216180e4e5d18003038ee689":[6,0,1,3,3,33,148],
 "d5/de5/musl_2include_2inttypes_8h.html#a9339814cbb7610c72fb7d30c6573b393":[6,0,1,3,3,33,0,0],
 "d5/de5/musl_2include_2inttypes_8h.html#a943961b7e7e564388dd743593db5bbbb":[6,0,1,3,3,33,11],
-"d5/de5/musl_2include_2inttypes_8h.html#a9540a0a3ff33b4f6a0feee15f3066984":[6,0,1,3,3,33,42]
+"d5/de5/musl_2include_2inttypes_8h.html#a9540a0a3ff33b4f6a0feee15f3066984":[6,0,1,3,3,33,42],
+"d5/de5/musl_2include_2inttypes_8h.html#a96945864cb2d1f7de861ccaf639af02e":[6,0,1,3,3,33,26],
+"d5/de5/musl_2include_2inttypes_8h.html#a9716b5135de22733c9c59bc4fc0e3a66":[6,0,1,3,3,33,123]
 };

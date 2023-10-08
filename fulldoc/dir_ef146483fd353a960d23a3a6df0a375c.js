@@ -62,7 +62,7 @@ var dir_ef146483fd353a960d23a3a6df0a375c =
     [ "semaphore.h", "d6/dc6/semaphore_8h.html", "d6/dc6/semaphore_8h" ],
     [ "setjmp.h", "d5/d00/musl_2include_2setjmp_8h.html", "d5/d00/musl_2include_2setjmp_8h" ],
     [ "shadow.h", "d6/dbe/shadow_8h.html", "d6/dbe/shadow_8h" ],
-    [ "signal.h", "de/d2b/musl_2include_2signal_8h.html", "de/d2b/musl_2include_2signal_8h" ],
+    [ "signal.h", "d5/dae/Userspace_2musl_2include_2signal_8h.html", "d5/dae/Userspace_2musl_2include_2signal_8h" ],
     [ "spawn.h", "de/d9e/musl_2include_2spawn_8h.html", "de/d9e/musl_2include_2spawn_8h" ],
     [ "stdalign.h", "df/d3e/stdalign_8h.html", "df/d3e/stdalign_8h" ],
     [ "stdarg.h", "d6/d75/Userspace_2musl_2include_2stdarg_8h.html", "d6/d75/Userspace_2musl_2include_2stdarg_8h" ],

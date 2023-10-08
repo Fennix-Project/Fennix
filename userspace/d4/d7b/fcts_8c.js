@@ -7,8 +7,6 @@ var fcts_8c =
     [ "GetELFSection", "d4/d7b/fcts_8c.html#ac64e7b15d99c2c64f09b7e9e0af2340f", null ],
     [ "GetELFSheader", "d4/d7b/fcts_8c.html#a8d5d44302c588514fb8eb168a6d3e2b6", null ],
     [ "GetELFStringTable", "d4/d7b/fcts_8c.html#a56610785f97a26da9415d18d56552fb6", null ],
-    [ "IPC", "d4/d7b/fcts_8c.html#ab3e025b8373e1fe6815618ed1ac5cc28", null ],
-    [ "KernelCTL", "d4/d7b/fcts_8c.html#a61667ab548927571c0ca068fe49239f6", null ],
     [ "ltoa", "d4/d7b/fcts_8c.html#aca5a8353d645c816b47891c9481c3b8f", null ],
     [ "memcpy", "d4/d7b/fcts_8c.html#a14938524dcbeb59d7117ba5e151ad1b1", null ],
     [ "memset", "d4/d7b/fcts_8c.html#ace6ee45c30e71865e6eb635200379db9", null ],

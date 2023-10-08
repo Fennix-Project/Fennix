@@ -94,6 +94,13 @@ var pci_8hpp =
       [ "Reserved", "d0/d8f/namespacePCI.html#a9601542f2b0799218aba54d4e5ac4b26", null ],
       [ "StartBus", "d0/d8f/namespacePCI.html#ada8614745df6bcfa4a10f7fa1d5c2b7e", null ]
     ] ],
+    [ "PCIDevice", "d0/d8f/namespacePCI.html#d2/d9d/structPCI_1_1PCIDevice", [
+      [ "Bus", "d0/d8f/namespacePCI.html#a2989d75e9e9d7611516473e472c3fc98", null ],
+      [ "Config", "d0/d8f/namespacePCI.html#ad5bc18a3a745ec35bd8af23d82c182a0", null ],
+      [ "Device", "d0/d8f/namespacePCI.html#a400a16eabf62a7bcddbae64e5ba90e8a", null ],
+      [ "Function", "d0/d8f/namespacePCI.html#a3cfadabdfe3be590527f42bfb7f2ab36", null ],
+      [ "Header", "d0/d8f/namespacePCI.html#a0214a26b08a27e4e46e834541b462416", null ]
+    ] ],
     [ "PCI", "d8/d81/classPCI_1_1PCI.html", "d8/d81/classPCI_1_1PCI" ],
     [ "PCICommands", "d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09", [
       [ "PCI_COMMAND_IO", "d9/dd5/pci_8hpp.html#a4cfe0f91749b9ec5b3a95b119f7a4b09a62a2a1e7bb729a0a105b6b28ec8c748c", null ],
