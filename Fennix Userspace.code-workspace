@@ -39,7 +39,12 @@
 			"syscall.h": "c",
 			"stdint.h": "c",
 			"setjmp.h": "c",
-			"limits.h": "c"
+			"limits.h": "c",
+			"fcntl.h": "c",
+			"pty.h": "c",
+			"string.h": "c",
+			"time.h": "c",
+			"reboot.h": "c"
 		},
 		"cSpell.words": [
 			"auxv",

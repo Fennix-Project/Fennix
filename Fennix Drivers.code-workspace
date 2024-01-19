@@ -1,7 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "./Modules"
+			"path": "./Drivers"
 		}
 	],
 	"settings": {
@@ -14,6 +14,7 @@
 			"Cardbus",
 			"CFIEN",
 			"cmdret",
+			"cmpb",
 			"ECTRL",
 			"EEPROM",
 			"Fennix",
@@ -25,6 +26,7 @@
 			"inportw",
 			"INTX",
 			"KAPI",
+			"LEDS",
 			"LPBK",
 			"LSTA",
 			"mminb",
@@ -87,8 +89,23 @@
 			"TXDESCLEN",
 			"TXDESCLO",
 			"TXDESCTAIL",
+			"TYPEMATIC",
+			"ubit",
 			"Virtio",
 			"Wmissing"
-		]
+		],
+		"files.associations": {
+			"*.su": "tsv",
+			"driver.h": "c",
+			"base.h": "c",
+			"types.h": "c",
+			"syscall.h": "c",
+			"aip.h": "c",
+			"input.h": "c",
+			"errno.h": "c",
+			"io.h": "c",
+			"rtl8139.hpp": "c",
+			"net.h": "c"
+		}
 	}
 }

@@ -83,7 +83,7 @@ build64:
   script:
     - apt-get update && apt-get install -y rustc xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64
     - make --quiet -C tools do_limine
-    - make --quiet -C Modules prepare
+    - make --quiet -C Drivers prepare
     - make --quiet -C Userspace prepare
     - make --quiet -C Lynx prepare
     - make --quiet -C Kernel prepare
@@ -107,7 +107,7 @@ build32:
   script:
     - apt-get update && apt-get install -y rustc xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64
     - make --quiet -C tools do_limine
-    - make --quiet -C Modules prepare
+    - make --quiet -C Drivers prepare
     - make --quiet -C Userspace prepare
     - make --quiet -C Lynx prepare
     - make --quiet -C Kernel prepare
@@ -130,7 +130,7 @@ buildarm64:
   script:
     - apt-get update && apt-get install -y rustc xorriso mtools genisoimage ovmf nasm doxygen make gcc-mingw-w64-x86-64 gcc-mingw-w64-i686 mingw-w64
     - make --quiet -C tools do_limine
-    - make --quiet -C Modules prepare
+    - make --quiet -C Drivers prepare
     - make --quiet -C Userspace prepare
     - make --quiet -C Lynx prepare
     - make --quiet -C Kernel prepare

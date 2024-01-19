@@ -32,7 +32,10 @@ QEMUFLAGS += -device vmware-svga -M q35 \
 			 -device ide-hd,drive=disk,bus=ahci.1 \
 			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
 			 -machine pcspk-audiodev=pa1 \
-			 -device AC97,audiodev=pa1
+			 -device AC97,audiodev=pa1 \
+			 -device intel-hda \
+			 -device ich9-intel-hda \
+			 -acpitable file=tools/SSDT1.dat
 else ifeq ($(OSARCH), i386)
 QEMUFLAGS += -M q35 \
 			 -usb \
@@ -49,7 +52,10 @@ QEMUFLAGS += -M q35 \
 			 -hda $(OSNAME).iso \
 			 -audiodev pa,id=pa1,server=/run/user/1000/pulse/native \
 			 -machine pcspk-audiodev=pa1 \
-			 -device AC97,audiodev=pa1
+			 -device AC97,audiodev=pa1 \
+			 -device intel-hda \
+			 -device ich9-intel-hda \
+			 -acpitable file=tools/SSDT1.dat
 else ifeq ($(OSARCH), aarch64)
 QEMUFLAGS += -M raspi3b \
 			 -cpu cortex-a57 \
@@ -57,7 +63,8 @@ QEMUFLAGS += -M raspi3b \
 			 -serial file:profiler.log \
 			 -serial file:serial3.dmp \
 			 -serial file:serial4.dmp \
-			 -kernel $(OSNAME).img
+			 -kernel $(OSNAME).img \
+			 -acpitable file=tools/SSDT1.dat
 endif
 
 doxygen:
@@ -66,7 +73,7 @@ doxygen:
 	doxygen Kernel/Doxyfile
 	doxygen Lynx/Doxyfile
 	doxygen Userspace/Doxyfile
-	doxygen Modules/Doxyfile
+	doxygen Drivers/Doxyfile
 
 qemu_vdisk:
 ifneq (,$(wildcard ./qemu-disk.img))
@@ -81,9 +88,9 @@ tools:
 	make --quiet -C Kernel prepare
 	make --quiet -C Lynx prepare
 	make --quiet -C Userspace prepare
-	make --quiet -C Modules prepare
+	make --quiet -C Drivers prepare
 
-build: build_lynx build_kernel build_userspace build_modules build_image
+build: build_lynx build_kernel build_userspace build_drivers build_image
 
 dump:
 	make --quiet -C Kernel dump
@@ -109,24 +116,24 @@ ifeq ($(BUILD_USERSPACE), 1)
 	make $(MAKE_QUIET_FLAG) -C Userspace build
 endif
 
-build_modules:
-ifeq ($(BUILD_MODULES), 1)
-	make $(MAKE_QUIET_FLAG) -C Modules build
+build_drivers:
+ifeq ($(BUILD_DRIVERS), 1)
+	make $(MAKE_QUIET_FLAG) -C Drivers build
 endif
 
 build_image:
 	mkdir -p iso_tmp_data
 	mkdir -p initrd_tmp_data
 	cp -r initrd/* initrd_tmp_data/
-ifeq ($(BUILD_MODULES), 1)
-	cp -r Modules/out/* initrd_tmp_data/modules/
+ifeq ($(BUILD_DRIVERS), 1)
+	cp -r Drivers/out/* initrd_tmp_data/usr/lib/drivers/
 endif
 ifeq ($(BUILD_USERSPACE), 1)
 	cp -r Userspace/out/* initrd_tmp_data/
 endif
 #	tar czf initrd.tar.gz -C initrd_tmp_data/ ./ --format=ustar
 	tar cf initrd.tar.gz -C initrd_tmp_data/ ./ --format=ustar
-	cp Kernel/kernel.fsys initrd.tar.gz \
+	cp Kernel/fennix.elf initrd.tar.gz \
 		iso_tmp_data/
 ifeq ($(BOOTLOADER), lynx)
 	cp tools/lynx.cfg Lynx/loader.bin Lynx/efi-loader.bin iso_tmp_data/
@@ -137,10 +144,17 @@ ifeq ($(BOOTLOADER), lynx)
 		iso_tmp_data -o $(OSNAME).iso
 endif
 ifeq ($(BOOTLOADER), limine)
-	cp tools/limine.cfg $(LIMINE_FOLDER)/limine.sys $(LIMINE_FOLDER)/limine-cd.bin $(LIMINE_FOLDER)/limine-cd-efi.bin iso_tmp_data/
-	xorriso -as mkisofs -quiet -b limine-cd.bin \
+	cp tools/limine.cfg $(LIMINE_FOLDER)/limine-bios.sys \
+						$(LIMINE_FOLDER)/limine-bios-cd.bin \
+						$(LIMINE_FOLDER)/limine-uefi-cd.bin \
+						iso_tmp_data/
+	mkdir -p iso_tmp_data/EFI/BOOT
+	cp  $(LIMINE_FOLDER)/BOOTX64.EFI \
+		$(LIMINE_FOLDER)/BOOTIA32.EFI \
+		iso_tmp_data/EFI/BOOT/
+	xorriso -as mkisofs -quiet -b limine-bios-cd.bin \
 		-no-emul-boot -boot-load-size 4 -boot-info-table \
-		--efi-boot limine-cd-efi.bin -V FENNIX \
+		--efi-boot limine-uefi-cd.bin -V FENNIX \
 		-efi-boot-part --efi-boot-image --protective-msdos-label \
 		iso_tmp_data -o $(OSNAME).iso
 endif
@@ -152,7 +166,7 @@ ifeq ($(BOOTLOADER), grub)
 	grub-mkrescue -o $(OSNAME).iso iso_tmp_data
 endif
 ifeq ($(OSARCH), aarch64)
-	$(COMPILER_PATH)/$(COMPILER_ARCH)objcopy Kernel/kernel.fsys -O binary $(OSNAME).img
+	$(COMPILER_PATH)/$(COMPILER_ARCH)objcopy Kernel/fennix.elf -O binary $(OSNAME).img
 endif
 
 ifeq ($(OSARCH), amd64)
@@ -192,12 +206,12 @@ vscode_debug_only:
 	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp parallel.log
 	$(QEMU) -S -gdb tcp::1234 -d int -no-reboot -no-shutdown $(QEMU_UEFI_BIOS) -m 512M $(QEMUFLAGS) $(QEMU_SMP_DBG)
 
-vscode_debug: build_lynx build_kernel build_userspace build_modules build_image vscode_debug_only
+vscode_debug: build_lynx build_kernel build_userspace build_drivers build_image vscode_debug_only
 
 qemu: qemu_vdisk
 	rm -f serial.log profiler.log serial3.dmp serial4.dmp network.dmp parallel.log
-#	touch serial.log parallel.log
-#	x-terminal-emulator -e tail -f serial.log &
+	touch serial.log parallel.log
+	# x-terminal-emulator -e tail -f serial.log &
 #	x-terminal-emulator -e tail -f parallel.log &
 	$(QEMU) $(QEMU_UEFI_BIOS) -cpu host $(QEMUFLAGS) $(QEMUHWACCELERATION) $(QEMUMEMORY) $(QEMU_SMP)
 
@@ -213,4 +227,4 @@ clean:
 	make -C Kernel clean
 	make -C Lynx clean
 	make -C Userspace clean
-	make -C Modules clean
+	make -C Drivers clean
